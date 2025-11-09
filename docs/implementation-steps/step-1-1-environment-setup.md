@@ -81,9 +81,9 @@ cd /Users/yasutaka/repo/Recaplet
 
 ### ✅ チェックリスト
 
-- [ ] `node --version` で v24.x.x が表示される
-- [ ] `npm --version` で 10.x.x 以上が表示される
-- [ ] `pwd` で Recaplet ディレクトリが表示される
+- [x] `node --version` で v24.x.x が表示される
+- [x] `npm --version` で 10.x.x 以上が表示される
+- [x] `pwd` で Recaplet ディレクトリが表示される
 
 ---
 
@@ -126,5 +126,6 @@ npm install -g npm@latest
 このステップで学んだこと、気づいたことをメモするのだ:
 
 ```
-（自由記述）
+nvmでアップデートするのをすっかり忘れていて、Node.jsが20のまんまだった。
+Nodeに限らず、バージョンアップデートを定期的に思い出すための何かがあるべきだと思った。
 ```
