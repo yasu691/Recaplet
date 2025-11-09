@@ -100,10 +100,10 @@ http://localhost:8081
 
 ### ✅ チェックリスト
 
-- [ ] ターミナルに QR コードが表示される
-- [ ] ブラウザで `http://localhost:8081` にアクセスできる
-- [ ] 白い背景に「Open up App.tsx to start working on your app!」というテキストが表示される
-- [ ] エラーが表示されない
+- [x] ターミナルに QR コードが表示される
+- [x] ブラウザで `http://localhost:8081` にアクセスできる
+- [x] 白い背景に「Open up App.tsx to start working on your app!」というテキストが表示される
+- [x] エラーが表示されない
 
 ### 期待される画面
 
@@ -220,9 +220,26 @@ Expo の基本プロジェクトが動作したら、次は [Step 1-3: Expo Rout
 このステップで学んだこと、気づいたことをメモするのだ:
 
 ```
-- Expo は create-expo-app で簡単にプロジェクト作成できる
-- Web、iOS、Android を同じコードで開発できる
-- React Native の View と Text の基本を理解した
+npx create-expo-app コマンドは指定フォルダに何かしらファイル・フォルダがあると失敗するので、別フォルダに作って移行した
 
-（自由に追記してください）
+# 1. 一つ上のディレクトリに移動
+cd ..
+
+# 2. 一時ディレクトリで Expo プロジェクト作成
+npx create-expo-app@latest RecapletTemp --template blank-typescript
+
+# 3. 作成されたファイルを Recaplet に移動（隠しファイル含む）
+mv RecapletTemp/* Recaplet/
+mv RecapletTemp/.gitignore Recaplet/
+mv RecapletTemp/.npmrc Recaplet/ 2>/dev/null || true
+
+# 4. 一時ディレクトリを削除
+rm -rf RecapletTemp
+
+# 5. Recaplet に戻る
+cd Recaplet
+
+# 6. 確認
+ls -la
+
 ```
