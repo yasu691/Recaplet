@@ -67,6 +67,17 @@ async function generateSummaries() {
     const feedsJson = await fs.readFile('feeds.json', 'utf-8');
     const feedsData = JSON.parse(feedsJson);
 
+    // 既存の記事を読み込み（存在しない場合は空配列）
+    let existingItems: NewsItem[] = [];
+    try {
+      const existingData = await fs.readFile('data/news.json', 'utf-8');
+      const parsed = JSON.parse(existingData) as NewsData;
+      existingItems = parsed.items || [];
+      console.log(`既存記事: ${existingItems.length} 件\n`);
+    } catch (error) {
+      console.log('既存記事なし（初回実行）\n');
+    }
+
     const allItems: NewsItem[] = [];
     let successCount = 0;
     let errorCount = 0;
@@ -120,17 +131,28 @@ async function generateSummaries() {
       }
     }
 
-    // 重複排除
-    const beforeDedup = allItems.length;
+    // 既存記事と新規記事をマージ
+    const mergedItems = [...existingItems, ...allItems];
+
+    // 重複排除（ID ベース）
+    const beforeDedup = mergedItems.length;
     const uniqueMap = new Map(
-      allItems.map(item => [item.id, item])
+      mergedItems.map(item => [item.id, item])
     );
-    const uniqueItems = Array.from(uniqueMap.values());
+    let uniqueItems = Array.from(uniqueMap.values());
 
     // 日時降順ソート
     uniqueItems.sort((a, b) =>
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
     );
+
+    // 最新1000件のみ保持
+    const maxItems = 1000;
+    const beforeTrim = uniqueItems.length;
+    if (uniqueItems.length > maxItems) {
+      uniqueItems = uniqueItems.slice(0, maxItems);
+      console.log(`\n記事数制限: ${beforeTrim} 件 → ${maxItems} 件（古い記事を ${beforeTrim - maxItems} 件削除）`);
+    }
 
     // JSON 出力
     const newsData: NewsData = {
@@ -153,10 +175,12 @@ async function generateSummaries() {
     );
 
     console.log('\n=== 処理完了 ===');
-    console.log(`成功: ${successCount} 件`);
+    console.log(`新規取得: ${successCount} 件`);
     console.log(`エラー: ${errorCount} 件`);
-    console.log(`重複排除前: ${beforeDedup} 件`);
-    console.log(`重複排除後: ${uniqueItems.length} 件`);
+    console.log(`既存記事: ${existingItems.length} 件`);
+    console.log(`マージ後: ${beforeDedup} 件`);
+    console.log(`重複排除後: ${beforeTrim} 件`);
+    console.log(`最終出力: ${uniqueItems.length} 件`);
     console.log(`出力先: data/news.json`);
 
   } catch (error) {
