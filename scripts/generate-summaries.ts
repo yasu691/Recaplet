@@ -8,6 +8,13 @@ import { generateArticleId } from '../utils/hash';
 // .env.local を明示的に読み込み
 config({ path: '.env.local' });
 
+// レート制限対策: リクエスト間の待機時間（ミリ秒）
+const RATE_LIMIT_DELAY_MS = 6000; // 6秒（1分あたり10リクエスト制限に対応）
+
+function sleep(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 function extractContent(item: any): string {
   return (
     item['content:encoded'] ||
@@ -67,7 +74,7 @@ async function generateSummaries() {
 
       try {
         const feed = await parser.parseURL(feedConfig.url);
-        const items = feed.items.slice(0, 10);
+        const items = feed.items.slice(0, 3); // レート制限対策: 3件に削減
 
         for (const item of items) {
           try {
@@ -100,6 +107,9 @@ async function generateSummaries() {
             successCount++;
             console.log(`  ✓ ${item.title}`);
 
+            // レート制限対策: 次のリクエストまで待機
+            await sleep(RATE_LIMIT_DELAY_MS);
+
           } catch (error) {
             errorCount++;
             console.error(`  ✗ エラー: ${item.title}`, error);
@@ -129,8 +139,16 @@ async function generateSummaries() {
       items: uniqueItems,
     };
 
+    // data/news.json に書き込み
     await fs.writeFile(
       'data/news.json',
+      JSON.stringify(newsData, null, 2),
+      'utf-8'
+    );
+
+    // public/data/news.json にもコピー（Web アプリ用）
+    await fs.writeFile(
+      'public/data/news.json',
       JSON.stringify(newsData, null, 2),
       'utf-8'
     );
