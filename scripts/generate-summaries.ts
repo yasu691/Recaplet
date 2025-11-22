@@ -1,19 +1,12 @@
 import { config } from 'dotenv';
 import Parser from 'rss-parser';
 import { generateText } from 'ai';
-import { google } from '@ai-sdk/google';
+import { azure } from '@ai-sdk/azure';
 import * as fs from 'fs/promises';
 import { generateArticleId } from '../utils/hash';
 
 // .env.local を明示的に読み込み
 config({ path: '.env.local' });
-
-// レート制限対策: リクエスト間の待機時間（ミリ秒）
-const RATE_LIMIT_DELAY_MS = 6000; // 6秒（1分あたり10リクエスト制限に対応）
-
-function sleep(ms: number): Promise<void> {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
 
 function extractContent(item: any): string {
   return (
@@ -55,9 +48,18 @@ interface NewsData {
 async function generateSummaries() {
   try {
     // 環境変数の確認
-    if (!process.env.GOOGLE_GENERATIVE_AI_API_KEY) {
-      throw new Error('GOOGLE_GENERATIVE_AI_API_KEY が設定されていません。');
+    if (!process.env.AZURE_OPENAI_API_KEY) {
+      throw new Error('AZURE_OPENAI_API_KEY が設定されていません。');
     }
+    if (!process.env.AZURE_OPENAI_ENDPOINT) {
+      throw new Error('AZURE_OPENAI_ENDPOINT が設定されていません。');
+    }
+    if (!process.env.AZURE_OPENAI_DEPLOYMENT_NAME) {
+      throw new Error('AZURE_OPENAI_DEPLOYMENT_NAME が設定されていません。');
+    }
+
+    // Azure OpenAI モデルの初期化
+    const model = azure(process.env.AZURE_OPENAI_DEPLOYMENT_NAME);
 
     console.log('=== RSS要約生成開始 ===\n');
 
@@ -74,7 +76,7 @@ async function generateSummaries() {
 
       try {
         const feed = await parser.parseURL(feedConfig.url);
-        const items = feed.items.slice(0, 3); // レート制限対策: 3件に削減
+        const items = feed.items.slice(0, 10); // 全件処理（Azure OpenAI はレート制限が緩い）
 
         for (const item of items) {
           try {
@@ -88,9 +90,9 @@ async function generateSummaries() {
             const cleanContent = stripHtml(rawContent);
             const limitedContent = cleanContent.slice(0, 2000);
 
-            // 要約生成
+            // 要約生成（Azure OpenAI）
             const result = await generateText({
-              model: google('gemini-2.5-flash'),
+              model: model,
               prompt: `以下の記事を200文字以内の日本語で要約してください:\n\n${limitedContent}`,
             });
 
@@ -106,9 +108,6 @@ async function generateSummaries() {
             allItems.push(newsItem);
             successCount++;
             console.log(`  ✓ ${item.title}`);
-
-            // レート制限対策: 次のリクエストまで待機
-            await sleep(RATE_LIMIT_DELAY_MS);
 
           } catch (error) {
             errorCount++;
