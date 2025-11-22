@@ -48,11 +48,11 @@ interface NewsData {
 async function generateSummaries() {
   try {
     // 環境変数の確認
-    if (!process.env.AZURE_OPENAI_API_KEY) {
-      throw new Error('AZURE_OPENAI_API_KEY が設定されていません。');
+    if (!process.env.AZURE_API_KEY) {
+      throw new Error('AZURE_API_KEY が設定されていません。');
     }
-    if (!process.env.AZURE_OPENAI_ENDPOINT) {
-      throw new Error('AZURE_OPENAI_ENDPOINT が設定されていません。');
+    if (!process.env.AZURE_RESOURCE_NAME) {
+      throw new Error('AZURE_RESOURCE_NAME が設定されていません。');
     }
     if (!process.env.AZURE_OPENAI_DEPLOYMENT_NAME) {
       throw new Error('AZURE_OPENAI_DEPLOYMENT_NAME が設定されていません。');
