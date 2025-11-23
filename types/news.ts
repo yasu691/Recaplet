@@ -5,6 +5,7 @@ export interface NewsItem {
   summary: string;
   source: string;
   publishedAt: string;
+  contentHash?: string;
 }
 
 export interface NewsData {

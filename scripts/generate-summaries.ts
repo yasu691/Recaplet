@@ -3,7 +3,7 @@ import Parser from 'rss-parser';
 import { generateText } from 'ai';
 import { azure } from '@ai-sdk/azure';
 import * as fs from 'fs/promises';
-import { generateArticleId } from '../utils/hash';
+import { generateArticleId, generateContentHash } from '../utils/hash';
 
 // .env.local を明示的に読み込み
 config({ path: '.env.local' });
@@ -38,6 +38,7 @@ interface NewsItem {
   summary: string;
   source: string;
   publishedAt: string;
+  contentHash?: string;
 }
 
 interface NewsData {
@@ -101,24 +102,42 @@ async function generateSummaries() {
             const cleanContent = stripHtml(rawContent);
             const limitedContent = cleanContent.slice(0, 2000);
 
-            // 要約生成（Azure OpenAI）
-            const result = await generateText({
-              model: model,
-              prompt: `以下の記事を200文字以内の日本語で要約してください:\n\n${limitedContent}`,
-            });
+            // コンテンツハッシュを生成
+            const contentHash = generateContentHash(limitedContent);
+
+            // 既存記事から同じcontentHashを持つものを検索
+            const existingItemWithSameContent = existingItems.find(
+              existing => existing.contentHash === contentHash
+            );
+
+            let summary: string;
+
+            if (existingItemWithSameContent) {
+              // 同じコンテンツの記事が既に存在する場合、既存の要約を再利用
+              summary = existingItemWithSameContent.summary;
+              console.log(`  ♻ 要約再利用: ${item.title}`);
+            } else {
+              // 新しいコンテンツの場合、要約を生成
+              const result = await generateText({
+                model: model,
+                prompt: `以下の記事を200文字以内の日本語で要約してください:\n\n${limitedContent}`,
+              });
+              summary = result.text;
+              console.log(`  ✓ 新規要約: ${item.title}`);
+            }
 
             const newsItem: NewsItem = {
               id: generateArticleId(item.link || ''),
               title: item.title || 'タイトルなし',
               url: item.link || '',
-              summary: result.text,
+              summary: summary,
               source: feedConfig.name,
               publishedAt: item.isoDate || new Date().toISOString(),
+              contentHash: contentHash,
             };
 
             allItems.push(newsItem);
             successCount++;
-            console.log(`  ✓ ${item.title}`);
 
           } catch (error) {
             errorCount++;
