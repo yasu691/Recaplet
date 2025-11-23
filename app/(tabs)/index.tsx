@@ -7,9 +7,11 @@ import {
   Pressable,
   Alert,
   Linking,
+  Platform,
 } from 'react-native';
 import { useState, useEffect } from 'react';
 import * as Clipboard from 'expo-clipboard';
+import Constants from 'expo-constants';
 import type { NewsItem } from '@/types/news';
 
 export default function HomeScreen() {
@@ -22,7 +24,11 @@ export default function HomeScreen() {
       setLoading(true);
       setError(null);
 
-      const response = await fetch('/data/news.json');
+      // Web: 相対パス、Native: Netlifyの絶対URL
+      const baseUrl = Platform.OS === 'web'
+        ? ''
+        : (Constants.expoConfig?.extra?.apiUrl || 'https://recaplet.netlify.app');
+      const response = await fetch(`${baseUrl}/data/news.json`);
 
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: データの取得に失敗しました`);
