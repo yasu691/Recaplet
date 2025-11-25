@@ -136,12 +136,33 @@ git pull
    - `AZURE_API_KEY`
    - `AZURE_RESOURCE_NAME`
    - `AZURE_OPENAI_DEPLOYMENT_NAME`
+   - `NETLIFY_BUILD_HOOK` (Netlify自動デプロイ用)
 
 2. **リポジトリの権限**
    - Actions に `contents: write` 権限があるか確認
 
 3. **ワークフローログ**
    - GitHub の Actions タブでエラーメッセージを確認
+
+### Netlify自動デプロイの設定
+
+データ更新時にNetlifyを自動的に再ビルドするには、以下の手順でBuild Hookを設定:
+
+1. **Netlify Build Hookの作成**
+   - Netlifyダッシュボード → Site settings → Build & deploy → Build hooks
+   - 「Add build hook」をクリック
+   - Hook名: `GitHub Actions News Update`
+   - ブランチ: `main` (またはデプロイブランチ)
+   - 生成されたURLをコピー
+
+2. **GitHub Secretsに追加**
+   - GitHubリポジトリ → Settings → Secrets and variables → Actions
+   - 「New repository secret」をクリック
+   - Name: `NETLIFY_BUILD_HOOK`
+   - Secret: コピーしたNetlify Build Hook URL
+   - 「Add secret」をクリック
+
+これにより、GitHub Actionsがニュースデータを更新すると、Netlifyが自動的に再ビルドして最新データを配信します。
 
 ## 関連ドキュメント
 

@@ -39,3 +39,13 @@ jobs:
           git add data/news.json public/data/news.json
           git diff --quiet && git diff --staged --quiet || \
             (git commit -m "chore: update news data [skip ci]" && git push)
+
+      - name: Trigger Netlify Deploy
+        if: success()
+        run: |
+          if [ -n "${{ secrets.NETLIFY_BUILD_HOOK }}" ]; then
+            curl -X POST -d {} "${{ secrets.NETLIFY_BUILD_HOOK }}"
+            echo "Netlify build triggered"
+          else
+            echo "NETLIFY_BUILD_HOOK secret is not set, skipping deploy trigger"
+          fi
