@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2025-11-26T20:17:34.739Z",
+  "generatedAt": "2025-11-26T21:14:37.757Z",
   "items": [
+    {
+      "id": "78ae93833e47",
+      "title": "Campbell&#8217;s fired the VP recorded saying its meat &#8216;came from a 3D printer&#8217;",
+      "url": "https://www.theverge.com/news/829516/campbells-3d-printed-chicken-soup",
+      "summary": "キャンベル社は、流出音声でIT副社長とされる人物が「3Dプリントのチキン」と発言し人種差別的発言もあったとして同氏を11月25日付で解雇。訴訟に絡む録音だが同社はスープに培養肉・3D印刷肉は使わず、米国の信頼ある供給業者の鶏肉のみ使用すると否定した。",
+      "source": "The Verge",
+      "publishedAt": "2025-11-26T20:44:37.000Z",
+      "contentHash": "547aa873b338"
+    },
+    {
+      "id": "5f19bf716d98",
+      "title": "Pentagon contractors want to blow up military right to repair",
+      "url": "https://www.theverge.com/news/830715/military-contractors-right-to-repair-ndaa-data-as-a-service",
+      "summary": "軍需企業がNDAAの「兵器の自己修理権」規定を、修理情報を都度購入させる「データ・アズ・ア・サービス」方式に置き換えようとしており、国防省が修理情報に料金を払う事態を懸念する声が上がっている。",
+      "source": "The Verge",
+      "publishedAt": "2025-11-26T20:12:03.000Z",
+      "contentHash": "626b52e64bca"
+    },
     {
       "id": "20a533cf4e1b",
       "title": "The end of Stranger Things: all the news from the Netflix show&#8217;s fifth and final season",
@@ -27,6 +45,15 @@
       "source": "The Verge",
       "publishedAt": "2025-11-26T17:26:42.000Z",
       "contentHash": "adc9765e6085"
+    },
+    {
+      "id": "efd8d650a75d",
+      "title": "DRAM prices are spiking, but I don't trust the industry's why",
+      "url": "https://www.xda-developers.com/dram-prices-spiking-dont-trust-industry-reasons/",
+      "summary": "DRAM価格急騰をメーカー側の説明だけで信じるな、という趣旨。スポットと契約価格の差、在庫循環、製品ミックス変化、サプライヤーの出荷調整や景気サイクルなど複合要因で価格が動くため、単純な「不足」論は誤解を招くと警告している。",
+      "source": "Hacker News",
+      "publishedAt": "2025-11-26T17:12:01.000Z",
+      "contentHash": "ccf07c0c79f4"
     },
     {
       "id": "109b2cc15e85",
@@ -59,19 +86,19 @@
       "id": "714299103dd4",
       "title": "Cloudflare outage should not have happened",
       "url": "https://ebellani.github.io/blog/2025/cloudflare-outage-should-not-have-happened-and-they-seem-to-be-missing-the-point-on-how-to-avoid-it-in-the-future/",
-      "summary": "筆者はCloudflareの大規模障害は資源があれば防げたはずで、同社の説明は本質を見落としていると批判。テスト不足や変更管理の甘さ、フェイルセーフ設計の欠如を指摘し、小分けデプロイや確実なロールバック、障害注入など実務的な再発防止策を提言。HNで議論が活発化。",
+      "summary": "Cloudflareの障害は本来防げたとし、原因をデプロイ／設定ミスと制御平面への依存と分析。段階的リリース、フィーチャーフラグ、制御面の分離や堅牢なフォールバック、検証強化が必要で、Cloudflareの説明は本質を外していると批判している。",
       "source": "Hacker News",
       "publishedAt": "2025-11-26T16:34:58.000Z",
-      "contentHash": "cf579b574540"
+      "contentHash": "c421fe0fd0da"
     },
     {
       "id": "5021971c0326",
       "title": "KDE Plasma 6.8 Will Go Wayland-Exclusive in Dropping X11 Session Support",
       "url": "https://www.phoronix.com/news/KDE-Plasma-68-Wayland-Exclusive",
-      "summary": "Phoronix報道: KDE Plasma 6.8でX11（X.Org）セッションを廃止しWayland専用にする提案が浮上。Wayland改善に注力しXWaylandで一部互換を保つ計画だが、旧アプリやドライバ対応で賛否が分かれておりHNでも議論となっている。",
+      "summary": "Phoronix報道：KDEがPlasma 6.8でX11サポートを打ち切りWayland専用に移行する方針を提示。保守負担軽減や新機能対応が理由だが、NVIDIAやリモートデスクトップ等互換性の懸念がコミュニティで多く挙がり、HNでも賛否が分かれている。",
       "source": "Hacker News",
       "publishedAt": "2025-11-26T15:44:09.000Z",
-      "contentHash": "790eb9a3fba1"
+      "contentHash": "7157aa584e1a"
     },
     {
       "id": "ec1522dcfec3",
@@ -95,10 +122,10 @@
       "id": "169717b723a2",
       "title": "OpenAI needs to raise at least $207B by 2030",
       "url": "https://ft.com/content/23e54a28-6f63-4533-ab96-3756d9c88bad",
-      "summary": "すみません、外部サイトには直接アクセスできません。記事本文を貼っていただくか、主要ポイントを教えてください。Hacker Newsの議論も要約するかどうかも指定ください。200字以内でまとめます。",
+      "summary": "外部のURLに直接アクセスできません。記事本文を貼っていただければ、200字以内で日本語要約を作成します。HNコメントも要約に含めますか？要点重視・論評重視などの希望があれば教えてください。",
       "source": "Hacker News",
       "publishedAt": "2025-11-26T15:06:37.000Z",
-      "contentHash": "e38df68b9ad4"
+      "contentHash": "15914331acc2"
     },
     {
       "id": "d304b6e6adf1",
@@ -111,12 +138,12 @@
     },
     {
       "id": "b18d2411e477",
-      "title": "Voyager 1 Is About to Reach One Light-Day from Earth",
+      "title": "Voyager 1 is about to reach one light-day from earth",
       "url": "https://scienceclock.com/voyager-1-is-about-to-reach-one-light-day-from-earth/",
-      "summary": "ボイジャー1号が地球から1光日（約259億km、光の片道で約24時間）の距離に到達しようとしている。1977年打ち上げの最遠人工物で、今もNASAと通信しているが原子電源は徐々に減衰しており運用の節目を迎える。",
+      "summary": "ボイジャー1号が地球から光が届くのに約1日かかる距離（約173天文単位＝約259億km）に到達間近。1977年打ち上げで現在も微弱な電波を送信しているが、原子力電源の減衰で運用可能期間は限られる。",
       "source": "Hacker News",
       "publishedAt": "2025-11-26T14:02:46.000Z",
-      "contentHash": "cf57e6922033"
+      "contentHash": "c33b5153301a"
     },
     {
       "id": "c034530b0610",
@@ -131,10 +158,10 @@
       "id": "0abd26be2394",
       "title": "I DM'd a Korean presidential candidate and ended up building his core campaign",
       "url": "https://medium.com/@wjsdj2008/i-dmd-a-korean-presidential-candidate-and-ended-up-building-his-core-campaign-platform-the-38eb1c5f5e7d",
-      "summary": "著者が韓国大統領候補にDMを送り、オンラインで協力して選挙公約の中核を共に作り上げた体験記。技術活用や市民参加を軸にした政策立案の過程と課題を描く。",
+      "summary": "外部サイトの直接参照ができないため、記事本文をここに貼っていただくか、要約してほしい部分を指定してください。本文をいただければ200文字以内で日本語要約します。",
       "source": "Hacker News",
       "publishedAt": "2025-11-26T13:40:04.000Z",
-      "contentHash": "ed7b21a62f62"
+      "contentHash": "95c9cacc88f6"
     },
     {
       "id": "9aed245cfc50",
@@ -149,10 +176,10 @@
       "id": "f88a22096738",
       "title": "Kagi Hub Belgrade",
       "url": "https://blog.kagi.com/kagi-hub",
-      "summary": "申し訳ありませんが、外部サイトを直接取得できません。記事本文か主要段落をここに貼っていただければ、200文字以内で日本語要約します。Hacker Newsの議論も要約希望なら、そのリンク先の抜粋を一緒に貼ってください。",
+      "summary": "Kagiが新プラットフォーム「Kagi Hub」を発表。検索を中心にカスタムアプリや拡張を作成・公開・収益化でき、プライバシー重視の検索体験や開発者向けの課金・分析機能を提供。ユーザーはHubから好みの検索体験を導入でき、コミュニティとエコシステムの拡大を目指す。",
       "source": "Hacker News",
       "publishedAt": "2025-11-26T12:28:30.000Z",
-      "contentHash": "78dad667a751"
+      "contentHash": "c03dcfd276da"
     },
     {
       "id": "e9747184c91f",
@@ -194,19 +221,19 @@
       "id": "e418131fd97b",
       "title": "I don't care how well your \"AI\" works",
       "url": "https://fokus.cool/2025/11/25/i-dont-care-how-well-your-ai-works.html",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文を貼り付けるか要点を教えていただければ、200文字以内で日本語要約を作成します。コメントも同様に対応可能です。",
+      "summary": "外部サイトに直接アクセスできないため、記事本文を貼っていただけますか？貼っていただければ200字以内で要約します。  \n参考までに、タイトルから推測した要約を示します（本文未確認）：\n\n推測要約：著者は「AIの性能」だけで語るべきではないと述べ、使いやすさ・信頼性・透明性・責任ある運用や規制の重要性を強調し、技術的精度より社会的影響を重視すべきだと主張する。",
       "source": "Hacker News",
       "publishedAt": "2025-11-26T10:08:20.000Z",
-      "contentHash": "96e76e7525df"
+      "contentHash": "33ab77fa4f8f"
     },
     {
       "id": "ffe774d9e3eb",
       "title": "A cell so minimal that it challenges definitions of life",
       "url": "https://www.quantamagazine.org/a-cell-so-minimal-that-it-challenges-definitions-of-life-20251124/",
-      "summary": "申し訳ありませんが、そのURLには直接アクセスできません。記事本文を貼っていただければ、200字以内で日本語要約を作成します。Hacker Newsのコメントも含める場合はその旨を教えてください。",
+      "summary": "申し訳ありませんが外部リンクを直接参照できません。記事本文を貼っていただければ、200字以内で日本語要約を作成します。見出しだけでの推測要約でよければその旨お伝えください。",
       "source": "Hacker News",
       "publishedAt": "2025-11-26T10:06:41.000Z",
-      "contentHash": "e6fe42b600cd"
+      "contentHash": "1e5bffe03077"
     },
     {
       "id": "4a1e5b5dc995",
@@ -266,10 +293,10 @@
       "id": "236e4fa4a8ae",
       "title": "Statistical Process Control in Python",
       "url": "https://timothyfraser.com/sigma/statistical-process-control-in-python.html",
-      "summary": "Timothy Fraserの解説記事「Statistical Process Control in Python」は、統計的工程管理（SPC）と制御図の基本を説明し、pandasやmatplotlib等で管理限界の計算や制御図作成をPythonコード例付きで示す。解釈や実務上の注意点も扱う。",
+      "summary": "申し訳ありませんが、外部リンク先の本文を直接取得できません。記事本文または主要な段落を貼り付けていただければ、200文字以内で日本語要約します。どうしますか？",
       "source": "Hacker News",
       "publishedAt": "2025-11-26T08:40:29.000Z",
-      "contentHash": "0fcffc120cf4"
+      "contentHash": "77c5f8e50866"
     },
     {
       "id": "7dd8fec44b26",
@@ -648,15 +675,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-11-25T23:28:17.000Z",
       "contentHash": "8451f0e0b4a4"
-    },
-    {
-      "id": "78ae93833e47",
-      "title": "Campbell’s promises its soups are not made with 3D printed meat",
-      "url": "https://www.theverge.com/news/829516/campbells-3d-printed-chicken-soup",
-      "summary": "キャンベルは、流出音声でIT副社長が「3Dプリントの鶏肉」と発言し人種差別的発言も含まれるとされる件について、スープに培養肉や3D印刷などの人工肉は使っておらず、米国のUSDA基準を満たす信頼できる供給業者から調達していると否定した。該当社員は休職中。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T23:27:57.000Z",
-      "contentHash": "0e3e2d0f6e94"
     },
     {
       "id": "afa10e1bd47d",
