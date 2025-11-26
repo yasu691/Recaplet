@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2025-11-26T10:18:55.314Z",
+  "generatedAt": "2025-11-26T11:14:43.307Z",
   "items": [
+    {
+      "id": "4a1e5b5dc995",
+      "title": "自然物から人工物へ - 16年目のピクシブ百科事典を支える最新の技術基盤 | pixiv inside",
+      "url": "https://inside.pixiv.blog/2025/11/26/190000",
+      "summary": "ピクシブ百科事典のフロントエンド担当エンジニアahuが、2009年β版以来16周年を迎える同サービスの開発体制を報告。Next.js v15／React v19で稼働し、チーム再編後の直近1年半の取り組みを「自然物から人工物へ」の視点で紹介する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-11-26T10:00:00.000Z",
+      "contentHash": "0b2743d934e2"
+    },
     {
       "id": "31f556337020",
       "title": "Investigating fine-tuning limitations for VLMs with three case studies | Ridge-institute R&amp;amp;D Blog",
@@ -18,6 +27,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-26T09:36:04.000Z",
       "contentHash": "ed3713e0eb06"
+    },
+    {
+      "id": "c4d93967bc7b",
+      "title": "ast-grep/claude-skill で Claude Code に AST ベースの検索を導入する | chot Inc. tech blogのフィード",
+      "url": "https://zenn.dev/chot/articles/0f99c8c7c7afe5",
+      "summary": "ast-grep/claude-skillを使うと、ClaudeがYAMLルールを生成して「try-catchがないasync関数」など構造的・否定条件のコードを1コマンドで抽出できます。導入と検証結果を紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-11-26T09:25:32.000Z",
+      "contentHash": "20f83104a9cd"
     },
     {
       "id": "529f632aaa34",
@@ -338,10 +356,10 @@
       "id": "28240ee982ad",
       "title": "CS234: Reinforcement Learning Winter 2025",
       "url": "https://web.stanford.edu/class/cs234/",
-      "summary": "Stanford大のCS234「強化学習」公式ページ。講義スライド・ノート・課題・プロジェクト案・参考文献など教材を公開し、強化学習の理論と実装を無料で学べる内容を提供している。",
+      "summary": "申し訳ありませんが外部リンクに直接アクセスできません。記事本文か要点を貼っていただけますか？貼っていただければ200文字以内で日本語要約します。HNコメントも可。",
       "source": "Hacker News",
       "publishedAt": "2025-11-26T00:33:29.000Z",
-      "contentHash": "365fdd3ac251"
+      "contentHash": "1d7a7c342eae"
     },
     {
       "id": "4eea6ad6a30a",
@@ -401,10 +419,10 @@
       "id": "013d527523cf",
       "title": "The Generative Burrito Test",
       "url": "https://www.generativist.com/notes/2025/Nov/25/generative-burrito-test.html",
-      "summary": "申し訳ありませんが外部サイトに直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で日本語要約します。HNコメントもまとめられます。",
+      "summary": "申し訳ありませんが、私は外部サイトを直接参照できません。記事本文をここに貼るか主要ポイントを教えてください。いただければ200文字以内の日本語要約を作成します。",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T23:28:17.000Z",
-      "contentHash": "4ec99b108581"
+      "contentHash": "58d89fc9671b"
     },
     {
       "id": "78ae93833e47",
@@ -473,10 +491,10 @@
       "id": "3e5e69efd86e",
       "title": "Reinventing how .NET builds and ships (again)",
       "url": "https://devblogs.microsoft.com/dotnet/reinventing-how-dotnet-builds-and-ships-again/",
-      "summary": "Microsoftが.NETのビルドと配布パイプラインを大改造。CI/CDの自動化や再現可能で署名済みのアーティファクト生成、パイプラインの簡素化によりリリース速度と品質を高め、貢献者の体験を改善する取り組みを紹介。",
+      "summary": "Microsoftが.NETのビルドと配布を再設計。CI/CDを統合・自動化してGitHubベースへ移行し、再現性・署名・セキュリティを強化。リポジトリとツールを整理し、リリース速度と信頼性、コミュニティ貢献を向上させる。",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T22:37:48.000Z",
-      "contentHash": "f911a86ad99d"
+      "contentHash": "175640ead255"
     },
     {
       "id": "2faa13b8fca7",
@@ -500,19 +518,19 @@
       "id": "6ff01bc91f86",
       "title": "What they don't tell you about maintaining an open source project",
       "url": "https://andrej.sh/blog/maintaining-open-source-project/",
-      "summary": "AndrejはOSS維持の実践的教訓を提示。プロジェクトは成長で負担増するため範囲を限定し方針と貢献ルールを明確化、CI/テストやテンプレ化で自動化しトリアージと委任でメンテ負荷を下げ、持続可能性を優先せよ。",
+      "summary": "Andrej KarpathyがOSS運営の実践的指南。期待値を明確にし、READMEや貢献ガイド、テンプレートで参入障壁を下げ、CIや自動化で雑務を減らす。Issue/PRは整理・優先付け・早期クローズ、権限委譲と境界設定で燃え尽きを防ぎ、持続可能性を重視せよ、という内容。",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T22:08:25.000Z",
-      "contentHash": "bd99388051f6"
+      "contentHash": "fef94466251d"
     },
     {
       "id": "4d2de164c3e2",
       "title": "Someone at YouTube Needs Glasses: The Prophecy Has Been Fulfilled",
       "url": "https://jayd.ml/2025/11/10/someone-at-youtube-needs-glasses-prophecy-fulfilled.html",
-      "summary": "「Someone at YouTube needs glasses」のHacker Newsスレッドで、YouTubeの視認性やUIの不備、誤表示や誤クリックを招くデザイン、推薦アルゴリズムやUXに関する不満と改善案が多数議論された。",
+      "summary": "外部リンクに直接アクセスできないため元記事を取得できません。記事本文か主要抜粋を貼り付けてください。いただければ200字以内で日本語要約します。",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T22:04:31.000Z",
-      "contentHash": "702cd945facb"
+      "contentHash": "583ba3b7cf4f"
     },
     {
       "id": "292f631c6a64",
@@ -545,10 +563,10 @@
       "id": "7e0e6d42b014",
       "title": "Google steers Americans looking for health care into \"junk insurance\"",
       "url": "https://pluralistic.net/2025/11/25/open-season/",
-      "summary": "申し訳ありませんが、私は外部ウェブページを直接取得できません。記事本文か要点をここに貼っていただければ、200文字以内の日本語で要約します。HNのコメントも要約希望なら合わせて貼ってください。",
+      "summary": "申し訳ありませんが、現在ウェブページを直接取得できません。記事全文か主要段落を貼っていただければ、200文字以内で日本語要約します。要約のトーン（例：中立、批判的、簡潔）も指定できます。どうしますか？",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T21:45:01.000Z",
-      "contentHash": "765848ffdd99"
+      "contentHash": "7d1df90b7455"
     },
     {
       "id": "8dddef2542d9",
@@ -617,19 +635,19 @@
       "id": "63057df8693a",
       "title": "ICE Offers Up to $280M to Immigrant-Tracking 'Bounty Hunter' Firms",
       "url": "https://www.wired.com/story/ice-bounty-hunter-spy-program/",
-      "summary": "WIREDは、ICEの「HUNTER」計画が民間のバウンティハンターや外部業者を使い、SNSや位置情報、車両データなどの商用監視で移民を追跡していたと報道。監視の透明性欠如や法的・人権上の懸念が指摘される。",
+      "summary": "記事は、米移民・税関捜査局（ICE）が民間業者を通じ報酬を与える「バウンティハンター」的な情報提供者を雇い、移民や亡命希望者に潜入・監視させる秘密プログラムを報じる。偽装勧誘やSNS・位置情報の監視を伴い、法的・倫理的問題と監督不足が問題視されている。",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T20:02:05.000Z",
-      "contentHash": "cde9d3cdd4b9"
+      "contentHash": "37071628b1e4"
     },
     {
       "id": "cb7c24a2da44",
       "title": "A new bridge links the math of infinity to computer science",
       "url": "https://www.quantamagazine.org/a-new-bridge-links-the-strange-math-of-infinity-to-computer-science-20251121/",
-      "summary": "申し訳ありませんが、外部URLのページを直接参照できません。記事全文を貼っていただければ200字以内で要約します。  \n望めばタイトルに基づく仮要約（未確認）を提示します。\n\n仮要約（未確認）: 無限に関する抽象数学（集合論や無限ゲームなど）と計算機科学を結ぶ新たな理論的橋が示され、計算可能性や複雑性の理解に新しい示唆を与える。",
+      "summary": "集合論や無限ゲームなどの「無限」に関する数学と計算理論を結ぶ新しい枠組みが提示され、無限構造を扱う理論的計算モデルや検証・複雑性理論に新たな視点と道具をもたらす。",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T19:53:20.000Z",
-      "contentHash": "88b53986467c"
+      "contentHash": "bf6ac9f4ee10"
     },
     {
       "id": "b7fa614b493c",
