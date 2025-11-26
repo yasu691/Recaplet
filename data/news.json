@@ -1,6 +1,33 @@
 {
-  "generatedAt": "2025-11-26T06:24:17.097Z",
+  "generatedAt": "2025-11-26T07:16:44.174Z",
   "items": [
+    {
+      "id": "74c651f0f8ea",
+      "title": "2025年12月技術イベント予定 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2025/11/26/160000",
+      "summary": "Sansanは技術イベントや勉強会の主催・協賛・登壇を行っています。各イベントの詳細はリンク先で確認してください。開催状況や掲載情報は公開当時のもので、最新情報は各イベントページをご参照ください。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-11-26T07:00:00.000Z",
+      "contentHash": "55afba3463f4"
+    },
+    {
+      "id": "6904a9a38a58",
+      "title": "Qualcomm reveals its not-so-elite Snapdragon 8 Gen 5",
+      "url": "https://www.theverge.com/news/828959/qualcomm-snapdragon-8-gen-5",
+      "summary": "Qualcommは廉価版フラッグシップSoC「Snapdragon 8 Gen 5」を発表。Elite版よりCPUクロック（プライム3.8GHz/他3.32GHz）やGPU/NPU、5G性能やUFS4.1で若干劣るが充電・表示・カメラ機能やWi‑Fi/Bluetooth/衛星/UWBは同等。Motorola、OnePlus、Vivoらが採用予定で数週間内に製品登場（OnePlus 15Rの可能性）。",
+      "source": "The Verge",
+      "publishedAt": "2025-11-26T06:30:00.000Z",
+      "contentHash": "7a87e188cf81"
+    },
+    {
+      "id": "19ffe1364a3b",
+      "title": "CODESYSプロジェクトをAIで読み解く | ABEJA Tech Blog",
+      "url": "https://tech-blog.abeja.asia/entry/codesys-project-ai-analysis-202511",
+      "summary": "CODESYSでRefrigerator Control例のプロジェクトから.export→XMLを作成し、AIでPLCコード解析を検証した報告。検証環境準備、方法・結果、課題、まとめと今後の展望を示す。著者は制御系出身でABEJA入社間もない。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-11-26T06:02:57.000Z",
+      "contentHash": "fb8c91fa4838"
+    },
     {
       "id": "1819a5f80f1d",
       "title": "[UE5]初心者向け！特殊床ギミックをブループリントで簡単実装してみよう！ | historia Inc – 株式会社ヒストリア",
@@ -18,6 +45,24 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-26T05:27:00.000Z",
       "contentHash": "718a26a50d3c"
+    },
+    {
+      "id": "1834d449eba5",
+      "title": "Azure VM – Azure Storageサービスを使用しないAzure Bastion 経由でのファイル転送方法 – | TechHarmony",
+      "url": "https://blog.usize-tech.com/azure-bastion-file-transfer/",
+      "summary": "Bastion経由でVMに接続する際、Azureポータル上のBastionでは通常ファイル転送ができない点を指摘し、ローカルPCからVMへアプリを導入する際のファイル転送方法や回避策を解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-11-26T05:22:58.000Z",
+      "contentHash": "86136a71005f"
+    },
+    {
+      "id": "d78a4c5f892d",
+      "title": "【ServiceNow】画像データを環境間で移送する方法（XMLエクスポート/インポート） | TechHarmony",
+      "url": "https://blog.usize-tech.com/servicenow-image-xml/",
+      "summary": "SCSKの庄司が、ServiceNowの環境間での画像移送方法を解説する記事。内容は執筆時点（2025年11月）の情報で、最新情報は製品ドキュメントを参照するよう案内しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-11-26T05:19:18.000Z",
+      "contentHash": "e2a50243f28a"
     },
     {
       "id": "1e6507cf99ba",
@@ -311,10 +356,10 @@
       "id": "3e5e69efd86e",
       "title": "Reinventing how .NET builds and ships (again)",
       "url": "https://devblogs.microsoft.com/dotnet/reinventing-how-dotnet-builds-and-ships-again/",
-      "summary": "Microsoftが.NETのビルドと出荷フローを再設計。モノリシックなパイプラインを分解し、ソース主導・自動化・分散ビルドやアーティファクト公開の近代化で高速化、品質向上、貢献のしやすさを目指す。",
+      "summary": "Microsoftが.NETのビルドと出荷プロセスを再設計。CI/CDやリポジトリ構成、パッケージ化を見直して高速化・信頼性向上を図り、開発者体験とコミュニティ貢献を促進し頻繁なリリースを目指す。",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T22:37:48.000Z",
-      "contentHash": "c8952254aabb"
+      "contentHash": "285bb6a895d2"
     },
     {
       "id": "2faa13b8fca7",
@@ -338,19 +383,19 @@
       "id": "6ff01bc91f86",
       "title": "What they don't tell you about maintaining an open source project",
       "url": "https://andrej.sh/blog/maintaining-open-source-project/",
-      "summary": "OSS維持に関する実践的助言。明確なドキュメントと貢献ガイド、CI・自動化で手間削減、課題とPRの厳格なトリアージ、範囲を絞って断る勇気、貢献者への感謝と報酬で燃え尽きを防ぐ重要性を説く。",
+      "summary": "Andrej Karpathyは、オープンソースの保守が時間・精神面で重く無償労働になりがちだと指摘。自動化、CI、ドキュメント、貢献ルールで負担を減らし、優先順位付けや境界設定で「全部やらない」ことを勧める。",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T22:08:25.000Z",
-      "contentHash": "5df93f03b6b5"
+      "contentHash": "83c725656747"
     },
     {
       "id": "4d2de164c3e2",
       "title": "Someone at YouTube Needs Glasses: The Prophecy Has Been Fulfilled",
       "url": "https://jayd.ml/2025/11/10/someone-at-youtube-needs-glasses-prophecy-fulfilled.html",
-      "summary": "HN投稿「Someone at YouTube needs glasses」では、YouTubeの「関連動画」表示が誤導的・無関係だと批判が集中。アルゴリズムやUI設計の欠陥、悪用やモデレーション問題、改善案の議論が活発化。",
+      "summary": "外部リンク先を直接閲覧できないため、記事本文を貼っていただけますか？または、このHNスレッド（コメント）を要約希望か教えてください。200文字以内で日本語でまとめます。",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T22:04:31.000Z",
-      "contentHash": "0ff7c46f8718"
+      "contentHash": "f894cda263af"
     },
     {
       "id": "292f631c6a64",
@@ -383,10 +428,10 @@
       "id": "7e0e6d42b014",
       "title": "Google steers Americans looking for health care into \"junk insurance\"",
       "url": "https://pluralistic.net/2025/11/25/open-season/",
-      "summary": "外部URLへ直接アクセスできないため記事内容を取得できません。記事本文か要点を貼ってください。貼っていただければ200字以内で要約します。HNコメントも同様に可。",
+      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文を貼っていただければ、200文字以内で日本語要約を作成します。本文の抜粋や要点でも可。どうしますか？",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T21:45:01.000Z",
-      "contentHash": "313a18b0b26b"
+      "contentHash": "2e4d8e1b0785"
     },
     {
       "id": "8dddef2542d9",
@@ -428,10 +473,10 @@
       "id": "9b33ec838b7e",
       "title": "ZoomInfo CEO blocks researcher after documenting pre-consent biometric tracking",
       "url": "https://github.com/clark-prog/blackout-public",
-      "summary": "申し訳ありませんが、外部サイトへ直接アクセスできません。記事本文を貼るか主要な抜粋を教えていただけますか？いただければ200字以内で日本語要約を作成します。",
+      "summary": "外部URLに直接アクセスできません。記事本文か主要ポイントを貼り付けてください。貼っていただければ200字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T20:39:07.000Z",
-      "contentHash": "73361243b36d"
+      "contentHash": "01c5a517aa58"
     },
     {
       "id": "663e065b0466",
@@ -455,28 +500,28 @@
       "id": "63057df8693a",
       "title": "ICE Offers Up to $280M to Immigrant-Tracking 'Bounty Hunter' Firms",
       "url": "https://www.wired.com/story/ice-bounty-hunter-spy-program/",
-      "summary": "Wiredは、米移民局（ICE）が報酬型の“バウンティ”で密告者や民間業者を使い、移民を秘密裏に監視・追跡・拘束するプログラムを暴露。監督不足や法的・倫理的問題、個人の安全リスクを指摘している。",
+      "summary": "Wiredは、ICEが保釈金回収業者ら民間の「バウンティハンター」を情報提供者として活用し、移民コミュニティを監視・摘発するスパイ的プログラムを展開していたと報告。内部文書で実態が明らかになり、監督欠如や人権侵害の懸念が指摘されている。",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T20:02:05.000Z",
-      "contentHash": "c8bf5b11a86b"
+      "contentHash": "539d83885594"
     },
     {
       "id": "cb7c24a2da44",
       "title": "A new bridge links the math of infinity to computer science",
       "url": "https://www.quantamagazine.org/a-new-bridge-links-the-strange-math-of-infinity-to-computer-science-20251121/",
-      "summary": "無限に関する数学（大基数・決定性・記述的集合論）と計算機科学（無限ゲームや自動機、検証）を結ぶ新たな理論的橋渡しが示され、双方の手法が応用可能になった、という記事。",
+      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で日本語要約を作成します。コメント欄の要約が必要ならそちらも貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T19:53:20.000Z",
-      "contentHash": "bdb090d379be"
+      "contentHash": "4f342077d0c6"
     },
     {
       "id": "b7fa614b493c",
       "title": "Unison 1.0",
       "url": "https://www.unison-lang.org/unison-1-0/",
-      "summary": "Unison 1.0が正式リリース。ハッシュで識別する「コードを値として扱う」独自のコードベース形式を安定化し、標準ライブラリ・CLI/IDE連携、同期や性能改善、分散共有と安全な進化管理を強化して実用化を目指す。",
+      "summary": "Unison 1.0が公開。定義を内容のハッシュで一意に識別する内容アドレス化されたコードベースを持つ純関数言語で、型と効果ハンドラを備え、安定した実行系・UCMツールやエコシステム強化により安全なマージ・リファクタリングや分散開発を目指す。",
       "source": "Hacker News",
       "publishedAt": "2025-11-25T19:33:00.000Z",
-      "contentHash": "40aff2a3df68"
+      "contentHash": "9d154bb59df5"
     },
     {
       "id": "b7c82648cf75",
