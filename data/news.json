@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-27T17:13:34.411Z",
+  "generatedAt": "2025-11-27T18:21:57.222Z",
   "items": [
     {
       "id": "5435537e9938",
@@ -68,10 +68,10 @@
       "id": "3ce4d2af9cdf",
       "title": "We're Losing Our Voice to LLMs",
       "url": "https://tonyalicea.dev/blog/were-losing-our-voice-to-llms/",
-      "summary": "生成AIの普及で人間の個性的な文体や意見がモデルに取り込まれ均質化し「声」を失う危機を指摘。AI生成物の再学習循環や評価基準の偏りを問題視し、出典表記やラベリング、政策やプラットフォーム設計で人間主体を守る対策を提案している。",
+      "summary": "著者は大規模言語モデルが人間の“声”を均質化し、個性や批判的思考を奪うと警鐘を鳴らす。依存を減らす設計や教育、透明性を求める。",
       "source": "Hacker News",
       "publishedAt": "2025-11-27T14:51:01.000Z",
-      "contentHash": "02e5d851c4cc"
+      "contentHash": "ccd425121163"
     },
     {
       "id": "29abec074a8a",
@@ -131,10 +131,10 @@
       "id": "76a400032f68",
       "title": "The State of GPL Propagation to AI Models",
       "url": "https://shujisado.org/2025/11/27/gpl-propagates-to-ai-models-trained-on-gpl-code/",
-      "summary": "申し訳ありませんが、指定のURLの中身に直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で日本語要約します。あるいは、タイトルに基づく一般的な論点（GPLが機械学習モデルにどのように波及するか、法的議論の対立点と実務上の影響）でよければ、その要約を作成しますか？",
+      "summary": "GPLで配布されたコードを学習データに使うと、学習済みモデルや重みが派生物とみなされGPLが伝播し、配布時にソース開示や同一ライセンス適用の義務が生じる可能性があると主張。法的には未確定だが、除外・許諾取得・内部限定運用など慎重な対応を推奨。",
       "source": "Hacker News",
       "publishedAt": "2025-11-27T12:48:12.000Z",
-      "contentHash": "c8acd21b8902"
+      "contentHash": "de65d4d7ffa9"
     },
     {
       "id": "c08ca5a4bdb4",
@@ -194,10 +194,10 @@
       "id": "991e4e4cb560",
       "title": "Arthur Conan Doyle explored men’s mental health through Sherlock Holmes",
       "url": "https://scienceclock.com/arthur-conan-doyle-delved-into-mens-mental-health-through-his-sherlock-holmes-stories/",
-      "summary": "アーサー・コナン・ドイルは医師としての経験を生かし、シャーロック・ホームズ物語を通じて男性の精神的脆弱性、トラウマ、依存や孤立を描写し、当時の「男らしさ」を問い直しメンタルヘルス議論を促した。",
+      "summary": "コナン・ドイルはシャーロック・ホームズ作品を通じて、薬物依存や孤独、喪失感など男性の精神的苦悩や当時の「男らしさ」への期待を描き、議論を喚起した。",
       "source": "Hacker News",
       "publishedAt": "2025-11-27T10:54:02.000Z",
-      "contentHash": "fdd79e997ea7"
+      "contentHash": "2bd6d4307f70"
     },
     {
       "id": "4f6995121472",
@@ -365,19 +365,19 @@
       "id": "d29fff82a140",
       "title": "Ray Marching Soft Shadows in 2D (2020)",
       "url": "https://www.rykap.com/2020/09/23/distance-fields/",
-      "summary": "記事は、点ごとに図形までの距離を格納する距離場（特にsigned distance field）の原理と利点を解説。アンチエイリアスやスケーラブルな描画、衝突判定、関数の合成・生成法、実装上の注意点を実例で示す。",
+      "summary": "点ごとに境界までの距離を格納する（符号付き）距離場（SDF）の原理、生成方法、シェーダでの輪郭描画やエフェクト応用、MSDFで複雑な字形を扱う利点と細線・角での限界を解説。",
       "source": "Hacker News",
       "publishedAt": "2025-11-27T07:31:24.000Z",
-      "contentHash": "e701e38f53d0"
+      "contentHash": "8308bae65932"
     },
     {
       "id": "0fbef0fa71d7",
       "title": "Mixpanel Security Breach",
       "url": "https://mixpanel.com/blog/sms-security-incident/",
-      "summary": "外部URLを直接参照できないため、記事本文を貼っていただくか主要ポイントを教えてください。いただければ200文字以内の日本語要約を作成します。",
+      "summary": "MixpanelはSMS認証を介したセキュリティインシデントを公表。外部SMSプロバイダの脆弱性を悪用した不正アクセスで一部アカウントやデータに影響の可能性があり、調査と対策（SMSログイン停止・通知・追加保護）を実施中。",
       "source": "Hacker News",
       "publishedAt": "2025-11-27T07:02:40.000Z",
-      "contentHash": "fee54b96bd22"
+      "contentHash": "46ec7ec378f5"
     },
     {
       "id": "bd7c2c489055",
@@ -392,10 +392,10 @@
       "id": "1c2e98c258c4",
       "title": "The Nerd Reich – Silicon Valley Fascism and the War on Democracy",
       "url": "https://www.simonandschuster.com/books/The-Nerd-Reich/Gil-Duran/9781668221402",
-      "summary": "申し訳ありませんが、直接ウェブページにアクセスできません。記事本文か要約したい部分をここに貼っていただければ、200文字以内で日本語要約します。HNコメントも一緒に貼れば両方を反映できます。どちらを要約しますか？",
+      "summary": "申し訳ありませんが、こちらから外部リンクに直接アクセスできません。記事本文を貼っていただければ、200字以内で日本語要約を作成します。Hacker Newsの議論も要約希望ならその旨お知らせください。",
       "source": "Hacker News",
       "publishedAt": "2025-11-27T06:53:17.000Z",
-      "contentHash": "21953679d5b4"
+      "contentHash": "be0dd5e564c0"
     },
     {
       "id": "6f9cb0b1a792",
@@ -473,10 +473,10 @@
       "id": "74660bfa591c",
       "title": "Linux Kernel Explorer",
       "url": "https://reverser.dev/linux-kernel-explorer",
-      "summary": "Linux Kernel Explorerは、Linuxカーネルのソースと実行時関係を視覚的に探索できるインタラクティブなツールを紹介する記事です。関数や型、シンボルの参照・呼び出し関係を可視化し、カーネルの理解や解析を容易にします。",
+      "summary": "Reverserの「Linux Kernel Explorer」は、Web上でLinuxカーネルのソースを高速に閲覧・検索できるツール。シンボル参照や呼び出し関係、コミット履歴などをたどり、カーネル内部の理解や解析を支援する。",
       "source": "Hacker News",
       "publishedAt": "2025-11-27T06:17:37.000Z",
-      "contentHash": "fb405120ea1b"
+      "contentHash": "6f8010d537df"
     },
     {
       "id": "fd3d145c91c4",
@@ -563,10 +563,10 @@
       "id": "3ee9a5b7a9ea",
       "title": "Music eases surgery and speeds recovery, study finds",
       "url": "https://www.bbc.com/news/articles/c231dv9zpz3o",
-      "summary": "リンク先のページには直接アクセスできないため、元記事の本文か要点を貼っていただけますか？また、同時にHacker Newsのコメント要約も希望するか教えてください。貼っていただければ、200文字以内で日本語に要約します。",
+      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文か要約をここに貼り付けていただければ、200文字以内の日本語要約を作成します。HNコメントの要約も希望なら同様に貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2025-11-27T04:55:57.000Z",
-      "contentHash": "0bb6cce4cd39"
+      "contentHash": "05bd70c87ce6"
     },
     {
       "id": "9f65df7019fc",
@@ -590,10 +590,10 @@
       "id": "5c2f9511e871",
       "title": "Coq: The World's Best Macro Assembler? (2013) [pdf]",
       "url": "https://nickbenton.name/coqasm.pdf",
-      "summary": "CoqASMはCoqで形式化・検証された量子アセンブリ言語とコンパイラで、回路記述・最適化・補助ビット(ancilla)管理などの変換の正当性を機械的に証明し、信頼できるハードウェア向けコード生成を示す。",
+      "summary": "CoqasmはCoqで定義された最小限の量子アセンブリ言語で、形式的意味論と検証可能なシミュレータを備える。量子回路の記述・検証・最適化（例：QFTやGrover等）を容易にし、教育や形式検証に適した軽量基盤を示す。",
       "source": "Hacker News",
       "publishedAt": "2025-11-27T04:34:56.000Z",
-      "contentHash": "1b07de8956de"
+      "contentHash": "2dd390f11ab5"
     },
     {
       "id": "d392840c7779",
@@ -698,10 +698,10 @@
       "id": "071941eeba6d",
       "title": "DIY NAS: 2026 Edition",
       "url": "https://blog.briancmoses.com/2025/11/diy-nas-2026-edition.html",
-      "summary": "Brian C. Mosesの2026版DIY NASガイド。最新ハード・ソフトの推奨、冗長化やファイルシステム比較、ネットワーク速度・省電力・冷却対策、組立手順と費用目安を解説。",
+      "summary": "Brian Mosesの「DIY NAS 2026 Edition」は、自作NASの最新ガイド記事です。目的別のハード選定、ZFSなどファイルシステムの利点、ECCやメモリ要件、ドライブや10GbE等のネットワーク、消費電力・静音対策、バックアップと冗長化、TrueNAS/OMV/unRAIDやコンテナ運用の実務的注意点を解説しています。",
       "source": "Hacker News",
       "publishedAt": "2025-11-27T02:54:23.000Z",
-      "contentHash": "b740232c4f71"
+      "contentHash": "d4f131f2a9f1"
     },
     {
       "id": "ffd6f858dd55",
