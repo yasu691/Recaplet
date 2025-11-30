@@ -4,6 +4,7 @@ import { generateText } from 'ai';
 import { azure } from '@ai-sdk/azure';
 import * as fs from 'fs/promises';
 import { generateArticleId, generateContentHash } from '../utils/hash';
+import { fetchWebpageContent } from '../utils/fetch-content';
 
 // .env.local を明示的に読み込み
 config({ path: '.env.local' });
@@ -92,14 +93,33 @@ async function generateSummaries() {
 
         for (const item of items) {
           try {
-            // 本文抽出
-            const rawContent = extractContent(item);
-            if (!rawContent || rawContent.length < 50) {
-              console.log(`  スキップ: ${item.title}（本文が短すぎる）`);
+            let cleanContent = '';
+
+            // 常にWebページから本文を取得
+            if (item.link) {
+              console.log(`  Webページから取得中: ${item.title}`);
+              const fetchResult = await fetchWebpageContent(item.link);
+
+              if (fetchResult.success) {
+                cleanContent = fetchResult.content;
+                console.log(`  ✓ Webページから取得成功: ${cleanContent.length}文字`);
+              } else {
+                // Webページ取得失敗時はRSSの本文をフォールバック
+                console.log(`  ✗ Webページ取得失敗、RSSから取得: ${fetchResult.error}`);
+                const rawContent = extractContent(item);
+                cleanContent = stripHtml(rawContent);
+
+                if (!cleanContent || cleanContent.length < 50) {
+                  console.log(`  スキップ: ${item.title}（本文が短すぎる）`);
+                  continue;
+                }
+                console.log(`  ⚠ RSS本文を使用: ${cleanContent.length}文字`);
+              }
+            } else {
+              console.log(`  スキップ: ${item.title}（URLなし）`);
               continue;
             }
 
-            const cleanContent = stripHtml(rawContent);
             const limitedContent = cleanContent.slice(0, 2000);
 
             // コンテンツハッシュを生成
