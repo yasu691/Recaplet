@@ -93,28 +93,31 @@ async function generateSummaries() {
 
         for (const item of items) {
           try {
-            // 本文抽出
-            let rawContent = extractContent(item);
-            let cleanContent = stripHtml(rawContent);
+            let cleanContent = '';
 
-            // RSSの本文が短い場合、Webページから取得を試みる
-            if (!cleanContent || cleanContent.length < 50) {
-              console.log(`  RSS本文不足、Webページから取得中: ${item.title}`);
+            // 常にWebページから本文を取得
+            if (item.link) {
+              console.log(`  Webページから取得中: ${item.title}`);
+              const fetchResult = await fetchWebpageContent(item.link);
 
-              if (item.link) {
-                const fetchResult = await fetchWebpageContent(item.link);
-                if (fetchResult.success) {
-                  cleanContent = fetchResult.content;
-                  console.log(`  ✓ Webページから取得成功: ${cleanContent.length}文字`);
-                } else {
-                  console.log(`  ✗ Webページ取得失敗: ${fetchResult.error}`);
-                  console.log(`  スキップ: ${item.title}`);
+              if (fetchResult.success) {
+                cleanContent = fetchResult.content;
+                console.log(`  ✓ Webページから取得成功: ${cleanContent.length}文字`);
+              } else {
+                // Webページ取得失敗時はRSSの本文をフォールバック
+                console.log(`  ✗ Webページ取得失敗、RSSから取得: ${fetchResult.error}`);
+                const rawContent = extractContent(item);
+                cleanContent = stripHtml(rawContent);
+
+                if (!cleanContent || cleanContent.length < 50) {
+                  console.log(`  スキップ: ${item.title}（本文が短すぎる）`);
                   continue;
                 }
-              } else {
-                console.log(`  スキップ: ${item.title}（URLなし）`);
-                continue;
+                console.log(`  ⚠ RSS本文を使用: ${cleanContent.length}文字`);
               }
+            } else {
+              console.log(`  スキップ: ${item.title}（URLなし）`);
+              continue;
             }
 
             const limitedContent = cleanContent.slice(0, 2000);
