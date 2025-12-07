@@ -1,95 +1,95 @@
 {
-  "generatedAt": "2025-12-07T09:30:46.616Z",
+  "generatedAt": "2025-12-07T10:30:29.785Z",
   "items": [
     {
       "id": "6cddf0de38af",
       "title": "AIワークフローに必要なのは「丁稚奉公」だった | CADDi Tech Blog",
       "url": "https://caddi.tech/2025/12/07/175703",
-      "summary": "キャディの川村氏は、AIは議事録やスライド作成など単純業務は得意でも、業界慣行・企業技術・個人の知見が混ざる自動車部品設計のFMEAのような複雑業務は十分に出力できないと指摘する。",
+      "summary": "AIワークフロー成功には業務を極めて細かく分解し、見習いのように実務を体得する「丁稚奉公」が必要。解像度が低いと表層的な出力に終わるため、業務モデルの構造化と人・AIの役割設計が不可欠。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T08:57:03.000Z",
-      "contentHash": "8ea36566cf3c"
+      "contentHash": "3e91d5171d97"
     },
     {
       "id": "15018d1e7916",
       "title": "React Native アプリの Expo SDK アップデート（50 → 52 → 54）を実施しました | asoview! Tech Blog",
       "url": "https://tech.asoview.co.jp/entry/2025/12/07/174213",
-      "summary": "Expo SDKのアップデートを軸に、Node.js更新、Yarn Classic→Berry移行、react-native-elementsの.defaultPropsエラー対応、EAS CLIのモノレポ対応、React Navigation 5→7の破壊的変更（JSX定義やnavigate挙動の変更）などの経験と対処をまとめた記事。",
+      "summary": "Asoviewのチケットスキャンアプリ「Fast‑In」をExpo SDK 50→52→54へ逐次更新。Node.js更新、Yarn Classic→Berry移行で間接依存解決、react-native-elementsのdefaultPropsエラー対応、React Navigation 5→7やEAS/ESLint/SafeAreaView対応などの課題と対策を報告。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T08:42:13.000Z",
-      "contentHash": "e25dc17190d6"
+      "contentHash": "16b9cb22dc1c"
     },
     {
       "id": "0950ecbf3452",
       "title": "生成AIとArduinoで作る姿勢矯正システム - 振動で教える猫背防止デバイス | Insight Edge Tech Blog",
       "url": "https://techblog.insightedge.jp/entry/ai-posture-correction-device",
-      "summary": "Insight Edgeの小林まさみつが、生成AI中心の開発から趣向を変えハードウェアと組み合わせたシステムを制作・紹介する記事。完成システム、目的、技術スタック、動作フローに加え、振動モーター制御回路の部品・回路図・配線・動作確認まで解説する。",
+      "summary": "生成AI（AWS Bedrock Claude Sonnet 4）とArduinoを組み合わせ、Webカメラで姿勢を撮影→AIで判定→悪い箇所に振動モーターで通知する低コストな姿勢矯正システムを、回路・部品・コード・PC-Arduino通信まで解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T08:00:00.000Z",
-      "contentHash": "778d671d22ce"
+      "contentHash": "b7451a4d7967"
     },
     {
       "id": "4e7b2cb02671",
       "title": "「現状起点の最適化」に夢中になっていた私 | コネヒト開発者ブログ",
       "url": "https://tech.connehito.com/entry/2025/12/07/163506",
-      "summary": "エンジニアのaboyが、自戒と学びとして即時実装した施策を振り返る記事。営業がGoogle Sheets記入→開発がGitHub Issueで情報集約、運用フローを定め、AIエージェント等で段階的に自動化した経緯と教訓を述べる。",
+      "summary": "営業のGoogle Sheets入力→開発のIssue作成→実装→PRという流れを、Zapier・GHA・自律型AI（Devin）で実装自動化し、さらにGASでIssue作成まで自動化して作業を削減したが、「現状起点の最適化」に没頭していたと自己反省している。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T07:35:06.000Z",
-      "contentHash": "979967b80983"
+      "contentHash": "b5fe483ebaeb"
     },
     {
       "id": "1f2cc09dc931",
       "title": "re:Invent が英語で怖いという方向けの個人的な英語対策 in 2025 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/english-preparation-for-reInvent-2025",
-      "summary": "2025年12月1日からラスベガスで開催されたre:Invent 2025に現地参加。英語ネイティブや英語に抵抗ない参加者が多く英語が飛び交う会場での個人的対策、その結果と所感を共有します。",
+      "summary": "AWSサポートの市野さんが re:Invent 2025に現地参加。英語中心の会場で、Google翻訳、iPad筆談、otter.ai（有償）、AirPods Pro 3などを駆使した対策と、その効果や工夫（サイレントセッション対策等）を報告。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T07:33:24.000Z",
-      "contentHash": "3b7604d0ef61"
+      "contentHash": "55067e05e932"
     },
     {
       "id": "acff1598b4a1",
       "title": "テンソル次元の整合性を静的検査するmypyプラグインを実装しようとした話 | NTT docomo Business Engineers' Blog",
       "url": "https://engineers.ntt.com/entry/202512-advent-calendar-day7/entry",
-      "summary": "NTTドコモのAdvent Calendar第7回。イノベーションセンターの加藤が、コンピュータビジョンやAI/ML開発で起きる変数（テンソル）shapeの不具合を、静的解析（mypyプラグイン）で防ぐ試行錯誤の成果を紹介します。",
+      "summary": "NTTドコモの加藤が、jaxtypingのshape注釈をmypyで扱うプラグインを作り、テンソル次元の整合性を静的に検査する試みを紹介。初期化、注釈検出、テンソル生成・計算の扱いと限界（可変次元記法や次元演算などの今後の課題）を解説している。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T07:01:30.000Z",
-      "contentHash": "a085465446f4"
+      "contentHash": "e9198cdb73db"
     },
     {
       "id": "d118ef8df759",
       "title": "Kubernetes/OpenShiftの権限管理・ガバナンス初心者向けガイド：RBAC, VAP, Gatekeeperの使い分けと実機検証 | 赤帽エンジニアブログ",
       "url": "https://rheb.hatenablog.com/entry/2025/12/07/135323",
-      "summary": "APIリクエストがどこで止まるかを解説。RBAC／VAP／Gatekeeper(OPA)の役割と選定ツリーを示し、実機検証でRBAC認可、Gatekeeperポリシー、VAPネイティブガードレール、Gatekeeperによるリソース突合（例：Ingressホスト名重複）を比較。",
+      "summary": "Kubernetes/OpenShiftの権限管理・ガバナンス入門。認証→認可(RBAC)→アドミッション(VAP/Gatekeeper)の役割と使い分けを解説。VAPはCELでK8sネイティブ、GatekeeperはRego/OPAで複雑ルールやRHACM連携に強い。実機検証・Ingress重複禁止等の例あり。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T04:53:23.000Z",
-      "contentHash": "a131ee43e7eb"
+      "contentHash": "5afe196de4df"
     },
     {
       "id": "0e1be50dca87",
       "title": "「分析」を不要にする。現場がすぐに動ける「診断型」ダッシュボードを作った話 | Timee Product Team Blog",
       "url": "https://tech.timee.co.jp/entry/2025/12/07/130000",
-      "summary": "株式会社タイミーのデータアナリストshunが、現場で本当に使われるダッシュボード作りの失敗談と改善実践を紹介。目的が混在すると使われなくなると指摘し、ダッシュボードの分類や具体的な改善策を解説する記事（Timee Advent Calendar 2025）。",
+      "summary": "現場で使われるダッシュボードを目指し、探索型の過剰情報を廃止。ノートPC1画面に収め、異常と「今すぐやるべき初手」を明示する診断型を構築。裏側にアナリストのロジックを詰め、現場がすぐ動ける設計に改善した実践記。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T04:00:00.000Z",
-      "contentHash": "ee5264ac767c"
+      "contentHash": "97d787276c2d"
     },
     {
       "id": "6e945944a8c0",
       "title": "Kyash入社3カ月目 | Kyash Product Blog",
       "url": "https://blog.kyash.co/entry/2025/12/07/124255",
-      "summary": "Kyashアドベントカレンダー2025の7日目。2025年10月にデータアナリストとして入社したHiroが、入社理由や率直な感想を綴る。統計学専攻で営業→ECで営業・データ解析・マーケ→VODマーケを経て、現職で事業改善とマーケに従事。",
+      "summary": "2025年10月にデータアナリストとしてKyashに入社したHiro。営業から独学で分析・マーケへ転身し、分析だけでなく実行まで伴走でき、自分が信じるプロダクトである点を重視して入社。金融データの把握やユーザー別利益算出を進め、整ったデータ環境で充実している。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T03:42:55.000Z",
-      "contentHash": "663a3b2583c3"
+      "contentHash": "45962b12dcc8"
     },
     {
       "id": "74c8a14fb9e4",
       "title": "わけのわからないバグに遭遇したときの生き抜き方 | 株式会社ヘンリー エンジニアブログ",
       "url": "https://dev.henry.jp/entry/2025/12/07/120848",
-      "summary": "株式会社ヘンリー医療会計部のエンジニア一條です（Advent Calendar 2025・7日目）。複雑な診療報酬開発、インシデント指揮、機械学習を使った検索システム構築で遭遇した多くの難解なバグへの対処法を紹介します。",
+      "summary": "複雑なバグへの対処法を経験談で解説。発生源と影響度で分類し、緊急度を早期決定。再現→原因特定（言語化・図化・仮説検証）→修正の流れを徹底し、環境設定や過去データ・類似ケースを確認・収集することを勧める。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T03:08:48.000Z",
-      "contentHash": "c2d00708962c"
+      "contentHash": "14362c9badf9"
     },
     {
       "id": "1f25ff72fc86",
@@ -104,10 +104,10 @@
       "id": "091acc7346ef",
       "title": "Using LLMs at Oxide",
       "url": "https://rfd.shared.oxide.computer/rfd/0576",
-      "summary": "外部サイトに直接アクセスできないため、記事本文をここに貼っていただけますか？200文字以内で日本語に要約します。コメント要約も希望ならその旨を教えてください。",
+      "summary": "LLMは急速に進化する強力な道具で、Oxideでは使用に慎重さが必要。最優先は責任—人間が出力に責任を持つこと。緻密さと共感を保ちつつ利点を活かし、固定的な規則は難しい。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T01:17:40.000Z",
-      "contentHash": "f7c1ca054e4a"
+      "contentHash": "bfd56fc05559"
     },
     {
       "id": "509f930f8a2f",
@@ -122,19 +122,19 @@
       "id": "f67e62967a5e",
       "title": "Kilauea erupts, destroying webcam [video]",
       "url": "https://www.youtube.com/watch?v=TK2N99BDw7A",
-      "summary": "申し訳ありませんが外部リンク先の内容を直接取得できません。要約をご希望なら、動画の要点や説明文、または文字起こし／本文を貼ってください。貼っていただければ200文字以内で日本語に要約します。",
+      "summary": "申し訳ありませんが、外部リンクへ直接アクセスできません。動画の字幕や本文、HNの主なコメントを貼っていただければ、200字以内で要約します。簡単な説明でも可。",
       "source": "Hacker News",
       "publishedAt": "2025-12-06T23:39:02.000Z",
-      "contentHash": "673619954e4e"
+      "contentHash": "ca42cb7be6c5"
     },
     {
       "id": "08908ca0fd6e",
       "title": "Screenshots from developers: 2002 vs. 2015 (2015)",
       "url": "https://anders.unix.se/2015/12/10/screenshots-from-developers--2002-vs.-2015/",
-      "summary": "開発者の2002年と2015年のデスクトップ写真を比較。2002年は単一モニタで古いIDEやブラウザ中心、2015年は複数モニタ・ターミナルやモダンエディタ、Slackや大量のブラウザで作業環境が多様化・複雑化したことを示す。",
+      "summary": "2002年に複数のUnix開発者のデスクトップを撮り、13年後に再度同じ人たちからスクリーンショットを収集。Kernighan、Stallman、Moolenaar、Lerdorfらは今もxterm/Emacs/Vim中心で、ブラウザやメールが変わった程度で大きな使用スタイルの変化はほとんどない。",
       "source": "Hacker News",
       "publishedAt": "2025-12-06T21:55:09.000Z",
-      "contentHash": "36468d6020be"
+      "contentHash": "b0d3015d28dc"
     },
     {
       "id": "a0cadf2bc421",
@@ -149,10 +149,10 @@
       "id": "90b91777cfe5",
       "title": "Coffee linked to slower biological ageing among those with severe mental illness",
       "url": "https://www.kcl.ac.uk/news/coffee-linked-to-slower-biological-ageing-among-those-with-severe-mental-illness-up-to-a-limit",
-      "summary": "キングス大の観察研究で、重度精神疾患のある人は適量のコーヒー摂取が生物学的老化の進行抑制と関連。大量摂取では効果が薄れる可能性があり、因果関係は不明。",
+      "summary": "NHS推奨限度内でのコーヒー摂取は、統合失調症や双極性障害の436人でテロメア長の延長と関連し、生物学的年齢で約5年若く示された。1日3〜4杯で最も効果的で、4杯超では減少。BMJ Mental Health掲載。",
       "source": "Hacker News",
       "publishedAt": "2025-12-06T21:33:03.000Z",
-      "contentHash": "67428e6e7c69"
+      "contentHash": "af75f5420204"
     },
     {
       "id": "b8a7ed8eeeba",
@@ -173,13 +173,22 @@
       "contentHash": "da8420da24e9"
     },
     {
+      "id": "7afeea9c4ae0",
+      "title": "OMSCS Open Courseware",
+      "url": "https://sites.gatech.edu/omscsopencourseware/",
+      "summary": "ジョージア工科大のOMSCSがEd Lessonsで多数のコース教材（講義動画や演習等）を公開。宿題や試験など採点対象は含まれず、履修者は最新版をCanvasで確認。AI・機械学習・OS等の科目あり。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-06T19:14:35.000Z",
+      "contentHash": "f093dcf91738"
+    },
+    {
       "id": "85bace04973a",
       "title": "Perl's decline was cultural",
       "url": "https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical",
-      "summary": "記事はPerlの衰退は言語自体の技術的欠点ではなく、コミュニティの閉鎖性や分裂（Perl6/Raku）、ガバナンス不足、後進育成やイメージ管理の失敗が普及を妨げたと論じる。",
+      "summary": "著者の体験を基に、Perl没落は技術より文化が原因と主張。UNIX系管理者由来の保守的・部族的な門番文化が進化を妨げ、汎用言語として成熟せず他が取って代わった。",
       "source": "Hacker News",
       "publishedAt": "2025-12-06T17:42:07.000Z",
-      "contentHash": "a708939a6852"
+      "contentHash": "63a7ea4e1f08"
     },
     {
       "id": "a87a3af3729a",
@@ -315,6 +324,15 @@
       "source": "OpenAI",
       "publishedAt": "2025-12-04T19:00:00.000Z",
       "contentHash": "66108958bd9c"
+    },
+    {
+      "id": "02b6c7d970f3",
+      "title": "Gemini 3 Deep Think is now available in the Gemini app.",
+      "url": "https://blog.google/products/gemini/gemini-3-deep-think/",
+      "summary": "GoogleがGeminiアプリでUltra会員向けに「Gemini 3 Deep Think」モードを提供開始。並列推論で数学・科学・論理問題の推理力を大幅に向上し、Humanity’s Last ExamやARC-AGI-2で高成績を記録。Ultraは「Deep Think」とGemini 3 Proを選択して利用可能。",
+      "source": "Gemini",
+      "publishedAt": "2025-12-04T19:00:00.000Z",
+      "contentHash": "7aa039748022"
     },
     {
       "id": "cac309a5d5d8",
