@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2025-12-07T22:29:10.834Z",
+  "generatedAt": "2025-12-07T23:31:32.554Z",
   "items": [
+    {
+      "id": "904e3e14055c",
+      "title": "AI Coding Agentを “ツール” ではなく “部下” として扱うための開発環境 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
+      "url": "https://developers.cyberagent.co.jp/blog/archives/60265/",
+      "summary": "CyberAgentのCIUは多数のkopsクラスタ運用を改善するため、kops仕様をTerraform化しモジュール化した単一リポジトリとCIでクラスタ作成・運用・更新を自動化。設定重複を削減し安全なロールアウトを実現した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T23:00:15.000Z",
+      "contentHash": "55cdfa26cbd2"
+    },
+    {
+      "id": "e39f83fa2204",
+      "title": "【AWS re:Invent 2025】AWSサービスを使って能動的防御を実践 | カミナシ エンジニアブログ",
+      "url": "https://kaminashi-developer.hatenablog.jp/entry/2025/12/08/aws-reinvent-2025-active-cyberdefence",
+      "summary": "re:Inventでのワークショップは、AWSのAI/MLを使った能動的防御（サイバー欺瞞）を紹介。生成AIで偽情報を作りハニートークン（偽IAMアクセスキー）を配置、CloudTrail/CloudWatch/EventBridgeで検知して攻撃者を誘導・分析。実施は専門家向けの注意喚起あり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T23:00:00.000Z",
+      "contentHash": "03fb45cc36b0"
+    },
+    {
+      "id": "f0ab84ba08b0",
+      "title": "New RelicでAWS Healthイベントを監視してみた | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/aws-health-monitoring-using-new-relic",
+      "summary": "AWS HealthのイベントをNew Relicで一元監視する手順を解説。利用はAWS Business/Enterpriseサポートが必要。CloudWatch Metric Streams非対応のためAPI Polling（5分間隔）で取得し、IAMロール作成とNew Relic側設定でダッシュボードやアラートを構築します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T23:00:00.000Z",
+      "contentHash": "a62f220f9cc6"
+    },
+    {
+      "id": "233f9e044c48",
+      "title": "データエンジニアリングのAI駆動開発: Data Contractを応用したデータパイプラインの生成 | 電通総研 テックブログ",
+      "url": "https://tech.dentsusoken.com/entry/2025/12/08/%E3%83%87%E3%83%BC%E3%82%BF%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%AEAI%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA%3A_Data_Contract%E3%82%92%E5%BF%9C%E7%94%A8%E3%81%97",
+      "summary": "徳山氏は、ODCSのData Contract（YAMLで定義するテーブル構造や品質要件）を生成AIに与え、データアーキテクチャやデータモデルを仕様化してデータパイプラインのコードを自動生成するAI駆動開発手法を提案・検証した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T23:00:00.000Z",
+      "contentHash": "8109466ad550"
+    },
+    {
+      "id": "105211cdc56f",
+      "title": "Chrome拡張機能を自動リロードするVite Pluginを自作してみた | iimon TECH BLOG",
+      "url": "https://tech.iimon.co.jp/entry/2025/12/08",
+      "summary": "Chrome拡張の編集反映が面倒（ビルド→拡張再読み込み→ページ再読み込み）なため、既存フレームワーク導入が難しいケースを踏まえ、自作のViteプラグインで自動リロード（ホットリロード）を実装してnpm公開。HMRの仕組みも解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T22:49:12.000Z",
+      "contentHash": "bc3d4180be02"
+    },
+    {
+      "id": "760b21788966",
+      "title": "Netflix CEO made a visit to the White House before buying Warner Bros.",
+      "url": "https://www.theverge.com/news/839749/netflix-ceo-visit-white-house-warner-bros",
+      "summary": "11月、Netflix共同CEOテッド・サランドスがトランプ大統領と会談しワーナー買収の意向を説明。会談で直ちに反対はないと判断。Netflixは827億ドルで落札し、パラマウントも入札競争に参加していた。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-07T22:34:20.000Z",
+      "contentHash": "2cfebf82a61d"
+    },
+    {
+      "id": "b40fc9b24eb9",
+      "title": "Jetsonを使うときの細かい話 | Inside of LOVOT",
+      "url": "https://tech.groove-x.com/entry/jetson_tips_2025_12",
+      "summary": "LOVOTはJetson Orin NX採用。公式は充実するが非参照キャリアやカメラ接続で挙動に悩むことがある。起動はBPMP→PSC→CPUの3段階。SuperモードはBPMPのdevice tree(super-maxn.dtb)で高クロック化可能。キャリアEEPROMでMAC/CRC検証を行い失敗で起動不可だが無視も可能。センサ同期にはTSCなどのタイマー階層が重要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T22:00:00.000Z",
+      "contentHash": "9dddfcdd13a0"
+    },
+    {
+      "id": "624bc90b3bc7",
+      "title": "LLM-as-a-Judgeを実際に利用して見えてきた課題と対策について | JMDC TECH BLOG",
+      "url": "https://techblog.jmdc.co.jp/entry/20251208",
+      "summary": "JMDCの渡辺が社内データ×RAGで「LLM-as-a-Judge」を試用。評価自動化や一貫性・スケーラビリティの利点がある一方、評価関数がブラックボックス化するため妥当性検証（人手評価との比較）が必須で、実験は一事例に限られると報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T22:00:00.000Z",
+      "contentHash": "b6a66782694a"
+    },
+    {
+      "id": "e383d6b2e912",
+      "title": "AI巻き込み型コードレビューのススメ | Nealle Developer's Blog",
+      "url": "https://nealle-dev.hatenablog.com/entry/2025/12/8/917592",
+      "summary": "CodeRabbitを使った「AI巻き込み型レビュー」を提案。レビューでAIと対話し指摘を具体化・議論することで意図誤解や経験差を埋め、手戻りを減らし文脈付きでAIに修正させ生産性向上を図る。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T22:00:00.000Z",
+      "contentHash": "3ce27646e3f1"
+    },
     {
       "id": "28609fcbe14e",
       "title": "X cuts off the European Commission’s ad account after being fined €120 million",
@@ -18,6 +99,15 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-07T19:17:17.000Z",
       "contentHash": "9e18f79a12a4"
+    },
+    {
+      "id": "91a66ca6c26b",
+      "title": "The C++ standard for the F-35 Fighter Jet [video]",
+      "url": "https://www.youtube.com/watch?v=Gv4sDL9Ljww",
+      "summary": "JSF AVルールを要約すると、C/C++で未定義動作を避けるための厳格な制約と実践を示す。未初期化変数や符号付きオーバーフロー、危険なキャストやポインタ演算、再帰や動的確保・例外の乱用などを禁止し、明確な初期化、型安全、静的解析やコーディング規約の適用で安全性と信頼性を高めることを主張する。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-07T18:07:06.000Z",
+      "contentHash": "f8dcd382f8ec"
     },
     {
       "id": "e8ef94a3a584",
@@ -167,10 +257,10 @@
       "id": "e2af359c451c",
       "title": "The state of Schleswig-Holstein is consistently relying on open source",
       "url": "https://www.heise.de/en/news/Goodbye-Microsoft-Schleswig-Holstein-relies-on-Open-Source-and-saves-millions-11105459.html",
-      "summary": "ドイツ北部のシュレスヴィヒ＝ホルシュタイン州が行政でMicrosoft製品からオープンソースへ移行し、ライセンス費用を削減して数百万ユーロを節約。独立性や柔軟性、セキュリティ向上も期待され、他州への波及も注目されている。",
+      "summary": "ドイツ北部シュレースヴィヒ＝ホルシュタイン州がMicrosoft製品からオープンソースへ移行し、ライセンス費用削減などで数百万ユーロの節約とIT主権性向上を実現。互換性や移行作業の課題はあったが効果は大きい。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T13:21:24.000Z",
-      "contentHash": "39ca555609f2"
+      "contentHash": "14009bc4c516"
     },
     {
       "id": "9423b5da12e1",
@@ -239,10 +329,10 @@
       "id": "58a0c016acd5",
       "title": "Google Titans architecture, helping AI have long-term memory",
       "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
-      "summary": "Google ResearchはAIに長期記憶を持たせるため、記憶の保存・圧縮・検索・更新を統合する新仕組み「Titans」と「Miras」を提案。重要情報の選別と符号化で複数セッションの一貫性やパーソナライズ性能を改善し、評価で効果を示す一方、プライバシーや誤情報対策などの課題も指摘している。",
+      "summary": "TitansアーキテクチャとMIRASフレームワークは、実行中にコアメモリを更新して巨大な文脈を高速に扱える設計を示す。RNNの速度とTransformerの精度を両立し、オフライン再学習不要でテスト時に記憶を拡張する。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T12:23:45.000Z",
-      "contentHash": "eedf58a0b39a"
+      "contentHash": "d52f27288274"
     },
     {
       "id": "16db6526b041",
@@ -257,10 +347,10 @@
       "id": "6e9e488d5320",
       "title": "Java Hello World, LLVM Edition",
       "url": "https://www.javaadvent.com/2025/12/java-hello-world-llvm-edition.html",
-      "summary": "この記事は、Javaの「Hello, World」をLLVMでネイティブ化する試みを手順で解説しています。ツールチェーンやコンパイル手順、起動時間やバイナリサイズの改善と、GCや標準ライブラリ対応などの課題を示し、実用化への可能性と技術的示唆を述べています。",
+      "summary": "記事は、JavaプログラムをLLVMに変換してネイティブ実行する「Hello World」実装を通じ、ツールチェーン構築の手順とオブジェクト表現、メモリ管理や例外処理などの具体的課題と得られた知見を紹介します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T11:51:02.000Z",
-      "contentHash": "1917495063dc"
+      "contentHash": "c7976230da65"
     },
     {
       "id": "ba465747a35b",
@@ -644,10 +734,10 @@
       "id": "bd624e3f13a5",
       "title": "AMD ROCm と LeRobot によるロボットVLMのファインチューニング",
       "url": "https://note.com/npaka/n/nd22844facb78",
-      "summary": "AMD ROCmとLeRobotを用いて、ロボット向けの視覚・言語・行動モデルをファインチューニングする手順、環境構築や互換性、性能改善のポイントを解説する記事です。",
+      "summary": "AMDのROCmとLeRobotで3Bパラメータの視覚言語ロボットモデル「Pi0」をMI200でファインチューニングし、Phoenix AI PC上でKochロボットにリアルタイムデプロイ。双眼カメラと約50本の短軌跡でピック＆プレースを学習し、少量データで事前学習済みモデルを迅速に適応、データセンターからエッジまでのシームレスな展開を示す。",
       "source": "npaka",
       "publishedAt": "2025-12-04T19:05:42.000Z",
-      "contentHash": "91caec8999de"
+      "contentHash": "1c8c3628111b"
     },
     {
       "id": "241f77b203d9",
@@ -698,10 +788,10 @@
       "id": "182a8b7226b8",
       "title": "Kling O1 の概要",
       "url": "https://note.com/npaka/n/n1ab6a0873f26",
-      "summary": "Kling O1（Video O1）の概要と利用ガイドをまとめた記事。Kling O1の特徴や動画（Video O1）の機能説明、使い方や注意点などが掲載されています。",
+      "summary": "Kling O1は世界初の統合型マルチモーダル動画モデル（MVL）。テキスト・画像・動画・主体を統合して生成・編集を一元化し、参考動画再生成、被写体差替え、背景・スタイル・カメラワーク変更などを直感的なUIで行い、手作業を不要にする創作エンジンです。",
       "source": "npaka",
       "publishedAt": "2025-12-02T21:03:09.000Z",
-      "contentHash": "18c64c035278"
+      "contentHash": "4aab05938b12"
     },
     {
       "id": "0d851cc96d24",
@@ -716,10 +806,10 @@
       "id": "643f709e602c",
       "title": "Transformers v5 の概要",
       "url": "https://note.com/npaka/n/n1d9d1aafab55",
-      "summary": "記事本文かリンクを貼ってください。本文を元に200文字以内で正確に要約します。本文がない場合はタイトルだけで簡易要約を作成しますが、詳細は省略されます。どちらにしますか？",
+      "summary": "採用は急増（1日300万インストール、累計12億超）。Transformers v5は「シンプルさ・学習・推論・プロダクション」を軸に、モジュール化でモデル定義を簡素化し、AttentionInterfaceなど共有抽象化やモデル変換自動化で貢献や保守性を大幅に向上させる。",
       "source": "npaka",
       "publishedAt": "2025-12-02T02:11:46.000Z",
-      "contentHash": "253f4b243b55"
+      "contentHash": "87d84701be09"
     },
     {
       "id": "946bf5413869",
@@ -788,10 +878,10 @@
       "id": "083e6029f7c5",
       "title": "X (旧Twitter) でサムネイルを更新する方法",
       "url": "https://note.com/npaka/n/nc6b0d82972b0",
-      "summary": "Xにリンクを投稿してもサムネイルが古いままになることがある。原因はXがURLごとにOGPをキャッシュしているためで、専用のリフレッシュツールで更新できる。",
+      "summary": "X（旧Twitter）でリンク投稿のサムネイルが更新されないのは、URLごとのOGPキャッシュが原因。cards-dev.twitter.com/validatorにURLを入れて「Preview card」を押しリフレッシュ後、再投稿すれば新しいサムネイルが表示されます。",
       "source": "npaka",
       "publishedAt": "2025-11-30T11:28:57.000Z",
-      "contentHash": "2ceecab54609"
+      "contentHash": "0853ce995100"
     },
     {
       "id": "600e59f035b6",
@@ -2435,10 +2525,10 @@
       "id": "4153bada71dc",
       "title": "Nano Banana Pro で描いたマンガを Sora2 でアニメ化する",
       "url": "https://note.com/npaka/n/neb5bc0864db8",
-      "summary": "『Nano Banana Pro』で描いたマンガをAIツール『Sora2』でアニメ化した試作のまとめ。制作手順や設定、問題点と改善策、完成したアニメの感想や今後の展望を紹介しています。",
+      "summary": "Nano Banana Proで描いた漫画をSora2でアニメ化。ページを合成して読み込ませると右→左のコマ順や吹き出し内の台詞を音声化して動画化。初回は吹き出しが残ったがRemixで削除に成功。ただし他の変更も入るため、将来的には部分的な修正が望ましい。",
       "source": "npaka",
       "publishedAt": "2025-11-28T02:34:30.000Z",
-      "contentHash": "a2e4160c2bf3"
+      "contentHash": "5f6017b3864c"
     },
     {
       "id": "0c9d49f451e4",
