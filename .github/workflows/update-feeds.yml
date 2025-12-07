@@ -12,7 +12,7 @@ concurrency:
 jobs:
   update-feeds:
     runs-on: ubuntu-latest
-    timeout-minutes: 10  # タイムアウト設定
+    timeout-minutes: 30  # タイムアウト設定（並列処理導入により短縮見込み）
     permissions:
       contents: write  # リポジトリへの書き込み権限を付与
 

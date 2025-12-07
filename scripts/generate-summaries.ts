@@ -47,6 +47,11 @@ interface NewsData {
   items: NewsItem[];
 }
 
+interface FeedConfig {
+  name: string;
+  url: string;
+}
+
 async function generateSummaries() {
   try {
     // 環境変数の確認
@@ -84,91 +89,112 @@ async function generateSummaries() {
     let successCount = 0;
     let errorCount = 0;
 
-    for (const feedConfig of feedsData.feeds) {
-      console.log(`\n処理中: ${feedConfig.name}`);
+    // フィード処理を並列化
+    const feedResults = await Promise.allSettled(
+      feedsData.feeds.map(async (feedConfig: FeedConfig) => {
+        console.log(`\n処理中: ${feedConfig.name}`);
 
-      try {
-        const feed = await parser.parseURL(feedConfig.url);
-        const items = feed.items.slice(0, 10); // 全件処理（Azure OpenAI はレート制限が緩い）
+        try {
+          const feed = await parser.parseURL(feedConfig.url);
+          const items = feed.items.slice(0, 10); // 全件処理（Azure OpenAI はレート制限が緩い）
 
-        for (const item of items) {
-          try {
-            let cleanContent = '';
+          // アイテム処理も並列化
+          const itemResults = await Promise.allSettled(
+            items.map(async (item) => {
+              let cleanContent = '';
 
-            // 常にWebページから本文を取得
-            if (item.link) {
-              console.log(`  Webページから取得中: ${item.title}`);
-              const fetchResult = await fetchWebpageContent(item.link);
+              // 常にWebページから本文を取得
+              if (item.link) {
+                console.log(`  Webページから取得中: ${item.title}`);
+                const fetchResult = await fetchWebpageContent(item.link);
 
-              if (fetchResult.success) {
-                cleanContent = fetchResult.content;
-                console.log(`  ✓ Webページから取得成功: ${cleanContent.length}文字`);
-              } else {
-                // Webページ取得失敗時はRSSの本文をフォールバック
-                console.log(`  ✗ Webページ取得失敗、RSSから取得: ${fetchResult.error}`);
-                const rawContent = extractContent(item);
-                cleanContent = stripHtml(rawContent);
+                if (fetchResult.success) {
+                  cleanContent = fetchResult.content;
+                  console.log(`  ✓ Webページから取得成功: ${cleanContent.length}文字`);
+                } else {
+                  // Webページ取得失敗時はRSSの本文をフォールバック
+                  console.log(`  ✗ Webページ取得失敗、RSSから取得: ${fetchResult.error}`);
+                  const rawContent = extractContent(item);
+                  cleanContent = stripHtml(rawContent);
 
-                if (!cleanContent || cleanContent.length < 50) {
-                  console.log(`  スキップ: ${item.title}（本文が短すぎる）`);
-                  continue;
+                  if (!cleanContent || cleanContent.length < 50) {
+                    console.log(`  スキップ: ${item.title}（本文が短すぎる）`);
+                    return null;
+                  }
+                  console.log(`  ⚠ RSS本文を使用: ${cleanContent.length}文字`);
                 }
-                console.log(`  ⚠ RSS本文を使用: ${cleanContent.length}文字`);
+              } else {
+                console.log(`  スキップ: ${item.title}（URLなし）`);
+                return null;
               }
-            } else {
-              console.log(`  スキップ: ${item.title}（URLなし）`);
-              continue;
-            }
 
-            const limitedContent = cleanContent.slice(0, 2000);
+              const limitedContent = cleanContent.slice(0, 2000);
 
-            // コンテンツハッシュを生成
-            const contentHash = generateContentHash(limitedContent);
+              // コンテンツハッシュを生成
+              const contentHash = generateContentHash(limitedContent);
 
-            // 既存記事から同じcontentHashを持つものを検索
-            const existingItemWithSameContent = existingItems.find(
-              existing => existing.contentHash === contentHash
-            );
+              // 既存記事から同じcontentHashを持つものを検索
+              const existingItemWithSameContent = existingItems.find(
+                existing => existing.contentHash === contentHash
+              );
 
-            let summary: string;
+              let summary: string;
 
-            if (existingItemWithSameContent) {
-              // 同じコンテンツの記事が既に存在する場合、既存の要約を再利用
-              summary = existingItemWithSameContent.summary;
-              console.log(`  ♻ 要約再利用: ${item.title}`);
-            } else {
-              // 新しいコンテンツの場合、要約を生成
-              const result = await generateText({
-                model: model,
-                prompt: `以下の記事を200文字以内の日本語で要約してください:\n\n${limitedContent}`,
-              });
-              summary = result.text;
-              console.log(`  ✓ 新規要約: ${item.title}`);
-            }
+              if (existingItemWithSameContent) {
+                // 同じコンテンツの記事が既に存在する場合、既存の要約を再利用
+                summary = existingItemWithSameContent.summary;
+                console.log(`  ♻ 要約再利用: ${item.title}`);
+              } else {
+                // 新しいコンテンツの場合、要約を生成
+                const result = await generateText({
+                  model: model,
+                  prompt: `以下の記事を200文字以内の日本語で要約してください:\n\n${limitedContent}`,
+                });
+                summary = result.text;
+                console.log(`  ✓ 新規要約: ${item.title}`);
+              }
 
-            const newsItem: NewsItem = {
-              id: generateArticleId(item.link || ''),
-              title: item.title || 'タイトルなし',
-              url: item.link || '',
-              summary: summary,
-              source: feedConfig.name,
-              publishedAt: item.isoDate || new Date().toISOString(),
-              contentHash: contentHash,
-            };
+              const newsItem: NewsItem = {
+                id: generateArticleId(item.link || ''),
+                title: item.title || 'タイトルなし',
+                url: item.link || '',
+                summary: summary,
+                source: feedConfig.name,
+                publishedAt: item.isoDate || new Date().toISOString(),
+                contentHash: contentHash,
+              };
 
-            allItems.push(newsItem);
-            successCount++;
+              return newsItem;
+            })
+          );
 
-          } catch (error) {
-            errorCount++;
-            console.error(`  ✗ エラー: ${item.title}`, error);
-          }
+          // 成功した結果のみを抽出
+          const successfulItems = itemResults
+            .filter((result): result is PromiseFulfilledResult<NewsItem | null> =>
+              result.status === 'fulfilled' && result.value !== null
+            )
+            .map(result => result.value);
+
+          const failedItems = itemResults.filter(result => result.status === 'rejected');
+
+          return { items: successfulItems, errors: failedItems.length };
+        } catch (error) {
+          console.error(`フィード取得エラー: ${feedConfig.name}`, error);
+          throw error;
         }
-      } catch (error) {
-        console.error(`フィード取得エラー: ${feedConfig.name}`, error);
+      })
+    );
+
+    // 結果を集計
+    feedResults.forEach((result) => {
+      if (result.status === 'fulfilled') {
+        allItems.push(...result.value.items);
+        successCount += result.value.items.length;
+        errorCount += result.value.errors;
+      } else {
         errorCount++;
       }
-    }
+    });
 
     // 既存記事と新規記事をマージ
     const mergedItems = [...existingItems, ...allItems];
