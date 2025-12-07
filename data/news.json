@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2025-12-07T14:30:31.427Z",
+  "generatedAt": "2025-12-07T15:30:06.487Z",
   "items": [
+    {
+      "id": "d1f738ebc026",
+      "title": "Vitest の expect.unreachable で条件分岐を伴うテストで型を絞り込める | ゆめみのフィード",
+      "url": "https://zenn.dev/yumemi_inc/articles/vitest-expect-unreachable",
+      "summary": "Vitestのexpect.unreachableを使えば、ValibotのsafeParseのようにsuccessで分岐するテストでもTypeScriptの型を絞り込める、という話。safeParseは失敗時にoutputがunknownになるためexpectだけではプロパティにアクセスできないが、失敗ブランチでexpect.unreachableを使うと到達不能を示せて成功時の型を安全に扱える。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T15:04:30.000Z",
+      "contentHash": "5f479651c7a9"
+    },
+    {
+      "id": "90166cdeada2",
+      "title": "情シスの「変わらないこと」と「変わったこと」を振り返る | BABY JOB  テックブログのフィード",
+      "url": "https://zenn.dev/babyjob/articles/1e81d368321af4",
+      "summary": "BABY JOB情シス担当者が振り返る「変わらないこと」と「変わったこと」。再起動で済むヘルプデスク、終わらぬアップデート告知、Excelでの資産・ライセンス管理は不変。一方で端末・OSの多様化、軽量ノート普及、パッケージからSaaS化に伴うアカウント管理増加やシャドーITで業務範囲が拡大した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T15:00:04.000Z",
+      "contentHash": "b76ad81214b1"
+    },
+    {
+      "id": "6ef3e6ced2bb",
+      "title": "A very human vision for going all-in on AI",
+      "url": "https://www.theverge.com/podcast/839718/sublime-ai-taste-curation-vergecast",
+      "summary": "VergecastでSublime創業者のSari Azoutが、キュレーションや「味覚」を重視する同社にAIを導入し、人間の創造性や好みを置き換えず補完する形で活用する考えを語る。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-07T15:00:00.000Z",
+      "contentHash": "95165fca78de"
+    },
+    {
+      "id": "3538e87ece8c",
+      "title": "Camel File コンポーネント | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/cac20251208",
+      "summary": "Apache Camelの古参コンポーネント「camel-file」は、定期的なファイル読み込み・出力やメインフレーム／機器連携、ファイル転送で広く使われる人気機能。豊富なオプションと多数のサンプルがあり、ドキュメント確認を推奨。FTPはcamel-ftpを検討。CSV読み込みデモやRed Hatの支援相談も案内。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T15:00:00.000Z",
+      "contentHash": "8ea90c4852fc"
+    },
+    {
+      "id": "12344876a130",
+      "title": "開発ほぼ未経験の状態から新卒QAエンジニアになってみた | freee Developers Hub",
+      "url": "https://developers.freee.co.jp/entry/freee-qa-advent-calendar2025-day8",
+      "summary": "freee人事労務の新卒QAエンジニアmaomaoが、開発ほぼ未経験でインターンを経てQA職に就いた経験を紹介。研修・OJTでテスト分析・設計を学び、半年でメインQAを担当、JSTQB FLも取得。開発知識は役立つが必須ではなく、コミュニケーション重視の働き方も可能だと述べている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T15:00:00.000Z",
+      "contentHash": "4daf9845a0b6"
+    },
+    {
+      "id": "cc7455a7265e",
+      "title": "潜在的なデッドコードを見つけて削除した話 | hacomono TECH BLOG",
+      "url": "https://techblog.hacomono.jp/entry/2025/12/08/000000",
+      "summary": "RuboCopのルール強化をきっかけに潜在的デッドコードの削除に挑んだ話。CIは差分のみチェックする設定で過去コードの違反が目立ち、ユニットテスト不足と浅いドメイン理解が安全なリファクタを阻んだため慎重に対応した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T15:00:00.000Z",
+      "contentHash": "52fe8c74667b"
+    },
+    {
+      "id": "21bacb296b9c",
+      "title": "Blenderで作ったモデルをUnityで動かしてみる | テコテック開発者ブログ",
+      "url": "https://tec.tecotec.co.jp/entry/2025/12/08/000000",
+      "summary": "Blenderで作ったおばけモデルをFBXで出力してUnityにインポート、RigをGenericに設定。Animationウィンドウでふわふわの移動と拾う動作を作成し、遷移とスクリプトでWASD移動・Spaceで拾う挙動を実装する手順を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T15:00:00.000Z",
+      "contentHash": "fa19efc7d1f8"
+    },
+    {
+      "id": "184f91a9c86e",
+      "title": "【2025 Advent Calendar 8日目】Stripe Tax に魂を売った話 | ハウテレビジョン技術ブログ",
+      "url": "https://howtv.hatenablog.com/entry/2025/12/08/000000",
+      "summary": "mondは急成長でグローバル展開中だが、多国間の税務処理が課題。そこでStripe Taxを導入し、100カ国以上・多数の商品で税計算・徴収・申告を自動化。設定は簡単だがカスタム決済（Payment Intents）は追加コーディングが必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T15:00:00.000Z",
+      "contentHash": "1060d1d60911"
+    },
+    {
+      "id": "3fd9ad1742a4",
+      "title": "【React】ロジックをすべて hook にまとめてしまうのもアリだと思った | 弁護士ドットコム株式会社 Creators’ blog",
+      "url": "https://creators.bengo4.com/entry/2025/12/08/000000",
+      "summary": "長期間の運用で肥大化したコンポーネント対策として、ロジックをすべてカスタムhook（1つの「オーケストレーターhook」に集約）に閉じ込め、tsxはUIに専念させるNext.jsでの設計を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T15:00:00.000Z",
+      "contentHash": "f91b08aac764"
+    },
+    {
+      "id": "7d00f49280af",
+      "title": "タスク分割と進捗管理：なぜ「ほぼ終わり」が続くのか？ | Tabelog Tech Blog",
+      "url": "https://tech-blog.tabelog.com/entry/advent-calendar-20251206_5",
+      "summary": "エンジニアの「ほぼ終わり」が続く原因は、着手後に判明する追加タスクが見えず計画に組み込めないこと。対策はタスクを「1日単位」に細分化し朝会で日次報告すること。早期に遅延を検知でき、目標が明確になり支援しやすくなる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T15:00:00.000Z",
+      "contentHash": "fc61acb09265"
+    },
+    {
+      "id": "a7bf0c865553",
+      "title": "「あけおめ！」を大切にできるサイトを作ったよ。 | NE株式会社の開発ブログのフィード",
+      "url": "https://zenn.dev/neinc_tech/articles/created-akeome-matsuri-for-2026",
+      "summary": "元エンジニアが作った静的サイト「あけおめまつり」。Zola＋Cloudflareでフロントのみ構築し、背景や挨拶を組合せてURL発行（約1,200万通り）。受け手は背景や返信をカスタムして画像をダウンロード可。データはサーバに残さない。制作はほぼChatGPT支援で、減った「あけおめ」を大切にする試み。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T14:59:09.000Z",
+      "contentHash": "517f54915d50"
+    },
+    {
+      "id": "4745b339ec6c",
+      "title": "What Google Glass got right — and really, really wrong",
+      "url": "https://www.theverge.com/podcast/839712/google-glass-smart-glasses-version-history",
+      "summary": "グーグルグラスはスマートグラスを一般化して新しい利用の夢を生んだが、プライバシーや対人不快感による激しい反発で短期間に商業的失敗に終わった。その光と影をVersion Historyが振り返る。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-07T14:17:43.000Z",
+      "contentHash": "1740ce8ce3a0"
+    },
     {
       "id": "ebea89558aac",
       "title": "A love letter to glory days of iPhone gaming",
@@ -9,6 +117,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-07T14:00:00.000Z",
       "contentHash": "83af5af7cd98"
+    },
+    {
+      "id": "e2af359c451c",
+      "title": "Goodbye, Microsoft: Schleswig-Holstein Relies on Open Source and Saves Millions",
+      "url": "https://www.heise.de/en/news/Goodbye-Microsoft-Schleswig-Holstein-relies-on-Open-Source-and-saves-millions-11105459.html",
+      "summary": "シュレスヴィヒ＝ホルシュタイン州がMicrosoftからオープンソースへ移行し、来年だけでライセンス費を1500万ユーロ超節約。2026年に900万ユーロの一時投資が必要だが、約80％の職場がLibreOfficeへ移行し、ベンダーロックイン回避とデジタル主権の確保を図る。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-07T13:21:24.000Z",
+      "contentHash": "3df707842469"
     },
     {
       "id": "7d9dbc761ee4",
@@ -212,10 +329,10 @@
       "id": "4c6979853779",
       "title": "Eurydice: a Rust to C compiler (yes)",
       "url": "https://jonathan.protzenko.fr/2025/10/28/eurydice.html",
-      "summary": "EurydiceはRustをCにコンパイルする試み。Rust未対応の古い環境や組み込みターゲット、特殊ツールチェーンでも利用できるようにし、段階的移行と互換性確保を目指す。",
+      "summary": "リンク先に直接アクセスできないため、記事本文をここに貼っていただけますか？または、要約で特に重視したい点（結論、批評、技術的詳細など）を教えてください。200文字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T01:41:33.000Z",
-      "contentHash": "ccd8dde021b8"
+      "contentHash": "27631a5db9ed"
     },
     {
       "id": "091acc7346ef",
@@ -239,10 +356,10 @@
       "id": "f67e62967a5e",
       "title": "Kilauea erupts, destroying webcam [video]",
       "url": "https://www.youtube.com/watch?v=TK2N99BDw7A",
-      "summary": "申し訳ありませんが、外部リンクに直接アクセスできないため要約できません。動画の文字起こしや重要なコメント、あるいは主題を貼り付けていただければ、200字以内で要約します。",
+      "summary": "申し訳ありませんが、外部URLへ直接アクセスできません。要約するには以下のどちらかをお願いします：\n1) 動画の文字起こし（字幕）や本文を貼る  \n2) 要約してほしい箇所（動画の主題やHNでの論点）を教える\n\n内容をいただければ、200文字以内で日本語要約を作成します。どちらにしますか？",
       "source": "Hacker News",
       "publishedAt": "2025-12-06T23:39:02.000Z",
-      "contentHash": "dc38a340cd49"
+      "contentHash": "dcbd54f3b999"
     },
     {
       "id": "ec43ca315de3",
