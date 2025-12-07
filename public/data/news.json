@@ -1,41 +1,113 @@
 {
-  "generatedAt": "2025-12-07T12:43:40.411Z",
+  "generatedAt": "2025-12-07T13:37:52.158Z",
   "items": [
+    {
+      "id": "7d9dbc761ee4",
+      "title": "Starlink made ‘work from home’ possible from anywhere — now, I&#8217;m ready for a change",
+      "url": "https://www.theverge.com/column/837202/starlink-work-from-home",
+      "summary": "著者は20年の在宅勤務経験から、2019年開始のStarlinkが陸海空や災害地でも迅速に低遅延・高帯域の通信を提供し、どこでも仕事が可能になったと評価。事実上の独占で競争が追いつくかは不透明。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-07T13:00:00.000Z",
+      "contentHash": "3310707f63b9"
+    },
+    {
+      "id": "9b6086898353",
+      "title": "An all-time great game makes a comeback",
+      "url": "https://www.theverge.com/tech/839273/red-dead-redemption-fizzy-installer",
+      "summary": "The VergeのInstaller No.108（David Pierce）。名作ゲームMetroidの復活をはじめ、新しい生産性アプリや習慣トラッカーなど注目アプリ、MoMA照明やHueスイッチ、Frame TVなどガジェットの話、編集者の近況雑感を短く紹介。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-07T13:00:00.000Z",
+      "contentHash": "a199ac31de19"
+    },
+    {
+      "id": "44e4e0fd25fb",
+      "title": "React Native でヘルスケアを利用する設計パターンについて考えてみた | Ubie テックブログのフィード",
+      "url": "https://zenn.dev/ubie_dev/articles/2940bc9cdc4658",
+      "summary": "React Native×ExpoでHealthKit（iOS）とHealth Connect（Android）を統合する際、OSごとにデータ構造や思想が異なり時間データやアンカーで不整合が生じる。そこでOS固有処理を分離する3層アーキテクチャを提案し、アプリ層は欲しいデータに集中できるようにした。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T12:57:16.000Z",
+      "contentHash": "6b06127db968"
+    },
+    {
+      "id": "3c929673248b",
+      "title": "a-blog cms のTwigテーマ化のためのEleventy + Nunjucks + Vite静的HTML制作環境 | 株式会社HAMWORKSのフィード",
+      "url": "https://zenn.dev/hamworks/articles/33fcf3bbcf5d82",
+      "summary": "記事は、a-blog cms のテーマ化を前提とした静的HTML制作において、2025年時点で Eleventy＋Nunjucks＋Vite の組み合わせが最もバランス良いと提案。NunjucksはTwig/a-blog cmsのインクルードやレイアウト構造と親和性が高く、EleventyのシンプルさとViteの開発体験が利点と説明している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T12:39:56.000Z",
+      "contentHash": "5748377f957a"
+    },
+    {
+      "id": "2b6b886faa96",
+      "title": "【Microsoft Fabric】- 管理ポータルの項目が足りない..?場合の確認ポイント | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/d7a320be7009b9",
+      "summary": "Microsoft PurviewをFabricに接続する際、Fabric管理ポータルで表示項目が不足する問題が発生。原因は管理者権限の不足で、Entra IDでFabric管理者を付与することで解決する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T12:27:41.000Z",
+      "contentHash": "0a49e64123b9"
+    },
+    {
+      "id": "16db6526b041",
+      "title": "ADK 公式プラグイン「BigQuery Agent Analytics」ではじめる AI エージェントの行動分析 | Google Cloud Japanのフィード",
+      "url": "https://zenn.dev/google_cloud_jp/articles/adk-bigquery-agent-analytics",
+      "summary": "GoogleのADK公式プラグイン「BigQuery Agent Analytics」は、エージェントのイベントをBigQueryへ簡単にストリーミングし、行動分析基盤を迅速に構築できる。Storage Write APIで高性能書込、最適化スキーマやPII秘匿などのカスタマイズが可能。導入は数行のコードとAPI/IAM設定、データセット・テーブル作成で完了。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T12:10:25.000Z",
+      "contentHash": "3d21becd486a"
+    },
+    {
+      "id": "ba465747a35b",
+      "title": "iPaaSどれがええの？ | CloudNative Inc. BLOGs",
+      "url": "https://blog.cloudnative.co.jp/29696/",
+      "summary": "著者がmake、Workato、Zapier、Power Automate、n8nを比較。結論はn8nかmake推奨。Power AutomateはMicrosoft環境向け、Workatoはエンタープライズ向け、Zapierは非技術者向けで、UIやエラーハンドリング、コード対応などを実際に触って評価している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T11:32:29.000Z",
+      "contentHash": "079d19fea4de"
+    },
+    {
+      "id": "7f8da9538ee8",
+      "title": "【re:Invent 2025】ワークショップ「Rapid Prototyping with Kiro CLI」参加レポート | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/rapid-prototyping-with-kiro-cli",
+      "summary": "市野氏がre:Invent 2025でKiro CLIワークショップに参加。AI駆動開発ライフサイクルとKiroの生成AIでAWSを活用し、2つのサーバーレスプロトタイプ（例：貯金管理アプリ）をハンズオンで構築、仕様駆動開発やプロンプト技術を学んだ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T11:12:38.000Z",
+      "contentHash": "bcbe7b696888"
+    },
     {
       "id": "e23fc39896c9",
       "title": "パスワードの常識が変わっている！ | コラボスタイル Developersのフィード",
       "url": "https://zenn.dev/collabostyle/articles/294c70d5437b57",
-      "summary": "Advent Calendar 2025の7日目。作者はゲーム推しでBlenderを学び中。本記事は「パスワード」について、2025年7月公開のNIST（SP 800‑63‑4/63B‑4）最終版で常識が一変し、コラボフローの設定にも影響があると解説します。",
+      "summary": "NISTの新ガイド（SP 800-63B-4、2025年）でパスワード常識が変化。記号混在や定期変更は不要、代わりに15文字以上や長いパスフレーズを推奨し、漏洩パスワードはブロック。コラボフローで設定可能。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T10:49:24.000Z",
-      "contentHash": "6d2ebc6ded88"
+      "contentHash": "cbf1e4a0a27b"
     },
     {
       "id": "cb9629a5e629",
       "title": "re:Invent での渡米先でパスポートを紛失し肝を冷やしまくった話 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/lost-passport-at-las-vegas",
-      "summary": "AWS re:Invent 2025で渡航中、ラスベガスでパスポートを紛失して大慌てしたが、奇跡的に発見され無事帰国。皆への注意喚起を目的とした投稿です。",
+      "summary": "re:Invent参加中に小型ポーチごとパスポートを紛失。会場やホテルで捜索・届け出を行い、領事対応や米国内線利用制限で帰国手続きが複雑に。最終的に同僚と無事帰国し、教訓を共有。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T09:37:37.000Z",
-      "contentHash": "8fe5625ad96d"
+      "contentHash": "47ce2d0669b7"
     },
     {
       "id": "6cddf0de38af",
       "title": "AIワークフローに必要なのは「丁稚奉公」だった | CADDi Tech Blog",
       "url": "https://caddi.tech/2025/12/07/175703",
-      "summary": "キャディのAIエバンジェリスト川村氏は、AIが議事録やスライド作成などの定型業務を得意とする一方で、業界慣習や企業技術、個人判断が絡む自動車部品のFMEAのような高度で暗黙知が必要な業務はAIだけでは対応できないと指摘している。",
+      "summary": "AI導入で必要なのは「丁稚奉公」的な地道な業務把握。FMEA例のように業務解像度を極限まで高め、業務モデル化・AIの自律性や人の役割を設計しないと表層的な出力しか得られず実務で使えない。数年の下積みが必須。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T08:57:03.000Z",
-      "contentHash": "8ea36566cf3c"
+      "contentHash": "3e91d5171d97"
     },
     {
       "id": "15018d1e7916",
       "title": "React Native アプリの Expo SDK アップデート（50 → 52 → 54）を実施しました | asoview! Tech Blog",
       "url": "https://tech.asoview.co.jp/entry/2025/12/07/174213",
-      "summary": "Expo SDK 52へのアップデートを軸に、Node.js更新、Yarn Classic→Berry移行、react-native-elementsの.defaultPropsエラー対応、EAS CLIのモノレポ対応、React Navigation 5→7移行、JSXの静的化やnavigate挙動変更などのアップデート記録です。",
+      "summary": "Fast-InをExpo SDK 50→52→54へ段階的に更新。Metroのos.availableParallelism対応でNode.jsをv22へ更新し、間接依存の解決のためYarn Classic→Yarn Berryへ移行。react-native-elementsやReact Navigationの破壊的変更、ESLint9対応、SafeAreaView非推奨化など各種修正を行った。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T08:42:13.000Z",
-      "contentHash": "e25dc17190d6"
+      "contentHash": "16b9cb22dc1c"
     },
     {
       "id": "0950ecbf3452",
@@ -131,10 +203,10 @@
       "id": "4c6979853779",
       "title": "Eurydice: a Rust to C compiler (yes)",
       "url": "https://jonathan.protzenko.fr/2025/10/28/eurydice.html",
-      "summary": "すみません、私は外部サイトを直接閲覧できません。記事本文を貼っていただくか、要点を教えてください。いただければ200文字以内で日本語要約します。",
+      "summary": "EurydiceはRustをCにコンパイルする試み。Rust未対応の古い環境や組み込みターゲット、特殊ツールチェーンでも利用できるようにし、段階的移行と互換性確保を目指す。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T01:41:33.000Z",
-      "contentHash": "9a1e34d9f34f"
+      "contentHash": "ccd8dde021b8"
     },
     {
       "id": "091acc7346ef",
@@ -158,37 +230,37 @@
       "id": "f67e62967a5e",
       "title": "Kilauea erupts, destroying webcam [video]",
       "url": "https://www.youtube.com/watch?v=TK2N99BDw7A",
-      "summary": "外部リンクに直接アクセスできないため内容を取得できません。動画かHNコメントのどちらを要約希望か教え、トランスクリプトや本文、要点を貼ってください。確認後200字以内で要約します。",
+      "summary": "外部リンクを直接参照できないため内容を取得できません。動画の書き起こしや本文・主要コメントを貼っていただければ、200字以内で日本語要約を作成します。要点やトーン指定があれば併記ください。",
       "source": "Hacker News",
       "publishedAt": "2025-12-06T23:39:02.000Z",
-      "contentHash": "0d88a3c5625e"
+      "contentHash": "be3e0543d403"
     },
     {
       "id": "08908ca0fd6e",
       "title": "Screenshots from developers: 2002 vs. 2015 (2015)",
       "url": "https://anders.unix.se/2015/12/10/screenshots-from-developers--2002-vs.-2015/",
-      "summary": "2002年と2015年の開発者デスクトップのスクリーンショットを比較。解像度やUIが大幅に進化し、ブラウザ/ウェブアプリやSlack・Git中心へ移行しつつも、端末やvimなど基本的ツールは残っている様子を示す。",
+      "summary": "2002年と2015年に著名な開発者やUnix関係者のデスクトップスクリーンショットを再収集して比較。多くは端末中心の作業環境が継続し、Emacsやvim、ブラウザなどが主役で大きな変化は少ない。",
       "source": "Hacker News",
       "publishedAt": "2025-12-06T21:55:09.000Z",
-      "contentHash": "36da675e3880"
+      "contentHash": "b0d3015d28dc"
     },
     {
       "id": "a0cadf2bc421",
       "title": "The past was not that cute",
       "url": "https://juliawise.net/the-past-was-not-that-cute/",
-      "summary": "cottagecoreに惹かれつつも過去を美化する風潮を批判。ローラ・インガルス・ワイルダーの作品は過酷な現実を美化しており、娘の証言がそれを示す。著者も過去の人々が親切だと誤解していたが現実は厳しい、という内容。",
+      "summary": "cottagecoreは過去を牧歌的に美化する傾向があり、著者も惹かれたが、ラウラ・イングルス・ワイルダーが開拓時代の過酷さを美しく描き直した例や、民謡から抱いた人々の「性格は昔のほうが良かった」という幻想は誤りだと指摘する。",
       "source": "Hacker News",
       "publishedAt": "2025-12-06T21:53:35.000Z",
-      "contentHash": "6144c75ec0bd"
+      "contentHash": "471f6d9a5633"
     },
     {
       "id": "90b91777cfe5",
       "title": "Coffee linked to slower biological ageing among those with severe mental illness",
       "url": "https://www.kcl.ac.uk/news/coffee-linked-to-slower-biological-ageing-among-those-with-severe-mental-illness-up-to-a-limit",
-      "summary": "キングス・カレッジ・ロンドンの研究は、重度の精神疾患患者で1日数杯の適度なコーヒー摂取がDNAメチル化に基づく生物学的老化の進行遅延と関連し、効果は約3～4杯までで過剰摂取では見られず、観察研究のため因果は不明と結論付けた。",
+      "summary": "キングス・カレッジの研究で、重度の精神疾患を持つ人々では適量のコーヒー摂取が生物学的老化の進行と関連して遅らせる可能性が示された。効果は一定量までで因果関係は不明、追加研究が必要。",
       "source": "Hacker News",
       "publishedAt": "2025-12-06T21:33:03.000Z",
-      "contentHash": "96e39a80c072"
+      "contentHash": "ee17d2bd2172"
     },
     {
       "id": "b8a7ed8eeeba",
@@ -203,10 +275,10 @@
       "id": "054f863a6123",
       "title": "The general who refused to crush Tiananmen's protesters",
       "url": "https://www.economist.com/china/2025/12/04/the-general-who-refused-to-crush-tiananmens-protesters",
-      "summary": "天安門での市民弾圧命令を拒んだ将軍の行動とその代償を描く。軍内部の良心と権威への服従の葛藤、党の封殺と彼のその後を通じて歴史と記憶を問う内容。",
+      "summary": "1989年の天安門で市民への発砲命令を拒んだある将軍の決断とその後の処遇を追い、党と軍の関係、記憶の抑圧、権威の脆弱さを考察する。",
       "source": "Hacker News",
       "publishedAt": "2025-12-06T19:47:13.000Z",
-      "contentHash": "1be4b79070c4"
+      "contentHash": "5f028724dbac"
     },
     {
       "id": "7afeea9c4ae0",
