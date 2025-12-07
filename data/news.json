@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-07T21:28:31.280Z",
+  "generatedAt": "2025-12-07T22:29:10.834Z",
   "items": [
     {
       "id": "28609fcbe14e",
@@ -9,6 +9,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-07T20:52:37.000Z",
       "contentHash": "4ece74ecdbbb"
+    },
+    {
+      "id": "74c6851f2a59",
+      "title": "Estimates are difficult for developers and product owners",
+      "url": "https://thorsell.io/2025/12/07/estimates.html",
+      "summary": "見積もりは必要悪。開発者は着手前の不確実性で嫌うが、プロダクトオーナーは市場・顧客要望をユーザーストーリーに変え、案件の流入が実装速度を上回るため、リソース配分とバックログ優先付けに見積もりを重視する。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-07T19:17:17.000Z",
+      "contentHash": "9e18f79a12a4"
     },
     {
       "id": "e8ef94a3a584",
@@ -32,19 +41,19 @@
       "id": "d1f738ebc026",
       "title": "Vitest の expect.unreachable で条件分岐を伴うテストで型を絞り込める | ゆめみのフィード",
       "url": "https://zenn.dev/yumemi_inc/articles/vitest-expect-unreachable",
-      "summary": "Vitestのexpect.unreachableを使えば、ValibotのsafeParseのようにsuccessで分岐するテストでもTypeScriptの型を絞り込める、という話。safeParseは失敗時にoutputがunknownになるためexpectだけではプロパティにアクセスできないが、失敗ブランチでexpect.unreachableを使うと到達不能を示せて成功時の型を安全に扱える。",
+      "summary": "TypeScript Advent Calendar 2025の記事。expect.unreachable を使い、ZodやValibotで作ったスキーマをVitestでテストする際の「成功/失敗」分岐の煩わしさを解消する方法を紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T15:04:30.000Z",
-      "contentHash": "5f479651c7a9"
+      "contentHash": "d181451cb4c9"
     },
     {
       "id": "90166cdeada2",
       "title": "情シスの「変わらないこと」と「変わったこと」を振り返る | BABY JOB  テックブログのフィード",
       "url": "https://zenn.dev/babyjob/articles/1e81d368321af4",
-      "summary": "BABY JOB情シス担当者が振り返る「変わらないこと」と「変わったこと」。再起動で済むヘルプデスク、終わらぬアップデート告知、Excelでの資産・ライセンス管理は不変。一方で端末・OSの多様化、軽量ノート普及、パッケージからSaaS化に伴うアカウント管理増加やシャドーITで業務範囲が拡大した。",
+      "summary": "BABY JOB開発部の情シス担当が数年ぶりに復帰し、急速な環境変化に浦島太郎状態を感じつつも、情シスの不変の本質や“あるある”に懐かしさを覚えた。この記事は変わらないことと変わったことを綴る。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T15:00:04.000Z",
-      "contentHash": "b76ad81214b1"
+      "contentHash": "b3ebfc37c908"
     },
     {
       "id": "6ef3e6ced2bb",
@@ -59,10 +68,10 @@
       "id": "3538e87ece8c",
       "title": "Camel File コンポーネント | 赤帽エンジニアブログ",
       "url": "https://rheb.hatenablog.com/entry/cac20251208",
-      "summary": "Apache Camelの古参コンポーネント「camel-file」を紹介。定期的なディレクトリ読み書きやメインフレーム・機器連携、FTP代替など幅広く利用され、豊富なオプションと実例がある。公式/コミュニティ文書で確認し、必要ならRed Hatのコンサルやコミュニティへ相談を。CSV読み込みデモも掲載。",
+      "summary": "Apache Camel Advent Calendar 8日目はサポート担当・古市が「Camel File コンポーネント」を解説。Camel 1.0からの定番で、定期的なディレクトリ読み込みや出力、メインフレーム連携など現場で今も頻繁に使われるコンポーネントです。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T15:00:00.000Z",
-      "contentHash": "8ea90c4852fc"
+      "contentHash": "3f29664dc7b9"
     },
     {
       "id": "12344876a130",
@@ -95,10 +104,10 @@
       "id": "184f91a9c86e",
       "title": "【2025 Advent Calendar 8日目】Stripe Tax に魂を売った話 | ハウテレビジョン技術ブログ",
       "url": "https://howtv.hatenablog.com/entry/2025/12/08/000000",
-      "summary": "mondのグローバル展開での税務複雑性を、Stripe Taxで解消。税額算出・徴収・申告や登録監視を自動化し100カ国超対応。導入は簡単だがカスタム決済は追加実装が必要。",
+      "summary": "HowTelevision Advent Calendar 2025の8日目記事。開発者chima91が匿名Q&Aプラットフォーム「mond」を紹介し、月間アクティブユーザーが2025年1月の500万から9か月で1000万に倍増、クリエイターとファンをつなぐ次世代コミュニティとして急成長していると報告する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T15:00:00.000Z",
-      "contentHash": "1060d1d60911"
+      "contentHash": "7612b86d50f3"
     },
     {
       "id": "3fd9ad1742a4",
@@ -122,10 +131,19 @@
       "id": "a7bf0c865553",
       "title": "「あけおめ！」を大切にできるサイトを作ったよ。 | NE株式会社の開発ブログのフィード",
       "url": "https://zenn.dev/neinc_tech/articles/created-akeome-matsuri-for-2026",
-      "summary": "元エンジニアの正訓が「あけおめ」を大切にするため作った静的サイト「あけおめまつり」。Zola＋Cloudflareでフロントのみ構築し、背景や挨拶文を組み合わせてURL発行、受け手は返信や背景写真を設定して画像をダウンロード可能。サーバー保存はしない設計。",
+      "summary": "NE Advent Calendar 2025の7日目。元エンジニアの正訓が登場。ここ2年は事業側を見ており、事業やマネジメントを書くべきか迷うが、作ったものを書く自分ルールを優先。ZennやQiitaではコーディングTipsが減りAIネタが増えたと感じている。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T14:59:09.000Z",
-      "contentHash": "517f54915d50"
+      "contentHash": "d40145a16472"
+    },
+    {
+      "id": "4b5fe1c6759f",
+      "title": "Dollar-stores overcharge cash-strapped customers while promising low prices",
+      "url": "https://www.theguardian.com/us-news/2025/dec/03/customers-pay-more-rising-dollar-store-costs",
+      "summary": "ガーディアンの調査で、Dollar GeneralとFamily Dollarが棚札より会計時に高く請求する事例が多数判明。北カロライナの検査では300品中69品（23%）で差額があり、棚札の更新遅れも報告。生活費を圧迫する低所得層が影響を受けている。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-07T14:37:21.000Z",
+      "contentHash": "5ba70a77ecfc"
     },
     {
       "id": "4745b339ec6c",
@@ -365,10 +383,10 @@
       "id": "604d8ed0c448",
       "title": "Discovering the indieweb with calm tech",
       "url": "https://alexsci.com/blog/calm-tech-discover/",
-      "summary": "Calm Technologyの理念を解説。技術は注意を奪わず周辺で情報を伝え、必要なときだけ中心に移る設計を重視する。通知やUIを抑え注意コストを下げ、人間の能力を補完してストレスを減らすことが目的。",
+      "summary": "著者はソーシャルメディアの弊害を指摘し、通知で煩わせない「calm technology」なツールを紹介。StreetPassは閲覧中にMastodonアカウントを静かに収集し、同手法でRSSを自動発見するBlog Questも作った。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T03:26:01.000Z",
-      "contentHash": "6a00e3940cdb"
+      "contentHash": "64f6c23a15f8"
     },
     {
       "id": "74c8a14fb9e4",
@@ -626,10 +644,10 @@
       "id": "bd624e3f13a5",
       "title": "AMD ROCm と LeRobot によるロボットVLMのファインチューニング",
       "url": "https://note.com/npaka/n/nd22844facb78",
-      "summary": "AMD ROCmとLeRobotで3BパラメータVLM「Pi0」をMI200上でファインチューニングし、Phoenix AI PCでリアルタイム推論。Koch二腕＋デュアルカメラでピック＆プレースを実演し、事前学習モデルを50本の短軌跡で迅速に適応させる手順を解説。",
+      "summary": "AMD ROCmとLeRobotを用いて、ロボット向けの視覚・言語・行動モデルをファインチューニングする手順、環境構築や互換性、性能改善のポイントを解説する記事です。",
       "source": "npaka",
       "publishedAt": "2025-12-04T19:05:42.000Z",
-      "contentHash": "1c8c3628111b"
+      "contentHash": "91caec8999de"
     },
     {
       "id": "241f77b203d9",
@@ -680,10 +698,10 @@
       "id": "182a8b7226b8",
       "title": "Kling O1 の概要",
       "url": "https://note.com/npaka/n/n1ab6a0873f26",
-      "summary": "Kling O1は世界初の統合型マルチモーダル動画モデル（MVL）。自然言語を軸にテキスト・画像・動画を統合し、複雑な操作不要で直感的に生成・編集。参考素材複数枚対応で背景・被写体差替え、スタイルやカメラ操作などをワンストップで実現。",
+      "summary": "Kling O1（Video O1）の概要と利用ガイドをまとめた記事。Kling O1の特徴や動画（Video O1）の機能説明、使い方や注意点などが掲載されています。",
       "source": "npaka",
       "publishedAt": "2025-12-02T21:03:09.000Z",
-      "contentHash": "4aab05938b12"
+      "contentHash": "18c64c035278"
     },
     {
       "id": "0d851cc96d24",
@@ -698,10 +716,10 @@
       "id": "643f709e602c",
       "title": "Transformers v5 の概要",
       "url": "https://note.com/npaka/n/n1d9d1aafab55",
-      "summary": "Transformers v5を公開。v4以降の急成長を受け、｢シンプルさ｣｢学習｣｢推論｣｢プロダクション｣を重視。モジュール化でモデル定義を簡素化・共通化し、AttentionInterfaceやモデル変換・コード削減ツールで統合と保守性を向上、幅広いエコシステムと連携する。",
+      "summary": "記事本文かリンクを貼ってください。本文を元に200文字以内で正確に要約します。本文がない場合はタイトルだけで簡易要約を作成しますが、詳細は省略されます。どちらにしますか？",
       "source": "npaka",
       "publishedAt": "2025-12-02T02:11:46.000Z",
-      "contentHash": "fede0150571e"
+      "contentHash": "253f4b243b55"
     },
     {
       "id": "946bf5413869",
@@ -770,10 +788,10 @@
       "id": "083e6029f7c5",
       "title": "X (旧Twitter) でサムネイルを更新する方法",
       "url": "https://note.com/npaka/n/nc6b0d82972b0",
-      "summary": "Xでリンク投稿のサムネイルが更新されないのはURLごとのOGPキャッシュが原因。cards-dev.twitter.com/validator（Twitter Card Validator）にURLを入れて「Preview card」を押しリフレッシュし、その後再投稿すれば新しいサムネが表示される。",
+      "summary": "Xにリンクを投稿してもサムネイルが古いままになることがある。原因はXがURLごとにOGPをキャッシュしているためで、専用のリフレッシュツールで更新できる。",
       "source": "npaka",
       "publishedAt": "2025-11-30T11:28:57.000Z",
-      "contentHash": "0853ce995100"
+      "contentHash": "2ceecab54609"
     },
     {
       "id": "600e59f035b6",
@@ -2417,10 +2435,10 @@
       "id": "4153bada71dc",
       "title": "Nano Banana Pro で描いたマンガを Sora2 でアニメ化する",
       "url": "https://note.com/npaka/n/neb5bc0864db8",
-      "summary": "Nano Banana Proで描いた漫画をSora2でアニメ化した報告。ページ画像を合成して読み込み、右→左読みで吹き出し内の文字を音声化。初回は吹き出しが残ったが、Remixで削除に成功。全体変更の副作用あり、部分修正が望まれる。",
+      "summary": "『Nano Banana Pro』で描いたマンガをAIツール『Sora2』でアニメ化した試作のまとめ。制作手順や設定、問題点と改善策、完成したアニメの感想や今後の展望を紹介しています。",
       "source": "npaka",
       "publishedAt": "2025-11-28T02:34:30.000Z",
-      "contentHash": "cac825b5cfd3"
+      "contentHash": "a2e4160c2bf3"
     },
     {
       "id": "0c9d49f451e4",
