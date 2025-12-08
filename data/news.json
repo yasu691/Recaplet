@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2025-12-08T14:31:26.672Z",
+  "generatedAt": "2025-12-08T15:33:43.927Z",
   "items": [
+    {
+      "id": "aa3f8a4ee7fb",
+      "title": "Expand and Contract パターンによる破壊的変更の段階的適用 | BABY JOB  テックブログのフィード",
+      "url": "https://zenn.dev/babyjob/articles/4bfe61d366c6c0",
+      "summary": "Expand and Contractパターンは、破壊的変更をゼロダウンタイムで段階的に適用する手法。Expand（新構造導入と二重書き込み）、Migrate（読み替え）、Contract（旧構造停止・削除）でビッグバンのリスクを回避し、DBやAPI移行に有効。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T15:00:07.000Z",
+      "contentHash": "4e7934d0364f"
+    },
+    {
+      "id": "63af0b87f687",
+      "title": "Accept-Encoding と Content-Encoding を正しく理解する | OPTIMINDテックブログのフィード",
+      "url": "https://zenn.dev/optimind/articles/d8c66cad39b880",
+      "summary": "Accept-Encodingはクライアント→サーバで「解凍できる方式」を示し、Content-Encodingはサーバ→クライアントで「実際に使った圧縮方式」を示す。gzip/br/deflate/identity等があり、圧縮は通信量削減と速度向上が目的。両者の違いを理解し、fetch/curl等で挙動を検証すると問題調査が容易になる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T15:00:06.000Z",
+      "contentHash": "5af719b28e0a"
+    },
+    {
+      "id": "701fd2718525",
+      "title": "Square’s product chief on the death of the penny and the future of money",
+      "url": "https://www.theverge.com/podcast/839062/square-product-chief-willem-ave-block-jack-dorsey-ai-bitcoin-crypto",
+      "summary": "Nilay PatelがSquare（現Block）のプロダクト責任者Willem Avéに取材。磁気リーダーから成長したSquareの歩み、Cash App・Afterpay・Tidalを含むBlockへの再編、AI自動化、暗号投資、1セント廃止やジャック・ドーシーとの働き方について語る。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-08T15:00:00.000Z",
+      "contentHash": "12c181455fee"
+    },
+    {
+      "id": "cd737f52a585",
+      "title": "Camel Kafka コンポーネント | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/cac20251209",
+      "summary": "Apache Camel Advent Calendar 記事（古市）が Camel Kafka コンポーネントを紹介。OpenShift等でログルーティングに多用され、豊富なオプションとサンプルあり。検証は Docker か camel-jbang の infra（strimzi）で broker を起動し、camel cmd で送受信する手順を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T15:00:00.000Z",
+      "contentHash": "cc0ad655eae3"
+    },
+    {
+      "id": "097e5768c37a",
+      "title": "Antigravity 使用レビュー：次世代AIエディタの実力とは | テコテック開発者ブログ",
+      "url": "https://tec.tecotec.co.jp/entry/2025/12/09/000000",
+      "summary": "Google DeepMindのAIエディタAntigravityを試用。VS Codeベースで操作性が高く、Plan/Task/Diffで協働感が強い。GASのREADME自動生成や通知が便利。Gemini 3.0 Proは実務向きだが文章の読みやすさや誤りでChatGPT 5.1に一部劣る。日本語化手順も解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T15:00:00.000Z",
+      "contentHash": "f9e857f150d9"
+    },
+    {
+      "id": "6b6b12eead0e",
+      "title": "人間理解についてエンジニアチックに考えてみる | NEXTSCAPE blog",
+      "url": "https://blog.nextscape.net/archives/2025/12/09/000000",
+      "summary": "鈴木さんは、人間理解をエンジニア的に考察。伝わらない原因は経験による「レンズ」や無意識のデフォルト設定。対策は観察・解釈検証・デバッグの繰返し。生成AI時代でも技術と人間理解の両立が重要と結ぶ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T15:00:00.000Z",
+      "contentHash": "c9b9708ce96b"
+    },
+    {
+      "id": "df99ddcba83f",
+      "title": "Claude Code 爽快手放し運転 on Raspberry Pi | フォトシンス エンジニアブログ",
+      "url": "https://akerun.hateblo.jp/entry/2025/12/cc_on_raspi",
+      "summary": "daikwによるAkerun Advent Calendar 2025の2日目記事。Raspberry Pi上にAIに全てを任せる隔離環境を作り、手放し運転を楽しむ社内勉強会の内容を共有（発表は約半年先のためやや古い）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T15:00:00.000Z",
+      "contentHash": "1bbe231591f8"
+    },
+    {
+      "id": "c7fe9edf944b",
+      "title": "コーディングエージェントに喋らせる | フォトシンス エンジニアブログ",
+      "url": "https://akerun.hateblo.jp/entry/2025/12/ccpersona",
+      "summary": "Akerun Advent Calendar 2025の1日目。CTO室を務めるdaikwが、社内LT「AI駆動開発勉強会」で発表した内容を共有し、コーディングエージェントに喋らせる手法を簡単に紹介する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T15:00:00.000Z",
+      "contentHash": "50b6463320f6"
+    },
+    {
+      "id": "791f74ad26f1",
+      "title": "生成AI で dbt の開発を加速させるための「ガードレール」とTips | RAKSUL TechBlog",
+      "url": "https://techblog.raksul.com/entry/2025/12/09/000000",
+      "summary": "ノバセルのデータエンジニアが、生成AIでdbt開発を9割超自動化しつつ品質を保つためのガードレールと運用TIPS。Import/Functional/Finalの3層CTE規約をAIに学習させ、セッションをドキュメント化。テストは冗長削減・最小化し、unit_testはモデル固有ロジックに限定する判断基準を導入。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T15:00:00.000Z",
+      "contentHash": "aab5912ebab5"
+    },
+    {
+      "id": "060210baa9d9",
+      "title": "Paramount launches a hostile $108 billion bid to snatch Warner from Netflix",
+      "url": "https://www.theverge.com/news/839813/paramount-skydance-warner-bros-discovery-hostile-takeover-bid",
+      "summary": "パラマウントがワーナー・ブラザース・ディスカバリーに対し1,084億ドルの敵対的全額現金買収案を提示。Netflixの830億ドル案を「劣る」と批判し地上波も含むと主張。規制審査の不確実性を指摘し、CEOは資金源めぐる質問に明確に答えなかった。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-08T14:39:44.000Z",
+      "contentHash": "c0cf5d72b676"
+    },
+    {
+      "id": "99316eb7b1d8",
+      "title": "Netflix is buying Warner Bros: All of the latest updates",
+      "url": "https://www.theverge.com/news/839007/netflix-warner-acquisition",
+      "summary": "Netflixがワーナー（スタジオ、HBO/HBO Max、Warner Games等）を約830億ドルで買収合意。ケーブル・スポーツは除外。だがパラマウントが有線網も含む1084億ドルの敵対的買収を提示し、政治・規制の注目を集めている。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-08T14:27:21.000Z",
+      "contentHash": "4bb551403bc2"
+    },
     {
       "id": "8256e8ede8b0",
       "title": "Segway’s new Myon e-bike will straddle past and future",
@@ -84,12 +183,12 @@
     },
     {
       "id": "aaf27eec1ede",
-      "title": "12 Days of Shell",
+      "title": "Twelve Days of Shell",
       "url": "https://12days.cmdchallenge.com",
-      "summary": "このサイトは♡（愛）を込めて jquery.terminal、Openmoji、Golang を使って構築されています。詳しくは cmdchallenge を参照してください。",
+      "summary": "「12 Days of Command Line」は、12日間で出題されるコマンドラインの実践パズル集。各問題にヒントや解答があり、grep/awk/sed/xargs等のシェルツール習得を目的とする教材で、HNで注目と議論を集めています。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T10:13:07.000Z",
-      "contentHash": "2b4171d8a0c8"
+      "contentHash": "87377a0d102f"
     },
     {
       "id": "7e90b4e98156",
@@ -306,6 +405,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T06:00:00.000Z",
       "contentHash": "0a3119964b52"
+    },
+    {
+      "id": "007b2c119143",
+      "title": "Instacart and OpenAI partner on AI shopping experiences",
+      "url": "https://openai.com/index/instacart-partnership",
+      "summary": "OpenAIとInstacartが提携を強化し、食料品の購入とInstant Checkout決済をChatGPTに完全統合した初のアプリを導入する。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-08T06:00:00.000Z",
+      "contentHash": "438e3edadac6"
     },
     {
       "id": "cc320bf5eb52",
@@ -599,10 +707,10 @@
       "id": "ba7871a71b9e",
       "title": "Damn Small Linux",
       "url": "https://www.damnsmalllinux.org/",
-      "summary": "DSL 2024は低スペックx86向けに再構築されたコンパクトなLinux。機能的で小容量・依存の少ないGUI／テキストアプリを多数搭載し、軽量WM（Fluxbox・JWM）や複数のブラウザ、オフィス・マルチメディア・端末ツールを収め、CD一枚（700MB）に収まるサイズで古いPCの実用を目指す。",
+      "summary": "Damn Small Linuxは約50MBの超軽量Debian派生ライブLinuxです。古いPCや低メモリ環境向けに設計され、CD/USB/フロッピーから起動してGUIやネットワーク機能、最小限のアプリ群とパッケージ管理を提供する小型OSプロジェクトです。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T01:47:11.000Z",
-      "contentHash": "20fdc5caf30e"
+      "contentHash": "5d12d9b2ad86"
     },
     {
       "id": "3e9f3d63b616",
@@ -734,19 +842,19 @@
       "id": "8d61a4acd1c9",
       "title": "Mechanical power generation using Earth's ambient radiation",
       "url": "https://www.science.org/doi/10.1126/sciadv.adw6833",
-      "summary": "外部サイトへ直接アクセスできないため記事本文を確認できません。要約希望なら、記事の本文・要旨・主要箇所のコピペ、あるいは記事のタイトルと要点を教えてください。貼っていただければ200文字以内で要約します。",
+      "summary": "申し訳ありませんが、外部リンクには直接アクセスできません。記事本文を貼り付けるか主要ポイントを教えていただければ、200字以内で日本語要約を作成します。HNのコメントも含めますか？",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T21:55:01.000Z",
-      "contentHash": "ccd6b46df496"
+      "contentHash": "6aa61ae7e44a"
     },
     {
       "id": "b9a33c2df987",
       "title": "XKeyscore",
       "url": "https://en.wikipedia.org/wiki/XKeyscore",
-      "summary": "XKeyscoreはNSAが運用する大量監視システムで、メールや閲覧履歴、SNSなどの通信内容やメタデータをリアルタイムで収集・検索できる。2013年のスノーデン暴露で明らかになり、権限やプライバシー侵害を巡り批判を招いた。",
+      "summary": "XKeyscoreはスノーデン暴露で判明したNSAのインターネット通信収集・検索システム。メールや閲覧履歴、SNSなど生データをリアルタイムで索引・検索でき、監督不足や市民のプライバシー侵害が問題視された。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T20:54:16.000Z",
-      "contentHash": "2d776b610b2b"
+      "contentHash": "5833d9970cfb"
     },
     {
       "id": "28609fcbe14e",
@@ -1508,10 +1616,10 @@
       "id": "643f709e602c",
       "title": "Transformers v5 の概要",
       "url": "https://note.com/npaka/n/n1d9d1aafab55",
-      "summary": "Hugging FaceのTransformers v5は、モデル定義を簡素化してAPIを統一・相互運用性を向上させ、開発・導入の効率や最適化を高めてAIエコシステムの利便性を促進するアップデートです。",
+      "summary": "Transformers v5を公開。5年で日インストール数が2万→300万、累計12億、対応アーキ400超、Hubチェックポイント75万超に拡大。v5は「シンプルさ」「学習」「推論」「プロダクション」に注力し、モジュール化やAttentionInterface、モデル変換ツール、リファクタでモデル定義を簡素化・標準化し、コード削減と貢献負担の軽減を図る。",
       "source": "npaka",
       "publishedAt": "2025-12-02T02:11:46.000Z",
-      "contentHash": "253f4b243b55"
+      "contentHash": "c3c812fd3f37"
     },
     {
       "id": "946bf5413869",
@@ -1580,10 +1688,10 @@
       "id": "083e6029f7c5",
       "title": "X (旧Twitter) でサムネイルを更新する方法",
       "url": "https://note.com/npaka/n/nc6b0d82972b0",
-      "summary": "Xに記事リンクを投稿すると、XがURLごとにOGP情報をキャッシュするためサムネイルが古いままになることがある。専用のリフレッシュツールでURLのキャッシュを更新すれば反映される。",
+      "summary": "Xにリンクを投稿してサムネが更新されないのはOGPがURLごとにキャッシュされるため。Twitter Card ValidatorにURLを入れて「Preview card」を押しリフレッシュし、再投稿すれば新しいサムネが表示されます。",
       "source": "npaka",
       "publishedAt": "2025-11-30T11:28:57.000Z",
-      "contentHash": "2ceecab54609"
+      "contentHash": "cfb6d6304604"
     },
     {
       "id": "600e59f035b6",
