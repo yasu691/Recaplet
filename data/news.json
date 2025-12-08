@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-08T09:45:26.341Z",
+  "generatedAt": "2025-12-08T10:34:07.545Z",
   "items": [
     {
       "id": "ca191fc24ec1",
@@ -18,6 +18,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T09:00:04.000Z",
       "contentHash": "96223a680047"
+    },
+    {
+      "id": "f7781c42c127",
+      "title": "The f*** off contact page",
+      "url": "https://www.nicchan.me/blog/the-f-off-contact-page/",
+      "summary": "あるデザイン会社のサイト再設計で、顧客が美的好みでワイヤーを逸脱した結果、目的を無視して「誰にも連絡させない」いわゆる「fuck off contact page」を作りかけた話。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T08:57:19.000Z",
+      "contentHash": "98618518a8a1"
     },
     {
       "id": "2494f212e161",
@@ -41,10 +50,10 @@
       "id": "4f599eeddb60",
       "title": "Bundler 4.0.0とRubyGems 4.0.0にアップグレードするときの注意点 | TechRacho",
       "url": "https://techracho.bpsinc.jp/hachi8833/2025_12_08/155098",
-      "summary": "Bundler 4とRubyGems 4は互換性のない変更で利便性・保守性・セキュリティを改善。公式文書や関連PR/コミットを参照し、重要順に再編して注意点をまとめた記事です。",
+      "summary": "Bundler 4／RubyGems 4は非互換な変更を含む大幅更新。移行前に simulate_version=4（環境変数やbundle config）で動作検証を推奨。Gemfileが厳格化され、グローバルsourceは1つのみで依存ごとにsourceやpath/gitを明示する必要がある。Ruby 4に同梱予定。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T08:30:55.000Z",
-      "contentHash": "8850bd7ab552"
+      "contentHash": "0f9451f40aba"
     },
     {
       "id": "0132e13481dd",
@@ -95,10 +104,10 @@
       "id": "e41ac15a83b2",
       "title": "X-VLA の概要",
       "url": "https://note.com/npaka/n/nd3f000d74bd6",
-      "summary": "X-VLAは、ロボット構成を学習可能な「ソフトプロンプト」として扱うVLA基盤モデル。多様な機体・センサを単一Transformerで統合し、少数パラメータの調整で高い適応性能を示す。29万エピソードで学習し実ロボットでも有効。",
+      "summary": "X-VLAは、ロボット毎の差異を学習可能なソフトプロンプトで吸収するTransformer基盤のロボット基盤モデル。7機体29万エピで学習し、少量のプロンプト学習のみで新機体へ高速適応、実機でも少数デモで高い器用性を示した。",
       "source": "npaka",
       "publishedAt": "2025-12-08T07:06:59.000Z",
-      "contentHash": "ddc069a26b58"
+      "contentHash": "15753cb14f63"
     },
     {
       "id": "f174c18a2dec",
@@ -398,6 +407,15 @@
       "contentHash": "818465c45f15"
     },
     {
+      "id": "ba7871a71b9e",
+      "title": "Damn Small Linux",
+      "url": "https://www.damnsmalllinux.org/",
+      "summary": "DSL 2024は低スペックx86向けに再構築されたコンパクトなLinux。機能的で小容量・依存の少ないGUI／テキストアプリを多数搭載し、軽量WM（Fluxbox・JWM）や複数のブラウザ、オフィス・マルチメディア・端末ツールを収め、CD一枚（700MB）に収まるサイズで古いPCの実用を目指す。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T01:47:11.000Z",
+      "contentHash": "20fdc5caf30e"
+    },
+    {
       "id": "3e9f3d63b616",
       "title": "You need to watch the modern horror masterpiece, His House",
       "url": "https://www.theverge.com/entertainment/839753/watch-modern-horror-masterpiece-his-house",
@@ -527,10 +545,10 @@
       "id": "8d61a4acd1c9",
       "title": "Mechanical power generation using Earth's ambient radiation",
       "url": "https://www.science.org/doi/10.1126/sciadv.adw6833",
-      "summary": "申し訳ありませんが、外部URLの内容を直接取得できません。記事本文か抄録、主要ポイントを貼り付けていただければ、200文字以内で日本語要約を作成します。HNコメントも要約できます。どちらを貼りますか？",
+      "summary": "申し訳ありませんが、外部リンクを直接開けません。要約をご希望なら、記事本文またはタイトルと要旨（あるいは主要部分）をここに貼ってください。HNコメントも要約するならそれも貼ってください。200字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T21:55:01.000Z",
-      "contentHash": "013419e800d4"
+      "contentHash": "6f0087e1eba3"
     },
     {
       "id": "b9a33c2df987",
@@ -554,10 +572,10 @@
       "id": "bdec45075647",
       "title": "Syncthing-Android have had a change of owner/maintainer",
       "url": "https://github.com/researchxxl/syncthing-android/issues/16",
-      "summary": "syncthing-androidフォークで、nel0x招待やビルド・リリース設定、既存署名の扱い、GitHub Actions復旧、F‑Droid連絡、プロジェクト名変更の可否など支援を求める投稿。",
+      "summary": "リポジトリの状況確認。nel0xを招待して対応を続けたい。ビルド／リリースの署名権やGitHub Actions復活、F‑Droidでの配布継続連絡、名称を「syncthing fork」のままで良いかを問う。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T20:15:26.000Z",
-      "contentHash": "8bfd8b829dfc"
+      "contentHash": "2f94c5ef2d92"
     },
     {
       "id": "bda2f7c28fa6",
@@ -581,10 +599,10 @@
       "id": "91a66ca6c26b",
       "title": "The C++ standard for the F-35 Fighter Jet [video]",
       "url": "https://www.youtube.com/watch?v=Gv4sDL9Ljww",
-      "summary": "ストラウストラップがJSF（戦闘機アビオニクス）向けC++規則を逐条で解説・批判。多くの禁則は過剰や誤解に基づくとし、例外・STL・動的確保はRAIIや適切な設計で安全に使えると述べ、原理に基づく現代的な指針を提案している。",
+      "summary": "StroustrupがC++の仮想関数利用指針を整理。無闇にvirtualを使わず、継承で本当にポリモーフィズムが要る場合のみ採用すること、非仮想インターフェース(NVI)や値・テンプレートでの代替、virtualデストラクタはポリモーフィック用途のときだけ、override/finalや明確な所有権で安全性と性能を確保せよ、という要点。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T18:07:06.000Z",
-      "contentHash": "7e523e92872b"
+      "contentHash": "14ba5d8dfa41"
     },
     {
       "id": "e8ef94a3a584",
@@ -1301,10 +1319,10 @@
       "id": "643f709e602c",
       "title": "Transformers v5 の概要",
       "url": "https://note.com/npaka/n/n1d9d1aafab55",
-      "summary": "Transformers v5は普及拡大を受け、特に「シンプルさ」を重視して改良。モジュール化でモデル統合や保守を容易にし、AttentionInterface導入やモデル変換ツール、コードリファクタでコントリビューション負担を大幅に削減する。",
+      "summary": "Transformers v5を公開。5年で利用・モデル数が大幅増加し、v5は「シンプルさ」「学習」「推論」「プロダクション」を重視。モジュール化やAttentionInterface導入、モデル変換ツール、コード削減で統合・保守を簡素化しエコシステムを強化。",
       "source": "npaka",
       "publishedAt": "2025-12-02T02:11:46.000Z",
-      "contentHash": "46c99efa9568"
+      "contentHash": "c3c812fd3f37"
     },
     {
       "id": "946bf5413869",
