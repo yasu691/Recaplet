@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-08T20:38:15.531Z",
+  "generatedAt": "2025-12-08T21:31:20.046Z",
   "items": [
     {
       "id": "14df76423a1e",
@@ -18,6 +18,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-08T19:01:00.000Z",
       "contentHash": "a22c3c574a16"
+    },
+    {
+      "id": "f96d87e6a7d1",
+      "title": "Jepsen: NATS 2.12.1",
+      "url": "https://jepsen.io/analyses/nats-2.12.1",
+      "summary": "JetStreamはRaftでデータを複製するNATSのサブシステムで「at least once」「全順序」「Linearizable」「常時可用」を謳うが矛盾がある。実際は過半数のノード（quorum）が必要で、ACKで永続化と見なされる（3ノードなら2台必須）。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T18:51:03.000Z",
+      "contentHash": "5b88dfde40e3"
     },
     {
       "id": "473bd1574dcd",
@@ -50,10 +59,10 @@
       "id": "d69b34ab3f7a",
       "title": "ICEBlock developer sues Trump administration over App Store removal",
       "url": "https://www.theverge.com/news/840164/iceblock-joshua-aaron-sues-trump-administration-apple-app-store-removeal",
-      "summary": "ICEBlock開発者が、パム・ボーンディらトランプ政権関係者を相手に、Appleにアプリ削除を圧力したとして提訴。ICEBlockはICEの活動を匿名通報するアプリで、10月にApp Storeから削除された。",
+      "summary": "ICEBlockの開発者Joshua Aaronが、トランプ政権のパム・ボンディら連邦関係者を、同政権が不当な圧力でAppleにアプリ削除を強要したとして提訴。該当アプリはICEの活動を匿名通報するも昨年10月に削除された。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T18:25:33.000Z",
-      "contentHash": "34a1d3708b56"
+      "contentHash": "9e41b406c978"
     },
     {
       "id": "ab09c989ca23",
@@ -92,13 +101,22 @@
       "contentHash": "37e55c20befa"
     },
     {
+      "id": "c20351035a22",
+      "title": "A Googler explains how to “meta prompt” for incredible Veo videos",
+      "url": "https://blog.google/products/gemini/meta-prompting-veo-gemini-tips/",
+      "summary": "Google DeepMindのUXエンジニア、アンナ・ボルトソワはGeminiに“メタプロンプト”を作らせてVeo動画の詳細な指示を生成し、驚くべき映像を生む手法を社内チャットで共有。工学と美術の経験を活かした実験が注目されている。",
+      "source": "Gemini",
+      "publishedAt": "2025-12-08T17:00:00.000Z",
+      "contentHash": "0d5ec1c786f2"
+    },
+    {
       "id": "9614e4e384da",
       "title": "Microsoft has a problem: lack of demand for its AI products",
       "url": "https://www.windowscentral.com/artificial-intelligence/microsoft-has-a-problem-nobody-wants-to-buy-or-use-its-shoddy-ai",
-      "summary": "記事は、MicrosoftがCopilotなど多数のAI製品を展開する一方で、品質や統合性、価格設定の問題から利用者や購入意欲が低く、期待先行で信頼性と実用性を欠いていると指摘。戦略の見直しが必要と結論づける。",
+      "summary": "Windows Centralは、マイクロソフトのCopilot系などAI製品が品質問題や高価格、ブランドの混乱で利用や導入が進まず評価が低いと指摘。まず基本改善と製品戦略の明確化が必要と論じる。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T16:54:31.000Z",
-      "contentHash": "2a693349db17"
+      "contentHash": "96fb63959275"
     },
     {
       "id": "3fc558101103",
@@ -153,6 +171,15 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-08T15:05:49.000Z",
       "contentHash": "cd4be8273556"
+    },
+    {
+      "id": "8148dde14427",
+      "title": "Uber is turning data about trips and takeout into insights for marketers",
+      "url": "https://www.businessinsider.com/uber-ads-launches-intelligence-insights-trips-takeout-data-marketers-2025-12",
+      "summary": "Business Insiderは、読者が知りたい革新的なビジネスやテクノロジーなどのストーリーを伝えるニュースメディアです。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T15:00:29.000Z",
+      "contentHash": "42a102fac276"
     },
     {
       "id": "aa3f8a4ee7fb",
@@ -1805,10 +1832,10 @@
       "id": "643f709e602c",
       "title": "Transformers v5 の概要",
       "url": "https://note.com/npaka/n/n1d9d1aafab55",
-      "summary": "Transformers v5を公開。5年で日インストール数が2万→300万、累計12億、対応アーキ400超、Hubチェックポイント75万超に拡大。v5は「シンプルさ」「学習」「推論」「プロダクション」に注力し、モジュール化やAttentionInterface、モデル変換ツール、リファクタでモデル定義を簡素化・標準化し、コード削減と貢献負担の軽減を図る。",
+      "summary": "Transformers v5がリリース。利用は急増（1日300万、累計12億）、対応モデルは40→400超、チェックポイント75万超に拡大。v5は「シンプルさ・学習・推論・プロダクション」を重視し、モジュール化、AttentionInterfaceやモデル変換ツールでモデル定義の簡素化とコード削減を進める。",
       "source": "npaka",
       "publishedAt": "2025-12-02T02:11:46.000Z",
-      "contentHash": "c3c812fd3f37"
+      "contentHash": "61eafd1455fa"
     },
     {
       "id": "946bf5413869",
