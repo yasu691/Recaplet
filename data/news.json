@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2025-12-08T12:48:00.239Z",
+  "generatedAt": "2025-12-08T13:46:53.549Z",
   "items": [
+    {
+      "id": "8d22f02dcf4b",
+      "title": "CREを5年続けても、まだ 「CREとは何か」悩んでいた話 | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/2025/12/08/220037",
+      "summary": "CREに5年取り組む著者がLayerXで1人目CREを立ち上げ。提供価値起点でCREを定義し、職種ではなく文化・行為（Customer Reliability as Code）としてプロダクトに信頼性を実装。新機能開発と既存改善のトレードオフを両立するのが使命。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T13:00:37.000Z",
+      "contentHash": "0019859ea686"
+    },
+    {
+      "id": "687aabf91efb",
+      "title": "How the creator economy destroyed the internet",
+      "url": "https://www.theverge.com/cs/features/810002/influencers-creator-economy-special-series",
+      "summary": "ジミー・ドナルドソン（MrBeast）は世界的人気だが動画部門は赤字続きで、動画はチョコバーなど商品の販売のための広告になっている。クリエイター経済は広告・物販に依存し、インターネットを消費中心に変えた。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-08T13:00:05.000Z",
+      "contentHash": "fceb89ad9486"
+    },
     {
       "id": "e45d26b6ca80",
       "title": "Stop, Shop, and Scroll",
@@ -9,6 +27,24 @@
       "source": "The Verge",
       "publishedAt": "2025-12-08T12:00:01.000Z",
       "contentHash": "523eff840502"
+    },
+    {
+      "id": "102309171f28",
+      "title": "モノレポに `git subtree` で別リポジトリを統合・運用する | STORES Product Blog",
+      "url": "https://product.st.inc/entry/2025/12/08/204455",
+      "summary": "別リポジトリの cdp-dashboard をモノレポ bongo に git subtree で統合。履歴を保持して--prefixで配置でき、git subtree pullで差分同期可能。巨大PRや競合に注意し、運用ルールを整えれば手軽で有効。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T11:44:55.000Z",
+      "contentHash": "649b1e1d9f14"
+    },
+    {
+      "id": "50261d89f815",
+      "title": "WebTransportをGoで試してみる | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2025/12/08/201924",
+      "summary": "GoでWebTransportを試した記事。QUIC/HTTP3上の双方向通信APIで多重ストリーム、ヘッドオブライン回避、接続移行、信頼性/非信頼性選択が可能。Long Polling/SSE/WebSocketと比較し、webtransport-goでローカルチャット実装例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T11:19:24.000Z",
+      "contentHash": "0d12db9a97f6"
     },
     {
       "id": "80ac246b9244",
@@ -29,13 +65,22 @@
       "contentHash": "d30da3b21d56"
     },
     {
+      "id": "aaf27eec1ede",
+      "title": "12 Days of Shell",
+      "url": "https://12days.cmdchallenge.com",
+      "summary": "このサイトは♡（愛）を込めて jquery.terminal、Openmoji、Golang を使って構築されています。詳しくは cmdchallenge を参照してください。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T10:13:07.000Z",
+      "contentHash": "2b4171d8a0c8"
+    },
+    {
       "id": "7e90b4e98156",
       "title": "【re:Invent 2025】Amazon Nova 2 に関するアップデートの一覧化とまとめ | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/amazon-nova-2-summary",
-      "summary": "AWS re:Invent 2025で発表されたAmazon Nova 2は、Lite/Pro、Sonic（音声）、Omni（マルチモーダル）を含む次世代基盤モデル群と、独自モデル構築のNova Forge、高信頼AIエージェントのNova Act、強化されたカスタマイズ機能や料金情報を提供します。",
+      "summary": "AWS re:Invent 2025で発表されたAmazon Nova 2は、マルチモーダル対応の第2世代基盤モデル群（Lite/Pro/Sonic/Omni）と、独自モデル構築のNova Forge、AIエージェント強化のNova Actを提供し、強化学習によるファインチューニングや低コスト・高速推論を特徴とします。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T10:11:01.000Z",
-      "contentHash": "a112f5e2be1b"
+      "contentHash": "91b823c37af3"
     },
     {
       "id": "dd2d2b65fdab",
@@ -59,10 +104,10 @@
       "id": "907555c60aac",
       "title": "日本における干渉チェックの（誤）認識（Part1） | vicc blog",
       "url": "https://blog.vicc.jp/entry/clash-detection-1",
-      "summary": "BIMの干渉チェックは解釈が分かれ、①断面で目視する派、②全要素を機械的に照合して干渉数を0にする派、③抽出後に設計課題と3D表現問題を仕分けし進捗管理する派の三つがある。国交省資料は①寄り。干渉は物理的なハードクラッシュと保守性などのソフトクラッシュに分かれ、発注者への説明責任向上が目的とされる。",
+      "summary": "日本の干渉チェック認識のズレを指摘し、断面で目視する派・干渉検出を機械的に0にする派・抽出後に設計課題と表現問題を仕分けして進捗管理する派の三種を提示。物理的（ハード）とアクセス等の（ソフト）干渉の違いや、発注者の説明責任向上が要望背景であると論じる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T10:00:00.000Z",
-      "contentHash": "7041e29a3e09"
+      "contentHash": "5caaaf230f7a"
     },
     {
       "id": "67883bfee62a",
@@ -174,7 +219,7 @@
     },
     {
       "id": "2579817f681d",
-      "title": "GitHub Actions Has a Package Manager, and It Might Be the Worst",
+      "title": "GitHub Actions has a package manager, and it might be the worst",
       "url": "https://nesbitt.io/2025/12/06/github-actions-package-manager.html",
       "summary": "GitHub Actionsの依存解決はロックファイル、整合ハッシュ、推移的ピン留め、依存可視化などが欠如し、毎回再解決されて供給網攻撃に脆弱。調査で多数リポジトリが未検証Actionsや脆弱性を含むことが確認された。",
       "source": "Hacker News",
@@ -680,10 +725,10 @@
       "id": "b9a33c2df987",
       "title": "XKeyscore",
       "url": "https://en.wikipedia.org/wiki/XKeyscore",
-      "summary": "XKeyscoreはNSAのインターネット監視システムで、電子メールや閲覧履歴など膨大な通信データをリアルタイムや蓄積から検索可能。2013年のスノーデン暴露で存在が明らかになり、広範な監視とプライバシー侵害で論争を呼んだ。",
+      "summary": "XKeyscoreはNSAのインターネット監視・検索システムで、メールや閲覧履歴など膨大な通信を横断検索できる。スノーデンの暴露で2013年に公表され、監視の広範さと監督不足が論争になった。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T20:54:16.000Z",
-      "contentHash": "2d776b610b2b"
+      "contentHash": "5833d9970cfb"
     },
     {
       "id": "28609fcbe14e",
@@ -698,10 +743,10 @@
       "id": "bdec45075647",
       "title": "Syncthing-Android have had a change of owner/maintainer",
       "url": "https://github.com/researchxxl/syncthing-android/issues/16",
-      "summary": "リポジトリの状況確認。nel0x招待で支援を要請。ビルド／リリース署名（旧メンテナ署名の可否）、GitHub Actions復旧、F‑Droidでの公開再開連絡、名称を「syncthing fork」のままで良いか検討。デバイス情報ほぼ未記入。",
+      "summary": "syncthing-androidの作者Catfriend1がフォーラムで追加の説明を投稿し、それを受けてHacker Newsで議論が活発化（ポイント152、コメント30）。作者の投稿で問題点や経緯が補足されている、という内容です。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T20:15:26.000Z",
-      "contentHash": "f1357bcb0cb7"
+      "contentHash": "eb288ae423e0"
     },
     {
       "id": "bda2f7c28fa6",
@@ -885,12 +930,12 @@
     },
     {
       "id": "ebea89558aac",
-      "title": "A love letter to glory days of iPhone gaming",
+      "title": "A love letter to the glory days of iPhone gaming",
       "url": "https://www.theverge.com/games/839050/simogo-legacy-collection-review-switch-steam",
-      "summary": "Simogoの『Legacy Collection』は、同スタジオの初期モバイル期の7本＋補助アプリを収録し、初期iPhoneの独創的なインディー黄金時代を懐かしむ復刻コレクションです。",
+      "summary": "Simogoの『Legacy Collection』は、iPhone初期のインディー黄金期を回顧する7作＋コンパニオンアプリの復刻集。『Sayonara Wild Hearts』などで知られる同社が当時の実験的モバイル作品を再提示する。",
       "source": "The Verge",
       "publishedAt": "2025-12-07T14:00:00.000Z",
-      "contentHash": "83af5af7cd98"
+      "contentHash": "796134db649e"
     },
     {
       "id": "e2af359c451c",
