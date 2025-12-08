@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2025-12-08T11:30:54.547Z",
+  "generatedAt": "2025-12-08T12:48:00.239Z",
   "items": [
+    {
+      "id": "e45d26b6ca80",
+      "title": "Stop, Shop, and Scroll",
+      "url": "https://www.theverge.com/cs/features/836456/influencers-tiktok-debt-shopaganda",
+      "summary": "記事は、インフルエンサーと「影響される人々」の消費問題を指摘しつつ、ピラティスが第一次大戦の抑留所で生まれ、近年急成長してTikTok上の映え消費文化へと変容し批判を招いている経緯を描く。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-08T12:00:01.000Z",
+      "contentHash": "523eff840502"
+    },
     {
       "id": "80ac246b9244",
       "title": "ウーマンエキサイトで連載中！AIコミックの制作フローを公開します | エキサイト TechBlog.",
@@ -23,10 +32,10 @@
       "id": "7e90b4e98156",
       "title": "【re:Invent 2025】Amazon Nova 2 に関するアップデートの一覧化とまとめ | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/amazon-nova-2-summary",
-      "summary": "re:Invent 2025で発表されたAmazon Nova 2は、Lite/Pro/Sonic/Omniのマルチモーダル基盤モデル群と、独自モデル構築のNova Forge、エージェント向けNova Actを提供。カスタマイズやファインチューニング強化で業務自動化や高度なAIエージェント構築を支援する。",
+      "summary": "AWS re:Invent 2025で発表されたAmazon Nova 2は、Lite/Pro、Sonic（音声）、Omni（マルチモーダル）を含む次世代基盤モデル群と、独自モデル構築のNova Forge、高信頼AIエージェントのNova Act、強化されたカスタマイズ機能や料金情報を提供します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T10:11:01.000Z",
-      "contentHash": "ee90ebbb44fa"
+      "contentHash": "a112f5e2be1b"
     },
     {
       "id": "dd2d2b65fdab",
@@ -45,6 +54,51 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T10:03:01.000Z",
       "contentHash": "a108217f1142"
+    },
+    {
+      "id": "907555c60aac",
+      "title": "日本における干渉チェックの（誤）認識（Part1） | vicc blog",
+      "url": "https://blog.vicc.jp/entry/clash-detection-1",
+      "summary": "BIMの干渉チェックは解釈が分かれ、①断面で目視する派、②全要素を機械的に照合して干渉数を0にする派、③抽出後に設計課題と3D表現問題を仕分けし進捗管理する派の三つがある。国交省資料は①寄り。干渉は物理的なハードクラッシュと保守性などのソフトクラッシュに分かれ、発注者への説明責任向上が目的とされる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T10:00:00.000Z",
+      "contentHash": "7041e29a3e09"
+    },
+    {
+      "id": "67883bfee62a",
+      "title": "AIが提案する「モダンなeslint設定」の検証とチームへ導入した話 | Yappli Tech Blog",
+      "url": "https://tech.yappli.io/entry/cms_eslint_ai",
+      "summary": "YappliのVue/Nuxt（TypeScript）プロジェクトで、ClaudeCodeを使いeslint設定のモダン化を検討。AIが設定案と項目解説を提示し、チームレビューで「Essentialは既に有効」「影響大きい設定は慎重に」「まずはerrorではなくwarningで運用」が合意された。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T09:59:09.000Z",
+      "contentHash": "050886c02cbc"
+    },
+    {
+      "id": "8f7df6c4d0be",
+      "title": "Azure OpenAIにgpt-5.1が来たけどどうなの？ | CloudNative Inc. BLOGs",
+      "url": "https://blog.cloudnative.co.jp/29744/",
+      "summary": "Azure OpenAIにgpt-5.1が登場。著者はアクセス制限でgpt-5.1-chatのみをgpt-4o／gpt-4.1とRAG、業務アシスタント、速度、コストで比較。RAGではgpt-5.1-chatが精度良好、ハルシネーションは同等。導入可否の判断材料を提供する目的。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T09:56:18.000Z",
+      "contentHash": "5bfdf3adb346"
+    },
+    {
+      "id": "715bd91ea3d9",
+      "title": "DNSに再入門: NS, AAAAレコードの必要性を整理する | ミツカリ技術ブログ",
+      "url": "https://tech-blog.mitsucari.com/entry/2025/12/08/184720",
+      "summary": "DNS再入門：自ドメインにもNSレコードは必要（親は委任、子は権威表明）。CloudflareはUIに見えなくても自動登録する。AAAAは通信高速化に有益だが必須ではない。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T09:47:20.000Z",
+      "contentHash": "4b17573003ca"
+    },
+    {
+      "id": "b743c1f5d35a",
+      "title": "開発量向上に向き合った1年の軌跡 | BASEプロダクトチームブログ",
+      "url": "https://devblog.thebase.in/entry/2025/12/08/183000",
+      "summary": "BASEのEMが「開発生産性」を分解し、まず開発量を増やす方針で内製計測基盤を整備。チームで数値を振り返り月次で全社共有し改善を実施。限界を受け外部SaaS（Findy Team+）を導入して更なる速度・質向上を図った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T09:30:00.000Z",
+      "contentHash": "365103cf4987"
     },
     {
       "id": "ca191fc24ec1",
@@ -281,6 +335,15 @@
       "contentHash": "067f25c4fa07"
     },
     {
+      "id": "48e9458551fc",
+      "title": "The state of enterprise AI",
+      "url": "https://openai.com/index/the-state-of-enterprise-ai-2025-report",
+      "summary": "OpenAIの企業データは、2025年にAI導入が加速し、業務への統合が深まり、業界横断で定量的に確認できる生産性向上が見られると報告した。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-08T04:00:00.000Z",
+      "contentHash": "e459e674165c"
+    },
+    {
       "id": "ac011a618d4c",
       "title": "開発から実際の運用まで５ヶ月！ 社内人事評価システム「winwin」開発の裏側 | Uzabase for Engineers",
       "url": "https://tech.uzabase.com/entry/2025/12/08/125802",
@@ -311,10 +374,10 @@
       "id": "df5927f735cd",
       "title": "demucs による音源分類を試す",
       "url": "https://note.com/npaka/n/neaef4a26ccd2",
-      "summary": "音源分離ツール「demucs」をMacのPython仮想環境で試した記録。condaでPython3.11環境を作り、torch/torchaudioやdemucs等を導入後、demucs test_audio.m4aを実行すると/separated/htdemucs/にvocals, drums, base(ベース), otherのwavが生成される。",
+      "summary": "音源分離ツール「demucs」をMacのPython仮想環境で試した手順。condaでPython3.11環境を作り、torch/torchaudio/demucs等をpipで導入。demucs test_audio.m4a 実行で vocals/drums/base/other のwavが /separated/htdemucs に出力される。",
       "source": "npaka",
       "publishedAt": "2025-12-08T03:18:18.000Z",
-      "contentHash": "649cb99e76d0"
+      "contentHash": "42e4f17dd84a"
     },
     {
       "id": "f37c86709c50",
@@ -608,10 +671,10 @@
       "id": "8d61a4acd1c9",
       "title": "Mechanical power generation using Earth's ambient radiation",
       "url": "https://www.science.org/doi/10.1126/sciadv.adw6833",
-      "summary": "申し訳ありませんが、外部リンクを直接開けません。要約をご希望なら、記事本文またはタイトルと要旨（あるいは主要部分）をここに貼ってください。HNコメントも要約するならそれも貼ってください。200字以内で要約します。",
+      "summary": "外部サイトに直接アクセスできないため、リンク先の本文を貼っていただけますか？またはHacker Newsの議論でよければ、その要点を要約します。要約は200文字以内で作成します。どちらがよいですか？",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T21:55:01.000Z",
-      "contentHash": "6f0087e1eba3"
+      "contentHash": "c04d0b1cddee"
     },
     {
       "id": "b9a33c2df987",
@@ -635,10 +698,10 @@
       "id": "bdec45075647",
       "title": "Syncthing-Android have had a change of owner/maintainer",
       "url": "https://github.com/researchxxl/syncthing-android/issues/16",
-      "summary": "リポジトリの状況確認。nel0xを招待して対応を続けたい。ビルド／リリースの署名権やGitHub Actions復活、F‑Droidでの配布継続連絡、名称を「syncthing fork」のままで良いかを問う。",
+      "summary": "リポジトリの状況確認。nel0x招待で支援を要請。ビルド／リリース署名（旧メンテナ署名の可否）、GitHub Actions復旧、F‑Droidでの公開再開連絡、名称を「syncthing fork」のままで良いか検討。デバイス情報ほぼ未記入。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T20:15:26.000Z",
-      "contentHash": "2f94c5ef2d92"
+      "contentHash": "f1357bcb0cb7"
     },
     {
       "id": "bda2f7c28fa6",
@@ -1445,10 +1508,10 @@
       "id": "4f02991bc109",
       "title": "Nano Banana Pro がもたらす画像生成AIの ChatGPTモーメント",
       "url": "https://note.com/npaka/n/n38a74111ac13",
-      "summary": "Google DeepMindの「Nano Banana Pro（Gemini 3 Pro Image）」は、自然文で構図や撮影設定を指定でき、日本語等の画像内テキストを正確に描画。最大14枚参照・5人の一貫性保持、ネイティブ4Kを約20秒で生成し成功率95%。画像生成が遊びからプロ用途へ転換する「ChatGPTモーメント」と評される。",
+      "summary": "Google DeepMindのプロ向け画像生成「Nano Banana Pro（Gemini 3 Pro Image）」は、構図・撮影条件の細かな制御、画像内日本語を含む正確な文字描画、複数参照画像での高い一貫性、ネイティブ4Kを約20秒で生成（初回成功率95%）などを備え、画像生成AIの実用化という“ChatGPTモーメント”をもたらす。",
       "source": "npaka",
       "publishedAt": "2025-11-30T12:24:48.000Z",
-      "contentHash": "f82f2718c686"
+      "contentHash": "a1e36325a7d8"
     },
     {
       "id": "083e6029f7c5",
