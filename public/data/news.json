@@ -1,14 +1,23 @@
 {
-  "generatedAt": "2025-12-08T13:46:53.549Z",
+  "generatedAt": "2025-12-08T14:31:26.672Z",
   "items": [
+    {
+      "id": "8256e8ede8b0",
+      "title": "Segway’s new Myon e-bike will straddle past and future",
+      "url": "https://www.theverge.com/news/839169/segway-myon-ebike-teaser-ces-radar",
+      "summary": "Segway（Ninebot）が新型電動自転車「Myon」を発表。CESで正式公開予定で、従来モデルより伝統的な形状の通勤・レジャー向けeバイク。後方レーダーなど装備し初心者から上級者まで想定している。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-08T14:00:00.000Z",
+      "contentHash": "d03a2bbff0e5"
+    },
     {
       "id": "8d22f02dcf4b",
       "title": "CREを5年続けても、まだ 「CREとは何か」悩んでいた話 | LayerX エンジニアブログ",
       "url": "https://tech.layerx.co.jp/entry/2025/12/08/220037",
-      "summary": "CREに5年取り組む著者がLayerXで1人目CREを立ち上げ。提供価値起点でCREを定義し、職種ではなく文化・行為（Customer Reliability as Code）としてプロダクトに信頼性を実装。新機能開発と既存改善のトレードオフを両立するのが使命。",
+      "summary": "LayerX Tech Advent Calendar 2025の8日目。前日はrerorero氏の「Datadog Logsの検索体験をSnowflakeに持ち込むChrome拡張」。著者はバクラク事業部CREのtanisuke（@taaag51）、ストレイテナー推しで2025年8月入社の1人目CRE、CRE歴は通算5年。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T13:00:37.000Z",
-      "contentHash": "0019859ea686"
+      "contentHash": "f6af5d9ff2b6"
     },
     {
       "id": "687aabf91efb",
@@ -29,40 +38,49 @@
       "contentHash": "523eff840502"
     },
     {
+      "id": "6d72fc302cba",
+      "title": "Bad Dye Job",
+      "url": "https://daringfireball.net/2025/12/bad_dye_job",
+      "summary": "ジョン・グルーバーは、Appleのソフトウェアデザイン責任者アラン・ダイがMetaに移り、後任に職人肌のUI/UXデザイナー、スティーブン・ルメイが就いたと報告。ダイ時代の評価は低く、ルメイは細部へのこだわりで社内から高評価だが一部に批判もある。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T11:47:17.000Z",
+      "contentHash": "039b3df7b02b"
+    },
+    {
       "id": "102309171f28",
       "title": "モノレポに `git subtree` で別リポジトリを統合・運用する | STORES Product Blog",
       "url": "https://product.st.inc/entry/2025/12/08/204455",
-      "summary": "別リポジトリの cdp-dashboard をモノレポ bongo に git subtree で統合。履歴を保持して--prefixで配置でき、git subtree pullで差分同期可能。巨大PRや競合に注意し、運用ルールを整えれば手軽で有効。",
+      "summary": "STORES Advent Calendar 2025の8日目。ima1zumiがNuxtのcdp-dashboardをRails/Reactのモノレポbongoに統合した経緯を紹介。複数の方法の中でgit subtreeを選んだ理由と実際の運用方法を解説する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T11:44:55.000Z",
-      "contentHash": "649b1e1d9f14"
+      "contentHash": "e8031477c7c0"
     },
     {
       "id": "50261d89f815",
       "title": "WebTransportをGoで試してみる | every Tech Blog",
       "url": "https://tech.every.tv/entry/2025/12/08/201924",
-      "summary": "GoでWebTransportを試した記事。QUIC/HTTP3上の双方向通信APIで多重ストリーム、ヘッドオブライン回避、接続移行、信頼性/非信頼性選択が可能。Long Polling/SSE/WebSocketと比較し、webtransport-goでローカルチャット実装例を紹介。",
+      "summary": "エブリーの本丸が、業務で使うGeminiやClaudeCodeをきっかけに双方向通信に注目。この記事はQUIC（HTTP/3）を基盤とするWebTransportの概要と特徴を解説する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T11:19:24.000Z",
-      "contentHash": "0d12db9a97f6"
+      "contentHash": "352bdca99fd2"
     },
     {
       "id": "80ac246b9244",
       "title": "ウーマンエキサイトで連載中！AIコミックの制作フローを公開します | エキサイト TechBlog.",
       "url": "https://tech.excite.co.jp/entry/2025/12/08/191729",
-      "summary": "エキサイト山崎がウーマンエキサイトでのAIコミック制作フローを解説。ネーム（セリフ・ト書き）→画像生成（プロンプト固定化・表情は参照画像で統一）→編集・再生成で調整。1話3〜5時間。指示力と構成力が重要。",
+      "summary": "エキサイトのデザイナー山﨑が、Excite Holdings Advent Calendar 2025の8日目で、ウーマンエキサイトで試行中の生成系AIを使った漫画（AIコミック）制作と連載『家族より整った部屋が大事？』の制作裏側を紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T10:17:29.000Z",
-      "contentHash": "fc831b93c9ac"
+      "contentHash": "e0ceca5e7451"
     },
     {
       "id": "aa939c8b6394",
       "title": "Hatena Engineer Seminar  #35「エンジニアリングマネージャー編」をオンラインで開催しました #hatenatech | Hatena Developer Blog",
       "url": "https://developer.hatenastaff.com/entry/engineer-seminar-35-report",
-      "summary": "2025年12月8日、Hatena Engineer Seminar #35をオンライン開催。はてなのエンジニアリングマネージャー3名が、EMの評価・育成、初めての目標設定と評価、チームづくりを講演。アーカイブ動画と資料を公開し、エンジニア採用も呼びかけ。",
+      "summary": "2025年12月8日開催のHatena Engineer Seminar #35（エンジニアリングマネージャー編）で、はてなのEM3名が評価・育成や日々の業務について講演。発表資料と動画アーカイブを公開しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T10:13:44.000Z",
-      "contentHash": "d30da3b21d56"
+      "contentHash": "e5546616df7e"
     },
     {
       "id": "aaf27eec1ede",
@@ -77,28 +95,28 @@
       "id": "7e90b4e98156",
       "title": "【re:Invent 2025】Amazon Nova 2 に関するアップデートの一覧化とまとめ | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/amazon-nova-2-summary",
-      "summary": "AWS re:Invent 2025で発表されたAmazon Nova 2は、マルチモーダル対応の第2世代基盤モデル群（Lite/Pro/Sonic/Omni）と、独自モデル構築のNova Forge、AIエージェント強化のNova Actを提供し、強化学習によるファインチューニングや低コスト・高速推論を特徴とします。",
+      "summary": "セキュリティサービス部の佐竹です。AWS re:Invent 2025で発表された新基盤モデル「Amazon Nova 2」と関連サービスをまとめました。Nova ForgeとNova Actは料金が高額になる可能性があるため、最後に注意点を記載しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T10:11:01.000Z",
-      "contentHash": "91b823c37af3"
+      "contentHash": "51c50a88c75b"
     },
     {
       "id": "dd2d2b65fdab",
       "title": "Rails 8.0.2 で autosave の挙動が静かに変わった話 | Social PLUS Tech Blogのフィード",
       "url": "https://zenn.dev/socialplus/articles/rails-8_0_2-autosave-changes",
-      "summary": "Rails 8.0.2でautosave（accepts_nested_attributes_for含む）の挙動が変わり、作成・変更されていない関連レコードのバリデーションを行わなくなった。無駄な検証は減るが、孫モデルのみ変更がある場合に親（子モデル）で行う孫に関する検証がスキップされるなどの副作用がある。",
+      "summary": "Railsのモデル関連で親の保存時に子も保存するautosaveの挙動が v8.0.1→v8.0.2 で変更されました。accepts_nested_attributes_for（内部でautosaveを利用）も影響を受け、リリースノートで挙動修正が告知されています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T10:09:03.000Z",
-      "contentHash": "f456d6fafe83"
+      "contentHash": "3f566e79cde4"
     },
     {
       "id": "e0b32c48826e",
       "title": "Shadow DOMでIslands Architectureっぽく(状態管理編) | chot Inc. tech blogのフィード",
       "url": "https://zenn.dev/chot/articles/shadow_dom_apps_state",
-      "summary": "Shadow DOM上で動く複数アプリ間の状態共有に、CustomEventベースのPub/Subライブラリ「@multi-fw-demo/shared-state」を作成。異なるビルド間でのモジュール共有問題を回避し、ローカル更新→window.dispatchEventで全ShadowRootのストアへ同期、各フレームワークがUIを更新する仕組みを示す。状態管理は本質的にPub/Subであると解説。",
+      "summary": "前回のShadow DOMでのIslands風CSSに続き、本稿ではShadow DOM内の複数アプリ間での状態共有方法を解説します。Next.jsでSSGしてGitHub Pagesに公開したページ上で、Shadow DOM内に動くReactとVue2のカウンターデモを用いて説明します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T10:03:01.000Z",
-      "contentHash": "a108217f1142"
+      "contentHash": "d0605ec60f92"
     },
     {
       "id": "907555c60aac",
@@ -113,10 +131,10 @@
       "id": "67883bfee62a",
       "title": "AIが提案する「モダンなeslint設定」の検証とチームへ導入した話 | Yappli Tech Blog",
       "url": "https://tech.yappli.io/entry/cms_eslint_ai",
-      "summary": "YappliのVue/Nuxt（TypeScript）プロジェクトで、ClaudeCodeを使いeslint設定のモダン化を検討。AIが設定案と項目解説を提示し、チームレビューで「Essentialは既に有効」「影響大きい設定は慎重に」「まずはerrorではなくwarningで運用」が合意された。",
+      "summary": "ヤプリ＆フラー合同アドベントカレンダー2025の8日目、ヤプリのフロントエンドグループ武井による記事。ヤプリのCMSはVue/Nuxtで、コードチェックにESLintを採用。lintは静的解析で構文やスタイルの問題を検出・修正し、ESLintはTypeScriptにも対応。とても便利だが…",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T09:59:09.000Z",
-      "contentHash": "050886c02cbc"
+      "contentHash": "a43bee3181f0"
     },
     {
       "id": "8f7df6c4d0be",
@@ -257,10 +275,10 @@
       "id": "e41ac15a83b2",
       "title": "X-VLA の概要",
       "url": "https://note.com/npaka/n/nd3f000d74bd6",
-      "summary": "X-VLAは、ロボット毎の差異を学習可能なソフトプロンプトで吸収するTransformer基盤のロボット基盤モデル。7機体29万エピで学習し、少量のプロンプト学習のみで新機体へ高速適応、実機でも少数デモで高い器用性を示した。",
+      "summary": "X-VLAは、ロボットごとを学習可能なソフトプロンプトで符号化し、多様な形態やセンサーを単一Transformerで統合するVLA。29万エピ学習の0.9Bはバックボーン凍結で新機体へ約1%のパラメータ調整で高速適応し、既存手法に匹敵。実機評価や少数デモでの布折り等の器用さも示した。",
       "source": "npaka",
       "publishedAt": "2025-12-08T07:06:59.000Z",
-      "contentHash": "15753cb14f63"
+      "contentHash": "6be844aca779"
     },
     {
       "id": "f174c18a2dec",
@@ -671,10 +689,10 @@
       "id": "a191f351fbdd",
       "title": "Bag of words, have mercy on us",
       "url": "https://www.experimental-history.com/p/bag-of-words-have-mercy-on-us",
-      "summary": "著者はAIを「生きている」と見なす比喩は誤りだと論じる。人は進化的に無生物に意図や人格を投影しやすく、チャットの応答でついAIを人間扱いしてしまうとし、顔認知や悪霊幻覚などの例を挙げる。",
+      "summary": "筆者はAIに人間性を投影するのは誤った比喩だと指摘する。ChatGPTの自然な応答で「中に人がいる」と感じやすく、人は進化的に物に心を見出しがちで錯覚に注意すべき、という内容。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T22:31:22.000Z",
-      "contentHash": "02fe6978ce90"
+      "contentHash": "b97a9b9fe2a0"
     },
     {
       "id": "cf40f89591b3",
@@ -716,19 +734,19 @@
       "id": "8d61a4acd1c9",
       "title": "Mechanical power generation using Earth's ambient radiation",
       "url": "https://www.science.org/doi/10.1126/sciadv.adw6833",
-      "summary": "外部サイトに直接アクセスできないため、リンク先の本文を貼っていただけますか？またはHacker Newsの議論でよければ、その要点を要約します。要約は200文字以内で作成します。どちらがよいですか？",
+      "summary": "外部サイトへ直接アクセスできないため記事本文を確認できません。要約希望なら、記事の本文・要旨・主要箇所のコピペ、あるいは記事のタイトルと要点を教えてください。貼っていただければ200文字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T21:55:01.000Z",
-      "contentHash": "c04d0b1cddee"
+      "contentHash": "ccd6b46df496"
     },
     {
       "id": "b9a33c2df987",
       "title": "XKeyscore",
       "url": "https://en.wikipedia.org/wiki/XKeyscore",
-      "summary": "XKeyscoreはNSAのインターネット監視・検索システムで、メールや閲覧履歴など膨大な通信を横断検索できる。スノーデンの暴露で2013年に公表され、監視の広範さと監督不足が論争になった。",
+      "summary": "XKeyscoreはNSAが運用する大量監視システムで、メールや閲覧履歴、SNSなどの通信内容やメタデータをリアルタイムで収集・検索できる。2013年のスノーデン暴露で明らかになり、権限やプライバシー侵害を巡り批判を招いた。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T20:54:16.000Z",
-      "contentHash": "5833d9970cfb"
+      "contentHash": "2d776b610b2b"
     },
     {
       "id": "28609fcbe14e",
@@ -1490,10 +1508,10 @@
       "id": "643f709e602c",
       "title": "Transformers v5 の概要",
       "url": "https://note.com/npaka/n/n1d9d1aafab55",
-      "summary": "Transformers v5を公開。5年で利用・モデル数が大幅増加し、v5は「シンプルさ」「学習」「推論」「プロダクション」を重視。モジュール化やAttentionInterface導入、モデル変換ツール、コード削減で統合・保守を簡素化しエコシステムを強化。",
+      "summary": "Hugging FaceのTransformers v5は、モデル定義を簡素化してAPIを統一・相互運用性を向上させ、開発・導入の効率や最適化を高めてAIエコシステムの利便性を促進するアップデートです。",
       "source": "npaka",
       "publishedAt": "2025-12-02T02:11:46.000Z",
-      "contentHash": "c3c812fd3f37"
+      "contentHash": "253f4b243b55"
     },
     {
       "id": "946bf5413869",
@@ -1562,10 +1580,10 @@
       "id": "083e6029f7c5",
       "title": "X (旧Twitter) でサムネイルを更新する方法",
       "url": "https://note.com/npaka/n/nc6b0d82972b0",
-      "summary": "X（旧Twitter）はURLごとにOGPをキャッシュするため、リンク投稿のサムネイルが古いままになることがある。cards-dev.twitter.com/validatorにURLを入れて「Preview card」を押すとキャッシュが更新され、その後再投稿すれば新しいサムネイルが表示される。",
+      "summary": "Xに記事リンクを投稿すると、XがURLごとにOGP情報をキャッシュするためサムネイルが古いままになることがある。専用のリフレッシュツールでURLのキャッシュを更新すれば反映される。",
       "source": "npaka",
       "publishedAt": "2025-11-30T11:28:57.000Z",
-      "contentHash": "0853ce995100"
+      "contentHash": "2ceecab54609"
     },
     {
       "id": "600e59f035b6",
