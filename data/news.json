@@ -1,6 +1,51 @@
 {
-  "generatedAt": "2025-12-08T10:34:07.545Z",
+  "generatedAt": "2025-12-08T11:30:54.547Z",
   "items": [
+    {
+      "id": "80ac246b9244",
+      "title": "ウーマンエキサイトで連載中！AIコミックの制作フローを公開します | エキサイト TechBlog.",
+      "url": "https://tech.excite.co.jp/entry/2025/12/08/191729",
+      "summary": "エキサイト山崎がウーマンエキサイトでのAIコミック制作フローを解説。ネーム（セリフ・ト書き）→画像生成（プロンプト固定化・表情は参照画像で統一）→編集・再生成で調整。1話3〜5時間。指示力と構成力が重要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T10:17:29.000Z",
+      "contentHash": "fc831b93c9ac"
+    },
+    {
+      "id": "aa939c8b6394",
+      "title": "Hatena Engineer Seminar  #35「エンジニアリングマネージャー編」をオンラインで開催しました #hatenatech | Hatena Developer Blog",
+      "url": "https://developer.hatenastaff.com/entry/engineer-seminar-35-report",
+      "summary": "2025年12月8日、Hatena Engineer Seminar #35をオンライン開催。はてなのエンジニアリングマネージャー3名が、EMの評価・育成、初めての目標設定と評価、チームづくりを講演。アーカイブ動画と資料を公開し、エンジニア採用も呼びかけ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T10:13:44.000Z",
+      "contentHash": "d30da3b21d56"
+    },
+    {
+      "id": "7e90b4e98156",
+      "title": "【re:Invent 2025】Amazon Nova 2 に関するアップデートの一覧化とまとめ | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/amazon-nova-2-summary",
+      "summary": "re:Invent 2025で発表されたAmazon Nova 2は、Lite/Pro/Sonic/Omniのマルチモーダル基盤モデル群と、独自モデル構築のNova Forge、エージェント向けNova Actを提供。カスタマイズやファインチューニング強化で業務自動化や高度なAIエージェント構築を支援する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T10:11:01.000Z",
+      "contentHash": "ee90ebbb44fa"
+    },
+    {
+      "id": "dd2d2b65fdab",
+      "title": "Rails 8.0.2 で autosave の挙動が静かに変わった話 | Social PLUS Tech Blogのフィード",
+      "url": "https://zenn.dev/socialplus/articles/rails-8_0_2-autosave-changes",
+      "summary": "Rails 8.0.2でautosave（accepts_nested_attributes_for含む）の挙動が変わり、作成・変更されていない関連レコードのバリデーションを行わなくなった。無駄な検証は減るが、孫モデルのみ変更がある場合に親（子モデル）で行う孫に関する検証がスキップされるなどの副作用がある。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T10:09:03.000Z",
+      "contentHash": "f456d6fafe83"
+    },
+    {
+      "id": "e0b32c48826e",
+      "title": "Shadow DOMでIslands Architectureっぽく(状態管理編) | chot Inc. tech blogのフィード",
+      "url": "https://zenn.dev/chot/articles/shadow_dom_apps_state",
+      "summary": "Shadow DOM上で動く複数アプリ間の状態共有に、CustomEventベースのPub/Subライブラリ「@multi-fw-demo/shared-state」を作成。異なるビルド間でのモジュール共有問題を回避し、ローカル更新→window.dispatchEventで全ShadowRootのストアへ同期、各フレームワークがUIを更新する仕組みを示す。状態管理は本質的にPub/Subであると解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T10:03:01.000Z",
+      "contentHash": "a108217f1142"
+    },
     {
       "id": "ca191fc24ec1",
       "title": "Devin の Playbooks を活用したリポジトリメンテナンスの効率化 | Wantedly Engineer Blog",
@@ -21,7 +66,7 @@
     },
     {
       "id": "f7781c42c127",
-      "title": "The f*** off contact page",
+      "title": "The fuck off contact page",
       "url": "https://www.nicchan.me/blog/the-f-off-contact-page/",
       "summary": "あるデザイン会社のサイト再設計で、顧客が美的好みでワイヤーを逸脱した結果、目的を無視して「誰にも連絡させない」いわゆる「fuck off contact page」を作りかけた話。",
       "source": "Hacker News",
@@ -72,6 +117,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T08:20:36.000Z",
       "contentHash": "3a481c1bd445"
+    },
+    {
+      "id": "2579817f681d",
+      "title": "GitHub Actions Has a Package Manager, and It Might Be the Worst",
+      "url": "https://nesbitt.io/2025/12/06/github-actions-package-manager.html",
+      "summary": "GitHub Actionsの依存解決はロックファイル、整合ハッシュ、推移的ピン留め、依存可視化などが欠如し、毎回再解決されて供給網攻撃に脆弱。調査で多数リポジトリが未検証Actionsや脆弱性を含むことが確認された。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T08:15:32.000Z",
+      "contentHash": "92c3ac6cd467"
     },
     {
       "id": "79eddba588b5",
@@ -216,6 +270,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-08T04:50:13.000Z",
       "contentHash": "443262f186d7"
+    },
+    {
+      "id": "ff1a25e32d72",
+      "title": "Palantir Could Be the Most Overvalued Company That Ever Existed",
+      "url": "https://247wallst.com/investing/2025/11/25/palantir-could-be-the-most-overvalued-company-that-ever-existed/",
+      "summary": "市場は評価重視に転換し即時リターンを重視。AI大型株が下落する中、パランティアは時価約3700億ドル、PER360倍・予想153倍・PS100倍超と過大評価で、今回の下落はより長期的な売りの始まりだと筆者は指摘する。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T04:45:20.000Z",
+      "contentHash": "067f25c4fa07"
     },
     {
       "id": "ac011a618d4c",
@@ -419,10 +482,10 @@
       "id": "3e9f3d63b616",
       "title": "You need to watch the modern horror masterpiece, His House",
       "url": "https://www.theverge.com/entertainment/839753/watch-modern-horror-masterpiece-his-house",
-      "summary": "レミ・ウィークスの長編デビュー作『His House』（2020）は、「トラウマが怪物」という使い古されたホラーの定型を巧みに扱い、南スーダン難民ボルとリアルの物語を描く。ソープ・ディリスと特にウンミ・モサクの卓越した演技が作品を一段と高めている。",
+      "summary": "リミ・ウィークスの長編デビュー作『His House』（2020）は、「トラウマが怪物」という定番を巧みに使った現代ホラー。南スーダン難民ボルとリアルを描き、ソープ・ディリスとウンミ・モサクの熱演（特にモサク）が光る。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T01:45:45.000Z",
-      "contentHash": "e5ed34f7d4ff"
+      "contentHash": "81d167527bcd"
     },
     {
       "id": "904e3e14055c",
@@ -491,19 +554,19 @@
       "id": "760b21788966",
       "title": "Netflix CEO made a visit to the White House before buying Warner Bros.",
       "url": "https://www.theverge.com/news/839749/netflix-ceo-visit-white-house-warner-bros",
-      "summary": "11月、Netflix共同CEOテッド・サランドスがホワイトハウスでトランプ氏と会談し、ワーナー買収入札について協議。会談後は当面反対はないと判断し、Netflixは827億ドルで入札勝利。パラマウント側のエリソン父子は政権との関係を強調していた。",
+      "summary": "11月、Netflix共同CEOテッド・サランドスがホワイトハウスでトランプ氏と会談し、ワーナー買収入札を協議。「即時の反対はない」と感じ、Netflixは827億ドルで落札。パラマウントのエリソン親子は政権との関係を強調していた。",
       "source": "The Verge",
       "publishedAt": "2025-12-07T22:34:20.000Z",
-      "contentHash": "db83934d01b8"
+      "contentHash": "c9db44d65928"
     },
     {
       "id": "a191f351fbdd",
       "title": "Bag of words, have mercy on us",
       "url": "https://www.experimental-history.com/p/bag-of-words-have-mercy-on-us",
-      "summary": "AIを人間のように扱うのは誤った比喩で、対話文体に人格があると錯覚しがちだ。人は進化的に物に意図や心を見出し、怪現象を魔女や悪魔で説明してしまう傾向がある。",
+      "summary": "著者はAIを「生きている」と見なす比喩は誤りだと論じる。人は進化的に無生物に意図や人格を投影しやすく、チャットの応答でついAIを人間扱いしてしまうとし、顔認知や悪霊幻覚などの例を挙げる。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T22:31:22.000Z",
-      "contentHash": "651376c732a5"
+      "contentHash": "02fe6978ce90"
     },
     {
       "id": "cf40f89591b3",
@@ -660,12 +723,12 @@
     },
     {
       "id": "6ef3e6ced2bb",
-      "title": "A very human vision for going all-in on AI",
+      "title": "A very human vision for going all in on AI",
       "url": "https://www.theverge.com/podcast/839718/sublime-ai-taste-curation-vergecast",
-      "summary": "VergecastでSublime創業者のSari Azoutが、キュレーションや「味覚」を重視する同社にAIを導入し、人間の創造性や好みを置き換えず補完する形で活用する考えを語る。",
+      "summary": "The Vergecastの回で、Sari Azoutはキュレーションと「味覚」を重視するプラットフォームSublimeにAIを多用しつつも、AIを人間の創造性を置き換えるのではなく補完する道具として使い、人間性を保つ方針を語る。",
       "source": "The Verge",
       "publishedAt": "2025-12-07T15:00:00.000Z",
-      "contentHash": "95165fca78de"
+      "contentHash": "1c282f6e27ad"
     },
     {
       "id": "3538e87ece8c",
@@ -1094,10 +1157,10 @@
       "id": "b8a7ed8eeeba",
       "title": "Apple’s chip chief might be the next exec to leave",
       "url": "https://www.theverge.com/news/839700/apples-chip-chief-might-be-the-next-exec-to-leave",
-      "summary": "ブルームバーグ報道によれば、ハードウェア技術担当SVPのジョニー・スルジ氏がティム・クックに「近く他社へ移ることを真剣に検討している」と伝えた。COO退任やAI責任者らの相次ぐ幹部離脱の一環と見られる。",
+      "summary": "ブルームバーグ報道によれば、Appleのハードウェア技術担当SVPジョニー・スルジ氏がティム・クックに「近く他社へ移ることを真剣に検討している」と伝えた。実現すれば、ウィリアムズCOO退任やジアンアンドレアら最近の幹部離脱に続く大きな人事変動になる。",
       "source": "The Verge",
       "publishedAt": "2025-12-06T19:55:52.000Z",
-      "contentHash": "8d6c5462ff8c"
+      "contentHash": "ee705444f681"
     },
     {
       "id": "054f863a6123",
