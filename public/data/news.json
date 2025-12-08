@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2025-12-08T22:32:40.026Z",
+  "generatedAt": "2025-12-08T23:32:22.038Z",
   "items": [
+    {
+      "id": "cb3745a7711a",
+      "title": "Kiro CLIを使ってAWS上のアプリケーションエラー原因を特定する | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/kiro-cli-aws-investigation",
+      "summary": "AWSのKiro CLIは、Amazon Q Developer CLIを統合・拡張したAIエージェントツールで、シェル上でAWS設定・ログ・IaCや複数リポジトリを横断して原因調査が可能。著者はこれでDynamoDBバッチの登録漏れ原因を効率的に追跡した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T23:00:06.000Z",
+      "contentHash": "b8b16d6ffb10"
+    },
+    {
+      "id": "10351eee5236",
+      "title": "【AWS re:Invent 2025】S3 Tablesでメダリオンアーキテクチャのデータ基盤をつくろう！ | カミナシ エンジニアブログ",
+      "url": "https://kaminashi-developer.hatenablog.jp/entry/2025/12/09/aws-reinvent-s3tables-medallion",
+      "summary": "re:InventのワークショップはS3 Tablesでメダリオン（Bronze/Silver/Gold）アーキテクチャを構築。Parquet/CSVをGlueで投入・結合しAthena/SageMakerで参照を試行する中、Lake Formationの権限エラーが多発。権限設定は複雑だがテーブル単位のガバナンスやコンパクション・スナップショット等の運用最適化機能は有用と報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T23:00:00.000Z",
+      "contentHash": "6cfbe0a5e336"
+    },
+    {
+      "id": "dbf3ce429b5e",
+      "title": "New Relic監視設定の自動化を始めよう - Terraform × CI/CDツール比較ガイド | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/newrelic-terraform-cicd-comparison",
+      "summary": "New Relicの監視設定をTerraformでコード管理し、GitHub ActionsとAWS CodePipeline/CodeBuildでCI/CD化する利点と比較。環境差や属人化を解消し、変更履歴・事前確認・承認フローで安全な展開を実現。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T23:00:00.000Z",
+      "contentHash": "a30eef533cd5"
+    },
+    {
+      "id": "374821a38df3",
+      "title": "2025年 CSS トレンド – 開発現場で役立つ新機能 Part2 | TECHSCORE BLOG",
+      "url": "https://blog.techscore.com/entry/2025/12/09/080000",
+      "summary": "Part2では2025年の開発現場で役立つCSS新機能4つを紹介：:has()セレクター、@starting-styleとtransition-behavior、light-dark()と相対カラー、interpolate-size。:has()は子要素の状態で親を選べ、フォームバリデーションやレイアウト切替に有用。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T23:00:00.000Z",
+      "contentHash": "90e4ecd1a84b"
+    },
+    {
+      "id": "7da96f97296a",
+      "title": "DatadogでできることとECSの監視実践 | 電通総研 テックブログ",
+      "url": "https://tech.dentsusoken.com/entry/2025/12/09/Datadog%E3%81%A7%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8%E3%81%A8ECS%E3%81%AE%E7%9B%A3%E8%A6%96%E5%AE%9F%E8%B7%B5",
+      "summary": "電通総研の三谷がDatadogの概要と導入手順を解説。Datadogはクラウドやコンテナ向けのSaaS型監視・可観測性プラットフォームで、サーバ・コンテナ・アプリ等のメトリクスを集約し可視化・分析する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T23:00:00.000Z",
+      "contentHash": "8bab886d43bb"
+    },
+    {
+      "id": "3e9e5a2d2874",
+      "title": "Figmaも年末大掃除！将来に備えてメモリ40%以下を目指す！ | ゼスト Tech Blog",
+      "url": "https://techblog.zest.jp/entry/2025/12/09/073934",
+      "summary": "株式会社ゼストのプロダクトデザイナー池田が、年末の大掃除になぞらえてFigmaファイルに溜まる不要データ（ホコリ）を除去し、パフォーマンスを維持するための意識と効率的なメンテナンス術を紹介する記事。Figmaは無限ではないため定期的な掃除が必要、という趣旨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T22:39:34.000Z",
+      "contentHash": "f28cd32b26c1"
+    },
+    {
+      "id": "e691743ec829",
+      "title": "The best iPad deals you can get right now",
+      "url": "https://www.theverge.com/21280354/best-ipad-deals-apple",
+      "summary": "記事は現行のiPadセールを案内。基本iPadとiPad miniが最安の割引率で、iPad Airや最新のM5搭載iPad Proも値引き中。旧型M4 Proは在庫処分でさらに安くなることがあり、大手セール以外でも日々割引が変動すると伝える。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-08T22:25:02.000Z",
+      "contentHash": "f69ec4116849"
+    },
+    {
+      "id": "fd6af5361386",
+      "title": "GenAI Enablementチーム立ち上げ初年度の振り返り | Findy Tech Blog",
+      "url": "https://tech.findy.co.jp/entry/2025/12/09/070000",
+      "summary": "GenAI Enablementチームの設立から約1年の活動を総括する記事。チーム構成、直面した課題と解決策、理想と現実のギャップ、具体的な成果と反省を示し、自社でのGenAI活用推進に役立つ実践的なヒントを提供する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T22:00:00.000Z",
+      "contentHash": "f0d0a0c3d99e"
+    },
+    {
+      "id": "3214ac8536f6",
+      "title": "「開発チームじゃない」ハードウェア生産チームに”ガチ”スクラムを導入したら、個人の集まりが『チーム』に変わった話  ～「なんちゃって」を卒業し、ソフト出身スクラムマスターの「理想論」を乗り越えるための戦略～ | Inside of LOVOT",
+      "url": "https://tech.groove-x.com/entry/20251209-tech",
+      "summary": "GROOVE Xのスクラムマスター志賀が、家族型ロボットLOVOTの生産工程設計や品質管理を担う生産チーム（Industrial Engineering）にスクラムを導入した事例。ハードウェア現場での2週間スプリント適用などの課題と工夫を紹介しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T22:00:00.000Z",
+      "contentHash": "39c4c1e1ff7b"
+    },
+    {
+      "id": "a256415fb6cb",
+      "title": "GoプロジェクトのCI/CD高速化の話 | JMDC TECH BLOG",
+      "url": "https://techblog.jmdc.co.jp/entry/go-github-actions-optimazation",
+      "summary": "Pep Upモバイルアプリチームの楊がJMDC Advent Calendar9日目で、GitHub ActionsのGoビルドが約58分かかっていた問題を様々な最適化で約2分（97%短縮）に改善した経緯を報告しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T22:00:00.000Z",
+      "contentHash": "6fb1b8c7e2e5"
+    },
     {
       "id": "38f4f6605005",
       "title": "The 34 best gifts that your teen will actually use",
@@ -68,10 +158,10 @@
       "id": "d69b34ab3f7a",
       "title": "ICEBlock developer sues Trump administration over App Store removal",
       "url": "https://www.theverge.com/news/840164/iceblock-joshua-aaron-sues-trump-administration-apple-app-store-removeal",
-      "summary": "ICEBlockの開発者Joshua Aaronが、トランプ政権のパム・ボンディら連邦関係者を、同政権が不当な圧力でAppleにアプリ削除を強要したとして提訴。該当アプリはICEの活動を匿名通報するも昨年10月に削除された。",
+      "summary": "ICEBlock開発者ジョシュア・アーロンが、ボンディ司法長官らトランプ政権幹部を相手取り、Appleにアプリ削除を強要したとして提訴。Appleは10月にアプリを削除。政府はコメント控え。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T18:25:33.000Z",
-      "contentHash": "9e41b406c978"
+      "contentHash": "f79f707bf917"
     },
     {
       "id": "ab09c989ca23",
@@ -122,10 +212,10 @@
       "id": "9614e4e384da",
       "title": "Microsoft has a problem: lack of demand for its AI products",
       "url": "https://www.windowscentral.com/artificial-intelligence/microsoft-has-a-problem-nobody-wants-to-buy-or-use-its-shoddy-ai",
-      "summary": "MicrosoftはOfficeやWindowsにAIを急速導入したが、精度不足や誤応答、遅延、高コスト、ブランド混乱で評価が低迷。企業や消費者、パートナーが導入をためらい、期待と実態の乖離が問題と指摘される。",
+      "summary": "マイクロソフトはCopilotなどAI機能を大量投入したが、品質や性能が不十分で高額・用途不明の製品が多く、企業や消費者が導入をためらっている点が問題と指摘される。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T16:54:31.000Z",
-      "contentHash": "2330d5ff89df"
+      "contentHash": "cc3d3435670b"
     },
     {
       "id": "78e267996958",
@@ -1922,10 +2012,10 @@
       "id": "4f02991bc109",
       "title": "Nano Banana Pro がもたらす画像生成AIの ChatGPTモーメント",
       "url": "https://note.com/npaka/n/n38a74111ac13",
-      "summary": "Google DeepMindのプロ向け画像生成「Nano Banana Pro（Gemini 3 Pro Image）」は、構図・撮影条件の細かな制御、画像内日本語を含む正確な文字描画、複数参照画像での高い一貫性、ネイティブ4Kを約20秒で生成（初回成功率95%）などを備え、画像生成AIの実用化という“ChatGPTモーメント”をもたらす。",
+      "summary": "Google DeepMindのGemini 3基盤「Nano Banana Pro」は、自然文で構図やカメラを制御し可読な多言語テキストを画像に埋め込み、最大14枚の参照や5人の一貫性維持、ネイティブ4Kを約20秒で生成、初回成功率95%でプロ用途を一般化する「画像生成のChatGPTモーメント」と評されるモデルです。",
       "source": "npaka",
       "publishedAt": "2025-11-30T12:24:48.000Z",
-      "contentHash": "a1e36325a7d8"
+      "contentHash": "971b801302cc"
     },
     {
       "id": "083e6029f7c5",
