@@ -1,14 +1,104 @@
 {
-  "generatedAt": "2025-12-08T08:46:32.355Z",
+  "generatedAt": "2025-12-08T09:45:26.341Z",
   "items": [
+    {
+      "id": "ca191fc24ec1",
+      "title": "Devin の Playbooks を活用したリポジトリメンテナンスの効率化 | Wantedly Engineer Blog",
+      "url": "https://www.wantedly.com/companies/wantedly/post_articles/1026737",
+      "summary": "WebページのCSS定義。コンテナやメイン領域の余白・幅設定、flexによる中央揃え、ボタン（角丸・透明背景・遷移効果）やヘッダーナビ（フォント・サイズ・色・ホバー効果）などのスタイルを指定しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T09:00:12.000Z",
+      "contentHash": "f1f242946878"
+    },
+    {
+      "id": "35fe7de0f8b0",
+      "title": "推薦システムをChatGPTで | Fusic 技術ブログのフィード",
+      "url": "https://zenn.dev/fusic/articles/45d59654bfb0c8",
+      "summary": "Fusic技術ブログの記事。ChatGPTを検索・抽出ツールとして使うプロンプト手法を紹介。情報提供→検索→スコアリング→ランキングの流れやCoT/Few‑shot等の段階的思考を用いた「OSS検索GPT」（GitHub対象）の具体的手順を示す。技術的詳細は少なめ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T09:00:04.000Z",
+      "contentHash": "96223a680047"
+    },
+    {
+      "id": "2494f212e161",
+      "title": "第1回ChatGPT社内ハッカソン開催レポート | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/3dd3228c4219ae",
+      "summary": "NTTデータは2025年11月17日、業務効率化をテーマにChatGPT社内ハッカソンを開催。11チームがカスタムGPT等で成果物を開発・発表し、OpenAIの支援を得て表彰が行われた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T08:44:36.000Z",
+      "contentHash": "a49fefe30147"
+    },
+    {
+      "id": "fbf4b9678c4d",
+      "title": "🚀 AutomatorとpngquantでPNG圧縮を自動化！フォルダアクション設定ガイド | asken テックブログ",
+      "url": "https://tech.asken.inc/entry/20251209",
+      "summary": "MacのAutomatorとpngquantを連携し、指定フォルダに保存したPNGを自動で圧縮する手順を解説。Homebrewでpngquantを導入し、フォルダアクションの「シェルスクリプトを実行」にpngquantコマンドを設定するだけで自動化できる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T08:42:00.000Z",
+      "contentHash": "8622c4dbf4f5"
+    },
+    {
+      "id": "4f599eeddb60",
+      "title": "Bundler 4.0.0とRubyGems 4.0.0にアップグレードするときの注意点 | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2025_12_08/155098",
+      "summary": "Bundler 4とRubyGems 4は互換性のない変更で利便性・保守性・セキュリティを改善。公式文書や関連PR/コミットを参照し、重要順に再編して注意点をまとめた記事です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T08:30:55.000Z",
+      "contentHash": "8850bd7ab552"
+    },
+    {
+      "id": "0132e13481dd",
+      "title": "xUTPによるテストダブルの定義とその図解 | NTT docomo Business Engineers' Blog",
+      "url": "https://engineers.ntt.com/entry/20251208_advent-calendar-day8/entry",
+      "summary": "xUTPの定義に基づき、テスト対象(SUT)と依存コンポーネント(DOC)、直接/間接入出力を整理し、テストダブルをモック(間接出力検証)、スパイ(記録)、スタブ(間接入力操作)、フェイク(実装置換)に分類して図解している記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T08:26:08.000Z",
+      "contentHash": "082e64753948"
+    },
+    {
+      "id": "50c37640906a",
+      "title": "git-worktree-runnerで複数ブランチを同時に開発する | Luup Developers Blogのフィード",
+      "url": "https://zenn.dev/luup_developers/articles/git-worktree-runner-ohtaki-20251208",
+      "summary": "git-worktree-runner（gtr）はgit worktreeの操作を簡潔化するCLI。依存関係再インストールや.gitignoreのファイルコピーの手間を自動化し、VS CodeなどのエディタやAIツール連携、フックで並行開発を効率化する。インストールと基本コマンド（new/editor/ai）を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T08:20:36.000Z",
+      "contentHash": "3a481c1bd445"
+    },
+    {
+      "id": "79eddba588b5",
+      "title": "Virt 屋のひとりごと : いろいろなディスクの種類 | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/virt-diskvariety",
+      "summary": "OpenShift Virtualization の仮想ディスクは主に Disk（PVCで動的作成される一般的な仮想ディスク）と LUN（ストレージの論理ボリュームを直接割当てる高性能用途向け）。接続は VirtIO（推奨、高速）や SCSI（多数接続やSCSI機能利用向け）など。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T08:07:43.000Z",
+      "contentHash": "5afd84aed513"
+    },
+    {
+      "id": "a72f7107dc3c",
+      "title": "APAC事業の未来を担う挑戦者たちへ〜事業責任者・山根が求める人材とは〜 | FreakOut Backyard",
+      "url": "https://backyard.fout.co.jp/2025/12/interview/hd_ky/",
+      "summary": "フリークアウトはAPACで外資と競い、海外現地法人の経営幹部候補を募集。台湾拠点経験の山根執行役員は「自前主義」「突き詰める文化」「Made in Japanの技術優位」を掲げ、各国で経営者として自主的に挑む人材を求める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T08:00:43.000Z",
+      "contentHash": "b6299ad582d9"
+    },
+    {
+      "id": "171041747175",
+      "title": "【応用情報】R7春 午後（問1：情報セキュリティ）その２：バックアップ・ログ管理 | Agent Grow Tech Notesのフィード",
+      "url": "https://zenn.dev/agent_grow/articles/4f9b6d7a9898ea",
+      "summary": "令和7年春期応用情報・午後問1の続編。月曜フル・平日差分の運用でランサムウェアにより暗号化データがバックアップに上書きされ復元不能になる危険、ログの上書きで調査不能になる点を指摘。恒久対策はイミュータブル保存やログの長期保存・ローテーション、ロックアウト・MFA・アラートなどの複合対策。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T08:00:02.000Z",
+      "contentHash": "cab342443c0e"
+    },
     {
       "id": "e41ac15a83b2",
       "title": "X-VLA の概要",
       "url": "https://note.com/npaka/n/nd3f000d74bd6",
-      "summary": "X-VLAは視覚と言語を統合した「ソフトプロンプト」型のロボット基盤モデルで、プロンプトを変えるだけで任意のロボットやタスクへ迅速に適応。少数ショット／ゼロショットで汎化し複数プラットフォームで実験済み。導入の簡便化が期待される一方、データ偏りや安全性、実環境での一般化が課題。",
+      "summary": "X-VLAは、ロボット構成を学習可能な「ソフトプロンプト」として扱うVLA基盤モデル。多様な機体・センサを単一Transformerで統合し、少数パラメータの調整で高い適応性能を示す。29万エピソードで学習し実ロボットでも有効。",
       "source": "npaka",
       "publishedAt": "2025-12-08T07:06:59.000Z",
-      "contentHash": "46fb1b1b8856"
+      "contentHash": "ddc069a26b58"
     },
     {
       "id": "f174c18a2dec",
@@ -149,10 +239,10 @@
       "id": "df5927f735cd",
       "title": "demucs による音源分類を試す",
       "url": "https://note.com/npaka/n/neaef4a26ccd2",
-      "summary": "音源分離ツールDemucsをMacのPython仮想環境で試した記録。condaでPython3.11環境を作り、torch/torchaudio/demucs/numpy<2を導入し、demucs test_audio.m4aでvocals/drums/base/other.wavを出力しました。",
+      "summary": "音源分離ツール「demucs」をMacのPython仮想環境で試した記録。condaでPython3.11環境を作り、torch/torchaudioやdemucs等を導入後、demucs test_audio.m4aを実行すると/separated/htdemucs/にvocals, drums, base(ベース), otherのwavが生成される。",
       "source": "npaka",
       "publishedAt": "2025-12-08T03:18:18.000Z",
-      "contentHash": "8df7113b13fd"
+      "contentHash": "649cb99e76d0"
     },
     {
       "id": "f37c86709c50",
@@ -383,10 +473,10 @@
       "id": "760b21788966",
       "title": "Netflix CEO made a visit to the White House before buying Warner Bros.",
       "url": "https://www.theverge.com/news/839749/netflix-ceo-visit-white-house-warner-bros",
-      "summary": "11月、Netflix共同CEOテッド・サランドスがトランプ大統領と会談しワーナー買収の意向を説明。会談で直ちに反対はないと判断。Netflixは827億ドルで落札し、パラマウントも入札競争に参加していた。",
+      "summary": "11月、Netflix共同CEOテッド・サランドスがホワイトハウスでトランプ氏と会談し、ワーナー買収入札について協議。会談後は当面反対はないと判断し、Netflixは827億ドルで入札勝利。パラマウント側のエリソン父子は政権との関係を強調していた。",
       "source": "The Verge",
       "publishedAt": "2025-12-07T22:34:20.000Z",
-      "contentHash": "2cfebf82a61d"
+      "contentHash": "db83934d01b8"
     },
     {
       "id": "a191f351fbdd",
@@ -437,10 +527,10 @@
       "id": "8d61a4acd1c9",
       "title": "Mechanical power generation using Earth's ambient radiation",
       "url": "https://www.science.org/doi/10.1126/sciadv.adw6833",
-      "summary": "すみません、外部サイトに直接アクセスできません。記事本文か要旨（Abstract）を貼っていただければ、200文字以内で日本語要約を作成します。HNコメントも要約希望なら併せて貼ってください。",
+      "summary": "申し訳ありませんが、外部URLの内容を直接取得できません。記事本文か抄録、主要ポイントを貼り付けていただければ、200文字以内で日本語要約を作成します。HNコメントも要約できます。どちらを貼りますか？",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T21:55:01.000Z",
-      "contentHash": "87cb75d42755"
+      "contentHash": "013419e800d4"
     },
     {
       "id": "b9a33c2df987",
@@ -464,10 +554,10 @@
       "id": "bdec45075647",
       "title": "Syncthing-Android have had a change of owner/maintainer",
       "url": "https://github.com/researchxxl/syncthing-android/issues/16",
-      "summary": "リポジトリの現状確認と対応依頼。nel0x招待で支援、ビルド／リリース再構築、旧メンテナ署名の可否、GitHub Actions復旧、F‑Droidでの配布継続、フォーク名変更の検討など。",
+      "summary": "syncthing-androidフォークで、nel0x招待やビルド・リリース設定、既存署名の扱い、GitHub Actions復旧、F‑Droid連絡、プロジェクト名変更の可否など支援を求める投稿。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T20:15:26.000Z",
-      "contentHash": "afab0be6e04e"
+      "contentHash": "8bfd8b829dfc"
     },
     {
       "id": "bda2f7c28fa6",
@@ -491,10 +581,10 @@
       "id": "91a66ca6c26b",
       "title": "The C++ standard for the F-35 Fighter Jet [video]",
       "url": "https://www.youtube.com/watch?v=Gv4sDL9Ljww",
-      "summary": "JSF AVルールは、ストラウストラップが示した航空機など安全クリティカル向けC++の簡潔な規約集。未定義動作を避けるため、例外やRTTI・不要な動的確保・多重継承などを制限し、単純で検査しやすい言語機能と静的解析や明確なリソース管理を推奨する。",
+      "summary": "ストラウストラップがJSF（戦闘機アビオニクス）向けC++規則を逐条で解説・批判。多くの禁則は過剰や誤解に基づくとし、例外・STL・動的確保はRAIIや適切な設計で安全に使えると述べ、原理に基づく現代的な指針を提案している。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T18:07:06.000Z",
-      "contentHash": "99435321872f"
+      "contentHash": "7e523e92872b"
     },
     {
       "id": "e8ef94a3a584",
@@ -1211,10 +1301,10 @@
       "id": "643f709e602c",
       "title": "Transformers v5 の概要",
       "url": "https://note.com/npaka/n/n1d9d1aafab55",
-      "summary": "外部のページは参照できないので、記事全文か要点を貼ってください。貼っていただければ200文字以内で日本語に要約します。もし記事が「Transformers v5（Hugging Face）」についてなら、その内容を前提に短い要約案を作成することも可能です。どちらがよいですか？",
+      "summary": "Transformers v5は普及拡大を受け、特に「シンプルさ」を重視して改良。モジュール化でモデル統合や保守を容易にし、AttentionInterface導入やモデル変換ツール、コードリファクタでコントリビューション負担を大幅に削減する。",
       "source": "npaka",
       "publishedAt": "2025-12-02T02:11:46.000Z",
-      "contentHash": "253f4b243b55"
+      "contentHash": "46c99efa9568"
     },
     {
       "id": "946bf5413869",
