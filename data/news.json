@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2025-12-08T05:34:25.696Z",
+  "generatedAt": "2025-12-08T06:49:01.453Z",
   "items": [
+    {
+      "id": "b50b2ba6709f",
+      "title": "「東京から福岡へ。 Sansanのエンジニアと地方拠点キャリアについて話そう！」開催レポート | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2025/12/08/150000",
+      "summary": "Sansan福岡支店が11/27にWeWorkゲイツ福岡で初のオフラインイベントを開催。東京→福岡移住の理由やリモートワーク、キャリア変化をエンジニア4名がLT。懇親で技術やAI、技術的負債、地域情報を議論し、今後月1回ペースで開催予定（次回2026年1月）。情報はconnpassやXで発信。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T06:00:00.000Z",
+      "contentHash": "0a3119964b52"
+    },
+    {
+      "id": "cc320bf5eb52",
+      "title": "人工衛星運用におけるモニタリング | Axelspaceのフィード",
+      "url": "https://zenn.dev/axelspace/articles/00e6e2fa5b860a",
+      "summary": "Axelspaceの衛星運用自動化チームが、Uplink/Downlinkで取得したセンサやログを前処理・DB格納しGrafanaで可視化、基地局APIでアンテナを監視。エラーはSlackへアラートし迅速対応。Web運用と同様の手法で低コスト運用を実現。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T05:55:14.000Z",
+      "contentHash": "5634772ce17d"
+    },
+    {
+      "id": "df26df31bba2",
+      "title": "なぜ作るだけでは勝てないのか？モンスターラボが「Product Strategyチーム」を新設した理由 | 株式会社モンスターラボ",
+      "url": "https://monstar-lab.com/dx/solutioncase/product-strategy-team/",
+      "summary": "モンスターラボは「Product Strategyチーム」を発足。単なる開発から脱却し、戦略・デザイン・技術を横断して市場・ユーザー分析に基づき事業成長とROI最大化を目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T05:55:05.000Z",
+      "contentHash": "5b098b3d5daa"
+    },
+    {
+      "id": "f9e6154f45c6",
+      "title": "AWS re:Invent 2025 - Frontier Agentsとは何か？ | Fenrir Engineers",
+      "url": "https://engineers.fenrir-inc.com/entry/2025/12/08/145144",
+      "summary": "AWS re:Invent 2025で発表されたFrontier Agents（Kiro、AWS Security、AWS DevOps）は自律性・大規模スケーラビリティ・長時間稼働を特徴とします。Kiroは人間のフィードバックを学習し継続的に開発を進める“仮想リード”となり、AIを中心に据えるAI駆動開発ライフサイクル（AI‑DLC）を提案します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T05:51:44.000Z",
+      "contentHash": "38d102fa1ab4"
+    },
+    {
+      "id": "83a2ba62f215",
+      "title": "DBに5億件のデータを安定稼働で取り込むためにやったこと | GO Tech Blog",
+      "url": "https://techblog.goinc.jp/entry/2025/12/08/144720",
+      "summary": "タクシーアプリの不正検知で約5億件のCSVをDBへ低負荷・高速に取り込むため、Golangでストリーミング読み込み→数万行のバッファでバルクインサート、並列化はApache Airflowで実装しメモリ効率と既存APIの安定稼働を両立しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T05:47:20.000Z",
+      "contentHash": "cc2c8deab304"
+    },
+    {
+      "id": "7ef448baca2a",
+      "title": "どこでも快適な視聴体験を届ける動画配信サイズ最適化の取り組み | Uzabase for Engineers",
+      "url": "https://tech.uzabase.com/entry/2025/12/08/141148",
+      "summary": "NewsPicksはモバイルでの再生性を優先し動画配信を最適化。シークプレビューを音声無し低解像度化で約90%削減、最低HLS帯域を約250→80kbpsに、ダウンロードは約540→108MBに。コーデックは互換性でH.264継続。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T05:11:48.000Z",
+      "contentHash": "60299064eb04"
+    },
+    {
+      "id": "a521969093a3",
+      "title": "Mac Dock の位置をあれこれ試した結果、左側に落ち着いた話 | Unipos Tech Blogのフィード",
+      "url": "https://zenn.dev/unipos/articles/ddcc33be6e828c",
+      "summary": "MacのDock位置を検討。下は誤クリックやマルチディスプレイで移動する問題、右はウィンドウのサイズ調整時に誤クリックが発生。これらを解消するため、最終的に左配置に落ち着いた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T05:07:41.000Z",
+      "contentHash": "111781391951"
+    },
+    {
+      "id": "bfb11c28bdae",
+      "title": "【AWS re:Invent 2025】ThreatForestを使用した脅威モデリング概要編 | カミナシ エンジニアブログ",
+      "url": "https://kaminashi-developer.hatenablog.jp/entry/2025/12/08/135952",
+      "summary": "ThreatForest紹介。脅威モデリングは「何を作るか／何が起こるか／どう対処するか／十分か」の4問で進め、DFDや脅威インテリジェンスでTTPを把握し、CIAでリスク評価→対策・検証。設計段階で早期実施（シフトレフト）し、運用中も再評価が必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T04:59:52.000Z",
+      "contentHash": "8d4a24ce258b"
+    },
+    {
+      "id": "fe413b214529",
+      "title": "スタートアップでゼロからマネジメント文化を作ってきた話 | 株式会社ログラス テックブログのフィード",
+      "url": "https://zenn.dev/loglass/articles/1b1ef5385ea5d4",
+      "summary": "ログラスの飯田が、一人目マネージャーとして創業期〜30人規模までの組織構築を振り返る。創業期は経営陣中心の1on1や文化作り、30人フェーズで等級制度やマネージャー研修を導入し評価基準の共通化を進めた事例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T04:55:38.000Z",
+      "contentHash": "3e7142c77b2b"
+    },
+    {
+      "id": "ec2bdf7a538e",
+      "title": "Zustand vanilla store を使って通話ロジックを  React から分離した話 | IVRyテックブログのフィード",
+      "url": "https://zenn.dev/ivry/articles/fceab092ee9a52",
+      "summary": "IVRyのエンジニアが、Twilio Voice SDKで複雑化していた通話イベントやmutableな通話状態をReactコンポーネントから切り離し、Zustandのvanilla storeへ移行して責務分離とテスト容易化を図った事例紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-08T04:50:13.000Z",
+      "contentHash": "443262f186d7"
+    },
     {
       "id": "ac011a618d4c",
       "title": "開発から実際の運用まで５ヶ月！ 社内人事評価システム「winwin」開発の裏側 | Uzabase for Engineers",
@@ -365,10 +455,10 @@
       "id": "91a66ca6c26b",
       "title": "The C++ standard for the F-35 Fighter Jet [video]",
       "url": "https://www.youtube.com/watch?v=Gv4sDL9Ljww",
-      "summary": "Bjarne StroustrupによるC/C++の未定義動作(UB)を避けるための実務的ルール集。未初期化変数・ヌル/ダングリング参照・配列越え・符号付きオーバーフロー等を禁止し、初期化・範囲チェック・RAII/スマートポインタ・標準ライブラリ・型安全な設計とコンパイラ/静的解析の活用を推奨している。",
+      "summary": "外部リンクのPDFに直接アクセスできません。要約をご希望なら、PDF本文を貼るか要点をアップロードしてください。あるいは「JSF（Joint Strike Fighter）向けC++コーディング規約の要約」を一般論で作成してもよければその旨を教えてください。200文字以内でまとめます。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T18:07:06.000Z",
-      "contentHash": "5a4451db36f3"
+      "contentHash": "3a020f2100c6"
     },
     {
       "id": "e8ef94a3a584",
@@ -380,13 +470,22 @@
       "contentHash": "6c1ab9bc78d4"
     },
     {
+      "id": "36ddfc5ecbfa",
+      "title": "What the heck is going on at Apple?",
+      "url": "https://www.cnn.com/2025/12/06/tech/apple-tim-cook-leadership-changes",
+      "summary": "Appleで幹部が相次ぎ退任・交代。環境・法務・UI・機械学習担当らが退任またはMetaへ移籍し、AI対応の遅れやティム・クック退任観測を背景に製品設計や経営の不安定化が懸念される。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-07T16:54:44.000Z",
+      "contentHash": "efcfd0e8ad01"
+    },
+    {
       "id": "3a8c35c59f22",
       "title": "The AI wildfire is coming. it's going to be painful and healthy",
       "url": "https://ceodinner.substack.com/p/the-ai-wildfire-is-coming-its-going",
-      "summary": "AIの“野火”が間もなく広がり、モデルや改変版が容易に複製・拡散して制御不能になると警告する記事。計算資源やデータの普及で危険な能力が急速に拡散し、封じ込めは困難。安全研究強化、ガバナンス、検出やライセンス、国際協調が不可欠と主張する。",
+      "summary": "AIは制御不能な「野火」のように急速に広がり、悪用、雇用喪失、偽情報、権力集中など深刻な社会リスクをもたらす。完全封じ込みは困難で、規制・業界協調・安全研究・被害軽減の緊急対応が必要だ。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T16:43:38.000Z",
-      "contentHash": "f280b99e40c8"
+      "contentHash": "5d300100f7e2"
     },
     {
       "id": "bc99f6abc16c",
