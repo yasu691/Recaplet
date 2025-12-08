@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-07T23:31:32.554Z",
+  "generatedAt": "2025-12-08T01:24:38.091Z",
   "items": [
     {
       "id": "904e3e14055c",
@@ -14,37 +14,55 @@
       "id": "e39f83fa2204",
       "title": "【AWS re:Invent 2025】AWSサービスを使って能動的防御を実践 | カミナシ エンジニアブログ",
       "url": "https://kaminashi-developer.hatenablog.jp/entry/2025/12/08/aws-reinvent-2025-active-cyberdefence",
-      "summary": "re:Inventでのワークショップは、AWSのAI/MLを使った能動的防御（サイバー欺瞞）を紹介。生成AIで偽情報を作りハニートークン（偽IAMアクセスキー）を配置、CloudTrail/CloudWatch/EventBridgeで検知して攻撃者を誘導・分析。実施は専門家向けの注意喚起あり。",
+      "summary": "カミナシ認証認可チームのmanatyが今年のre:Invent（12/1–5）参加レポ。最終日に受講した「AWSのAI/MLを使った能動的防御（サイバー欺瞞）」ワークショップを紹介し、攻撃前の兆候検知と対処を解説しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T23:00:00.000Z",
-      "contentHash": "03fb45cc36b0"
+      "contentHash": "a4688b0fbc8d"
     },
     {
       "id": "f0ab84ba08b0",
       "title": "New RelicでAWS Healthイベントを監視してみた | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/aws-health-monitoring-using-new-relic",
-      "summary": "AWS HealthのイベントをNew Relicで一元監視する手順を解説。利用はAWS Business/Enterpriseサポートが必要。CloudWatch Metric Streams非対応のためAPI Polling（5分間隔）で取得し、IAMロール作成とNew Relic側設定でダッシュボードやアラートを構築します。",
+      "summary": "AWS HealthのイベントをNew Relicで一元管理する方法を解説。障害やスケジュール変更を効率的に監視・通知し、運用の安定性と対応力を向上させる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T23:00:00.000Z",
-      "contentHash": "a62f220f9cc6"
+      "contentHash": "87f067ba51d6"
     },
     {
       "id": "233f9e044c48",
       "title": "データエンジニアリングのAI駆動開発: Data Contractを応用したデータパイプラインの生成 | 電通総研 テックブログ",
       "url": "https://tech.dentsusoken.com/entry/2025/12/08/%E3%83%87%E3%83%BC%E3%82%BF%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%AEAI%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA%3A_Data_Contract%E3%82%92%E5%BF%9C%E7%94%A8%E3%81%97",
-      "summary": "徳山氏は、ODCSのData Contract（YAMLで定義するテーブル構造や品質要件）を生成AIに与え、データアーキテクチャやデータモデルを仕様化してデータパイプラインのコードを自動生成するAI駆動開発手法を提案・検証した。",
+      "summary": "Data Contractを活用してAI駆動のデータパイプラインを設計・実装・検証し、データ品質保証や契約遵守、運用自動化、性能評価に関する手法と成果を示します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T23:00:00.000Z",
-      "contentHash": "8109466ad550"
+      "contentHash": "0be7036c9db3"
+    },
+    {
+      "id": "fb0639824923",
+      "title": "OpenAPIから型定義を自動生成して TypeScriptの型管理を効率化する | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n1d06a4c88d5d",
+      "summary": "For Engineersアドベントカレンダー2025のDay.6記事です。For Everyoneアドベントカレンダー2025も毎日公開中なので、合わせてご覧ください。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T23:00:00.000Z",
+      "contentHash": "8165317e41fb"
+    },
+    {
+      "id": "709ffffc68ec",
+      "title": "時系列でふりかえる！2歳男子ワーママの復職後のリアルライフ | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/nc16072f61f11",
+      "summary": "For Everyone アドベントカレンダー2025 Day.8の記事紹介。For Engineersのアドベントカレンダーも毎日更新中で、記事はQiitaのSHIFT Group技術ブログ（Qiita Advent Calendar 2025）でも公開されています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-07T23:00:00.000Z",
+      "contentHash": "1591de2fc09e"
     },
     {
       "id": "105211cdc56f",
       "title": "Chrome拡張機能を自動リロードするVite Pluginを自作してみた | iimon TECH BLOG",
       "url": "https://tech.iimon.co.jp/entry/2025/12/08",
-      "summary": "Chrome拡張の編集反映が面倒（ビルド→拡張再読み込み→ページ再読み込み）なため、既存フレームワーク導入が難しいケースを踏まえ、自作のViteプラグインで自動リロード（ホットリロード）を実装してnpm公開。HMRの仕組みも解説。",
+      "summary": "SREのhogeが、普段はインフラ業務の傍らChrome拡張開発を手伝う中で開発体験を改善するため、拡張機能の自動リロード（ホットリロード）を自作した経緯と仕組みを紹介する記事。アドベント向けで実務導入は未実施。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T22:49:12.000Z",
-      "contentHash": "bc3d4180be02"
+      "contentHash": "a3dd0cc66885"
     },
     {
       "id": "760b21788966",
@@ -59,28 +77,28 @@
       "id": "b40fc9b24eb9",
       "title": "Jetsonを使うときの細かい話 | Inside of LOVOT",
       "url": "https://tech.groove-x.com/entry/jetson_tips_2025_12",
-      "summary": "LOVOTはJetson Orin NX採用。公式は充実するが非参照キャリアやカメラ接続で挙動に悩むことがある。起動はBPMP→PSC→CPUの3段階。SuperモードはBPMPのdevice tree(super-maxn.dtb)で高クロック化可能。キャリアEEPROMでMAC/CRC検証を行い失敗で起動不可だが無視も可能。センサ同期にはTSCなどのタイマー階層が重要。",
+      "summary": "GROOVE Xアドベントカレンダー2025の8日目。fmyがJetson（LOVOTはOrin NX採用）での開発ノウハウを紹介。公式資料は充実するが、カメラ接続や非開発キットのキャリアボードでの不具合に悩まされるため、Jetson Linuxのブートフローなどアプリ開発者向けの役立つ知見を解説する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T22:00:00.000Z",
-      "contentHash": "9dddfcdd13a0"
+      "contentHash": "6185880e8628"
     },
     {
       "id": "624bc90b3bc7",
       "title": "LLM-as-a-Judgeを実際に利用して見えてきた課題と対策について | JMDC TECH BLOG",
       "url": "https://techblog.jmdc.co.jp/entry/20251208",
-      "summary": "JMDCの渡辺が社内データ×RAGで「LLM-as-a-Judge」を試用。評価自動化や一貫性・スケーラビリティの利点がある一方、評価関数がブラックボックス化するため妥当性検証（人手評価との比較）が必須で、実験は一事例に限られると報告。",
+      "summary": "JMDCデジタル＆データ新規事業本部の渡辺によるJMDC Advent Calendar 2025（8日目）記事。ChatGPT登場から3年、生成AIが依然注目される中で「LLM-as-a-Judge」の概念と主要ベンダーの動向を紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T22:00:00.000Z",
-      "contentHash": "b6a66782694a"
+      "contentHash": "2e43f0dfe7c4"
     },
     {
       "id": "e383d6b2e912",
       "title": "AI巻き込み型コードレビューのススメ | Nealle Developer's Blog",
       "url": "https://nealle-dev.hatenablog.com/entry/2025/12/8/917592",
-      "summary": "CodeRabbitを使った「AI巻き込み型レビュー」を提案。レビューでAIと対話し指摘を具体化・議論することで意図誤解や経験差を埋め、手戻りを減らし文脈付きでAIに修正させ生産性向上を図る。",
+      "summary": "増田がAIを活用した「AI巻き込み型レビュー」を紹介。指摘が正しく伝わらず誤修正されるコードレビューの課題を解決する手法で、レビューはコードチェックだけでなく意図や背景の伝達が重要だと述べる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-07T22:00:00.000Z",
-      "contentHash": "3ce27646e3f1"
+      "contentHash": "fec1c064bcaa"
     },
     {
       "id": "28609fcbe14e",
@@ -104,19 +122,19 @@
       "id": "91a66ca6c26b",
       "title": "The C++ standard for the F-35 Fighter Jet [video]",
       "url": "https://www.youtube.com/watch?v=Gv4sDL9Ljww",
-      "summary": "JSF AVルールを要約すると、C/C++で未定義動作を避けるための厳格な制約と実践を示す。未初期化変数や符号付きオーバーフロー、危険なキャストやポインタ演算、再帰や動的確保・例外の乱用などを禁止し、明確な初期化、型安全、静的解析やコーディング規約の適用で安全性と信頼性を高めることを主張する。",
+      "summary": "Bjarne StroustrupがJSF（Joint Strike Fighter）向け「JSF AVルール」を解説。組み込み・安全重視でC++の利用を厳格に制限（動的確保・例外・RTTI等の回避、簡潔な言語機能の推奨）、理由と実践上の代替策を述べる文書。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T18:07:06.000Z",
-      "contentHash": "f8dcd382f8ec"
+      "contentHash": "75b6414f68f0"
     },
     {
       "id": "e8ef94a3a584",
-      "title": "I failed to recreate the 1996 Space Jam Website with Claude",
+      "title": "I failed to recreate the 1996 Space Jam website with Claude",
       "url": "https://j0nah.com/i-failed-to-recreate-the-1996-space-jam-website-with-claude/",
-      "summary": "著者がAI（Claude）とコンピュータビジョンを使って1996年の「Space Jam」公式サイトの再現に挑んだが再現に失敗した経緯を、ウェブ開発上の技術的課題や試行錯誤、得られた学びとともに振り返る記事。",
+      "summary": "著者はAI（Claude）を用いて1996年の「スペース・ジャム」公式サイトの再現を試みたが失敗。ウェブ開発とコンピュータビジョンを活用した挑戦とそこで直面した課題を振り返る記事。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T17:18:54.000Z",
-      "contentHash": "6ccfbe225c90"
+      "contentHash": "6c1ab9bc78d4"
     },
     {
       "id": "bc99f6abc16c",
@@ -228,7 +246,7 @@
     },
     {
       "id": "4b5fe1c6759f",
-      "title": "Dollar-stores overcharge cash-strapped customers while promising low prices",
+      "title": "Dollar-stores overcharge customers while promising low prices",
       "url": "https://www.theguardian.com/us-news/2025/dec/03/customers-pay-more-rising-dollar-store-costs",
       "summary": "ガーディアンの調査で、Dollar GeneralとFamily Dollarが棚札より会計時に高く請求する事例が多数判明。北カロライナの検査では300品中69品（23%）で差額があり、棚札の更新遅れも報告。生活費を圧迫する低所得層が影響を受けている。",
       "source": "Hacker News",
@@ -257,10 +275,10 @@
       "id": "e2af359c451c",
       "title": "The state of Schleswig-Holstein is consistently relying on open source",
       "url": "https://www.heise.de/en/news/Goodbye-Microsoft-Schleswig-Holstein-relies-on-Open-Source-and-saves-millions-11105459.html",
-      "summary": "ドイツ北部シュレースヴィヒ＝ホルシュタイン州がMicrosoft製品からオープンソースへ移行し、ライセンス費用削減などで数百万ユーロの節約とIT主権性向上を実現。互換性や移行作業の課題はあったが効果は大きい。",
+      "summary": "シュレースヴィヒ＝ホルシュタイン州が行政ITでMicrosoftから脱却し、オープンソースとオープン標準へ移行。独自クラウドやLibreOffice等を導入してベンダーロックインを避け、数百万ユーロ規模のコスト削減と透明性・主権性の向上を目指す。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T13:21:24.000Z",
-      "contentHash": "14009bc4c516"
+      "contentHash": "6b70333179b3"
     },
     {
       "id": "9423b5da12e1",
@@ -329,10 +347,10 @@
       "id": "58a0c016acd5",
       "title": "Google Titans architecture, helping AI have long-term memory",
       "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
-      "summary": "TitansアーキテクチャとMIRASフレームワークは、実行中にコアメモリを更新して巨大な文脈を高速に扱える設計を示す。RNNの速度とTransformerの精度を両立し、オフライン再学習不要でテスト時に記憶を拡張する。",
+      "summary": "Google研究チームが長期記憶を持つAIを目指す新技術「Titans」とメモリシステム「Mira」を紹介。メモリの効率的な保存・検索・要約・更新・削除で個人化やプライバシー対応を進め、応用例や評価・今後の課題も提示する。",
       "source": "Hacker News",
       "publishedAt": "2025-12-07T12:23:45.000Z",
-      "contentHash": "d52f27288274"
+      "contentHash": "49427298a61e"
     },
     {
       "id": "16db6526b041",
@@ -734,10 +752,10 @@
       "id": "bd624e3f13a5",
       "title": "AMD ROCm と LeRobot によるロボットVLMのファインチューニング",
       "url": "https://note.com/npaka/n/nd22844facb78",
-      "summary": "AMDのROCmとLeRobotで3Bパラメータの視覚言語ロボットモデル「Pi0」をMI200でファインチューニングし、Phoenix AI PC上でKochロボットにリアルタイムデプロイ。双眼カメラと約50本の短軌跡でピック＆プレースを学習し、少量データで事前学習済みモデルを迅速に適応、データセンターからエッジまでのシームレスな展開を示す。",
+      "summary": "AMDのROCmとLeRobotを使い、ロボット向けの視覚・言語・行動モデルを高速にファインチューニングする手法を紹介。導入手順、最適化のコツ、性能向上と再現性に関する結果を示す。",
       "source": "npaka",
       "publishedAt": "2025-12-04T19:05:42.000Z",
-      "contentHash": "1c8c3628111b"
+      "contentHash": "91caec8999de"
     },
     {
       "id": "241f77b203d9",
@@ -788,10 +806,10 @@
       "id": "182a8b7226b8",
       "title": "Kling O1 の概要",
       "url": "https://note.com/npaka/n/n1ab6a0873f26",
-      "summary": "Kling O1は世界初の統合型マルチモーダル動画モデル（MVL）。テキスト・画像・動画・主体を統合して生成・編集を一元化し、参考動画再生成、被写体差替え、背景・スタイル・カメラワーク変更などを直感的なUIで行い、手作業を不要にする創作エンジンです。",
+      "summary": "Kling O1（Video O1）の概要とご利用ガイドをまとめた記事です。製品・動画の主な特徴、基本操作や導入手順、利用上の注意点などを分かりやすく解説しています。",
       "source": "npaka",
       "publishedAt": "2025-12-02T21:03:09.000Z",
-      "contentHash": "4aab05938b12"
+      "contentHash": "18c64c035278"
     },
     {
       "id": "0d851cc96d24",
@@ -806,10 +824,10 @@
       "id": "643f709e602c",
       "title": "Transformers v5 の概要",
       "url": "https://note.com/npaka/n/n1d9d1aafab55",
-      "summary": "採用は急増（1日300万インストール、累計12億超）。Transformers v5は「シンプルさ・学習・推論・プロダクション」を軸に、モジュール化でモデル定義を簡素化し、AttentionInterfaceなど共有抽象化やモデル変換自動化で貢献や保守性を大幅に向上させる。",
+      "summary": "Transformers v5はモデル定義を簡素化し、統一APIと軽量コンポーネントでフレームワーク横断の互換性と性能向上を実現。拡張やエコシステム統合を容易にし、開発者体験を改善する。",
       "source": "npaka",
       "publishedAt": "2025-12-02T02:11:46.000Z",
-      "contentHash": "87d84701be09"
+      "contentHash": "253f4b243b55"
     },
     {
       "id": "946bf5413869",
@@ -878,10 +896,10 @@
       "id": "083e6029f7c5",
       "title": "X (旧Twitter) でサムネイルを更新する方法",
       "url": "https://note.com/npaka/n/nc6b0d82972b0",
-      "summary": "X（旧Twitter）でリンク投稿のサムネイルが更新されないのは、URLごとのOGPキャッシュが原因。cards-dev.twitter.com/validatorにURLを入れて「Preview card」を押しリフレッシュ後、再投稿すれば新しいサムネイルが表示されます。",
+      "summary": "Xにリンクを投稿してもサムネイルが古いままになることがある。これはXがURLごとにOGPをキャッシュしているためで、専用ツールでURLをリフレッシュすれば更新される。",
       "source": "npaka",
       "publishedAt": "2025-11-30T11:28:57.000Z",
-      "contentHash": "0853ce995100"
+      "contentHash": "2ceecab54609"
     },
     {
       "id": "600e59f035b6",
@@ -2525,10 +2543,10 @@
       "id": "4153bada71dc",
       "title": "Nano Banana Pro で描いたマンガを Sora2 でアニメ化する",
       "url": "https://note.com/npaka/n/neb5bc0864db8",
-      "summary": "Nano Banana Proで描いた漫画をSora2でアニメ化。ページを合成して読み込ませると右→左のコマ順や吹き出し内の台詞を音声化して動画化。初回は吹き出しが残ったがRemixで削除に成功。ただし他の変更も入るため、将来的には部分的な修正が望ましい。",
+      "summary": "Nano Banana Proで描いた漫画を、アニメ化ツールSora2で動かした制作まとめ。制作過程や設定、改善点、完成映像の感想などを紹介しており、変換の手順や結果が分かる内容です。",
       "source": "npaka",
       "publishedAt": "2025-11-28T02:34:30.000Z",
-      "contentHash": "5f6017b3864c"
+      "contentHash": "a2e4160c2bf3"
     },
     {
       "id": "0c9d49f451e4",
