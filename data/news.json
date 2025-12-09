@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-09T04:40:48.431Z",
+  "generatedAt": "2025-12-09T05:31:49.954Z",
   "items": [
     {
       "id": "0c6f96774c75",
@@ -18,6 +18,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T03:12:14.000Z",
       "contentHash": "8385dc341d4c"
+    },
+    {
+      "id": "89b6dc542751",
+      "title": "フレームワーク選定ガイド：LangChain / AutoGen / CrewAI / ADK / OpenAI Agents SDKで始めるAIエージェント開発 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
+      "url": "https://recruit.group.gmo/engineer/jisedai/blog/agents-sdk/",
+      "summary": "LangChain、AutoGen、CrewAI、ADK、OpenAI Agents SDKの5つを比較。各フレームワークの構成・アーキテクチャ・オーケストレーション、強み・弱み・導入メリットと活用事例を示し、用途別の選定指針を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T03:10:55.000Z",
+      "contentHash": "8ec78d4b3429"
     },
     {
       "id": "0e01025164c2",
@@ -77,10 +86,10 @@
       "id": "5f1deeb59d35",
       "title": "9日目：単体テスト自動化～JUnitの一歩進んだ使い方～ | NTT DATA TECHのフィード",
       "url": "https://zenn.dev/nttdata_tech/articles/b13c907d2636f0",
-      "summary": "JUnitを中心とした単体テスト自動化の普及率が低く、テストコード作成・保守のコストが導入障壁になっていると指摘。Excelやソース解析でのテストコード自動生成を試行した経緯と批判、改善の取り組みを述べ、現在は市販・OSSツールの活用を重視する姿勢を示す。",
+      "summary": "2012年の記事紹介。JUnit等の単体テスト自動化は普及率が低く（約27.7%）、テストコード作成のコストが導入の壁。コード解析やExcelからのテスト生成で効率化を図ったが批判もあり、著者はブラックボックス重視で市販/OSSの活用を推奨。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T03:00:06.000Z",
-      "contentHash": "e9c4859225cb"
+      "contentHash": "758b428f8cc5"
     },
     {
       "id": "340fc5d0f4a5",
@@ -263,6 +272,15 @@
       "contentHash": "fe5ff79c5b38"
     },
     {
+      "id": "485fa3d7e99d",
+      "title": "Kroger acknowledges that its bet on robotics went too far",
+      "url": "https://www.grocerydive.com/news/kroger-ocado-close-automated-fulfillment-centers-robotics-grocery-ecommerce/805931/",
+      "summary": "Krogerはロボット化への賭けが過剰だったと認め、英Ocadoと進めた自動化フルフィルメントセンター3カ所を閉鎖。食料品ECの環境変化により方針を転換した。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T23:53:52.000Z",
+      "contentHash": "12b376d9308f"
+    },
+    {
       "id": "20ee4529d27b",
       "title": "Here are the best Apple Watch deals available right now",
       "url": "https://www.theverge.com/21289209/best-apple-watch-deals",
@@ -383,10 +401,10 @@
       "id": "96935e4927b7",
       "title": "Icons in Menus Everywhere – Send Help",
       "url": "https://blog.jim-nielsen.com/2025/icons-in-menus/",
-      "summary": "著者はメニュー項目に無差別にアイコンを付ける流行を批判。Google SheetsやmacOS Tahoeの例で、不要な視覚ノイズや不整合が生じ、個別の判断が欠けていると指摘している。",
+      "summary": "メニューの全項目にアイコンを付けるデフォルト方針を批判。Google SheetsやmacOS Tahoeの例を挙げ、アイコンは有用でも無差別配置はノイズになり、項目ごとの慎重な判断が必要と主張。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T19:44:00.000Z",
-      "contentHash": "58d5668c9b10"
+      "contentHash": "9f8bc73973fd"
     },
     {
       "id": "14df76423a1e",
@@ -486,6 +504,15 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-08T17:38:34.000Z",
       "contentHash": "3e955423ca2e"
+    },
+    {
+      "id": "b309bfe29a3d",
+      "title": "We collected 10k hours of neuro-language data in our basement",
+      "url": "https://condu.it/thought/10k-hours",
+      "summary": "過去6か月で約1万時間、数千人分の非侵襲脳データを収集し、思考→テキスト化モデルを訓練。被験者はヘッドセットを付け2時間LLMと自由会話や読書・入力を行い、DeepgramやOSS120B等を使用。運用とMLの知見を得るため初期課題を自由会話中心に改めた。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T17:33:13.000Z",
+      "contentHash": "6497e8abebe3"
     },
     {
       "id": "77691a499ebd",
@@ -1193,10 +1220,10 @@
       "id": "df5927f735cd",
       "title": "demucs による音源分類を試す",
       "url": "https://note.com/npaka/n/neaef4a26ccd2",
-      "summary": "音源分離ツール「demucs」をMacのPython仮想環境で試した記録です。condaでPython3.11環境を作り、torch/torchaudio/demucsなどを導入後、demucs test_audio.m4a を実行すると separated/... に base/drums/other/vocals の各wavが出力されます。",
+      "summary": "demucsによる音源分離をMacのPython仮想環境で試した記録。condaでPython3.11環境を作り、torch/torchaudio、demucs、numpy<2をpipで導入。demucs test_audio.m4a実行で/separated/htdemucsにbase.wav、drums.wav、other.wav、vocals.wavが出力される。",
       "source": "npaka",
       "publishedAt": "2025-12-08T03:18:18.000Z",
-      "contentHash": "f92afec7faae"
+      "contentHash": "0aed5c516c42"
     },
     {
       "id": "f37c86709c50",
@@ -8935,33 +8962,6 @@
       "source": "OpenAI",
       "publishedAt": "2025-11-19T00:00:00.000Z",
       "contentHash": "b78b3242b874"
-    },
-    {
-      "id": "817be1b64aee",
-      "title": "How Scania is accelerating work with AI across its global workforce",
-      "url": "https://openai.com/index/scania",
-      "summary": "世界的メーカーのスカニアはChatGPT Enterpriseをチーム単位で導入し、厳格なガードレールでAI運用を拡大。生産性、品質、革新性を向上させている。",
-      "source": "OpenAI",
-      "publishedAt": "2025-11-19T00:00:00.000Z",
-      "contentHash": "94e07b63f2d3"
-    },
-    {
-      "id": "b68785e0ad8b",
-      "title": "A free version of ChatGPT built for teachers",
-      "url": "https://openai.com/index/chatgpt-for-teachers",
-      "summary": "ChatGPT for Teachersは教育向けの安全な作業空間で、教育水準のプライバシー保護と管理機能を備えています。米国のK–12教員（確認済み）は2027年6月まで無料で利用可。",
-      "source": "OpenAI",
-      "publishedAt": "2025-11-19T00:00:00.000Z",
-      "contentHash": "5b99552c5e8e"
-    },
-    {
-      "id": "55da04f42e32",
-      "title": "Building more with GPT-5.1-Codex-Max",
-      "url": "https://openai.com/index/gpt-5-1-codex-max",
-      "summary": "GPT-5.1-Codex-Maxを発表。Codex向けの高速で高度なエージェント型コーディングモデルで、長時間・大規模プロジェクト向けに設計され、推論能力とトークン効率を強化。",
-      "source": "OpenAI",
-      "publishedAt": "2025-11-19T00:00:00.000Z",
-      "contentHash": "e24806ddd44e"
     }
   ]
 }
