@@ -1,59 +1,113 @@
 {
-  "generatedAt": "2025-12-09T06:37:52.821Z",
+  "generatedAt": "2025-12-09T07:34:07.775Z",
   "items": [
+    {
+      "id": "9ac276d3b0af",
+      "title": "ECSオートスケール × Sidekiqで発見した“スケールインの落とし穴” | Spacely Tech Blog",
+      "url": "https://tech.spacely.co.jp/entry/2025/12/09/160158",
+      "summary": "ECSのオートスケールで短時間ジョブの急増→即座にスケールアウト/インが繰り返され、長時間（110秒超）かつ非冪等なジョブがSIGTERM後ECSの120秒強制停止で中断・再キューされデータ不整合発生。暫定で短時間ジョブ専用クラスタ分離、恒久はジョブ分割と冪等化、Sidekiq Pro検討。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T07:01:58.000Z",
+      "contentHash": "decd6a67794d"
+    },
+    {
+      "id": "ac1394f6d12e",
+      "title": "2025年版アーキテクチャ図を書き直してみた | YOUTRUST Tech Blog",
+      "url": "https://tech.youtrust.co.jp/entry/infra-2025",
+      "summary": "2025年版アーキテクチャ図を書き直した記事。併せてブログ本文のCSSを調整し、デスクトップ／タブレットのパディング、段落やリストの行間・余白、見出しの装飾（フォント・スクロールマージン等）を整理しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T06:53:31.000Z",
+      "contentHash": "e4426189d8ce"
+    },
+    {
+      "id": "bc82826614ce",
+      "title": "QAキャリアのお話 — 第三者検証 vs 事業会社QA — | hacomono TECH BLOG",
+      "url": "https://techblog.hacomono.jp/entry/2025/12/09/000000",
+      "summary": "hacomonoのQAエンジニアpiroが、第三者検証（受託QA）と事業会社QAの違いを自身の経験で解説。共通は品質向上だが、第三者は業界全体へ、事業会社は自社製品・組織へ注力。キャリア・貢献度・求められるスキル・収入や採用視点を比較し、優劣ではなく選択肢として考えることを勧める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T06:40:00.000Z",
+      "contentHash": "4c1dee1abf05"
+    },
+    {
+      "id": "20c65a81e5ca",
+      "title": "Webサイトを作るように紙パックを企画したら300万本売れるヒット作になった話 ～UX視点で見る『ミルクの束縛』～ | KAYAC Engineers' Blog",
+      "url": "https://techblog.kayac.com/2025/12/09/153907",
+      "summary": "カヤックがWebのUX発想で企画したファミマ限定飲料『ミルクの束縛』。パッケージを4面の“ページ”と捉え、画像を使わない想像を促す表現、開封演出、隠しメッセージなどで話題になり300万本超を販売した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T06:39:07.000Z",
+      "contentHash": "c30adddc659a"
+    },
+    {
+      "id": "8fd739894319",
+      "title": "AWS Security Hub CSPM で「EC2.182」のコントロールが(恐らく)追加された件 | DENET 技術ブログ",
+      "url": "https://blog.denet.co.jp/aws-security-hub-cspm-ec2-182/",
+      "summary": "DENET技術ブログに、AWS Security HubのCSPMで「EC2.182」というコントロールが（おそらく）追加されたことを伝える投稿が掲載された件についての記事が掲載されました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T06:06:45.000Z",
+      "contentHash": "911ae089d2a9"
+    },
+    {
+      "id": "f31d3edc4f2f",
+      "title": "【謎解き解説】GREE Tech Conference 2025 〜クラッシュしたゲームを復元せよ〜 | GREE Engineering",
+      "url": "https://labs.gree.jp/blog/2025/12/25072/",
+      "summary": "GREE Tech Conference 2025の謎解き「クラッシュしたゲームを復元せよ」の全解説。会場のA〜C各3問を解きコンポーネントを取得、パスワードで「赤色を逆にしろ」のアルゴリズムを受け再解答して最終パスワードを導く手順と仕掛け、問題素材へのリンクを掲載。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T06:06:31.000Z",
+      "contentHash": "3c0223c583ed"
+    },
     {
       "id": "2251c68adb71",
       "title": "Codex CLIのカスタムコマンドを使って業務を効率化する | 開発ブログ｜株式会社Nextat（ネクスタット）",
       "url": "https://nextat.co.jp/staff/archives/393",
-      "summary": "Codex CLIのカスタムコマンドで作業効率化。役割や指示を ~/.codex/prompts/*.md に事前登録し、毎回プロンプトを打たずに /prompts:greet などで挨拶やコードレビュー指示を繰り返し使える。",
+      "summary": "Codex CLIのカスタムコマンドは ~/.codex/prompts/*.md に役割や命令を登録して繰り返し作業を自動化できる機能。例として挨拶コマンドや、PR_URLを渡して差分からコードレビューするreviewコマンドが紹介され、業務効率化に有効。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T06:00:00.000Z",
-      "contentHash": "ece1e0c222a4"
+      "contentHash": "56e6a6b76830"
     },
     {
       "id": "b6d9e9349d4d",
       "title": "Microsoft FabricでSharePoint上のデータにアクセスしてみました。 | CCCMKホールディングス TECH LABの Tech Blog",
       "url": "https://techblog.cccmkhd.co.jp/entry/2025/12/09/145235",
-      "summary": "CCCCMKホールディングスAIエンジニアの三浦です。2025年が迫る中、多くの技術イベントに参加して学びと体力維持を意識。最近はデータ取り込み〜可視化を一元化するSaaS型統合データ分析プラットフォームMicrosoft Fabricを調査しています。",
+      "summary": "Microsoft FabricのShortcut機能（Preview）でSharePointと接続し、Lakehouseにショートカットを作成してSharePoint上のファイル一覧を参照。NotebookではCopy File API Pathとmssparkutilsを使ってファイルにアクセスする手順を紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T05:52:35.000Z",
-      "contentHash": "f177ab1463d9"
+      "contentHash": "7c7c6331a3bc"
     },
     {
       "id": "0f81d8553bdd",
       "title": "EarthRover Mini+ の概要",
       "url": "https://note.com/npaka/n/n22a1785aa8a6",
-      "summary": "小型モバイルロボット「EarthRover Mini+」の概要紹介。公式は複数国の4G対応を謳うが、日本国内での動作は未確認で、対応が確認できれば購入を検討したいという注意がある。",
+      "summary": "EarthRover Mini+ はFrodoBotsのオープンソース小型モバイルロボット。前後デュアルカメラ、IMU/GPS、差動駆動、約1.5kg・4〜5時間稼働、4G/LTE/Wi‑Fi対応（日本の4Gは未確認）、マイク/スピーカー搭載、約300ドル。SDK/LeRobot/Python APIで遠隔操作・データ収集が可能で、SLAMや模倣学習など実世界ロボティクス研究向けの開発基盤を提供。",
       "source": "npaka",
       "publishedAt": "2025-12-09T05:40:28.000Z",
-      "contentHash": "f55b6ee53cb9"
+      "contentHash": "d6468b608f25"
     },
     {
       "id": "ab579275109a",
       "title": "Android Show: XR Edition 発表内容まとめ",
       "url": "https://note.com/npaka/n/na67cf3c4d5f5",
-      "summary": "「Android Show: XR Edition」では、Galaxy XR向けの新機能が発表され、今後のXRデバイスの展望や進化するソフト・ハードの方向性が紹介されました。",
+      "summary": "「Android Show: XR Edition」でAndroid XRの新機能を発表。Galaxy XRにPC Connect（β）、Travel Mode、Likeness（β）を提供。Gentle Monster等と2種のAIグラスを開発中（来年発売）、XREALの有線XR「Project Aura」を公開し、Android XR SDK Developer Preview 3をリリース。",
       "source": "npaka",
       "publishedAt": "2025-12-09T05:26:26.000Z",
-      "contentHash": "7291b2e845a6"
+      "contentHash": "1a80748379a2"
     },
     {
       "id": "4cdaee91d928",
       "title": "デザインが苦手なエンジニアのための Figma MCP活用入門 | クラウドワークス エンジニアブログ",
       "url": "https://engineer.crowdworks.jp/entry/2025/12/09/141034",
-      "summary": "クラウドワークスの山﨑が、デザインが苦手なエンジニア向けにFigmaのMCP活用法を紹介。バックエンド寄りの経験からカンプの余白や色選びなど実務で困った点を解決する手法を解説する記事（Advent Calendar 2025・9日目）。",
+      "summary": "デザインが苦手なエンジニア向けに、FigmaのMCPサーバーとAIエディタCursorを連携する手順を紹介。MCP有効化→CursorにローカルMCPを設定→リンク貼付でReact/Tailwindのコード生成が可能。ただし生成物は約40〜50%の完成度で微調整が必要、チームでの環境統一にも課題あり。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T05:10:34.000Z",
-      "contentHash": "7ccbc7611d7d"
+      "contentHash": "2e6247f12de5"
     },
     {
       "id": "a80a61aa2d5e",
       "title": "テストQAからプロセスQAへ ― 過渡期にいる自分の悩みと気づき | asoview! Tech Blog",
       "url": "https://tech.asoview.co.jp/entry/2025/12/09/140611",
-      "summary": "アソビューのQAエンジニアが、前期のテスト中心業務（エンハンス・新機能・探索的テスト・内部レビュー）での属人化や過剰・不明瞭な課題を振り返り、得た気づきを基に今期はプロセスQAへ転換し改善に挑む記録。",
+      "summary": "QAエンジニアとしてテスト中心に取り組む中での気づき。エンハンスは影響範囲限定で効率的だが未整理箇所が残る。新規は想定漏れや影響範囲が広く負荷大。過剰・属人化を防ぎ、プロセスQAへの移行を模索している。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T05:06:11.000Z",
-      "contentHash": "f00eae12c513"
+      "contentHash": "24eef9464319"
     },
     {
       "id": "b875510adb22",
@@ -428,10 +482,10 @@
       "id": "e691743ec829",
       "title": "The best iPad deals you can get right now",
       "url": "https://www.theverge.com/21280354/best-ipad-deals-apple",
-      "summary": "ブラックフライデー等の大型セール以外でもiPadの割引は頻繁に発生。最新のM5搭載iPad Proは早くも値下げ、在庫整理のM4 Proも割安に。The Vergeが各モデル（例：11世代は128GB・A16でBest Buy割引）をまとめて紹介。",
+      "summary": "iPadは通年で割引があり、特に無印iPadとiPad miniが安く買える。iPad Airや最新11インチiPad Pro（M5搭載）も割引中で、旧型M4搭載Proは在庫減でさらに値下がりしやすい。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T22:25:02.000Z",
-      "contentHash": "f67307efddbf"
+      "contentHash": "f69ec4116849"
     },
     {
       "id": "fd6af5361386",
@@ -464,10 +518,10 @@
       "id": "38f4f6605005",
       "title": "The 34 best gifts that your teen will actually use",
       "url": "https://www.theverge.com/tech/785418/best-teen-gift-ideas-2025",
-      "summary": "The Vergeのスタッフが自身やスタッフの子どもの流行を踏まえ、ティーンに喜ばれるホリデー向けギフトを厳選して紹介。最新のiPhoneやNintendo Switch 2など定番から旬のガジェットまで網羅。",
+      "summary": "The Vergeが編集部やスタッフの子どもたちの好みを基に厳選した、ティーンが実際に使うガジェットや用品のホリデー向けおすすめギフト34選を紹介する記事。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T21:30:45.000Z",
-      "contentHash": "fdb3bee179d9"
+      "contentHash": "25b5dd20efc0"
     },
     {
       "id": "96935e4927b7",
@@ -482,19 +536,28 @@
       "id": "14df76423a1e",
       "title": "The Apple Watch Series 11 just got a big $100 discount ahead of the holidays",
       "url": "https://www.theverge.com/gadgets/840161/apple-watch-series-11-holiday-deal-sale-2025",
-      "summary": "Apple Watch Series 11の42mm GPSモデルがAmazon/Walmart/BestBuyで過去最安の$299（$100引）に。46mmは$329。バッテリ最大24時間、耐久性向上、Cellularは省電力5Gを搭載しSeries10の機能を継承。",
+      "summary": "Apple Watch Series 11が42mm GPSモデルが通常$399から$100引きの$299、46mmは$329に割引。Amazon・Walmart・Best Buyで年内最安。Series10からの改良もあり、ギフトに最適。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T19:17:59.000Z",
-      "contentHash": "2b4e458140ac"
+      "contentHash": "200f16df5f70"
+    },
+    {
+      "id": "af46c6c504ca",
+      "title": "Trials avoid high risk patients and underestimate drug harms",
+      "url": "https://www.nber.org/papers/w34534",
+      "summary": "臨床試験は高リスク患者を回避し薬害を過小評価する。SEER‑Medicare解析で、がん薬開始は月2%pt（250%増）で重篤有害事象入院を増加。高リスク者は試験参加が4倍少なく、対象集団の有害事象は試験より15%大きく、25人中1人/年の追加入院相当。代表性規制の導入を提案。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T19:07:59.000Z",
+      "contentHash": "451232e01d09"
     },
     {
       "id": "b475c5716d74",
       "title": "Anthropic is bringing Claude Code to Slack",
       "url": "https://www.theverge.com/news/839817/anthropic-claude-code-slack-integration",
-      "summary": "SlackでメッセージやスレッドにClaudeをタグ付けすると、内容を自動判定してコード関連ならスレッド文脈と認証済みリポジトリを使いClaude Codeへルーティングする機能がベータで公開。明示してコーディング依頼も可能で、バグ調査などが容易に行える。",
+      "summary": "AnthropicがSlackでClaude Codeを導入。Claudeをタグ付けすると自動でコーディング案件を判定してClaude Codeにルーティングし、スレッド文脈や認証済リポジトリを参照可能。βのリサーチプレビューで既存アプリで利用可。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T19:01:00.000Z",
-      "contentHash": "bda9148bbf2c"
+      "contentHash": "a22c3c574a16"
     },
     {
       "id": "edd626196cb3",
@@ -527,37 +590,37 @@
       "id": "324d3fe3388b",
       "title": "Lenovo’s next gaming laptop may have a rollable OLED screen that stretches ultrawide",
       "url": "https://www.theverge.com/news/840124/lenovo-rollable-legion-pro-gaming-laptop-rumor",
-      "summary": "Lenovoは縦拡張のロール式OLEDを搭載したThinkBook Plus Gen 6に続き、横に伸びるロール式OLEDで画面を21:9のウルトラワイド化し、左右の端が筐体外へ大きく広がるゲーミングノート「Legion Pro Rollable」を投入する可能性がある。",
+      "summary": "報道によればレノボは横方向に伸びる巻き取り式OLEDを採用したゲーミングノート「Legion Pro Rollable」を計画。画面を21:9相当の超横長に拡張可能とされ、詳細は不明でCESでの発表が噂される。以前は縦伸縮のThinkBookを発売済み。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T18:33:51.000Z",
-      "contentHash": "f70e1262ba7e"
+      "contentHash": "187fc5d15da9"
     },
     {
       "id": "839cd423bb80",
       "title": "It’s ugly, it’s beautiful, it’s how you know a game might be a classic",
       "url": "https://www.theverge.com/entertainment/840080/square-enix-hd2d-games-octopath-dragon-quest",
-      "summary": "大予算ゲームは投資回収のためパブリッシャーがリスク回避し、半リアルな荒野やピクサー風ヒーローなど似た作風が量産されがちだが、Octopath Traveler 0は新たな視覚表現を切り拓く例だ。",
+      "summary": "大作の画一化に対し、スクウェア・エニックスのHD-2Dは新たな表現哲学を提示する。『オクトパストラベラー0』は2025年の総括的な成功例で、古典の再訪と新作の価値を示す。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T18:30:00.000Z",
-      "contentHash": "bf93091a0d58"
+      "contentHash": "e0c057026a27"
     },
     {
       "id": "d69b34ab3f7a",
       "title": "ICEBlock developer sues Trump administration over App Store removal",
       "url": "https://www.theverge.com/news/840164/iceblock-joshua-aaron-sues-trump-administration-apple-app-store-removeal",
-      "summary": "ICEBlock開発者ジョシュア・アーロンが、アプリ削除をアップルに圧力したとしてパム・ボンディらトランプ政権の連邦当局者を提訴。アーロンは「反撃する」と表明した。",
+      "summary": "ICEBlockの開発者ジョシュア・アーロンが、10月にApp Storeから削除された件で、削除を強要したとしてパン・ボンディ司法長官らトランプ政権関係者を提訴。アーロンは反撃を宣言し、司法省はコメントを控えた。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T18:25:33.000Z",
-      "contentHash": "ee7e066d1df1"
+      "contentHash": "f79f707bf917"
     },
     {
       "id": "ab09c989ca23",
       "title": "A first look at Google’s Project Aura glasses built with Xreal",
       "url": "https://www.theverge.com/tech/839392/project-aura-android-xr-software-headsets-ai-glasses",
-      "summary": "GoogleとXrealの共同開発「Project Aura」は、Google I/Oで公開されたAndroid XRの第2弾で、2026年発売予定。サングラス風だが左側にケーブルとバッテリーパック兼トラックパッドがあり、Googleは「メガネのようなヘッドセット」と説明している。",
+      "summary": "Project AuraはGoogleとXrealの共同開発による「有線XRグラス」。Androidアプリ対応のサングラス型ヘッドセットで、バッテリーパック兼トラックパッド付き。2026年発売予定でPCと接続し仮想大画面を表示可能。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T18:00:00.000Z",
-      "contentHash": "7696fd5097fa"
+      "contentHash": "4193bc42c0b6"
     },
     {
       "id": "ceb05d76f80a",
@@ -1121,10 +1184,10 @@
       "id": "e41ac15a83b2",
       "title": "X-VLA の概要",
       "url": "https://note.com/npaka/n/nd3f000d74bd6",
-      "summary": "記事本文またはリンクを貼っていただけますか？内容がないと正確に要約できません。本文をいただければ200文字以内で要約します。もしタイトルだけでよければ、その旨を教えてください（仮要約を作成します）。",
+      "summary": "X-VLAは、ロボットごとの異質性を学習可能なソフトプロンプトとして扱い、Transformerとフローマッチングで訓練するVLA。単一モデルで多種機体・センサーに適応し、29万エピソード学習で汎用ポリシーを獲得。少量パラメータ調整で高性能を示し、実ロボット評価でも有効。",
       "source": "npaka",
       "publishedAt": "2025-12-08T07:06:59.000Z",
-      "contentHash": "46fb1b1b8856"
+      "contentHash": "9879fb72dfeb"
     },
     {
       "id": "f174c18a2dec",
@@ -1292,10 +1355,10 @@
       "id": "df5927f735cd",
       "title": "demucs による音源分類を試す",
       "url": "https://note.com/npaka/n/neaef4a26ccd2",
-      "summary": "demucsによる音源分離をMacのPython仮想環境で試した記録。condaでPython3.11環境を作り、torch/torchaudio、demucs、numpy<2をpipで導入。demucs test_audio.m4a実行で/separated/htdemucsにbase.wav、drums.wav、other.wav、vocals.wavが出力される。",
+      "summary": "音源分離ツール「demucs」をMacで試した記録。condaでPython3.11環境を作り、torch/torchaudio/demucs等をインストール後、demucs test_audio.m4aを実行すると/separated/htdemucs/にbase/drums/other/vocalsのwavが出力される。",
       "source": "npaka",
       "publishedAt": "2025-12-08T03:18:18.000Z",
-      "contentHash": "0aed5c516c42"
+      "contentHash": "e079ce306b81"
     },
     {
       "id": "f37c86709c50",
@@ -2300,10 +2363,10 @@
       "id": "bd624e3f13a5",
       "title": "AMD ROCm と LeRobot によるロボットVLMのファインチューニング",
       "url": "https://note.com/npaka/n/nd22844facb78",
-      "summary": "記事本文が提示されていないため正確に要約できません。本文を貼るかURLを教えてください。本文が無い場合は「Fine-tuning Robotics Vision Language Action Models with AMD ROCm and LeRobot」のタイトルからの推測要約（事実未確認）を200文字以内で作成しますが、どちらにしますか？",
+      "summary": "AMD ROCmとHugging FaceのLeRobotで、3BパラメータのVLA「Pi0」をMI200でファインチューニングし、Phoenix AI PCにデプロイ。少量（約50本×20秒）の軌跡でピック＆プレースを学習し、データセンター学習からエッジ推論までシームレスに提供する手法を示す。",
       "source": "npaka",
       "publishedAt": "2025-12-04T19:05:42.000Z",
-      "contentHash": "91caec8999de"
+      "contentHash": "ba7e2374a8ee"
     },
     {
       "id": "241f77b203d9",
@@ -2354,10 +2417,10 @@
       "id": "182a8b7226b8",
       "title": "Kling O1 の概要",
       "url": "https://note.com/npaka/n/n1ab6a0873f26",
-      "summary": "記事は「Kling O1（Video O1）」の概要と利用ガイドをまとめた内容で、製品の特徴、基本操作、利用上の注意点などを分かりやすく解説しています。詳細はガイド本文を参照してください。",
+      "summary": "Kling O1はMVL（マルチモーダルビジュアルランゲージ）を核とする統合型マルチモーダル動画モデルで、テキスト・画像・動画を組み合わせてワンストップで動画生成・編集を実行。自然文指示で被写体差替え、背景・天候・スタイル変更、カメラワーク調整などが可能で、従来の細かなマスクやキーフレーム操作を不要にする直感的な創作体験を提供する。",
       "source": "npaka",
       "publishedAt": "2025-12-02T21:03:09.000Z",
-      "contentHash": "18c64c035278"
+      "contentHash": "4aab05938b12"
     },
     {
       "id": "0d851cc96d24",
@@ -2372,10 +2435,10 @@
       "id": "643f709e602c",
       "title": "Transformers v5 の概要",
       "url": "https://note.com/npaka/n/n1d9d1aafab55",
-      "summary": "Transformers v5はモデル定義を簡素化し、統一APIで互換性と拡張性を向上。実装・推論の最適化やツール連携を強化し、AIエコシステムの導入と運用を容易にする。",
+      "summary": "Transformers v5がリリース。利用・モデル数が大幅増加し、｢シンプルさ｣｢学習｣｢推論｣｢プロダクション｣に注力。モジュール化でモデル追加・保守を簡素化し、AttentionInterfaceやモデル変換ツールでコード削減・統合自動化を進める。",
       "source": "npaka",
       "publishedAt": "2025-12-02T02:11:46.000Z",
-      "contentHash": "253f4b243b55"
+      "contentHash": "61eafd1455fa"
     },
     {
       "id": "946bf5413869",
@@ -2444,10 +2507,10 @@
       "id": "083e6029f7c5",
       "title": "X (旧Twitter) でサムネイルを更新する方法",
       "url": "https://note.com/npaka/n/nc6b0d82972b0",
-      "summary": "Xにリンクを投稿してもサムネイルが古いままになることがある。原因はXがURLごとにOGPをキャッシュしているためで、専用ツールでURLのOGPをリフレッシュすれば更新される。",
+      "summary": "Xに投稿した記事リンクのサムネイルが古いままなのは、XがURLごとにOGPをキャッシュしているため。cards-dev.twitter.com/validatorでURLを入力して「Preview card」を押すとキャッシュが更新され、再投稿で新しいサムネイルが表示されます。",
       "source": "npaka",
       "publishedAt": "2025-11-30T11:28:57.000Z",
-      "contentHash": "2ceecab54609"
+      "contentHash": "cfb6d6304604"
     },
     {
       "id": "600e59f035b6",
@@ -8902,68 +8965,6 @@
       "source": "OpenAI",
       "publishedAt": "2025-11-20T14:50:00.000Z",
       "contentHash": "52395366553b"
-    },
-    {
-      "id": "3aa095d05907",
-      "title": "Google Antigravity の クイックスタート",
-      "url": "https://note.com/npaka/n/nafe71bf65ce5",
-      "summary": "本文がないので正確に要約できません。記事本文かリンクを貼ってください。全文をいただければ200文字以内で要約します。  \n参考として見出しだけからの仮要約例：  \n「Googleの新ツール『Antigravity』のクイックスタートを解説。導入手順、主要コマンド、基本設定や実行例、トラブル対処を簡潔にまとめている。」",
-      "source": "npaka",
-      "publishedAt": "2025-11-20T12:03:33.000Z",
-      "contentHash": "754de2ffe1c4"
-    },
-    {
-      "id": "0d6323266542",
-      "title": "Helping 1,000 small businesses build with AI",
-      "url": "https://openai.com/index/small-business-ai-jam",
-      "summary": "OpenAIはDoorDash、SCORE、地域団体と連携し、1000の中小企業を対象に「Small Business AI Jam」を実施。実践的なAIツールと研修で街の事業者の競争力と成長を支援する。",
-      "source": "OpenAI",
-      "publishedAt": "2025-11-20T06:00:00.000Z",
-      "contentHash": "84e03d7a82cd"
-    },
-    {
-      "id": "069a94c5ee97",
-      "title": "Sunday の ACT-1 の概要",
-      "url": "https://note.com/npaka/n/n45fe575f98d0",
-      "summary": "ACT-1はロボット用のファウンデーションモデルで、ロボットデータを使わず動画や言語などの視覚言語データで学習。ゼロショットでロボット動作へ応用でき、多様な操作タスクで高い一般化を示す。",
-      "source": "npaka",
-      "publishedAt": "2025-11-20T01:16:24.000Z",
-      "contentHash": "876f6e33dfb0"
-    },
-    {
-      "id": "bb2e02ad80cf",
-      "title": "Feature FlagのRedis負荷を90%削減した",
-      "url": "https://tech.timee.co.jp/entry/2025/11/20/100000",
-      "summary": "タイミーのバックエンドではFeature Flag管理にFlipperとRedisを使用。毎時0分のcron実行時にRedisへのアクセスが急増しスパイクとエラーが発生。変わらないFlag値を毎回取得する無駄を減らすため、FlipperのSyncアダプターでプロセス内キャッシュを導入し、Redisアクセスを90%削減。結果、負荷軽減とスパイク解消に成功した事例を紹介している。",
-      "source": "タイミー開発者ブログ",
-      "publishedAt": "2025-11-20T01:00:00.000Z"
-    },
-    {
-      "id": "f484173e2976",
-      "title": "Early experiments in accelerating science with GPT-5",
-      "url": "https://openai.com/index/accelerating-science-gpt-5",
-      "summary": "OpenAIはGPT-5が数学・物理・生物・計算機科学の研究を加速する初の事例を発表。AIと研究者が協働して証明や新知見を生み、発見の速度を変える様子を示した。",
-      "source": "OpenAI",
-      "publishedAt": "2025-11-20T00:00:00.000Z",
-      "contentHash": "677121fddc3b"
-    },
-    {
-      "id": "05b88582a817",
-      "title": "GPT-5.1-Codex-Max の概要",
-      "url": "https://note.com/npaka/n/n44eb318c9dc9",
-      "summary": "「Building more with GPT-5.1-Codex-Max」を面白く読んだので要点をまとめました。GPT-5.1-Codex-Maxの特徴や機能、開発への応用例、活用上の注意点などが主な内容です。",
-      "source": "npaka",
-      "publishedAt": "2025-11-19T22:52:55.000Z",
-      "contentHash": "f4a57307b677"
-    },
-    {
-      "id": "8e7b43474cc4",
-      "title": "Here’s how the McLaren Formula 1 Team is reimagining its future with Gemini.",
-      "url": "https://blog.google/inside-google/company-announcements/mclaren-gemini/",
-      "summary": "McLaren Formula 1チームとの提携を延長し、最も高度なAIモデル「Gemini 3」を導入してアイデアの実現を支援する取り組みを強化する。",
-      "source": "Gemini",
-      "publishedAt": "2025-11-19T17:00:00.000Z",
-      "contentHash": "5f4e7fcbce6a"
     }
   ]
 }
