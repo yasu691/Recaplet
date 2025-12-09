@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2025-12-09T03:31:50.821Z",
+  "generatedAt": "2025-12-09T04:40:48.431Z",
   "items": [
+    {
+      "id": "0c6f96774c75",
+      "title": "Prompt Injection の観点についてまとめてみる | フレクトのクラウドblog",
+      "url": "https://cloud.flect.co.jp/entry/2025/12/09/130000",
+      "summary": "LLMサービスのPrompt Injection対策。攻撃は直接（ユーザ入力）と間接（RAG等の参照データ汚染）に分類。まず攻撃経路を特定し、各経路ごとの手法（例:ペルソナ切替、コード注入等）を検討して防御を設計する。攻撃は進化中でAWSやPalo Altoの資料を参照すると良い。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T04:00:00.000Z",
+      "contentHash": "91a523fc9dfb"
+    },
+    {
+      "id": "5adb864493d2",
+      "title": "JavaScriptで文字列の長さを取得するときの差を言語仕様から深掘りしてみる | kubell Creator's Note",
+      "url": "https://creators-note.chatwork.com/entry/2025/12/09/121214",
+      "summary": "String.lengthは内部でUTF-16のコードユニット数を返すため、絵文字などのサロゲートペアは2と数えられる。一方、スプレッド演算子は反復可能プロトコルでコードポイント単位に扱うため見た目の文字数で数えられる、という仕様差を言語仕様から解説している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T03:12:14.000Z",
+      "contentHash": "8385dc341d4c"
+    },
+    {
+      "id": "0e01025164c2",
+      "title": "【Cloud Automator】ECSサービスのコスト最適化を支える新アクション「ECS: サービスのタスク数を変更」 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/change-ecs-service-task",
+      "summary": "Cloud AutomatorにECSサービスのタスク数やAuto Scaling設定をジョブで安全に変更する新アクション「ECS: サービスのタスク数を変更」を追加。時間帯・平日/休日でスケールを自動化して無駄な稼働コストを削減。DesiredCount直接変更とAuto Scaling（Min/Max）変更の2モードを提供し、実行履歴で運用ミスを防止。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T03:10:00.000Z",
+      "contentHash": "acd9cae8f0b4"
+    },
+    {
+      "id": "a4a965f0c834",
+      "title": "【入社エントリ】AIにインタビューさせてみた | CareNet Engineersのフィード",
+      "url": "https://zenn.dev/carenet/articles/6c9e192c31e990",
+      "summary": "2025年4月にケアネットへ新卒入社したヨシが、ChatGPTで情報収集→質問生成→回答→要約→添削の流れで入社記を作成。医療向けWebの運用・開発を担当し、若手で幅広く成長できる点とITで医療を支えるやりがいが入社理由。PHPを学びつつ小規模改修や機能追加を経験し、リリースで達成感を得ている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T03:05:38.000Z",
+      "contentHash": "71f106d498ab"
+    },
+    {
+      "id": "dd4ffc4b10b0",
+      "title": "Java 21からJava 25へ：社内初のアップデートで学んだこと | WealthNavi Engineering Blogのフィード",
+      "url": "https://zenn.dev/wn_engineering/articles/7a72bbd19ec514",
+      "summary": "新卒の佐藤が社内で初めてJavaを21→25へアップデートした体験記。Java25は21以来のLTSで開発効率向上（例：JEP513柔軟なコンストラクタ等）を目的に採用。新機能・削除点（32bit x86廃止）を調査し、依存ライブラリやCI影響を確認して導入した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T03:00:08.000Z",
+      "contentHash": "87411aadd6a3"
+    },
+    {
+      "id": "76366a69549c",
+      "title": "SwiftUIでハマった！「見た目」と「タップ領域」は別物だった話 | WealthNavi Engineering Blogのフィード",
+      "url": "https://zenn.dev/wn_engineering/articles/706e8659c586bf",
+      "summary": "新卒エンジニアがSwiftUIで遭遇したButtonの落とし穴。見た目の余白をButtonに付けてもタップ領域はラベルのサイズに依存し狭くなる。解決策はラベル側にpaddingなどを付けること。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T03:00:08.000Z",
+      "contentHash": "25f1cacf0b1f"
+    },
+    {
+      "id": "a1956922c8a0",
+      "title": "【TiDB移行】sync-diff-inspector使ってみる | レバテック開発部のフィード",
+      "url": "https://zenn.dev/levtech/articles/23a9b9b7e8afaa",
+      "summary": "AWS RDS（Aurora）→TiDB移行でのデータ整合性検証にsync-diff-inspectorを最小構成で試す手順。TiUPでのインストール、config.tomlの主要設定（スレッド数、差分修復SQL出力など）、前提条件（同一スキーマ・レプリケーションまたは同等データ）、検証対象テーブルの説明を行う。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T03:00:07.000Z",
+      "contentHash": "a8db5b77608b"
+    },
+    {
+      "id": "f5db951e2af7",
+      "title": "生成AIシステムの精度評価を自動化する ― RAGASを使った精度評価ツールを開発した話 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/e07edb3b30162d",
+      "summary": "NTTデータはRFPの非機能要件抽出精度評価を自動化するツールを開発。RAGASのContext Recallで人手の抽出を正解としAI抽出を比較、複数回実行して平均化し評価のブレを低減した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T03:00:07.000Z",
+      "contentHash": "2a134064d7a3"
+    },
+    {
+      "id": "5f1deeb59d35",
+      "title": "9日目：単体テスト自動化～JUnitの一歩進んだ使い方～ | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/b13c907d2636f0",
+      "summary": "JUnitを中心とした単体テスト自動化の普及率が低く、テストコード作成・保守のコストが導入障壁になっていると指摘。Excelやソース解析でのテストコード自動生成を試行した経緯と批判、改善の取り組みを述べ、現在は市販・OSSツールの活用を重視する姿勢を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T03:00:06.000Z",
+      "contentHash": "e9c4859225cb"
+    },
     {
       "id": "340fc5d0f4a5",
       "title": "アクティべ式・心理的安全性のつくり方——今日から試せる3つの習慣　多拠点・リモートワークでも心理的安全性を高める方法とは—— | DMM Developers Blog",
@@ -90,6 +171,15 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-09T00:26:35.000Z",
       "contentHash": "fed2c60d26bf"
+    },
+    {
+      "id": "2c300de3a3e6",
+      "title": "The universal weight subspace hypothesis",
+      "url": "https://arxiv.org/abs/2512.05117",
+      "summary": "多様なタスクで訓練した1100以上のモデル（Mistral‑7B LoRA500、ViT500、LLaMA‑8B50など）をスペクトル解析し、重みが少数の普遍的低次元部分空間に収束することを実証。モデル再利用・マルチタスク学習・効率化や省エネに示唆を与える。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-09T00:16:46.000Z",
+      "contentHash": "3b267b3fcca3"
     },
     {
       "id": "b2cc04687763",
@@ -336,7 +426,7 @@
     },
     {
       "id": "473bd1574dcd",
-      "title": "Deep dive on Nvidia circular funding",
+      "title": "NVIDIA frenemy relation with OpenAI and Oracle",
       "url": "https://philippeoger.com/pages/deep-dive-into-nvidias-virtuous-cycle",
       "summary": "NVIDIAは好決算だが、営業CFと純利益の乖離や在庫急増など懸念がある。OpenAIはNVIDIA依存を低減、OracleはGroq買収の噂。主要顧客が自立を進め、AI同盟に亀裂。",
       "source": "Hacker News",
@@ -437,19 +527,19 @@
       "id": "9614e4e384da",
       "title": "Microsoft has a problem: lack of demand for its AI products",
       "url": "https://www.windowscentral.com/artificial-intelligence/microsoft-has-a-problem-nobody-wants-to-buy-or-use-its-shoddy-ai",
-      "summary": "記事は、マイクロソフトのAI製品群（Copilotなど）が品質の低さや幻覚、使い勝手・価格・プライバシーの問題で利用・購買が進まず、不評を買っていると指摘する。ブランド乱立と統合不足で顧客の信頼を失い、戦略の見直しが必要だと論じている。",
+      "summary": "すみません、外部リンクを直接開けません。記事本文を貼っていただければ、200文字以内で日本語要約します。HNコメントも要約希望なら一緒に貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T16:54:31.000Z",
-      "contentHash": "d8f595fff2d1"
+      "contentHash": "090095b31597"
     },
     {
       "id": "78e267996958",
       "title": "A series of tricks and techniques I learned doing tiny GLSL demos",
       "url": "https://blog.pkh.me/p/48-a-series-of-tricks-and-techniques-i-learned-doing-tiny-glsl-demos.html",
-      "summary": "GLSLの小さなデモから得たトリックや手法をまとめた記事。座標変換、ノイズやフラクタル、SDF／レイマーチング、アンチエイリアス、色操作や最適化などを実例とコードで解説。",
+      "summary": "この2ヶ月ほどでGLSLの小さなデモを制作。前作「Red Alp」の解説を勧めつつ、Moonlight・Entrance 3・Archipelago・Cutieの4作から各1〜2の学びを紹介。Moonlightでは従来の吸収・放射より簡潔なボリューム表現として、レイマーチの色寄与を密度dで割る（1/d）手法を解説している。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T16:44:42.000Z",
-      "contentHash": "37d62aa10673"
+      "contentHash": "9852d25bb2de"
     },
     {
       "id": "3fc558101103",
@@ -932,10 +1022,10 @@
       "id": "e41ac15a83b2",
       "title": "X-VLA の概要",
       "url": "https://note.com/npaka/n/nd3f000d74bd6",
-      "summary": "X-VLAは、ロボットごとを学習可能なソフトプロンプトで符号化し、多様な形態やセンサーを単一Transformerで統合するVLA。29万エピ学習の0.9Bはバックボーン凍結で新機体へ約1%のパラメータ調整で高速適応し、既存手法に匹敵。実機評価や少数デモでの布折り等の器用さも示した。",
+      "summary": "X-VLAは、ロボット固有の身体性やセンサー差を学習可能なソフトプロンプトで符号化し、単一のTransformerで多様なロボット・タスクに適応するVLA。29万エピソードで学習した0.9Bは、わずか1%（9M）の調整で高性能を達成し、実ロボットでも高い器用性を示す。",
       "source": "npaka",
       "publishedAt": "2025-12-08T07:06:59.000Z",
-      "contentHash": "6be844aca779"
+      "contentHash": "9879fb72dfeb"
     },
     {
       "id": "f174c18a2dec",
@@ -8872,90 +8962,6 @@
       "source": "OpenAI",
       "publishedAt": "2025-11-19T00:00:00.000Z",
       "contentHash": "e24806ddd44e"
-    },
-    {
-      "id": "753708f5b54e",
-      "title": "VS Code の Google Colab extension の概要",
-      "url": "https://note.com/npaka/n/n0f2308fe8d57",
-      "summary": "Google ColabがVS Codeと統合され、VS Code上でColabノートブックの閲覧・実行やColabの計算資源（GPU等）利用が可能に。共同編集やデバッグがしやすくなり、開発ワークフローの改善が期待される、という内容です。",
-      "source": "npaka",
-      "publishedAt": "2025-11-18T22:26:50.000Z",
-      "contentHash": "9a519b64808a"
-    },
-    {
-      "id": "7c8f1fc9fac2",
-      "title": "LeRobot の gym_hil の概要",
-      "url": "https://note.com/npaka/n/nb353d1845b15",
-      "summary": "LeRobotの「gym_hil」概要まとめ。シミュレーション上で強化学習（RL）を訓練するための機能や使い方、利点などを紹介しています。",
-      "source": "npaka",
-      "publishedAt": "2025-11-18T10:11:36.000Z",
-      "contentHash": "cb82ce1b3888"
-    },
-    {
-      "id": "2d18fbbe19b8",
-      "title": "Grok 4.1 の概要",
-      "url": "https://note.com/npaka/n/n307020c3cb2c",
-      "summary": "元記事が見えません。全文を貼っていただければ200字以内で要約します。現状の文だけを要約すると「Grok 4.1に関する面白い記事をまとめた。続きを見る、という案内文」です。",
-      "source": "npaka",
-      "publishedAt": "2025-11-17T22:11:19.000Z",
-      "contentHash": "ec14b86affb7"
-    },
-    {
-      "id": "16fa6dac54ae",
-      "title": "LeRobot の HIL-SERL の概要",
-      "url": "https://note.com/npaka/n/na1d8d80c13c9",
-      "summary": "LeRobotのHIL-SERLの概要と、実機ロボットを使った学習ワークフローガイドをまとめています。HILを活用した訓練手順、設計方針、利点や導入プロセスが解説されています。",
-      "source": "npaka",
-      "publishedAt": "2025-11-16T12:40:18.000Z",
-      "contentHash": "5902d1d2e330"
-    },
-    {
-      "id": "a3b5fc0565de",
-      "title": "SIMA 2 の概要",
-      "url": "https://note.com/npaka/n/n72910c142123",
-      "summary": "本文またはリンクを貼ってください。いただいた内容を基に200文字以内で要約します。本文を貼れない場合は「タイトルだけで要約」でよいか教えてください（その場合は精度が落ちます）。",
-      "source": "npaka",
-      "publishedAt": "2025-11-14T10:10:11.000Z"
-    },
-    {
-      "id": "a0658a234a01",
-      "title": "DeNAの1on1をAIで支援 - 新卒チームが開発した「すごマネ」の挑戦",
-      "url": "https://engineering.dena.com/blog/2025/11/fy25-eng-b-sugomane/",
-      "summary": "DeNAの新卒チームが開発したAI支援ツール「すごマネ」は、1on1を効率的に進めるための支援を目的としています。主に、1on1前のコンディションアンケートでメンティーの状況把握を助け、1on1後にはAIが議事録を基に具体的な改善策をメンターへ提案。これにより、新卒メンターの成長支援を強化し、1on1の質向上を図ります。",
-      "source": "DeNA Engineering on DeNA Engineering",
-      "publishedAt": "2025-11-12T15:00:00.000Z"
-    },
-    {
-      "id": "66bb5958509c",
-      "title": "Kotlin Fest 2025に参加してきました！",
-      "url": "https://tech.timee.co.jp/entry/kotlin_fest_2025",
-      "summary": "タイミーのAndroidエンジニア・ふなちさんがKaigi Pass制度を利用し、Kotlin Fest 2025に参加。印象的だったのはKotlinPlaygroundでのUI共有やFirebase Studioのノーコード開発、フルKotlinでのAIエージェント開発、Coroutinesの内部理解など。特にKotlinの多様な活用法と深い設計理念に触れ、技術の可能性を再認識したとのことです。",
-      "source": "タイミー開発者ブログ",
-      "publishedAt": "2025-11-12T01:24:45.000Z"
-    },
-    {
-      "id": "a4dcd063e003",
-      "title": "スクラム開発の壁をAIで突破したら、もはや別ゲーだった",
-      "url": "https://engineering.dena.com/blog/2025/11/ai-scrum/",
-      "summary": "DeNAの新卒研修チームは、AIを導入しスクラム開発の効率化に挑戦。AIによるコーディング速度向上に対し、従来の人間中心のプランニングが非効率である課題に直面。会議内容の文字起こしなど自動化を進め、AIと人間の協働でチーム全体の生産性と学びを向上させる試みを報告している。",
-      "source": "DeNA Engineering on DeNA Engineering",
-      "publishedAt": "2025-11-10T15:00:00.000Z"
-    },
-    {
-      "id": "bf7a30ccf6e0",
-      "title": "「進捗を更新して」で進捗管理が終わる世界 〜LLMとの協働で変わったプロジェクト運用",
-      "url": "https://tech.timee.co.jp/entry/2025/11/07/132723",
-      "summary": "タイミーの吉川氏は、生成AI（LLM）とGit管理のMarkdownファイルを活用し、「進捗を更新して」という一言で複数の管理ファイルを自動更新する仕組みを構築。これにより、進捗管理や報告準備の時間を約50%削減し、チームメンバーのようにAIと協働する新しい働き方を実現したと報告している。",
-      "source": "タイミー開発者ブログ",
-      "publishedAt": "2025-11-07T04:27:23.000Z"
-    },
-    {
-      "id": "410de0844fdc",
-      "title": "【mercari GEARS 2025】セッション以外の楽しみ方をご紹介",
-      "url": "https://engineering.mercari.com/blog/entry/20251105-mercarigears2025-enjoy-besides-sessions/",
-      "summary": "メルカリグループのテックカンファレンス「mercari GEARS 2025」が11月13日に7年ぶりのオフライン開催。テーマは「メルカリエンジニアリングの今」で、AI-Nativeを含む技術・組織・文化の変化を紹介。3つのステージやポスターセッション、Ask the Speaker、Unconference、Tech Quizなど多彩な交流企画も用意。オンライン配信なしのため、会場での参加を推奨している。",
-      "source": "メルカリエンジニアリングブログ",
-      "publishedAt": "2025-11-05T10:00:10.000Z"
     }
   ]
 }
