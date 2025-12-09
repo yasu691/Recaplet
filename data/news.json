@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2025-12-09T09:35:14.224Z",
+  "generatedAt": "2025-12-09T10:35:05.199Z",
   "items": [
+    {
+      "id": "e7b04592c46e",
+      "title": "Google Zero is under investigation by the EU",
+      "url": "https://www.theverge.com/news/840547/google-zero-eu-antitrust-investigation-ai-content",
+      "summary": "EUがGoogleを独占禁止法で調査。検索のAI機能や生成AIにYouTubeやウェブ記事を無断で利用し、適切な報酬や拒否権を与えずにトラフィックを奪う「Google Zero」を招く疑い。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-09T10:12:39.000Z",
+      "contentHash": "046b37d98545"
+    },
     {
       "id": "dc08d5ab1261",
       "title": "Result/Either派の人もドメインモデルの不変条件違反は例外で実装して良い理由 | 株式会社ログラス テックブログのフィード",
@@ -11,22 +20,31 @@
       "contentHash": "b1b32b494bc0"
     },
     {
+      "id": "f2d7e42fbe6a",
+      "title": "シンプルなvee-validateを作ってみる | ソーシャルデータバンク テックブログのフィード",
+      "url": "https://zenn.dev/sdb_blog/articles/wakaharas_article_004",
+      "summary": "Vueでvee-validate風を自作する解説。useFieldを段階的に実装し、値の管理、initialValueでの初期値設定、rulesによる手動バリデーションとerrorMessage表示を実装する内容です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T09:00:01.000Z",
+      "contentHash": "9291569e8121"
+    },
+    {
       "id": "9283454506f2",
       "title": "Google Workspaceのセキュリティ管理を効率化！情報漏洩リスクを未然に防ぐチェックソリューションを開発 | HEROZ Tech Blog",
       "url": "https://techblog.heroz.jp/entry/2025/12/09/173200",
-      "summary": "Google Workspaceの設定ミスによる情報漏洩を防ぐため、リンク公開ファイル、共有ドライブ権限、Googleグループの閲覧設定を自動検知して目視チェックを削減する低コストのセキュリティ管理ソリューションを開発。上位エディション非導入企業向け。",
+      "summary": "クラウド普及で情報漏洩リスクが増大。特にGoogle Workspaceのアクセス権設定ミスやGoogleグループの公開設定で機密漏洩が多発。本記事は管理者向けに弊社のGoogle Workspaceセキュリティ管理効率化チェックソリューションを紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T08:32:00.000Z",
-      "contentHash": "4c7e786b32bb"
+      "contentHash": "5b2782f72bda"
     },
     {
       "id": "be6a2c6b607f",
       "title": "LLMの品質を可視化！Langfuseで実現する自動評価システムの構築 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/2025/12/09/173103",
-      "summary": "Langfuseの評価機能で、社内向けRAGチャットの回答品質を自動で数値化・ダッシュボード可視化する手順。Context PrecisionやFaithfulnessなどの指標で品質を監視し、AWS（Bedrock）権限追加やOpenAIキー、Python準備が前提。",
+      "summary": "前回のLangfuseによるLLMトレース可視化に続き、本記事はLangfuseの「評価」機能でLLMの回答を自動採点し、スコアをダッシュボードでリアルタイム表示する手順を解説。前提はLangfuse展開済み、RAGシステム、Python3.9以上、OpenAI APIキー等。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T08:31:03.000Z",
-      "contentHash": "49b214278792"
+      "contentHash": "b3fd04b9e0f0"
     },
     {
       "id": "f675f83dd8a4",
@@ -41,10 +59,10 @@
       "id": "ed481d4588ad",
       "title": "LangfuseをAWSで動かしてLLMアプリを見える化しよう | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/2025/12/09/172737",
-      "summary": "LLM向け可観測プラットフォームLangfuseの利点（プロンプト履歴、性能・コスト・トークン可視化）を紹介し、AWSのサンプルリポジトリでLangfuse v3をECS/Fargateへ約30分でデプロイする手順（前提、リポジトリ取得、仮想環境、cdk.context.jsonでのシークレット生成など）を解説。",
+      "summary": "プロンプト調整の効果不明、ユーザー利用状況やエラー追跡、トークンや応答時間の可視化といったLLMアプリ開発の課題を、トレース・履歴管理・性能／コスト分析で解決する可観測性プラットフォーム「Langfuse」の紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T08:27:37.000Z",
-      "contentHash": "5e2c89863a1c"
+      "contentHash": "9a0809c91b77"
     },
     {
       "id": "277a26339b7a",
@@ -86,10 +104,10 @@
       "id": "9ac276d3b0af",
       "title": "ECSオートスケール × Sidekiqで発見した“スケールインの落とし穴” | Spacely Tech Blog",
       "url": "https://tech.spacely.co.jp/entry/2025/12/09/160158",
-      "summary": "ECSのオートスケールで短時間ジョブの急増→即座にスケールアウト/インが繰り返され、長時間（110秒超）かつ非冪等なジョブがSIGTERM後ECSの120秒強制停止で中断・再キューされデータ不整合発生。暫定で短時間ジョブ専用クラスタ分離、恒久はジョブ分割と冪等化、Sidekiq Pro検討。",
+      "summary": "Spacelyのバックエンドエンジニアが、ECSオートスケールとSidekiqの組合せで発生した、スケールイン時のSidekiq::Shutdownによるジョブ中断とデータ不整合の原因と解決プロセスを共有しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T07:01:58.000Z",
-      "contentHash": "decd6a67794d"
+      "contentHash": "b8a5bf92851c"
     },
     {
       "id": "ac1394f6d12e",
@@ -158,10 +176,10 @@
       "id": "0f81d8553bdd",
       "title": "EarthRover Mini+ の概要",
       "url": "https://note.com/npaka/n/n22a1785aa8a6",
-      "summary": "EarthRover Mini+はFrodoBotsのオープンソース小型ロボ。前後カメラ、IMU/GPS、差動ブラシレス駆動、4–5時間稼働、4G/Wi‑Fi対応（日本での4G未確認）、約300ドル。遠隔操作・SLAM・データ収集・模倣学習に使え、SDK/LeRobotやPython APIで実機テストとクラウド共有が可能。",
+      "summary": "EarthRover Mini+はFrodoBotsのオープンソース小型ロボ。前後カメラ、IMU/GPS、差動駆動、約1.5kgで4–5時間稼働、4G/Wi‑Fiや音声入出力を搭載し約300ドル。実環境ナビ・SLAM・テレオペやデータ収集向けでSDK/LeRobot/Python APIにより遠隔操作と学習用データの収集・共有が可能。日本での4G動作は未確認。",
       "source": "npaka",
       "publishedAt": "2025-12-09T05:40:28.000Z",
-      "contentHash": "be35fd33f15d"
+      "contentHash": "9025efe96e1a"
     },
     {
       "id": "ab579275109a",
@@ -194,10 +212,10 @@
       "id": "d43f83d763c8",
       "title": "Modern Walkmans",
       "url": "https://walkman.land/modern",
-      "summary": "近年のカセットプレーヤーはBluetoothやUSB給電、録音、オートリバース、FM/AMや内蔵スピーカーなどを備えデジタル化。AurexはBTで長時間駆動、Byronは安価で録音可だが音質低め、DIGITNOWはBT＋録音でコスパ良、Fiioは高級志向で高音質・高価、モデルごとに機能と音質の差がある。",
+      "summary": "リンク先に直接アクセスできないため、記事本文をここに貼っていただけますか？あるいは要点（主題、結論、重要な事実など）を教えていただければ、それを200文字以内で日本語に要約します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T04:57:53.000Z",
-      "contentHash": "e326e12cb32e"
+      "contentHash": "ea926dd27f9e"
     },
     {
       "id": "b875510adb22",
@@ -578,6 +596,15 @@
       "contentHash": "f69ec4116849"
     },
     {
+      "id": "02c64a4be1a4",
+      "title": "Show HN: I built a system for active note-taking in regular meetings like 1-1s",
+      "url": "https://withdocket.com",
+      "summary": "定期ミーティングで議事録やAI要約でなく、リアルタイムに箇条で要点・アクションを能動的に取る重要性を説き、既存ツールに不満で専用ツールを作成。無料で登録不要で試せる。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T22:21:26.000Z",
+      "contentHash": "71cc3695fe96"
+    },
+    {
       "id": "fd6af5361386",
       "title": "GenAI Enablementチーム立ち上げ初年度の振り返り | Findy Tech Blog",
       "url": "https://tech.findy.co.jp/entry/2025/12/09/070000",
@@ -617,10 +644,10 @@
       "id": "1cec5bd693f2",
       "title": "GitHub no longer uses Toasts",
       "url": "https://primer.style/accessibility/toasts/",
-      "summary": "トースト通知のアクセシビリティ指南。要点：重要度に応じて role/aria-live を使い分け（alertは中断時のみ）、aria-atomic等で確実に読み上げ、消失はフォーカスやホバーで停止、キーボードで閉じられラベルを付ける、アニメは減少モード対応、重複読み上げや焦点トラップを避ける。実装例と注意点を提示。",
+      "summary": "Primerの解説：トースト通知は画面リーダー用にARIAライブ領域（非緊急はrole=\"status\"、緊急はrole=\"alert\"）を使い、フォーカス移動は避け、キーボードで閉じられ、自動消滅はホバーやフォーカスで一時停止、アニメはreduced-motionに配慮。重複通知や再読み上げの挙動にも注意。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T19:58:41.000Z",
-      "contentHash": "7d5495983920"
+      "contentHash": "c2d241da3119"
     },
     {
       "id": "96935e4927b7",
@@ -644,10 +671,10 @@
       "id": "af46c6c504ca",
       "title": "Trials avoid high risk patients and underestimate drug harms",
       "url": "https://www.nber.org/papers/w34534",
-      "summary": "臨床試験は高リスク患者を回避し薬害を過小評価する。SEER‑Medicare解析で、がん薬開始は月2%pt（250%増）で重篤有害事象入院を増加。高リスク者は試験参加が4倍少なく、対象集団の有害事象は試験より15%大きく、25人中1人/年の追加入院相当。代表性規制の導入を提案。",
+      "summary": "申し訳ありませんが、外部サイトを直接閲覧できないため本文を取得できません。記事本文をここに貼るか要点を教えていただければ、200文字以内で日本語要約を作成します。コメント欄も要約希望ならその旨を教えてください。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T19:07:59.000Z",
-      "contentHash": "451232e01d09"
+      "contentHash": "6e70e8e05888"
     },
     {
       "id": "b475c5716d74",
@@ -662,19 +689,19 @@
       "id": "edd626196cb3",
       "title": "Has the cost of building software dropped 90%?",
       "url": "https://martinalderson.com/posts/has-the-cost-of-software-just-dropped-90-percent/",
-      "summary": "著者は20年の経験から、AIエージェントによる「エージェント型コーディング」がソフト開発の労働コストを劇的に下げ（最大90%）、2026年に産業を一変させると主張。従来の複雑化やクラウドの限界にも触れる。",
+      "summary": "すみません、外部リンクに直接アクセスできません。記事本文を貼るか主要な要点を教えてください。確認でき次第、200文字以内で日本語要約を作成します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T19:00:48.000Z",
-      "contentHash": "c84a824858ba"
+      "contentHash": "58c7c094497c"
     },
     {
       "id": "f96d87e6a7d1",
       "title": "Jepsen: NATS 2.12.1",
       "url": "https://jepsen.io/analyses/nats-2.12.1",
-      "summary": "JetStreamはRaftでデータを複製するNATSのサブシステムで「at least once」「全順序」「Linearizable」「常時可用」を謳うが矛盾がある。実際は過半数のノード（quorum）が必要で、ACKで永続化と見なされる（3ノードなら2台必須）。",
+      "summary": "JepsenのNATS 2.12.1解析では、JetStreamのクラスタ挙動で整合性違反やメッセージ喪失・重複が再現され、本番利用での安全性に問題があると報告された。開発者へ報告済みで、修正やアップデート／設定見直しが推奨される。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T18:51:03.000Z",
-      "contentHash": "5b88dfde40e3"
+      "contentHash": "ffccc3b7f6db"
     },
     {
       "id": "473bd1574dcd",
@@ -1283,10 +1310,10 @@
       "id": "e41ac15a83b2",
       "title": "X-VLA の概要",
       "url": "https://note.com/npaka/n/nd3f000d74bd6",
-      "summary": "X-VLAは、ロボットごとの異質性を学習可能なソフトプロンプトとして扱い、Transformerとフローマッチングで訓練するVLA。単一モデルで多種機体・センサーに適応し、29万エピソード学習で汎用ポリシーを獲得。少量パラメータ調整で高性能を示し、実ロボット評価でも有効。",
+      "summary": "X-VLAは各ロボットの身体性を学習可能なソフトプロンプトとして符号化し、単一Transformerで多様な機体・センサーを統合。29万エピで学習した0.9Bは1%調整(9M)で高性能を発揮し、実機でも優秀。",
       "source": "npaka",
       "publishedAt": "2025-12-08T07:06:59.000Z",
-      "contentHash": "9879fb72dfeb"
+      "contentHash": "07dee34ede95"
     },
     {
       "id": "f174c18a2dec",
@@ -1454,10 +1481,10 @@
       "id": "df5927f735cd",
       "title": "demucs による音源分類を試す",
       "url": "https://note.com/npaka/n/neaef4a26ccd2",
-      "summary": "MacのPython仮想環境で音源分離ツール「demucs」を試した記録。condaでPython3.11環境を作り、torch/torchaudioやdemucsをインストールし、demucs test_audio.m4aでbase/drums/other/vocals.wavを出力。",
+      "summary": "Demucsはボーカル・ドラム・ベース・伴奏を高精度に分離するオープンソース。Macでの検証手順を掲載：condaでPython3.11環境作成、torch/torchaudioやdemucsをpipで導入し、demucs test_audio.m4aでbase/drums/other/vocals.wavを出力。",
       "source": "npaka",
       "publishedAt": "2025-12-08T03:18:18.000Z",
-      "contentHash": "af0641db8450"
+      "contentHash": "70e96d615186"
     },
     {
       "id": "f37c86709c50",
@@ -8946,31 +8973,6 @@
       "source": "Gemini",
       "publishedAt": "2025-11-20T20:30:00.000Z",
       "contentHash": "ac4058372209"
-    },
-    {
-      "id": "b774c350f51e",
-      "title": "Nano Banana Pro の概要",
-      "url": "https://note.com/npaka/n/nfe456f2fa741",
-      "summary": "記事本文が見えないため要約できません。本文かリンクを貼っていただけますか？あるいは要点（目的、特徴、利点、結論など）を教えていただければ、それを200文字以内で簡潔にまとめます。",
-      "source": "npaka",
-      "publishedAt": "2025-11-20T20:26:27.000Z",
-      "contentHash": "a009e1e62400"
-    },
-    {
-      "id": "f3a8783d08bb",
-      "title": "[In preview] Public Preview: Container network metrics filtering in Advanced Container Networking Services for (ACNS) for AKS ",
-      "url": "https://azure.microsoft.com/updates?id=523076",
-      "summary": "Azure Container Networking Services（ACNS）でコンテナネットワークメトリクスのフィルタリング機能がパブリックプレビューで提供開始。これにより、コンテナ環境での過剰なネットワークメトリクスの収集を抑制し、ストレージコストの削減とダッシュボードの整理が可能になる。",
-      "source": "Azure service updates",
-      "publishedAt": "2025-11-20T20:00:10.000Z"
-    },
-    {
-      "id": "190998c5164a",
-      "title": "[Launched] Generally Available: MCP support for AI toolchain operator add-on in AKS",
-      "url": "https://azure.microsoft.com/updates?id=523152",
-      "summary": "MCP対応のAIツールチェーンオペレーターアドオンが一般提供開始。これにより、KAITO推論ワークスペースでの統合ツール呼び出しとModel Context Protocol（MCP）をサポートし、動的モデル管理の課題を解決します。",
-      "source": "Azure service updates",
-      "publishedAt": "2025-11-20T18:45:04.000Z"
     }
   ]
 }
