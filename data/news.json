@@ -1,6 +1,60 @@
 {
-  "generatedAt": "2025-12-09T08:39:05.430Z",
+  "generatedAt": "2025-12-09T09:35:14.224Z",
   "items": [
+    {
+      "id": "dc08d5ab1261",
+      "title": "Result/Either派の人もドメインモデルの不変条件違反は例外で実装して良い理由 | 株式会社ログラス テックブログのフィード",
+      "url": "https://zenn.dev/loglass/articles/5f2d5953b6122d",
+      "summary": "ドメイン不変条件はコンストラクタ等で例外を投げて守って良い、という主張。Result/Eitherは便利だがドメイン層は「Always Valid」で外側が入力検証を行い、不正は例外として扱うべき、という説明。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T09:02:14.000Z",
+      "contentHash": "b1b32b494bc0"
+    },
+    {
+      "id": "9283454506f2",
+      "title": "Google Workspaceのセキュリティ管理を効率化！情報漏洩リスクを未然に防ぐチェックソリューションを開発 | HEROZ Tech Blog",
+      "url": "https://techblog.heroz.jp/entry/2025/12/09/173200",
+      "summary": "Google Workspaceの設定ミスによる情報漏洩を防ぐため、リンク公開ファイル、共有ドライブ権限、Googleグループの閲覧設定を自動検知して目視チェックを削減する低コストのセキュリティ管理ソリューションを開発。上位エディション非導入企業向け。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T08:32:00.000Z",
+      "contentHash": "4c7e786b32bb"
+    },
+    {
+      "id": "be6a2c6b607f",
+      "title": "LLMの品質を可視化！Langfuseで実現する自動評価システムの構築 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2025/12/09/173103",
+      "summary": "Langfuseの評価機能で、社内向けRAGチャットの回答品質を自動で数値化・ダッシュボード可視化する手順。Context PrecisionやFaithfulnessなどの指標で品質を監視し、AWS（Bedrock）権限追加やOpenAIキー、Python準備が前提。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T08:31:03.000Z",
+      "contentHash": "49b214278792"
+    },
+    {
+      "id": "f675f83dd8a4",
+      "title": "インターンシップ実施レポート　東京国際工科専門職大学様（2025年度・3年生） | TechRacho",
+      "url": "https://techracho.bpsinc.jp/yamamoto-tsuyoshi/2025_12_09/155029",
+      "summary": "BPSは2025年9末〜11月上旬の約6週間、東京国際工科専門職大学の3年生2名を受け入れ。テスト中心の予定が習熟が早く、後半はコード修正や開発支援も担当し、実製品開発やWebKitに関する発見も得た。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T08:30:16.000Z",
+      "contentHash": "aa00abd61839"
+    },
+    {
+      "id": "ed481d4588ad",
+      "title": "LangfuseをAWSで動かしてLLMアプリを見える化しよう | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2025/12/09/172737",
+      "summary": "LLM向け可観測プラットフォームLangfuseの利点（プロンプト履歴、性能・コスト・トークン可視化）を紹介し、AWSのサンプルリポジトリでLangfuse v3をECS/Fargateへ約30分でデプロイする手順（前提、リポジトリ取得、仮想環境、cdk.context.jsonでのシークレット生成など）を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T08:27:37.000Z",
+      "contentHash": "5e2c89863a1c"
+    },
+    {
+      "id": "277a26339b7a",
+      "title": "docker-composeでOpenTelemetryに入門してみる for Laravel | ソーシャルデータバンク テックブログのフィード",
+      "url": "https://zenn.dev/sdb_blog/articles/20251210-local-apm-stack",
+      "summary": "docker-composeでLaravel開発環境にOpenTelemetryを導入する手順を解説。OpenTelemetry Collectorを介してメトリクスはPrometheus、ログはLoki、トレースはTempoへ送信し、Grafanaで可視化する構成とCollector設定、PHP拡張の導入方法を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T08:00:02.000Z",
+      "contentHash": "0d5cb6f173d1"
+    },
     {
       "id": "5a83ba2b2e36",
       "title": "You can put the best part of Fairphone&#8217;s new headphones into the older model",
@@ -9,6 +63,24 @@
       "source": "The Verge",
       "publishedAt": "2025-12-09T08:00:00.000Z",
       "contentHash": "b8be6a77a86d"
+    },
+    {
+      "id": "a4ef3d22b888",
+      "title": "Todoリストの運用の失敗とその対策 | 株式会社モニクルのフィード",
+      "url": "https://zenn.dev/monicle/articles/2d41d13cf8a28b",
+      "summary": "著者は個人のTodo運用失敗を「習慣化できない」「登録が億劫」「Todoが多すぎる」の三因と分析。対策は日常作業を繰り返しTodo化して習慣化、思いつきは簡易メモで登録は別枠に、タスクを「あとで」「いつか」で時間軸整理。ツールより使い方が重要と結論。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T07:56:29.000Z",
+      "contentHash": "dca8c9b42f47"
+    },
+    {
+      "id": "c1695d8167fe",
+      "title": "Log Analyticsでロードバランサーのアクセス状況を可視化する | レスキューナウテックブログのフィード",
+      "url": "https://zenn.dev/rescuenow/articles/b32580a4bcbcc5",
+      "summary": "Log Analyticsでロードバランサーのアクセスログを分析。remoteIpやstatus等を使い、クライアントごとのリクエスト数・頻度・ステータス分布（200や一部401）を可視化し、上位クライアントや高頻度アクセスを特定して調査を容易にした。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T07:54:41.000Z",
+      "contentHash": "24b700330a99"
     },
     {
       "id": "9ac276d3b0af",
@@ -86,19 +158,19 @@
       "id": "0f81d8553bdd",
       "title": "EarthRover Mini+ の概要",
       "url": "https://note.com/npaka/n/n22a1785aa8a6",
-      "summary": "EarthRover Mini+はFrodoBotsのオープンソース小型モバイルロボット。前後カメラ、IMU/GPS、差動駆動、4〜5時間稼働、4G/Wi‑Fi対応（日本の4Gは未確認）、約300ドル。SDK/LeRobotで遠隔操作・データ収集やAI学習に利用可能。",
+      "summary": "EarthRover Mini+はFrodoBotsのオープンソース小型ロボ。前後カメラ、IMU/GPS、差動ブラシレス駆動、4–5時間稼働、4G/Wi‑Fi対応（日本での4G未確認）、約300ドル。遠隔操作・SLAM・データ収集・模倣学習に使え、SDK/LeRobotやPython APIで実機テストとクラウド共有が可能。",
       "source": "npaka",
       "publishedAt": "2025-12-09T05:40:28.000Z",
-      "contentHash": "1e1a2fd2c502"
+      "contentHash": "be35fd33f15d"
     },
     {
       "id": "ab579275109a",
       "title": "Android Show: XR Edition 発表内容まとめ",
       "url": "https://note.com/npaka/n/na67cf3c4d5f5",
-      "summary": "「Android Show: XR Edition」でAndroid XRの新機能を発表。Galaxy XRにPC Connect（β）、Travel Mode、Likeness（β）を提供。Gentle Monster等と2種のAIグラスを開発中（来年発売）、XREALの有線XR「Project Aura」を公開し、Android XR SDK Developer Preview 3をリリース。",
+      "summary": "Android Show: XR EditionでAndroid XRの新機能と今後のデバイスを発表。Galaxy XRにPC Connect（Beta）、Travel Mode、Likeness（Beta）を追加。Gentle Monster/Warby Parkerと共同のAIグラス（来年発売予定）、XREALの有線「Project Aura」を公開。Android XR SDK Developer Preview 3もリリース。",
       "source": "npaka",
       "publishedAt": "2025-12-09T05:26:26.000Z",
-      "contentHash": "1a80748379a2"
+      "contentHash": "459f5a3ee6ea"
     },
     {
       "id": "4cdaee91d928",
@@ -540,6 +612,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-08T21:30:45.000Z",
       "contentHash": "25b5dd20efc0"
+    },
+    {
+      "id": "1cec5bd693f2",
+      "title": "GitHub no longer uses Toasts",
+      "url": "https://primer.style/accessibility/toasts/",
+      "summary": "トースト通知のアクセシビリティ指南。要点：重要度に応じて role/aria-live を使い分け（alertは中断時のみ）、aria-atomic等で確実に読み上げ、消失はフォーカスやホバーで停止、キーボードで閉じられラベルを付ける、アニメは減少モード対応、重複読み上げや焦点トラップを避ける。実装例と注意点を提示。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T19:58:41.000Z",
+      "contentHash": "7d5495983920"
     },
     {
       "id": "96935e4927b7",
@@ -8890,81 +8971,6 @@
       "summary": "MCP対応のAIツールチェーンオペレーターアドオンが一般提供開始。これにより、KAITO推論ワークスペースでの統合ツール呼び出しとModel Context Protocol（MCP）をサポートし、動的モデル管理の課題を解決します。",
       "source": "Azure service updates",
       "publishedAt": "2025-11-20T18:45:04.000Z"
-    },
-    {
-      "id": "3ee1007eb042",
-      "title": "[Launched] Generally Available: Cluster-wide Cilium network policy with Azure CNI powered by Cilium for AKS ",
-      "url": "https://azure.microsoft.com/updates?id=523120",
-      "summary": "Azure CNI搭載のAKSクラスタ向けに、クラスタ全体で適用可能なCiliumネットワークポリシーが一般提供開始となりました。これにより、特にマルチテナント環境でのKubernetesネームスペース間の一貫したネットワークポリシー管理が容易になります。",
-      "source": "Azure service updates",
-      "publishedAt": "2025-11-20T18:30:02.000Z"
-    },
-    {
-      "id": "b535b457b5d2",
-      "title": "[Launched] Generally Available: Local redirect policy in Azure CNI powered by Cilium for AKS ",
-      "url": "https://azure.microsoft.com/updates?id=523081",
-      "summary": "Azure CNIにCiliumを活用したローカルリダイレクトポリシーがAKS向けに一般提供開始。高負荷のAKS環境で発生するノード間トラフィックによる遅延や性能低下を解消し、通信効率を向上させる。",
-      "source": "Azure service updates",
-      "publishedAt": "2025-11-20T18:30:02.000Z"
-    },
-    {
-      "id": "107f0973fb9b",
-      "title": "[Launched] Generally Available: Layer 7 policy with Advanced Container Networking Services (ACNS) for AKS",
-      "url": "https://azure.microsoft.com/updates?id=523115",
-      "summary": "Azure Container Networking Servicesは、マイクロサービス環境での詳細なトラフィック制御を可能にするLayer 7ポリシー機能を一般提供開始しました。これにより、顧客はアプリケーション層での細かな通信管理が可能となり、セキュリティと運用効率が向上します。",
-      "source": "Azure service updates",
-      "publishedAt": "2025-11-20T18:15:25.000Z"
-    },
-    {
-      "id": "5256a955a6e5",
-      "title": "[Launched] Generally Available: Azure NetApp Files single file restore from backup ",
-      "url": "https://azure.microsoft.com/updates?id=522077",
-      "summary": "Azure NetApp Filesの単一ファイル復元機能により、バックアップボールトから必要なファイルだけを復元可能です。これにより、ボリューム全体の復元を行わずに済み、時間とコストの節約ができます。",
-      "source": "Azure service updates",
-      "publishedAt": "2025-11-20T18:15:25.000Z"
-    },
-    {
-      "id": "1dded51039a0",
-      "title": "[Launched] Generally Available: DNS security policy Threat Intelligence feed",
-      "url": "https://azure.microsoft.com/updates?id=530183",
-      "summary": "Azure DNSのセキュリティポリシーにThreat Intelligenceフィードが一般提供開始。Microsoftの管理するフィードにより、既知の悪意あるドメインからの攻撃を防止可能。ほとんどの攻撃はDNSクエリから始まるため、効果的な保護を実現する。",
-      "source": "Azure service updates",
-      "publishedAt": "2025-11-20T17:00:13.000Z"
-    },
-    {
-      "id": "9afbcdeeb92f",
-      "title": "[Launched] Generally Available: Azure Sphere OS version 25.10 is now available",
-      "url": "https://azure.microsoft.com/updates?id=522390",
-      "summary": "Azure Sphere OSのバージョン25.10がRetailフィードで配信開始されました。本バージョンはOSの更新のみで、SDKの更新は含まれていません。インターネット接続されているデバイスはクラウド経由で自動的にOSアップデートを受け取ります。",
-      "source": "Azure service updates",
-      "publishedAt": "2025-11-20T16:00:12.000Z"
-    },
-    {
-      "id": "9f0f916b164b",
-      "title": "How we’re bringing AI image verification to the Gemini app",
-      "url": "https://blog.google/technology/ai/ai-image-verification-gemini-app/",
-      "summary": "Geminiアプリの新機能により、GoogleのAI生成画像を検証し、その画像がAIによって作成または編集されたかを判定できるようになります。",
-      "source": "Gemini",
-      "publishedAt": "2025-11-20T15:00:00.000Z",
-      "contentHash": "fdc9c061fd80"
-    },
-    {
-      "id": "bfe1486bf656",
-      "title": "7 tips to get the most out of Nano Banana Pro",
-      "url": "https://blog.google/products/gemini/prompting-tips-nano-banana-pro/",
-      "summary": "Nano Banana Proを使ったGeminiでの画像生成・編集向けに、より効果的なプロンプトの作り方やコツを解説する内容です。",
-      "source": "Gemini",
-      "publishedAt": "2025-11-20T15:00:00.000Z",
-      "contentHash": "bd0d9010490b"
-    },
-    {
-      "id": "a8100868c4a9",
-      "title": "Build with Nano Banana Pro, our Gemini 3 Pro Image model",
-      "url": "https://blog.google/technology/developers/gemini-3-pro-image-developers/",
-      "summary": "Nano Banana Pro（別名 Gemini 3 Pro Image）は、最上位の画像生成・編集モデルです。",
-      "source": "Gemini",
-      "publishedAt": "2025-11-20T15:00:00.000Z",
-      "contentHash": "3b89e107536e"
     }
   ]
 }
