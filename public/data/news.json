@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2025-12-09T01:24:52.136Z",
+  "generatedAt": "2025-12-09T03:31:50.821Z",
   "items": [
+    {
+      "id": "340fc5d0f4a5",
+      "title": "アクティべ式・心理的安全性のつくり方——今日から試せる3つの習慣　多拠点・リモートワークでも心理的安全性を高める方法とは—— | DMM Developers Blog",
+      "url": "https://developersblog.dmm.com/entry/2025/12/09/113000",
+      "summary": "拠点分散の4人チームが、非同期コミュニケーションや属人化、残業常態化の課題を、1週間スプリントでの改善習慣（レトロでのTRY等）、Gatherによる常時会話、ペア／モブワークと図での共有で解決。心理的安全性が高まり残業は月5～6時間に減少。仕組み化が鍵と結論。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T02:30:00.000Z",
+      "contentHash": "68439d616a56"
+    },
+    {
+      "id": "dec6fea30764",
+      "title": "AIがコーディングをする今、人間にしかできない役割を引き受けていく話 | Speee DEVELOPER BLOG",
+      "url": "https://tech.speee.jp/entry/speee-human-value-beyond-coding",
+      "summary": "生成AIでコーディングは速くなったが、変化に追いつくためエンジニアは「何のために」を深掘りし、プロジェクト特性に応じて関わり方を変え、優先度を見極め価値を届ける。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T02:30:00.000Z",
+      "contentHash": "644483b1bb64"
+    },
+    {
+      "id": "d198e0930941",
+      "title": "kintoneローカルMCPサーバーのテストを行いました | Cybozu Inside Out | サイボウズエンジニアのブログ",
+      "url": "https://blog.cybozu.io/entry/2025/12/09/113000",
+      "summary": "2025年8月公開のkintoneローカルMCPサーバーのQA報告。PdEの自動テストやインスペクタ確認に加え、QAは生成AI（Claude等）との接続・操作性を手動で検証。APIの正当性と実用性は一致せず、非Claude環境での不具合を修正、使用性課題を一覧化して改善へフィードバックした。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T02:30:00.000Z",
+      "contentHash": "728ee01341a4"
+    },
+    {
+      "id": "7bd079726553",
+      "title": "【ロボット動かす】LeRobotのプラグイン拡張でノットフィジカルなAIを実装する！【部屋が欲しい】 | ABEJA Tech Blog",
+      "url": "https://tech-blog.abeja.asia/entry/advent-2025-day09",
+      "summary": "LeRobotのプラグイン拡張で任意のTeleoperator/Robot/Cameraを統合し、実機不要の「ノットフィジカル」AIを実装。本文はキーボードCLIテレオペと位置表示ロボットの実装手順・コード・環境（uv等）を解説し、将来的な実機学習への応用も示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T02:26:13.000Z",
+      "contentHash": "deea66527cb8"
+    },
+    {
+      "id": "b097793c368f",
+      "title": "【re:Invent】チョークトーク参加レポ &amp;amp; 英語に自信が無い方への参加のススメ | Nealle Developer's Blog",
+      "url": "https://nealle-dev.hatenablog.com/entry/2025/12/09/111158",
+      "summary": "re:Invent 2025の対話型セッションChalk Talk参加レポ。Lambda SnapStartによるLLM推論事例や開発者への直接質疑が得られる貴重な場。英語に自信がなくても予習、録音、文字起こし・翻訳（Gemini等）を活用すれば有意義に参加できると勧める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T02:11:58.000Z",
+      "contentHash": "453714c05c6b"
+    },
+    {
+      "id": "4dad5113199e",
+      "title": "[アドカレ2025] CodePipelineを使ってGitHubからECSにDockerfileをデプロイしよう！ | DENET 技術ブログ",
+      "url": "https://blog.denet.co.jp/adcale2025_github-to-ecs/",
+      "summary": "GitHubのDockerfileをAWS CodePipelineでECR→ECSへ自動デプロイする手順を解説。IAMロール作成、CodeStarでGitHub連携、ECR作成、CodeBuild設定、ECSクラスター／タスク／サービス作成、CodePipeline構築までを順に説明。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T02:00:04.000Z",
+      "contentHash": "dde4b08411b9"
+    },
+    {
+      "id": "f11e1bce6403",
+      "title": "LocalStack の EventBridge Scheduler にある制約とその対処法 | BASEプロダクトチームブログ",
+      "url": "https://devblog.thebase.in/entry/2025/12/09/110000",
+      "summary": "LocalStackのEventBridge Schedulerはスケジュール実行やLambda/SQSトリガーをエミュレートしない制約がある。対策としてEventBridgeのRuleでLambdaを毎分起動し、Scheduler情報を取得して期限到来時にSQSへ投入・スケジュール削除する仕組みをGoで実装（一回限りのat式対応）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T02:00:00.000Z",
+      "contentHash": "302e43415037"
+    },
+    {
+      "id": "c5216682bfc4",
+      "title": "GoのSCA何使おうか悩んでいる人へ | DMM Developers Blog",
+      "url": "https://developersblog.dmm.com/entry/2025/12/09/110000",
+      "summary": "Go向けSCAでNancyとgovulncheckを比較。NancyはOSS Indexの網羅性が強みだがバージョン判定で誤検知が多く、OSS Indexの認証変更でCIが停止する問題が発生。govulncheckは公式DBを使い実行パス解析で誤検知が少なく、移行コストとセキュリティ面を検証した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T02:00:00.000Z",
+      "contentHash": "3397079b239f"
+    },
+    {
+      "id": "05196ca691a7",
+      "title": "WEARアプリにおけるLiquid Glass対応への第一歩 | ZOZO TECH BLOG",
+      "url": "https://techblog.zozo.com/entry/start-liquid-glass",
+      "summary": "WEAR iOSチームがWWDC25の新デザインLiquid Glass対応の計画を紹介。iOS26で導入される透明感あるUIが既存アプリでレイアウト崩れやコスト増を招くため、Xcode26対応やブランチ戦略、動的無効化、各種レイアウト修正など段階的移行を進める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T02:00:00.000Z",
+      "contentHash": "e72c1289497a"
+    },
+    {
+      "id": "7a4c25d8701e",
+      "title": "Horses: AI progress is steady. Human equivalence is sudden",
+      "url": "https://andyljones.com/posts/horses.html",
+      "summary": "蒸気機関やコンピュータチェスは長年の緩やかな改善が突然の人間との均衡・置換を招いた。AI投資は増加し、著者の職場では短期間でClaudeが新入社員の質問の大半を代替した。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-09T00:26:35.000Z",
+      "contentHash": "fed2c60d26bf"
+    },
     {
       "id": "b2cc04687763",
       "title": "フロントエンド弱者のPOがウェブアクセシビリティ勉強会をやってみた | JCB Tech Blog",
@@ -299,6 +389,15 @@
       "contentHash": "cfe8dec74270"
     },
     {
+      "id": "4fb4b6c3272e",
+      "title": "AI should only run as fast as we can catch up",
+      "url": "https://higashi.blog/2025/12/07/ai-verification/",
+      "summary": "Geminiで遊ぶ2人の実例を通し、AIは加速力があるが扱う人次第で効果が異なると述べる。PMのEricは生成物を本番化できず苦戦、一方エンジニアのDanielはAIを補助に本番コードを迅速に作れる。AIの速度は人間が追いつける範囲に制御すべき、という主張。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T17:38:34.000Z",
+      "contentHash": "3e955423ca2e"
+    },
+    {
       "id": "77691a499ebd",
       "title": "HP OmniBook 5 14 review: an OLED is almost enough",
       "url": "https://www.theverge.com/tech/839858/hp-omnibook-5-14-snapdragon-arm-oled-laptop-review",
@@ -338,19 +437,19 @@
       "id": "9614e4e384da",
       "title": "Microsoft has a problem: lack of demand for its AI products",
       "url": "https://www.windowscentral.com/artificial-intelligence/microsoft-has-a-problem-nobody-wants-to-buy-or-use-its-shoddy-ai",
-      "summary": "記事はマイクロソフトのAI（CopilotやBing等）が品質不足・高価格・製品戦略の混乱により利用者や企業に敬遠され、販売・採用で苦戦していると指摘している。",
+      "summary": "記事は、マイクロソフトのAI製品群（Copilotなど）が品質の低さや幻覚、使い勝手・価格・プライバシーの問題で利用・購買が進まず、不評を買っていると指摘する。ブランド乱立と統合不足で顧客の信頼を失い、戦略の見直しが必要だと論じている。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T16:54:31.000Z",
-      "contentHash": "6f16d0391d38"
+      "contentHash": "d8f595fff2d1"
     },
     {
       "id": "78e267996958",
       "title": "A series of tricks and techniques I learned doing tiny GLSL demos",
       "url": "https://blog.pkh.me/p/48-a-series-of-tricks-and-techniques-i-learned-doing-tiny-glsl-demos.html",
-      "summary": "ここ数ヶ月で作った小さなGLSLデモ4作（Moonlight、Entrance 3、Archipelago、Cutie）を通じ学んだ点を紹介。Moonlightのコードを示し、従来の吸収・放射に代えて密度の逆数1/d（またはc/d）を色寄与に使う簡潔な体積表現手法を解説しています。",
+      "summary": "GLSLの小さなデモから得たトリックや手法をまとめた記事。座標変換、ノイズやフラクタル、SDF／レイマーチング、アンチエイリアス、色操作や最適化などを実例とコードで解説。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T16:44:42.000Z",
-      "contentHash": "9852d25bb2de"
+      "contentHash": "37d62aa10673"
     },
     {
       "id": "3fc558101103",
@@ -8857,94 +8956,6 @@
       "summary": "メルカリグループのテックカンファレンス「mercari GEARS 2025」が11月13日に7年ぶりのオフライン開催。テーマは「メルカリエンジニアリングの今」で、AI-Nativeを含む技術・組織・文化の変化を紹介。3つのステージやポスターセッション、Ask the Speaker、Unconference、Tech Quizなど多彩な交流企画も用意。オンライン配信なしのため、会場での参加を推奨している。",
       "source": "メルカリエンジニアリングブログ",
       "publishedAt": "2025-11-05T10:00:10.000Z"
-    },
-    {
-      "id": "7ec7ec627dd7",
-      "title": "iOSDC Japan 2025に参加しました #iosdc #iwillblog",
-      "url": "https://engineering.mercari.com/blog/entry/20251031-iosdc-2025-report/",
-      "summary": "メルカリのiOSエンジニアkntkが「iOSDC Japan 2025」にゴールドスポンサーとして参加し、day 0のSwiftコードバトルで優勝した。Swiftコードバトルはコードゴルフ形式の競技で、今年は問題の複雑度が上がり多様な戦略が必要に。LT登壇やAIツールに関するアンケートも実施し、盛況となった。",
-      "source": "メルカリエンジニアリングブログ",
-      "publishedAt": "2025-11-04T10:00:20.000Z"
-    },
-    {
-      "id": "d1d461461d5f",
-      "title": "Swiftコードバトル2025で優勝しました #iosdc #iwillblog",
-      "url": "https://engineering.mercari.com/blog/entry/20251031-swift-code-battle-2025-report/",
-      "summary": "株式会社メルカリiOSエンジニアのkntkが「iOSDC Japan 2025」day0のSwiftコードバトルで優勝。Swiftコードバトルは与えられた問題をより短いSwiftコードで解く競技で、問題の複雑化により戦略的対応が必要に。kntkは複数の最適化ポイントを見つけ出し、短縮手法を工夫して勝利した。",
-      "source": "メルカリエンジニアリングブログ",
-      "publishedAt": "2025-11-04T10:00:13.000Z"
-    },
-    {
-      "id": "09ddf17a3e77",
-      "title": "LLMアプリケーション向けProduction Readiness Checklistの作成",
-      "url": "https://tech.timee.co.jp/entry/2025/11/04/113000",
-      "summary": "MLOpsエンジニアのtomoppiが所属するDSグループは、タイミーのProduction Readiness Checkを参考に、LLMアプリの安定的運用のための独自評価基準を策定した。AWS前提の既存チェックリストをGCP環境向けに読み替え、LLM特有の非決定性や継続的評価も考慮。ビジネス目標の明確化、信頼性確保、自動デプロイ、スケーラビリティなどを網羅し、将来技術変化にも対応可能な普遍的ガイドを目指している。",
-      "source": "タイミー開発者ブログ",
-      "publishedAt": "2025-11-04T02:30:00.000Z"
-    },
-    {
-      "id": "1452f8d6ae2f",
-      "title": "IRIAM の SRE が 語る「設計におけるインターフェースの重要性」について",
-      "url": "https://engineering.dena.com/blog/2025/10/iriam-sre-google-next-tokyo-25/",
-      "summary": "IRIAMのSREチームは事業急成長に伴う複雑化を、Google Cloudを活用し少人数で運用しています。ポイントは「インターフェース中心設計」で、システム間を疎結合に保ち標準化技術で柔軟性と将来性を確保。これにより変更容易性が高まり、技術的負債を減らしつつ安定運用を実現しています。",
-      "source": "DeNA Engineering on DeNA Engineering",
-      "publishedAt": "2025-10-30T15:00:00.000Z"
-    },
-    {
-      "id": "06d3d27deb86",
-      "title": "画像動画AI対話の可能性をインターンで探求",
-      "url": "https://engineering.dena.com/blog/2025/10/intern-2025-ai-taiwa-amemiya-masuda/",
-      "summary": "2025年度DeNAサマーインターンで、慶應大雨宮佳音と筑波大増田瞬が「画像・動画を用いたAI対話インターフェース」の研究に挑戦。映像情報の活用により、非言語情報の理解や視覚的な情報伝達、能動的対話が可能に。彼らは筋トレ支援AI「FitVision Trainer」を開発し、映像解析でフォーム指導や動機付けを行い、一人でも効果的なトレーニングを支援するプロトタイプを実装した。",
-      "source": "DeNA Engineering on DeNA Engineering",
-      "publishedAt": "2025-10-30T15:00:00.000Z"
-    },
-    {
-      "id": "7b9345f2618a",
-      "title": "社内AIヘルプデスク 正答率80%達成 RAG精度改善の軌跡",
-      "url": "https://engineering.dena.com/blog/2025/10/findoutai_rag/",
-      "summary": "DeNAは「AIオールイン」を掲げ、社内問い合わせのAI対応で「業務量半減・生産性倍増」を目指す。Slack連携のAIツール「Findout」を活用しつつ、IT領域の質問の範囲を明確化し、RAGの回答精度向上に注力。具体的な評価基準設定や運用ルールを設け、AIの正確な回答実現を目指す挑戦の経緯と実践的知見を共有している。",
-      "source": "DeNA Engineering on DeNA Engineering",
-      "publishedAt": "2025-10-29T15:00:00.000Z"
-    },
-    {
-      "id": "ea58d936931a",
-      "title": "【mercari GEARS 2025】ポスターセッションをご紹介",
-      "url": "https://engineering.mercari.com/blog/entry/20251029-mercarigears2025-poster/",
-      "summary": "メルカリグループのテックカンファレンス「mercari GEARS 2025」が11月13日に久々のオフライン開催されます。テーマは「メルカリエンジニアリングの今」で、AI活用の最新動向やインシデント管理、ユニットテストの手法、AIボットによるサポートシステムなど、多彩な技術・組織・文化の変化を紹介。オンライン配信はなく、ポスターセッションも実施予定です。",
-      "source": "メルカリエンジニアリングブログ",
-      "publishedAt": "2025-10-29T10:00:49.000Z"
-    },
-    {
-      "id": "fe4590ba9b52",
-      "title": "DeNA × AI Talks #3 開催！- 生成AIをコアとするプロダクト開発の舞台裏-",
-      "url": "https://engineering.dena.com/blog/2025/10/denaaitalks3/",
-      "summary": "2025年10月に開催された「DeNA × AI Talks #3」では、生成AIを中核としたプロダクト開発が紹介された。DeNAはAIを組み込んだ継続的に価値を高める「AIネイティブ」製品の開発を進めており、事業責任者やエンジニアが多角的な知見を共有。生成AI時代は「どう作るか」より「何を作るか」が問われ、需要創出が重要とされた。オンライン配信も実施されている。",
-      "source": "DeNA Engineering on DeNA Engineering",
-      "publishedAt": "2025-10-26T15:00:00.000Z"
-    },
-    {
-      "id": "fecd69a012de",
-      "title": "BASE☆BLUE：4つの問題で学ぶ、リアルタイムAI解説のプロンプト設計",
-      "url": "https://engineering.dena.com/blog/2025/10/starguide/",
-      "summary": "ベイスターズ戦観戦アプリ『BAYSTARS STAR GUIDE』に、AIが試合中に数秒で熱い解説を生成する「BASE☆BLUE」を搭載。Gemini×Cloud Tasks×Cloud Runでスケーラブルな仕組みを構築し、情報整理やプロンプト設計の工夫で質の高いAI解説を実現。非同期処理の制御で無駄な解説生成を防ぎ、試合中継やスタジアム観戦の両方で豊かな観戦体験を提供する。",
-      "source": "DeNA Engineering on DeNA Engineering",
-      "publishedAt": "2025-10-22T15:00:00.000Z"
-    },
-    {
-      "id": "d2a4bacbb2fb",
-      "title": "モジュラモノリスの品質を支えるリーダビリティチーム ― AI時代のスケーラブルなコード管理",
-      "url": "https://engineering.mercari.com/blog/entry/20251021-scaling-code-quality-modular-monolith-readability-team-ai-era/",
-      "summary": "Cross Border Engineeringのリーダビリティチームは、メルカリグローバルアプリのモジュラモノリス構造におけるコードの可読性・一貫性向上を目的に活動。レビューやガイドライン作成、自動チェックツール開発で品質を保ち、新規参画者の学習や開発効率を支援。AIによるPR分類・自動レビュー導入でスケール対応を進めています。",
-      "source": "メルカリエンジニアリングブログ",
-      "publishedAt": "2025-10-21T10:43:01.000Z"
-    },
-    {
-      "id": "07cc9b27db94",
-      "title": "Grafana,Prometheus,Slothで実現するSLI/SLO管理入門：Slothの裏側を探るPromQL解読ガイド [DeNA インフラ SRE]",
-      "url": "https://engineering.dena.com/blog/2025/10/sloth-promql-slo/",
-      "summary": "SLI/SLOはサービス信頼性を定量評価する指標で、PrometheusやGrafanaでの管理が一般的だが、PromQLの記述が難しい課題がある。ツール「Sloth」はYAMLでSLI/SLOを定義するだけで必要なPromQLを自動生成し、管理のハードルを下げる。この記事ではSloth活用による可視化例と内部仕組みを解説し、SLI/SLO管理の理解促進を目指す。",
-      "source": "DeNA Engineering on DeNA Engineering",
-      "publishedAt": "2025-10-20T15:00:00.000Z"
     }
   ]
 }
