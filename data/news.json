@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2025-12-09T15:34:30.511Z",
+  "generatedAt": "2025-12-09T16:37:35.586Z",
   "items": [
+    {
+      "id": "2c1da4517c9f",
+      "title": "Some of Ikea’s Matter-compatible smart devices are now available in the US",
+      "url": "https://www.theverge.com/news/840727/ikea-smart-home-matter-thread-sensors-now-available",
+      "summary": "IkeaのMatter対応スマート家電が米国で一部発売。11月発表のセンサー5種中4種が米サイト・店舗で購入可能に。照明用Kajplats電球は未発売で、米国価格も判明。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-09T16:18:53.000Z",
+      "contentHash": "4aadc17c1097"
+    },
+    {
+      "id": "0b5b5c8f6554",
+      "title": "New Pebble Device",
+      "url": "https://repebble.com/blog/meet-pebble-index-01-external-memory-for-your-brain",
+      "summary": "Pebble Index 01はボタン付きの小型音声メモリング。押して囁くとスマホに保存、インターネット不要で録音はボタン時のみ。充電不要で数年稼働、防水ステンレス製、オープンソース。先行予約$75（2026年3月出荷後$99）",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-09T15:03:09.000Z",
+      "contentHash": "66825686282c"
+    },
     {
       "id": "69bc0a625160",
       "title": "Spotify’s music videos feature arrives in the US and Canada",
@@ -9,6 +27,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-09T15:01:00.000Z",
       "contentHash": "218f8f6e93b5"
+    },
+    {
+      "id": "55520d51c9ad",
+      "title": "【生成AI】回答の精度を上げたい！そんな時はContext7 MCP Serverを使おう | RecoChoku Engineering Blog",
+      "url": "https://techblog.recochoku.jp/12580",
+      "summary": "フロントエンドエンジニア坂本彩乃が、AIのハルシネーション（誤情報）に悩み、最新ドキュメントを参照できるContext7 MCP Serverを紹介。APIキー発行でCursorやVSCode等と連携でき、導入は簡単でコーディング支援の精度向上に有効と解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T15:00:37.000Z",
+      "contentHash": "f892233fb3b4"
     },
     {
       "id": "3b5d79a96aed",
@@ -23,10 +50,10 @@
       "id": "14cc7d12c241",
       "title": "The next Pebble gadget is the Index 01, a ring with a microphone",
       "url": "https://www.theverge.com/gadgets/840352/pebble-index-smart-ring-launch-price",
-      "summary": "Pebble創業者エリック・ミギコフスキーが開発したIndex 01は、人差し指に着ける$75のマイク内蔵リング。ボタンを押して録音するだけのシンプルな音声キャプチャ兼入力デバイスで、CESの試作機を経て1年以上かけて完成した。",
+      "summary": "Pebbleの新製品「Index 01」は、創業者エリック・ミギコフスキーが開発した人差し指用リング。マイクと録音ボタンだけを備え、押して話すことでスマホに音声を送る簡易キャプチャーツール。価格は75ドル。",
       "source": "The Verge",
       "publishedAt": "2025-12-09T15:00:00.000Z",
-      "contentHash": "104f9fd52437"
+      "contentHash": "a9945fd6f8af"
     },
     {
       "id": "03f9c77a9f46",
@@ -47,6 +74,42 @@
       "contentHash": "facbf8a38e56"
     },
     {
+      "id": "390b41b0df01",
+      "title": "やってみようVSTeP 〜 福岡出張版 〜 参加しました！ | hacomono TECH BLOG",
+      "url": "https://techblog.hacomono.jp/entry/2025/12/10/000000",
+      "summary": "hacomonoのakineが福岡で開催された出張版VSTePワークショップに参加。テスト観点図・テストコンテナ図作成を通じ、複数視点や「やらないこと」を可視化する重要性を学び、懇親会も楽しんだ。講師や主催者へ感謝。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T15:00:00.000Z",
+      "contentHash": "a108e76a2280"
+    },
+    {
+      "id": "80287b1e65fb",
+      "title": "SPAとMPAの違い | テコテック開発者ブログ",
+      "url": "https://tec.tecotec.co.jp/entry/2025/12/10/000000",
+      "summary": "TECOTEC Adventの解説。Vue+Laravelで作ったTodoでSPAとMPAを比較。MPAは遷移ごとにサーバー生成HTMLを受け取りDOM全体を再構築するため重い。SPAは初回にindex.htmlを読み込み、JSがAPI（JSON）でデータを取得して部分的にDOM更新するため描画が軽い。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T15:00:00.000Z",
+      "contentHash": "6227d1cea4cc"
+    },
+    {
+      "id": "cf9ea7f783b6",
+      "title": "AIを「メンター」にしたQAチームの変革：セルフレビューの質を劇的に向上させたContext Engineering | Tabelog Tech Blog",
+      "url": "https://tech-blog.tabelog.com/entry/advent-calendar-20251210",
+      "summary": "食べログQAがAIを「メンター化」。プロンプトの限界を克服し、Context Engineeringの5層レビューとTestSmellで暗黙知を形式化。セルフレビューの質を劇的に向上させリーダー依存を低減した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T15:00:00.000Z",
+      "contentHash": "3a66d4d86ebc"
+    },
+    {
+      "id": "0aadf44a0af6",
+      "title": "「モデル追加は突然に」 LiteLLM 運用で学んだセルフホスティングの大変さと楽しさ | 弁護士ドットコム株式会社 Creators’ blog",
+      "url": "https://creators.bengo4.com/entry/2025/12/10/000000",
+      "summary": "弁護士ドットコムSRE室の原口がLiteLLM Proxy Serverの導入・運用を報告。モデル追加やクライアント更新など突発対応の苦労と、社内交流やOSS貢献の楽しさ、今後はリリース自動化を目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T15:00:00.000Z",
+      "contentHash": "0aa906a3183a"
+    },
+    {
       "id": "d486e2295277",
       "title": "Ford taps Renault for help building cheap EVs in Europe",
       "url": "https://www.theverge.com/news/840632/ford-renault-cheap-ev-europe",
@@ -57,12 +120,12 @@
     },
     {
       "id": "06e8158ece9a",
-      "title": "Google will repair Pixel 9 Pro phones with display issues",
+      "title": "Google extends free repairs to cover known Pixel 9 Pro and Pro Fold issues",
       "url": "https://www.theverge.com/news/840622/google-pixel-9-pro-xl-display-issues-repair-program-fold-extended-warranty",
-      "summary": "GoogleはPixel 9 Pro/Pro XLで表示に縦線が入るなどの不具合を確認し、対象機種を修理する延長修理プログラムを開始。Pixel 9 Pro Foldは機能不具合対応として保証を3年に延長した。",
+      "summary": "GoogleはPixel 9 Pro/Pro XLとPixel 9 Pro Foldの既知不具合に対し無償修理プログラムを拡大し、Pixel 9 Foldの保証を3年に延長。Pro/Pro XLは画面の縦線問題、Foldは機能に影響する不具合が対象。",
       "source": "The Verge",
       "publishedAt": "2025-12-09T14:57:42.000Z",
-      "contentHash": "ceb875227065"
+      "contentHash": "59576de04719"
     },
     {
       "id": "ef5c0f682024",
@@ -83,6 +146,15 @@
       "contentHash": "5807afe75ecb"
     },
     {
+      "id": "87d55ee63609",
+      "title": "Google Workspace Studio のテンプレートを使ってみる - カスタマーサポート | Google Cloud Japanのフィード",
+      "url": "https://zenn.dev/google_cloud_jp/articles/google-workspace-studio-templates-customer",
+      "summary": "Google Workspace StudioはGemini搭載のワークフロー自動化サービスで、Customer connectionsのテンプレートはGmailやFormsと外部SaaS連携によりカスタマーサポートを効率化します。例は受信メールをトリガーにGeminiで質問を判定し、返信ドラフトを生成するFlowです。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T14:29:46.000Z",
+      "contentHash": "3e6edef8b18d"
+    },
+    {
       "id": "3ebe293dccea",
       "title": "You can now text photos directly to Aura&#8217;s digital picture frames",
       "url": "https://www.theverge.com/news/840142/aura-text-to-frame-digital-picture-frame-share-photos",
@@ -90,6 +162,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-09T14:00:00.000Z",
       "contentHash": "66f0fac00087"
+    },
+    {
+      "id": "4f36c77923f8",
+      "title": "適切なAI利用のヒント | Kyash Product Blog",
+      "url": "https://blog.kyash.co/entry/2025/12/09/223829",
+      "summary": "KyashコンプライアンスがFintech向けにAI業務利用で守るべき5原則を提示。説明責任、個人情報の暗号化・匿名化、バイアス防止、最終判断は人間が行うこと、外部AI導入時の契約確認を重視し、利便性とガバナンスの両立を図る。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T13:38:29.000Z",
+      "contentHash": "1c09f04dc12f"
     },
     {
       "id": "1d5624dbc825",
@@ -135,6 +216,15 @@
       "source": "npaka",
       "publishedAt": "2025-12-09T11:12:06.000Z",
       "contentHash": "680b90cda344"
+    },
+    {
+      "id": "9d66f25183c5",
+      "title": "Show HN: AlgoDrill – Interactive drills to stop forgetting LeetCode patterns",
+      "url": "https://algodrill.io",
+      "summary": "作者はLeetCodeで解法を忘れる経験からAlgoDrillを開発。NeetCode150以上をスライディングウィンドウ、2ポインタ、DP等のパターン別に分け、行ごとに再構築するアクティブリコールと基礎解説で本番で書ける力を養う。改善点の意見を募集。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-09T11:09:06.000Z",
+      "contentHash": "4355be1ab120"
     },
     {
       "id": "7e983d2c4634",
@@ -212,10 +302,10 @@
       "id": "b7556b41242e",
       "title": "The Joy of Playing Grandia, on Sega Saturn",
       "url": "https://www.segasaturnshiro.com/2025/11/27/the-joy-of-playing-grandia-on-sega-saturn/",
-      "summary": "サターン復権で熱心な翻訳者が多くの日本製RPGを再発見。1997年のGrandiaは高評価を受けたが、膨大な脚本と西洋サターン市場の崩壊で当初は欧米未発売に。後にPS版で移植・ローカライズされた。",
+      "summary": "外部サイトには直接アクセスできないため、記事本文を貼っていただけますか？全文か主要段落を送っていただければ、200文字以内で日本語要約します。Hacker Newsのコメント要約も希望なら併せて対応します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T09:48:55.000Z",
-      "contentHash": "122bd481aba1"
+      "contentHash": "388b65ea5351"
     },
     {
       "id": "3a768500dd1d",
@@ -410,19 +500,19 @@
       "id": "0f81d8553bdd",
       "title": "EarthRover Mini+ の概要",
       "url": "https://note.com/npaka/n/n22a1785aa8a6",
-      "summary": "EarthRover Mini+はFrodoBots製のオープンソース小型モバイルロボット。前後デュアルカメラ、約1.5kg、4～5時間稼働、GPS/IMU、差動駆動、4G/Wi‑Fi（日本での4G動作は未確認）、マイク/スピーカー、約300ドル。FrodoBots SDK／LeRobotで遠隔テレオペや走行ログ収集、模倣学習・自律走行研究やクラウド共有が可能。",
+      "summary": "EarthRover Mini+はFrodoBotsのオープンソース小型モバイルロボット。前後カメラ・IMU/GPS搭載で約1.5kg、4〜5時間稼働。4G/LTEやWi‑Fi対応（日本での4G動作未確認）。遠隔操作や走行ログ収集でAI学習・実世界ナビ研究に使え、LeRobot/SDK対応。価格は約300ドル。",
       "source": "npaka",
       "publishedAt": "2025-12-09T05:40:28.000Z",
-      "contentHash": "fa12545455a1"
+      "contentHash": "fed640b3842a"
     },
     {
       "id": "ab579275109a",
       "title": "Android Show: XR Edition 発表内容まとめ",
       "url": "https://note.com/npaka/n/na67cf3c4d5f5",
-      "summary": "「Android Show: XR Edition」では、Galaxy XR向けにPC Connect（β）、Travel Mode、Likeness（β）などの新機能を発表。さらに会話型と表示型のAIグラスやXREALの有線「Project Aura」を公開し、Android XR SDK Developer Preview 3をリリースしました。",
+      "summary": "2025年12月8日のAndroid Show: XR Editionで、Galaxy XRにPC Connect・Travel Mode・Likeness（いずれもBeta）などの新機能を発表。AIグラス2種やXREALの有線「Project Aura」、Android XR SDK Developer Preview 3も公開。",
       "source": "npaka",
       "publishedAt": "2025-12-09T05:26:26.000Z",
-      "contentHash": "e49d170dfbe4"
+      "contentHash": "0755ceb649ff"
     },
     {
       "id": "4cdaee91d928",
@@ -833,10 +923,10 @@
       "id": "02c64a4be1a4",
       "title": "Show HN: I built a system for active note-taking in regular meetings like 1-1s",
       "url": "https://withdocket.com",
-      "summary": "定期ミーティングや1対1向けに、議事録や文字起こしではなく会話中に短い箇条で要点やアクションを能動的に記録する専用ノートツールを自作。既存品に不満で友人と運用中、無料でサインアップ不要。試用とフィードバックを募集中。",
+      "summary": "定期的な会議で「議事録や自動要約でなく、自分が能動的に箇条書きで要点やアクションを記録する」ことの重要性に着目し、1対1等の定期会議向けに専用ツールを自作。既存ツールに不満で自分と友人で使用中。無料プランあり、登録不要で試せる。意見募集。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T22:21:26.000Z",
-      "contentHash": "a098d326ddef"
+      "contentHash": "c1fb3e83158f"
     },
     {
       "id": "fd6af5361386",
@@ -878,10 +968,10 @@
       "id": "1cec5bd693f2",
       "title": "GitHub no longer uses Toasts",
       "url": "https://primer.style/accessibility/toasts/",
-      "summary": "GitHubはアクセシビリティや使い勝手の問題からトースト通知を廃止し、Primerの他の通知手法を推奨。単純な操作は画面反映で十分、複雑な処理には適切なフィードバックを用いるべき、という方針。",
+      "summary": "トースト通知のアクセシビリティ改善策を解説。視覚以外の利用者へはaria-live/aria-atomicで読み上げ、フォーカスを奪わない、キーボードで閉じ可能、表示時間や色彩・動きの配慮を推奨。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T19:58:41.000Z",
-      "contentHash": "16c7d31bcfb3"
+      "contentHash": "e2396e486abe"
     },
     {
       "id": "96935e4927b7",
@@ -8904,92 +8994,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-22T08:20:48.000Z",
       "contentHash": "1bf24987cb77"
-    },
-    {
-      "id": "34b3e97d66ce",
-      "title": "【逆リファクタリングバトル】あえて、FizzBuzzを汚してみる | SMARTCAMP Engineer Blogのフィード",
-      "url": "https://zenn.dev/smartcamp/articles/5eaa23dc0fd92f",
-      "summary": "りゅうが先輩と「逆リファクタリングバトル」に参加。あえて悪い設計のコードを書くことでクリーンコードの重要性を学ぶ企画。PC忘れで劣悪な開発環境になり「クソコードはクソ環境から生まれる」を実感。詳報は別記事、参加作は主催がまとめている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-22T08:09:18.000Z",
-      "contentHash": "38c6636a58bf"
-    },
-    {
-      "id": "abc3755c8d24",
-      "title": "Microsoft Ignite2025 参加レポート DAY4 とまとめ | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2025/11/22/161317",
-      "summary": "ACS事業部の井田が現地報告。Ignite2025 DAY4は午前のみでMoscone Westのみ開場。発表は少なめだがハンズオンや無料資格試験が人気。日本参加者の注目はJapan Wrap-up。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-22T07:13:17.000Z",
-      "contentHash": "9f13824f2d12"
-    },
-    {
-      "id": "fdba4838b3d6",
-      "title": "Original Superman comic becomes the highest-priced comic book ever sold",
-      "url": "https://www.bbc.com/news/articles/c8e9rp0knj6o",
-      "summary": "申し訳ありませんが、外部リンクに直接アクセスできないため記事を取得できません。要約をご希望なら、記事本文（または抜粋）を貼るか主要ポイントを教えてください。Hacker Newsの議論も要約したい場合はコメントの抜粋を添えてください。200文字以内でまとめます。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-22T05:21:53.000Z"
-    },
-    {
-      "id": "22ec53cc2fd7",
-      "title": "Moss Survives 9 Months in Space Vacuum",
-      "url": "https://scienceclock.com/moss-survives-9-months-in-space-vacuum/",
-      "summary": "宇宙空間（真空・宇宙線）に9か月曝露されたコケが、地上で再水和すると生存・成長を再開したという実験結果。乾眠や塊状の保護で極限環境に耐え、生命の宇宙耐性や惑星間移送の可能性を示唆する。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-22T03:57:29.000Z"
-    },
-    {
-      "id": "1fb6387cee26",
-      "title": "aws loginコマンドが来たのでAWSのアクセスキーを削除したかったけど、やっぱり保留しました。 | NCDCエンジニアブログのフィード",
-      "url": "https://zenn.dev/ncdc/articles/153101d64b0175",
-      "summary": "AWS CLIにaws loginが導入され、アクセスキーなしでCLIが使えるように。キー発行不要で漏洩リスクを減らせる。職場はIdC移行で影響薄いが、個人アカウントでは問題が残る。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-22T03:14:00.000Z",
-      "contentHash": "a0f30f2a9acb"
-    },
-    {
-      "id": "6d50c8e81ec6",
-      "title": "‘Jmail’ is like any other inbox, except this one has Jeffrey Epstein’s emails",
-      "url": "https://www.theverge.com/news/826901/jeffrey-epstein-files-emails-gmail-jmail",
-      "summary": "下院が公開したエプスタインの2万頁超のメールをIgelとWalzがGeminiでOCRし、Gmail風の検索可能サイト「Jmail」に再構成。司法省の公開義務化法も成立したが例外あり。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-22T00:58:31.000Z",
-      "contentHash": "0e56c990e205"
-    },
-    {
-      "id": "5fd5dcfc2180",
-      "title": "Sharper MRI scans may be on horizon thanks to new physics-based model",
-      "url": "https://news.rice.edu/news/2025/sharper-mri-scans-may-be-horizon-thanks-new-physics-based-model",
-      "summary": "Rice大の研究チームが、MRI信号の物理過程を組み込んだ新しい再構成モデルを提案。ノイズやアーチファクトを低減し解像度向上や撮像時間短縮が可能で、臨床応用の期待を示した。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-22T00:30:26.000Z"
-    },
-    {
-      "id": "06d9512b3658",
-      "title": "Google denies &#8216;misleading&#8217; reports of Gmail using your emails to train AI",
-      "url": "https://www.theverge.com/news/826902/gmail-ai-training-data-opt-out",
-      "summary": "SNSで拡散する「GmailのメールがAI学習に使われ、解除はスマート機能オフのみ」との主張に対し、Googleは否定。スマート機能は以前からあり、1月にWorkspaceと他サービスで個別設定可能になり、メール内容をGemini等の学習には使わないと説明。設定確認を推奨。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-22T00:04:21.000Z",
-      "contentHash": "21487bb5e412"
-    },
-    {
-      "id": "a4c5a0d24e9a",
-      "title": "How I learned Vulkan and wrote a small game engine with it (2024)",
-      "url": "https://edw.is/learning-vulkan/",
-      "summary": "『Learning Vulkan』はVulkan習得のための実践ガイド。インスタンス・デバイス・パイプライン・メモリ・同期などの要点を解説し、最小レンダラー作成手順、検証レイヤーやデバッグ手法、学習順序や参考実装を示す。冗長だが高い制御性を強調。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-21T23:28:40.000Z"
-    },
-    {
-      "id": "764f56680fc9",
-      "title": "【Microsoft Ignite 2025】Day4 レポート | Alternative Architecture DOJO",
-      "url": "https://aadojo.alterbooth.com/entry/2025/11/22/075451",
-      "summary": "横野さんがユーモラスな挨拶で始め、公園で薬剤や高圧洗浄機を使う迅速な清掃に遭遇した話と、LLMやRAGの実装ではなく「AI時代にITキャリアをどう進化させるか」に焦点を当てたセッション紹介を綴る。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-21T22:54:51.000Z",
-      "contentHash": "2c844010db2e"
     }
   ]
 }
