@@ -1,50 +1,113 @@
 {
-  "generatedAt": "2025-12-09T05:31:49.954Z",
+  "generatedAt": "2025-12-09T06:37:52.821Z",
   "items": [
+    {
+      "id": "2251c68adb71",
+      "title": "Codex CLIのカスタムコマンドを使って業務を効率化する | 開発ブログ｜株式会社Nextat（ネクスタット）",
+      "url": "https://nextat.co.jp/staff/archives/393",
+      "summary": "Codex CLIのカスタムコマンドで作業効率化。役割や指示を ~/.codex/prompts/*.md に事前登録し、毎回プロンプトを打たずに /prompts:greet などで挨拶やコードレビュー指示を繰り返し使える。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T06:00:00.000Z",
+      "contentHash": "ece1e0c222a4"
+    },
+    {
+      "id": "b6d9e9349d4d",
+      "title": "Microsoft FabricでSharePoint上のデータにアクセスしてみました。 | CCCMKホールディングス TECH LABの Tech Blog",
+      "url": "https://techblog.cccmkhd.co.jp/entry/2025/12/09/145235",
+      "summary": "CCCCMKホールディングスAIエンジニアの三浦です。2025年が迫る中、多くの技術イベントに参加して学びと体力維持を意識。最近はデータ取り込み〜可視化を一元化するSaaS型統合データ分析プラットフォームMicrosoft Fabricを調査しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T05:52:35.000Z",
+      "contentHash": "f177ab1463d9"
+    },
+    {
+      "id": "0f81d8553bdd",
+      "title": "EarthRover Mini+ の概要",
+      "url": "https://note.com/npaka/n/n22a1785aa8a6",
+      "summary": "小型モバイルロボット「EarthRover Mini+」の概要紹介。公式は複数国の4G対応を謳うが、日本国内での動作は未確認で、対応が確認できれば購入を検討したいという注意がある。",
+      "source": "npaka",
+      "publishedAt": "2025-12-09T05:40:28.000Z",
+      "contentHash": "f55b6ee53cb9"
+    },
+    {
+      "id": "ab579275109a",
+      "title": "Android Show: XR Edition 発表内容まとめ",
+      "url": "https://note.com/npaka/n/na67cf3c4d5f5",
+      "summary": "「Android Show: XR Edition」では、Galaxy XR向けの新機能が発表され、今後のXRデバイスの展望や進化するソフト・ハードの方向性が紹介されました。",
+      "source": "npaka",
+      "publishedAt": "2025-12-09T05:26:26.000Z",
+      "contentHash": "7291b2e845a6"
+    },
+    {
+      "id": "4cdaee91d928",
+      "title": "デザインが苦手なエンジニアのための Figma MCP活用入門 | クラウドワークス エンジニアブログ",
+      "url": "https://engineer.crowdworks.jp/entry/2025/12/09/141034",
+      "summary": "クラウドワークスの山﨑が、デザインが苦手なエンジニア向けにFigmaのMCP活用法を紹介。バックエンド寄りの経験からカンプの余白や色選びなど実務で困った点を解決する手法を解説する記事（Advent Calendar 2025・9日目）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T05:10:34.000Z",
+      "contentHash": "7ccbc7611d7d"
+    },
+    {
+      "id": "a80a61aa2d5e",
+      "title": "テストQAからプロセスQAへ ― 過渡期にいる自分の悩みと気づき | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/2025/12/09/140611",
+      "summary": "アソビューのQAエンジニアが、前期のテスト中心業務（エンハンス・新機能・探索的テスト・内部レビュー）での属人化や過剰・不明瞭な課題を振り返り、得た気づきを基に今期はプロセスQAへ転換し改善に挑む記録。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T05:06:11.000Z",
+      "contentHash": "f00eae12c513"
+    },
+    {
+      "id": "b875510adb22",
+      "title": "Terraformを使ってコードでAmazon Inspectorの指摘事項を管理する | SODA Engineering Blogのフィード",
+      "url": "https://zenn.dev/team_soda/articles/34a6863216bd8f",
+      "summary": "SODAのセキュリティエンジニア小竹が、Amazon Inspectorの通知過多によるアラート疲れを解消するため、2025/05/16リリースのTerraform AWS Providerを使った通知設定運用の改善手法を紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T04:53:36.000Z",
+      "contentHash": "4706afd070a1"
+    },
     {
       "id": "0c6f96774c75",
       "title": "Prompt Injection の観点についてまとめてみる | フレクトのクラウドblog",
       "url": "https://cloud.flect.co.jp/entry/2025/12/09/130000",
-      "summary": "LLMサービスのPrompt Injection対策。攻撃は直接（ユーザ入力）と間接（RAG等の参照データ汚染）に分類。まず攻撃経路を特定し、各経路ごとの手法（例:ペルソナ切替、コード注入等）を検討して防御を設計する。攻撃は進化中でAWSやPalo Altoの資料を参照すると良い。",
+      "summary": "LLMを使う開発者はセキュリティ責任を負い、SQLインジェクション同様にPrompt Injection（悪意ある指示で機密情報を奪う攻撃）への対策が必要だと山下氏が指摘する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T04:00:00.000Z",
-      "contentHash": "91a523fc9dfb"
+      "contentHash": "54639034ebb6"
     },
     {
       "id": "5adb864493d2",
       "title": "JavaScriptで文字列の長さを取得するときの差を言語仕様から深掘りしてみる | kubell Creator's Note",
       "url": "https://creators-note.chatwork.com/entry/2025/12/09/121214",
-      "summary": "String.lengthは内部でUTF-16のコードユニット数を返すため、絵文字などのサロゲートペアは2と数えられる。一方、スプレッド演算子は反復可能プロトコルでコードポイント単位に扱うため見た目の文字数で数えられる、という仕様差を言語仕様から解説している。",
+      "summary": "kubell Advent Calendar 2025の9日目。末竹(magcho)がJS仕様を読む趣味から、入力の文字数制限での文字数カウント問題を解説。String.lengthが絵文字など一部を正しく数えられない点を挙げ、正しい数え方を紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T03:12:14.000Z",
-      "contentHash": "8385dc341d4c"
+      "contentHash": "d43eb9f9060f"
     },
     {
       "id": "89b6dc542751",
       "title": "フレームワーク選定ガイド：LangChain / AutoGen / CrewAI / ADK / OpenAI Agents SDKで始めるAIエージェント開発 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
       "url": "https://recruit.group.gmo/engineer/jisedai/blog/agents-sdk/",
-      "summary": "LangChain、AutoGen、CrewAI、ADK、OpenAI Agents SDKの5つを比較。各フレームワークの構成・アーキテクチャ・オーケストレーション、強み・弱み・導入メリットと活用事例を示し、用途別の選定指針を解説。",
+      "summary": "次世代システム研究室のK.X.Dが、業務でのLLM活用に必須の「AIエージェント」構築向けフレームワーク（LangChain、AutoGen、CrewAI、ADK、OpenAI Agents SDK）を比較・解説し、選定基準や導入方法を示すガイド。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T03:10:55.000Z",
-      "contentHash": "8ec78d4b3429"
+      "contentHash": "16261a411cec"
     },
     {
       "id": "0e01025164c2",
       "title": "【Cloud Automator】ECSサービスのコスト最適化を支える新アクション「ECS: サービスのタスク数を変更」 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/change-ecs-service-task",
-      "summary": "Cloud AutomatorにECSサービスのタスク数やAuto Scaling設定をジョブで安全に変更する新アクション「ECS: サービスのタスク数を変更」を追加。時間帯・平日/休日でスケールを自動化して無駄な稼働コストを削減。DesiredCount直接変更とAuto Scaling（Min/Max）変更の2モードを提供し、実行履歴で運用ミスを防止。",
+      "summary": "Cloud Automatorに、ジョブからECSサービスのタスク数や自動スケーリング設定を安全に変更する新アクション「ECS: サービスのタスク数を変更」を追加。時間帯や平日/土日・祝日ごとの自動制御で無駄な稼働コストを削減できます。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T03:10:00.000Z",
-      "contentHash": "acd9cae8f0b4"
+      "contentHash": "78fed1a60c93"
     },
     {
       "id": "a4a965f0c834",
       "title": "【入社エントリ】AIにインタビューさせてみた | CareNet Engineersのフィード",
       "url": "https://zenn.dev/carenet/articles/6c9e192c31e990",
-      "summary": "2025年4月にケアネットへ新卒入社したヨシが、ChatGPTで情報収集→質問生成→回答→要約→添削の流れで入社記を作成。医療向けWebの運用・開発を担当し、若手で幅広く成長できる点とITで医療を支えるやりがいが入社理由。PHPを学びつつ小規模改修や機能追加を経験し、リリースで達成感を得ている。",
+      "summary": "2025年4月にケアネットへ新卒入社したヨシが、入社エントリ記事作成でChatGPTを活用した体験記。Deep ResearchやZennで情報収集し、質問生成→回答→要約→修正→添削をAIと協働で進めた流れを紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T03:05:38.000Z",
-      "contentHash": "71f106d498ab"
+      "contentHash": "74e28e63167d"
     },
     {
       "id": "dd4ffc4b10b0",
@@ -272,6 +335,15 @@
       "contentHash": "fe5ff79c5b38"
     },
     {
+      "id": "b0bfca7aae4b",
+      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+      "url": "https://openai.com/index/deutsche-telekom-collaboration",
+      "summary": "OpenAIはDeutsche Telekomと提携し、欧州の数百万人に高度な多言語AI体験を提供する。またChatGPT Enterpriseを導入し、同社社員の業務効率化とイノベーション加速を支援する。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-09T00:00:00.000Z",
+      "contentHash": "e6f62926337b"
+    },
+    {
       "id": "485fa3d7e99d",
       "title": "Kroger acknowledges that its bet on robotics went too far",
       "url": "https://www.grocerydive.com/news/kroger-ocado-close-automated-fulfillment-centers-robotics-grocery-ecommerce/805931/",
@@ -356,10 +428,10 @@
       "id": "e691743ec829",
       "title": "The best iPad deals you can get right now",
       "url": "https://www.theverge.com/21280354/best-ipad-deals-apple",
-      "summary": "記事は現行のiPadセールを案内。基本iPadとiPad miniが最安の割引率で、iPad Airや最新のM5搭載iPad Proも値引き中。旧型M4 Proは在庫処分でさらに安くなることがあり、大手セール以外でも日々割引が変動すると伝える。",
+      "summary": "ブラックフライデー等の大型セール以外でもiPadの割引は頻繁に発生。最新のM5搭載iPad Proは早くも値下げ、在庫整理のM4 Proも割安に。The Vergeが各モデル（例：11世代は128GB・A16でBest Buy割引）をまとめて紹介。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T22:25:02.000Z",
-      "contentHash": "f69ec4116849"
+      "contentHash": "f67307efddbf"
     },
     {
       "id": "fd6af5361386",
@@ -392,37 +464,37 @@
       "id": "38f4f6605005",
       "title": "The 34 best gifts that your teen will actually use",
       "url": "https://www.theverge.com/tech/785418/best-teen-gift-ideas-2025",
-      "summary": "The Vergeが編集部の知見とスタッフのティーンの好みを基に、実際に使われるガジェットやグッズ34点を厳選して紹介するホリデー向けギフトガイド。予算別のおすすめも掲載。",
+      "summary": "The Vergeのスタッフが自身やスタッフの子どもの流行を踏まえ、ティーンに喜ばれるホリデー向けギフトを厳選して紹介。最新のiPhoneやNintendo Switch 2など定番から旬のガジェットまで網羅。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T21:30:45.000Z",
-      "contentHash": "25b5dd20efc0"
+      "contentHash": "fdb3bee179d9"
     },
     {
       "id": "96935e4927b7",
       "title": "Icons in Menus Everywhere – Send Help",
       "url": "https://blog.jim-nielsen.com/2025/icons-in-menus/",
-      "summary": "メニューの全項目にアイコンを付けるデフォルト方針を批判。Google SheetsやmacOS Tahoeの例を挙げ、アイコンは有用でも無差別配置はノイズになり、項目ごとの慎重な判断が必要と主張。",
+      "summary": "記事は、メニューの全項目に無差別にアイコンを付ける流行を批判。Google SheetsやmacOS Tahoeを例に、視覚的ノイズや認知負荷を招くとして、用途ごとに慎重に使うべきと主張する。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T19:44:00.000Z",
-      "contentHash": "9f8bc73973fd"
+      "contentHash": "8a460bc304dc"
     },
     {
       "id": "14df76423a1e",
       "title": "The Apple Watch Series 11 just got a big $100 discount ahead of the holidays",
       "url": "https://www.theverge.com/gadgets/840161/apple-watch-series-11-holiday-deal-sale-2025",
-      "summary": "Apple Watch Series 11がホリデー前に大幅値下げ。42mm GPSが$299、46mm GPSが$329でAmazon・Walmart・Best Buyで販売、いずれも$100オフの過去最安値です。",
+      "summary": "Apple Watch Series 11の42mm GPSモデルがAmazon/Walmart/BestBuyで過去最安の$299（$100引）に。46mmは$329。バッテリ最大24時間、耐久性向上、Cellularは省電力5Gを搭載しSeries10の機能を継承。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T19:17:59.000Z",
-      "contentHash": "200f16df5f70"
+      "contentHash": "2b4e458140ac"
     },
     {
       "id": "b475c5716d74",
       "title": "Anthropic is bringing Claude Code to Slack",
       "url": "https://www.theverge.com/news/839817/anthropic-claude-code-slack-integration",
-      "summary": "AnthropicのClaudeがSlackでコード対応に。Claudeをタグ付けすると自動でコーディングタスクを判定し、スレッド文脈や認証済リポジトリを使ってClaude Codeへルーティング。ベータで既存アプリに統合。",
+      "summary": "SlackでメッセージやスレッドにClaudeをタグ付けすると、内容を自動判定してコード関連ならスレッド文脈と認証済みリポジトリを使いClaude Codeへルーティングする機能がベータで公開。明示してコーディング依頼も可能で、バグ調査などが容易に行える。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T19:01:00.000Z",
-      "contentHash": "a22c3c574a16"
+      "contentHash": "bda9148bbf2c"
     },
     {
       "id": "edd626196cb3",
@@ -455,37 +527,37 @@
       "id": "324d3fe3388b",
       "title": "Lenovo’s next gaming laptop may have a rollable OLED screen that stretches ultrawide",
       "url": "https://www.theverge.com/news/840124/lenovo-rollable-legion-pro-gaming-laptop-rumor",
-      "summary": "Lenovoがロール式OLED搭載のゲーミングノート「Legion Pro Rollable」を計画中。画面を左右に伸ばして21:9のウルトラワイド化する仕様とされ、ThinkBook Plus Gen6の展開技術の応用。詳細は未発表でCESでの発表が噂。",
+      "summary": "Lenovoは縦拡張のロール式OLEDを搭載したThinkBook Plus Gen 6に続き、横に伸びるロール式OLEDで画面を21:9のウルトラワイド化し、左右の端が筐体外へ大きく広がるゲーミングノート「Legion Pro Rollable」を投入する可能性がある。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T18:33:51.000Z",
-      "contentHash": "187fc5d15da9"
+      "contentHash": "f70e1262ba7e"
     },
     {
       "id": "839cd423bb80",
       "title": "It’s ugly, it’s beautiful, it’s how you know a game might be a classic",
       "url": "https://www.theverge.com/entertainment/840080/square-enix-hd2d-games-octopath-dragon-quest",
-      "summary": "大作が似通う中、スクエニのHD-2Dは新たな表現を切り開いた。『オクトパストラベラー0』はその到達点で、往年の名作への敬意と新作の評価基準を示す。",
+      "summary": "大予算ゲームは投資回収のためパブリッシャーがリスク回避し、半リアルな荒野やピクサー風ヒーローなど似た作風が量産されがちだが、Octopath Traveler 0は新たな視覚表現を切り拓く例だ。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T18:30:00.000Z",
-      "contentHash": "e0c057026a27"
+      "contentHash": "bf93091a0d58"
     },
     {
       "id": "d69b34ab3f7a",
       "title": "ICEBlock developer sues Trump administration over App Store removal",
       "url": "https://www.theverge.com/news/840164/iceblock-joshua-aaron-sues-trump-administration-apple-app-store-removeal",
-      "summary": "ICEBlock開発者ジョシュア・アーロンが、ボンディ司法長官らトランプ政権幹部を相手取り、Appleにアプリ削除を強要したとして提訴。Appleは10月にアプリを削除。政府はコメント控え。",
+      "summary": "ICEBlock開発者ジョシュア・アーロンが、アプリ削除をアップルに圧力したとしてパム・ボンディらトランプ政権の連邦当局者を提訴。アーロンは「反撃する」と表明した。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T18:25:33.000Z",
-      "contentHash": "f79f707bf917"
+      "contentHash": "ee7e066d1df1"
     },
     {
       "id": "ab09c989ca23",
       "title": "A first look at Google’s Project Aura glasses built with Xreal",
       "url": "https://www.theverge.com/tech/839392/project-aura-android-xr-software-headsets-ai-glasses",
-      "summary": "GoogleとXrealの共同開発「Project Aura」は2026年発売予定の“有線XRグラス”。サングラス風の外観で左にバッテリ兼トラックパッドがあり、Androidアプリを動かしPCとワイヤレス接続して約70度の仮想デスクトップを表示するヘッドセットだと説明されている。",
+      "summary": "GoogleとXrealの共同開発「Project Aura」は、Google I/Oで公開されたAndroid XRの第2弾で、2026年発売予定。サングラス風だが左側にケーブルとバッテリーパック兼トラックパッドがあり、Googleは「メガネのようなヘッドセット」と説明している。",
       "source": "The Verge",
       "publishedAt": "2025-12-08T18:00:00.000Z",
-      "contentHash": "4193bc42c0b6"
+      "contentHash": "7696fd5097fa"
     },
     {
       "id": "ceb05d76f80a",
@@ -509,10 +581,10 @@
       "id": "b309bfe29a3d",
       "title": "We collected 10k hours of neuro-language data in our basement",
       "url": "https://condu.it/thought/10k-hours",
-      "summary": "過去6か月で約1万時間、数千人分の非侵襲脳データを収集し、思考→テキスト化モデルを訓練。被験者はヘッドセットを付け2時間LLMと自由会話や読書・入力を行い、DeepgramやOSS120B等を使用。運用とMLの知見を得るため初期課題を自由会話中心に改めた。",
+      "summary": "「1万時間」説は単純化された目安に過ぎないとし、習熟は時間だけで決まらないと主張。質の高い意図的練習、適切なフィードバック、個人差や環境、休息やコーチの有無などが重要で、分野ごとに必要時間は異なると論じる。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T17:33:13.000Z",
-      "contentHash": "6497e8abebe3"
+      "contentHash": "2193d8e4b582"
     },
     {
       "id": "77691a499ebd",
@@ -1049,10 +1121,10 @@
       "id": "e41ac15a83b2",
       "title": "X-VLA の概要",
       "url": "https://note.com/npaka/n/nd3f000d74bd6",
-      "summary": "X-VLAは、ロボット固有の身体性やセンサー差を学習可能なソフトプロンプトで符号化し、単一のTransformerで多様なロボット・タスクに適応するVLA。29万エピソードで学習した0.9Bは、わずか1%（9M）の調整で高性能を達成し、実ロボットでも高い器用性を示す。",
+      "summary": "記事本文またはリンクを貼っていただけますか？内容がないと正確に要約できません。本文をいただければ200文字以内で要約します。もしタイトルだけでよければ、その旨を教えてください（仮要約を作成します）。",
       "source": "npaka",
       "publishedAt": "2025-12-08T07:06:59.000Z",
-      "contentHash": "9879fb72dfeb"
+      "contentHash": "46fb1b1b8856"
     },
     {
       "id": "f174c18a2dec",
@@ -2228,10 +2300,10 @@
       "id": "bd624e3f13a5",
       "title": "AMD ROCm と LeRobot によるロボットVLMのファインチューニング",
       "url": "https://note.com/npaka/n/nd22844facb78",
-      "summary": "ROCmとLeRobotで3Bの事前学習VLM「Pi0」をAMD MI200上でファインチューニングし、Phoenix AI PCにデプロイ。双腕ロボットのピック＆プレースを少量データでリアルタイム推論できることを示し、学習からエッジ展開までの流れを実演。",
+      "summary": "記事本文が提示されていないため正確に要約できません。本文を貼るかURLを教えてください。本文が無い場合は「Fine-tuning Robotics Vision Language Action Models with AMD ROCm and LeRobot」のタイトルからの推測要約（事実未確認）を200文字以内で作成しますが、どちらにしますか？",
       "source": "npaka",
       "publishedAt": "2025-12-04T19:05:42.000Z",
-      "contentHash": "ba7e2374a8ee"
+      "contentHash": "91caec8999de"
     },
     {
       "id": "241f77b203d9",
@@ -2282,10 +2354,10 @@
       "id": "182a8b7226b8",
       "title": "Kling O1 の概要",
       "url": "https://note.com/npaka/n/n1ab6a0873f26",
-      "summary": "Kling O1は世界初の統合型マルチモーダル動画モデル。MVLで言語を軸に画像・動画・主体を統合理解し、テキストや素材の組合せで生成・編集・再現をワンストップで直感的に行える創作エンジン。",
+      "summary": "記事は「Kling O1（Video O1）」の概要と利用ガイドをまとめた内容で、製品の特徴、基本操作、利用上の注意点などを分かりやすく解説しています。詳細はガイド本文を参照してください。",
       "source": "npaka",
       "publishedAt": "2025-12-02T21:03:09.000Z",
-      "contentHash": "4aab05938b12"
+      "contentHash": "18c64c035278"
     },
     {
       "id": "0d851cc96d24",
@@ -2300,10 +2372,10 @@
       "id": "643f709e602c",
       "title": "Transformers v5 の概要",
       "url": "https://note.com/npaka/n/n1d9d1aafab55",
-      "summary": "Transformers v5がリリース。利用は急増（1日300万、累計12億）、対応モデルは40→400超、チェックポイント75万超に拡大。v5は「シンプルさ・学習・推論・プロダクション」を重視し、モジュール化、AttentionInterfaceやモデル変換ツールでモデル定義の簡素化とコード削減を進める。",
+      "summary": "Transformers v5はモデル定義を簡素化し、統一APIで互換性と拡張性を向上。実装・推論の最適化やツール連携を強化し、AIエコシステムの導入と運用を容易にする。",
       "source": "npaka",
       "publishedAt": "2025-12-02T02:11:46.000Z",
-      "contentHash": "61eafd1455fa"
+      "contentHash": "253f4b243b55"
     },
     {
       "id": "946bf5413869",
@@ -2372,10 +2444,10 @@
       "id": "083e6029f7c5",
       "title": "X (旧Twitter) でサムネイルを更新する方法",
       "url": "https://note.com/npaka/n/nc6b0d82972b0",
-      "summary": "Xにリンクを投稿してサムネが更新されないのはOGPがURLごとにキャッシュされるため。Twitter Card ValidatorにURLを入れて「Preview card」を押しリフレッシュし、再投稿すれば新しいサムネが表示されます。",
+      "summary": "Xにリンクを投稿してもサムネイルが古いままになることがある。原因はXがURLごとにOGPをキャッシュしているためで、専用ツールでURLのOGPをリフレッシュすれば更新される。",
       "source": "npaka",
       "publishedAt": "2025-11-30T11:28:57.000Z",
-      "contentHash": "cfb6d6304604"
+      "contentHash": "2ceecab54609"
     },
     {
       "id": "600e59f035b6",
@@ -8892,76 +8964,6 @@
       "source": "Gemini",
       "publishedAt": "2025-11-19T17:00:00.000Z",
       "contentHash": "5f4e7fcbce6a"
-    },
-    {
-      "id": "0c163c0a617c",
-      "title": "DeNAの「挑戦させてくれる」文化に飛び込んでみた",
-      "url": "https://engineering.dena.com/blog/2025/11/intern-blog-miyoshi/",
-      "summary": "DeNAの2週間の学生向け短期インターンで、AWSインフラのTerraformコード化に挑戦しました。未経験でも意欲があれば積極的に任せてもらえる環境が魅力です。過去のGitHub議論を参照しつつ、CloudFrontとS3のモジュール間の循環参照問題を解決するなど実践的に学べました。技術勉強会も活発で、多くの刺激を受ける貴重な経験となりました。",
-      "source": "DeNA Engineering on DeNA Engineering",
-      "publishedAt": "2025-11-19T15:00:00.000Z"
-    },
-    {
-      "id": "0ab341d09de4",
-      "title": "VAP導入によるカスケード型音声対話システムの自然化 — 割り込みと相槌に対応する音声対話の設計",
-      "url": "https://engineering.dena.com/blog/2025/11/intern-ai-25-takagi/",
-      "summary": "本記事は、カスケード型音声対話システムの課題である対話制御の欠如を改善するため、対話中の発話割り込みに対応可能なシステムを設計・開発した内容を紹介する。Voice Activity Projection技術を用い、相槌判定や発話続行の制御、適切な相槌挿入を実現し、より自然な双方向対話を可能にした。",
-      "source": "DeNA Engineering on DeNA Engineering",
-      "publishedAt": "2025-11-19T15:00:00.000Z"
-    },
-    {
-      "id": "8dbcc33d5213",
-      "title": "Strengthening our safety ecosystem with external testing",
-      "url": "https://openai.com/index/strengthening-safety-with-external-testing",
-      "summary": "OpenAIは独立した専門家と協力して最先端AIを評価しており、第三者テストは安全性の強化、保護策の検証、モデルの能力やリスク評価の透明性向上に役立つ。",
-      "source": "OpenAI",
-      "publishedAt": "2025-11-19T12:00:00.000Z",
-      "contentHash": "7c27da580d9e"
-    },
-    {
-      "id": "43cb7efd66ff",
-      "title": "How evals drive the next chapter in AI for businesses",
-      "url": "https://openai.com/index/evals-drive-next-chapter-of-ai",
-      "summary": "Evals（評価）を使って企業がAIの性能を定義・測定・改善する方法を解説し、リスク低減・生産性向上・戦略的優位の獲得につながることを示す。",
-      "source": "OpenAI",
-      "publishedAt": "2025-11-19T11:00:00.000Z",
-      "contentHash": "b12747de99d0"
-    },
-    {
-      "id": "446f0739d557",
-      "title": "OpenAI and Target team up on new AI-powered experiences",
-      "url": "https://openai.com/index/target-partnership",
-      "summary": "OpenAIとTargetが提携し、ChatGPT上で個別化された買い物体験と高速チェックアウトを提供するTargetアプリを導入。TargetはChatGPT Enterpriseの活用も拡大し、生産性と顧客体験を向上させる。",
-      "source": "OpenAI",
-      "publishedAt": "2025-11-19T06:00:00.000Z",
-      "contentHash": "b25530d3fffe"
-    },
-    {
-      "id": "ebd316bbcf8c",
-      "title": "π*0.6 と Recap の概要",
-      "url": "https://note.com/npaka/n/n2b7f6bc907c8",
-      "summary": "記事本文かURLを貼っていただけますか？現在の投稿にはタイトルしかありません。「π*0.6: a VLA that Learns from Experience」の内容を教えていただければ、200文字以内で日本語要約します。",
-      "source": "npaka",
-      "publishedAt": "2025-11-19T02:17:11.000Z",
-      "contentHash": "95c2ad5aad74"
-    },
-    {
-      "id": "13d4a9bfec63",
-      "title": "GPT-5.1-Codex-Max System Card",
-      "url": "https://openai.com/index/gpt-5-1-codex-max-system-card",
-      "summary": "本システムカードはGPT‑5.1‑CodexMaxの包括的な安全対策を示す。危険なタスクやプロンプト注入に対する専用の安全学習などモデル側の緩和策と、エージェントのサンドボックス化やネットワークアクセスの設定可能化など製品側の対策を記載している。",
-      "source": "OpenAI",
-      "publishedAt": "2025-11-19T00:00:00.000Z",
-      "contentHash": "676c99a0c97a"
-    },
-    {
-      "id": "2df23bb130f3",
-      "title": "Teacher Access Terms",
-      "url": "https://openai.com/policies/education-terms",
-      "summary": "Teacher Access Termsは、本人確認済みの教育者がChatGPT for Teachersを利用する際の利用資格、アカウント管理方法、及びデータプライバシー要件を定めた規約です。",
-      "source": "OpenAI",
-      "publishedAt": "2025-11-19T00:00:00.000Z",
-      "contentHash": "b78b3242b874"
     }
   ]
 }
