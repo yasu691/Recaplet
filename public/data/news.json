@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2025-12-09T12:51:18.700Z",
+  "generatedAt": "2025-12-09T13:49:16.948Z",
   "items": [
+    {
+      "id": "1d5624dbc825",
+      "title": "iFixit’s FixBot helps with repairs ‘the way a master technician would’",
+      "url": "https://www.theverge.com/news/840570/ifixit-app-android-ios-fixbot-ai",
+      "summary": "DIY修理サイトiFixitがiOS/Androidアプリを公開。修理ガイドやバッテリー診断、所有機器登録、工具・部品購入に加え、同ガイドで学習したAIチャット「FixBot」が修理やトラブル対応を支援。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-09T13:00:00.000Z",
+      "contentHash": "fc910c981164"
+    },
     {
       "id": "ce6a9dd53d83",
       "title": "The war on disinformation is a losing battle",
@@ -23,19 +32,19 @@
       "id": "8b5993ac7f69",
       "title": "低コスト・オープンソースのロボットハンド Amazing Hand のススメ",
       "url": "https://note.com/npaka/n/nf59d85ba3538",
-      "summary": "POLLEN（Hugging Face系）開発のオープンソース4本指ロボットハンド「Amazing Hand」は、3Dプリント＋市販サーボで8自由度を実現。Seeedでキット販売中。SDKでテレオペ、データ収集、センサーストリーミングに対応し、低コストでロボットハンド入門に適する。",
+      "summary": "POLLEN（Hugging Face傘下）開発の、3Dプリントと市販サーボで作れる低コストなオープンソース4本指・8自由度ロボットハンド。Seeed Studioでキット販売。公式SDKでテレオペ（グローブ/カメラ）、データ収集、AI学習に対応し入門に適するが万能ではない。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:12:06.000Z",
-      "contentHash": "8ae8116e6f19"
+      "contentHash": "96092448d231"
     },
     {
       "id": "7e983d2c4634",
       "title": "Android XR SDK Developer Preview 3 の概要",
       "url": "https://note.com/npaka/n/nbc9cb6f50d5b",
-      "summary": "Android XR SDK Developer Preview 3は、AIグラス向けのハンズフリーなAugmented ExperiencesとGalaxy XR等の没入型体験を支援。Jetpack Projected、Jetpack Compose Glimmer、AIグラスエミュレータ、ARCore拡張、SceneCoreやCompose for XRの機能強化を含む。",
+      "summary": "Android XR SDK Developer Preview 3が公開され、AIグラス向けのAugmented Experiencesをサポート。Jetpack Projected、Jetpack Compose Glimmer、Android StudioのAIグラスエミュレータ、ARCore拡張（モーショントラッキング・地理空間）を追加し、Galaxy XRなどの没入型デバイス向け機能やSceneCore/Compose for XRの強化も行われた。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:07:27.000Z",
-      "contentHash": "9e2529c123de"
+      "contentHash": "358564ab0a5b"
     },
     {
       "id": "a70f6dc6e989",
@@ -45,6 +54,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-09T11:00:00.000Z",
       "contentHash": "3bfca39c7756"
+    },
+    {
+      "id": "ffe2cb8ed561",
+      "title": "TSKaigi Hokuriku 2025 参加レポート | チームラボ　フロントエンド班のフィード",
+      "url": "https://zenn.dev/teamlab_fe/articles/8a96282a2d13d4",
+      "summary": "チームラボ フロントエンド班は金沢で開かれたTSKaigi Hokuriku 2025にゴールドスポンサーとして参加。ブース出展やLT・登壇（型で守る個人情報、tsc --initの変遷、TC39 Signals、oxc-transform＋isolatedDeclarations）で交流を行い、懇親会で地元の海鮮を楽しんだ。登壇資料一覧も掲載。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T10:56:27.000Z",
+      "contentHash": "e2787c1308bb"
     },
     {
       "id": "074f5469a883",
@@ -104,10 +122,10 @@
       "id": "c387f03547dd",
       "title": "Unitree Go2をteleopしてみた | NTT docomo Business Engineers' Blog",
       "url": "https://engineers.ntt.com/entry/202512-advent-calendar-day9/entry",
-      "summary": "NTTドコモBusiness Advent Calendar 2025の9日目記事。Unitree Go2はEclipse Cyclone DDSを使うがDDSはNAT越え不可。コミュニティ事例を参考にDDSをZenohへブリッジし、zenoh-plugin-ros2ddsでInternet越しにDDSメッセージを送受信する手法を適用・検証する内容。",
+      "summary": "Unitree Go2はROSでCyclone DDSを使うためNAT越えが困難。記事ではZenoh＋zenoh-plugin-ros2ddsでDDSをブリッジし、Azure VMからインターネット越しにJetson搭載Go2をキーボード操作する手順を解説します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T09:09:09.000Z",
-      "contentHash": "734da2e8f3bc"
+      "contentHash": "da3c840b2ba3"
     },
     {
       "id": "dc08d5ab1261",
@@ -698,10 +716,10 @@
       "id": "02c64a4be1a4",
       "title": "Show HN: I built a system for active note-taking in regular meetings like 1-1s",
       "url": "https://withdocket.com",
-      "summary": "定期ミーティングや1on1で、会議中に要点を能動的に箇条で取る専用ノートツールを自作。議題・合意・アクションや履歴追跡に対応し、無料プランで試用可。",
+      "summary": "定期ミーティング（特に1on1）で議事録やAI要約でなく、会話中に要点を短い箇条で取る専用ツールを自作。履歴やアクション管理ができ、無料で登録不要。感想募集中。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T22:21:26.000Z",
-      "contentHash": "cc1576aba40c"
+      "contentHash": "1314cff7ec2c"
     },
     {
       "id": "fd6af5361386",
@@ -8960,22 +8978,6 @@
       "summary": "TeamGroupの新型ポータブルSSD「T-Create Expert P35S」は、ボタン一つで内部データを完全に消去する「自己破壊機能」を搭載。シャッター式スイッチで誤作動を防ぎ、USB-C接続時のみ作動。256GBから2TBまで容量展開あり。機密データ管理が必要なユーザー向けで、一般消費者の通常使用には向かない。",
       "source": "The Verge",
       "publishedAt": "2025-11-21T19:19:56.000Z"
-    },
-    {
-      "id": "c12bd19b2f61",
-      "title": "[Launched] Generally Available: Custom handler support in Azure Functions Flex consumption ",
-      "url": "https://azure.microsoft.com/updates?id=512413",
-      "summary": "Azure FunctionsのFlex消費プランでカスタムハンドラーがサポートされました。カスタムハンドラーは軽量のウェブサーバーで、Functionsホストからのイベントを受け取ります。HTTP機能を持つ任意の言語で実装可能で、多様な言語環境での柔軟な関数実行を実現します。",
-      "source": "Azure service updates",
-      "publishedAt": "2025-11-21T19:15:38.000Z"
-    },
-    {
-      "id": "9eeff29d0360",
-      "title": "Retirement: Migrate to dedicated VM for your compute clusters",
-      "url": "https://azure.microsoft.com/updates?id=501658",
-      "summary": "Low-Priority VMは2025年9月30日にサポート終了となりますが、Azure Machine Learningのサポートは2026年3月31日まで継続されます。クラスタの自動縮小を防ぐため、専用VMへの移行が推奨されています。",
-      "source": "Azure service updates",
-      "publishedAt": "2025-11-21T18:45:18.000Z"
     }
   ]
 }
