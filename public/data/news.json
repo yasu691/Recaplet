@@ -1,6 +1,51 @@
 {
-  "generatedAt": "2025-12-09T10:35:05.199Z",
+  "generatedAt": "2025-12-09T11:31:03.692Z",
   "items": [
+    {
+      "id": "8b5993ac7f69",
+      "title": "低コスト・オープンソースのロボットハンド Amazing Hand のススメ",
+      "url": "https://note.com/npaka/n/nf59d85ba3538",
+      "summary": "「Amazing Hand」はPOLLEN（Hugging Face傘下）開発の低コスト・オープンソース4本指8自由度ロボットハンド。3Dプリント部品と市販サーボで自作可能、Seeed Studioがキット販売。テレ操作（グローブやカメラ）、データ収集、センサーストリーミングやSDKに対応し、AI学習や研究の敷居を下げる。",
+      "source": "npaka",
+      "publishedAt": "2025-12-09T11:12:06.000Z",
+      "contentHash": "3d78a98a3245"
+    },
+    {
+      "id": "7e983d2c4634",
+      "title": "Android XR SDK Developer Preview 3 の概要",
+      "url": "https://note.com/npaka/n/nbc9cb6f50d5b",
+      "summary": "Android XR SDK Developer Preview 3を公開。AIグラス向けAugmented Experiences対応やJetpack Projected／Compose Glimmer、AIグラスエミュレータ、ARCore拡張、SceneCore強化でXRと没入体験を拡充。",
+      "source": "npaka",
+      "publishedAt": "2025-12-09T11:07:27.000Z",
+      "contentHash": "3bd1a22811d6"
+    },
+    {
+      "id": "a70f6dc6e989",
+      "title": "RAM is ruining everything",
+      "url": "https://www.theverge.com/report/839506/ram-shortage-price-increases-pc-gaming-smartphones",
+      "summary": "AI企業がデータセンター向けに大量のDRAMを買い占め、メモリメーカーがそちらを優先供給した結果、PC向けメモリ価格が急騰。スマホやノート、SSD、ゲーム機など幅広い製品にも価格上昇が波及する見込み。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-09T11:00:00.000Z",
+      "contentHash": "3bfca39c7756"
+    },
+    {
+      "id": "074f5469a883",
+      "title": "あるべき姿に近づく！テストファーストな開発フロー | Goodpatch Tech Blog",
+      "url": "https://goodpatch-tech.hatenablog.com/entry/test-first-dev-flow",
+      "summary": "テストファースト開発の実践を紹介。観点整理→テストケース作成→実装→テストを並行させる流れで品質向上と仕様合意が容易に。生成AIと相性が良い一方、初期コストや過剰設計に注意。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T10:55:56.000Z",
+      "contentHash": "e3303c6905c6"
+    },
+    {
+      "id": "4db8b3188f83",
+      "title": "Gitの代わりにJujutsuを使い始めて1ヶ月 | STORES Product Blog",
+      "url": "https://product.st.inc/entry/2025/12/09/191758",
+      "summary": "Webエンジニアの筆者が1か月Jujutsu（jj）を業務導入。既存Gitで利用可。ステージ不要で「チェンジ」単位の管理、履歴編集や作業切替が容易、ブランチ名自動生成が便利。情報は少なくAIが誤答することもあるが2週で慣れ、引き続き使用を勧める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T10:17:58.000Z",
+      "contentHash": "289ebd1ae341"
+    },
     {
       "id": "e7b04592c46e",
       "title": "Google Zero is under investigation by the EU",
@@ -9,6 +54,33 @@
       "source": "The Verge",
       "publishedAt": "2025-12-09T10:12:39.000Z",
       "contentHash": "046b37d98545"
+    },
+    {
+      "id": "ac15cda7dd8d",
+      "title": "走りながら学ぶ、AI時代のエンジニアリング学習法 | asken テックブログ",
+      "url": "https://tech.asken.inc/entry/20251210",
+      "summary": "データサイエンティストがAIツールでエンジニアに挑戦。AIで「作る」速度は上がるが基礎不足で格差が生じる。対策はトップダウンで動くものを作り、ボトムアップで理由を深掘りするハイブリッド学習。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T10:00:00.000Z",
+      "contentHash": "25e7a35951a1"
+    },
+    {
+      "id": "3a768500dd1d",
+      "title": "OpenShift Virtualization 上の VM を 直接物理ネットワークと通信できるようにしよう ! | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/2025/12/09/182633",
+      "summary": "OpenShift VirtualizationでVMを物理ネットワークと直接L2通信させるには、Secondary network interfaceを利用します。OVN layer2/localnet、SR-IOV、Linux bridge等の方式があり、別IPレンジとタグVLANでNATを回避して外部と接続可能。設定はYamlで柔軟に行えます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T09:26:33.000Z",
+      "contentHash": "2756e0f1e692"
+    },
+    {
+      "id": "c387f03547dd",
+      "title": "Unitree Go2をteleopしてみた | NTT docomo Business Engineers' Blog",
+      "url": "https://engineers.ntt.com/entry/202512-advent-calendar-day9/entry",
+      "summary": "Unitree Go2は標準のCyclone DDSがNAT越えできないため、zenohとブリッジ（zenoh‑plugin‑ros2dds）でDDSをインターネット越しに中継。Jetson搭載Go2とAzure VM（両方Ubuntu22/ROS2 Humble）間でセンサ取得とキーボードによる遠隔操作を実装・検証した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T09:09:09.000Z",
+      "contentHash": "da3c840b2ba3"
     },
     {
       "id": "dc08d5ab1261",
@@ -32,19 +104,19 @@
       "id": "9283454506f2",
       "title": "Google Workspaceのセキュリティ管理を効率化！情報漏洩リスクを未然に防ぐチェックソリューションを開発 | HEROZ Tech Blog",
       "url": "https://techblog.heroz.jp/entry/2025/12/09/173200",
-      "summary": "クラウド普及で情報漏洩リスクが増大。特にGoogle Workspaceのアクセス権設定ミスやGoogleグループの公開設定で機密漏洩が多発。本記事は管理者向けに弊社のGoogle Workspaceセキュリティ管理効率化チェックソリューションを紹介します。",
+      "summary": "弊社は、Google Workspaceの設定ミスによる情報漏洩防止のため、Driveの「リンクを知っている全員」公開や共有ドライブ権限、Googleグループの閲覧設定を自動検出し、目視チェックを大幅に削減する低コストのセキュリティ管理ソリューションを開発しました。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T08:32:00.000Z",
-      "contentHash": "5b2782f72bda"
+      "contentHash": "4c7e786b32bb"
     },
     {
       "id": "be6a2c6b607f",
       "title": "LLMの品質を可視化！Langfuseで実現する自動評価システムの構築 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/2025/12/09/173103",
-      "summary": "前回のLangfuseによるLLMトレース可視化に続き、本記事はLangfuseの「評価」機能でLLMの回答を自動採点し、スコアをダッシュボードでリアルタイム表示する手順を解説。前提はLangfuse展開済み、RAGシステム、Python3.9以上、OpenAI APIキー等。",
+      "summary": "Langfuseの評価機能で、社内ナレッジを使うRAGチャットの回答品質を自動で数値化・ダッシュボード表示。Context PrecisionやFaithfulnessで継続監視し、AWS(Bedrock)権限付与やOpenAIキー、Python環境で設定する手順を解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T08:31:03.000Z",
-      "contentHash": "b3fd04b9e0f0"
+      "contentHash": "49b214278792"
     },
     {
       "id": "f675f83dd8a4",
@@ -212,10 +284,10 @@
       "id": "d43f83d763c8",
       "title": "Modern Walkmans",
       "url": "https://walkman.land/modern",
-      "summary": "リンク先に直接アクセスできないため、記事本文をここに貼っていただけますか？あるいは要点（主題、結論、重要な事実など）を教えていただければ、それを200文字以内で日本語に要約します。",
+      "summary": "現代のカセットプレーヤーを紹介。Aurex AX‑W10C、Byron Statics、DIGITNOW!、FiiO CP13ほか全11機種。BluetoothやUSB給電、録音、AUX、オートリバース、長時間駆動などデジタル機能を備えつつ音質や作り、価格に差あり。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T04:57:53.000Z",
-      "contentHash": "ea926dd27f9e"
+      "contentHash": "e326e12cb32e"
     },
     {
       "id": "b875510adb22",
@@ -599,10 +671,10 @@
       "id": "02c64a4be1a4",
       "title": "Show HN: I built a system for active note-taking in regular meetings like 1-1s",
       "url": "https://withdocket.com",
-      "summary": "定期ミーティングで議事録やAI要約でなく、リアルタイムに箇条で要点・アクションを能動的に取る重要性を説き、既存ツールに不満で専用ツールを作成。無料で登録不要で試せる。",
+      "summary": "著者は定期的な1on1や会議で、会話中に要点を短い箇条書きで能動的にメモする手法が有効と実感。既存ツールに不満で専用のノートツールを自作し友人と使用中。行動管理や履歴確認ができ、無料で登録不要の試用も可能。感想を募集中。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T22:21:26.000Z",
-      "contentHash": "71cc3695fe96"
+      "contentHash": "a348f72df98a"
     },
     {
       "id": "fd6af5361386",
@@ -644,10 +716,10 @@
       "id": "1cec5bd693f2",
       "title": "GitHub no longer uses Toasts",
       "url": "https://primer.style/accessibility/toasts/",
-      "summary": "Primerの解説：トースト通知は画面リーダー用にARIAライブ領域（非緊急はrole=\"status\"、緊急はrole=\"alert\"）を使い、フォーカス移動は避け、キーボードで閉じられ、自動消滅はホバーやフォーカスで一時停止、アニメはreduced-motionに配慮。重複通知や再読み上げの挙動にも注意。",
+      "summary": "GitHubはアクセシビリティや使い勝手の問題からトースト通知を廃止し、Primerの他の通知手法を推奨。単純な操作は画面反映で十分、複雑な処理には適切なフィードバックを用いるべき、という方針。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T19:58:41.000Z",
-      "contentHash": "c2d241da3119"
+      "contentHash": "16c7d31bcfb3"
     },
     {
       "id": "96935e4927b7",
@@ -671,10 +743,10 @@
       "id": "af46c6c504ca",
       "title": "Trials avoid high risk patients and underestimate drug harms",
       "url": "https://www.nber.org/papers/w34534",
-      "summary": "申し訳ありませんが、外部サイトを直接閲覧できないため本文を取得できません。記事本文をここに貼るか要点を教えていただければ、200文字以内で日本語要約を作成します。コメント欄も要約希望ならその旨を教えてください。",
+      "summary": "がん薬の試験は高リスク患者を回避し薬害を過小評価すると報告。治療開始で重篤有害事象入院が月+2ポイント（250%増）。高リスク者は影響2.5倍だが試験参加は4分の1。対象集団では有害事象が15%多く、25人につき年1回の追加入院に相当。代表性規制の必要性を論じる。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T19:07:59.000Z",
-      "contentHash": "6e70e8e05888"
+      "contentHash": "451232e01d09"
     },
     {
       "id": "b475c5716d74",
@@ -689,19 +761,19 @@
       "id": "edd626196cb3",
       "title": "Has the cost of building software dropped 90%?",
       "url": "https://martinalderson.com/posts/has-the-cost-of-software-just-dropped-90-percent/",
-      "summary": "すみません、外部リンクに直接アクセスできません。記事本文を貼るか主要な要点を教えてください。確認でき次第、200文字以内で日本語要約を作成します。",
+      "summary": "著者は20年の経験から、当初懐疑的だったがAIエージェントによる「エージェントコーディング」がソフト開発の労働コストを劇的に削減し、従来の複雑化を越えて2026年に産業を一変させ得ると主張、最大で90%のコスト低下も示唆。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T19:00:48.000Z",
-      "contentHash": "58c7c094497c"
+      "contentHash": "c84a824858ba"
     },
     {
       "id": "f96d87e6a7d1",
       "title": "Jepsen: NATS 2.12.1",
       "url": "https://jepsen.io/analyses/nats-2.12.1",
-      "summary": "JepsenのNATS 2.12.1解析では、JetStreamのクラスタ挙動で整合性違反やメッセージ喪失・重複が再現され、本番利用での安全性に問題があると報告された。開発者へ報告済みで、修正やアップデート／設定見直しが推奨される。",
+      "summary": "NATSのJetStreamはRaftで複製しat-least-onceと全順序を謳うが、Linearizabilityと常時可用性は両立しない。可用性はクォーラム依存で、3レプリカなら1台、5なら2台の同時喪失まで許容。公開確認は永続化を示し、耐久性は⌊N/2⌋+1のクォーラムが必要。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T18:51:03.000Z",
-      "contentHash": "ffccc3b7f6db"
+      "contentHash": "5b88dfde40e3"
     },
     {
       "id": "473bd1574dcd",
@@ -1310,10 +1382,10 @@
       "id": "e41ac15a83b2",
       "title": "X-VLA の概要",
       "url": "https://note.com/npaka/n/nd3f000d74bd6",
-      "summary": "X-VLAは各ロボットの身体性を学習可能なソフトプロンプトとして符号化し、単一Transformerで多様な機体・センサーを統合。29万エピで学習した0.9Bは1%調整(9M)で高性能を発揮し、実機でも優秀。",
+      "summary": "X-VLAは、機体ごとを学習可能な「ソフトプロンプト」として符号化し、単一のTransformerで多様なロボット差を吸収するVLA。7機体29万エピ学習で汎用ポリシーを獲得し、バックボーン凍結＋約1%のパラメータ調整で新機体へ高速適応、ベンチ・実機で高性能を示す。",
       "source": "npaka",
       "publishedAt": "2025-12-08T07:06:59.000Z",
-      "contentHash": "07dee34ede95"
+      "contentHash": "d4d563fb44a1"
     },
     {
       "id": "f174c18a2dec",
@@ -8903,76 +8975,6 @@
       "source": "Gemini",
       "publishedAt": "2025-11-21T17:00:00.000Z",
       "contentHash": "83e8bbb924f8"
-    },
-    {
-      "id": "d32152d2c594",
-      "title": "MS Ignite 2025 Day 3 - セキュリティとモダナイゼーションの実践 | Alternative Architecture DOJO",
-      "url": "https://aadojo.alterbooth.com/entry/2025/11/22/015557",
-      "summary": "MS Ignite3日目はAI時代のセキュリティ基盤構築とアプリモダナイゼーションが中心。BRK242ではゼロトラストをAIに適用する重要性を提示—AIエージェントの明示的検証（認証）、最小権限、侵害前提の継続監視、MFAの普及などを強調。複数のセッションとハンズオンに参加。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-21T16:55:57.000Z",
-      "contentHash": "9f82a3901097"
-    },
-    {
-      "id": "0df865e623c7",
-      "title": "16 Google AI tips for stress-free holiday hosting in 2025",
-      "url": "https://blog.google/products/pixel/google-holiday-hosting-tips-2024/",
-      "summary": "Googleは2025年のホリデー向けに、GeminiやSearch、PixelなどのAIでパーティー計画・料理・写真撮影・問い合わせ対応・トラブル解決を支援し準備負担を軽減すると紹介。生成AIは実験的とも明記。",
-      "source": "Gemini",
-      "publishedAt": "2025-11-21T16:00:00.000Z",
-      "contentHash": "b62f9a8630db"
-    },
-    {
-      "id": "a468820584a0",
-      "title": "4 ways to use AI for easier Black Friday and Cyber Monday shopping",
-      "url": "https://blog.google/products/shopping/black-friday-cyber-monday-shopping-tips-ai/",
-      "summary": "ブラックフライデーとサイバーマンデーに向け、AIツールを含むGoogleショッピングの機能の活用方法を詳しく学べます。",
-      "source": "Gemini",
-      "publishedAt": "2025-11-21T13:00:00.000Z",
-      "contentHash": "5dc7d5f84d61"
-    },
-    {
-      "id": "de4bdfbcab55",
-      "title": "CloudFront: マルチオリジン構成でSPAをホスティング | MNTSQ Techブログ",
-      "url": "https://tech.mntsq.co.jp/entry/2025/11/21/202209",
-      "summary": "ソフトウェアエンジニア森山が、CloudFrontでAPIと静的ファイルを別オリジンに分けてSPAをホスティングする構成を紹介。プライベートAPI遮断でカスタムエラーに困ったが、CloudFront Functionsで解決。S3にアセット、ALB経由でECSをバックエンドに配置。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-21T11:22:09.000Z",
-      "contentHash": "9c759b496e16"
-    },
-    {
-      "id": "7195a7192a3c",
-      "title": "Coding Agent はコード検索をいかに行っているか | LayerXのフィード",
-      "url": "https://zenn.dev/layerx/articles/2c3f87c0c767ca",
-      "summary": "LayerX AIエージェントブログリレー51日目。バクラク事業部CTOの@yyoshiki41が、Coding AgentなどAI開発ツールがコード検索をどう実現するかを解説。ChatGPT以前からのLLMによるコード生成の歴史（例：2021年のGitHub Copilot）にも触れる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-21T10:31:25.000Z",
-      "contentHash": "94982700c843"
-    },
-    {
-      "id": "d803e2db79a4",
-      "title": "Microsoft Ignite2025 参加レポート DAY3 | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2025/11/21/191853",
-      "summary": "ACS事業部の井田が現地参加するMicrosoft Ignite 2025 DAY3速報。Entra IDのAccess PackagesやAgentic DevOpsなどのセッション、休憩やまとめを含む現地の雰囲気レポート。詳細はオンデマンドで。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-21T10:18:53.000Z"
-    },
-    {
-      "id": "846b155f8577",
-      "title": "東洋大学で建築ビジュアライゼーションのワークショップをしてきました | vicc blog",
-      "url": "https://blog.vicc.jp/entry/toyouniv-archviz-lecture-workshop-2025-10",
-      "summary": "VIZの有澤氏が東洋大学でATA企画の西鍛冶氏と共にレクチャー兼ワークショップを実施。建築ビジュアライズの目的や構図・色・明暗を解説し、学生作品を講評。約20名が参加し好評、次回開催を検討。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-21T09:50:32.000Z"
-    },
-    {
-      "id": "973697d548c1",
-      "title": "Develop a deeper understanding with interactive images in Gemini.",
-      "url": "https://blog.google/outreach-initiatives/education/gemini-interactive-images/",
-      "summary": "学習科学は真の学びに能動的な関与が必要だと示す。Geminiはその考えに基づき、単なるテキストや静的コンテンツを超えて学習者の能動的参加を支援する。",
-      "source": "Gemini",
-      "publishedAt": "2025-11-20T20:30:00.000Z",
-      "contentHash": "ac4058372209"
     }
   ]
 }
