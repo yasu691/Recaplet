@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2025-12-08T23:32:22.038Z",
+  "generatedAt": "2025-12-09T01:24:52.136Z",
   "items": [
+    {
+      "id": "b2cc04687763",
+      "title": "フロントエンド弱者のPOがウェブアクセシビリティ勉強会をやってみた | JCB Tech Blog",
+      "url": "https://tech.jcblab.jp/entry/2025/12/09/090000",
+      "summary": "JCB Advent Calendar 2025（12/9）記事。JCBデジタルソリューション開発部の原田が、フロント経験が浅い中で学んだウェブアクセシビリティをJDEP内の勉強会で共有した経緯、進め方と内容、組織横断の学び合いを紹介しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T00:00:00.000Z",
+      "contentHash": "bf7c49fabe03"
+    },
+    {
+      "id": "51ce7db6a4b7",
+      "title": "LLMで日本企業の「来期の利益は増える？」をアウトオブサンプル検証 | Insight Edge Tech Blog",
+      "url": "https://techblog.insightedge.jp/entry/profit-predict-by-llm",
+      "summary": "データサイエンティスト白井がSIG-FINで発表。EDINETの有価証券報告書とSakana AIのEDINET-BENCHを用い、LLMで「来期の利益増減」を予測・アウトオブサンプル評価し、テキスト活用で精度向上やナレッジカットオフ等の注意点を示した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T00:00:00.000Z",
+      "contentHash": "c93108dd0437"
+    },
+    {
+      "id": "6a4fea620e8f",
+      "title": "「テストコードを増やさず、テストケースを増やす」の正体！プロパティベースドテストの可能性 | KENTEM TechBlog",
+      "url": "https://tech.kentem.jp/entry/2025/12/09/090000",
+      "summary": "AIで生成した膨大なテストコードとモックにレビュー負荷が増大。著者は「テストコードを増やさずテストケースを増やす」解としてプロパティベースドテスト（PBT）を紹介し、従来の事例テストとの違いや導入を勧める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T00:00:00.000Z",
+      "contentHash": "8e26d4adb178"
+    },
+    {
+      "id": "ba3eaafd3195",
+      "title": "Iceberg × dbt × BigQuery × Snowflakeでつくる、マルチDWHパイプライン | ENGINEERING BLOG ドコモ開発者ブログ",
+      "url": "https://nttdocomo-developers.jp/entry/2025/12/09/090000_3",
+      "summary": "Apache IcebergでSnowflakeとBigQueryを横断するマルチDWHパイプラインをdbtで実装した事例。開発・運用は効率化できたが、dbtでの実装時に注意すべき点が多い。Iceberg×dbtやマルチDWH導入を目指すデータエンジニア向け。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T00:00:00.000Z",
+      "contentHash": "921909d45e39"
+    },
+    {
+      "id": "b83d09fac02c",
+      "title": "データ活用を社内文化へ──PdMが挑むキャズム越え。SECIモデル活用事例 | ENGINEERING BLOG ドコモ開発者ブログ",
+      "url": "https://nttdocomo-developers.jp/entry/2025/12/09/090000_2",
+      "summary": "NTTドコモの社内データ活用基盤Pochi（利用5,000人超、24年度30万時間削減）のPdMが、利用拡大の“キャズム”をSECIモデルで整理。共同化・表出化・連結化・内面化に沿い、コンテストやハンズオン、事例共有でデータ活用の社内定着を図る事例紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T00:00:00.000Z",
+      "contentHash": "6bc9929adb6f"
+    },
+    {
+      "id": "f1d232dd4be8",
+      "title": "Digital Change Mind　―docomo社員自ら挑む、DX・AIによる変革の現場― | ENGINEERING BLOG ドコモ開発者ブログ",
+      "url": "https://nttdocomo-developers.jp/entry/2025/12/09/090000_0",
+      "summary": "NTTドコモの吉田が社内で始めた「デジタル民主化活動（デジカツ）」は、社員自らDX・AIで業務を変革する取り組み。200名以上が参加し、組織のDigital Change MindやCX向上を目指す施策を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T00:00:00.000Z",
+      "contentHash": "2ce6baf55843"
+    },
+    {
+      "id": "7b6802eb2f44",
+      "title": "Quarkusの素早い起動の秘密、ビルド時DIについて見てみる | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/2025/12/09/090000",
+      "summary": "QuarkusはDIをビルド時に解決することで起動を高速化する。従来の実行時DIと比べ、依存性解決をコンパイル時に済ませて起動負荷を低減し、コンテナ環境に適応。記事はDIの解説とデコンパイラによる具体例も示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T00:00:00.000Z",
+      "contentHash": "b0aa0ac9d0d9"
+    },
+    {
+      "id": "31b26b565fe8",
+      "title": "生成AIの入出力品質は「フォーマット」で決まる ― 中間表現とテンプレートの組み合わせ | newmo 技術ブログ",
+      "url": "https://tech.newmo.me/entry/2025/12/09/090000",
+      "summary": "生成AIでテストやコード生成すると、仕様の読み飛ばしや制約見落とし、出力フォーマットのばらつきで品質が安定しない。記事は試験導入中の「中間表現（IR）」と「出力テンプレート」を組み合わせ、テストケース生成でこれらを解決する手法を紹介する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T00:00:00.000Z",
+      "contentHash": "57b1c51e1d93"
+    },
+    {
+      "id": "e0c558e81a3e",
+      "title": "React Router v7でLLMのストリーミングレスポンスを実装する | カミナシ エンジニアブログ",
+      "url": "https://kaminashi-developer.hatenablog.jp/entry/react-router-v7-llm-streaming",
+      "summary": "React Router v7のPromiseベースの遅延読み込みはチャンク単位のストリーミングに対応しないため、ReadableStreamを直接利用。ページのactionではなくUIを持たないResource RoutesでLLM（Bedrock等）のAsyncIterableをReadableStreamに変換し、fetchで逐次受信・表示する実装を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-09T00:00:00.000Z",
+      "contentHash": "fe5ff79c5b38"
+    },
+    {
+      "id": "20ee4529d27b",
+      "title": "Here are the best Apple Watch deals available right now",
+      "url": "https://www.theverge.com/21289209/best-apple-watch-deals",
+      "summary": "AppleがSeries 11、SE 3、Ultra 3など新型Apple Watchを投入。新モデルを中心に大幅値下げが始まり、Series 10やUltra 2も割引中。記事は各モデルのセール情報をまとめ、基本は購入できる最新モデルを推奨。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-08T23:39:26.000Z",
+      "contentHash": "0043956fcae5"
+    },
+    {
+      "id": "9f403247e41a",
+      "title": "The best robot vacuum and mop to buy right now",
+      "url": "https://www.theverge.com/tech/625409/best-robot-vacuum-mops",
+      "summary": "ロボット掃除機兼モップは近年進化し、初期の薄布パッドから振動や往復するパッドで床を実際にこすれるように。定期運転で手間は大幅に減るが手作業ほど完璧ではない。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-08T23:15:36.000Z",
+      "contentHash": "7371c05433d2"
+    },
     {
       "id": "cb3745a7711a",
       "title": "Kiro CLIを使ってAWS上のアプリケーションエラー原因を特定する | Finatext Tech Blogのフィード",
@@ -101,6 +200,15 @@
       "contentHash": "25b5dd20efc0"
     },
     {
+      "id": "96935e4927b7",
+      "title": "Icons in Menus Everywhere – Send Help",
+      "url": "https://blog.jim-nielsen.com/2025/icons-in-menus/",
+      "summary": "著者はメニュー項目に無差別にアイコンを付ける流行を批判。Google SheetsやmacOS Tahoeの例で、不要な視覚ノイズや不整合が生じ、個別の判断が欠けていると指摘している。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T19:44:00.000Z",
+      "contentHash": "58d5668c9b10"
+    },
+    {
       "id": "14df76423a1e",
       "title": "The Apple Watch Series 11 just got a big $100 discount ahead of the holidays",
       "url": "https://www.theverge.com/gadgets/840161/apple-watch-series-11-holiday-deal-sale-2025",
@@ -117,6 +225,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-08T19:01:00.000Z",
       "contentHash": "a22c3c574a16"
+    },
+    {
+      "id": "edd626196cb3",
+      "title": "Has the cost of building software dropped 90%?",
+      "url": "https://martinalderson.com/posts/has-the-cost-of-software-just-dropped-90-percent/",
+      "summary": "著者は20年の経験から、AIエージェントによる「エージェント型コーディング」がソフト開発の労働コストを劇的に下げ（最大90%）、2026年に産業を一変させると主張。従来の複雑化やクラウドの限界にも触れる。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T19:00:48.000Z",
+      "contentHash": "c84a824858ba"
     },
     {
       "id": "f96d87e6a7d1",
@@ -173,6 +290,15 @@
       "contentHash": "4193bc42c0b6"
     },
     {
+      "id": "ceb05d76f80a",
+      "title": "Quanta to publish popular math and physics books by Terence Tao and David Tong",
+      "url": "https://www.simonsfoundation.org/2025/12/08/quanta-books-to-publish-popular-math-and-physics-titles-by-terence-tao-and-david-tong/",
+      "summary": "Quanta Booksがテレンス・タオの一般向け数学書『Six Math Essentials』とデイヴィッド・トングの量子場理論書『Everything Is Fields』を刊行。タオは数学の六大概念を平易に解説（米国で2026年11月発売、翻訳版あり）、トングは量子場が万物を説明する視点を示す。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-08T17:39:55.000Z",
+      "contentHash": "cfe8dec74270"
+    },
+    {
       "id": "77691a499ebd",
       "title": "HP OmniBook 5 14 review: an OLED is almost enough",
       "url": "https://www.theverge.com/tech/839858/hp-omnibook-5-14-snapdragon-arm-oled-laptop-review",
@@ -212,10 +338,10 @@
       "id": "9614e4e384da",
       "title": "Microsoft has a problem: lack of demand for its AI products",
       "url": "https://www.windowscentral.com/artificial-intelligence/microsoft-has-a-problem-nobody-wants-to-buy-or-use-its-shoddy-ai",
-      "summary": "マイクロソフトはCopilotなどAI機能を大量投入したが、品質や性能が不十分で高額・用途不明の製品が多く、企業や消費者が導入をためらっている点が問題と指摘される。",
+      "summary": "記事はマイクロソフトのAI（CopilotやBing等）が品質不足・高価格・製品戦略の混乱により利用者や企業に敬遠され、販売・採用で苦戦していると指摘している。",
       "source": "Hacker News",
       "publishedAt": "2025-12-08T16:54:31.000Z",
-      "contentHash": "cc3d3435670b"
+      "contentHash": "6f16d0391d38"
     },
     {
       "id": "78e267996958",
@@ -1053,6 +1179,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-08T01:45:45.000Z",
       "contentHash": "81d167527bcd"
+    },
+    {
+      "id": "279ad923876a",
+      "title": "How Virgin Atlantic uses AI to enhance every step of travel",
+      "url": "https://openai.com/index/virgin-atlantic-oliver-byers",
+      "summary": "ヴァージン・アトランティックのCFOオリバー・バイヤーズは、同社がAIを活用して開発速度の向上、意思決定の改善、顧客体験の質向上を図っていると述べた。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-08T00:00:00.000Z",
+      "contentHash": "5e9275efdd3b"
     },
     {
       "id": "904e3e14055c",
@@ -8810,94 +8945,6 @@
       "summary": "SLI/SLOはサービス信頼性を定量評価する指標で、PrometheusやGrafanaでの管理が一般的だが、PromQLの記述が難しい課題がある。ツール「Sloth」はYAMLでSLI/SLOを定義するだけで必要なPromQLを自動生成し、管理のハードルを下げる。この記事ではSloth活用による可視化例と内部仕組みを解説し、SLI/SLO管理の理解促進を目指す。",
       "source": "DeNA Engineering on DeNA Engineering",
       "publishedAt": "2025-10-20T15:00:00.000Z"
-    },
-    {
-      "id": "66d6287a2535",
-      "title": "【現地レポート】Coalesce 2025：Opening Keynote “Rewrite”",
-      "url": "https://tech.timee.co.jp/entry/2025/10/17/175645",
-      "summary": "株式会社タイミーのアナリティクスエンジニアとデータエンジニアが、米ラスベガスで開催されたdbtカンファレンス「Coalesce 2025」に参加。Fivetranとの合併発表や、メトリクス管理製品MetricFlowのオープンソース化が注目された。AI時代に向けたdbtの技術進化や相互運用性強化がテーマで、最新技術やコミュニティの熱気を体感した報告。",
-      "source": "タイミー開発者ブログ",
-      "publishedAt": "2025-10-17T08:56:45.000Z"
-    },
-    {
-      "id": "96fe03af978f",
-      "title": "グローバルなメルカリの検索バックエンド設計と検索基盤拡充",
-      "url": "https://engineering.mercari.com/blog/entry/20251016-50fb7b8c1a/",
-      "summary": "メルカリはグローバルアプリの検索バックエンドを再設計し、多言語対応やアイテム・プロダクトモデルの両対応、各国ごとの検索結果チューニングを重視。日本事業はElasticsearchを使用していたが、データ量増加と多言語対応のため、GoogleのVertex AI Search for Commerceを採用。これにより迅速に開発を進め、トラフィック増加後にElasticsearchへ切り替える戦略を取っている。",
-      "source": "メルカリエンジニアリングブログ",
-      "publishedAt": "2025-10-16T16:23:35.000Z"
-    },
-    {
-      "id": "8f17aabca91e",
-      "title": "開発者全員が書けるE2Eテスト ─ 普通のgo testで実現するテスト基盤",
-      "url": "https://engineering.mercari.com/blog/entry/20251016-e2e-tests/",
-      "summary": "メルカリのグローバルアプリ開発において、バックエンドAPIのE2Eテスト基盤を改善。QAだけでなく開発者全員がメンテナンス可能な体制を目指し、既存技術Goの「go test」でテストを書く設計を採用。これにより学習コスト低減、型安全性確保、IDE機能活用が実現し、テストの頻度と品質向上を可能にした。",
-      "source": "メルカリエンジニアリングブログ",
-      "publishedAt": "2025-10-16T12:00:06.000Z"
-    },
-    {
-      "id": "e1b73870aa54",
-      "title": "スプリントゴールに集中して、価値が駆動出来るチームになるために輪読会を実施しました",
-      "url": "https://tech.timee.co.jp/entry/2025/10/14/163413",
-      "summary": "私たちのチームはスプリントゴールが形骸化し、単なるタスクリスト化していた課題を、『スプリントゴールで価値を駆動しよう』の輪読会を通じて改善しました。スプリントゴールを「チームの羅針盤」と捉え直し、目的や価値（アウトカム）を意識することで、達成率が50%から80%に向上。これによりチームの集中力や一貫性、協調性が強化され、価値提供にフォーカスした開発が可能となりました。",
-      "source": "タイミー開発者ブログ",
-      "publishedAt": "2025-10-14T07:34:13.000Z"
-    },
-    {
-      "id": "089b88b07b77",
-      "title": "グローバルWebを支えるSREの裏側 — 開発を加速させるための改善アプローチ",
-      "url": "https://engineering.mercari.com/blog/entry/20251013-behind-the-scenes-of-sre-supporting-the-global-web/",
-      "summary": "Cross Border (XB) SRE & Enablingチームのhatappiは、グローバルWeb立ち上げでSREとして課題解決と環境整備を担当。自身で開発体験を経て課題を把握し、現場の意見も収集して優先度を見極めた。以前のPlatform Engineering経験と合わせ、現場深掘りと横展開の両立が重要と実感。AI活用も試み、スムーズなEnablingを目指している。",
-      "source": "メルカリエンジニアリングブログ",
-      "publishedAt": "2025-10-13T10:00:45.000Z"
-    },
-    {
-      "id": "4ed4748a24ec",
-      "title": "【mercari GEARS 2025】MECHANISM Stageのセッションをご紹介",
-      "url": "https://engineering.mercari.com/blog/entry/20251010-mercarigears2025-mechanism-stage/",
-      "summary": "メルカリグループは11月13日に「mercari GEARS 2025」をオフライン開催します。テーマは「メルカリエンジニアリングの今」で、AI-Nativeを中心に技術や組織の変化を紹介。LLM活用やCDN移行、AI活用のオブザーバビリティ、E2Eテスト運用など多彩なセッションが予定され、現地参加が必須です。興味のある方は早めの申し込みを推奨しています。",
-      "source": "メルカリエンジニアリングブログ",
-      "publishedAt": "2025-10-10T11:00:21.000Z"
-    },
-    {
-      "id": "44823099a0ea",
-      "title": "【mercari GEARS 2025】GROW Stageのセッションをご紹介",
-      "url": "https://engineering.mercari.com/blog/entry/20251009-mercarigears2025-grow-stage/",
-      "summary": "メルカリグループが11月13日に「mercari GEARS 2025」を久々のオフライン開催。テーマは「メルカリエンジニアリングの今」で、AI-Nativeによる技術・組織・カルチャーの変化を紹介。3ステージで多彩なセッションが行われ、リーダートークやAI活用事例、LLMの社内運用など最新開発プロセスを解説。オンライン配信なしのため、直接会場での参加を推奨している。",
-      "source": "メルカリエンジニアリングブログ",
-      "publishedAt": "2025-10-09T11:00:30.000Z"
-    },
-    {
-      "id": "3c25a4f547bd",
-      "title": "【iOSDC Japan 2025レポート】タイミーエンジニアが注目した最新技術とリアルな開発事例",
-      "url": "https://tech.timee.co.jp/entry/2025/10/07/163441",
-      "summary": "iOSDC Japan 2025にタイミーがゴールドスポンサーとして参加しました。エンジニアの大塚は、本人確認フローの改善や法令改正への対応について深く学び、山崎は初参加で現地の熱気や多彩なセッション、特にApple Vision Proの3Dアプリ開発に感銘を受けました。交流ブースではSwiftUI化やAI活用などの具体的事例が共有され、大変有意義なイベントとなりました。",
-      "source": "タイミー開発者ブログ",
-      "publishedAt": "2025-10-07T07:34:41.000Z"
-    },
-    {
-      "id": "3fb20fd4c953",
-      "title": "Kaigi on Rails 2025 に参加しました",
-      "url": "https://tech.timee.co.jp/entry/2025/10/07/085000",
-      "summary": "タイミーのメンバーがKaigi on Rails 2025に参加し、スポンサーおよびブース出展を行いました。高速CIの環境構築や、最小限機能（ハッピーパス）実装の重要性、継続的改善の開発姿勢など多くを学びました。特にCI高速化の手法や変化を恐れず段階的に開発する考え方が印象的で、これらを実務に活かす意欲を持ち帰りました。",
-      "source": "タイミー開発者ブログ",
-      "publishedAt": "2025-10-06T23:50:00.000Z"
-    },
-    {
-      "id": "a69b4b514a1a",
-      "title": "「問い」を「分析」に変える思考プロセス",
-      "url": "https://tech.timee.co.jp/entry/2025/10/03/094344",
-      "summary": "タイミーのデータアナリストtakahide氏は、抽象的な経営課題を具体化し、精度の高い仮説を立てる力「課題発見・仮説思考力」の重要性を説く。仮説向上プロジェクトでは、問いを5W1Hで具体化し、Flywheelで因果関係を整理。これにより複雑な課題を構造化し、的確な分析テーマに落とし込む思考法を紹介している。",
-      "source": "タイミー開発者ブログ",
-      "publishedAt": "2025-10-03T00:43:44.000Z"
-    },
-    {
-      "id": "fcb1410a304f",
-      "title": "DroidKaigi 2025 参加レポート〜Part 2〜",
-      "url": "https://tech.timee.co.jp/entry/droidkaigi-2025-part2",
-      "summary": "タイミーのAndroidエンジニアふなちがDroidKaigi 2025参加レポートPart 2を紹介。GeminiエージェントによるAndroid Studio開発高速化やGradleキャッシュ最適化のセッション内容、タイミーの大盛況のスポンサー出展とアンケート結果を報告。特に既存コードの保守やOS・デバイス多様性への対応が課題であり、具体的な対策も紹介している。",
-      "source": "タイミー開発者ブログ",
-      "publishedAt": "2025-10-01T02:23:04.000Z"
     }
   ]
 }
