@@ -1,95 +1,95 @@
 {
-  "generatedAt": "2025-12-10T07:36:42.707Z",
+  "generatedAt": "2025-12-10T08:39:56.432Z",
   "items": [
     {
       "id": "9795ba9b4735",
       "title": "LaunchDarkly 入門：Lambda で機能フラグを試してみた | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/launch-darkly-feature-flag",
-      "summary": "LaunchDarklyをAWS Lambdaで試す手順。アカウント作成→ダッシュボードでBooleanフラグ(hello-lambda-flag)作成→環境からSDKキー取得（非公開）→Python SDK導入→Lambdaでldclient初期化・Context作成しvariationでフラグを評価。運用ではSDKキーを環境変数やSecrets Managerで管理することを推奨。",
+      "summary": "re:InventのAWS Jam課題を復習し、AWS LambdaとLaunchDarklyを連携して機能フラグの基本を体験する解説記事。LaunchDarklyはダッシュボードからコード再デプロイ不要で機能のON/OFFをリアルタイム切替でき、アカウント作成など準備手順を紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T06:56:47.000Z",
-      "contentHash": "c5785b23b5d4"
+      "contentHash": "0d87e9651a50"
     },
     {
       "id": "9109e5ee9a98",
       "title": "Notionをゴミ箱にしないために | CloudNative Inc. BLOGs",
       "url": "https://blog.cloudnative.co.jp/29791/",
-      "summary": "GIGOを避けるためのNotion運用法。誤情報を置かない前提で、マスターDBに契約書等を一元保存しタグ・ビューで部署別表示、ブロックで構造化して古い版混在を防ぎ、Notion AI活用を高める。",
+      "summary": "運用支援チームの大友によるアドベントカレンダー10日目の投稿。2回目の記事で、GIGO（Garbage In, Garbage Out）＝「入力が悪ければ出力も悪くなる」という概念を紹介しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T06:51:31.000Z",
-      "contentHash": "42e3fb4f1780"
+      "contentHash": "34f3994813c7"
     },
     {
       "id": "d5034de9f5b2",
       "title": "CARTA HD、U35限定テックカンファレンス「CoLab Conf（コラコン）」に Generative AI Labの松本翔太が登壇 | CARTA TECH BLOG",
       "url": "https://techblog.cartaholdings.co.jp/entry/2025/12/10/154105",
-      "summary": "CARTA HOLDINGSはU35限定テックカンファレンス「CoLab Conf」（12/13・虎ノ門）にプラチナ協賛。CARTA Generative AI Labの松本翔太が「PoC→事業実装へ。AI CoEが挑むLLM Ops」を講演し、広告クリエイティブ判定などLLMを用いたPoCから安定運用への実践と全社的AI推進を紹介します。",
+      "summary": "CARTA HOLDINGSは2025年12月13日に虎ノ門ヒルズで開かれるU35限定カンファレンス「CoLab Conf」にプラチナスポンサーとして協賛。CARTA Generative AI Labの松本翔太が「PoC→事業実装へ。AI CoEが挑むLLM Ops」で広告クリエイティブ判定などの事業実装事例を紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T06:41:05.000Z",
-      "contentHash": "912b740392f7"
+      "contentHash": "f95ae110c111"
     },
     {
       "id": "f0ecb46a70c3",
       "title": "Kubernetesバックアップツール「Velero」の概要 | SIOS Tech Lab",
       "url": "https://tech-lab.sios.jp/archives/50688",
-      "summary": "VeleroはKubernetesのクラスターリソースと永続ボリュームを一括でバックアップ・リストアするOSS。スナップショット、ファイルシステム（Node Agent/Kopia）、CSIデータ移行をサポートし、クラウド/オンプレでの移行・複製・スケジュール・フィルタリングやプラグイン拡張が可能。",
+      "summary": "KubernetesのバックアップはetcdとPV/PVCをセットで行う必要があり、ステートフルアプリのバージョンアップではデータ互換性と整合性に注意が必要です。本記事はバックアップツールVeleroの概要を解説します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T06:32:47.000Z",
-      "contentHash": "6391d9ac162c"
+      "contentHash": "07e7f9a3db11"
     },
     {
       "id": "2aa25e664687",
       "title": "[UE5] UIレイアウトのはじめ。ウィジェット作成と使い分け | historia Inc – 株式会社ヒストリア",
       "url": "https://historia.co.jp/archives/53361/",
-      "summary": "すみません、要約したい記事本文が見当たりません。どの記事（タイトル）を要約しますか、あるいは要約すべき本文を貼っていただけますか？200文字以内でまとめます。",
+      "summary": "Unreal Engine 5.5向けの初心者向けUIレイアウト入門。非UIデザイナーでも使えるウィジェットの作成方法と使い分けを解説し、見た目を手早く確認する手順を紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T06:00:10.000Z",
-      "contentHash": "7aa709098025"
+      "contentHash": "355463c5f9c6"
     },
     {
       "id": "42a5682999c0",
       "title": "CodexのSkillsを使って、プロンプト運用を効率化する | 開発ブログ｜株式会社Nextat（ネクスタット）",
       "url": "https://nextat.co.jp/staff/archives/394",
-      "summary": "CodexのSkillsは繰り返す指示を自動化する仕組み。~/.codex/skills/<name>/SKILL.mdにメタと本文を置き、メタは常時読み込み、本文は必要時LLMが参照。明示呼び出しのカスタムコマンドと役割が異なり、設計レビューやテスト生成などに有効。",
+      "summary": "Nextatのたっきーが、Codex等を業務導入し、設計レビューやテスト指示などの繰り返し作業をSkillsで自動化できると紹介。Skillsは~/.codex/skills/<skill>/SKILL.mdを作るだけでメタデータが常時読み込まれ、本文は必要時に参照される。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T06:00:00.000Z",
-      "contentHash": "bf522052d8cd"
+      "contentHash": "334cb3fb4ac6"
     },
     {
       "id": "aa2dff30c3a1",
       "title": "コーポレートシステム部の週報作成を自動化した話ーSlackログの収集からNotionへのアウトプットまで | Sansan Tech Blog",
       "url": "https://buildersbox.corp-sansan.com/entry/2025/12/10/150000",
-      "summary": "コーポレートシステム部がSlackログを収集・構造化し、DuckDB→SQS→Bedrockで個人別の週報を自動生成、Notionに出力・重複チェックまで自動化。手作業削減と可視化向上を実現。",
+      "summary": "「今週なにやった？」が見えない課題を解決するため、SlackログをDuckDBで検索可能化し、SQSでユーザー毎に分散処理、Bedrockで週報自動生成、Notionへ書込・重複検知する週報アプリを構築し手作業削減と運用コスト最適化を実現。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T06:00:00.000Z",
-      "contentHash": "695f34926151"
+      "contentHash": "567582d54020"
     },
     {
       "id": "a9af8a995b0f",
       "title": "AWS re:Invent 2025 現地参加レポート | CARTA TECH BLOG",
       "url": "https://techblog.cartaholdings.co.jp/entry/aws-reinvent-2025-rapio",
-      "summary": "CARTA ZEROのWebエンジニアが初参加したAWS re:Invent 2025現地レポ。AIエージェントやアーキテクチャ知見目的で、BedrockによるエージェントハンズオンやS3の大規模デプロイ講演に参加。Expoで各社ブースも巡り、経費は社費参加。",
+      "summary": "CARTA ZEROのWebエンジニア・らぴおが、2025年12月1〜4日にラスベガスで開催されたAWS re:Invent 2025に初参加。インフラやクラウドへの関心と所属チームでのAWS活用を背景に、現地での体験や所感をまとめる記事。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T05:36:23.000Z",
-      "contentHash": "c33a64f86738"
+      "contentHash": "abf34753a0f5"
     },
     {
       "id": "9aaf6d186a4e",
       "title": "通知チャンネルのAPIが設定の更新に対応しました ほか4件のアップデート | Mackerel ブログ #mackerelio",
       "url": "https://mackerel.io/ja/blog/entry/weekly/20251210",
-      "summary": "Mackerelの更新：通知チャンネルAPIが設定更新（メール/Slack/Webhook）対応、トレース一覧API公開、MCPサーバーでトレース検索や統計取得可能に。OpenTelemetry CollectorでOTLP受信ホスト名を環境変数で設定可能に。ElastiCache画面でイベント表示、アドベントカレンダー開催、年末年始窓口休業の案内。",
+      "summary": "MackerelチームCREの五十嵐からの更新報告：通知チャンネルAPIが設定更新に対応、トレース一覧取得APIを公開、MCPでトレース検索可能に、OpenTelemetryのOTLP受信ホストを環境変数で設定、ElastiCacheホスト詳細でイベント表示、Mackerelアドベントカレンダー2025開催。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T05:25:57.000Z",
-      "contentHash": "c6c1fcd92e0d"
+      "contentHash": "1c7741d056e8"
     },
     {
       "id": "768dacd0245d",
       "title": "空間的遺伝子発現解析入門① | バイオインフォマティクス実践ラボ｜アメリエフ技術ブログ",
       "url": "https://staffblog.amelieff.jp/entry/2025/12/10/140000",
-      "summary": "連載第1回。空間的遺伝子発現解析は組織内でどの細胞がどこでどの遺伝子を発現するかを明らかにする手法で、位置情報を保持する点が特徴です。シーケンスベース（Visium、Stereo‑seq等）は網羅的だが解像度はスポット依存、イメージングベース（Xenium等）は単細胞・サブセルラー解析が可能だが検出遺伝子は事前指定となります。",
+      "summary": "空間的遺伝子発現解析は、組織内でどの遺伝子がどこで機能するかを可視化する技術で、基本概念とVisiumやXeniumなどの代表的プラットフォームの概要を解説する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T05:00:00.000Z",
-      "contentHash": "79effb8c9da2"
+      "contentHash": "602944e2fe87"
     },
     {
       "id": "6bdd2fcd222a",
@@ -138,12 +138,12 @@
     },
     {
       "id": "8781091247ec",
-      "title": "The end of the kernel Rust experiment",
+      "title": "Rust in the kernel is no longer experimental",
       "url": "https://lwn.net/Articles/1049831/",
-      "summary": "Maintainers Summitの続報予告と複数の投稿履歴を載せた記事。コメント欄ではPhoronixをクリックベイトや低品質と批判する声と、頻繁なOSS関連記事やベンチでカーネル問題を明らかにする有用性を評価する声が混在している。著作権表記あり。",
+      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。該当記事と（あればHNコメント）の本文を貼り付けてください。いただければ200字以内で日本語要約します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T03:15:24.000Z",
-      "contentHash": "9f2e5a01f53f"
+      "contentHash": "08f1a9a81b4e"
     },
     {
       "id": "b257a3b26e86",
@@ -212,10 +212,10 @@
       "id": "9f43c64754f5",
       "title": "NYC congestion pricing cuts air pollution by a fifth in six months",
       "url": "https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/",
-      "summary": "コーネル大の研究は、2025年1月開始のマンハッタン混雑課金（CRZ）導入6か月でCRZ内のPM2.5が約22%（ピークで3.05µg/m³）低下、NY市5区で平均1.07µg/m³、広域で0.70µg/m³減と報告。車両入域は約11%減（トラック18%、乗用車9%）、汚染の周辺移転は認められず改善は時間とともに拡大した。",
+      "summary": "ニューヨーク市の混雑課金導入後6か月で、調査は中央マンハッタンの車両起因大気汚染（主にNO2）を約22%削減したと報告。通行量と排ガスが減り健康面での改善が期待されるが、地域差や影響の移転が課題。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T02:58:45.000Z",
-      "contentHash": "97b4d56f0b50"
+      "contentHash": "5548bc7e8bb5"
     },
     {
       "id": "b52dab2517f0",
@@ -524,6 +524,15 @@
       "contentHash": "0e69570aa88b"
     },
     {
+      "id": "633961b76148",
+      "title": "Agentic AI Foundation",
+      "url": "https://block.xyz/inside/block-anthropic-and-openai-launch-the-agentic-ai-foundation",
+      "summary": "Block、Anthropic、OpenAIらがLinux Foundation傘下でAgentic AI Foundationを設立。ベンダーニュートラルなオープンソース基盤を整備し、BlockのgooseやAnthropicのMCP、OpenAIのAGENTS.md等を共有して相互運用性と資金支援で自律型AIの健全な発展を目指す。主要クラウド企業ら多数参加。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-09T20:00:39.000Z",
+      "contentHash": "bffeb644d4f1"
+    },
+    {
       "id": "35bc1f1e0436",
       "title": "The AirPods Pro 3 are back to their lowest price ahead of the holidays",
       "url": "https://www.theverge.com/gadgets/841059/apple-airpods-pro-3-silent-hill-f-deal-sale",
@@ -623,6 +632,15 @@
       "contentHash": "021729a811eb"
     },
     {
+      "id": "93f82506a236",
+      "title": "The stack circuitry of the Intel 8087 floating point chip, reverse-engineered",
+      "url": "https://www.righto.com/2025/12/8087-stack-circuitry.html",
+      "summary": "Intel 8087浮動小数点コプロセッサのスタック回路を逆解析し、TOS（トップ）ポインタの回転方式、物理レジスタへのマッピング、タグビットによる空/使用判定、プッシュ／ポップ時のオーバーフロー検出やそれを実現する回路とマイクロコードの連携を図解で詳しく解説。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-09T18:16:44.000Z",
+      "contentHash": "07d6ddc12ae5"
+    },
+    {
       "id": "0b1e015109c2",
       "title": "Google Photos&#8217; new video editor makes it more like Capcut",
       "url": "https://www.theverge.com/news/840690/google-photos-video-editing-highlight-reel-updates",
@@ -644,28 +662,28 @@
       "id": "3a11a3de6592",
       "title": "How private equity is changing housing",
       "url": "https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/",
-      "summary": "米国は約400万戸の住宅不足で、金利高や規制、建設費高騰など複合要因で家賃負担が増加。民間資本の一括買いが批判される一方、専門家は影響は限定的と指摘。",
+      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文を貼っていただければ、200字以内で要約します。\n\n参考までに、リンク先のタイトルからの推測要約（事実確認不要なら）：\n「プライベート・エクイティが住宅市場に大量参入し、賃料上昇や入居者権利の弱体化を招き、規制や政策対応の必要性を浮き彫りにしている」と論じている可能性があります。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T17:26:33.000Z",
-      "contentHash": "456e8b7e7e79"
+      "contentHash": "7bf43ada7874"
     },
     {
       "id": "97c396f5968c",
       "title": "If you're going to vibe code, why not do it in C?",
       "url": "https://stephenramsay.net/posts/vibe-coding.html",
-      "summary": "著者はプログラミングと教育を愛するが、vibe coding（感覚任せのコーディング）を「ズルで楽しさと理解を奪う」と批判し、むしろCやx86アセンブリでやるべきだと問う。",
+      "summary": "申し訳ありませんが外部サイトに直接アクセスできません。記事本文を貼り付けるか主要な抜粋・要点を教えてください。受け取り次第、200字以内で日本語要約を作成します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T17:11:09.000Z",
-      "contentHash": "520836a852ec"
+      "contentHash": "9133516a97fc"
     },
     {
       "id": "d3c1f06e3787",
       "title": "PeerTube is recognized as a digital public good by Digital Public Goods Alliance",
       "url": "https://www.digitalpublicgoods.net/r/peertube",
-      "summary": "PeerTubeはフランスのFramasoft提供のAGPL-3.0動画・ライブ配信用オープンソース（web/モバイル/バックエンド）。多言語対応で教育機関やBlender・Debian等で利用。",
+      "summary": "PeerTubeはフラマソフト開発のオープンソース分散型動画プラットフォーム。ActivityPubでインスタンス間を連携し、WebTorrentでP2P配信して帯域を節約、中央集権的な動画サービスの代替を目指す。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T17:08:37.000Z",
-      "contentHash": "2ff367e2240b"
+      "contentHash": "5378154f820d"
     },
     {
       "id": "f8e84c3236af",
@@ -8982,24 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-11-24T14:57:27.000Z",
       "contentHash": "b9cc6b8e0d89"
-    },
-    {
-      "id": "0c290760c0a9",
-      "title": "Booking.com cancels $4K hotel reservation, offers same rooms again for $17K",
-      "url": "https://www.cbc.ca/news/gopublic/go-public-booking-com-hotel-rates-9.6985480",
-      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。記事本文か主要な抜粋をこちらに貼っていただければ、200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T14:43:01.000Z",
-      "contentHash": "692ef4990e28"
-    },
-    {
-      "id": "3c781ac4485b",
-      "title": "OnePlus 15R will get a late launch next month",
-      "url": "https://www.theverge.com/news/827430/oneplus-15r-will-get-a-late-launch-next-month",
-      "summary": "OnePlusは12月17日に15RとPad Go 2、Watch Liteを発表。15RとPad Go 2は米・欧・印で発売、Watch Liteは欧州のみ。15のFCC遅延で米発売は年内未確定。15RはカラーとIP66/68/69/69K等級、Pad Go 2は5Gとスタイラス対応。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T13:00:00.000Z",
-      "contentHash": "c401daa7e14d"
     }
   ]
 }
