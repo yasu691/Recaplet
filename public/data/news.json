@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2025-12-10T03:36:37.203Z",
+  "generatedAt": "2025-12-10T04:47:19.101Z",
   "items": [
+    {
+      "id": "55b2b79a5e07",
+      "title": "QAエンジニアよ、いいから黙ってコードを読め | SOMPO Digital Lab 開発チームブログ",
+      "url": "https://tech.sompo.io/entry/2025/12/10/130110",
+      "summary": "SOMPOのQAが、QAエンジニアは仕様確認だけでなくコードレベルで品質を診るべきと主張。UI検査は「顔色診断」に過ぎず、生成AI（Cursor等）でコード理解の敷居が下がったため、AIを使ってロジックを把握し品質保証を強化せよ、という内容。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T04:01:10.000Z",
+      "contentHash": "2cfd0c188deb"
+    },
+    {
+      "id": "518015191e0d",
+      "title": "ESLint と oxlint の併用構成への移行を行いました | コドモン Product Team Blog",
+      "url": "https://tech.codmon.com/entry/2025/12/10/123046",
+      "summary": "コドモンでESLintに加えRust製高速リンターoxlintを導入。oxlint/migrateで設定を変換し、eslint-plugin-oxlintで重複ルールを自動無効化。スクリプトでoxlint→ESLintを順次実行し段階的に改修、性能向上を確認しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T03:30:46.000Z",
+      "contentHash": "3cf3ee838039"
+    },
+    {
+      "id": "7f54c40770ed",
+      "title": "Automaによる自動化 - CSVを使った大量データ登録 | ミツカリ技術ブログ",
+      "url": "https://tech-blog.mitsucari.com/entry/2025/12/10/121816",
+      "summary": "AutomaはChrome拡張のRPAツールで、GUIでワークフローを作りCSVを使ってGoogleフォーム等へ大量データ登録を自動化できる。非エンジニア向きだがファイルURLアクセスなど強い権限を要求するため拡張の安全性に注意。CSVの空行は避ける。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T03:18:16.000Z",
+      "contentHash": "0a2b108695a1"
+    },
+    {
+      "id": "b257a3b26e86",
+      "title": "Google OAuth検証（審査）準備編 | TalentX Tech Blog",
+      "url": "https://tech.talentx.co.jp/entry/2025/12/10/120442",
+      "summary": "Google OAuth検証の準備をMyBrandの事例で解説。機密・制限付きスコープは審査が必要（未審査だと100人制限や「未確認アプリ」表示）。ブランド検証とスコープ要件確認が主で、ホームページ・プライバシーポリシー・デモ動画等の資料が必要。期間は機密で3〜10営業日、制限付きは2週間以上。最新情報は公式を参照。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T03:04:42.000Z",
+      "contentHash": "123877279b30"
+    },
+    {
+      "id": "ae99835bde06",
+      "title": "【Zscaler】Zscaler Gen AI Security Report徹底解説：プロンプト、DLP、利用傾向を深掘り分析 | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2025/12/10/120019",
+      "summary": "Zscaler Gen AI Security Reportは、ZTE経由トラフィックを監視して組織内の生成AI利用を可視化する機能です。データ漏洩やシャドーAI検知、プロンプトの監視・分類、部門別利用や傾向分析、DLP連携などのダッシュボードを提供し、ZIAのAnalyticsから確認できます。執筆はエーピーコミュニケーションズ平松の個人見解です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T03:00:19.000Z",
+      "contentHash": "ae5b2a68405a"
+    },
+    {
+      "id": "b04001ec9cd6",
+      "title": "10日目：スマホ時代のテスティングソリューション | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/83d75fd866ae3f",
+      "summary": "スマホ普及で機種多様化が進み、すべて自前で実機検証するのは非現実的。クラウド上の実機レンタル・遠隔テストが代替策として普及し、コスト負担を軽減する一方、同時利用や期間制限、サービス終了などの注意点がある。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T03:00:04.000Z",
+      "contentHash": "aabdfe2454a5"
+    },
+    {
+      "id": "7312d74a0abc",
+      "title": "ECSのNode.jsサーバーで起きたメモリリークを解消した話 | レバテック開発部のフィード",
+      "url": "https://zenn.dev/levtech/articles/acdb6b6ce5db4b",
+      "summary": "ECS上のNode.jsサーバがOOMで異常終了し、ヒープのメモリリークを調査。--inspectでChrome DevToolsからヒープを確認し、SSM経由でECSへポートフォワード。TerraformでECS Exec有効化とssmmessages権限付与を行った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T03:00:03.000Z",
+      "contentHash": "b9fa04682e6d"
+    },
+    {
+      "id": "be1fe1e250e5",
+      "title": "Snowflake Intelligenceを触ってみた。 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/f7465996741f34",
+      "summary": "NTTデータの鈴木氏がSnowflake Intelligence（2025/11/04にGA）を試用。Cortex Analyst/Search/AgentsをSnowsightで構築し、セマンティックモデルを用いて自然言語での集計・分析・可視化を実演し、データ民主化とAI統合の利便性を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T03:00:03.000Z",
+      "contentHash": "ae9edfe09818"
+    },
+    {
+      "id": "ec19c45fdf9a",
+      "title": "Flutter Kaigi 2025 参加レポート | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2025/12/10/120000",
+      "summary": "アンドパッドのエンジニア4名がFlutter Kaigi 2025に参加。MCP/LLMなどAI実務活用が中心テーマとなり、「AIをどう組み込み開発と品質を再構築するか」へと関心がシフト。内部構造、性能、ネイティブ連携、運用など多様な技術セッションを整理して報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T03:00:00.000Z",
+      "contentHash": "04f32894beb0"
+    },
+    {
+      "id": "eb6486eb023b",
+      "title": "@typesパッケージをノールックマージする | kubell Creator's Note",
+      "url": "https://creators-note.chatwork.com/entry/2025/12/10/120000",
+      "summary": "kubellの石田です。Renovateで上がる@types更新をノールックマージできるよう自動化しました。package.jsonから@typesを抽出→本体名に変換（@types/scope__pkg→@scope/pkg対応）→パッチを無視したmajor.minorで比較し、@typesが本体より新しければエラーにするスクリプトです。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T03:00:00.000Z",
+      "contentHash": "cb57869364d5"
+    },
+    {
+      "id": "9f43c64754f5",
+      "title": "NYC congestion pricing cuts air pollution by a fifth in six months",
+      "url": "https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/",
+      "summary": "ニューヨークの混雑課金導入後6か月で、課金区域内の車由来大気汚染が約22%減少。NO2や微粒子が主に低下し、健康面での改善が期待される一方、迂回や影響の偏りを懸念する声もある。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-10T02:58:45.000Z",
+      "contentHash": "9ea7016804e4"
+    },
     {
       "id": "b52dab2517f0",
       "title": "データ組織へのClaude Code導入と、その後の利用状況 | DMM Developers Blog",
@@ -761,10 +860,10 @@
       "id": "8b5993ac7f69",
       "title": "低コスト・オープンソースのロボットハンド Amazing Hand のススメ",
       "url": "https://note.com/npaka/n/nf59d85ba3538",
-      "summary": "「Amazing Hand」はPOLLEN（Hugging Face系）が開発した低コスト・オープンソースの4本指8自由度ロボットハンド。3Dプリントとホビーサーボで自作可能、Seeed Studioでキット販売。内部アクチュエータ、全面オープンソースのSDKを備え、テレオペレーションやデータ収集、センサーストリーミングに対応し、AI実験や学習用に適する。",
+      "summary": "「Amazing Hand」はPOLLEN（Hugging Face傘下）が開発した低コスト・オープンソースの4指8自由度ロボットハンド。3Dプリント部品と市販サーボで自作可能、モーター内蔵で小型化。Seeed Studioでキット販売。テレオペ操作（グローブ・映像推定）、関節角や映像のデータ収集、センサーストリーミング対応で、Raspberry PiやJetson等でAI学習や実験に使える入門向けプラットフォーム。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:12:06.000Z",
-      "contentHash": "f443f2876e7d"
+      "contentHash": "8f4c4a5eb480"
     },
     {
       "id": "9d66f25183c5",
@@ -1058,19 +1157,19 @@
       "id": "0f81d8553bdd",
       "title": "EarthRover Mini+ の概要",
       "url": "https://note.com/npaka/n/n22a1785aa8a6",
-      "summary": "EarthRover Mini+はFrodoBotsのオープンソース小型ロボット（約1.5kg、4–5時間稼働）。前後カメラ・IMU/GPS・4G/LTE・Wi‑Fi・音声搭載で約$300。実世界ナビやSLAM、データ収集に適し、公開SDK・LeRobot/Python APIで遠隔操作・学習・クラウド共有が可能。日本の4G動作は未確認。",
+      "summary": "EarthRover Mini+はFrodoBotsのオープンソース小型モバイルロボ。前後カメラ、約1.5kg、4〜5時間稼働、IMU/GPS、差動駆動、4G/Wi‑Fi通信（国内4Gは未確認）、約300ドル。SDK/LeRobot対応で遠隔操作・ログ収集やSLAM・模倣学習など実世界研究に利用可能。",
       "source": "npaka",
       "publishedAt": "2025-12-09T05:40:28.000Z",
-      "contentHash": "94ddc6f1576e"
+      "contentHash": "e9ff4c18c2ce"
     },
     {
       "id": "ab579275109a",
       "title": "Android Show: XR Edition 発表内容まとめ",
       "url": "https://note.com/npaka/n/na67cf3c4d5f5",
-      "summary": "Android Show: XR Editionで、Galaxy XR向けにPC Connect、Travel Mode、表情反映のLikeness等の新機能（β版含む）を発表。AIグラス（2種、来年発売予定）やXREALの有線「Project Aura」を公開し、Android XR SDK Developer Preview 3も提供開始。",
+      "summary": "2025年12月8日の「Android Show: XR Edition」で、Galaxy XR向け新機能（PC Connect、Travel Mode、Likeness）がβ提供開始。AIグラス2種やXREALの有線「Project Aura」発表、Android XR SDK Developer Preview 3も公開。",
       "source": "npaka",
       "publishedAt": "2025-12-09T05:26:26.000Z",
-      "contentHash": "0755ceb649ff"
+      "contentHash": "ac813463d5e6"
     },
     {
       "id": "4cdaee91d928",
@@ -8901,105 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-24T03:04:04.000Z",
       "contentHash": "4b3b6fe9b413"
-    },
-    {
-      "id": "3e4c5998220d",
-      "title": "Show HN: Stun LLMs with thousands of invisible Unicode characters",
-      "url": "https://gibberifier.com",
-      "summary": "見えないUnicode文字でLLMを混乱させる無料ツールを作成。剽窃防止やスクレイパー対策、遊び用途に使え、1語程度の「改変」でも多くのLLMの応答を破綻させる。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T03:00:31.000Z",
-      "contentHash": "5735024a415f"
-    },
-    {
-      "id": "7e97c8766005",
-      "title": "We stopped roadmap work for a week and fixed bugs",
-      "url": "https://lalitm.com/fixits-are-good-for-the-soul/",
-      "summary": "申し訳ありませんが外部サイトを直接参照できません。要約する本文を貼っていただけますか？全文が長ければ重要な箇所だけで構いません。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T02:36:54.000Z",
-      "contentHash": "0a2c45e6e20d"
-    },
-    {
-      "id": "a52177a7669c",
-      "title": "Ask HN: Hearing aid wearers, what's hot?",
-      "url": "https://news.ycombinator.com/item?id=46029699",
-      "summary": "Phonak Audeo 90（RIC）が5年で故障し新機種を検討中。中等度難聴で音楽や自然音を楽しみつつ、会議や騒がしい場所での聞き取りを改善したい。費用は気にせず退職前に勤務先保険で買いたい。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T02:25:39.000Z",
-      "contentHash": "117f1fd855f6"
-    },
-    {
-      "id": "554f120c94d9",
-      "title": "DOGE is no more, and in its wake, only chaos",
-      "url": "https://www.theverge.com/news/827390/doge-is-no-more-and-in-its-wake-only-chaos",
-      "summary": "4月以降ムスクはDOGEの実権を放棄し、6月に事実上退任。過激な手法で職員や閣僚と対立し支持を失った。右腕デイビスが退職を拒み内部が分裂、クーデター疑惑や再編を経て憲章満了前に解体された。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T00:08:59.000Z",
-      "contentHash": "9028b4b7f12f"
-    },
-    {
-      "id": "9f81c3ae155f",
-      "title": "Doge 'doesn't exist' with eight months left on its charter",
-      "url": "https://www.reuters.com/world/us/doge-doesnt-exist-with-eight-months-left-its-charter-2025-11-23/",
-      "summary": "申し訳ありませんが、そのURLの本文を直接参照できません（知識は2024年6月まで）。記事本文を貼っていただければ200字以内で要約します。タイトルだけでの推測要約も可、どちらがよいですか？",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T00:05:14.000Z",
-      "contentHash": "a595ecb0a532"
-    },
-    {
-      "id": "3929ae699e2a",
-      "title": "【React19.2】新機能useEffectEventの使いどころと注意点 | KENTEM TechBlog",
-      "url": "https://tech.kentem.jp/entry/2025/11/24/090000",
-      "summary": "KENTEMのフロントエンジニアS.W.が、夏にプロジェクトをReact18から19へ移行。依存更新で苦労したが、10月1日公開のReact19.2を19.1から問題なく導入し、新機能useEffectEventの使い方を紹介する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-24T00:00:00.000Z",
-      "contentHash": "1b84a4c9c720"
-    },
-    {
-      "id": "b10ef88b8e86",
-      "title": "AWS Security Finding Format（ASFF）の実践活用例とベストプラクティス | Techfirm Cloud Architect Blog",
-      "url": "https://techblog.techfirm.co.jp/entry/asff-attributes-best-practice",
-      "summary": "AWS Security Hubで使うASFF（AWS Security Finding Format）を解説。カスタム検出結果の作成方法やEventBridgeによる自動連携、実践的な活用例と運用上のベストプラクティスを紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-24T00:00:00.000Z",
-      "contentHash": "4ace3af11f36"
-    },
-    {
-      "id": "8d601fb98b9e",
-      "title": "Introducing shopping research in ChatGPT",
-      "url": "https://openai.com/index/chatgpt-shopping-research",
-      "summary": "ChatGPTのショッピングリサーチは、製品の探索・比較・発見を支援し、個別の購入ガイドで買い物の意思決定を簡素化します。",
-      "source": "OpenAI",
-      "publishedAt": "2025-11-24T00:00:00.000Z",
-      "contentHash": "4fff2ddff771"
-    },
-    {
-      "id": "2cae3df5b446",
-      "title": "GPT-5 and the future of mathematical discovery",
-      "url": "https://openai.com/index/gpt-5-mathematical-discovery",
-      "summary": "UCLAのErnest Ryu教授がGPT-5と共同で最適化理論の重要な問題を解決し、AIが数学的発見を加速する役割を果たし得ることを示した。",
-      "source": "OpenAI",
-      "publishedAt": "2025-11-24T00:00:00.000Z",
-      "contentHash": "73433d1e362c"
-    },
-    {
-      "id": "0f283961ac09",
-      "title": "X's new country-of-origin feature reveals many 'US' accounts to be foreign-run",
-      "url": "https://www.hindustantimes.com/world-news/us-news/xs-new-country-of-origin-feature-shakes-maga-and-democrat-circles-as-many-us-accounts-revealed-to-be-foreignrun-101763857104296.html",
-      "summary": "Xの新機能でアカウントの発信国が表示され、多くの「米国」アカウントが実は外国運営と判明。MAGAや民主側を問わず波紋が広がり、偽装や工作の問題が浮上した。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T23:25:03.000Z",
-      "contentHash": "3705bdeae5b3"
-    },
-    {
-      "id": "3f662797c8c4",
-      "title": "Amazon Quick SuiteとCodexによるAI駆動データ分析 | 電通総研 テックブログ",
-      "url": "https://tech.dentsusoken.com/entry/2025/11/24/Amazon_Quick_Suite%E3%81%A8Codex%E3%81%AB%E3%82%88%E3%82%8BAI%E9%A7%86%E5%8B%95%E3%83%87%E3%83%BC%E3%82%BF%E5%88%86%E6%9E%90",
-      "summary": "エンタープライズ第一本部戦略ソリューション1部の英。普段はWebやスマホアプリを担当し、趣味でAIを学習中。寒さ対策にデスクヒーターでQOL向上。最近Amazon QuickSightがAmazon Quick Suiteにリブランドされ、東京リージョンでは一部新機能が未解放。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-23T23:00:00.000Z",
-      "contentHash": "9249604a72f7"
     }
   ]
 }
