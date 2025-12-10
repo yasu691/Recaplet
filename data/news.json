@@ -1,59 +1,95 @@
 {
-  "generatedAt": "2025-12-10T06:46:23.940Z",
+  "generatedAt": "2025-12-10T07:36:42.707Z",
   "items": [
+    {
+      "id": "9795ba9b4735",
+      "title": "LaunchDarkly 入門：Lambda で機能フラグを試してみた | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/launch-darkly-feature-flag",
+      "summary": "LaunchDarklyをAWS Lambdaで試す手順。アカウント作成→ダッシュボードでBooleanフラグ(hello-lambda-flag)作成→環境からSDKキー取得（非公開）→Python SDK導入→Lambdaでldclient初期化・Context作成しvariationでフラグを評価。運用ではSDKキーを環境変数やSecrets Managerで管理することを推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T06:56:47.000Z",
+      "contentHash": "c5785b23b5d4"
+    },
+    {
+      "id": "9109e5ee9a98",
+      "title": "Notionをゴミ箱にしないために | CloudNative Inc. BLOGs",
+      "url": "https://blog.cloudnative.co.jp/29791/",
+      "summary": "GIGOを避けるためのNotion運用法。誤情報を置かない前提で、マスターDBに契約書等を一元保存しタグ・ビューで部署別表示、ブロックで構造化して古い版混在を防ぎ、Notion AI活用を高める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T06:51:31.000Z",
+      "contentHash": "42e3fb4f1780"
+    },
+    {
+      "id": "d5034de9f5b2",
+      "title": "CARTA HD、U35限定テックカンファレンス「CoLab Conf（コラコン）」に Generative AI Labの松本翔太が登壇 | CARTA TECH BLOG",
+      "url": "https://techblog.cartaholdings.co.jp/entry/2025/12/10/154105",
+      "summary": "CARTA HOLDINGSはU35限定テックカンファレンス「CoLab Conf」（12/13・虎ノ門）にプラチナ協賛。CARTA Generative AI Labの松本翔太が「PoC→事業実装へ。AI CoEが挑むLLM Ops」を講演し、広告クリエイティブ判定などLLMを用いたPoCから安定運用への実践と全社的AI推進を紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T06:41:05.000Z",
+      "contentHash": "912b740392f7"
+    },
+    {
+      "id": "f0ecb46a70c3",
+      "title": "Kubernetesバックアップツール「Velero」の概要 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/50688",
+      "summary": "VeleroはKubernetesのクラスターリソースと永続ボリュームを一括でバックアップ・リストアするOSS。スナップショット、ファイルシステム（Node Agent/Kopia）、CSIデータ移行をサポートし、クラウド/オンプレでの移行・複製・スケジュール・フィルタリングやプラグイン拡張が可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T06:32:47.000Z",
+      "contentHash": "6391d9ac162c"
+    },
     {
       "id": "2aa25e664687",
       "title": "[UE5] UIレイアウトのはじめ。ウィジェット作成と使い分け | historia Inc – 株式会社ヒストリア",
       "url": "https://historia.co.jp/archives/53361/",
-      "summary": "UE5.5での初心者向けUIレイアウト入門。ウィジェットの作成方法と使い分けを解説し、UIデザイナーでない人でも手早く見た目を確認できる手順を紹介。",
+      "summary": "すみません、要約したい記事本文が見当たりません。どの記事（タイトル）を要約しますか、あるいは要約すべき本文を貼っていただけますか？200文字以内でまとめます。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T06:00:10.000Z",
-      "contentHash": "355463c5f9c6"
+      "contentHash": "7aa709098025"
     },
     {
       "id": "42a5682999c0",
       "title": "CodexのSkillsを使って、プロンプト運用を効率化する | 開発ブログ｜株式会社Nextat（ネクスタット）",
       "url": "https://nextat.co.jp/staff/archives/394",
-      "summary": "NextatでCodexを業務導入。設計レビューなどの繰り返し指示はSkillsで自動化可能。Skillsは特定タスクの専門知識を与える仕組みで、~/.codex/skills/<name>/SKILL.mdを作るだけで自動読み込みされ、本文は必要時のみ参照される。",
+      "summary": "CodexのSkillsは繰り返す指示を自動化する仕組み。~/.codex/skills/<name>/SKILL.mdにメタと本文を置き、メタは常時読み込み、本文は必要時LLMが参照。明示呼び出しのカスタムコマンドと役割が異なり、設計レビューやテスト生成などに有効。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T06:00:00.000Z",
-      "contentHash": "334cb3fb4ac6"
+      "contentHash": "bf522052d8cd"
     },
     {
       "id": "aa2dff30c3a1",
       "title": "コーポレートシステム部の週報作成を自動化した話ーSlackログの収集からNotionへのアウトプットまで | Sansan Tech Blog",
       "url": "https://buildersbox.corp-sansan.com/entry/2025/12/10/150000",
-      "summary": "「今週なにやった？」が見えない問題を解決するため、SlackログをDuckDBで検索しやすく整備、SQSでユーザー単位に処理を並列化、Bedrockで週報を自動生成してNotionへ書き込み・重複チェック。手作業削減と運用コストの低減を達成。",
+      "summary": "コーポレートシステム部がSlackログを収集・構造化し、DuckDB→SQS→Bedrockで個人別の週報を自動生成、Notionに出力・重複チェックまで自動化。手作業削減と可視化向上を実現。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T06:00:00.000Z",
-      "contentHash": "567582d54020"
+      "contentHash": "695f34926151"
     },
     {
       "id": "a9af8a995b0f",
       "title": "AWS re:Invent 2025 現地参加レポート | CARTA TECH BLOG",
       "url": "https://techblog.cartaholdings.co.jp/entry/aws-reinvent-2025-rapio",
-      "summary": "CARTA ZEROのWebエンジニアらぴおが、2025年12月1〜4日にラスベガスで開催されたAWS re:Invent 2025に初参加。インフラやクラウド、所属チームのAWS活用への関心から参加し、現地での体験や感想を記録している。",
+      "summary": "CARTA ZEROのWebエンジニアが初参加したAWS re:Invent 2025現地レポ。AIエージェントやアーキテクチャ知見目的で、BedrockによるエージェントハンズオンやS3の大規模デプロイ講演に参加。Expoで各社ブースも巡り、経費は社費参加。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T05:36:23.000Z",
-      "contentHash": "abf34753a0f5"
+      "contentHash": "c33a64f86738"
     },
     {
       "id": "9aaf6d186a4e",
       "title": "通知チャンネルのAPIが設定の更新に対応しました ほか4件のアップデート | Mackerel ブログ #mackerelio",
       "url": "https://mackerel.io/ja/blog/entry/weekly/20251210",
-      "summary": "Mackerelの更新：通知チャンネルAPIが設定更新に対応、トレース一覧取得APIを公開、MCPサーバーでトレース検索可能に、OTLP受信のホスト名を環境変数で設定可、ElastiCacheのホスト画面にイベント表示、アドベントカレンダー2025開催。",
+      "summary": "Mackerelの更新：通知チャンネルAPIが設定更新（メール/Slack/Webhook）対応、トレース一覧API公開、MCPサーバーでトレース検索や統計取得可能に。OpenTelemetry CollectorでOTLP受信ホスト名を環境変数で設定可能に。ElastiCache画面でイベント表示、アドベントカレンダー開催、年末年始窓口休業の案内。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T05:25:57.000Z",
-      "contentHash": "1c7741d056e8"
+      "contentHash": "c6c1fcd92e0d"
     },
     {
       "id": "768dacd0245d",
       "title": "空間的遺伝子発現解析入門① | バイオインフォマティクス実践ラボ｜アメリエフ技術ブログ",
       "url": "https://staffblog.amelieff.jp/entry/2025/12/10/140000",
-      "summary": "組織中の遺伝子発現の位置を可視化する空間的遺伝子発現解析の基本概念と、VisiumやXenium等の主要プラットフォームの概要を解説する記事。",
+      "summary": "連載第1回。空間的遺伝子発現解析は組織内でどの細胞がどこでどの遺伝子を発現するかを明らかにする手法で、位置情報を保持する点が特徴です。シーケンスベース（Visium、Stereo‑seq等）は網羅的だが解像度はスポット依存、イメージングベース（Xenium等）は単細胞・サブセルラー解析が可能だが検出遺伝子は事前指定となります。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T05:00:00.000Z",
-      "contentHash": "602944e2fe87"
+      "contentHash": "79effb8c9da2"
     },
     {
       "id": "6bdd2fcd222a",
@@ -104,10 +140,10 @@
       "id": "8781091247ec",
       "title": "The end of the kernel Rust experiment",
       "url": "https://lwn.net/Articles/1049831/",
-      "summary": "外部のURLに直接アクセスできません。記事本文を貼るか主要な抜粋を教えてください。いただければ200字以内で日本語要約を作成します。",
+      "summary": "Maintainers Summitの続報予告と複数の投稿履歴を載せた記事。コメント欄ではPhoronixをクリックベイトや低品質と批判する声と、頻繁なOSS関連記事やベンチでカーネル問題を明らかにする有用性を評価する声が混在している。著作権表記あり。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T03:15:24.000Z",
-      "contentHash": "a5a08b895d7b"
+      "contentHash": "9f2e5a01f53f"
     },
     {
       "id": "b257a3b26e86",
@@ -176,10 +212,10 @@
       "id": "9f43c64754f5",
       "title": "NYC congestion pricing cuts air pollution by a fifth in six months",
       "url": "https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/",
-      "summary": "NYCの渋滞課金導入から6か月で、NO2などの大気汚染が約22%減少したと報告。車両の流入・走行距離減少が主因とされ、公共交通改善や健康効果が期待される。",
+      "summary": "コーネル大の研究は、2025年1月開始のマンハッタン混雑課金（CRZ）導入6か月でCRZ内のPM2.5が約22%（ピークで3.05µg/m³）低下、NY市5区で平均1.07µg/m³、広域で0.70µg/m³減と報告。車両入域は約11%減（トラック18%、乗用車9%）、汚染の周辺移転は認められず改善は時間とともに拡大した。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T02:58:45.000Z",
-      "contentHash": "b7898e335146"
+      "contentHash": "97b4d56f0b50"
     },
     {
       "id": "b52dab2517f0",
@@ -473,10 +509,10 @@
       "id": "5fbd829dc802",
       "title": "Django: what’s new in 6.0",
       "url": "https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/",
-      "summary": "申し訳ありませんが、このチャットから外部ページに直接アクセスできません。記事本文か要点、またはHNコメントを貼り付けていただければ、200字以内で日本語要約を作成します。",
+      "summary": "Django 6.0がリリース。20周年の新版で、テンプレートに部分定義（partial）機能を導入し、テンプレート内の断片を再利用・単独レンダリング可能に。移行には自動変換ツールdjango-upgradeを推奨。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T20:33:14.000Z",
-      "contentHash": "f74ad0247e03"
+      "contentHash": "4646e7438219"
     },
     {
       "id": "452d256984da",
@@ -536,10 +572,10 @@
       "id": "6d3f7c93249b",
       "title": "10 Years of Let's Encrypt",
       "url": "https://letsencrypt.org/2025/12/09/10-years",
-      "summary": "Let's Encryptの10周年記念。無料でHTTPS普及を加速し、ACMEで自動化・標準化を推進、数十億の証明書発行など実績を報告。支援者に感謝し、今後も暗号化拡大と耐障害性向上を目指す。",
+      "summary": "Let's Encryptは2015年9月の初公開証明書以来、自動化で急拡大。現在は世界最大の認証局となりACMEが普及。2020年に総発行10億、2025年は日間1,000万超発行で、まもなく稼働サイト10億到達見込み。ISRGが運営。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T18:54:55.000Z",
-      "contentHash": "768dc2deebbd"
+      "contentHash": "59b570799e53"
     },
     {
       "id": "b99f198697de",
@@ -554,10 +590,10 @@
       "id": "a150a79747db",
       "title": "So you want to speak at software conferences?",
       "url": "https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html",
-      "summary": "ソフトウェア会議で話すための実践ガイド。要点を絞った提案文、聴衆重視の構成、簡潔なスライドと入念な練習、時間厳守、物語性やデモで引き込み、継続応募と配慮を忘れずに。",
+      "summary": "ロンドンの.NETユーザーグループ主催者による登壇アドバイス。まず目的（宣伝・有償登壇・人脈等）を明確にし、長期の努力を覚悟すること。独自の物語を語れる質の高い講演を作る。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T18:42:27.000Z",
-      "contentHash": "b7b1c97db95c"
+      "contentHash": "d41d09c59b9a"
     },
     {
       "id": "a5cd512254fd",
@@ -608,37 +644,37 @@
       "id": "3a11a3de6592",
       "title": "How private equity is changing housing",
       "url": "https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/",
-      "summary": "記事は私募株式（プライベート・エクイティ）が一戸建てや賃貸住宅を大量に買い上げ、利益優先で賃料引上げや維持不足、追い出しを招き住宅を「資産化」していると指摘する。税制や規制の穴が背景にあり、テナント保護や供給拡大など政策の抜本的改革が必要だと論じる。",
+      "summary": "米国は約400万戸の住宅不足で、金利高や規制、建設費高騰など複合要因で家賃負担が増加。民間資本の一括買いが批判される一方、専門家は影響は限定的と指摘。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T17:26:33.000Z",
-      "contentHash": "bf42ffb46bb3"
+      "contentHash": "456e8b7e7e79"
     },
     {
       "id": "97c396f5968c",
       "title": "If you're going to vibe code, why not do it in C?",
       "url": "https://stephenramsay.net/posts/vibe-coding.html",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文をここに貼っていただくか、主要な抜粋・要点を教えてくだされば、200文字以内で日本語要約を作成します。どちらがよろしいですか？",
+      "summary": "著者はプログラミングと教育を愛するが、vibe coding（感覚任せのコーディング）を「ズルで楽しさと理解を奪う」と批判し、むしろCやx86アセンブリでやるべきだと問う。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T17:11:09.000Z",
-      "contentHash": "c54e0954be93"
+      "contentHash": "520836a852ec"
     },
     {
       "id": "d3c1f06e3787",
       "title": "PeerTube is recognized as a digital public good by Digital Public Goods Alliance",
       "url": "https://www.digitalpublicgoods.net/r/peertube",
-      "summary": "PeerTubeはActivityPub準拠の分散型動画プラットフォーム。WebTorrentでP2P配信し、自己ホストのインスタンスがフェデレーションを形成。広告や中央集権を避け、オープンソースでプライバシー重視。",
+      "summary": "PeerTubeはフランスのFramasoft提供のAGPL-3.0動画・ライブ配信用オープンソース（web/モバイル/バックエンド）。多言語対応で教育機関やBlender・Debian等で利用。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T17:08:37.000Z",
-      "contentHash": "c0f09fdf48ad"
+      "contentHash": "2ff367e2240b"
     },
     {
       "id": "f8e84c3236af",
       "title": "Donating the Model Context Protocol and establishing the Agentic AI Foundation",
       "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
-      "summary": "AnthropicがModel Context Protocol（MCP）を非営利のAgentic AI Foundationに寄贈し、エージェント型AIの標準化・相互運用性・安全性を担保する財団を設立。公開プロトコルと資金・ガバナンスで責任ある開発とエコシステム育成を目指す。",
+      "summary": "AnthropicはModel Context Protocol（MCP）をLinux Foundation傘下のAgentic AI Foundationへ寄贈。MCPは1万超の公開サーバーやChatGPT等で採用され、主要クラウド対応や公式SDK・新仕様を備え、オープンでベンダーニュートラルな運営を継続。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T17:05:42.000Z",
-      "contentHash": "27c55ab535fb"
+      "contentHash": "bb3dcf83c560"
     },
     {
       "id": "500c61948e16",
@@ -671,10 +707,10 @@
       "id": "7aba482edf37",
       "title": "Handsdown one of the coolest 3D websites",
       "url": "https://bruno-simon.com/",
-      "summary": "Bruno Simonのポートフォリオは、3Dのミニカーを操作して作品や経歴を探索するインタラクティブなサイト。three.js/WebGLや物理表現を駆使した遊び心あるUIと高い技術力が注目を集めている。",
+      "summary": "ブルーノ・サイモンのポートフォリオ。主にウェブのクリエイティブ開発者で、ドライブしながら作品や世界の秘密を発見できる。壊さないでね。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T16:06:58.000Z",
-      "contentHash": "7780e70e0be4"
+      "contentHash": "e85c034ddd7b"
     },
     {
       "id": "9a0befd7e178",
@@ -941,10 +977,10 @@
       "id": "8b5993ac7f69",
       "title": "低コスト・オープンソースのロボットハンド Amazing Hand のススメ",
       "url": "https://note.com/npaka/n/nf59d85ba3538",
-      "summary": "Amazing HandはPOLLEN（Hugging Face傘下）開発の低コスト・オープンソース4本指ロボットハンド。3Dプリント部品とホビーサーボで8自由度を実現し、Seeed Studioでキット化。SDKで模倣学習や強化学習に対応し、手袋やカメラによるテレオペレーション、関節角・映像のデータ収集やセンサーストリーミングが可能。入門向けの手軽なプラットフォーム。",
+      "summary": "Amazing HandはPOLLEN開発の低コスト・オープンソース4指8自由度ロボットハンド。3Dプリント部品とホビーサーボで内部アクチュエータを収め、SDKで模倣学習・強化学習、テレオペやデータ収集・センサーストリーミングに対応。Raspberry PiやJetsonで動作しSeeedでキット販売中。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:12:06.000Z",
-      "contentHash": "682382c09883"
+      "contentHash": "a4aa6547284f"
     },
     {
       "id": "9d66f25183c5",
@@ -1247,10 +1283,10 @@
       "id": "ab579275109a",
       "title": "Android Show: XR Edition 発表内容まとめ",
       "url": "https://note.com/npaka/n/na67cf3c4d5f5",
-      "summary": "2025年12月8日の「Android Show: XR Edition」で、Galaxy XR向け新機能（PC Connect、Travel Mode、Likeness）がβ提供開始。AIグラス2種やXREALの有線「Project Aura」発表、Android XR SDK Developer Preview 3も公開。",
+      "summary": "2025年12月8日のAndroid Show: XR Editionで、Galaxy XR向けにPC Connect（β）、Travel Mode、Likeness（β）などの新機能を発表。SamsungとGentle Monster/Warby ParkerのAIグラスやXREALの有線XR「Project Aura」公開、Android XR SDK Developer Preview 3もリリース。",
       "source": "npaka",
       "publishedAt": "2025-12-09T05:26:26.000Z",
-      "contentHash": "ac813463d5e6"
+      "contentHash": "37963e86f792"
     },
     {
       "id": "4cdaee91d928",
@@ -8964,42 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-11-24T13:00:00.000Z",
       "contentHash": "c401daa7e14d"
-    },
-    {
-      "id": "4a867c6b0775",
-      "title": "Bureau of Meteorology's new boss asked to examine $96M bill for website redesign",
-      "url": "https://www.abc.net.au/news/2025-11-23/bureau-of-meteorology-new-website-cost-blowout-to-96-million/106042202",
-      "summary": "豪州気象局（BOM）の新ウェブサイト開発費が当初見積りを大幅に超え、総額約9600万ドルに膨らんだ。計画・契約管理の不備や外注費高騰、仕様変更が主因とされ、監査や説明責任が求められている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T12:35:15.000Z",
-      "contentHash": "d0833f03f297"
-    },
-    {
-      "id": "1b7eba82fe1c",
-      "title": "Chrome Jpegxl Issue Reopened",
-      "url": "https://issues.chromium.org/issues/40168998",
-      "summary": "外部サイトを直接参照できないため、URL先の本文を貼っていただけますか？Issue と HN コメントの両方を要約できます。テキストを貼るか、要約範囲（Issueのみ／コメント含む）を教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T12:23:02.000Z",
-      "contentHash": "d5575898af08"
-    },
-    {
-      "id": "58c096490e71",
-      "title": "NSA and IETF, part 3: Dodging the issues at hand",
-      "url": "https://blog.cr.yp.to/20251123-dodging.html",
-      "summary": "Daniel J. Bernsteinの「Dodging」は、検閲・監視・規制を回避するための技術的・運用的手法を整理し、それらの有効性と限界、法的・倫理的リスク、実務上の注意点や政策的示唆を論じる記事です。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T12:00:55.000Z",
-      "contentHash": "5d951d4de26c"
-    },
-    {
-      "id": "42f6fe1770e5",
-      "title": "Why college students prefer News Daddy over The New York Times",
-      "url": "https://www.theverge.com/cs/features/818380/college-students-news-sources-tiktok-instagram-newsdaddy",
-      "summary": "ジョージ・メイソン大の学生アンキット・カナルは、英国のTikTokニュース発信者「News Daddy」（ディラン・ペイジ）から1日20回以上ニュースを得る。誤情報やアルゴリズムの影響は認識するが、既存メディアの偏向を嫌いTikTokを主な情報源にしている。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T12:00:03.000Z",
-      "contentHash": "01242222ebaa"
     }
   ]
 }
