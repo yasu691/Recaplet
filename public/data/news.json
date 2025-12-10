@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-10T11:32:25.864Z",
+  "generatedAt": "2025-12-10T12:50:32.362Z",
   "items": [
     {
       "id": "e28cca4782f8",
@@ -173,6 +173,15 @@
       "contentHash": "3abcf30a4594"
     },
     {
+      "id": "bf35acefe69f",
+      "title": "Stop Breaking TLS",
+      "url": "https://www.markround.com/blog/2025/12/09/stop-breaking-tls/",
+      "summary": "TLSの「検査」ソフトは通信を中間で復号して自前の証明書で再署名するMITMで、TLSの保証を破壊しプライバシーや機密を危険にさらし、かえってセキュリティを低下させるのでやめるべきだ、という主張。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-10T07:06:55.000Z",
+      "contentHash": "9bea22d1e987"
+    },
+    {
       "id": "9795ba9b4735",
       "title": "LaunchDarkly 入門：Lambda で機能フラグを試してみた | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/launch-darkly-feature-flag",
@@ -207,6 +216,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T06:32:47.000Z",
       "contentHash": "07e7f9a3db11"
+    },
+    {
+      "id": "a3827b922b2f",
+      "title": "Revisiting \"Let's Build a Compiler\"",
+      "url": "https://eli.thegreenplace.net/2025/revisiting-lets-build-a-compiler/",
+      "summary": "Jack Crenshawの古典的チュートリアル「Let's Build a Compiler」を再検討し、Pascal→68000版をPythonで再実装し出力をWebAssemblyに変更した実装と解説リポジトリを公開。TUTORIAL.mdで対応を詳述、サンプルも掲載。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-10T06:22:19.000Z",
+      "contentHash": "d73023694171"
     },
     {
       "id": "2aa25e664687",
@@ -291,7 +309,7 @@
     },
     {
       "id": "8d52978941bb",
-      "title": "'Source available' is not open source (and that's okay)",
+      "title": "'Source available' is not open source, and that's okay",
       "url": "https://dri.es/source-available-is-not-open-source-and-that-is-okay",
       "summary": "DHHがSaaS競合を禁じるO'SaasyでFizzyを「オープンソース」と表明しOSI定義を否定。Mullenwegが反論。用語の共有定義の重要性と、企業が無償で利益を得るオープンソースの持続性問題が争点。",
       "source": "Hacker News",
@@ -392,10 +410,10 @@
       "id": "9f43c64754f5",
       "title": "NYC congestion pricing cuts air pollution by a fifth in six months",
       "url": "https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/",
-      "summary": "NYCの混雑課金開始後6ヶ月で、中心部の大気汚染が平均22%減少。車両数やトラックの通行減で排出が減り、健康改善や気候対策の効果が示された一方、経済影響や不公平の懸念も残る。",
+      "summary": "コーネル大の研究は、2025年1月導入のマンハッタン渋滞課金（CRZ）が初6か月でCRZ内のPM2.5を22%（平均3.05µg/m³）削減、5区で1.07µg/m³、広域で0.70µg/m³の改善を確認。車両流入は11%減（トラック18%、乗用車9%）で効果は拡大し、汚染の周辺移転は否定された。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T02:58:45.000Z",
-      "contentHash": "92ee06ef5395"
+      "contentHash": "97b4d56f0b50"
     },
     {
       "id": "b52dab2517f0",
@@ -8982,24 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-11-24T18:53:05.000Z",
       "contentHash": "90006ad5c1f6"
-    },
-    {
-      "id": "bab9c45f6eb6",
-      "title": "Pebble Watch software is now open source",
-      "url": "https://ericmigi.com/blog/pebble-watch-software-is-now-100percent-open-source",
-      "summary": "Pebbleのソフトが完全にオープンソース化された。これまで非公開だったファームウェアやブートローダー、同期アプリなども公開され、コミュニティ（Rebble等）が保守・改良できるようになった経緯と今後の課題を解説。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T18:52:12.000Z",
-      "contentHash": "ae70100d51e5"
-    },
-    {
-      "id": "717fdd63d619",
-      "title": "Google's new 'Aluminium OS' project brings Android to PC",
-      "url": "https://www.androidauthority.com/aluminium-os-android-for-pcs-3619092/",
-      "summary": "Aluminium OSはPC向けに最化した新しいAndroid派生OS。デスクトップ風UIやマルチウィンドウ、キーボード・マウス対応でISOから導入可能。現状は開発初期でハード互換性や安定性に課題があるが、PCでAndroid体験を目指す有望な試み。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T18:49:47.000Z",
-      "contentHash": "c6697610cedc"
     }
   ]
 }
