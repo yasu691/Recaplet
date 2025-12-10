@@ -1,14 +1,122 @@
 {
-  "generatedAt": "2025-12-10T14:35:58.092Z",
+  "generatedAt": "2025-12-10T15:37:17.796Z",
   "items": [
+    {
+      "id": "079bed320274",
+      "title": "OpenAI hires Slack’s CEO as its chief revenue officer",
+      "url": "https://www.theverge.com/news/841540/openai-slack-ceo-denise-dresser-chief-revenue-officer",
+      "summary": "OpenAIはSlackの現CEOデニス・ドレッサーを最高収益責任者に迎え、グローバル収益戦略と企業の業務へのAI導入支援を担当させる。ドレッサーはSalesforce出身で2023年からSlack CEO、AI機能導入を推進。Slackの暫定CEOはSalesforceのロブ・シーマンが務める。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-10T15:00:35.000Z",
+      "contentHash": "0a0d6d5abba0"
+    },
+    {
+      "id": "5b05dcb22ffb",
+      "title": "日本の住所の表記ゆれ vs 正規化を阻む住所 | SMARTCAMP Engineer Blogのフィード",
+      "url": "https://zenn.dev/smartcamp/articles/2654a6ea30cdd6",
+      "summary": "日本の住所の表記ゆれを正規化して同一住所判定する手法を解説。全角→半角、ハイフン類統一、漢数字→算用数字変換、丁目・番・号をハイフン形式へ統一する処理と、麻布十番や堺市の特殊表記など正規化を阻む事例と対策を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T15:00:07.000Z",
+      "contentHash": "4f0703088849"
+    },
+    {
+      "id": "e66c018c90d3",
+      "title": "モンストWebショップにおける継続決済プラットフォームの設計と実装 | MIXI DEVELOPERS Tech Blogのフィード",
+      "url": "https://zenn.dev/mixi/articles/b89c59eec31906",
+      "summary": "モンストWebショップでの月額「モンパス」販売に伴い、社内のPCI DSS準拠決済基盤を活用した継続決済プラットフォームを構築。複数サービス展開と既存実装活用のため、決済側でサブスク管理を選び、共通機能に絞ってwebhookでサービス固有のロジックを委譲する方針を採用した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T15:00:06.000Z",
+      "contentHash": "d36adf78b85d"
+    },
+    {
+      "id": "5f8313243b44",
+      "title": "エンジニアの必須スキルを身につける！『具体と抽象』輪読会レポート | BABY JOB  テックブログのフィード",
+      "url": "https://zenn.dev/babyjob/articles/concrete-and-abstract-reading",
+      "summary": "BABY JOB開発部が『具体と抽象』を輪読。週1回30分×8回でFigJamを使い感想共有、抽象化思考をクラス設計やMECE、レビューに応用。視点差による議論のズレ解消と知見の可視化が成果。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T15:00:05.000Z",
+      "contentHash": "e0ad3490d489"
+    },
+    {
+      "id": "f44094670db7",
+      "title": "The Verge picks the standout tech of 2025",
+      "url": "https://www.theverge.com/featured-video/841319/the-verge-standout-tech-2025",
+      "summary": "The Vergeの動画チームが2025年の注目テクノロジーを選出。AIやスーパーコンピューティング投資が話題になる一方、フリッパブル・折りたたみ・ロール型端末やNintendo Switch 2、ROG Ally Xなどのゲーム携帯機も目立った。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-10T15:00:00.000Z",
+      "contentHash": "b84c1bc90cd3"
+    },
+    {
+      "id": "cf64c0f50fb4",
+      "title": "Camel SEDA エンドポイント | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/cac20251211",
+      "summary": "Camel 3.xのリアクティブ環境でも、directは同期的(request/reply)に直列実行される一方、sedaは非同期のfire/forgetで処理を待たず続行する。用途に応じて使い分けを検討する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T15:00:00.000Z",
+      "contentHash": "10faa72e3d75"
+    },
+    {
+      "id": "01bcd65d46f3",
+      "title": "コードでみる Crossplane と kro | hacomono TECH BLOG",
+      "url": "https://techblog.hacomono.jp/entry/2025/12/11/000000",
+      "summary": "Crossplaneとkroをコードで比較。両者はKubernetesの抽象で独自リソースを管理。CrossplaneはAWS/GCP等の外部リソース管理やFunction(gRPC)で柔軟だが複雑、kroはCELで定義しシンプル・軽量。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T15:00:00.000Z",
+      "contentHash": "1961da79fb66"
+    },
+    {
+      "id": "a305a1e58675",
+      "title": "GitHub Universe 2025 &amp;amp; Microsoft Ignite 2025 Recapイベントに登壇しました | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2025/12/11/000000",
+      "summary": "オルターブースの振り返り会でGitHub UniverseとMicrosoft Ignite 2025を総括。Copilotはエージェント化・セルフホストや多モデル対応へ、GitHub Starsでコミュニティ評価が強化。Microsoftは「AIを作る」から「AIを使う」へシフトし、クラウド・セキュリティ関連の更新も紹介。現地は若手参加者が多く活気があった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T15:00:00.000Z",
+      "contentHash": "239214e8a306"
+    },
+    {
+      "id": "240f295442d7",
+      "title": "Kaggleを通して学ぶ機械学習の始め方と実践 | テコテック開発者ブログ",
+      "url": "https://tec.tecotec.co.jp/entry/2025/12/11/000000",
+      "summary": "Kaggleで機械学習の基礎と実践を解説。AI・機械学習の概念、Kaggleの学習コースやノートブックの利点を紹介し、データセット(Student Scores)を使った実例コードで手順を示す記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T15:00:00.000Z",
+      "contentHash": "cae00ededd7f"
+    },
+    {
+      "id": "40f646033cd3",
+      "title": "UI/UXはデザイナーだけの仕事じゃない。PMとエンジニアが「越境」すべき理由 | NEXTSCAPE blog",
+      "url": "https://blog.nextscape.net/archives/2025/12/11/000000",
+      "summary": "UI/UXはデザイナーだけの仕事ではない。分業が生む翻訳コストと情報劣化で顧客価値が損なわれるため、PMやエンジニアも越境して関わるべきだ。生成AIが専門壁を溶かし、Business/Technology/Creativeを横断する人材が求められる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T15:00:00.000Z",
+      "contentHash": "5957af7b40e0"
+    },
+    {
+      "id": "36cacbcb1d7e",
+      "title": "Claude Code でPRのレビューコメントを貯めて利用する | 弁護士ドットコム株式会社 Creators’ blog",
+      "url": "https://creators.bengo4.com/entry/2025/12/11/000000",
+      "summary": "Claude Codeプラグイン「kcc」を使い、GitHubのPRレビューを収集・要約してLLMで活用する仕組みを紹介。品質指摘や時系列、理想と現実のギャップを抽出し、レビューを組織的なナレッジとして蓄積・再利用しオンボーディングやレビュー文化の改善を目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T15:00:00.000Z",
+      "contentHash": "bd7e08740166"
+    },
+    {
+      "id": "025282598782",
+      "title": "AI companies want a new internet — and they think they’ve found the key",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/841156/ai-companies-aaif-anthropic-mcp-model-context-protocol",
+      "summary": "MCP（Model Context Protocol）はAnthropic発の規格で、AIエージェントが標準化された方法でネット上の情報やツールにアクセスできるよう設計。OpenAI、Google、Microsoftらが採用し、新たなAI向けインターネット基盤を目指す。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-10T14:33:45.000Z",
+      "contentHash": "656a7c374445"
+    },
     {
       "id": "a23c4878725d",
       "title": "Razer resurrects the first ever gaming mouse as a limited edition",
       "url": "https://www.theverge.com/news/841494/razer-boomslang-20th-anniversary-edition-gaming-mouse-rechargeable-optical",
-      "summary": "Razerが初代ゲーミングマウスBoomslangを復刻。20周年記念版は左右対称デザインを継承し、ローリングボールを45,000DPI光学センサーに刷新、RGB付きワイヤレス充電ドック同梱。価格・発売日は未発表。",
+      "summary": "Razerが創業20周年を記念して、25年前の初代ゲーミングマウス「Boomslang」を復刻。左右対称の「Boomslang 20th Anniversary」は、45,000DPI光学センサーやRGB付きワイヤレス充電ドックを搭載。価格・発売日は未発表。",
       "source": "The Verge",
       "publishedAt": "2025-12-10T14:16:53.000Z",
-      "contentHash": "2b573f4b4e4c"
+      "contentHash": "ec837a3b5ec5"
     },
     {
       "id": "2525f25e5552",
@@ -2741,10 +2849,10 @@
       "id": "e41ac15a83b2",
       "title": "X-VLA の概要",
       "url": "https://note.com/npaka/n/nd3f000d74bd6",
-      "summary": "X-VLAはロボット固有のハードウェアやデータ差を学習可能なソフトプロンプトとして符号化し、純粋なTransformerで多様なロボットに適応する基盤モデル。29万エピソードで学習した0.9Bはプロンプトのみの少量更新（約1%=9M）で高性能を示し、実ロボットやベンチで高い汎用性と器用さを発揮する。",
+      "summary": "X-VLAは、各ロボットの身体性やセンサー差を学習可能なソフトプロンプトで埋め込むTransformer基盤のロボットモデル。7機種29万エピ学習の0.9Bはバックボーン凍結で約1%の微調整のみで新機体へ高速適応し、従来手法と同等以上の性能を示す。導入・評価手順も公開。",
       "source": "npaka",
       "publishedAt": "2025-12-08T07:06:59.000Z",
-      "contentHash": "e3fa81f7eee9"
+      "contentHash": "004df1449860"
     },
     {
       "id": "f174c18a2dec",
@@ -8892,114 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-11-24T23:48:25.000Z",
       "contentHash": "422e4f98d292"
-    },
-    {
-      "id": "91a1d7426b1a",
-      "title": "ChatGPT shopping research builds you a buyer&#8217;s guide using AI",
-      "url": "https://www.theverge.com/news/828326/chatgpt-shopping-research-chatgpt-buyers-guide",
-      "summary": "OpenAIはChatGPTに「shopping research」を導入。買い物質問で起動し、価格や用途などの好みを聞いて商品を絞り込む。購入は小売サイト経由（将来ChatGPT内決済予定）。価格や在庫の誤りに注意。GPT‑5 miniを基に過去会話やメモも参照。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T23:40:38.000Z",
-      "contentHash": "43cd4f3bb90f"
-    },
-    {
-      "id": "b949e9ac355e",
-      "title": "【セキュリティ】基本情報：令和７年度（科目B：問６）情報セキュリティリスクアセスメント | Agent Grow Tech Notesのフィード",
-      "url": "https://zenn.dev/agent_grow/articles/4e2ce76ce146cd",
-      "summary": "基本情報技術者試験の科目B（情報セキュリティ）問題を令和7年度公開問題で解説。電子機器メーカーの本社と工場のサーバルームを舞台に、ファイルサーバのバックアップ・リストアに関する内部監査問題を扱い、合格に向けた理解を深める内容。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-24T23:00:01.000Z",
-      "contentHash": "8f8e33d32e14"
-    },
-    {
-      "id": "4f75b59a4bf7",
-      "title": "日本IBM×セガXDが提案する「生成AI学習のゲーミフィケーション」完全ガイド──カードゲームで学ぶプロンプト技術と組織変革 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/357236a18345c7",
-      "summary": "日本IBMはセガXD監修で生成AI学習用カードゲーム研修「バトルワーカーズ」を開発。業務を入力してAIにカード生成、プロンプト改良で対戦しながら生成AIの仕組みやプロンプト作成、リスク対策を実践的に学べ、企業の活用推進やチームビルディング、キャリア支援に有用です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-24T22:37:10.000Z",
-      "contentHash": "926b32d81be3"
-    },
-    {
-      "id": "25a7242b0f8d",
-      "title": "Meta&#8217;s new wearables trade-in program gives you Ray-Ban and Oakley discounts",
-      "url": "https://www.theverge.com/news/828256/meta-smart-glasses-trade-in-credit",
-      "summary": "Metaが12月31日までパイロットでスマートグラスの下取り割引を実施。対象はRay‑Ban Meta Gen1/Gen2、Oakley HSTN/Vanguard（Display除外）。一部AirPods/Beats/Galaxy Budsも下取り可。Meta直販でカートに表示、最大約113ドル引き。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T22:32:58.000Z",
-      "contentHash": "7d9b47b78fab"
-    },
-    {
-      "id": "98afe8026c73",
-      "title": "DoGE \"cut muscle, not fat\"; 26K experts rehired after brutal cuts",
-      "url": "https://arstechnica.com/tech-policy/2025/11/doge-doesnt-exist-anymore-but-expert-says-its-still-not-dead/",
-      "summary": "申し訳ありませんが、リアルタイムでウェブ記事を取得できません。記事本文か主要段落を貼っていただければ、200文字以内の日本語要約を作成します。HNコメントの要約も可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T22:12:04.000Z",
-      "contentHash": "682fa279dcb9"
-    },
-    {
-      "id": "c8fc9eb19f45",
-      "title": "ChatGPT の ショッピングリサーチ の概要",
-      "url": "https://note.com/npaka/n/ne0d29bf40a49",
-      "summary": "記事は「Introducing shopping research in ChatGPT」を取り上げ、ChatGPTにショッピングリサーチ機能を導入する発表を紹介。筆者が面白いと感じた点を簡潔にまとめた内容です。",
-      "source": "npaka",
-      "publishedAt": "2025-11-24T22:01:51.000Z",
-      "contentHash": "049c3cc507b0"
-    },
-    {
-      "id": "225424cad398",
-      "title": "QAキックオフ資料を生成するPromptを作成し、開発とQAチームを効率化した話 | JMDC TECH BLOG",
-      "url": "https://techblog.jmdc.co.jp/entry/2025/11/25/070000",
-      "summary": "Pep Upモバイルのスクラムマスター兼エンジニア（@mrtry）が、アジャイル現場でのQA負荷増とリソース不足を報告。原因は開発→QAの情報共有がボトルネック化しており、QAキックオフ時の資料の形式や粒度がプロジェクトや担当者でばらつくことだと判明した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-24T22:00:00.000Z",
-      "contentHash": "34876b792745"
-    },
-    {
-      "id": "f1cbdf66ceef",
-      "title": "開発スプリントごとにTeams開発部屋を作り、部屋名を付けるようにしたら少し気分転換になった話 | 電通総研 テックブログ",
-      "url": "https://tech.dentsusoken.com/entry/2025/11/25/%E9%96%8B%E7%99%BA%E3%82%B9%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88%E3%81%94%E3%81%A8%E3%81%ABTeams%E9%96%8B%E7%99%BA%E9%83%A8%E5%B1%8B%E3%82%92%E4%BD%9C%E3%82%8A%E3%80%81%E9%83%A8%E5%B1%8B%E5%90%8D%E3%82%92",
-      "summary": "クロスイノベーション本部AIトランスフォーメーションセンターの村本が、電通総研で開発する生成AIプロダクト「Know Narrator」チームの普段の開発手法や作業開始の流れを紹介。関連コラムも案内しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-24T22:00:00.000Z",
-      "contentHash": "6e18248e4d44"
-    },
-    {
-      "id": "473619bbce31",
-      "title": "Claude Opus 4.5 の概要",
-      "url": "https://note.com/npaka/n/nd3bfdfe2c593",
-      "summary": "記事の本文が表示されていないようです。要約するには記事全文かリンクを貼ってください。全文が難しければ、要点（注目点や抜粋）を教えていただければ、それを基に200文字以内でまとめます。あるいは私の知識（2024年6月時点）からClaude Opus 4.5の概要でよければ、その要約を作成します。どちらにしますか？",
-      "source": "npaka",
-      "publishedAt": "2025-11-24T21:45:30.000Z",
-      "contentHash": "15e82e3d83cf"
-    },
-    {
-      "id": "40bd7bdea45f",
-      "title": "Fifteen Years",
-      "url": "https://xkcd.com/3172/",
-      "summary": "すみません、外部サイトに直接アクセスできません。該当ページ（漫画の画像説明や本文、HNコメントの要点）を貼り付けていただければ、200文字以内で日本語要約を作成します。コメントを含めるかも教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T21:38:25.000Z",
-      "contentHash": "2b90b0ead328"
-    },
-    {
-      "id": "a1cc015d38d4",
-      "title": "Nvidia’s ‘I’m Not Enron’ memo has people asking a lot of questions already answered by that memo",
-      "url": "https://www.theverge.com/business/828047/nvidia-enron-conspiracy-accounting",
-      "summary": "週末に拡散したNvidiaの「会計不正」疑惑投稿は根拠薄で同社が否定、BurryのRSU税計算も誤り。記事はNvidiaがネオクラウドやOpenAIを事実上の拡張（SPV）としてチップ販売を拡大し、エンロンに似ると論じる。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T21:18:57.000Z",
-      "contentHash": "18f2b0c82d8f"
-    },
-    {
-      "id": "2937e1109340",
-      "title": "Xbox Crocs are real",
-      "url": "https://www.theverge.com/news/828175/microsoft-xbox-crocs",
-      "summary": "MicrosoftとCrocsがコラボ。11月25日発売の限定「Xboxコントローラ」風クロックスを80ドルで発売。ABXYやスティック、ロゴを再現。Halo等のチャーム5個組は20ドル。Xbox360発売20周年記念。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T21:05:19.000Z",
-      "contentHash": "06782db46b39"
     }
   ]
 }
