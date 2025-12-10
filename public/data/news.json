@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2025-12-10T10:36:57.284Z",
+  "generatedAt": "2025-12-10T11:32:25.864Z",
   "items": [
+    {
+      "id": "e28cca4782f8",
+      "title": "ランダムオラクル付きSNARG/PCP の非存在証明はビットコインにどう関係するか？ | HashPort技術ブログ",
+      "url": "https://tech.hashport.io/5255/",
+      "summary": "ビットコイン台帳圧縮に有望なSNARG/STARKはSHA256や署名の証明が重く、外部ランダムオラクルで軽減を期待したが、論文はROM付きSNARG/PCPで非自明な計算を扱うものは存在しないと示した。ランダムオラクルのn回呼び出しをn未満で漏れなく検証できないのが本質的理由。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T11:00:14.000Z",
+      "contentHash": "ba20b5787867"
+    },
+    {
+      "id": "5c7ce2833a59",
+      "title": "チンパンジーでもわかるGit/Github【初心者向け】 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/50695",
+      "summary": "初心者向けにGit/GitHubを解説。誰がいつ何を変えたかを記録し、ブランチで並行作業、コミットで履歴保存、プッシュ／プルリクで確認後にマージ、コンフリクト解決ができる。Gitはローカルの履歴管理、GitHubは共有サービス。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T10:56:07.000Z",
+      "contentHash": "9c53edf0b972"
+    },
+    {
+      "id": "3a278bcb23d8",
+      "title": "twadaさん社内講演 - 「予防に勝る防御なし（2025年版）」 | CARTA TECH BLOG",
+      "url": "https://techblog.cartaholdings.co.jp/entry/2025/12/10/193818",
+      "summary": "twada氏がCARTA社内で「予防に勝る防御なし（2025年版）」をオンライン講演。PHPの悪いコードを段階的に堅牢化する手法を紹介し約120名が参加。コード改善の重要性や設計の新たな気づきを得た。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T10:38:18.000Z",
+      "contentHash": "41f7e71320b7"
+    },
+    {
+      "id": "961569e76c7b",
+      "title": "Hardhat 3 と Dev Container で Solidity の開発 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/50400",
+      "summary": "菊地啓哉が、WSL＋DockerとVS Code Remoteを前提に、Hardhat 3でSolidity開発するためのDev Container構築手順を解説。最終的なdevcontainer.json例、コンテナ作成手順、Hardhat3の初期化や基本操作、公開ネットワークデプロイ時の注意点を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T10:18:24.000Z",
+      "contentHash": "c36581b232c8"
+    },
+    {
+      "id": "5397e1b8f3aa",
+      "title": "電子工作サークル活動レポート 〜動く自動ドア模型を作ってみよう〜 | フォトシンス エンジニアブログ",
+      "url": "https://akerun.hateblo.jp/entry/2025/12/10/toy_auto_door",
+      "summary": "電子工作サークルでAkerunCtl連携の自動ドア模型を制作した報告。アルミフレーム＋レーザー加工アクリル、NEMA17（ステッピングモータ）・タイミングベルト、Arduino NanoとA4988等の市販部品で、ボタンで開き数秒後に閉まる動作を実装しデモと学習を兼ねた活動です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T10:13:27.000Z",
+      "contentHash": "18383324eb9e"
+    },
+    {
+      "id": "c3c8de1f70f9",
+      "title": "【協賛レポート・後編】Designship 2025｜“勝つデザイン”と“やさしいデザイン”──現場から見えたこれからの指針 | GMO Developers",
+      "url": "https://developers.gmo.jp/events/77378/",
+      "summary": "GMOインターネットはDesignship 2025に協賛。GMOグローバルサイン田伐直子が「勝つデザイン」と「やさしいデザイン」の両立を提唱し、産休での価値観変化やコロナ禍での電子印鑑GMOサインのブランディング経験を語り、成果と共感を得た経緯を紹介した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T09:22:04.000Z",
+      "contentHash": "be9804942005"
+    },
+    {
+      "id": "360bcda24d2f",
+      "title": "イベントソーシングを理解する | wwwave's Techblogのフィード",
+      "url": "https://zenn.dev/wwwave/articles/3220daf7b6fc1b",
+      "summary": "ウェイブは決済ロジックをモジュラーモノリスへ切り出す決済分離プロジェクトでDDDを採用し、履歴から状態を復元するイベントソーシングを採用。CRUDと比較し利点（履歴追跡、参照設計や非同期化が容易）と欠点（学習コスト、性能懸念）を整理し、決済要件に合うため採用。将来のマイクロサービス化も視野に。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T09:15:18.000Z",
+      "contentHash": "831b57dfdf04"
+    },
+    {
+      "id": "80dba4c0ab87",
+      "title": "Qiitaニュース | 客先のDBを間違えて削除した話 | Qiita Zine",
+      "url": "https://qiita.com/official-columns/news/2025-12-10/",
+      "summary": "Qiitaニュース（2025/12/10）は、2025/12/01〜12/07の「いいね」上位20を紹介。1位は lif_yumumu の「客先のDBを間違えて削除した話」（638いいね）。Qiitaニュースはエンジニアを最高に幸せにすることを目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T09:06:47.000Z",
+      "contentHash": "22b85b464128"
+    },
+    {
+      "id": "918646e85428",
+      "title": "【re:invent 2025】AWS WAF の誤検知回避 - カスタムルールのテクニックを学ぶ (NET-301参加レポート) | カミナシ エンジニアブログ",
+      "url": "https://kaminashi-developer.hatenablog.jp/entry/2025/12/10/180330",
+      "summary": "AWS re:Invent NET-301参加レポート。AWS WAFをCOUNTモードで検証→BLOCKへ移行する実践的チューニングを習得。CloudWatch/ Amazon Qでログ解析し誤検知を見極め、Route53ラベル付与や除外付きレート制限、不要メソッドブロックなどのカスタムルール運用や高コストルール後回しの手法を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T09:03:30.000Z",
+      "contentHash": "8377844291d6"
+    },
     {
       "id": "578474c46314",
       "title": "データ分析基盤再整備から1年：アーキテクチャ導入の成果と苦労 | レバレジーズ データAIブログ",
@@ -239,10 +320,10 @@
       "id": "8781091247ec",
       "title": "Rust in the kernel is no longer experimental",
       "url": "https://lwn.net/Articles/1049831/",
-      "summary": "「Maintainers Summitの報道をお楽しみに」との告知と、Phoronixへの批判や擁護のコメントが並ぶ記事。クリックベイトや文書力を指摘する声もあるが、頻繁な更新やベンチでカーネル問題を掘り起こす有用性を評価する意見も記載。著作権表記あり。",
+      "summary": "複数の投稿からなるスレッド。Maintainers Summitの続報予告、Phoronixへの批判（クリックベイトや記事の質）と同時に有用性の指摘、ベンチマークでClear Linuxが有利なのはデフォルトでCFLAGS=-O3が設定されている可能性がある、という意見などが並ぶ。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T03:15:24.000Z",
-      "contentHash": "4d6d6360a10a"
+      "contentHash": "0de01c83a4c7"
     },
     {
       "id": "b257a3b26e86",
@@ -311,10 +392,10 @@
       "id": "9f43c64754f5",
       "title": "NYC congestion pricing cuts air pollution by a fifth in six months",
       "url": "https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/",
-      "summary": "ニューヨークの渋滞課金導入後6か月で大気汚染が約22%減少。車両通行と排出が減り中心部で交通由来汚染が改善、健康面の利点が期待される。",
+      "summary": "NYCの混雑課金開始後6ヶ月で、中心部の大気汚染が平均22%減少。車両数やトラックの通行減で排出が減り、健康改善や気候対策の効果が示された一方、経済影響や不公平の懸念も残る。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T02:58:45.000Z",
-      "contentHash": "cf2a9fb73f44"
+      "contentHash": "92ee06ef5395"
     },
     {
       "id": "b52dab2517f0",
@@ -390,12 +471,12 @@
     },
     {
       "id": "a787768673a2",
-      "title": "Call of Duty won’t release Modern Warfare or Black Ops back to back anymore",
+      "title": "Call of Duty won’t release Modern Warfare or Black Ops back-to-back anymore",
       "url": "https://www.theverge.com/news/841290/activision-call-of-duty-modern-warefare-black-ops-back-to-back",
-      "summary": "アクティビジョンは今後「モダンウォーフェア」と「ブラックオプス」を連続で出さず、毎年「完全に独自の体験」を提供すると発表。過去4作（MWII 2022、MWIII 2023、BO6 2024、BO7 2025）は類似指摘やBO7の欧州での不振があり、漸進的でなく意義ある革新を目指すという。",
+      "summary": "Activisionは今後、Modern WarfareとBlack Opsを連続リリースするやり方をやめ、毎年「まったく独自の体験」を提供する方針に転換。MW/BOの2022〜2025連続作が類似指摘やBO7の欧州での失速を招いたことが背景で、意味ある革新を目指すとした。",
       "source": "The Verge",
       "publishedAt": "2025-12-10T00:24:11.000Z",
-      "contentHash": "eb0f47551e5e"
+      "contentHash": "e494eb7a23a0"
     },
     {
       "id": "009cd5e6033a",
@@ -554,10 +635,10 @@
       "id": "82fa0021e4a3",
       "title": "Somehow, this AI-generated McDonald&#8217;s ad about hating Christmas was a flop",
       "url": "https://www.theverge.com/news/841220/mcdonalds-ai-generated-christmas-ad",
-      "summary": "AI生成のマクドナルド（オランダ）広告が、祝祭を「最悪の季節」と描き「正月までマックで隠れろ」と訴える内容でYouTubeから削除。SNSに再投稿され、AI使用や品質・メッセージへの批判が相次いだ。",
+      "summary": "オランダのマクドナルドが制作したAI生成CMが、クリスマスを「最悪の季節」と描き、家族行事などの失敗を見せて「1月までマクドナルドに避難せよ」と訴えた。YouTubeで削除され、SNSではAI利用や内容への批判が相次いだ。",
       "source": "The Verge",
       "publishedAt": "2025-12-09T22:52:20.000Z",
-      "contentHash": "ef1c69fcf64d"
+      "contentHash": "9f25a42190b0"
     },
     {
       "id": "d92547b0e1f1",
@@ -8919,87 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-11-24T18:49:47.000Z",
       "contentHash": "c6697610cedc"
-    },
-    {
-      "id": "d1da1d52c4d4",
-      "title": "GrapheneOS migrates server infrastructure from France",
-      "url": "https://www.privacyguides.org/news/2025/11/22/grapheneos-migrates-server-infrastructure-from-france-amid-police-intimidation-claims/",
-      "summary": "申し訳ありませんが外部URLに直接アクセスできません。該当記事（または本文抜粋／主要ポイント）をここに貼っていただければ、200文字以内で日本語要約します。HNコメントも合わせて要約希望か教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T18:48:04.000Z",
-      "contentHash": "bc07e5d1b911"
-    },
-    {
-      "id": "ce81440165d4",
-      "title": "The Bitter Lesson of LLM Extensions",
-      "url": "https://www.sawyerhood.com/blog/llm-extension",
-      "summary": "記事は「LLMを拡張機能として扱う」設計思想を提案し、プラグイン／ツールAPI、データ接続、エージェント設計、セキュリティ、開発運用上の課題と実装上のベストプラクティスを解説しています。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T18:32:27.000Z",
-      "contentHash": "86598e72d852"
-    },
-    {
-      "id": "2a187b29ba00",
-      "title": "TSMC Arizona outage saw fab halt, Apple wafers scrapped",
-      "url": "https://www.culpium.com/p/tsmc-arizona-outage-saw-fab-halt",
-      "summary": "米アリゾナのTSMC工場で電力系のトラブルにより製造ラインが停止。安全措置でウェーハ処理が中断され、生産停止が供給網の脆弱性を露呈。復旧と原因調査が進められている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T18:30:48.000Z",
-      "contentHash": "694fb0427e28"
-    },
-    {
-      "id": "d15dc79cec2a",
-      "title": "Mind-reading devices can now predict preconscious thoughts",
-      "url": "https://www.nature.com/articles/d41586-025-03714-0",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文または主要部分をここに貼っていただけますか？いただければ日本語で200文字以内に要約します。Hacker Newsのコメント要約も可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T18:26:09.000Z",
-      "contentHash": "86807a924383"
-    },
-    {
-      "id": "03cb1b2135da",
-      "title": "Indie game developers have a new sales pitch: being ‘AI free’",
-      "url": "https://www.theverge.com/entertainment/827650/indie-developers-gen-ai-nexon-arc-raiders",
-      "summary": "今月、NexonのCEOが「すべてのゲーム会社がAIを使っている前提が重要」と発言。インディー開発者らはこれを否定し、生成AIを使わない選択は誇りや職業的な理由によると反発した。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T18:22:32.000Z",
-      "contentHash": "8214c3f99802"
-    },
-    {
-      "id": "09c1dcafc588",
-      "title": "HBO Max is offering one of the best Black Friday deals we’ve seen this year",
-      "url": "https://www.theverge.com/gadgets/827608/hbo-max-black-friday-deal-streaming-sale-2025",
-      "summary": "HBO Maxが広告付きプランのブラックフライデーセール中。新規・復帰向けに月$2.99（年約$109.99）で12月1日まで約$96節約可。HDで2画面視聴可能だが4Kやダウンロードは不可。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T18:16:32.000Z",
-      "contentHash": "d308139a0f51"
-    },
-    {
-      "id": "27c7529506ec",
-      "title": "Amazon&#8217;s Starlink competitor is launching with &#8216;world&#8217;s fastest satellite internet antenna&#8217;",
-      "url": "https://www.theverge.com/news/827783/amazon-leo-ultra-antenna-enterprise-preview",
-      "summary": "Amazonは衛星インターネット端末Leo Ultraを発表。企業・政府向け20×30インチで最大1Gbps下り/400Mbps上り、AWS直結と専用ネットワーク対応。Pro(11\")は400Mbps、Nano(7\")は100Mbps。古いGEO回線の暗号化欠如問題を踏まえ私設ネットが利点。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T18:08:45.000Z",
-      "contentHash": "96cd2aa94b1e"
-    },
-    {
-      "id": "29c4615b3eb3",
-      "title": "Aqara&#8217;s $99 Wi-Fi smart lock is a good-looking budget option",
-      "url": "https://www.theverge.com/news/827784/aqara-wifi-b50-smart-lock-lowes-budget-friendly",
-      "summary": "Aqaraの新ワイヤレススマートロックB50は$99.99。バックライトテンキー、Wi‑Fi内蔵でハブ不要、Alexa/Google対応。PIN（使い捨て/定期/常設）や音声/アプリ/物理鍵で解錠、覗き見防止、アプリで遠隔監視、Matter連携可。単4×4で約6か月駆動、USB‑C給電や鍵でバックアップ。米国はLowe'sと公式販売。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T17:55:55.000Z",
-      "contentHash": "f8cd8c670884"
-    },
-    {
-      "id": "0937a4b3747d",
-      "title": "Show HN: I built an interactive HN Simulator",
-      "url": "https://news.ysimulator.run/news",
-      "summary": "Hacker News風のシミュレータを作成。アカウント不要で投稿でき、投稿やリンクに対しアーキタイプ・ムード等を組み合わせたプロンプトでLLMが即座にコメント生成。Node/Express/Postgres、推論はReplicateで実行。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T17:52:43.000Z",
-      "contentHash": "67e1359b7433"
     }
   ]
 }
