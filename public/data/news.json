@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2025-12-10T01:30:15.434Z",
+  "generatedAt": "2025-12-10T03:36:37.203Z",
   "items": [
+    {
+      "id": "b52dab2517f0",
+      "title": "データ組織へのClaude Code導入と、その後の利用状況 | DMM Developers Blog",
+      "url": "https://developersblog.dmm.com/entry/2025/12/10/113000",
+      "summary": "2025年新卒の森が、Google Cloud（Vertex AI）経由でClaude Codeを導入。1人月150ドルで9月末運用開始。PR作成やテスト実装などコーディング支援で有効だが、独自手法や複雑なレポートは苦手。Jupyterのトークン爆発やBigQuery抽出の課題はMCP前処理やプロンプト改善で対処し、費用消化は50～80%で運用中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T02:30:00.000Z",
+      "contentHash": "2c7e7fc62f84"
+    },
+    {
+      "id": "2756c3bf18d5",
+      "title": "複数プロダクトを横断して気づいた検証可能な開発の必要性 | Speee DEVELOPER BLOG",
+      "url": "https://tech.speee.jp/entry/tsunagaru-2025",
+      "summary": "不動産向け複数プロダクト開発で、リリースをゴールに振り返りや検証を怠り、使われない・重複する機能を生んだ。原因はSMARTに基づく測定可能なKPI不在。検証可能な指標や中間指標・期限設定の重要性を学んだ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T02:30:00.000Z",
+      "contentHash": "edf5e0bfb00e"
+    },
+    {
+      "id": "2971a1308fa4",
+      "title": "ミドルになりたいエンジニアがPull Request作成で意識していること | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/6e088bc6a3af19",
+      "summary": "FinatextのエンジニアがPR作成で意識する点。実装前に設計・データ・インターフェースを揃えスコープを小さく保つ、コードには意図（what/why）を残す、試行錯誤はsquashで整理、Draftで俯瞰してセルフレビューしテスト→リファクタを行う。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T02:18:41.000Z",
+      "contentHash": "533be293db69"
+    },
+    {
+      "id": "25de8f268ae4",
+      "title": "ヘッドレスCMSのアクセシビリティ問題について考える | 株式会社HRBrainのフィード",
+      "url": "https://zenn.dev/hrbrain/articles/ad63b0abc59f14",
+      "summary": "HRBrainのオウンドメディアはNext.js＋ContentfulのヘッドレスCMSで運用。表示とコンテンツが分離されるためアクセシビリティは開発者が担保する必要がある。典型的問題はクライアントサイド遷移でのフォーカス管理や動的更新の通知不足で、mainにtabIndex=-1してfocus()、aria-liveの利用などで対処する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T02:16:37.000Z",
+      "contentHash": "1ae7b9ecc2e4"
+    },
+    {
+      "id": "c3fd1006374c",
+      "title": "開発体験とパフォーマンスの両立を目指して — Docker Desktop がファイル共有の課題を解決するまで | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2025/12/10/111249",
+      "summary": "macOS版Docker Desktopではコンテナが軽量VM上で動くため、ホストとコンテナのbindマウントが遅く開発体験と性能がトレードオフになっていた。本記事は原因を解説し、VirtioFSやSynchronized File Sharesで両立できるようになった経緯を紹介する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T02:12:49.000Z",
+      "contentHash": "ed613f22d114"
+    },
+    {
+      "id": "ba28b0040651",
+      "title": "DMARC の取り組み | STORES Product Blog",
+      "url": "https://product.st.inc/entry/2025/12/10/110839",
+      "summary": "セキュリティ本部は2025年6月に全サービスドメインのDMARCをquarantineへ移行。まずnoneでRUAレポートを収集・分析し、SPF/DKIMを整備して段階的に強化。監視はSlack通知で実施。送信元把握や部署調整が課題だった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T02:08:39.000Z",
+      "contentHash": "c97bc462fa12"
+    },
+    {
+      "id": "7471aefe2219",
+      "title": "Gitフック「Lefthookの勝ちデース」：マルチ言語・マルチリポジトリ環境におけるHusky vs Lefthook徹底比較 | スペースマーケット Engineer Blogのフィード",
+      "url": "https://zenn.dev/spacemarket/articles/8cc0fe1fc77066",
+      "summary": "マルチ言語・マルチリポジトリ環境ではLefthookが有利。HuskyはNode必須で非NodeリポジトリにJS依存を強いるが、Lefthookは各言語に自然に導入でき、複数のインストール方法と並列実行による高速性が強み。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T02:06:17.000Z",
+      "contentHash": "a480b285b819"
+    },
+    {
+      "id": "6877a3792e3c",
+      "title": "The AI industry’s biggest week: Google’s rise, RL mania, and a party boat",
+      "url": "https://www.theverge.com/column/841207/ai-neurips-2025",
+      "summary": "サンディエゴのNeurIPSでは、強化学習が次の潮流、Googleの台頭、パーティーの過熱が目立った。学術会議が巨大な産業イベントに変わり、著者は現地参加者の見解を集めた。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-10T02:00:00.000Z",
+      "contentHash": "4a9a654aaad7"
+    },
     {
       "id": "a787768673a2",
       "title": "Call of Duty won’t release Modern Warfare or Black Ops back to back anymore",
@@ -689,10 +761,10 @@
       "id": "8b5993ac7f69",
       "title": "低コスト・オープンソースのロボットハンド Amazing Hand のススメ",
       "url": "https://note.com/npaka/n/nf59d85ba3538",
-      "summary": "POLLEN開発の「Amazing Hand」は、3Dプリント＋市販サーボで作れる低コスト・オープンソースの4本指8DoFロボットハンド。内部アクチュエータと公式SDKを備え、テレオペ、データ収集、センサーストリーミングに対応しRaspberry PiやJetsonで動作。Seeed Studioでキット販売。入門に最適だが万能ではない。",
+      "summary": "「Amazing Hand」はPOLLEN（Hugging Face系）が開発した低コスト・オープンソースの4本指8自由度ロボットハンド。3Dプリントとホビーサーボで自作可能、Seeed Studioでキット販売。内部アクチュエータ、全面オープンソースのSDKを備え、テレオペレーションやデータ収集、センサーストリーミングに対応し、AI実験や学習用に適する。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:12:06.000Z",
-      "contentHash": "7ccf6d498f4b"
+      "contentHash": "f443f2876e7d"
     },
     {
       "id": "9d66f25183c5",
@@ -707,10 +779,10 @@
       "id": "7e983d2c4634",
       "title": "Android XR SDK Developer Preview 3 の概要",
       "url": "https://note.com/npaka/n/nbc9cb6f50d5b",
-      "summary": "Android XR SDK Developer Preview 3公開。AIグラス向けAugmented Experiencesを追加し、Jetpack ProjectedとJetpack Compose Glimmerでセンサー・表示・UIを強化。Android StudioのAIグラスエミュレータ、ARCore拡張、SceneCoreやCompose for XRの機能強化で没入型体験と小型ディスプレイ向けUIを支援。",
+      "summary": "Android XR SDK Developer Preview 3 を公開。AIグラス向けのAugmented Experiencesと従来の没入型XR両方を支援し、Jetpack Projected・Jetpack Compose Glimmer・AIグラス用エミュレータ、ARCore拡張、SceneCore/Compose for XRの強化を提供。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:07:27.000Z",
-      "contentHash": "20d4d70151c9"
+      "contentHash": "dfc927b2bdd4"
     },
     {
       "id": "a70f6dc6e989",
@@ -986,10 +1058,10 @@
       "id": "0f81d8553bdd",
       "title": "EarthRover Mini+ の概要",
       "url": "https://note.com/npaka/n/n22a1785aa8a6",
-      "summary": "EarthRover Mini+はFrodoBotsの小型オープンソースモバイルロボット。前後カメラ、IMU/GPS、差動ブラシレス駆動、約1.5kg・4–5時間稼働、4G/Wi‑Fi（日本未検証）。SDK/LeRobotやPython APIで遠隔操作・データ収集・AI学習に対応。価格約300ドル。",
+      "summary": "EarthRover Mini+はFrodoBotsのオープンソース小型ロボット（約1.5kg、4–5時間稼働）。前後カメラ・IMU/GPS・4G/LTE・Wi‑Fi・音声搭載で約$300。実世界ナビやSLAM、データ収集に適し、公開SDK・LeRobot/Python APIで遠隔操作・学習・クラウド共有が可能。日本の4G動作は未確認。",
       "source": "npaka",
       "publishedAt": "2025-12-09T05:40:28.000Z",
-      "contentHash": "fed640b3842a"
+      "contentHash": "94ddc6f1576e"
     },
     {
       "id": "ab579275109a",
@@ -2138,10 +2210,10 @@
       "id": "e41ac15a83b2",
       "title": "X-VLA の概要",
       "url": "https://note.com/npaka/n/nd3f000d74bd6",
-      "summary": "X-VLAはソフトプロンプトで各ロボットの身体性を埋め込み、純粋Transformerで多様なロボット・センサーを統合する基盤モデル。29万エピソードで学習し、少量パラ調整で新ロボットへ高効率適応、実機・シミュで高性能を示す。",
+      "summary": "X-VLAはロボット固有のハードウェアやデータ差を学習可能なソフトプロンプトとして符号化し、純粋なTransformerで多様なロボットに適応する基盤モデル。29万エピソードで学習した0.9Bはプロンプトのみの少量更新（約1%=9M）で高性能を示し、実ロボットやベンチで高い汎用性と器用さを発揮する。",
       "source": "npaka",
       "publishedAt": "2025-12-08T07:06:59.000Z",
-      "contentHash": "ff5964377bcf"
+      "contentHash": "e3fa81f7eee9"
     },
     {
       "id": "f174c18a2dec",
@@ -8928,78 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-23T23:00:00.000Z",
       "contentHash": "9249604a72f7"
-    },
-    {
-      "id": "3466349994ed",
-      "title": "Show HN: I wrote a minimal memory allocator in C",
-      "url": "https://github.com/t9nzin/memory",
-      "summary": "スレッド安全でないおもちゃのメモリアロケータ。実装解説のチュートリアル記事（約20分）をREADMEのリンクで公開。HNで112ポイント、コメント27件。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T22:25:36.000Z",
-      "contentHash": "41547e0aeab1"
-    },
-    {
-      "id": "ea3a9aa4c201",
-      "title": "Iowa City made its buses free. Traffic cleared, and so did the air",
-      "url": "https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html",
-      "summary": "そのアーカイブ先に直接アクセスできないため要約できません。記事本文を貼るか、主要点（見出し・段落）を教えてください。200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T22:06:44.000Z",
-      "contentHash": "4571710d5684"
-    },
-    {
-      "id": "4942aa787b3b",
-      "title": "Several core problems with Rust",
-      "url": "https://bykozy.me/blog/rust-is-a-disappointment/",
-      "summary": "著者はRustに失望したと述べ、所有権・借用の学習コストや扱いの難しさ、長いコンパイル時間、非同期や抽象化の複雑さ、エコシステムの未熟さが生産性を損ね、期待に届かなかったとまとめる。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T21:52:48.000Z",
-      "contentHash": "918b15bde729"
-    },
-    {
-      "id": "4caba8a11475",
-      "title": "About This Account reveals the scale of X’s foreign troll problem",
-      "url": "https://www.theverge.com/news/827298/about-this-account-reveals-the-scale-of-xs-foreign-troll-problem",
-      "summary": "Xの「About This Account」で、米国向けに政治的煽動をする多数のアカウントが実際はナイジェリア、東欧、バングラデシュ、タイ等の海外拠点のトロールや影響工作だったことが判明。公開後Xは位置情報を削除・注記を追加。国家支援や金銭目的の可能性が指摘される。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-23T21:36:32.000Z",
-      "contentHash": "f583b3d5ca0e"
-    },
-    {
-      "id": "2be51f6fb085",
-      "title": "µcad: New open source programming language that can generate 2D sketches and 3D",
-      "url": "https://microcad.xyz/",
-      "summary": "すみませんが、外部リンク先の内容には直接アクセスできません。記事本文（または要点）を貼り付けていただければ、200字以内で日本語要約を作成します。HNコメントも同様に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T20:51:22.000Z",
-      "contentHash": "dccb9a5e3180"
-    },
-    {
-      "id": "003a23b8d806",
-      "title": "\"Good engineering management\" is a fad",
-      "url": "https://lethain.com/good-eng-mgmt-is-a-fad/",
-      "summary": "著者は「良いエンジニア管理」は一過性の流行で、カリスマ個人に依存すると脆弱だと指摘する。優れたマネジメントは個人技でなく、仕組み・文化・再現可能なプロセスで普遍化・標準化すべきだと主張する。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T20:16:04.000Z",
-      "contentHash": "64da74bb29c4"
-    },
-    {
-      "id": "833d3dcb2a34",
-      "title": "1M Downloads of Zorin OS 18",
-      "url": "https://blog.zorin.com/2025/11/18/test-the-upgrade-from-zorin-os-17-to-18-and-celebrating-1-million-downloads-of-zorin-os-18/",
-      "summary": "Zorin OS 17→18のアップグレード検証ベータを告知。テスター募集、手順や注意（バックアップ推奨）、既知の問題や報告方法を案内し、Zorin OS 18の100万ダウンロード達成を感謝している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T19:38:15.000Z",
-      "contentHash": "c51ff4b97853"
-    },
-    {
-      "id": "888421a52b11",
-      "title": "Some of the best Nintendo Switch games are up to $30 off for Black Friday",
-      "url": "https://www.theverge.com/gadgets/826416/best-nintendo-black-friday-deals-switch-games-amiibo-sale-2025",
-      "summary": "期間限定で『スーパーマリオ オデッセイ』が29.99ドル（過去最安値）に。任天堂は11月28日までホリデーセールを実施し、『ゼルダ：Echoes of Wisdom』など一部Switchタイトルが約30ドル引き。Switch2用は対象外だが旧作はSwitch2でプレイ可。Wootのプロモは11/23まで。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-23T19:00:00.000Z",
-      "contentHash": "57e6b0096993"
     }
   ]
 }
