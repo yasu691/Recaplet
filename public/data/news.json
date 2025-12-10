@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2025-12-10T08:39:56.432Z",
+  "generatedAt": "2025-12-10T09:38:19.685Z",
   "items": [
+    {
+      "id": "578474c46314",
+      "title": "データ分析基盤再整備から1年：アーキテクチャ導入の成果と苦労 | レバレジーズ データAIブログ",
+      "url": "https://analytics.leverages.jp/entry/2025/12/10/180000",
+      "summary": "データ分析基盤再整備から1年。セマンティック層とBIの間にconnection_to層を追加、ワイドテーブル作成を任意化し、KPI定義の統一やモニタリング納品の高速化、依存関係簡素化を実現。一方で層ごとの責任範囲明確化、現場浸透、KPI保守運用が課題。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T09:00:00.000Z",
+      "contentHash": "bbf25555b1d4"
+    },
+    {
+      "id": "e152ab5d9d8c",
+      "title": "NWスペシャリスト合格体験記 | TechRacho",
+      "url": "https://techracho.bpsinc.jp/cellotak/2025_12_10/155253",
+      "summary": "筆者は2024・2025の2回受験で最終的に合格（不合格体験含む）。業界未経験で2024年初に学習開始し、教科書や過去問を中心に約61時間学習。ルーティングやIPsec/TLS、VLAN、DNSなど苦手分野が多く、多忙と体調不良の中で受験した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T08:30:41.000Z",
+      "contentHash": "eacfd445f2f7"
+    },
+    {
+      "id": "ea2dce418b60",
+      "title": "個人開発でKiroを4ヶ月使ってみた感想 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/kiro-4months-impression",
+      "summary": "個人開発で4ヶ月Kiroを使用した感想。KiroはAWS製の仕様駆動IDEでrequirements.md・design.md・tasks.mdを生成。進捗管理や中断再開が楽で品質安定に寄与する一方、完了まで時間がかかり品質の揺れや完了判定の誤りがあり、ステアリングの調整が必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T08:18:43.000Z",
+      "contentHash": "a997fae6945f"
+    },
+    {
+      "id": "cedffcad11fb",
+      "title": "Kubestronaut認定レポート 安心安全な食材をお届けするため、セキュアで安心安全なシステム基盤について学びました | Oisix ra daichi Creator's Blog（オイシックス・ラ・大地クリエイターズブログ）",
+      "url": "https://creators.oisixradaichi.co.jp/entry/2025/12/10/171450",
+      "summary": "SREの高木さんがCNCFの5種Kubernetes資格（CKA/CKAD/CKS/KCNA/KCSA）を同時有効にしてKubestronaut認定を取得。EKS基盤強化とセキュリティ習得が目的で、学習で実務に役立つ知識やツール（Trivy等）、認定の特典や費用・更新の注意点も紹介しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T08:14:50.000Z",
+      "contentHash": "a8b6be64ec77"
+    },
+    {
+      "id": "c4f4e4e23084",
+      "title": "AI機能開発においてデータ整備が重要だった話 | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/1c6d968fc8eb33",
+      "summary": "営業支援のAIレポートは当初Web検索で生成していたが、信頼性低下とトークン消費増大が課題に。必要情報を事前に収集・データ基盤へ蓄積し取得する方式に変更し、精度向上とコスト削減（トークン量約1/10）を実現した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T08:04:05.000Z",
+      "contentHash": "e30a65d9e581"
+    },
+    {
+      "id": "5a0ddaac7be2",
+      "title": "【New Relic】エージェント導入前に知っておくべき設定鍵の種類と役割 | TechHarmony",
+      "url": "https://blog.usize-tech.com/newrelic-keys/",
+      "summary": "New Relic導入前に把握すべき鍵は、データ送信用のLicense Key（サーバー）・Browser Key（ブラウザ）と、設定操作用のUser Key。デフォルト鍵は避け、権限に応じて新規発行し適切に管理・削除することを推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T08:01:53.000Z",
+      "contentHash": "26518a6951c5"
+    },
+    {
+      "id": "a4770f7e1c2f",
+      "title": "【Application Modernization | 第8回】Refactor Dev視点 なぜリファクタリングが開発スピードを決めるのか | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/2025/12/10/170024",
+      "summary": "本稿はモダナイゼーションの「リファクター」を開発者視点で論じる。挙動を保ちつつ内部構造を改善し、クラウドネイティブ化でDVSを短縮。変更特定・バグ対応・レビュー・新人立ち上げが容易になり、OVSへの価値提供が速まる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T08:00:24.000Z",
+      "contentHash": "3266e21d97e1"
+    },
+    {
+      "id": "63d8c0508679",
+      "title": "【AWS WAF】海外からの怪しいアクセスが多すぎたのでWAFのルール設定を見直した話 | ソーシャルデータバンク テックブログのフィード",
+      "url": "https://zenn.dev/sdb_blog/articles/9f38b179dcbd18",
+      "summary": "DBの接続枯渇エラーを調べたら海外（主にブラジル）からの大量リクエストによるDDoSが判明。AWS WAFで怪しいIPをブロックし、海外向けにレート制限を試したが不十分だったため、背景でブラウザ検証するChallengeルールを導入し影響を軽減したが万能ではない。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T08:00:06.000Z",
+      "contentHash": "f18f2b47709a"
+    },
+    {
+      "id": "a361e0a440a2",
+      "title": "エンジニアの交流促進に最適！アーキテクチャ大喜利のすすめ - チームビルディング事例 | Insight Edge Tech Blog",
+      "url": "https://techblog.insightedge.jp/entry/ogiri",
+      "summary": "アーキテクチャ大喜利を社内チームビルディングとして実施。普段接点のないメンバー間の交流とアーキテクチャ思考向上を目的に、ChatGPTでお題を練り、LLMによる大規模文書要約という制約（時間・並列性・データ抽出など）を設定し、設計の余白で多様な解法を引き出した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T08:00:00.000Z",
+      "contentHash": "3b578872e56d"
+    },
+    {
+      "id": "a8c1b30ed756",
+      "title": "社内クラウドデザインパターン勉強会レポート | asken テックブログ",
+      "url": "https://tech.asken.inc/entry/20251211",
+      "summary": "askenのCo-Learning委員会が2025年上期に開催したクラウドデザインパターン勉強会（全4回）は、講義＋AWSハンズオンでストラングラー、Valet Key、Claim Checkなどを学び、段階移行や署名付きURL、S3連携など実践的な設計力向上を目指した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T08:00:00.000Z",
+      "contentHash": "3abcf30a4594"
+    },
     {
       "id": "9795ba9b4735",
       "title": "LaunchDarkly 入門：Lambda で機能フラグを試してみた | サーバーワークスエンジニアブログ",
@@ -140,10 +230,10 @@
       "id": "8781091247ec",
       "title": "Rust in the kernel is no longer experimental",
       "url": "https://lwn.net/Articles/1049831/",
-      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。該当記事と（あればHNコメント）の本文を貼り付けてください。いただければ200字以内で日本語要約します。",
+      "summary": "メンテナーズサミットの報道が予定されている。Phoronixは煽りや質の低い投稿があるが、オープンソース情報やベンチマークで有用な更新を頻繁に提供し、LWNを補完することもある。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T03:15:24.000Z",
-      "contentHash": "08f1a9a81b4e"
+      "contentHash": "b2451e516a97"
     },
     {
       "id": "b257a3b26e86",
@@ -212,10 +302,10 @@
       "id": "9f43c64754f5",
       "title": "NYC congestion pricing cuts air pollution by a fifth in six months",
       "url": "https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/",
-      "summary": "ニューヨーク市の混雑課金導入後6か月で、調査は中央マンハッタンの車両起因大気汚染（主にNO2）を約22%削減したと報告。通行量と排ガスが減り健康面での改善が期待されるが、地域差や影響の移転が課題。",
+      "summary": "コーネル大の研究は、2025年1月開始のNYC混雑課金で半年間にマンハッタン課金区域のPM2.5が平均3.05µg/m³（約22%）減少、5区で1.07µg/m³、広域で0.70µg/m³改善。車両流入11%減、特にトラック18%減で効果は拡大し、汚染の転嫁を否定。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T02:58:45.000Z",
-      "contentHash": "5548bc7e8bb5"
+      "contentHash": "97b4d56f0b50"
     },
     {
       "id": "b52dab2517f0",
@@ -635,10 +725,10 @@
       "id": "93f82506a236",
       "title": "The stack circuitry of the Intel 8087 floating point chip, reverse-engineered",
       "url": "https://www.righto.com/2025/12/8087-stack-circuitry.html",
-      "summary": "Intel 8087浮動小数点コプロセッサのスタック回路を逆解析し、TOS（トップ）ポインタの回転方式、物理レジスタへのマッピング、タグビットによる空/使用判定、プッシュ／ポップ時のオーバーフロー検出やそれを実現する回路とマイクロコードの連携を図解で詳しく解説。",
+      "summary": "1980年のIntel 8087は浮動小数点処理を最大100倍高速化し、多くのアプリに貢献した。4万〜7.5万トランジスタの複雑なダイで、80ビット演算用データパス、定数ROM、8段スタック、半アナログなマイクロコードROMなどで命令を実行する。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T18:16:44.000Z",
-      "contentHash": "07d6ddc12ae5"
+      "contentHash": "8eaab5a46260"
     },
     {
       "id": "0b1e015109c2",
@@ -662,28 +752,28 @@
       "id": "3a11a3de6592",
       "title": "How private equity is changing housing",
       "url": "https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文を貼っていただければ、200字以内で要約します。\n\n参考までに、リンク先のタイトルからの推測要約（事実確認不要なら）：\n「プライベート・エクイティが住宅市場に大量参入し、賃料上昇や入居者権利の弱体化を招き、規制や政策対応の必要性を浮き彫りにしている」と論じている可能性があります。",
+      "summary": "米国は住宅不足と高金利で供給が逼迫する中、コロナ以降プライベート・エクイティが戸建てを大量購入し家賃上昇を招いたと批判される。一方で専門家は投資家の影響は限定的で所有比率は多くの地域で低いと指摘する。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T17:26:33.000Z",
-      "contentHash": "7bf43ada7874"
+      "contentHash": "456e8b7e7e79"
     },
     {
       "id": "97c396f5968c",
       "title": "If you're going to vibe code, why not do it in C?",
       "url": "https://stephenramsay.net/posts/vibe-coding.html",
-      "summary": "申し訳ありませんが外部サイトに直接アクセスできません。記事本文を貼り付けるか主要な抜粋・要点を教えてください。受け取り次第、200字以内で日本語要約を作成します。",
+      "summary": "著者は「vibe coding」を否定的に捉え、プログラミングは細部まで理解して楽しむべきだと主張する。教職25年で非プログラマを育てることを誇りにしており、AI生成コードに完全に納得できないことに抵抗を感じる。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T17:11:09.000Z",
-      "contentHash": "9133516a97fc"
+      "contentHash": "520836a852ec"
     },
     {
       "id": "d3c1f06e3787",
       "title": "PeerTube is recognized as a digital public good by Digital Public Goods Alliance",
       "url": "https://www.digitalpublicgoods.net/r/peertube",
-      "summary": "PeerTubeはフラマソフト開発のオープンソース分散型動画プラットフォーム。ActivityPubでインスタンス間を連携し、WebTorrentでP2P配信して帯域を節約、中央集権的な動画サービスの代替を目指す。",
+      "summary": "PeerTubeはフランスのFramasoft提供のAGPL-3.0分散型動画・ライブ配信プラットフォーム。オープンソース（GitHub公開）、多言語対応で各国の教育機関やプロジェクトで利用されています。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T17:08:37.000Z",
-      "contentHash": "5378154f820d"
+      "contentHash": "2ff367e2240b"
     },
     {
       "id": "f8e84c3236af",
@@ -1013,10 +1103,10 @@
       "id": "7e983d2c4634",
       "title": "Android XR SDK Developer Preview 3 の概要",
       "url": "https://note.com/npaka/n/nbc9cb6f50d5b",
-      "summary": "Android XR SDK Developer Preview 3 を公開。AIグラス向けのAugmented Experiencesと従来の没入型XR両方を支援し、Jetpack Projected・Jetpack Compose Glimmer・AIグラス用エミュレータ、ARCore拡張、SceneCore/Compose for XRの強化を提供。",
+      "summary": "Android XR SDK Developer Preview 3は、AIグラス向けのAugmented Experiences対応を追加。Jetpack ProjectedやJetpack Compose Glimmer、Android StudioのAIグラスエミュレータ、ARCore拡張を提供し、Galaxy XR等の没入型機能も強化します。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:07:27.000Z",
-      "contentHash": "dfc927b2bdd4"
+      "contentHash": "b55948176623"
     },
     {
       "id": "a70f6dc6e989",
@@ -8910,96 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-11-24T17:52:01.000Z",
       "contentHash": "60541901b8a9"
-    },
-    {
-      "id": "73c7e25312c3",
-      "title": "Implications of AI to schools",
-      "url": "https://twitter.com/karpathy/status/1993010584175141038",
-      "summary": "外部リンクへ直接アクセスできません。該当ツイート／スレッド本文かHNコメントを貼ってください。いただければ200字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T17:51:02.000Z",
-      "contentHash": "f6731d6a5caf"
-    },
-    {
-      "id": "699e4571a3bc",
-      "title": "You can grab a year of Disney Plus and Hulu for just $5 a month for Black Friday",
-      "url": "https://www.theverge.com/gadgets/827649/disney-plus-hulu-black-friday-deal-sale-2025",
-      "summary": "12月1日まで新規・再加入者は広告付きDisney+とHuluの年額バンドルが月$4.99（年間で約$100節約）。Disney/Pixar/MarvelやAndor、Huluオリジナルが視聴可。期間終了後は自動更新するため継続は要判断。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T17:21:11.000Z",
-      "contentHash": "82b8fc472e7c"
-    },
-    {
-      "id": "676856e70446",
-      "title": "France threatens GrapheneOS with arrests / server seizure for refusing backdoors",
-      "url": "https://mamot.fr/@LaQuadrature/115581775965025042",
-      "summary": "申し訳ありませんが外部リンクを直接取得できません。記事本文を貼っていただければ、日本語で200字以内に要約します。特に強調したい点があれば教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T17:00:07.000Z",
-      "contentHash": "a707113d12eb"
-    },
-    {
-      "id": "393f11e5939a",
-      "title": "France threatens GrapheneOS with arrests / server seizure for refusing backdoors",
-      "url": "https://grapheneos.social/@watchfulcitizen@goingdark.social/115605398547420414",
-      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。記事本文か要点、あるいはコメントの抜粋をここに貼ってください。それをもとに200文字以内で日本語要約します。どの範囲（記事のみ／記事＋コメント）を要約するかも教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T16:40:22.000Z",
-      "contentHash": "b95941dbcf76"
-    },
-    {
-      "id": "a2ec1f691fb9",
-      "title": "Meta had a 17-strike policy for sex trafficking, former safety leader claims",
-      "url": "https://www.theverge.com/news/827658/meta-17-strike-policy-sex-trafficking-testimony-lawsuit",
-      "summary": "Metaは性的な人身取引に関与するアカウントを16回まで容認し17回目で停止する方針があったと元安全責任者が証言。Instagramに児童性的虐待の報告手段がなく、安全より利用者のエンゲージメントを優先したと裁判資料が示す。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T16:25:13.000Z",
-      "contentHash": "5a83eece95ee"
-    },
-    {
-      "id": "4e6602a20ae3",
-      "title": "X Just Accidentally Exposed a Covert Influence Network Targeting Americans",
-      "url": "https://weaponizedspaces.substack.com/p/x-just-accidentally-exposed-a-vast",
-      "summary": "外部のURLをこちらで直接参照できないため、記事本文を貼っていただけますか？本文をいただければ200字以内で日本語で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T16:07:40.000Z",
-      "contentHash": "b550c630bdd6"
-    },
-    {
-      "id": "449a4eacaf6e",
-      "title": "Shai Hulud launches second supply-chain attack",
-      "url": "https://www.aikido.dev/blog/shai-hulud-strikes-again-hitting-zapier-ensdomains",
-      "summary": "aikido.devの記事「Shai Hulud strikes again」は、脅威アクター「Shai Hulud」がZapierの連携を悪用してENS.domainsへ侵入、ドメインや資産が盗まれた事例を解説。攻撃手口、被害状況、Zapier/ENSの対応と、連携解除やトークン再発行、2段階認証などの対策を紹介しています。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-24T16:03:36.000Z",
-      "contentHash": "7642f486893f"
-    },
-    {
-      "id": "44edca610865",
-      "title": "Jony Ive and Sam Altman say they finally have an AI hardware prototype",
-      "url": "https://www.theverge.com/news/827607/openai-hardware-prototype-chatgpt-jony-ive-sam-altman",
-      "summary": "OpenAIのサム・アルトマンと元Appleデザイナーのジョニー・アイブは、画面なしで「スマホ大」と噂される初のハードをプロトタイプ中。発売は「2年未満」と見込み、シンプルで触りたくなる遊び心あるデザインを目指している。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T15:52:57.000Z",
-      "contentHash": "c55ddf588662"
-    },
-    {
-      "id": "186597e55608",
-      "title": "Zombies, Run! isn’t headed for the grave after all",
-      "url": "https://www.theverge.com/gadgets/827575/zombies-run-six-to-start-fitness-gaming",
-      "summary": "フィットネス音声アプリ「Zombies, Run!」が共同制作者で作家のナオミ・アルダーマンに買い戻された。2012年登場で世界約1000万人が利用する、ゾンビに追われる物語で走る／歩く体験を提供する作品。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T15:52:50.000Z",
-      "contentHash": "1d054c0fb07a"
-    },
-    {
-      "id": "875039d1780a",
-      "title": "&#8216;Holy shit’: Gemini 3 is winning the AI race — for now",
-      "url": "https://www.theverge.com/report/827555/google-gemini-3-is-winning-the-ai-race-for-now",
-      "summary": "Googleが新AI「Gemini 3」を発表。公開初日に検索へ統合され、各種ベンチマークでOpenAIらを上回りLMArenaで首位。発売24時間で100万人超がGoogle AI Studioで試用した。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-24T14:57:27.000Z",
-      "contentHash": "b9cc6b8e0d89"
     }
   ]
 }
