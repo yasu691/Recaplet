@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2025-12-09T23:33:21.016Z",
+  "generatedAt": "2025-12-10T01:30:15.434Z",
   "items": [
+    {
+      "id": "a787768673a2",
+      "title": "Call of Duty won’t release Modern Warfare or Black Ops back to back anymore",
+      "url": "https://www.theverge.com/news/841290/activision-call-of-duty-modern-warefare-black-ops-back-to-back",
+      "summary": "アクティビジョンは今後「モダンウォーフェア」と「ブラックオプス」を連続で出さず、毎年「完全に独自の体験」を提供すると発表。過去4作（MWII 2022、MWIII 2023、BO6 2024、BO7 2025）は類似指摘やBO7の欧州での不振があり、漸進的でなく意義ある革新を目指すという。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-10T00:24:11.000Z",
+      "contentHash": "eb0f47551e5e"
+    },
+    {
+      "id": "009cd5e6033a",
+      "title": "Self-Hosted Runnerで GitHub Actions のCI/CDを高速化・コスト最適化した | DRESS CODE TECH BLOGのフィード",
+      "url": "https://zenn.dev/dress_code/articles/202685fc7786da",
+      "summary": "GitHub-hosted runnersのCPU/メモリ不足、並列上限、実行時間課金による遅延とコスト増を解消するため、AWS上にterraform-aws-github-runnerでSelf‑Hosted Runnerを構築。高いシングルスレッド性能・十分なメモリ・Warm PoolでCIを高速化しコスト最適化を図った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T00:00:01.000Z",
+      "contentHash": "da1de8aa367f"
+    },
+    {
+      "id": "89845c1411f9",
+      "title": "RAGにおける曖昧なクエリへの対応 | CADDi Tech Blog",
+      "url": "https://caddi.tech/2025/12/10/090000",
+      "summary": "RAG構築での曖昧なクエリ対応を解説。知識ギャップによる情報不足と短過ぎる／抽象的な曖昧性が問題。対策はQuery Rewriting（汎用LLM或いはファインチューニング）、マルチクエリ生成、diversify-then-verifyやRAG-Fusionなどの検証付き多様化手法、および対話的な追加質問。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T00:00:00.000Z",
+      "contentHash": "789228f1d45e"
+    },
+    {
+      "id": "939d12f275d1",
+      "title": "Cloud RunにMCPサーバーをデプロイしてみた | G-gen Tech Blog",
+      "url": "https://blog.g-gen.co.jp/entry/mcp-servers-on-cloud-run-services",
+      "summary": "G-genの佐々木が、Cloud RunへMCPサーバーをデプロイしてGemini CLIから接続を検証する手順を紹介。MCPとCloud Runの概要、検証環境、Pythonサンプル(server.py、Dockerfile)、Artifact Registryやデプロイ手順を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T00:00:00.000Z",
+      "contentHash": "efceef094a2b"
+    },
+    {
+      "id": "cda571357746",
+      "title": "TTLを利用したSpanner利用料のコスト削減 | JCB Tech Blog",
+      "url": "https://tech.jcblab.jp/entry/2025/12/10/090000",
+      "summary": "JCBデジタルソリューション開発部の岩本が、増加するキャッシュレス取引データによる基盤コスト増を課題とし、JCB LinkでTTLによる自動データ削除を導入してコスト削減を図る取り組みを紹介する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T00:00:00.000Z",
+      "contentHash": "45edc9136d27"
+    },
+    {
+      "id": "4a4f3f75e5fe",
+      "title": "ノーコードでもここまでできる！ 10分で完成するCopilot Studioデータ分析エージェント | Insight Edge Tech Blog",
+      "url": "https://techblog.insightedge.jp/entry/copilot-studio-reporting",
+      "summary": "Insight Edge Advent Calendar 2025の10日目。齊藤氏が、生成AIの進化で「会話でアプリを作る」「文章から構造提案」が可能になった現状を紹介し、ノーコード／ローコードの限界と従来のコーディングの使い分けを見極める重要性を述べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T00:00:00.000Z",
+      "contentHash": "f2a224298a38"
+    },
+    {
+      "id": "281c4b7038ee",
+      "title": "Shift_JISファイルを文字化けなしでUTF-8に変換する小技 | KENTEM TechBlog",
+      "url": "https://tech.kentem.jp/entry/2025/12/10/090000",
+      "summary": "KENTEM TechBlog（アドベントカレンダー2025/12/10）で4年目のY.T.が、Windows開発でよく起きるShift_JISとUTF-8の違いによる日本語文字化け（Visual StudioやVS Codeでの日本語コメント崩れ）を手早く解決する小技を紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T00:00:00.000Z",
+      "contentHash": "49008177af81"
+    },
+    {
+      "id": "df97d12e8720",
+      "title": "GitHub Copilotを育ててSQLを効率的にdbtモデル化した事例 | ENGINEERING BLOG ドコモ開発者ブログ",
+      "url": "https://nttdocomo-developers.jp/entry/2025/12/10/090000_3",
+      "summary": "ドコモの中村光宏が、GitHub CopilotのCustom Instructionsを活用しチームKPI用の既存SQLをdbtモデルへ変換した経験と学びを共有。Agentによるdbtモデル構築の実務的知見や工夫を、導入検討者や効率化を目指す人向けに解説している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T00:00:00.000Z",
+      "contentHash": "2c7b38ca8f88"
+    },
+    {
+      "id": "0f291e5aeb05",
+      "title": "Kiro IDEで実践する仕様駆動開発 | ENGINEERING BLOG ドコモ開発者ブログ",
+      "url": "https://nttdocomo-developers.jp/entry/2025/12/10/090000_0",
+      "summary": "Amazon Q Developer（Kiro IDE）のSpecモードで仕様駆動開発を実践する手法を紹介。AIエージェントと人間が役割分担して品質と確実性を担保し、内製化を推進する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T00:00:00.000Z",
+      "contentHash": "50a07778e1b1"
+    },
+    {
+      "id": "fd645410878d",
+      "title": "試すのは簡単、仕上げるのは難しい。AIエージェント×Playwright MCPを使ったE2Eテストアプリの開発と苦労 | ENGINEERING BLOG ドコモ開発者ブログ",
+      "url": "https://nttdocomo-developers.jp/entry/2025/12/10/090000_2",
+      "summary": "NTTドコモDP部の矢野氏が、社内データ活用プラットフォームPochiで多部署の開発者支援のため、Playwright MCPを使った自動E2Eテストアプリを開発した経緯と工夫を、支援メンバ鈴木氏・臼倉氏が解説する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T00:00:00.000Z",
+      "contentHash": "3682eb736407"
+    },
+    {
+      "id": "fd838f346395",
+      "title": "スクラムチームを強くする   ~One Team を取り戻すチームビルディングの実践~ | ENGINEERING BLOG ドコモ開発者ブログ",
+      "url": "https://nttdocomo-developers.jp/entry/2025/12/10/090000_1",
+      "summary": "NTTドコモ第一プロダクトデザイン部で人事・人材育成を担当するジル（齊藤亮二）。アジャイル浸透や学習設計を行い、現場に入り込むアジャイルコーチとして伴走。5月のボストンRed Hat Summit2025で登壇し、メンバーの長所を引き出してチームの自走化を支援することを楽しむ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T00:00:00.000Z",
+      "contentHash": "1e1d94cbe50e"
+    },
     {
       "id": "a00c563aa47a",
       "title": "Both sides of the aisle hate the AI moratorium",
@@ -119,6 +218,15 @@
       "contentHash": "f76593e9a7e3"
     },
     {
+      "id": "5fbd829dc802",
+      "title": "Django: what’s new in 6.0",
+      "url": "https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/",
+      "summary": "Django 6.0がリリース。移行支援ツールdjango-upgradeで古いDjangoコードを自動更新でき、テンプレートに{% partialdef %}/{% partial %}で部分テンプレート（パーシャル）を定義・再利用・インライン表示可能に。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-09T20:33:14.000Z",
+      "contentHash": "4646e7438219"
+    },
+    {
       "id": "452d256984da",
       "title": "Wake Up Dead Man digs deep for a darker, more powerful Knives Out",
       "url": "https://www.theverge.com/entertainment/840977/wake-up-dead-man-review-netflix-knives-out",
@@ -191,6 +299,15 @@
       "contentHash": "8c39761ff6ba"
     },
     {
+      "id": "a150a79747db",
+      "title": "So you want to speak at software conferences?",
+      "url": "https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html",
+      "summary": "ロンドンの.NET勉強会主催者が技術講演の指南。目的を明確にし、短期間での成功を期待せず長期的に努力すること。独自の物語を語れる質の高い講演を作るべき、という助言。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-09T18:42:27.000Z",
+      "contentHash": "d41d09c59b9a"
+    },
+    {
       "id": "a5cd512254fd",
       "title": "Facebook&#8217;s redesign is making it more like Instagram",
       "url": "https://www.theverge.com/news/841036/facebook-redesign-instagram-photos-feed-algorithm",
@@ -236,6 +353,15 @@
       "contentHash": "031e0f78b836"
     },
     {
+      "id": "3a11a3de6592",
+      "title": "How private equity is changing housing",
+      "url": "https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/",
+      "summary": "米国は約400万戸の住宅不足で高金利や規制、建築費上昇など複合要因で家賃が上昇。パンデミック以降、プライベート・エクイティが大量に戸建てを取得して家賃押上げの批判を浴びるが、経済学者は影響は限定的と指摘している。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-09T17:26:33.000Z",
+      "contentHash": "bc982e2d51cf"
+    },
+    {
       "id": "97c396f5968c",
       "title": "If you're going to vibe code, why not do it in C?",
       "url": "https://stephenramsay.net/posts/vibe-coding.html",
@@ -255,7 +381,7 @@
     },
     {
       "id": "f8e84c3236af",
-      "title": "Donating the Model Context Protocol and Establishing the Agentic AI Foundation",
+      "title": "Donating the Model Context Protocol and establishing the Agentic AI Foundation",
       "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
       "summary": "Model Context Protocol（MCP）をAnthropic・Block・OpenAIらが関与するAgentic AI Foundation（Linux Foundation傘下）へ寄贈。MCPはAIと外部システム接続のオープン標準で、1万超の公開サーバやChatGPT等が採用、主要クラウドやSDK・レジストリも整備。今後もオープンでベンダーニュートラルに運営。",
       "source": "Hacker News",
@@ -317,13 +443,22 @@
       "contentHash": "80c1dc22ca88"
     },
     {
+      "id": "083ba9e3ddea",
+      "title": "How Scout24 is building the next generation of real-estate search with AI",
+      "url": "https://openai.com/index/scout24",
+      "summary": "Scout24はGPT-5搭載の会話型アシスタントを導入し、不動産検索を再構築。確認質問で条件を明確にし、要約や個別に最適な物件を提案する。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-09T16:00:00.000Z",
+      "contentHash": "9e629f1f7d0d"
+    },
+    {
       "id": "8aecd7d8dabc",
       "title": "Apple's slow AI pace becomes a strength as market grows weary of spending",
       "url": "https://finance.yahoo.com/news/apple-slow-ai-pace-becomes-104658095.html",
-      "summary": "前半はAI戦略の欠如で失速したAppleだが、過剰なAI投資を抑える慎重な姿勢が評価され、6月以降株価は35%上昇。時価総額は4.1兆ドルに達し、AI実用化の恩恵を受ける立場にある。",
+      "summary": "今年初めAI戦略不在で売られたアップルだが、過剰なAI投資への懐疑が強まる中、慎重な姿勢が強みとなり6月以降株価は35%上昇。支出抑制が評価され時価総額は約4.1兆ドルでS&P500で存在感を高めた。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T15:08:24.000Z",
-      "contentHash": "d19e6e43e462"
+      "contentHash": "623820ce06b5"
     },
     {
       "id": "0b5b5c8f6554",
@@ -554,10 +689,10 @@
       "id": "8b5993ac7f69",
       "title": "低コスト・オープンソースのロボットハンド Amazing Hand のススメ",
       "url": "https://note.com/npaka/n/nf59d85ba3538",
-      "summary": "Amazing HandはPOLLEN（Hugging Face傘下）開発の低コスト・オープンソース4本指8DOFロボットハンド。3D印刷部品と市販サーボで自作可能、Seeed Studioでキット販売。テレオペ、データ収集、センサ配信とSDKでAI学習実験に適する。",
+      "summary": "POLLEN開発の「Amazing Hand」は、3Dプリント＋市販サーボで作れる低コスト・オープンソースの4本指8DoFロボットハンド。内部アクチュエータと公式SDKを備え、テレオペ、データ収集、センサーストリーミングに対応しRaspberry PiやJetsonで動作。Seeed Studioでキット販売。入門に最適だが万能ではない。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:12:06.000Z",
-      "contentHash": "7e14c88ca78d"
+      "contentHash": "7ccf6d498f4b"
     },
     {
       "id": "9d66f25183c5",
@@ -572,10 +707,10 @@
       "id": "7e983d2c4634",
       "title": "Android XR SDK Developer Preview 3 の概要",
       "url": "https://note.com/npaka/n/nbc9cb6f50d5b",
-      "summary": "Android XR SDK Developer Preview 3は、AIグラス向けのAugmented Experiences対応を追加。Jetpack ProjectedやJetpack Compose Glimmer、AIグラスエミュレータ、ARCore拡張、SceneCore強化（DRM・360/180動画対応）などで没入型・ハンズフリー体験の開発を支援します。",
+      "summary": "Android XR SDK Developer Preview 3公開。AIグラス向けAugmented Experiencesを追加し、Jetpack ProjectedとJetpack Compose Glimmerでセンサー・表示・UIを強化。Android StudioのAIグラスエミュレータ、ARCore拡張、SceneCoreやCompose for XRの機能強化で没入型体験と小型ディスプレイ向けUIを支援。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:07:27.000Z",
-      "contentHash": "5cb1a7c2e508"
+      "contentHash": "20d4d70151c9"
     },
     {
       "id": "a70f6dc6e989",
@@ -8865,141 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-11-23T19:00:00.000Z",
       "contentHash": "57e6b0096993"
-    },
-    {
-      "id": "7dff3f1589b0",
-      "title": "X&#8217;s messy About This Account rollout has caused utter chaos",
-      "url": "https://www.theverge.com/news/827279/xs-messy-about-this-account-rollout-has-caused-utter-chaos",
-      "summary": "Xが「About This Account」で作成国・拠点国を表示開始したが誤表示が多発し作成地表記を削除。VPNや古いIP等が原因で誤判定され、利用者は誤情報で他者を外国工作員呼ばわりして炎上。実際に外国発の干渉や収益目的の煽動も一部存在する。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-23T18:55:41.000Z",
-      "contentHash": "74c719aa43dc"
-    },
-    {
-      "id": "266d49744878",
-      "title": "Fran Sans – font inspired by San Francisco light rail displays",
-      "url": "https://emilysneddon.com/fran-sans-essay",
-      "summary": "外部URLに直接アクセスできないため、記事本文を貼っていただくか主要な抜粋を送ってください。受け取れば200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T18:20:27.000Z",
-      "contentHash": "05a6612e792d"
-    },
-    {
-      "id": "0425135678ab",
-      "title": "Apple to focus on 'quality and underlying performance' with iOS 27 next year",
-      "url": "https://9to5mac.com/2025/11/23/apple-focusing-on-software-quality-improvements-ios-27-next-year-report/",
-      "summary": "9to5Mac報道: AppleはiOS 27で新機能よりソフトウェア品質向上に注力。パフォーマンス改善、バグ修正、テスト強化やエンジニア再配置で安定性を優先し、一部機能は延期へ。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T18:19:27.000Z",
-      "contentHash": "ea59ff906c4b"
-    },
-    {
-      "id": "53cea6b4b0c8",
-      "title": "Native Secure Enclave backed SSH keys on macOS",
-      "url": "https://gist.github.com/arianvp/5f59f1783e3eaf1a2d4cd8e952bb4acf",
-      "summary": "リンク先の内容を直接取得できないため要約できません。記事本文か本文の貼り付け、または要点（対象の段落やコメントの抜粋）を送ってください。受け取り次第、200文字以内で日本語に要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T17:55:11.000Z",
-      "contentHash": "5faa4926a2e1"
-    },
-    {
-      "id": "dad8d7fc1cbf",
-      "title": "Are consumers just tech debt to Microsoft?",
-      "url": "https://birchtree.me/blog/are-consumers-just-tech-debt-to-microsoft/",
-      "summary": "著者は、Microsoftが利益の出る企業・クラウド事業に注力する一方、消費者向け製品は互換性維持やレガシー対応という「技術負債」として扱われ、革新を阻む負担になっていると指摘。消費者事業の扱いと今後の戦略を問い直す内容。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T17:14:41.000Z",
-      "contentHash": "d82e9c83ac4c"
-    },
-    {
-      "id": "74d285be6920",
-      "title": "Dark Mode Sucks",
-      "url": "https://www.tomechangosubanana.com/2025/dark-mode-sucks/",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文をここに貼るか、要約してほしい部分（冒頭数段落など）を教えてください。貼っていただければ200文字以内で日本語要約します。コメント要約も可。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T16:45:33.000Z",
-      "contentHash": "e769d13e2120"
-    },
-    {
-      "id": "6b2b3db05304",
-      "title": "Calculus for Mathematicians, Computer Scientists, and Physicists [pdf]",
-      "url": "https://mathcs.holycross.edu/~ahwang/print/calc.pdf",
-      "summary": "本稿は有限差分を出発点に微積分を直感的に再構成する。差分作用素Δと離散積分、二項係数やニュートン級数を用いてTaylor様の展開や公式を導き、具体例と証明で離散と連続の対応を示す教育的解説。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T16:31:50.000Z",
-      "contentHash": "77ac5daa1763"
-    },
-    {
-      "id": "b2cbf97ebf2d",
-      "title": "Ask HN: Good resources to learn financial systems engineering?",
-      "url": "https://news.ycombinator.com/item?id=46024753",
-      "summary": "エネルギー市場の通信や取引・需給調整システムを担当。現場はメッセージ処理に数分かかり、金融システム工学に学べる点が多いと考え、参考資料を求める投稿。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T16:30:08.000Z",
-      "contentHash": "7c9177b8d1f3"
-    },
-    {
-      "id": "2f6157b8b07e",
-      "title": "73% of AI startups are just prompt engineering",
-      "url": "https://pub.towardsai.net/i-reverse-engineered-200-ai-startups-73-are-lying-a8610acab0d3",
-      "summary": "著者が200社のAIスタートアップを解析した結果、約73%がAI表記を誇張・偽装。デモ改ざんや人力介入、既製API流用、重みや論文未提示などの手口が多く、検証方法と投資・利用時の注意点を示す。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T16:17:57.000Z",
-      "contentHash": "023fdae282fd"
-    },
-    {
-      "id": "9e7369e4730e",
-      "title": "Court filings allege Meta downplayed risks to children and misled the public",
-      "url": "https://time.com/7336204/meta-lawsuit-files-child-safety/",
-      "summary": "申し訳ありませんが外部リンクに直接アクセスできません。記事本文を貼っていただければ、200字以内で日本語要約します。HNコメントの要約も可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T15:18:00.000Z",
-      "contentHash": "fef99233a569"
-    },
-    {
-      "id": "469f7d41f39b",
-      "title": "Sony’s last-gen XM4 headphones are over 50 percent off for Black Friday",
-      "url": "https://www.theverge.com/gadgets/826784/sony-wh-1000xm4-noise-canceling-headphones-black-friday-deal-sale-2025",
-      "summary": "ソニーWH-1000XM4がBest Buyで期間限定159.99ドル（約190ドル引き）と今年最安。発売から5年超でも優れたANC、最大30時間再生、マルチポイント、Speak to Chat、装着検出、折り畳み収納を備える。最新XM6は音質・ANC・通話がさらに向上。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-23T15:00:00.000Z",
-      "contentHash": "3e6bfc92ce89"
-    },
-    {
-      "id": "b884fe55f435",
-      "title": "Kotlin Fest 2025に出展しました！ | Pepabo Tech Portal",
-      "url": "https://tech.pepabo.com/2025/11/24/kotlin-fest-2025/",
-      "summary": "minne事業部のtepiがGMOペパボとして初出展したKotlin Fest参加報告。小規模チームで準備し、エンジニアアンケートを実施、採用関連KPIを設定。ブース・ノベルティ・当日運営やパネル・アンケート結果、反省点（朝の写真・社内ワークフロー把握・先を見据えた行動）を共有。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-23T15:00:00.000Z",
-      "contentHash": "3acf018e1a46"
-    },
-    {
-      "id": "c34457e06272",
-      "title": "Editing Code in Emacs",
-      "url": "https://redpenguin101.github.io/html/posts/2025_11_23_emacs_for_code_editing.html",
-      "summary": "すみません、私は直接ウェブを閲覧できないため、記事本文をここに貼っていただくか、要点を教えていただけますか？貼っていただければ200文字以内で日本語要約を作成します。必要ならHNのコメント要約も対応します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T14:59:38.000Z",
-      "contentHash": "b4eb7e60ff48"
-    },
-    {
-      "id": "5bbbe474fae5",
-      "title": "Vine walked so TikTok could run",
-      "url": "https://www.theverge.com/podcast/827102/vine-influence-tiktok-reels-shorts-version-history",
-      "summary": "Vineは6秒のループ動画で多くのコメディアンを生み、以後の縦型ループ動画時代を切り開いた短命の文化現象を、名フレーズ「look at all those chickens」とともに振り返る記事。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-23T14:51:00.000Z",
-      "contentHash": "d820446d15d1"
-    },
-    {
-      "id": "0a7f9306452e",
-      "title": "Racket v9.0",
-      "url": "https://blog.racket-lang.org/2025/11/racket-v9-0.html",
-      "summary": "申し訳ありませんが外部サイトへ直接アクセスできません。記事本文を貼っていただければ200字以内で要約します。要点だけ教えていただいても可です。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-23T13:35:27.000Z",
-      "contentHash": "b388113148a8"
     }
   ]
 }
