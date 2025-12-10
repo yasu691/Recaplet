@@ -1,14 +1,59 @@
 {
-  "generatedAt": "2025-12-10T22:31:23.647Z",
+  "generatedAt": "2025-12-10T23:28:25.163Z",
   "items": [
     {
+      "id": "61a85cfbb5d3",
+      "title": "個人の「行動」を組織の「学び」に変える。インプロセスQAチームの共有会設計 | atama plus techblogのフィード",
+      "url": "https://zenn.dev/atamaplus/articles/7a855426e980b3",
+      "summary": "atama plusのプロダクトQAで、個人の気づきが組織に還元されない課題を受け、「Value Sync会」を新設。事業貢献を意識した付箋→無言コメント→深掘り→共有の30分で視点を揃え学びを組織化。好評だが継続的なネタ出し等の課題もある。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T23:00:02.000Z",
+      "contentHash": "cc94a9b29059"
+    },
+    {
+      "id": "c00ab773f7e6",
+      "title": "バリデーションとパースの分離。Goで実装する「変更に強い」CSV 処理の設計 | カミナシ エンジニアブログ",
+      "url": "https://kaminashi-developer.hatenablog.jp/entry/go-csv-import-design",
+      "summary": "GoでCSV処理をReader/Parser/Validatorの3層に分離する設計を紹介。ReaderはShift_JISやBOMを透過してUTF‑8を返し、ParserはGenerics/リフレクションで文字列→構造体へ型変換、Validatorでビジネス検証を行う「Parse, don't validate」によって変更に強く安全な処理を実現。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T23:00:00.000Z",
+      "contentHash": "da7d35ae6be6"
+    },
+    {
+      "id": "43a526a46aba",
+      "title": "AWS CodePipelineでNew Relic監視設定を自動展開する - Terraform実装ガイド | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/newrelic-terraform-codepipeline",
+      "summary": "GitHubマージをトリガーにAWS CodePipeline／CodeBuildでTerraformのplan/applyを順次実行し、New Relicの監視設定（アラート・ダッシュボード）をコードで自動展開する手順を解説。前提（AWS/GitHub/New Relic）、S3/Secrets Manager/IAM準備、ディレクトリ構成、Provider設定、buildspec、各パイプラインステージの作成方法を掲載。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T23:00:00.000Z",
+      "contentHash": "b7cf6581d9b6"
+    },
+    {
+      "id": "3efc1e21bb80",
+      "title": "【Upstage × Dify】スキャンPDF対応RAGを実現するためのOCR&amp;amp;チャンキング戦略 | Fusic 技術ブログのフィード",
+      "url": "https://zenn.dev/fusic/articles/c85fdeaf96bfd4",
+      "summary": "Fusicの大宮が、DifyでスキャンPDFや画像を使ったRAG構築で直面した課題と対策を報告。Difyは標準でOCR/画像未対応のためUpstage Document ParseでOCR化したが、DifyのチャンキングがHTML表を壊し誤回答発生。表構造を保持する独自HTML Chunkプラグインで精度を改善した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T22:30:05.000Z",
+      "contentHash": "b7cde5595e8c"
+    },
+    {
+      "id": "f946833a3d1e",
+      "title": "【イベントレポート】次世代のJr. Champions応援LTに若手エンジニアが参加してきた！ | [公開中] AQ Tech Blog",
+      "url": "https://techblog.asia-quest.jp/202512/jr-champions-lt-report",
+      "summary": "2025年9月30日、AWS目黒で開かれた「次世代のJr. Champions応援LT」レポ。約50名の若手が5分LTでAWS経験を共有。Jr. Champions制度（Challenge/Influence/Output）や交流施策が紹介され、参加者は発信意欲を高めた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T22:30:00.000Z",
+      "contentHash": "a19374a95c3e"
+    },
+    {
       "id": "1513960f9162",
-      "title": "Unity + Devvit で Reddit ゲームを作るクイックスタートガイド",
+      "title": "Unityゲームを Reddit 投稿として動かす手順まとめ",
       "url": "https://note.com/npaka/n/n6588ee59287c",
-      "summary": "Redditの開発プラットフォームDevvitでUnityゲームを投稿内で動かす手順。必要環境（Node.js≥22.2、Unity6等）、テンプレート取得→セットアップ→npm run devで起動。プロジェクト構成（src/client/server/shared、devvit.json、Build出力など）やサンプルコードを解説。",
+      "summary": "UnityゲームをReddit投稿として動かす手順を紹介。必要環境はNode.js（22.2+）、Unity6など。developers.reddit.comでUnityテンプレを作成し、cd my-app→npm run devで起動。src/client/server/sharedやdevvit.json、Build/TemplateData、splash画面などの構成と役割も解説。",
       "source": "npaka",
       "publishedAt": "2025-12-10T22:15:27.000Z",
-      "contentHash": "95c52bf0d69d"
+      "contentHash": "3adc915f61d2"
     },
     {
       "id": "82e6217449e0",
@@ -18,6 +63,51 @@
       "source": "The Verge",
       "publishedAt": "2025-12-10T22:11:57.000Z",
       "contentHash": "80e38172247c"
+    },
+    {
+      "id": "7bd4184e0490",
+      "title": "公開イベント「AI駆動開発を組織に根づかせるには ── CTO・推進者が語る実践のリアル」を開催します | 弥生開発者ブログ",
+      "url": "https://tech-blog.yayoi-kk.co.jp/entry/2025/12/11/070100",
+      "summary": "弥生の社外勉強会「もくテク」で、12/18 19:00に「AI駆動開発を組織に根づかせるには」を開催。CTOらが全社導入の実践、推進体制や標準化の事例をLTで共有し座談会も実施。申込はconnpass。姉妹イベント（生成AI）は12/23。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T22:01:00.000Z",
+      "contentHash": "6fb85491cc6e"
+    },
+    {
+      "id": "1ef6bd9fbc4a",
+      "title": "場所感覚を持つロボット | Inside of LOVOT",
+      "url": "https://tech.groove-x.com/entry/20251211/1765404000",
+      "summary": "GROOVE X Advent CalendarのShu.Cの記事。従来のカメラ自己位置推定は部屋の変化に弱かったが、VPRにより照明や家具配置、人の動きがあっても正確に場所を記憶しロボットが迷わず移動できると紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T22:00:00.000Z",
+      "contentHash": "2fd4c5f93c85"
+    },
+    {
+      "id": "abcc46b07d3c",
+      "title": "Auth0とGoogle Workspace(Googleグループ)のSAML認証を利用した話 | JMDC TECH BLOG",
+      "url": "https://techblog.jmdc.co.jp/entry/20251211",
+      "summary": "JMDCの導入事例。管理用サービスの認証をGoogleグループで管理するため、Auth0経由でGoogle WorkspaceのSAMLログインを実装。ACSやエンティティIDを設定しAuth0側で制限。グループ選択問題はWorkspaceのアクセス権設定変更で解決し、導入に成功した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T22:00:00.000Z",
+      "contentHash": "29b5410cf67a"
+    },
+    {
+      "id": "3e820921a186",
+      "title": "入社2ヶ月の「ドメインダイブ」。現場のリアルを捉え、事業価値を最大化するシステム戦略を描く | Nealle Developer's Blog",
+      "url": "https://nealle-dev.hatenablog.com/entry/2025/12/11/070000",
+      "summary": "入社2カ月でPDBizの現場OJTを通じ、法人車両月極管理に潜むツール断絶や紙書類・属人化などの業務複雑性を体感。MiroとRDRA3.0で業務を可視化・構造化し、システム境界やデータ不整合、SSOT欠如などの課題を明確化して事業価値最大化の戦略を描いた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T22:00:00.000Z",
+      "contentHash": "f12d09aabc78"
+    },
+    {
+      "id": "d0296e42c723",
+      "title": "TVerインフラアーキテクチャの現在地(2025年) | TVer Tech Blog",
+      "url": "https://techblog.tver.co.jp/entry/nishio/tver-infra-architecture",
+      "summary": "TVerは従来のALB/ECS構成（TVer1.0）で事前暖気費用やトラフィック増、運用コストが問題化。ALB→NLB＋Nginxへ移行（TVer1.5）し費用削減を図り、Nginx＋Lua＋RedisでDB障害時に古いデータを返す「落ちない」対策を進め、来年本番化予定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-10T22:00:00.000Z",
+      "contentHash": "534bf005eff9"
     },
     {
       "id": "816967ce10b2",
@@ -221,10 +311,10 @@
       "id": "d00dd121a647",
       "title": "DeepSeek uses banned Nvidia chips for AI model, report says",
       "url": "https://finance.yahoo.com/news/china-deepseek-uses-banned-nvidia-131207746.html",
-      "summary": "報道によると中国のAIスタートアップDeepSeekが、輸出禁止のNvidia「Blackwell」チップを国外データセンター経由で分解・密輸し中国でAIモデル開発に使ったと報じられた。Nvidiaは裏付けを確認していないと述べている。",
+      "summary": "The Informationの報道によれば、中国AI企業DeepSeekは米が対中販売を禁止するNvidiaのBlackwellチップを、販売許可国のデータセンターに設置後分解して密輸・利用していたとされる。米の禁輸措置下での迂回や摘発事例が相次ぐ中、Nvidiaは報道の裏付けを確認していないと述べている。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T16:34:52.000Z",
-      "contentHash": "b9c6bb49e00d"
+      "contentHash": "3c80b08ac12d"
     },
     {
       "id": "9894228a9a84",
@@ -248,19 +338,19 @@
       "id": "0868c42cc3e9",
       "title": "Qwen3-Omni-Flash-2025-12-01：a next-generation native multimodal large model",
       "url": "https://qwen.ai/blog?id=qwen3-omni-flash-20251201",
-      "summary": "申し訳ありませんが、外部リンク先のページを直接参照できません。記事本文をここに貼るか、主要点（新機能、性能、公開形態、ライセンス、用途など）を教えていただければ、200字以内で日本語要約を作成します。",
+      "summary": "申し訳ありませんが、外部サイトを直接参照できないため記事本文を取得できません。記事本文か主要部分をここに貼っていただければ、200文字以内で日本語要約を作成します。コメント欄の要約も必要ならその部分も貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T16:13:38.000Z",
-      "contentHash": "964c061df8c0"
+      "contentHash": "6c66c6ef528e"
     },
     {
       "id": "d7534da97d19",
       "title": "Size of Life",
       "url": "https://neal.fun/size-of-life/",
-      "summary": "Neal Agarwalのインタラクティブ可視化。ウイルスや細胞から昆虫・人間・クジラ・大樹・巨大菌株まで、微小〜巨大の生物を実寸比で比較し、サイズや個体数、最小／最大の興味深い事実を分かりやすく示す。",
+      "summary": "Neal Agarwalによるインタラクティブ作品。微生物から植物・動物までを実寸比で並べ、身の回りの物と対比しながら生物の大きさやスケール感を直感的に示す視覚化コンテンツ。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T16:02:57.000Z",
-      "contentHash": "79b6411f9489"
+      "contentHash": "edbdcdc9e8fb"
     },
     {
       "id": "a9c7626ba4fa",
@@ -302,10 +392,10 @@
       "id": "b4ffd8aa151e",
       "title": "Israel used Palantir technologies in pager attack in Lebanon",
       "url": "https://the307.substack.com/p/revealed-israel-used-palantir-technologies",
-      "summary": "記事は入手文書を基に、パランティアのソフトがイスラエルの軍・治安活動で使われ、パレスチナ人の追跡・標的化に関与した可能性を暴露。契約や社内やり取りで公表内容との矛盾や倫理問題を指摘している。",
+      "summary": "報道は、イスラエルが米企業パランティアのデータ解析・監視技術を軍事・治安用途で利用していたと暴露。市民監視や標的選定への関与、企業倫理や法的問題が浮上している。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T15:18:47.000Z",
-      "contentHash": "73c409b5db1d"
+      "contentHash": "1fa426464013"
     },
     {
       "id": "079bed320274",
@@ -8910,96 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-25T08:30:14.000Z",
       "contentHash": "6b6adfbd69fe"
-    },
-    {
-      "id": "1f6a1d55f165",
-      "title": "最高のゲーム体験を届ける「最後の砦」 —— デバッグの仕事紹介 | Aiming 開発者ブログ",
-      "url": "https://developer.aiming-inc.com/misc/post-13191/",
-      "summary": "Aiming第二事業部・品質管理課が担当する「デバッグ」業務の紹介記事。ゲームの進行停止やアイテム未使用などの不具合を検出・再現・報告し、修正確認して品質を守る役割を解説する内容です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T08:28:49.000Z",
-      "contentHash": "32c4a4f2cf6b"
-    },
-    {
-      "id": "d7e20b751334",
-      "title": "AWS Blue/Green Deployment による RDS/Aurora PostgreSQL アップグレードの実践と学び | Wantedly Engineer Blog",
-      "url": "https://www.wantedly.com/companies/wantedly/post_articles/1025328",
-      "summary": "記事の本文が途中で切れています。全文（または要約してほしい範囲）を貼っていただければ、200文字以内で日本語に要約します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T08:23:15.000Z",
-      "contentHash": "22dca9d3ac64"
-    },
-    {
-      "id": "48a52324ea78",
-      "title": "[Slack, Teams]リモートワークで活きる、何の話かすぐわかる書き方のススメ | Social PLUS Tech Blogのフィード",
-      "url": "https://zenn.dev/socialplus/articles/bda6117f0a96e3",
-      "summary": "リモートワークのテキストが何の話かわかりにくい問題（Issue番号だけ、リンクなし、表記揺れなど）を指摘し、「何の話かすぐわかる」具体的な書き方を紹介。書くときの工夫が繰り返し効果を生むと強調。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T08:13:23.000Z",
-      "contentHash": "f50d66f20860"
-    },
-    {
-      "id": "497c16162416",
-      "title": "細分化と越境のあいだで悩むあなたへ──ラクスが実践するハイブリッド型組織のつくり方 | RAKUS Developers Blog | ラクス エンジニアブログ",
-      "url": "https://tech-blog.rakus.co.jp/entry/20251125/hybrid-organization",
-      "summary": "プロダクト部長の稲垣が自己紹介とともに「プロダクトエンジニア」をテーマにモデレーターを務めた対談を紹介。近年はエンジニア・PdM・デザイナーの枠を越え、グロースPdM、テクニカルPdM、AI PdM、プロダクトデザイナーやUXデザイナーなど役割が細分化しているという内容です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T08:04:17.000Z",
-      "contentHash": "f6fb83740033"
-    },
-    {
-      "id": "3f16b7ab830b",
-      "title": "ローコードツールから Playwright 移行への道 2025 | エムスリーテックブログ",
-      "url": "https://www.m3tech.blog/entry/qubota_ep2",
-      "summary": "エンジニアリンググループGM兼QAチームリーダーの窪田が、マネジメントチームブログリレー4日目で、Playwrightを用いた自動テスト構築への挑戦を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T08:00:00.000Z",
-      "contentHash": "17fb7d78b3cf"
-    },
-    {
-      "id": "61619bbb5e62",
-      "title": "Kids VALLEYプロジェクト｜渋谷区小学校PBL型授業支援の舞台裏～グループ横断運営ノウハウとコンテンツ設計大公開～ | GMO Developers",
-      "url": "https://developers.gmo.jp/cultures/71503/",
-      "summary": "現場で働くエンジニアやクリエイターが実践するPBL型授業は、課題解決を軸に学ぶ探究型教育。教わるだけでなく、プロと共に考え、作りながら学ぶ形式です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T07:53:57.000Z",
-      "contentHash": "5d0de828b073"
-    },
-    {
-      "id": "4fda2014de77",
-      "title": "EditorConfigのすゝめ | techblog  |  株式会社i-Vinci",
-      "url": "https://www.i-vinci.co.jp/techblog/2088",
-      "summary": "i-VinciのMiuraさんが、IT系技術記事の有用性は読み手によって異なると指摘。特にフレームワーク関連記事は、そのフレームワークを使わない人には役に立ちにくい、という主旨です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T07:25:45.000Z",
-      "contentHash": "8841cb109226"
-    },
-    {
-      "id": "4bd2250d6382",
-      "title": "新卒社員の職種横断チームが挑戦した衛星データ×マルチモーダルAIプロジェクトの現在地 | Platinum Data Blog by BrainPad ブレインパッド",
-      "url": "https://blog.brainpad.co.jp/entry/2025/11/25/160004",
-      "summary": "ブレインパッドのデータサイエンティスト、エンジニア、コンサルらが衛星データとマルチモーダルAIを活用する職種横断プロジェクトの挑戦と現状を語る記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T07:00:04.000Z",
-      "contentHash": "15d70fa67d9c"
-    },
-    {
-      "id": "d713a5752233",
-      "title": "ffmpegを使った360度カメラの魚眼映像を平面に補正(デワープ) | Safie Engineers' Blog!",
-      "url": "https://engineers.safie.link/entry/ffmpeg-v360-dewarp",
-      "summary": "ffmpegでの360度カメラのデワープ処理に関する記事を書きました。魚眼カメラ映像のデワープ手法や、ffmpegでの具体的なコマンド例・設定方法を紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T07:00:00.000Z",
-      "contentHash": "e7a0f59b630b"
-    },
-    {
-      "id": "1d74bd728e52",
-      "title": "What you can get for the price of a Netflix subscription",
-      "url": "https://nmil.dev/what-you-can-get-for-the-price-of-a-netflix-subscription",
-      "summary": "記事はNetflixの月額料金を基準に、その金額で何が買えるかを具体例（小規模VPSやクラウドVM、自宅サーバー機材、書籍や講座、寄付など）で示し、消費の優先順位を見直すことを提案しています。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T06:39:36.000Z",
-      "contentHash": "8556bbca3a44"
     }
   ]
 }
