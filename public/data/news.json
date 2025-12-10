@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-10T04:47:19.101Z",
+  "generatedAt": "2025-12-10T05:35:16.519Z",
   "items": [
     {
       "id": "55b2b79a5e07",
@@ -29,6 +29,15 @@
       "contentHash": "0a2b108695a1"
     },
     {
+      "id": "8781091247ec",
+      "title": "The end of the kernel Rust experiment",
+      "url": "https://lwn.net/Articles/1049831/",
+      "summary": "メンテナーズサミットの詳細は追って報告。2025年12月10日に ktkaffee、josh、corbet が投稿（各リンクと返信あり）。記事はEklektix社著作、コメントは投稿者帰属。Linuxは登録商標。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-10T03:15:24.000Z",
+      "contentHash": "820911df7ac3"
+    },
+    {
       "id": "b257a3b26e86",
       "title": "Google OAuth検証（審査）準備編 | TalentX Tech Blog",
       "url": "https://tech.talentx.co.jp/entry/2025/12/10/120442",
@@ -50,10 +59,10 @@
       "id": "b04001ec9cd6",
       "title": "10日目：スマホ時代のテスティングソリューション | NTT DATA TECHのフィード",
       "url": "https://zenn.dev/nttdata_tech/articles/83d75fd866ae3f",
-      "summary": "スマホ普及で機種多様化が進み、すべて自前で実機検証するのは非現実的。クラウド上の実機レンタル・遠隔テストが代替策として普及し、コスト負担を軽減する一方、同時利用や期間制限、サービス終了などの注意点がある。",
+      "summary": "スマホ普及で機種多様化が進み、全機種での検証はコスト・管理面で非現実的。代替としてクラウド上の実機レンタル／遠隔操作サービスが普及し、負担軽減に有力だが同時利用や期間制限がある。提供企業は増え、一部サービスは終了した。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T03:00:04.000Z",
-      "contentHash": "aabdfe2454a5"
+      "contentHash": "c5b046265d6a"
     },
     {
       "id": "7312d74a0abc",
@@ -95,10 +104,10 @@
       "id": "9f43c64754f5",
       "title": "NYC congestion pricing cuts air pollution by a fifth in six months",
       "url": "https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/",
-      "summary": "ニューヨークの混雑課金導入後6か月で、課金区域内の車由来大気汚染が約22%減少。NO2や微粒子が主に低下し、健康面での改善が期待される一方、迂回や影響の偏りを懸念する声もある。",
+      "summary": "コーネル大の研究は、2025年1月導入のNYC混雑課金（CRZ）で最初6か月にマンハッタンの料金区内PM2.5が22%減（平均3.05µg/m3低下）、市全体で1.07µg/m3、広域で0.70µg/m3低下し、隣接地域への移転は見られなかった。車両入域は約11%減、トラックは18%減で効果は時間とともに拡大。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T02:58:45.000Z",
-      "contentHash": "9ea7016804e4"
+      "contentHash": "97b4d56f0b50"
     },
     {
       "id": "b52dab2517f0",
@@ -527,10 +536,10 @@
       "id": "3a11a3de6592",
       "title": "How private equity is changing housing",
       "url": "https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/",
-      "summary": "米国は約400万戸の住宅不足で高金利や規制、建築費上昇など複合要因で家賃が上昇。パンデミック以降、プライベート・エクイティが大量に戸建てを取得して家賃押上げの批判を浴びるが、経済学者は影響は限定的と指摘している。",
+      "summary": "米国は住宅不足（約400万戸）で賃料高騰。原因は規制や工事遅延、高金利など多岐にわたり、コロナ後に私募資本の戸建買収が増え家族と競合、家賃上昇が批判されるが専門家は影響は限定的と指摘。",
       "source": "Hacker News",
       "publishedAt": "2025-12-09T17:26:33.000Z",
-      "contentHash": "bc982e2d51cf"
+      "contentHash": "456e8b7e7e79"
     },
     {
       "id": "97c396f5968c",
@@ -860,10 +869,10 @@
       "id": "8b5993ac7f69",
       "title": "低コスト・オープンソースのロボットハンド Amazing Hand のススメ",
       "url": "https://note.com/npaka/n/nf59d85ba3538",
-      "summary": "「Amazing Hand」はPOLLEN（Hugging Face傘下）が開発した低コスト・オープンソースの4指8自由度ロボットハンド。3Dプリント部品と市販サーボで自作可能、モーター内蔵で小型化。Seeed Studioでキット販売。テレオペ操作（グローブ・映像推定）、関節角や映像のデータ収集、センサーストリーミング対応で、Raspberry PiやJetson等でAI学習や実験に使える入門向けプラットフォーム。",
+      "summary": "Amazing HandはPOLLEN（Hugging Face傘下）製の低コスト・オープンソース4指8自由度ロボットハンド。3Dプリント＋市販サーボで自作可、Seeedでキット販売。テレ操作や関節角・映像の同期記録、センサーストリーミング、SDK対応で学習実験や入門に最適。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:12:06.000Z",
-      "contentHash": "8f4c4a5eb480"
+      "contentHash": "75a19839f3d8"
     },
     {
       "id": "9d66f25183c5",
@@ -8991,15 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-11-24T03:04:10.000Z",
       "contentHash": "516bf001c068"
-    },
-    {
-      "id": "ab388786ce7e",
-      "title": "【Datadog】AWS 全冠の私が、転職を機に「Datadog Fundamentals」を受験し合格した話 | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/passed-the-Datadog-Fundamental",
-      "summary": "Datadog Fundamentalsに合格しAPCで導入・運用支援を始めた筆者が、AWS資格との違いやタグの使い分け（AWSはリソース管理、Datadogは観測データ可視化）を解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-24T03:04:04.000Z",
-      "contentHash": "4b3b6fe9b413"
     }
   ]
 }
