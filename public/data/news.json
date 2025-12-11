@@ -1,6 +1,33 @@
 {
-  "generatedAt": "2025-12-11T12:48:37.219Z",
+  "generatedAt": "2025-12-11T13:50:11.279Z",
   "items": [
+    {
+      "id": "e772fdbbc2b6",
+      "title": "The Game Awards are losing their luster",
+      "url": "https://www.theverge.com/games/841710/the-game-awards-2025-preview-geoff-keighley",
+      "summary": "The Game Awardsは依然として規模は大きいが、高額なCMや有名人出演が目立ち、ゲーム開発者や受賞の場が置き去りにされている。2014年にGeoff Keighleyが創設した当初の祝祭性は薄れている。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-11T13:00:00.000Z",
+      "contentHash": "2dcc8a45b4d6"
+    },
+    {
+      "id": "ec2dfc41d10e",
+      "title": "BASIC認証は「+αでの利用」がおすすめ！ | コラボスタイル Developersのフィード",
+      "url": "https://zenn.dev/collabostyle/articles/aef07054bc0e9d",
+      "summary": "BASIC認証は設定が簡単なWebの簡易認証だが、ID/パスがBase64で送信され毎回送られ、ロック機能もないため単独利用は危険。補助錠として長パスワード、アカウントロック、IP制限、SAML/MFA等と組み合わせた多層防御を推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T11:37:39.000Z",
+      "contentHash": "5ebb234b385f"
+    },
+    {
+      "id": "5a5c3b2d5b18",
+      "title": "Meta shuts down global accounts linked to abortion advice and queer content",
+      "url": "https://www.theguardian.com/global-development/2025/dec/11/meta-shuts-down-global-accounts-linked-to-abortion-advice-and-queer-content",
+      "summary": "Metaは10月以降、妊娠中絶やLGBTQ、リプロダクティブヘルス関連のFacebook/Instagram/WhatsAppアカウントを50以上制限・削除。NGOは検閲の大波を指摘（今年210件→昨年81件）するが、Metaは否定。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-11T11:26:45.000Z",
+      "contentHash": "84be8e906e82"
+    },
     {
       "id": "a7cd4327208b",
       "title": "Adobe sees a bright future as AI bet pays off",
@@ -32,10 +59,10 @@
       "id": "37b06cf9172d",
       "title": "BigQueryのSQLいろいろ (5) NULL・その他の型 | Wantedly Engineer Blog",
       "url": "https://www.wantedly.com/companies/wantedly/post_articles/1020804",
-      "summary": "WebページのCSS定義。コンテナやメイン領域の余白・幅設定、flexによる中央揃え、ボタン（角丸・透明背景・遷移効果）やヘッダーナビ（フォント・サイズ・色・ホバー効果）などのスタイルを指定しています。",
+      "summary": "BigQueryのSQL挙動を、ドキュメント参照と実験で解き明かす連載の第5回。実際の挙動検証や解析結果を紹介する記事です。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-11T10:00:11.000Z",
-      "contentHash": "f1f242946878"
+      "contentHash": "325fad0558e5"
     },
     {
       "id": "b971f61f6082",
@@ -180,6 +207,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-11T08:00:00.000Z",
       "contentHash": "7d532de6df7e"
+    },
+    {
+      "id": "948f4de50e9a",
+      "title": "The Cost of a Closure in C",
+      "url": "https://thephd.dev/the-cost-of-a-closure-in-c-c2y",
+      "summary": "記事はC/C++におけるクロージャの性能影響を指摘する。クロージャを引数・戻り値以外のデータ（外部変数）を伴う一般化された関数と定義し、C向けの標準化や既存拡張の非最適性、発生する「クロージャ問題」に焦点を当てる。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-11T07:21:33.000Z",
+      "contentHash": "0dfd52a8cb68"
     },
     {
       "id": "acdd6bbd1f7a",
@@ -698,10 +734,10 @@
       "id": "1513960f9162",
       "title": "Unityゲームを Reddit 投稿として動かす手順まとめ",
       "url": "https://note.com/npaka/n/n6588ee59287c",
-      "summary": "DevvitのUnityテンプレを使い、UnityゲームをReddit投稿として動かす手順。必要環境(Node.js≥22.2、Unity6等)、developers.reddit.comでテンプレ作成→セットアップ→cd my-app・npm run devで起動。src/client/server/sharedやpublic/BuildUnity、devvit.json、splash.htmlなどのフォルダ構成と役割も解説。",
+      "summary": "UnityゲームをReddit投稿として動かす手順を解説。Node.js・Unityなどを準備し、developers.reddit.comでDevvitのUnityテンプレートを初期化。cd my-app→npm run devで起動し、src/client・src/server・src/shared、devvit.json、BuildUnityやsplash.htmlなどの構成を使ってRedditとUnity間のデータ送受信を行う。",
       "source": "npaka",
       "publishedAt": "2025-12-10T22:15:27.000Z",
-      "contentHash": "133683b88ad4"
+      "contentHash": "586ecef93632"
     },
     {
       "id": "82e6217449e0",
@@ -878,10 +914,10 @@
       "id": "a976d1f3cfe0",
       "title": "Super Mario 64 for the PS1",
       "url": "https://github.com/malucard/sm64-psx",
-      "summary": "Super Mario 64のデコンパイルをPSX/PC向けに大改造したフォーク。N64非対応でUS版からのみビルド、原作ROMが必要。DualShockアナログ振動対応、PSX向け固定小数点や低精度ソフト浮動小数点、JIT表示リスト、アニメ圧縮・VRAM配置、4bppテクスチャ等を実装。浮遊樹や未再生アニメなど既知の不具合あり。",
+      "summary": "malucardのsm64-psxは『スーパーマリオ64』をPS1風にデメイクしたオープンソースプロジェクト。PS1特有のポリゴン描画やテクスチャ歪みなどを再現し、実機やエミュで動作。技術的完成度の高さと著作権・ライセンス面の議論で話題になった。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T18:58:55.000Z",
-      "contentHash": "9d5cc3258bcd"
+      "contentHash": "666f1ba33091"
     },
     {
       "id": "0f7b86032230",
@@ -8964,42 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-26T01:15:43.000Z",
       "contentHash": "c6ec3fcfb457"
-    },
-    {
-      "id": "02c9d5645b58",
-      "title": "”速度”は信頼を勝ち得る最大の武器。企画から改善まで全部やる Social AdTrim開発の裏側 | CARTA TECH BLOG",
-      "url": "https://techblog.cartaholdings.co.jp/entry/carta-zero-adtrim-interview-2025",
-      "summary": "CARTA ZEROのSNS運用サービス「Social AdTrim」は企画から改善までを一貫して担うフルサイクル開発を実践。PM兼エンジニアの宇治川は「速度」を重視し裁量とスピードを両立。CTO河村が組織とエンジニア文化、技術的工夫を解説する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-26T01:14:25.000Z",
-      "contentHash": "2b42762da805"
-    },
-    {
-      "id": "28240ee982ad",
-      "title": "CS234: Reinforcement Learning Winter 2025",
-      "url": "https://web.stanford.edu/class/cs234/",
-      "summary": "StanfordのCS234（強化学習）コース公式ページ。講義ノート・スライド・講義動画・課題・参考論文・プロジェクト情報など、値関数、方策勾配、深層RL等を扱う教材と資源を公開。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-26T00:33:29.000Z",
-      "contentHash": "d0beb4b4bf5a"
-    },
-    {
-      "id": "4eea6ad6a30a",
-      "title": "API経由でGoogle Meetの成果物作成を有効化したカレンダー予定を作成する | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/create-calendar-event-with-meet-artifacts",
-      "summary": "Google Calendar APIとGoogle Meet REST APIを使い、Meetのアーティファクト作成を有効にしたカレンダー予定を作る手順を、API有効化やOAuth設定、プロジェクト初期化、実装、動作確認まで解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-26T00:00:00.000Z",
-      "contentHash": "0b3d60a06fdb"
-    },
-    {
-      "id": "2614bcf7e834",
-      "title": "保育園から“データが消えました”と電話が来た日 〜AIを使った絵本管理アプリ開発記録〜 | テコテック開発者ブログ",
-      "url": "https://tec.tecotec.co.jp/entry/2025/11/26/090000",
-      "summary": "システム開発第二事業部の冨永。iOS/iPadアプリ開発担当で、保育園の絵本貸出が紙管理で名前が読めず保育士も管理に手間がかかると知り、アプリ化を思いつき“AIとパパの夏休みの自由工作”を始めた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-26T00:00:00.000Z",
-      "contentHash": "28c04c885d7a"
     }
   ]
 }
