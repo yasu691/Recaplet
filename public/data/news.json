@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-11T09:35:40.651Z",
+  "generatedAt": "2025-12-11T10:33:00.582Z",
   "items": [
     {
       "id": "e2876242d3ca",
@@ -86,10 +86,10 @@
       "id": "aa30ec77f1d3",
       "title": "開発の手動構築を「AWS MCP Server」でサッとIaC 管理へ移行しよう | asken テックブログ",
       "url": "https://tech.asken.inc/entry/20251212",
-      "summary": "開発環境の手動構築をAWS MCP Serverで自動読み取りし、Terraform/CDKなどのIaC管理へ移行する手順を解説。MCPの設定（ドキュメント＋API推奨）、既存リソース読み取り→Terraform生成→import実行、Claude Code等の利用や統合MCPのPreviewも紹介。",
+      "summary": "インフラエンジニア鈴木が、asken Advent Calendarで、手動で素早く作った開発環境をAWS MCP Serverで素早くIaC管理へ移行する方法を紹介。IaCの説明と、ステージング・本番へ進む際の既存資源棚卸や依存関係把握でIaC化が停滞する課題を述べる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-11T08:00:00.000Z",
-      "contentHash": "f2c6f1330c83"
+      "contentHash": "846750cb35bf"
     },
     {
       "id": "cdaef1cf5ebe",
@@ -707,10 +707,10 @@
       "id": "acb2382dd4b5",
       "title": "Apple Services Experiencing Outage",
       "url": "https://www.apple.com/support/systemstatus/",
-      "summary": "外部サイトに直接アクセスできないため、本文か要点を貼ってください。貼れない場合は「AppleのSystem Status（サービス稼働状況）ページの障害情報とHacker Newsの反応」を一般的に要約して作成しますか？",
+      "summary": "AppleのSystem Statusページは、App StoreやiCloudなど各サービスのリアルタイム稼働状況を示すダッシュボードです。正常/障害/メンテナンスを表示し、発生中の問題の詳細や経過、過去履歴やRSS通知を提供します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T20:47:15.000Z",
-      "contentHash": "c884f98752fd"
+      "contentHash": "44fcd0c13d6e"
     },
     {
       "id": "be7f29253e11",
@@ -824,10 +824,10 @@
       "id": "688d794d1a3c",
       "title": "Show HN: Automated license plate reader coverage in the USA",
       "url": "https://alpranalysis.com",
-      "summary": "Rustで作ったツールがOpenStreetMapのALPR報告を解析し、住宅から施設への経路がFlockなどの自動ナンバー認識カメラと交差するかを県別に算出。404 Mediaも報じるように大量無差別な撮影とデータ共有は宗教施設や医療機関も含み、捜査令状不要の範囲をめぐる懸念から撤去（deflock）運動支援を意図している。",
+      "summary": "OpenStreetMapのALPRデータを解析するRustツールを作成。住宅から施設への経路上の自動ナンバープレート認識（Flock等）カメラを郡別に可視化し、礼拝所や医療施設も含む大量撮影・データ共有の拡大を追跡。撤去・禁止を求める市民運動に役立てる意図。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T17:42:30.000Z",
-      "contentHash": "00f8ed7a482b"
+      "contentHash": "377dc0ee7a6e"
     },
     {
       "id": "58994df31feb",
@@ -2444,10 +2444,10 @@
       "id": "8b5993ac7f69",
       "title": "低コスト・オープンソースのロボットハンド Amazing Hand のススメ",
       "url": "https://note.com/npaka/n/nf59d85ba3538",
-      "summary": "POLLEN（Hugging Face傘下）のAmazing Handは、3Dプリント部品と市販サーボで作れる低コスト・オープンソースの4本指8自由度ロボットハンド。内部アクチュエータでコンパクト化、SDKやテレオペレーション、データ収集・センサーストリーミングに対応し、教育・研究向けにSeeedでキット販売中。",
+      "summary": "POLLEN（Hugging Face傘下）のAmazing Handは、3Dプリント部品と市販サーボで作る低コストなオープンソースの4本指・8自由度ロボットハンド。Seeedでキット販売中。SDKで遠隔操作、データ収集、模倣学習などAI実験に対応し、Raspberry PiやJetson等で動作する。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:12:06.000Z",
-      "contentHash": "05f2f6f371aa"
+      "contentHash": "5c44b2d8f100"
     },
     {
       "id": "9d66f25183c5",
