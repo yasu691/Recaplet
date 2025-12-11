@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2025-12-11T03:36:26.858Z",
+  "generatedAt": "2025-12-11T04:46:43.729Z",
   "items": [
+    {
+      "id": "4217ca3f259a",
+      "title": "レガシーコードの仕様整理にAIをフル活用してみた ― Claude Codeとsubagentで生産性爆上げした話 | スパイダープラス Tech Blog",
+      "url": "https://techblog.spiderplus.co.jp/entry/2025/12/11/123000",
+      "summary": "SPIDER+のSwift/Objective-C混在コードの仕様整理にClaude Codeを活用。CLAUDE.mdでプロジェクト文脈を共有、Custom Slash Commandで定型作業を自動化、subagentでiOS専門家を編成し生産性を大幅向上。AIは魔法でなく良いプロンプトが重要と強調。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T03:30:00.000Z",
+      "contentHash": "7936d0c1b4f1"
+    },
+    {
+      "id": "edc4600dbdef",
+      "title": "Zod4、信じてるからな | ゼスト Tech Blog",
+      "url": "https://techblog.zest.jp/entry/2025/12/11/121119",
+      "summary": "Zod v4プレビュー公開から約半年、ゼストの正原がM1 Pro環境でZod v4（v4.1.13）とv3を公式ベンチで比較検証。v4はv3を内包し性能向上が謳われ、段階的な移行とベンチ結果と実環境差の確認を行った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T03:11:19.000Z",
+      "contentHash": "d2b67c4b89e8"
+    },
+    {
+      "id": "d8ef22695ab1",
+      "title": "【Backstage】GitHub EMU利用時のBackstageサインイン | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2025/12/11/121100",
+      "summary": "GitHub EMU（Enterprise Managed Users）でIdP（例：Microsoft Entra ID）管理を行っていても、Backstageは通常のGitHub認証設定で動作します。ログインはユーザー名入力後に「Sign in with your identity provider」でIdPへリダイレクトし認証完了。EMU環境でもBackstageでSSOが利用可能です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T03:11:00.000Z",
+      "contentHash": "c46e82dfefbf"
+    },
+    {
+      "id": "d8967327aca2",
+      "title": "アンドパッドインターン体験記_林 | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2025/12/11/120000",
+      "summary": "Android開発者の林が10/20〜11/25にアンドパッドで1か月インターン。Kotlin・Jetpack Composeで環境構築、XML→Compose移行、テスト作成、CI修正、Kotlinバージョン調査など実務で学びを得た。リモート可・1on1充実で意見が出しやすい職場だった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T03:00:00.000Z",
+      "contentHash": "a6dfe44f350f"
+    },
+    {
+      "id": "300c61c48266",
+      "title": "【アドベントカレンダー2025】AI Agentの「自律性」との向き合い方 | ぐるなびをちょっと良くするエンジニアブログ",
+      "url": "https://developers.gnavi.co.jp/entry/adventcalendar-251211-1/",
+      "summary": "AIエージェントの自律度（Hugging Faceのレベル0〜3）に応じて使い分ける重要性を解説。高自律は柔軟だが予測・制御が難しい。コーディングやメモリ活用に有効だが、手順固定・コスト予測・再現性が必要な場面では慎重に導入すべき、という要点。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T03:00:00.000Z",
+      "contentHash": "92617322e5ff"
+    },
+    {
+      "id": "013ed999d2b9",
+      "title": "GDG DevFest Tokyo 2025 へ参加してきました！ | WILLGATE TECH BLOG",
+      "url": "https://tech.willgate.co.jp/entry/2025/12/11/120000",
+      "summary": "2025年11月22日に初参加したDevFest Tokyo 2025の感想です。Google技術やAIの影響、Google Mapsの色削減によるUI設計など有益な講演と学生の熱気を体感。Geminiハンズオンは予約で参加できず次回へ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T03:00:00.000Z",
+      "contentHash": "842ea835f1fa"
+    },
+    {
+      "id": "485f8cf14e36",
+      "title": "献立エージェントの構築を通して学ぶ Strands Agents の使い方 | コドモン Product Team Blog",
+      "url": "https://tech.codmon.com/entry/2025/12/11/120000",
+      "summary": "コドモンSREの江口さんがAWSのオープンソースAIフレームワーク「Strands Agents」で、旬の食材を使う献立エージェントをローカルで作る手順を解説。最小構成は3行で動き、システムプロンプト、ツール、MCP連携などの実装例と実行結果を示します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T03:00:00.000Z",
+      "contentHash": "9ebfea161088"
+    },
     {
       "id": "b7f5fe02eb4b",
       "title": "アイテム埋め込みの正規化が推薦頻度に与える影響を調べてみた | DMM Developers Blog",
@@ -194,10 +257,10 @@
       "id": "fbd9a28c3708",
       "title": "Gemini 2.5 Flash ・ Pro TTS のアップデート - 2025年12月10日",
       "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "「Gemini 2.5 Flash／Pro TTS」プレビューが強化。表現力とスタイル指示への忠実性、状況に応じたペース調整、複数話者の音声一貫性が向上し、24言語対応。Flashは低遅延、Proは高品質でGemini APIから利用可能。",
+      "summary": "Gemini 2.5 Flash・ProのTTSプレビューが強化。表現力とスタイル忠実度向上、状況に応じたペース制御、複数話者の声一貫性改善。低遅延版と高品質版を提供し24言語対応。",
       "source": "npaka",
       "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "cdd1b66ba5c3"
+      "contentHash": "afdfcd32b237"
     },
     {
       "id": "61a85cfbb5d3",
@@ -338,10 +401,10 @@
       "id": "acb2382dd4b5",
       "title": "Apple Services Experiencing Outage",
       "url": "https://www.apple.com/support/systemstatus/",
-      "summary": "リンク先へ直接アクセスできないため、記事本文をここに貼ってください。いただければ200文字以内で日本語要約します。HNのコメントも要約希望ならそれも一緒に貼るか、その旨を教えてください。",
+      "summary": "AppleのSystem Statusページは、App StoreやiCloud、Apple ID、iMessage等の各サービスの稼働状況をリアルタイムで表示し、障害発生や対応状況、過去のログや予定メンテナンスを時刻付きで知らせる公式ダッシュボードです。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T20:47:15.000Z",
-      "contentHash": "ec438b5a3c23"
+      "contentHash": "0fe234ad371c"
     },
     {
       "id": "be7f29253e11",
@@ -419,10 +482,10 @@
       "id": "a976d1f3cfe0",
       "title": "Super Mario 64 for the PS1",
       "url": "https://github.com/malucard/sm64-psx",
-      "summary": "Super Mario 64のデコンパイルをPSX/PC向けに大幅改変したフォーク。N64非対応でUS版資産が必須。DualShockアナログ振動対応、PSX向け固定小数点・擬似浮動小数点化、表示リストJIT化、テクスチャ4bpp化やアニメ圧縮など最適化を施す。描画やアニメの不具合あり。",
+      "summary": "malucardのsm64-psxは『スーパーマリオ64』をPS1風に移植した非公式プロジェクト。低ポリ・PS1特有のテクスチャや描画制約を再現し実機やエミュで動作。技術的完成度は高く称賛される一方、任天堂の著作権や倫理面の懸念がHNで議論された。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T18:58:55.000Z",
-      "contentHash": "9d5cc3258bcd"
+      "contentHash": "3d0ff71b81d7"
     },
     {
       "id": "0f7b86032230",
@@ -446,10 +509,10 @@
       "id": "688d794d1a3c",
       "title": "Show HN: Automated license plate reader coverage in the USA",
       "url": "https://alpranalysis.com",
-      "summary": "Rustで作ったツールがOSMのALPR報告を解析し、住宅から施設への経路がFlock等の自動ナンバープレート撮影カメラに触れるかを県別に集計。大規模な無差別撮影とデータ共有がプライバシーや憲法問題を招き、撤去を求める運動支援を目指している。",
+      "summary": "Rust製のツールでOpenStreetMapのALPRデータを解析し、住宅から施設への経路がFlockなどの自動ナンバー認識カメラと交差するかを県別に可視化。大規模な無差別撮影やデータ共有が礼拝所・医療施設を含む追跡常態化と第四修正の曖昧化を招くと問題視される。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T17:42:30.000Z",
-      "contentHash": "0c347745e693"
+      "contentHash": "6ed1e0a35385"
     },
     {
       "id": "58994df31feb",
@@ -482,10 +545,10 @@
       "id": "6bc4501f6c03",
       "title": "Valve: HDMI Forum Continues to Block HDMI 2.1 for Linux",
       "url": "https://www.heise.de/en/news/Valve-HDMI-Forum-Continues-to-Block-HDMI-2-1-for-Linux-11107440.html",
-      "summary": "ValveのSteam MachineはHDMI 2.1対応ハードを搭載するが、HDMI Forumが仕様を非公開にしているためオープンソースドライバが提供できずソフト的にHDMI 2.0に制限。AMDのLinux向け提案も却下され、Valveは解決を模索中。4K@120Hzは色差サブサンプリングで実現している。",
+      "summary": "ValveはSteam DeckでのHDMI 2.1（DSC）対応を目指したが、HDMI Forumの採用ライセンスがオープンソースやLinux向けの公開・実装を制限。例外申請も却下され、結果的にLinuxでHDMI 2.1が使えない状況が続いている。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T17:20:06.000Z",
-      "contentHash": "c82511773840"
+      "contentHash": "b462f2412746"
     },
     {
       "id": "db9cc46c8e30",
@@ -545,10 +608,10 @@
       "id": "d00dd121a647",
       "title": "DeepSeek uses banned Nvidia chips for AI model, report says",
       "url": "https://finance.yahoo.com/news/china-deepseek-uses-banned-nvidia-131207746.html",
-      "summary": "報道によれば中国のAI企業DeepSeekは、米が販売禁止とするNvidiaのBlackwellチップを国外のデータセンター経由で分解・密輸してAIモデルを開発したとされる。DeepSeekは無回答、Nvidiaは裏付け確認できていないと述べた。",
+      "summary": "報道によれば中国のAI新興企業DeepSeekは、販売禁止のNvidia「Blackwell」チップを他国のデータセンター経由で密輸しAIモデル開発に使ったとされる。Nvidiaは根拠を確認できないと述べ、類似の密輸事件で起訴例もある。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T16:34:52.000Z",
-      "contentHash": "3c80b08ac12d"
+      "contentHash": "ca87ca514295"
     },
     {
       "id": "9894228a9a84",
@@ -8937,69 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-11-25T16:21:24.000Z",
       "contentHash": "1118edc8a28b"
-    },
-    {
-      "id": "f12add8ff164",
-      "title": "Apple TV is over half off for six months during Black Friday",
-      "url": "https://www.theverge.com/gadgets/828621/apple-tv-black-friday-discount-deal-sale",
-      "summary": "Apple TV+は月$12.99で広告無し、FoundationやSlow Horses、Severanceなどの人気作や2026年からのF1独占配信あり。ブラックフライデーで6か月間月$5.99（合計約$36、通常$78）。新規デバイスの3か月特典やサードパーティ経由は対象外。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T16:16:34.000Z",
-      "contentHash": "238ebea6556c"
-    },
-    {
-      "id": "a09509d75831",
-      "title": "Roblox is a problem but it's a symptom of something worse",
-      "url": "https://www.platformer.news/roblox-ceo-interview-backlash-analysis/",
-      "summary": "RobloxのCEOが児童安全についてのインタビューで不十分・曖昧な受け答えをし、親や開発者らの批判を招いた。Hacker Newsで議論が活発化し、モデレーション強化や透明性向上を求める声が多数上がっている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T16:12:22.000Z",
-      "contentHash": "67db2a20184e"
-    },
-    {
-      "id": "17492e58371c",
-      "title": "ROG Xbox Ally&#8217;s new profiles optimize performance per game for more battery life",
-      "url": "https://www.theverge.com/news/828775/microsoft-rog-xbox-ally-default-game-profiles",
-      "summary": "MicrosoftはROG Xbox Ally向けに40タイトルの「デフォルトゲームプロファイル」をプレビュー。未接続時に自動でFPSと消費電力を最適化（例：Hollow Knight: Silksongは約1時間延長で120FPS維持）。Armoury Crateでオンオフ可能。ライブラリ読み込み高速化やクラウド、ゲームパッド応答改善も予定。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T16:08:07.000Z",
-      "contentHash": "dbbb81fda140"
-    },
-    {
-      "id": "8b954f10c49f",
-      "title": "Stranger Things is ending, and so is Netflix&#8217;s reliance on tentpole shows",
-      "url": "https://www.theverge.com/streaming/828254/stranger-things-season-5-netflix-tentpoles-future",
-      "summary": "2016年に配信開始した『ストレンジャー・シングス』は、加入者獲得を狙ったNetflixの大型オリジナル施策の一環だった。『ハウス・オブ・カード』や『オレンジ・イズ・ニュー・ブラック』らと共に、同社を新たなポップカルチャーの中心に据える戦略だった。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T16:00:00.000Z",
-      "contentHash": "ae93a493e590"
-    },
-    {
-      "id": "d537936fa3bf",
-      "title": "FLUX.2: Frontier Visual Intelligence",
-      "url": "https://bfl.ai/blog/flux-2",
-      "summary": "外部サイトに直接アクセスできないため、記事本文をここに貼っていただけますか？  \nまたは、Flux 2の一般的な概要に基づく200字以内の要約を作成することも可能です。どちらをご希望ですか？",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T15:47:14.000Z",
-      "contentHash": "fda7cf83ac56"
-    },
-    {
-      "id": "b5b33e13e910",
-      "title": "The Kodak Snapic A1 is a $99 film camera that makes double exposures easy",
-      "url": "https://www.theverge.com/news/828648/reto-kodak-snapic-a1-35mm-film-camera-double-exposure",
-      "summary": "香港のReto（コダック公認）が35mmフィルム機Snapic A1を発表。来月発売、アイボリーとライノグレー各$99。25mmガラス（f/9.5固定）・1/100秒、2焦点、内蔵フラッシュ、二重露光、AAA2本で最大24枚×10本分、OLEDで残枚表示。色は選択可。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T15:40:04.000Z",
-      "contentHash": "530ce82f36f8"
-    },
-    {
-      "id": "cd3c91685e32",
-      "title": "Our favorite ways to survive Thanksgiving",
-      "url": "https://www.theverge.com/gadgets/824092/thanksgiving-food-tech-help-favorite",
-      "summary": "感謝祭は伝統や家族集まり、休みなど人それぞれ。多くは料理準備と家族の緊張に悩む。執筆者は脂と甘さで好感を狙う豪華料理や手作り・市販デザート、レシピ動画やスタンドミキサー活用で場を和ませると提案。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T15:00:00.000Z",
-      "contentHash": "dc46654d70f0"
     }
   ]
 }
