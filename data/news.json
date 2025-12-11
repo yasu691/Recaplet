@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2025-12-11T08:37:44.390Z",
+  "generatedAt": "2025-12-11T09:35:40.651Z",
   "items": [
+    {
+      "id": "e2876242d3ca",
+      "title": "Ayaneo’s first Android phone looks like a return of the Xperia Play",
+      "url": "https://www.theverge.com/news/842243/ayaneo-pocket-play-gaming-phone-android-sony-xperia-play",
+      "summary": "Ayaneoが初のAndroid端末「Pocket Play」を公開。画面がスライドして十字キーやABXY、丸いタッチパッド、背面の肩ボタンを露出。3.5mmジャックは確認できず、発売は「近日」だがスペックは未発表。AnbernicのRG Slideよりスリムで高価格が予想される。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-11T09:16:52.000Z",
+      "contentHash": "658a2c4bcd23"
+    },
+    {
+      "id": "4692f059eabb",
+      "title": "Goで2要素認証のリカバリーコードを実装するときに考えたこと | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2025/12/11/180000",
+      "summary": "Goで認証基盤に2要素認証のリカバリーコードを実装した経緯と設計方針。Auth0から内製移行で機能を落とした結果ユーザ問合せが増え、管理者リセット案と比較して資源制約からリカバリーコードを採用。NIST等を参照し乱数ビット数などのセキュリティ要件を検討した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T09:00:00.000Z",
+      "contentHash": "a54000543e3c"
+    },
+    {
+      "id": "afa11fc682f1",
+      "title": "AWS Global Viewが便利だった話 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/aws-global-view",
+      "summary": "AWS Global Viewは複数リージョンのEC2・VPCリソースをコンソールで横断表示できる機能。表示可能なリソース一覧と確認手順（EC2コンソール→AWS Global View、番号クリックで詳細）を紹介し、全リージョン一括確認の便利さを伝える記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T09:00:00.000Z",
+      "contentHash": "d2699f66e7d2"
+    },
+    {
+      "id": "b9c1ecc31190",
+      "title": "【re:Invent 2025】【AWSパートナー限定ワークショップ】Security Hubの検出結果を元にBedrockを活用した運用自動化（ランブック構築）の実現を体験してみました | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/reinventworkshop/operationautomation",
+      "summary": "re:Invent 2025でのAWSパートナー限定ワークショップ参加記。Security Hubの検出をSageMakerノートとAmazon Bedrock（Claude）で解析し、修正コードを生成してランブック化するハンズオンを体験。Tool Useや人の承認プロセス、組織ナレッジ活用なども学び、日本語対応やマルチアカウント運用について質問。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T08:43:03.000Z",
+      "contentHash": "3528eae3b4a1"
+    },
+    {
+      "id": "b33d62934748",
+      "title": "GitLab CI: Docker のレイヤーキャッシュを利用して gem のキャッシュを取る | TechRacho",
+      "url": "https://techracho.bpsinc.jp/konaga/2025_12_11/155358",
+      "summary": "GitLab CIでDockerを使う際、Runnerが自社ホストでDockerデーモン稼働・BuildKit有効なら、レイヤーキャッシュと--mount=type=cache（/usr/local/bundle/cache）を使いGemをキャッシュしてパイプライン間でインストール時間を短縮する方法を、.gitlab-ci.ymlとDockerfile.ciの例付きで解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T08:30:11.000Z",
+      "contentHash": "f067c72f883e"
+    },
+    {
+      "id": "0d594b609aab",
+      "title": "必要なツールを必要だと思った時に、必要な分だけ用意する 〜 shell で小さく始めるscaffold 〜 | CARTA TECH BLOG",
+      "url": "https://techblog.cartaholdings.co.jp/entry/fast-and-minimum-is-great",
+      "summary": "レイヤード構成のGoアプリで新API作成時の定型ファイル作成を効率化するため、完璧を目指さずShellとMakefileで小さく速く始めたscaffolding導入の経緯と実装例。sedで命名変換し短時間で運用化した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T08:30:00.000Z",
+      "contentHash": "60880078d9ba"
+    },
+    {
+      "id": "53d47acc6b8c",
+      "title": "リンク先、「詳細はこちら」じゃダメなんです── PRが取り組むアクセシビリティ | Goodpatch Tech Blog",
+      "url": "https://goodpatch-tech.hatenablog.com/entry/accessibility-in-pr",
+      "summary": "グッドパッチPRの木村が、PRも先導して情報発信のアクセシビリティ整備を進める重要性を解説。WCAG等を基にチェックリスト作成、画像の代替テキスト付与や「詳しくはこちら」回避など実践例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T08:23:11.000Z",
+      "contentHash": "935b8e6d7471"
+    },
+    {
+      "id": "f586985f6d6d",
+      "title": "AIが書き、人が読む時代、読書がスキルになる | Findy Tech Blog",
+      "url": "https://tech.findy.co.jp/entry/2025/12/11/170000",
+      "summary": "AI主導の開発（AI-DLC）では人間は監視・レビュー役になり、多数のAI生成ドキュメントを短時間で正しく理解する読解力が品質を左右する。著者は読書習慣でその力を鍛え効果を実感した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T08:00:00.000Z",
+      "contentHash": "989bcb3fa1fe"
+    },
+    {
+      "id": "d621663aa607",
+      "title": "「君らはAIネイティブ世代だから」と背中を押された新卒が、AIモブプロでチームのAI活用の促進に取り組んだ話 | freee Developers Hub",
+      "url": "https://developers.freee.co.jp/entry/ai-native-new-grad-promoting-ai-adoption",
+      "summary": "配属直後の新卒が「AIネイティブ」と期待され、AIモブプロを主催。DevContainerでのMCP Server導入（認証・永続化）問題を解決し、社内ドキュメント等へAIがアクセス可能にしてAI活用を促進、週2時間のAI探索タイム導入へ繋げた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T08:00:00.000Z",
+      "contentHash": "eaed7c7fe89a"
+    },
+    {
+      "id": "aa30ec77f1d3",
+      "title": "開発の手動構築を「AWS MCP Server」でサッとIaC 管理へ移行しよう | asken テックブログ",
+      "url": "https://tech.asken.inc/entry/20251212",
+      "summary": "開発環境の手動構築をAWS MCP Serverで自動読み取りし、Terraform/CDKなどのIaC管理へ移行する手順を解説。MCPの設定（ドキュメント＋API推奨）、既存リソース読み取り→Terraform生成→import実行、Claude Code等の利用や統合MCPのPreviewも紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T08:00:00.000Z",
+      "contentHash": "f2c6f1330c83"
+    },
+    {
+      "id": "cdaef1cf5ebe",
+      "title": "【AWS re:Invent 2025】みんなをつなぐ晩御飯、サービスをつなぐ VPC Lattice | カミナシ エンジニアブログ",
+      "url": "https://kaminashi-developer.hatenablog.jp/entry/2025/12/04/aws-reinvent-ecs-connect",
+      "summary": "re:Invent2025参加レポ。ラスベガスでの夕食は企業主催の会食や高級店でネットワーキング。セッションはECSのサービス間通信を解説し、internal ALB、Cloud MapによるService Discovery、Service Connect（サイドカープロキシ経由）、VPC Lattice（Route53でホスト名管理、LB的機能）を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T08:00:00.000Z",
+      "contentHash": "7d532de6df7e"
+    },
     {
       "id": "acdd6bbd1f7a",
       "title": "OCR × LLM。明細表を読み解く新しい一段 | RAKUS Developers Blog | ラクス エンジニアブログ",
@@ -68,10 +167,10 @@
       "id": "c308764f76db",
       "title": "ChatGPT からの Photoshop を試す",
       "url": "https://note.com/npaka/n/n884da273286c",
-      "summary": "npakaがChatGPT内の「Adobe Photoshop」を試用。選択、明るさ・色のスライダー調整、エフェクト、背景ぼかし・削除、元に戻すなどに対応。@adobeを選び画像を追加して指示→接続許可で編集結果をダウンロード可能。",
+      "summary": "ChatGPTにAdobe Photoshopが統合され、選択・明るさなどの調整（スライダー）・エフェクト・背景ぼかし/削除・元に戻すなどが利用可能。使い方は@adobeでPhotoshop選択→画像追加→指示送信→接続許可→結果確認・ダウンロード。",
       "source": "npaka",
       "publishedAt": "2025-12-11T06:04:12.000Z",
-      "contentHash": "d8a8fa4f638b"
+      "contentHash": "efa251e18d60"
     },
     {
       "id": "ba511f64a3e7",
@@ -171,6 +270,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-11T04:37:25.000Z",
       "contentHash": "cc7abbb0d340"
+    },
+    {
+      "id": "52bb4ff392c1",
+      "title": "Incomplete list of mistakes in the design of CSS",
+      "url": "https://wiki.csswg.org/ideas/mistakes",
+      "summary": "「誰かがタイムマシンを発明したら、それを直すべきだ」という冗談的な一言です。:P",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-11T04:20:52.000Z",
+      "contentHash": "26f346999245"
     },
     {
       "id": "05407d5274d6",
@@ -455,10 +563,10 @@
       "id": "fbd9a28c3708",
       "title": "Gemini 2.5 Flash ・ Pro TTS のアップデート - 2025年12月10日",
       "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "Gemini 2.5 Flash／ProのTTSが強化。表現力やスタイル指示への忠実性、状況に応じた話速調整、複数話者の声の一貫性が向上。Flashは低遅延、Proは高品質で24言語対応。",
+      "summary": "Gemini 2.5 Flash/ProのTTSが強化。表現力とスタイル遵守、状況に応じたペース調整、複数話者での声の一貫性向上を実現。Flashは低遅延、Proは高品質で24言語対応。",
       "source": "npaka",
       "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "e47928f947b9"
+      "contentHash": "c6d406c0561f"
     },
     {
       "id": "61a85cfbb5d3",
@@ -599,10 +707,10 @@
       "id": "acb2382dd4b5",
       "title": "Apple Services Experiencing Outage",
       "url": "https://www.apple.com/support/systemstatus/",
-      "summary": "Appleのシステムステータスページは、App StoreやiCloudなど各種サービスの稼働状況をリアルタイムで表示し、障害やメンテナンスの詳細、開始時刻、影響範囲、最新の更新情報を提供します。",
+      "summary": "外部サイトに直接アクセスできないため、本文か要点を貼ってください。貼れない場合は「AppleのSystem Status（サービス稼働状況）ページの障害情報とHacker Newsの反応」を一般的に要約して作成しますか？",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T20:47:15.000Z",
-      "contentHash": "cb28932a7896"
+      "contentHash": "c884f98752fd"
     },
     {
       "id": "be7f29253e11",
@@ -716,10 +824,10 @@
       "id": "688d794d1a3c",
       "title": "Show HN: Automated license plate reader coverage in the USA",
       "url": "https://alpranalysis.com",
-      "summary": "数日で作ったRustツールがOpenStreetMapのALPR（主にFlock）データを解析し、住宅から施設への経路とカメラ交差を算出。全国的な大規模撮影やデータ共有で宗教施設や医療機関も撮られ、プライバシー懸念が強まる。郡別の拡大可視化で撤去を求める「deflock」運動を支援する目的。",
+      "summary": "Rustで作ったツールがOpenStreetMapのALPR報告を解析し、住宅から施設への経路がFlockなどの自動ナンバー認識カメラと交差するかを県別に算出。404 Mediaも報じるように大量無差別な撮影とデータ共有は宗教施設や医療機関も含み、捜査令状不要の範囲をめぐる懸念から撤去（deflock）運動支援を意図している。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T17:42:30.000Z",
-      "contentHash": "02de7c12cfdf"
+      "contentHash": "00f8ed7a482b"
     },
     {
       "id": "58994df31feb",
@@ -2336,10 +2444,10 @@
       "id": "8b5993ac7f69",
       "title": "低コスト・オープンソースのロボットハンド Amazing Hand のススメ",
       "url": "https://note.com/npaka/n/nf59d85ba3538",
-      "summary": "Amazing HandはPOLLEN開発の低コストなオープンソース4本指ロボットハンド。3Dプリント部品と市販サーボで8自由度を実現し、内部アクチュエータ設計。SDKでテレオペ、模倣・強化学習、データ収集やセンサーストリーミングをサポートし、Seeedでキット販売。入門に適するが万能ではない。",
+      "summary": "POLLEN（Hugging Face傘下）のAmazing Handは、3Dプリント部品と市販サーボで作れる低コスト・オープンソースの4本指8自由度ロボットハンド。内部アクチュエータでコンパクト化、SDKやテレオペレーション、データ収集・センサーストリーミングに対応し、教育・研究向けにSeeedでキット販売中。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:12:06.000Z",
-      "contentHash": "d6336738959e"
+      "contentHash": "05f2f6f371aa"
     },
     {
       "id": "9d66f25183c5",
@@ -8892,114 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-25T23:00:00.000Z",
       "contentHash": "eb7b9e0cb766"
-    },
-    {
-      "id": "47ec7eb9c2fd",
-      "title": "ISC2 CCSP 受験体験記 | 電通総研 テックブログ",
-      "url": "https://tech.dentsusoken.com/entry/2025/11/26/ISC2_CCSP_%E5%8F%97%E9%A8%93%E4%BD%93%E9%A8%93%E8%A8%98",
-      "summary": "電通総研コーポレート本部サイバーセキュリティ推進部の櫻井が、2025年7月時点の情報としてISC2の資格CCSP（Certified Cloud Security Professional）を紹介。クラウドのインフラ設計・構成やアプリ設計を含むクラウドセキュリティの体系的知識を問う資格。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T23:00:00.000Z",
-      "contentHash": "2af1ab482781"
-    },
-    {
-      "id": "00b6869fc4a0",
-      "title": "Microsoft Purviewの概要とコストの考え方 in 2025 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/df394863030976",
-      "summary": "Microsoft Purviewは、社内外のデータを発見・棚卸・可視化（データマップ／カタログ）し、機密や個人情報を分類してアクセス・利用ルールを管理、監査・eDiscovery・DLPでリスク・規制対応まで行う統合データガバナンス/コンプライアンス基盤です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T22:56:39.000Z",
-      "contentHash": "fb3996494b97"
-    },
-    {
-      "id": "3e5e69efd86e",
-      "title": "Reinventing how .NET builds and ships (again)",
-      "url": "https://devblogs.microsoft.com/dotnet/reinventing-how-dotnet-builds-and-ships-again/",
-      "summary": ".NETのビルドと出荷フローを全面的に見直し、CI/CDと自動化を強化してリリースの迅速化・品質向上・開発者体験の改善を図る。移行計画とコミュニティ参加の案内を含む。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T22:37:48.000Z",
-      "contentHash": "4c20a8d606a3"
-    },
-    {
-      "id": "2faa13b8fca7",
-      "title": "グーグルが巻き返す!AI競争の潮目が変わった理由とビジネスへの影響を徹底解説 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/491a7b62a7dac4",
-      "summary": "グーグルは最新AI「Gemini 3」の高評価と自社AIチップTPUの需要拡大でAI競争に復活。豊富なデータ・資金・インフラを背景に株価急騰、時価総額は4兆ドルに迫りOpenAIやマイクロソフトと優位に争う。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T22:37:16.000Z",
-      "contentHash": "507c5cdfd454"
-    },
-    {
-      "id": "3bf1c4100594",
-      "title": "Show HN: KiDoom – Running DOOM on PCB Traces",
-      "url": "https://www.mikeayles.com/#kidoom",
-      "summary": "DOOMの描画をピクセルでなくKiCadのPCBトレースとフットプリントで再現。壁はPCB_TRACK、敵やアイテムは部品に割当て。エンジンの内部ベクトル(drawsegs/vissprites)を抽出してUnixソケットでPythonプラグインへ送り、事前確保したトレース/部品の位置を毎フレーム更新。表示は10–25FPS。さらに音声出力でオシロのX-Yに送るScopeDoomも実装（約6Hz）。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T22:13:35.000Z",
-      "contentHash": "f0be2727bb24"
-    },
-    {
-      "id": "6ff01bc91f86",
-      "title": "What they don't tell you about maintaining an open source project",
-      "url": "https://andrej.sh/blog/maintaining-open-source-project/",
-      "summary": "OSS維持は自動化と優先付け、明確な貢献ルール・ドキュメント、テスト/CI、ラベルとロードマップで課題を管理し、委任と境界設定で過負荷を避ける。メンターや感謝でコミュニティを育て、資金化・セキュリティ対応も考慮すべき。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T22:08:25.000Z",
-      "contentHash": "a717d8ffc4e9"
-    },
-    {
-      "id": "4d2de164c3e2",
-      "title": "Someone at YouTube Needs Glasses: The Prophecy Has Been Fulfilled",
-      "url": "https://jayd.ml/2025/11/10/someone-at-youtube-needs-glasses-prophecy-fulfilled.html",
-      "summary": "申し訳ありませんが外部ページを直接参照できません。記事本文か主要抜粋を貼っていただければ、200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T22:04:31.000Z",
-      "contentHash": "9d9d1d1c012a"
-    },
-    {
-      "id": "292f631c6a64",
-      "title": "Expanding data residency access to business customers worldwide",
-      "url": "https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide",
-      "summary": "OpenAIはChatGPT Enterprise、ChatGPT Edu、APIプラットフォームでデータ居住性を拡大し、対象となる顧客が保存データ（データ・アット・レスト）を自国・地域内に保管できるようにした。",
-      "source": "OpenAI",
-      "publishedAt": "2025-11-25T22:00:00.000Z",
-      "contentHash": "795bf8e1f83e"
-    },
-    {
-      "id": "15d0a3cd5e03",
-      "title": "【福岡/東京 両日開催！】Findy AI Meetupを開催しました | Findy Tech Blog",
-      "url": "https://tech.findy.co.jp/entry/2025/11/26/070000",
-      "summary": "ファインディのテックリードマネージャー戸田が、GitHub CopilotやClaude Codeなど生成AIが開発者のワークフローに組み込まれつつありソフトウェア開発が転換点を迎えていると述べ、福岡で第3回Findy AI Meetupを開催し初の東京開催も行ったと報告した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T22:00:00.000Z",
-      "contentHash": "1f27f7629ff3"
-    },
-    {
-      "id": "6b0b3ea09c94",
-      "title": "エンジニアリングマネージャーが語るBUYMA開発の魅力～事業志向と技術志向が両立する環境～ | エニグモ開発者ブログ",
-      "url": "https://tech.enigmo.co.jp/entry/2025/11/26/070000",
-      "summary": "海外ファッションEC「BUYMA」を運営するエニグモのエンジニアリングマネージャー穴澤さんへのインタビュー。プロジェクト推進やメンバー育成を担い、前職はオンライン英会話のサーバーサイドリーダー（予約・決済等）。入社経緯やBUYMA開発の魅力を語る。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T22:00:00.000Z",
-      "contentHash": "648aac271ba8"
-    },
-    {
-      "id": "7e0e6d42b014",
-      "title": "Google steers Americans looking for health care into \"junk insurance\"",
-      "url": "https://pluralistic.net/2025/11/25/open-season/",
-      "summary": "申し訳ありませんが、外部サイトへ直接アクセスできません。記事本文を貼り付けるか主要箇所をコピペしていただければ、200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T21:45:01.000Z",
-      "contentHash": "4b464ef646bb"
-    },
-    {
-      "id": "8dddef2542d9",
-      "title": "Aurora DSQL の IAM 認証が簡単に！Node.js Connector と Drizzle ORM で接続してみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/nodejs_dsql_update",
-      "summary": "記事は、Python/Node.js/JDBCコネクタでIAM認証を簡素化し、AWSコンソール統合のクエリエディタやクエリプランでのステートメント別コスト見積を紹介。エンドポイント設定、テーブル作成やDB操作の手順と、Node.jsコネクタの自動トークン生成（aurora-dsql-client.ts）などの仕組みを解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T21:18:54.000Z",
-      "contentHash": "fb3d86a14af7"
     }
   ]
 }
