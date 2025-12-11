@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2025-12-11T01:28:13.654Z",
+  "generatedAt": "2025-12-11T03:36:26.858Z",
   "items": [
+    {
+      "id": "b7f5fe02eb4b",
+      "title": "アイテム埋め込みの正規化が推薦頻度に与える影響を調べてみた | DMM Developers Blog",
+      "url": "https://developersblog.dmm.com/entry/2025/12/11/113000",
+      "summary": "Two-Towerモデルでアイテム埋め込みのL2正規化が推薦頻度に影響することを検証。正規化でノルムが均一化しカバレッジが上がる一方、非正規化ではノルムの大きいアイテムが多く推薦され、サンプリングバイアスで人気作がさらに有利になるという結果。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T02:30:00.000Z",
+      "contentHash": "5e7dd5ef8009"
+    },
+    {
+      "id": "06ab37fe72f8",
+      "title": "プランナーがAIと開発してみたら、開発生産性が4倍・Issue作成時間が95%削減された話 | Speee DEVELOPER BLOG",
+      "url": "https://tech.speee.jp/entry/refosumu-dev-ops-up-project",
+      "summary": "SpeeeのプランナーがAI（Claude）と協働し小さなIssueを自ら実装。Gitミス対策や環境整備（コンポーネント規約・worktree・CLAUDE.md）で生産性約4倍、Issue作成時間95%削減、エンジニアは難所に集中可能に。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T02:30:00.000Z",
+      "contentHash": "d6195f9a9f9d"
+    },
+    {
+      "id": "08d51a4cf449",
+      "title": "Dify 三昧：【速報】Dify v1.11.0 リリース – ナレッジベースがマルチモーダルに対応 | DENET 技術ブログ",
+      "url": "https://blog.denet.co.jp/dify-021/",
+      "summary": "Dify v1.11.0公開。ナレッジベースがマルチモーダル対応となり、Markdown埋め込み画像を自動抽出してテキストと連携、画像/テキストの埋め込み検索が可能に。BedrockやVertex等対応。加えてZenモード、Workflowショートカット、Start NodeのJSON Schema、Admin APIのCSRFスキップ、UI/UX・性能改善やバグ修正を含む。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T02:15:16.000Z",
+      "contentHash": "9006c29d9a14"
+    },
+    {
+      "id": "f834b5e11b3c",
+      "title": "クラスタリングとcos類似度で表記揺れ辞書を作成してみる | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2025/12/11/111437",
+      "summary": "デリッシュキッチンで約1.7万語の検索語の表記揺れ辞書を作成。手順は①全語をひらがな化（漢字差異吸収）②OpenAIでベクトル化③k-means（k=5000）で粗クラスタ化④各クラスタ内でcos類似度（閾値0.9）でグルーピング。コードは非掲載。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T02:14:37.000Z",
+      "contentHash": "7fa2a2e547c1"
+    },
+    {
+      "id": "dd05e6b662f2",
+      "title": "[アドカレ2025] AmplifyとBedrockでAIクリスマスカードをKiroと共に作る | DENET 技術ブログ",
+      "url": "https://blog.denet.co.jp/adcale2025_ai-christmas-card/",
+      "summary": "AmplifyとAmazon BedrockでAIクリスマスカードをKiroと開発。Amplify（API Gateway/Lambda）経由でBedrockのNova Proが英語プロンプト生成、Nova Canvasが画像生成。背景文とスタイルを入力→生成→メッセージ追加→ダウンロード。コードはGitHub管理、公開は期間限定でリクエスト数制限あり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T02:00:41.000Z",
+      "contentHash": "744b7d549bc6"
+    },
+    {
+      "id": "95168d55b8f3",
+      "title": "Storybook風SlackApp UIのプレビューツール『slack-blockbook』を作ってみた！ | LayerXのフィード",
+      "url": "https://zenn.dev/layerx/articles/11368a2ad2b5d1",
+      "summary": "LayerXのエンジニアが、Storybook風Slack Block Kitプレビュー「slack-blockbook」を公開。jsx-slack/@slack/bolt向けで、実際のSlack起動やコピペ、条件分岐テストなどUI確認の手間を省くツールです。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T02:00:05.000Z",
+      "contentHash": "d261cebd84d5"
+    },
+    {
+      "id": "7d00113034a5",
+      "title": "文字を読むのが苦手な自分との付き合い方 | BASEプロダクトチームブログ",
+      "url": "https://devblog.thebase.in/entry/2025/12/11/110000",
+      "summary": "私は文字を読むのが苦手で、長いスクロールや時間を要する文章は読む気が失せる。対策として「全部は無理」と割り切り優先度を付け、朝に記事を開く、スマホで無理ならPCへ、Slackでリマインダー、毎日5分の読書、通勤時間活用、会議資料は事前確認。Todoアプリや速読、斜め読みは合わなかった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T02:00:00.000Z",
+      "contentHash": "142da9f5d414"
+    },
+    {
+      "id": "e7615df0e42b",
+      "title": "レガシー脱却の現場で進める設計再構築とAIレビューの実践 | DMM Developers Blog",
+      "url": "https://developersblog.dmm.com/entry/2025/12/11/110000",
+      "summary": "10年以上運用のレガシーをPHP8.4/Laravel12へ移行しつつ、設計文化を再構築。レイヤー責務やCQRS、設計判断の記録で共通言語を定め、設計標準をリポジトリ化してAIレビューと共存するレビュー文化とアーキ審議会で全体最適を目指した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T02:00:00.000Z",
+      "contentHash": "d28847ac2718"
+    },
+    {
+      "id": "328630111d86",
+      "title": "ビジネスロジックとは何か（Wikipedia／Clean Architecture／DDD の比較と、LINE アプリ開発現場での定義） | LINEヤフー Tech Blog (LY Corporation Tech Blog",
+      "url": "https://techblog.lycorp.co.jp/ja/20251211d",
+      "summary": "ビジネスロジックの定義が人によって異なり議論が噛み合わないため、WikipediaやClean Architecture、DDDを比較検討し、LINEアプリ開発チーム内で合意できる明確な定義を作成した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T02:00:00.000Z",
+      "contentHash": "34b19d886629"
+    },
     {
       "id": "f28e5a6a5ffc",
       "title": "Teams Phoneで通話キュー・自動応答の番号を使用して発信する | JBS Tech Blog",
@@ -167,10 +248,10 @@
       "id": "1513960f9162",
       "title": "Unityゲームを Reddit 投稿として動かす手順まとめ",
       "url": "https://note.com/npaka/n/n6588ee59287c",
-      "summary": "UnityゲームをReddit投稿として動かす手順を解説。Node.js・Unity6等を準備し、developers.reddit.comでDevvit Unityテンプレートを取得、セットアップ後にnpm run devで起動。srcにクライアント/サーバ/共有コード、BuildやTemplateData、splash画面が配置される。",
+      "summary": "DevvitのUnity QuickstartでUnity WebGLゲームをReddit投稿として動かす手順。Node.jsとUnityを準備し、developers.reddit.comでテンプレート生成→npm run devで起動。プロジェクトはsrc/client/server/sharedやBuildUnity等で構成。",
       "source": "npaka",
       "publishedAt": "2025-12-10T22:15:27.000Z",
-      "contentHash": "34e248c3a156"
+      "contentHash": "fb3a19952a4f"
     },
     {
       "id": "82e6217449e0",
@@ -257,10 +338,10 @@
       "id": "acb2382dd4b5",
       "title": "Apple Services Experiencing Outage",
       "url": "https://www.apple.com/support/systemstatus/",
-      "summary": "申し訳ありませんが、外部リンク先の内容には直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で要約します。内容が分からない場合は「Appleのシステム状況ページ」についての一般的な200字以内の要約を作成することも可能です。どちらがよいですか？",
+      "summary": "リンク先へ直接アクセスできないため、記事本文をここに貼ってください。いただければ200文字以内で日本語要約します。HNのコメントも要約希望ならそれも一緒に貼るか、その旨を教えてください。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T20:47:15.000Z",
-      "contentHash": "9d266017abf7"
+      "contentHash": "ec438b5a3c23"
     },
     {
       "id": "be7f29253e11",
@@ -353,13 +434,22 @@
       "contentHash": "23cecc79998a"
     },
     {
+      "id": "97a42f36c2eb",
+      "title": "Terrain Diffusion: A Diffusion-Based Successor to Perlin Noise",
+      "url": "https://arxiv.org/abs/2512.08309",
+      "summary": "Perlinノイズに代わる拡散モデル「Terrain Diffusion」を提案。InfiniteDiffusionで無限かつリアルタイムに地形を合成し、階層的拡散モデルで惑星規模と局所ディテールを両立。ラプラシアン符号化、無限テンソルフレームワーク、少ステップ蒸留により大規模一貫性と効率を実現。OSS公開。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-10T18:37:27.000Z",
+      "contentHash": "2ced1d443665"
+    },
+    {
       "id": "688d794d1a3c",
       "title": "Show HN: Automated license plate reader coverage in the USA",
       "url": "https://alpranalysis.com",
-      "summary": "Rustで作ったツールがOSMのALPRデータを解析し、住宅→施設の経路上にあるALPR（主にFlock）を県別に可視化。大規模な無差別収集で礼拝所や医療施設も撮影され、令状不要のデータ共有が第四修正上の問題を生むため撤去運動支援を目的としている。",
+      "summary": "Rustで作ったツールがOSMのALPR報告を解析し、住宅から施設への経路がFlock等の自動ナンバープレート撮影カメラに触れるかを県別に集計。大規模な無差別撮影とデータ共有がプライバシーや憲法問題を招き、撤去を求める運動支援を目指している。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T17:42:30.000Z",
-      "contentHash": "d4f70be30f46"
+      "contentHash": "0c347745e693"
     },
     {
       "id": "58994df31feb",
@@ -392,10 +482,10 @@
       "id": "6bc4501f6c03",
       "title": "Valve: HDMI Forum Continues to Block HDMI 2.1 for Linux",
       "url": "https://www.heise.de/en/news/Valve-HDMI-Forum-Continues-to-Block-HDMI-2-1-for-Linux-11107440.html",
-      "summary": "HDMIフォーラムがHDMI 2.1の重要仕様を会員限定のNDA下でしか公開しておらず、オープンソースのLinux開発者がFRLや可変リフレッシュ等を実装できないまま。Valveが問題提起しているが状況は改善されず、Steam Deckなどで2.1機能が利用できない事態が続いている。",
+      "summary": "ValveのSteam MachineはHDMI 2.1対応ハードを搭載するが、HDMI Forumが仕様を非公開にしているためオープンソースドライバが提供できずソフト的にHDMI 2.0に制限。AMDのLinux向け提案も却下され、Valveは解決を模索中。4K@120Hzは色差サブサンプリングで実現している。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T17:20:06.000Z",
-      "contentHash": "fc4502e0fd20"
+      "contentHash": "c82511773840"
     },
     {
       "id": "db9cc46c8e30",
@@ -455,10 +545,10 @@
       "id": "d00dd121a647",
       "title": "DeepSeek uses banned Nvidia chips for AI model, report says",
       "url": "https://finance.yahoo.com/news/china-deepseek-uses-banned-nvidia-131207746.html",
-      "summary": "The Information報道によると、中国AI企業DeepSeekは米の禁輸対象であるNvidiaのBlackwellチップを、海外データセンターに設置後分解して検査を通し密輸し新モデルを開発。米は販売禁止でNvidiaは裏付け否定。",
+      "summary": "報道によれば中国のAI企業DeepSeekは、米が販売禁止とするNvidiaのBlackwellチップを国外のデータセンター経由で分解・密輸してAIモデルを開発したとされる。DeepSeekは無回答、Nvidiaは裏付け確認できていないと述べた。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T16:34:52.000Z",
-      "contentHash": "7519486628f4"
+      "contentHash": "3c80b08ac12d"
     },
     {
       "id": "9894228a9a84",
@@ -2282,10 +2372,10 @@
       "id": "ab579275109a",
       "title": "Android Show: XR Edition 発表内容まとめ",
       "url": "https://note.com/npaka/n/na67cf3c4d5f5",
-      "summary": "2025年12月8日の「Android Show: XR Edition」で、Galaxy XR向けにPC Connect（β）、Travel Mode、表情反映のLikeness（β）などの新機能を発表。Samsungらと開発中のAIグラス（音声式と表示式）やXREALの有線「Project Aura」を公開し、Android XR SDK Developer Preview 3もリリース。",
+      "summary": "Android Show: XR Editionで、Galaxy XR向けにPC Connect（Beta）、Travel Mode、表情反映のLikeness（Beta）などの新機能を発表。Gentle Monster等と軽量AIグラスを来年発売予定、XREALの有線「Project Aura」公開、Android XR SDK Preview3もリリース。",
       "source": "npaka",
       "publishedAt": "2025-12-09T05:26:26.000Z",
-      "contentHash": "37963e86f792"
+      "contentHash": "af2bf543f353"
     },
     {
       "id": "4cdaee91d928",
@@ -8910,96 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-11-25T15:00:00.000Z",
       "contentHash": "dc46654d70f0"
-    },
-    {
-      "id": "6e01e9b927a3",
-      "title": "The geek&#8217;s guide to running faster",
-      "url": "https://www.theverge.com/podcast/828616/running-tech-gear-motion-smoothing-vergecast",
-      "summary": "Vergecastでは、テクノロジーと健全に付き合う方法を議論。フィットネスの「定量化された自分」は、生活を侵さない緩やかな活用と、あらゆるデータやコーチングを求める積極的活用という二つの姿勢があると指摘している。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T14:42:17.000Z",
-      "contentHash": "7532df3e7ccc"
-    },
-    {
-      "id": "978b4996cc29",
-      "title": "AI SDK と Workflow DevKit を眺め、Agent 抽象の行く末に思いを馳せる | LayerXのフィード",
-      "url": "https://zenn.dev/layerx/articles/ca93d8a80b05f1",
-      "summary": "LayerXのAIエージェント連載第52回。著者はPlatform Engineeringの@izumin5210。AI SDK 6 BetaのToolLoopAgentやAgentインタフェース、@workflow/aiのDurableAgentなど3つのエージェント概念の定義と実装を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T14:38:01.000Z",
-      "contentHash": "e99bb4fa23bf"
-    },
-    {
-      "id": "20649d023d17",
-      "title": "Launch HN: Onyx (YC W24) – Open-source chat UI",
-      "url": "https://news.ycombinator.com/item?id=46045987",
-      "summary": "Onyxは任意のLLM（商用・オープン）に対応し、RAG・ウェブ検索・メモリ等を備えたオープンソースのチャット。元は自己ホスト可の企業向け検索Danswerで、利用者の「安全で高品質なチャット」需要に応え、UX重視で3か月前にピボットしました。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T14:20:30.000Z",
-      "contentHash": "f5f53f4cef70"
-    },
-    {
-      "id": "f8c1c139228e",
-      "title": "APT Rust requirement raises questions",
-      "url": "https://lwn.net/SubscriberLink/1046841/5bbf1fc049a18947/",
-      "summary": "そのLWN記事は会員限定で直接参照できません。記事本文を貼るか要点を送ってください。いただければ200文字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T14:18:01.000Z",
-      "contentHash": "df53743c347a"
-    },
-    {
-      "id": "7e18f4af6103",
-      "title": "自動運転レースA2RLがかっこいい | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/8bb52a8082dddd",
-      "summary": "A2RL（Abu Dhabi Autonomous Racing League）は自動運転AIを搭載したスーパーフォーミュラ車両による無人レース。複数チームが同時走行で最速を競い、各国の大学研究室などが参戦、近年日本チームも参加しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T14:14:38.000Z",
-      "contentHash": "eee0a2170537"
-    },
-    {
-      "id": "711ebe859d4d",
-      "title": "One of our favorite Switch 2 controllers is 20 percent off right now",
-      "url": "https://www.theverge.com/gadgets/827225/8bitdo-ultimate-2-bluetooth-controller-black-friday-deal-sale-2025",
-      "summary": "8BitDoのUltimate 2がAmazonで$55.99に値下げ。Switch/Switch 2/Windows対応。TMRジョイスティック、Hallトリガー、振動、モーション、背面ボタン、ワイヤレス充電台付属。Bluetooth/2.4GHz/USB-C接続。FW更新で振ってSwitch 2を復帰可能。3.5mmジャックは非搭載。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T14:00:00.000Z",
-      "contentHash": "92ac8cc64abc"
-    },
-    {
-      "id": "ec59c97c8ed0",
-      "title": "Rian Johnson doesn&#8217;t have a plan for Knives Out",
-      "url": "https://www.theverge.com/report/827712/rian-johnson-interview-knives-out-wake-up-dead-man",
-      "summary": "『Knives Out』シリーズ3作目『Wake Up Dead Man』はこれまでと趣を変え、教会を舞台に信仰や神性を巡る暗い密室ミステリに。ニューイングランド屋敷やギリシャ島と変化を見せつつ、監督リアン・ジョンソンは構想ではなく本能に従って作品を作るという。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T14:00:00.000Z",
-      "contentHash": "91e65862a449"
-    },
-    {
-      "id": "400bf6a194a6",
-      "title": "Brain has five 'eras' with adult mode not starting until early 30s",
-      "url": "https://www.theguardian.com/science/2025/nov/25/brain-human-cognitive-development-life-stages-cambridge-study",
-      "summary": "ケンブリッジの大規模研究は、脳と認知機能の発達・老化が領域ごとに時期や速度を変え、個人差や環境の影響が大きいと示した。幼年・青年期の敏感期や生涯学習の重要性、政策的示唆を論じる。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T13:38:12.000Z",
-      "contentHash": "7a1be75bcdbc"
-    },
-    {
-      "id": "2f2cbfcc3580",
-      "title": "Aluminium OS will be Google’s take on Android for PC",
-      "url": "https://www.theverge.com/news/828595/google-aluminium-os-android-pc-chromeos-ai",
-      "summary": "Googleの新OS「Aluminium（ALOS）」が求人で判明。AIを核にしたAndroidベースで、ChromeOSとの統合と移行を目指し、ノートやタブレット等幅広い端末を来年投入予定。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T13:23:20.000Z",
-      "contentHash": "911c04be0523"
-    },
-    {
-      "id": "2bc005bc43cf",
-      "title": "Gemini 3 Pro＋Nano Banana ProでAWS構成図をどこまで読み書きできるか試してみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/gemini-3-pro-nano-banana-pro-aws-diagram",
-      "summary": "サーバーワークス椿山が、AWS re:Invent 2025を前に、11/21公開のGemini 3 Pro＋Nano Banana Proの話題を取り上げ、代表・大石のX投稿で注目された「霞ヶ関Gemini3」実験を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T13:17:40.000Z",
-      "contentHash": "1877ea2a8ecd"
     }
   ]
 }
