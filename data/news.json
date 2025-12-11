@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2025-12-10T23:28:25.163Z",
+  "generatedAt": "2025-12-11T01:28:13.654Z",
   "items": [
+    {
+      "id": "f28e5a6a5ffc",
+      "title": "Teams Phoneで通話キュー・自動応答の番号を使用して発信する | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2025/12/11/090057",
+      "summary": "「発信者番号通知ポリシー」を使うと、Teams Phoneの外線発信で通話キュー／自動応答に割り当てたリソースアカウントの番号をCaller IDにできます。管理センターでポリシーを作成し、ユーザー画面から個別に割り当てる必要があります。割当後は個人番号での発信はできず、リソースアカウントのみ有効。コールセンター等で番号を一元化できます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T00:00:57.000Z",
+      "contentHash": "a445a86e991e"
+    },
+    {
+      "id": "07cd5c4822c9",
+      "title": "WindowsのイベントログをGoogle SecOpsで収集してクエリしてみた | G-gen Tech Blog",
+      "url": "https://blog.g-gen.co.jp/entry/collect-windows-event-log-for-google-secops",
+      "summary": "Windows ServerのイベントログをOpenTelemetryベースのBindplaneで収集し、Google SecOps（旧Chronicle）へ送信して分析・検索する手順を解説。導入手順、通信要件（443許可）、コレクタのインストール方法とSecOpsでのクエリ例（国外からのログオン失敗抽出）を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T00:00:00.000Z",
+      "contentHash": "7b3faabbd540"
+    },
+    {
+      "id": "6a60bec1fcfe",
+      "title": "既存サイトのお知らせ機能をCMS化する方法を検討してみた：TiptapのJSON構造を活かすStrapi設計 | JCB Tech Blog",
+      "url": "https://tech.jcblab.jp/entry/2025/12/11/090000",
+      "summary": "既存のお知らせ更新を開発依存から脱却するため、ビジネス側で投稿可能なCMS導入を検討。Strapi＋Tiptapで、TiptapのJSONをDynamic Zonesの独自JSONコンポーネントに保存し、既存管理画面に投稿UIを自作して操作性と安全性を確保する技術検証を行った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T00:00:00.000Z",
+      "contentHash": "1cdb11528119"
+    },
+    {
+      "id": "c86febdf15ba",
+      "title": "ReactHooksとインスタンス更新の注意点 | KENTEM TechBlog",
+      "url": "https://tech.kentem.jp/entry/2025/12/11/090000",
+      "summary": "Reactでクラスのインスタンス内部を更新しても参照が変わらないため、useCallbackやuseStateが更新を検知せず古い計算基準が使われる問題に遭遇。解決策はuseRefでインスタンスを保持しref.currentを参照して最新値を使うこと。参照による更新判断の理解が重要だと学んだ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T00:00:00.000Z",
+      "contentHash": "bd740da66f40"
+    },
+    {
+      "id": "c7cf11758f4a",
+      "title": "放置されたリソースをゼロへ！Cloud Asset Inventoryで進めるGoogle Cloud資産整理実践 | ENGINEERING BLOG ドコモ開発者ブログ",
+      "url": "https://nttdocomo-developers.jp/entry/2025/12/11/090000_3",
+      "summary": "NTTドコモDP部が増加するGoogle Cloud資産をCloud Asset Inventoryで可視化・棚卸。所有者不明やコスト・セキュリティ・監査リスクを抑えるため、全リソースにLabel/Descriptionを付与し差分監視と継続的インベントリで管理強化した事例。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T00:00:00.000Z",
+      "contentHash": "90cd0693b14d"
+    },
+    {
+      "id": "e0f98d32f504",
+      "title": "Streamlit開発の「あるある」な悩みを根本解決！保守性を劇的に上げる型安全設計の奥義2選 | ENGINEERING BLOG ドコモ開発者ブログ",
+      "url": "https://nttdocomo-developers.jp/entry/2025/12/11/090000_2",
+      "summary": "NTTドコモDP部がStreamlitアプリの拡大で生じるst.session_stateのキー誤りやUIとロジックの混在など保守性の問題を解決するため、型安全な設計パターンSessionStateProxyとComponentProtocolを提案します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T00:00:00.000Z",
+      "contentHash": "a3ecf9522515"
+    },
+    {
+      "id": "6a464f5513ad",
+      "title": "技術がお金になっているか？─時間あたり採算で考えるエンジニアリングの価値─ | ENGINEERING BLOG ドコモ開発者ブログ",
+      "url": "https://nttdocomo-developers.jp/entry/2025/12/11/090000_1",
+      "summary": "エンジニアは自分の技術が時間あたりどれだけ利益に貢献するかを意識し、月間削減時間や将来コスト低減などを数値化して伝えるべきだ。短時間で完了した高度な作業は見えづらく評価されないため、価値換算を会議や評価に反映させることが重要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T00:00:00.000Z",
+      "contentHash": "7108eccd4400"
+    },
+    {
+      "id": "64825b01b0bc",
+      "title": "スタディプラス主催イベント「基礎から振り返る Kaigi on Rails 2025」を開催しました！ | Studyplus Engineering Blog",
+      "url": "https://tech.studyplus.co.jp/entry/2025/12/11/090000",
+      "summary": "スタディプラスが「基礎から振り返る Kaigi on Rails 2025」事後勉強会を約20名で開催。新卒の田嶋が運営し社内外計5名が登壇。今後も勉強会・カンファレンス参加や採用を強化し、noteやPodcastで情報発信します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T00:00:00.000Z",
+      "contentHash": "45ec886f600c"
+    },
+    {
+      "id": "61d6aa9f8bb0",
+      "title": "AWS CodeBuild + Docker Serverによるキャッシュ永続化の恩恵と運用の課題 | TVer Tech Blog",
+      "url": "https://techblog.tver.co.jp/entry/codebuild-dockerserver",
+      "summary": "TVerがAWS CodeBuildのDocker Serverでキャッシュ永続化を試し、ビルド時間を約49%短縮したが、並列負荷下で通信エラーや長時間失敗が頻発し、信頼性と監視の課題から採用を見送った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T00:00:00.000Z",
+      "contentHash": "49e8fde961a4"
+    },
+    {
+      "id": "dbab9aecbd4d",
+      "title": "プロダクトチーム全員でAIエージェント縛りの開発を一週間試しました | newmo 技術ブログ",
+      "url": "https://tech.newmo.me/entry/2025/12/11/090000",
+      "summary": "newmoのプロダクトチームが1週間、Claude CodeとDevin限定で開発トライアルを実施。全員参加でオンボーディングやCLAUDE.mdテンプレを用意し、Slack/Notionで支援。生産性・品質・適性の検証とスキル格差是正が狙いで、終了後は日常的利用意向が大幅に上昇するなど有益な知見を得た。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T00:00:00.000Z",
+      "contentHash": "fbaf35ffb13e"
+    },
+    {
+      "id": "c1d00087d76e",
+      "title": "Donald Trump reminds the entire world he has no idea what 6G means",
+      "url": "https://www.theverge.com/policy/842087/trump-does-not-understand-6g-5g",
+      "summary": "トランプ氏が生放送で6Gを画質や「肌の詳細」を見るものと誤解した発言をし、Qualcomm CEOの前でも訂正されなかった。記事は6Gが次世代の移動通信技術であり、8Kが映像解像度だと説明している。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-10T23:37:26.000Z",
+      "contentHash": "48d3e1b72262"
+    },
+    {
+      "id": "31170ec6c9d3",
+      "title": "Trump could introduce ‘mandatory’ social media reviews for travelers",
+      "url": "https://www.theverge.com/news/842129/trump-admin-us-cbp-social-media-history-travelers",
+      "summary": "トランプ政権が米税関・国境警備局の提案で、ESTA申請に過去5年分のソーシャルメディアアカウント提出を義務化へ。対象は豪・仏・英・日などビザ免除42カ国。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-10T23:21:05.000Z",
+      "contentHash": "50ac10539bcb"
+    },
+    {
+      "id": "fbd9a28c3708",
+      "title": "Gemini 2.5 Flash ・ Pro TTS のアップデート - 2025年12月10日",
+      "url": "https://note.com/npaka/n/ncaf66f76770d",
+      "summary": "「Gemini 2.5 Flash／Pro TTS」プレビューが強化。表現力とスタイル指示への忠実性、状況に応じたペース調整、複数話者の音声一貫性が向上し、24言語対応。Flashは低遅延、Proは高品質でGemini APIから利用可能。",
+      "source": "npaka",
+      "publishedAt": "2025-12-10T23:17:00.000Z",
+      "contentHash": "cdd1b66ba5c3"
+    },
     {
       "id": "61a85cfbb5d3",
       "title": "個人の「行動」を組織の「学び」に変える。インプロセスQAチームの共有会設計 | atama plus techblogのフィード",
@@ -50,10 +167,10 @@
       "id": "1513960f9162",
       "title": "Unityゲームを Reddit 投稿として動かす手順まとめ",
       "url": "https://note.com/npaka/n/n6588ee59287c",
-      "summary": "UnityゲームをReddit投稿として動かす手順を紹介。必要環境はNode.js（22.2+）、Unity6など。developers.reddit.comでUnityテンプレを作成し、cd my-app→npm run devで起動。src/client/server/sharedやdevvit.json、Build/TemplateData、splash画面などの構成と役割も解説。",
+      "summary": "UnityゲームをReddit投稿として動かす手順を解説。Node.js・Unity6等を準備し、developers.reddit.comでDevvit Unityテンプレートを取得、セットアップ後にnpm run devで起動。srcにクライアント/サーバ/共有コード、BuildやTemplateData、splash画面が配置される。",
       "source": "npaka",
       "publishedAt": "2025-12-10T22:15:27.000Z",
-      "contentHash": "3adc915f61d2"
+      "contentHash": "34e248c3a156"
     },
     {
       "id": "82e6217449e0",
@@ -137,6 +254,15 @@
       "contentHash": "2ccff77fd755"
     },
     {
+      "id": "acb2382dd4b5",
+      "title": "Apple Services Experiencing Outage",
+      "url": "https://www.apple.com/support/systemstatus/",
+      "summary": "申し訳ありませんが、外部リンク先の内容には直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で要約します。内容が分からない場合は「Appleのシステム状況ページ」についての一般的な200字以内の要約を作成することも可能です。どちらがよいですか？",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-10T20:47:15.000Z",
+      "contentHash": "9d266017abf7"
+    },
+    {
       "id": "be7f29253e11",
       "title": "The best smart rings for tracking sleep and health",
       "url": "https://www.theverge.com/tech/647901/best-smart-rings",
@@ -144,6 +270,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-10T20:29:50.000Z",
       "contentHash": "a9fca556bfd7"
+    },
+    {
+      "id": "42776d57ecf5",
+      "title": "Getting a Gemini API key is an exercise in frustration",
+      "url": "https://ankursethi.com/blog/gemini-api-key-frustration/",
+      "summary": "ReactプロジェクトでGemini 3 Proを試そうとしたが、APIキーや有料プランの取得が非常に煩雑で挫折。Geminiはチャット、アプリ、CLIなど製品が多く名称が混在し、既存CLIは2.5でレート制限があった。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-10T20:29:12.000Z",
+      "contentHash": "565986a03d74"
     },
     {
       "id": "a742374b477e",
@@ -218,6 +353,15 @@
       "contentHash": "23cecc79998a"
     },
     {
+      "id": "688d794d1a3c",
+      "title": "Show HN: Automated license plate reader coverage in the USA",
+      "url": "https://alpranalysis.com",
+      "summary": "Rustで作ったツールがOSMのALPRデータを解析し、住宅→施設の経路上にあるALPR（主にFlock）を県別に可視化。大規模な無差別収集で礼拝所や医療施設も撮影され、令状不要のデータ共有が第四修正上の問題を生むため撤去運動支援を目的としている。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-10T17:42:30.000Z",
+      "contentHash": "d4f70be30f46"
+    },
+    {
       "id": "58994df31feb",
       "title": "Is it a bubble?",
       "url": "https://www.oaktreecapital.com/insights/memo/is-it-a-bubble",
@@ -248,10 +392,10 @@
       "id": "6bc4501f6c03",
       "title": "Valve: HDMI Forum Continues to Block HDMI 2.1 for Linux",
       "url": "https://www.heise.de/en/news/Valve-HDMI-Forum-Continues-to-Block-HDMI-2-1-for-Linux-11107440.html",
-      "summary": "HDMIフォーラムがHDMI 2.1仕様を非公開にしているため、ValveとAMDはLinux向けオープンソースドライバを出せず、Steam Machineはハード的に2.1対応でもソフト上は2.0に制限。4Kで120/144Hzは圧縮や色度サブサンプリングが必要で画質に影響し、VRRはFreeSyncで動作。",
+      "summary": "HDMIフォーラムがHDMI 2.1の重要仕様を会員限定のNDA下でしか公開しておらず、オープンソースのLinux開発者がFRLや可変リフレッシュ等を実装できないまま。Valveが問題提起しているが状況は改善されず、Steam Deckなどで2.1機能が利用できない事態が続いている。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T17:20:06.000Z",
-      "contentHash": "c82511773840"
+      "contentHash": "fc4502e0fd20"
     },
     {
       "id": "db9cc46c8e30",
@@ -311,10 +455,10 @@
       "id": "d00dd121a647",
       "title": "DeepSeek uses banned Nvidia chips for AI model, report says",
       "url": "https://finance.yahoo.com/news/china-deepseek-uses-banned-nvidia-131207746.html",
-      "summary": "The Informationの報道によれば、中国AI企業DeepSeekは米が対中販売を禁止するNvidiaのBlackwellチップを、販売許可国のデータセンターに設置後分解して密輸・利用していたとされる。米の禁輸措置下での迂回や摘発事例が相次ぐ中、Nvidiaは報道の裏付けを確認していないと述べている。",
+      "summary": "The Information報道によると、中国AI企業DeepSeekは米の禁輸対象であるNvidiaのBlackwellチップを、海外データセンターに設置後分解して検査を通し密輸し新モデルを開発。米は販売禁止でNvidiaは裏付け否定。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T16:34:52.000Z",
-      "contentHash": "3c80b08ac12d"
+      "contentHash": "7519486628f4"
     },
     {
       "id": "9894228a9a84",
@@ -338,10 +482,10 @@
       "id": "0868c42cc3e9",
       "title": "Qwen3-Omni-Flash-2025-12-01：a next-generation native multimodal large model",
       "url": "https://qwen.ai/blog?id=qwen3-omni-flash-20251201",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できないため記事本文を取得できません。記事本文か主要部分をここに貼っていただければ、200文字以内で日本語要約を作成します。コメント欄の要約も必要ならその部分も貼ってください。",
+      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文か主要部分をここに貼っていただければ、200文字以内で日本語に要約します。Hacker Newsのコメントも貼っていただければそれを反映できます。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T16:13:38.000Z",
-      "contentHash": "6c66c6ef528e"
+      "contentHash": "609a44d20355"
     },
     {
       "id": "d7534da97d19",
@@ -3452,10 +3596,10 @@
       "id": "df5927f735cd",
       "title": "demucs による音源分類を試す",
       "url": "https://note.com/npaka/n/neaef4a26ccd2",
-      "summary": "音源分離ツール「demucs」をMacのPython仮想環境で試用。condaでPython3.11環境を作り、torch/torchaudioやdemucsをpipで導入後、demucs test_audio.m4aを実行すると vocals/drums/base/other のwavファイルが /separated/htdemucs 以下に出力される。",
+      "summary": "オープンソースの音源分離AI「demucs」をMacのPython仮想環境で試した手順。condaでPython3.11環境を作り、指定のtorch/torchaudio、demucs、numpy<2を導入し、demucs test_audio.m4aでボーカル／ドラム／ベース／その他のwavが出力される。",
       "source": "npaka",
       "publishedAt": "2025-12-08T03:18:18.000Z",
-      "contentHash": "949ce21c8130"
+      "contentHash": "aa067d0786d0"
     },
     {
       "id": "f37c86709c50",
@@ -8856,150 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-25T13:17:40.000Z",
       "contentHash": "1877ea2a8ecd"
-    },
-    {
-      "id": "1ffc7ef4ae40",
-      "title": "Car influencers love Chinese EVs — and China loves them back",
-      "url": "https://www.theverge.com/transportation/828155/car-influencer-china-ev-youtube-influencer-pay-play",
-      "summary": "2015年に海外で借りた中国製ガソリンSUVに酷評した自動車系インフルエンサー、オマー・ラナは約10年後、DCar Studioからロサンゼルスで中国製EVを試す招待を受けた。彼はYouTube9万人・Instagram28万人のフォロワーを持つ。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T13:00:00.000Z",
-      "contentHash": "e5673338cabf"
-    },
-    {
-      "id": "8c9579406c0c",
-      "title": "Huawei Mate 80 Pro Max has the world’s brightest phone screen",
-      "url": "https://www.theverge.com/news/828543/huawei-mate-80-pro-max-dual-layer-oled-display-8000-nits",
-      "summary": "ファーウェイが中国でMate 80シリーズを発表。最上位のMate 80 Pro MaxはデュアルレイヤーOLEDで最大8,000ニット（条件付き）を謳う。フラット画面、Kirin搭載、最大20GB RAM、デュアルペリスコープカメラと望遠エクステンダー対応。新型折りたたみMate X7はIP59防塵、Pro Maxのバッテリーは最大6,000mAh。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T12:21:49.000Z",
-      "contentHash": "93859c11efc8"
-    },
-    {
-      "id": "84d1c3f91617",
-      "title": "Trillions spent and big software projects are still failing",
-      "url": "https://spectrum.ieee.org/it-management-software-failures",
-      "summary": "外部リンクに直接アクセスできません。記事本文を貼るか要点を教えてください。本文をいただければ200字以内で要約します。HNコメントの要約もできます。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T12:14:11.000Z",
-      "contentHash": "dd51a235af9d"
-    },
-    {
-      "id": "775825e6747d",
-      "title": "Making Crash Bandicoot (2011)",
-      "url": "https://all-things-andy-gavin.com/video-games/making-crash/",
-      "summary": "Naughty DogのAndy Gavinが初代『クラッシュ・バンディクー』制作の舞台裏を回顧。小規模チームがPS1の制約を独自エンジン・ツール、レベルストリーミング、キャラ設計で克服し、スケジュールや出版社との軋轢を乗り越えヒットに至る技術的・制作的過程を詳述。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T12:05:39.000Z",
-      "contentHash": "cf8588f0a08b"
-    },
-    {
-      "id": "95ba554d78e9",
-      "title": "You won’t want to hide Ikea’s colorful new Bluetooth speakers",
-      "url": "https://www.theverge.com/news/827516/ikea-bluetooth-speaker-solskydd-kulglass-lamp-spotify-tap",
-      "summary": "イケアは来月、ブルートゥーススピーカー2種を発売。もう一種のKulglassも含む。デザイナー協働のソルスキュッドは托盤風の丸型で8/11/18インチの3サイズ（最小は充電式で最長25時間再生）、壁掛けやスタンド対応、EQ搭載し音とインテリアを両立。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T12:00:00.000Z",
-      "contentHash": "217b19fe0c40"
-    },
-    {
-      "id": "4e23586e402b",
-      "title": "Large language mistake",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/827820/large-language-models-ai-intelligence-neuroscience-problems",
-      "summary": "ザッカーバーグやサム・アルトマン、ダリオ・アモデイらは、汎用・超知能AIの実現が目前で、2026年ごろにはノーベル級より賢くなり得て、寿命延長や死の回避、科学発見の大幅加速をもたらすと主張している（The Verge）。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T12:00:00.000Z",
-      "contentHash": "b3ce127cc1df"
-    },
-    {
-      "id": "d5537fbcae59",
-      "title": "Our approach to mental health-related litigation",
-      "url": "https://openai.com/index/mental-health-litigation-approach",
-      "summary": "精神保健関連の訴訟対応方針を公表。敏感な案件を配慮・透明性・敬意をもって扱い、ChatGPTの安全性と支援機能をさらに強化する。",
-      "source": "OpenAI",
-      "publishedAt": "2025-11-25T12:00:00.000Z",
-      "contentHash": "3c83e48a190b"
-    },
-    {
-      "id": "a82aacbc594e",
-      "title": "アーキテクトカンファレンス2025 参加報告 | SMARTCAMP Engineer Blogのフィード",
-      "url": "https://zenn.dev/smartcamp/articles/5397bc2aad2496",
-      "summary": "アーキテクトカンファレンス2025（11/21）参加レポ。セキュリティ、SRE、データ基盤、レジリエンスなど普段触れない分野が刺激的で、生成AI時代のOSS依存やコード生成リスクなど新たな脅威が印象に残った。新卒1年目の学びを簡潔にまとめる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T11:06:36.000Z",
-      "contentHash": "59a22e4352d6"
-    },
-    {
-      "id": "177f2c566569",
-      "title": "Post-hoc Rationalization: LLMの推論は「言い訳」か？ | TECH BLOG | 株式会社AI Shift",
-      "url": "https://www.ai-shift.co.jp/techblog/6406",
-      "summary": "AIチームの戸田が、DeepSeek-R1などで見られる「アハ体験」を例に、LLMの推論が本当に思考しているのか、あるいは事後的に理由を付ける「post-hoc rationalization（言い訳）」にすぎない可能性を検討し、その現象と影響を解説する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T09:58:06.000Z",
-      "contentHash": "8f2b1e9748e4"
-    },
-    {
-      "id": "fd1817b7156f",
-      "title": "会社の色の出る技術同人誌を作る | GO Tech Blog",
-      "url": "https://techblog.goinc.jp/entry/2025/11/25/183701",
-      "summary": "AI技術開発3グループの森下です。有志で技術同人誌を制作し、技術書典にサークル参加して頒布した書籍の内容と制作過程を紹介します。技術書典は年2回開催の国内最大級技術同人誌即売会で、オンラインとオフライン併催、300超サークル・会場約3,000人が参加します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T09:37:01.000Z",
-      "contentHash": "1079cf770a50"
-    },
-    {
-      "id": "103e607e4e58",
-      "title": "Sorami & Heniheni’s Chill AI Lab",
-      "url": "https://note.com/npaka/n/n30cb250a2882",
-      "summary": "最新のAIニュースを気楽に届ける情報源、という紹介文です。",
-      "source": "npaka",
-      "publishedAt": "2025-11-25T09:30:34.000Z",
-      "contentHash": "fc832f073529"
-    },
-    {
-      "id": "806248109cea",
-      "title": "Oracle AI Database 26ai（旧23ai）とは？23cとの違い・特徴・メリットを解説 | スマートスタイル TECH BLOG",
-      "url": "https://blog.s-style.co.jp/2025/11/14933/",
-      "summary": "Oracle Database 23aiはOracle Database 23c（23.4系）を基盤としたAI重視の新世代。AI Vector SearchやRAGなど生成AI対応機能を備え、データベース上でのAIワークロード処理と活用を強化する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T09:30:17.000Z",
-      "contentHash": "d7327ca66f0c"
-    },
-    {
-      "id": "5bcdf3257201",
-      "title": "「Antigravity」使い方入門｜Google発の最新AIモデルも使える統合開発環境（IDE） | 株式会社マインディア テックブログのフィード",
-      "url": "https://zenn.dev/minedia/articles/cc718542d8cc73",
-      "summary": "AntigravityはAI搭載IDEではなく、複数のAIエージェントを管理するプラットフォーム。革新的なエージェントマネージャーUIで「タスク委譲」型の開発体験を提供し、非エンジニアでも指示だけでフルスタックのプロトタイプを高速作成できる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T08:52:33.000Z",
-      "contentHash": "e79796f9a83d"
-    },
-    {
-      "id": "58d81a91c712",
-      "title": "SlackとAsanaの連携で「タスクの見落とし」を防ぎ、業務の流れをスムーズに！ | CloudNative Inc. BLOGs",
-      "url": "https://blog.cloudnative.co.jp/29314/",
-      "summary": "チームでツールが多すぎて使いこなせない悩みを扱う記事。著者も同じ問題を経験し、社内で多数のツールに戸惑っていた経緯を紹介している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T08:48:11.000Z",
-      "contentHash": "b6040fcf5dce"
-    },
-    {
-      "id": "882742237f89",
-      "title": "Nano Banana Pro で漫画の英訳を試す",
-      "url": "https://note.com/npaka/n/na85c67d31fe1",
-      "summary": "元記事全文を貼っていただけますか？全文があれば200文字以内で正確に要約します。  \n（仮要約）Nano Banana Proを使って漫画の英訳を試行した結果を、手順、翻訳精度、課題、改善点とともにまとめた報告。",
-      "source": "npaka",
-      "publishedAt": "2025-11-25T08:39:38.000Z",
-      "contentHash": "fd865a5776c8"
-    },
-    {
-      "id": "dc9c8b74d59c",
-      "title": "Web動画のファイルサイズをAV1コーデックで効果的に縮小する方法: 2025年度版（翻訳） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2025_11_25/150709",
-      "summary": "Andrey Sitnik（Evil Martians）がAV1コーデックを用いて2025年のウェブ動画のファイルサイズを大幅に削減する方法を解説した記事を、許諾を得て翻訳・TechRachoで公開。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T08:30:14.000Z",
-      "contentHash": "6b6adfbd69fe"
     }
   ]
 }
