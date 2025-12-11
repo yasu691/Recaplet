@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2025-12-11T13:50:11.279Z",
+  "generatedAt": "2025-12-11T14:34:11.532Z",
   "items": [
+    {
+      "id": "03f1caae60de",
+      "title": "Generate a digital version of yourself to virtually try on clothes",
+      "url": "https://blog.google/products/shopping/studio-quality-digital-try-on/",
+      "summary": "Google ShoppingはセルフィーからGemini 2.5「Nano Banana」が全身画像を生成するバーチャル試着を導入。サイズを選んで複数のスタジオ風画像から試着写真を選べ、従来の全身写真や多様なモデルも利用可能。",
+      "source": "Gemini",
+      "publishedAt": "2025-12-11T14:00:00.000Z",
+      "contentHash": "22c6d5f4384c"
+    },
     {
       "id": "e772fdbbc2b6",
       "title": "The Game Awards are losing their luster",
@@ -59,10 +68,10 @@
       "id": "37b06cf9172d",
       "title": "BigQueryのSQLいろいろ (5) NULL・その他の型 | Wantedly Engineer Blog",
       "url": "https://www.wantedly.com/companies/wantedly/post_articles/1020804",
-      "summary": "BigQueryのSQL挙動を、ドキュメント参照と実験で解き明かす連載の第5回。実際の挙動検証や解析結果を紹介する記事です。",
+      "summary": "WebページのCSS定義。コンテナやメイン領域の余白・幅設定、flexによる中央揃え、ボタン（角丸・透明背景・遷移効果）やヘッダーナビ（フォント・サイズ・色・ホバー効果）などのスタイルを指定しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-11T10:00:11.000Z",
-      "contentHash": "325fad0558e5"
+      "contentHash": "f1f242946878"
     },
     {
       "id": "b971f61f6082",
@@ -284,10 +293,10 @@
       "id": "c308764f76db",
       "title": "ChatGPT からの Photoshop を試す",
       "url": "https://note.com/npaka/n/n884da273286c",
-      "summary": "ChatGPTから利用できる「Adobe Photoshop for ChatGPT」を試用。選択・明るさなどの調整・エフェクト・背景ぼかし・削除・元に戻すに対応。手順は@adobeでPhotoshop選択→画像追加→「背景を透過して」送信→接続許可→確認・ダウンロード。",
+      "summary": "ChatGPT内で使える「Adobe Photoshop for ChatGPT」を試用。選択・調整・エフェクト・背景ぼかし/削除・元に戻す等をサポート。使い方は@adobeでPhotoshop選択→画像追加＋「背景を透過して」送信→接続許可→結果を確認・ダウンロード。",
       "source": "npaka",
       "publishedAt": "2025-12-11T06:04:12.000Z",
-      "contentHash": "8e2340fce91c"
+      "contentHash": "03d0002e514b"
     },
     {
       "id": "ba511f64a3e7",
@@ -659,6 +668,15 @@
       "contentHash": "fbaf35ffb13e"
     },
     {
+      "id": "792a066e22a1",
+      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+      "url": "https://openai.com/index/disney-sora-agreement",
+      "summary": "ディズニーとOpenAIが提携し、200以上のディズニー／マーベル／ピクサー／スター・ウォーズのキャラクターをファン投稿向け短尺動画プラットフォームSoraで提供。エンタメ領域での責任あるAI利用を掲げ、社内でChatGPT EnterpriseとOpenAI APIを導入する。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-11T00:00:00.000Z",
+      "contentHash": "7b22b710dd1f"
+    },
+    {
       "id": "c1d00087d76e",
       "title": "Donald Trump reminds the entire world he has no idea what 6G means",
       "url": "https://www.theverge.com/policy/842087/trump-does-not-understand-6g-5g",
@@ -794,6 +812,15 @@
       "contentHash": "534bf005eff9"
     },
     {
+      "id": "c33d0c34d10d",
+      "title": "When would you ever want bubblesort? (2023)",
+      "url": "https://buttondown.com/hillelwayne/archive/when-would-you-ever-want-bubblesort/",
+      "summary": "「バブルソートは使うな」は准普遍的原則だが例外がある。小さい配列では理論上高速でハイブリッド化に有用。実務では挿入ソートが主流だが、特定ハード（NVIDIAの研究）やゲーム開発では各ステップが高速・中断可能で、各交換が配列を逐次整える特性が利点となる。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-10T21:45:11.000Z",
+      "contentHash": "f295acbce453"
+    },
+    {
       "id": "816967ce10b2",
       "title": "Operation Bluebird wants to reclaim Twitter’s ‘abandoned’ trademarks for a new social network",
       "url": "https://www.theverge.com/report/841994/operation-bluebird-twitter-trademarks-petition",
@@ -887,10 +914,10 @@
       "id": "1736d9cca380",
       "title": "The future of Terraform CDK",
       "url": "https://github.com/hashicorp/terraform-cdk",
-      "summary": "HashiCorpはTerraform CDK（CDKTF）を2025年12月10日にサンセット（アーカイブ）し以後は保守・開発を行わない。GitHubは読み取り専用でコードは残るが更新なし。MPL下でフォークは可能。移行は「cdktf synth --hcl」でHCL（.tf）を生成して標準Terraformへ移行、AWS統合ならAWS CDK移行も検討を推奨。",
+      "summary": "HashiCorpがTerraform CDKを公開。TypeScript/Python等の言語でリソースを定義してtf.jsonを生成し既存のプロバイダとTerraform CLIで実行する仕組み。HNでは言語で書ける利便性を歓迎する声と、抽象化による可視性低下やデバッグ・運用の複雑化を懸念する意見が混在している。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T19:14:03.000Z",
-      "contentHash": "4b367e0ac408"
+      "contentHash": "cfbd5ab4c5e5"
     },
     {
       "id": "6f9202266882",
@@ -3506,10 +3533,10 @@
       "id": "c20351035a22",
       "title": "A Googler explains how to “meta prompt” for incredible Veo videos",
       "url": "https://blog.google/products/gemini/meta-prompting-veo-gemini-tips/",
-      "summary": "Google DeepMindのUXエンジニア、Anna BortsovaはGeminiに“メタプロンプト”を作らせ、詳細な指示でVeo向けの驚くべき映像を生成。工学と美術の知見を活かし社内でAIデモを共有している。",
+      "summary": "Google DeepMindのUXエンジニアAnna Bortsovaは、Geminiに場面ごとの詳細プロンプトを作らせる「メタプロンプト」でVeo動画を高品質化。タスクや形式・スタイル・制約を明示する手法を紹介。",
       "source": "Gemini",
       "publishedAt": "2025-12-08T17:00:00.000Z",
-      "contentHash": "5a676e0164b8"
+      "contentHash": "67a0297d065b"
     },
     {
       "id": "9614e4e384da",
@@ -8973,33 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-26T02:10:18.000Z",
       "contentHash": "009f5287e1a2"
-    },
-    {
-      "id": "af4fe6ad5d99",
-      "title": "ナレッジマネジメント（知識管理・知識経営）とは?　4つのメリットと導入ステップを徹底解説 | 株式会社モンスターラボ",
-      "url": "https://monstar-lab.com/dx/solution/about-knowledge-management/",
-      "summary": "ナレッジマネジメントは、社員の知識やノウハウを組織で共有・活用する経営手法。終身雇用の崩壊や働き方多様化で知識継承が難しくなり、VUCA時代に備えるための利点と導入ステップを解説する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-26T01:40:47.000Z",
-      "contentHash": "b805c92695b2"
-    },
-    {
-      "id": "94bb57ec84a8",
-      "title": "Slackワークフローの遅延機能とDevinを活用した時間差のサーバーリソース調査 | レスキューナウテックブログのフィード",
-      "url": "https://zenn.dev/rescuenow/articles/f48e3221cdbb4b",
-      "summary": "地震等の通知で数分〜数十分後にアクセスが集中するため、通知直後のDevin起動はタイミングが合わなかった。Slackワークフローの遅延機能で通知後に一定時間待ってからDevinを起動する仕組みを実装した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-26T01:16:39.000Z",
-      "contentHash": "f90bbd4cc244"
-    },
-    {
-      "id": "8a68e069b4c9",
-      "title": "Vue Fes Japan 2025参加レポート | クラウドワークス エンジニアブログ",
-      "url": "https://engineer.crowdworks.jp/entry/2025/11/26/101543",
-      "summary": "10月25日、エンジニアの倉野・木村とデザイナーksmが日本最大級のVue.jsカンファレンス「Vue Fes Japan 2025」に参加しました。2018年開始の学びと楽しみの場で、2024年は約750名参加。今回は日本語セッションの英語翻訳など国際化の取り組みが行われました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-26T01:15:43.000Z",
-      "contentHash": "c6ec3fcfb457"
     }
   ]
 }
