@@ -1,14 +1,95 @@
 {
-  "generatedAt": "2025-12-11T06:39:37.726Z",
+  "generatedAt": "2025-12-11T07:36:07.467Z",
   "items": [
+    {
+      "id": "acdd6bbd1f7a",
+      "title": "OCR × LLM。明細表を読み解く新しい一段 | RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20251211/aiocr",
+      "summary": "請求書明細のOCR後に画像対応LLM（gpt-4.1）を後処理で追加し、行列ズレ・分割結合・誤認文字をCSVで補正する検証を実施。165件中38件で精度向上を確認。追加コスト0.4–0.6円/件、処理遅延1–5秒。ルール保守軽減に有効だがコスト・速度が課題。座標対応や高性能モデル導入を今後検討。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T06:30:00.000Z",
+      "contentHash": "9cf7337fd7da"
+    },
+    {
+      "id": "11a21061863b",
+      "title": "そう言えばTiDB Cloudを検証していた話 | Hatena Developer Blog",
+      "url": "https://developer.hatenastaff.com/entry/2025/12/11/152842",
+      "summary": "はてなのGigaViewerでTiDB Cloudを検証。MySQL互換かつフルマネージドで既存プレビュー環境と負荷試験資産を流用。互換性は高く、ノード追加で性能向上、スループットはAuroraと同等〜やや上。運用上の留意点も確認。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T06:28:42.000Z",
+      "contentHash": "5e4c5edb6923"
+    },
+    {
+      "id": "2490d5ec7121",
+      "title": "適切にQuotaを管理して、サービスをリリースする | Google Cloud Japanのフィード",
+      "url": "https://zenn.dev/google_cloud_jp/articles/82871f842ca8aa",
+      "summary": "Google Cloudでのリリース前に負荷試験とQuota管理を必須とする重要性を解説。段階的な負荷試験やJMeter/K6/Locust等による分散テスト、Quotaの事前確認や本番影響回避を推奨。GKEではHPAやCluster AutoscalerがQuota不足でノード追加に失敗する典型的な落とし穴に注意。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T06:27:16.000Z",
+      "contentHash": "c263a5acaaa2"
+    },
+    {
+      "id": "613aa2eb12f5",
+      "title": "自動E2Eリグレッションテストのレポート、通知の具体例のご紹介 | Akatsuki Hackers Lab | 株式会社アカツキ（Akatsuki Inc.)",
+      "url": "https://hackerslab.aktsk.jp/2025/12/11/152301",
+      "summary": "アカツキの自動E2Eリグレッション運用を紹介。Airtestレポートをカスタムし（バイナリ/Git/AVD/マシン/サーバ/ユーザ/シナリオ/Jenkins等記載）、Slackで実行ごと通知とS3/Athenaで集計する日次通知を実施。今後はlogcat添付やスクリーンショット、HTMLでのグラフ化を検討。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T06:23:01.000Z",
+      "contentHash": "8abfa2c03422"
+    },
+    {
+      "id": "e0021c712e16",
+      "title": "AIで人の認知限界を超えろ、運営型モバイルゲームのマスターデータ品質を高める3つのアプローチ | Akatsuki Hackers Lab | 株式会社アカツキ（Akatsuki Inc.)",
+      "url": "https://hackerslab.aktsk.jp/2025/12/10/150000",
+      "summary": "運営型モバイルゲームの複雑化するマスターデータを、生成AI（Copilot/Claude）で改善する事例。ドキュメントではなくスキーマと過去データをAIに与え、プロンプト自動生成で「仕様相談」「データチェック」「データ生成支援」の三手法を使い品質と生産性を向上。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T06:15:20.000Z",
+      "contentHash": "a294fe95e885"
+    },
+    {
+      "id": "b9351dbf304b",
+      "title": "GameWithサービス開発部チーム紹介 クライアントアプリチーム &amp;amp; インフラチーム編 #GameWith #TechWith | GameWith Developer Blog",
+      "url": "https://tech.gamewith.co.jp/entry/2025/12/11/151339",
+      "summary": "GameWithのクライアントアプリチームとインフラチームは、兼務メンバーによる横断支援組織です。WebView中心のアプリ連携やOS対応、マルチプラットフォーム検討、クラウド運用・監視・セキュリティ・コスト最適化、新技術導入（例: Cloudflare Turnstile）を推進し、各プロダクト開発を実用的に支えますが繁忙期は活動が遅れがちです。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T06:13:39.000Z",
+      "contentHash": "d00a183fed16"
+    },
+    {
+      "id": "e5ef13e64154",
+      "title": "社内LT会で「好きなJSメソッドorCSSプロパティ発表ドラゴンLT」を開催しました | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/2025/12/11/151158",
+      "summary": "アソビューで社内LT「好きなJSメソッドorCSSプロパティ発表ドラゴンLT」を開催。map/filter/reduce（不変性）、display:grid+gap、pointer-events、display:flex、margin/paddingの発表で、使いどころや利点を語り合い交流・知見を共有しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T06:11:58.000Z",
+      "contentHash": "4f4b8be7b7dc"
+    },
     {
       "id": "c308764f76db",
       "title": "ChatGPT からの Photoshop を試す",
       "url": "https://note.com/npaka/n/n884da273286c",
-      "summary": "投稿者がChatGPT内でAdobe Express、Photoshop、Acrobatを試用。ChatGPT上でデザイン・画像・文書の編集ができるようになったことを報告し、Photoshopの操作感や連携についてまとめている。",
+      "summary": "npakaがChatGPT内の「Adobe Photoshop」を試用。選択、明るさ・色のスライダー調整、エフェクト、背景ぼかし・削除、元に戻すなどに対応。@adobeを選び画像を追加して指示→接続許可で編集結果をダウンロード可能。",
       "source": "npaka",
       "publishedAt": "2025-12-11T06:04:12.000Z",
-      "contentHash": "616277431746"
+      "contentHash": "d8a8fa4f638b"
+    },
+    {
+      "id": "ba511f64a3e7",
+      "title": "SwiftUIで再帰的なView呼び出しによってドリルダウンなリストを表現する | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/2025/12/11/150404",
+      "summary": "SwiftUIで再帰的にViewを呼び出して階層データをドリルダウン表示する汎用コンポーネントの解説。ジェネリクス＋KeyPathで任意のコレクションを扱い、navigationPathで画面遷移・戻るを制御。検索系機能に再利用可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T06:04:04.000Z",
+      "contentHash": "6f2ff67c416a"
+    },
+    {
+      "id": "5aa3b7f166a0",
+      "title": "Nova Actでブログ記事の執筆者一覧を自動取得してみた | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/reinvent2025/nova_act",
+      "summary": "re:Invent 2025の記事の執筆者とURLを、Amazonのブラウザ操作AI SDK「Nova Act」を使って自動取得する方法を解説。Playwrightベースで自然言語操作、米国限定プレビューのため米国環境でAPIキー取得・pipやplaywrightでの導入手順を説明。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-11T06:01:49.000Z",
+      "contentHash": "541a08e60335"
     },
     {
       "id": "531dd4ea1bef",
@@ -374,10 +455,10 @@
       "id": "fbd9a28c3708",
       "title": "Gemini 2.5 Flash ・ Pro TTS のアップデート - 2025年12月10日",
       "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "記事の本文が見えないので正確な要約ができません。本文かURLを貼っていただけますか？  \nもし本文が用意できない場合は、タイトルに基づく「Gemini TTSの制御性や表現力向上に関する一般的な要点」を200字以内で要約することもできます（ただし厳密な内容保証はできません）。どちらがよいですか？",
+      "summary": "Gemini 2.5 Flash／ProのTTSが強化。表現力やスタイル指示への忠実性、状況に応じた話速調整、複数話者の声の一貫性が向上。Flashは低遅延、Proは高品質で24言語対応。",
       "source": "npaka",
       "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "0c872963649c"
+      "contentHash": "e47928f947b9"
     },
     {
       "id": "61a85cfbb5d3",
@@ -428,10 +509,10 @@
       "id": "1513960f9162",
       "title": "Unityゲームを Reddit 投稿として動かす手順まとめ",
       "url": "https://note.com/npaka/n/n6588ee59287c",
-      "summary": "UnityゲームをReddit投稿として動かす手順まとめ。DevvitのUnityテンプレートを利用し、Node.js・Unity6等を準備、developers.reddit.comでテンプレ生成。npm run devで起動してReddit上で動作確認。クライアント/サーバ/共有コードやBuild出力先、splash画面などのフォルダ構成も解説。",
+      "summary": "UnityゲームをReddit投稿として動かす手順を解説。Node.js・Unityを用意し、RedditのDevvit Unityテンプレートでプロジェクト作成後、npm run devで起動。Unity WebGLビルドやクライアント/サーバ間通信、フォルダ構成を詳述。",
       "source": "npaka",
       "publishedAt": "2025-12-10T22:15:27.000Z",
-      "contentHash": "c3df9659e507"
+      "contentHash": "43b6bc4fb870"
     },
     {
       "id": "82e6217449e0",
@@ -578,6 +659,15 @@
       "contentHash": "99ec7a0c7b90"
     },
     {
+      "id": "1736d9cca380",
+      "title": "The future of Terraform CDK",
+      "url": "https://github.com/hashicorp/terraform-cdk",
+      "summary": "HashiCorpはTerraform CDK（CDKTF）を2025年12月10日にサンセット（アーカイブ）し以後は保守・開発を行わない。GitHubは読み取り専用でコードは残るが更新なし。MPL下でフォークは可能。移行は「cdktf synth --hcl」でHCL（.tf）を生成して標準Terraformへ移行、AWS統合ならAWS CDK移行も検討を推奨。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-10T19:14:03.000Z",
+      "contentHash": "4b367e0ac408"
+    },
+    {
       "id": "6f9202266882",
       "title": "August&#8217;s founders are back with a smart front door",
       "url": "https://www.theverge.com/tech/841622/doma-smart-door-august-smart-lock-makers",
@@ -626,10 +716,10 @@
       "id": "688d794d1a3c",
       "title": "Show HN: Automated license plate reader coverage in the USA",
       "url": "https://alpranalysis.com",
-      "summary": "OSMのALPR報告を解析するRustツールを作成。住宅から施設への経路ごとにFlock等のALPRカメラに写るか検出し、郡別の急速な設置拡大を可視化。大量収集・共有がプライバシーや憲法問題を招くとして' deflock'運動に活用可能。",
+      "summary": "Rustで作ったツールがOSMの最新ALPR報告を解析し、住宅から施設への経路を算出してFlock等のカメラと交差するか検査。大規模な無差別撮影で宗教施設や医療機関も対象になり、データ共有で令状要件が曖昧に。郡別の拡大追跡で撤去運動支援を目指す。",
       "source": "Hacker News",
       "publishedAt": "2025-12-10T17:42:30.000Z",
-      "contentHash": "ad0a906898e8"
+      "contentHash": "2a003e1aedc7"
     },
     {
       "id": "58994df31feb",
@@ -2246,10 +2336,10 @@
       "id": "8b5993ac7f69",
       "title": "低コスト・オープンソースのロボットハンド Amazing Hand のススメ",
       "url": "https://note.com/npaka/n/nf59d85ba3538",
-      "summary": "「フィジカルAI x ロボティクス Advent Calendar 2025」10日目の記事紹介。本文は「続きをみる」で閲覧できます。",
+      "summary": "Amazing HandはPOLLEN開発の低コストなオープンソース4本指ロボットハンド。3Dプリント部品と市販サーボで8自由度を実現し、内部アクチュエータ設計。SDKでテレオペ、模倣・強化学習、データ収集やセンサーストリーミングをサポートし、Seeedでキット販売。入門に適するが万能ではない。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:12:06.000Z",
-      "contentHash": "1757b63d4964"
+      "contentHash": "d6336738959e"
     },
     {
       "id": "9d66f25183c5",
@@ -3695,10 +3785,10 @@
       "id": "e41ac15a83b2",
       "title": "X-VLA の概要",
       "url": "https://note.com/npaka/n/nd3f000d74bd6",
-      "summary": "X‑VLAは、ソフトプロンプトで任意のロボット・任意のタスクに適応するロボット基盤モデル。視覚と言語を統合し、プロンプト切替でタスク横断的に高精度な動作制御を少ない追加学習で実現します。",
+      "summary": "X-VLAは、ロボットやデータの異質性を「学習可能なソフトプロンプト」で符号化し、単一のTransformer基盤で多機体・多タスクに適応するVLA。29万エピソードで学習した0.9Bは、バックボーン凍結でプロンプトのみ（約1%）の調整で高性能を発揮し、少数デモで実世界の器用タスクも達成した。",
       "source": "npaka",
       "publishedAt": "2025-12-08T07:06:59.000Z",
-      "contentHash": "46fb1b1b8856"
+      "contentHash": "8e02d169d6c5"
     },
     {
       "id": "f174c18a2dec",
@@ -8910,96 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-25T21:18:54.000Z",
       "contentHash": "fb3d86a14af7"
-    },
-    {
-      "id": "7d157b65b4aa",
-      "title": "David Sacks tried to kill state AI laws — and it blew up in his face",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/829179/david-sacks-ai-executive-order",
-      "summary": "ホワイトハウスが州のAI規制を連邦が先取りする行政命令を出すとの流言が拡散。流出文を精査した弁護士らは、実現困難や過度の権限集中、違法の可能性、多くの機関の排除、特定の南ア出身の大富豪への権限移譲を問題視した。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T21:06:08.000Z",
-      "contentHash": "e7907ec3eb02"
-    },
-    {
-      "id": "b830053e199b",
-      "title": "物品管理とは？業務効率化のコツと成功のポイントをプロにインタビュー | 株式会社LIG(リグ)｜DX支援・システム開発・Web制作テック の記事一覧 | 株式会社LIG(リグ)｜DX支援・システム開発・Web制作",
-      "url": "https://liginc.co.jp/670632",
-      "summary": "建設現場の物品管理が煩雑で、どこに何の機材があるか把握できず、月末の棚卸や報告書作成に時間がかかるといった悩みがあり、Excelや手書き管理には限界がある。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-25T21:01:59.000Z",
-      "contentHash": "b1b31f5e5b03"
-    },
-    {
-      "id": "01852153a580",
-      "title": "Warner Music Group partners with Suno to offer AI likenesses of its artists",
-      "url": "https://www.theverge.com/news/829189/warner-music-group-suno-ai-licensing-deal",
-      "summary": "ワーナー・ミュージックがAI音楽生成プラットフォームSunoとライセンス契約を締結。参加同意したアーティストの声・名前・肖像・楽曲利用を許可し、アーティストは利用を完全に管理。WMGはSunoへの訴訟を取り下げ、SunoはWMG音源で次世代モデルを開発、来年からダウンロードを有料化し階層ごとの回数制限を導入予定。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T20:47:02.000Z",
-      "contentHash": "737724ed0867"
-    },
-    {
-      "id": "9b33ec838b7e",
-      "title": "ZoomInfo CEO blocks researcher after documenting pre-consent biometric tracking",
-      "url": "https://github.com/clark-prog/blackout-public",
-      "summary": "外部URLに直接アクセスできません。記事本文か主要ポイントを貼り付けてください。貼っていただければ200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T20:39:07.000Z",
-      "contentHash": "01c5a517aa58"
-    },
-    {
-      "id": "663e065b0466",
-      "title": "FLUX.2 の概要",
-      "url": "https://note.com/npaka/n/n0a0b68056e32",
-      "summary": "記事の本文が提示されていないため要約できません。本文（またはリンク）を貼っていただけますか？貼れない場合は、記事の主要ポイント（章見出しや重要な箇所）を教えていただければ、それをもとに200文字以内で要約します。",
-      "source": "npaka",
-      "publishedAt": "2025-11-25T20:23:51.000Z",
-      "contentHash": "f388a2c4f3dc"
-    },
-    {
-      "id": "c0f5a23410b8",
-      "title": "You can grab two months of Paramount Plus with Showtime for $2.99 a month",
-      "url": "https://www.theverge.com/gadgets/827612/paramount-plus-black-friday-deal-sale-2025",
-      "summary": "Paramount Plusは2026年1月15日から月額を改定（Essential $7.99→$8.99、Premium $12.99→$13.99）。ブラックフライデー特価で新規・復帰は12/2まで2か月間各プランが月額$2.99。40,000本以上の番組やライブ配信、Showtime一部（PremiumはフルShowtime）、4Kやダウンロード対応などを提供。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T20:03:31.000Z",
-      "contentHash": "24e77a8bc3d5"
-    },
-    {
-      "id": "63057df8693a",
-      "title": "ICE Offers Up to $280M to Immigrant-Tracking 'Bounty Hunter' Firms",
-      "url": "https://www.wired.com/story/ice-bounty-hunter-spy-program/",
-      "summary": "外部リンクを直接開けないため、本文を貼るか要点を教えてください。貼っていただければ200文字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T20:02:05.000Z",
-      "contentHash": "7614be5bd6a6"
-    },
-    {
-      "id": "cb7c24a2da44",
-      "title": "A new bridge links the math of infinity to computer science",
-      "url": "https://www.quantamagazine.org/a-new-bridge-links-the-strange-math-of-infinity-to-computer-science-20251121/",
-      "summary": "集合論や無限ゲームなどの「無限」に関する数学と計算理論を結ぶ新しい枠組みが提示され、無限構造を扱う理論的計算モデルや検証・複雑性理論に新たな視点と道具をもたらす。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T19:53:20.000Z",
-      "contentHash": "bf6ac9f4ee10"
-    },
-    {
-      "id": "b7fa614b493c",
-      "title": "Unison 1.0",
-      "url": "https://www.unison-lang.org/unison-1-0/",
-      "summary": "Unison 1.0が正式リリース。コードを内容で識別するコンテンツアドレス型コードベース、関数型＋効果システム、リファクタやマージが容易な設計を維持しつつ、UCMなどのツール、ランタイム、標準ライブラリの安定化と性能改善を果たした節目の公開。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-25T19:33:00.000Z",
-      "contentHash": "6ec29ab3500d"
-    },
-    {
-      "id": "b7c82648cf75",
-      "title": "These are my favorite Switch 2 accessories",
-      "url": "https://www.theverge.com/buying-guides/720160/best-switch-2-accessories",
-      "summary": "Switch 2は箱出しで遊べるが、ケースと画面保護は必須。Joy‑Conが合わなければ安価な無線コントローラを。内蔵256GBでmicroSDは急がず可。不要な周辺（ハンドル等）は避ける。推奨はEasySMX S10：Proより安く、TMRスティックでドリフト耐性、良好な振動とamiibo対応。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-25T19:30:00.000Z",
-      "contentHash": "fe153f394533"
     }
   ]
 }
