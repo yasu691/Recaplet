@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2025-12-12T15:30:52.216Z",
+  "generatedAt": "2025-12-12T16:32:19.677Z",
   "items": [
+    {
+      "id": "f9af8d80d6fa",
+      "title": "Many games from The Game Awards are now on sale",
+      "url": "https://www.theverge.com/gadgets/843459/game-awards-playstation-nintendo-pc-games-deal-sale",
+      "summary": "AmazonがGame Awards受賞・候補作の大規模セールを実施。Clair Obscur: Expedition 33（PC）が過去最安の$39.99に、Death Stranding 2やSilent Hill fなども割引中で、年末のギフトや積みゲー追加におすすめ。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-12T15:45:00.000Z",
+      "contentHash": "0a8ab6d6a962"
+    },
+    {
+      "id": "f25233cf8b6f",
+      "title": "We&#8217;re still talking about the Trump phone",
+      "url": "https://www.theverge.com/gadgets/843498/trump-phone",
+      "summary": "The Vergeはトランプ・モバイルの未発売スマホ（T1 Phone 8002）を毎週追跡。長期遅延でベイパーウェアの疑い、\"Made in USA\"表記は「American values」に変更。広報は未回答。用語解説や改装iPhoneの不評も報告。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-12T15:39:28.000Z",
+      "contentHash": "7156b57c31e7"
+    },
     {
       "id": "6edb6eb45c88",
       "title": "X-point REST APIを使って申請書自動起票マクロを作りました | RecoChoku Engineering Blog",
@@ -41,10 +59,10 @@
       "id": "b63267c81462",
       "title": "“citty” “c12” を使って, 設定ファイルベースで Vite Server が立ち上がる CLI ツールを作ってみる | hacomono TECH BLOG",
       "url": "https://techblog.hacomono.jp/entry/2025/12/12/000000_1",
-      "summary": "記事は 'citty' と 'c12' を使い、hacomono.config.ts というTypeScript設定ファイルから Vite ベースのカスタム開発サーバーと CLI（dev/build）を作る方法を解説。フレームワーク非依存で複数単体ページを扱い、型安全な設定読み込み・変更監視で自動再起動や動的Vite設定生成を実現した。",
+      "summary": "hacomono Advent Calendar 2025の13日目記事。著者みゅーとんが、小さなフロントエンドページを複数まとめて作る要件から、フレームワークに依存せずページごとに最適化できる独自ツールチェインの必要性を語る。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-12T15:00:00.000Z",
-      "contentHash": "99da90bc142e"
+      "contentHash": "1690d25c5dee"
     },
     {
       "id": "75f3b0bfc511",
@@ -86,10 +104,10 @@
       "id": "70add654977e",
       "title": "Testcontainers で DynamoDB のインテグレーションテスト環境を作る | FURYU Tech Blog - フリュー株式会社",
       "url": "https://tech.furyu.jp/entry/202512130000",
-      "summary": "フリューの山根が、TypeScriptアプリのDynamoDB向けインテグレーションテストをTestcontainersとDynamoDB Localで構築した方法を紹介。モックでなくLocalを使う理由や設定手順を解説。",
+      "summary": "TypeScriptアプリのDynamoDBをTestcontainers＋DynamoDB Localで統合テストする手法を紹介。モックでは検証できない挙動（ConditionExpressionやGSI）を本番近くで確認でき、Testcontainersはテスト完結性・ランダムポート・自動破棄の利点がある。環境設定やAWS SDK／vitestの設定例も掲載。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-12T15:00:00.000Z",
-      "contentHash": "0f659114606f"
+      "contentHash": "3fef84a86aa2"
     },
     {
       "id": "623936a1ec75",
@@ -104,10 +122,10 @@
       "id": "1bbc3de0c39e",
       "title": "How to vibe-write a country hit",
       "url": "https://www.theverge.com/podcast/843447/ai-music-country-suno-vergecast",
-      "summary": "ザ・ヴァージキャストで、チャーリー・ハーディングがSunoなどのAIツールがナッシュビルの楽曲制作に浸透し、誰の声・スタイルにも似せた半完成デモが簡単に作れるようになった状況を解説しています。",
+      "summary": "AIが音楽制作に浸透。Sunoなどのツールでナッシュビルのソングライターが誰の声や様式も再現するセミ完成デモを量産し、TikTokの「I Run」等AI曲が拡散。The Vergecastで報告。",
       "source": "The Verge",
       "publishedAt": "2025-12-12T14:23:18.000Z",
-      "contentHash": "db1421b62ff9"
+      "contentHash": "621aa36ac0d7"
     },
     {
       "id": "a27dbec3e354",
@@ -126,6 +144,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-12T13:41:38.000Z",
       "contentHash": "5586c0378078"
+    },
+    {
+      "id": "4b23f2f3bfda",
+      "title": "SQLite JSON at Full Index Speed Using Generated Columns",
+      "url": "https://www.dbpro.app/blog/sqlite-json-virtual-columns-indexing",
+      "summary": "DB ProはSQLiteを活用中で復権を実感。記事第1回はSQLiteのJSON機能を紹介し、JSONをそのまま1列に保存してjson_extractで仮想カラムを作り索引を付ければ高速検索でき、後から追加も可能と試した報告。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-12T13:25:19.000Z",
+      "contentHash": "d3816c7da4f5"
     },
     {
       "id": "f6428fc2975f",
@@ -338,10 +365,10 @@
       "id": "6e0fcec6bcfc",
       "title": "Young journalists expose Russian-linked vessels off the Dutch and German coast",
       "url": "https://www.digitaldigging.org/p/they-droned-back",
-      "summary": "ドイツの学生記者7人が、オランダ・ドイツ沖でロシア系の貨物船が防衛造船所近くを巡回し、基地上空のドローン群と時系列で結びつくことを、現地追跡や機密文書の解析で突き止めた。",
+      "summary": "独の７人の若手記者が、オランダ・ドイツ沖でロシア人乗組の貨物船が防衛造船所近くに停滞・周回していたのを追跡し、軍事基地上空でのドローン群と結び付ける調査を5週間で行い、機密文書等を入手した。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T08:24:22.000Z",
-      "contentHash": "139b9531eb34"
+      "contentHash": "7854ea8a9aac"
     },
     {
       "id": "4e40aaffb7ce",
@@ -734,10 +761,10 @@
       "id": "56af479cf1b1",
       "title": "CRISPR fungus: Protein-packed, sustainable, and tastes like meat",
       "url": "https://www.isaaa.org/kc/cropbiotechupdate/article/default.asp?ID=21607",
-      "summary": "申し訳ありませんが、外部のウェブページに直接アクセスできません。記事本文を貼り付けていただければ、200文字以内で日本語要約を作成します。本文が長ければ要点だけでも構いません。",
+      "summary": "申し訳ありませんが外部サイトを直接参照できません。記事本文または要点を貼り付けていただければ、200字以内で日本語要約します。HNコメントの要約も可能です。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T00:59:46.000Z",
-      "contentHash": "1a6c21bbdc11"
+      "contentHash": "78035170817c"
     },
     {
       "id": "561f0ce88a43",
@@ -761,10 +788,10 @@
       "id": "fa60ed9c9985",
       "title": "Nokia N900 Necromancy",
       "url": "https://yaky.dev/2025-12-11-nokia-n900-necromancy/",
-      "summary": "Nokia N900の古い電池を抵抗で温度信号を擬似し、複数のスーパーキャパシタで代替して起動。内蔵領域を破損したがSDカードからMaemo Lesteで復元可能。USB給電化を検討。",
+      "summary": "友人のNokia N900を復活。劣化電池の代わりに抵抗で温度検出を模擬し、小型スーパーキャパシタを組んでバッテリー室に収め+5V給電、USB‑C追加でSDから起動成功。ただし内部パーティションとOSを破損。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T00:04:29.000Z",
-      "contentHash": "ffaa3cf54f87"
+      "contentHash": "19c533941bc2"
     },
     {
       "id": "54539d43f733",
@@ -3992,10 +4019,10 @@
       "id": "7e983d2c4634",
       "title": "Android XR SDK Developer Preview 3 の概要",
       "url": "https://note.com/npaka/n/nbc9cb6f50d5b",
-      "summary": "Android XR SDK Developer Preview 3の概要。AIグラス向け開発を可能にし、没入型体験を拡張する新機能や関連ツールを紹介しています。",
+      "summary": "Android XR SDK Developer Preview 3を公開。AIグラス向けのハンズフリーなAugmented Experiences対応を追加し、Jetpack Projected・Jetpack Compose Glimmer、Android StudioのAIグラスエミュレータ、ARCore拡張やGalaxy XR等向けの没入体験機能、SceneCore/Compose for XRの改良を提供。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:07:27.000Z",
-      "contentHash": "cc5c2b3d7451"
+      "contentHash": "b55948176623"
     },
     {
       "id": "a70f6dc6e989",
@@ -8973,33 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-27T09:07:44.000Z",
       "contentHash": "2420563564b6"
-    },
-    {
-      "id": "05ba6fc8cc99",
-      "title": "Unity製iOSアプリでクイックアクションを実装する | Happy Elementsのフィード",
-      "url": "https://zenn.dev/happy_elements/articles/b9ad59ff79d7be",
-      "summary": "Unity製iOSアプリでクイックアクション（3D Touch由来のアプリアイコン長押しメニュー）を実装する方法を解説。アイコンや文言を自由に設定し、長押しで任意の動作を呼び出す手順を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T09:00:53.000Z",
-      "contentHash": "cd10bcc9da6d"
-    },
-    {
-      "id": "ddb1ff0d02da",
-      "title": "【Azure】- PTUサイズの見積もりをしたい！ | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/76d24e21dfa3fd",
-      "summary": "Azure OpenAI Serviceは「Quota > Provisioned throughput > 容量計算ツール」でPTUサイズを算出可能。Azure AI Foundryは「管理センター > Quota > Provisioned throughput > 容量計算ツール」で同様に計算できます。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T09:00:02.000Z",
-      "contentHash": "e8cf271d2b12"
-    },
-    {
-      "id": "b04872d606e6",
-      "title": "【Vue Fes Japan 2025】スポンサー参加レポート | ソーシャルデータバンク テックブログのフィード",
-      "url": "https://zenn.dev/sdb_blog/articles/sdb-vue-fes-japan-2025",
-      "summary": "ik2mが2025年11月19日のVue Fes Japan 2025にゴールドスポンサーとして参加したレポート。昨年に続き協賛し、ブースで多くの参加者と直接交流したことやイベント概要を伝える内容。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T09:00:01.000Z",
-      "contentHash": "d40a7d7b2207"
     }
   ]
 }
