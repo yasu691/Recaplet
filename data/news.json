@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2025-12-12T22:28:50.523Z",
+  "generatedAt": "2025-12-12T23:28:48.158Z",
   "items": [
+    {
+      "id": "117e96fd1fd5",
+      "title": "Next.js + Storybook + PlaywrightをChromaticでビジュアルテスト自動化する | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/50577",
+      "summary": "Next.js14プロジェクトにStorybookとPlaywright E2Eを導入し、ChromaticとGitHub Actionsで自動ビジュアルテストを実現する手順、構成、導入時のトラブル対処と得られる効果を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T23:00:48.000Z",
+      "contentHash": "353510015cc2"
+    },
+    {
+      "id": "b502c612a91e",
+      "title": "2025年 crowdworks.jp の SRE チームでやったこと | クラウドワークス エンジニアブログ",
+      "url": "https://engineer.crowdworks.jp/entry/2025sre",
+      "summary": "クラウドワークスSREは2025年、WAFをサードパーティ製からAWS管理ルールへ段階移行（COUNT並行運用で誤検知抑制）、ElasticsearchをOpenSearchへ無停止移行、SLI/SLOをCUJ重視で再定義、DBモダナイズ等で信頼性向上を実施しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T23:00:00.000Z",
+      "contentHash": "b21b41b013b0"
+    },
+    {
+      "id": "80e0fa601c06",
+      "title": "Parents call for New York governor to sign landmark AI safety bill",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/844062/parents-call-for-new-york-governor-to-sign-landmark-ai-safety-bill",
+      "summary": "150人超の親がNY州知事に、巨大AI開発者へ安全計画と事故報告を義務付けるRAISE法を無修正で署名するよう要請。知事は企業寄りの大幅改定を提案し、企業は反発。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-12T22:16:09.000Z",
+      "contentHash": "088db53aa731"
+    },
+    {
+      "id": "6f899e99a8a2",
+      "title": "CIのテスト実行時間改善をClaude Codeに任せて30%時間短縮 | Findy Tech Blog",
+      "url": "https://tech.findy.co.jp/entry/2025/12/13/070000",
+      "summary": "ファインディのnipe0324です。Claude CodeにCI高速化を委任し、テスト実行を7分01秒→5分05秒（約28%、-116秒）に短縮。並列割当を実行時間基準へ変更、不要ジョブ削除、apt・DBダンプのキャッシュ化で月約40時間（約5営業日）を削減。調査・実装・効果測定をAIに任せ、筆者は意思決定とレビューを担当しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T22:00:00.000Z",
+      "contentHash": "8b45da10ec10"
+    },
+    {
+      "id": "30224ca85cc4",
+      "title": "LOVOTの\"脚\"、進化するホイールのお話 | Inside of LOVOT",
+      "url": "https://tech.groove-x.com/entry/2025tech-blog-MECHA",
+      "summary": "LOVOT 3.0のホイール開発を担当者が解説。着脱式タイヤで清掃やフィルター交換が容易に。動力軸と固定部を同時に嵌合させるギザギザ構造や二重の安全センサーを採用。ピットストップ実演は10.95秒。今後は脚としてジャンプ等の運動機能を追求していく。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T22:00:00.000Z",
+      "contentHash": "491ccaf8b8d9"
+    },
+    {
+      "id": "b8f620b8fce5",
+      "title": "pprof で Go のパフォーマンス問題に向き合ってみた | JMDC TECH BLOG",
+      "url": "https://techblog.jmdc.co.jp/entry/20251213",
+      "summary": "GoでのExcel出力（5万件超）でタイムアウト発生。原因は層を跨ぐstruct詰め替えによるOOM→StreamWriterで行単位処理に改修しOOM解消。だが遅延は残り、pprofのblock/heap解析でN+1を否定、GC頻発によるStop-the-Worldを疑いalloc_objectsを調査した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T22:00:00.000Z",
+      "contentHash": "baf7011dd300"
+    },
+    {
+      "id": "04f51d82e0db",
+      "title": "アジャイル開発で準備した五目並べAI対戦イベントが盛り上がった話 | エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/gomoku-team-building",
+      "summary": "エムスリーAIチームが2025/10/31に五目並べAI対戦を開催。4チームが2時間でAI実装〜GKEデプロイしトーナメントを実施。アジャイルで「まず動くもの」を作る段階的開発が有効で、守り重視のDチームが優勝。会場は盛り上がりチームビルディングに成功。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T22:00:00.000Z",
+      "contentHash": "225431d91fdc"
+    },
     {
       "id": "65f1dec00223",
       "title": "The Verge’s favorite holiday gifts under $100",
@@ -38,6 +101,24 @@
       "contentHash": "242ee105fc1e"
     },
     {
+      "id": "756cedb71357",
+      "title": "GNU Unifont",
+      "url": "https://unifoundry.com/unifont/index.html",
+      "summary": "GNU UnifontはGNUプロジェクトのフォントで、Unicode BMP（U+0000..U+FFFF）の全印刷可能文字の字形を収録しSMPやCSURも拡張中。商用利用可で、GPLv2+（フォント埋め込み例外）とSIL OFL 1.1のデュアルライセンスにより派生物の同等公開と貢献者帰属を求める。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-12T20:57:34.000Z",
+      "contentHash": "640f64d70038"
+    },
+    {
+      "id": "3539ca13726d",
+      "title": "macOS 26.2 enables fast AI clusters with RDMA over Thunderbolt",
+      "url": "https://developer.apple.com/documentation/macos-release-notes/macos-26_2-release-notes#RDMA-over-Thunderbolt",
+      "summary": "ページの内容を表示するには、ブラウザでJavaScriptを有効にし、ページを再読み込みしてください。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-12T20:41:38.000Z",
+      "contentHash": "001f2ca7d8a3"
+    },
+    {
       "id": "dec946690b05",
       "title": "iOS 26.2 is here with Liquid Glass, AirDrop, and Apple Music updates",
       "url": "https://www.theverge.com/news/839534/apple-iphone-ipad-mac-update-26-2",
@@ -68,10 +149,10 @@
       "id": "f9113acd0ec1",
       "title": "Benn Jordan’s flock camera jammer will send you to jail in Florida now [video]",
       "url": "https://www.youtube.com/watch?v=qEllWdK4l_A",
-      "summary": "申し訳ありませんが外部リンクを直接開けません。動画の要旨か書き起こし、HNの主要コメントを貼っていただけますか？いただければ200字以内で要約します。どちらを優先するかも教えてください。",
+      "summary": "申し訳ありませんが外部URLへはアクセスできません。要約をご希望なら、動画の書き起こしか主要コメントを貼ってください。対象（動画／HN／両方）を指定いただければ200字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T18:58:43.000Z",
-      "contentHash": "eefe018afd56"
+      "contentHash": "d238a88222f9"
     },
     {
       "id": "01ad1d86671f",
@@ -176,10 +257,10 @@
       "id": "fa8bf4d1f0f4",
       "title": "Oracle made a $300B bet on OpenAI. It's paying the price",
       "url": "https://finance.yahoo.com/news/oracle-made-a-300-billion-bet-on-openai-its-paying-the-price-205441863.html",
-      "summary": "オラクルはOpenAI向けに約3000億ドルを含むRPOが4550億ドルに急増したが、OpenAI依存や同社の1.4兆ドル規模のインフラ費用、Googleの競争で株価が9月高値から40%以上下落。アナリストはOpenAIの支払い不能リスクを指摘。",
+      "summary": "オラクルがOpenAI向けに約3000億ドルの受注を計上した影響で、株価は9月高値から40％超下落し時価総額で約3600億ドル消失。OpenAIの巨額インフラ費用やGoogleの競争で支払いリスクが懸念される。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T17:01:07.000Z",
-      "contentHash": "ab5d144e48a4"
+      "contentHash": "6a26a566e4ba"
     },
     {
       "id": "8c01c9ac3cc1",
@@ -203,10 +284,10 @@
       "id": "177a6b6704b1",
       "title": "Japan law opening phone app stores to go into effect",
       "url": "https://www3.nhk.or.jp/nhkworld/en/news/20251210_B1/",
-      "summary": "申し訳ありませんが、外部URLの内容を直接取得できません。記事本文を貼り付けていただければ、200文字以内で要約します。HNのコメントも反映希望ならその部分も貼ってください。",
+      "summary": "申し訳ありませんが、外部サイトを直接開けないため記事本文を取得できません。記事本文（または主要段落）をここに貼っていただければ、200文字以内で日本語要約を作成します。HNのコメントも要約希望なら同様に貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T16:59:04.000Z",
-      "contentHash": "aeb5b689a9be"
+      "contentHash": "fd53b1f4d578"
     },
     {
       "id": "2c153ca8623e",
@@ -218,13 +299,22 @@
       "contentHash": "8cc7e28dbf82"
     },
     {
+      "id": "44ac6aec704d",
+      "title": "AD同期ユーザーもクラウドで直したい！Entra IDの新機能「SOA」を試してみた | CloudNative Inc. BLOGs",
+      "url": "https://blog.cloudnative.co.jp/29854/",
+      "summary": "Entra IDの新機能「SOA」がパブリックプレビューに。オンプレADから同期されたユーザー/グループのSOAをEntra IDに切替え、クラウドで属性やメンバー編集可能に。Graph APIでonPremisesSyncBehaviorのisCloudManaged=trueを設定し、脱オンプレや運用柔軟性を促進。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T16:12:33.000Z",
+      "contentHash": "571339b3d26c"
+    },
+    {
       "id": "0134334b8e10",
       "title": "Epic celebrates \"the end of the Apple Tax\" after court win in iOS payments case",
       "url": "https://arstechnica.com/tech-policy/2025/12/epic-celebrates-the-end-of-the-apple-tax-after-appeals-court-win-in-ios-payments-case/",
-      "summary": "米控訴裁は、Appleが2021年のApp Store支払開放命令を故意に違反したとの下級判決をほぼ支持。外部決済への27%課金や過度なリンク制限を禁じ、表示の類似性は認めうると指摘。Appleの「悪意」も認定され、EpicのSweeneyは開発者がなお報復を恐れていると警告。",
+      "summary": "米第9巡回控訴裁は、Appleが2021年のApp Store支払開放命令に「故意に違反」したとの地区裁判所の蔑称判断をほぼ支持。外部決済への27%手数料や外部リンクの過度な制限は違法とされ、Appleは代替案を悪意で拒否と判示。Epicのティム・スウィーニーは開発者に有益と期待する一方、報復を恐れる開発者は依然いると警告。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T16:04:16.000Z",
-      "contentHash": "4640f6e6bdf1"
+      "contentHash": "29a54030575b"
     },
     {
       "id": "f77ce263669c",
@@ -254,6 +344,15 @@
       "contentHash": "9fb74124770d"
     },
     {
+      "id": "f3b2b8feb400",
+      "title": "パソコンってなんで動くの？パーツ編 | iimon TECH BLOG",
+      "url": "https://tech.iimon.co.jp/entry/2025/12/13/003050",
+      "summary": "iimonの今井が初心者向けにPCの仕組みを解説。CPU/GPU/RAM/ストレージ/マザーボード/電源/冷却/ケースなど主要ハードとOSなどソフトの違い、各部品の役割や性能バランス・ボトルネック回避の重要性、SSDや冷却方式の例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T15:30:50.000Z",
+      "contentHash": "d5957e5e8d2d"
+    },
+    {
       "id": "370508845f1f",
       "title": "Berlin Approves New Expansion of Police Surveillance Powers",
       "url": "https://reclaimthenet.org/berlin-approves-new-expansion-of-police-surveillance-powers",
@@ -261,6 +360,15 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-12T15:29:46.000Z",
       "contentHash": "a0ab4f911b20"
+    },
+    {
+      "id": "837152819514",
+      "title": "“citty” “c12” を使って, 設定ファイルベースで Vite Server が立ち上がる CLI ツールを作ってみる | hacomono TECH BLOG",
+      "url": "https://techblog.hacomono.jp/entry/2025/12/13/000000",
+      "summary": "\"citty\" と \"c12\" を使い、hacomono.config.ts による型安全な設定読み込みで Vite を拡張した CLI（dev/build）を実装。フレームワーク非依存で複数の単体ページを扱い、設定の動的読み込み・監視でサーバ再起動、統一されたビルド出力を実現する設計と実装を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T15:20:00.000Z",
+      "contentHash": "99da90bc142e"
     },
     {
       "id": "43a9971bbb4e",
@@ -779,10 +887,10 @@
       "id": "9f7e2457935f",
       "title": "GPT-5.2 の概要",
       "url": "https://note.com/npaka/n/n7a4bdf31d37a",
-      "summary": "OpenAIがGPT-5.2を発表。汎用知能や長文理解（最大約40万トークン）、ツール操作・Vision解析が強化され、コーディングや要約、業務自動化に強い。ChatGPT版はInstant/Thinking/Proの3種。APIは従量課金（例:標準出力約$14/100万トークン、Pro出力約$168/100万）。知識カットオフ:2025/4/31。",
+      "summary": "OpenAIがGPT-5.2を発表。汎用知能・長文理解（約40万トークン）、ツール連携、Visionが強化され、コード作成・要約・自動化など実務向けに高性能。ChatGPT版はInstant/Thinking/Proの3種、APIはトークン課金。知識カットオフは2025年4月31日。",
       "source": "npaka",
       "publishedAt": "2025-12-12T04:02:38.000Z",
-      "contentHash": "32a52d62fd61"
+      "contentHash": "a7b68b2ea452"
     },
     {
       "id": "b9ee4f8196e1",
@@ -1436,10 +1544,10 @@
       "id": "d3945e6ac563",
       "title": "Gemini Deep Research Agent の概要",
       "url": "https://note.com/npaka/n/n9e52f89e8585",
-      "summary": "Googleが強化版「Gemini Deep Research Agent」を公開。Gemini 3 Pro搭載で多段階・反復的なWebリサーチを高精度化し、Interactions APIで利用可能。網羅性評価のベンチマーク「DeepSearchQA」（900問）をOSS化し、金融・バイオ等で実運用が進行。Google検索やNotebookLM等へ順次展開予定。",
+      "summary": "GoogleがInteractions API経由でGemini Deep Research Agentを公開。Gemini 3 Proと多段階強化学習で長期の自律ウェブ調査を高精度に実行し、網羅性評価用のベンチマークDeepSearchQA（900問）をオープン化。金融・バイオ等でデューデリジェンスや市場調査に活用。",
       "source": "npaka",
       "publishedAt": "2025-12-11T18:08:56.000Z",
-      "contentHash": "66fb30ce81d0"
+      "contentHash": "c989dce0431f"
     },
     {
       "id": "2d181d7810ca",
@@ -1463,10 +1571,10 @@
       "id": "8b24f6f5fac4",
       "title": "Interactions API の概要 - Google のモデルとエージェントの統合基盤",
       "url": "https://note.com/npaka/n/n671c92a70e5d",
-      "summary": "Googleが公開ベータのInteractions APIを発表。Geminiモデルや組み込みエージェント（Deep Research）を単一の/interactionsで操作でき、サーバー側履歴管理、インターリーブされた思考・ツールの表現、バックグラウンド実行やMCPツール対応で複雑なエージェント開発を簡素化します。",
+      "summary": "GoogleのInteractions APIは、Geminiモデルと組み込みエージェント（Deep Research）を単一の /interactions エンドポイントで統合提供。サーバー側状態管理、思考やツール呼び出しを扱う解釈可能なデータモデル、バックグラウンド実行やMCPツール対応を備え、将来はカスタムエージェント統合も可能にする。",
       "source": "npaka",
       "publishedAt": "2025-12-11T17:49:20.000Z",
-      "contentHash": "df2a878da8aa"
+      "contentHash": "18eff1adb78a"
     },
     {
       "id": "c0344b99cf81",
@@ -8892,114 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-11-27T21:13:39.000Z",
       "contentHash": "5498c32b5eec"
-    },
-    {
-      "id": "db05c883c4d6",
-      "title": "Underrated reasons to be thankful V",
-      "url": "https://dynomight.net/thanks-5/",
-      "summary": "外部サイトに直接アクセスできないため記事を取得できません。本文を貼るか、要約対象（記事のみ／HNコメント含む）を教えてください。いただければ200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T20:37:51.000Z",
-      "contentHash": "0889f69d17dd"
-    },
-    {
-      "id": "ce87dcf38dd0",
-      "title": "LinkedIn is loud, and corporate is hell",
-      "url": "https://ramones.dev/posts/linkedin-is-loud/",
-      "summary": "記事は、LinkedInのアルゴリズムが派手で感情的な投稿を優遇し、パフォーマティブな成功自慢やエンゲージメント稼ぎの「騒がしさ」を増幅させると批判する。専門的な議論や深い価値が埋もれ、ユーザーはミュートやフォロー整理、小規模で質の高いコミュニティづくりなどで対処すべきと提案している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T20:30:21.000Z",
-      "contentHash": "0974e2a4fe96"
-    },
-    {
-      "id": "59c9af6dabe3",
-      "title": "DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning [pdf]",
-      "url": "https://github.com/deepseek-ai/DeepSeek-Math-V2/blob/main/DeepSeekMath_V2.pdf",
-      "summary": "申し訳ありませんが、外部URLの内容を直接取得できません。PDF本文や要旨（abstract）、導入／結論の抜粋をここに貼っていただければ、200文字以内で日本語に要約します。Hacker Newsのコメントを要約したい場合も同様に貼ってください。どの部分を要約するか指示をお願いします。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T20:03:25.000Z",
-      "contentHash": "44afabb17c47"
-    },
-    {
-      "id": "f02588a3c1bb",
-      "title": "Dreame’s X40 Ultra is arguably the best robovac deal you can grab for Black Friday",
-      "url": "https://www.theverge.com/gadgets/829006/dreame-x40-ultra-black-friday-2025-deal-sale",
-      "summary": "Dreame X40 Ultraがブラックフライデーで12/1までAmazon・BestBuy・Dreameで$499.99（$700引き）。12,000Pa吸引、AI汚れ検知・障害物回避、デュアル振動モップ、自動着脱・洗浄・乾燥・ゴミ自動排出・給水などの高度なハンズフリー清掃が可能。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-27T19:00:00.000Z",
-      "contentHash": "e2b2fc88b55a"
-    },
-    {
-      "id": "926d37ded360",
-      "title": "AI CEO – Replace your boss before they replace you",
-      "url": "https://replaceyourboss.ai/",
-      "summary": "ReplaceYourBoss.aiはAIで上司の役割を代替するデモ/サービスを紹介。業務指示や評価の自動化で効率化を謳う一方、プライバシーや責任、雇用喪失などの倫理的問題が議論されている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T18:37:41.000Z",
-      "contentHash": "5b085a8d8f40"
-    },
-    {
-      "id": "2ff9fdb8f58c",
-      "title": "How Microsoft’s developers are using AI",
-      "url": "https://www.theverge.com/tech/831379/microsoft-developer-ai-usage-stats-notepad",
-      "summary": "MicrosoftはPC上でAIが全てを制御しエージェントがバックグラウンドで作業する未来を提案するが、実現にはツール整備と開発者の信頼獲得が必要。Nadellaは一部で最大30%のコードがAI生成と述べ、記者が開発現場の利用実態を取材中。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-27T17:00:00.000Z",
-      "contentHash": "0dda44edd3d9"
-    },
-    {
-      "id": "72bb5c73fcc6",
-      "title": "The input stack on Linux: An end-to-end architecture overview",
-      "url": "https://venam.net/blog/unix/2025/11/27/input_devices_linux.html",
-      "summary": "申し訳ありませんが、外部リンクの内容を直接取得できません。記事本文を貼っていただければ、200文字以内で日本語に要約します。Hacker Newsのコメントも含めて要約希望なら、それも一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T16:55:30.000Z",
-      "contentHash": "9b95f4aa4ba9"
-    },
-    {
-      "id": "a84d3ad1348e",
-      "title": "Pakistan says rooftop solar output to exceed grid demand in some hubs next year",
-      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/pakistan-says-rooftop-solar-output-exceed-grid-demand-some-hubs-next-year-2025-11-22/",
-      "summary": "パキスタンは、屋上太陽光の普及により来年一部地域で発電量が系統需要を上回る見込みと発表。急増する分散型発電は系統運用や制度対応の見直しを迫る。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T16:42:40.000Z",
-      "contentHash": "f8556718a821"
-    },
-    {
-      "id": "74356cc034d8",
-      "title": "Same-day upstream Linux support for Snapdragon 8 Elite Gen 5",
-      "url": "https://www.qualcomm.com/developer/blog/2025/10/same-day-snapdragon-8-elite-gen-5-upstream-linux-support",
-      "summary": "QualcommがSnapdragon 8 Elite（Gen 5）向けに、発売日に合わせてLinuxカーネルへのドライバをupstream（メインライン）で提供すると発表。OEMやカーネル開発者と協力しLinux対応を容易化するが、GPU等の一部はまだバイナリファームに依存。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T16:19:03.000Z",
-      "contentHash": "cbf33bdb252e"
-    },
-    {
-      "id": "6e13671a208d",
-      "title": "Watch how Apple made its new puppet-packed holiday ad",
-      "url": "https://www.theverge.com/news/831431/apple-a-critter-carol-holiday-ad-puppets-practical-effects",
-      "summary": "Appleの新作ホリデー短編「A Critter Carol」はiPhone 17 Proで撮影。落としたiPhoneをアライグマが拾い、森の手作り操り人形たちが歌う様子を撮影。Apple Watchで端末を回収し、舞台裏はブルースクリーンやボディスーツで森を拡張しつつ人形を多数の操演者が動かしたという内容です。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-27T16:18:17.000Z",
-      "contentHash": "cef4b480aa72"
-    },
-    {
-      "id": "19a813c38ecc",
-      "title": "A humanoid robot-shaped bubble is forming, China warns",
-      "url": "https://www.theverge.com/news/831451/china-humanoid-robotics-bubble",
-      "summary": "中国の国家発展改革委がヒューマノイドロボットのバブルを警告。実用例が少ないのに投資が過熱し150社超が参入、類似製品や研究資金縮小のリスクを指摘。成長速度とバブル回避の均衡を求める一方、同技術は国家重点分野に指定済み。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-27T15:57:49.000Z",
-      "contentHash": "7f6e94120834"
-    },
-    {
-      "id": "54b11168b72d",
-      "title": "Kuxiu’s solid-state power bank now has more capacity and faster wireless charging",
-      "url": "https://www.theverge.com/news/831365/kuxiu-magsafe-semi-solid-state-wireless-power-bank-s3",
-      "summary": "Kuxiuの半固体電池モバイルバッテリーS3は容量10,000mAh、Qi2.2で最大25W無線、USB‑C PD35W、キックスタンド・表示・内蔵ケーブル装備。磁石増で脱落防止、1000サイクルで約80%維持、発火リスク低減。価格$149.98（割引$68.99）。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-27T15:06:53.000Z",
-      "contentHash": "8b199d08595c"
     }
   ]
 }
