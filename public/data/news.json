@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2025-12-12T13:44:20.546Z",
+  "generatedAt": "2025-12-12T14:26:21.147Z",
   "items": [
+    {
+      "id": "a27dbec3e354",
+      "title": "A presidential refresher on wireless terminology, courtesy of Trump Mobile",
+      "url": "https://www.theverge.com/tech/842937/trump-mobile-4g5g-4k-explainer",
+      "summary": "Allison Johnsonが、トランプの携帯話題を交えて4G・4K・6Gなど無線や映像の用語の違いをやさしく解説する入門記事。トランプ端末の所在は依然不明。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-12T14:00:00.000Z",
+      "contentHash": "57115f7ef6cd"
+    },
+    {
+      "id": "446da2819267",
+      "title": "This Tetris-playing watch struggles with the one thing it should be great at",
+      "url": "https://www.theverge.com/gadgets/842702/tetris-my-play-watch-smartwatch-hands-on",
+      "summary": "Tetris: My Play WatchはApple Watch風の外観でテトリス専用UIや専用ベルト・文字盤が魅力だが、タッチ操作が不安定で快適に遊べない。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-12T13:41:38.000Z",
+      "contentHash": "5586c0378078"
+    },
     {
       "id": "f6428fc2975f",
       "title": "YouTube made its video player easier to navigate on TVs",
@@ -20,13 +38,22 @@
       "contentHash": "dfa1398ec505"
     },
     {
+      "id": "e443d273d95e",
+      "title": "The Tor Project is switching to Rust",
+      "url": "https://itsfoss.com/news/tor-rust-rewrite-progress/",
+      "summary": "TorのRust実装Artiが1.8.0を公開。C由来のバッファ溢れ等を避けるためメモリ安全性を重視し、回線タイムアウトを利用基準の別タイマーに改め指紋化を低減。onion鍵移行コマンドや経路・プロトコル、ディレクトリ・設定の改善も含む。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-12T12:35:57.000Z",
+      "contentHash": "7f2a9ef9e043"
+    },
+    {
       "id": "079effaaa3b3",
       "title": "【AWS re:Invent 2025】未来の参加者へ伝えたい「やってよかったこと」vs「もっとやればよかったこと」 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/reinvent2025-try-and-tips",
-      "summary": "サーバーワークスの岡部が、初参加のre:Inventで「やってよかった」「もっとやればよかった」を紹介。事前に情報収集したものの後悔も多く、来年以降の参加者への助言を目的に執筆。re:Inventは技術会議を越え街全体が巻き込まれるAWSのお祭りで、到着時に圧倒された経験を語る。",
+      "summary": "初参加のre:Invent体験記。規模に圧倒されつつ、GameDay参加（実践演習＋日本語サポート）が最大の収穫、Keynoteは早起きで良席確保、Walk-upで人気セッションも狙えた。準備や時間配分は改善余地あり。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-12T11:57:23.000Z",
-      "contentHash": "c499473cbe7f"
+      "contentHash": "9fa9ae5b0d99"
     },
     {
       "id": "c3c3deb5a75a",
@@ -95,10 +122,10 @@
       "id": "6713f6325d56",
       "title": "AnsibleのWinRMとPSRPの違いをみてみよう(パフォーマンス計測編） | 赤帽エンジニアブログ",
       "url": "https://rheb.hatenablog.com/entry/2025/12/12/181649",
-      "summary": "Ansibleテクニカルサポート八木澤のAdvent Calendar12日目。前回のWinRMとPSRPの違い（WinRMは毎回プロセス生成で重く、PSRPはRunspace再利用で高速）に続き、実環境でPlaybook実行時の性能差を検証する記事です。",
+      "summary": "AnsibleのWinRMとPSRPの性能差を実測。WinRMは毎回プロセス生成で重く、PSRPはRunspace再利用で高速。Fedora上のansible-coreからKVMのWindows Server 2025へ接続し、win_pingとwin_fileを各100回実行して接続オーバーヘッドを比較する検証を行う。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-12T09:16:49.000Z",
-      "contentHash": "54d78719a41e"
+      "contentHash": "c94ce6476eec"
     },
     {
       "id": "3e8cd3df1ec9",
@@ -203,10 +230,10 @@
       "id": "6e0fcec6bcfc",
       "title": "Young journalists expose Russian-linked vessels off the Dutch and German coast",
       "url": "https://www.digitaldigging.org/p/they-droned-back",
-      "summary": "ドイツの7人の若手記者が、オランダ・ドイツ沖で徘徊するロシア系船舶を追跡し、軍港上空のドローン群と結び付けた。OSINTと現地検証、機密資料でHAV Dolphin/Snapperやタルトゥース訪問歴の貨物船Laugaの関連を解明した。",
+      "summary": "ドイツの学生記者7人が、オランダ・ドイツ沖でロシア系の貨物船が防衛造船所近くを巡回し、基地上空のドローン群と時系列で結びつくことを、現地追跡や機密文書の解析で突き止めた。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T08:24:22.000Z",
-      "contentHash": "7b4a2a84ac23"
+      "contentHash": "139b9531eb34"
     },
     {
       "id": "4e40aaffb7ce",
@@ -356,10 +383,10 @@
       "id": "9f7e2457935f",
       "title": "GPT-5.2 の概要",
       "url": "https://note.com/npaka/n/n7a4bdf31d37a",
-      "summary": "OpenAIがGPT-5.2を公開。汎用知能、長文理解（約40万トークン）、ツール活用、Vision強化で実務向け能力向上。用途別にInstant/Thinking/Proの3種。APIは従量課金、知識カットオフは2025年4月31日。",
+      "summary": "元記事の本文がこちらにないため要約できません。記事全文か主要箇所を貼るか、リンクや要点（新機能・性能向上・公開日・用途など）を教えてください。貼っていただければ200字以内で要約します。",
       "source": "npaka",
       "publishedAt": "2025-12-12T04:02:38.000Z",
-      "contentHash": "9b3676a1e8dc"
+      "contentHash": "8d6fa74248ee"
     },
     {
       "id": "b9ee4f8196e1",
@@ -599,10 +626,10 @@
       "id": "56af479cf1b1",
       "title": "CRISPR fungus: Protein-packed, sustainable, and tastes like meat",
       "url": "https://www.isaaa.org/kc/cropbiotechupdate/article/default.asp?ID=21607",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文を貼り付けるか、要点を送っていただけますか？そうすれば200文字以内の日本語要約を作成します。必要ならHNコメントも一緒にどうぞ。",
+      "summary": "すみません、外部サイトに直接アクセスできないため記事本文を取得できません。記事の本文を貼るか要点を教えていただければ、200文字以内で日本語要約します。HNコメントの要約も可能です。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T00:59:46.000Z",
-      "contentHash": "bf5825bd86c1"
+      "contentHash": "7f09d0c827e4"
     },
     {
       "id": "561f0ce88a43",
@@ -905,10 +932,10 @@
       "id": "b1777f885b25",
       "title": "UK House of Lords attempting to ban use of VPNs by anyone under 16",
       "url": "https://alecmuffett.com/article/134925",
-      "summary": "申し訳ありませんが、外部URLの内容を直接取得できません。記事本文を貼るか主要ポイントを教えてください。貼っていただければ200字以内で要約します。",
+      "summary": "外部サイトに直接アクセスできないため、記事本文をここに貼っていただけますか？本文を貼っていただければ、200文字以内で日本語要約を作成します。要点だけでよければ抜粋でも大丈夫です。",
       "source": "Hacker News",
       "publishedAt": "2025-12-11T20:32:22.000Z",
-      "contentHash": "4346a0bb0590"
+      "contentHash": "08a3c5665c50"
     },
     {
       "id": "b0cfd5d61264",
@@ -932,10 +959,10 @@
       "id": "29c66ab6de76",
       "title": "My productivity app is a never-ending .txt file (2020)",
       "url": "https://jeffhuang.com/productivity_text_file/",
-      "summary": "著者は14年間、終わりなき.txtファイルを主要なタスク管理に使用。外部はオンラインカレンダーのみで全予定を日付に置き、毎晩翌日のカレンダー項目を末尾に追記して日次ToDoを作る方式。",
+      "summary": "Jeff Huangの記事は、作業や生活を1つのプレーンテキストファイルで一元管理する手法を提案。日次ログ・TODO・プロジェクト・カレンダー・スニペットをタグや簡単なコマンドで整理し、検索・同期・バージョン管理で低摩擦かつ柔軟に運用する利点と実例を解説している。",
       "source": "Hacker News",
       "publishedAt": "2025-12-11T19:30:58.000Z",
-      "contentHash": "111c1291a588"
+      "contentHash": "c5264693cc53"
     },
     {
       "id": "55699a83fe9c",
@@ -995,10 +1022,10 @@
       "id": "d3945e6ac563",
       "title": "Gemini Deep Research Agent の概要",
       "url": "https://note.com/npaka/n/n9e52f89e8585",
-      "summary": "Gemini Deep Research AgentがAPI経由で強化公開。Gemini 3 Pro搭載で多段階の自律的Web調査を高精度に実行し、DeepSearchQA（900問・17分野）をオープン化。金融・バイオ・市場調査で実運用され、低コストで網羅的な調査レポートを生成。今後Google各製品へ展開予定。",
+      "summary": "「Build with Gemini Deep Research」に関する記事を面白いと感じ、要点を簡潔にまとめています。Geminiを活用した研究・開発の概要と注目ポイントを紹介しており、詳細は本文（続きを読む）で確認できます。",
       "source": "npaka",
       "publishedAt": "2025-12-11T18:08:56.000Z",
-      "contentHash": "66fb30ce81d0"
+      "contentHash": "910a6bc0daa8"
     },
     {
       "id": "2d181d7810ca",
@@ -1490,10 +1517,10 @@
       "id": "c308764f76db",
       "title": "ChatGPT からの Photoshop を試す",
       "url": "https://note.com/npaka/n/n884da273286c",
-      "summary": "ChatGPT内で使える「Adobe Photoshop for ChatGPT」を試用。選択・調整・エフェクト・背景ぼかし/削除・元に戻すなどが利用可能。@adobeメニューでPhotoshopを選び画像を追加、指示送信・接続許可で編集結果を確認・ダウンロードできる。",
+      "summary": "AdobeがChatGPTにAdobe Express、Photoshop、Acrobatを統合。チャット上で画像やデザイン、PDFの編集が可能になり、実際にChatGPT内でPhotoshopを試した体験をまとめた記事。",
       "source": "npaka",
       "publishedAt": "2025-12-11T06:04:12.000Z",
-      "contentHash": "e3e00e4e71dc"
+      "contentHash": "616277431746"
     },
     {
       "id": "ba511f64a3e7",
@@ -1931,10 +1958,10 @@
       "id": "fbd9a28c3708",
       "title": "Gemini 2.5 Flash ・ Pro TTS のアップデート - 2025年12月10日",
       "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "Gemini 2.5 Flash／Pro TTSが大幅強化。スタイルプロンプトへの忠実性や表現力向上、状況に応じたペース制御、複数話者の音声一貫性改善、24言語対応。Flashは低遅延、Proは高品質。",
+      "summary": "GeminiのTTS改善を紹介。音質と自然さが向上し、話者や感情、発話スタイルなどの細かな制御が可能に。開発者向けAPIやツールでカスタマイズ性と実用性が高まり、応用範囲が広がった、という内容です。",
       "source": "npaka",
       "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "df5d3752cd6f"
+      "contentHash": "0c872963649c"
     },
     {
       "id": "61a85cfbb5d3",
@@ -1985,10 +2012,10 @@
       "id": "1513960f9162",
       "title": "Unityゲームを Reddit 投稿として動かす手順まとめ",
       "url": "https://note.com/npaka/n/n6588ee59287c",
-      "summary": "DevvitのUnityテンプレートでUnityゲームをReddit投稿として動かす手順を解説。必要環境（Node.js、Unity6等）、セットアップ手順、npm run devでの起動、RedditとUnity間の通信やプロジェクト構成（src/client/server/shared、Buildやsplashなど）を説明しています。",
+      "summary": "記事本文かリンクが必要です。提示されたのは断片のみで要約できません。記事全文かURLを貼っていただければ、200文字以内で日本語に要約します。",
       "source": "npaka",
       "publishedAt": "2025-12-10T22:15:27.000Z",
-      "contentHash": "290c014090ef"
+      "contentHash": "c20772a5a14d"
     },
     {
       "id": "82e6217449e0",
@@ -3821,10 +3848,10 @@
       "id": "8b5993ac7f69",
       "title": "低コスト・オープンソースのロボットハンド Amazing Hand のススメ",
       "url": "https://note.com/npaka/n/nf59d85ba3538",
-      "summary": "「Amazing Hand」はHugging Face傘下POLLENが開発した低コストな4本指・8自由度のオープンソースロボットハンド。3Dプリント部品とホビーサーボで自作でき、Seeed Studioでキット販売。完全OSSのSDKやテレオペ操作（グローブ／姿勢推定）、データ収集、センサ配信を備え、Raspberry PiやJetson等で学習実験に活用可能で、入門向けに敷居を下げるプロジェクト。",
+      "summary": "記事本文を貼ってください。URLだけではこちらで閲覧できません。本文を頂ければ200文字以内で要約します。もし要点だけ教えて頂ければ、それを元に要約も作れます。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:12:06.000Z",
-      "contentHash": "a93564d9fa54"
+      "contentHash": "1757b63d4964"
     },
     {
       "id": "9d66f25183c5",
@@ -4118,19 +4145,19 @@
       "id": "0f81d8553bdd",
       "title": "EarthRover Mini+ の概要",
       "url": "https://note.com/npaka/n/n22a1785aa8a6",
-      "summary": "EarthRover Mini+はFrodoBots製のオープンソース小型モバイルロボット。デュアルカメラ、約1.5kg、4–5時間稼働、IMU/GPS、差動駆動、4G/Wi‑Fi（日本での4G動作は未確認）、約300ドル。SDKとデータ共有で実世界ナビ・SLAM・遠隔操作研究やLeRobot/Python APIを用いた学習・評価に適する。",
+      "summary": "小型モバイルロボット「EarthRover Mini+」の概要紹介。公式は多数国の4G対応を謳うが、日本国内での動作確認は現時点でできていない。対応すれば購入を検討したいとの注記あり。",
       "source": "npaka",
       "publishedAt": "2025-12-09T05:40:28.000Z",
-      "contentHash": "e9ff4c18c2ce"
+      "contentHash": "ea5202429ecb"
     },
     {
       "id": "ab579275109a",
       "title": "Android Show: XR Edition 発表内容まとめ",
       "url": "https://note.com/npaka/n/na67cf3c4d5f5",
-      "summary": "Android Show: XR EditionでAndroid XRの新機能と今後のデバイスを発表。Galaxy XRにPC Connect（Beta）、Travel Mode、Likeness（Beta）を追加。軽量AIグラス（音声アシスタント型／表示型）やXREALの有線「Project Aura」を公開し、Android XR SDK Developer Preview 3を提供。",
+      "summary": "「Android Show: XR Edition」は、Galaxy XR向けの新機能を発表し（ソフト面の改善や開発者向け支援など）、今後のXRデバイスやエコシステム拡大の方向性を示した、という発表内容のまとめです。",
       "source": "npaka",
       "publishedAt": "2025-12-09T05:26:26.000Z",
-      "contentHash": "af2bf543f353"
+      "contentHash": "7291b2e845a6"
     },
     {
       "id": "4cdaee91d928",
@@ -8973,33 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-11-27T06:53:17.000Z",
       "contentHash": "a31f8aedb93b"
-    },
-    {
-      "id": "6f9cb0b1a792",
-      "title": "業務で進むLLM活用、その裏に潜む脅威とは？Microsoft 365 Copilotを介した攻撃検証（インターン体験記） | NTT docomo Business Engineers' Blog",
-      "url": "https://engineers.ntt.com/entry/202511-offsec-intern-1/entry",
-      "summary": "NTTドコモの現場受け入れ型インターンに「攻撃者視点」セキュリティエンジニア（D2）で参加した体験記。Offensive Security PJの紹介、参加経緯、インターン内容やMicrosoft 365 Copilotの悪用検討などを報告する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T06:51:48.000Z",
-      "contentHash": "985168881a7a"
-    },
-    {
-      "id": "11853579ec63",
-      "title": "AIで攻撃者視点を強化する：LLMによるRed Teamオペレーション高度化検討（インターン体験記） | NTT docomo Business Engineers' Blog",
-      "url": "https://engineers.ntt.com/entry/202511-offsec_intern_2/entry",
-      "summary": "NTTドコモグループの現場受け入れ型インターンで「D2：攻撃者視点のセキュリティエンジニア」として参加した島田が、Offensive Security PJの活動、参加経緯、インターン概要、LLM応用によるRed Team高度化検証やJuicy情報について紹介する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T06:50:25.000Z",
-      "contentHash": "9e1e379f20a1"
-    },
-    {
-      "id": "dfd8f4c89cb1",
-      "title": "デザイナーも実装する〜FigmaMCPを活用した「デザインシステム開発」と「UI実装仕組みの導入」〜 | ONE CAREER Tech Blog",
-      "url": "https://note.com/dev_onecareer/n/na8f9497cab15",
-      "summary": "ワンキャリア（学生版）Webチームの北原とプロダクトデザイナー成井が、自社のデザインとフロントエンドの課題に挑んだ2つの事例を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T06:37:44.000Z",
-      "contentHash": "e0cd3f623661"
     }
   ]
 }
