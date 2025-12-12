@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2025-12-12T05:30:34.139Z",
+  "generatedAt": "2025-12-12T06:39:22.248Z",
   "items": [
+    {
+      "id": "aa84870fc9ca",
+      "title": "YAPC::Fukuoka 2025 参加レポート | inSmartBank",
+      "url": "https://blog.smartbank.co.jp/entry/2025/12/12/150000",
+      "summary": "スマートバンクはPlatinum協賛でYAPC::Fukuoka 2025（11/14-15）に10名で参加。初参加の3名が、大学のAI教育、巨大OSS貢献、生成AIの弱点、P山のキーノート、Hono開発の苦労など印象を報告しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T06:00:00.000Z",
+      "contentHash": "960338fec271"
+    },
+    {
+      "id": "805be5bbd4cf",
+      "title": "イエスと言って“誠実に合意形成する”ための技術 | RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20251212/pdm",
+      "summary": "プロダクト部長の稲垣が教える手法：まず力強くイエスと言い本気で徹底調査→事実ベースで淡々と報告することで、相手が自発的に見送る判断をし関係性と信頼を保つ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T06:00:00.000Z",
+      "contentHash": "efe75754c354"
+    },
+    {
+      "id": "799d70e89f8e",
+      "title": "2025/12/11 Coalesce on the road Tokyo 「dbt platform導入前の不安を解消する───リアルな一ヶ月検証記」登壇資料 | freee Developers Hub",
+      "url": "https://developers.freee.co.jp/entry/2025/12/12/144701",
+      "summary": "2025年5月29日開催のCoalesce on the road Tokyoでの登壇資料「dbt platform導入前の不安を解消する───リアルな一ヶ月検証記」。技術発表・社内研修向けの内容で、speakerdeckに公開（投稿者：kao826）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T05:47:01.000Z",
+      "contentHash": "f3f55ef17eab"
+    },
+    {
+      "id": "acdea81f3665",
+      "title": "MySQLの EXPLAIN / EXPLAIN ANALYZEによる実行計画の実測分析と注意点 | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2025/12/12/143559",
+      "summary": "MySQLのEXPLAINはオプティマイザの推定計画を表示するのに対し、EXPLAIN ANALYZEは実際にクエリを実行して実測行数・実行時間・JOIN順などを示す。推定と実測の乖離把握に有効だが、UPDATE/DELETEは実行されデータやロックに注意。実行計画の読み方と使いどころを解説している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T05:35:59.000Z",
+      "contentHash": "4a22383f7356"
+    },
+    {
+      "id": "6fe8d61f43dc",
+      "title": "MLX-LMによるGPT-OSSファインチューニング実践 | TalentX Tech Blog",
+      "url": "https://tech.talentx.co.jp/entry/2025/12/12/141206",
+      "summary": "Apple Silicon（M4 Max）上でMLX-LMとLoRAを用い、GPT-OSS 20BをHR領域向けにファインチューニング。JILPTの職業データをJSONL化して学習・評価し、HR特化応答の改善を確認。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T05:12:06.000Z",
+      "contentHash": "16dd12997df9"
+    },
+    {
+      "id": "e74ee09347a2",
+      "title": "ボットからのアクセスで負荷が偏るケースを発見しました | DMM Developers Blog",
+      "url": "https://developersblog.dmm.com/entry/2025/12/12/140000",
+      "summary": "ALBのスティッキーセッションでCookieを使い回すボットが特定コンテナに大量アクセスを送り、レスポンス悪化を招いた。スティッキー無効化で均等化。IPでは追えないためNginxログにAWSALB Cookieを出力して追跡。ECS組み込みのBlue/Greenは相性が悪く、ALBのリスナールールが複雑な場合は独自Lambdaで切替実装が必要と結論。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T05:00:00.000Z",
+      "contentHash": "c02a0c3d6d08"
+    },
+    {
+      "id": "c54cfd552ae2",
+      "title": "【re:Inent 2025】Operationalize Amazon Quick Suite deployments at scale (BIZ406) 参加レポート | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/reinvent2025-biz406-operationalize-quick-suite",
+      "summary": "re:Invent 2025のChalk talkでは、Amazon QuickSightの大規模デプロイ自動化を紹介。アセットをMain/Auxiliary/Managementに分類し、フォルダをデプロイ単位／セキュリティ境界として活用。従来のテンプレートに代わるAsset Bundle APIなど最新ベストプラクティスを提示した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T04:58:56.000Z",
+      "contentHash": "bcd397ecd4aa"
+    },
+    {
+      "id": "5bdfe37ad126",
+      "title": "IT系アドバンスド・コーヒーマイスターが語る「コーヒーとIT」 | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/33973",
+      "summary": "IT開発者でSCAJアドバンスド・コーヒーマイスターの著者が、プログラマのコーヒー習慣と「抽出（レシピ）」の科学性を対比。味の再現性の重要性を説き、器具（グラインダー等）とITが再現性向上に役立つと論じる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T04:27:17.000Z",
+      "contentHash": "ba5d6234ac6d"
+    },
+    {
+      "id": "8aa284ee1828",
+      "title": "IIJの品質保証部を紹介します──多様なサービスを支えるQAの取り組み | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/33307",
+      "summary": "IIJの品質保証部は約30の法人向けサービスのリリース前システムテストを担当。高品質提供をミッションに、業務改善・評価品質向上・シフトレフトで品質に貢献。SD‑WAN/SASEやDNSなど専門領域で深い評価を行い、今後情報発信を強化する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T04:26:33.000Z",
+      "contentHash": "295de9bc689a"
+    },
+    {
+      "id": "4030212c2311",
+      "title": "AntigravityとGemini 3でアプリ開発したら、めちゃくちゃ効率的だった話 | TechHarmony",
+      "url": "https://blog.usize-tech.com/antigravity-gemini3-app-development/",
+      "summary": "GoogleのAgentic IDE「Antigravity」とGemini 3で、画面キャプチャの不要情報を黒塗りし注目箇所を赤枠で囲う画像編集アプリを開発。Agentモードで指示→ローカル確認→Cloud Run展開を行い、タイムアウトやメモリ問題はあったが開発効率は非常に高かった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T04:24:35.000Z",
+      "contentHash": "c516b8c42267"
+    },
     {
       "id": "f14e08e9435d",
       "title": "runnでAPIテストをしてみた | アルダグラム Tech Blogのフィード",
@@ -14,10 +104,10 @@
       "id": "9f7e2457935f",
       "title": "GPT-5.2 の概要",
       "url": "https://note.com/npaka/n/n7a4bdf31d37a",
-      "summary": "OpenAIがGPT-5.2を発表。汎用知能・長文理解（約40万トークン）・ツール連携・Vision性能が向上し実務支援に強化。Instant/Thinking/Proの3種があり、APIは従量課金。知識カットオフは2025年4月31日。",
+      "summary": "OpenAIが「GPT-5.2」を発表。約40万トークンの長文理解、エージェント操作性やVision強化で高度な知能を提供。Instant/Thinking/Proの3種展開、APIはトークン従量課金。知識は2025/4/31まで。",
       "source": "npaka",
       "publishedAt": "2025-12-12T04:02:38.000Z",
-      "contentHash": "a7f6a79afb98"
+      "contentHash": "84550e6de175"
     },
     {
       "id": "b9ee4f8196e1",
@@ -257,10 +347,10 @@
       "id": "77f04e2dc2e2",
       "title": "The Game Awards 2025: all the news and announcements",
       "url": "https://www.theverge.com/games/841973/the-game-awards-2025-annoucements-news-trailers",
-      "summary": "ゲームアワード2025のまとめ：Clair Obscur: Expedition 33が12ノミネートで本命。Tomb Raider新作2作発表、ControlのアクションRPG続編は2026年、次のスター・ウォーズ作はKOTORの精神的後継。Resident Evil: Requiemは情報流出。Expedition 33は新エリアやフォトモード等の大型アップデート。",
+      "summary": "Game Awards 2025はClair Obscur: Expedition 33が12部門で有力。Tomb Raider新作2本発表、ControlのアクションRPG続編は2026年、次のスター・ウォーズはKOTOR系、Resident Evil: Requiemは流出。Expedition 33に大型アップデート。",
       "source": "The Verge",
       "publishedAt": "2025-12-12T00:30:00.000Z",
-      "contentHash": "a166d598d6ab"
+      "contentHash": "5ae0b9ee83ea"
     },
     {
       "id": "fa60ed9c9985",
@@ -608,10 +698,10 @@
       "id": "5bb6ec8fac2b",
       "title": "Rivian Unveils Custom Silicon, R2 Lidar Roadmap, and Universal Hands Free",
       "url": "https://riviantrackr.com/news/rivian-unveils-custom-silicon-r2-lidar-roadmap-universal-hands-free-and-its-next-gen-autonomy-platform/",
-      "summary": "Rivianは独自5nmプロセッサRAP1やAIコンパイラ、Gen3自律コンピュータACM3を発表。R2は2026年末からACM3搭載で当初はLiDAR非搭載、後日LiDAR追加へ。大規模運転モデルと自己学習データループで自律性能を向上、ユニバーサルハンズフリーも示唆。",
+      "summary": "RivianはAutonomy & AI Dayで自社開発5nmプロセッサRAP1（1600 sparse INT8 TOPS、毎秒50億画素処理）やAIコンパイラ、Gen3 ACM3を発表。R2は2026年末にACM3搭載で登場し当初はLiDAR非搭載だが後日追加予定。大規模運転モデルと自己改善データループで自動運転を強化。",
       "source": "Hacker News",
       "publishedAt": "2025-12-11T18:17:19.000Z",
-      "contentHash": "1052d2254458"
+      "contentHash": "37fa9fc46395"
     },
     {
       "id": "98e47f285e91",
@@ -8910,96 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-27T03:01:10.000Z",
       "contentHash": "0668202992f6"
-    },
-    {
-      "id": "071941eeba6d",
-      "title": "DIY NAS: 2026 Edition",
-      "url": "https://blog.briancmoses.com/2025/11/diy-nas-2026-edition.html",
-      "summary": "Brian Mosesの「DIY NAS 2026 Edition」は、自作NASの最新ガイド記事です。目的別のハード選定、ZFSなどファイルシステムの利点、ECCやメモリ要件、ドライブや10GbE等のネットワーク、消費電力・静音対策、バックアップと冗長化、TrueNAS/OMV/unRAIDやコンテナ運用の実務的注意点を解説しています。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T02:54:23.000Z",
-      "contentHash": "d4f131f2a9f1"
-    },
-    {
-      "id": "ffd6f858dd55",
-      "title": "Green Card Interviews End in Handcuffs for Spouses of U.S. Citizens",
-      "url": "https://www.nytimes.com/2025/11/26/us/trump-green-card-interview-arrests.html",
-      "summary": "申し訳ありませんが、外部リンク先を直接閲覧できないため記事本文を確認できません。記事本文か主要段落をここに貼っていただければ、200字以内で日本語要約を作成します。HNのコメント要約も可。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T02:51:31.000Z",
-      "contentHash": "042bcfa16d38"
-    },
-    {
-      "id": "c0d4875dd605",
-      "title": "Penpot: The Open-Source Figma",
-      "url": "https://github.com/penpot/penpot",
-      "summary": "PenpotはオープンソースのWebベースデザイン・プロトタイピングツールで、Figmaの代替を志向し共同編集、コンポーネントやSVG対応、自ホスティングが可能。GitHubで活発に開発され、Hacker Newsでは将来性を評価する声と、機能や操作性の改善を求める議論が交わされている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T02:14:36.000Z",
-      "contentHash": "61a5ea4b2ac0"
-    },
-    {
-      "id": "b204cd4e590b",
-      "title": "bitbankのMCPサーバを公開しました | bitbank techblog",
-      "url": "https://tech.bitbank.cc/bitbank-mcp-published/",
-      "summary": "bitbankが公式MCPサーバをGitHubで公開。簡単導入で主要MCPクライアントと即時連携し、暗号資産価格をリアルタイムで取得可能に。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T02:00:40.000Z",
-      "contentHash": "12f079c7df77"
-    },
-    {
-      "id": "f7872a97166c",
-      "title": "2025年12月の技術系イベント予定 | LINEヤフー Tech Blog (LY Corporation Tech Blog",
-      "url": "https://techblog.lycorp.co.jp/ja/20251127b",
-      "summary": "LINEヤフーは技術系イベントや勉強会の主催・協賛を行っています。開催情報や申込は各リンク先で確認してください。タイミングによっては申込前や既に満席となっている場合があります。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T02:00:00.000Z",
-      "contentHash": "2e653a21e766"
-    },
-    {
-      "id": "829810f6f7a8",
-      "title": "AIで\"レビュー渋滞\"を解消する 〜PRレビュー支援と社内ワークショップでレビュー文化を変えた実践記録〜 | LINEヤフー Tech Blog (LY Corporation Tech Blog",
-      "url": "https://techblog.lycorp.co.jp/ja/20251127c",
-      "summary": "Orchestration Guildメンバーの福山です。普段はYahoo!プレイスでフロントエンド開発を担当しており、この記事ではまずOrchestration Guildの紹介をします。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T02:00:00.000Z",
-      "contentHash": "af3252715c24"
-    },
-    {
-      "id": "0fbca8bb5b71",
-      "title": "さくらのクラウド オブジェクトストレージをAmazon S3互換APIで使う ～第1回：AWS CLIから利用してみよう～ | さくらのナレッジ",
-      "url": "https://knowledge.sakura.ad.jp/48152/",
-      "summary": "「さくらのクラウド」はオブジェクトストレージを提供し、データを「オブジェクト」単位で保存。各オブジェクトはデータ本体に加えメタデータと一意のIDが付与される。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T02:00:00.000Z",
-      "contentHash": "8733112a8951"
-    },
-    {
-      "id": "31fd8723a7f3",
-      "title": "コーディングエージェントのカスタムコマンドでGit操作を効率化 | KAKEHASHI Tech Blog",
-      "url": "https://kakehashi-dev.hatenablog.com/entry/2025/11/27/110000",
-      "summary": "椎葉（カケハシ VPoT）が、普段メインで使うCursorのカスタムコマンド2つを紹介。カケハシではCursor・Claude Code・Copilot・Devinを併用し、最近はTerraformでAWS構築にCursorを活用。日常的なコミットとプルリク作成を効率化するためのコマンド紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T02:00:00.000Z",
-      "contentHash": "293349113bc1"
-    },
-    {
-      "id": "9b6965614219",
-      "title": "Go のエラーの扱いを振り返る | every Tech Blog",
-      "url": "https://tech.every.tv/entry/2025/11/27/105952",
-      "summary": "Goのエラーハンドリング解説記事。エラー構造、再帰的処理や典型的パターン、errors.Asによる値抽出、errors.Isによる一致判定、Go1.26で導入予定のerrors.AsTypeを紹介。Advent Calendar 2025初日記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T01:59:52.000Z",
-      "contentHash": "090861fa3ffd"
-    },
-    {
-      "id": "7771cbcf92d2",
-      "title": "Migrating the main Zig repository from GitHub to Codeberg",
-      "url": "https://ziglang.org/news/migrating-from-github-to-codeberg/",
-      "summary": "申し訳ありませんが、外部URLの内容を直接取得できません。記事本文を貼っていただければ、200文字以内で日本語要約します。HNコメントの要約も必要なら、その本文も貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T01:49:00.000Z",
-      "contentHash": "45c0c8b90a73"
     }
   ]
 }
