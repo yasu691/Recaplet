@@ -1,6 +1,33 @@
 {
-  "generatedAt": "2025-12-12T06:39:22.248Z",
+  "generatedAt": "2025-12-12T07:32:37.252Z",
   "items": [
+    {
+      "id": "fd0256fad497",
+      "title": "ウェブエンジニアなら知っておきたい CORS について | Fenrir Engineers",
+      "url": "https://engineers.fenrir-inc.com/entry/2025/12/12/160240",
+      "summary": "ブラウザの同一生成元ポリシー（SOP）で異なるオリジンへのアクセスが制限されるため発生するCORS（コーズ）を解説。単純/プリフライト(OPTIONS)の違いや制御ヘッダー、設定場所、開発環境のProxyやSSRの挙動、Access-Control-Max-Ageによる高速化などの落とし穴と対策を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T07:02:40.000Z",
+      "contentHash": "fda81f2334df"
+    },
+    {
+      "id": "2d69e599f3bd",
+      "title": "「ブラックボックス」を観測せよ——OBIとMackerel APMで「さわれない」アプリケーションにオブザーバビリティをもたらす方法 | Mackerel ブログ #mackerelio",
+      "url": "https://mackerel.io/ja/blog/entry/tech/obi-instrument",
+      "summary": "OBI（OpenTelemetry eBPF Instrumentation）でコード変更不要のゼロコード計装を行い、レガシーやバイナリ化された“ブラックボックス”アプリの通信を解析してトレースを生成、Mackerel APMに統合してフロントエンド〜DBまで可視化・問題検出する手順やPHP事例、N+1検出などを解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T07:00:00.000Z",
+      "contentHash": "600fa2aaa1b7"
+    },
+    {
+      "id": "0b1fa40d5c69",
+      "title": "AWS re:Invent 2025 参加レポート | TVer Tech Blog",
+      "url": "https://techblog.tver.co.jp/entry/yokoo/aws-reinvent-2025",
+      "summary": "TVerの横尾がAWS re:Invent2025に参加。会場は「AIエージェント」一色で、補助的なAssistantから自律的に計画・実行するAgentへパラダイムシフト。翻訳や要約で言語障壁が低下し、Amazon NovaやBedrockで映像ハイライト自動生成、メタデータ・レコメンド自動化が可能で、TVerの編成・CMS・タグ付け等への応用が期待される。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T06:38:15.000Z",
+      "contentHash": "7bd3bfd4d935"
+    },
     {
       "id": "aa84870fc9ca",
       "title": "YAPC::Fukuoka 2025 参加レポート | inSmartBank",
@@ -45,6 +72,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-12T05:12:06.000Z",
       "contentHash": "16dd12997df9"
+    },
+    {
+      "id": "305cbd3bdf13",
+      "title": "【Ruby on Rails】Active Recordのupdateメソッドで中間レコードを良い感じに作ってくれるようなので詳しく見てみる | wwwave's Techblogのフィード",
+      "url": "https://zenn.dev/wwwave/articles/4c78e3b54fba76",
+      "summary": "Railsのupdate(tag_ids: ...)が中間テーブルのレコードを自動で同期する挙動を確認・解析した記事。updateはassign_attributesでtag_ids=を呼び出し、それが既存のbook_tagsを削除して新しいbook_id=1のtag_id=1〜3を作る仕組み（define_writersやcollection_singular_idsなど内部実装を追跡）を解説している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T05:07:16.000Z",
+      "contentHash": "30947d27bb37"
     },
     {
       "id": "e74ee09347a2",
@@ -104,10 +140,10 @@
       "id": "9f7e2457935f",
       "title": "GPT-5.2 の概要",
       "url": "https://note.com/npaka/n/n7a4bdf31d37a",
-      "summary": "OpenAIが「GPT-5.2」を発表。約40万トークンの長文理解、エージェント操作性やVision強化で高度な知能を提供。Instant/Thinking/Proの3種展開、APIはトークン従量課金。知識は2025/4/31まで。",
+      "summary": "OpenAIが実用重視の新モデルGPT-5.2を発表。汎用知能・長文理解（約40万トークン）・Vision・ツール活用が強化され、コーディングや要約、プロジェクト自動化に強い。Instant/Thinking/Proの3種とAPI従量課金で提供。学習データは2025年4月末まで。",
       "source": "npaka",
       "publishedAt": "2025-12-12T04:02:38.000Z",
-      "contentHash": "84550e6de175"
+      "contentHash": "e2470bf3fc72"
     },
     {
       "id": "b9ee4f8196e1",
@@ -347,10 +383,10 @@
       "id": "77f04e2dc2e2",
       "title": "The Game Awards 2025: all the news and announcements",
       "url": "https://www.theverge.com/games/841973/the-game-awards-2025-annoucements-news-trailers",
-      "summary": "Game Awards 2025はClair Obscur: Expedition 33が12部門で有力。Tomb Raider新作2本発表、ControlのアクションRPG続編は2026年、次のスター・ウォーズはKOTOR系、Resident Evil: Requiemは流出。Expedition 33に大型アップデート。",
+      "summary": "The Game Awards 2025まとめ：Clair Obscur: Expedition 33が12ノミネートで有力、本作に大型「Thank You」更新。Tomb Raider新作2本発表、Control続編は2026年、次のスター・ウォーズはKOTOR系、Resident Evil: Requiemは流出情報。授賞式への批判も。",
       "source": "The Verge",
       "publishedAt": "2025-12-12T00:30:00.000Z",
-      "contentHash": "5ae0b9ee83ea"
+      "contentHash": "8a48de1e477b"
     },
     {
       "id": "fa60ed9c9985",
@@ -716,10 +752,10 @@
       "id": "d3945e6ac563",
       "title": "Gemini Deep Research Agent の概要",
       "url": "https://note.com/npaka/n/n9e52f89e8585",
-      "summary": "GoogleはGemini 3 Proを核とした「Gemini Deep Research Agent」を公開。長時間の文脈収集や多段階検索で幻覚を抑え、深いWeb探索と自律的調査を実現。網羅性を測る900問のベンチマーク「DeepSearchQA」を公開し、金融・バイオ・市場調査などで実運用が進む。",
+      "summary": "GoogleがInteractions API経由でGemini Deep Research Agentを公開。Gemini 3 Pro搭載で長時間・多段階のWeb調査を自律的に反復実行し、精度と網羅性を向上。ベンチマークDeepSearchQA（900問）を公開し、金融・バイオ・市場調査で実装中。",
       "source": "npaka",
       "publishedAt": "2025-12-11T18:08:56.000Z",
-      "contentHash": "82b97fc0a638"
+      "contentHash": "ec91537617a7"
     },
     {
       "id": "2d181d7810ca",
@@ -1652,10 +1688,10 @@
       "id": "fbd9a28c3708",
       "title": "Gemini 2.5 Flash ・ Pro TTS のアップデート - 2025年12月10日",
       "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "Gemini 2.5 Flash／Pro TTSプレビューが強化。表現力とスタイル指示への忠実性向上、状況対応のペース制御、複数話者の一貫性改善、24言語対応。Flashは低遅延、Proは高品質向け。",
+      "summary": "Gemini 2.5 Flash/ProのTTSプレビューが強化され、表現力とスタイル指示の忠実性、状況に応じたペース調整、複数話者での音声一貫性が向上。24言語対応で、Flashは低遅延、Proは高品質向け。",
       "source": "npaka",
       "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "45f3d7ff8727"
+      "contentHash": "59e8029a76ef"
     },
     {
       "id": "61a85cfbb5d3",
@@ -3542,10 +3578,10 @@
       "id": "8b5993ac7f69",
       "title": "低コスト・オープンソースのロボットハンド Amazing Hand のススメ",
       "url": "https://note.com/npaka/n/nf59d85ba3538",
-      "summary": "POLLEN（Hugging Face傘下）の「Amazing Hand」は、3Dプリント部品と内蔵サーボで8自由度を実現する低コストなオープンソース4本指ロボットハンド。SDKでテレオペレーション（グローブ・カメラ）、データ収集、センサーストリーミングに対応し、Seeed Studioでキット販売中。導入の敷居を下げるプロジェクト。",
+      "summary": "POLLEN（Hugging Face傘下）のAmazing Handは、3Dプリントと市販サーボで作れる低コスト・オープンソースの4指8自由度ロボットハンド。内部アクチュエータでコンパクト、SDK・テレオペ・データ収集機能を備え、Raspberry Pi/Jetson等対応。入門用キットとして敷居を下げる存在。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:12:06.000Z",
-      "contentHash": "71bb4e9bc1c6"
+      "contentHash": "a93564d9fa54"
     },
     {
       "id": "9d66f25183c5",
@@ -8964,42 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-27T03:31:35.000Z",
       "contentHash": "683d19a33c9f"
-    },
-    {
-      "id": "fdcd92d29241",
-      "title": "GitHub ActionsにおけるGitHub-hosted runnerとSelf-hosted runnerのパフォーマンス比較(CPU編) | Hatena Developer Blog",
-      "url": "https://developer.hatenastaff.com/entry/2025/11/27/123119",
-      "summary": "システムプラットフォームチームのid:rskmm0changによるはてなのSRE連載2025年11月号。前号はid:cohalzのGitHub関連記事で、本稿はActions Runner Controllerで提供するSelf-hostedランナーのパフォーマンス比較を始めた経緯と内容を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T03:31:19.000Z",
-      "contentHash": "6d80938b0bdf"
-    },
-    {
-      "id": "ea42674e3f83",
-      "title": "“型”を破りに金沢へ—— TSKaigi Hokuriku 2025 に参加してきました | kickflow Tech Blog",
-      "url": "https://tech.kickflow.co.jp/entry/2025/11/27/123058",
-      "summary": "夜の金沢駅前の鼓門がビグ・ザムみたいでカッコいい、プロダクト開発部のエンジニア秋山です。JSConf JP 2025に続き、同僚・芳賀とTSKaigi Hokuriku 2025に参加したイベントレポートをお届けします。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T03:30:58.000Z",
-      "contentHash": "8ec2c9936708"
-    },
-    {
-      "id": "17ede8517f66",
-      "title": "就業型インターン「Booost!!!」：【お悩み相談室】コラム記事の新規アプリケーション移植 | エキサイト TechBlog.",
-      "url": "https://tech.excite.co.jp/entry/2025/11/27/120624",
-      "summary": "インターンで既存の「お悩み相談室」コラム機能を旧フレームワークBEAR.SaturdayからLaravel基盤の新フレームワークへ移植する作業を担当した。BEAR.SaturdayはPage（onInject/onInit/onOutput等）などで構成される。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T03:06:24.000Z",
-      "contentHash": "551167592974"
-    },
-    {
-      "id": "4db8bfe5d414",
-      "title": "経営・事業視点からPdMの価値を語る――本部長が明かす成長戦略 | techtekt",
-      "url": "https://techtekt.persol-career.co.jp/entry/member/251127_01",
-      "summary": "パーソルキャリアは「転職支援」から「キャリア支援」へシフトし、PdMがAIと人的支援を融合して次世代のキャリア体験を創出する役割を担っている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T03:01:10.000Z",
-      "contentHash": "0668202992f6"
     }
   ]
 }
