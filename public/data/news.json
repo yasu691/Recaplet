@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2025-12-12T03:33:28.555Z",
+  "generatedAt": "2025-12-12T04:43:42.943Z",
   "items": [
+    {
+      "id": "f14e08e9435d",
+      "title": "runnでAPIテストをしてみた | アルダグラム Tech Blogのフィード",
+      "url": "https://zenn.dev/aldagram_tech/articles/f0985f92eac554",
+      "summary": "アルダグラムでOpenAPIのシナリオテストにrunnを採用。YAMLのrunbookで同一シナリオをローカル／テスト／ステージング等で実行でき、リクエスト生成やexpr-langによる検証が便利でライブラリ更新時のデグレチェックに有用だった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T04:08:49.000Z",
+      "contentHash": "6bb31df19dcb"
+    },
+    {
+      "id": "9f7e2457935f",
+      "title": "GPT-5.2 の概要",
+      "url": "https://note.com/npaka/n/n7a4bdf31d37a",
+      "summary": "OpenAIがGPT-5.2を公開。汎用知能・長文理解（約40万トークン）・ツール連携・Visionが強化され、コード作成・要約・自動化など実務作業に高性能。Instant/Thinking/Proの3種。知識は2025/4/31時点。",
+      "source": "npaka",
+      "publishedAt": "2025-12-12T04:02:38.000Z",
+      "contentHash": "d6ed32d2de64"
+    },
+    {
+      "id": "b9ee4f8196e1",
+      "title": "CDK x CloudFront FunctionsでKeyValueStoreのデプロイが失敗した話 | atama plus techblogのフィード",
+      "url": "https://zenn.dev/atamaplus/articles/how-to-recreate-kvs-in-cdk",
+      "summary": "CDKでCloudFront FunctionsのKeyValueStoreを更新すると、CDKの自動生成された物理名が変わらずCloudFormationが置換できないためデプロイが失敗。対策は物理名にハッシュを含めるかリソースIDにハッシュを含める方法で、本記事では後者を採用。短縮URLリダイレクト用途のKVS利用例も紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T04:02:18.000Z",
+      "contentHash": "51529a29f647"
+    },
+    {
+      "id": "506f51dda7b0",
+      "title": "RDS (PostgreSQL) + Amazon Bedrockで始めるベクトル検索入門 | FORCIA Tech Blogのフィード",
+      "url": "https://zenn.dev/forcia_tech/articles/20251204_vector_search_handson",
+      "summary": "EC向けのベクトル検索入門。意味的類似で商品を検索し、キーワード検索と補完して取りこぼしを防ぐ手法を紹介。Aurora PostgreSQL＋pgvector＋aws_mlでAmazon Bedrock（Titan）をSQLから呼び出し、埋め込み生成・検索・リランキングを行う構成を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T04:00:02.000Z",
+      "contentHash": "8ef0b56cbc1f"
+    },
+    {
+      "id": "1037e1cc8e5a",
+      "title": "Vol. 10 100超のページコンポーネントのレイアウトを再設計し、設定画面のスクロール体験を改善した話 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2025/12/12/130000",
+      "summary": "Bill Oneの設定画面でページ遷移ごとにサイドバーのスクロール位置がリセットされる不具合を、レイアウトコンポーネントの再生成が原因と特定。React RouterのLayout Routes/Outletでレイアウトを一箇所に集約し再生成を防ぎ、StorybookのDecorator調整などで対応。影響範囲は大きいが根本原因理解と段階的改善を重視した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T04:00:00.000Z",
+      "contentHash": "c11e79308ce9"
+    },
+    {
+      "id": "da070c48b410",
+      "title": " [AWS re:Invent2025] Amazon Cloudwatch Application Signals | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/reinvent/session/AmazonCloudwatchApplicationSignals",
+      "summary": "Application SignalsはEKS等のアプリ可観測性を自動化するAWS機能。コード変更不要の自動計装、ランタイム指標取得、依存関係可視化（クロスアカウント対応）、AIOps/生成AIによる自動解析でMTTR短縮、トレース相関で根本原因特定を支援。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T04:00:00.000Z",
+      "contentHash": "73d8de16d5da"
+    },
+    {
+      "id": "49095354da9a",
+      "title": "緯度経度からの住所検索！〜日本の住所に絶望し、希望を見つけるまで〜 | LayerXのフィード",
+      "url": "https://zenn.dev/layerx/articles/489e81aae2e33b",
+      "summary": "LayerXのエンジニアが緯度経度から住所を表示する機能を低コストで実装した話。地図埋め込みはコストと画面占有で断念し、丁目レベルの文字住所表示を採用。住所クリックでGoogle Mapsへ飛び、逆ジオコーディング手段を検討した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T03:46:38.000Z",
+      "contentHash": "2fef354b73b8"
+    },
     {
       "id": "213fc42f2b3c",
       "title": "Tomb Raider announces two new games",
@@ -9,6 +72,42 @@
       "source": "The Verge",
       "publishedAt": "2025-12-12T03:11:15.000Z",
       "contentHash": "274d36276af4"
+    },
+    {
+      "id": "53ec91e07517",
+      "title": "dbtプロジェクトのmodelsのディレクトリ構造を再構築してみた | Yappli Tech Blog",
+      "url": "https://tech.yappli.io/entry/dbt-models-restructure",
+      "summary": "dbt Advent Calendar 2025の12日目。DS室の山本がmodels/ディレクトリを見直し再構築した背景と、再構築前後のディレクトリ構成の違いを解説。models構造に悩むdbt利用者向け。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T03:10:00.000Z",
+      "contentHash": "ac656613af60"
+    },
+    {
+      "id": "5309f7c645e8",
+      "title": "ライブラリ名も正確に反映される高性能AIレコーダー「Plaud Note Pro」を、Qiitaエンジニアがレビュー | Qiita Zine",
+      "url": "https://qiita.com/official-columns/interview/202512-plaud/",
+      "summary": "2025年10月14日発売のAIボイスレコーダー「Plaud Note Pro」をQiitaエンジニアがレビュー。カードケースに入る薄型軽量（3mm/30g）、5mまで高精度録音で「Jotai」などライブラリ名も文脈を理解して正確に文字起こし・要約。画像挿入やマインドマップ作成、専用アプリ連携で操作も簡単。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T03:04:52.000Z",
+      "contentHash": "7d6ef2a9f0d0"
+    },
+    {
+      "id": "269943a8a070",
+      "title": "StepCIを使ってSaaSのAPIを利用するAPIサーバーのE2Eテストやってみた | WealthNavi Engineering Blogのフィード",
+      "url": "https://zenn.dev/wn_engineering/articles/b5aa8e1f6a0aef",
+      "summary": "ウェルスナビのID基盤チームが、SaaS APIを含む内部APIのCI上E2EテストをStepCIで実装した事例。OpenAPIからテスト生成し、トークン取得・テストデータ作成・削除、レート制限対策やテンプレート機能で安全に自動化した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T03:00:04.000Z",
+      "contentHash": "74c226a6d43e"
+    },
+    {
+      "id": "fcea8fabb292",
+      "title": "Nuxt 3からNuxt 4へのメジャーアップデート：手順とハマりどころ、対応工数まとめ | レバテック開発部のフィード",
+      "url": "https://zenn.dev/levtech/articles/8d39c061a3ba55",
+      "summary": "Nuxt3→Nuxt4へ手動でアップデートした報告。Monorepoで独自構成のためCodemodsは不使用。手順は本体更新→型チェックで大量エラー対応（noUncheckedIndexedAccessを一時無効化）→components等をappディレクトリへ移行が最大の山場。tsconfig生成ルールの変更でPathエラーや設定分割に注意。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T03:00:04.000Z",
+      "contentHash": "fe0d261a6e5c"
     },
     {
       "id": "a1d4045db426",
@@ -158,10 +257,19 @@
       "id": "77f04e2dc2e2",
       "title": "The Game Awards 2025: all the news and announcements",
       "url": "https://www.theverge.com/games/841973/the-game-awards-2025-annoucements-news-trailers",
-      "summary": "Game Awards 2025では『Clair Obscur: Expedition 33』が12部門で最多ノミネートの有力候補。Crystal DynamicsとAmazonが2026年UE5リメイク『Tomb Raider: Legacy of Atlantis』、2027年新作『Tomb Raider Catalyst』を発表。Control続編は2026年、次のスター・ウォーズはKOTORの精神的後継作、Resident Evil: Requiemはリークで一部ネタバレ。",
+      "summary": "The Game Awards 2025では、Clair Obscur: Expedition 33が最多12ノミネートで有力候補に。Tomb Raiderの新作2本発表、ControlのアクションRPG続編は2026年、次のスター・ウォーズはKOTORの精神的続編、Resident Evil: Requiemは情報流出があった。",
       "source": "The Verge",
       "publishedAt": "2025-12-12T00:30:00.000Z",
-      "contentHash": "3de31e4c1622"
+      "contentHash": "7d69112d202f"
+    },
+    {
+      "id": "fa60ed9c9985",
+      "title": "Nokia N900 Necromancy",
+      "url": "https://yaky.dev/2025-12-11-nokia-n900-necromancy/",
+      "summary": "Nokia N900の古い電池を抵抗で温度信号を擬似し、複数のスーパーキャパシタで代替して起動。内蔵領域を破損したがSDカードからMaemo Lesteで復元可能。USB給電化を検討。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-12T00:04:29.000Z",
+      "contentHash": "ffaa3cf54f87"
     },
     {
       "id": "54539d43f733",
@@ -491,10 +599,10 @@
       "id": "2e99298d6fa1",
       "title": "Going Through Snowden Documents, Part 1",
       "url": "https://libroot.org/posts/going-through-snowden-documents-part-1/",
-      "summary": "エドワード・スノーデン文書を再検証するプロジェクトの一環。第1回は2009年10月のNSA内部資料「CNE Analysis in XKEYSCORE」を紹介。公開後ほとんど分析されず、ノリンコやメキシコ・イランへのCNE作戦、秘匿失敗でNSA職員名露出、TURBOCHASER等の新プログラム名、多言語キーロガーなどを示す33ページのスライド資料。",
+      "summary": "著者がスノーデン流出文書を自ら精査した報告。ファイル構成やメタデータの分析を通じ、分類表記の矛盾や文書間の手がかり、監視体制の断片的実態と報道・流出資料の取り扱い上の注意点を述べる。",
       "source": "Hacker News",
       "publishedAt": "2025-12-11T18:52:08.000Z",
-      "contentHash": "579275c08d83"
+      "contentHash": "05a9920fe4d0"
     },
     {
       "id": "5bb6ec8fac2b",
@@ -509,19 +617,19 @@
       "id": "98e47f285e91",
       "title": "GPT-5.2",
       "url": "https://openai.com/index/introducing-gpt-5-2/",
-      "summary": "GPT‑5.2を発表。プロ向けに表計算、資料作成、コーディング、画像理解、長文推論、ツール連携や長期エージェント性能を強化し、多数ベンチで最先端を達成、業務効率化を図る。",
+      "summary": "OpenAIのシステムカードは、モデルの設計意図や能力・制限、評価方法と結果、既知のリスクや誤用対策、運用上の推奨などをまとめた透明性ドキュメントです。",
       "source": "Hacker News",
       "publishedAt": "2025-12-11T18:12:43.000Z",
-      "contentHash": "02de5068a547"
+      "contentHash": "2eb392dd7b63"
     },
     {
       "id": "d3945e6ac563",
       "title": "Gemini Deep Research Agent の概要",
       "url": "https://note.com/npaka/n/n9e52f89e8585",
-      "summary": "GoogleがInteractions API経由で「Gemini Deep Research Agent」を公開。Gemini 3 Pro搭載で多段階強化学習による反復的なWebリサーチで高精度・低コストの網羅的レポートを生成。DeepSearchQA（17分野900課題）を公開し評価資産を提供、金融・バイオ・市場調査などで実運用済み。",
+      "summary": "GoogleはInteractions API経由で利用可能な自律調査エージェント「Gemini Deep Research Agent」を発表。Gemini 3 Pro搭載で多段階・長時間のWeb調査を高精度に実行し検索を強化。網羅性評価用ベンチマーク「DeepSearchQA」をOSS化し、金融・バイオ・市場調査などで実運用中。",
       "source": "npaka",
       "publishedAt": "2025-12-11T18:08:56.000Z",
-      "contentHash": "2db69168c26d"
+      "contentHash": "383c218fd92a"
     },
     {
       "id": "2d181d7810ca",
@@ -1454,10 +1562,10 @@
       "id": "fbd9a28c3708",
       "title": "Gemini 2.5 Flash ・ Pro TTS のアップデート - 2025年12月10日",
       "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "Gemini 2.5 Flash/Pro TTSプレビューが強化。表現力とスタイル遵守、状況に応じたペース制御、複数話者の音声一貫性向上、24言語対応を実現。低遅延版(Flash)と高品質版(Pro)を提供し、オーディオブックやeラーニング等に応用可能。",
+      "summary": "Gemini 2.5 Flash／Pro TTSプレビューが強化。表現力とスタイル指示への忠実性、状況に応じたペース制御、複数話者での音声一貫性や24言語対応を向上。低遅延版と高品質版を提供。",
       "source": "npaka",
       "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "70a53ea13d91"
+      "contentHash": "507e01942547"
     },
     {
       "id": "61a85cfbb5d3",
@@ -8892,114 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-11-27T01:49:00.000Z",
       "contentHash": "45c0c8b90a73"
-    },
-    {
-      "id": "6195988426b7",
-      "title": "みんなでDevin開発の現在地 | SODA Engineering Blogのフィード",
-      "url": "https://zenn.dev/team_soda/articles/27bb6a0eb1505c",
-      "summary": "当社ではカスタマーサポートやロジスティクスなど開発部署以外がAIツールDevinを活用してプロダクト開発を行う事例を紹介。PRDはAsk Devinで作成するなどシンプルな開発フローを示し、実績や現状の限界・課題、過去の問題点を説明しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T01:36:17.000Z",
-      "contentHash": "c89500b06c78"
-    },
-    {
-      "id": "ccc1d41aba01",
-      "title": "The best Black Friday deals we’ve found on TVs, laptops, and more",
-      "url": "https://www.theverge.com/tech/814345/black-friday-best-early-deals-2025",
-      "summary": "ブラックフライデーの早期セール速報。AirPods 4が約$69、Pixel Watch 4が初の割引、Disney+/Apple TV/HBO Maxなども大幅値下げ。ロボット掃除機やOLEDテレビ、ヘッドホンの大型割引も予想。AmazonやWalmart、Best Buy、Targetが既にプロモ開始。記事は随時更新。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-27T01:19:49.000Z",
-      "contentHash": "bfe0039c8a4c"
-    },
-    {
-      "id": "d3bae0afd89b",
-      "title": "『AIを使って開発』から『AI主体の開発プロセス』へ AWS AI-DLC Unicorn Gym ワークショップで見えた、次世代の開発スタイル | Tabelog Tech Blog",
-      "url": "https://tech-blog.tabelog.com/entry/aws-ai-dlc-unicorn-gym",
-      "summary": "食べログ開発本部の羽澤が、AWSの「AI-DLC Unicorn Gym」ワークショップを受講。カカクコムでAI EXCELLENCEを掲げつつ抱える課題解消を期待して参加し、チームのAI活用状況と課題、ワークショップ内容、今後の開発プロセスへの応用を報告します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T01:03:15.000Z",
-      "contentHash": "e1dee0e323b8"
-    },
-    {
-      "id": "93aaa38f267d",
-      "title": "「良い事業」と「良い組織」を考え続けてきた私の次の挑戦 | estie inside blog",
-      "url": "https://www.estie.jp/blog/entry/2025/11/27/100223",
-      "summary": "三島陽香は大学卒業後にリクルートへ入りSUUMOの広告提案を担当。2018年7月にグロービスへ移り、組織開発・人材育成のコンサルやプロダクト企画に従事。MBA取得後、2025年10月からestieに参画。2歳半の子を持つ母で仕事と育児を両立している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T01:02:23.000Z",
-      "contentHash": "ff61f335ca9d"
-    },
-    {
-      "id": "d899c686f019",
-      "title": "Stranger Things 5 begins with a frantic race to the finish line",
-      "url": "https://www.theverge.com/entertainment/830518/stranger-things-5-review-part-one",
-      "summary": "『ストレンジャー・シングス』は開始から10年。ダファー兄弟は終盤を練る時間があったが、最終シーズン5の序盤は駆け足に感じられる。作品はNetflixを文化的存在に押し上げ、80年代ノスタルジーの波を生んだ。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-27T01:00:00.000Z",
-      "contentHash": "340cec1ab88b"
-    },
-    {
-      "id": "074c455f4795",
-      "title": "AWS WAFのアプリケーションレイヤーでのDDoS保護をIaCで実装する | [公開中] AQ Tech Blog",
-      "url": "https://techblog.asia-quest.jp/202511/implementing-aws-managed-rules-anti-ddos-iac",
-      "summary": "2025年6月、AWS WAFがアプリ層（L7）のDDoS保護用マネージドグループをサポート開始。CloudFormationの参考が少ないため、IaCでの記述例を示す記事を作成しました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T01:00:00.000Z",
-      "contentHash": "428a82467a6f"
-    },
-    {
-      "id": "6fed5688764a",
-      "title": "Apple TV pulls The Hunt over plagiarism accusation",
-      "url": "https://www.theverge.com/news/831227/apple-tv-the-hunt-plagiarism",
-      "summary": "フランス製スリラー『The Hunt』が盗作疑惑を受け、Apple TVでの配信が一時取り消しに。記者が1974年のダグラス・フェアバーン著『Shoot』との類似を指摘し、製作のゴーモンが知的財産問題の徹底調査を行うと発表。両作とも狩猟仲間が襲撃され追跡される筋立て。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-27T00:51:20.000Z",
-      "contentHash": "2d68448cce01"
-    },
-    {
-      "id": "bf4dfdcfb536",
-      "title": "OpenAI denies liability in teen suicide lawsuit, cites ‘misuse’ of ChatGPT",
-      "url": "https://www.theverge.com/news/831207/openai-chatgpt-lawsuit-parental-controls-tos",
-      "summary": "16歳アダム・レイン君の自殺を巡り家族がOpenAIを提訴。OpenAIは未成年の不正利用や利用規約違反、Section230免責を主張し、チャットは救済を促す応答が多数あったと反論。家族はGPT-4oの設計が自殺方法や遺書作成を助けたと主張。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-27T00:43:44.000Z",
-      "contentHash": "03aa817d73a2"
-    },
-    {
-      "id": "cf4a7f7d1f24",
-      "title": "AdBlock and Signal are for terrorists, according to French govt (2023) [video]",
-      "url": "https://www.youtube.com/watch?v=1q1hjmwLqe4",
-      "summary": "すみません、外部サイトを直接開けないため元動画やHNコメントの中身が見られません。どちらを要約しますか（動画本編／YouTube説明文／HN議論／全体）？または動画の要旨・トランスクリプトか主要コメントを貼っていただければ、200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T00:20:37.000Z",
-      "contentHash": "80e3bdb9c603"
-    },
-    {
-      "id": "91a0413729e5",
-      "title": "ライオンxG-gen情報発信コラボ企画のまとめ | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/lion-and-g-gen-colab-summary",
-      "summary": "ライオンとG-genの技術コラボ企画『SAPと連携するデータ分析基盤の実践とTips』。ライオンはSAP連携のデータ基盤構築、データマネジメント、分析環境を解説し、G-genはVPC Service Controlsの境界設計やSecurity Command CenterのPub/Subエクスポートのフィルタリング等の運用Tipsを紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T00:00:00.000Z",
-      "contentHash": "232832e821eb"
-    },
-    {
-      "id": "404b337d0bee",
-      "title": "6Gでも注目されるRestoration (復旧) とは？3GPP会合CT4#131参加レポート | ENGINEERING BLOG ドコモ開発者ブログ",
-      "url": "https://nttdocomo-developers.jp/entry/2025/11/27/090000",
-      "summary": "ドコモ6Gテック部の本田です。6G検討が本格化する中、CT領域でも10月から議論が始まり、私が参加したCT4#131会合とその中の「Restoration（復旧）」議題について報告します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T00:00:00.000Z",
-      "contentHash": "a57f780eef15"
-    },
-    {
-      "id": "572498fa367c",
-      "title": "マルチプロダクト連携のAPI呼び出し経路をVPCオリジンを使って実装した話 | カミナシ エンジニアブログ",
-      "url": "https://kaminashi-developer.hatenablog.jp/entry/2025/11/27/vpc-origin-is-good",
-      "summary": "カミナシ設備保全チームのすずけんが、社内の別サービスから自チーム管理のプライベートAPIを呼ぶためCloudFrontのVPCオリジンを使って実装した経緯と導入時の知見を共有する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T00:00:00.000Z",
-      "contentHash": "c1fc9103bd7e"
     }
   ]
 }
