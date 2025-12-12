@@ -1,6 +1,150 @@
 {
-  "generatedAt": "2025-12-12T01:26:32.821Z",
+  "generatedAt": "2025-12-12T03:33:28.555Z",
   "items": [
+    {
+      "id": "213fc42f2b3c",
+      "title": "Tomb Raider announces two new games",
+      "url": "https://www.theverge.com/games/843260/tomb-raider-catalyst-trailer-tomb-raider-atlantis",
+      "summary": "「トゥームレイダー」新作2作が発表。2026年に初代のUE5リメイク「Tomb Raider: Legacy of Atlantis」、2027年に新たなララを描く新作「Tomb Raider Catalyst」をCrystal DynamicsとAmazon Game Studiosが制作。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-12T03:11:15.000Z",
+      "contentHash": "274d36276af4"
+    },
+    {
+      "id": "a1d4045db426",
+      "title": "The best Christmas gifts we love under $50",
+      "url": "https://www.theverge.com/gadgets/802969/best-gifts-under-50-2025",
+      "summary": "ヴァージの編集者Cameron Faulknerが、50ドル以下で買える高品質なクリスマスギフトを紹介するガイドを公開。節約しながら喜ばれる品を厳選し、25ドル以下の案や100ドル以下ガイドへの案内も掲載。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-12T02:50:15.000Z",
+      "contentHash": "fbb69aa69de1"
+    },
+    {
+      "id": "f48ac16f1891",
+      "title": "Tim Sweeney on the future of Fortnite after another win over Apple",
+      "url": "https://www.theverge.com/news/843265/apple-epic-games-tim-sweeney-interview",
+      "summary": "Epic GamesのCEOティム・スウィーニーは、米第9巡回控訴裁がAppleの不服申し立てを退け、2021年判決で認められた外部決済リンクの運用不履行を支持したことを受け、App Storeの「ジャンク手数料」を封じ開発者に有利な判決だと述べた。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-12T02:48:49.000Z",
+      "contentHash": "8f056ea349c0"
+    },
+    {
+      "id": "775d433ef57b",
+      "title": "Kubernetes Gateway API の成り立ちを調べてみた | DMM Developers Blog",
+      "url": "https://developersblog.dmm.com/entry/2025/12/12/113000",
+      "summary": "KubernetesのIngressは共通機能限定やアノテーション依存で移植性や運用性に課題があり、KubeConでAPI再設計が決定。Service APIs→Gateway APIへ移行し、ロール指向で権限を分離して表現力と移植性を回復、サービスメッシュやプラットフォーム基盤として期待される。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T02:30:00.000Z",
+      "contentHash": "05b65be9ea5e"
+    },
+    {
+      "id": "10a9adcbdfbb",
+      "title": "AIで営業データの構造化を完全自動化する 〜Difyプロンプトチューニング編〜 | Speee DEVELOPER BLOG",
+      "url": "https://tech.speee.jp/entry/dify_prompt_tuning",
+      "summary": "Speeeが外壁塗装マッチング「ヌリカエ」で通話をリアルタイムに完全自動で構造化する挑戦。CSの暗黙知を言語化してDifyプロンプトに実装し、現場とのフィードバックループやnull出力の厳格化で「人の修正不要」を目指す取り組み報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T02:30:00.000Z",
+      "contentHash": "f48b2799ef9b"
+    },
+    {
+      "id": "83e7ee3a1ee9",
+      "title": "Kubernetes 上でインメモリ KVS を冗長化する | Cybozu Inside Out | サイボウズエンジニアのブログ",
+      "url": "https://blog.cybozu.io/entry/2025/12/12/113000",
+      "summary": "サイボウズはyrmcdsをKubernetes（Neco）へ移行する際、Keepalived/VIPやローリング再起動でのデータ消失問題を避けるため、別途コントロールプレーンで単一リーダを選びプライマリを決める方式を設計。インターンが冗長化アルゴリズムとPoCを実装した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T02:30:00.000Z",
+      "contentHash": "9c21d783a138"
+    },
+    {
+      "id": "4b5383a40acf",
+      "title": "2025年版 Git最新情報まとめ ― last-modifiedからRust導入まで | ENECHANGE Developer Blog",
+      "url": "https://tech.enechange.co.jp/entry/2025/12/12/112101",
+      "summary": "2025年のGit更新まとめ。最新はv2.52（2.48/2.49/2.50/2.51/2.52）。主な変更点は git last-modified（v2.52）、stashのref化で移行容易化（v2.51）、git switch/restoreの安定化（v2.51）、git cloneの--revision追加（v2.49）、Rust導入。日常への影響は小さいが便利なのでv2.52への更新を推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T02:21:01.000Z",
+      "contentHash": "6377ec7d4d7f"
+    },
+    {
+      "id": "5cd10c23f2a2",
+      "title": "非機能要件への理解 | ENGINEER TECH BLOG",
+      "url": "https://note.com/s067/n/nf395b58fd36e",
+      "summary": "非機能要件は氷山の水面下のように見えにくく、小規模組織では暗黙知に依存し欠落しがち。新要件や顧客要求、技術的負債、障害などのトリガーで露呈し、事故やCI/CD導入、戦略転換を学習機会にして継続的に明文化・更新する重要性を説く。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T02:19:27.000Z",
+      "contentHash": "3faf39f29e7a"
+    },
+    {
+      "id": "b9dcd884b04d",
+      "title": "Control’s action-RPG sequel launches in 2026",
+      "url": "https://www.theverge.com/entertainment/841950/control-resonant-sequel-announce-ps5-xbox-steam",
+      "summary": "Remedyの『Control』続編『Control Resonant』が2026年発売。7年後のマンハッタンを舞台にしたアクションRPGで、プレイヤーはジェシーの兄ディラン・フェイデンとなり、FBCにより現実を改変する宇宙的脅威と戦う。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-12T02:05:26.000Z",
+      "contentHash": "16cb16867575"
+    },
+    {
+      "id": "2952cca2ca9a",
+      "title": "[アドカレ2025]AWS Lambda MCP Server 使ってみた ~沼った話を添えて~ | DENET 技術ブログ",
+      "url": "https://blog.denet.co.jp/lambdamcp/",
+      "summary": "DENET技術ブログの記事「AWS Lambda MCP Server 使ってみた ～沼った話を添えて～」は、MCP Server導入で遭遇したハマりどころや原因、対処法、得られた教訓や改善策を実例とともに解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T02:00:54.000Z",
+      "contentHash": "be79e5aa2616"
+    },
+    {
+      "id": "d834feb7aac1",
+      "title": "GitOpsだけじゃない！新たな選択肢「HelmOps」とは？ | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/50747",
+      "summary": "SIOSの小野がアドベントカレンダーで、今年学んだこととしてGitOpsに替わる選択肢「HelmOps」を紹介。Helmを中心にしたデプロイ運用の考え方や利点、適用場面を解説する内容です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T02:00:12.000Z",
+      "contentHash": "8ae3c95235f3"
+    },
+    {
+      "id": "920ebdb9a26f",
+      "title": "GitHub Copilot の独自観点レビューで速さと品質を両立する | BASEプロダクトチームブログ",
+      "url": "https://devblog.thebase.in/entry/2025/12/12/110000",
+      "summary": "BASEのカートチームが、VSCodeのGitHub CopilotとMCP Serverを連携し、.github/instructions/codereview.instructions.mdのCustom Instructionsで複数観点の自動コードレビュー手順（MCP導入・PAT設定・レビュー項目・Copilot Chatでcodereview選択）を導入し、速度と品質を両立する方法を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T02:00:00.000Z",
+      "contentHash": "ce3ad1e95a82"
+    },
+    {
+      "id": "f2da9f5a40c2",
+      "title": "明日からちょっと自慢できる画質AUTOの仕組みについて | DMM Developers Blog",
+      "url": "https://developersblog.dmm.com/entry/2025/12/12/110000",
+      "summary": "DMMのエンジニアが解説。画質「AUTO」はABRで実現し、動画を数秒ごとのセグメントで配信してダウンロード速度から帯域を推定。EWMAの\"fast\"と\"slow\"を使い小さい方を採用することで、通信悪化には素早く画質を下げ、好転時は緩やかに上げて安定再生を実現。shakaでは半減期2秒/5秒を利用。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T02:00:00.000Z",
+      "contentHash": "25edbfba772d"
+    },
+    {
+      "id": "8c0c90ede96a",
+      "title": "アイテムレビュー機能導入からの学びと改善 | ZOZO TECH BLOG",
+      "url": "https://techblog.zozo.com/entry/item-review-feature-learnings",
+      "summary": "ZOZOTOWN開発本部のPM高橋が、2023年11月リリースの「アイテムレビュー機能」について、約2年の開発経緯、リリース後に直面した課題とその改善プロセスをまとめた記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T02:00:00.000Z",
+      "contentHash": "97153dc42ad8"
+    },
+    {
+      "id": "928db676bb02",
+      "title": "The next Star Wars game is the spiritual successor to Knights of the Old Republic",
+      "url": "https://www.theverge.com/games/843188/star-wars-fate-of-the-old-republic-casey-hudson",
+      "summary": "「Star Wars: Fate of the Old Republic」がThe Game Awardsで発表された。Arcanaut StudiosとLucasfilm Gamesが手掛けるシングルプレイの物語重視作で、KOTORの精神的続編。Casey Hudsonが開発を指揮する。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-12T01:48:01.000Z",
+      "contentHash": "e943885c6756"
+    },
+    {
+      "id": "31873539a3d4",
+      "title": "Trump signs AI executive order pushing to ban state laws",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/841817/trump-signs-ai-executive-order-pushing-to-ban-state-laws",
+      "summary": "トランプ大統領は連邦のAI規制権を強化する大統領令に署名。州のAI規制に連邦機関が異議を唱え影響を削ぐよう指示し、資金で州法を牽制。コロラドの法も批判した。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-12T01:18:46.000Z",
+      "contentHash": "164319a9a498"
+    },
     {
       "id": "561f0ce88a43",
       "title": "I’ve tested the latest Switch 2 controllers, and this one is the best",
@@ -14,10 +158,10 @@
       "id": "77f04e2dc2e2",
       "title": "The Game Awards 2025: all the news and announcements",
       "url": "https://www.theverge.com/games/841973/the-game-awards-2025-annoucements-news-trailers",
-      "summary": "ゲームアワード2025の速報。最多12部門ノミネートのClair Obscur: Expedition 33が有力。Tomb Raider関連やResident Evil: Requiemの流出、Bradley The Badger、The Free Shepherd、South of Midnightのマルチ化など多数の発表と映像があった。",
+      "summary": "Game Awards 2025では『Clair Obscur: Expedition 33』が12部門で最多ノミネートの有力候補。Crystal DynamicsとAmazonが2026年UE5リメイク『Tomb Raider: Legacy of Atlantis』、2027年新作『Tomb Raider Catalyst』を発表。Control続編は2026年、次のスター・ウォーズはKOTORの精神的後継作、Resident Evil: Requiemはリークで一部ネタバレ。",
       "source": "The Verge",
       "publishedAt": "2025-12-12T00:30:00.000Z",
-      "contentHash": "46a96e25ceff"
+      "contentHash": "3de31e4c1622"
     },
     {
       "id": "54539d43f733",
@@ -356,28 +500,28 @@
       "id": "5bb6ec8fac2b",
       "title": "Rivian Unveils Custom Silicon, R2 Lidar Roadmap, and Universal Hands Free",
       "url": "https://riviantrackr.com/news/rivian-unveils-custom-silicon-r2-lidar-roadmap-universal-hands-free-and-its-next-gen-autonomy-platform/",
-      "summary": "Rivianは独自5nm多チップRAP1（1600 sparse INT8 TOPS、5Gpx/s）、AIコンパイラとACM3自律コンピュータを発表。R2へ2026末搭載予定で当初はLiDARなし、後日追加。LLM風のLarge Driving Modelと自己改善するデータループで次世代自動運転とユニバーサルハンズフリーを目指す。",
+      "summary": "Rivianは独自5nmプロセッサRAP1やAIコンパイラ、Gen3自律コンピュータACM3を発表。R2は2026年末からACM3搭載で当初はLiDAR非搭載、後日LiDAR追加へ。大規模運転モデルと自己学習データループで自律性能を向上、ユニバーサルハンズフリーも示唆。",
       "source": "Hacker News",
       "publishedAt": "2025-12-11T18:17:19.000Z",
-      "contentHash": "f370b9ff2854"
+      "contentHash": "1052d2254458"
     },
     {
       "id": "98e47f285e91",
       "title": "GPT-5.2",
       "url": "https://openai.com/index/introducing-gpt-5-2/",
-      "summary": "申し訳ありませんが外部リンクに直接アクセスできません。記事本文を貼るか主要部分を教えてください。いただければ200字以内で要約します。",
+      "summary": "GPT‑5.2を発表。プロ向けに表計算、資料作成、コーディング、画像理解、長文推論、ツール連携や長期エージェント性能を強化し、多数ベンチで最先端を達成、業務効率化を図る。",
       "source": "Hacker News",
       "publishedAt": "2025-12-11T18:12:43.000Z",
-      "contentHash": "2eb392dd7b63"
+      "contentHash": "02de5068a547"
     },
     {
       "id": "d3945e6ac563",
       "title": "Gemini Deep Research Agent の概要",
       "url": "https://note.com/npaka/n/n9e52f89e8585",
-      "summary": "GoogleがGemini Deep Research Agentを発表。Gemini 3 Pro搭載で長時間の自律リサーチに最適化、反復検索で高精度・低コストの調査レポートを生成。DeepSearchQA（900問・17領域）をOSS化し、金融・バイオ・市場調査などで実運用、Interactions API経由で利用可能。",
+      "summary": "GoogleがInteractions API経由で「Gemini Deep Research Agent」を公開。Gemini 3 Pro搭載で多段階強化学習による反復的なWebリサーチで高精度・低コストの網羅的レポートを生成。DeepSearchQA（17分野900課題）を公開し評価資産を提供、金融・バイオ・市場調査などで実運用済み。",
       "source": "npaka",
       "publishedAt": "2025-12-11T18:08:56.000Z",
-      "contentHash": "6412e2f2d85d"
+      "contentHash": "2db69168c26d"
     },
     {
       "id": "2d181d7810ca",
@@ -401,10 +545,10 @@
       "id": "8b24f6f5fac4",
       "title": "Interactions API の概要 - Google のモデルとエージェントの統合基盤",
       "url": "https://note.com/npaka/n/n671c92a70e5d",
-      "summary": "GoogleのInteractions APIは、Geminiモデルと組み込みエージェント（例：Gemini Deep Research）を単一のREST /interactionsで統合するインターフェースです。サーバー側履歴管理、解釈可能な履歴スキーマ、バックグラウンド実行、MCPツール呼び出し等を備え、複雑なエージェントの文脈管理を簡素化します。",
+      "summary": "GoogleのInteractions APIは、Geminiモデルと組み込み/カスタムエージェントを統合する単一のRESTインターフェースです。メッセージ・思考・ツール呼び出しのインターリーブやサーバー側履歴管理、バックグラウンド実行、MCPツール対応など高度なコンテキスト管理を提供し、Gemini Deep Researchなどへアクセスできるパブリックベータです。",
       "source": "npaka",
       "publishedAt": "2025-12-11T17:49:20.000Z",
-      "contentHash": "1bcb8f8940e3"
+      "contentHash": "2dd78c8684ca"
     },
     {
       "id": "c0344b99cf81",
@@ -869,10 +1013,10 @@
       "id": "c308764f76db",
       "title": "ChatGPT からの Photoshop を試す",
       "url": "https://note.com/npaka/n/n884da273286c",
-      "summary": "ChatGPTでAdobe Photoshopが利用可能に。部分選択で明るさ/ぼかし/色変更、スライダー調整、エフェクト、背景ぼかし・削除、元に戻す等をサポート。@adobeでPhotoshopを選び画像を追加、指示して接続許可すれば編集結果をダウンロードできます。",
+      "summary": "ChatGPT内で使える「Adobe Photoshop for ChatGPT」を試用。選択、明るさ等の調整、エフェクト、背景ぼかし・削除、元に戻すが可能。手順は@adobeでPhotoshop選択→画像追加＋指示→接続許可→結果確認・ダウンロード。",
       "source": "npaka",
       "publishedAt": "2025-12-11T06:04:12.000Z",
-      "contentHash": "5ecc6044e5a6"
+      "contentHash": "6f72961eadc4"
     },
     {
       "id": "ba511f64a3e7",
@@ -1310,10 +1454,10 @@
       "id": "fbd9a28c3708",
       "title": "Gemini 2.5 Flash ・ Pro TTS のアップデート - 2025年12月10日",
       "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "Gemini 2.5 Flash／ProのTTSプレビューが強化。表現力とスタイル遵守、状況に応じたペース制御、複数話者の音声一貫性向上を実現。Flashは低遅延、Proは高品質で24言語対応。",
+      "summary": "Gemini 2.5 Flash/Pro TTSプレビューが強化。表現力とスタイル遵守、状況に応じたペース制御、複数話者の音声一貫性向上、24言語対応を実現。低遅延版(Flash)と高品質版(Pro)を提供し、オーディオブックやeラーニング等に応用可能。",
       "source": "npaka",
       "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "34e1c5d3499a"
+      "contentHash": "70a53ea13d91"
     },
     {
       "id": "61a85cfbb5d3",
@@ -1364,10 +1508,10 @@
       "id": "1513960f9162",
       "title": "Unityゲームを Reddit 投稿として動かす手順まとめ",
       "url": "https://note.com/npaka/n/n6588ee59287c",
-      "summary": "UnityゲームをReddit投稿として動かす手順まとめ。Node.js・Unity6等を準備し、developers.reddit.comでDevvit Unityテンプレートを作成。セットアップ後にnpm run devで起動してテストコミュニティで動作確認。srcにクライアント/サーバー/共有コードやBuild出力、devvit.json等が配置される。",
+      "summary": "UnityゲームをReddit投稿として動かす手順。Node.js（>=22.2）とUnityを準備し、developers.reddit.comでDevvitのUnityテンプレートを作成・セットアップ。cd my-app→npm run devで起動。クライアント／サーバ構成、Build出力やsplash画面などのファイル説明あり。",
       "source": "npaka",
       "publishedAt": "2025-12-10T22:15:27.000Z",
-      "contentHash": "6a5123e6740c"
+      "contentHash": "ba176d421482"
     },
     {
       "id": "82e6217449e0",
@@ -4649,10 +4793,10 @@
       "id": "e41ac15a83b2",
       "title": "X-VLA の概要",
       "url": "https://note.com/npaka/n/nd3f000d74bd6",
-      "summary": "X-VLAは視覚・言語・行動を統合した「ソフトプロンプト」型ロボット基盤モデル。ロボット固有のプロンプトで任意の機体・タスクに迅速適応し、少数ショットで高い汎化・転移性能を実現します。",
+      "summary": "X-VLAはロボットやデータセットの身体性を学習可能なソフトプロンプトとして扱い、多様な形態・センサーを単一Transformerで統合。7機体29万エピ学習で、1%の調整で高性能に適応し実ロボットで器用さを実証。",
       "source": "npaka",
       "publishedAt": "2025-12-08T07:06:59.000Z",
-      "contentHash": "46fb1b1b8856"
+      "contentHash": "8e02d169d6c5"
     },
     {
       "id": "f174c18a2dec",
@@ -8856,150 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-27T00:00:00.000Z",
       "contentHash": "c1fc9103bd7e"
-    },
-    {
-      "id": "9ddbe5c1ec13",
-      "title": "生成AIを使って割り込み業務を現場で勝手に改善したらちやほやされた話 | MonotaRO Tech Blog",
-      "url": "https://tech-blog.monotaro.com/entry/2025/11/27/090000",
-      "summary": "山本です。散発的な割り込み業務で疲れるメンバーを楽にするため、生成AIで業務改善を行い成果を出したが、実装がスマートでないため公表はチーム内に留め、社内の他事例と比べて恥ずかしく感じている、という内容。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T00:00:00.000Z",
-      "contentHash": "a73d3c9e19c0"
-    },
-    {
-      "id": "a7a5cf0b29d7",
-      "title": "Microsoft Certified: Fabric Data Engineer Associate(DP-700)合格記 | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2025/11/27/085041",
-      "summary": "Microsoft Certified: Fabric Data Engineer Associate (DP-700)受験のポイントを解説。試験概要・出題範囲・難易度、学習方法や公式教材・問題集、推定学習時間などを紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-26T23:50:41.000Z",
-      "contentHash": "94f175c97adc"
-    },
-    {
-      "id": "6ec776f05ba8",
-      "title": "This $1,400 Steam Machine alternative houses a tiny desktop GPU",
-      "url": "https://www.theverge.com/games/831106/minisforum-g1-pro-mini-pc-price-release-date",
-      "summary": "MinisforumのAtomMan G1 Proは3.8LミニPCで、デスクトップ級RTX 5060（145W）とRyzen 9 8945HX（Beast ModeでCPU100W）を搭載。統合電源、M.2×2、SO‑DIMM最大96GB、映像出力5系統。32GB/1TB版が$1,440で1月中旬出荷、素体は$1,040。LinuxはAMD側のドライバが成熟。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-26T23:35:15.000Z",
-      "contentHash": "ed5124b70691"
-    },
-    {
-      "id": "de945c1c056f",
-      "title": "《後編》人間味あるリアルな会話を。目指したのは、傾聴し、アトラクトまで担うAI面接官  | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n8d62de090641",
-      "summary": "SHIFTは年間2,500人超、選考ポジション100超を採用。面接官の対応時間が限られるため、より多くの応募者と出会い機会を作るべく「AI面接官」を現在開発中です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-26T23:00:00.000Z",
-      "contentHash": "e98d9873ae4c"
-    },
-    {
-      "id": "6c07a2aeb37a",
-      "title": "《前編》人間味あるリアルな会話を。目指したのは、傾聴し、アトラクトまで担うAI面接官  | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n660b0a56675d",
-      "summary": "SHIFTは年間2,500人超、選考ポジション100超を採用。面接官の対応時間が限られるため、より多くの応募者と出会い機会を作るべく「AI面接官」を現在開発中です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-26T23:00:00.000Z",
-      "contentHash": "e98d9873ae4c"
-    },
-    {
-      "id": "a959cf588f15",
-      "title": "Running Unsupported iOS on Deprecated Devices",
-      "url": "https://nyansatan.github.io/run-unsupported-ios/",
-      "summary": "外部ページに直接アクセスできないため、記事本文をここに貼っていただけますか？あるいは要点（目的・方法・注意点・結論）を教えていただければ、200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-26T22:57:56.000Z",
-      "contentHash": "1411e5fbb326"
-    },
-    {
-      "id": "4067fc12351b",
-      "title": "Strong iPhone 17 sales may push Apple ahead of Samsung this year",
-      "url": "https://www.theverge.com/news/831048/apple-iphone-17-samsung-galaxy-s25-top-sales-2025",
-      "summary": "CounterpointはiPhone 17で今年Appleが首位に立つと予測。出荷は243MでSamsungの235Mを僅差で上回り、市場シェア19.4%。初4週売上はiPhone16比12%増、関税影響が想定より小さく、14年ぶりの首位奪回。来春廉価版17eや折りたたみiPhoneも予定。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-26T22:48:41.000Z",
-      "contentHash": "bc8c8739a098"
-    },
-    {
-      "id": "88f042de02ab",
-      "title": "【2025年版】デロイトが50億円投資する「リアル研修施設」の狙いとは?生成AI時代に求められるプロフェッショナル人材育成の全貌 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/a1eef2e0fe421f",
-      "summary": "デロイトトーマツグループは千葉県木更津市に50〜75億円を投じ、2029年に対面型研修施設「デロイトユニバーシティ」を開校。生成AI時代に重要なリーダーシップやコミュニケーションなどのソフトスキルを対面で育成し、年間2,000人超を受け入れる拠点とする計画です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-26T22:48:14.000Z",
-      "contentHash": "0c4e5304ca3d"
-    },
-    {
-      "id": "5c043c9207c4",
-      "title": "Bring bathroom doors back to hotels",
-      "url": "https://bringbackdoors.com/",
-      "summary": "申し訳ありませんが、外部のウェブページを直接参照できません。記事本文をここに貼っていただければ、200文字以内で日本語要約を作成します。コメントも要約希望なら併せて貼ってください。要約の口調（中立／批判的など）も指定できます。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-26T22:26:36.000Z",
-      "contentHash": "735c58678903"
-    },
-    {
-      "id": "720e45b0f61f",
-      "title": "These prebuilt PCs are about to cost more due to rising RAM prices",
-      "url": "https://www.theverge.com/news/831032/cyberpowerpc-maingear-ram-price-increases-pc-gaming",
-      "summary": "RAM価格が急騰（約500％）、SSDも100％上昇し、CyberPowerPCは12月7日に全機種の価格改定を発表。Maingearは増額を先延ばしするが在庫不足を警告。AI需要が要因で一時的とも。Skytechも影響を受ける。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-26T22:25:13.000Z",
-      "contentHash": "a3786886ff17"
-    },
-    {
-      "id": "c6bae3dad365",
-      "title": "JSConf JP 2025 でスポンサー登壇をしてきました | Findy Tech Blog",
-      "url": "https://tech.findy.co.jp/entry/2025/11/27/070000",
-      "summary": "Findy Team+フロントエンドリードの@shootaが、11月16日のJSConf JP 2025（グラントウキョウサウスタワー）でスポンサーセッションに登壇。青森から新幹線で来場し、ブース運営や発表聴講、最終確認を経て登壇を楽しんだ報告。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-26T22:00:00.000Z",
-      "contentHash": "ae56b13c64ec"
-    },
-    {
-      "id": "abbec3a95436",
-      "title": "EU Council approves Chat Control mandate for negotiation with Parliament",
-      "url": "https://www.techradar.com/vpn/vpn-privacy-security/chat-control-eu-lawmakers-finally-agree-on-the-voluntary-scanning-of-your-private-chats",
-      "summary": "申し訳ありませんが、私は外部サイトを直接閲覧できません。要約するには記事本文（または全文への正確なURL）を貼ってください。HNのコメントも反映希望か、200文字以内での口調（事実のみ／解説含む）を教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-26T21:52:14.000Z",
-      "contentHash": "a5ca5231ef33"
-    },
-    {
-      "id": "1705936ffd25",
-      "title": "The EU made Apple adopt new Wi-Fi standards, and now Android can support AirDrop",
-      "url": "https://arstechnica.com/gadgets/2025/11/the-eu-made-apple-adopt-new-wi-fi-standards-and-now-android-can-support-airdrop/",
-      "summary": "EUの規制でAppleが新しいWi‑Fiのピアツーピア標準（Wi‑Fi Aware等）を採用したため、Android側も同規格でAirDrop互換のファイル共有を実装できるようになり、プラットフォーム間の相互運用性と利便性が向上した、という記事。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-26T21:25:36.000Z",
-      "contentHash": "201483c85f23"
-    },
-    {
-      "id": "78ae93833e47",
-      "title": "Campbell&#8217;s fired the VP recorded saying its meat &#8216;came from a 3D printer&#8217;",
-      "url": "https://www.theverge.com/news/829516/campbells-3d-printed-chicken-soup",
-      "summary": "キャンベル社は、流出音声でIT副社長とされる人物が「3Dプリントのチキン」と発言し人種差別的発言もあったとして同氏を11月25日付で解雇。訴訟に絡む録音だが同社はスープに培養肉・3D印刷肉は使わず、米国の信頼ある供給業者の鶏肉のみ使用すると否定した。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-26T20:44:37.000Z",
-      "contentHash": "547aa873b338"
-    },
-    {
-      "id": "0446dafabdc5",
-      "title": "Crews claim Boring Company failed to pay workers and snubbed OSHA concerns",
-      "url": "https://nashvillebanner.com/2025/11/25/boring-company-nashville-shane-trucking-and-excavating/",
-      "summary": "ウェブ記事に直接アクセスできないため、要約するには本文の貼付をお願いします。記事本文か重要箇所を送っていただければ、200文字以内の日本語要約を作成します。Hacker Newsのコメントも要約希望なら併せてお知らせください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-26T20:14:17.000Z",
-      "contentHash": "541ffef2ecf1"
-    },
-    {
-      "id": "5f19bf716d98",
-      "title": "Pentagon contractors want to blow up military right to repair",
-      "url": "https://www.theverge.com/news/830715/military-contractors-right-to-repair-ndaa-data-as-a-service",
-      "summary": "軍需企業がNDAAの「兵器の自己修理権」規定を、修理情報を都度購入させる「データ・アズ・ア・サービス」方式に置き換えようとしており、国防省が修理情報に料金を払う事態を懸念する声が上がっている。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-26T20:12:03.000Z",
-      "contentHash": "626b52e64bca"
     }
   ]
 }
