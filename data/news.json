@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2025-12-12T10:30:38.982Z",
+  "generatedAt": "2025-12-12T11:28:35.148Z",
   "items": [
+    {
+      "id": "7a74ef38e224",
+      "title": "MyJCBアプリの新機能「パスキー」について | JCB Tech Blog",
+      "url": "https://tech.jcblab.jp/entry/2025/12/12/190425",
+      "summary": "MyJCBアプリはFIDO準拠のパスキーを導入しました。秘密鍵を端末内に保持し、公開鍵でサーバーが署名を検証する方式で、OSの生体認証とURL確認によりフィッシング等の不正ログインを防ぎます。登録後はパスワードログインが制限されます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T10:04:25.000Z",
+      "contentHash": "97536e86e51d"
+    },
+    {
+      "id": "0ee360faafc9",
+      "title": "開発プロセスのメタ振り返り | wwwave's Techblogのフィード",
+      "url": "https://zenn.dev/wwwave/articles/ce3a5fa208fa14",
+      "summary": "数年の改善試行で振り返りの重要性を再認識。スクラム→レビュー・レトロ省略→カンバン寄りで改善の一貫性や納期意識が低下。現在は振り返りを軸に部分的にスクラム回帰し、戦略的な振り返りを重視。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T10:01:19.000Z",
+      "contentHash": "c591e2c920e8"
+    },
+    {
+      "id": "b8466e3eed8f",
+      "title": "現在のページ状態を保持したまま別ウィンドウで決済を行う | STORES Product Blog",
+      "url": "https://product.st.inc/entry/2025/12/12/190103",
+      "summary": "多入力ページの入力状態を保持するため、元ページを残して決済を別ウィンドウで行う手法を紹介。popupで決済→postMessageで親に通知、親はサーバで最終確認後にUI更新。localStorage保存は非推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T10:01:03.000Z",
+      "contentHash": "672e50c22413"
+    },
+    {
+      "id": "6dbdd16549b2",
+      "title": "低コストにOTAを！Hot UpdaterをReact Nativeに導入しよう！ | テラーノベル テックブログのフィード",
+      "url": "https://zenn.dev/tellernovel_inc/articles/b1653bbba2a84f",
+      "summary": "AppCenter CodePush廃止を受け、低コストなセルフホスト型OTA「Hot Updater」を紹介。Cloudflare Workers+R2でほぼ無料運用、ビルド/ストレージ/DBプラグイン、ローカル実行のWebコンソール（ロールバック・強制更新等）、ネイティブとJSバンドルの互換性確認（fingerprint）機能を備える。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T09:37:56.000Z",
+      "contentHash": "190558072ff3"
+    },
+    {
+      "id": "1465b7e1912e",
+      "title": "記事画面の表示速度改善の道のり | Uzabase for Engineers",
+      "url": "https://tech.uzabase.com/entry/2025/12/12/182535",
+      "summary": "NewsPicksの堀です。提携メディアの取込記事を従来のWebViewからネイティブUIに切替え、表示中央値を約1秒→約300ms（約500ms短縮）に改善。HTML要素を解析・デザイン規定化しチーム横断で実装し、APIのスリム化や先読みも併せて行いました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T09:25:35.000Z",
+      "contentHash": "cc1bd98ce92a"
+    },
+    {
+      "id": "6713f6325d56",
+      "title": "AnsibleのWinRMとPSRPの違いをみてみよう(パフォーマンス計測編） | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/2025/12/12/181649",
+      "summary": "AnsibleでWinRMとPSRPを比較。Fedora上のansible-coreからWindows Serverへ接続し、win_ping/ファイル作成を100回繰り返すベンチ実施。PSRPはRunspaceを使い回すためプロセス生成が不要で、接続／実行オーバーヘッドが小さく高速であると検証した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T09:16:49.000Z",
+      "contentHash": "c94ce6476eec"
+    },
+    {
+      "id": "3e8cd3df1ec9",
+      "title": "Google Cloudのサービスアカウント権限借用について | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/2025/12/12/181515",
+      "summary": "BigQueryで細かく権限管理する中、ローカル確認で不足する権限を解消する手段としてGoogle Cloudのサービスアカウント権限借用を紹介。専用SAを一時的に借りて実行でき、端末認証でのみ利用可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-12T09:15:15.000Z",
+      "contentHash": "2c4f39ec72a1"
+    },
     {
       "id": "2eece9247730",
       "title": "決済基盤開発を通して感じるプラットフォーム開発の魅力 | RAKSUL TechBlog",
@@ -90,6 +153,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-12T08:43:33.000Z",
       "contentHash": "836ab0cfbdd9"
+    },
+    {
+      "id": "4e40aaffb7ce",
+      "title": "The tiniest yet real telescope I've built",
+      "url": "https://lucassifoni.info/blog/miniscope-tiny-telescope/",
+      "summary": "ジャケット内ポケットに入る3Dプリントの超小型ドブソニアン望遠鏡。76mm/300mm鏡で剛性・バランス・滑らかな動き・コリメート可・フォーカスを重視。アナログSky式フォーカサー、カーボンロッド処理やHDPEパッド採用。設計はPrintables公開。光学性能は期待ほど良くなかった。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-12T07:35:49.000Z",
+      "contentHash": "0bcb2b2fac8b"
     },
     {
       "id": "fd0256fad497",
@@ -464,19 +536,19 @@
       "id": "31873539a3d4",
       "title": "Trump signs AI executive order pushing to ban state laws",
       "url": "https://www.theverge.com/ai-artificial-intelligence/841817/trump-signs-ai-executive-order-pushing-to-ban-state-laws",
-      "summary": "トランプ大統領は連邦のAI規制権を強化する大統領令に署名。州のAI規制に連邦機関が異議を唱え影響を削ぐよう指示し、資金で州法を牽制。コロラドの法も批判した。",
+      "summary": "トランプ大統領は連邦政府によるAI規制の一元化を目指す大統領令に署名。連邦機関に州のAI規制を無効化・挑戦させ、コロラド州の「アルゴリズム差別」禁止法を批判し、州法に挑戦して資金を脅かすよう指示した。",
       "source": "The Verge",
       "publishedAt": "2025-12-12T01:18:46.000Z",
-      "contentHash": "164319a9a498"
+      "contentHash": "e0b3ca5a5b36"
     },
     {
       "id": "56af479cf1b1",
       "title": "CRISPR fungus: Protein-packed, sustainable, and tastes like meat",
       "url": "https://www.isaaa.org/kc/cropbiotechupdate/article/default.asp?ID=21607",
-      "summary": "申し訳ありませんが、そのURLの内容に直接アクセスできません。記事本文をここに貼っていただくか、要点（見出し・主張・結論）を教えていただければ、200文字以内で日本語要約を作成します。どちらがよろしいですか？",
+      "summary": "すみません、外部サイトには直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で日本語要約します。要点だけでよければ抜粋でも大丈夫です。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T00:59:46.000Z",
-      "contentHash": "3b5805136463"
+      "contentHash": "cd1ddbcd4521"
     },
     {
       "id": "561f0ce88a43",
@@ -8928,78 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-11-27T06:17:37.000Z",
       "contentHash": "f598ea903523"
-    },
-    {
-      "id": "fd3d145c91c4",
-      "title": "Vibe CodingによるRAGアプリの構築 | CCCMKホールディングス TECH LABの Tech Blog",
-      "url": "https://techblog.cccmkhd.co.jp/entry/2025/11/27/151606",
-      "summary": "テックラボの伊藤がVibe Codingでアプリ開発に挑戦。動画音声を文字起こしし、RAGで回答を生成するアプリを作成。手順やChatGPT/GitHub Copilotとの連携、利点を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T06:16:06.000Z",
-      "contentHash": "5e914effe7f1"
-    },
-    {
-      "id": "f819843133db",
-      "title": "楽しいExtended Thinking | フレクトのクラウドblog",
-      "url": "https://cloud.flect.co.jp/entry/2025/11/27/151039",
-      "summary": "エンジニア竹田が、GoogleのGemini3がText部門で1位になったことを紹介。現在はGemini、ChatGPT、Claude、Grokの四強が競い合い、新モデルで順位が入れ替わるなどLLMの急速な進化をリアルタイムで体験できる点を楽しんでいる、という内容。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T06:10:39.000Z",
-      "contentHash": "d14f24a5719c"
-    },
-    {
-      "id": "5f8deaf5d163",
-      "title": "S3+Parquet（Hive 形式）vs S3 Tablesでクエリ速度がどうなるか4.32億レコードで検証！ | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/s3tablesvsparquet",
-      "summary": "Amazon S3 Tables（Iceberg形式）でデータレイクを構築した経験。S3+Parquet（Hive形式）では特定レコードの上書きが難しく、更新・削除が可能なS3 Tablesを採用し、Icebergの利点を解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T06:00:00.000Z",
-      "contentHash": "61efc8ffabb8"
-    },
-    {
-      "id": "a196746dbba5",
-      "title": "年末年始のサポート窓口休業のお知らせ | Mackerel ブログ #mackerelio",
-      "url": "https://mackerel.io/ja/blog/entry/announcement/20251127",
-      "summary": "サポート窓口は2025年12月27日〜2026年1月5日まで休業します。休業中の問い合わせは2026年1月6日以降に順次対応。12月26日以前の問い合せも内容により対応が1月6日以降になる場合があります。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T05:54:38.000Z",
-      "contentHash": "16d66dc98956"
-    },
-    {
-      "id": "17238dec64a6",
-      "title": "TypeScriptとZodバリデーションの適切な使い分け | ONE CAREER Tech Blog",
-      "url": "https://note.com/dev_onecareer/n/n3559d3c4414e",
-      "summary": "ワンキャリア（学生版）アプリチームの金です。古いJavaScriptをTypeScriptに移行中で、型チェックで実行時エラーを防げると期待して作業したが、実際にはそれほど簡単ではなかった、という導入部分です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T05:48:28.000Z",
-      "contentHash": "8121caf46939"
-    },
-    {
-      "id": "c8cbee388811",
-      "title": "エキサイト就業型インターン「Booost!!!」を通して学んだこと | エキサイト TechBlog.",
-      "url": "https://tech.excite.co.jp/entry/2025/11/27/142117",
-      "summary": "2025年11月に1ヶ月間Booost!!! Excite Internshipに参加し、Life & Wellness事業部で自社の大規模Webアプリ開発に従事。技術力向上と現場の開発フロー習得が目的。執筆者は琉球大学院修士1年でHCIを中心に、筋変位センサを用いた持久走時の疲労推定を機械学習で研究している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T05:21:17.000Z",
-      "contentHash": "287089442610"
-    },
-    {
-      "id": "fd6a5405ca9b",
-      "title": "Tell HN: Happy Thanksgiving",
-      "url": "https://news.ycombinator.com/item?id=46065955",
-      "summary": "15年間Hacker Newsに参加。過去の栄光を懐かしむ声はあるが、それでも知識や皮肉、良い議論を提供する頼れる場であり続けている。@dangと@tomhowに感謝、これからの一年に乾杯。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T05:21:16.000Z",
-      "contentHash": "829567dcd372"
-    },
-    {
-      "id": "e95a347977d7",
-      "title": "多重決済を防ごうとしてwith_lockでハマった話 | Rentio Tech Blogさんのフィード",
-      "url": "https://zenn.dev/rentio/articles/prevent-duplicate-charge-using-with-lock",
-      "summary": "レンティオのエンジニア川添が、カメラ等多様な商品と２つのプラン（期間固定で一括支払いのワンタイム、期間未定で月ごと支払う月額）を紹介。月額は継続で所有権移転する場合があり、今回は月額プランの決済で実際にあった事例を述べる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T05:13:01.000Z",
-      "contentHash": "1f20f35e3fdf"
     }
   ]
 }
