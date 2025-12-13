@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2025-12-13T03:25:51.464Z",
+  "generatedAt": "2025-12-13T04:35:38.695Z",
   "items": [
+    {
+      "id": "773c943e505e",
+      "title": "Claude Code導入時にチーム予算のうち約90%を1人で使い切った話 | レバテック開発部のフィード",
+      "url": "https://zenn.dev/levtech/articles/82c996559811dc",
+      "summary": "Claude Code導入で、私がチーム予算の約90%を半月で消費。原因はWorkspace共通のSpend Limitで個人消費が見えなかったこととプロンプト試行錯誤でトークン増。対策としてccusageでステータスラインにコスト表示し、管理者がメール通知を設定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T03:00:02.000Z",
+      "contentHash": "a7b3e8bb6fff"
+    },
+    {
+      "id": "17821397d6c9",
+      "title": "AI による業務改善の1年の振り返り | BASEプロダクトチームブログ",
+      "url": "https://devblog.thebase.in/entry/2025/12/13/120000",
+      "summary": "CSEの上野です。2025年の生成AI活用方針で、社内業務改善として人事・労務のSlack問い合わせBotをPoC。SaaS/Dify/Bedrockを比較し柔軟性重視でAmazon Bedrock採用。Notionの知見をS3経由でKnowledgeBase化し、1か月のPoCで46件中32件（70%）の正答率。敏感な問い合わせは既存のクローズド窓口へ誘導。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T03:00:00.000Z",
+      "contentHash": "980cc5e3805c"
+    },
+    {
+      "id": "64475fa08bcb",
+      "title": "高性能WebShell Behinderを使ってみる | NFLabs. エンジニアブログ",
+      "url": "https://blog.nflabs.jp/entry/2025/12/13/120000",
+      "summary": "BehinderはGUIでWebShellを生成・管理する高機能ツールで、実攻撃での利用報告もある。許可ない試行は禁止。記事はKali上でOpenJDK17で起動し、PHP用AES-128（デフォルト鍵）を設定して生成・配置・登録、Wiresharkで通信を取得・復号する手順と感想を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T03:00:00.000Z",
+      "contentHash": "be47509fe85d"
+    },
+    {
+      "id": "e584ab7ee8cc",
+      "title": "音声AI Agentの評価・テスト基盤を支えるUserSimulatorの実装 | newmo 技術ブログ",
+      "url": "https://tech.newmo.me/entry/2025/12/13/120000",
+      "summary": "音声配車AI「Maido」の評価を支えるUserSimulatorを解説。YAMLでユーザー属性・シナリオを定義し、自然言語で多様な応答を生成。GADK実装で、独立動作（TTSで応答生成）とカテゴリ判定のwith_audioの2モードを備える。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T03:00:00.000Z",
+      "contentHash": "aac0d99b465d"
+    },
+    {
+      "id": "68041bfc6858",
+      "title": "AI駆動開発を意識したドキュメント運用について考えてみる | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2025/12/13/120000",
+      "summary": "LLMの進化でAI駆動開発が進む中、ドキュメント運用を見直す重要性を論じる。何を記すか、どこに保存するか、どう更新しAIに利用させるかの4観点と、リポジトリ作成や集約などの社内運用方針を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T03:00:00.000Z",
+      "contentHash": "ef792a968a6c"
+    },
+    {
+      "id": "2528e22e1d81",
+      "title": "スポーツとテクノロジーの融合を遊び倒す！Sports Forumに参入してみた | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/reinvent2025-sports-forum",
+      "summary": "re:InventのSports Forum（シーザーズフォーラム）を紹介。スポーツとクラウド・AI・データを「見て・遊んで・体験」する展示で、NBA×AWSの高度な分析やF1のTrack Pulse、ラプターズのデジタル練習など最先端のハンズオン事例を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T02:56:44.000Z",
+      "contentHash": "6d1f4510673d"
+    },
+    {
+      "id": "2a57c15b8492",
+      "title": "AI で営業データの構造化を完全自動化する 〜基盤編〜 | Speee DEVELOPER BLOG",
+      "url": "https://tech.speee.jp/entry/ai-hearing-summary",
+      "summary": "Speeeは通話終了時に人手不要の構造化データ化を目指し、音声認識＋LLMで自動化。課題はプロンプト改善、APIコスト、リアルタイム文脈。PdMがGUIで即時プロンプト改良できる基盤（Dify/BigQuery）を構築し、通話開始10分は処理を行わず、差分トランスクリプトと差分実行で文脈を保ちつつトークンを削減、コストを約1/4に圧縮した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T02:30:00.000Z",
+      "contentHash": "d22b04d0ce1a"
+    },
+    {
+      "id": "f123aaf7bae3",
+      "title": "ラズパイとArduinoで使えるインターフェースのまとめ | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/cd9f9d55df8fd3",
+      "summary": "ラズパイとArduinoで使える各種インターフェースを用途・対応機種・開発年で整理。SSH/VNC/リモートGPIOなどの遠隔接続と、SPI/I2C/UART/1‑wire/AREF/PWMなどの周辺機器接続を解説。pigpio・WebIOPi・Raspberry Pi Connectの補足あり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T02:24:32.000Z",
+      "contentHash": "83f4ee041ee6"
+    },
+    {
+      "id": "af5024afd584",
+      "title": "API Gateway WebSocket API と Lambda で作る、ママリのリアルタイムチャット機能（サークル機能）を支えるサーバーレスなインフラ設計 | コネヒト開発者ブログ",
+      "url": "https://tech.connehito.com/entry/2025/12/13/110737",
+      "summary": "ママリのリアルタイムチャット「サークル機能」のサーバーレス設計を解説。API GatewayのWebSocket、Lambda、DynamoDBを核にRDS ProxyやSNSを併用し、認可・接続管理・メッセージ保存・配信をスケーラブルに実現。KPIに基づく負荷想定も行っている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T02:07:37.000Z",
+      "contentHash": "9274439591e8"
+    },
+    {
+      "id": "1405b69c8c7a",
+      "title": "Goに追加された「FIPS 140-3 mode」を試してみた！ | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/finatext-advent-calendar-2025-go-fips140",
+      "summary": "Go1.24で追加されたFIPS 140-3 modeを紹介。FIPS 140-3の概要、CAVP/C M V Pによるアルゴリズムと暗号モジュールの認証手順、認証の利点（米加政府調達での採用など）とGoでの利用方法を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T02:00:01.000Z",
+      "contentHash": "87737019c0af"
+    },
     {
       "id": "26c6bd3dc57d",
       "title": "LLMに「謎解き」はできるのか？ | ABEJA Tech Blog",
@@ -266,10 +356,10 @@
       "id": "669dcb074926",
       "title": "The true story of the Windows 3.1 'Hot Dog Stand' color scheme",
       "url": "https://www.pcgamer.com/software/windows/windows-3-1-included-a-red-and-yellow-hot-dog-stand-color-scheme-so-garish-it-was-long-assumed-to-be-a-joke-so-i-tracked-down-the-original-designer-to-get-the-true-story/",
-      "summary": "Windows 3.1の俗に「ホットドッグスタンド」と呼ばれる派手な赤黄配色は冗談とされてきたが、記者が元デザイナーに取材して真相を解明。表示制約や視認性、展示で目立たせる意図など、実務的な理由で選ばれたという。",
+      "summary": "Windows 3.1の派手な赤×黄の“ホットドッグ屋”配色は長年ジョーク扱いされてきたが、記者が当時のデザイナーを突き止め、表示能力や実用的制約などから意図的に選ばれたもので冗談ではなかったと明かした記事。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T19:13:35.000Z",
-      "contentHash": "5315cb4515d4"
+      "contentHash": "88047248d47a"
     },
     {
       "id": "1bfef5255b83",
@@ -284,10 +374,10 @@
       "id": "f9113acd0ec1",
       "title": "Benn Jordan’s flock camera jammer will send you to jail in Florida now [video]",
       "url": "https://www.youtube.com/watch?v=qEllWdK4l_A",
-      "summary": "要約できますが、外部サイトの直接閲覧ができません。動画の書き起こしや記事本文、または主要コメントの抜粋を貼ってください。貼れなければ要約してほしいポイントを教えてください。",
+      "summary": "申し訳ありませんが、外部リンクを直接参照できません。動画の書き起こしや記事本文、HNの主なコメントを貼り付けていただければ、それを元に200文字以内で日本語要約を作成します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T18:58:43.000Z",
-      "contentHash": "869e35d99288"
+      "contentHash": "3d2feb56e05d"
     },
     {
       "id": "01ad1d86671f",
@@ -329,10 +419,10 @@
       "id": "cc280d38ed03",
       "title": "Id Software devs form \"wall-to-wall\" union",
       "url": "https://www.rockpapershotgun.com/id-software-devs-form-wall-to-wall-union-with-165-workers-at-doom-studio-the-latest-to-vote-in-favour",
-      "summary": "Doom/Quake開発のid Softwareで開発者・アーティストら165人がCWAに加入し「wall-to-wall」組合を結成。Microsoftは既に承認。リモート勤務の保護や解雇・過重労働・不公平賃金への対抗が目的で、Microsoft傘下の組合員は約4,000人に。",
+      "summary": "Doom/Quake開発のid Softwareで165人がCWAに加盟して組合化を可決。マイクロソフトは2022年の中立合意に基づき承認。リモート勤務維持や過剰な残業・賃金不満などが背景で、MS傘下の組合員は約4,000人に。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T18:11:23.000Z",
-      "contentHash": "3463e8003140"
+      "contentHash": "c385528bad92"
     },
     {
       "id": "095a4af4cc28",
@@ -1031,10 +1121,10 @@
       "id": "9f7e2457935f",
       "title": "GPT-5.2 の概要",
       "url": "https://note.com/npaka/n/n7a4bdf31d37a",
-      "summary": "OpenAIがGPT-5.2を公開。汎用知能・長文理解（約40万トークン）・ツール連携・Visionが強化され、コーディングや要約、プロジェクト自動化に強い。Instant/Thinking/Proの3種があり、APIはトークン課金（性能別）。知識カットオフは2025年4月31日。",
+      "summary": "OpenAIがGPT-5.2を公開。汎用知能や長文理解（約40万トークン）、ツール連携やVisionが強化され、実務向けの複雑タスクに対応。ChatGPT版はInstant/Thinking/Proの3種。知識カットオフは2025/4/31。APIはトークン課金。",
       "source": "npaka",
       "publishedAt": "2025-12-12T04:02:38.000Z",
-      "contentHash": "af27f8f6ae80"
+      "contentHash": "bf2eb0e2668a"
     },
     {
       "id": "b9ee4f8196e1",
@@ -1688,10 +1778,10 @@
       "id": "d3945e6ac563",
       "title": "Gemini Deep Research Agent の概要",
       "url": "https://note.com/npaka/n/n9e52f89e8585",
-      "summary": "Googleが対話APIで提供する強化版「Gemini Deep Research Agent」を発表。事実性強化のGemini 3 Proを核に多段階の自律リサーチと深掘りWeb検索を実現し、網羅性評価の900問ベンチマーク「DeepSearchQA」を公開。金融やバイオ等で実運用中。",
+      "summary": "GoogleがGemini Deep Research Agentを発表。Gemini 3 Pro搭載で長時間の繰り返しWeb調査を高精度に自律実行、検索性能を強化。多段階ベンチマークDeepSearchQA（900問）を公開し金融・バイオ等で実運用中。",
       "source": "npaka",
       "publishedAt": "2025-12-11T18:08:56.000Z",
-      "contentHash": "db626ea11d2d"
+      "contentHash": "28ff21eb8b65"
     },
     {
       "id": "2d181d7810ca",
@@ -1715,10 +1805,10 @@
       "id": "8b24f6f5fac4",
       "title": "Interactions API の概要 - Google のモデルとエージェントの統合基盤",
       "url": "https://note.com/npaka/n/n671c92a70e5d",
-      "summary": "GoogleはGemini系モデルと組み込み／カスタムエージェントを統合する「Interactions API」を公開。/interactionsでモデルやDeep Research等エージェントと対話でき、サーバー側履歴管理、インターリーブされた履歴データモデル、バックグラウンド実行、MCPツール対応などで複雑なコンテキスト管理を簡素化することを目指す。",
+      "summary": "GoogleがGeminiモデルと組み込みエージェントを統合するInteractions APIを公開。/interactionsでモデル／エージェント呼び出し、サーバー側状態管理、バックグラウンド実行、ツール連携を提供し、複雑なコンテキスト管理や長期調査を簡素化。将来はカスタムエージェント対応予定。",
       "source": "npaka",
       "publishedAt": "2025-12-11T17:49:20.000Z",
-      "contentHash": "3e713ddb093b"
+      "contentHash": "125621a99ee5"
     },
     {
       "id": "c0344b99cf81",
@@ -8910,96 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-28T01:35:29.000Z",
       "contentHash": "eb993ee61fa9"
-    },
-    {
-      "id": "3b18863d47ea",
-      "title": "開発生産性を持続性とアウトカムの観点から考え直した | 弁護士ドットコム株式会社 Creators’ blog",
-      "url": "https://creators.bengo4.com/entry/2025/11/28/103507",
-      "summary": "リーガルブレイン基盤チームのEM丸山が、リーガルブレインエージェント向け認証・認可基盤を開発し弁護士ドットコム共通基盤化を目指す経緯を紹介。記事は「開発生産性」を高めるべきか守るべきかを問い、良好な状態の定義と向上の考え方に焦点を当てる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T01:35:07.000Z",
-      "contentHash": "44345900333b"
-    },
-    {
-      "id": "d17d2162b25e",
-      "title": "世界の読者に浸透する日本式マンガの読み方",
-      "url": "https://note.com/npaka/n/nd308d83ff06c",
-      "summary": "近年、海外でも日本式の右開き（右→左）マンガが標準化。左右反転（flipping）は激減し、読者は短時間で慣れ原作尊重が主流。出版社は初心者向けの読み方ガイドを挟み、児童向け一部は例外で左開きが残る。",
-      "source": "npaka",
-      "publishedAt": "2025-11-28T01:32:28.000Z",
-      "contentHash": "ea3565d35bcb"
-    },
-    {
-      "id": "1bd67d20484f",
-      "title": "TiDBのMySQL互換モード（AUTO_ID_CACHE=1）切り替えをこうやりました | レバテック開発部のフィード",
-      "url": "https://zenn.dev/levtech/articles/switch-table-name-on-tidb",
-      "summary": "レバテック開発部のもりたが、AWS AuroraからTiDBへ移行する中でTiDBをMySQL互換モードへ切替えた手順を備忘録として記録。互換モードはAUTO_INCREMENTの連続性をMySQLと同様にする設定で、詳細は公式ページ参照。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T01:28:17.000Z",
-      "contentHash": "757e2d931766"
-    },
-    {
-      "id": "40a2e78b877a",
-      "title": "アーキテクチャConference 2025 出展レポート | Finatext Tech Blogのフィード",
-      "url": "https://zenn.dev/finatext/articles/archi-con-2025",
-      "summary": "Finatextホールディングスは2025年11月20・21日、ベルサール羽田で開催された「アーキテクチャConference 2025」にゴールドスポンサーとして協賛しました。本記事は当社の登壇やブースの様子を紹介します。アーキテクチャConferenceはファインディ主催のアーキテクチャ設計をテーマにした日本最大級のテックカンファレンスです。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T01:03:18.000Z",
-      "contentHash": "1b87599af9f3"
-    },
-    {
-      "id": "0bcd5f0edcf8",
-      "title": "sqldefとkin-openapiにコントリビュートした話 | Mirrativ Tech Blog",
-      "url": "https://tech.mirrativ.stream/entry/2025/11/28/100000",
-      "summary": "バックエンド基盤チーム（徳森氏）は生産性向上とコスト削減を目的に依存モジュールの更新やアップストリームへのコントリビュートを実施。今回はsqldefとkin-openapiへの貢献事例を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T01:00:00.000Z",
-      "contentHash": "3e2b6541faa5"
-    },
-    {
-      "id": "e508ed042d69",
-      "title": "社内イラスト制作を支援する画像生成AIツールの研究開発 | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2025/11/28/100000",
-      "summary": "法政大学院修士1年の立川駿が、CG・深層学習を専攻し研究と親和性が高いためSansanのR&Dインターンに参加。社内イラスト生成AIの開発に取り組み、制作課題や実例を企業のAI活用事例として共有している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T01:00:00.000Z",
-      "contentHash": "18da5bc3aa44"
-    },
-    {
-      "id": "e95e5ed4de2a",
-      "title": "北陸Ruby会議01に登壇します ── わたしたちはRubyをどう使うのか | SmartHR Tech Blog",
-      "url": "https://tech.smarthr.jp/entry/2025/11/28/100000",
-      "summary": "2025年12月6日、石川県立図書館で「北陸Ruby会議01」が開催され、SmartHRの@ydahと@pndcatが登壇します。テーマは「みんなの Ruby の使い方」で、個人や企業の活用事例を紹介し北陸での利用拡大を目指します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T01:00:00.000Z",
-      "contentHash": "b0651ab4e11c"
-    },
-    {
-      "id": "f83280bde2b7",
-      "title": "【26卒】内定式を執り行いました！ | アドグローブブログ | 渋谷のIT会社",
-      "url": "https://blog.adglobe.co.jp/entry/2025/11/28/100000",
-      "summary": "アドグローブは10月27日に2026年入社予定者対象の内定式をオンラインで開催。東京・大阪の内定者と各事業部代表が参加し、挨拶、自己紹介、写真撮影などの様子を紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T01:00:00.000Z",
-      "contentHash": "cb5ec55db2ca"
-    },
-    {
-      "id": "7ed768de58e8",
-      "title": "How Charles M Schulz created Charlie Brown and Snoopy (2024)",
-      "url": "https://www.bbc.com/culture/article/20241205-how-charles-m-schulz-created-charlie-brown-and-snoopy",
-      "summary": "BBCは、チャールズ・M・シュルツが『ピーナッツ』を生み出した経緯を紹介。少年時代や軍での経験、厳しい制作習慣が作風に影響し、静かなユーモアで孤独や不安を描いたこと、スヌーピーの変化やテレビ特番の成功と文化的遺産に触れる。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T00:10:38.000Z",
-      "contentHash": "cc9d818f9691"
-    },
-    {
-      "id": "a041a6efff11",
-      "title": "Terraform で設定！ S3 Access Logs と Athena Partition Projection | Finatext Tech Blogのフィード",
-      "url": "https://zenn.dev/finatext/articles/aws-s3-access-logs-and-athena",
-      "summary": "ナウキャストのけびんが、S3コスト削減のため不要データ特定の重要性を説き、TerraformでS3のServer Access Logを有効化してAthenaで分析する手順を紹介。機械的に利用状況を把握し関係者確認に活用できる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T00:00:05.000Z",
-      "contentHash": "b577ca691eef"
     }
   ]
 }
