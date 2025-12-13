@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2025-12-13T01:22:11.616Z",
+  "generatedAt": "2025-12-13T03:25:51.464Z",
   "items": [
+    {
+      "id": "26c6bd3dc57d",
+      "title": "LLMに「謎解き」はできるのか？ | ABEJA Tech Blog",
+      "url": "https://tech-blog.abeja.asia/entry/advent-2025-day13",
+      "summary": "ABEJAの中西が自作の画像式謎解き12問で主要マルチモーダルLLMの「ひらめき」能力を検証。視覚構造の把握や発想転換が鍵で、結果とデータ・コードを公開。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T01:16:22.000Z",
+      "contentHash": "8005916601ad"
+    },
+    {
+      "id": "fc3919518c8a",
+      "title": "stage_external_sources マクロが外部テーブルを更新しないケース（dbt × Snowflake） | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/e8e29464b8928d",
+      "summary": "dbtのstage_external_sourcesマクロ（dbt-external-tables v0.8.2）で、S3のCSVが差し替えられてもSnowflakeの外部テーブルが更新されない問題を報告。原因は ext_full_refresh:false かつ partitions/auto_refresh未設定でDDLが発行されない仕様。仕組み解説と運用時の意思決定フローを提示し、最新版では挙動が変わる可能性を注意喚起。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T01:00:01.000Z",
+      "contentHash": "f5dab459f03c"
+    },
+    {
+      "id": "ae4280fe914a",
+      "title": "Android アプリから 360 度カメラ「RICOH THETA」に接続して写真を撮影する | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2025/12/13/100000",
+      "summary": "ANDPADのAndroid施工管理アプリで360度カメラRICOH THETAと直接接続して撮影する機能を実装。theta-client SDKを使用し、現場向けにAPモードのみ対応、Wi‑Fi制限回避でBluetooth検索を採用。要件定義は2024年11月、開発は2025年1月開始、4月リリース、10月にUI改善。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T01:00:00.000Z",
+      "contentHash": "ca0b5cccb39e"
+    },
+    {
+      "id": "bdd551e72afa",
+      "title": "ベトナムの開発チームとAIモデル開発をした話 | CADDi Tech Blog",
+      "url": "https://caddi.tech/2025/12/13/04390",
+      "summary": "CADDiの事業統合でベトナム開発チームとAI開発を担当した筆者が、顧客データの海外持ち出し禁止などの「データの壁」、受託文化、言語の壁に直面。Open data利用やデータ作成・拡張で対応し、3D系モデルやLLM評価データセット作成などの成果を出した経験と協業の工夫を紹介する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T01:00:00.000Z",
+      "contentHash": "8f85454c7496"
+    },
+    {
+      "id": "827e119ee509",
+      "title": "第2回 突撃！隣の椅子 | Goodpatch Tech Blog",
+      "url": "https://goodpatch-tech.hatenablog.com/entry/my-favorite-chair-2",
+      "summary": "Goodpatch Advent Calendar第2弾。デザイナーやプロデューサーが愛用する椅子（ハーマンミラー・セイル、エルゴヒューマン、ニトリ等）を、選んだ理由や以前の椅子、使い心地の一言と共に紹介しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T01:00:00.000Z",
+      "contentHash": "41695213305d"
+    },
+    {
+      "id": "216e39ea205f",
+      "title": "Google Cloud × Snowflake × Tableau：データ活用を加速する統合分析基盤を作った話 | GMO Developers",
+      "url": "https://developers.gmo.jp/technology/77681/",
+      "summary": "GMOの春田が、Google Cloud＋Snowflake＋Tableau Cloudで低コストかつ柔軟にスケールするデータ基盤を構築した事例。DataformでDWH加工、GCS→Snowpipeで自動連携、Snowflake Semantic Viewsで指標を一元化、Terraformでコード管理しETL自動化・運用負荷削減や可視化・自然言語分析まで可能にした。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T01:00:00.000Z",
+      "contentHash": "dfc26f4879a9"
+    },
+    {
+      "id": "3be026080585",
+      "title": "Electron ForgeでビルドしたAppXファイルにハードウェアトークンによるコード署名を行う方法 | OPTiM TECH BLOG",
+      "url": "https://tech-blog.optim.co.jp/entry/2025/12/13/100000",
+      "summary": "Electron ForgeはAppXを.build時に.pfxで自動署名するが、USB等のハードウェアトークンで署名する場合はpostMakeフックで署名を上書きし、独自の署名スクリプトを実装する必要がある、という解説です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T01:00:00.000Z",
+      "contentHash": "08b1262995e6"
+    },
+    {
+      "id": "f5036b64856e",
+      "title": "モジュール間の依存整理、Version Catalog でどう変わる？ | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/2025/12/13/100000",
+      "summary": "アソビューのエンジニアが、長年運用するマルチモジュールで散在した依存を整理するため Version Catalog（libs.versions.toml）を導入。依存とバージョンを一元化して書き方を統一し管理負担を減らせる一方、仕組みを理解していないとつまずきやすい点もある、実務での気づきをまとめた記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T01:00:00.000Z",
+      "contentHash": "756bfd8cd419"
+    },
+    {
+      "id": "6fa164e3fc82",
+      "title": "AI エージェントを正しく使わせる！ | Azure AI Content Safety/タスクの準拠 | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2025/12/13/100000",
+      "summary": "Azure AI Content Safetyの「タスク準拠」を紹介。AIエージェントが指示通りのツールやアクションを実行しているかを検証・監視し、誤った予約や意図しない処理を防ぐ仕組みを開発・運用両面で解説。REST APIの実装例（プレビュー）あり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T01:00:00.000Z",
+      "contentHash": "3323b98ca7f0"
+    },
+    {
+      "id": "7663c0f30683",
+      "title": "AIを使ってUnreal Engine内のアセットを自然言語で検索したい | KAYAC Engineers' Blog",
+      "url": "https://techblog.kayac.com/2025/12/13/100000",
+      "summary": "Unreal Engine内のアセットを自然言語で検索する手法を紹介。CLIP（日本語版）でアセットのサムネイルをベクトル化し、Blueprint→Pythonで入力を受け取りコサイン類似度で検索。UEのPython環境とプラグインで実装。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T01:00:00.000Z",
+      "contentHash": "7e2cc83f0998"
+    },
     {
       "id": "90365debf2cd",
       "title": "The Verge’s 2025 holiday gift guide",
@@ -18,6 +108,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-12T23:31:40.000Z",
       "contentHash": "86cd537956d3"
+    },
+    {
+      "id": "44b3e73fb42b",
+      "title": "OpenAI are quietly adopting skills, now available in ChatGPT and Codex CLI",
+      "url": "https://simonwillison.net/2025/Dec/12/openai-skills/",
+      "summary": "AnthropicのSkillsはフォルダ＋Markdownで簡単導入。OpenAIがCodex CLIとChatGPTのCode Interpreterに/ home/oai/skillsを実装し、スプレッドシート・docx・PDF対応。PDFはページをPNG化して視覚モデルで処理。筆者がrimuとkākāpō繁殖のPDFを約11分で生成。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-12T23:30:19.000Z",
+      "contentHash": "6b62507e047a"
     },
     {
       "id": "117e96fd1fd5",
@@ -167,10 +266,10 @@
       "id": "669dcb074926",
       "title": "The true story of the Windows 3.1 'Hot Dog Stand' color scheme",
       "url": "https://www.pcgamer.com/software/windows/windows-3-1-included-a-red-and-yellow-hot-dog-stand-color-scheme-so-garish-it-was-long-assumed-to-be-a-joke-so-i-tracked-down-the-original-designer-to-get-the-true-story/",
-      "summary": "Windows 3.1の赤と黄色「Hot Dog Stand」配色はジョーク扱いされてきたが、記事は元デザイナーに取材し、初期ディスプレイの視認性やパレット制約、意図的なデザイン判断によるもので冗談ではなかったと伝える。",
+      "summary": "Windows 3.1の俗に「ホットドッグスタンド」と呼ばれる派手な赤黄配色は冗談とされてきたが、記者が元デザイナーに取材して真相を解明。表示制約や視認性、展示で目立たせる意図など、実務的な理由で選ばれたという。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T19:13:35.000Z",
-      "contentHash": "83bd5e7ca9b4"
+      "contentHash": "5315cb4515d4"
     },
     {
       "id": "1bfef5255b83",
@@ -185,10 +284,10 @@
       "id": "f9113acd0ec1",
       "title": "Benn Jordan’s flock camera jammer will send you to jail in Florida now [video]",
       "url": "https://www.youtube.com/watch?v=qEllWdK4l_A",
-      "summary": "申し訳ありませんが外部リンクに直接アクセスできません。動画の字幕や記事・コメントの本文を貼るか、要点を教えてください。いただければ200字以内で要約します。",
+      "summary": "要約できますが、外部サイトの直接閲覧ができません。動画の書き起こしや記事本文、または主要コメントの抜粋を貼ってください。貼れなければ要約してほしいポイントを教えてください。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T18:58:43.000Z",
-      "contentHash": "227e3c9f5466"
+      "contentHash": "869e35d99288"
     },
     {
       "id": "01ad1d86671f",
@@ -270,6 +369,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-12T17:36:24.000Z",
       "contentHash": "828b53c28ba0"
+    },
+    {
+      "id": "0f97ea132d44",
+      "title": "Nuclear energy key to decarbonising Europe, says EESC",
+      "url": "https://www.eesc.europa.eu/en/news-media/news/nuclear-energy-key-decarbonising-europe-says-eesc",
+      "summary": "EESCは原子力がEU脱炭素の重要要素とする意見を採択。欧州委員会に規制・資金の整備や市民との透明な対話を求め、原子力が低炭素で安定供給・産業の脱炭素化と自立に貢献し、110万人超の雇用を支えると指摘。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-12T17:32:48.000Z",
+      "contentHash": "64c152f41e89"
     },
     {
       "id": "6cedac9795bb",
@@ -923,10 +1031,10 @@
       "id": "9f7e2457935f",
       "title": "GPT-5.2 の概要",
       "url": "https://note.com/npaka/n/n7a4bdf31d37a",
-      "summary": "OpenAIがGPT-5.2を発表。汎用知能・長文理解（コンテキスト約40万トークン）・ツール連携・Visionが強化され、コーディングや資料作成、長文要約などに強い。知識カットオフは2025年4月31日。ChatGPT版はInstant/Thinking/Proの3種で、APIはトークン課金。",
+      "summary": "OpenAIがGPT-5.2を公開。汎用知能・長文理解（約40万トークン）・ツール連携・Visionが強化され、コーディングや要約、プロジェクト自動化に強い。Instant/Thinking/Proの3種があり、APIはトークン課金（性能別）。知識カットオフは2025年4月31日。",
       "source": "npaka",
       "publishedAt": "2025-12-12T04:02:38.000Z",
-      "contentHash": "80a36bf19bdb"
+      "contentHash": "af27f8f6ae80"
     },
     {
       "id": "b9ee4f8196e1",
@@ -1580,10 +1688,10 @@
       "id": "d3945e6ac563",
       "title": "Gemini Deep Research Agent の概要",
       "url": "https://note.com/npaka/n/n9e52f89e8585",
-      "summary": "GoogleがInteractions APIを通じて「Gemini Deep Research Agent」を強化公開。Gemini 3 Pro搭載で長時間の反復的ウェブ調査を高精度化・幻覚低減。網羅性評価のベンチマークDeepSearchQA（900タスク、17分野）を公開し、金融やバイオ等で実運用が進む。",
+      "summary": "Googleが対話APIで提供する強化版「Gemini Deep Research Agent」を発表。事実性強化のGemini 3 Proを核に多段階の自律リサーチと深掘りWeb検索を実現し、網羅性評価の900問ベンチマーク「DeepSearchQA」を公開。金融やバイオ等で実運用中。",
       "source": "npaka",
       "publishedAt": "2025-12-11T18:08:56.000Z",
-      "contentHash": "2e377c440a5f"
+      "contentHash": "db626ea11d2d"
     },
     {
       "id": "2d181d7810ca",
@@ -2507,10 +2615,10 @@
       "id": "fbd9a28c3708",
       "title": "Gemini 2.5 TTS のアップデート - 2025年12月10日",
       "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "「Gemini 2.5 Flash/Pro TTS」プレビューが強化。表現力とスタイル指示への忠実性向上、状況に応じたペース制御、複数話者の声の一貫性強化（24言語対応）。Flashは低遅延、Proは高品質。",
+      "summary": "Gemini 2.5 Flash/Pro TTSプレビューが強化され、表現力とスタイル指示への忠実性、状況に応じたペース制御、複数話者の声の一貫性が向上（低遅延版と高品質版、24言語対応）。",
       "source": "npaka",
       "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "54b74579c93a"
+      "contentHash": "494e967dc254"
     },
     {
       "id": "61a85cfbb5d3",
@@ -8892,114 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-28T00:00:05.000Z",
       "contentHash": "b577ca691eef"
-    },
-    {
-      "id": "8360e20da421",
-      "title": "React エンジニアが GitHub Copilot と半年暮らしてわかった。「設計する時間」が増えた話 | KENTEM TechBlog",
-      "url": "https://tech.kentem.jp/entry/2025/11/28/090000",
-      "summary": "React中心のエンジニアが半年間GitHub Copilotを試用した実体験。コーディング時間が減り設計に集中できるようになったのが最大の変化。導入前は実装に追われ設計不足や巨大コンポーネント化が問題だった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T00:00:00.000Z",
-      "contentHash": "6ec0c1bf6da9"
-    },
-    {
-      "id": "c91049a897dc",
-      "title": "YRPオープンイノベーションデー2025にて6GやＡＩ、センシングの取組みを展示しました！ | ENGINEERING BLOG ドコモ開発者ブログ",
-      "url": "https://nttdocomo-developers.jp/entry/2025/11/28/090000",
-      "summary": "NTTドコモの6Gテック部とクロステック開発部が「YRPオープンイノベーションデー2025」に参加し、6G技術や社会インフラ診断支援AI、プライバシー配慮の人物センシングを展示。ドコモダケやスカリンも登場し地域と交流した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T00:00:00.000Z",
-      "contentHash": "0cf584733549"
-    },
-    {
-      "id": "a668d20e6016",
-      "title": "DroidKaigi2025に参加してきました！ | freee Developers Hub",
-      "url": "https://developers.freee.co.jp/entry/droid-kaigi-2025",
-      "summary": "24卒と25卒のモバイルエンジニアが9/10〜9/12のDroidKaigi 2025に参加。会場はブースやワークショップで交流が活発で、AI/LLMのアプリ統合とKotlin Multiplatform（KMP）の実践導入が注目テーマだった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T00:00:00.000Z",
-      "contentHash": "c505b397a108"
-    },
-    {
-      "id": "ee0e74b2a105",
-      "title": "認証認可学習のすゝめ | カミナシ エンジニアブログ",
-      "url": "https://kaminashi-developer.hatenablog.jp/entry/2025/11/28/how-i-learned-authn-and-authz",
-      "summary": "カミナシで認証認可ユニットのソフトウェアエンジニアを務めるトモ=ロウが、社内での共通ID基盤構築プロジェクト（前編・後編）のブログ公開を案内。認証認可初心者からどのように貢献したかを綴る記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T00:00:00.000Z",
-      "contentHash": "ab1eb1df390d"
-    },
-    {
-      "id": "cbfd7942c027",
-      "title": "【Amazon Bedrock】新卒1年目の同期2人でナレッジベース、ガードレール、Bedrock Flowsを調査・検証してみた | 電通総研 テックブログ",
-      "url": "https://tech.dentsusoken.com/entry/2025/11/28/%E3%80%90Amazon_Bedrock%E3%80%91%E6%96%B0%E5%8D%921%E5%B9%B4%E7%9B%AE%E3%81%AE%E5%90%8C%E6%9C%9F2%E4%BA%BA%E3%81%A7%E3%83%8A%E3%83%AC%E3%83%83%E3%82%B8%E3%83%99%E3%83%BC%E3%82%B9%E3%80%81%E3%82%AC",
-      "summary": "新卒2名が休日にBedrockの勉強会を実施。大岡はBedrock Flows、伊藤はナレッジベースとガードレールを調査・共有。Bedrockでモデル呼び出し経験はあるが機能に不慣れな人向け。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T00:00:00.000Z",
-      "contentHash": "a9303d6fa493"
-    },
-    {
-      "id": "681d457905c5",
-      "title": "Bird flu viruses are resistant to fever, making them a major threat to humans",
-      "url": "https://medicalxpress.com/news/2025-11-bird-flu-viruses-resistant-fever.html",
-      "summary": "研究は、ある鳥インフルウイルス株が発熱による高体温環境でも増殖できる性質（耐熱性）を獲得していると報告。遺伝子変化が関与し、人獣共通感染や重症化のリスクが高まる可能性があり、監視と対策強化が必要と結論。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T23:57:57.000Z",
-      "contentHash": "5f5cb0332490"
-    },
-    {
-      "id": "b1ee59dc386c",
-      "title": "Vsora Jotunn-8 5nm European inference chip",
-      "url": "https://vsora.com/products/jotunn-8/",
-      "summary": "申し訳ありませんが外部サイトに直接アクセスできません。URL先の記事本文と／またはHNコメントを貼っていただければ、200字以内で要約します。トーン（中立・肯定的・批判的）も指定可。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T23:30:11.000Z",
-      "contentHash": "f181cb33c65b"
-    },
-    {
-      "id": "4e7a2a137ed9",
-      "title": "The DualSense Edge has fallen to one of the lowest we’ve seen for Black Friday",
-      "url": "https://www.theverge.com/gadgets/822252/sony-dualsense-edge-controller-black-friday-deal-sale-2025",
-      "summary": "DualSense EdgeがAmazon/Best Buy/Walmartで約$169（$30引き）。最大4プロファイル、ボタン割当・スティック感度・トリガー調整やスティック交換で高いカスタマイズ性を提供。充電で約8時間と通常版より短めだが、ロック式充電ケーブル付き。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-27T23:00:00.000Z",
-      "contentHash": "70e7bc51484a"
-    },
-    {
-      "id": "0398c8d15ab6",
-      "title": "番組との「良質な出会い」をつくるために――”新人ばかり”のショート動画機能開発チームが語る、リリースの裏側とこれから | TVer Tech Blog",
-      "url": "https://techblog.tver.co.jp/entry/2025/11/28/080000",
-      "summary": "TVerは10周年の10/24にショート動画機能をリリース。若年層などの「非目的視聴」者にテレビの良質コンテンツとの新たな出会いを提供する挑戦で、組織内製化の最中に入社間もない新人中心のチームで開発を進めた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T23:00:00.000Z",
-      "contentHash": "a7c821cd1554"
-    },
-    {
-      "id": "2ac16781ecea",
-      "title": "Amazon ECSマネージドインスタンスとは？Fargate・EC2との違いと設定手順 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/ecs-managed-instances-guide",
-      "summary": "AWS管理のフルマネージドEC2（ECSマネージドインスタンス）によるコンテナ運用を解説。基本概念、IAMロール設定、クラスター作成手順、自動パッチ適用の仕組みまでわかりやすく説明します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T23:00:00.000Z",
-      "contentHash": "55eed13b6bb7"
-    },
-    {
-      "id": "92ec6e47ddfa",
-      "title": "AI技術でアニメ制作を革新!Creator's Xの19億円調達と業界変革の全貌 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/9df8fe604e02cc",
-      "summary": "Creator's XがシリーズAで総額19億円を調達。AIで制作負担を軽減し「創るに没入」を推進。出資と借入で資金を確保しBENTEN Filmを子会社化、3スタジオ体制で働き方改革と高品質制作を目指す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-27T22:49:18.000Z",
-      "contentHash": "158a1b171ac9"
-    },
-    {
-      "id": "3a25165e83c3",
-      "title": "250MWh 'Sand Battery' to start construction in Finland",
-      "url": "https://www.energy-storage.news/250mwh-sand-battery-to-start-construction-in-finland-for-both-heating-and-ancillary-services/",
-      "summary": "フィンランドで容量250MWhの「砂バッテリー」建設が始まる。蓄えた熱を地域暖房と電力の周波数・需給調整などの補助サービスに利用し、再エネの柔軟性と効率を高めることを狙う。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-27T22:48:44.000Z",
-      "contentHash": "42cb411595fc"
     }
   ]
 }
