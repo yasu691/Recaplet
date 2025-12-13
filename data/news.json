@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2025-12-13T10:29:23.189Z",
+  "generatedAt": "2025-12-13T11:26:52.976Z",
   "items": [
+    {
+      "id": "33af63a1e69c",
+      "title": "New Relicで始めるクラウド監視～3大プラットフォームの接続方法とデータ収集の特徴～ | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/newrelic-aws-gcp-azure-integration",
+      "summary": "New RelicはAWS・Google Cloud・Azureの監視に対応。AWSはCloudWatch Metric Streamsによるプッシュ型（Kinesis経由で約2分未満）、Google CloudはAPIポーリングのプル型（約5分）、AzureはAzure Monitorのプル型（1分〜設定可）。プッシュはリアルタイム性、プルは収集頻度や対象の柔軟性が特徴。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T10:49:31.000Z",
+      "contentHash": "eab91e718a11"
+    },
+    {
+      "id": "5f4c719a7d5d",
+      "title": "予約処理で結果整合を実現するための実装パターン | 一休.com Developers Blog",
+      "url": "https://user-first.ikyu.co.jp/entry/2025/12/13/185316",
+      "summary": "一休.comの宿泊予約リニューアルで、在庫引当やカード決済などの複数ローカルトランザクションを補償トランザクションでロールバックするSagaパターンで結果整合を実現する実装を紹介。ピボットトランザクションで成否を決め実行順を明確化した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T09:53:16.000Z",
+      "contentHash": "c894693c3fc4"
+    },
     {
       "id": "6eebae8b0913",
       "title": "フロントエンドエンジニアがAI時代に何を学ぶべきかを考えて、デザインを選んだ | Unipos Tech Blogのフィード",
@@ -18,6 +36,24 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-13T08:57:03.000Z",
       "contentHash": "535014bdb7ab"
+    },
+    {
+      "id": "048341f470ec",
+      "title": "AWS Kiroを使って1時間でブラウザゲーム作ってみた | ソーシャルデータバンク テックブログのフィード",
+      "url": "https://zenn.dev/sdb_blog/articles/kiro-flappy-game",
+      "summary": "AWSの新IDE「Kiro」を使い、Spec-driven開発で約1時間でFlappy Bird風ブラウザゲーム「Flappy Kiro」を作る手順を紹介。steeringファイルで方針（Vue3/TypeScript/Vite/Tailwind等）を設定し、gravity0.3、speed1.5px/frame、衝突判定、スコア表示、start/playing/gameoverの3状態などの仕様をSpecモードで実装する流れを解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T08:00:05.000Z",
+      "contentHash": "78e328a8914a"
+    },
+    {
+      "id": "b01d5a13582e",
+      "title": "AWS DevOpsAgentのワークショップに参加してみて | NCDC テックブログのフィード",
+      "url": "https://zenn.dev/ncdc/articles/cc82be5edb8bf1",
+      "summary": "AWS re:Invent 2025のワークショップでAWS DevOps Agentを体験。CloudWatch/CloudTrailを自律調査してDynamoDBのWCUを250→2に手動変更されたことを根本原因と特定。復旧は事前確認→適用等の4段階で丁寧に提案。現状は北バージニア限定のプレビューで、出力表現は実行ごとに異なる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T07:57:58.000Z",
+      "contentHash": "318125985fb9"
     },
     {
       "id": "7c4c7d2431df",
@@ -464,10 +500,10 @@
       "id": "669dcb074926",
       "title": "The true story of the Windows 3.1 'Hot Dog Stand' color scheme",
       "url": "https://www.pcgamer.com/software/windows/windows-3-1-included-a-red-and-yellow-hot-dog-stand-color-scheme-so-garish-it-was-long-assumed-to-be-a-joke-so-i-tracked-down-the-original-designer-to-get-the-true-story/",
-      "summary": "PC Gamerの記事は、Windows 3.1の派手な赤黄「ホットドッグスタンド」配色がジョークではなく、当時の画面・印刷・視認性など実務的制約や意図で決まったことを、元デザイナーへの取材で明らかにした内容を伝える。",
+      "summary": "Windows 3.1に収録されていた赤と黄色の派手な「ホットドッグ・スタンド」配色は長く冗談扱いされてきたが、筆者が当時のデザイナーを突き止め、制作意図や背景が冗談でなく意図的だったことを取材で明らかにした記事。",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T19:13:35.000Z",
-      "contentHash": "6998fde5fd89"
+      "contentHash": "e83895c590db"
     },
     {
       "id": "1bfef5255b83",
@@ -482,10 +518,10 @@
       "id": "f9113acd0ec1",
       "title": "Benn Jordan’s flock camera jammer will send you to jail in Florida now [video]",
       "url": "https://www.youtube.com/watch?v=qEllWdK4l_A",
-      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。動画の要点やコメントの抜粋、または文字起こしをここに貼っていただければ、200字以内で日本語要約を作成します。",
+      "summary": "申し訳ありませんが、外部リンク先の内容を直接取得できません。要約を作るために、以下のいずれかを送ってください：\n\n- 動画の文字起こし（または主要な抜粋）、または  \n- 動画のタイトルと要点を短く箇条書きで、または  \n- Hacker Newsのコメントの抜粋\n\n（YouTubeの文字起こし取得方法：動画ページの「︙」→「文字起こしを開く」→コピー）\n\n受け取ったら、200文字以内の日本語要約を作成します。どちらを送りますか？",
       "source": "Hacker News",
       "publishedAt": "2025-12-12T18:58:43.000Z",
-      "contentHash": "c1dc1273dc9b"
+      "contentHash": "5b61eafa2811"
     },
     {
       "id": "01ad1d86671f",
@@ -8964,42 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-11-28T04:16:39.000Z",
       "contentHash": "b728e94802f0"
-    },
-    {
-      "id": "65e804edd3ba",
-      "title": "LayerX AI Agentブログリレー最終回！全体振り返りと俺の推し記事を紹介するぜ！ | LayerX エンジニアブログ",
-      "url": "https://tech.layerx.co.jp/entry/2025/11/28/124908",
-      "summary": "LayerXのAI Agentブログリレー55日目。中村が12月のアドベント開始に伴いリレー終了を報告し、運営の所感と独断で選んだ名作記事を振り返る。企画趣旨の説明も含む。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T03:49:08.000Z",
-      "contentHash": "31979ca66c8f"
-    },
-    {
-      "id": "bb79754a704e",
-      "title": "Pocketbase – open-source realtime back end in 1 file",
-      "url": "https://pocketbase.io/",
-      "summary": "PocketBaseはGo製のオープンソース軽量バックエンド。SQLiteベースのコレクションDB、認証・ユーザ管理、リアルタイム/REST API、ファイルストレージ、管理UIを単一バイナリで提供し、プロトタイピングやセルフホストに適する。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T03:45:04.000Z",
-      "contentHash": "8dd74ba09c5e"
-    },
-    {
-      "id": "013bf9898591",
-      "title": "社内AI活用を“見える化”するランキング機能をリリースしました | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-      "url": "https://developers.cyberagent.co.jp/blog/archives/59930/",
-      "summary": "本文が途中で切れているため要約できません。全文を貼るか、要約してほしい主要点（目的・内容・結論など）を教えてください。いただければ200字以内でまとめます。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T03:41:31.000Z",
-      "contentHash": "3d3d0af3c804"
-    },
-    {
-      "id": "07c65cb2bf16",
-      "title": "China's BEV trucks and the end of diesel's dominance",
-      "url": "https://cleantechnica.com/2025/11/26/chinas-bev-trucks-and-the-end-of-diesels-dominance/",
-      "summary": "中国で電動トラック（BEV）がバッテリー技術、コスト競争力、充電・供給網と政策支援で急速に普及し、ディーゼル優位の終焉が近づく。輸出拡大と石油需要減少も懸念される。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T03:40:52.000Z",
-      "contentHash": "0f171e23b4c0"
     }
   ]
 }
