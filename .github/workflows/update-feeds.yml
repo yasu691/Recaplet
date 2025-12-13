@@ -41,22 +41,12 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/news.json public/data/news.json
-          
+
           # 変更がない場合は終了
           git diff --quiet && git diff --staged --quiet && exit 0
-          
+
           git commit -m "chore: update news data [skip ci]"
-          
+
           # リモートの最新を取得してリベース後にプッシュ（レースコンディション対策）
           git pull --rebase origin main
           git push origin HEAD:main
-
-      - name: Trigger Netlify Deploy
-        if: success()
-        run: |
-          if [ -n "${{ secrets.NETLIFY_BUILD_HOOK }}" ]; then
-            curl -X POST -d {} "${{ secrets.NETLIFY_BUILD_HOOK }}"
-            echo "Netlify build triggered"
-          else
-            echo "NETLIFY_BUILD_HOOK secret is not set, skipping deploy trigger"
-          fi
