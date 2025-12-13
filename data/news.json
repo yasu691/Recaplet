@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2025-12-13T22:25:40.666Z",
+  "generatedAt": "2025-12-13T23:30:14.154Z",
   "items": [
+    {
+      "id": "b884ddb00398",
+      "title": "Web APIをMCP化してAgent-readyにした話 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
+      "url": "https://developers.cyberagent.co.jp/blog/archives/60687/",
+      "summary": "記事本文が途中で切れているようです。全文を貼るか、URLを教えてください（要約は200文字以内）。特に強調したい点や対象読者がいれば併せて教えてください。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T23:00:21.000Z",
+      "contentHash": "1acaa1867318"
+    },
+    {
+      "id": "488372ce41e1",
+      "title": "【LangChain】SQL AgentでRAGに集計・統計機能を追加する方法 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/50743",
+      "summary": "RAGのセマンティック検索は集計・統計や厳密なフィルタが不得意なため、LangChainのSQL Agentと組み合わせたハイブリッド構成を提案。LLMがツール選択し、データをベクトルDBとSQLで二重管理、SQLで正確な集計を実行。実装手順、プロンプト例、セキュリティや人間承認の注意点、適用例を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T23:00:10.000Z",
+      "contentHash": "c5e9a7902ddd"
+    },
+    {
+      "id": "f4ff7a89245e",
+      "title": "AIで評価を「めんどくさい」から「ポジティブな成長機会」へ！キャディのエンジニアが挑んだPoC | CADDi Tech Blog",
+      "url": "https://caddi.tech/2025/12/14/080000",
+      "summary": "キャディの橋本氏が生成AIを使った評価プロセスのPoCを実施。評価制度を資産化し生成AIと組み合わせることで、評価が「面倒」から思考整理やマネージャーとの対話を促す「成長機会」へ変わり、ポジティブな効果を確認した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T23:00:00.000Z",
+      "contentHash": "067bd2d66eb4"
+    },
+    {
+      "id": "d219b070bcaf",
+      "title": "Geminiを壁打ち役に迎えて、チームのミッション・ビジョンを定義しました | Findy Tech Blog",
+      "url": "https://tech.findy.co.jp/entry/2025/12/14/080000",
+      "summary": "CTO室データソリューションチームが半日ワークショップで生成AI（Gemini）をファシリテーター兼壁打ち役に導入。音声で課題を抽出しGeminiにアジェンダ設計を依頼、準備を効率化して優先順位やAI戦略、データエンジニアの役割変化を踏まえミッション・ビジョンを言語化した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T23:00:00.000Z",
+      "contentHash": "f34fc724588a"
+    },
+    {
+      "id": "4f77fdc73ebb",
+      "title": "Amazon Bedrock AgentCore Evaluations AIエージェントの自動評価が可能に | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/bedrock-agentcore-evaluations",
+      "summary": "re:Invent 2025で発表されたAmazon Bedrock AgentCore Evaluationsは、AIエージェントを13種類の組み込み指標で自動評価・可視化するプレビュー機能。カスタム評価定義やCloudWatch連携なども可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T23:00:00.000Z",
+      "contentHash": "a98a5143f997"
+    },
+    {
+      "id": "1d53aa2f8d17",
+      "title": "AIを使ったLOVOTのQA業務改善の試行錯誤 | Inside of LOVOT",
+      "url": "https://tech.groove-x.com/entry/continuous_improvement_with_AI",
+      "summary": "LOVOTのQA担当がAIでログ解析自動化を試行。Geminiのカスタムボットは誤情報や挙動不安定で失敗。Difyで役割分割しGemini併用により精度は向上したが、ログ量が大きくタイムアウトやGatewayエラーが多発し運用課題が残る。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T22:00:00.000Z",
+      "contentHash": "1325e0975781"
+    },
+    {
+      "id": "648fa3f57a40",
+      "title": "医療データ基盤における入社後1年の振り返りとデータスペシャリストへの挑戦 | JMDC TECH BLOG",
+      "url": "https://techblog.jmdc.co.jp/entry/202514",
+      "summary": "JMDCのデータウェアハウス開発部・医療機関基盤グループの西川が、2025年1月入社から約1年で得た学びや、医療データ基盤の開発・運用経験を振り返る記事です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T22:00:00.000Z",
+      "contentHash": "cb6012d39a4a"
+    },
     {
       "id": "d7da10e7b103",
       "title": "Gemini 2.5 TTS のプロンプトガイド",
@@ -14,19 +77,19 @@
       "id": "e842a24852ba",
       "title": "VPN location claims don't match real traffic exits",
       "url": "https://ipinfo.io/blog/vpn-location-mismatch-report",
-      "summary": "IPinfoが20の主要VPNを解析した結果、17社が表記と異なる国から通信を出しており、多くは100以上を謳う一方で同じ少数の米欧データセンターを経由。150,000超の出口IPを調査し、Mullvad・IVPN・Windscribeは不一致なしでした。",
+      "summary": "ipinfoが主要VPNのIP所在地を調査。利用者が選んだ国・都市と実際のIP位置が頻繁にずれ、クラウド／データセンタ経由やジオロケDB誤差が主因。ストリーミングや規制対応に影響し、提供者の定期検証と透明性が必要と結論。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T19:46:19.000Z",
-      "contentHash": "1da5a49b13dc"
+      "contentHash": "b7d656e17c3f"
     },
     {
       "id": "561f9eceadb5",
       "title": "Dick Van Dyke turns 100",
       "url": "https://www.theguardian.com/film/2025/dec/13/dick-van-dyke-centenarian-100-mary-poppins-chitty-chitty-bang-bang",
-      "summary": "ディック・ヴァン・ダイクが100歳に。『メリー・ポピンズ』『チッティ・チッティ・バン・バン』『ザ・ディック・ヴァン・ダイク・ショー』など七十年にわたり活躍。貧しい生い立ちから映画で独学し、愛嬌ある演技と独特のアクセントで観客を魅了し、晩年も現役を続ける不屈のエンターテイナーだ。",
+      "summary": "申し訳ありませんが、外部リンク先の記事を直接取得できません。記事本文をここに貼っていただければ、200文字以内で要約します。全文を貼れない場合は、要約して欲しい箇所（冒頭数段落など）を指定してください。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T18:58:09.000Z",
-      "contentHash": "378361bd1e6c"
+      "contentHash": "9006665e3958"
     },
     {
       "id": "1e27f4eb4417",
@@ -41,19 +104,28 @@
       "id": "307cf27ecf88",
       "title": "Analysis finds anytime electricity from solar available as battery costs plummet",
       "url": "https://pv-magazine-usa.com/2025/12/12/analysis-finds-anytime-electricity-from-solar-available-as-battery-costs-plummet/",
-      "summary": "分析は、蓄電池コストの急落により太陽光＋蓄電が「いつでも」電力を供給できるようになり、ピーク対応や化石燃料発電の代替が経済的に実現可能であると結論づけ、普及拡大と電力市場への影響を示唆している。",
+      "summary": "申し訳ありませんが外部リンク先を直接参照できません。記事本文か主要段落を貼り付けていただければ、200字以内で要約します。HNコメントも同時に要約可能です。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T17:32:21.000Z",
-      "contentHash": "d2424092cdbd"
+      "contentHash": "b16c2eda97d7"
+    },
+    {
+      "id": "8a8556518eac",
+      "title": "Microsoft Entra Agent IDをちょびっと掴む | CloudNative Inc. BLOGs",
+      "url": "https://blog.cloudnative.co.jp/29941/",
+      "summary": "たにあんのAdvent Calendar12日目の導入文。Cloudnative IRS Advent Calendar 2025に触れつつ、AIへの感想を交えてEntra IDのAgについて紹介し始める内容。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T17:05:33.000Z",
+      "contentHash": "4e7d8cc56db7"
     },
     {
       "id": "81e711a9f7f8",
       "title": "I tried Gleam for Advent of Code",
       "url": "https://blog.tymscar.com/posts/gleamaoc2025/",
-      "summary": "筆者は毎年AoCに挑戦し、今年は短縮版12日で新言語Gleamを採用。構文・コンパイラのエラーメッセージが優秀で関数型の変換・foldやパイプがAoCに合い、IntelliJのLSPも快適。問題は難しかったが学習に最適だった。",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文か主要箇所を貼り付けていただければ、200文字以内で日本語に要約します。HNコメントの要約を希望なら、そのコメント内容を貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T17:00:14.000Z",
-      "contentHash": "a89aecd48ad2"
+      "contentHash": "945f08888c9c"
     },
     {
       "id": "0f2952f1dc1d",
@@ -74,22 +146,31 @@
       "contentHash": "58193063cce1"
     },
     {
+      "id": "d8fe7275247c",
+      "title": "LLMに易しいOpenStack MCPサーバーの作り方 | NTT docomo Business Engineers' Blog",
+      "url": "https://engineers.ntt.com/entry/202512-advent-calendar-day13/entry",
+      "summary": "NTTドコモBusiness Advent Calendar 2025の13日目記事。OpenStackのAPIをMCP経由でLLMから操作可能にしたが、単にAPIを流すとコンテキストが肥大化し実行が難航。不要情報を削り必要機能に絞ったMCP設計で改善を図った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T15:49:19.000Z",
+      "contentHash": "87fe047ba6e0"
+    },
+    {
       "id": "2384c1ae914f",
       "title": "LG TV's new software update installed MS Copilot, which cannot be deleted",
       "url": "https://old.reddit.com/r/mildlyinfuriating/comments/1plldqo/my_lg_tvs_new_software_update_installed_microsoft/",
-      "summary": "LGテレビの最新ソフト更新でMicrosoft製のアプリや検索機能が自動導入され、利用者が無断での変更や広告・プライバシー侵害を懸念してRedditやHacker Newsで批判が相次いだ。",
+      "summary": "申し訳ありませんが、外部リンクの内容には直接アクセスできません。記事やコメント本文を貼っていただければ、200文字以内で日本語要約を作成します。要点だけでも教えてください。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T15:41:24.000Z",
-      "contentHash": "0ebdad98716d"
+      "contentHash": "52b17e394af0"
     },
     {
       "id": "bf709374985d",
       "title": "Ask HN: How can I get better at using AI for programming?",
       "url": "https://news.ycombinator.com/item?id=46255285",
-      "summary": "古いjQuery＋DjangoをSvelteKitへ書き換え中。セマンティックHTML化、Bootstrap→Tailwind、ロジックのリファクタ、コンポーネント＆Storybook化をルートごとに手作業で行い時間がかかる。AI（Claude Code）は期待する品質にならず、1ルート1–2時間を15–20分に短縮する方法を求めている。",
+      "summary": "旧jQuery＋DjangoをSvelteKitへ書き換え中。UIをセマンティックなHTMLや最小限のTailwindで再実装し、ロジックも整理。ルートごとに+page.server.tsとStorybook付きコンポーネントを作るが手間がかかり、AI（Claude Code）で十分な品質が得られず効率化の助言を求めている。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T15:37:16.000Z",
-      "contentHash": "71e81764f689"
+      "contentHash": "a45836dd78b0"
     },
     {
       "id": "f3c56b6b6dc9",
@@ -194,10 +275,10 @@
       "id": "1c4777a70a55",
       "title": "Gemini 2.5 Flash Native Audio の概要",
       "url": "https://note.com/npaka/n/n78b9a1a0ce0f",
-      "summary": "タイトルのみのため推測です。Geminiの音声モデルが改良され、より自然で高精度な音声認識と合成、低遅延・多言語対応、対話性や開発者向け機能が強化された、という内容です。",
+      "summary": "GoogleはGemini 2.5 Flash Native Audioを公開。ライブ音声エージェントで関数呼び出し精度、指示追従、多ターン会話を改善し、Gemini LiveやSearch Live等で展開。70以上の言語・2000超の言語ペア対応のネイティブなライブ音声翻訳をGoogle翻訳アプリでβ提供開始。",
       "source": "npaka",
       "publishedAt": "2025-12-13T13:25:23.000Z",
-      "contentHash": "edf6e4fba73a"
+      "contentHash": "4ad77d865d05"
     },
     {
       "id": "98bf0fab2c4c",
@@ -221,10 +302,10 @@
       "id": "da75a6f5f658",
       "title": "YouTube's CEO limits his kids' social media use – other tech bosses do the same",
       "url": "https://www.cnbc.com/2025/12/13/youtubes-ceo-is-latest-tech-boss-limiting-his-kids-social-media-use.html",
-      "summary": "YouTubeのCEOが自身の子どものSNS利用を制限していると明かし、依存やメンタル・安全面の懸念から他のテック経営者と同様の対策を取っている。規制や家庭でのルール作りの重要性にも言及。",
+      "summary": "ユーチューブCEOのニール・モーハンが子どものSNS利用を制限していると明かした。多くのテック幹部も同様で、精神衛生や依存、プライバシーへの懸念から親の監督や企業の責任が問われている、という内容です。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T12:03:51.000Z",
-      "contentHash": "05e82540a43c"
+      "contentHash": "69d2437dc0ac"
     },
     {
       "id": "63fe6fc374c7",
@@ -275,10 +356,10 @@
       "id": "724c12411834",
       "title": "Computer animator and Amiga fanatic Dick van Dyke turns 100",
       "url": "https://news.ycombinator.com/item?id=46252993",
-      "summary": "2004年の動画（リンク）を紹介。今日は彼の100歳の誕生日で、Hacker Newsのスレッド（コメントURL）で話題になり、ポイント220、コメント76が付いています。",
+      "summary": "2004年の動画（YouTube）を紹介。今日は彼の100歳の誕生日であることを伝え、Hacker Newsの関連記事（得点226、コメント79）へのリンクも示している。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T08:15:48.000Z",
-      "contentHash": "c5c651c19233"
+      "contentHash": "4be3e42b48f1"
     },
     {
       "id": "048341f470ec",
@@ -329,10 +410,10 @@
       "id": "36859444a54f",
       "title": "Doxers posing as cops are tricking big tech firms into sharing people's data",
       "url": "https://www.wired.com/story/doxers-posing-as-cops-are-tricking-big-tech-firms-into-sharing-peoples-private-data/",
-      "summary": "偽の警察を装うドクサーが大手IT企業に成りすましや偽の捜査文書で個人データを請求し、企業の確認不足で情報が流出。被害者は嫌がらせや暴露を受け、認証強化と透明性向上が求められている。",
+      "summary": "ドクサーが偽装した警察や偽の令状、電話やメールのなりすましで大手IT企業から個人データを不正に引き出している。匿名暴露や嫌がらせに悪用され、開示手続きや認証の強化と透明性向上が求められている。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T05:06:59.000Z",
-      "contentHash": "1c64018aea5d"
+      "contentHash": "d6b9f59c04c1"
     },
     {
       "id": "fbcc196c0f71",
@@ -1526,10 +1607,10 @@
       "id": "9f7e2457935f",
       "title": "GPT-5.2 の概要",
       "url": "https://note.com/npaka/n/n7a4bdf31d37a",
-      "summary": "記事本文がこちらにないため要約できません。本文または主要なポイントを貼り付けてください。貼っていただければ200文字以内で簡潔に要約します。",
+      "summary": "OpenAIがGPT-5.2を発表。汎用知能・長文（約40万トークン）処理、視覚理解、ツール連携が強化され、Instant/Thinking/Proの3種とAPI課金（通常とProで料金差）を提供。知識は2025/08/31まで。",
       "source": "npaka",
       "publishedAt": "2025-12-12T04:02:38.000Z",
-      "contentHash": "8d6fa74248ee"
+      "contentHash": "359b4bdf7296"
     },
     {
       "id": "b9ee4f8196e1",
@@ -2183,10 +2264,10 @@
       "id": "d3945e6ac563",
       "title": "Gemini Deep Research Agent の概要",
       "url": "https://note.com/npaka/n/n9e52f89e8585",
-      "summary": "提示されたのはタイトルのみで本文がありません。記事の全文かリンク、または要点を貼ってください。いただければ200字以内で日本語に要約します。",
+      "summary": "GoogleはInteractions API経由でGemini Deep Research Agentを発表。Gemini 3 Proを核に多段階強化学習で反復的なWeb調査を行い幻覚を低減。DeepSearchQA（900問・17分野）を公開し網羅性評価を実現。金融・バイオ等でデューデリジェンス等に活用中。",
       "source": "npaka",
       "publishedAt": "2025-12-11T18:08:56.000Z",
-      "contentHash": "910a6bc0daa8"
+      "contentHash": "5ed8a77135ba"
     },
     {
       "id": "2d181d7810ca",
@@ -2210,10 +2291,10 @@
       "id": "8b24f6f5fac4",
       "title": "Interactions API の概要 - Google のモデルとエージェントの統合基盤",
       "url": "https://note.com/npaka/n/n671c92a70e5d",
-      "summary": "記事本文かリンクを貼ってください。本文がないと正確に要約できません。もし差し支えなければ、提示のタイトルだけを元に「Interactions API（モデルとエージェントの統合基盤）」についての一般的な200字以内の要約を作成することもできますが、それでよいですか。",
+      "summary": "GoogleのInteractions APIは、Gemini系モデルやGemini Deep Researchなどのエージェントを統合する単一のREST接点。サーバー側履歴管理、インターリーブされたメッセージ・思考・ツールの可視化、バックグラウンド実行や外部ツール呼び出しをサポートし、将来的にカスタムエージェント統合も可能にする基盤。",
       "source": "npaka",
       "publishedAt": "2025-12-11T17:49:20.000Z",
-      "contentHash": "697273d86940"
+      "contentHash": "ebbcb3ba7590"
     },
     {
       "id": "c0344b99cf81",
@@ -2669,10 +2750,10 @@
       "id": "c308764f76db",
       "title": "ChatGPT からの Photoshop を試す",
       "url": "https://note.com/npaka/n/n884da273286c",
-      "summary": "筆者がChatGPT上でPhotoshopを試した報告。AdobeはAdobe Express、Photoshop、AcrobatをChatGPTに統合し、デザインや画像、文書の編集が直接行えるようになったと発表した。",
+      "summary": "ChatGPTにAdobe Express/Photoshop/Acrobatが統合され、Photoshop for ChatGPTで選択・明るさ等の調整・エフェクト・背景ぼかし・背景削除・元に戻すが利用可能。使い方は@adobeでPhotoshopを選び画像を追加、指示を送信して接続を許可後にダウンロード。",
       "source": "npaka",
       "publishedAt": "2025-12-11T06:04:12.000Z",
-      "contentHash": "616277431746"
+      "contentHash": "d2fad267b374"
     },
     {
       "id": "ba511f64a3e7",
@@ -3110,10 +3191,10 @@
       "id": "fbd9a28c3708",
       "title": "Gemini 2.5 TTS のアップデート - 2025年12月10日",
       "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "記事全文かリンクを貼っていただけますか？全文があれば正確に200字以内で要約します。全文がない場合は、タイトルからの仮要約を以下に示します（簡潔版）:\n\n「GeminiのTTSモデルを改良し、音声の細かな制御や表現力、機能性を向上。多言語対応や音質・同期・効率化の改善で応用範囲を広げる取り組みを紹介。」",
+      "summary": "Gemini 2.5 Flash/ProのTTSプレビューが強化され、表現力とスタイル遵守、状況に応じたペース制御、複数話者の声の一貫性が向上。Flashは低遅延、Proは高品質で24言語対応、デモも公開。",
       "source": "npaka",
       "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "0c872963649c"
+      "contentHash": "645094e3e782"
     },
     {
       "id": "61a85cfbb5d3",
@@ -3164,10 +3245,10 @@
       "id": "1513960f9162",
       "title": "Unityゲームを Reddit 投稿として動かす手順まとめ",
       "url": "https://note.com/npaka/n/n6588ee59287c",
-      "summary": "記事本文かURLを貼ってください。確認できれば200文字以内で要約します。全文がない場合は、タイトルだけでの推測要約でよいか教えてください。",
+      "summary": "UnityゲームをReddit投稿として動かす手順まとめ。Node.jsやUnity6等を用意し、developers.reddit.comでDevvit Unityテンプレートを作成。セットアップ後にnpm run devで起動し、src/client/server/sharedやBuild出力などプロジェクト構成を使ってRedditとデータ連携する。サンプルあり。",
       "source": "npaka",
       "publishedAt": "2025-12-10T22:15:27.000Z",
-      "contentHash": "c20772a5a14d"
+      "contentHash": "20db9882401c"
     },
     {
       "id": "82e6217449e0",
@@ -4973,10 +5054,10 @@
       "id": "8b5993ac7f69",
       "title": "低コスト・オープンソースのロボットハンド Amazing Hand のススメ",
       "url": "https://note.com/npaka/n/nf59d85ba3538",
-      "summary": "「フィジカルAI×ロボティクス Advent Calendar 2025」10日目の記事紹介。シリーズの一編で、続きや詳細はリンク先で確認できることを案内している。",
+      "summary": "Amazing HandはHugging Face傘下POLLENが開発した低コスト・オープンソースの4本指8自由度ロボットハンド。3Dプリント＋市販サーボで自作可能、Seeedでキット販売。内部アクチュエータ、SDKやAI連携、テレオペ・データ収集・センサーストリーミング対応でロボットハンド導入の敷居を下げる。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:12:06.000Z",
-      "contentHash": "1757b63d4964"
+      "contentHash": "b750ca7283da"
     },
     {
       "id": "9d66f25183c5",
@@ -4991,10 +5072,10 @@
       "id": "7e983d2c4634",
       "title": "Android XR SDK Developer Preview 3 の概要",
       "url": "https://note.com/npaka/n/nbc9cb6f50d5b",
-      "summary": "Android XR SDK Developer Preview 3の概要。AIグラス向け開発を可能にし、没入型体験向けの新機能やAPI、ツールを提供して開発者の表現力を拡張する。",
+      "summary": "Android XR SDK Developer Preview 3を公開。AIグラス向けのAugmented Experiences対応としてJetpack ProjectedとJetpack Compose Glimmer、AIグラスエミュレータやARCore拡張を追加し、SceneCoreやCompose for XRなどXRライブラリも強化しました。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:07:27.000Z",
-      "contentHash": "cc5c2b3d7451"
+      "contentHash": "b55948176623"
     },
     {
       "id": "a70f6dc6e989",
@@ -8919,87 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-11-28T12:15:00.000Z",
       "contentHash": "b18a71f88b85"
-    },
-    {
-      "id": "da0472cdbb14",
-      "title": "遅いクライアントがサーバーを殺す ― リバースプロキシの役割を理解する | WonderPlanet Developers’ Blog",
-      "url": "https://developers.wonderpla.net/entry/2025/11/28/210041",
-      "summary": "EDMOのSRE堀江が、社内の会話をきっかけにリバースプロキシの必要性や用途、設計・運用上の注意点をわかりやすく解説する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T12:00:41.000Z",
-      "contentHash": "2fb25bf76544"
-    },
-    {
-      "id": "ca5b4df077c8",
-      "title": "I’ve covered Black Friday deals for ten years, ask me anything",
-      "url": "https://www.theverge.com/gadgets/829295/black-friday-ama",
-      "summary": "ザ・ヴァージは早まるブラックフライデーに向け数か月準備し、何百件のセールと特集ページを公開。購読者向けAMAを本日午後1時（ET）から行い、個別のおすすめや運営・セール全般の質問に答える。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T12:00:00.000Z",
-      "contentHash": "3df1b63feffb"
-    },
-    {
-      "id": "7bead4282777",
-      "title": "【Okta新機能】「Temporary Access Code (TAC)」設定ガイド | CloudNative Inc. BLOGs",
-      "url": "https://blog.cloudnative.co.jp/29492/",
-      "summary": "IDチームのわかなが、Oktaの新機能「Temporary Access Code（TAC）」を実際に検証。TACの概要、設定手順、動作確認と運用上の注意点を試して解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T11:57:35.000Z",
-      "contentHash": "395ebfec5af0"
-    },
-    {
-      "id": "e0e7f60e8ebe",
-      "title": "My favorite Black Friday TV deals from Samsung, Sony, and others are up to 50% off",
-      "url": "https://www.theverge.com/tech/829579/best-4k-tv-streaming-soundbar-blu-ray-player-deal-sale-black-friday",
-      "summary": "ブラックフライデーでテレビやアクセサリが最安に。2025年モデルも大幅値引きで、ミニLED、QD‑OLED/OLED、Dolby Atmos対応音響や配信機器などが豊富。Sony Bravia 8 IIは55/65型で$1,000超の割引、Samsung S90Fは65型約$1,398で高輝度・高色域、HDMI端子が充実。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T11:30:00.000Z",
-      "contentHash": "851af0a94310"
-    },
-    {
-      "id": "bdb5b3ffd9ea",
-      "title": "生成AIの気になるニュース・記事（11/2~11/8） | 分析屋",
-      "url": "https://note.com/bunsekiya_tech/n/n66ff6e4a781b",
-      "summary": "分析屋の池田が、11月2日〜8日にリリースされたAI関連情報をまとめた案内です。詳しい内容は「続きを見る」で確認できます。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T11:23:53.000Z",
-      "contentHash": "11d113dca77f"
-    },
-    {
-      "id": "7a6234934d09",
-      "title": "AWS Certified Solutions Architect - Professional 合格体験記（2025年11月合格） | 分析屋",
-      "url": "https://note.com/bunsekiya_tech/n/n61b0c8a1f0dc",
-      "summary": "基盤運用構築部のTが、CLF・SAA・DVAに続き2025年11月下旬にAWS Certified Solutions Architect - Professional（SAP-C02）に合格。受験のきっかけと学習法を紹介し、読者のスキル向上を支援する記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T11:23:06.000Z",
-      "contentHash": "d618ca8bb31c"
-    },
-    {
-      "id": "794387462e8f",
-      "title": "EU Council Approves New \"Chat Control\" Mandate Pushing Mass Surveillance",
-      "url": "https://reclaimthenet.org/eu-council-approves-new-chat-control-mandate-pushing-mass-surveillance",
-      "summary": "EU理事会が「チャットコントロール」交渉権限を承認。メッセージの自動検査や暗号化回避を義務化する方向で、プライバシー侵害や大規模監視につながると批判が相次いでいる。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T10:36:08.000Z",
-      "contentHash": "a2e975ddf531"
-    },
-    {
-      "id": "a6d4171ad553",
-      "title": "マネージャーが3ヶ月いなくてもデータ組織は問題ないのか説 ~2人目の育児休暇~ | レバレジーズ データAIブログ",
-      "url": "https://analytics.leverages.jp/entry/2025/11/28/193000",
-      "summary": "データ戦略室マネージャーの小山氏が第二子誕生で約3か月の育休を取得し復職。「マネージャーが育休を取っても組織は問題ないか」を自身の2度目の育休経験から論じようとする導入。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T10:30:00.000Z",
-      "contentHash": "d57b8c741b4c"
-    },
-    {
-      "id": "9334b4b0c607",
-      "title": "[TS TIP] 実用的な型定義を理解する 14選（後編） | NCDCエンジニアブログのフィード",
-      "url": "https://zenn.dev/ncdc/articles/2c9582a5d28cde",
-      "summary": "前編で扱ったConditional Typesやinferなどの基礎に続き、後編では8〜14項目を解説。TypeScript 4.1以降のTemplate Literal Typesで文字列パターンを型化し、API URLの型保証など実例で紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T09:36:33.000Z",
-      "contentHash": "d2f2f84d2867"
     }
   ]
 }
