@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2025-12-13T23:30:14.154Z",
+  "generatedAt": "2025-12-14T01:31:24.845Z",
   "items": [
     {
       "id": "b884ddb00398",
       "title": "Web APIをMCP化してAgent-readyにした話 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
       "url": "https://developers.cyberagent.co.jp/blog/archives/60687/",
-      "summary": "記事本文が途中で切れているようです。全文を貼るか、URLを教えてください（要約は200文字以内）。特に強調したい点や対象読者がいれば併せて教えてください。",
+      "summary": "広告品質判定などのOpenAPI準拠Web APIを、FastMCPでMCP化してAIエージェントから呼べる「Agent-ready」にした事例。FastMCPで個別MCP化や複数APIを統合するGateway構築が容易になり、エージェント側の実装負担や仕様変更対応を軽減し、広告文の反復改善に活用できる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-13T23:00:21.000Z",
-      "contentHash": "1acaa1867318"
+      "contentHash": "3a74c41e158f"
     },
     {
       "id": "488372ce41e1",
@@ -68,28 +68,64 @@
       "id": "d7da10e7b103",
       "title": "Gemini 2.5 TTS のプロンプトガイド",
       "url": "https://note.com/npaka/n/n5402bf2851d0",
-      "summary": "Gemini 2.5 TTSのプロンプトガイドをまとめた記事です。音声生成におけるプロンプト設計法、声質や抑揚・速度などの指示例、実践的テンプレやベストプラクティスを紹介し、自然で表現豊かな音声作成を支援します。",
+      "summary": "Gemini 2.5 TTSは「何を話すか」だけでなく「どう話すか」まで理解するTTS。プロンプトは「誰が（Audio Profile）」「どんな場面で（Scene）」「どう演じるか（Director’s Notes）」を揃え、Sample ContextやTranscriptを組み合わせると自然で感情豊かな音声が生成できる。",
       "source": "npaka",
       "publishedAt": "2025-12-13T21:32:47.000Z",
-      "contentHash": "be479b81c660"
+      "contentHash": "ee006fd8be43"
+    },
+    {
+      "id": "5db69fb85710",
+      "title": "Want to sway an election? Here’s how much fake online accounts cost",
+      "url": "https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost",
+      "summary": "研究者が偽アカウントやボットの闇市場を分析し、比較的安価に大規模なオンライン工作が可能であると警告。プラットフォームごとの脆弱性や人手＋自動化の併用で影響力が増し、検出・透明性・規制強化が必要と結論づけた。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-13T20:48:09.000Z",
+      "contentHash": "dd005e29b591"
+    },
+    {
+      "id": "e27b805ab052",
+      "title": "Why Twilio Segment moved from microservices back to a monolith",
+      "url": "https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices",
+      "summary": "Twilio Segmentは当初マイクロサービスを採用したが、サービス増加で複雑化し開発速度低下・不具合激増、3人の常駐エンジニアが保守に追われる事態に。そこで設計を見直し、機能を統合して問題を解決した事例。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-13T20:30:34.000Z",
+      "contentHash": "73e347fac534"
     },
     {
       "id": "e842a24852ba",
       "title": "VPN location claims don't match real traffic exits",
       "url": "https://ipinfo.io/blog/vpn-location-mismatch-report",
-      "summary": "ipinfoが主要VPNのIP所在地を調査。利用者が選んだ国・都市と実際のIP位置が頻繁にずれ、クラウド／データセンタ経由やジオロケDB誤差が主因。ストリーミングや規制対応に影響し、提供者の定期検証と透明性が必要と結論。",
+      "summary": "IPinfoが20の人気VPNを大規模調査。17社は実際の出口が表記国と異なり、多くは「100超国」表記でも米欧の少数データセンターに集中。15万超の出口IP（137国）解析でMullvad・IVPN・Windscribeのみ表記と一致。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T19:46:19.000Z",
-      "contentHash": "b7d656e17c3f"
+      "contentHash": "1da5a49b13dc"
     },
     {
       "id": "561f9eceadb5",
       "title": "Dick Van Dyke turns 100",
       "url": "https://www.theguardian.com/film/2025/dec/13/dick-van-dyke-centenarian-100-mary-poppins-chitty-chitty-bang-bang",
-      "summary": "申し訳ありませんが、外部リンク先の記事を直接取得できません。記事本文をここに貼っていただければ、200文字以内で要約します。全文を貼れない場合は、要約して欲しい箇所（冒頭数段落など）を指定してください。",
+      "summary": "ディック・ヴァン・ダイクが100歳に。『メリー・ポピンズ』の弾む身体表現やユーモア、かつて批判されたコッキニー訛りも含めた愛らしさで、七十年超にわたり観客を楽しませ続けている。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T18:58:09.000Z",
-      "contentHash": "9006665e3958"
+      "contentHash": "378361bd1e6c"
+    },
+    {
+      "id": "fd3a723abcfa",
+      "title": "Ableton MCPのソースコードを眺める AbletonMCP_Remote_Script 編 | 株式会社ZOZOのフィード",
+      "url": "https://zenn.dev/zozotech/articles/f43685a1a0dc67",
+      "summary": "AbletonMCP_Remote_Scriptのinit.pyを解説。Ableton Live用リモートスクリプトでlocalhost:9877でTCPサーバを起動し、JSONベースの読み書きコマンドでLiveを制御。状態変更はメインスレッドで実行、Queueで応答受渡し、ブラウザ操作とPython2/3互換に対応。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-13T18:52:07.000Z",
+      "contentHash": "aa11efd5ed29"
+    },
+    {
+      "id": "1458a21b4248",
+      "title": "Are we stuck with the same Desktop UX forever? [video]",
+      "url": "https://www.youtube.com/watch?v=1fZTOjd_bOQ",
+      "summary": "外部リンクを直接開けないため、そのままは要約できません。動画のタイトル／要点、または本文・字幕・コメントの抜粋を貼っていただければ、200文字以内で日本語要約を作成します。どちらを提供しますか？",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-13T18:39:53.000Z",
+      "contentHash": "09b0a8f9535b"
     },
     {
       "id": "1e27f4eb4417",
@@ -104,28 +140,28 @@
       "id": "307cf27ecf88",
       "title": "Analysis finds anytime electricity from solar available as battery costs plummet",
       "url": "https://pv-magazine-usa.com/2025/12/12/analysis-finds-anytime-electricity-from-solar-available-as-battery-costs-plummet/",
-      "summary": "申し訳ありませんが外部リンク先を直接参照できません。記事本文か主要段落を貼り付けていただければ、200字以内で要約します。HNコメントも同時に要約可能です。",
+      "summary": "エンバーの報告は、バッテリー費用の急低下で太陽光＋蓄電が「いつでも電力」として従来電源と競合可能になったと指摘。2024年にコア機器価格は40%下落し$165/kWh、米中以外の大型BESS総建設費は約$125/kWh、LCOSは$65/MWhと推定（各国入札と専門家聴取に基づく）。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T17:32:21.000Z",
-      "contentHash": "b16c2eda97d7"
+      "contentHash": "991a42135b84"
     },
     {
       "id": "8a8556518eac",
       "title": "Microsoft Entra Agent IDをちょびっと掴む | CloudNative Inc. BLOGs",
       "url": "https://blog.cloudnative.co.jp/29941/",
-      "summary": "たにあんのAdvent Calendar12日目の導入文。Cloudnative IRS Advent Calendar 2025に触れつつ、AIへの感想を交えてEntra IDのAgについて紹介し始める内容。",
+      "summary": "Entra IDのAgent IDはエージェント用の固有IDを発行・管理する機能。自動/手動（Blueprint・Graph/PowerShell）で作成でき、監査ログやIdentity Protection、条件付きアクセスに対応。使用箇所の特定など運用上の課題があり、2025年12月時点のプレビュー情報。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-13T17:05:33.000Z",
-      "contentHash": "4e7d8cc56db7"
+      "contentHash": "9478fe06b623"
     },
     {
       "id": "81e711a9f7f8",
       "title": "I tried Gleam for Advent of Code",
       "url": "https://blog.tymscar.com/posts/gleamaoc2025/",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文か主要箇所を貼り付けていただければ、200文字以内で日本語に要約します。HNコメントの要約を希望なら、そのコメント内容を貼ってください。",
+      "summary": "毎年Advent of Codeを解く筆者が今年はGleamを選択。12日開催で密度高めの問題が続く中、Gleamは簡潔な文法・親切なコンパイラとエラーメッセージ、パイプや関数型スタイルがAoCに合い、IntelliJのLSPも良好で高評価だった。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T17:00:14.000Z",
-      "contentHash": "945f08888c9c"
+      "contentHash": "a89aecd48ad2"
     },
     {
       "id": "0f2952f1dc1d",
@@ -158,19 +194,19 @@
       "id": "2384c1ae914f",
       "title": "LG TV's new software update installed MS Copilot, which cannot be deleted",
       "url": "https://old.reddit.com/r/mildlyinfuriating/comments/1plldqo/my_lg_tvs_new_software_update_installed_microsoft/",
-      "summary": "申し訳ありませんが、外部リンクの内容には直接アクセスできません。記事やコメント本文を貼っていただければ、200文字以内で日本語要約を作成します。要点だけでも教えてください。",
+      "summary": "LGのテレビが自動ソフト更新でMicrosoft製のソフトやコンポーネントを勝手にインストール。投稿者は不要なプリインストールや制御不能なアップデート、プライバシーや選択権の侵害を指摘し、他ユーザーからも同様の不満が寄せられた。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T15:41:24.000Z",
-      "contentHash": "52b17e394af0"
+      "contentHash": "3ba7d12bddc2"
     },
     {
       "id": "bf709374985d",
       "title": "Ask HN: How can I get better at using AI for programming?",
       "url": "https://news.ycombinator.com/item?id=46255285",
-      "summary": "旧jQuery＋DjangoをSvelteKitへ書き換え中。UIをセマンティックなHTMLや最小限のTailwindで再実装し、ロジックも整理。ルートごとに+page.server.tsとStorybook付きコンポーネントを作るが手間がかかり、AI（Claude Code）で十分な品質が得られず効率化の助言を求めている。",
+      "summary": "DjangoのルートをSvelte/Storybookに移植する作業が1ルートで1〜2時間かかり、AI支援が期待通りでない。対策はCLAUDE.mdで指示をまとめる、Planモードで計画確認、Puppeteerでブラウザ検証、Opus 4.5を使うこと。ただしCLAUDE.mdが誤動作する場合もある。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T15:37:16.000Z",
-      "contentHash": "a45836dd78b0"
+      "contentHash": "01be18fe04e1"
     },
     {
       "id": "f3c56b6b6dc9",
@@ -275,10 +311,10 @@
       "id": "1c4777a70a55",
       "title": "Gemini 2.5 Flash Native Audio の概要",
       "url": "https://note.com/npaka/n/n78b9a1a0ce0f",
-      "summary": "GoogleはGemini 2.5 Flash Native Audioを公開。ライブ音声エージェントで関数呼び出し精度、指示追従、多ターン会話を改善し、Gemini LiveやSearch Live等で展開。70以上の言語・2000超の言語ペア対応のネイティブなライブ音声翻訳をGoogle翻訳アプリでβ提供開始。",
+      "summary": "「Gemini 2.5 Flash Native Audio」を公開。ライブ音声エージェントやSearch Liveでネイティブ音声を提供し、関数呼び出し精度や指示追従（84→90%）、多ターン会話を改善。ライブ翻訳は70以上の言語・2000超の言語ペア対応で抑揚維持、自動検出・ノイズ耐性を備え、ベータはGoogle翻訳アプリで開始。",
       "source": "npaka",
       "publishedAt": "2025-12-13T13:25:23.000Z",
-      "contentHash": "4ad77d865d05"
+      "contentHash": "751bc008efc0"
     },
     {
       "id": "98bf0fab2c4c",
@@ -293,10 +329,10 @@
       "id": "c97debad51a1",
       "title": "We built another object storage",
       "url": "https://fractalbits.com/blog/why-we-built-another-object-storage/",
-      "summary": "そのURLの内容に直接アクセスできないため、記事本文を貼っていただくか、要約してほしい箇所（本文全体／見出し／HNの議論など）を教えてください。貼っていただければ200文字以内で日本語要約を作成します。",
+      "summary": "FractalBitsは、高性能はあるがリクエスト課金で大規模運用が困難な「高性能の罠」を解消するため新しいオブジェクトストレージを開発。AIや分析で増える多数の小オブジェクトと低遅延要求に対応し、性能とコスト効率の両立を目指す。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T12:29:19.000Z",
-      "contentHash": "34b5a2306043"
+      "contentHash": "122e702de984"
     },
     {
       "id": "da75a6f5f658",
@@ -1607,10 +1643,10 @@
       "id": "9f7e2457935f",
       "title": "GPT-5.2 の概要",
       "url": "https://note.com/npaka/n/n7a4bdf31d37a",
-      "summary": "OpenAIがGPT-5.2を発表。汎用知能・長文（約40万トークン）処理、視覚理解、ツール連携が強化され、Instant/Thinking/Proの3種とAPI課金（通常とProで料金差）を提供。知識は2025/08/31まで。",
+      "summary": "OpenAIがGPT-5.2を発表。汎用知能、長文コンテキスト理解（約40万トークン）、ツール連携、視覚解析が強化され、実務的なコード作成や文書要約、自動化に強い。ChatGPTはInstant/Thinking/Proの3種で用途別に提供。APIはトークン課金制（高精度版は高額）。知識カットオフは2025/08/31。",
       "source": "npaka",
       "publishedAt": "2025-12-12T04:02:38.000Z",
-      "contentHash": "359b4bdf7296"
+      "contentHash": "a8c34768f9b4"
     },
     {
       "id": "b9ee4f8196e1",
@@ -2750,10 +2786,10 @@
       "id": "c308764f76db",
       "title": "ChatGPT からの Photoshop を試す",
       "url": "https://note.com/npaka/n/n884da273286c",
-      "summary": "ChatGPTにAdobe Express/Photoshop/Acrobatが統合され、Photoshop for ChatGPTで選択・明るさ等の調整・エフェクト・背景ぼかし・背景削除・元に戻すが利用可能。使い方は@adobeでPhotoshopを選び画像を追加、指示を送信して接続を許可後にダウンロード。",
+      "summary": "ChatGPTに統合された「Adobe Photoshop for ChatGPT」を試用。選択・調整・エフェクト・背景ぼかし・背景削除・元に戻す等をサポート。手順は@adobeでPhotoshop選択→画像追加→「背景を透過して」送信→接続許可→ダウンロード。",
       "source": "npaka",
       "publishedAt": "2025-12-11T06:04:12.000Z",
-      "contentHash": "d2fad267b374"
+      "contentHash": "8996361f6dc7"
     },
     {
       "id": "ba511f64a3e7",
@@ -3191,10 +3227,10 @@
       "id": "fbd9a28c3708",
       "title": "Gemini 2.5 TTS のアップデート - 2025年12月10日",
       "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "Gemini 2.5 Flash/ProのTTSプレビューが強化され、表現力とスタイル遵守、状況に応じたペース制御、複数話者の声の一貫性が向上。Flashは低遅延、Proは高品質で24言語対応、デモも公開。",
+      "summary": "Gemini 2.5 Flash/ProのTTSプレビューが強化。表現力とスタイルへの忠実性が向上し、状況に応じたペース調整や指示追従性が改善。複数話者の一貫性も強化され、24言語に対応。",
       "source": "npaka",
       "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "645094e3e782"
+      "contentHash": "6b7e32740519"
     },
     {
       "id": "61a85cfbb5d3",
@@ -8964,42 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-11-28T12:41:32.000Z",
       "contentHash": "db25c8f64936"
-    },
-    {
-      "id": "c0bc1312d593",
-      "title": "Epic CEO Tim Sweeney says Steam should drop its ‘Made with AI’ tags",
-      "url": "https://www.theverge.com/news/831747/tim-sweeney-epic-ceo-steam-game-stores-made-with-ai",
-      "summary": "Epic GamesのCEOティム・スウィーニーは、生成AIの普及でSteamなどの「Made with AI」表示はゲーム販売では無意味になったと主張。美術展や権利説明は別扱いとし、現在はSteamが開示を求めているが、AI活用は拡大する一方で「AI-free」を売りにするインディーもいる。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T12:39:58.000Z",
-      "contentHash": "9f5cae1e11aa"
-    },
-    {
-      "id": "9e5ed917176c",
-      "title": "[参加レポート]re:Invent2024に初＆単独参戦！一週間の感動を振り返る | DENET 技術ブログ",
-      "url": "https://blog.denet.co.jp/participation-report-aws-reinvent-2024/",
-      "summary": "本文がないため正確な要約ができません。本文かURLを貼ってください。仮の要約例（200字以内）：\n「著者が初めて単独でre:Invent2024に参加した一週間の体験を振り返り、印象的だったセッションやネットワーキング、得た学びと感動、今後の業務活用への示唆を紹介する参加レポート。」",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-28T12:29:28.000Z",
-      "contentHash": "096463e275d8"
-    },
-    {
-      "id": "d52bcc29f11d",
-      "title": "The mysterious black fungus from Chernobyl that may eat radiation",
-      "url": "https://www.bbc.com/future/article/20251125-the-mysterious-black-fungus-from-chernobyl-that-appears-to-eat-radiation",
-      "summary": "チェルノブイリで見つかった黒いメラニン含有菌は、放射線で成長が促され、放射線を化学エネルギーに変える「ラジオシンセシス」の可能性が示唆される。生物修復や宇宙利用の期待はあるが、仕組みや実用化は未解明だと報じる。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T12:17:15.000Z",
-      "contentHash": "a8cea229827f"
-    },
-    {
-      "id": "60d44d22b9b9",
-      "title": "You can save 50 percent on robovacs from Roborock and Eufy for Black Friday",
-      "url": "https://www.theverge.com/gadgets/828157/best-black-friday-robot-vacuum-mop-deals-sale-2025",
-      "summary": "ブラックフライデーでロボット掃除機が大幅値下げ。アーム搭載のロボロック Saros Z70が50%オフほか、Dreame X40 Ultra、Eufy X10 Pro Omni（$449.99）、Tapo RV30 Max Plus（自動排出ドック 約$199〜$230）など多機種が週末〜サイバーマンデーまでセール中。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T12:15:00.000Z",
-      "contentHash": "b18a71f88b85"
     }
   ]
 }
