@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2025-12-14T13:38:09.424Z",
+  "generatedAt": "2025-12-14T14:16:08.230Z",
   "items": [
+    {
+      "id": "d1c255d57b22",
+      "title": "I&#8217;m finally beginning to trust Microsoft&#8217;s handheld Xbox",
+      "url": "https://www.theverge.com/games/843010/xbox-ally-x-sleep-battery-drain-two-months-later",
+      "summary": "著者は当初Xbox Allyの購入は勧めずFSEも未完成だとしたが、何度ものアップデートでスリープ復帰やセーブ、バッテリ管理が改善され、Ally/Ally Xを以前より信頼できるようになった。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-14T14:00:00.000Z",
+      "contentHash": "39d4b898bc96"
+    },
     {
       "id": "9cb0245f132c",
       "title": "AI image generators are getting better by getting worse",
@@ -401,10 +410,10 @@
       "id": "d7da10e7b103",
       "title": "Gemini 2.5 TTS のプロンプトガイド",
       "url": "https://note.com/npaka/n/n5402bf2851d0",
-      "summary": "Gemini 2.5 TTSは「何を話すか」だけでなく「どう話すか」まで指定可能。キャラ（年齢・立場）、場面（場所・雰囲気）、演技（速度・抑揚・息遣いなど）をAudio Profile/Scene/Director’s Notes/Sample Context/Transcriptで組み合わせ、誰が・何を・どう話すかを一致させると自然で感情のある音声が得られる。",
+      "summary": "Gemini 2.5 TTSのプロンプトガイド。声の性格・場面・演技（速度・強弱・息遣い）を細かく指示でき、Audio Profile／Scene／Director’s Notes／Sample Context／Transcriptを組み合わせて「誰が・何を・どう話すか」を揃えると自然で感情のある音声が得られる。",
       "source": "npaka",
       "publishedAt": "2025-12-13T21:32:47.000Z",
-      "contentHash": "71d4c4eb9a6e"
+      "contentHash": "f9915b46003e"
     },
     {
       "id": "44da3c600b1b",
@@ -437,10 +446,10 @@
       "id": "7f8c3c5f7edd",
       "title": "I fed 24 years of my blog posts to a Markov model",
       "url": "https://susam.net/fed-24-years-of-posts-to-markov-model.html",
-      "summary": "Susam Palが小型マルコフ文生成器「Mark V. Shaney Junior」をGitHub公開。約30行のPythonで理解しやすく、趣味の探究として自身のブログ24年分や古典を学習させて奇妙な文を生成する。",
+      "summary": "Fedの過去24年分の投稿をスクレイピングしてマルコフ連鎖で学習させ、Fed風の文章を生成する実験。データ収集・前処理・モデル設計、生成例や実装コード、考察を公開している。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T20:19:53.000Z",
-      "contentHash": "59e33907bb78"
+      "contentHash": "8d8c6385172b"
     },
     {
       "id": "0975c976cac0",
@@ -5450,10 +5459,10 @@
       "id": "8b5993ac7f69",
       "title": "低コスト・オープンソースのロボットハンド Amazing Hand のススメ",
       "url": "https://note.com/npaka/n/nf59d85ba3538",
-      "summary": "Amazing HandはHugging Face傘下POLLENが開発した低コスト・オープンソースの4本指8自由度ロボットハンド。3Dプリント＋市販サーボで自作可能、Seeedでキット販売。内部アクチュエータ、SDKやAI連携、テレオペ・データ収集・センサーストリーミング対応でロボットハンド導入の敷居を下げる。",
+      "summary": "Amazing HandはPOLLEN開発の4本指8自由度の低コスト・オープンソースロボットハンド。3Dプリント部品と市販サーボで自作可能、Seeedでキット販売。SDKやテレオペ、データ収集、センサ配信に対応しAI学習実験の入門に最適だが万能ではない。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:12:06.000Z",
-      "contentHash": "b750ca7283da"
+      "contentHash": "bd2a471e4026"
     },
     {
       "id": "9d66f25183c5",
@@ -8991,15 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-11-28T19:58:13.000Z",
       "contentHash": "e5e539196ae6"
-    },
-    {
-      "id": "3c2da6767533",
-      "title": "Intel could finally return to Apple computers in 2027",
-      "url": "https://www.theverge.com/news/832366/intel-apple-m-chip-low-end-processor",
-      "summary": "郭明錤は、Appleが2027年にIntelの18APプロセスで低位Mシリーズを生産する可能性が高まったと予測。AppleはPDK0.9.1GAのNDAを結び、PDK1.0/1.1を2026年Q1に受領予定で、米国調達のアピールやIntel復活につながる可能性がある。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T19:25:15.000Z",
-      "contentHash": "65e34af0b2a9"
     }
   ]
 }
