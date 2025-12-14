@@ -59,6 +59,8 @@ jobs:
           fi
 
       - name: Build web app
+        env:
+          EXPO_BASE_URL: /Recaplet
         run: npm run build:web
 
       - name: Add .nojekyll file
