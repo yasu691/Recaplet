@@ -59,12 +59,17 @@ jobs:
           fi
 
       - name: Build web app
-        env:
-          EXPO_BASE_URL: /Recaplet
         run: npm run build:web
 
       - name: Add .nojekyll file
         run: touch dist/.nojekyll
+
+      - name: Fix base path in HTML
+        run: |
+          # HTMLファイル内のパスを修正（Linux sed用）
+          find dist -name "*.html" -type f -exec sed -i 's|src="/_expo/|src="/Recaplet/_expo/|g' {} +
+          find dist -name "*.html" -type f -exec sed -i 's|href="/_expo/|href="/Recaplet/_expo/|g' {} +
+          find dist -name "*.html" -type f -exec sed -i 's|href="/favicon.ico"|href="/Recaplet/favicon.ico"|g' {} +
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
