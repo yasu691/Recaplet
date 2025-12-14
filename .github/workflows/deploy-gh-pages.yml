@@ -59,9 +59,10 @@ jobs:
           fi
 
       - name: Build web app
-        env:
-          EXPO_PUBLIC_URL: /Recaplet
         run: npm run build:web
+
+      - name: Add .nojekyll file
+        run: touch dist/.nojekyll
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
