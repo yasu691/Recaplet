@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2025-12-14T14:16:08.230Z",
+  "generatedAt": "2025-12-14T16:43:21.439Z",
   "items": [
+    {
+      "id": "41ff71bb2854",
+      "title": "Inside the high drama of the iPhone 4",
+      "url": "https://www.theverge.com/podcast/844408/inside-the-high-drama-of-the-iphone-4",
+      "summary": "2010年、スマホ時代の只中でiPhone 4はバーに忘れられた試作機がGizmodoに流出・分解公開され世間を騒がせた。発売後の「アンテナゲート」も含め、ジョブズの会見に至る一連の劇的な経緯を描く。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-14T15:30:00.000Z",
+      "contentHash": "d1221975a133"
+    },
+    {
+      "id": "1f1dbebd489d",
+      "title": "【Swift】クロージャの種類と省略形 | RecoChoku Engineering Blog",
+      "url": "https://techblog.recochoku.jp/12723",
+      "summary": "Swiftのクロージャと省略形を初心者目線で解説。SnapKitの {…} や $0 の疑問を起点に、クロージャの定義・キャプチャ機能、グローバル／ネスト／クロージャ式の違いを例で整理しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T15:00:16.000Z",
+      "contentHash": "1c929b39da66"
+    },
+    {
+      "id": "8bf53f60806b",
+      "title": "Deploy camel to k8s/OpenShift | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/cac20251215",
+      "summary": "Red HatのRHBACでCamelをk8s/OpenShiftへデプロイする方法を解説。RHBAC 4.xはQuarkusとSpring Bootをサポートし、QuarkusはRHBQ準拠の手順、Spring Bootはopenshift-maven-pluginを使う経緯と注意点を紹介。詳細は製品ドキュメントやサポート参照。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T15:00:00.000Z",
+      "contentHash": "3ca05b4d6af9"
+    },
+    {
+      "id": "7dd2a7ba3313",
+      "title": "お手軽！Claude CodeのスラッシュコマンドでPull Request作成をほぼ全自動化してみた | Yappli Tech Blog",
+      "url": "https://tech.yappli.io/entry/cc_slash_command",
+      "summary": "Claude Codeのスラッシュコマンド(/pr)でPR作成をほぼ自動化。リポジトリにpr.mdを置き、危険ブランチでの実行を禁止し、.github/PULL_REQUEST_TEMPLATE.mdを読みテンプレ通りに本文を生成、必要ならコミット・pushしてPRを作成。設定不要で手作業とミスを削減。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T15:00:00.000Z",
+      "contentHash": "a0180e175638"
+    },
+    {
+      "id": "5543b8a5b24c",
+      "title": "QAエンジニアとAIのコラボレーション | hacomono TECH BLOG",
+      "url": "https://techblog.hacomono.jp/entry/2025/12/15/000000",
+      "summary": "hacomonoのQAエンジニアが生成AIをテストプロセスに深く導入。AIは分析・設計やE2Eシナリオ生成を支援し、人が出力を検証・補完して共働。環境整備で効果が出ており継続予定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T15:00:00.000Z",
+      "contentHash": "4b78fc7955f2"
+    },
+    {
+      "id": "f44dec4d67c7",
+      "title": "GitHub Copilot の自動モデル選択でモデル選びに困らない！ | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2025/12/15/000000",
+      "summary": "GitHub Copilot Chatの自動モデル選択がGA。Auto選択でタスクに最適なモデルを自動で割り当て、0xモデル適用やプレミアムリクエスト10%割引で消費を抑制。ポリシー順守で使用モデルは確認可能。著者の試用では多くの操作でGPT-5.1-Codex-Maxが選ばれた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T15:00:00.000Z",
+      "contentHash": "648b6ec69ae0"
+    },
+    {
+      "id": "30de90025fee",
+      "title": "FastMCPでSlack APIをGemini CLI に導入する | テコテック開発者ブログ",
+      "url": "https://tec.tecotec.co.jp/entry/2025/12/15/000000",
+      "summary": "FastMCPとSlackのBoltを用いてGemini CLIからSlackを操作する手順を解説。署名シークレット・ボット・アプリトークン取得、Socket ModeやEvent設定、uvでのPython環境構築、サンプルコードと実演を掲載。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T15:00:00.000Z",
+      "contentHash": "6787cfc76de0"
+    },
+    {
+      "id": "7ca792a2ba36",
+      "title": "シャッフルランチ再考（最高） - Randomnessと未解決問題 - | 弁護士ドットコム株式会社 Creators’ blog",
+      "url": "https://creators.bengo4.com/entry/2025/12/15/000000",
+      "summary": "シャッフルランチの制度と設計の難しさを解説。数学的な「ランダム」と人間の直感は乖離し、偶然の偏り（クラスター錯覚）で「シャッフルされていない」と感じる。4人組の最適化はグラフ理論や焼きなまし法で改善可能だが、社会的ゴルファー問題など計算困難性や動的要因が残るため、意図的な設計が必要だと提案している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T15:00:00.000Z",
+      "contentHash": "81ce00b6bd33"
+    },
+    {
+      "id": "9a162f5f59ce",
+      "title": "The end of OpenAI, and other 2026 predictions",
+      "url": "https://www.theverge.com/podcast/844401/tech-industry-2026-predictions-openai-apple",
+      "summary": "The Vergecastでデイビッド・ピアースらが2026年の予測を討論。注目は会話が魅力的になる次世代Siri（「Sexy Siri」）、Apple折りたたみ、GTA VI発売、EV回帰など。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-14T14:29:18.000Z",
+      "contentHash": "c031d90bd6ab"
+    },
     {
       "id": "d1c255d57b22",
       "title": "I&#8217;m finally beginning to trust Microsoft&#8217;s handheld Xbox",
@@ -38,6 +119,15 @@
       "contentHash": "a94014141e00"
     },
     {
+      "id": "a6e052250f2c",
+      "title": "Europeans' health data sold to US firm run by ex-Israeli spies",
+      "url": "https://www.ftm.eu/articles/europe-health-data-us-firm-israel-spies",
+      "summary": "オランダの機密通信サービスZivverが、元イスラエル諜報関係者らが経営する米企業Kiteworksに売却された。EU・英の病院や裁判所らの機密データが同社の管理下に置かれ、暗号化済でも閲覧可能とされる点や米法の適用、事前審査不足を専門家が懸念している。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T12:15:09.000Z",
+      "contentHash": "c3255c40d637"
+    },
+    {
       "id": "f3fbfacb382f",
       "title": "愛すべき Image API - 前世紀の技を現代で | 一休.com Developers Blog",
       "url": "https://user-first.ikyu.co.jp/entry/2025/12/14/200615",
@@ -47,13 +137,22 @@
       "contentHash": "861a3bd81136"
     },
     {
+      "id": "7243ae6579f3",
+      "title": "Bye, Mom",
+      "url": "https://aella.substack.com/p/bye-mom",
+      "summary": "すみません、外部リンクを直接閲覧できません。記事本文を貼るか要点を教えていただければ、200文字以内で日本語要約します。HNの議論も併せて要約可能です。どちらにしますか？",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T08:21:59.000Z",
+      "contentHash": "b7f91e113103"
+    },
+    {
       "id": "9facfec4eba1",
       "title": "Nano Banana Pro と Sora2 でアニメーション作成を試す",
       "url": "https://note.com/npaka/n/nd3300b886513",
-      "summary": "Nano Banana ProとSora2でアニメ制作を検証。Nano Banana ProとGemini連携でキャラ設定や照明を含む9ショット絵コンテを作成し、メガドライブのカートリッジ量産する物語の動画を生成。",
+      "summary": "Nano Banana ProとSora2でアニメ制作を試行。Nano Banana ProでGeminiを使い、そらみ（宇宙から来た少女）とへにへにの設定を元に、9ショット約12–18秒の詳細なストーリーボードと撮影指示を作成。内容はAIがメガドライブのカートリッジを量産し、そらみが埋もれるコメディ。",
       "source": "npaka",
       "publishedAt": "2025-12-14T07:36:51.000Z",
-      "contentHash": "fd1ffff5d4a8"
+      "contentHash": "9fdede96837e"
     },
     {
       "id": "79b54061b018",
@@ -72,6 +171,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T05:41:44.000Z",
       "contentHash": "8088608e8303"
+    },
+    {
+      "id": "91444d51492d",
+      "title": "“You should never build a CMS”",
+      "url": "https://www.sanity.io/blog/you-should-never-build-a-cms",
+      "summary": "Lee Robinsonがcursor.comをSanityからMarkdown＋GitHub＋Vercelへ移行（344回のエージェント要求で約260ドル）。Sanityは彼の「複雑さ」批評を認めつつも、背景や文脈が欠けていると指摘し、プレビューの不便さや認証分散、不要なデータ属性などの課題を補足している。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T05:38:52.000Z",
+      "contentHash": "814b834ce722"
     },
     {
       "id": "48a1dbe07f75",
@@ -108,6 +216,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T04:30:01.000Z",
       "contentHash": "a36996959ad4"
+    },
+    {
+      "id": "34214dc85527",
+      "title": "Heavy metal is healing teens on the Blackfeet Nation",
+      "url": "https://www.hcn.org/issues/57-11/heavy-metal-is-healing-teens-on-the-blackfeet-nation/",
+      "summary": "西部地域の深掘り独立報道を届けるメールニュースレターの案内。メールアドレス必須の登録フォームで、コメント欄や入力検証・Ajaxによる処理が含まれる。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T03:46:51.000Z",
+      "contentHash": "843d47846432"
     },
     {
       "id": "fb395690ddc0",
@@ -410,10 +527,10 @@
       "id": "d7da10e7b103",
       "title": "Gemini 2.5 TTS のプロンプトガイド",
       "url": "https://note.com/npaka/n/n5402bf2851d0",
-      "summary": "Gemini 2.5 TTSのプロンプトガイド。声の性格・場面・演技（速度・強弱・息遣い）を細かく指示でき、Audio Profile／Scene／Director’s Notes／Sample Context／Transcriptを組み合わせて「誰が・何を・どう話すか」を揃えると自然で感情のある音声が得られる。",
+      "summary": "Gemini 2.5 TTSは、話す内容だけでなく速度・強弱・息遣いなど話し方まで細かく指定できる。プロンプトはAudio Profile（誰）、Scene（場面）、Director’s Notes（演技指示）、Sample Context、Transcriptを揃え、「誰が」「何を」「どう話すか」を一致させると自然で感情豊かな音声が得られる。",
       "source": "npaka",
       "publishedAt": "2025-12-13T21:32:47.000Z",
-      "contentHash": "f9915b46003e"
+      "contentHash": "b41aa0a0ae87"
     },
     {
       "id": "44da3c600b1b",
@@ -428,10 +545,10 @@
       "id": "5db69fb85710",
       "title": "Want to sway an election? Here’s how much fake online accounts cost",
       "url": "https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost",
-      "summary": "研究者のモデルを用いて、偽アカウントやボットで選挙を動かすには大量のアカウントと相応の費用が必要で、プラットフォームや検出対策でコストが大きく変動することを示した。対策強化や規制の重要性を指摘している。",
+      "summary": "記事は、選挙を左右するのに必要な偽アカウント数を試算し、闇市場での購入費用が比較的低額であるため世論操作が現実的だと指摘。接戦では少数の偽アカで結果が変わり得るため、プラットフォーム対策と規制の強化が必要と結論付ける。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T20:48:09.000Z",
-      "contentHash": "91de3934aff3"
+      "contentHash": "19764ef9dd8e"
     },
     {
       "id": "e27b805ab052",
@@ -2012,10 +2129,10 @@
       "id": "9f7e2457935f",
       "title": "GPT-5.2 の概要",
       "url": "https://note.com/npaka/n/n7a4bdf31d37a",
-      "summary": "OpenAIがGPT-5.2を公開。汎用知能や長文理解（入力＋出力で約40万トークン）、Visionやエージェント的ツール連携が強化され、コーディング、要約、資料作成、プロジェクト自動化など実務向けに高性能。知識カットオフは2025/08/31。ChatGPTではInstant/Thinking/Proの用途別バリエーションあり。",
+      "summary": "OpenAIがGPT-5.2を発表。汎用知能・長文理解（約40万トークン）、ツール操作やVision解析が強化され、スプレッドシート作成・コーディング・長文要約・自動化等の実務に強い。Instant/Thinking/Proの3種があり、APIは従量課金。知識カットオフは2025/08/31。",
       "source": "npaka",
       "publishedAt": "2025-12-12T04:02:38.000Z",
-      "contentHash": "05e96c7c7b49"
+      "contentHash": "6fb3b06ae5d3"
     },
     {
       "id": "b9ee4f8196e1",
@@ -2669,10 +2786,10 @@
       "id": "d3945e6ac563",
       "title": "Gemini Deep Research Agent の概要",
       "url": "https://note.com/npaka/n/n9e52f89e8585",
-      "summary": "GoogleはInteractions APIで利用可能なGemini Deep Research Agentを強化。Gemini 3 Proと多段階強化学習で長時間の自律的Web調査を高精度に実行し、網羅性評価用のDeepSearchQA（900課題）を公開。金融・バイオ・市場調査などで実運用が始まる。",
+      "summary": "Googleは長時間の自律調査向けに強化された「Gemini Deep Research Agent」を公開。Gemini 3 Proを核に多段階探索で高精度なWebリサーチを実行。網羅性評価用ベンチマーク「DeepSearchQA」（900問）をOSS化し、金融・バイオ・市場調査などで実運用中。",
       "source": "npaka",
       "publishedAt": "2025-12-11T18:08:56.000Z",
-      "contentHash": "7f74109237bb"
+      "contentHash": "9f5aaa52f8d4"
     },
     {
       "id": "2d181d7810ca",
@@ -2696,10 +2813,10 @@
       "id": "8b24f6f5fac4",
       "title": "Interactions API の概要 - Google のモデルとエージェントの統合基盤",
       "url": "https://note.com/npaka/n/n671c92a70e5d",
-      "summary": "GoogleのInteractions APIは、Gemini系モデルやGemini Deep Researchなどのエージェントを統合する単一のREST接点。サーバー側履歴管理、インターリーブされたメッセージ・思考・ツールの可視化、バックグラウンド実行や外部ツール呼び出しをサポートし、将来的にカスタムエージェント統合も可能にする基盤。",
+      "summary": "GoogleはGeminiモデルと組み込みエージェントを統合するInteractions APIを公開。/interactionsでモデルやDeep Researchを呼び出せ、サーバー側履歴管理、インターリーブ型スキーマ、バックグラウンド実行、MCPツール対応で複雑なエージェント処理を簡素化し、将来的にカスタムエージェント統合を目指す。",
       "source": "npaka",
       "publishedAt": "2025-12-11T17:49:20.000Z",
-      "contentHash": "ebbcb3ba7590"
+      "contentHash": "901c596313ed"
     },
     {
       "id": "c0344b99cf81",
@@ -8883,123 +9000,6 @@
       "source": "npaka",
       "publishedAt": "2025-11-29T00:23:22.000Z",
       "contentHash": "b5ca5097a02a"
-    },
-    {
-      "id": "e02956245edf",
-      "title": "There’s still time to grab a PS5 or PS5 Pro for $100 off for Black Friday",
-      "url": "https://www.theverge.com/gadgets/832607/black-friday-ps5-pro-slim-digital-edition-console-accessory-deals-sale-2025",
-      "summary": "ソニーが12月18日までPS5全モデルを約100ドル値引き中。デジタル（スリム）$399、ディスク付きスリム$449、Proは$649。Proは2TB・高速GPU・レイトレ/Wi‑Fi7搭載だが効果は状況次第。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T23:57:07.000Z",
-      "contentHash": "ee73b27d4053"
-    },
-    {
-      "id": "5fbfa6e816f3",
-      "title": "Surprise: The BrickBoy kit for the Lego Game Boy uses floating magnets instead of switches",
-      "url": "https://www.theverge.com/gadgets/832654/brickboy-kickstarter-lego-game-boy-magnet-buttons",
-      "summary": "BrickBoyの試作品が公開。約3,500人のKickstarter支援者はボタンに物理スイッチを期待していたが、実際はドーム型スイッチではなくレゴ内部に希土類磁石を接着して動作させる方式。募集ページでは磁石への言及がほとんどない。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T23:53:02.000Z",
-      "contentHash": "58463ecf75c8"
-    },
-    {
-      "id": "ada5763e837d",
-      "title": "Black Friday deals that are most popular with Verge readers",
-      "url": "https://www.theverge.com/gadgets/830017/black-friday-ipod-favorite-deals-sales",
-      "summary": "The Vergeはアフィリエイトで読者の購入傾向を集計しており（個人購入は特定しないと明示）、ブラックフライデーで人気だったのはApple AirTag、AirPods Pro 3、ChomChomの毛取りローラー、Sliceの自動格納カッターなどです。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T22:45:00.000Z",
-      "contentHash": "4d5cecfc4e0e"
-    },
-    {
-      "id": "2d5349171047",
-      "title": "Confessions of a Software Developer: No More Self-Censorship",
-      "url": "https://kerrick.blog/articles/2025/confessions-of-a-software-developer-no-more-self-censorship/",
-      "summary": "申し訳ありませんが、外部URLの内容を直接参照できません。記事本文をここに貼っていただくか、主要な抜粋・ポイントを教えてください。貼っていただければ200文字以内で日本語要約します。コメント欄の要約も必要なら指示ください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T22:21:25.000Z",
-      "contentHash": "6c926502bb7f"
-    },
-    {
-      "id": "64d5c61643da",
-      "title": "You can get a four-pack of AirTags for just over $60, the lowest price ever",
-      "url": "https://www.theverge.com/gadgets/832483/black-friday-apple-airtags-deal-sale-2025",
-      "summary": "AppleのAirTagの4個パックが最安値$62.99（約36ドル引き）でAmazon/Walmart/Best Buy、単体は$17.97。Find Myで荷物追跡、最大5人共有・IP67耐水、iPhone15以降は精密検出対応。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T22:00:00.000Z",
-      "contentHash": "3320a3add42d"
-    },
-    {
-      "id": "ad8d5a38120b",
-      "title": "A first look at Django's new background tasks",
-      "url": "https://roam.be/notes/2025/a-first-look-at-djangos-new-background-tasks/",
-      "summary": "Djangoの新しい公式バックグラウンドタスク機能を紹介。DBを使ったキューとトランザクション統合（on_commitで登録）、スケジュールや定期実行、簡易ワーカーで動かせる点を解説。Celery等のフル機能ランナーの代替ではなく、軽量用途向けでスケーリングや分散運用の制約に注意が必要とまとめている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T21:46:07.000Z",
-      "contentHash": "4b7e418b7c22"
-    },
-    {
-      "id": "a3e2a0a59d3d",
-      "title": "Airbus A320 – intense solar radiation may corrupt data critical for flight",
-      "url": "https://www.airbus.com/en/newsroom/press-releases/2025-11-airbus-update-on-a320-family-precautionary-fleet-action",
-      "summary": "AirbusはA320ファミリーに対する予防的運航措置の最新情報を発表。安全最優先で規制当局や航空会社と連携し、機体の点検・解析・修理を進め、影響を受ける運航への支援を行うと説明。詳細は追って公表。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T21:40:21.000Z",
-      "contentHash": "45b670642542"
-    },
-    {
-      "id": "986b555fddd8",
-      "title": "Flight disruption warning as Airbus requests modifications to 6k planes",
-      "url": "https://www.bbc.com/news/live/cvg4y6g74ert",
-      "summary": "外部サイトに直接アクセスできないため、記事本文（または主要段落）を貼り付けてください。いただければ200文字以内で日本語要約します。HNのコメントも要約希望ならそちらも貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T21:16:46.000Z",
-      "contentHash": "f5b587cfd2b4"
-    },
-    {
-      "id": "ea20dd91c4f5",
-      "title": "Twelve South&#8217;s magnetic PowerBug charger is 20 percent off for Black Friday",
-      "url": "https://www.theverge.com/gadgets/832416/black-friday-twelve-south-powerbug-wireless-charger-deal-sale-2025",
-      "summary": "Twelve SouthのMagSafe充電器「PowerBug」が初のブラックフライデー特価で$39.99に。前面磁気パッドで最大15W、底部に35W USB‑C PDを搭載。縦置きで簡易スタンド、横置きでiPhoneのStandByモード対応。旅行やギフトに便利。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T21:09:11.000Z",
-      "contentHash": "7441bc3f78dc"
-    },
-    {
-      "id": "87f2ef153e3f",
-      "title": "DJI ban: how the world&#8217;s biggest dronemaker is getting shoved out of the US",
-      "url": "https://www.theverge.com/news/831241/dji-ban-us-trump-fcc-customs-import-ndaa",
-      "summary": "2025年12月23日、トランプが介入しなければDJIの米国輸入が自動禁止される。既存機は使用可だが無線機器も含む新規輸入や旧製品の遡及的禁止も可能。政府は中国へのデータ提供や強制労働を懸念するが明確な証拠は公表されず、DJIは否認。代替が乏しく農業・救助で影響が懸念される。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T20:56:45.000Z",
-      "contentHash": "a094d4d3bb79"
-    },
-    {
-      "id": "41894ec568f5",
-      "title": "Airbus A320 Fly by wire corrupted by radiation in flight",
-      "url": "https://viewfromthewing.com/airbus-a320s-could-be-temporarily-grounded-worldwide-for-software-update-after-faulty-jetblue-computer-triggered-sudden-uncommanded-descent/",
-      "summary": "ジェットブルー機の故障した搭載コンピュータが突然の無指示降下を引き起こした問題を受け、エアバスA320系列機にソフトウェア更新が求められ、一時的に世界的な運航停止（グランド）が検討されている。エアバスと当局が原因調査と修正を進めている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T20:06:52.000Z",
-      "contentHash": "fdc70f34ef74"
-    },
-    {
-      "id": "92fd96e1f8bc",
-      "title": "How good engineers write bad code at big companies",
-      "url": "https://www.seangoedecke.com/bad-code-at-big-companies/",
-      "summary": "大企業で「悪いコード」が生まれるのは不可避。原因は技術的負債、複雑性、短期納期、分散所有、文化・採用の問題。対処は全書き換えでなく、小さな安全な改善、テスト・自動化、明確な所有権、継続的なリファクタ。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T19:59:32.000Z",
-      "contentHash": "f47005e666b3"
-    },
-    {
-      "id": "f4d0a9704e3c",
-      "title": "The original ABC language, Python's predecessor (1991)",
-      "url": "https://github.com/gvanrossum/abc-unix",
-      "summary": "Guido van Rossumの「abc-unix」は、ABC言語で再実装したUnix風ユーティリティ群とその使い方・歴史的解説を収めたリポジトリで、ABCの設計とPythonへの影響や当時の逸話を紹介しています。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T19:58:13.000Z",
-      "contentHash": "e5e539196ae6"
     }
   ]
 }
