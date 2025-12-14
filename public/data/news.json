@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2025-12-14T03:38:36.551Z",
+  "generatedAt": "2025-12-14T04:47:43.889Z",
   "items": [
+    {
+      "id": "fb395690ddc0",
+      "title": "TSにおけるモノレポ構成の最低限の設定と最適化のための技術を理解する | レバテック開発部のフィード",
+      "url": "https://zenn.dev/levtech/articles/501bca9759a759",
+      "summary": "高瀬がTypeScriptモノレポの最低限設定と最適化を解説。pnpm workspaceでパッケージ境界を定義し、tsconfigのreferencesで依存・ビルド順を管理、pathsでエイリアス化。モノレポの定義やGoogleの大規模運用例も紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T03:00:01.000Z",
+      "contentHash": "b79b92ba45f2"
+    },
+    {
+      "id": "699dcf4f2538",
+      "title": "Cloudflareではじめるドメイン運用のススメ | NFLabs. エンジニアブログ",
+      "url": "https://blog.nflabs.jp/entry/2025/12/14/120000",
+      "summary": "個人でも始めやすいドメイン購入・運用の解説。DNS確認やBlueskyへの独自ドメイン設定、CloudflareのWorkersやEmail Routingの導入例と注意点を紹介しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T03:00:00.000Z",
+      "contentHash": "0cbf0d7c5d9c"
+    },
+    {
+      "id": "00be6e3dcc93",
+      "title": "技術で支えた「freee 技術の日 2025」 | freee Developers Hub",
+      "url": "https://developers.freee.co.jp/entry/tech-of-freee-tech-day-2025",
+      "summary": "freeeのエンジニア兼Dev Brandingのけむりだまが、11/30開催の技術カンファレンス「freee 技術の日 2025」を支えた技術や、目まぐるしく変わるセッション情報への対応について綴る記事（Advent Calendar 14日目）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T03:00:00.000Z",
+      "contentHash": "df46183e0a3a"
+    },
+    {
+      "id": "14ce487f92ff",
+      "title": "腕で始めるフィジカルAI | newmo 技術ブログ",
+      "url": "https://tech.newmo.me/entry/2025/12/14/120000",
+      "summary": "newmoの自動運転チームは、自社で収集したデータを使いモデルを学習・構築して自動運転タクシーを実現しようとしている。高品質・大量・多様なデータ収集基盤、大規模学習・推論の計算基盤、実車を安全に制御する制御基盤など多岐にわたる課題を社内外と連携して解決している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T03:00:00.000Z",
+      "contentHash": "e1fc235fbd8f"
+    },
+    {
+      "id": "bc57176d1bdf",
+      "title": "Amazon Bedrock AgentCoreをTerraformで構築してみた | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2025/12/14/120000",
+      "summary": "every Tech Blog Advent Calendar 2025の18日目記事。AgentCoreの全体構成、AWS Providerのバージョン要件、Gateway／Target構築手順と必須パラメータ（authorizer_type、protocol_type、target_configuration）、tool_schema、credential_provider_configuration、SigV4署名やID周りを解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T03:00:00.000Z",
+      "contentHash": "b032319c8557"
+    },
+    {
+      "id": "21f106145bcc",
+      "title": "「ペアプロだと自分のペースで仕事ができない？」 中途入社4ヶ月の私が感じたこと | コドモン Product Team Blog",
+      "url": "https://tech.codmon.com/entry/2025/12/14/120000",
+      "summary": "中途入社4カ月のエンジニアが、コドモンの「伴走型ペアプロ」を紹介。師弟式と異なり合意のもとでペースを調整でき、知識共有や属人化防止、柔軟な働き方や心理的安全性の高さを実体験で伝える。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T03:00:00.000Z",
+      "contentHash": "9b4a7eebe07b"
+    },
+    {
+      "id": "ef0e1621d12a",
+      "title": "electron-shadcnを使ったモダンデスクトップアプリ開発 | RAKSUL TechBlog",
+      "url": "https://techblog.raksul.com/entry/2025/12/14/120000",
+      "summary": "ノバセルのTamtamが、仕様決めや設計会議でAI活用が進んでいないと感じ、会議中の音声をその場で文字起こし・リアルタイム解析して見落としやリスクを能動的に指摘する会議支援AIを個人開発した経緯と内容の紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T03:00:00.000Z",
+      "contentHash": "58c7b11bf675"
+    },
+    {
+      "id": "771a9dd825e2",
+      "title": "AI Agent時代の社内UIライブラリの作り方 | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/a944f61c90c676",
+      "summary": "Finatextが社内UIライブラリ「kinako-ui」を開発。デザインシステム準拠でstyle/classNameを受け取らずセマンティックpropsのみ採用。MDX＋FlexSearchでAIに優しい高速ドキュメントを実現し、CSS変数で複数プロダクト向けにカラー等をカスタム可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T02:34:48.000Z",
+      "contentHash": "3f0499b9c0ef"
+    },
+    {
+      "id": "6eab8f93dfda",
+      "title": "「価値のあるシステム」を作るエンジニアのスタンス - 32万レコードのログシステム設計で実践したこと | Speee DEVELOPER BLOG",
+      "url": "https://tech.speee.jp/entry/engineer-stance-valuable-system-design",
+      "summary": "Speeeの24卒エンジニア渋谷が、すまいステップ開発での入社1年半を振り返る。1年目は先輩指示で実装、2年目は自ら設計・issue分解に挑戦し、設計から携わった半年で学んだ「動くだけのシステム」を超える設計の教訓を綴る。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T02:30:00.000Z",
+      "contentHash": "59c3e8891f56"
+    },
+    {
+      "id": "c796b38b818e",
+      "title": "Kubernetes &amp;amp; Helm を使ったミニデータパイプライン構築練習 | ABEJA Tech Blog",
+      "url": "https://tech-blog.abeja.asia/entry/advent-2025-day14",
+      "summary": "Kubernetesの基本概念（コンテナ/Pod/Node/Cluster/Namespace、Control PlaneとWorkerの役割）を説明し、Helmでのパッケージ管理、Kustomizeによる環境差分管理を解説。さらに、導入ワークフローとして「載せたいシステムの言語化」からマニフェスト管理・デプロイまでの流れを示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T02:04:46.000Z",
+      "contentHash": "30e5bef2644e"
+    },
     {
       "id": "43d4a28e0b8b",
       "title": "プロンプトのバイアスによる出力結果への影響調査 | OPTIMINDテックブログのフィード",
@@ -167,10 +257,10 @@
       "id": "d7da10e7b103",
       "title": "Gemini 2.5 TTS のプロンプトガイド",
       "url": "https://note.com/npaka/n/n5402bf2851d0",
-      "summary": "Gemini 2.5 TTSは内容だけでなく話し方まで指定可能。プロンプトは「誰が（Audio Profile）」「どこで（Scene）」「どう演じるか（Director’s Notes）」とSample Context/Transcriptを揃え、自然で感情豊かな音声を作るとよい。",
+      "summary": "Gemini 2.5 TTSは内容だけでなく話し方も指定できるTTS。プロンプトは「誰が」「どこで」「どう話すか」を意識し、Audio Profile、Scene、Director’s Notes、Sample Context、Transcriptを組み合わせて自然で感情豊かな音声を作る手法を解説。例示あり。",
       "source": "npaka",
       "publishedAt": "2025-12-13T21:32:47.000Z",
-      "contentHash": "dc907f4d4394"
+      "contentHash": "98b03dd7298e"
     },
     {
       "id": "44da3c600b1b",
@@ -185,10 +275,10 @@
       "id": "5db69fb85710",
       "title": "Want to sway an election? Here’s how much fake online accounts cost",
       "url": "https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost",
-      "summary": "研究は偽アカウントやボットを使った世論操作の費用を分析。国や手法で差はあるが、意外に低コストで有権者の支持を動かせる場合があり、プラットフォームの監視・規制強化や透明性向上が必要だと指摘している。",
+      "summary": "研究は偽アカウントやボット、クリック農場の市場価格を調べ、比較的低コストで世論や選挙に影響を与えうる実態を示した。対策としてプラットフォームの規制強化、透明性向上、監視や法整備が必要と結論づける。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T20:48:09.000Z",
-      "contentHash": "88c66cd6d723"
+      "contentHash": "ee9b0ef23adf"
     },
     {
       "id": "e27b805ab052",
@@ -239,10 +329,10 @@
       "id": "1458a21b4248",
       "title": "Are we stuck with the same Desktop UX forever? [video]",
       "url": "https://www.youtube.com/watch?v=1fZTOjd_bOQ",
-      "summary": "外部リンクに直接アクセスできないため、動画やHN議論の内容を取得できません。要約するには、動画の文字起こしや主要ポイント、HNコメントの抜粋など本文を貼ってください。いただければ200字以内で要約します。",
+      "summary": "すみません、外部URLに直接アクセスできません。要約作成には本文（動画のトランスクリプト／要点）かHNの主要コメントを貼ってください。貼っていただければ200字以内で日本語要約を作ります。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T18:39:53.000Z",
-      "contentHash": "8c82e447b7fc"
+      "contentHash": "e5c6993f187b"
     },
     {
       "id": "1e27f4eb4417",
@@ -428,10 +518,10 @@
       "id": "1c4777a70a55",
       "title": "Gemini 2.5 Flash Native Audio の概要",
       "url": "https://note.com/npaka/n/n78b9a1a0ce0f",
-      "summary": "「Gemini 2.5 Flash Native Audio」を公開。ライブ音声エージェントやSearch Liveでネイティブ音声を提供し、関数呼び出し精度や指示追従（84→90%）、多ターン会話を改善。ライブ翻訳は70以上の言語・2000超の言語ペア対応で抑揚維持、自動検出・ノイズ耐性を備え、ベータはGoogle翻訳アプリで開始。",
+      "summary": "Googleが「Gemini 2.5 Flash Native Audio」を公開。ライブ音声エージェントで関数呼び出し精度や指示追従（84→90%）・多ターン会話を改善。ライブ音声翻訳は70言語超・2000以上の語ペア対応で抑揚保持・自動検出・ノイズ耐性を備え、Google翻訳アプリでβ提供。",
       "source": "npaka",
       "publishedAt": "2025-12-13T13:25:23.000Z",
-      "contentHash": "751bc008efc0"
+      "contentHash": "18c85635d385"
     },
     {
       "id": "98bf0fab2c4c",
@@ -2417,10 +2507,10 @@
       "id": "d3945e6ac563",
       "title": "Gemini Deep Research Agent の概要",
       "url": "https://note.com/npaka/n/n9e52f89e8585",
-      "summary": "GoogleはInteractions API経由で「Gemini Deep Research Agent」を強化公開。Gemini 3 Proを核に多段階RLで長時間の自律的Web調査を行い高精度・低コストのレポートを生成。網羅性評価用ベンチマーク「DeepSearchQA」（900問）を公開し、金融やバイオなどで実運用中。",
+      "summary": "GoogleはInteractions APIで利用可能なGemini Deep Research Agentを強化。Gemini 3 Proと多段階強化学習で長時間の自律的Web調査を高精度に実行し、網羅性評価用のDeepSearchQA（900課題）を公開。金融・バイオ・市場調査などで実運用が始まる。",
       "source": "npaka",
       "publishedAt": "2025-12-11T18:08:56.000Z",
-      "contentHash": "b4415dafe7b9"
+      "contentHash": "7f74109237bb"
     },
     {
       "id": "2d181d7810ca",
@@ -2903,10 +2993,10 @@
       "id": "c308764f76db",
       "title": "ChatGPT からの Photoshop を試す",
       "url": "https://note.com/npaka/n/n884da273286c",
-      "summary": "ChatGPTに統合された「Adobe Photoshop for ChatGPT」を試用。選択・調整・エフェクト・背景ぼかし・背景削除・元に戻す等をサポート。手順は@adobeでPhotoshop選択→画像追加→「背景を透過して」送信→接続許可→ダウンロード。",
+      "summary": "ChatGPTからAdobe Photoshopが利用可能に。選択編集、明るさ・色調整、エフェクト、背景ぼかし/削除、元に戻す等に対応。@adobeでPhotoshopを選び画像を追加→指示（例「背景を透過して」）→接続許可→結果を確認しダウンロード。",
       "source": "npaka",
       "publishedAt": "2025-12-11T06:04:12.000Z",
-      "contentHash": "8996361f6dc7"
+      "contentHash": "a7db0f953783"
     },
     {
       "id": "ba511f64a3e7",
@@ -8910,96 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-11-28T16:40:55.000Z",
       "contentHash": "ccc912702aef"
-    },
-    {
-      "id": "d2c6117d5e6b",
-      "title": "Stellantis Is Spamming Owners' Screens with Pop-Up Ads for New Car Discounts",
-      "url": "https://www.thedrive.com/news/stellantis-is-spamming-owners-screens-with-pop-up-ads-for-new-car-discounts",
-      "summary": "Stellantisが車載ディスプレイに新車割引などのポップアップ広告を送り、起動時や走行中に表示されてオーナーから安全性やプライバシー侵害の批判が集中。会社は謝罪しキャンペーンを停止したと報じられた。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T16:37:32.000Z",
-      "contentHash": "17fa3aa517a8"
-    },
-    {
-      "id": "390eb30b7640",
-      "title": "The best Black Friday deals I’ve seen on some of my favorite smart home gear",
-      "url": "https://www.theverge.com/gadgets/831719/best-black-friday-cyber-monday-smart-home-deals",
-      "summary": "ブラックフライデーでNukiスマートロックが珍しく値下げ。ロボット掃除機から照明までスマート家電の特価を紹介。Aqara天井灯、Lutron Caseta、Philips Hue電球、Govee屋外ライトなどが割引。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T16:30:00.000Z",
-      "contentHash": "047cdb46b261"
-    },
-    {
-      "id": "6dc65fe7d4fd",
-      "title": "AI Adoption Rates Starting to Flatten Out",
-      "url": "https://www.apolloacademy.com/ai-adoption-rates-starting-to-flatten-out/",
-      "summary": "外部リンクに直接アクセスできないため記事の内容を取得できません。記事本文か主要段落を貼っていただければ、200文字以内で日本語要約します。Hacker Newsのコメントも要約希望なら一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T16:21:09.000Z",
-      "contentHash": "b35ec8ea8e47"
-    },
-    {
-      "id": "60db2507af15",
-      "title": "Meta hiding $27B in debt using advanced geometry",
-      "url": "https://stohl.substack.com/p/exclusive-credit-report-shows-meta",
-      "summary": "申し訳ありませんが、外部サイトを直接取得できません。記事本文をここに貼っていただければ、200文字以内で日本語要約します。コメント要約も希望なら合わせて対応します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T16:09:50.000Z",
-      "contentHash": "77515cd3b7ef"
-    },
-    {
-      "id": "8c6bb10eca13",
-      "title": "My favorite Nintendo Switch 2 accessories are heavily discounted for Black Friday",
-      "url": "https://www.theverge.com/gadgets/829211/nintendo-switch-2-black-friday-accessories-deal-sale",
-      "summary": "6月発売のSwitch 2本体は割引なしだが、ブラックフライデーで著者おすすめの周辺機器がセール中。Samsung P9 microSD、tomtocケース、Dbrand保護キット、Iniuバッテリー、amFilm画面保護、AirFly SE、8BitDoコントローラーなど。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T16:00:00.000Z",
-      "contentHash": "449de2700f3d"
-    },
-    {
-      "id": "b7b07f432f0b",
-      "title": "Tell HN: Want a better HN? Visit /newest",
-      "url": "https://news.ycombinator.com/item?id=46079745",
-      "summary": "多くの良投稿は /newest で低品質投稿に埋もれる。HNは /newest を巡回して投票・通報する人に依存しており、毎日数分の匿名で地味な作業（コメントより有益）が大きな差を生む。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T15:57:27.000Z",
-      "contentHash": "ee5796b40bbc"
-    },
-    {
-      "id": "1a4e265c0c79",
-      "title": "Can Dutch universities do without Microsoft?",
-      "url": "https://dub.uu.nl/en/news/can-dutch-universities-do-without-microsoft",
-      "summary": "オランダの大学はMicrosoft製品に深く依存しており、法務・技術・運用上の障壁で即時撤退は困難だが、データ主権やコストを踏まえ段階的な代替導入（オープン規格や自前サービス、調達見直し）を進めるべきと論じる。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T15:53:39.000Z",
-      "contentHash": "01c88c4605a5"
-    },
-    {
-      "id": "9764b247ce62",
-      "title": "The best Black Friday deals on Apple AirPods — up to 47 percent off",
-      "url": "https://www.theverge.com/gadgets/831908/best-black-friday-airpods-pro-max-apple-deal-sale",
-      "summary": "ブラックフライデーでAirPods各モデルが大幅値下げ。AirPods 4が69ドル、AirPods Pro 3が220ドル、ANC搭載AirPodsが約100ドル、AirPods Max（USB‑C）が399ドル、有線EarPodsもセール中。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T15:18:00.000Z",
-      "contentHash": "d249540fcf6d"
-    },
-    {
-      "id": "8003ec759882",
-      "title": "We found Black Friday deals on our favorite tech, and most are under $50",
-      "url": "https://www.theverge.com/gadgets/829162/best-black-friday-deals-verge-favorites-2025",
-      "summary": "The Vergeがブラックフライデー向けに自薦アイテムを紹介。低価格ガジェットや使えるバッグが多数セール中。例：CHGeek車載ワイヤレス充電器（吸盤固定・自動クランプで高速充電、約$22）とMinix 66W 3ポートGaN充電器（USB‑C×2・USB‑A、EU/UKアダプタ付、約$26）。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T15:00:00.000Z",
-      "contentHash": "e4041ea34ee4"
-    },
-    {
-      "id": "004d7b5d5465",
-      "title": "The dark side of optimizing your metabolism",
-      "url": "https://www.theverge.com/column/830937/optimizer-cgms-metabolism-wearables",
-      "summary": "市販のCGMを1年使って分かったのは、休暇中には向かないということ。Vergeのニュースレターでヴィクトリア・ソングがガジェット事情と、代謝改善を謳うサプリやインフルエンサーの流行を批評する。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T15:00:00.000Z",
-      "contentHash": "29a1c7a92ba0"
     }
   ]
 }
