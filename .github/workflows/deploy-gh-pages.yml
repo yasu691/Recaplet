@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 毎時0分に実行
+    - cron: '0 */8 * * *'  # 8時間おきに実行（0時、8時、16時）
   workflow_dispatch:  # 手動実行を許可
 
 # GitHub Pagesへのデプロイに必要な権限設定
