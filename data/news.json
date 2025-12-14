@@ -1,95 +1,104 @@
 {
-  "generatedAt": "2025-12-14T07:30:24.162Z",
+  "generatedAt": "2025-12-14T08:00:08.981Z",
   "items": [
+    {
+      "id": "9facfec4eba1",
+      "title": "Nano Banana Pro と Sora2 でアニメーション作成を試す",
+      "url": "https://note.com/npaka/n/nd3300b886513",
+      "summary": "Nano Banana ProとSora2でアニメ制作を試した記録。Nano Banana ProでGeminiと連携し、そらみ・へにへにの設定と「メガドライブのカートリッジ量産→遊ぶ→埋もれる」を描く9ショット（約12–18秒）のシネマティック絵コンテを、各ショットの構図・照明・カメラ指定や3×3コンタクトシートまで含めて作成した。",
+      "source": "npaka",
+      "publishedAt": "2025-12-14T07:36:51.000Z",
+      "contentHash": "4f30b6649cc2"
+    },
     {
       "id": "af580e3be9f9",
       "title": "Uniposの検証環境を作って体験を届けた話 part1 | Unipos Tech Blogのフィード",
       "url": "https://zenn.dev/unipos/articles/49cc71f87718c6",
-      "summary": "Unipos Advent Calendar 2025の11日目。プロダクト開発組織の組織開発担当・チャリが、執筆に慣れてきたことと、契約前の顧客が製品を直接触れない課題を解決するために検証チームを作り、セットアップや体験を確認した経緯を説明。Uniposは企業ごとに利用空間が分かれている。",
+      "summary": "Uniposが契約前の顧客向けに製品を触れる検証環境を構築した話。開発ドメインや実稼働メールが使えずチーム使い回しも不可という制約を克服するため、Google CloudのWorkflowsでチーム作成から体験まで自動化し提供可能にした。続編で構成詳細を解説予定。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T05:41:44.000Z",
-      "contentHash": "aaa4c09bc5c7"
+      "contentHash": "8088608e8303"
     },
     {
       "id": "48a1dbe07f75",
       "title": "「感覚的には分かる」と理解した気になっていた | 株式会社モニクルのフィード",
       "url": "https://zenn.dev/monicle/articles/1590428b70b95b",
-      "summary": "モニクルAdvent Calendar 2025の13日目の記事。2025年4月に半年の育児休から復職し、復帰後はAIエージェント主体でコードを書かせ、自分は生成コードを読み微修正する開発に変化。生成コードは理解できるが、一から自分で書くのは難しいと感じた、という内容。",
+      "summary": "育休明けにAI Agentが生成したResult型の関数型コードは読めたが自分で書けず、理由は完成形しか与えられず判断過程を学んでいなかったため。現在は関数の責務を言語化し返り値型を決めて段階的に組み立て、AIは判断のヒントに使うという訓練をしている。感覚的理解で満足せず判断過程を意識せよ。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T05:26:08.000Z",
-      "contentHash": "042a9db29ba7"
+      "contentHash": "6c809eddb19f"
     },
     {
       "id": "6d0ec8d9b2f7",
       "title": "GitHub Actions のコストが思ったより高かったので、短期間でできる限り削減した話 | ゼスト Tech Blog",
       "url": "https://techblog.zest.jp/entry/2025/12/14/134528",
-      "summary": "ゼストの菊池さんがGitHub Actionsの請求を38%削減した事例。費用=実行時間×ランナー単価×実行回数の式に基づき、実行時間の可視化と短縮、ランナー単価の見直し、実行回数削減の3軸で最適化した取り組みを紹介しています。",
+      "summary": "GitHub Actionsのコストは「実行時間×ランナー単価×実行回数」。高スペックカスタムランナーをubuntu-latestに置換（約35%削減）し、Renovateによる不要なCI実行を抑制して実行回数を減らした結果、1か月で約38%コストカット。まずはランナー単価最適化と無駄実行抑制を推奨。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T04:45:28.000Z",
-      "contentHash": "5f7113c2ac4a"
+      "contentHash": "d2dc97b0ae2f"
     },
     {
       "id": "93f3b9502634",
       "title": "【AWS re:Invent 2025】AWSのエコシステムを支えるサードパーティの展示会 \"EXPO\" に潜入！〜FinOps編〜 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/reinvent2025-expo-finops",
-      "summary": "AWSの最新動向を現地取材で報告。FinOps向けの注目クラウドサービスを厳選紹介し、AI導入・活用の進展と実務への影響を探るレポート。",
+      "summary": "re:InventのEXPOでFinOps注目サービスを紹介。AIネイティブ化が進む中、ArcheraはRI/SPの長期縛りを保険でカバーし最短30日で割引適用、ProsperOpsはAIでRI/SPの売買を自動化し成果報酬型で提供。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T04:45:06.000Z",
-      "contentHash": "0deb3811b49c"
+      "contentHash": "63ab260481e4"
     },
     {
       "id": "3e134ee7968a",
       "title": "GWC2025 IN KOBE 参加レポート | SODA Engineering Blogのフィード",
       "url": "https://zenn.dev/team_soda/articles/go-workshop-conference-2025-in-kobe",
-      "summary": "SODAのmagavelがAdvent Calendar14日目で、12/13開催の「Go Workshop Conference 2025 IN KOBE」参加レポートを掲載。通常のGoカンファレンスと異なり、ワークショップ主体で午前・午後に分かれていた点を中心に報告しています。",
+      "summary": "SODAのmagavelが12/13のGo Workshop Conference 2025（神戸）参加レポ。午前はlogica0419氏の低レベルコンテナランタイム自作講座でNamespaceやchroot/pivot_root、cgroup等による隔離を学び、午後はtenntenn氏の「Go with AI」でGoogle ADKを使ったAIエージェント作成をハンズオン。資料公開や充実したTinyGo展示も紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T04:30:01.000Z",
-      "contentHash": "7622639799ea"
+      "contentHash": "a36996959ad4"
     },
     {
       "id": "fb395690ddc0",
       "title": "TSにおけるモノレポ構成の最低限の設定と最適化のための技術を理解する | レバテック開発部のフィード",
       "url": "https://zenn.dev/levtech/articles/501bca9759a759",
-      "summary": "レバテック開発部の高瀬が、TypeScriptでフロント/バックを統一しpnpm workspaceで運用しているモノレポを半年使った経験をもとに、最低限必要な設定や構成を改めて見直して解説する記事です。",
+      "summary": "TypeScriptのモノレポ運用に必要な最低設定と最適化を整理。workspaceでパッケージ境界と実行時リンクを定義、referencesで依存・ビルド順管理、pathsでエイリアス補完を改善。モノレポ定義やGoogleの大規模例も解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T03:00:01.000Z",
-      "contentHash": "d254146f86a9"
+      "contentHash": "b79b92ba45f2"
     },
     {
       "id": "228ac80f638a",
       "title": "社内勉強会の継続には「振り返り」が効く気がする | atama plus techblogのフィード",
       "url": "https://zenn.dev/atamaplus/articles/69c3f482f1c700",
-      "summary": "atama plusのsuが、これまで消えがちだった持ち回り社内勉強会を今年5月から半年以上続けられた理由として、「定期的な振り返り」が効いていると考え、その事例と工夫を共有する話。",
+      "summary": "持ち回りの社内勉強会を週1、4〜5人で半年以上継続。成功要因は「全員の発表が一巡したら振り返り会」を必ず行うことと、「発表は5分・内容自由・スキップ不可」でハードルを下げた点。振り返りが気合の入れ直しやモチベ維持に有効で、導入を勧める。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T03:00:01.000Z",
-      "contentHash": "fa814ec1ae90"
+      "contentHash": "7e58211061c2"
     },
     {
       "id": "9b913aae4cb1",
       "title": "14日目：テストを開発する ～最適なテスト設計プロセスの構築～ | NTT DATA TECHのフィード",
       "url": "https://zenn.dev/nttdata_tech/articles/6256b344a2255f",
-      "summary": "ソフトウェアテストでは、仕様を書き写すだけの方法では欠陥を見逃すため、テストケース作成プロセスの整備が重要と論じる。テスト設計技法や分類、トレーサビリティ管理、効率化・自動化で網羅性と品質を高めるべきだと述べる。",
+      "summary": "ソフトウェアテストでは仕様の丸写しで欠陥を見落とすため、テスト観点や設計技法を用い、テスト要求分析→テストアーキテクチャ設計→詳細設計→実装の4段階でプロセスを整備。テスト設計コンテストの紹介や補足も記載。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T03:00:01.000Z",
-      "contentHash": "4e5ab1fc276f"
+      "contentHash": "d56b5acc64f6"
     },
     {
       "id": "699dcf4f2538",
       "title": "Cloudflareではじめるドメイン運用のススメ | NFLabs. エンジニアブログ",
       "url": "https://blog.nflabs.jp/entry/2025/12/14/120000",
-      "summary": "NFLaboratories Advent Calendar 2025・4日目。著者Zerostearが個人向けにドメインの購入・運用方法を解説。DNS確認、Blueskyへの独自ドメイン設定、CloudflareのWorkersやEmail Routingの利用法と注意点を紹介。",
+      "summary": "Cloudflareを使ったドメイン購入から運用までの入門。登録・更新の注意点、DNS（CNAME/TXT）設定でサブドメインやBluesky認証、WorkersやEmail Routingなどの活用を解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T03:00:00.000Z",
-      "contentHash": "0cbf0d7c5d9c"
+      "contentHash": "964566d49f40"
     },
     {
       "id": "00be6e3dcc93",
       "title": "技術で支えた「freee 技術の日 2025」 | freee Developers Hub",
       "url": "https://developers.freee.co.jp/entry/tech-of-freee-tech-day-2025",
-      "summary": "freeeのエンジニア兼Dev Branding、けむりだまが綴るAdvent Calendar第14回。11/30開催の技術カンファレンス「freee 技術の日 2025」を支えた技術や、目まぐるしく変わるセッション情報への対応について紹介します。",
+      "summary": "freee 技術の日 2025では、頻繁に変わるセッション情報を1つのJSONをSSOTとして集約。TypeSpecでJSON Schema/OpenAPIを生成し、AjvとGitHub Actionsで検証、API化して更新ミスと運用コストを削減した。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T03:00:00.000Z",
-      "contentHash": "df46183e0a3a"
+      "contentHash": "c21eb1889c6d"
     },
     {
       "id": "14ce487f92ff",
@@ -347,10 +356,10 @@
       "id": "5db69fb85710",
       "title": "Want to sway an election? Here’s how much fake online accounts cost",
       "url": "https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost",
-      "summary": "研究者らは偽アカウントやボットを使った世論操作の費用を推計。標的や規模でコストが大きく変わり、接戦では比較的低コストで影響可能。検出対策で費用は上がり、選挙保護の政策強化が必要と指摘している。",
+      "summary": "申し訳ありませんが、外部リンクを直接開けません。記事本文を貼り付けていただければ、200文字以内で要約します。本文が用意できない場合は、見出しや要点を教えていただければそれを基に要約を作成します。どちらにしますか？",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T20:48:09.000Z",
-      "contentHash": "3d32f699e1c6"
+      "contentHash": "6bf49fa5495f"
     },
     {
       "id": "e27b805ab052",
@@ -401,10 +410,10 @@
       "id": "1458a21b4248",
       "title": "Are we stuck with the same Desktop UX forever? [video]",
       "url": "https://www.youtube.com/watch?v=1fZTOjd_bOQ",
-      "summary": "外部リンクへはアクセスできないため、直接要約できません。動画の要約か文字起こし、あるいはHNコメントの要点を貼ってください。いただければ200字以内で要約します。",
+      "summary": "リンク先の外部ページに直接アクセスできないため、動画の文字起こしか主要ポイント、あるいはHNコメントの抜粋を貼ってください。それを基に200文字以内の日本語要約を作成します。どちらも両方まとめてほしい場合はその旨を教えてください。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T18:39:53.000Z",
-      "contentHash": "0260374af458"
+      "contentHash": "77c523aeca0c"
     },
     {
       "id": "1e27f4eb4417",
@@ -3065,10 +3074,10 @@
       "id": "c308764f76db",
       "title": "ChatGPT からの Photoshop を試す",
       "url": "https://note.com/npaka/n/n884da273286c",
-      "summary": "ChatGPT内にAdobe Express・Photoshop・Acrobatが統合され、チャットからデザイン・画像・文書を直接編集可能に。筆者がChatGPT経由のPhotoshopを試し、操作感や主な機能をまとめています。",
+      "summary": "ChatGPTから使える「Adobe Photoshop for ChatGPT」を試用。選択・調整・エフェクト・背景ぼかし/削除・元に戻すなどが利用可能。@adobeでPhotoshop選択→画像追加→「背景を透過して」送信→接続許可→結果確認・ダウンロード。",
       "source": "npaka",
       "publishedAt": "2025-12-11T06:04:12.000Z",
-      "contentHash": "616277431746"
+      "contentHash": "a7db0f953783"
     },
     {
       "id": "ba511f64a3e7",
@@ -8991,15 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-11-28T17:29:56.000Z",
       "contentHash": "ddfff828e82b"
-    },
-    {
-      "id": "0515355f539a",
-      "title": "The best robot vacuums",
-      "url": "https://www.theverge.com/22997597/best-robot-vacuum-cleaner",
-      "summary": "ロボット掃除機の総合ガイド。筆者は7年以上で80台超を検証し、最良機・予算・モップ兼用・ペット向け・小型向けなど用途別の推奨機を紹介。最上位はMatic（$1095、3000Pa、カメラ地図化・AI検知、静音）。ブラックフライデー特価情報もあり。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T17:19:32.000Z",
-      "contentHash": "8c8cce0803e4"
     }
   ]
 }
