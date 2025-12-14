@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2025-12-14T01:31:24.845Z",
+  "generatedAt": "2025-12-14T03:38:36.551Z",
   "items": [
+    {
+      "id": "43d4a28e0b8b",
+      "title": "プロンプトのバイアスによる出力結果への影響調査 | OPTIMINDテックブログのフィード",
+      "url": "https://zenn.dev/optimind/articles/1335e0bcee4d1c",
+      "summary": "プロンプトの書き方が生成AIの回答に影響するか検証。API GatewayとLambdaの同題を素直な質問と懸念を添えた質問で比較。前者は */* と isBase64Encoded 切替を推奨、後者は具体的なMIME指定を薦めるなど結論が変わった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T01:30:51.000Z",
+      "contentHash": "bb1ad5bdecd1"
+    },
+    {
+      "id": "f13d102d0072",
+      "title": "BedrockのIaC化でつまづいた点 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2025/12/14/103019",
+      "summary": "BedrockナレッジベースをAWS CDK(TypeScript)でIaC化し、検索結果をAmazon Nova Proへ渡す構成で生じた問題を共有。主な障害はリージョン制限とNova Proのクロスリージョン推論で、東京発の利用には複数リージョンの許可が必要なため、ガバナンス次第では別モデルを検討する必要がある点。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T01:30:19.000Z",
+      "contentHash": "63cc74e099b8"
+    },
+    {
+      "id": "2752dbb28384",
+      "title": "AIに任せること、人が考えること | Voicyテックブログのフィード",
+      "url": "https://zenn.dev/voicy/articles/5dce10371e90dc",
+      "summary": "AI時代のコーディング方針：事業価値を決めるドメインモデル（ビジネスロジックや用語・制約）は人が設計・責任を持ち、テスタブルで変更に強くする。一方、DBアクセスやHTTP入口などパターン化された実装はAIに任せる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T01:00:01.000Z",
+      "contentHash": "ddd60530502c"
+    },
+    {
+      "id": "48c7dc43afdb",
+      "title": "「そのAI エージェント、本番に出して大丈夫？」Amazon Bedrock AgentCore Evaluations で始める品質評価 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/e0f55d9ff9ea31",
+      "summary": "AWSのAmazon Bedrock AgentCore Evaluationsは、AIエージェントの非決定的挙動に対応するためのフルマネージドな継続品質評価サービスです。タスク達成度やツール選択、応答品質を自動検証・監視し、AgentCoreの新機能（PolicyとEvaluations）の一部としてプレビュー提供中（東京未対応）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T01:00:01.000Z",
+      "contentHash": "54984c185973"
+    },
+    {
+      "id": "992ddf4a27a8",
+      "title": "††ダークローンチ†† で安全にリリースする、ECサイトのレンダリングシステム | GMO Developers",
+      "url": "https://developers.gmo.jp/technology/75688/",
+      "summary": "カラーミーショップのテンプレートレンダリングを、密結合だったcolorme-entranceから独立したマイクロサービス「entrance-renderer」に切り出した。依存を分離して開発性を高めるため、入力パターンが多くE2Eで網羅困難なことから、本番トラフィックを複製して新旧出力を比較するダークローンチで安全に検証した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T01:00:00.000Z",
+      "contentHash": "de3a57a30ae2"
+    },
+    {
+      "id": "d57971005d1d",
+      "title": "Temporal における実行境界を超えるコンテキスト伝搬の仕組み | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/temporal-context-propagation",
+      "summary": "Temporalでクライアント・ワークフロー・アクティビティ間の実行境界を越えてトレースIDやテナントID等のコンテキストを伝搬する方法を解説。Go SDKのContextPropagator（Inject/Extract/InjectFromWorkflow/ExtractToWorkflow）による実装例（テナントID）とTypeScript版も紹介しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T01:00:00.000Z",
+      "contentHash": "368dd7cd6a6d"
+    },
+    {
+      "id": "63d1168a3484",
+      "title": "VLMでどこまで画像解析ができる？ | OPTiM TECH BLOG",
+      "url": "https://tech-blog.optim.co.jp/entry/2025/12/14/100000",
+      "summary": "2025年のVLM進展を解説。Qwen2.5‑VLはOCRとバウンディングボックス出力、Gemini2.5はインスタンスセグメンテーション対応、Qwen3‑VLは小物体検出に強く、軽量版はM2 Macでも動作。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T01:00:00.000Z",
+      "contentHash": "55fe5ab0f773"
+    },
+    {
+      "id": "938cb1fed05c",
+      "title": "エンジニアリング組織の「横のつながり」をどう作るか？周囲を巻き込む組織開発の第一歩 | Safie Engineers' Blog!",
+      "url": "https://engineers.safie.link/entry/gl-Integration",
+      "summary": "入社後の聞き取りで「方向性不足」と「役割・権限の不明確さによる横連携の希薄化」を特定。既存資源で短期的に効果を出すため、GL横断ミーティングを立ち上げ、双方向ワーク・透明性・テーマ別の実践的アウトプットで横のつながり強化を進める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T01:00:00.000Z",
+      "contentHash": "69e9d6dd4c31"
+    },
+    {
+      "id": "12f70791350f",
+      "title": "シンプルに基礎が大事。入社3ヶ月のQAがチームでのAI活用を推進する上で分かったこと | freee Developers Hub",
+      "url": "https://developers.freee.co.jp/entry/AI-driven-management-for-qa",
+      "summary": "入社3ヶ月のQA担当がチームでAI活用を推進。現状を可視化し生成AIで課題を分類、最重点はプロセス・ドキュメント効率化。開発増に対しAIでQA生産性のギャップを埋めることを目標に、テスト準備（工数約60%）削減のため仕様からリスク分析〜テスト作成を行う社内AIのチーム導入を進める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T01:00:00.000Z",
+      "contentHash": "c4cecf994344"
+    },
+    {
+      "id": "3e2685bff677",
+      "title": "JavaScriptのWeb Audio APIを使ってジングルベルを演奏してみよう | iimon TECH BLOG",
+      "url": "https://tech.iimon.co.jp/entry/2025/12/14",
+      "summary": "iimonのエンジニア・でっさんによるAdvent Calendar 2025の14日目記事。ダイエットでリバウンドした話を交えつつ、社内の会話で知った「JavaScriptだけで音を鳴らせる」ことに興味を持ち、Web Audio APIで実際に演奏できるものを作ってみようとする経緯を紹介する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T01:00:00.000Z",
+      "contentHash": "9d3cbd611fd9"
+    },
     {
       "id": "b884ddb00398",
       "title": "Web APIをMCP化してAgent-readyにした話 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
@@ -47,6 +137,15 @@
       "contentHash": "a98a5143f997"
     },
     {
+      "id": "9b3760fd473c",
+      "title": "Linux Sandboxes and Fil-C",
+      "url": "https://fil-c.org/seccomp",
+      "summary": "メモリ安全性とサンドボックスは独立した防御で、片方だけでは不十分。例：Javaはメモリ安全でもファイル操作が可能、逆にアセンブリはサンドボックス化で保護され得るがメモリ脆弱。実際はブローカー経由の穴があるため、両者併用が最善。本稿はFil-Cのメモリ安全とサンドボックスを組み合わせ、OpenSSH移植の要点を解説する。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-13T22:58:29.000Z",
+      "contentHash": "dd857d962db8"
+    },
+    {
       "id": "1d53aa2f8d17",
       "title": "AIを使ったLOVOTのQA業務改善の試行錯誤 | Inside of LOVOT",
       "url": "https://tech.groove-x.com/entry/continuous_improvement_with_AI",
@@ -68,19 +167,28 @@
       "id": "d7da10e7b103",
       "title": "Gemini 2.5 TTS のプロンプトガイド",
       "url": "https://note.com/npaka/n/n5402bf2851d0",
-      "summary": "Gemini 2.5 TTSは「何を話すか」だけでなく「どう話すか」まで理解するTTS。プロンプトは「誰が（Audio Profile）」「どんな場面で（Scene）」「どう演じるか（Director’s Notes）」を揃え、Sample ContextやTranscriptを組み合わせると自然で感情豊かな音声が生成できる。",
+      "summary": "Gemini 2.5 TTSは内容だけでなく話し方まで指定可能。プロンプトは「誰が（Audio Profile）」「どこで（Scene）」「どう演じるか（Director’s Notes）」とSample Context/Transcriptを揃え、自然で感情豊かな音声を作るとよい。",
       "source": "npaka",
       "publishedAt": "2025-12-13T21:32:47.000Z",
-      "contentHash": "ee006fd8be43"
+      "contentHash": "dc907f4d4394"
+    },
+    {
+      "id": "44da3c600b1b",
+      "title": "Recovering Anthony Bourdain's (really) lost Li.st's",
+      "url": "https://sandyuraz.com/blogs/bourdain/",
+      "summary": "著者はAnthony Bourdainの失われたli.stを公共クローラ（Common Crawl等）で復元しようとし、commoncrawl_search.pyでS3からHTMLを取得。GregのリストやInternet Archive、mirandomの調査と照合し、見つからない項目も列挙している。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-13T21:18:01.000Z",
+      "contentHash": "3c88818aa95e"
     },
     {
       "id": "5db69fb85710",
       "title": "Want to sway an election? Here’s how much fake online accounts cost",
       "url": "https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost",
-      "summary": "研究者が偽アカウントやボットの闇市場を分析し、比較的安価に大規模なオンライン工作が可能であると警告。プラットフォームごとの脆弱性や人手＋自動化の併用で影響力が増し、検出・透明性・規制強化が必要と結論づけた。",
+      "summary": "研究は偽アカウントやボットを使った世論操作の費用を分析。国や手法で差はあるが、意外に低コストで有権者の支持を動かせる場合があり、プラットフォームの監視・規制強化や透明性向上が必要だと指摘している。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T20:48:09.000Z",
-      "contentHash": "dd005e29b591"
+      "contentHash": "88c66cd6d723"
     },
     {
       "id": "e27b805ab052",
@@ -90,6 +198,15 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-13T20:30:34.000Z",
       "contentHash": "73e347fac534"
+    },
+    {
+      "id": "7f8c3c5f7edd",
+      "title": "I fed 24 years of my blog posts to a Markov model",
+      "url": "https://susam.net/fed-24-years-of-posts-to-markov-model.html",
+      "summary": "Susam Palは約30行の簡潔なマルコフ文生成器「Mark V. Shaney Junior」を公開。趣味の探索的プログラミングで過去の実験を再利用し、GitHubに公開。READMEにはディケンズ『クリスマス・キャロル』や自身の24年分のブログを学習させた生成例が載る。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-13T20:19:53.000Z",
+      "contentHash": "22df8ca89b16"
     },
     {
       "id": "e842a24852ba",
@@ -122,10 +239,10 @@
       "id": "1458a21b4248",
       "title": "Are we stuck with the same Desktop UX forever? [video]",
       "url": "https://www.youtube.com/watch?v=1fZTOjd_bOQ",
-      "summary": "外部リンクを直接開けないため、そのままは要約できません。動画のタイトル／要点、または本文・字幕・コメントの抜粋を貼っていただければ、200文字以内で日本語要約を作成します。どちらを提供しますか？",
+      "summary": "外部リンクに直接アクセスできないため、動画やHN議論の内容を取得できません。要約するには、動画の文字起こしや主要ポイント、HNコメントの抜粋など本文を貼ってください。いただければ200字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T18:39:53.000Z",
-      "contentHash": "09b0a8f9535b"
+      "contentHash": "8c82e447b7fc"
     },
     {
       "id": "1e27f4eb4417",
@@ -1643,10 +1760,10 @@
       "id": "9f7e2457935f",
       "title": "GPT-5.2 の概要",
       "url": "https://note.com/npaka/n/n7a4bdf31d37a",
-      "summary": "OpenAIがGPT-5.2を発表。汎用知能、長文コンテキスト理解（約40万トークン）、ツール連携、視覚解析が強化され、実務的なコード作成や文書要約、自動化に強い。ChatGPTはInstant/Thinking/Proの3種で用途別に提供。APIはトークン課金制（高精度版は高額）。知識カットオフは2025/08/31。",
+      "summary": "OpenAIがGPT-5.2を発表。汎用知能・長文理解（約40万トークン）、Vision、ツール連携が強化され、コーディング・資料作成・自動化等に高性能。知識カットオフは2025/8/31。ChatGPT版はInstant/Thinking/Proの3種、APIは従量課金。",
       "source": "npaka",
       "publishedAt": "2025-12-12T04:02:38.000Z",
-      "contentHash": "a8c34768f9b4"
+      "contentHash": "76c9630347a1"
     },
     {
       "id": "b9ee4f8196e1",
@@ -2300,10 +2417,10 @@
       "id": "d3945e6ac563",
       "title": "Gemini Deep Research Agent の概要",
       "url": "https://note.com/npaka/n/n9e52f89e8585",
-      "summary": "GoogleはInteractions API経由でGemini Deep Research Agentを発表。Gemini 3 Proを核に多段階強化学習で反復的なWeb調査を行い幻覚を低減。DeepSearchQA（900問・17分野）を公開し網羅性評価を実現。金融・バイオ等でデューデリジェンス等に活用中。",
+      "summary": "GoogleはInteractions API経由で「Gemini Deep Research Agent」を強化公開。Gemini 3 Proを核に多段階RLで長時間の自律的Web調査を行い高精度・低コストのレポートを生成。網羅性評価用ベンチマーク「DeepSearchQA」（900問）を公開し、金融やバイオなどで実運用中。",
       "source": "npaka",
       "publishedAt": "2025-12-11T18:08:56.000Z",
-      "contentHash": "5ed8a77135ba"
+      "contentHash": "b4415dafe7b9"
     },
     {
       "id": "2d181d7810ca",
@@ -3227,10 +3344,10 @@
       "id": "fbd9a28c3708",
       "title": "Gemini 2.5 TTS のアップデート - 2025年12月10日",
       "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "Gemini 2.5 Flash/ProのTTSプレビューが強化。表現力とスタイルへの忠実性が向上し、状況に応じたペース調整や指示追従性が改善。複数話者の一貫性も強化され、24言語に対応。",
+      "summary": "Gemini 2.5のTTSがFlash（低遅延）とPro（高品質）で強化。表現力とスタイル遵守、状況に応じた速さ調整、複数話者の一貫性向上、24言語対応が主な改良点です。",
       "source": "npaka",
       "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "6b7e32740519"
+      "contentHash": "bee171aa3b5f"
     },
     {
       "id": "61a85cfbb5d3",
@@ -8883,123 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-11-28T15:00:00.000Z",
       "contentHash": "29a1c7a92ba0"
-    },
-    {
-      "id": "ef68fbc4943d",
-      "title": "Petition to formally recognize open source work as civic service in Germany",
-      "url": "https://www.openpetition.de/petition/online/anerkennung-von-open-source-arbeit-als-ehrenamt-in-deutschland#petition-main",
-      "summary": "ドイツでのオープンソース貢献を公式な「ボランティア（Ehrenamt）」として認め、保険や税制優遇、活動記録・証明の整備など公的支援を求める請願。賛否両論の議論あり。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T14:08:14.000Z",
-      "contentHash": "da80f9de948c"
-    },
-    {
-      "id": "6e81bee3b993",
-      "title": "The best fitness trackers and watches we’ve tested",
-      "url": "https://www.theverge.com/22985108/best-fitness-tracker",
-      "summary": "記事はブラックフライデーで多くのフィットネストラッカーが特価になっていると紹介。2025年は多機能で個人向けの選択肢が豊富で、総合1位はAmazfit Active 2。手頃でGPS・長電池・AI搭載だが操作性に難あり。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T13:46:44.000Z",
-      "contentHash": "bcecfbf6169d"
-    },
-    {
-      "id": "2a6c80a8f6b6",
-      "title": "Tessan’s 140W Universal Travel Adapter has hit a new all-time low",
-      "url": "https://www.theverge.com/gadgets/831748/tessan-universal-travel-adapter-black-friday-deal-sale",
-      "summary": "Tessanの140Wユニバーサル旅行用アダプタがブラックフライデーで$53.99に値下げ。USB-C×3（うち2ポートで最大140W）、USB-A×1（18W）、AC口、可変プラグで226以上の国対応、100–250V対応。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T13:45:00.000Z",
-      "contentHash": "28750588047b"
-    },
-    {
-      "id": "d6cdcae11dda",
-      "title": "The best e-reader to buy right now",
-      "url": "https://www.theverge.com/23769068/best-ebook-readers",
-      "summary": "ブラックフライデーで多くの電子書籍リーダーがセール中。リーダーはスマホより紙に近い読書体験で目に優しく、防水や物理ボタン、メモ機能など多彩。総合評価で2024年版Kindle Paperwhite（7インチ・300ppi・16GB・IPX8、広告付き$159.99）が最良と紹介。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T13:36:24.000Z",
-      "contentHash": "7d56a5340afd"
-    },
-    {
-      "id": "b9fd893e5386",
-      "title": "The best noise-canceling headphones to buy right now",
-      "url": "https://www.theverge.com/21345733/best-noise-canceling-headphones",
-      "summary": "編集部注：ブラックフライデーで多くのノイズキャンセリングヘッドホンが特価。Bose、Sony、AirPods Max、Bowers & Wilkins、Sennheiserなど豊富な選択肢。長時間駆動や装着感でオーバーイヤーが有利。総合推奨はSony WH-1000XM5で、快適性・音質・ANC・通話が改善された一方、外観の安っぽさとかさばるケースが欠点。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T13:35:26.000Z",
-      "contentHash": "f8be385615f0"
-    },
-    {
-      "id": "544686a35a37",
-      "title": "The best Apple Watch to buy",
-      "url": "https://www.theverge.com/23037217/best-apple-watch-series-se-ultra",
-      "summary": "ブラックフライデーでApple Watch各種が特価。現行はSE（入門）、Series（標準）、Ultra（タフ）の3種。多くに最適なのは第3世代SE（$249）で、常時表示、ダブルタップなどのジェスチャー、S10、5G、急速充電、体温センサー搭載の高コスパ。ベゼルが太く電池持ちがやや短めなのが欠点。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T13:33:19.000Z",
-      "contentHash": "d0c6ee5ac562"
-    },
-    {
-      "id": "d2627f7b21a2",
-      "title": "The best laptops you can get",
-      "url": "https://www.theverge.com/21250695/best-laptops",
-      "summary": "The Vergeは検証の結果、一般向けの最良は2025年M4搭載のMacBook Airと結論。携帯性と長時間バッテリが強みだが、高負荷作業やWindows・ゲーミング・修理性重視なら16インチMacBook ProやChromebook、二画面機、Snapdragon X Elite搭載Surfaceなどを検討すべき。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T13:32:26.000Z",
-      "contentHash": "89be63ab3786"
-    },
-    {
-      "id": "d2710840737b",
-      "title": "Some of our favorite Blu-rays are cheaper than ever during Black Friday",
-      "url": "https://www.theverge.com/gadgets/829057/best-4k-blu-ray-uhd-movies-black-friday-deal-sale-2025",
-      "summary": "ブラックフライデー向けにThe VergeがBlu‑ray/4Kのおすすめ映画・ドラマを紹介。Amazonの「2点買うと1点無料」やBarnes & NobleのCriterionセール（〜12/7）、TargetやGruvの特価情報も掲載。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T13:21:44.000Z",
-      "contentHash": "a0e0554bd26b"
-    },
-    {
-      "id": "01bb5e96e733",
-      "title": "A trillion dollars (potentially) wasted on gen-AI",
-      "url": "https://garymarcus.substack.com/p/a-trillion-dollars-is-a-terrible",
-      "summary": "ゲイリー・マーカスは、AI企業に「兆ドル」級の資金や評価を注ぎ込むのは危険だと警告する。過度な集中は独占・透明性欠如・安全性軽視を招き、競争や公共研究を損なうため、規制・分散投資・公共資金投入を提案する。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T13:21:17.000Z",
-      "contentHash": "40f21ccc42f1"
-    },
-    {
-      "id": "da0d398a940a",
-      "title": "Sora and Nano Banana Pro throttled amid soaring demand",
-      "url": "https://www.theverge.com/news/831760/openai-google-rate-limit-sora-nano-banana-pro",
-      "summary": "GoogleとOpenAIが需要過多で生成回数を制限。OpenAIのSoraは無料は1日6動画（追加購入可、Plus/Proは変更なし）。GoogleはNano Banana Proの無料画像を1日3→2枚に減らし、Gemini 3 Proの無料アクセスも制限。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T13:00:34.000Z",
-      "contentHash": "5dd3d45d0dde"
-    },
-    {
-      "id": "9b2005deb1f3",
-      "title": "The US dodged a bullet this Atlantic hurricane season",
-      "url": "https://www.theverge.com/news/829505/atlantic-hurricane-season-end-political-climate-disaster",
-      "summary": "大西洋ハリケーンシーズンは11月30日に終了。DOGEによる連邦機関の削減で国立気象局は混乱したが、強い嵐は相次いだものの10年ぶりに米国上陸はなく、多くが被害を免れたとNOAA長官は「必要な休み」と述べた。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T13:00:00.000Z",
-      "contentHash": "63fb187deb3c"
-    },
-    {
-      "id": "b0ca47e0162e",
-      "title": "Rivian’s software-powered e-bike won me over with its adaptability ",
-      "url": "https://www.theverge.com/transportation/829860/rivian-also-tmb-ebike-hands-on-software",
-      "summary": "RivianのスピンオフAlsoが初の電動バイクを発表。斬新な一方でデザインは賛否両論、ゾーンアーキ、シリーズハイブリッド、ペダルバイワイヤ、専用ソフト、BLE防犯などソフト依存の先進仕様が多く、故障や不具合を懸念する声が上がっている。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T13:00:00.000Z",
-      "contentHash": "b1a813ecfd25"
-    },
-    {
-      "id": "f89a22b76aec",
-      "title": "A Remarkable Assertion from A16Z",
-      "url": "https://nealstephenson.substack.com/p/a-remarkable-assertion-from-a16z",
-      "summary": "すみませんが、現在外部サイトを直接参照できません。記事本文をここに貼っていただければ、200文字以内で日本語要約を作成します。本文が長ければ要点部分（冒頭・結論・段落見出しなど）だけでも構いません。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T12:41:32.000Z",
-      "contentHash": "db25c8f64936"
     }
   ]
 }
