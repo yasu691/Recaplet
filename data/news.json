@@ -1,6 +1,33 @@
 {
-  "generatedAt": "2025-12-14T04:47:43.889Z",
+  "generatedAt": "2025-12-14T05:30:20.168Z",
   "items": [
+    {
+      "id": "6d0ec8d9b2f7",
+      "title": "GitHub Actions のコストが思ったより高かったので、短期間でできる限り削減した話 | ゼスト Tech Blog",
+      "url": "https://techblog.zest.jp/entry/2025/12/14/134528",
+      "summary": "GitHub Actions の費用を約38%削減。実行時間はほぼ維持し、コストの大半を占める高スペックカスタムランナーを ubuntu-latest に置換し、Renovate などの不要なCI実行を抑制して達成。即効性はランナー単価と無駄実行削減。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T04:45:28.000Z",
+      "contentHash": "d2dc97b0ae2f"
+    },
+    {
+      "id": "93f3b9502634",
+      "title": "【AWS re:Invent 2025】AWSのエコシステムを支えるサードパーティの展示会 \"EXPO\" に潜入！〜FinOps編〜 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/reinvent2025-expo-finops",
+      "summary": "re:Invent2025のEXPOでFinOps系を紹介。AIネイティブ化が進む中、ArcheraはRI/SPを最短30日で保険付き利用、AI予測で最適化。ProsperOpsはAIでRI/SPを自動売買し成果報酬でコスト削減。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T04:45:06.000Z",
+      "contentHash": "cb7c61cef9dd"
+    },
+    {
+      "id": "3e134ee7968a",
+      "title": "GWC2025 IN KOBE 参加レポート | SODA Engineering Blogのフィード",
+      "url": "https://zenn.dev/team_soda/articles/go-workshop-conference-2025-in-kobe",
+      "summary": "Go Workshop Conference 2025（神戸）参加レポ。午前は低レベルなコンテナランタイム自作講座でOS視点の解説とハンズオン、午後はGoogle ADK for Goを使いAIエージェント作成を実践。資料公開やTinyGoブースも充実。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T04:30:01.000Z",
+      "contentHash": "a36996959ad4"
+    },
     {
       "id": "fb395690ddc0",
       "title": "TSにおけるモノレポ構成の最低限の設定と最適化のための技術を理解する | レバテック開発部のフィード",
@@ -11,40 +38,58 @@
       "contentHash": "b79b92ba45f2"
     },
     {
+      "id": "228ac80f638a",
+      "title": "社内勉強会の継続には「振り返り」が効く気がする | atama plus techblogのフィード",
+      "url": "https://zenn.dev/atamaplus/articles/69c3f482f1c700",
+      "summary": "atama plusのsuは、4〜5人で週1回の持ち回り勉強会を半年以上継続。特徴は「全員の発表が一巡したら必ず振り返り」を行い、メリハリとモチベ維持を図ること。発表は5分でも可・内容自由、スキップ禁止でハードルを下げ継続性を高めている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T03:00:01.000Z",
+      "contentHash": "7e58211061c2"
+    },
+    {
+      "id": "9b913aae4cb1",
+      "title": "14日目：テストを開発する ～最適なテスト設計プロセスの構築～ | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/6256b344a2255f",
+      "summary": "ソフトウェアテストを効率的かつ網羅的に行うため、テスト要求分析→テストアーキテクチャ設計→詳細設計→実装の4段階プロセスと、テスト観点や設計技法の活用を提唱。テスト設計コンテストや参考情報の更新も紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T03:00:01.000Z",
+      "contentHash": "d56b5acc64f6"
+    },
+    {
       "id": "699dcf4f2538",
       "title": "Cloudflareではじめるドメイン運用のススメ | NFLabs. エンジニアブログ",
       "url": "https://blog.nflabs.jp/entry/2025/12/14/120000",
-      "summary": "個人でも始めやすいドメイン購入・運用の解説。DNS確認やBlueskyへの独自ドメイン設定、CloudflareのWorkersやEmail Routingの導入例と注意点を紹介しています。",
+      "summary": "Cloudflareを使った個人向けドメイン取得と運用ガイド。登録方法、DNS（CNAME/TXT）設定、Blueskyへのドメイン連携、WorkersやEmail Routingの活用法、更新忘れによる権利喪失の注意点を解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T03:00:00.000Z",
-      "contentHash": "0cbf0d7c5d9c"
+      "contentHash": "964566d49f40"
     },
     {
       "id": "00be6e3dcc93",
       "title": "技術で支えた「freee 技術の日 2025」 | freee Developers Hub",
       "url": "https://developers.freee.co.jp/entry/tech-of-freee-tech-day-2025",
-      "summary": "freeeのエンジニア兼Dev Brandingのけむりだまが、11/30開催の技術カンファレンス「freee 技術の日 2025」を支えた技術や、目まぐるしく変わるセッション情報への対応について綴る記事（Advent Calendar 14日目）。",
+      "summary": "freee 技術の日 2025では、セッション情報を単一のJSONファイルをSSOTとして管理。TypeSpecでスキーマを定義しJSON Schema・OpenAPIを生成、AjvとGitHub Actionsで検証、PR運用で整合性を保ちAPI公開し運営コストと誤差を削減した。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T03:00:00.000Z",
-      "contentHash": "df46183e0a3a"
+      "contentHash": "c21eb1889c6d"
     },
     {
       "id": "14ce487f92ff",
       "title": "腕で始めるフィジカルAI | newmo 技術ブログ",
       "url": "https://tech.newmo.me/entry/2025/12/14/120000",
-      "summary": "newmoの自動運転チームは、自社で収集したデータを使いモデルを学習・構築して自動運転タクシーを実現しようとしている。高品質・大量・多様なデータ収集基盤、大規模学習・推論の計算基盤、実車を安全に制御する制御基盤など多岐にわたる課題を社内外と連携して解決している。",
+      "summary": "newmoは物理世界を動かす「Physical AI」入門としてロボットアームを推奨。SO‑Arm101はHugging Face等と開発した6自由度のオープンソースで3Dプリント可能。リーダー／フォロワーのテレオペで画像とサーボ角を同期収集し、LeRobotがデータ収集・学習・モデル公開を自動化、最新モデルにも対応する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T03:00:00.000Z",
-      "contentHash": "e1fc235fbd8f"
+      "contentHash": "076218325f67"
     },
     {
       "id": "bc57176d1bdf",
       "title": "Amazon Bedrock AgentCoreをTerraformで構築してみた | every Tech Blog",
       "url": "https://tech.every.tv/entry/2025/12/14/120000",
-      "summary": "every Tech Blog Advent Calendar 2025の18日目記事。AgentCoreの全体構成、AWS Providerのバージョン要件、Gateway／Target構築手順と必須パラメータ（authorizer_type、protocol_type、target_configuration）、tool_schema、credential_provider_configuration、SigV4署名やID周りを解説しています。",
+      "summary": "2025年10月に一般提供されたAmazon Bedrock AgentCoreをTerraformで構築した事例。Gateway・Gateway Target・APIキー認証をTerraformで管理し、DynamoDBキャッシュ→Gateway経由でLambda/Athena→OpenAIで解析・要約する構成。AWS Providerは6.17以上が必須で、IAM設計やデプロイ手順も解説している。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T03:00:00.000Z",
-      "contentHash": "b032319c8557"
+      "contentHash": "4369460758c4"
     },
     {
       "id": "21f106145bcc",
@@ -257,10 +302,10 @@
       "id": "d7da10e7b103",
       "title": "Gemini 2.5 TTS のプロンプトガイド",
       "url": "https://note.com/npaka/n/n5402bf2851d0",
-      "summary": "Gemini 2.5 TTSは内容だけでなく話し方も指定できるTTS。プロンプトは「誰が」「どこで」「どう話すか」を意識し、Audio Profile、Scene、Director’s Notes、Sample Context、Transcriptを組み合わせて自然で感情豊かな音声を作る手法を解説。例示あり。",
+      "summary": "Gemini 2.5 TTSは「何を話すか」だけでなく「どう話すか」まで指定できる。プロンプトはAudio Profile（人物）、Scene（場面）、Director’s Notes（演技指示）、文脈と台本を揃え、「誰が・何を・どう話すか」を一致させると自然で感情豊かな音声が得られる。",
       "source": "npaka",
       "publishedAt": "2025-12-13T21:32:47.000Z",
-      "contentHash": "98b03dd7298e"
+      "contentHash": "1de965f9bbc2"
     },
     {
       "id": "44da3c600b1b",
@@ -275,10 +320,10 @@
       "id": "5db69fb85710",
       "title": "Want to sway an election? Here’s how much fake online accounts cost",
       "url": "https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost",
-      "summary": "研究は偽アカウントやボット、クリック農場の市場価格を調べ、比較的低コストで世論や選挙に影響を与えうる実態を示した。対策としてプラットフォームの規制強化、透明性向上、監視や法整備が必要と結論づける。",
+      "summary": "研究は偽アカウントや「いいね」「リツイート」などを買って世論や選挙を操作する費用を解析。規模やプラットフォームで差はあるが比較的安価で影響を与え得ることを示し、監視・対策の必要性を訴える。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T20:48:09.000Z",
-      "contentHash": "ee9b0ef23adf"
+      "contentHash": "1487a42e0e11"
     },
     {
       "id": "e27b805ab052",
@@ -329,10 +374,10 @@
       "id": "1458a21b4248",
       "title": "Are we stuck with the same Desktop UX forever? [video]",
       "url": "https://www.youtube.com/watch?v=1fZTOjd_bOQ",
-      "summary": "すみません、外部URLに直接アクセスできません。要約作成には本文（動画のトランスクリプト／要点）かHNの主要コメントを貼ってください。貼っていただければ200字以内で日本語要約を作ります。",
+      "summary": "申し訳ありませんが、外部リンクへ直接アクセスできません。要約をご希望なら、動画の書き起こしや記事本文、HNコメントを貼り付けてください。いただければ200字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T18:39:53.000Z",
-      "contentHash": "e5c6993f187b"
+      "contentHash": "0e8cf2ea6db6"
     },
     {
       "id": "1e27f4eb4417",
@@ -8955,51 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-11-28T17:03:25.000Z",
       "contentHash": "b973d93415b9"
-    },
-    {
-      "id": "b9f03eba44e6",
-      "title": "Apple and Intel Rumored to Partner on Mac Chips",
-      "url": "https://www.macrumors.com/2025/11/28/intel-rumored-to-supply-new-mac-chip/",
-      "summary": "報道によると、Intelが新型Mac向けチップの供給候補に挙がっているという。Appleは引き続き自社設計チップを軸にするが、供給多様化や性能面でIntel製導入を検討中で、時期や規模は未確定。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T17:00:46.000Z",
-      "contentHash": "f0027b49f098"
-    },
-    {
-      "id": "d06ed7465a00",
-      "title": "ModRetro recreated the N64 controller for its M64 console",
-      "url": "https://www.theverge.com/news/831498/modretro-m64-console-4k-fpga-nintendo-64-clone",
-      "summary": "ModRetro（創業者パルマー・ラッキー）がFPGAで4K出力するN64リメイク機「M64」を発表。オリジナル風筐体と三又コントローラを忠実に再現、透明カラー、HDMI/USB‑C/microSD搭載。導入価格は199ドルで全員に拡大。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T17:00:00.000Z",
-      "contentHash": "d7895af5e997"
-    },
-    {
-      "id": "ac91659862b5",
-      "title": "So you wanna build a local RAG?",
-      "url": "https://blog.yakkomajuri.com/blog/local-rag",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文をここに貼るか、主要な箇所を送ってください。受け取り次第、200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T16:54:56.000Z",
-      "contentHash": "53c5a27bd1dc"
-    },
-    {
-      "id": "78b946aa5c5d",
-      "title": "Airloom – 3D Flight Tracker",
-      "url": "https://objectiveunclear.com/airloom.html",
-      "summary": "申し訳ありませんが外部URLを直接開けません。記事本文を貼っていただくか、要点（注目箇所）を教えてください。いただければ200字以内で日本語要約します。HNコメントの要約も可。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T16:49:12.000Z",
-      "contentHash": "91902b79439b"
-    },
-    {
-      "id": "ec2f16c8f09d",
-      "title": "Deck out your tree with ornaments of retro consoles, movie moments, and more",
-      "url": "https://www.theverge.com/tech/811614/best-christmas-ornaments-2025",
-      "summary": "Hallmarkがゲームや映画、ブランドを模したリアルで懐かしいオーナメントを多数販売。例：Xbox360（Haloの音再生）、CRTに『Oregon Trail』、NES、VHS、レコード箱、スーパースター、T‑1000など。ギフト向けに非Hallmark品も紹介。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T16:40:55.000Z",
-      "contentHash": "ccc912702aef"
     }
   ]
 }
