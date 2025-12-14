@@ -1,14 +1,50 @@
 {
-  "generatedAt": "2025-12-14T12:44:26.256Z",
+  "generatedAt": "2025-12-14T13:38:09.424Z",
   "items": [
+    {
+      "id": "9cb0245f132c",
+      "title": "AI image generators are getting better by getting worse",
+      "url": "https://www.theverge.com/column/843883/ai-image-generators-better-worse",
+      "summary": "AI画像生成は以前の明らかな欠陥が減り、逆に画質をわずかに劣化させるなど“自然な不完全さ”を加えることで写真らしさを高め、偽画像が見破りにくくなっている。DALL‑E登場以来の進化。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-14T13:00:00.000Z",
+      "contentHash": "3c8b372da0e4"
+    },
+    {
+      "id": "7218e6ea6693",
+      "title": "A new old idea about video stores",
+      "url": "https://www.theverge.com/tech/844117/letterboxd-store-skate-story-ifixit-installer",
+      "summary": "The Vergeのニュースレター「Installer No.109」で、ビデオ店の新旧アイデアや『Knives Out』続編、スケートゲーム、ギア修理法、Google Mapsやshopaganda話、F1配信、アバター再見、IKEAスマートボタン、Obsidianモバイル更新など注目トピックを紹介。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-14T13:00:00.000Z",
+      "contentHash": "976df92df63c"
+    },
+    {
+      "id": "9d6bcad245d1",
+      "title": "AngularのIncremental Hydrationの挙動を確認する | Voicyテックブログのフィード",
+      "url": "https://zenn.dev/voicy/articles/091eb1f34d57b4",
+      "summary": "記事はAngularのIncremental Hydrationを解説。SSRでのHydration完了前の操作不能をEvent Replayで緩和し、@deferを使って段階的にHydrationし必要部分を優先する仕組みと設定方法を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T12:39:51.000Z",
+      "contentHash": "a94014141e00"
+    },
+    {
+      "id": "f3fbfacb382f",
+      "title": "愛すべき Image API - 前世紀の技を現代で | 一休.com Developers Blog",
+      "url": "https://user-first.ikyu.co.jp/entry/2025/12/14/200615",
+      "summary": "Image APIの特徴と歴史解説。Imageコンストラクタはsrc設定と同時に即時ロードを始め、scriptとは挙動が異なる。起源は1996年のNetscape/IEで、CSS普及前の画像ロールオーバーで先読みが有用だった点などを紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T11:06:15.000Z",
+      "contentHash": "861a3bd81136"
+    },
     {
       "id": "9facfec4eba1",
       "title": "Nano Banana Pro と Sora2 でアニメーション作成を試す",
       "url": "https://note.com/npaka/n/nd3300b886513",
-      "summary": "「Nano Banana Pro」と「Sora2」でアニメ制作を試行。Nano Banana ProでGeminiベースのプロンプトからビジュアル絵コンテを作成し、9ショット（約12–18秒）のシネマティックプランを生成。登場は宇宙から来たそらみと監視役へにへに、セリフ無しクレイアニメでメガドライブのカートリッジ大量生産とその顛末を描く。",
+      "summary": "Nano Banana ProとSora2でアニメ制作を検証。Nano Banana ProとGemini連携でキャラ設定や照明を含む9ショット絵コンテを作成し、メガドライブのカートリッジ量産する物語の動画を生成。",
       "source": "npaka",
       "publishedAt": "2025-12-14T07:36:51.000Z",
-      "contentHash": "57b2b33ea3e2"
+      "contentHash": "fd1ffff5d4a8"
     },
     {
       "id": "79b54061b018",
@@ -365,10 +401,10 @@
       "id": "d7da10e7b103",
       "title": "Gemini 2.5 TTS のプロンプトガイド",
       "url": "https://note.com/npaka/n/n5402bf2851d0",
-      "summary": "Gemini 2.5 TTSは内容だけでなく声質や演技まで指定可能。プロンプトはAudio Profile（誰）、Scene（場面）、Director’s Notes（演技指示）、Sample Context／Transcript（文脈・台詞）を揃えると自然で感情のある音声が得られる。",
+      "summary": "Gemini 2.5 TTSは「何を話すか」だけでなく「どう話すか」まで指定可能。キャラ（年齢・立場）、場面（場所・雰囲気）、演技（速度・抑揚・息遣いなど）をAudio Profile/Scene/Director’s Notes/Sample Context/Transcriptで組み合わせ、誰が・何を・どう話すかを一致させると自然で感情のある音声が得られる。",
       "source": "npaka",
       "publishedAt": "2025-12-13T21:32:47.000Z",
-      "contentHash": "c5c4cbfcd32e"
+      "contentHash": "71d4c4eb9a6e"
     },
     {
       "id": "44da3c600b1b",
@@ -383,10 +419,10 @@
       "id": "5db69fb85710",
       "title": "Want to sway an election? Here’s how much fake online accounts cost",
       "url": "https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost",
-      "summary": "研究は偽アカウントやフォロワー購入の価格を分析し、主要SNSで世論操作や選挙影響が思ったより安価で可能であることを示す。プラットフォームの対策強化が必要と指摘。",
+      "summary": "研究者のモデルを用いて、偽アカウントやボットで選挙を動かすには大量のアカウントと相応の費用が必要で、プラットフォームや検出対策でコストが大きく変動することを示した。対策強化や規制の重要性を指摘している。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T20:48:09.000Z",
-      "contentHash": "41ba6d338d46"
+      "contentHash": "91de3934aff3"
     },
     {
       "id": "e27b805ab052",
@@ -401,10 +437,10 @@
       "id": "7f8c3c5f7edd",
       "title": "I fed 24 years of my blog posts to a Markov model",
       "url": "https://susam.net/fed-24-years-of-posts-to-markov-model.html",
-      "summary": "Susam Palは24年分のブログ記事をマルコフモデルに学習させた小さな生成器「Mark V. Shaney Junior」を公開。約30行のPythonで趣味的に作った探索的プログラムを整備してGitHubに上げ、READMEにはディケンズの「A Christmas Carol」で学習させた生成例を掲載している。",
+      "summary": "Susam Palが小型マルコフ文生成器「Mark V. Shaney Junior」をGitHub公開。約30行のPythonで理解しやすく、趣味の探究として自身のブログ24年分や古典を学習させて奇妙な文を生成する。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T20:19:53.000Z",
-      "contentHash": "22df8ca89b16"
+      "contentHash": "59e33907bb78"
     },
     {
       "id": "0975c976cac0",
@@ -635,10 +671,10 @@
       "id": "1c4777a70a55",
       "title": "Gemini 2.5 Flash Native Audio の概要",
       "url": "https://note.com/npaka/n/n78b9a1a0ce0f",
-      "summary": "Googleが「Gemini 2.5 Flash Native Audio」を公開。ライブ音声エージェントで関数呼び出し精度や指示追従（84→90%）・多ターン会話を改善。ライブ音声翻訳は70言語超・2000以上の語ペア対応で抑揚保持・自動検出・ノイズ耐性を備え、Google翻訳アプリでβ提供。",
+      "summary": "Googleが「Gemini 2.5 Flash Native Audio」を公開。Function Calling精度向上（評価トップ）、指示追従84→90%、多ターン対応強化。Search LiveやGoogle翻訳でネイティブ音声翻訳をベータ提供、70以上の言語・2,000以上の言語ペア対応、イントネーション維持・自動検出・ノイズ耐性あり。",
       "source": "npaka",
       "publishedAt": "2025-12-13T13:25:23.000Z",
-      "contentHash": "18c85635d385"
+      "contentHash": "ecc8ece285cb"
     },
     {
       "id": "98bf0fab2c4c",
@@ -3551,10 +3587,10 @@
       "id": "fbd9a28c3708",
       "title": "Gemini 2.5 TTS のアップデート - 2025年12月10日",
       "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "Gemini 2.5のTTSがFlash（低遅延）とPro（高品質）で強化。表現力とスタイル遵守、状況に応じた速さ調整、複数話者の一貫性向上、24言語対応が主な改良点です。",
+      "summary": "GoogleのGemini 2.5 Flash/Pro TTSプレビューが大幅強化。表現力とスタイル指示への忠実度向上、状況に応じたペース制御の改善、複数話者での声の一貫性向上を実現（低遅延版と高品質版、24言語対応）。",
       "source": "npaka",
       "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "bee171aa3b5f"
+      "contentHash": "152bb8aea562"
     },
     {
       "id": "61a85cfbb5d3",
@@ -8964,42 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-11-28T19:25:15.000Z",
       "contentHash": "65e34af0b2a9"
-    },
-    {
-      "id": "e134ea07481b",
-      "title": "Bose, Sony, and Apple headphones are cheaper than ever for Black Friday",
-      "url": "https://www.theverge.com/gadgets/831125/best-black-friday-headphone-earbud-deals-2025",
-      "summary": "Black FridayでSonos Aceが$120オフを含む大幅セール。Apple、Sony、Bose、Nothingなどのヘッドホン／イヤホンが過去最安値に。AirPods 4・AirPods Pro・Bose QC Ultra・Nothing Ear (a)などが値下げ、返品猶予も拡大。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T18:45:00.000Z",
-      "contentHash": "67d7387c76ef"
-    },
-    {
-      "id": "8e28b72624e2",
-      "title": "The Oura Ring 4 is still at its lowest price ever for Black Friday",
-      "url": "https://www.theverge.com/gadgets/832303/oura-ring-4-smart-wearable-black-friday-deal-sale-2025",
-      "summary": "Oura Ring 4がブラックフライデーで通常$349→$249に、金・ローズゴールドは$500→$350に値下げ。高度な睡眠追跡が特徴で、月$5.99のサブスクで詳細な睡眠データ、24/7心拍、体温、SpO2等を利用可能。最新モデルは酸素・心拍・活動追跡が改善。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T18:22:35.000Z",
-      "contentHash": "cf70e12fff26"
-    },
-    {
-      "id": "53dbc1bceeaf",
-      "title": "Hallmark’s Mario and Toad Christmas ornaments are less than $10 for Black Friday",
-      "url": "https://www.theverge.com/gadgets/832239/black-friday-mario-toad-nintendo-christmas-ornaments-deal-sale-2025",
-      "summary": "家にある古い“鉛”みたいな飾りを任天堂オーナメントに替えよう。AmazonのブラックフライデーでHallmarkのキノピオとファイアマリオが各約$9.7。ヨッシー等を揃えればマリオカート風のツリーに。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T18:17:14.000Z",
-      "contentHash": "197cbb21af0e"
-    },
-    {
-      "id": "c0a43af1d3a1",
-      "title": "Imgur geo-blocked the UK, so I geo-unblocked my network",
-      "url": "https://blog.tymscar.com/posts/imgurukproxy/",
-      "summary": "Imgurが英国プロキシ(ukproxy)経由で画像配信するようになり、URLやヘッダーを書き換えてリファラーやキャッシュ挙動を変えていることを検証。プライバシーやホットリンク運用への影響を解析し、別ホスティングなどの対処を提案。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T18:15:50.000Z",
-      "contentHash": "1b559d89421a"
     }
   ]
 }
