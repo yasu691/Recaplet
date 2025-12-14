@@ -1,77 +1,95 @@
 {
-  "generatedAt": "2025-12-14T06:37:56.391Z",
+  "generatedAt": "2025-12-14T07:30:24.162Z",
   "items": [
+    {
+      "id": "af580e3be9f9",
+      "title": "Uniposの検証環境を作って体験を届けた話 part1 | Unipos Tech Blogのフィード",
+      "url": "https://zenn.dev/unipos/articles/49cc71f87718c6",
+      "summary": "Unipos Advent Calendar 2025の11日目。プロダクト開発組織の組織開発担当・チャリが、執筆に慣れてきたことと、契約前の顧客が製品を直接触れない課題を解決するために検証チームを作り、セットアップや体験を確認した経緯を説明。Uniposは企業ごとに利用空間が分かれている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T05:41:44.000Z",
+      "contentHash": "aaa4c09bc5c7"
+    },
+    {
+      "id": "48a1dbe07f75",
+      "title": "「感覚的には分かる」と理解した気になっていた | 株式会社モニクルのフィード",
+      "url": "https://zenn.dev/monicle/articles/1590428b70b95b",
+      "summary": "モニクルAdvent Calendar 2025の13日目の記事。2025年4月に半年の育児休から復職し、復帰後はAIエージェント主体でコードを書かせ、自分は生成コードを読み微修正する開発に変化。生成コードは理解できるが、一から自分で書くのは難しいと感じた、という内容。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-14T05:26:08.000Z",
+      "contentHash": "042a9db29ba7"
+    },
     {
       "id": "6d0ec8d9b2f7",
       "title": "GitHub Actions のコストが思ったより高かったので、短期間でできる限り削減した話 | ゼスト Tech Blog",
       "url": "https://techblog.zest.jp/entry/2025/12/14/134528",
-      "summary": "GitHub Actions の費用を約38%削減。実行時間はほぼ維持し、コストの大半を占める高スペックカスタムランナーを ubuntu-latest に置換し、Renovate などの不要なCI実行を抑制して達成。即効性はランナー単価と無駄実行削減。",
+      "summary": "ゼストの菊池さんがGitHub Actionsの請求を38%削減した事例。費用=実行時間×ランナー単価×実行回数の式に基づき、実行時間の可視化と短縮、ランナー単価の見直し、実行回数削減の3軸で最適化した取り組みを紹介しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T04:45:28.000Z",
-      "contentHash": "d2dc97b0ae2f"
+      "contentHash": "5f7113c2ac4a"
     },
     {
       "id": "93f3b9502634",
       "title": "【AWS re:Invent 2025】AWSのエコシステムを支えるサードパーティの展示会 \"EXPO\" に潜入！〜FinOps編〜 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/reinvent2025-expo-finops",
-      "summary": "re:Invent2025のEXPOでFinOps注目。AIネイティブ化が進む中、ArcheraはRI/SPの長期縛りリスクを保険で解消し短期割引を提供。ProsperOpsはAIでRI/SPの売買を自動化し成果報酬型でコスト最適化。",
+      "summary": "AWSの最新動向を現地取材で報告。FinOps向けの注目クラウドサービスを厳選紹介し、AI導入・活用の進展と実務への影響を探るレポート。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T04:45:06.000Z",
-      "contentHash": "63ab260481e4"
+      "contentHash": "0deb3811b49c"
     },
     {
       "id": "3e134ee7968a",
       "title": "GWC2025 IN KOBE 参加レポート | SODA Engineering Blogのフィード",
       "url": "https://zenn.dev/team_soda/articles/go-workshop-conference-2025-in-kobe",
-      "summary": "Go Workshop Conference 2025（神戸）参加レポ。午前は低レベルなコンテナランタイム自作講座でOS視点の解説とハンズオン、午後はGoogle ADK for Goを使いAIエージェント作成を実践。資料公開やTinyGoブースも充実。",
+      "summary": "SODAのmagavelがAdvent Calendar14日目で、12/13開催の「Go Workshop Conference 2025 IN KOBE」参加レポートを掲載。通常のGoカンファレンスと異なり、ワークショップ主体で午前・午後に分かれていた点を中心に報告しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T04:30:01.000Z",
-      "contentHash": "a36996959ad4"
+      "contentHash": "7622639799ea"
     },
     {
       "id": "fb395690ddc0",
       "title": "TSにおけるモノレポ構成の最低限の設定と最適化のための技術を理解する | レバテック開発部のフィード",
       "url": "https://zenn.dev/levtech/articles/501bca9759a759",
-      "summary": "高瀬がTypeScriptモノレポの最低限設定と最適化を解説。pnpm workspaceでパッケージ境界を定義し、tsconfigのreferencesで依存・ビルド順を管理、pathsでエイリアス化。モノレポの定義やGoogleの大規模運用例も紹介。",
+      "summary": "レバテック開発部の高瀬が、TypeScriptでフロント/バックを統一しpnpm workspaceで運用しているモノレポを半年使った経験をもとに、最低限必要な設定や構成を改めて見直して解説する記事です。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T03:00:01.000Z",
-      "contentHash": "b79b92ba45f2"
+      "contentHash": "d254146f86a9"
     },
     {
       "id": "228ac80f638a",
       "title": "社内勉強会の継続には「振り返り」が効く気がする | atama plus techblogのフィード",
       "url": "https://zenn.dev/atamaplus/articles/69c3f482f1c700",
-      "summary": "atama plusのsuは、4〜5人で週1回の持ち回り勉強会を半年以上継続。特徴は「全員の発表が一巡したら必ず振り返り」を行い、メリハリとモチベ維持を図ること。発表は5分でも可・内容自由、スキップ禁止でハードルを下げ継続性を高めている。",
+      "summary": "atama plusのsuが、これまで消えがちだった持ち回り社内勉強会を今年5月から半年以上続けられた理由として、「定期的な振り返り」が効いていると考え、その事例と工夫を共有する話。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T03:00:01.000Z",
-      "contentHash": "7e58211061c2"
+      "contentHash": "fa814ec1ae90"
     },
     {
       "id": "9b913aae4cb1",
       "title": "14日目：テストを開発する ～最適なテスト設計プロセスの構築～ | NTT DATA TECHのフィード",
       "url": "https://zenn.dev/nttdata_tech/articles/6256b344a2255f",
-      "summary": "ソフトウェアテストを効率的かつ網羅的に行うため、テスト要求分析→テストアーキテクチャ設計→詳細設計→実装の4段階プロセスと、テスト観点や設計技法の活用を提唱。テスト設計コンテストや参考情報の更新も紹介。",
+      "summary": "ソフトウェアテストでは、仕様を書き写すだけの方法では欠陥を見逃すため、テストケース作成プロセスの整備が重要と論じる。テスト設計技法や分類、トレーサビリティ管理、効率化・自動化で網羅性と品質を高めるべきだと述べる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T03:00:01.000Z",
-      "contentHash": "d56b5acc64f6"
+      "contentHash": "4e5ab1fc276f"
     },
     {
       "id": "699dcf4f2538",
       "title": "Cloudflareではじめるドメイン運用のススメ | NFLabs. エンジニアブログ",
       "url": "https://blog.nflabs.jp/entry/2025/12/14/120000",
-      "summary": "Cloudflareを使った個人向けドメイン取得と運用ガイド。登録方法、DNS（CNAME/TXT）設定、Blueskyへのドメイン連携、WorkersやEmail Routingの活用法、更新忘れによる権利喪失の注意点を解説。",
+      "summary": "NFLaboratories Advent Calendar 2025・4日目。著者Zerostearが個人向けにドメインの購入・運用方法を解説。DNS確認、Blueskyへの独自ドメイン設定、CloudflareのWorkersやEmail Routingの利用法と注意点を紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T03:00:00.000Z",
-      "contentHash": "964566d49f40"
+      "contentHash": "0cbf0d7c5d9c"
     },
     {
       "id": "00be6e3dcc93",
       "title": "技術で支えた「freee 技術の日 2025」 | freee Developers Hub",
       "url": "https://developers.freee.co.jp/entry/tech-of-freee-tech-day-2025",
-      "summary": "freee 技術の日 2025では、セッション情報を単一のJSONファイルをSSOTとして管理。TypeSpecでスキーマを定義しJSON Schema・OpenAPIを生成、AjvとGitHub Actionsで検証、PR運用で整合性を保ちAPI公開し運営コストと誤差を削減した。",
+      "summary": "freeeのエンジニア兼Dev Branding、けむりだまが綴るAdvent Calendar第14回。11/30開催の技術カンファレンス「freee 技術の日 2025」を支えた技術や、目まぐるしく変わるセッション情報への対応について紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-14T03:00:00.000Z",
-      "contentHash": "c21eb1889c6d"
+      "contentHash": "df46183e0a3a"
     },
     {
       "id": "14ce487f92ff",
@@ -299,13 +317,22 @@
       "contentHash": "cb6012d39a4a"
     },
     {
+      "id": "861eb7d34d9f",
+      "title": "Some surprising things about DuckDuckGo",
+      "url": "https://gabrielweinberg.com/p/some-surprising-things-about-duckduckgo",
+      "summary": "DuckDuckGoにはマスコットDaxのイースターエッグロゴが多数ありコミュニティが収集。Google所有は誤り（duck.comは2018年取得）。2014年以降中国で遮断、2008年創業の独立企業で独自検索索引やナレッジグラフを長年構築している。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-13T21:57:28.000Z",
+      "contentHash": "84d9f3750eb5"
+    },
+    {
       "id": "d7da10e7b103",
       "title": "Gemini 2.5 TTS のプロンプトガイド",
       "url": "https://note.com/npaka/n/n5402bf2851d0",
-      "summary": "Gemini 2.5 TTSは「何を話すか」だけでなく「どう話すか」まで指定できる。プロンプトはAudio Profile（人物）、Scene（場面）、Director’s Notes（演技指示）、文脈と台本を揃え、「誰が・何を・どう話すか」を一致させると自然で感情豊かな音声が得られる。",
+      "summary": "Gemini 2.5 TTSのプロンプト設計ガイド。発声・声質・抑揚の指定方法、サンプル例、フォーマットや制御手法、実践的なコツと注意点をまとめています。",
       "source": "npaka",
       "publishedAt": "2025-12-13T21:32:47.000Z",
-      "contentHash": "1de965f9bbc2"
+      "contentHash": "be479b81c660"
     },
     {
       "id": "44da3c600b1b",
@@ -320,10 +347,10 @@
       "id": "5db69fb85710",
       "title": "Want to sway an election? Here’s how much fake online accounts cost",
       "url": "https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost",
-      "summary": "研究はソーシャルメディア上の偽アカウントで選挙を動かすのに必要な数と費用を推計。接戦ほど少数かつ低コストで影響可能だが、規模やプラットフォーム対策で必要資金は大きく増加。偽情報対策と透明性の重要性を示す。",
+      "summary": "研究者らは偽アカウントやボットを使った世論操作の費用を推計。標的や規模でコストが大きく変わり、接戦では比較的低コストで影響可能。検出対策で費用は上がり、選挙保護の政策強化が必要と指摘している。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T20:48:09.000Z",
-      "contentHash": "a7faf85c0b0c"
+      "contentHash": "3d32f699e1c6"
     },
     {
       "id": "e27b805ab052",
@@ -374,10 +401,10 @@
       "id": "1458a21b4248",
       "title": "Are we stuck with the same Desktop UX forever? [video]",
       "url": "https://www.youtube.com/watch?v=1fZTOjd_bOQ",
-      "summary": "外部サイトに直接アクセスできないため、該当動画の字幕か要旨、HNのコメント重要箇所を貼ってください。それをもとに200文字以内で日本語要約します。代替で主要ポイントを書いていただければ要約します。",
+      "summary": "外部リンクへはアクセスできないため、直接要約できません。動画の要約か文字起こし、あるいはHNコメントの要点を貼ってください。いただければ200字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-13T18:39:53.000Z",
-      "contentHash": "ae4170f4f40f"
+      "contentHash": "0260374af458"
     },
     {
       "id": "1e27f4eb4417",
@@ -3038,10 +3065,10 @@
       "id": "c308764f76db",
       "title": "ChatGPT からの Photoshop を試す",
       "url": "https://note.com/npaka/n/n884da273286c",
-      "summary": "ChatGPTからAdobe Photoshopが利用可能に。選択編集、明るさ・色調整、エフェクト、背景ぼかし/削除、元に戻す等に対応。@adobeでPhotoshopを選び画像を追加→指示（例「背景を透過して」）→接続許可→結果を確認しダウンロード。",
+      "summary": "ChatGPT内にAdobe Express・Photoshop・Acrobatが統合され、チャットからデザイン・画像・文書を直接編集可能に。筆者がChatGPT経由のPhotoshopを試し、操作感や主な機能をまとめています。",
       "source": "npaka",
       "publishedAt": "2025-12-11T06:04:12.000Z",
-      "contentHash": "a7db0f953783"
+      "contentHash": "616277431746"
     },
     {
       "id": "ba511f64a3e7",
@@ -5360,10 +5387,10 @@
       "id": "7e983d2c4634",
       "title": "Android XR SDK Developer Preview 3 の概要",
       "url": "https://note.com/npaka/n/nbc9cb6f50d5b",
-      "summary": "Android XR SDK Developer Preview 3を公開。AIグラス向けのAugmented Experiences対応としてJetpack ProjectedとJetpack Compose Glimmer、AIグラスエミュレータやARCore拡張を追加し、SceneCoreやCompose for XRなどXRライブラリも強化しました。",
+      "summary": "Android XR SDK Developer Preview 3は、AIグラス向け開発を強化するプレビュー版です。没入型体験を実現する新機能やAPI、レンダリング・入力・性能の改善、開発ツールやサンプルを提供します。",
       "source": "npaka",
       "publishedAt": "2025-12-09T11:07:27.000Z",
-      "contentHash": "b55948176623"
+      "contentHash": "cc5c2b3d7451"
     },
     {
       "id": "a70f6dc6e989",
@@ -8973,33 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-11-28T17:19:32.000Z",
       "contentHash": "8c8cce0803e4"
-    },
-    {
-      "id": "0c47350b8e61",
-      "title": "Black Friday deals on chargers and power banks we love from Anker and more",
-      "url": "https://www.theverge.com/gadgets/831598/black-friday-2025-chargers-power-banks-batteries-deal-sale",
-      "summary": "Black FridayでTwelve SouthのHiRise 3 Deluxeが$59.99。30W USB‑Cや3-in-1ワイヤレス充電器、Qi2磁気対応製品がAnkerやUgreen、Baseusなどで割引中。高速充電やケーブル整理に最適。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T17:15:00.000Z",
-      "contentHash": "8442c4590263"
-    },
-    {
-      "id": "2995304e6b4e",
-      "title": "Bringing Sexy Back. Internet surveillance has killed eroticism",
-      "url": "https://lux-magazine.com/article/privacy-eroticism/",
-      "summary": "申し訳ありませんが、外部URLの内容を直接参照できません。記事本文を貼っていただければ、200字以内で要約します。コメント要約も可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-28T17:05:31.000Z",
-      "contentHash": "2cd04c188b12"
-    },
-    {
-      "id": "de6363a4bf09",
-      "title": "These Lego kits for kids and adults are up to 50% off for Black Friday",
-      "url": "https://www.theverge.com/gadgets/831898/these-lego-kits-for-kids-and-adults-are-up-to-50-off-for-black-friday",
-      "summary": "屋内のホリデーにおすすめのレゴ特集。ブラックフライデーで値下げ中のPAC‑MANアーケード、ローラーコースター、クリスマスキャンドル、火星探査車、バトルドロイド、サイ、シンバなど多彩なセットを紹介。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-28T17:03:25.000Z",
-      "contentHash": "b973d93415b9"
     }
   ]
 }
