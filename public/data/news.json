@@ -1,6 +1,231 @@
 {
-  "generatedAt": "2025-12-15T08:56:34.841Z",
+  "generatedAt": "2025-12-15T16:50:12.605Z",
   "items": [
+    {
+      "id": "d8132d08b5d1",
+      "title": "GNOME bans AI-generated extensions",
+      "url": "https://www.theverge.com/news/844655/gnome-linux-ai-shell-extensions-ban",
+      "summary": "GNOMEが拡張機能の審査基準を改定し、AIが主に生成した拡張は拒否すると明記。AIは補助ツールとしては可だが、不要なコードや悪い実装が増え審査遅延を招いたため。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T16:17:43.000Z",
+      "contentHash": "e87b0e3d4432"
+    },
+    {
+      "id": "559236d7c86d",
+      "title": "Merriam-Webster’s 2025 word of the year is ‘slop’",
+      "url": "https://www.theverge.com/news/844640/merriam-webster-ai-slop-word-of-the-year-2025",
+      "summary": "Merriam‑Websterが2025年の単語に「slop」を選出。AIで大量生産される低品質なデジタルコンテンツを指し、YouTubeやWikipedia等は対策、MetaやOpenAI、Disneyらは活用や提携を進めた。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T16:01:53.000Z",
+      "contentHash": "a193325986e1"
+    },
+    {
+      "id": "aa8fce94cc5c",
+      "title": "The Meta Quest 3S is $50 off and is bundled with a $50 gift card and game",
+      "url": "https://www.theverge.com/gadgets/844643/meta-quest-3s-echo-show-11-deal-sale",
+      "summary": "Best BuyとTargetがMeta Quest 3Sを128GBモデル約$249（$50引）＋$50ギフトカードで販売。Best Buyは『The Walking Dead: Saints & Sinners』同梱、TargetはHorizon Plus3か月体験付き。256GB版は$349.99で$50カードと『Batman: Arkham Shadow』＋Horizon Plus3か月。Echo Show 11やSamsung P9 microSDもセール中。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T16:01:13.000Z",
+      "contentHash": "c4b2e935e3c7"
+    },
+    {
+      "id": "5f2316f10f00",
+      "title": "Stack Overflow users don’t trust AI. They’re using it anyway",
+      "url": "https://www.theverge.com/podcast/844073/stack-overflow-ceo-ai-coding-chatgpt-code-red-interview",
+      "summary": "The Vergeの対談でStack Overflow CEOプラサント・チャンドラセカールは、ChatGPT登場が同社にとって「存在論的」転機になったと語る。AIがコードや回答を大量生成し品質低下を招き、ユーザーはAIを信用しない一方で利用を続けている。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T15:30:00.000Z",
+      "contentHash": "a4c9096e469d"
+    },
+    {
+      "id": "491e0c5717ef",
+      "title": "Camel で header/variable を使い分ける | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/cac20251216",
+      "summary": "Apache Camelでheaderとvariableの使い分けを解説。メッセージ固有はheader、ルーティング中のアプリケーションデータはCamel4のvariableを推奨。variableはExchange/Route/Globalのスコープ管理やSimple式・パラメータバインディングに対応し、内部制御との衝突を避け保守性を向上する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T15:00:00.000Z",
+      "contentHash": "4a4860b6a9aa"
+    },
+    {
+      "id": "11a83b658dc2",
+      "title": "年齢・学年計算を正しく実装するための法的基礎 | hacomono TECH BLOG",
+      "url": "https://techblog.hacomono.jp/entry/2025/12/16/000000",
+      "summary": "hacomono Advent Calendar 2025の16日目。プロダクトエンジニアのタクが、習い事向けサービスで必要になる年齢・学年計算（4月1日基準や2月29日の扱いなど）の疑問を整理し、実装で使える計算ロジックをリファレンスとしてまとめた記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T15:00:00.000Z",
+      "contentHash": "5fef7d049765"
+    },
+    {
+      "id": "bd1c2551efbb",
+      "title": "“作る”だけではAIは動かない。開発者が知らない現場実装のリアル | テコテック開発者ブログ",
+      "url": "https://tec.tecotec.co.jp/entry/2025/12/16/000000",
+      "summary": "TECOTEC Advent Calendar 2025の16日目。BPR事業部の石田が、生成AIを一般企業へ導入する際、技術より重要なのは「現場が動く前提」を整えることで、理解・意欲・習慣の三つの壁を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T15:00:00.000Z",
+      "contentHash": "0cbf75377ad6"
+    },
+    {
+      "id": "2685cd0200d1",
+      "title": "AIスマートグラスアプリ開発からAIとXRの関わり方を考える | NEXTSCAPE blog",
+      "url": "https://blog.nextscape.net/archives/2025/12/16/000000",
+      "summary": "Device Frontierの道下です。XRアプリ開発者が今年の注目を回顧。生成AIはツールから自律エージェントへ進化し、Android XR端末やRay‑Ban Meta Displayなど人とのインタフェースとなるデバイスが登場。今回はRay‑Ban Metaと今月公開された…を取り上げます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T15:00:00.000Z",
+      "contentHash": "d1056ac0254a"
+    },
+    {
+      "id": "586bf14b02fb",
+      "title": "新入社員が基礎理解に使うAIプロンプト5選！ | NEXTSCAPE blog",
+      "url": "https://blog.nextscape.net/archives/2025/12/16/000000_1",
+      "summary": "新卒の山中です。生成AIで成果は出せる一方、基礎理解が追いつかず不安があるため、AIを活用しつつ理解を重視して学ぶ方法や使用ツールを紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T15:00:00.000Z",
+      "contentHash": "bafad9e3fe1c"
+    },
+    {
+      "id": "52ce8e705c1b",
+      "title": "AIは「便利ツール」から、チームのコミュニケーションを変え得る「通訳者（L8以上の層）」へ | フォトシンス エンジニアブログ",
+      "url": "https://akerun.hateblo.jp/entry/2025/12/16/ai_tool_to_l8",
+      "summary": "著者はAIを「便利ツール」からチームの「通訳者」へ進化させた運用を紹介。要約を鵜呑みにせず一次情報に戻る、AI出力は明示ラベルと確信度(R/Y/G)を付与、ルール化して文脈依存性を扱い判断は人間が保持する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T15:00:00.000Z",
+      "contentHash": "2eea7c9a3342"
+    },
+    {
+      "id": "57c82b41e15e",
+      "title": "ECSのメンテナンスイベントでタスクが復活しなかった話 | FURYU Tech Blog - フリュー株式会社",
+      "url": "https://tech.furyu.jp/entry/202512160000",
+      "summary": "フリューの森兼さんが、ECSの保守イベント（AWS_ECS_TASK_PATCHING_RETIREMENT）でタスク再起動が発生したことをきっかけに、コンテナイメージ運用を見直した経緯を紹介。夜間の起動失敗など「第一の事件」「第二の事件」の原因と対策、考察をまとめている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T15:00:00.000Z",
+      "contentHash": "4c92c753f09f"
+    },
+    {
+      "id": "9c1b5317759e",
+      "title": "Web技術でAIキャラクターを使ってAIエージェントを作成するためのOSSの紹介 | 弁護士ドットコム株式会社 Creators’ blog",
+      "url": "https://creators.bengo4.com/entry/2025/12/16/000000",
+      "summary": "弁護士ドットコムの井出が、Advent Calendar 2025（16日目）でWeb技術を使いAIキャラクターからAIエージェントを作るOSSを紹介。従来のUnity+DifyはWeb開発者に難しいとの指摘があったため、より扱いやすいWeb寄り手法を提案。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T15:00:00.000Z",
+      "contentHash": "81edd2942541"
+    },
+    {
+      "id": "faf96fbd8a74",
+      "title": "食べログ老人会 × Z世代！？ 入社14年目と若手が語り尽くす、激動の技術変遷 | Tabelog Tech Blog",
+      "url": "https://tech-blog.tabelog.com/entry/advent-calendar-20251216",
+      "summary": "食べログ20周年を受け、著者e-ronnyがオンプレ時代からクラウドネイティブ、AI時代への変遷と、継ぎ足しで続けたシステム運用や技術的負債を振り返る記事（食べログアドベントカレンダー2025・16日目）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T15:00:00.000Z",
+      "contentHash": "17c764bfe399"
+    },
+    {
+      "id": "abb202f65af8",
+      "title": "I tested a 5K monitor that’s over $1,000 less than Apple’s Studio Display: It’s good enough",
+      "url": "https://www.theverge.com/gadgets/842650/5k-monitor-ktc-h27p3-mac-os-review",
+      "summary": "KTCの27インチ5Kモニター「H27P3」を検証。217ppiで表示は良好。AppleのStudio Display（$1,599）より1,000ドル以上安く、最安$355。高級機ほど機能はないが予算重視なら十分。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T14:54:32.000Z",
+      "contentHash": "f6cf96c217a3"
+    },
+    {
+      "id": "e7fff48b11dc",
+      "title": "Thousands of U.S. farmers have Parkinson's. They blame a deadly pesticide",
+      "url": "https://www.mlive.com/news/2025/12/thousands-of-us-farmers-have-parkinsons-they-blame-a-deadly-pesticide.html",
+      "summary": "ミシガンの果樹農家ポール・フライデーは長年の除草剤パラクワット散布後にパーキンソン病を発症し因果を主張。英中などで禁止される一方、製造元シンジェンタは米国で販売継続、訴訟が相次ぎ禁止を求める声が強まっている。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T14:37:12.000Z",
+      "contentHash": "f857d569483d"
+    },
+    {
+      "id": "d0bb37dc7efb",
+      "title": "Carrier Landing in Top Gun for the NES",
+      "url": "https://relaxing.run/blag/posts/top-gun-landing/",
+      "summary": "外部サイトへ直接アクセスできないため、記事本文を貼るか主要箇所をコピペしてください。貼れない場合は、要約したい範囲やポイントを教えてください。200字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T14:16:32.000Z",
+      "contentHash": "752f61f5fadf"
+    },
+    {
+      "id": "f2972f4045f7",
+      "title": "Musicians are getting really tired of this AI clone ‘bullshit’",
+      "url": "https://www.theverge.com/report/844454/musicians-tired-of-ai-clones",
+      "summary": "AIによる歌声クローンに音楽家らが激怒し、「恥知らず」「許せない」などと非難。偽曲への反発が具体的行動に発展しつつあり、ウィリアム・バシンスキーは現状を「めちゃくちゃ」と評している。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T14:00:00.000Z",
+      "contentHash": "ab73c2db2616"
+    },
+    {
+      "id": "a846653b60cc",
+      "title": "Azure WAFのJavaScript チャレンジ機能を試してみた | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2025/12/15/215321",
+      "summary": "公文の娘が友達とのおしゃべりを「注意する」ではなく席を離す仕組みで解決したことに感心した筆者の話。オルターブース2025アドベントカレンダー16日目の記事で、前日はGHAS＋Defender、15日目はGitHub Copilotの自動モデル選択の記事があった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T12:53:21.000Z",
+      "contentHash": "6e2833e91d93"
+    },
+    {
+      "id": "6504470a85d1",
+      "title": "Kindle app now answers questions about the book you’re reading",
+      "url": "https://www.theverge.com/news/844538/kindle-app-ask-this-book-ai-ios",
+      "summary": "AmazonのKindleアプリにAI機能「Ask this Book」が導入。読んだページのみを参照してプロットや登場人物、テーマに関するスポイラーなしの回答を提供。著者はオプトアウト不可で、回答は購入・レンタルした読者限定、コピー・共有不可。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T12:12:41.000Z",
+      "contentHash": "3de4a9476000"
+    },
+    {
+      "id": "5ee4cfcfb800",
+      "title": "I'm Kenyan. I Don't Write Like ChatGPT. ChatGPT Writes Like Me",
+      "url": "https://marcusolang.substack.com/p/im-kenyan-i-dont-write-like-chatgpt",
+      "summary": "著者はケニア人として、自分の独特な語り口や文化的ニュアンスはChatGPTに再現できないと指摘。AIは表現を均質化し現地の声を消す危険があり、多様な実人の言葉を尊重すべきだと訴える。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T12:12:24.000Z",
+      "contentHash": "5834d9e50085"
+    },
+    {
+      "id": "f84c6ab5e4ae",
+      "title": "Feeding the machine",
+      "url": "https://www.theverge.com/cs/features/831818/ai-mercor-handshake-scale-surge-staffing-companies",
+      "summary": "AGI開発で膨大な学習データが必要になり巨額支出に。需用を受けMercorやHandshakeなどの小さな企業がデータ・人材供給で急成長。Mercorは自動化人材派遣で年商約5億ドルに達した。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T12:00:00.000Z",
+      "contentHash": "2dea00610bc0"
+    },
+    {
+      "id": "d65b35ee7057",
+      "title": "Avoid UUIDv4 Primary Keys",
+      "url": "https://andyatkinson.com/avoid-uuid-version-4-primary-keys",
+      "summary": "PostgresでUUID v4を主キーにするとランダム性でインデックス分断・ページスプリットが起き、挿入遅延・IO増大・キャッシュ低下を招く。誤解も多く、対策はあるが基本は整数シーケンス／bigintや時間順UUID(v7)を推奨。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T10:08:02.000Z",
+      "contentHash": "9c5b02785bb4"
+    },
+    {
+      "id": "70476c61c045",
+      "title": "Starlink and Chinese satellites nearly collided last week",
+      "url": "https://www.theverge.com/news/844502/starlink-and-chinese-satellites-nearly-collided-last-week",
+      "summary": "中国が酒泉から打ち上げた衛星9基が展開され、軌道情報の共有や協調が行われなかったため、560km付近でスターリンク衛星と約200mまで接近し、SpaceXが衝突寸前と非難した。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T09:53:29.000Z",
+      "contentHash": "97c8e6ada881"
+    },
+    {
+      "id": "0a2a374e9a2a",
+      "title": "Who is Picea Robotics, Roomba’s new owner?",
+      "url": "https://www.theverge.com/news/844474/who-is-picea-robotics-company-owns-irobot",
+      "summary": "iRobotはチャプター11を申請。中国のODM大手Picea Robotics（3irobotix）が1.9億ドルの借入と約1.615億ドルの未払製造代金を放棄してiRobotを買収。Piceaは多社向け生産と自社3iブランドを展開。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T08:52:45.000Z",
+      "contentHash": "b5d38cf55034"
+    },
+    {
+      "id": "b6c6fdb4c55a",
+      "title": "Photoshop の 生成アップスケール",
+      "url": "https://note.com/npaka/n/n95adb59fbef2",
+      "summary": "Photoshopの生成アップスケールはTopazなどのAIモデルで低解像度画像を高品質化。操作は「イメージ→アップスケール」でモデルと倍率を選ぶ。Firefly（自然・最大約37MP）、Topaz Gigapixel（高精細・最大約56MP）、Topaz Bloom（創造的・最大約9MP）。クレジットはAdobeアカウントで確認、フォトプランは契約日で月100/250クレジット。",
+      "source": "npaka",
+      "publishedAt": "2025-12-15T08:41:06.000Z",
+      "contentHash": "18f9435aefbf"
+    },
     {
       "id": "96e06f0ffb74",
       "title": "dependabot PRのAI自動レビューをCI完了後に実施させる | Timee Product Team Blog",
@@ -32,10 +257,10 @@
       "id": "8a962fb7f688",
       "title": "HuggingFace Diffusers v0.36.0の新機能",
       "url": "https://note.com/npaka/n/n7d2c63951f1d",
-      "summary": "Diffusers v0.36.0は多数の新画像（Flux2等）・動画（Sana‑Video等）パイプラインを追加。Flash Attention 3/2・SAGEのカーネルアテンション対応、TaylorSeerで最大3倍高速化、Flux.2統合の学習スクリプト（LoRA対応）を導入。",
+      "summary": "Diffusers v0.36.0では、Flux2やZ‑Image、QwenImage Edit Plus、Bria FIBOなど多数の新画像パイプラインとSana‑Video、Kandinsky5、Hunyuan等の動画モデルを追加。Flash Attention 2/3やSAGEのカーネルバックエンド導入で高速化、TaylorSeerキャッシュで最大3倍速、Flux.2統合のLoRA学習スクリプトも提供。",
       "source": "npaka",
       "publishedAt": "2025-12-15T06:28:43.000Z",
-      "contentHash": "4230ea4c2ced"
+      "contentHash": "fec955142354"
     },
     {
       "id": "2511a295f24c",
@@ -108,6 +333,60 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-15T05:27:32.000Z",
       "contentHash": "9ebf61c1481b"
+    },
+    {
+      "id": "c69cf8e18284",
+      "title": "Read Something Wonderful",
+      "url": "https://readsomethingwonderful.com/",
+      "summary": "外部サイトに直接アクセスできないため、記事本文を貼り付けるか主要な抜粋・要点を教えてください。いただければ200文字以内で日本語要約を作成します。HNのコメント要約も同様に対応可。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T04:15:21.000Z",
+      "contentHash": "ceb128112e9c"
+    },
+    {
+      "id": "5a76b3307e0a",
+      "title": "The Whole App is a Blob",
+      "url": "https://drobinin.com/posts/the-whole-app-is-a-blob/",
+      "summary": "著者は現代のアプリが「巨大なBlob」──全機能を一つの大きな配布物（大バンドル、単一デプロイ）で送る問題を指摘。読み込み遅延・キャッシュ非効率・運用複雑化を挙げ、細分化、コンテンツアドレッシング、部分レンダリング／SSR、小さなチャンク配信、HTTPキャッシュ活用など設計転換を提案。HNでは実装手法や既存フレームワークへの影響が議論された。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T04:09:51.000Z",
+      "contentHash": "89d067d187eb"
+    },
+    {
+      "id": "d486312c4e4c",
+      "title": "Arborium: Tree-sitter code highlighting with Native and WASM targets",
+      "url": "https://arborium.bearcove.eu/",
+      "summary": "外部リンク先のページを直接参照できないため、記事本文をここに貼っていただくか、主要ポイントを教えてください。いただければ200文字以内の日本語要約を作成します。コメント要約も希望なら併記してください。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T03:57:46.000Z",
+      "contentHash": "8cb2774a8753"
+    },
+    {
+      "id": "0f2e3a4c2309",
+      "title": "Unscii",
+      "url": "http://viznut.fi/unscii/",
+      "summary": "UNSCIIは小さなピクセル格子での判読性を重視したビットマップ等幅フォント集。複数サイズ・ウェイトとUnicodeグリフを備え、BDF/PNG/OTF等で配布。ローグライクやターミナル、レトロ表現向けに設計されたオープンソースフォントです。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T03:55:07.000Z",
+      "contentHash": "265f62b80bca"
+    },
+    {
+      "id": "da19173a1f04",
+      "title": "Rob Reiner has died",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/rob-reiner-dead-harry-met-sally-princess-bride-all-in-family-1236450387/",
+      "summary": "外部リンクに直接アクセスできないため、記事を取得できません。記事本文か主要段落を貼り付けていただければ、200文字以内で日本語要約します。主要ポイントを教えていただければ要約も可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T03:54:03.000Z",
+      "contentHash": "8d4a938de0a9"
+    },
+    {
+      "id": "a91598cc0358",
+      "title": "John Varley has died",
+      "url": "http://floggingbabel.blogspot.com/2025/12/john-varley-1947-2025.html",
+      "summary": "SF作家ジョン・ヴァーリー（1947–2025）の訃報を伝える記事。八つの世界を舞台にした作品群や『オフィウキ・ホットライン』などの代表作、性や身体変容を扱う独自の作風、多数の受賞と文学界への影響を振り返っている。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T03:04:50.000Z",
+      "contentHash": "d299234cb478"
     },
     {
       "id": "0c586532b81e",
@@ -500,10 +779,10 @@
       "id": "9facfec4eba1",
       "title": "Nano Banana Pro と Sora2 でアニメーション作成を試す",
       "url": "https://note.com/npaka/n/nd3300b886513",
-      "summary": "Nano Banana ProとSora2でアニメ制作を試行。Nano Banana Pro＋Geminiでそらみ＆へにへにのクレイ風ストーリーボードを作成。AIロボットがメガドライブカートリッジを量産し埋もれる展開を、9カット（約12–18秒）での絵コンテ・撮影指示と3×3コンタクトシート形式で設計しました。",
+      "summary": "Nano Banana ProとSora2でアニメ制作を試行。Nano Banana ProでGeminiベースのカスタムプロンプトによりストーリーボード作成。そらみ＆へにへにの設定で台詞なしクレイアニメの9ショット（約12–18秒）構成、各フレーム指示と3×3コンタクトシート作成手順をまとめ。",
       "source": "npaka",
       "publishedAt": "2025-12-14T07:36:51.000Z",
-      "contentHash": "157cd684e4b6"
+      "contentHash": "30c2f73b4864"
     },
     {
       "id": "79b54061b018",
@@ -878,10 +1157,10 @@
       "id": "d7da10e7b103",
       "title": "Gemini 2.5 TTS のプロンプトガイド",
       "url": "https://note.com/npaka/n/n5402bf2851d0",
-      "summary": "Gemini 2.5 TTSは「何を話すか」だけでなく「どう話すか」まで指定可能。キャラクター・場面・演技指示（速度・強弱・息遣い・アクセント）をAudio Profile/Scene/Director's Notes/Sample Context/Transcriptで整えると、自然で感情豊かな音声が生成される。",
+      "summary": "Gemini 2.5 TTS向けのプロンプトガイドをまとめた記事。音声生成で使うプロンプト例や提示法、設定のコツを紹介している。",
       "source": "npaka",
       "publishedAt": "2025-12-13T21:32:47.000Z",
-      "contentHash": "2bc0f1e2be79"
+      "contentHash": "be479b81c660"
     },
     {
       "id": "44da3c600b1b",
@@ -1148,10 +1427,10 @@
       "id": "1c4777a70a55",
       "title": "Gemini 2.5 Flash Native Audio の概要",
       "url": "https://note.com/npaka/n/n78b9a1a0ce0f",
-      "summary": "「Gemini 2.5 Flash Native Audio」を発表。ライブ音声エージェント向けに関数呼び出し精度（ComplexFuncBench 71.5%）、指示追従率84→90%、多ターン会話が改善。AI Studio/Vertex/Gemini Live/Search Liveで利用可能。ヘッドフォン対応のライブ音声翻訳（70言語以上・2000超の言語ペア、自動検出・話者の抑揚保持）をGoogle翻訳アプリでベータ提供。",
+      "summary": "GoogleのGemini音声モデルが改良され、自然で高精度な音声理解・生成を実現。低遅延や雑音耐性、多言語対応で、会話型アシスタントや音声アプリの体験を大幅に向上させる。",
       "source": "npaka",
       "publishedAt": "2025-12-13T13:25:23.000Z",
-      "contentHash": "b3bf9cea88b6"
+      "contentHash": "edf6e4fba73a"
     },
     {
       "id": "98bf0fab2c4c",
@@ -2480,10 +2759,10 @@
       "id": "9f7e2457935f",
       "title": "GPT-5.2 の概要",
       "url": "https://note.com/npaka/n/n7a4bdf31d37a",
-      "summary": "OpenAIがGPT-5.2を公開。汎用知能・長文コンテキスト（約40万トークン）・視覚解析・エージェント連携が強化され、実務向け能力が向上。Instant/Thinking/Proの3種、APIはトークン従量課金。知識カットオフは2025/08/31。",
+      "summary": "OpenAIがGPT-5.2を発表。汎用知能や長文理解（約40万トークン）、ツール指示／視覚解析が強化され、実務的タスクに強い。Instant/Thinking/Proの3種と従量課金API（高性能版は高額）。知識カットオフは2025/08/31。",
       "source": "npaka",
       "publishedAt": "2025-12-12T04:02:38.000Z",
-      "contentHash": "f773f43d3484"
+      "contentHash": "12f3521a4103"
     },
     {
       "id": "b9ee4f8196e1",
@@ -3164,10 +3443,10 @@
       "id": "8b24f6f5fac4",
       "title": "Interactions API の概要 - Google のモデルとエージェントの統合基盤",
       "url": "https://note.com/npaka/n/n671c92a70e5d",
-      "summary": "「Interactions API」はGeminiモデルと組み込み/カスタムエージェントを統合する単一のRESTインターフェースで、サーバー側状態管理、思考・ツール・メッセージの解釈可能な履歴、バックグラウンド実行、MCPツール対応を備え、開発者向けにパブリックベータで提供されています。",
+      "summary": "記事本文が貼られていないようです。全文かURLを送っていただければ200文字以内で要約します。もしよければ、OpenAIの「Interactions API」に関する一般的な要点（統一APIでモデルとエージェントを連携、マルチモーダル対応、ツール呼び出しや対話管理の簡素化等）で200文字要約を作成しても構いません。その場合要約を今すぐ作りますか？",
       "source": "npaka",
       "publishedAt": "2025-12-11T17:49:20.000Z",
-      "contentHash": "da2229d01963"
+      "contentHash": "697273d86940"
     },
     {
       "id": "c0344b99cf81",
@@ -4064,10 +4343,10 @@
       "id": "fbd9a28c3708",
       "title": "Gemini 2.5 TTS のアップデート - 2025年12月10日",
       "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "Gemini 2.5 Flash/ProのTTSプレビューが大幅強化され、表現力とスタイル忠実度が向上、状況に応じたペース制御や複数話者の音声一貫性を改善。低遅延版と高品質版を提供し、24言語対応。",
+      "summary": "Geminiのテキスト音声合成を改良し、声質・抑揚・話速などの細かな制御や表現力、音声品質と多言語対応を向上させ、開発者向けのカスタマイズ機能を強化する内容。",
       "source": "npaka",
       "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "a53a9ccade13"
+      "contentHash": "0c872963649c"
     },
     {
       "id": "61a85cfbb5d3",
@@ -8721,285 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-11-29T23:00:00.000Z",
       "contentHash": "148170e459fd"
-    },
-    {
-      "id": "c1afc43f5cfa",
-      "title": "Americans no longer see four-year college degrees as worth the cost",
-      "url": "https://www.nbcnews.com/politics/politics-news/poll-dramatic-shift-americans-no-longer-see-four-year-college-degrees-rcna243672",
-      "summary": "NBCの世論調査で、米国民の間に「4年制大学は成功に必須ではない」という大きな意識の変化が確認され、職業訓練や短大、スキル重視の道が支持を集めるようになった。学費負担や学生ローン、企業の学歴不問採用が背景で、党派や年齢で見方に差がある。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T22:56:14.000Z",
-      "contentHash": "8efa41faa092"
-    },
-    {
-      "id": "f9f2245764f5",
-      "title": "The best gaming headset I tried this year is $60 off for Black Friday",
-      "url": "https://www.theverge.com/gadgets/829932/wireless-pc-gaming-headset-fractal-scape-deal-sale-black-friday",
-      "summary": "Fractalのワイヤレスヘッドセット「Scape」はPC/Switch2対応で、充電ドック、高音質、北欧デザイン、ブラウザ設定と独特の音量ノブが魅力。ANCや同時2.4GHz/Bluetooth接続、イヤーカップ回転は非対応だが、現在$139.99でお買い得。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T22:48:25.000Z",
-      "contentHash": "9a210b70841c"
-    },
-    {
-      "id": "54ce536bf247",
-      "title": "Bazzite: The next generation of Linux gaming",
-      "url": "https://bazzite.gg/",
-      "summary": "申し訳ありませんが、外部リンク先の内容を直接取得できません。記事本文を貼り付けるか主要ポイントを教えていただければ、200文字以内の日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T22:22:24.000Z",
-      "contentHash": "d93b6c5db3ff"
-    },
-    {
-      "id": "88ebdcd9c55e",
-      "title": "Landlock-Ing Linux",
-      "url": "https://blog.prizrak.me/post/landlock/",
-      "summary": "Landlockは非特権ユーザーがプロセスのファイルアクセスを細かく制限できるLinuxのLSM。ルールセットを作成して自身に適用し、読み書き・実行・作成などを指定。seccompと補完的に動作し、導入例や実装上の制約（カーネル版本要件や一度制限すると緩和不可など）を解説している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T21:30:53.000Z",
-      "contentHash": "e9be3073e8c3"
-    },
-    {
-      "id": "2d3a0b08ac3e",
-      "title": "I tested 15 cases for the Switch 2 and these are the best",
-      "url": "https://www.theverge.com/reviews/691319/best-switch-2-cases",
-      "summary": "著者は発売後のSwitch 2用ケースを多数検証。携帯・ドック両用で保護性と汎用性が高いDbrand Killswitchを総合1位に選び、携行ケースはケーブルやカートリッジ収納など利便性を重視するとまとめています。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T21:27:33.000Z",
-      "contentHash": "48988520fc0b"
-    },
-    {
-      "id": "b7c4a6f4eb7c",
-      "title": "Europe's New War on Privacy",
-      "url": "https://unherd.com/2025/11/europes-new-war-on-privacy/",
-      "summary": "申し訳ありませんが外部ウェブページに直接アクセスできません。記事本文を貼るか主要ポイントを教えていただければ、200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T21:10:15.000Z",
-      "contentHash": "8ab831d40c06"
-    },
-    {
-      "id": "daae6d82744c",
-      "title": "The Fujifilm X Half is on sale for what it should have originally cost",
-      "url": "https://www.theverge.com/gadgets/833668/fujifilm-x-half-camera-price-black-friday-cyber-monday",
-      "summary": "富士フイルムX Halfは1型センサーと32mm相当f/2.8固定レンズ搭載のレトロ志向コンパクトデジタルカメラ。フィルムシミュや手動「巻き上げ」など懐かしさ重視だがRAW・手ブレ補正・EVFは省略。定価約$850、実売約$649。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T21:08:03.000Z",
-      "contentHash": "236b8070c81e"
-    },
-    {
-      "id": "071d08c83fe5",
-      "title": "Behold, the black Apple Watch Ultra 2 is $200 off during Black Friday",
-      "url": "https://www.theverge.com/gadgets/833432/black-apple-watch-ultra-2-black-friday-deal-sale",
-      "summary": "著者は当初「黒のApple Watch Ultra 2は不要」と言ったが、ブラックフライデーでAmazon/Best Buyが$200引きの$599に値下げし購入価値が増したと報告。49mmで頑丈、最長バッテリー、S9でダブルタップ対応。Ultra 3は改良小幅で、整備済に近い価格。無駄な消費は勧めないが割引は魅力的。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T21:00:00.000Z",
-      "contentHash": "fc70db441c54"
-    },
-    {
-      "id": "2f989f6cd46b",
-      "title": "Show HN: Nano PDF – A CLI Tool to Edit PDFs with Gemini's Nano Banana",
-      "url": "https://github.com/gavrielc/Nano-PDF",
-      "summary": "Gemini 3 Pro Image（Nano Banana）を使ったCLIツール「nano-pdf」。PDFページを画像化して英語プロンプトで編集し再合成。複数同時編集や新スライド追加、Google検索対応でテキスト層を保持。GitHub公開。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T20:44:24.000Z",
-      "contentHash": "fb1c7636983e"
-    },
-    {
-      "id": "7f35cfdeeccb",
-      "title": "I bought this $110 Nespresso rig and it’s been caffeinated bliss ever since",
-      "url": "https://www.theverge.com/gadgets/833482/delonghi-nespresso-vertuo-black-friday-deal",
-      "summary": "イタリアでネスプレッソに目覚め、帰宅後AmazonでDe'Longhi Nespresso Vertuo Plusを$110で購入。コーヒーとエスプレッソ両用、サンプラーボックス付で手軽に美味しく、カプセルはリサイクル可能。おすすめ。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T20:30:00.000Z",
-      "contentHash": "60347d6a95f6"
-    },
-    {
-      "id": "cf338c137b34",
-      "title": "All it takes is for one to work out",
-      "url": "https://alearningaday.blog/2025/11/28/all-it-takes-is-for-one-to-work-out-2/",
-      "summary": "すみません、直接ウェブにアクセスできないためそのURLの本文を取得できません。記事本文か主要部分を貼っていただければ、200文字以内で日本語要約します。HNコメントも要約希望なら同様に貼ってください。どちらを要望か教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T20:22:44.000Z",
-      "contentHash": "f9779eae1afa"
-    },
-    {
-      "id": "3e1f3d495deb",
-      "title": "そらみのアニメ夜話 - 第1回 銀河特急 ミルキー☆サブウェイ",
-      "url": "https://note.com/npaka/n/n5116c39c5cf7",
-      "summary": "おすすめアニメを肩の力を抜いて紹介する記事の紹介文。ジャンルや見どころを気軽に解説し、気になる作品は「続きを読む」で詳しくチェックできる案内になっている。",
-      "source": "npaka",
-      "publishedAt": "2025-11-29T20:20:06.000Z",
-      "contentHash": "f30c8cdc0e6c"
-    },
-    {
-      "id": "40614ea7ecd5",
-      "title": "The Android phone you should buy your dad is just $349",
-      "url": "https://www.theverge.com/gadgets/833639/google-pixel-9a-black-friday-cyber-monday-2025-deal-sale",
-      "summary": "Google Pixel 9Aは今春に新型登場の見込みだが、丈夫で長期ソフト更新が期待できる「ダッドフォン」。防水強化・大画面で処理やカメラは堅実、望遠は非搭載。定価$499がブラックフライデーで$349（Amazon）と最安。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T20:03:51.000Z",
-      "contentHash": "5a1a7f9852ee"
-    },
-    {
-      "id": "584001256891",
-      "title": "Learning Feynman's Trick for Integrals",
-      "url": "https://zackyzz.github.io/feynman.html",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事の本文をここに貼り付けるか、重要な抜粋を送ってください。内容を受け取れば、200文字以内の日本語要約を作成します。必要ならHNの議論要約も対応します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T19:55:17.000Z",
-      "contentHash": "e82d1d4814fc"
-    },
-    {
-      "id": "6549bd1d6a3a",
-      "title": "Be Like Clippy",
-      "url": "https://be-clippy.com/",
-      "summary": "申し訳ないですが、直接ウェブにアクセスできません。記事本文を貼るか主要な抜粋を教えていただけますか？いただければ200字以内で日本語要約します。HNコメントの要約も可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T19:41:55.000Z",
-      "contentHash": "af6222661ac9"
-    },
-    {
-      "id": "8876db5ce99e",
-      "title": "This great 27-inch Studio Display alternative is cheaper than ever",
-      "url": "https://www.theverge.com/gadgets/833564/this-great-27-inch-studio-display-alternative-is-cheaper-than-ever",
-      "summary": "KTCの27インチ5KモニターH27P3がブラックフライデーで約$509–535に割引。5120×2880(60Hz)IPS、HDR、65W USB-C、DP1.4/HDMI2.0、217ppi。2560×1440で120Hzのデュアルモードを持ち、Studio Displayより格安で色精度も良好。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T19:30:00.000Z",
-      "contentHash": "3c901fc727cc"
-    },
-    {
-      "id": "141b25541b3f",
-      "title": "Framework Computer Now Sponsoring LVFS / Fwupd Development",
-      "url": "https://www.phoronix.com/news/Framework-Sponsoring-LVFS",
-      "summary": "FrameworkがLinux Vendor Firmware Service (LVFS) をスポンサー支援し、FrameworkノートPC向けのファームウェアをLVFS経由で提供開始。fwupdでLinux上から簡単にBIOSや周辺デバイスの更新が可能になり、オープンソース側の配布と互換性向上に貢献する。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T19:14:13.000Z",
-      "contentHash": "cdc9b0f47409"
-    },
-    {
-      "id": "dc48f38d8920",
-      "title": "Electric vehicle sales are booming in South America – without Tesla",
-      "url": "https://www.reuters.com/sustainability/climate-energy/electric-vehicle-sales-are-booming-south-america-without-tesla-2025-11-17/",
-      "summary": "南米で電気自動車の販売が急増しているが、テスラは参入していない。BYDら中国勢や政府補助、価格低下が牽引し、ブラジルやチリで普及が進む一方、充電インフラや税制が課題。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T19:12:48.000Z",
-      "contentHash": "c22f0b56781a"
-    },
-    {
-      "id": "975121fa4f2f",
-      "title": "The latest Nest Learning Thermostat is $70 off for Black Friday",
-      "url": "https://www.theverge.com/gadgets/833365/google-nest-learning-thermostat-4th-gen-black-friday-deal-sale",
-      "summary": "第4世代のGoogle Nest Learning Thermostat（研磨ゴールド）がAmazonで過去最安の$209.99。洗練された外観、Soliレーダーと遠隔温度センサー搭載、Matter対応で設置が容易。光熱費節約に有効と高評価。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T19:00:00.000Z",
-      "contentHash": "73d88139465c"
-    },
-    {
-      "id": "206a1c2ca953",
-      "title": "Disney Plus, Hulu, and HBO Max are all over 60 percent off for Black Friday",
-      "url": "https://www.theverge.com/gadgets/829306/best-black-friday-streaming-deals-hulu-disney-plus-paramount-hbo-max-2025",
-      "summary": "Huluで「Alien: Earth」、Apple TVでVince Gilliganの「Pluribus」が配信中。サイバーマンデーで各社が割引実施：Apple TV6か月$5.99/月、HBO Max年額広告付$2.99/月、Disney+とHuluの年額バンドルは広告版$4.99/月・広告無$14.99/月（～12/1）。Netflixは割引なし。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T18:40:22.000Z",
-      "contentHash": "1616b2f1791b"
-    },
-    {
-      "id": "d453c58ba1a8",
-      "title": "Buying a $100 Apple gift card will earn you a $15 Amazon credit",
-      "url": "https://www.theverge.com/gadgets/833566/buying-a-100-apple-gift-card-will-earn-you-15-amazon-credit",
-      "summary": "Apple製品を贈るなら返品の手間が省けるギフトカードが便利。今ならAmazonで100ドル以上のAppleギフトカード購入で15ドル分のクレジットが付与されるお得なセール中。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T18:36:35.000Z",
-      "contentHash": "a939de466aa0"
-    },
-    {
-      "id": "86f3040c4185",
-      "title": "We handpicked 12 great gaming laptops that are hundreds off for Black Friday",
-      "url": "https://www.theverge.com/gadgets/833307/best-gaming-laptop-nvidia-rtx-black-friday-deal-sale",
-      "summary": "Razer Blade 16が最安$1,600に。ブラックフライデー／サイバーマンデーで最新世代チップ搭載のゲーミングノートが大幅値下げ。ASUS ROG（G14/G16/Strix）やHP Omen Max 16など、入門～ハイエンドまで割引中。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T18:30:00.000Z",
-      "contentHash": "87c2d8e9a20a"
-    },
-    {
-      "id": "4fd4ab4e990a",
-      "title": "The Super Mario Galaxy bundle for the Switch is still 20 percent off",
-      "url": "https://www.theverge.com/gadgets/832513/black-friday-super-mario-galaxy-bundle-switch-deal-sale-2025",
-      "summary": "任天堂のSwitch版「Super Mario Galaxy + Galaxy 2」通常$69.99がWootで商品ページの「New – USA Version」を選ぶと$54.99に割引。Switch/新型Switch2で解像度・UI向上、Wii版より画質良好。移植に改善を求める声もあるが、来年の映画に向け新規・復帰両プレイヤーに最適。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T18:11:04.000Z",
-      "contentHash": "3700ab431b4b"
-    },
-    {
-      "id": "72143de38cbf",
-      "title": "These are my picks for the best Black Friday deals on Garmin watches",
-      "url": "https://www.theverge.com/gadgets/833297/best-garmin-watch-black-friday-deal-sale",
-      "summary": "Epix Proが50%オフ。筆者はアウトドア向けにForerunner 265を推奨（薄型で快適、OLED・デュアル周波GPS・電池長持ち）。現在33%オフで$299.99。上位のFenix 8も21–25%引きで$749.99〜。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T18:00:00.000Z",
-      "contentHash": "81db6d355c04"
-    },
-    {
-      "id": "54fba724e386",
-      "title": "Black Friday deals are still going strong on Apple AirTags, iPads, and more",
-      "url": "https://www.theverge.com/gadgets/827826/best-black-friday-apple-deals-sale-2025",
-      "summary": "Apple製品の年末セールまとめ。発売間もないApple Watch Series 11が60ドル引き、Watch Ultra 2は200ドル引き。AirPodsやM5搭載MacBook Proなど新旧モデルが過去最安値近くで多数割引、カテゴリ別に整理。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T17:56:58.000Z",
-      "contentHash": "e5dfa9470c78"
-    },
-    {
-      "id": "aaaaee346676",
-      "title": "97 percent of people struggle to identify AI music, but it’s not as bad as it seems",
-      "url": "https://www.theverge.com/entertainment/830393/ai-music-deezer-survey-spotify",
-      "summary": "DeezerとIpsosの実験で9000人が3曲を聴いて「完全AI生成曲」を当てるよう求められ、3問全部正解でなければ「識別できない」と判定されたため、「97%が区別できない」という結論は誤解を招くと指摘された。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T17:00:00.000Z",
-      "contentHash": "cd6cd239a0e3"
-    },
-    {
-      "id": "8aca3af9ab1d",
-      "title": "One of the world’s fastest power banks got a Black Friday discount",
-      "url": "https://www.theverge.com/gadgets/833299/ecoflow-rapid-pro-power-bank-black-friday-deal-sale",
-      "summary": "EcoFlowのRapid Proモバイルバッテリーがブラックフライデーで史上最安の$149.99。27,650mAh、USB-C×3（140W×1・65W×2）、最大出力300W。140W充電で約40分、2台接続で最大280W、別売デスクトップ充電器で320Wに。16インチMacBookを短時間で急速充電でき、iPhone15 Proを約4回充電。300サイクルで容量が80％に低下。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T17:00:00.000Z",
-      "contentHash": "b89ead98b36c"
-    },
-    {
-      "id": "5f2c79e645b4",
-      "title": "We're learning more about what Vitamin D does",
-      "url": "https://www.technologyreview.com/2025/11/21/1128206/vitamin-d-bodies-bone-health-immune/",
-      "summary": "記事は、ビタミンDが骨の健康維持には不可欠である一方、免疫強化や感染予防への効果は一貫性のある証拠が乏しいと報告。欠乏者には補充が有益だが、過剰摂取は危険で、血中測定に基づく個別対応や日光・食事での管理が勧められる。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T16:58:58.000Z",
-      "contentHash": "99abfce7a5b6"
-    },
-    {
-      "id": "9baf62fc6aaa",
-      "title": "I wish this $169 deal was around for the viral TikTok skincare wand when I got one",
-      "url": "https://www.theverge.com/gadgets/833268/medicube-booster-pro-serum-black-friday-deal-sale",
-      "summary": "2年前に$215でMedicubeのワンドを買った筆者は悔しがる。現在Amazonで限定版のMedicube Booster Pro＋TXAナイアシンアミド美容液が$169（約44%オフ）。自分のはモード1つだが新型は4つで、Kビューティー好きへの手頃な贅沢ギフトに最適。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T16:00:00.000Z",
-      "contentHash": "a173641fef51"
-    },
-    {
-      "id": "22f2c99166c9",
-      "title": "Logitech’s Casa is a must-have if you use a laptop — and it’s $30 off",
-      "url": "https://www.theverge.com/gadgets/833260/logitech-casa-laptop-accessories-black-friday-deal-sale",
-      "summary": "ロジクールのCasaは携帯向けのコンパクトなラップトップ用キットで、画面を上げるスタンド、Bluetoothキーボードと独立トラックパッドを同梱（Windows/Mac対応）。収納スロットで持ち運びが快適。ブラックフライデーで149.99ドル。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T15:30:00.000Z",
-      "contentHash": "36bd508d9631"
-    },
-    {
-      "id": "bedec3dc0f03",
-      "title": "Major AI conference flooded with peer reviews written by AI",
-      "url": "https://www.nature.com/articles/d41586-025-03506-6",
-      "summary": "すみません、直接ウェブを開けないためリンク先を参照できません。記事本文をここに貼っていただくか、要点を教えていただけますか？HNの議論も要約に含めるか教えてください。200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T15:26:58.000Z",
-      "contentHash": "efbbd0484a8e"
     }
   ]
 }
