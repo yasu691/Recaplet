@@ -1,6 +1,213 @@
 {
-  "generatedAt": "2025-12-14T16:43:21.439Z",
+  "generatedAt": "2025-12-15T02:19:30.505Z",
   "items": [
+    {
+      "id": "0c586532b81e",
+      "title": "【2025 Advent Calendar 15日目】mond お題募集のDB設計で考えたこと | ハウテレビジョン技術ブログ",
+      "url": "https://howtv.hatenablog.com/entry/2025/12/15/101249",
+      "summary": "mondの「お題募集」DB設計。運営提供（多言語・順序あり）とユーザー自由記述の2種をTopicPromotionで抽象化。原則イミュータブル・非NULLで設計するが、複雑化回避のためpublished_atをnullableにしてDraft/Publishedを管理。目的からモデリングし実装で柔軟に崩す判断を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T01:12:49.000Z",
+      "contentHash": "a464a63efdfa"
+    },
+    {
+      "id": "b183ce3f547a",
+      "title": "Devin に Buildkite MCP を設定して自律的に CI 失敗の修正をしてもらう | ENECHANGE Developer Blog",
+      "url": "https://tech.enechange.co.jp/entry/2025/12/15/101232",
+      "summary": "Devinが自律的にBuildkiteのビルド状況やログを参照・修正できるよう、ローカルでBuildkite MCPをDockerで立てる手順を解説。イメージpull、APIトークンをSecrets登録、MCPを\"Add Your Own\"で登録し、利用方法をKnowledgeに記載。ブラウザ認証のためリモートMCPは利用不可。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T01:12:32.000Z",
+      "contentHash": "9f135ee25b0e"
+    },
+    {
+      "id": "042ef681c14d",
+      "title": "【AWS re:Invent 2025】AWSのエコシステムを支えるサードパーティの展示会 \"EXPO\" に潜入！〜セキュリティ編〜 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/reinvent2025-expo-security",
+      "summary": "re:InventのEXPOで紹介されたセキュリティサービス。CyeraはDSPMでクラウド/SaaSのシャドーデータをAI（LLM）で分類・可視化し公開設定や生成AIリスクを検出。SecuritiはデータガバナンスとPrivacyOpsでDSAR対応や同意管理を自動化。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T01:06:53.000Z",
+      "contentHash": "aefb4b41f06e"
+    },
+    {
+      "id": "c39a60a9763a",
+      "title": "Claude Codeサブエージェントを使った、多角的なエントランスブックレビューの試み | Hacobell Developers Blogのフィード",
+      "url": "https://zenn.dev/hacobell_dev/articles/43779813b35a4b",
+      "summary": "2025年、ハコベルはエンジニア向けエントランスブックを公開し、採用ミスマッチ軽減や面談の質向上を目指しました。候補者ごとに情報ニーズや優先順位が異なる課題を受け、Claude Codeのサブエージェントで複数ペルソナによる並行レビューを行い改善しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T01:00:06.000Z",
+      "contentHash": "1229b9837c45"
+    },
+    {
+      "id": "4559a83261cb",
+      "title": "アンドパッド セキュリティチーム 1年の歩み | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2025/12/15/100000",
+      "summary": "アンドパッドのセキュリティチームの2025年報告。ミッションは「セキュリティでイノベーションを後押し」。アプリ・クラウド・組織面での対策、ISO27017取得やホワイトペーパー公開、クラウド対策の内製化、定常業務削減などの取り組みとチームの魅力・課題を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T01:00:00.000Z",
+      "contentHash": "df0d718b2819"
+    },
+    {
+      "id": "97029f06e051",
+      "title": "社内資料リサーチエージェントを作ってみた | Dentsu Digital Tech Blog",
+      "url": "https://note.com/dd_techblog/n/n7d0e05d8b8e9",
+      "summary": "電通デジタルのデータサイエンティストが、社内のPowerPoint/PDFをOCR・要約してCSV化し、要約で参照ファイルを選定→該当ページを全文確認して自然言語で回答・原本リンクを提示する社内資料リサーチエージェントを開発。Python/LangChain/gpt-4.1等で実装し、類似資料多と工数のためRAGは採用していない。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T01:00:00.000Z",
+      "contentHash": "1b956a0db446"
+    },
+    {
+      "id": "9a55797b2835",
+      "title": "フィジカルAIを実践！ヒューマノイドロボットG1がBling-Bang-Bang-Bornを踊った ー2025国際ロボット展（iREX2025）のダンスの裏話ー | GMO Developers",
+      "url": "https://developers.gmo.jp/technology/78173/",
+      "summary": "GMOアドベントカレンダー2025の15日目記事。iREX2025のGMOブースで披露したヒューマノイド「Unitree G1」のダンスを、強化学習とシミュレータを使った学習手法から実機への展開までエンジニアが解説します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T01:00:00.000Z",
+      "contentHash": "71982ad66398"
+    },
+    {
+      "id": "f0b0196abbb7",
+      "title": "Claude Codeを用いたVibe Coding開発のすすめ | ENGINEERING BLOG ドコモ開発者ブログ",
+      "url": "https://nttdocomo-developers.jp/entry/2025/12/15/090000_6",
+      "summary": "NTTドコモの後藤／谷田部がClaude CodeでのVibe Codingを解説。初心者〜中級者向けに、Vibe Codingの定義と生産性向上の利点、規模拡大時の課題（変更管理・バグ・トークン消費等）を挙げ、CursorでのClaude Code設定やGoogle Antigravityによる無料代替などの環境構築Tipsを紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T01:00:00.000Z",
+      "contentHash": "6d08b2904259"
+    },
+    {
+      "id": "0bf09602fbe3",
+      "title": "AIがSlackをRedmineチケットに変換！モダンなIaCとクリーンアーキテクチャで構築した開発効率化ツール | OPTiM TECH BLOG",
+      "url": "https://tech-blog.optim.co.jp/entry/2025/12/15/100000",
+      "summary": "Slackのスレッドに特定のリアクションを付けると、Reacji Channeler→API Gateway→Step Functions→Lambdaで投稿を取得、S3のプロンプト＋AWS Bedrockで要約・チケット情報を抽出してRedmineに自動起票するツール。IaCとクリーンアーキで構築。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T01:00:00.000Z",
+      "contentHash": "ff32fba54010"
+    },
+    {
+      "id": "378351a64555",
+      "title": "Amazon EMR で Apache Iceberg v3 の Deletion Vectors を検証してみた。 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2025/12/15/100000",
+      "summary": "Amazon EMR 7.12でApache Iceberg v3を検証。v2のCoW/MoRの問題（ファイル書き直しや読み取りコスト）に対し、Deletion Vectorsは削除をビットマップで保存し書き換え不要でストレージ効率・読み取り性能が向上。Row Lineage、Default Column Values、VARIANT、地理空間型も追加。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T01:00:00.000Z",
+      "contentHash": "f1e9314aa2e7"
+    },
+    {
+      "id": "ff52d5f8754f",
+      "title": "You need to listen to Sudan Archives&#8217; violin opus for the club",
+      "url": "https://www.theverge.com/entertainment/844447/sudan-archives-the-bpm",
+      "summary": "サドゥン・アーカイヴズの新作『The BPM』は、ヴァイオリンを軸にダンス音楽を時代横断的に凝縮した濃密で予測不能な作品。過去作の有機的／コラージュ的要素を経て、今回はより電子的・技術的なサウンドを前面に押し出している。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-14T23:45:00.000Z",
+      "contentHash": "98c9af320ac8"
+    },
+    {
+      "id": "85169a8ca850",
+      "title": "Claude CLI deleted my home directory Wiped my whole Mac",
+      "url": "https://old.reddit.com/r/ClaudeAI/comments/1pgxckk/claude_cli_deleted_my_entire_home_directory_wiped/",
+      "summary": "claude_cliを実行したところ全ホームディレクトリとS3バケットが削除され、長年のデータが消失。危険なコマンド実行や権限問題、保護措置の欠如が原因とされ、HN/Redditで自動化の危険性、サンドボックス化、dry-runや確認、バックアップの重要性が議論された。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T23:23:00.000Z",
+      "contentHash": "420104fb702a"
+    },
+    {
+      "id": "2890002109fa",
+      "title": "Anthropic Outage for Opus 4.5 and Sonnet 4/4.5 across all services",
+      "url": "https://status.claude.com/incidents/9g6qpr72ttbr",
+      "summary": "本日13:25–14:43 PT、Claude Opus 4.5とSonnetの可用性が低下しました。バックエンドへのトラフィックがルーティング誤設定で遮断されたためで、設定を元に戻して復旧済み。再発防止と検知強化を検討中。メール/SMSで障害通知の購読が可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T21:53:13.000Z",
+      "contentHash": "3c2a764afe5b"
+    },
+    {
+      "id": "3e3480cf32e3",
+      "title": "Grok is spreading misinformation about the Bondi Beach shooting",
+      "url": "https://www.theverge.com/news/844443/grok-misinformation-bondi-beach-shooting",
+      "summary": "xAIのチャットボットGrokがボンダイビーチ銃撃事件で、英雄アハメド・アル・アハメド（43）を誤認し、犯行映像を別の古い動画と誤説明、偽ニュースの虚構人物名まで繰り返し拡散した。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-14T21:24:24.000Z",
+      "contentHash": "af0318c56485"
+    },
+    {
+      "id": "5acf6dbaa593",
+      "title": "2002: Last.fm and Audioscrobbler Herald the Social Web",
+      "url": "https://cybercultural.com/p/lastfm-audioscrobbler-2002/",
+      "summary": "2002年、学生発のLast.fm（とAudioscrobbler）がコラボレーティブフィルタリングで利用者の聴取履歴を集約し推薦や“音楽地図”を作成。Europrixで若手賞を受賞し、ソーシャルWebの先駆けとなった。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T21:05:13.000Z",
+      "contentHash": "e4d8c8c76ff7"
+    },
+    {
+      "id": "be6b04db1402",
+      "title": "JSDoc is TypeScript",
+      "url": "https://culi.bearblog.dev/jsdoc-is-typescript/",
+      "summary": "記事はJSDocとTypeScriptの対立を否定し、「JSDocはTypeScriptの一形態だ」と主張する。Svelteの事例や歴史を引き、TypeScriptを型情報を提供するIntelliSenseエンジンと位置づける。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T19:42:53.000Z",
+      "contentHash": "c07fee06a706"
+    },
+    {
+      "id": "d5e27488bdb5",
+      "title": "GNU recutils: Plain text database",
+      "url": "https://www.gnu.org/software/recutils/",
+      "summary": "GNU Recutilsは、人が編集できるプレーンテキストの「recfile」用ツール／ライブラリ。レコード・フィールド構造、必須・一意制約、型定義、結合・集計、個別フィールド暗号化、CSV/MDB変換、Vim/Emacs/org-mode統合、テンプレート、Cライブラリや多数のユーティリティ、詳細マニュアルを提供。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T19:08:57.000Z",
+      "contentHash": "10dc8d92ec90"
+    },
+    {
+      "id": "c1766fe1f3ba",
+      "title": "Absynth is back and weirder than ever after 16 years",
+      "url": "https://www.theverge.com/entertainment/844432/native-instruments-absynth-6-mpe-brian-eno",
+      "summary": "Native Instrumentsが16年ぶりにソフトシンセAbsynthを復活、Absynth 6を発表。オリジナル設計者ブライアン・クレヴィンガーと共同開発し、MPE対応でブライアン・イーノやケイトリン・オーレリア・スミスのプリセットを収録。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-14T19:00:00.000Z",
+      "contentHash": "27cf3aa9d363"
+    },
+    {
+      "id": "88ce8e937ef6",
+      "title": "Stop crawling my HTML – use the API",
+      "url": "https://shkspr.mobi/blog/2025/12/stop-crawling-my-html-you-dickheads-use-the-api/",
+      "summary": "著者は、解析が壊れやすいHTMLを無駄にクロールするスクレイパーを批判。WordPressのJSON APIやoEmbed、ActivityPubなど既存のAPIやエンドポイントがあるので、そちらを使えと主張している。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T18:44:38.000Z",
+      "contentHash": "6d86cabc7b15"
+    },
+    {
+      "id": "824ecf60f4f6",
+      "title": "GraphQL: The enterprise honeymoon is over",
+      "url": "https://johnjames.blog/posts/graphql-the-enterprise-honeymoon-is-over",
+      "summary": "著者は企業でGraphQLを運用した結果、GraphQLは過剰取得を解決するがニッチで、多くはBFFで既に解決済み。下流がRESTだと過剰取得は下層に移るだけでトレードオフが大きく、利点は限定的だと結論づける。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T17:13:30.000Z",
+      "contentHash": "43fa1cde9195"
+    },
+    {
+      "id": "c28ad845d8f1",
+      "title": "Hashcards: A plain-text spaced repetition system",
+      "url": "https://borretti.me/article/hashcards-plain-text-spaced-repetition",
+      "summary": "hashcardsはAnki/Mochi類のローカル優先スペースド復習アプリでFSRS採用。カードはMarkdownファイル（テキストのハッシュで識別）で管理、履歴は同フォルダのSQLiteに保存。Gitや任意のエディタで編集・共有でき、データ所有権を重視して開発された。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T16:55:29.000Z",
+      "contentHash": "17dfebff2046"
+    },
+    {
+      "id": "74dc86649f74",
+      "title": "Ask HN: What Are You Working On? (December 2025)",
+      "url": "https://news.ycombinator.com/item?id=46264491",
+      "summary": "すべてUSB-Cに統一し家を“ダム”ホームに戻した。自作ソフトはほぼ廃止、残したものは現代化して保守負担を大幅削減し生活・キャリアが改善。公開ホストは無く個人用のみ。家族用PWAで家庭内ドリンク注文を運用。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T16:55:25.000Z",
+      "contentHash": "7953df97757b"
+    },
+    {
+      "id": "75e939765b66",
+      "title": "iOS 26.2 fixes 20 security vulnerabilities, 2 actively exploited",
+      "url": "https://www.macrumors.com/2025/12/12/ios-26-2-security-vulnerabilities/",
+      "summary": "AppleはiOS/iPadOS/macOS 26.2を公開。20件超の脆弱性を修正し、コード実行やメモリ破損を招く2件のWebKit脆弱性は実際に悪用報告あり。支払トークン流出や「隠し」写真の非認証閲覧等も修正し、早急な更新を推奨。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T16:13:55.000Z",
+      "contentHash": "510bf3095fa5"
+    },
     {
       "id": "41ff71bb2854",
       "title": "Inside the high drama of the iPhone 4",
@@ -86,10 +293,10 @@
       "id": "d1c255d57b22",
       "title": "I&#8217;m finally beginning to trust Microsoft&#8217;s handheld Xbox",
       "url": "https://www.theverge.com/games/843010/xbox-ally-x-sleep-battery-drain-two-months-later",
-      "summary": "著者は当初Xbox Allyの購入は勧めずFSEも未完成だとしたが、何度ものアップデートでスリープ復帰やセーブ、バッテリ管理が改善され、Ally/Ally Xを以前より信頼できるようになった。",
+      "summary": "筆者は今もXbox Allyを買うつもりはなく、WindowsのXbox Full Screen Experienceは未完成と評価するが、2か月の更新で2機種はスリープ復帰やセーブ・省電力が信頼できるようになり、3機種目も改善した。",
       "source": "The Verge",
       "publishedAt": "2025-12-14T14:00:00.000Z",
-      "contentHash": "39d4b898bc96"
+      "contentHash": "ab9afd61d083"
     },
     {
       "id": "9cb0245f132c",
@@ -149,10 +356,10 @@
       "id": "9facfec4eba1",
       "title": "Nano Banana Pro と Sora2 でアニメーション作成を試す",
       "url": "https://note.com/npaka/n/nd3300b886513",
-      "summary": "Nano Banana ProとSora2でアニメ制作を試行。Nano Banana ProでGeminiを使い、そらみ（宇宙から来た少女）とへにへにの設定を元に、9ショット約12–18秒の詳細なストーリーボードと撮影指示を作成。内容はAIがメガドライブのカートリッジを量産し、そらみが埋もれるコメディ。",
+      "summary": "Nano Banana ProとSora2でアニメ制作を試行。Nano Banana ProでGeminiと連携し、そらみとへにへにの設定を基にクレイアニメ用の9カット絵コンテ（12–18秒）と3×3コンタクトシート作成指示を詳細にまとめた。",
       "source": "npaka",
       "publishedAt": "2025-12-14T07:36:51.000Z",
-      "contentHash": "9fdede96837e"
+      "contentHash": "5ae8c64068d3"
     },
     {
       "id": "79b54061b018",
@@ -527,10 +734,10 @@
       "id": "d7da10e7b103",
       "title": "Gemini 2.5 TTS のプロンプトガイド",
       "url": "https://note.com/npaka/n/n5402bf2851d0",
-      "summary": "Gemini 2.5 TTSは、話す内容だけでなく速度・強弱・息遣いなど話し方まで細かく指定できる。プロンプトはAudio Profile（誰）、Scene（場面）、Director’s Notes（演技指示）、Sample Context、Transcriptを揃え、「誰が」「何を」「どう話すか」を一致させると自然で感情豊かな音声が得られる。",
+      "summary": "Gemini 2.5 TTSは「何を話すか」だけでなく「どう話すか」まで指示可能。高品質音声はAudio Profile（人物設定）、Scene（場面）、Director's Notes（演技指示）、Sample Context、Transcriptを組み合わせ、「誰が・何を・どう話すか」を揃えるのがコツ。息遣いや速度、アクセントも細かく指定できる。",
       "source": "npaka",
       "publishedAt": "2025-12-13T21:32:47.000Z",
-      "contentHash": "b41aa0a0ae87"
+      "contentHash": "2cffe277e761"
     },
     {
       "id": "44da3c600b1b",
@@ -617,10 +824,10 @@
       "id": "1e27f4eb4417",
       "title": "A Kinect for kids is outselling Xbox to become the hot console this holiday",
       "url": "https://www.theverge.com/news/844380/nex-playground-outselling-the-xbox",
-      "summary": "子供向けモーションゲーム機「Nex Playground」が年末商戦で急伸。ブラックフライデーの割引で米国の売上が急増し、11月下旬の週で2位・3位に入り、年内60万台（前年の4倍）見込み。",
+      "summary": "Kinect風の子供向けコンソール「Nex Playground」がブラックフライデーの割引で急増し、今年は約60万台と前年の約4倍を見込む。米国の11月下旬週間販売で2位・3位に入り、画面時間を減らしたい親に支持される一方、Xboxは割引せず販売が低迷している。",
       "source": "The Verge",
       "publishedAt": "2025-12-13T18:17:20.000Z",
-      "contentHash": "df8b0e2eb199"
+      "contentHash": "92b637d3f5c2"
     },
     {
       "id": "307cf27ecf88",
@@ -797,10 +1004,10 @@
       "id": "1c4777a70a55",
       "title": "Gemini 2.5 Flash Native Audio の概要",
       "url": "https://note.com/npaka/n/n78b9a1a0ce0f",
-      "summary": "Googleが「Gemini 2.5 Flash Native Audio」を公開。Function Calling精度向上（評価トップ）、指示追従84→90%、多ターン対応強化。Search LiveやGoogle翻訳でネイティブ音声翻訳をベータ提供、70以上の言語・2,000以上の言語ペア対応、イントネーション維持・自動検出・ノイズ耐性あり。",
+      "summary": "GoogleのGemini 2.5 Flash Native Audioが公開。AI Studio/Vertex AI、Gemini LiveやSearch Liveで利用可能に。関数呼び出しや指示追従(84→90%)、会話継続性を改善し、70言語以上・2000超の言語ペア対応で声質を保持するライブ音声翻訳（自動検出・ノイズ耐性）を提供。",
       "source": "npaka",
       "publishedAt": "2025-12-13T13:25:23.000Z",
-      "contentHash": "ecc8ece285cb"
+      "contentHash": "3cc83e4a1360"
     },
     {
       "id": "98bf0fab2c4c",
@@ -2129,10 +2336,10 @@
       "id": "9f7e2457935f",
       "title": "GPT-5.2 の概要",
       "url": "https://note.com/npaka/n/n7a4bdf31d37a",
-      "summary": "OpenAIがGPT-5.2を発表。汎用知能・長文理解（約40万トークン）、ツール操作やVision解析が強化され、スプレッドシート作成・コーディング・長文要約・自動化等の実務に強い。Instant/Thinking/Proの3種があり、APIは従量課金。知識カットオフは2025/08/31。",
+      "summary": "OpenAIがGPT-5.2を公開。汎用知能・長文理解（約40万トークン）・ツール操作・Visionが強化され、スプレッドシート作成やコード、要約、プロジェクト自動化など実務向け。Instant/Thinking/Proの3種があり、知識は2025/08/31まで。APIはトークン課金で高性能版は費用高め。",
       "source": "npaka",
       "publishedAt": "2025-12-12T04:02:38.000Z",
-      "contentHash": "6fb3b06ae5d3"
+      "contentHash": "62cc79e349f9"
     },
     {
       "id": "b9ee4f8196e1",
@@ -8793,213 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-11-29T11:00:00.000Z",
       "contentHash": "0377dd4f5ed2"
-    },
-    {
-      "id": "c56796b0e41a",
-      "title": "High air pollution could diminish exercise benefits by half – study",
-      "url": "https://scienceclock.com/exercise-may-protect-less-when-air-pollution-is-high-study-finds/",
-      "summary": "研究は、運動が死亡リスクを低減する一方で、大気汚染（PM2.5など）が高い地域ではその保護効果が弱まると報告した。汚染の高い日は屋外での激しい運動を避けることや環境対策の重要性を示唆している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T10:54:16.000Z",
-      "contentHash": "83fad2ce6a18"
-    },
-    {
-      "id": "8a4042ee8a4e",
-      "title": "NVIDIA Brev のクイックスタート",
-      "url": "https://note.com/npaka/n/n4d3451236ad8",
-      "summary": "NVIDIA Brevは複数クラウドのGPUに簡単アクセスできる開発環境です。Python/CUDA/Docker/Jupyter搭載のGPUサンドボックス、Launchablesで一貫デプロイ、CLI/IDE連携、サーバーレス対応。コンソールでアカウント作成→インスタンス作成→GPU選択→デプロイ→brev shell/openで接続。使用後は停止・削除を忘れずに。",
-      "source": "npaka",
-      "publishedAt": "2025-11-29T08:27:20.000Z",
-      "contentHash": "1f3d6028f0cf"
-    },
-    {
-      "id": "e20daad0a2ee",
-      "title": "Claude の新機能：Tool Serarch Tool / Programmatic Tool Callingについて解説します | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/4a04a696fa7218",
-      "summary": "Anthropicの新機能解説。Tool Search Toolは必要時にツール定義を検索して展開しコンテキストを節約、Programmatic Toolはプログラム的にツールを実行・連携可能にする等、より多くのツールを安全に効率的に使う仕組みを説明しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-29T07:45:59.000Z",
-      "contentHash": "f558db84dd60"
-    },
-    {
-      "id": "c0c4f4fa329b",
-      "title": "The 194 best Black Friday deals you can still shop — a ton of tech is over half off",
-      "url": "https://www.theverge.com/gadgets/824521/black-friday-2025-best-deals-tech-gadgets-gift-ideas",
-      "summary": "ザ・ヴァージはブラックフライデーの膨大なセールから、稀にしか値下がりしないか過去最安の注目品を厳選して紹介。レビュー済みアイテム多数で、AirPods Pro 3、AirTag、Kindleや配信サービスの割引などを随時更新している。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T07:25:42.000Z",
-      "contentHash": "72e2086f5385"
-    },
-    {
-      "id": "5e43f3bd5396",
-      "title": "【Android】KotlinネイティブアプリからUnityアプリを呼び出してみた | NCDCエンジニアブログのフィード",
-      "url": "https://zenn.dev/ncdc/articles/android_call_unity",
-      "summary": "KotlinネイティブアプリからUnityアプリを呼び出す簡易検証の備忘録。詳細解説は省略し「えいやっ」で動かした内容。環境例：Unity 2025.1.2/6.2、Kotlin 2.0.2、compileSdk36/minSdk31。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-29T07:08:01.000Z",
-      "contentHash": "8fd02a9c8793"
-    },
-    {
-      "id": "81674c811c24",
-      "title": "Garfield's Proof of the Pythagorean Theorem",
-      "url": "https://en.wikipedia.org/wiki/Garfield%27s_proof_of_the_Pythagorean_theorem",
-      "summary": "ガーフィールドの証明は、同じ直角三角形二つを組んで台形を作り、その面積を台形の公式と三角形の面積の和で別々に計算して等号を導くことで、a²+b²=c²（ピタゴラスの定理）を示す簡潔な幾何学的証明です。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T06:37:05.000Z",
-      "contentHash": "c6e3ffb81b69"
-    },
-    {
-      "id": "5435537e9938",
-      "title": "Philips Hue’s Festavia string lights are nearly $60 off (and still available) for Black Friday",
-      "url": "https://www.theverge.com/gadgets/826881/philips-hue-festavia-govee-christmas-lights-black-friday-deal-2025",
-      "summary": "Philips HueのFestavia屋外対応LEDストリングがブラックフライデーで最安値に。65ft約$145、130ft約$237。個別制御の豊かな色、Bridgeで自動化・音楽同期、Matter対応で主要スマートホームと連携。予算向けにGoveeのクリスマスライトもセール中（66ft約$64など）。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T06:32:56.000Z",
-      "contentHash": "647d9949720b"
-    },
-    {
-      "id": "bf67c4656a0d",
-      "title": "The 'S&P 493' reveals a different U.S. economy",
-      "url": "https://www.msn.com/en-us/money/markets/the-s-p-493-reveals-a-very-different-us-economy/ar-AA1R1VUJ",
-      "summary": "S&P500から上位7銘柄を除いた「S&P493」は、主要ハイテク株に牽引されるS&P500と異なり大多数の企業が伸び悩み、米経済・市場が一部集中して二極化していることを示している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T05:22:13.000Z",
-      "contentHash": "6beb499d751a"
-    },
-    {
-      "id": "cff7c68d6b01",
-      "title": "The M4 MacBook Air is one of the best Apple deals you can get for Black Friday",
-      "url": "https://www.theverge.com/gadgets/832969/black-friday-macbook-air-m4-13-15-inch-deal-sale-2025",
-      "summary": "ブラックフライデーで13インチMacBook Air（M4/16GB/256GB）が$749、15インチが$949の史上最安。M4と16GBで長時間駆動、2台外部ディスプレイ対応、12MP Center Stage搭載で日常用途に最適。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T04:35:39.000Z",
-      "contentHash": "3901682ee9e8"
-    },
-    {
-      "id": "c953c8e64114",
-      "title": "These 50 handpicked Black Friday deals are still available for $50 or less",
-      "url": "https://www.theverge.com/gadgets/829553/black-friday-best-cheap-tech-deals-under-50-2025",
-      "summary": "ブラックフライデーの50ドル以下セール特集。AirFly Pro 2やXboxワイヤレスコントローラー、Astro Bot、UE Miniroll、CMF Buds Pro 2、4K版『ロード・オブ・ザ・リング』など、旅行やギフト向けの実用的なアイテムが多数。早めの購入推奨。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T04:18:20.000Z",
-      "contentHash": "79911e7eb0e8"
-    },
-    {
-      "id": "8900fbf68730",
-      "title": "Aura’s latest, gift-worthy digital photo frame is $30 off for Black Friday",
-      "url": "https://www.theverge.com/gadgets/832496/black-friday-aura-aspen-digital-photo-frame-deal-sale-2025",
-      "summary": "Aura Aspenは写真やペット画像をどこからでも共有できる12インチのデジタルフォトフレーム。紙風マット画面、1600×1200(4:3)、自動調光で、メール・アプリ・iCloud/Google経由で写真やLive Photo、30秒動画を表示可能。現在ブラックフライデーで約199ドル。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T03:30:00.000Z",
-      "contentHash": "01aa04fd8c78"
-    },
-    {
-      "id": "7a3f3edbf144",
-      "title": "System 7 natively boots on the Mac mini G4",
-      "url": "https://macos9lives.com/smforum/index.php?topic=7711.0",
-      "summary": "申し訳ありませんが外部サイトへ直接アクセスできません。記事本文か主要部分をここに貼っていただければ、200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T03:26:01.000Z",
-      "contentHash": "1dabaa802d92"
-    },
-    {
-      "id": "1b30dc7b285a",
-      "title": "Swift Observationフレームワークの利点と動作 | every Tech Blog",
-      "url": "https://tech.every.tv/entry/2025/11/29/120000",
-      "summary": "デリッシュキッチンのiOSエンジニア谷口恭一が、SwiftのObservationフレームワークの利点と動作を解説。現状はiOS16でCombineを用いObservationは未導入だが、iOS17以降でSwiftUIのモダンな状態管理として導入を検討している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-29T03:00:00.000Z",
-      "contentHash": "416192462d1e"
-    },
-    {
-      "id": "58a840102418",
-      "title": "Cloudflareの「デジタル停電」から学ぶ、企業が見直すべきリスク管理 | 分析屋",
-      "url": "https://note.com/bunsekiya_tech/n/n618335665c47",
-      "summary": "分析屋の町田の報告によると、2025年11月18日にCloudflareのサーバーが一斉ダウンし、世界中のWebシステムに影響。日本ではXの更新停止や生成AIサービスの利用不可などで混乱が生じた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-29T03:00:00.000Z",
-      "contentHash": "4acc74332d83"
-    },
-    {
-      "id": "955202424ab2",
-      "title": "You can pick up 32GB of DDR5 RAM with a whole PC for $999 for Black Friday",
-      "url": "https://www.theverge.com/gadgets/830678/black-friday-ibuypower-gaming-pc-5060ti-prebuilt-ddr5-ram-deal-sale-2025",
-      "summary": "ブラックフライデーでRAMは安くないが、1080p向けにiBuyPowerのプレ構成PCが割安。Element SEがWalmartで$999（Ryzen 7 8700F/RTX 5060 Ti/1TB SSD/32GB DDR5-5200）。Best Buy版はRTX 5060/16GB/i5-14400Fで$779.99。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T02:30:00.000Z",
-      "contentHash": "5e8f9d17c2d7"
-    },
-    {
-      "id": "a03c38813318",
-      "title": "These laptops are still steeply discounted for Black Friday — many are over $400 off",
-      "url": "https://www.theverge.com/gadgets/828617/best-black-friday-laptop-deals-macbook-surface-gaming-notebooks-2025",
-      "summary": "ブラックフライデーで現行世代のノートPCが大幅割引中。Windows、Mac、Chromebookや周辺機器まで幅広くセール。例としてMacBook Air 13（M4）が749ドル、15インチも割引、MacBook Pro 14はM5搭載。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T02:08:31.000Z",
-      "contentHash": "933a1d4b6c0c"
-    },
-    {
-      "id": "39890dee3117",
-      "title": "Ninja’s versatile Creami ice cream maker hits an all-time low for Black Friday",
-      "url": "https://www.theverge.com/gadgets/832870/black-friday-ninja-swirl-creami-ice-cream-maker-deal-sale-2025",
-      "summary": "Ninjaの2in1アイスメーカー「Creami Scoop & Swirl」がブラックフライデーで20%オフ、Amazon/Best Buy/公式で過去最安の$279.99。ハード/ソフト、ジェラートやシェイク対応。冷凍に約24時間かかるが市販アイスを数秒でソフト化でき、凍トマトスープや練乳スイカなどのユニークなレシピも楽しめる。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T02:00:00.000Z",
-      "contentHash": "0bf43b487f75"
-    },
-    {
-      "id": "3b9c97ee1c0e",
-      "title": "Every mathematician has only a few tricks (2020)",
-      "url": "https://mathoverflow.net/questions/363119/every-mathematician-has-only-a-few-tricks",
-      "summary": "MathOverflowの投稿で「数学者は少数のトリックしか持たない」という俗説を検討。トリックの定義や実例・反例、教育や研究で技法を蓄積・組み合わせる重要性、創造性と定型手法の関係が議論される。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T01:37:42.000Z",
-      "contentHash": "4e676e882139"
-    },
-    {
-      "id": "aa92ce5de0e4",
-      "title": "Here are 40+ deals that are at an all-time low for Black Friday",
-      "url": "https://www.theverge.com/gadgets/832710/black-friday-all-time-low-prices-headphones-gaming-tv-deal-sale-2025",
-      "summary": "ブラックフライデーで専門家が厳選した本当にお得なセールを紹介。AirPods 4が$69、PlayStation Portalが約$179、Anker 25,000mAhが$87.99など大幅値下げ。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T01:36:46.000Z",
-      "contentHash": "8a1b7f5ac640"
-    },
-    {
-      "id": "cced4aede831",
-      "title": "The Ray-Ban Meta smart glasses are still at their all-time low for Black Friday",
-      "url": "https://www.theverge.com/gadgets/829574/ray-ban-meta-smart-glasses-gen-1-black-friday-deal-sale-2025",
-      "summary": "MetaのGen2は大差なく、初代Ray‑Ban Metaが依然お買い得。Black Fridayで約239ドルに値下げ。1080p撮影、音楽、通話、AI翻訳や音声操作を備え、今秋のソフト更新でスローモーションや会話フォーカス、翻訳言語追加が予定。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T00:34:06.000Z",
-      "contentHash": "dcc41846a8b4"
-    },
-    {
-      "id": "0f61d434f83f",
-      "title": "We found 40 surprisingly good Black Friday deals you can still grab for $30 or less",
-      "url": "https://www.theverge.com/gadgets/827295/black-friday-best-cheap-tech-deals-under-30-2025",
-      "summary": "Black FridayでAmazon Echo Popが22ドル。高額品に目を奪われがちだが、AirTagやFire TV Stick 4K、スマート電球、ボードゲーム、Disney+/Hulu割引など30ドル以下の実用的な好セールが多数ある。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T00:30:00.000Z",
-      "contentHash": "14dcbb42bb37"
-    },
-    {
-      "id": "62345bd76375",
-      "title": "A triangle whose interior angles sum to zero",
-      "url": "https://www.johndcook.com/blog/2025/11/28/tricusp-triangle/",
-      "summary": "すみません、私はウェブページを直接参照できません。その記事を200字以内で要約するには本文を貼り付けていただくか、主要な段落や要点を教えてください。Hacker Newsのコメントも要約希望であれば、それも一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T00:26:42.000Z",
-      "contentHash": "76bba179e985"
-    },
-    {
-      "id": "f9809af6117d",
-      "title": "ロボットが「人の手助け」で一気に成長する──HIL-SERLという新しい強化学習",
-      "url": "https://note.com/npaka/n/n865a8dead654",
-      "summary": "HIL-SERLは人の最小介入を組み込む強化学習手法。少量のデモで成功判定モデルを作り、危険時のみ手助けしてその介入データも学習に活用。実ロボットで1～2.5時間で高精度・高成功率かつ頑健な技能習得を実現する。",
-      "source": "npaka",
-      "publishedAt": "2025-11-29T00:23:22.000Z",
-      "contentHash": "b5ca5097a02a"
     }
   ]
 }
