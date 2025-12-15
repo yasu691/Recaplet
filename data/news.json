@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2025-12-15T02:19:30.505Z",
+  "generatedAt": "2025-12-15T08:56:34.841Z",
   "items": [
+    {
+      "id": "96e06f0ffb74",
+      "title": "dependabot PRのAI自動レビューをCI完了後に実施させる | Timee Product Team Blog",
+      "url": "https://tech.timee.co.jp/entry/2025/12/15/170000",
+      "summary": "dependabotの依存更新PRをAIレビューするDevinがCI未完了で誤判定していたため、トリガーをpull_request:openedからCI完了のworkflow_runに変更。ghでPR情報を取得し、workflow_run.conclusionと失敗ジョブ名をレビューに渡すようにした。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T08:00:00.000Z",
+      "contentHash": "e1d3768ffbdf"
+    },
+    {
+      "id": "d6ccebe62771",
+      "title": "「AIエージェントキャッチアップ #61 - AG-UI」を開催しました | Generative Agents Tech Blog",
+      "url": "https://blog.generative-agents.co.jp/entry/2025/12/15/160249",
+      "summary": "AIエージェントキャッチアップ#61で、UI接続を標準化するオープンプロトコル「AG-UI」を紹介。イベント駆動でトランスポート非依存、入出力を統一し多様なフレームワークやCopilotKitと連携。次回はMem0。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T07:02:49.000Z",
+      "contentHash": "b07deb0e8f0d"
+    },
+    {
+      "id": "3137caee2987",
+      "title": "Amazon Connect の IVR フロー分析機能が強化されました | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/conversational-analytics",
+      "summary": "Amazon ConnectのIVR解析が強化され、Conversational Analyticsで自動インタラクションの音声解析と文字起こしが可能に。Automated interaction logsでフロー遷移が確認・JSONでS3保存。要約は日本語未対応、反映に数分要する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T06:46:59.000Z",
+      "contentHash": "d22d1db4cc61"
+    },
+    {
+      "id": "8a962fb7f688",
+      "title": "HuggingFace Diffusers v0.36.0の新機能",
+      "url": "https://note.com/npaka/n/n7d2c63951f1d",
+      "summary": "Diffusers v0.36.0は多数の新画像（Flux2等）・動画（Sana‑Video等）パイプラインを追加。Flash Attention 3/2・SAGEのカーネルアテンション対応、TaylorSeerで最大3倍高速化、Flux.2統合の学習スクリプト（LoRA対応）を導入。",
+      "source": "npaka",
+      "publishedAt": "2025-12-15T06:28:43.000Z",
+      "contentHash": "4230ea4c2ced"
+    },
+    {
+      "id": "2511a295f24c",
+      "title": "iRobot files for bankruptcy",
+      "url": "https://www.theverge.com/news/844460/irobot-files-for-bankruptcy",
+      "summary": "ルンバメーカーのiRobotは35年目にチャプター11の破産保護を申請。製造委託先の中国系Picea Roboticsが買収する予定で、アプリや顧客対応、供給網は維持され、稼働に大きな支障はない見込み。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T06:11:18.000Z",
+      "contentHash": "45c002a36187"
+    },
+    {
+      "id": "6e023121542f",
+      "title": "PDCAを回す（物理的に）~ Playdateでゲーム作ってみた ~ | CARTA TECH BLOG",
+      "url": "https://techblog.cartaholdings.co.jp/entry/create-playdate-pdca-game",
+      "summary": "DIGITALIOのエンジニアがPlaydateでクランク操作のPDCAゲームを制作。macOS向けSDKとLuaで開発し、30秒で何回回せるかを競う。左右でブラックスワンを防ぎ5回でフィーバー（獲得2倍）。最高201PDCA。実機ではインストール時に再起動問題が発生。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T06:00:00.000Z",
+      "contentHash": "13552b91c7f5"
+    },
+    {
+      "id": "59fb4d81a941",
+      "title": "5年振りの新卒エンジニアとして入社してみて | LIVESENSE ENGINEER BLOG",
+      "url": "https://made.livesense.co.jp/entry/2025/12/15/150000",
+      "summary": "リブセンスに5年ぶりの新卒エンジニアとして入社。全体研修後にFjord Boot CampでRuby on Railsを習得し、裁量労働・リモートで7月に転職ドラフト配属。バグ修正や新機能（Googleログイン）開発、イベント参加やTechFesで交流し、挑戦できる環境に満足している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T06:00:00.000Z",
+      "contentHash": "27b7b0e14c31"
+    },
+    {
+      "id": "c2c2c276f2ee",
+      "title": "Qdrant と SPLADE で実現する Sparse Vector Search の実装 | Visional Engineering Blog",
+      "url": "https://engineering.visional.inc/blog/727/sparse-vector-search-qdrant-splade/",
+      "summary": "ビズリーチの渡會が、SPLADE（日本語版light-splade）で生成した疎ベクトルをQdrantのInverted Index機能で扱う手法を紹介。キーワード一致の解釈性とニューラルの表現力を両立するSparse Vector Searchの仕組み、背景、利点と実装例・コードを解説する記事です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T06:00:00.000Z",
+      "contentHash": "ddeeaeaeccf4"
+    },
+    {
+      "id": "f6b91dada299",
+      "title": "トラブルシューティングは認知タイプで変わる？タイプ別調査術 | トラストバンクテックブログ",
+      "url": "https://tech.trustbank.co.jp/entry/20241215/troubleshooting",
+      "summary": "トラブル対応は認知タイプで変わる。画面を脳内再生する「イメージ型」は直感で不足情報に気づき言語化して聞く。箇条書きで整理する「情報整理型」は事実・操作・結果を分解して調査。共通対策は環境情報収集、行動を明確に指示し原因を順に潰すこと。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T06:00:00.000Z",
+      "contentHash": "bce8699feda3"
+    },
+    {
+      "id": "0ddf66ee87e6",
+      "title": "あなたの「リファクタリング」わたしの「リファクタリング」 | フォトシンス エンジニアブログ",
+      "url": "https://akerun.hateblo.jp/entry/2025/12/14/yukimi",
+      "summary": "リファクタリングは便利だが「言葉のズレ」が最大の危険。Web/アプリは高速展開で戻せる前提、組み込みは修正が現場コストに直結する。定義は外部仕様を守り内部構造を改善すること。失敗防止にPRで①変えない外部仕様②変わる挙動の有無③同一性確認法を明記。UIは状態・見た目・振る舞いを分離、内部はAPI依存を変換層で隔離し基盤整備が重要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T05:42:41.000Z",
+      "contentHash": "be540ccd9b15"
+    },
+    {
+      "id": "ebb7f576ecc8",
+      "title": "ArgoCDとアプリワークロードのクラスタ分離 | JCB Tech Blog",
+      "url": "https://tech.jcblab.jp/entry/2025/12/15/143915",
+      "summary": "JDEPはArgoCDと差分監査ジョブをアプリ用クラスタから独立した管理クラスタへ移行。リソース競合・保守時影響・単一障害点を解消するためで、管理側はGKE AutopilotとManaged Prometheus→Datadog連携を採用。開発者の操作性は維持。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T05:39:15.000Z",
+      "contentHash": "892088fc131a"
+    },
+    {
+      "id": "b837459e44cd",
+      "title": "最終リリースを「片付け」にするための登り方 —— 互換性が壊れる変更と事前の仕込み | Money Forward Developersのフィード",
+      "url": "https://zenn.dev/moneyforward/articles/3cb56d372a9118",
+      "summary": "長年運用するサービスへ大きな機能を一斉投入する典型的失敗。設計・実装は済みで「前方互換」「deprecated」「互換性」「フラグで対処」で安心して一度にリリースするが、公開直後に問題が発生し原因がすぐ判らず混乱する、という流れ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-15T05:27:32.000Z",
+      "contentHash": "9ebf61c1481b"
+    },
     {
       "id": "0c586532b81e",
       "title": "【2025 Advent Calendar 15日目】mond お題募集のDB設計で考えたこと | ハウテレビジョン技術ブログ",
@@ -92,6 +200,24 @@
       "contentHash": "f1e9314aa2e7"
     },
     {
+      "id": "4bf2b42720ba",
+      "title": "Microsoft Copilot AI Comes to LG TVs, and Can't Be Deleted",
+      "url": "https://www.techpowerup.com/344075/microsoft-copilot-ai-comes-to-lg-tvs-and-cant-be-deleted",
+      "summary": "LGのwebOS搭載テレビが更新でMicrosoftのCopilot AIアプリを削除不可で導入されたと報告。無視はできるが削除は不可で、プライバシーや他OSへの波及が懸念される。LGの「Live Plus」は視聴内容を解析して広告・推薦に利用（設定で無効化可）。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T00:35:41.000Z",
+      "contentHash": "0df80463678a"
+    },
+    {
+      "id": "8e3561802a5b",
+      "title": "AI agents are starting to eat SaaS",
+      "url": "https://martinalderson.com/posts/ai-agents-are-starting-to-eat-saas/",
+      "summary": "ソフトが世界を食ったように、AIエージェントがSaaSを侵食し始めている。簡易SaaSの需要が蒸発し、エージェントがダッシュボード作成、動画再エンコード、UIモック、プレゼン作成等を短時間で代替し、build vs buyの判断を変えるという指摘。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T23:48:37.000Z",
+      "contentHash": "aee68499425c"
+    },
+    {
       "id": "ff52d5f8754f",
       "title": "You need to listen to Sudan Archives&#8217; violin opus for the club",
       "url": "https://www.theverge.com/entertainment/844447/sudan-archives-the-bpm",
@@ -102,16 +228,16 @@
     },
     {
       "id": "85169a8ca850",
-      "title": "Claude CLI deleted my home directory Wiped my whole Mac",
+      "title": "Claude CLI deleted my home directory and wiped my Mac",
       "url": "https://old.reddit.com/r/ClaudeAI/comments/1pgxckk/claude_cli_deleted_my_entire_home_directory_wiped/",
-      "summary": "claude_cliを実行したところ全ホームディレクトリとS3バケットが削除され、長年のデータが消失。危険なコマンド実行や権限問題、保護措置の欠如が原因とされ、HN/Redditで自動化の危険性、サンドボックス化、dry-runや確認、バックアップの重要性が議論された。",
+      "summary": "ユーザーが Claude CLI の不具合でホームディレクトリを丸ごと消失したと報告。データ喪失、バックアップの重要性、CLI の権限・サンドボックス不足、パッケージ信頼性やサプライチェーンリスクを巡る議論に発展した。",
       "source": "Hacker News",
       "publishedAt": "2025-12-14T23:23:00.000Z",
-      "contentHash": "420104fb702a"
+      "contentHash": "bfbdae1ac378"
     },
     {
       "id": "2890002109fa",
-      "title": "Anthropic Outage for Opus 4.5 and Sonnet 4/4.5 across all services",
+      "title": "Elevated errors across many models",
       "url": "https://status.claude.com/incidents/9g6qpr72ttbr",
       "summary": "本日13:25–14:43 PT、Claude Opus 4.5とSonnetの可用性が低下しました。バックエンドへのトラフィックがルーティング誤設定で遮断されたためで、設定を元に戻して復旧済み。再発防止と検知強化を検討中。メール/SMSで障害通知の購読が可能です。",
       "source": "Hacker News",
@@ -171,6 +297,24 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-14T18:44:38.000Z",
       "contentHash": "6d86cabc7b15"
+    },
+    {
+      "id": "219646f703c1",
+      "title": "Adafruit: Arduino’s Rules Are ‘Incompatible With Open Source’",
+      "url": "https://thenewstack.io/adafruit-arduinos-rules-are-incompatible-with-open-source/",
+      "summary": "ソフトウェアエンジニア向けニュースレターの購読案内。重要ニュースや限定コンテンツをメールで配信。メール・氏名・会社・国の入力が必要で、過去に解除していれば再購読手続きが必要。個人情報は無断販売せず、利用規約・プライバシーポリシーへの同意が前提。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T18:18:34.000Z",
+      "contentHash": "dacc67dd0b76"
+    },
+    {
+      "id": "1a15ee696356",
+      "title": "The Typeframe PX-88 Portable Computing System",
+      "url": "https://www.typeframe.net/",
+      "summary": "Typeframeの携帯型統合システムPX-88。Raspberry Pi 4 B搭載で高性能、機械式キーボード装備の小型プロ向け端末。簡易組立・メンテ可、スライド式パネルで内部アクセス容易。用途は自在。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-14T17:43:39.000Z",
+      "contentHash": "bf58a54c5f6b"
     },
     {
       "id": "824ecf60f4f6",
@@ -356,10 +500,10 @@
       "id": "9facfec4eba1",
       "title": "Nano Banana Pro と Sora2 でアニメーション作成を試す",
       "url": "https://note.com/npaka/n/nd3300b886513",
-      "summary": "Nano Banana ProとSora2でアニメ制作を試行。Nano Banana ProでGeminiと連携し、そらみとへにへにの設定を基にクレイアニメ用の9カット絵コンテ（12–18秒）と3×3コンタクトシート作成指示を詳細にまとめた。",
+      "summary": "Nano Banana ProとSora2でアニメ制作を試行。Nano Banana Pro＋Geminiでそらみ＆へにへにのクレイ風ストーリーボードを作成。AIロボットがメガドライブカートリッジを量産し埋もれる展開を、9カット（約12–18秒）での絵コンテ・撮影指示と3×3コンタクトシート形式で設計しました。",
       "source": "npaka",
       "publishedAt": "2025-12-14T07:36:51.000Z",
-      "contentHash": "5ae8c64068d3"
+      "contentHash": "157cd684e4b6"
     },
     {
       "id": "79b54061b018",
@@ -734,10 +878,10 @@
       "id": "d7da10e7b103",
       "title": "Gemini 2.5 TTS のプロンプトガイド",
       "url": "https://note.com/npaka/n/n5402bf2851d0",
-      "summary": "Gemini 2.5 TTSは「何を話すか」だけでなく「どう話すか」まで指示可能。高品質音声はAudio Profile（人物設定）、Scene（場面）、Director's Notes（演技指示）、Sample Context、Transcriptを組み合わせ、「誰が・何を・どう話すか」を揃えるのがコツ。息遣いや速度、アクセントも細かく指定できる。",
+      "summary": "Gemini 2.5 TTSは「何を話すか」だけでなく「どう話すか」まで指定可能。キャラクター・場面・演技指示（速度・強弱・息遣い・アクセント）をAudio Profile/Scene/Director's Notes/Sample Context/Transcriptで整えると、自然で感情豊かな音声が生成される。",
       "source": "npaka",
       "publishedAt": "2025-12-13T21:32:47.000Z",
-      "contentHash": "2cffe277e761"
+      "contentHash": "2bc0f1e2be79"
     },
     {
       "id": "44da3c600b1b",
@@ -1004,10 +1148,10 @@
       "id": "1c4777a70a55",
       "title": "Gemini 2.5 Flash Native Audio の概要",
       "url": "https://note.com/npaka/n/n78b9a1a0ce0f",
-      "summary": "GoogleのGemini 2.5 Flash Native Audioが公開。AI Studio/Vertex AI、Gemini LiveやSearch Liveで利用可能に。関数呼び出しや指示追従(84→90%)、会話継続性を改善し、70言語以上・2000超の言語ペア対応で声質を保持するライブ音声翻訳（自動検出・ノイズ耐性）を提供。",
+      "summary": "「Gemini 2.5 Flash Native Audio」を発表。ライブ音声エージェント向けに関数呼び出し精度（ComplexFuncBench 71.5%）、指示追従率84→90%、多ターン会話が改善。AI Studio/Vertex/Gemini Live/Search Liveで利用可能。ヘッドフォン対応のライブ音声翻訳（70言語以上・2000超の言語ペア、自動検出・話者の抑揚保持）をGoogle翻訳アプリでベータ提供。",
       "source": "npaka",
       "publishedAt": "2025-12-13T13:25:23.000Z",
-      "contentHash": "3cc83e4a1360"
+      "contentHash": "b3bf9cea88b6"
     },
     {
       "id": "98bf0fab2c4c",
@@ -2336,10 +2480,10 @@
       "id": "9f7e2457935f",
       "title": "GPT-5.2 の概要",
       "url": "https://note.com/npaka/n/n7a4bdf31d37a",
-      "summary": "OpenAIがGPT-5.2を公開。汎用知能・長文理解（約40万トークン）・ツール操作・Visionが強化され、スプレッドシート作成やコード、要約、プロジェクト自動化など実務向け。Instant/Thinking/Proの3種があり、知識は2025/08/31まで。APIはトークン課金で高性能版は費用高め。",
+      "summary": "OpenAIがGPT-5.2を公開。汎用知能・長文コンテキスト（約40万トークン）・視覚解析・エージェント連携が強化され、実務向け能力が向上。Instant/Thinking/Proの3種、APIはトークン従量課金。知識カットオフは2025/08/31。",
       "source": "npaka",
       "publishedAt": "2025-12-12T04:02:38.000Z",
-      "contentHash": "62cc79e349f9"
+      "contentHash": "f773f43d3484"
     },
     {
       "id": "b9ee4f8196e1",
@@ -2993,10 +3137,10 @@
       "id": "d3945e6ac563",
       "title": "Gemini Deep Research Agent の概要",
       "url": "https://note.com/npaka/n/n9e52f89e8585",
-      "summary": "Googleは長時間の自律調査向けに強化された「Gemini Deep Research Agent」を公開。Gemini 3 Proを核に多段階探索で高精度なWebリサーチを実行。網羅性評価用ベンチマーク「DeepSearchQA」（900問）をOSS化し、金融・バイオ・市場調査などで実運用中。",
+      "summary": "Googleが「Gemini Deep Research Agent」を発表。Gemini 3 Pro搭載で多段階強化学習による高精度な長時間Webリサーチが可能に。網羅性評価のベンチマーク「DeepSearchQA」（900課題）をOSS化し、金融・バイオ等での実運用を開始。",
       "source": "npaka",
       "publishedAt": "2025-12-11T18:08:56.000Z",
-      "contentHash": "9f5aaa52f8d4"
+      "contentHash": "7304df0020be"
     },
     {
       "id": "2d181d7810ca",
@@ -3020,10 +3164,10 @@
       "id": "8b24f6f5fac4",
       "title": "Interactions API の概要 - Google のモデルとエージェントの統合基盤",
       "url": "https://note.com/npaka/n/n671c92a70e5d",
-      "summary": "GoogleはGeminiモデルと組み込みエージェントを統合するInteractions APIを公開。/interactionsでモデルやDeep Researchを呼び出せ、サーバー側履歴管理、インターリーブ型スキーマ、バックグラウンド実行、MCPツール対応で複雑なエージェント処理を簡素化し、将来的にカスタムエージェント統合を目指す。",
+      "summary": "「Interactions API」はGeminiモデルと組み込み/カスタムエージェントを統合する単一のRESTインターフェースで、サーバー側状態管理、思考・ツール・メッセージの解釈可能な履歴、バックグラウンド実行、MCPツール対応を備え、開発者向けにパブリックベータで提供されています。",
       "source": "npaka",
       "publishedAt": "2025-12-11T17:49:20.000Z",
-      "contentHash": "901c596313ed"
+      "contentHash": "da2229d01963"
     },
     {
       "id": "c0344b99cf81",
@@ -3920,10 +4064,10 @@
       "id": "fbd9a28c3708",
       "title": "Gemini 2.5 TTS のアップデート - 2025年12月10日",
       "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "GoogleのGemini 2.5 Flash/Pro TTSプレビューが大幅強化。表現力とスタイル指示への忠実度向上、状況に応じたペース制御の改善、複数話者での声の一貫性向上を実現（低遅延版と高品質版、24言語対応）。",
+      "summary": "Gemini 2.5 Flash/ProのTTSプレビューが大幅強化され、表現力とスタイル忠実度が向上、状況に応じたペース制御や複数話者の音声一貫性を改善。低遅延版と高品質版を提供し、24言語対応。",
       "source": "npaka",
       "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "152bb8aea562"
+      "contentHash": "a53a9ccade13"
     },
     {
       "id": "61a85cfbb5d3",
@@ -8856,150 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-11-29T15:26:58.000Z",
       "contentHash": "efbbd0484a8e"
-    },
-    {
-      "id": "9f5f41f630e7",
-      "title": "Iceland declares ocean-current instability a national security risk",
-      "url": "https://www.dagens.com/news/iceland-declares-ocean-current-instability-a-national-security-risk",
-      "summary": "アイスランドが海流の不安定化を国家安全保障リスクに指定。海流変動が気候・漁業・沿岸インフラや経済に深刻な影響を及ぼすとして、監視強化や対策、国際協力を進める方針を示した。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T15:21:29.000Z",
-      "contentHash": "38d3cd4b77e4"
-    },
-    {
-      "id": "06ad73563fbd",
-      "title": "Iceland declares ocean-current instability a national security risk",
-      "url": "https://edition.cnn.com/2025/11/15/climate/iceland-warming-current-amoc-collapse-threat",
-      "summary": "CNNは、アイスランドが急速に温暖化し、氷床融解で大西洋横断循環（AMOC）が弱まり、崩壊リスクが高まっていると報じた。AMOC崩壊は欧州の気候変動や海面上昇、極端現象を悪化させる可能性があり、科学者は温室効果ガス削減と適応の必要性を警告している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T15:21:29.000Z",
-      "contentHash": "4bd10163a837"
-    },
-    {
-      "id": "5920ed4ec8d0",
-      "title": "What&#8217;s on your desk, Sarah Smithers?",
-      "url": "https://www.theverge.com/gadgets/826412/desk-apple-dog-plants",
-      "summary": "Sarah SmithersはThe Vergeのシニア編集コーディネーターで、入社手続きやフリーランス契約・支払、経費・出張・備品・予算管理などを担当。ジャージーシティの8×9ftの小部屋を在宅オフィスに改装し、夫Aleksと手作りのデスクを作った。趣味は手芸や雑学で、いつかJeopardyに出たい。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T15:00:00.000Z",
-      "contentHash": "2a0b4c1b1fff"
-    },
-    {
-      "id": "50c225ac10e1",
-      "title": "Skylight’s smart calendars are up to $120 off for Black Friday",
-      "url": "https://www.theverge.com/gadgets/831893/skylight-calendar-black-friday-deal-sale",
-      "summary": "Skylightのデジタル家族カレンダーがセール中。10インチが$129.99、15インチ$249.99、27インチ$499.99（Amazon/Skylight/BestBuy/Walmart等）。壁掛け/スタンド対応でタッチ操作、アプリでGoogle/Outlook/Apple/Cozi/Yahooと同期、色分けプロフィールや家事・献立管理が可能。有料Plus($79/年)でAI「Sidekick」による自動入力機能あり。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T14:41:49.000Z",
-      "contentHash": "1876af0a8ab2"
-    },
-    {
-      "id": "15d1340919c1",
-      "title": "The Verge’s guide to Black Friday 2025",
-      "url": "https://www.theverge.com/tech/808624/black-friday-cyber-monday-guide-2025",
-      "summary": "Black Fridayは過ぎたが、多くのセールはCyber Monday（12/1）まで継続中。ノートPC、OLEDテレビ、ヘッドホン等が割引。米国の関税で一部製品は値上がりしているが、厳選されたおすすめ割引や購入のコツ、注目セール情報を紹介している。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T14:21:34.000Z",
-      "contentHash": "a0c82e6ad28c"
-    },
-    {
-      "id": "e1caa653e171",
-      "title": "It's Always the Process, Stupid",
-      "url": "https://its.promp.td/its-always-the-process-stupid/",
-      "summary": "すみません、外部サイトへ直接アクセスできないため指定URLの内容を取得できません。記事本文か主要箇所を貼っていただければ、200文字以内で要約します。HNコメントも別途要約可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T14:20:46.000Z",
-      "contentHash": "7d69fc657c09"
-    },
-    {
-      "id": "3280c8e20f84",
-      "title": "DNS LOC Record (2014)",
-      "url": "https://blog.cloudflare.com/the-weird-and-wonderful-world-of-dns-loc-records/",
-      "summary": "DNSのLOCレコードはRFC1876で定められた、ドメインに緯度・経度・標高を紐付ける古いレコード型。表記やエンコードがややこしく精度や単位の扱いに注意が必要で普及しておらず、Cloudflareは仕様解説と事例、落とし穴を紹介している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T14:02:23.000Z",
-      "contentHash": "f7fc0bfd4439"
-    },
-    {
-      "id": "75faaed31cf2",
-      "title": "News Tower proves good journalism is no game",
-      "url": "https://www.theverge.com/games/830340/news-tower-indie-game-management-sim",
-      "summary": "「News Tower」はSteam配信の1930年代新聞経営シム。廃刊寸前の紙を継ぎ、資金や記者の管理、ライバル対策などを行いNY一流紙へ育てる。富豪の編集介入も想起させる。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T14:00:00.000Z",
-      "contentHash": "8fad1cc9fbe3"
-    },
-    {
-      "id": "2e483aafb611",
-      "title": "Hachi: An Image Search Engine",
-      "url": "https://eagledot.xyz/hachi.md.html",
-      "summary": "すみません、外部URLを直接参照できません。記事本文をここに貼っていただければ、200文字以内で日本語要約します。HNコメントの要約も可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T13:56:04.000Z",
-      "contentHash": "4573df2fb2ef"
-    },
-    {
-      "id": "145f6d5df27a",
-      "title": "【Python/Powershell】仮想環境を全然activateできなくて沼った | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/fc24dfd749d876",
-      "summary": "VSCodeのPowerShellでPython仮想環境が起動できなかった問題の解決手順。python -m venvで仮想環境を作成し、Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Forceで実行ポリシーを緩和してから仮想環境を有効化して起動する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-29T13:39:59.000Z",
-      "contentHash": "ffc3e17bb15c"
-    },
-    {
-      "id": "4c6a1fdf6536",
-      "title": "Why Honda is suddenly launching reusable rockets",
-      "url": "https://www.theverge.com/transportation/832364/honda-reusable-rocket-space-exploration",
-      "summary": "今年6月、ホンダが北海道の研究施設で全長約6メートルの再利用可能な試作ロケットを打ち上げ・着陸に成功した。自動車以外にも多様な輸送機器や先進技術を手掛けてきた同社が宇宙分野へ進出し、スペースXに対する競合の可能性がある。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T13:00:00.000Z",
-      "contentHash": "0a5fc257cb6b"
-    },
-    {
-      "id": "11eabf1c5e04",
-      "title": "The CRDT Dictionary: A Field Guide to Conflict-Free Replicated Data Types",
-      "url": "https://www.iankduncan.com/engineering/2025-11-27-crdt-dictionary/",
-      "summary": "外部サイトに直接アクセスできないため、記事本文を貼ってください。確認後、200文字以内で要約します。HNコメントも要約希望なら一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T12:25:35.000Z",
-      "contentHash": "cf7fdd614238"
-    },
-    {
-      "id": "17a33f7ed691",
-      "title": "LeSS Huge 実践現場を見て学んだ「自律するチーム」のつくり方 | Inside of LOVOT",
-      "url": "https://tech.groove-x.com/entry/20251129/1764417991",
-      "summary": "GROOVE XのScrumMaster・niwanoが11月26日、恵比寿のRed Hatで開催されたBas Vodde氏の特別講演（通訳: Odd-e榎本氏）に参加。WARTSILAの実例を通じたLeSS Huge導入事例から学びを得た。WARTSILAは大型船舶や発電所向けエンジンと保守を手掛ける。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-29T12:06:31.000Z",
-      "contentHash": "382884804efb"
-    },
-    {
-      "id": "6744d2623f3c",
-      "title": "Leak confirms OpenAI is preparing ads on ChatGPT for public roll out",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/",
-      "summary": "リークでOpenAIがChatGPTに広告を導入する準備を進め、公的展開を予定していることが判明した。社内資料やスクリーンショットが流出し、収益化強化の動きとともにプライバシーやユーザー反発への懸念が広がっている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T11:31:58.000Z",
-      "contentHash": "b0b5c917b2b5"
-    },
-    {
-      "id": "b55b57528a59",
-      "title": "Belgian Police exposed using botnets to manipulate EU data law impact assessment",
-      "url": "https://old.reddit.com/r/europe/comments/1p9kxhm/belgian_federal_police_forgot_to_turn_their_vpn/",
-      "summary": "ベルギー連邦警察が捜査時にVPNを有効にし忘れ、本来隠すべきIPや通信が露出。捜査計画や活動が明らかになり、重大なセキュリティ・プライバシー問題となった。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-29T11:10:39.000Z",
-      "contentHash": "b922f049b0ca"
-    },
-    {
-      "id": "a5529ebe52ef",
-      "title": "All the places I used my Trump Mobile wireless service this week",
-      "url": "https://www.theverge.com/tech/829414/trump-mobile-mvno-wireless-service-test",
-      "summary": "SIMカードは届いたが「Trump Phone」は未着で問い合わせ中。回答待ちの間にTrump MobileのMVNOを試用。カフェでホットスポット名が目立つか心配したが、問題なかった、という体験報告。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T11:00:00.000Z",
-      "contentHash": "0377dd4f5ed2"
     }
   ]
 }
