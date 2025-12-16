@@ -1,6 +1,285 @@
 {
-  "generatedAt": "2025-12-15T16:50:12.605Z",
+  "generatedAt": "2025-12-16T02:17:32.953Z",
   "items": [
+    {
+      "id": "a556d31fc479",
+      "title": "マニュアル作成用の「バニラな作業環境」を作りたい | Livesense Engineersのフィード",
+      "url": "https://zenn.dev/livesense/articles/7e04c7350cc207",
+      "summary": "手順書作成向けに「常に初期状態」の仮想環境を手軽に作る方法を紹介。Windowsは標準のWindows Sandbox、MacはVirtualization Frameworkを使うtartを解説し、ファイル共有やリセット方法の違いも説明。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-16T01:26:26.000Z",
+      "contentHash": "bb404a1eb323"
+    },
+    {
+      "id": "6f61aefc6d52",
+      "title": "Tailscale導入・運用時のテクニック | Axelspaceのフィード",
+      "url": "https://zenn.dev/axelspace/articles/154d91ebdd07c9",
+      "summary": "アクセルスペースのTailscale導入事例。IntuneでMSI配布（TS_NOLAUNCH等のプロパティ）、実行ファイル検出規則、ADMXを使った構成プロファイルで自動更新を一元管理する運用ノウハウを解説。対象はゼロトラスト推進のNW/セキュリティ/情シス担当者。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-16T01:24:47.000Z",
+      "contentHash": "26b4f547b76f"
+    },
+    {
+      "id": "bc845ccecd63",
+      "title": "Silksong is getting a free expansion next year",
+      "url": "https://www.theverge.com/news/845189/hollow-knight-silksong-sea-of-sorrow-dlc-expansion-switch-2",
+      "summary": "『Hollow Knight: Silksong』は今年発売。Team Cherryは2026年に無料大型拡張「Sea of Sorrow」(海テーマで新エリア・ボス・道具等)を配信予定。原作はSwitch 2向けに高フレーム・高解像度などの強化版が制作され、販売は700万本超、Game Passでも多数プレイされた。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-16T01:13:24.000Z",
+      "contentHash": "50efc82e08ba"
+    },
+    {
+      "id": "07d4773ededa",
+      "title": "Photoshop の UXP Plugin",
+      "url": "https://note.com/npaka/n/n22c8d5e846b6",
+      "summary": "Photoshopの公式拡張UXPプラグインはJS/HTML/CSSと専用APIで内部機能を追加し、レイヤー操作・画像編集・書き出し・バッチ処理やUI付きツールを作成可能。準備はPhotoshop・UXP Developer Tool・エディタで、UDTからテンプレート生成→Load & Watchで実行し開発者モードで動作確認します。",
+      "source": "npaka",
+      "publishedAt": "2025-12-16T01:12:09.000Z",
+      "contentHash": "ff60024ab29c"
+    },
+    {
+      "id": "37afca7d398b",
+      "title": "技術とコミュニティの熱気に触れて：try! Swift Tokyo &amp;amp; DroidKaigi 参加記 | Timee Product Team Blog",
+      "url": "https://tech.timee.co.jp/entry/2025/12/16/100728",
+      "summary": "タイミーのAndroidエンジニア・みかみがtry! Swift TokyoとDroidKaigi 2025に参加。try! SwiftでSwift×Androidやデザインの重要性に刺激を受け、DroidKaigiではPRスタッフとして動画配信等に携わりコミュニティの多様性と技術共有を実感した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-16T01:07:28.000Z",
+      "contentHash": "a2d9c9da73a7"
+    },
+    {
+      "id": "57d3e47df76b",
+      "title": "夏休み自由研究LT会、今年も実施しました☀️ | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/2025/12/16/100159",
+      "summary": "アソビューは夏休み自由研究LT会を開催。AIで献立生成を検証し、アプリで一括作成＋買物リスト運用が最適と結論。コード不要でChatGPTやSupabase等を組合せ作文ゲームも制作。多様な発表で交流を深め、心理的安全性を重視した場作りを継続。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-16T01:01:59.000Z",
+      "contentHash": "1d070c2985a2"
+    },
+    {
+      "id": "1eec06d15fa1",
+      "title": "プルリクビッグバンアタック | スタフェステックブログのフィード",
+      "url": "https://zenn.dev/stafes_blog/articles/3dd9d6ff1d4064",
+      "summary": "プルリクでレビュアーを圧倒する「ビッグバンアタック」を避けるため、変更は責務ごとにコミット・PRを分割し、説明やテストを充実させる。リファクタや自動整形は別PRにして差分を小さく保つ工夫を提案する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-16T01:00:05.000Z",
+      "contentHash": "915e5b404871"
+    },
+    {
+      "id": "5d8d43b2d3a5",
+      "title": "LG enters the RGB LED fray in 2026 with the Micro RGB evo TV",
+      "url": "https://www.theverge.com/news/844885/lg-micro-rgb-evo-led-tv-ces-2026",
+      "summary": "LGは2026年に初のフラッグシップRGBテレビ「Micro RGB evo」を発売。100/86/75型でアップグレード版Alpha 11搭載。Intertek認証によりBT.2020／DCI‑P3／Adobe RGBを100%カバー。価格は未定。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-16T01:00:00.000Z",
+      "contentHash": "dc3d72776095"
+    },
+    {
+      "id": "a378893ba88f",
+      "title": "LLMアプリケーションの性能評価手法「LLM as a Judge」とは？  | Dentsu Digital Tech Blog",
+      "url": "https://note.com/dd_techblog/n/nd685a8d5f87e",
+      "summary": "LLM as a Judgeとは、強力なLLMを評価者として正確性やトーン等の基準で生成文をスコアやランキングする枠組み。従来のn‑gram指標が苦手な意味的正確さや流暢さ、ハルシネーション検出を自動化・大規模化するため、評価基準設定・データ準備・プロンプト設計で運用する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-16T01:00:00.000Z",
+      "contentHash": "a9ac93f3c0f2"
+    },
+    {
+      "id": "b398f0134dd5",
+      "title": "Google Cloudの監査ログ一元化に向けた取り組み | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2025/12/16/100000",
+      "summary": "ANDPADはプロジェクト増加で監査ログ管理が複雑化。フォルダ階層とフォルダ単位の集約シンクで配下プロジェクトの監査ログをセキュリティ専用バケットへ自動集約し、設定漏れ防止・横断調査性向上を実現。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-16T01:00:00.000Z",
+      "contentHash": "e1b821485369"
+    },
+    {
+      "id": "1a223dedeb03",
+      "title": "Mac Studio M3 Ultra（96GBメモリ）でローカルLLMを動かす | GMO Developers",
+      "url": "https://developers.gmo.jp/technology/74987/",
+      "summary": "ローカルLLMはChatGPT等のクラウド型と異なり手元端末で動く大規模言語モデル。データを送らずプライバシー保護・低遅延・カスタマイズが可能だが、計算資源や性能・更新性に制約がある。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-16T01:00:00.000Z",
+      "contentHash": "de9300c11c06"
+    },
+    {
+      "id": "d30c03b518c6",
+      "title": "開発環境の再現性100%へ！Nixで実現する失敗しないオンボーディング | OPTiM TECH BLOG",
+      "url": "https://tech-blog.optim.co.jp/entry/2025/12/16/100000",
+      "summary": "Nixは宣言的で再現性と信頼性を担保するパッケージマネージャー。devShellで開発環境を均一化でき、home-managerやnix-darwinでホーム設定やmacOSを宣言的に管理。オンボーディングが容易になる一方、英語情報中心で学習コストあり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-16T01:00:00.000Z",
+      "contentHash": "776986abe640"
+    },
+    {
+      "id": "5cab21f2c03c",
+      "title": "AIでデバッグ機能を爆速生成し、開発・検証の「面倒」を根こそぎ削る | TVer Tech Blog",
+      "url": "https://techblog.tver.co.jp/entry/ishii/development-debug-ai",
+      "summary": "TVerのAndroidチームが、デバッグ機能をAIで高速生成し開発・検証の手間を削減。品質要件が緩くAI適合性が高いため、ID遷移・環境表示・AB強制などを即実装。非エンジニア参加やPR自動生成も検討中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-16T01:00:00.000Z",
+      "contentHash": "65d9e90b8339"
+    },
+    {
+      "id": "544686a35a37",
+      "title": "The best Apple Watch to buy",
+      "url": "https://www.theverge.com/23037217/best-apple-watch-series-se-ultra",
+      "summary": "iPhoneユーザーにはApple Watchが最適。現在は入門のWatch SE、標準のSeries、耐久型のUltraの3種があり、用途別に選べると著者が推奨。SEは多くの人向け、Seriesは健康管理重視、Ultraはアスリート向け。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-16T00:00:00.000Z",
+      "contentHash": "017bd1cee76c"
+    },
+    {
+      "id": "8fba061a8028",
+      "title": "The best AirPods to buy",
+      "url": "https://www.theverge.com/tech/645217/best-apple-airpods-pro",
+      "summary": "AirPodsは4モデルを展開。オーディオ共有、自動切替、ライブ翻訳、Apple TV連携などApple機器との強い相互機能が特長。まずイヤホン型か唯一のオーバーイヤー型AirPods Maxかで選ぶ。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T23:47:05.000Z",
+      "contentHash": "2d1f1eaf224c"
+    },
+    {
+      "id": "2fd4b10c6b89",
+      "title": "21 states and DC join the FTC’s lawsuit against Uber",
+      "url": "https://www.theverge.com/news/845071/ftc-uber-lawsuit-21-states-amended-complaint",
+      "summary": "米連邦取引委員会の訴訟に21州とDCが参加。ウーバーは利用者の同意なくUber Oneを課金、無料試用終了前に請求、節約効果を誇大表示し、解約を最大23画面・32操作で困難にしたと主張されています。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T23:17:29.000Z",
+      "contentHash": "2a03ad3f1650"
+    },
+    {
+      "id": "813abc571d54",
+      "title": "JetBlue flight averts mid-air collision with US Air Force jet",
+      "url": "https://www.reuters.com/world/americas/jetblue-flight-averts-mid-air-collision-with-us-air-force-jet-2025-12-15/",
+      "summary": "ジェットブルーの旅客機と米空軍機が空中で接近し、乗務員の回避行動（TCAS警報など）で衝突を回避した。けが人はおらず、FAAなどが原因を調査中で通信や運航手順の見直しが検討される。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T22:48:56.000Z",
+      "contentHash": "a548d12f1362"
+    },
+    {
+      "id": "f5ba8bdda930",
+      "title": "How Roomba invented the home robot — and lost the future",
+      "url": "https://www.theverge.com/tech/844964/how-irobot-invented-the-roomba-and-lost-the-future-of-home-robotics",
+      "summary": "ルンバは家庭用ロボットを普及させ、多くにとって初めてのホームロボ体験をもたらした。しかしアイロボットの没落はその時代の終焉を示し、共同創業者コリン・アングルはロボット分野への打撃と語る。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T22:46:09.000Z",
+      "contentHash": "fa4c782033bc"
+    },
+    {
+      "id": "744eb65304d1",
+      "title": "Apple TV adds Google Cast streaming, but only on Android",
+      "url": "https://www.theverge.com/news/844867/apple-tv-google-cast-android",
+      "summary": "Apple TVアプリがAndroid版でGoogle Castに対応。これまで欠けていた機能が追加されたが、iOS版では非対応で、Android版も引き続きAirPlayには対応していない。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T22:11:46.000Z",
+      "contentHash": "e12cf3583b3c"
+    },
+    {
+      "id": "2d3a0b08ac3e",
+      "title": "I tested 15 cases for the Switch 2 and these are the best",
+      "url": "https://www.theverge.com/reviews/691319/best-switch-2-cases",
+      "summary": "筆者がSwitch 2用ケース15種を検証。携帯用のキャリングケースや、使用中も装着できる保護ケース、スナップ式シェルなどを比較し、傷や輸送時の保護に適したおすすめを紹介。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T21:50:50.000Z",
+      "contentHash": "1493027f86a3"
+    },
+    {
+      "id": "578f5188da3c",
+      "title": "Ford kills the All-Electric F-150",
+      "url": "https://www.wired.com/story/ford-kills-electric-f-150-lightning-for-hybrid/",
+      "summary": "Wired報道：フォードが完全電動のF‑150 Lightningを事実上見直し、ハイブリッド版に注力する方針に転換。充電インフラや採算を理由に挙げる一方、脱炭素後退だと批判や顧客・投資家の反発を招いている。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T21:46:53.000Z",
+      "contentHash": "e904e7a63afa"
+    },
+    {
+      "id": "df69972775e9",
+      "title": "Fix HDMI-CEC weirdness with a Raspberry Pi and a $7 cable",
+      "url": "https://johnlian.net/posts/hdmi-cec/",
+      "summary": "リビングのSamsung TV（ARC）とクローゼットのDenon受信機でCECが不安定。HomeKit経由は遅延が出たため、Raspberry Piを/dev/cec0で直接HDMI-CECを監視し、Apple TVの挙動を模してPythonで制御・systemdで自動化した、という話。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T21:37:09.000Z",
+      "contentHash": "621a8686059e"
+    },
+    {
+      "id": "613cd62d54e7",
+      "title": "Secret Documents Show Pepsi and Walmart Colluded to Raise Food Prices",
+      "url": "https://www.thebignewsletter.com/p/secret-documents-show-pepsi-and-walmart",
+      "summary": "申し訳ありませんが、外部のURLを直接開けません。記事本文か主要部分をここに貼っていただければ、200文字以内で日本語要約を作成します。要点だけでも構いません。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T21:24:06.000Z",
+      "contentHash": "35bb45b8442f"
+    },
+    {
+      "id": "9d41d61c0259",
+      "title": "Ford’s big bet on EVs didn’t pan out — now it’s pivoting to hybrids and energy storage",
+      "url": "https://www.theverge.com/news/844813/ford-hybrid-erev-f150-energy-storage-jobs",
+      "summary": "フォードはEV販売低迷と巨額損失を受け、純電戦略を転換。ハイブリッド増産やAIデータセンター向け蓄電に注力し、航続約700マイルのレンジエクステンダー版F-150も投入予定。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T21:05:00.000Z",
+      "contentHash": "3923d3dd4c0b"
+    },
+    {
+      "id": "5753396bf897",
+      "title": "The PS5, PlayStation Portal, and Sony’s DualSense are still on sale for a limited time",
+      "url": "https://www.theverge.com/gadgets/844698/sony-ps5-playstation-portal-dualsense-controller-deal-sale-2025",
+      "summary": "ソニーがPS5（デジタル版）、PlayStation Portal、DualSenseなどを割引する年末セールを実施中。セールは一部が12月19日、他は28日に終了予定で、購入はお早めに。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-15T20:30:00.000Z",
+      "contentHash": "1f6103d3efa7"
+    },
+    {
+      "id": "c76560f71072",
+      "title": "A quarter of US-trained scientists eventually leave",
+      "url": "https://arxiv.org/abs/2512.11146",
+      "summary": "1980–2024年のデータで、米国で博士号取得のSTEM人材の25%が卒業後15年以内に米国を離れる。生命科学は低く、AI・量子は高いが傾向は数十年安定。移住後も特許被引用で米国は大きな恩恵を受け続ける。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T20:25:18.000Z",
+      "contentHash": "1203b64bbd8a"
+    },
+    {
+      "id": "d41432431c33",
+      "title": "Upcoming Changes to Let's Encrypt Certificates",
+      "url": "https://community.letsencrypt.org/t/upcoming-changes-to-let-s-encrypt-certificates/243873",
+      "summary": "Let’s Encryptは新しい「Generation Y」ルート/中間CAを導入（既存X1/X2でクロス署名）し、TLSクライアント認証を廃止予定。デフォルト切替は2026年5月13日。tlsclientは2026年5月までXルート継続、tlsserverとshortlivedは既にYへ移行。短期証明書の一般提供とIP対応を開始し、有効期限はCA/Browser要件に合わせ短縮（来年45日へオプトイン）。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T19:30:22.000Z",
+      "contentHash": "8ba74557f518"
+    },
+    {
+      "id": "ac5920b33b2d",
+      "title": "Umbrel – Personal Cloud",
+      "url": "https://umbrel.com",
+      "summary": "Umbrel Homeはプラグ＆プレイのホームクラウド端末とOS「umbrelOS」で、最大4TB SSD対応。ファイル保存・メディア配信・ビットコインノード運用やネットワーク全体の広告ブロックが可能。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T19:27:08.000Z",
+      "contentHash": "502de63691b9"
+    },
+    {
+      "id": "691dd6dee269",
+      "title": "“Super secure” messaging app leaks everyone's phone number",
+      "url": "https://ericdaigle.ca/posts/super-secure-maga-messaging-app-leaks-everyones-phone-number/",
+      "summary": "MAGA系をうたう「超安全」メッセージアプリが利用者全員の電話番号を流出。開発経験不足で旧アプリConversoの脆弱性（メタデータ収集、鍵の導出、公開Firebase保存）を引き継ぎ再出発したもの。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T19:23:51.000Z",
+      "contentHash": "4fca5f75e3d8"
+    },
+    {
+      "id": "8c170ca8a2b1",
+      "title": "Problems with D-Bus on the Linux desktop",
+      "url": "https://blog.vaxry.net/articles/2025-dbusSucks",
+      "summary": "D-Busは約20年前にGNOMEが導入した便利なアプリ間通信の発想だが、実装や仕様文書が無秩序で不十分。規格の混乱や遵守不足で「Garbage in, garbage out」になり、Linuxデスクトップの問題点だと著者は批判している。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T19:07:10.000Z",
+      "contentHash": "2a24a7cdb545"
+    },
+    {
+      "id": "950571eacddd",
+      "title": "Chafa: Terminal Graphics for the 21st Century",
+      "url": "https://hpjansson.org/chafa/",
+      "summary": "Chafaは端末で画像やアニメを高精度に擬似表示するツール。ANSI文字を多用して品質向上。設定オプションやギャラリー、man/C API、Python・JSバインディングがあり、Matrixで交流できます。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-15T18:16:34.000Z",
+      "contentHash": "edc64c24b17a"
+    },
     {
       "id": "d8132d08b5d1",
       "title": "GNOME bans AI-generated extensions",
@@ -27,6 +306,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-15T16:01:13.000Z",
       "contentHash": "c4b2e935e3c7"
+    },
+    {
+      "id": "443b82946f8d",
+      "title": "Bring your research to life with integrated visual reports from Gemini Deep Research.",
+      "url": "https://blog.google/products/gemini/visual-reports/",
+      "summary": "GeminiのDeep Researchが強化され、Google AI Ultra加入者は画像・グラフ・対話型シミュレーションを含む視覚的レポートを自動生成可能に。動的モデルで予測や複雑データの可視化ができ、洞察を得やすくする。",
+      "source": "Gemini",
+      "publishedAt": "2025-12-15T16:00:00.000Z",
+      "contentHash": "c342e35c056d"
     },
     {
       "id": "5f2316f10f00",
@@ -221,10 +509,10 @@
       "id": "b6c6fdb4c55a",
       "title": "Photoshop の 生成アップスケール",
       "url": "https://note.com/npaka/n/n95adb59fbef2",
-      "summary": "Photoshopの生成アップスケールはTopazなどのAIモデルで低解像度画像を高品質化。操作は「イメージ→アップスケール」でモデルと倍率を選ぶ。Firefly（自然・最大約37MP）、Topaz Gigapixel（高精細・最大約56MP）、Topaz Bloom（創造的・最大約9MP）。クレジットはAdobeアカウントで確認、フォトプランは契約日で月100/250クレジット。",
+      "summary": "Photoshopの生成アップスケールはTopaz/Firefly等のAIモデルで低解像度画像を高画質化する機能。Image→アップスケールでFirefly（自然寄り〜約37MP）、Topaz Gigapixel（高精細〜56MP）、Topaz Bloom（創造的〜9MP）を選択し、出力MPに応じてクレジットを消費。契約時期で月100/250クレジット、Adobeアカウントで残数確認。",
       "source": "npaka",
       "publishedAt": "2025-12-15T08:41:06.000Z",
-      "contentHash": "18f9435aefbf"
+      "contentHash": "e14c7997ed52"
     },
     {
       "id": "96e06f0ffb74",
@@ -257,10 +545,10 @@
       "id": "8a962fb7f688",
       "title": "HuggingFace Diffusers v0.36.0の新機能",
       "url": "https://note.com/npaka/n/n7d2c63951f1d",
-      "summary": "Diffusers v0.36.0では、Flux2やZ‑Image、QwenImage Edit Plus、Bria FIBOなど多数の新画像パイプラインとSana‑Video、Kandinsky5、Hunyuan等の動画モデルを追加。Flash Attention 2/3やSAGEのカーネルバックエンド導入で高速化、TaylorSeerキャッシュで最大3倍速、Flux.2統合のLoRA学習スクリプトも提供。",
+      "summary": "Diffusers v0.36.0では多数の新画像・動画モデル（Flux2、Z-Image、Bria FIBO、ChronoEdit、Sana-Video等）を追加し、Flash系/SAGEのカーネルアテンションバックエンドを導入、TaylorSeerキャッシュで最大3倍高速化、Flux.2統合の学習スクリプトやLoRA対応を実装しました。",
       "source": "npaka",
       "publishedAt": "2025-12-15T06:28:43.000Z",
-      "contentHash": "fec955142354"
+      "contentHash": "4eaebb2e8f67"
     },
     {
       "id": "2511a295f24c",
@@ -779,10 +1067,10 @@
       "id": "9facfec4eba1",
       "title": "Nano Banana Pro と Sora2 でアニメーション作成を試す",
       "url": "https://note.com/npaka/n/nd3300b886513",
-      "summary": "Nano Banana ProとSora2でアニメ制作を試行。Nano Banana ProでGeminiベースのカスタムプロンプトによりストーリーボード作成。そらみ＆へにへにの設定で台詞なしクレイアニメの9ショット（約12–18秒）構成、各フレーム指示と3×3コンタクトシート作成手順をまとめ。",
+      "summary": "Nano Banana ProとSora2でアニメ制作を試行。Nano Banana Proでそらみ（宇宙から来た少女）とへにへにの設定画を基に、Gemini連携のカスタムプロンプトで9カット約12–18秒のシネマ絵コンテを生成。各ショットの構成、環境・照明・カメラ指示や3×3のコンタクトシートまで詳細指定。",
       "source": "npaka",
       "publishedAt": "2025-12-14T07:36:51.000Z",
-      "contentHash": "30c2f73b4864"
+      "contentHash": "45187ff7c1a7"
     },
     {
       "id": "79b54061b018",
@@ -1157,10 +1445,10 @@
       "id": "d7da10e7b103",
       "title": "Gemini 2.5 TTS のプロンプトガイド",
       "url": "https://note.com/npaka/n/n5402bf2851d0",
-      "summary": "Gemini 2.5 TTS向けのプロンプトガイドをまとめた記事。音声生成で使うプロンプト例や提示法、設定のコツを紹介している。",
+      "summary": "Gemini 2.5 TTSは「何を話すか」だけでなく「どう話すか」まで指定可能。プロンプトは「誰（Audio Profile）／どんな場面（Scene）／どう演じるか（Director’s Notes）」をそろえ、Sample ContextとTranscriptを組み合わせると自然で感情のある音声が生成できる。例も掲載。",
       "source": "npaka",
       "publishedAt": "2025-12-13T21:32:47.000Z",
-      "contentHash": "be479b81c660"
+      "contentHash": "01797aa031b3"
     },
     {
       "id": "44da3c600b1b",
@@ -3443,10 +3731,10 @@
       "id": "8b24f6f5fac4",
       "title": "Interactions API の概要 - Google のモデルとエージェントの統合基盤",
       "url": "https://note.com/npaka/n/n671c92a70e5d",
-      "summary": "記事本文が貼られていないようです。全文かURLを送っていただければ200文字以内で要約します。もしよければ、OpenAIの「Interactions API」に関する一般的な要点（統一APIでモデルとエージェントを連携、マルチモーダル対応、ツール呼び出しや対話管理の簡素化等）で200文字要約を作成しても構いません。その場合要約を今すぐ作りますか？",
+      "summary": "GoogleのInteractions APIは、Geminiモデルと組み込みエージェントを統合する単一のRESTfulインターフェース。サーバー側履歴管理、構造化エージェント履歴、バックグラウンド実行、MCPツール対応で複雑なコンテキストや長時間推論を簡素化し、開発者向けにパブリックベータ提供。",
       "source": "npaka",
       "publishedAt": "2025-12-11T17:49:20.000Z",
-      "contentHash": "697273d86940"
+      "contentHash": "a079d97119c9"
     },
     {
       "id": "c0344b99cf81",
@@ -8712,294 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-12-06T17:00:00.000Z",
       "contentHash": "d5d5e6b5a1b9"
-    },
-    {
-      "id": "fbfd644690d0",
-      "title": "The tech world is sleeping on the most exciting Bluetooth feature in years",
-      "url": "https://www.theverge.com/report/839245/auracast-marketing-jbl-lg-samsung-google",
-      "summary": "Bluetoothの新機能「Auracast」は、ペアリング不要で複数機器が放送のように同一音源へ接続できる技術。イヤホンやテレビ、スマホに搭載済みで、空港アナウンスや授業、ジムのテレビなど聴覚支援や騒音下で便利だが、メーカーはほとんど宣伝していない。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-06T16:00:00.000Z",
-      "contentHash": "2d201386cb71"
-    },
-    {
-      "id": "1456bb6bf312",
-      "title": "Mad Men&#8217;s special effects foreman hasn&#8217;t seen the infamous 4K remaster",
-      "url": "https://www.theverge.com/entertainment/839591/man-men-shannon-thompson-interview",
-      "summary": "HBO Maxで配信されたMad Menの4Kリマスターに誤表示やスタッフの写り込みなどの重大なミスが発覚。原因はLionsgateが誤ったファイルを送ったためで、吐くシーンに特殊効果担当シャノン・トンプソンが映っていたが、本人はまだリマスターを見ていない。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-06T15:00:00.000Z",
-      "contentHash": "7af38f3255e2"
-    },
-    {
-      "id": "32d55470006e",
-      "title": "AI ‘creators’ might just crash the influencer economy",
-      "url": "https://www.theverge.com/entertainment/839494/ai-literacy-tiktok",
-      "summary": "ジェレミー・カラスコは今年6月にTikTokとInstagramで活動を始め、短期間で各30万人超を獲得。AIの基礎やツール解説を発信する“AIクリエイター”は、インフルエンサー経済を揺るがす可能性があると伝える。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-06T14:30:37.000Z",
-      "contentHash": "75b496dc8a27"
-    },
-    {
-      "id": "3e093a20c8d5",
-      "title": "Horses deserves to be played, even if it&#8217;s not very good",
-      "url": "https://www.theverge.com/games/839464/horses-review-santa-ragione-steam-epic-bans",
-      "summary": "HorsesはSteamやEpicで禁止されGOGで売れた検閲論争作。サンタ・ラジオーネと監督アンドレアの共作で、主人公アンセルモを追う3～4時間のFMVホラーだが、著者は凡作で禁止も賞賛も過剰と評する。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-06T14:00:00.000Z",
-      "contentHash": "e941525efa1d"
-    },
-    {
-      "id": "7ecf3cc44548",
-      "title": "Welcome to the big leagues, Netflix",
-      "url": "https://www.theverge.com/entertainment/839480/netflix-warner-bros-acquisition-hbo-theatrical-releases-layoffs",
-      "summary": "ワーナー・ブラザースは買収で波乱の歴史があるが、もしNetflixと合併すればストリーミング界の大舞台に躍り出て存在感が飛躍的に高まる、と論じる記事。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-05T22:02:58.000Z",
-      "contentHash": "6357e7987191"
-    },
-    {
-      "id": "450b90ac6945",
-      "title": "Chamberlain blocks smart home integrations with its garage door openers — again",
-      "url": "https://www.theverge.com/tech/839294/chamberlain-myq-garage-door-opener-update-blocks-aftermarket-controllers",
-      "summary": "チェンバーリンが新通信規格「Security+ 3.0」を導入。アフターマーケット製コントローラーや既存のスマートホーム連携を遮断し、MyQなどの互換性を失わせ、連携をサブスク前提に集中させる。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-05T21:00:00.000Z",
-      "contentHash": "2758417079b2"
-    },
-    {
-      "id": "71166cf50e1d",
-      "title": "Star Wars’ original theatrical cut returns to theaters in 2027",
-      "url": "https://www.theverge.com/news/839434/disney-star-wars-original-theatrical-cut-theaters-release-date",
-      "summary": "ディズニーは1977年の『スター・ウォーズ』（初公開版）を新たに復元し、ルーカスフィルム50周年企画として2027年2月19日から期間限定で劇場再上映すると発表。チケットは未発売で詳細はStarWars.com。英国映画協会が35mm初回プリントを披露していた。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-05T20:44:13.000Z",
-      "contentHash": "4d403687e97d"
-    },
-    {
-      "id": "68a97c4be90f",
-      "title": "The latest AI news we announced in November",
-      "url": "https://blog.google/technology/ai/google-ai-updates-november-2025/",
-      "summary": "11月のGoogle AIまとめ：学習・計画能力が強化されたGemini 3をSearchとアプリで公開。Gemini 3搭載の画像生成・編集モデル「Nano Banana Pro」登場。MapsやAndroid Autoに会話型Geminiを統合。テキサスへ400億ドルのAI・クラウド投資など教育・インフラも強化。",
-      "source": "Gemini",
-      "publishedAt": "2025-12-05T19:45:00.000Z",
-      "contentHash": "344b427d0371"
-    },
-    {
-      "id": "67421974e893",
-      "title": "15 examples of what Gemini 3 can do",
-      "url": "https://blog.google/products/gemini/gemini-3-examples-demos/",
-      "summary": "Googleの新モデルGemini 3はテキスト・画像・動画・音声・コードを統合理解し、100万トークンの文脈で学習・構築・計画や自動化を支援。Geminiアプリ、SearchのAIモード、AI Studioで利用可能。",
-      "source": "Gemini",
-      "publishedAt": "2025-12-05T17:00:00.000Z",
-      "contentHash": "17c0521a3140"
-    },
-    {
-      "id": "532931b675fc",
-      "title": "Google AI Pro and Ultra subscribers now have higher rate limits for Google Antigravity.",
-      "url": "https://blog.google/feed/new-antigravity-rate-limits-pro-ultra-subsribers/",
-      "summary": "新プラットフォーム「Antigravity」好評。Pro/Ultraは5時間ごと更新の最優先・大容量レート、無料は週単位の拡大上限に。全ユーザーがGemini 3 Proや無制限コード補完等を利用可能。",
-      "source": "Gemini",
-      "publishedAt": "2025-12-05T16:20:00.000Z",
-      "contentHash": "14e1c93c3789"
-    },
-    {
-      "id": "ee822c33e91f",
-      "title": "Gemini 3 Pro: the frontier of vision AI",
-      "url": "https://blog.google/technology/developers/gemini-3-pro-vision/",
-      "summary": "Gemini 3 ProはGoogle DeepMindの最先端マルチモーダル視覚AIで、文書・空間・画面・動画の理解や複雑な視覚推論、文書処理に高性能を発揮します。開発者向けドキュメントやGoogle AI Studioで利用可能です。",
-      "source": "Gemini",
-      "publishedAt": "2025-12-05T16:00:00.000Z",
-      "contentHash": "d23e1c00178b"
-    },
-    {
-      "id": "bd624e3f13a5",
-      "title": "AMD ROCm と LeRobot によるロボットVLMのファインチューニング",
-      "url": "https://note.com/npaka/n/nd22844facb78",
-      "summary": "AMDのROCmとHugging FaceのLeRobotを用い、3BパラメータVLM「Pi0」をMI200でファインチューニングし、Phoenix AI PCでリアルタイム推論を行う手順を紹介。Kochロボットとデュアルカメラによるピック＆プレースを少量データで適応させ、データセンター学習からエッジデプロイまでのスケーラビリティと実装手順を解説。",
-      "source": "npaka",
-      "publishedAt": "2025-12-04T19:05:42.000Z",
-      "contentHash": "17f7acc4d46d"
-    },
-    {
-      "id": "241f77b203d9",
-      "title": "Introducing OpenAI for Australia",
-      "url": "https://openai.com/global-affairs/openai-for-australia",
-      "summary": "OpenAIは「OpenAI for Australia」を立ち上げ、主権的なAIインフラを構築し、150万人超の労働者のスキル向上を支援し、国内の成長するAIエコシステムでのイノベーションを加速します。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-04T19:00:00.000Z",
-      "contentHash": "66108958bd9c"
-    },
-    {
-      "id": "02b6c7d970f3",
-      "title": "Gemini 3 Deep Think is now available in the Gemini app.",
-      "url": "https://blog.google/products/gemini/gemini-3-deep-think/",
-      "summary": "GoogleがGeminiアプリでUltra会員向けに「Gemini 3 Deep Think」モードを提供開始。並列推論で数学・科学・論理問題の推理力を大幅に向上し、Humanity’s Last ExamやARC-AGI-2で高成績を記録。Ultraは「Deep Think」とGemini 3 Proを選択して利用可能。",
-      "source": "Gemini",
-      "publishedAt": "2025-12-04T19:00:00.000Z",
-      "contentHash": "7aa039748022"
-    },
-    {
-      "id": "cac309a5d5d8",
-      "title": "OpenAI to acquire Neptune",
-      "url": "https://openai.com/index/openai-to-acquire-neptune",
-      "summary": "OpenAIはNeptuneを買収し、モデルの挙動可視化を深め、研究者が実験やトレーニングの追跡・監視を行うためのツールを強化する。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-03T10:00:00.000Z",
-      "contentHash": "42d02a54d0ee"
-    },
-    {
-      "id": "f45c751a8120",
-      "title": "How confessions can keep language models honest",
-      "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
-      "summary": "OpenAIの研究者が「confessions」という手法を試験中。モデルに誤りや望ましくない振る舞いを自ら認めさせるよう訓練し、AIの正直さ・透明性・出力への信頼性を高めることを目的としている。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-03T10:00:00.000Z",
-      "contentHash": "892a6dd65096"
-    },
-    {
-      "id": "86fb2e5f1141",
-      "title": "Announcing the initial People-First AI Fund grantees",
-      "url": "https://openai.com/index/people-first-ai-fund-grantees",
-      "summary": "OpenAI FoundationがPeople-First AI Fundの初回助成先を発表。コミュニティのイノベーションと機会創出を支援する208の非営利団体に総額4050万ドルの無条件助成を交付。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-03T08:00:00.000Z",
-      "contentHash": "9e421926781a"
-    },
-    {
-      "id": "182a8b7226b8",
-      "title": "Kling O1 の概要",
-      "url": "https://note.com/npaka/n/n1ab6a0873f26",
-      "summary": "Kling O1は世界初の統合型マルチモーダル動画モデル。MVLで自然言語を骨格に画像・動画・主体を統合理解し、テキストや素材で生成・編集を一元化。マスクやキーフレーム不要で背景差替え、時間帯・衣装変更、カメラワーク拡張など多様な操作を直感的に実行可能。",
-      "source": "npaka",
-      "publishedAt": "2025-12-02T21:03:09.000Z",
-      "contentHash": "4aab05938b12"
-    },
-    {
-      "id": "0d851cc96d24",
-      "title": "HIDAPI で Xboxコントローラを使う",
-      "url": "https://note.com/npaka/n/nd0315057401c",
-      "summary": "HIDAPIでXboxコントローラを使う方法を解説。HIDAPIはクロスプラットフォームのHIDライブラリでread/writeで状態取得や振動送信が可能。Pythonでhidapiをインストールし、vendor/product IDを調べるスクリプトとrawレポートを読み取るサンプルを示す。レポート形式は機種や接続方法で異なる。",
-      "source": "npaka",
-      "publishedAt": "2025-12-02T12:40:54.000Z",
-      "contentHash": "6f1f5e04c790"
-    },
-    {
-      "id": "643f709e602c",
-      "title": "Transformers v5 の概要",
-      "url": "https://note.com/npaka/n/n1d9d1aafab55",
-      "summary": "Transformers v5をリリース。v4から5年で1日当たりのインストールが急増（合計12億）、対応モデルは40→400超に拡大。v5は「シンプルさ」「学習」「推論」「プロダクション」に注力し、モジュール化、Attention抽象化、モデル変換ツールやコード削減で統合性と保守性を向上させる。",
-      "source": "npaka",
-      "publishedAt": "2025-12-02T02:11:46.000Z",
-      "contentHash": "61eafd1455fa"
-    },
-    {
-      "id": "946bf5413869",
-      "title": "Inside Mirakl's agentic commerce vision",
-      "url": "https://openai.com/index/mirakl",
-      "summary": "MiraklはAIエージェントとChatGPT Enterpriseを活用し、ドキュメント作成の迅速化や顧客サポートの高度化を実現。Mirakl Nexusでエージェントネイティブなコマース構築を目指す。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-01T22:00:00.000Z",
-      "contentHash": "627d8fbb2849"
-    },
-    {
-      "id": "966446f65fe7",
-      "title": "Gemini 3 and Nano Banana Pro in Search are coming to more countries around the world.",
-      "url": "https://blog.google/products/search/gemini-3-ai-mode-more-countries/",
-      "summary": "Googleは英語のAIモードでGemini 3を約120か国に導入。Google AI Pro/Ultraは「Thinking with 3 Pro」で利用可能。高度な推論・マルチモーダル理解で動的な視覚表示や対話型ツール、シミュレーションを生成。画像モデルNano Banana ProもPro/Ultra向けに拡大提供し、検索の可視化・理解を強化。",
-      "source": "Gemini",
-      "publishedAt": "2025-12-01T20:00:00.000Z",
-      "contentHash": "113ee8aeb649"
-    },
-    {
-      "id": "cd2c685fc846",
-      "title": "Funding grants for new research into AI and mental health",
-      "url": "https://openai.com/index/ai-mental-health-research-grants",
-      "summary": "OpenAIがAIとメンタルヘルス領域の研究に最大200万ドルの助成。実世界でのリスクや利点、応用を検証し、安全性と福祉の向上を目指すプロジェクトを支援。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-01T12:00:00.000Z",
-      "contentHash": "abe00f679e20"
-    },
-    {
-      "id": "18096a712e7f",
-      "title": "OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”",
-      "url": "https://openai.com/index/norad-holiday-collaboration",
-      "summary": "OpenAIとNORADが「NORAD Tracks Santa」に3つのChatGPTホリデーツールを導入。家族で祝祭エルフ作成、玩具のぬりえページ作成、オリジナルのクリスマス物語作成ができるようになった。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-01T06:00:00.000Z",
-      "contentHash": "3ceeaa171a95"
-    },
-    {
-      "id": "eb796a07f31d",
-      "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
-      "url": "https://openai.com/index/thrive-holdings",
-      "summary": "OpenAIがThrive Holdingsの持分を取得し、会計・ITサービスに最先端の研究・エンジニアリングを組み込んで企業のAI導入を加速。速度・正確性・効率を向上させ、産業全体の変革を拡大可能なモデルで推進する。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-01T05:00:00.000Z",
-      "contentHash": "349c741705cd"
-    },
-    {
-      "id": "15fd84c7f858",
-      "title": "Accenture and OpenAI accelerate enterprise AI success",
-      "url": "https://openai.com/index/accenture-partnership",
-      "summary": "アクセンチュアとOpenAIが協業し、企業の中核業務にエージェント型AIを組み込む支援を行い、新たな成長機会の創出を目指す。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-01T05:00:00.000Z",
-      "contentHash": "e731442bc639"
-    },
-    {
-      "id": "4f02991bc109",
-      "title": "Nano Banana Pro がもたらす画像生成AIの ChatGPTモーメント",
-      "url": "https://note.com/npaka/n/n38a74111ac13",
-      "summary": "Google DeepMindのGemini 3基盤「Nano Banana Pro」は、自然文で構図やカメラを制御し可読な多言語テキストを画像に埋め込み、最大14枚の参照や5人の一貫性維持、ネイティブ4Kを約20秒で生成、初回成功率95%でプロ用途を一般化する「画像生成のChatGPTモーメント」と評されるモデルです。",
-      "source": "npaka",
-      "publishedAt": "2025-11-30T12:24:48.000Z",
-      "contentHash": "971b801302cc"
-    },
-    {
-      "id": "083e6029f7c5",
-      "title": "X (旧Twitter) でサムネイルを更新する方法",
-      "url": "https://note.com/npaka/n/nc6b0d82972b0",
-      "summary": "Xに投稿した記事リンクのサムネイルが古いままなのは、XがURLごとにOGPをキャッシュしているため。cards-dev.twitter.com/validatorでURLを入力して「Preview card」を押すとキャッシュが更新され、再投稿で新しいサムネイルが表示されます。",
-      "source": "npaka",
-      "publishedAt": "2025-11-30T11:28:57.000Z",
-      "contentHash": "cfb6d6304604"
-    },
-    {
-      "id": "600e59f035b6",
-      "title": "データアナリストが挑む！心拍数とラップで導くサブ4マラソン | 分析屋",
-      "url": "https://note.com/bunsekiya_tech/n/n82cfb7d62081",
-      "summary": "分析屋の姫野が11月初旬に人生初のフルマラソンを完走。チームから「データを見て戦略を立てる点が仕事と似ている」と言われ、その経験を基にブログを書いている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-11-30T04:00:00.000Z",
-      "contentHash": "2eca6a47bebc"
-    },
-    {
-      "id": "668c40b324d7",
-      "title": "Tell HN: Regrets. Think carefully about how you spend your time",
-      "url": "https://news.ycombinator.com/item?id=46092688",
-      "summary": "手術を前に人生を省みる著者（50代前半）。少数の成果しか本質的でなく、小さな出来事が記憶に残る。今日を先延ばししないこと、他人を傷つけた過去の非倫理的行為への深い後悔と倫理の重さを語る。",
-      "source": "Hacker News",
-      "publishedAt": "2025-11-30T01:33:27.000Z",
-      "contentHash": "75b491ee7219"
-    },
-    {
-      "id": "4e413d0c63df",
-      "title": "The 201 Black Friday deals you can still get",
-      "url": "https://www.theverge.com/gadgets/832641/black-friday-2025-best-deals-tech-gadgets-still-available",
-      "summary": "ブラックフライデー後もAirPods Pro 3やPixel Watch 4、最新Kindleなどの目玉セールが継続中。全て在庫と価格を確認済み。家電中心に工具・LEGO・ボードゲームやストリーミング、サブスク割引もあり、随時更新中。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-30T01:30:51.000Z",
-      "contentHash": "dcc2c6e70a83"
-    },
-    {
-      "id": "de4cb4b8f773",
-      "title": "Anker’s handy little 3-port charger is just 35 bucks",
-      "url": "https://www.theverge.com/gadgets/833697/anker-prime-charger-67w-3-port",
-      "summary": "筆者は旅行用にAnkerの67W充電器を購入。USB-C×2・USB-A×1、折り畳みプラグでコンパクトながらMacBook Airやスマホを同時充電できる3in1。通常$49.99が割引で$34.99に。",
-      "source": "The Verge",
-      "publishedAt": "2025-11-29T23:00:00.000Z",
-      "contentHash": "148170e459fd"
     }
   ]
 }
