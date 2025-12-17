@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2025-12-17T02:14:28.473Z",
+  "generatedAt": "2025-12-17T08:53:44.899Z",
   "items": [
+    {
+      "id": "090116b93c83",
+      "title": "【アドベントカレンダー2025】DevTools で分かる Flutter アプリの動きと最適化の考え方 | ぐるなびをちょっと良くするエンジニアブログ",
+      "url": "https://developers.gnavi.co.jp/entry/adventcalendar-251217-2/",
+      "summary": "ぐるなび戸川氏がFlutter DevToolsでアプリの「重い・カクつく」を可視化し原因を切り分け。Performance/Network/Memoryで、UI Jankは過剰なrebuildやMediaQuery更新、Raster JankはsaveLayer（半透明や複雑合成）が原因と判定し、表現と性能のバランス調整を提案。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-17T07:00:00.000Z",
+      "contentHash": "d2e0edaa258d"
+    },
+    {
+      "id": "e55a7a545275",
+      "title": "データ基盤VisionでTROCCOを使い始めた理由と導入後の変化 | CARTA TECH BLOG",
+      "url": "https://techblog.cartaholdings.co.jp/entry/2025/12/17/154856",
+      "summary": "VisionでSnowflakeとスプレッドシート連携の負担と可視化不足を解消するためTROCCOを導入。非エンジニアでも設定可、転送時間課金、日本語サポートが採用理由。導入1か月で37件連携を低コストで実現し可視化は改善したが、データ整備の遅れという課題が顕在化した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-17T06:48:56.000Z",
+      "contentHash": "9a6759ad0c49"
+    },
+    {
+      "id": "90850fd863af",
+      "title": "2025年11月6日に発生した過去メトリック欠損障害についての詳細ご報告 | Mackerel ブログ #mackerelio",
+      "url": "https://mackerel.io/ja/blog/entry/announcement/20251217",
+      "summary": "2025年11月6日〜15日にMackerelで一部組織の過去メトリックが欠損。Redis→Valkey移行中の想定外失敗でデータ消失が原因。現在は復旧済み、流出なし。移行手順見直し等で再発防止を検討。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-17T06:30:00.000Z",
+      "contentHash": "4e017b30d060"
+    },
+    {
+      "id": "9654a9051505",
+      "title": "Cloud Runのメモリが3日で枯渇！犯人は10万のGoroutineとgRPCクライアントだった話 | STORES Product Blog",
+      "url": "https://product.st.inc/entry/2025/12/17/150539",
+      "summary": "Cloud Run上のGoサーバーがデプロイ後3日でメモリ95%超に。Datadogとpprofで約10万のGoroutine増加とgrpcsyncでのブロックを確認。原因はMiddlewareがリクエスト毎にcloudtasks.NewClientを作成しCloseせず放置、gRPCクライアントが大量生成されリークしたこと。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-17T06:05:39.000Z",
+      "contentHash": "15f17622b807"
+    },
+    {
+      "id": "743be3ccfc31",
+      "title": "[UE5]スプラインに沿って時を戻したい！ | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/53197/",
+      "summary": "関連記事は、UE5のUIレイアウト（ウィジェット作成と使い分け、2025/12/10）、マテリアルのSDF解説（距離場の仕組み、2025/12/03）、初心者向けの特殊床ギミックをブループリントで実装するチュートリアル（2025/11/26）です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-17T06:00:46.000Z",
+      "contentHash": "f291f6e6eb93"
+    },
+    {
+      "id": "c1076f653dd3",
+      "title": "思考の連鎖（CoT）を意識したプロンプトチューニングで VRT の要約を改善する | LIVESENSE ENGINEER BLOG",
+      "url": "https://made.livesense.co.jp/entry/2025/12/17/150000",
+      "summary": "VRTの差分は視覚的に分かりづらいため、Claude Codeで要約を自動化。Chain-of-Thoughtプロンプトで精度改善しCI連携で差分発生時のみ実行。見出し折返しやラベル表記ゆれ等の指摘に有効。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-17T06:00:00.000Z",
+      "contentHash": "27bcefdc66f6"
+    },
+    {
+      "id": "9a242f9c0be3",
+      "title": "【Zscaler】クイズで考える Zscaler の勘所 | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/zscaler_quiz1",
+      "summary": "Zscalerの要点をクイズ形式で紹介する記事。時間指定設定、inline/Endpoint DLPの挙動・例外、ZPAのFTP問題、古いルールの確認方法など6問を通じ技術共有を促す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-17T06:00:00.000Z",
+      "contentHash": "55eb29471676"
+    },
+    {
+      "id": "009e04afc76b",
+      "title": "『自分自身をプロダクトマネジメントせよ』―ラクス流PdM再育成のリアル | RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20251217/pdm",
+      "summary": "ラクスのPdM育成事例。入社後オンボーディングは順調だったが高難度案件でステークホルダー齟齬が発生し再育成に。原因はディスカバリー不足とアサインミス。読書・eラ・学習・ワークとバディ体制で再育成を進め、AI時代の「ジュニア不要論」に異議を唱える方針。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-17T06:00:00.000Z",
+      "contentHash": "e721261afe75"
+    },
+    {
+      "id": "96c8e3697d26",
+      "title": "プロダクトQAから横断QAへ。「当たり前品質」への試行錯誤とこれから | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/2025/12/17/142458",
+      "summary": "アソビューはプロダクトQAから横断QAへ移行し、顧客視点の「当たり前品質」を重視。2023年以降、本番問合せを基に不具合分析を行い、外部連携や相互運用性の問題が多いと判明。チーム別支援や重要度基準、CUJベースのSLO改善で品質可視化を進める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-17T05:24:58.000Z",
+      "contentHash": "ab1858628be0"
+    },
+    {
+      "id": "e17dab8677af",
+      "title": "AI活用を安定させる型「Diff-in / Merge-out」~翻訳タスクで学ぶ責務の分離~ | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/2025/12/17/141748",
+      "summary": "Diff-in/Merge-outを提案。AIには差分のみ渡し（Diff-in）、生成結果の反映はスクリプト/CIで自動化（Merge-out）し、手順をルール化して巨大コンテキストやJSON破壊、属人化を防ぎi18n運用を安定化する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-17T05:17:48.000Z",
+      "contentHash": "150fbb193bb6"
+    },
+    {
+      "id": "5da1b8954e85",
+      "title": "Tesla reports another Robotaxi crash",
+      "url": "https://electrek.co/2025/12/15/tesla-reports-another-robotaxi-crash-even-with-supervisor/",
+      "summary": "申し訳ありませんが、その記事の本文にはアクセスできません。記事の全文かURLを貼っていただければ、200文字以内で日本語要約します。要点だけ教えていただいても可。推測要約をご希望ならその旨お伝えください。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-17T02:52:22.000Z",
+      "contentHash": "bc936778803c"
+    },
     {
       "id": "ea3971d81215",
       "title": "Even Trump’s chief of staff was ‘aghast’ at Elon Musk’s deadly USAID cuts",
@@ -131,10 +230,10 @@
       "id": "68e628b27ffb",
       "title": "GPT Image 1.5 プロンプトガイド",
       "url": "https://note.com/npaka/n/n454c5579125d",
-      "summary": "gpt-image-1.5は高精細なフォトリアル、低レイテンシ、編集耐性、顔・文字保持や精密なスタイル制御を備えた画像生成モデル。本ガイドは「背景→被写体→詳細→制約」の順で具体的にプロンプトを作り、カメラ・構図指定、テキストや複数画像の扱い、段階的な反復調整など実践的手法を解説します。",
+      "summary": "gpt-image-1.5は高精細なフォトリアリズム、低遅延、高い顔・文字保持や精密なスタイル制御を備えた画像生成モデル。プロンプトは「背景→被写体→詳細→制約」の順で具体的に書き、構図・光・タイポグラフィ・画像参照を明確にして、まず簡素な案から反復で調整。品質とレイテンシのトレードオフ設定や一度だけ行うセットアップ手順も解説。",
       "source": "npaka",
       "publishedAt": "2025-12-16T23:18:41.000Z",
-      "contentHash": "76a4e55b9350"
+      "contentHash": "7ff18e291199"
     },
     {
       "id": "e6aad8cab599",
@@ -153,6 +252,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-16T23:00:00.000Z",
       "contentHash": "2465b5129fa3"
+    },
+    {
+      "id": "f5ee94c95917",
+      "title": "I ported JustHTML from Python to JavaScript with Codex CLI and GPT-5.2 in hours",
+      "url": "https://simonwillison.net/2025/Dec/15/porting-justhtml/",
+      "summary": "著者がJustHTMLを最小工数でPythonからJavaScriptへ移植。Codex CLIとGPT-5.2で約4時間、依存なしのjustjshtmlを作り、html5lib-testsの約9,200テストを通過。HTML5仕様の不正HTML処理とhtml5lib-testsの重要性も指摘。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-16T22:48:56.000Z",
+      "contentHash": "cda1f76561bb"
     },
     {
       "id": "276f9b422b84",
@@ -191,13 +299,22 @@
       "contentHash": "6dc1507cf2ef"
     },
     {
+      "id": "6220cc60e12c",
+      "title": "No AI* Here – A Response to Mozilla's Next Chapter",
+      "url": "https://www.waterfox.com/blog/no-ai-here-response-to-mozilla/",
+      "summary": "Waterfox開発者はMozillaのAI優先路線を批判。透明で監査可能なローカルMLは評価するが、LLMはブラックボックスで検証不能。ブラウザは利用者の代理であり思考すべきでないとしてWaterfoxはAIを搭載しない。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-16T22:07:49.000Z",
+      "contentHash": "380369a27107"
+    },
+    {
       "id": "2b6dd27e3016",
       "title": "MIT professor shot at his Massachusetts home dies",
       "url": "https://www.bbc.com/news/articles/cly08y25688o",
-      "summary": "マサチューセッツ州でMIT教授ヌーノ・ルイレイロ氏（47）が自宅で複数回銃撃され、搬送先の病院で死亡。容疑者は不明で警察は殺人事件として捜査中。ポルトガル出身の融合研究者で2016年にMIT着任、2024年にプラズマ科学融合センター長に就任、家族がいる。",
+      "summary": "マサチューセッツ州で自宅アパート外で銃撃され入院していたMIT教授ヌーノ・ゴメス＝ロウレイロ氏（47）が死亡。警察は殺人として捜査中で逮捕者なし。理論物理・核融合の研究者で2016年にMIT着任、2024年にプラズマ科学・融合センター長に就任し、家族を残した。",
       "source": "Hacker News",
       "publishedAt": "2025-12-16T21:52:26.000Z",
-      "contentHash": "c934eff04623"
+      "contentHash": "35fb6eedbe34"
     },
     {
       "id": "157a5f42fab2",
@@ -230,10 +347,10 @@
       "id": "61a9f6a4952c",
       "title": "GPT Image 1.5 の概要",
       "url": "https://note.com/npaka/n/n52e39582761b",
-      "summary": "OpenAIがChatGPT Images（GPT Image 1.5）を公開。生成速度が最大4倍、細部まで一貫した編集・指示追従が向上し、テキスト描画や変換機能も強化。画像ホームと多数プリセットを追加、APIは保存性改善とコスト20%削減。",
+      "summary": "OpenAIがChatGPT Images（GPT Image 1.5）を公開。生成は最大4倍高速化し、細部を保った高精度編集・指示遵守や細かいテキスト処理が向上。プリセットや画像ホーム追加、APIで機能同等かつコスト20%削減。",
       "source": "npaka",
       "publishedAt": "2025-12-16T20:43:23.000Z",
-      "contentHash": "5464d96c5eb3"
+      "contentHash": "f8f004ceb332"
     },
     {
       "id": "d31b1be8fa2e",
@@ -248,19 +365,19 @@
       "id": "82f33e981f41",
       "title": "Vibe coding creates fatigue?",
       "url": "https://www.tabulamag.com/p/too-fast-to-think-the-hidden-fatigue",
-      "summary": "著者はClaude CodeとCursorでプロンプト管理ツールMarvaiを高速開発する中、AIが生成する高速なコードに追いつかず短時間で認知疲労を感じると報告する。AIによる過度なペースが脳の処理限界を超え、休憩が必要になる新たな問題を指摘し、チームの認知負荷の概念に言及している。",
+      "summary": "著者はClaude CodeとCursorでコード作成や修正を高速化したが、AIの速さで次々に完了・確認することで認知的疲労を感じるようになった。これはTeam Topologiesの認知負荷と関連する新たな問題だ。",
       "source": "Hacker News",
       "publishedAt": "2025-12-16T18:32:46.000Z",
-      "contentHash": "78375932dd25"
+      "contentHash": "52ff2a89bdde"
     },
     {
       "id": "e3939714c5d8",
       "title": "GPT Image 1.5",
       "url": "https://openai.com/index/new-chatgpt-images-is-here/",
-      "summary": "リンク先を直接開けないため本文を取得できません。要約を希望なら記事本文を貼ってください。あるいは「gpt-image-1.5 の公式説明を基に短く要約して」と許可いただければ、私の知識に基づく200字以内の要約を作成します。どちらにしますか？",
+      "summary": "OpenAIのgpt-image-1.5は画像理解と生成に対応するマルチモーダルAPIモデルです。画像入力で説明・質問応答・編集（インペイント等）や生成を行う方法、サンプルコード、パラメータ、利用上の安全性・規約注意点を解説しています。",
       "source": "Hacker News",
       "publishedAt": "2025-12-16T18:07:07.000Z",
-      "contentHash": "030571a15f17"
+      "contentHash": "a73558994d78"
     },
     {
       "id": "da8e6b4ca29a",
@@ -617,10 +734,10 @@
       "id": "07d4773ededa",
       "title": "Photoshop の UXP Plugin",
       "url": "https://note.com/npaka/n/n22c8d5e846b6",
-      "summary": "PhotoshopのUXP Pluginは、JavaScript/HTML/CSSとPhotoshop専用APIでPhotoshop内部に機能を追加する公式拡張。レイヤー操作、リサイズ、書き出し、batchPlay対応で自動化やワークフロー改善に便利。UDTでテンプレートを選び作成・Load & Watchで動作確認。",
+      "summary": "Photoshop内部に機能を追加する公式拡張プラットフォーム「UXP Plugin」。モダンJS/HTML/CSSとPhotoshop APIでレイヤー操作、トリミング、書き出し、バッチ処理等を自動化。Photoshop・UXP Developer Tool・エディタを用意し、UDTのテンプレートからプラグインを作成→Load & Watchで実行・確認。",
       "source": "npaka",
       "publishedAt": "2025-12-16T01:12:09.000Z",
-      "contentHash": "eaa2e8c50c67"
+      "contentHash": "aefff1eb6ac4"
     },
     {
       "id": "37afca7d398b",
@@ -2057,10 +2174,10 @@
       "id": "d7da10e7b103",
       "title": "Gemini 2.5 TTS のプロンプトガイド",
       "url": "https://note.com/npaka/n/n5402bf2851d0",
-      "summary": "Gemini 2.5 TTSのプロンプトガイド。ユーザーが監督となり「誰が／どこで／どう話すか」を細かく指定。Audio Profile・Scene・Director’s Notes・Sample Context・Transcriptを組み合わせ、声質・速度・強弱・息遣い・アクセント等を指示して自然な感情表現を得る方法を解説。",
+      "summary": "Gemini 2.5 TTSは「何を話すか」だけでなく「どう話すか」まで指定できるTTS。プロンプト作成は「誰が」「どんな場面で」「どう演じるか」を揃えるのがコツ。構成要素はAudio Profile、Scene、Director’s Notes、Sample Context、Transcriptで、速度・強弱・息遣い・アクセントなど細かく指示すると自然で感情豊かな音声が生成される。",
       "source": "npaka",
       "publishedAt": "2025-12-13T21:32:47.000Z",
-      "contentHash": "b43b41078014"
+      "contentHash": "0ac8f309f593"
     },
     {
       "id": "44da3c600b1b",
@@ -4316,10 +4433,10 @@
       "id": "d3945e6ac563",
       "title": "Gemini Deep Research Agent の概要",
       "url": "https://note.com/npaka/n/n9e52f89e8585",
-      "summary": "Googleが「Gemini Deep Research Agent」を公開。Gemini 3 Proを核に長時間・多段階の自律Web調査を高精度で実行し幻覚を低減。DeepSearchQA（900課題）を公開し、金融・バイオ・市場調査などで実運用、各種Google製品へ順次導入予定。",
+      "summary": "GoogleはInteractions API経由で強化版「Gemini Deep Research Agent」を公開。Gemini 3 Proを核に多段階強化学習で深層Webを自律調査し、高精度で低コストなレポートを生成。網羅性評価用ベンチマーク「DeepSearchQA」（900タスク）をオープン化し、金融やバイオなどで実運用が進む。",
       "source": "npaka",
       "publishedAt": "2025-12-11T18:08:56.000Z",
-      "contentHash": "416dad7c03e4"
+      "contentHash": "68e1183db61f"
     },
     {
       "id": "2d181d7810ca",
@@ -8883,123 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-08T01:47:11.000Z",
       "contentHash": "5d12d9b2ad86"
-    },
-    {
-      "id": "3e9f3d63b616",
-      "title": "You need to watch the modern horror masterpiece, His House",
-      "url": "https://www.theverge.com/entertainment/839753/watch-modern-horror-masterpiece-his-house",
-      "summary": "リミ・ウィークスの長編デビュー作『His House』（2020）は、「トラウマが怪物」という定番を巧みに使った現代ホラー。南スーダン難民ボルとリアルを描き、ソープ・ディリスとウンミ・モサクの熱演（特にモサク）が光る。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-08T01:45:45.000Z",
-      "contentHash": "81d167527bcd"
-    },
-    {
-      "id": "279ad923876a",
-      "title": "How Virgin Atlantic uses AI to enhance every step of travel",
-      "url": "https://openai.com/index/virgin-atlantic-oliver-byers",
-      "summary": "ヴァージン・アトランティックのCFOオリバー・バイヤーズは、同社がAIを活用して開発速度の向上、意思決定の改善、顧客体験の質向上を図っていると述べた。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-08T00:00:00.000Z",
-      "contentHash": "5e9275efdd3b"
-    },
-    {
-      "id": "904e3e14055c",
-      "title": "AI Coding Agentを “ツール” ではなく “部下” として扱うための開発環境 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-      "url": "https://developers.cyberagent.co.jp/blog/archives/60265/",
-      "summary": "CyberAgentのCIUは多数のkopsクラスタ運用を改善するため、kops仕様をTerraform化しモジュール化した単一リポジトリとCIでクラスタ作成・運用・更新を自動化。設定重複を削減し安全なロールアウトを実現した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-07T23:00:15.000Z",
-      "contentHash": "55cdfa26cbd2"
-    },
-    {
-      "id": "e39f83fa2204",
-      "title": "【AWS re:Invent 2025】AWSサービスを使って能動的防御を実践 | カミナシ エンジニアブログ",
-      "url": "https://kaminashi-developer.hatenablog.jp/entry/2025/12/08/aws-reinvent-2025-active-cyberdefence",
-      "summary": "カミナシ認証認可チームのmanatyが今年のre:Invent（12/1–5）参加レポ。最終日に受講した「AWSのAI/MLを使った能動的防御（サイバー欺瞞）」ワークショップを紹介し、攻撃前の兆候検知と対処を解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-07T23:00:00.000Z",
-      "contentHash": "a4688b0fbc8d"
-    },
-    {
-      "id": "f0ab84ba08b0",
-      "title": "New RelicでAWS Healthイベントを監視してみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/aws-health-monitoring-using-new-relic",
-      "summary": "AWS HealthのイベントをNew Relicで一元管理する方法を解説。障害やスケジュール変更を効率的に監視・通知し、運用の安定性と対応力を向上させる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-07T23:00:00.000Z",
-      "contentHash": "87f067ba51d6"
-    },
-    {
-      "id": "233f9e044c48",
-      "title": "データエンジニアリングのAI駆動開発: Data Contractを応用したデータパイプラインの生成 | 電通総研 テックブログ",
-      "url": "https://tech.dentsusoken.com/entry/2025/12/08/%E3%83%87%E3%83%BC%E3%82%BF%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%AEAI%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA%3A_Data_Contract%E3%82%92%E5%BF%9C%E7%94%A8%E3%81%97",
-      "summary": "Data Contractを活用してAI駆動のデータパイプラインを設計・実装・検証し、データ品質保証や契約遵守、運用自動化、性能評価に関する手法と成果を示します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-07T23:00:00.000Z",
-      "contentHash": "0be7036c9db3"
-    },
-    {
-      "id": "fb0639824923",
-      "title": "OpenAPIから型定義を自動生成して TypeScriptの型管理を効率化する | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n1d06a4c88d5d",
-      "summary": "For Engineersアドベントカレンダー2025のDay.6記事です。For Everyoneアドベントカレンダー2025も毎日公開中なので、合わせてご覧ください。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-07T23:00:00.000Z",
-      "contentHash": "8165317e41fb"
-    },
-    {
-      "id": "709ffffc68ec",
-      "title": "時系列でふりかえる！2歳男子ワーママの復職後のリアルライフ | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/nc16072f61f11",
-      "summary": "For Everyone アドベントカレンダー2025 Day.8の記事紹介。For Engineersのアドベントカレンダーも毎日更新中で、記事はQiitaのSHIFT Group技術ブログ（Qiita Advent Calendar 2025）でも公開されています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-07T23:00:00.000Z",
-      "contentHash": "1591de2fc09e"
-    },
-    {
-      "id": "105211cdc56f",
-      "title": "Chrome拡張機能を自動リロードするVite Pluginを自作してみた | iimon TECH BLOG",
-      "url": "https://tech.iimon.co.jp/entry/2025/12/08",
-      "summary": "SREのhogeが、普段はインフラ業務の傍らChrome拡張開発を手伝う中で開発体験を改善するため、拡張機能の自動リロード（ホットリロード）を自作した経緯と仕組みを紹介する記事。アドベント向けで実務導入は未実施。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-07T22:49:12.000Z",
-      "contentHash": "a3dd0cc66885"
-    },
-    {
-      "id": "760b21788966",
-      "title": "Netflix CEO made a visit to the White House before buying Warner Bros.",
-      "url": "https://www.theverge.com/news/839749/netflix-ceo-visit-white-house-warner-bros",
-      "summary": "11月、Netflix共同CEOテッド・サランドスがホワイトハウスでトランプ氏と会談し、ワーナー買収入札を協議。「即時の反対はない」と感じ、Netflixは827億ドルで落札。パラマウントのエリソン親子は政権との関係を強調していた。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-07T22:34:20.000Z",
-      "contentHash": "c9db44d65928"
-    },
-    {
-      "id": "a191f351fbdd",
-      "title": "Bag of words, have mercy on us",
-      "url": "https://www.experimental-history.com/p/bag-of-words-have-mercy-on-us",
-      "summary": "筆者はAIに人間性を投影するのは誤った比喩だと指摘する。ChatGPTの自然な応答で「中に人がいる」と感じやすく、人は進化的に物に心を見出しがちで錯覚に注意すべき、という内容。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-07T22:31:22.000Z",
-      "contentHash": "b97a9b9fe2a0"
-    },
-    {
-      "id": "cf40f89591b3",
-      "title": "How I block all online ads",
-      "url": "https://troubled.engineer/posts/no-ads/",
-      "summary": "著者は数年かけてWeb広告を徹底排除。Firefox＋uBlock Originを基本に、最小限のフィルタ（uBlock内蔵、EasyList、AdGuard）と自作フィルタで迷惑要素も除去。手間はかかるが有効。クリエイター支援は別途推奨。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-07T22:18:59.000Z",
-      "contentHash": "a81988c72b16"
-    },
-    {
-      "id": "b40fc9b24eb9",
-      "title": "Jetsonを使うときの細かい話 | Inside of LOVOT",
-      "url": "https://tech.groove-x.com/entry/jetson_tips_2025_12",
-      "summary": "GROOVE Xアドベントカレンダー2025の8日目。fmyがJetson（LOVOTはOrin NX採用）での開発ノウハウを紹介。公式資料は充実するが、カメラ接続や非開発キットのキャリアボードでの不具合に悩まされるため、Jetson Linuxのブートフローなどアプリ開発者向けの役立つ知見を解説する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-07T22:00:00.000Z",
-      "contentHash": "6185880e8628"
     }
   ]
 }
