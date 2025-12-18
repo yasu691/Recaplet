@@ -1,6 +1,159 @@
 {
-  "generatedAt": "2025-12-18T02:14:58.993Z",
+  "generatedAt": "2025-12-18T08:53:11.125Z",
   "items": [
+    {
+      "id": "1ff786812209",
+      "title": "Google Colab で T5Gemma-TTS-2b-2b を試す",
+      "url": "https://note.com/npaka/n/ndd8bd0191b35",
+      "summary": "Google ColabでT5Gemma-TTS-2b-2bを試した手順とポイント。文章理解用と音声生成用の2つの2Bモデルで高品質かつ感情表現に強い。Hugging Face同意、GPU(L4推奨)、リポジトリクローン、requirements編集、ログイン後にinferenceで音声生成（初回約5分）。参照音声でVoice Cloning、--target_durationで長さ指定。商用利用に制限あり。",
+      "source": "npaka",
+      "publishedAt": "2025-12-18T07:43:42.000Z",
+      "contentHash": "09426f226b68"
+    },
+    {
+      "id": "b59af8f0a43e",
+      "title": "Kuxiu’s S3 MagSafe power bank is bigger and better and probably won’t explode",
+      "url": "https://www.theverge.com/reviews/846094/kuxiu-s3-solid-state-power-bank-review",
+      "summary": "Kuxiuの新型モバイルバッテリーS3はS2を改良。半固体（混合電解質）で熱暴走に強く、約1000回で容量が80%に低下。キックスタンドやUSB-C一体ケーブル、ワイヤレス同時充電対応。ただし価格は高め。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-18T07:30:14.000Z",
+      "contentHash": "e91cd82ec531"
+    },
+    {
+      "id": "dd85e5e81dc2",
+      "title": "Cowboy saddles up with a new owner",
+      "url": "https://www.theverge.com/news/847097/cowboy-acquired-by-rebirth-recycles-bankruptcy",
+      "summary": "ブリュッセルのeバイク会社Cowboyは、Peugeot等を傘下に持つReBirth Groupに買収された。ReBirthと既存株主から資金が注入され生産再開・部品不足解消を目指す。設計・開発は独立継続、創業CEOのAdrien Rooseは退任。2025年は納期遅延やフレームリコールで経営危機に陥っていた。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-18T07:02:10.000Z",
+      "contentHash": "83f6e0619662"
+    },
+    {
+      "id": "bf9777551c44",
+      "title": "ABEMA の信頼性を支える Dark Canary リリースの導入 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
+      "url": "https://developers.cyberagent.co.jp/blog/archives/60906/",
+      "summary": "記事の本文が途中で切れているようです。要約する全文を貼っていただくか、記事のURLを共有してください（こちらで自動取得はできません）。200文字以内の要望であることは確認しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-18T07:00:13.000Z",
+      "contentHash": "3b0b2d2de685"
+    },
+    {
+      "id": "1c7fc010f7fd",
+      "title": "【アドベントカレンダー2025】Gemini 3 Canvas × HTMLテンプレート活用術：GASを書かずに実用レベルのスライドを出力する | ぐるなびをちょっと良くするエンジニアブログ",
+      "url": "https://developers.gnavi.co.jp/entry/adventcalendar-251218-2/",
+      "summary": "Gemini 3のCanvasで社内テンプレを画像解析しHTML/CSS部品化、英語プロンプトで厳密指示することでGAS不要に。実用レベルのスライド自動生成を実現。<h1>禁止、Flexboxとインラインstyle推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-18T07:00:00.000Z",
+      "contentHash": "77ae23475476"
+    },
+    {
+      "id": "c7a0530fcaae",
+      "title": "Google Cloud コンテナイメージの脆弱性スキャンを自作 OSS で運用する | エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/drydock",
+      "summary": "Google Cloud Artifact Registryの組込スキャンでOSや依存パッケージの脆弱性検出は可能だが、一覧性や担当割当が乏しい。AIチームは自作OSS「Drydock」とGoogle Sheetsを組合せ運用し、コスト抑制と対応管理を実現した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-18T07:00:00.000Z",
+      "contentHash": "52255f0e70ea"
+    },
+    {
+      "id": "3dbfcc33a8bd",
+      "title": "高性能な日本語マルチモーダル基盤モデル「clip-japanese-base-v2」の公開 | LINEヤフー Tech Blog (LY Corporation Tech Blog",
+      "url": "https://techblog.lycorp.co.jp/ja/20251218a",
+      "summary": "LINEヤフーの研究チームが日本語マルチモーダル基盤モデル「clip-japanese-base-v2」をApache-2.0で公開。Common Crawlを大幅増強し、negCLIPLossやクリーンデータで学習したフィルタ用CLIPで5.4億の高品質画像・テキストペアを抽出、知識蒸留で性能を向上させています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-18T05:40:00.000Z",
+      "contentHash": "09985eccfe7a"
+    },
+    {
+      "id": "6acf22f78ccb",
+      "title": "Windows エクスプローラーのショートカットからMS TeamsやSharePoint上のドキュメントリンクを直接開く | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/nbbf6ef96af71",
+      "summary": "Windowsエクスプローラーのショートカットで、リンク前にアプリ用プロトコルを付ける（例：msteams://、ms-powerpoint:ofe|u|、ms-excel:ofe|u|、ms-word:ofe|u|）と、TeamsやSharePointの文書をブラウザを経由せず直接アプリで開ける。IMEに登録すれば入力も簡単。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-18T05:33:52.000Z",
+      "contentHash": "1d8e95a3eb03"
+    },
+    {
+      "id": "0ea69d137e57",
+      "title": "クライアント案件単位で開発を管理する「プロジェクト駆動開発」ワークフロー | ENECHANGE Developer Blog",
+      "url": "https://tech.enechange.co.jp/entry/2025/12/18/141338",
+      "summary": "複数クライアント向けAPIで「なぜ/誰のため」を残せない課題を解決するため、案件をDevelopment→Feature→Taskの3階層で管理し、issue.md等をリポジトリで一元化、階層対応のブランチ/PRとClaudeコマンドで自動化するワークフローを導入した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-18T05:13:38.000Z",
+      "contentHash": "7515fd3615c2"
+    },
+    {
+      "id": "a6d44b860565",
+      "title": "製造業DX「meviy」の開発現場におけるAIエージェント活用 | DTダイナミクス テックブログ",
+      "url": "https://techblog.dt-dynamics.com/entry/2025/12/18/140853",
+      "summary": "meviyは3D CADをアップロードするだけで製造可否・価格・納期提示と加工プログラム自動生成し工場直結、最短1日出荷を実現。DTダイナミクスは内製で技術統合し、Gemini/VertexベースのAIエージェントで開発工程の可視化、属人知の形式知化、仕様理解自動化を進め生産性と問い合わせ工数を削減。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-18T05:08:53.000Z",
+      "contentHash": "eaa6e2d64f4c"
+    },
+    {
+      "id": "9957e67682be",
+      "title": "対面での夏季就業体験「セキュリティ監視コース」実施レポート | MOTEX TECH BLOG",
+      "url": "https://tech.motex.co.jp/entry/2025/12/18/140714",
+      "summary": "エムオーテックスが実施した2日間のセキュリティ監視就業体験レポート。現役アナリスト指導の下でリアルなインシデント対応を体験し、現場の最前線を学べる貴重な機会だった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-18T05:07:14.000Z",
+      "contentHash": "a268043c84f9"
+    },
+    {
+      "id": "06f087ae69f0",
+      "title": "Vue Fes Japan2025 参加レポート【前編】 | istyle Tech Blog",
+      "url": "https://techblog.istyle.co.jp/archives/9738",
+      "summary": "アイスタイルの岡下がVue Fes Japan 2025参加レポ。Daniel Roe氏のNuxt講演を中心に、フォント管理、KV/キャッシュ統合、画像最適化、部分ハイドレーションや高速バンドラなどDX向上の取り組みとコミュニティの重要性、ライブマージの一幕を報告。後編は伊藤と共著。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-18T05:05:01.000Z",
+      "contentHash": "7c00c2c40fc8"
+    },
+    {
+      "id": "b4df56889cc6",
+      "title": "動画推薦モデルの推薦粒度を磨いて視聴時間を向上させた話 | Gunosy Tech Blog",
+      "url": "https://tech.gunosy.io/entry/improve_personalized_video_recommendation_system",
+      "summary": "auShortの推薦で「総視聴時間」とモデル目的の乖離や推薦粒度の粗さが課題に。視聴時間直接予測は断念し、特徴抽出ライブラリ刷新や各フィールド別エンコーダー・重み付け・Pooling調整、パラメータ微調整で粒度を細分化。結果、より特定のチームやシリーズに刺さる推薦となり視聴時間が向上。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-18T05:00:00.000Z",
+      "contentHash": "578677d2ed66"
+    },
+    {
+      "id": "28de4f81039d",
+      "title": "The ChatGPT app store is here",
+      "url": "https://www.theverge.com/news/847067/openai-app-store-directory-sdk-chatgpt",
+      "summary": "OpenAIがChatGPTのアプリディレクトリと開発者向けSDKを公開。従来の「コネクタ」は「ファイル検索・ディープリサーチ・同期」などの機能を持つ「アプリ」に改称され、Apple MusicやDoorDash連携などでChatGPTを“何でもアプリ”化へ進展。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-18T04:27:39.000Z",
+      "contentHash": "71ddb4474615"
+    },
+    {
+      "id": "d2c9bb88bc45",
+      "title": "Sony&#8217;s legal battle against Tencent&#8217;s Horizon ‘clone’ is already over",
+      "url": "https://www.theverge.com/news/847080/sony-tencent-lawsuit-horizon-clone-light-of-motiram-settlement",
+      "summary": "ソニーはテンセントのゲーム『Light of Motiram』を『Horizon』の「克製クローン」として提訴していたが、両社は機密の和解に合意し訴訟は棄却。同作はSteamやEpicからも削除された。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-18T03:57:42.000Z",
+      "contentHash": "c2ec71fe708b"
+    },
+    {
+      "id": "aa4d0c2b2219",
+      "title": "【書評】 実践Claude Code入門",
+      "url": "https://note.com/npaka/n/n9ac45fcb2d16",
+      "summary": "『実践Claude Code入門』は、AIを魔法視せず仕様を言語化して計画・検証する「スペック駆動開発」を提案。Claude Codeを現場で安全に活用し、業務向けに安定した開発を行う実践ガイド。",
+      "source": "npaka",
+      "publishedAt": "2025-12-18T02:41:49.000Z",
+      "contentHash": "09e3c99e5990"
+    },
+    {
+      "id": "6f70792185da",
+      "title": "Ask HN: Those making $500/month on side projects in 2025 – Show and tell",
+      "url": "https://news.ycombinator.com/item?id=46307973",
+      "summary": "Hacker Newsの年次スレで「副業で独立できた」体験が共有されるまとめ。AIやSaaS（動画・画像生成、金融データ、株取引エージェント、語学ボット、セレクト販売等）で収益を上げ、保守を続けつつ会社を辞めて代理店も始めた投稿が並ぶ。感謝や驚きの声が多い。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-18T01:36:54.000Z",
+      "contentHash": "d48840d1d9d8"
+    },
     {
       "id": "7000092bb411",
       "title": "AWS Signerによるイメージ署名を用いてコンテナビルドパイプラインの妥当性を検証する | コドモン Product Team Blog",
@@ -104,10 +257,19 @@
       "id": "5798db588858",
       "title": "開発者は ChatGPT にアプリを提出できるようになりました",
       "url": "https://note.com/npaka/n/n02ca29e42475",
-      "summary": "開発者はChatGPT用アプリを提出・審査・公開できるようになりました。Apps SDKやガイド、サンプル、アプリディレクトリを提供し、会話内で実行可能な機能やワークフローを追加可能。審査・安全性・プライバシー規定が必須で、初期は外部サイトへの決済リンクが許可、将来的な収益化拡大を検討。ユーザーは接続をいつでも解除できます。",
+      "summary": "開発者はChatGPTにアプリを提出・審査・公開できるようになった。Apps SDKやサンプル、ガイドを提供し、会話中に起動する機能やアプリ一覧を導入。審査・安全性・プライバシー基準が必要で段階的に展開、収益化も今後検討。",
       "source": "npaka",
       "publishedAt": "2025-12-18T00:28:56.000Z",
-      "contentHash": "c247ac54bb97"
+      "contentHash": "7373da18d75b"
+    },
+    {
+      "id": "27b966460249",
+      "title": "TikTok unlawfully tracks shopping habits and use of dating apps?",
+      "url": "https://noyb.eu/en/tiktok-unlawfully-tracks-your-shopping-habits-and-your-use-dating-apps",
+      "summary": "noybがTikTokとそのデータ共有先AppsFlyer・Grindrに対し2件の苦情を提起。TikTokが他アプリ利用（例：Grindr）を追跡し、性的志向などの機微データを収集、アクセス請求に不完全応答（GDPR第9条・第15条違反）と主張。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-18T00:25:43.000Z",
+      "contentHash": "4c0644c9b726"
     },
     {
       "id": "b258f34f0b1c",
@@ -137,6 +299,15 @@
       "contentHash": "764eeda828f8"
     },
     {
+      "id": "72d62a1fabad",
+      "title": "Gut bacteria from amphibians and reptiles achieve tumor elimination in mice",
+      "url": "https://www.jaist.ac.jp/english/whatsnew/press/2025/12/17-1.html",
+      "summary": "すみませんが外部サイトへ直接アクセスできないため、記事本文を取得できません。記事本文（または要点）を貼り付けていただければ、200字以内で日本語要約を作成します。Hacker Newsのコメントも一緒に貼れば、それらも含めて要約できます。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-17T23:11:14.000Z",
+      "contentHash": "06fc8044b6cf"
+    },
+    {
       "id": "cd8da656dfc8",
       "title": "Brendan Carr doesn’t regret his threats to broadcasters",
       "url": "https://www.theverge.com/policy/846845/fcc-senate-commerce-oversight-hearing-brendan-carr",
@@ -155,6 +326,15 @@
       "contentHash": "fa765eb5f90a"
     },
     {
+      "id": "2011113d35e9",
+      "title": "Developers can now submit apps to ChatGPT",
+      "url": "https://openai.com/index/developers-can-now-submit-apps-to-chatgpt/",
+      "summary": "OpenAIは開発者向けにChatGPTアプリの提出受付を開始。Apps SDK（β）、サンプルやUIライブラリ、審査・公開・課金の仕組み、アプリディレクトリや会話内起動機能を提供。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-17T22:27:29.000Z",
+      "contentHash": "9c803e223a18"
+    },
+    {
       "id": "ba84cec09439",
       "title": "Meta pauses third-party Horizon VR headsets program",
       "url": "https://www.theverge.com/news/846762/meta-vr-headsets-third-party-program-horizon-os",
@@ -167,10 +347,10 @@
       "id": "d52fea22285c",
       "title": "I got hacked: My Hetzner server started mining Monero",
       "url": "https://blog.jakesaunders.dev/my-server-started-mining-monero-this-morning/",
-      "summary": "「‘Next.jsを使ってない’は依存が使ってないとは限らない」と学んだ話。Hetznerから不審なスキャン通報を受け、/tmp下でUID1001のプロセスが稼働しxmrigでMonero採掘が10日間続いていた。著者は慌てて対処を検討し、Claudeとのやり取りを記録。",
+      "summary": "Jake SaundersはHetznerからの通告でサーバーが攻撃源と指摘され、調査したら/tmpのxmrigプロセスが約10日間稼働してMoneroをマイニングしていたことが判明。Coolify上の低トラフィック環境で被害を受け、再構築を検討した。",
       "source": "Hacker News",
       "publishedAt": "2025-12-17T21:13:33.000Z",
-      "contentHash": "dbf6a4be6d65"
+      "contentHash": "63c8df29f59c"
     },
     {
       "id": "a6a99a7c1bd2",
@@ -203,10 +383,19 @@
       "id": "dad906039d7d",
       "title": "Gemini 3 Flash の概要",
       "url": "https://note.com/npaka/n/nf37046a85ab8",
-      "summary": "Googleは高速かつ低コストの新モデル「Gemini 3 Flash」を発表。Pro級の推論・マルチモーダル性能を維持しつつ、2.5系より平均30%少ないトークンで処理、数倍の速度と低料金でコーディングやエージェント、マルチモーダル分析に最適。世界展開中。",
+      "summary": "Googleが高速・低コストの新モデル「Gemini 3 Flash」を発表。Pro級の推論・マルチモーダル性能を維持しつつ低レイテンシで効率化、2.5 Proを上回るベンチマーク性能で開発・エージェント用途に最適。",
       "source": "npaka",
       "publishedAt": "2025-12-17T20:48:07.000Z",
-      "contentHash": "b5a2526740bc"
+      "contentHash": "44d76f3d0802"
+    },
+    {
+      "id": "3ead90cbfe17",
+      "title": "Why do commercial spaces sit vacant?",
+      "url": "https://archive.strongtowns.org/journal/2025/5/21/why-do-commercial-spaces-sit-vacant",
+      "summary": "高額都市で商業物件が長年空くのは、ビルが「金融商品」として扱われ、賃料を下げると融資の担保価値が毀損して銀行が差し押さえる恐れがあるため。銀行と貸主は差し押さえを避け延命策で市場回復を待つ。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-17T20:32:56.000Z",
+      "contentHash": "043246256d05"
     },
     {
       "id": "a0a71c8eac34",
@@ -752,10 +941,10 @@
       "id": "68e628b27ffb",
       "title": "GPT Image 1.5 プロンプトガイド",
       "url": "https://note.com/npaka/n/n454c5579125d",
-      "summary": "gpt-image-1.5は高精細なフォトリアリズムと編集耐性、低レイテンシを両立する画像生成モデル。プロンプトは背景→被写体→詳細→制約で構造化し、素材・構図・テキスト指定や反復で調整、品質と速度のトレードオフを管理する。",
+      "summary": "本文かリンクを貼っていただけますか？記事がない場合は、一般的な「Gpt-image-1.5 Prompting Guide」の要点（プロンプト構造、具体性、スタイル指定、ネガティブプロンプト、反復改善など）で200字以内に要約します。どちらがよいですか？",
       "source": "npaka",
       "publishedAt": "2025-12-16T23:18:41.000Z",
-      "contentHash": "59f38d62c32e"
+      "contentHash": "b169e54eba2a"
     },
     {
       "id": "e6aad8cab599",
@@ -869,10 +1058,10 @@
       "id": "61a9f6a4952c",
       "title": "GPT Image 1.5 の概要",
       "url": "https://note.com/npaka/n/n52e39582761b",
-      "summary": "OpenAIがChatGPT Images（API名 GPT Image 1.5）を発表。生成速度最大4倍、意図を保った高精度な画像編集、指示遵守や小さな文字対応など品質向上、画像ホームやプリセット搭載、APIは入出力コスト20%削減でブランドやEC向けに最適。",
+      "summary": "OpenAIがChatGPT Imagesの新モデル「GPT Image 1.5」を公開。生成速度が最大4倍、細部を保った高精度編集、指示追従性とテキスト描画の改善、画像ホームや多数のプリセットを提供。APIで保存・編集が強化され、コストが約20%削減。",
       "source": "npaka",
       "publishedAt": "2025-12-16T20:43:23.000Z",
-      "contentHash": "1a4b916a2776"
+      "contentHash": "a07ecbe343ea"
     },
     {
       "id": "d31b1be8fa2e",
@@ -1256,10 +1445,10 @@
       "id": "07d4773ededa",
       "title": "Photoshop の UXP Plugin",
       "url": "https://note.com/npaka/n/n22c8d5e846b6",
-      "summary": "PhotoshopのUXP PluginはPhotoshop内部に機能を追加する公式拡張で、モダンJS・HTML/CSS・専用APIでレイヤー操作、画像編集や書き出し、UI付きツールや自動化が可能。UDTでテンプレ選択して作成し、Load&Watchで実行・デバッグします。",
+      "summary": "PhotoshopのUXP PluginはモダンJS・HTML/CSS・Photoshop専用APIでPhotoshop内に機能を追加する公式拡張。レイヤー操作や書き出し、バッチ処理やUI付きツールの作成が可能。UDTでテンプレートから生成しLoad＆Watchで実行、事前にPhotoshop・UDT・エディタが必要。",
       "source": "npaka",
       "publishedAt": "2025-12-16T01:12:09.000Z",
-      "contentHash": "442d8ebedbff"
+      "contentHash": "e4280eea8aca"
     },
     {
       "id": "37afca7d398b",
@@ -1760,10 +1949,10 @@
       "id": "b6c6fdb4c55a",
       "title": "Photoshop の 生成アップスケール",
       "url": "https://note.com/npaka/n/n95adb59fbef2",
-      "summary": "Photoshopの「生成アップスケール」はTopaz等のAIモデルで低解像度画像を高画質化。メニューでモデル（Firefly/Gigapixel/Bloom）と倍率を選択して実行。各モデルの特徴・出力上限とクレジット消費、アカウントでのクレジット確認（月100/250件）を説明。",
+      "summary": "Photoshopの生成アップスケールはFirefly・Topaz Gigapixel・Topaz BloomなどのAIモデルで画像を高解像化。メニュー「画像→アップスケール」でモデルと倍率を選び、出力MP・画質傾向・消費クレジットがモデルごとに異なる。クレジットはAdobeアカウントで確認。",
       "source": "npaka",
       "publishedAt": "2025-12-15T08:41:06.000Z",
-      "contentHash": "4f2fc4d10d70"
+      "contentHash": "0771c0150a88"
     },
     {
       "id": "96e06f0ffb74",
@@ -8811,195 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-12-08T15:00:00.000Z",
       "contentHash": "12c181455fee"
-    },
-    {
-      "id": "cd737f52a585",
-      "title": "Camel Kafka コンポーネント | 赤帽エンジニアブログ",
-      "url": "https://rheb.hatenablog.com/entry/cac20251209",
-      "summary": "Apache Camel Advent Calendar 記事（古市）が Camel Kafka コンポーネントを紹介。OpenShift等でログルーティングに多用され、豊富なオプションとサンプルあり。検証は Docker か camel-jbang の infra（strimzi）で broker を起動し、camel cmd で送受信する手順を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T15:00:00.000Z",
-      "contentHash": "cc0ad655eae3"
-    },
-    {
-      "id": "097e5768c37a",
-      "title": "Antigravity 使用レビュー：次世代AIエディタの実力とは | テコテック開発者ブログ",
-      "url": "https://tec.tecotec.co.jp/entry/2025/12/09/000000",
-      "summary": "Google DeepMindのAIエディタAntigravityを試用。VS Codeベースで操作性が高く、Plan/Task/Diffで協働感が強い。GASのREADME自動生成や通知が便利。Gemini 3.0 Proは実務向きだが文章の読みやすさや誤りでChatGPT 5.1に一部劣る。日本語化手順も解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T15:00:00.000Z",
-      "contentHash": "f9e857f150d9"
-    },
-    {
-      "id": "6b6b12eead0e",
-      "title": "人間理解についてエンジニアチックに考えてみる | NEXTSCAPE blog",
-      "url": "https://blog.nextscape.net/archives/2025/12/09/000000",
-      "summary": "鈴木さんは、人間理解をエンジニア的に考察。伝わらない原因は経験による「レンズ」や無意識のデフォルト設定。対策は観察・解釈検証・デバッグの繰返し。生成AI時代でも技術と人間理解の両立が重要と結ぶ。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T15:00:00.000Z",
-      "contentHash": "c9b9708ce96b"
-    },
-    {
-      "id": "df99ddcba83f",
-      "title": "Claude Code 爽快手放し運転 on Raspberry Pi | フォトシンス エンジニアブログ",
-      "url": "https://akerun.hateblo.jp/entry/2025/12/cc_on_raspi",
-      "summary": "daikwによるAkerun Advent Calendar 2025の2日目記事。Raspberry Pi上にAIに全てを任せる隔離環境を作り、手放し運転を楽しむ社内勉強会の内容を共有（発表は約半年先のためやや古い）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T15:00:00.000Z",
-      "contentHash": "1bbe231591f8"
-    },
-    {
-      "id": "c7fe9edf944b",
-      "title": "コーディングエージェントに喋らせる | フォトシンス エンジニアブログ",
-      "url": "https://akerun.hateblo.jp/entry/2025/12/ccpersona",
-      "summary": "Akerun Advent Calendar 2025の1日目。CTO室を務めるdaikwが、社内LT「AI駆動開発勉強会」で発表した内容を共有し、コーディングエージェントに喋らせる手法を簡単に紹介する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T15:00:00.000Z",
-      "contentHash": "50b6463320f6"
-    },
-    {
-      "id": "791f74ad26f1",
-      "title": "生成AI で dbt の開発を加速させるための「ガードレール」とTips | RAKSUL TechBlog",
-      "url": "https://techblog.raksul.com/entry/2025/12/09/000000",
-      "summary": "ノバセルのデータエンジニアが、生成AIでdbt開発を9割超自動化しつつ品質を保つためのガードレールと運用TIPS。Import/Functional/Finalの3層CTE規約をAIに学習させ、セッションをドキュメント化。テストは冗長削減・最小化し、unit_testはモデル固有ロジックに限定する判断基準を導入。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T15:00:00.000Z",
-      "contentHash": "aab5912ebab5"
-    },
-    {
-      "id": "57d7380810ab",
-      "title": "Strong earthquake hits northern Japan, tsunami warning issued",
-      "url": "https://www3.nhk.or.jp/nhkworld/en/news/20251209_02/",
-      "summary": "太平洋域で強い地震が発生し、気象庁・NHK・USGS・米津波警報機関（PTWC）が津波警報・注意報を発令。沿岸住民に高台や指定避難所への避難と最新情報の確認を呼びかけています。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-08T14:50:48.000Z",
-      "contentHash": "d1b04a1599c1"
-    },
-    {
-      "id": "060210baa9d9",
-      "title": "Paramount launches a hostile $108 billion bid to snatch Warner from Netflix",
-      "url": "https://www.theverge.com/news/839813/paramount-skydance-warner-bros-discovery-hostile-takeover-bid",
-      "summary": "パラマウントがワーナー・ブラザース・ディスカバリーに対し1,084億ドルの敵対的全額現金買収案を提示。Netflixの830億ドル案を「劣る」と批判し地上波も含むと主張。規制審査の不確実性を指摘し、CEOは資金源めぐる質問に明確に答えなかった。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-08T14:39:44.000Z",
-      "contentHash": "c0cf5d72b676"
-    },
-    {
-      "id": "99316eb7b1d8",
-      "title": "Netflix is buying Warner Bros: All of the latest updates",
-      "url": "https://www.theverge.com/news/839007/netflix-warner-acquisition",
-      "summary": "Netflixがワーナー（スタジオ、HBO/HBO Max、Warner Games等）を約830億ドルで買収合意。ケーブル・スポーツは除外。だがパラマウントが有線網も含む1084億ドルの敵対的買収を提示し、政治・規制の注目を集めている。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-08T14:27:21.000Z",
-      "contentHash": "4bb551403bc2"
-    },
-    {
-      "id": "08ebdc49b991",
-      "title": "Paramount launches hostile bid for Warner Bros",
-      "url": "https://www.cnbc.com/2025/12/08/paramount-skydance-hostile-bid-wbd-netflix.html",
-      "summary": "HNで「Netflixがワーナー・ブラザースを買収」の記事が話題に。ストリーミング市場の統合、独占・反トラスト懸念、配信方針や制作・雇用への影響などを巡る活発な議論が交わされた。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-08T14:16:34.000Z",
-      "contentHash": "e251f48d2e9e"
-    },
-    {
-      "id": "8256e8ede8b0",
-      "title": "Segway’s new Myon e-bike will straddle past and future",
-      "url": "https://www.theverge.com/news/839169/segway-myon-ebike-teaser-ces-radar",
-      "summary": "Segway（Ninebot）が新型電動自転車「Myon」を発表。CESで正式公開予定で、従来モデルより伝統的な形状の通勤・レジャー向けeバイク。後方レーダーなど装備し初心者から上級者まで想定している。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-08T14:00:00.000Z",
-      "contentHash": "d03a2bbff0e5"
-    },
-    {
-      "id": "8d22f02dcf4b",
-      "title": "CREを5年続けても、まだ 「CREとは何か」悩んでいた話 | LayerX エンジニアブログ",
-      "url": "https://tech.layerx.co.jp/entry/2025/12/08/220037",
-      "summary": "LayerX Tech Advent Calendar 2025の8日目。前日はrerorero氏の「Datadog Logsの検索体験をSnowflakeに持ち込むChrome拡張」。著者はバクラク事業部CREのtanisuke（@taaag51）、ストレイテナー推しで2025年8月入社の1人目CRE、CRE歴は通算5年。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T13:00:37.000Z",
-      "contentHash": "f6af5d9ff2b6"
-    },
-    {
-      "id": "687aabf91efb",
-      "title": "How the creator economy destroyed the internet",
-      "url": "https://www.theverge.com/cs/features/810002/influencers-creator-economy-special-series",
-      "summary": "ジミー・ドナルドソン（MrBeast）は世界的人気だが動画部門は赤字続きで、動画はチョコバーなど商品の販売のための広告になっている。クリエイター経済は広告・物販に依存し、インターネットを消費中心に変えた。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-08T13:00:05.000Z",
-      "contentHash": "fceb89ad9486"
-    },
-    {
-      "id": "e45d26b6ca80",
-      "title": "Stop, Shop, and Scroll",
-      "url": "https://www.theverge.com/cs/features/836456/influencers-tiktok-debt-shopaganda",
-      "summary": "記事は、インフルエンサーと「影響される人々」の消費問題を指摘しつつ、ピラティスが第一次大戦の抑留所で生まれ、近年急成長してTikTok上の映え消費文化へと変容し批判を招いている経緯を描く。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-08T12:00:01.000Z",
-      "contentHash": "523eff840502"
-    },
-    {
-      "id": "6d72fc302cba",
-      "title": "Bad Dye Job",
-      "url": "https://daringfireball.net/2025/12/bad_dye_job",
-      "summary": "ジョン・グルーバーは、Appleのソフトウェアデザイン責任者アラン・ダイがMetaに移り、後任に職人肌のUI/UXデザイナー、スティーブン・ルメイが就いたと報告。ダイ時代の評価は低く、ルメイは細部へのこだわりで社内から高評価だが一部に批判もある。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-08T11:47:17.000Z",
-      "contentHash": "039b3df7b02b"
-    },
-    {
-      "id": "102309171f28",
-      "title": "モノレポに `git subtree` で別リポジトリを統合・運用する | STORES Product Blog",
-      "url": "https://product.st.inc/entry/2025/12/08/204455",
-      "summary": "STORES Advent Calendar 2025の8日目。ima1zumiがNuxtのcdp-dashboardをRails/Reactのモノレポbongoに統合した経緯を紹介。複数の方法の中でgit subtreeを選んだ理由と実際の運用方法を解説する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T11:44:55.000Z",
-      "contentHash": "e8031477c7c0"
-    },
-    {
-      "id": "50261d89f815",
-      "title": "WebTransportをGoで試してみる | every Tech Blog",
-      "url": "https://tech.every.tv/entry/2025/12/08/201924",
-      "summary": "エブリーの本丸が、業務で使うGeminiやClaudeCodeをきっかけに双方向通信に注目。この記事はQUIC（HTTP/3）を基盤とするWebTransportの概要と特徴を解説する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T11:19:24.000Z",
-      "contentHash": "352bdca99fd2"
-    },
-    {
-      "id": "80ac246b9244",
-      "title": "ウーマンエキサイトで連載中！AIコミックの制作フローを公開します | エキサイト TechBlog.",
-      "url": "https://tech.excite.co.jp/entry/2025/12/08/191729",
-      "summary": "エキサイトのデザイナー山﨑が、Excite Holdings Advent Calendar 2025の8日目で、ウーマンエキサイトで試行中の生成系AIを使った漫画（AIコミック）制作と連載『家族より整った部屋が大事？』の制作裏側を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T10:17:29.000Z",
-      "contentHash": "e0ceca5e7451"
-    },
-    {
-      "id": "aa939c8b6394",
-      "title": "Hatena Engineer Seminar  #35「エンジニアリングマネージャー編」をオンラインで開催しました #hatenatech | Hatena Developer Blog",
-      "url": "https://developer.hatenastaff.com/entry/engineer-seminar-35-report",
-      "summary": "2025年12月8日開催のHatena Engineer Seminar #35（エンジニアリングマネージャー編）で、はてなのEM3名が評価・育成や日々の業務について講演。発表資料と動画アーカイブを公開しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T10:13:44.000Z",
-      "contentHash": "e5546616df7e"
-    },
-    {
-      "id": "aaf27eec1ede",
-      "title": "Twelve Days of Shell",
-      "url": "https://12days.cmdchallenge.com",
-      "summary": "「12 Days of Command Line」は、12日間で出題されるコマンドラインの実践パズル集。各問題にヒントや解答があり、grep/awk/sed/xargs等のシェルツール習得を目的とする教材で、HNで注目と議論を集めています。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-08T10:13:07.000Z",
-      "contentHash": "87377a0d102f"
-    },
-    {
-      "id": "7e90b4e98156",
-      "title": "【re:Invent 2025】Amazon Nova 2 に関するアップデートの一覧化とまとめ | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/amazon-nova-2-summary",
-      "summary": "セキュリティサービス部の佐竹です。AWS re:Invent 2025で発表された新基盤モデル「Amazon Nova 2」と関連サービスをまとめました。Nova ForgeとNova Actは料金が高額になる可能性があるため、最後に注意点を記載しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T10:11:01.000Z",
-      "contentHash": "51c50a88c75b"
     }
   ]
 }
