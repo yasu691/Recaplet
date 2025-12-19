@@ -1,6 +1,267 @@
 {
-  "generatedAt": "2025-12-18T16:54:49.231Z",
+  "generatedAt": "2025-12-19T02:18:31.656Z",
   "items": [
+    {
+      "id": "ffdb84a38031",
+      "title": "TikTok ban: all the news on the app’s shutdown and return in the US",
+      "url": "https://www.theverge.com/23651507/tiktok-ban-us-news",
+      "summary": "米で分社化か禁止を迫る法律で一時停止したTikTokは復活。CEOはOracle・Silver Lake・MGX参加の米合弁会社設立で合意、2026年1月22日成立見込み。米内のデータ保護やアルゴリズム再訓練、コンテンツ管理を担う。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-19T01:30:30.000Z",
+      "contentHash": "537c025696e3"
+    },
+    {
+      "id": "72588d31bf61",
+      "title": "決済端末の開発を支えるディストリビューションツールを作った | STORES Product Blog",
+      "url": "https://product.st.inc/entry/2025/12/19/102653",
+      "summary": "STORESがMiura Systems製のAndroid端末「Flex」採用のSTORES決済端末2をリリース。筆者はプロジェクトに関わり、決済ソフトをAndroidアプリとして配信するための「STORES App Distribution」ツールを作った話を紹介しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T01:26:53.000Z",
+      "contentHash": "65911df4a502"
+    },
+    {
+      "id": "e6e6cc792417",
+      "title": "Goのテンプレートをコードから切り離す試み ─ tmpltype の紹介 | 株式会社HRBrainのフィード",
+      "url": "https://zenn.dev/hrbrain/articles/go-template-tmpltype",
+      "summary": "Goのテンプレートファイルから型定義とRender関数を自動生成するツール「tmpltype」を紹介。テンプレートをコードから切り離し外部テキストで管理することで、文言修正を非エンジニアでも行いやすくし、一覧性向上やボイラープレート削減を図る。GitHubで公開。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T01:24:41.000Z",
+      "contentHash": "7998553e8a5b"
+    },
+    {
+      "id": "778e8732dc19",
+      "title": "「画面の振る舞い」をAIに伝えるためのYAMLスキーマを作ってみた | 株式会社ログラス テックブログのフィード",
+      "url": "https://zenn.dev/loglass/articles/9e6269bd7d79c6",
+      "summary": "ログラス南部が、画面の「振る舞い」をAIに伝えるYAMLスキーマ（SBP）を試作。状態・レイアウト・イベント・遷移を構造化してAIに渡し、React＋MUIコード生成を検証（タブ、モーダル、バリデーション、トースト等対応）。設計例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T01:18:21.000Z",
+      "contentHash": "d458d9c7e721"
+    },
+    {
+      "id": "3481c2a1ace3",
+      "title": "AIと進めるフロントエンドリプレイス | Hacobell Developers Blogのフィード",
+      "url": "https://zenn.dev/hacobell_dev/articles/4dc93630b12e1a",
+      "summary": "ハコベルはVueからReactへのフロントエンドリプレイスを進行中。SDDをリプレイス向けに改良し、既存Vueを仕様としてAI（Claude）で逆コンパイル→統一されたReact設計へ変換するパイプライン（.claudeのコマンド／テンプレート）を構築し、対話的に進める手法を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T01:10:18.000Z",
+      "contentHash": "d0b92830df01"
+    },
+    {
+      "id": "e223d7f56652",
+      "title": "少しだけ背中を押してあげるお仕事 | SODA Engineering Blogのフィード",
+      "url": "https://zenn.dev/team_soda/articles/1c162b759f3e2c",
+      "summary": "SODAでEMに転向して1年を振り返る記事。EMは幅広く全部はできないと判断し、Team領域に注力。TLに技術を任せ環境を整え、1on1で目標設定や期待を伝えつつ協働的に役割委譲する方針を述べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T01:05:14.000Z",
+      "contentHash": "12ec89b4754c"
+    },
+    {
+      "id": "f175f20ef9d0",
+      "title": "Dify × GASで実現する実用的なAIシステム – Gmail自動返信の事例 – | GMO Developers",
+      "url": "https://developers.gmo.jp/technology/76578/",
+      "summary": "Dify（オープンソースのLLMアプリ開発プラットフォーム）とGoogle Apps Scriptを組み合わせ、手軽にAI搭載アプリを作る方法を紹介。連携の利点、設定手順や実装例を解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T01:00:00.000Z",
+      "contentHash": "5d5fc010cd7e"
+    },
+    {
+      "id": "b32c92e532d5",
+      "title": "アンドパッドのSRE・DBRE・CRE：2025年の活動ハイライト | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2025/12/19/100000",
+      "summary": "ANDPADのSRE担当・谷合がSRE/DBRE/CREの役割と今年の成果を紹介。OktaでAWS IAMをSSO化、EKSアップグレードを1.5h→約10分に短縮、インフラコスト最適化やカンファレンス参加など。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T01:00:00.000Z",
+      "contentHash": "0573915e5dbe"
+    },
+    {
+      "id": "a5f55b6fd52e",
+      "title": "新しい学習トレーニングチーム発足から成果を出すチームになるまで | Classi開発者ブログ",
+      "url": "https://tech.classi.jp/entry/2025/12/19/100000",
+      "summary": "工藤（id:irisuinwl）は学習トレーニングチームのソフトウェアエンジニア。2023年までALチームのリーダーを務め、再編後1年半で複数リリースを経てチームが機能するようになった。記事は再編の意思決定やメンバー編成など運営方針について述べる。趣味はウイスキーと氷作り。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T01:00:00.000Z",
+      "contentHash": "f12153b6e8ef"
+    },
+    {
+      "id": "35a9df52f184",
+      "title": "LayerXのデータ基盤の未来を語るために、最初の1ヶ月でやった3つのこと | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/analytics-engineer-first-30-days",
+      "summary": "LayerXに2025年11月入社した著者が、入社1カ月で「データ基盤の未来を語るためにやったこと」を整理。要点は、データグループを事業成果に直結させる取り組みを進めた、という内容です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T01:00:00.000Z",
+      "contentHash": "bcc77d6a1ee6"
+    },
+    {
+      "id": "480ac34c988c",
+      "title": "remark/rehypeでMarkdownがHTMLになるまで：構文木の旅 | OPTiM TECH BLOG",
+      "url": "https://tech-blog.optim.co.jp/entry/2025/12/19/100000",
+      "summary": "記事はremarkとrehype（unified系）を解説し、Markdown→mdast→hast→HTMLの変換過程や構文木の構造・position情報、カスタマイズ時の変化を実例で示し、プレビューや拡張実装に役立つ知見を提供する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T01:00:00.000Z",
+      "contentHash": "8564b922f4eb"
+    },
+    {
+      "id": "afbb7452436b",
+      "title": "The TikTok US sale is finally happening",
+      "url": "https://www.theverge.com/news/847858/tiktok-sale-deal-memo-january-close",
+      "summary": "TikTokは米国事業の売却を確定、CEOの社内メモで2026年1月22日決済を目指すと発表。決済後にアルゴリズムを米国ユーザーデータで再訓練。米JVはOracle/Silver Lake/MGXが各15%含むコンソーシアム50%、既存投資家系30.1%、ByteDance19.9%を保有。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-18T23:18:34.000Z",
+      "contentHash": "ce908cd47693"
+    },
+    {
+      "id": "6f10f41a8744",
+      "title": "Trained LLMs exclusively on pre-1913 texts",
+      "url": "https://github.com/DGoettlich/history-llms",
+      "summary": "チューリッヒ大らは、時代ロック型歴史LLM群「Ranke-4B」を発表予定。Qwen3基盤の4Bモデルを各知識カットオフ（1913,1929,1933,1939,1946）で80Bトークン学習、600Bの時刻付きコーパスを使用。研究用途でモデルの判断を支持しない注意書きや1913モデルの応答例を示す。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-18T22:39:47.000Z",
+      "contentHash": "979fb3d5b48e"
+    },
+    {
+      "id": "ef33afc9071d",
+      "title": "Threads wants to be the app you can’t wait to open in the morning",
+      "url": "https://www.theverge.com/column/847806/head-of-threads-interview",
+      "summary": "MetaのThreadsは好調で月間4億・日間1.5億の利用者を獲得。成長は主にInstagram/FacebookでThreads投稿を露出して誘導する戦略で、まずダウンロードさせ、やがて自発的に毎朝開く習慣を定着させることを目指す。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-18T22:30:00.000Z",
+      "contentHash": "0e64c200d5ed"
+    },
+    {
+      "id": "3568837511cf",
+      "title": "Oh snap, I have a new favorite phone grip",
+      "url": "https://www.theverge.com/gadgets/847777/oh-snap-i-have-a-new-favorite-phone-grip",
+      "summary": "The VergeのSean Hollisterは、両面磁石の新型グリップ「OhSnap Snap Grip 5」を高評価。Anker旧モデルより進化し、MagSafe充電や車載時に外す必要がなく、冷蔵庫など金属面にも貼り付く。Syncwireの廉価二重リングと比べても優秀で、価格は約40ドル。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-18T22:29:23.000Z",
+      "contentHash": "c6c41171f9ee"
+    },
+    {
+      "id": "df1c0cbddae8",
+      "title": "1.5 TB of VRAM on Mac Studio – RDMA over Thunderbolt 5",
+      "url": "https://www.jeffgeerling.com/blog/2025/15-tb-vram-on-mac-studio-rdma-over-thunderbolt-5",
+      "summary": "Apple提供のMac StudioクラスターでmacOS 26.2のThunderbolt RDMAをExo 1.0で検証。RDMAにより複数Macが1.5TBの共有メモリのように振る舞い、遅延が約300μs→<50μsに短縮し巨大AIモデルが高速化。4台で約4万ドル（貸与）、低消費電力・静音でNVIDIA/AMD機よりメモリ面で有利。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-18T22:23:09.000Z",
+      "contentHash": "bff8a214602f"
+    },
+    {
+      "id": "a0622799ca99",
+      "title": "Steam’s annual winter sale is here — these are the best games to get",
+      "url": "https://www.theverge.com/gadgets/846242/best-steam-winter-sale-game-deals",
+      "summary": "Steamの年末ウィンターセールが開催中（〜1月5日13時ET）。数千本が割引対象で、2025年の話題作や名作を安く購入可能。例：Hollow Knight: Silksongが$15.99。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-18T22:15:00.000Z",
+      "contentHash": "36631270e426"
+    },
+    {
+      "id": "7f3ab04f5732",
+      "title": "OpenAI and Anthropic will start predicting when users are underage",
+      "url": "https://www.theverge.com/news/847780/openai-anthropic-teen-safety-chatgpt-claude",
+      "summary": "OpenAIとAnthropicが未成年検出を導入。OpenAIは13〜17歳向けに安全優先など4原則をChatGPTのモデル規範に追加し、安全な選択の促進や実世界支援、対話時の期待明示を求める。Anthropicは18歳未満の識別・排除技術を開発中。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-18T21:55:59.000Z",
+      "contentHash": "30106ffb7dd9"
+    },
+    {
+      "id": "d4846e6ac55f",
+      "title": "Instagram wants to limit hashtag spam",
+      "url": "https://www.theverge.com/news/847739/instagram-hashtag-spam-limit",
+      "summary": "Instagramが投稿のハッシュタグを最大5つに制限。モセリ氏は多用より特定のタグが効果的で、ハッシュタグは検索には役立つがリーチは増やさないとし、コンテンツ重視を促進。Threadsは既にタグ1つ制限。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-18T21:16:33.000Z",
+      "contentHash": "fca8ecc2010f"
+    },
+    {
+      "id": "98bf74a95c52",
+      "title": "The best foldable phone you can buy",
+      "url": "https://www.theverge.com/tech/635839/best-foldable-phone",
+      "summary": "折りたたみスマホは重く高価でカメラ性能や耐久性が通常端末より劣る面があるが改善が進む。形は書籍型（電話＋タブレット）と縦折りクラムシェル（電話＋スマートウォッチ)の二種類。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-18T21:00:00.000Z",
+      "contentHash": "43feb6389876"
+    },
+    {
+      "id": "5b4514cc28f4",
+      "title": "LG forced a Copilot web app onto its TVs but will let you delete it",
+      "url": "https://www.theverge.com/news/847685/lg-copilot-web-app-delete",
+      "summary": "LGは、最近のソフト更新で消せない形で追加されたMicrosoft Copilotのショートカットについて、ユーザーが希望すれば削除できるよう対応すると表明した。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-18T20:31:51.000Z",
+      "contentHash": "3e3286467059"
+    },
+    {
+      "id": "19fe22b68d6f",
+      "title": "Google&#8217;s Gemini app can check videos to see if they were made with Google AI",
+      "url": "https://www.theverge.com/news/847680/google-gemini-verification-ai-generated-videos",
+      "summary": "GoogleはGeminiに、GoogleのAIで生成・編集された動画かを判定する機能を追加。映像や音声から独自透かし「SynthID」を検出し、該当箇所のタイムスタンプを示す。画像判定は既に導入済みで、透かしの除去や他プラットフォームでの検知性は不明。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-18T20:31:22.000Z",
+      "contentHash": "4be98113a475"
+    },
+    {
+      "id": "21d97f31b507",
+      "title": "How to hack Discord, Vercel and more with one easy trick",
+      "url": "https://kibty.town/blog/mintlify/",
+      "summary": "Discord等が採用するドキュメントサービスMintlifyのMDXをサーバー側でレンダリングする仕組みにRCE脆弱性(CVE-2025-67843)を発見。悪意あるMDXでサーバー上でfetch/evalが実行され、環境変数やファイルを抜き出せる問題があった。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-18T19:41:24.000Z",
+      "contentHash": "0c21bb027fd7"
+    },
+    {
+      "id": "dcbf1c7b51cc",
+      "title": "We pwned X, Vercel, Cursor, and Discord through a supply-chain attack",
+      "url": "https://gist.github.com/hackermondev/5e2cdc32849405fff6b46957747a2d28",
+      "summary": "16歳の高校生ダニエルが、AIドキュメントプラットフォームMintlifyで深刻なXSS脆弱性を発見。単一リンクでドキュメントに悪意スクリプトを注入し認証情報を窃取可能で、Discord移行時に判明。他にも報告がある。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-18T19:08:48.000Z",
+      "contentHash": "ea180c0cee58"
+    },
+    {
+      "id": "0995ec20c5cb",
+      "title": "How China built its ‘Manhattan Project’ to rival the West in AI chips",
+      "url": "https://www.japantimes.co.jp/business/2025/12/18/tech/china-west-ai-chips/",
+      "summary": "本文が提示されていないため要約できません。記事の全文かURLを貼ってください。タイトルのみでの要約を希望する場合はその旨を教えてください（推測による要約になります）。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-18T18:55:34.000Z",
+      "contentHash": "8bbb04ba9b76"
+    },
+    {
+      "id": "caea9414f681",
+      "title": "FunctionGemma 270M Model",
+      "url": "https://blog.google/technology/developers/functiongemma/",
+      "summary": "Gemma 3の270Mモデルをエッジでのカスタム関数呼び出し向けに微調整した専用版と、利用者がさらに最適化できるトレーニングレシピを公開。Kat Blackらが発表し、Gemmaは2025年に100Mから300Mへ普及拡大。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-18T18:26:52.000Z",
+      "contentHash": "5f2567f55157"
+    },
+    {
+      "id": "9b9f9aa7ed41",
+      "title": "Firefox will have an option to disable all AI features",
+      "url": "https://mastodon.social/@firefoxwebdevs/115740500373677782",
+      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で要約します。HNコメントの要約も希望ならその旨を教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-18T18:18:30.000Z",
+      "contentHash": "7ff240ddf8e3"
+    },
+    {
+      "id": "072f05ea39e2",
+      "title": "GPT-5.2-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。記事本文か主要部分を貼っていただければ、200文字以内で日本語要約します。HNコメントの要約も可。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-18T18:14:48.000Z",
+      "contentHash": "305f7c248986"
+    },
+    {
+      "id": "510da15fe80c",
+      "title": "Skills for organizations, partners, the ecosystem",
+      "url": "https://claude.com/blog/organization-skills-and-directory",
+      "summary": "10月導入の「skills」を組織で配布・発見・作成しやすく改善。管理者はTeam/Enterpriseで組織全体にスキルをプロビジョニング（既定有効、個別OFF可）。NotionやCanva等のパートナーディレクトリ、自然文やフォルダアップロードで作成・編集でき、他AIでも使えるオープン標準を提供。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-18T17:04:32.000Z",
+      "contentHash": "8b817c330b83"
+    },
     {
       "id": "fe475fbb6ed9",
       "title": "iRobot’s bankruptcy isn’t the end — it’s a reboot, says its CEO",
@@ -32,10 +293,10 @@
       "id": "7b51d5603cd2",
       "title": "Beginning January 2026, all ACM publications will be made open access",
       "url": "https://dl.acm.org/openaccess",
-      "summary": "ACMのオープンアクセス案内ページ。著者向けにゴールド／グリーンOAの選択肢、CCなどのライセンス、著者処理費（APC）や機関契約、リポジトリ登録や権利保持の方針、公開手続きと利点を説明しています。",
+      "summary": "申し訳ありませんが外部リンクに直接アクセスできません。記事本文（または要点）を貼っていただければ、200字以内で日本語要約します。HNコメントの要約も希望なら併せて承ります。",
       "source": "Hacker News",
       "publishedAt": "2025-12-18T15:39:09.000Z",
-      "contentHash": "f315e6df1c29"
+      "contentHash": "bfc6f56610e1"
     },
     {
       "id": "94455d7be9b8",
@@ -117,15 +378,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-18T15:00:00.000Z",
       "contentHash": "67ce7b066c05"
-    },
-    {
-      "id": "f175f20ef9d0",
-      "title": "Dify × GASで実現する実用的なAIシステム – Gmail自動返信の事例 – | GMO Developers",
-      "url": "https://developers.gmo.jp/technology/76578/",
-      "summary": "Dify（オープンソースのLLMアプリ開発プラットフォーム）とGoogle Apps Scriptを組み合わせ、手軽にAI搭載アプリを作る方法を紹介。連携の利点、設定手順や実装例を解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-18T14:52:55.000Z",
-      "contentHash": "5d5fc010cd7e"
     },
     {
       "id": "f76cc4b77de5",
@@ -236,6 +488,15 @@
       "contentHash": "38be93502b04"
     },
     {
+      "id": "454ed7542563",
+      "title": "Evaluating chain-of-thought monitorability",
+      "url": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
+      "summary": "OpenAIは思考過程（chain-of-thought）の監視可能性に関する新フレームワークと評価スイートを公開。24環境で13の評価を実施し、出力だけでなく内部推論を監視する方が格段に有効で、能力向上するAIのスケーラブルな制御に有望だと示した。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-18T12:00:00.000Z",
+      "contentHash": "3f6aabfbc974"
+    },
+    {
       "id": "ef7d0eb79943",
       "title": "Creating apps like Signal could be 'hostile activity' claims UK watchdog",
       "url": "https://www.techradar.com/vpn/vpn-privacy-security/creating-apps-like-signal-or-whatsapp-could-be-hostile-activity-claims-uk-watchdog",
@@ -243,6 +504,33 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-18T11:21:15.000Z",
       "contentHash": "bf7a9f05cb0c"
+    },
+    {
+      "id": "020ab4b4b78d",
+      "title": "Updating our Model Spec with teen protections",
+      "url": "https://openai.com/index/updating-model-spec-with-teen-protections",
+      "summary": "OpenAIはModel Specを更新し、18歳未満向け原則を導入。発達科学に基づく年齢相応の安全な助言や高リスク時の振る舞い明確化、ガードレール強化でティーンの安全を強化する。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-18T11:00:00.000Z",
+      "contentHash": "dc507b1fcb1c"
+    },
+    {
+      "id": "1c04d5e205f8",
+      "title": "AI literacy resources for teens and parents",
+      "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
+      "summary": "OpenAIが十代と保護者向けにChatGPTのAIリテラシー資料を公開。安全で責任ある利用、批判的思考、健全な境界設定、感情的・敏感な話題への支援など、専門家検証済みのガイドを提供。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-18T11:00:00.000Z",
+      "contentHash": "798eda198c92"
+    },
+    {
+      "id": "83beb5a32b71",
+      "title": "Deepening our collaboration with the U.S. Department of Energy",
+      "url": "https://openai.com/index/us-department-of-energy-collaboration",
+      "summary": "OpenAIと米エネルギー省が、AIと先端計算を通じて科学的発見を支援する覚書を締結。国立研究所との既存連携を基に、DOE全体で高影響研究へAIを適用する枠組みを整備する。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-18T11:00:00.000Z",
+      "contentHash": "5da98a9afc7b"
     },
     {
       "id": "a2a7ceefe478",
@@ -284,10 +572,10 @@
       "id": "1ff786812209",
       "title": "Google Colab で T5Gemma-TTS-2b-2b を試す",
       "url": "https://note.com/npaka/n/ndd8bd0191b35",
-      "summary": "Google ColabでT5Gemma-TTS-2b-2bを試用。文章理解用と音声生成用の2つの2Bモデルで高品質・感情表現に強い。HuggingFaceで同意後、GPU（L4推奨）で実行。リポジトリをクローン・requirementsを調整しログイン、推論でwav生成（初回約5分）。参照音声でVoice Cloning、--target_durationで再生時間制御可能。",
+      "summary": "T5Gemma-TTS-2b-2bをColabで試した手順。2B規模の文章理解＋音声生成で高品質・感情表現に強いTTS。Hugging Faceで同意→Colab(GPU L4推奨)でリポジトリ取得、requirements調整、ログイン後に推論でgenerated.wav生成。参照音声でVoice Cloning、--target_durationで長さ調整可能。商用利用に制限あり。",
       "source": "npaka",
       "publishedAt": "2025-12-18T07:43:42.000Z",
-      "contentHash": "22f4b780ef35"
+      "contentHash": "2c3667028986"
     },
     {
       "id": "b59af8f0a43e",
@@ -419,10 +707,10 @@
       "id": "aa4d0c2b2219",
       "title": "【書評】 実践Claude Code入門",
       "url": "https://note.com/npaka/n/n9ac45fcb2d16",
-      "summary": "本書はClaude Codeを魔法扱いせず、仕様を言語化して計画・実行・検証する「スペック駆動開発」でAIを組み込み、業務向けに安定したソフトウェアを作る実践的ガイドです。",
+      "summary": "『実践Claude Code入門』は、AIを魔法扱いせず「スペック駆動開発」で仕様を言語化し、計画→実装→検証の流れにClaude Codeを組み込む実践的ガイド。MCPやAction、プロンプトやレビュー技法まで解説し、業務アプリで安定した開発を目指す内容。",
       "source": "npaka",
       "publishedAt": "2025-12-18T02:41:49.000Z",
-      "contentHash": "d91094a62fcb"
+      "contentHash": "b1980f238a77"
     },
     {
       "id": "6f70792185da",
@@ -536,10 +824,10 @@
       "id": "5798db588858",
       "title": "開発者は ChatGPT にアプリを提出できるようになりました",
       "url": "https://note.com/npaka/n/n02ca29e42475",
-      "summary": "開発者はChatGPTにアプリを提出・審査・公開できるようになりました。Apps SDK・サンプル・ガイドやチャット特化UIを提供し、会話内で起動して実行可能。アプリはディレクトリで公開・検索され、審査ではプライバシー・安全基準の遵守が必須。収益化は当面外部リンク中心で段階的展開されます。",
+      "summary": "ChatGPTが外部アプリの受付を開始。開発者はApps SDKでチャット連携アプリを作り、提出ガイドラインに沿ってOpenAIに審査申請できる。ディレクトリ掲載、@起動やツール呼び出し、段階的公開、収益化や厳格なプライバシー基準に対応。",
       "source": "npaka",
       "publishedAt": "2025-12-18T00:28:56.000Z",
-      "contentHash": "6932dd7e0a4f"
+      "contentHash": "49dcd3eaf7b9"
     },
     {
       "id": "27b966460249",
@@ -549,6 +837,42 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-18T00:25:43.000Z",
       "contentHash": "4c0644c9b726"
+    },
+    {
+      "id": "cd8d6c8023f2",
+      "title": "Introducing GPT-5.2-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "summary": "GPT-5.2-CodexはOpenAIの最先端コーディングモデルで、長期的な推論能力、大規模なコード変換、そして強化されたサイバーセキュリティ機能を備えています。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-18T00:00:00.000Z",
+      "contentHash": "d33a71d42da8"
+    },
+    {
+      "id": "7fda7ddac79f",
+      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
+      "url": "https://openai.com/index/gpt-5-2-codex-system-card",
+      "summary": "GPT‑5.2‑Codexの安全対策をまとめたシステムカード。危険なタスクやプロンプト注入に対する専門的なモデル学習などのモデル側対策と、エージェントのサンドボックス化やネットワークアクセスの設定などの製品側対策を記載。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-18T00:00:00.000Z",
+      "contentHash": "f5e4e528d002"
+    },
+    {
+      "id": "bcec01148b65",
+      "title": "Introducing GPT-5.2-Codex",
+      "url": "https://openai.com/index/gpt-5-2-codex",
+      "summary": "GPT-5.2-CodexはOpenAIの最先端コーディングモデルで、長期的推論や大規模なコード変換を行い、サイバーセキュリティ機能も強化している。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-18T00:00:00.000Z",
+      "contentHash": "d33a71d42da8"
+    },
+    {
+      "id": "d6c7859f9a97",
+      "title": "Watch a podcast discussion about Gemini 3 and the future of Search.",
+      "url": "https://blog.google/technology/ai/release-notes-podcast-search/",
+      "summary": "Googleのポッドキャスト「AI: Release Notes」最新回で、Gemini 3を検索に統合する取り組みを紹介。Logan KilpatrickがRobby SteinとRhiannon Bellとともに、物理シミュレーションやライブグラフ作成など高度な推論・コーディング能力と、それを何百万ユーザーに展開する技術的工夫を語る。",
+      "source": "Gemini",
+      "publishedAt": "2025-12-18T00:00:00.000Z",
+      "contentHash": "13887c57e71e"
     },
     {
       "id": "b258f34f0b1c",
@@ -1220,10 +1544,10 @@
       "id": "68e628b27ffb",
       "title": "GPT Image 1.5 プロンプトガイド",
       "url": "https://note.com/npaka/n/n454c5579125d",
-      "summary": "gpt-image-1.5は高精細なフォトリアリズムと高い制御性、低遅延生成を両立する画像生成モデル。ガイドは「背景→被写体→詳細→制約」の順で具体的に記述すること、構図・ライティング・テキスト指定、複数画像の参照や反復での微調整などのプロンプト設計とベストプラクティスを解説します。",
+      "summary": "gpt-image-1.5のプロンプトガイド。高精細フォトリアリズム、低遅延、顔保持や正確なテキスト描画を解説。プロンプトは「背景→被写体→詳細→制約」で具体化し、構図・照明・品質調整・画像間参照・反復改訂など実践的手法とセットアップ手順を提示。",
       "source": "npaka",
       "publishedAt": "2025-12-16T23:18:41.000Z",
-      "contentHash": "d670b0a6bf0f"
+      "contentHash": "0ba4e07c9c66"
     },
     {
       "id": "e6aad8cab599",
@@ -1337,10 +1661,10 @@
       "id": "61a9f6a4952c",
       "title": "GPT Image 1.5 の概要",
       "url": "https://note.com/npaka/n/n52e39582761b",
-      "summary": "OpenAIがChatGPT Imagesの新版「GPT Image 1.5」を公開。生成・編集が最大4倍高速化し、意図に沿った高精度編集、指示遵守性やテキスト描画・画質が向上。プリセットや画像ホームを搭載し、APIでは保存性向上とコスト20%削減。",
+      "summary": "ChatGPT Images（GPT Image 1.5）公開。生成速度が最大4倍、細部や小さな文字の改善、指示遵守性向上で写真編集の精度が向上。プリセットや画像ホームを搭載し、API提供でコスト20%削減、ブランドやEC向けに最適。",
       "source": "npaka",
       "publishedAt": "2025-12-16T20:43:23.000Z",
-      "contentHash": "20bf3683ddf9"
+      "contentHash": "90a2041f7b32"
     },
     {
       "id": "d31b1be8fa2e",
@@ -1724,10 +2048,10 @@
       "id": "07d4773ededa",
       "title": "Photoshop の UXP Plugin",
       "url": "https://note.com/npaka/n/n22c8d5e846b6",
-      "summary": "PhotoshopのUXP PluginはモダンJS・HTML/CSS・Photoshop専用APIでPhotoshop内に機能を追加する公式拡張。レイヤー操作や書き出し、バッチ処理やUI付きツールの作成が可能。UDTでテンプレートから生成しLoad＆Watchで実行、事前にPhotoshop・UDT・エディタが必要。",
+      "summary": "PhotoshopのUXP PluginはJS/HTML/CSSと専用APIでPhotoshop内部に機能を追加する公式プラットフォーム。レイヤー操作、サイズ変更、書き出し、batchPlay、UI付きツール作成が可能。Photoshop・UXP Developer Tool・エディタを用いUDTでプロジェクトを生成し、Load & Watchで実行、開発者モードで動作確認する。",
       "source": "npaka",
       "publishedAt": "2025-12-16T01:12:09.000Z",
-      "contentHash": "e4280eea8aca"
+      "contentHash": "a8177fb497ac"
     },
     {
       "id": "37afca7d398b",
@@ -8676,330 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T02:11:58.000Z",
       "contentHash": "453714c05c6b"
-    },
-    {
-      "id": "4dad5113199e",
-      "title": "[アドカレ2025] CodePipelineを使ってGitHubからECSにDockerfileをデプロイしよう！ | DENET 技術ブログ",
-      "url": "https://blog.denet.co.jp/adcale2025_github-to-ecs/",
-      "summary": "GitHubのDockerfileをAWS CodePipelineでECR→ECSへ自動デプロイする手順を解説。IAMロール作成、CodeStarでGitHub連携、ECR作成、CodeBuild設定、ECSクラスター／タスク／サービス作成、CodePipeline構築までを順に説明。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T02:00:04.000Z",
-      "contentHash": "dde4b08411b9"
-    },
-    {
-      "id": "f11e1bce6403",
-      "title": "LocalStack の EventBridge Scheduler にある制約とその対処法 | BASEプロダクトチームブログ",
-      "url": "https://devblog.thebase.in/entry/2025/12/09/110000",
-      "summary": "LocalStackのEventBridge Schedulerはスケジュール実行やLambda/SQSトリガーをエミュレートしない制約がある。対策としてEventBridgeのRuleでLambdaを毎分起動し、Scheduler情報を取得して期限到来時にSQSへ投入・スケジュール削除する仕組みをGoで実装（一回限りのat式対応）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T02:00:00.000Z",
-      "contentHash": "302e43415037"
-    },
-    {
-      "id": "c5216682bfc4",
-      "title": "GoのSCA何使おうか悩んでいる人へ | DMM Developers Blog",
-      "url": "https://developersblog.dmm.com/entry/2025/12/09/110000",
-      "summary": "Go向けSCAでNancyとgovulncheckを比較。NancyはOSS Indexの網羅性が強みだがバージョン判定で誤検知が多く、OSS Indexの認証変更でCIが停止する問題が発生。govulncheckは公式DBを使い実行パス解析で誤検知が少なく、移行コストとセキュリティ面を検証した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T02:00:00.000Z",
-      "contentHash": "3397079b239f"
-    },
-    {
-      "id": "05196ca691a7",
-      "title": "WEARアプリにおけるLiquid Glass対応への第一歩 | ZOZO TECH BLOG",
-      "url": "https://techblog.zozo.com/entry/start-liquid-glass",
-      "summary": "WEAR iOSチームがWWDC25の新デザインLiquid Glass対応の計画を紹介。iOS26で導入される透明感あるUIが既存アプリでレイアウト崩れやコスト増を招くため、Xcode26対応やブランチ戦略、動的無効化、各種レイアウト修正など段階的移行を進める。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T02:00:00.000Z",
-      "contentHash": "e72c1289497a"
-    },
-    {
-      "id": "7a4c25d8701e",
-      "title": "Horses: AI progress is steady. Human equivalence is sudden",
-      "url": "https://andyljones.com/posts/horses.html",
-      "summary": "蒸気機関やコンピュータチェスは長年の緩やかな改善が突然の人間との均衡・置換を招いた。AI投資は増加し、著者の職場では短期間でClaudeが新入社員の質問の大半を代替した。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-09T00:26:35.000Z",
-      "contentHash": "fed2c60d26bf"
-    },
-    {
-      "id": "2c300de3a3e6",
-      "title": "The universal weight subspace hypothesis",
-      "url": "https://arxiv.org/abs/2512.05117",
-      "summary": "多様なタスクで訓練した1100以上のモデル（Mistral‑7B LoRA500、ViT500、LLaMA‑8B50など）をスペクトル解析し、重みが少数の普遍的低次元部分空間に収束することを実証。モデル再利用・マルチタスク学習・効率化や省エネに示唆を与える。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-09T00:16:46.000Z",
-      "contentHash": "3b267b3fcca3"
-    },
-    {
-      "id": "b2cc04687763",
-      "title": "フロントエンド弱者のPOがウェブアクセシビリティ勉強会をやってみた | JCB Tech Blog",
-      "url": "https://tech.jcblab.jp/entry/2025/12/09/090000",
-      "summary": "JCB Advent Calendar 2025（12/9）記事。JCBデジタルソリューション開発部の原田が、フロント経験が浅い中で学んだウェブアクセシビリティをJDEP内の勉強会で共有した経緯、進め方と内容、組織横断の学び合いを紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T00:00:00.000Z",
-      "contentHash": "bf7c49fabe03"
-    },
-    {
-      "id": "51ce7db6a4b7",
-      "title": "LLMで日本企業の「来期の利益は増える？」をアウトオブサンプル検証 | Insight Edge Tech Blog",
-      "url": "https://techblog.insightedge.jp/entry/profit-predict-by-llm",
-      "summary": "データサイエンティスト白井がSIG-FINで発表。EDINETの有価証券報告書とSakana AIのEDINET-BENCHを用い、LLMで「来期の利益増減」を予測・アウトオブサンプル評価し、テキスト活用で精度向上やナレッジカットオフ等の注意点を示した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T00:00:00.000Z",
-      "contentHash": "c93108dd0437"
-    },
-    {
-      "id": "6a4fea620e8f",
-      "title": "「テストコードを増やさず、テストケースを増やす」の正体！プロパティベースドテストの可能性 | KENTEM TechBlog",
-      "url": "https://tech.kentem.jp/entry/2025/12/09/090000",
-      "summary": "AIで生成した膨大なテストコードとモックにレビュー負荷が増大。著者は「テストコードを増やさずテストケースを増やす」解としてプロパティベースドテスト（PBT）を紹介し、従来の事例テストとの違いや導入を勧める。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T00:00:00.000Z",
-      "contentHash": "8e26d4adb178"
-    },
-    {
-      "id": "ba3eaafd3195",
-      "title": "Iceberg × dbt × BigQuery × Snowflakeでつくる、マルチDWHパイプライン | ENGINEERING BLOG ドコモ開発者ブログ",
-      "url": "https://nttdocomo-developers.jp/entry/2025/12/09/090000_3",
-      "summary": "Apache IcebergでSnowflakeとBigQueryを横断するマルチDWHパイプラインをdbtで実装した事例。開発・運用は効率化できたが、dbtでの実装時に注意すべき点が多い。Iceberg×dbtやマルチDWH導入を目指すデータエンジニア向け。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T00:00:00.000Z",
-      "contentHash": "921909d45e39"
-    },
-    {
-      "id": "b83d09fac02c",
-      "title": "データ活用を社内文化へ──PdMが挑むキャズム越え。SECIモデル活用事例 | ENGINEERING BLOG ドコモ開発者ブログ",
-      "url": "https://nttdocomo-developers.jp/entry/2025/12/09/090000_2",
-      "summary": "NTTドコモの社内データ活用基盤Pochi（利用5,000人超、24年度30万時間削減）のPdMが、利用拡大の“キャズム”をSECIモデルで整理。共同化・表出化・連結化・内面化に沿い、コンテストやハンズオン、事例共有でデータ活用の社内定着を図る事例紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T00:00:00.000Z",
-      "contentHash": "6bc9929adb6f"
-    },
-    {
-      "id": "f1d232dd4be8",
-      "title": "Digital Change Mind　―docomo社員自ら挑む、DX・AIによる変革の現場― | ENGINEERING BLOG ドコモ開発者ブログ",
-      "url": "https://nttdocomo-developers.jp/entry/2025/12/09/090000_0",
-      "summary": "NTTドコモの吉田が社内で始めた「デジタル民主化活動（デジカツ）」は、社員自らDX・AIで業務を変革する取り組み。200名以上が参加し、組織のDigital Change MindやCX向上を目指す施策を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T00:00:00.000Z",
-      "contentHash": "2ce6baf55843"
-    },
-    {
-      "id": "7b6802eb2f44",
-      "title": "Quarkusの素早い起動の秘密、ビルド時DIについて見てみる | 赤帽エンジニアブログ",
-      "url": "https://rheb.hatenablog.com/entry/2025/12/09/090000",
-      "summary": "QuarkusはDIをビルド時に解決することで起動を高速化する。従来の実行時DIと比べ、依存性解決をコンパイル時に済ませて起動負荷を低減し、コンテナ環境に適応。記事はDIの解説とデコンパイラによる具体例も示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T00:00:00.000Z",
-      "contentHash": "b0aa0ac9d0d9"
-    },
-    {
-      "id": "31b26b565fe8",
-      "title": "生成AIの入出力品質は「フォーマット」で決まる ― 中間表現とテンプレートの組み合わせ | newmo 技術ブログ",
-      "url": "https://tech.newmo.me/entry/2025/12/09/090000",
-      "summary": "生成AIでテストやコード生成すると、仕様の読み飛ばしや制約見落とし、出力フォーマットのばらつきで品質が安定しない。記事は試験導入中の「中間表現（IR）」と「出力テンプレート」を組み合わせ、テストケース生成でこれらを解決する手法を紹介する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T00:00:00.000Z",
-      "contentHash": "57b1c51e1d93"
-    },
-    {
-      "id": "e0c558e81a3e",
-      "title": "React Router v7でLLMのストリーミングレスポンスを実装する | カミナシ エンジニアブログ",
-      "url": "https://kaminashi-developer.hatenablog.jp/entry/react-router-v7-llm-streaming",
-      "summary": "React Router v7のPromiseベースの遅延読み込みはチャンク単位のストリーミングに対応しないため、ReadableStreamを直接利用。ページのactionではなくUIを持たないResource RoutesでLLM（Bedrock等）のAsyncIterableをReadableStreamに変換し、fetchで逐次受信・表示する実装を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T00:00:00.000Z",
-      "contentHash": "fe5ff79c5b38"
-    },
-    {
-      "id": "b0bfca7aae4b",
-      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
-      "url": "https://openai.com/index/deutsche-telekom-collaboration",
-      "summary": "OpenAIはDeutsche Telekomと提携し、欧州の数百万人に高度な多言語AI体験を提供する。またChatGPT Enterpriseを導入し、同社社員の業務効率化とイノベーション加速を支援する。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-09T00:00:00.000Z",
-      "contentHash": "e6f62926337b"
-    },
-    {
-      "id": "239b19875b6d",
-      "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
-      "url": "https://openai.com/index/openai-appoints-denise-dresser",
-      "summary": "デニース・ドレッサーがOpenAIの最高収益責任者に就任。企業向けとカスタマーサクセスを横断するグローバル収益戦略を統括し、OpenAIの拡大に伴い企業の業務へのAI導入を支援する。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-09T00:00:00.000Z",
-      "contentHash": "ee4b39d4dd58"
-    },
-    {
-      "id": "d2a0da8324dc",
-      "title": "Building AI fluency at scale with ChatGPT Enterprise",
-      "url": "https://openai.com/index/commonwealth-bank-of-australia",
-      "summary": "コモンウェルス銀行（オーストラリア）がOpenAIと提携し、ChatGPT Enterpriseを5万人の従業員に展開。顧客対応や不正検知の強化と、組織的なAI活用力向上を目指す。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-09T00:00:00.000Z",
-      "contentHash": "863557a80183"
-    },
-    {
-      "id": "485fa3d7e99d",
-      "title": "Kroger acknowledges that its bet on robotics went too far",
-      "url": "https://www.grocerydive.com/news/kroger-ocado-close-automated-fulfillment-centers-robotics-grocery-ecommerce/805931/",
-      "summary": "Krogerはロボット化への賭けが過剰だったと認め、英Ocadoと進めた自動化フルフィルメントセンター3カ所を閉鎖。食料品ECの環境変化により方針を転換した。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-08T23:53:52.000Z",
-      "contentHash": "12b376d9308f"
-    },
-    {
-      "id": "20ee4529d27b",
-      "title": "Here are the best Apple Watch deals available right now",
-      "url": "https://www.theverge.com/21289209/best-apple-watch-deals",
-      "summary": "AppleがSeries 11、SE 3、Ultra 3など新型Apple Watchを投入。新モデルを中心に大幅値下げが始まり、Series 10やUltra 2も割引中。記事は各モデルのセール情報をまとめ、基本は購入できる最新モデルを推奨。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-08T23:39:26.000Z",
-      "contentHash": "0043956fcae5"
-    },
-    {
-      "id": "9f403247e41a",
-      "title": "The best robot vacuum and mop to buy right now",
-      "url": "https://www.theverge.com/tech/625409/best-robot-vacuum-mops",
-      "summary": "ロボット掃除機兼モップは近年進化し、初期の薄布パッドから振動や往復するパッドで床を実際にこすれるように。定期運転で手間は大幅に減るが手作業ほど完璧ではない。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-08T23:15:36.000Z",
-      "contentHash": "7371c05433d2"
-    },
-    {
-      "id": "cb3745a7711a",
-      "title": "Kiro CLIを使ってAWS上のアプリケーションエラー原因を特定する | Finatext Tech Blogのフィード",
-      "url": "https://zenn.dev/finatext/articles/kiro-cli-aws-investigation",
-      "summary": "AWSのKiro CLIは、Amazon Q Developer CLIを統合・拡張したAIエージェントツールで、シェル上でAWS設定・ログ・IaCや複数リポジトリを横断して原因調査が可能。著者はこれでDynamoDBバッチの登録漏れ原因を効率的に追跡した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T23:00:06.000Z",
-      "contentHash": "b8b16d6ffb10"
-    },
-    {
-      "id": "10351eee5236",
-      "title": "【AWS re:Invent 2025】S3 Tablesでメダリオンアーキテクチャのデータ基盤をつくろう！ | カミナシ エンジニアブログ",
-      "url": "https://kaminashi-developer.hatenablog.jp/entry/2025/12/09/aws-reinvent-s3tables-medallion",
-      "summary": "re:InventのワークショップはS3 Tablesでメダリオン（Bronze/Silver/Gold）アーキテクチャを構築。Parquet/CSVをGlueで投入・結合しAthena/SageMakerで参照を試行する中、Lake Formationの権限エラーが多発。権限設定は複雑だがテーブル単位のガバナンスやコンパクション・スナップショット等の運用最適化機能は有用と報告。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T23:00:00.000Z",
-      "contentHash": "6cfbe0a5e336"
-    },
-    {
-      "id": "dbf3ce429b5e",
-      "title": "New Relic監視設定の自動化を始めよう - Terraform × CI/CDツール比較ガイド | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/newrelic-terraform-cicd-comparison",
-      "summary": "New Relicの監視設定をTerraformでコード管理し、GitHub ActionsとAWS CodePipeline/CodeBuildでCI/CD化する利点と比較。環境差や属人化を解消し、変更履歴・事前確認・承認フローで安全な展開を実現。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T23:00:00.000Z",
-      "contentHash": "a30eef533cd5"
-    },
-    {
-      "id": "374821a38df3",
-      "title": "2025年 CSS トレンド – 開発現場で役立つ新機能 Part2 | TECHSCORE BLOG",
-      "url": "https://blog.techscore.com/entry/2025/12/09/080000",
-      "summary": "Part2では2025年の開発現場で役立つCSS新機能4つを紹介：:has()セレクター、@starting-styleとtransition-behavior、light-dark()と相対カラー、interpolate-size。:has()は子要素の状態で親を選べ、フォームバリデーションやレイアウト切替に有用。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T23:00:00.000Z",
-      "contentHash": "90e4ecd1a84b"
-    },
-    {
-      "id": "7da96f97296a",
-      "title": "DatadogでできることとECSの監視実践 | 電通総研 テックブログ",
-      "url": "https://tech.dentsusoken.com/entry/2025/12/09/Datadog%E3%81%A7%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8%E3%81%A8ECS%E3%81%AE%E7%9B%A3%E8%A6%96%E5%AE%9F%E8%B7%B5",
-      "summary": "電通総研の三谷がDatadogの概要と導入手順を解説。Datadogはクラウドやコンテナ向けのSaaS型監視・可観測性プラットフォームで、サーバ・コンテナ・アプリ等のメトリクスを集約し可視化・分析する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T23:00:00.000Z",
-      "contentHash": "8bab886d43bb"
-    },
-    {
-      "id": "3e9e5a2d2874",
-      "title": "Figmaも年末大掃除！将来に備えてメモリ40%以下を目指す！ | ゼスト Tech Blog",
-      "url": "https://techblog.zest.jp/entry/2025/12/09/073934",
-      "summary": "株式会社ゼストのプロダクトデザイナー池田が、年末の大掃除になぞらえてFigmaファイルに溜まる不要データ（ホコリ）を除去し、パフォーマンスを維持するための意識と効率的なメンテナンス術を紹介する記事。Figmaは無限ではないため定期的な掃除が必要、という趣旨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T22:39:34.000Z",
-      "contentHash": "f28cd32b26c1"
-    },
-    {
-      "id": "e691743ec829",
-      "title": "The best iPad deals you can get right now",
-      "url": "https://www.theverge.com/21280354/best-ipad-deals-apple",
-      "summary": "iPadは通年で割引があり、特に無印iPadとiPad miniが安く買える。iPad Airや最新11インチiPad Pro（M5搭載）も割引中で、旧型M4搭載Proは在庫減でさらに値下がりしやすい。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-08T22:25:02.000Z",
-      "contentHash": "f69ec4116849"
-    },
-    {
-      "id": "02c64a4be1a4",
-      "title": "Show HN: I built a system for active note-taking in regular meetings like 1-1s",
-      "url": "https://withdocket.com",
-      "summary": "定期的な会議で「議事録や自動要約でなく、自分が能動的に箇条書きで要点やアクションを記録する」ことの重要性に着目し、1対1等の定期会議向けに専用ツールを自作。既存ツールに不満で自分と友人で使用中。無料プランあり、登録不要で試せる。意見募集。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-08T22:21:26.000Z",
-      "contentHash": "c1fb3e83158f"
-    },
-    {
-      "id": "fd6af5361386",
-      "title": "GenAI Enablementチーム立ち上げ初年度の振り返り | Findy Tech Blog",
-      "url": "https://tech.findy.co.jp/entry/2025/12/09/070000",
-      "summary": "GenAI Enablementチームの設立から約1年の活動を総括する記事。チーム構成、直面した課題と解決策、理想と現実のギャップ、具体的な成果と反省を示し、自社でのGenAI活用推進に役立つ実践的なヒントを提供する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T22:00:00.000Z",
-      "contentHash": "f0d0a0c3d99e"
-    },
-    {
-      "id": "3214ac8536f6",
-      "title": "「開発チームじゃない」ハードウェア生産チームに”ガチ”スクラムを導入したら、個人の集まりが『チーム』に変わった話  ～「なんちゃって」を卒業し、ソフト出身スクラムマスターの「理想論」を乗り越えるための戦略～ | Inside of LOVOT",
-      "url": "https://tech.groove-x.com/entry/20251209-tech",
-      "summary": "GROOVE Xのスクラムマスター志賀が、家族型ロボットLOVOTの生産工程設計や品質管理を担う生産チーム（Industrial Engineering）にスクラムを導入した事例。ハードウェア現場での2週間スプリント適用などの課題と工夫を紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T22:00:00.000Z",
-      "contentHash": "39c4c1e1ff7b"
-    },
-    {
-      "id": "a256415fb6cb",
-      "title": "GoプロジェクトのCI/CD高速化の話 | JMDC TECH BLOG",
-      "url": "https://techblog.jmdc.co.jp/entry/go-github-actions-optimazation",
-      "summary": "Pep Upモバイルアプリチームの楊がJMDC Advent Calendar9日目で、GitHub ActionsのGoビルドが約58分かかっていた問題を様々な最適化で約2分（97%短縮）に改善した経緯を報告しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-08T22:00:00.000Z",
-      "contentHash": "6fb1b8c7e2e5"
-    },
-    {
-      "id": "1cec5bd693f2",
-      "title": "GitHub no longer uses Toasts",
-      "url": "https://primer.style/accessibility/toasts/",
-      "summary": "トースト通知のアクセシビリティ改善策を解説。視覚以外の利用者へはaria-live/aria-atomicで読み上げ、フォーカスを奪わない、キーボードで閉じ可能、表示時間や色彩・動きの配慮を推奨。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-08T19:58:41.000Z",
-      "contentHash": "e2396e486abe"
-    },
-    {
-      "id": "96935e4927b7",
-      "title": "Icons in Menus Everywhere – Send Help",
-      "url": "https://blog.jim-nielsen.com/2025/icons-in-menus/",
-      "summary": "記事は、メニューの全項目に無差別にアイコンを付ける流行を批判。Google SheetsやmacOS Tahoeを例に、視覚的ノイズや認知負荷を招くとして、用途ごとに慎重に使うべきと主張する。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-08T19:44:00.000Z",
-      "contentHash": "8a460bc304dc"
-    },
-    {
-      "id": "14df76423a1e",
-      "title": "The Apple Watch Series 11 just got a big $100 discount ahead of the holidays",
-      "url": "https://www.theverge.com/gadgets/840161/apple-watch-series-11-holiday-deal-sale-2025",
-      "summary": "Apple Watch Series 11が42mm GPSモデルが通常$399から$100引きの$299、46mmは$329に割引。Amazon・Walmart・Best Buyで年内最安。Series10からの改良もあり、ギフトに最適。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-08T19:17:59.000Z",
-      "contentHash": "200f16df5f70"
-    },
-    {
-      "id": "af46c6c504ca",
-      "title": "Trials avoid high risk patients and underestimate drug harms",
-      "url": "https://www.nber.org/papers/w34534",
-      "summary": "がん薬の試験は高リスク患者を回避し薬害を過小評価すると報告。治療開始で重篤有害事象入院が月+2ポイント（250%増）。高リスク者は影響2.5倍だが試験参加は4分の1。対象集団では有害事象が15%多く、25人につき年1回の追加入院に相当。代表性規制の必要性を論じる。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-08T19:07:59.000Z",
-      "contentHash": "451232e01d09"
     }
   ]
 }
