@@ -1,14 +1,131 @@
 {
-  "generatedAt": "2025-12-19T02:18:31.656Z",
+  "generatedAt": "2025-12-19T08:53:03.548Z",
   "items": [
+    {
+      "id": "930cb803b27b",
+      "title": "A Starlink satellite seems to have exploded",
+      "url": "https://www.theverge.com/news/847891/a-starlink-satellite-seems-to-have-exploded",
+      "summary": "SpaceXはスターリンク衛星35956が異常で通信喪失・高度低下、推進タンクのベントと追跡可能な破片放出を起こし制御不能に。Leo Labsは内部起源の爆発と推定、ISSへの危険はなく数週間で大気圏で燃え尽きる見込み。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-19T08:15:30.000Z",
+      "contentHash": "1ad1339e51da"
+    },
+    {
+      "id": "fe080e627c31",
+      "title": "【アドベントカレンダー2025】ActiveDirectoryの功罪とクラウドネイティブな認証戦略 | ぐるなびをちょっと良くするエンジニアブログ",
+      "url": "https://developers.gnavi.co.jp/entry/adventcalendar-251219-2/",
+      "summary": "ぐるなびの田代が、長年ITインフラの中核を担ってきたActive Directoryの変遷と、クラウド時代に対応する同社の新たな認証戦略について紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T07:00:00.000Z",
+      "contentHash": "2c9f670352ac"
+    },
+    {
+      "id": "ba6d47a3c131",
+      "title": "【AWS初学者】IAMロールからIAMロールへ。「ロールの連鎖（Role Chaining）」を試して学んだこと | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2025/12/19/155653",
+      "summary": "IAMロールの連鎖(Role Chaining)を解説し、実践で検証する手順を紹介。中継のRole-AとゴールのRole-Bを作成し、Role-AにRole-Bを想定する権限を付与。CloudShellでUser→Role-A→Role-Bの連鎖を実行して確認する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T06:56:53.000Z",
+      "contentHash": "cc7ce695d9ac"
+    },
+    {
+      "id": "b854efbaf796",
+      "title": "実践！gpt-5-mini推論レイテンシ改善: パラメータ調整とプロンプトエンジニアリングによる爆速回答 | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/2025/12/19/153747",
+      "summary": "LayerXのエンジニアがgpt-5-miniを本番投入した際、推論レイテンシが上限に達し運用困難に。推論パラメータ調整とプロンプトエンジニアリングで精度を落とさずレイテンシを改善した試行錯誤の事例を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T06:37:47.000Z",
+      "contentHash": "7dd87b0d0c4f"
+    },
+    {
+      "id": "84e406fab7ec",
+      "title": "MutationObserverを理解する | iimon TECH BLOG",
+      "url": "https://tech.iimon.co.jp/entry/2025/12/19",
+      "summary": "MutationObserverの仕組みと実装手順、オプション（childList、subtree、attributes、attributeFilter）の使い方、MutationRecordのプロパティ、無限ループの罠、廃止されたMutationEventについて解説し、実装時の注意点をまとめる記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T06:11:25.000Z",
+      "contentHash": "1597020f7751"
+    },
+    {
+      "id": "8d55669dc406",
+      "title": "【Intune】便利な有志ツールを紹介する | CloudNative Inc. BLOGs",
+      "url": "https://blog.cloudnative.co.jp/30168/",
+      "summary": "著者・すかんくが二度目のゴルフスクールに通い始めたことを報告し、Cloudnative IRS Advent Calendar 2025の19日目の記事として執筆する紹介文です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T06:08:28.000Z",
+      "contentHash": "74c2a14513c6"
+    },
+    {
+      "id": "11f8b8a79bb7",
+      "title": "Azure CLIの初期セットアップについて | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/95676fb0255081",
+      "summary": "Azure CLIの初期セットアップ手順。前提はWindowsでAzureポータルにログイン可能なこと。PowerShellで「winget install --exact --id Microsoft.AzureCLI」を実行し再起動。ポータルのMicrosoft Entra IDでテナントIDを取得し、az login --tenant <テナントID>でブラウザ認証。複数サブスクリプション時はデフォルト指定し、az account listで確認。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T06:04:35.000Z",
+      "contentHash": "f4111a53bd95"
+    },
+    {
+      "id": "13d71536e013",
+      "title": "ノートPCで動くローカルLLM完全ガイド【2025年12月版】 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/50797",
+      "summary": "サイオステクノロジーの遠藤が解説する、クラウドを使わず手元のノートPCで動かすローカルLLMの完全ガイド。2025年の軽量高性能モデルや導入手順、設定・最適化のポイントを紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T06:00:00.000Z",
+      "contentHash": "d51d1e43f642"
+    },
+    {
+      "id": "91aa1ca58100",
+      "title": "2026 Apple introducing more ads to increase opportunity in search results",
+      "url": "https://ads.apple.com/app-store/help/ad-placements/0082-search-results",
+      "summary": "App Storeの検索結果に表示される広告の仕組みを説明するページ。広告は検索結果上部に「広告」として表示され、クリエイティブは製品ページから自動生成される。掲載はキーワード一致と入札・関連性で決まり、配信対象や入札・レポートの基本も示す。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-19T05:38:25.000Z",
+      "contentHash": "ef130a40cc35"
+    },
+    {
+      "id": "ce823894bcae",
+      "title": "グループCSIRTの「構築振り返り」と「未来」についての話 | バイセル Tech Blog",
+      "url": "https://tech.buysell-technologies.com/entry/2025/12/19/143432",
+      "summary": "CTO室の内田です。2023年12月にバイセル入社、セキュリティグループのグループマネージャー。プロダクトと社内情報のリスク管理を推進し、2024年はSecure SketCHで対応指標の可視化・改善に注力しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T05:34:32.000Z",
+      "contentHash": "f358165b7e52"
+    },
+    {
+      "id": "03526fc88dc7",
+      "title": "事業会社のスクラムマスターが架けるべき「越境の橋」 | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/2025/12/19/142111",
+      "summary": "アソビューのアジャイルコーチが、事業会社のスクラムマスターは「越境の橋」を架け、異なるチームや利害関係者の価値観・強みをつなぎ、対話・協働を促して障害を取り除き継続的改善を支えるべきだと述べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T05:21:11.000Z",
+      "contentHash": "f4b3d2d1995a"
+    },
+    {
+      "id": "723015638631",
+      "title": "Treasure Dataで構築したAIエージェントでCDP開発のテスト工数の大幅削減を実現 | Dentsu Digital Tech Blog",
+      "url": "https://note.com/dd_techblog/n/n300c1b829c72",
+      "summary": "電通デジタルの小林奎太が、Treasure Dataの「AI Agent Foundry」を使った社内活用事例を紹介。Treasure Data内のデータを分析・レポートするカスタムAIエージェントで企業データの価値を引き出す取り組みを解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-19T05:18:23.000Z",
+      "contentHash": "1e570508836e"
+    },
+    {
+      "id": "26a38adef703",
+      "title": "Noclip.website – A digital museum of video game levels",
+      "url": "https://noclip.website/",
+      "summary": "外部のウェブページに直接アクセスできません。記事本文（または主要な抜粋）をここに貼っていただければ、日本語で200文字以内に要約します。コメントも一緒に貼ればそちらも要約可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-19T02:20:08.000Z",
+      "contentHash": "1b90af53a140"
+    },
     {
       "id": "ffdb84a38031",
       "title": "TikTok ban: all the news on the app’s shutdown and return in the US",
       "url": "https://www.theverge.com/23651507/tiktok-ban-us-news",
-      "summary": "米で分社化か禁止を迫る法律で一時停止したTikTokは復活。CEOはOracle・Silver Lake・MGX参加の米合弁会社設立で合意、2026年1月22日成立見込み。米内のデータ保護やアルゴリズム再訓練、コンテンツ管理を担う。",
+      "summary": "分離・禁止法で一時停止したTikTokは復帰し、Oracle・Silver Lake・MGXを含むTikTok USDS合弁の合意が成立。CEOは2026年1月22日締結予定と発表。合弁が米国のデータ保護、再学習済みアルゴリズム、コンテンツ審査を管理。",
       "source": "The Verge",
       "publishedAt": "2025-12-19T01:30:30.000Z",
-      "contentHash": "537c025696e3"
+      "contentHash": "72db9460e633"
     },
     {
       "id": "72588d31bf61",
@@ -111,12 +228,12 @@
     },
     {
       "id": "6f10f41a8744",
-      "title": "Trained LLMs exclusively on pre-1913 texts",
+      "title": "History LLMs: Models trained exclusively on pre-1913 texts",
       "url": "https://github.com/DGoettlich/history-llms",
-      "summary": "チューリッヒ大らは、時代ロック型歴史LLM群「Ranke-4B」を発表予定。Qwen3基盤の4Bモデルを各知識カットオフ（1913,1929,1933,1939,1946）で80Bトークン学習、600Bの時刻付きコーパスを使用。研究用途でモデルの判断を支持しない注意書きや1913モデルの応答例を示す。",
+      "summary": "GitHubリポジトリ「history-llms」は、歴史知識に関するLLMの誤答や捏造（年代・出来事の誤り）を集めたデータセットとベンチマーク、解析、寄稿案内をまとめ、モデルの脆弱性を示しています。",
       "source": "Hacker News",
       "publishedAt": "2025-12-18T22:39:47.000Z",
-      "contentHash": "979fb3d5b48e"
+      "contentHash": "dd27ec493943"
     },
     {
       "id": "ef33afc9071d",
@@ -140,10 +257,10 @@
       "id": "df1c0cbddae8",
       "title": "1.5 TB of VRAM on Mac Studio – RDMA over Thunderbolt 5",
       "url": "https://www.jeffgeerling.com/blog/2025/15-tb-vram-on-mac-studio-rdma-over-thunderbolt-5",
-      "summary": "Apple提供のMac StudioクラスターでmacOS 26.2のThunderbolt RDMAをExo 1.0で検証。RDMAにより複数Macが1.5TBの共有メモリのように振る舞い、遅延が約300μs→<50μsに短縮し巨大AIモデルが高速化。4台で約4万ドル（貸与）、低消費電力・静音でNVIDIA/AMD機よりメモリ面で有利。",
+      "summary": "Appleが貸与したMac Studioクラスタで、macOS 26.2のThunderbolt経由RDMAをExo 1.0で検証。複数Macが1.5TBの単一メモリプールとして動作し、遅延が約300μs→<50μsに低下して大規模AIが高速化。M3 Ultraは低消費・静音でローカルAI向き。クラスタ総額は約4万ドル。",
       "source": "Hacker News",
       "publishedAt": "2025-12-18T22:23:09.000Z",
-      "contentHash": "bff8a214602f"
+      "contentHash": "5ea0dd0ee1d4"
     },
     {
       "id": "a0622799ca99",
@@ -162,6 +279,15 @@
       "source": "The Verge",
       "publishedAt": "2025-12-18T21:55:59.000Z",
       "contentHash": "30106ffb7dd9"
+    },
+    {
+      "id": "6b7e3a3ded93",
+      "title": "AI vending machine was tricked into giving away everything",
+      "url": "https://kottke.org/25/12/this-ai-vending-machine-was-tricked-into-giving-away-everything",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文を貼っていただくか、要点を教えてください。もしくはHNコメントの要約でよければそれを基に200字以内で要約します。どれにしますか？",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-18T21:52:39.000Z",
+      "contentHash": "e9c2db16056b"
     },
     {
       "id": "d4846e6ac55f",
@@ -200,31 +326,49 @@
       "contentHash": "4be98113a475"
     },
     {
+      "id": "25f5093885f3",
+      "title": "T5Gemma 2: The next generation of encoder-decoder models",
+      "url": "https://blog.google/technology/developers/t5gemma-2/",
+      "summary": "T5Gemma 2はGemma 3を継承した次世代エンコーダー・デコーダモデルで、重要なアーキテクチャ変更を伴い初のマルチモーダル＆長文コンテキスト対応を実現。語彙埋め込みの共有やデコーダの自己／クロス注意統合で効率化している。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-18T19:48:15.000Z",
+      "contentHash": "2bb6b97ab28c"
+    },
+    {
       "id": "21d97f31b507",
       "title": "How to hack Discord, Vercel and more with one easy trick",
       "url": "https://kibty.town/blog/mintlify/",
-      "summary": "Discord等が採用するドキュメントサービスMintlifyのMDXをサーバー側でレンダリングする仕組みにRCE脆弱性(CVE-2025-67843)を発見。悪意あるMDXでサーバー上でfetch/evalが実行され、環境変数やファイルを抜き出せる問題があった。",
+      "summary": "外部のURLには直接アクセスできません。記事本文か要点をここに貼ってください。いただければ200字以内で日本語に要約します。",
       "source": "Hacker News",
       "publishedAt": "2025-12-18T19:41:24.000Z",
-      "contentHash": "0c21bb027fd7"
+      "contentHash": "680cf5119ca3"
+    },
+    {
+      "id": "f8825c51c0d4",
+      "title": "The Scottish Highlands, the Appalachians, Atlas are the same mountain range",
+      "url": "https://vividmaps.com/central-pangean-mountains/",
+      "summary": "パンゲア大陸中央に存在した巨大山脈の復元図。アパラチアやヴァリシアン、アトラス等がつながり、大陸衝突で形成され後に侵食・埋没、気候へ影響。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-18T19:15:17.000Z",
+      "contentHash": "6b491c429f5b"
     },
     {
       "id": "dcbf1c7b51cc",
       "title": "We pwned X, Vercel, Cursor, and Discord through a supply-chain attack",
       "url": "https://gist.github.com/hackermondev/5e2cdc32849405fff6b46957747a2d28",
-      "summary": "16歳の高校生ダニエルが、AIドキュメントプラットフォームMintlifyで深刻なXSS脆弱性を発見。単一リンクでドキュメントに悪意スクリプトを注入し認証情報を窃取可能で、Discord移行時に判明。他にも報告がある。",
+      "summary": "外部のURLに直接アクセスできないため、記事本文をここに貼っていただけますか？  \n全文か主要部分を貼れば200文字以内で日本語要約します。記事が長ければ要約したい箇所（導入〜結論など）を指定しても可です。",
       "source": "Hacker News",
       "publishedAt": "2025-12-18T19:08:48.000Z",
-      "contentHash": "ea180c0cee58"
+      "contentHash": "27647d65eb24"
     },
     {
       "id": "0995ec20c5cb",
       "title": "How China built its ‘Manhattan Project’ to rival the West in AI chips",
       "url": "https://www.japantimes.co.jp/business/2025/12/18/tech/china-west-ai-chips/",
-      "summary": "本文が提示されていないため要約できません。記事の全文かURLを貼ってください。タイトルのみでの要約を希望する場合はその旨を教えてください（推測による要約になります）。",
+      "summary": "中国のAI産業は依然として米欧製の高性能チップに依存しており、輸出規制の抜け道や海外クラウド、流通経路を利用して入手が続く。国内チップは性能で遅れ、北京は自給を急ぐが短期的依存は続きそうだ。",
       "source": "Hacker News",
       "publishedAt": "2025-12-18T18:55:34.000Z",
-      "contentHash": "8bbb04ba9b76"
+      "contentHash": "816ed7bb7cbe"
     },
     {
       "id": "caea9414f681",
@@ -572,10 +716,10 @@
       "id": "1ff786812209",
       "title": "Google Colab で T5Gemma-TTS-2b-2b を試す",
       "url": "https://note.com/npaka/n/ndd8bd0191b35",
-      "summary": "T5Gemma-TTS-2b-2bをColabで試した手順。2B規模の文章理解＋音声生成で高品質・感情表現に強いTTS。Hugging Faceで同意→Colab(GPU L4推奨)でリポジトリ取得、requirements調整、ログイン後に推論でgenerated.wav生成。参照音声でVoice Cloning、--target_durationで長さ調整可能。商用利用に制限あり。",
+      "summary": "Google ColabでT5Gemma-TTS-2b-2bを試用。文章理解用と音声生成用の2つの2Bモデルで高品質かつ感情表現に優れる。Hugging Faceでライセンス同意後、L4以上GPU推奨、リポジトリをクローンしrequirementsを編集してインストール、ログイン後にinferenceで.wav生成（初回約5分）。参照音声によるVoice Cloningや--target_durationで長さ指定が可能。商用利用に制限あり。",
       "source": "npaka",
       "publishedAt": "2025-12-18T07:43:42.000Z",
-      "contentHash": "2c3667028986"
+      "contentHash": "200d0e67aa5e"
     },
     {
       "id": "b59af8f0a43e",
@@ -707,10 +851,10 @@
       "id": "aa4d0c2b2219",
       "title": "【書評】 実践Claude Code入門",
       "url": "https://note.com/npaka/n/n9ac45fcb2d16",
-      "summary": "『実践Claude Code入門』は、AIを魔法扱いせず「スペック駆動開発」で仕様を言語化し、計画→実装→検証の流れにClaude Codeを組み込む実践的ガイド。MCPやAction、プロンプトやレビュー技法まで解説し、業務アプリで安定した開発を目指す内容。",
+      "summary": "『実践Claude Code入門』は、AIと共に安定したソフトを作るための実践書。仕様を言語化するスペック駆動開発やプロンプト、MCP／Action、レビュー・検証まで解説し、業務でのAI活用を支援する。",
       "source": "npaka",
       "publishedAt": "2025-12-18T02:41:49.000Z",
-      "contentHash": "b1980f238a77"
+      "contentHash": "fdc3e400f70d"
     },
     {
       "id": "6f70792185da",
@@ -824,10 +968,10 @@
       "id": "5798db588858",
       "title": "開発者は ChatGPT にアプリを提出できるようになりました",
       "url": "https://note.com/npaka/n/n02ca29e42475",
-      "summary": "ChatGPTが外部アプリの受付を開始。開発者はApps SDKでチャット連携アプリを作り、提出ガイドラインに沿ってOpenAIに審査申請できる。ディレクトリ掲載、@起動やツール呼び出し、段階的公開、収益化や厳格なプライバシー基準に対応。",
+      "summary": "開発者はChatGPTにアプリを提出・審査・公開できるようになった。Apps SDKやサンプル、アプリディレクトリで会話内で動く機能を実装可能。審査・プライバシー基準遵守が必須で、収益化は段階的導入予定。",
       "source": "npaka",
       "publishedAt": "2025-12-18T00:28:56.000Z",
-      "contentHash": "49dcd3eaf7b9"
+      "contentHash": "a6d3df77848b"
     },
     {
       "id": "27b966460249",
@@ -860,7 +1004,7 @@
       "id": "bcec01148b65",
       "title": "Introducing GPT-5.2-Codex",
       "url": "https://openai.com/index/gpt-5-2-codex",
-      "summary": "GPT-5.2-CodexはOpenAIの最先端コーディングモデルで、長期的推論や大規模なコード変換を行い、サイバーセキュリティ機能も強化している。",
+      "summary": "GPT-5.2-CodexはOpenAIの最先端コーディングモデルで、長期的な推論能力、大規模なコード変換、そして強化されたサイバーセキュリティ機能を備えています。",
       "source": "OpenAI",
       "publishedAt": "2025-12-18T00:00:00.000Z",
       "contentHash": "d33a71d42da8"
@@ -1544,10 +1688,10 @@
       "id": "68e628b27ffb",
       "title": "GPT Image 1.5 プロンプトガイド",
       "url": "https://note.com/npaka/n/n454c5579125d",
-      "summary": "gpt-image-1.5のプロンプトガイド。高精細フォトリアリズム、低遅延、顔保持や正確なテキスト描画を解説。プロンプトは「背景→被写体→詳細→制約」で具体化し、構図・照明・品質調整・画像間参照・反復改訂など実践的手法とセットアップ手順を提示。",
+      "summary": "gpt-image-1.5は高精細で制御性の高い画像生成モデル。写実性・編集耐性・テキスト描画が向上。プロンプトは背景→被写体→詳細→制約の順で具体的に、品質とレイテンシや構図、反復調整を意識して設計するのが有効。",
       "source": "npaka",
       "publishedAt": "2025-12-16T23:18:41.000Z",
-      "contentHash": "0ba4e07c9c66"
+      "contentHash": "c31f1d76842f"
     },
     {
       "id": "e6aad8cab599",
@@ -8856,150 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-09T04:57:53.000Z",
       "contentHash": "e326e12cb32e"
-    },
-    {
-      "id": "b875510adb22",
-      "title": "Terraformを使ってコードでAmazon Inspectorの指摘事項を管理する | SODA Engineering Blogのフィード",
-      "url": "https://zenn.dev/team_soda/articles/34a6863216bd8f",
-      "summary": "SODAのセキュリティエンジニア小竹が、Amazon Inspectorの通知過多によるアラート疲れを解消するため、2025/05/16リリースのTerraform AWS Providerを使った通知設定運用の改善手法を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T04:53:36.000Z",
-      "contentHash": "4706afd070a1"
-    },
-    {
-      "id": "0c6f96774c75",
-      "title": "Prompt Injection の観点についてまとめてみる | フレクトのクラウドblog",
-      "url": "https://cloud.flect.co.jp/entry/2025/12/09/130000",
-      "summary": "LLMを使う開発者はセキュリティ責任を負い、SQLインジェクション同様にPrompt Injection（悪意ある指示で機密情報を奪う攻撃）への対策が必要だと山下氏が指摘する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T04:00:00.000Z",
-      "contentHash": "54639034ebb6"
-    },
-    {
-      "id": "5adb864493d2",
-      "title": "JavaScriptで文字列の長さを取得するときの差を言語仕様から深掘りしてみる | kubell Creator's Note",
-      "url": "https://creators-note.chatwork.com/entry/2025/12/09/121214",
-      "summary": "kubell Advent Calendar 2025の9日目。末竹(magcho)がJS仕様を読む趣味から、入力の文字数制限での文字数カウント問題を解説。String.lengthが絵文字など一部を正しく数えられない点を挙げ、正しい数え方を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T03:12:14.000Z",
-      "contentHash": "d43eb9f9060f"
-    },
-    {
-      "id": "89b6dc542751",
-      "title": "フレームワーク選定ガイド：LangChain / AutoGen / CrewAI / ADK / OpenAI Agents SDKで始めるAIエージェント開発 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-      "url": "https://recruit.group.gmo/engineer/jisedai/blog/agents-sdk/",
-      "summary": "次世代システム研究室のK.X.Dが、業務でのLLM活用に必須の「AIエージェント」構築向けフレームワーク（LangChain、AutoGen、CrewAI、ADK、OpenAI Agents SDK）を比較・解説し、選定基準や導入方法を示すガイド。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T03:10:55.000Z",
-      "contentHash": "16261a411cec"
-    },
-    {
-      "id": "0e01025164c2",
-      "title": "【Cloud Automator】ECSサービスのコスト最適化を支える新アクション「ECS: サービスのタスク数を変更」 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/change-ecs-service-task",
-      "summary": "Cloud Automatorに、ジョブからECSサービスのタスク数や自動スケーリング設定を安全に変更する新アクション「ECS: サービスのタスク数を変更」を追加。時間帯や平日/土日・祝日ごとの自動制御で無駄な稼働コストを削減できます。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T03:10:00.000Z",
-      "contentHash": "78fed1a60c93"
-    },
-    {
-      "id": "a4a965f0c834",
-      "title": "【入社エントリ】AIにインタビューさせてみた | CareNet Engineersのフィード",
-      "url": "https://zenn.dev/carenet/articles/6c9e192c31e990",
-      "summary": "2025年4月にケアネットへ新卒入社したヨシが、入社エントリ記事作成でChatGPTを活用した体験記。Deep ResearchやZennで情報収集し、質問生成→回答→要約→修正→添削をAIと協働で進めた流れを紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T03:05:38.000Z",
-      "contentHash": "74e28e63167d"
-    },
-    {
-      "id": "dd4ffc4b10b0",
-      "title": "Java 21からJava 25へ：社内初のアップデートで学んだこと | WealthNavi Engineering Blogのフィード",
-      "url": "https://zenn.dev/wn_engineering/articles/7a72bbd19ec514",
-      "summary": "新卒の佐藤が社内で初めてJavaを21→25へアップデートした体験記。Java25は21以来のLTSで開発効率向上（例：JEP513柔軟なコンストラクタ等）を目的に採用。新機能・削除点（32bit x86廃止）を調査し、依存ライブラリやCI影響を確認して導入した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T03:00:08.000Z",
-      "contentHash": "87411aadd6a3"
-    },
-    {
-      "id": "76366a69549c",
-      "title": "SwiftUIでハマった！「見た目」と「タップ領域」は別物だった話 | WealthNavi Engineering Blogのフィード",
-      "url": "https://zenn.dev/wn_engineering/articles/706e8659c586bf",
-      "summary": "新卒エンジニアがSwiftUIで遭遇したButtonの落とし穴。見た目の余白をButtonに付けてもタップ領域はラベルのサイズに依存し狭くなる。解決策はラベル側にpaddingなどを付けること。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T03:00:08.000Z",
-      "contentHash": "25f1cacf0b1f"
-    },
-    {
-      "id": "a1956922c8a0",
-      "title": "【TiDB移行】sync-diff-inspector使ってみる | レバテック開発部のフィード",
-      "url": "https://zenn.dev/levtech/articles/23a9b9b7e8afaa",
-      "summary": "AWS RDS（Aurora）→TiDB移行でのデータ整合性検証にsync-diff-inspectorを最小構成で試す手順。TiUPでのインストール、config.tomlの主要設定（スレッド数、差分修復SQL出力など）、前提条件（同一スキーマ・レプリケーションまたは同等データ）、検証対象テーブルの説明を行う。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T03:00:07.000Z",
-      "contentHash": "a8db5b77608b"
-    },
-    {
-      "id": "f5db951e2af7",
-      "title": "生成AIシステムの精度評価を自動化する ― RAGASを使った精度評価ツールを開発した話 | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/e07edb3b30162d",
-      "summary": "NTTデータはRFPの非機能要件抽出精度評価を自動化するツールを開発。RAGASのContext Recallで人手の抽出を正解としAI抽出を比較、複数回実行して平均化し評価のブレを低減した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T03:00:07.000Z",
-      "contentHash": "2a134064d7a3"
-    },
-    {
-      "id": "5f1deeb59d35",
-      "title": "9日目：単体テスト自動化～JUnitの一歩進んだ使い方～ | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/b13c907d2636f0",
-      "summary": "2012年の記事紹介。JUnit等の単体テスト自動化は普及率が低く（約27.7%）、テストコード作成のコストが導入の壁。コード解析やExcelからのテスト生成で効率化を図ったが批判もあり、著者はブラックボックス重視で市販/OSSの活用を推奨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T03:00:06.000Z",
-      "contentHash": "758b428f8cc5"
-    },
-    {
-      "id": "340fc5d0f4a5",
-      "title": "アクティべ式・心理的安全性のつくり方——今日から試せる3つの習慣　多拠点・リモートワークでも心理的安全性を高める方法とは—— | DMM Developers Blog",
-      "url": "https://developersblog.dmm.com/entry/2025/12/09/113000",
-      "summary": "拠点分散の4人チームが、非同期コミュニケーションや属人化、残業常態化の課題を、1週間スプリントでの改善習慣（レトロでのTRY等）、Gatherによる常時会話、ペア／モブワークと図での共有で解決。心理的安全性が高まり残業は月5～6時間に減少。仕組み化が鍵と結論。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T02:30:00.000Z",
-      "contentHash": "68439d616a56"
-    },
-    {
-      "id": "dec6fea30764",
-      "title": "AIがコーディングをする今、人間にしかできない役割を引き受けていく話 | Speee DEVELOPER BLOG",
-      "url": "https://tech.speee.jp/entry/speee-human-value-beyond-coding",
-      "summary": "生成AIでコーディングは速くなったが、変化に追いつくためエンジニアは「何のために」を深掘りし、プロジェクト特性に応じて関わり方を変え、優先度を見極め価値を届ける。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T02:30:00.000Z",
-      "contentHash": "644483b1bb64"
-    },
-    {
-      "id": "d198e0930941",
-      "title": "kintoneローカルMCPサーバーのテストを行いました | Cybozu Inside Out | サイボウズエンジニアのブログ",
-      "url": "https://blog.cybozu.io/entry/2025/12/09/113000",
-      "summary": "2025年8月公開のkintoneローカルMCPサーバーのQA報告。PdEの自動テストやインスペクタ確認に加え、QAは生成AI（Claude等）との接続・操作性を手動で検証。APIの正当性と実用性は一致せず、非Claude環境での不具合を修正、使用性課題を一覧化して改善へフィードバックした。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T02:30:00.000Z",
-      "contentHash": "728ee01341a4"
-    },
-    {
-      "id": "7bd079726553",
-      "title": "【ロボット動かす】LeRobotのプラグイン拡張でノットフィジカルなAIを実装する！【部屋が欲しい】 | ABEJA Tech Blog",
-      "url": "https://tech-blog.abeja.asia/entry/advent-2025-day09",
-      "summary": "LeRobotのプラグイン拡張で任意のTeleoperator/Robot/Cameraを統合し、実機不要の「ノットフィジカル」AIを実装。本文はキーボードCLIテレオペと位置表示ロボットの実装手順・コード・環境（uv等）を解説し、将来的な実機学習への応用も示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T02:26:13.000Z",
-      "contentHash": "deea66527cb8"
-    },
-    {
-      "id": "b097793c368f",
-      "title": "【re:Invent】チョークトーク参加レポ &amp;amp; 英語に自信が無い方への参加のススメ | Nealle Developer's Blog",
-      "url": "https://nealle-dev.hatenablog.com/entry/2025/12/09/111158",
-      "summary": "re:Invent 2025の対話型セッションChalk Talk参加レポ。Lambda SnapStartによるLLM推論事例や開発者への直接質疑が得られる貴重な場。英語に自信がなくても予習、録音、文字起こし・翻訳（Gemini等）を活用すれば有意義に参加できると勧める。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T02:11:58.000Z",
-      "contentHash": "453714c05c6b"
     }
   ]
 }
