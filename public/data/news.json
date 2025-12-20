@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-20T14:33:12.710Z",
+  "generatedAt": "2025-12-20T14:53:26.103Z",
   "items": [
     {
       "id": "e8a961848572",
@@ -149,19 +149,19 @@
       "id": "fe52170cc033",
       "title": "Privacy doesn't mean anything anymore, anonymity does",
       "url": "https://servury.com/blog/privacy-is-marketing-anonymity-is-architecture/",
-      "summary": "記事は、企業が「プライバシー」をマーケティングに使うことが多いが、真の匿名性はデータ最小化、識別子排除、暗号や分散設計などのアーキテクチャ的対策によってのみ実現されると論じる。",
+      "summary": "記事は「プライバシーはマーケティング、匿名性はアーキテクチャ」として、単なる謳い文句のプライバシー主張は不十分で、匿名性を実現するには設計段階からのデータ最小化、分散化、暗号化などの建築的対策が不可欠であり、企業の誇張や実装上のトレードオフに注意すべきと論じる。",
       "source": "Hacker News",
       "publishedAt": "2025-12-20T06:21:05.000Z",
-      "contentHash": "1071b31b4274"
+      "contentHash": "988e68223011"
     },
     {
       "id": "c43770ea6bb8",
       "title": "Snowflake MCPサーバーを使ったAI分析基盤の構築 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
       "url": "https://developers.cyberagent.co.jp/blog/archives/61134/",
-      "summary": "化粧品企業シロクが、Slackの自然言語入力をn8n経由でSnowflake MCPサーバーに送信し、AIがText-to-SQLでSQL生成・実行、Cortex等と連携するAI分析基盤を構築。分析工数削減・安全な非エンジニア分析を実現。",
+      "summary": "記事本文が見えないため要約できません。全文を貼り付けるか記事のURLを教えてください。短く200文字以内で日本語要約を作成します。全文が長い場合は主要段落や要点だけでも構いません。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-20T06:09:52.000Z",
-      "contentHash": "36a4f9bcfe82"
+      "contentHash": "539e9d23abbd"
     },
     {
       "id": "9cc3c10fcc31",
@@ -1499,10 +1499,10 @@
       "id": "1ff786812209",
       "title": "Google Colab で T5Gemma-TTS-2b-2b を試す",
       "url": "https://note.com/npaka/n/ndd8bd0191b35",
-      "summary": "Google ColabでT5Gemma-TTS-2b-2bを検証。感情表現に強い2つの2Bモデル構成。Hugging Faceで許諾承認後、GPU(L4推奨)でリポジトリをクローンしrequirementsを調整、実行でwav生成（初回約5分）。参照音声でのVoice Cloning、再生長指定(--target_duration)、GradioでのUI起動も可能。",
+      "summary": "Google ColabでT5Gemma-TTS-2b-2bを試した記録。文章理解用と音声生成用の2Bモデルで高品質・感情表現に強い。Hugging Faceで同意後、L4等GPUを選びリポジトリをクローン、requirementsを調整してインストール。生成は初回約5分、以降約2分。参照音声でのボイスクローン、--target_durationで再生時間調整、GradioでGUI起動可能。",
       "source": "npaka",
       "publishedAt": "2025-12-18T07:43:42.000Z",
-      "contentHash": "42a22a460d3b"
+      "contentHash": "9599ce4602df"
     },
     {
       "id": "b59af8f0a43e",
@@ -2471,10 +2471,10 @@
       "id": "68e628b27ffb",
       "title": "GPT Image 1.5 プロンプトガイド",
       "url": "https://note.com/npaka/n/n454c5579125d",
-      "summary": "GPT Image 1.5は高品質で制御性の高い画像生成モデル。プロンプトは「背景→被写体→詳細→制約」で具体的に書き、画質とレイテンシの調整、構図や文字指定、複数画像の参照、少しずつ反復して修正することが重要とするガイドです。",
+      "summary": "GPT-Image-1.5は高精細なフォトリアリズム、編集耐性、低レイテンシを両立する画像生成モデル。本ガイドは背景→被写体→詳細→制約のプロンプト構造、構図・画質指定、画像入力やテキスト処理、段階的な微調整など実務的なベストプラクティスを解説。",
       "source": "npaka",
       "publishedAt": "2025-12-16T23:18:41.000Z",
-      "contentHash": "d1285c54847d"
+      "contentHash": "df4d9ed0d808"
     },
     {
       "id": "e6aad8cab599",
@@ -2588,10 +2588,10 @@
       "id": "61a9f6a4952c",
       "title": "GPT Image 1.5 の概要",
       "url": "https://note.com/npaka/n/n52e39582761b",
-      "summary": "OpenAIがChatGPT Images（API: GPT Image 1.5）を公開。最大4倍の高速生成、細部を保った高精度編集、指示追従性とテキスト描画の改善、プリセットや画像ホーム搭載。APIはブランド維持を強化し入出力コストを20%削減。",
+      "summary": "GPT Image 1.5を公開。生成速度は最大4倍、細部を保つ高精度な画像編集・変換や指示追従、微小文字の描写が改善。画像ホームと多数のプリセットを備え、APIは保存性向上とコスト20%削減。",
       "source": "npaka",
       "publishedAt": "2025-12-16T20:43:23.000Z",
-      "contentHash": "0826e3c40491"
+      "contentHash": "0d7a39ee7ee7"
     },
     {
       "id": "d31b1be8fa2e",
