@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2025-12-20T14:53:26.103Z",
+  "generatedAt": "2025-12-20T16:46:34.308Z",
   "items": [
+    {
+      "id": "986b41c492fd",
+      "title": "The LCD Steam Deck is done",
+      "url": "https://www.theverge.com/news/848595/the-lcd-steam-deck-is-done",
+      "summary": "ValveはエントリーモデルのSteam Deck LCD（256GB）を生産終了・米国で在庫切れにし、今後販売されない見込み。これで最安は512GB OLEDの$549に上がり、Valveの説明は未発表。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-20T16:09:55.000Z",
+      "contentHash": "40310503c7a6"
+    },
+    {
+      "id": "412cb701aab9",
+      "title": "【AIブラウザ】DiaとCometを実際に使って比較してみた | RecoChoku Engineering Blog",
+      "url": "https://techblog.recochoku.jp/12885",
+      "summary": "DiaとCometを比較。共通はチャット・タブ認識・カスタムスキル・動画要約。結論：AI機能重視はComet、従来の操作感重視はDia。DiaはArc風で発展途上、Cometは自動操作が強み。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T15:00:32.000Z",
+      "contentHash": "75457cbadb14"
+    },
+    {
+      "id": "5973a8bd981a",
+      "title": "神クラスは定量的指標でランキングして炙り出せる？ | BABY JOB  テックブログのフィード",
+      "url": "https://zenn.dev/babyjob/articles/fbaa4cab087bee",
+      "summary": "BABY JOB開発者がJavaParserでFan-in指標を集計するツールを作り、神クラスのランキングでリファクタ優先度を判定。基底/Util/Enum/ドメインや自動生成コードは偽陽性になりやすく除外やツール修正が必要と結論。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T15:00:03.000Z",
+      "contentHash": "b600e60503b0"
+    },
+    {
+      "id": "d0ebed386a38",
+      "title": "hawtio を使ったモニタリング | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/cac20251221",
+      "summary": "Apache Camel向けのWeb管理コンソールhawtioの紹介記事。camel-jbangでjolokiaを付けてWeb UIからルートやメトリクスを監視する手順、Embedded/Online/CLIの3配備方法、3.0→4.xでの刷新や全DSL対応について解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T15:00:00.000Z",
+      "contentHash": "00d979ed0e7f"
+    },
+    {
+      "id": "bffd1954c444",
+      "title": "スプレッドシート在庫管理、ノーコードとAIを経て専用システムへ | hacomono TECH BLOG",
+      "url": "https://techblog.hacomono.jp/entry/2025/12/21/000000",
+      "summary": "著者はスプレッドシート→AppSheet→再びスプレッドシート＋GAS（AI支援で自動化）と在庫管理を進化させたが、運用や拡張の限界から最終的に専用システム導入を決めた、という経緯を述べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T15:00:00.000Z",
+      "contentHash": "32687c3058c8"
+    },
+    {
+      "id": "74b5dd369b0c",
+      "title": "エンジニアの成長を後押しする「テックチャレンジ補助制度」をスタートしました！ | コドモン Product Team Blog",
+      "url": "https://tech.codmon.com/entry/2025/12/21/000000",
+      "summary": "コドモンは2025年にエンジニア向け学習支援「テックチャレンジ補助制度」を開始。技術書やオンライン学習費を補助し、Slackでの簡易申請→マネージャー承認→学習後の感想共有で成長促進と利用ハードル低減を図る。導入実績や購入書籍例も紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T15:00:00.000Z",
+      "contentHash": "d39a329de42e"
+    },
+    {
+      "id": "20d053bde780",
+      "title": "処理の置き場所を整理して、「とりあえず動く」コードから「変更に強い」コードを書く | テコテック開発者ブログ",
+      "url": "https://tec.tecotec.co.jp/entry/2025/12/21/000000",
+      "summary": "MVCで肥大化したコントローラを、Laravelのメール認証付きユーザー登録例で改善。バリデーション・保存・メール送信を分離し、Controllerは受付に留め、UseCase・Repository・Serviceに役割を分けて変更に強い設計を提案する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T15:00:00.000Z",
+      "contentHash": "434be092ebca"
+    },
+    {
+      "id": "95b8ed2f2dcc",
+      "title": "GA4×BigQuery：スキャン量を99%削減するテーブル設計 | FURYU Tech Blog - フリュー株式会社",
+      "url": "https://tech.furyu.jp/entry/202512210000",
+      "summary": "GA4のBigQueryデータで増えるスキャン量と実行コストを解消するため、頻出イベントや特定機能に絞った抽出テーブル作成、パーティション／クラスタリング、マテリアライズドビューを導入。クエリ可読性と集計効率を改善し、スキャン量を最大99%削減した事例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T15:00:00.000Z",
+      "contentHash": "025a6338ae8d"
+    },
+    {
+      "id": "ac0b22aebd55",
+      "title": "技術カンファレンスのCfPで意識している2つのポイント | 弁護士ドットコム株式会社 Creators’ blog",
+      "url": "https://creators.bengo4.com/entry/2025/12/21/000000",
+      "summary": "技術カンファレンスのLT CfPで意識している2点：①自分が熱量を持って深掘りできるネタを選ぶこと。②参加者（マス層）に伝わりつつ第一人者と被らない、刺さるニッチさを持つ題材にすること。メモやブログがネタ源になる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T15:00:00.000Z",
+      "contentHash": "5cdb31bf1713"
+    },
+    {
+      "id": "dfb36f35a7d1",
+      "title": "飲食店に寄り添い、困難に立ち向かい、誰かに届ける。社員に聞いた「食べログで一番印象に残ったこと」 | Tabelog Tech Blog",
+      "url": "https://tech-blog.tabelog.com/entry/advent-calendar-20251221",
+      "summary": "社員インタビューを通して、飲食店に寄り添い困難に立ち向かいながら誰かに価値を届けるという、食べログのプロダクト開発で印象に残った出来事を紹介する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T15:00:00.000Z",
+      "contentHash": "eebef81a5a27"
+    },
     {
       "id": "e8a961848572",
       "title": "Dogpile&#8217;s puzzles mix Balatro, Tetris, and a pile of puppies",
@@ -50,10 +140,10 @@
       "id": "08e8305dca04",
       "title": "The sold-out Nex Playground made my kids laugh and cry",
       "url": "https://www.theverge.com/games/848449/nex-playground-review-nintendo-wii-microsoft-kinect-motion-tracking-camera",
-      "summary": "Nex Playgroundは売り切れの人気ホットアイテム。3インチの小型キューブで単一カメラの体感ゲームを提供するが、WiiやKinectより追跡は劣る。250ドル＋定額サブスクで個別購入不可、多くは粗悪だが子どもには大好評で筆者の子も病床で遊びたがった。",
+      "summary": "売り切れの話題作Nex Playgroundは3インチの小型ゲーム機。単一カメラの動体追跡はWiiやKinectより劣り、250ドル＋高額サブスク、個別購入不可で多くが粗悪だが子どもには人気。",
       "source": "The Verge",
       "publishedAt": "2025-12-20T11:00:00.000Z",
-      "contentHash": "cea7c37d9936"
+      "contentHash": "8290e68158fe"
     },
     {
       "id": "ce1ff4bc400d",
@@ -74,6 +164,15 @@
       "contentHash": "1e8a0a27caaf"
     },
     {
+      "id": "4873defce27e",
+      "title": "Reflections on AI at the End of 2025",
+      "url": "https://antirez.com/news/157",
+      "summary": "申し訳ありませんが外部URLへ直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で要約します。HNコメントも要約希望なら合わせて貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-20T09:38:51.000Z",
+      "contentHash": "d4f2ff6fbd69"
+    },
+    {
       "id": "a80cfd387f59",
       "title": "Airbus to migrate critical apps to a sovereign Euro cloud",
       "url": "https://www.theregister.com/2025/12/19/airbus_sovereign_cloud/",
@@ -81,6 +180,15 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-20T08:36:52.000Z",
       "contentHash": "0f0d2bb68aa1"
+    },
+    {
+      "id": "f6f8d9b4a905",
+      "title": "Skills Officially Comes to Codex",
+      "url": "https://developers.openai.com/codex/skills/",
+      "summary": "Agent SkillsはSKILL.mdと任意のスクリプトや資源でタスク特化機能を定義し、Codex（CLI/IDE拡張）で共有・再利用できる。起動時に名前・説明を読み込み、明示（/skillsや$）或いは暗黙に呼び出される。保存場所でスコープと優先度が決まる（例: $CWD/.codex/skills）。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-20T08:09:17.000Z",
+      "contentHash": "47f03a2aed2e"
     },
     {
       "id": "54b822d493b5",
@@ -149,10 +257,10 @@
       "id": "fe52170cc033",
       "title": "Privacy doesn't mean anything anymore, anonymity does",
       "url": "https://servury.com/blog/privacy-is-marketing-anonymity-is-architecture/",
-      "summary": "記事は「プライバシーはマーケティング、匿名性はアーキテクチャ」として、単なる謳い文句のプライバシー主張は不十分で、匿名性を実現するには設計段階からのデータ最小化、分散化、暗号化などの建築的対策が不可欠であり、企業の誇張や実装上のトレードオフに注意すべきと論じる。",
+      "summary": "記事は「プライバシー」がしばしばマーケティング用語として使われる一方、真の匿名性はプロトコルや設計（データ最小化、識別子排除、分散化、暗号化など）によって実現されると論じる。企業の宣伝と技術的措置を区別し、匿名をアーキテクチャに組み込む重要性を説く。",
       "source": "Hacker News",
       "publishedAt": "2025-12-20T06:21:05.000Z",
-      "contentHash": "988e68223011"
+      "contentHash": "e09edd44395d"
     },
     {
       "id": "c43770ea6bb8",
@@ -8892,114 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-09T23:00:00.000Z",
       "contentHash": "403dbdc6c786"
-    },
-    {
-      "id": "79836f8b023d",
-      "title": "「作りたい」を「作れる」に変えるAI駆動プロトタイピング — 計画錯誤を乗り越える開発戦略 | TECHSCORE BLOG",
-      "url": "https://blog.techscore.com/entry/2025/12/10/080000",
-      "summary": "垂直マイルストーンの分解とAIによるギャップ分析で計画錯誤を避け、プロトタイプを育てる開発戦略を提案。Gemini File Search Tool、Firecrawl、n8nでNotebookLM風アプリを構築し、プロジェクト管理・ソース収集・チャット保存などを実装。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T23:00:00.000Z",
-      "contentHash": "d8a1d2ef960a"
-    },
-    {
-      "id": "d8e4fc418d17",
-      "title": "CODE BLUE 2025に初参戦してきました！ | 電通総研 テックブログ",
-      "url": "https://tech.dentsusoken.com/entry/codeblue2025",
-      "summary": "電通総研の福山がCODE BLUE 2025に初参加。国内最大級の国際セキュリティ会議で、講演や交流会、実践的なコンテスト／ワークショップ（Hacking AD、Interpol AIクエスト、TRAPA、Cyber Range等）に参加し、攻撃手法や緩和策を学んだレポート。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T23:00:00.000Z",
-      "contentHash": "6d2b08c9aa4d"
-    },
-    {
-      "id": "82fa0021e4a3",
-      "title": "Somehow, this AI-generated McDonald&#8217;s ad about hating Christmas was a flop",
-      "url": "https://www.theverge.com/news/841220/mcdonalds-ai-generated-christmas-ad",
-      "summary": "オランダのマクドナルドが制作したAI生成CMが、クリスマスを「最悪の季節」と描き、家族行事などの失敗を見せて「1月までマクドナルドに避難せよ」と訴えた。YouTubeで削除され、SNSではAI利用や内容への批判が相次いだ。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-09T22:52:20.000Z",
-      "contentHash": "9f25a42190b0"
-    },
-    {
-      "id": "d92547b0e1f1",
-      "title": "Google is powering a new US military AI platform",
-      "url": "https://www.theverge.com/news/841219/google-gemini-us-military-ai-platform-genai-mil",
-      "summary": "米国国防総省は独自AI基盤「GenAI.mil」を発表、最初のモデルにGoogle CloudのGeminiを採用。長官は戦力強化を強調したが、Googleは手続き書類の要約やコンプライアンスチェック、リスク評価など事務的用途を示した。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-09T22:43:54.000Z",
-      "contentHash": "3a2664e83e9c"
-    },
-    {
-      "id": "4d239234adeb",
-      "title": "PHPerがRubyistになろうとしてつまづいたところ⑤Facade | エニグモ開発者ブログ",
-      "url": "https://tech.enigmo.co.jp/entry/2025/12/10/071528",
-      "summary": "PHP中心の開発者がRailsのFacadeに苦戦した体験記。FacadeはAPIを簡潔にする一方で内部がブラックボックス化し、URL生成やログ挿入箇所が分かりづらく修正困難に。外部影響処理は隠しすぎない、責務を明示するコメントや小分割を推奨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T22:15:28.000Z",
-      "contentHash": "69fb9ac9d9ca"
-    },
-    {
-      "id": "b4118bdad0c3",
-      "title": "AWSマネジメントコンソールのログイン状況を判別するブラウザ拡張機能を作ってみた | MIXI DEVELOPERS Tech Blogのフィード",
-      "url": "https://zenn.dev/mixi/articles/8d5495bd6e7244",
-      "summary": "AWS管理コンソールで現在の権限セットやIAMユーザーを一目で判別できる拡張を開発。ヘッダー/フッターや選択画面に色を付与。Bun, React, Playwright, WXTで実装しChrome/Firefox版を公開、GitHubでIssue受付。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T22:00:01.000Z",
-      "contentHash": "4c8de0c13124"
-    },
-    {
-      "id": "952701f0b9a8",
-      "title": "フロントエンドのカオスにサヨナラ！FSDで整理整頓 | NE株式会社の開発ブログのフィード",
-      "url": "https://zenn.dev/neinc_tech/articles/75d21e9a07ff2d",
-      "summary": "FSDはフロントエンド設計手法で、レイヤー（App/Pages/Widgets/Features/Entities/Shared）→ドメイン単位のスライス→ui/api/model等のセグメントで構造化。上位は下位のみ参照、スライス間は独立（CRP/CCP）し依存を抑えて保守性と再利用性を高める。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T22:00:01.000Z",
-      "contentHash": "0071c796cb83"
-    },
-    {
-      "id": "5fbd829dc802",
-      "title": "Django: what’s new in 6.0",
-      "url": "https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/",
-      "summary": "Django 6.0がリリース。20周年の新版で、テンプレートに部分定義（partial）機能を導入し、テンプレート内の断片を再利用・単独レンダリング可能に。移行には自動変換ツールdjango-upgradeを推奨。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-09T20:33:14.000Z",
-      "contentHash": "4646e7438219"
-    },
-    {
-      "id": "452d256984da",
-      "title": "Wake Up Dead Man digs deep for a darker, more powerful Knives Out",
-      "url": "https://www.theverge.com/entertainment/840977/wake-up-dead-man-review-netflix-knives-out",
-      "summary": "ライアン・ジョンソンの新作『Wake Up Dead Man』は、豪華キャストと多くの謎解きは踏襲しつつ、鮮やかな前作から一転、ゴシックな舞台でより暗く深いミステリーを描いた作品だ。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-09T20:15:00.000Z",
-      "contentHash": "0e69570aa88b"
-    },
-    {
-      "id": "633961b76148",
-      "title": "Agentic AI Foundation",
-      "url": "https://block.xyz/inside/block-anthropic-and-openai-launch-the-agentic-ai-foundation",
-      "summary": "Block、Anthropic、OpenAIらがLinux Foundation傘下でAgentic AI Foundationを設立。ベンダー中立のオープンソース基盤で自律エージェント開発を促進し、Blockのgoose、AnthropicのMCP、OpenAIのAGENTS.md等を採用し相互運用性や共同研究・資金支援を目指す。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-09T20:00:39.000Z",
-      "contentHash": "2891ce402a7a"
-    },
-    {
-      "id": "35bc1f1e0436",
-      "title": "The AirPods Pro 3 are back to their lowest price ahead of the holidays",
-      "url": "https://www.theverge.com/gadgets/841059/apple-airpods-pro-3-silent-hill-f-deal-sale",
-      "summary": "AirPods Pro 3がホリデー前に再び最安値の219.99ドル（約30ドル引き）でAmazon・Walmart・Best Buy販売中。9月発売の新型でANCや装着感、音質が向上。ほかにPS5版「Silent Hill F」や小型充電式懐中電灯のセールも紹介。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-09T19:59:10.000Z",
-      "contentHash": "15bdbb3299a4"
-    },
-    {
-      "id": "7ff6c4c1b3af",
-      "title": "Google brings back Black Friday prices for earbuds, phones, and more",
-      "url": "https://www.theverge.com/gadgets/841072/google-pixel-9a-pixel-watch-4-holiday-gifts-deal-sale",
-      "summary": "Googleが年末セールでブラックフライデー価格を再提供。Pixel 9a、Pixel Buds 2a、Pixel Watch 4、Nest Doorbellなどが過去最安値水準に戻り、一部は販売店でさらに割安。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-09T19:47:46.000Z",
-      "contentHash": "62bcd59b9b5e"
     }
   ]
 }
