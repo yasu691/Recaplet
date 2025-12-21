@@ -1,6 +1,186 @@
 {
-  "generatedAt": "2025-12-21T08:48:41.430Z",
+  "generatedAt": "2025-12-21T16:49:04.834Z",
   "items": [
+    {
+      "id": "38f4f6605005",
+      "title": "The 35 best gifts that your teen will actually use",
+      "url": "https://www.theverge.com/tech/785418/best-teen-gift-ideas-2025",
+      "summary": "The Vergeが厳選した、ティーンが本当に使う35のギフト（ガジェットやグッズ）を紹介するホリデー向けガイド。スタッフや実際のティーンの嗜好を反映し、購入リンクはアフィリエイトの場合あり。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-21T15:30:00.000Z",
+      "contentHash": "31f4ea16d82a"
+    },
+    {
+      "id": "47153a1720ef",
+      "title": "AIと一緒にUIデザインしてみた｜Figma Make × 複数AIレビュー | BABY JOB  テックブログのフィード",
+      "url": "https://zenn.dev/babyjob/articles/ai-ui-design-review",
+      "summary": "BABY JOBのUI担当がFigma MakeとGeminiで、仮想病院検索サイトに「夜間・休日診療」「小児救急」の緊急クイックアクセスをAIと共作。3案を比較し、最上部に独立した緊急導線を置く案を最適と評価した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T15:00:02.000Z",
+      "contentHash": "fe4e91e1786f"
+    },
+    {
+      "id": "66769e33f5da",
+      "title": "【iOS】Auto Layoutで指定する数値の単位は何？pointとpixelの違いを解説する | RecoChoku Engineering Blog",
+      "url": "https://techblog.recochoku.jp/12740",
+      "summary": "Auto Layoutで指定する数値の単位はpointです。pointは解像度に依存しない論理座標で、pixelは物理画素。@2x/@3xなどのscale factorでpointを端末のpixelに変換し、開発者は常にpointを指定します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T15:00:02.000Z",
+      "contentHash": "517e801da022"
+    },
+    {
+      "id": "43c854c2b751",
+      "title": "Androidアプリ開発で、開発者用画面にサクッとアクセスしたい | kubell Creator's Note",
+      "url": "https://creators-note.chatwork.com/entry/2025/12/22/000000",
+      "summary": "開発者用画面への素早いアクセス方法を検討。アクセス速度、エミュレータ対応、画面影響、発見性を基準に、フローティングボタン、シェイク検知、通知、Quick Settings Tileを比較し、利点と課題を整理して実装を試みた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T15:00:00.000Z",
+      "contentHash": "e525b1314941"
+    },
+    {
+      "id": "913850a1c179",
+      "title": "Claude Code のためのコンテキスト設計で実現した Helmfile README の大量生成 | kubell Creator's Note",
+      "url": "https://creators-note.chatwork.com/entry/2025/12/22/000000_1",
+      "summary": "Helmfileモノレポの約60個のREADMEをClaude Codeで一括整備。AIが参照できるコンテキスト整備、章ごとのテンプレートで「何を書くか(What)」を固定、スラッシュコマンドで「どう書くか(How)」を定式化する3層構造により、一貫性のある効率的なドキュメント生成を実現。Terraform等にも転用可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T15:00:00.000Z",
+      "contentHash": "fd9777387133"
+    },
+    {
+      "id": "61c19e2591ad",
+      "title": "Camel を trace | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/cac20251222",
+      "summary": "Apache Camel Advent Calendar 22日目（古市）は、マイクロサービスでのトレーシング（OpenTelemetry）を解説。camel-observability-servicesをpomに追加するだけで利用可能。RHBACは4.10から対応、Dockerサンプルも公開。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T15:00:00.000Z",
+      "contentHash": "1dd0589752af"
+    },
+    {
+      "id": "30e3284b990c",
+      "title": "ファシリテーションとフォロワーシップの話 | hacomono TECH BLOG",
+      "url": "https://techblog.hacomono.jp/entry/2025/12/22/000000",
+      "summary": "hacomono Advent Calendar 2025の22日目。QA担当のpiroが、クリスマスの欲しい物リストのつまらなさを挟みつつ、前回のQAキャリア記事に続き、今回は「ファシリテーション」と「フォロワーシップ」という広いテーマを扱うことを紹介する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T15:00:00.000Z",
+      "contentHash": "ad99997bb5a5"
+    },
+    {
+      "id": "d48e9f908fec",
+      "title": "Nuxt2/Vue2とReact v19が混在しても壊さない！段階移行のルールとVue→React Bridge | フォトシンス エンジニアブログ",
+      "url": "https://akerun.hateblo.jp/entry/vue2-to-react",
+      "summary": "Vue2/Nuxt2のEOLに伴い、SPAをReact v19+TypeScriptへ段階移行する手法を解説。既存Vueを動かしつつReactをマウントするBridgeで段階的に置換し、依存方向やディレクトリ、PRチェック、ルーティング・slotの注意点、テスト方針（機能重視）を定め、例外は期限・撤去条件・オーナーを必須にして最終的にVue/Nuxtを削除する運用を提示。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T15:00:00.000Z",
+      "contentHash": "eba5f22e21c2"
+    },
+    {
+      "id": "fbf782174c56",
+      "title": "Job killer",
+      "url": "https://www.theverge.com/entertainment/847424/park-chan-wook-no-other-choice-interview",
+      "summary": "パク・チャヌク監督の12作目『No Other Choice』は、解雇された男（イ・ビョンホン）が有利な職を得るために競争相手を次々排除するブラックコメディ風スリラー。ドナルド・ウェストレイク原作で社会批評とユーモア、殺人を描く。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-21T14:30:00.000Z",
+      "contentHash": "c8bf00b09e54"
+    },
+    {
+      "id": "abc2d8581aec",
+      "title": "Google Workspace Studio でメールの感情分析結果をチャットで通知する | Google Cloud Japanのフィード",
+      "url": "https://zenn.dev/google_cloud_jp/articles/google-workspace-studio-email-sentiment",
+      "summary": "Google Workspace Studioで受信メールをトリガーにGeminiが本文を感情分析（ポジティブ/ニュートラル/ネガティブ）し、結果をGoogle Chatへ自動通知するフローの作成手順を解説。ネガティブ時のフォローアップ等に活用可能で、アドベントカレンダーも案内。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T14:06:04.000Z",
+      "contentHash": "96e812108096"
+    },
+    {
+      "id": "1e8e33a6a7ac",
+      "title": "The best thing I bought this year: The Nintendo Switch 2",
+      "url": "https://www.theverge.com/gadgets/845477/nintendo-switch-2-game-system-favorite",
+      "summary": "筆者は長年待っていたNintendo Switch 2を購入。7.9インチ画面を含め全体が改良され、オリジナルより高性能でサードパーティの大作も楽しめる優れた後継機と評価しています。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-21T14:00:00.000Z",
+      "contentHash": "bb2a90b253ef"
+    },
+    {
+      "id": "f32ab3fa409e",
+      "title": "How AIM taught the internet to chat",
+      "url": "https://www.theverge.com/podcast/848744/aim-aol-instant-messenger-version-history",
+      "summary": "AOLのインスタントメッセンジャー（AIM）は、ログイン音やスクリーンネーム、退席メッセージで世代の思い出を作り、チャット文化を変えた。半ば独立したチームが開発し、経営陣の反対をよそに圧倒的な人気を得た。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-21T13:58:36.000Z",
+      "contentHash": "bb4e4ae89a13"
+    },
+    {
+      "id": "3f069da6da43",
+      "title": "2025: a year in art on The Verge",
+      "url": "https://www.theverge.com/tech/841568/art-2025-best",
+      "summary": "ザ・ヴァージのアートチームが2025年の代表作を振り返る記事。DOGE騒動、ベトナム戦争の神話、トランスのオンライン私生活危機、イランの監視網など多彩な題材を扱い、万華鏡や法廷速写、大学生のニュースコラージュなどを制作。ウィキペディアの手続きと編集者が安定性を支える点も紹介。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-21T13:30:00.000Z",
+      "contentHash": "108905ba6032"
+    },
+    {
+      "id": "e6ab081e1a39",
+      "title": "Humanoid robots are coming. Eventually?",
+      "url": "https://www.theverge.com/column/843418/humanoid-robot-hype",
+      "summary": "ヒューマノイドロボットは将来的に普及が期待されるが時期は不確か。中国はそれを経済成長の原動力と位置づけ、イーロン・マスクは大量展開する「ロボット軍」を目指している。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-21T13:00:00.000Z",
+      "contentHash": "d125f754ed1b"
+    },
+    {
+      "id": "9f2c165d7901",
+      "title": "Our favorite stuff of 2025",
+      "url": "https://www.theverge.com/tech/848567/best-tech-movies-gadgets-2025-installer",
+      "summary": "The VergeのInstaller No.110で、編集者デイヴィッド・ピアースが2025年のお気に入りを紹介。観た物・読んだ物・遊んだ物・ガジェット（Switch 2 Camera等）、ノートやツール（UgmonkのLayflat、MCPでのCraft活用）や音楽まで多彩に振り返る。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-21T13:00:00.000Z",
+      "contentHash": "fcad75021fcd"
+    },
+    {
+      "id": "8c560b6696a5",
+      "title": "Coincheckのシステム構成 - Webアプリケーションの裏側 | Coincheck Tech Blog",
+      "url": "https://tech.coincheck.blog/entry/2025/12/21/191011",
+      "summary": "コインチェックのアドベントカレンダー20日目記事。システムインフラ部の萩原が、暗号資産交換所の裏側はブロックチェーン中心ではなく、販売所・取引所・NFTなどは堅牢な王道のWebアプリで構築され、全システムがAWS上のクラウドネイティブ構成で高可用性を追求していると解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T10:10:11.000Z",
+      "contentHash": "400f1666bb1f"
+    },
+    {
+      "id": "450dab33c274",
+      "title": "FunctionGemma の概要",
+      "url": "https://note.com/npaka/n/nc3b38de5c25f",
+      "summary": "FunctionGemmaはGemma 3 270Mを関数呼び出し向けに最適化したエッジモデル。ローカルで自然言語をAPIアクションに変換・実行し、チャット統合やファインチューニングで精度向上(58→85%)。Jetsonや携帯で動作し各種フレームワークに対応。API定義済み・ローカル優先・複合システム向け。",
+      "source": "npaka",
+      "publishedAt": "2025-12-21T10:10:04.000Z",
+      "contentHash": "377764625db4"
+    },
+    {
+      "id": "47953aa3fe77",
+      "title": "Inca Stone Masonry",
+      "url": "https://www.earthasweknowit.com/pages/inca_construction",
+      "summary": "インカ石工は謎視されるが、16世紀スペイン人記録を精査し物証と照合、ペルーの30以上の遺跡を撮影調査して、採石・搬送・割断・成形・組み立て・仕上げなど具体的技法と表面異常の合理的説明を示した、実証的で網羅的な研究。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-21T07:26:39.000Z",
+      "contentHash": "3a387f7e2e70"
+    },
+    {
+      "id": "d462566cd0e1",
+      "title": "Clair Obscur having its Indie Game Game Of The Year award stripped due to AI use",
+      "url": "https://www.thegamer.com/clair-obscur-expedition-33-indie-game-awards-goty-stripped-ai-use/",
+      "summary": "インディー作「Clair-Obscur: Expedition 33」が作品にAI生成素材を使用していたとして賞のノミネート/受賞資格を剥奪され、開発側と運営のやり取りやAI利用の透明性を巡る議論が起きている、という報道。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-21T07:16:19.000Z",
+      "contentHash": "02ea6775b8ad"
+    },
+    {
+      "id": "c434e6867dec",
+      "title": "Ruby website redesigned",
+      "url": "https://www.ruby-lang.org/en/",
+      "summary": "Ruby 4.0.0-preview3が公開されました。新機能としてRuby::BoxとJIT改良のZJITを導入し、多数の改善を含むプレビュー版です（投稿: naruse、2025-12-18）。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-21T07:06:48.000Z",
+      "contentHash": "8516f572b8b2"
+    },
     {
       "id": "d3d7b3c50319",
       "title": "移行ツールにAIの力を追加するDeveloper Lightspeed for Migration Toolkit for Applications(Konveyor AI) | 赤帽エンジニアブログ",
@@ -11,8 +191,17 @@
       "contentHash": "fd2c186ba118"
     },
     {
+      "id": "ed82772a5a13",
+      "title": "Indoor tanning makes youthful skin much older on a genetic level",
+      "url": "https://www.ucsf.edu/news/2025/12/431206/indoor-tanning-makes-youthful-skin-much-older-genetic-level",
+      "summary": "UCSFの研究が乳がん検診の改良法を提示。個々のリスクや新しい画像解析を用いることで検出率を上げ過剰診断を減らせる可能性を示し、臨床実装に向け追加検証を求めている。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-21T05:21:42.000Z",
+      "contentHash": "b49292ffd40a"
+    },
+    {
       "id": "271fc5f73a83",
-      "title": "Measuring AI Ability to Complete Long Tasks: Opus 4.5 has 50% horizon of 4h49M",
+      "title": "Measuring AI Ability to Complete Long Tasks",
       "url": "https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/",
       "summary": "記事本文かリンクを送ってください。内容があれば200文字以内で要約します。ウェブページのURLを貼るか、本文をコピーして共有してください。",
       "source": "Hacker News",
@@ -95,10 +284,10 @@
       "id": "b8d339a5bb28",
       "title": "Nano Banana Pro で ストーリー漫画の作成を試す",
       "url": "https://note.com/npaka/n/n5e7f167c9bf8",
-      "summary": "「Nano Banana Pro」で漫画制作を試行。ChatGPTと協力して主人公・琴音（極度のコミュ障だがSF2が異様に強い）と友人・美咲の設定画像と2Kストーリーボードを作成。10ページの青春ギャグ×ゲーム漫画で、序盤は琴音の孤独と夜の対戦、美咲が大会を提案する展開。",
+      "summary": "「Nano Banana Pro」でキャラ設定画像(1K)とストーリーボード(2K)を作成。ChatGPTとプロンプトを練り、重度のコミュ障だがSF2が異様に強い女子高生・琴音と友人美咲の青春ギャグ風10ページ漫画（詳細なページ構成とセリフ付き）を制作する試み。",
       "source": "npaka",
       "publishedAt": "2025-12-21T01:53:41.000Z",
-      "contentHash": "16b92a07cab5"
+      "contentHash": "0f18ff5f3282"
     },
     {
       "id": "34cd0448a6ca",
@@ -111,12 +300,12 @@
     },
     {
       "id": "94a2afdbb988",
-      "title": "Flock and Cyble Inc. Weaponize \"Cybercrime\" Takedowns to Silence Critics",
+      "title": "Flock and Cyble Inc. weaponize “cybercrime” takedowns to silence critics",
       "url": "https://haveibeenflocked.com/news/cyble-downtime",
-      "summary": "サイブル（Cyble）の侵害・漏洩検索/インテリジェンスサービスが停止し、ウェブやAPIが利用不能になったとHave I Been Flockedが報告。復旧と原因究明が進められており、信頼性やデータ保護の懸念が議論されている。",
+      "summary": "Have I Been Flockedが報告：脅威インテリジェンス企業Cybleのデータフィードが一時ダウンし、侵害情報の収集・通知が影響を受けた。Cybleは復旧作業中で原因は調査中。HNでは業者の信頼性・冗長化、データ品質や透明性の重要性が議論された。",
       "source": "Hacker News",
       "publishedAt": "2025-12-21T01:12:31.000Z",
-      "contentHash": "9712849545c0"
+      "contentHash": "810b7926d22f"
     },
     {
       "id": "d18eb51c9091",
@@ -284,10 +473,10 @@
       "id": "c0366ceac1d2",
       "title": "Show HN: Jmail – Google Suite for Epstein files",
       "url": "https://www.jmail.world",
-      "summary": "ルークと申します。Riley Walzと共に元のJmailを作り、昨夜は友人たちと協力して DOJの「エプスタイン文書」公表に代わりアプリ群を拡張しました。AMAどうぞ。",
+      "summary": "Lukeです。Riley Walzと共に元のJmailを作りました。昨夜友人と協力してDOJの“Epstein files”公開に替えアプリ群を拡充しました。何でも聞いてください（AMA）。",
       "source": "Hacker News",
       "publishedAt": "2025-12-20T21:00:05.000Z",
-      "contentHash": "64e6ac4aad90"
+      "contentHash": "29dced9ed41c"
     },
     {
       "id": "90365debf2cd",
@@ -2138,10 +2327,10 @@
       "id": "aa4d0c2b2219",
       "title": "【書評】 実践Claude Code入門",
       "url": "https://note.com/npaka/n/n9ac45fcb2d16",
-      "summary": "『実践Claude Code入門』は、AIを単なるコード生成ツールとせず、仕様を言語化してAIを開発プロセスに組み込む「スペック駆動開発」を提唱。計画・プロンプト設計、MCP/Action、検証・レビューまで実践的に解説する現場向けガイド。",
+      "summary": "『実践Claude Code入門』は、単にAIにコードを書かせる本ではなく、仕様を言語化する「スペック駆動開発」を軸に計画・実装・検証を行い、Claude Codeを現場で安定的に使う実践的ガイドです。",
       "source": "npaka",
       "publishedAt": "2025-12-18T02:41:49.000Z",
-      "contentHash": "cb638efab4a2"
+      "contentHash": "4675d2c3aab3"
     },
     {
       "id": "6f70792185da",
@@ -5771,15 +5960,6 @@
       "contentHash": "29ce99ecf328"
     },
     {
-      "id": "38f4f6605005",
-      "title": "The 34 best gifts that your teen will actually use",
-      "url": "https://www.theverge.com/tech/785418/best-teen-gift-ideas-2025",
-      "summary": "The Vergeが編集部とティーンの流行を踏まえ、実際に使えるガジェットやギア34点を厳選して紹介する、ホリデー向けのティーン向けギフトまとめ記事です。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-12T18:24:03.000Z",
-      "contentHash": "75efd5ab7f70"
-    },
-    {
       "id": "5a31fcc1b29e",
       "title": "Home Depot GitHub token exposed for a year, granted access to internal systems",
       "url": "https://techcrunch.com/2025/12/12/home-depot-exposed-access-to-internal-systems-for-a-year-says-researcher/",
@@ -8820,186 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T09:15:18.000Z",
       "contentHash": "831b57dfdf04"
-    },
-    {
-      "id": "80dba4c0ab87",
-      "title": "Qiitaニュース | 客先のDBを間違えて削除した話 | Qiita Zine",
-      "url": "https://qiita.com/official-columns/news/2025-12-10/",
-      "summary": "Qiitaニュース（2025/12/10）は、2025/12/01〜12/07の「いいね」上位20を紹介。1位は lif_yumumu の「客先のDBを間違えて削除した話」（638いいね）。Qiitaニュースはエンジニアを最高に幸せにすることを目指す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T09:06:47.000Z",
-      "contentHash": "22b85b464128"
-    },
-    {
-      "id": "918646e85428",
-      "title": "【re:invent 2025】AWS WAF の誤検知回避 - カスタムルールのテクニックを学ぶ (NET-301参加レポート) | カミナシ エンジニアブログ",
-      "url": "https://kaminashi-developer.hatenablog.jp/entry/2025/12/10/180330",
-      "summary": "AWS re:Invent NET-301参加レポート。AWS WAFをCOUNTモードで検証→BLOCKへ移行する実践的チューニングを習得。CloudWatch/ Amazon Qでログ解析し誤検知を見極め、Route53ラベル付与や除外付きレート制限、不要メソッドブロックなどのカスタムルール運用や高コストルール後回しの手法を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T09:03:30.000Z",
-      "contentHash": "8377844291d6"
-    },
-    {
-      "id": "578474c46314",
-      "title": "データ分析基盤再整備から1年：アーキテクチャ導入の成果と苦労 | レバレジーズ データAIブログ",
-      "url": "https://analytics.leverages.jp/entry/2025/12/10/180000",
-      "summary": "データ分析基盤再整備から1年。セマンティック層とBIの間にconnection_to層を追加、ワイドテーブル作成を任意化し、KPI定義の統一やモニタリング納品の高速化、依存関係簡素化を実現。一方で層ごとの責任範囲明確化、現場浸透、KPI保守運用が課題。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T09:00:00.000Z",
-      "contentHash": "bbf25555b1d4"
-    },
-    {
-      "id": "e152ab5d9d8c",
-      "title": "NWスペシャリスト合格体験記 | TechRacho",
-      "url": "https://techracho.bpsinc.jp/cellotak/2025_12_10/155253",
-      "summary": "筆者は2024・2025の2回受験で最終的に合格（不合格体験含む）。業界未経験で2024年初に学習開始し、教科書や過去問を中心に約61時間学習。ルーティングやIPsec/TLS、VLAN、DNSなど苦手分野が多く、多忙と体調不良の中で受験した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T08:30:41.000Z",
-      "contentHash": "eacfd445f2f7"
-    },
-    {
-      "id": "ea2dce418b60",
-      "title": "個人開発でKiroを4ヶ月使ってみた感想 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/kiro-4months-impression",
-      "summary": "個人開発で4ヶ月Kiroを使用した感想。KiroはAWS製の仕様駆動IDEでrequirements.md・design.md・tasks.mdを生成。進捗管理や中断再開が楽で品質安定に寄与する一方、完了まで時間がかかり品質の揺れや完了判定の誤りがあり、ステアリングの調整が必要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T08:18:43.000Z",
-      "contentHash": "a997fae6945f"
-    },
-    {
-      "id": "cedffcad11fb",
-      "title": "Kubestronaut認定レポート 安心安全な食材をお届けするため、セキュアで安心安全なシステム基盤について学びました | Oisix ra daichi Creator's Blog（オイシックス・ラ・大地クリエイターズブログ）",
-      "url": "https://creators.oisixradaichi.co.jp/entry/2025/12/10/171450",
-      "summary": "SREの高木さんがCNCFの5種Kubernetes資格（CKA/CKAD/CKS/KCNA/KCSA）を同時有効にしてKubestronaut認定を取得。EKS基盤強化とセキュリティ習得が目的で、学習で実務に役立つ知識やツール（Trivy等）、認定の特典や費用・更新の注意点も紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T08:14:50.000Z",
-      "contentHash": "a8b6be64ec77"
-    },
-    {
-      "id": "c4f4e4e23084",
-      "title": "AI機能開発においてデータ整備が重要だった話 | Finatext Tech Blogのフィード",
-      "url": "https://zenn.dev/finatext/articles/1c6d968fc8eb33",
-      "summary": "営業支援のAIレポートは当初Web検索で生成していたが、信頼性低下とトークン消費増大が課題に。必要情報を事前に収集・データ基盤へ蓄積し取得する方式に変更し、精度向上とコスト削減（トークン量約1/10）を実現した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T08:04:05.000Z",
-      "contentHash": "e30a65d9e581"
-    },
-    {
-      "id": "5a0ddaac7be2",
-      "title": "【New Relic】エージェント導入前に知っておくべき設定鍵の種類と役割 | TechHarmony",
-      "url": "https://blog.usize-tech.com/newrelic-keys/",
-      "summary": "New Relic導入前に把握すべき鍵は、データ送信用のLicense Key（サーバー）・Browser Key（ブラウザ）と、設定操作用のUser Key。デフォルト鍵は避け、権限に応じて新規発行し適切に管理・削除することを推奨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T08:01:53.000Z",
-      "contentHash": "26518a6951c5"
-    },
-    {
-      "id": "a4770f7e1c2f",
-      "title": "【Application Modernization | 第8回】Refactor Dev視点 なぜリファクタリングが開発スピードを決めるのか | 赤帽エンジニアブログ",
-      "url": "https://rheb.hatenablog.com/entry/2025/12/10/170024",
-      "summary": "本稿はモダナイゼーションの「リファクター」を開発者視点で論じる。挙動を保ちつつ内部構造を改善し、クラウドネイティブ化でDVSを短縮。変更特定・バグ対応・レビュー・新人立ち上げが容易になり、OVSへの価値提供が速まる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T08:00:24.000Z",
-      "contentHash": "3266e21d97e1"
-    },
-    {
-      "id": "63d8c0508679",
-      "title": "【AWS WAF】海外からの怪しいアクセスが多すぎたのでWAFのルール設定を見直した話 | ソーシャルデータバンク テックブログのフィード",
-      "url": "https://zenn.dev/sdb_blog/articles/9f38b179dcbd18",
-      "summary": "DBの接続枯渇エラーを調べたら海外（主にブラジル）からの大量リクエストによるDDoSが判明。AWS WAFで怪しいIPをブロックし、海外向けにレート制限を試したが不十分だったため、背景でブラウザ検証するChallengeルールを導入し影響を軽減したが万能ではない。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T08:00:06.000Z",
-      "contentHash": "f18f2b47709a"
-    },
-    {
-      "id": "a361e0a440a2",
-      "title": "エンジニアの交流促進に最適！アーキテクチャ大喜利のすすめ - チームビルディング事例 | Insight Edge Tech Blog",
-      "url": "https://techblog.insightedge.jp/entry/ogiri",
-      "summary": "アーキテクチャ大喜利を社内チームビルディングとして実施。普段接点のないメンバー間の交流とアーキテクチャ思考向上を目的に、ChatGPTでお題を練り、LLMによる大規模文書要約という制約（時間・並列性・データ抽出など）を設定し、設計の余白で多様な解法を引き出した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T08:00:00.000Z",
-      "contentHash": "3b578872e56d"
-    },
-    {
-      "id": "a8c1b30ed756",
-      "title": "社内クラウドデザインパターン勉強会レポート | asken テックブログ",
-      "url": "https://tech.asken.inc/entry/20251211",
-      "summary": "askenのCo-Learning委員会が2025年上期に開催したクラウドデザインパターン勉強会（全4回）は、講義＋AWSハンズオンでストラングラー、Valet Key、Claim Checkなどを学び、段階移行や署名付きURL、S3連携など実践的な設計力向上を目指した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T08:00:00.000Z",
-      "contentHash": "3abcf30a4594"
-    },
-    {
-      "id": "bf35acefe69f",
-      "title": "Stop Breaking TLS",
-      "url": "https://www.markround.com/blog/2025/12/09/stop-breaking-tls/",
-      "summary": "企業が導入する「TLS検査」ソフトは通信を中間で復号・再署名するMITMであり、TLSの保証を損ないプライバシーとセキュリティを悪化させるだけで利益はほとんどない、やめるべきだ、という主張。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T07:06:55.000Z",
-      "contentHash": "9bea22d1e987"
-    },
-    {
-      "id": "9795ba9b4735",
-      "title": "LaunchDarkly 入門：Lambda で機能フラグを試してみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/launch-darkly-feature-flag",
-      "summary": "re:InventのAWS Jam課題を復習し、AWS LambdaとLaunchDarklyを連携して機能フラグの基本を体験する解説記事。LaunchDarklyはダッシュボードからコード再デプロイ不要で機能のON/OFFをリアルタイム切替でき、アカウント作成など準備手順を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T06:56:47.000Z",
-      "contentHash": "0d87e9651a50"
-    },
-    {
-      "id": "9109e5ee9a98",
-      "title": "Notionをゴミ箱にしないために | CloudNative Inc. BLOGs",
-      "url": "https://blog.cloudnative.co.jp/29791/",
-      "summary": "運用支援チームの大友によるアドベントカレンダー10日目の投稿。2回目の記事で、GIGO（Garbage In, Garbage Out）＝「入力が悪ければ出力も悪くなる」という概念を紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T06:51:31.000Z",
-      "contentHash": "34f3994813c7"
-    },
-    {
-      "id": "d5034de9f5b2",
-      "title": "CARTA HD、U35限定テックカンファレンス「CoLab Conf（コラコン）」に Generative AI Labの松本翔太が登壇 | CARTA TECH BLOG",
-      "url": "https://techblog.cartaholdings.co.jp/entry/2025/12/10/154105",
-      "summary": "CARTA HOLDINGSは2025年12月13日に虎ノ門ヒルズで開かれるU35限定カンファレンス「CoLab Conf」にプラチナスポンサーとして協賛。CARTA Generative AI Labの松本翔太が「PoC→事業実装へ。AI CoEが挑むLLM Ops」で広告クリエイティブ判定などの事業実装事例を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T06:41:05.000Z",
-      "contentHash": "f95ae110c111"
-    },
-    {
-      "id": "f0ecb46a70c3",
-      "title": "Kubernetesバックアップツール「Velero」の概要 | SIOS Tech Lab",
-      "url": "https://tech-lab.sios.jp/archives/50688",
-      "summary": "KubernetesのバックアップはetcdとPV/PVCをセットで行う必要があり、ステートフルアプリのバージョンアップではデータ互換性と整合性に注意が必要です。本記事はバックアップツールVeleroの概要を解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T06:32:47.000Z",
-      "contentHash": "07e7f9a3db11"
-    },
-    {
-      "id": "a3827b922b2f",
-      "title": "Revisiting \"Let's Build a Compiler\"",
-      "url": "https://eli.thegreenplace.net/2025/revisiting-lets-build-a-compiler/",
-      "summary": "申し訳ありませんが外部URLを直接参照できません。記事本文を貼っていただければ、200字以内で要約します。抜粋でも可。タイトルからの推測要約（注意：推測）を先に希望する場合はお知らせください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T06:22:19.000Z",
-      "contentHash": "babb45ede9bf"
-    },
-    {
-      "id": "2aa25e664687",
-      "title": "[UE5] UIレイアウトのはじめ。ウィジェット作成と使い分け | historia Inc – 株式会社ヒストリア",
-      "url": "https://historia.co.jp/archives/53361/",
-      "summary": "Unreal Engine 5.5向けの初心者向けUIレイアウト入門。非UIデザイナーでも使えるウィジェットの作成方法と使い分けを解説し、見た目を手早く確認する手順を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T06:00:10.000Z",
-      "contentHash": "355463c5f9c6"
-    },
-    {
-      "id": "42a5682999c0",
-      "title": "CodexのSkillsを使って、プロンプト運用を効率化する | 開発ブログ｜株式会社Nextat（ネクスタット）",
-      "url": "https://nextat.co.jp/staff/archives/394",
-      "summary": "Nextatのたっきーが、Codex等を業務導入し、設計レビューやテスト指示などの繰り返し作業をSkillsで自動化できると紹介。Skillsは~/.codex/skills/<skill>/SKILL.mdを作るだけでメタデータが常時読み込まれ、本文は必要時に参照される。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T06:00:00.000Z",
-      "contentHash": "334cb3fb4ac6"
     }
   ]
 }
