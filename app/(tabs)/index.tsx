@@ -24,9 +24,9 @@ export default function HomeScreen() {
       setLoading(true);
       setError(null);
 
-      // Web: 相対パス、Native: Netlifyの絶対URL
+      // Web: GitHub Pagesのベースパスを考慮、Native: Netlifyの絶対URL
       const baseUrl = Platform.OS === 'web'
-        ? ''
+        ? (Constants.expoConfig?.extra?.router?.origin || '')
         : (Constants.expoConfig?.extra?.apiUrl || 'https://recaplet.netlify.app');
       const response = await fetch(`${baseUrl}/data/news.json`);
 
