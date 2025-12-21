@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2025-12-21T02:40:16.928Z",
+  "generatedAt": "2025-12-21T08:48:41.430Z",
   "items": [
+    {
+      "id": "d3d7b3c50319",
+      "title": "移行ツールにAIの力を追加するDeveloper Lightspeed for Migration Toolkit for Applications(Konveyor AI) | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/2025/12/21/151423",
+      "summary": "Red HatのMigration Toolkit for Applications（MTA）にAI機能を追加したDeveloper Lightspeed（Konveyor AI）がGA。MTAの静的解析で検出した修正箇所をVSCodeプラグインがLLMに渡して自動修正を支援。任意のモデル（ローカル可）を使えるが精度はモデル依存。利用にはAI APIアクセスとソースコードが必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T06:14:23.000Z",
+      "contentHash": "fd2c186ba118"
+    },
+    {
+      "id": "271fc5f73a83",
+      "title": "Measuring AI Ability to Complete Long Tasks: Opus 4.5 has 50% horizon of 4h49M",
+      "url": "https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/",
+      "summary": "記事本文かリンクを送ってください。内容があれば200文字以内で要約します。ウェブページのURLを貼るか、本文をコピーして共有してください。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-21T04:06:36.000Z",
+      "contentHash": "9ea9dc2d31d3"
+    },
+    {
+      "id": "d25a82396618",
+      "title": "リファクタリングは「文化的雪かき」なのかもしれない。~ 100日間継続した小さなPRの積み重ね~ | レバテック開発部のフィード",
+      "url": "https://zenn.dev/levtech/articles/98b374ece8cef4",
+      "summary": "レバテック開発部のk氏が、日常業務や組織課題で難しいリファクタリングに対し、今年春から実践した具体的アプローチを振り返り、現場で使える手法を紹介する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T03:00:02.000Z",
+      "contentHash": "5c1fbafd3ead"
+    },
+    {
+      "id": "da0b0f78e336",
+      "title": "21日目：バグ密度・テスト密度に依存しない品質保証への挑戦 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/e4afbe9a1e9a76",
+      "summary": "従来のバグ密度やテスト密度などの品質指標は、言語やフレームワークの多様化、ノーコード、CI/CD、マイクロサービスなどの技術変化で限界に達しており、新たな評価軸や手法が求められると指摘する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T03:00:01.000Z",
+      "contentHash": "02f2baa66b72"
+    },
+    {
+      "id": "1e7719e6f560",
+      "title": "Claude Codeで挑むTerraform State分離 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2025/12/21/120000",
+      "summary": "SansanのインフラチームがClaude Codeを活用し、各環境で肥大化したTerraform State（約750リソース）を分割。遅いplanや影響範囲拡大、並行開発の課題を解消するため、ディレクトリ構成や依存、命名規則、移行手順を設計・自動化し工数削減。事前にLinterやSDD整備も実施。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T03:00:00.000Z",
+      "contentHash": "6656efd1cffe"
+    },
+    {
+      "id": "25257f0ec1a5",
+      "title": "AIによるWebコンテンツ自動生成を運用に乗せるまでの試行錯誤 | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2025/12/21/120000",
+      "summary": "新卒エンジニアがデリッシュキッチンで検索流入向けのレシピ記事自動生成を試行。LLMに見出し・検索・選定を一任したが、クエリ不安定や誤レシピ等の運用課題発生。原因はプロンプト肥大や不要な分析、ベクトル検索処理不足。改善策は分析削除・自由生成停止・OpenSearch移行・LLMを判定役にするなどガードレール強化とAI／ルールの分担検討。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T03:00:00.000Z",
+      "contentHash": "5747bc53589b"
+    },
+    {
+      "id": "146a26494946",
+      "title": "ググるよりも先にAIへ。AI前提の開発しか知らない新卒エンジニアの「迷い」と「リアル」 | RAKSUL TechBlog",
+      "url": "https://techblog.raksul.com/entry/2025/12/16/153858",
+      "summary": "新卒エンジニアがClaude CodeなどのAI前提開発で得た利点と迷いを綴る。AIでオンボーディングやコーディングが速く、文書作成も楽に進む一方、理解が浅く「分かった気」になったり説明や主体的な手作業が減る不安を抱く。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T03:00:00.000Z",
+      "contentHash": "4cc28d7a59f1"
+    },
+    {
+      "id": "21b13dcab54b",
+      "title": "eager_loadでサービスを停止させた話 | リサーチ・アンド・イノベーション 開発者ブログ",
+      "url": "https://rni-dev.hatenablog.com/entry/2025/12/21/120000",
+      "summary": "RNI横山氏のレシートアップロード型ポイントサービスで、期間限定キャンペーン開始直後にレスポンス悪化・Aurora ServerlessのCPU100%が発生。複数JOINを含む重いSQLがCPUを消費し一時テーブル生成が疑われる。ACU増強で改善せず、キャンペーン停止で収束。根本原因は未解明。技術はRuby3.3/Rails7.1/GraphQL。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T03:00:00.000Z",
+      "contentHash": "d99a0023d233"
+    },
+    {
+      "id": "532fa5a159e5",
+      "title": "データ基盤の現在地（SnowflakeとRedshiftと、時々、Data Cloud） | クラウドワークス エンジニアブログ",
+      "url": "https://engineer.crowdworks.jp/entry/2025/12/21/114231",
+      "summary": "クラウドワークスでは既存のAmazon Redshift＋Redashに加え、マーケ用CDPにSalesforce Data Cloudを運用し、全社横断分析やAI連携を目的にSnowflakeを導入。SaaS化で運用負荷低減・使いやすさ・市場性を評価し、Aurora→Redshift/S3のデータ転送やSnowflakeでの連携最適化を進めている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T02:42:31.000Z",
+      "contentHash": "5214a18e224d"
+    },
+    {
+      "id": "7a91e7519c50",
+      "title": "事業を動かすエンジニアの判断軸——達成プランを軸に判断する | Speee DEVELOPER BLOG",
+      "url": "https://tech.speee.jp/entry/2025/12/21/113000",
+      "summary": "著者は意思決定の基準を「達成プラン」に置くことを提唱。目標から逆算して今の行動が達成に寄与するかで、技術的負債の返済、採用、メンバー配置を判断し、計画は破綻したらチームで修正・再実行するべきと述べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T02:30:00.000Z",
+      "contentHash": "76de47837d59"
+    },
+    {
+      "id": "b8d339a5bb28",
+      "title": "Nano Banana Pro で ストーリー漫画の作成を試す",
+      "url": "https://note.com/npaka/n/n5e7f167c9bf8",
+      "summary": "「Nano Banana Pro」で漫画制作を試行。ChatGPTと協力して主人公・琴音（極度のコミュ障だがSF2が異様に強い）と友人・美咲の設定画像と2Kストーリーボードを作成。10ページの青春ギャグ×ゲーム漫画で、序盤は琴音の孤独と夜の対戦、美咲が大会を提案する展開。",
+      "source": "npaka",
+      "publishedAt": "2025-12-21T01:53:41.000Z",
+      "contentHash": "16b92a07cab5"
+    },
     {
       "id": "34cd0448a6ca",
       "title": "【年末大掃除】開発環境VMの再作成 - apt・brew・asdf・Dockerを使い分けたパッケージ管理 | ABEJA Tech Blog",
@@ -9,6 +108,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-21T01:31:12.000Z",
       "contentHash": "76760386d9c8"
+    },
+    {
+      "id": "94a2afdbb988",
+      "title": "Flock and Cyble Inc. Weaponize \"Cybercrime\" Takedowns to Silence Critics",
+      "url": "https://haveibeenflocked.com/news/cyble-downtime",
+      "summary": "サイブル（Cyble）の侵害・漏洩検索/インテリジェンスサービスが停止し、ウェブやAPIが利用不能になったとHave I Been Flockedが報告。復旧と原因究明が進められており、信頼性やデータ保護の懸念が議論されている。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-21T01:12:31.000Z",
+      "contentHash": "9712849545c0"
     },
     {
       "id": "d18eb51c9091",
@@ -164,13 +272,22 @@
       "contentHash": "e0ff111ed45b"
     },
     {
+      "id": "07b6bbce7ce2",
+      "title": "Claude in Chrome",
+      "url": "https://claude.com/chrome",
+      "summary": "ブラウザ利用時のプロンプトインジェクション（命令注入）リスクを軽減するためのガイドで、対策や注意点を解説しています。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-20T21:26:14.000Z",
+      "contentHash": "1720334e5c62"
+    },
+    {
       "id": "c0366ceac1d2",
       "title": "Show HN: Jmail – Google Suite for Epstein files",
       "url": "https://www.jmail.world",
-      "summary": "Luke（Riley Walzと共に）がオリジナルのJmailを作成。昨夜はDOJの「Epstein files」公開の代わりに友人らとアプリ群を拡張したとのこと。AMA実施中。Hacker News投稿：160ポイント・36コメント。",
+      "summary": "ルークと申します。Riley Walzと共に元のJmailを作り、昨夜は友人たちと協力して DOJの「エプスタイン文書」公表に代わりアプリ群を拡張しました。AMAどうぞ。",
       "source": "Hacker News",
       "publishedAt": "2025-12-20T21:00:05.000Z",
-      "contentHash": "d8b9e503ef3a"
+      "contentHash": "64e6ac4aad90"
     },
     {
       "id": "90365debf2cd",
@@ -185,10 +302,10 @@
       "id": "17bc55fcba14",
       "title": "Ireland’s Diarmuid Early wins world Microsoft Excel title",
       "url": "https://www.bbc.com/news/articles/cj4qzgvxxgvo",
-      "summary": "アイルランド出身のディアームイッド・アーリーがラスベガスで行われた2025年のMicrosoft Excel世界選手権で優勝。3連覇のアンドリュー・ンガイを破り、総額6万ドルの大会（参加256人）は熱狂のeスポーツ会場で開催された。",
+      "summary": "「スプレッドシートのレブロン」と称されるアイルランド出身のディアルムイッド・アーリーが、ラスベガスで行われた2025年Microsoft Excel世界選手権で優勝。3連覇のアンドリュー・ンガイから王座を奪い、賞金6万ドルの大会は256人が競う熱狂のeスポーツ舞台だった。",
       "source": "Hacker News",
       "publishedAt": "2025-12-20T19:56:47.000Z",
-      "contentHash": "e9ecb95ba3a2"
+      "contentHash": "62e477a0c977"
     },
     {
       "id": "18f97cd0fcd9",
@@ -662,10 +779,10 @@
       "id": "4d39f5176be6",
       "title": "AmazingHand 入門 (1) - パーツリスト",
       "url": "https://note.com/npaka/n/n90a920e5e62c",
-      "summary": "Seeed Studioのオープンソースロボットハンド「AmazingHand」キットのパーツ一覧まとめ。XIAO互換サーボドライバ、Feetechサーボ8基、12V電源、ブレイクアウト、3D印刷の構造部品、リンケージ、ネジ類、工具などを列挙。",
+      "summary": "Seeed Studioのオープンソース3D印刷ロボット手「Amazing Hand」キットのパーツ一覧。XIAO互換サーボドライバ、Feetechサーボ8個、12V3A電源、3ピンブレイクアウト×8、ABS製指・手構造部品、リンケージ、ピン・ネジ類、ドライバー等が含まれる。",
       "source": "npaka",
       "publishedAt": "2025-12-20T01:54:29.000Z",
-      "contentHash": "9fd3f66b496b"
+      "contentHash": "8e1a2eab01a7"
     },
     {
       "id": "ae2119464bea",
@@ -1884,12 +2001,12 @@
     },
     {
       "id": "1ff786812209",
-      "title": "Google Colab で T5Gemma-TTS-2b-2b を試す",
+      "title": "Google Colab で T5Gemma-TTS を試す",
       "url": "https://note.com/npaka/n/ndd8bd0191b35",
-      "summary": "Google ColabでT5Gemma-TTS-2b-2bを試した記録。文章理解用と音声生成用の2Bモデルで高品質・感情表現に強い。Hugging Faceで同意後、L4等GPUを選びリポジトリをクローン、requirementsを調整してインストール。生成は初回約5分、以降約2分。参照音声でのボイスクローン、--target_durationで再生時間調整、GradioでGUI起動可能。",
+      "summary": "Google ColabでT5Gemma-TTSを試したまとめ。2つの2Bモデルで高品質かつ感情表現に強い。Hugging Faceで同意後、GPU（L4推奨、T4はOOMの可能性）でリポジトリをクローンし依存を調整、インストール・ログインして実行（初回約5分）でwav生成。参照音声による声質クローンや--target_durationで長さ指定、Gradioでの公開も可能。商用利用は制限あり。",
       "source": "npaka",
       "publishedAt": "2025-12-18T07:43:42.000Z",
-      "contentHash": "9599ce4602df"
+      "contentHash": "1779c057e91f"
     },
     {
       "id": "b59af8f0a43e",
@@ -2021,10 +2138,10 @@
       "id": "aa4d0c2b2219",
       "title": "【書評】 実践Claude Code入門",
       "url": "https://note.com/npaka/n/n9ac45fcb2d16",
-      "summary": "『実践Claude Code入門』は単なる操作書でなく、仕様の言語化による「スペック駆動開発」や計画→実装→検証の流れにAIを組み込み、業務向けに安定した開発を行う実践的ガイドです。",
+      "summary": "『実践Claude Code入門』は、AIを単なるコード生成ツールとせず、仕様を言語化してAIを開発プロセスに組み込む「スペック駆動開発」を提唱。計画・プロンプト設計、MCP/Action、検証・レビューまで実践的に解説する現場向けガイド。",
       "source": "npaka",
       "publishedAt": "2025-12-18T02:41:49.000Z",
-      "contentHash": "82a6f8517122"
+      "contentHash": "cb638efab4a2"
     },
     {
       "id": "6f70792185da",
@@ -2138,10 +2255,10 @@
       "id": "5798db588858",
       "title": "開発者は ChatGPT にアプリを提出できるようになりました",
       "url": "https://note.com/npaka/n/n02ca29e42475",
-      "summary": "開発者はガイドラインに沿ってChatGPTへアプリを提出・審査・公開可能に。Apps SDK（β）やサンプル等の資源を提供し、会話内で新機能や行動を実行するアプリをディレクトリで配信。安全性・プライバシー遵守が必須で、当面は物販へのリンクで収益化、段階的に展開。ユーザーはいつでも接続解除可能。",
+      "summary": "開発者はChatGPTにアプリを提出・審査申請できるようになりました。Apps SDKやサンプル、ガイドが提供され、会話に機能や行動を追加。ディレクトリで発見・段階的公開、将来的な収益化も検討。提出は安全性・プライバシー基準順守が必須で、ユーザーは接続をいつでも解除可能。",
       "source": "npaka",
       "publishedAt": "2025-12-18T00:28:56.000Z",
-      "contentHash": "129ac68354b8"
+      "contentHash": "33de09a639f5"
     },
     {
       "id": "27b966460249",
@@ -2858,10 +2975,10 @@
       "id": "68e628b27ffb",
       "title": "GPT Image 1.5 プロンプトガイド",
       "url": "https://note.com/npaka/n/n454c5579125d",
-      "summary": "GPT-Image-1.5は高精細なフォトリアリズム、編集耐性、低レイテンシを両立する画像生成モデル。本ガイドは背景→被写体→詳細→制約のプロンプト構造、構図・画質指定、画像入力やテキスト処理、段階的な微調整など実務的なベストプラクティスを解説。",
+      "summary": "GPT‑Image‑1.5は高精細なフォトリアリズムと高い制御性・編集耐性を備えた最新画像生成モデル。プロンプトは「背景→被写体→主要ディテール→制約」で構成し、カメラ／照明／構図や文字指定、複数画像参照、品質（レイテンシ）調整を明確に。まず簡潔なベースから反復で微調整する運用が推奨される。",
       "source": "npaka",
       "publishedAt": "2025-12-16T23:18:41.000Z",
-      "contentHash": "df4d9ed0d808"
+      "contentHash": "d24e7ff3229c"
     },
     {
       "id": "e6aad8cab599",
@@ -8883,123 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T06:00:00.000Z",
       "contentHash": "334cb3fb4ac6"
-    },
-    {
-      "id": "aa2dff30c3a1",
-      "title": "コーポレートシステム部の週報作成を自動化した話ーSlackログの収集からNotionへのアウトプットまで | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2025/12/10/150000",
-      "summary": "「今週なにやった？」が見えない課題を解決するため、SlackログをDuckDBで検索可能化し、SQSでユーザー毎に分散処理、Bedrockで週報自動生成、Notionへ書込・重複検知する週報アプリを構築し手作業削減と運用コスト最適化を実現。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T06:00:00.000Z",
-      "contentHash": "567582d54020"
-    },
-    {
-      "id": "a9af8a995b0f",
-      "title": "AWS re:Invent 2025 現地参加レポート | CARTA TECH BLOG",
-      "url": "https://techblog.cartaholdings.co.jp/entry/aws-reinvent-2025-rapio",
-      "summary": "CARTA ZEROのWebエンジニア・らぴおが、2025年12月1〜4日にラスベガスで開催されたAWS re:Invent 2025に初参加。インフラやクラウドへの関心と所属チームでのAWS活用を背景に、現地での体験や所感をまとめる記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T05:36:23.000Z",
-      "contentHash": "abf34753a0f5"
-    },
-    {
-      "id": "9aaf6d186a4e",
-      "title": "通知チャンネルのAPIが設定の更新に対応しました ほか4件のアップデート | Mackerel ブログ #mackerelio",
-      "url": "https://mackerel.io/ja/blog/entry/weekly/20251210",
-      "summary": "MackerelチームCREの五十嵐からの更新報告：通知チャンネルAPIが設定更新に対応、トレース一覧取得APIを公開、MCPでトレース検索可能に、OpenTelemetryのOTLP受信ホストを環境変数で設定、ElastiCacheホスト詳細でイベント表示、Mackerelアドベントカレンダー2025開催。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T05:25:57.000Z",
-      "contentHash": "1c7741d056e8"
-    },
-    {
-      "id": "768dacd0245d",
-      "title": "空間的遺伝子発現解析入門① | バイオインフォマティクス実践ラボ｜アメリエフ技術ブログ",
-      "url": "https://staffblog.amelieff.jp/entry/2025/12/10/140000",
-      "summary": "空間的遺伝子発現解析は、組織内でどの遺伝子がどこで機能するかを可視化する技術で、基本概念とVisiumやXeniumなどの代表的プラットフォームの概要を解説する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T05:00:00.000Z",
-      "contentHash": "602944e2fe87"
-    },
-    {
-      "id": "6bdd2fcd222a",
-      "title": "ADK でエージェントを開発して Gemini Enterprise で利用してみよう with Agent Starter Pack | Google Cloud Japanのフィード",
-      "url": "https://zenn.dev/google_cloud_jp/articles/adk-on-gemini-ent-with-asp",
-      "summary": "Google Cloud の Gemini Enterprise（2025年10月9日開始）で、ADK（Agent Development Kit）によるノーコードのカスタムエージェントが登録・利用可能に。Deep Research 等の既存エージェントに加え、業務向けの独自エージェントを作成・導入できる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T04:38:28.000Z",
-      "contentHash": "520ecd2fa853"
-    },
-    {
-      "id": "55b2b79a5e07",
-      "title": "QAエンジニアよ、いいから黙ってコードを読め | SOMPO Digital Lab 開発チームブログ",
-      "url": "https://tech.sompo.io/entry/2025/12/10/130110",
-      "summary": "SOMPO Digital LabのQAエンジニア穴原が、生成AIの“自動作成”記事とは異なる活用事例を紹介。挑発的なタイトルで、内製開発ではQAエンジニアがコードを読むべきだと主張し、その議論は既に決着したと述べている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T04:01:10.000Z",
-      "contentHash": "fcd933452a6f"
-    },
-    {
-      "id": "d52db49bc0fa",
-      "title": "Azure Communication Servicesを使った通話機能に品質の診断ロジックを組み込みたい。 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/d57c7916e7c1d3",
-      "summary": "Azure PortalでLog Analyticsと連携すれば確認可能だが、エラー発生時にWebアプリ上でも見せたい。いくつかの診断機能を紹介。通話前診断（プレビュー）ではカメラ・マイク・スピーカーなどのデバイス情報を取得できる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T03:51:16.000Z",
-      "contentHash": "be36ebbcd835"
-    },
-    {
-      "id": "8d52978941bb",
-      "title": "'Source available' is not open source, and that's okay",
-      "url": "https://dri.es/source-available-is-not-open-source-and-that-is-okay",
-      "summary": "「source-availableはオープンソースではないが、それで問題ない」と主張。OSS定義と区別し、商用利用やクラウドによる搾取を制限するライセンスは開発者の目的、倫理、持続可能性を守る手段であり、目的に応じて適切なライセンスを選ぶべきだと述べる。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T03:33:14.000Z",
-      "contentHash": "51c92f253e0d"
-    },
-    {
-      "id": "518015191e0d",
-      "title": "ESLint と oxlint の併用構成への移行を行いました | コドモン Product Team Blog",
-      "url": "https://tech.codmon.com/entry/2025/12/10/123046",
-      "summary": "コドモン Advent Calendar 2025の10日目、羽馬がコドモンの一部フロントでESLintとRust製oxlintの併用構成へ移行した経緯を、リンターの重要性や別プロジェクトでのBiome→oxlint移行経験を踏まえて紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T03:30:46.000Z",
-      "contentHash": "94a8ddf6c6a7"
-    },
-    {
-      "id": "7f54c40770ed",
-      "title": "Automaによる自動化 - CSVを使った大量データ登録 | ミツカリ技術ブログ",
-      "url": "https://tech-blog.mitsucari.com/entry/2025/12/10/121816",
-      "summary": "AutomaはChrome拡張のRPAツールで、GUIでワークフローを作りCSVを使ってGoogleフォーム等へ大量データ登録を自動化できる。非エンジニア向きだがファイルURLアクセスなど強い権限を要求するため拡張の安全性に注意。CSVの空行は避ける。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T03:18:16.000Z",
-      "contentHash": "0a2b108695a1"
-    },
-    {
-      "id": "8781091247ec",
-      "title": "Rust in the kernel is no longer experimental",
-      "url": "https://lwn.net/Articles/1049831/",
-      "summary": "Phoronixは記事やコメントに難点があるが、OSS動向を頻繁に伝え、ベンチでカーネル問題を発掘するなど有用でLWNの補完にもなる。Clear LinuxはデフォルトでCFLAGS=-O3等の最適化で有利になり、最適化で改善する部分と変わらない部分がある。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T03:15:24.000Z",
-      "contentHash": "b6b04b8a653e"
-    },
-    {
-      "id": "b257a3b26e86",
-      "title": "Google OAuth検証（審査）準備編 | TalentX Tech Blog",
-      "url": "https://tech.talentx.co.jp/entry/2025/12/10/120442",
-      "summary": "Google OAuth検証の準備をMyBrandの事例で解説。機密・制限付きスコープは審査が必要（未審査だと100人制限や「未確認アプリ」表示）。ブランド検証とスコープ要件確認が主で、ホームページ・プライバシーポリシー・デモ動画等の資料が必要。期間は機密で3〜10営業日、制限付きは2週間以上。最新情報は公式を参照。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T03:04:42.000Z",
-      "contentHash": "123877279b30"
-    },
-    {
-      "id": "ae99835bde06",
-      "title": "【Zscaler】Zscaler Gen AI Security Report徹底解説：プロンプト、DLP、利用傾向を深掘り分析 | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2025/12/10/120019",
-      "summary": "Zscaler Gen AI Security Reportは、ZTE経由トラフィックを監視して組織内の生成AI利用を可視化する機能です。データ漏洩やシャドーAI検知、プロンプトの監視・分類、部門別利用や傾向分析、DLP連携などのダッシュボードを提供し、ZIAのAnalyticsから確認できます。執筆はエーピーコミュニケーションズ平松の個人見解です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T03:00:19.000Z",
-      "contentHash": "ae5b2a68405a"
     }
   ]
 }
