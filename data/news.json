@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2025-12-21T01:08:54.429Z",
+  "generatedAt": "2025-12-21T02:40:16.928Z",
   "items": [
+    {
+      "id": "34cd0448a6ca",
+      "title": "【年末大掃除】開発環境VMの再作成 - apt・brew・asdf・Dockerを使い分けたパッケージ管理 | ABEJA Tech Blog",
+      "url": "https://tech-blog.abeja.asia/entry/advent-2025-day21-1",
+      "summary": "Google Cloud上の開発VMをUbuntu 24.04で再作成。ファイアウォールや自動シャットダウン、日次apt更新スクリプトを設定し、ツールは「apt/Homebrew/セルフ更新」「asdf等でバージョン管理」「難航するものはDocker」で使い分け、必要な開発パッケージを導入した備忘録。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T01:31:12.000Z",
+      "contentHash": "76760386d9c8"
+    },
+    {
+      "id": "d18eb51c9091",
+      "title": "4年間の実践から考える「異なる領域や立場を接続するデザイン」 | NTT docomo Business Engineers' Blog",
+      "url": "https://engineers.ntt.com/entry/202512-advent-calender-day21/entry",
+      "summary": "著者は4年間の実践を振り返り、デザインを「異なる領域や立場をつなぎ、共通理解をつくる技術」と定義。情報の整理・翻訳・図解で関係者が同じものを見て議論できる接続点を作る役割を果たしてきたと述べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T01:06:39.000Z",
+      "contentHash": "7968fa2be63f"
+    },
+    {
+      "id": "f03f159805b3",
+      "title": "それでも僕はコードを書く | Goodpatch Tech Blog",
+      "url": "https://goodpatch-tech.hatenablog.com/entry/why_code_2025",
+      "summary": "Goodpatchの藤井（touyou）が、生成AI時代でも自分でコードを書く意義を論じる記事。ブラッディ・マンデイや競技プログラミングで育った経験をもとに、AI万能論への違和感と「書くこと」の価値を問い直す内容。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T01:00:00.000Z",
+      "contentHash": "b927ad8e693a"
+    },
+    {
+      "id": "8b311dd68698",
+      "title": "常に画面がONになって欲しい瞬間のあるWebアプリへ贈る Screen Wake Lock API  | OPTiM TECH BLOG",
+      "url": "https://tech-blog.optim.co.jp/entry/2025/12/21/100000",
+      "summary": "Webアプリで画面を常時ONにするScreen Wake Lock APIを解説。navigator.wakeLock.request('screen')で抑制、取得したオブジェクトのrelease()で解除。主要ブラウザは2025年3月以降対応。React+TypeScriptフックで実機検証し結果を報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T01:00:00.000Z",
+      "contentHash": "d64d7cc8154a"
+    },
+    {
+      "id": "9a6a550521b8",
+      "title": "簡単なところから始めてみるAI活用 | freee Developers Hub",
+      "url": "https://developers.freee.co.jp/entry/freee-qa-advent-calendar2025-day21",
+      "summary": "freeeのQAが、AIは単なる効率化より「スキル向上」に有効と考察。Geminiでマイクロサービスのデータ流を雑に尋ね深掘りし理解を可視化。runnでのAPIテスト習得でも、簡単な指示と理由提示を求めることで学びが進んだ。まずは簡単な活用から始める提案。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T01:00:00.000Z",
+      "contentHash": "219525173181"
+    },
+    {
+      "id": "94755ad5d76e",
+      "title": "LLMによって非定形の会話ログを価値あるFAQデータにする話 | エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/2025/12/21/100000",
+      "summary": "非定型の問い合わせログをLLMでFAQ化するパイプラインを解説。分類→埋め込みによるクラスタリング→生成の3段階で重複排除と高品質FAQを自動作成し、運用で誤生成対策や即時反映を行い、プロダクト改善やナレッジ管理へ応用可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T01:00:00.000Z",
+      "contentHash": "b790e7110344"
+    },
+    {
+      "id": "a9e8f6f0c4c2",
+      "title": "GitHub Copilot SpacesをGitHub.comやVSCodeから利用する | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2025/12/21/100000",
+      "summary": "Copilot Spacesは組織のナレッジを「Space」として一元化し、Copilotの応答に反映する次世代ナレッジ基盤。従来のCopilot knowledge basesの後継で、リポジトリやファイル、Issue/PR、任意テキストやアップロードをコンテキストに追加でき、組織内で権限を設定して共有できる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T01:00:00.000Z",
+      "contentHash": "870c2c393837"
+    },
+    {
+      "id": "39bfa30bae2f",
+      "title": "unknown_parameterUnknown parameter: 'tools[0].server_authentication'. | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/7f229fed7154ab",
+      "summary": "Microsoft FoundryでFoundry IQを作成後、Agent経由で操作すると「unknown_parameter: 'tools[0].server_authentication'」エラーが発生。原因はバグと推定。回避策は Agent>Create agent で作成し、KnowledgeタブでKnowledge Baseを追加する方法。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-21T00:57:19.000Z",
+      "contentHash": "dd4d08d3ed1c"
+    },
     {
       "id": "7d639ce748e8",
       "title": "開発チームを「割り込み」から守る。EMが実践した問い合わせフローの交通整理 | asoview! Tech Blog",
@@ -590,10 +662,10 @@
       "id": "4d39f5176be6",
       "title": "AmazingHand 入門 (1) - パーツリスト",
       "url": "https://note.com/npaka/n/n90a920e5e62c",
-      "summary": "Seeed Studioのオープンソース3Dプリント人型手「AmazingHand」キットのパーツリスト。XIAO互換サーボドライバ×1、Feetechサーボ×8、12V3A電源、ブレイクアウト×8、ABS製構造パーツ一式、リンケージ、ネジ類、ドライバー等を収録。デコステッカーは欠品の可能性あり。",
+      "summary": "Seeed Studioのオープンソースロボットハンド「AmazingHand」キットのパーツ一覧まとめ。XIAO互換サーボドライバ、Feetechサーボ8基、12V電源、ブレイクアウト、3D印刷の構造部品、リンケージ、ネジ類、工具などを列挙。",
       "source": "npaka",
       "publishedAt": "2025-12-20T01:54:29.000Z",
-      "contentHash": "bbbf6119dd1d"
+      "contentHash": "9fd3f66b496b"
     },
     {
       "id": "ae2119464bea",
@@ -8928,78 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T03:00:19.000Z",
       "contentHash": "ae5b2a68405a"
-    },
-    {
-      "id": "b04001ec9cd6",
-      "title": "10日目：スマホ時代のテスティングソリューション | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/83d75fd866ae3f",
-      "summary": "スマホ普及で機種多様化が進み、全機種での検証はコスト・管理面で非現実的。代替としてクラウド上の実機レンタル／遠隔操作サービスが普及し、負担軽減に有力だが同時利用や期間制限がある。提供企業は増え、一部サービスは終了した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T03:00:04.000Z",
-      "contentHash": "c5b046265d6a"
-    },
-    {
-      "id": "7312d74a0abc",
-      "title": "ECSのNode.jsサーバーで起きたメモリリークを解消した話 | レバテック開発部のフィード",
-      "url": "https://zenn.dev/levtech/articles/acdb6b6ce5db4b",
-      "summary": "ECS上のNode.jsサーバがOOMで異常終了し、ヒープのメモリリークを調査。--inspectでChrome DevToolsからヒープを確認し、SSM経由でECSへポートフォワード。TerraformでECS Exec有効化とssmmessages権限付与を行った。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T03:00:03.000Z",
-      "contentHash": "b9fa04682e6d"
-    },
-    {
-      "id": "be1fe1e250e5",
-      "title": "Snowflake Intelligenceを触ってみた。 | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/f7465996741f34",
-      "summary": "NTTデータの鈴木氏がSnowflake Intelligence（2025/11/04にGA）を試用。Cortex Analyst/Search/AgentsをSnowsightで構築し、セマンティックモデルを用いて自然言語での集計・分析・可視化を実演し、データ民主化とAI統合の利便性を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T03:00:03.000Z",
-      "contentHash": "ae9edfe09818"
-    },
-    {
-      "id": "ec19c45fdf9a",
-      "title": "Flutter Kaigi 2025 参加レポート | ANDPAD Tech Blog",
-      "url": "https://tech.andpad.co.jp/entry/2025/12/10/120000",
-      "summary": "アンドパッドのエンジニア4名がFlutter Kaigi 2025に参加。MCP/LLMなどAI実務活用が中心テーマとなり、「AIをどう組み込み開発と品質を再構築するか」へと関心がシフト。内部構造、性能、ネイティブ連携、運用など多様な技術セッションを整理して報告。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T03:00:00.000Z",
-      "contentHash": "04f32894beb0"
-    },
-    {
-      "id": "eb6486eb023b",
-      "title": "@typesパッケージをノールックマージする | kubell Creator's Note",
-      "url": "https://creators-note.chatwork.com/entry/2025/12/10/120000",
-      "summary": "kubellの石田です。Renovateで上がる@types更新をノールックマージできるよう自動化しました。package.jsonから@typesを抽出→本体名に変換（@types/scope__pkg→@scope/pkg対応）→パッチを無視したmajor.minorで比較し、@typesが本体より新しければエラーにするスクリプトです。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T03:00:00.000Z",
-      "contentHash": "cb57869364d5"
-    },
-    {
-      "id": "9f43c64754f5",
-      "title": "NYC congestion pricing cuts air pollution by a fifth in six months",
-      "url": "https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/",
-      "summary": "ニューヨーク市の混雑課金導入後6か月で、交通由来の大気汚染濃度が平均22%低下。課金区域で特に効果が大きく、公衆衛生改善や温室効果ガス削減、公共交通への投資が期待される一方、影響の地域差や迂回増加の懸念も指摘された。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T02:58:45.000Z",
-      "contentHash": "79ae0829976e"
-    },
-    {
-      "id": "b52dab2517f0",
-      "title": "データ組織へのClaude Code導入と、その後の利用状況 | DMM Developers Blog",
-      "url": "https://developersblog.dmm.com/entry/2025/12/10/113000",
-      "summary": "2025年新卒の森が、Google Cloud（Vertex AI）経由でClaude Codeを導入。1人月150ドルで9月末運用開始。PR作成やテスト実装などコーディング支援で有効だが、独自手法や複雑なレポートは苦手。Jupyterのトークン爆発やBigQuery抽出の課題はMCP前処理やプロンプト改善で対処し、費用消化は50～80%で運用中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T02:30:00.000Z",
-      "contentHash": "2c7e7fc62f84"
-    },
-    {
-      "id": "2756c3bf18d5",
-      "title": "複数プロダクトを横断して気づいた検証可能な開発の必要性 | Speee DEVELOPER BLOG",
-      "url": "https://tech.speee.jp/entry/tsunagaru-2025",
-      "summary": "不動産向け複数プロダクト開発で、リリースをゴールに振り返りや検証を怠り、使われない・重複する機能を生んだ。原因はSMARTに基づく測定可能なKPI不在。検証可能な指標や中間指標・期限設定の重要性を学んだ。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T02:30:00.000Z",
-      "contentHash": "edf5e0bfb00e"
     }
   ]
 }
