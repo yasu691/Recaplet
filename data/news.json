@@ -1,6 +1,186 @@
 {
-  "generatedAt": "2025-12-20T16:46:34.308Z",
+  "generatedAt": "2025-12-21T01:08:54.429Z",
   "items": [
+    {
+      "id": "7d639ce748e8",
+      "title": "開発チームを「割り込み」から守る。EMが実践した問い合わせフローの交通整理 | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/2025/12/21/080337",
+      "summary": "アソビューのEMが、3チーム18名の開発組織でSlackに届く多種多様な問い合わせ（作業依頼・仕様確認・バグ等）による開発の割り込みを防ぐため、全体メンションで対応していた従来フローを整理し、問い合わせフローを整備して交通整理した事例を紹介する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T23:03:37.000Z",
+      "contentHash": "aebd8aba8bb4"
+    },
+    {
+      "id": "81bf6c6555e4",
+      "title": "kubernetes/kubernetes の CI 基盤に deep dive！ | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
+      "url": "https://developers.cyberagent.co.jp/blog/archives/61143/",
+      "summary": "記事全文が途中で切れているようです。全文を貼っていただけますか？200文字以内で要約します。もし要点だけでよければ、対象箇所や重視するポイント（例：結論、背景、提案など）を教えてください。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T23:00:14.000Z",
+      "contentHash": "14478a6107af"
+    },
+    {
+      "id": "8ae5790ee64a",
+      "title": "子アカウントに上書きさせない！AWS Organizationsで「全社AIオプトアウト」ルールを構築する | 株式会社ログラス テックブログのフィード",
+      "url": "https://zenn.dev/loglass/articles/2f656b866ccfd7",
+      "summary": "ログラスは複数AWSアカウントでの設定ミスやAI関連の管理不確実性を防ぐため、AWS Organizationsの「AIサービスオプトアウトポリシー」を使い、全社一括でデータのAI学習利用を拒否するガードレールを構築した。AWSはデフォルトでオプトイン。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T23:00:01.000Z",
+      "contentHash": "aaef0ffeacd8"
+    },
+    {
+      "id": "b0fea560b148",
+      "title": "エンジニア組織を加速する情シスとして、実践したい「ホスピタリティ」３原則 | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/3f2d1012583ac2",
+      "summary": "急成長するエンジニア組織で情シスは単なる運用ではなく“ホスピタリティ”で生産性向上を目指す。3原則—個別最適化した認知、能動的提案、再現性あるオペレーション—で摩擦を減らし、準備と学習、チーム内の率直な指摘を重視する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T22:00:01.000Z",
+      "contentHash": "713cbf9f7cdc"
+    },
+    {
+      "id": "bba54cb81514",
+      "title": "AWS re:Invent 2025 参加レポート - 参加して感じた、AIOpsの本格的な到来 | Findy Tech Blog",
+      "url": "https://tech.findy.co.jp/entry/2025/12/21/070000",
+      "summary": "ラスベガスのAWS re:Invent 2025に参加。Frontier Agents（特にAWS DevOps Agent）に注目し、ログ・メトリクス横断で根本原因特定や改善案自動生成を実演。Datadog連携などで運用のAIOps化が進むと報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T22:00:00.000Z",
+      "contentHash": "877f874742e8"
+    },
+    {
+      "id": "e5411bced466",
+      "title": "JetsonでCUDAやるなら統合メモリが幸せかと思ったらそれは幻想だったのかもしれない | Inside of LOVOT",
+      "url": "https://tech.groove-x.com/entry/20251221/cuda-unified-memory",
+      "summary": "LOVOT 3.0でJetson Orin上のCUDA開発を行い、cudaMallocManagedなどの統合メモリは同一ポインタで便利だが罠あり。JetsonはCPU/GPUが物理共有（UMA）でコピーを省ける一方、性能優位とは限らない。CUDAの統合メモリ（ソフト）とUMA（ハード）は別物と注意。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T22:00:00.000Z",
+      "contentHash": "5f20fb878d9e"
+    },
+    {
+      "id": "e8243dcec2d6",
+      "title": "Amazon Bedrock✖️GenkitをGoで構築してみる | JMDC TECH BLOG",
+      "url": "https://techblog.jmdc.co.jp/entry/20251221",
+      "summary": "JMDC Advent Calendarの記事。GoでGenkitを使いAWS Bedrockと連携して生成AIを構築する手順を解説。ジェネリクスで型安全な構造化出力、依存パッケージ、AWS認証・IAM設定、サンプルとTipsを紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T22:00:00.000Z",
+      "contentHash": "17931e7c5b1c"
+    },
+    {
+      "id": "9abe10fc904a",
+      "title": "最初から完璧は目指すな──初めて設計するあなたへ伝えたい、TypeScript設計の最低ライン | iimon TECH BLOG",
+      "url": "https://tech.iimon.co.jp/entry/2025/12/21",
+      "summary": "最初から完璧を目指さず、小さな改善で育てる設計を推奨。TypeScriptを例に、ISOの品質特性を意識しつつ、依存は一方向、I/Oを隔離、テストファースト、変更箇所最小化、判別可能なユニオン型で分岐を表現することを解説。0→1設計向けの実践的助言。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T22:00:00.000Z",
+      "contentHash": "43ee89b67b2b"
+    },
+    {
+      "id": "4688ab303d06",
+      "title": "Rails 8のSolid Queue：Sidekiqに代わる新しい非同期処理システム | エニグモ開発者ブログ",
+      "url": "https://tech.enigmo.co.jp/entry/2025/12/21/070000",
+      "summary": "Rails 8で導入されたSolid Queueは、Redis不要でDBをキューに使うネイティブな非同期処理。ActiveJobと統合し複数テーブルでジョブのライフサイクルを管理、Sidekiqの軽量代替として導入が簡単で小〜中規模やコスト重視の環境に適する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T22:00:00.000Z",
+      "contentHash": "54538d10f8a2"
+    },
+    {
+      "id": "7edd0f4e749e",
+      "title": "【2025 Advent Calendar 21日目】 なぜ戦略コンサルからスタートアップの経営に参画したのか？ 新たな挑戦の242日間（と今後） | ハウテレビジョン技術ブログ",
+      "url": "https://howtv.hatenablog.com/entry/2025/12/21/070000",
+      "summary": "中脇氏はBCGからハウテレビジョンのCOOに転身。外部アドバイザーから経営当事者になりたい思いと同社ビジョンへの共感が動機。入社242日で戦略再構築、ビジョンと現場の接続、KPI可視化など多面的に挑戦している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-20T22:00:00.000Z",
+      "contentHash": "e0ff111ed45b"
+    },
+    {
+      "id": "c0366ceac1d2",
+      "title": "Show HN: Jmail – Google Suite for Epstein files",
+      "url": "https://www.jmail.world",
+      "summary": "Luke（Riley Walzと共に）がオリジナルのJmailを作成。昨夜はDOJの「Epstein files」公開の代わりに友人らとアプリ群を拡張したとのこと。AMA実施中。Hacker News投稿：160ポイント・36コメント。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-20T21:00:05.000Z",
+      "contentHash": "d8b9e503ef3a"
+    },
+    {
+      "id": "90365debf2cd",
+      "title": "The Verge’s 2025 holiday gift guide",
+      "url": "https://www.theverge.com/tech/809421/holiday-gift-guide-2025",
+      "summary": "The Vergeが編集部厳選の2025年ホリデーギフトガイドを公開。ノイズキャンセリングイヤホンや電子書籍リーダー、ポラロイド風カメラ、ゲームハンドヘルドから手頃なモバイル充電器まで、幅広いテック系ギフトを紹介しています。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-20T20:30:00.000Z",
+      "contentHash": "5c731744208d"
+    },
+    {
+      "id": "17bc55fcba14",
+      "title": "Ireland’s Diarmuid Early wins world Microsoft Excel title",
+      "url": "https://www.bbc.com/news/articles/cj4qzgvxxgvo",
+      "summary": "アイルランド出身のディアームイッド・アーリーがラスベガスで行われた2025年のMicrosoft Excel世界選手権で優勝。3連覇のアンドリュー・ンガイを破り、総額6万ドルの大会（参加256人）は熱狂のeスポーツ会場で開催された。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-20T19:56:47.000Z",
+      "contentHash": "e9ecb95ba3a2"
+    },
+    {
+      "id": "18f97cd0fcd9",
+      "title": "I spent a week without IPv4 (2023)",
+      "url": "https://www.apalrd.net/posts/2023/network_ipv6/",
+      "summary": "IPv4の旧来手法を捨てIPv6へ移行すべきだ。対応は進むが誤解や無効化が多く、NATは緊急避難策に過ぎない。筆者は1週間IPv6のみでデュアルスタックやNAT64、464XLAT等を検証し課題と利点を報告する。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-20T18:31:23.000Z",
+      "contentHash": "a9de559242af"
+    },
+    {
+      "id": "bef39855e207",
+      "title": "Sony’s XM5 headphones and the latest Kindle round out this week’s best deals",
+      "url": "https://www.theverge.com/gadgets/848353/sony-wh-1000xm5-headphones-amazon-kindle-deal-sale",
+      "summary": "年末の買い逃し向けセールまとめ：ソニーWH-1000XM5がワイヤレスイヤホン付きで割引、最新KindleやEcho Dot Max、Hollow Knight: Silksongやレゴ、Keychronの格安メカニカルキーボードなど多数のガジェットがホリデーに間に合う価格で販売中。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-20T18:30:00.000Z",
+      "contentHash": "91d72cea9255"
+    },
+    {
+      "id": "f985bf9e24fa",
+      "title": "Backing Up Spotify",
+      "url": "https://annas-archive.li/blog/backing-up-spotify.html",
+      "summary": "Anna’s ArchiveがSpotifyのメタデータと音源を大規模にスクレイプして保存し、人気順にまとめた約300TBのトレントで公開。2.56億トラック、1.86億のユニークISRC、8600万音源（再生の約99.6%）を含む保存目的のオープンな音楽アーカイブで、ミラーや協力を呼びかけている。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-20T18:28:41.000Z",
+      "contentHash": "dd39adc74923"
+    },
+    {
+      "id": "0a521e23fb3d",
+      "title": "Big GPUs don't need big PCs",
+      "url": "https://www.jeffgeerling.com/blog/2025/big-gpus-dont-need-big-pcs",
+      "summary": "Raspberry Pi 5でAMD/Intel/NVIDIA GPUを検証。PCIeは1レーンでも外部PCIeスイッチで複数GPUを接続し、Jellyfin、GPUレンダリング、LLM推論を比較。多くの場面で性能差は僅か（2〜5%）で効率は高く、RTX A5000×4でLlama 3 70Bがサーバーとほぼ同等の結果を示した。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-20T17:49:18.000Z",
+      "contentHash": "a360f36b12c7"
+    },
+    {
+      "id": "eb4a173d94a6",
+      "title": "OpenSCAD is kinda neat",
+      "url": "https://nuxx.net/blog/2025/12/20/openscad-is-kinda-neat/",
+      "summary": "2025年12月20日。筆者はFusionで作ったAA/AAA用電池ホルダーを、コードで形状を生成するOpenSCADで再実装。numRows／numColumns／batteryTypeなどの変数で簡単にカスタマイズでき、短時間でレンダリングしてスライサー経由で3D印刷可能。簡単な設計にはOpenSCADが便利。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-20T17:45:48.000Z",
+      "contentHash": "0d0a59196560"
+    },
+    {
+      "id": "418c12199e59",
+      "title": "The best last-minute Christmas gifts you can grab for under $50",
+      "url": "https://www.theverge.com/gadgets/848134/best-last-minute-christmas-gifts-under-50-2025",
+      "summary": "The VergeのCameron Faulknerによる、予算50ドル以下の直前向けクリスマスギフト案内。配送遅延に触れつつ、実用的で手頃なギフト30点をセレクトした急ぎの贈り物向けガイド。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-20T17:00:13.000Z",
+      "contentHash": "19d28fab9428"
+    },
+    {
+      "id": "0d732c28490a",
+      "title": "Pure Silicon Demo Coding: No CPU, No Memory, Just 4k Gates",
+      "url": "https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html",
+      "summary": "Tiny Tapeout 8で約4000ゲートの小さなASICデモを提出。C64/Amiga風イントロとにゃんこを作り、星空・3Dチェッカーボード・波打つ文字・シアンのオシロを表示。ROM/RAM/CPU無しでフリップフロップだけの状態機械、1220×480/48MHzとVerilator+SDLで検証し実機(CRT)表示を重視。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-20T16:45:48.000Z",
+      "contentHash": "511eac57ae5b"
+    },
     {
       "id": "986b41c492fd",
       "title": "The LCD Steam Deck is done",
@@ -9,6 +189,24 @@
       "source": "The Verge",
       "publishedAt": "2025-12-20T16:09:55.000Z",
       "contentHash": "40310503c7a6"
+    },
+    {
+      "id": "7be669200c20",
+      "title": "Over 40% of deceased drivers in vehicle crashes test positive for THC: Study",
+      "url": "https://www.facs.org/media-center/press-releases/2025/over-40-of-deceased-drivers-in-motor-vehicle-crashes-test-positive-for-thc-study-shows/",
+      "summary": "米オハイオの調査で、2019～2024年の致死事故で死亡した246人の運転者のうち41.9%が血中で活性THCを検出、平均30.7ng/mLで多くの州の法定限度を超えた。2023年の嗜好用大麻合法化後も割合は変わらず、著者は運転中の喫煙危険の周知強化を訴える。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-20T16:07:24.000Z",
+      "contentHash": "8426475842ea"
+    },
+    {
+      "id": "f63d68b5c801",
+      "title": "Go ahead, self-host Postgres",
+      "url": "https://pierce.dev/notes/go-ahead-self-host-postgres#user-content-fn-1",
+      "summary": "クラウド業者の「自前DBは危険」説は誇張。多くはPostgres派生で、筆者は自前Postgresを2年・数千ユーザ・日千万クエリで安定・低コストに運用し、移行で30分だけ問題があっただけと報告。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-20T15:43:15.000Z",
+      "contentHash": "8e9cdecc3207"
     },
     {
       "id": "412cb701aab9",
@@ -110,6 +308,15 @@
       "contentHash": "d7ab60d1fb3f"
     },
     {
+      "id": "a86e2bf09e0d",
+      "title": "Show HN: HN Wrapped 2025 - an LLM reviews your year on HN",
+      "url": "https://hn-wrapped.kadoa.com?year=2025",
+      "summary": "Hacker Newsでの1年を振り返り、辛口のロースト、トレンド分析、来年の予測を提示する非公式ツール。Y Combinator/Hacker Newsとは無関係で、データは30日以内に削除されます。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-20T13:39:47.000Z",
+      "contentHash": "aae7de46c30a"
+    },
+    {
       "id": "20ca5958a935",
       "title": "‘Friend slop’ made co-op gaming goofier than ever in 2025",
       "url": "https://www.theverge.com/entertainment/845347/friend-slop-co-op-games-2025",
@@ -140,10 +347,10 @@
       "id": "08e8305dca04",
       "title": "The sold-out Nex Playground made my kids laugh and cry",
       "url": "https://www.theverge.com/games/848449/nex-playground-review-nintendo-wii-microsoft-kinect-motion-tracking-camera",
-      "summary": "売り切れの話題作Nex Playgroundは3インチの小型ゲーム機。単一カメラの動体追跡はWiiやKinectより劣り、250ドル＋高額サブスク、個別購入不可で多くが粗悪だが子どもには人気。",
+      "summary": "完売のNex Playgroundは3インチ筐体と単眼カメラで体を認識する子供向けゲーム機。Wii/Kinectより追跡精度は劣り、$250に年額$89のサブスク制で個別購入不可。多くのゲームは質が低いが、子どもたちには笑いと涙をもたらすヒット商品となっている。",
       "source": "The Verge",
       "publishedAt": "2025-12-20T11:00:00.000Z",
-      "contentHash": "8290e68158fe"
+      "contentHash": "41ce7f26718a"
     },
     {
       "id": "ce1ff4bc400d",
@@ -2021,10 +2228,10 @@
       "id": "dad906039d7d",
       "title": "Gemini 3 Flash の概要",
       "url": "https://note.com/npaka/n/nf37046a85ab8",
-      "summary": "Googleが高速・低コストの大規模モデル「Gemini 3 Flash」を発表。Gemini 3 Pro級の推論・マルチモーダル性能を保ちつつ、平均でGemini 2.5 Proより30%少ないトークン消費、約3倍の速度で動作。SWE‑benchやGPQA等で高評価、開発やエージェント用途に最適化され世界展開。",
+      "summary": "Googleが新モデル「Gemini 3 Flash」を発表。Pro級の推論・マルチモーダル性能を維持しつつ低レイテンシ・高効率（トークン消費約30%削減）、多ベンチで高評価。開発者向けに各種GoogleサービスやAPIで提供。",
       "source": "npaka",
       "publishedAt": "2025-12-17T20:48:07.000Z",
-      "contentHash": "6cc8892e248e"
+      "contentHash": "e505e7499695"
     },
     {
       "id": "3ead90cbfe17",
@@ -2696,10 +2903,10 @@
       "id": "61a9f6a4952c",
       "title": "GPT Image 1.5 の概要",
       "url": "https://note.com/npaka/n/n52e39582761b",
-      "summary": "GPT Image 1.5を公開。生成速度は最大4倍、細部を保つ高精度な画像編集・変換や指示追従、微小文字の描写が改善。画像ホームと多数のプリセットを備え、APIは保存性向上とコスト20%削減。",
+      "summary": "OpenAIはChatGPT Imagesの新版「GPT Image 1.5」を公開。画像生成が最大4倍高速化し、細部を保った高精度な編集、指示追従性やテキスト描画の改善、品質向上、画像ホームやプリセットを追加。API提供で入出力コスト20%削減、ブランドやEC向けに最適化。",
       "source": "npaka",
       "publishedAt": "2025-12-16T20:43:23.000Z",
-      "contentHash": "0d7a39ee7ee7"
+      "contentHash": "df016ae6be03"
     },
     {
       "id": "d31b1be8fa2e",
@@ -5166,15 +5373,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-13T01:00:00.000Z",
       "contentHash": "7e2cc83f0998"
-    },
-    {
-      "id": "90365debf2cd",
-      "title": "The Verge’s 2025 holiday gift guide",
-      "url": "https://www.theverge.com/tech/809421/holiday-gift-guide-2025",
-      "summary": "ザ・ヴァージの2025年ホリデーギフトガイド。編集部が厳選したノイズキャンセルイヤホンや電子書籍端末、ポラロイド、携帯ゲーム機から100ドル以下の実用小物まで、予算別に贈り物を紹介（購入リンクはアフィリエイト）。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-13T00:08:39.000Z",
-      "contentHash": "57153a284474"
     },
     {
       "id": "4dbeacfc6031",
@@ -8802,204 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-10T02:30:00.000Z",
       "contentHash": "edf5e0bfb00e"
-    },
-    {
-      "id": "2971a1308fa4",
-      "title": "ミドルになりたいエンジニアがPull Request作成で意識していること | Finatext Tech Blogのフィード",
-      "url": "https://zenn.dev/finatext/articles/6e088bc6a3af19",
-      "summary": "FinatextのエンジニアがPR作成で意識する点。実装前に設計・データ・インターフェースを揃えスコープを小さく保つ、コードには意図（what/why）を残す、試行錯誤はsquashで整理、Draftで俯瞰してセルフレビューしテスト→リファクタを行う。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T02:18:41.000Z",
-      "contentHash": "533be293db69"
-    },
-    {
-      "id": "25de8f268ae4",
-      "title": "ヘッドレスCMSのアクセシビリティ問題について考える | 株式会社HRBrainのフィード",
-      "url": "https://zenn.dev/hrbrain/articles/ad63b0abc59f14",
-      "summary": "HRBrainのオウンドメディアはNext.js＋ContentfulのヘッドレスCMSで運用。表示とコンテンツが分離されるためアクセシビリティは開発者が担保する必要がある。典型的問題はクライアントサイド遷移でのフォーカス管理や動的更新の通知不足で、mainにtabIndex=-1してfocus()、aria-liveの利用などで対処する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T02:16:37.000Z",
-      "contentHash": "1ae7b9ecc2e4"
-    },
-    {
-      "id": "c3fd1006374c",
-      "title": "開発体験とパフォーマンスの両立を目指して — Docker Desktop がファイル共有の課題を解決するまで | every Tech Blog",
-      "url": "https://tech.every.tv/entry/2025/12/10/111249",
-      "summary": "macOS版Docker Desktopではコンテナが軽量VM上で動くため、ホストとコンテナのbindマウントが遅く開発体験と性能がトレードオフになっていた。本記事は原因を解説し、VirtioFSやSynchronized File Sharesで両立できるようになった経緯を紹介する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T02:12:49.000Z",
-      "contentHash": "ed613f22d114"
-    },
-    {
-      "id": "ba28b0040651",
-      "title": "DMARC の取り組み | STORES Product Blog",
-      "url": "https://product.st.inc/entry/2025/12/10/110839",
-      "summary": "セキュリティ本部は2025年6月に全サービスドメインのDMARCをquarantineへ移行。まずnoneでRUAレポートを収集・分析し、SPF/DKIMを整備して段階的に強化。監視はSlack通知で実施。送信元把握や部署調整が課題だった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T02:08:39.000Z",
-      "contentHash": "c97bc462fa12"
-    },
-    {
-      "id": "7471aefe2219",
-      "title": "Gitフック「Lefthookの勝ちデース」：マルチ言語・マルチリポジトリ環境におけるHusky vs Lefthook徹底比較 | スペースマーケット Engineer Blogのフィード",
-      "url": "https://zenn.dev/spacemarket/articles/8cc0fe1fc77066",
-      "summary": "マルチ言語・マルチリポジトリ環境ではLefthookが有利。HuskyはNode必須で非NodeリポジトリにJS依存を強いるが、Lefthookは各言語に自然に導入でき、複数のインストール方法と並列実行による高速性が強み。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T02:06:17.000Z",
-      "contentHash": "a480b285b819"
-    },
-    {
-      "id": "6877a3792e3c",
-      "title": "The AI industry’s biggest week: Google’s rise, RL mania, and a party boat",
-      "url": "https://www.theverge.com/column/841207/ai-neurips-2025",
-      "summary": "サンディエゴのNeurIPSでは、強化学習が次の潮流、Googleの台頭、パーティーの過熱が目立った。学術会議が巨大な産業イベントに変わり、著者は現地参加者の見解を集めた。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T02:00:00.000Z",
-      "contentHash": "4a9a654aaad7"
-    },
-    {
-      "id": "a787768673a2",
-      "title": "Call of Duty won’t release Modern Warfare or Black Ops back-to-back anymore",
-      "url": "https://www.theverge.com/news/841290/activision-call-of-duty-modern-warefare-black-ops-back-to-back",
-      "summary": "Activisionは今後、Modern WarfareとBlack Opsを連続リリースするやり方をやめ、毎年「まったく独自の体験」を提供する方針に転換。MW/BOの2022〜2025連続作が類似指摘やBO7の欧州での失速を招いたことが背景で、意味ある革新を目指すとした。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T00:24:11.000Z",
-      "contentHash": "e494eb7a23a0"
-    },
-    {
-      "id": "009cd5e6033a",
-      "title": "Self-Hosted Runnerで GitHub Actions のCI/CDを高速化・コスト最適化した | DRESS CODE TECH BLOGのフィード",
-      "url": "https://zenn.dev/dress_code/articles/202685fc7786da",
-      "summary": "GitHub-hosted runnersのCPU/メモリ不足、並列上限、実行時間課金による遅延とコスト増を解消するため、AWS上にterraform-aws-github-runnerでSelf‑Hosted Runnerを構築。高いシングルスレッド性能・十分なメモリ・Warm PoolでCIを高速化しコスト最適化を図った。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T00:00:01.000Z",
-      "contentHash": "da1de8aa367f"
-    },
-    {
-      "id": "89845c1411f9",
-      "title": "RAGにおける曖昧なクエリへの対応 | CADDi Tech Blog",
-      "url": "https://caddi.tech/2025/12/10/090000",
-      "summary": "RAG構築での曖昧なクエリ対応を解説。知識ギャップによる情報不足と短過ぎる／抽象的な曖昧性が問題。対策はQuery Rewriting（汎用LLM或いはファインチューニング）、マルチクエリ生成、diversify-then-verifyやRAG-Fusionなどの検証付き多様化手法、および対話的な追加質問。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T00:00:00.000Z",
-      "contentHash": "789228f1d45e"
-    },
-    {
-      "id": "939d12f275d1",
-      "title": "Cloud RunにMCPサーバーをデプロイしてみた | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/mcp-servers-on-cloud-run-services",
-      "summary": "G-genの佐々木が、Cloud RunへMCPサーバーをデプロイしてGemini CLIから接続を検証する手順を紹介。MCPとCloud Runの概要、検証環境、Pythonサンプル(server.py、Dockerfile)、Artifact Registryやデプロイ手順を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T00:00:00.000Z",
-      "contentHash": "efceef094a2b"
-    },
-    {
-      "id": "cda571357746",
-      "title": "TTLを利用したSpanner利用料のコスト削減 | JCB Tech Blog",
-      "url": "https://tech.jcblab.jp/entry/2025/12/10/090000",
-      "summary": "JCBデジタルソリューション開発部の岩本が、増加するキャッシュレス取引データによる基盤コスト増を課題とし、JCB LinkでTTLによる自動データ削除を導入してコスト削減を図る取り組みを紹介する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T00:00:00.000Z",
-      "contentHash": "45edc9136d27"
-    },
-    {
-      "id": "4a4f3f75e5fe",
-      "title": "ノーコードでもここまでできる！ 10分で完成するCopilot Studioデータ分析エージェント | Insight Edge Tech Blog",
-      "url": "https://techblog.insightedge.jp/entry/copilot-studio-reporting",
-      "summary": "Insight Edge Advent Calendar 2025の10日目。齊藤氏が、生成AIの進化で「会話でアプリを作る」「文章から構造提案」が可能になった現状を紹介し、ノーコード／ローコードの限界と従来のコーディングの使い分けを見極める重要性を述べる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T00:00:00.000Z",
-      "contentHash": "f2a224298a38"
-    },
-    {
-      "id": "281c4b7038ee",
-      "title": "Shift_JISファイルを文字化けなしでUTF-8に変換する小技 | KENTEM TechBlog",
-      "url": "https://tech.kentem.jp/entry/2025/12/10/090000",
-      "summary": "KENTEM TechBlog（アドベントカレンダー2025/12/10）で4年目のY.T.が、Windows開発でよく起きるShift_JISとUTF-8の違いによる日本語文字化け（Visual StudioやVS Codeでの日本語コメント崩れ）を手早く解決する小技を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T00:00:00.000Z",
-      "contentHash": "49008177af81"
-    },
-    {
-      "id": "df97d12e8720",
-      "title": "GitHub Copilotを育ててSQLを効率的にdbtモデル化した事例 | ENGINEERING BLOG ドコモ開発者ブログ",
-      "url": "https://nttdocomo-developers.jp/entry/2025/12/10/090000_3",
-      "summary": "ドコモの中村光宏が、GitHub CopilotのCustom Instructionsを活用しチームKPI用の既存SQLをdbtモデルへ変換した経験と学びを共有。Agentによるdbtモデル構築の実務的知見や工夫を、導入検討者や効率化を目指す人向けに解説している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T00:00:00.000Z",
-      "contentHash": "2c7b38ca8f88"
-    },
-    {
-      "id": "0f291e5aeb05",
-      "title": "Kiro IDEで実践する仕様駆動開発 | ENGINEERING BLOG ドコモ開発者ブログ",
-      "url": "https://nttdocomo-developers.jp/entry/2025/12/10/090000_0",
-      "summary": "Amazon Q Developer（Kiro IDE）のSpecモードで仕様駆動開発を実践する手法を紹介。AIエージェントと人間が役割分担して品質と確実性を担保し、内製化を推進する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T00:00:00.000Z",
-      "contentHash": "50a07778e1b1"
-    },
-    {
-      "id": "fd645410878d",
-      "title": "試すのは簡単、仕上げるのは難しい。AIエージェント×Playwright MCPを使ったE2Eテストアプリの開発と苦労 | ENGINEERING BLOG ドコモ開発者ブログ",
-      "url": "https://nttdocomo-developers.jp/entry/2025/12/10/090000_2",
-      "summary": "NTTドコモDP部の矢野氏が、社内データ活用プラットフォームPochiで多部署の開発者支援のため、Playwright MCPを使った自動E2Eテストアプリを開発した経緯と工夫を、支援メンバ鈴木氏・臼倉氏が解説する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T00:00:00.000Z",
-      "contentHash": "3682eb736407"
-    },
-    {
-      "id": "fd838f346395",
-      "title": "スクラムチームを強くする   ~One Team を取り戻すチームビルディングの実践~ | ENGINEERING BLOG ドコモ開発者ブログ",
-      "url": "https://nttdocomo-developers.jp/entry/2025/12/10/090000_1",
-      "summary": "NTTドコモ第一プロダクトデザイン部で人事・人材育成を担当するジル（齊藤亮二）。アジャイル浸透や学習設計を行い、現場に入り込むアジャイルコーチとして伴走。5月のボストンRed Hat Summit2025で登壇し、メンバーの長所を引き出してチームの自走化を支援することを楽しむ。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T00:00:00.000Z",
-      "contentHash": "1e1d94cbe50e"
-    },
-    {
-      "id": "a00c563aa47a",
-      "title": "Both sides of the aisle hate the AI moratorium",
-      "url": "https://www.theverge.com/column/841161/ai-moratorium-midterm-elections-republicans",
-      "summary": "ティナ・グエン記者は、与党も野党もAIのモラトリアムに反対しており、それが現状で数少ない両党一致の事柄になっていると報じている。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-09T23:03:41.000Z",
-      "contentHash": "77f114f72ef3"
-    },
-    {
-      "id": "24f7f046cba9",
-      "title": "Dart公式のAnalyzer Pluginsで独自Lintルールを実装する | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-      "url": "https://developers.cyberagent.co.jp/blog/archives/60618/",
-      "summary": "Dart 3.10で公式提供されたAnalyzer Pluginsを使い、ASTとVisitorで独自のLintルールやQuick Fix/Assistを実装・テストする手順を、Analysis Serverの仕組みやcustom_lintとの比較も交えて解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T23:00:07.000Z",
-      "contentHash": "21acd0773423"
-    },
-    {
-      "id": "301882f72cc1",
-      "title": "いろんな文字種が交じった文字列をソートしたい？それならnormalizeにお任せ！ | Agent Grow Tech Notesのフィード",
-      "url": "https://zenn.dev/agent_grow/articles/a265e2d6a33a5c",
-      "summary": "半角・全角英数字や丸数字が混在する文字列を、normalize(\"NFKD\")で互換等価に正規化してからlocaleCompareで比較することで正しくソートできる、という解説と実例（コードと出力）です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T23:00:02.000Z",
-      "contentHash": "a92aca59859f"
-    },
-    {
-      "id": "9e261a999224",
-      "title": "Gemini Canvasをサクッと社内に公開 — Apps Scriptで作る自動デプロイ基盤 | TechBlog - BIGLOBE Style ｜ BIGLOBEの「はたらく人」と「トガッた技術」",
-      "url": "https://style.biglobe.co.jp/entry/2025/12/10/080000",
-      "summary": "Gemini Canvasで生成したHTMLを貼るだけで、Apps Scriptプロジェクトを動的に生成・デプロイし、AIでコード修正・APIキー隠蔽を行い社内限定URLを即時発行する基盤。リリース1カ月で200超の社内アプリを創出。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T23:00:00.000Z",
-      "contentHash": "76612a78c040"
-    },
-    {
-      "id": "e9ca89e33022",
-      "title": "GitHub ActionsでNew Relic監視設定を自動展開する - Terraform実装ガイド | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/newrelic-terraform-github-actions",
-      "summary": "GitHub ActionsとTerraformでNew Relicの監視設定をコード化し、PRでterraform plan確認、マージ後に自動でterraform applyを実行する仕組みを解説。S3バックエンドやSecrets設定、環境ごとの構成やワークフロー手順、動作確認方法も紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-09T23:00:00.000Z",
-      "contentHash": "403dbdc6c786"
     }
   ]
 }
