@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2025-12-22T02:25:00.161Z",
+  "generatedAt": "2025-12-22T08:54:06.350Z",
   "items": [
+    {
+      "id": "59afcd34162b",
+      "title": "【アドベントカレンダー2025】クエリチューニングの最初の一歩~実行計画を見てみよう~ | ぐるなびをちょっと良くするエンジニアブログ",
+      "url": "https://developers.gnavi.co.jp/entry/adventcalendar-251222-2/",
+      "summary": "アプリのクエリ遅延対策はまず実行計画を確認すること。EXPLAINでRDBMSのオプティマイザが選んだ実行ルートを見て、type／key／Extraを確認し、フルスキャンならインデックス追加やSQL見直しで改善する（例：MySQL8のemployees）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T07:00:00.000Z",
+      "contentHash": "e667e5bc4d41"
+    },
+    {
+      "id": "0ce458fd2e02",
+      "title": "Kiro CLIでAI-DLCの開発体験をして感じたこと | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/kiro-cli-aidlc-experience",
+      "summary": "Kiro CLIでAI-DLCを実践し、Amazon Bedrock（Claude 3.5）とマルチエージェントでチラシ解析CLIを開発。AIが会話・進捗・曖昧さ解消を主導し学習効果は高いが、コンテキスト枠不足やレビューの手間は課題。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T06:49:15.000Z",
+      "contentHash": "ee959ac740f9"
+    },
+    {
+      "id": "05cea64739a2",
+      "title": "AWS さんにお越しいただいて Kiro CLI を使用するトラブルシューティングのワークショップを実施いただきました | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/kiro-cli-troubleshoot-workshop",
+      "summary": "12月19日、AWS Supportの技術者によるKiro CLIトラブルシューティングワークショップを開催。Kiro CLIは11月GAで統合されAWS CLIと連携して調査・修復が容易だが、権限による意図せぬ修復リスクがある。GameDay風の課題で学び、ステアリングファイルで操作制限を設定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T06:40:47.000Z",
+      "contentHash": "e1bb302fcef8"
+    },
+    {
+      "id": "fd7678318d1e",
+      "title": "フロント初心者が Meta 製ライブラリ Lexical を使ってリッチテキストエディタを作ってみた | Uzabase for Engineers",
+      "url": "https://tech.uzabase.com/entry/2025/12/22/152432",
+      "summary": "NewsPicksの崔がフロント未経験からReact＋Meta製ライブラリLexicalで社内エディタを再構築した体験記。選定理由（React連携、インフラ不要、拡張性、OSS）やEditorState/Node/Pluginなどの基本概念、カスタムNode/Pluginによる拡張やスタイル・DOM調整、ドキュメント事情を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T06:24:32.000Z",
+      "contentHash": "9accc8deeb55"
+    },
+    {
+      "id": "2a280d9257aa",
+      "title": "CocoIndexでKnowledge Graphを更新しながらRAGをする | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/2025/12/22/151018",
+      "summary": "LayerXの鷹取が、CocoIndexとNeo4jで自動更新可能なKnowledge Graphを構築しGraphRAGを実装する手順を紹介。Native RAGの関係性欠落やマルチホップ弱点を解消し、Ollamaでエンティティ抽出、CocoIndexで同期・インデクシング、埋め込み＋KG参照で高精度な回答を実現。実装はGitHubで公開。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T06:10:18.000Z",
+      "contentHash": "66a9bf7f1a4d"
+    },
+    {
+      "id": "4546f3c2e070",
+      "title": "Go 1.26で変わるgo fix | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2025/12/22/150323",
+      "summary": "Go 1.26でgo fixが強化され、modernizeや//go:fix inlineなどの解析器が提案する修正を自動適用可能に。コードのモダン化やレビュー短縮、AI生成コード改善が狙い。modernizeはany→anyやerrors.AsTypeなど複数の変換を提供。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T06:03:23.000Z",
+      "contentHash": "2863582bcae2"
+    },
+    {
+      "id": "614d46f5a87b",
+      "title": "Jetson AGX Thor の初期設定 | フォトシンス エンジニアブログ",
+      "url": "https://akerun.hateblo.jp/entry/2025/12/getting-started-with-jetson-agx-thor",
+      "summary": "Jetson AGX Thorの初期設定メモ。USBインストールメディアでJetPackを導入し、ディスプレイ非表示時はUSB-C経由のシリアルコンソールでOOBE（debconf）を完了。複数のシリアルポートに注意し、SSH鍵を設置してリモート操作可能にした。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T06:03:08.000Z",
+      "contentHash": "fe00298478d8"
+    },
+    {
+      "id": "389b566c69b8",
+      "title": "Vol. 13 Advancing the Japan–Cebu Global Development Model at Bill One | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2025/12/22/150000",
+      "summary": "Bill OneのPOチームは日本とセブの計4チームでAI自動マッチング機能を開発。遠隔中心で互いの強みが見えづらかったため日本チームがセブへ渡航し、キックオフ・チームビルド・技術交流やAIワークショップを実施してグローバル開発体制を強化した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T06:00:00.000Z",
+      "contentHash": "2e023590f6c3"
+    },
+    {
+      "id": "bc99368c3b22",
+      "title": "5xxエラーの原因特定迅速化にトライしてみた | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/b651aa410863f3",
+      "summary": "サービス拡大で本番5xxが増加。課題はALBアクセスログとCloudWatchログが紐付けられないこと、SQL発行内容がログに無く原因特定が困難なこと。対策としてALBのX-Amzn-Trace-IdをContextVarで取得して各ログに埋め込み相関させ、さらに問題となるSQL前後に適切なログを出して原因追跡を迅速化した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T05:53:05.000Z",
+      "contentHash": "1ccc707fd365"
+    },
+    {
+      "id": "c92fe1bc1645",
+      "title": "Veleroのインストールと基本設定 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/50906",
+      "summary": "Minikube＋MinIO環境でVelero(v1.17.1)を導入する手順を解説。kubectl/helm前提、CSIボリュームスナップショット有効化、VolumeSnapshotClass作成、MinIOをS3互換ストレージに設定しVelero本体とCLIをインストールする流れを示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T05:45:46.000Z",
+      "contentHash": "31cd3cd04173"
+    },
+    {
+      "id": "8ec98f11670a",
+      "title": "Honey: all the news about PayPal’s alleged scam coupon app",
+      "url": "https://www.theverge.com/24343913/paypal-honey-megalag-coupon-scam-affiliate-fees",
+      "summary": "PayPal傘下のクーポン拡張機能Honeyが、YouTuber MegaLagの調査でインフルエンサーの報酬を横取りし、未登録者のデータ収集や未成年を標的、小規模事業者を搾取したと批判。最後クリック追跡や専用コードの悪用が指摘され、PayPalは業界慣行と主張するも訴訟や利用者減少が続く。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T03:46:20.000Z",
+      "contentHash": "7b420c4b80ad"
+    },
+    {
+      "id": "dfecd0bf8224",
+      "title": "Frozen Waymos backed up San Francisco traffic during a widespread power outage",
+      "url": "https://www.theverge.com/news/848843/waymo-san-francisco-power-outage",
+      "summary": "サンフランシスコの大停電（最大約13万人影響）で信号や無線通信が制限され、Waymoの自動運転SUVが路上で停止して渋滞を発生。テスラは影響少なく走行継続、Waymoは後に配車を再開と発表。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T02:45:10.000Z",
+      "contentHash": "17e34a2f44b7"
+    },
     {
       "id": "85dc879725e1",
       "title": "マルチプラットフォーム対応のモノレポ秘密基地を作ろう！ | Fenrir Engineers",
@@ -74,13 +182,31 @@
       "contentHash": "e0817e55a976"
     },
     {
-      "id": "dfecd0bf8224",
-      "title": "Frozen Waymos backed up San Francisco traffic during a widespread power outage",
-      "url": "https://www.theverge.com/news/848843/waymo-san-francisco-power-outage",
-      "summary": "サンフランシスコで大規模停電（最大約13万人影響）発生。信号や通信が途切れ、Waymoの自律SUVが信号を検知できず路上で停止、各所で渋滞を引き起こした。SNSではテスラは影響なしと報告された。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-21T19:17:00.000Z",
-      "contentHash": "dd2e45b74bfc"
+      "id": "b22ded3d7645",
+      "title": "Disney Imagineering Debuts Next-Generation Robotic Character, Olaf",
+      "url": "https://disneyparksblog.com/disney-experiences/robotic-olaf-marks-new-era-of-disney-innovation/",
+      "summary": "2025年11月24日、ウォルト・ディズニー・イマジニアリングがディズニーランド・パリで次世代ロボットキャラクター「オラフ」を公開。映画のアニメーターと協働し、動きや表情を忠実に再現。虹色繊維で雪の輝きを表現し、パーク導入予定。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-21T21:46:20.000Z",
+      "contentHash": "9c9259c3a618"
+    },
+    {
+      "id": "8d4f8ae2e3d2",
+      "title": "A guide to local coding models",
+      "url": "https://www.aiforswes.com/p/you-dont-need-to-spend-100mo-on-claude",
+      "summary": "ローカルのコーディングモデルは想像より高性能で導入手順も解説するが、著者は誤りを認め訂正。実務で重要な「最後の10%」は有料サービスの価値があり、即座に有料をやめるべきではないと結論づけた。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-21T20:55:15.000Z",
+      "contentHash": "dc0fde6575b0"
+    },
+    {
+      "id": "84f870387a50",
+      "title": "Rue: Higher level than Rust, lower level than Go",
+      "url": "https://rue-lang.dev/",
+      "summary": "RueはRustより上位でGoより下位の言語。メモリ安全を目指しGCも手動管理も不要（開発中）。親しみやすい簡潔な文法でネイティブへ高速コンパイル。フィボナッチ例を掲載。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-21T20:46:02.000Z",
+      "contentHash": "7d843122fd99"
     },
     {
       "id": "fb0c68ec04df",
@@ -90,6 +216,15 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-21T18:43:20.000Z",
       "contentHash": "ad8581c1b764"
+    },
+    {
+      "id": "bddbce775211",
+      "title": "The Going Dark initiative or ProtectEU is a Chat Control 3.0 attempt",
+      "url": "https://mastodon.online/@mullvadnet/115742530333573065",
+      "summary": "外部サイトの内容に直接アクセスできないため、その記事本文（または要約したい部分）をここに貼ってください。貼っていただければ200文字以内で日本語要約を作成します。HNの議論も要約したければ、そのコメントの抜粋かリンク先の要点も教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-21T18:39:46.000Z",
+      "contentHash": "f377076da823"
     },
     {
       "id": "f8a9793b9520",
@@ -119,6 +254,15 @@
       "contentHash": "042bfaf790a2"
     },
     {
+      "id": "80e4ce883cb3",
+      "title": "Get an AI code review in 10 seconds",
+      "url": "https://oldmanrahul.com/2025/12/19/ai-code-review-trick/",
+      "summary": "PRのURL末尾に「.diff」を付けて差分をコピーし、LLMに貼るだけで10秒ほどでAIコードレビューが得られる。拡張や有料サービス不要。人のレビューを置き換えるものではなく、事前チェックやサイクル短縮に有効。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-21T17:21:05.000Z",
+      "contentHash": "42975153e28f"
+    },
+    {
       "id": "45b625c50b6a",
       "title": "You need to listen to these Christmas deep cuts",
       "url": "https://www.theverge.com/column/848710/christmas-song-deep-cuts",
@@ -135,6 +279,15 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-21T16:57:57.000Z",
       "contentHash": "a563586e1d9f"
+    },
+    {
+      "id": "81aaf73ea7c1",
+      "title": "Show HN: Books mentioned on Hacker News in 2025",
+      "url": "https://hackernews-readings-613604506318.us-west1.run.app",
+      "summary": "そのURLにはこちらから直接アクセスできません。記事本文を貼るか、要約対象が元記事かHNのコメントか教えてください。内容を送っていただければ200字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-21T16:21:04.000Z",
+      "contentHash": "b0fd7b4e6e21"
     },
     {
       "id": "5530d80801a8",
@@ -311,10 +464,10 @@
       "id": "450dab33c274",
       "title": "FunctionGemma の概要",
       "url": "https://note.com/npaka/n/nc3b38de5c25f",
-      "summary": "FunctionGemmaはGemma 3 270MをFunction Calling向けに最適化したエッジ向け小型モデル。関数呼び出しと会話を統合し、ファインチューニングで精度が58→85%に改善。Jetsonやスマホで動作しローカル処理や大規模モデルへのルーティングに適する。デモも提供。",
+      "summary": "FunctionGemmaはGemma 3の270M特化版で、関数呼び出しに最適化されたエッジ向けローカルエージェント。自然言語をAPIアクションに変換し、微調整で精度を大幅改善(58→85%)。Jetsonやスマホで動作し低遅延・完全ローカル実行と幅広い展開環境をサポート。API定義済み・ローカル優先・複合システムに最適。",
       "source": "npaka",
       "publishedAt": "2025-12-21T10:10:04.000Z",
-      "contentHash": "4664246cf08a"
+      "contentHash": "f1ec905db78f"
     },
     {
       "id": "47953aa3fe77",
@@ -446,10 +599,10 @@
       "id": "b8d339a5bb28",
       "title": "Nano Banana Pro で ストーリー漫画の作成を試す",
       "url": "https://note.com/npaka/n/n5e7f167c9bf8",
-      "summary": "「Nano Banana Pro」で漫画制作を試行。ChatGPTと相談して主人公・琴音（高校1・極度のコミュ障だがスト2の達人）と友人・美咲の設定画を作成し、10ページ（2×5グリッド）の青春ギャグ×ゲーム漫画用ストーリーボードを作成。1頁は琴音の孤独と夜の練習、2頁は美咲の出会いと大会誘いを描く。",
+      "summary": "Nano Banana Proで漫画作成を試行。ChatGPTと協働し、琴音（極度のコミュ障だがスト2最強）と美咲のキャラ画像と、右→左読みの10ページストーリーボード（青春ギャグ×ゲーム）を制作。導入は琴音の孤独と夜の対戦、放課後に美咲が大会を提案する場面まで。",
       "source": "npaka",
       "publishedAt": "2025-12-21T01:53:41.000Z",
-      "contentHash": "6107fb18dbe0"
+      "contentHash": "078c4b6dc2c5"
     },
     {
       "id": "34cd0448a6ca",
@@ -977,10 +1130,10 @@
       "id": "76281cddd63c",
       "title": "AmazingHand 入門 (2) - 組み立て",
       "url": "https://note.com/npaka/n/n9213c8821e41",
-      "summary": "Seeed StudioのAmazingHand組み立てガイド。必要工具・3Dパーツや標準部品一覧と加工（M2棒切断、サーボホーン改造）、穴のタイト/スライド調整やサポート材除去、指の組立とPython/Arduinoでのキャリブレーション、ハンド全体の組立手順を詳述。まず1本で試作してから複製することを推奨。",
+      "summary": "Seeed StudioのAmazingHand組立ガイド。必要工具・3Dパーツ一覧、指の部品とボールジョイントロッド／サーボホーンの作成手順、Python/Arduinoでのキャリブレーション、指・親指の取り付けや外装組立までを詳述。",
       "source": "npaka",
       "publishedAt": "2025-12-20T07:00:26.000Z",
-      "contentHash": "43e6417c278b"
+      "contentHash": "e1052c5e95d3"
     },
     {
       "id": "c86c08ce9d9c",
@@ -1130,10 +1283,10 @@
       "id": "4d39f5176be6",
       "title": "AmazingHand 入門 (1) - パーツリスト",
       "url": "https://note.com/npaka/n/n90a920e5e62c",
-      "summary": "Seeed Studioのオープンソース3D印刷ロボット手「Amazing Hand」キットのパーツ一覧。XIAO互換サーボドライバ、Feetechサーボ8個、12V3A電源、3ピンブレイクアウト×8、ABS製指・手構造部品、リンケージ、ピン・ネジ類、ドライバー等が含まれる。",
+      "summary": "Seeed Studioのオープンソース3Dプリント人型ロボット手「Amazing Hand」キットの付属パーツを確認・一覧化。XIAO互換サーボドライバ基板、Feetechサーボ8個、12V電源・ピグテール、ブレークアウトボードとケーブル、ABS製構造パーツ、リンケージ、各種ネジ・ワッシャー、工具（プラスドライバー）などを列挙しています。",
       "source": "npaka",
       "publishedAt": "2025-12-20T01:54:29.000Z",
-      "contentHash": "8e1a2eab01a7"
+      "contentHash": "3358dd89fb1a"
     },
     {
       "id": "ae2119464bea",
@@ -2354,10 +2507,10 @@
       "id": "1ff786812209",
       "title": "Google Colab で T5Gemma-TTS を試す",
       "url": "https://note.com/npaka/n/ndd8bd0191b35",
-      "summary": "Google ColabでT5Gemma-TTSを試したまとめ。2つの2Bモデルで高品質かつ感情表現に強い。Hugging Faceで同意後、GPU（L4推奨、T4はOOMの可能性）でリポジトリをクローンし依存を調整、インストール・ログインして実行（初回約5分）でwav生成。参照音声による声質クローンや--target_durationで長さ指定、Gradioでの公開も可能。商用利用は制限あり。",
+      "summary": "ColabでT5Gemma-TTSを試したまとめ。T5Gemma-TTSは文章理解用と音声生成用の2つの2Bモデルで高品質・感情表現に強い。Hugging Faceで同意後L4以上GPUを選びリポジトリをクローン、requirementsを編集してインストール、ログイン後に推論で音声生成（初回約5分）。参照音声でVoice Cloning、--target_durationで長さ調整、GradioでUI起動可。商用利用に制限あり。",
       "source": "npaka",
       "publishedAt": "2025-12-18T07:43:42.000Z",
-      "contentHash": "1779c057e91f"
+      "contentHash": "0500a1108097"
     },
     {
       "id": "b59af8f0a43e",
@@ -2489,10 +2642,10 @@
       "id": "aa4d0c2b2219",
       "title": "【書評】 実践Claude Code入門",
       "url": "https://note.com/npaka/n/n9ac45fcb2d16",
-      "summary": "『実践Claude Code入門』は、単にAIにコードを書かせる本ではなく、仕様を言語化する「スペック駆動開発」を軸に計画・実装・検証を行い、Claude Codeを現場で安定的に使う実践的ガイドです。",
+      "summary": "『実践Claude Code入門』は、AIを「魔法の箱」とせず、仕様を言語化するスペック駆動開発でClaude Codeを計画・実行・検証・レビューに組み込み、業務向けの安定した開発手法を実践的に教えるガイドブックです。",
       "source": "npaka",
       "publishedAt": "2025-12-18T02:41:49.000Z",
-      "contentHash": "4675d2c3aab3"
+      "contentHash": "fb02721779e3"
     },
     {
       "id": "6f70792185da",
@@ -2606,10 +2759,10 @@
       "id": "5798db588858",
       "title": "開発者は ChatGPT にアプリを提出できるようになりました",
       "url": "https://note.com/npaka/n/n02ca29e42475",
-      "summary": "開発者はChatGPTにアプリを提出・審査申請できるようになりました。Apps SDKやサンプル、ガイドが提供され、会話に機能や行動を追加。ディレクトリで発見・段階的公開、将来的な収益化も検討。提出は安全性・プライバシー基準順守が必須で、ユーザーは接続をいつでも解除可能。",
+      "summary": "開発者はガイドラインに沿ってChatGPTアプリを提出・審査・公開できるようになりました。SDKやサンプル、アプリディレクトリを提供し、会話内で機能を起動。プライバシー・安全基準を順守し段階的に展開、収益化は現状外部リンク中心です。",
       "source": "npaka",
       "publishedAt": "2025-12-18T00:28:56.000Z",
-      "contentHash": "33de09a639f5"
+      "contentHash": "9a28b394bd0c"
     },
     {
       "id": "27b966460249",
@@ -8847,159 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-10T15:18:47.000Z",
       "contentHash": "1fa426464013"
-    },
-    {
-      "id": "079bed320274",
-      "title": "OpenAI hires Slack’s CEO as its chief revenue officer",
-      "url": "https://www.theverge.com/news/841540/openai-slack-ceo-denise-dresser-chief-revenue-officer",
-      "summary": "OpenAIはSlackの現CEOデニス・ドレッサーを最高収益責任者に迎え、グローバル収益戦略と企業の業務へのAI導入支援を担当させる。ドレッサーはSalesforce出身で2023年からSlack CEO、AI機能導入を推進。Slackの暫定CEOはSalesforceのロブ・シーマンが務める。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T15:00:35.000Z",
-      "contentHash": "0a0d6d5abba0"
-    },
-    {
-      "id": "5b05dcb22ffb",
-      "title": "日本の住所の表記ゆれ vs 正規化を阻む住所 | SMARTCAMP Engineer Blogのフィード",
-      "url": "https://zenn.dev/smartcamp/articles/2654a6ea30cdd6",
-      "summary": "日本の住所表記ゆれを正規化して一致判定する試み。全角→半角、ハイフン類統一、漢数字→算用数字、丁目・番・号をハイフン接続する処理を実装し、麻布十番や堺の省略表記など地名の例外で苦戦した話。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T15:00:07.000Z",
-      "contentHash": "4f0703088849"
-    },
-    {
-      "id": "e66c018c90d3",
-      "title": "モンストWebショップにおける継続決済プラットフォームの設計と実装 | MIXI DEVELOPERS Tech Blogのフィード",
-      "url": "https://zenn.dev/mixi/articles/b89c59eec31906",
-      "summary": "モンストWebショップでの月額「モンパス」販売を実現するため、社内のPCI DSS準拠決済基盤を活用して継続決済プラットフォームを自前構築。複数サービス展開や柔軟な課金対応を重視し、サブスク管理を決済側で一元化。共通機能に絞り、サービス固有ロジックはwebhookで拡張する設計とした。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T15:00:06.000Z",
-      "contentHash": "d36adf78b85d"
-    },
-    {
-      "id": "5e551e8c1247",
-      "title": "俺が一番好きなデザインパターン「Strategy Pattern」の話 | 株式会社ZOZOのフィード",
-      "url": "https://zenn.dev/zozotech/articles/204d6bfe2e4314",
-      "summary": "著者が最も好きなStrategyパターンを紹介。アルゴリズムをオブジェクト化して実行時に切替え、if-else地獄を避けることで、PyTorchの複数モデル比較や拡張・テストが楽になることを例で示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T15:00:06.000Z",
-      "contentHash": "ec6d567197a8"
-    },
-    {
-      "id": "5f8313243b44",
-      "title": "エンジニアの必須スキルを身につける！『具体と抽象』輪読会レポート | BABY JOB  テックブログのフィード",
-      "url": "https://zenn.dev/babyjob/articles/concrete-and-abstract-reading",
-      "summary": "BABY JOB開発部の輪読会レポ。エンジニアの思考力向上を目的に『具体と抽象』を週1回30分×8回で実施。FigJamで感想を可視化し議論、クラス設計やMECE思考、視点のズレ解消など実務への適用と共通言語化を達成した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T15:00:05.000Z",
-      "contentHash": "e0ad3490d489"
-    },
-    {
-      "id": "f44094670db7",
-      "title": "The Verge picks the standout tech of 2025",
-      "url": "https://www.theverge.com/featured-video/841319/the-verge-standout-tech-2025",
-      "summary": "The Vergeの動画チームが2025年の注目テクノロジーを選出。AIやスーパーコンピューティング投資が話題になる一方、フリッパブル・折りたたみ・ロール型端末やNintendo Switch 2、ROG Ally Xなどのゲーム携帯機も目立った。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T15:00:00.000Z",
-      "contentHash": "b84c1bc90cd3"
-    },
-    {
-      "id": "cf64c0f50fb4",
-      "title": "Camel SEDA エンドポイント | 赤帽エンジニアブログ",
-      "url": "https://rheb.hatenablog.com/entry/cac20251211",
-      "summary": "Camel Advent Calendarの記事。Camel 3.xでリアクティブエンジンが導入されたが、sedaエンドポイントは依然として有用かを検証。directは同期(request/reply)で順次実行される一方、sedaは非同期のfire/forgetで別スレッド実行し待たずに処理が進む点を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T15:00:00.000Z",
-      "contentHash": "10faa72e3d75"
-    },
-    {
-      "id": "01bcd65d46f3",
-      "title": "コードでみる Crossplane と kro | hacomono TECH BLOG",
-      "url": "https://techblog.hacomono.jp/entry/2025/12/11/000000",
-      "summary": "Crossplaneとkroを比較。両者ともKubernetes上で独自リソースを扱うが、CrossplaneはAWS/GCP等の外部リソース管理が可能でFunction(gRPC)で解決、柔軟だが複雑。kroはCELで構成を定義し外部管理は別途必要でよりシンプル。SuperApp例で導入手順も解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T15:00:00.000Z",
-      "contentHash": "1961da79fb66"
-    },
-    {
-      "id": "a305a1e58675",
-      "title": "GitHub Universe 2025 &amp;amp; Microsoft Ignite 2025 Recapイベントに登壇しました | Alternative Architecture DOJO",
-      "url": "https://aadojo.alterbooth.com/entry/2025/12/11/000000",
-      "summary": "2025年のGitHub UniverseとMicrosoft Igniteを現地参加者が報告。Copilotはエージェント化（Agents HQ、Mission Control）でセルフホスト・複数モデル対応へ。Microsoftは「AIを作る」から「AIを使う」へシフト。会場の雰囲気やOSSコミュニティの熱量も紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T15:00:00.000Z",
-      "contentHash": "239214e8a306"
-    },
-    {
-      "id": "240f295442d7",
-      "title": "Kaggleを通して学ぶ機械学習の始め方と実践 | テコテック開発者ブログ",
-      "url": "https://tec.tecotec.co.jp/entry/2025/12/11/000000",
-      "summary": "TECOTECのエンジニアがKaggleで機械学習の基礎と実践を解説。AI・機械学習の概念、Kaggleの教材・環境・コミュニティを紹介し、実際のCodeノートでデータセットを使った演習手順を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T15:00:00.000Z",
-      "contentHash": "cae00ededd7f"
-    },
-    {
-      "id": "40f646033cd3",
-      "title": "UI/UXはデザイナーだけの仕事じゃない。PMとエンジニアが「越境」すべき理由 | NEXTSCAPE blog",
-      "url": "https://blog.nextscape.net/archives/2025/12/11/000000",
-      "summary": "UI/UXはデザイナーだけの仕事ではない。分業は翻訳コストや価値のズレを生み、生成AIで専門性の壁が溶けた今、PMやエンジニアも越境してBTC的なスキルを持つべきだ。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T15:00:00.000Z",
-      "contentHash": "5957af7b40e0"
-    },
-    {
-      "id": "36cacbcb1d7e",
-      "title": "Claude Code でPRのレビューコメントを貯めて利用する | 弁護士ドットコム株式会社 Creators’ blog",
-      "url": "https://creators.bengo4.com/entry/2025/12/11/000000",
-      "summary": "GitHubのPRレビューを収集・要約し、Claude Codeで活用するプラグインkccを作成。保存→解析→現行ブランチレビューの3工程で指摘の品質・時系列・理想と現実を抽出し、レビューを組織資産化してLLMの文脈や開発文化に活かす。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T15:00:00.000Z",
-      "contentHash": "bd7e08740166"
-    },
-    {
-      "id": "025282598782",
-      "title": "AI companies want a new internet — and they think they’ve found the key",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/841156/ai-companies-aaif-anthropic-mcp-model-context-protocol",
-      "summary": "MCP（Model Context Protocol）はAnthropic発の規格で、AIエージェントが標準化された方法でネット上の情報やツールにアクセスできるよう設計。OpenAI、Google、Microsoftらが採用し、新たなAI向けインターネット基盤を目指す。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T14:33:45.000Z",
-      "contentHash": "656a7c374445"
-    },
-    {
-      "id": "a23c4878725d",
-      "title": "Razer resurrects the first ever gaming mouse as a limited edition",
-      "url": "https://www.theverge.com/news/841494/razer-boomslang-20th-anniversary-edition-gaming-mouse-rechargeable-optical",
-      "summary": "Razerが創業20周年を記念して、25年前の初代ゲーミングマウス「Boomslang」を復刻。左右対称の「Boomslang 20th Anniversary」は、45,000DPI光学センサーやRGB付きワイヤレス充電ドックを搭載。価格・発売日は未発表。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T14:16:53.000Z",
-      "contentHash": "ec837a3b5ec5"
-    },
-    {
-      "id": "2525f25e5552",
-      "title": "The best Christmas gifts for gamers and movie lovers",
-      "url": "https://www.theverge.com/gadgets/780850/gaming-entertainment-gifts-ideas-2025",
-      "summary": "The Vergeのギフトガイドが、ゲーマーや映画好き向けのクリスマスプレゼント候補やおすすめタイトル、セール情報を紹介。選び方のコツや贈る際の注意点も解説しています。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T14:15:00.000Z",
-      "contentHash": "357cf9800a64"
-    },
-    {
-      "id": "679d5a4a8c33",
-      "title": "Aurora will have ‘hundreds’ of driverless trucks on the road by the end of 2026, CEO says",
-      "url": "https://www.theverge.com/transportation/841067/aurora-autonomous-truck-chris-urmson-interview",
-      "summary": "自動運転トラック企業AuroraのCEOクリス・アーマンは、次世代ハードが準備できており2026年末までに「数百台」の無人トラックを走らせると表明。2024年計画は延期、製造元の要請で安全運転手を一時復帰させたが技術後退ではなく、2025年は拡張性構築に注力し26年にサンベルトで展開すると説明した。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T14:00:00.000Z",
-      "contentHash": "ab603563af7c"
-    },
-    {
-      "id": "5a5fe467ffb6",
-      "title": "A pay-to-scrape AI licensing standard is now official",
-      "url": "https://www.theverge.com/news/841222/rsl-licensing-ai-spec-launch",
-      "summary": "Web上のコンテンツをAIが無断で収集する問題に対し、出版社が課金や利用ルールを定められるオープン規格「Really Simple Licensing（RSL）1.0」が正式化。robots.txtを拡張し、YahooやZiff Davisらが支持。Cloudflare、Akamai、Fastlyなどのインフラ提供者が対応すれば、GoogleのAIモードなどAI機能からの利用を制限・遮断できる。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T14:00:00.000Z",
-      "contentHash": "3af1f8882b8d"
     }
   ]
 }
