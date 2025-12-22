@@ -1,6 +1,159 @@
 {
-  "generatedAt": "2025-12-22T08:54:06.350Z",
+  "generatedAt": "2025-12-22T16:49:48.022Z",
   "items": [
+    {
+      "id": "d6392ed2a086",
+      "title": "Instacart scraps AI pricing tests that made some products more expensive",
+      "url": "https://www.theverge.com/news/849061/instacart-ends-ai-pricing-tests-eversight",
+      "summary": "InstacartはAI搭載の価格実験（Eversight）を中止。これまで同一店舗・同時刻でも顧客ごとに異なる価格を表示していたが、今後は同じ商品は全員同一価格にする。調査と議員の指摘を受けた対応。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T16:32:17.000Z",
+      "contentHash": "6ca7a12b9dd0"
+    },
+    {
+      "id": "30f1f0005d01",
+      "title": "Chipwrecked",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/848988/nvidia-chip-loans-coreweave-gpu-debt-ai-neocloud",
+      "summary": "Nvidiaのチップ依存と借金で支えられるAIデータセンター拡大を批判的に検証。Nvidiaの投資と「ネオクラウド」企業（例：CoreWeave）の債務依存が持続性のリスクを生む。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T16:00:00.000Z",
+      "contentHash": "8477d6962a50"
+    },
+    {
+      "id": "71de6fe941b8",
+      "title": "Claude の Agent Skills を使ってシナリオテスト作成の工数を大幅削減した話 | BABY JOB  テックブログのフィード",
+      "url": "https://zenn.dev/babyjob/articles/b800250de3ce75",
+      "summary": "BABY JOBのchayakaがClaudeのAgent Skillsでシナリオテスト作成を自動化し工数を大幅削減。ソース差分とNotionを読み込み、スプレッドシートへ貼れるMarkdown形式でテスト仕様を生成するスキルを開発。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T15:00:02.000Z",
+      "contentHash": "c291b3df8c3b"
+    },
+    {
+      "id": "6735c63fb747",
+      "title": "Camel x AI / Project Wanaku | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/cac20251223",
+      "summary": "Apache CamelとAI統合の最新動向を紹介。Devoxx UKの「AI Driven Integration」デモを契機に、Camel AI Components（LLM・深層学習・ベクトル/グラフDB連携）と、AIエージェントと企業システムを安全に繋ぐオープンソースMCPルーターWanakuを解説する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T15:00:00.000Z",
+      "contentHash": "f2b4fe382466"
+    },
+    {
+      "id": "67e2c3329cf4",
+      "title": "Check! GitHub Code QualityとCode scanningの違いを追ってみた | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2025/12/23/000000",
+      "summary": "GitHub Code QualityとCode scanningをJavaScriptで比較検証。両者は共にCodeQLを使うが検出結果が異なる。Code Qualityは「Standard findings（CodeQL）」と「AI findings」を持ち、initではanalysis-kinds: code-qualityを使う一方、Code scanningはanalysis-kinds: code-scanningでsecurity-extendedクエリ等を使っており、使用されるクエリが異なるため結果が一致しないと判明した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T15:00:00.000Z",
+      "contentHash": "72f0de063bb9"
+    },
+    {
+      "id": "d787861ae8fd",
+      "title": "Cloud Run functionsのデプロイに関する権限まとめ | テコテック開発者ブログ",
+      "url": "https://tec.tecotec.co.jp/entry/2025/12/23/000000",
+      "summary": "GCPのCloud Run Functions（第2世代）デプロイでの権限まとめ。CI/CDではサービスアカウントに roles/iam.serviceAccountUser、roles/cloudfunctions.developer（または admin）、roles/artifactregistry.writer 等が必要。Http/Pub/SubトリガーやEventarc/Cloud Run/Artifact Registry連携にも留意。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T15:00:00.000Z",
+      "contentHash": "9f42bc6bce72"
+    },
+    {
+      "id": "87d874030229",
+      "title": "AWS CloudShell 「Error when retrieving credentials from container-role」エラー | フォトシンス エンジニアブログ",
+      "url": "https://akerun.hateblo.jp/entry/2025/12/23/cloudshellerror",
+      "summary": "AWS CloudShellで「Error when retrieving credentials from container-role…500 Internal Server Error」が発生。一定数以上のコマンド実行で認証情報取得に失敗する現象で、CloudShellタブを閉じてメニューから再度開くと解消した、という報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T15:00:00.000Z",
+      "contentHash": "636f3854784e"
+    },
+    {
+      "id": "28e1ee7606f6",
+      "title": "「それってあなたの感想ですよね？」と言わせない：生成AIプロダクトの価値を証明する方法論 | SMARTCAMP Engineer Blogのフィード",
+      "url": "https://zenn.dev/smartcamp/articles/9af572cb5eaab2",
+      "summary": "生成AIプロダクトは主観評価に頼りがちで、UC Berkeleyらの調査で本番AIの74%が人手評価、75%が形式的ベンチマーク無しと判明。汎用AIによる代替や投資・信頼リスクを避けるため、科学的で客観的な評価方法で価値を証明する必要がある、という主張。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T14:58:05.000Z",
+      "contentHash": "9c5fa0708e15"
+    },
+    {
+      "id": "261b30634d8f",
+      "title": "Samsung &#8216;Wide Fold&#8217; rumored to rival Apple’s foldable next year",
+      "url": "https://www.theverge.com/news/848934/samsung-wide-fold-apple-iphone-foldable-4-3",
+      "summary": "サムスンの折りたたみ機「Wide Fold」が2026年発売予定。ET Newsは折畳5.4インチ→展開7.6インチで、展開時は4:3比の“パスポート型”と報じ、噂のアップル機（5.3→7.7インチ）とほぼ同寸で競合すると伝える。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T13:55:37.000Z",
+      "contentHash": "6f65989f9567"
+    },
+    {
+      "id": "c00aeefb3305",
+      "title": "It’s finally time to retire the word ‘podcast’",
+      "url": "https://www.theverge.com/entertainment/842457/podcast-show-name-change",
+      "summary": "著者は、2025年にポッドキャストが映像化へ本格的に移行した結果「ポッドキャスト」の語は意味を失い、テレビのトーククリップと区別がつかなくなったとして用語の更新を提案している。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T13:30:00.000Z",
+      "contentHash": "069d793ca275"
+    },
+    {
+      "id": "9a7e4b2428c4",
+      "title": "The best books we read in 2025",
+      "url": "https://www.theverge.com/entertainment/837661/books-favorites-2025",
+      "summary": "ヴァージのスタッフが2025年に読んで印象に残った本を紹介する記事。読書の魅力を再確認し、エド・ヘルムズの『SNAFU』など歴史の大失敗を扱う啓発的かつ娯楽的な一冊を挙げている。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T13:00:00.000Z",
+      "contentHash": "878ffbdc0464"
+    },
+    {
+      "id": "170a1baf8d84",
+      "title": "The biggest CRT ever made: Sony's PVM-4300",
+      "url": "https://dfarq.homeip.net/the-biggest-crt-ever-made-sonys-pvm-4300/",
+      "summary": "1989年発売のソニーPVM-4300（KV-45ED1）は最大級のブラウン管テレビで、45インチ管（表示43インチ）、約450ポンド・高さ27インチ。日本で260万円、米国で4万ドル。IDTVで画質を向上させ、1990年に米国へ20台輸入されたが不況で普及せず、数十年後に1台が確認された。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-22T12:54:29.000Z",
+      "contentHash": "b4e5c4b53425"
+    },
+    {
+      "id": "d960ef64472a",
+      "title": "Google Workspace Studio でチャットのログを Google Docs に記録する | Google Cloud Japanのフィード",
+      "url": "https://zenn.dev/google_cloud_jp/articles/google-workspace-studio-chat-log",
+      "summary": "Google Workspace Studioで、指定したGoogle Chatスペースの新着メッセージをトリガーに、送信者・メッセージ・投稿時刻などを既存のGoogle Docsへ自動追記する手順を解説。議事録やAI活用に便利。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T12:31:20.000Z",
+      "contentHash": "1cc0c0534a9a"
+    },
+    {
+      "id": "1f23fe0ffdff",
+      "title": "Copilot Studio で作成したエージェントを Microsoft Agent Framework で呼び出す | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/e3082f8e6abdea",
+      "summary": "Copilot Studioで作成したエージェントをMicrosoft Agent Frameworkから呼び出す手順を解説。公式手順で認証エラーが出たためMSALでトークン取得を自前実装。アプリ登録、Power Platform APIのCopilotStudio.Copilots.Invoke権限付与、サービスプリンシパル追加、device codeやリダイレクト設定、agent-framework/msalの導入などを説明。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T12:18:02.000Z",
+      "contentHash": "79acffa9c340"
+    },
+    {
+      "id": "eb961a528f76",
+      "title": "Server Side Kotlin におけるGradle Convention Pluginを「積み木」にしない設計 | Money Forward Developersのフィード",
+      "url": "https://zenn.dev/moneyforward/articles/cccd85ef0d69ba",
+      "summary": "Server Side KotlinのマルチプロジェクトでGradle Convention Pluginを導入した振り返り。モジュール側の判断や「積み木」的プラグイン組合せを排し、依存定義や生成設定（例:jOOQ codegen）をプラグイン側へ集約して肥大化・重複・CI脆弱性を解消する設計方針を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-22T12:14:12.000Z",
+      "contentHash": "7ff444d55bd1"
+    },
+    {
+      "id": "ba235615bb0c",
+      "title": "If you don't design your career, someone else will (2014)",
+      "url": "https://gregmckeown.com/if-you-dont-design-your-career-someone-else-will/",
+      "summary": "忙しさに流されず自分のキャリアを設計せよ。休暇に数時間使い過去1年を振り返り傾向を分析、やりたいことを自由に発想して深掘りし、来年の目標6つを優先順位付けして最終的に一つに絞る。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-22T10:27:52.000Z",
+      "contentHash": "46402a40364a"
+    },
+    {
+      "id": "7dc8a4fb7d77",
+      "title": "I announced my divorce on Instagram and then AI impersonated me",
+      "url": "https://eiratansey.com/2025/12/20/i-announced-my-divorce-on-instagram-and-then-ai-impersonated-me/",
+      "summary": "数か月の沈黙の後、インスタに離婚とケーキ写真を投稿。結婚9周年直前に夫の突然の離婚宣告で深く傷つき、病気や父の死を経て家を手放すなど苦しい数か月を過ごしたが、友人の支えで耐え、法的に離婚が成立して安堵を感じている。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-22T07:13:33.000Z",
+      "contentHash": "876f619fdd1a"
+    },
     {
       "id": "59afcd34162b",
       "title": "【アドベントカレンダー2025】クエリチューニングの最初の一歩~実行計画を見てみよう~ | ぐるなびをちょっと良くするエンジニアブログ",
@@ -110,6 +263,15 @@
       "contentHash": "17e34a2f44b7"
     },
     {
+      "id": "f2d809809dc8",
+      "title": "Build Android apps using Rust and Iced",
+      "url": "https://github.com/ibaryshnikov/android-iced-example",
+      "summary": "icedをAndroidで動かす例と手順。NativeActivity/GameActivityなど既存のna‑mainloopやwinit+wgpu例を統合し、winit+wgpu上でicedを稼働させた。テキスト入力は部分動作でソフトキーボードやIMEに課題あり。コピー/ペーストやキーボード表示はJava呼び出しで実装。ビルドはANDROID_NDK_HOME/ANDROID_HOME設定、rustupでターゲット追加、cargo-ndkで生成。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-22T02:14:32.000Z",
+      "contentHash": "828393ce1280"
+    },
+    {
       "id": "85dc879725e1",
       "title": "マルチプラットフォーム対応のモノレポ秘密基地を作ろう！ | Fenrir Engineers",
       "url": "https://engineers.fenrir-inc.com/entry/2025/12/22/102544",
@@ -191,13 +353,31 @@
       "contentHash": "9c9259c3a618"
     },
     {
+      "id": "f12105138fe4",
+      "title": "The gift card accountability sink",
+      "url": "https://www.bitsaboutmoney.com/archive/gift-card-accountability-sink/",
+      "summary": "AARPの「ギフトカードでの支払い要求は常に詐欺」という断定は誤り。ギフトカードは正当な決済手段で非銀行者の取引手段にもなる一方、カード情報を騙し取る詐欺被害も甚大で、2024年の報告被害は166億ドルにのぼる。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-21T21:07:01.000Z",
+      "contentHash": "54ee5daa7fb8"
+    },
+    {
       "id": "8d4f8ae2e3d2",
       "title": "A guide to local coding models",
       "url": "https://www.aiforswes.com/p/you-dont-need-to-spend-100mo-on-claude",
-      "summary": "ローカルのコーディングモデルは想像より高性能で導入手順も解説するが、著者は誤りを認め訂正。実務で重要な「最後の10%」は有料サービスの価値があり、即座に有料をやめるべきではないと結論づけた。",
+      "summary": "ローカルのコーディングモデルの設定手順や技術情報を解説する一方、作者は初稿の誤りを訂正。ローカルモデルは多く（約90%）の開発作業をこなせるが、職場で重要な残り10%は有料モデルの価値があり、即座に有料解約は勧めないと結論付けている。",
       "source": "Hacker News",
       "publishedAt": "2025-12-21T20:55:15.000Z",
-      "contentHash": "dc0fde6575b0"
+      "contentHash": "de7e45cf36fb"
+    },
+    {
+      "id": "a379ea6f605e",
+      "title": "More on whether useful quantum computing is “imminent”",
+      "url": "https://scottaaronson.blog/?p=9425",
+      "summary": "著者は以前は大規模量子計算に懐疑的だったが、最近の実験的里程標により楽観的に。Q2Bでの基調講演やPreskillらの報告、Quantinuumの成功、耐障害量子計算の議論を紹介した。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-21T20:53:34.000Z",
+      "contentHash": "255244b8142f"
     },
     {
       "id": "84f870387a50",
@@ -599,10 +779,10 @@
       "id": "b8d339a5bb28",
       "title": "Nano Banana Pro で ストーリー漫画の作成を試す",
       "url": "https://note.com/npaka/n/n5e7f167c9bf8",
-      "summary": "Nano Banana Proで漫画作成を試行。ChatGPTと協働し、琴音（極度のコミュ障だがスト2最強）と美咲のキャラ画像と、右→左読みの10ページストーリーボード（青春ギャグ×ゲーム）を制作。導入は琴音の孤独と夜の対戦、放課後に美咲が大会を提案する場面まで。",
+      "summary": "「Nano Banana Pro」で漫画制作を試行。ChatGPTと相談して主人公・琴音（極度のコミュ障だがスト2が異様に強い）と友人・美咲の設定画像を作成し、10ページ構成のストーリーボードを制作。導入は琴音の孤独な日常と美咲によるゲーセン大会の誘い。",
       "source": "npaka",
       "publishedAt": "2025-12-21T01:53:41.000Z",
-      "contentHash": "078c4b6dc2c5"
+      "contentHash": "2cc28dee30a9"
     },
     {
       "id": "34cd0448a6ca",
@@ -8820,186 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-10T17:42:30.000Z",
       "contentHash": "3e4e93806dbf"
-    },
-    {
-      "id": "58994df31feb",
-      "title": "Is it a bubble?",
-      "url": "https://www.oaktreecapital.com/insights/memo/is-it-a-bubble",
-      "summary": "ハワード・マークスは、AI隆盛が巨額投資とバブル懸念を招いていると指摘。自身は市場観察者として、バブルは新奇→熱狂→先行者利益→FOMOで遅参者が損をし、過去の教訓は繰り返し忘れられると述べる。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T17:30:43.000Z",
-      "contentHash": "9d81b1a98dfe"
-    },
-    {
-      "id": "28c33ce2ab9e",
-      "title": "Auto-grading decade-old Hacker News discussions with hindsight",
-      "url": "https://karpathy.bearblog.dev/auto-grade-hn/",
-      "summary": "Karpathyが2015年12月のHacker News前頁を最新LLMで自動採点・回顧。ChatGPT 5.1等で詳細な分析を大量生成し、未来のLLMが現在の行為を精査する可能性と未来予測の重要性を指摘。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T17:23:53.000Z",
-      "contentHash": "e57b73e5fc9e"
-    },
-    {
-      "id": "25cae67627fb",
-      "title": "The 27 best gifts for travelers who are always on the move",
-      "url": "https://www.theverge.com/gadgets/799419/best-gifts-for-travelers-2025",
-      "summary": "The VergeのBrandon Russellが選んだ「旅好きのためのベスト27ギフト」。長時間移動や機内を快適にする厳選アイテムを紹介する購入ガイド（アフィリエイトリンクあり）。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T17:22:06.000Z",
-      "contentHash": "c21ed09ba697"
-    },
-    {
-      "id": "6bc4501f6c03",
-      "title": "Valve: HDMI Forum Continues to Block HDMI 2.1 for Linux",
-      "url": "https://www.heise.de/en/news/Valve-HDMI-Forum-Continues-to-Block-HDMI-2-1-for-Linux-11107440.html",
-      "summary": "ValveはSteam DeckでのHDMI 2.1（DSC）対応を目指したが、HDMI Forumの採用ライセンスがオープンソースやLinux向けの公開・実装を制限。例外申請も却下され、結果的にLinuxでHDMI 2.1が使えない状況が続いている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T17:20:06.000Z",
-      "contentHash": "b462f2412746"
-    },
-    {
-      "id": "db9cc46c8e30",
-      "title": "Android users can now share a live video on 911 calls",
-      "url": "https://www.theverge.com/news/841503/android-emergency-live-video",
-      "summary": "Android 8以上向けに「Emergency Live Video」が導入。緊急通報中に通報先が映像を要求し通報者が承認すると、暗号化されたライブ映像で救急がCPRや道案内などを支援でき、通報者はいつでも停止可能。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T17:01:00.000Z",
-      "contentHash": "ed849fcec745"
-    },
-    {
-      "id": "4b5689ce59f2",
-      "title": "Google says it will link to more sources in AI Mode",
-      "url": "https://www.theverge.com/news/841603/google-ai-mode-source-links-web-guide",
-      "summary": "Googleは検索のAI機能「AI Mode」を更新し、参照元へのインラインリンクを増やすと発表。リンクにはAI生成の短い説明文を付け、カルーセル上部などに理由を表示するようになる。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T17:00:00.000Z",
-      "contentHash": "ccb2dbfcb0a5"
-    },
-    {
-      "id": "1a8d4d377362",
-      "title": "The best doorbell cameras",
-      "url": "https://www.theverge.com/22954554/best-video-doorbell-camera",
-      "summary": "スマート映像ドアベルのおすすめ記事。動体検知カメラ・マイク・スピーカー・チャイムで来訪者や荷物をスマホに通知し遠隔で確認可能。総合1位はGoogle Nest Doorbell（有線）、予算向けはBlink。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T17:00:00.000Z",
-      "contentHash": "637ab0764925"
-    },
-    {
-      "id": "75422d236dac",
-      "title": "Supporting the web with new features and partnerships",
-      "url": "https://blog.google/products/search/tools-partnerships-web-ecosystem/",
-      "summary": "Google SearchがPreferred SourcesでTop Storiesを好みの媒体に合わせ表示。Geminiでは購読リンクをAI要約付きで強調、AIモードの文中リンクに文脈導入を追加。出版社とのAI商業連携も試行中。",
-      "source": "Gemini",
-      "publishedAt": "2025-12-10T17:00:00.000Z",
-      "contentHash": "10ff40d7e88e"
-    },
-    {
-      "id": "b1e37801c244",
-      "title": "Improving Gemini Text-to-Speech models for better control and capabilities",
-      "url": "https://blog.google/technology/developers/gemini-2-5-text-to-speech/",
-      "summary": "GoogleがGemini 2.5 Flash/ProのTTSを更新。表現力やテンポ調整、複数話者の一貫した声、スタイル・発音の細かい制御を強化。Google AI StudioやPlaygroundで試用可能。",
-      "source": "Gemini",
-      "publishedAt": "2025-12-10T17:00:00.000Z",
-      "contentHash": "8620e91998e7"
-    },
-    {
-      "id": "d2a9f65e8dce",
-      "title": "Calibri is too woke for the State Department",
-      "url": "https://www.theverge.com/news/841664/calibri-is-too-woke-for-the-state-department",
-      "summary": "米国務省が事務文書の書体を、バイデン政権下で障害者の可読性向上のために採用されたCalibriから、マルコ・ルビオ国務長官の指示でTimes New Romanに戻す。ルビオはCalibri採用を「無駄な多様性重視」と批判した。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T16:54:04.000Z",
-      "contentHash": "a78a47fd1cfa"
-    },
-    {
-      "id": "d00dd121a647",
-      "title": "DeepSeek uses banned Nvidia chips for AI model, report says",
-      "url": "https://finance.yahoo.com/news/china-deepseek-uses-banned-nvidia-131207746.html",
-      "summary": "報道によれば中国のAI新興企業DeepSeekは、販売禁止のNvidia「Blackwell」チップを他国のデータセンター経由で密輸しAIモデル開発に使ったとされる。Nvidiaは根拠を確認できないと述べ、類似の密輸事件で起訴例もある。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T16:34:52.000Z",
-      "contentHash": "ca87ca514295"
-    },
-    {
-      "id": "9894228a9a84",
-      "title": "Chatbots are struggling with suicide hotline numbers",
-      "url": "https://www.theverge.com/report/841610/ai-chatbot-suicide-safety-failure",
-      "summary": "The VergeがOpenAI、Character.AI、Metaなど主要チャットボットに自殺・自傷の相談を装って検証したところ、多くが適切にホットラインや危機対応を案内できず、安全対策は不十分と結論づけた。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T16:32:15.000Z",
-      "contentHash": "22bcc3d242ee"
-    },
-    {
-      "id": "42b1d9ac46ad",
-      "title": "The Echo Spot is just $45, beating its Black Friday price",
-      "url": "https://www.theverge.com/gadgets/841593/amazon-echo-spot-nintendo-joy-con-2-wheel-deal-sale",
-      "summary": "Echo SpotがAmazon・Target・Best Buyで過去最安の44.99ドルに値下げ。スマートスピーカー兼小型ディスプレイでアラームやスマートホーム操作が可能。Joy‑Con 2 Wheelや旅行用変換アダプタなど50ドル以下の他セール品も紹介。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T16:26:11.000Z",
-      "contentHash": "6b938c5a8c08"
-    },
-    {
-      "id": "0868c42cc3e9",
-      "title": "Qwen3-Omni-Flash-2025-12-01：a next-generation native multimodal large model",
-      "url": "https://qwen.ai/blog?id=qwen3-omni-flash-20251201",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文か主要部分をここに貼っていただければ、200文字以内で日本語に要約します。Hacker Newsのコメントも貼っていただければそれを反映できます。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T16:13:38.000Z",
-      "contentHash": "609a44d20355"
-    },
-    {
-      "id": "d7534da97d19",
-      "title": "Size of Life",
-      "url": "https://neal.fun/size-of-life/",
-      "summary": "Neal Agarwalによるインタラクティブ作品。微生物から植物・動物までを実寸比で並べ、身の回りの物と対比しながら生物の大きさやスケール感を直感的に示す視覚化コンテンツ。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T16:02:57.000Z",
-      "contentHash": "edbdcdc9e8fb"
-    },
-    {
-      "id": "a9c7626ba4fa",
-      "title": "No one knows what to call these things",
-      "url": "https://www.theverge.com/gadgets/841536/smart-glasses-ai-glasses-xr-ar-headsets-terminology-wearables",
-      "summary": "高機能眼鏡の呼称が定まらず「スマートグラス」だけでは不十分で、AIグラス、ARグラス、有線XRなど多様な名前が乱立。MetaのRay‑Banは「AIグラス」とされる例など、名称混乱を指摘する。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T16:00:00.000Z",
-      "contentHash": "b809f84f443e"
-    },
-    {
-      "id": "c2d188e7616e",
-      "title": "There are no good outcomes for the Warner Bros. sale",
-      "url": "https://www.theverge.com/streaming/841581/warner-bros-netflix-paramount-skydance-ellison-hostile-bid",
-      "summary": "ワーナー・ブラザース売却でNetflixが有力だが、デヴィッド・エリソン率いるパラマウント・スカイダンスも大型入札。WBDは拒否を続け、FTCや司法省の規制審査で結末が左右されるなど不透明だ。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T16:00:00.000Z",
-      "contentHash": "be82ef620d7e"
-    },
-    {
-      "id": "16aea1dbc1ec",
-      "title": "The Pixel Watch 4 is getting new one-handed gestures and better smart replies",
-      "url": "https://www.theverge.com/news/841514/pixel-watch-4-gestures-pinch-control-wrist-turn-dismiss-enhaced-smart-replies",
-      "summary": "GoogleがPixel Watch向けにWearOS 6.1を配信。Pixel Watch 4は片手ジェスチャ（ダブルピンチや手首回し）で通知終了や音楽操作、写真撮影、アラームのスヌーズ、スマート返信送信が可能に。通話応答/終了は後日追加予定。Pixel Watch 3と4はスマート返信も改善。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T15:53:21.000Z",
-      "contentHash": "0ca21f687253"
-    },
-    {
-      "id": "b361f1df57a3",
-      "title": "In New York City, congestion pricing leads to marked drop in pollution",
-      "url": "https://e360.yale.edu/digest/new-york-congestion-pricing-pollution",
-      "summary": "ニューヨークで1月導入の渋滞課金（マンハッタン混雑区間通行料$9）は、6か月で交通量11％減、事故14％減、騒音苦情45％減。コーネル大の研究は対象地域の微粒子汚染が22％減り、都市圏全体でも改善したとnpj誌に発表。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T15:25:05.000Z",
-      "contentHash": "69250c86fd39"
-    },
-    {
-      "id": "b4ffd8aa151e",
-      "title": "Israel used Palantir technologies in pager attack in Lebanon",
-      "url": "https://the307.substack.com/p/revealed-israel-used-palantir-technologies",
-      "summary": "報道は、イスラエルが米企業パランティアのデータ解析・監視技術を軍事・治安用途で利用していたと暴露。市民監視や標的選定への関与、企業倫理や法的問題が浮上している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T15:18:47.000Z",
-      "contentHash": "1fa426464013"
     }
   ]
 }
