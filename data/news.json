@@ -1,6 +1,285 @@
 {
-  "generatedAt": "2025-12-22T16:49:48.022Z",
+  "generatedAt": "2025-12-23T02:18:08.559Z",
   "items": [
+    {
+      "id": "0760feebd055",
+      "title": "不気味の谷から考える：違和感とユーザー体験 | iimon TECH BLOG",
+      "url": "https://tech.iimon.co.jp/entry/2025/12/23",
+      "summary": "森政弘の「不気味の谷」を紹介し、人間らしさが増すと動作で違和感が強まる点を指摘。特に動画生成AIで静止画に不自然な動きを付けると不気味さが生じ、AI活用や開発でUX配慮が必要だと論じる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-23T01:15:12.000Z",
+      "contentHash": "d0a071e14b4b"
+    },
+    {
+      "id": "92be194db328",
+      "title": "The FCC’s foreign drone ban is here",
+      "url": "https://www.theverge.com/news/849460/fcc-foreign-drone-ban-dji-congress-deadline",
+      "summary": "米FCCは外国製ドローンや部品（例：DJI）を、国防省か国土安全保障省の推薦がない限り米国へ輸入できない「Covered List」に追加。これらを国家安全保障や米国人の安全に「受け入れられないリスク」と判断。DJIは根拠が公開されていないとして失望を表明。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-23T01:13:51.000Z",
+      "contentHash": "ea4c3aa69779"
+    },
+    {
+      "id": "c5e13b732a31",
+      "title": "Prismaと生成列 | ゼスト Tech Blog",
+      "url": "https://techblog.zest.jp/entry/2025/12/23/101259",
+      "summary": "PrismaとPostgreSQLの生成列の共存を検証。生成列（格納/仮想）は他列から計算され格納型はインデックス可能で高速。挿入/更新はエラーだが、Prismaのdbgenerated()や自動生成設定で読み取れるため、ORM運用を保ちつつ性能を確保できる可能性を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-23T01:12:59.000Z",
+      "contentHash": "d4ecfefc9765"
+    },
+    {
+      "id": "048d1168d8be",
+      "title": "「やること」ではなく「到達したい状態」を共有したら、アウトカムを担うチームが拡張した話 | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/2025/12/23/101112",
+      "summary": "開発だけで機能を出すだけでは十分なアウトカムに届かないと気づき、「やること」ではなく「到達したい状態」を部署横断で共有。パートナー対応部門と役割を再定義し、業務棚卸やボトルネック特定、現地ヒアリングなどでアウトカムを担う仲間を増やした話。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-23T01:11:12.000Z",
+      "contentHash": "3aeae07b693d"
+    },
+    {
+      "id": "550b0a711f60",
+      "title": "【GRFICSv3】新しく公開された化学プラントシミュレータを動かして、IDSで攻撃を検知してみた | NTT docomo Business Engineers' Blog",
+      "url": "https://engineers.ntt.com/entry/202512-new-GRFICSv3/entry",
+      "summary": "NTTドコモの上田氏が、Docker化された化学プラントシミュレータGRFICSv3の構築手順と、制御ネットワーク向けIDS「OsecT」を用いた攻撃実行・パケット可視化・検知の検証（ダミーIFやPython攻撃スクリプト、検知アラートの様子）を紹介。学習・研究目的での利用を推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-23T01:03:40.000Z",
+      "contentHash": "505299268559"
+    },
+    {
+      "id": "b4540fd59f00",
+      "title": "アンドパッドで働きながら日本語を学ぶ | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2025/12/23/100000",
+      "summary": "アンドパッドi18nチームのGopiが、フルタイム勤務しながら日本語を学んだ2年間を報告。N5→N3合格でN2挑戦中。目的は翻訳品質向上、チーム連携や技術文書理解のためで、大学から学び始め毎日2〜2.5時間学習している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-23T01:00:00.000Z",
+      "contentHash": "892d87fb17b0"
+    },
+    {
+      "id": "8340717829dc",
+      "title": "Datadog の SLO を Terraform Module 化した話 | kubell Creator's Note",
+      "url": "https://creators-note.chatwork.com/entry/2025/12/23/100000",
+      "summary": "SREがDatadogのSLOをTerraformモジュール化し、手動設定の課題（変更履歴不明、レビュー欠如、陳腐化）を解消。monitor/count/time_slicesの3種に対応し、バーンレートアラートを自動生成、チーム別ディレクトリで管理可能に。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-23T01:00:00.000Z",
+      "contentHash": "aa8abf46f555"
+    },
+    {
+      "id": "d3e5bce391fa",
+      "title": "サービス開発部チーム紹介 ビジネス・アナリティクスチーム編 #GameWith #TechWith | GameWith Developer Blog",
+      "url": "https://tech.gamewith.co.jp/entry/2025/12/23/100000",
+      "summary": "GameWithの新設ビジネス・アナリティクスチームは、情報資産・メディア活用や新商材検討、施策提案を担う。数値分析チームと兼務し、AIで週次レポートを作成、Slack経由でGoogle Analyticsへ問合せできる仕組みなどで社内共有を強化している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-23T01:00:00.000Z",
+      "contentHash": "920979bb6b32"
+    },
+    {
+      "id": "a49afa60274b",
+      "title": "Google Workspace カードが店頭販売の棚に並ぶ！~リリースを支えるSagaパターンの分散トレーシングとコンテキスト管理~ | GMO Developers",
+      "url": "https://developers.gmo.jp/technology/79398/",
+      "summary": "GMOペパボの横山が、Google Workspaceカード導入に伴う可観測性向上を報告。Sagaオーケストレーションで複数APIの長時間処理を管理し、分散トレーシングのSpanContext永続化やSagaトレース設計の課題を属性紐付けやorder_event_idで解決した経緯と学びをまとめる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-23T01:00:00.000Z",
+      "contentHash": "18a6d382f366"
+    },
+    {
+      "id": "f081d1344627",
+      "title": "adbコマンド覚えられなくても気にしない。自作MCPサーバーでAIにお任せ！ | OPTiM TECH BLOG",
+      "url": "https://tech-blog.optim.co.jp/entry/2025/12/23/100000",
+      "summary": "adbコマンドを覚えられないため、AIにadb実行を任せる自作MCPサーバーを解説。Goとmark3labs/mcp-goでexecute-adbツールを定義し、adbを実行して出力を返す実装や理由（クロスコンパイル等）を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-23T01:00:00.000Z",
+      "contentHash": "1d208ace7bfa"
+    },
+    {
+      "id": "fa3d9677a5ae",
+      "title": "iOS 26 で SwiftUI の ナビゲーションが壊れた - 非推奨 API が抱えていたリスク -  | STORES Product Blog",
+      "url": "https://product.st.inc/entry/2025/12/23/100000",
+      "summary": "STORESレジは初期からSwiftUIのNavigationView+isActiveで遷移を実装。iOS16で非推奨化したが対応を先延ばしにした結果、iOS26で遷移が失敗・即戻るなど不具合が発生し、非推奨APIのリスクが顕在化して設計見直しに至った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-23T01:00:00.000Z",
+      "contentHash": "5ff7f18e2737"
+    },
+    {
+      "id": "4b741cbf1769",
+      "title": "Cecot – 60 Minutes",
+      "url": "https://archive.org/details/insidececot",
+      "summary": "CBSの60 Minutes「Inside CECOT」（Sharyn Alfonsi制作）がBari Weissにより検閲され、カナダのGlobal TVアプリに表示された映像がInternet Archiveに2025年12月23日付で公開・アップロードされた。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-23T00:36:27.000Z",
+      "contentHash": "9ba00674eef4"
+    },
+    {
+      "id": "367288242fab",
+      "title": "The 60 Minutes report on CECOT that Bari Weiss censored is now internet contraband",
+      "url": "https://www.theverge.com/policy/849432/60-minutes-cecot-censored-canada-leak",
+      "summary": "CBSの新編集長バリ・ワイスが、エルサルバドルの収容所CECOTに送還された男性を扱う60 Minutes約14分の特集を検閲。放送中止後、Global TVやVPN、iCloud経由で映像と証言が流出した。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-23T00:06:04.000Z",
+      "contentHash": "d784de42d493"
+    },
+    {
+      "id": "7717bda39da5",
+      "title": "Lotusbail npm package found to be harvesting WhatsApp messages and contacts",
+      "url": "https://www.koi.ai/blog/npm-package-with-56k-downloads-malware-stealing-whatsapp-messages",
+      "summary": "npmのlotusbailはWhatsApp Web APIを装う@whiskeysockets/baileysのフォークで、56,000DL超。認証トークンやセッション、全メッセージ、連絡先、メディアを傍受し、持続的バックドアで暗号化して外部へ流出させるマルウェア。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-22T22:35:45.000Z",
+      "contentHash": "911a1665d6f3"
+    },
+    {
+      "id": "a567db80ad30",
+      "title": "ChatGPT’s yearly recap sums up your conversations with the chatbot",
+      "url": "https://www.theverge.com/news/849348/openai-chatgpt-2025-year-in-review-wrapped",
+      "summary": "ChatGPTが「Year in Review」を導入。2025年の送信メッセージ数や最多送信日、会話テーマや対話スタイル、利用者の“アーキタイプ”を示す個人別集計と“賞”、AI生成のピクセルアート画像を提供する機能。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T22:12:11.000Z",
+      "contentHash": "edb307db8344"
+    },
+    {
+      "id": "31c0b6cd3ca0",
+      "title": "It's Always TCP_NODELAY",
+      "url": "https://brooker.co.za/blog/2024/05/09/nagle.html",
+      "summary": "分散システムの遅延原因は多くがNagleアルゴリズムと遅延ACKの相互作用。RFC896（1984）は小パケットを減らすため未確認データがあると送信を抑制する提案をし、TCP_NODELAYを有効にすると簡単に解決することが多い。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-22T21:09:59.000Z",
+      "contentHash": "ed7a118fd305"
+    },
+    {
+      "id": "887984509e19",
+      "title": "Call of Duty, Titanfall developer Vince Zampella has died at age 55",
+      "url": "https://www.theverge.com/news/849297/vince-zampella-dies-call-of-duty-titanfall-respawn-battlefield",
+      "summary": "『Call of Duty』や『Titanfall』の開発に関わり、インフィニティ・ウォードとリスポーンを共同設立したヴィンス・ザンペラ氏（55）が、米カリフォルニア州アルタデナのアンヘレスクレスト・ハイウェイでの単独事故で死亡した。現場には州高速隊が出動し、Appleの衛星SOSで通報された。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T20:57:37.000Z",
+      "contentHash": "7711fe4d4451"
+    },
+    {
+      "id": "e9e17b2de907",
+      "title": "Bitcoin does cultural diplomacy in a dive bar",
+      "url": "https://www.theverge.com/policy/849133/pubkey-dc-opening-bitcoin-bar",
+      "summary": "記事は、ビットコイン文化が中央銀行と距離を置く自由市場リバタリアン由来で無秩序だが、かつては当局を避けていた一方、現在は規制当局と和解を図る「文化外交」（酒場でビールを共にするような接近）を模索していると伝える。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T19:43:43.000Z",
+      "contentHash": "c23143bfe3ce"
+    },
+    {
+      "id": "b9a0fa29b5af",
+      "title": "Ultrasound Cancer Treatment: Sound Waves Fight Tumors",
+      "url": "https://spectrum.ieee.org/ultrasound-cancer-treatment",
+      "summary": "HistoSonicsのEdisonは水で満たした膜を通して焦点式超音波を体内に送り、腫瘍内でキャビテーションを起こして細胞を破壊・腫瘍を液状化する。熱をほとんど生じない短い強力パルスで切開不要の治療を可能にし、膵がんなど難治性腫瘍への応用を進めている。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-22T19:37:34.000Z",
+      "contentHash": "a7c44ffd58d5"
+    },
+    {
+      "id": "2719251a5e5f",
+      "title": "US destroying its reputation as a scientific leader – European science diplomat",
+      "url": "https://sciencebusiness.net/news/horizon-europe/us-demolishing-its-scientific-leadership-wrecking-ball-says-chief-eu-research",
+      "summary": "EUの研究トップが、米国の移民制限や安全保障名目の規制、対中対立などが人材流入や国際協力を阻み、科学的リーダーシップを自ら崩していると警告。開かれた協力と長期投資を求める。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-22T19:31:50.000Z",
+      "contentHash": "e62e6598c71c"
+    },
+    {
+      "id": "01a12f459c4c",
+      "title": "US blocks all offshore wind construction, says reason is classified",
+      "url": "https://arstechnica.com/science/2025/12/us-government-finds-new-excuse-to-stop-construction-of-offshore-wind/",
+      "summary": "米内務省が建設中の海上風力5件のリースを停止。いずれも海中に資材が設置済みで1件はほぼ完成。内務省は国防省の「機密報告」を理由に挙げ、トランプ政権の反風力対応が続く。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-22T19:31:11.000Z",
+      "contentHash": "00bd5dd48a26"
+    },
+    {
+      "id": "beeeaef722b6",
+      "title": "The Garbage Collection Handbook",
+      "url": "https://gchandbook.org/index.html",
+      "summary": "本書は2012年版を更新したガベージコレクション第2版で、過去60年の知見を集約。並列・増分・並行・リアルタイム等の最新手法や実装上の課題を擬似コードや図で解説し、適切な収集器選定に役立つ権威的ハンドブックです。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-22T19:30:18.000Z",
+      "contentHash": "7237a0271f1b"
+    },
+    {
+      "id": "a36fd75b1c7e",
+      "title": "Pirate library rips 86 million of the most popular songs on Spotify",
+      "url": "https://www.theverge.com/news/849141/spotify-scrape-attack-breach-annas-archive-music-300tb-download",
+      "summary": "オープンソース団体Anna’s ArchiveがSpotifyから人気順に8600万曲を取得し、Spotify全体2.56億曲中99.9％のメタデータを含むトレントを公開。Spotifyは関与アカウントを無効化し対策を強化したが、約300TBの音源流出は止められず後日公開予定。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T19:23:28.000Z",
+      "contentHash": "2fbdce0bde4f"
+    },
+    {
+      "id": "f5214e786263",
+      "title": "Birdfy’s Hum Bloom captures 120fps slow motion footage of hummingbirds",
+      "url": "https://www.theverge.com/news/849140/birdfy-smart-birdfeeder-hum-bloom-hummingbird-feeder-vista-slow-motion",
+      "summary": "BirdfyがCES2026前にスマート給餌器2機種を発表。「Hum Bloom」は花型ネクターバルブと8MPカメラで4K/20fps、1080p/120fpsのスローモーション撮影対応のハチドリ向け。「Feeder Vista」は360°6Kカメラと下から給餌で視界を遮らない設計。両機とも2026年Q2発売予定、価格未定。120fpsでもハチドリの50–80Hz羽ばたきには限界あり。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T19:21:53.000Z",
+      "contentHash": "e062182cba90"
+    },
+    {
+      "id": "4ecc1474cee8",
+      "title": "The Illustrated Transformer",
+      "url": "https://jalammar.github.io/illustrated-transformer/",
+      "summary": "「The Illustrated Transformer」はAttentionとTransformerを平易に解説する記事。並列化で学習を高速化し一部でGNMTを上回る点、Tensor2Tensor/PyTorch実装や翻訳・講義での採用、書籍化と2025年の無料短期講座化を紹介。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-22T19:15:56.000Z",
+      "contentHash": "0d1664e7dc43"
+    },
+    {
+      "id": "0b61ee8558bb",
+      "title": "Indie Game Awards retracts Expedition 33 prizes due to generative AI",
+      "url": "https://www.theverge.com/news/849144/indie-game-awards-game-of-the-year-expedition-33-generative-ai-chantey-modretro",
+      "summary": "インディーゲーム賞は、Sandfall Interactiveの「Clair Obscur: Expedition 33」が生成AIを使っていたとして、年間最優秀賞とデビュー賞を取り消した。Palmer LuckeyのModRetro販売作の賞も同時に撤回。提出時はAI不使用と申告されていたが、後の発言で使用が判明したため。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T18:47:58.000Z",
+      "contentHash": "02aeedab49ec"
+    },
+    {
+      "id": "ccde1188a973",
+      "title": "GLM-4.7: Advancing the Coding Capability",
+      "url": "https://z.ai/blog/glm-4.7",
+      "summary": "外部サイトの直接取得ができないため、記事本文（または要点）を貼っていただけますか？あるいは要約対象を「ブログ本文のみ」か「ブログ＋HNコメント」どちらにするか教えてください。200文字以内でまとめます。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-22T18:46:32.000Z",
+      "contentHash": "4830a76cebc1"
+    },
+    {
+      "id": "2cd4bf61bb93",
+      "title": "Benn Jordan – This Flock Camera Leak Is Like Netflix for Stalkers [video]",
+      "url": "https://www.youtube.com/watch?v=vU1-uiUlHTo",
+      "summary": "外部リンクに直接アクセスできないため要約できません。YouTubeの文字起こし（動画ページの「︙」→「文字起こしを表示」）か要点、HNのコメントを貼ってください。受け取れば200字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-22T17:19:44.000Z",
+      "contentHash": "a35427c906a0"
+    },
+    {
+      "id": "d40c06012285",
+      "title": "Netflix doesn&#8217;t stream its &#8216;Originals&#8217; forever, here are some that may leave in 2026",
+      "url": "https://www.theverge.com/news/849044/netflix-original-leaving-streaming-platform-2026",
+      "summary": "Netflixの「オリジナル」も永久配信ではなく、What’s on Netflixが2026年に配信終了予定の100本超の作品を公開。『キャプテン・アンダーパンツ』1～3（1/9）、『シーラ』1～5（2/21）、『ヒックとドラゴン』関連作（11/24）などが含まれる。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T17:03:13.000Z",
+      "contentHash": "dcdf79529f4d"
+    },
+    {
+      "id": "d17806bbea9e",
+      "title": "60 of our biggest AI announcements in 2025",
+      "url": "https://blog.google/technology/ai/google-ai-news-recap-2025/",
+      "summary": "2025年、GoogleはGeminiの更新、SearchのAIモード、Pixelなどの新ハードウェアを含む多数のAI製品・機能を発表。主要なAIアップデートが相次ぎ、2026年のさらなる進展が期待される。",
+      "source": "Gemini",
+      "publishedAt": "2025-12-22T17:00:00.000Z",
+      "contentHash": "c9ee93186c44"
+    },
+    {
+      "id": "cacf8138d6c2",
+      "title": "The Beats Studio Pro headphones are $200 off today",
+      "url": "https://www.theverge.com/gadgets/849065/beats-headphones-pixel-10-paperwhite-deals-sales",
+      "summary": "12月22日までのセールでBeats Studio Proが349.99ドル→149.99ドル（約200ドル引き）に。Pixel 10やKindle Paperwhiteなどの割引もあり、クリスマス直前の買い時と紹介。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-22T16:52:40.000Z",
+      "contentHash": "d9c461fa895c"
+    },
     {
       "id": "d6392ed2a086",
       "title": "Instacart scraps AI pricing tests that made some products more expensive",
@@ -344,6 +623,24 @@
       "contentHash": "e0817e55a976"
     },
     {
+      "id": "4906715399cf",
+      "title": "One in a million: celebrating the customers shaping AI’s future",
+      "url": "https://openai.com/index/one-in-a-million-customers",
+      "summary": "世界で100万人以上の顧客がOpenAIを活用し、PayPal、Virgin Atlantic、BBVA、Cisco、Moderna、CanvaなどがAIで業務を変革し、チーム強化や新たな機会を生み出している。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-22T00:00:00.000Z",
+      "contentHash": "ab454ee427c3"
+    },
+    {
+      "id": "0ad9fbef8c87",
+      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
+      "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+      "summary": "OpenAIは、強化学習で訓練した自動レッドチーミングを用い、ChatGPT Atlasのプロンプトインジェクションを発見・修正するループで早期に脆弱性を突き止め、ブラウザエージェントの防御を強化している。",
+      "source": "OpenAI",
+      "publishedAt": "2025-12-22T00:00:00.000Z",
+      "contentHash": "0f02c7abc185"
+    },
+    {
       "id": "b22ded3d7645",
       "title": "Disney Imagineering Debuts Next-Generation Robotic Character, Olaf",
       "url": "https://disneyparksblog.com/disney-experiences/robotic-olaf-marks-new-era-of-disney-innovation/",
@@ -644,10 +941,10 @@
       "id": "450dab33c274",
       "title": "FunctionGemma の概要",
       "url": "https://note.com/npaka/n/nc3b38de5c25f",
-      "summary": "FunctionGemmaはGemma 3の270M特化版で、関数呼び出しに最適化されたエッジ向けローカルエージェント。自然言語をAPIアクションに変換し、微調整で精度を大幅改善(58→85%)。Jetsonやスマホで動作し低遅延・完全ローカル実行と幅広い展開環境をサポート。API定義済み・ローカル優先・複合システムに最適。",
+      "summary": "FunctionGemmaはFunction Calling向けに最化した小型Gemma 3（270M）で、エッジ上で関数呼び出しと会話を統合。ファインチューニングで精度が58%→85%に向上し、Jetsonやモバイルで動作。ローカル優先・API定義済み・ハイブリッド構成に適し、主要フレームワークで微調整・展開可能。",
       "source": "npaka",
       "publishedAt": "2025-12-21T10:10:04.000Z",
-      "contentHash": "f1ec905db78f"
+      "contentHash": "fb7c6261b707"
     },
     {
       "id": "47953aa3fe77",
@@ -779,10 +1076,10 @@
       "id": "b8d339a5bb28",
       "title": "Nano Banana Pro で ストーリー漫画の作成を試す",
       "url": "https://note.com/npaka/n/n5e7f167c9bf8",
-      "summary": "「Nano Banana Pro」で漫画制作を試行。ChatGPTと相談して主人公・琴音（極度のコミュ障だがスト2が異様に強い）と友人・美咲の設定画像を作成し、10ページ構成のストーリーボードを制作。導入は琴音の孤独な日常と美咲によるゲーセン大会の誘い。",
+      "summary": "「Nano Banana Pro」でストーリー漫画作成を試行。キャラ設定画像（琴音：コミュ障なスト2天才、友人・美咲）と、右→左読みの10ページ構成ストーリーボード（青春ギャグ×ゲーム）の作例を作り、1〜2ページのコマ割りとセリフ案まで作成した。",
       "source": "npaka",
       "publishedAt": "2025-12-21T01:53:41.000Z",
-      "contentHash": "2cc28dee30a9"
+      "contentHash": "b3a65717527f"
     },
     {
       "id": "34cd0448a6ca",
@@ -1310,10 +1607,10 @@
       "id": "76281cddd63c",
       "title": "AmazingHand 入門 (2) - 組み立て",
       "url": "https://note.com/npaka/n/n9213c8821e41",
-      "summary": "Seeed StudioのAmazingHand組立ガイド。必要工具・3Dパーツ一覧、指の部品とボールジョイントロッド／サーボホーンの作成手順、Python/Arduinoでのキャリブレーション、指・親指の取り付けや外装組立までを詳述。",
+      "summary": "Seeed StudioのAmazingHand組立ガイド。必要工具と3Dパーツ一覧、指の部品準備、治具作成、ボールジョイントロッド・サーボホーン組立、指・親指・ハンド全体組立、Python/Arduinoによるキャリブレーション手順を詳述。",
       "source": "npaka",
       "publishedAt": "2025-12-20T07:00:26.000Z",
-      "contentHash": "e1052c5e95d3"
+      "contentHash": "72274ed3853d"
     },
     {
       "id": "c86c08ce9d9c",
@@ -2687,10 +2984,10 @@
       "id": "1ff786812209",
       "title": "Google Colab で T5Gemma-TTS を試す",
       "url": "https://note.com/npaka/n/ndd8bd0191b35",
-      "summary": "ColabでT5Gemma-TTSを試したまとめ。T5Gemma-TTSは文章理解用と音声生成用の2つの2Bモデルで高品質・感情表現に強い。Hugging Faceで同意後L4以上GPUを選びリポジトリをクローン、requirementsを編集してインストール、ログイン後に推論で音声生成（初回約5分）。参照音声でVoice Cloning、--target_durationで長さ調整、GradioでUI起動可。商用利用に制限あり。",
+      "summary": "Google Colabで感情表現に強い小型TTS「T5Gemma-TTS」を試した手順と注意点をまとめ。2つの2Bモデル構成で高品質な音声を生成。Hugging Faceでライセンス同意、GPUはL4推奨、requirements編集、音声生成・Voice Cloning・長さ制御・Gradio起動の実行例を紹介。",
       "source": "npaka",
       "publishedAt": "2025-12-18T07:43:42.000Z",
-      "contentHash": "0500a1108097"
+      "contentHash": "ff1509a32de9"
     },
     {
       "id": "b59af8f0a43e",
@@ -2939,10 +3236,10 @@
       "id": "5798db588858",
       "title": "開発者は ChatGPT にアプリを提出できるようになりました",
       "url": "https://note.com/npaka/n/n02ca29e42475",
-      "summary": "開発者はガイドラインに沿ってChatGPTアプリを提出・審査・公開できるようになりました。SDKやサンプル、アプリディレクトリを提供し、会話内で機能を起動。プライバシー・安全基準を順守し段階的に展開、収益化は現状外部リンク中心です。",
+      "summary": "記事の要点：興味深い記事を簡潔にまとめたもので、主な内容は「開発者がChatGPTにアプリを提出できるようになった」というニュースです。",
       "source": "npaka",
       "publishedAt": "2025-12-18T00:28:56.000Z",
-      "contentHash": "9a28b394bd0c"
+      "contentHash": "4ed433c72979"
     },
     {
       "id": "27b966460249",
@@ -3101,10 +3398,10 @@
       "id": "dad906039d7d",
       "title": "Gemini 3 Flash の概要",
       "url": "https://note.com/npaka/n/nf37046a85ab8",
-      "summary": "Googleが新モデル「Gemini 3 Flash」を発表。Pro級の推論・マルチモーダル性能を維持しつつ低レイテンシ・高効率（トークン消費約30%削減）、多ベンチで高評価。開発者向けに各種GoogleサービスやAPIで提供。",
+      "summary": "Googleが「Gemini 3 Flash」を発表。Pro級の推論・マルチモーダル性能を維持しつつ、低レイテンシ・低コストで高速処理（2.5比で30%トークン削減、約3倍速）。開発・エージェント向けで高評価ベンチと価格提示。",
       "source": "npaka",
       "publishedAt": "2025-12-17T20:48:07.000Z",
-      "contentHash": "e505e7499695"
+      "contentHash": "4c9324820fbf"
     },
     {
       "id": "3ead90cbfe17",
@@ -3659,10 +3956,10 @@
       "id": "68e628b27ffb",
       "title": "GPT Image 1.5 プロンプトガイド",
       "url": "https://note.com/npaka/n/n454c5579125d",
-      "summary": "GPT‑Image‑1.5は高精細なフォトリアリズムと高い制御性・編集耐性を備えた最新画像生成モデル。プロンプトは「背景→被写体→主要ディテール→制約」で構成し、カメラ／照明／構図や文字指定、複数画像参照、品質（レイテンシ）調整を明確に。まず簡潔なベースから反復で微調整する運用が推奨される。",
+      "summary": "Gpt-image-1.5 Prompting Guideは、GPT‑image‑1.5向けの効果的なプロンプト作成法を紹介。描写の詳細化、スタイル・構図・光源・カメラ指定、ネガティブプロンプトや反復的な調整など実践的なテクニックを解説する。",
       "source": "npaka",
       "publishedAt": "2025-12-16T23:18:41.000Z",
-      "contentHash": "d24e7ff3229c"
+      "contentHash": "b169e54eba2a"
     },
     {
       "id": "e6aad8cab599",
@@ -8703,303 +9000,6 @@
       "source": "OpenAI",
       "publishedAt": "2025-12-11T00:00:00.000Z",
       "contentHash": "129dc24586e1"
-    },
-    {
-      "id": "18ba0c6ad33e",
-      "title": "Update to GPT-5 System Card: GPT-5.2",
-      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
-      "summary": "GPT-5.2はGPT-5系列の最新モデルで、包括的な安全対策はGPT-5・5.1に記載の方針と大筋で同じ。訓練は公開ウェブ情報、第三者提供データ、利用者や人間トレーナーが提供・生成した多様なデータで行われた。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-11T00:00:00.000Z",
-      "contentHash": "04a019105570"
-    },
-    {
-      "id": "c1d00087d76e",
-      "title": "Donald Trump reminds the entire world he has no idea what 6G means",
-      "url": "https://www.theverge.com/policy/842087/trump-does-not-understand-6g-5g",
-      "summary": "トランプ氏が生放送で6Gを画質や「肌の詳細」を見るものと誤解した発言をし、Qualcomm CEOの前でも訂正されなかった。記事は6Gが次世代の移動通信技術であり、8Kが映像解像度だと説明している。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T23:37:26.000Z",
-      "contentHash": "48d3e1b72262"
-    },
-    {
-      "id": "31170ec6c9d3",
-      "title": "Trump could introduce ‘mandatory’ social media reviews for travelers",
-      "url": "https://www.theverge.com/news/842129/trump-admin-us-cbp-social-media-history-travelers",
-      "summary": "トランプ政権が米税関・国境警備局の提案で、ESTA申請に過去5年分のソーシャルメディアアカウント提出を義務化へ。対象は豪・仏・英・日などビザ免除42カ国。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T23:21:05.000Z",
-      "contentHash": "50ac10539bcb"
-    },
-    {
-      "id": "fbd9a28c3708",
-      "title": "Gemini 2.5 TTS のアップデート - 2025年12月10日",
-      "url": "https://note.com/npaka/n/ncaf66f76770d",
-      "summary": "Geminiのテキスト音声合成を改良し、声質・抑揚・話速などの細かな制御や表現力、音声品質と多言語対応を向上させ、開発者向けのカスタマイズ機能を強化する内容。",
-      "source": "npaka",
-      "publishedAt": "2025-12-10T23:17:00.000Z",
-      "contentHash": "0c872963649c"
-    },
-    {
-      "id": "61a85cfbb5d3",
-      "title": "個人の「行動」を組織の「学び」に変える。インプロセスQAチームの共有会設計 | atama plus techblogのフィード",
-      "url": "https://zenn.dev/atamaplus/articles/7a855426e980b3",
-      "summary": "atama plusのプロダクトQAで、個人の気づきが組織に還元されない課題を受け、「Value Sync会」を新設。事業貢献を意識した付箋→無言コメント→深掘り→共有の30分で視点を揃え学びを組織化。好評だが継続的なネタ出し等の課題もある。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T23:00:02.000Z",
-      "contentHash": "cc94a9b29059"
-    },
-    {
-      "id": "c00ab773f7e6",
-      "title": "バリデーションとパースの分離。Goで実装する「変更に強い」CSV 処理の設計 | カミナシ エンジニアブログ",
-      "url": "https://kaminashi-developer.hatenablog.jp/entry/go-csv-import-design",
-      "summary": "GoでCSV処理をReader/Parser/Validatorの3層に分離する設計を紹介。ReaderはShift_JISやBOMを透過してUTF‑8を返し、ParserはGenerics/リフレクションで文字列→構造体へ型変換、Validatorでビジネス検証を行う「Parse, don't validate」によって変更に強く安全な処理を実現。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T23:00:00.000Z",
-      "contentHash": "da7d35ae6be6"
-    },
-    {
-      "id": "43a526a46aba",
-      "title": "AWS CodePipelineでNew Relic監視設定を自動展開する - Terraform実装ガイド | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/newrelic-terraform-codepipeline",
-      "summary": "GitHubマージをトリガーにAWS CodePipeline／CodeBuildでTerraformのplan/applyを順次実行し、New Relicの監視設定（アラート・ダッシュボード）をコードで自動展開する手順を解説。前提（AWS/GitHub/New Relic）、S3/Secrets Manager/IAM準備、ディレクトリ構成、Provider設定、buildspec、各パイプラインステージの作成方法を掲載。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T23:00:00.000Z",
-      "contentHash": "b7cf6581d9b6"
-    },
-    {
-      "id": "3efc1e21bb80",
-      "title": "【Upstage × Dify】スキャンPDF対応RAGを実現するためのOCR&amp;amp;チャンキング戦略 | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/c85fdeaf96bfd4",
-      "summary": "Fusicの大宮が、DifyでスキャンPDFや画像を使ったRAG構築で直面した課題と対策を報告。Difyは標準でOCR/画像未対応のためUpstage Document ParseでOCR化したが、DifyのチャンキングがHTML表を壊し誤回答発生。表構造を保持する独自HTML Chunkプラグインで精度を改善した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T22:30:05.000Z",
-      "contentHash": "b7cde5595e8c"
-    },
-    {
-      "id": "f946833a3d1e",
-      "title": "【イベントレポート】次世代のJr. Champions応援LTに若手エンジニアが参加してきた！ | [公開中] AQ Tech Blog",
-      "url": "https://techblog.asia-quest.jp/202512/jr-champions-lt-report",
-      "summary": "2025年9月30日、AWS目黒で開かれた「次世代のJr. Champions応援LT」レポ。約50名の若手が5分LTでAWS経験を共有。Jr. Champions制度（Challenge/Influence/Output）や交流施策が紹介され、参加者は発信意欲を高めた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T22:30:00.000Z",
-      "contentHash": "a19374a95c3e"
-    },
-    {
-      "id": "1513960f9162",
-      "title": "Unityゲームを Reddit 投稿として動かす手順まとめ",
-      "url": "https://note.com/npaka/n/n6588ee59287c",
-      "summary": "UnityゲームをReddit投稿として動かす手順まとめ。Node.jsやUnity6等を用意し、developers.reddit.comでDevvit Unityテンプレートを作成。セットアップ後にnpm run devで起動し、src/client/server/sharedやBuild出力などプロジェクト構成を使ってRedditとデータ連携する。サンプルあり。",
-      "source": "npaka",
-      "publishedAt": "2025-12-10T22:15:27.000Z",
-      "contentHash": "20db9882401c"
-    },
-    {
-      "id": "82e6217449e0",
-      "title": "Spotify&#8217;s Prompted Playlists use AI to control your algorithm",
-      "url": "https://www.theverge.com/news/842053/spotify-ai-prompted-playlists",
-      "summary": "SpotifyがNZでベータ公開した「Prompted Playlists」は、ユーザーのテキスト指示と再生履歴をAIで組み合わせてプレイリストを生成。定期更新で自分好みのDiscover Weeklyを作れる。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T22:11:57.000Z",
-      "contentHash": "80e38172247c"
-    },
-    {
-      "id": "7bd4184e0490",
-      "title": "公開イベント「AI駆動開発を組織に根づかせるには ── CTO・推進者が語る実践のリアル」を開催します | 弥生開発者ブログ",
-      "url": "https://tech-blog.yayoi-kk.co.jp/entry/2025/12/11/070100",
-      "summary": "弥生の社外勉強会「もくテク」で、12/18 19:00に「AI駆動開発を組織に根づかせるには」を開催。CTOらが全社導入の実践、推進体制や標準化の事例をLTで共有し座談会も実施。申込はconnpass。姉妹イベント（生成AI）は12/23。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T22:01:00.000Z",
-      "contentHash": "6fb85491cc6e"
-    },
-    {
-      "id": "1ef6bd9fbc4a",
-      "title": "場所感覚を持つロボット | Inside of LOVOT",
-      "url": "https://tech.groove-x.com/entry/20251211/1765404000",
-      "summary": "GROOVE X Advent CalendarのShu.Cの記事。従来のカメラ自己位置推定は部屋の変化に弱かったが、VPRにより照明や家具配置、人の動きがあっても正確に場所を記憶しロボットが迷わず移動できると紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T22:00:00.000Z",
-      "contentHash": "2fd4c5f93c85"
-    },
-    {
-      "id": "abcc46b07d3c",
-      "title": "Auth0とGoogle Workspace(Googleグループ)のSAML認証を利用した話 | JMDC TECH BLOG",
-      "url": "https://techblog.jmdc.co.jp/entry/20251211",
-      "summary": "JMDCの導入事例。管理用サービスの認証をGoogleグループで管理するため、Auth0経由でGoogle WorkspaceのSAMLログインを実装。ACSやエンティティIDを設定しAuth0側で制限。グループ選択問題はWorkspaceのアクセス権設定変更で解決し、導入に成功した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T22:00:00.000Z",
-      "contentHash": "29b5410cf67a"
-    },
-    {
-      "id": "3e820921a186",
-      "title": "入社2ヶ月の「ドメインダイブ」。現場のリアルを捉え、事業価値を最大化するシステム戦略を描く | Nealle Developer's Blog",
-      "url": "https://nealle-dev.hatenablog.com/entry/2025/12/11/070000",
-      "summary": "入社2カ月でPDBizの現場OJTを通じ、法人車両月極管理に潜むツール断絶や紙書類・属人化などの業務複雑性を体感。MiroとRDRA3.0で業務を可視化・構造化し、システム境界やデータ不整合、SSOT欠如などの課題を明確化して事業価値最大化の戦略を描いた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T22:00:00.000Z",
-      "contentHash": "f12d09aabc78"
-    },
-    {
-      "id": "d0296e42c723",
-      "title": "TVerインフラアーキテクチャの現在地(2025年) | TVer Tech Blog",
-      "url": "https://techblog.tver.co.jp/entry/nishio/tver-infra-architecture",
-      "summary": "TVerは従来のALB/ECS構成（TVer1.0）で事前暖気費用やトラフィック増、運用コストが問題化。ALB→NLB＋Nginxへ移行（TVer1.5）し費用削減を図り、Nginx＋Lua＋RedisでDB障害時に古いデータを返す「落ちない」対策を進め、来年本番化予定。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-10T22:00:00.000Z",
-      "contentHash": "534bf005eff9"
-    },
-    {
-      "id": "c33d0c34d10d",
-      "title": "When would you ever want bubblesort? (2023)",
-      "url": "https://buttondown.com/hillelwayne/archive/when-would-you-ever-want-bubblesort/",
-      "summary": "「バブルソートは使うな」は准普遍的原則だが例外がある。小さい配列では理論上高速でハイブリッド化に有用。実務では挿入ソートが主流だが、特定ハード（NVIDIAの研究）やゲーム開発では各ステップが高速・中断可能で、各交換が配列を逐次整える特性が利点となる。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T21:45:11.000Z",
-      "contentHash": "f295acbce453"
-    },
-    {
-      "id": "816967ce10b2",
-      "title": "Operation Bluebird wants to reclaim Twitter’s ‘abandoned’ trademarks for a new social network",
-      "url": "https://www.theverge.com/report/841994/operation-bluebird-twitter-trademarks-petition",
-      "summary": "スタートアップOperation BluebirdがUSPTOに「Twitter」「Tweet」商標の取消請願を提出。X社がブランドを放棄したと主張し、「Twitter」の商標を自社申請して旧Twitter風の新SNS「Twitter.new」を構築すると発表。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T21:31:24.000Z",
-      "contentHash": "c29547c83afe"
-    },
-    {
-      "id": "66efee8c188c",
-      "title": "The best budget robot vacuums",
-      "url": "https://www.theverge.com/23846479/best-budget-robot-vacuum-robot-mop",
-      "summary": "高額な機能に頼らなくても、手頃なロボット掃除機で十分に床を自動清掃できる。床を事前に片付ければ効果的で、コスパ重視のおすすめ機種を紹介するガイド。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T21:31:06.000Z",
-      "contentHash": "bd73b4e7fd71"
-    },
-    {
-      "id": "acb2382dd4b5",
-      "title": "Apple Services Experiencing Outage",
-      "url": "https://www.apple.com/support/systemstatus/",
-      "summary": "AppleのSystem Statusページは、iCloudやApp Store等の各サービスの稼働状況と過去の障害情報をリアルタイムで表示する公式ページです。HNのスレ（ポイント126、コメント59）では表示内容の分かりやすさや透明性、障害通知の遅れや不備について議論が出ていました。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T20:47:15.000Z",
-      "contentHash": "b5a9c14d94b4"
-    },
-    {
-      "id": "be7f29253e11",
-      "title": "The best smart rings for tracking sleep and health",
-      "url": "https://www.theverge.com/tech/647901/best-smart-rings",
-      "summary": "スマートリング市場は再び盛り上がっており、注目製品の選定は容易になってきたが、信頼性や完成度は限られる。新興ブランドや実験的製品が多く、レビューでは複数モデルを試した結果、スマートウォッチほど洗練されていないものも多いと指摘している。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T20:29:50.000Z",
-      "contentHash": "a9fca556bfd7"
-    },
-    {
-      "id": "42776d57ecf5",
-      "title": "Getting a Gemini API key is an exercise in frustration",
-      "url": "https://ankursethi.com/blog/gemini-api-key-frustration/",
-      "summary": "ReactプロジェクトでGemini 3 Proを試そうとしたが、APIキーや有料プランの取得が非常に煩雑で挫折。Geminiはチャット、アプリ、CLIなど製品が多く名称が混在し、既存CLIは2.5でレート制限があった。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T20:29:12.000Z",
-      "contentHash": "565986a03d74"
-    },
-    {
-      "id": "a742374b477e",
-      "title": "The scramble to launch data centers into space is heating up",
-      "url": "https://www.theverge.com/news/841887/data-center-space-solar-power-aetherflux-lunch",
-      "summary": "米ベンチャーAetherfluxは、宇宙太陽光で駆動するデータセンター衛星群「Galactic Brain」を構築し、初号機を2027年初頭に打ち上げる計画。地上の電力・スペース不足を回避しAI需要に対応する狙い。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T20:13:03.000Z",
-      "contentHash": "068bd1ffe1f0"
-    },
-    {
-      "id": "6ac8d492eb26",
-      "title": "I couldn&#8217;t fix it with iFixit’s AI FixBot",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/841252/ifixit-fixbot-hands-on-ai-chatbot",
-      "summary": "iFixitのAI修理ガイド「FixBot」を試した筆者が、ソニーCRTテレビや三菱のヒートポンプ、日本版N64の改造など複数の修理を試みたが、FixBotの指示では修理できずAIツールの限界を指摘する。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T19:44:24.000Z",
-      "contentHash": "5cb45c5ae79d"
-    },
-    {
-      "id": "999e0bd5cbfb",
-      "title": "Reddit is testing verification",
-      "url": "https://www.theverge.com/news/841879/reddit-verification-test",
-      "summary": "Redditは限定アルファで検証プロフィールをテスト開始。選ばれた公人や信頼パートナーが任意で参加し、灰色チェックが付く。特権はなく2023年の「Official」表記を置換、偽名性は維持しモデレーターの負担軽減が狙い。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T19:33:26.000Z",
-      "contentHash": "59cc7e2f46e3"
-    },
-    {
-      "id": "90734548a81f",
-      "title": "I got an Nvidia GH200 server for €7.5k on Reddit and converted it to a desktop",
-      "url": "https://dnhkng.github.io/posts/hopper/",
-      "summary": "著者がRedditで格安のNVIDIA Grace‑Hopperサーバを購入し、液冷・空冷を改造してデスクトップ化。諸トラブルを乗り越え、自宅で235B級モデルを動かす奮闘記。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T19:19:17.000Z",
-      "contentHash": "91b68b5ac258"
-    },
-    {
-      "id": "1736d9cca380",
-      "title": "The future of Terraform CDK",
-      "url": "https://github.com/hashicorp/terraform-cdk",
-      "summary": "HashiCorpがTerraform CDKを公開。TypeScript/Python等の言語でリソースを定義してtf.jsonを生成し既存のプロバイダとTerraform CLIで実行する仕組み。HNでは言語で書ける利便性を歓迎する声と、抽象化による可視性低下やデバッグ・運用の複雑化を懸念する意見が混在している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T19:14:03.000Z",
-      "contentHash": "cfbd5ab4c5e5"
-    },
-    {
-      "id": "6f9202266882",
-      "title": "August&#8217;s founders are back with a smart front door",
-      "url": "https://www.theverge.com/tech/841622/doma-smart-door-august-smart-lock-makers",
-      "summary": "Augustの創業者らが設立したDoma Homeが、Matter対応のモーター式スマートドアを発表。mmWaveとUWBで接近を検知して自動開閉し、ビデオドアベルとスマートロックを統合。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T19:00:00.000Z",
-      "contentHash": "3b297513f6f0"
-    },
-    {
-      "id": "4fc03893ffab",
-      "title": "Apple’s 5K Studio Display is down to its lowest price in months",
-      "url": "https://www.theverge.com/gadgets/841647/apple-studio-display-monitor-deal-sale",
-      "summary": "Appleの27インチ5K「Studio Display」がAmazonやBest Buyで$1,368（$231引）に値下げ。6スピーカー・3マイク（音声分離対応）、12MPカメラ搭載。グレア対策や可動スタンドは有料で、数ヶ月ぶりの最安価格。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T19:00:00.000Z",
-      "contentHash": "f631efcf9e49"
-    },
-    {
-      "id": "a976d1f3cfe0",
-      "title": "Super Mario 64 for the PS1",
-      "url": "https://github.com/malucard/sm64-psx",
-      "summary": "malucardのsm64-psxは『スーパーマリオ64』をPS1風にデメイクしたオープンソースプロジェクト。PS1特有のポリゴン描画やテクスチャ歪みなどを再現し、実機やエミュで動作。技術的完成度の高さと著作権・ライセンス面の議論で話題になった。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T18:58:55.000Z",
-      "contentHash": "666f1ba33091"
-    },
-    {
-      "id": "0f7b86032230",
-      "title": "Meta might charge for a future AI model",
-      "url": "https://www.theverge.com/news/841809/meta-avocado-ai-model-charge-open-source-mark-zuckerberg",
-      "summary": "Metaが次期AIモデル「Avocado」を有料化する可能性。ザッカーバーグの掲げたオープン化路線からの転換で、Llama 4の問題や大型投資・人材再編を受けた戦略見直し。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-10T18:46:12.000Z",
-      "contentHash": "23cecc79998a"
-    },
-    {
-      "id": "97a42f36c2eb",
-      "title": "Terrain Diffusion: A Diffusion-Based Successor to Perlin Noise",
-      "url": "https://arxiv.org/abs/2512.08309",
-      "summary": "Perlinノイズに代わる拡散モデル「Terrain Diffusion」を提案。InfiniteDiffusionで無限かつリアルタイムに地形を合成し、階層的拡散モデルで惑星規模と局所ディテールを両立。ラプラシアン符号化、無限テンソルフレームワーク、少ステップ蒸留により大規模一貫性と効率を実現。OSS公開。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T18:37:27.000Z",
-      "contentHash": "2ced1d443665"
-    },
-    {
-      "id": "688d794d1a3c",
-      "title": "Show HN: Automated license plate reader coverage in the USA",
-      "url": "https://alpranalysis.com",
-      "summary": "Rustで作成したツールがOpenStreetMapのALPRデータを解析し、住宅から施設への経路ごとにALPR（特にFlock）カメラとの交差を検出。大規模無差別なデータ収集で論争となり、郡別拡張を可視化して撤去運動支援を目指す。監視範囲と広域なデータ共有が令状不要の境界を曖昧にしているとの懸念。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-10T17:42:30.000Z",
-      "contentHash": "3e4e93806dbf"
     }
   ]
 }
