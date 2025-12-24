@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2025-12-24T02:17:07.876Z",
+  "generatedAt": "2025-12-24T08:51:41.494Z",
   "items": [
+    {
+      "id": "d36db6a8e8a7",
+      "title": "The Pluribus finale showed there&#8217;s a lot more to the story",
+      "url": "https://www.theverge.com/entertainment/848379/pluribus-review-season-1-finale",
+      "summary": "Apple TVのVince Gilligan作『Pluribus』最終回は多くの伏線を回収しつつ物語を拡大し、シーズン2への布石を打った。異星起源のウイルスで地球の大半が平和的なハイブマインド化した設定が鍵。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-24T08:00:00.000Z",
+      "contentHash": "60f12a9ab393"
+    },
+    {
+      "id": "67f95b3561d9",
+      "title": "Elastic Transcoder から MediaConvert に移行して学んだこと | stmn tech blog",
+      "url": "https://tech.stmn.co.jp/entry/2025/12/24/155559",
+      "summary": "Elastic TranscoderのEOLでTUNAGをMediaConvertへ全面移行。ElasticはPipeline中心で寛容だったのに対し、MediaConvertはJob中心で検証が厳格。音声のみファイルはエラーになり得るためアップロード導線や変換設計を明確化し、運用が健全化された。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-24T06:55:59.000Z",
+      "contentHash": "fed71133d159"
+    },
+    {
+      "id": "d519ce7b0514",
+      "title": "静的解析とアーキテクチャテストでLaravelの設計をCIで保証する品質戦略の話 | エキサイト TechBlog.",
+      "url": "https://tech.excite.co.jp/entry/2025/12/24/155515",
+      "summary": "エキサイトの伊藤が、Laravelの設計をCIで自動保証する方針を紹介。PHPStan＋Larastan(Level8)、phpat、Laravel Pint、GitHub Actionsで静的解析とアーキテクチャテストを回し、Controller/Command→UseCase→Service→Repositoryのレイヤー依存ルールを破ろうとした瞬間にCIで落とす仕組みを解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-24T06:55:15.000Z",
+      "contentHash": "7cae2fd16f6f"
+    },
+    {
+      "id": "1e80ac2bd84f",
+      "title": "Claude Codeで設定したカスタム口調を起動時からずんだもんにする方法 | エキサイト TechBlog.",
+      "url": "https://tech.excite.co.jp/entry/2025/12/24/155341",
+      "summary": "Claude Codeで「ずんだもん」口調を作る手順。~/.claude/output-styles/zundamon.mdでカスタムを作れるが、起動時から適用するには~/.claude/CLAUDE.mdに口調を直接記述する。用途差やVOICEVOX連携も解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-24T06:53:41.000Z",
+      "contentHash": "a5fae4cb69f0"
+    },
+    {
+      "id": "a9f9ed7d65fb",
+      "title": "SnowflakeからBigQueryへ。アソビューがDWHを統合した意思決定の背景と展望 | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/dataaisummit25",
+      "summary": "2022年からのデータ基盤でBigQueryとSnowflakeの二重運用課題を受け、コストとROIを最優先にDWHを統合した経緯を解説。データ移動・保存・可視化の費用や長いリードタイムを問題視し、「早く・安く・うまい」基盤を目指す再設計の意思決定プロセスを示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-24T06:47:34.000Z",
+      "contentHash": "6392b03d06bf"
+    },
+    {
+      "id": "1b4f35fa9cca",
+      "title": "金融時系列データのノイズ除去 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
+      "url": "https://recruit.group.gmo/engineer/jisedai/blog/denoising-financial-time-series/",
+      "summary": "共分散行列の推定に含まれるノイズをランダム行列理論（Marchenko–Pastur）で識別し、閾値λ+以下の固有値を平均で置換して相関行列を再構築するDenoising手法をPythonで実装・検証する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-24T06:45:41.000Z",
+      "contentHash": "2dfc62e0a111"
+    },
+    {
+      "id": "5cc7a7c21441",
+      "title": "gpt-oss-120bに論理クイズや数学の問題を解かせて、推論ログをよく読んでみた。 | ABEJA Tech Blog",
+      "url": "https://tech-blog.abeja.asia/entry/advent-2025-day24-2",
+      "summary": "ABEJAの大田がgpt-oss-120bに論理クイズや数学問題を解かせ、analysis/assistantfinal形式の思考ログを詳しく観察。嘘つき特定、0〜9の数字パズル、階乗方程式、毒入りワイン、均衡問題、座席配置、詰将棋などで、プロンプトや設定が推論過程と解答に与える影響を検証した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-24T06:30:00.000Z",
+      "contentHash": "3ad600bed3e5"
+    },
+    {
+      "id": "efcaa7caa11a",
+      "title": "【AWS】503エラーを解消する Amazon ECS タスクの依存関係設定 | TechHarmony",
+      "url": "https://blog.usize-tech.com/amazon-ecs-503-error/",
+      "summary": "ECSのタスク置換でweb/logが先にHealthy判定されタスクがRUNNING→tomcat未起動でALB経由のアクセスが503。対応：dependsOnで起動順制御し、各コンテナにヘルスチェックとstartPeriodを設定。設計教訓も提示。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-24T06:23:39.000Z",
+      "contentHash": "bb3a24c4f14f"
+    },
+    {
+      "id": "9615261c0167",
+      "title": "データ分析を加速する AI エージェント Synapse の開発と運用 | カンム テックブログ",
+      "url": "https://tech.kanmu.co.jp/entry/2025/12/24/151854",
+      "summary": "カンムで開発中のAIエージェント「Synapse」は、SQLの敷居を下げ自然言語で社内データ探索を高速化し、仮説検証のPDCAを加速することを目的に不正検知など反復的分析作業を自動化・支援します。社内フィードバックでデータ分析特化に舵を切り、実装・運用やガバナンスを進めています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-24T06:18:54.000Z",
+      "contentHash": "5bdc8bfca85c"
+    },
+    {
+      "id": "715ae5070925",
+      "title": "【リソース起動・フェイルオーバー失敗の深層 #3】アプリケーションARKの『困った』を『できた！』に変える！設定ミス・通信障害・バージョン違いの深層と再発防止策 | TechHarmony",
+      "url": "https://blog.usize-tech.com/lifekeeper-ark-troubleshooting/",
+      "summary": "LifeKeeperのアプリケーションARKで発生する設定ミス、通信障害、バージョン差異によるリソース起動・フェイルオーバー失敗事例を解説。LBのヘルスプローブ受信不能やWindowsホスト名小文字不具合、MySQL/IIS/Generic ARKの落とし穴と、チェックリスト式の再発防止策やベストプラクティスを提示。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-24T06:15:21.000Z",
+      "contentHash": "e1ae05090952"
+    },
+    {
+      "id": "a6c7558f5dd8",
+      "title": "AI時代におけるモノレポ化のメリット | kickflow Tech Blog",
+      "url": "https://tech.kickflow.co.jp/entry/2025/12/24/151304",
+      "summary": "kickflowは2つのリポジトリを単一化。モノレポでAIエージェントが全コードを同一コンテキストで扱え、複数コンポーネントの変更生成や一括コードレビューが可能に。共通化は段階的で良く、AIに任せて課題を解決できる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-24T06:13:04.000Z",
+      "contentHash": "31aec958822e"
+    },
     {
       "id": "4c5ea0442621",
       "title": "パスキーって結局なに？ | ENGINEER TECH BLOG",
@@ -92,6 +191,15 @@
       "contentHash": "f802773e20ee"
     },
     {
+      "id": "70c7acddbf9b",
+      "title": "Unifi Travel Router",
+      "url": "https://blog.ui.com/article/travel-in-style-unifi-style-unifi-travel-router",
+      "summary": "提示されたのは日付と閲覧数のみで、記事本文がありません。記事本文かリンクを送っていただければ、200文字以内で要約します。トーン（簡潔／詳細／専門家向け等）も指定可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-24T00:30:18.000Z",
+      "contentHash": "5cf4372dfdb5"
+    },
+    {
       "id": "4981b6a24597",
       "title": "Trump administration bars former EU official and anti-disinformation and hate researchers from US",
       "url": "https://www.theverge.com/news/850067/us-sanctions-thierry-breton-content-moderation-censorship",
@@ -131,28 +239,28 @@
       "id": "7ecdb8f359bb",
       "title": "I didn't realize my LG TV was spying on me until I turned off Live Plus",
       "url": "https://www.pocket-lint.com/lg-tv-turn-off-live-plus/",
-      "summary": "LGはテレビの「Live Plus」機能を停止すると発表。視聴データ収集や広告表示を巡る批判とオプトアウト不可の問題を受け、遠隔で無効化するなどのアップデートと設定改善を約束した。",
+      "summary": "LGがスマートTV向けの「Live Plus」サービスを終了。該当機種で利用できた無料ライブチャンネルや関連機能が停止され、影響を受けるユーザーから不満の声が上がっている。代替や詳報はLGの案内を確認するよう呼びかけ。",
       "source": "Hacker News",
       "publishedAt": "2025-12-23T21:47:33.000Z",
-      "contentHash": "bdf2473bb71e"
+      "contentHash": "10fccb9020c5"
     },
     {
       "id": "dd816aa9ab36",
       "title": "Qwen-Image-Edit-2511 の概要",
       "url": "https://note.com/npaka/n/n79cc62c5e0a8",
-      "summary": "Qwen-Image-Edit-2511は2509の強化版で、画像ドリフト軽減、文字・複数人物の一貫性向上、LoRA統合、工業デザインや幾何推論の強化を図った画像編集モデル。Qwen Chatで試せ、ModelScopeでのローカル展開を推奨。",
+      "summary": "Qwen-Image-Edit-2511は2509の強化版で、画像ドリフト軽減、文字・単独・複数人物の一貫性向上、LoRA統合、工業デザインや幾何学推論の強化を特徴。Qwen Chatで試せ、ModelScopeでのローカル展開が推奨されます。",
       "source": "npaka",
       "publishedAt": "2025-12-23T21:46:44.000Z",
-      "contentHash": "3c7dae2d340e"
+      "contentHash": "74d38ddba634"
     },
     {
       "id": "9cc634fdd289",
       "title": "Qwen3-TTS-VD-Flash ・ Qwen3-TTS-VC-Flash の概要",
       "url": "https://note.com/npaka/n/nfec8195b385a",
-      "summary": "Qwen3-TTSに音声設計のQwen3-TTS-VD-Flashと3秒クローニングのQwen3-TTS-VC-Flashが追加。細かな音色・韻律制御や10言語対応で高表現力、既存TTSを上回る性能。APIで利用可。",
+      "summary": "Qwen3-TTSに、自然言語で音色・韻律・感情・ペルソナを細かく設計できるQwen3-TTS-VD-Flashと、3秒の音声から10言語で音声を生成するクローニング版Qwen3-TTS-VC-Flashが登場。両者とも人間らしく表現豊かで堅牢なテキスト処理を持ち、主要ベンチマークで既存モデルを上回る性能を示す。APIで簡単に利用可能。",
       "source": "npaka",
       "publishedAt": "2025-12-23T21:34:56.000Z",
-      "contentHash": "a2285f40ca9a"
+      "contentHash": "39b298aea149"
     },
     {
       "id": "8ef5796f2f81",
@@ -162,6 +270,24 @@
       "source": "The Verge",
       "publishedAt": "2025-12-23T21:00:00.000Z",
       "contentHash": "323f3910bcd7"
+    },
+    {
+      "id": "ada5447c2310",
+      "title": "Some Epstein file redactions are being undone with hacks",
+      "url": "https://www.theguardian.com/us-news/2025/dec/23/epstein-unredacted-files-social-media",
+      "summary": "米司法省が公開したエプスタイン関連文書の黒塗りがPhotoshopや選択で解除され、未編集文がSNSで拡散。ヴァージン諸島の民事資料は執行人インダイクが若い女性モデルらへ計40万ドル超（うち一人へ月8,333ドルで約38万ドル）支払ったと記し、訴訟は2022年に1億500万ドルで和解した。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-23T20:10:30.000Z",
+      "contentHash": "f4e19f820266"
+    },
+    {
+      "id": "c29bbecc9e55",
+      "title": "HTTP Caching, a Refresher",
+      "url": "https://danburzo.ro/http-caching-refresher/",
+      "summary": "RFC9111に基づくHTTPキャッシュ解説。Cache-Controlでブラウザやプロキシ等の中間キャッシュの保存・再利用を指定し、max-ageやExpiresで鮮度を判断。Ageを加味して期限切れは再検証する。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-23T19:41:39.000Z",
+      "contentHash": "e6d0b9216160"
     },
     {
       "id": "64dfb7a7b555",
@@ -203,10 +329,10 @@
       "id": "31672e8d2317",
       "title": "We replaced H.264 streaming with JPEG screenshots (and it worked better)",
       "url": "https://blog.helix.ml/p/we-mass-deployed-15-year-old-screen",
-      "summary": "AI開発プラットフォームで60fpsのH.264/WebCodecs配信をWebSocketで構築したが、企業ネットワークがUDP/WebRTCを遮断するため接続不能に。結局HTTPS(443)経由のシンプルなJPEGスクリーンショット送信に切り替えた。",
+      "summary": "3か月かけてWebCodecs/H.264のハードウェア加速60fps配信をWebSocketで構築したが、企業ネットワークでUDP/WebRTCが遮断され不安定になり、結局古いJPEGスクリーンショット配信に戻した話",
       "source": "Hacker News",
       "publishedAt": "2025-12-23T18:00:31.000Z",
-      "contentHash": "c56b14d50895"
+      "contentHash": "38cab5ca549f"
     },
     {
       "id": "a19de8d86876",
@@ -221,28 +347,28 @@
       "id": "2adfd6613734",
       "title": "Fabrice Bellard Releases MicroQuickJS",
       "url": "https://github.com/bellard/mquickjs/blob/main/README.md",
-      "summary": "bellard の mquickjs リポジトリのファイル一覧。QuickJS を扱う軽量 C 実装（mquickjs、mqjs、libm 等）とビルド用ヘッダ、例題、標準ライブラリ、テスト、README、LICENSE、Changelog が含まれる。",
+      "summary": "bellardのmquickjsリポジトリのファイル一覧。READMEやLICENSE、testsフォルダに加え、mquickjs/mqjs関連のCソース・ヘッダ（dtoa、libm、readline等）やビルド用ファイルを含む。",
       "source": "Hacker News",
       "publishedAt": "2025-12-23T17:33:42.000Z",
-      "contentHash": "e4df9f06dc3d"
+      "contentHash": "edc93fcb2849"
     },
     {
       "id": "a7985e3d3466",
       "title": "How did DOGE disrupt so much while saving so little?",
       "url": "https://www.nytimes.com/2025/12/23/us/politics/doge-musk-trump-analysis.html",
-      "summary": "NYTは、イーロン・マスクの政府効率局（DOGE）が2万9000超の削減を主張したが、主要な巨額節約は誤りで、連邦支出はむしろ増加。小規模な削減は混乱を招いたが節約効果は乏しいと分析。",
+      "summary": "イーロン・マスクの「DOGE」は約2万9000件の削減を主張したが、多くの大型節約は誤りで、小規模削減は合計してもほとんど節約にならず、連邦支出はむしろ増加し受益者に混乱を招いた。",
       "source": "Hacker News",
       "publishedAt": "2025-12-23T17:33:40.000Z",
-      "contentHash": "7a293e61b846"
+      "contentHash": "57dd82bd1deb"
     },
     {
       "id": "bfa316261a6b",
       "title": "Meta is using the Linux scheduler designed for Valve's Steam Deck on its servers",
       "url": "https://www.phoronix.com/news/Meta-SCX-LAVD-Steam-Deck-Server",
-      "summary": "MetaがValveのSteam Deck向けに開発されたLinuxスケジューラSCX‑LAVDを自社サーバで導入・検証。Igalia開発のLAVDはEEVDF同等以上の遅延特性を示し、sched_ext上で大規模サーバの負荷分散や多様なCPU/メモリ構成に有効なため、汎用フリートスケジューラ化を検討している。",
+      "summary": "MetaがValveのSteam Deck向けに設計されたLinuxスケジューラSCX‑LAVDを自社サーバで採用。IgaliaがValve委託で開発したこのLAVDは大規模サーバでも負荷分散やCCX/LLC間の挙動が良好で、汎用的なデフォルトスケジューラとして検討されている（LPC2025発表）。",
       "source": "Hacker News",
       "publishedAt": "2025-12-23T17:08:34.000Z",
-      "contentHash": "f5c7e766872e"
+      "contentHash": "df1bb74d6ce9"
     },
     {
       "id": "2743fc4ea454",
@@ -1598,10 +1724,10 @@
       "id": "450dab33c274",
       "title": "FunctionGemma の概要",
       "url": "https://note.com/npaka/n/nc3b38de5c25f",
-      "summary": "FunctionGemmaはGemma 3 270Mを関数呼び出し向けに最適化した軽量エッジ向けモデル。オフラインで高速に関数実行・要約し、ファインチューニングで精度向上。多様なランタイムに対応し、ローカル処理と大規模モデル連携に適する。",
+      "summary": "FunctionGemmaはFunction Calling向けに最適化した小型Gemma 3（270M）で、エッジやオフラインで自然言語を実行可能なAPIアクションに変換。ファインチューニングで精度向上し、Jetsonやスマホで動作。ローカル処理と大型モデルへのルーティングを両立し、主要フレームワークに対応。",
       "source": "npaka",
       "publishedAt": "2025-12-21T10:10:04.000Z",
-      "contentHash": "d84905b114ca"
+      "contentHash": "9dbb1076aa4e"
     },
     {
       "id": "47953aa3fe77",
@@ -1733,10 +1859,10 @@
       "id": "b8d339a5bb28",
       "title": "Nano Banana Pro で ストーリー漫画の作成を試す",
       "url": "https://note.com/npaka/n/n5e7f167c9bf8",
-      "summary": "「Nano Banana Pro」で漫画制作を試行。ChatGPTと設定した主人公・琴音（極度の人見知りだがSF2最強）と友人・美咲のキャラ画像(1K)と、右→左読みの全10ページ青春ギャグ×ゲーム漫画のストーリーボード(2K)、ページごとのコマとセリフを作成。導入〜大会提案まで詳細に記載。",
+      "summary": "「Nano Banana Pro」でChatGPTと協働し、キャラ設定画像（琴音：コミュ障だがストリートファイター2が超強い、友人の美咲）と2Kストーリーボードを作成。10ページ構成・右→左読みの漫画案を提示し、導入〜美咲との出会いと大会提案までの前半ページを詳細に描写。",
       "source": "npaka",
       "publishedAt": "2025-12-21T01:53:41.000Z",
-      "contentHash": "37aac91c7545"
+      "contentHash": "98963406608d"
     },
     {
       "id": "34cd0448a6ca",
@@ -3641,10 +3767,10 @@
       "id": "1ff786812209",
       "title": "Google Colab で T5Gemma-TTS を試す",
       "url": "https://note.com/npaka/n/ndd8bd0191b35",
-      "summary": "Google ColabでT5Gemma‑TTSを検証。2つの2Bモデルで高品質かつ感情表現に強い。Hugging Face同意→GPU(L4推奨)選択→リポジトリクローン→依存修正→インストール→HFログイン→inferenceで音声生成（初回約5分）。参照音声でのVoice cloning、再生、長さ指定(--target_duration)、Gradio起動に対応。",
+      "summary": "Google ColabでT5Gemma-TTSを試した手順まとめ。2つの2Bモデルで高品質かつ感情表現が得られる。Hugging Faceで同意→Colab（L4推奨）でリポジトリをクローン→依存編集・インストール→HFログイン→推論でgenerated.wav生成。参照音声でVoice Cloning、--target_durationで長さ調整、GradioでUI起動。商用利用に制限あり。",
       "source": "npaka",
       "publishedAt": "2025-12-18T07:43:42.000Z",
-      "contentHash": "28f54d996e31"
+      "contentHash": "0ebf27093caf"
     },
     {
       "id": "b59af8f0a43e",
@@ -8874,132 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-11T15:00:00.000Z",
       "contentHash": "ddb7cd90d554"
-    },
-    {
-      "id": "ccef502f58aa",
-      "title": "スピード戦略立案：入社2週間でたどり着いた“保護者の幸せ時間”という答え | コドモン Product Team Blog",
-      "url": "https://tech.codmon.com/entry/2025/12/12/000000",
-      "summary": "入社2週間でコドモンの保護者向け写真販売戦略を立案。調査で「忙しい中、写真選定が幸せ時間」と判明。購入期限の通知強化、決済簡素化、閲覧時間の最大化を方針化。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T15:00:00.000Z",
-      "contentHash": "4ccce3e5405e"
-    },
-    {
-      "id": "d16a5bdcc386",
-      "title": "トークスキルを磨きたい | テコテック開発者ブログ",
-      "url": "https://tec.tecotec.co.jp/entry/2025/12/12/000000",
-      "summary": "企画職の近藤さんは、仕様書作成中心の仕事観から「対話で『どうして』を伝える」重要性に気づいた。理由共有が代案や予算内見積に繋がり、話し方（テンポ・フィラー削減・簡潔な言葉）を録音で練習中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T15:00:00.000Z",
-      "contentHash": "a1202814231b"
-    },
-    {
-      "id": "4d92738a8a49",
-      "title": "就活の軸は「人」だった。入社9か月で感じた、弁護士ドットコムエンジニアの技術と人間味 | 弁護士ドットコム株式会社 Creators’ blog",
-      "url": "https://creators.bengo4.com/entry/2025/12/12/000000",
-      "summary": "入社9か月のクラウドサイン新卒が語る、生成AI時代の成長と社の人間味。4か月研修はコミュニケーションや振り返り、AI活用の土台に有効。配属後に技術が急成長し、AIは下書きに有用だが品質は先輩のレビューと人の支えが重要。就活は「人」を軸に。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T15:00:00.000Z",
-      "contentHash": "98283c63ae20"
-    },
-    {
-      "id": "c2eda10d503b",
-      "title": "Devinを食べログの組織内に広めるためにやったことと、その学び | Tabelog Tech Blog",
-      "url": "https://tech-blog.tabelog.com/entry/advent-calendar-20251212",
-      "summary": "食べログでAIツールDevinを実案件で導入し成果を出した筆者が全社展開の管理者に。利用申請や棚卸の運用ルールを定めたが、本部長に「導入が遅い」と却下され、方針転換と学びを得た。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T15:00:00.000Z",
-      "contentHash": "8e0098f3ba01"
-    },
-    {
-      "id": "fbe1481c1c66",
-      "title": "The kid-friendly console that outsold Xbox during Black Friday is $50 off",
-      "url": "https://www.theverge.com/gadgets/841831/nex-playground-console-deal-holiday-sale",
-      "summary": "Nex Playgroundは5歳以上向けの立方体型モーション操作コンソール。ブラックフライデー週の家庭用機販売でSwitch 2・PS5に次ぎ3位となりXboxを上回った。12月14日までBest BuyとWalmartで249ドル→199.99ドル、Play Passも割引。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-11T14:42:15.000Z",
-      "contentHash": "67e556937b25"
-    },
-    {
-      "id": "faff7a10c2d3",
-      "title": "OpenAI’s billion-dollar Disney deal puts Mickey Mouse and Marvel in Sora",
-      "url": "https://www.theverge.com/news/842348/disney-openai-sora-chatgpt-images",
-      "summary": "ディズニーとOpenAIが3年契約を締結。Soraはディズニー、マーベル、ピクサー、スター・ウォーズの200超のキャラクターや衣装・小道具を使い、ユーザーが指定する短いソーシャル動画を生成可能に。ボブ・アイガーは生成AIで物語を責任ある形で広げると述べた。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-11T14:32:21.000Z",
-      "contentHash": "6c5bf52ecc50"
-    },
-    {
-      "id": "74e35e5aa68f",
-      "title": "Virt 屋のひとりごと : High Availability の実装 | 赤帽エンジニアブログ",
-      "url": "https://rheb.hatenablog.com/entry/virt-ha",
-      "summary": "OpenShift VirtualizationでのVM高可用性(HA)を解説。Podの自己修復と異なりVMIは自動再作成されないため、Node Health Check(NHC)とRemediation Operatorを組み合わせ、障害検知→VMI削除→別ノードで再起動する仕組みでVMのHAを実現する方法を説明する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T14:26:25.000Z",
-      "contentHash": "0975d8ca7420"
-    },
-    {
-      "id": "03f1caae60de",
-      "title": "Generate a digital version of yourself to virtually try on clothes.",
-      "url": "https://blog.google/products/shopping/studio-quality-digital-try-on/",
-      "summary": "Google ShoppingはセルフィーからGemini 2.5「Nano Banana」が全身画像を生成するバーチャル試着を導入。サイズを選んで複数のスタジオ風画像から試着写真を選べ、従来の全身写真や多様なモデルも利用可能。",
-      "source": "Gemini",
-      "publishedAt": "2025-12-11T14:00:00.000Z",
-      "contentHash": "22c6d5f4384c"
-    },
-    {
-      "id": "e772fdbbc2b6",
-      "title": "The Game Awards are losing their luster",
-      "url": "https://www.theverge.com/games/841710/the-game-awards-2025-preview-geoff-keighley",
-      "summary": "The Game Awardsは依然として規模は大きいが、高額なCMや有名人出演が目立ち、ゲーム開発者や受賞の場が置き去りにされている。2014年にGeoff Keighleyが創設した当初の祝祭性は薄れている。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-11T13:00:00.000Z",
-      "contentHash": "2dcc8a45b4d6"
-    },
-    {
-      "id": "ec2dfc41d10e",
-      "title": "BASIC認証は「+αでの利用」がおすすめ！ | コラボスタイル Developersのフィード",
-      "url": "https://zenn.dev/collabostyle/articles/aef07054bc0e9d",
-      "summary": "BASIC認証は設定が簡単で補助的に有効だが、Base64で資格情報が容易に復元され毎回送信・ロック機能無しなど脆弱性がある。単独運用は危険で、強パス・アカウントロック・IP制限・MFA等と組み合わせる多層防御（+α）を推奨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T11:37:39.000Z",
-      "contentHash": "5ebb234b385f"
-    },
-    {
-      "id": "5a5c3b2d5b18",
-      "title": "Meta shuts down global accounts linked to abortion advice and queer content",
-      "url": "https://www.theguardian.com/global-development/2025/dec/11/meta-shuts-down-global-accounts-linked-to-abortion-advice-and-queer-content",
-      "summary": "Metaは10月以降、妊娠中絶やLGBTQ、リプロダクティブヘルス関連のFacebook/Instagram/WhatsAppアカウントを50以上制限・削除。NGOは検閲の大波を指摘（今年210件→昨年81件）するが、Metaは否定。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-11T11:26:45.000Z",
-      "contentHash": "84be8e906e82"
-    },
-    {
-      "id": "a7cd4327208b",
-      "title": "Adobe sees a bright future as AI bet pays off",
-      "url": "https://www.theverge.com/news/842256/adobe-2025-earnings-ai-growth",
-      "summary": "Adobeは生成AIを軸に製品を強化し、2025年の売上高が237.7億ドルで前年同期比11%増の過去最高を記録。AIの重要性を強調し、2026年のARRを10.2%増目標に。ただ株価は年初来約37%下落。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-11T11:06:44.000Z",
-      "contentHash": "b13621ddcb5f"
-    },
-    {
-      "id": "d5545a2a488d",
-      "title": "『Tidy First?』の実践でコードレビュー完了までのリードタイムが短縮された話 | Wantedly Engineer Blog",
-      "url": "https://www.wantedly.com/companies/wantedly/post_articles/1029591",
-      "summary": "WebページのCSS定義。コンテナやメイン領域の余白・幅設定、flexによる中央揃え、ボタン（角丸・透明背景・遷移効果）やヘッダーナビ（フォント・サイズ・色・ホバー効果）などのスタイルを指定しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T11:00:11.000Z",
-      "contentHash": "f1f242946878"
-    },
-    {
-      "id": "9ae81348a23b",
-      "title": "Microsoft 365にもWebhookはありまぁす！【Graph API change notifications】 | CloudNative Inc. BLOGs",
-      "url": "https://blog.cloudnative.co.jp/29838/",
-      "summary": "Microsoft 365のGraph API change notifications（Webhook）を紹介。特定グループのメンバー更新をLogic Appsへ通知する用途と、AzureポータルでのLogic Appsインポート手順やテンプレート例を示し、2025年12月時点の情報に注意を促す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T10:18:19.000Z",
-      "contentHash": "e04933067237"
     }
   ]
 }
