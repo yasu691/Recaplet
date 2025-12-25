@@ -1,6 +1,222 @@
 {
-  "generatedAt": "2025-12-24T16:46:04.625Z",
+  "generatedAt": "2025-12-25T16:46:03.888Z",
   "items": [
+    {
+      "id": "5de3a566f986",
+      "title": "Dress Code Advent Calendar 2025を完走しました！ | DRESS CODE TECH BLOGのフィード",
+      "url": "https://zenn.dev/dress_code/articles/0f38e10e85fb6b",
+      "summary": "Dress Code Advent Calendar 2025を25日間完走。Zenn19本・note6本、記事は組織7本・アーキ8本・DevOps5本・プロダクト3本・ライフ2本。2025年創業1年目の実録や設計思想、エンジニアの生活まで多角的に発信。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-25T15:00:01.000Z",
+      "contentHash": "c725af608a35"
+    },
+    {
+      "id": "db74dbf04c12",
+      "title": "はてなブログのAndroidアプリのスムーズな無限スクロールを支える技術 | Hatena Developer Blog",
+      "url": "https://developer.hatenastaff.com/entry/2025/12/26/000000",
+      "summary": "はてなブログAndroid版は無限スクロールにJetpackのPagingを採用。RoomをバックエンドにRemoteMediatorでAPIと連携しComposeで表示。Room連携ではPagingSourceのKeyにIDでなくInt（オフセット）を使うべき等の注意点を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-25T15:00:00.000Z",
+      "contentHash": "368e2167f16d"
+    },
+    {
+      "id": "df78e0466fbe",
+      "title": "Amazon Connectで発行した番号のキャリアを特定する方法と注意点 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/call-in-amazon-connect-202512",
+      "summary": "Amazon Connectで発行した番号は、総務省の番号割当リスト（市外局番別や050のファイル）で事業者を確認できます。ただし0120/0800などはナンバーポータビリティで実際の提供先が割当と異なる場合があるため注意。03/050はリスト通りであることが多く、特定キャリアで発行したい場合は事前にAWSへ相談してください。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-25T15:00:00.000Z",
+      "contentHash": "ddb6c2d18a90"
+    },
+    {
+      "id": "c612b03016f2",
+      "title": "想定範囲内の人生を送っている25歳の脳内会議 | Money Forward Developersのフィード",
+      "url": "https://zenn.dev/moneyforward/articles/25year-thinking",
+      "summary": "25歳になった著者がこれまでと今後25年を振り返る。想定範囲内で安定した生活だが「物語がない」と焦りを覚え、人生をゲームに例えて中盤とし、残り56年をどう楽しむか考える。仮説は「難しい選択を選ぶほど人生は面白くなる」。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-25T14:58:55.000Z",
+      "contentHash": "21399eb138db"
+    },
+    {
+      "id": "e104796cf3ca",
+      "title": "お金の未来とKyashの関わり方 | Kyash Product Blog",
+      "url": "https://blog.kyash.co/entry/2025/12/25/234707",
+      "summary": "記事本文が見当たりません。本文を貼っていただければ200字以内で要約します。本文がない場合はタイトルだけで仮要約を作成することも可能です。どちらがよいですか？",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-25T14:47:07.000Z",
+      "contentHash": "f540bab0f883"
+    },
+    {
+      "id": "760e2731f061",
+      "title": "学習と推論をつなぐ：本番 ML パイプラインにおける共通前処理 | CARTA TECH BLOG",
+      "url": "https://techblog.cartaholdings.co.jp/entry/custom-preprocessing-design-for-onnxruntime",
+      "summary": "RTB向けMLで学習と推論のズレを防ぐため、生データ→予測までの前処理・学習・後処理をsklearn.Pipelineにまとめて一つのONNXアーティファクトにエクスポート。カスタムエンコーダは明示的な変換と厳密なテスト、再利用性と早期の柔軟性投資が重要と説明。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-25T14:10:23.000Z",
+      "contentHash": "23874ed097a8"
+    },
+    {
+      "id": "52b488129b8e",
+      "title": "I re-created Google&#8217;s cute Gemini ad with my own kid&#8217;s stuffie, and I wish I hadn&#8217;t",
+      "url": "https://www.theverge.com/tech/849998/gemini-ai-stuffed-animal-commercial",
+      "summary": "記者が自分の子どものぬいぐるみでGoogleのGemini広告をAIで再現。ぬいぐるみが世界を旅するような画像は簡単に作れるが、演出や倫理、誤解を招く点に懸念があり後悔した、という記事。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-25T14:00:00.000Z",
+      "contentHash": "b5d052eff1f8"
+    },
+    {
+      "id": "e4b618280105",
+      "title": "APIをそのままMCPサーバーにするな | NCDC テックブログのフィード",
+      "url": "https://zenn.dev/ncdc/articles/c1d65b6e939185",
+      "summary": "APIをそのままMCPサーバー化すると、ツール数や説明文、API応答が冗長になりトークン消費が増えコスト上昇・選択精度低下を招く。高レベル統合・説明簡潔化・返却データ絞り込みを推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-25T13:44:26.000Z",
+      "contentHash": "b2d830391623"
+    },
+    {
+      "id": "2a6bb72ce94d",
+      "title": "Python 3.15’s interpreter for Windows x86-64 should hopefully be 15% faster",
+      "url": "https://fidget-spinner.github.io/posts/no-longer-sorry.html",
+      "summary": "筆者は以前の謝罪を部分撤回。CPythonのtail-calling実装がmacOS AArch64（Xcode Clang）で約5%、Windows x86-64（実験的MSVC）で約15%速いとpyperformanceで確認。switch-caseとcomputed-gotoの差は現代コンパイラで縮小しており、結果はPython 3.15開発で変わる可能性あり。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-25T13:02:46.000Z",
+      "contentHash": "d1d2cf2cc2b0"
+    },
+    {
+      "id": "90f0afd3364f",
+      "title": "Virt 屋のひとりごと : これからの OpenShift Virtualization | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/roadmap-2026",
+      "summary": "OpenShift Virtualizationのロードマップ紹介。RFE増加に対応し継続開発中で、クラスタ間のVM/ストレージLive migration（GA予定）、BGP/EVPNでのL2伸張やIPv6対応、管理・エッジ・ストレージ・データ保護・セキュリティ・性能強化などを予定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-25T13:02:22.000Z",
+      "contentHash": "34150879ece7"
+    },
+    {
+      "id": "31f44545a356",
+      "title": "Hollywood cozied up to AI in 2025 and had nothing good to show for it",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/848119/hollywood-film-tv-ai-2025",
+      "summary": "2025年、ハリウッドは生成AIを積極導入したが、話題にはなってもAIの力を示す傑作映画やドラマは生まれなかった。ポスト制作の補助には有用だが、テキスト→映像の粗悪な生成物依存が目立った。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-25T13:00:00.000Z",
+      "contentHash": "c12fe73ecc42"
+    },
+    {
+      "id": "0f54678bf611",
+      "title": "【Zscaler】古いZCCが段階的に使えなくなる話 | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/zscaler_deprecation_old_zcc",
+      "summary": "Zscalerが古いZCCを段階的に廃止。GAのN〜N-2やLTSを推奨。Phase1: 2026/2/1に1.x・2.xの登録停止、5/1に自動ログアウト。Phase2: 2026/7/1で3.x停止、10/1自動ログアウト。Phase3: 2027/1/1に非サポート版全般をブロック。計画的な更新を。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-25T11:30:00.000Z",
+      "contentHash": "adc89cde752c"
+    },
+    {
+      "id": "8cf9b979c169",
+      "title": "Mattermost restricted access to old messages after 10000 limit is reached",
+      "url": "https://github.com/mattermost/mattermost/issues/34271",
+      "summary": "Mattermostのアップグレード後に「10,000メッセージ制限に到達。2025年9月26日以前のメッセージは非表示」と表示され過去メッセージにアクセス不可。学校で2000ユーザー、47万投稿。制限の実装時期や日付の算出方法を問う。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-25T11:03:59.000Z",
+      "contentHash": "f1c883ae2072"
+    },
+    {
+      "id": "6213a1c6cd1b",
+      "title": "Android アプリに Okta 認証を入れてみた | Yappli Tech Blog",
+      "url": "https://tech.yappli.io/entry/android-okta-app",
+      "summary": "iOSからAndroidへ転職した筆者が、社内AndroidアプリにOkta認証を導入してログイン必須でセキュリティ強化した実装手順を紹介。Okta SDK導入、リダイレクト設定、SDK初期化、ログイン画面と処理、状態管理、ログアウト実装を解説。OktaはSSOや多要素認証対応の認証基盤。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-25T11:00:00.000Z",
+      "contentHash": "c93792f847e7"
+    },
+    {
+      "id": "013a975e77af",
+      "title": "We invited a man into our home at Christmas and he stayed with us for 45 years",
+      "url": "https://www.bbc.co.uk/news/articles/cdxwllqz1l0o",
+      "summary": "1975年のクリスマス、カーディフの若い夫婦ロブとディアンヌが路上生活の自閉症男性ロニーを家に招き入れた。一度の好意がきっかけでロニーは45年間同居し、夫妻の人生は大きく変わった。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-25T10:35:34.000Z",
+      "contentHash": "f2bf1ab53c59"
+    },
+    {
+      "id": "9343164d771c",
+      "title": "Nano Banana Pro で1ページ漫画ができるまで",
+      "url": "https://note.com/npaka/n/n19d440a7b100",
+      "summary": "Nano Banana Proで1ページ漫画を作る手順を現状版で解説。生成13回・約30分。Google AI Studioでベース作成→inpaint編集→Photoshop配置→2Kリファイン。登場人物はそらみとへにへに、Reachy Mini題材の4段コマで最終案は6案から選択。",
+      "source": "npaka",
+      "publishedAt": "2025-12-25T08:40:24.000Z",
+      "contentHash": "9dfcd33d6dd0"
+    },
+    {
+      "id": "4414f8ab653b",
+      "title": "Free Software Foundation receives historic private donations",
+      "url": "https://www.fsf.org/news/free-software-foundation-receives-historic-private-donations",
+      "summary": "フリーソフト財団（FSF）は暗号通貨Moneroで計約90万ドルの匿名寄付2件を受領。冬季募金を後押しし、技術・インフラや活動、教育、ライセンス、アドボカシー強化に充てられる。年末募金と1月16日までに準会員100人獲得を目指す。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-25T04:47:38.000Z",
+      "contentHash": "ef7cb480846d"
+    },
+    {
+      "id": "3677578b5ae7",
+      "title": "Ruby 4.0.0",
+      "url": "https://www.ruby-lang.org/en/news/2025/12/25/ruby-4-0-0-released/",
+      "summary": "Ruby 4.0.0公開。実験的な隔離機能「Ruby Box」（RUBY_BOX=1、Ruby::Box）でモンキーパッチや定義を分離し、テストや並列アプリ運用に利用可能。次世代JIT「ZJIT」（--zjit、Rust1.85+、解釈器より高速だがYJIT未満）とRactor改善（Ractor::Port追加）も導入。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-25T04:13:00.000Z",
+      "contentHash": "d53b721b6e10"
+    },
+    {
+      "id": "26cc05948d37",
+      "title": "Who Watches the Waymos? I do [video]",
+      "url": "https://www.youtube.com/watch?v=oYU2hAbx_Fc",
+      "summary": "申し訳ありませんが、外部リンクを直接開けません。記事本文かツイートの内容（本文や重要な抜粋）を貼っていただければ、200文字以内の日本語要約を作成します。必要ならコメント欄や背景情報も添えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-25T00:10:12.000Z",
+      "contentHash": "a01ef8a48f17"
+    },
+    {
+      "id": "d4f8340ef548",
+      "title": "Microsoft please get your tab to autocomplete shit together",
+      "url": "https://ivanca.github.io/programming/2025/11/26/microsoft-pls-get-your-tab-to-autocomplete-shit-together/",
+      "summary": "VSCodeのオートコンプリートでTabを押しても期待した補完が挿入されず別候補が出る不具合を指摘し、C# Dev Kitチームに改善を要望。著者は15年経験のIvan Castellanosでリモート職を募集中（React/Node/Python/TypeScript/PHP/C#、ivanca@gmail.com）。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-24T23:33:15.000Z",
+      "contentHash": "131f47c3ef56"
+    },
+    {
+      "id": "8abee2f3066b",
+      "title": "Asterisk AI Voice Agent",
+      "url": "https://github.com/hkjarral/Asterisk-AI-Voice-Agent",
+      "summary": "Asterisk AI Voice AgentはAsterisk/FreePBX向けのオープンソース音声AIエージェント。STT/LLM/TTSを組合せるモジュール式で企業向けのベースを備え、管理UIで短時間導入可能。事前チェックとai-engine起動、管理UIのセキュリティ設定が必要。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-24T23:25:37.000Z",
+      "contentHash": "9b42cfd7fa98"
+    },
+    {
+      "id": "a19d27faf1ff",
+      "title": "Tell HN: Merry Christmas",
+      "url": "https://news.ycombinator.com/item?id=46380168",
+      "summary": "各地で祝う日が違うがこちらはクリスマス。休んで親しい人と大切なことに集中し、完璧を求めて悩まないでほしい。大切な人と過ごせない人へも愛を。好きなクリスマスマーケットのWikiを添付。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-24T22:56:00.000Z",
+      "contentHash": "5cf87048a977"
+    },
+    {
+      "id": "7b2234053fac",
+      "title": "Phoenix: A modern X server written from scratch in Zig",
+      "url": "https://git.dec05eba.com/phoenix/about/",
+      "summary": "PhoenixはZigで一から書かれた新しいXサーバ（Xorgのフォークではない）。現状未完成で既存XにネストしてGLX/EGL/VulkanをHW描画可能。近年向けにX11を最小化し簡素化・安全性向上を目指し、Zigと権限ベースのアプリ隔離で保護。グローバルホットキーは修飾キー付きで動作、無修飾は許可が必要。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-24T22:43:53.000Z",
+      "contentHash": "d336b9c60b18"
+    },
+    {
+      "id": "1275d0ea4ece",
+      "title": "Anker’s beefy Laptop Power Bank has returned to its Black Friday low",
+      "url": "https://www.theverge.com/gadgets/849637/anker-laptop-power-bank-xbox-series-x-deal-sale",
+      "summary": "Ankerの大型ノートPC向けモバイルバッテリーがAmazonとWalmartで過去最安の87.99ドル（47ドル引き）に。Best Buyは90ドルで、ブラックフライデーと同水準のセール。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-24T18:00:00.000Z",
+      "contentHash": "ba6ff5828b4a"
+    },
     {
       "id": "1801a8bda498",
       "title": "音楽アプリのLiquid Glass対応を検証してわかったこと | RecoChoku Engineering Blog",
@@ -419,19 +635,19 @@
       "id": "dd816aa9ab36",
       "title": "Qwen-Image-Edit-2511 の概要",
       "url": "https://note.com/npaka/n/n79cc62c5e0a8",
-      "summary": "Qwen-Image-Edit-2511は2509の強化版で、画像ドリフト低減・文字や複数人物の一貫性向上、コミュニティLoRAの統合、工業デザインや幾何学的推論の強化などを実現。Qwen ChatやModelScopeで利用可能。",
+      "summary": "Qwen-Image-Edit-2511は2509の強化版で、画像ドリフト軽減、文字や複数人物の一貫性向上、LoRA統合、工業デザイン対応、幾何学的推論強化などを実装。Qwen ChatやModelScopeで利用可能。",
       "source": "npaka",
       "publishedAt": "2025-12-23T21:46:44.000Z",
-      "contentHash": "442589567c25"
+      "contentHash": "9b7f40d17b4f"
     },
     {
       "id": "9cc634fdd289",
       "title": "Qwen3-TTS-VD-Flash ・ Qwen3-TTS-VC-Flash の概要",
       "url": "https://note.com/npaka/n/nfec8195b385a",
-      "summary": "Qwen3-TTSに音声設計のQwen3-TTS-VD-Flashと3秒音声クローニングのQwen3-TTS-VC-Flashが追加。VDは音色・韻律・感情など細かな制御で高評価、VCは10言語対応でWER優位。高表現力・堅牢なテキスト解析を備え、Qwen APIで利用可能。",
+      "summary": "Qwen3-TTS-VD-Flashは自然言語で音色・韻律・感情などを細かく設計できる音声設計モデル、Qwen3-TTS-VC-Flashは3秒の音声から多言語で音声を複製するクローニングモデル。両者は人間らしく表現豊かで堅牢なテキスト処理を持ち、複数ベンチで既存モデルを上回り、APIで簡単に利用可能。",
       "source": "npaka",
       "publishedAt": "2025-12-23T21:34:56.000Z",
-      "contentHash": "12b1ea7eb997"
+      "contentHash": "ae2d8b276c91"
     },
     {
       "id": "8ef5796f2f81",
@@ -1895,10 +2111,10 @@
       "id": "450dab33c274",
       "title": "FunctionGemma の概要",
       "url": "https://note.com/npaka/n/nc3b38de5c25f",
-      "summary": "FunctionGemmaはFunction Calling向けに最適化した小型Gemma 3（270M）で、エッジやオフラインで自然言語を実行可能なAPIアクションに変換。ファインチューニングで精度向上し、Jetsonやスマホで動作。ローカル処理と大型モデルへのルーティングを両立し、主要フレームワークに対応。",
+      "summary": "FunctionGemmaはGemma 3 270Mを関数呼び出し向けに最適化した小型エッジモデル。自然言語を構造化APIアクションに変換し、ファインチューニングで精度を大幅改善（58→85%）。オフライン動作・プライバシー重視のローカルデプロイや、大規模モデルへのルーティングに適し、多環境で展開可能。",
       "source": "npaka",
       "publishedAt": "2025-12-21T10:10:04.000Z",
-      "contentHash": "9dbb1076aa4e"
+      "contentHash": "a9d588e372a5"
     },
     {
       "id": "47953aa3fe77",
@@ -2561,10 +2777,10 @@
       "id": "76281cddd63c",
       "title": "AmazingHand 入門 (2) - 組み立て",
       "url": "https://note.com/npaka/n/n9213c8821e41",
-      "summary": "Seeed StudioのAmazingHand組立ガイド。必要工具と3Dパーツ一覧、指の部品準備、治具作成、ボールジョイントロッド・サーボホーン組立、指・親指・ハンド全体組立、Python/Arduinoによるキャリブレーション手順を詳述。",
+      "summary": "Seeed StudioのAmazingHand組立ガイド。必要工具・3D/標準パーツ一覧、治具を使ったボールジョイントロッドやサーボホーン等の指組立、Python/Arduinoでのキャリブレーション、親指含むハンド全体の最終組立を詳述。",
       "source": "npaka",
       "publishedAt": "2025-12-20T07:00:26.000Z",
-      "contentHash": "72274ed3853d"
+      "contentHash": "8f42117aeb65"
     },
     {
       "id": "c86c08ce9d9c",
@@ -4073,10 +4289,10 @@
       "id": "aa4d0c2b2219",
       "title": "【書評】 実践Claude Code入門",
       "url": "https://note.com/npaka/n/n9ac45fcb2d16",
-      "summary": "『実践Claude Code入門』は、操作法で終わらず「スペック駆動開発」で仕様を言語化し、計画・タスク・検証・レビューにAIを組み込んで実務で安定した開発を行う実践的ガイドです。",
+      "summary": "『実践Claude Code入門』は、単なる生成ツール解説を越え、仕様を言語化する「スペック駆動開発」でAIを計画的に組み込み、レビュー・検証まで含めて業務向け開発を安定させる実践ガイドです。",
       "source": "npaka",
       "publishedAt": "2025-12-18T02:41:49.000Z",
-      "contentHash": "15c64f7db7a0"
+      "contentHash": "32b4191adb0b"
     },
     {
       "id": "6f70792185da",
@@ -8784,222 +9000,6 @@
       "source": "OpenAI",
       "publishedAt": "2025-12-12T00:00:00.000Z",
       "contentHash": "604227d4a93f"
-    },
-    {
-      "id": "eafd28afa8a6",
-      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
-      "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
-      "summary": "OpenAIはCodexを活用し、AI支援の計画・翻訳・並列コーディングワークフローで、機敏なチームが28日でAndroid版Soraを迅速かつ確実にリリースした。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-12T00:00:00.000Z",
-      "contentHash": "810bc08fc89e"
-    },
-    {
-      "id": "fd4e4c3c793c",
-      "title": "Disney wants to drag you into the slop",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/842992/disney-openai-sora-ai-slop-partnership",
-      "summary": "ディズニーがOpenAIと10億ドルで提携し自社IPをAI学習に提供。著者はこれがディズニープラスに質の低いAI生成コンテンツを増やし、創作や視聴体験を損なうと批判している。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-11T23:03:24.000Z",
-      "contentHash": "2b43f0b742c2"
-    },
-    {
-      "id": "ced54a16d829",
-      "title": "損失コストを減らす！インシデント対応の「4つのタイムスパン」可視化戦略 | kubell Creator's Note",
-      "url": "https://creators-note.chatwork.com/entry/2025/12/12/080000",
-      "summary": "kubell Advent Calendar 2025（シリーズ2）12日目。QAエンジニア稲垣が、インシデントの損失コストや対応方法を問い、著者が関わる改善委員会の継続的改善活動の一部を紹介する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T23:00:00.000Z",
-      "contentHash": "a4a3d7f98590"
-    },
-    {
-      "id": "bae9dbee9963",
-      "title": "Amazon ECSコンテナログの送信パターンを比較してみました | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/ecs-container-log-patterns",
-      "summary": "Amazon ECSのコンテナログ送信手段「awslogs」と「FireLens」を、仕組み・利点・欠点・適用ケースで比較し、プロジェクト要件に応じた選択指針を示します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T23:00:00.000Z",
-      "contentHash": "54c417de1ae9"
-    },
-    {
-      "id": "caf159004e68",
-      "title": "The best earbuds we’ve tested for 2025",
-      "url": "https://www.theverge.com/21309820/best-wireless-earbuds",
-      "summary": "ワイヤレスイヤホン市場は成熟し、Apple・Sony・Boseなどが高音質と優れたノイズキャンセリングを実現。通話やフィットネスなど用途別に多様な選択肢があり、割引も豊富です。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-11T23:00:00.000Z",
-      "contentHash": "5e3fce5c65e6"
-    },
-    {
-      "id": "0f3ff59a6c32",
-      "title": "ディズニーとOpenAIが提携!動画生成AI「Sora」でキャラクターが使えるようになる大型契約を徹底解説 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/64f4c3527e7f16",
-      "summary": "2025年12月、ディズニーはOpenAIに10億ドル出資し、映像生成AI「Sora」の初の大手ライセンスパートナーに。2026年初頭からミッキーやアイアンマンなど200超のキャラで誰でも短編動画を生成でき、優秀作はDisney+で配信予定。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T22:58:45.000Z",
-      "contentHash": "655abef1a4b6"
-    },
-    {
-      "id": "a6763e33e3db",
-      "title": "Google brings Gemini’s Chrome integration to iPhone and iPad",
-      "url": "https://www.theverge.com/news/842987/google-gemini-chrome-ios",
-      "summary": "GoogleはiOS／iPadOS版ChromeにGeminiのAI統合を拡大。アドレスバー左にノート風のGeminiアイコンが表示され、画面内容への質問やページ要約が可能。機能は限定的だが手早く回答を得られる。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-11T22:51:27.000Z",
-      "contentHash": "aafa6867f99b"
-    },
-    {
-      "id": "4dfcde0d3bd5",
-      "title": "Tim Cook’s lobbying hangs over a key kids online safety vote",
-      "url": "https://www.theverge.com/policy/842993/kids-online-safety-markup-energy-commerce-tim-cook-apple",
-      "summary": "児童のオンライン安全を巡る下院審議で、議題外の法案とApple CEOティム・クックのロビーが議論に。アプリストア規制を含む18件の法案がエネルギー・商務委に送られ、議員はビッグテックの影響を懸念。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-11T22:50:24.000Z",
-      "contentHash": "b40742d6754e"
-    },
-    {
-      "id": "27982b6f6152",
-      "title": "Amazon Prime Video pulls AI-powered recaps after Fallout flub",
-      "url": "https://www.theverge.com/news/842978/amazon-prime-video-ai-fallout-recap",
-      "summary": "Amazon Prime VideoがAI生成の映像リキャップを撤回。テスト対象のFallout、The Rig、Jack Ryan、Upload、Boschなどで機能が消え、Falloutではザ・グールの回想を誤って「1950年代」（正しくは2077年）と表記するなどの誤りが指摘された。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-11T22:46:11.000Z",
-      "contentHash": "2f92ae55a1f3"
-    },
-    {
-      "id": "7bfbf868bed6",
-      "title": "Apple loses contempt appeal in Epic case",
-      "url": "https://www.theverge.com/news/842991/apple-epic-appeal-loses-contempt",
-      "summary": "アップルはエピックとの独禁訴訟で控訴審でも敗訴。下級審の蔑視認定や外部決済リンクでの手数料禁止が概ね支持されたが、「適切な」手数料を認める余地が示された。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-11T22:44:27.000Z",
-      "contentHash": "0ff9ceb3c199"
-    },
-    {
-      "id": "6b7ba1a6ec73",
-      "title": "【デザイン×心理学】サンタさんと学ぶ良い子デザイン・悪い子デザイン | 弥生開発者ブログ",
-      "url": "https://tech-blog.yayoi-kk.co.jp/entry/2025/12/12/070200",
-      "summary": "弥生Advent Calendar 2025の14日目。プロダクトデザイナーのツダが、UI/UXで使われる心理学の法則が広告や季節のモチーフに潜んでいることを解説。特にクリスマスの街装飾はデザイン学びの宝庫で、サンタたちを例にデザイン×心理学の視点で考察する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T22:02:00.000Z",
-      "contentHash": "50e47e6779dd"
-    },
-    {
-      "id": "7db32155c45a",
-      "title": "エンジニアが品質リーダー\"QL\"にジョブチェンジした話 | 弥生開発者ブログ",
-      "url": "https://tech-blog.yayoi-kk.co.jp/entry/2025/12/12/070100",
-      "summary": "弥生Advent Calendar13日目。著者OがエンジニアからQuality Leader（QL）に役割を移した経緯と、QLの仕事紹介やデビュー体験をまとめた記事。品質業務やキャリア転換を考える人向けの記録。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T22:01:00.000Z",
-      "contentHash": "4632f41e2c17"
-    },
-    {
-      "id": "f8d975f4399a",
-      "title": "React Server ComponentsだけでForm実装する | 株式会社モニクルのフィード",
-      "url": "https://zenn.dev/monicle/articles/d6e083b14d2e23",
-      "summary": "Next.js(App Router)での入力フォーム実装について。これまでuseStateとonClickのClient Componentsで作ってきたが、Server Components信者として可能な限りサーバ側で実装したいという導入。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T22:00:02.000Z",
-      "contentHash": "e6e45602f51c"
-    },
-    {
-      "id": "fd77af06b1f4",
-      "title": "The best phone to buy right now",
-      "url": "https://www.theverge.com/22163811/best-phone",
-      "summary": "高額化するフラッグシップ市場で、用途ごとに最適な機種とコスパ重視の選び方を解説。大きなハード革新は少なくソフト主導だが、防水対応の折りたたみや進化したフリップなど注目機も紹介。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-11T22:00:00.000Z",
-      "contentHash": "cee6282fda43"
-    },
-    {
-      "id": "5dfeb86f8fac",
-      "title": "MQAチームの紹介 | Inside of LOVOT",
-      "url": "https://tech.groove-x.com/entry/mqa",
-      "summary": "GROOVE XのMQAチーム担当ikedaがAdvent Calendar 2025の12日目に寄稿。MQA（Market Quality Assurance）は市場での故障傾向を解析・調査して製品品質を向上させる役割を担い、LOVOTローンチ直後には多くの課題が発生しオーナーに迷惑をかけたことを述べる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T22:00:00.000Z",
-      "contentHash": "28e29e504787"
-    },
-    {
-      "id": "2de6a6e64c28",
-      "title": "PM1年目で失敗したことと学んだこと | JMDC TECH BLOG",
-      "url": "https://techblog.jmdc.co.jp/entry/20251212",
-      "summary": "JMDC Advent Calendarの記事で、医療機関基盤チームのPM・西村がエンジニア6年からPMへ転身した経緯、直面した課題とその乗り越え方、技術視点からビジネス価値を理解した背景を述べる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T22:00:00.000Z",
-      "contentHash": "3cd335636027"
-    },
-    {
-      "id": "aa645c6bf4b3",
-      "title": "Terraformによるバッチ定義の定型作業をLLMエージェントで効率化する試み | Nealle Developer's Blog",
-      "url": "https://nealle-dev.hatenablog.com/entry/2025/12/12/483910",
-      "summary": "ニーリーのSRE・高（@nogtk）がLLM活用事例を紹介するアドベント記事。ニーリーではバッチをStep FunctionsでスケジュールしECSタスクを呼び出す形を取り、sfnやECSはTerraformでIaC化してSREが管理している、という内容です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T22:00:00.000Z",
-      "contentHash": "fb5346fc5c72"
-    },
-    {
-      "id": "e2995df42868",
-      "title": "ローコードAIツールDifyをエンジニアが使ったら？コードブロックでハマった7つの落とし穴 | エニグモ開発者ブログ",
-      "url": "https://tech.enigmo.co.jp/entry/2025/12/12/070000",
-      "summary": "エニグモAIテクノロジーグループの辻埜による記事。データサイエンティストとして社内の生成AI活用を推進し、非エンジニアでもAIワークフローを作れるDifyを導入初期に試して、使い勝手や有用な場面を調査した報告です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-11T22:00:00.000Z",
-      "contentHash": "838d79f9d864"
-    },
-    {
-      "id": "216dd68533bd",
-      "title": "New York&#8217;s new law forces advertisers to say when they&#8217;re using AI avatars",
-      "url": "https://www.theverge.com/news/842848/new-york-law-ai-advertisements-sag-aftra-labor",
-      "summary": "ニューヨーク州のホウチュル知事が、広告にAI生成の人物が含まれる場合の表示を義務付ける法と、故人の氏名・容貌を商用利用する際に相続人等の同意を要する法の2法に署名した。米国初の透明化措置で俳優や消費者保護が目的。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-11T21:30:15.000Z",
-      "contentHash": "4056d3bd89d4"
-    },
-    {
-      "id": "c521d97eb3b3",
-      "title": "Denial of service and source code exposure in React Server Components",
-      "url": "https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components",
-      "summary": "React Server Componentsで追加の脆弱性が発見されました。RCEは発生しないがDoS（CVE-2025-55184/67779、CVSS7.5）とソース露出（CVE-2025-55183、CVSS5.3）。既存パッチは不完全で19.0.0〜19.2.2が影響。19.0.3/19.1.4/19.2.3へ即時更新を推奨。サーバーRSC未使用なら影響なし。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-11T20:46:46.000Z",
-      "contentHash": "1ba04514a041"
-    },
-    {
-      "id": "b1777f885b25",
-      "title": "UK House of Lords attempting to ban use of VPNs by anyone under 16",
-      "url": "https://alecmuffett.com/article/134925",
-      "summary": "英国で子どもへのVPN提供を禁止する提案を批判。英国向けまたは多数に提供されるVPNは監視・執行義務を課されるが、VPNは個人で実装可能で規制は非現実的、Tor等も規制対象になり得る。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-11T20:32:22.000Z",
-      "contentHash": "e4edc22a9b1a"
-    },
-    {
-      "id": "b0cfd5d61264",
-      "title": "Fortnite is back in Google&#8217;s Android app store",
-      "url": "https://www.theverge.com/news/842855/fortnite-android-google-play",
-      "summary": "フォートナイトが米国のGoogle Playに5年ぶりに復帰しました。Epicは米連邦地裁の差し止めに従った結果と説明。すでにAppleのApp Storeには復帰済みですが、訴訟は継続中で他地域での配信時期は未定です。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-11T20:00:28.000Z",
-      "contentHash": "b96a413a8ab4"
-    },
-    {
-      "id": "dd7b4af937a9",
-      "title": "Here are the best AirPods deals you can get right now",
-      "url": "https://www.theverge.com/21302051/best-apple-airpods-deals",
-      "summary": "AirPodsの各モデル（AirPods 4（ANC有無）、AirPods Pro 3、AirPods Max）が割引中。ブラックフライデーなどで大幅値下げされ、最安約74ドルから購入可能。お得なセール情報を紹介。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-11T20:00:00.000Z",
-      "contentHash": "3c346ab0ab84"
-    },
-    {
-      "id": "29c66ab6de76",
-      "title": "My productivity app is a never-ending .txt file (2020)",
-      "url": "https://jeffhuang.com/productivity_text_file/",
-      "summary": "大学で整理が必要になり多くのツールに挫折した著者は、14年間単一の .txt ファイルでタスクを管理。外部はカレンダーだけを使い、毎晩翌日の予定をファイルに追記。非固定項目も日付に割り当て、作業量を調整して効率化している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-11T19:30:58.000Z",
-      "contentHash": "111c1291a588"
     }
   ]
 }
