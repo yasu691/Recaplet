@@ -1,6 +1,159 @@
 {
-  "generatedAt": "2025-12-28T16:44:22.925Z",
+  "generatedAt": "2025-12-29T02:25:26.130Z",
   "items": [
+    {
+      "id": "9e42042aa6e3",
+      "title": "Agentic DevOpsについて調べてSpec-Driven開発にチャレンジしてみた話。 | CCCMKホールディングス TECH LABの Tech Blog",
+      "url": "https://techblog.cccmkhd.co.jp/entry/2025/12/29/100000",
+      "summary": "著者はAgentic DevOpsで開発から運用までAI Agentで自動化し、試作と安定運用の両立を目指す。Copilot試作でAgentの記憶欠如やプロンプト依存を問題視し、仕様をMarkdownで管理してAgentにコード化させるSpec-Driven開発を試した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-29T01:00:00.000Z",
+      "contentHash": "1def74ca82cd"
+    },
+    {
+      "id": "551eb5151fb7",
+      "title": "フロントエンドエンジニアの思考回路 ー AIで高める、「モック」の精度 ー | シー・エス・エス イノベーションラボ（ブログ）",
+      "url": "https://blog.css-net.co.jp/entry/ai-mock-frontend-thinking",
+      "summary": "提案フェーズでのAI活用はモック作成の速度と品質を高める一方、議論を閉じてしまう危険がある。セキュリティ確認の上、ユーザー仮説→類似リサーチ→AIで壁打ち（まだコーディングしない）→仕様厳密化→コーディングAIで実装→セルフレビューを往復しながら進めることを勧める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-29T00:50:44.000Z",
+      "contentHash": "6362ecbcabee"
+    },
+    {
+      "id": "645a63194d10",
+      "title": "資料からスライドを一瞬で生成！Geminiキャンバスで実現する次世代AI活用術 | シー・エス・エス イノベーションラボ（ブログ）",
+      "url": "https://blog.css-net.co.jp/entry/2025/12/29/095022",
+      "summary": "GoogleのAI「Gemini」のCanvasにスライド作成機能が追加。テーマや資料を入力するだけでデザイン入りスライドを自動生成し、画像差替えやGoogleスライド出力も可能。たたき台作成は高速だが細部の修正が必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-29T00:50:22.000Z",
+      "contentHash": "611624bfd15e"
+    },
+    {
+      "id": "311998f64581",
+      "title": "【Microsoft×生成AI連載】【Microsoft Fabric】Copilot in Microsoft Fabric とは | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2025/12/29/090837",
+      "summary": "Microsoft Fabricはデータ取り込みから加工・分析・可視化を一元化するSaaS基盤。各領域に組み込まれたCopilotがNotebookやData Factory、SQL、Power BIでコード・クエリ生成や変換支援を行い、分析作業を効率化します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-29T00:08:37.000Z",
+      "contentHash": "fa6823cc40bc"
+    },
+    {
+      "id": "466f00104816",
+      "title": "【Amazon Connect】コンタクト属性の使用バイト数を確認する方法 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/amazon-connect-attribute-size",
+      "summary": "Amazon Connectのコンタクト属性は最大32KB（32767バイト）。超過すると属性は設定されずエラーになる。AWS CLIのupdate/get-contact-attributesとjqで属性のUTF-8バイト数を確認する手順（例：KEY1=VALUE1は10バイト）",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-28T23:30:00.000Z",
+      "contentHash": "07b9ef216d10"
+    },
+    {
+      "id": "a3f7dbf255fd",
+      "title": "CEOs are hugely expensive. Why not automate them?",
+      "url": "https://www.newstatesman.com/business/companies/2023/05/ceos-salaries-expensive-automate-robots",
+      "summary": "役員報酬が高騰し、株主総会で反発が相次ぐ。コロナ禍と政府支援で業績と報酬の乖離が鮮明に。高額なCEOは不要か、自動化で代替すべきかが問われている。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-28T23:17:07.000Z",
+      "contentHash": "1a56fe9eb986"
+    },
+    {
+      "id": "9cec68f3fd72",
+      "title": "AWS Lambda から GKE への移行で遭遇した\"見えないボトルネック\"の正体と解決策 | LegalOn Technologies Engineering Blog",
+      "url": "https://tech.legalforce.co.jp/entry/aws-lambda-to-gke",
+      "summary": "LegalOnのエディターをAWS LambdaからGKEへ移行。コストとインフラ統一のためRuby継続、GKE採用、GrufでgRPC対応。ロードテストでreadiness probe失敗により「no healthy upstream」が発生し、隠れたスケーラビリティのボトルネックを検出して原因調査・対策を行った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-28T23:00:00.000Z",
+      "contentHash": "b92093864dbe"
+    },
+    {
+      "id": "d276e429f7fd",
+      "title": "What an unprocessed photo looks like",
+      "url": "https://maurycyz.com/misc/raw_photo/",
+      "summary": "すみません、現在そのウェブページを直接取得できません。記事本文を貼り付けるか主要箇所を教えていただけますか？いただければ200文字以内で要約します。コメントの要約も可。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-28T22:35:02.000Z",
+      "contentHash": "de16c8b3a1b2"
+    },
+    {
+      "id": "8bd82bd9cc8b",
+      "title": "LG announces new UltraGear evo gaming monitors with AI upscaling",
+      "url": "https://www.theverge.com/tech/850572/lg-announces-new-ultragear-evo-gaming-monitors-with-ai-upscaling",
+      "summary": "LGが新ライン「UltraGear evo」を発表。全機種5K解像度とAIアップスケーリング搭載のハイエンドゲーミングモニター。39GX950B（39型21:9 OLED、165Hz/330Hz）、27GM950B（新型MiniLEDで高輝度・低ブローミング）、52G930B（52型湾曲12:9、240Hz）。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-28T21:42:15.000Z",
+      "contentHash": "33660ff812b0"
+    },
+    {
+      "id": "ac16108e1ac6",
+      "title": "Unity's Mono problem: Why your C# code runs slower than it should",
+      "url": "https://marekfiser.com/blog/mono-vs-dot-net-in-unity/",
+      "summary": "UnityのMonoは旧世代でC#実行が遅く、現代の.NETで2〜3倍（ベンチで最大15倍）高速。2018年にCoreCLR移行が議論されたが2025年末時点で未実現。早急な.NET近代化が必要。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-28T21:41:42.000Z",
+      "contentHash": "935c138ec36a"
+    },
+    {
+      "id": "886b58fdd569",
+      "title": "Software engineers should be a little bit cynical",
+      "url": "https://www.seangoedecke.com/a-little-bit-cynical/",
+      "summary": "著者は「上司に好かれる行動」などを助言して冷笑的と批判されるが、大手で意味ある仕事を成すには組織を賢く渡ることが重要だと主張する。組織を理解するために適度なシニシズムは必要で、良いエンジニアは少し懐疑的であるべき、という論旨。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-28T21:29:32.000Z",
+      "contentHash": "151c87b3ddbf"
+    },
+    {
+      "id": "b7eaee637dbc",
+      "title": "Stepping down as Mockito maintainer after 10 years",
+      "url": "https://github.com/mockito/mockito/issues/3777",
+      "summary": "Mockitoの維持管理者が10年を区切りに2026年3月で降任予定。移行を円滑に進める。JVM22でのMockito 5のエージェント化対応などが大きな負担になったためで、後任は別イシューで議論する。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-28T20:14:58.000Z",
+      "contentHash": "bdbc5b874649"
+    },
+    {
+      "id": "bbd4dc4e2bb4",
+      "title": "PySDR: A Guide to SDR and DSP Using Python",
+      "url": "https://pysdr.org/content/intro.html",
+      "summary": "本書はSDR（ソフトでRF処理する装置／概念）とDSPを扱う実践入門。アンテナ接続の受信/送信SDRやソフトでの信号処理を解説し、Pythonが得意でDSPや無線初心者、図やアニメで学びたい人向けに数式を抑え簡潔に説明する。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-28T20:02:50.000Z",
+      "contentHash": "60507b66235b"
+    },
+    {
+      "id": "4f82ad3062fd",
+      "title": "You need to read the subversive cosmic horror novella The Ballad of Black Tom",
+      "url": "https://www.theverge.com/column/850564/subversive-cosmic-horror-the-ballad-of-black-tom-victor-lavalle",
+      "summary": "ヴィクター・ラヴァルの『The Ballad of Black Tom』は、ラブクラフトの差別的短編『The Horror at Red Hook』をハーレムの黒人チャールズ“トミー”・テスターの視点で書き換えた、反人種主義のサブバースィブな宇宙ホラー。シャーリー・ジャクソン賞受賞。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-28T19:45:00.000Z",
+      "contentHash": "65f45528e214"
+    },
+    {
+      "id": "4a2b8984f7ba",
+      "title": "The terrible Nintendo controller that helped make VR happen",
+      "url": "https://www.theverge.com/podcast/850556/nintendo-power-glove-version-history",
+      "summary": "任天堂パワーグローブは性能は悪かったが、手で操作する初期の重要なデバイス。80年代後半に研究から玩具化され任天堂名義で売られ、宣伝力で短期的な成功を収めた。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-28T19:07:34.000Z",
+      "contentHash": "66dd0815e21d"
+    },
+    {
+      "id": "82af954d1602",
+      "title": "Ubisoft shuts down ‘Rainbow Six Siege’ servers following hack",
+      "url": "https://www.theverge.com/news/850551/ubisoft-shuts-down-rainbow-six-siege-servers-following-hack",
+      "summary": "Ubisoftは『Rainbow Six Siege』がハッキングされサーバーとマーケットを停止と発表。攻撃者はBAN操作や全アイテム解放、全員に20億R6クレジットと名声を付与（約1333万ドル相当）。受け取りで罰はしないが、土曜UTC11:00（米東部6:00）以降の取引は巻き戻す。復旧は未定。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-28T16:42:07.000Z",
+      "contentHash": "a468467a5607"
+    },
+    {
+      "id": "a4aa3e2b504c",
+      "title": "データマネジメント設計ガイドラインを公開しました | フューチャー技術ブログ",
+      "url": "https://future-architect.github.io/articles/20251229a/",
+      "summary": "フューチャー社内有志が作成したデータマネジメント設計ガイドライン。AI時代の安全なデータ利活用に向け、ガバナンスモデル、役割定義、データカタログ、ETL、品質、認証・権限、運用などの実務的設計案と評価観点を示し、新規基盤や再設計のベースラインとして公開、継続的な更新とPRを歓迎。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-28T15:00:00.000Z",
+      "contentHash": "0f76778fd299"
+    },
     {
       "id": "d34d009f00a8",
       "title": "The best PS5 games from 2025",
@@ -11,6 +164,24 @@
       "contentHash": "2a9779505e68"
     },
     {
+      "id": "c3be45db209e",
+      "title": "Building a macOS app to know when my Mac is thermal throttling",
+      "url": "https://stanislas.blog/2025/12/macos-thermal-throttling-app/",
+      "summary": "Macのサーマルスロットリング検出アプリ「MacThrottle」を作った話。M2/M4で高負荷・外部4K120Hz利用時に性能低下を確認し、ProcessInfoやpowermetrics（root）、thermald IPCなど複数手法を試して検出し、メニューバー表示・通知・ログイン起動を実装した。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-28T11:51:42.000Z",
+      "contentHash": "7323d0332ae1"
+    },
+    {
+      "id": "9945fb6db091",
+      "title": "Learn computer graphics from scratch and for free",
+      "url": "https://www.scratchapixel.com",
+      "summary": "Scratchapixelによる新プロジェクトを開始。3DプログラミングやAI・教育などを語る場を作り、まずVulkan API習得向けコースを提供。CGの紙媒体参考書も制作中。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-28T11:08:22.000Z",
+      "contentHash": "e6ee4d817079"
+    },
+    {
       "id": "e8f7ed5556c4",
       "title": "Last Year on My Mac: Look Back in Disbelief",
       "url": "https://eclecticlight.co/2025/12/28/last-year-on-my-mac-look-back-in-disbelief/",
@@ -18,6 +189,15 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-28T10:12:08.000Z",
       "contentHash": "7976f269d685"
+    },
+    {
+      "id": "ee769f37345e",
+      "title": "Hungry Fat Cells Could Someday Starve Cancer",
+      "url": "https://www.ucsf.edu/news/2025/01/429411/how-hungry-fat-cells-could-someday-starve-cancer-death",
+      "summary": "記事の全文または本文のリンクを貼ってください。内容を確認して200文字以内で日本語要約します。要点（研究成果、臨床指針、講演者など）に特に重点を置く希望があれば教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-28T10:04:42.000Z",
+      "contentHash": "cf9214f8e4c0"
     },
     {
       "id": "705eaba44c2b",
@@ -68,10 +248,10 @@
       "id": "96e5dc83de18",
       "title": "Goの暗黙的なインターフェース原則はクリーンアーキテクチャと矛盾するのか？ | ENECHANGE Developer Blog",
       "url": "https://tech.enechange.co.jp/entry/2025/12/28/100000",
-      "summary": "ENECHANGEの木原がGoでのクリーンアーキテクチャ実装を検討。Goの暗黙的インターフェースは一見相反するが目的が異なり、Go流の設計でもクリーンアーキテクチャの狙いはある程度達成できると結論。",
+      "summary": "Goの暗黙的インターフェースはクリーンアーキテクチャと一見矛盾するが、目的が異なるため相反しない。CleanArchは依存方向を制御するため上位層にインターフェースを置くが、Goの「消費者側に置く」原則に従ってもクリーンアーキテクチャの目的はある程度達成できる、という結論。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-28T01:00:00.000Z",
-      "contentHash": "70f79992cb05"
+      "contentHash": "cc9f75fce5fe"
     },
     {
       "id": "add6971e3f3d",
@@ -284,19 +464,19 @@
       "id": "611de7e88c5b",
       "title": "「エージェントを作るエージェント」を作る | ちゅらデータ株式会社のフィード",
       "url": "https://zenn.dev/churadata/articles/0015498168c49f",
-      "summary": "OSS「エージェントを作るエージェント(A4A)」の紹介と、チャットだけでエージェントを作る新しい開発体験、ADK・A2A・Agent Engineを組み合わせた実践的な実装・連携・デプロイの完全ガイド。エージェント作成に不安な人向け。",
+      "summary": "個人開発のOSS「A4A（Agent for Agent）」を解説。GoogleのADK上でチャット操作によりエージェントを自動生成し、A2Aでエージェント同士を連携、Agent Engineへデプロイ（WIP）する実装手順・デモを紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-27T05:42:25.000Z",
-      "contentHash": "de47de852dde"
+      "contentHash": "a27602102550"
     },
     {
       "id": "003a45109e6f",
       "title": "自然言語だけでWorkFlowが完成する時代: WorkFlow DevOpsへの変革 | Algomatic Tech Blog",
       "url": "https://tech.algomatic.jp/entry/2025/12/27/121807",
-      "summary": "Algomaticの大塚がDifyやn8n向けのWorkFlow自動生成を紹介。ノーコードは非エンジニア向けと言われるが、プロンプト変更でGUI操作が必要、テストは手動、デバッグが困難で実務では専門知識が求められる現状を指摘している。",
+      "summary": "Algomaticが開発した、自然言語でWorkFlowを自動生成・検証・修正するシステム。作成・判定・改善の3つのAIエージェントでブラウザ自動テスト＋LLM判定を行い、Issue化で継続的に品質向上するWorkFlow DevOpsを実現。",
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-27T03:18:07.000Z",
-      "contentHash": "fddee46e39d0"
+      "contentHash": "59cdca039ec6"
     },
     {
       "id": "1da9fa31cfd8",
@@ -1094,10 +1274,10 @@
       "id": "9343164d771c",
       "title": "Nano Banana Pro で1ページ漫画ができるまで",
       "url": "https://note.com/npaka/n/n19d440a7b100",
-      "summary": "Nano Banana Proで1ページ漫画を作る手順。Google AI Studioでベース（6案→選択）生成し、マスクでinpaint、Photoshopで合成、2Kリファインで線とセリフを修正。登場はそらみ・へにへに・Reachy Miniのクリスマス話。生成13回、作業約30分。",
+      "summary": "Nano Banana Proで1ページ漫画を作る手順を解説。生成13回・約30分。Google AI Studioでベース（そらみ・へにへにとReachy Mini）を作り、マスク/インペイントで編集、Photoshopで素材配置、2Kリファインで線とセリフを整え最終版を選択。",
       "source": "npaka",
       "publishedAt": "2025-12-25T08:40:24.000Z",
-      "contentHash": "8053a25f7e43"
+      "contentHash": "b309d7cc1743"
     },
     {
       "id": "4414f8ab653b",
@@ -3200,10 +3380,10 @@
       "id": "b8d339a5bb28",
       "title": "Nano Banana Pro で ストーリー漫画の作成を試す",
       "url": "https://note.com/npaka/n/n5e7f167c9bf8",
-      "summary": "『Nano Banana Pro』でストーリー漫画制作を試行。ChatGPTと協力して、極度のコミュ障だが『ストリートファイター2』が異様に強い高校生・琴音と友人・美咲のキャラ画像（1K）を作成し、10ページ構成のストーリーボード（2K）をコマ割り・セリフ込みで詳細に作成した。",
+      "summary": "「Nano Banana Pro」で漫画制作を試行。ChatGPTと協働してキャラ設定（琴音：極度のコミュ障だがスト2が異様に強い高校生、友人・美咲）と10ページ構成のストーリーボードを作成。導入は琴音の孤独とゲーセン大会の提案まで描写。",
       "source": "npaka",
       "publishedAt": "2025-12-21T01:53:41.000Z",
-      "contentHash": "8f94f79d83f4"
+      "contentHash": "003d1ba47cfb"
     },
     {
       "id": "34cd0448a6ca",
@@ -8820,186 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-12T20:15:58.000Z",
       "contentHash": "cca538ee6c44"
-    },
-    {
-      "id": "dec946690b05",
-      "title": "iOS 26.2 is here with Liquid Glass, AirDrop, and Apple Music updates",
-      "url": "https://www.theverge.com/news/839534/apple-iphone-ipad-mac-update-26-2",
-      "summary": "AppleがiOS 26.2を公開（iPhone11以降）。ロック画面の不透明度調整、非連絡先向けAirDropワンタイムコード、Remindersの「緊急」アラーム、Apple Musicのオフライン歌詞と新プレイリスト、AirPodsのEU向けライブ翻訳、米国の強化安全警報などを含む。macOS/iPadOS/visionOS/watchOSも更新。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-12T19:18:42.000Z",
-      "contentHash": "64eb6baba3b4"
-    },
-    {
-      "id": "669dcb074926",
-      "title": "The true story of the Windows 3.1 'Hot Dog Stand' color scheme",
-      "url": "https://www.pcgamer.com/software/windows/windows-3-1-included-a-red-and-yellow-hot-dog-stand-color-scheme-so-garish-it-was-long-assumed-to-be-a-joke-so-i-tracked-down-the-original-designer-to-get-the-true-story/",
-      "summary": "Windows 3.1の赤黄「ホットドッグ屋」配色は冗談扱いされてきたが、PC Gamerが設計者に取材。CRT表示や技術的制約、判読性優先の結果で、意図的なジョークではなかったと判明した。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-12T19:13:35.000Z",
-      "contentHash": "de91e1ed9ee9"
-    },
-    {
-      "id": "1bfef5255b83",
-      "title": "Mmm, Qi donuts",
-      "url": "https://www.theverge.com/news/843720/ikea-qi-2-wireless-charger-vastmarke-silicone",
-      "summary": "Ikeaが3種の手頃なワイヤレス充電器を発表。最大15WのQi2.0対応でインテリア風デザインが特徴。中でもシリコン製ドーナツ型Västmärke（$9.99）はケーブル収納やスマホのグリップ兼用が可能。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-12T19:10:57.000Z",
-      "contentHash": "ac0b99a96ae6"
-    },
-    {
-      "id": "f9113acd0ec1",
-      "title": "Benn Jordan’s flock camera jammer will send you to jail in Florida now [video]",
-      "url": "https://www.youtube.com/watch?v=qEllWdK4l_A",
-      "summary": "申し訳ありませんが、外部URLの中身を直接取得できません。要約をご希望でしたら、動画のタイトル・説明文か、要点（または文字起こし／HNのコメント抜粋）を貼ってください。それを基に200文字以内で日本語要約を作成します。例：1) タイトル、2) 主張3点、3) 重要な結論—を送ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-12T18:58:43.000Z",
-      "contentHash": "caee072b3987"
-    },
-    {
-      "id": "01ad1d86671f",
-      "title": "Director found guilty of scamming Netflix out of $11 million",
-      "url": "https://www.theverge.com/news/843923/hollywood-director-netflix-conviction-fraud-carl-rinsch",
-      "summary": "映画監督カール・エリック・リンシュがNetflixからシリーズ制作費1,100万ドルを受け取りながら完成資金を高級車（ロールス＝ロイス5台、フェラーリ）や投資に流用し、詐欺とマネーロンダリングでニューヨークの陪審により有罪判決を受けた。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-12T18:54:57.000Z",
-      "contentHash": "29ce99ecf328"
-    },
-    {
-      "id": "5a31fcc1b29e",
-      "title": "Home Depot GitHub token exposed for a year, granted access to internal systems",
-      "url": "https://techcrunch.com/2025/12/12/home-depot-exposed-access-to-internal-systems-for-a-year-says-researcher/",
-      "summary": "研究者が、従業員が誤って公開したHome DepotのGitHubアクセストークンを発見。数百の私用リポジトリや受注・在庫管理などクラウド基盤に約1年アクセス可能だったが、同社は研究者の通知を無視。TechCrunch介入でトークンは削除され対処された。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-12T18:23:21.000Z",
-      "contentHash": "1b4eead1086d"
-    },
-    {
-      "id": "cc280d38ed03",
-      "title": "Id Software devs form \"wall-to-wall\" union",
-      "url": "https://www.rockpapershotgun.com/id-software-devs-form-wall-to-wall-union-with-165-workers-at-doom-studio-the-latest-to-vote-in-favour",
-      "summary": "id Softwareの165人がCWAへ組合結成を可決し、ZeniMaxの300人に続いて事実上の全社組合化に。Microsoftは2022年の中立合意に基づき承認。リモート勤務の権利、レイオフや過重労働・賃金問題が背景。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-12T18:11:23.000Z",
-      "contentHash": "fcee27aa938b"
-    },
-    {
-      "id": "095a4af4cc28",
-      "title": "Google Translate brings real-time speech translations to any headphones",
-      "url": "https://www.theverge.com/news/843483/google-translate-live-speech-translations-headphones",
-      "summary": "Google Translateが最新ベータで、Pixel Buds限定だったリアルタイム音声翻訳を任意のヘッドホンで利用可能に。70以上の言語対応でAndroidのTranslateアプリが必要。Geminiで成句・スラング翻訳を改善し、Practice機能を20か国へ拡大。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-12T18:11:14.000Z",
-      "contentHash": "747856ee19f2"
-    },
-    {
-      "id": "692273b6bbe1",
-      "title": "Google releases its new Google Sans Flex font as open source",
-      "url": "https://www.omgubuntu.co.uk/2025/11/google-sans-flex-font-ubuntu",
-      "summary": "Googleが多軸可変フォント「Google Sans Flex」をSIL Open Font Licenseで公開。David Berlow作で重さ・幅・光学サイズ・傾斜・端末の丸みなど調整可能。画面向けでAndroid/WebやLinuxのUIに有用（Linuxは可変機能が環境依存）。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-12T18:07:57.000Z",
-      "contentHash": "cfaa60b6fb2c"
-    },
-    {
-      "id": "6102c439089d",
-      "title": "Hisense’s CanvasTV is a great Samsung Frame TV alternative at nearly half off",
-      "url": "https://www.theverge.com/gadgets/843667/hisense-s7n-canvas-tv-tomtoc-fancycase-g05-slim-case-deal-sale",
-      "summary": "HisenseのS7N CanvasTV（65インチ）がAmazonとBest Buyで過去最安の$699.99（約598ドル引き）。4K QLEDのアンチグレアマット画面でアート表示が可能、Samsung Frameの手頃な代替。ほかにSwitch 2用ケースや懐中電灯兼用の頑丈なモバイルバッテリーのセールも紹介。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-12T17:36:24.000Z",
-      "contentHash": "828b53c28ba0"
-    },
-    {
-      "id": "0f97ea132d44",
-      "title": "Nuclear energy key to decarbonising Europe, says EESC",
-      "url": "https://www.eesc.europa.eu/en/news-media/news/nuclear-energy-key-decarbonising-europe-says-eesc",
-      "summary": "EESCは原子力がEU脱炭素の重要要素とする意見を採択。欧州委員会に規制・資金の整備や市民との透明な対話を求め、原子力が低炭素で安定供給・産業の脱炭素化と自立に貢献し、110万人超の雇用を支えると指摘。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-12T17:32:48.000Z",
-      "contentHash": "64c152f41e89"
-    },
-    {
-      "id": "6cedac9795bb",
-      "title": "Hannibal creator Bryan Fuller wanted his first film to be horror for everyone",
-      "url": "https://www.theverge.com/entertainment/843561/bryan-fuller-interview-dust-bunny",
-      "summary": "『Hannibal』のブライアン・フラーは、〝グレムリン〟風の家族向けホラーを目指し初長編『Dust Bunny』を製作。ベッド下の怪物を退治するため少女オーロラがヒットマンを雇うという、ユーモアと愛嬌あるクリーチャー描写を持つ作品だが、意図に反してR指定となった。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-12T17:15:00.000Z",
-      "contentHash": "6c8125c6a38c"
-    },
-    {
-      "id": "69c0faa75af3",
-      "title": "HBO Max&#8217;s new channels keep Friends and Game of Thrones playing 24/7",
-      "url": "https://www.theverge.com/news/843631/hbo-max-curated-channels-friends-harry-potter-big-bang-theory",
-      "summary": "HBO Maxがキュレーションされた常時放送チャンネルを開始。12のテーマ別チャンネルで再生は先頭から始まり、巻き戻し・早送り・次へ操作可。DC、フレンズ、GOT、ハリー・ポッター、LOTR、ビッグバンなどを配信し、選択疲れを減らし遠隔で「一緒に」観られる。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-12T17:07:02.000Z",
-      "contentHash": "7663fc38e72d"
-    },
-    {
-      "id": "fa8bf4d1f0f4",
-      "title": "Oracle made a $300B bet on OpenAI. It's paying the price",
-      "url": "https://finance.yahoo.com/news/oracle-made-a-300-billion-bet-on-openai-its-paying-the-price-205441863.html",
-      "summary": "オラクルはOpenAI向け契約で約3,000億ドルを含むRPOが4,550億ドルに急増したが、OpenAI依存や同社の巨額コスト（約1.4兆ドル）、Googleとの競争で懸念が強まり、株価は9月高値から40％超下落した。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-12T17:01:07.000Z",
-      "contentHash": "47fcdeb80c7e"
-    },
-    {
-      "id": "8c01c9ac3cc1",
-      "title": "Improved Gemini audio models for powerful voice interactions",
-      "url": "https://blog.google/products/gemini/gemini-audio-model-updates/",
-      "summary": "Geminiのオーディオモデルが更新され、ライブ音声エージェント向けの「Gemini 2.5 Flash Native Audio」を公開。複雑なワークフローやユーザーの指示への対応、自然な会話保持が向上しており、以前のGemini 2.5 ProやFlash TTS強化に続く改良。",
-      "source": "Gemini",
-      "publishedAt": "2025-12-12T17:00:00.000Z",
-      "contentHash": "196e195f21f4"
-    },
-    {
-      "id": "daeffc6d16dd",
-      "title": "You can now have more fluid and expressive conversations when you go Live with Search.",
-      "url": "https://blog.google/products/search/live-audio-gemini-model-update/",
-      "summary": "GoogleのSearch Liveがネイティブ音声対応の最新Geminiモデルを導入。AIモードでより自然で表現豊かな音声対話や速度調整が可能に。GoogleアプリでLiveを起動して話しかけるだけで、米国の全Search Live利用者に来週から順次提供されます。",
-      "source": "Gemini",
-      "publishedAt": "2025-12-12T17:00:00.000Z",
-      "contentHash": "11dc15c6a587"
-    },
-    {
-      "id": "177a6b6704b1",
-      "title": "Japan law opening phone app stores to go into effect",
-      "url": "https://www3.nhk.or.jp/nhkworld/en/news/20251210_B1/",
-      "summary": "リンク先のページを直接参照できないため、その記事を要約できません。記事本文を貼り付けるか、主要点（誰が・何を・いつ・どこで・なぜ）を教えてください。HNのコメントも含めて要約希望かも併記してください。200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-12T16:59:04.000Z",
-      "contentHash": "19e99afd9b8d"
-    },
-    {
-      "id": "2c153ca8623e",
-      "title": "The TCL QM9K is an excellent flagship TV, but I’m not sure who it’s for",
-      "url": "https://www.theverge.com/tech/843074/tcl-qm9k-mini-led-tv-review",
-      "summary": "TCLの新フラッグシップQM9Kは、ソニーなどハイエンドに挑む優れたテレビだが、廉価な兄弟機と競合しており、ターゲット層が不明瞭だ。Ultimateシリーズで65/75/85/98型（価格帯約3,000〜4,000ドル）。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-12T16:45:00.000Z",
-      "contentHash": "8cc7e28dbf82"
-    },
-    {
-      "id": "44ac6aec704d",
-      "title": "AD同期ユーザーもクラウドで直したい！Entra IDの新機能「SOA」を試してみた | CloudNative Inc. BLOGs",
-      "url": "https://blog.cloudnative.co.jp/29854/",
-      "summary": "Entra IDの新機能SOA（公開プレビュー）を検証。ADと同期されたユーザー/グループのSOAをGraph APIでEntra IDに切替え、クラウド上で属性編集やメンバー管理が可能になり、AD依存緩和と運用柔軟性向上が期待される。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-12T16:12:33.000Z",
-      "contentHash": "63d2e8ddc4e4"
-    },
-    {
-      "id": "0134334b8e10",
-      "title": "Epic celebrates \"the end of the Apple Tax\" after court win in iOS payments case",
-      "url": "https://arstechnica.com/tech-policy/2025/12/epic-celebrates-the-end-of-the-apple-tax-after-appeals-court-win-in-ios-payments-case/",
-      "summary": "米第9巡回控訴裁は、Appleが2021年のApp Store支払開放命令に「故意に違反」したとの地区裁判所の蔑称判断をほぼ支持。外部決済への27%手数料や外部リンクの過度な制限は違法とされ、Appleは代替案を悪意で拒否と判示。Epicのティム・スウィーニーは開発者に有益と期待する一方、報復を恐れる開発者は依然いると警告。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-12T16:04:16.000Z",
-      "contentHash": "29a54030575b"
     }
   ]
 }
