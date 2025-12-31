@@ -1,6 +1,150 @@
 {
-  "generatedAt": "2025-12-30T16:47:48.442Z",
+  "generatedAt": "2025-12-31T02:17:09.235Z",
   "items": [
+    {
+      "id": "9f1c6ab15a08",
+      "title": "Terrafromで始めるAmazon Bedrock AgentCore ①〜Runtime編〜 | Fusic 技術ブログのフィード",
+      "url": "https://zenn.dev/fusic/articles/440692814681b6",
+      "summary": "Fusicのブログ。Amazon Bedrock AgentCoreをTerraformで構築するシリーズのRuntime編。AgentCoreは2025年GAのフルマネージドなエージェント基盤で、Runtimeはセッション分離された実行環境を提供。Strands Agents（Python SDK）でエージェントを作成し、S3にコードを置くディレクトリ構成やTerraformモジュール、事前準備手順を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-31T01:00:01.000Z",
+      "contentHash": "4d86d50dcaf4"
+    },
+    {
+      "id": "a2a7c0c3b960",
+      "title": "個人開発のアイデアを“API起点”で爆速量産する方法― 技術的に挫折しない、APIファーストな個人開発の始め方 | スペースマーケット Engineer Blogのフィード",
+      "url": "https://zenn.dev/spacemarket/articles/ba7cf85cfa3d91",
+      "summary": "個人開発で挫折しないため、扱うデータを先に決める「APIファースト」手法を提案。APIで取得可能なデータや形式が確定するため実装難易度が下がり、YouTubeやSpotify等の情報提供系APIとAI分析の組合せでアイデアを生みやすい。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-31T00:53:52.000Z",
+      "contentHash": "410153fbfa8e"
+    },
+    {
+      "id": "4075a154bac4",
+      "title": "Project ideas to appreciate the art of programming",
+      "url": "https://codecrafters.io/blog/programming-project-ideas",
+      "summary": "副業ネタに悩む開発者向けに、学びが深く作って楽しい73のプロジェクト案を紹介。例：BitTorrentクライアント、Wordle解法、最適輸送で顔モーフィング、スプレッドシート実装、軽量コンテナ、ユークリッドの証明システム、ウェブクローラー、DNSサーバーなど。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-30T22:47:36.000Z",
+      "contentHash": "0e2ce6b61264"
+    },
+    {
+      "id": "46b0f2068471",
+      "title": "NYC Mayoral Inauguration bans Raspberry Pi and Flipper Zero alongside explosives",
+      "url": "https://blog.adafruit.com/2025/12/30/nyc-mayoral-inauguration-bans-raspberry-pi-and-flipper-zero-alongside-explosives/",
+      "summary": "NY市長就任式で、爆発物に加えRaspberry PiやFlipper Zeroなどの小型コンピュータ・ハッキング機器の持ち込みが禁止に。主催側は安全対策を理由にする一方、範囲が広すぎると批判が出ている。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-30T22:28:16.000Z",
+      "contentHash": "9be7273e215f"
+    },
+    {
+      "id": "b8102b546da6",
+      "title": "Honey's Dieselgate: Detecting and tricking testers",
+      "url": "https://vptdigital.com/blog/honey-detecting-testers/",
+      "summary": "多くの市販「蜂蜜検出器」は簡易測定で希釈や糖蜜混入を正確に判定できない。信頼性の高い鑑定はNMRや同位体分析、花粉（メリッソパリノロジー）等の専門ラボ検査で、購入時は検査証明の確認を推奨。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-30T21:59:35.000Z",
+      "contentHash": "8699244636f2"
+    },
+    {
+      "id": "e0e07babb749",
+      "title": "OpenAI's cash burn will be one of the big bubble questions of 2026",
+      "url": "https://www.economist.com/leaders/2025/12/30/openais-cash-burn-will-be-one-of-the-big-bubble-questions-of-2026",
+      "summary": "申し訳ありませんが外部URLを直接参照できません。記事本文を貼るか主要ポイントを教えていただければ、200文字以内で日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-30T21:44:07.000Z",
+      "contentHash": "1beee7aa3aa2"
+    },
+    {
+      "id": "b161681d4bd9",
+      "title": "【生成 AI 時代の LLMOps】モデル評価編 | Google Cloud Japanのフィード",
+      "url": "https://zenn.dev/google_cloud_jp/articles/d660e277740c41",
+      "summary": "生成AI時代のモデル評価をVertex AIを例に解説。期待と出力のギャップを定量化する重要性、ルーブリックベースと計算ベース（ROUGE/BLEUやカスタム）の比較、Evaluation Serviceによるデモを紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-30T21:00:00.000Z",
+      "contentHash": "3dfd6f7f20b0"
+    },
+    {
+      "id": "104f5131053b",
+      "title": "Professional software developers don't vibe, they control",
+      "url": "https://arxiv.org/abs/2512.14012",
+      "summary": "AIエージェントは生産性を向上させる一方、熟練開発者は品質確保のため設計・実装の主導権を維持し、専門知識でエージェントを制御する。観察13件・調査99件で概ね肯定的だが、適用タスクや改良すべきインターフェース・利用指針を示唆。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-30T20:06:46.000Z",
+      "contentHash": "bb06cf61879d"
+    },
+    {
+      "id": "160680ca81fa",
+      "title": "Everything as code: How we manage our company in one monorepo",
+      "url": "https://www.kasava.dev/blog/everything-as-code-monorepo",
+      "summary": "当社はコードだけでなく資料・サイト・マーケまで含む単一モノレポで運用。1コミットで価格等が即反映され、同期やデプロイ調整不要。AIツールが一貫した文脈で活用可能。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-30T20:05:42.000Z",
+      "contentHash": "ad7531932f5d"
+    },
+    {
+      "id": "5fd3f8e60128",
+      "title": "Zpdf: PDF text extraction in Zig – 5x faster than MuPDF",
+      "url": "https://github.com/Lulzx/zpdf",
+      "summary": "zpdfはZig製のPDF抽出ライブラリ（α）。メモリマップ・ストリーミング抽出、各種解凍・フォント/CMap対応、XRef解析、エラー設定、ページ並列処理とSIMD最適化でMuPDFより数倍〜十数倍高速（例:最大45,000p/s、文字精度99.6%）。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-30T19:57:10.000Z",
+      "contentHash": "3db117add9a4"
+    },
+    {
+      "id": "9e3e5e65998b",
+      "title": "FediMeteo: A €4 FreeBSD VPS Became a Global Weather Service",
+      "url": "https://it-notes.dragas.net/2025/02/26/fedimeteo-how-a-tiny-freebsd-vps-became-a-global-weather-service-for-thousands/",
+      "summary": "FediMeteoは、著者が個人用に始めた天気通知を、月4€の小型FreeBSD VPSとjailsで国別に分ける構成により、数千人向けのグローバル天気配信サービスに成長させた経緯と設計方針を説明する。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-30T19:21:48.000Z",
+      "contentHash": "a5c5f7ca9bce"
+    },
+    {
+      "id": "c55e7ba28bff",
+      "title": "Now That He Has No Power, Mitt Romney Says \"Tax the Rich\"",
+      "url": "https://jacobin.com/2025/12/romney-tax-rich-op-ed-nyt/",
+      "summary": "権力を失った今、ミット・ロムニーが富裕層への増税を主張するが、実際に力があった時には富裕層減税を支持し、ねじれた税制を強化していた。権力喪失後に正しい立場を取る典型例だと批判している。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-30T19:00:23.000Z",
+      "contentHash": "60fd817859d4"
+    },
+    {
+      "id": "a254339260ad",
+      "title": "AWS CDKの外部リソース操作制限 - サービスごとに異なる挙動を調べてみた。 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/cdk-external-resource-limitations",
+      "summary": "AWS CDKで別スタックの既存リソースを操作したところ、サービスごとに挙動が異なった。ALBのリスナールールやRoute53のレコード追加は可能だが、CloudFrontのオリジン／ビヘイビア追加は不可で、CDKの参照方法や各サービスAPIの制約（インターフェースが読み取り専用など）が原因だった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2025-12-30T19:00:15.000Z",
+      "contentHash": "1ca22e665b7d"
+    },
+    {
+      "id": "e4c3cf0a8ef4",
+      "title": "A faster heart for F-Droid. Our new server is here",
+      "url": "https://f-droid.org/2025/12/30/a-faster-heart-for-f-droid.html",
+      "summary": "寄付でF‑Droidの基幹サーバを更新しました。ビルドや公開の速度・安定性が向上します。部品調達の遅延で時間はかかりましたが、信頼できる長期貢献者が物理的に保管・管理する透明な体制で導入しました。",
+      "source": "Hacker News",
+      "publishedAt": "2025-12-30T18:36:37.000Z",
+      "contentHash": "6de5f8f41107"
+    },
+    {
+      "id": "88691e9c7d85",
+      "title": "Two cybersecurity employees plead guilty to carrying out ransomware attacks",
+      "url": "https://www.theverge.com/news/851467/cybersecurity-employees-plead-guilty-alphv-blackcat-ransomware",
+      "summary": "元サイバーセキュリティ従業員2人が、2023年にALPHV/BlackCatランサムウェアで複数企業を攻撃し、医療機器会社から約120万ドル相当のビットコインを恐喝した罪で有罪を認めたと司法省が発表。被告は交渉担当やインシデント対応の職に就いていた。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-30T18:32:27.000Z",
+      "contentHash": "e1d7ca985ae3"
+    },
+    {
+      "id": "cc3185c7e645",
+      "title": "The OneXSugar Wallet is the first gaming handheld with a folding screen",
+      "url": "https://www.theverge.com/news/851401/one-netbook-onexsugar-gaming-handheld-wallet-folding-oled-screen-android",
+      "summary": "One-Netbookが折りたたみ式8.01型OLED搭載の携帯ゲーム機「OneXSugar Wallet」を発表。4:3で2480×1860表示、クラムシェルで携帯性向上。未詳のQualcommゲーミング旗艦搭載だが性能・エミュ対応は不明（Weibo発表）。",
+      "source": "The Verge",
+      "publishedAt": "2025-12-30T17:52:38.000Z",
+      "contentHash": "7ec56dfeecc7"
+    },
     {
       "id": "bf88a7f8d93f",
       "title": "GameSir put a tiny force feedback steering wheel on its new Swift Drive controller",
@@ -185,10 +329,10 @@
       "id": "5006640ed85a",
       "title": "ChatGPT による Gemini TTS の演技指導を試す",
       "url": "https://note.com/npaka/n/n58f53646d3a6",
-      "summary": "ChatGPTで漫画を読み取り、Gemini TTS用のプロンプト（AUDIO PROFILE／SCENE／DIRECTOR’S NOTES）を自動生成。Google AI StudioのGemini 2.5で音声化し、琴音・美咲の声質や間・呼吸音など細かな演技指示でアニメ音声制作を試行した。",
+      "summary": "ChatGPTでGemini TTS向けの演技プロンプトを自動生成し、Google AI Studio（Gemini 2.5 TTS）で琴音（内気）と美咲（明るい）の声を細かく演出・音声化する実験報告。",
       "source": "npaka",
       "publishedAt": "2025-12-30T00:53:31.000Z",
-      "contentHash": "a4da87f12a2d"
+      "contentHash": "a08c68950971"
     },
     {
       "id": "a6218b04be59",
@@ -518,10 +662,10 @@
       "id": "47ea3c52cafe",
       "title": "Nano Banana Pro + Grok Imagine Video + Gemini TTS で漫画からのアニメ作成を試す",
       "url": "https://note.com/npaka/n/n069b70fd900c",
-      "summary": "Nano Banana Pro＋Grok Imagen Video＋Gemini TTSで9ページ漫画「ストリートファイター2が強すぎるコミュ障」を2分45秒のアニメ化。流れは漫画→Nano Bananaで動画用フレーム化→Grokで動画カット生成→Geminiで音声→iMovieで合成。プロンプトや固定カメラ・セル塗り指示など制作上の細かい調整も解説。",
+      "summary": "Nano Banana Pro、Grok Imagen Video、Gemini TTSで9ページ漫画を2分45秒のアニメ化を試行。パネル分割→NanoでTVアニメ風の開始フレーム生成→Grokで動画カット化→Geminiでセリフ合成→iMovieで編集。プロンプト調整で改善。",
       "source": "npaka",
       "publishedAt": "2025-12-29T08:35:52.000Z",
-      "contentHash": "37cc9809442c"
+      "contentHash": "9310c2b4f953"
     },
     {
       "id": "e106eec1ae87",
@@ -2003,10 +2147,10 @@
       "id": "9343164d771c",
       "title": "Nano Banana Pro で1ページ漫画ができるまで",
       "url": "https://note.com/npaka/n/n19d440a7b100",
-      "summary": "Nano Banana Proで1ページ漫画を作る手順解説。生成13回・約30分。Google AI Studioで1Kベース作成→マスク/inpaintで編集→Photoshop配置→2Kでリファイン・セリフ修正。キャラ設定と台本を指定し6案から最終案を選択。",
+      "summary": "Nano Banana Proで1ページ漫画を作る手順（現状）。生成13回・作業約30分。Google AI Studioでベース作成→紫マスクでinpaint編集→Photoshopで合成→2Kリファイン。そらみ・へにへに・Reachy Miniのクリスマス漫画。",
       "source": "npaka",
       "publishedAt": "2025-12-25T08:40:24.000Z",
-      "contentHash": "5f8a4a761aeb"
+      "contentHash": "8e0198e1b02e"
     },
     {
       "id": "4414f8ab653b",
@@ -4109,10 +4253,10 @@
       "id": "b8d339a5bb28",
       "title": "Nano Banana Pro で ストーリー漫画の作成を試す",
       "url": "https://note.com/npaka/n/n5e7f167c9bf8",
-      "summary": "Nano Banana Proでキャラ設定画像（1K）とストーリーボード画像（2K）を作成。ChatGPTとプロンプトを練り、琴音こだま（極度のコミュ障だがスト2が異様に強い）と美咲の全10ページ漫画（右→左読み、青春ギャグ×ゲーム）のコマ割り・セリフ付き案を制作。",
+      "summary": "Nano Banana Proでストーリー漫画制作を試行。ChatGPTと共にキャラ設定画像（琴音：コミュ障だがスト2が異様に強い、友人美咲）を作成し、2Kで10ページのストーリーボードを制作。青春ギャグ×ゲーム×成長がテーマで、導入の孤独と夜の練習、転機となる美咲との出会いと大会提案まで描かれる。",
       "source": "npaka",
       "publishedAt": "2025-12-21T01:53:41.000Z",
-      "contentHash": "a26867130750"
+      "contentHash": "747454cc0c27"
     },
     {
       "id": "34cd0448a6ca",
@@ -4640,10 +4784,10 @@
       "id": "76281cddd63c",
       "title": "AmazingHand 入門 (2) - 組み立て",
       "url": "https://note.com/npaka/n/n9213c8821e41",
-      "summary": "Seeed Studioのロボットハンド「AmazingHand」の組み立てを写真や手順で整理したまとめ記事。ダウンロード可能な組み立てガイドPDFや工程ごとのポイント、注意点を紹介しています。",
+      "summary": "Seeed StudioのAmazingHand組立ガイド。必要工具と3Dパーツの加工方法、ネジ穴やサーボホーン加工、治具・ボールジョイント・指の組立、Python/Arduinoでの指キャリブレーション、親指を含むハンドとシェルの最終組立を詳細に解説。まず1本の指で試作することを推奨。",
       "source": "npaka",
       "publishedAt": "2025-12-20T07:00:26.000Z",
-      "contentHash": "3bc202faec74"
+      "contentHash": "72437fea3bfc"
     },
     {
       "id": "c86c08ce9d9c",
@@ -8856,150 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-13T23:00:10.000Z",
       "contentHash": "c5e9a7902ddd"
-    },
-    {
-      "id": "f4ff7a89245e",
-      "title": "AIで評価を「めんどくさい」から「ポジティブな成長機会」へ！キャディのエンジニアが挑んだPoC | CADDi Tech Blog",
-      "url": "https://caddi.tech/2025/12/14/080000",
-      "summary": "キャディの橋本氏が生成AIを使った評価プロセスのPoCを実施。評価制度を資産化し生成AIと組み合わせることで、評価が「面倒」から思考整理やマネージャーとの対話を促す「成長機会」へ変わり、ポジティブな効果を確認した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-13T23:00:00.000Z",
-      "contentHash": "067bd2d66eb4"
-    },
-    {
-      "id": "d219b070bcaf",
-      "title": "Geminiを壁打ち役に迎えて、チームのミッション・ビジョンを定義しました | Findy Tech Blog",
-      "url": "https://tech.findy.co.jp/entry/2025/12/14/080000",
-      "summary": "CTO室データソリューションチームが半日ワークショップで生成AI（Gemini）をファシリテーター兼壁打ち役に導入。音声で課題を抽出しGeminiにアジェンダ設計を依頼、準備を効率化して優先順位やAI戦略、データエンジニアの役割変化を踏まえミッション・ビジョンを言語化した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-13T23:00:00.000Z",
-      "contentHash": "f34fc724588a"
-    },
-    {
-      "id": "4f77fdc73ebb",
-      "title": "Amazon Bedrock AgentCore Evaluations AIエージェントの自動評価が可能に | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/bedrock-agentcore-evaluations",
-      "summary": "re:Invent 2025で発表されたAmazon Bedrock AgentCore Evaluationsは、AIエージェントを13種類の組み込み指標で自動評価・可視化するプレビュー機能。カスタム評価定義やCloudWatch連携なども可能。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-13T23:00:00.000Z",
-      "contentHash": "a98a5143f997"
-    },
-    {
-      "id": "9b3760fd473c",
-      "title": "Linux Sandboxes and Fil-C",
-      "url": "https://fil-c.org/seccomp",
-      "summary": "メモリ安全性とサンドボックスは独立した防御で、片方だけでは不十分。例：Javaはメモリ安全でもファイル操作が可能、逆にアセンブリはサンドボックス化で保護され得るがメモリ脆弱。実際はブローカー経由の穴があるため、両者併用が最善。本稿はFil-Cのメモリ安全とサンドボックスを組み合わせ、OpenSSH移植の要点を解説する。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-13T22:58:29.000Z",
-      "contentHash": "dd857d962db8"
-    },
-    {
-      "id": "9bb723402d40",
-      "title": "An off-grid, flat-packable washing machine",
-      "url": "https://www.positive.news/society/flat-pack-washing-machine-spins-a-fairer-future/",
-      "summary": "元ダイソン技師ナヴジョト・サフニーが設立した社会企業TWMPは、オフグリッドで折りたたみ式の手回し洗濯機「Divya」を開発。13カ国約500台を配備し、洗濯時間を最大75%短縮、水使用量も半減。現地調査で改良を重ねた。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-13T22:38:08.000Z",
-      "contentHash": "756afea6650c"
-    },
-    {
-      "id": "1d53aa2f8d17",
-      "title": "AIを使ったLOVOTのQA業務改善の試行錯誤 | Inside of LOVOT",
-      "url": "https://tech.groove-x.com/entry/continuous_improvement_with_AI",
-      "summary": "LOVOTのQA担当がAIでログ解析自動化を試行。Geminiのカスタムボットは誤情報や挙動不安定で失敗。Difyで役割分割しGemini併用により精度は向上したが、ログ量が大きくタイムアウトやGatewayエラーが多発し運用課題が残る。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-13T22:00:00.000Z",
-      "contentHash": "1325e0975781"
-    },
-    {
-      "id": "648fa3f57a40",
-      "title": "医療データ基盤における入社後1年の振り返りとデータスペシャリストへの挑戦 | JMDC TECH BLOG",
-      "url": "https://techblog.jmdc.co.jp/entry/202514",
-      "summary": "JMDCのデータウェアハウス開発部・医療機関基盤グループの西川が、2025年1月入社から約1年で得た学びや、医療データ基盤の開発・運用経験を振り返る記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-13T22:00:00.000Z",
-      "contentHash": "cb6012d39a4a"
-    },
-    {
-      "id": "861eb7d34d9f",
-      "title": "Some surprising things about DuckDuckGo",
-      "url": "https://gabrielweinberg.com/p/some-surprising-things-about-duckduckgo",
-      "summary": "DuckDuckGoにはマスコットDaxのイースターエッグロゴが多数ありコミュニティが収集。Google所有は誤り（duck.comは2018年取得）。2014年以降中国で遮断、2008年創業の独立企業で独自検索索引やナレッジグラフを長年構築している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-13T21:57:28.000Z",
-      "contentHash": "84d9f3750eb5"
-    },
-    {
-      "id": "d7da10e7b103",
-      "title": "Gemini 2.5 TTS のプロンプトガイド",
-      "url": "https://note.com/npaka/n/n5402bf2851d0",
-      "summary": "Gemini 2.5 TTSは「何を話すか」だけでなく「どう話すか」まで指定できるTTS。プロンプト作成は「誰が」「どんな場面で」「どう演じるか」を揃えるのがコツ。構成要素はAudio Profile、Scene、Director’s Notes、Sample Context、Transcriptで、速度・強弱・息遣い・アクセントなど細かく指示すると自然で感情豊かな音声が生成される。",
-      "source": "npaka",
-      "publishedAt": "2025-12-13T21:32:47.000Z",
-      "contentHash": "0ac8f309f593"
-    },
-    {
-      "id": "44da3c600b1b",
-      "title": "Recovering Anthony Bourdain's Li.st's",
-      "url": "https://sandyuraz.com/blogs/bourdain/",
-      "summary": "著者はAnthony Bourdainの失われたli.stを公共クローラ（Common Crawl等）で復元しようとし、commoncrawl_search.pyでS3からHTMLを取得。GregのリストやInternet Archive、mirandomの調査と照合し、見つからない項目も列挙している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-13T21:18:01.000Z",
-      "contentHash": "3c88818aa95e"
-    },
-    {
-      "id": "5db69fb85710",
-      "title": "Want to sway an election? Here’s how much fake online accounts cost",
-      "url": "https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost",
-      "summary": "記事は、選挙を左右するのに必要な偽アカウント数を試算し、闇市場での購入費用が比較的低額であるため世論操作が現実的だと指摘。接戦では少数の偽アカで結果が変わり得るため、プラットフォーム対策と規制の強化が必要と結論付ける。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-13T20:48:09.000Z",
-      "contentHash": "19764ef9dd8e"
-    },
-    {
-      "id": "e27b805ab052",
-      "title": "Why Twilio Segment moved from microservices back to a monolith",
-      "url": "https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices",
-      "summary": "Twilio Segmentは当初マイクロサービスを採用したが、サービス増加で複雑化し開発速度低下・不具合激増、3人の常駐エンジニアが保守に追われる事態に。そこで設計を見直し、機能を統合して問題を解決した事例。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-13T20:30:34.000Z",
-      "contentHash": "73e347fac534"
-    },
-    {
-      "id": "7f8c3c5f7edd",
-      "title": "I fed 24 years of my blog posts to a Markov model",
-      "url": "https://susam.net/fed-24-years-of-posts-to-markov-model.html",
-      "summary": "Fedの過去24年分の投稿をスクレイピングしてマルコフ連鎖で学習させ、Fed風の文章を生成する実験。データ収集・前処理・モデル設計、生成例や実装コード、考察を公開している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-13T20:19:53.000Z",
-      "contentHash": "8d8c6385172b"
-    },
-    {
-      "id": "0975c976cac0",
-      "title": "The Rise of Computer Games, Part I: Adventure",
-      "url": "https://technicshistory.com/2025/12/13/the-rise-of-computer-games-part-i-adventure/",
-      "summary": "著者は当初広範囲を扱う予定だったが初期アドベンチャーに集中。遊びがPC文化の核で、1970年代中頃のBASICゲーム文化から多くが参入し、商用でもゲームがタイトル数・販売数で圧倒的に主流だった。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-13T20:19:10.000Z",
-      "contentHash": "656a34a386e8"
-    },
-    {
-      "id": "e842a24852ba",
-      "title": "VPN location claims don't match real traffic exits",
-      "url": "https://ipinfo.io/blog/vpn-location-mismatch-report",
-      "summary": "IPinfoが20の人気VPNを大規模調査。17社は実際の出口が表記国と異なり、多くは「100超国」表記でも米欧の少数データセンターに集中。15万超の出口IP（137国）解析でMullvad・IVPN・Windscribeのみ表記と一致。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-13T19:46:19.000Z",
-      "contentHash": "1da5a49b13dc"
-    },
-    {
-      "id": "561f9eceadb5",
-      "title": "Dick Van Dyke turns 100",
-      "url": "https://www.theguardian.com/film/2025/dec/13/dick-van-dyke-centenarian-100-mary-poppins-chitty-chitty-bang-bang",
-      "summary": "ディック・ヴァン・ダイクが100歳に。『メリー・ポピンズ』の弾む身体表現やユーモア、かつて批判されたコッキニー訛りも含めた愛らしさで、七十年超にわたり観客を楽しませ続けている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-13T18:58:09.000Z",
-      "contentHash": "378361bd1e6c"
     }
   ]
 }
