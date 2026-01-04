@@ -1,14 +1,158 @@
 {
-  "generatedAt": "2026-01-04T08:47:30.396Z",
+  "generatedAt": "2026-01-04T16:43:55.138Z",
   "items": [
+    {
+      "id": "f944b9d51758",
+      "title": "Snowflake REST API で SSL CertVerificationError が出て沼った話 | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/snowflake-rest-api-ssl-error",
+      "summary": "SnowflakeのCortex Analystをrequestsで叩くとSSLのホスト名検証でCERTIFICATE_VERIFY_FAILED。原因はアカウント名に「_」が入っているためのホスト名不一致で、「_」を「-」に変えると解決。snowflake-connectorは動くのでソースも調査した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-04T15:00:01.000Z",
+      "contentHash": "a7065bce177a"
+    },
+    {
+      "id": "9b0c970b8a3d",
+      "title": "The wild, intense rise and fall of Flappy Bird",
+      "url": "https://www.theverge.com/podcast/853824/flappy-bird-game-version-history",
+      "summary": "シンプルな操作のスマホゲーム「Flappy Bird」が2014年に突如爆発的ヒット。作者ドン・グエンも想定外の人気と論争、批判を受けアプリを撤去し急速に消えた顛末を描く",
+      "source": "The Verge",
+      "publishedAt": "2026-01-04T14:10:00.000Z",
+      "contentHash": "50c497a70afb"
+    },
+    {
+      "id": "d86842c0ce91",
+      "title": "Xreal’s Neo is the best-looking mobile dock for AR glasses",
+      "url": "https://www.theverge.com/tech/846376/xreal-neo-specs-switch-2-battery-dock",
+      "summary": "XrealのNeoは、10,000mAh（38.7Wh）の美しいモバイルドック兼バッテリーで、DisplayPort Alt出力と磁気リングでMagSafe対応機器を装着可能。Xrealの旧機種や新1S、Vitureの一部やSwitch 2にも対応。価格は99ドル、CES 2026で展示中。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-04T14:00:00.000Z",
+      "contentHash": "d32ae96b7ba2"
+    },
+    {
+      "id": "b51d441d3f2a",
+      "title": "Narwal’s Flow 2 robovac might help you find that earring you lost",
+      "url": "https://www.theverge.com/news/850787/narwal-flow-2-robovac-ai-object-recognition-ces-2026",
+      "summary": "Narwalの新ロボ掃除機Flow 2はデザイン刷新と床スキャン機能を搭載。指輪やスマホ、鍵などをAIで認識し、検出時は5cm以上離れて吸引を避け、写真と自宅マップ上の位置をアプリ通知。双眼RGBカメラで広角撮影し、ペット・子ども向けの清掃モードも追加。ただし特定の品を探しに行かせることはできない。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-04T14:00:00.000Z",
+      "contentHash": "0fa71b6405e1"
+    },
+    {
+      "id": "f91a2f7d5932",
+      "title": "Baseus’ new desktop dock includes a Qi2 25W charger",
+      "url": "https://www.theverge.com/tech/850811/baseus-rd1-pro-desktop-dock-qi2-25w",
+      "summary": "BaseusがCES2026で15-in-1ドック「Spacemate RD1 Pro」を発表。磁気で立ち上がるQi2 25W充電パッドを備え、HDMI×2、USB‑C×4、USB‑A×4、1GbE、SD/microSD搭載。映像は1台で4K/120Hz、2台で4K/60Hz、USB‑Cは各100W、合計最大160W。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-04T14:00:00.000Z",
+      "contentHash": "7f580d7fcc9a"
+    },
+    {
+      "id": "920221126f0f",
+      "title": "Xreal’s entry-level AR glasses get a spec bump and 3D conversion",
+      "url": "https://www.theverge.com/tech/852821/xreal-1s-ces-hands-on-ar-glasses-wearables",
+      "summary": "CES 2026でXrealがエントリー向けAR眼鏡「Xreal 1S」(449ドル)を発表。前モデルより50ドル安く、解像度1080→1200p、輝度600→700nit、視野角50→52度、16:9→16:10に強化。追加アプリ不要で2Dを3D変換可能。外観は従来機とほぼ同じ。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-04T14:00:00.000Z",
+      "contentHash": "e2b03d57b31b"
+    },
+    {
+      "id": "ce387068cb96",
+      "title": "This startup brought WALL-E to life and will also sell you WALL-E&#8217;s weird cousin",
+      "url": "https://www.theverge.com/tech/852956/zeroth-wall-e-robot-w1-m1-ces-2026",
+      "summary": "ZerothがWALL‑E風ロボ「W1」を米国で5,599ドルで発表。正規ライセンス版は中国のみで、W1は黄色や人間の目はないオフブランド。デュアルトレッドで芝や砂利を走行、LiDARやRGBカメラなどで自律航行し、44ポンドの本体で最大110ポンドの荷重を運べる家庭向け軽作業ロボ。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-04T14:00:00.000Z",
+      "contentHash": "0a6e747fe0c1"
+    },
+    {
+      "id": "31b9a0121c2b",
+      "title": "Veo・Grok・Sora2での効果音の作成を試す",
+      "url": "https://note.com/npaka/n/nfc487158435b",
+      "summary": "Veo・Grok・Sora2で効果音生成を4回検証。「BGM・音楽・セリフなし、効果音のみ」の指示でVeo 3.1 Fastが4/4成功。GrokとSora2はBGM等が混入。女の子がキーボードから手を離す表現はVeoでキー音が出たため追記。",
+      "source": "npaka",
+      "publishedAt": "2026-01-04T13:16:34.000Z",
+      "contentHash": "cba4e80423be"
+    },
+    {
+      "id": "1e877f659757",
+      "title": "Jackery’s expensive solar-powered Gazebo is a good DIY idea",
+      "url": "https://www.theverge.com/tech/852600/jackerys-solar-powered-gazebo-is-a-good-diy-idea",
+      "summary": "JackeryがCESで太陽光発電ガゼボを発表。価格はバッテリー別で約1.2万～1.5万ドル。4.5×3×2.7mのアルミ製に2,000Wパネル、照明、引き下ろし式スクリーン、防水AC口を搭載し、米国で年後半発売予定。自作で代替可能とも指摘。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-04T13:00:00.000Z",
+      "contentHash": "18b71520a05f"
+    },
+    {
+      "id": "916fb1675519",
+      "title": "Govee’s latest smart lights can make your ceiling more interesting",
+      "url": "https://www.theverge.com/tech/853006/govee-sky-ceiling-light-ultra-specs",
+      "summary": "GoveeがCES 2026で天井用ライト「Sky Ceiling Light」と「Ceiling Light Ultra」を発表。両機種はMatterとSamsung SmartThings対応。Skyは昼光を再現し、窓のない空間を落ち着かせる演出を目指す。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-04T13:00:00.000Z",
+      "contentHash": "98401e79f528"
+    },
+    {
+      "id": "2779e5142a44",
+      "title": "Microsoft Agent Framework - coreモジュールとかの実装を見る | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/agent-framework_core-modules",
+      "summary": "Microsoft Agent Framework（MAF）python coreの各モジュールを解説。エージェント／クライアント基底、ロギング、MCPクライアント（stdio/HTTP/WebSocket）、コンテキスト／メモリ管理、ミドルウェアとパイプライン、設定読み込み拡張、シリアライズMixinなどの機能を提供。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-04T12:59:42.000Z",
+      "contentHash": "8e7e18831cd1"
+    },
+    {
+      "id": "19c64474f323",
+      "title": "Jeffgeerling.com has been Migrated to Hugo",
+      "url": "https://www.jeffgeerling.com/blog/2026/migrated-to-hugo/",
+      "summary": "JeffGeerling.comは長年のDrupal運用をやめ、個人ブログの維持負担を減らすため高速で簡単な静的サイトジェネレーターHugoへ移行した。20年分・3500件超の記事移行でリンク切れや表示不具合が残る可能性があるが、投稿はMarkdown中心で管理している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-04T12:57:40.000Z",
+      "contentHash": "b82b42d5b15e"
+    },
+    {
+      "id": "deb9f97107e4",
+      "title": "AIニケちゃんの漫画とアニメを作る",
+      "url": "https://note.com/npaka/n/n37e194a6404b",
+      "summary": "1月4日は偶然AIニケちゃんの誕生日。作者npakaが記念に、AITuberを題材にした1ページ漫画、ストーリー漫画の冒頭2ページ、そしてアニメ化の試作を公開。公式サイトや素材で彼女の世界を広げようという呼びかけ。",
+      "source": "npaka",
+      "publishedAt": "2026-01-04T11:10:30.000Z",
+      "contentHash": "68bdb8aa30ea"
+    },
+    {
+      "id": "daaec8c08917",
+      "title": "Maybe comments should explain 'what' (2017)",
+      "url": "https://www.hillelwayne.com/post/what-comments/",
+      "summary": "「コメントは理由を説明すべき」という通説に対し、著者は「何をしているか」も説明すべきと主張。コードだけで分かりにくい箇所やバグ回避理由は、履歴を探す手間や誤解を防ぐためにコード近くにコメントで残すべき、という趣旨。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-04T10:43:38.000Z",
+      "contentHash": "23f09e202712"
+    },
+    {
+      "id": "082f0e8e10e7",
+      "title": "The Gentle Seduction (1989)",
+      "url": "http://www.skyhunter.com/marcs/GentleSeduction.html",
+      "summary": "樹や花を愛する彼女とコンピュータ技術者ジャックが山の霧の中を歩き、彼はシンギュラリティと不死の未来を語る。彼女は恐れ、ジャックは心臓病でその未来を生きられないと嘆く。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-04T08:35:42.000Z",
+      "contentHash": "78a6d8fcd2a4"
+    },
+    {
+      "id": "111c665b4586",
+      "title": "Can I start using Wayland in 2026?",
+      "url": "https://michael.stapelberg.ch/posts/2026-01-04-wayland-sway-in-2026/",
+      "summary": "WaylandはXの後継だが、筆者は毎年移行を試みるも2026年時点でnVidiaドライバや8KのTILE対応不備、アプリやスクリーン共有・スケーリングなど多くの問題があり、NixOSで実験しても完全には実用化できなかった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-04T08:11:22.000Z",
+      "contentHash": "4c460554dda4"
+    },
     {
       "id": "199fdd6cb1c5",
       "title": "Neural Networks: Zero to Hero",
       "url": "https://karpathy.ai/zero-to-hero.html",
-      "summary": "Karpathyの『Zero to Hero』は、機械学習を独学で極めるためのロードマップ。線形代数・確率・微分などの数学、プログラミングと自作実装、勾配法や最適化、論文再現、GPU/フレームワーク習得、実践的プロジェクトとOSS貢献、継続学習を重視する。",
+      "summary": "Karpathyの「Zero to Hero」は、数学や機械学習の基礎からPython/PyTorchでの実装、実践的プロジェクトや論文読解までを段階的に示す、ディープラーニング習得の実践的ロードマップです。",
       "source": "Hacker News",
       "publishedAt": "2026-01-04T05:02:16.000Z",
-      "contentHash": "a4d4d2bef004"
+      "contentHash": "6ee2c57f2059"
     },
     {
       "id": "02655ed3dcf2",
@@ -18,6 +162,24 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-04T01:00:01.000Z",
       "contentHash": "9df010a2a9a9"
+    },
+    {
+      "id": "37e7bcd316f7",
+      "title": "Corroded: Illegal Rust",
+      "url": "https://github.com/buyukakyuz/corroded",
+      "summary": "corrodedはRustの借用検査や安全機構を無効化するユーティリティ群と、borrow checkerを除去したRust--を提供し、unsafeや未検査操作を推奨する危険な（パロディ的）内容。LLMへの誤誘導に注意。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-04T00:45:54.000Z",
+      "contentHash": "6ea87ed99180"
+    },
+    {
+      "id": "907f4da759aa",
+      "title": "KDE onboarding is good now",
+      "url": "https://rabbitictranslator.com/kde-onboarding/",
+      "summary": "申し訳ありませんが、外部URLを直接閲覧できません。記事本文をここに貼っていただければ、200文字以内で日本語要約を作成します。HNのコメント要約も希望なら一緒に貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-04T00:31:42.000Z",
+      "contentHash": "222f89c3602f"
     },
     {
       "id": "fd8dfceb3d9b",
@@ -77,10 +239,10 @@
       "id": "03f537689aae",
       "title": "Someone made a ton of money betting on Maduro’s capture",
       "url": "https://www.theverge.com/news/853765/someone-made-a-ton-of-money-betting-on-maduros-capture",
-      "summary": "米軍によるマドゥーロ拘束直前、新規作成のPolymarket口座が約3万ドル投じ「1/31までに退陣」に賭け、約40万ドルの利益を得た。SNSでインサイダーやペンタゴン関与の疑いが浮上。",
+      "summary": "米軍のベネズエラ攻撃でマドゥロ逮捕直前、作成1週間未満の新規アカウントがPolymarketで約3万ドル投資し翌日40万ドル超の利益。内部情報利用の疑惑がSNSで指摘された。",
       "source": "The Verge",
       "publishedAt": "2026-01-03T20:44:22.000Z",
-      "contentHash": "ba6c4784c90a"
+      "contentHash": "f2ba6bebf34b"
     },
     {
       "id": "3e80d27e2d87",
@@ -491,10 +653,10 @@
       "id": "6b1775399da6",
       "title": "新人エンジニアのための今度こそ理解するSSL/TLS超入門 | コラボスタイル Developersのフィード",
       "url": "https://zenn.dev/collabostyle/articles/ec7604c7468b84",
-      "summary": "HTTPS（SSL/TLS）は単なる暗号化でなく、通信の盗聴防止・改ざん防止・相手認証を提供する。サーバー証明書はドメイン所有を示す公開情報（域名、有効期限、発行CA、公開鍵）だが誰でも作成可能で単独では信頼にならない。本稿は基礎に絞って解説する。",
+      "summary": "HTTPSは暗号化だけでなく、通信の盗聴防止・改ざん検出・接続先の認証を提供する。サーバー証明書でドメインと公開鍵を示し、証明書エラーはなりすまし等を知らせる。初心者向けに要点を解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-02T10:38:57.000Z",
-      "contentHash": "bae5839797c7"
+      "contentHash": "72c3b332b29a"
     },
     {
       "id": "798061585e04",
@@ -1544,10 +1706,10 @@
       "id": "5006640ed85a",
       "title": "ChatGPT による Gemini TTS の演技指導を試す",
       "url": "https://note.com/npaka/n/n58f53646d3a6",
-      "summary": "ChatGPTでGemini TTS向けの演技プロンプトを生成し、琴音（内向的・小声）と美咲（明るい）の声を詳細に指示。Google AI StudioのGemini 2.5とNano Banana Pro＋Grokで音声化し、各ページごとに心理描写や間の使い方を調整して試作検証した。",
+      "summary": "ChatGPTでGemini TTS向けの演技指導プロンプトを自動生成し、漫画の文脈からSCENEとDIRECTOR'S NOTESを作成。琴音と美咲の声質や間の取り方など場面ごとの演出指示を出し、Google AI StudioのGemini TTSやNano Banana Pro＋Grokで音声・アニメ化を試した報告。",
       "source": "npaka",
       "publishedAt": "2025-12-30T00:53:31.000Z",
-      "contentHash": "6114936753c4"
+      "contentHash": "06c5192b0a95"
     },
     {
       "id": "a6218b04be59",
@@ -1877,10 +2039,10 @@
       "id": "47ea3c52cafe",
       "title": "Nano Banana Pro + Grok Imagine Video + Gemini TTS で漫画からのアニメ作成を試す",
       "url": "https://note.com/npaka/n/n069b70fd900c",
-      "summary": "Nano Banana Pro、Grok Imagine Video、Gemmi TTSを使い、9ページ漫画「ストリートファイター2が強すぎるコミュ障」をアニメ化する実験。Nano Bananaでコマを動画用フレーム化、Grokで動くカット生成、Geminiで音声化、iMovieで合成し約2分45秒の映像を作成。プロンプト調整で品質向上。",
+      "summary": "Nano Banana Pro＋Grok Imagen Video＋Gemini TTSで9ページの漫画を2分45秒のアニメ化。ワークフローは漫画→Nano Bananaで動画用スタートフレーム(16:9・1K・TVアニメ画面指示)→Grokで動画カット(固定カメラ・セリフ指定で口パク合わせ)→Geminiで音声→iMovieで合成。",
       "source": "npaka",
       "publishedAt": "2025-12-29T08:35:52.000Z",
-      "contentHash": "1ff57f1a6b14"
+      "contentHash": "b464e209a9de"
     },
     {
       "id": "e106eec1ae87",
@@ -3362,10 +3524,10 @@
       "id": "9343164d771c",
       "title": "Nano Banana Pro で1ページ漫画ができるまで",
       "url": "https://note.com/npaka/n/n19d440a7b100",
-      "summary": "Nano Banana Proで1ページ漫画を作成。生成13回、作業約30分。Google AI Studioでそらみ・へにへに・Reachy Miniのベースを作り、マスク/Inpaintで編集、Photoshopで配置、2Kリファインしてセリフ修正。6案から1枚を選択。",
+      "summary": "Nano Banana Proで1ページ漫画を13回生成、約30分で制作。Google AI Studioでベースを6枚生成から選択→マスク・inpaintで編集→Photoshop配置→2Kでリファイン。コマ割り・セリフ・キャラ設定でReachy Miniの組立とダンスを描写。",
       "source": "npaka",
       "publishedAt": "2025-12-25T08:40:24.000Z",
-      "contentHash": "faf90747d893"
+      "contentHash": "7b133b7889ce"
     },
     {
       "id": "4414f8ab653b",
@@ -5468,10 +5630,10 @@
       "id": "b8d339a5bb28",
       "title": "Nano Banana Pro で ストーリー漫画の作成を試す",
       "url": "https://note.com/npaka/n/n5e7f167c9bf8",
-      "summary": "『Nano Banana Pro』で漫画制作を試行。主人公・琴音（極度のコミュ障でスト2が得意）と友人・美咲の設定画を作成し、10ページ（2行5列）構成のストーリーボードを作成。青春ギャグ×ゲームで「スト2が強すぎるコミュ障」の成長譚を、詳細なコマ割りとセリフまで指定。",
+      "summary": "Nano Banana Proで漫画制作を試行。ChatGPTと協働し、琴音（コミュ障の高校生ゲーマー）と美咲のキャラ画像（1K）を作成し、2Kで右→左読みの10ページ分ストーリーボード（青春ギャグ×スト2大会）の詳細プロットを作成。",
       "source": "npaka",
       "publishedAt": "2025-12-21T01:53:41.000Z",
-      "contentHash": "0d507619656e"
+      "contentHash": "4c77ac298178"
     },
     {
       "id": "34cd0448a6ca",
@@ -8838,168 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-16T01:24:47.000Z",
       "contentHash": "26b4f547b76f"
-    },
-    {
-      "id": "bc845ccecd63",
-      "title": "Silksong is getting a free expansion next year",
-      "url": "https://www.theverge.com/news/845189/hollow-knight-silksong-sea-of-sorrow-dlc-expansion-switch-2",
-      "summary": "『Hollow Knight: Silksong』は今年発売。Team Cherryは2026年に無料大型拡張「Sea of Sorrow」(海テーマで新エリア・ボス・道具等)を配信予定。原作はSwitch 2向けに高フレーム・高解像度などの強化版が制作され、販売は700万本超、Game Passでも多数プレイされた。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-16T01:13:24.000Z",
-      "contentHash": "50efc82e08ba"
-    },
-    {
-      "id": "07d4773ededa",
-      "title": "Photoshop の UXP Plugin",
-      "url": "https://note.com/npaka/n/n22c8d5e846b6",
-      "summary": "PhotoshopのUXP PluginはJS/HTML/CSSと専用APIでPhotoshop内部に機能を追加する公式プラットフォーム。レイヤー操作、サイズ変更、書き出し、batchPlay、UI付きツール作成が可能。Photoshop・UXP Developer Tool・エディタを用いUDTでプロジェクトを生成し、Load & Watchで実行、開発者モードで動作確認する。",
-      "source": "npaka",
-      "publishedAt": "2025-12-16T01:12:09.000Z",
-      "contentHash": "a8177fb497ac"
-    },
-    {
-      "id": "37afca7d398b",
-      "title": "技術とコミュニティの熱気に触れて：try! Swift Tokyo &amp;amp; DroidKaigi 参加記 | Timee Product Team Blog",
-      "url": "https://tech.timee.co.jp/entry/2025/12/16/100728",
-      "summary": "タイミーのAndroidエンジニア・みかみがtry! Swift TokyoとDroidKaigi 2025に参加。try! SwiftでSwift×Androidやデザインの重要性に刺激を受け、DroidKaigiではPRスタッフとして動画配信等に携わりコミュニティの多様性と技術共有を実感した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-16T01:07:28.000Z",
-      "contentHash": "a2d9c9da73a7"
-    },
-    {
-      "id": "57d3e47df76b",
-      "title": "夏休み自由研究LT会、今年も実施しました☀️ | asoview! Tech Blog",
-      "url": "https://tech.asoview.co.jp/entry/2025/12/16/100159",
-      "summary": "アソビューは夏休み自由研究LT会を開催。AIで献立生成を検証し、アプリで一括作成＋買物リスト運用が最適と結論。コード不要でChatGPTやSupabase等を組合せ作文ゲームも制作。多様な発表で交流を深め、心理的安全性を重視した場作りを継続。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-16T01:01:59.000Z",
-      "contentHash": "1d070c2985a2"
-    },
-    {
-      "id": "1eec06d15fa1",
-      "title": "プルリクビッグバンアタック | スタフェステックブログのフィード",
-      "url": "https://zenn.dev/stafes_blog/articles/3dd9d6ff1d4064",
-      "summary": "プルリクでレビュアーを圧倒する「ビッグバンアタック」を避けるため、変更は責務ごとにコミット・PRを分割し、説明やテストを充実させる。リファクタや自動整形は別PRにして差分を小さく保つ工夫を提案する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-16T01:00:05.000Z",
-      "contentHash": "915e5b404871"
-    },
-    {
-      "id": "5d8d43b2d3a5",
-      "title": "LG enters the RGB LED fray in 2026 with the Micro RGB evo TV",
-      "url": "https://www.theverge.com/news/844885/lg-micro-rgb-evo-led-tv-ces-2026",
-      "summary": "LGは2026年に初のフラッグシップRGBテレビ「Micro RGB evo」を発売。100/86/75型でアップグレード版Alpha 11搭載。Intertek認証によりBT.2020／DCI‑P3／Adobe RGBを100%カバー。価格は未定。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-16T01:00:00.000Z",
-      "contentHash": "dc3d72776095"
-    },
-    {
-      "id": "a378893ba88f",
-      "title": "LLMアプリケーションの性能評価手法「LLM as a Judge」とは？  | Dentsu Digital Tech Blog",
-      "url": "https://note.com/dd_techblog/n/nd685a8d5f87e",
-      "summary": "LLM as a Judgeとは、強力なLLMを評価者として正確性やトーン等の基準で生成文をスコアやランキングする枠組み。従来のn‑gram指標が苦手な意味的正確さや流暢さ、ハルシネーション検出を自動化・大規模化するため、評価基準設定・データ準備・プロンプト設計で運用する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-16T01:00:00.000Z",
-      "contentHash": "a9ac93f3c0f2"
-    },
-    {
-      "id": "b398f0134dd5",
-      "title": "Google Cloudの監査ログ一元化に向けた取り組み | ANDPAD Tech Blog",
-      "url": "https://tech.andpad.co.jp/entry/2025/12/16/100000",
-      "summary": "ANDPADはプロジェクト増加で監査ログ管理が複雑化。フォルダ階層とフォルダ単位の集約シンクで配下プロジェクトの監査ログをセキュリティ専用バケットへ自動集約し、設定漏れ防止・横断調査性向上を実現。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-16T01:00:00.000Z",
-      "contentHash": "e1b821485369"
-    },
-    {
-      "id": "1a223dedeb03",
-      "title": "Mac Studio M3 Ultra（96GBメモリ）でローカルLLMを動かす | GMO Developers",
-      "url": "https://developers.gmo.jp/technology/74987/",
-      "summary": "ローカルLLMはChatGPT等のクラウド型と異なり手元端末で動く大規模言語モデル。データを送らずプライバシー保護・低遅延・カスタマイズが可能だが、計算資源や性能・更新性に制約がある。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-16T01:00:00.000Z",
-      "contentHash": "de9300c11c06"
-    },
-    {
-      "id": "d30c03b518c6",
-      "title": "開発環境の再現性100%へ！Nixで実現する失敗しないオンボーディング | OPTiM TECH BLOG",
-      "url": "https://tech-blog.optim.co.jp/entry/2025/12/16/100000",
-      "summary": "Nixは宣言的で再現性と信頼性を担保するパッケージマネージャー。devShellで開発環境を均一化でき、home-managerやnix-darwinでホーム設定やmacOSを宣言的に管理。オンボーディングが容易になる一方、英語情報中心で学習コストあり。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-16T01:00:00.000Z",
-      "contentHash": "776986abe640"
-    },
-    {
-      "id": "5cab21f2c03c",
-      "title": "AIでデバッグ機能を爆速生成し、開発・検証の「面倒」を根こそぎ削る | TVer Tech Blog",
-      "url": "https://techblog.tver.co.jp/entry/ishii/development-debug-ai",
-      "summary": "TVerのAndroidチームが、デバッグ機能をAIで高速生成し開発・検証の手間を削減。品質要件が緩くAI適合性が高いため、ID遷移・環境表示・AB強制などを即実装。非エンジニア参加やPR自動生成も検討中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-16T01:00:00.000Z",
-      "contentHash": "65d9e90b8339"
-    },
-    {
-      "id": "b98e615cd600",
-      "title": "Ideas aren't getting harder to find",
-      "url": "https://asteriskmag.com/issues/12-books/ideas-arent-getting-harder-to-find",
-      "summary": "先進国での生産性成長鈍化は「良いアイデアが尽きた」と説明されてきたが、Bloomらは研究者数増で一人当たりの成果が減ったと示した。最近の証拠は、アイデア自体の枯渇ではなく、革新を生産性に変える市場の力が弱まったことを示唆している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-16T00:34:35.000Z",
-      "contentHash": "31086162f103"
-    },
-    {
-      "id": "ef6e494ff28a",
-      "title": "Quill OS: An open-source OS for Kobo's eReaders",
-      "url": "https://quill-os.org/",
-      "summary": "Quill OSはKoBox X11統合の軽量OSで、ePUB/PDF/画像/テキスト表示（muPDF）、Wi‑Fi/ブラウザ、EncFS暗号化ストレージ、高速検索、ダークモード、VNC、10書体、自動サスペンド、ロック/工場出荷リセット、シームレス更新など使いやすさ重視の機能を備えます。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-16T00:22:41.000Z",
-      "contentHash": "5557549d61e6"
-    },
-    {
-      "id": "544686a35a37",
-      "title": "The best Apple Watch to buy",
-      "url": "https://www.theverge.com/23037217/best-apple-watch-series-se-ultra",
-      "summary": "iPhoneユーザーにはApple Watchが最適。現在は入門のWatch SE、標準のSeries、耐久型のUltraの3種があり、用途別に選べると著者が推奨。SEは多くの人向け、Seriesは健康管理重視、Ultraはアスリート向け。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-16T00:00:00.000Z",
-      "contentHash": "017bd1cee76c"
-    },
-    {
-      "id": "e2e14d0c1d72",
-      "title": "The new ChatGPT Images is here",
-      "url": "https://openai.com/index/new-chatgpt-images-is-here",
-      "summary": "新しいChatGPT Imagesは旗艦の画像生成モデルを採用し、編集精度や詳細の一貫性が向上、生成速度は最大4倍に。モデルは本日全ChatGPT利用者に展開され、APIではGPT-Image-1.5として提供される。",
-      "source": "OpenAI",
-      "publishedAt": "2025-12-16T00:00:00.000Z",
-      "contentHash": "6ae2dd2276b6"
-    },
-    {
-      "id": "8fba061a8028",
-      "title": "The best AirPods to buy",
-      "url": "https://www.theverge.com/tech/645217/best-apple-airpods-pro",
-      "summary": "AirPodsは4モデルを展開。オーディオ共有、自動切替、ライブ翻訳、Apple TV連携などApple機器との強い相互機能が特長。まずイヤホン型か唯一のオーバーイヤー型AirPods Maxかで選ぶ。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-15T23:47:05.000Z",
-      "contentHash": "2d1f1eaf224c"
-    },
-    {
-      "id": "2fd4b10c6b89",
-      "title": "21 states and DC join the FTC’s lawsuit against Uber",
-      "url": "https://www.theverge.com/news/845071/ftc-uber-lawsuit-21-states-amended-complaint",
-      "summary": "米連邦取引委員会の訴訟に21州とDCが参加。ウーバーは利用者の同意なくUber Oneを課金、無料試用終了前に請求、節約効果を誇大表示し、解約を最大23画面・32操作で困難にしたと主張されています。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-15T23:17:29.000Z",
-      "contentHash": "2a03ad3f1650"
-    },
-    {
-      "id": "813abc571d54",
-      "title": "JetBlue flight averts mid-air collision with US Air Force jet",
-      "url": "https://www.reuters.com/world/americas/jetblue-flight-averts-mid-air-collision-with-us-air-force-jet-2025-12-15/",
-      "summary": "ジェットブルーの旅客機と米空軍機が空中で接近し、乗務員の回避行動（TCAS警報など）で衝突を回避した。けが人はおらず、FAAなどが原因を調査中で通信や運航手順の見直しが検討される。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-15T22:48:56.000Z",
-      "contentHash": "a548d12f1362"
     }
   ]
 }
