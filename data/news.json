@@ -1,6 +1,177 @@
 {
-  "generatedAt": "2026-01-05T02:31:54.722Z",
+  "generatedAt": "2026-01-05T08:54:18.472Z",
   "items": [
+    {
+      "id": "5a10a4fc6e99",
+      "title": " Amazon EC2でGitHub ActionsのSelf-hosted runnerを構築する | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/ec2-github-actions-self-hosted-runner",
+      "summary": "GitHub ActionsのSelf-hosted runnerをAWS EC2上に構築する手順を解説。コスト・性能最適化の観点や登録・自動起動設定などを、VPC/EC2やGitHub Actionsの基本知識を前提に説明します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-05T07:06:07.000Z",
+      "contentHash": "82eeae870074"
+    },
+    {
+      "id": "385f2b9aeb58",
+      "title": "SmartHR は Regional Scrum Gathering Tokyo 2026 にシルバースポンサーとして協賛します —— SmartHRの増えてくアクキーの新作をプレゼント! | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/01/05/160336",
+      "summary": "SmartHRは1/7〜9開催のRegional Scrum Gathering Tokyo 2026にシルバースポンサー協賛。1/7 14:25（Room5）に@wassanがScrum@Scale導入半年の実践と課題を発表。初出展ブースで内製スクラム講座回答者に新作「増えてくアクキー」を配布。採用も実施中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-05T07:03:36.000Z",
+      "contentHash": "e2c921f7f1ab"
+    },
+    {
+      "id": "efe0f26ecb7d",
+      "title": "【VB.NET Tech】CIだけで失敗？行連結文字とコメントの仕様差異に注意 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/290dd4c472e5e0",
+      "summary": "ローカルでは通るがCIでVB.NETビルドが失敗。原因は行連結文字'_'の仕様差で、VB16.0以降は'_'の後にコメント可だが古いコンパイラは不可。CIのMSBuildが古いためで、対策はビルドツール更新やコード修正。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-05T06:45:11.000Z",
+      "contentHash": "ecc126022eb1"
+    },
+    {
+      "id": "905c4eff1b6c",
+      "title": "This robot companion is a cameraman for your pet",
+      "url": "https://www.theverge.com/tech/854457/frontierx-vex-aura-robots-companions-pets",
+      "summary": "CESで発表された小型ロボット「Vex」は、手のひらサイズの球体ボディでペットを追跡・遊びながら撮影し、AIで映像を自動編集。視覚認識で個体識別も可能。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-05T06:37:23.000Z",
+      "contentHash": "35615fa04921"
+    },
+    {
+      "id": "38b539f3db3b",
+      "title": "Skeleton のクイックスタート",
+      "url": "https://note.com/npaka/n/nc35e15abd3b3",
+      "summary": "SkeletonはSvelte/SvelteKit向けのUIコンポーネント＆デザインシステムで、Tailwind前提・テーマ切替や直感的なclass指定が特徴。導入はNodeを入れ、npm create skeleton-appでプロジェクト作成→npm install→npm run devで起動。",
+      "source": "npaka",
+      "publishedAt": "2026-01-05T06:13:38.000Z",
+      "contentHash": "d45ee75dbae5"
+    },
+    {
+      "id": "82a75cde16af",
+      "title": "Vibe Coding with GitLab MCP Server | MONEX ENGINEER BLOG │マネックス エンジニアブログ",
+      "url": "https://blog.tech-monex.com/entry/2026/01/05/150524",
+      "summary": "VS CodeのCopilotを軽量パッケージgitlab-mcpでGitLabと連携し、リポジトリの文脈をCopilotに与える方法を紹介。Vibe coding（LLMにコード生成を任せ開発者は指示・レビューする手法）で生産性向上を目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-05T06:05:24.000Z",
+      "contentHash": "bff797ce105c"
+    },
+    {
+      "id": "e8a6cae41826",
+      "title": "フルスタックDartからRustバックエンドへ | 10X Product Blog",
+      "url": "https://product.10x.co.jp/entry/2026/01/05/141233",
+      "summary": "弊社はFlutter＋DartのフルスタックからバックエンドをRustへ移行検討中。採用難やDartのエコシステムや並列処理の課題、運営自律性確保のため型付で堅牢なRustを候補とし一部で検証中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-05T05:12:33.000Z",
+      "contentHash": "7f8eacaae640"
+    },
+    {
+      "id": "aeee2ae36ae4",
+      "title": "nanobananaで4コマ漫画を作ろう | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
+      "url": "https://recruit.group.gmo/engineer/jisedai/blog/nanobanana-4panel-manga/",
+      "summary": "Nano Banana Proで文字混じり画像を生成し、起承転結やキャラ化で「分かりやすく面白い」4コマ漫画を作る手法を探求。山月記の例や要件整理を経て、Nanobanana Pro APIで自動バッチ生成するコードをGitHubで公開した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-05T05:09:28.000Z",
+      "contentHash": "7323cfead5e3"
+    },
+    {
+      "id": "0a7babe9f85d",
+      "title": "AI駆動開発とは？メリット、注意点、PMが知るべき活用領域と実践ステップ | 株式会社モンスターラボ",
+      "url": "https://monstar-lab.com/dx/technology/ai-driven-development/",
+      "summary": "PM/PdM向けにAI駆動開発を解説。生成AI/LLMで要件〜実装・テストを部分自動化し、開発速度と品質安定、コスト最適化を実現。人は指示・レビュー・検証に集中し創造的業務へ移行。ただしAI生成コードのレビューは必須。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-05T05:04:46.000Z",
+      "contentHash": "4d21ee6ba89c"
+    },
+    {
+      "id": "2d3fc0a24c88",
+      "title": "react-markdown + remark-cjk-friendlyで日本語を太字変換 | NCDC テックブログのフィード",
+      "url": "https://zenn.dev/ncdc/articles/9820695dfde50c",
+      "summary": "react-markdownは日本語（分かち書きのない言語）で、記号と**が隣接すると意図した太字（**...**）に変換されないことがある。remark-cjk-friendlyをremarkPluginsに追加するだけで正しく太字化できる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-05T05:00:32.000Z",
+      "contentHash": "cf522af68314"
+    },
+    {
+      "id": "a91f2f3a69bd",
+      "title": "Birdbuddy’s new smart feeders aim to make spotting birds easier, even for beginners",
+      "url": "https://www.theverge.com/gadgets/850488/birdbuddy-2-mini-ces-2026",
+      "summary": "Birdbuddyが新スマート餌台2機種を発表。上位のBirdbuddy 2（$199）は2K HDR、スローモーション、135度広角、太陽光パネル搭載で音声も改善。小型の2 Mini（$129）は初心者向けで即起動し鳥を見逃しにくい。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-05T05:00:00.000Z",
+      "contentHash": "22ac4e78a736"
+    },
+    {
+      "id": "c26ff29cc259",
+      "title": "Svelte のクイックスタート",
+      "url": "https://note.com/npaka/n/n3b9b02f69b5b",
+      "summary": "Svelteはビルド時に最適化される軽量で高速なフロントエンド。仮想DOM不要。SvelteKitはルーティング・SSR等を提供するアプリ用フレームワークで、UIライブラリも多数。Viteでプロジェクト作成→npm install→npm run dev。コンポーネントはHTML/JS/CSSを1ファイルにまとめ、let変数がリアクティブ、{ }で埋め込み表示。",
+      "source": "npaka",
+      "publishedAt": "2026-01-05T04:33:15.000Z",
+      "contentHash": "0d45bf737a32"
+    },
+    {
+      "id": "359245a8525d",
+      "title": "2026年のキーワードは「穏跳（おんちょう）」。変革のその先へ、静かなる大飛躍を。 | RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20260105/steady-growth",
+      "summary": "2026年のキーワードは「穏跳」。2025年の変革で基盤を作り、穏やかに整えつつ次の3年へ跳ぶ。PdMの重点は統合型ベストオブブリード、エンタープライズ強化、AIの製品実装。デザイナーは長期的なUX定着と組織強化を目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-05T04:31:20.000Z",
+      "contentHash": "0b09eab70466"
+    },
+    {
+      "id": "ef1b5ae01337",
+      "title": "I just want to keep unfolding the Samsung Z TriFold",
+      "url": "https://www.theverge.com/tech/854352/samsung-galaxy-z-trifold-hands-on",
+      "summary": "Allison JohnsonがSamsung Z TriFoldを試用。もう一つのヒンジで「電話に付いたタブレット」になる使用感を評価し、単一ヒンジ折りたたみ機より魅力的と感じた。韓国で発売中、米国では未発売。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-05T04:02:40.000Z",
+      "contentHash": "bf7e55f22d57"
+    },
+    {
+      "id": "bf7c437643a8",
+      "title": "California residents can now request all data brokers delete personal info",
+      "url": "https://consumer.drop.privacy.ca.gov/",
+      "summary": "カリフォルニア州司法長官が運営する消費者向けプライバシー申請ポータル。CCPA/CPRAに基づき、個人情報の開示・削除や販売・共有のオプトアウトなどの権利行使を企業へ提出・管理する手続きや案内を提供する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-05T04:00:38.000Z",
+      "contentHash": "c42783d35c3e"
+    },
+    {
+      "id": "75dd03c387f6",
+      "title": "ブラウザからラベルプリンターへのバーコード出力 | Rentio Tech Blogさんのフィード",
+      "url": "https://zenn.dev/rentio/articles/print-barcode",
+      "summary": "レンティオの在庫管理で個品バーコードをブラウザから直接テプラに印刷する方法を紹介。bwip-jsでCanvasにCode128を生成→Blob→File化し、テプラクリエイターWeb APIでプリンター検出・印刷。画像化で汎用性確保。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-05T03:19:13.000Z",
+      "contentHash": "6fecc592de27"
+    },
+    {
+      "id": "c3069423edb7",
+      "title": "Shut the fridge door!",
+      "url": "https://www.theverge.com/tech/853758/shut-the-fridge-door",
+      "summary": "SamsungがCES2026で発表。Family Hubスマート冷蔵庫がBixby音声で扉の開閉に対応し、「開けて」「閉めて」で90度以上開閉。手のひらや手の甲でタップしても作動するハンズフリー機能。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-05T03:00:00.000Z",
+      "contentHash": "c73a86de5df9"
+    },
+    {
+      "id": "827ffb6ba396",
+      "title": "LG’s Wallpaper OLED TV returns to CES, and it’s wafer thin",
+      "url": "https://www.theverge.com/tech/853886/lgs-wallpaper-oled-tv-returns-to-ces-and-its-wafer-thin",
+      "summary": "LGが6年ぶりに超薄型「Wallpaper」OLEDを復活。新モデルW6は厚さ9mm、ゼロコネクトボックスで最大10mまで映像を無線化（電源は必要）し、壁にピタリ設置可能。Hyper Radiant Color技術を搭載。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-05T03:00:00.000Z",
+      "contentHash": "4af1a163552e"
+    },
+    {
+      "id": "41a2fda29293",
+      "title": "During Helene, I just wanted a plain text website",
+      "url": "https://sparkbox.com/foundry/helene_and_mobile_web_performance",
+      "summary": "ハリケーンHelene一周年。西ノースカロライナの洪水で停電・携帯塔が損傷し、多くが緊急情報を受け取れなかった。著者はモバイルでページがタイムアウトしたり地図のAPIが落ちたり、重い画像や循環リンクで情報取得が困難だったと振り返り、簡素で耐障害性の高い設計を訴えている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-05T02:36:20.000Z",
+      "contentHash": "01b3c4ea2e93"
+    },
     {
       "id": "100327ee6c8d",
       "title": "The new Ultraloq smart lock uses both your face and your palm to let you in",
@@ -167,37 +338,46 @@
       "id": "05a6cc2beb48",
       "title": "North Dakota law lists fake critical minerals based on coal lawyers' names",
       "url": "https://bismarcktribune.com/news/local/government-politics/article_515812a0-d29a-4161-91f1-3e53003e2911.html",
-      "summary": "リンク先に直接アクセスできないため、記事本文をこちらに貼っていただけますか？本文をいただければ200文字以内で要約します。コメント欄も要約希望なら併せて教えてください。",
+      "summary": "ノースダコタ州の重要鉱物法に「stralium」「friezium」など架空の鉱物名が記載され、炭鉱関連弁護士の名をもじった疑い。弁護士ストレーは追加に関与していないと否定している。",
       "source": "Hacker News",
       "publishedAt": "2026-01-04T21:01:35.000Z",
-      "contentHash": "9b392c899354"
+      "contentHash": "5bbae3b6b5fc"
+    },
+    {
+      "id": "0f98a07c5eb6",
+      "title": "Eurostar AI vulnerability: When a chatbot goes off the rails",
+      "url": "https://www.pentestpartners.com/security-blog/eurostar-ai-vulnerability-when-a-chatbot-goes-off-the-rails/",
+      "summary": "Eurostarの公開AIチャットボットで、ガードレール回避、会話/メッセージID未検証、プロンプト注入によるシステムプロンプト漏洩、HTML注入で自己XSSの4件を発見。サーバ側防御が弱く、攻撃でプロンプト窃取・応答操作・チャット内スクリプト実行が可能。報告対応も困難で不誠実だった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-04T20:52:52.000Z",
+      "contentHash": "64f9275cd605"
     },
     {
       "id": "be67807ea6ac",
       "title": "Why does a least squares fit appear to have a bias when applied to simple data?",
       "url": "https://stats.stackexchange.com/questions/674129/why-does-a-linear-least-squares-fit-appear-to-have-a-bias-when-applied-to-simple",
-      "summary": "最小二乗法が「偏り」を示すのは仮定違反が原因。独立変数xにも誤差がある・データの切り取りや非線形変換をしているとOLSは不偏でなく傾きが減衰する。対策は誤差項をモデル化して全距離最小化（Deming/Total least squares）や尤度・ベイズ推定を使うこと。",
+      "summary": "Pythonで相関データを作り、最小二乗直線と共分散行列の主成分（最大分散方向）を比較した話。最小二乗は縦方向誤差を最小化するためデータ中心や対称性を反映せず傾きがずれる一方、主成分（PCA）は最大分散方向を示す。単純な線形回帰が不適切な場合がある、という疑問を提示している。",
       "source": "Hacker News",
       "publishedAt": "2026-01-04T20:25:30.000Z",
-      "contentHash": "f2a8e35bd021"
+      "contentHash": "f157ffcd7ae4"
     },
     {
       "id": "3f6d9ab0911b",
       "title": "Show HN: Terminal UI for AWS",
       "url": "https://github.com/huseyinbabal/taws",
-      "summary": "すみません、外部URLに直接アクセスできません。記事本文か主要部分（または要約したい箇所）を貼っていただければ、200文字以内で日本語要約します。",
+      "summary": "tawsはAWSを端末で操作するTUI。マルチプロファイル・マルチリージョン対応、94種以上のリソースを監視・操作、リアルタイム更新やVim風キー操作でEC2制御やJSON/YAML表示、フィルタ・補完あり。Homebrewやリリースから導入可。",
       "source": "Hacker News",
       "publishedAt": "2026-01-04T20:17:22.000Z",
-      "contentHash": "e9275dfb8fa4"
+      "contentHash": "225b149e3abe"
     },
     {
       "id": "191b2c2288ed",
       "title": "I changed my personality in six weeks",
       "url": "https://www.bbc.com/future/article/20260102-how-i-changed-my-personality-in-six-weeks",
-      "summary": "著者は6週間の実験で意図的に行動や思考を変え、日々の習慣化・振る舞いの演習・記録・フィードバックを通じて性格に目に見える変化を起こした。性格は完全に固定ではなく練習で変えられる可能性が示されたが、深い傾向の持続性は不明だと結論付ける。",
+      "summary": "ローリー・クラークは、性格は変えられるという新しい研究に基づき、編集者の提案でビッグファイブ理論を使い6週間で自身の高い神経症傾向（不安）を改善しようと試みた。",
       "source": "Hacker News",
       "publishedAt": "2026-01-04T20:02:28.000Z",
-      "contentHash": "1429fefadf48"
+      "contentHash": "d9da400d5319"
     },
     {
       "id": "0585f5f1c69e",
@@ -212,10 +392,19 @@
       "id": "62abb77c1533",
       "title": "Claude Code On-the-Go",
       "url": "https://granda.org/en/2026/01/02/claude-code-on-the-go/",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできないため記事を取得できません。記事本文か主要部分を貼っていただければ、200字以内で日本語要約します。要約のトーン指定があれば教えてください。",
+      "summary": "iOSのTermius+moshでTailscale経由のVultr VMに接続し、tmuxで複数のClaude Codeエージェントを並列実行。VMは起動/停止スクリプトとiOSショートカットで管理、セキュアなアクセスと通知フックで非同期開発。",
       "source": "Hacker News",
       "publishedAt": "2026-01-04T19:48:20.000Z",
-      "contentHash": "62f807dca69d"
+      "contentHash": "c6e2d8191615"
+    },
+    {
+      "id": "2261aa593128",
+      "title": "Agentic Patterns",
+      "url": "https://github.com/nibzard/awesome-agentic-patterns",
+      "summary": "実運用向けエージェントAIの実践パターン集。再利用可能でエージェント中心、出典のある手法を収集し、タスク分解・制御、コンテキスト／記憶、フィードバック、ツール利用、UX、信頼性などのカテゴリで実装例を整理。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-04T19:24:47.000Z",
+      "contentHash": "301cb5bc3ef6"
     },
     {
       "id": "893b4fcf9d16",
@@ -225,6 +414,15 @@
       "source": "The Verge",
       "publishedAt": "2026-01-04T19:13:01.000Z",
       "contentHash": "a9d05956c46f"
+    },
+    {
+      "id": "35c9ae81c1f9",
+      "title": "Ripple, a puzzle game about 2nd and 3rd order effects",
+      "url": "https://ripplegame.app/",
+      "summary": "外部サイトへ直接アクセスできないため、URLの本文を取得できません。記事全文か主要部分をここに貼っていただければ、200字以内で日本語要約します。HNコメントの要約も可。どちらを貼りますか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-04T17:50:04.000Z",
+      "contentHash": "d42bbf3ef998"
     },
     {
       "id": "5db5a0d00537",
@@ -338,10 +536,10 @@
       "id": "31b9a0121c2b",
       "title": "Veo・Grok・Sora2での効果音の作成を試す",
       "url": "https://note.com/npaka/n/nfc487158435b",
-      "summary": "Veo・Grok・Sora2で効果音生成を4回検証。「BGM・音楽・セリフなし、効果音のみ」の指示でVeo 3.1 Fastが4/4成功。GrokとSora2はBGM等が混入。女の子がキーボードから手を離す表現はVeoでキー音が出たため追記。",
+      "summary": "Veo・Grok・Sora2で効果音生成を4回試行。BGM・音楽・セリフなしで「効果音のみ」指示したところ、Veo 3.1 Fastが4/4で純粋な効果音を生成。GrokとSora2はBGM等が混入。「女の子はキーボードから手を離す」は誤認対策で追記した。",
       "source": "npaka",
       "publishedAt": "2026-01-04T13:16:34.000Z",
-      "contentHash": "cba4e80423be"
+      "contentHash": "fb518b3e8cb6"
     },
     {
       "id": "1e877f659757",
@@ -383,10 +581,10 @@
       "id": "deb9f97107e4",
       "title": "AIニケちゃんの漫画とアニメを作る",
       "url": "https://note.com/npaka/n/n37e194a6404b",
-      "summary": "1月4日がAIニケちゃんの誕生日と気づき、偶然のタイミングで制作したAIニケちゃんの漫画とアニメをまとめた、という告知ツイートです。",
+      "summary": "1月4日のAIニケちゃんの誕生日を記念して、npakaが漫画とアニメを制作・公開しました。AITuber題材の1ページ漫画、ストーリー漫画の冒頭2ページ、アニメ化の試作を含みます。公式は彼女を好奇心旺盛で可能性無限と紹介。",
       "source": "npaka",
       "publishedAt": "2026-01-04T11:10:30.000Z",
-      "contentHash": "5029040a8bdd"
+      "contentHash": "1ca3b1be4c07"
     },
     {
       "id": "daaec8c08917",
@@ -1976,10 +2174,10 @@
       "id": "5006640ed85a",
       "title": "ChatGPT による Gemini TTS の演技指導を試す",
       "url": "https://note.com/npaka/n/n58f53646d3a6",
-      "summary": "ChatGPTでGemini TTS向けの演技指導プロンプトを自動生成し、漫画の文脈からSCENEとDIRECTOR'S NOTESを作成。琴音と美咲の声質や間の取り方など場面ごとの演出指示を出し、Google AI StudioのGemini TTSやNano Banana Pro＋Grokで音声・アニメ化を試した報告。",
+      "summary": "ChatGPTに漫画を読ませ、Gemini TTS用のAUDIO PROFILE・SCENE・DIRECTOR’S NOTESを生成。Google AI Studio（Gemini 2.5）で音声合成を実演し、教室や大会前夜などページごとに沈黙や息遣いなど細かな演技指示を付与。",
       "source": "npaka",
       "publishedAt": "2025-12-30T00:53:31.000Z",
-      "contentHash": "06c5192b0a95"
+      "contentHash": "dd677865eb4d"
     },
     {
       "id": "a6218b04be59",
@@ -2309,10 +2507,10 @@
       "id": "47ea3c52cafe",
       "title": "Nano Banana Pro + Grok Imagine Video + Gemini TTS で漫画からのアニメ作成を試す",
       "url": "https://note.com/npaka/n/n069b70fd900c",
-      "summary": "漫画をAIでアニメ化する試作を行いました。Nano Banana Pro、Grok Imagine Video、Gemini TTS を組み合わせて漫画から映像と音声を生成する手順と成果をまとめています。",
+      "summary": "Nano Banana Pro、Grok Imagen Video、Gemini TTSで漫画をアニメ化する実験。コマ分割→Nano Banana Proで動画用スタートフレーム（16:9,1K）化→Grokで動画カット生成→Geminiで音声合成→iMovieで合成。9ページ漫画を2分45秒のアニメに。カメラ固定やセリフ指定などプロンプト調整が重要で、数回の試行で改善。",
       "source": "npaka",
       "publishedAt": "2025-12-29T08:35:52.000Z",
-      "contentHash": "f8fe56415ddd"
+      "contentHash": "058350ef20cd"
     },
     {
       "id": "e106eec1ae87",
@@ -3794,10 +3992,10 @@
       "id": "9343164d771c",
       "title": "Nano Banana Pro で1ページ漫画ができるまで",
       "url": "https://note.com/npaka/n/n19d440a7b100",
-      "summary": "「Nano Banana Pro」で1ページ漫画を作る手順を現状版としてまとめた記事。生成は13回、作業時間は約30分で、制作過程や工程のポイントが解説されている。",
+      "summary": "Nano Banana Proでの1ページ漫画制作記。生成13回・約30分。Google AI Studioでベース作成（768x1376、右→左、4段組）→マスク/Inpaintで編集→Photoshop配置→2Kリファイン。登場はそらみ・へにへにとReachy Mini。台詞・素材選別を重視。",
       "source": "npaka",
       "publishedAt": "2025-12-25T08:40:24.000Z",
-      "contentHash": "21af358e161c"
+      "contentHash": "86b920442e15"
     },
     {
       "id": "4414f8ab653b",
@@ -4289,19 +4487,19 @@
       "id": "dd816aa9ab36",
       "title": "Qwen-Image-Edit-2511 の概要",
       "url": "https://note.com/npaka/n/n79cc62c5e0a8",
-      "summary": "Qwen-Image-Edit-2511は画像編集モデルの出力一貫性を改善する更新を解説した記事です。主な変更点、実装方針、評価での効果、注意点や利用例を簡潔にまとめています。",
+      "summary": "Qwen-Image-Edit-2511は2509の強化版で、画像ドリフト軽減、文字や人物の一貫性向上、複数人物合成改善、コミュニティLoRA統合、工業デザイン対応や幾何推論強化を含む。オンライン最適化済みでModelScopeのローカル展開を推奨。",
       "source": "npaka",
       "publishedAt": "2025-12-23T21:46:44.000Z",
-      "contentHash": "c7a09ae75b8c"
+      "contentHash": "e0c8d588ecc5"
     },
     {
       "id": "9cc634fdd289",
       "title": "Qwen3-TTS-VD-Flash ・ Qwen3-TTS-VC-Flash の概要",
       "url": "https://note.com/npaka/n/nfec8195b385a",
-      "summary": "本文が提示されていないため要約できません。記事の全文か主要部分を貼るか、要点を教えてください。URLのみでも可ですが、私はウェブ閲覧できないので本文があると助かります。",
+      "summary": "Qwen3-TTSに音声設計のQwen3-TTS-VD-Flashと音声複製のQwen3-TTS-VC-Flashが登場。VDは自然言語で音色・韻律・感情を細かく制御、VCは3秒で10言語の音声を複製可能。高表現力・堅牢なテキスト処理でベンチマークを上回る。",
       "source": "npaka",
       "publishedAt": "2025-12-23T21:34:56.000Z",
-      "contentHash": "b057c5fc45a1"
+      "contentHash": "34f330b6aa71"
     },
     {
       "id": "8ef5796f2f81",
@@ -5765,10 +5963,10 @@
       "id": "450dab33c274",
       "title": "FunctionGemma の概要",
       "url": "https://note.com/npaka/n/nc3b38de5c25f",
-      "summary": "記事の全文かリンクを貼っていただけますか？私はウェブを直接参照できないため、元記事の抜粋がないと正確な要約ができません。ない場合は、タイトルから推測した簡易要約（200文字以内）を作成することも可能です。どちらにしますか？",
+      "summary": "FunctionGemmaはFunction Calling向けに最適化された小型Gemma 3（270M）で、エッジ上でオフライン動作し自然言語を関数呼び出しに変換。微調整で精度向上、低遅延・プライバシー重視のローカル展開や複合システムでのルーティングに適し、多様なツールや環境をサポート。",
       "source": "npaka",
       "publishedAt": "2025-12-21T10:10:04.000Z",
-      "contentHash": "63b40820c6bf"
+      "contentHash": "e196b37c2e2f"
     },
     {
       "id": "47953aa3fe77",
@@ -8802,204 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-12-16T23:00:00.000Z",
       "contentHash": "2465b5129fa3"
-    },
-    {
-      "id": "f5ee94c95917",
-      "title": "I ported JustHTML from Python to JavaScript with Codex CLI and GPT-5.2 in hours",
-      "url": "https://simonwillison.net/2025/Dec/15/porting-justhtml/",
-      "summary": "著者がJustHTMLを最小工数でPythonからJavaScriptへ移植。Codex CLIとGPT-5.2で約4時間、依存なしのjustjshtmlを作り、html5lib-testsの約9,200テストを通過。HTML5仕様の不正HTML処理とhtml5lib-testsの重要性も指摘。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-16T22:48:56.000Z",
-      "contentHash": "cda1f76561bb"
-    },
-    {
-      "id": "276f9b422b84",
-      "title": "‘Twitter never left:’ X sues Operation Bluebird for trademark infringement",
-      "url": "https://www.theverge.com/news/845882/x-corp-operation-bluebird-twitter-lawsuit-trademark-infringement",
-      "summary": "X社がOperation Bluebirdを商標権侵害で提訴。BluebirdはUSPTOに「Twitter」「Tweet」商標の取消を請求し新SNSを計画したが、Xは再ブランド化は権利放棄に当たらないと主張している。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-16T22:33:26.000Z",
-      "contentHash": "8a4a397c5d00"
-    },
-    {
-      "id": "58190c2d6a84",
-      "title": "Trump admin threatens retaliation against Spotify and others over EU tech regulation",
-      "url": "https://www.theverge.com/news/845869/ustr-eu-trade-threat-spotify-mistral",
-      "summary": "米通商代表部がXで、EUのデジタル規制や訴訟・罰金で米企業が不利益を被っていると批判し、AccentureやSpotifyなど欧州企業を名指しして報復を示唆。EU方式を採る国々にも警告した。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-16T22:28:36.000Z",
-      "contentHash": "625b95ff2731"
-    },
-    {
-      "id": "2c7fde774c71",
-      "title": "The best Android phones",
-      "url": "https://www.theverge.com/23674658/best-android-phone",
-      "summary": "The Vergeのアリソン・ジョンソンが最新のAndroidスマホを比較レビュー。選択肢の多さや折りたたみ機の存在に触れつつ、用途・予算・サイズに応じたおすすめ機種を紹介しています。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-16T22:18:06.000Z",
-      "contentHash": "cfce178e4e34"
-    },
-    {
-      "id": "d6cdcae11dda",
-      "title": "The best e-reader to buy right now",
-      "url": "https://www.theverge.com/23769068/best-ebook-readers",
-      "summary": "スマホより読みやすく目に優しい電子書籍リーダーのおすすめ記事。調光・防水・物理ページめくり・メモ機能など多彩な特徴を持つ機種を、用途別に著者が多数試用して比較紹介している。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-16T22:07:50.000Z",
-      "contentHash": "6dc1507cf2ef"
-    },
-    {
-      "id": "6220cc60e12c",
-      "title": "No AI* Here – A Response to Mozilla's Next Chapter",
-      "url": "https://www.waterfox.com/blog/no-ai-here-response-to-mozilla/",
-      "summary": "Waterfox開発者の著者は、MozillaのAIファースト方針に懸念を表明。Bergamotのような透明で限定的な機械学習は有用だが、監査不能な大規模言語モデルをブラウザの中心に据えるのは問題だと指摘する。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-16T22:07:49.000Z",
-      "contentHash": "d12bb4ca2f08"
-    },
-    {
-      "id": "2b6dd27e3016",
-      "title": "MIT professor shot at his Massachusetts home dies",
-      "url": "https://www.bbc.com/news/articles/cly08y25688o",
-      "summary": "マサチューセッツ工科大学（MIT）のポルトガル出身教授、ヌーノ・ロウレイロ氏（47）が自宅近くで複数回銃撃され搬送先で死亡しました。2016年にMIT着任、2024年にプラズマ科学・融合センター長に就任。ブルックラインで発生、容疑者不明で捜査が続いています。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-16T21:52:26.000Z",
-      "contentHash": "74c5a76cd486"
-    },
-    {
-      "id": "157a5f42fab2",
-      "title": "A vague study on Nazi bots created chaos in the Taylor Swift fan universe",
-      "url": "https://www.theverge.com/report/845725/taylor-swift-gudea-report-rolling-stone-social-media-discourse-bots",
-      "summary": "テイラー・スウィフトのアルバムリリース後の投稿を分析した不鮮明な研究が「非本物」な活動＝ナチス賞賛ボットの存在を示唆し、スウィフトファン界隈で混乱と論争を招いた。メディアは解釈で分裂している。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-16T21:30:14.000Z",
-      "contentHash": "7cc5a3dd42ba"
-    },
-    {
-      "id": "5cb834ef4ec9",
-      "title": "AI will make formal verification go mainstream",
-      "url": "https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html",
-      "summary": "マーティン・クレップマンは、AIがCoq/Isabelle/Lean/F*/Agda等の形式検証を主流化すると主張。形式検証は仕様の数学的証明で高信頼化を実現するが、習得と作業コストが高く（seL4は実装8700行に対し証明20人年・20万行）、専門家が少ないため現状は研究中心と述べる。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-16T21:14:49.000Z",
-      "contentHash": "338f8784ce92"
-    },
-    {
-      "id": "3084ebf261fd",
-      "title": "Announcing the Beta release of ty",
-      "url": "https://astral.sh/blog/ty",
-      "summary": "AstralがRustで開発した高速なPython型チェッカー兼言語サーバー「ty」のBeta版を公開。mypyやPyrightの代替を目指し、増分解析でエディタのライブ更新が非常に高速。Astralは自社で採用済み。uvやVS Code拡張で導入可能。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-16T20:52:45.000Z",
-      "contentHash": "dc453c9ca139"
-    },
-    {
-      "id": "61a9f6a4952c",
-      "title": "GPT Image 1.5 の概要",
-      "url": "https://note.com/npaka/n/n52e39582761b",
-      "summary": "OpenAIはChatGPT Imagesの新版「GPT Image 1.5」を公開。画像生成が最大4倍高速化し、細部を保った高精度な編集、指示追従性やテキスト描画の改善、品質向上、画像ホームやプリセットを追加。API提供で入出力コスト20%削減、ブランドやEC向けに最適化。",
-      "source": "npaka",
-      "publishedAt": "2025-12-16T20:43:23.000Z",
-      "contentHash": "df016ae6be03"
-    },
-    {
-      "id": "d31b1be8fa2e",
-      "title": "No Graphics API",
-      "url": "https://www.sebastianaaltonen.com/blog/no-graphics-api",
-      "summary": "著者はグラフィックス歴30年のセバスチャン・アールトネン。各種コンソールやDirectX/OpenGL/Vulkanに携わり、現在はWebGPU/Metal/Vulkan向けレンダラーを開発。公開資料とAIで検証し、Mantleを契機に低レベルAPI（DirectX12/Vulkan/Metal）が業界を変えたと解説する。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-16T19:20:17.000Z",
-      "contentHash": "14b649a44341"
-    },
-    {
-      "id": "82f33e981f41",
-      "title": "Vibe coding creates fatigue?",
-      "url": "https://www.tabulamag.com/p/too-fast-to-think-the-hidden-fatigue",
-      "summary": "著者はClaude CodeとCursorでコード作成や修正を高速化したが、AIの速さで次々に完了・確認することで認知的疲労を感じるようになった。これはTeam Topologiesの認知負荷と関連する新たな問題だ。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-16T18:32:46.000Z",
-      "contentHash": "52ff2a89bdde"
-    },
-    {
-      "id": "e3939714c5d8",
-      "title": "GPT Image 1.5",
-      "url": "https://openai.com/index/new-chatgpt-images-is-here/",
-      "summary": "OpenAIのgpt-image-1.5は画像理解と生成に対応するマルチモーダルAPIモデルです。画像入力で説明・質問応答・編集（インペイント等）や生成を行う方法、サンプルコード、パラメータ、利用上の安全性・規約注意点を解説しています。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-16T18:07:07.000Z",
-      "contentHash": "a73558994d78"
-    },
-    {
-      "id": "da8e6b4ca29a",
-      "title": "AI is wiping out entry-level tech jobs, leaving graduates stranded",
-      "url": "https://restofworld.org/2025/engineering-graduates-ai-job-losses/",
-      "summary": "AIが初級エンジニアの業務を自動化し、大手の新卒採用は過去3年で50%以上減少。学生は就職難と学位の陳腐化に不安を抱き、営業・PMなど非技術スキルの習得を迫られている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-16T17:37:41.000Z",
-      "contentHash": "ef9b0ba70a98"
-    },
-    {
-      "id": "65b9e884c8dc",
-      "title": "The GitHub Actions control plane is no longer free",
-      "url": "https://www.blacksmith.sh/blog/actions-pricing",
-      "summary": "GitHubは2026年3月1日からGitHub Actions利用全てに1分あたり$0.002のプラットフォーム料金を導入。従来無料だった制御プレーンの課金化でセルフホストの優位性を消し、同時にホストランナー料金を引き下げて利用誘導、収益を計算資源から高マージンのプラットフォームへ移行する狙い。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-16T17:37:34.000Z",
-      "contentHash": "02f47bc726f5"
-    },
-    {
-      "id": "fb8bb503ab40",
-      "title": "Coming soon: Simpler pricing and a better experience for GitHub Actions",
-      "url": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/",
-      "summary": "要約: 2026年1月1日からGitHubホスト型ランナーが最大39%値下げ、無料分は維持。2026年3月1日からセルフホスト型に$0.002/分のクラウドプラットフォーム料金を課金（利用分はプランの分数に含む）。公開リポジトリは無料、Enterprise Serverは変更なし。今後12か月でセルフホストの自動スケーリングやWindows対応等へ投資し、費用配分を見直す。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-16T17:32:38.000Z",
-      "contentHash": "e68a634e5f59"
-    },
-    {
-      "id": "fe7d00d5afee",
-      "title": "FVWM-95 (2001)",
-      "url": "https://fvwm95.sourceforge.net/",
-      "summary": "fvwm95はX11向けのFVWMテーマで、Windows 95の外観と操作感（スタートメニュー、タスクバー、ウィンドウ装飾など）を再現するプロジェクト。SourceForgeで公開され、設定可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-16T17:13:07.000Z",
-      "contentHash": "8386de9d33bf"
-    },
-    {
-      "id": "d15b708e4887",
-      "title": "Everything is gambling now",
-      "url": "https://www.theverge.com/podcast/845198/prediction-markets-mcp-vergecast",
-      "summary": "PolymarketやKalshiなど、あらゆる事象に賭けられる予測市場の台頭をBloombergのJoe Weisenthalらと検討。起源・人気・論争・経済的意義や新しさを議論するVergecast回。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-16T16:29:32.000Z",
-      "contentHash": "9e8e23b6f188"
-    },
-    {
-      "id": "23b3906397d8",
-      "title": "Instagram is putting Reels on your TV",
-      "url": "https://www.theverge.com/news/845124/instagram-reels-tv-app",
-      "summary": "Instagramがテレビ向けReelsアプリを米国でAmazon Fire TV向けにパイロット提供開始。横並びのコレクションから縦動画を大画面で再生し、チャンネル別のテーマ表示やおすすめ・フォロー中の投稿を視聴可能。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-16T16:00:00.000Z",
-      "contentHash": "291a02e80f0b"
-    },
-    {
-      "id": "df0f6fc7aaf7",
-      "title": "My Favorite Murder and The Breakfast Club podcasts are ditching YouTube for Netflix",
-      "url": "https://www.theverge.com/news/845307/netflix-iheartmedia-video-podcasts",
-      "summary": "NetflixがiHeartMediaと提携し、米国で15本超のビデオポッドキャストを配信。My Favorite MurderやThe Breakfast Club等が対象で、以後はYouTubeで全編配信されず、新作や選抜回がNetflixで配信される。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-16T16:00:00.000Z",
-      "contentHash": "2825baa313ad"
-    },
-    {
-      "id": "2c46f6e68dd5",
-      "title": "フルリモートで働くエンジニア達がリアルチームビルディングをしてみた | hacomono TECH BLOG",
-      "url": "https://techblog.hacomono.jp/entry/2025/12/17/000000",
-      "summary": "hacomono Advent Calendar 2025の17日目。フィーチャー部エンジニアのあおさんが2月入社後初のテックブログを執筆。5歳娘の育児ネタを交えつつ、北海道〜沖縄まで分散するフルリモート勤務とウェルネスな働き方について触れる記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-16T15:00:00.000Z",
-      "contentHash": "2da35e5ba8f1"
     }
   ]
 }
