@@ -1,6 +1,132 @@
 {
-  "generatedAt": "2026-01-07T02:16:26.101Z",
+  "generatedAt": "2026-01-07T08:51:40.661Z",
   "items": [
+    {
+      "id": "796309a474b6",
+      "title": "It turns out I’ve been using my Hue lights all wrong",
+      "url": "https://www.theverge.com/tech/857250/philips-hue-spatial-aware-smart-lighting-feature",
+      "summary": "Philips Hueの新機能SpatialAwareは、部屋のレイアウトとライト配置を把握して色や効果を最適に振り分け、まるでデジタル照明デザイナーのようにシーン表現を向上させる。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-07T08:30:00.000Z",
+      "contentHash": "ae13ec39cccc"
+    },
+    {
+      "id": "168fdbe77659",
+      "title": "可変高なViewとignoresSafeAreaの組み合わせでSwiftUI TabViewはタブ切り替えができなくなる - 分析 | Spacely Tech Blog",
+      "url": "https://tech.spacely.co.jp/entry/2026/01/07/155530",
+      "summary": "可変高なViewとignoresSafeAreaを組み合わせるとSwiftUIのTabViewがタブ切替不能になるバグを報告。解析でTabViewのcontentOffset計算が常にCGRectZeroを返すことを確認し、UIKit側の問題でSwiftUI側からは修正不可。回避策はwithAnimation削除、ignoresSafeArea削除、固定高さなど。 _printChangesやSymbolic Breakpointで解析した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-07T06:55:30.000Z",
+      "contentHash": "c46b9936ec79"
+    },
+    {
+      "id": "4ad2b6ec9915",
+      "title": "OpenSSL x509 コマンドはPEMのフォーマットの検証まで行っていない | 10X Product Blog",
+      "url": "https://product.10x.co.jp/entry/2026/01/07/151312",
+      "summary": "OpenSSLのx509はPEMの末尾ハイフン不足など厳密なフォーマット不備を許容してしまい、Google Cloudが証明書を受け付けず更新に失敗。対策としてPythonのssl.PEM_cert_to_DER_certで厳密にPEMを検証するステップを追加した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-07T06:13:12.000Z",
+      "contentHash": "b88fc1f02b05"
+    },
+    {
+      "id": "98558c295533",
+      "title": "[UE5]カメラ方向に追従する弾を実装しよう！ | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/54453/",
+      "summary": "UE5関連の最新ブログ3件：Content外のアセット変更でエラーメッセージ表示の提案（2025.12.31）、SetMaterialAttributesノードで要素をスマートに追加する方法（2025.12.24）、観測データから構築した月面シミュレーション『REAL MOON』の技術解説（2025.12.16）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-07T06:00:54.000Z",
+      "contentHash": "f5c9e73152af"
+    },
+    {
+      "id": "22a0f7cea2d7",
+      "title": "Dify on AWSのシンプル構成をHTTPSアクセス可能な構成にする | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/dify-on-aws-with-ssl",
+      "summary": "Dify on AWSの簡易構成をHTTPS対応にする手順と、Dify（生成AI）とAmazon Bedrockの連携について解説。記事には読了時間表示やコードのコピーボタン、折りたたみブロック用のJavaScript/CSS例も含む。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-07T05:31:13.000Z",
+      "contentHash": "dd53e3ef24de"
+    },
+    {
+      "id": "9158d4b8207c",
+      "title": "GitHub Copilotを使ったコーディング、レビューのワークフローを試験運用してみた | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/01/07/143006",
+      "summary": "GitHub CopilotでDesign Doc運用からコーディング・レビューまでを試験。Design Docやcopilot-instructions.md等のテンプレートを作成し運用。コーディングは高速化したが「指示無視」「コメント不足」の課題があり、プロセスや規約・コメント運用の見直しが必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-07T05:30:06.000Z",
+      "contentHash": "06d1e42c3cf7"
+    },
+    {
+      "id": "2aa71bddc0df",
+      "title": "3行で始める文章検索 ― txtai入門 | TECH BLOG | 株式会社AI Shift",
+      "url": "https://www.ai-shift.co.jp/techblog/6652",
+      "summary": "AIチームの戸田が、1パッケージで文章検索を実現するtxtaiを紹介。LLMが対応しにくい社内資料や議事録などの固有データを検索・問合せ可能にする入門記事です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-07T05:09:47.000Z",
+      "contentHash": "d542139a298b"
+    },
+    {
+      "id": "1bcb7a03995d",
+      "title": "GCS→S3キャッシュプロキシで大規模ML学習のデータ転送コストを削減した話 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/01/07/140000",
+      "summary": "Sansanのインターンで、GCS上の学習データをS3にキャッシュするHTTPプロキシを開発し、マルチクラウド間の大量データ転送費（例:20TB×100epochで約24万ドル）を削減。同期サービスや独自APIを却下し、研究者のコード変更不要な透過的プロキシ方式を採用した取り組みと学びを報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-07T05:00:00.000Z",
+      "contentHash": "637bcc736858"
+    },
+    {
+      "id": "33e9d5cc524e",
+      "title": "Guidelines for API Protection for Cloud-Native Systems (NIST SP 800-228) を読み解こう | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/2026/01/07/133959",
+      "summary": "NISTのAPI保護ガイド（SP 800-228、2025/6公開）はクラウドネイティブに限らずオンプレでも使える実践的教科書。脆弱性と影響、設計〜運用（Basic/Advanced）対策、Gateway/Service Mesh等の構成を解説し、開発者・インフラ・セキュリティ・PO向けの読み方を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-07T04:39:59.000Z",
+      "contentHash": "5c7389debbe0"
+    },
+    {
+      "id": "ab6ffe7a0e1f",
+      "title": "「AIエージェントキャッチアップ #62 - Mem0」を開催しました | Generative Agents Tech Blog",
+      "url": "https://blog.generative-agents.co.jp/entry/2026/01/07/131621",
+      "summary": "勉強会#62でMem0を紹介。Mem0はAIエージェント向けのメモリ層ライブラリ／サービス（v1.0）。テキスト・画像から事実抽出してベクトル検索（既定はOpenAI埋め込み＋Qdrant）、検索カスタムやLangChain連携が可能。サンプルで追加・検索を確認。ファイルベース等の代替実装もある。次回はA2UI。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-07T04:16:21.000Z",
+      "contentHash": "6c7f471f334f"
+    },
+    {
+      "id": "f1246701cf76",
+      "title": "Intel is planning a custom Panther Lake CPU for handheld PCs",
+      "url": "https://www.theverge.com/tech/857252/intel-handheld-gaming-pc-panther-lake-custom-cpu",
+      "summary": "Intelは新CPU「Panther Lake」基盤の携帯ゲーム機向けプラットフォームを開発中。携帯専用にカスタム設計したCore G3変種でArc B390を上回るGPU性能を目指し、18Aプロセスでダイを最適化。QualcommやAMDと競合。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-07T03:16:58.000Z",
+      "contentHash": "c1c827642952"
+    },
+    {
+      "id": "cd21a031c951",
+      "title": "Jackson jrに触れる | ENGINEER TECH BLOG",
+      "url": "https://note.com/wa_hayami/n/nb30837f74967",
+      "summary": "JavaのJSONライブラリJacksonと軽量代替のJackson jrを解説。LTS 2.18.5で通常構成が約2.27MB、jr構成は約0.78MBと大幅に小さく、組込機器やスマホ向けに有効。依存設定とPOJO→JSONの例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-07T03:10:13.000Z",
+      "contentHash": "3461c4272170"
+    },
+    {
+      "id": "c00fe6cf36a4",
+      "title": "Microsoft probably killed my Snapdragon Dev Kit",
+      "url": "https://jasoneckert.github.io/myblog/how-microsoft-killed-my-snapdragon-devkit/",
+      "summary": "Snapdragon X Elite搭載のWindows 11機を日常使用していたが、12月の更新(KB5068861)が何度も失敗。再起動時のロールバックが暴走し、Microsoftアカウントでのサインインが不能、PINで入ると新しいプロファイルが作成された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-07T02:37:09.000Z",
+      "contentHash": "b4af0b2f2efa"
+    },
+    {
+      "id": "e59fbd02c1cf",
+      "title": "Lenovo is building an AI assistant that ‘can act on your behalf’",
+      "url": "https://www.theverge.com/column/857053/lenovo-ai-assistant-qira",
+      "summary": "レノボはCESで、ノートPCとMotorolaスマホで動くシステム級クロスデバイスAIアシスタント「Qira」を発表。世界最大級のPCメーカーとして日常にAIを深く組み込む最大規模の取り組みで、独占的なAI提携を避ける方針とJeff Snowが説明した。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-07T02:30:00.000Z",
+      "contentHash": "5629b548f5c5"
+    },
     {
       "id": "9e6d40e2f860",
       "title": "Samsung and Intel&#8217;s OLED tech makes HDR easier on laptop battery life",
@@ -21,12 +147,12 @@
     },
     {
       "id": "1922e9b50484",
-      "title": "Motorola’s first smartwatch promises 13-day battery life and Polar-powered health tracking",
+      "title": "Motorola’s latest smartwatch promises 13-day battery life and Polar-powered health tracking",
       "url": "https://www.theverge.com/gadgets/851643/moto-watch-android-smarwatch-ces-2026",
-      "summary": "モトローラがCESで初のスマートウォッチ「Moto Watch」を発表。47mmで最大13日（常時表示で約7日）の駆動、Polar連携の健康追跡、オープンソース、デュアル周波数GPSを搭載。1月22日発売。",
+      "summary": "MotorolaがCESで新スマートウォッチ「Moto Watch」を発表。47mmで最大13日（常時表示で約7日）駆動、Polar連携の健康トラッキング、オープンソース、デュアル周波数GPS。1月22日発売予定。",
       "source": "The Verge",
       "publishedAt": "2026-01-07T01:00:00.000Z",
-      "contentHash": "8f46a3b2ac08"
+      "contentHash": "21a1dd29db81"
     },
     {
       "id": "8684810a0b49",
@@ -119,6 +245,15 @@
       "contentHash": "555425bea832"
     },
     {
+      "id": "6ff73dba39f7",
+      "title": "AIニケちゃんを主人公にした漫画 『人工知能少女』まとめ",
+      "url": "https://note.com/npaka/n/ne9fac9a809bb",
+      "summary": "AIニケちゃんを主人公にした漫画『人工知能少女』のまとめ。本編第1話「大丈夫！ニケがついてます！」。設定・シナリオはGemini 3.0 Thinking、作画はNano Banana Pro、編集はPhotoshop。パイロット版アニメ化も試作。作者はnpaka（布留川英一）。",
+      "source": "npaka",
+      "publishedAt": "2026-01-07T00:38:56.000Z",
+      "contentHash": "cc4669850a3a"
+    },
+    {
       "id": "28ca191b892e",
       "title": "権限基盤のアーキテクチャ戦略 —— 新しい権限基盤の設計 | SmartHR Tech Blog",
       "url": "https://tech.smarthr.jp/entry/2026/01/07/093045",
@@ -144,6 +279,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-07T00:22:58.000Z",
       "contentHash": "c6ce1f7acde2"
+    },
+    {
+      "id": "4178c02e5be6",
+      "title": "Why the trans flag emoji is the 5-codepoint sequence it is",
+      "url": "https://hecate.pink/blog/2026/trans-flag-emoji/",
+      "summary": "このサイトはAIによる大規模スクレイピングを防ぐため、Hashcash風のProof-of-Work「Anubis」を導入。大量アクセス抑止のため最新のJavaScriptが必須で、JShelter等の無効化を求める。No-JS対応は検討中。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-07T00:22:06.000Z",
+      "contentHash": "5ff219164213"
     },
     {
       "id": "c9b2bfb47e24",
@@ -173,6 +317,15 @@
       "contentHash": "67090389d0f1"
     },
     {
+      "id": "772b53bbb592",
+      "title": "Hyundai Introduces Its Next-Gen Atlas Robot at CES 2026 [video]",
+      "url": "https://www.youtube.com/watch?v=9e0SQn9uUlw",
+      "summary": "外部リンクを直接開けないため内容を確認できません。要約してほしい動画の書き起こしや重要箇所、HNの抜粋を貼ってください。貼っていただければ200字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-06T23:40:03.000Z",
+      "contentHash": "8b8acab7f02c"
+    },
+    {
       "id": "aa8088c19a94",
       "title": "MP4 をアニメーション GIF に自動変換する AWS Step Functions ジョブをつくる | TechHarmony",
       "url": "https://blog.usize-tech.com/sfn-convert-mp4-gif/",
@@ -182,6 +335,15 @@
       "contentHash": "12aba8572bf0"
     },
     {
+      "id": "2d62fb493695",
+      "title": "Oral microbiome sequencing after taking probiotics",
+      "url": "https://blog.booleanbiotech.com/oral-microbiome-biogaia",
+      "summary": "友人の勧めでBioGaiaの口腔プロバイオティクスProdentisを服用し、ナノポアで口腔マイクロバイオームをシーケンスして影響を調べた。ProdentisはL. reuteri DSM17938とATCC PTA5289を含み、口臭改善や歯周の健康を謳う。BioGaiaは豊富な臨床データと注目研究を持つ企業。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-06T21:10:47.000Z",
+      "contentHash": "ce3ed12c1e18"
+    },
+    {
       "id": "fb1e389c6b9d",
       "title": "A 30B Qwen model walks into a Raspberry Pi and runs in real time",
       "url": "https://byteshape.com/blogs/Qwen3-30B-A3B-Instruct-2507/",
@@ -189,6 +351,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-01-06T20:55:01.000Z",
       "contentHash": "2f00a0f32915"
+    },
+    {
+      "id": "14424ce4d57c",
+      "title": "Calling All Hackers: How money works (2024)",
+      "url": "https://phrack.org/issues/71/17",
+      "summary": "申し訳ありませんが、外部サイトへ直接アクセスできません。記事本文を貼るか、主要な抜粋や要点を教えてください。いただければ200文字以内で日本語要約を作成します。HNコメントの要約も可。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-06T20:24:45.000Z",
+      "contentHash": "7ebfa14f501f"
     },
     {
       "id": "6eb9e40efcfa",
@@ -209,13 +380,22 @@
       "contentHash": "41e8cf7e7ba0"
     },
     {
+      "id": "af7bae3cbf39",
+      "title": "High-Performance DBMSs with io_uring: When and How to use it",
+      "url": "https://arxiv.org/abs/2512.04859",
+      "summary": "本論文はLinuxのio_uringをDBMSに適用する際の有効性と最適な使い方を検討する。ストレージ境界のバッファ管理とネットワーク境界のデータシャッフルで評価し、登録バッファやパススルー等の機能が性能へ与える影響を分析。設計指針を提示し、PostgreSQL適用で14%向上を確認。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-06T19:29:15.000Z",
+      "contentHash": "301e7a9f2abf"
+    },
+    {
       "id": "25ce699e762e",
       "title": "Video Game Websites in the early 00s",
       "url": "https://www.webdesignmuseum.org/exhibitions/video-game-websites-in-the-early-00s",
-      "summary": "WebDesignMuseumの展示は、2000年代初頭のビデオゲーム公式サイトをアーカイブ化。FlashやBGM、スプラッシュ、アニメ、テーブルレイアウトなど派手で実験的なデザイン傾向と技術の移り変わり、保存の重要性を紹介しノスタルジーを喚起する。",
+      "summary": "Web Design Museumの特集は、2000年代初頭のビデオゲーム公式サイトをアーカイブして紹介。Flashやスプラッシュページ、アニメGIF、派手で実験的なレイアウトなど当時のデザイン美学と技術を振り返る。",
       "source": "Hacker News",
       "publishedAt": "2026-01-06T18:39:21.000Z",
-      "contentHash": "192ce6ab674f"
+      "contentHash": "d326c96ec1d8"
     },
     {
       "id": "7e667383e277",
@@ -671,19 +851,19 @@
       "id": "9a7142173e59",
       "title": "NVIDIA Cosmos Reason 2 の概要",
       "url": "https://note.com/npaka/n/n7964183c9d35",
-      "summary": "NVIDIAのCosmos Reason 2は、物理空間で動作するAI（ロボット等）向けに高度な推論能力を提供するプラットフォーム。知覚・計画・意思決定を強化し、シミュレーションと現実の連携や大規模言語モデル連携で効率と安全性を高める。",
+      "summary": "NVIDIAが視覚的Reasoning VLM「Cosmos Reason 2」を発表。Physical AI Benchでトップ評価。時空間理解や常識推論を強化し、2B/8Bモデル・256K文脈をサポート。2D/3D位置・軌跡・OCR対応で動画解析、データ注釈、ロボット計画に活用可能。Hugging Faceや主要クラウドで提供。",
       "source": "npaka",
       "publishedAt": "2026-01-06T03:16:04.000Z",
-      "contentHash": "11f31fe93b2d"
+      "contentHash": "762afb52ec49"
     },
     {
       "id": "eba4eaaeec3d",
       "title": "NVIDIA Isaac Lab-Arena の概要",
       "url": "https://note.com/npaka/n/ne3e76e37a061",
-      "summary": "NVIDIAのIsaac Lab-Arenaは、汎用ロボットのポリシー評価をシミュレーションで簡素化するフレームワーク。共通環境やベンチマーク、計測ツールを提供し、多タスク評価の再現性と比較を容易にする。",
+      "summary": "Isaac Lab-ArenaはNVIDIAとLightwheel共作の、モジュール化タスク記述・アフォーダンスで一般化・自動多様化・大規模並列評価を実現するIsaac Lab拡張のオープンソースフレームワーク。学習・データ生成統合やベンチマーク共有、クラウド導入に対応。",
       "source": "npaka",
       "publishedAt": "2026-01-06T02:47:53.000Z",
-      "contentHash": "e6443ad216de"
+      "contentHash": "6831224dee51"
     },
     {
       "id": "e5045c451103",
@@ -707,10 +887,10 @@
       "id": "308a4be136b1",
       "title": "CES2026で発表されたNVIDIAの新モデルまとめ -  Nemotron ・ Cosmos ・ Isaac GR00T ・ Alpamayo ・ Clara",
       "url": "https://note.com/npaka/n/n2f189b970e0a",
-      "summary": "NVIDIAが業界横断でAIを推進するため、オープンなモデル・データ・ツールを公開。開発者や企業の導入促進、性能向上や共同開発の支援を目指す。",
+      "summary": "CES2026でNVIDIAはNemotron（音声・RAG・安全）、Cosmos（物理AI）、Isaac GR00T（ロボット）、Alpamayo（自動運転）、Clara（バイオ）などのオープンモデルと、10兆語トークンやロボ軌跡、タンパク質構造、車両センサ等の大規模マルチモーダルデータやツールを公開し、産業向けAI開発を支援すると発表した。",
       "source": "npaka",
       "publishedAt": "2026-01-06T01:35:56.000Z",
-      "contentHash": "336e5a4cea8c"
+      "contentHash": "df2f8f32b1f0"
     },
     {
       "id": "44a5d79f39a9",
@@ -1337,10 +1517,10 @@
       "id": "c26ff29cc259",
       "title": "Svelte のクイックスタート",
       "url": "https://note.com/npaka/n/n3b9b02f69b5b",
-      "summary": "Svelteの概要と導入手順。コンパイルで最適化される軽量フレームワークで仮想DOM不要。SvelteはUI、SvelteKitはアプリ枠組、Svelte UIはライブラリ群。Node導入→Viteでプロジェクト作成→npm install→npm run dev。src/App.svelteで$stateによるリアクティブとHTML/JS/CSSを1ファイルで記述。",
+      "summary": "Svelte のクイックスタート：Svelteはビルド時に最適化される軽量・高速なフロントエンド。仮想DOMを使わず、HTML/CSS/JSを1ファイルで記述し、$stateでリアクティブ更新。SvelteKitはルーティングやSSR等を提供。Viteテンプレで作成→npm install→npm run devで開発開始。",
       "source": "npaka",
       "publishedAt": "2026-01-05T04:33:15.000Z",
-      "contentHash": "2683bd307be2"
+      "contentHash": "25394fdb01a3"
     },
     {
       "id": "359245a8525d",
@@ -1814,10 +1994,10 @@
       "id": "deb9f97107e4",
       "title": "AIニケちゃんの漫画とアニメを作る",
       "url": "https://note.com/npaka/n/n37e194a6404b",
-      "summary": "1月4日がAIニケちゃんの誕生日という偶然を受け、作者が制作した漫画とアニメをまとめた記事。ツイートで告知しています。",
+      "summary": "1月4日が誕生日のAIニケちゃんを祝し、npakaが1ページ漫画（AITuber題材）、ストーリー漫画の冒頭2ページ、さらにアニメ化を制作・公開。公式サイトとツイートで紹介し参加を呼びかける。",
       "source": "npaka",
       "publishedAt": "2026-01-04T11:10:30.000Z",
-      "contentHash": "5029040a8bdd"
+      "contentHash": "62ed851796d2"
     },
     {
       "id": "daaec8c08917",
@@ -3407,10 +3587,10 @@
       "id": "5006640ed85a",
       "title": "ChatGPT による Gemini TTS の演技指導を試す",
       "url": "https://note.com/npaka/n/n58f53646d3a6",
-      "summary": "漫画ページを入力してChatGPTにGemini TTS用のプロンプト（AUDIO PROFILE／SCENE／DIRECTOR’S NOTES）を生成させ、Google AI StudioのGemini 2.5で音声を合成。教室や自室の細やかな演技指導（小声・間・心情表現）でアニメ制作を試行し、Nano Banana Pro＋Grokも併用した。",
+      "summary": "ChatGPTでGemini TTS向けのプロンプトと演技指導を自動生成し、Google AI Studio（Gemini 2.5 Preview TTS）で音声化。Nano Banana Pro＋Grokと組み、教室や大会前夜などページごとの細かな演出・指示を提示。",
       "source": "npaka",
       "publishedAt": "2025-12-30T00:53:31.000Z",
-      "contentHash": "5d7eb0f0618d"
+      "contentHash": "926ca1593ef7"
     },
     {
       "id": "a6218b04be59",
@@ -8820,186 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-12-18T21:16:33.000Z",
       "contentHash": "fca8ecc2010f"
-    },
-    {
-      "id": "98bf74a95c52",
-      "title": "The best foldable phone you can buy",
-      "url": "https://www.theverge.com/tech/635839/best-foldable-phone",
-      "summary": "折りたたみスマホは重く高価でカメラ性能や耐久性が通常端末より劣る面があるが改善が進む。形は書籍型（電話＋タブレット）と縦折りクラムシェル（電話＋スマートウォッチ)の二種類。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-18T21:00:00.000Z",
-      "contentHash": "43feb6389876"
-    },
-    {
-      "id": "5b4514cc28f4",
-      "title": "LG forced a Copilot web app onto its TVs but will let you delete it",
-      "url": "https://www.theverge.com/news/847685/lg-copilot-web-app-delete",
-      "summary": "LGは、最近のソフト更新で消せない形で追加されたMicrosoft Copilotのショートカットについて、ユーザーが希望すれば削除できるよう対応すると表明した。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-18T20:31:51.000Z",
-      "contentHash": "3e3286467059"
-    },
-    {
-      "id": "19fe22b68d6f",
-      "title": "Google&#8217;s Gemini app can check videos to see if they were made with Google AI",
-      "url": "https://www.theverge.com/news/847680/google-gemini-verification-ai-generated-videos",
-      "summary": "GoogleはGeminiに、GoogleのAIで生成・編集された動画かを判定する機能を追加。映像や音声から独自透かし「SynthID」を検出し、該当箇所のタイムスタンプを示す。画像判定は既に導入済みで、透かしの除去や他プラットフォームでの検知性は不明。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-18T20:31:22.000Z",
-      "contentHash": "4be98113a475"
-    },
-    {
-      "id": "25f5093885f3",
-      "title": "T5Gemma 2: The next generation of encoder-decoder models",
-      "url": "https://blog.google/technology/developers/t5gemma-2/",
-      "summary": "T5Gemma 2はGemma 3を継承した次世代エンコーダー・デコーダモデルで、重要なアーキテクチャ変更を伴い初のマルチモーダル＆長文コンテキスト対応を実現。語彙埋め込みの共有やデコーダの自己／クロス注意統合で効率化している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-18T19:48:15.000Z",
-      "contentHash": "2bb6b97ab28c"
-    },
-    {
-      "id": "21d97f31b507",
-      "title": "How to hack Discord, Vercel and more with one easy trick",
-      "url": "https://kibty.town/blog/mintlify/",
-      "summary": "外部のURLには直接アクセスできません。記事本文か要点をここに貼ってください。いただければ200字以内で日本語に要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-18T19:41:24.000Z",
-      "contentHash": "680cf5119ca3"
-    },
-    {
-      "id": "f8825c51c0d4",
-      "title": "The Scottish Highlands, the Appalachians, Atlas are the same mountain range",
-      "url": "https://vividmaps.com/central-pangean-mountains/",
-      "summary": "パンゲア大陸中央に存在した巨大山脈の復元図。アパラチアやヴァリシアン、アトラス等がつながり、大陸衝突で形成され後に侵食・埋没、気候へ影響。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-18T19:15:17.000Z",
-      "contentHash": "6b491c429f5b"
-    },
-    {
-      "id": "dcbf1c7b51cc",
-      "title": "We pwned X, Vercel, Cursor, and Discord through a supply-chain attack",
-      "url": "https://gist.github.com/hackermondev/5e2cdc32849405fff6b46957747a2d28",
-      "summary": "外部のURLに直接アクセスできないため、記事本文をここに貼っていただけますか？  \n全文か主要部分を貼れば200文字以内で日本語要約します。記事が長ければ要約したい箇所（導入〜結論など）を指定しても可です。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-18T19:08:48.000Z",
-      "contentHash": "27647d65eb24"
-    },
-    {
-      "id": "0995ec20c5cb",
-      "title": "How China built its ‘Manhattan Project’ to rival the West in AI chips",
-      "url": "https://www.japantimes.co.jp/business/2025/12/18/tech/china-west-ai-chips/",
-      "summary": "中国のAI産業は依然として米欧製の高性能チップに依存しており、輸出規制の抜け道や海外クラウド、流通経路を利用して入手が続く。国内チップは性能で遅れ、北京は自給を急ぐが短期的依存は続きそうだ。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-18T18:55:34.000Z",
-      "contentHash": "816ed7bb7cbe"
-    },
-    {
-      "id": "caea9414f681",
-      "title": "FunctionGemma 270M Model",
-      "url": "https://blog.google/technology/developers/functiongemma/",
-      "summary": "Gemma 3の270Mモデルをエッジでのカスタム関数呼び出し向けに微調整した専用版と、利用者がさらに最適化できるトレーニングレシピを公開。Kat Blackらが発表し、Gemmaは2025年に100Mから300Mへ普及拡大。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-18T18:26:52.000Z",
-      "contentHash": "5f2567f55157"
-    },
-    {
-      "id": "9b9f9aa7ed41",
-      "title": "Firefox will have an option to disable all AI features",
-      "url": "https://mastodon.social/@firefoxwebdevs/115740500373677782",
-      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で要約します。HNコメントの要約も希望ならその旨を教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-18T18:18:30.000Z",
-      "contentHash": "7ff240ddf8e3"
-    },
-    {
-      "id": "072f05ea39e2",
-      "title": "GPT-5.2-Codex",
-      "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
-      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。記事本文か主要部分を貼っていただければ、200文字以内で日本語要約します。HNコメントの要約も可。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-18T18:14:48.000Z",
-      "contentHash": "305f7c248986"
-    },
-    {
-      "id": "510da15fe80c",
-      "title": "Skills for organizations, partners, the ecosystem",
-      "url": "https://claude.com/blog/organization-skills-and-directory",
-      "summary": "10月導入の「skills」を組織で配布・発見・作成しやすく改善。管理者はTeam/Enterpriseで組織全体にスキルをプロビジョニング（既定有効、個別OFF可）。NotionやCanva等のパートナーディレクトリ、自然文やフォルダアップロードで作成・編集でき、他AIでも使えるオープン標準を提供。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-18T17:04:32.000Z",
-      "contentHash": "8b817c330b83"
-    },
-    {
-      "id": "fe475fbb6ed9",
-      "title": "iRobot’s bankruptcy isn’t the end — it’s a reboot, says its CEO",
-      "url": "https://www.theverge.com/report/847340/irobot-bankruptcy-reset-interview-ceo-gary-cohen",
-      "summary": "ロボット掃除機メーカーiRobotは破産申請後、中国の受託製造業者Picea Roboticsに売却される。CEOゲイリー・コーエンはこれを事業継続と成長を目指す「再起動」と説明している。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-18T16:30:30.000Z",
-      "contentHash": "7157104e55b7"
-    },
-    {
-      "id": "7489e0307021",
-      "title": "How Atlas Obscura plans to embrace the 3D web",
-      "url": "https://www.theverge.com/column/847182/atlas-obscura-society-3d-virtual-lounge",
-      "summary": "Atlas ObscuraはMeta QuestなどのVRアプリに続きHTCのViverseへ進出し3Dウェブ対応を拡大。2009年創立で世界の珍スポット約3.2万件を収集、コミュニティは9300万超のリストを作成。書籍やポッドキャストも展開し、実際に訪れにくい場所をデジタル体験で提供しようとしている。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-18T16:30:00.000Z",
-      "contentHash": "52c59c294d60"
-    },
-    {
-      "id": "92fd69114203",
-      "title": "Inside Kaggle's AI Agents intensive course with Google",
-      "url": "https://blog.google/technology/developers/ai-agents-intensive-recap/",
-      "summary": "KaggleとGoogleが5日間のAIエージェント集中講座を開催し、150万人超が参加。専門講義や技術資料、11,000件以上の課題提出で設計・評価・運用を学び、教材はKaggle Learnに公開。2026年に再実施予定。",
-      "source": "Gemini",
-      "publishedAt": "2025-12-18T16:00:00.000Z",
-      "contentHash": "9fefc2066730"
-    },
-    {
-      "id": "7b51d5603cd2",
-      "title": "Beginning January 2026, all ACM publications will be made open access",
-      "url": "https://dl.acm.org/openaccess",
-      "summary": "申し訳ありませんが外部リンクに直接アクセスできません。記事本文（または要点）を貼っていただければ、200字以内で日本語要約します。HNコメントの要約も希望なら併せて承ります。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-18T15:39:09.000Z",
-      "contentHash": "bfc6f56610e1"
-    },
-    {
-      "id": "94455d7be9b8",
-      "title": "Microsoft&#8217;s holiday Copilot ad is wrapped in empty promises",
-      "url": "https://www.theverge.com/report/847056/microsoft-copilot-ai-vision-pc-assistant-christmas-holiday-ad",
-      "summary": "MicrosoftのホリデーCopilot広告は、サンタ登場で照明や料理などをAIが手軽に手伝う演出を見せるが、The VergeのレビュアーAntonioが広告内のプロンプトを実際に検証したところ、機能は誇張やハルシネーションが多く、約束は空虚だと批判している。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-18T15:30:00.000Z",
-      "contentHash": "0bb5577c33ee"
-    },
-    {
-      "id": "68bc5b93be31",
-      "title": "Micron says memory shortage will ‘persist’ beyond 2026",
-      "url": "https://www.theverge.com/news/847344/micron-ram-memory-shortage-2026-earnings",
-      "summary": "MicronはAI需要でDRAM・NANDの供給不足が2026年以降も続くと予測。HBM需要で収益は過去最高を記録し、消費者向け事業を縮小してデータセンター優先に切り替えています。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-18T15:14:24.000Z",
-      "contentHash": "a488fa1b9f64"
-    },
-    {
-      "id": "97748fcd8301",
-      "title": "‘All chaos and panic’: Nilay answers your burning Decoder questions",
-      "url": "https://www.theverge.com/podcast/846750/decoder-mailbag-qa-nilay-patel-interview-2025",
-      "summary": "Decoderの年末特番でケイトとニックがナイレイを招き、約100回の配信や新YouTube、広告なしフィード、代理ホストなど今年を振り返り、リスナーのCarPlayやAI、番組構成の質問に答えた。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-18T15:00:00.000Z",
-      "contentHash": "55ee7afaa4ec"
-    },
-    {
-      "id": "57e5dd72ab9d",
-      "title": "業務日付を抽象化、その後具象から守る: 抽象オブジェクト&amp;amp;プロバイダーパターン | Nealle Developer's Blog",
-      "url": "https://nealle-dev.hatenablog.com/entry/2025/12/19/123456",
-      "summary": "業務日付を BusinessDateTime のような値オブジェクトで抽象化し、月末判定などをメソッド化。さらに BusinessDateProvider で today/from_today を供給（UTC基準）して日時依存やモック・テストの不安定化を防ぐ設計パターンの紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-18T15:00:00.000Z",
-      "contentHash": "323e690e6e6d"
     }
   ]
 }
