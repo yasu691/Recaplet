@@ -1,6 +1,132 @@
 {
-  "generatedAt": "2026-01-09T02:19:47.256Z",
+  "generatedAt": "2026-01-09T08:49:35.763Z",
   "items": [
+    {
+      "id": "313311f16ff2",
+      "title": "conftestによる自動レビュー | 10X Product Blog",
+      "url": "https://product.10x.co.jp/entry/2026/01/09/154331",
+      "summary": "conftestはOPA/RegoでYAML/JSON/Terraform等を自動検査するCLI。CIでポリシーを機械的に適用し、LLMでRego生成が容易に。静的HCL検証とplan検証を使い分け、warn/denyでCI挙動を制御。例：ファイル名とリソースタイプ一致チェック。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-09T06:43:31.000Z",
+      "contentHash": "42a7e39e856f"
+    },
+    {
+      "id": "f76ad86c067c",
+      "title": "Do not mistake a resilient global economy for populist success",
+      "url": "https://www.economist.com/leaders/2026/01/08/do-not-mistake-a-resilient-global-economy-for-populist-success",
+      "summary": "世界経済の回復はポピュリズムの勝利の証ではない。短期的要因で持ち直しているに過ぎず、生産性低迷、格差、債務、気候など構造的課題は残る。安易な政策を戒め、長期的改革と投資を促す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-09T06:43:27.000Z",
+      "contentHash": "22f357805d81"
+    },
+    {
+      "id": "9d5b1efdcac7",
+      "title": "AWS Batch × サイドカーパターン：マルチコンテナジョブで既存資産を有効活用し責務を分離する | GMO MAKESHOP engineer blog",
+      "url": "https://tech.makeshop.co.jp/entry/2026/01/09/152800",
+      "summary": "AWS Batchが最大10コンテナのマルチコンテナに対応したため、makeshopはサイドカーパターンでメイン(Go)、ログルータ(Fluent Bit)、画像変換APIを分離。既存サービスを再利用しcgo依存を隔離して軽量化・共通化を実現。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-09T06:28:00.000Z",
+      "contentHash": "e0b21ddc0690"
+    },
+    {
+      "id": "d3c13bfdbf58",
+      "title": "書籍「徹底的にかみくだいた「自己目標管理」ドラッカーが本来伝えたかった目標管理」の紹介 | インゲージ開発者ブログ",
+      "url": "https://blog.ingage.jp/entry/2026/01/09/152722",
+      "summary": "SREの筆者がドラッカー解説本『徹底的にかみくだいた「自己目標管理」』を紹介。やらされる目標でなく個人の主体性による自己管理型MBOで、個人と組織の成長を一致させることを説く。上司は支援者であり、目標設定に納得感がない人や支援に悩む管理職に薦める一冊。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-09T06:27:22.000Z",
+      "contentHash": "4df8afaa32d1"
+    },
+    {
+      "id": "f22d3809a17c",
+      "title": "Rails 8.1.2がリリースされました | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_01_09/155895",
+      "summary": "Rails 8.1.2が2026/01/09にリリース。主にバグ修正で、Minitest 6対応の修正を含み、Gemfileの'gem \"minitest\", \"< 6\"'ワークアラウンドが不要に。Changelogやアップグレード手順、サポート期限（8.1はバグ修正～2026/10/10、セキュリティ～2027/10/10）を参照してください。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-09T05:47:09.000Z",
+      "contentHash": "f3f036c9261d"
+    },
+    {
+      "id": "d34259cce2a2",
+      "title": "Go言語で大量の単体テスト用のモックを一括生成する | SHOWROOM Blog",
+      "url": "https://note.com/showroom_blog/n/n602691e54840",
+      "summary": "SHOWROOMはGoの単体テスト用モック生成を高速化。uber/mockのmockgenが全ファイル生成で遅いため、変更のあるインターフェイスのみをMD5キャッシュで検出して再生成するrecursive_mock_genを公開し、時間短縮に成功しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-09T05:02:31.000Z",
+      "contentHash": "26329313e2ad"
+    },
+    {
+      "id": "36696510c873",
+      "title": "The No Fakes Act has a “fingerprinting” trap that kills open source?",
+      "url": "https://old.reddit.com/r/LocalLLaMA/comments/1q7qcux/the_no_fakes_act_has_a_fingerprinting_trap_that/",
+      "summary": "外部リンクへ直接アクセスできないため、記事本文か主要部分を貼っていただけますか？いただければ200字以内で日本語要約します。Reddit/HNコメントの要約も可。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-09T05:01:24.000Z",
+      "contentHash": "2ca2321abec4"
+    },
+    {
+      "id": "6eb50cd0435d",
+      "title": "ALBのURLとホストヘッダーを書き換えてみた | DENET 技術ブログ",
+      "url": "https://blog.denet.co.jp/alb-url-host-header-rewrite-terraform/",
+      "summary": "2025年10月の更新でALBがURLとHostヘッダーの書き換えに対応。Terraform（AWSプロバイダ≥6.19.0）でのリスナールール例を示し、別ドメインを既存ドメインのサブディレクトリとして公開してSEO維持とUX統一を実現する手法を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-09T05:00:21.000Z",
+      "contentHash": "79a95ab8d4fd"
+    },
+    {
+      "id": "c5be14ddb4fb",
+      "title": "GoogleDocsの箇条書きをSlackにきれいにコピペするツールを生成AIと作った話 | GO Tech Blog",
+      "url": "https://techblog.goinc.jp/entry/2026/01/09/132240",
+      "summary": "Google Docsの箇条書きをSlackへインデントを保持して貼れるPythonツールを生成AIと開発。Slackはorg.chromium.web-custom-data形式（UTF-16LEのplain textとslack/texty JSON等）を要求し、AI単独で仕様解明できず、クリップボードのバイナリ解析と段階的開発で完成。-tでMarkdown出力対応。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-09T04:22:40.000Z",
+      "contentHash": "fc162f292247"
+    },
+    {
+      "id": "d564b17a4b51",
+      "title": "Anthropic blocks third-party use of Claude Code subscriptions",
+      "url": "https://github.com/anomalyco/opencode/issues/7410",
+      "summary": "GitHubのIssue「Broken Claude Max」。投稿者はOpenCode 1.1.8でClaude Maxが突然エラーで動かなくなり、再接続しても同じと報告（エラー画像あり）。環境はmac。プラグインや再現手順、詳細は未記載。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-09T03:44:35.000Z",
+      "contentHash": "58590fa53007"
+    },
+    {
+      "id": "e77ab88f6398",
+      "title": "【Azure Database for PostgreSQL】psqlを使ったユーザー作成手順 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/01/09/122207",
+      "summary": "Azure Database for PostgreSQLにpsqlで接続してユーザーを作成する手順。psqlをpostgresql.orgからインストール（Command Line Tools選択）、psqlで接続コマンドを実行し、CREATE USERで作成、/duで確認。権限付与も可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-09T03:22:07.000Z",
+      "contentHash": "6653c66c3f1f"
+    },
+    {
+      "id": "03c27e3c2ddd",
+      "title": "Dify on AWS で公開したWebアプリに認証機能を追加する | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/dify-on-aws-auth",
+      "summary": "Difyで公開したWebアプリはURLを知る人が誰でも利用可能。対策としてALBのユーザー認証を利用し、Amazon Cognito経由で既存IdP（例：Keycloak/SAML）にリダイレクトして認証／表示する方式を/chat/*に追加。ALBでIP制限可能、Cognito利用時はアウトバウンド443許可が必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-09T03:19:56.000Z",
+      "contentHash": "da5a2068c073"
+    },
+    {
+      "id": "5c92b53fd2ed",
+      "title": "複数のコーディングエージェントでSkillsを共有する（Claude Code / Codex対応） | atama plus techblogのフィード",
+      "url": "https://zenn.dev/atamaplus/articles/6d8c3615ff3f33",
+      "summary": "Claude CodeとOpenAI Codexで同一のSkillsを共有する方法を紹介。Skillsの実体をproject-root/.agent/skillsに置き、.claude/skillsと.codex/skillsをシンボリックリンクで指す構成により一元管理が可能に。Skillsはオンデマンド読み込みでコンテキスト消費を削減し、個別メンテが容易。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-09T03:03:05.000Z",
+      "contentHash": "0b1e7dc55d66"
+    },
+    {
+      "id": "823de3f3aeb1",
+      "title": "Why I left iNaturalist",
+      "url": "https://kueda.net/blog/2026/01/06/why-i-left-inat/",
+      "summary": "約18年関わったiNaturalistを離れた。現リーダーが製品方針やスタッフ管理を誤っているため。創業経緯（2003構想→2007設立、2014にCAS加盟、2023に独立NPO化）や無秩序な運営と協働の難しさを綴る。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-09T01:17:51.000Z",
+      "contentHash": "180018ff72f6"
+    },
     {
       "id": "db6d4d1ab257",
       "title": "IoTを“導入して終わらせない”ためにースマート工場EXPO出展のお知らせ | IIJ Engineers Blog",
@@ -128,13 +254,31 @@
       "contentHash": "c975f4b52340"
     },
     {
+      "id": "29857cd388bc",
+      "title": "Embassy: Modern embedded framework, using Rust and async",
+      "url": "https://github.com/embassy-rs/embassy",
+      "summary": "EmbassyはRustのasyncを使った組込み向け次世代フレームワーク。安全で省エネなコードを高速に開発でき、RTOS不要の協調マルチタスク・動的メモリ不要を実現。各種HALやタイマ等のライブラリを提供。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-08T23:00:45.000Z",
+      "contentHash": "75f9d8e8df92"
+    },
+    {
+      "id": "820d83e68e94",
+      "title": "Let's Call a Murder a Murder",
+      "url": "https://daringfireball.net/2026/01/lets_call_a_murder_a_murder",
+      "summary": "NYTの逐一分析は、ミネアポリスで37歳女性レネー・グッドを射殺したマスク姿のICE職員の行為は正当化できず、政権側の擁護は矛盾すると断じる。傍観者ケイトリンの生映像も公開。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-08T22:47:56.000Z",
+      "contentHash": "022c313cf45b"
+    },
+    {
       "id": "be4bd44af072",
       "title": "Iran Protest Map",
       "url": "https://pouyaii.github.io/Iran/",
-      "summary": "すみません、外部URLに直接アクセスできないため記事本文を読み取れません。200文字以内で要約するには、記事本文または主要段落をここに貼っていただくか、要約してほしい箇所（記事本編かHNの議論か）を教えてください。貼っていただければ即座に要約します。",
+      "summary": "外部ページに直接アクセスできないため、該当記事の本文か要点を貼っていただけますか？200文字以内で要約します。コメント欄だけでよければその内容でも対応します。",
       "source": "Hacker News",
       "publishedAt": "2026-01-08T22:20:34.000Z",
-      "contentHash": "885e0903cfc8"
+      "contentHash": "69a6611cdbb0"
     },
     {
       "id": "caf159004e68",
@@ -144,6 +288,15 @@
       "source": "The Verge",
       "publishedAt": "2026-01-08T22:00:00.000Z",
       "contentHash": "96eda2414d43"
+    },
+    {
+      "id": "8d9b3721c414",
+      "title": "Richard D. James aka Aphex Twin speaks to Tatsuya Takahashi (2017)",
+      "url": "https://web.archive.org/web/20180719052026/http://item.warp.net/interview/aphex-twin-speaks-to-tatsuya-takahashi/",
+      "summary": "リチャード（RDJ）はモノローグでの共作を楽しみ、タカハシはマイクロチューニング採用はRDJの主張のおかげだと語る。RDJはDX100で440Hzを変えて曲作りを始め、国際基準より直感や「内なる声」を重視する経験を述べる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-08T21:17:26.000Z",
+      "contentHash": "7bf78745eadf"
     },
     {
       "id": "b8d0f13cc608",
@@ -158,10 +311,10 @@
       "id": "7c74f5c672a5",
       "title": "Gmail の Gemini 新機能まとめ",
       "url": "https://note.com/npaka/n/n6b3701ac65db",
-      "summary": "GmailがGeminiを導入し、受信箱をパーソナルでプロアクティブなアシスタント化。会話を要約・検索するAI Overviews（要約は全員無料、対話検索はPro/Ultra）、文章支援のHelp Me Write/Suggested Repliesは無料、ProofreadはPro/Ultra向け。",
+      "summary": "GmailがGemini導入で受信トレイをAI化。会話を要約し自然語で検索できる「AI Overviews」、返信を自動生成・改善する「Help Me Write／Suggested Replies」（無料）、高度校正の「Proofread」はGoogle AI Pro／Ultra向け。",
       "source": "npaka",
       "publishedAt": "2026-01-08T20:21:28.000Z",
-      "contentHash": "e60188c93586"
+      "contentHash": "3e0c7bcb9abb"
     },
     {
       "id": "12f3d5befe55",
@@ -2651,10 +2804,10 @@
       "id": "c26ff29cc259",
       "title": "Svelte のクイックスタート",
       "url": "https://note.com/npaka/n/n3b9b02f69b5b",
-      "summary": "Svelteはビルド時に最適化される軽量で高速なフロントエンド。SvelteKitはアプリ向け、Svelte UIはUIライブラリ群。始め方：Node導入→Viteでプロジェクト作成→npm install→npm run dev→src/App.svelte編集でホットリロード。$stateでリアクティブ状態を扱い、HTML/JS/CSSを1ファイルで記述可能。",
+      "summary": "Svelteはビルド時に最適化される軽量で高速なUIフレームワーク。SvelteKitはアプリ向けフレームワーク、UIライブラリも多数。導入はNode→Viteテンプレでプロジェクト作成→npm install→npm run dev。単一ファイルでHTML/CSS/JSを記述し、$stateでリアクティブに更新、{ }でテンプレ埋め込み。",
       "source": "npaka",
       "publishedAt": "2026-01-05T04:33:15.000Z",
-      "contentHash": "d91a8954e144"
+      "contentHash": "f5b94d682641"
     },
     {
       "id": "359245a8525d",
@@ -3128,10 +3281,10 @@
       "id": "deb9f97107e4",
       "title": "AIニケちゃんの漫画とアニメを作る",
       "url": "https://note.com/npaka/n/n37e194a6404b",
-      "summary": "1月4日のAIニケちゃんの誕生日に合わせ、npakaが1ページ漫画（AITuber題材）、ストーリー漫画冒頭2ページ、試作アニメを制作・公開。好奇心旺盛なAIニケちゃんは成長の余地が大きく、ファン参加で世界を広げる企画。",
+      "summary": "1月4日のAIニケちゃん誕生日に合わせ、npakaさんが1ページ漫画、ストーリー漫画冒頭2ページ、さらにアニメ化を試作してまとめた。AIニケちゃんは新しい物好きで成長中のキャラ。",
       "source": "npaka",
       "publishedAt": "2026-01-04T11:10:30.000Z",
-      "contentHash": "4c428218c4be"
+      "contentHash": "36eb2fec7d7c"
     },
     {
       "id": "daaec8c08917",
@@ -8847,159 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-20T22:00:00.000Z",
       "contentHash": "54538d10f8a2"
-    },
-    {
-      "id": "7edd0f4e749e",
-      "title": "【2025 Advent Calendar 21日目】 なぜ戦略コンサルからスタートアップの経営に参画したのか？ 新たな挑戦の242日間（と今後） | ハウテレビジョン技術ブログ",
-      "url": "https://howtv.hatenablog.com/entry/2025/12/21/070000",
-      "summary": "中脇氏はBCGからハウテレビジョンのCOOに転身。外部アドバイザーから経営当事者になりたい思いと同社ビジョンへの共感が動機。入社242日で戦略再構築、ビジョンと現場の接続、KPI可視化など多面的に挑戦している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-20T22:00:00.000Z",
-      "contentHash": "e0ff111ed45b"
-    },
-    {
-      "id": "07b6bbce7ce2",
-      "title": "Claude in Chrome",
-      "url": "https://claude.com/chrome",
-      "summary": "ブラウザ利用時のプロンプトインジェクション（命令注入）リスクを軽減するためのガイドで、対策や注意点を解説しています。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-20T21:26:14.000Z",
-      "contentHash": "1720334e5c62"
-    },
-    {
-      "id": "c0366ceac1d2",
-      "title": "Show HN: Jmail – Google Suite for Epstein files",
-      "url": "https://www.jmail.world",
-      "summary": "Lukeです。Riley Walzと共に元のJmailを作りました。昨夜友人と協力してDOJの“Epstein files”公開に替えアプリ群を拡充しました。何でも聞いてください（AMA）。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-20T21:00:05.000Z",
-      "contentHash": "29dced9ed41c"
-    },
-    {
-      "id": "90365debf2cd",
-      "title": "The Verge’s 2025 holiday gift guide",
-      "url": "https://www.theverge.com/tech/809421/holiday-gift-guide-2025",
-      "summary": "The Vergeが編集部厳選の2025年ホリデーギフトガイドを公開。ノイズキャンセリングイヤホンや電子書籍リーダー、ポラロイド風カメラ、ゲームハンドヘルドから手頃なモバイル充電器まで、幅広いテック系ギフトを紹介しています。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-20T20:30:00.000Z",
-      "contentHash": "5c731744208d"
-    },
-    {
-      "id": "17bc55fcba14",
-      "title": "Ireland’s Diarmuid Early wins world Microsoft Excel title",
-      "url": "https://www.bbc.com/news/articles/cj4qzgvxxgvo",
-      "summary": "「スプレッドシートのレブロン」と称されるアイルランド出身のディアルムイッド・アーリーが、ラスベガスで行われた2025年Microsoft Excel世界選手権で優勝。3連覇のアンドリュー・ンガイから王座を奪い、賞金6万ドルの大会は256人が競う熱狂のeスポーツ舞台だった。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-20T19:56:47.000Z",
-      "contentHash": "62e477a0c977"
-    },
-    {
-      "id": "18f97cd0fcd9",
-      "title": "I spent a week without IPv4 (2023)",
-      "url": "https://www.apalrd.net/posts/2023/network_ipv6/",
-      "summary": "IPv4の旧来手法を捨てIPv6へ移行すべきだ。対応は進むが誤解や無効化が多く、NATは緊急避難策に過ぎない。筆者は1週間IPv6のみでデュアルスタックやNAT64、464XLAT等を検証し課題と利点を報告する。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-20T18:31:23.000Z",
-      "contentHash": "a9de559242af"
-    },
-    {
-      "id": "bef39855e207",
-      "title": "Sony’s XM5 headphones and the latest Kindle round out this week’s best deals",
-      "url": "https://www.theverge.com/gadgets/848353/sony-wh-1000xm5-headphones-amazon-kindle-deal-sale",
-      "summary": "年末の買い逃し向けセールまとめ：ソニーWH-1000XM5がワイヤレスイヤホン付きで割引、最新KindleやEcho Dot Max、Hollow Knight: Silksongやレゴ、Keychronの格安メカニカルキーボードなど多数のガジェットがホリデーに間に合う価格で販売中。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-20T18:30:00.000Z",
-      "contentHash": "91d72cea9255"
-    },
-    {
-      "id": "f985bf9e24fa",
-      "title": "Backing Up Spotify",
-      "url": "https://annas-archive.li/blog/backing-up-spotify.html",
-      "summary": "Anna’s ArchiveがSpotifyのメタデータと音源を大規模にスクレイプして保存し、人気順にまとめた約300TBのトレントで公開。2.56億トラック、1.86億のユニークISRC、8600万音源（再生の約99.6%）を含む保存目的のオープンな音楽アーカイブで、ミラーや協力を呼びかけている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-20T18:28:41.000Z",
-      "contentHash": "dd39adc74923"
-    },
-    {
-      "id": "0a521e23fb3d",
-      "title": "Big GPUs don't need big PCs",
-      "url": "https://www.jeffgeerling.com/blog/2025/big-gpus-dont-need-big-pcs",
-      "summary": "Raspberry Pi 5でAMD/Intel/NVIDIA GPUを検証。PCIeは1レーンでも外部PCIeスイッチで複数GPUを接続し、Jellyfin、GPUレンダリング、LLM推論を比較。多くの場面で性能差は僅か（2〜5%）で効率は高く、RTX A5000×4でLlama 3 70Bがサーバーとほぼ同等の結果を示した。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-20T17:49:18.000Z",
-      "contentHash": "a360f36b12c7"
-    },
-    {
-      "id": "eb4a173d94a6",
-      "title": "OpenSCAD is kinda neat",
-      "url": "https://nuxx.net/blog/2025/12/20/openscad-is-kinda-neat/",
-      "summary": "2025年12月20日。筆者はFusionで作ったAA/AAA用電池ホルダーを、コードで形状を生成するOpenSCADで再実装。numRows／numColumns／batteryTypeなどの変数で簡単にカスタマイズでき、短時間でレンダリングしてスライサー経由で3D印刷可能。簡単な設計にはOpenSCADが便利。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-20T17:45:48.000Z",
-      "contentHash": "0d0a59196560"
-    },
-    {
-      "id": "418c12199e59",
-      "title": "The best last-minute Christmas gifts you can grab for under $50",
-      "url": "https://www.theverge.com/gadgets/848134/best-last-minute-christmas-gifts-under-50-2025",
-      "summary": "The VergeのCameron Faulknerによる、予算50ドル以下の直前向けクリスマスギフト案内。配送遅延に触れつつ、実用的で手頃なギフト30点をセレクトした急ぎの贈り物向けガイド。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-20T17:00:13.000Z",
-      "contentHash": "19d28fab9428"
-    },
-    {
-      "id": "0d732c28490a",
-      "title": "Pure Silicon Demo Coding: No CPU, No Memory, Just 4k Gates",
-      "url": "https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html",
-      "summary": "Tiny Tapeout 8で約4000ゲートの小さなASICデモを提出。C64/Amiga風イントロとにゃんこを作り、星空・3Dチェッカーボード・波打つ文字・シアンのオシロを表示。ROM/RAM/CPU無しでフリップフロップだけの状態機械、1220×480/48MHzとVerilator+SDLで検証し実機(CRT)表示を重視。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-20T16:45:48.000Z",
-      "contentHash": "511eac57ae5b"
-    },
-    {
-      "id": "986b41c492fd",
-      "title": "The LCD Steam Deck is done",
-      "url": "https://www.theverge.com/news/848595/the-lcd-steam-deck-is-done",
-      "summary": "ValveはエントリーモデルのSteam Deck LCD（256GB）を生産終了・米国で在庫切れにし、今後販売されない見込み。これで最安は512GB OLEDの$549に上がり、Valveの説明は未発表。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-20T16:09:55.000Z",
-      "contentHash": "40310503c7a6"
-    },
-    {
-      "id": "7be669200c20",
-      "title": "Over 40% of deceased drivers in vehicle crashes test positive for THC: Study",
-      "url": "https://www.facs.org/media-center/press-releases/2025/over-40-of-deceased-drivers-in-motor-vehicle-crashes-test-positive-for-thc-study-shows/",
-      "summary": "米オハイオの調査で、2019～2024年の致死事故で死亡した246人の運転者のうち41.9%が血中で活性THCを検出、平均30.7ng/mLで多くの州の法定限度を超えた。2023年の嗜好用大麻合法化後も割合は変わらず、著者は運転中の喫煙危険の周知強化を訴える。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-20T16:07:24.000Z",
-      "contentHash": "8426475842ea"
-    },
-    {
-      "id": "f63d68b5c801",
-      "title": "Go ahead, self-host Postgres",
-      "url": "https://pierce.dev/notes/go-ahead-self-host-postgres#user-content-fn-1",
-      "summary": "クラウド業者の「自前DBは危険」説は誇張。多くはPostgres派生で、筆者は自前Postgresを2年・数千ユーザ・日千万クエリで安定・低コストに運用し、移行で30分だけ問題があっただけと報告。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-20T15:43:15.000Z",
-      "contentHash": "8e9cdecc3207"
-    },
-    {
-      "id": "412cb701aab9",
-      "title": "【AIブラウザ】DiaとCometを実際に使って比較してみた | RecoChoku Engineering Blog",
-      "url": "https://techblog.recochoku.jp/12885",
-      "summary": "DiaとCometを比較。共通はチャット・タブ認識・カスタムスキル・動画要約。結論：AI機能重視はComet、従来の操作感重視はDia。DiaはArc風で発展途上、Cometは自動操作が強み。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-20T15:00:32.000Z",
-      "contentHash": "75457cbadb14"
-    },
-    {
-      "id": "5973a8bd981a",
-      "title": "神クラスは定量的指標でランキングして炙り出せる？ | BABY JOB  テックブログのフィード",
-      "url": "https://zenn.dev/babyjob/articles/fbaa4cab087bee",
-      "summary": "BABY JOB開発者がJavaParserでFan-in指標を集計するツールを作り、神クラスのランキングでリファクタ優先度を判定。基底/Util/Enum/ドメインや自動生成コードは偽陽性になりやすく除外やツール修正が必要と結論。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-20T15:00:03.000Z",
-      "contentHash": "b600e60503b0"
     }
   ]
 }
