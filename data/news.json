@@ -1,6 +1,204 @@
 {
-  "generatedAt": "2026-01-09T16:48:16.503Z",
+  "generatedAt": "2026-01-10T02:13:59.554Z",
   "items": [
+    {
+      "id": "8838a46a3b99",
+      "title": "「GeminiコンテキストキャッシュがLLMコストを劇的に変える。」～【googlecloud】人気記事TOP5（2026/01/04） | CareNet Engineersのフィード",
+      "url": "https://zenn.dev/carenet/articles/zenn-weekly-googlecloud-articles-2026-01",
+      "summary": "Geminiのコンテキストキャッシュは共通コンテキストを効率化し、コストを75–90%削減・低遅延で1百万トークン級・頻繁参照に最適。RAGは大規模データやリアルタイム更新向け。ほか記事はAntigravityで作る暗号資産Bot（Cloud Run無償運用）、A2A認証実装、Vertex AIのLLMOps評価、Terraform設計振返り。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-10T01:27:15.000Z",
+      "contentHash": "baa4ee5741f8"
+    },
+    {
+      "id": "1b446c8fb68f",
+      "title": "Betterment&#8217;s financial app sends customers a $10,000 crypto scam message",
+      "url": "https://www.theverge.com/news/860106/betterment-crypto-scam-notification",
+      "summary": "投資アプリBettermentが「ビットコイン・イーサを送れば3倍にする、例えば$10,000送れ」といった怪しい通知を一部ユーザーに送信。Bettermentは第三者システム経由の「不正なメッセージ」だったと説明しています。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-10T01:14:20.000Z",
+      "contentHash": "2dfbffbc064f"
+    },
+    {
+      "id": "e101ebacc274",
+      "title": "Amazon is planning a Super Amazon-mart store near Chicago",
+      "url": "https://www.theverge.com/news/860058/amazon-chicago-supercenter-store-plans",
+      "summary": "アマゾンがイリノイ州オーランドパークで35エーカーに229,000平方フィートのスーパーストア兼フルフィルメントセンターを計画。食料品・雑貨・惣菜販売と店頭受取を想定し、計画委が6対1で承認。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-09T23:18:41.000Z",
+      "contentHash": "71b02804dc8e"
+    },
+    {
+      "id": "227f30d06ccf",
+      "title": "【10日目】データパイプライン最適化の基礎 〜 OPTIMIZE / Clustering / AQE を理解する 〜 | ちゅらデータ株式会社のフィード",
+      "url": "https://zenn.dev/churadata/articles/cf98139a520c5d",
+      "summary": "Delta LakeとSparkのパイプライン最適化入門。Auto Loader等で発生するsmall files問題を、OPTIMIZEでファイル結合、CLUSTER BY（旧Z-Order）でデータ局所化してData Skippingを活かし、AQEやVACUUMで性能を維持する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-09T23:04:06.000Z",
+      "contentHash": "faad92d47a4f"
+    },
+    {
+      "id": "0a88eaf83da1",
+      "title": "X accuses music publishers of &#8216;weaponizing&#8217; DMCA takedowns",
+      "url": "https://www.theverge.com/news/860013/x-nmpa-music-publishers-dmca-antitrust-lawsuit",
+      "summary": "XがNMPAと音楽出版社を提訴。業界全体の一括ライセンスを強要するためにDMCAの削除通知を大量に送り「武器化」して競争を妨げたと主張している。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-09T22:59:24.000Z",
+      "contentHash": "65a028ef5a8c"
+    },
+    {
+      "id": "811bab54e474",
+      "title": "This company could help bring Auracast to an iPhone near you",
+      "url": "https://www.theverge.com/tech/860010/atitan-bluetooth-auracast-transceiver-ces-2026",
+      "summary": "Appleが公式対応を示さないAuracastを、音響企業AtitanがiPhoneのMagSafeに付ける小型トランシーバー「splitR」で実現。iOS普及を背景にAuracastの浸透を狙う。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-09T22:56:41.000Z",
+      "contentHash": "3ab6522b1aca"
+    },
+    {
+      "id": "ec1426db7957",
+      "title": "AI is coming for collectibles next",
+      "url": "https://www.theverge.com/tech/859994/ai-collectibles-funko-pops-amiibo-buddyo-heymates-ces-2026",
+      "summary": "CES 2026でHeyMatesとBuddyoが登場。NFC対応のスマート台座にフィギュアを載せ、スピーカー・マイクとアプリのLLMでアイコンやキャラと会話できる製品を紹介。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-09T22:52:36.000Z",
+      "contentHash": "205fe0acd1c7"
+    },
+    {
+      "id": "f7d912ec083a",
+      "title": "“Erdos problem #728 was solved more or less autonomously by AI”",
+      "url": "https://mathstodon.xyz/@tao/115855840223258103",
+      "summary": "外部URLへ直接アクセスできないため、記事本文か主要部分を貼ってください。見出しや要点だけでもOKです。いただければ200文字以内で日本語要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-09T22:39:15.000Z",
+      "contentHash": "236b4dcab2b5"
+    },
+    {
+      "id": "0e0beabce5cc",
+      "title": "Tim Cook and Sundar Pichai are cowards",
+      "url": "https://www.theverge.com/policy/859902/apple-google-run-by-cowards",
+      "summary": "XのGrokが女性や子どもの裸を生成するディープフェイク機能を放置しているにも関わらず、AppleとGoogleがアプリ排除をしない。筆者は両社トップをイーロン・マスクを恐れる臆病者と批判している。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-09T21:24:10.000Z",
+      "contentHash": "902332550a08"
+    },
+    {
+      "id": "cd3bf1630358",
+      "title": "Video filmed by ICE agent who shot Minneapolis woman emerges",
+      "url": "https://www.bbc.com/news/articles/cz7yv4524gqo",
+      "summary": "ミネアポリスでICE職員が射殺した女性の直前を捉えた47秒の動画が公開された。被害者はレニー・ニコール・グッド。ヴァンス氏は職員の自衛と主張する一方、地元当局や市長は危険性を否定。遺族の追悼と全国的な抗議が続き、政権は車で襲おうとしたと非難している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-09T20:54:47.000Z",
+      "contentHash": "a806116d2290"
+    },
+    {
+      "id": "4eb426f88362",
+      "title": "This semi-secret Lego Smart Brick feature gives it even more potential",
+      "url": "https://www.theverge.com/tech/859740/this-semi-secret-lego-smart-brick-feature-gives-it-even-more-potential",
+      "summary": "CESでBest in Showを受賞したレゴのSmart Brickが、別のブロックとの正確な相対位置を検知する機能を公開。10スタッド（約8cm）ごとに色が変わる「レゴ定規」で距離測定でき、大人の作品にも応用可能。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-09T20:50:57.000Z",
+      "contentHash": "0423d9446ad3"
+    },
+    {
+      "id": "df66867289bb",
+      "title": "Did you know that Gmail has emoji reactions?",
+      "url": "https://www.theverge.com/news/859865/gmail-emoji-reaction-workspace-rollout-default",
+      "summary": "Gmailの絵文字リアクションは個人版で2年以上隠れていた機能で、2026年2月9日からWorkspaceで既定有効に。転送横の小さな笑顔ボタンで絵文字を選び、Gmail間では本文下やスレッド更新として表示される。プロバイダや設定によっては表示されない場合あり。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-09T20:42:48.000Z",
+      "contentHash": "f3fa2acec431"
+    },
+    {
+      "id": "a98dda3a0b44",
+      "title": "Scenes from the anti-ICE march in New York City",
+      "url": "https://www.theverge.com/report/859550/anti-ice-protest-photos-new-york",
+      "summary": "2026年1月9日、マンハッタン金融街で数百人が集まり、レネー・ニコール・グッドの死を受けてICE（米移民税関捜査局）に対する平和的な抗議デモを行いました。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-09T20:30:45.000Z",
+      "contentHash": "4d7f33c3df1c"
+    },
+    {
+      "id": "e81f412076ed",
+      "title": "RTX 5090 and Raspberry Pi: Can it game?",
+      "url": "https://scottjg.com/posts/2026-01-08-crappy-computer-showdown/",
+      "summary": "RTX 5090をOCuLinkドックでRaspberry Pi 5に接続し、ゲーム可否を検証。Beelink MINI-S13やRadxa ROCK 5Bと比較。PiはPCIeがGen2 x1（約500MB/s）で帯域不足により性能が制限される。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-09T19:33:47.000Z",
+      "contentHash": "e8d9fe41fb1e"
+    },
+    {
+      "id": "dbabe14b2081",
+      "title": "The latest on Grok&#8217;s gross AI deepfakes problem",
+      "url": "https://www.theverge.com/news/859715/x-grok-ai-deepfakes",
+      "summary": "xAIのGrok画像編集機能で実在女性や児童の性的非同意ディープフェイクが大量発生。英首相キール・スターマーが「許容できない」と対策を表明。Xは@Grokでの無料生成を有料化したが編集ツール自体は依然利用可能。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-09T19:13:32.000Z",
+      "contentHash": "0e53865ed079"
+    },
+    {
+      "id": "ac2b4cba12fa",
+      "title": "JavaScript Demos in 140 Characters",
+      "url": "https://beta.dwitter.net",
+      "summary": "dwitterのベータ版（beta.dwitter.net）公開の告知。140字のJavaScriptデモを共有するサービスのUI刷新やエディタ・フィード等の改善が行われ、投稿やアカウント周りの変更点に対しHNで称賛や移行・互換性、機能要望の議論が交わされた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-09T18:48:30.000Z",
+      "contentHash": "03ea6864076a"
+    },
+    {
+      "id": "de740cfd04fe",
+      "title": "Exercise can be nearly as effective as therapy for depression",
+      "url": "https://www.sciencedaily.com/releases/2026/01/260107225516.htm",
+      "summary": "コクランの大規模レビュー（73件、約5,000人）で、軽〜中程度の複数回の運動が心理療法と同程度に抑うつ症状を改善し、抗うつ薬と同等の可能性も示唆。副作用は少なく手軽だが万能ではない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-09T18:29:35.000Z",
+      "contentHash": "57e5f413f199"
+    },
+    {
+      "id": "9770dcb967bc",
+      "title": "Show HN: Scroll Wikipedia like TikTok",
+      "url": "https://quack.sdan.io",
+      "summary": "GPT-2以降LLMを使い、HTML/Canvasを即時生成する完全生成UIを試作。フィードはGemini 3 Flashでストリーム生成、コメント/DMはCloudflare WorkersのDurable Objectで双方向同期。投稿はDO内SQLiteに保存し「Following」フィードで高速配信。WikitokやVSCode拡張が着想源。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-09T18:15:16.000Z",
+      "contentHash": "8658680bfdfc"
+    },
+    {
+      "id": "b0c1dfd439aa",
+      "title": "How Markdown took over the world",
+      "url": "https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/",
+      "summary": "Markdownはジョン・グルーバーが2002年に作った単純なプレーンテキスト書式で、無償で広まり、AIへの指示やメモ、文書共有まで現代のウェブで広く使われる規格になった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-09T17:52:20.000Z",
+      "contentHash": "c0e5ab11ffe6"
+    },
+    {
+      "id": "c2c276284a44",
+      "title": "Show HN: I made a memory game to teach you to play piano by ear",
+      "url": "https://lend-me-your-ears.specr.net",
+      "summary": "リンク先に直接アクセスできないため、要約する本文のコピーか主要ポイントを貼ってください。あるいは、記事の主要テーマ（例：話者、主張、結論）を教えていただければ、それを基に200文字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-09T17:17:28.000Z",
+      "contentHash": "3cf5e9108731"
+    },
+    {
+      "id": "768a10df967d",
+      "title": "The Vietnam government has banned rooted phones from using any banking app",
+      "url": "https://xdaforums.com/t/discussion-the-root-and-mod-hiding-fingerprint-spoofing-keybox-stealing-cat-and-mouse-game.4425939/page-118",
+      "summary": "Playストアが更新を確認できず、キャッシュ削除で解決せず。インストール先を1に設定し、再起動後PIでGMSとPlayストアのスプーフィングを無効にすると更新確認は可能になったが「空き容量不足」で更新不可。Aboutタブからも更新できず。どのPIスプーフィングを使っているか問う。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-09T17:00:11.000Z",
+      "contentHash": "769d17d4f47d"
+    },
+    {
+      "id": "ba6d80c1864a",
+      "title": "Flock Hardcoded the Password for America's Surveillance Infrastructure 53 Times",
+      "url": "https://nexanet.ai/blog/53-times-flocksafety-hardcoded-the-password-for-americas-surveillance-infrastructure",
+      "summary": "研究者がFlock Safetyの公開JSにデフォルトArcGIS APIキーがハードコードされ、53箇所で露出。制限なく同社のArcGISマップと50の私的レイヤー（ナンバープレート、巡回車両、ドローン、ボディカメラ、911等）にアクセス可能で約12,000導入を危険に晒したが、報告で修正された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-09T16:49:59.000Z",
+      "contentHash": "7768e63d26f5"
+    },
     {
       "id": "5b6ec7a29615",
       "title": "Anker’s new AeroFit Pro 2 earbuds are already $30 off",
@@ -50,10 +248,10 @@
       "id": "0664ffab251f",
       "title": "Kiro (IDE) から AWS ALB ログを自然言語で直接解析する！ Bedrock AgentCore Gateway × MCP | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/aws-bedrock-mcp-agent-gateway-kiro",
-      "summary": "ALBログの取得やステータス200の不審ログ検出などのサンプルと、怪しいアクセスパターンやセキュリティ上の懸念を解説。Kiro Client⇄Cloudを中心にローカル実行→Interface→Gateway→Computeのアーキテクチャも示す。",
+      "summary": "Kiro IDEとMCP、Amazon Bedrock AgentCore Gatewayを組み合わせ、チャット操作でS3のALBログをAthena/Lambda経由で検索・解析する環境を構築。ローカルブリッジや動的ツール登録、ログ出力の安全対策など実装と工夫を解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-09T14:08:35.000Z",
-      "contentHash": "764e6cf4b63c"
+      "contentHash": "ddf7de871e4d"
     },
     {
       "id": "6040252ad53e",
@@ -72,6 +270,15 @@
       "source": "The Verge",
       "publishedAt": "2026-01-09T13:53:49.000Z",
       "contentHash": "42cace5c7d44"
+    },
+    {
+      "id": "5f243eb949af",
+      "title": "Snowflake Intelligence入門: Cortex Analyst/Search/アクションで話せるデータを作る | Snowflake Data Heroesのフィード",
+      "url": "https://zenn.dev/dataheroes/articles/20260109_sf_intelligence_start",
+      "summary": "Snowflake Intelligence入門。Cortex Analyst（構造化集計）、Cortex Search（非構造化検索）、アクション（メール送信）を統合するエージェント構築手順と全体像、権限・コスト・運用上の注意点や実務向け改善点を初心者向けに解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-09T13:43:32.000Z",
+      "contentHash": "02a1d88a82b1"
     },
     {
       "id": "f76c2bcfb238",
@@ -119,22 +326,31 @@
       "contentHash": "7c07c28251a0"
     },
     {
+      "id": "e044fa67f5dc",
+      "title": "OpenAI and SoftBank Group partner with SB Energy",
+      "url": "https://openai.com/index/stargate-sb-energy-partnership",
+      "summary": "OpenAIとソフトバンクグループがSBエナジーと提携し、数ギガワット級のAIデータセンター群を開発。テキサスに1.2GW施設を含み、Stargate構想を支援する。",
+      "source": "OpenAI",
+      "publishedAt": "2026-01-09T11:00:00.000Z",
+      "contentHash": "cccab2d5212f"
+    },
+    {
       "id": "5e3d90108152",
       "title": " Google アラート × GAS × LLM × Slack で   判断が一瞬で終わるニュース収集を実装する（Part2：実装編） | GMO MAKESHOP engineer blog",
       "url": "https://tech.makeshop.co.jp/entry/2026/01/09/192752",
-      "summary": "Part2はGoogleアラート→GAS→LLM→Slackで「読む前に判断完結」する実装を解説。取得・AI解析・通知・深掘り・日次サマリの3パイプラインでGPT‑4oが単記事解析、Geminiが跨記事トレンドを担当し、無駄処理を省いてコストと運用負荷を削減、Slackで意思決定できる仕組みを示す。",
+      "summary": "Googleアラートを起点にGAS・LLM・Slackで「判断が完結する」ニュース収集を実装するPart2。即時判定（8時間毎）、日次トレンド、オンデマンド深掘りの3パイプラインや重複排除・タイトル補完など実装の要点を解説。目的は判断構造を自環境で再現すること。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-09T10:27:52.000Z",
-      "contentHash": "444f8d28f98f"
+      "contentHash": "b2dca2511b3d"
     },
     {
       "id": "90d5a8d02f91",
       "title": " Google アラート × GAS × LLM × Slack で   判断が一瞬で終わるニュース収集を実装する（Part1：設計編） | GMO MAKESHOP engineer blog",
       "url": "https://tech.makeshop.co.jp/entry/2026/01/09/192731",
-      "summary": "Part1は、Googleアラートの大量ニュースを「読む対象」ではなく瞬時に判断完了する情報へ変える設計思想を解説。判断コストをボトルネックと定義し、GAS・LLM・Slackで判断をシステムへ移譲。LLMの役割分担や三行広告的表現で迷わず意思決定できる構造を明確化し、実装（Part2）に備える。",
+      "summary": "大量ニュースの「読むべきか」を即断できる状態をGAS・LLM・Slackで実装する設計を解説。GoogleアラートRSSを取得し重複除去→要点抽出・重要度判定・三行広告生成→判断用情報をSlack配信。GAS採用理由とLLM役割（単記事:gpt‑4o、複数記事:Gemini）を述べる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-09T10:27:31.000Z",
-      "contentHash": "5c8dce94ba9d"
+      "contentHash": "dc52505c396d"
     },
     {
       "id": "6282a77d7746",
@@ -167,10 +383,10 @@
       "id": "5022f0c5de21",
       "title": "個別株投資 スクリーニングツール &amp;amp; Claude API | ELW株式会社 テックブログ",
       "url": "https://techblog.elw.co.jp/entry/2026/01/09/182855",
-      "summary": "個別株投資を効率化したいが、東証プライム約1,600銘柄と長大な決算報告で選定が困難。PER/PBRなど指標だけでは不安。解決策は定量で銘柄を絞り、上位のみAIで報告書との乖離を検証する方法。用語解説あり。",
+      "summary": "個別株を効率選定するため、yfinanceで8軸の定量スコアリングで上位10銘柄を抽出。Playwrightで決算資料を収集し、Claude API＋Pydanticで財務・定性情報を構造化解析、3軸統合スコアで評価するシステム。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-09T09:28:55.000Z",
-      "contentHash": "09308723de6c"
+      "contentHash": "6f925e98f936"
     },
     {
       "id": "6d8a683bbc18",
@@ -185,10 +401,10 @@
       "id": "698ecbbf7d57",
       "title": "Dify on AWS で Amazon Bedrock Guardrails を使ったチャットボットのガバナンス強化 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/dify-on-aws-bedrock-guardrails",
-      "summary": "Dify環境でAmazon BedrockのGuardrailsを導入し、チャットボットのガバナンスを強化する手法や設定・運用のポイントを解説した記事。AI利用のガバナンスに関心のある方向け。",
+      "summary": "Dify on AWSでAmazon Bedrock Guardrailsを導入し、チャットボットのガバナンス（情報漏洩防止、禁止トピック制御、コンテンツフィルタ、プロンプトインジェクション対策）をAWS Toolsプラグイン導入、IAM設定、動作確認手順とともに解説しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-09T08:56:34.000Z",
-      "contentHash": "06cd9a9c3af9"
+      "contentHash": "5e8150abcbc4"
     },
     {
       "id": "4b5719f1f265",
@@ -563,10 +779,10 @@
       "id": "7c74f5c672a5",
       "title": "Gmail の Gemini 新機能まとめ",
       "url": "https://note.com/npaka/n/n6b3701ac65db",
-      "summary": "GmailがGemini導入で受信トレイをパーソナルなアシスタント化。AI Overviewsで会話を自動要約・自然言語で検索（要約は全員無料、Q&A機能はGoogle AI Pro/Ultra）。Help Me WriteとSuggested Repliesで返信作成支援は無料、ProofreadはPro/Ultraが利用可。",
+      "summary": "GmailがGemini搭載で受信トレイをパーソナルなアシスタント化。AI Overviewsで会話要約や自然言語検索が可能、Help Me WriteとSuggested Repliesで文章作成支援（無料）。Proofreadや受信箱への質問機能はGoogle AI Pro/Ultra向け。",
       "source": "npaka",
       "publishedAt": "2026-01-08T20:21:28.000Z",
-      "contentHash": "fdaf4b322153"
+      "contentHash": "509dbc8aa6de"
     },
     {
       "id": "12f3d5befe55",
@@ -2192,10 +2408,10 @@
       "id": "2cd1abb59f59",
       "title": "NVIDIA は DGX Spark と Reachy Mini でエージェントに命を吹き込む",
       "url": "https://note.com/npaka/n/n3fcd04d3ae6d",
-      "summary": "NVIDIAがCESでDGX Sparkと小型ロボットReachy Miniを用いた個人用エージェントを紹介。NemotronやElevenLabsで音声・視覚・行動を統合し、NeMo Agent Toolkitでオープンかつモジュール式に構築、ローカル/クラウド/サーバーレス展開と最適化機能を提供。",
+      "summary": "CESでNVIDIAはDGX SparkとロボットReachy Miniを使い、会話・視覚・音声・動作を統合したパーソナルエージェントを実演。NemotronやElevenLabs等のモデルをNeMo Agent Toolkitで疎結合に連携し、ローカル／クラウドで展開・カスタマイズ可能。",
       "source": "npaka",
       "publishedAt": "2026-01-06T06:17:47.000Z",
-      "contentHash": "34a8b1254126"
+      "contentHash": "6775c842452d"
     },
     {
       "id": "b6a0be573b06",
@@ -8784,222 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2025-12-21T15:30:00.000Z",
       "contentHash": "31f4ea16d82a"
-    },
-    {
-      "id": "76a27f27d03b",
-      "title": "E.W.Dijkstra Archive",
-      "url": "https://www.cs.utexas.edu/~EWD/welcome.html",
-      "summary": "ディイクストラは教育や学界と産業界の関係に関心を持ち、40年以上にわたり番号付き技術メモ「EWD」を配布。多くが未刊で入手困難だったが、学科が1000件以上をPDFで公開し、原本はテキサス大オースティンの歴史センターに所蔵。チューリング賞受賞者でもある。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-21T15:29:31.000Z",
-      "contentHash": "33f112b3b703"
-    },
-    {
-      "id": "2b2ecfea5464",
-      "title": "CO2 batteries that store grid energy take off globally",
-      "url": "https://spectrum.ieee.org/co2-battery-energy-storage",
-      "summary": "ミラノのEnergy Domeが開発した閉循環の「CO2バッテリー」（CO2を圧縮・膨張してタービンを回す）20MW/200MWh設備が2025年サルデーニャで稼働。気泡は半日で膨張、敷地5ha・2年未満で建設可能。2026年からインドNTPCや米国の公共事業、Google等で世界展開し、再エネの長時間蓄電を担う予定。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-21T15:27:36.000Z",
-      "contentHash": "b3dd140bd137"
-    },
-    {
-      "id": "47153a1720ef",
-      "title": "AIと一緒にUIデザインしてみた｜Figma Make × 複数AIレビュー | BABY JOB  テックブログのフィード",
-      "url": "https://zenn.dev/babyjob/articles/ai-ui-design-review",
-      "summary": "BABY JOBのUI担当がFigma MakeとGeminiで、仮想病院検索サイトに「夜間・休日診療」「小児救急」の緊急クイックアクセスをAIと共作。3案を比較し、最上部に独立した緊急導線を置く案を最適と評価した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-21T15:00:02.000Z",
-      "contentHash": "fe4e91e1786f"
-    },
-    {
-      "id": "66769e33f5da",
-      "title": "【iOS】Auto Layoutで指定する数値の単位は何？pointとpixelの違いを解説する | RecoChoku Engineering Blog",
-      "url": "https://techblog.recochoku.jp/12740",
-      "summary": "Auto Layoutで指定する数値の単位はpointです。pointは解像度に依存しない論理座標で、pixelは物理画素。@2x/@3xなどのscale factorでpointを端末のpixelに変換し、開発者は常にpointを指定します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-21T15:00:02.000Z",
-      "contentHash": "517e801da022"
-    },
-    {
-      "id": "43c854c2b751",
-      "title": "Androidアプリ開発で、開発者用画面にサクッとアクセスしたい | kubell Creator's Note",
-      "url": "https://creators-note.chatwork.com/entry/2025/12/22/000000",
-      "summary": "開発者用画面への素早いアクセス方法を検討。アクセス速度、エミュレータ対応、画面影響、発見性を基準に、フローティングボタン、シェイク検知、通知、Quick Settings Tileを比較し、利点と課題を整理して実装を試みた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-21T15:00:00.000Z",
-      "contentHash": "e525b1314941"
-    },
-    {
-      "id": "913850a1c179",
-      "title": "Claude Code のためのコンテキスト設計で実現した Helmfile README の大量生成 | kubell Creator's Note",
-      "url": "https://creators-note.chatwork.com/entry/2025/12/22/000000_1",
-      "summary": "Helmfileモノレポの約60個のREADMEをClaude Codeで一括整備。AIが参照できるコンテキスト整備、章ごとのテンプレートで「何を書くか(What)」を固定、スラッシュコマンドで「どう書くか(How)」を定式化する3層構造により、一貫性のある効率的なドキュメント生成を実現。Terraform等にも転用可能。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-21T15:00:00.000Z",
-      "contentHash": "fd9777387133"
-    },
-    {
-      "id": "61c19e2591ad",
-      "title": "Camel を trace | 赤帽エンジニアブログ",
-      "url": "https://rheb.hatenablog.com/entry/cac20251222",
-      "summary": "Apache Camel Advent Calendar 22日目（古市）は、マイクロサービスでのトレーシング（OpenTelemetry）を解説。camel-observability-servicesをpomに追加するだけで利用可能。RHBACは4.10から対応、Dockerサンプルも公開。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-21T15:00:00.000Z",
-      "contentHash": "1dd0589752af"
-    },
-    {
-      "id": "30e3284b990c",
-      "title": "ファシリテーションとフォロワーシップの話 | hacomono TECH BLOG",
-      "url": "https://techblog.hacomono.jp/entry/2025/12/22/000000",
-      "summary": "hacomono Advent Calendar 2025の22日目。QA担当のpiroが、クリスマスの欲しい物リストのつまらなさを挟みつつ、前回のQAキャリア記事に続き、今回は「ファシリテーション」と「フォロワーシップ」という広いテーマを扱うことを紹介する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-21T15:00:00.000Z",
-      "contentHash": "ad99997bb5a5"
-    },
-    {
-      "id": "d48e9f908fec",
-      "title": "Nuxt2/Vue2とReact v19が混在しても壊さない！段階移行のルールとVue→React Bridge | フォトシンス エンジニアブログ",
-      "url": "https://akerun.hateblo.jp/entry/vue2-to-react",
-      "summary": "Vue2/Nuxt2のEOLに伴い、SPAをReact v19+TypeScriptへ段階移行する手法を解説。既存Vueを動かしつつReactをマウントするBridgeで段階的に置換し、依存方向やディレクトリ、PRチェック、ルーティング・slotの注意点、テスト方針（機能重視）を定め、例外は期限・撤去条件・オーナーを必須にして最終的にVue/Nuxtを削除する運用を提示。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-21T15:00:00.000Z",
-      "contentHash": "eba5f22e21c2"
-    },
-    {
-      "id": "fbf782174c56",
-      "title": "Job killer",
-      "url": "https://www.theverge.com/entertainment/847424/park-chan-wook-no-other-choice-interview",
-      "summary": "パク・チャヌク監督の12作目『No Other Choice』は、解雇された男（イ・ビョンホン）が有利な職を得るために競争相手を次々排除するブラックコメディ風スリラー。ドナルド・ウェストレイク原作で社会批評とユーモア、殺人を描く。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-21T14:30:00.000Z",
-      "contentHash": "c8bf00b09e54"
-    },
-    {
-      "id": "abc2d8581aec",
-      "title": "Google Workspace Studio でメールの感情分析結果をチャットで通知する | Google Cloud Japanのフィード",
-      "url": "https://zenn.dev/google_cloud_jp/articles/google-workspace-studio-email-sentiment",
-      "summary": "Google Workspace Studioで受信メールをトリガーにGeminiが本文を感情分析（ポジティブ/ニュートラル/ネガティブ）し、結果をGoogle Chatへ自動通知するフローの作成手順を解説。ネガティブ時のフォローアップ等に活用可能で、アドベントカレンダーも案内。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-21T14:06:04.000Z",
-      "contentHash": "96e812108096"
-    },
-    {
-      "id": "1e8e33a6a7ac",
-      "title": "The best thing I bought this year: The Nintendo Switch 2",
-      "url": "https://www.theverge.com/gadgets/845477/nintendo-switch-2-game-system-favorite",
-      "summary": "筆者は長年待っていたNintendo Switch 2を購入。7.9インチ画面を含め全体が改良され、オリジナルより高性能でサードパーティの大作も楽しめる優れた後継機と評価しています。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-21T14:00:00.000Z",
-      "contentHash": "bb2a90b253ef"
-    },
-    {
-      "id": "f32ab3fa409e",
-      "title": "How AIM taught the internet to chat",
-      "url": "https://www.theverge.com/podcast/848744/aim-aol-instant-messenger-version-history",
-      "summary": "AOLのインスタントメッセンジャー（AIM）は、ログイン音やスクリーンネーム、退席メッセージで世代の思い出を作り、チャット文化を変えた。半ば独立したチームが開発し、経営陣の反対をよそに圧倒的な人気を得た。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-21T13:58:36.000Z",
-      "contentHash": "bb4e4ae89a13"
-    },
-    {
-      "id": "3f069da6da43",
-      "title": "2025: a year in art on The Verge",
-      "url": "https://www.theverge.com/tech/841568/art-2025-best",
-      "summary": "ザ・ヴァージのアートチームが2025年の代表作を振り返る記事。DOGE騒動、ベトナム戦争の神話、トランスのオンライン私生活危機、イランの監視網など多彩な題材を扱い、万華鏡や法廷速写、大学生のニュースコラージュなどを制作。ウィキペディアの手続きと編集者が安定性を支える点も紹介。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-21T13:30:00.000Z",
-      "contentHash": "108905ba6032"
-    },
-    {
-      "id": "e6ab081e1a39",
-      "title": "Humanoid robots are coming. Eventually?",
-      "url": "https://www.theverge.com/column/843418/humanoid-robot-hype",
-      "summary": "ヒューマノイドロボットは将来的に普及が期待されるが時期は不確か。中国はそれを経済成長の原動力と位置づけ、イーロン・マスクは大量展開する「ロボット軍」を目指している。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-21T13:00:00.000Z",
-      "contentHash": "d125f754ed1b"
-    },
-    {
-      "id": "9f2c165d7901",
-      "title": "Our favorite stuff of 2025",
-      "url": "https://www.theverge.com/tech/848567/best-tech-movies-gadgets-2025-installer",
-      "summary": "The VergeのInstaller No.110で、編集者デイヴィッド・ピアースが2025年のお気に入りを紹介。観た物・読んだ物・遊んだ物・ガジェット（Switch 2 Camera等）、ノートやツール（UgmonkのLayflat、MCPでのCraft活用）や音楽まで多彩に振り返る。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-21T13:00:00.000Z",
-      "contentHash": "fcad75021fcd"
-    },
-    {
-      "id": "8c560b6696a5",
-      "title": "Coincheckのシステム構成 - Webアプリケーションの裏側 | Coincheck Tech Blog",
-      "url": "https://tech.coincheck.blog/entry/2025/12/21/191011",
-      "summary": "コインチェックのアドベントカレンダー20日目記事。システムインフラ部の萩原が、暗号資産交換所の裏側はブロックチェーン中心ではなく、販売所・取引所・NFTなどは堅牢な王道のWebアプリで構築され、全システムがAWS上のクラウドネイティブ構成で高可用性を追求していると解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-21T10:10:11.000Z",
-      "contentHash": "400f1666bb1f"
-    },
-    {
-      "id": "450dab33c274",
-      "title": "FunctionGemma の概要",
-      "url": "https://note.com/npaka/n/nc3b38de5c25f",
-      "summary": "FunctionGemmaはFunction Calling向けに最適化された小型Gemma 3（270M）で、エッジ上でオフライン動作し自然言語を関数呼び出しに変換。微調整で精度向上、低遅延・プライバシー重視のローカル展開や複合システムでのルーティングに適し、多様なツールや環境をサポート。",
-      "source": "npaka",
-      "publishedAt": "2025-12-21T10:10:04.000Z",
-      "contentHash": "e196b37c2e2f"
-    },
-    {
-      "id": "47953aa3fe77",
-      "title": "Inca Stone Masonry",
-      "url": "https://www.earthasweknowit.com/pages/inca_construction",
-      "summary": "インカ石工は謎視されるが、16世紀スペイン人記録を精査し物証と照合、ペルーの30以上の遺跡を撮影調査して、採石・搬送・割断・成形・組み立て・仕上げなど具体的技法と表面異常の合理的説明を示した、実証的で網羅的な研究。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-21T07:26:39.000Z",
-      "contentHash": "3a387f7e2e70"
-    },
-    {
-      "id": "d462566cd0e1",
-      "title": "Clair Obscur having its Indie Game Game Of The Year award stripped due to AI use",
-      "url": "https://www.thegamer.com/clair-obscur-expedition-33-indie-game-awards-goty-stripped-ai-use/",
-      "summary": "インディー作「Clair-Obscur: Expedition 33」が作品にAI生成素材を使用していたとして賞のノミネート/受賞資格を剥奪され、開発側と運営のやり取りやAI利用の透明性を巡る議論が起きている、という報道。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-21T07:16:19.000Z",
-      "contentHash": "02ea6775b8ad"
-    },
-    {
-      "id": "c434e6867dec",
-      "title": "Ruby website redesigned",
-      "url": "https://www.ruby-lang.org/en/",
-      "summary": "Ruby 4.0.0-preview3が公開されました。新機能としてRuby::BoxとJIT改良のZJITを導入し、多数の改善を含むプレビュー版です（投稿: naruse、2025-12-18）。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-21T07:06:48.000Z",
-      "contentHash": "8516f572b8b2"
-    },
-    {
-      "id": "d3d7b3c50319",
-      "title": "移行ツールにAIの力を追加するDeveloper Lightspeed for Migration Toolkit for Applications(Konveyor AI) | 赤帽エンジニアブログ",
-      "url": "https://rheb.hatenablog.com/entry/2025/12/21/151423",
-      "summary": "Red HatのMigration Toolkit for Applications（MTA）にAI機能を追加したDeveloper Lightspeed（Konveyor AI）がGA。MTAの静的解析で検出した修正箇所をVSCodeプラグインがLLMに渡して自動修正を支援。任意のモデル（ローカル可）を使えるが精度はモデル依存。利用にはAI APIアクセスとソースコードが必要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-21T06:14:23.000Z",
-      "contentHash": "fd2c186ba118"
-    },
-    {
-      "id": "ed82772a5a13",
-      "title": "Indoor tanning makes youthful skin much older on a genetic level",
-      "url": "https://www.ucsf.edu/news/2025/12/431206/indoor-tanning-makes-youthful-skin-much-older-genetic-level",
-      "summary": "UCSFの研究が乳がん検診の改良法を提示。個々のリスクや新しい画像解析を用いることで検出率を上げ過剰診断を減らせる可能性を示し、臨床実装に向け追加検証を求めている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-21T05:21:42.000Z",
-      "contentHash": "b49292ffd40a"
-    },
-    {
-      "id": "271fc5f73a83",
-      "title": "Measuring AI Ability to Complete Long Tasks",
-      "url": "https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/",
-      "summary": "記事本文かリンクを送ってください。内容があれば200文字以内で要約します。ウェブページのURLを貼るか、本文をコピーして共有してください。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-21T04:06:36.000Z",
-      "contentHash": "9ea9dc2d31d3"
     }
   ]
 }
