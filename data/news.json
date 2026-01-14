@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-01-14T02:20:30.912Z",
+  "generatedAt": "2026-01-14T08:51:40.717Z",
   "items": [
+    {
+      "id": "4c91b4cf9c90",
+      "title": "【Unity 6.3新機能】ShaderBuildSettingsでソースコードを変更せずにShaderバリアントを最適化する | CORETECH ENGINEER BLOG",
+      "url": "https://blog.sge-coretech.com/entry/2026/01/14/151443",
+      "summary": "Unity 6.3のShaderBuildSettingsは、ソース改変やスクリプト不要でmulti_compile/shader_feature/dynamic_branch間の変換や不要キーワード除去を行い、シェーダーバリアントを最適化してビルド時間・サイズを削減する機能。設定場所、制限や利用例も解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-14T06:14:43.000Z",
+      "contentHash": "ec232e7c4cff"
+    },
+    {
+      "id": "b58b349e6261",
+      "title": "応用編: nginxで認証結果をキャッシュしたい〜認証処理の負荷を下げたい〜 | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/34435",
+      "summary": "ngx_http_auth_request_module前提で、nginxに認証結果をキャッシュして認証DB負荷を低減する手順を解説。テスト環境で検証→proxy_cache_pathで認証用とコンテンツ用を分離（認証は短TTL＝例1分）→locationでzone割当・$remote_user等をキャッシュキーに設定。設定変更後はキャッシュ削除とnginx再起動を行い、誤設定による情報漏洩に注意。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-14T06:12:43.000Z",
+      "contentHash": "c83d25bd78eb"
+    },
+    {
+      "id": "961c4a32930e",
+      "title": "認可モジュール(権限管理)だけ追加したい〜認証情報を管理したくない〜 | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/34424",
+      "summary": "既存のnginx BASIC認証に影響を小さく権限管理を後から追加する方法を解説。ngx_rewrite_and_authを間に挟み、ngx_header_path_authで一階層ごとのパス単位認可を実装する手順（認証モジュール準備→認証確認→認可モジュール準備→設定→nginx適用）を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-14T06:12:26.000Z",
+      "contentHash": "7a7f3348ca86"
+    },
+    {
+      "id": "b98785aededb",
+      "title": "認証処理を集中管理する〜シングルサインオン(SSO)はしたくない〜 | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/34412",
+      "summary": "BASIC認証のまま認証処理を管理サーバで集中管理する方法を紹介。SSOを使わずngx_auth_modとnginxのauth_requestやプロキシキャッシュで負荷分散・安全性向上を図り、サイト毎のカスタマイズも可能。設定手順と構成例を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-14T06:12:15.000Z",
+      "contentHash": "9032c1770f55"
+    },
+    {
+      "id": "15c8f8b60c0b",
+      "title": "隣のサイトへ認証を丸投げ〜認証を管理したくない〜 | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/34395",
+      "summary": "ngx_rewrite_authにより認証を別サイトへ委任可能。BASIC認証サイトのコンテンツを認証結果に変換してnginxの認証ソースとして利用する仕組みと、設定手順やキャッシュ設定例を解説する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-14T06:11:56.000Z",
+      "contentHash": "e16f3db4d17c"
+    },
+    {
+      "id": "82ea00ea848d",
+      "title": "アカウント名とメールアドレスの両方で認証したい〜利用者への説明をさぼりたい〜 | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/34382",
+      "summary": "ngx_auth_modの新機能ngx_rewrite_switch_authを使い、メールアドレスのローカル部とアカウント名の両方で同一のBASIC認証を扱う方法を解説。準備・テスト・nginx設定・キャッシュ手順を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-14T06:11:44.000Z",
+      "contentHash": "f38b9b689763"
+    },
+    {
+      "id": "b5e0b5ac4ea7",
+      "title": "メールアドレスで認証を振り分ける〜複数組織の認証を組み合わせたい〜 | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/34446",
+      "summary": "メールアドレスのドメインで認証先を切り替えるngx_rewrite_switch_authの新機能を解説。組織ごとの既存認証を流用して段階的導入でき、ドメイン毎に認証モジュールを用意し正規表現でユーザ抽出、必要なら認証結果キャッシュを設定する手順を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-14T06:11:27.000Z",
+      "contentHash": "8ac6ad092afa"
+    },
+    {
+      "id": "92d1596e0e05",
+      "title": "【開発Days vol.4】ページデザイン変更とEASの導入 | ハウテレビジョン技術ブログ",
+      "url": "https://howtv.hatenablog.com/entry/2026/01/14/151118",
+      "summary": "開発Days vol.4では、外資就活ネクストのトップを暗青から明るい青へリデザインし、MagicPodへの影響を確認後リリース。外資就活GrowthはGORM v2移行を技術負債解消に軸足を移し、EAS導入でAppStore不要の高速アップデート化と表示問題解消。AWS等の調査も実施。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-14T06:11:18.000Z",
+      "contentHash": "9a5693e05571"
+    },
+    {
+      "id": "ed2120a27fcb",
+      "title": "メールアドレスでBASIC認証する〜ドメイン付きで認証したい〜 | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/34370",
+      "summary": "ngx_auth_modのngx_rewrite_authを使い、user@example.com形式のBASIC認証を既存のアカウント名認証を流用して実現する方法を解説。メールのローカル部を正規表現で抽出して書き換え、nginx設定（準備・テスト・ドメイン追加・利用・必要ならキャッシュ）で導入する手順を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-14T06:11:11.000Z",
+      "contentHash": "7da18ea2d3b3"
+    },
+    {
+      "id": "be3a4605eb2a",
+      "title": "認証をnginx用にちょっと弄れる機能〜認証だってrewriteしたい〜 | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/34027",
+      "summary": "nginx用認証モジュールngx_auth_modに、既存認証をカスタマイズ・組み合わせる3つの新モジュール(ngx_rewrite_auth／ngx_rewrite_and_auth／ngx_rewrite_switch_auth)を追加。BASICやLDAPと連携して認証情報を書き換えたり、複数モジュールをAND結合したり、ユーザ名で切替え可能。nginx再ビルド不要で多段組合せやメールアドレス振り分け等の設定例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-14T06:10:44.000Z",
+      "contentHash": "1c192d961645"
+    },
+    {
+      "id": "84f90f379b15",
+      "title": "1000 Blank White Cards",
+      "url": "https://en.wikipedia.org/wiki/1000_Blank_White_Cards",
+      "summary": "1000 Blank White Cardsは、プレイヤーが白紙のカードにルールや効果を書き込みゲーム中に追加・変更しながら遊ぶ即興のパーティーゲーム。得点や勝利条件が流動的で、自由でユーモラスな展開が特徴。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-14T03:08:37.000Z",
+      "contentHash": "c040e7baca36"
+    },
+    {
+      "id": "62888e91149a",
+      "title": "ASCII Clouds",
+      "url": "https://caidan.dev/portfolio/ascii_clouds/",
+      "summary": "申し訳ありませんが、私は外部ウェブページを直接参照できません。記事本文を貼っていただければ、200字以内で日本語要約します。要点だけの提示でも対応可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-14T02:20:42.000Z",
+      "contentHash": "e7e1799ec54b"
+    },
+    {
+      "id": "ef9242df8c3c",
+      "title": "Minor says ICE took his iPhone, later found in used-electronics vending machine",
+      "url": "https://www.propublica.org/article/videos-ice-dhs-immigration-agents-using-chokeholds-citizens",
+      "summary": "ProPublicaの調査で、移民当局の職員が禁止されている絞め技や呼吸を止める恐れのある拘束を40件超で使用している映像や記録が確認されたことを報じた。記事は関連画像や出典を掲載している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-14T02:00:47.000Z",
+      "contentHash": "394332445f09"
+    },
     {
       "id": "7315f3f71e16",
       "title": "デザイン超初心者が、デザインツールを開く前に最初に考えるべき3つのこと | [公開中] AQ Tech Blog",
@@ -92,6 +209,15 @@
       "contentHash": "58aacd02b75c"
     },
     {
+      "id": "b48385c0dcb9",
+      "title": "The $LANG Programming Language",
+      "url": "https://news.ycombinator.com/item?id=46610557",
+      "summary": "HNで新しい言語を紹介するコツを投稿し、\"The {name} programming language\"とShow HNの言語投稿を集めたキュレーション(/thelang,/showlang)を公開。Go・Rust・Julia・Swift等の有名例と風変わりな言語も収録、更新方法を検討中。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-14T00:17:19.000Z",
+      "contentHash": "1db2d1e072ad"
+    },
+    {
       "id": "8e5ff3297dd4",
       "title": "Inside the White House shitposting machine",
       "url": "https://www.theverge.com/column/861476/trump-memes-venezuela-ice-shooting",
@@ -140,19 +266,19 @@
       "id": "b890bfc2a210",
       "title": "We can't have nice things because of AI scrapers",
       "url": "https://blog.metabrainz.org/2025/12/11/we-cant-have-nice-things-because-of-ai-scrapers/",
-      "summary": "このサイトはAIによる大規模スクレイピング対策としてAnubisのProof-of-Workを導入。現在はJavaScript有効化とJShelter等の無効化が必要で、将来的にヘッドレス検出へ移行予定。",
+      "summary": "MetaBrainzが、AI学習目的のスクレイパーによる無断収集でサーバ負荷やデータ乱用が発生していると報告。コミュニティ所有のメタデータ保護のため、アクセス制限やレート制限強化など対策を講じ、ライセンス尊重を訴えた。HNで議論が活発化。",
       "source": "Hacker News",
       "publishedAt": "2026-01-13T21:57:32.000Z",
-      "contentHash": "301f2ac3257f"
+      "contentHash": "cb6ed7a06ac8"
     },
     {
       "id": "ae91fc77e151",
       "title": "Veo 3.1 Ingredients to Video の機能強化",
       "url": "https://note.com/npaka/n/neafa7d9b1d4d",
-      "summary": "Veo 3.1 Ingredients to Videoは、素材画像から表現力豊かで一貫性のある動画を生成。キャラ・背景・オブジェクトの統一や要素のブレンド、9:16縦型出力と1080p/4Kアップスケール対応。Gemini/YouTube/Flow/API/Vertexで提供、SynthIDで生成検証可能。",
+      "summary": "Veo 3.1のIngredients to Videoが強化され、素材画像を元に表現力・キャラクターや背景の一貫性を向上。9:16縦動画対応と1080p/4Kアップスケールを追加し、Gemini／YouTube／Flow／API／Vertex等で提供。SynthIDで生成検証可能。",
       "source": "npaka",
       "publishedAt": "2026-01-13T21:37:51.000Z",
-      "contentHash": "39e4c32c9d15"
+      "contentHash": "0e4634d321eb"
     },
     {
       "id": "2d3a0b08ac3e",
@@ -554,10 +680,10 @@
       "id": "dd239f57cdff",
       "title": "アニメのBGM演出入門",
       "url": "https://note.com/npaka/n/nae81e1c10a9a",
-      "summary": "アニメBGMは感情誘導・空気作り・物語のリズムを整える道具。入れる基準は感情を強めたいか、映像だけで空気が成立するか、セリフ中心でないか、場面の役割。無音も演出。編集で一度全部外して確認し、絵と芝居が成立してから音を足すのが鉄則。",
+      "summary": "アニメBGMは感情誘導・空気作り・物語のリズム調整の道具。入れる基準は感情強化の必要性、場の成立、無音が演出か、台詞優先か、シーンの役割。編集で一度全外し確認し、絵と芝居が成立してから最後に足す。",
       "source": "npaka",
       "publishedAt": "2026-01-13T07:38:01.000Z",
-      "contentHash": "2a5d505e28d7"
+      "contentHash": "465aae4e312e"
     },
     {
       "id": "94b68739fa9e",
@@ -1031,10 +1157,10 @@
       "id": "e3cd272cc6a3",
       "title": "AIニケちゃんを主人公にしたアニメ 『人工知能少女』まとめ",
       "url": "https://note.com/npaka/n/n4aecfc427eff",
-      "summary": "AIニケちゃん主人公の3分アニメ『人工知能少女』まとめ。引きこもり女子高生・ゆとりがMacから飛び出したAITuber・ニケちゃんと出会い成長するガール・ミーツ・ガール。制作はNanoBananaProとGemini 3.0で脚本作成。",
+      "summary": "AIニケちゃん主人公の3分アニメ『人工知能少女』まとめ。NanoBananaProとGemini 3.0で制作したワークフロー、引きこもり高校生・ゆとりとMacから飛び出すAITuber・ニケの出会いで成長するガール・ミーツ・ガール。設定資料や絵コンテ例も掲載。",
       "source": "npaka",
       "publishedAt": "2026-01-12T09:59:19.000Z",
-      "contentHash": "2881905c5b67"
+      "contentHash": "401fe94d5d63"
     },
     {
       "id": "edfe1366b55c",
@@ -1148,10 +1274,10 @@
       "id": "6ee49353cfba",
       "title": "Universal Commerce Protocol の概要",
       "url": "https://note.com/npaka/n/nf3bbb4e3f9a1",
-      "summary": "記事本文かリンクを貼っていただけますか？確認後、200文字以内で日本語要約を作成します。技術的な詳細重視か、要点だけの簡潔な要約かも教えてください。",
+      "summary": "UCPはGoogle等が開発したオープン標準で、AIエージェント型コマースの相互運用性と安全な決済を実現。在庫・価格の即時処理や組み込みチェックアウトを統一し、N×N統合の課題を解消します。",
       "source": "npaka",
       "publishedAt": "2026-01-12T00:01:25.000Z",
-      "contentHash": "f44d34fdc19d"
+      "contentHash": "46dca7d17619"
     },
     {
       "id": "14f61663fc17",
@@ -1472,10 +1598,10 @@
       "id": "4f0902a2d9c3",
       "title": "アニメのカメラワーク入門",
       "url": "https://note.com/npaka/n/n11c6e775ed08",
-      "summary": "アニメのカメラワークは視聴者の感情を操作する手段で、ズーム、ドリー、ティルト、ジブ、トラック、パン、回り込み、静止など各動きが強調・孤独・没入・解放・希望・喪失・緊張など特定の感情や演出効果を生むと解説。",
+      "summary": "アニメのカメラワークは画面の動き以上に観客の感情を操る手段で、同じ画でも動かし方で恋愛やホラー、孤独などに変わる。ズーム・ドリー・ティルト・ジブ・トラック・パン・回り込み・静止の各手法と表現効果・具体例を解説。",
       "source": "npaka",
       "publishedAt": "2026-01-11T02:20:42.000Z",
-      "contentHash": "9824897ed082"
+      "contentHash": "70d297b5b35e"
     },
     {
       "id": "267d573967eb",
@@ -1562,10 +1688,10 @@
       "id": "625130cb2d4b",
       "title": "codex による動画編集を試す",
       "url": "https://note.com/npaka/n/n7655c08ada8b",
-      "summary": "Codexにffmpeg等を使わせ動画編集を自動化する試行報告。形式変換、切り出し・結合、音声調整、フィルタ、配信などが可能で、実例はフレーム修正、NanoBanana連携で文字置換、再生反転、左右反転。",
+      "summary": "codexにffmpegなどを使わせて動画編集を自動化する試み。ffmpegで形式変換、切り出し・結合・リサイズ、音声調整、フィルタ等が可能。実例は一部フレーム修正、NanoBanana連携で文字修正、再生反転、左右反転など。",
       "source": "npaka",
       "publishedAt": "2026-01-10T19:45:10.000Z",
-      "contentHash": "f78af7e96fd7"
+      "contentHash": "27ab7bc6ed62"
     },
     {
       "id": "cdd5365f5a95",
@@ -1769,10 +1895,10 @@
       "id": "f277d65df685",
       "title": "オレンジ工房で薄い本を作るときの漫画原稿の作り方",
       "url": "https://note.com/npaka/n/n945002b6ea6c",
-      "summary": "オレンジ工房で少部数同人誌（10〜300部）を作る手順をまとめた記事。セット・サイズ（B5/A5）・用紙・ページ数を決めて注文し、背幅計算の上で表紙・本文のテンプレート（PSD/CLIP/PDF等）をダウンロード。テンプレートに沿って原稿を作成、ノンブルを入れ、ZIPで入稿・入金する流れを解説しています。",
+      "summary": "オレンジ工房での同人誌作成手順：少部数向けオンデマンドを選び、サイズ・用紙・ページ数・綴じ方を決定。注文後に背幅計算し、表紙・本文のテンプレを350dpi/CMYKで取得、原稿を配置してノンブルを付け、指定名で保存しZIPで入稿・入金する。",
       "source": "npaka",
       "publishedAt": "2026-01-10T09:16:44.000Z",
-      "contentHash": "a9a9a1462b67"
+      "contentHash": "7092aafca61e"
     },
     {
       "id": "fbee9570ea1c",
@@ -2624,10 +2750,10 @@
       "id": "7c74f5c672a5",
       "title": "Gmail の Gemini 新機能まとめ",
       "url": "https://note.com/npaka/n/n6b3701ac65db",
-      "summary": "記事全文かリンクを貼っていただけますか？内容に即した200字以内の要約を作成します。  \n（仮要約）GmailがGoogleの大規模言語モデル「Gemini」を導入し、メール作成支援・返信提案・要約・検索などAI機能で利便性と効率を大幅に向上させる流れに入った、という趣旨です。",
+      "summary": "GmailがGemini導入で受信トレイをパーソナルな能動AIアシスタントに進化。会話要約や自然言語での受信箱検索（AI Overviews）、文章生成・返信提案（Help Me Write/Suggested Replies）や校正（Proofread）を提供。一部機能はGoogle AI Pro/Ultra限定。",
       "source": "npaka",
       "publishedAt": "2026-01-08T20:21:28.000Z",
-      "contentHash": "b3875b234fdf"
+      "contentHash": "b7f4290bd6ea"
     },
     {
       "id": "12f3d5befe55",
@@ -3821,10 +3947,10 @@
       "id": "6ff73dba39f7",
       "title": "AIニケちゃんを主人公にした漫画 『人工知能少女』まとめ",
       "url": "https://note.com/npaka/n/ne9fac9a809bb",
-      "summary": "AIニケちゃんを主人公にした漫画『人工知能少女』のまとめ。第1話は「大丈夫！ニケがついてます！」。設定・シナリオはGemini 3.0 Thinking、絵はNano Banana Pro、編集はPhotoshop。公式サイトやダウンロード、チップでの応援情報あり。作者はプログラマーのnpaka（@npaka123）。",
+      "summary": "AIニケちゃん主人公の漫画『人工知能少女』のまとめ。第1話「大丈夫！ニケがついてます！」。設定・シナリオ：Gemini 3.0 Thinking、絵：Nano Banana Pro、編集：Photoshop。公式サイトやチップでの応援案内、投稿者はプログラマーのnpaka。",
       "source": "npaka",
       "publishedAt": "2026-01-07T00:38:56.000Z",
-      "contentHash": "58794d4098bf"
+      "contentHash": "16a43b272ca0"
     },
     {
       "id": "28ca191b892e",
@@ -4253,10 +4379,10 @@
       "id": "2cd1abb59f59",
       "title": "NVIDIA は DGX Spark と Reachy Mini でエージェントに命を吹き込む",
       "url": "https://note.com/npaka/n/n3fcd04d3ae6d",
-      "summary": "NVIDIAがDGX SparkとReachy Miniを組み合わせ、AIエージェントを物理ロボットに実装する取り組みを紹介。DGX Sparkで大規模モデルの処理を行い、Reachy Miniと連携してマルチモーダルな実験・開発を加速する狙い。",
+      "summary": "NVIDIAはCESでDGX SparkとReachy Miniを使い、会話や共同作業ができるパーソナルエージェントを実演。NemotronやElevenLabs等のモデルとNeMo Agent Toolkitで視覚・音声・行動を統合し、ローカル・クラウド・サーバーレス展開が可能。再現用リポジトリを公開。",
       "source": "npaka",
       "publishedAt": "2026-01-06T06:17:47.000Z",
-      "contentHash": "7dcdbe6131c5"
+      "contentHash": "657da4e5039b"
     },
     {
       "id": "b6a0be573b06",
@@ -8874,132 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2025-12-25T15:00:00.000Z",
       "contentHash": "368e2167f16d"
-    },
-    {
-      "id": "df78e0466fbe",
-      "title": "Amazon Connectで発行した番号のキャリアを特定する方法と注意点 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/call-in-amazon-connect-202512",
-      "summary": "Amazon Connectで発行した番号は、総務省の番号割当リスト（市外局番別や050のファイル）で事業者を確認できます。ただし0120/0800などはナンバーポータビリティで実際の提供先が割当と異なる場合があるため注意。03/050はリスト通りであることが多く、特定キャリアで発行したい場合は事前にAWSへ相談してください。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-25T15:00:00.000Z",
-      "contentHash": "ddb6c2d18a90"
-    },
-    {
-      "id": "c612b03016f2",
-      "title": "想定範囲内の人生を送っている25歳の脳内会議 | Money Forward Developersのフィード",
-      "url": "https://zenn.dev/moneyforward/articles/25year-thinking",
-      "summary": "25歳になった著者がこれまでと今後25年を振り返る。想定範囲内で安定した生活だが「物語がない」と焦りを覚え、人生をゲームに例えて中盤とし、残り56年をどう楽しむか考える。仮説は「難しい選択を選ぶほど人生は面白くなる」。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-25T14:58:55.000Z",
-      "contentHash": "21399eb138db"
-    },
-    {
-      "id": "292300c616da",
-      "title": "Salesforce regrets firing 4000 experienced staff and replacing them with AI",
-      "url": "https://maarthandam.com/2025/12/25/salesforce-regrets-firing-4000-staff-ai/",
-      "summary": "セールスフォースは2025年に顧客サポート約4000人を削減したが、幹部はAIで人的判断を完全代替できると過信していたと認めた。複雑対応で品質低下や苦情増加が発生し、方針見直しを余儀なくされている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-25T14:58:29.000Z",
-      "contentHash": "4c8c7148a593"
-    },
-    {
-      "id": "e104796cf3ca",
-      "title": "お金の未来とKyashの関わり方 | Kyash Product Blog",
-      "url": "https://blog.kyash.co/entry/2025/12/25/234707",
-      "summary": "記事本文が見当たりません。本文を貼っていただければ200字以内で要約します。本文がない場合はタイトルだけで仮要約を作成することも可能です。どちらがよいですか？",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-25T14:47:07.000Z",
-      "contentHash": "f540bab0f883"
-    },
-    {
-      "id": "9119091a9a9b",
-      "title": "Asahi Linux with Sway on the MacBook Air M2 (2024)",
-      "url": "https://daniel.lawrence.lu/blog/2024-12-01-asahi-linux-with-sway-on-the-macbook-air-m2/",
-      "summary": "MacBook Air M2を購入し、Asahi Linux（現時点でM2まで対応）を導入。ワンライナーで成功したがイメージコピーが遅かった。ストレージ節約でFedora minimalにSwayを入れ、nmcliでWi‑Fi接続、必要なパッケージを導入してdotfilesを調整、ノッチ周りなどMac固有の設定をカスタマイズした。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-25T14:20:29.000Z",
-      "contentHash": "a536560c82f5"
-    },
-    {
-      "id": "760e2731f061",
-      "title": "学習と推論をつなぐ：本番 ML パイプラインにおける共通前処理 | CARTA TECH BLOG",
-      "url": "https://techblog.cartaholdings.co.jp/entry/custom-preprocessing-design-for-onnxruntime",
-      "summary": "RTB向けMLで学習と推論のズレを防ぐため、生データ→予測までの前処理・学習・後処理をsklearn.Pipelineにまとめて一つのONNXアーティファクトにエクスポート。カスタムエンコーダは明示的な変換と厳密なテスト、再利用性と早期の柔軟性投資が重要と説明。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-25T14:10:23.000Z",
-      "contentHash": "23874ed097a8"
-    },
-    {
-      "id": "52b488129b8e",
-      "title": "I re-created Google&#8217;s cute Gemini ad with my own kid&#8217;s stuffie, and I wish I hadn&#8217;t",
-      "url": "https://www.theverge.com/tech/849998/gemini-ai-stuffed-animal-commercial",
-      "summary": "記者が自分の子どものぬいぐるみでGoogleのGemini広告をAIで再現。ぬいぐるみが世界を旅するような画像は簡単に作れるが、演出や倫理、誤解を招く点に懸念があり後悔した、という記事。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-25T14:00:00.000Z",
-      "contentHash": "b5d052eff1f8"
-    },
-    {
-      "id": "e4b618280105",
-      "title": "APIをそのままMCPサーバーにするな | NCDC テックブログのフィード",
-      "url": "https://zenn.dev/ncdc/articles/c1d65b6e939185",
-      "summary": "APIをそのままMCPサーバー化すると、ツール数や説明文、API応答が冗長になりトークン消費が増えコスト上昇・選択精度低下を招く。高レベル統合・説明簡潔化・返却データ絞り込みを推奨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-25T13:44:26.000Z",
-      "contentHash": "b2d830391623"
-    },
-    {
-      "id": "2a6bb72ce94d",
-      "title": "Python 3.15’s interpreter for Windows x86-64 should hopefully be 15% faster",
-      "url": "https://fidget-spinner.github.io/posts/no-longer-sorry.html",
-      "summary": "以前の性能報告謝罪を一部撤回。pyperformanceで尾呼び出しインタプリタが macOS AArch64（Xcode Clang）で5%、Windows x86-64（MSVC）で約15%上回った。C製インタプリタはswitch-caseとcomputed gotoがあり、近年のコンパイラ改良でcomputed gotoの利点は小さくなっている。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-25T13:02:46.000Z",
-      "contentHash": "cfde5ec9d475"
-    },
-    {
-      "id": "90f0afd3364f",
-      "title": "Virt 屋のひとりごと : これからの OpenShift Virtualization | 赤帽エンジニアブログ",
-      "url": "https://rheb.hatenablog.com/entry/roadmap-2026",
-      "summary": "OpenShift Virtualizationのロードマップ紹介。RFE増加に対応し継続開発中で、クラスタ間のVM/ストレージLive migration（GA予定）、BGP/EVPNでのL2伸張やIPv6対応、管理・エッジ・ストレージ・データ保護・セキュリティ・性能強化などを予定。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-25T13:02:22.000Z",
-      "contentHash": "34150879ece7"
-    },
-    {
-      "id": "31f44545a356",
-      "title": "Hollywood cozied up to AI in 2025 and had nothing good to show for it",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/848119/hollywood-film-tv-ai-2025",
-      "summary": "2025年、ハリウッドは生成AIを積極導入したが、話題にはなってもAIの力を示す傑作映画やドラマは生まれなかった。ポスト制作の補助には有用だが、テキスト→映像の粗悪な生成物依存が目立った。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-25T13:00:00.000Z",
-      "contentHash": "c12fe73ecc42"
-    },
-    {
-      "id": "0f54678bf611",
-      "title": "【Zscaler】古いZCCが段階的に使えなくなる話 | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/zscaler_deprecation_old_zcc",
-      "summary": "Zscalerが古いZCCを段階的に廃止。GAのN〜N-2やLTSを推奨。Phase1: 2026/2/1に1.x・2.xの登録停止、5/1に自動ログアウト。Phase2: 2026/7/1で3.x停止、10/1自動ログアウト。Phase3: 2027/1/1に非サポート版全般をブロック。計画的な更新を。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-25T11:30:00.000Z",
-      "contentHash": "adc89cde752c"
-    },
-    {
-      "id": "8cf9b979c169",
-      "title": "Mattermost restricted access to old messages after 10000 limit is reached",
-      "url": "https://github.com/mattermost/mattermost/issues/34271",
-      "summary": "アップグレード後、「10,000メッセージ制限に達し、2025年9月26日以前の投稿が非表示。Restore Accessで復元」と表示。投稿数は47万、利用者約2000人の学校で発生。制限はいつ（v11？）導入されたのか、9月26日が10000件に基づく計算日かを問う。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-25T11:03:59.000Z",
-      "contentHash": "97ad49eda3d0"
-    },
-    {
-      "id": "6213a1c6cd1b",
-      "title": "Android アプリに Okta 認証を入れてみた | Yappli Tech Blog",
-      "url": "https://tech.yappli.io/entry/android-okta-app",
-      "summary": "iOSからAndroidへ転職した筆者が、社内AndroidアプリにOkta認証を導入してログイン必須でセキュリティ強化した実装手順を紹介。Okta SDK導入、リダイレクト設定、SDK初期化、ログイン画面と処理、状態管理、ログアウト実装を解説。OktaはSSOや多要素認証対応の認証基盤。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-25T11:00:00.000Z",
-      "contentHash": "c93792f847e7"
     }
   ]
 }
