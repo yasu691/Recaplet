@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-01-16T02:18:26.299Z",
+  "generatedAt": "2026-01-16T08:49:36.642Z",
   "items": [
+    {
+      "id": "10955eabda22",
+      "title": "Microsoft Fabric におけるデータエンジニアリング | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/01/16/153433",
+      "summary": "Microsoft FabricはOneLakeでストレージ・計算・オーケストレーションを統合するSaaS。インフラ負担を減らしデータ加工に集中できる。ワークスペースはガバナンス・キャパシティ単位で設計（Dev/Test/Prod、Bronze/Silver/Gold）。Data EngineeringはSpark＋Lakehouseで、Delta LakeによりACIDやタイムトラベルを実現。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-16T06:34:33.000Z",
+      "contentHash": "b7e12df13924"
+    },
+    {
+      "id": "2562026cf6d5",
+      "title": "MySQLのカラム追加や削除はなぜ速くなったのか？ | iimon TECH BLOG",
+      "url": "https://tech.iimon.co.jp/entry/2026/01/16/152808",
+      "summary": "従来はALTER TABLEで全データをフルコピーしテーブルを完全ロックしていたため時間がかかったが、MySQL5.6のOnline DDLでINPLACEやLOCKオプションが導入され、読み書きを止めずにカラム追加・削除が可能になり本番での影響が大幅に減った（InnoDB前提）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-16T06:28:08.000Z",
+      "contentHash": "bbd124eaacce"
+    },
+    {
+      "id": "a3387ab1ce42",
+      "title": "JWT認証の仕組みについて調べてみた | iimon TECH BLOG",
+      "url": "https://tech.iimon.co.jp/entry/2026/01/16/152733",
+      "summary": "記事は認証と認可の違いを説明し、セッション認証の流れとサーバー側での状態管理やDB参照の課題を示した上で、JWTの構造・署名による改ざん検知でDB不要になる仕組み、HMACやアクセストークン/リフレッシュトークン、認証フローと偽造検知を図解で解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-16T06:27:33.000Z",
+      "contentHash": "3867c26f1cb5"
+    },
+    {
+      "id": "540e15e1499d",
+      "title": "CQRS+ES Conference 2026 に参加してきました | kubell Creator's Note",
+      "url": "https://creators-note.chatwork.com/entry/2026/01/16/150013",
+      "summary": "CQRS+ES Conference 2026に初参加したChatworkファサード開発の報告。CQRSとイベントソーシングの概要、イベントストーミングをAIでコード化する手法と「指示書やドメイン情報を与え反復する」注意点、電卓を題材にしたES入門が印象的だった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-16T06:00:13.000Z",
+      "contentHash": "b4a920745472"
+    },
+    {
+      "id": "4179e5f42008",
+      "title": "IT未経験で挑戦！GoogleカレンダーからLINE通知を自動化する方法 | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n0a8f7574e2f1",
+      "summary": "SHIFTのはるさめさんが、LINE Notify終了に伴いGoogleカレンダー→LINE通知を移行。IFTTT経由で一時的にDiscordへ送りつつ、最終的にLINE DevelopersのMessaging APIを使い、サンプルコードを参考に毎朝当日の予定を自動通知する仕組みを作った記録です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-16T05:51:33.000Z",
+      "contentHash": "e3acfb274863"
+    },
+    {
+      "id": "aa373acc0120",
+      "title": "リーナープロダクトの現状と課題、採用情報 2026年1月版 | リーナー開発者ブログ",
+      "url": "https://developer.leaner.co.jp/entry/202601-leaner-dev-careers",
+      "summary": "リーナーはBtoB調達購買のSaaS企業。主力は「見積」「購買」で、AI導入や認証・データ基盤を開発中。図面解析やアカウント管理、既存機能強化が課題で、購買と新製品Fを優先採用中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-16T05:50:29.000Z",
+      "contentHash": "500734bece57"
+    },
+    {
+      "id": "8f5f46d7d295",
+      "title": "今週の新着ブログ_JSTQB FL合格体験記_AgileJapan_JaSST'25_Azure など20本(2026.1.9~2026.1.15) | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n26c23809a556",
+      "summary": "SHIFTグループ技術ブログ（2026/1/9–1/15）週次まとめ。JSTQB FL合格体験、Agile Japanの体験的学びとAI時代のアジャイル、JaSST'25各地レポ、SAFe/ART解説、AIやテスト、Azure等計20本を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-16T05:27:08.000Z",
+      "contentHash": "32145a32d275"
+    },
+    {
+      "id": "8e1d0298a50d",
+      "title": "AWS SAPに合格したので各分野の振り返りと雑感 | Gemcook Tech Blogのフィード",
+      "url": "https://zenn.dev/gemcook/articles/0f99e5e10d8921",
+      "summary": "年末にAWS Certified Solutions Architect Professional（SAP-C02）合格。GoやLambda等の実務を基に、オンプレ移行や大規模ネットワーク（Transit Gateway等）、IAMやS3暗号化の注意点、DR戦略などを学び、みのるん氏のスライドや書籍が役立ったという振り返り。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-16T05:10:03.000Z",
+      "contentHash": "07330eb597dc"
+    },
+    {
+      "id": "da06c2495bad",
+      "title": "SmartHRのQAエンジニア歴4年で見えてきた「QAエンジニアの役割」 | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/01/16/135000",
+      "summary": "SmartHRでの4年の経験から導いた結論：QAの責務は品質を守るだけでなく「品質に関する意思決定の質とスピードを上げること」。規範づくり・可観測性設計・判断の場づくりで組織が同じ前提で迅速に判断できる状態を作る、という整理。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-16T04:50:00.000Z",
+      "contentHash": "9b4f9d300159"
+    },
+    {
+      "id": "ae3744210c12",
+      "title": "Casting is dead. Long live casting!",
+      "url": "https://www.theverge.com/column/861948/casting-netflix-dead",
+      "summary": "先月、Netflixは予告なくモバイルアプリから多くのスマートTVやストリーミング機器へのキャスト機能を廃止した。現在対応するのは旧Chromecast（リモコンなし）、Nest Hub、一部のVizio/Compal機種のみで、従来はAndroid TVなど多くのGoogleキャスト対応機器をサポートしていた。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-16T04:30:00.000Z",
+      "contentHash": "d29699f37c14"
+    },
+    {
+      "id": "4bdddf066d13",
+      "title": "NTT DATA Global Architect Community In-person Meetup in re:Invent 2025 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/4b7428d0daa7f6",
+      "summary": "NTT DATAのグローバルアーキテクトコミュニティがAWS re:Invent 2025でラスベガスに集結。各国エンジニアの技術発表やライトニングトーク、Global JAM受賞者インタビューで知見を共有し、越境的な連携強化と相互理解を深めた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-16T04:13:33.000Z",
+      "contentHash": "49977f2cbaa3"
+    },
+    {
+      "id": "9b1264abe9d1",
+      "title": "Boeing knew of flaw in part linked to UPS plane crash, NTSB report says",
+      "url": "https://www.bbc.com/news/articles/cly56w0p9e1o",
+      "summary": "NTSBは、ケンタッキー州のUPS MD‑11F墜落でエンジン取付部の疲労破断が原因とし、同部品のひび割れをボーイングが2011年に複数機で把握していたが「飛行安全上問題ない」と結論づけ、5年ごとの外観点検を勧告していたと報告。墜落で15人が死亡。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-16T04:11:17.000Z",
+      "contentHash": "098a38fbb872"
+    },
+    {
+      "id": "ef09b4773bf9",
+      "title": "OpenBSD-current now runs as guest under Apple Hypervisor",
+      "url": "https://www.undeadly.org/cgi?action=article;sid=20260115203619",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で日本語に要約します。コメントも要約したければ、それも貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-16T03:10:36.000Z",
+      "contentHash": "62c537262a52"
+    },
     {
       "id": "b29e1c549295",
       "title": "Meta has discontinued its metaverse for work, too",
@@ -119,6 +236,15 @@
       "contentHash": "2568a965b8a6"
     },
     {
+      "id": "eb391a1070b9",
+      "title": "Tldraw pauses external contributions due to AI slop",
+      "url": "https://github.com/tldraw/tldraw/issues/7695",
+      "summary": "tldrawは外部からのプルリクを自動で閉じる方針に変更しました。AI生成の低品質PRが増えレビュー負担が大きいためで、GitHubが管理ツールを提供するまでの一時措置です。issueやバグ報告、議論は継続歓迎し、選別して再オープンする場合があります。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-15T23:37:42.000Z",
+      "contentHash": "82e09d9eb5dc"
+    },
+    {
       "id": "da6f079f07f9",
       "title": "Grok undressed the mother of one of Elon Musk’s kids — and now she’s suing",
       "url": "https://www.theverge.com/news/863097/ashley-st-clair-elon-musk-grok-undressing-lawsuit",
@@ -185,10 +311,10 @@
       "id": "8bbb1bbd6398",
       "title": "Topaz Video のAIアップスケールを試す",
       "url": "https://note.com/npaka/n/nd097ef330aa7",
-      "summary": "Topaz VideoはTopaz LabsのAI映像強化ソフト。低解像度を4K/8Kへアップスケール、ノイズ除去、フレーム補間、手ぶれ補正などが可能。手順はダウンロード→動画をドラッグ&ドロップ→プリセット選択→プレビュー→Export。アニメ向け設定例は4K/Artemis/Recover detail=20。1分23秒の動画は約9分で処理された。",
+      "summary": "Topaz Videoを試用。AIで動画を高解像度化（4K〜）、ノイズ除去、フレーム補間、手ぶれ補正などが可能。アニメは4K・Artemis推奨。線が崩れる場合はRecover detailを13〜16に下げると良い。1分23秒の動画は約9分で出力。",
       "source": "npaka",
       "publishedAt": "2026-01-15T21:26:28.000Z",
-      "contentHash": "116e3b8c645b"
+      "contentHash": "ff44e2d718c1"
     },
     {
       "id": "e4c6a7f8f144",
@@ -203,10 +329,10 @@
       "id": "4981658f9b9a",
       "title": "Open Responses の概要",
       "url": "https://note.com/npaka/n/nb8d8a64e0cbf",
-      "summary": "Open Responsesは、OpenAIのResponses APIをオープン化した推論標準。エージェント向けに設計され、ステートレスやモデル設定の標準化、セマンティックなストリーミング等を導入し、コミュニティとプロバイダーでChat Completionを置換することを目指す。",
+      "summary": "Open ResponsesはOpenAIのResponses APIをオープン化・拡張した推論標準。エージェント向けに設計され、ステートレス既定・モデル設定の標準化・セマンティックなストリーミングを採用し、テキスト/画像/JSON/動画出力やプロバイダ側のエージェントループをサポートしてチャット補完に代わる共通フォーマットを目指す。",
       "source": "npaka",
       "publishedAt": "2026-01-15T20:31:23.000Z",
-      "contentHash": "49188ca98830"
+      "contentHash": "1e9d924d4c56"
     },
     {
       "id": "caff0d8d18f6",
@@ -221,10 +347,10 @@
       "id": "ab9f1321a9f1",
       "title": "TranslateGemma の概要",
       "url": "https://note.com/npaka/n/ne22141b07a0f",
-      "summary": "TranslateGemmaを公開。Gemma 3由来の4B/12B/27Bオープン翻訳モデルで、SFT＋強化学習により高品質化。12BはGemma3 27Bを上回り、55言語対応・マルチモーダルでモバイルやローカル実行可能。",
+      "summary": "Gemma 3を基にしたオープン翻訳モデル群「TranslateGemma」を4B/12B/27Bで公開。SFT＋RLで高効率化し、12BはGemma3 27Bを上回る性能。55言語対応、マルチモーダル保持でモバイル〜ラップトップ等で実行可能。",
       "source": "npaka",
       "publishedAt": "2026-01-15T20:11:09.000Z",
-      "contentHash": "5cf2d2e81d11"
+      "contentHash": "a1a04add6506"
     },
     {
       "id": "f6b042732799",
@@ -239,10 +365,19 @@
       "id": "78d9e491f506",
       "title": "UK offshore wind prices come in 40% cheaper than gas in record auction",
       "url": "https://electrek.co/2026/01/14/uk-offshore-wind-record-auction/",
-      "summary": "テスラが自社リチウム精製施設の貴重な映像を公開し、バッテリー向けリチウムの生産開始を確認。調達自給でコストと供給リスクを低減し、EV生産を支える狙い。",
+      "summary": "リヴィアンの新型小型EV「R2」の検証用ユニットが生産ラインから出荷され、間もなく顧客への納車が始まる見込みであると報じられた。生産面での重要な前進。",
       "source": "Hacker News",
       "publishedAt": "2026-01-15T19:00:37.000Z",
-      "contentHash": "31dc31a7454c"
+      "contentHash": "a80144018b44"
+    },
+    {
+      "id": "16327c9e023b",
+      "title": "Data is the only moat",
+      "url": "https://frontierai.substack.com/p/data-is-your-only-moat",
+      "summary": "著者はAI競争で持続的な「堀」はデータだけと論じる。モデルや計算資源は追随可能で、独自で質の高いデータ収集・注釈・フィードバック回路と法規対応が差別化要因だ。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-15T18:54:32.000Z",
+      "contentHash": "1e709d258170"
     },
     {
       "id": "686f807f58dc",
@@ -572,10 +707,10 @@
       "id": "c9f873c1a2b6",
       "title": "Tailwind CSS のクイックスタート",
       "url": "https://note.com/npaka/n/n51c6d1ee632e",
-      "summary": "Tailwind CSSはHTMLに小さなユーティリティクラスを直接書いてデザインするフレームワーク。CDNで簡単に導入でき、背景・文字・余白・レイアウト（flex/grid）やボタン用クラスなどが豊富でReact/Svelte等と相性が良い。",
+      "summary": "Tailwind CSSはHTMLに小さなユーティリティクラスを直接書いてデザインするフレームワーク。React/Svelteや直書きに対応し、CDNで簡単に導入可能。レイアウト・色・余白・サイズ・影など多彩なクラスを提供。",
       "source": "npaka",
       "publishedAt": "2026-01-15T07:51:35.000Z",
-      "contentHash": "8c108b339c4c"
+      "contentHash": "a6dee041ee92"
     },
     {
       "id": "beecb7ef4bea",
@@ -869,10 +1004,10 @@
       "id": "af446cf48dc2",
       "title": "Gemini Personal Intelligence の概要",
       "url": "https://note.com/npaka/n/n4bfbc8d0b09c",
-      "summary": "Gemini Personal Intelligenceは米国ベータで、GmailやGoogleフォト等を任意で連携し、メール・写真・動画を横断解析して個別回答を生成。連携はオプトインでデータはGoogle内に留まり、出典表示や切断・削除が可能。",
+      "summary": "Gemini Personal Intelligenceは米国ベータで、Gmail・Googleフォト・YouTube・検索とワンタップ連携し、写真やメールを横断的に解析して個人化・プロアクティブな回答を提供。連携はデフォルトオフでユーザーが制御、参照元表示や機密データ保護などプライバシー重視の設計。",
       "source": "npaka",
       "publishedAt": "2026-01-14T22:08:57.000Z",
-      "contentHash": "552c2d5aa02f"
+      "contentHash": "8839adad6512"
     },
     {
       "id": "b971bf8f83c1",
@@ -887,10 +1022,10 @@
       "id": "0597c2d7117f",
       "title": "アニメのMV演出入門",
       "url": "https://note.com/npaka/n/n720a20fa14ac",
-      "summary": "アニメMVは「音を目で見せる」ことが本質。絵より演出・編集（特に音ハメ）が重要。構成テンプレ、定番演出、カメラワーク、サビ演出、失敗例と制作チェックリストを解説。素材より演出重視で作る。",
+      "summary": "アニメMVは音を視覚化する演出が重要で、素材より編集が鍵。音ハメ（音に合わせたカット）、構成、緩急、カメラワークで盛り上げる手法、定番演出、失敗例と制作チェックを解説。",
       "source": "npaka",
       "publishedAt": "2026-01-14T21:43:43.000Z",
-      "contentHash": "23d672426da8"
+      "contentHash": "1db231f837bf"
     },
     {
       "id": "58b11ae191be",
@@ -8865,141 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2025-12-29T13:22:59.000Z",
       "contentHash": "9f987b08ae53"
-    },
-    {
-      "id": "26d4bb28fe32",
-      "title": "squadbaseの始め方(BQ編) | ちゅらデータ株式会社のフィード",
-      "url": "https://zenn.dev/churadata/articles/197227030111eb",
-      "summary": "「Squadbase」を使ってBigQueryのUFO目撃データをノーコードで可視化・デプロイする手順を解説。CSVでのデータ投入、BigQuery接続、Project作成、サービスアカウント認証などの流れと、地図・時系列・ランキング等のダッシュボード事例を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-29T13:04:15.000Z",
-      "contentHash": "077c1649c454"
-    },
-    {
-      "id": "e7dc45f36aea",
-      "title": "Windows on Arm had another good year",
-      "url": "https://www.theverge.com/gadgets/850074/2025-windows-arm-laptops-qualcomm-intel-amd-nvidia",
-      "summary": "2024年のSnapdragon XでWindows on Armは実用化し性能と省電力が向上したが、アプリ互換性やゲームは課題。2025年にソフト面で改善が進み、2026年は新チップとさらなる改善で競争が激化する見込み。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-29T13:00:00.000Z",
-      "contentHash": "21300051efca"
-    },
-    {
-      "id": "eca25d025459",
-      "title": "I’m The Verge’s Senior Internet Typist, ask me anything while Nilay’s away!",
-      "url": "https://www.theverge.com/entertainment/850407/liz-lopatto-ask-me-anything",
-      "summary": "エリザベス・ロパットが年末の「何でも聞いて」企画を告知。普段はビジネス報道、メディア批評、ヘビメタ、イーロン・マスク関連、ポップ文化や法務など多岐を担当しており、読者の質問を募集しています。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-29T13:00:00.000Z",
-      "contentHash": "bdd3653b8435"
-    },
-    {
-      "id": "3196f4df1a76",
-      "title": "Kidnapped by Deutsche Bahn",
-      "url": "https://www.theocharis.dev/blog/kidnapped-by-deutsche-bahn/",
-      "summary": "2024年12月24日、ケルン発RE5で祖母宅へ向かった筆者。列車は20分遅れ、ボン周辺のトラブルで左岸が使えず大幅迂回（ケルン南→トロイスドルフ→ノイヴィード→コブレンツ）となり、ドイツ語のみの案内で乗客は混乱した。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-29T12:24:00.000Z",
-      "contentHash": "160b038d967b"
-    },
-    {
-      "id": "1778b387c717",
-      "title": "「持ち運べる」ライセンスをどう活かす？ 今後のインフラ戦略と Google Cloud VMware Engine (GCVE) 選定の勘所 | Google Cloud Japanのフィード",
-      "url": "https://zenn.dev/google_cloud_jp/articles/f72d420ac5b776",
-      "summary": "GCVEはHCXによるL2延伸でオンプレVMをそのままクラウドへ移行でき、VCF中心のライセンス集約でBYOL可搬性を実現。2025/10以降は新規でBYOL必須。2025年11月登場の性能向上したve2ノードを推奨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-29T12:20:43.000Z",
-      "contentHash": "2db76e1f438c"
-    },
-    {
-      "id": "8d8cb16c8ef7",
-      "title": "Google Photos is coming to Samsung TVs in 2026",
-      "url": "https://www.theverge.com/news/850594/samsung-tv-google-photos-integration-2026",
-      "summary": "Google Photosが2026年3月にSamsungのTizen搭載テレビへ統合。カスタムスライドショーやGoogleのAI画像生成・編集を含む「Memories」機能を搭載し、同機能は6か月間サムスン独占となる。",
-      "source": "The Verge",
-      "publishedAt": "2025-12-29T11:48:46.000Z",
-      "contentHash": "3ffaf4b95d38"
-    },
-    {
-      "id": "db063ecfe36e",
-      "title": "バイクのレストアで気づいた、AIエージェント時代のAWS運用術（Kiro &amp;amp; MCP活用） | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2025/12/29/194219",
-      "summary": "20年放置のCBR1000RRをAI診断で復活。AIが原因や代替部品まで提示し解決に導いた経験を、IT運用へ応用。AWSのMCP ServerでAIが直接リソースやログを参照し、Kiroで非開発者でも使える運用自動化を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-29T10:42:19.000Z",
-      "contentHash": "b30ed22d7601"
-    },
-    {
-      "id": "6556cf347c71",
-      "title": "EU to build no-fee payments service like Visa/Mastercard and Apple/Google Pay",
-      "url": "https://www.independent.ie/business/digital-euro-what-it-is-and-how-we-will-use-the-new-form-of-cash/a165973061.html",
-      "summary": "デジタルユーロは欧州中央銀行発行の中央銀行デジタル通貨。現金と併用しアプリやカードで即時・オフライン決済を想定。限定的な匿名性とプライバシー保護、金融安定策を組み段階的導入予定。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-29T10:12:16.000Z",
-      "contentHash": "8123e68322f2"
-    },
-    {
-      "id": "47ea3c52cafe",
-      "title": "Nano Banana Pro + Grok Imagine Video + Gemini TTS で漫画からのアニメ作成を試す",
-      "url": "https://note.com/npaka/n/n069b70fd900c",
-      "summary": "Nano Banana Pro、Grok Imagen Video、Gemini TTSで9ページ漫画を2分45秒のアニメ化を実験。手順はコマを16:9/1Kの動画用スタートフレーム化(Nano)、Grokで動画カット化、Geminiでセリフ音声化、iMovieで合成。プロンプトはTVアニメ風塗りやコマ要素削除など詳細指定。",
-      "source": "npaka",
-      "publishedAt": "2025-12-29T08:35:52.000Z",
-      "contentHash": "3bf8b72f6c4e"
-    },
-    {
-      "id": "e106eec1ae87",
-      "title": "【CircleCI】node_modules のキャッシュは node/install-packages に任せよう | Social PLUS Tech Blogのフィード",
-      "url": "https://zenn.dev/socialplus/articles/fd4518d0e8a669",
-      "summary": "CircleCIでinstallジョブのpersist_to_workspaceでnode_modulesを共有すると保存・復元が遅い。各ジョブでcheckout＋node/install-packagesを使い、node_modulesではなくpnpm storeをキャッシュする方法に変え、CI時間を約2分短縮した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2025-12-29T07:43:35.000Z",
-      "contentHash": "040b279c3dea"
-    },
-    {
-      "id": "5a8abe7ae7c2",
-      "title": "Staying ahead of censors in 2025",
-      "url": "https://forum.torproject.org/t/staying-ahead-of-censors-in-2025-what-weve-learned-from-fighting-censorship-in-iran-and-russia/20898",
-      "summary": "2025年、Torはイランの通信遮断やロシアの進化する検閲に対抗。現地の監視点と自動テストでドメインフロント設定を評価・選定し、Snowflakeなどの回避技術を強化して接続維持に努めた。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-29T05:47:40.000Z",
-      "contentHash": "c1f929e7e8ac"
-    },
-    {
-      "id": "adbcc01ca1ca",
-      "title": "Show HN: Z80-μLM, a 'Conversational AI' That Fits in 40KB",
-      "url": "https://github.com/HarryR/z80ai",
-      "summary": "Z80-μLMは2ビット量子化重み（-2,-1,0,1）の文字列モデルで、64KB RAMのZ80上で推論・重み・チャットUIを含め40KBの.COMに収まる。量子化対応の学習で精度を保ち、簡易な20 Questionsや短いやりとりが可能。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-29T05:41:24.000Z",
-      "contentHash": "8384eda0c8e8"
-    },
-    {
-      "id": "05f0cf70212e",
-      "title": "Huge Binaries",
-      "url": "https://fzakaria.com/2025/12/28/huge-binaries",
-      "summary": "博士課程の投稿で指摘された「存在しない」とされた問題は、実務の巨大コードベースにあり、静的リンクで25GiB超の巨大バイナリが発生。x86_64ではCALL命令の32bit相対オフセットが原因で2GiBの「Relocation Barrier」が生じる。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-29T05:35:17.000Z",
-      "contentHash": "632b3c323d45"
-    },
-    {
-      "id": "43df5b868176",
-      "title": "Panoramas of Star Trek Sets",
-      "url": "https://mijofr.github.io/st-panorama/",
-      "summary": "記事はレイアウトや装飾、配置に関する一般的なフィラー文が続き、最後にUSS Enterpriseなど複数のスター・トレック艦名を列挙している。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-29T05:26:43.000Z",
-      "contentHash": "3c15eac4d8a6"
-    },
-    {
-      "id": "13d72f78e2d5",
-      "title": "Show HN: My not-for-profit search engine with no ads, no AI, & all DDG bangs",
-      "url": "https://nilch.org",
-      "summary": "オープンソースの検索エンジン「nilch」を開発。非営利・寄付で運営しプライバシー重視、広告やAI生成結果を排除、DuckDuckGoのbangs対応。現状はBrave API利用で独自インデックスは資金調達後に構築予定。フィードバック歓迎。",
-      "source": "Hacker News",
-      "publishedAt": "2025-12-29T05:25:25.000Z",
-      "contentHash": "78a93e075ad8"
     }
   ]
 }
