@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-01-19T02:23:20.338Z",
+  "generatedAt": "2026-01-19T08:52:34.904Z",
   "items": [
+    {
+      "id": "0942c1c26109",
+      "title": "Amazon S3 Tables のメンテナンス機能について解説 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/s3-tables-maintenance",
+      "summary": "Amazon S3 Tablesはバックグラウンドで自動メンテナンスを実行し、小ファイル統合・ファイルサイズ最適化（binpack/sort/z‑order）・スナップショット削除・不要ファイルクリーンアップを行い、Athenaのクエリ性能を大幅に向上させる。基本はbinpack推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-19T07:00:00.000Z",
+      "contentHash": "1037f898bf1a"
+    },
+    {
+      "id": "a3ee466a435d",
+      "title": "mise で .node-version と Makefile をひとつに | コドモン Product Team Blog",
+      "url": "https://tech.codmon.com/entry/2026/01/19/155540",
+      "summary": "コドモンの羽馬氏は、開発環境の断片化を解消するためmiseを導入。mise.tomlでNodeなどのツールバージョン管理、プロジェクトごとの環境変数、タスクランナーを一元化し、セットアップやCI、モノレポ対応を簡素化するツールとして紹介している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-19T06:55:40.000Z",
+      "contentHash": "5f3f4a54fe7e"
+    },
+    {
+      "id": "e1e405f45c07",
+      "title": "中の実力を、外の認知へ。VISASQ Dev’s Fika オフサイトレポート | VISASQ Dev Blog",
+      "url": "https://tech.visasq.com/devsfika2025",
+      "summary": "ビザスクは渋谷で開発チームのオフサイト「Dev’s Fika」を開催。AIやツールを使い組織の価値を言語化。自律性や心理的安全性を強みとしつつ、対外認知不足や情報共有を課題と認識。個人発信や若手育成、技術投資などの改善案をまとめ、アドベントカレンダー賞を実施。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-19T05:55:00.000Z",
+      "contentHash": "e96088bcf7bb"
+    },
+    {
+      "id": "f06c9412456f",
+      "title": "そのリファクタリング、今やるべき？ Tidy First?から学ぶ「やらない判断軸」と複雑さの可視化 | CARTA TECH BLOG",
+      "url": "https://techblog.cartaholdings.co.jp/entry/2026/01/19/145319",
+      "summary": "『Tidy First?』に従い無闇なリファクタは避け、変更頻度や効果で優先度を判断。Cyclomatic/CognitiveをESLint＋sonarjsで可視化し、AIに計測とマークダウン報告を任せる運用例。定量化は手段。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-19T05:53:19.000Z",
+      "contentHash": "e345a5d3aa17"
+    },
+    {
+      "id": "408bdc4d2f43",
+      "title": "漫画のコマ割り演出入門",
+      "url": "https://note.com/npaka/n/n393f3bc40a44",
+      "summary": "漫画のコマ割りは単なる配置ではなく、読者の視線・速度・感情を操作する「時間編集」。小コマはテンポ、中コマは状況説明、大コマは感情のピークを担い、ページ構成で「溜め→解放」を作る。読線も演出の一部。",
+      "source": "npaka",
+      "publishedAt": "2026-01-19T05:39:11.000Z",
+      "contentHash": "911590f015fa"
+    },
+    {
+      "id": "6ab601e6faeb",
+      "title": "LINE iOSアプリ開発を高速化するClaude Code基盤の設計思想 | LINEヤフー Tech Blog (LY Corporation Tech Blog",
+      "url": "https://techblog.lycorp.co.jp/ja/20260119a",
+      "summary": "LINE iOSでClaude Codeを活用するには、CLAUDE.mdやAgent Skills等の適切なインストラクション設計が必要。Contextを最適化し、スクリプトやlinter等の従来ガードレールを併用、インストラクションを共有・継続的に改善してAIに効率的な開発イテレーションを回させることが重要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-19T05:30:00.000Z",
+      "contentHash": "cd7d8e6ca370"
+    },
+    {
+      "id": "31fb8d9a2179",
+      "title": "Show HN: Pdfwithlove – PDF tools that run 100% locally (no uploads, no back end)",
+      "url": "https://pdfwithlove.netlify.app",
+      "summary": "多くのPDFウェブツールが文書をサーバーにアップして収益化する中、pdfwithloveは100%ローカル処理でアップロード・バックエンド・追跡なしを謳う。結合・分割・編集・圧縮・透かし・署名や画像/HTML/Office→PDF変換を提供。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-19T05:04:07.000Z",
+      "contentHash": "794d94d6f758"
+    },
+    {
+      "id": "d708646efb9f",
+      "title": "Power BI サービスのスケジュール更新設定方法 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/01/19/131835",
+      "summary": "Power BIサービスとPower Automateでのスケジュール更新設定を紹介。前提はPower BI Desktopからの発行とデータソースの資格情報設定。サービスでは資格情報を設定してスケジュールを登録、AutomateではScheduled cloud flowで「Refresh a dataset」アクションを使う。用途に応じて使い分けを推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-19T04:18:35.000Z",
+      "contentHash": "7d692dc19e42"
+    },
+    {
+      "id": "733e167e6670",
+      "title": "MySQL で super_read_only=on なのに GTID が割り当てられる statement などについて | GREE Engineering",
+      "url": "https://labs.gree.jp/blog/2026/01/25173/",
+      "summary": "MySQL 9.5でGTIDがデフォルト有効化。SOURCE_AUTO_POSITION=1でのレプリケーション時、replicaをsuper_read_only=onにすることでER_SOURCE_HAS_PURGED_REQUIRED_GTIDSを防げるが、関連バグ（#88720、#35665076）がありAffects Me登録を呼びかける。記事はソースコード解説付き。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-19T04:05:07.000Z",
+      "contentHash": "0d136fe8286d"
+    },
+    {
+      "id": "64102f3318c8",
+      "title": "【2026年1月】OSSサポートエンジニアが気になった！OSS最新ニュース | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/50996",
+      "summary": "2026年1月のSIOS Tech Lab月刊コラム。株式会社ROUTE06がプログラミング不要で直感的にAIアプリを構築できるノーコードプラットフォーム「Giselle」を発表したニュースを紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-19T03:43:41.000Z",
+      "contentHash": "d2e5f5494cd8"
+    },
+    {
+      "id": "762bab0a7eca",
+      "title": "知っておくとちょっと便利！tar コマンドを使ったファイルのアーカイブ・展開 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/50993",
+      "summary": "この記事は、複数ファイルを1つのアーカイブにまとめたり展開するtarコマンドの使い方を解説。バックアップやファイル管理で便利な基本操作とポイントを紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-19T03:42:40.000Z",
+      "contentHash": "d4002c06bbee"
+    },
+    {
+      "id": "f2545851f49f",
+      "title": "Vertex AI の Gemini Live API 開発者ガイド",
+      "url": "https://note.com/npaka/n/n79f32f5d6901",
+      "summary": "Gemini 2.5搭載のVertex AI Gemini Live APIは、単一の低遅延ネイティブ音声で音声・テキスト・映像をリアルタイム統合。感情検出や賢い割り込み、Function Calling等のツール連携、継続的コンテキストやマルチリージョンの実稼働対応を提供。開発は双方向ストリーミング（WebSocket）中心を想定。",
+      "source": "npaka",
+      "publishedAt": "2026-01-19T03:37:45.000Z",
+      "contentHash": "6570e2b7a277"
+    },
+    {
+      "id": "90cc3ebce66a",
+      "title": "特徴量重要度(寄与度)の算出手法を比較してみる -MDI / PFI / SHAP- | 分析屋",
+      "url": "https://note.com/bunsekiya_tech/n/ncf20aedd00d1",
+      "summary": "Random ForestでKaggleのHouse Pricesを題材にMDI・PFI・SHAPを比較。ダミー特徴量3列を追加した実験で、MDIは無関係なダミーを高評価した一方、PFIとSHAPは抑制。重要度の定義差と信頼性を検討した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-19T03:00:00.000Z",
+      "contentHash": "a0808089c807"
+    },
     {
       "id": "e822237c0523",
       "title": "「リアルな世界」をエンジニアリングする。“確かな手触り”を求めてestieへ | estie inside blog",
@@ -92,13 +209,40 @@
       "contentHash": "e47ad7bbe007"
     },
     {
+      "id": "bc5a36b20675",
+      "title": "High-speed train collision in Spain kills at least 39",
+      "url": "https://www.bbc.com/news/articles/cedw6ylpynyo",
+      "summary": "スペイン南部アダムス付近で高速列車同士が衝突し、少なくとも39人死亡、数十人負傷。マラガ発マドリード行きが脱線して反対側の下り列車に衝突。乗客・乗務員約400人で122人が治療、48人入院（子ども5人含む）。現場は損壊が激しく救助困難。原因は不明で調査中。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-18T23:54:43.000Z",
+      "contentHash": "733234a48d04"
+    },
+    {
+      "id": "d8d55914b8a0",
+      "title": "Prediction: Microsoft will eventually ship a Windows-themed Linux distro",
+      "url": "https://gamesbymason.com/blog/2026/microsoft/",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文を貼るか要点を教えていただければ、200文字以内の日本語要約を作成します。HNコメントも要約希望なら併せてお知らせください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-18T23:24:55.000Z",
+      "contentHash": "2ae9cad858fc"
+    },
+    {
       "id": "ac9f8d3bf202",
       "title": "Police Invested Millions in Shadowy Phone-Tracking Software Won't Say How Used",
       "url": "https://www.texasobserver.org/texas-police-invest-tangles-sheriff-surveillance/",
-      "summary": "すみません、直接ウェブ閲覧できないため元記事を取得できません。記事本文か主要段落を貼るか、要点を教えてください。確認次第、200字以内で要約します。",
+      "summary": "申し訳ありませんが、外部サイトを直接読み取れないため記事を取得できません。記事本文か主要部分をここに貼っていただければ、200文字以内で日本語要約を作成します。もしくは見出しに基づく簡易要約（正確性は限定）を希望ならお知らせください。",
       "source": "Hacker News",
       "publishedAt": "2026-01-18T21:05:14.000Z",
-      "contentHash": "0a3a14d1da7a"
+      "contentHash": "926f991148ff"
+    },
+    {
+      "id": "01968acad450",
+      "title": "Show HN: Dock – Slack minus the bloat, tax, and 90-day memory loss",
+      "url": "https://getdock.io/",
+      "summary": "Dockは非同期とリアルタイムに対応したシンプルなチームチャット。決定事項を一元管理・即時検索でき、無期限のメッセージ検索が無料。SOC2準拠で通信・保存時暗号化、データはユーザー所有。余計なAI課金や機能バンドルを廃し低コストで提供。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-18T20:42:49.000Z",
+      "contentHash": "9c0f5e97a398"
     },
     {
       "id": "cf39cf396339",
@@ -110,13 +254,31 @@
       "contentHash": "65e50a14a459"
     },
     {
+      "id": "8cee6469eaa2",
+      "title": "Dead Internet Theory",
+      "url": "https://kudmitry.com/articles/dead-internet-theory/",
+      "summary": "筆者はHackerNewsで公開されたオープンソースに対し、コメント欄でAI生成疑惑が沸騰するのを目撃。作者はAI未使用を主張。筆者はAI利用自体は問題ないが、特にOSSでは使用の開示が必要で、増えるAI生成コードを全て検証するのは困難だと述べる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-18T20:19:07.000Z",
+      "contentHash": "d1445aea9039"
+    },
+    {
+      "id": "978b8c21f12a",
+      "title": "Around 1,500 soldiers on standby for deployment to Minneapolis",
+      "url": "https://www.bbc.co.uk/news/articles/c74v0pxg2nvo",
+      "summary": "反ICEデモが続くミネアポリスへ、アラスカ駐留の第11空挺師団約1,500人が展開待機中。派遣は未決定。市長は連邦部隊を「占領」と批判。トランプは内乱法を示唆し、連邦判事は平和的デモへの過剰な制圧を制限する命令を出した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-18T19:09:43.000Z",
+      "contentHash": "8e0144b84143"
+    },
+    {
       "id": "f530b8be4870",
       "title": "Prediction markets are ushering in a world in which news becomes about gambling",
       "url": "https://www.msn.com/en-us/money/markets/america-is-slow-walking-into-a-polymarket-disaster/ar-AA1Upfdb",
-      "summary": "申し訳ありませんが、外部リンクの内容を直接取得できません。記事本文を貼っていただければ200文字以内で要約します。本文を貼れない場合は、見出しとコメントを基にした簡潔な推測要約を作成してもよいです。どちらがよろしいですか？",
+      "summary": "外部リンク先は直接参照できません。記事本文を貼っていただければ、200字以内で要約します。HNのコメント欄だけ要約希望ならそれも教えてください。",
       "source": "Hacker News",
       "publishedAt": "2026-01-18T18:20:25.000Z",
-      "contentHash": "f415a80177de"
+      "contentHash": "12e579f6f037"
     },
     {
       "id": "644723dcf8a5",
@@ -126,6 +288,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-01-18T18:01:58.000Z",
       "contentHash": "cddb60dc4501"
+    },
+    {
+      "id": "cf8ef3562f07",
+      "title": "Show HN: Lume 0.2 – Build and Run macOS VMs with unattended setup",
+      "url": "https://cua.ai/docs/lume/guide/getting-started/introduction",
+      "summary": "LumeはApple Silicon上でVirtualization Frameworkを使いmacOS/Linuxを近ネイティブで動かすオープンソース(MIT)VMランタイム。単一バイナリでHTTP APIを提供し、CIやmacOS版テスト、自動セットアップ、イメージ管理、Rosetta2/GPU/効率的ストレージをサポート。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-18T17:53:21.000Z",
+      "contentHash": "84fbb096c309"
     },
     {
       "id": "3b254629bdd5",
@@ -680,10 +851,10 @@
       "id": "b106a2cc03e0",
       "title": "Youtube に AI×創作 の実験場チャンネルをオープンしました",
       "url": "https://note.com/npaka/n/na807849f6af6",
-      "summary": "npakaが「AI×創作の実験場」YouTubeチャンネルを開設。これまでX経由でnoteに動画を貼っていたが、画質が良いYouTubeも併用する方針で、生成AIや動画・音楽生成などの実験・共有を行う。",
+      "summary": "npakaが「AI×創作の実験場」YouTubeチャンネルを開設。これまでX経由でnoteに貼っていた動画を、より高画質なYouTubeで公開する方針。生成AIや画像・動画・音楽生成などAI創作の実験を行う。プログラマーで技術書執筆者。",
       "source": "npaka",
       "publishedAt": "2026-01-17T01:04:46.000Z",
-      "contentHash": "4682c3287af3"
+      "contentHash": "907c93bfd629"
     },
     {
       "id": "8f42787d3e27",
@@ -959,10 +1130,10 @@
       "id": "7199771bddbe",
       "title": "アニメのシナリオ展開入門",
       "url": "https://note.com/npaka/n/n09e40219abfe",
-      "summary": "アニメのシナリオは出来事でなく視聴者の感情の流れで作る。王道5段階（導入→きっかけ→展開→山場→結果）を意識し、山場から逆算、キャラの選択で話を動かす。失敗例は事件不足・山場欠如・オチなし。",
+      "summary": "アニメのシナリオは出来事でなく「感情の流れ」を作ること。王道の5ステップ（導入→きっかけ→展開→山場→結果）を押さえ、山場から逆算し、成功・失敗とキャラの選択で話を動かすと展開が組み立てやすい。",
       "source": "npaka",
       "publishedAt": "2026-01-16T12:12:18.000Z",
-      "contentHash": "dfaa6405c3c3"
+      "contentHash": "2d8974dfbf37"
     },
     {
       "id": "7c69a317c020",
@@ -1454,10 +1625,10 @@
       "id": "8bbb1bbd6398",
       "title": "Topaz Video のAIアップスケールを試す",
       "url": "https://note.com/npaka/n/nd097ef330aa7",
-      "summary": "Topaz VideoはTopaz LabsのAI映像強化ソフトで、4K/8Kへのアップスケール、ノイズ除去、フレーム補間、手ぶれ補正などが可能。動画を読み込みプリセットやフィルタを設定→プレビュー→Exportで処理し、1分強の動画は約9分で生成された。",
+      "summary": "Topaz Videoを試用。AIで動画を4K〜8K（場合により16K）へアップスケール、ノイズ除去、フレーム補間、手ぶれ補正など可能。操作はダウンロード→ドラッグ&ドロップ→プリセット選択→プレビュー→Export。アニメ向け設定例や1分23秒の動画が約9分で処理された実測を紹介。",
       "source": "npaka",
       "publishedAt": "2026-01-15T21:26:28.000Z",
-      "contentHash": "ac44b56588c9"
+      "contentHash": "d861c54a1ee9"
     },
     {
       "id": "e4c6a7f8f144",
@@ -1472,10 +1643,10 @@
       "id": "4981658f9b9a",
       "title": "Open Responses の概要",
       "url": "https://note.com/npaka/n/nb8d8a64e0cbf",
-      "summary": "記事本文かリンクを貼っていただけますか？内容が分かれば200文字以内で日本語要約します。全文が長ければ主要段落やポイントを貼っていただければ大丈夫です。要約の文体（丁寧／カジュアル）も指定できます。",
+      "summary": "Open ResponsesはOpenAIのResponses APIを基にOSSコミュニティとHugging Faceが進めるオープンな推論規格。エージェント向けに設計され、デフォルトでステートレス、モデル設定の標準化、ストリーミングをセマンティックイベント化し、プロバイダー拡張で相互運用を目指す。",
       "source": "npaka",
       "publishedAt": "2026-01-15T20:31:23.000Z",
-      "contentHash": "303a0880222c"
+      "contentHash": "a6dbc97562ee"
     },
     {
       "id": "caff0d8d18f6",
@@ -1490,10 +1661,10 @@
       "id": "ab9f1321a9f1",
       "title": "TranslateGemma の概要",
       "url": "https://note.com/npaka/n/ne22141b07a0f",
-      "summary": "Gemma 3を基にしたオープン翻訳モデル群「TranslateGemma」（4B/12B/27B）を公開。55言語対応でSFT＋RLで高効率化し、小型モデルが大規模を上回る性能。マルチモーダル対応でモバイル〜ローカル実行に最適、研究用基盤として提供。",
+      "summary": "Gemma 3を基にしたオープン翻訳モデル群「TranslateGemma」（4B/12B/27B）を公開。SFT＋RLの二段階学習で高効率化し、12Bが27Bを上回る性能。55言語対応、マルチモーダル維持でモバイル〜サーバー向け最適化。",
       "source": "npaka",
       "publishedAt": "2026-01-15T20:11:09.000Z",
-      "contentHash": "1448ffe1ed46"
+      "contentHash": "4f44b2924439"
     },
     {
       "id": "f6b042732799",
@@ -1850,10 +2021,10 @@
       "id": "c9f873c1a2b6",
       "title": "Tailwind CSS のクイックスタート",
       "url": "https://note.com/npaka/n/n51c6d1ee632e",
-      "summary": "Tailwind CSSはHTMLにユーティリティクラスを直接書いてデザインするフレームワーク。CDNで簡単導入でき、flex/gridによるレイアウトや色・余白・角丸・影・文字・ボタンなどの豊富なクラスで迅速にUIを構築でき、ReactやSvelteにも対応。",
+      "summary": "Tailwind CSSはHTMLに小さなユーティリティクラスを直接書いてUIを高速構築するフレームワーク。CDNを使った最小サンプルと、背景・文字・余白・角丸・影・幅高さ・flex/gridなどの主要クラス例を紹介。",
       "source": "npaka",
       "publishedAt": "2026-01-15T07:51:35.000Z",
-      "contentHash": "316a2e8b6dce"
+      "contentHash": "98b1f50cac48"
     },
     {
       "id": "beecb7ef4bea",
@@ -2147,10 +2318,10 @@
       "id": "af446cf48dc2",
       "title": "Gemini Personal Intelligence の概要",
       "url": "https://note.com/npaka/n/n4bfbc8d0b09c",
-      "summary": "記事本文が見えないので要約できません。本文を貼るか記事へのリンクを教えてください。内容がわかれば200文字以内で日本語にまとめます。必要なら「Gemini Personal Intelligence」の公開情報にもとづく概略要約を作ることもできます。どちらがよいですか？",
+      "summary": "Gemini Personal Intelligenceは米国でベータ提供。GmailやGoogleフォト等を連携して写真・メール・検索を横断解析し、個人化・推論するアシスタントを実現。連携はデフォルトオフで選択式、データはGoogle内に留め透明性とプライバシー制御が担保される。",
       "source": "npaka",
       "publishedAt": "2026-01-14T22:08:57.000Z",
-      "contentHash": "de77b26ae227"
+      "contentHash": "b1ac220762c4"
     },
     {
       "id": "b971bf8f83c1",
@@ -8829,177 +9000,6 @@
       "source": "OpenAI",
       "publishedAt": "2026-01-02T10:00:00.000Z",
       "contentHash": "45e373c7ae81"
-    },
-    {
-      "id": "bf8288cd270a",
-      "title": "Swiftで年末ジャンボシュミレーターMCPサーバーを作ってみた | Money Forward Developersのフィード",
-      "url": "https://zenn.dev/moneyforward/articles/8efecd38a708e6",
-      "summary": "iOSエンジニアがSwiftで年末ジャンボ宝くじのシミュレーターをMCP（Claude用プラグイン）として実装。Model Context ProtocolのSwift SDKを使い、Package設定やツール一覧・実行ハンドラを登録してサーバーを起動し、Claudeから直接シミュレーション結果を返せるようにした。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-02T09:00:11.000Z",
-      "contentHash": "d7d21560c8fc"
-    },
-    {
-      "id": "01db54819748",
-      "title": "Standard Ebooks: Public Domain Day 2026 in Literature",
-      "url": "https://standardebooks.org/blog/public-domain-day-2026",
-      "summary": "Standard EbooksのPublic Domain Day 2026記事。1955年没の作家作品や各国の適用差（死後年数や米国の出版年基準）に基づき、2026年にパブリックドメイン化する注目作を挙げて解説し、プロジェクトでの活用や注意点を示す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-02T08:40:41.000Z",
-      "contentHash": "5070e8e24b2e"
-    },
-    {
-      "id": "6c49e067af68",
-      "title": "Samsung adds much needed brightness to its Freestyle projector",
-      "url": "https://www.theverge.com/news/852545/samsung-adds-much-needed-brightness-to-its-freestyle-projector",
-      "summary": "サムスンのポータブルプロジェクタ「Freestyle Plus」は430 ISOルーメンを掲げ「前世代のほぼ2倍」と主張するが、従来機は550ルーメン表記で矛盾。ルーメン表記はエプソン訴訟などでISO基準への統一が進んでおり、外観は従来機と似ている。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-02T08:30:17.000Z",
-      "contentHash": "2e380c0d3ca8"
-    },
-    {
-      "id": "c30f368ac250",
-      "title": "Petkit’s first automatic wet food feeder keeps track of how much your pet eats",
-      "url": "https://www.theverge.com/news/850992/petkit-ai-camera-yumshare-daily-feast-automatic-wet-food-feeder-eversweet-ultra-fountain",
-      "summary": "PetkitがCES2026でAIカメラ搭載の自動給餌器と給水器を発表。4月発売の「Yumshare Daily Feast」はウェットフード対応で最大7日分供給、NFCで48時間未食を自動除去、UVC除菌と1080pナイトビジョン搭載。給水器はAIとカメラで飲水行動や健康を追跡。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-02T08:00:00.000Z",
-      "contentHash": "aaf52b5afa9e"
-    },
-    {
-      "id": "d2882cd1d529",
-      "title": "A confession from a mainstream food delivery app engineer",
-      "url": "https://www.reddit.com/r/confession/s/gbrh2zxeou",
-      "summary": "申し訳ありませんが、外部URLを直接開けないため記事の中身を確認できません。記事本文や重要な抜粋をここに貼っていただければ、200文字以内の日本語要約を作成します。コメントや要点だけでも可。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-02T05:00:25.000Z",
-      "contentHash": "84c9c5a742f5"
-    },
-    {
-      "id": "286b55f2989b",
-      "title": "I'm a developer for a major food delivery app",
-      "url": "https://old.reddit.com/r/confession/comments/1q1mzej/im_a_developer_for_a_major_food_delivery_app_the/",
-      "summary": "大手配達アプリの開発者が告白。割当や報酬、到着予測などのアルゴリズムが配達員や利用者を操作して会社利益を優先し、不公平や搾取を生んでいると述べ、良心の呵責を感じている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-02T04:57:25.000Z",
-      "contentHash": "fde7c3596a6f"
-    },
-    {
-      "id": "195971a70014",
-      "title": "Marmot – A distributed SQLite server with MySQL wire compatible interface",
-      "url": "https://github.com/maxpert/marmot",
-      "summary": "外部リンクに直接参照できないため、記事本文か主要部分を貼り付けてください。確認次第、200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-02T02:21:57.000Z",
-      "contentHash": "9c64c004e591"
-    },
-    {
-      "id": "4d4cbd1dc684",
-      "title": "Happy Public Domain Day 2026",
-      "url": "https://publicdomainreview.org/blog/2026/01/public-domain-day-2026/",
-      "summary": "すみません、外部サイトを直接取得できないため記事本文にアクセスできません。記事の本文または本文のコピペを送っていただければ、200文字以内で日本語要約します。本文を貼れない場合は「Public Domain Day 2026」の一般的な要点で要約するか、コメント欄も含めるか教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-02T01:42:16.000Z",
-      "contentHash": "dcf0b14feb73"
-    },
-    {
-      "id": "c6cb2a87b1ff",
-      "title": "Why users cannot create Issues directly",
-      "url": "https://github.com/ghostty-org/ghostty/issues/3558",
-      "summary": "このリポジトリではIssueを直接作成せず、まずGitHub Discussionsで議論してください。議論が明確で再現可能な問題や実行可能な作業になれば、メンテナがIssueへ移行します。多くの報告は誤解や環境・設定問題のため、この運用で作業可能なIssueだけを集めます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-02T01:24:51.000Z",
-      "contentHash": "d5f74806db18"
-    },
-    {
-      "id": "70f19aca7820",
-      "title": "【2日目】Databricks レイクハウスの全体像 ~ Delta Lake と メダリオンアーキテクチャを理解する ~ | ちゅらデータ株式会社のフィード",
-      "url": "https://zenn.dev/churadata/articles/e481b53c8f4e80",
-      "summary": "Databricksのレイクハウスは、柔軟なデータレイクと信頼性の高いDWHを統合するアーキテクチャです。中核のDelta Lakeは_delta_logベースのトランザクションでACID、スキーマ管理、Time Travel、バッチ／ストリーミング統合を実現し、ファイル更新や同時書き込みの課題を解決します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-02T01:13:01.000Z",
-      "contentHash": "1e7cb458dfd8"
-    },
-    {
-      "id": "43ea99d43018",
-      "title": "Terrafromで始めるAmazon Bedrock AgentCore ③〜Browser編〜 | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/23d2b02673d7cf",
-      "summary": "Fusic技術ブログ：Amazon Bedrock AgentCoreのBrowserコンポーネントをTerraformで構築する手順。Web操作（スクレイピング等）を提供し、Chromium/Playwright・CDP対応、セッションはデフォ15分（最大8時間）、30日TTL。PUBLIC/VPCモードがあり、本稿はPUBLICでの実装例、IAM設定、Terraformモジュールを紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-02T01:00:01.000Z",
-      "contentHash": "7e693127e5ab"
-    },
-    {
-      "id": "b0f484f2a7bf",
-      "title": "セキュリティエンジニアにおすすめの本 1選 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/recommended-book-for-security-engineers-2026",
-      "summary": "セキュリティエンジニア向けの一冊は、Andrew J. Stewart著『情報セキュリティの敗北史: 脆弱性はどこから来たのか』。歴史的かつ学術的視点で脆弱性の起源や大きな潮流を解説し、現場での説明力向上に役立つ。紙版推奨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-01T23:30:00.000Z",
-      "contentHash": "a32f7e02f750"
-    },
-    {
-      "id": "12be05ea7c72",
-      "title": "ソフトウェアサプライチェーンの盲点をなくす：SBoMによる可視化と防御の戦略 | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/01/02/075000",
-      "summary": "OSS利用で高まるサプライチェーンリスク（タイポスクワッティングやCI/CD侵害、AI生成コードの危険など）に対し、SBoMで部品を可視化し、自動生成・コンテナやOS含む管理・日次脆弱性追跡・署名（Sigstore/in-toto）で迅速対応とコンプライアンス確保を推奨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-01T22:50:00.000Z",
-      "contentHash": "406080f666c2"
-    },
-    {
-      "id": "20bf008cd4bf",
-      "title": "Can Bundler be as fast as uv?",
-      "url": "https://tenderlovemaking.com/2025/12/29/can-bundler-be-as-fast-as-uv/",
-      "summary": "RailsWorldでの問いをきっかけに、Bundlerをuv並みに高速化できるかを調査。Andrew Nesbittの「How uv got so fast」を参照し、Rust再実装や設計判断が速度差に与える影響、Bundler/RubyGemsのボトルネックと改善策を検討・提示している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-01T21:37:10.000Z",
-      "contentHash": "b9c31708349e"
-    },
-    {
-      "id": "e685ad03dddc",
-      "title": "A website to destroy all websites",
-      "url": "https://henry.codes/writing/a-website-to-destroy-all-websites/",
-      "summary": "インターネットはかつて知識や共同体の場だったが、今はアルゴリズムと注意搾取で支配され、垂直動画やクリックベイトが横行している。情熱ある個人サイトを取り戻し、「望むウェブ」を再構築する必要がある。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-01T20:36:46.000Z",
-      "contentHash": "0d4fc6ff280f"
-    },
-    {
-      "id": "6be8c7581aef",
-      "title": "Linux is good now",
-      "url": "https://www.pcgamer.com/software/linux/im-brave-enough-to-say-it-linux-is-good-now-and-if-you-want-to-feel-like-you-actually-own-your-pc-make-2026-the-year-of-linux-on-your-desktop/",
-      "summary": "PC Gamerは、ProtonやSteam Deckの影響、Waylandやドライバ・アプリ配布の改善でLinuxデスクトップが実用化したと指摘。日常やゲーム利用がぐっと現実的になり、完全移行は慎重に段階的に進めつつ、2026年を「試してみる年」にすべきと勧める。注意点として一部専用アプリやハード互換性の問題も残る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-01T20:35:11.000Z",
-      "contentHash": "7b5d452a773f"
-    },
-    {
-      "id": "723dd6d13c93",
-      "title": "Dell's version of the DGX Spark fixes pain points",
-      "url": "https://www.jeffgeerling.com/blog/2025/dells-version-dgx-spark-fixes-pain-points",
-      "summary": "DellのGB10ミニワークステーション（ベースノード）を試用。DGX Sparkより電源LED、280W電源、前後吸排気で静音・熱対策が改善。価格は4000ドル超で小規模LLMには割高、主にNVIDIAエコシステムで大規模サーバーに展開する開発者向け。200Gbps QSFPやGrace（Armコア）搭載が特徴。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-01T19:11:53.000Z",
-      "contentHash": "23629e7ec648"
-    },
-    {
-      "id": "277d96a8d2fe",
-      "title": "Finland detains ship and its crew after critical undersea cable damaged",
-      "url": "https://www.cnn.com/2025/12/31/europe/finland-estonia-undersea-cable-ship-detained-intl",
-      "summary": "フィンランド当局はヘルシンキ―タリン間の海底通信ケーブル損傷に関与した疑いで貨物船「Fitburg」（セントビンセント籍）を押収、乗組員14人（ロシア、ジョージア、カザフ、アゼル出身）を拘束。船はサンクトペテルブルク発ハイファ行きで、現場はエストニア領海。NATOは海底インフラ保護を強化中。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-01T18:46:07.000Z",
-      "contentHash": "f690a1f08ccb"
-    },
-    {
-      "id": "5db308bc8dec",
-      "title": "LG’s new karaoke-ready party speaker uses AI to remove song vocals",
-      "url": "https://www.theverge.com/news/852362/lg-xboom-stage-501-karaoke-launch-ces-2026",
-      "summary": "LGはWill.i.amと共同開発したカラオケ対応パーティースピーカー「Stage 501」を発表。AIが任意の曲のボーカル除去・ピッチ調整を可能にし、5面設計の強化ウーファーとフルレンジで音質向上。着脱式99Wh電池で最大25時間再生、出力160W（有線時220W）。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-01T18:16:10.000Z",
-      "contentHash": "b34417fb8177"
     }
   ]
 }
