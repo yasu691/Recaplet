@@ -1,6 +1,222 @@
 {
-  "generatedAt": "2026-01-19T16:48:18.312Z",
+  "generatedAt": "2026-01-20T02:18:51.720Z",
   "items": [
+    {
+      "id": "f60f167e128f",
+      "title": "GitHub Copilot SDKがTechnical Previewリリースされました | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2026/01/20/102048",
+      "summary": "2026年1月、GitHubがGitHub Copilot SDKをTechnical Previewで公開。Node/TypeScript、Python、Go、C#対応。利用にはGitHub Copilot CLIが必須で、C#例でGPT-5呼び出し手順やv0.1.13以降を推奨と説明。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-20T01:20:48.000Z",
+      "contentHash": "b7f3d5a934ee"
+    },
+    {
+      "id": "e62425a567f8",
+      "title": "話しやすいから、連携しやすい ── estieのIS×マーケが自然に協働できる理由 | estie inside blog",
+      "url": "https://www.estie.jp/blog/entry/2026/01/20/101233",
+      "summary": "estieではISとマーケが日常的な雑談を含む濃密な対話と互いのKPI理解、忖度のないフィードバック、信頼に基づく事実重視の相談で問題を早期解決し自然に協働できている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-20T01:12:33.000Z",
+      "contentHash": "652975c76610"
+    },
+    {
+      "id": "5cfcdc3b551c",
+      "title": "VPS基盤におけるCPU選定の思考プロセス | GMO Developers",
+      "url": "https://developers.gmo.jp/technology/76240/",
+      "summary": "GMOの吉田がVPS基盤のCPU選定手法を解説。利用状況（A期間はCPU重視、B期間はメモリ重視）とラック電力（8kVA）を基にEPYC9004の48/64コアを使い分け、コスト最適化と顧客還元を図る。メーカー提案の注意点も提示。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-20T01:00:00.000Z",
+      "contentHash": "d2330e940c19"
+    },
+    {
+      "id": "da0e5931c84f",
+      "title": "Gemini in Android Studioを触ってみた | NEXTSCAPE blog",
+      "url": "https://blog.nextscape.net/archives/2026/01/20/093922",
+      "summary": "ネクストスケープの小野塚がAndroid StudioでGeminiを試用。インストールやAVD作成、SDKパスに日本語を入れない注意点を紹介し、GeminiのAgentでToDoアプリへ自動改修。無料でGemini2.5 Pro利用可。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-20T00:39:22.000Z",
+      "contentHash": "33be213978d9"
+    },
+    {
+      "id": "6098b40fca8c",
+      "title": "Starlinkは特別豪雪地帯でも使える？北海道沼田町で融雪機能の実地テストを開始 | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/34824",
+      "summary": "Starlinkの融雪機能を北海道沼田町で実地テスト開始。特別豪雪地帯の協力場所に標準フラット型（融雪性能最大40mm/時）を設置し動作観察中。設置後は融雪でつららが確認され、降雪影響が出れば随時報告、現地はYouTubeライブで公開。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-20T00:19:14.000Z",
+      "contentHash": "e5f0097d0dbb"
+    },
+    {
+      "id": "f592376f8fbb",
+      "title": "SharePointリストのリストフォームで列の表示条件を設定する | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/01/20/091048",
+      "summary": "SharePointリストのフォームで、他列の値に応じて列の表示/非表示を設定する方法を解説。列の編集→「条件式の編集」で =if([$内部名] == '値','true','false') などを使い、比較演算子やcontains、&&/||で条件を作成。設定後は新規追加や編集で動作確認。Power Appsを使わずフォームを簡潔にできる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-20T00:10:48.000Z",
+      "contentHash": "2ae0f36d1381"
+    },
+    {
+      "id": "68decaed19bb",
+      "title": "AWS Certified Machine Learning - Associate (MLA-C01) 備忘録 | Agent Grow Tech Notesのフィード",
+      "url": "https://zenn.dev/agent_grow/articles/7f1e6aaa485a92",
+      "summary": "MLA-C01合格の備忘録。短期学習で得た機械学習の基礎をAWSサービス（Glue/DataBrew/SageMaker等）と紐づけて解説。データ準備（ETL・特徴量）や代表的アルゴリズム（決定木、RandomForest、XGBoost、KNN、k-means等）をAI補助でまとめたメモ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-20T00:00:01.000Z",
+      "contentHash": "047ff311fbf9"
+    },
+    {
+      "id": "57173adf900b",
+      "title": "気づくとAIに話しかけているデザイナーはちゃんと考えているのか？ | techtekt",
+      "url": "https://techtekt.persol-career.co.jp/entry/member/260120_01",
+      "summary": "AIで試作や文章が速く出る反面、「なぜそうするか」というUXの根拠が薄れがちだと指摘。レイアウト等はAIに任せてよいが、何を作るかやユーザーの迷いを設計する問いは人間が持ち続けるべきだと結ぶ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-20T00:00:00.000Z",
+      "contentHash": "8faab6bb4fb8"
+    },
+    {
+      "id": "b29dc384cf5f",
+      "title": "IT未経験から2年、私の人生を変えたデータ分析書籍のベストバイはこれだ！ | 分析屋",
+      "url": "https://note.com/bunsekiya_tech/n/nce12aec62c1b",
+      "summary": "IT未経験から転職して2年の著者が、成長を求め続ける姿勢とともに実務で役立ったデータ分析書を紹介。『データサイエンス100本ノック（構造化データ）』『Kaggleで勝つデータ分析』『Pythonによる時系列予測』『PyTorch＆深層学習』など、学習法や現場での活用体験を共有。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-20T00:00:00.000Z",
+      "contentHash": "3769848d780e"
+    },
+    {
+      "id": "74162236bc7d",
+      "title": "プロキシの概要から掴む 新サービス AWS Network Firewall Proxyの紹介 | 電通総研 テックブログ",
+      "url": "https://tech.dentsusoken.com/entry/2026/01/20/%E3%83%97%E3%83%AD%E3%82%AD%E3%82%B7%E3%81%AE%E6%A6%82%E8%A6%81%E3%81%8B%E3%82%89%E6%8E%B4%E3%82%80_%E6%96%B0%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9_AWS_Network_Firewall_Proxy%E3%81%AE%E7%B4%B9%E4%BB%8B",
+      "summary": "金融IT本部の坂江氏が、2025年12月時点のプレビュー版AWS Network Firewall Proxyを解説。プロキシの役割（通信の一元制御・監査・送信元隠蔽・キャッシュ）、アーキテクチャ、ルールやプロキシ設定、Terraformと手動による構築・動作検証と注意点を紹介しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-20T00:00:00.000Z",
+      "contentHash": "8717931ac4e6"
+    },
+    {
+      "id": "126dff4e5bf8",
+      "title": "OpenAI’s 2026 ‘focus’ is ‘practical adoption’",
+      "url": "https://www.theverge.com/news/864229/openai-focus-practical-adoption-sarah-friar",
+      "summary": "OpenAIは2026年の重点を「実用的導入」に置き、大規模インフラ投資でAIの能力と実利用の乖離を埋めようとする。医療・科学・企業分野での即時の機会を重視し、利用者数は過去最高を更新中。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-19T21:05:30.000Z",
+      "contentHash": "f9bee94f3b6f"
+    },
+    {
+      "id": "2e84a723df7e",
+      "title": "How much can a city take?",
+      "url": "https://www.theverge.com/policy/864195/minneapolis-ice-invasion-organizing-immigration",
+      "summary": "筆者はミネアポリス在住。3000人超のICEが市を占拠し第3週に入る中、住民は自警や抗議、情報共有に動く。パンデミック以上に日常が崩壊し、筆者はこれを「トランプの復讐」だと批判している。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-19T21:00:00.000Z",
+      "contentHash": "73fee4b7670b"
+    },
+    {
+      "id": "acf9750053e4",
+      "title": "Simple Sabotage Field Manual (1944) [pdf]",
+      "url": "https://www.cia.gov/static/5c875f3ec660e092cf893f60b4a288df/SimpleSabotage.pdf",
+      "summary": "本文は文字化け・破損しており内容を判読できません。要約するため、正しいテキストを再送してください。可能ならファイル形式や文字エンコーディングも教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-19T20:51:00.000Z",
+      "contentHash": "e218997c2d4e"
+    },
+    {
+      "id": "b789201a933a",
+      "title": "Level S4 solar radiation event",
+      "url": "https://www.swpc.noaa.gov/news/g4-severe-geomagnetic-storm-levels-reached-19-jan-2026",
+      "summary": "2026年1月19日、太陽コロナ質量放出（CME）の衝撃到来により東部標準時14:38（19:38 UTC）にG4（強）磁気嵐レベルに到達。CMEの通過は夜まで続き、引き続きG4級の可能性がある。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-19T20:26:19.000Z",
+      "contentHash": "232a27a25d7d"
+    },
+    {
+      "id": "5ea6c662f360",
+      "title": "Threads edges out X in daily mobile users, new data shows",
+      "url": "https://techcrunch.com/2026/01/18/threads-edges-out-x-in-daily-mobile-users-new-data-shows/",
+      "summary": "Similarwebは2026年1月7日時点でThreadsのモバイル日次利用者が141.5M、Xは125Mと報告。Xはウェブで優位だが、ThreadsはMetaの宣伝や新機能、クリエイター重視で成長。XのAI「Grok」による非同意合成画像問題で捜査が始まったが、利用増は長期的傾向が主とされる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-19T20:17:32.000Z",
+      "contentHash": "0845e1f51f33"
+    },
+    {
+      "id": "5b3e0d8333c3",
+      "title": "There's a hidden Android setting that spots fake cell towers",
+      "url": "https://www.howtogeek.com/theres-a-hidden-android-setting-that-spots-fake-cell-towers/",
+      "summary": "Androidに偽基地局（スティングレイ）を検出する隠し設定があり、暗号化されていない携帯接続を通知して中間者攻撃を警告する。開発者向け設定やADBで有効化できる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-19T20:09:04.000Z",
+      "contentHash": "95508a7105bf"
+    },
+    {
+      "id": "6e4726bdabf3",
+      "title": "Americans Are the Ones Paying for Tariffs, Study Finds",
+      "url": "https://www.wsj.com/economy/trade/americans-are-the-ones-paying-for-tariffs-study-finds-e254ed2e",
+      "summary": "研究は、関税の負担は外国ではなく主に米国民に転嫁されると結論付ける。輸入品価格の上昇や実質所得の低下、報復関税による輸出損失で家計や企業が打撃を受け、保護対象の利益は限定的。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-19T19:43:07.000Z",
+      "contentHash": "058052c32ea5"
+    },
+    {
+      "id": "a00446d6ad98",
+      "title": "A second US Sphere could come to Maryland",
+      "url": "https://www.theverge.com/tech/864192/sphere-entertainment-mini-venue-maryland-national-harbor",
+      "summary": "Sphere Entertainmentがワシントン郊外のメリーランド州ナショナル・ハーバー（DC南15分）に座席約6000の小型「Sphere」を開発する意向を表明。正確な場所や日程は未定で、ラスベガスやアブダビ計画に続く米国2例目。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-19T19:35:52.000Z",
+      "contentHash": "241089918350"
+    },
+    {
+      "id": "42c4058cd4b0",
+      "title": "Nonviolence",
+      "url": "https://kinginstitute.stanford.edu/nonviolence",
+      "summary": "キングは非暴力を「愛による悪への勇敢な対峙」と位置づけ、ソローやガンジーの影響でキリスト教的愛とガンジー式非暴力を結合した。1955年のモンゴメリー・バス抵抗で実践し、ラスティンらの助言で武装護衛を拒み暴力に慈悲で応じた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-19T19:33:22.000Z",
+      "contentHash": "c677292bf220"
+    },
+    {
+      "id": "369eb39f2b50",
+      "title": "Letter from a Birmingham Jail (1963)",
+      "url": "https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html",
+      "summary": "獄中のキング牧師は、聖職者らの「時期尚早」批判に応え、SCLC会長としてバーミンガムの運動に招かれ組織的関係があり、何より不正義があるため非暴力直接行動に参加したと説明し、預言者やパウロになぞらえて行動の正当性を主張する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-19T19:17:52.000Z",
+      "contentHash": "2bc34d88274a"
+    },
+    {
+      "id": "c5880202f871",
+      "title": "US Places Arctic Airborne Troops on Standby as Greenland Dispute Escalates",
+      "url": "https://www.thedefensenews.com/news-details/Pentagon-Places-1500-Arctic-Trained-Airborne-Troops-on-Standby-as-Greenland-Dispute-Escalates/",
+      "summary": "国防総省は、グリーンランドを巡る対立の高まりを受け、北極訓練を受けた約1,500名の空挺部隊を待機させた。即応態勢の強化で同島の安全保障や米国の権益保護、北極での戦略的関与を示す狙いと報じられた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-19T18:42:34.000Z",
+      "contentHash": "bb34cb027171"
+    },
+    {
+      "id": "a1f9de91086b",
+      "title": "Nearly a third of social media research has undisclosed ties to industry",
+      "url": "https://www.science.org/content/article/nearly-third-social-media-research-has-undisclosed-ties-industry-preprint-claims",
+      "summary": "プレプリント研究は約2000本のソーシャルメディア論文を自動解析し、約3割でSNS企業や関連団体との資金・雇用などの利害関係が未開示と判定。研究の偏りと透明性を問題視する一方、未査読で分類手法や「利害関係」定義への批判もある。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-19T18:17:07.000Z",
+      "contentHash": "7774b98f2ab4"
+    },
+    {
+      "id": "66dfa93aad58",
+      "title": "Notes on Apple's Nano Texture (2025)",
+      "url": "https://jon.bo/posts/nano-texture/",
+      "summary": "Nano Texture搭載のMacBook Proは光の反射を大幅に抑え、屋外や明るいカフェ・オフィスでも快適に作業可能に。清掃は手間で専用クロスが必要。白地黒字（ライトモード）の可読性が高く、屋外作業に最適。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-19T18:15:48.000Z",
+      "contentHash": "8750b23a3b55"
+    },
+    {
+      "id": "68ec1ec7bd94",
+      "title": "Bungie’s Marathon shooter launches on March 5th",
+      "url": "https://www.theverge.com/news/864146/bungie-marathon-release-date-march-5th-price",
+      "summary": "Bungieの抽出型シューター「Marathon」は発売日を3月5日に決定、Xbox Series S/X・PS5・PCで発売、価格は$39.99。2850年を舞台に最大3人のクルーで対NPC＋対人のPvPvEを行い、死亡で装備を失うが生存すれば戦利品は次回に持ち越せる。当初9月から延期され、プレイテストで近接チャットやソロ参戦などを追加。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-19T16:41:50.000Z",
+      "contentHash": "87f897cee267"
+    },
     {
       "id": "0b9b34e33ae6",
       "title": "Kiel Institute Analysis: US Americans pay 96% of tariff burden",
@@ -239,10 +455,10 @@
       "id": "408bdc4d2f43",
       "title": "漫画のコマ割り演出入門",
       "url": "https://note.com/npaka/n/n393f3bc40a44",
-      "summary": "漫画のコマ割りはレイアウトではなく、時間と感情を編集する演出。小コマはテンポ、中コマは状況把握、大コマは感情のピーク。余白や読線で緊張や安心を作り、導入→揺さぶり→山場→余韻でコマ数とサイズを変えて読者の心を動かす。",
+      "summary": "コマ割りは単なるレイアウトでなく時間と感情を編集する演出。小コマはテンポ、中コマは状況把握、大コマは感情の停止。読線・余白・コマ数で緊張や余韻を作り、溜め→解放で感情を動かす。",
       "source": "npaka",
       "publishedAt": "2026-01-19T05:39:11.000Z",
-      "contentHash": "084c4117dd2c"
+      "contentHash": "5ab26df50c5b"
     },
     {
       "id": "6ab601e6faeb",
@@ -302,10 +518,10 @@
       "id": "f2545851f49f",
       "title": "Vertex AI の Gemini Live API 開発者ガイド",
       "url": "https://note.com/npaka/n/n79f32f5d6901",
-      "summary": "Vertex AIのGemini Live API（Gemini 2.5 Flash Native Audio）がGA。低遅延のネイティブ音声で音声・テキスト・映像をリアルタイム統合し、感情検知・スマート割り込み・Function Callingや検索連携、継続的記憶、マルチリージョン等の企業向け安定性を提供。開発は双方向ストリーミング/WebSocket経由のプロキシ構成が基本。",
+      "summary": "Vertex AIのGemini Live APIがGemini 2.5 Flash Native AudioでGA。低遅延のネイティブ音声でSTT/LLM/TTSを統合し、リアルタイム多モーダル会話、感情認識、賢い割り込み、Function Callingや継続記憶を提供。エンタープライズ対応で双方向ストリーミング（フロント→バックエンド→WebSocket）で実装。",
       "source": "npaka",
       "publishedAt": "2026-01-19T03:37:45.000Z",
-      "contentHash": "b38c665b6081"
+      "contentHash": "41e5722f7a4e"
     },
     {
       "id": "90cc3ebce66a",
@@ -626,6 +842,15 @@
       "id": "39240f2e0903",
       "title": "AI for self empowerment",
       "url": "https://openai.com/index/ai-for-human-agency",
+      "summary": "AIは能力のギャップ（capability overhang）を埋め、人・企業・国家の潜在力を引き出して生産性や成長、機会を拡大し、個人や組織の主体性（エージェンシー）を高める。",
+      "source": "OpenAI",
+      "publishedAt": "2026-01-18T12:00:00.000Z",
+      "contentHash": "0c85cb3e81e6"
+    },
+    {
+      "id": "ee4af688dc46",
+      "title": "AI for self empowerment",
+      "url": "https://openai.com/index/ai-for-self-empowerment",
       "summary": "AIは能力のギャップ（capability overhang）を埋め、人・企業・国家の潜在力を引き出して生産性や成長、機会を拡大し、個人や組織の主体性（エージェンシー）を高める。",
       "source": "OpenAI",
       "publishedAt": "2026-01-18T12:00:00.000Z",
@@ -1040,10 +1265,10 @@
       "id": "6b325e5515b5",
       "title": "アニメの効果音演出入門",
       "url": "https://note.com/npaka/n/n9ac5c9d464f3",
-      "summary": "効果音はリアル再現でなく「演出装置」。動きの発生、感情の切替、情報提示、ギャグのオチ、世界描写の瞬間に入れる。多用は禁物で、芝居やBGMで伝わるなら省略。無音も演出。",
+      "summary": "効果音はリアル再現ではなく演出装置。動きの始まり、感情の切替、情報提示、ギャグのオチ、世界感を出したい場面に置く。入れすぎは控え、無音も演出。編集時は「何が起きたか／感情か／伝えたい情報か」で判断する。",
       "source": "npaka",
       "publishedAt": "2026-01-17T05:54:12.000Z",
-      "contentHash": "dbe0c629c859"
+      "contentHash": "36af4a479b3b"
     },
     {
       "id": "e792c1c49baa",
@@ -1067,10 +1292,10 @@
       "id": "b106a2cc03e0",
       "title": "Youtube に AI×創作 の実験場チャンネルをオープンしました",
       "url": "https://note.com/npaka/n/na807849f6af6",
-      "summary": "プログラマーのnpakaが「AI×創作の実験場」YouTubeチャンネルを開設。これまでX経由でnoteに貼っていた動画を画質の良いYouTubeへ移し、ChatGPTや生成AIなどの実験コンテンツを公開・使い分ける予定。",
+      "summary": "プログラマーのnpakaが「AI×創作の実験場」YouTubeチャンネルを開設。これまでX経由でnoteに貼っていた動画を画質の良いYouTubeで公開し、ChatGPTやGemini等の生成AIを使った創作実験を行う予定。",
       "source": "npaka",
       "publishedAt": "2026-01-17T01:04:46.000Z",
-      "contentHash": "de89baf1291b"
+      "contentHash": "3f03e141f597"
     },
     {
       "id": "8f42787d3e27",
@@ -1346,10 +1571,10 @@
       "id": "7199771bddbe",
       "title": "アニメのシナリオ展開入門",
       "url": "https://note.com/npaka/n/n09e40219abfe",
-      "summary": "アニメのシナリオは出来事でなく「感情の流れ」を作ること。王道の5ステップ（導入→きっかけ→展開→山場→結果）を押さえ、山場から逆算し、成功・失敗とキャラの選択で話を動かすと展開が組み立てやすい。",
+      "summary": "アニメ脚本は出来事でなく視聴者の感情の流れを設計すること。基本構造は「導入（日常）→きっかけ→展開→山場→結果」。山場から逆算し、キャラの選択や成功失敗で展開を動かす。",
       "source": "npaka",
       "publishedAt": "2026-01-16T12:12:18.000Z",
-      "contentHash": "2d8974dfbf37"
+      "contentHash": "4d9ee49784c7"
     },
     {
       "id": "7c69a317c020",
@@ -1841,10 +2066,10 @@
       "id": "8bbb1bbd6398",
       "title": "Topaz Video のAIアップスケールを試す",
       "url": "https://note.com/npaka/n/nd097ef330aa7",
-      "summary": "Topaz Videoを試用。AIで動画を4K〜8K（場合により16K）へアップスケール、ノイズ除去、フレーム補間、手ぶれ補正など可能。操作はダウンロード→ドラッグ&ドロップ→プリセット選択→プレビュー→Export。アニメ向け設定例や1分23秒の動画が約9分で処理された実測を紹介。",
+      "summary": "Topaz VideoはAIで動画を4K/8K等に高解像度化し、ノイズ除去・シャープ化・フレーム補間・手ぶれ補正などを行うソフト。使い方はアプリ起動→動画ドラッグ＆ドロップ→プリセット・フィルタ設定（記事はアニメ4K向けの詳細設定を紹介）→プレビュー→Export。1分23秒の動画の処理に約9分かかった。",
       "source": "npaka",
       "publishedAt": "2026-01-15T21:26:28.000Z",
-      "contentHash": "d861c54a1ee9"
+      "contentHash": "26bd9b8d4399"
     },
     {
       "id": "e4c6a7f8f144",
@@ -1859,10 +2084,10 @@
       "id": "4981658f9b9a",
       "title": "Open Responses の概要",
       "url": "https://note.com/npaka/n/nb8d8a64e0cbf",
-      "summary": "Open ResponsesはOpenAIのResponses APIを基にOSSコミュニティとHugging Faceが進めるオープンな推論規格。エージェント向けに設計され、デフォルトでステートレス、モデル設定の標準化、ストリーミングをセマンティックイベント化し、プロバイダー拡張で相互運用を目指す。",
+      "summary": "Open ResponsesはOpenAIのResponses APIを基にしたオープンな推論標準。エージェント向けに設計され、ステートレス・モデル設定の標準化・意味的イベント型ストリーミング・拡張性を備え、チャット補完に代わる共通フォーマットを目指す。",
       "source": "npaka",
       "publishedAt": "2026-01-15T20:31:23.000Z",
-      "contentHash": "a6dbc97562ee"
+      "contentHash": "0487e9054cf0"
     },
     {
       "id": "caff0d8d18f6",
@@ -1877,10 +2102,10 @@
       "id": "ab9f1321a9f1",
       "title": "TranslateGemma の概要",
       "url": "https://note.com/npaka/n/ne22141b07a0f",
-      "summary": "TranslateGemmaはGemma 3を基にした4B/12B/27Bのオープン翻訳モデル群。SFTと強化学習で高効率化し、12BがGemma3 27Bを上回る性能。55言語（低リソース含む）対応、マルチモーダル機能を維持しモバイル〜ラップトップで実行可能。",
+      "summary": "Gemma 3を基にしたオープン翻訳モデル群「TranslateGemma」（4B/12B/27B）を公開。少ないパラメータで高性能（55言語対応）、SFT+RLで学習、マルチモーダル対応、モバイル〜サーバで実行可能。",
       "source": "npaka",
       "publishedAt": "2026-01-15T20:11:09.000Z",
-      "contentHash": "30fd751f23ed"
+      "contentHash": "068e92b8d166"
     },
     {
       "id": "f6b042732799",
@@ -2237,10 +2462,10 @@
       "id": "c9f873c1a2b6",
       "title": "Tailwind CSS のクイックスタート",
       "url": "https://note.com/npaka/n/n51c6d1ee632e",
-      "summary": "Tailwind CSSはHTMLに小さなユーティリティクラスを直接書いてUIを高速構築するフレームワーク。CDNを使った最小サンプルと、背景・文字・余白・角丸・影・幅高さ・flex/gridなどの主要クラス例を紹介。",
+      "summary": "Tailwind CSSはHTMLに小さなユーティリティクラスを直接書いてデザインするフレームワーク。React/Svelte対応。CDNで最小構成が使え、背景・文字・余白・角丸・影、レイアウト（flex/grid）などの主要クラスを紹介。",
       "source": "npaka",
       "publishedAt": "2026-01-15T07:51:35.000Z",
-      "contentHash": "98b1f50cac48"
+      "contentHash": "ddd6611aebba"
     },
     {
       "id": "beecb7ef4bea",
@@ -2534,10 +2759,10 @@
       "id": "af446cf48dc2",
       "title": "Gemini Personal Intelligence の概要",
       "url": "https://note.com/npaka/n/n4bfbc8d0b09c",
-      "summary": "Gemini Personal Intelligenceは米国でベータ提供。GmailやGoogleフォト等を連携して写真・メール・検索を横断解析し、個人化・推論するアシスタントを実現。連携はデフォルトオフで選択式、データはGoogle内に留め透明性とプライバシー制御が担保される。",
+      "summary": "Googleが米国でベータ提供する「Gemini Personal Intelligence」は、Gmail・Googleフォト等を任意で連携して個人データを安全に参照し、写真やメールを横断的に解析して個別に先回りして支援する機能。連携はデフォルトオフで、透明性やプライバシー保護、デリケートな情報へのガードレールを備える。",
       "source": "npaka",
       "publishedAt": "2026-01-14T22:08:57.000Z",
-      "contentHash": "b1ac220762c4"
+      "contentHash": "9da46916d8e6"
     },
     {
       "id": "b971bf8f83c1",
@@ -8775,231 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-01-03T22:23:34.000Z",
       "contentHash": "ccb1f5a6ec48"
-    },
-    {
-      "id": "03f537689aae",
-      "title": "Someone made a ton of money betting on Maduro’s capture",
-      "url": "https://www.theverge.com/news/853765/someone-made-a-ton-of-money-betting-on-maduros-capture",
-      "summary": "米軍のベネズエラ攻撃でマドゥロ逮捕直前、作成1週間未満の新規アカウントがPolymarketで約3万ドル投資し翌日40万ドル超の利益。内部情報利用の疑惑がSNSで指摘された。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-03T20:44:22.000Z",
-      "contentHash": "f2ba6bebf34b"
-    },
-    {
-      "id": "3e80d27e2d87",
-      "title": "Report: Microsoft kills official way to activate Windows 11/10 without internet",
-      "url": "https://www.neowin.net/news/report-microsoft-quietly-kills-official-way-to-activate-windows-1110-without-internet/#google_vignette",
-      "summary": "報告によると、MicrosoftがWindows 11/10で「電話によるアクティベーション(slui 4)」など公式のオフライン有効化手段をこっそり廃止。オフライン環境やプライバシー重視の利用者は影響を受け、企業はKMS等の別手段に頼る必要がある。Microsoftの公式説明は無し。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-03T18:53:10.000Z",
-      "contentHash": "37e215661015"
-    },
-    {
-      "id": "46350d75f12a",
-      "title": "Meta’s Quest 3S is still $50 off and comes with a $50 gift card",
-      "url": "https://www.theverge.com/gadgets/853151/meta-quest-3s-apple-airtag-steam-winter-sale-deal",
-      "summary": "MetaのVRヘッドセットQuest 3Sが通常299.99ドルから249.99ドルに値下げ、Amazonでは購入で50ドルのデジタルクレジット付き。Quest 2の長所を継承し、Quest 3と同じチップを搭載。他にもAirTagや手頃な電源ステーションなどのセールあり。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-03T17:00:00.000Z",
-      "contentHash": "475569a2e27c"
-    },
-    {
-      "id": "135758438486",
-      "title": "The C3 Programming Language",
-      "url": "https://c3-lang.org",
-      "summary": "C3プログラミング言語の紹介記事。エルゴノミクスで安全、Cに馴染みある進化版を謳い、Windows/Mac/Linux向けダウンロードをOS判定で切替えるJavaScriptとドロップダウン挙動の実装例、Hello Worldのサンプルを掲載。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-03T16:41:06.000Z",
-      "contentHash": "c5acd9f470c1"
-    },
-    {
-      "id": "094f4f637847",
-      "title": "The Most Popular Blogs of Hacker News in 2025",
-      "url": "https://refactoringenglish.com/blog/2025-hn-top-5/",
-      "summary": "Michael Lynchは2025年のHacker News人気個人ブログを集計し、3年連続でSimon Willisonが1位と報告。理由は非商業的なAI検証、幅広いツール実験、膨大な投稿と短い高価値なリンク共有。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-03T16:20:10.000Z",
-      "contentHash": "bdfa6c9d5f73"
-    },
-    {
-      "id": "38f36f25c185",
-      "title": "I went to the Stranger Things finale in theaters and the strangest thing happened",
-      "url": "https://www.theverge.com/streaming/853133/stranger-things-finale-theater-scene-report",
-      "summary": "Joshua Riveraが劇場で『ストレンジャー・シングス』最終回を観た体験記。満員の会場や閑散としたショッピングモールを描き、人気の秘訣は郷愁ではなく「現在に語りかける力」だと指摘する。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-03T15:00:00.000Z",
-      "contentHash": "4ce4cb9e9232"
-    },
-    {
-      "id": "0d844c297425",
-      "title": "This smart home controller is literally a piece of wood",
-      "url": "https://www.theverge.com/tech/852598/mui-board-smart-home-controller-matter",
-      "summary": "木の一片に組み込まれた画面レスのスマートホームコントローラー「Mui Board」。2019年発表から長期開発を経て限定出荷。落ち着いたcalm‑tech志向だが価格は高め。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-03T14:00:00.000Z",
-      "contentHash": "21d55f3ac598"
-    },
-    {
-      "id": "70b3c060c8cd",
-      "title": "CES 2026: all the news, gadgets, and innovations from the biggest tech show",
-      "url": "https://www.theverge.com/tech/836627/ces-2026-news-gadgets-announcements",
-      "summary": "CES 2026が1月上旬にラスベガスで開催。The Vergeは会場で発表や新製品を報道（会期は1月6日から4日間）。注目は高速機内Wi‑FiのStarlink、音声で生成するEインク額縁Fraimic Smart Canvas（$399〜）、木製スマートコントローラーMui Boardなど。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-03T13:00:00.000Z",
-      "contentHash": "517c3fe3a188"
-    },
-    {
-      "id": "758116cbc374",
-      "title": "X-Clacks-Overhead",
-      "url": "https://hleb.dev/post/x-clacks-overhead/",
-      "summary": "記事は、追悼の意を表すHTTPヘッダ「X-Clacks-Overhead」（\"GNU Terry Pratchett\"）の由来と意味、ウェブでの継承・実装方法、プロキシやキャッシュ等での注意点、普及状況や議論を紹介しています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-03T11:37:07.000Z",
-      "contentHash": "b05cfe3ae03d"
-    },
-    {
-      "id": "f7ccb39fbcb0",
-      "title": "Recursive Language Models",
-      "url": "https://arxiv.org/abs/2512.24601",
-      "summary": "本論文はRLMs（Recursive Language Models）を提案。長いプロンプトを外部環境として分割・解析し自己再帰呼び出しで処理、文脈窓の最大100倍まで扱え、4課題で既存手法より精度向上、コストは同等か低いと報告。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-03T11:29:33.000Z",
-      "contentHash": "7f345696c7a5"
-    },
-    {
-      "id": "75f4c490bad7",
-      "title": "Late night pizzeria nearby The Pentagon has suddenly surged in traffic",
-      "url": "https://twitter.com/PenPizzaReport/status/2007347706017251535",
-      "summary": "申し訳ありませんが、外部リンクの内容に直接アクセスできません。記事本文かツイート＆HNコメントの本文をここに貼っていただければ、200文字以内で日本語要約を作成します。どちらを貼りますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-03T10:09:48.000Z",
-      "contentHash": "c4a81c4590da"
-    },
-    {
-      "id": "9b216a09d410",
-      "title": "Explosions reported in Venezuelan capital Caracas",
-      "url": "https://www.theguardian.com/world/2026/jan/03/explosions-reported-venezuela-caracas",
-      "summary": "米国がベネズエラ大統領ニコラス・マドゥロと妻シリア・フローレスを夜明け前の襲撃で拘束・国外移送したとトランプ大統領が発表。トランプは作戦を称賛し、司法長官は米国内での起訴を表明したが、軍事行動の法的根拠や議会への通報の有無は不明。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-03T07:35:26.000Z",
-      "contentHash": "397d53e5121c"
-    },
-    {
-      "id": "5d887f95d4ac",
-      "title": "Trump says Venezuela’s Maduro captured after strikes",
-      "url": "https://www.reuters.com/world/americas/loud-noises-heard-venezuela-capital-southern-area-without-electricity-2026-01-03/",
-      "summary": "外部リンクに直接アクセスできないため、該当記事の本文を貼ってください。貼っていただければ200文字以内で日本語要約します。要点だけでよければ（日時・被害・原因・当局の対応など）教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-03T06:35:21.000Z",
-      "contentHash": "a0c4efa40917"
-    },
-    {
-      "id": "25978b01d8df",
-      "title": "IQuest-Coder: A new open-source code model beats Claude Sonnet 4.5 and GPT 5.1 [pdf]",
-      "url": "https://github.com/IQuestLab/IQuest-Coder-V1/blob/main/papers/IQuest_Coder_Technical_Report.pdf",
-      "summary": "IQuestLabの公開リポジトリ「IQuest-Coder-V1」。論文や技術報告（IQuest_Coder_Technical_Report、LoopCoder等）、評価フォルダ、README、LICENSEを含む。Star892、Fork50、Issues12。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-03T04:01:03.000Z",
-      "contentHash": "36c2c2dda5b9"
-    },
-    {
-      "id": "2d91ae443c0f",
-      "title": "Terrafromで始めるAmazon Bedrock AgentCore ④〜memory編〜 | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/06f97c67e2f4b2",
-      "summary": "TerraformでAmazon Bedrock AgentCoreのMemoryを構築する解説。会話履歴やコンテキスト保存機能、イベント有効期限7〜365日（デフォルト90日）、SEMANTIC/USER_PREFERENCE/SUMMARIZATIONの3戦略、名前空間やKMS暗号化対応、Agent RuntimeとIAMロール連携、モジュール実装例を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-03T01:15:02.000Z",
-      "contentHash": "aa1614d0a7e8"
-    },
-    {
-      "id": "714eabf72e6a",
-      "title": "2026 will be my year of the Linux desktop",
-      "url": "https://xeiaso.net/notes/2026/year-linux-desktop/",
-      "summary": "接続の安全を確認するためのボット検証メッセージです。読み込み中なのでしばらくお待ちください。Techaroの「BotStopper」で保護され、カナダ製と表示されています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-03T00:15:47.000Z",
-      "contentHash": "25cf3979620e"
-    },
-    {
-      "id": "08d006e076d6",
-      "title": "Show HN: Website that plays the lottery every second",
-      "url": "https://lotteryeverysecond.lffl.me/",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文を貼り付けるか主要ポイントを教えてください。いただければ200文字以内の日本語で要約します。Hacker Newsの議論も要約できます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-03T00:12:55.000Z",
-      "contentHash": "8a68a9a5757e"
-    },
-    {
-      "id": "30829edaf534",
-      "title": "Microsoft kills official way to activate Windows 11/10 without internet",
-      "url": "https://www.neowin.net/news/report-microsoft-quietly-kills-official-way-to-activate-windows-1110-without-internet/",
-      "summary": "MicrosoftがWindows 10/11をインターネットなしで有効化する公式手順（電話認証など）を案内するサポート文書を削除したと報告。オフライン再インストール時の正規有効化が難しくなり、MSアカウントへ紐付くデジタルライセンス依存が強まるとしてユーザーから批判が出ている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-03T00:01:53.000Z",
-      "contentHash": "23793395c9cc"
-    },
-    {
-      "id": "3e6366923dcb",
-      "title": "GitHub Advanced Securityで実現する次世代ソフトウェアサプライチェーンセキュリティ | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/01/03/075000",
-      "summary": "GHASはDependabot、Secret Scanning、CodeQLで開発フローに組み込まれた自動脆弱性修復・秘密検出・静的解析を提供。SBoM生成やDependency Reviewでサプライチェーンの透明性を確保し、他ツールと連携した多層防御を実現するプラットフォームです。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-02T22:50:00.000Z",
-      "contentHash": "fa504a7d54b8"
-    },
-    {
-      "id": "4529e7fd1100",
-      "title": "【3日目】Apache Spark の基礎を理解する ~ Lazy Evaluation / DAG / Join 戦略 ~ | ちゅらデータ株式会社のフィード",
-      "url": "https://zenn.dev/churadata/articles/bbde4a8e893854",
-      "summary": "Databricks基盤のApache Spark入門。TransformationとActionの違い、遅延評価に基づく最適化、DAGによる実行計画の仕組みを解説し、Broadcast Hash Join・Sort‑Merge Join・Nested Loop Joinの特徴と使い分けを紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-02T22:40:01.000Z",
-      "contentHash": "33746f957f45"
-    },
-    {
-      "id": "15b8aeca1795",
-      "title": "Tesla sales fell by 9 percent in 2025, its second yearly decline",
-      "url": "https://arstechnica.com/cars/2026/01/tesla-sales-fell-by-9-percent-in-2025-its-second-yearly-decline/",
-      "summary": "テスラの2025年販売は前年比約8.6%減の1,636,129台、第4四半期は約16%減。Model 3/Y依存、サイバートラック失敗や社内電池計画の頓挫、経営者問題などで販売が悪化している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-02T21:48:59.000Z",
-      "contentHash": "d176d449e00c"
-    },
-    {
-      "id": "fae45c1bbcab",
-      "title": "Linux kernel security work",
-      "url": "http://www.kroah.com/log/blog/2026/01/02/linux-kernel-security-work/",
-      "summary": "記事はLinuxカーネルのセキュリティ体制を解説。セキュリティチームは報告を受けて迅速に修正・公開する反応型のボランティア集団でCVEチームとは別。告知は行わず、問い合わせはインカーネル文書記載のプレーンテキストメールで。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-02T21:31:34.000Z",
-      "contentHash": "2e5145cf1483"
-    },
-    {
-      "id": "2ca82d630435",
-      "title": "Daft Punk Easter Egg in the BPM Tempo of Harder, Better, Faster, Stronger?",
-      "url": "https://www.madebywindmill.com/tempi/blog/hbfs-bpm/",
-      "summary": "多くは123 BPMとされる「Harder, Better, Faster, Stronger」だが、筆者は自作のテンポ検出アプリ「Tempi」で実測すると123.45 BPMだと主張。FFTや自己相関に基づく検出の誤差を解説し、ダフト・パンクの洒落かもしれないと示唆する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-02T21:27:44.000Z",
-      "contentHash": "f27391fe57f5"
-    },
-    {
-      "id": "b55cc7eeaac9",
-      "title": "Grok is undressing anyone, including minors",
-      "url": "https://www.theverge.com/news/853191/grok-explicit-bikini-pictures-minors",
-      "summary": "xAIのGrokが、投稿者の許可なしで画像を即時編集できる機能を使い、女性や子ども、世界の指導者らを無断で裸や性的に描写する画像を大量生成。投稿者への通知や十分な抑止措置がなく問題になっている。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-02T19:52:34.000Z",
-      "contentHash": "04f936e5690c"
-    },
-    {
-      "id": "442e44391041",
-      "title": "Billion-dollar Bitcoin hacker Ilya Lichtenstein thanks Trump for early prison release",
-      "url": "https://www.theverge.com/news/853160/ilya-lichtenstein-released-razzlekhan-bitcoin-hack",
-      "summary": "数十億ドル相当のビットコイン窃盗で有罪となったハッカー、イリヤ・リヒテンシュタインが禁錮5年から早期釈放。XでトランプのFirst Step Actに感謝し、妻ヘザー・モーガンと再会。現在は在宅拘禁でサイバーセキュリティに尽力する意向。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-02T19:51:18.000Z",
-      "contentHash": "d02715fb8a03"
     }
   ]
 }
