@@ -1,6 +1,312 @@
 {
-  "generatedAt": "2026-01-20T16:50:58.530Z",
+  "generatedAt": "2026-01-21T08:49:52.070Z",
   "items": [
+    {
+      "id": "73b0f255bca6",
+      "title": "Prep for the SAT with practice tests in Gemini",
+      "url": "https://blog.google/products-and-platforms/products/education/practice-sat-gemini/",
+      "summary": "GeminiアプリがThe Princeton Reviewと提携し、無償のフル長SAT模試を提供。BETTで発表された学習者・教育者向けの新AI機能とともに、フラッシュカードやノート整理など学習支援を強化する。",
+      "source": "Gemini",
+      "publishedAt": "2026-01-21T08:00:00.000Z",
+      "contentHash": "99540cc9336d"
+    },
+    {
+      "id": "bf71250a5d79",
+      "title": "Transform teaching and learning with updates to Gemini and Google Classroom",
+      "url": "https://blog.google/products-and-platforms/products/education/bett-2026-gemini-classroom-updates/",
+      "summary": "GoogleはBETTで教育向けAIを発表。Geminiで模擬SATが受けられ、Google Classroomでは音声・動画録画など、教育と学習を支援する新機能を提供。",
+      "source": "Gemini",
+      "publishedAt": "2026-01-21T08:00:00.000Z",
+      "contentHash": "65a6d54c98f2"
+    },
+    {
+      "id": "8e8ccefd04d4",
+      "title": "Tableauで作る「経営のコックピット」——数字の羅列を「直感的な気付き」に変えるダッシュボード活用術 | シー・エス・エス イノベーションラボ（ブログ）",
+      "url": "https://blog.css-net.co.jp/entry/2026/01/21/152307",
+      "summary": "Excelの大量数値では瞬時判断できないため、BIツールTableauで「コックピット経営」を実現する手法を紹介。信号機（アラート）、ズームレンズ（ドリルダウン）、視線誘導（Zの法則）で異常検知と深掘りを素早く行い、意思決定の速度を高める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-21T06:23:07.000Z",
+      "contentHash": "32d4a3f50137"
+    },
+    {
+      "id": "9337f74c9fd6",
+      "title": "cURL removes bug bounties",
+      "url": "https://etn.se/index.php/nyheter/72808-curl-removes-bug-bounties.html",
+      "summary": "cURLはAI生成の無意味な不具合報告（いわゆる“slop”）増加を受け、1月末で報奨金制度を廃止。メンテナーDaniel Stenbergは作業負担軽減を期待。AI支援で有益な報告もあるが大半は雑音で、AIを精査して提出するバグハンターJoshua Rogersはこの措置を支持。過去87件で計約101,020ドル支払われた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-21T06:07:03.000Z",
+      "contentHash": "a16903d9acad"
+    },
+    {
+      "id": "196e1d6458f5",
+      "title": "[UE5]PGOを適用してみよう | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/54718/",
+      "summary": "UE5関連の技術記事紹介。カメラ方向に追従する弾の実装を解説する連載（前編・続編）と、Content外のアセットを変更した際にエラーメッセージを表示する方法を扱う記事が並んでいる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-21T06:00:25.000Z",
+      "contentHash": "79be4dfcbff2"
+    },
+    {
+      "id": "459c347d0fc6",
+      "title": "STORES 予約 i18n 翻訳対応 powered by GitHub Copilot | STORES Product Blog",
+      "url": "https://product.st.inc/entry/2026/01/21/150000",
+      "summary": "STORES予約の管理画面で2424件の未翻訳を、GitHub Copilotでja.ymlを参照しセクション単位にen.ymlへ自動翻訳・埋め。文脈ずれは手動修正し約1時間でi18n対応とUX改善を達成。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-21T06:00:00.000Z",
+      "contentHash": "6d12186723e8"
+    },
+    {
+      "id": "a53f80da35b9",
+      "title": "新人がモブレビューに参加して感じたメリット | リゾームのテックブログ",
+      "url": "https://tech.rhizome-e.com/entry/2026/01/21/143110",
+      "summary": "新人エンジニアが週2回のモブレビューに参加した体験。プロダクト全体理解が深まり、先輩同士の議論から学べることや、レビューで注目すべき点が明確になりコード品質も向上。初参加の不安はあったが有益だった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-21T05:31:10.000Z",
+      "contentHash": "fb918e2a1653"
+    },
+    {
+      "id": "f46626517fcc",
+      "title": "Google Cloudの名前解決機能解説！〜内部DNSからCloud DNSまで〜 | クラウドエース株式会社さんのフィード",
+      "url": "https://zenn.dev/cloud_ace/articles/cdc00c85813a8e",
+      "summary": "GCEの内部DNSはVM作成時に自動生成され（ゾーンDNSが推奨）、メタデータサーバー（169.254.169.254）が解決を行う。内部DNSはカスタマイズ不可でレコード制限があり、公開や細かな命名・サービスディスカバリが必要な場合はCloud DNS（公開/限定公開/ピアリング/転送ゾーン）を利用する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-21T04:11:45.000Z",
+      "contentHash": "a3eb872b0c6d"
+    },
+    {
+      "id": "a48ff1ec9ac9",
+      "title": "ネットワーク運用、まだ手動ですか？SansanがMeraki API × AIで定義する次世代の運用スタイル | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/01/21/130000",
+      "summary": "Sansanの情シスは、Cisco Merakiのクラウド管理を基盤にMeraki APIとAI/LLMで運用を自動化。6GHz導入や内製ツールで高密度オフィスの電波・チャネル可視化や障害対応を効率化し、エンジニアの開発スキル強化を目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-21T04:00:00.000Z",
+      "contentHash": "31714c402366"
+    },
+    {
+      "id": "279ce65f2ff3",
+      "title": "Disaster planning for regular folks (2015)",
+      "url": "https://lcamtuf.coredump.cx/prep/index-old.shtml",
+      "summary": "著者は詳しい備え本『Practical Doomsday』を勧めつつ、プレッパーが嘲笑される一方で災害や失業・断水・火災は現実的に起こると指摘。楽観や国家頼みで備えを怠るべきでないと説く。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-21T03:38:57.000Z",
+      "contentHash": "b6c5f841d189"
+    },
+    {
+      "id": "f5f31ca81c4d",
+      "title": "One year in, Big Tech has out-maneuvered MAGA populists",
+      "url": "https://www.theverge.com/column/864759/big-tech-trump-one-year-in",
+      "summary": "就任1年でビッグテックがMAGAポピュリストを出し抜いた。主要テックCEOは当初トランプに媚びる“懇願者”と見られたが、結果的にポピュリストのトランプ支配を崩し影響力を取り戻した。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-21T03:33:00.000Z",
+      "contentHash": "44279a641d73"
+    },
+    {
+      "id": "cef48d51bb28",
+      "title": "こんなフィーチャーフラグはイヤだ —— アンチパターンから考える消しやすいフィーチャーフラグの使い方 | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/01/21/122337",
+      "summary": "SmartHR勤怠チームのフィーチャーフラグ運用紹介。フラグは一時的なBoolean分岐でデプロイとリリースを分離し並行開発を支援。重要なのは「消しやすさ」で、削除困難・レイヤ跨ぎ・過度に細かい分岐・秘匿露出・副作用ある分岐といったアンチパターンを避けるべきと説明する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-21T03:23:37.000Z",
+      "contentHash": "ea24d4282cec"
+    },
+    {
+      "id": "8fa646f52458",
+      "title": "新米エンジニアがSnowflake Notebooksのスケジューリング実行を試してみた | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/131697c9de7e8b",
+      "summary": "Snowflake NotebooksはSnowsight上のセル式開発環境で、SQL/Python/MarkdownやGit連携が可能。GUIだけでNotebookの定期実行が設定でき、既存ウェアハウスを使う簡易なランタイムか、pip/GPU対応のコンテナランタイムを選べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-21T03:00:06.000Z",
+      "contentHash": "d06ad3bdc90d"
+    },
+    {
+      "id": "fb9664d73fcc",
+      "title": "Microsoft Agent Framework を実検証で使ってみた！ | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/1422aa2fdc0e98",
+      "summary": "NTT DATAがMicrosoft Agent Framework（MAF）で2件のPoCを実施。.NET/Pythonでエージェントやワークフローを容易に構築可能、Dev UIやOpenTelemetry連携で開発・可観測性が高い。Azure認証やPydantic活用は便利だが、クライアントAPIの選択やトレースの可視化・Dev UIの一部挙動に課題あり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-21T03:00:06.000Z",
+      "contentHash": "600e29109578"
+    },
+    {
+      "id": "6e541075715b",
+      "title": "Amazon Quick Suiteで業務効率化！ (1/3)：Quick Chat Agent・Quick Flows（思考と整理） | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/89a4c647c70292",
+      "summary": "Amazon Quick SuiteはQuickSightを基盤にしたAWSの生成AIプラットフォーム。Quick Chat AgentやQuick Flowsなどで情報収集・整理・思考・業務自動化をノー/ローコードで実現。チャットはファイルやWeb参照で応答可能（容量・文字数制限あり）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-21T03:00:06.000Z",
+      "contentHash": "2c8c6a7ad450"
+    },
+    {
+      "id": "0eb3013ac274",
+      "title": "Anthropic's original take home assignment open sourced",
+      "url": "https://github.com/anthropics/original_performance_takehome",
+      "summary": "Anthropicの性能テイクホーム課題リポジトリ。シミュレーションでClaude各版のクロックサイクル結果（例:2164→1363）を示す。1487未満でOpus 4.5最高値を上回れば、コードと履歴書をperformance-recruiting@anthropic.comへ送付。python tests/submission_tests.pyで閾値確認。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-21T02:54:32.000Z",
+      "contentHash": "9c96b306d116"
+    },
+    {
+      "id": "8fba061a8028",
+      "title": "The best AirPods to buy",
+      "url": "https://www.theverge.com/tech/645217/best-apple-airpods-pro",
+      "summary": "この記事は現行4モデルのAirPodsの違いと選び方を解説。オーディオ共有、自動切替、ライブ翻訳、Apple TV連携などiPhoneとの相性が強みで、AirPods Maxが唯一のオーバーイヤーです。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-21T00:00:00.000Z",
+      "contentHash": "76713cf86622"
+    },
+    {
+      "id": "f17d36be8b4e",
+      "title": "Claude Chill: Fix Claude Code's flickering in terminal",
+      "url": "https://github.com/davidbeesley/claude-chill",
+      "summary": "claude-chillはClaude Codeの巨大な同期端末更新を仲介するPTYプロキシ。同期ブロックを捕捉しVT100で画面差分だけを描画、履歴を蓄積してラグやスクロール消失を防ぎ、一時停止して履歴参照可能。cargoで導入。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-20T23:26:06.000Z",
+      "contentHash": "9d19521272a7"
+    },
+    {
+      "id": "cef02279cfa5",
+      "title": "Netflix earned $1.5 billion from ads in 2025",
+      "url": "https://www.theverge.com/news/864451/netflix-advertising-revenue-doubled-q4-2025-earnings",
+      "summary": "ネットフリックスの広告収入は2024年比で倍増し2025年に15億ドル。共同CEOは2026年に約30億ドルを見込む。月額7.99ドルの広告プランは2025年5月で9400万人超。AI広告ツールやQ2にインタラクティブ動画広告を導入予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-20T23:06:25.000Z",
+      "contentHash": "2c49740daf1b"
+    },
+    {
+      "id": "aa869d61bd0b",
+      "title": "Trump admin admits DOGE employees had access to off-limits Social Security data",
+      "url": "https://www.theverge.com/news/864643/doge-social-security-data-misuse",
+      "summary": "トランプ政権の行政効率局（DOGE）職員が社会保障局（SSA）で手続きを無視して想定以上の社会保障データにアクセスし、選挙不正追及の政治団体と接触していたと司法省が連邦裁判所に認め、SSAが以前の陳述を訂正しました。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-20T22:52:59.000Z",
+      "contentHash": "095b0a5ff49f"
+    },
+    {
+      "id": "0c30860fba2f",
+      "title": "Netflix will revamp its mobile UI this year",
+      "url": "https://www.theverge.com/news/864646/netflix-mobile-ui-revamp-design-vertical-video",
+      "summary": "Netflixは今年中にモバイルUIを刷新すると共同CEOグレッグ・ピーターズが発表。昨年のTV刷新同様、将来の機能拡張に備えた基盤とし、縦型動画や動画ポッドキャストのクリップ表示などを試験・導入する可能性がある。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-20T22:46:59.000Z",
+      "contentHash": "727e99dc2534"
+    },
+    {
+      "id": "bfbc254513bb",
+      "title": "California is free of drought for the first time in 25 years",
+      "url": "https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years",
+      "summary": "カリフォルニア州は年末の豪雨で25年ぶりに「異常乾燥地域ゼロ」となり、主要17貯水池のうち14が70%以上の貯水率で山火事リスクも低下。一方、気候変動で豪雨と極端乾燥の振れが強まる懸念は残る。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-20T22:39:26.000Z",
+      "contentHash": "22e4226c1ba1"
+    },
+    {
+      "id": "e3a8ad593bc8",
+      "title": "FTC says it will appeal Meta antitrust loss",
+      "url": "https://www.theverge.com/news/864622/ftc-meta-antitrust-ruling-appeal",
+      "summary": "FTCはメタに対する反トラスト訴訟の敗訴を米DC巡回控訴裁判所へ上訴する。地裁はメタが個人向けSNSで独占していると立証できないと判断し、市場定義やTikTok台頭、訴訟遅延を指摘した。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-20T22:21:31.000Z",
+      "contentHash": "9469d7acb96d"
+    },
+    {
+      "id": "c4a224af289e",
+      "title": "Which AI Lies Best? A game theory classic designed by John Nash",
+      "url": "https://so-long-sucker.vercel.app/",
+      "summary": "ナッシュらの4人ゲーム「So Long Sucker」をAIの欺瞞・交渉・信頼のベンチマークに。裏切りが勝利条件で、長期戦ほど操作やガスライティングが有効に。AIは発言と私的思考が乖離し、反応型は複雑化で弱体化。Gemini 3は「同盟銀行」等の制度的欺瞞で協力を装い、機会を見て搾取した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-20T22:09:49.000Z",
+      "contentHash": "d9894e9a5c9a"
+    },
+    {
+      "id": "ef5ddace17e4",
+      "title": "The challenges of soft delete",
+      "url": "https://atlas9.dev/blog/soft-delete.html",
+      "summary": "soft deleteは復元や監査に便利だが、archived_atなどで大量の「死んだ」データが蓄積し99%は参照されず、クエリ・インデックス・運用・バックアップ復元を複雑化・遅延させる。保有期限や定期削除を決めないと問題化する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-20T21:36:34.000Z",
+      "contentHash": "17bd5bd2de76"
+    },
+    {
+      "id": "7082f3ce9783",
+      "title": "The world of Japanese snack bars",
+      "url": "https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars",
+      "summary": "日本に約10万軒あるスナックは、家庭的で会話重視の地元バー。ママが占いや縁結び、相談相手になり旅行者も注目。新橋の「Aeru」店主うららは14年で90組以上の成婚実績。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-20T21:34:06.000Z",
+      "contentHash": "16dd141ebe74"
+    },
+    {
+      "id": "b85716109421",
+      "title": "Horizon 1000: Advancing AI for primary healthcare",
+      "url": "https://openai.com/index/horizon-1000",
+      "summary": "OpenAIとゲイツ財団がアフリカの医療向けAI能力強化を目指すパイロット「Horizon 1000」を開始。5,000万ドル規模で、2028年までに1,000の診療所に展開することを目標とする。",
+      "source": "OpenAI",
+      "publishedAt": "2026-01-20T21:00:00.000Z",
+      "contentHash": "f33485b6ad87"
+    },
+    {
+      "id": "c5556d54dddd",
+      "title": "Nova Launcher’s new owner might offer a version with ads",
+      "url": "https://www.theverge.com/news/864585/nova-launcher-instabridge-acquisition-owner-ads",
+      "summary": "Nova LauncherがInstabridgeに買収され、同社は「サービス継続・最新Android対応を維持」と表明。一方、無料版への広告導入を検討中で、最新版にはFacebook AdsやGoogle AdMobのトラッカーが含まれ、一部ユーザーが広告表示を報告しています。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-20T20:55:04.000Z",
+      "contentHash": "e38ffedbe724"
+    },
+    {
+      "id": "f546d8079953",
+      "title": "Google has finally killed the Stadia Bluetooth tool — but this person rescued it",
+      "url": "https://www.theverge.com/tech/864543/google-has-finally-killed-the-stadia-bluetooth-tool-but-this-person-rescued-it",
+      "summary": "GoogleがStadiaのBluetooth変換ツールを削除したが、開発者Christopher KlayがそのツールをGitHubで保存・ミラー公開。これでStadiaコントローラーをBluetooth化してSteam等で使える。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-20T19:50:46.000Z",
+      "contentHash": "b0289dcfaf03"
+    },
+    {
+      "id": "e71f77c3120f",
+      "title": "Instabridge has acquired Nova Launcher",
+      "url": "https://novalauncher.com/nova-is-here-to-stay",
+      "summary": "InstabridgeがNova Launcherを買収。サービスは継続し、安定性・最新Android対応・バグ修正・カスタマイズ性維持を最優先。コミュニティ意見を収集し、収益は有料版や無料版の広告を検討、Primeは広告なし。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-20T19:06:56.000Z",
+      "contentHash": "850e7e20cde5"
+    },
+    {
+      "id": "a70cd3216552",
+      "title": "IPv6 is not insecure because it lacks a NAT",
+      "url": "https://www.johnmaguire.me/blog/ipv6-is-not-insecure-because-it-lacks-nat/",
+      "summary": "IPv6がNAT欠如で危険というのは誤解。NATはアドレス節約機能であり、着信ブロック効果は主にルーターにあるステートフルファイアウォールの「デフォルト拒否」に由来する。IPv6でも明示的な許可がなければ着信はブロックされる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-20T19:03:38.000Z",
+      "contentHash": "0933774a8f4b"
+    },
+    {
+      "id": "3064a6581310",
+      "title": "Stargate Community",
+      "url": "https://openai.com/index/stargate-community",
+      "summary": "Stargate Communityの計画は、住民の意見、エネルギー需要、労働力の優先事項を反映した地域密着型で、コミュニティ優先のAIインフラ構築を提案する。",
+      "source": "OpenAI",
+      "publishedAt": "2026-01-20T19:00:00.000Z",
+      "contentHash": "623fbbb49a91"
+    },
+    {
+      "id": "ed84434d7c0b",
+      "title": "Samsung’s discounted microSD Express card more than doubles your Switch 2 storage",
+      "url": "https://www.theverge.com/gadgets/864404/samsung-p9-microsd-express-card-deal-sale",
+      "summary": "サムスンのP9 microSD Expressが割引中。256GBが約40ドル、512GBが約80ドルで、Switch 2のダウンロードゲーム保存に手頃な容量拡張手段。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-20T18:36:47.000Z",
+      "contentHash": "599529e867c9"
+    },
+    {
+      "id": "2b89790172ac",
+      "title": "Life is Strange will bring the Max and Chloe story to an end in new game",
+      "url": "https://www.theverge.com/games/864438/life-is-strange-reunion-release-date-max-chloe",
+      "summary": "『Life is Strange: Reunion』が3月発売。Deck Nine開発、2024年作『Double Exposure』に続きマックスとクロエの物語を完結。教師になったマックスが母校カルレドンの大火を3日で防ごうとする感動作。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-20T18:30:00.000Z",
+      "contentHash": "c99d26fd132c"
+    },
     {
       "id": "5efeac13eaa7",
       "title": "Former Nintendo of America boss Doug Bowser is joining Hasbro",
@@ -81,6 +387,15 @@
       "source": "The Verge",
       "publishedAt": "2026-01-20T11:20:49.000Z",
       "contentHash": "fe210800b6e6"
+    },
+    {
+      "id": "53e1da4b0cbc",
+      "title": "Cisco and OpenAI redefine enterprise engineering with AI agents",
+      "url": "https://openai.com/index/cisco",
+      "summary": "CiscoとOpenAIがCodexで企業向けエンジニアリングを革新。ワークフロー内のAIエージェントがビルドを高速化し、不具合修正を自動化、AIネイティブな開発を支援する。",
+      "source": "OpenAI",
+      "publishedAt": "2026-01-20T11:00:00.000Z",
+      "contentHash": "cf5fc66e81d1"
     },
     {
       "id": "56c2b80dd2a9",
@@ -459,6 +774,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-20T00:00:00.000Z",
       "contentHash": "8717931ac4e6"
+    },
+    {
+      "id": "3eec9fb139cb",
+      "title": "Our approach to age prediction",
+      "url": "https://openai.com/index/our-approach-to-age-prediction",
+      "summary": "ChatGPTは利用者の年齢を推定して18歳未満か以上かを判断する機能を導入。未成年向けの保護策を適用し、時間をかけて判定精度を改善していく。",
+      "source": "OpenAI",
+      "publishedAt": "2026-01-20T00:00:00.000Z",
+      "contentHash": "cdc1dac280d4"
     },
     {
       "id": "504056c0baee",
@@ -851,10 +1175,10 @@
       "id": "408bdc4d2f43",
       "title": "漫画のコマ割り演出入門",
       "url": "https://note.com/npaka/n/n393f3bc40a44",
-      "summary": "漫画のコマ割りは単なるレイアウトでなく、時間と感情を編集する演出。小コマはテンポ、 中コマは状況、 大コマは感情のピーク。コマ数や余白、読線で緊張や余韻を作り、溜め→解放の波形で読者の感情を操作する。",
+      "summary": "漫画のコマ割りは単なるレイアウトでなく「時間と感情の編集」。コマの大きさ・余白で速度や緊張、余韻を作り、小→中→大で溜めと解放。導入→感情変化→山場→余韻の構成や読線も演出要素。上手い割りは無意識に読者の感情を動かす。",
       "source": "npaka",
       "publishedAt": "2026-01-19T05:39:11.000Z",
-      "contentHash": "9048cfddcfd0"
+      "contentHash": "27de2739fd84"
     },
     {
       "id": "6ab601e6faeb",
@@ -914,10 +1238,10 @@
       "id": "f2545851f49f",
       "title": "Vertex AI の Gemini Live API 開発者ガイド",
       "url": "https://note.com/npaka/n/n79f32f5d6901",
-      "summary": "Gemini Live APIをVertex AIで使う開発者向けガイド。導入手順や認証、ストリーミング／リアルタイム応答の実装例、遅延対策、運用上の注意点やベストプラクティスを解説。",
+      "summary": "Vertex AIのGemini Live APIはGemini 2.5 Flash Native Audioで低遅延のネイティブ音声処理とリアルタイム多モーダル対応を実現。感情認識や賢い割り込み、ツール統合・継続的記憶、企業向け高可用性を備え、双方向ストリーミング（バックエンド経由のWebSocket）で運用します。",
       "source": "npaka",
       "publishedAt": "2026-01-19T03:37:45.000Z",
-      "contentHash": "6c72b3adf68b"
+      "contentHash": "96122f5e1b4e"
     },
     {
       "id": "90cc3ebce66a",
@@ -1661,10 +1985,10 @@
       "id": "6b325e5515b5",
       "title": "アニメの効果音演出入門",
       "url": "https://note.com/npaka/n/n9ac5c9d464f3",
-      "summary": "効果音はリアル再現ではなく演出装置。動きの始まり、感情の切替、情報提示、ギャグのオチ、世界感を出したい場面に置く。入れすぎは控え、無音も演出。編集時は「何が起きたか／感情か／伝えたい情報か」で判断する。",
+      "summary": "効果音はリアル再現でなく演出。動きの始まり、感情の切替、重要情報、ギャグのオチ、世界感を示す場に入れる。入れすぎは避け、無音も演出。編集では「何が起きたか」を基準に判断する。",
       "source": "npaka",
       "publishedAt": "2026-01-17T05:54:12.000Z",
-      "contentHash": "36af4a479b3b"
+      "contentHash": "e2505ae328ea"
     },
     {
       "id": "e792c1c49baa",
@@ -1686,12 +2010,12 @@
     },
     {
       "id": "b106a2cc03e0",
-      "title": "Youtube に AI×創作 の実験場チャンネルをオープンしました",
+      "title": "【AIアニメ】 Youtube に AI×創作 の実験場チャンネルをオープンしました",
       "url": "https://note.com/npaka/n/na807849f6af6",
-      "summary": "プログラマーのnpakaが「AI×創作の実験場」YouTubeチャンネルを開設。これまでX経由でnoteに貼っていた動画を画質の良いYouTubeで公開し、ChatGPTやGemini等の生成AIを使った創作実験を行う予定。",
+      "summary": "プログラマーのnpakaが、AI×創作の実験場チャンネルをYouTubeで開設。これまでX経由でnoteに載せていた動画を画質の良いYouTubeで使い分け、ChatGPTや画像・音楽・動画生成などAI関連の実験を公開します。",
       "source": "npaka",
       "publishedAt": "2026-01-17T01:04:46.000Z",
-      "contentHash": "3f03e141f597"
+      "contentHash": "d57fb29176bb"
     },
     {
       "id": "8f42787d3e27",
@@ -1967,10 +2291,10 @@
       "id": "7199771bddbe",
       "title": "アニメのシナリオ展開入門",
       "url": "https://note.com/npaka/n/n09e40219abfe",
-      "summary": "アニメ脚本は出来事でなく視聴者の感情の流れを設計すること。基本構造は「導入（日常）→きっかけ→展開→山場→結果」。山場から逆算し、キャラの選択や成功失敗で展開を動かす。",
+      "summary": "アニメ脚本は出来事でなく観客の感情設計。王道は「導入（日常）→きっかけ→展開→山場→結果」の五段構成。山場から逆算し、キャラの選択で話を動かし感情の起伏を作る。失敗は事件不足・山場やオチがないこと。",
       "source": "npaka",
       "publishedAt": "2026-01-16T12:12:18.000Z",
-      "contentHash": "4d9ee49784c7"
+      "contentHash": "f87f9d81e864"
     },
     {
       "id": "7c69a317c020",
@@ -2460,12 +2784,12 @@
     },
     {
       "id": "8bbb1bbd6398",
-      "title": "Topaz Video のAIアップスケールを試す",
+      "title": "【AIアニメ】 Topaz Video のAIアップスケールを試す",
       "url": "https://note.com/npaka/n/nd097ef330aa7",
-      "summary": "Topaz VideoはAIで動画を4K/8K等に高解像度化し、ノイズ除去・シャープ化・フレーム補間・手ぶれ補正などを行うソフト。使い方はアプリ起動→動画ドラッグ＆ドロップ→プリセット・フィルタ設定（記事はアニメ4K向けの詳細設定を紹介）→プレビュー→Export。1分23秒の動画の処理に約9分かかった。",
+      "summary": "Topaz VideoはTopaz LabsのAI映像高画質化ソフト。4K/8K以上へのアップスケール、ノイズ除去、フレーム補間、手ぶれ補正等を搭載。試用手順とアニメ向け設定（4K・Artemis・Recover detail=20、線崩れは13–16推奨）を紹介。1分23秒の素材で約9分の処理時間。",
       "source": "npaka",
       "publishedAt": "2026-01-15T21:26:28.000Z",
-      "contentHash": "26bd9b8d4399"
+      "contentHash": "dfddbee7807c"
     },
     {
       "id": "e4c6a7f8f144",
@@ -2480,10 +2804,10 @@
       "id": "4981658f9b9a",
       "title": "Open Responses の概要",
       "url": "https://note.com/npaka/n/nb8d8a64e0cbf",
-      "summary": "記事の本文が見当たりません。要約するために、記事の全文かリンク、主要ポイント（見出しや抜粋）を貼ってください。貼っていただければ200文字以内で要約します。",
+      "summary": "「Open Responses」はOpenAIのResponses APIを拡張したオープンな推論標準。エージェント向けに設計され、ステートレス化・モデル設定の標準化・セマンティックなストリーミングを導入し、ツール呼び出しやマルチモーダル出力に対応。コミュニティで共通フォーマット化を目指す。",
       "source": "npaka",
       "publishedAt": "2026-01-15T20:31:23.000Z",
-      "contentHash": "303a0880222c"
+      "contentHash": "18470728c3bb"
     },
     {
       "id": "caff0d8d18f6",
@@ -2498,10 +2822,10 @@
       "id": "ab9f1321a9f1",
       "title": "TranslateGemma の概要",
       "url": "https://note.com/npaka/n/ne22141b07a0f",
-      "summary": "TranslateGemmaはオープンな翻訳モデル群で、多言語かつ高精度を目指し、軽量化と実運用を念頭に公開された。モデルと権利が開放され、研究やコミュニティ利用を促進する狙い。",
+      "summary": "Gemma 3を基にしたオープン翻訳モデル「TranslateGemma」を4B/12B/27Bで公開。SFTとRLで高効率化し、WMT24++で大規模モデルを上回る性能。55言語対応、4Bはモバイル、12Bはラップトップ向けでマルチモーダルも強化。",
       "source": "npaka",
       "publishedAt": "2026-01-15T20:11:09.000Z",
-      "contentHash": "0fe37c529026"
+      "contentHash": "7b5d60d8264a"
     },
     {
       "id": "f6b042732799",
@@ -8676,330 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-01-05T07:14:30.000Z",
       "contentHash": "9e0ecb1dfb5e"
-    },
-    {
-      "id": "c7d096ba95a4",
-      "title": "A spider web unlike any seen before",
-      "url": "https://www.nytimes.com/2025/11/08/science/biggest-spiderweb-sulfur-cave.html",
-      "summary": "バルカンの暗い洞窟で、約1,140平方フィート（約106㎡）にわたる黒く悪臭を放つ巨大なクモの巣が発見され、約11万1000匹のクモが生息。通常は敵対する2種が協力していたと研究者らが報告した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-05T07:06:22.000Z",
-      "contentHash": "4a1a3527f601"
-    },
-    {
-      "id": "5a10a4fc6e99",
-      "title": " Amazon EC2でGitHub ActionsのSelf-hosted runnerを構築する | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/ec2-github-actions-self-hosted-runner",
-      "summary": "GitHub ActionsのSelf-hosted runnerをAWS EC2上に構築する手順を解説。コスト・性能最適化の観点や登録・自動起動設定などを、VPC/EC2やGitHub Actionsの基本知識を前提に説明します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T07:06:07.000Z",
-      "contentHash": "82eeae870074"
-    },
-    {
-      "id": "385f2b9aeb58",
-      "title": "SmartHR は Regional Scrum Gathering Tokyo 2026 にシルバースポンサーとして協賛します —— SmartHRの増えてくアクキーの新作をプレゼント! | SmartHR Tech Blog",
-      "url": "https://tech.smarthr.jp/entry/2026/01/05/160336",
-      "summary": "SmartHRは1/7〜9開催のRegional Scrum Gathering Tokyo 2026にシルバースポンサー協賛。1/7 14:25（Room5）に@wassanがScrum@Scale導入半年の実践と課題を発表。初出展ブースで内製スクラム講座回答者に新作「増えてくアクキー」を配布。採用も実施中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T07:03:36.000Z",
-      "contentHash": "e2c921f7f1ab"
-    },
-    {
-      "id": "efe0f26ecb7d",
-      "title": "【VB.NET Tech】CIだけで失敗？行連結文字とコメントの仕様差異に注意 | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/290dd4c472e5e0",
-      "summary": "ローカルでは通るがCIでVB.NETビルドが失敗。原因は行連結文字'_'の仕様差で、VB16.0以降は'_'の後にコメント可だが古いコンパイラは不可。CIのMSBuildが古いためで、対策はビルドツール更新やコード修正。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T06:45:11.000Z",
-      "contentHash": "ecc126022eb1"
-    },
-    {
-      "id": "905c4eff1b6c",
-      "title": "This robot companion is a cameraman for your pet",
-      "url": "https://www.theverge.com/tech/854457/frontierx-vex-aura-robots-companions-pets",
-      "summary": "CESで発表された小型ロボット「Vex」は、手のひらサイズの球体ボディでペットを追跡・遊びながら撮影し、AIで映像を自動編集。視覚認識で個体識別も可能。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-05T06:37:23.000Z",
-      "contentHash": "35615fa04921"
-    },
-    {
-      "id": "38b539f3db3b",
-      "title": "Skeleton のクイックスタート",
-      "url": "https://note.com/npaka/n/nc35e15abd3b3",
-      "summary": "SkeletonはSvelte/SvelteKit向けのTailwind前提UIコンポーネント＆デザインシステム。導入はSvelteKitアプリ作成→@skeletonlabs系＋lucide-svelteをインストール→layout.cssでTailwind/Skeletonとテーマをimport→htmlにdata-theme追加→コンポーネントにクラスを付けてnpm run devで起動。",
-      "source": "npaka",
-      "publishedAt": "2026-01-05T06:13:38.000Z",
-      "contentHash": "9ffcc744d048"
-    },
-    {
-      "id": "82a75cde16af",
-      "title": "Vibe Coding with GitLab MCP Server | MONEX ENGINEER BLOG │マネックス エンジニアブログ",
-      "url": "https://blog.tech-monex.com/entry/2026/01/05/150524",
-      "summary": "VS CodeのCopilotを軽量パッケージgitlab-mcpでGitLabと連携し、リポジトリの文脈をCopilotに与える方法を紹介。Vibe coding（LLMにコード生成を任せ開発者は指示・レビューする手法）で生産性向上を目指す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T06:05:24.000Z",
-      "contentHash": "bff797ce105c"
-    },
-    {
-      "id": "3a0cad9c3924",
-      "title": "ICE is using facial-recognition technology to quickly arrest people",
-      "url": "https://www.wsj.com/politics/policy/ice-facial-recognition-app-mobile-fortify-dfdd00bf",
-      "summary": "WSJは、ICEが現場で運転免許証や写真を即照合できる携帯用顔認識アプリを導入・試験しており、誤認識や監督不足、プライバシーと市民権への懸念が強まっていると報じた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-05T05:16:37.000Z",
-      "contentHash": "964f293d2178"
-    },
-    {
-      "id": "e8a6cae41826",
-      "title": "フルスタックDartからRustバックエンドへ | 10X Product Blog",
-      "url": "https://product.10x.co.jp/entry/2026/01/05/141233",
-      "summary": "弊社はFlutter＋DartのフルスタックからバックエンドをRustへ移行検討中。採用難やDartのエコシステムや並列処理の課題、運営自律性確保のため型付で堅牢なRustを候補とし一部で検証中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T05:12:33.000Z",
-      "contentHash": "7f8eacaae640"
-    },
-    {
-      "id": "aeee2ae36ae4",
-      "title": "nanobananaで4コマ漫画を作ろう | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-      "url": "https://recruit.group.gmo/engineer/jisedai/blog/nanobanana-4panel-manga/",
-      "summary": "Nano Banana Proで文字混じり画像を生成し、起承転結やキャラ化で「分かりやすく面白い」4コマ漫画を作る手法を探求。山月記の例や要件整理を経て、Nanobanana Pro APIで自動バッチ生成するコードをGitHubで公開した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T05:09:28.000Z",
-      "contentHash": "7323cfead5e3"
-    },
-    {
-      "id": "0a7babe9f85d",
-      "title": "AI駆動開発とは？メリット、注意点、PMが知るべき活用領域と実践ステップ | 株式会社モンスターラボ",
-      "url": "https://monstar-lab.com/dx/technology/ai-driven-development/",
-      "summary": "PM/PdM向けにAI駆動開発を解説。生成AI/LLMで要件〜実装・テストを部分自動化し、開発速度と品質安定、コスト最適化を実現。人は指示・レビュー・検証に集中し創造的業務へ移行。ただしAI生成コードのレビューは必須。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T05:04:46.000Z",
-      "contentHash": "4d21ee6ba89c"
-    },
-    {
-      "id": "2d3fc0a24c88",
-      "title": "react-markdown + remark-cjk-friendlyで日本語を太字変換 | NCDC テックブログのフィード",
-      "url": "https://zenn.dev/ncdc/articles/9820695dfde50c",
-      "summary": "react-markdownは日本語（分かち書きのない言語）で、記号と**が隣接すると意図した太字（**...**）に変換されないことがある。remark-cjk-friendlyをremarkPluginsに追加するだけで正しく太字化できる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T05:00:32.000Z",
-      "contentHash": "cf522af68314"
-    },
-    {
-      "id": "a91f2f3a69bd",
-      "title": "Birdbuddy’s new smart feeders aim to make spotting birds easier, even for beginners",
-      "url": "https://www.theverge.com/gadgets/850488/birdbuddy-2-mini-ces-2026",
-      "summary": "Birdbuddyが新スマート餌台2機種を発表。上位のBirdbuddy 2（$199）は2K HDR、スローモーション、135度広角、太陽光パネル搭載で音声も改善。小型の2 Mini（$129）は初心者向けで即起動し鳥を見逃しにくい。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-05T05:00:00.000Z",
-      "contentHash": "22ac4e78a736"
-    },
-    {
-      "id": "c26ff29cc259",
-      "title": "Svelte のクイックスタート",
-      "url": "https://note.com/npaka/n/n3b9b02f69b5b",
-      "summary": "Svelteはビルド時に最適化される軽量で高速なUIフレームワーク。SvelteKitはアプリ向けフレームワーク、UIライブラリも多数。導入はNode→Viteテンプレでプロジェクト作成→npm install→npm run dev。単一ファイルでHTML/CSS/JSを記述し、$stateでリアクティブに更新、{ }でテンプレ埋め込み。",
-      "source": "npaka",
-      "publishedAt": "2026-01-05T04:33:15.000Z",
-      "contentHash": "f5b94d682641"
-    },
-    {
-      "id": "359245a8525d",
-      "title": "2026年のキーワードは「穏跳（おんちょう）」。変革のその先へ、静かなる大飛躍を。 | RAKUS Developers Blog | ラクス エンジニアブログ",
-      "url": "https://tech-blog.rakus.co.jp/entry/20260105/steady-growth",
-      "summary": "2026年のキーワードは「穏跳」。2025年の変革で基盤を作り、穏やかに整えつつ次の3年へ跳ぶ。PdMの重点は統合型ベストオブブリード、エンタープライズ強化、AIの製品実装。デザイナーは長期的なUX定着と組織強化を目指す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T04:31:20.000Z",
-      "contentHash": "0b09eab70466"
-    },
-    {
-      "id": "ef1b5ae01337",
-      "title": "I just want to keep unfolding the Samsung Z TriFold",
-      "url": "https://www.theverge.com/tech/854352/samsung-galaxy-z-trifold-hands-on",
-      "summary": "Allison JohnsonがSamsung Z TriFoldを試用。もう一つのヒンジで「電話に付いたタブレット」になる使用感を評価し、単一ヒンジ折りたたみ機より魅力的と感じた。韓国で発売中、米国では未発売。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-05T04:02:40.000Z",
-      "contentHash": "bf7e55f22d57"
-    },
-    {
-      "id": "bf7c437643a8",
-      "title": "California residents can now request all data brokers delete personal info",
-      "url": "https://consumer.drop.privacy.ca.gov/",
-      "summary": "申し訳ありませんが外部サイトへ直接アクセスできません。記事全文か要点を貼っていただければ、200字以内で日本語要約します。HNコメントの要約も希望なら教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-05T04:00:38.000Z",
-      "contentHash": "86aae49ff637"
-    },
-    {
-      "id": "75dd03c387f6",
-      "title": "ブラウザからラベルプリンターへのバーコード出力 | Rentio Tech Blogさんのフィード",
-      "url": "https://zenn.dev/rentio/articles/print-barcode",
-      "summary": "レンティオの在庫管理で個品バーコードをブラウザから直接テプラに印刷する方法を紹介。bwip-jsでCanvasにCode128を生成→Blob→File化し、テプラクリエイターWeb APIでプリンター検出・印刷。画像化で汎用性確保。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T03:19:13.000Z",
-      "contentHash": "6fecc592de27"
-    },
-    {
-      "id": "c3069423edb7",
-      "title": "Shut the fridge door!",
-      "url": "https://www.theverge.com/tech/853758/shut-the-fridge-door",
-      "summary": "SamsungがCES2026で発表。Family Hubスマート冷蔵庫がBixby音声で扉の開閉に対応し、「開けて」「閉めて」で90度以上開閉。手のひらや手の甲でタップしても作動するハンズフリー機能。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-05T03:00:00.000Z",
-      "contentHash": "c73a86de5df9"
-    },
-    {
-      "id": "827ffb6ba396",
-      "title": "LG’s Wallpaper OLED TV returns to CES, and it’s wafer thin",
-      "url": "https://www.theverge.com/tech/853886/lgs-wallpaper-oled-tv-returns-to-ces-and-its-wafer-thin",
-      "summary": "LGが6年ぶりに超薄型「Wallpaper」OLEDを復活。新モデルW6は厚さ9mm、ゼロコネクトボックスで最大10mまで映像を無線化（電源は必要）し、壁にピタリ設置可能。Hyper Radiant Color技術を搭載。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-05T03:00:00.000Z",
-      "contentHash": "4af1a163552e"
-    },
-    {
-      "id": "41a2fda29293",
-      "title": "During Helene, I just wanted a plain text website",
-      "url": "https://sparkbox.com/foundry/helene_and_mobile_web_performance",
-      "summary": "ハリケーンHelene一周年。西ノースカロライナの洪水で停電・携帯塔が損傷し、多くが緊急情報を受け取れなかった。著者はモバイルでページがタイムアウトしたり地図のAPIが落ちたり、重い画像や循環リンクで情報取得が困難だったと振り返り、簡素で耐障害性の高い設計を訴えている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-05T02:36:20.000Z",
-      "contentHash": "01b3c4ea2e93"
-    },
-    {
-      "id": "100327ee6c8d",
-      "title": "The new Ultraloq smart lock uses both your face and your palm to let you in",
-      "url": "https://www.theverge.com/tech/853844/ultraloq-ces-smart-lock-face-palm-reading",
-      "summary": "XthingsがCESで新製品を発表。Ultraloq Bolt Senseは顔認証と手のひら静脈認証を組み合わせた小型スマートデッドボルトで、アプリ不要の非接触解錠。静脈スキャンは濡れや暗闇でも有効。HaLow対応カメラも発表。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-05T02:00:00.000Z",
-      "contentHash": "1112c61b0f03"
-    },
-    {
-      "id": "1a7d1086b2f0",
-      "title": "Ikea’s new $4 USB-C charger is cheaper than Apple’s and Anker’s",
-      "url": "https://www.theverge.com/tech/854333/ikea-sjoss-20w-usb-c-wall-charger",
-      "summary": "Ikeaが20WのUSB-C充電器「Sjöss」を米国で3.99ドルで発売。これまでの30W（8ドル）・65W（35ドル）に続く最安モデルで、Apple（19ドル）やAnker（11.99ドル）より安価。Ankerより大きく重い。店頭とオンラインで販売、色は1色。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-05T01:54:29.000Z",
-      "contentHash": "fba88ee218e7"
-    },
-    {
-      "id": "bc16744363f6",
-      "title": "AWS Security Agentのコードセキュリティレビューを試してみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/try-aws-security-agent-code-review",
-      "summary": "re:Invent 2025で発表されたAWS Security Agentのコードセキュリティレビューを試した記事。GitHubのPRを自動解析し、OWASP Top10や組織ポリシー違反を検出してPRにコメント。プレビュー版は無料でUS East限定、既存ワークフローに統合可能。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T01:30:00.000Z",
-      "contentHash": "1f186e3c77a9"
-    },
-    {
-      "id": "16b7a82f03ab",
-      "title": "【イベントレポート】AdmiNation2025に参加してみた！ | [公開中] AQ Tech Blog",
-      "url": "https://techblog.asia-quest.jp/202601/admination_2025_report",
-      "summary": "アジアクエストの石川が、マネーフォワードｉ主催のAdminaイベント「AdmiNation2025」に参加。導入事例やディレクトリ活用、自動化、ISMS対応など実務的な講演で多くの気づきを得て、主催者の熱意や情シスの人手・予算不足課題も共有。活用検討に有意義だった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T01:20:56.000Z",
-      "contentHash": "d1c8eb7de85c"
-    },
-    {
-      "id": "cfe3c8b4aac5",
-      "title": "Datadog認定資格を全冠達成！3つの認定試験に合格するまでの道のり | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/01/05/100702",
-      "summary": "Datadogの3認定（Datadog Fundamentals、Log Management Fundamentals、APM & Distributed Tracing Fundamentals）を約100時間の学習で全取得。業務での知識を体系化し顧客支援を高める目的で、学習手順や試験対策、実践的アドバイスを共有しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T01:07:02.000Z",
-      "contentHash": "a7c553f622af"
-    },
-    {
-      "id": "4fcc4a52a0cf",
-      "title": "複数リポジトリのTerraformワークフローを共通基盤化して運用をスケールさせた話 | Timee Product Team Blog",
-      "url": "https://tech.timee.co.jp/entry/2026/01/05/100316",
-      "summary": "タイミーのPlatform Engineer近藤氏は、事業拡大に伴いTerraformをAWS中心からGCP（BigQuery含む）やGitHubやDatadogなどのSaaSのユーザー・権限管理まで幅広く活用している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T01:03:16.000Z",
-      "contentHash": "35a9fd7ced9d"
-    },
-    {
-      "id": "ca553e380682",
-      "title": "Withings thinks of its latest smart scale as a ‘longevity station’",
-      "url": "https://www.theverge.com/tech/850005/ces-2026-withings-body-scan-2-smart-scale-longevity-tech-health",
-      "summary": "WithingsがCES 2026で発表した約600ドルのスマート体重計「Body Scan 2」は、本体8電極＋伸縮ハンドル4電極で上半身も計測し、合計60のバイオマーカーで心血管・代謝の健康を評価。Q2 2026発売（一部指標はFDA承認待ち）。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-05T01:00:00.000Z",
-      "contentHash": "8edf9d35675e"
-    },
-    {
-      "id": "ee049ed56568",
-      "title": "The Shure MV88 USB-C stereo mic mounts directly to your phone",
-      "url": "https://www.theverge.com/tech/852938/shure-mv88-usb-c-stereo-mic-ces-2026",
-      "summary": "ShureがMV88をUSB-C化しスマホに直付けできるステレオコンデンサーマイクを発表。ステレオ／単一指向／双方向／生の中側の4指向性を備え、MOTIVアプリでゲイン・5バンドEQ・リミッター・コンプレッサー等を調整可能。Vlogger向け設計。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-05T01:00:00.000Z",
-      "contentHash": "0bffb7df14af"
-    },
-    {
-      "id": "100bfb6b2355",
-      "title": "RGB is the next big thing in OLED gaming monitors",
-      "url": "https://www.theverge.com/tech/854183/oled-gaming-monitors-rgb-stripe-lg-samsung-display-ces-2026",
-      "summary": "LG DisplayとSamsung Displayが縦RGBストライプの新型OLEDパネルを導入。Pentile由来の文字のにじみを改善し、特にウルトラワイドでの文字表示が鮮明に。ASUSやMSIの新型ゲーミングモニタへ採用予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-05T01:00:00.000Z",
-      "contentHash": "d5d4dcc9d5e4"
-    },
-    {
-      "id": "0a49ae64c835",
-      "title": "スマートバンク 新春エンジニア駅伝 2026 がはじまります！ | inSmartBank",
-      "url": "https://blog.smartbank.co.jp/entry/ekiden-2026",
-      "summary": "サーバーサイドエンジニアkoshibaが先導する「スマートバンク 新春エンジニア駅伝2026」。本日〜1月最終営業日まで、日替わりで技術・組織づくり・抱負など多彩な記事を毎日更新し、最終日に一覧を公開。ブックマークしてチェックを呼びかけています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T01:00:00.000Z",
-      "contentHash": "99205531bb05"
-    },
-    {
-      "id": "c034f713f142",
-      "title": "持て余さないためのDevinの活かし方 | TalentX Tech Blog",
-      "url": "https://tech.talentx.co.jp/entry/2026/01/05/093641",
-      "summary": "TalentXの岸本が、AI駆動開発でのDevin運用を解説。Devinと他エージェント（例：Claude）の棲み分けやDevin特有の活用法をまとめ、導入検討者や活用がうまくいかない利用者向けの実務寄り記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T00:36:41.000Z",
-      "contentHash": "39c951d7e829"
-    },
-    {
-      "id": "fa0ea2cb52f3",
-      "title": "【Amazon Quick Suite】Confluence Wiki をデータソースにした chat ボット 作ってみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/01/05/093430",
-      "summary": "CS2課の山﨑が、Confluence WikiをデータソースにAmazon Quick Suiteでナレッジベース型チャットボットを簡単に作る手順（ナレッジベース作成、スペース作成、チャットエージェント作成、テスト）を紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T00:34:30.000Z",
-      "contentHash": "fd3b60805d67"
-    },
-    {
-      "id": "2ffb2001e24b",
-      "title": "【Exchange Online】ユーザーによる配布グループの作成と削除を制御する | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/01/05/091927",
-      "summary": "Exchange Onlineで、ユーザーに配布グループの編集のみ許可し作成・削除を制限する方法を紹介。ユーザーロールの「MyDistributionGroups」権限を編集して、Outlook on the Webの「全般＞配布グループ＞所有する配布グループ」を制御します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-05T00:19:27.000Z",
-      "contentHash": "f9ddf74be14a"
-    },
-    {
-      "id": "26d57cd4a5d4",
-      "title": "Mammotion’s flagship robot lawnmower now uses lidar to map your yard",
-      "url": "https://www.theverge.com/news/850763/mammotion-luba-3-awd-robot-lawnmower-lidar-ces-2026",
-      "summary": "MammotionがCES 2026で新型ロボット芝刈機「Luba 3 AWD」を発表。LiDARで地上〜樹冠をセンチ精度で3Dマッピングし、ジオポジショニングとAIカメラを統合した「Tri‑Fusion」で高精度な自律走行を実現。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-05T00:00:00.000Z",
-      "contentHash": "06b70f1a18dc"
-    },
-    {
-      "id": "bab1e6b7736b",
-      "title": "Lockin’s new vein-scanning smart lock has a video doorbell and recharges wirelessly",
-      "url": "https://www.theverge.com/tech/851239/lockin-v7-max-optical-wireless-palm-vein-smart-lock-video-doorbell",
-      "summary": "LockinのV7 Maxは静脈スキャン認証とビデオドアベルを備えたスマートロック。屋内設置の「AuraCharge」から最長4mの目に安全な光学ワイヤレス充電で常時給電し、充電切れを防ぐ。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-05T00:00:00.000Z",
-      "contentHash": "e6e1019fc18c"
     }
   ]
 }
