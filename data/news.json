@@ -1,6 +1,213 @@
 {
-  "generatedAt": "2026-01-23T16:54:23.786Z",
+  "generatedAt": "2026-01-24T02:16:36.267Z",
   "items": [
+    {
+      "id": "2ad88780dcc8",
+      "title": "Chromebooks train schoolkids to be loyal customers, internal Google document suggests",
+      "url": "https://www.theverge.com/news/867138/google-chromebook-education-expansion-court-filings",
+      "summary": "内部資料は、グーグルが学校に投資して子どもを「オンボード」することで生涯にわたるブランド忠誠を育てる狙いを示すと報道。これらは子どもの安全を巡る訴訟で公開され、Chromebook普及戦略が浮上。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-24T01:21:41.000Z",
+      "contentHash": "b6e8d698c3a9"
+    },
+    {
+      "id": "accbd55bf479",
+      "title": "Leak: Nvidia is about to challenge ‘Intel Inside’ with as many as eight Arm laptops",
+      "url": "https://www.theverge.com/games/867056/leak-nvidia-n1-n1x-laptops-lenovo-dell",
+      "summary": "NvidiaがArmベースのN1/N1X SoCでWindowsノートに参入。Lenovo流出でIdeapad Slim5（14/16）、Yoga Pro7（15×2）、Yoga9 2in1、15型ゲーミングなど計6機種が判明。春登場予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-24T01:09:10.000Z",
+      "contentHash": "7627d5bdd3bb"
+    },
+    {
+      "id": "50c9a85e9231",
+      "title": "ソフトウェアエンジニアとして今 10X に入社する理由 | 10X Product Blog",
+      "url": "https://product.10x.co.jp/entry/2026/01/24/093000",
+      "summary": "著者は10Xの「小売業の未来を拓く」使命と経営の長期コミットに共感して入社。生鮮特有の複雑性、少人数で広範を担う高い影響力、プラットフォーム化の技術課題に刺激を受け、長く挑戦したいと述べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-24T00:30:00.000Z",
+      "contentHash": "17e57c4d0bb2"
+    },
+    {
+      "id": "6d5827c71f5b",
+      "title": "Copilot の Plan モードからカスタムエージェントの理解を深める | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/01/24/090000",
+      "summary": "記事はagent.mdの構成とフロントマターの役割、Planモード設定、ロール明確化、停止ルール、ワークフロー、plan_research/plan_style_guide、XMLタグや反復、サブエージェント、出力形式明示などのプロンプト設計技法を解説。ACS事業部の井田による紹介あり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-24T00:00:00.000Z",
+      "contentHash": "1b4b14c070a0"
+    },
+    {
+      "id": "413b10d6397c",
+      "title": "【24日目】MLOps パイプラインの構築 〜 モデルを育て、届け、改善し続ける仕組みを Databricks で実現する 〜 | ちゅらデータ株式会社のフィード",
+      "url": "https://zenn.dev/churadata/articles/f10d44ec474ac6",
+      "summary": "DatabricksでMLflowを中核に、モデルの開発→提供→監視→改善を自動化するMLOpsを解説。実験管理(Tracking/Autologging)、Model Registryの版管理・Stage、WebhooksでCI/CD連携、Model ServingやMonitoring、Jobsで継続運用を実現する仕組みを紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-23T23:35:05.000Z",
+      "contentHash": "2d0cebae72cf"
+    },
+    {
+      "id": "0b516e2bd6c2",
+      "title": "Congress doesn’t seem to know if the TikTok deal complies with its law",
+      "url": "https://www.theverge.com/news/866977/tiktok-deal-congress-china",
+      "summary": "TikTokは米サービスをTikTok USDS Joint Venture LLCに移し、親会社ByteDanceは19.9%に縮小。OracleやSilver Lake等が出資、Oracleが米データを保管し推薦算法を米データで再訓練する。議会は合意の法的適合性を把握できていない。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-23T22:08:43.000Z",
+      "contentHash": "6f7e655ab62d"
+    },
+    {
+      "id": "23c031a29478",
+      "title": "Unrolling the Codex agent loop",
+      "url": "https://openai.com/index/unrolling-the-codex-agent-loop/",
+      "summary": "Codexをツールを扱うエージェントとして構成する「エージェントループ」を分解・可視化し、観察→思考→行動の反復でコード実行やツール呼び出しを行う設計・評価手法を示す。安定性や状態管理などの課題も論じる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-23T20:42:36.000Z",
+      "contentHash": "12bee0c780b2"
+    },
+    {
+      "id": "f93518ce4f78",
+      "title": "Banned C++ features in Chromium",
+      "url": "https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-features.md",
+      "summary": "ChromiumのC++スタイルガイド：C++標準やAbseilの機能採用状況を管理。新標準はまず「initially supported」とされ機能は議論後に許可。変更提案はcxx@chromium.orgへ、合意後コードレビューで反映。TBDは2年で結論化。サードパーティは内部で禁止機能を使えるが公開API経由は制約あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-23T20:27:58.000Z",
+      "contentHash": "c57e78adf355"
+    },
+    {
+      "id": "18b1d3d68dc9",
+      "title": "Meta is stopping teens from chatting with its AI characters",
+      "url": "https://www.theverge.com/news/866906/meta-teens-ai-characters-stop-block-new-version",
+      "summary": "MetaはティーンのAIキャラクターとのチャットを一時停止すると発表。より良い体験を目指す新バージョンを開発中で、親の管理機能を二重実装しないため数週間以内に停止し、新版で再開予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-23T19:50:59.000Z",
+      "contentHash": "5d297813770f"
+    },
+    {
+      "id": "481433f80ffd",
+      "title": "Tesla kills Autopilot, locks lane-keeping behind $99/month fee",
+      "url": "https://arstechnica.com/cars/2026/01/tesla-wants-recurring-revenue-discontinues-autopilot-in-favor-of-fsd/",
+      "summary": "テスラが従来の「Autopilot」販売を終了し、有料サブスク中心の「Full Self‑Driving（FSD）」へ一本化。定期収入確保が狙いで名称整理と機能移行を進めるが、安全性や規制の懸念が残る。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-23T19:28:10.000Z",
+      "contentHash": "f46b0f46ea87"
+    },
+    {
+      "id": "9db6efc5055f",
+      "title": "What TikTok’s new owners mean for your feed",
+      "url": "https://www.theverge.com/tech/866868/tiktok-usds-new-owners-algorithm-explained",
+      "summary": "1月22日、TikTokの米国事業が140億ドルでスピンオフされ、Oracle（ラリー・エリソン）、Silver Lake、アブダビのMGXが各15％出資するUSDSが発足。ByteDanceは法定の19.9％を保持し、トランプ氏の後押しで成立。米国側の経営刷新がフィードや運営に影響する可能性あり。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-23T19:10:51.000Z",
+      "contentHash": "68a30dcad5c6"
+    },
+    {
+      "id": "1b169d2ade9b",
+      "title": "Auto-compact not triggering on Claude.ai despite being marked as fixed",
+      "url": "https://github.com/anthropics/claude-code/issues/18866",
+      "summary": "すみません、直接ウェブを閲覧できないためURL先の内容を取得できません。記事本文か主要コメントを貼っていただければ、200文字以内で日本語要約します。どちらを貼りますか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-23T18:42:38.000Z",
+      "contentHash": "9fb57e4ee0c9"
+    },
+    {
+      "id": "03ec6cf7c7e5",
+      "title": "Casio teased a retro gaming-inspired sampler",
+      "url": "https://www.theverge.com/news/866709/casio-sx-c1-retro-gaming-inspired-sampler-at-namm",
+      "summary": "CasioはNAMMでゲームボーイ×SP-404風のサンプラー試作機SX-C1を披露。1.3インチOLED、十字キー＋4ボタン、16パッド、16音ポリ、16bit/48kHz録音、10バンク160スロット、64GB内蔵で往年のCasio音源をプリロード。発売日・価格は未定。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-23T18:10:28.000Z",
+      "contentHash": "ab4fd4d0d630"
+    },
+    {
+      "id": "1da2543749f5",
+      "title": "New YC homepage",
+      "url": "https://www.ycombinator.com/",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文か要点を貼り付けていただければ、200文字以内で日本語に要約します。Hacker Newsのコメント要約も同様に対応できます。どちらを希望しますか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-23T18:08:11.000Z",
+      "contentHash": "316615a98719"
+    },
+    {
+      "id": "f3a79998f91d",
+      "title": "Zotero 8",
+      "url": "https://www.zotero.org/blog/zotero-8/",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文か主要部分を貼っていただければ、200文字以内で要約します。HNコメントも要約希望なら一緒に貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-23T18:05:08.000Z",
+      "contentHash": "6caacb766640"
+    },
+    {
+      "id": "4dbeacfc6031",
+      "title": "The best instant cameras you can buy right now",
+      "url": "https://www.theverge.com/23133103/best-instant-cameras-fujifilm-polaroid-kodak",
+      "summary": "スマホ時代でもフィルムをすぐ手にできるインスタントカメラの魅力を解説。柔らかい描写や偶然の味わいが人気で、富士フイルム、ポラロイド、ライカ、キヤノン、コダック等の機種を比較検証し、用途や予算別のおすすめを紹介。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-23T18:01:09.000Z",
+      "contentHash": "8784981eba17"
+    },
+    {
+      "id": "6b261967d6f3",
+      "title": "Microsoft gave FBI set of BitLocker encryption keys to unlock suspects' laptops",
+      "url": "https://techcrunch.com/2026/01/23/microsoft-gave-fbi-a-set-of-bitlocker-encryption-keys-to-unlock-suspects-laptops-reports/",
+      "summary": "Forbes報道によれば、Microsoftはグアムのパンデミック失業給付詐欺捜査で押収された3台のBitLockerで暗号化されたノートPCの回復キーをFBIに提供した。BitLockerは既定で回復キーをMicrosoftのクラウドに保存し、同社は年平均20件前後の要請に応じると説明。専門家はクラウド流出による悪用やプライバシーリスクを警告している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-23T17:58:56.000Z",
+      "contentHash": "5f71ff45c425"
+    },
+    {
+      "id": "627b520f23c0",
+      "title": "Proof of Corn",
+      "url": "https://proofofcorn.com/",
+      "summary": "2026/1/21の挑戦に応え、Claude Code（Opus 4.5）が種まきから収穫までの農場運営の意思決定を24/7で行い、全コード・判断ログ・予算を公開。Seth企画、協力者募集（Iowa・農業・開発者）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-23T17:56:31.000Z",
+      "contentHash": "67b9fa39bbb9"
+    },
+    {
+      "id": "c6591b352250",
+      "title": "Route leak incident on January 22, 2026",
+      "url": "https://blog.cloudflare.com/route-leak-incident-january-22-2026/",
+      "summary": "2026年1月22日、マイアミの設備で自動ルーティング設定ミスによりIPv6のBGP経路が25分間漏洩し、Cloudflare顧客と外部ネットワークのトラフィックが誤って集約され、回線混雑・遅延・損失、フィルタで破棄が発生。Cloudflareは謝罪。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-23T17:54:45.000Z",
+      "contentHash": "2beebdb1f4df"
+    },
+    {
+      "id": "eaf591614c0c",
+      "title": "Hang on, there’s a Trump Phone Ultra coming too?",
+      "url": "https://www.theverge.com/news/866601/trump-mobile-t1-ultra-phone-don-hendrickson-interview",
+      "summary": "最初の「Trump Phone」は未だ登場せず、問い合わせにも返答なし。Trump Mobileの幹部ドン・ヘンドリクソンは、より高性能な上位モデル「T1 Ultra」も開発中と述べたが、詳細はほとんど不明だ。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-23T17:27:22.000Z",
+      "contentHash": "4f24a6dfe922"
+    },
+    {
+      "id": "72c5a29a995f",
+      "title": "Marshall’s new hub connects to multiple Bluetooth speakers without pairing",
+      "url": "https://www.theverge.com/tech/866640/marshall-music-streaming-hub-heddon-bluetooth-auracast-speakers",
+      "summary": "Marshallの音楽ストリーミングハブ「Heddon」はBluetooth Auracastで複数スピーカーへペアリング不要で同時配信。SennheiserのTV送信機に似るが音楽向けでWi‑FiやSpotify/Tidal対応。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-23T16:54:01.000Z",
+      "contentHash": "52046e26e543"
+    },
+    {
+      "id": "61ec4aae2a01",
+      "title": "Today only, you can buy the AirPods Pro 3 for less than $200 ",
+      "url": "https://www.theverge.com/gadgets/866710/apple-airpods-pro-3-super-mario-bros-deal-sale",
+      "summary": "ベストバイが本日限定でAirPods Pro 3を199.99ドル（50ドル引き、過去最安タイ）で販売。iPhone向けで最高のアクティブノイズキャンセル、XXSイヤーチップ、IP57防水を備えています。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-23T16:40:56.000Z",
+      "contentHash": "1a146364f0cf"
+    },
+    {
+      "id": "fa3d36800aee",
+      "title": "Gas Town's agent patterns, design bottlenecks, and vibecoding at scale",
+      "url": "https://maggieappleton.com/gastown",
+      "summary": "記事は、AIエージェントが全てコードを書くと設計・計画がボトルネックになると指摘し、専門化・階層監督、役割の持続化、作業の継続供給、マージキューなどのエージェント運用案を提示。費用は高いが潜在価値も大きく、コードを見ない判断は領域や言語、フィードバック、リスク許容度、既存資産、協力者数、経験で決まる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-23T16:19:18.000Z",
+      "contentHash": "976efe30d0b8"
+    },
     {
       "id": "14aa4fef0c76",
       "title": "Giving your healthcare info to a chatbot is, unsurprisingly, a terrible idea",
@@ -110,6 +317,15 @@
       "contentHash": "ac1af9070026"
     },
     {
+      "id": "ae10eb4597fe",
+      "title": "Unrolling the Codex agent loop",
+      "url": "https://openai.com/index/unrolling-the-codex-agent-loop",
+      "summary": "Codexエージェントループの技術的解説。Codex CLIがResponses APIを通じてモデル、外部ツール、プロンプト設計、実行性能をどのように調整・連携させるかを詳述しています。",
+      "source": "OpenAI",
+      "publishedAt": "2026-01-23T12:00:00.000Z",
+      "contentHash": "570f3b067c6f"
+    },
+    {
       "id": "e97a345130ac",
       "title": "Microsoft Paint can now make AI coloring books",
       "url": "https://www.theverge.com/news/866524/microsoft-paint-notepad-ai-coloring-book",
@@ -131,10 +347,10 @@
       "id": "7328729e0993",
       "title": "Druva inSync ”バックアップステータスエラー”を解消していく | CloudNative Inc. BLOGs",
       "url": "https://blog.cloudnative.co.jp/30487/",
-      "summary": "Druva inSyncで一部端末がバックアップ完了なのにステータスがエラーに。ログ調査でOneDriveなど特定アプリ関連のファイルが原因と判明。新規プロファイルで該当フォルダ／拡張子を除外し、他の不適合アプリも除外して検証後、本プロファイルに反映しエラーを解消。",
+      "summary": "クラウドネイティブで社内情シスを担当するもりが、SaaS型データ保護ソリューション「Druva inSync」のエンドポイント運用について、導入状況や運用上のポイント・経験を紹介する記事。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-23T10:11:40.000Z",
-      "contentHash": "687108f1bb65"
+      "contentHash": "9acb8d708e72"
     },
     {
       "id": "ae95da8e45e1",
@@ -176,10 +392,10 @@
       "id": "a0195d6b1827",
       "title": "AWS WorkSpaces デバイス認証用の証明書をOpenSSLでサクッと作る手順  | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/workspaces-device-authentication",
-      "summary": "AWS WorkSpacesのデバイス認証用証明書をOpenSSLで作る手順。v3拡張を含むworkspaces.cnf作成→ルートCA作成→クライアント証明書作成→p12変換→WorkSpacesへルート登録→クライアントPCへ導入→接続。期限確認・変更方法も解説。",
+      "summary": "AWS WorkSpacesでデバイス認証を設定する手順：v3拡張が必要な設定ファイル作成、ルートCAとクライアント証明書作成、p12変換、WorkSpacesにルート登録、クライアントへ証明書導入、接続。証明書の有効期限の違いや変更・確認方法、公式ドキュメントへの言及あり。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-23T09:24:17.000Z",
-      "contentHash": "61e8ddbe73a3"
+      "contentHash": "617efd7afc6e"
     },
     {
       "id": "710204d50faa",
@@ -212,10 +428,10 @@
       "id": "932de7c1d1d1",
       "title": "今週の新着ブログ_その人事施策、事業成長に貢献しますか？_シリーズAI荒野_など14本(2026.1.16~2026.1.22) | SHIFT Group 技術ブログ",
       "url": "https://note.shiftinc.jp/n/n902ded81efb5",
-      "summary": "SHIFTグループ技術ブログの週刊まとめ（14本）。未経験者のGoogleカレンダー→LINE自動化、Datadog RUM導入とコスト管理、人的資本の方程式化、CAT活用術、AI時代のOODA推奨など実務寄り記事を紹介。",
+      "summary": "SHIFTグループ技術ブログ編集部は、ITに限らず幅広い知見やノウハウを広義の「技術」と位置づけ、入社歴や部署を超えた従業員が公式ブロガーとしてお役立ち記事を発信しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-23T08:50:06.000Z",
-      "contentHash": "c4b180b0dfd8"
+      "contentHash": "628687c01d03"
     },
     {
       "id": "a85d6d694bb4",
@@ -1082,6 +1298,15 @@
       "contentHash": "b987b1c8a536"
     },
     {
+      "id": "3cfde46429d5",
+      "title": "Inside GPT-5 for Work: How Businesses Use GPT-5",
+      "url": "https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work",
+      "summary": "業種横断の労働者によるChatGPTの利用実態をデータで分析した報告書。導入状況、主要業務、部門別利用傾向、職場でのAIの将来を示す。",
+      "source": "OpenAI",
+      "publishedAt": "2026-01-22T00:00:00.000Z",
+      "contentHash": "c01aaac48688"
+    },
+    {
       "id": "fd157901c014",
       "title": "Blue Origin’s Starlink rival TeraWave promises 6-terabit satellite internet",
       "url": "https://www.theverge.com/news/865282/blue-origin-terawave-satellite-6tb",
@@ -1454,10 +1679,10 @@
       "id": "73b0f255bca6",
       "title": "Prep for the SAT with practice tests in Gemini",
       "url": "https://blog.google/products-and-platforms/products/education/practice-sat-gemini/",
-      "summary": "GeminiアプリでThe Princeton Review提供の無料フル長SAT模試を提供。解答解説や即時の弱点分析、結果に基づく個別学習プラン作成が可能。",
+      "summary": "GeminiはThe Princeton Reviewと提携し、アプリ内で無料のフル長SAT模試を提供。受験後は即時の成績分析と解答解説が得られ、結果に基づく個別学習プランも作成可能。",
       "source": "Gemini",
       "publishedAt": "2026-01-21T08:00:00.000Z",
-      "contentHash": "811ba16dceb9"
+      "contentHash": "3548f7a0b0d7"
     },
     {
       "id": "bf71250a5d79",
@@ -2129,10 +2354,10 @@
       "id": "c6080032e188",
       "title": "【AI漫画】未完のゲームの資料を元にAIが作成した漫画 『そらテラ』まとめ",
       "url": "https://note.com/npaka/n/n23b4b69b737d",
-      "summary": "未完のゲーム資料をAIに読ませて作った漫画『そらテラ』のまとめ。Geminiが脚本、Nano Banana Proが作画で11ページの読み切り。惑星ソラテラの少女そらみと地球の中学生すみれの交流を、元はDoCoMo504i用ゲームの設定やキャラ資料を基に描く。",
+      "summary": "未完ゲーム資料を元にAIが制作した漫画『そらテラ』まとめ。せひら企画の未発表DoCoMo504i向けゲームを基に、Geminiが脚本、Nano Banana Proが作画で11ページ漫画化。宇宙人少女そらみと横浜の中学生すみれの交流を描く。ゲーム構成や制作手順、設定資料も掲載。",
       "source": "npaka",
       "publishedAt": "2026-01-20T02:31:13.000Z",
-      "contentHash": "31116dd48bde"
+      "contentHash": "2b13bb821c6c"
     },
     {
       "id": "f60f167e128f",
@@ -8775,231 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-01-07T21:09:54.000Z",
       "contentHash": "b99053b13c4f"
-    },
-    {
-      "id": "ba35f3130a73",
-      "title": "Claude Code CLI was broken",
-      "url": "https://github.com/anthropics/claude-code/issues/16673",
-      "summary": "Claude Codeを2.1.0に更新後、起動時に「Invalid Version: 2.1.0」等のエラーで起動しないと報告。環境はmacOS・Anthropic API。再現は2.1.0に更新して実行するだけ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-07T20:25:51.000Z",
-      "contentHash": "bcf823908bb3"
-    },
-    {
-      "id": "238ac79c0fea",
-      "title": "Tailscale state file encryption no longer enabled by default",
-      "url": "https://tailscale.com/changelog",
-      "summary": "Tailscale v1.92.5: Linux/Windowsで状態ファイル暗号化とハードウェア証明鍵がデフォルト無効化され、鍵読み込み失敗でも起動可能に。コンテナとKubernetes Operatorを更新し、ハードウェア鍵をK8s Secretsに保存しなくしてノード移動を容易に。証明書更新は既定でARI注文しない。tsrecorderはライブラリ更新のみ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-07T20:16:50.000Z",
-      "contentHash": "df3e69f1e054"
-    },
-    {
-      "id": "a22b2e377066",
-      "title": "Minneapolis driver shot and killed by ICE",
-      "url": "https://www.nbcnews.com/news/us-news/federal-law-enforcement-involved-ice-related-shooting-minneapolis-rcna252812",
-      "summary": "ミネアポリスで移民取締の際、ICE職員が女性を射殺。国土安全保障省は「車で突進した」と主張するが、市長や目撃者は動画で否定し、女性は捜査対象でなかったとされる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-07T19:59:44.000Z",
-      "contentHash": "2ff9a451a900"
-    },
-    {
-      "id": "cf062353896f",
-      "title": "Notion AI: Unpatched data exfiltration",
-      "url": "https://www.promptarmor.com/resources/notion-ai-unpatched-data-exfiltration",
-      "summary": "Notion AIの脆弱性：AI編集がユーザー承認前に保存されるため、隠しプロンプト（例：毒入り履歴書）で採用トラッカ等の機密データが漏洩可能。警告は回避でき、HackerOneで報告したがNotionは対象外と判断。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-07T19:49:54.000Z",
-      "contentHash": "3e18e40cf04f"
-    },
-    {
-      "id": "18fb79c4bc64",
-      "title": "ChatGPT Health",
-      "url": "https://openai.com/index/introducing-chatgpt-health/",
-      "summary": "OpenAIはChatGPT Healthを発表。医療記録や健康アプリを安全に連携し、目的別暗号化や隔離で会話を保護・分離。医師と協働して健康管理を支援し、臨床を代替しない。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-07T19:29:39.000Z",
-      "contentHash": "8be0641d5621"
-    },
-    {
-      "id": "79644d155296",
-      "title": "US will ban Wall Street investors from buying single-family homes",
-      "url": "https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/",
-      "summary": "外部リンクを直接開けないため記事内容を取得できません。本文を貼り付けていただければ、200文字以内で日本語要約します。コメント要約も必要なら併せて対応します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-07T19:13:19.000Z",
-      "contentHash": "1a9cab697c8c"
-    },
-    {
-      "id": "5f487b26dcaf",
-      "title": "NPM to implement staged publishing after turbulent shift off classic tokens",
-      "url": "https://socket.dev/blog/npm-to-implement-staged-publishing",
-      "summary": "npmが「staged publishing（段階的公開）」を導入予定で、公開を段階化してロールアウトや検証を容易にし、誤公開や破壊的変更を抑える狙い。実装方法や運用上の影響、責任範囲について議論がある。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-07T18:31:19.000Z",
-      "contentHash": "487bd21e0658"
-    },
-    {
-      "id": "06398ba3db51",
-      "title": "Texas A&M bans part of Plato's Symposium",
-      "url": "https://dailynous.com/2026/01/06/texas-am-bans-plato/",
-      "summary": "要約: Texas A&Mが哲学教授マーティン・ピーターソンに、次週開講の「現代的道徳問題」から人種・ジェンダー関連とプラトン（『饗宴』の一部）を外すか別講義にするよう命じた。大学の新方針（Rule 08.01）によるもので、ピーターソンはシラバスを提出し、検閲を拒み合憲性と学問の自由を主張している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-07T17:23:23.000Z",
-      "contentHash": "d4521fb206fe"
-    },
-    {
-      "id": "196ded6f0ccb",
-      "title": "Eat Real Food",
-      "url": "https://realfood.gov",
-      "summary": "新しい米国の食事指針は「本物の食べ物」（全粒・栄養密度の高い自然食品）を重視し、高度加工食品の危険を警告。タンパク質（体重1ポンド当たり0.54–0.73g）と健康的脂肪、野菜3皿・果物2皿、全粒2–4皿を推奨し、慢性疾患対策として食文化を再構築する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-07T17:22:09.000Z",
-      "contentHash": "36c3218436c9"
-    },
-    {
-      "id": "bd2ca01ec4a4",
-      "title": "Health care data breach affects over 600k patients, Illinois agency says",
-      "url": "https://www.nprillinois.org/illinois/2026-01-06/health-care-data-breach-affects-600-000-patients-illinois-agency-says",
-      "summary": "イリノイ州保健福祉局の地図の公開設定ミスで、2021～2025年に約3.2万人のリハビリ受給者と約67万人のメディケイド／医療費補助受給者の氏名・住所・ケース番号などが閲覧可能になっていた。9月22日に発覚し設定を修正、濫用は確認されておらず、対象者に通知を送る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-07T16:28:14.000Z",
-      "contentHash": "603ddb140c84"
-    },
-    {
-      "id": "08eb25f3b248",
-      "title": "You can turn this modular clamp-on controller into an N64 or GameCube gamepad",
-      "url": "https://www.theverge.com/tech/857428/hyperkin-gamesir-x5-alteron-clamp-bluetooth-wireless-controller",
-      "summary": "HyperkinとGameSirが共同開発したクランプ式ワイヤレスコントローラー「X5 Alteron」を発表。スマホ・タブレットや複数のSwitchに装着してJoy‑Con代替になり、伸縮クランプと前面パーツの交換式モジュールを採用。発売時期は未定。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-07T15:19:59.000Z",
-      "contentHash": "875d7db1021a"
-    },
-    {
-      "id": "4c3d01e8c80a",
-      "title": "Spotify is finally bringing your friends’ Listening Activity to mobile",
-      "url": "https://www.theverge.com/news/857404/spotify-listening-activity-mobile",
-      "summary": "Spotifyがデスクトップ限定だった「Listening Activity」をモバイルに導入。オプトインで共有相手を個別指定でき、チャット横のサイドバーに表示。モバイルチャットに「Request to Jam」も追加。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-07T15:02:16.000Z",
-      "contentHash": "de5e8ee32fbc"
-    },
-    {
-      "id": "540f4cff49ef",
-      "title": "What surprised us the most at CES 2026",
-      "url": "https://www.theverge.com/tech/857406/ces-2026-surprises",
-      "summary": "CES2026の意外な出来事を総覧。定番の大型テレビや充電器、ロボットに加え、発表や不在のサプライズが続出。特にモトローラはRazrブランドでブック型折りたたみを発表し、ノスタルジーを超えて未来志向を示した。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-07T14:34:43.000Z",
-      "contentHash": "2239eb7ecabb"
-    },
-    {
-      "id": "2baf05730d35",
-      "title": "Sugar industry influenced researchers and blamed fat for CVD",
-      "url": "https://www.ucsf.edu/news/2016/09/404081/sugar-papers-reveal-industry-role-shifting-national-heart-disease-focus",
-      "summary": "記事本文かリンクを貼ってください。内容を確認してから200文字以内で日本語要約を作成します。記事が用意できない場合は、「肝炎Cの治療後短期間で治癒を確定する研究」について一般的な要約を作成してよいか教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-07T14:29:25.000Z",
-      "contentHash": "79d7baca48c6"
-    },
-    {
-      "id": "f7475b6ed742",
-      "title": "Ikea is expanding its Matter support to two stylish lamps",
-      "url": "https://www.theverge.com/tech/853143/ikea-smart-home-matter-varmblixt-donut-color-changing-pendant-lamp",
-      "summary": "イケアはCES2026で既存家具のMatter対応を拡大。ドーナツ型Varmblixtをマット仕上げに改良し付属リモコン（Bilresa）で12色に変えられるスマート版を、またVarmblixtペンダントは白色LEDの色温度調整対応を発表しました。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-07T14:00:00.000Z",
-      "contentHash": "c2d3fb5a8c4e"
-    },
-    {
-      "id": "a5bdfa90dbca",
-      "title": "Netflix is bringing back some big franchises in 2026",
-      "url": "https://www.theverge.com/streaming/856756/netflix-2026-releases-bridgerton-one-piece-3-body",
-      "summary": "ストレンジャー・シングスやイカゲーム終了後のNetflixが、2026年ラインナップでワンピースやブリジャートン、三体シーズン2、実写アバターS2、ウィッチャー最終5期など大作を投入。公開日は概ね未定。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-07T14:00:00.000Z",
-      "contentHash": "b3b3cab1636e"
-    },
-    {
-      "id": "b41cf7d4e198",
-      "title": "Ikea’s $10 Kallsup speakers are tiny, colorful, and surprisingly loud",
-      "url": "https://www.theverge.com/tech/857403/ikea-kallsup-bluetooth-speaker-price-release-date",
-      "summary": "イケアの新Bluetoothスピーカー「Kallsup」は1台約$10（欧州€5）。小型でカラフル、意外と大音量。スマホに即接続でき、2ボタン操作で最大100台まで同期可能（同社は40台まで試験）。CES2026で発表。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-07T14:00:00.000Z",
-      "contentHash": "486f5f194cc9"
-    },
-    {
-      "id": "3c9b8cb966cd",
-      "title": "A4 Paper Stories",
-      "url": "https://susam.net/a4-paper-stories.html",
-      "summary": "著者は定規の代わりにA4用紙を簡易な計測に使う手法を紹介するが、精度は高くないため家具等には不向きと注意する。A4は短辺で半分にしても縦横比が変わらない√2の比率を持つことを説明する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-07T12:54:43.000Z",
-      "contentHash": "46fa52356450"
-    },
-    {
-      "id": "4254e8a5fce6",
-      "title": "The weirdest tech we&#8217;ve seen at CES 2026",
-      "url": "https://www.theverge.com/tech/855460/ces-2026-weirdest-announcements",
-      "summary": "CES 2026の奇妙な注目ガジェットを紹介。陰部消毒シール、巻けるヘッドホン、頭上に吊るす照明兼ヘアドライヤーなど、意外性ある製品を取り上げる。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-07T12:30:00.000Z",
-      "contentHash": "ff4cd87f63aa"
-    },
-    {
-      "id": "614289540aba",
-      "title": "“Stop Designing Languages. Write Libraries Instead” (2016)",
-      "url": "https://lbstanza.org/purpose_of_programming_languages.html",
-      "summary": "友人は多くの言語は似ており、生産性は豊富で使いやすいライブラリ（例：Ruby on Rails）が決め手だと主張する。筆者はそれを認めつつも不十分で、言語設計の重要性も訴える。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-07T12:29:11.000Z",
-      "contentHash": "637168aa370e"
-    },
-    {
-      "id": "1f51be819092",
-      "title": "Logitech caused its mice to freak out by not renewing a certificate",
-      "url": "https://www.theverge.com/news/857377/logitech-macos-logi-options-mouse-certification-fix",
-      "summary": "Logitechの証明書未更新によりmacOS版Logi Options Plusが起動不良やスクロール・ボタンなどカスタム機能の不具合を起こした。Logitechは認め、修正（手動対応あり）を配布した。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-07T12:10:34.000Z",
-      "contentHash": "32af306d2bf7"
-    },
-    {
-      "id": "3be7f5c41809",
-      "title": "I played with the Lego Smart Brick",
-      "url": "https://www.theverge.com/tech/855520/i-played-with-the-lego-smart-brick",
-      "summary": "レゴの新「スマートブリック」は小型コンピュータで、NFCタイルが車両やキャラクターを“プログラム”し他のタイルと反応・連動する。既存のマリオ玩具より想像力を刺激し、AIは使われていないと著者は好意的に評する。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-07T12:00:00.000Z",
-      "contentHash": "d3e1988a2751"
-    },
-    {
-      "id": "a24355ebcc7d",
-      "title": "Firefox extension to redirect x.com to xcancel.com",
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/toxcancel/",
-      "summary": "ブラウザがx.comを読み込もうとすると、xのミラーであるxcancel.comへリダイレクトされます。星評価が保存されました。サイトの内容はCC BY‑SA 3.0以降でライセンスされ、AndroidはGoogle LLCの商標です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-07T10:53:41.000Z",
-      "contentHash": "866c4b7f9f0a"
-    },
-    {
-      "id": "7339e10bcdac",
-      "title": "How Tolan builds voice-first AI with GPT-5.1",
-      "url": "https://openai.com/index/tolan",
-      "summary": "TolanはGPT-5.1を用いた音声重視のAIコンパニオンを開発。低遅延応答、リアルタイム文脈復元、記憶に基づくパーソナリティで自然な会話を実現。",
-      "source": "OpenAI",
-      "publishedAt": "2026-01-07T10:00:00.000Z",
-      "contentHash": "6ad2d66f0b50"
-    },
-    {
-      "id": "ce378a8e6573",
-      "title": "【New Relic】データを自在に分析するNRQLの使い方 | TechHarmony",
-      "url": "https://blog.usize-tech.com/newrelic-nrql/",
-      "summary": "New RelicのNRQL入門。SQL風のSELECT/FROM/WHEREやFACET/TIMESERIESで柔軟に分析可能。必須句や4KB制限・大/小文字区別・単一引用符・型変換不可など文法と、データ辞書、Query Builder、Data Explorer、ダッシュボード活用を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-07T09:41:13.000Z",
-      "contentHash": "953d7ee5c268"
     }
   ]
 }
