@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2026-01-26T02:34:42.715Z",
+  "generatedAt": "2026-01-26T08:52:04.813Z",
   "items": [
+    {
+      "id": "de321ae8218a",
+      "title": "4500年前のピラミッドから、現代プロダクトマネージャーが学べること | RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20260126/pdm",
+      "summary": "ラクスの稲垣がピラミッドをプロダクトに例えて考察。明確な役割分担は現代のPO/PMに相当し、全体はウォーターフォールだが部分的に反復改善があった。スクラムだけでは本体は難しいが検証領域では有効。PMは「完成」ではなく「残る価値」を重視すべきと結論。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-26T06:00:00.000Z",
+      "contentHash": "c0fae113bdae"
+    },
+    {
+      "id": "acb4291df15a",
+      "title": "シェーダー最適化入門　第４回目　「テクスチャサンプリングの最適化」 | CORETECH ENGINEER BLOG",
+      "url": "https://blog.sge-coretech.com/entry/2026/01/26/134842",
+      "summary": "モバイルGPU向けシェーダのテクスチャサンプリング最適化。キャッシュを活用し、単一チャンネルの複数データを一つにパッキングしてキャッシュヒット率を上げ、コードでもまとめてサンプリングしてメモリアクセスを削減することを解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-26T04:48:42.000Z",
+      "contentHash": "d5d32390c934"
+    },
+    {
+      "id": "ec47e0480f3d",
+      "title": "ミラティブのバックエンド基盤チームのご紹介 〜開発者体験の向上とコスト最適化の取り組み〜 | Mirrativ Tech Blog",
+      "url": "https://tech.mirrativ.stream/entry/2026/01/26/133903",
+      "summary": "ミラティブのバックエンド基盤チームは、開発者体験の向上とコスト最適化を軸に、半年〜年単位の技術的負債解消やPerl→Go移行、CI/CD・開発環境整備、DB/インフラ最適化を専任で推進する2〜3名のチームで、インフラ/SREと連携して長期課題を解決しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-26T04:39:03.000Z",
+      "contentHash": "6a9bb3b2f104"
+    },
+    {
+      "id": "b13e882a2f4a",
+      "title": "【2026年版】GitHub Copilotでコミットメッセージを自動生成する2つの方法 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/51050",
+      "summary": "著者がClaude Code習得を経てGitHub Copilotを本格活用。SIOS Tech Labの2026年版記事で、Copilotを使ってコミットメッセージを自動生成する2つの方法を紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-26T04:23:18.000Z",
+      "contentHash": "9c3fad8fb226"
+    },
+    {
+      "id": "33032d22cd8a",
+      "title": "Iran's internet blackout may become permanent, with access for elites only",
+      "url": "https://restofworld.org/2026/iran-blackout-tiered-internet/",
+      "summary": "イランの16日続く通信遮断は半恒久化の試験。政権は「バラックス（兵舎）型」二層網を構築し、審査で選ばれたエリートのみ国際網へ接続、約8500万人は国内イントラ網に隔離。Irancell CEO解任、経済被害と情報封鎖が懸念される。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T04:18:19.000Z",
+      "contentHash": "3fc0ac3845d1"
+    },
+    {
+      "id": "6ac3f84afe0e",
+      "title": "「その案件、本当に儲かるの？」に答えるために SaaSのユニットコストに踏み込む | Repro Tech Blog",
+      "url": "https://tech.repro.io/entry/2026/01/26/130828",
+      "summary": "Reproの河西は、SaaSは利用増でインフラ費が増大し顧客ごとの原価が見えにくいと指摘。大量データ処理の特性で平均原価は不適切になり、営業・開発の判断を速めるため顧客単位の原価見える化と攻めの原価管理が必要だと述べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-26T04:08:28.000Z",
+      "contentHash": "648271cb1c58"
+    },
+    {
+      "id": "039ea273072a",
+      "title": "Power Automateにて共有メールボックスに届いた会議依頼の情報を取得する | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/01/26/130414",
+      "summary": "Power Automateでは、共有メールボックス宛の会議依頼はメールではなく予定表のイベント扱いのため「新しいメール」トリガーで取得できません。共有予定表に編集権限を付与し、「イベントが追加、更新、削除されたとき」トリガーでSubject/Body/Start/End/Organizer等を取得して処理する方法を解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-26T04:04:14.000Z",
+      "contentHash": "c835789996f3"
+    },
+    {
+      "id": "9427c02f7a91",
+      "title": "データから収益を生み出す挑戦。Sansanの独自資産を武器に、本気でAIエージェントを作りに行く話 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/data-without-revenue-is-hobby",
+      "summary": "Sansanは名刺や請求・契約データ等の独自資産を基盤Colossusで統合し、社内活用から顧客向けへ転換。Sansan BIとタスク指向のSansan AIエージェントを開発し、プロンプト不要で商談準備や次アクションを自動提示し営業成果を高めることを目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-26T04:00:00.000Z",
+      "contentHash": "ded22295adfa"
+    },
+    {
+      "id": "07cba1fdfdc3",
+      "title": "データベースへ大量のデータ投入する際に気にするべきインデックスの話 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/database-bulk-insert-index-strategy",
+      "summary": "大量データ投入で最も重要なのはインデックス。検索を高速化する一方で書き込み性能を低下させ、作成にはリソースと時間が必要。後付け作成や一時的なスペック増強などの対策が有効（Aurora PostgreSQL例）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-26T03:14:58.000Z",
+      "contentHash": "700bfa05c692"
+    },
+    {
+      "id": "024d85c41466",
+      "title": "アーキテクチャConference2025の知見をどう実務に活かす？最初の一歩は「目的駆動開発」と「Barrel pattern」から | ONE CAREER Tech Blog",
+      "url": "https://note.com/dev_onecareer/n/n68ff5fd4ecd1",
+      "summary": "アーキテクチャConference2025参加報告。ドメイン駆動設計や境界・依存が主題で、実務では「目的駆動開発」を導入してドメイン分割が改善、Barrel PatternはNuxtと相性悪く不成功。抽象概念は小さく導入可能と結論。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-26T03:11:41.000Z",
+      "contentHash": "7ba086643985"
+    },
+    {
+      "id": "62c810868afd",
+      "title": "バッテリー駆動電子ペーパーディスプレイ - reTerminal E1001/E1002 | Seeed K.K. エンジニアブログ",
+      "url": "https://lab.seeed.co.jp/entry/2026/01/26/120000",
+      "summary": "Seeedのバッテリー内蔵電子ペーパーディスプレイ reTerminal E1001（7.5\" 4階調 800×480）とE1002（7.3\" 6色 800×480）。更新時のみ消費で6時間更新なら充電3ヶ月以上。金属背面とアクリルで頑丈。SenseCraft HMIでプログラミング不要、他ツールやArduinoにも対応。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-26T03:00:00.000Z",
+      "contentHash": "0f8f78db29ef"
+    },
+    {
+      "id": "1d6ea3a8df62",
+      "title": "ICE tells legal observer, 'We have a database, now you're a domestic terrorist'",
+      "url": "https://reason.com/2026/01/23/ice-tells-legal-observer-we-have-a-nice-little-database-and-now-youre-considered-a-domestic-terrorist/",
+      "summary": "メーン州でICE職員が「データベースがあり、あなたは国内テロリスト扱いだ」と言って監視者の車を撮影する映像が拡散。DHS報道官は「国内テロリストのデータベースは存在しない」と否定したが、反対活動を監視・捜査する動きへの批判が続いている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T02:25:09.000Z",
+      "contentHash": "8c9943c59862"
+    },
     {
       "id": "af146bc13c42",
       "title": "PdMツールの比較 (Centou, Dovetail, Flyle, Productboard, etc) | ミツカリ技術ブログ",
@@ -83,6 +191,24 @@
       "contentHash": "d61021a7eb74"
     },
     {
+      "id": "6378726bba56",
+      "title": "Clawdbot - open source personal AI assistant",
+      "url": "https://github.com/clawdbot/clawdbot",
+      "summary": "Clawdbotは自分の端末で動く個人AIアシスタント。WhatsApp/Telegram/Slack/Discord等多数チャネルや音声（macOS/iOS/Android）対応、ライブCanvas表示。CLIウィザードでGatewayとデーモンを導入しNode≥22で動作。Anthropic（Pro/Max）推奨。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T00:27:41.000Z",
+      "contentHash": "1dca34172178"
+    },
+    {
+      "id": "feb044b2e4d8",
+      "title": "Scientists identify brain waves that define the limits of 'you'",
+      "url": "https://www.sciencealert.com/scientists-identify-brain-waves-that-define-the-limits-of-you",
+      "summary": "スウェーデンとフランスの研究で、106人にラバーハンド錯覚を行いEEGと脳刺激を解析した結果、体所有感は体地図を作る頭頂葉のアルファ波の周波数と関連することが示された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T00:10:42.000Z",
+      "contentHash": "2a7467e079bc"
+    },
+    {
       "id": "bb17884dc3a8",
       "title": "パフォーマンス改善の勘所 | READYFORテックブログのフィード",
       "url": "https://zenn.dev/readyfor_blog/articles/09f2f5f5d285ec",
@@ -92,13 +218,22 @@
       "contentHash": "276639ca2f76"
     },
     {
+      "id": "ebb06f5e546d",
+      "title": "The future of software engineering is SRE",
+      "url": "https://swizec.com/blog/the-future-of-software-engineering-is-sre/",
+      "summary": "コードが安く作れる時代でも運用力が勝負になる。デモは簡単だがサービスを継続稼働させるのは難しく、エージェント化の進展があってもSREなど運用エンジニアの需要は増す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-25T22:18:38.000Z",
+      "contentHash": "bfb216012065"
+    },
+    {
       "id": "9e77f283f820",
       "title": "【AIアニメ】未完のゲームの資料を元にAIが作成したアニメ 『そらテラ』まとめ",
       "url": "https://note.com/npaka/n/n93a71678c32c",
-      "summary": "未完成のゲーム資料を元に生成AIで作られたアニメ『そらテラ』のまとめ。本編EDフルはSunoで公開。制作に使われた生成AI技術や関連情報、投稿者はプログラマーのnpaka。",
+      "summary": "未完成ゲームの資料を元に生成AIで制作された短編アニメ『そらテラ』のまとめ。本編EDフルはSunoで公開。制作に使われたツールや技術に触れ、著者はプログラマーnpaka。",
       "source": "npaka",
       "publishedAt": "2026-01-25T21:49:06.000Z",
-      "contentHash": "5a074b393ae2"
+      "contentHash": "c506dc7be95e"
     },
     {
       "id": "a2be9dc5bb6d",
@@ -122,10 +257,10 @@
       "id": "fbd726df0ff6",
       "title": "Oneplus phone update introduces hardware anti-rollback",
       "url": "https://consumerrights.wiki/w/Oneplus_phone_update_introduces_hardware_anti-rollback",
-      "summary": "OnePlusが一部機種にハードウェアのアンチロールバック（eFuse）を導入するアップデートを配信。古いファームやカスタムROMへのダウングレードが不可能になり、誤った操作で端末が動作不能になる恐れや説明不足への批判が噴出。セキュリティ強化とユーザーの自由の衝突が議論に。",
+      "summary": "OnePlusがハードウェアレベルのアンチロールバック（ダウングレード禁止）を有効にするアップデートを配信。旧ファームに戻せずカスタムROMやrootが使えなくなり、試行で文鎮化報告も。セキュリティ強化とユーザーの自由制限で論争に。",
       "source": "Hacker News",
       "publishedAt": "2026-01-25T20:39:25.000Z",
-      "contentHash": "566a6e4851d6"
+      "contentHash": "67f9e69a1cbf"
     },
     {
       "id": "f91a69e61578",
@@ -608,10 +743,10 @@
       "id": "6d2882f7c410",
       "title": "【書評】 アニメスタジオの現場でしか学べない アニメ作画と演出で大切なこと",
       "url": "https://note.com/npaka/n/n4fde487c176a",
-      "summary": "名取孝浩の著書。現場経験をもとに、レイアウトとテンポを軸に「何を強調し視線を導くか」「音・セリフ・間でテンポを設計するか」を具体的に解説する実践的な演出書。映像を見やすく心地よくしたい制作者向け。",
+      "summary": "名取孝浩の本は、現場経験をもとに「レイアウト」と「テンポ」を軸に演出を設計する方法を具体的に示す一冊。何を強調し視線を誘導するか、カメラ感覚や音・セリフ・間・カッティング・BGMでテンポを作る考え方を解説し、映像の見やすさと感情の流れを高める入門書。",
       "source": "npaka",
       "publishedAt": "2026-01-24T08:38:17.000Z",
-      "contentHash": "6490e81cfa94"
+      "contentHash": "a6e956a282aa"
     },
     {
       "id": "6e0cb9db19e0",
@@ -8865,141 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-09T01:00:02.000Z",
       "contentHash": "b37e2b3cfa56"
-    },
-    {
-      "id": "6053a043aa09",
-      "title": "AI活用とプロダクト開発の民主化、その現在地 | ROUTE06 Tech Blog",
-      "url": "https://tech.route06.co.jp/entry/ai-product-development-democratization",
-      "summary": "ROUTE06 CTOの近況報告。2024–25年にAI駆動開発へ本格移行し、要件定義AI「Acsim」正式リリース、ER図自動生成「Liam」急成長、AIアプリ「Giselle」成功、Vercel/Supabaseと連携しプロダクト開発の民主化を目指す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-09T00:45:18.000Z",
-      "contentHash": "19b498c7ee8b"
-    },
-    {
-      "id": "a4c4cc44d840",
-      "title": "iOSチームにジョインして1ヶ月の振り返り | Yappli Tech Blog",
-      "url": "https://tech.yappli.io/entry/ios-team-joining-first-month",
-      "summary": "12月にヤプリのiOSチームへ入社した池田が1ヶ月を振り返る。プラットフォームの影響力と高い技術力に惹かれて入社。3カ月のYOPで手厚いオンボーディングを受け、プロジェクト／遊撃の2チーム体制で協働。初月はCMS研修やチケット対応、リリース・ビルド自動化の仕組み理解に取り組んだ。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-09T00:34:11.000Z",
-      "contentHash": "65d34d97b5c1"
-    },
-    {
-      "id": "314b7ad931e9",
-      "title": "続・AIのためのオンボーディングドキュメントを整備する (2026年1月版) | inSmartBank",
-      "url": "https://blog.smartbank.co.jp/entry/2026/01/09/ai-onboarding-document",
-      "summary": "2026年版では、2025年3月に作成した「AI向けオンボーディング（README for agents）」を、DevinやClaudeなど複数のAIコーディングツール併用が進んだ現状に合わせて再整理。増えた個別ドキュメントの差分解消と統一的な構成を目指した経緯と新構成を紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-09T00:30:00.000Z",
-      "contentHash": "9564c626a3fd"
-    },
-    {
-      "id": "d275962ab05a",
-      "title": "Amazon API Gateway HTTP API に AWS CloudFormation でレスポンスヘッダーを設定する書き方 | TechHarmony",
-      "url": "https://blog.usize-tech.com/apig-http-api-response-header-by-cfn/",
-      "summary": "CloudFormationでAmazon API Gateway HTTP APIのレスポンスヘッダーを設定する方法。IntegrationのResponseParametersにHTTPステータスごとにDestination(append/overwrite:header.HEADER名)とSource(値)を指定する、という解決策を提示。公式ドキュメントは不明瞭で生成AIで確認した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-09T00:00:26.000Z",
-      "contentHash": "990a5321ee2b"
-    },
-    {
-      "id": "86b369a5b964",
-      "title": "【OCI】OCI Functions + API GatewayでシンプルなブログAPIを作ってみた | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/01/09/090006",
-      "summary": "OCI FunctionsとAPI Gatewayを使い、記事保存(POST)に特化したシンプルなブログAPIを手順付きで構築するハンズオン。Object Storage保存、VCN／動的グループ設定、関数作成・デプロイ、API Gateway設定、料金や利点も解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-09T00:00:06.000Z",
-      "contentHash": "de74048f2e9e"
-    },
-    {
-      "id": "544686a35a37",
-      "title": "The best Apple Watch to buy",
-      "url": "https://www.theverge.com/23037217/best-apple-watch-series-se-ultra",
-      "summary": "iPhoneユーザーにはApple Watchが最適。現在は入門のWatch SE、標準のSeries、タフなUltraの3ライン。筆者は各世代を検証し、SE3を一般向け、Series11を健康重視、Ultra3をアスリート向けに推奨。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T00:00:00.000Z",
-      "contentHash": "1e5ae3fbbcf7"
-    },
-    {
-      "id": "0a0d246485b1",
-      "title": "Looker Studioで表示データを閲覧ユーザに応じて制御する方法 | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/looker-studio-user-filtering-methods",
-      "summary": "Looker Studioで閲覧者ごとに表示データを制御する方法を解説。①メールアドレスフィルタ（簡単だが1レコード1アドレス）②BigQueryの行レベルアクセスポリシー（配列やグループ対応、閲覧者認証が必要）③カスタムクエリでパラメータ利用。各手順と注意点を説明。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-09T00:00:00.000Z",
-      "contentHash": "5414c04dba68"
-    },
-    {
-      "id": "17853216e35b",
-      "title": "Azure PowerShellでAzure Batchのタスクから環境変数を取得する | KENTEM TechBlog",
-      "url": "https://tech.kentem.jp/entry/2026/01/09/090000",
-      "summary": "Azure Batchタスクの環境変数をAzure PowerShellで取得する手順。Az.Accounts/Az.Batchモジュールを導入し、Connect-AzAccountで認証後、Get-AzBatchAccount/Get-AzBatchTaskでタスクを取得し、EnvironmentSettingsから環境変数を抽出して簡易ツール化（CSV化も可）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-09T00:00:00.000Z",
-      "contentHash": "36138a04efb1"
-    },
-    {
-      "id": "27d219dd79b5",
-      "title": "Datadog uses Codex for system-level code review",
-      "url": "https://openai.com/index/datadog",
-      "summary": "白背景のブランドグラフィック。左にOpenAIのワードマーク、右にDatadogのロゴが配置され、中央には茶色い毛皮のような抽象的テクスチャのパネルがあるデザイン。",
-      "source": "OpenAI",
-      "publishedAt": "2026-01-09T00:00:00.000Z",
-      "contentHash": "3f11e059e2c0"
-    },
-    {
-      "id": "041f94d40440",
-      "title": "Pioneer Sphera is bringing Dolby Atmos in cars to the people",
-      "url": "https://www.theverge.com/tech/858858/pioneer-sphera-ces-2026",
-      "summary": "PioneerのSpheraは10.1インチ画面のアフターマーケット製インダッシュレシーバーで、シングルDINスペースに装着可能。バーチャライゼーションで高級車並みのDolby AtmosをApple CarPlay上で再生し、これまで高級車に限られた没入音響を一般車に広げる。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-08T23:38:17.000Z",
-      "contentHash": "207f848b1e3a"
-    },
-    {
-      "id": "33459fbc7805",
-      "title": "UK Prime Minister says &#8216;we will take action&#8217; on Grok&#8217;s disgusting deepfakes",
-      "url": "https://www.theverge.com/news/859107/uk-prime-minister-x-ai-grok-deepfakes",
-      "summary": "英国のスターマー首相は、XのGrokチャットボットが成人や児童の性的ディープフェイクを生成した報道を受け「許せない」と非難し、削除や対策を求め「あらゆる手段を検討する」と表明。Ofcomが違反の有無を調査中。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-08T23:23:00.000Z",
-      "contentHash": "c975f4b52340"
-    },
-    {
-      "id": "29857cd388bc",
-      "title": "Embassy: Modern embedded framework, using Rust and async",
-      "url": "https://github.com/embassy-rs/embassy",
-      "summary": "EmbassyはRustのasyncを使った組込み向け次世代フレームワーク。安全で省エネなコードを高速に開発でき、RTOS不要の協調マルチタスク・動的メモリ不要を実現。各種HALやタイマ等のライブラリを提供。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-08T23:00:45.000Z",
-      "contentHash": "75f9d8e8df92"
-    },
-    {
-      "id": "820d83e68e94",
-      "title": "Let's Call a Murder a Murder",
-      "url": "https://daringfireball.net/2026/01/lets_call_a_murder_a_murder",
-      "summary": "NYTの逐一分析は、ミネアポリスで37歳女性レネー・グッドを射殺したマスク姿のICE職員の行為は正当化できず、政権側の擁護は矛盾すると断じる。傍観者ケイトリンの生映像も公開。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-08T22:47:56.000Z",
-      "contentHash": "022c313cf45b"
-    },
-    {
-      "id": "be4bd44af072",
-      "title": "Iran Protest Map",
-      "url": "https://pouyaii.github.io/Iran/",
-      "summary": "外部ページに直接アクセスできないため、該当記事の本文か要点を貼っていただけますか？200文字以内で要約します。コメント欄だけでよければその内容でも対応します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-08T22:20:34.000Z",
-      "contentHash": "69a6611cdbb0"
-    },
-    {
-      "id": "caf159004e68",
-      "title": "The best earbuds we’ve tested for 2026",
-      "url": "https://www.theverge.com/21309820/best-wireless-earbuds",
-      "summary": "2026年のベストイヤホン記事。ワイヤレスイヤホンは大幅に進化し、ソニー・Apple・Boseらが高性能モデルを投入。高価格帯は優れたノイズキャンセルと音質を実現し、フィットネスや通話向けなど用途別の選択肢と割引が豊富。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-08T22:00:00.000Z",
-      "contentHash": "96eda2414d43"
     }
   ]
 }
