@@ -1,6 +1,276 @@
 {
-  "generatedAt": "2026-01-26T16:51:13.716Z",
+  "generatedAt": "2026-01-27T02:33:06.311Z",
   "items": [
+    {
+      "id": "6377b552035b",
+      "title": "All the ways TikTok is broken: here’s what’s real and what’s not",
+      "url": "https://www.theverge.com/news/868379/tiktok-us-trump-oracle-broken-rumors-power-outage",
+      "summary": "TikTok米国版がデータセンターの停電で大規模障害。For Youやコメント、投稿、DMが不安定で、検閲説は誤情報。単語だけ弾かれるDM不具合も確認。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-27T02:10:25.000Z",
+      "contentHash": "9ed5a0cdc84f"
+    },
+    {
+      "id": "29deeec146a4",
+      "title": "crowdworks.jpプロダクト開発の2025年振り返り | クラウドワークス エンジニアブログ",
+      "url": "https://engineer.crowdworks.jp/entry/2026/01/27/100229",
+      "summary": "2025年の振り返り：AI進化を受け、クラウドワークスは多層防御や2段階認証、決済見直しでセキュリティ強化。LLMで違反検知を自動化。UIはNorman/Vue化、Vitest導入、検索をOpenSearchへ移行。合同スプリントで技術負債解消、AIエージェント配布や社内ハッカソンでAI活用を推進。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T01:02:29.000Z",
+      "contentHash": "982d59a43b76"
+    },
+    {
+      "id": "309998aee793",
+      "title": "建設業のDXをデータで支える ANDPAD Analytics開発の裏側 | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/01/27/100000",
+      "summary": "著者は異業種から2022年に入社し、プロダクトアナリティクス部でANDPAD Analyticsを開発。データ部と連携しLookerで一貫した数値基盤を整備、マーケ・営業・経営・現場向けに30以上のダッシュボードを作り、ユーザーの行動を促し建設業のDX推進を目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T01:00:00.000Z",
+      "contentHash": "4b5b452adb11"
+    },
+    {
+      "id": "0655fa197684",
+      "title": "Go製ベンチマーカーによる分散オブジェクトストレージ「b3」のピーク性能検証 | Mirrativ Tech Blog",
+      "url": "https://tech.mirrativ.stream/entry/2026/01/27/100000",
+      "summary": "インターンがGo製ベンチマーカーを開発し、S3互換内製オブジェクトストレージb3（v1.2）を実運用想定で検証。RAID6のディスクI/Oは4MB超で約1000MB/sに到達。ピーク・混合試験でスループットとレイテンシを評価し、課題と対処を報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T01:00:00.000Z",
+      "contentHash": "77e1371a63cf"
+    },
+    {
+      "id": "f499cd4f341d",
+      "title": "λ kansai in Winter 2026 で運営をしてきました | エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/2026/01/27/100000",
+      "summary": "2026/1/17開催のλkansai in Winter 2026の運営に初参加したOCaml好きの著者が報告。招待講演2本（型検査器実装、Leanの依存自動更新）とLT5本が好評で、新試みもあり参加を勧める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T01:00:00.000Z",
+      "contentHash": "5e68b0e4f3e5"
+    },
+    {
+      "id": "92998403c3df",
+      "title": "Tripo の 3Dリギング&アニメーション を試す",
+      "url": "https://note.com/npaka/n/n4930cf389bcc",
+      "summary": "Tripoを試用。テキストや画像から数分で高品質な3Dモデルを自動生成し、「自動リギング」で数分待つとモーションを選んで再生可能。ゲーム・アニメ・AR/VRなどに利用可。",
+      "source": "npaka",
+      "publishedAt": "2026-01-27T00:56:25.000Z",
+      "contentHash": "764e7ea672f6"
+    },
+    {
+      "id": "2e756783ff46",
+      "title": "議論が荒れそうな時の立て直し方4選 | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n8fc00fe03abf",
+      "summary": "対立は「結論や立場を守ろうとする」ことから生まれる。反対意見を攻撃でなく追加情報と捉え、目的を論破から理解へ戻す。意見の背景や自分・相手の感情の奥を聴くことで、対話に戻す4つの改善策。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T00:31:51.000Z",
+      "contentHash": "e908f10606fa"
+    },
+    {
+      "id": "b5cdb6bfbf3c",
+      "title": "（シリーズ1：RAGの基本情報 / 第1回）RAGとは：全体像、なぜ必要か、基本フローと設計の勘所 | TechHarmony",
+      "url": "https://blog.usize-tech.com/rag-guide-1-basics/",
+      "summary": "連載第1回。RAG（検索拡張生成）は、推論時に信頼できる外部ドキュメントを検索・付与して応答を生成する方式（Indexing→Retrieval→Augmentation→Generation）。知識カットオフやハルシネーション、社内情報不足を解消し、膨大な文書から必要情報を迅速に見つけることを目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T00:30:29.000Z",
+      "contentHash": "02016cb066e0"
+    },
+    {
+      "id": "ef93dfc7ae76",
+      "title": "価値観が違うと信頼関係は築けない？ | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/nd1ccd8b901f1",
+      "summary": "価値観が違っても信頼は築ける。大切なのは価値観の一致ではなく相互理解と尊重。対話で相手の背景や理由を質問し、違いを受け入れ補完し合えば深い信頼関係が生まれる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T00:29:45.000Z",
+      "contentHash": "be661bddc1b8"
+    },
+    {
+      "id": "47b96f2ad07b",
+      "title": "PowerShell を用いた Exchange Online における X500 アドレスの一括追加方法 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/01/27/092744",
+      "summary": "LegacyExchangeDN参照を解決しNDRを防ぐX500アドレスを、Exchange OnlineにPowerShellでCSV一括追加する手順。モジュール読み込み→Connect-ExchangeOnline→Get-EXOMailboxで確認→Import-CSV→Set-Mailbox -EmailAddresses @{add=...}で追加→検証・切断。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T00:27:44.000Z",
+      "contentHash": "154cfc15c828"
+    },
+    {
+      "id": "f69c3fb3e8e3",
+      "title": "CATの詳細検索ブックマーク機能で日々のテスト進捗を手軽に確認する方法 | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n5827e83c9d3a",
+      "summary": "SHIFTのテスト管理ツールCAT（TCM）では、詳細検索でステータスや予定日等でケースを絞り込めます。検索条件はブックマークでリンク化し、ブラウザやダッシュボードに置いて毎朝の未実行確認を効率化。※「本日」指定は保存時の日付が固定されます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T00:22:48.000Z",
+      "contentHash": "1fae92905b42"
+    },
+    {
+      "id": "c9c8cbdede6c",
+      "title": "X faces EU investigation over Grok’s sexualized deepfakes",
+      "url": "https://www.theverge.com/news/868239/x-grok-sexualized-deepfakes-eu-investigation",
+      "summary": "EUがX（イーロン・マスク）を調査。Grokが女性や未成年の性的ディープフェイクを生成した件で、EU内で画像生成機能のリスク評価・緩和が適切かを審査。Xは公開返信の編集を有料化したが、チャットボット内での生成は継続。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-26T22:47:34.000Z",
+      "contentHash": "9dca417b3ba6"
+    },
+    {
+      "id": "5b4c88f09747",
+      "title": "State of the Windows: What is going on with Windows 11?",
+      "url": "https://ntdotdev.wordpress.com/2026/01/25/state-of-the-windows-what-is-going-on-with-windows-11/",
+      "summary": "3年ぶりの「State of the Windows」。Windows 11以降の品質低下とCopilotへの注力を批判。2026年1月更新でIntel新世代機がシャットダウン不可になる不具合（System Guard Secure Launchが原因）が発生し、KB5077797で修正された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T22:03:04.000Z",
+      "contentHash": "5efbd3202ed6"
+    },
+    {
+      "id": "f64ef76b7e8e",
+      "title": "The best Bluetooth trackers for Apple and Android phones",
+      "url": "https://www.theverge.com/23769840/best-bluetooth-trackers",
+      "summary": "鍵や財布が見つからない人向けのブルートゥーストラッカー比較ガイド。物に付けてスマホと連携し、紛失時に音で探す仕組みや、Apple／Android対応、製品ごとの機能差を解説。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-26T20:01:17.000Z",
+      "contentHash": "5620336cd7d5"
+    },
+    {
+      "id": "5e62e635c3a5",
+      "title": "OpenAI’s president is a Trump mega-donor",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/867947/openai-president-greg-brockman-trump-super-pac",
+      "summary": "OpenAI共同創業者で長年の社長グレッグ・ブロックマン氏は2025年9月、妻アンナと合わせて親トランプのスーパーPAC「MAGA Inc.」へ2,500万ドルを寄付。半年の募金の約4分の1を占め、政権のAI推進や州規制抑制を後押しする潮流の一端で、彼はAI規制反対へのロビー活動にも多額を支出している。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-26T19:57:08.000Z",
+      "contentHash": "0824ba775b33"
+    },
+    {
+      "id": "5176941b9a44",
+      "title": "Google will settle its Assistant spying lawsuit for $68 million",
+      "url": "https://www.theverge.com/news/868078/google-assistant-lawsuit-settlement",
+      "summary": "Googleは、2019年のVRT NWS報道で発覚したGoogle Assistantの誤作動（False Accepts）で人間契約者が録音を聞いていた問題を巡り、6800万ドルでの集団訴訟和解案を提示した。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-26T19:45:53.000Z",
+      "contentHash": "03850ff8f531"
+    },
+    {
+      "id": "f23d28c81d86",
+      "title": "Apple’s luxe AirPods Max have dropped to one of their lowest prices ever",
+      "url": "https://www.theverge.com/gadgets/868017/apple-airpods-max-usb-c-best-buy-flash-deal-sale",
+      "summary": "Appleの高級ヘッドホンAirPods Max（USB-C）がBest Buyのフラッシュセールで$429.99（$120引き）に。全色対象で1/27まで。アルミや布など高級素材を使い、Apple製品と高い親和性を持つ。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-26T19:38:39.000Z",
+      "contentHash": "3aa31d08d098"
+    },
+    {
+      "id": "416b79f9a0dd",
+      "title": "Dithering – Part 2: The Ordered Dithering",
+      "url": "https://visualrambling.space/dithering-part-2/",
+      "summary": "visualrambling.spaceはDamarのサイト。ダイザリング連載第2回で、閾値マップを使う順序付けドザリング（白黒グレースケール）を技術寄りでなく視覚的に解説。量子化と閾値が生む多様なパターンを紹介し、協業や依頼も歓迎。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T19:23:54.000Z",
+      "contentHash": "5a6e8d3b451c"
+    },
+    {
+      "id": "4e48f64df425",
+      "title": "ChatGPT Containers can now run bash, pip/npm install packages and download files",
+      "url": "https://simonwillison.net/2026/Jan/26/chatgpt-containers/",
+      "summary": "ChatGPTのコード実行コンテナ（旧Code Interpreter/Advanced Data Analysis）が大幅強化。10言語（Bash含め11）でコード実行・テストでき、webからファイルをcontainer.downloadで取得、pip/npmで追加パッケージ導入も可能。無料アカウントで利用可だが公式ドキュメントは不足。LA大気質データ取得の例を紹介。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T19:19:40.000Z",
+      "contentHash": "be19e8bb0f71"
+    },
+    {
+      "id": "874ba47bf1c3",
+      "title": "When AI 'builds a browser,' check the repo before believing the hype",
+      "url": "https://www.theregister.com/2026/01/26/cursor_opinion/",
+      "summary": "CursorがGPT-5.2エージェントで「ブラウザを構築」と宣伝したが、公開リポジトリを確認した開発者は生成された約300万行のコードがほとんど動かず、コンパイルや実行に問題が多いと指摘。宣伝は大いに誇張されていた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T18:58:37.000Z",
+      "contentHash": "92d2ea620bd0"
+    },
+    {
+      "id": "1ccce2d284e1",
+      "title": "Notice of collective action lawsuit against Workday, Inc.",
+      "url": "https://workdaycase.com",
+      "summary": "「Mobley v. Workday」集団訴訟（ADEA）のお知らせ。2020年9月24日以降にWorkdayで応募し40歳以上だった方は、2026年3月7日までにオプトインで参加可能。提出で訴訟に同意し判決に拘束。裁判所承認の通知で報復禁止、原告弁護士が代理・相談可。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T18:37:37.000Z",
+      "contentHash": "3aaba18a330e"
+    },
+    {
+      "id": "288e2cbffb98",
+      "title": "Even the big dick subreddit is mad about ICE",
+      "url": "https://www.theverge.com/news/867967/ice-shooting-minneapolis-reddit-communities-activism",
+      "summary": "ミネアポリスでICE捜査官が看護師アレックス・プレッティ氏（37）を射殺し、数週間前のレニー・グッド氏射殺と合わせて反ICEの声が爆発。ネット上ではミリタリーや猫、アダルト系掲示板まで広がり、連邦はグッド氏を根拠なく「内国テロリスト」と呼んだ。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-26T18:31:13.000Z",
+      "contentHash": "2e908827bd26"
+    },
+    {
+      "id": "82897787f439",
+      "title": "Google Books removed all search functions for any books with previews",
+      "url": "https://old.reddit.com/r/google/comments/1qn1hk1/google_has_seemingly_entirely_removed_search/",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文を貼っていただければ、200文字以内で日本語に要約します。どちらのリンク（RedditかHN）を優先するかも教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T18:05:15.000Z",
+      "contentHash": "74ce8c51802b"
+    },
+    {
+      "id": "eb9d2ce89056",
+      "title": "Tattle TV has turned a Hitchcock classic into a vertical video ‘microdrama’",
+      "url": "https://www.theverge.com/entertainment/867844/tattle-tv-the-lodger-hitchcock",
+      "summary": "Tattle TVは英国の配信プラットフォームで、AIを使いヒッチコックのサイレント映画『The Lodger』を縦型短尺の“マイクロドラマ”に再編集。短い分割販売形式だが、古典映画は縦動画に合わず不自然との評価。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-26T18:00:29.000Z",
+      "contentHash": "ef05a01dc6fa"
+    },
+    {
+      "id": "299aae35de87",
+      "title": "MCP unites Claude chat with apps like Slack, Figma, and Canva",
+      "url": "https://www.theverge.com/news/867673/claude-mcp-app-interactive-slack-figma-canva",
+      "summary": "AnthropicのチャットAI「Claude」がMCP拡張でSlack、Figma、Canva、Asanaなどをチャット内で直接操作可能に。従来のテキスト応答から進化し、タブを切替えずに視覚的に編集・確認できる。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-26T18:00:00.000Z",
+      "contentHash": "7b488833b342"
+    },
+    {
+      "id": "3b836aece778",
+      "title": "Fedora Asahi Remix is now working on Apple M3",
+      "url": "https://bsky.app/profile/did:plc:okydh7e54e2nok65kjxdklvd/post/3mdd55paffk2o",
+      "summary": "このウェブアプリは高度にインタラクティブでJavaScript必須。詳細はbsky.socialとatproto.com。Michael ReevesがApple M3でFedora Asahi RemixのLinux（KDE Plasma）が動作したと報告、協力にnoopwafelとShiz。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T17:54:20.000Z",
+      "contentHash": "531194f58f99"
+    },
+    {
+      "id": "031159f29d88",
+      "title": "TikTokers are heading to UpScrolled following US takeover",
+      "url": "https://www.theverge.com/news/867958/tiktok-upscrolled-app-us-takeover",
+      "summary": "TikTokの米国での買収騒動を受け、利用者が代替SNS「UpScrolled」に流入。写真・動画・文章を共有する中立志向のアプリはiOS/Androidで配信中。急増でApp Store12位、週末に約4.1万件DL、1日平均約1.4万件と事前の約29倍でサーバーが逼迫している。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-26T17:47:31.000Z",
+      "contentHash": "b76367bc24ea"
+    },
+    {
+      "id": "a6277c78f9d7",
+      "title": "JuiceSSH – Give me my pro features back",
+      "url": "https://nproject.io/blog/juicessh-give-me-back-my-pro-features/",
+      "summary": "JuiceSSHは2025年12月以降、2019年の購入が認識されず価格が20ドル上昇。再購入後も有効化されない報告や無応答のサポートからイグジット詐欺疑惑が出た。記事はapkを逆コンパイルしてプロ機能を復活させる回避手順を紹介している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T17:46:38.000Z",
+      "contentHash": "74eb958dae52"
+    },
+    {
+      "id": "c113ee0cc9a6",
+      "title": "The Adolescence of Technology",
+      "url": "https://www.darioamodei.com/essay/the-adolescence-of-technology",
+      "summary": "「技術の思春期」として、著者は強力なAI到来を人類の通過儀礼と捉え、映画『コンタクト』の問いを引き合いに出しつつ、AIの危険を整理して対策を立てるべきだと訴える。希望はあるが成熟した制度が必要。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T17:07:24.000Z",
+      "contentHash": "5281ec7808b1"
+    },
+    {
+      "id": "b072a84e8d40",
+      "title": "DHS keeps trying and failing to unmask anonymous ICE critics online",
+      "url": "https://arstechnica.com/tech-policy/2026/01/instagram-ice-critic-wins-fight-to-stay-anonymous-as-dhs-backs-down/",
+      "summary": "DHSは、ペンシルベニアでICEを監視する匿名のInstagram/Facebookアカウント所有者をMetaに特定させようとしたが、表現の自由を主張するJohn Doeの訴訟などを受け、1月16日に撤回した。DHSは当初、投稿が捜査官を危険にさらすと主張していた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T16:58:00.000Z",
+      "contentHash": "fe0c31e78851"
+    },
     {
       "id": "2729a04ed465",
       "title": "OpenAI is working out how much to charge for ChatGPT ads",
@@ -488,6 +758,15 @@
       "contentHash": "276639ca2f76"
     },
     {
+      "id": "ec18d5affaa6",
+      "title": "How Indeed uses AI to help evolve the job search",
+      "url": "https://openai.com/index/indeed-maggie-hulce",
+      "summary": "IndeedのCROマギー・ハルスは、AIが求人検索、採用プロセス、タレント獲得を変革し、マッチング精度や効率を向上させ、求職者と企業双方に利点をもたらすと述べています。",
+      "source": "OpenAI",
+      "publishedAt": "2026-01-26T00:00:00.000Z",
+      "contentHash": "cd5e602d9d0c"
+    },
+    {
       "id": "ebb06f5e546d",
       "title": "The future of software engineering is SRE",
       "url": "https://swizec.com/blog/the-future-of-software-engineering-is-sre/",
@@ -500,10 +779,10 @@
       "id": "9e77f283f820",
       "title": "【AIアニメ】未完のゲームの資料を元にAIが作成したアニメ 『そらテラ』まとめ",
       "url": "https://note.com/npaka/n/n93a71678c32c",
-      "summary": "未完のゲーム資料を元に生成AIで制作されたアニメ『そらテラ』のまとめ。ED曲フルはSunoで聞ける。制作に用いられたツールや関連情報、作者はプログラマーのnpaka。",
+      "summary": "未完のゲームの資料を元に生成AIで作られたアニメ『そらテラ』のまとめ。本編エンディング（フル）はSunoで公開。制作にSuno、grok、NanoBananaPro、GeminiTTS等のAIツールが利用されている。",
       "source": "npaka",
       "publishedAt": "2026-01-25T21:49:06.000Z",
-      "contentHash": "db30cb78e7ee"
+      "contentHash": "34b60a4243b0"
     },
     {
       "id": "a2be9dc5bb6d",
@@ -1013,10 +1292,10 @@
       "id": "6d2882f7c410",
       "title": "【書評】 アニメスタジオの現場でしか学べない アニメ作画と演出で大切なこと",
       "url": "https://note.com/npaka/n/n4fde487c176a",
-      "summary": "『アニメスタジオの現場でしか学べない アニメ作画と演出で大切なこと』は監督・名取孝浩が現場経験をもとに、見やすい映像作りと演出の設計を具体的に解説する一冊。主要テーマはレイアウトとテンポ。",
+      "summary": "名取孝浩氏による本。現場の経験から「見やすい映像」や「演出＝強調の設計」を具体的に解説。主軸はレイアウトとテンポで、カメラ視点やパース、音・セリフ・間・カッティング・BGMで映像の見せ方と快適なテンポを設計する方法を示す。作画技術より演出設計を学びたい人向け。",
       "source": "npaka",
       "publishedAt": "2026-01-24T08:38:17.000Z",
-      "contentHash": "79a59b86d972"
+      "contentHash": "ff3528121487"
     },
     {
       "id": "6e0cb9db19e0",
@@ -4766,10 +5045,10 @@
       "id": "6b325e5515b5",
       "title": "アニメの効果音演出入門",
       "url": "https://note.com/npaka/n/n9ac5c9d464f3",
-      "summary": "効果音はリアル再現でなく「演出」。動きが始まる瞬間、感情の切替、観客に伝えたい情報、新キャラやギャグのオチ、世界感を示す箇所に置く。入れすぎは禁物で、無音も演出。",
+      "summary": "アニメの効果音はリアル再現でなく演出。動きの発生・感情の切替・情報提示・ギャグのオチ・世界感を感じさせる場面に置く。判断は「何が起きたか／感情変化／伝えたい情報」。入れ過ぎは避け、無音も演出。",
       "source": "npaka",
       "publishedAt": "2026-01-17T05:54:12.000Z",
-      "contentHash": "d49d9ea42a70"
+      "contentHash": "d76e686ab46c"
     },
     {
       "id": "e792c1c49baa",
@@ -8721,285 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-01-09T20:54:47.000Z",
       "contentHash": "bb51f6bf5afc"
-    },
-    {
-      "id": "4eb426f88362",
-      "title": "This semi-secret Lego Smart Brick feature gives it even more potential",
-      "url": "https://www.theverge.com/tech/859740/this-semi-secret-lego-smart-brick-feature-gives-it-even-more-potential",
-      "summary": "CESでBest in Showを受賞したレゴのSmart Brickが、別のブロックとの正確な相対位置を検知する機能を公開。10スタッド（約8cm）ごとに色が変わる「レゴ定規」で距離測定でき、大人の作品にも応用可能。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T20:50:57.000Z",
-      "contentHash": "0423d9446ad3"
-    },
-    {
-      "id": "df66867289bb",
-      "title": "Did you know that Gmail has emoji reactions?",
-      "url": "https://www.theverge.com/news/859865/gmail-emoji-reaction-workspace-rollout-default",
-      "summary": "Gmailの絵文字リアクションは個人版で2年以上隠れていた機能で、2026年2月9日からWorkspaceで既定有効に。転送横の小さな笑顔ボタンで絵文字を選び、Gmail間では本文下やスレッド更新として表示される。プロバイダや設定によっては表示されない場合あり。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T20:42:48.000Z",
-      "contentHash": "f3fa2acec431"
-    },
-    {
-      "id": "a98dda3a0b44",
-      "title": "Scenes from the anti-ICE march in New York City",
-      "url": "https://www.theverge.com/report/859550/anti-ice-protest-photos-new-york",
-      "summary": "2026年1月9日、マンハッタン金融街で数百人が集まり、レネー・ニコール・グッドの死を受けてICE（米移民税関捜査局）に対する平和的な抗議デモを行いました。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T20:30:45.000Z",
-      "contentHash": "4d7f33c3df1c"
-    },
-    {
-      "id": "e81f412076ed",
-      "title": "RTX 5090 and Raspberry Pi: Can it game?",
-      "url": "https://scottjg.com/posts/2026-01-08-crappy-computer-showdown/",
-      "summary": "RTX 5090をOCuLinkドックでRaspberry Pi 5に接続し、ゲーム可否を検証。Beelink MINI-S13やRadxa ROCK 5Bと比較。PiはPCIeがGen2 x1（約500MB/s）で帯域不足により性能が制限される。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T19:33:47.000Z",
-      "contentHash": "e8d9fe41fb1e"
-    },
-    {
-      "id": "63554d7db671",
-      "title": "Show HN: Rocket Launch and Orbit Simulator",
-      "url": "https://www.donutthejedi.com/",
-      "summary": "W/Sキーでピッチを手動操作。ガイダンスは推奨を表示し、目標高度を設定すれば打ち上げはガイダンスに任せられる。軌道上にスポーンして軌道力学の練習が可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T19:15:21.000Z",
-      "contentHash": "655e46927d73"
-    },
-    {
-      "id": "dbabe14b2081",
-      "title": "The latest on Grok&#8217;s gross AI deepfakes problem",
-      "url": "https://www.theverge.com/news/859715/x-grok-ai-deepfakes",
-      "summary": "xAIのGrok画像編集機能で実在女性や児童の性的非同意ディープフェイクが大量発生。英首相キール・スターマーが「許容できない」と対策を表明。Xは@Grokでの無料生成を有料化したが編集ツール自体は依然利用可能。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T19:13:32.000Z",
-      "contentHash": "0e53865ed079"
-    },
-    {
-      "id": "ac2b4cba12fa",
-      "title": "JavaScript Demos in 140 Characters",
-      "url": "https://beta.dwitter.net",
-      "summary": "dwitterのベータ公開。140文字制限で書く小さなJavaScriptデモ共有サイトの新版で、UIやパフォーマンス、検索・共有・モバイル対応など使い勝手を改善した点が紹介され、HNで議論されています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T18:48:30.000Z",
-      "contentHash": "0219bbbb3961"
-    },
-    {
-      "id": "de740cfd04fe",
-      "title": "Exercise can be nearly as effective as therapy for depression",
-      "url": "https://www.sciencedaily.com/releases/2026/01/260107225516.htm",
-      "summary": "コクランの大規模レビュー（73件、約5,000人）で、軽〜中程度の複数回の運動が心理療法と同程度に抑うつ症状を改善し、抗うつ薬と同等の可能性も示唆。副作用は少なく手軽だが万能ではない。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T18:29:35.000Z",
-      "contentHash": "57e5f413f199"
-    },
-    {
-      "id": "2d390cbd5513",
-      "title": "My article on why AI is great (or terrible) or how to use it",
-      "url": "https://matthewrocklin.com/ai-zealotry/",
-      "summary": "著者はAIを使った開発を推奨。シニアほどAIで思考や実験に集中でき生産性が上がるとし、哲学的な大局観とClaude Code等の実践的Tipsを交えつつ、LLMのゴミ生成や理解不足、レビュー負担、ワークフローの非人間化といった懸念も指摘する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T18:17:24.000Z",
-      "contentHash": "54e8c7841507"
-    },
-    {
-      "id": "9770dcb967bc",
-      "title": "Show HN: Scroll Wikipedia like TikTok",
-      "url": "https://quack.sdan.io",
-      "summary": "GPT-2以来LLMを扱い、HTML/Canvasをその場で生成する完全ジェネレーティブUIを試作。投稿はGemini 3 Flashでストリーム生成、コメント/DMはCloudflare WorkersのDurable Objectで双方向連携。生成投稿はDO内SQLiteに保存し「Following」フィードで高速配信。Wikitok等が着想元。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T18:15:16.000Z",
-      "contentHash": "09db4c9c9fa7"
-    },
-    {
-      "id": "b0c1dfd439aa",
-      "title": "How Markdown took over the world",
-      "url": "https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/",
-      "summary": "Markdownはジョン・グルーバーが2002年に作った単純なプレーンテキスト書式で、無償で広まり、AIへの指示やメモ、文書共有まで現代のウェブで広く使われる規格になった。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T17:52:20.000Z",
-      "contentHash": "c0e5ab11ffe6"
-    },
-    {
-      "id": "c2c276284a44",
-      "title": "Show HN: I made a memory game to teach you to play piano by ear",
-      "url": "https://lend-me-your-ears.specr.net",
-      "summary": "リンク先に直接アクセスできないため、要約する本文のコピーか主要ポイントを貼ってください。あるいは、記事の主要テーマ（例：話者、主張、結論）を教えていただければ、それを基に200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T17:17:28.000Z",
-      "contentHash": "3cf5e9108731"
-    },
-    {
-      "id": "768a10df967d",
-      "title": "The Vietnam government has banned rooted phones from using any banking app",
-      "url": "https://xdaforums.com/t/discussion-the-root-and-mod-hiding-fingerprint-spoofing-keybox-stealing-cat-and-mouse-game.4425939/page-118",
-      "summary": "Playストアが更新を確認できず、キャッシュ削除で解決せず。インストール先を1に設定し、再起動後PIでGMSとPlayストアのスプーフィングを無効にすると更新確認は可能になったが「空き容量不足」で更新不可。Aboutタブからも更新できず。どのPIスプーフィングを使っているか問う。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T17:00:11.000Z",
-      "contentHash": "769d17d4f47d"
-    },
-    {
-      "id": "ba6d80c1864a",
-      "title": "Flock Hardcoded the Password for America's Surveillance Infrastructure 53 Times",
-      "url": "https://nexanet.ai/blog/53-times-flocksafety-hardcoded-the-password-for-americas-surveillance-infrastructure",
-      "summary": "研究者がFlock Safetyの公開JSにデフォルトArcGIS APIキーがハードコードされ、53箇所で露出。制限なく同社のArcGISマップと50の私的レイヤー（ナンバープレート、巡回車両、ドローン、ボディカメラ、911等）にアクセス可能で約12,000導入を危険に晒したが、報告で修正された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T16:49:59.000Z",
-      "contentHash": "7768e63d26f5"
-    },
-    {
-      "id": "5b6ec7a29615",
-      "title": "Anker’s new AeroFit Pro 2 earbuds are already $30 off",
-      "url": "https://www.theverge.com/gadgets/859486/anker-aerofit-pro-2-earbuds-donkey-kong-bananza-elgato-deal-sale",
-      "summary": "CES 2026で注目のAnker AeroFit Pro 2が、コードWSTDA3875USで179.99ドル→約150ドルに30ドル引き。耳に入れてANC使用、または開放型で周囲音を聞ける二刀流。ドンキーコングBananzaやElgato Key Light、充電式カイロも小幅割引。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T16:04:49.000Z",
-      "contentHash": "14232ec60645"
-    },
-    {
-      "id": "8a5e89b47396",
-      "title": "You can break apart and share this 10K power bank like a KitKat bar",
-      "url": "https://www.theverge.com/tech/859493/nimble-champ-stack-10k-power-bank-shareable",
-      "summary": "CES 2026でNimbleが発表した「Champ Stack 10K」は、内蔵ケーブル付きの10,000mAhモバイルバッテリーで、壊さずに二つに分割でき、各半分が独立して二人同時に充電できる。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T15:32:28.000Z",
-      "contentHash": "392241cea3b5"
-    },
-    {
-      "id": "73ca45cda89d",
-      "title": "CES 2026 was awash in bodily fluids",
-      "url": "https://www.theverge.com/tech/859132/optimizer-ces-2026-metabolism-bodily-fluids-health-tech-wearables",
-      "summary": "CES 2026では尿など体液を使ったパーソナル検査機器が多数登場。Miraのホルモン検査キットなどを例に、代謝や長寿を目指すバイオトラッキングが注目された。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T15:00:00.000Z",
-      "contentHash": "103f55d58a47"
-    },
-    {
-      "id": "795a56ed1f35",
-      "title": "London–Calcutta Bus Service",
-      "url": "https://en.wikipedia.org/wiki/London%E2%80%93Calcutta_bus_service",
-      "summary": "この記事はロンドン〜カルカッタ間のバスによる陸路サービスを扱うWikipedia記事です。英国とインドを結ぶオーバーランドのルートや関連情報、運行者（Albert Travel）などを紹介しています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T14:50:48.000Z",
-      "contentHash": "49ea3d36bf46"
-    },
-    {
-      "id": "01c01ad2e63b",
-      "title": "The Vergecast Live at CES 2026: What is the point of a robot that falls over?",
-      "url": "https://www.theverge.com/podcast/859370/ces-2026-best-tech-vergecast",
-      "summary": "The VergecastがCES2026を現地実況。例年の高級TVや車でなく、既存ガジェットの再発想やソフトが追いつかない高性能ハード、立てないロボット、企業の多角化などをDavidとNilayが議論。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T14:23:06.000Z",
-      "contentHash": "530c716998b5"
-    },
-    {
-      "id": "0664ffab251f",
-      "title": "Kiro (IDE) から AWS ALB ログを自然言語で直接解析する！ Bedrock AgentCore Gateway × MCP | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/aws-bedrock-mcp-agent-gateway-kiro",
-      "summary": "Kiro IDEとMCP、Amazon Bedrock AgentCore Gatewayを組み合わせ、チャット操作でS3のALBログをAthena/Lambda経由で検索・解析する環境を構築。ローカルブリッジや動的ツール登録、ログ出力の安全対策など実装と工夫を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-09T14:08:35.000Z",
-      "contentHash": "ddf7de871e4d"
-    },
-    {
-      "id": "6040252ad53e",
-      "title": "Kia’s EV2 is its smallest and most affordable EV for Europe",
-      "url": "https://www.theverge.com/transportation/858912/kia-ev2-announce-specs-range-europe",
-      "summary": "Kiaはブリュッセルショーで欧州市場向けの最小で手頃なEV「EV2」を発表。米国導入は未定。42.2kWhでWLTP317km、61kWhで440km超の2仕様を用意し、競争激しい欧州市場に投入。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T14:07:09.000Z",
-      "contentHash": "71cb00a301db"
-    },
-    {
-      "id": "0feff89c62cc",
-      "title": "The best tech announced at CES 2026 so far",
-      "url": "https://www.theverge.com/tech/854159/ces-2026-best-tech-gadgets-smartphones-appliances-robots-tvs-ai-smart-home",
-      "summary": "The VergeがCES2026の注目テックを総覧。空間認識するPhilips Hueスマートライト、奇抜な次世代ルーター、発光する「食べられないドーナツ」など、AI搭載ガジェットや新技術を紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T13:53:49.000Z",
-      "contentHash": "42cace5c7d44"
-    },
-    {
-      "id": "5f243eb949af",
-      "title": "Snowflake Intelligence入門: Cortex Analyst/Search/アクションで話せるデータを作る | Snowflake Data Heroesのフィード",
-      "url": "https://zenn.dev/dataheroes/articles/20260109_sf_intelligence_start",
-      "summary": "Snowflake Intelligence入門。Cortex Analyst（構造化集計）、Cortex Search（非構造化検索）、アクション（メール送信）を統合するエージェント構築手順と全体像、権限・コスト・運用上の注意点や実務向け改善点を初心者向けに解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-09T13:43:32.000Z",
-      "contentHash": "02a1d88a82b1"
-    },
-    {
-      "id": "f76c2bcfb238",
-      "title": "What we learned from CES 2026",
-      "url": "https://www.theverge.com/tech/859244/ces-2026-highlights-trends",
-      "summary": "CES 2026は大量の家電とAIで溢れ、体液検査（尿・血・汗・唾液）系ヘルステックやAIコンパニオン・ペットが台頭。家事ロボは「執事」より高性能なルンバ寄り、プレミアと廉価TVの差縮小、モバイル電源の機能過多、OLEDゲーミングのRGB化やAIの疑わしい応用も目立った。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T13:27:41.000Z",
-      "contentHash": "512fc769143d"
-    },
-    {
-      "id": "99f920610fdb",
-      "title": "No, Grok hasn&#8217;t paywalled its deepfake image feature",
-      "url": "https://www.theverge.com/news/859309/grok-undressing-limit-access-gaslighting",
-      "summary": "Xは無料の@Grok経由の画像生成を有料化して非加入者の生成を制限したが、画像編集ツールは依然利用可能で、非同意の性的ディープフェイクが拡散し続けている。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T13:09:54.000Z",
-      "contentHash": "b6411c5e3593"
-    },
-    {
-      "id": "d941aee8404b",
-      "title": "Reality still matters",
-      "url": "https://www.theverge.com/policy/859055/minneapolis-renee-good-ice-shooting",
-      "summary": "トランプ主義と技術で共有現実が崩れる中、ミネアポリスの住民が命がけで真実を記録。サラ・ジョングは、ICE捜査官が車の進路にいない状況で発砲し、救助に駆け寄った男性が「医師だ」と叫ぶ複数の動画を報じる。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T13:00:00.000Z",
-      "contentHash": "35c5abc8bf89"
-    },
-    {
-      "id": "0f27f09240f5",
-      "title": "Kagi releases alpha version of Orion for Linux",
-      "url": "https://help.kagi.com/orion/misc/linux-status.html",
-      "summary": "Orionブラウザのドキュメント目次と注意。アルファ版は早期で不安定、主にテスト目的。対応OSや速度・メモリ・拡張・プライバシー・同期・タブ管理など機能説明、トラブル対応、寄付やサポート情報を含む。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T12:54:48.000Z",
-      "contentHash": "e70050dfc666"
-    },
-    {
-      "id": "666670c737bc",
-      "title": "The Verge Awards at CES 2026",
-      "url": "https://www.theverge.com/tech/858494/ces-2026-best-new-tech-tv-car-wearable",
-      "summary": "The VergeがCES2026で注目のガジェットを選出。ロールableノートや二つ折りスマホ、長寿命ステーションなど、革新や驚きを見せた製品をカテゴリ別に「Best of CES 2026」として紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T12:00:00.000Z",
-      "contentHash": "7c07c28251a0"
-    },
-    {
-      "id": "e044fa67f5dc",
-      "title": "OpenAI and SoftBank Group partner with SB Energy",
-      "url": "https://openai.com/index/stargate-sb-energy-partnership",
-      "summary": "OpenAIとソフトバンクグループがSBエナジーと提携し、数ギガワット級のAIデータセンター群を開発。テキサスに1.2GW施設を含み、Stargate構想を支援する。",
-      "source": "OpenAI",
-      "publishedAt": "2026-01-09T11:00:00.000Z",
-      "contentHash": "cccab2d5212f"
-    },
-    {
-      "id": "5e3d90108152",
-      "title": " Google アラート × GAS × LLM × Slack で   判断が一瞬で終わるニュース収集を実装する（Part2：実装編） | GMO MAKESHOP engineer blog",
-      "url": "https://tech.makeshop.co.jp/entry/2026/01/09/192752",
-      "summary": "Googleアラートを起点にGAS・LLM・Slackで「判断が完結する」ニュース収集を実装するPart2。即時判定（8時間毎）、日次トレンド、オンデマンド深掘りの3パイプラインや重複排除・タイトル補完など実装の要点を解説。目的は判断構造を自環境で再現すること。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-09T10:27:52.000Z",
-      "contentHash": "b2dca2511b3d"
-    },
-    {
-      "id": "90d5a8d02f91",
-      "title": " Google アラート × GAS × LLM × Slack で   判断が一瞬で終わるニュース収集を実装する（Part1：設計編） | GMO MAKESHOP engineer blog",
-      "url": "https://tech.makeshop.co.jp/entry/2026/01/09/192731",
-      "summary": "大量ニュースの「読むべきか」を即断できる状態をGAS・LLM・Slackで実装する設計を解説。GoogleアラートRSSを取得し重複除去→要点抽出・重要度判定・三行広告生成→判断用情報をSlack配信。GAS採用理由とLLM役割（単記事:gpt‑4o、複数記事:Gemini）を述べる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-09T10:27:31.000Z",
-      "contentHash": "dc52505c396d"
     }
   ]
 }
