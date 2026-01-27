@@ -1,14 +1,113 @@
 {
-  "generatedAt": "2026-01-27T02:33:06.311Z",
+  "generatedAt": "2026-01-27T08:50:14.848Z",
   "items": [
     {
+      "id": "c10d01045b92",
+      "title": "続・戦略と実行を爆速でつなぐデータ活用の現在地: LLM 編 | inSmartBank",
+      "url": "https://blog.smartbank.co.jp/entry/2026/01/27/160450",
+      "summary": "スマートバンクのkaoruが、2025年の記事の続編としてLLM導入によるデータ活用の最新状況を解説。2025年12月からSnowflake＋dbt基盤上でClaude Agent SDKを用いた「Ask ワンバン」の運用を開始した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T07:04:50.000Z",
+      "contentHash": "3490163f9ca6"
+    },
+    {
+      "id": "a8446d1433e1",
+      "title": "AWS から Google Cloud の Workload Identity Federation を使う時にハマったところ | PLAY DEVELOPERS BLOG",
+      "url": "https://developers.play.jp/entry/2026/01/27/160000",
+      "summary": "AWS Lambda から Google Workload Identity Federation に接続した際、デフォルトの google.subject（assumed-role の ARN）が127バイト超でエラー発生。対処は属性マッピングか受信アサーションを短くすること。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T07:00:00.000Z",
+      "contentHash": "28b375687069"
+    },
+    {
+      "id": "d58bb76607b2",
+      "title": "TypeScriptの型システム、実はチューリング完全って知ってましたか？ | iimon TECH BLOG",
+      "url": "https://tech.iimon.co.jp/entry/2026/01/27/155319",
+      "summary": "TypeScriptの型レベルでタプルを数値表現に使い、長さ取得・生成・結合により型演算で足し算・引き算を実装。再帰深度や整数限定の注意点、応用として掛け算・比較やチューリング完全性にも触れる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T06:53:19.000Z",
+      "contentHash": "fbf12175d724"
+    },
+    {
+      "id": "cc43394f3ae5",
+      "title": "おじさんだって自分らしくしか生きられない。 | Repro Tech Blog",
+      "url": "https://tech.repro.io/entry/2026/01/27/154304",
+      "summary": "Repro入社7ヶ月のProduct Planning担当が、アラフォーで久々の転職に伴う不安と自ら行った業務改善の結果や心情を綴る記事。ノウハウではなく経験者採用に尻込みする人への励ましのラブレター。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T06:43:04.000Z",
+      "contentHash": "f53341a50433"
+    },
+    {
+      "id": "5bf2412ac033",
+      "title": "6Gで進化するデータ収集の仕組み | ENGINEERING BLOG ドコモ開発者ブログ",
+      "url": "https://nttdocomo-developers.jp/entry/2026/01/27/150000",
+      "summary": "ドコモ6Gテック部の黒岩が、スマホ利用時にネットワーク内部で行われる機器やソフトの状態可視化のためのデータ収集の重要性と、5Gで整備されたネットワーク機能間の情報連携について解説します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T06:00:00.000Z",
+      "contentHash": "6cebaf4244e3"
+    },
+    {
+      "id": "14f54d0a26dd",
+      "title": "STORES はRubyKaigi 2026に参加したい学生さんを支援します | STORES Product Blog",
+      "url": "https://product.st.inc/entry/rubykaigi2026_scholarship",
+      "summary": "STORESは4月22〜24日開催の函館RubyKaigi 2026へ参加する学生を支援します。2025年に続く2回目の支援で、記事は支援概要と応募方法を案内しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T06:00:00.000Z",
+      "contentHash": "e5beff07cf08"
+    },
+    {
+      "id": "73835424ac3f",
+      "title": "AfterCommitEverywhereからRails 7.2で追加されたActiveRecord.after_all_transactions_commitへの移行 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/01/27/150000",
+      "summary": "Eight開発の倉田が、Rails 7.2で導入されたActiveRecord.after_all_transactions_commitへafter_commit_everywhereから移行した手順を紹介し、両者が混在する環境で発生した技術的課題を掘り下げます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T06:00:00.000Z",
+      "contentHash": "7d590b6374a1"
+    },
+    {
+      "id": "912d7722fa19",
+      "title": "ピクシブはRubyKaigi 2026に参加したい学生さんを招待します | pixiv inside",
+      "url": "https://inside.pixiv.blog/2026/01/27/150000",
+      "summary": "ピクシブ（FANBOX部・丸山）は、2026年4月22〜24日に北海道函館で開かれるRubyKaigi 2026へ参加したい学生を招待します。一般参加券・公式懇親会券・会期中宿泊費・往復交通費を負担。応募は2月15日までにフォームから。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T06:00:00.000Z",
+      "contentHash": "37a65d00d964"
+    },
+    {
+      "id": "3c489ea38aa0",
+      "title": "ラクス主催のテックイベント「RAKUS AI Meetup Vol.2」を開催しました。 | RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20260127/meetup",
+      "summary": "2026年1月21日、ラクスはオンラインで「RAKUS AI Meetup Vol.2」を開催。顧客志向を重視し、「誰のどの業務をどれだけ楽にするか」を起点にしたAI活用や開発実践の知見をエンジニアが共有した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-27T06:00:00.000Z",
+      "contentHash": "ababe8ba5934"
+    },
+    {
+      "id": "23ea304ce6b8",
+      "title": "Kimi Released Kimi K2.5, Open-Source Visual SOTA-Agentic Model",
+      "url": "https://www.kimi.com/blog/kimi-k2-5.html",
+      "summary": "外部URLには直接アクセスできないため、記事本文を貼り付けていただけますか？または要点（主題、結論、重要な数字など）を教えていただければ、200字以内で日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-27T05:42:27.000Z",
+      "contentHash": "2f3e17807bf9"
+    },
+    {
       "id": "6377b552035b",
-      "title": "All the ways TikTok is broken: here’s what’s real and what’s not",
+      "title": "TikTok is still down, here are all the latest updates",
       "url": "https://www.theverge.com/news/868379/tiktok-us-trump-oracle-broken-rumors-power-outage",
-      "summary": "TikTok米国版がデータセンターの停電で大規模障害。For Youやコメント、投稿、DMが不安定で、検閲説は誤情報。単語だけ弾かれるDM不具合も確認。",
+      "summary": "米TikTokはデータセンターの電源障害に伴う連鎖的システム障害で米国サービスがダウン継続中。For Youの推薦やコメント、動画投稿が不安定で復旧時期未定。特定話題の検閲説は誤情報とされる。",
       "source": "The Verge",
       "publishedAt": "2026-01-27T02:10:25.000Z",
-      "contentHash": "9ed5a0cdc84f"
+      "contentHash": "9471e8af3405"
+    },
+    {
+      "id": "a34d1d02e831",
+      "title": "iPhone 5s Gets New Software Update 13 Years After Launch",
+      "url": "https://www.macrumors.com/2026/01/26/iphone-5s-software-update/",
+      "summary": "すみません、外部リンクの内容を直接取得できません。記事本文か要点（またはコメント）をここに貼っていただければ、200文字以内で日本語に要約します。記事のみか、記事＋Hacker Newsの議論も含めるかも教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-27T01:04:54.000Z",
+      "contentHash": "001077c34510"
     },
     {
       "id": "29deeec146a4",
@@ -50,10 +149,10 @@
       "id": "92998403c3df",
       "title": "Tripo の 3Dリギング&アニメーション を試す",
       "url": "https://note.com/npaka/n/n4930cf389bcc",
-      "summary": "Tripoを試用。テキストや画像から数分で高品質な3Dモデルを自動生成し、「自動リギング」で数分待つとモーションを選んで再生可能。ゲーム・アニメ・AR/VRなどに利用可。",
+      "summary": "Tripoの3Dリギング＆アニメーションを試した報告。テキストや画像から数分で高品質な3Dモデルを自動生成し、さらに自動リギングで数分待てばモーションを選択・再生可能。ゲームやAR/VR等で利用できる。",
       "source": "npaka",
       "publishedAt": "2026-01-27T00:56:25.000Z",
-      "contentHash": "764e7ea672f6"
+      "contentHash": "b0b9af75d3bb"
     },
     {
       "id": "2e756783ff46",
@@ -101,6 +200,15 @@
       "contentHash": "1fae92905b42"
     },
     {
+      "id": "bcfd30bfa538",
+      "title": "Y Combinator website no longer lists Canada as a country it invests in",
+      "url": "https://betakit.com/y-combinator-website-no-longer-lists-canada-as-a-country-it-invests-in/",
+      "summary": "Y Combinatorが投資対象国一覧からカナダを削除し、現地の創業者らが懸念を表明。YCは誤表記だったと説明し、引き続きカナダのスタートアップに投資するとしており、掲示板で議論が起きた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T23:32:00.000Z",
+      "contentHash": "eabf98910e90"
+    },
+    {
       "id": "c9c8cbdede6c",
       "title": "X faces EU investigation over Grok’s sexualized deepfakes",
       "url": "https://www.theverge.com/news/868239/x-grok-sexualized-deepfakes-eu-investigation",
@@ -113,10 +221,19 @@
       "id": "5b4c88f09747",
       "title": "State of the Windows: What is going on with Windows 11?",
       "url": "https://ntdotdev.wordpress.com/2026/01/25/state-of-the-windows-what-is-going-on-with-windows-11/",
-      "summary": "3年ぶりの「State of the Windows」。Windows 11以降の品質低下とCopilotへの注力を批判。2026年1月更新でIntel新世代機がシャットダウン不可になる不具合（System Guard Secure Launchが原因）が発生し、KB5077797で修正された。",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできないため記事を取得できません。記事本文または要点を貼り付けていただければ、200文字以内で要約します。コメントも一緒に貼れば両方まとめます。",
       "source": "Hacker News",
       "publishedAt": "2026-01-26T22:03:04.000Z",
-      "contentHash": "5efbd3202ed6"
+      "contentHash": "0fe1d05bac9e"
+    },
+    {
+      "id": "bd5f72ab5003",
+      "title": "People who know the formula for WD-40",
+      "url": "https://www.wsj.com/business/the-secret-society-of-people-who-know-the-formula-for-wd-40-e9c0ff54",
+      "summary": "申し訳ありませんが、そのURL先の有料記事を直接参照して要約することはできません。記事本文をここに貼っていただければ、200字以内で要約します。本文の貼付が難しければ、公開情報にもとづく簡単な概要作成や、主要ポイントを教えていただければ要約します。どちらがよいですか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-26T21:11:53.000Z",
+      "contentHash": "31d90fb19d43"
     },
     {
       "id": "f64ef76b7e8e",
@@ -158,37 +275,37 @@
       "id": "416b79f9a0dd",
       "title": "Dithering – Part 2: The Ordered Dithering",
       "url": "https://visualrambling.space/dithering-part-2/",
-      "summary": "visualrambling.spaceはDamarのサイト。ダイザリング連載第2回で、閾値マップを使う順序付けドザリング（白黒グレースケール）を技術寄りでなく視覚的に解説。量子化と閾値が生む多様なパターンを紹介し、協業や依頼も歓迎。",
+      "summary": "Visual Ramblingの「Dithering, Part 2」は、誤差拡散や順序付け、ブルーノイズマスクなど各種ディザリング手法の原理とスペクトル特性を比較し、見た目や用途（印刷・低色深度表示・時間的ディザ）ごとの利点・欠点、実装のヒントやサンプルを示す解説。HNでも好評。",
       "source": "Hacker News",
       "publishedAt": "2026-01-26T19:23:54.000Z",
-      "contentHash": "5a6e8d3b451c"
+      "contentHash": "c6f060c725df"
     },
     {
       "id": "4e48f64df425",
       "title": "ChatGPT Containers can now run bash, pip/npm install packages and download files",
       "url": "https://simonwillison.net/2026/Jan/26/chatgpt-containers/",
-      "summary": "ChatGPTのコード実行コンテナ（旧Code Interpreter/Advanced Data Analysis）が大幅強化。10言語（Bash含め11）でコード実行・テストでき、webからファイルをcontainer.downloadで取得、pip/npmで追加パッケージ導入も可能。無料アカウントで利用可だが公式ドキュメントは不足。LA大気質データ取得の例を紹介。",
+      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文か主要抜粋、または要点をここに貼っていただければ、それを200文字以内の日本語で要約します。Hacker Newsのコメントも同時に要約可能です。どちらを貼りますか？",
       "source": "Hacker News",
       "publishedAt": "2026-01-26T19:19:40.000Z",
-      "contentHash": "be19e8bb0f71"
+      "contentHash": "027c4a40e665"
     },
     {
       "id": "874ba47bf1c3",
       "title": "When AI 'builds a browser,' check the repo before believing the hype",
       "url": "https://www.theregister.com/2026/01/26/cursor_opinion/",
-      "summary": "CursorがGPT-5.2エージェントで「ブラウザを構築」と宣伝したが、公開リポジトリを確認した開発者は生成された約300万行のコードがほとんど動かず、コンパイルや実行に問題が多いと指摘。宣伝は大いに誇張されていた。",
+      "summary": "申し訳ありませんが、こちらから外部サイトへ直接アクセスできません。記事本文を貼っていただければ、200文字以内で日本語要約します。HNのコメント要約も希望ならそれも貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2026-01-26T18:58:37.000Z",
-      "contentHash": "92d2ea620bd0"
+      "contentHash": "acc4c71bc657"
     },
     {
       "id": "1ccce2d284e1",
       "title": "Notice of collective action lawsuit against Workday, Inc.",
       "url": "https://workdaycase.com",
-      "summary": "「Mobley v. Workday」集団訴訟（ADEA）のお知らせ。2020年9月24日以降にWorkdayで応募し40歳以上だった方は、2026年3月7日までにオプトインで参加可能。提出で訴訟に同意し判決に拘束。裁判所承認の通知で報復禁止、原告弁護士が代理・相談可。",
+      "summary": "外部リンクに直接アクセスできないため、記事本文を貼っていただけますか？貼っていただければ200文字以内で要約します。記事の主要箇条や要点だけでも可です。",
       "source": "Hacker News",
       "publishedAt": "2026-01-26T18:37:37.000Z",
-      "contentHash": "3aaba18a330e"
+      "contentHash": "010d0523b612"
     },
     {
       "id": "288e2cbffb98",
@@ -203,10 +320,10 @@
       "id": "82897787f439",
       "title": "Google Books removed all search functions for any books with previews",
       "url": "https://old.reddit.com/r/google/comments/1qn1hk1/google_has_seemingly_entirely_removed_search/",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文を貼っていただければ、200文字以内で日本語に要約します。どちらのリンク（RedditかHN）を優先するかも教えてください。",
+      "summary": "複数ユーザーがGoogleのトップページから検索ボックスが消えたと報告。拡張機能や実験的UI、地域やログイン状態の問題ではないかと議論され、公式確認はなくアドレスバーや別ドメインを使う回避策が挙がっている。",
       "source": "Hacker News",
       "publishedAt": "2026-01-26T18:05:15.000Z",
-      "contentHash": "74ce8c51802b"
+      "contentHash": "5e2193e14478"
     },
     {
       "id": "eb9d2ce89056",
@@ -779,10 +896,10 @@
       "id": "9e77f283f820",
       "title": "【AIアニメ】未完のゲームの資料を元にAIが作成したアニメ 『そらテラ』まとめ",
       "url": "https://note.com/npaka/n/n93a71678c32c",
-      "summary": "未完のゲームの資料を元に生成AIで作られたアニメ『そらテラ』のまとめ。本編エンディング（フル）はSunoで公開。制作にSuno、grok、NanoBananaPro、GeminiTTS等のAIツールが利用されている。",
+      "summary": "未完のゲーム資料を元に生成AIで作られたアニメ『そらテラ』のまとめ。本編EDフルはSunoで聴ける。制作にSunoやgrokなどの生成AIツールが使われており、制作者はプログラマーのnpaka。",
       "source": "npaka",
       "publishedAt": "2026-01-25T21:49:06.000Z",
-      "contentHash": "34b60a4243b0"
+      "contentHash": "5d8ac645b827"
     },
     {
       "id": "a2be9dc5bb6d",
@@ -1292,10 +1409,10 @@
       "id": "6d2882f7c410",
       "title": "【書評】 アニメスタジオの現場でしか学べない アニメ作画と演出で大切なこと",
       "url": "https://note.com/npaka/n/n4fde487c176a",
-      "summary": "名取孝浩氏による本。現場の経験から「見やすい映像」や「演出＝強調の設計」を具体的に解説。主軸はレイアウトとテンポで、カメラ視点やパース、音・セリフ・間・カッティング・BGMで映像の見せ方と快適なテンポを設計する方法を示す。作画技術より演出設計を学びたい人向け。",
+      "summary": "名取孝浩の現場経験に基づく一冊。主題は「レイアウト」と「テンポ」で、何を強調し視線を誘導するか、カメラ・パース・音やセリフでテンポを設計する具体論を示す、演出設計の教科書。",
       "source": "npaka",
       "publishedAt": "2026-01-24T08:38:17.000Z",
-      "contentHash": "ff3528121487"
+      "contentHash": "138d6468ff49"
     },
     {
       "id": "6e0cb9db19e0",
@@ -8883,123 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-10T06:27:07.000Z",
       "contentHash": "e0ed3f88da0a"
-    },
-    {
-      "id": "450316a059a8",
-      "title": "Oh My Zsh adds bloat",
-      "url": "https://rushter.com/blog/zsh-shell/",
-      "summary": "Oh My Zshはスクリプト解釈や更新チェックでシェル起動を遅くする不要な肥大化を招くため、多くの人には不要。HISTSIZE/SAVEHISTやautocd、compinitだけの最小構成で必要な機能を順次追加することを推奨。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-10T04:35:32.000Z",
-      "contentHash": "e87a8d5af682"
-    },
-    {
-      "id": "4dbe7df8d646",
-      "title": "OLED, Not for Me",
-      "url": "https://nuxx.net/blog/2026/01/09/oled-not-for-me/",
-      "summary": "iMacからMac miniへ移行後、ASUSのモニタが故障。代替でCostcoのDell 32\" QD‑OLED（S3225QC）を購入したが表示に違和感。比較して借りた同サイズLCD（U3223QE）の方が自然で、原因はOLED特有のフリンジングだった。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-10T03:52:48.000Z",
-      "contentHash": "6afbe07fbae2"
-    },
-    {
-      "id": "8838a46a3b99",
-      "title": "「生成AI、資格取得がプロジェクト推進の共通言語。」～【googlecloud】今週の人気記事TOP5（2026/01/11） | CareNet Engineersのフィード",
-      "url": "https://zenn.dev/carenet/articles/zenn-weekly-googlecloud-articles-2026-01",
-      "summary": "今週のGoogle Cloud人気記事TOP5を要約。生成AIと資格がプロジェクトの共通言語に。AWSコンテナ→GCPのWorkload Identity、ServerlessとVPC連携、ADK＋BigQuery＋Metabaseで自然言語解析エージェント構築、Gemini Flash系は廃止で2.5系へ移行。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-10T01:27:15.000Z",
-      "contentHash": "bb49f07fcca3"
-    },
-    {
-      "id": "1b446c8fb68f",
-      "title": "Betterment&#8217;s financial app sends customers a $10,000 crypto scam message",
-      "url": "https://www.theverge.com/news/860106/betterment-crypto-scam-notification",
-      "summary": "投資アプリBettermentが「ビットコイン・イーサを送れば3倍にする、例えば$10,000送れ」といった怪しい通知を一部ユーザーに送信。Bettermentは第三者システム経由の「不正なメッセージ」だったと説明しています。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-10T01:14:20.000Z",
-      "contentHash": "2dfbffbc064f"
-    },
-    {
-      "id": "e101ebacc274",
-      "title": "Amazon is planning a Super Amazon-mart store near Chicago",
-      "url": "https://www.theverge.com/news/860058/amazon-chicago-supercenter-store-plans",
-      "summary": "アマゾンがイリノイ州オーランドパークで35エーカーに229,000平方フィートのスーパーストア兼フルフィルメントセンターを計画。食料品・雑貨・惣菜販売と店頭受取を想定し、計画委が6対1で承認。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T23:18:41.000Z",
-      "contentHash": "71b02804dc8e"
-    },
-    {
-      "id": "227f30d06ccf",
-      "title": "【10日目】データパイプライン最適化の基礎 〜 OPTIMIZE / Clustering / AQE を理解する 〜 | ちゅらデータ株式会社のフィード",
-      "url": "https://zenn.dev/churadata/articles/cf98139a520c5d",
-      "summary": "Delta LakeとSparkのパイプライン最適化入門。Auto Loader等で発生するsmall files問題を、OPTIMIZEでファイル結合、CLUSTER BY（旧Z-Order）でデータ局所化してData Skippingを活かし、AQEやVACUUMで性能を維持する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-09T23:04:06.000Z",
-      "contentHash": "faad92d47a4f"
-    },
-    {
-      "id": "0a88eaf83da1",
-      "title": "X accuses music publishers of &#8216;weaponizing&#8217; DMCA takedowns",
-      "url": "https://www.theverge.com/news/860013/x-nmpa-music-publishers-dmca-antitrust-lawsuit",
-      "summary": "XがNMPAと音楽出版社を提訴。業界全体の一括ライセンスを強要するためにDMCAの削除通知を大量に送り「武器化」して競争を妨げたと主張している。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T22:59:24.000Z",
-      "contentHash": "65a028ef5a8c"
-    },
-    {
-      "id": "811bab54e474",
-      "title": "This company could help bring Auracast to an iPhone near you",
-      "url": "https://www.theverge.com/tech/860010/atitan-bluetooth-auracast-transceiver-ces-2026",
-      "summary": "Appleが公式対応を示さないAuracastを、音響企業AtitanがiPhoneのMagSafeに付ける小型トランシーバー「splitR」で実現。iOS普及を背景にAuracastの浸透を狙う。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T22:56:41.000Z",
-      "contentHash": "3ab6522b1aca"
-    },
-    {
-      "id": "ec1426db7957",
-      "title": "AI is coming for collectibles next",
-      "url": "https://www.theverge.com/tech/859994/ai-collectibles-funko-pops-amiibo-buddyo-heymates-ces-2026",
-      "summary": "CES 2026でHeyMatesとBuddyoが登場。NFC対応のスマート台座にフィギュアを載せ、スピーカー・マイクとアプリのLLMでアイコンやキャラと会話できる製品を紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T22:52:36.000Z",
-      "contentHash": "205fe0acd1c7"
-    },
-    {
-      "id": "f7d912ec083a",
-      "title": "“Erdos problem #728 was solved more or less autonomously by AI”",
-      "url": "https://mathstodon.xyz/@tao/115855840223258103",
-      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。記事本文を貼っていただければ、200文字以内で日本語要約を作成します。Hacker Newsの議論も要約希望なら、その箇所も貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T22:39:15.000Z",
-      "contentHash": "d4bd6d7c0457"
-    },
-    {
-      "id": "6002255f5959",
-      "title": "Start your meetings at 5 minutes past",
-      "url": "https://philipotoole.com/start-your-meetings-at-5-minutes-past/",
-      "summary": "Googleのエンジニアマネージャーが、会議を時刻の5分過ぎ（例：1:05/1:35）に始める習慣を推奨。連続会議の重なりや延長を防ぎ、移動や気持ちの切替のための短い休憩を確保でき、組織的に広まっている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T22:19:03.000Z",
-      "contentHash": "c35b0223bebd"
-    },
-    {
-      "id": "0e0beabce5cc",
-      "title": "Tim Cook and Sundar Pichai are cowards",
-      "url": "https://www.theverge.com/policy/859902/apple-google-run-by-cowards",
-      "summary": "XのGrokが女性や子どもの裸を生成するディープフェイク機能を放置しているにも関わらず、AppleとGoogleがアプリ排除をしない。筆者は両社トップをイーロン・マスクを恐れる臆病者と批判している。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-09T21:24:10.000Z",
-      "contentHash": "902332550a08"
-    },
-    {
-      "id": "cd3bf1630358",
-      "title": "Video filmed by ICE agent who shot Minneapolis woman emerges",
-      "url": "https://www.bbc.com/news/articles/cz7yv4524gqo",
-      "summary": "ミネアポリスでICE職員が射殺したレニー・ニコール・グッドを職員が撮影した47秒映像が公開された。車内での会話を収め、政府の「正当防衛」主張と地元の否定が対立し、死は抗議を招いた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-09T20:54:47.000Z",
-      "contentHash": "bb51f6bf5afc"
     }
   ]
 }
