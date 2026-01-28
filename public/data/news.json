@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2026-01-28T02:20:53.933Z",
+  "generatedAt": "2026-01-28T08:52:19.806Z",
   "items": [
+    {
+      "id": "5b3f04a42449",
+      "title": "aws-nuke を AWS CloudShell で実行して AWS リソースを削除 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/using-aws-nuke-with-cloudshell",
+      "summary": "aws-nukeをAWS CloudShellで実行して大量のAWSリソースを一括削除する手順。CloudShellなら認証情報を外に出さずに済む。強力なツールなので事前にドキュメントを熟読し、アカウントエイリアスを設定、リージョンや除外リソース・アカウントブロックを記述したnuke-config.ymlを作成してCloudShellへアップロードすること。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-28T07:03:11.000Z",
+      "contentHash": "19e214f3ce70"
+    },
+    {
+      "id": "1963297cb393",
+      "title": "LLM推論性能モデリング | fltech - 富士通研究所の技術ブログ",
+      "url": "https://blog.fltech.dev/entry/2026/01/28/llminference_modeling",
+      "summary": "LLM推論は、入力を一括処理するPrefill（行列積で演算性能重視）とKVキャッシュで1トークンずつ生成するDecode（メモリ帯域重視）の2段階。TTFTやTPOT等のレイテンシ制約を満たしつつGPU効率を最適化する必要があり、簡易性能モデルでボトルネックの切替や性能変化を説明でき有用と示した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-28T07:00:00.000Z",
+      "contentHash": "66390bcb4f7a"
+    },
+    {
+      "id": "96706321449b",
+      "title": "Qiitaニュース | 【2026年最新】Claude Code作者が実践する「超並列駆動」開発術がエンジニアの常識を破壊していた | Qiita Zine",
+      "url": "https://qiita.com/official-columns/news/2026-01-28/",
+      "summary": "2026/01/28配信のQiitaニュース（集計期間：1/19〜1/25）。注目の週間ベスト20を紹介し、1位はClaude Code作者の「超並列駆動」開発術（418いいね）でした。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-28T06:38:18.000Z",
+      "contentHash": "7721f981132e"
+    },
+    {
+      "id": "93e092c6a84b",
+      "title": "GitHub SpecKitを使ってみた！　~AWSサーバーレスAPIを「自然言語」と「CLI」だけで構築する~　PART1 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/01/28/153000",
+      "summary": "GitHub SpecKitを使い、自然言語の仕様からAI（Copilot）と連携してAWSサーバーレス（Lambda＋DynamoDB）書籍管理APIを構築した手順記録。導入、憲法（開発ルール）設定、仕様・計画作成の後、Create/ReadをCLIで実装・デプロイした（Part1）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-28T06:30:00.000Z",
+      "contentHash": "f7de1a051975"
+    },
+    {
+      "id": "2bb798e7f72c",
+      "title": "Azure Key VaultでAPIキーをスマートに管理する | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/nff6b52deac0b",
+      "summary": "Azure Key VaultでAPIキー等のシークレットを安全に管理し、環境変数共有の手間を解消する手法を解説。RBACや監査で安全性を高め、DefaultAzureCredential/SecretClientを使ったPython例で生成AI呼び出しを紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-28T06:25:33.000Z",
+      "contentHash": "3701ce373d5c"
+    },
+    {
+      "id": "758c2080d40c",
+      "title": "ゲーム業界駆け出しエンジニアがCodexを使いUnityゲームをソフトローンチした話 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
+      "url": "https://developers.cyberagent.co.jp/blog/archives/61930/",
+      "summary": "業界駆け出しのUnityエンジニアがCodexを使い、1か月でパズルゲーム「WormEscape」をソフトローンチ。初期は実装を丸投げして失敗したが、仕様を明文化しAIと対話する仕様駆動開発でAIを中心パートナーに据えて成功させた経験談。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-28T06:18:20.000Z",
+      "contentHash": "84014f150828"
+    },
+    {
+      "id": "df08d33b313d",
+      "title": "Cloud SQL (MySQL) のデータをGCS経由で別プロジェクトへ移行する | レスキューナウテックブログのフィード",
+      "url": "https://zenn.dev/rescuenow/articles/1984fccc3ab122",
+      "summary": "Google Cloud SQL (MySQL) のデータを別プロジェクトへ移行する手順。ソースからGCSへエクスポート（--offload、--table指定可）し、ターゲットのCloud SQLサービスアカウントにGCSの読み取り権限（roles/storage.objectViewer）を付与、GCSからターゲットへインポート。大規模データは--asyncで非同期実行して完了を待つ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-28T06:13:58.000Z",
+      "contentHash": "d97190cf8f76"
+    },
+    {
+      "id": "141187a7781d",
+      "title": "本当に必要なテレメトリとは？オブザーバビリティ設計を変えるゴールデンシグナルの考え方 | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n92a222c83e56",
+      "summary": "クラウド運用でテレメトリ過多は監視を困難化する。Google SREのFour Golden Signals（レイテンシ、トラフィック、エラー率、飽和度）を軸に、SLOを定め主要クラウドの標準メトリクスから必要な指標を絞り、ユーザー体験に直結する監視を目指すべき、という提案。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-28T06:13:10.000Z",
+      "contentHash": "5f0b708a1db8"
+    },
+    {
+      "id": "dd56527c93ed",
+      "title": "【初心者向け】EKSで使うKubernetesマニフェストの基本構成と書き方7選 | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n6e3b042c6706",
+      "summary": "EKS初心者向けにKubernetesマニフェストの基本構成と書き方を解説。Kubernetes標準のYAMLを基に、ALBやIRSAなどAWS連携用アノテーションでEKS対応する点を説明し、Deployment／Pod／Service／Ingress／ConfigMap・Secret／Namespace／HPAの7主要リソースの構造・テンプレ・運用注意点を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-28T06:11:01.000Z",
+      "contentHash": "1939b4be0056"
+    },
+    {
+      "id": "3da090dc6dc3",
+      "title": "予防コントロール [CT.LAMBDA.PV.2] でAPI GatewayからLambdaが呼べない問題とその解決策 | レスキューナウテックブログのフィード",
+      "url": "https://zenn.dev/rescuenow/articles/814391b63bb83d",
+      "summary": "AWS Control Towerの予防コントロールCT.LAMBDA.PV.2がlambda:AddPermissionを明示的に拒否し、API GatewayからのLambda権限付与が失敗。暫定的にOUからポリシーを外して回避。恒久対策はAssumeRole方式（高セキュリティだが複雑）か、カスタムSCP＋リソースベースポリシー（導入容易）を比較して提案。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-28T06:06:32.000Z",
+      "contentHash": "e323c9bba5a4"
+    },
+    {
+      "id": "3dd6a7ebd19c",
+      "title": "Super Monkey Ball ported to a website",
+      "url": "https://monkeyball-online.pages.dev/",
+      "summary": "標準モード（ビギナー／アドバンス／エキスパート）。左スティックをゆっくり円を描くように動かしてゲートをマッピングし、スティックの可動域をフルに使う。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-28T01:44:25.000Z",
+      "contentHash": "dd24d2b196e4"
+    },
+    {
+      "id": "b3b79626f35b",
+      "title": "AISLE’s autonomous analyzer found all CVEs in the January OpenSSL release",
+      "url": "https://aisle.com/blog/aisle-discovered-12-out-of-12-openssl-vulnerabilities",
+      "summary": "AISLEの自律解析がOpenSSLの2026年1月公開の12件の脆弱性を全て発見。数十年存在した欠陥も含み、OpenSSLと協力して修正。AIを開発工程に統合し未然防止を目指す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-28T01:38:15.000Z",
+      "contentHash": "71542abebf30"
+    },
     {
       "id": "fbab47c2bb06",
       "title": "【Application Modernization | 第9回】Refactor Ops視点 SLAを「人の頑張り」から「構造」へ | 赤帽エンジニアブログ",
@@ -122,10 +230,10 @@
       "id": "867364d1169b",
       "title": "Gemini 3 Flash の新機能 Agentic Vision の概要",
       "url": "https://note.com/npaka/n/n1c2946c76a9e",
-      "summary": "Gemini 3 Flashの「Agentic Vision」は、視覚を「思考→行動→観察」のエージェント的プロセスに変え、Python実行で画像を能動的に拡大・切り取り・注釈・計算します。コード実行で精度が5～10%向上し、ズーム検査、画像アノテーション、視覚計算・可視化などに応用。開発は継続中です。",
+      "summary": "Gemini 3 FlashのAgentic Visionは、画像理解を「思考→行動→観察」のエージェントループに変え、コード実行とVisual Reasoningで画像を拡大・加工・注釈・計算して回答を導出。多くのVisionベンチで5～10%精度向上。ズーム検査、ピクセル単位の注釈、視覚データの計算・可視化などの実例あり。",
       "source": "npaka",
       "publishedAt": "2026-01-27T22:29:01.000Z",
-      "contentHash": "7ba8ee62cd1d"
+      "contentHash": "8488166a784c"
     },
     {
       "id": "ea212c3043eb",
@@ -176,10 +284,28 @@
       "id": "aaee05c436e4",
       "title": "TikTok settles just before social media addiction trial to begin",
       "url": "https://www.bbc.com/news/articles/c24g8v6qr1mo",
-      "summary": "TikTokが裁判開始直前に和解。20歳の原告KGMは同社らのアルゴリズム設計が中毒や精神的被害を招いたと主張。和解条件は非公開。MetaやGoogleも被告で設計責任が争点。",
+      "summary": "ティックトックは陪審員選出直前に和解。原告KGMはアルゴリズム設計が依存や精神健康悪化を招いたと主張。和解条件は非公開。MetaやGoogleは係争中で、訴訟は設計責任を問う重要事例となる見込み。",
       "source": "Hacker News",
       "publishedAt": "2026-01-27T20:38:22.000Z",
-      "contentHash": "80975ddd8a6f"
+      "contentHash": "23e5f39cb3c7"
+    },
+    {
+      "id": "49e8f95ab46e",
+      "title": "Parametric CAD in Rust",
+      "url": "https://campedersen.com/vcad",
+      "summary": "作者はRustでパラメトリックCADライブラリ「vcad」を作成。型やバージョン管理で部品をコード化し、プリミティブ・ブーリアン演算（+,-,&）、変換、パターンで設計してSTLを出力。短いコードでブラケットやフランジ、ベント等を生成できる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-27T20:36:14.000Z",
+      "contentHash": "3365d6756cb5"
+    },
+    {
+      "id": "cea40ee0df51",
+      "title": "Time Station Emulator",
+      "url": "https://github.com/kangtastic/timestation",
+      "summary": "Time Station Emulatorはスマホ/タブレットを低周波送信機にして原子時計を同期するブラウザアプリ。BPC/DCF77/JJY/MSF/WWVB対応、NTP由来時刻、DST・うるう秒対応。WebAssemblyと≥44.1kHz DACが必要で、iOS SafariやAndroid Firefoxは動作しない場合あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-27T20:35:34.000Z",
+      "contentHash": "7237cea9d7f2"
     },
     {
       "id": "67fb6b3648bf",
@@ -221,10 +347,10 @@
       "id": "14cbcb2321e4",
       "title": "U.S. government has lost more than 10k STEM PhDs since Trump took office",
       "url": "https://www.science.org/content/article/u-s-government-has-lost-more-10-000-stem-ph-d-s-trump-took-office",
-      "summary": "トランプ政権発足以降、連邦政府の理工系博士が1万人超減少。退職・離職、採用凍結や政治的圧力が要因とされ、科学技術能力の低下や公的研究・政策形成への長期的影響が懸念されている。",
+      "summary": "トランプ政権発足以降、連邦政府からSTEM博士が1万人以上流出したと報告。採用停滞や退職・辞職、政治的介入や待遇不満が背景で、政府の科学能力や政策立案力が弱体化。人員補充と科学の独立性確保が必要と指摘される。",
       "source": "Hacker News",
       "publishedAt": "2026-01-27T18:35:33.000Z",
-      "contentHash": "c4603d337fef"
+      "contentHash": "e0260e3dd6b3"
     },
     {
       "id": "9bad91c959f6",
@@ -248,10 +374,10 @@
       "id": "f942f2a0b749",
       "title": "Clawdbot Renames to Moltbot",
       "url": "https://github.com/moltbot/moltbot/commit/6d16a658e5ebe6ce15856565a47090d5b9d5dfb6",
-      "summary": "moltbotリポジトリのコミット（2026-01-27、作者 Peter Steinberger）で、プロジェクト名をclawdbotからmoltbotへリネームし、レガシー互換性を保つリファクタが行われた。公開リポジトリで高評価（stars/forksあり）。",
+      "summary": "外部リンクに直接アクセスできないため、記事本文か主要な抜粋を貼ってください。いただければ200文字以内で日本語要約します。必要ならHNの議論もまとめます。",
       "source": "Hacker News",
       "publishedAt": "2026-01-27T18:08:36.000Z",
-      "contentHash": "624d03068186"
+      "contentHash": "25f7e93e9b03"
     },
     {
       "id": "f0a1183e90c8",
@@ -716,10 +842,10 @@
       "id": "92998403c3df",
       "title": "Tripo の 3Dリギング&アニメーション を試す",
       "url": "https://note.com/npaka/n/n4930cf389bcc",
-      "summary": "Tripoの3Dリギング&アニメーションを試した報告。Tripoはテキストや画像から高品質な3Dモデルを自動生成するサービス。ログイン→画像をアップして生成（数分）→自動リギング→回転表示やモーション選択でアニメーション再生可。",
+      "summary": "Tripoはテキストや画像から高品質な3Dモデルを自動生成するサービス。ログイン→画像アップ→数分でモデル生成、さらに自動リギングでリグとアニメーションを付与、UIからモーションを選べる。ゲーム・AR/VR・3Dプリント等に利用可能。",
       "source": "npaka",
       "publishedAt": "2026-01-27T00:56:25.000Z",
-      "contentHash": "703afdcc72e0"
+      "contentHash": "63380cabf07c"
     },
     {
       "id": "2e756783ff46",
@@ -774,6 +900,15 @@
       "source": "OpenAI",
       "publishedAt": "2026-01-27T00:00:00.000Z",
       "contentHash": "040a848fb604"
+    },
+    {
+      "id": "df8617fa40e9",
+      "title": "Powering tax donations with AI powered personalized recommendations",
+      "url": "https://openai.com/index/trustbank",
+      "summary": "TRUSTBANKはRecursiveと協業し、OpenAIモデルを用いた対話型推薦「Choice AI」を開発。マルチエージェントで数千のふるさと納税返礼品を案内し、寄付者の好みに合う贈り物を個別に提案する。",
+      "source": "OpenAI",
+      "publishedAt": "2026-01-27T00:00:00.000Z",
+      "contentHash": "dc07e56197ea"
     },
     {
       "id": "bcfd30bfa538",
@@ -1985,10 +2120,10 @@
       "id": "6d2882f7c410",
       "title": "【書評】 アニメスタジオの現場でしか学べない アニメ作画と演出で大切なこと",
       "url": "https://note.com/npaka/n/n4fde487c176a",
-      "summary": "名取孝浩の現場経験に基づく一冊。主題は「レイアウト」と「テンポ」で、何を強調し視線を誘導するか、カメラ・パース・音やセリフでテンポを設計する具体論を示す、演出設計の教科書。",
+      "summary": "名取孝浩の本は、現場経験に基づき「見やすい映像」をレイアウトとテンポの設計で解説する。強調の設計、カメラ視点、パース、音や間で作るテンポ論を具体的に示し、演出の考え方を身につける一冊。",
       "source": "npaka",
       "publishedAt": "2026-01-24T08:38:17.000Z",
-      "contentHash": "138d6468ff49"
+      "contentHash": "754beeec65de"
     },
     {
       "id": "6e0cb9db19e0",
@@ -8865,141 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-01-12T02:51:04.000Z",
       "contentHash": "1a932299054a"
-    },
-    {
-      "id": "61d91eee9e21",
-      "title": "アドベントカレンダー2025やりきってみた話 | Unipos Tech Blogのフィード",
-      "url": "https://zenn.dev/unipos/articles/1c8cb35447c274",
-      "summary": "Uniposのアドベントカレンダー2025を全日程で達成。13名（開発メンバーの76%）が参加し発信経験を増やせた。執筆で言語化の重要性（特に「自分に伝える」整理）が深まり、2026年は言語化をテーマに活動予定。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-12T01:45:49.000Z",
-      "contentHash": "5d7ddd5d10bd"
-    },
-    {
-      "id": "a0717555aa84",
-      "title": "Uncrossy",
-      "url": "https://uncrossy.com/",
-      "summary": "解決策を見つける前に手を戻す（アンドゥ）必要がある場合がある。ヒントボタンを押すか、ゲーム設定で自動ヒントを有効にすれば、その状態かどうかが分かる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-12T01:39:32.000Z",
-      "contentHash": "320a8d004e42"
-    },
-    {
-      "id": "701ec3c1e99c",
-      "title": "Statement by Federal Reserve Chair Jerome F. Powell [video]",
-      "url": "https://www.youtube.com/watch?v=KckGHaBLSn4",
-      "summary": "外部リンクへ直接アクセスできないため、動画とコメントの内容を取得できません。要約をご希望なら、動画のタイトル・説明文や書き起こし、主要ポイントを貼ってください。それを200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-12T01:05:20.000Z",
-      "contentHash": "7c33da55f7c5"
-    },
-    {
-      "id": "d8e0355fa551",
-      "title": "Statement from Jerome Powell",
-      "url": "https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm",
-      "summary": "2026年1月11日、パウエルFRB議長は、司法省が昨年6月の上院での証言（歴史的FRB庁舎改修計画に関する）を巡りFRBに大陪審召喚状を送り、刑事起訴の可能性が示唆されたと発表。法の支配を尊重すると述べた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-12T01:02:48.000Z",
-      "contentHash": "5f5173825ec7"
-    },
-    {
-      "id": "d1305b1769c1",
-      "title": "Fabric IQ（Ontology）× Data Agent × Microsoft Foundryのデモ | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/d914da24c84002",
-      "summary": "Microsoft FabricのLakehouseにエンジニア評価のダミーデータを作成し、セマンティックモデルとOntologyを構築。OntologyをデータソースにFabric Data Agentを作り、Microsoft Foundryから呼び出してFabric IQとData Agentの動作を確認するデモ。PySparkノートでengineer/skill/project等のサンプル登録を行う。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-12T01:00:01.000Z",
-      "contentHash": "601038ab242f"
-    },
-    {
-      "id": "9c78f2edf3e0",
-      "title": "Kiroween(Kiro Hackathonイベント) に参加しました | 電通総研 テックブログ",
-      "url": "https://tech.dentsusoken.com/entry/2026/01/12/Kiroween%28Kiro_Hackathon%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%29_%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F",
-      "summary": "電通総研の山下が2025年11–12月のKiroハッカソン「Kiroween」に参加。テーマResurrectionでCommon Lispを採用し、HTMXとLLMを組み合わせたハロウィン向けアプリ「Kabotan」を開発しGitHubで公開。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-12T00:30:00.000Z",
-      "contentHash": "b51795e4b1dc"
-    },
-    {
-      "id": "6ee49353cfba",
-      "title": "Universal Commerce Protocol の概要",
-      "url": "https://note.com/npaka/n/nf3bbb4e3f9a1",
-      "summary": "UCPはGoogleらが主導するオープン標準で、エージェント型コマースのために商品発見から決済・注文管理までを単一の安全な抽象レイヤーで標準化し、N×N統合問題を解消、API/MCP/AP2対応で企業・AI・決済事業者・消費者に柔軟な導入と相互運用性を提供する。",
-      "source": "npaka",
-      "publishedAt": "2026-01-12T00:01:25.000Z",
-      "contentHash": "de722d7adbea"
-    },
-    {
-      "id": "14f61663fc17",
-      "title": "TypeScript型定義！便利だと感じた実践テクニック集 | KENTEM TechBlog",
-      "url": "https://tech.kentem.jp/entry/2026/01/12/090000",
-      "summary": "新卒フロントエンドエンジニアK.SがTypeScriptの実践的型定義テクニックを解説。Omit×Pick×Partialで部分オプショナル化、satisfies×Record×as constで型安全な定数マップ、Record×Excludeやkeyof/Omitの使い分け、ComponentProps抽出、mapped/recursive/inferなど応用も紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-12T00:00:00.000Z",
-      "contentHash": "0abed00f6a2b"
-    },
-    {
-      "id": "c7ddfe8f5ea5",
-      "title": "【Datadog】Datadog SyntheticsでOCI API Gatewayを外形監視してみた | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/01/12/090000",
-      "summary": "OCIのFunctions＋API GatewayをDatadog Syntheticsで外形監視するハンズオン。POSTで200応答の死活監視、2秒以下のレイテンシ監視、SSL証明書有効期限監視を設定し、Datadogマネージドロケーションからのアクセスを許可するためOCIのセキュリティリスト調整とDatadogでのAPIテスト作成手順を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-12T00:00:00.000Z",
-      "contentHash": "4f84c9c32bc5"
-    },
-    {
-      "id": "1f053dc3da76",
-      "title": "You need to listen to Billy Woods’ horrorcore masterpiece for the A24 crowd",
-      "url": "https://www.theverge.com/column/860372/billy-woods-horrorcore-masterpiece-golliwog-a24",
-      "summary": "Armand Hammerの一員であるBilly Woodsの最新作『Golliwog』はこれまでで最も暗いアルバム。典型的なスラッシャー系ホラーコアではなく、A24風の芸術的で陰鬱な恐怖を描き、冒頭曲「Jumpscare」の映画的演出が印象的。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-11T23:29:58.000Z",
-      "contentHash": "678230ec03a2"
-    },
-    {
-      "id": "71a412673e9f",
-      "title": "【12日目】Terraform / CI/CD による Databricks 管理 〜 手動更新に限界を感じたら最初に読む IaC 入門 〜 | ちゅらデータ株式会社のフィード",
-      "url": "https://zenn.dev/churadata/articles/b6dc63b3519983",
-      "summary": "Databricksの手動設定の限界を指摘し、Terraform（IaC）とCI/CDで設定をコード化する利点（履歴管理・再現性・環境差分防止・自動更新）を解説。Provider/Resource/Stateの構成やクラスタ・Notebook・Job・パイプライン等の管理例を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-11T23:14:01.000Z",
-      "contentHash": "aa78d98805b9"
-    },
-    {
-      "id": "0f559f2eb1be",
-      "title": "I'd tell you a UDP joke…",
-      "url": "https://www.codepuns.com/post/805294580859879424/i-would-tell-you-a-udp-joke-but-you-might-not-get",
-      "summary": "Python、Django、JavaScript、AngularJS、HTML、CSS といった主要なWeb開発技術を列挙しているが、それらを理解できないかもしれないという趣旨。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-11T22:20:17.000Z",
-      "contentHash": "5f4f98eeb5b2"
-    },
-    {
-      "id": "4beeff7969d1",
-      "title": "This game is a single 13 KiB file that runs on Windows, Linux and in the Browser",
-      "url": "https://iczelia.net/posts/snake-polyglot/",
-      "summary": "単一ファイル（13,772バイト）でWindows／Linux／ブラウザ上で動くスネークゲーム。矢印/WASDで操作、食べ物は通常10点・黄15%で20点、消滅は速度依存、10個で次レベル。迷路は常に到達可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-11T22:14:35.000Z",
-      "contentHash": "081a22192f1c"
-    },
-    {
-      "id": "a811fc0cddf9",
-      "title": "The next two years of software engineering",
-      "url": "https://addyosmani.com/blog/next-two-years/",
-      "summary": "ソフト業界はAIコーディングと収益優先の効率化で転換期。AIが入門業務を代替し新人採用が減少（研究で6四半期で約9–10%減、採用半減の例も）。先行き不確実で5つの問いを二つのシナリオで検討。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-11T22:00:24.000Z",
-      "contentHash": "48169956a29c"
-    },
-    {
-      "id": "a70f78a7b8ab",
-      "title": "DSPyによるマルチモーダルタスクのプロンプト自動調整 | ユニファ開発者ブログ",
-      "url": "https://tech.unifa-e.com/entry/2026/01/12/070000",
-      "summary": "DSPyは宣言的にLLMアプリを記述してプロンプト最適化を自動化するフレームワーク。画像の人数カウント実験でGemma3(4b)をMM-LLM、Gemini 2.5 FlashでGEPA最適化し、推論トレースとフィードバックを利用。専用人物検出器の方が実用的と注意。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-11T22:00:00.000Z",
-      "contentHash": "3db832d953b4"
     }
   ]
 }
