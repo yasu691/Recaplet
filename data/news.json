@@ -1,6 +1,285 @@
 {
-  "generatedAt": "2026-01-28T16:56:59.401Z",
+  "generatedAt": "2026-01-29T02:43:16.033Z",
   "items": [
+    {
+      "id": "0fcf18d36cb0",
+      "title": "【Purview_MDCA】ファイルポリシー設定でつまずきやすいポイントと対処法 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/01/29/101713",
+      "summary": "Microsoft Defender for Cloud Appsのファイルポリシー設定の注意点と対処法。事前に「保護されたファイルを検査」「ファイルの監視」「M365コネクタ接続」「作成者のSharePointアクセス」を確認。フォルダが一覧に出ない場合は空ポリシー作成や対象フォルダにファイルを置き、アクティビティログでファイルID検索する等の解決策を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-29T01:17:13.000Z",
+      "contentHash": "65e506fa7c7f"
+    },
+    {
+      "id": "ede4d77e82fa",
+      "title": "ONE CAREER Tech Magazine｜認知度一桁からの技術広報。2025年手応えを感じるまでの歩み | ONE CAREER Tech Blog",
+      "url": "https://note.com/dev_onecareer/n/nf7240d5d1e56",
+      "summary": "ワンキャリアの技術広報・長谷川（文系出身）が認知度7.1%から2023年に活動開始。2025年は発信量からブランド一貫性へ軸を移し、質の高い発信で認知と応募増を実感。2026年も継続、直近はSRE Kaigi登壇予定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-29T01:12:11.000Z",
+      "contentHash": "aa31fdf70b2e"
+    },
+    {
+      "id": "dc16fdfbb4bc",
+      "title": "【入社エントリ】SES企業からプレックスに入社してみて | PLEX Product Team Blog",
+      "url": "https://product.plex.co.jp/entry/join-plex-engineering-kume",
+      "summary": "SESから2025年4月にプレックスへ転職したコーポレートエンジニアのくめです。業務効率化で事業貢献するという職務に惹かれ入社。意思決定が早く開発スピードが速いこと、社内から直接フィードバックを受け改善できる点や手厚い1on1サポートを評価しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-29T01:00:00.000Z",
+      "contentHash": "d7040eedddd9"
+    },
+    {
+      "id": "f584e560e99f",
+      "title": "Bedrock Converse API でPDFを読み込む | NCDC テックブログのフィード",
+      "url": "https://zenn.dev/ncdc/articles/1314c605799bc5",
+      "summary": "BedrockのConverse APIでローカルPDFを読み込み、Claude Sonnet 4に要約させる手順を紹介。PDFバイトをdocumentとして送信し箇条書き要約を取得。本文は読めるが日本語は不自然。content配列の各要素は単一パラメータにする必要あり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-29T00:31:49.000Z",
+      "contentHash": "16578aa2d21e"
+    },
+    {
+      "id": "6e2651b0b0e4",
+      "title": "モバイルアプリ部の現在地とこれから | inSmartBank",
+      "url": "https://blog.smartbank.co.jp/entry/2026/01/29/093000",
+      "summary": "モバイルアプリ部（8名）は2025年に技術投資・デザイン基盤・AI活用で改善を進めた。今後もSwiftUI化や不要ライブラリ削減、Android分割、QA自動化、多様ユーザー向け体験最適化を推進し、1人で両OSを担当する体制やAI支援の導入も検討する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-29T00:30:00.000Z",
+      "contentHash": "5ce34f3ed9fd"
+    },
+    {
+      "id": "c300acabd3c5",
+      "title": "セキュリティチームの輪読会についてご紹介 | 10X Product Blog",
+      "url": "https://product.10x.co.jp/entry/2026/01/29/092035",
+      "summary": "10Xのセキュリティチームが毎週1時間行う輪読会の紹介。業務短期・中長期・基礎知識の3軸で重めの文書や仕様・スライド等をチームで音読し議論、事前準備不要で「細く長く無理なく」知識を継続的に蓄えるのが特徴です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-29T00:20:35.000Z",
+      "contentHash": "56246bb1cb85"
+    },
+    {
+      "id": "33e020d2d141",
+      "title": "Google Drive/Slides API さわってみた | NCDC テックブログのフィード",
+      "url": "https://zenn.dev/ncdc/articles/5deeee439eb0bb",
+      "summary": "社内で提案書自動生成アプリを試作した際の備忘録。Google Drive/Slides APIをTypeScriptで扱う手順を、OAuth2の認証フロー、環境構築、Google Cloud ConsoleでのAPI有効化・OAuthクライアント作成、credentials.jsonとtoken.jsonの取得やコード例と共に解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-29T00:09:28.000Z",
+      "contentHash": "1217a60e0706"
+    },
+    {
+      "id": "f10aa36377ec",
+      "title": "Claude Skills で自分の文体を学習させて、私っぽいブログを書けるようにしてみた | アルダグラム Tech Blogのフィード",
+      "url": "https://zenn.dev/aldagram_tech/articles/6db2b3e520d6c5",
+      "summary": "フリーランスエンジニアのlen_progがClaude Skillsを使い、過去記事から文体や構成パターンを抽出して「私っぽい」技術ブログを自動生成する方法を紹介。記事分析→スキル（テンプレ・文体ガイド）作成で執筆効率とスタイルの一貫性を向上。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-29T00:00:01.000Z",
+      "contentHash": "cdd3fac58a93"
+    },
+    {
+      "id": "2af5dd43198d",
+      "title": "Cloud Storageのロケーションタイプに起因する料金スパイクについて | G-gen Tech Blog",
+      "url": "https://blog.g-gen.co.jp/entry/cloud-storage-cost-spikes-by-location-types",
+      "summary": "Cloud Storageでマルチ／デュアルリージョンを選ぶと、書き込み時に地理的にデータが複製されリージョン間レプリケーション料金が発生し、大容量アップロードで料金が急増する可能性があります。ロケーションタイプ（Region/Dual/Multi）の可用性と冗長性、コスト・レイテンシを踏まえて選定することが重要です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-29T00:00:00.000Z",
+      "contentHash": "9b0d75508f89"
+    },
+    {
+      "id": "9930886cb2e7",
+      "title": "【初学者向け】新入社員がモバイルシステム技術検定2級を合格するまで | ENGINEERING BLOG ドコモ開発者ブログ",
+      "url": "https://nttdocomo-developers.jp/entry/2026/01/29/090000",
+      "summary": "ドコモ新入社員の菊池氏がMCPCモバイルシステム技術検定2級に合格した体験記。試験は端末からコアネットワーク、セキュリティまで幅広く、公式テキストが唯一の情報源で難易度は高め。OFDMやMIMOなど技術要素の理解と公式テキスト熟読、知らない用語は調べることを勧めている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-29T00:00:00.000Z",
+      "contentHash": "6d3a0fbce7e4"
+    },
+    {
+      "id": "5538857a61dd",
+      "title": "Halide co-founder Sebastiaan de With is joining Apple&#8217;s design team",
+      "url": "https://www.theverge.com/tech/869926/apple-hires-sebastiaan-de-with-design-team-halide-lux",
+      "summary": "Halide共同創業者のセバスティアン・デ・ウィットがAppleのデザインチームに参加を発表。iPhoneカメラ解析やHalide・Kino等のアプリで知られ、同社の「お気に入り製品」に携わるという。Luxやアプリの今後は不明。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-28T23:59:45.000Z",
+      "contentHash": "3aa9541ba674"
+    },
+    {
+      "id": "e9fd882095a3",
+      "title": "Mark Zuckerberg is all in on AI as the new social media",
+      "url": "https://www.theverge.com/news/869882/mark-zuckerberg-meta-earnings-q4-2025",
+      "summary": "Metaのマーク・ザッカーバーグはメタバースから転換し、AIが次の大きなメディア形式になると主張。アプリは単なる推薦アルゴリズムから、利用者を理解して個別にコンテンツを生成する没入的・対話的なフィードへ進化すると述べた。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-28T23:26:41.000Z",
+      "contentHash": "00447122fc09"
+    },
+    {
+      "id": "9727a93c9e4b",
+      "title": "In 6 violent encounters, evidence contradicts immigration officials' narratives",
+      "url": "https://www.reuters.com/world/us/evidence-contradicts-trump-immigration-officials-accounts-violent-encounters-2026-01-27/",
+      "summary": "ロイターは、トランプ政権の移民担当高官が公表した「移民による暴力的遭遇」の説明が監視映像や記録、目撃証言と矛盾する事例があると報じた。説明は誇張や省略が見られ、政策や世論に影響した可能性が指摘されている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-28T23:25:41.000Z",
+      "contentHash": "d6116da5b3d2"
+    },
+    {
+      "id": "6c9bc9d81a1c",
+      "title": "Windows 11 has reached 1 billion users faster than Windows 10",
+      "url": "https://www.theverge.com/news/869889/microsoft-windows-11-1-billion-users",
+      "summary": "Windows 11がリリース後1,576日で利用者10億人を達成し、Windows 10（1,706日）より速かった。年末四半期の達成で、Nadellaは前年比45%増と説明、Win10サポート終了が追い風に。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-28T23:17:14.000Z",
+      "contentHash": "63f6b1c9a635"
+    },
+    {
+      "id": "d4cb52d134c4",
+      "title": "The UK paid £4.1M for a bookmarks site",
+      "url": "https://mahadk.com/posts/ai-skills-hub",
+      "summary": "英国のAI Skills HubはPwCが£4.1Mで制作したが、UIが劣悪でコースは外部リンクの寄せ集め。アクセシビリティ未達や「fair use」誤記載など内容も粗雑で税金の無駄と批判されている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-28T23:16:12.000Z",
+      "contentHash": "22a753569cf3"
+    },
+    {
+      "id": "1fc73e4a70bd",
+      "title": "Tesla discontinuing Model S and Model X to make room for robots",
+      "url": "https://www.theverge.com/transportation/869872/tesla-model-s-model-x-discontinue-optimus-robot-factory",
+      "summary": "イーロン・マスクは決算説明会で、テスラが2026年第2四半期にモデルSとモデルXの生産を終了すると発表。フリーモント工場をヒューマノイドロボット「Optimus」や自動運転・AI開発に充てるためという。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-28T22:49:50.000Z",
+      "contentHash": "8e550fae762f"
+    },
+    {
+      "id": "7ce7d583ba6e",
+      "title": "The best iPhones",
+      "url": "https://www.theverge.com/23618862/best-iphone-camera-battery-screen-guide",
+      "summary": "Appleの2025年iPhoneはiPhone 17/17 Pro/17 Pro Maxと薄型iPhone Airを投入。カメラ・チップ・バッテリー・画面が強化され、iOS26はLiquid Glass UIやライブ翻訳など新機能を搭載。ただしApple Intelligenceはまだ完成途上。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-28T22:45:37.000Z",
+      "contentHash": "1c01daf2b61f"
+    },
+    {
+      "id": "f879bc1b297a",
+      "title": "Somebody used spoofed ADSB signals to raster the meme of JD Vance",
+      "url": "https://alecmuffett.com/article/143548",
+      "summary": "ADSBExchange上で誰かがVC-25A（Air Force One）を偽装し、コールサイン「VANCE1」でミーム画像を表示。投稿者は「次はADSBの年齢確認か？」と皮肉っている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-28T21:50:47.000Z",
+      "contentHash": "ef9df6a65c3d"
+    },
+    {
+      "id": "a0aa0922e7a2",
+      "title": "The best Xbox controller to buy right now",
+      "url": "https://www.theverge.com/23025443/best-xbox-controllers-one-series-x-s",
+      "summary": "現在はコントローラーの「黄金時代」で、品質・多機能・カスタマイズ性が格段に向上。Xbox Series X/SやPC向けにMicrosoftのほか8BitDo、PowerA、Razer、Scuf等多彩な選択肢があり、ホール効果やTMR方式のドリフト耐性スティックなど耐久性向上の技術も採用されている。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-28T21:46:54.000Z",
+      "contentHash": "955649c25740"
+    },
+    {
+      "id": "a1f81797e420",
+      "title": "Jellyfin LLM/\"AI\" Development Policy",
+      "url": "https://jellyfin.org/docs/general/contributing/llm-policies/",
+      "summary": "JellyfinはLLM利用ポリシーを制定。Issue、PR、フォーラム等へのLLM出力の丸写しを禁止し、自分の言葉で理解して記載すること。違反は削除。翻訳補助は出典明記で例外。コード寄稿は別規定あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-28T21:42:03.000Z",
+      "contentHash": "b805324bfba2"
+    },
+    {
+      "id": "3137f7333731",
+      "title": "Google adds Gemini AI-powered ‘auto browse’ to Chrome",
+      "url": "https://www.theverge.com/news/869731/google-gemini-ai-chrome-auto-browse",
+      "summary": "GoogleがChromeにGemini搭載の新機能「auto browse」を導入。米国のGoogle AI Pro/Ultra加入者向けで、従来の要約・比較機能を拡張し、ホテルや航空券の調査、予約やフォーム記入、購買の比較・カート追加・割引適用など複数手順を自動で行える。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-28T21:32:07.000Z",
+      "contentHash": "51cf32ebb5ca"
+    },
+    {
+      "id": "6aa4d5863588",
+      "title": "Tesla says production-ready Optimus robot is coming soon",
+      "url": "https://www.theverge.com/transportation/869746/tesla-optimus-gen-3-q1-2026-earnings",
+      "summary": "テスラは量産向けヒューマノイド「Optimus」第3世代を2026年第1四半期に発表。最新の手部など大幅改良を施し、2026年末までに第1生産ライン稼働、最終的に年100万台体制を目指す。モデルS/Xは2026年Q2で生産終了予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-28T21:28:45.000Z",
+      "contentHash": "8d03f1d7f319"
+    },
+    {
+      "id": "e5d26c397e4e",
+      "title": "Microsoft reports strong cloud earnings in Q2 as gaming declines",
+      "url": "https://www.theverge.com/news/869493/microsoft-q2-2026-earnings-revenue-profits-windows-xbox-gaming-surface",
+      "summary": "Microsoftは2026会計の四半期で売上$81.3B、純利益$30.9B（前年比+17%/+23%）。クラウドが好調でゲームは減収。More Personal Computingのみ減収だが、Windows10終了やRAM不足でPC出荷は予想外に増加した。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-28T21:23:36.000Z",
+      "contentHash": "5cb6304bfe85"
+    },
+    {
+      "id": "4c102da00734",
+      "title": "Tesla hits a grim milestone: its second straight year of decline",
+      "url": "https://www.theverge.com/transportation/869603/tesla-q4-2025-earnings-revenue-profit-musk-robotaxis",
+      "summary": "テスラは2年連続で収益・利益が減少。2025年12月期四半期は売上249億ドル、純利益8.4億ドルで前年同期比売上−3%、利益−61%。中国勢に首位を譲り、ムスクのAI・ロボット構想にも影響。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-28T21:08:42.000Z",
+      "contentHash": "54584419781e"
+    },
+    {
+      "id": "dbca22fe6b2e",
+      "title": "Apple to Soon Take Up to 30% Cut from All Patreon Creators in iOS App",
+      "url": "https://www.macrumors.com/2026/01/28/patreon-apple-tax/",
+      "summary": "AppleがPatreonに対し、iOSアプリでの支払いをApp StoreのIAPに移すよう11/1/2026を期限に設定。支払いは最大30%（1年超で15%）の手数料対象に。Patreonは不満を示し、クリエイターはアプリ内価格を上げるか手数料を負担する選択を迫られる。ウェブ決済で回避可能。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-28T20:59:30.000Z",
+      "contentHash": "d89de8923e1a"
+    },
+    {
+      "id": "c164bd06f173",
+      "title": "That's not how email works",
+      "url": "https://danq.me/2026/01/28/hsbc-dont-understand-email/",
+      "summary": "HSBCから「メールが返送された」と更新を求める書面が届いたが、口座の登録メールは正しかった。チャットで更新を促されたが、電話で確認したら正しければ無視で良いと言われ、案内文の見直しを提案した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-28T18:12:02.000Z",
+      "contentHash": "fd283baa2770"
+    },
+    {
+      "id": "6d851e9adcd4",
+      "title": "Blender MCP 1.5 を試す",
+      "url": "https://note.com/npaka/n/n5779c08bdc8a",
+      "summary": "Blender MCP 1.5.5はClaudeとBlenderを双方向接続し、Hunyuan3D/Hyper3D Rodin対応、ビューポートスクショ、Sketchfab/Poly Haven統合、リモート実行やテレメトリを追加。シーン解析・Python実行・オブジェクト／マテリアル操作や外部アセット取り込みが可能。導入にはBlender・Claude Desktop・Python/uvが必要。",
+      "source": "npaka",
+      "publishedAt": "2026-01-28T18:11:27.000Z",
+      "contentHash": "398e8641027f"
+    },
+    {
+      "id": "17140b072924",
+      "title": "The new era of browsing: Putting Gemini to work in Chrome",
+      "url": "https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/",
+      "summary": "Chromeに高性能AI「Gemini 3」を導入。Mac/Windows/Chromebook Plusでサイドパネルから常時アシスタントを利用可能にし、自動ブラウズやGoogleアプリ連携で複雑な作業やマルチタスクを支援。Personal Intelligenceも順次提供予定。",
+      "source": "Gemini",
+      "publishedAt": "2026-01-28T18:00:00.000Z",
+      "contentHash": "6121d96c4f40"
+    },
+    {
+      "id": "02b2053ea06c",
+      "title": "Computer History Museum Launches Digital Portal to Its Collection",
+      "url": "https://computerhistory.org/press-releases/computer-history-museum-launches-digital-portal-to-its-vast-collection/",
+      "summary": "コンピュータ歴史博物館が膨大な所蔵品をオンラインで閲覧できるデジタル・ポータルを公開。コレクションへのアクセスを拡大し、保存・普及や研究・教育利用の利便性向上を図る（Mountain View、2026年1月21日）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-28T17:54:54.000Z",
+      "contentHash": "f33e6d3b128f"
+    },
+    {
+      "id": "336c9afa1e3b",
+      "title": "Mousefood – Build embedded terminal UIs for microcontrollers",
+      "url": "https://github.com/ratatui/mousefood",
+      "summary": "Mousefoodはno-stdのembedded-graphicsバックエンドでRatatuiを組み込み機器で動かせます。導入例を示し、標準フォントは文字種が限られるためembedded-graphics-unicodefontsを既定で使い、機能削減やibm437での代替も可能。太字・斜体はEmbeddedBackendConfigでフォント指定（全て同サイズ）する必要があります。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-28T17:20:31.000Z",
+      "contentHash": "ec279865ea9f"
+    },
+    {
+      "id": "535bbdc20577",
+      "title": "Oban, the job processing framework from Elixir, has come to Python",
+      "url": "https://www.dimamik.com/posts/oban_py/",
+      "summary": "ElixirのObanがPython実装に移植。DBだけでトランザクション内にジョブを登録・処理でき、完了保持やcron等を提供。OSS版は単一スレッドのasyncioでバルク挿入/ackや正確なrescueが制限。Pro版はハートビートやワークフロー等で制約を解消。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-28T16:32:00.000Z",
+      "contentHash": "a49a0d6f6e77"
+    },
     {
       "id": "8cae65654e32",
       "title": "Amazon axes 16,000 jobs as it pushes AI and efficiency",
@@ -131,10 +410,10 @@
       "id": "34e4d32ff5e5",
       "title": "Rodin の 3Dモデル生成 を試す",
       "url": "https://note.com/npaka/n/n2a3c5cafa039",
-      "summary": "Rodinはテキストや画像から高品質な3Dモデルを自動生成するサービス。ゲーム・アニメ・3Dプリント・AR/VR等で利用可能。操作はログイン→Gen-2選択→画像アップ→生成→テクスチャ生成→ダウンロード。リギング機能はなし。",
+      "summary": "テキストや画像から高品質な3Dモデルを自動生成するサービス「Rodin」を試用。手順はGoogleログイン→Gen-2選択→画像アップ→生成→テクスチャ生成→ダウンロード。生成物はゲームや3Dプリント等に使えるがリギング機能は無いと報告。",
       "source": "npaka",
       "publishedAt": "2026-01-28T11:50:03.000Z",
-      "contentHash": "733151048264"
+      "contentHash": "19e21c2e6bb2"
     },
     {
       "id": "5e149b251993",
@@ -488,6 +767,15 @@
       "contentHash": "8f18d030c09d"
     },
     {
+      "id": "0d2abbb0fa62",
+      "title": "Keeping your data safe when an AI agent clicks a link",
+      "url": "https://openai.com/index/ai-agent-link-safety",
+      "summary": "OpenAIは、AIエージェントがリンクを開く際にURL経由のデータ流出やプロンプトインジェクションを防ぐ組み込みの対策を講じ、ユーザーデータを保護します。",
+      "source": "OpenAI",
+      "publishedAt": "2026-01-28T00:00:00.000Z",
+      "contentHash": "b0d3fe598464"
+    },
+    {
       "id": "da834af9d5ad",
       "title": "Meta is spending millions to convince people that data centers are cool and you like them",
       "url": "https://www.theverge.com/news/869008/meta-data-centers-ad-campaign",
@@ -518,10 +806,10 @@
       "id": "867364d1169b",
       "title": "Gemini 3 Flash の新機能 Agentic Vision の概要",
       "url": "https://note.com/npaka/n/n1c2946c76a9e",
-      "summary": "Gemini 3 FlashのAgentic Visionは、画像理解を「思考→行動→観察」のエージェント的ループに変え、Pythonで拡大・切り取り・注釈・計算・可視化を行い結果をコンテキストに追加。コード実行で視覚ベンチマークが5〜10%向上し、建築図検査、指の数え上げ、表解析やプロット生成などに応用されている。",
+      "summary": "Gemini 3 FlashのAgentic Visionは、画像理解を「思考→行動→観察」のエージェント的プロセスに変換し、Pythonでズーム・切り抜き・注釈・計算を実行。視覚タスク精度が5～10%向上し、実用化が進む。",
       "source": "npaka",
       "publishedAt": "2026-01-27T22:29:01.000Z",
-      "contentHash": "00a4bf574dd7"
+      "contentHash": "e06390a7f6dd"
     },
     {
       "id": "ea212c3043eb",
@@ -878,10 +1166,10 @@
       "id": "4e19a0c399ab",
       "title": "In our latest podcast, hear how the “Smokejumpers” team brings Gemini to billions of people.",
       "url": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/",
-      "summary": "Googleのポッドキャスト「AI: Release Notes」最新回で、Geminiのコーディング担当Connie FanとDanny Tarlowが、世界的なAIコーディングモデル構築の初期方針、\"vibe coding\"の台頭、AI時代の言語の未来などを語る。関連動画「The Smokejumpers」も紹介。",
+      "summary": "Googleのポッドキャスト「AI: Release Notes」最新回は、Geminiのコーディングモデル開発を特集。司会のLogan KilpatrickがConnie FanとDanny Tarlowとともに、初期方針、「vibe coding」の台頭、AI時代のプログラミング言語の未来を語る。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T10:28:00.000Z",
-      "contentHash": "14e145d40814"
+      "contentHash": "c830af0b8aaa"
     },
     {
       "id": "122902602296",
@@ -8712,294 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-01-13T09:47:59.000Z",
       "contentHash": "63f1de0d033e"
-    },
-    {
-      "id": "908d7eeb1d69",
-      "title": "Code Climate QualityからQltyへ静的解析移行 | kickflow Tech Blog",
-      "url": "https://tech.kickflow.co.jp/entry/2026/01/13/181937",
-      "summary": "kickflowはCode Climate QualityからQltyへ移行しました。高速なRust製CLIでローカルとCIで同一解析が可能になり、Linter・セキュリティ・カバレッジを一元化、AIによる修正提案も利用。qlty CLIで設定移行・重複検知・カバレッジ計測を調整しGitHub Actionsに組み込みました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T09:19:37.000Z",
-      "contentHash": "7dfd0d1132b4"
-    },
-    {
-      "id": "e15e23576a46",
-      "title": "長時間 Job に対して job-iteration gem を利用した話 | Social PLUS Tech Blogのフィード",
-      "url": "https://zenn.dev/socialplus/articles/1bcab3bc199723",
-      "summary": "RailsでCSV取り込みなど長時間かかるジョブがKubernetesやデプロイで中断しても途中から再開できるよう、Rails8.1移行前にShopifyのjob-iteration gemを使い1件ずつ処理する「落ちても困らないJob」を実装した事例。graceful shutdown待ちの問題点も解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T09:00:05.000Z",
-      "contentHash": "e8ea4b9ea205"
-    },
-    {
-      "id": "4f3f02b81d78",
-      "title": "プルリクエストのレビューコメントから自分独自のレビューガイドラインを作成してみた | レバレジーズ データAIブログ",
-      "url": "https://analytics.leverages.jp/entry/2026/01/13/180000",
-      "summary": "Dataformのプルリクから270件のレビューコメントをGitHub CLIで抽出・分類し、規約外の180件を元に.sqlx向けの独自レビューガイドをmd化。違反サンプルを生成AIで修正検証し、有効性を確認しました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T09:00:00.000Z",
-      "contentHash": "b0aed15031dd"
-    },
-    {
-      "id": "ae7bc2a2c412",
-      "title": "Devin × Gemini で挑む「仕様の可視化」。AI協働で全機能リストを作ってみた | Wantedly Engineer Blog",
-      "url": "https://www.wantedly.com/companies/wantedly/post_articles/1034728",
-      "summary": "ウェブページのスタイル定義。コンテナ・メイン・フォローボタン・ヘッダーナビ等のCSSで、Flexboxやメディアクエリによるレスポンシブ設計、フォント指定、パディング・高さ・角丸・トランジションなどの見た目調整を行っている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T08:00:14.000Z",
-      "contentHash": "f1f242946878"
-    },
-    {
-      "id": "dd239f57cdff",
-      "title": "アニメのBGM演出入門",
-      "url": "https://note.com/npaka/n/nae81e1c10a9a",
-      "summary": "アニメのBGMは空白を埋めるためでなく、感情・場の空気・物語のリズムを操る道具。感情強化や場面説明、導入やクライマックスでは入れ、重要な沈黙やセリフ中心は控える。編集で一度全BGMを外して検証を。常時BGMや曲ミスで効果が薄れる。",
-      "source": "npaka",
-      "publishedAt": "2026-01-13T07:38:01.000Z",
-      "contentHash": "4a12d54e8ceb"
-    },
-    {
-      "id": "94b68739fa9e",
-      "title": "2025年12月18日のAmazon ECS/Fargate 新機能：タスク廃止の週次イベントウィンドウ | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/ecs-maintenance-windows",
-      "summary": "AWSがFargateのタスク廃止を曜日・時間帯で指定できる週次イベントウィンドウを提供。従来の待機期間のみから改善され、優先順位や時間制約、CLIでの作成・サービス／クラスター／アカウントへの紐付け、確認・修正・削除手順を解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T07:37:16.000Z",
-      "contentHash": "493a3763fed2"
-    },
-    {
-      "id": "dca59d672c2c",
-      "title": "Ruby 4.0.1がリリースされました | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_01_13/155928",
-      "summary": "Ruby 4.0.1がリリースされました。Kernel#sleepの修正を含む複数のバグ修正を含む定期リリースで、早めのバージョンアップが推奨されています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T06:49:48.000Z",
-      "contentHash": "f6d0d5d56a18"
-    },
-    {
-      "id": "e95da3f963ef",
-      "title": "【EOL対策】ダウンタイムゼロを目指す RDS/Aurora MySQL バージョンアップの要点 | スマートスタイル TECH BLOG",
-      "url": "https://blog.s-style.co.jp/2026/01/15083/",
-      "summary": "本セミナーは2025年7月29日開催の録画配信です。Zoomを使用し、視聴用URLは直前にメールで案内します。内容はRDS/Aurora MySQLのバージョン更新の必要性やAWSに関する説明が中心です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T06:36:28.000Z",
-      "contentHash": "933bee5e3a9c"
-    },
-    {
-      "id": "6c8fd70cb14a",
-      "title": "名古屋に異動して、中部支店の採用を本気で強化する話 | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/01/13/150000",
-      "summary": "Sansanのデータエンジニア中村です。東京（少し神奈川）育ちでしたが、2025年11月に名古屋へ引越し、Sansan中部支店へ異動しました。この記事では経緯や支店紹介、今後の意気込みを綴ります。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T06:00:00.000Z",
-      "contentHash": "612936a11365"
-    },
-    {
-      "id": "88902f996d97",
-      "title": "不確実なAI開発を「1カ月」で確信に変える｜高速プロトタイプで意思決定を加速させる実践アプローチ | 株式会社モンスターラボ",
-      "url": "https://monstar-lab.com/dx/solutioncase/ai-rapid-prototyping-1month/",
-      "summary": "AI活用時代、勝敗を分けるのは仮説検証のスピード。要件固めで失敗するリスクを避けるため、1カ月で不確実性を確信に変える高速プロトタイピングで意思決定を加速する手法を提案。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T04:40:56.000Z",
-      "contentHash": "420d40d61bf9"
-    },
-    {
-      "id": "4eec5af6a847",
-      "title": "コーディングを楽しめなくなった、あなたへ | 株式会社ココナラさんのフィード",
-      "url": "https://zenn.dev/coconala/articles/e1ba22510836fc",
-      "summary": "エンジニア4年目。かつてはコードが動くだけで感動したが、設計やレビュー、後輩指導など任される業務は増え成長は感じる一方で、コーディングが「作業」化して喜びや発見を感じられなくなっている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T03:58:36.000Z",
-      "contentHash": "7c20959e38b9"
-    },
-    {
-      "id": "008b89105005",
-      "title": "「5事業部8部署」の正義をどう束ねる？巨大サービスdodaのPdMが語る、失敗から学んだ”合意形成術” | techtekt",
-      "url": "https://techtekt.persol-career.co.jp/entry/member/260113",
-      "summary": "dodaの大規模プロジェクト成功には、①共通のビジョンと目標設定、②関係者の役割明確化と連携を担保するガバナンス、③データ・ユーザー重視の仮説検証で迅速に改善する、の3原則でスピードと品質を両立する、という内容。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T03:44:15.000Z",
-      "contentHash": "d7b50503cedd"
-    },
-    {
-      "id": "b8aec2fcc2b0",
-      "title": "[UE5]UE5ぷちコン映像編7th 応募作品公開！その3 | historia Inc – 株式会社ヒストリア",
-      "url": "https://historia.co.jp/archives/55183/",
-      "summary": "UE5ぷちコン映像編7thの応募作品一覧（その3）が公開されました。今回は合計53作品を掲載。応募者への感謝とコンテスト告知ページへの案内があります。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T03:35:44.000Z",
-      "contentHash": "1ffc0c16b031"
-    },
-    {
-      "id": "071040b4f3a8",
-      "title": "[UE5]UE5ぷちコン映像編7th 応募作品公開！その2 | historia Inc – 株式会社ヒストリア",
-      "url": "https://historia.co.jp/archives/55177/",
-      "summary": "UE5ぷちコン映像編7thの応募作品一覧が公開され、今回は計53作品が集まりました。応募への感謝とコンテスト告知ページへの案内（応募作品公開その2）が掲載されています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T03:35:42.000Z",
-      "contentHash": "4bbcf6c50b9b"
-    },
-    {
-      "id": "79302207cc9b",
-      "title": "[UE5]UE5ぷちコン映像編7th 応募作品公開！その1 | historia Inc – 株式会社ヒストリア",
-      "url": "https://historia.co.jp/archives/55172/",
-      "summary": "UE5ぷちコン映像編7thの応募作品一覧ページを公開。今回は合計53作品が集まりました。応募者へ感謝し、コンテスト告知ページへの案内もあります（その1）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T03:35:40.000Z",
-      "contentHash": "f7673f80fd7f"
-    },
-    {
-      "id": "47b7ef2927ff",
-      "title": "【イベント開催レポート】売主・買主・仲介が一堂に会する、“リアルなつながり”の場 ― 不動産MeetUp開催 | estie inside blog",
-      "url": "https://www.estie.jp/blog/entry/2026/01/13/101201",
-      "summary": "estieは「不動産DX HUB」の一環で、東京ミッドタウンのオフィスラウンジで売主・買主・仲介向け交流会を開催。30名超が参加し、不動産取引の課題や注力点、最新動向を企業の垣根を越えて活発に意見交換。初対面でも話しやすく実務に直結する情報が得られる温かな場となった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T01:12:01.000Z",
-      "contentHash": "8608bd666847"
-    },
-    {
-      "id": "ab9e02fc2805",
-      "title": "Kubernetes Operator 開発完全ガイド：client-go から Operator SDK (Kubebuilder) までKubernetes Operator ハンズオン | GMO Developers",
-      "url": "https://developers.gmo.jp/technology/76043/",
-      "summary": "コンテナの移植性を活かし、Kubernetesはスケーリング・自己回復・宣言的管理で運用を効率化する。k8s Operatorはアプリ固有の運用手順をコード化し、Day‑2運用を自動化する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T01:00:00.000Z",
-      "contentHash": "7539f5581d5b"
-    },
-    {
-      "id": "a09371f474a1",
-      "title": "Vol15. 新規機能開発で感じていた違和感を、言葉にしてみる | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/01/13/100000",
-      "summary": "Bill One開発Unitブログリレー第15回。プロダクトデザイナー古川が、PdM・エンジニア・デザイナーと協働しながら、新規機能開発は未知の体験や仮説的な利用、仕様の不確定性で既存改善より難しいと感じていると述べる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T01:00:00.000Z",
-      "contentHash": "317ee3a805cc"
-    },
-    {
-      "id": "17b9b3e40acb",
-      "title": "クロスオーダー｜発注画面のデザインリニューアルの舞台裏 | クロスマート Tech Blog",
-      "url": "https://xmart-techblog.hatenablog.com/entry/2026/01/13/100000",
-      "summary": "クロスマートのUI担当・大島が、飲食店向け発注ツール「クロスオーダー」を全面リニューアル。厨房やバックヤードの現場スタッフがスマホで素早く操作できる使い勝手向上を目指し、5年の運用を踏まえた背景や制作秘話を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T01:00:00.000Z",
-      "contentHash": "f28a8e61011e"
-    },
-    {
-      "id": "460642cc3df3",
-      "title": "AIが書く仕様書、どうレビューする？GitHub Spec Kitで出力される仕様書の詳細解説とレビュー方法 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/spec-kit-specify-review-guide",
-      "summary": "サーバーワークスの針生が、GitHubのSpec Kitの/specifyコマンドで生成される仕様書(spec.md)の生成ルールと効果的なレビュー方法を解説。出力の仕組みや実践的なレビュー手順を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T01:00:00.000Z",
-      "contentHash": "3501e9911003"
-    },
-    {
-      "id": "ebebe6709900",
-      "title": "Transformer一強時代の終焉？Liquid AIやGranite 4.0に見る「SSM系SLM」 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/e7c622c2d49f18",
-      "summary": "モデルの巨大化よりエッジでの効率重視が注目され、半導体需要増加の中でTransformerのKVキャッシュ肥大やO(n^2)計算問題を背景に、長期依存や計算・記憶効率で有利なState Space Model（SSM）がTransformerの代替・補完として期待されている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T00:53:55.000Z",
-      "contentHash": "2c66e0ebead9"
-    },
-    {
-      "id": "8f47c3157505",
-      "title": "【資料公開】AWS MCP Serverで実践するText-to-SQL | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/01/13/093056",
-      "summary": "さとうが初ブログで社内勉強会の資料を共有。Text-to-SQL（テキスト→SQL）とAWS MCP Serverの解説、検証方法と結果、開発手順、仕様上の注意点、責任ある生成AI利用の考察を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T00:30:56.000Z",
-      "contentHash": "13ffb19ac90f"
-    },
-    {
-      "id": "45799d22eff3",
-      "title": "セルフレジに学ぶ、誰のためのUXなのかという問い | RAKUS Developers Blog | ラクス エンジニアブログ",
-      "url": "https://tech-blog.rakus.co.jp/entry/20260113/ux",
-      "summary": "プロダクト部長の稲垣氏が、年末の買い物で感じたセルフレジのUIの不便さを論点に、実店舗とWebのUIの違いや利用者の「状態」、コンビニやファストフードに見られる「運用者優先」設計を考察する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T00:25:18.000Z",
-      "contentHash": "7b8e3b4324f0"
-    },
-    {
-      "id": "7ac8a8371e69",
-      "title": "React アプリで Amazon Cognito 認証済みユーザーにのみ Amazon S3 静的コンテンツへのアクセスを許可したい -環境編- | TechHarmony",
-      "url": "https://blog.usize-tech.com/react-cognito-s3-authorization-environment/",
-      "summary": "広野が、これまで紹介してきたReactアプリとAWS連携の仕組みの中で、まだ触れていなかった「必ず使うであろうユースケース」について、順を追って解説する導入文です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-13T00:25:12.000Z",
-      "contentHash": "c03e45c84701"
-    },
-    {
-      "id": "0515355f539a",
-      "title": "The best robot vacuums we’ve tested for 2026",
-      "url": "https://www.theverge.com/22997597/best-robot-vacuum-cleaner",
-      "summary": "2026年版のおすすめロボット掃除機ガイド。大型バッテリーや高度な制御で掃除・モップ・自動清掃・充電が向上。著者は7年で80台以上を検証したベテランレビュアーが厳選。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-13T00:04:56.000Z",
-      "contentHash": "1d71918ff5bd"
-    },
-    {
-      "id": "c954caabbfa5",
-      "title": "Google removes AI health summaries after investigation finds dangerous flaws",
-      "url": "https://arstechnica.com/ai/2026/01/google-removes-some-ai-health-summaries-after-investigation-finds-dangerous-flaws/",
-      "summary": "調査で重大な欠陥が見つかったため、Googleは一部のAI生成健康要約を削除した。要約は誤情報や危険な誤解を招く可能性があり、同社は機能の停止・修正や人間による監視強化で対応するとしている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-12T23:05:04.000Z",
-      "contentHash": "1fe8ecaad648"
-    },
-    {
-      "id": "cfd9f3519771",
-      "title": "Fired Rockstar employees’ plea for interim pay denied",
-      "url": "https://www.theverge.com/news/861004/rockstar-fired-union-workers-pay",
-      "summary": "英国の労働審判所が、解雇されたRockstar従業員の仮払い請求を却下しました。昨年31人（英国）と3人（カナダ）の計34人が解雇され、IWGBは「組合潰し」と非難。RockstarはDiscordで情報漏洩があったと主張し、IWGBは全面審理で違法と認定されると自信を示しています。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-12T22:25:39.000Z",
-      "contentHash": "e3e533a9e534"
-    },
-    {
-      "id": "4108dc9fe8ee",
-      "title": "Framework hikes desktop PC prices as RAM shortage drags on",
-      "url": "https://www.theverge.com/news/860988/framework-desktop-pc-price-increase-ram-memory-shortage",
-      "summary": "Frameworkは数週間前のRAM値上げに続き、LPDDR5x価格高騰を受けデスクトップPC価格を改定。32GB（Ryzen AI Max 385）は$1,099→$1,139、64GBは$1,599→$1,639、128GBは$1,999→$2,459。増分はコスト分のみと説明。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-12T22:25:08.000Z",
-      "contentHash": "94e2f5cd8cd7"
-    },
-    {
-      "id": "26c0306f8434",
-      "title": "Meta plans to lay off hundreds of metaverse employees this week",
-      "url": "https://www.theverge.com/news/860984/meta-reality-labs-layoffs-metaverse",
-      "summary": "NYTは、MetaのReality Labs（約1.5万人）が約10%の人員削減を予定と報道。対象は主にメタバース部門で、AIシフトや先のメタバース予算30%削減報道を受け、CTOボズワースが重要会議を招集。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-12T22:14:58.000Z",
-      "contentHash": "39aa5de739f9"
-    },
-    {
-      "id": "c9cb22ee0287",
-      "title": "Fabrice Bellard's TS Zip (2024)",
-      "url": "https://www.bellard.org/ts_zip/",
-      "summary": "Fabrice Bellardが公開したts_zipは、小型で高速なアーカイブ/圧縮ツールの実装と仕様をまとめたページ。フォーマット詳細、ソース、ベンチ、使い方やサンプルが掲載されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-12T20:26:47.000Z",
-      "contentHash": "5b93d4051670"
-    },
-    {
-      "id": "289ffdc32faf",
-      "title": "Baseus’ retractable travel adapter is on sale for more than 50 percent off today",
-      "url": "https://www.theverge.com/gadgets/860791/baseus-enercore-cg11-6-in-1-universal-travel-adapter-deal-sale",
-      "summary": "Baseusの収納式旅行用変換プラグ「EnerCore CG11」が1/12限定でAmazon約34ドル（51%オフ）。4種類のプラグで200以上の国に対応、最大6台同時充電、伸縮式USB-C内蔵。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-12T20:04:09.000Z",
-      "contentHash": "3add5822b182"
-    },
-    {
-      "id": "3589c0a66b5d",
-      "title": "UK pushes up a law criminalizing deepfake nudes in response to Grok",
-      "url": "https://www.theverge.com/news/860881/uk-ai-x-grok-law-criminalizing-deepfake-nudes-ai",
-      "summary": "英国は、Grokによる非同意のAI性画像拡散を受け、非同意の親密なディープフェイク画像の作成・依頼を犯罪化する法を施行。オンライン安全法で優先違反と位置づけ、プラットフォームに積極的対策を義務付ける。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-12T20:03:49.000Z",
-      "contentHash": "b848fe1e0444"
     }
   ]
 }
