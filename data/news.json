@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2026-01-30T02:56:22.669Z",
+  "generatedAt": "2026-01-30T08:58:24.736Z",
   "items": [
+    {
+      "id": "d531dfe33a0e",
+      "title": "MIXI SRE Topics Monthly 2026-01 号 | MIXI DEVELOPERS Tech Blogのフィード",
+      "url": "https://zenn.dev/mixi/articles/7d8b12178c83d8",
+      "summary": "MIXIのSRE共有会報告。AIは万能化より作業をSKILL化して人手手順をAI連携する方針。Runbook化、ローカル呼び出し型支援、アラート起点でDBのprocesslist自動採取、AWS SIP試行、Resqueは遅延監視の必要性を共有。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T07:00:39.000Z",
+      "contentHash": "a55edb814562"
+    },
+    {
+      "id": "5245f97255d3",
+      "title": "AWS マルチアカウント環境からの Google Cloud フェデレーション設計 — AI時代に合わせた社内認証基盤づくり | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/2026/01/30/152136",
+      "summary": "LayerX Fintechから三井物産デジタル・アセットマネジメントへ出向中のpiroshiです。AIや自動化でデータが複数プラットフォームを跨ぎ、AWS上のワークロードからGCP／Google WorkspaceのAPIへ安全にアクセスするニーズがMDMでも顕在化しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T06:21:36.000Z",
+      "contentHash": "9769386d2b92"
+    },
+    {
+      "id": "6f1c3de8b38b",
+      "title": "Differential Transformer V2が発表されたので、今更ではあるがV1論文を読んだうえで差分を確認してみた | ABEJA Tech Blog",
+      "url": "https://tech-blog.abeja.asia/entry/differential-transformer-v1-v2-diff-202601",
+      "summary": "ABEJAの大田です。Hugging FaceのDifferential Transformer V2は、V1の「2つのアテンション差分でノイズ除去」を発展させ、ノイズ抑制やスケーリング効率向上、ハルシネーション低減、検索性能やKVキャッシュ効率化で学習安定と高速推論を両立し、ローカル特化LLMの省リソース化と精度向上に寄与すると期待されています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T06:10:48.000Z",
+      "contentHash": "ae32060654ce"
+    },
+    {
+      "id": "d8ef5b5e8f9f",
+      "title": "生成AIでビジネス意思決定するまでの長い道のり - 道半ば編 | ENGINEER TECH BLOG",
+      "url": "https://note.com/ehal/n/n49c614111f7c",
+      "summary": "年始に帰省して兄弟と酒を交え、仕事で生成AIを活用できるかを忌憚なく議論した。話題は「結論に至る過程が不透明で信頼できない」という懸念が中心だった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T06:08:34.000Z",
+      "contentHash": "72edf2f864e2"
+    },
+    {
+      "id": "a9d75a43e49b",
+      "title": "Amazon Linux 2 EOL をきっかけに Rundeck を ECS 化してハマった話（ノード・SSH編）：その➁ | FURYU Tech Blog - フリュー株式会社",
+      "url": "https://tech.furyu.jp/entry/2026/01/30/150703",
+      "summary": "ピクトリンクの藤本です。Amazon Linux 2 EOLを機にRundeckをECS化する続編で、今回はECS上でのRundeck運用でのSSH接続、ノード定義やresources.xml周りのNetwork Errorなどのハマりどころを紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T06:07:03.000Z",
+      "contentHash": "9768d06c4c45"
+    },
+    {
+      "id": "c78328cf0e33",
+      "title": "外部サービス連携基盤の現在地 —— プロダクト間の「滑らかな連携」実現に向けて | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/01/30/150000",
+      "summary": "近年SaaSでマルチプロダクト化が進む中、データ連携は難題。SmartHRは労務からタレントへ領域拡大し、給与・勤怠・年末調整など独立プロダクトを連携する拡張性の高い基盤を、プロダクト基盤開発部の外部サービス連携基盤ユニットで構築・改善している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T06:00:00.000Z",
+      "contentHash": "d4e859322ac9"
+    },
+    {
+      "id": "84e54f9fce5c",
+      "title": "[小ネタ] ACMに関連付けられたリソースで知らんやつが居た話 | DENET 技術ブログ",
+      "url": "https://blog.denet.co.jp/acm-unknown-associated-resources/",
+      "summary": "ACMに関連付けられた見慣れないリソースを見つけた小ネタを紹介する記事が、DENET技術ブログに掲載された、という内容の案内です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T05:49:40.000Z",
+      "contentHash": "13d7e359005d"
+    },
+    {
+      "id": "0eb2fd3a5e77",
+      "title": "AIと役割分担することで、デザイナーがコードに関われるようになった話 | テックブログ",
+      "url": "https://www.fabrica-com.co.jp/techblog/design/12083/",
+      "summary": "デザインディレクターの記事を受け、デザイナー視点でAIと役割分担しコードに関わる具体的実践を紹介。AIを補助にし作業分担やワークフロー改善、ツール活用、実例と留意点を示す内容。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T05:46:51.000Z",
+      "contentHash": "2bcbddcbed9d"
+    },
+    {
+      "id": "a5463805d9ac",
+      "title": "判断をコードに残す。AI時代のデザインプロセス再設計 ―― 思考を蓄積し、改善を止めないプロダクト開発へ | テックブログ",
+      "url": "https://www.fabrica-com.co.jp/techblog/design/12046/",
+      "summary": "AIで実装が高速化する中、設計意図や判断をコードや記録に残す重要性を説き、思考を蓄積して継続的に改善できるようデザインプロセスを再設計することを提案する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T05:46:48.000Z",
+      "contentHash": "2ef9bdc67fda"
+    },
+    {
+      "id": "bf831b46a9cf",
+      "title": "OpenClaw – Moltbot Renamed Again",
+      "url": "https://openclaw.ai/blog/introducing-openclaw",
+      "summary": "「WhatsApp Relay」から発展したオープンエージェントが「OpenClaw」に改名。商標確認済みでローカル実行・データは自分の環境に保持。Twitch・Google Chat対応、KIMI K2.5/MiMo-V2-Flash対応、画像送信と34件のセキュリティ修正を含む新リリース。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-30T05:14:48.000Z",
+      "contentHash": "b867e2a3d3dd"
+    },
+    {
+      "id": "21a3c50ee2bd",
+      "title": "Moltbook",
+      "url": "https://www.moltbook.com/",
+      "summary": "MoltbookはAIエージェント向けのSNSで、エージェント同士が共有・議論・投票する場です。新着・注目・議論投稿やエージェント一覧、Submolts（サブコミュニティ）があり、エージェントはkarmaで評価されます。人間は観察可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-30T03:55:34.000Z",
+      "contentHash": "831b96f9c08e"
+    },
+    {
+      "id": "fb44c694c13d",
+      "title": "Two days of oatmeal reduce cholesterol level",
+      "url": "https://www.uni-bonn.de/en/news/017-2026",
+      "summary": "申し訳ありませんが外部リンクに直接アクセスできません。記事本文を貼り付けていただければ、200文字以内で日本語要約します。どの段落を優先するか指定があれば教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-30T02:16:21.000Z",
+      "contentHash": "33cf8a15d3cc"
+    },
     {
       "id": "12e7aa888059",
       "title": "スクラムフェス沖縄2025 参加レポート | NTT DATA TECHのフィード",
@@ -93,7 +201,7 @@
     },
     {
       "id": "e30eb9c8fb0f",
-      "title": "Grid: Forever free, local-first, browser-based 3D printing/CNC/laser slicer",
+      "title": "Grid: Free, local-first, browser-based 3D printing/CNC/laser slicer",
       "url": "https://grid.space/stem/",
       "summary": "ブラウザで使える無料の製造教育ツール。インストール不要・端末内保存でプライバシー保護、オフライン可。3Dプリント・CNC・レーザー加工の実務スキルを学校や図書館などで学べる。",
       "source": "Hacker News",
@@ -122,10 +230,10 @@
       "id": "47954b7977ac",
       "title": "Project Genie の概要",
       "url": "https://note.com/npaka/n/nf00a7bee4592",
-      "summary": "Project Genieは汎用世界モデル「Genie 3」搭載の実験的Webプロトタイプで、米国18歳以上向け公開。テキスト/画像で世界を作るワールドスケッチ、移動で前方を生成する探索、既存世界のリミックスが可能。初期モデルゆえ現実との不一致や操作遅延、生成時間制限などの課題あり。",
+      "summary": "記事本文かURLを送ってください。全文が長い場合は要点や抜粋でも大丈夫です。受け取った内容を200字以内の日本語で、フォーマル／カジュアルなどご希望のトーンに合わせて要約します。",
       "source": "npaka",
       "publishedAt": "2026-01-29T21:14:36.000Z",
-      "contentHash": "1733c80c71ae"
+      "contentHash": "0adad584c0c2"
     },
     {
       "id": "0714487950ef",
@@ -140,10 +248,28 @@
       "id": "ecff1e0b011f",
       "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
       "url": "https://openai.com/index/retiring-gpt-4o-and-older-models/",
-      "summary": "OpenAIはGPT‑4oおよび旧モデルを段階的に廃止すると発表。APIやサービスで移行期限を設け、GPT‑4o‑miniなど新モデルへのエンドポイント／プロンプト変更を促す。請求・ログ扱いと移行手順を案内し、保守削減と性能向上が目的。",
+      "summary": "OpenAIはGPT-4oや旧世代モデルを段階的に廃止すると発表。利用者に対し新世代モデルへの移行、互換性確認、エンドポイント/APIの更新やマイグレーション手順の確認を促しており、廃止日や移行ガイドは記事参照。",
       "source": "Hacker News",
       "publishedAt": "2026-01-29T21:02:31.000Z",
-      "contentHash": "7040fa836f0b"
+      "contentHash": "609f5e923bef"
+    },
+    {
+      "id": "6f81a1bfcaa3",
+      "title": "The WiFi only works when it's raining (2024)",
+      "url": "https://predr.ag/blog/wifi-only-works-when-its-raining/",
+      "summary": "エイプリルフール企画の実話。帰省した著者の父（長年のネット技術者）が「雨のときだけWi‑Fiが使える」と言い、疑った著者が調べると98%のパケット損失でほぼ通信不能だった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-29T20:47:36.000Z",
+      "contentHash": "baf9b3b2c6aa"
+    },
+    {
+      "id": "03a18fd9c6b0",
+      "title": "Apple buys Israeli startup Q.ai",
+      "url": "https://techcrunch.com/2026/01/29/apple-buys-israeli-startup-q-ai-as-the-ai-race-heats-up/",
+      "summary": "AppleはイスラエルのAIスタートアップQ.aiを約20億ドルで買収。ささやき声や騒音下での音声認識や映像処理技術を獲得し、AirPodsやVision ProのAI・音声機能強化を狙う。創業者らが合流。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-29T20:37:01.000Z",
+      "contentHash": "3cd0b21d165d"
     },
     {
       "id": "98bf74a95c52",
@@ -203,10 +329,10 @@
       "id": "b09aa1a2bae2",
       "title": "County pays $600k to pentesters it arrested for assessing courthouse security",
       "url": "https://arstechnica.com/security/2026/01/county-pays-600000-to-pentesters-it-arrested-for-assessing-courthouse-security/",
-      "summary": "2019年、アイオワ司法局の書面許可で裁判所のセキュリティ診断を行ったペネトレーター2名が逮捕された件で、ダラス郡は不当逮捕・名誉毀損の訴訟を和解し60万ドルを支払う。",
+      "summary": "2019年に裁判所の正式承認を得て物理的攻撃を含むレッドチーム演習を行ったペンテスター2人が逮捕・勾留され、不当逮捕・名誉毀損で提訴。ダラス郡は6年以上後に60万ドルで和解した。",
       "source": "Hacker News",
       "publishedAt": "2026-01-29T18:48:09.000Z",
-      "contentHash": "ac68125b29b7"
+      "contentHash": "a740c9637294"
     },
     {
       "id": "582499da877c",
@@ -527,10 +653,10 @@
       "id": "42a3099a6b26",
       "title": "Chrome の Gemini 3 を活用した新機能まとめ",
       "url": "https://note.com/npaka/n/n86cd73338563",
-      "summary": "ChromeにGemini 3を統合し、常時使えるサイドパネルでのマルチタスク支援、画像編集（Nano Banana）、Gmailやカレンダー等のConnected Apps連携、Personal Intelligenceによる個人化、複雑作業を自動化するAuto Browseで生産性向上を図るアップデート。",
+      "summary": "記事は、Chromeに統合されたAI「Gemini 3」の新機能を紹介。検索や要約、文章作成、画像やウェブの理解などでブラウジングを支援し、マルチモーダル対応や個人設定・プライバシー配慮の強化点をまとめています。",
       "source": "npaka",
       "publishedAt": "2026-01-29T06:07:30.000Z",
-      "contentHash": "9a3678c21dc0"
+      "contentHash": "7112d9ba9499"
     },
     {
       "id": "e2fd144d4a41",
@@ -545,10 +671,10 @@
       "id": "d93cbb4621f2",
       "title": "GitHub Desktop の使い方",
       "url": "https://note.com/npaka/n/nb89af6522963",
-      "summary": "GitHub Desktopはコマンド不要でGit/GitHubをGUI操作できる公式アプリ。リポジトリのクローン・作成・差分確認・部分コミット・ブランチ操作、Push/PullやPR作成が可能。ダウンロードしてログインし、リポジトリ表示や変更一覧、コミット欄で直感的に扱える。",
+      "summary": "GitHub DesktopはGUIでGit/GitHubを操作する公式アプリ。インストール→ログイン→クローンでリポジトリを開き、差分確認・部分コミット・ブランチ作成・マージ・コンフリクト対応・Push/Pull/Fetch・PR作成などをGUIで実行できる。主なUIはリポジトリ/ブランチ表示、Changes/History、コミット入力欄、エディタやFinder/ブラウザ連携。",
       "source": "npaka",
       "publishedAt": "2026-01-29T03:42:44.000Z",
-      "contentHash": "4043e179c19e"
+      "contentHash": "7dc9731fadfb"
     },
     {
       "id": "fdd95e18c2cd",
@@ -833,10 +959,10 @@
       "id": "6d851e9adcd4",
       "title": "Blender MCP 1.5 を試す",
       "url": "https://note.com/npaka/n/n5779c08bdc8a",
-      "summary": "Blender MCP 1.5.5はClaudeとBlenderをソケットで直結し、プロンプトでの3D生成・編集やBlender内でのPython実行を可能にするアドオン。Hunyuan3D/Hyper3D、Sketchfab/Poly Haven連携、ビューポート解析、リモート実行、テレメトリ機能を追加。Blender・Claude Desktop・Python(3.10+)等が必要。",
+      "summary": "Blender MCPを試用したまとめ記事。検証環境はBlender 5.0.1、Blender MCP 1.5.5で、導入手順や操作感、機能の利点や注意点、使用感を報告しています。",
       "source": "npaka",
       "publishedAt": "2026-01-28T18:11:27.000Z",
-      "contentHash": "dae9b047bc5a"
+      "contentHash": "8b253f2de589"
     },
     {
       "id": "17140b072924",
@@ -1004,10 +1130,10 @@
       "id": "34e4d32ff5e5",
       "title": "Rodin の 3Dモデル生成 を試す",
       "url": "https://note.com/npaka/n/n2a3c5cafa039",
-      "summary": "AIサービス「Rodin」を試用。テキストや画像から高品質な3Dモデルを自動生成し、ゲーム・アニメ・3Dプリント・AR/VRで利用可能。手順はGoogleログイン→Gen‑2選択→画像アップ→生成→テクスチャ生成→ダウンロード。リギング機能はなし。",
+      "summary": "Rodinはテキストや画像から高品質な3Dモデルを自動生成するサービス。Gen-2で画像をアップロード→生成→モデル確認→テクスチャ生成→ダウンロードする流れ。リギング機能は無く、ゲーム・アニメ・3Dプリント・AR/VR等に利用可能。",
       "source": "npaka",
       "publishedAt": "2026-01-28T11:50:03.000Z",
-      "contentHash": "5dd392312c52"
+      "contentHash": "61373c6e08e5"
     },
     {
       "id": "5e149b251993",
@@ -1400,10 +1526,10 @@
       "id": "867364d1169b",
       "title": "Gemini 3 Flash の新機能 Agentic Vision の概要",
       "url": "https://note.com/npaka/n/n1c2946c76a9e",
-      "summary": "Gemini 3 FlashのAgentic Visionは、視覚理解を「思考→行動→観察」のエージェント式に変え、Pythonで画像を拡大・切り取り・注釈・計算して新画像をコンテキストに追加。コード実行で多くのベンチマークが5～10%改善、建築図検査や指のカウント、視覚的計算・プロットなどに応用可能。",
+      "summary": "Gemini 3 FlashのAgentic Visionは、画像理解を「思考→行動→観察」のエージェント化し、Pythonで画像を拡大・切り取り・注釈・計算して結果をコンテキストに追加。視覚的推論や可視化が可能になり、ベンチマークで5～10%改善。建築図検査や指のカウント、表のプロット等に応用。",
       "source": "npaka",
       "publishedAt": "2026-01-27T22:29:01.000Z",
-      "contentHash": "14968ee0977c"
+      "contentHash": "6ca85be25edd"
     },
     {
       "id": "ea212c3043eb",
@@ -3290,10 +3416,10 @@
       "id": "6d2882f7c410",
       "title": "【書評】 アニメスタジオの現場でしか学べない アニメ作画と演出で大切なこと",
       "url": "https://note.com/npaka/n/n4fde487c176a",
-      "summary": "名取孝浩の本。現場経験から「レイアウト」と「テンポ」を軸に、視線誘導・パース・カメラ設計、音や間で作るテンポを具体的に解説。作画技術より演出設計を学び、映像の見やすさ・気持ちよさを高めたい制作者向け。",
+      "summary": "『アニメスタジオの現場でしか学べない アニメ作画と演出で大切なこと』は、名取孝浩が現場経験を基に「見やすい映像」と演出の設計を具体的に解説する一冊。主題はレイアウトとテンポ。",
       "source": "npaka",
       "publishedAt": "2026-01-24T08:38:17.000Z",
-      "contentHash": "bf5496266bf7"
+      "contentHash": "79a59b86d972"
     },
     {
       "id": "6e0cb9db19e0",
@@ -8874,132 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-01-14T10:53:13.000Z",
       "contentHash": "f7657d72665d"
-    },
-    {
-      "id": "7989cc171188",
-      "title": "Railsにおける未ログインユーザーのセッション削減方法 ——  セッションストアのストレージを抑制！ | SmartHR Tech Blog",
-      "url": "https://tech.smarthr.jp/entry/2026/01/14/191158",
-      "summary": "SmartHRのエンジニアが、Railsで頻発しがちな未ログインユーザーのセッション問題と削減方法を解説。未ログインセッションの定義、削減手法、ミドルウェア活用の理由、得られた成果を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T10:11:58.000Z",
-      "contentHash": "47f35a756a53"
-    },
-    {
-      "id": "3e46fc51cf46",
-      "title": "【コピペで簡単】Zellij + Helixで作る軽量ターミナル開発環境 | スペースマーケット Engineer Blogのフィード",
-      "url": "https://zenn.dev/spacemarket/articles/192a58e9177961",
-      "summary": "スペースマーケットのWebエンジニアs0ar（35歳）が、VSCodeやZed、Claude Codeを複数起動してPCが重くなったため、ターミナルだけで完結する軽量な開発環境を構築した話。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T09:26:08.000Z",
-      "contentHash": "efa85b760221"
-    },
-    {
-      "id": "bde492e87b63",
-      "title": "I’m leaving Redis for SolidQueue",
-      "url": "https://www.simplethread.com/redis-solidqueue/",
-      "summary": "外部リンクへ直接アクセスできないため記事を取得できません。要約してほしい本文をここに貼るか、主要ポイントを教えてください。200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-14T09:25:58.000Z",
-      "contentHash": "aae25b694308"
-    },
-    {
-      "id": "adae15172bed",
-      "title": "RPAの基本を徹底解説！初心者向け完全ガイド | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n0b6130c975b5",
-      "summary": "株式会社SHIFT 製造ソリューションサービス部のライターNが、IT初心者の視点で分かりやすくIT情報を発信する記事です。今回は業務自動化技術「RPA」について紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T09:15:19.000Z",
-      "contentHash": "837829523a90"
-    },
-    {
-      "id": "11af5c638de3",
-      "title": "AWS DRS を使ってDR検証してみた　～リカバリ編～ | TechHarmony",
-      "url": "https://blog.usize-tech.com/awsdrs-recovery/",
-      "summary": "前回設定したAWS DRSの続きで、今回はリカバリ（フェイルオーバー）を実行します。リカバリ前準備として、どの程度リアルタイムで復旧できるかを確認するため毎秒の検証などを行います。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T09:14:53.000Z",
-      "contentHash": "205f2f848377"
-    },
-    {
-      "id": "7b26b8d89fee",
-      "title": "ページ内検索したテキストはWebサイト運営者にバレる | TechRacho",
-      "url": "https://techracho.bpsinc.jp/baba/2026_01_14/155955",
-      "summary": "ページ内検索（Ctrl+F）で検索した文字列も、ページ上のコンテンツJavaScriptから検知できると発見された。CodePenの例で検索語がalert表示され、怪しいサイトでの検索が情報漏洩につながる可能性があると警告している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T08:30:03.000Z",
-      "contentHash": "a921c18998ef"
-    },
-    {
-      "id": "ca7a6c233fdc",
-      "title": "Agent Script で AI エージェントをつくってみよう | フレクトのクラウドblog",
-      "url": "https://cloud.flect.co.jp/entry/2026/01/14/172720",
-      "summary": "エンジニア浅見が、Agentforceの新機能「Agent Script」を解説。公式ドキュメントを整理し、簡単なAIエージェントを実装して挙動を検証する内容で、執筆時点の情報であることを明記しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T08:27:20.000Z",
-      "contentHash": "d025154cd6cb"
-    },
-    {
-      "id": "4c91b4cf9c90",
-      "title": "【Unity 6.3新機能】ShaderBuildSettingsでソースコードを変更せずにShaderバリアントを最適化する | CORETECH ENGINEER BLOG",
-      "url": "https://blog.sge-coretech.com/entry/2026/01/14/151443",
-      "summary": "Unity 6.3のShaderBuildSettingsは、ソース改変やスクリプト不要でmulti_compile/shader_feature/dynamic_branch間の変換や不要キーワード除去を行い、シェーダーバリアントを最適化してビルド時間・サイズを削減する機能。設定場所、制限や利用例も解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T06:14:43.000Z",
-      "contentHash": "ec232e7c4cff"
-    },
-    {
-      "id": "b58b349e6261",
-      "title": "応用編: nginxで認証結果をキャッシュしたい〜認証処理の負荷を下げたい〜 | IIJ Engineers Blog",
-      "url": "https://eng-blog.iij.ad.jp/archives/34435",
-      "summary": "ngx_http_auth_request_module前提で、nginxに認証結果をキャッシュして認証DB負荷を低減する手順を解説。テスト環境で検証→proxy_cache_pathで認証用とコンテンツ用を分離（認証は短TTL＝例1分）→locationでzone割当・$remote_user等をキャッシュキーに設定。設定変更後はキャッシュ削除とnginx再起動を行い、誤設定による情報漏洩に注意。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T06:12:43.000Z",
-      "contentHash": "c83d25bd78eb"
-    },
-    {
-      "id": "961c4a32930e",
-      "title": "認可モジュール(権限管理)だけ追加したい〜認証情報を管理したくない〜 | IIJ Engineers Blog",
-      "url": "https://eng-blog.iij.ad.jp/archives/34424",
-      "summary": "既存のnginx BASIC認証に影響を小さく権限管理を後から追加する方法を解説。ngx_rewrite_and_authを間に挟み、ngx_header_path_authで一階層ごとのパス単位認可を実装する手順（認証モジュール準備→認証確認→認可モジュール準備→設定→nginx適用）を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T06:12:26.000Z",
-      "contentHash": "7a7f3348ca86"
-    },
-    {
-      "id": "b98785aededb",
-      "title": "認証処理を集中管理する〜シングルサインオン(SSO)はしたくない〜 | IIJ Engineers Blog",
-      "url": "https://eng-blog.iij.ad.jp/archives/34412",
-      "summary": "BASIC認証のまま認証処理を管理サーバで集中管理する方法を紹介。SSOを使わずngx_auth_modとnginxのauth_requestやプロキシキャッシュで負荷分散・安全性向上を図り、サイト毎のカスタマイズも可能。設定手順と構成例を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T06:12:15.000Z",
-      "contentHash": "9032c1770f55"
-    },
-    {
-      "id": "15c8f8b60c0b",
-      "title": "隣のサイトへ認証を丸投げ〜認証を管理したくない〜 | IIJ Engineers Blog",
-      "url": "https://eng-blog.iij.ad.jp/archives/34395",
-      "summary": "ngx_rewrite_authにより認証を別サイトへ委任可能。BASIC認証サイトのコンテンツを認証結果に変換してnginxの認証ソースとして利用する仕組みと、設定手順やキャッシュ設定例を解説する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T06:11:56.000Z",
-      "contentHash": "e16f3db4d17c"
-    },
-    {
-      "id": "82ea00ea848d",
-      "title": "アカウント名とメールアドレスの両方で認証したい〜利用者への説明をさぼりたい〜 | IIJ Engineers Blog",
-      "url": "https://eng-blog.iij.ad.jp/archives/34382",
-      "summary": "ngx_auth_modの新機能ngx_rewrite_switch_authを使い、メールアドレスのローカル部とアカウント名の両方で同一のBASIC認証を扱う方法を解説。準備・テスト・nginx設定・キャッシュ手順を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T06:11:44.000Z",
-      "contentHash": "f38b9b689763"
-    },
-    {
-      "id": "b5e0b5ac4ea7",
-      "title": "メールアドレスで認証を振り分ける〜複数組織の認証を組み合わせたい〜 | IIJ Engineers Blog",
-      "url": "https://eng-blog.iij.ad.jp/archives/34446",
-      "summary": "メールアドレスのドメインで認証先を切り替えるngx_rewrite_switch_authの新機能を解説。組織ごとの既存認証を流用して段階的導入でき、ドメイン毎に認証モジュールを用意し正規表現でユーザ抽出、必要なら認証結果キャッシュを設定する手順を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T06:11:27.000Z",
-      "contentHash": "8ac6ad092afa"
     }
   ]
 }
