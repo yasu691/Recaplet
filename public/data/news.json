@@ -1,6 +1,285 @@
 {
-  "generatedAt": "2026-01-29T17:04:30.065Z",
+  "generatedAt": "2026-01-30T02:56:22.669Z",
   "items": [
+    {
+      "id": "12e7aa888059",
+      "title": "スクラムフェス沖縄2025 参加レポート | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/1b3ee82d2e437c",
+      "summary": "NTTデータ有志6名でスクラムフェス沖縄2025に参加。ふりかえり手法（DPA、デイリーハッスル）や傾聴ワーク、痛みと喜びのマトリックス等を体験し、対話中心の学びと交流を得た。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T01:25:51.000Z",
+      "contentHash": "4e4d47daf956"
+    },
+    {
+      "id": "5779ffb79ad3",
+      "title": "CSRFの生の挙動を知りたい～FastAPIとZAPを用いて検証してみた | TechDoctor開発者Blog",
+      "url": "https://techblog.technology-doctor.com/entry/2026/01/30/102550",
+      "summary": "著者がFastAPIで意図的に脆弱なサーバと罠サイトを構築し、OWASP ZAPでCSRFの挙動を実地検証。攻撃成立条件や事例、CSRFトークンなど防御策の有効性も確認する内容。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T01:25:50.000Z",
+      "contentHash": "d16d6c14f6ec"
+    },
+    {
+      "id": "7f41d3f1106e",
+      "title": "AIエージェントの進化が分からない？秘書で理解する3段階 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/51102",
+      "summary": "龍ちゃんが、AIが道具を使えるようになった歴史を「秘書」の比喩で解説。Function Calling→MCP→MCP Appsの3段階で、AIエージェントの進化と違いをわかりやすく紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T01:11:01.000Z",
+      "contentHash": "7e67e91b41c9"
+    },
+    {
+      "id": "d431108c3d38",
+      "title": "ビジネス・データ・現場の全てを理解する。Sansan AIエージェントFDEという仕事 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/01/30/100000",
+      "summary": "SansanのFDEはビジネス・データ・現場の分断をつなぎ、AIエージェントの導入と定着を支援する役割。顧客業務の理解→データ可否・設計提言→現場観察と迅速な改善でラストワンマイルを担う。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T01:00:00.000Z",
+      "contentHash": "528d05d249af"
+    },
+    {
+      "id": "61ac3717d797",
+      "title": "カレーの材料集めで読み解くSaaS戦略 ──「スーパー」か「こだわりの専門店」か | RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20260130/saas",
+      "summary": "ラクスの稲垣が「カレーの材料」比喩でSaaS戦略を解説。マルチプロダクト×ベスト・オブ・ブリードの利点と課題（UX・データ分断）、AIエージェントやFDE・オントロジー中間層で連携を強化する方針と将来展望を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T01:00:00.000Z",
+      "contentHash": "8fd07fcd2fe7"
+    },
+    {
+      "id": "96cb07ffe796",
+      "title": "グラフAIを「解きほぐす」：ブラックボックスの説明可能性から自己解釈可能なモデルへ | fltech - 富士通研究所の技術ブログ",
+      "url": "https://blog.fltech.dev/entry/2026/01/30/graphai-lifting-the-veil-of-graph-ai-ja",
+      "summary": "富士通研究チームはグラフAIの「ブラックボックスのジレンマ」を解決するため、事後説明（explainability）と設計上透明な自己解釈可能モデル（interpretability）を補完的柱として提唱。NeurIPS2025でGNNを自然言語ルールで全体的に説明する手法GnnXemplarを発表しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T01:00:00.000Z",
+      "contentHash": "10ff92c48d07"
+    },
+    {
+      "id": "e2795ce3bdfb",
+      "title": "CloudShell 上での S3 操作を CloudTrail でどうやって検知するか調査してみた | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/cloudtrail_cloudshell",
+      "summary": "CloudShellのS3操作はCloudTrailで検知可能。起動はcloudshell.amazonaws.comのイベントで追跡、S3はs3.amazonaws.comのデータイベントとして記録（CloudTrail Lake等要有効化）。userAgentにexec-env/CloudShellが含まれ判別可。コマンド内容や実行結果は記録されないため、詳細監査はSession Manager等が必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T00:57:16.000Z",
+      "contentHash": "4765093271c5"
+    },
+    {
+      "id": "de53a3eb135f",
+      "title": "pmconf参加レポート（yang &amp;amp; takashi） | Timee Product Team Blog",
+      "url": "https://tech.timee.co.jp/entry/2026/01/30/094439",
+      "summary": "pmconfでメルカリの分析AIエージェント「Socrates」を学習。アナリスト不足を補い領域横断で自然言語分析、並列仮説検証を実現。AI対応のBasic Tables三層基盤とBIチーム運用、要件定義まで効率化し意思決定とオンボーディングが高速化。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T00:44:39.000Z",
+      "contentHash": "25d2bce5abe6"
+    },
+    {
+      "id": "71e7500aafad",
+      "title": "「コードが書けるだけ」では生き残れない —— AI時代に変わったエンジニアの価値 | テックブログ - HapInS Developers Blog",
+      "url": "https://blog.hapins.net/entry/2026/01/30/094410",
+      "summary": "AIの普及でコード作成は差別化要因でなくなり、エンジニアは「問いを立てる力」「設計・構造化」「判断と責任」「AIを使いこなす力」が求められ、価値創造へ役割が移る。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T00:44:10.000Z",
+      "contentHash": "b1d885d2216b"
+    },
+    {
+      "id": "0797c4538b65",
+      "title": "【Microsoft×生成AI連載】Copilot Studioでユーザー満足度を確認する方法【後編】 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/01/30/091218",
+      "summary": "Microsoft Copilot Studioの満足度アンケート機能（後編）。自動生成される「お問い合わせありがとうございました」「会話の終了」トピックで会話終了時に五段階評価を取得し、Studioの「分析」タブで期間指定して集計を確認可能。トピックのカスタマイズや利用シーン、利点・注意点も解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-01-30T00:12:18.000Z",
+      "contentHash": "ea70949366d3"
+    },
+    {
+      "id": "e30eb9c8fb0f",
+      "title": "Grid: Forever free, local-first, browser-based 3D printing/CNC/laser slicer",
+      "url": "https://grid.space/stem/",
+      "summary": "ブラウザで使える無料の製造教育ツール。インストール不要・端末内保存でプライバシー保護、オフライン可。3Dプリント・CNC・レーザー加工の実務スキルを学校や図書館などで学べる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-29T22:38:57.000Z",
+      "contentHash": "cd00c276ddb0"
+    },
+    {
+      "id": "6e5f4c03bd88",
+      "title": "It’s a new heyday for gas thanks to data centers",
+      "url": "https://www.theverge.com/news/870422/data-center-ai-gas-power-surge",
+      "summary": "AIデータセンターの電力需要で米国が主導、2025年に世界の天然ガス発電開発が31%増加。米は中国を抜き増設の約4分の1を占め、米国の増加の3分の1超がデータセンター向け。ガス増は温暖化排出の増加を招く（GEM分析）",
+      "source": "The Verge",
+      "publishedAt": "2026-01-29T22:12:49.000Z",
+      "contentHash": "150c01b5fece"
+    },
+    {
+      "id": "16e5608bea8b",
+      "title": "Apple just had a record-breaking iPhone quarter",
+      "url": "https://www.theverge.com/news/870319/apple-iphone-best-revenue-ai-q1-2026",
+      "summary": "Appleの2026年第1四半期決算で、iPhone売上が過去最高の853億ドル超、全社売上1438億ドル（前年同期比16%増）。iPhoneは前年比23%増で需要が高く、SiriのAI遅延やiPhone Air不振の影響は限定的。iPhone17の人気で供給が逼迫。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-29T21:54:56.000Z",
+      "contentHash": "96b4d8ea39c4"
+    },
+    {
+      "id": "47954b7977ac",
+      "title": "Project Genie の概要",
+      "url": "https://note.com/npaka/n/nf00a7bee4592",
+      "summary": "Project Genieは汎用世界モデル「Genie 3」搭載の実験的Webプロトタイプで、米国18歳以上向け公開。テキスト/画像で世界を作るワールドスケッチ、移動で前方を生成する探索、既存世界のリミックスが可能。初期モデルゆえ現実との不一致や操作遅延、生成時間制限などの課題あり。",
+      "source": "npaka",
+      "publishedAt": "2026-01-29T21:14:36.000Z",
+      "contentHash": "1733c80c71ae"
+    },
+    {
+      "id": "0714487950ef",
+      "title": "The weirdest headphones at CES will launch on Kickstarter next month",
+      "url": "https://www.theverge.com/news/870416/tdm-neo-wireless-headphones-bluetooth-speaker-kickstarter-february",
+      "summary": "Tomorrow Doesn't Matterの「Neo」ヘッドホンはCESで披露され、巻いてコンパクトなBluetoothスピーカーになる独自機能を持つ。Kickstarterは2026年2月10日開始、7月発売で通常249ドル、先行支援179ドル。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-29T21:03:11.000Z",
+      "contentHash": "a4e0eb53ba2e"
+    },
+    {
+      "id": "ecff1e0b011f",
+      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+      "url": "https://openai.com/index/retiring-gpt-4o-and-older-models/",
+      "summary": "OpenAIはGPT‑4oおよび旧モデルを段階的に廃止すると発表。APIやサービスで移行期限を設け、GPT‑4o‑miniなど新モデルへのエンドポイント／プロンプト変更を促す。請求・ログ扱いと移行手順を案内し、保守削減と性能向上が目的。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-29T21:02:31.000Z",
+      "contentHash": "7040fa836f0b"
+    },
+    {
+      "id": "98bf74a95c52",
+      "title": "The best foldable phone you can buy",
+      "url": "https://www.theverge.com/tech/635839/best-foldable-phone",
+      "summary": "フォルダブルは重く高価でカメラ性能や耐久性が従来のスマホより劣るが進化中。Google製で耐久性が向上し海辺でも使える。形は本のように開く“ブック型”（電話＋タブレット）と折りたたむ“クラムシェル型”（電話＋腕時計）に分かれる。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-29T20:18:26.000Z",
+      "contentHash": "15c5ca4065f2"
+    },
+    {
+      "id": "a643a0947fbd",
+      "title": "Elon Musk might merge SpaceX with Tesla or xAI",
+      "url": "https://www.theverge.com/tech/870380/elon-musk-space-x-xai-merger",
+      "summary": "報道によると、イーロン・マスク率いるSpaceXが今年予定のIPOを前にxAIやテスラとの合併を検討中と報じられた。時期や金額は不明で、xAI傘下のGrokはEUで調査を受けている。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-29T19:47:58.000Z",
+      "contentHash": "78b0628725a8"
+    },
+    {
+      "id": "5aa5b442ce21",
+      "title": "Flameshot",
+      "url": "https://github.com/flameshot-org/flameshot",
+      "summary": "Flameshotは強力で使いやすいスクリーンショットツール。見た目変更やアプリ内編集、DBus/Imgur対応を備え、GUI/CLI両対応でトレイ常駐。遅延・保存先・クリップボードなどオプションが豊富でWindowsでも動作。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-29T19:30:35.000Z",
+      "contentHash": "78954d2f20b0"
+    },
+    {
+      "id": "8156d6b7bd14",
+      "title": "Apple’s second biggest acquisition ever is an AI company that listens to ‘silent speech’",
+      "url": "https://www.theverge.com/news/870353/apple-q-ai-acquisition-silent-speech",
+      "summary": "FT報道：Appleが顔の微動きを読み取り“無音”で会話するAI音声スタートアップQ.aiを約20億ドルで買収。光学センサー特許でヘッドフォンや眼鏡から非言語のAIアシスタント実現へ。創業者らはAppleに合流。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-29T19:22:27.000Z",
+      "contentHash": "8b130fc1a036"
+    },
+    {
+      "id": "ddec1a8a8a44",
+      "title": "Obsbot’s new gimbal webcam doesn’t justify its $350 price",
+      "url": "https://www.theverge.com/tech/867950/obsbot-tiny-3-lite-hands-on-impressions",
+      "summary": "Obsbotの新型ジンバル内蔵ウェブカメラTiny 3（$349）とTiny 3 Lite（$199）。Tiny 3は「最小のPTZ 4K」63gや大きめセンサー、AI機能、MEMSマイクを搭載するが、ソフトは煩雑で競合に対する明確な優位性がなく価格を正当化しない、というレビュー。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-29T19:14:27.000Z",
+      "contentHash": "36879b8189e5"
+    },
+    {
+      "id": "5e76a21b6902",
+      "title": "PlayStation 2 Recompilation Project Is Absolutely Incredible",
+      "url": "https://redgamingtech.com/playstation-2-recompilation-project-is-absolutely-incredible/",
+      "summary": "2026年1月22日、プリンス・オブ・ペルシャのリメイクを含む計6件のプロジェクトが中止された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-29T18:55:38.000Z",
+      "contentHash": "a334415e0518"
+    },
+    {
+      "id": "b09aa1a2bae2",
+      "title": "County pays $600k to pentesters it arrested for assessing courthouse security",
+      "url": "https://arstechnica.com/security/2026/01/county-pays-600000-to-pentesters-it-arrested-for-assessing-courthouse-security/",
+      "summary": "2019年、アイオワ司法局の書面許可で裁判所のセキュリティ診断を行ったペネトレーター2名が逮捕された件で、ダラス郡は不当逮捕・名誉毀損の訴訟を和解し60万ドルを支払う。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-29T18:48:09.000Z",
+      "contentHash": "ac68125b29b7"
+    },
+    {
+      "id": "582499da877c",
+      "title": "My Mom and Dr. DeepSeek (2025)",
+      "url": "https://restofworld.org/2025/ai-chatbot-china-sick/",
+      "summary": "57歳の腎移植患者の母は、遠方まで通院しても診察は3〜5分しか受けられなかったが、AIチャットボット「DeepSeek」に検査や画像を送って相談し、診断や生活・服薬指導を受けてケアを補完している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-29T18:45:27.000Z",
+      "contentHash": "010ee7f1d049"
+    },
+    {
+      "id": "3ebd996f0475",
+      "title": "Everything is gambling now: the latest news on prediction markets like Polymarket and Kalshi",
+      "url": "https://www.theverge.com/news/868238/prediction-markets-polymarket-kalshi-robinhood",
+      "summary": "予測市場（Polymarket等）はあらゆる事象に賭けられ、驚異的な的中率が謳われる一方で賭博と投機の境界を曖昧にし、内部情報や倫理問題も指摘される。例: マドゥロ捕縛賭けで大勝ち。ポルトガルは政治賭博と無許可運営を理由に停止命令を出した。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-29T18:42:54.000Z",
+      "contentHash": "2e2ff41c9a13"
+    },
+    {
+      "id": "b9280262583f",
+      "title": "Tesla is committing automotive suicide",
+      "url": "https://electrek.co/2026/01/29/tesla-committing-automotive-suicide/",
+      "summary": "報道によれば、イーロン・マスクがテスラ、xAI、スペースXの合併を検討しているとの噂が浮上した（Fred Lambert報、2026年1月29日）。目的や詳細、関係者の公式確認はまだない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-29T18:16:45.000Z",
+      "contentHash": "946382d79d8e"
+    },
+    {
+      "id": "3f451f44393f",
+      "title": "Spotify&#8217;s new group chats share music with everyone in your circle",
+      "url": "https://www.theverge.com/news/870288/spotify-group-chats-direct-messaging-expansion",
+      "summary": "Spotifyがアプリ内メッセージを拡充し、最大10人のグループチャットを追加。参加はJam、共同プレイリスト、Blendsなどで事前に交流のある相手のみ。作成はメッセージ→「グループを作成」。併せてモバイルで友人の再生状況を表示するListening Activityも導入。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-29T17:36:13.000Z",
+      "contentHash": "9cf0bde27aba"
+    },
+    {
+      "id": "cc199a204545",
+      "title": "Project Genie: Experimenting with infinite, interactive worlds",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/",
+      "summary": "Google DeepMindの実験プロトタイプ「Project Genie」が米国のGoogle AI Ultra加入者向けに提供開始。Genie 3でテキストや画像から即座にインタラクティブな世界を生成・探索・リミックスできるが、現実感やキャラ制御など課題があり、今後提供拡大を目指す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-29T17:02:39.000Z",
+      "contentHash": "cbe2bb8398d1"
+    },
+    {
+      "id": "3d90eff6f863",
+      "title": "Half of developers think gen AI is bad for the gaming industry",
+      "url": "https://www.theverge.com/entertainment/869386/ai-game-development-gdc-survey",
+      "summary": "GDCの調査（2300人）で、生成AIを「悪影響」と答えた開発者が52%に達し、肯定的は7%にとどまった。否定的見方は2024年の18%→2025年30%→今回52%と急増している。",
+      "source": "The Verge",
+      "publishedAt": "2026-01-29T17:00:00.000Z",
+      "contentHash": "77583babeafe"
+    },
+    {
+      "id": "fb8ebea05eed",
+      "title": "Mozilla is building an AI 'rebel alliance' to take on OpenAI, Anthropic",
+      "url": "https://www.cnbc.com/2026/01/27/mozilla-building-an-ai-rebel-alliance-to-take-on-openai-anthropic-.html",
+      "summary": "Mozillaは約14億ドルの準備金を使い、AIの安全性やガバナンスに取り組むスタートアップへ投資し、OpenAIやAnthropicに対抗する“反乱同盟”を構築。トランプ政権の批判など課題もある。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-29T16:46:21.000Z",
+      "contentHash": "e9bd2f948964"
+    },
+    {
+      "id": "32d76f4963f3",
+      "title": "Launch HN: AgentMail (YC S25) – An API that gives agents their own email inboxes",
+      "url": "https://news.ycombinator.com/item?id=46812608",
+      "summary": "Emailは長時間稼働するエージェントに適するがGmail APIは制約が多い。そこで受信箱作成や添付解析、スレッド処理、Webhook、セマンティック検索、従量課金を備えた開発者向けメールサービスAgentMailを提供し、エージェント運用を支援する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-29T16:42:33.000Z",
+      "contentHash": "11c2fc09ac8e"
+    },
     {
       "id": "999302e73589",
       "title": "Linux gaming developers join forces to form the Open Gaming Collective",
@@ -164,6 +443,15 @@
       "contentHash": "09fea8184214"
     },
     {
+      "id": "fa5410010e0a",
+      "title": "Inside OpenAI’s in-house data agent",
+      "url": "https://openai.com/index/inside-our-in-house-data-agent",
+      "summary": "OpenAIはGPT-5、Codex、メモリを組み合わせた社内AIデータエージェントを構築。自動コード生成や外部記憶で巨大データに対する質問応答・推論・レポートを数分で行い信頼できる洞察を提供。",
+      "source": "OpenAI",
+      "publishedAt": "2026-01-29T10:00:00.000Z",
+      "contentHash": "5f50a83f581d"
+    },
+    {
       "id": "8080a4c1f39c",
       "title": "【社員紹介】A.S.  ／ 株式会社FreakOut_PM Division | FreakOut Backyard",
       "url": "https://backyard.fout.co.jp/2026/01/stories/fo_as/",
@@ -239,10 +527,10 @@
       "id": "42a3099a6b26",
       "title": "Chrome の Gemini 3 を活用した新機能まとめ",
       "url": "https://note.com/npaka/n/n86cd73338563",
-      "summary": "ChromeがGemini 3を統合。サイドパネルで常時AIアシスタント、Nano Bananaで即時画像編集、Gmail等のConnected Apps連携、Personal Intelligence導入、Auto Browseで複雑な自動化を実現。",
+      "summary": "ChromeにGemini 3を統合し、常時使えるサイドパネルでのマルチタスク支援、画像編集（Nano Banana）、Gmailやカレンダー等のConnected Apps連携、Personal Intelligenceによる個人化、複雑作業を自動化するAuto Browseで生産性向上を図るアップデート。",
       "source": "npaka",
       "publishedAt": "2026-01-29T06:07:30.000Z",
-      "contentHash": "bee566fc1e9f"
+      "contentHash": "9a3678c21dc0"
     },
     {
       "id": "e2fd144d4a41",
@@ -257,10 +545,10 @@
       "id": "d93cbb4621f2",
       "title": "GitHub Desktop の使い方",
       "url": "https://note.com/npaka/n/nb89af6522963",
-      "summary": "GitHub DesktopはGUIでGit/GitHubを操作する公式アプリ。リポジトリのクローン・作成・追加、差分確認や部分コミット、ブランチ作成/切替/マージ、Push/PullやPR作成が可能。画面で変更履歴やコミット入力、外部エディタやGitHubページを開ける。",
+      "summary": "GitHub Desktopはコマンド不要でGit/GitHubをGUI操作できる公式アプリ。リポジトリのクローン・作成・差分確認・部分コミット・ブランチ操作、Push/PullやPR作成が可能。ダウンロードしてログインし、リポジトリ表示や変更一覧、コミット欄で直感的に扱える。",
       "source": "npaka",
       "publishedAt": "2026-01-29T03:42:44.000Z",
-      "contentHash": "849bf6ab0504"
+      "contentHash": "4043e179c19e"
     },
     {
       "id": "fdd95e18c2cd",
@@ -369,6 +657,24 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-29T00:00:00.000Z",
       "contentHash": "6d3a0fbce7e4"
+    },
+    {
+      "id": "37bd9866fae9",
+      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
+      "url": "https://openai.com/index/taisei",
+      "summary": "大成建設はChatGPT Enterpriseを導入し、人事主導の人材育成を支援するとともに、生成AIをグローバルな建設事業へ展開している。",
+      "source": "OpenAI",
+      "publishedAt": "2026-01-29T00:00:00.000Z",
+      "contentHash": "93015c02ecfe"
+    },
+    {
+      "id": "54ada6137f69",
+      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+      "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
+      "summary": "2026年2月13日、以前発表されたGPT‑5（Instant/Thinking/Pro）の引退に合わせ、ChatGPTからGPT‑4o、GPT‑4.1、GPT‑4.1 mini、OpenAI o4‑miniを退役します。APIには現時点で変更なし。",
+      "source": "OpenAI",
+      "publishedAt": "2026-01-29T00:00:00.000Z",
+      "contentHash": "5930bd2d5b8d"
     },
     {
       "id": "5538857a61dd",
@@ -527,10 +833,10 @@
       "id": "6d851e9adcd4",
       "title": "Blender MCP 1.5 を試す",
       "url": "https://note.com/npaka/n/n5779c08bdc8a",
-      "summary": "Blender MCPを試用したレポート。環境はBlender 5.0.1、Blender MCP 1.5.5で、導入手順や操作感、機能や問題点などをまとめています。詳細は本文へ。",
+      "summary": "Blender MCP 1.5.5はClaudeとBlenderをソケットで直結し、プロンプトでの3D生成・編集やBlender内でのPython実行を可能にするアドオン。Hunyuan3D/Hyper3D、Sketchfab/Poly Haven連携、ビューポート解析、リモート実行、テレメトリ機能を追加。Blender・Claude Desktop・Python(3.10+)等が必要。",
       "source": "npaka",
       "publishedAt": "2026-01-28T18:11:27.000Z",
-      "contentHash": "8b253f2de589"
+      "contentHash": "dae9b047bc5a"
     },
     {
       "id": "17140b072924",
@@ -698,10 +1004,10 @@
       "id": "34e4d32ff5e5",
       "title": "Rodin の 3Dモデル生成 を試す",
       "url": "https://note.com/npaka/n/n2a3c5cafa039",
-      "summary": "Rodinを試した。テキストや画像から高品質な3Dモデルを自動生成でき、ゲーム・アニメ・3Dプリント・AR/VR等で利用可。手順はGoogleログイン→Gen-2選択→画像アップ→生成→テクスチャ→ダウンロード。リギングは非対応。",
+      "summary": "AIサービス「Rodin」を試用。テキストや画像から高品質な3Dモデルを自動生成し、ゲーム・アニメ・3Dプリント・AR/VRで利用可能。手順はGoogleログイン→Gen‑2選択→画像アップ→生成→テクスチャ生成→ダウンロード。リギング機能はなし。",
       "source": "npaka",
       "publishedAt": "2026-01-28T11:50:03.000Z",
-      "contentHash": "883fd6577660"
+      "contentHash": "5dd392312c52"
     },
     {
       "id": "5e149b251993",
@@ -1094,10 +1400,10 @@
       "id": "867364d1169b",
       "title": "Gemini 3 Flash の新機能 Agentic Vision の概要",
       "url": "https://note.com/npaka/n/n1c2946c76a9e",
-      "summary": "Gemini 3 FlashのAgentic Visionは、思考→行動（Pythonでズーム・切り取り・注釈・解析）→観察のループで画像理解を能動化。変換画像を文脈に追加し、多くのベンチで5～10%精度向上。ズーム検査、注釈、視覚計算・可視化などで実装済み。",
+      "summary": "Gemini 3 FlashのAgentic Visionは、視覚理解を「思考→行動→観察」のエージェント式に変え、Pythonで画像を拡大・切り取り・注釈・計算して新画像をコンテキストに追加。コード実行で多くのベンチマークが5～10%改善、建築図検査や指のカウント、視覚的計算・プロットなどに応用可能。",
       "source": "npaka",
       "publishedAt": "2026-01-27T22:29:01.000Z",
-      "contentHash": "6036b65368c4"
+      "contentHash": "14968ee0977c"
     },
     {
       "id": "ea212c3043eb",
@@ -8694,312 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-14T06:11:27.000Z",
       "contentHash": "8ac6ad092afa"
-    },
-    {
-      "id": "92d1596e0e05",
-      "title": "【開発Days vol.4】ページデザイン変更とEASの導入 | ハウテレビジョン技術ブログ",
-      "url": "https://howtv.hatenablog.com/entry/2026/01/14/151118",
-      "summary": "開発Days vol.4では、外資就活ネクストのトップを暗青から明るい青へリデザインし、MagicPodへの影響を確認後リリース。外資就活GrowthはGORM v2移行を技術負債解消に軸足を移し、EAS導入でAppStore不要の高速アップデート化と表示問題解消。AWS等の調査も実施。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T06:11:18.000Z",
-      "contentHash": "9a5693e05571"
-    },
-    {
-      "id": "ed2120a27fcb",
-      "title": "メールアドレスでBASIC認証する〜ドメイン付きで認証したい〜 | IIJ Engineers Blog",
-      "url": "https://eng-blog.iij.ad.jp/archives/34370",
-      "summary": "ngx_auth_modのngx_rewrite_authを使い、user@example.com形式のBASIC認証を既存のアカウント名認証を流用して実現する方法を解説。メールのローカル部を正規表現で抽出して書き換え、nginx設定（準備・テスト・ドメイン追加・利用・必要ならキャッシュ）で導入する手順を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T06:11:11.000Z",
-      "contentHash": "7da18ea2d3b3"
-    },
-    {
-      "id": "be3a4605eb2a",
-      "title": "認証をnginx用にちょっと弄れる機能〜認証だってrewriteしたい〜 | IIJ Engineers Blog",
-      "url": "https://eng-blog.iij.ad.jp/archives/34027",
-      "summary": "nginx用認証モジュールngx_auth_modに、既存認証をカスタマイズ・組み合わせる3つの新モジュール(ngx_rewrite_auth／ngx_rewrite_and_auth／ngx_rewrite_switch_auth)を追加。BASICやLDAPと連携して認証情報を書き換えたり、複数モジュールをAND結合したり、ユーザ名で切替え可能。nginx再ビルド不要で多段組合せやメールアドレス振り分け等の設定例を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T06:10:44.000Z",
-      "contentHash": "1c192d961645"
-    },
-    {
-      "id": "84f90f379b15",
-      "title": "1000 Blank White Cards",
-      "url": "https://en.wikipedia.org/wiki/1000_Blank_White_Cards",
-      "summary": "『1000 Blank White Cards』は、参加者が白紙のカードに独自の効果やルールを書き加えて遊ぶ即興の協働カードゲーム。デッキは成長・変化し、得点や処理は場の合意で決まるため混沌とユーモアに富み、ネットや実地で多様な派生が生まれた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-14T03:08:37.000Z",
-      "contentHash": "6e8b1548c4c0"
-    },
-    {
-      "id": "3f0dc530d8ce",
-      "title": "The Gleam Programming Language",
-      "url": "https://gleam.run/",
-      "summary": "外部サイトに直接アクセスできないため記事を取得できません。記事本文を貼るか主要箇所を送ってください。受け取り次第、200字以内で日本語要約します。HNコメントもまとめ希望なら併せて貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-14T02:49:25.000Z",
-      "contentHash": "11b9cf3aab7b"
-    },
-    {
-      "id": "c909d5536e8c",
-      "title": "Stop using natural language interfaces",
-      "url": "https://tidepool.leaflet.pub/3mcbegnuf2k2i",
-      "summary": "申し訳ありませんが、外部サイトへ直接アクセスできないためURLの内容を取得できません。記事本文を貼るか要点を教えていただければ、200文字以内の日本語要約を作成します。どちらにしますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-14T02:29:08.000Z",
-      "contentHash": "3544b6c2c3e6"
-    },
-    {
-      "id": "62888e91149a",
-      "title": "ASCII Clouds",
-      "url": "https://caidan.dev/portfolio/ascii_clouds/",
-      "summary": "すみません、外部リンクを直接取得できません。記事本文を貼り付けていただければ、200文字以内で要約します。HNのコメントも要約希望なら、そちらも貼ってください。必要なら要約のトーン（簡潔／技術寄り／初心者向け）も教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-14T02:20:42.000Z",
-      "contentHash": "be1b0c5d07d0"
-    },
-    {
-      "id": "ef9242df8c3c",
-      "title": "Minor says ICE took his iPhone, later found in used-electronics vending machine",
-      "url": "https://www.propublica.org/article/videos-ice-dhs-immigration-agents-using-chokeholds-citizens",
-      "summary": "ProPublicaの調査で、移民当局の職員が禁止されている絞め技や呼吸を止める恐れのある拘束を40件超で使用している映像や記録が確認されたことを報じた。記事は関連画像や出典を掲載している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-14T02:00:47.000Z",
-      "contentHash": "394332445f09"
-    },
-    {
-      "id": "7315f3f71e16",
-      "title": "デザイン超初心者が、デザインツールを開く前に最初に考えるべき3つのこと | [公開中] AQ Tech Blog",
-      "url": "https://techblog.asia-quest.jp/202601/start-design-from-scratch",
-      "summary": "デザイン前に考えるべき3点：①この画面で誰に何をしてほしいか（成功条件）を明確にする、②載せたい情報を洗い出し優先順位とグループ化をする、③ざっくり配置して早めに周囲の意見をもらう。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T01:26:25.000Z",
-      "contentHash": "0233307d6000"
-    },
-    {
-      "id": "e340981c6214",
-      "title": "pmconf 2025にゴールドスポンサーとして出展しました！〜Oisixが向き合うプロダクトマネジメントの現在地〜 | Oisix ra daichi Creator's Blog（オイシックス・ラ・大地クリエイターズブログ）",
-      "url": "https://creators.oisixradaichi.co.jp/entry/2026/01/14/102531",
-      "summary": "オイシックスはpmconf2025にゴールドスポンサー出展。PM組織の認知向上・他社事例収集・交流構築を目的に参加し、来場者の意見や先進事例に刺激を受けて2025年度からPM強化を本格化。ブースで“解きたい食の課題”を収集し開発に活用予定。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T01:25:31.000Z",
-      "contentHash": "2379cee5f1dd"
-    },
-    {
-      "id": "c3f25d138164",
-      "title": "デザインエンジニアMeetup! #4 イベントレポート | estie inside blog",
-      "url": "https://www.estie.jp/blog/entry/2026/01/14/100147",
-      "summary": "2025年12月4日開催の「デザインエンジニアMeetup #4」。テーマはドメイン特有のデザインとエンジニアリング。estieのshunがDaaSの可視化・インタラクション（鳥かご図）、Loglass齋藤が多次元データUIを紹介。懇親会も盛況で次回は3〜4月予定。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T01:01:47.000Z",
-      "contentHash": "a378ec3d0883"
-    },
-    {
-      "id": "6856948b1e1c",
-      "title": "【Salesforce】ソース駆動開発で資料メンテ地獄から脱却！Node.js×CLIによる自動化の取り組み | TechBlog - BIGLOBE Style ｜ BIGLOBEの「はたらく人」と「トガッた技術」",
-      "url": "https://style.biglobe.co.jp/entry/2026/01/14/100000",
-      "summary": "BIGLOBEはSalesforce CLIとNode.jsでメタデータを取得し、TSV経由でGoogleスプレッドシートへ逆生成する仕組みを構築。例としてスケジュール済みフローのバッチ一覧を自動出力し実装画面への直リンクを付与、手作業を廃止して設計書の誤記を防止、他資産へ展開予定。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T01:00:00.000Z",
-      "contentHash": "35b8ea447a44"
-    },
-    {
-      "id": "21c297d9b53c",
-      "title": "アプリ開発の上流工程で「試せるところは全部AI」に振り切ってみた話 | GMO Developers",
-      "url": "https://developers.gmo.jp/technology/75879/",
-      "summary": "本文が途中で途切れています。全文を貼るか記事のURLを教えてください。あるいは今の冒頭部分のみで要約してよければ、その旨を伝えてください（その場合は情報が限定されます）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T01:00:00.000Z",
-      "contentHash": "b62cdf1e6298"
-    },
-    {
-      "id": "7a128fedab4f",
-      "title": "週1共有会で進める！Web制作・フロントエンド改善の6事例 | OPTiM TECH BLOG",
-      "url": "https://tech-blog.optim.co.jp/entry/2026/01/14/100000",
-      "summary": "プロモ・デザインUが週1回の共有会でWeb制作の課題を議論し、GitLab（自動ブランチ削除、CIテスト）、CSS/SCSS（フォーマッター統一、font-size関数）、PHP/WordPress（画像上書き等）、AI活用をチケット化して改善を進めた成果を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T01:00:00.000Z",
-      "contentHash": "31e547b9f905"
-    },
-    {
-      "id": "d3def4d244d8",
-      "title": "Vol. 16 チーム成果最大化に向き合う新米リーダーの話 | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/01/14/100000",
-      "summary": "Bill Oneの新米リーダーが半年でPBI三件を期限内無事故で達成。個の奮闘ではなくチームを強くする方針で、夕会で可視化、決定を先延ばしにして走りながら調整、心理的安全性とサーバントリーダーシップ育成、リスクの見える化、レトロを実験設計化するなど試行錯誤を続けた記録。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T01:00:00.000Z",
-      "contentHash": "fee157b07f5b"
-    },
-    {
-      "id": "0426a7106d24",
-      "title": "GitHub Spec Kitをもう一度試してみよう | NEXTSCAPE blog",
-      "url": "https://blog.nextscape.net/archives/2026/01/14/093929",
-      "summary": "ネクストスケープの小野塚氏がGitHub Spec Kitを再検証。Windows上で最新版の/speckit.*コマンド（constitution、specify、plan、tasks、implementなど）を使い、AI主導で設計→計画→実装する手順と補助コマンドをVSCodeで実演。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T00:39:29.000Z",
-      "contentHash": "ebac661f5dca"
-    },
-    {
-      "id": "0b198635ef33",
-      "title": "Model routerの更新ポリシーを自動アップグレードなしにする方法(Azure OpenAIリソース、Microsoft Foundry[旧：Azure AI Foundry]リソース) | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/01/14/093849",
-      "summary": "Model routerは入力に応じ最適モデルへ自動ルーティングしますが、UIでは「既定バージョンに自動更新」しか選べず意図せぬバージョン切替の恐れがあります。記事はAzure Cloud ShellでAzure CLI／PowerShellを使い自動アップグレードを無効化する手順と、FoundryとAzure OpenAI間の設定差を解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T00:38:49.000Z",
-      "contentHash": "a82efbe29a25"
-    },
-    {
-      "id": "b1defc09409b",
-      "title": "AI に「学ばせ、調べさせ、作らせる」。Auth0 開発を加速させる7つの実践的アプローチ | 株式会社ログラス テックブログのフィード",
-      "url": "https://zenn.dev/loglass/articles/a9f18162a5487e",
-      "summary": "マルチプロダクト／マルチテナント対応のため、Auth0改修をAI（コーディングエージェント）で進めた記録。知識不足のチームが「学ぶ・調べる・作る」の3段階で7手法を導入し、リポジトリ横断の仕様抽出やシーケンス図、Terraform活用で効率化した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-14T00:32:43.000Z",
-      "contentHash": "58aacd02b75c"
-    },
-    {
-      "id": "b48385c0dcb9",
-      "title": "The $LANG Programming Language",
-      "url": "https://news.ycombinator.com/item?id=46610557",
-      "summary": "HNで新しい言語を紹介するコツを投稿し、\"The {name} programming language\"とShow HNの言語投稿を集めたキュレーション(/thelang,/showlang)を公開。Go・Rust・Julia・Swift等の有名例と風変わりな言語も収録、更新方法を検討中。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-14T00:17:19.000Z",
-      "contentHash": "1db2d1e072ad"
-    },
-    {
-      "id": "8e5ff3297dd4",
-      "title": "Inside the White House shitposting machine",
-      "url": "https://www.theverge.com/column/861476/trump-memes-venezuela-ice-shooting",
-      "summary": "ヴァージ紙の記者ティナ・グエンが、ホワイトハウスの“シットポスティング”＝ミーム／炎上狙いの広報戦略を解説。トランプ大統領がSNSで拡散したジェフリーズやシューマーのAI改変動画などを分析している。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-13T23:27:00.000Z",
-      "contentHash": "1a94eb6721d3"
-    },
-    {
-      "id": "766b21d99ca6",
-      "title": "A 40-line fix eliminated a 400x performance gap",
-      "url": "https://questdb.com/blog/jvm-current-thread-user-time/",
-      "summary": "OpenJDKでスレッドCPU時間取得の/procパース実装をclock_gettimeに置換。冗長なコードを削除し55行のJMHベンチを追加。約40行の修正で最大400倍の性能差を解消した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-13T23:00:36.000Z",
-      "contentHash": "7ddfaddf176d"
-    },
-    {
-      "id": "005a202b70ca",
-      "title": "The insecure evangelism of LLM maximalists",
-      "url": "https://lewiscampbell.tech/blog/260114.html",
-      "summary": "筆者はLLMに懐疑的だが、検索や限定的なコーディングでは有用と認める。しかしエージェント型の「プロンプト駆動開発」は手間と誤りが多く失望。熱狂的擁護派の強硬で攻撃的な態度に疑問を抱く。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-13T22:57:23.000Z",
-      "contentHash": "0101190cc483"
-    },
-    {
-      "id": "a23cb75bd2ae",
-      "title": "When hardware goes end-of-life, companies need to open-source the software",
-      "url": "https://www.marcia.no/words/eol",
-      "summary": "製品がEOLになったら企業にソフトを公開させるべきと提案。例としてアプリ停止で使えなくなったスマート体重計やSpotifyのCar Thingを挙げ、ハード仕様・接続プロトコルを公開してコミュニティに再利用させるべきだと主張。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-13T22:49:51.000Z",
-      "contentHash": "edb685ac984d"
-    },
-    {
-      "id": "1f5f648d10af",
-      "title": "WeatherTech founder might be the newest US consumer protection official",
-      "url": "https://www.theverge.com/news/861560/weathertech-founder-david-macneil-federal-trade-commission",
-      "summary": "トランプ氏はWeatherTech創業者でCEOのデビッド・マクニールを連邦取引委員会（FTC）委員に指名。1989年創業で100%所有、米国内製造を重視する経営者。FTC議長は称賛し、承認されればホリオークの後任。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-13T22:28:00.000Z",
-      "contentHash": "1a20126179da"
-    },
-    {
-      "id": "b890bfc2a210",
-      "title": "We can't have nice things because of AI scrapers",
-      "url": "https://blog.metabrainz.org/2025/12/11/we-cant-have-nice-things-because-of-ai-scrapers/",
-      "summary": "MetaBrainzが、AI学習目的のスクレイパーによる無断収集でサーバ負荷やデータ乱用が発生していると報告。コミュニティ所有のメタデータ保護のため、アクセス制限やレート制限強化など対策を講じ、ライセンス尊重を訴えた。HNで議論が活発化。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-13T21:57:32.000Z",
-      "contentHash": "cb6ed7a06ac8"
-    },
-    {
-      "id": "ae91fc77e151",
-      "title": "Veo 3.1 Ingredients to Video の機能強化",
-      "url": "https://note.com/npaka/n/neafa7d9b1d4d",
-      "summary": "Veo 3.1のIngredients to Videoが強化され、短いプロンプトで素材画像から一貫性のあるキャラクター・背景や質感の融合が可能に。初の縦型9:16出力と1080p/4Kアップスケールを導入。Gemini、YouTube、Flow、API、Vertex AI等で提供し、生成動画はSynthIDで検証可能。",
-      "source": "npaka",
-      "publishedAt": "2026-01-13T21:37:51.000Z",
-      "contentHash": "2c0955c99f33"
-    },
-    {
-      "id": "2d3a0b08ac3e",
-      "title": "I tested several cases for the Switch 2 and these are the best",
-      "url": "https://www.theverge.com/reviews/691319/best-switch-2-cases",
-      "summary": "発売以来テストしたスイッチ2用ケース紹介。携帯や使用中に装着できる保護ケース、輸送時の傷防止用キャリングケースなど複数タイプを比較し推奨。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-13T21:25:05.000Z",
-      "contentHash": "447f1838e99a"
-    },
-    {
-      "id": "98373f834424",
-      "title": "The Bone Temple turns 28 Years Later into a terrifying crisis of faith",
-      "url": "https://www.theverge.com/entertainment/859756/28-years-later-the-bone-temple-review",
-      "summary": "ニア・ダコスタ監督の『The Bone Temple』は、『28 Years Later』の続編で、終末を舞台に宗教的・精神的な信仰の危機を描き、シリーズを一変させる恐怖作だと評されている。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-13T21:00:00.000Z",
-      "contentHash": "e9c48549acc2"
-    },
-    {
-      "id": "de8a377b4f90",
-      "title": "Senate passes a bill that would let nonconsensual deepfake victims sue",
-      "url": "https://www.theverge.com/news/861531/defiance-act-senate-passage-deepfakes-grok",
-      "summary": "上院がDEFIANCE法案を全会一致で可決。無断で性的画像に合成された被写体が作成者を民事訴訟できるようにし、配信禁止法（Take It Down）を補完。XのAI裸画像問題を受けた対応。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-13T20:53:10.000Z",
-      "contentHash": "b96789fd594d"
-    },
-    {
-      "id": "fd77af06b1f4",
-      "title": "The best phone to buy right now",
-      "url": "https://www.theverge.com/22163811/best-phone",
-      "summary": "高価化するフラッグシップの中で、日常使いに安心でコスパの良い機種を厳選。ハードよりソフトの進化が中心で、防水対応の折り畳みや高機能なフリップなど選択肢が増加。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-13T20:51:53.000Z",
-      "contentHash": "6c85d2825f43"
-    },
-    {
-      "id": "df0e41e39ec4",
-      "title": "Games Workshop bans staff from using AI",
-      "url": "https://www.ign.com/articles/warhammer-maker-games-workshop-bans-its-staff-from-using-ai-in-its-content-or-designs-says-none-of-its-senior-managers-are-currently-excited-about-the-tech",
-      "summary": "ウォーハンマー社Games WorkshopはAIによるコンテンツ制作やデザイン利用を禁止。CEOケビン・ラウントリーは慎重姿勢を示し、数名の幹部のみ試験的に扱い、知財と人材保護を優先しWarhammer Studioへの投資を継続すると述べた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-13T20:45:43.000Z",
-      "contentHash": "0e060a631a1a"
-    },
-    {
-      "id": "43715dadad44",
-      "title": "Anthropic shakes up C-suite to expand its internal incubator",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/861475/anthropic-ai-c-suite-internal-incubator-labs-team-mike-krieger",
-      "summary": "Instagram共同創業者のマイク・クリーガーがAnthropicの最高製品責任者から内部インキュベーター「Labs」共同リーダーへ異動。ダニエラ・アモデイ直属の技術職でベン・マンと共に実験的プロダクトを拡大。製品担当はアミ・ヴォラが引き継ぎ、CTOラフール・パティルと連携。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-13T20:30:00.000Z",
-      "contentHash": "5da2e4934cc7"
-    },
-    {
-      "id": "b9fd893e5386",
-      "title": "The best noise-canceling headphones to buy right now",
-      "url": "https://www.theverge.com/21345733/best-noise-canceling-headphones",
-      "summary": "通勤や旅行、在宅ワーク向けのノイズキャンセリングヘッドホン特集。総合ではソニーが推奨されるが、ボーズやAirPods Max、Bowers & Wilkins、ゼンハイザーなど用途や音質で選べる多彩な選択肢を紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-13T20:25:49.000Z",
-      "contentHash": "54132b64b2cc"
-    },
-    {
-      "id": "ca9f26e0f6dd",
-      "title": "RFK Jr.’s new food pyramid could be a disaster for the environment — if Americans actually follow it",
-      "url": "https://www.theverge.com/report/861326/meat-food-pyramid-protein-nutrition-guideline-climate-beef-whole-milk-tallow",
-      "summary": "RFKジュニア提案の新しい食品ピラミッドは、牛脂やタンパク質重視を推奨し、もし米国民が従えば温室効果ガス増加など環境負荷が悪化し低炭素食から遠ざかる恐れがある。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-13T20:01:37.000Z",
-      "contentHash": "a395b5b00652"
     }
   ]
 }
