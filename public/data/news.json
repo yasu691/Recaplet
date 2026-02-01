@@ -1,14 +1,59 @@
 {
-  "generatedAt": "2026-02-01T03:04:41.687Z",
+  "generatedAt": "2026-02-01T08:52:45.026Z",
   "items": [
+    {
+      "id": "83d1bcbc2d61",
+      "title": "Hitem3D の 3Dモデル生成 を試す",
+      "url": "https://note.com/npaka/n/nb775130d2655",
+      "summary": "Hitem3Dを試用。テキストや画像から高品質な3Dモデルを自動生成でき、ゲーム・アニメ・3Dプリント・AR/VRで利用可能。操作はログイン→画像アップ→生成→ダウンロード。リギング機能は無い模様。",
+      "source": "npaka",
+      "publishedAt": "2026-02-01T08:03:55.000Z",
+      "contentHash": "2c6aefc1cc57"
+    },
+    {
+      "id": "0899b7382802",
+      "title": "Reachy Mini Robot with NeMo Agent Toolkit Tutorial の概要",
+      "url": "https://note.com/npaka/n/n281f72eb1e40",
+      "summary": "本チュートリアルは、Nemotron搭載のNeMo Agent ToolkitでReachy Miniを制御する手順を解説します。Reachy Mini Daemon・Bot Service・NeMo Agent Serviceの3構成で、LLMルーターがテキスト（Nemotron nano）、視覚（VLM）、ツール（REACT）を動的に振り分けます。Python3.10以上とNVIDIA/ElevenLabs APIキーが必要で、リポジトリをクローンし.env作成後に3つのプロセスを起動して実行します。",
+      "source": "npaka",
+      "publishedAt": "2026-02-01T05:52:44.000Z",
+      "contentHash": "ae3d40a39ca3"
+    },
+    {
+      "id": "1b12c1984b7b",
+      "title": "S3レプリケーション完了をトリガーにLambdaでファイルを日付リネームする | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/02/01/112112",
+      "summary": "S3のレプリケーション完了をEventBridgeで検知し、Lambdaがタイムスタンプを付けてprocessed/へ移動（コピー＋削除でリネーム）する自動化を、バージョニングや最小権限のIAM設定と共に手順・コードで紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-01T02:21:12.000Z",
+      "contentHash": "e05fd97fe248"
+    },
+    {
+      "id": "78c58078485e",
+      "title": "CloudFormationのドキュメント更新を自動化する「cfn-docs」を触ってみた | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/02/01/111956",
+      "summary": "CloudFormationテンプレートからMarkdownドキュメントを自動生成するcfn-docs（cfn-docgen）を試用。ドキュメントの鮮度維持やレビュー効率化、共有性向上が利点。導入はPython3.10+とツールのインストール、コマンド実行で出力。手軽だがカスタムフォーマット対応や一部リソース差異に注意。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-01T02:19:56.000Z",
+      "contentHash": "a7fc95099ebc"
+    },
     {
       "id": "1242de82e6e2",
       "title": "アニメのカメラレンズ入門",
       "url": "https://note.com/npaka/n/n2b18b9f4db99",
-      "summary": "アニメ演出ではカメラの動きよりレンズ選びが重要。広角・標準・望遠の3種でほぼ事足りる。広角は迫力や誇張パース、標準は自然で日常・会話向き、望遠は圧縮で感情や緊張を強める。",
+      "summary": "カメラ演出では動きよりレンズ選びが重要。広角・標準・望遠の3種で表現が大きく変わる。広角は迫力や誇張、標準は自然で会話・日常向き、望遠は背景圧縮で感情や緊張を強める。",
       "source": "npaka",
       "publishedAt": "2026-02-01T01:30:56.000Z",
-      "contentHash": "363049f4ba02"
+      "contentHash": "2d1541b9d81d"
+    },
+    {
+      "id": "41ec7b16181b",
+      "title": "List animals until failure",
+      "url": "https://rose.systems/animalist/",
+      "summary": "外部サイトに直接アクセスできないため、記事本文（または主要部分）をここに貼っていただけますか？200文字以内で要約します。HNのコメントも含めるかどうか教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-01T01:03:23.000Z",
+      "contentHash": "7fdbe685ae00"
     },
     {
       "id": "34f24db54e25",
@@ -57,7 +102,7 @@
     },
     {
       "id": "9ab838a92acd",
-      "title": "Swift is a more convenient Rust",
+      "title": "Swift is a more convenient Rust (2023)",
       "url": "https://nmn.sh/blog/2023-10-02-swift-is-the-more-convenient-rust",
       "summary": "筆者はRustを学んで、Swiftと機能面で非常に似ていると気づいた。所有権やunsafe、列挙型・match・ジェネリクス、LLVM/WASM対応など共通点が多いが、Swiftは既定で値型・コピーオンライトを採り、必要時にムーブや低レベル操作ができる点でより扱いやすいという視点の違いがある。",
       "source": "Hacker News",
@@ -68,10 +113,46 @@
       "id": "3e40319aa746",
       "title": "Blender MCP で VRoid を操作する",
       "url": "https://note.com/npaka/n/n654db4ca3870",
-      "summary": "Blender MCPでVRoidを操作する手順。VRoid StudioでVRMを作成・エクスポートし、公式のVRMAアニメを入手。BlenderにVRM/VRMAアドオンで読み込み、MCPで表情・ボディアニメを切替・再生する方法とアクション一覧を紹介。",
+      "summary": "Blender 5.0.1＋Blender MCPでVRoidを操作する手順。VRoid StudioでVRMを出力し、公式のVRMAアニメを入手。VRM Add-onでBlenderに読み込み、MCPで表情やHumanoid等のアクションを切替・再生する流れを解説。",
       "source": "npaka",
       "publishedAt": "2026-01-31T21:21:21.000Z",
-      "contentHash": "cbf3c3f84ea7"
+      "contentHash": "5c7a49eb6de9"
+    },
+    {
+      "id": "b783814c6b4a",
+      "title": "Generative AI and Wikipedia editing: What we learned in 2025",
+      "url": "https://wikiedu.org/blog/2026/01/29/generative-ai-and-wikipedia-editing-what-we-learned-in-2025/",
+      "summary": "Wiki Educationは新規編集者の生成AI利用を調査し、ChatGPT等の出力をWikipediaにそのまま貼り付けるべきではないと結論。知見を公開し編集の質維持を支援する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-31T21:14:02.000Z",
+      "contentHash": "28a3fc0d1fc3"
+    },
+    {
+      "id": "c48bcd791a3c",
+      "title": "Outsourcing thinking",
+      "url": "https://erikjohannes.no/posts/20260130-outsourcing-thinking/index.html",
+      "summary": "記事は、LLMへの思考の外注が認知力を衰えさせるかを論じる。Masleyの「認知の塊」批判を紹介し、思考は有限でなく外注で新たな思考が生まれる可能性を指摘する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-31T21:06:57.000Z",
+      "contentHash": "5ebae0c05bd9"
+    },
+    {
+      "id": "750b96718439",
+      "title": "Autonomous cars, drones cheerfully obey prompt injection by road sign",
+      "url": "https://www.theregister.com/2026/01/30/road_sign_hijack_ai/",
+      "summary": "研究者らは、路上の看板に書かれた命令文が自動運転車やドローンの視覚系AI（LVLM）を誤作動させる「環境的間接プロンプト注入」をシミュレーションで実証。文言や書体・色・配置をAIで最適化する手法CHAIを開発し、多言語で横断や追尾の誤誘導など危険性を示した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-31T20:48:33.000Z",
+      "contentHash": "26c6d2047485"
+    },
+    {
+      "id": "2981b59534f7",
+      "title": "In praise of –dry-run",
+      "url": "https://henrikwarne.com/2026/01/31/in-praise-of-dry-run/",
+      "summary": "平日レポート生成アプリに、実行内容を表示して変更しない「--dry-run」オプションを追加。DB読み取り→生成→圧縮→SFTP転送などの手順や対象ファイルを確認でき、開発時や実行前の検証で毎日重宝した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-31T20:42:13.000Z",
+      "contentHash": "24423ac68466"
     },
     {
       "id": "c1f99230a58b",
@@ -83,6 +164,15 @@
       "contentHash": "5ded28c4d8d5"
     },
     {
+      "id": "f7b8647e372a",
+      "title": "The Saddest Moment (2013) [pdf]",
+      "url": "https://www.usenix.org/system/files/login-logout_1305_mickens.pdf",
+      "summary": "外部URLへ直接アクセスできないため、要約する本文を貼るかPDFをアップロードしてください。HNのコメント要約でもよければその旨を教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-31T20:02:36.000Z",
+      "contentHash": "099d01d391cc"
+    },
+    {
       "id": "a3f16f97e5fc",
       "title": "SpaceX wants to put 1 million solar-powered data centers into orbit",
       "url": "https://www.theverge.com/tech/871641/spacex-fcc-1-million-solar-powered-data-centers-satellites-orbit",
@@ -90,6 +180,24 @@
       "source": "The Verge",
       "publishedAt": "2026-01-31T19:38:36.000Z",
       "contentHash": "a8799fd523d8"
+    },
+    {
+      "id": "2aeeb4565993",
+      "title": "Google Cloud suspended my account for 2 years, only automated replies",
+      "url": "https://news.ycombinator.com/item?id=46839375",
+      "summary": "UC Berkeleyの研究者がGCPで2024年3月に停止。ts-consultへ2年近く何度も申請したが自動テンプレ返信だけで人間は応答せず。承認済みのクォータが本番でゼロにされ研究に支障、大手クラウドのサポート欠如に強い不満を抱き利用を避ける意向。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-31T18:41:36.000Z",
+      "contentHash": "080292106665"
+    },
+    {
+      "id": "be2363e380f3",
+      "title": "Nintendo DS code editor and scriptable game engine",
+      "url": "https://crl.io/ds-game-engine/",
+      "summary": "Nintendo DS上で動くスクリプト可能な3Dゲームエンジンを自作。C/libndsで約100KBの. ndsが60FPSで動作。下画面にタッチ式コードエディタ、上画面でリアルタイム3D（色付き立方体）。26変数(A–Z)と入力等9つの読み取り専用レジスタを備え、1行／フレームで実行。付属で動く3Dポンあり。実機起動にはフラッシュカートが必要。",
+      "source": "Hacker News",
+      "publishedAt": "2026-01-31T18:27:36.000Z",
+      "contentHash": "3424a2cf8372"
     },
     {
       "id": "a42974e26845",
@@ -446,10 +554,10 @@
       "id": "a0c668cd7f36",
       "title": "パブリック3Dアセットライブラリ PolyHaven を試す",
       "url": "https://note.com/npaka/n/n698bca9df3c4",
-      "summary": "無料で商用可の3D素材サイト「Poly Haven」をBlenderで試用。HDRI・PBRテクスチャ・3Dモデルを提供し、Blender MCPで有効化、Claude Desktopで指示して空HDRI・砂地・岩や草木・小物を使ったビーチ風シーンを作る手順を紹介。",
+      "summary": "PolyHavenはHDRI・PBRテクスチャ・3Dモデルを無料かつ商用可で配布する総合3D素材サイト。Blender MCPで有効化し、Claude Desktopの指示でHDRIの空、砂地、岩や草木、ビーチ小物を配置してビーチシーンを作成した試用記。",
       "source": "npaka",
       "publishedAt": "2026-01-30T20:47:34.000Z",
-      "contentHash": "d2a34e769fb2"
+      "contentHash": "7140701aa66d"
     },
     {
       "id": "5d8d7628b68d",
@@ -1094,10 +1202,10 @@
       "id": "47954b7977ac",
       "title": "Project Genie の概要",
       "url": "https://note.com/npaka/n/nf00a7bee4592",
-      "summary": "記事本文かURLを貼っていただけますか？内容を確認して200文字以内で正確に要約します。本文がない場合は、タイトルからの推測要約（正確性は保証できません）を作成しますが、どちらがよいですか？",
+      "summary": "Project Genieは汎用世界モデル「Genie 3」を核とした実験的Webプロトタイプ。米国ユーザー向けに公開し、テキストや画像でワールドをスケッチ、リアルタイム探索・リミックスできる。Nano Banana ProやGeminiを統合し、現実との不一致や生成時間制限など注意点がある。",
       "source": "npaka",
       "publishedAt": "2026-01-29T21:14:36.000Z",
-      "contentHash": "0adad584c0c2"
+      "contentHash": "57d1ae236219"
     },
     {
       "id": "0714487950ef",
@@ -8892,114 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-01-15T19:00:37.000Z",
       "contentHash": "a80144018b44"
-    },
-    {
-      "id": "16327c9e023b",
-      "title": "Data is the only moat",
-      "url": "https://frontierai.substack.com/p/data-is-your-only-moat",
-      "summary": "著者はAI競争で持続的な「堀」はデータだけと論じる。モデルや計算資源は追随可能で、独自で質の高いデータ収集・注釈・フィードバック回路と法規対応が差別化要因だ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-15T18:54:32.000Z",
-      "contentHash": "1e709d258170"
-    },
-    {
-      "id": "686f807f58dc",
-      "title": "JuiceFS is a distributed POSIX file system built on top of Redis and S3",
-      "url": "https://github.com/juicedata/juicefs",
-      "summary": "JuiceFSはApache 2.0の高性能POSIXファイルシステムで、データをS3等のオブジェクトストレージに、メタデータをRedis/MySQL/TiKV等に永続化。ローカル同等に利用可能でHadoop/S3互換、Kubernetes CSI対応、共有マウント、強整合・低遅延、暗号化・ロック・圧縮をサポートします。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-15T18:45:18.000Z",
-      "contentHash": "92e3bcab42f2"
-    },
-    {
-      "id": "c9fdd3188f26",
-      "title": "‘ELITE’: The Palantir app ICE uses to find neighborhoods to raid",
-      "url": "https://werd.io/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/",
-      "summary": "報道によれば、PalantirがICE向けに開発した地図アプリ「ELITE」は、移民密度などで標的候補地域を可視化し、氏名・写真・A番号・住所や住所の「信頼度」を示す個人別ドシエを表示。大規模な人種プロファイリングや強制送還支援と批判されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-15T18:42:46.000Z",
-      "contentHash": "f1d18e7b686b"
-    },
-    {
-      "id": "9b57f0306d8a",
-      "title": "CVEs affecting the Svelte ecosystem",
-      "url": "https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem",
-      "summary": "Svelte関連で5件の脆弱性が修正されました。該当パッケージを以下へ更新してください：devalue→5.6.2、svelte→5.46.4、@sveltejs/kit→2.49.5、@sveltejs/adapter-node→5.5.1。CVE-2026-22775（devalueのDoS）等。脆弱性はリポジトリのSecurityタブから非公開で報告してください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-15T17:51:24.000Z",
-      "contentHash": "fcf1ea0dfb3e"
-    },
-    {
-      "id": "8314a75faf51",
-      "title": "GitHub Incident",
-      "url": "https://www.githubstatus.com/incidents/q987xpbqjbpl",
-      "summary": "OTPの再送(30秒で再送可)やWebhooks送信先URLの指定、エンドポイント障害時のメール通知、技術ガイドの隔月配信、インシデントやプルリク更新のメール／SMS通知の案内。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-15T17:00:38.000Z",
-      "contentHash": "9707058aad9f"
-    },
-    {
-      "id": "71b04b5f10d9",
-      "title": "Ask HN: How can we solve the loneliness epidemic?",
-      "url": "https://news.ycombinator.com/item?id=46635345",
-      "summary": "友人関係は自分から定期的に連絡して企画すること。D&Dやコーヒー、ボランティア、Zoomや読書会などを提案し、自動リマインダーを使う。成功率は低いと受け入れ、拒絶感を感じつつ切り替える。現代は会いにくいがツールはある。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-15T16:49:13.000Z",
-      "contentHash": "463c85e0ffbc"
-    },
-    {
-      "id": "ea9f2cae437b",
-      "title": "Over 100 episodes of classic Sesame Street have arrived on YouTube",
-      "url": "https://www.theverge.com/news/862648/sesame-street-classics-youtube-streaming",
-      "summary": "セサミストリートの過去の名作100本超がYouTubeとYouTube Kidsで配信開始。1969年の初回やミスターロジャース回、ビッグバードのスナッフルパガス登場などをSesame Street Classicsチャンネルで視聴可。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-15T16:14:21.000Z",
-      "contentHash": "7e5e6b239e37"
-    },
-    {
-      "id": "f04370916f1d",
-      "title": "How Nano Banana got its name",
-      "url": "https://blog.google/products-and-platforms/products/gemini/how-nano-banana-got-its-name/",
-      "summary": "Google DeepMindの人気編集モデル「Nano Banana」の命名秘話。深夜の急場しのぎで、開発チーム内の二つの愛称が合わさり、意外性を受け入れて定着した経緯を伝える記事。",
-      "source": "Gemini",
-      "publishedAt": "2026-01-15T16:06:00.000Z",
-      "contentHash": "963eaca4c6c9"
-    },
-    {
-      "id": "408940249246",
-      "title": "The next Subway Surfers game comes out in February",
-      "url": "https://www.theverge.com/news/861594/subway-surfers-city-release-date-ios-android",
-      "summary": "『Subway Surfers City』がiOS/Androidで2月26日リリース、事前登録開始。シリーズ続編で“Subway City”の4地区（The Docks、Southline、Sunrise Blvd、Delorean Park）やシーズンごとの新エリア・キャラ・衣装・ホバーボードを追加。スピードパッド、ストンプ、バウンシーシールドなど新しい操作も導入。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-15T16:00:00.000Z",
-      "contentHash": "7fbb6249d6e6"
-    },
-    {
-      "id": "68d160f849b9",
-      "title": "Design and Implementation of Sprites",
-      "url": "https://fly.io/blog/design-and-implementation/",
-      "summary": "Fly.ioが発表したSpritesは、1〜2秒で立ち上がる使い捨てLinux VM。root権限あり、100GBの永続ルートディスク、自動スリープで非稼働時はほぼ無料。Docker不要の新オーケストレーション。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-15T15:59:21.000Z",
-      "contentHash": "5903c1349a48"
-    },
-    {
-      "id": "80172c90df28",
-      "title": "The best budget smartphone you can buy",
-      "url": "https://www.theverge.com/21420196/best-budget-smartphone-cheap",
-      "summary": "The Vergeのアリソン・ジョンソンは、優先順位を明確にすれば600ドル以下（多くは約500ドル）でも優れたスマホが買えると紹介。iPhone、120Hz表示、防水などを重視して選べば、格安機でも十分実用的だと解説しています。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-15T15:51:02.000Z",
-      "contentHash": "0c29aff860c3"
-    },
-    {
-      "id": "b73677632e67",
-      "title": "Verizon will pay you $20 following its nationwide outage — here&#8217;s how to get it",
-      "url": "https://www.theverge.com/news/862607/verizon-will-pay-you-20-following-its-nationwide-outage-heres-how-to-get-it",
-      "summary": "米国で発生した大規模通信障害を受け、Verizonは利用者へ20ドルのアカウントクレジットを提供すると発表。SMSで案内が届き、myVerizonアプリで受け取れる。障害は午後10時15分頃復旧し、同社は謝罪。端末再起動を推奨。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-15T15:31:01.000Z",
-      "contentHash": "6cfdc37db725"
     }
   ]
 }
