@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2026-02-02T02:54:33.629Z",
+  "generatedAt": "2026-02-02T09:09:33.457Z",
   "items": [
+    {
+      "id": "99286d6f81df",
+      "title": "データ品質担保のために取り組んだこと | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/02/02/161611",
+      "summary": "デリッシュリサーチのデータ品質担保として、①各テーブル作成処理の単体テスト導入（入力データと期待出力を比較し、期間抽出や検索語の前後スペース削除などを検証）、②検索ログ元データの増減を検知するアラート実装により、複雑なETLでの誤集計を防止しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-02T07:16:11.000Z",
+      "contentHash": "59504a169efa"
+    },
+    {
+      "id": "7ba96aabc346",
+      "title": "LifeKeeper for Windows v10の基本要件や変更点 | TechHarmony",
+      "url": "https://blog.usize-tech.com/lifekeeper-windows-v10-requirements-changes/",
+      "summary": "LifeKeeper for Windows v10の要件と変更点。v8.11から大きな変更はなく、サーバーはWindows Server 2016/2019/2022/2025、UIはWindows 11等をサポート。.NET Framework 4.5.2以上必須。共有/複製ストレージやRAID利用、MicrosoftサポートのSCSI/FCアダプタが前提。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-02T06:01:18.000Z",
+      "contentHash": "41ca58db2a97"
+    },
+    {
+      "id": "9e7d6ae1744e",
+      "title": "モデル学習なしでもここまで読める!? ローカルLLMで挑む書類読取の現在地 | RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20260202/llm",
+      "summary": "社内GPUでローカルLLM（google/gemma3-27B）を使い、従来の特化型OCRと書類の項目読み取りを比較検証。gemma3は指示理解は良いが画像→文字認識が弱く、easy-ocrで前処理し項目ごとのプロンプトが有効。コスト面や運用性の利点と精度・処理時間の課題が示された。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-02T06:00:00.000Z",
+      "contentHash": "fa9cfece55a3"
+    },
+    {
+      "id": "c6a89b68ed5d",
+      "title": "Ansibleを使用してNW機器設定を自動化する（PaloAlto-セキュリティポリシー編②） | TechHarmony",
+      "url": "https://blog.usize-tech.com/ansible-automation-paloalto-secpolicy-2/",
+      "summary": "前回記事を改良し、PaloAltoのセキュリティポリシー設定をAnsibleで自動化。設定をJSON（Survey）で入力可能にしてインベントリ・認証を設定し、paloaltonetworks.panos.panos_security_ruleで登録/変更/削除を行う。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-02T05:49:50.000Z",
+      "contentHash": "65fc36e1f97c"
+    },
+    {
+      "id": "8416518af6ce",
+      "title": "LifeKeeperのバージョンアップやってみた。(前編) | TechHarmony",
+      "url": "https://blog.usize-tech.com/lifekeeper-versionup-1/",
+      "summary": "LifeKeeperのバージョンアップ前編。サポートライフサイクル（3年フルサポート等）やOS/ミドルウェアの認定情報を確認。Linuxはメジャー差分が3以上だと中間バージョン経由が必要、Windowsは直接可。バージョン変更申請で媒体取得、設定初期化等の注意事項を確認する必要あり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-02T05:47:11.000Z",
+      "contentHash": "3feca67d34ad"
+    },
+    {
+      "id": "f68f2cb1b67d",
+      "title": "LifeKeeper　DRサイトのライセンスをどう考えるか？ | TechHarmony",
+      "url": "https://blog.usize-tech.com/lifekeeper-dr-license-count/",
+      "summary": "LifeKeeperのライセンスはサーバ単位でカウントし、仮想環境ではインストールする各VM分が必要（物理台数ではない）。ライセンスの種類や数え方を正しく理解し、DRサイト構築の重要性と費用対策（仮想サーバ向け割引等）に注意する必要がある。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-02T05:43:29.000Z",
+      "contentHash": "c990b9fd3a94"
+    },
+    {
+      "id": "63fd142ce1a9",
+      "title": "社内でAI活用のためのハッカソン第2回を開催しました！ | CAMPFIRE 開発チーム",
+      "url": "https://note.com/campfire_dev/n/n658325676196",
+      "summary": "CAMPFIREは2025年末（12/26）に社内で第2回AIハッカソンを開催。AI活用の機能開発や探索を目的に、学習機会と短時間での創意工夫を重視。運営とチームの事前準備を経て、エンジニア以外も参加し5時間弱で多様な成果を発表した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-02T05:38:26.000Z",
+      "contentHash": "a6c39cddc215"
+    },
+    {
+      "id": "3fc6605cc650",
+      "title": "Starlink mini の持ち運び、三脚アダプターは自作がお勧め？ | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/34958",
+      "summary": "Starlink miniの2024年型と2025年型でパイプアダプターの内径・深さが変わり、市販の三脚アダプターが合わない問題が判明。著者は1/4インチネジ金具と直径約5cmの木柱で自作し、軽く固定しやすいと報告。制作は自己責任で。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-02T05:35:37.000Z",
+      "contentHash": "ee1726419fcf"
+    },
+    {
+      "id": "05d8f6bc24ed",
+      "title": "[AIブログライター] 第4回：Claude code sub-agentとskillsのバイブコーディングで、Pair Trading戦略の検証と記事の自動生成 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
+      "url": "https://recruit.group.gmo/engineer/jisedai/blog/ai_blog_writer_4_claude-code_sub-agent_skills_sdk-agent_pair-trading/",
+      "summary": "Claude codeのsub-agentとskillsを使い、ペアトレード戦略を検証しつつ記事を自動生成する仕組みを解説。調査・執筆・校正を分担し最小限のコーディングで品質を担保、Human-in-the-Loopを目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-02T04:30:40.000Z",
+      "contentHash": "8cc4da0bf777"
+    },
+    {
+      "id": "8697929c3f27",
+      "title": "[AIブログライター] 第3回：Claude code+n8n SkillsのバイブコーディングでCore-Satellite記事を自動生成 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
+      "url": "https://recruit.group.gmo/engineer/jisedai/blog/ai_blog_writer_3_claude-code_n8n_skills_core-satellite/",
+      "summary": "AI研究開発室のK.S.が、金融特化AIブログライター連載第3回でClaude codeとn8n Skillsを用い、ほぼコードを書かずにワークフローとCore‑Satellite投資記事を自動生成する手法を解説。Human‑in‑the‑LoopやClaude/n8nスキルの役割も紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-02T04:28:32.000Z",
+      "contentHash": "f4ec9277c327"
+    },
+    {
+      "id": "2e473e637d71",
+      "title": "ICE protester says her Global Entry was revoked after agent scanned her face",
+      "url": "https://arstechnica.com/tech-policy/2026/01/ice-protester-says-her-global-entry-was-revoked-after-agent-scanned-her-face/",
+      "summary": "ミネソタ在住のニコール・クレランド氏（56）は、1月10日にICEとみられる車両を観察した後、3日でGlobal EntryとTSA PreCheckを剥奪されたと連邦地裁に宣誓。捜査員に「顔認識で特定された」と告げられ、報復・威圧だと主張している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-02T03:25:31.000Z",
+      "contentHash": "aa4bb774b58d"
+    },
     {
       "id": "ca2dc698af2e",
       "title": "Notepad++ hijacked by state-sponsored actors",
@@ -92,6 +191,15 @@
       "contentHash": "350188eea69d"
     },
     {
+      "id": "1e2c01ca85ab",
+      "title": "Show HN: Wikipedia as a doomscrollable social media feed",
+      "url": "https://xikipedia.org",
+      "summary": "XikipediaはSimple Wikipediaの疑似ソーシャルフィード。非MLのローカルアルゴリズムが閲覧傾向を学び類似記事を提示。カテゴリ選択可。データは収集せずタブ閉鎖で消える。コードはGitHub。成人向け(NSFW)あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-02T00:12:19.000Z",
+      "contentHash": "b4f3927966b4"
+    },
+    {
       "id": "9b7f7ef9c614",
       "title": "Windows Server 2022 評価版から製品版へのオフライン認証手順（2025年12月以降のWeb認証対応） | JBS Tech Blog",
       "url": "https://blog.jbs.co.jp/entry/2026/02/02/090507",
@@ -99,6 +207,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-02-02T00:05:07.000Z",
       "contentHash": "29a966bf419c"
+    },
+    {
+      "id": "44fb2e212c78",
+      "title": "Two kinds of AI users are emerging",
+      "url": "https://martinalderson.com/posts/two-kinds-of-ai-users-are-emerging/",
+      "summary": "AI利用者は二種類に分かれる。Claude Code等で自動化・実行環境を活用する“パワーユーザー”と、ChatGPT系の会話だけ使う層。企業では劣るM365 Copilotが標準化され利用が制限される一方、Microsoftが内部でClaude Codeを導入するなど格差が明白。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-01T23:45:18.000Z",
+      "contentHash": "1c3dc6c2ff4f"
     },
     {
       "id": "4b163a9dea20",
@@ -131,14 +248,14 @@
       "id": "073468a9ee11",
       "title": "Antigravity で Blender MCP を試す",
       "url": "https://note.com/npaka/n/naa60a38c2938",
-      "summary": "AntigravityでBlender MCPを試した手順。Antigravityをインストール→チャット右上の…→MCP Serversでmcp_config.jsonにblender設定（command: \"uvx\", args:[\"blender-mcp\"]）を追加→再起動して有効化。未使用時は無効化。テストではGeminiの方がカメラワーク指示が通りやすかった。",
+      "summary": "AntigravityでBlender MCPを試した手順を解説。Antigravityを導入し「MCP Servers」からraw configにblender設定（command:\"uvx\", args:[\"blender-mcp\"]）を追加して再起動→有効化。不要時は無効化。Geminiはカメラ指示が通りやすいとの感想。",
       "source": "npaka",
       "publishedAt": "2026-02-01T20:57:09.000Z",
-      "contentHash": "8adf3c5c5fc7"
+      "contentHash": "4314348b676d"
     },
     {
       "id": "c15e5130ee02",
-      "title": "My thousand dollar iPhone can't do math",
+      "title": "My iPhone 16 Pro Max produces garbage output when running MLX LLMs",
       "url": "https://journal.rafaelcosta.me/my-thousand-dollar-iphone-cant-do-math/",
       "summary": "iPhone 16 Pro MaxでMLX LLMを動かすとテンソル出力が桁違いに誤り、iPhone 15 ProやMacBook Proでは正常。Neural Engineなどのハード欠陥を疑い、支出管理アプリ検証中に原因究明に苦労したという報告。",
       "source": "Hacker News",
@@ -320,19 +437,19 @@
       "id": "25835ef41f3f",
       "title": "NVIDIAのLLM Nemotron を試す",
       "url": "https://note.com/npaka/n/nd1bcc20a3cb2",
-      "summary": "NVIDIAのLLM「Nemotron」を試用した報告。Base/Instruct/Reward/Nano等の系統があり、NVIDIA API CatalogでAPIキーを発行、nemotron-3-nano-30b-a3bを選びcurlで動作確認した。",
+      "summary": "NVIDIAのLLM「Nemotron」を試用した報告。Base/Instruct/Reward/Nanoなどの系統を紹介し、NVIDIA API Catalogでモデル選択→APIキー発行→環境変数設定→curlで動作確認（例: nemotron-3-nano-30b-a3b）まで解説。",
       "source": "npaka",
       "publishedAt": "2026-02-01T08:46:26.000Z",
-      "contentHash": "644a1f73a6b8"
+      "contentHash": "935c5fcdb8ca"
     },
     {
       "id": "83d1bcbc2d61",
       "title": "Hitem3D の 3Dモデル生成 を試す",
       "url": "https://note.com/npaka/n/nb775130d2655",
-      "summary": "Hitem3Dはテキストや画像から高品質な3Dモデルを自動生成するAIサービスで、ゲーム・アニメ・3Dプリント・AR/VR等に利用可能。使い方はGoogleでログイン→画像アップ→生成→ダウンロード。リギング機能はない。",
+      "summary": "Hitem3Dを試用した報告。テキストや画像から高品質な3Dモデルを自動生成でき、ゲーム・アニメ・3Dプリント・AR/VRなどに利用可能。操作はGoogleでログイン→画像アップ→生成→ダウンロード。リギング機能は無い模様。",
       "source": "npaka",
       "publishedAt": "2026-02-01T08:03:55.000Z",
-      "contentHash": "3f567d252017"
+      "contentHash": "05bd1815c466"
     },
     {
       "id": "9b6ee0a4df35",
@@ -374,10 +491,10 @@
       "id": "1242de82e6e2",
       "title": "アニメのカメラレンズ入門",
       "url": "https://note.com/npaka/n/n2b18b9f4db99",
-      "summary": "アニメ演出で重要なのはレンズ選び。パン等の動きよりレンズで印象が変わる。広角＝画角広く遠近誇張で迫力やコミカル、標準＝自然で会話・日常向き、望遠＝圧縮で感情や緊張を強調。",
+      "summary": "カメラ演出で大事なのは動きよりレンズ選び。覚えるのは広角・標準・望遠の3種。広角は迫力やコミカル、標準は自然で日常向き、望遠は感情強調や背景圧縮に有効。",
       "source": "npaka",
       "publishedAt": "2026-02-01T01:30:56.000Z",
-      "contentHash": "bf5789826e4e"
+      "contentHash": "aeb19eb25dd3"
     },
     {
       "id": "41ec7b16181b",
@@ -455,10 +572,10 @@
       "id": "3e40319aa746",
       "title": "Blender MCP で VRoid を操作する",
       "url": "https://note.com/npaka/n/n654db4ca3870",
-      "summary": "Blender 5.0.1＋Blender MCP 1.5.5で、VRoid StudioからエクスポートしたVRMをVRM Add-onでBlenderへ読み込み、公式7種のVRMAアニメを適用。Blender MCPで表情・ボディのアクションを切替えて操作する手順を解説。",
+      "summary": "Blender 5.0.1とBlender MCP 1.5.5でVRoidを操作する手順。VRoid Studioでモデルを作成・VRM出力、公式のVRMAアニメを入手。VRM/VRMAアドオンでBlenderに読み込み、Blender MCPで表情やHumanoidアニメを再生・切替。",
       "source": "npaka",
       "publishedAt": "2026-01-31T21:21:21.000Z",
-      "contentHash": "240bbd8a3c5a"
+      "contentHash": "81e328b40dbb"
     },
     {
       "id": "b783814c6b4a",
@@ -905,10 +1022,10 @@
       "id": "a0c668cd7f36",
       "title": "パブリック3Dアセットライブラリ PolyHaven を試す",
       "url": "https://note.com/npaka/n/n698bca9df3c4",
-      "summary": "パブリック3Dアセットライブラリ「PolyHaven」を試用。HDRI・PBRテクスチャ・3Dモデルを無料・商用可で配布しBlenderと相性良好。Blender MCPで有効化し、Claude Desktopに指示して空HDRI・砂地・岩や草木・小物を入れたビーチシーンを作成した。",
+      "summary": "パブリック3Dアセットライブラリ「PolyHaven」を試用。HDRI・PBRテクスチャ・3Dモデルを商用可で無料提供しBlenderと相性良好。Blender MCPで有効化し、HDRI空・砂地・岩や草木・自然な小物を使ったビーチシーンを作成した。",
       "source": "npaka",
       "publishedAt": "2026-01-30T20:47:34.000Z",
-      "contentHash": "67176f94c5d5"
+      "contentHash": "157b70291831"
     },
     {
       "id": "5d8d7628b68d",
@@ -950,10 +1067,10 @@
       "id": "1dffd5abb767",
       "title": "3Dモデル共有サイト Sketchfab を試す",
       "url": "https://note.com/npaka/n/n9257e758e332",
-      "summary": "3Dモデル共有サイトSketchfabを試用。ブラウザ上でモデルをぐりぐり操作・アップロード・共有・閲覧できるのが特徴。利用手順はEpic Gamesでログイン→SettingsでAPIトークン取得→Blender MCPに設定→Claude DesktopでHDRI空や砂地、岩や草木を含むビーチシーンを作成指示、など。",
+      "summary": "3Dモデル共有サイトSketchfabを試用。ブラウザ上でモデルを直接操作可能。試用手順はEpic Gamesでログイン→APIキー取得→Blender MCP導入・設定→Claudeにビーチシーン作成を指示（HDRI空、砂地、岩・草、小物）。",
       "source": "npaka",
       "publishedAt": "2026-01-30T19:51:53.000Z",
-      "contentHash": "695e4da6bfbf"
+      "contentHash": "9020af97def9"
     },
     {
       "id": "c02a627609c3",
@@ -1283,10 +1400,10 @@
       "id": "0f1376ce89e0",
       "title": "DaVinci Resolve の シーンカット検出 を試す",
       "url": "https://note.com/npaka/n/n6b7f29795896",
-      "summary": "DaVinci Resolveの「シーンカット検出」解説。無料版で利用可（有料はAIで精度向上）。メディアを右クリック→シーンカット検出→自動検出で緑線表示、誤検出を修正してメディアプールに追加しタイムラインで使用。",
+      "summary": "DaVinci Resolveの「シーンカット検出」は動画の切り替わりを自動検出してカット分割する機能。無料版で使え、 有料版はAIで精度向上。手順はメディア画面で動画を右クリック→「シーンカット検出」→自動検出（緑線）→誤検出を追加/削除で修正→メディアプールに追加してタイムラインに配置。トランジションが誤検出の主な原因。",
       "source": "npaka",
       "publishedAt": "2026-01-30T09:18:16.000Z",
-      "contentHash": "38f6bdf5bac2"
+      "contentHash": "e4586f915bd4"
     },
     {
       "id": "909c20015978",
@@ -1553,10 +1670,10 @@
       "id": "47954b7977ac",
       "title": "Project Genie の概要",
       "url": "https://note.com/npaka/n/nf00a7bee4592",
-      "summary": "Project Genieは汎用世界モデル「Genie 3」を核にした実験的Webプロトタイプ。テキストや画像でワールドをスケッチ→リアルタイムに探索→リミックスし動画保存も可能。米国の限定ユーザー向けで、現実性の不一致や操作遅延、生成時間制限など課題あり。",
+      "summary": "Googleの実験プロトタイプ「Project Genie」は、汎用世界モデルGenie 3（Nano Banana Pro、Gemini含む）を使い、テキストや画像でワールドをスケッチ、リアルタイムに探索・リミックスできる没入型体験を米国一部ユーザーに提供。研究段階で動作や整合性、生成時間などの制約あり。",
       "source": "npaka",
       "publishedAt": "2026-01-29T21:14:36.000Z",
-      "contentHash": "d3d9adab9e83"
+      "contentHash": "70c053920c27"
     },
     {
       "id": "0714487950ef",
@@ -8883,123 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-16T09:19:40.000Z",
       "contentHash": "2d0a6b35bb43"
-    },
-    {
-      "id": "6bcb9e7cb58b",
-      "title": "既存のアプリにDatadogのReal User Monitoring（RUM）を導入する際のコスト管理方法と設定戦略 | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/na52d8a21dcea",
-      "summary": "Datadog RUM導入でのコスト最適化法。RUMはセッション（最長4時間、15分無通信で終了）に基づくイベント課金で、RUM Measure/Investigate/Session Replayの3種が課金対象。送信量はsessionSampleRate、保持はRetention Filter、ReplayはSessionReplay SampleRateで制御し、Plan&Usageを確認して設定を調整する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-16T09:07:20.000Z",
-      "contentHash": "d2f6a1e06f15"
-    },
-    {
-      "id": "ab0968fac07f",
-      "title": "Datadog RUMの導入実践ガイド - 運用に強い設定管理の実装方法 - | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/ne4603a4cdab8",
-      "summary": "SHIFTの武井氏がTDにDatadog RUMを導入した実践ガイド。ユーザー視点の可視化でSLO/SLI改善に寄与し、初期化コードを最小化して環境変数とIaCで安全に設定切替する運用重視の実装手法を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-16T09:05:41.000Z",
-      "contentHash": "c1a518e715a5"
-    },
-    {
-      "id": "cc02e47165e6",
-      "title": "GitHub Copilot を活用した開発効率化のプラクティス | MicroAd Developers Blog",
-      "url": "https://developers.microad.co.jp/entry/2026/01/16/180000",
-      "summary": "マイクロアド開発チームがGitHub Copilot運用を紹介。MCPでAtlassianやserenaを連携し仕様やコードを文脈提供、段階的プロンプトで成果と理解を向上。mcp.json管理、モデル選定(Claude Opus 4.5)、履歴クリア等の具体例あり。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-16T09:00:00.000Z",
-      "contentHash": "9d45c18afb7f"
-    },
-    {
-      "id": "e09be8c801aa",
-      "title": "Webエンジニアなら知っておきたい！Dockerコンテナを支える技術 〜ネットワーク・リソース・ファイルシステムから見る仕組み〜 | Fenrir Engineers",
-      "url": "https://engineers.fenrir-inc.com/entry/2026/01/16/175037",
-      "summary": "Docker等のコンテナはホストカーネルを共有する「丁寧に隔離されたプロセス」です。Linux Namespacesでプロセスやネットワークを分離、cgroupsでCPU/メモリ等を制限、OverlayFSでファイル差分を管理し移植性と安定性を実現する、という解説です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-16T08:50:37.000Z",
-      "contentHash": "4f61aba7ea43"
-    },
-    {
-      "id": "4216f0d6c8dc",
-      "title": "AWSコスト異常検知から原因特定までの完全ガイド | Zenet Tech Blog",
-      "url": "https://media.zenet-web.co.jp/entry/2026/01/16/173812",
-      "summary": "Cost Explorerで日別・サービス別に異常を検出し、今回はOpenSearch Serverlessのコスト急増を確認。CloudTrailでaoss.amazonaws.comのCreateCollection操作を追跡して実行ユーザーを特定し、社内ヒアリング・IAM権限見直し・通知と監査強化で再発防止を図る。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-16T08:38:12.000Z",
-      "contentHash": "e8bd5ddfc00d"
-    },
-    {
-      "id": "cb49c733fc0b",
-      "title": "Rails: Hotwire Nativeで作るネイティブモバイルアプリ: iOS編（4）iOSキーボードをカスタマイズ（翻訳） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_01_16/148491",
-      "summary": "William Kennedyの英語記事「Hotwire Native iOS 4 - Custom iOS Keyboard」を原著者許諾で翻訳公開。Turbo NativeやStradaが統合されたHotwire Nativeを使い、iOSのカスタムキーボード実装を解説する記事（TechRacho掲載）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-16T08:30:05.000Z",
-      "contentHash": "f0fd592a2570"
-    },
-    {
-      "id": "b49fde5aebc2",
-      "title": "Interactive eBPF",
-      "url": "https://ebpf.party/",
-      "summary": "ブラウザ上でeBPFをハンズオンで学べる教材。プログラムを直接記述・コンパイル・実行し、演習で理解を深める。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-16T08:01:02.000Z",
-      "contentHash": "51a988760689"
-    },
-    {
-      "id": "10955eabda22",
-      "title": "Microsoft Fabric におけるデータエンジニアリング | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/01/16/153433",
-      "summary": "Microsoft FabricはOneLakeでストレージ・計算・オーケストレーションを統合するSaaS。インフラ負担を減らしデータ加工に集中できる。ワークスペースはガバナンス・キャパシティ単位で設計（Dev/Test/Prod、Bronze/Silver/Gold）。Data EngineeringはSpark＋Lakehouseで、Delta LakeによりACIDやタイムトラベルを実現。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-16T06:34:33.000Z",
-      "contentHash": "b7e12df13924"
-    },
-    {
-      "id": "2562026cf6d5",
-      "title": "MySQLのカラム追加や削除はなぜ速くなったのか？ | iimon TECH BLOG",
-      "url": "https://tech.iimon.co.jp/entry/2026/01/16/152808",
-      "summary": "従来はALTER TABLEで全データをフルコピーしテーブルを完全ロックしていたため時間がかかったが、MySQL5.6のOnline DDLでINPLACEやLOCKオプションが導入され、読み書きを止めずにカラム追加・削除が可能になり本番での影響が大幅に減った（InnoDB前提）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-16T06:28:08.000Z",
-      "contentHash": "bbd124eaacce"
-    },
-    {
-      "id": "a3387ab1ce42",
-      "title": "JWT認証の仕組みについて調べてみた | iimon TECH BLOG",
-      "url": "https://tech.iimon.co.jp/entry/2026/01/16/152733",
-      "summary": "記事は認証と認可の違いを説明し、セッション認証の流れとサーバー側での状態管理やDB参照の課題を示した上で、JWTの構造・署名による改ざん検知でDB不要になる仕組み、HMACやアクセストークン/リフレッシュトークン、認証フローと偽造検知を図解で解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-16T06:27:33.000Z",
-      "contentHash": "3867c26f1cb5"
-    },
-    {
-      "id": "540e15e1499d",
-      "title": "CQRS+ES Conference 2026 に参加してきました | kubell Creator's Note",
-      "url": "https://creators-note.chatwork.com/entry/2026/01/16/150013",
-      "summary": "CQRS+ES Conference 2026に初参加したChatworkファサード開発の報告。CQRSとイベントソーシングの概要、イベントストーミングをAIでコード化する手法と「指示書やドメイン情報を与え反復する」注意点、電卓を題材にしたES入門が印象的だった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-16T06:00:13.000Z",
-      "contentHash": "b4a920745472"
-    },
-    {
-      "id": "4179e5f42008",
-      "title": "IT未経験で挑戦！GoogleカレンダーからLINE通知を自動化する方法 | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n0a8f7574e2f1",
-      "summary": "SHIFTのはるさめさんが、LINE Notify終了に伴いGoogleカレンダー→LINE通知を移行。IFTTT経由で一時的にDiscordへ送りつつ、最終的にLINE DevelopersのMessaging APIを使い、サンプルコードを参考に毎朝当日の予定を自動通知する仕組みを作った記録です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-16T05:51:33.000Z",
-      "contentHash": "e3acfb274863"
-    },
-    {
-      "id": "aa373acc0120",
-      "title": "リーナープロダクトの現状と課題、採用情報 2026年1月版 | リーナー開発者ブログ",
-      "url": "https://developer.leaner.co.jp/entry/202601-leaner-dev-careers",
-      "summary": "リーナーはBtoB調達購買のSaaS企業。主力は「見積」「購買」で、AI導入や認証・データ基盤を開発中。図面解析やアカウント管理、既存機能強化が課題で、購買と新製品Fを優先採用中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-16T05:50:29.000Z",
-      "contentHash": "500734bece57"
     }
   ]
 }
