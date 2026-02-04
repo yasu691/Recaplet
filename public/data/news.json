@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2026-02-04T02:35:26.260Z",
+  "generatedAt": "2026-02-04T09:06:51.567Z",
   "items": [
+    {
+      "id": "1e02776a3e43",
+      "title": "【Teams】CAPTCHA認証の設定方法 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/02/04/160804",
+      "summary": "Microsoft Teamsで匿名や信頼されていない組織外ユーザーにCAPTCHA認証を要求する設定手順。管理センター→会議→会議ポリシーで対象を「匿名ユーザーと信頼されていない組織のユーザー」にし保存。参加時はラテン文字のテキストか英語の音声CAPTCHAで本人確認し、スパムやボット対策が可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T07:08:04.000Z",
+      "contentHash": "f560db8d6d09"
+    },
+    {
+      "id": "e1f76e6ab390",
+      "title": "Zero Runtime CSS in JSに乗り換えたのでパフォーマンス測定をしてみた | ミツカリ技術ブログ",
+      "url": "https://tech-blog.mitsucari.com/entry/2026/02/04/160536",
+      "summary": "当社はランタイムでstyleを挿入するEmotionからZero RuntimeのStyleXへ移行し、料金ページでChrome DevTools/Lighthouseで計測。結果、JS実行時間が30.8%（1031→713ms）短縮し性能が改善しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T07:05:36.000Z",
+      "contentHash": "ae8ee6bbfcf9"
+    },
+    {
+      "id": "a0820f5362ca",
+      "title": "【メディア掲載】レバレジーズ株式会社の「レバテックフリーランス」にて当社テックブログを紹介していただきました！ | GameWith Developer Blog",
+      "url": "https://tech.gamewith.co.jp/entry/2026/02/04/155505",
+      "summary": "レバレジーズの「レバテックフリーランス」で当社テックブログが紹介されました。Devinの活用や「LLM as a Judge（判定者としてのLLM）」などを取り上げています。詳細は掲載ページへ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T06:55:05.000Z",
+      "contentHash": "a27254920a19"
+    },
+    {
+      "id": "ee359d18e149",
+      "title": "[UE5] カテゴリの表示順を操作する | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/53211/",
+      "summary": "UE5関連記事の一覧紹介：2026/01/28「角度による音響演出 – MetaSounds Interfaces」、2026/01/21「PGOを適用してみよう」、2026/01/14「カメラ方向に追従する弾の実装（続）」を扱っています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T06:00:59.000Z",
+      "contentHash": "1c6290619c76"
+    },
+    {
+      "id": "912866a8d836",
+      "title": "パパPMが育休3ヶ月取ってきました | ユニファ開発者ブログ",
+      "url": "https://tech.unifa-e.com/entry/2026/02/04/144146",
+      "summary": "ユニファのPMが第二子出産で2025年11月〜2026年1月に約3ヶ月の育休を取得。家族の絆が深まり、子どもの成長を間近で見られた。育児で論理は通用しない場面もあったが、忍耐や柔軟性、チーム連携はPM業務にも活きると実感。撮影サービス体験で写真の価値と自分のプロダクト意義を再認識した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T05:41:46.000Z",
+      "contentHash": "79a3eef8ee55"
+    },
+    {
+      "id": "a0049047d682",
+      "title": "LLMエンジニア入門：Gemini API研修資料を公開します | REVISIO Tech Blog",
+      "url": "https://tech.revisio.co.jp/entry/2026/02/04/141511",
+      "summary": "REVISIOがLLMエンジニア育成のため、Gemini APIに特化した研修資料（Jupyter Notebook）を公開。全4章でAPI呼び出し、バッチ/非同期処理、出力の構造化、検索活用、Tool Callingなどを課題付きで実習可能。Gemini APIキーで動作。著：吉田康仁。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T05:15:11.000Z",
+      "contentHash": "0fb08ea53e66"
+    },
+    {
+      "id": "f17cdda89508",
+      "title": "Microsoft Entra 管理センターでテナント間同期を構成する | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/02/04/140301_1",
+      "summary": "Microsoft Entraのテナント間同期により、他テナントのユーザーを自動プロビジョニングしてゲスト招待の手間を削減。P1/P2ライセンスや双方の設定（組織追加・自動引換・プロビジョニング有効化等）、属性マッピングやセキュリティ、同期間隔の注意が必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T05:03:01.000Z",
+      "contentHash": "93823aeb4c02"
+    },
+    {
+      "id": "75ff03aef4d2",
+      "title": "IPアドレス証明書を発行してデモアプリを社内公開したい | モリサワ Tech Blogのフィード",
+      "url": "https://zenn.dev/morisawa/articles/letsencrypt-ip-cert",
+      "summary": "社内デモをHTTPS化するため、Let's Encryptの短寿命IPアドレス証明書（約6日）をEC2で発行・適用した手順を紹介。t3.mediumで環境を用意し、certbotをvenvで動かして--ip-addressとshortlivedプロファイルで取得。発行時は80番を開放し、後で閉じることを推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T05:00:32.000Z",
+      "contentHash": "e50aec46f684"
+    },
+    {
+      "id": "19790cf0a4f7",
+      "title": "Petition for Recognition of Work on Open-Source as Volunteering in Germany",
+      "url": "https://www.openpetition.de/petition/online/recognition-of-work-on-open-source-as-volunteering-in-germany",
+      "summary": "「討論についての討論」という掲示で、賛成・反対いずれの議論（PRO/CONTRA）もまだ投稿されておらず、議論が始まっていないことを伝えている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-04T04:46:15.000Z",
+      "contentHash": "b4bcacccf406"
+    },
+    {
+      "id": "eb2b812396cc",
+      "title": "【イベントレポート】ML/DSバックグラウンドだからこそ面白い。AIエージェントをプロダクトに実装する、泥臭い裏側と挑戦 | Commune Engineer Blog",
+      "url": "https://tech.commune.co.jp/entry/2026/02/04/132120",
+      "summary": "1月27日、CommuneとLayerX共催のイベントで、ML/DS視点からAIエージェントの実装・評価・優先順位付けや運用差異をLTとパネルで議論。段階的検証やML知見を活かした精度改善など実践的な工夫が共有された。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T04:21:20.000Z",
+      "contentHash": "68fcc8500377"
+    },
+    {
+      "id": "1489e48fbf09",
+      "title": "実例マッピングからテスト項目書を自動生成するAIワークフロー | 株式会社COMPASSのフィード",
+      "url": "https://zenn.dev/qubena/articles/3697a654b4596a",
+      "summary": "QAエンジニア向けに、実例マッピングの結果からAIで決定事項を抽出しDesignDoc→画面仕様書→レビューを経てテスト項目書・ディシジョンテーブルを自動生成するワークフローを示し、トレーサビリティ向上と属人化解消を狙う。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T04:09:06.000Z",
+      "contentHash": "f034b554e236"
+    },
+    {
+      "id": "d7859d2cf8e6",
+      "title": "I miss thinking hard",
+      "url": "https://www.jernesto.com/articles/thinking_hard",
+      "summary": "作者は「数日間粘って深く考える」Thinkerの時間を惜しんでいる。実用志向のBuilderと対比し、大学の難問での学生タイプ（諦める人、調べる人、粘る人）を引き合いに出し、答えは示さず心情を吐露する内容。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-04T03:54:11.000Z",
+      "contentHash": "56badc785f15"
+    },
     {
       "id": "525d39484d52",
       "title": "Adobe actually won’t discontinue Animate",
@@ -140,10 +248,10 @@
       "id": "c13aecf9889d",
       "title": "Notepad++ supply chain attack breakdown",
       "url": "https://securelist.com/notepad-supply-chain-attack/118708/",
-      "summary": "リンク先を直接参照できないため要約できません。記事本文か主要抜粋（またはコメントの内容）を貼っていただければ、200文字以内で日本語要約を作成します。どちらを優先しますか？",
+      "summary": "Notepad++の更新インフラが2025年6–9月に侵害され、攻撃者は12月まで残留。7–10月にC2やダウンローダ、ペイロードを切替える複数の実行連鎖で被害（ベトナム・エルサルバドル・オーストラリアの個人、フィリピン政府、金融機関、IT事業者）。カスペルスキーは遮断し多数の新IoCを公開。",
       "source": "Hacker News",
       "publishedAt": "2026-02-03T22:35:27.000Z",
-      "contentHash": "6b61cfa27d5d"
+      "contentHash": "28fd0ba4b3d0"
     },
     {
       "id": "fe9a8da5ceab",
@@ -194,10 +302,10 @@
       "id": "cd69859cfba0",
       "title": "Data centers in space makes no sense",
       "url": "https://civai.org/blog/space-data-centers",
-      "summary": "記事は、軌道や月面にデータセンターを置き、太陽光発電や宇宙の放射冷却を利用して大規模AI運用や規制回避を目指す構想を提示。実現可能性と利点を示す一方、放射線耐性、遅延、保守、法規制、コストなどの重大課題を指摘している。",
+      "summary": "宇宙データセンターを提案。真空での放熱や太陽光発電で冷却・電力の利点がある一方、打上げ費用、放射線耐性、通信遅延、整備・法規制、宇宙ゴミなど多くの課題があり、実用化は段階的かつ長期的と結論。",
       "source": "Hacker News",
       "publishedAt": "2026-02-03T19:37:30.000Z",
-      "contentHash": "d5d140d427fc"
+      "contentHash": "b4a127d47958"
     },
     {
       "id": "4eb7af62e2fa",
@@ -221,10 +329,19 @@
       "id": "9ba4ddce1156",
       "title": "AliSQL: Alibaba's open-source MySQL with vector and DuckDB engines",
       "url": "https://github.com/alibaba/AliSQL",
-      "summary": "AlibabaがMySQLのフォーク「AliSQL」をGitHubで公開。大規模運用向けの性能・安定性改善や独自パッチをまとめてオープン化し、コミュニティで議論が活発化。",
+      "summary": "AliSQLはAlibabaのMySQL派生版（8.0.44 LTS）で、DuckDBをネイティブストレージとして統合し、最大16,383次元のHNSWベクター検索を提供。大規模向けにDDL・RTO・レプリケーション最適化を計画。",
       "source": "Hacker News",
       "publishedAt": "2026-02-03T18:40:18.000Z",
-      "contentHash": "e20760a4c7d1"
+      "contentHash": "088a6f26f06f"
+    },
+    {
+      "id": "049208c6802f",
+      "title": "Y Combinator will let founders receive funds in stablecoins",
+      "url": "https://fortune.com/2026/02/03/famed-startup-incubator-y-combinator-to-let-founders-receive-funds-in-stablecoins/",
+      "summary": "シリコンバレーの名門インキュベーターY Combinatorが、春の支援組に対し約50万ドル相当の資金をCircle発行の安定通貨USDCで受け取れる選択肢を提供。EthereumやSolanaなど複数チェーンを選べ、需要次第で他のステーブルコインにも拡大予定。ステーブルコインの主流化の動きと位置づけられる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-03T18:28:48.000Z",
+      "contentHash": "aedcbf685e23"
     },
     {
       "id": "0c2b3b9bca46",
@@ -239,10 +356,10 @@
       "id": "6a9df1f22e4a",
       "title": "I made 20 GDPR deletion requests. 12 were ignored",
       "url": "https://nikolak.com/gdpr-failure/",
-      "summary": "記事はGDPRが失敗だと論じる。クッキーバナーや同意疲労で実効的保護が損なわれ、複雑な遵守負担と執行の不均一性が小規模事業者を圧迫し大手を利し、プライバシー改善に結びついていないと批判、代替案を提起している。",
+      "summary": "申し訳ありませんが、外部サイトを直接閲覧できません。記事本文（または要点）をここに貼っていただければ、200文字以内の日本語要約を作成します。HNコメントも要約希望なら同様に貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2026-02-03T17:48:22.000Z",
-      "contentHash": "2ea21397d9eb"
+      "contentHash": "8b8ffec67777"
     },
     {
       "id": "210ec7107b26",
@@ -401,10 +518,10 @@
       "id": "fd420c4e72d9",
       "title": "DeepMotion Animate 3D による モーション生成 を試す",
       "url": "https://note.com/npaka/n/nb7c75ddb7cb8",
-      "summary": "DeepMotionのWebサービス「Animate 3D」を試用。動画をアップロードするとモーションを生成しBVH/FBX/GLBで出力。静止カメラや2–6m、遮蔽無しなど撮影注意点があり、生成したBVHをVRMAに変換してBlenderでVRMのアクションとして再生・確認した。",
+      "summary": "DeepMotionのWebサービスAnimate 3Dを試用。動画をアップロードするだけでFBX/BVH/GLBのモーションを生成。撮影時の注意点や出力選択、BVH→VRMA変換、BlenderでVRMに適用して動作確認した。",
       "source": "npaka",
       "publishedAt": "2026-02-03T13:00:37.000Z",
-      "contentHash": "27f7cddab859"
+      "contentHash": "5cd4d2c15b78"
     },
     {
       "id": "a48da6e49ff5",
@@ -734,10 +851,10 @@
       "id": "f40b8b5e0f8a",
       "title": "Codex app の概要",
       "url": "https://note.com/npaka/n/nfda4a12569d5",
-      "summary": "本文が提示されていないため要約できません。記事全文または主要な抜粋・リンクを送ってください。受け取れば200字以内で日本語要約を作成します。",
+      "summary": "macOS向け「Codex app」公開。複数エージェントの並列・長時間作業を専用UIで管理し、Skillsでコード生成を超えた自動化や情報統合、デプロイ・デザイン連携などを実現。期間限定でFree/Go同梱、上位プランは利用枠2倍。",
       "source": "npaka",
       "publishedAt": "2026-02-02T22:02:58.000Z",
-      "contentHash": "66291f85a58d"
+      "contentHash": "24a07597279f"
     },
     {
       "id": "8d2f1f0eb134",
@@ -833,10 +950,10 @@
       "id": "b398abedf802",
       "title": "10 ways to plan your 2026 budget with Gemini",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-budget-planning-tips/",
-      "summary": "シンプルなGeminiプロンプトを使って、2026年の予算作成、隠れた節約の発見、支出の整理方法を学ぶ方法を紹介します。",
+      "summary": "空白のページで悩まず、Geminiに簡単なプロンプトを与えるだけで支出整理、節約候補の発見、予算案作成、シナリオ分析や目標設定、定期購読管理などを自動化し、2026年の予算計画を効率化する方法を紹介。",
       "source": "Gemini",
       "publishedAt": "2026-02-02T16:00:00.000Z",
-      "contentHash": "3094d787f13e"
+      "contentHash": "32c305032ee7"
     },
     {
       "id": "663ce91f0eb0",
@@ -1337,10 +1454,10 @@
       "id": "073468a9ee11",
       "title": "Antigravity で Blender MCP を試す",
       "url": "https://note.com/npaka/n/naa60a38c2938",
-      "summary": "AntigravityでBlender MCPを導入・検証した手順。MCP Serversのmcp_config.jsonに{\"blender\":{\"command\":\"uvx\",\"args\":[\"blender-mcp\"]}}を追加し再起動して有効化、不要時は無効化。試用でGeminiの方がカメラ指示が通りやすいとの所感。",
+      "summary": "AntigravityでBlender MCPを試した手順：Antigravityをインストール→チャット右上→…→MCP Servers→Manage MCPs→View raw configでmcp_config.jsonに{\"mcpServers\":{\"blender\":{\"command\":\"uvx\",\"args\":[\"blender-mcp\"]}}}を記入→再起動して有効化（未使用時は無効化）。Geminiは空間把握が良くカメラ指示が通りやすいとの所感。",
       "source": "npaka",
       "publishedAt": "2026-02-01T20:57:09.000Z",
-      "contentHash": "3dfba49f3346"
+      "contentHash": "4bb94098522e"
     },
     {
       "id": "c15e5130ee02",
@@ -1526,10 +1643,10 @@
       "id": "25835ef41f3f",
       "title": "NVIDIAのLLM Nemotron を試す",
       "url": "https://note.com/npaka/n/nd1bcc20a3cb2",
-      "summary": "NVIDIAのLLM「Nemotron」を試用。Base/Instruct/Reward/Nanoなどの系列があり、NVIDIA API CatalogでAPIキー発行後にモデル（例：nemotron-3-nano-30b-a3b）をAPIで呼び出せる。キー取得手順とcurlによる動作確認（例：富士山3776mの応答）を紹介。",
+      "summary": "NVIDIAのLLM「Nemotron」を試した報告。Base/Instruct/Reward/Nanoなどの系統紹介と、NVIDIA API Catalogでのモデル選択、APIキー発行手順、curlによる動作確認（nemotron-3-nano-30b-a3bのチャット例）をまとめています。",
       "source": "npaka",
       "publishedAt": "2026-02-01T08:46:26.000Z",
-      "contentHash": "310c0e00ccf1"
+      "contentHash": "2a03b081ea3c"
     },
     {
       "id": "83d1bcbc2d61",
@@ -1553,10 +1670,10 @@
       "id": "0899b7382802",
       "title": "Reachy Mini Robot with NeMo Agent Toolkit Tutorial の概要",
       "url": "https://note.com/npaka/n/n281f72eb1e40",
-      "summary": "Reachy Mini RobotとNVIDIAのNeMo Agent Toolkitを使った連携チュートリアル。環境準備、インストール、接続方法、音声対話や行動制御の実例、サンプルコード・デモ、カスタマイズと応用例を解説します。",
+      "summary": "このチュートリアルは、NVIDIA NeMo（Nemotron）のテキスト・視覚・REACTモデルを使いReachy Miniを制御するリアルタイムAIエージェントの構築手順を示す。構成はReachy Mini Daemon、Bot Service、NeMo Agent Serviceの3要素。PythonとNVIDIA/ElevenLabsのAPIキーを.envに設定し、リポジトリをクローン後、3つのターミナルで各サービスを起動する。",
       "source": "npaka",
       "publishedAt": "2026-02-01T05:52:44.000Z",
-      "contentHash": "9d0ecf2d19cb"
+      "contentHash": "1144c7fc5c8a"
     },
     {
       "id": "1b12c1984b7b",
@@ -1580,10 +1697,10 @@
       "id": "1242de82e6e2",
       "title": "アニメのカメラレンズ入門",
       "url": "https://note.com/npaka/n/n2b18b9f4db99",
-      "summary": "アニメのカメラ演出では動きよりレンズ選びが重要。覚えるのは広角・標準・望遠の3種。広角は誇張パースで迫力やコミカル、標準は自然で会話向き、望遠は圧縮で感情強調や群衆描写に有効。",
+      "summary": "アニメ演出ではカメラの動きより先にレンズ選びが重要。広角は迫力やコミカル、標準は自然で会話向き、望遠は圧縮で感情強調。3種類を覚えればほぼ対応可能。",
       "source": "npaka",
       "publishedAt": "2026-02-01T01:30:56.000Z",
-      "contentHash": "4dd732f3c844"
+      "contentHash": "64a8a760a7a9"
     },
     {
       "id": "41ec7b16181b",
@@ -1661,10 +1778,10 @@
       "id": "3e40319aa746",
       "title": "Blender MCP で VRoid を操作する",
       "url": "https://note.com/npaka/n/n654db4ca3870",
-      "summary": "Blender MCPを使ってVRoidモデルを操作した手順と感想をまとめた記事。検証環境はBlender 5.0.1、Blender MCP 1.5.5で、導入や操作方法、注意点を解説しています。",
+      "summary": "Blender MCPでVRoidを操作する手順。VRoid StudioでVRMを作成・出力し、公式のVRMA（7種）を取得。BlenderにVRM/VRMAアドオンで読み込み、Blender MCPで表情・ボディのアクションを設定。",
       "source": "npaka",
       "publishedAt": "2026-01-31T21:21:21.000Z",
-      "contentHash": "19c0ed547103"
+      "contentHash": "8eee66205733"
     },
     {
       "id": "b783814c6b4a",
@@ -2111,10 +2228,10 @@
       "id": "a0c668cd7f36",
       "title": "パブリック3Dアセットライブラリ PolyHaven を試す",
       "url": "https://note.com/npaka/n/n698bca9df3c4",
-      "summary": "PolyHavenはHDRI・PBRテクスチャ・3Dモデルを無料かつ商用可で配布する総合素材サイト。Blender用アドオン（MCP）で有効化し、Claude Desktopの指示で空HDRI・砂地・岩や草木・ビーチ小物を配置したビーチシーンを作成して試した。",
+      "summary": "PolyHavenはHDRI・PBRテクスチャ・3Dモデルを無料・商用可で配布するBlenderに適した総合素材サイト。Blender MCPで有効化し、Claude Desktop指示で空のHDRI・砂地・岩や草木・小物を入れたビーチシーンを作成した試用記。",
       "source": "npaka",
       "publishedAt": "2026-01-30T20:47:34.000Z",
-      "contentHash": "3c6cc42bea9e"
+      "contentHash": "ef1cf4d6e2c9"
     },
     {
       "id": "5d8d7628b68d",
@@ -2156,10 +2273,10 @@
       "id": "1dffd5abb767",
       "title": "3Dモデル共有サイト Sketchfab を試す",
       "url": "https://note.com/npaka/n/n9257e758e332",
-      "summary": "3Dモデル共有サイトSketchfabを試用。ブラウザ上でモデルを直接操作可能。試用手順はEpic Gamesでログイン→APIキー取得→Blender MCP導入・設定→Claudeにビーチシーン作成を指示（HDRI空、砂地、岩・草、小物）。",
+      "summary": "3Dモデル共有サイトSketchfabを試した記録。ブラウザで3Dを直接操作できるのが特徴。手順はEpic Gamesでログイン→APIトークン取得→Blender MCP導入・設定→Claude DesktopでHDRI空・砂地・岩や草木・小物のビーチシーンを作成指示、など。",
       "source": "npaka",
       "publishedAt": "2026-01-30T19:51:53.000Z",
-      "contentHash": "9020af97def9"
+      "contentHash": "600640d73551"
     },
     {
       "id": "c02a627609c3",
@@ -2264,10 +2381,10 @@
       "id": "6d16b2add7e3",
       "title": "Find out what’s new in the Gemini app in January's Gemini Drop.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-january-2026/",
-      "summary": "「Gemini Drops」は、Geminiアプリの使い方や活用法を毎月紹介する定期更新で、ユーザーがアプリを最大限に活用できるよう最新情報やコツを届けます。",
+      "summary": "Geminiアプリの更新：Googleアプリ横断で個人化支援するPersonal Intelligence、Chromeで作業自動化するAuto Browse、画像から動画化するVeo 3.1、SAT模試と成績フィードバック、Chromeの買物支援強化。詳細はGemini Drops Hubで。",
       "source": "Gemini",
       "publishedAt": "2026-01-30T17:00:00.000Z",
-      "contentHash": "bb57ccd4e140"
+      "contentHash": "1125f4b9ba25"
     },
     {
       "id": "be7f29253e11",
@@ -3497,10 +3614,10 @@
       "id": "17140b072924",
       "title": "The new era of browsing: Putting Gemini to work in Chrome",
       "url": "https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/",
-      "summary": "Gemini 3搭載の新しいエージェント機能がChromeに導入されます。自動化や高度な支援でブラウジングやタスク処理の効率化を図る内容を紹介しています。",
+      "summary": "ChromeにGemini 3を統合し、Mac/Windows/Chromebook向けにサイドパネル型の常時アシスタントを導入。Googleアプリとの連携や自動ブラウズで複雑な作業を支援し、今後Personal Intelligenceで文脈対応を強化。",
       "source": "Gemini",
       "publishedAt": "2026-01-28T18:00:00.000Z",
-      "contentHash": "a4d4286053ae"
+      "contentHash": "6121d96c4f40"
     },
     {
       "id": "02b2053ea06c",
@@ -4145,10 +4262,10 @@
       "id": "26a696beef62",
       "title": "Introducing Agentic Vision in Gemini 3 Flash",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/",
-      "summary": "Agentic VisionはGemini 3 Flashで導入された新機能で、画像理解を受動的な解析から能動的・エージェント的なプロセスへと変える。",
+      "summary": "Gemini 3 FlashのAgentic Visionは、視覚推論とコード実行を組み合わせ、画像をズーム・検査・操作しながら段階的に調査して視覚証拠に基づく回答を生成します。AI Studio/Playgroundで試せます。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T19:00:00.000Z",
-      "contentHash": "1e2ea3d975bf"
+      "contentHash": "2c137b3bfb10"
     },
     {
       "id": "19b6ea6feb4d",
@@ -4190,10 +4307,10 @@
       "id": "7169cd1d6fa7",
       "title": "New developer tools for Google AI Pro and Ultra subscribers",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gdp-premium-ai-pro-ultra/",
-      "summary": "Google Developer Program（GDP）のプレミアム特典がGoogle AI ProおよびGoogle AI Ultraに統合され、両プランで利用可能になりました。",
+      "summary": "GoogleはGoogle AI Pro/Ultra加入者向けにGoogle Developer Programの特典（Google Cloudクレジット等）を統合提供。月次クレジットでAIアプリの開発・デプロイが容易になり、特典はDeveloper Programで有効化して利用可能。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T18:10:00.000Z",
-      "contentHash": "25929654953f"
+      "contentHash": "ceab1ec9e78e"
     },
     {
       "id": "f942f2a0b749",
@@ -4208,10 +4325,10 @@
       "id": "f0a1183e90c8",
       "title": "Google AI Plus is now available everywhere our AI plans are available, including the U.S.",
       "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/",
-      "summary": "Googleは、米国を含む35の国と地域で「Google AI Plus」の提供を開始し、Google AIプランが提供されるすべての地域で利用可能にします。",
+      "summary": "Googleは35か国・地域で「Google AI Plus」を拡大し米国でも提供開始。Gemini 3 ProやNano Banana Pro、FlowやNotebookLMなどのAI機能と200GB容量、家族5人共有を含む。既存のGoogle One Premium 2TB利用者は自動で移行。米国料金は月$7.99、初回2か月は新規に限り50%オフ。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T18:00:00.000Z",
-      "contentHash": "7b4111c48c78"
+      "contentHash": "356599b22f2f"
     },
     {
       "id": "26de3f940e9d",
@@ -4253,10 +4370,10 @@
       "id": "e2b28a416009",
       "title": "Just ask anything: a seamless new Search experience",
       "url": "https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/",
-      "summary": "世界中の検索ユーザーが、最先端のAI機能にこれまでより簡単にアクセスできるようになった。",
+      "summary": "Google Searchが会話型AI体験「Just ask anything」を導入。AI Overviewsの既定モデルにGemini 3を採用し、要約からフォローアップ質問で会話的に深掘りや即答が可能に。生成AIは実験段階。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T17:00:00.000Z",
-      "contentHash": "0fd388aed0f8"
+      "contentHash": "947fd1fce33d"
     },
     {
       "id": "eb358e11d6d2",
@@ -4415,10 +4532,10 @@
       "id": "4e19a0c399ab",
       "title": "In our latest podcast, hear how the “Smoke Jumpers” team brings Gemini to billions of people.",
       "url": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/",
-      "summary": "Geminiを何十億のユーザーに提供するには大規模で連携したインフラ整備が不可欠だと、Google AI: Release Notesの最新回でホストが解説しています。",
+      "summary": "ジェミニを数十億ユーザーに展開するには大規模なインフラが必要だ。ポッドキャストでLogan KilpatrickとEmanuel Taropaが、複雑なAI展開を担う横断チーム「Smokejumpers」、Gemini 3を支える技術的要素、TPU戦略、迅速な開発文化について語る。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T10:28:00.000Z",
-      "contentHash": "7f84fd79a50f"
+      "contentHash": "3cc6b2774677"
     },
     {
       "id": "122902602296",
@@ -7700,19 +7817,19 @@
       "id": "73b0f255bca6",
       "title": "Prep for the SAT with practice tests in Gemini",
       "url": "https://blog.google/products-and-platforms/products/education/practice-sat-gemini/",
-      "summary": "Geminiがプリンストン・レビュー提供の問題を採用した、フルレングスの無料SAT模試を提供開始しました。",
+      "summary": "GeminiがPrinceton Reviewと提携し、アプリ内で無料のフル長SAT模試を提供。即時の弱点フィードバックや解答解説、結果に基づくカスタム学習計画が利用可能。",
       "source": "Gemini",
       "publishedAt": "2026-01-21T08:00:00.000Z",
-      "contentHash": "329ce5aed456"
+      "contentHash": "3548f7a0b0d7"
     },
     {
       "id": "bf71250a5d79",
       "title": "Transform teaching and learning with updates to Gemini and Google Classroom",
       "url": "https://blog.google/products-and-platforms/products/education/bett-2026-gemini-classroom-updates/",
-      "summary": "時間を節約してベストを尽くせる新機能：GeminiでのSAT練習テストや、Google Classroomでの音声・動画録画機能など。",
+      "summary": "Googleが教育向けにGeminiとGoogle Classroomを強化。GeminiはPrinceton Reviewの無料SAT練習や課題作成・進捗要約を支援。Classroomは新ホーム画面で生徒状況と締切を可視化し、課題に音声・動画記録や学習基準タグを追加可能に。",
       "source": "Gemini",
       "publishedAt": "2026-01-21T08:00:00.000Z",
-      "contentHash": "9ea28e65f64a"
+      "contentHash": "cb3934649424"
     },
     {
       "id": "8e8ccefd04d4",
@@ -8883,123 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-19T05:53:19.000Z",
       "contentHash": "e345a5d3aa17"
-    },
-    {
-      "id": "408bdc4d2f43",
-      "title": "漫画のコマ割り演出入門",
-      "url": "https://note.com/npaka/n/n393f3bc40a44",
-      "summary": "漫画のコマ割りはレイアウトではなく時間操作で、読者の視線・速度・感情を編集する技術。小コマはテンポ、中コマは状況説明、大コマは感情ピーク。導入はコマ多め、山場は特大コマと余白で止め、読線（右→左・上→下）も感情を作る。溜め→解放の構成で心を動かす。",
-      "source": "npaka",
-      "publishedAt": "2026-01-19T05:39:11.000Z",
-      "contentHash": "ff7218486324"
-    },
-    {
-      "id": "6ab601e6faeb",
-      "title": "LINE iOSアプリ開発を高速化するClaude Code基盤の設計思想 | LINEヤフー Tech Blog (LY Corporation Tech Blog",
-      "url": "https://techblog.lycorp.co.jp/ja/20260119a",
-      "summary": "LINE iOSでClaude Codeを活用するには、CLAUDE.mdやAgent Skills等の適切なインストラクション設計が必要。Contextを最適化し、スクリプトやlinter等の従来ガードレールを併用、インストラクションを共有・継続的に改善してAIに効率的な開発イテレーションを回させることが重要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T05:30:00.000Z",
-      "contentHash": "cd7d8e6ca370"
-    },
-    {
-      "id": "31fb8d9a2179",
-      "title": "Show HN: Pdfwithlove – PDF tools that run 100% locally (no uploads, no back end)",
-      "url": "https://pdfwithlove.netlify.app",
-      "summary": "多くのPDF Webツールがファイルをアップロードして収益化する中、pdfwithloveは100%ローカル処理でアップロード・バックエンド・追跡なし。結合・分割・編集・圧縮、透かし・署名、画像/HTML/Office→PDF変換等を提供。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-19T05:04:07.000Z",
-      "contentHash": "108e30bfea88"
-    },
-    {
-      "id": "d708646efb9f",
-      "title": "Power BI サービスのスケジュール更新設定方法 | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/01/19/131835",
-      "summary": "Power BIサービスとPower Automateでのスケジュール更新設定を紹介。前提はPower BI Desktopからの発行とデータソースの資格情報設定。サービスでは資格情報を設定してスケジュールを登録、AutomateではScheduled cloud flowで「Refresh a dataset」アクションを使う。用途に応じて使い分けを推奨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T04:18:35.000Z",
-      "contentHash": "7d692dc19e42"
-    },
-    {
-      "id": "733e167e6670",
-      "title": "MySQL で super_read_only=on なのに GTID が割り当てられる statement などについて | GREE Engineering",
-      "url": "https://labs.gree.jp/blog/2026/01/25173/",
-      "summary": "MySQL 9.5でGTIDがデフォルト有効化。SOURCE_AUTO_POSITION=1でのレプリケーション時、replicaをsuper_read_only=onにすることでER_SOURCE_HAS_PURGED_REQUIRED_GTIDSを防げるが、関連バグ（#88720、#35665076）がありAffects Me登録を呼びかける。記事はソースコード解説付き。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T04:05:07.000Z",
-      "contentHash": "0d136fe8286d"
-    },
-    {
-      "id": "64102f3318c8",
-      "title": "【2026年1月】OSSサポートエンジニアが気になった！OSS最新ニュース | SIOS Tech Lab",
-      "url": "https://tech-lab.sios.jp/archives/50996",
-      "summary": "2026年1月のSIOS Tech Lab月刊コラム。株式会社ROUTE06がプログラミング不要で直感的にAIアプリを構築できるノーコードプラットフォーム「Giselle」を発表したニュースを紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T03:43:41.000Z",
-      "contentHash": "d2e5f5494cd8"
-    },
-    {
-      "id": "762bab0a7eca",
-      "title": "知っておくとちょっと便利！tar コマンドを使ったファイルのアーカイブ・展開 | SIOS Tech Lab",
-      "url": "https://tech-lab.sios.jp/archives/50993",
-      "summary": "この記事は、複数ファイルを1つのアーカイブにまとめたり展開するtarコマンドの使い方を解説。バックアップやファイル管理で便利な基本操作とポイントを紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T03:42:40.000Z",
-      "contentHash": "d4002c06bbee"
-    },
-    {
-      "id": "f2545851f49f",
-      "title": "Vertex AI の Gemini Live API 開発者ガイド",
-      "url": "https://note.com/npaka/n/n79f32f5d6901",
-      "summary": "Vertex AIがGemini 2.5 Flash Native Audio搭載のGemini Live APIを提供。単一の低遅延ネイティブ音声でリアルタイム多モーダル対話、感情検知、賢い割り込み、Function Calling/検索連携、継続記憶、企業向け高可用性を実現。開発は双方向ストリーミング（フロント→バックエンド→Gemini）前提。",
-      "source": "npaka",
-      "publishedAt": "2026-01-19T03:37:45.000Z",
-      "contentHash": "ad90cbea4fa6"
-    },
-    {
-      "id": "90cc3ebce66a",
-      "title": "特徴量重要度(寄与度)の算出手法を比較してみる -MDI / PFI / SHAP- | 分析屋",
-      "url": "https://note.com/bunsekiya_tech/n/ncf20aedd00d1",
-      "summary": "Random ForestでKaggleのHouse Pricesを題材にMDI・PFI・SHAPを比較。ダミー特徴量3列を追加した実験で、MDIは無関係なダミーを高評価した一方、PFIとSHAPは抑制。重要度の定義差と信頼性を検討した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T03:00:00.000Z",
-      "contentHash": "a0808089c807"
-    },
-    {
-      "id": "1e2350cc1b4a",
-      "title": "The Code-Only Agent",
-      "url": "https://rijnard.com/blog/the-code-only-agent",
-      "summary": "「Code-Only Agent」は、自然言語ではなく実行可能なコードだけを生成・実行するエージェント設計を提案する記事。ツール呼び出しをコード化して堅牢性、再現性、デバッグ性を高め、サンドボックス等で安全に運用する実装例と利点を示す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-19T02:27:07.000Z",
-      "contentHash": "bc78377e6bf4"
-    },
-    {
-      "id": "e822237c0523",
-      "title": "「リアルな世界」をエンジニアリングする。“確かな手触り”を求めてestieへ | estie inside blog",
-      "url": "https://www.estie.jp/blog/entry/2026/01/19/102901",
-      "summary": "松谷勇史朗は約9年のスタメン勤務を経て2025年6月にestieへ入社。リアルな不動産データとITを結びつける挑戦に魅力を感じ、J-REITのデータ取得・品質管理やアプリ開発をRust/Next.js、Snowflake/dbtで担い、曖昧な物理情報を信頼できるデータへ構造化している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T01:29:01.000Z",
-      "contentHash": "7e61be098ced"
-    },
-    {
-      "id": "47649384d68b",
-      "title": "Microsoft Agent Frameworkで作るマルチエージェント：Workflow（静的フロー）× Magentic（動的オーケストレーション） | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/01/19/102539",
-      "summary": "Microsoft Agent Frameworkでは、定型手順はWorkflow（静的フロー）で実装し、実行中に動的に協調を変えるタスクはMagentic（動的オーケストレーション）で実現。記事はPython/Azure OpenAIのサンプル（Writer→ReviewerのWorkflow、Researcher/Coder+ManagerのMagentic）と使い分け方を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T01:25:39.000Z",
-      "contentHash": "c894c1709ab0"
-    },
-    {
-      "id": "6eecfd952e8c",
-      "title": "プロダクトマネージャーの業務マップを更新しました | inSmartBank",
-      "url": "https://blog.smartbank.co.jp/entry/pm-map/2026",
-      "summary": "スマートバンクが2023年版を刷新。PMは仕様策定者でなくプロダクト価値の責任者で、開発だけでなく事業全体に関与。組織拡大・事業多角化でPMと事業の距離が縮まり、ミッションチームで事業文脈を持つPMの役割が一層重要に。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T01:16:18.000Z",
-      "contentHash": "b9a0e319ad4c"
     }
   ]
 }
