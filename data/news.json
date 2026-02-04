@@ -1,6 +1,276 @@
 {
-  "generatedAt": "2026-02-03T17:15:44.646Z",
+  "generatedAt": "2026-02-04T02:35:26.260Z",
   "items": [
+    {
+      "id": "525d39484d52",
+      "title": "Adobe actually won’t discontinue Animate",
+      "url": "https://www.theverge.com/tech/873621/adobe-animate-maintenance-mode-reverse-course",
+      "summary": "Adobeは当初の廃止発表を撤回し、Adobe Animateを「メンテナンスモード」として継続すると発表。新機能は追加しないが、セキュリティやバグ修正は行い、新旧ユーザーのアクセスとコンテンツの利用保証を約束した。混乱を招いた通知は不適切だったと認めている。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-04T01:28:47.000Z",
+      "contentHash": "04e0063bf38d"
+    },
+    {
+      "id": "43139ea0f3bd",
+      "title": "【Zscaler】サブクラウドの機能と利用方法について | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/zscaler_subclouds",
+      "summary": "Zscalerのサブクラウド機能を解説。特定のデータセンター(DC)への接続を限定でき、導入はZscalerサポートへプロビジョニング依頼。Regional Surchargeはライセンス依存。管理ポータルで確認し、PACファイルを書き換えて適用する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T01:25:44.000Z",
+      "contentHash": "81db82a40dd3"
+    },
+    {
+      "id": "989ce9055ba9",
+      "title": "アンドパッド 技術イベントのご案内 2026 年 2 月 | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/02/04/100000",
+      "summary": "アンドパッドの2026年2月技術イベント案内。2/21 SendaiのGo Conference miniに小島夏海・sunecosuriが登壇、2/25 Go1.26リリースパーティでtomtwinkleが登壇（会場提供）、2/28 福岡Rubyist会議05をスポンサー出展。参加は各イベントページから。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T01:00:00.000Z",
+      "contentHash": "44b9c4ada7af"
+    },
+    {
+      "id": "f52ba1f5d568",
+      "title": "React Tokyo ミートアップ #13 参加レポート - フロントエンド開発者のための「厄払い」 | OPTiM TECH BLOG",
+      "url": "https://tech-blog.optim.co.jp/entry/2026/02/04/100000",
+      "summary": "2026年1月23日開催のReact Tokyo #13参加報告。高橋氏がnpm供給連鎖攻撃やRSCの深刻脆弱性を“厄”とし、audit・lockfile固定・Dependabot/Renovate・SBOM/SAST・WAF・監視など多層防御と段階的実装を提案。チーム横断の対策強化とTanStack Query事例の議論も行われた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T01:00:00.000Z",
+      "contentHash": "4d2e462945dd"
+    },
+    {
+      "id": "49a9392d677c",
+      "title": "Vol. 21 Google Cloud Pub/Sub利用時における分散トレーシングの断絶を防ぐコンテキスト伝搬手法 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/02/04/100000",
+      "summary": "Ktor＋Google Cloud Pub/Sub環境でOpenTelemetryによる非同期コンテキスト伝搬を解説。トレース分断の原因と、カスタム属性での伝搬・復元、push/pullやペイロードラップ対応、スパンの親子化／リンク化の選択を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T01:00:00.000Z",
+      "contentHash": "5fcc9ac86911"
+    },
+    {
+      "id": "5abaf96a2ed1",
+      "title": "【初心者向け】Azure FunctionsでPythonを実行する(HTTP Trigger) | TechHarmony",
+      "url": "https://blog.usize-tech.com/azure-functions-http-trigger/",
+      "summary": "初心者向けのAzure FunctionsでPythonをHTTP Triggerで実行する手順。function_app.pyにHTTPトリガーを追加し@​​app.routeを保持、ローカルはAzuriteでfunc start実行して動作確認。VSCodeでAzureにサインインしデプロイ、公開URLで確認後にIP制限を設定して公開を制御。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T00:30:11.000Z",
+      "contentHash": "4c883f309813"
+    },
+    {
+      "id": "a55e86135c53",
+      "title": "SCSKが開発したDropboxセルフデータ移行ツールを使ってみた！ | TechHarmony",
+      "url": "https://blog.usize-tech.com/dropbox-scsk-sxtool-move/",
+      "summary": "SCSKが開発したDropbox向けのセルフデータ移行ツールを筆者が検証。数十〜数百GB規模の移行向けでGUI操作、月単位貸出、SCSKのノウハウを反映。導入は簡単だがSSLやライセンス登録、Dropbox連携設定が必要で、使い勝手は概ね良好と評価。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T00:15:59.000Z",
+      "contentHash": "52ec818bcf18"
+    },
+    {
+      "id": "4e56cc8cd947",
+      "title": "Illinois joins WHO global outbreak network after U.S. withdraws",
+      "url": "https://capitolnewsillinois.com/news/illinois-joins-who-global-outbreak-network-after-u-s-withdraws/",
+      "summary": "2026年2月3日、プリツカー知事は州年金を完全に積み立てるという提案を堅持すると表明した。財政政策で年金の充足を優先する姿勢を示している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-04T00:15:52.000Z",
+      "contentHash": "685073d1f5b2"
+    },
+    {
+      "id": "54f1193c74a9",
+      "title": "【Microsoft×生成AI連載】【Copilot Studio】アダプティブカードを使ってみた | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/02/04/090758",
+      "summary": "Microsoft×生成AI連載。TeamsやOutlookで使えるボタン付き入力フォーム「アダプティブカード」を、Copilot Studioのエージェントでも利用できるため実際に作成・紹介し、参加者や会議日時入力カードなどを解説した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T00:07:58.000Z",
+      "contentHash": "676ffc3dc35c"
+    },
+    {
+      "id": "de4bee6d86ad",
+      "title": "Republicans haul Netflix before Congress for being too ‘woke’",
+      "url": "https://www.theverge.com/policy/873533/netflix-warner-bros-discovery-senate-antitrust-hearing",
+      "summary": "Netflix共同CEOテッド・サランドスがワーナー・ブラザース・ディスカバリー買収を巡り上院司法小委で証言。共和党は「過度にwoke」と非難し、合併が消費者負担や劇場体験の喪失など独占懸念を指摘した。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-04T00:07:07.000Z",
+      "contentHash": "3adde16ebcf6"
+    },
+    {
+      "id": "e5c11e0ab77d",
+      "title": "Cisco Packet Tracerを使用してスパニングツリーを組んでみた | TechHarmony",
+      "url": "https://blog.usize-tech.com/cisco-packet-tracer-stp/",
+      "summary": "SCSK新人の秋葉大樹がCisco Packet Tracerで3台スイッチのSTPを検証。Switch0がルートブリッジ、ポートはフォワーディング／ブロッキングに分かれ、ケーブル断でブロッキングがフォワーディングに遷移して経路復旧。STPはループ防止と冗長性確保に有効で、USiZEの設計・運用で重要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T00:00:04.000Z",
+      "contentHash": "631457a0fcb7"
+    },
+    {
+      "id": "ff8be98a131c",
+      "title": "ベクトル検索以外のRAG手法7選｜比較表付き解説 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/51219",
+      "summary": "「RAG＝ベクトルDB」は誤解で、BM25やWeb検索、GraphRAGなど計7つのRAG手法を比較表で整理。データ規模・コスト・精度に応じた選び方を解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T00:00:00.000Z",
+      "contentHash": "d7a0e304ed75"
+    },
+    {
+      "id": "d00be9d08ba9",
+      "title": "CLAUDE.md効かない？ドメイン注入を設計思想から見直す | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/51210",
+      "summary": "CLAUDE.mdやAGENTS.mdが効かない原因は設計にあり。自然なドメイン注入を可能にする設計思想を見直し、静的・オンデマンド・自律蓄積の3パターンを解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-04T00:00:00.000Z",
+      "contentHash": "1704fbeaa39f"
+    },
+    {
+      "id": "a91ebb39c01f",
+      "title": "AMD hints Microsoft could launch its next-gen Xbox in 2027",
+      "url": "https://www.theverge.com/news/873490/microsoft-next-gen-xbox-console-2027-date-amd",
+      "summary": "AMDのCEOリサ・スーは、Microsoftと共同開発中のカスタムSoC搭載次世代Xboxの開発が順調で、Microsoft側が準備できれば2027年発売をサポート可能だと示唆。両社は複数デバイスやクラウドゲーム用サーバーでも協業中。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-03T23:22:37.000Z",
+      "contentHash": "2182186bb89c"
+    },
+    {
+      "id": "7ac40c116358",
+      "title": "Department of Justice appeals Google search monopoly ruling",
+      "url": "https://www.theverge.com/tech/873438/google-antitrust-case-doj-states-appeal",
+      "summary": "米司法省がグーグルの検索独占に対する救済決定を不服として逆控訴を提出。グーグルも既に控訴中で、検索データ共有や排他契約禁止などの救済策が争点。Chrome売却命令は免れた。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-03T22:40:47.000Z",
+      "contentHash": "c079df262521"
+    },
+    {
+      "id": "c13aecf9889d",
+      "title": "Notepad++ supply chain attack breakdown",
+      "url": "https://securelist.com/notepad-supply-chain-attack/118708/",
+      "summary": "リンク先を直接参照できないため要約できません。記事本文か主要抜粋（またはコメントの内容）を貼っていただければ、200文字以内で日本語要約を作成します。どちらを優先しますか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-03T22:35:27.000Z",
+      "contentHash": "6b61cfa27d5d"
+    },
+    {
+      "id": "fe9a8da5ceab",
+      "title": "Slopaganda goes West",
+      "url": "https://www.theverge.com/news/873400/nick-shirley-somali-daycares-san-diego-california-youtube",
+      "summary": "右翼系YouTuberニック・シャーリーは、ミネソタでソマリ系が運営すると主張する託児所の“不正”動画により連邦移民当局の投入や託児補助金停止を招いた。今回同様の手口でカリフォルニア（サンディエゴ）に現れ託児所前で張り込みを始めた。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-03T22:23:09.000Z",
+      "contentHash": "e9f220e88b8c"
+    },
+    {
+      "id": "9e987ef2059a",
+      "title": "Borderlands 4 for Switch 2 is on ‘pause’",
+      "url": "https://www.theverge.com/games/873409/borderlands-4-nintendo-switch-2-development-pause",
+      "summary": "Take‑Twoは『Borderlands 4』のNintendo Switch 2版の開発を「一時停止」すると発表。発売は当初の2025年10月予定から延期済みで、品質向上とポストローンチ改善を優先し任天堂と協力を続ける。PGA Tour 2K25やWWE 2K26は予定通り展開予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-03T21:56:13.000Z",
+      "contentHash": "450e7ed7c390"
+    },
+    {
+      "id": "e07776315619",
+      "title": "The four best Super Bowl TV deals we found",
+      "url": "https://www.theverge.com/gadgets/873160/super-bowl-4k-oled-big-tv-deal-sale",
+      "summary": "スーパーボウルは大型テレビが安く買える好機。大画面は観戦の没入感や複数人での視聴に向き、最近は価格下落で入手しやすい。機種選びは部屋の明るさ、設置可能サイズ、視聴習慣、予算で決めよう。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-03T21:23:36.000Z",
+      "contentHash": "e8b5e404bb8b"
+    },
+    {
+      "id": "37121d273d6a",
+      "title": "Elon Musk is merging SpaceX and xAI to build data centers in space — or so he says",
+      "url": "https://www.theverge.com/transportation/873203/elon-musk-spacex-xai-merge-data-centers-space-tesla-ipo",
+      "summary": "マスクがSpaceXとxAIを統合し、AIを宇宙データセンターで運用すると発表（取引額は1.25兆ドルと主張）。地上の電力・冷却問題回避が目的だが、xAIは巨額赤字で自己救済の疑念も。Googleも類似構想を検討。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-03T21:01:03.000Z",
+      "contentHash": "db4cf214d9d1"
+    },
+    {
+      "id": "e3e7f2a3e01f",
+      "title": "Microsoft says it’s building an app store for AI content licensing",
+      "url": "https://www.theverge.com/news/873296/microsoft-publisher-content-marketplace-ai-licensing",
+      "summary": "Microsoftは出版社向けのAIコンテンツライセンス仲介「Publisher Content Marketplace（PCM）」を開発。出版社が利用条件を提示し、AI企業は条件検索・契約や使用量報告で料金設定でき、Vox MediaやAPらと共創。未払い利用に伴う訴訟増加への対応。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-03T20:00:00.000Z",
+      "contentHash": "21e6364f52ce"
+    },
+    {
+      "id": "cd69859cfba0",
+      "title": "Data centers in space makes no sense",
+      "url": "https://civai.org/blog/space-data-centers",
+      "summary": "記事は、軌道や月面にデータセンターを置き、太陽光発電や宇宙の放射冷却を利用して大規模AI運用や規制回避を目指す構想を提示。実現可能性と利点を示す一方、放射線耐性、遅延、保守、法規制、コストなどの重大課題を指摘している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-03T19:37:30.000Z",
+      "contentHash": "d5d140d427fc"
+    },
+    {
+      "id": "4eb7af62e2fa",
+      "title": "China Moon Mission: Aiming for 2030 lunar landing",
+      "url": "https://spectrum.ieee.org/china-moon-mission-mengzhou-artemis",
+      "summary": "中国の月探査でMengzhouやLanyue着陸機の進展・エンジン試験が進み、NASAのアルテミス計画の月到達時期に圧力をかけている。米中の宇宙「競争か非競争か」の関係が曖昧になっている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-03T19:32:11.000Z",
+      "contentHash": "15badac7fe7d"
+    },
+    {
+      "id": "5d34d3acb565",
+      "title": "Apple’s Xcode adds OpenAI and Anthropic’s coding agents",
+      "url": "https://www.theverge.com/news/873300/apple-xcode-openai-anthropic-ai-agentic-coding",
+      "summary": "AppleのXcode 26.3はAnthropicのClaude AgentとOpenAIのCodexを統合し、コード作成・編集、プロジェクト設定更新、ドキュメント検索などをXcode内で自動実行可能に。Model Context Protocolで他のAIツール接続も支援。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-03T19:04:09.000Z",
+      "contentHash": "063dcb1a2ef7"
+    },
+    {
+      "id": "9ba4ddce1156",
+      "title": "AliSQL: Alibaba's open-source MySQL with vector and DuckDB engines",
+      "url": "https://github.com/alibaba/AliSQL",
+      "summary": "AlibabaがMySQLのフォーク「AliSQL」をGitHubで公開。大規模運用向けの性能・安定性改善や独自パッチをまとめてオープン化し、コミュニティで議論が活発化。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-03T18:40:18.000Z",
+      "contentHash": "e20760a4c7d1"
+    },
+    {
+      "id": "0c2b3b9bca46",
+      "title": "Xcode 26.3 – Developers can leverage coding agents directly in Xcode",
+      "url": "https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/",
+      "summary": "Xcode 26.3は「エージェントコーディング」を導入し、AnthropicのClaude AgentやOpenAIのCodexを統合。エージェントがドキュメント検索、ファイル探索、設定変更、プレビュー検証などを自律的に行い、開発工程を通じて作業を効率化・高速化します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-03T18:04:08.000Z",
+      "contentHash": "2926c9925b09"
+    },
+    {
+      "id": "6a9df1f22e4a",
+      "title": "I made 20 GDPR deletion requests. 12 were ignored",
+      "url": "https://nikolak.com/gdpr-failure/",
+      "summary": "記事はGDPRが失敗だと論じる。クッキーバナーや同意疲労で実効的保護が損なわれ、複雑な遵守負担と執行の不均一性が小規模事業者を圧迫し大手を利し、プライバシー改善に結びついていないと批判、代替案を提起している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-03T17:48:22.000Z",
+      "contentHash": "2ea21397d9eb"
+    },
+    {
+      "id": "210ec7107b26",
+      "title": "Deno Sandbox",
+      "url": "https://deno.com/blog/introducing-deno-sandbox",
+      "summary": "Deno Sandboxは軽量LinuxマイクロVMでLLM生成コード等を隔離実行し、ネットワーク出口制御とシークレットの漏洩防止（プレースホルダ化→許可先送信時に実体化）を提供。JS/Python SDKで即起動しDeno Deployへ直接デプロイ可。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-03T17:33:20.000Z",
+      "contentHash": "90dc9ec94f32"
+    },
+    {
+      "id": "60a9ed8424e1",
+      "title": "221 Cannon is Not For Sale",
+      "url": "https://fredbenenson.com/blog/2026/02/03/221-cannon-is-not-for-sale/",
+      "summary": "外部URLに直接アクセスできないため、記事本文を貼っていただくか主要部分を教えてください。いただければ200文字以内の日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-03T16:56:06.000Z",
+      "contentHash": "2dd72a19b76d"
+    },
+    {
+      "id": "9126d0deef2c",
+      "title": "France dumps Zoom and Teams as Europe seeks digital autonomy from the US",
+      "url": "https://apnews.com/article/europe-digital-sovereignty-big-tech-9f5388b68a0648514cebc8d92f682060",
+      "summary": "フランスが公的機関でZoomやMicrosoft Teamsの利用を打ち切り、米国依存からの脱却を目指す欧州のデジタル主権強化の一環を進めている。マクロン大統領や欧州のテック主権担当委員もこの方針を支持している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-03T16:39:18.000Z",
+      "contentHash": "d603dd3b3760"
+    },
     {
       "id": "8cfdf98497d9",
       "title": "Claude Code was down, forcing developers to take a long coffee break",
@@ -389,6 +659,15 @@
       "contentHash": "2987baf13c0b"
     },
     {
+      "id": "96d26eaa8234",
+      "title": "The Sora feed philosophy",
+      "url": "https://openai.com/index/sora-feed-philosophy",
+      "summary": "Soraフィードの理念は、パーソナライズされたおすすめ、保護者向けの管理機能、強力な安全ガードで、創造性を刺激し交流を促しつつ安全な体験を守ることです。",
+      "source": "OpenAI",
+      "publishedAt": "2026-02-03T00:00:00.000Z",
+      "contentHash": "7c174380b9a5"
+    },
+    {
       "id": "0d6379c76576",
       "title": "Firefox Getting New Controls to Turn Off AI Features",
       "url": "https://www.macrumors.com/2026/02/02/firefox-ai-toggle/",
@@ -455,10 +734,10 @@
       "id": "f40b8b5e0f8a",
       "title": "Codex app の概要",
       "url": "https://note.com/npaka/n/nfda4a12569d5",
-      "summary": "macOS向け「Codex app」公開。複数エージェントを並列管理・長時間タスク連携が可能。Skillsでコード生成を超え情報収集・検証・デプロイ・画像生成等を自動化し、IDE/CLIと連携するスキルライブラリを提供。",
+      "summary": "本文が提示されていないため要約できません。記事全文または主要な抜粋・リンクを送ってください。受け取れば200字以内で日本語要約を作成します。",
       "source": "npaka",
       "publishedAt": "2026-02-02T22:02:58.000Z",
-      "contentHash": "9f54bae39850"
+      "contentHash": "66291f85a58d"
     },
     {
       "id": "8d2f1f0eb134",
@@ -554,10 +833,10 @@
       "id": "b398abedf802",
       "title": "10 ways to plan your 2026 budget with Gemini",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-budget-planning-tips/",
-      "summary": "記事は、Geminiを使った2026年予算作成の10の方法を紹介。簡単なプロンプトで支出を整理し、隠れた節約を見つけ、明確な予算計画を作れると説明しています。",
+      "summary": "シンプルなGeminiプロンプトを使って、2026年の予算作成、隠れた節約の発見、支出の整理方法を学ぶ方法を紹介します。",
       "source": "Gemini",
       "publishedAt": "2026-02-02T16:00:00.000Z",
-      "contentHash": "32c305032ee7"
+      "contentHash": "3094d787f13e"
     },
     {
       "id": "663ce91f0eb0",
@@ -1274,10 +1553,10 @@
       "id": "0899b7382802",
       "title": "Reachy Mini Robot with NeMo Agent Toolkit Tutorial の概要",
       "url": "https://note.com/npaka/n/n281f72eb1e40",
-      "summary": "Reachy MiniをNVIDIA NeMoで制御するチュートリアル。Nemotron（Text/VLM）とREACTをLLMルーターで連携し、Reachy Daemon、Bot Service、NeMo Agent Serviceの3コンポーネントで動作。リポジトリをクローンしAPIキーを.envに設定して起動する。",
+      "summary": "Reachy Mini RobotとNVIDIAのNeMo Agent Toolkitを使った連携チュートリアル。環境準備、インストール、接続方法、音声対話や行動制御の実例、サンプルコード・デモ、カスタマイズと応用例を解説します。",
       "source": "npaka",
       "publishedAt": "2026-02-01T05:52:44.000Z",
-      "contentHash": "1144c7fc5c8a"
+      "contentHash": "9d0ecf2d19cb"
     },
     {
       "id": "1b12c1984b7b",
@@ -1382,10 +1661,10 @@
       "id": "3e40319aa746",
       "title": "Blender MCP で VRoid を操作する",
       "url": "https://note.com/npaka/n/n654db4ca3870",
-      "summary": "Blender MCPでVRoidを操作する手順。Blender5.0.1・MCP1.5.5使用。VRoid StudioでVRMを作成・書き出し、公式のVRMAアニメを入手。VRM Add‑onでBlenderにVRM/VRMAを読み込み、Blender MCPをセットアップして表情（シェイプキー）やHumanoidアクションを切替・再生する方法を解説。",
+      "summary": "Blender MCPを使ってVRoidモデルを操作した手順と感想をまとめた記事。検証環境はBlender 5.0.1、Blender MCP 1.5.5で、導入や操作方法、注意点を解説しています。",
       "source": "npaka",
       "publishedAt": "2026-01-31T21:21:21.000Z",
-      "contentHash": "acd7aee4c2ad"
+      "contentHash": "19c0ed547103"
     },
     {
       "id": "b783814c6b4a",
@@ -1985,10 +2264,10 @@
       "id": "6d16b2add7e3",
       "title": "Find out what’s new in the Gemini app in January's Gemini Drop.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-january-2026/",
-      "summary": "Geminiアプリの新機能紹介：Personal IntelligenceでGoogleアプリを連携し個人向け支援、Chromeの自動ブラウズで作業自動化、Veo 3.1で画像から動画生成、SAT模試とフィードバック、Chromeの買物支援強化。設定はユーザー管理可。",
+      "summary": "「Gemini Drops」は、Geminiアプリの使い方や活用法を毎月紹介する定期更新で、ユーザーがアプリを最大限に活用できるよう最新情報やコツを届けます。",
       "source": "Gemini",
       "publishedAt": "2026-01-30T17:00:00.000Z",
-      "contentHash": "13ed7111e7cb"
+      "contentHash": "bb57ccd4e140"
     },
     {
       "id": "be7f29253e11",
@@ -3218,10 +3497,10 @@
       "id": "17140b072924",
       "title": "The new era of browsing: Putting Gemini to work in Chrome",
       "url": "https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/",
-      "summary": "GoogleはGemini 3を搭載した「Gemini in Chrome」をMac/Windows/Chromebook Plus向けに導入。常駐のサイドパネルでマルチタスクを支援し、Googleアプリと深く連携、複雑な作業を自動ブラウズで支援。今後はPersonal Intelligenceも提供予定。",
+      "summary": "Gemini 3搭載の新しいエージェント機能がChromeに導入されます。自動化や高度な支援でブラウジングやタスク処理の効率化を図る内容を紹介しています。",
       "source": "Gemini",
       "publishedAt": "2026-01-28T18:00:00.000Z",
-      "contentHash": "6121d96c4f40"
+      "contentHash": "a4d4286053ae"
     },
     {
       "id": "02b2053ea06c",
@@ -3866,10 +4145,10 @@
       "id": "26a696beef62",
       "title": "Introducing Agentic Vision in Gemini 3 Flash",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/",
-      "summary": "Gemini 3 Flashに新機能「Agentic Vision」が追加。画像をズームや検査、加工するためのコード実行を伴う能動的な調査で、視覚的根拠に基づく回答を生成。AI Studioでデモや実験可能（実験的機能）。",
+      "summary": "Agentic VisionはGemini 3 Flashで導入された新機能で、画像理解を受動的な解析から能動的・エージェント的なプロセスへと変える。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T19:00:00.000Z",
-      "contentHash": "2c137b3bfb10"
+      "contentHash": "1e2ea3d975bf"
     },
     {
       "id": "19b6ea6feb4d",
@@ -3911,10 +4190,10 @@
       "id": "7169cd1d6fa7",
       "title": "New developer tools for Google AI Pro and Ultra subscribers",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gdp-premium-ai-pro-ultra/",
-      "summary": "GoogleはGoogle AI Pro/Ultra加入者向けにGoogle Developer Programの特典（Google Cloudクレジットなど）を統合提供。月間クレジットでAIアプリの構築・展開が容易になり、特典は開発者向けページで有効化できる。",
+      "summary": "Google Developer Program（GDP）のプレミアム特典がGoogle AI ProおよびGoogle AI Ultraに統合され、両プランで利用可能になりました。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T18:10:00.000Z",
-      "contentHash": "ceab1ec9e78e"
+      "contentHash": "25929654953f"
     },
     {
       "id": "f942f2a0b749",
@@ -3929,10 +4208,10 @@
       "id": "f0a1183e90c8",
       "title": "Google AI Plus is now available everywhere our AI plans are available, including the U.S.",
       "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/",
-      "summary": "Googleは35カ国（米国含む）で「Google AI Plus」を提供開始。Gemini 3 Pro/Nano Banana Pro、Flowの映像ツール、NotebookLMなどが利用でき、200GB容量と家族5人共有付き。米国は月$7.99で初回2か月50%オフ。既存のGoogle One 2TB会員は自動で利用可能に。",
+      "summary": "Googleは、米国を含む35の国と地域で「Google AI Plus」の提供を開始し、Google AIプランが提供されるすべての地域で利用可能にします。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T18:00:00.000Z",
-      "contentHash": "313d567d591f"
+      "contentHash": "7b4111c48c78"
     },
     {
       "id": "26de3f940e9d",
@@ -3974,10 +4253,10 @@
       "id": "e2b28a416009",
       "title": "Just ask anything: a seamless new Search experience",
       "url": "https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/",
-      "summary": "Google Searchは「Just ask anything」体験を導入。AI Overviewsの既定モデルをGemini 3に切替え、概要から直接フォローアップして会話を継続可能に。文脈理解で即答から深掘りまで対応。生成AIは実験段階。",
+      "summary": "世界中の検索ユーザーが、最先端のAI機能にこれまでより簡単にアクセスできるようになった。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T17:00:00.000Z",
-      "contentHash": "947fd1fce33d"
+      "contentHash": "0fd388aed0f8"
     },
     {
       "id": "eb358e11d6d2",
@@ -4136,10 +4415,10 @@
       "id": "4e19a0c399ab",
       "title": "In our latest podcast, hear how the “Smoke Jumpers” team brings Gemini to billions of people.",
       "url": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/",
-      "summary": "Googleの「Smokejumpers」という横断チームがGeminiの大規模提供インフラを構築。ポッドキャストでLogan KilpatrickとEmanuel Taropaが、Gemini 3を支える技術的要素、TPU戦略、迅速な開発文化について語る。",
+      "summary": "Geminiを何十億のユーザーに提供するには大規模で連携したインフラ整備が不可欠だと、Google AI: Release Notesの最新回でホストが解説しています。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T10:28:00.000Z",
-      "contentHash": "27db6dcb9f0d"
+      "contentHash": "7f84fd79a50f"
     },
     {
       "id": "122902602296",
@@ -7421,19 +7700,19 @@
       "id": "73b0f255bca6",
       "title": "Prep for the SAT with practice tests in Gemini",
       "url": "https://blog.google/products-and-platforms/products/education/practice-sat-gemini/",
-      "summary": "GeminiはThe Princeton Review提供の実践問題を含む、無料のフルレングスSAT模試をアプリ内で提供。解答解説や即時の弱点分析、個別学習プラン作成が可能。",
+      "summary": "Geminiがプリンストン・レビュー提供の問題を採用した、フルレングスの無料SAT模試を提供開始しました。",
       "source": "Gemini",
       "publishedAt": "2026-01-21T08:00:00.000Z",
-      "contentHash": "3548f7a0b0d7"
+      "contentHash": "329ce5aed456"
     },
     {
       "id": "bf71250a5d79",
       "title": "Transform teaching and learning with updates to Gemini and Google Classroom",
       "url": "https://blog.google/products-and-platforms/products/education/bett-2026-gemini-classroom-updates/",
-      "summary": "GoogleがGeminiとGoogle Classroomを更新。GeminiはPrinceton Reviewの無料SAT模試や課題作成・進捗要約を支援。Classroomは新ホーム、音声・動画録音、学習基準タグを追加。",
+      "summary": "時間を節約してベストを尽くせる新機能：GeminiでのSAT練習テストや、Google Classroomでの音声・動画録画機能など。",
       "source": "Gemini",
       "publishedAt": "2026-01-21T08:00:00.000Z",
-      "contentHash": "cb3934649424"
+      "contentHash": "9ea28e65f64a"
     },
     {
       "id": "8e8ccefd04d4",
@@ -8721,285 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-19T01:16:18.000Z",
       "contentHash": "b9a0e319ad4c"
-    },
-    {
-      "id": "e0c137663128",
-      "title": "「エンジニアの成長がストップする理由とその対策」 | GMO Developers",
-      "url": "https://developers.gmo.jp/technology/77354/",
-      "summary": "本記事は2つの前提を示し、両方に「Yes」と答えられれば問題ないが、どちらかが「No」なら社内外の信頼できる先輩に相談することを勧める内容です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T01:00:00.000Z",
-      "contentHash": "433b9d6d245f"
-    },
-    {
-      "id": "759797db4aa9",
-      "title": "生成AIの気になるニュース・記事（12/14~12/20） | 分析屋",
-      "url": "https://note.com/bunsekiya_tech/n/n7fa9f46fcf9a",
-      "summary": "12/14-12/20のAIニュースまとめ。アンソロピック共同創設者が2030年までに再帰的自己改善の解禁判断が必要と警告。生成AIはマーケで必須の知能拡張へ進化、エージェント化や倫理・格差、延命研究による死の定義見直しや信頼の限界も論点に。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T01:00:00.000Z",
-      "contentHash": "2493758d6765"
-    },
-    {
-      "id": "5de829326949",
-      "title": "Show HN: I quit coding years ago. AI brought me back",
-      "url": "https://calquio.com/finance/compound-interest",
-      "summary": "元エンジニアで投資家の筆者が、使い勝手の悪い複利計算機に嫌気を取り、vibe codingとAI（Claude）で2週間・約$100で複利含む60以上の計算機を作成。AIが実務を代行し、設計力と金融知識が活きたと気づく。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-19T00:50:20.000Z",
-      "contentHash": "f0f9e9de4a1e"
-    },
-    {
-      "id": "57ca25421a42",
-      "title": "Outlook:配信確認でメールが届いたかどうかを確認する方法 | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/01/19/094238",
-      "summary": "Outlook（Classic）の配信確認は、受信者のメールボックスへ配信された際にレポートを受け取る機能。重要なメールは作成時に「オプション」→「配信確認要求」を、全件を既定で有効にするには「ファイル」→「オプション」→「メール」で設定。配信は分かるが開封は確認できない点に注意。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T00:42:38.000Z",
-      "contentHash": "2839735154cb"
-    },
-    {
-      "id": "8fe300c96161",
-      "title": "RSGT2026にゴールドスポンサーとして初参加しました | 株式会社ヘンリー エンジニアブログ",
-      "url": "https://dev.henry.jp/entry/2026/01/19/092454",
-      "summary": "株式会社ヘンリーがRSGT2026にゴールドスポンサーで初参加。架空プロジェクトの体験型ブースで来場者が付箋を使い課題解決を提案、議論が活性化。筆者は新米スクラムマスターの4ヶ月を登壇で共有し好評。学びは課題の共通性、粒度と検証重視、体験型の効果。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T00:24:54.000Z",
-      "contentHash": "12e4dbf043bb"
-    },
-    {
-      "id": "3706bc709b6b",
-      "title": "Repro における AWS アカウント分離の取り組み Part2 | Repro Tech Blog",
-      "url": "https://tech.repro.io/entry/2026/01/19/090939",
-      "summary": "Reproはリセラー経由でOrganizations/IAM未利用のまま、アプリ単位でAWSアカウント分離を段階実施。多くのサービスは完了、dev_stagingで自前KafkaとCassandraが残存。クロスアカウント権限、同時発生するバージョン更新や設定の近代化が課題。今後はKafkaのbootstrap設定統一とKRaft移行、Cassandra分離検討を進める。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T00:09:39.000Z",
-      "contentHash": "1a29fefbc6fe"
-    },
-    {
-      "id": "94589494583a",
-      "title": "Amazon Bedrock AgentCore Runtime の CI/CD 環境をとりあえずつくる | TechHarmony",
-      "url": "https://blog.usize-tech.com/bedrock-agentcore-runtime-cicd/",
-      "summary": "広野がコンテナ前提でAmazon Bedrock AgentCore RuntimeのCI/CD環境を構築。CodeCommit→CodePipelineで自動デプロイし、CloudFormationやDockerfile、buildspec等を用意。サンプルエージェントはMCP経由でAWS Knowledgeに問い合わせ、Amazon Nova 2 Liteを利用。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T00:00:46.000Z",
-      "contentHash": "865f44deea22"
-    },
-    {
-      "id": "2e93d3358513",
-      "title": "Google Cloudのデータサイエンスエージェントを解説 | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/data-science-agent-explained",
-      "summary": "Google CloudのData Science Agentは、Colab Enterprise上で自然言語によりデータクレンジング、EDA、可視化、モデル学習などを自動実行するマネージドAI。ColabやBigQueryで利用可能。2026年1月時点はPublic Previewで初回遅延やVPC制限、PySparkの制約あり。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-19T00:00:00.000Z",
-      "contentHash": "e47ad7bbe007"
-    },
-    {
-      "id": "bc5a36b20675",
-      "title": "High-speed train collision in Spain kills at least 39",
-      "url": "https://www.bbc.com/news/articles/cedw6ylpynyo",
-      "summary": "スペイン南部アダムス付近で高速列車同士が衝突し、少なくとも39人死亡、数十人負傷。マラガ発マドリード行きが脱線して反対側の下り列車に衝突。乗客・乗務員約400人で122人が治療、48人入院（子ども5人含む）。現場は損壊が激しく救助困難。原因は不明で調査中。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T23:54:43.000Z",
-      "contentHash": "733234a48d04"
-    },
-    {
-      "id": "d8d55914b8a0",
-      "title": "Prediction: Microsoft will eventually ship a Windows-themed Linux distro",
-      "url": "https://gamesbymason.com/blog/2026/microsoft/",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文を貼るか要点を教えていただければ、200文字以内の日本語要約を作成します。HNコメントも要約希望なら併せてお知らせください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T23:24:55.000Z",
-      "contentHash": "2ae9cad858fc"
-    },
-    {
-      "id": "ac9f8d3bf202",
-      "title": "Police Invested Millions in Shadowy Phone-Tracking Software Won't Say How Used",
-      "url": "https://www.texasobserver.org/texas-police-invest-tangles-sheriff-surveillance/",
-      "summary": "申し訳ありませんが、外部サイトを直接読み取れないため記事を取得できません。記事本文か主要部分をここに貼っていただければ、200文字以内で日本語要約を作成します。もしくは見出しに基づく簡易要約（正確性は限定）を希望ならお知らせください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T21:05:14.000Z",
-      "contentHash": "926f991148ff"
-    },
-    {
-      "id": "01968acad450",
-      "title": "Show HN: Dock – Slack minus the bloat, tax, and 90-day memory loss",
-      "url": "https://getdock.io/",
-      "summary": "Dockは非同期とリアルタイムに対応したシンプルなチームチャット。決定事項を一元管理・即時検索でき、無期限のメッセージ検索が無料。SOC2準拠で通信・保存時暗号化、データはユーザー所有。余計なAI課金や機能バンドルを廃し低コストで提供。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T20:42:49.000Z",
-      "contentHash": "9c0f5e97a398"
-    },
-    {
-      "id": "cf39cf396339",
-      "title": "You need to listen to the cosmic horror-comedy podcast Welcome to Night Vale",
-      "url": "https://www.theverge.com/column/864078/cosmic-horror-comedy-podcast-welcome-to-night-vale",
-      "summary": "『Welcome to Night Vale』は14年続くフィクション・ポッドキャストで、12シーズン・280話以上、書籍やライブ展開もある長寿作。FinkとCranor作でラヴクラフト風のコズミックホラーをコミュニティラジオ形式で描く傑作。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-18T20:30:00.000Z",
-      "contentHash": "65e50a14a459"
-    },
-    {
-      "id": "8cee6469eaa2",
-      "title": "Dead Internet Theory",
-      "url": "https://kudmitry.com/articles/dead-internet-theory/",
-      "summary": "筆者はHackerNewsで公開されたオープンソースに対し、コメント欄でAI生成疑惑が沸騰するのを目撃。作者はAI未使用を主張。筆者はAI利用自体は問題ないが、特にOSSでは使用の開示が必要で、増えるAI生成コードを全て検証するのは困難だと述べる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T20:19:07.000Z",
-      "contentHash": "d1445aea9039"
-    },
-    {
-      "id": "978b8c21f12a",
-      "title": "Around 1,500 soldiers on standby for deployment to Minneapolis",
-      "url": "https://www.bbc.co.uk/news/articles/c74v0pxg2nvo",
-      "summary": "反ICEデモが続くミネアポリスへ、アラスカ駐留の第11空挺師団約1,500人が展開待機中。派遣は未決定。市長は連邦部隊を「占領」と批判。トランプは内乱法を示唆し、連邦判事は平和的デモへの過剰な制圧を制限する命令を出した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T19:09:43.000Z",
-      "contentHash": "8e0144b84143"
-    },
-    {
-      "id": "f530b8be4870",
-      "title": "Prediction markets are ushering in a world in which news becomes about gambling",
-      "url": "https://www.msn.com/en-us/money/markets/america-is-slow-walking-into-a-polymarket-disaster/ar-AA1Upfdb",
-      "summary": "外部リンク先は直接参照できません。記事本文を貼っていただければ、200字以内で要約します。HNのコメント欄だけ要約希望ならそれも教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T18:20:25.000Z",
-      "contentHash": "12e579f6f037"
-    },
-    {
-      "id": "644723dcf8a5",
-      "title": "Flux 2 Klein pure C inference",
-      "url": "https://github.com/antirez/flux2.c",
-      "summary": "FLUX.2-klein-4Bを使ったテキスト→画像生成の純C実装。C標準庫以外に依存せず、MPS/BLASで高速化可能。量子化不要でsafetensors（float）を直接扱い、開発はAI（Claude）生成の実験作。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T18:01:58.000Z",
-      "contentHash": "cddb60dc4501"
-    },
-    {
-      "id": "cf8ef3562f07",
-      "title": "Show HN: Lume 0.2 – Build and Run macOS VMs with unattended setup",
-      "url": "https://cua.ai/docs/lume/guide/getting-started/introduction",
-      "summary": "LumeはApple Silicon上でVirtualization Frameworkを使いmacOS/Linuxを近ネイティブで動かすオープンソース(MIT)VMランタイム。単一バイナリでHTTP APIを提供し、CIやmacOS版テスト、自動セットアップ、イメージ管理、Rosetta2/GPU/効率的ストレージをサポート。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T17:53:21.000Z",
-      "contentHash": "84fbb096c309"
-    },
-    {
-      "id": "3b254629bdd5",
-      "title": "Gaussian Splatting – A$AP Rocky \"Helicopter\" music video",
-      "url": "https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting",
-      "summary": "A$AP RockyのMV「Helicopter」は、Evercoastらが出演者をボリュメトリック撮影し、動的ガウシアン・スプラッティングでレンダリング。監督ダン・ストレイトの「ポストでの自由」を実現し、激しい躍動感や非現実的な演出を可能にした。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T17:40:55.000Z",
-      "contentHash": "281a14b191d6"
-    },
-    {
-      "id": "d4cc304ac06e",
-      "title": "Statement by Denmark, Finland, France, Germany, Netherlands, Norway, Sweden, UK",
-      "url": "https://www.bundesregierung.de/breg-de/aktuelles/statement-by-denmark-finland-france-germany-the-netherlands-norway-sweden-and-the-united-kingdom-2403016",
-      "summary": "デンマーク、フィンランド、フランス、ドイツ、オランダ、ノルウェー、スウェーデン、英国はNATOとして北極の安全強化に合意し、デンマークの演習「Arctic Endurance」は脅威でないと表明。グリーンランドへの連帯と主権・領土保全に基づく対話の用意を示し、関税恫喝が大西洋関係を損なうと非難、結束して主権を守るとした。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T17:33:25.000Z",
-      "contentHash": "5d2e9f50c567"
-    },
-    {
-      "id": "4bbead11a014",
-      "title": "Sins of the Children",
-      "url": "https://asteriskmag.com/issues/07/sins-of-the-children",
-      "summary": "チリーサー14dで設置した気象観測所が徹底的に破壊された。資材担当グレフィン、メリットと著者は貧しい植生の中で原因を探すが大型生物は見当たらない。遠方から物体が落ちる音がして…",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T17:08:58.000Z",
-      "contentHash": "cd2da2714036"
-    },
-    {
-      "id": "9d276bd53d9d",
-      "title": "The Nobel Prize and the Laureate Are Inseparable",
-      "url": "https://www.nobelpeaceprize.org/press/press-releases/the-nobel-prize-and-the-laureate-are-inseparable",
-      "summary": "ノーベル平和賞は金メダルと証書が象徴で、受賞者が恒久的に記録される。賞は共有・譲渡・撤回不可。委員会は受賞後の行為にコメントせず、メダルや賞金は受賞者が自由に処分できる（例：コフィー・アナンの寄贈）。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T16:50:37.000Z",
-      "contentHash": "c1537d9da560"
-    },
-    {
-      "id": "c29003ac1ad8",
-      "title": "Microsoft’s first Windows 11 update of 2026 stopped some computers from shutting down",
-      "url": "https://www.theverge.com/news/864032/microsofts-out-of-band-windows-11-update-bug",
-      "summary": "Microsoftは2026年1月13日にWindows 11向け初のセキュリティ更新を配布したが、23H2のEnterpriseとIoTで一部PCがシャットダウンや休止できず、RDPログイン障害も発生。4日後に緊急修正を公開し、こうした緊急対応は増加傾向にある。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-18T16:46:15.000Z",
-      "contentHash": "16428f6429a0"
-    },
-    {
-      "id": "a3ac037fd352",
-      "title": "Statement by Denmark, Finland, France, Germany, the Netherlands,Norway,Sweden,UK",
-      "url": "https://www.presidentti.fi/statement-by-denmark-finland-france-germany-the-netherlands-norway-sweden-and-the-united-kingdom-englanniksi/",
-      "summary": "NATOは北極安全強化にコミットし、デンマークの演習「Arctic Endurance」は脅威でないと表明。デンマークとグリーンランドに連帯し、主権・領土保全に基づく対話を求める。関税恫喝は関係を損ない、我々は団結して主権を守る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T16:17:39.000Z",
-      "contentHash": "bcea1871304f"
-    },
-    {
-      "id": "ddb940b70a42",
-      "title": "Predicting OpenAI's ad strategy",
-      "url": "https://ossa-ma.github.io/blog/openads",
-      "summary": "著者はNYTのOpenAI破綻論を否定。OpenAIは$40B調達・$260B評価、2025年にARR急増（$10B、月$1B）、多数の利用者と広告導入で収益化が進む。赤字はあるが倒産は否定。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T14:25:49.000Z",
-      "contentHash": "9ac4a98b5c88"
-    },
-    {
-      "id": "1e5927cabe40",
-      "title": "Here are the 10 deals worth grabbing from Best Buy’s winter sales event",
-      "url": "https://www.theverge.com/gadgets/863660/best-buy-winter-sale-2026-oled-tvs-headphones-fitness-trackers-deal-sale",
-      "summary": "Best BuyのWinter Saleを紹介。大型OLEDテレビ（最大$1,500引き）やSony Bravia 8 II（$900引き）、フィットネストラッカー、ノートPC、Boseヘッドホンなどが特価で、多くが過去最安値に匹敵。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-18T14:00:00.000Z",
-      "contentHash": "929a6ccced97"
-    },
-    {
-      "id": "1598d0b4a365",
-      "title": "What is Plan 9?",
-      "url": "https://fqa.9front.org/fqa0.html#0.1",
-      "summary": "外部ページを直接取得できないため、元記事の本文を貼っていただけますか？または、9frontのFQA概要（歴史、特徴、インストールや基本概念のQ&A）でよければ、それを200字以内で要約します。どちらがよいですか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-18T13:32:25.000Z",
-      "contentHash": "0adde38f3aab"
-    },
-    {
-      "id": "468be7a0d801",
-      "title": "Kaoss Pad V is the first major upgrade to Korg’s touch-based effects in 13 years",
-      "url": "https://www.theverge.com/news/864003/korg-kaoss-pad-v-namm",
-      "summary": "Korgが13年ぶりにKaoss Pad Vを発表。XYタッチパッドで同時に2本の指を認識し、2つのパラメータや別エフェクトを同時操作可能。ボコーダー／ハーモナイザー搭載で音声をMIDI化もできる。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-18T13:30:00.000Z",
-      "contentHash": "446e28d2429f"
-    },
-    {
-      "id": "cfc643b6468f",
-      "title": "Why Coinbase derailed the crypto industry’s political future",
-      "url": "https://www.theverge.com/policy/864008/senate-clarity-act-coinbase-crypto-market",
-      "summary": "コインベースが上院のCLARITY法案への支援を土壇場で撤回し、暗号業界の規制整備と政治的結束を頓挫させ、クラーケンやa16zらを激怒させた。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-18T13:10:00.000Z",
-      "contentHash": "e79a12bec5c5"
-    },
-    {
-      "id": "fbb6dd0ab0aa",
-      "title": "Under Musk, the Grok disaster was inevitable",
-      "url": "https://www.theverge.com/column/863502/grok-deepfake-musk",
-      "summary": "マスクのAIへの焦りと「反ワク」姿勢から、xAIは2023年11月に「反抗的」チャットボットGrokを急速に公開。開発数か月・訓練2か月でXのリアルタイム接続を許し、検証や対策が不十分。Xの大量解雇も安全性を損ない、問題は必然だった。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-18T13:00:00.000Z",
-      "contentHash": "a9ab268128c2"
-    },
-    {
-      "id": "39240f2e0903",
-      "title": "AI for self empowerment",
-      "url": "https://openai.com/index/ai-for-human-agency",
-      "summary": "AIは能力のギャップ（capability overhang）を埋め、人・企業・国家の潜在力を引き出して生産性や成長、機会を拡大し、個人や組織の主体性（エージェンシー）を高める。",
-      "source": "OpenAI",
-      "publishedAt": "2026-01-18T12:00:00.000Z",
-      "contentHash": "0c85cb3e81e6"
     }
   ]
 }
