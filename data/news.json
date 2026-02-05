@@ -1,14 +1,131 @@
 {
-  "generatedAt": "2026-02-05T02:48:22.454Z",
+  "generatedAt": "2026-02-05T08:56:06.866Z",
   "items": [
+    {
+      "id": "cfd0dcadfbf0",
+      "title": "Lambda@Edge × DynamoDBで実現するまとめて購入の入場制限ロジック | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/2026/02/05/154658",
+      "summary": "アソビューの李です。レジャー施設向けSaaS「ウラカタチケット」に複数プランを同時購入できる「まとめて購入」を導入しましたが、複数API呼び出しやプラン参照でバックエンド負荷が増し、アクセス集中で過負荷の懸念があります。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-05T06:46:58.000Z",
+      "contentHash": "09510a680ad6"
+    },
+    {
+      "id": "455de780f708",
+      "title": "週刊Cloudflare - 2026/02/01週 | Gemcook Tech Blogのフィード",
+      "url": "https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_0125-0131",
+      "summary": "2026/01/25–01/31のCloudflare更新：Wranglerが4.61.0/4.61.1で不具合修正、テレメトリのサニタイズ、--inspector-ip追加など機能改善と依存更新。Workers AIに画像生成モデルFLUX.2 Klein(9B)追加。Workers KVの最小cacheTTLが60→30秒に短縮。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-05T06:01:19.000Z",
+      "contentHash": "d7275c1c8d89"
+    },
+    {
+      "id": "1c443c8142e7",
+      "title": " AIで並列開発に挑んだら、逆に効率を落とした話 | RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20260204/ai-parallel-development",
+      "summary": "ラクス・フロントエンド開発の新卒2年目、持永です。AIに並列実装を任せ複数画面・機能を爆速開発する手法を試したが、部分的成功に留まり、手戻りの連鎖やレビュー負荷増で期待ほど効率化できず。工夫点と誤算、得た気づきを整理して共有します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-05T06:00:00.000Z",
+      "contentHash": "717f9050b5ef"
+    },
+    {
+      "id": "29d8f7b11e63",
+      "title": "Android、iOSネイティブからFlutter移行で得た知見 | booklista tech blog",
+      "url": "https://techblog.booklista.co.jp/entry/2026/02/05/145942",
+      "summary": "ブックリスタのモバイルエンジニア城が、既存のiOS/Androidネイティブ電子書籍アプリをFlutterへ置換できるか実証実験中。コード統一による開発・保守工数削減やHot Reload等で速度向上する利点と、置換可能範囲やデメリットを検討している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-05T05:59:42.000Z",
+      "contentHash": "c0847e1b510b"
+    },
+    {
+      "id": "b9a66b49f889",
+      "title": "Don't rent the cloud, own instead",
+      "url": "https://blog.comma.ai/datacenter/",
+      "summary": "comma社は自社オフィスに5百万ドルのデータセンターを運用し、モデル学習やメトリクス、データを自前で管理。クラウドの高コストやロックイン回避、制御性向上や工学的改善促進、長期的コスト削減が目的。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-05T05:50:01.000Z",
+      "contentHash": "6220735ef129"
+    },
+    {
+      "id": "9265a127fd35",
+      "title": "【2026年最新】データ分析基盤の構築でAWS・Azure・GCPをどう選ぶ？失敗しないクラウド選定の新基準 | シー・エス・エス イノベーションラボ（ブログ）",
+      "url": "https://blog.css-net.co.jp/entry/2026/02/05/143711",
+      "summary": "データ分析基盤構築で最適なクラウドを検討。AWS・Azure・Google Cloudをビジネス視点で比較し、50年の実績を持つCSSグループが失敗しないための新しい選定基準を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-05T05:37:11.000Z",
+      "contentHash": "0ccd1493cb15"
+    },
+    {
+      "id": "afd18177c920",
+      "title": "When internal hostnames are leaked to the clown",
+      "url": "https://rachelbythebay.com/w/2026/02/03/badnas/",
+      "summary": "申し訳ありませんが、外部のウェブページに直接アクセスできません。記事本文か要点、またはコメントの抜粋を貼っていただければ、200字以内で日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-05T05:22:36.000Z",
+      "contentHash": "a5920174db23"
+    },
+    {
+      "id": "7c3bc70c7745",
+      "title": "ICE seeks industry input on ad tech location data for investigative use",
+      "url": "https://www.biometricupdate.com/202602/ice-seeks-industry-input-on-ad-tech-location-data-for-investigative-use",
+      "summary": "ICEのHSIが広告技術企業に端末・IP・移動データ等の位置情報と大規模解析サービスに関するRFIを発出。市場調査名だが実演やパイロット導入を視野に捜査利用を検討、規制・プライバシー配慮も明記。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-05T05:02:01.000Z",
+      "contentHash": "966d43bff8b0"
+    },
+    {
+      "id": "af219effd5c2",
+      "title": "【イベントレポート】SRE Kaigi 2026にプラチナスポンサーとして協賛しました！ | コドモン Product Team Blog",
+      "url": "https://tech.codmon.com/entry/2026/02/05/134540",
+      "summary": "コドモンが2026年1月31日に中野で開催されたSRE Kaigiにプラチナスポンサーとして協賛した報告です。協賛の背景、SREチームの「開発チームが自律的に安全・迅速にリリースできるプラットフォーム提供と導入支援」ミッション、当日のスポンサーブースの様子と振り返りをまとめています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-05T04:45:40.000Z",
+      "contentHash": "1137f0064ba0"
+    },
+    {
+      "id": "d117bca4d44c",
+      "title": "アニメのOP演出入門",
+      "url": "https://note.com/npaka/n/ne82753ccd1ef",
+      "summary": "アニメOPは60～90秒で世界観・主人公・感情・期待を印象で伝える場。フレームごとに役割を設計し、止め絵連続・キャラ紹介・シルエット・日常ループ・クライマックス先出しなどの定番型と「掴み／主役／関係性／盛り上げ／タイトル」の5ブロックを使えば、少カットや個人制作・AIでも記憶に残るOPが作れる。",
+      "source": "npaka",
+      "publishedAt": "2026-02-05T04:25:36.000Z",
+      "contentHash": "8754db2fc7f4"
+    },
+    {
+      "id": "9b90262acb91",
+      "title": "全15チームが挑んだ“生産性の壁” 第1回 フリークアウトグループAIハッカソン成果発表会を開催！ | FreakOut Backyard",
+      "url": "https://backyard.fout.co.jp/2026/02/culture/hackathon20251121/",
+      "summary": "フリークアウトグループは2025年11月21日、第1回グループAIハッカソン成果発表会を開催。1日で「組織の生産性に最大のインパクトを与えるプロダクト」を作ることをテーマに、営業・企画など全15チームが挑戦した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-05T04:00:21.000Z",
+      "contentHash": "f3d42d4477f5"
+    },
+    {
+      "id": "90aaa933b600",
+      "title": "Microsoft Agent FrameworkのObservabilityで可視化する：エージェント/Workflowの処理フロー追跡とトークン・レイテンシ計測 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/02/05/124421",
+      "summary": "Microsoft Agent FrameworkはOpenTelemetryベースの可観測性を備え、エージェントのレイテンシ、トークン消費、失敗箇所をスパン・ログ・メトリクスで継続的に追跡可能にします。記事ではローカル環境でトレースを確認し、処理フローやトークン・レイテンシの計測方法を解説します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-05T03:44:21.000Z",
+      "contentHash": "e3eb517bc3f0"
+    },
+    {
+      "id": "8d16252d8d45",
+      "title": "Child prodigies rarely become elite performers",
+      "url": "https://www.economist.com/science-and-technology/2026/01/14/why-child-prodigies-rarely-become-elite-performers",
+      "summary": "申し訳ありませんが、このチャットから外部URLを直接開けません。記事本文を貼っていただくか、要約してほしい箇所を教えてください。200字以内で日本語要約します。HNのコメントもまとめる場合はその旨をお知らせください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-05T02:17:08.000Z",
+      "contentHash": "b3794f001bc9"
+    },
     {
       "id": "7d1acc82cf46",
       "title": "Blender MCP で VRM のリップシンクを試す",
       "url": "https://note.com/npaka/n/nbd1afbede1bc",
-      "summary": "Rhubarb Lip Syncで.wavをphoneticモードで.labに変換（モノラル・16bit・44.1/48kHz・ノイズ少なめ推奨、必要ならffmpegで整形）し、Blender MCPに読み込んでVRMに口パクを適用、音声と同時再生する手順を紹介。",
+      "summary": "Blender MCPでVRMのリップシンクを試した記録。Rhubarb Lip SyncでWAVをphoneticモードで.lab化（モノラル44.1/48kHz推奨、ffmpegで整形）し、Blender MCPに読み込んだVRMへ.labを適用して.wav再生と同期させる。",
       "source": "npaka",
       "publishedAt": "2026-02-05T02:09:36.000Z",
-      "contentHash": "1fd0e7d8386b"
+      "contentHash": "9c080fb6bc11"
     },
     {
       "id": "14eb9ebee144",
@@ -128,6 +245,15 @@
       "contentHash": "aef700095a29"
     },
     {
+      "id": "1c78d95fbbc6",
+      "title": "Why more companies are recognizing the benefits of keeping older employees",
+      "url": "https://longevity.stanford.edu/why-more-companies-are-recognizing-the-benefits-of-keeping-older-employees/",
+      "summary": "年長労働者の活用が業績向上に寄与する事例が増加。B&Qは高齢スタッフで利益と定着率改善、BMWは作業改善で生産性向上。少子化やAI投資で若年労働力が減る中、経験重視の採用・待遇が組織力強化につながる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-04T23:26:23.000Z",
+      "contentHash": "6f316e276364"
+    },
+    {
       "id": "d27e64ab1d66",
       "title": "Google&#8217;s annual revenue tops $400 billion for the first time",
       "url": "https://www.theverge.com/news/874161/google-400-billion-revenue-q4-2025-earnings",
@@ -149,10 +275,10 @@
       "id": "651da33588b8",
       "title": "Reachy Mini dashboard のダンス ・ エモーション ・ アプリの一覧",
       "url": "https://note.com/npaka/n/n1f0add28df7b",
-      "summary": "Reachy Mini dashboardの起動法（Daemon起動→http://0.0.0.0:8000）、電源トグル、豊富なダンス・感情プリセット一覧と、挨拶・コーディングラボ・ハンドトラッカー・だるまさんがころんだ・時計・会話などのアプリ群を紹介。",
+      "summary": "Reachy Mini dashboardの使い方：Daemonを起動してhttp://0.0.0.0:8000/にアクセス、右上トグルで電源/接続管理。Move Playerに多数のダンス（例：jackson_square、pendulum_swing等）と感情プリセット、Greeting/Coding Lab/Hand Tracker/Red Light Green Light/Clock/Conversationなどのアプリがある。",
       "source": "npaka",
       "publishedAt": "2026-02-04T22:10:21.000Z",
-      "contentHash": "a67c82b5e54e"
+      "contentHash": "92d8aea5ab64"
     },
     {
       "id": "4a066301be02",
@@ -162,6 +288,15 @@
       "source": "The Verge",
       "publishedAt": "2026-02-04T21:37:50.000Z",
       "contentHash": "95cfd94914d7"
+    },
+    {
+      "id": "556449e65e2b",
+      "title": "Spotlighting the World Factbook as We Bid a Fond Farewell",
+      "url": "https://www.cia.gov/stories/story/spotlighting-the-world-factbook-as-we-bid-a-fond-farewell/",
+      "summary": "CIAの長年の刊行物『The World Factbook』が終了。1962年に機密版で創刊、1971年に非機密化し約10年後に現名に改称、1997年にウェブ公開。研究者らに広く利用され、5,000点超の著作権フリー写真も掲載されていた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-04T21:08:35.000Z",
+      "contentHash": "9e1f730927c4"
     },
     {
       "id": "d19d6ef8cbad",
@@ -212,10 +347,10 @@
       "id": "b8d8067970fe",
       "title": "How Jeff Bezos Brought Down the Washington Post",
       "url": "https://www.newyorker.com/news/annals-of-communications/how-jeff-bezos-brought-down-the-washington-post",
-      "summary": "ベゾスの買収でワシントン・ポストはテック流の効率化と利益優先に傾き、データ重視や広告戦略が編集方針を左右。解雇や検閲疑惑、調査報道の衰退を招いた経緯を批判的に描く。",
+      "summary": "ベゾスのワシントン・ポスト買収が、デジタル化と採算重視の経営で効率化と収益化を優先し、編集部の削減や調査報道の弱体化、利害衝突や公共性の損失を招いた経緯を描く。",
       "source": "Hacker News",
       "publishedAt": "2026-02-04T18:56:46.000Z",
-      "contentHash": "483c168e486a"
+      "contentHash": "48e0598aec42"
     },
     {
       "id": "183f987527d6",
@@ -1049,10 +1184,10 @@
       "id": "fd420c4e72d9",
       "title": "DeepMotion Animate 3D による モーション生成 を試す",
       "url": "https://note.com/npaka/n/nb7c75ddb7cb8",
-      "summary": "DeepMotionのWebサービス「Animate 3D」を試用。動画(mp4/mov/avi)をアップロードするだけでFBX/BVH/GLBの3Dモーションを生成。静止カメラ・2〜6m・良照明・遮蔽なし等が推奨。BVHをVRMAに変換しBlenderで再生確認した。",
+      "summary": "DeepMotionのWebサービスAnimate 3Dで動画からモーション（FBX/BVH/GLB）を生成する手順を試行。撮影時の注意点やBVH→VRMA変換、BlenderでVRMに適用して動作確認した。",
       "source": "npaka",
       "publishedAt": "2026-02-03T13:00:37.000Z",
-      "contentHash": "904e804ead15"
+      "contentHash": "5c5f92a472ac"
     },
     {
       "id": "a48da6e49ff5",
@@ -1481,10 +1616,10 @@
       "id": "b398abedf802",
       "title": "10 ways to plan your 2026 budget with Gemini",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-budget-planning-tips/",
-      "summary": "この記事は、生成AI「Gemini」を使った2026年予算作成の10の方法を紹介します。簡単なプロンプトで支出を整理し、隠れた節約を見つけ、予算を可視化・計画する手法を解説しています。",
+      "summary": "シンプルなGeminiプロンプトを使って、2026年の予算を作成し、隠れた節約を見つけて支出を整理する方法を手順と例で解説。",
       "source": "Gemini",
       "publishedAt": "2026-02-02T16:00:00.000Z",
-      "contentHash": "32c305032ee7"
+      "contentHash": "3094d787f13e"
     },
     {
       "id": "663ce91f0eb0",
@@ -1985,10 +2120,10 @@
       "id": "073468a9ee11",
       "title": "Antigravity で Blender MCP を試す",
       "url": "https://note.com/npaka/n/naa60a38c2938",
-      "summary": "AntigravityでBlender MCPを試した手順：Antigravityをインストール→チャット右上の…→MCP Servers→Manage MCPs→View raw configでmcp_config.jsonに{\"mcpServers\":{\"blender\":{\"command\":\"uvx\",\"args\":[\"blender-mcp\"]}}}を追加→再起動して有効化（使用しない時は無効化）。Geminiはカメラ指示が通りやすいとの所感。",
+      "summary": "AntigravityでBlender MCPを試用した手順を解説。Antigravity導入→チャット右上…→MCP Servers→Manage MCPs→View raw configでmcp_config.jsonにblender設定（command: uvx, args:[\"blender-mcp\"]）を追加→再起動→有効化。未使用時はOFF。Geminiの方が空間把握でカメラ指示が通りやすい。",
       "source": "npaka",
       "publishedAt": "2026-02-01T20:57:09.000Z",
-      "contentHash": "f51735c9f55a"
+      "contentHash": "03844af572e2"
     },
     {
       "id": "c15e5130ee02",
@@ -2183,10 +2318,10 @@
       "id": "83d1bcbc2d61",
       "title": "Hitem3D の 3Dモデル生成 を試す",
       "url": "https://note.com/npaka/n/nb775130d2655",
-      "summary": "Hitem3Dを試用。テキストや画像から高品質な3Dモデルを自動生成でき、ゲーム・アニメ・3Dプリント・AR/VR向け。使い方はGoogleでログイン→画像アップ→生成→ダウンロード。リギング機能はなし。",
+      "summary": "Hitem3Dを試用。テキストや画像から高品質な3Dモデルを自動生成でき、ゲーム・アニメ・3Dプリント・AR/VRで利用可能。操作はGoogleでログイン→画像アップ→生成→ダウンロード。リギング機能はなし。",
       "source": "npaka",
       "publishedAt": "2026-02-01T08:03:55.000Z",
-      "contentHash": "04304f4559c3"
+      "contentHash": "ca2cb56536af"
     },
     {
       "id": "9b6ee0a4df35",
@@ -2228,10 +2363,10 @@
       "id": "1242de82e6e2",
       "title": "アニメのカメラレンズ入門",
       "url": "https://note.com/npaka/n/n2b18b9f4db99",
-      "summary": "アニメのカメラ演出では動きより「レンズの種類」が重要で、同じアップでも印象が変わる。覚えるのは広角・標準・望遠の3種。広角は迫力やスピード感・コミカル、標準は自然で会話・日常向き、望遠は感情・緊張を強め背景を圧縮する。",
+      "summary": "アニメ演出では動き以前にレンズ選びが重要。同一カットでも広角・標準・望遠で印象が変わる。広角は迫力や誇張、標準は自然で会話向き、望遠は圧縮で感情強調に適する。",
       "source": "npaka",
       "publishedAt": "2026-02-01T01:30:56.000Z",
-      "contentHash": "b0f2c53e9bae"
+      "contentHash": "9793d3921835"
     },
     {
       "id": "41ec7b16181b",
@@ -2912,10 +3047,10 @@
       "id": "6d16b2add7e3",
       "title": "Find out what’s new in the Gemini app in January's Gemini Drop.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-january-2026/",
-      "summary": "Geminiアプリの更新：Googleアプリ横断で個人化支援するPersonal Intelligence、Chromeで作業自動化するAuto Browse、画像から動画化するVeo 3.1、SAT模試と成績フィードバック、Chromeの買物支援強化。詳細はGemini Drops Hubで。",
+      "summary": "Gemini Dropsは、Geminiアプリを最大限に活用するための情報を毎月届ける定期的なアップデートです。",
       "source": "Gemini",
       "publishedAt": "2026-01-30T17:00:00.000Z",
-      "contentHash": "1125f4b9ba25"
+      "contentHash": "bb57ccd4e140"
     },
     {
       "id": "be7f29253e11",
@@ -4145,10 +4280,10 @@
       "id": "17140b072924",
       "title": "The new era of browsing: Putting Gemini to work in Chrome",
       "url": "https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/",
-      "summary": "GoogleはGemini 3を搭載したChrome（Mac/Windows/Chromebook Plus）で、サイドパネル常駐のAIアシスタント、Googleアプリ連携、自動ブラウズやPersonal Intelligenceによる文脈支援で複雑な作業を効率化し生産性を高めると発表しました。",
+      "summary": "記事は、Gemini 3を搭載したChrome向けの新しいエージェント機能を紹介。ウェブ操作の自動化やタスク支援で、より便利で賢いブラウジング体験を提供する内容です。",
       "source": "Gemini",
       "publishedAt": "2026-01-28T18:00:00.000Z",
-      "contentHash": "6121d96c4f40"
+      "contentHash": "a4d4286053ae"
     },
     {
       "id": "02b2053ea06c",
@@ -4793,10 +4928,10 @@
       "id": "26a696beef62",
       "title": "Introducing Agentic Vision in Gemini 3 Flash",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/",
-      "summary": "Gemini 3 FlashにAgentic Visionを導入。画像をズーム・検査・操作し、コード実行で視覚的根拠に基づく推論を行い理解精度を高める。Google AI StudioやPlaygroundで「Code Execution」を有効にして試せる（実験的）。",
+      "summary": "Agentic VisionはGemini 3 Flashで導入された新機能で、画像理解を単なる静的解析からエージェント的（能動的・目的指向的）なプロセスへと変え、より主体的に画像情報を扱えるようにする。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T19:00:00.000Z",
-      "contentHash": "2c137b3bfb10"
+      "contentHash": "1e2ea3d975bf"
     },
     {
       "id": "19b6ea6feb4d",
@@ -4838,10 +4973,10 @@
       "id": "7169cd1d6fa7",
       "title": "New developer tools for Google AI Pro and Ultra subscribers",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gdp-premium-ai-pro-ultra/",
-      "summary": "GoogleはGoogle AI Pro／Ultra加入者に、Google Developer Programのプレミア特典（毎月のGoogle Cloudクレジット等）を統合提供。Developer Programで有効化しAIアプリ開発・デプロイに利用可能。",
+      "summary": "Google Developer Program（GDP）のプレミアム特典が、Google AI ProおよびGoogle AI Ultraに含まれるようになりました。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T18:10:00.000Z",
-      "contentHash": "ceab1ec9e78e"
+      "contentHash": "25929654953f"
     },
     {
       "id": "f942f2a0b749",
@@ -4856,10 +4991,10 @@
       "id": "f0a1183e90c8",
       "title": "Google AI Plus is now available everywhere our AI plans are available, including the U.S.",
       "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/",
-      "summary": "Googleは35か国・地域で「Google AI Plus」を拡大し米国でも提供開始。Gemini 3 ProやNano Banana Pro、FlowやNotebookLMなどのAI機能と200GB容量、家族5人共有を含む。既存のGoogle One Premium 2TB利用者は自動で移行。米国料金は月$7.99、初回2か月は新規に限り50%オフ。",
+      "summary": "Googleは米国を含む35の国と地域で「Google AI Plus」を提供開始し、Google AIの利用可能なすべての地域で利用できるようになった。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T18:00:00.000Z",
-      "contentHash": "356599b22f2f"
+      "contentHash": "7b4111c48c78"
     },
     {
       "id": "26de3f940e9d",
@@ -4901,10 +5036,10 @@
       "id": "e2b28a416009",
       "title": "Just ask anything: a seamless new Search experience",
       "url": "https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/",
-      "summary": "Google Searchが会話型の新検索体験「Just ask anything」を導入。AI OverviewsはデフォルトでGemini 3を使い、要約から直接追問して深掘り可能に。文脈理解で即答〜詳細対話を実現。生成AIは実験段階。",
+      "summary": "世界中の検索ユーザーが、最先端のAI機能へこれまでより簡単にアクセスできるようになった。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T17:00:00.000Z",
-      "contentHash": "947fd1fce33d"
+      "contentHash": "0fd388aed0f8"
     },
     {
       "id": "eb358e11d6d2",
@@ -5063,10 +5198,10 @@
       "id": "4e19a0c399ab",
       "title": "In our latest podcast, hear how the “Smoke Jumpers” team brings Gemini to billions of people.",
       "url": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/",
-      "summary": "ローガン・キルパトリックがエマニュエル・タロパと語るポッドキャストで、機動的なクロスファンクショナルチーム「Smokejumpers」がGemini 3を支える大規模インフラ、TPU戦略、そして迅速で高強度な開発文化で重要なAI公開を支えていることを解説。",
+      "summary": "Geminiを数十億人に届けるには大規模で連携したインフラ整備が必要であることを、最新のGoogle AI: Release NotesポッドキャストでホストのLoganが紹介している。",
       "source": "Gemini",
       "publishedAt": "2026-01-27T10:28:00.000Z",
-      "contentHash": "3cc6b2774677"
+      "contentHash": "7f84fd79a50f"
     },
     {
       "id": "122902602296",
@@ -8357,10 +8492,10 @@
       "id": "bf71250a5d79",
       "title": "Transform teaching and learning with updates to Gemini and Google Classroom",
       "url": "https://blog.google/products-and-platforms/products/education/bett-2026-gemini-classroom-updates/",
-      "summary": "GoogleがGeminiとGoogle Classroomを更新。GeminiはPrinceton Reviewの無料SAT模試や課題作成・進捗要約を支援。Classroomは新ホームで生徒の関与や期限を可視化し、課題に音声・動画録音や学習基準タグを追加可能。",
+      "summary": "GeminiのSAT練習やGoogle Classroomでの音声・動画録画などの新機能により、時間を節約してより良い成果を出せるようになります。",
       "source": "Gemini",
       "publishedAt": "2026-01-21T08:00:00.000Z",
-      "contentHash": "cb3934649424"
+      "contentHash": "9ea28e65f64a"
     },
     {
       "id": "8e8ccefd04d4",
@@ -8865,141 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-01-20T07:51:12.000Z",
       "contentHash": "78a353c387c2"
-    },
-    {
-      "id": "6e7cc3e268ad",
-      "title": "配属から4ヶ月の振り返り | ARMテックブログのフィード",
-      "url": "https://zenn.dev/arm_techblog/articles/dc0a30a9eba2cf",
-      "summary": "新卒1年目のTが配属後4ヶ月の流れと感想を報告。4月〜5月中旬は同期とビジネスマナーや社内業務研修、社内インターンで事業部を体験。5月中旬〜6月末は他社新卒と共にHTML/CSS/JS/Java/SpringなどのJava研修を受講。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-20T07:38:49.000Z",
-      "contentHash": "8a736fc52a98"
-    },
-    {
-      "id": "25fc8afe3123",
-      "title": "The Overcomplexity of the Shadcn Radio Button",
-      "url": "https://paulmakeswebsites.com/writing/shadcn-radio-button/",
-      "summary": "shadcn向けにアクセシブルなラジオボタンを実装する手順を解説。見た目をカスタムしつつネイティブのinputを隠してラベルで操作する方法、キーボード操作やARIA、フォーム連携などの注意点とコード例を示します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-20T07:35:09.000Z",
-      "contentHash": "6fdb152f2fa1"
-    },
-    {
-      "id": "d48ab43c1473",
-      "title": "Giving university exams in the age of chatbots",
-      "url": "https://ploum.net/2026-01-19-exam-with-chatbots.html",
-      "summary": "申し訳ないですが、外部サイトに直接アクセスできません。記事本文を貼っていただければ、200文字以内で要約します。URLの主要ポイントを教えていただいても対応できます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-20T07:32:58.000Z",
-      "contentHash": "7b0e429c7b48"
-    },
-    {
-      "id": "c04991d00d67",
-      "title": "Regional Scrum Gathering Tokyo 2026 レポート —— ブース出展、スポンサーセッション登壇 | SmartHR Tech Blog",
-      "url": "https://tech.smarthr.jp/entry/2026/01/20/163000",
-      "summary": "SmartHRは2026年1月7〜9日、ベルサール羽田空港で開かれた国内最大級のアジャイル・スクラムイベント「Regional Scrum Gathering Tokyo 2026」にシルバースポンサーとして協賛。3名が参加し、1名がスポンサーセッションで登壇、初めてブース出展しました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-20T07:30:00.000Z",
-      "contentHash": "0b730aba1c57"
-    },
-    {
-      "id": "817ad4692f8e",
-      "title": "モジュラモノリスへのリアーキテクチャに向けた準備 | フォトシンス エンジニアブログ",
-      "url": "https://akerun.hateblo.jp/entry/2025/12/12",
-      "summary": "Qiita Advent Calendar 2025のAkerun記事（12日目）。著者@yellow-seedが、フォトシンスの大半を担うモノリスRailsの保守性低下に対し、プラットフォーム改善としてモジュラモノリス化の準備と2025年のチーム活動を紹介する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-20T07:13:47.000Z",
-      "contentHash": "6ff1140f77bf"
-    },
-    {
-      "id": "bbdaedc8680c",
-      "title": "セキュリティAIエージェントTakumiの活用術 | kickflow Tech Blog",
-      "url": "https://tech.kickflow.co.jp/entry/2026/01/20/155705",
-      "summary": "kickflowのバックエンド渡辺が、セキュリティ特化AIエージェント「Takumi」を使い、新機能の初期設計でOAuthのstateに関する脆弱性を早期検知。提案→検証→実装まで行い、運用の利点と注意点を報告。採用情報あり。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-20T06:57:05.000Z",
-      "contentHash": "facacb5c15db"
-    },
-    {
-      "id": "e4b194860f05",
-      "title": "強い現場と、経営の視座を繋ぐ - カケハシSREが描くさらなる進化へのロードマップ | KAKEHASHI Tech Blog",
-      "url": "https://kakehashi-dev.hatenablog.com/entry/2026/01/20/154929",
-      "summary": "カケハシはクラウド型電子薬歴「Musubi」などの成長を支えるためSRE体制を整備中。SREメンバーの声から、経営視点と技術戦略を兼ね備えたCTO・VPoE経験者の採用意向とその背景を探った。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-20T06:49:29.000Z",
-      "contentHash": "faf10095e8d2"
-    },
-    {
-      "id": "6f7471acaeb3",
-      "title": "AI時代のチーム論の到達点──“ポリフォニック・チーム”がもたらす構造変革&amp;lt;シリーズAI荒野&amp;gt; | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/na021fb60fde8",
-      "summary": "AIが共通言語化・翻訳・ルール化・整理・予測を担い、人は洞察・創造・判断を行う「ポリフォニック・チーム」を提案。タックマンモデル各段階が再定義され、解散後も知見が引き継がれチーム構造が進化する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-20T06:38:10.000Z",
-      "contentHash": "ed9ef87bed2e"
-    },
-    {
-      "id": "d0ff7b8a6034",
-      "title": "新卒一年目のプロジェクトマネージャ試験合格体験記 | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/nb70e08a6b58a",
-      "summary": "SHIFT入社1年目の筆者が実務経験ほぼゼロで2025年プロジェクトマネージャ試験に合格。約2.5〜3ヶ月（月60〜80h）『情報処理教科書』中心に学習。午後Ⅱは合格論文の写経やPMBOKの「あるべき姿」暗記、設問に答える記述方針で対策し、新人にも価値ある試験と結論。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-20T06:21:59.000Z",
-      "contentHash": "032debb2fa0f"
-    },
-    {
-      "id": "38d75be71712",
-      "title": "ServiceNow powers actionable enterprise AI with OpenAI",
-      "url": "https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai",
-      "summary": "ServiceNowはOpenAIの最先端モデルへのアクセスを拡大し、プラットフォーム全体でAIを活用した業務ワークフロー、要約、検索、音声機能を強化します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-01-20T05:45:00.000Z",
-      "contentHash": "fa2e2f0d14e2"
-    },
-    {
-      "id": "fd1f7708978a",
-      "title": "Python in Excelでヒートマップを作成してみた | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n461b045a963d",
-      "summary": "SHIFTの中村が、Excel内でPythonを実行する「Python in Excel」（2024年10月正式）でヒートマップを作成する手順を解説。クラウド実行でセキュア、Enterprise/Business向け。セルにデータを置き、Pythonエディタでpandas・seaborn・matplotlibを使うサンプルコードを掲載。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-20T05:36:37.000Z",
-      "contentHash": "bcefdaa85e82"
-    },
-    {
-      "id": "d8b101fb4576",
-      "title": "データ検索基盤チームの立ち上げ | LayerX エンジニアブログ",
-      "url": "https://tech.layerx.co.jp/entry/2026/01/20/140000",
-      "summary": "LayerXの澁井氏がデータ検索基盤チームを立ち上げ。生成AI時代にデータが差別化要因となり、LLM/VLMがスライドや画像・グラフなど非構造化・マルチモーダル情報を高精度で構造化抽出できるため、従来扱えなかったドキュメントを取り込み再定義する企業向けデータ検索システム構築を目指す、という経緯。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-20T05:03:18.000Z",
-      "contentHash": "f1e80a6fec6b"
-    },
-    {
-      "id": "eff07ba3cd16",
-      "title": "サーバーサイドからモバイルへ 私がスタメンの自社開発プロダクトに挑む理由！ | stmn tech blog",
-      "url": "https://tech.stmn.co.jp/entry/2026/01/20/133718",
-      "summary": "2026年1月にスタメンへモバイルエンジニアで入社した著者は、サーバーサイドからUIを自分で作りたい思いで転身。勉強会での雰囲気や当事者意識を称える「スタカネ」文化に共感し入社。実務未経験で学習の壁に直面するが、AIツールや先輩の支援で乗り越えつつある。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-20T04:37:18.000Z",
-      "contentHash": "2a27b304f207"
-    },
-    {
-      "id": "087c0400d448",
-      "title": "Node.jsの脆弱性対応を迅速に進めるために実施したこと | inSmartBank",
-      "url": "https://blog.smartbank.co.jp/entry/2026/01/20/133300",
-      "summary": "スマートバンクのサーバーエンジニアが、Node.jsの脆弱性（2025年12月告知→延期後2026/1/13公開）に対し翌朝Slackで更新指示を出し、5リポジトリでPRを作成・差分やCIを確認してレビュー依頼を行い、迅速な対応手順と考えを共有している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-20T04:33:00.000Z",
-      "contentHash": "2c5c15aba925"
-    },
-    {
-      "id": "b49fedfbbc0a",
-      "title": "Tech Challenge Party 2026に参加します | コラボスタイル Developersのフィード",
-      "url": "https://zenn.dev/collabostyle/articles/a0941d026e89fb",
-      "summary": "著者は2026年2月4日のTech Challenge Partyに参加。コミュニティへの敷居の高さに悩みつつ、「はじめの一歩」パネル、100連発セッション、基調講演で不安を払拭し、自分に合うコミュニティを見つけて明日からの小さな一歩を決めたいと述べる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-20T04:14:55.000Z",
-      "contentHash": "ef8ddb6fced2"
     }
   ]
 }
