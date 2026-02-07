@@ -1,6 +1,33 @@
 {
-  "generatedAt": "2026-02-07T02:43:09.970Z",
+  "generatedAt": "2026-02-07T08:51:47.201Z",
   "items": [
+    {
+      "id": "1a79deb97d10",
+      "title": "「AIコーディング、規約遵守は可能？あなたの開発はどう変わる？」～【googlecloud】今週の人気記事TOP5（2026/02/01） | CareNet Engineersのフィード",
+      "url": "https://zenn.dev/carenet/articles/zenn-weekly-googlecloud-articles-2026-02",
+      "summary": "CareNet Engineersの今週人気TOP5をAIが自動収集・要約。Antigravityでコーディング規約順守が可能、Terraform×GCPで数時間の構築が数分に短縮、Go/GCPとGitHub ActionsによるCI/CD・監視、著者の開発環境紹介など。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-07T01:52:59.000Z",
+      "contentHash": "e947ec7af02f"
+    },
+    {
+      "id": "dc64e98ff69d",
+      "title": "Why I Joined OpenAI",
+      "url": "https://www.brendangregg.com/blog/2026-02-07/why-i-joined-openai.html",
+      "summary": "AIデータセンターの急増するコストと環境負荷問題を解決するため、ChatGPTの性能改善に取り組むべくOpenAIに参加。従来を超える新たな性能工学が必要で、一般利用の広がりも実感した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-07T01:45:04.000Z",
+      "contentHash": "db19f83eb56f"
+    },
+    {
+      "id": "e92578a26076",
+      "title": "I'm going to cure my girlfriend's brain tumor",
+      "url": "https://andrewjrod.substack.com/p/im-going-to-cure-my-girlfriends-brain",
+      "summary": "外部リンクに直接アクセスできないため、記事本文をここに貼っていただけますか？または重要な抜粋や要点を教えてください。いただければ200文字以内の日本語要約を作成します。ニュースコメントも要約できます。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-07T01:05:59.000Z",
+      "contentHash": "83aa84fe6541"
+    },
     {
       "id": "e47a5c65c338",
       "title": "Structured Outputs で Key を LLM に生成してもらう | ヘッドウォータースのフィード",
@@ -86,10 +113,10 @@
       "id": "c16d087bc113",
       "title": "Show HN: I spent 4 years building a UI design tool with only the features I use",
       "url": "https://vecti.com",
-      "summary": "Vectiは共同編集できるUXデザインツール。リアルタイム編集、高精細レンダリング、共有アセットライブラリ、再利用コンポーネント（近日）や権限・プレゼン機能を提供。無料プランは5プロジェクト・編集者2名まで、プロは有料で無制限・エディタ課金制。教育・OSS割引あり。",
+      "summary": "Vectiは共同作業に特化したUXデザインツール。リアルタイム共同編集、高性能レンダリング、大規模対応、共有アセットライブラリ、再利用コンポーネント（近日）、権限設定や発表機能を備え、無料プランとエディター課金のプロ版がある。",
       "source": "Hacker News",
       "publishedAt": "2026-02-06T19:27:37.000Z",
-      "contentHash": "4a61b5eeb1eb"
+      "contentHash": "01df25dcbbff"
     },
     {
       "id": "11422b62ce45",
@@ -1238,10 +1265,10 @@
       "id": "7d1acc82cf46",
       "title": "Blender MCP で VRM のリップシンクを試す",
       "url": "https://note.com/npaka/n/nbd1afbede1bc",
-      "summary": "Blender MCPでVRMのリップシンクを試した記録。Rhubarb Lip Syncでwavをphoneticモードで.lab出力（モノラル44.1k推奨、ffmpeg整形例あり）。生成した.labとwavをBlender MCPに読み込みVRMで口パク再生。",
+      "summary": "Blender MCPでVRMのリップシンクを試した。音声をRhubarb Lip Syncで.wav→.labに変換（日本語は--recognizer phonetic推奨、モノラル44.1/48kHz等に整形）。生成した.labをBlender MCPに読み込み、sample.wav再生でVRMに口パクを適用・確認した。",
       "source": "npaka",
       "publishedAt": "2026-02-05T02:09:36.000Z",
-      "contentHash": "28bd83cf1ab1"
+      "contentHash": "4b285a6df429"
     },
     {
       "id": "14eb9ebee144",
@@ -3254,10 +3281,10 @@
       "id": "073468a9ee11",
       "title": "Antigravity で Blender MCP を試す",
       "url": "https://note.com/npaka/n/naa60a38c2938",
-      "summary": "AntigravityでBlender MCPを試用。Antigravityを導入し、チャット右上→MCP Servers→Manage MCPs→View raw configでmcp_config.jsonに\n{\"mcpServers\":{\"blender\":{\"command\":\"uvx\",\"args\":[\"blender-mcp\"]}}}\nを追加、再起動して有効化。未使用時は無効化。Geminiの方がカメラ指示が通りやすいとの所感。",
+      "summary": "AntigravityでBlender MCPを試した手順を紹介。Antigravityをインストール→「…→MCP Servers→Manage MCPs→View raw config」でmcp_config.jsonにblender設定（command:uvx,args:[\"blender-mcp\"]）を追加→再起動して有効化確認。未使用時は無効化。動作確認ではGeminiの方がカメラ指示が通りやすいとの感想。",
       "source": "npaka",
       "publishedAt": "2026-02-01T20:57:09.000Z",
-      "contentHash": "33f449f2cef6"
+      "contentHash": "b915428b85c7"
     },
     {
       "id": "c15e5130ee02",
@@ -8973,33 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-22T10:19:34.000Z",
       "contentHash": "4ac84c490818"
-    },
-    {
-      "id": "a0fcb35fb093",
-      "title": "エラーダイアログの「説明責任」：ユーザーを救う3つの要素 | SIOS Tech Lab",
-      "url": "https://tech-lab.sios.jp/archives/51027",
-      "summary": "アプリのエラーは避けられないが、優れたエラーダイアログは説明責任を果たし、適切な説明と対処でユーザーの不満を信頼に変える。記事はそのための3要素を解説する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-22T09:10:58.000Z",
-      "contentHash": "9bf417261d17"
-    },
-    {
-      "id": "d859f0bc491a",
-      "title": "Amazon Quick Suiteで業務効率化！ (3/3)：Quick Automate（実行と自動化） | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/81a47c8498202c",
-      "summary": "Amazon Quick SuiteはQuickSightを基に、生成AIでリサーチ・ナレッジ管理・ワークフロー自動化を統合するプラットフォーム。前回までで各機能を紹介し、本稿は業務実行・自動化のQuick Automateを解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-22T09:00:01.000Z",
-      "contentHash": "541ce2387128"
-    },
-    {
-      "id": "b1e27665721b",
-      "title": "30 Years of ReactOS",
-      "url": "https://reactos.org/blogs/30yrs-of-ros/",
-      "summary": "ReactOSは初コミットから30年。FreeWin95の流れを汲み、Jason FilbyがWindows NTクローンとして再始動。目的はオープンでWindowsアプリやドライバを動かすこと。初期はカーネルのブートストラップで進捗が遅く、1998年からEric Kohlらがストレージドライバ群を整備した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-22T08:03:57.000Z",
-      "contentHash": "b694f1ee6bd9"
     }
   ]
 }
