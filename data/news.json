@@ -1,6 +1,132 @@
 {
-  "generatedAt": "2026-02-09T02:57:53.094Z",
+  "generatedAt": "2026-02-09T09:17:15.413Z",
   "items": [
+    {
+      "id": "96c579aad0ae",
+      "title": "SC-300【合格体験記】 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/02/09/161659",
+      "summary": "SC-300合格体験記。約1か月学習でMicrosoft Learnで基礎、Udemyと模擬試験で実践力強化。反省点はシナリオ理解不足と模擬で9割超の精度を目指すべきという点。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-09T07:16:59.000Z",
+      "contentHash": "4066382fac0d"
+    },
+    {
+      "id": "86d4f8bb5b2e",
+      "title": "reachy-mini-local-conversation の概要",
+      "url": "https://note.com/npaka/n/ne79bde2cca76",
+      "summary": "Seeed Studioのreachy-mini-local-conversationはReachy Mini向けの完全ローカル音声会話アプリ。FunASRでリアルタイム認識、Ollama/QwenでローカルLLM、Coqui TTSで感情音声、ロボット統合、エラー回復やノイズ低減、モジュラー設計。Python3.8+、Ollamaサーバーと音声入出力が必要。",
+      "source": "npaka",
+      "publishedAt": "2026-02-09T07:13:13.000Z",
+      "contentHash": "493589e3dcff"
+    },
+    {
+      "id": "d386a921206c",
+      "title": "CloudFrontからAPI Gateway(HTTP API)への通信制限をmTLSで実現する | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/cloudfront_origin_http_api_mtls_protection",
+      "summary": "CloudFrontのオリジン向け相互TLSで、CloudFront→API Gateway(HTTP API)間をmTLS化し証明書でアクセスを制限する手順と検証。ルートCA・クライアント証明書作成、トラストストアS3配置、ACM登録、API/CloudFrontのmTLS設定で直接アクセスを遮断し、Lambda Authorizer不要で負荷削減を確認。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-09T07:00:00.000Z",
+      "contentHash": "3f438c0cfdef"
+    },
+    {
+      "id": "2a85c1065600",
+      "title": "出雲Ruby会議01に永和システムマネジメントからS.H.が登壇します | ESM アジャイル事業部 開発者ブログ",
+      "url": "https://blog.agile.esm.co.jp/entry/izumork01",
+      "summary": "永和システムマネジメントのS.H.が、2026年2月21日13:40–13:55に出雲Ruby会議01（島根枠）で「Rubyistになるまでのご縁」を発表。非エンジニアからRuby学習、地域活動、コア実装への歩みを語ります。ESMはRubyとアジャイル志向のエンジニアを募集中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-09T06:00:00.000Z",
+      "contentHash": "072708a5aea4"
+    },
+    {
+      "id": "b6fc1f4e2fab",
+      "title": "「レガシー共有バッチ基盤への挑戦 - SREドリブンなリアーキテクチャリングの取り組み」というタイトルでSRE Kaigi 2026に登壇しました！ | コドモン Product Team Blog",
+      "url": "https://tech.codmon.com/entry/2026/02/09/145927",
+      "summary": "プロダクト開発部の小西がSRE Kaigi 2026で「レガシー共有バッチ基盤のコンテナ化」を発表。30分枠の資料をプロジェクトの時間軸でストーリー化し何度も練習。緊張したが同僚の支援や質疑応答で多くを学び、経験の整理ができた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-09T05:59:27.000Z",
+      "contentHash": "902b46534b4e"
+    },
+    {
+      "id": "6f2c6eab98d8",
+      "title": "AWS Systems Manager Session Managerのポートフォワーディング機能を使用してEC2へ接続してみる | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/02/09/144257",
+      "summary": "Session Managerのポートフォワーディングで踏み台やEC2のインバウンド開放不要に、TLS経由でクライアントのローカルポートをEC2のポートへ安全に転送する手順。前提（Windows Server2025、SSM Agent、IAMポリシー、VPCエンドポイント、AWS CLI＋Session Managerプラグイン、マネージドノード登録）とプラグイン導入後、aws ssm start-sessionコマンドで接続する流れを解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-09T05:42:57.000Z",
+      "contentHash": "86cd45d53285"
+    },
+    {
+      "id": "e3cbcd6bcc22",
+      "title": "【Azure SQL】Private Endpoint接続時に接続ポリシー「既定値」がプロキシとなる仕様について | TechHarmony",
+      "url": "https://blog.usize-tech.com/azure-sql-default-connection-policy/",
+      "summary": "Azure SQLの接続ポリシー「既定値」は、Private Endpoint経由では自動的にプロキシ（ポート1433）となるため、リダイレクト接続を使いたい場合は明示的に接続ポリシーを変更する必要がある。実機検証で確認済み。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-09T05:24:36.000Z",
+      "contentHash": "3c33a3f3bca8"
+    },
+    {
+      "id": "43095a3f0a62",
+      "title": "【Amazon CloudWatch × PagerDuty】障害検知から自動復旧まで！通知連携の設定手順 | TechHarmony",
+      "url": "https://blog.usize-tech.com/amazon-cloudwatch-pagerduty/",
+      "summary": "CloudWatchのALARM/OKをSNS経由でPagerDutyへ送信し、検知でインシデント起票、復旧で自動Resolveする連携手順。PagerDutyでサービス作成→Integration URL取得、AWSでSNSトピック(HTTPSにURL登録)作成→CloudWatchアラームに紐付け。アラート集約や柔軟なオンコール管理が可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-09T05:18:21.000Z",
+      "contentHash": "49024a76bf28"
+    },
+    {
+      "id": "a6c24835ff24",
+      "title": "Amazon RDS の マネージド PITR に関する注意点 | TechHarmony",
+      "url": "https://blog.usize-tech.com/amazon-rds-pitr-precautions/",
+      "summary": "Amazon RDSのマネージドPITRはスナップショットとトランザクションログ（S3へ5分毎送信）で実現され、RPOは最大5分。コンソールの「復元可能な最新時刻」を使うと、指定時刻直前まで復旧できることを検証した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-09T05:07:55.000Z",
+      "contentHash": "437bd2f387a7"
+    },
+    {
+      "id": "6b9933907e6e",
+      "title": "Azureの“スコープ”を基礎から理解する：VM作成エラーから学ぶサブスクリプション管理 | TechHarmony",
+      "url": "https://blog.usize-tech.com/azure-subscription-scope/",
+      "summary": "AZ-900演習でVM作成が失敗。原因は個人サブスクリプションのeastusでDSv5ファミリのvCPUクォータが0だったため。記事はサブスクリプションがクォータやRBACに影響するスコープ階層（管理グループ→サブスクリプション→リソースグループ→リソース）を解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-09T05:03:35.000Z",
+      "contentHash": "6505e4d22cc9"
+    },
+    {
+      "id": "e3d10cb738ee",
+      "title": "LangChainを使ってAIエージェントを作ってみた | フェズ開発ブログのフィード",
+      "url": "https://zenn.dev/fez_tech/articles/7c438c05a028a4",
+      "summary": "前回自作したAIエージェントを同仕様でLangChainに置き換えて実装。LangChainはLLMとツール接続や観測→判断→行動のループ管理を担い、Google Geminiで動作。利便性と課題を検証。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-09T04:57:33.000Z",
+      "contentHash": "0915cd4e2f47"
+    },
+    {
+      "id": "e3c0cd5b173b",
+      "title": "OpenAI’s supposedly ‘leaked’ Super Bowl ad with ear buds and a shiny orb was a hoax",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/875615/openai-super-bowl-ai-hardware-leak-hoax-fake",
+      "summary": "OpenAIの「流出」とされたスーパーボウルCM（アレクサンダー・スカルスガルドら出演、光る球とイヤホンの映像）は偽物だった。Redditの投稿は作り物で、OpenAI幹部が否定した。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-09T04:54:36.000Z",
+      "contentHash": "83ae91b0a45a"
+    },
+    {
+      "id": "b0caf2ed4bdb",
+      "title": "TSMC to make advanced AI semiconductors in Japan",
+      "url": "https://apnews.com/article/semiconductors-tsmc-japan-taiwan-ai-11256f2bfde73ca23d08331ad138d6d5",
+      "summary": "TSMCが先端AI半導体を日本で生産へ。高市早苗首相とTSMCのC.C.ウィ会長が東京で会談し、日台連携で日本の半導体製造力と同社の事業拡大を後押しする。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-09T04:38:14.000Z",
+      "contentHash": "cfd72e4f8bae"
+    },
+    {
+      "id": "9d51776264f1",
+      "title": "Claude’s C Compiler vs. GCC",
+      "url": "https://harshanu.space/en/tech/ccc-vs-gcc/",
+      "summary": "AnthropicがClaude（Opus 4.6）で作ったCコンパイラCCCをGCCと検証。Rust製でx86/ARM/RISC-V等を対象に、フロントエンド〜アセンブラ・リンカまで自前実装。Linuxカーネル対応の主張と性能比較を報告。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-09T04:30:38.000Z",
+      "contentHash": "379923e21b73"
+    },
     {
       "id": "e17e1db3d1b3",
       "title": "【都道府県別】特殊な住所・住居表示 | estie inside blog",
@@ -86,10 +212,10 @@
       "id": "e6217859e2e9",
       "title": "Super Bowl LX ads: all AI everything",
       "url": "https://www.theverge.com/entertainment/874504/super-bowl-lx-ads-big-game",
-      "summary": "スーパーボウルLXのCMはAIが話題に。Anthropicの競合批判CMやAI生成広告の可能性が注目される一方、Pepsiは人手中心のCMを選び、RedfinやSalesforceは視聴者参加型の懸賞を展開。",
+      "summary": "スーパーボウルLXのCMはAIが主役化。Anthropicの対OpenAIジョーク広告やAI.com（Crypto.com関係者関与）の宣伝、AI生成CMの可能性が話題に。過去のGoogle Gemini失態やRing、ポケモン、RedfinらのCM企画も紹介。",
       "source": "The Verge",
       "publishedAt": "2026-02-08T23:58:02.000Z",
-      "contentHash": "af227ce8f206"
+      "contentHash": "9ed7da2ebf18"
     },
     {
       "id": "34494eb5a478",
@@ -110,6 +236,15 @@
       "contentHash": "4bff4fdaeff8"
     },
     {
+      "id": "754ea378f5a3",
+      "title": "Stop generating, start thinking",
+      "url": "https://localghost.dev/blog/stop-generating-start-thinking/",
+      "summary": "著者はLLM生成コードの流行に取り残される不安を抱き、CopilotやClaudeは補助には便利だが複雑な指示では失敗しやすく、精緻なプロンプト調整が時間を浪費するため自分で書く方が早いとし、生成頼みでコーディングを放棄する風潮を疑問視している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-08T21:58:19.000Z",
+      "contentHash": "0b55bd7cd10d"
+    },
+    {
       "id": "40aa06c8b73c",
       "title": "Shifts in U.S. Social Media Use, 2020–2024: Decline, Fragmentation, Polarization (2025)",
       "url": "https://arxiv.org/abs/2510.25417",
@@ -128,6 +263,15 @@
       "contentHash": "ba3a905865e0"
     },
     {
+      "id": "e1c3072538d4",
+      "title": "Art of Roads in Games",
+      "url": "https://sandboxspirit.com/blog/art-of-roads-in-games/",
+      "summary": "自然の模様に魅かれ、道路を人類の代表的なパターンと見る筆者。子供の頃のSimCity体験から現実の交差点を観察し、SimCity4→2013→Cities: Skylinesと進化するゲームの道路自由度が時に非現実的だと感じる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-08T21:05:24.000Z",
+      "contentHash": "c925dd5674ca"
+    },
+    {
       "id": "d4456614728c",
       "title": "New York is considering two bills to rein in the AI industry",
       "url": "https://www.theverge.com/ai-artificial-intelligence/875501/new-york-is-considering-two-bills-to-rein-in-the-ai-industry",
@@ -137,13 +281,31 @@
       "contentHash": "7da0495b0499"
     },
     {
+      "id": "d6619d020c01",
+      "title": "More Mac malware from Google search",
+      "url": "https://eclecticlight.co/2026/01/30/more-malware-from-google-search/",
+      "summary": "Google検索の上位やdocs.google.com、business.google.com、Mediumの偽Apple風記事経由でMac向けAMOS(SOMA)窃取マルウェアが拡散。悪意あるコマンドでDocumentsやNotesを抜き取り、.passに平文パスワード等を書き込む。検索結果（特に広告）は慎重に確認を。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-08T20:52:55.000Z",
+      "contentHash": "0ca03cc3f761"
+    },
+    {
+      "id": "00c2e04f4004",
+      "title": "Apple XNU: Clutch Scheduler",
+      "url": "https://github.com/apple-oss-distributions/xnu/blob/main/doc/scheduler/sched_clutch_edge.md",
+      "summary": "XNUのClutchスケジューラの設計文書。背景説明に始まり、スケジューリングバケットやスレッドグループ単位の管理、遅延バケットや負荷分散、実装上の振る舞いと考慮点を詳述。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-08T20:38:55.000Z",
+      "contentHash": "6dfdfc3aa80c"
+    },
+    {
       "id": "d2288be68220",
       "title": "A GTA modder has got the 1997 original working on modern PCs and Steam Deck",
       "url": "https://gtaforums.com/topic/986492-grand-theft-auto-ready2play-full-game-windows-version/",
-      "summary": "Ready2PlayはGTA（本編＋London＋1961）を現代Windowsでインストール不要に遊べるポータブルパッケージ。Steam検出、各言語対応、OpenGL/D3D9レンダ、ウィンドウ/ボーダレス、DirectPlay同梱、ワイドスクリーン補正、CD音源エミュ、Wine用DLL自動作成やイントロの有効/無効などを備える。",
+      "summary": "Ready2PlayはGTA（本編＋London＋1961）をインストール不要で動かす互換パッケージ。Steam対応、ポータブルランチャー、OpenGL/D3D9、ワイドスクリーン補正、DirectPlay同梱、CD音源エミュなど機能を備える。",
       "source": "Hacker News",
       "publishedAt": "2026-02-08T20:34:51.000Z",
-      "contentHash": "7c77657dbbb5"
+      "contentHash": "9c58b49692bd"
     },
     {
       "id": "1d55f7528ed3",
@@ -266,10 +428,10 @@
       "id": "d91047a43b25",
       "title": "GPT-5.3-Codex でのゲーム作成を試す",
       "url": "https://note.com/npaka/n/nf3471aa9f5a0",
-      "summary": "GPT-5.3-CodexでRPGとアクションゲームを作成して試した記録。Nano Banana・Suno・効果音ラボの素材を用意し、Codexが簡素な指示からすぐ形にした。著者：布留川英一。",
+      "summary": "npakaがGPT-5.3-CodexでRPGとアクションゲームの自動生成を試行。Nano Banana・Suno・効果音ラボの画像・BGM・効果音を用意してCodexに渡し、曖昧な指示でも素早く形にできたと報告。素材やリンク、作者情報を掲載。",
       "source": "npaka",
       "publishedAt": "2026-02-08T13:38:04.000Z",
-      "contentHash": "82f0a89bcb42"
+      "contentHash": "bbc97a0eb983"
     },
     {
       "id": "a24a79a9538c",
@@ -293,10 +455,10 @@
       "id": "059dd30c1e00",
       "title": "DGX Spark で Isaac Sim x Isaac Lab の強化学習を試す",
       "url": "https://note.com/npaka/n/nf9ca0bac6d8e",
-      "summary": "DGX Spark上でNVIDIAの3DシミュレータIsaac Simを導入・起動し、FrankaアームとSimple Roomで物理挙動を確認。Isaac LabでCartpole強化学習（16環境、TensorBoardで可視化）を実行し、Robotics ExamplesのPick&Placeデモも試しました。",
+      "summary": "DGX Spark上でIsaac SimとIsaac Labを導入・起動し、FrankaアームとSimple Roomで物理シミュレーションを確認。Isaac LabでCartpole強化学習（16env、100iter）を実行しTensorBoardで可視化。Robotics ExamplesのPick&Placeデモも試行。",
       "source": "npaka",
       "publishedAt": "2026-02-08T12:06:54.000Z",
-      "contentHash": "d1eb945db1b9"
+      "contentHash": "af684aaa7c46"
     },
     {
       "id": "7819455274bb",
@@ -8838,168 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-01-23T14:34:21.000Z",
       "contentHash": "62879514adeb"
-    },
-    {
-      "id": "ab4d0a0f271b",
-      "title": "Radicle: The Sovereign Forge",
-      "url": "https://radicle.xyz",
-      "summary": "RadicleはGit上のオープンソースなピアツーピア型コードフォージです。中央管理者がなく、リポジトリはピア間で複製され、利用者がデータとワークフローを完全に管理できます。導入方法やダウンロード情報も提供されています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-23T13:25:42.000Z",
-      "contentHash": "0898afbfb9fa"
-    },
-    {
-      "id": "bd71f197e244",
-      "title": "Microsoft mishandling example.com",
-      "url": "https://tinyapps.org/blog/microsoft-mishandling-example-com.html",
-      "summary": "MicrosoftのAutodiscoverが、IANA予約ドメインexample.comを誤って住友電工（sei.co.jp）のメールサーバーに振り向けており、テスト用認証情報が外部に送られる可能性がある。digでDNSに該当記録はなく、問題はMicrosoft側のデータベース/API応答で確認された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-23T13:04:09.000Z",
-      "contentHash": "5e9fe48f98b5"
-    },
-    {
-      "id": "cf3be493db40",
-      "title": "European Alternatives",
-      "url": "https://european-alternatives.eu",
-      "summary": "欧州のデジタル製品・サービスの代替案を紹介。地元経済支援、VAT還付、GDPR準拠、EU域内での法的保護や支払い利便性を強調し、解析、クラウド、CDN、メール、VPS、検索等のカテゴリ別代替を提示。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-23T13:01:51.000Z",
-      "contentHash": "75b930e94489"
-    },
-    {
-      "id": "4a1909ebea4d",
-      "title": "What has Docker become?",
-      "url": "https://tuananh.net/2026/01/20/what-has-docker-become/",
-      "summary": "Docker社はコンテナ標準を普及させた一方で収益化に苦戦。Swarm売却後、開発者向け体験や供給網可視化（Scout）、Testcontainers獲得でセキュリティ・テストに注力し、AIにも舵を切った。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-23T12:36:17.000Z",
-      "contentHash": "a81abb460bbc"
-    },
-    {
-      "id": "79ba8c9754d9",
-      "title": "Google won’t stop replacing our news headlines with terrible AI",
-      "url": "https://www.theverge.com/tech/865168/google-says-ai-news-headlines-are-feature-not-experiment",
-      "summary": "GoogleがDiscoverで新聞社の見出しをAI生成の誤解を招くクリック誘導見出しに差し替えているとThe Vergeが報告。実験ではなく「機能」として継続し、Googleは満足度が高いと主張するが誤情報が多い。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-23T12:00:00.000Z",
-      "contentHash": "ac1af9070026"
-    },
-    {
-      "id": "ae10eb4597fe",
-      "title": "Unrolling the Codex agent loop",
-      "url": "https://openai.com/index/unrolling-the-codex-agent-loop",
-      "summary": "Codexエージェントループの技術的解説。Codex CLIがResponses APIを通じてモデル、外部ツール、プロンプト設計、実行性能をどのように調整・連携させるかを詳述しています。",
-      "source": "OpenAI",
-      "publishedAt": "2026-01-23T12:00:00.000Z",
-      "contentHash": "570f3b067c6f"
-    },
-    {
-      "id": "e97a345130ac",
-      "title": "Microsoft Paint can now make AI coloring books",
-      "url": "https://www.theverge.com/news/866524/microsoft-paint-notepad-ai-coloring-book",
-      "summary": "MicrosoftがWindows 11のPaintとNotepadにAI機能を追加。Insider（Canary/Dev）で展開中で、NotepadはAIによる文章改善、PaintはCopilotの「Coloring book」でテキストから塗り絵テンプレを4案生成。生成結果の出来に批判あり。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-23T11:06:39.000Z",
-      "contentHash": "8207a5af3bd5"
-    },
-    {
-      "id": "8a7d1363e711",
-      "title": "Booting from a vinyl record (2020)",
-      "url": "https://boginjr.com/it/sw/dev/vinyl-boot/",
-      "summary": "PCのカセットインターフェースをレコードプレーヤーとアンプで直接接続し、音声化したディスクイメージから起動する実験。ROMブートローダーが64KBのRAMディスク上の改造FreeDOSを読み込み起動する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-23T10:39:09.000Z",
-      "contentHash": "b9705e3f131a"
-    },
-    {
-      "id": "7328729e0993",
-      "title": "Druva inSync ”バックアップステータスエラー”を解消していく | CloudNative Inc. BLOGs",
-      "url": "https://blog.cloudnative.co.jp/30487/",
-      "summary": "Druva inSyncで完了済みなのにエラー表示が出る端末が複数発生。ログ調査でOneDrive等のアプリが原因と判明し、新プロファイルで該当フォルダ/ファイルを除外して検証・適用。失敗ファイルが0になり解決した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-23T10:11:40.000Z",
-      "contentHash": "687108f1bb65"
-    },
-    {
-      "id": "ae95da8e45e1",
-      "title": "GitHub Copilot PRレビュー指示が効かない？正式設定法 | SIOS Tech Lab",
-      "url": "https://tech-lab.sios.jp/archives/51041",
-      "summary": "龍ちゃんがGitHub Copilotの新機能を試し、PRレビューで「指示が効かない」問題の原因と正式な設定方法を解説した記事の紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-23T10:03:37.000Z",
-      "contentHash": "db03e0277399"
-    },
-    {
-      "id": "91250f438027",
-      "title": "AI Usage Policy",
-      "url": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
-      "summary": "GitHubのオープンソースリポジトリ「ghostty」。約41.9kスター、1.5kフォークがあり、IssuesやPRが存在。srcやexample、macos、flatpak、dist、テスト、翻訳など多様な開発・配布用ファイルや設定を含むプロジェクトです。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-23T09:50:26.000Z",
-      "contentHash": "5d6ef8dfbc9e"
-    },
-    {
-      "id": "b6a9c9038353",
-      "title": "Updates to our web search products and  Programmable Search Engine capabilities",
-      "url": "https://programmablesearchengine.googleblog.com/2026/01/updates-to-our-web-search-products.html",
-      "summary": "Programmable Search Engineは学術機関から小売まで数百のパートナーのサイト検索を支援。今後は用途ごとにより焦点を絞った高度なソリューションへ進化し、利用者とパートナーに高品質な体験を提供することを目指す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-23T09:38:02.000Z",
-      "contentHash": "cc4b5a0afdf7"
-    },
-    {
-      "id": "9dc84e218010",
-      "title": "AWS CloudFormation のドリフト対応変更セットを試してみる | TechHarmony",
-      "url": "https://blog.usize-tech.com/aws-cloudformation-drift-aware-change-sets/",
-      "summary": "齋藤(SCSK)がCloudFormationの新機能「ドリフト対応変更セット」を検証。LambdaをCFNで3.11作成→コンソールで3.12に手動変更（ドリフト発生）→テンプレートを3.13に更新し、ドリフト対応変更セットで実際のインフラを参照して差分を確認した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-23T09:35:33.000Z",
-      "contentHash": "97a49c24ff0b"
-    },
-    {
-      "id": "a0195d6b1827",
-      "title": "AWS WorkSpaces デバイス認証用の証明書をOpenSSLでサクッと作る手順  | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/workspaces-device-authentication",
-      "summary": "OpenSSLでAWS WorkSpacesのデバイス認証証明書を作る手順。前提はOpenSSL導入。workspaces.cnfでv3拡張を定義し、ルートCA作成→クライアント証明書生成→p12変換→WorkSpacesにルート登録→クライアントPCへ導入→接続。有効期限確認・変更方法も記載。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-23T09:24:17.000Z",
-      "contentHash": "61e8ddbe73a3"
-    },
-    {
-      "id": "710204d50faa",
-      "title": "IAM認証を用いたAPIを構築する | TechHarmony",
-      "url": "https://blog.usize-tech.com/amazon-apig-iam-auth/",
-      "summary": "API Gatewayの認証にAWS IAMを使う手順を解説。背後にLambdaを置き、APIメソッドでAWS IAM認可を設定してデプロイ。呼び出し側はIAMロールを持つLambdaでSigV4署名を付けてAPIを呼ぶサンプルを掲載。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-23T09:11:08.000Z",
-      "contentHash": "c6ce700d45a0"
-    },
-    {
-      "id": "8ff955991f06",
-      "title": "Replacing Protobuf with Rust to go 5 times faster",
-      "url": "https://pgdog.dev/blog/replace-protobuf-with-rust",
-      "summary": "PgDogのpg_query.rsをフォークし、Protobufを廃してbindgen＋Claude生成の直接C⇄Rustラッパーに置換。プロファイリングでボトルネックを潰し、解析約5倍、逆解析約10倍高速化。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-23T09:03:31.000Z",
-      "contentHash": "6da68c166486"
-    },
-    {
-      "id": "af8f17420d04",
-      "title": "Lambdaカスタムオーソライザー認証を用いたAPIを構築する | TechHarmony",
-      "url": "https://blog.usize-tech.com/amazon-apig-lambda-custom-auth/",
-      "summary": "API GatewayでLambdaカスタムオーソライザーを使う手順を解説。AuthorizationヘッダーのトークンをオーソライザーLambdaで検証し、一致すればIAMポリシーでexecute-api実行を許可してバックエンドLambdaへアクセス。API設定・デプロイと呼び出し側Lambdaの作成手順も説明。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-23T08:57:49.000Z",
-      "contentHash": "05809ad9927b"
-    },
-    {
-      "id": "932de7c1d1d1",
-      "title": "今週の新着ブログ_その人事施策、事業成長に貢献しますか？_シリーズAI荒野_など14本(2026.1.16~2026.1.22) | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n902ded81efb5",
-      "summary": "2026/1/16–1/22のSHIFTグループ技術ブログ週報。Googleカレンダー→LINE自動化、Datadog RUM導入と費用対策、人的資本の方程式化、CAT活用、OODA思考など14本を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-23T08:50:06.000Z",
-      "contentHash": "c4b180b0dfd8"
     }
   ]
 }
