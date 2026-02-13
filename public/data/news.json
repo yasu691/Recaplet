@@ -1,14 +1,68 @@
 {
-  "generatedAt": "2026-02-13T02:55:06.030Z",
+  "generatedAt": "2026-02-13T09:03:51.643Z",
   "items": [
+    {
+      "id": "f8d4e07e7289",
+      "title": "Tenways’ compact e-bike twists and folds to go flat",
+      "url": "https://www.theverge.com/transportation/877796/tenways-cgo-compact-e-bike-twists-folds-flat",
+      "summary": "Tenwaysが欧州で新型電動バイクCGO Compactを発表。20インチ車輪、折りたたみペダル、ねじれるステムで壁に沿って平らに収納可能。低床フレームと調整ステムで幅広い身長に対応、後部キャリアは最大27kg担荷。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-13T08:00:00.000Z",
+      "contentHash": "ef3e3da9a5db"
+    },
+    {
+      "id": "5fd61db6f9d0",
+      "title": "Rails製の上場企業向けの会計プロダクトで、リーダー/ライター分離によるDB負荷分散を実装しました | Money Forward Developers Blog",
+      "url": "https://moneyforward-dev.jp/entry/2026/02/13/reader-writer-split-for-accounting-plus",
+      "summary": "マネーフォワード会計PlusでRailsの複数DB機能を使いAurora MySQLのリーダー/ライター分離を導入。RESTのGETやGraphQLのQueryをリーダー、Mutation等をライターに振り分け、GraphQL解析・書き込み検知・レプリケーションラグ・Sidekiq対応を行いDB負荷とCPU使用率を改善した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-13T06:00:00.000Z",
+      "contentHash": "ab9e177cd7ee"
+    },
+    {
+      "id": "5da32b00bbed",
+      "title": "若手社員が伝えたい「データサイエンティストとビジネスプロデューサーの違いって何？」 | Platinum Data Blog by BrainPad ブレインパッド",
+      "url": "https://blog.brainpad.co.jp/entry/2026/02/13/140000",
+      "summary": "ブレインパッドの若手4名が、データサイエンティスト（研究で培った分析力を社会課題解決に活かす）とビジネスプロデューサー（事業構想・調整で価値創出）の違いや選んだ理由、プロジェクト事例を語る。両職種とも社会貢献志向が強い。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "contentHash": "9610254bbbba"
+    },
+    {
+      "id": "ecee5119608e",
+      "title": "OpenSSHサーバーにアクセスすると\"store now, decrypt later\"攻撃に脆弱になりますというメッセージが出るようになった | 仮想化通信",
+      "url": "https://tech.virtualtech.jp/entry/2026/02/13/134158",
+      "summary": "macOS 26.3に同梱のOpenSSH 10.2から、古いOpenSSH（例: 8.7）へ接続すると「post-quantum KEX未使用で将来解読される可能性あり」と警告が出るようになった。警告はOpenSSH10.1導入で、対処はサーバをOpenSSH9以降に更新することだが容易でない場合がある（RHEL9系など）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-13T04:41:58.000Z",
+      "contentHash": "37e2c114ea4d"
+    },
+    {
+      "id": "7860447bd5dd",
+      "title": "Amazon Q Developerを使ってみよう | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/02/13/130124",
+      "summary": "AWSコンソール右上のAmazon Qアイコンで起動し、チャットパネルからAWSリソースへ質問できる。入力欄・会話エリア・新規・履歴機能があり、具体的に状況を伝えたり逆質問を使うと回答精度が上がる。まずは簡単な質問から試すのがおすすめ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-13T04:01:24.000Z",
+      "contentHash": "3e608dc9156d"
+    },
+    {
+      "id": "13d58a8e0782",
+      "title": "Skip the Tips: A game to select \"No Tip\" but dark patterns try to stop you",
+      "url": "https://skipthe.tips/",
+      "summary": "無料ブラウザゲーム「Skip the Tips」。No Tipボタンを押して、実在の精算画面を模した30種以上のダークパターン（小さなボタン、罪悪感モーダル、偽読み込み、操作しにくいスライダー等）をかわす練習をする。難度と縮むタイマーあり。ダウンロード・登録不要。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-13T00:54:51.000Z",
+      "contentHash": "32cad353f216"
+    },
     {
       "id": "8af8c27b87fa",
       "title": "Resizing windows on macOS Tahoe – the saga continues",
       "url": "https://noheger.at/blog/2026/02/12/resizing-windows-on-macos-tahoe-the-saga-continues/",
-      "summary": "申し訳ありませんが外部リンクに直接アクセスできません。記事本文をここに貼るか主要ポイントを教えていただけますか？いただければ200文字以内で日本語要約を作成します。",
+      "summary": "macOS 26.3 RCではウィンドウのリサイズ領域が角に沿うよう改善されたが、縦横リサイズ用の内幅が3→2ピクセルに減り合計7→6ピクセルに。最終版ではその修正が取り消され元に戻り、リリースノートも「解決」から「既知の問題」へ変更された。",
       "source": "Hacker News",
       "publishedAt": "2026-02-12T23:52:24.000Z",
-      "contentHash": "913199835d90"
+      "contentHash": "4b60b08585d1"
     },
     {
       "id": "d95a1c759d88",
@@ -29,13 +83,31 @@
       "contentHash": "880de34c7b1f"
     },
     {
+      "id": "9a4619039fd3",
+      "title": "Tell HN: Ralph Giles has died (Xiph.org| Rust@Mozilla | Ghostscript)",
+      "url": "https://news.ycombinator.com/item?id=46996490",
+      "summary": "Ralph（ラルフ）は2000年からXiph.orgに貢献、2001年にGhostscriptのコア開発者に。Theoraのプロジェクト責任者やXiphライブラリのリリース管理、インフラ整備を行い、MozillaではFirefoxへ初めてRustコードを導入。多大な貢献者で親しい同僚として惜しまれている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-12T22:58:58.000Z",
+      "contentHash": "1dfffba465ce"
+    },
+    {
+      "id": "42f5ddf78956",
+      "title": "Discord just killed anonymity",
+      "url": "https://michael-dev-tech.github.io/Website/matrix.html",
+      "summary": "Discordが全ユーザー対象に年齢確認を義務化。多くがMatrixへ移るが主要matrix.orgも検証を検討中。Matrixは分散型で自サーバーなら回避可能だが機能面やUXは粗い。筆者は自家サーバーを推奨。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-12T22:18:01.000Z",
+      "contentHash": "bc3fa3a0d751"
+    },
+    {
       "id": "79ea10424f3d",
       "title": "PlayStation State of Play February 2026: all the news and trailers",
       "url": "https://www.theverge.com/games/877875/playstation-state-of-play-february-2026-ps5-news-trailers",
-      "summary": "2/12のPlayStation State of Playは1時間超で新作や映像を公開。ウルヴァリンは不参加濃厚で、単独型大型作とライブサービス系が混在。配信はTwitch/YouTube。発表に『Legacy of Kain: Ascendance』（3/31）とサプライズの2D前日譚『God of War: Sons of Sparta』（PS5・即配信）。",
+      "summary": "2/12のPlayStation State of Playは1時間超で世界中の新作や続報を紹介。ウルヴァリンは不在の可能性。発表は『Legacy of Kain: Ascendance』（3/31発売）と、サプライズで2D前日譚『God of War: Sons of Sparta』がPS5で即配信された。",
       "source": "The Verge",
       "publishedAt": "2026-02-12T21:45:00.000Z",
-      "contentHash": "9d5119c40ad8"
+      "contentHash": "1dc20a302d95"
     },
     {
       "id": "43038d7fb030",
@@ -63,6 +135,15 @@
       "source": "The Verge",
       "publishedAt": "2026-02-12T18:59:21.000Z",
       "contentHash": "cd844948cf15"
+    },
+    {
+      "id": "8662832c3dcd",
+      "title": "Jeffrey Epstein might not have created /pol/, but he helped carry out its mission",
+      "url": "https://www.theverge.com/tech/877903/jeffrey-epstein-4chan-pol-moot",
+      "summary": "公開された司法省のエプスタイン文書で、エプスタインが4chan創設者「moot」（クリストファー・プール）と面会し好印象を示していたことや、4chan由来の白人至上主義・女性蔑視的思想やオルトライト関係者との接点が明らかになった。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-12T18:30:00.000Z",
+      "contentHash": "94c345812357"
     },
     {
       "id": "219b4d24f5ac",
@@ -8919,87 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-01-27T13:42:43.000Z",
       "contentHash": "626f50ceaae4"
-    },
-    {
-      "id": "bdd9ca3e73ad",
-      "title": "Xfwl4 – The Roadmap for a Xfce Wayland Compositor",
-      "url": "https://alexxcons.github.io/blogpost_15.html",
-      "summary": "Xfceチームは寄付金でコア開発者Brian Tarricone氏を支援し、Rustとsmithayで一から作るWaylandコンポジタxfwl4を開発。xfwm4と同等の挙動・設定互換を目指し年央に初期版公開予定。詳細は#xfce-dev、支援者に感謝。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-27T13:25:53.000Z",
-      "contentHash": "494d4d3ed024"
-    },
-    {
-      "id": "cd04a822c094",
-      "title": "Google Photos now lets you describe how to transform images into video",
-      "url": "https://www.theverge.com/news/868510/google-photos-image-to-video-text-prompt-support",
-      "summary": "Google Photosの画像→動画生成機能がテキストプロンプトに対応。動きやスタイル、エフェクトを文章で指定でき、既存の「Subtle Movement」「I'm feeling lucky」に加わる。提案表示や編集で微調整可能。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-27T12:44:01.000Z",
-      "contentHash": "94131bccbd14"
-    },
-    {
-      "id": "c41803e41f2f",
-      "title": "I made my own Git",
-      "url": "https://tonystr.net/blog/git_immitation",
-      "summary": "Gitの仕組みを学ぶための模倣実装を紹介する記事。blob/tree/commitなどのオブジェクト、SHA-1によるコンテンツアドレッシング、zlib圧縮、refs/HEAD、インデックスや基本コマンド（init/add/commit/log/checkout）を順に実装・解説して内部動作を理解する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-27T10:55:37.000Z",
-      "contentHash": "aeeb52d8ed30"
-    },
-    {
-      "id": "f0ebdd387154",
-      "title": "続・戦略と実行を爆速でつなぐデータ活用の現在地: LLM 編 | inSmartBank",
-      "url": "https://blog.smartbank.co.jp/entry/ask",
-      "summary": "スマートバンクは2025年12月、Snowflake＋dbtとClaude Agentで「Ask ワンバン」を運用開始。非個人情報を自然言語で照会し、コードやエラー、複数DBを横断して原因特定や知識蓄積、権限付きマスキングを実現。30日で56名が利用、467会話、約3,800件のSQL実行。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-27T10:30:00.000Z",
-      "contentHash": "7e69684eb9e9"
-    },
-    {
-      "id": "4e19a0c399ab",
-      "title": "In our latest podcast, hear how the “Smoke Jumpers” team brings Gemini to billions of people.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/",
-      "summary": "Googleのクロスファンクショナルチーム「Smokejumpers」が、Gemini 3を大規模提供するためのサービング基盤、TPU戦略、高強度の開発文化について語る内容が、Google AI: Release Notesポッドキャストで紹介されています。",
-      "source": "Gemini",
-      "publishedAt": "2026-01-27T10:28:00.000Z",
-      "contentHash": "3cc6b2774677"
-    },
-    {
-      "id": "122902602296",
-      "title": "Devin × Atlassian MCPによるエラー対応の半自動化 | TalentX Tech Blog",
-      "url": "https://tech.talentx.co.jp/entry/2026/01/27/192134",
-      "summary": "Slackのエラー通知を虫眼鏡スタンプで起点にDevinを起動し、原因調査→Atlassian MCPで既存チケット参照・新規作成→Jira Integrationでワンクリック修正指示。工数削減と履歴管理を実現。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-27T10:21:34.000Z",
-      "contentHash": "7cf7095def20"
-    },
-    {
-      "id": "45c57c1b93a0",
-      "title": "React Hook Formとdnd kitを使った並び替え可能なフォームの開発 | SmartHR Tech Blog",
-      "url": "https://tech.smarthr.jp/entry/2026/01/27/190742",
-      "summary": "React Hook Formとdnd kitを組み合わせ、入力項目をドラッグ＆ドロップで並び替えられるフォームの実装を解説。Zodでスキーマ・バリデーションを行い、useSampleForm.ts／SortableItem.tsx／SampleForm.tsxの構成や導入パッケージ、実装上の課題と解決方法を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-27T10:07:42.000Z",
-      "contentHash": "0e17a3abaa3f"
-    },
-    {
-      "id": "487ef73acbe1",
-      "title": "Celebrities say they are being censored by TikTok after speaking out against ICE",
-      "url": "https://www.pride.com/culture/celebrities/tiktok-censoring-megan-stalter-and-finneas",
-      "summary": "アレックス・プレッティ射殺を受け、ビリー・アイリッシュやフィニアス、ミーガン・スタルターらがICEを批判したところ、TikTokで検閲や配信・アカウント制限を受けていると訴えている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-27T09:38:59.000Z",
-      "contentHash": "26f59dd71e7f"
-    },
-    {
-      "id": "ee9c605517a0",
-      "title": "不確実性が高いときに、PMが前に進むための“型” | インゲージ開発者ブログ",
-      "url": "https://blog.ingage.jp/entry/2026/01/27/183111",
-      "summary": "不確実な状況でPMが前に進むための4つの手法：①事業インパクト×不確実性の2軸で優先度を整理、②不確実性を価値/実現/運用に分解、③戻せる決定で小さく試す、④今期の1文で判断基準を明確化。迷ったら「次の一手」を決める。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-27T09:31:11.000Z",
-      "contentHash": "7e9f84a46afd"
     }
   ]
 }
