@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2026-02-14T16:49:18.577Z",
+  "generatedAt": "2026-02-15T02:56:51.819Z",
   "items": [
+    {
+      "id": "3d5c3c3215c2",
+      "title": "【python】- PNGをEPSに変換する | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/b959b5dfc64af5",
+      "summary": "論文やDTP向けにPNGをEPSへ変換する方法を解説。Pillowをpipで導入し、Image.open→convert('RGB')→save(出力.eps, lossless=True)で変換、ファイル未発見時のエラーハンドリングあり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-14T23:36:15.000Z",
+      "contentHash": "942d5e77bb00"
+    },
+    {
+      "id": "66fbc72b84f5",
+      "title": "Jikipedia turns Epstein’s emails into an encyclopedia of his powerful friends",
+      "url": "https://www.theverge.com/policy/879508/jikipedia-epstein-email-encyclopedia",
+      "summary": "Jmailがエプスタインのメールを解析し、Wikipedia風の「Jikipedia」を作成。AI生成で関係者の訪問履歴、犯罪関与の可能性、やり取り数、資産や取引（例：JPMorgan）等を掲載するが、AIゆえ誤情報の可能性がある。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-14T22:33:02.000Z",
+      "contentHash": "e1da2c7f299d"
+    },
+    {
+      "id": "9103ae0f1090",
+      "title": "You can't trust the internet anymore",
+      "url": "https://nicole.express/2026/not-my-casual-hobby.html",
+      "summary": "「ネットはもう信頼できない」と題した短い愚痴。筆者は1994年の復刻版『ファンタシースター』がマスターシステム基板をメガドライブ筐体に収めた技術的事情を例に、発売日を調べた際に検索上位に見慣れないサイトが出ることに失望し、誤情報の氾濫を嘆く。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-14T19:51:25.000Z",
+      "contentHash": "7f01b95205c5"
+    },
+    {
+      "id": "d39bedbeb2aa",
+      "title": "Gemini 3 Deep Think drew me a good SVG of a pelican riding a bicycle",
+      "url": "https://simonwillison.net/2026/Feb/12/gemini-3-deep-think/",
+      "summary": "GoogleのGemini 3 Deep Thinkは科学・研究・工学向けに開発され、高精度な「自転車に乗るペリカン」SVGを生成。著者は過去作より優秀と評し、より詳細なカリフォルニアクロペリカン指定プロンプトも試行。記事末に月$10のスポンサー案内あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-14T19:47:46.000Z",
+      "contentHash": "94b0a0d16c8f"
+    },
+    {
+      "id": "0fcb9016191b",
+      "title": "News publishers limit Internet Archive access due to AI scraping concerns",
+      "url": "https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/",
+      "summary": "インターネットアーカイブのクロールがAIによる記事取得に利用される懸念から、ガーディアンは同団体のAPIやWaybackのURLで記事ページを除外しアクセスを制限。FTなど他社もボットをブロックしている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-14T18:46:32.000Z",
+      "contentHash": "fcb272fef839"
+    },
+    {
+      "id": "3cce92cd2c1d",
+      "title": "uBlock filter list to hide all YouTube Shorts",
+      "url": "https://github.com/i5heu/ublock-hide-yt-shorts/",
+      "summary": "uBlock Origin用のフィルターリストでYouTube Shortsを完全非表示にする方法の案内。コメント非表示用の別リストもあり。DashboardのFilter lists→Importに指定のリンクを追加して使う。作成者交代でi5heuがメンテ、非公式プロジェクト。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-14T17:36:45.000Z",
+      "contentHash": "c40286567c27"
+    },
+    {
+      "id": "12d431e22caa",
+      "title": "iBuyPower’s gaming desktops are discounted for Presidents Day",
+      "url": "https://www.theverge.com/gadgets/878927/ibuypower-gaming-desktop-pc-presidents-day-sale-deal",
+      "summary": "iBuyPowerがプレジデントデーでデスクトップを割引販売。RDY Element 9 Pro R07（$1,899）とSlate（$2,099.99）は高性能AMD CPU/GPU、32GB DDR5、2TB、マウス・キーボード同梱で1440pゲーミングに最適。組立不要で手間とコストを節約。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-14T17:00:00.000Z",
+      "contentHash": "9ef898ee2011"
+    },
+    {
+      "id": "439576066e6a",
+      "title": "Amsterdam Compiler Kit",
+      "url": "https://github.com/davidgiven/ack",
+      "summary": "davidgivenの公開GitHubリポジトリ「ack」はAmsterdam Compiler Kit関連のソース群で、スター588・フォーク76。bin、build、docなど多数のディレクトリを含み、Issues78、Pull Request4が登録されている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-14T16:50:47.000Z",
+      "contentHash": "acc97c7a22e3"
+    },
+    {
+      "id": "6bed95a18f81",
+      "title": "Audiophiles can't distinguish audio sent through copper, banana or mud",
+      "url": "https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference-between-audio-signals-sent-through-copper-wire-a-banana-or-wet-mud-the-mud-should-sound-perfectly-awful-but-it-doesnt-notes-the-experiment-creator",
+      "summary": "盲検テストでオーディオ愛好家が銅線・バナナ・湿った泥をスピーカー配線に使った音を聴き分けられず、測定でも差が出なかったため「ケーブル崇拝」を疑問視する結果になった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-14T16:48:17.000Z",
+      "contentHash": "8e8e75d5c080"
+    },
+    {
+      "id": "a2012ad57056",
+      "title": "Georgia Tech announced the finalists in its wild musical instrument competition",
+      "url": "https://www.theverge.com/entertainment/879482/georgia-techs-musical-instrument-competition-fiddle-henge",
+      "summary": "ジョージア工科大が年次Guthman楽器コンペの最終候補を発表。賞金$1万をかけ、塩水で配線するモジュラー音源、二重ベースとヴィーナ融合のGajveena、回転盤で奏でるバイオリンの「Fiddle Henge」や奇抜な三角形など個性的な楽器が並ぶ。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-14T16:42:25.000Z",
+      "contentHash": "22ce32c1eac0"
+    },
+    {
+      "id": "4bfdbb4009a4",
+      "title": "Platforms bend over backward to help DHS censor ICE critics, advocates say",
+      "url": "https://arstechnica.com/tech-policy/2026/02/platforms-bend-over-backward-to-help-dhs-censor-ice-critics-advocates-say/",
+      "summary": "移民局（ICE）批判をめぐり、FIREがパム・ボンディらを提訴。政府がプラットフォームに投稿削除を強要し、企業が裁判なしに応じていると主張。ICEBlock削除も指摘され、監視情報消失の懸念。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-14T15:49:56.000Z",
+      "contentHash": "c98cf9fd6492"
+    },
+    {
+      "id": "e1d76ffc6400",
+      "title": "Vim 9.2",
+      "url": "https://www.vim.org/vim-9.2-released.php",
+      "summary": "Vim 9.2が公開。Vim9言語にEnum・ジェネリクス・Tupleや組み込み関数のメソッド化、保護された_new()や:defcompileなどを追加。diffや補完を強化、Wayland実験対応、脆弱性やメモリ不具合を修正。慈善活動も継続。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-14T15:39:43.000Z",
+      "contentHash": "be8d0a1655ee"
+    },
     {
       "id": "c04261b795ff",
       "title": "The Pocket Taco is the best way to turn your phone into a Game Boy",
@@ -131,10 +239,10 @@
       "id": "4a78544dc6e4",
       "title": "Transformers.js v4 の概要",
       "url": "https://note.com/npaka/n/n6c830df2349d",
-      "summary": "Transformers.js v4 Preview公開。C++製WebGPUランタイムでブラウザ/Node/Bun/DenoのGPU加速対応。モノレポ化・esbuild移行で高速化・バンドル縮小、tokenizers分離、GPT‑OSS等新モデルやTypeScript型強化によりJSでのAI実行が大幅進化。",
+      "summary": "Transformers.js v4 Previewが公開。C++製WebGPUランタイムでブラウザ/Node/Bun/DenoのGPU加速に対応。pnpmモノレポ化、esbuild化で高速・小型化、Tokenizers分離、GPT‑OSS等の新モデルやTypeScript型強化でJS上のAI推論が大幅進化。",
       "source": "npaka",
       "publishedAt": "2026-02-14T03:21:08.000Z",
-      "contentHash": "b64d8449b4cc"
+      "contentHash": "e8ad4e1cb659"
     },
     {
       "id": "e0fdfa795d45",
@@ -1274,10 +1382,10 @@
       "id": "43272152dcea",
       "title": "MioTTS による音声合成を試す",
       "url": "https://note.com/npaka/n/n68b6f72665d9",
-      "summary": "MioTTSをmacOS＋Ollamaで試した報告。軽量・高速なTTSでllama.cpp等対応、REST APIや参照音声プリセット、Best-of-Nあり。手順はリポジトリ取得→Ollama起動→GGUFモデル実行→API・WebUI起動し「jp_femail」で合成。MioTTS-1.2Bを検証。",
+      "summary": "MioTTSは軽量・高速なTTSで、llama.cpp等のLLMフレームワークやREST API、参照音声プリセット、Best-of-Nをサポート。複数サイズのモデルがあり、著者はmacOSでOllamaを使いMioTTS-1.2Bを動かしてリポジトリのクローン、Ollama起動、API/Gradio経由で音声合成を試した。",
       "source": "npaka",
       "publishedAt": "2026-02-11T12:18:58.000Z",
-      "contentHash": "73e79d94e111"
+      "contentHash": "8403665b4fa5"
     },
     {
       "id": "946b40aaf9e2",
@@ -1346,10 +1454,10 @@
       "id": "53c5a10395ff",
       "title": "OpenJTalk による音声合成を試す",
       "url": "https://note.com/npaka/n/ne4556135a116",
-      "summary": "OpenJTalkをDGX Spark（Ubuntu ARM）で試用。aptでopen-jtalk等をインストールし、Pythonからopen_jtalkでHTS音声（nitech_jp_atr503_m001）を生成してout.wavをaplayで再生するサンプルを紹介。",
+      "summary": "OpenJTalkをDGX Spark（Ubuntu ARM）で試した記録。導入手順とaptでのインストール例、Python仮想環境でのサンプルスクリプトを示し、HTS音源でout.wavを生成してaplayで再生する方法を紹介。",
       "source": "npaka",
       "publishedAt": "2026-02-11T05:12:50.000Z",
-      "contentHash": "7af50c75769a"
+      "contentHash": "0c88bb216dbd"
     },
     {
       "id": "81f7e8beb943",
@@ -8892,114 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-28T10:51:07.000Z",
       "contentHash": "91a11f102b2e"
-    },
-    {
-      "id": "40b9a75967ac",
-      "title": "Show HN: The HN Arcade",
-      "url": "https://andrewgy8.github.io/hnarcade/",
-      "summary": "このサイトに投稿された小さなゲームを忘れないため、投稿ゲームのディレクトリ兼アーケードを作り維持している。誰でもチェック・追加や感想を歓迎。コメントと得点情報あり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T10:50:32.000Z",
-      "contentHash": "22706d711963"
-    },
-    {
-      "id": "6dd3bff5ab7f",
-      "title": "突撃！隣のClaude Code！！ | エムスリーテックブログ",
-      "url": "https://www.m3tech.blog/entry/charge-claude-code",
-      "summary": "エムスリーはClaude Codeを全社で無制限利用し、エンジニアがTDDワークフローやTODO自動化、BigQuery権限管理などのカスタムSkill/Agentsを共有。CLAUDE.mdは簡潔にし詳細はSkillsへ、禁止事項を明確にする運用を推奨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-28T10:30:00.000Z",
-      "contentHash": "a595ccf0f9ca"
-    },
-    {
-      "id": "e176c5234eea",
-      "title": "Azure×Terraform入門：1年前の自分に教えたい“Terraformの動かし方” | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n692af068f756",
-      "summary": "In Azure×Terraform入門: init/plan/applyの役割を実例で解説し、AzureのResource Groupを作成・削除できるようにするハンズオン。.tf/terraform.tfstate/provider/planの説明、initは環境準備とprovider取得、planは差分プレビュー、applyで反映。tfstateは消すな、plan省略は危険。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-28T10:09:51.000Z",
-      "contentHash": "3a3f4ee5ebbf"
-    },
-    {
-      "id": "a50bc2f5a3bc",
-      "title": "コンテキストエンジニアリングの歴史：RAGの過去から現在をたどる | Algomatic Tech Blog",
-      "url": "https://tech.algomatic.jp/entry/2026/01/28/190559",
-      "summary": "RAG（検索拡張生成）の誕生から最新動向を論文13本で解説。2020年のREALM・DPRを基盤に、HyDE・Self‑RAG等で精度向上、2024年にGraph/Adaptive/Modular化、2025年以降はエージェント型・マルチモーダルへ拡張し「コンテキストエンジニアリング」の一要素となった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-28T10:05:59.000Z",
-      "contentHash": "04f6e876a9df"
-    },
-    {
-      "id": "73ebcd18a0f1",
-      "title": "E2Eテスト：DatadogからPlaywrightへ移行した理由とPros/Cons | ミツカリ技術ブログ",
-      "url": "https://tech-blog.mitsucari.com/entry/2026/01/28/184048",
-      "summary": "ミツカリはDatadogからOSSのPlaywrightへ移行。Datadogはノーコードで運用負担を減らせたが、実行コストや並列アドオン費用が高く、PRごとの実行不可やSTGへの過負荷でテストが不安定になる課題があったため。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-28T09:40:48.000Z",
-      "contentHash": "1e6b53a500f0"
-    },
-    {
-      "id": "8543dfc33492",
-      "title": "カード番号を扱わずに決済を成立させる仕組み ── トークナイゼーション入門 | inSmartBank",
-      "url": "https://blog.smartbank.co.jp/entry/2026/01/28/183000",
-      "summary": "カード番号（PAN）を復元不能な「トークン」に置き換えて決済を成立させるトークナイゼーションの入門。イシュア／アクワイアラ／EMVペイメントトークンの違いやTSPの役割、Google Pay・POS・アプリ・ECでの利用、セキュリティ向上と利便性の説明。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-28T09:30:00.000Z",
-      "contentHash": "198213d77816"
-    },
-    {
-      "id": "1253ce981d96",
-      "title": "I Stopped Following the News",
-      "url": "https://mertbulan.com/2026/01/28/why-i-stopped-following-the-news/",
-      "summary": "お気に入りのドイツ語は「neugierig」（新しいものに貪欲）。新しい知識が好きで日々ニュースを収集していたが、振り返ると多くがネガティブで繰り返し、日常に影響せずストレスになると気づき、追いかける理由を問い直した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T08:33:57.000Z",
-      "contentHash": "2ebccf320eea"
-    },
-    {
-      "id": "eca6314f932e",
-      "title": "Perron:「Railsベースの」静的サイトジェネレータ（翻訳） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_01_28/154159",
-      "summary": "PerronはRailsネイティブな静的サイトジェネレータをOSS公開したもの。Railsのルーティングやコントローラ、ViewComponentやTailwind等がそのまま使え、既存SSGへの移行負担を減らすことを目的とする。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-28T08:30:59.000Z",
-      "contentHash": "99d077f5b036"
-    },
-    {
-      "id": "6b1b8023d260",
-      "title": "AWSの新機能でGitOpsの運用を楽にしたい -EKS Capability ArgoCDを検証してみた- | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n41b35d9b46d7",
-      "summary": "SHIFTの武井氏がEKSの新機能「Argo CD Capability」を検証。AWSがスケーリングやアップグレード等の運用を代行し、IAM Identity Center統合の認証/RBAC、クラスタARNによるマルチクラスタ登録、Secrets ManagerやCodeCommit/ECR等のネイティブ連携でGitOps運用負荷を大幅に軽減する点を紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-28T08:26:00.000Z",
-      "contentHash": "62452dee42df"
-    },
-    {
-      "id": "36171da3c2e2",
-      "title": "ASML staffing changes could result in a net reduction of around 1700 positions",
-      "url": "https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation",
-      "summary": "ASMLはFY2025決算を発表。半導体需要拡大に対応し人員やアイントホーフェン第2キャンパスを拡充する一方、成長で機敏性が低下しエンジニアが本来業務に集中できないとして、技術・IT組織を再編しエンジニアリングとイノベーションに注力すると表明した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T08:02:42.000Z",
-      "contentHash": "015c4a5cf422"
-    },
-    {
-      "id": "15109a01999c",
-      "title": "Make.ts",
-      "url": "https://matklad.github.io/2026/01/27/make-ts.html",
-      "summary": "筆者はシェル履歴でコマンドを繰り返す代わりに、gitignoreしたファイル（例: make.ts）に対話的にコマンドを書いて実行するワークフローを提案。編集や複数コマンドの一括実行が容易で再現性や改良に有利、マルチプロセスや複雑な実験に有効。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T07:35:51.000Z",
-      "contentHash": "f38a0c82215c"
-    },
-    {
-      "id": "5b3f04a42449",
-      "title": "aws-nuke を AWS CloudShell で実行して AWS リソースを削除 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/using-aws-nuke-with-cloudshell",
-      "summary": "aws-nukeをAWS CloudShellで実行して大量のAWSリソースを一括削除する手順。CloudShellなら認証情報を外に出さずに済む。強力なツールなので事前にドキュメントを熟読し、アカウントエイリアスを設定、リージョンや除外リソース・アカウントブロックを記述したnuke-config.ymlを作成してCloudShellへアップロードすること。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-28T07:03:11.000Z",
-      "contentHash": "19e214f3ce70"
     }
   ]
 }
