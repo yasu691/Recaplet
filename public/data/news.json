@@ -1,6 +1,132 @@
 {
-  "generatedAt": "2026-02-15T16:48:36.266Z",
+  "generatedAt": "2026-02-16T02:52:31.091Z",
   "items": [
+    {
+      "id": "7946473a3d9a",
+      "title": "Cloud Composer 実導入に向けた検証で見えた理想と現実 | サイボウズ データチームのフィード",
+      "url": "https://zenn.dev/cybozu_data/articles/4cd423293afbff",
+      "summary": "サイボウズはCloud Composer（v3）を検証。OSやミドルウェアの管理負担は軽減されたが、Airflowのメジャー更新や互換性確認は手作業が残り、Embulkなど非Pythonツールの導入は難しく代替策で追加運用コストが発生するなど、期待と現実にギャップがあった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-16T01:24:15.000Z",
+      "contentHash": "610db019a516"
+    },
+    {
+      "id": "d254c0504cad",
+      "title": "AIが調査して人が判断する障害対応：Slackで人と協働するAIエージェントの設計 | Tabelog Tech Blog",
+      "url": "https://tech-blog.tabelog.com/entry/slack-ai-agent-for-incident-response",
+      "summary": "食べログの検索障害対応で、Slack上のAIエージェントがスレッド文脈を読みログ分析やナレッジ検索を行い初動調査と対応手順を提案。人が妥当性を確認・承認して実行するHuman-in-the-Loopで、着手遅延・属人化・心理的負担を軽減し、共有とツール切替を削減。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-16T01:13:19.000Z",
+      "contentHash": "ba40fe271de0"
+    },
+    {
+      "id": "be826a46b67d",
+      "title": "膨大な体験記から最適な対策を自動提案する：LLMを活用した新機能「就活コパイロット」をリリースしました | ハウテレビジョン技術ブログ",
+      "url": "https://howtv.hatenablog.com/entry/2026/02/16/100000",
+      "summary": "外資就活ドットコムがAI搭載の新機能「就活コパイロット」をリリース。蓄積した選考体験記を元に企業ごとの具体的ToDoや選考予測を自動生成し、カンバン形式の管理画面とカレンダー（Google連携）で一元管理。AIチューニングで実行可能な対策提案を目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-16T01:00:00.000Z",
+      "contentHash": "d53e35cb3e13"
+    },
+    {
+      "id": "b9712f6bb822",
+      "title": "OpenClaw founder Peter Steinberger is joining OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/879623/openclaw-founder-peter-steinberger-joins-openai",
+      "summary": "OpenClaw開発者ピーター・スタインバーガーがOpenAIに加入するとサム・アルトマンが発表。彼はエージェント同士の協調（マルチエージェント）を重視。OpenClawは急成長したが、ClawHubの400超の悪質スキルやMoltBookでの論争など問題も発生した。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-15T22:56:16.000Z",
+      "contentHash": "478e0447a5a8"
+    },
+    {
+      "id": "62a47e28e588",
+      "title": "I’m joining OpenAI",
+      "url": "https://steipete.me/posts/2026/openclaw",
+      "summary": "OpenAIに参加し、誰でも使えるエージェントを普及させる。OpenClawは財団に移りオープンかつ独立を維持。大反響に圧倒されつつ、最新研究と支援で安全に普及させるのが目標。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-15T21:54:15.000Z",
+      "contentHash": "dce1d38f4a44"
+    },
+    {
+      "id": "afa6ee1435e5",
+      "title": "State Attorneys General Want to Tie Online Access to ID",
+      "url": "https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act",
+      "summary": "Discordの最良の代替案を紹介。表面だけの別ブランドの囲いではなく、インフラの鍵をユーザーに渡して制御を取り戻せるプロジェクトを重視。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-15T19:49:17.000Z",
+      "contentHash": "663e7e2a7a19"
+    },
+    {
+      "id": "e846e28b4776",
+      "title": "Show HN: Microgpt is a GPT you can visualize in the browser",
+      "url": "https://microgpt.boratto.ca",
+      "summary": "Karpathyのmicrogptに触発された小型GPT。デフォルトで約4000パラメータのLLM/NNが名前生成を学び、活性化をネットワーク通過時に可視化・クリックで説明を得られる教育用ツール。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-15T18:40:35.000Z",
+      "contentHash": "91024631b7b6"
+    },
+    {
+      "id": "34c6d51f1517",
+      "title": "Editor's Note: Retraction of article containing fabricated quotations",
+      "url": "https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/",
+      "summary": "Ars TechnicaがAI生成の捏造引用を含む記事を撤回。編集長ケン・フィッシャーが読者と、真に発言していないとされたスコット・シャンボー氏に謝罪。AI生成物は明示が必須で、今回の掲載は規定違反。調査で他の問題は確認されず単発と判断し、編集基準を強化すると表明。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-15T18:29:54.000Z",
+      "contentHash": "d4c6b06bf3a7"
+    },
+    {
+      "id": "5928e7c0ee79",
+      "title": "Palantir Gets Millions of Dollars from New York City's Public Hospitals",
+      "url": "https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/",
+      "summary": "ニューヨーク市公立病院が2023年以降、パランティアに約400万ドルを支払い、患者記録の自動解析で未請求分を回収する請求業務を強化していた。市民団体はICE等との関係を理由に契約断絶を求めている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-15T17:37:10.000Z",
+      "contentHash": "09e8bf7fd087"
+    },
+    {
+      "id": "5184ee3bdb46",
+      "title": "You need to watch the intensely surreal cult classic Possession",
+      "url": "https://www.theverge.com/entertainment/879602/cult-classic-possession-1981-review-isabelle-adjani",
+      "summary": "強烈で超現実的なカルト映画『Possession』を絶賛。狂気的な演技が三者にわたり光る。予備知識なしでの視聴を推奨（Shudder／Criterion等で配信）。グロ注意、筋は解釈が難しい。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-15T17:30:00.000Z",
+      "contentHash": "b2f835a3ba26"
+    },
+    {
+      "id": "bf2ac45b9d36",
+      "title": "LT6502: A 6502-based homebrew laptop",
+      "url": "https://github.com/TechPaula/LT6502",
+      "summary": "65C02(8MHz)、46K RAM、BASIC-ROM、65C22、9インチ表示、内蔵キーボード、CF、10000mAh、USB-C搭載の6502ベース自作ノートLT6502。PCB到着・通電、ROM/RAM/コンソール、VIA/ACIA、キーボード統合、CF/ブザー、4.3\"表示、ケース組立済。拡張基板や大型表示、キー走査修正を予定。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-15T17:12:35.000Z",
+      "contentHash": "19b673e0723d"
+    },
+    {
+      "id": "cbfa027acb62",
+      "title": "EU bans the destruction of unsold apparel, clothing, accessories and footwear",
+      "url": "https://environment.ec.europa.eu/news/new-eu-rules-stop-destruction-unsold-clothes-and-shoes-2026-02-09_en",
+      "summary": "欧州委員会はESPRで未販売の衣料・服飾品・靴の廃棄を禁止し廃棄量の開示を義務化する措置を採択。欧州では未販売衣料の4～9%が廃棄され約560万トンのCO2を排出。安全等の例外を明確化し、開示様式は2027年2月開始。大企業は2026年7月19日、中堅は2030年適用で循環経済を促進。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-15T17:10:18.000Z",
+      "contentHash": "49f3ce6db06f"
+    },
+    {
+      "id": "dc9478cad016",
+      "title": "Show HN: Knock-Knock.net – Visualizing the bots knocking on my server's door",
+      "url": "https://knock-knock.net",
+      "summary": "無防備なサーバーを置くとボットが群がる──未遂の侵入試行を可視化するのがknock-knock.net。リアルタイムと履歴で発信元、頻出ユーザー名・パス、悪質ISPや選択理由などを表示するサイト。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-15T17:06:25.000Z",
+      "contentHash": "eb1813881366"
+    },
+    {
+      "id": "aeedc19bf699",
+      "title": "Here are the 55 best Presidents Day deals we’ve found so far",
+      "url": "https://www.theverge.com/gadgets/875949/best-presidents-day-sales-deals-2026",
+      "summary": "ザ・ヴァージが厳選した55件のプレジデンツデー特価を紹介。イヤホン、スピーカー、テレビ、スマート家電などで大幅割引が復活しており、バレンタインやスーパーボウルのセールと合わせて今が買い時と報告（更新：2026/2/15）。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-15T16:40:56.000Z",
+      "contentHash": "f6287487b9a1"
+    },
     {
       "id": "fb932c662b9f",
       "title": "I hate my AI pet with every fiber of my being",
@@ -392,10 +518,10 @@
       "id": "4a78544dc6e4",
       "title": "Transformers.js v4 の概要",
       "url": "https://note.com/npaka/n/n6c830df2349d",
-      "summary": "Transformers.js v4 Previewが公開。C++製WebGPUランタイムでブラウザ/Node/Bun/DenoのGPU加速に対応。pnpmモノレポ化、esbuild化で高速・小型化、Tokenizers分離、GPT‑OSS等の新モデルやTypeScript型強化でJS上のAI推論が大幅進化。",
+      "summary": "Hugging FaceのTransformers.js v4 Previewが公開。C++製WebGPUランタイムでブラウザ/Node/Bun/DenoのGPU推論に対応、モノレポ化・esbuild移行で高速化、Tokenizers分離、最新モデル対応やTypeScript型強化などでJavaScript上のAI実行が大幅に進化。",
       "source": "npaka",
       "publishedAt": "2026-02-14T03:21:08.000Z",
-      "contentHash": "e8ad4e1cb659"
+      "contentHash": "036e4bd2dab9"
     },
     {
       "id": "e0fdfa795d45",
@@ -486,15 +612,6 @@
       "source": "The Verge",
       "publishedAt": "2026-02-13T18:15:52.000Z",
       "contentHash": "0c1c777cd13f"
-    },
-    {
-      "id": "aeedc19bf699",
-      "title": "Here are the 50 best Presidents Day deals we’ve found so far",
-      "url": "https://www.theverge.com/gadgets/875949/best-presidents-day-sales-deals-2026",
-      "summary": "The Vergeが選ぶ50の大統領記念日セールまとめ。イヤホン、スピーカー、テレビ、スマート家電など注目ガジェットの割引を紹介。バレンタインやスーパーボウル後に再び強力な値引きが戻り、買い時と案内。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T18:12:41.000Z",
-      "contentHash": "10abdf3ce9bb"
     },
     {
       "id": "913ec523b446",
@@ -2678,10 +2795,10 @@
       "id": "dddc5593520f",
       "title": "pyttsx3 による音声合成を試す",
       "url": "https://note.com/npaka/n/n3732d54cadb2",
-      "summary": "pyttsx3でローカル音声合成を試した記事。pyttsx3はOSのTTS（macOS: say、Windows: SAPI5、Linux: Speak/Festival）をラップ。仮想環境作成→pip install pyttsx3。サンプルコードとLinuxでのvoice='jpx/ja'指定を紹介。",
+      "summary": "pyttsx3はPythonでローカルTTSを行うライブラリ（ネット不要）。OSのTTSをラップして使う（macOS: say、Windows: SAPI5、Linux: Speak/Festival）。導入は仮想環境で pip install pyttsx3。基本コードで音声再生し、Linuxでは voice を \"jpx/ja\" に設定する必要あり。",
       "source": "npaka",
       "publishedAt": "2026-02-09T10:28:46.000Z",
-      "contentHash": "2913b78acff9"
+      "contentHash": "7a799f4db830"
     },
     {
       "id": "0b4fc9d36045",
@@ -8883,123 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-01-28T21:46:54.000Z",
       "contentHash": "955649c25740"
-    },
-    {
-      "id": "a1f81797e420",
-      "title": "Jellyfin LLM/\"AI\" Development Policy",
-      "url": "https://jellyfin.org/docs/general/contributing/llm-policies/",
-      "summary": "JellyfinはLLM利用ポリシーを制定。Issue、PR、フォーラム等へのLLM出力の丸写しを禁止し、自分の言葉で理解して記載すること。違反は削除。翻訳補助は出典明記で例外。コード寄稿は別規定あり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T21:42:03.000Z",
-      "contentHash": "b805324bfba2"
-    },
-    {
-      "id": "3137f7333731",
-      "title": "Google adds Gemini AI-powered ‘auto browse’ to Chrome",
-      "url": "https://www.theverge.com/news/869731/google-gemini-ai-chrome-auto-browse",
-      "summary": "GoogleがChromeにGemini搭載の新機能「auto browse」を導入。米国のGoogle AI Pro/Ultra加入者向けで、従来の要約・比較機能を拡張し、ホテルや航空券の調査、予約やフォーム記入、購買の比較・カート追加・割引適用など複数手順を自動で行える。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-28T21:32:07.000Z",
-      "contentHash": "51cf32ebb5ca"
-    },
-    {
-      "id": "6aa4d5863588",
-      "title": "Tesla says production-ready Optimus robot is coming soon",
-      "url": "https://www.theverge.com/transportation/869746/tesla-optimus-gen-3-q1-2026-earnings",
-      "summary": "テスラは量産向けヒューマノイド「Optimus」第3世代を2026年第1四半期に発表。最新の手部など大幅改良を施し、2026年末までに第1生産ライン稼働、最終的に年100万台体制を目指す。モデルS/Xは2026年Q2で生産終了予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-28T21:28:45.000Z",
-      "contentHash": "8d03f1d7f319"
-    },
-    {
-      "id": "e5d26c397e4e",
-      "title": "Microsoft reports strong cloud earnings in Q2 as gaming declines",
-      "url": "https://www.theverge.com/news/869493/microsoft-q2-2026-earnings-revenue-profits-windows-xbox-gaming-surface",
-      "summary": "Microsoftは2026会計の四半期で売上$81.3B、純利益$30.9B（前年比+17%/+23%）。クラウドが好調でゲームは減収。More Personal Computingのみ減収だが、Windows10終了やRAM不足でPC出荷は予想外に増加した。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-28T21:23:36.000Z",
-      "contentHash": "5cb6304bfe85"
-    },
-    {
-      "id": "4c102da00734",
-      "title": "Tesla hits a grim milestone: its second straight year of decline",
-      "url": "https://www.theverge.com/transportation/869603/tesla-q4-2025-earnings-revenue-profit-musk-robotaxis",
-      "summary": "テスラは2年連続で収益・利益が減少。2025年12月期四半期は売上249億ドル、純利益8.4億ドルで前年同期比売上−3%、利益−61%。中国勢に首位を譲り、ムスクのAI・ロボット構想にも影響。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-28T21:08:42.000Z",
-      "contentHash": "54584419781e"
-    },
-    {
-      "id": "dbca22fe6b2e",
-      "title": "Apple to Soon Take Up to 30% Cut from All Patreon Creators in iOS App",
-      "url": "https://www.macrumors.com/2026/01/28/patreon-apple-tax/",
-      "summary": "AppleがPatreonに対し、iOSアプリでの支払いをApp StoreのIAPに移すよう11/1/2026を期限に設定。支払いは最大30%（1年超で15%）の手数料対象に。Patreonは不満を示し、クリエイターはアプリ内価格を上げるか手数料を負担する選択を迫られる。ウェブ決済で回避可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T20:59:30.000Z",
-      "contentHash": "d89de8923e1a"
-    },
-    {
-      "id": "c164bd06f173",
-      "title": "That's not how email works",
-      "url": "https://danq.me/2026/01/28/hsbc-dont-understand-email/",
-      "summary": "HSBCから「メールが返送された」と更新を求める書面が届いたが、口座の登録メールは正しかった。チャットで更新を促されたが、電話で確認したら正しければ無視で良いと言われ、案内文の見直しを提案した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T18:12:02.000Z",
-      "contentHash": "fd283baa2770"
-    },
-    {
-      "id": "6d851e9adcd4",
-      "title": "Blender MCP 1.5 を試す",
-      "url": "https://note.com/npaka/n/n5779c08bdc8a",
-      "summary": "Blender 5.0.1 と Blender MCP 1.5.5 を使って「Blender MCP」を試したまとめ記事。導入手順や設定、使用感、動作のポイント、確認した利点や注意点を報告しています。",
-      "source": "npaka",
-      "publishedAt": "2026-01-28T18:11:27.000Z",
-      "contentHash": "8b253f2de589"
-    },
-    {
-      "id": "17140b072924",
-      "title": "The new era of browsing: Putting Gemini to work in Chrome",
-      "url": "https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/",
-      "summary": "GoogleはChrome（macOS/Windows/Chromebook Plus）に最上位モデルGemini 3を統合。常時表示のサイドパネルでマルチタスク支援、Googleアプリ連携、複雑作業を自動巡回するAuto Browseや、今後のPersonal Intelligenceで文脈対応の支援を提供します。",
-      "source": "Gemini",
-      "publishedAt": "2026-01-28T18:00:00.000Z",
-      "contentHash": "6121d96c4f40"
-    },
-    {
-      "id": "02b2053ea06c",
-      "title": "Computer History Museum Launches Digital Portal to Its Collection",
-      "url": "https://computerhistory.org/press-releases/computer-history-museum-launches-digital-portal-to-its-vast-collection/",
-      "summary": "コンピュータ歴史博物館が膨大な所蔵品をオンラインで閲覧できるデジタル・ポータルを公開。コレクションへのアクセスを拡大し、保存・普及や研究・教育利用の利便性向上を図る（Mountain View、2026年1月21日）。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T17:54:54.000Z",
-      "contentHash": "f33e6d3b128f"
-    },
-    {
-      "id": "336c9afa1e3b",
-      "title": "Mousefood – Build embedded terminal UIs for microcontrollers",
-      "url": "https://github.com/ratatui/mousefood",
-      "summary": "Mousefoodはno-stdのembedded-graphicsバックエンドでRatatuiを組み込み機器で動かせます。導入例を示し、標準フォントは文字種が限られるためembedded-graphics-unicodefontsを既定で使い、機能削減やibm437での代替も可能。太字・斜体はEmbeddedBackendConfigでフォント指定（全て同サイズ）する必要があります。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T17:20:31.000Z",
-      "contentHash": "ec279865ea9f"
-    },
-    {
-      "id": "535bbdc20577",
-      "title": "Oban, the job processing framework from Elixir, has come to Python",
-      "url": "https://www.dimamik.com/posts/oban_py/",
-      "summary": "ElixirのObanがPython実装に移植。DBだけでトランザクション内にジョブを登録・処理でき、完了保持やcron等を提供。OSS版は単一スレッドのasyncioでバルク挿入/ackや正確なrescueが制限。Pro版はハートビートやワークフロー等で制約を解消。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T16:32:00.000Z",
-      "contentHash": "a49a0d6f6e77"
-    },
-    {
-      "id": "8cae65654e32",
-      "title": "Amazon axes 16,000 jobs as it pushes AI and efficiency",
-      "url": "https://www.reuters.com/legal/litigation/amazon-cuts-16000-jobs-globally-broader-restructuring-2026-01-28/",
-      "summary": "Amazonは全世界で約1万6000人の人員削減を発表。業務再編の一環で、主にコーポレート部門や小売・デバイス・広告などを対象とし、移転支援や退職金などの支援を行うとした。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T15:39:11.000Z",
-      "contentHash": "59bd156eec70"
     }
   ]
 }
