@@ -1,6 +1,33 @@
 {
-  "generatedAt": "2026-02-17T02:48:56.133Z",
+  "generatedAt": "2026-02-17T09:07:05.927Z",
   "items": [
+    {
+      "id": "f6c526252942",
+      "title": "Next.jsでSSR専用モジュールがCSRバンドルに混入する問題をwebpackで解決する | Wantedly Engineer Blog",
+      "url": "https://www.wantedly.com/companies/wantedly/post_articles/1044092",
+      "summary": "記事は、IPアドレス制限下でApollo Client設定時に出る「Cannot find module 'f...」エラーを取り上げ、原因分析と対処法（依存モジュール確認、ビルド/デプロイ設定、環境変数やIP許可リストの見直し）を解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-17T06:41:26.000Z",
+      "contentHash": "14a3de606e88"
+    },
+    {
+      "id": "c3843e67920b",
+      "title": "【生成AI×DataRobot】「データと会話する」エージェントで対話的に商品の需要傾向を確認してみる | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/d4b35b8b49fa6d",
+      "summary": "NTTデータの池野が、DataRobotの生成AIエージェント「データと会話する」を使い、売上データを対話的に解析して商品需要傾向を把握する手順を紹介。AutoMLやデータアップロード（CSV/データカタログ/DWH）、項目説明の修正など実践的な使い方と利点を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-17T06:21:38.000Z",
+      "contentHash": "a4235df1bb61"
+    },
+    {
+      "id": "e8d5298e5112",
+      "title": "Valve’s Steam Deck OLED will be ‘intermittently’ out of stock because of the RAM crisis",
+      "url": "https://www.theverge.com/games/879845/valve-steam-deck-oled-out-of-stock-memory-storage-ram-crisis",
+      "summary": "ValveはSteam Deck OLEDがRAM・ストレージ不足により一部地域で断続的に在庫切れになると発表。米国などで既に品切れが発生しており、同原因でSteam Machine／Steam Frame／Steam Controllerの出荷も2026年初の予定から延期され、価格や発売日は慎重に判断するとしている。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-17T02:57:56.000Z",
+      "contentHash": "faf77b32dd53"
+    },
     {
       "id": "5f4beaf847a1",
       "title": "Databricks Apps でカスタム MCP サーバーを動かしてみる | CCCMKホールディングス TECH LABの Tech Blog",
@@ -48,7 +75,7 @@
     },
     {
       "id": "80ff0032f931",
-      "title": "AI is destroying Open Source, and it's not even good yet",
+      "title": "AI is destroying open source, and it's not even good yet",
       "url": "https://www.jeffgeerling.com/blog/2026/ai-is-destroying-open-source/",
       "summary": "記事はAIがオープンソースを破壊していると批判。AIの幻覚で記事撤回、維持者へのAIによる嫌がらせ、OpenClaw由来の低品質バグ報告増加で負担や報酬制度が崩壊している。",
       "source": "Hacker News",
@@ -56,13 +83,40 @@
       "contentHash": "fa5ed67a6cbe"
     },
     {
+      "id": "a78eddd2ad7d",
+      "title": "Running NanoClaw in a Docker Shell Sandbox",
+      "url": "https://www.docker.com/blog/run-nanoclaw-in-docker-shell-sandboxes/",
+      "summary": "Dockerの公式ブログ記事は、軽量なテスト/実行ツール「NanoCLAW」をDockerのシェルサンドボックス内で安全に起動・操作する手順を解説。隔離性・再現性・即時実行の利点や設定手順、実例コマンドを示し開発者やセキュリティ研究者向けに導入を簡素化している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-16T22:53:02.000Z",
+      "contentHash": "be1951ce0140"
+    },
+    {
       "id": "1743f5a55252",
-      "title": "Study: Self-generated Agent Skills are useless",
+      "title": "SkillsBench: Benchmarking how well agent skills work across diverse tasks",
       "url": "https://arxiv.org/abs/2602.12670",
       "summary": "Agent Skillsは推論時の手続き知識だが評価基準がなかった。SkillsBenchは11分野86課題を「なし／精選／自己生成」で比較（7モデル、7308軌跡）。精選Skillsで平均合格率+16.2pp（分野差大、医療+51.9pp、SW+4.5pp）、16課題で悪化。自己生成は有益でなく、2–3モジュールの重点Skillsが有効で小モデルでも大モデルに匹敵。",
       "source": "Hacker News",
       "publishedAt": "2026-02-16T21:15:56.000Z",
       "contentHash": "06cf1be99409"
+    },
+    {
+      "id": "d644b2d0b7e9",
+      "title": "Show HN: Free alternative to Wispr Flow, Superwhisper, and Monologue",
+      "url": "https://github.com/zachlatta/freeflow",
+      "summary": "FreeFlowはMac向けの無料オープンソース音声→文字化アプリ。Groq APIを使い、Fn長押しで発話を即テキスト欄に貼付。文脈認識で名前などを補正。サーバ不使用で端末優先、MIT許諾。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-16T21:10:44.000Z",
+      "contentHash": "35d41afb2779"
+    },
+    {
+      "id": "17886780f9d1",
+      "title": "Suicide Linux (2009)",
+      "url": "https://qntm.org/suicide",
+      "summary": "誤入力をrm -rf /に解釈して全消去するジョークOS「Suicide Linux」がDebianパッケージやDocker化され動画も公開。筆者は作成者でないと訂正。削除に警告を加えたり単一ファイル削除で診断用にする提案も。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-16T20:34:27.000Z",
+      "contentHash": "e92c28f38cda"
     },
     {
       "id": "0952555732ea",
@@ -83,6 +137,24 @@
       "contentHash": "888ace1d13b5"
     },
     {
+      "id": "bd8509749e58",
+      "title": "Wero – Digital payment wallet, made in Europe",
+      "url": "https://wero-wallet.eu",
+      "summary": "Weroは欧州製の即時送金サービス。銀行口座間で10秒以内に24/7送受金でき、電話番号だけで利用可。現在はベルギー・フランス・ドイツでオンライン決済対応、今後店頭や定期支払いにも拡大予定。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-16T19:09:58.000Z",
+      "contentHash": "bac710c88495"
+    },
+    {
+      "id": "b099809261bd",
+      "title": "Robert Duvall has died",
+      "url": "https://www.nytimes.com/2026/02/16/movies/robert-duvall-dead.html?unlocked_article_code=1.MlA.5LIC.JbSiEGzihyVU&smid=url-share",
+      "summary": "ロバート・デュヴァル氏（95）が死去。妻ルチアナが自宅での死を発表。『ゴッドファーザー』『地獄の黙示録』『Lonesome Dove』などで役に溶け込む名優として活躍し、アカデミー賞は7回ノミネートで1回受賞。ヴァージニアの農場に暮らしていた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-16T18:52:50.000Z",
+      "contentHash": "f3935ff017a7"
+    },
+    {
       "id": "af14f0fc0c09",
       "title": "Use protocols, not services",
       "url": "https://notnotp.com/notes/use-protocols-not-services/",
@@ -90,6 +162,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-02-16T18:44:58.000Z",
       "contentHash": "35e5c420861e"
+    },
+    {
+      "id": "aeedc19bf699",
+      "title": "Here are 50 Presidents Day deals actually worth shopping for",
+      "url": "https://www.theverge.com/gadgets/875949/best-presidents-day-sales-deals-2026",
+      "summary": "記事は、2月に入りバレンタインやスーパーボウルを経てプレジデンツデイの大型セールが本格化し、イヤホンやスピーカー、テレビ、スマート家電などの注目割引を多数紹介。多くは期間限定や再ブランド化セール。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-16T16:12:34.000Z",
+      "contentHash": "e340967f2f7e"
     },
     {
       "id": "3c10fb78e01f",
@@ -261,15 +342,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-02-15T17:06:25.000Z",
       "contentHash": "eb1813881366"
-    },
-    {
-      "id": "aeedc19bf699",
-      "title": "Here are the 55 best Presidents Day deals we’ve found so far",
-      "url": "https://www.theverge.com/gadgets/875949/best-presidents-day-sales-deals-2026",
-      "summary": "ザ・ヴァージが厳選した55件のプレジデンツデー特価を紹介。イヤホン、スピーカー、テレビ、スマート家電などで大幅割引が復活しており、バレンタインやスーパーボウルのセールと合わせて今が買い時と報告（更新：2026/2/15）。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-15T16:40:56.000Z",
-      "contentHash": "f6287487b9a1"
     },
     {
       "id": "fb932c662b9f",
@@ -662,10 +734,10 @@
       "id": "4a78544dc6e4",
       "title": "Transformers.js v4 の概要",
       "url": "https://note.com/npaka/n/n6c830df2349d",
-      "summary": "Transformers.js v4 Preview公開。C++製WebGPUランタイムでブラウザやNode/Bun/DenoでGPU加速、pnpmモノレポ化、esbuildで高速化、最新モデル対応、トークナイザー分離、型安全性向上。",
+      "summary": "Hugging FaceのTransformers.js v4 Previewが公開。C++製WebGPUランタイムでブラウザ/Node/Bun/DenoのGPU加速対応、pnpmモノレポ化、GPT-OSS等の新モデル対応、esbuild導入で高速ビルド・小バンドル、tokenizers分離、TypeScript型強化。JSでのAI推論が大幅に強化。",
       "source": "npaka",
       "publishedAt": "2026-02-14T03:21:08.000Z",
-      "contentHash": "2cefa180ce19"
+      "contentHash": "4ab9675ac2f7"
     },
     {
       "id": "e0fdfa795d45",
@@ -1193,10 +1265,10 @@
       "id": "1fe13f389d31",
       "title": "Gemini 3 Deep Think の概要",
       "url": "https://note.com/npaka/n/nf5af7e2762de",
-      "summary": "Googleは2026年2月、科学・研究・工学向けに高度推論モード「Gemini 3 Deep Think」を大幅更新。曖昧・不完全なデータでの推論や仮説検証、3D設計出力を支援し、ARC-AGI-2で84.6%、Humanity’s Last Examで48.4%等の高成績。論文検証や結晶成長最適化、設計加速で実用化され、Geminiアプリ（Ultra）やAPIで提供。",
+      "summary": "2026年2月、GoogleはGemini 3の高度推論モード「Deep Think」を強化。複雑で曖昧な科学・研究・工学課題に対し人間に近い推論・検証・最適化を行い、ARC-AGI-2で84.6%など高成績。論文欠陥発見、結晶成長最適化、スケッチ→3D出力など実用例があり、GeminiアプリやAPIで提供。",
       "source": "npaka",
       "publishedAt": "2026-02-12T21:48:04.000Z",
-      "contentHash": "36872b11defe"
+      "contentHash": "fe866e90de64"
     },
     {
       "id": "79ea10424f3d",
@@ -1211,10 +1283,10 @@
       "id": "be2f6af9260c",
       "title": "GPT‑5.3‑Codex‑Spark の概要",
       "url": "https://note.com/npaka/n/nfce6b3d860c9",
-      "summary": "OpenAIは2026年2月、リアルタイムでコード生成・編集する研究プレビュー「GPT‑5.3‑Codex‑Spark」を発表。Cerebras専用ハードで低遅延・1,000トークン/秒超・128,000トークン文脈を実現し、即時補完・編集・リファクタリング・デバッグ等で開発者の作業を止めず即時フィードバックを提供することを目指す。",
+      "summary": "OpenAIは2026年2月、リアルタイムのコード生成・編集に特化した研究プレビュー「GPT‑5.3‑Codex‑Spark」を発表。1,000トークン/秒超・128,000トークン大コンテキスト・低遅延でCerebras専用ハード上動作し、即時補完・リファクタリング・対話的デバッグなど開発者の作業を止めずに高速化することを目指す。",
       "source": "npaka",
       "publishedAt": "2026-02-12T21:33:38.000Z",
-      "contentHash": "83052a040245"
+      "contentHash": "6b6bfcd8e485"
     },
     {
       "id": "43038d7fb030",
@@ -1868,10 +1940,10 @@
       "id": "53c5a10395ff",
       "title": "OpenJTalk による音声合成を試す",
       "url": "https://note.com/npaka/n/ne4556135a116",
-      "summary": "OpenJTalkをDGX Spark（Ubuntu ARM）で試した記録。導入手順とaptでのインストール例、Python仮想環境でのサンプルスクリプトを示し、HTS音源でout.wavを生成してaplayで再生する方法を紹介。",
+      "summary": "OpenJTalkをDGX Spark（Ubuntu ARM）で試した記録。aptでopen-jtalk等を導入し、Python仮想環境でsubprocessからopen_jtalkを呼んでout.wavを生成、aplayで再生するサンプルコードを紹介。",
       "source": "npaka",
       "publishedAt": "2026-02-11T05:12:50.000Z",
-      "contentHash": "0c88bb216dbd"
+      "contentHash": "dc4c3e681fe1"
     },
     {
       "id": "81f7e8beb943",
@@ -2939,10 +3011,10 @@
       "id": "dddc5593520f",
       "title": "pyttsx3 による音声合成を試す",
       "url": "https://note.com/npaka/n/n3732d54cadb2",
-      "summary": "pyttsx3はPythonでローカルTTSを行うライブラリ（ネット不要）。OSのTTSをラップして使う（macOS: say、Windows: SAPI5、Linux: Speak/Festival）。導入は仮想環境で pip install pyttsx3。基本コードで音声再生し、Linuxでは voice を \"jpx/ja\" に設定する必要あり。",
+      "summary": "pyttsx3はPythonでオフラインTTSを使うライブラリで、OSのTTSエンジン（macOS: say、Windows: SAPI5、Linux: Speak/Festival）をラップします。venvでpip installし、簡単なコードで読み上げ可能。Linuxではvoiceを\"jpx/ja\"に指定。",
       "source": "npaka",
       "publishedAt": "2026-02-09T10:28:46.000Z",
-      "contentHash": "7a799f4db830"
+      "contentHash": "7351ce92f1fe"
     },
     {
       "id": "0b4fc9d36045",
@@ -8928,78 +9000,6 @@
       "source": "npaka",
       "publishedAt": "2026-01-29T03:42:44.000Z",
       "contentHash": "273ff8ad85f0"
-    },
-    {
-      "id": "fdd95e18c2cd",
-      "title": "Maine’s ‘Lobster Lady’ who fished for nearly a century dies aged 105",
-      "url": "https://www.theguardian.com/us-news/2026/jan/28/maine-lobster-lady-dies-aged-105",
-      "summary": "メーン州の“ロブスターレディ”ことヴァージニア・「ギニー」・オリヴァーさん（享年105）が1月21日に死去。8歳で漁業を始め約97年にわたりロブスター漁に従事し、知事もその勤勉さを称賛した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-29T02:11:42.000Z",
-      "contentHash": "97dedc9a6669"
-    },
-    {
-      "id": "2989af362b15",
-      "title": "Render Mermaid diagrams as SVGs or ASCII art",
-      "url": "https://github.com/lukilabs/beautiful-mermaid",
-      "summary": "「beautiful-mermaid」はMermaid.js用の見栄え良いテーマとサンプル集で、配色・フォント・レイアウトを整えたダイアグラムのスタイルや導入例を提供し、簡単に美しい図を作れるようにするプロジェクトです。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-29T02:08:40.000Z",
-      "contentHash": "9bbc695aa1a3"
-    },
-    {
-      "id": "0fcf18d36cb0",
-      "title": "【Purview_MDCA】ファイルポリシー設定でつまずきやすいポイントと対処法 | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/01/29/101713",
-      "summary": "Microsoft Defender for Cloud Appsのファイルポリシー設定の注意点と対処法。事前に「保護されたファイルを検査」「ファイルの監視」「M365コネクタ接続」「作成者のSharePointアクセス」を確認。フォルダが一覧に出ない場合は空ポリシー作成や対象フォルダにファイルを置き、アクティビティログでファイルID検索する等の解決策を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-29T01:17:13.000Z",
-      "contentHash": "65e506fa7c7f"
-    },
-    {
-      "id": "ede4d77e82fa",
-      "title": "ONE CAREER Tech Magazine｜認知度一桁からの技術広報。2025年手応えを感じるまでの歩み | ONE CAREER Tech Blog",
-      "url": "https://note.com/dev_onecareer/n/nf7240d5d1e56",
-      "summary": "ワンキャリアの技術広報・長谷川（文系出身）が認知度7.1%から2023年に活動開始。2025年は発信量からブランド一貫性へ軸を移し、質の高い発信で認知と応募増を実感。2026年も継続、直近はSRE Kaigi登壇予定。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-29T01:12:11.000Z",
-      "contentHash": "aa31fdf70b2e"
-    },
-    {
-      "id": "dc16fdfbb4bc",
-      "title": "【入社エントリ】SES企業からプレックスに入社してみて | PLEX Product Team Blog",
-      "url": "https://product.plex.co.jp/entry/join-plex-engineering-kume",
-      "summary": "SESから2025年4月にプレックスへ転職したコーポレートエンジニアのくめです。業務効率化で事業貢献するという職務に惹かれ入社。意思決定が早く開発スピードが速いこと、社内から直接フィードバックを受け改善できる点や手厚い1on1サポートを評価しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-29T01:00:00.000Z",
-      "contentHash": "d7040eedddd9"
-    },
-    {
-      "id": "f584e560e99f",
-      "title": "Bedrock Converse API でPDFを読み込む | NCDC テックブログのフィード",
-      "url": "https://zenn.dev/ncdc/articles/1314c605799bc5",
-      "summary": "BedrockのConverse APIでローカルPDFを読み込み、Claude Sonnet 4に要約させる手順を紹介。PDFバイトをdocumentとして送信し箇条書き要約を取得。本文は読めるが日本語は不自然。content配列の各要素は単一パラメータにする必要あり。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-29T00:31:49.000Z",
-      "contentHash": "16578aa2d21e"
-    },
-    {
-      "id": "6e2651b0b0e4",
-      "title": "モバイルアプリ部の現在地とこれから | inSmartBank",
-      "url": "https://blog.smartbank.co.jp/entry/2026/01/29/093000",
-      "summary": "モバイルアプリ部（8名）は2025年に技術投資・デザイン基盤・AI活用で改善を進めた。今後もSwiftUI化や不要ライブラリ削減、Android分割、QA自動化、多様ユーザー向け体験最適化を推進し、1人で両OSを担当する体制やAI支援の導入も検討する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-29T00:30:00.000Z",
-      "contentHash": "5ce34f3ed9fd"
-    },
-    {
-      "id": "c300acabd3c5",
-      "title": "セキュリティチームの輪読会についてご紹介 | 10X Product Blog",
-      "url": "https://product.10x.co.jp/entry/2026/01/29/092035",
-      "summary": "10Xのセキュリティチームが毎週1時間行う輪読会の紹介。業務短期・中長期・基礎知識の3軸で重めの文書や仕様・スライド等をチームで音読し議論、事前準備不要で「細く長く無理なく」知識を継続的に蓄えるのが特徴です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-29T00:20:35.000Z",
-      "contentHash": "56246bb1cb85"
     }
   ]
 }
