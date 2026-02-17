@@ -1,6 +1,150 @@
 {
-  "generatedAt": "2026-02-16T17:00:40.742Z",
+  "generatedAt": "2026-02-17T02:48:56.133Z",
   "items": [
+    {
+      "id": "5f4beaf847a1",
+      "title": "Databricks Apps でカスタム MCP サーバーを動かしてみる | CCCMKホールディングス TECH LABの Tech Blog",
+      "url": "https://techblog.cccmkhd.co.jp/entry/2026/02/17/100715",
+      "summary": "Databricks Apps上で独自のMCPサーバーをFastMCPで実装・デプロイし、商品検索ToolをモックDBで作成。Databricks Playgroundから呼び出して動作確認した手順や構成を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-17T01:07:15.000Z",
+      "contentHash": "0cebdd7d25d7"
+    },
+    {
+      "id": "99edb634cd2e",
+      "title": "【イベントレポート・中編】GMO Developers Day 2025 -Creators Night-｜変化に挑むクリエイターのキャリアと成長 | GMO Developers",
+      "url": "https://developers.gmo.jp/design/80392/",
+      "summary": "GMO Developers Day 2025のセッションは、AI時代の映像制作・デザインとインハウスデザイナーの価値を議論。清水氏・加藤氏は生成AI活用のCM事例を紹介し、制作効率や低コスト化が進む一方で仕上げには人の手が不可欠と指摘。クリエイターはまず生成AIに触れて習得するべきと提言した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-17T01:00:29.000Z",
+      "contentHash": "9f67178b9df7"
+    },
+    {
+      "id": "fb15703aeea0",
+      "title": "アンドパッドは Go Conference mini in Sendai 2026 に協賛・ブース出展し、 gopher 会クイズをやります ! | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/02/17/100000",
+      "summary": "アンドパッドは2/21開催のGo Conference mini in Sendai 2026にGyutanスポンサーで初出展。Room Aで小島（13:40）とsunecosuri（14:40）が登壇。社内勉強会「gopher会」由来の3問クイズで参加者全員にオリジナルノベルティを配布。2/20に非公式前夜祭も開催。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-17T01:00:00.000Z",
+      "contentHash": "2adc134fe076"
+    },
+    {
+      "id": "59b09e2b1efd",
+      "title": "Chrome拡張機能のE2Eテスト、PlaywrightとPuppeteerどっちを選ぶ？調べて比較してみた | iimon TECH BLOG",
+      "url": "https://tech.iimon.co.jp/entry/2026/02/17/093030",
+      "summary": "Chrome拡張のE2EはPlaywright・Puppeteerどちらでも可能。ただしPlaywrightはService Worker用API、自動待機、組込テストランナーや拡張向け公式情報が充実し記述やCI導入が楽。Puppeteerは実現可能だが手間が増えるためPlaywright推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-17T00:30:30.000Z",
+      "contentHash": "e0929e6fe371"
+    },
+    {
+      "id": "2f0d04c70750",
+      "title": "cuTile Pythonで始めるGPUプログラミング &amp;amp; 倍精度行列積(DGEMM)エミュレーションを実装してみた。 | Insight Edge Tech Blog",
+      "url": "https://techblog.insightedge.jp/entry/try-cutile",
+      "summary": "NVIDIAの新DSL「cuTile Python」を試用。Tile単位でGPUをPythonから記述し、Tile IR経由で最適化されたマシンコードを生成。CUDAより抽象度高くTensor機能を活用しやすい。倍精度行列積（DGEMM）をOzaki法でエミュレーションし、各種最適化で速度と精度のトレードオフを評価した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-17T00:30:00.000Z",
+      "contentHash": "a89e2c150539"
+    },
+    {
+      "id": "80ff0032f931",
+      "title": "AI is destroying Open Source, and it's not even good yet",
+      "url": "https://www.jeffgeerling.com/blog/2026/ai-is-destroying-open-source/",
+      "summary": "記事はAIがオープンソースを破壊していると批判。AIの幻覚で記事撤回、維持者へのAIによる嫌がらせ、OpenClaw由来の低品質バグ報告増加で負担や報酬制度が崩壊している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-17T00:26:20.000Z",
+      "contentHash": "fa5ed67a6cbe"
+    },
+    {
+      "id": "1743f5a55252",
+      "title": "Study: Self-generated Agent Skills are useless",
+      "url": "https://arxiv.org/abs/2602.12670",
+      "summary": "Agent Skillsは推論時の手続き知識だが評価基準がなかった。SkillsBenchは11分野86課題を「なし／精選／自己生成」で比較（7モデル、7308軌跡）。精選Skillsで平均合格率+16.2pp（分野差大、医療+51.9pp、SW+4.5pp）、16課題で悪化。自己生成は有益でなく、2–3モジュールの重点Skillsが有効で小モデルでも大モデルに匹敵。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-16T21:15:56.000Z",
+      "contentHash": "06cf1be99409"
+    },
+    {
+      "id": "0952555732ea",
+      "title": "Apple starts testing end-to-end encrypted RCS messages on iPhone",
+      "url": "https://www.theverge.com/tech/879792/apple-iphone-android-rcs-messages-end-to-end-encrypted",
+      "summary": "AppleはiOS 26.4の開発者ベータでRCSのエンドツーエンド暗号化をテスト開始。ただし当初はApple機同士のみでAndroidとは未対応。正式実装は後続のアップデートで提供予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-16T20:21:33.000Z",
+      "contentHash": "69f52fbaf21a"
+    },
+    {
+      "id": "d2a549a609f6",
+      "title": "Apple’s Podcasts app will let you ‘seamlessly’ switch between audio and video shows",
+      "url": "https://www.theverge.com/tech/879749/apple-podcasts-video-swap-hls-live-streaming",
+      "summary": "AppleがPodcastsアプリを更新し、HLSで音声と動画をシームレスに切り替え可能に。横向き動画表示や動画のオフライン保存に対応し他プラットフォーム流出を抑制する狙い。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-16T19:14:58.000Z",
+      "contentHash": "888ace1d13b5"
+    },
+    {
+      "id": "af14f0fc0c09",
+      "title": "Use protocols, not services",
+      "url": "https://notnotp.com/notes/use-protocols-not-services/",
+      "summary": "インターネットは本来匿名だが、中央集権的サービスが個人特定や政府の強制（例：Discordの年齢確認）を可能にする。IRC/XMPP/ActivityPub/Nostr/Matrix等の分散プロトコルは強制が困難で、サービス間移行は解決にならないため、プロトコルの利用へ戻るべきだと主張する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-16T18:44:58.000Z",
+      "contentHash": "35e5c420861e"
+    },
+    {
+      "id": "3c10fb78e01f",
+      "title": "Apple’s doing something on March 4th",
+      "url": "https://www.theverge.com/tech/879671/apple-special-experience-event-march-2026",
+      "summary": "Appleは3月4日にNYで「特別な体験」を開催（同時にロンドンと上海でも招待）。招待状は黄・緑・青で、低価格A18 Pro搭載MacBookや新MacBook/ディスプレイ、iPhone 17e、廉価iPad、M4 iPad Air、AI強化されたSiriなどが予想される。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-16T15:02:41.000Z",
+      "contentHash": "f6fc02c844a7"
+    },
+    {
+      "id": "7d572dfc1fd3",
+      "title": "Let&#8217;s talk about Ring, lost dogs, and the surveillance state",
+      "url": "https://www.theverge.com/podcast/879203/ring-search-party-super-bowl-ai-surveillance-privacy-security",
+      "summary": "RingのスーパーボウルCMで宣伝された「Search Party」機能が物議に。迷子の犬を探せる一方、人物追跡や監視への転用を懸念。Flock Safetyや警察、ICEとの関係も問題視され、反発が迅速かつ強烈に広がった。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-16T15:00:00.000Z",
+      "contentHash": "e9eac7ba7b82"
+    },
+    {
+      "id": "ed0ffd7b5ff9",
+      "title": "Switch 2 pricing and next PlayStation release could be impacted by memory shortage",
+      "url": "https://www.theverge.com/tech/879668/sony-playstation-nintendo-switch-2-console-memory-shortage",
+      "summary": "AIデータセンターのメモリ需要増でRAM不足と価格上昇。これを受け、ソニーは次期PlayStationの発売を2028〜2029年に遅らせる検討、任天堂はSwitch 2の値上げを検討。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-16T13:45:49.000Z",
+      "contentHash": "7051b2fae71b"
+    },
+    {
+      "id": "66ae1c56ac59",
+      "title": "Samsung ad confirms rumors of a useful S26 ‘privacy display’",
+      "url": "https://www.theverge.com/gadgets/879652/samsung-galaxy-s26-privacy-display-ad-flex-magic-pixel",
+      "summary": "サムスンのGalaxy S26新広告は、視線による覗き見を防ぐ「プライバシーディスプレイ」を示唆。斜めから特定アプリや画面部分を黒く消す「Zero‑peeking」機能を搭載し、新型OLEDパネルを採用すると伝えられる。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-16T11:55:50.000Z",
+      "contentHash": "b39e95ee54c6"
+    },
+    {
+      "id": "b275eab61774",
+      "title": "After spooking Hollywood, ByteDance will tweak safeguards on new AI model",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/879644/bytedance-seedance-safeguards-ai-video-copyright-infringement",
+      "summary": "TikTok運営ByteDanceは、俳優の肖像やアニメキャラを無断生成したと批判されたAI動画生成モデル「Seedance 2.0」について、ディズニーやパラマウントらの著作権主張を受け、保護対策を強化すると表明した。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-16T11:29:24.000Z",
+      "contentHash": "bd3b69844a1f"
+    },
+    {
+      "id": "0f77d6e1551a",
+      "title": "A Star is born",
+      "url": "https://www.theverge.com/streaming/879129/netflix-star-search-live",
+      "summary": "Netflixが再始動したオーディション番組『Star Search』の五週間生配信に向けた舞台裏を描く記事。CBS Radfordで空中芸、74歳のコメディアン、11歳の歌手、踊る犬など多彩な出演者が準備を進め、3億超の視聴者を迎える大規模企画だ。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-16T11:00:00.000Z",
+      "contentHash": "d75ee79444e6"
+    },
     {
       "id": "7946473a3d9a",
       "title": "Cloud Composer 実導入に向けた検証で見えた理想と現実 | サイボウズ データチームのフィード",
@@ -1049,10 +1193,10 @@
       "id": "1fe13f389d31",
       "title": "Gemini 3 Deep Think の概要",
       "url": "https://note.com/npaka/n/nf5af7e2762de",
-      "summary": "Googleは2026年2月にGemini 3の高度推論モード「Deep Think」を強化。曖昧で複雑な科学・研究・工学課題に対応し、ARC-AGI-2で84.6%等高成績。論文検証、結晶成長最適化、スケッチ→3D出力などに応用可能で、GeminiアプリやAPIで利用できる。",
+      "summary": "Googleは2026年2月、科学・研究・工学向けに高度推論モード「Gemini 3 Deep Think」を大幅更新。曖昧・不完全なデータでの推論や仮説検証、3D設計出力を支援し、ARC-AGI-2で84.6%、Humanity’s Last Examで48.4%等の高成績。論文検証や結晶成長最適化、設計加速で実用化され、Geminiアプリ（Ultra）やAPIで提供。",
       "source": "npaka",
       "publishedAt": "2026-02-12T21:48:04.000Z",
-      "contentHash": "0483c6af3cd6"
+      "contentHash": "36872b11defe"
     },
     {
       "id": "79ea10424f3d",
@@ -1652,10 +1796,10 @@
       "id": "43272152dcea",
       "title": "MioTTS による音声合成を試す",
       "url": "https://note.com/npaka/n/n68b6f72665d9",
-      "summary": "MioTTSは軽量・高速なTTSで、llama.cpp等のLLMフレームワークやREST API、参照音声プリセット、Best-of-Nをサポート。複数サイズのモデルがあり、著者はmacOSでOllamaを使いMioTTS-1.2Bを動かしてリポジトリのクローン、Ollama起動、API/Gradio経由で音声合成を試した。",
+      "summary": "MioTTSは軽量・高速なTTSで、llama.cpp等で動作、REST/参照音声プリセットやBest-of-N対応。0.1B〜2.6Bのモデル群があり、macOSでOllama経由にてリポジトリ→Ollama起動→モデル実行→API/WEBUIでjp_femailプリセットを選び合成を確認した。",
       "source": "npaka",
       "publishedAt": "2026-02-11T12:18:58.000Z",
-      "contentHash": "8403665b4fa5"
+      "contentHash": "329d7b9aafae"
     },
     {
       "id": "946b40aaf9e2",
@@ -2741,10 +2885,10 @@
       "id": "90968fe317a0",
       "title": "Claude Desktop で Reachy Mini MCP を試す",
       "url": "https://note.com/npaka/n/n32db182cd26f",
-      "summary": "Claude DesktopでReachy Mini用のMCPを導入して動かした報告。MCPで頭部・アンテナ・カメラ・ジェスチャー・状態・電源や連続コマンドを制御可能。Python仮想環境でdaemonとMCPサーバを立ち上げ、claude_desktop_config.jsonに登録してClaude Desktopから操作した。",
+      "summary": "Claude DesktopでReachy Mini用MCPを試用。頭やアンテナ、カメラ、ジェスチャーや状態取得・電源制御、連続コマンドが可能。Python仮想環境でreachy-mini（--sim可）とdaemonを入れ、reachy-mini-mcpをインストール。claude_desktop_config.jsonにMCPを登録して再起動するとプロンプトで操作できる。",
       "source": "npaka",
       "publishedAt": "2026-02-09T13:36:32.000Z",
-      "contentHash": "361ba9c2caee"
+      "contentHash": "70ff711aaff2"
     },
     {
       "id": "fe7381604da0",
@@ -2804,10 +2948,10 @@
       "id": "0b4fc9d36045",
       "title": "RealtimeSTT によるリアルタイム音声認識を試す",
       "url": "https://note.com/npaka/n/n14259f6518e3",
-      "summary": "RealtimeSTTはマイク音声を話している途中からリアルタイムで文字化し、VADやウェイクワードで無音/発話を自動判定するライブラリ。Faster_WhisperやSileroVAD等を利用し、pipで導入、language=\"ja\"で日本語対応。インストール手順と簡単な実行例を紹介。",
+      "summary": "RealtimeSTTはマイク入力を話し途中から順次テキスト化するリアルタイム音声認識ライブラリ。VADやウェイクワード対応（WebRTCVAD/SileroVAD、Faster_Whisperなど採用）。pipでインストールし、language=\"ja\"で日本語対応。ローカルAIアシスタントや音声UIに便利。",
       "source": "npaka",
       "publishedAt": "2026-02-09T09:36:20.000Z",
-      "contentHash": "bc5375d025a3"
+      "contentHash": "2ab3779c5d8f"
     },
     {
       "id": "a18823f5585e",
@@ -8856,150 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-01-29T00:20:35.000Z",
       "contentHash": "56246bb1cb85"
-    },
-    {
-      "id": "33e020d2d141",
-      "title": "Google Drive/Slides API さわってみた | NCDC テックブログのフィード",
-      "url": "https://zenn.dev/ncdc/articles/5deeee439eb0bb",
-      "summary": "社内で提案書自動生成アプリを試作した際の備忘録。Google Drive/Slides APIをTypeScriptで扱う手順を、OAuth2の認証フロー、環境構築、Google Cloud ConsoleでのAPI有効化・OAuthクライアント作成、credentials.jsonとtoken.jsonの取得やコード例と共に解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-29T00:09:28.000Z",
-      "contentHash": "1217a60e0706"
-    },
-    {
-      "id": "f10aa36377ec",
-      "title": "Claude Skills で自分の文体を学習させて、私っぽいブログを書けるようにしてみた | アルダグラム Tech Blogのフィード",
-      "url": "https://zenn.dev/aldagram_tech/articles/6db2b3e520d6c5",
-      "summary": "フリーランスエンジニアのlen_progがClaude Skillsを使い、過去記事から文体や構成パターンを抽出して「私っぽい」技術ブログを自動生成する方法を紹介。記事分析→スキル（テンプレ・文体ガイド）作成で執筆効率とスタイルの一貫性を向上。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-29T00:00:01.000Z",
-      "contentHash": "cdd3fac58a93"
-    },
-    {
-      "id": "2af5dd43198d",
-      "title": "Cloud Storageのロケーションタイプに起因する料金スパイクについて | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/cloud-storage-cost-spikes-by-location-types",
-      "summary": "Cloud Storageでマルチ／デュアルリージョンを選ぶと、書き込み時に地理的にデータが複製されリージョン間レプリケーション料金が発生し、大容量アップロードで料金が急増する可能性があります。ロケーションタイプ（Region/Dual/Multi）の可用性と冗長性、コスト・レイテンシを踏まえて選定することが重要です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-29T00:00:00.000Z",
-      "contentHash": "9b0d75508f89"
-    },
-    {
-      "id": "9930886cb2e7",
-      "title": "【初学者向け】新入社員がモバイルシステム技術検定2級を合格するまで | ENGINEERING BLOG ドコモ開発者ブログ",
-      "url": "https://nttdocomo-developers.jp/entry/2026/01/29/090000",
-      "summary": "ドコモ新入社員の菊池氏がMCPCモバイルシステム技術検定2級に合格した体験記。試験は端末からコアネットワーク、セキュリティまで幅広く、公式テキストが唯一の情報源で難易度は高め。OFDMやMIMOなど技術要素の理解と公式テキスト熟読、知らない用語は調べることを勧めている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-29T00:00:00.000Z",
-      "contentHash": "6d3a0fbce7e4"
-    },
-    {
-      "id": "37bd9866fae9",
-      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
-      "url": "https://openai.com/index/taisei",
-      "summary": "大成建設はChatGPT Enterpriseを導入し、人事主導の人材育成を支援するとともに、生成AIをグローバルな建設事業へ展開している。",
-      "source": "OpenAI",
-      "publishedAt": "2026-01-29T00:00:00.000Z",
-      "contentHash": "93015c02ecfe"
-    },
-    {
-      "id": "54ada6137f69",
-      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
-      "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
-      "summary": "2026年2月13日、以前発表されたGPT‑5（Instant/Thinking/Pro）の引退に合わせ、ChatGPTからGPT‑4o、GPT‑4.1、GPT‑4.1 mini、OpenAI o4‑miniを退役します。APIには現時点で変更なし。",
-      "source": "OpenAI",
-      "publishedAt": "2026-01-29T00:00:00.000Z",
-      "contentHash": "5930bd2d5b8d"
-    },
-    {
-      "id": "5538857a61dd",
-      "title": "Halide co-founder Sebastiaan de With is joining Apple&#8217;s design team",
-      "url": "https://www.theverge.com/tech/869926/apple-hires-sebastiaan-de-with-design-team-halide-lux",
-      "summary": "Halide共同創業者のセバスティアン・デ・ウィットがAppleのデザインチームに参加を発表。iPhoneカメラ解析やHalide・Kino等のアプリで知られ、同社の「お気に入り製品」に携わるという。Luxやアプリの今後は不明。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-28T23:59:45.000Z",
-      "contentHash": "3aa9541ba674"
-    },
-    {
-      "id": "29058ad47fcf",
-      "title": "Ross Stevens Donates $100M to Pay Every US Olympian and Paralympian $200k",
-      "url": "https://www.townandcountrymag.com/leisure/sporting/a70171886/ross-stevens-american-olympians-donation/",
-      "summary": "実業家ロス・スティーブンスが米オリンピック・パラリンピック委員会に1億ドルを寄付。来季ミラノ・コルチナから全米五輪・パラ選手に各20万ドルを支給。半額は初出場から20年後または45歳時、残額は死後に家族へ。選手の経済的不安と引退支援が目的で、記録的寄付。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T23:55:42.000Z",
-      "contentHash": "b4981039681f"
-    },
-    {
-      "id": "e9fd882095a3",
-      "title": "Mark Zuckerberg is all in on AI as the new social media",
-      "url": "https://www.theverge.com/news/869882/mark-zuckerberg-meta-earnings-q4-2025",
-      "summary": "Metaのマーク・ザッカーバーグはメタバースから転換し、AIが次の大きなメディア形式になると主張。アプリは単なる推薦アルゴリズムから、利用者を理解して個別にコンテンツを生成する没入的・対話的なフィードへ進化すると述べた。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-28T23:26:41.000Z",
-      "contentHash": "00447122fc09"
-    },
-    {
-      "id": "9727a93c9e4b",
-      "title": "In 6 violent encounters, evidence contradicts immigration officials' narratives",
-      "url": "https://www.reuters.com/world/us/evidence-contradicts-trump-immigration-officials-accounts-violent-encounters-2026-01-27/",
-      "summary": "ロイターは、トランプ政権の移民担当高官が公表した「移民による暴力的遭遇」の説明が監視映像や記録、目撃証言と矛盾する事例があると報じた。説明は誇張や省略が見られ、政策や世論に影響した可能性が指摘されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T23:25:41.000Z",
-      "contentHash": "d6116da5b3d2"
-    },
-    {
-      "id": "6c9bc9d81a1c",
-      "title": "Windows 11 has reached 1 billion users faster than Windows 10",
-      "url": "https://www.theverge.com/news/869889/microsoft-windows-11-1-billion-users",
-      "summary": "Windows 11がリリース後1,576日で利用者10億人を達成し、Windows 10（1,706日）より速かった。年末四半期の達成で、Nadellaは前年比45%増と説明、Win10サポート終了が追い風に。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-28T23:17:14.000Z",
-      "contentHash": "63f6b1c9a635"
-    },
-    {
-      "id": "d4cb52d134c4",
-      "title": "The UK paid £4.1M for a bookmarks site",
-      "url": "https://mahadk.com/posts/ai-skills-hub",
-      "summary": "英国のAI Skills HubはPwCが£4.1Mで制作したが、UIが劣悪でコースは外部リンクの寄せ集め。アクセシビリティ未達や「fair use」誤記載など内容も粗雑で税金の無駄と批判されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T23:16:12.000Z",
-      "contentHash": "22a753569cf3"
-    },
-    {
-      "id": "1fc73e4a70bd",
-      "title": "Tesla discontinuing Model S and Model X to make room for robots",
-      "url": "https://www.theverge.com/transportation/869872/tesla-model-s-model-x-discontinue-optimus-robot-factory",
-      "summary": "イーロン・マスクは決算説明会で、テスラが2026年第2四半期にモデルSとモデルXの生産を終了すると発表。フリーモント工場をヒューマノイドロボット「Optimus」や自動運転・AI開発に充てるためという。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-28T22:49:50.000Z",
-      "contentHash": "8e550fae762f"
-    },
-    {
-      "id": "7ce7d583ba6e",
-      "title": "The best iPhones",
-      "url": "https://www.theverge.com/23618862/best-iphone-camera-battery-screen-guide",
-      "summary": "Appleの2025年iPhoneはiPhone 17/17 Pro/17 Pro Maxと薄型iPhone Airを投入。カメラ・チップ・バッテリー・画面が強化され、iOS26はLiquid Glass UIやライブ翻訳など新機能を搭載。ただしApple Intelligenceはまだ完成途上。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-28T22:45:37.000Z",
-      "contentHash": "1c01daf2b61f"
-    },
-    {
-      "id": "f879bc1b297a",
-      "title": "Somebody used spoofed ADSB signals to raster the meme of JD Vance",
-      "url": "https://alecmuffett.com/article/143548",
-      "summary": "ADSBExchange上で誰かがVC-25A（Air Force One）を偽装し、コールサイン「VANCE1」でミーム画像を表示。投稿者は「次はADSBの年齢確認か？」と皮肉っている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-28T21:50:47.000Z",
-      "contentHash": "ef9df6a65c3d"
-    },
-    {
-      "id": "a0aa0922e7a2",
-      "title": "The best Xbox controller to buy right now",
-      "url": "https://www.theverge.com/23025443/best-xbox-controllers-one-series-x-s",
-      "summary": "現在はコントローラーの「黄金時代」で、品質・多機能・カスタマイズ性が格段に向上。Xbox Series X/SやPC向けにMicrosoftのほか8BitDo、PowerA、Razer、Scuf等多彩な選択肢があり、ホール効果やTMR方式のドリフト耐性スティックなど耐久性向上の技術も採用されている。",
-      "source": "The Verge",
-      "publishedAt": "2026-01-28T21:46:54.000Z",
-      "contentHash": "955649c25740"
     }
   ]
 }
