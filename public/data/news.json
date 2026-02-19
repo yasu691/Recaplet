@@ -1,6 +1,231 @@
 {
-  "generatedAt": "2026-02-18T17:22:35.554Z",
+  "generatedAt": "2026-02-19T02:51:27.524Z",
   "items": [
+    {
+      "id": "0e392601b36b",
+      "title": "Teams会議の招待通知が “メール＋Teams” で二重に来る問題を解決する | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/02/19/103002",
+      "summary": "TeamsとOutlook両方に会議招待が届く二重通知は、Outlook(Exchange)が主体でTeamsも補助通知するため発生。対策はTeamsの設定で「カレンダー：新しい招待・更新・キャンセル」と「開催会議の転送通知」をオフにし、PC／モバイル両方や組織のポリシーも確認すること。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-19T01:30:02.000Z",
+      "contentHash": "717e1b331176"
+    },
+    {
+      "id": "6d5696c9beb5",
+      "title": "withAI開発でもレビューしやすいPRを作る | chot Inc. tech blogのフィード",
+      "url": "https://zenn.dev/chot/articles/a25a37ee4a1777",
+      "summary": "AIで生産速度は上がるがレビュー負担が増加。対策はAIに小さなコミット単位で作業させ、変更理由や処理内容・参照を日本語のConventionalCommits形式で残し、テストや手動テスト項目も生成させること。CLAUDE.mdで指示を固定化。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-19T01:12:03.000Z",
+      "contentHash": "38cc62e7d5b6"
+    },
+    {
+      "id": "eb3476aaa34b",
+      "title": "場所を理由に挑戦を諦めない。Sansanが地方拠点採用を強化する理由 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/why-sansan-expanding-regional-location-recruitment",
+      "summary": "SansanのCTO笹川は、名古屋・大阪・福岡など東京以外の拠点でエンジニア採用を強化する理由を説明。地域に優秀な人材や重要市場があり、顧客に近い開発でニーズ把握やモチベーション向上、単独チーム問題の解消を図る。オフィス環境は統一され、面談受付中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-19T01:00:00.000Z",
+      "contentHash": "212de04408c9"
+    },
+    {
+      "id": "c32c4723a98c",
+      "title": "新Linuxカーネル解読室 - Netlink | VA Linux エンジニアブログ  ",
+      "url": "https://www.valinux.co.jp/blog/entry/20260219",
+      "summary": "本稿はLinuxカーネルv6.14を題材にNetlinkを解説。ユーザ−カーネル間のIPCでソケット経由によりNETLINK_ROUTE等のファミリーを使い、sendmsg/recvmsgで通信。Do（操作要求）とDump（情報取得）やrtnetlink実装、主要データ構造を解説する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-19T01:00:00.000Z",
+      "contentHash": "90a4011ea2f2"
+    },
+    {
+      "id": "13f8d41fe656",
+      "title": "Jagu'e'r データ利活用分科会 #32 Meetup 「複数分科会コラボ企画 ― 各業界のデータ利活用事例スペシャル」で登壇しました | 株式会社ヘンリー エンジニアブログ",
+      "url": "https://dev.henry.jp/entry/2026/02/19/095424",
+      "summary": "2026/2/6にGoogle CloudコミュニティJagu'e'rで登壇。弊社は吉村が「カオスな病院データにどう立ち向かうか？」を発表し、退院サマリー自動化や経営ダッシュボード、AIでdbtのYAML生成やテーブル図作成してデータマートを整理する事例を紹介。医療DXの人材募集中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-19T00:54:24.000Z",
+      "contentHash": "b2d4a2ec21f7"
+    },
+    {
+      "id": "5311db7fbd54",
+      "title": "The RAM crunch could kill products and even entire companies, memory exec admits",
+      "url": "https://www.theverge.com/tech/881062/ram-shortage-kill-products-companies-phison-ceo-interview",
+      "summary": "SSDコントローラ大手PhisonのCEOが、2026年下半期にRAM不足が深刻化し、製品ライン削減や部品不足で企業が存続危機に陥る可能性があると警告。確保できなければ影響は避けられないと述べた。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-19T00:32:30.000Z",
+      "contentHash": "63236ea9389b"
+    },
+    {
+      "id": "b14ca51c5523",
+      "title": "Microsoft Entra IDの条件付きアクセスを利用した利用規約の設定と注意点 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/02/19/091028",
+      "summary": "Microsoft Entra IDの条件付きアクセスでサインイン時にPDF利用規約を表示し同意を求める設定手順と注意点を解説。P1ライセンスや管理者ロール、PDF要件、ポリシー作成、ユーザーの同意動作や定期再同意・PDF差替え時の扱いを説明。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-19T00:10:28.000Z",
+      "contentHash": "30d0f0153062"
+    },
+    {
+      "id": "90e8bf0b93b3",
+      "title": "クラウド型コーディングエージェントの時代がまた来る | Ubie テックブログのフィード",
+      "url": "https://zenn.dev/ubie_dev/articles/9258ddaa5f8caa",
+      "summary": "2025年に普及したローカル型に対し、クラウド型コーディングエージェントは自走力（5分→30分）、課金（従量→サブスク）、クラウド上での動作確認が改善され復権。Slackやモバイル連携、自動修正やチーム共有などで認知負荷を下げ生産性を高める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-19T00:00:10.000Z",
+      "contentHash": "7665595a76de"
+    },
+    {
+      "id": "c3a01dfde3dd",
+      "title": "ハコベル開発チーム初のアドベントカレンダーを完走した話 | Hacobell Developers Blogのフィード",
+      "url": "https://zenn.dev/hacobell_dev/articles/hacobell-advent-calendar-2025-retrospective",
+      "summary": "ハコベル開発チームが2025年12月に初のアドベントカレンダーを開催し、平日19日を完走。運営4名が10月から準備し、Slackや個別声掛けで参加者とネタを集めた。参加者集めやレビューが大変だったが、9名の初執筆者誕生や多様な技術記事などの成果を得た。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-19T00:00:10.000Z",
+      "contentHash": "790add0777cd"
+    },
+    {
+      "id": "5507c2af5a2b",
+      "title": "Dyson turned its skinny PencilVac into a lightweight wet floor cleaner",
+      "url": "https://www.theverge.com/tech/880594/dyson-pencilwash-wet-floor-cleaner-thin-battery-handle",
+      "summary": "DysonがPencilVacの濡れ床用モデル「PencilWash」を発表。直径1.5インチの細いハンドルにバッテリーなどを収め、ヘッドに水タンクと床用スクラブローラーを搭載。水抜き前で約4.9ポンドと軽量で家具下の拭き掃除に適する。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-18T23:01:00.000Z",
+      "contentHash": "7b00a3441427"
+    },
+    {
+      "id": "52af2636f490",
+      "title": "Meta is reportedly planning to launch a smartwatch this year",
+      "url": "https://www.theverge.com/tech/881065/meta-smartwatch-plans-2026",
+      "summary": "報道によればMetaは今年中に健康管理とAI機能を備えたスマートウォッチ（コード名Malibu 2）と新版Ray‑Ban Displayを投入予定。以前2022年にウォッチ計画を中止し、MR眼鏡Phoenixは2027年に延期。AppleやGoogleとの競争が激化する見込み。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-18T22:54:05.000Z",
+      "contentHash": "748f315ede7b"
+    },
+    {
+      "id": "e691743ec829",
+      "title": "The best iPad deals you can get right now",
+      "url": "https://www.theverge.com/21280354/best-ipad-deals-apple",
+      "summary": "記事は、ベースiPad、iPad Mini、iPad Air、M5搭載のiPad Proなど各モデルの割引情報を紹介。ブラックフライデー以外でも日替わりで値下がりがあり、The Vergeのディール担当が注目セールを追跡している。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-18T22:12:09.000Z",
+      "contentHash": "32521f5881b6"
+    },
+    {
+      "id": "34a25c4c5f3c",
+      "title": "Social media on trial: tech giants face lawsuits over addiction, safety, and mental health",
+      "url": "https://www.theverge.com/policy/880850/social-media-lawsuits-meta-facebook-instagram-tiktok",
+      "summary": "SNS大手がティーンの依存・安全・精神衛生被害を招いたとして提訴され、Section230抗弁を退けた重要裁判が進行中。MetaやTikTokらが対象で、マーク・ザッカーバーグが証言し、被害者遺族も出廷している。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-18T21:27:09.000Z",
+      "contentHash": "dfd70cd2c8cb"
+    },
+    {
+      "id": "c9373dbd3ed4",
+      "title": "Sizing chaos",
+      "url": "https://pudding.cool/2026/02/womens-sizing/",
+      "summary": "11歳の平均はジュニア9号（M）だが個人差が大きい。15歳頃に成長して女性用へ移行し、下位10％はXS、上位90％はXLに相当することが多い。作者の試着体験と女性服の合わなさも指摘。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-18T21:18:20.000Z",
+      "contentHash": "85cfbe3e97b1"
+    },
+    {
+      "id": "0cdb35e3a7b9",
+      "title": "Ring’s AI-powered Search Party won’t stop at finding lost dogs, leaked email shows",
+      "url": "https://www.theverge.com/tech/880906/ring-siminoff-email-leak-search-party-expansion",
+      "summary": "流出した内部メールで、Ring創業者ジェイミー・シミノフが犬捜索AI「Search Party」を「犯罪ゼロ化」への第一歩と位置付けていたことが判明。Amazon傘下のRingは監視や警察との連携で批判を受けている。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-18T21:01:40.000Z",
+      "contentHash": "1a8b88854ee7"
+    },
+    {
+      "id": "ef02ce2949b7",
+      "title": "27-year-old Apple iBooks can connect to Wi-Fi and download official updates",
+      "url": "https://old.reddit.com/r/MacOS/comments/1r8900z/macos_which_officially_supports_27_year_old/",
+      "summary": "外部リンクに直接アクセスできません。記事本文か主要コメントを貼り付けていただければ、200文字以内で日本語要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-18T20:54:31.000Z",
+      "contentHash": "075dd97e8b6c"
+    },
+    {
+      "id": "448f6f1f14a5",
+      "title": "There is unequivocal evidence that Earth is warming (2024)",
+      "url": "https://science.nasa.gov/climate-change/evidence/",
+      "summary": "地球は前例のない速さで温暖化しており、人間活動が主因であることは確実です。氷床コアや樹木年輪、衛星観測など多様な証拠が示し、IPCCも人為的影響を確立事実と認めています。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-18T20:09:10.000Z",
+      "contentHash": "bf70d6b0e928"
+    },
+    {
+      "id": "dd7b4af937a9",
+      "title": "Here are the best AirPods deals you can get right now",
+      "url": "https://www.theverge.com/21302051/best-apple-airpods-deals",
+      "summary": "記事はAirPods各モデルの最新セール情報をまとめています。AirPods 4（ANCあり/なし）、AirPods Pro 3、AirPods Maxが割引中で、AirPods 4は最安99ドルから。大型セール時の大幅値引き例も紹介。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-18T20:00:28.000Z",
+      "contentHash": "b8fd675323b4"
+    },
+    {
+      "id": "a740f0d6b591",
+      "title": "Polestar aims to shake off EV doldrums with 4 new models in 3 years",
+      "url": "https://www.theverge.com/transportation/880808/polestar-four-new-models-ev-europe",
+      "summary": "中国・吉利傘下のスウェーデン自動車メーカーPolestarは今後3年でEV4車種を投入。Polestar 5を今夏納車、Polestar 4長尺版をQ4、Polestar 2後継を2027年初、Polestar 7を2028年発売。既存2車種の改良でコスト削減を図り、2025年販売は約6万119台で34%増。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-18T19:21:43.000Z",
+      "contentHash": "d136bfd34299"
+    },
+    {
+      "id": "4d76b9b7bbc9",
+      "title": "99% of adults over 40 have shoulder \"abnormalities\" on an MRI, study finds",
+      "url": "https://arstechnica.com/health/2026/02/99-of-adults-over-40-have-shoulder-abnormalities-on-an-mri-study-finds/",
+      "summary": "フィンランドの研究で、41～76歳602人の肩MRIを調べると約99%に回旋腱板の異常（断裂や腱症など）があったが、多くは無症状だった。MRI所見が臨床的に意味あるものと区別できず、過剰診断・過剰治療の懸念が指摘された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-18T19:08:20.000Z",
+      "contentHash": "995d093ae6ff"
+    },
+    {
+      "id": "9f92bfdfe4ed",
+      "title": "Show HN: Echo, an iOS SSH+mosh client built on Ghostty",
+      "url": "https://replay.software/updates/introducing-echo",
+      "summary": "EchoはiOS/iPadOS向けの高速モダンSSHクライアントで、TUIツールやAIコーディングエージェントの普及に対応して開発。オープンソースのGhostty端末エンジンを組み込み、初のiOSアプリとして遠隔でのビルド監視や操作を快適にする。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-18T18:58:38.000Z",
+      "contentHash": "9735a37756a3"
+    },
+    {
+      "id": "bf0ece54041d",
+      "title": "Cosmologically Unique IDs",
+      "url": "https://jasonfantl.com/posts/Universal-Unique-IDs/",
+      "summary": "あらゆる物の識別子を常に一意に割り当てる問題を論じる。最も簡単なのはランダム番号割当で、中央管理不要にいつでも可能。名前空間を広げれば衝突確率は事実上ゼロにできるが完全なゼロではない、という主旨。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-18T18:37:22.000Z",
+      "contentHash": "0efb39d70520"
+    },
+    {
+      "id": "cf1636b4d4de",
+      "title": "Microsoft is bringing a built-in network speed test to Windows 11",
+      "url": "https://www.theverge.com/tech/880756/windows-11-speed-test-build-in-update-preview",
+      "summary": "MicrosoftがWindows 11にタスクバーから起動できる組み込みネット速度テストを追加。システムトレイのネットアイコンを右クリックすると既定ブラウザでEthernet/Wi‑Fi/携帯回線を測定可能で、InsidersのRelease Previewで配信中。対応カメラのパン・チルト設定や新絵文字、ウィジェット設定の拡充も予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-18T18:09:03.000Z",
+      "contentHash": "98025f665dc5"
+    },
+    {
+      "id": "329dae8dd74f",
+      "title": "DNS-Persist-01: A New Model for DNS-Based Challenge Validation",
+      "url": "https://letsencrypt.org/2026/02/18/dns-persist-01.html",
+      "summary": "Let's Encryptは新しいACMEチャレンジDNS-PERSIST-01を導入。DNS上の永続的な認可レコードを特定ACMEアカウント・CAに紐付け、繰り返しのTXT更新や伝播待ち、DNS資格情報配布を減らし、IoTやマルチテナント、バッチ発行に適する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-18T18:04:13.000Z",
+      "contentHash": "a305cccdc71e"
+    },
+    {
+      "id": "0977292765f8",
+      "title": "Ken Watanabe didn’t think a kabuki movie would work",
+      "url": "https://www.theverge.com/report/880620/ken-watanabe-interview-kokuho",
+      "summary": "李相日監督が吉田修一の小説を約3時間で映画化した歌舞伎時代劇『Kokuho』は、公開後に国内実写映画の興行トップに。主演の渡辺謙は当初、歌舞伎が映画に合わないと懸念していた。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-18T17:45:00.000Z",
+      "contentHash": "6a0c3f092c38"
+    },
     {
       "id": "253ee253edcf",
       "title": "Are Elon Musk’s Mars plans finally coming back down to Earth?",
@@ -84,12 +309,12 @@
     },
     {
       "id": "9cef07452340",
-      "title": "Autodesk Flow Studio の概要",
+      "title": "Autodesk Flow Studio を試す",
       "url": "https://note.com/npaka/n/n6c1284eee726",
-      "summary": "Autodesk Flow Studioは実写動画からCGキャラクターのアニメーションを自動生成するAI搭載ソフト。無料プランあり。手順は動画アップ→人物スキャン→キャラ割当→書出し。取得は体・顔・指・予測モーション、出力は合成映像、Maya/Blender/Unreal/USDやFBX/USDのモーション、クリーンプレート、アルファマスク、カメラトラックなど。",
+      "summary": "Autodesk Flow Studio を試しました。実写映像からAIでCGキャラを自動アニメ化・合成するソフトで無料プランあり。動画をアップロード→人物スキャン→キャラ割当→Blender等で出力し処理約40分。AIモーションキャプチャ、クリーンプレート、カメラトラック等多様な出力に対応。",
       "source": "npaka",
       "publishedAt": "2026-02-18T14:12:03.000Z",
-      "contentHash": "54fef28a9969"
+      "contentHash": "7cb42a630209"
     },
     {
       "id": "a24234af1957",
@@ -1913,10 +2138,10 @@
       "id": "1fe13f389d31",
       "title": "Gemini 3 Deep Think の概要",
       "url": "https://note.com/npaka/n/nf5af7e2762de",
-      "summary": "GoogleがGemini 3の推論モード「Deep Think」を強化。科学・研究・工学の複雑・曖昧な課題に対し高度な推論・検証・最適化を行い、ARC-AGI-2で84.6%など高成績。論文検証や実験最適化、3Dモデル生成など実用例があり、GeminiアプリやAPIで提供。",
+      "summary": "Googleは2026年2月、科学・研究・工学向けの高度推論モード「Gemini 3 Deep Think」を公開。曖昧・不完全なデータに対する深い推論や3D出力対応でARC-AGI-284.6%等の高成績を記録し、論文検証、実験最適化、設計支援などに活用可能。Geminiアプリ（Ultra）やAPIで提供。",
       "source": "npaka",
       "publishedAt": "2026-02-12T21:48:04.000Z",
-      "contentHash": "d879c09fc030"
+      "contentHash": "c5126d5e78a0"
     },
     {
       "id": "79ea10424f3d",
@@ -2516,10 +2741,10 @@
       "id": "43272152dcea",
       "title": "MioTTS による音声合成を試す",
       "url": "https://note.com/npaka/n/n68b6f72665d9",
-      "summary": "MioTTSは軽量・高速なTTSで、llama.cpp等で動作、REST/参照音声プリセットやBest-of-N対応。0.1B〜2.6Bのモデル群があり、macOSでOllama経由にてリポジトリ→Ollama起動→モデル実行→API/WEBUIでjp_femailプリセットを選び合成を確認した。",
+      "summary": "MioTTSは軽量・高速なTTSで、llama.cpp等のLLMフレームワークやREST API、参照音声プリセット、Best-of-N機能を持つ。0.1B～2.6Bの複数モデルがあり、macOS＋Ollamaでの導入手順（リポジトリ取得、Ollama起動、GGUFモデル実行、API・WebUI起動、プリセット選択で合成）を試した記録。",
       "source": "npaka",
       "publishedAt": "2026-02-11T12:18:58.000Z",
-      "contentHash": "329d7b9aafae"
+      "contentHash": "9d88620b5a19"
     },
     {
       "id": "946b40aaf9e2",
@@ -3353,10 +3578,10 @@
       "id": "de63aa2a5108",
       "title": "ローカルLLM で Reachy Mini MCP を試す",
       "url": "https://note.com/npaka/n/na4c205ed442f",
-      "summary": "Ollama（ローカルLLM）でReachy Mini MCPを動かす手順を解説。Ollama導入→qwen3:8b取得・確認→Python CLIでMCP接続、仮想環境・依存導入、pyttsx3/OpenJTalk音声出力やRealtime STT連携まで説明。",
+      "summary": "Ollama上のローカルLLM（qwen3:8b）でロボットReachy MiniのMCPを操作する手順。Ollama導入・モデル取得・動作確認、PythonでCLI作成・仮想環境構築・依存導入、pyttsx3/OpenJTalkで音声出力、RealtimeSTTで音声入力を統合し動作確認・微調整した。",
       "source": "npaka",
       "publishedAt": "2026-02-09T23:05:13.000Z",
-      "contentHash": "0c8511a1f4a9"
+      "contentHash": "12ab5cb95c67"
     },
     {
       "id": "f707ce1a7269",
@@ -4680,15 +4905,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-02-06T18:49:59.000Z",
       "contentHash": "182e92a90273"
-    },
-    {
-      "id": "dd7b4af937a9",
-      "title": "Here are the best AirPods deals you can get right now",
-      "url": "https://www.theverge.com/21302051/best-apple-airpods-deals",
-      "summary": "AirPodsシリーズ全モデル（AirPods 4［ANC有無］、AirPods Pro 3、AirPods Maxなど）が割引中。エントリーモデルは約100ドル。ブラックフライデー等で大幅値下げがあったが、1月でもお得なセールが見つかるとまとめた記事。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-06T18:36:29.000Z",
-      "contentHash": "39bfa31b3e49"
     },
     {
       "id": "ecfccb6ef8a6",
@@ -6041,15 +6257,6 @@
       "contentHash": "5b99e05015fe"
     },
     {
-      "id": "e691743ec829",
-      "title": "The best iPad deals you can get right now",
-      "url": "https://www.theverge.com/21280354/best-ipad-deals-apple",
-      "summary": "iPad（無印、Mini、Air、Pro含む）で常時割引があり、最新のM5 iPad Proも複数店でセール中。旧世代M4 Proは在庫減で値下げ傾向。日々の小売りチェックで掘り出し物が見つかる。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-04T18:12:22.000Z",
-      "contentHash": "2e86f6253d78"
-    },
-    {
       "id": "5360e550c0a3",
       "title": "The Great Unwind",
       "url": "https://occupywallst.com/yen",
@@ -7268,10 +7475,10 @@
       "id": "b398abedf802",
       "title": "10 ways to plan your 2026 budget with Gemini",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-budget-planning-tips/",
-      "summary": "簡単なGeminiプロンプトを使って、2026年の予算を作成し、隠れた節約を見つけて支出を整理する方法を学べます。",
+      "summary": "GoogleのAI「Gemini」で2026年の予算を計画。Sheetsで支出管理・追跡、Gmailで定期購読を発見・解約、節約案や請求交渉文作成、食事プランや税控除提案が可能。生成AIは実験的。",
       "source": "Gemini",
       "publishedAt": "2026-02-02T16:00:00.000Z",
-      "contentHash": "3094d787f13e"
+      "contentHash": "9e62a94c5a76"
     },
     {
       "id": "663ce91f0eb0",
@@ -8793,213 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-01-30T14:00:00.000Z",
       "contentHash": "0b40c0db5773"
-    },
-    {
-      "id": "e82d74333f90",
-      "title": "YOLOv8を使ったボール検出と座標取得 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/233a895248aee5",
-      "summary": "YOLOv8（Ultralytics）で画像内のボールを検出し座標を取得する手順を解説。pipでライブラリを導入し、YOLOモデルで推論、xyxy/xywh/正規化座標やクラスID・信頼度を取得するサンプルコードと実行例を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T13:39:07.000Z",
-      "contentHash": "84446c9026bd"
-    },
-    {
-      "id": "00c97c0ab5e2",
-      "title": "Wisconsin communities signed secrecy deals for billion-dollar data centers",
-      "url": "https://www.wpr.org/news/4-wisconsin-communities-signed-secrecy-deals-billion-dollar-data-centers",
-      "summary": "ウィスコンシン州の4自治体が数十億ドル規模のデータセンター誘致に際し、企業と秘密保持契約を締結し、助成金や契約内容を非公開にしている。透明性欠如を批判する声と、企業誘致のための必要措置だという弁明が対立している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-30T13:23:53.000Z",
-      "contentHash": "dcc5484d6601"
-    },
-    {
-      "id": "aee6fa649a9b",
-      "title": "[UE5] UE5ぷちコン 映像編7th 受賞作品発表！ | historia Inc – 株式会社ヒストリア",
-      "url": "https://historia.co.jp/archives/55636/",
-      "summary": "Unreal Engine 5学習向けの作品制作コンテスト「第25回UE5ぷちコン」が2月13日（金）から開催されると1月30日に告知されました。関連ブログには1月16日の開催予告や、1月13日に映像部門（UE5ぷちコン映像編7th）の応募作品公開などの情報も掲載されています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T13:09:49.000Z",
-      "contentHash": "3e3ed976045c"
-    },
-    {
-      "id": "6bea3c631211",
-      "title": "FrostyFriday Week84 Basic - Staging | ちゅらデータ株式会社のフィード",
-      "url": "https://zenn.dev/churadata/articles/34ce1bc57cdcac",
-      "summary": "Frosty Friday Week84の挑戦記。Snowflakeのプレビュー機能「COPY FILES」でステージ間のファイル移動が可能になったことを紹介。S3外部ステージへ直接アクセスは権限不足で失敗し、ストレージ統合とAWSロール設定を作成して対処した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T13:00:02.000Z",
-      "contentHash": "d6ab290d43ef"
-    },
-    {
-      "id": "2603eb4b4895",
-      "title": "第25回UE5ぷちコン ゲームジャム開催のお知らせ | historia Inc – 株式会社ヒストリア",
-      "url": "https://historia.co.jp/archives/55649/",
-      "summary": "関連ブログでは、UE5ぷちコン映像編7th受賞作品発表（2026/01/30）、第25回UE5ぷちコン（学習向け、2/13開始）予告（2026/01/16）、および映像編7th応募作品公開その3（2026/01/13）が掲載されています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T12:42:55.000Z",
-      "contentHash": "edc941983351"
-    },
-    {
-      "id": "784d32053bbc",
-      "title": "【ChatGPT】AIを活用した年間目標の設定 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/33b843641ea3ed",
-      "summary": "著者はAIを使って年間目標を設定。手順（あるべき姿→AsIs/ToBe→必要行動→今年の目標）で、「自走して設計・実装・障害対応ができ、品質とチームを意識して任せられるエンジニア」を定義した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T11:55:32.000Z",
-      "contentHash": "14ea1260819c"
-    },
-    {
-      "id": "a7f4445ef189",
-      "title": "TALES Androidアプリの開発構成 | noteエンジニアチーム 公式マガジン",
-      "url": "https://note.com/chickenjr/n/n7e30157d9c9e",
-      "summary": "物語投稿サービスTALESのAndroid版は、Kotlin 2.x＋Jetpack Compose、Material3、MVVM、マルチモジュール、Apollo GraphQL、Retrofit、Coroutines、Hilt、Kotlin Multiplatform等を採用。モダン性と長期運用性を両立し、GraphQLで効率的にデータ取得、再利用可能なexternalモジュールで設計を整理しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T11:25:12.000Z",
-      "contentHash": "fec15650d082"
-    },
-    {
-      "id": "c159bcf28f1b",
-      "title": "そのインタラクション、どう作るか？ | SODA Engineering Blogのフィード",
-      "url": "https://zenn.dev/team_soda/articles/ba0fe106a605dc",
-      "summary": "FlutterのGestureDetectorを初級〜上級で解説。onTap/onDoubleTapの判定やキャンセル挙動（300ms待ち等）、Picture-in-Pictureなど実例の再現方法や関連Widgetを紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T11:00:05.000Z",
-      "contentHash": "1f25907101ef"
-    },
-    {
-      "id": "57b62fd5eba5",
-      "title": "実装難易度Sランク：YOUTRUSTの1対1音声通話を作った | YOUTRUST Tech Blog",
-      "url": "https://tech.youtrust.co.jp/entry/flutter-phone-call",
-      "summary": "YOUTRUSTで1対1の音声通話をFlutterで実装した際のアーキテクチャと開発技術を解説する記事。実装難易度はSランクで、設計方針や実装上の工夫、UI/CSS最適化などを紹介している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T10:46:14.000Z",
-      "contentHash": "53f76a4aa1d0"
-    },
-    {
-      "id": "02a6727d6ad9",
-      "title": "【CrowdStrike】Falcon Foundry徹底解説 その３ | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/01/30/193825",
-      "summary": "公式チュートリアル「脅威ハンティングダッシュボードとレポートスケジュールの作成」を題材に、Falconコンソール上でのGUI開発フローと手順を解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T10:38:25.000Z",
-      "contentHash": "1edc324cc0e1"
-    },
-    {
-      "id": "8e24b63da06e",
-      "title": "備忘録：過去のCUDA Toolkitのアーカイブ | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/e8900e75e33366",
-      "summary": "ヘッドウォータースの技術ブログでyu shimohamaが2026/01/30にNVIDIA CUDA Toolkitのアーカイブリンクを備忘録として紹介。AI/LLMやAzure等の投稿や採用情報、Microsoft AI Tourでの事例紹介にも触れています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T10:24:05.000Z",
-      "contentHash": "46c8817db8a2"
-    },
-    {
-      "id": "2d21204811c2",
-      "title": "【New Relic】ECS上のPythonアプリケーションへのAPM導入までの流れ | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/newrelic-apm-python-ecs",
-      "summary": "ECS Fargate上のPythonアプリへNew Relic APMを導入する手順をGuided Installを基に解説。agent導入、newrelic.ini作成（アプリ同階層）、1つのDockerfileでの構成、Change TrackingやGitHub Actions（Secrets）設定、動作確認とよくあるトラブル対処（古いagentや設定優先度）を含む。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T10:17:27.000Z",
-      "contentHash": "5af768e26b76"
-    },
-    {
-      "id": "dd7e11e2e02c",
-      "title": "Tesla’s autonomous vehicles are crashing at a rate much higher tha human drivers",
-      "url": "https://electrek.co/2026/01/29/teslas-own-robotaxi-data-confirms-crash-rate-3x-worse-than-humans-even-with-monitor/",
-      "summary": "テスラ自身のロボタクシーデータで、監視者がいる状況でも人間運転者より事故率が約3倍高いことが判明。安全性への懸念と規制・批判を招いている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-30T10:14:31.000Z",
-      "contentHash": "a514154e31ae"
-    },
-    {
-      "id": "ecd87bf46b56",
-      "title": "Backend for Agent：MCPをスケールさせるアーキテクチャパターン | 株式会社ログラス テックブログのフィード",
-      "url": "https://zenn.dev/loglass/articles/ac5eae64bbb2f2",
-      "summary": "AnthropicのMCP普及で複数MCPサーバー接続が増えるが、直接接続は横断検索の不安定化、決定論的対応による柔軟性喪失、ツール爆発とコンテキスト消費、ハードリミットで精度低下を招く。記事はBFFを応用したBFAパターンを提案し、ツール過多を抑えてスケールさせる解を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T10:05:42.000Z",
-      "contentHash": "7a7ff03a894c"
-    },
-    {
-      "id": "0f1376ce89e0",
-      "title": "DaVinci Resolve の シーンカット検出 を試す",
-      "url": "https://note.com/npaka/n/n6b7f29795896",
-      "summary": "DaVinci Resolveの「シーンカット検出」は動画の切り替わりを自動検出してカット分割する機能。無料版で使え、 有料版はAIで精度向上。手順はメディア画面で動画を右クリック→「シーンカット検出」→自動検出（緑線）→誤検出を追加/削除で修正→メディアプールに追加してタイムラインに配置。トランジションが誤検出の主な原因。",
-      "source": "npaka",
-      "publishedAt": "2026-01-30T09:18:16.000Z",
-      "contentHash": "e4586f915bd4"
-    },
-    {
-      "id": "909c20015978",
-      "title": "GOG: Linux \"the next major frontier\" for gaming as it works on a native client",
-      "url": "https://www.xda-developers.com/gog-calls-linux-the-next-major-frontier-for-gaming-as-it-works-on-a-native-client/",
-      "summary": "GOGはLinuxを「次の大きなフロンティア」と位置づけ、ネイティブLinuxクライアントを開発中。DRMフリーの強みを活かし、互換性や導入体験を向上させ、Linux向けゲーム普及を目指す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-30T08:09:41.000Z",
-      "contentHash": "7bbc569a61ca"
-    },
-    {
-      "id": "337c29cf0d98",
-      "title": "How AI Impacts Skill Formation",
-      "url": "https://arxiv.org/abs/2601.20245",
-      "summary": "申し訳ありませんが外部サイトに直接アクセスできないため、そのURLの内容を取得できません。記事の抄録や本文、主要箇所を貼っていただければ、200文字以内で要約します。HNコメントも貼れば同様に要約可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-30T07:06:47.000Z",
-      "contentHash": "66bfbf5f4971"
-    },
-    {
-      "id": "d531dfe33a0e",
-      "title": "MIXI SRE Topics Monthly 2026-01 号 | MIXI DEVELOPERS Tech Blogのフィード",
-      "url": "https://zenn.dev/mixi/articles/7d8b12178c83d8",
-      "summary": "MIXIのSRE共有会報告。AIは万能化より作業をSKILL化して人手手順をAI連携する方針。Runbook化、ローカル呼び出し型支援、アラート起点でDBのprocesslist自動採取、AWS SIP試行、Resqueは遅延監視の必要性を共有。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T07:00:39.000Z",
-      "contentHash": "a55edb814562"
-    },
-    {
-      "id": "5245f97255d3",
-      "title": "AWS マルチアカウント環境からの Google Cloud フェデレーション設計 — AI時代に合わせた社内認証基盤づくり | LayerX エンジニアブログ",
-      "url": "https://tech.layerx.co.jp/entry/2026/01/30/152136",
-      "summary": "LayerX Fintechから三井物産デジタル・アセットマネジメントへ出向中のpiroshiです。AIや自動化でデータが複数プラットフォームを跨ぎ、AWS上のワークロードからGCP／Google WorkspaceのAPIへ安全にアクセスするニーズがMDMでも顕在化しました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T06:21:36.000Z",
-      "contentHash": "9769386d2b92"
-    },
-    {
-      "id": "98f52135280e",
-      "title": "Netflix Animation Studios Joins the Blender Development Fund as Corporate Patron",
-      "url": "https://www.blender.org/press/netflix-animation-studios-joins-the-blender-development-fund-as-corporate-patron/",
-      "summary": "Netflix Animation StudiosがBlender開発基金のコーポレートパトロンに加入。資金提供と協業でBlenderのオープンソース開発を支援し、アニメ制作やプロ向け機能、ワークフロー改良を推進する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-01-30T06:19:36.000Z",
-      "contentHash": "f4673052fc6d"
-    },
-    {
-      "id": "6f1c3de8b38b",
-      "title": "Differential Transformer V2が発表されたので、今更ではあるがV1論文を読んだうえで差分を確認してみた | ABEJA Tech Blog",
-      "url": "https://tech-blog.abeja.asia/entry/differential-transformer-v1-v2-diff-202601",
-      "summary": "ABEJAの大田です。Hugging FaceのDifferential Transformer V2は、V1の「2つのアテンション差分でノイズ除去」を発展させ、ノイズ抑制やスケーリング効率向上、ハルシネーション低減、検索性能やKVキャッシュ効率化で学習安定と高速推論を両立し、ローカル特化LLMの省リソース化と精度向上に寄与すると期待されています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T06:10:48.000Z",
-      "contentHash": "ae32060654ce"
-    },
-    {
-      "id": "d8ef5b5e8f9f",
-      "title": "生成AIでビジネス意思決定するまでの長い道のり - 道半ば編 | ENGINEER TECH BLOG",
-      "url": "https://note.com/ehal/n/n49c614111f7c",
-      "summary": "年始に帰省して兄弟と酒を交え、仕事で生成AIを活用できるかを忌憚なく議論した。話題は「結論に至る過程が不透明で信頼できない」という懸念が中心だった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T06:08:34.000Z",
-      "contentHash": "72edf2f864e2"
-    },
-    {
-      "id": "a9d75a43e49b",
-      "title": "Amazon Linux 2 EOL をきっかけに Rundeck を ECS 化してハマった話（ノード・SSH編）：その➁ | FURYU Tech Blog - フリュー株式会社",
-      "url": "https://tech.furyu.jp/entry/2026/01/30/150703",
-      "summary": "ピクトリンクの藤本です。Amazon Linux 2 EOLを機にRundeckをECS化する続編で、今回はECS上でのRundeck運用でのSSH接続、ノード定義やresources.xml周りのNetwork Errorなどのハマりどころを紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-01-30T06:07:03.000Z",
-      "contentHash": "9768d06c4c45"
     }
   ]
 }
