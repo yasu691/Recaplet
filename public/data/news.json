@@ -1,14 +1,77 @@
 {
-  "generatedAt": "2026-02-21T16:47:52.004Z",
+  "generatedAt": "2026-02-22T02:52:38.736Z",
   "items": [
+    {
+      "id": "7116de65ce64",
+      "title": "Microsoft PurviewのDLPで取得したログをSplunkでダッシュボードにしてみた | CloudNative Inc. BLOGs",
+      "url": "https://blog.cloudnative.co.jp/30668/",
+      "summary": "Microsoft PurviewのDLPで検出したマイナンバー関連ログをSplunkへ取り込み、全体とユーザー別に可視化するダッシュボードを作成・配布。検出中心の監視で疑わしい操作を深掘り可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-21T22:34:17.000Z",
+      "contentHash": "804e5d38f20e"
+    },
+    {
+      "id": "1284ae79e19c",
+      "title": "undefinedとnull、どう使い分ける？ | Rabee Tech blogのフィード",
+      "url": "https://zenn.dev/rabee/articles/javascript-undefined-vs-null",
+      "summary": "undefinedとnullの違いをバイトのシフト表で説明。undefinedは言語が返す「空欄＝未定義」、nullは開発者が入れる「休み＝意図的な欠損」。使い分けはプロジェクトルール次第だが、近年はバグ削減のためundefinedに統一する傾向。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-21T21:55:44.000Z",
+      "contentHash": "a9e489a729c3"
+    },
+    {
+      "id": "543d3c0a2132",
+      "title": "Arturia’s FX Collection 6 adds two new effects and a $99 intro version",
+      "url": "https://www.theverge.com/tech/882852/arturia-fx-collection-6",
+      "summary": "ArturiaがFX Collection 6を発表。新プラグインEFX Ambientと、1974年のEventide H910を模したPitch Shifter-910を追加。6種収録の入門版Introを99ドルで導入（Proは39エフェクトで499ドル）。Pitch Shifter-910は独特のグリッチ感や高音のチップマンク効果を持ち、モダンモードでアーティファクトを軽減します。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-21T21:10:01.000Z",
+      "contentHash": "54c0414b18d4"
+    },
+    {
+      "id": "4dd95faed418",
+      "title": "Show HN: Llama 3.1 70B on a single RTX 3090 via NVMe-to-GPU bypassing the CPU",
+      "url": "https://github.com/xaskasdf/ntransformer",
+      "summary": "NTransformerはCUDA/C++製の高効率LLM推論エンジン。RTX3090でLlama-70Bを層単位でGPUメモリにストリーミングしNVMe直送も可能。3層キャッシュ（VRAM/固定RAM/NVMe）でmmap比83倍高速化、PCIe H2Dがボトルネック。層スキップやQ4/Q6等の量子化をサポートし、CUDA以外の外部依存なし。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-21T20:57:30.000Z",
+      "contentHash": "ffe0c632f1a8"
+    },
+    {
+      "id": "da8579a5176f",
+      "title": "Georgia says Elon Musk’s America PAC violated election law",
+      "url": "https://www.theverge.com/tech/882838/georgia-elon-musk-america-pac-voter-fraud",
+      "summary": "ジョージア州選挙委は、イーロン・マスクの政治団体America PACが複数郡で個人情報を一部記入した不在者投票申請書を送付し、事前記入や「政府発行でない」表示欠如で選挙法違反と認定した。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-21T16:55:36.000Z",
+      "contentHash": "fc3da38feb3d"
+    },
     {
       "id": "8616e5a7921d",
       "title": "Suspect in Tumbler Ridge school shooting described violent scenarios to ChatGPT",
       "url": "https://www.theverge.com/ai-artificial-intelligence/882814/tumbler-ridge-school-shooting-chatgpt",
-      "summary": "カナダ・タンブラーリッジ銃乱射の容疑者ジェシー・ヴァン・ルーツェラールが数か月前にChatGPTで銃暴力を描写し自動審査が作動。社員は通報を提案したが経営陣は「差し迫った具体的危険性なし」と判断し、アカウント停止のみだった。",
+      "summary": "ブリティッシュコロンビアの銃乱射容疑者が今年6月、ChatGPTに銃暴力の描写を投稿して自動審査が作動。社員が当局通知を促したが、OpenAIは「差し迫った危険性はない」と判断して通報せず、アカウントは停止された。",
       "source": "The Verge",
       "publishedAt": "2026-02-21T15:22:57.000Z",
-      "contentHash": "793ab5b1dbe5"
+      "contentHash": "0eb0a8fed8dc"
+    },
+    {
+      "id": "5a9aeefd2812",
+      "title": "The Pixel 10A and Soundcore Space One are just two of the best deals this week",
+      "url": "https://www.theverge.com/gadgets/881998/google-pixel-10a-anker-351-power-strip-deal-sale",
+      "summary": "The Vergeの今週の注目セール：Google Pixel 10Aが予約で$100ギフトカード付。モップ掃除機やSoundcoreのANCヘッドホン、可変スティック搭載のPCコントローラー、テーブルトップ本や防犯カメラなどが割引。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-21T14:45:21.000Z",
+      "contentHash": "c8b7056602fa"
+    },
+    {
+      "id": "7399c4034bdf",
+      "title": "macOS's Little-Known Command-Line Sandboxing Tool (2025)",
+      "url": "https://igorstechnoclub.com/sandbox-exec/",
+      "summary": "記事は「sandbox-exec」という小型サンドボックスの実装と検証を解説。隔離手法（名前空間やseccomp等）の仕組み、脱出事例や脆弱性、対策と限界を具体例で示し、完全な安全確保は難しいと結論付ける。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-21T14:34:45.000Z",
+      "contentHash": "df4ab10ee10a"
     },
     {
       "id": "5b312a30acdf",
@@ -18,6 +81,69 @@
       "source": "The Verge",
       "publishedAt": "2026-02-21T14:00:00.000Z",
       "contentHash": "8cfb2638c546"
+    },
+    {
+      "id": "31bce24db7eb",
+      "title": "Stellantis is in a crisis of its own making",
+      "url": "https://www.theverge.com/transportation/881987/stellantis-crisis-ev-loss-sales-regulations",
+      "summary": "ジープやダッジの親会社ステランティスがEV投資で265億ドルの減損を計上。EV需要停滞でGMが76億ドル、フォードが195億ドルの損失を出す中、同社はさらに深刻な構造的問題を抱えている。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-21T13:00:00.000Z",
+      "contentHash": "b631e26bf3d3"
+    },
+    {
+      "id": "ca855edeea4d",
+      "title": "世界遺産の島の半農エンジニアがKiro×Bedrockで観光スタンプラリーアプリつくってみた 〜写真撮るだけでAIがスタンプ押してくれる仕組み〜 | ForgeVision Engineer Blog",
+      "url": "https://techblog.forgevision.com/entry/kiro/stamp_rally/sadogashima",
+      "summary": "佐渡島の半農エンジニアがKiroとAmazon Bedrock（Claude Haiku 3）でPWAスタンプラリーを開発。GPSとAI画像認証の二重確認で現地訪問を証明し、紙の課題を解消して相川の焼き物巡りを促進。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-21T11:05:29.000Z",
+      "contentHash": "971ef1868058"
+    },
+    {
+      "id": "bf386a9d5754",
+      "title": "ポイント対サイト（P2S）VPN接続とは | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/01e1cf08213c74",
+      "summary": "Azureのポイント対サイト（P2S）VPNは個別PCから直接VNetへ接続する方式。認証はクライアント証明書とユーザー認証（Entra/AD連携＋RADIUS）の2種類。証明書認証は各PCの証明書で接続可否を判定し、RADIUSはユーザー認証を提供するサーバーです。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-21T09:30:59.000Z",
+      "contentHash": "45a7a7b2e95f"
+    },
+    {
+      "id": "9e55d2ce50f1",
+      "title": "Anker’s X1 Pro shouldn’t exist, but I’m so glad it does",
+      "url": "https://www.theverge.com/tech/881788/soundcore-nebula-x1-pro-review-comparison-x1",
+      "summary": "AnkerのSoundcore Nebula X1 Proは、液冷トリプルレーザーの4Kプロジェクターにカラオケマイク、Google TV搭載の5スピーカー＆400W重低音サブウーファーを組み合わせた“移動式シアター”。明るく静かな投写と爆音再生を両立する、奇抜だが魅力的な製品。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-21T08:00:00.000Z",
+      "contentHash": "b3a4c018746d"
+    },
+    {
+      "id": "4acc1104bee0",
+      "title": "Azure Functions の自動スケールが引き起こす Rate Limit Error とその対策 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/ff436a07202fd6",
+      "summary": "RAG用PDF変換でAzure Functionsの自動スケールによりGPTへの同時リクエストが集中し429エラー発生。対策としてDurable Functionsでオーケストレーターをシングルトン化し、Durable Entityをキューにして並列度（RPM/TPM）を制御、PDFをチャンク化して安定処理を実現した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-21T07:19:03.000Z",
+      "contentHash": "b1493fa4d647"
+    },
+    {
+      "id": "af4439bad0d5",
+      "title": "初めてでも迷わないMicrosoft認定資格の受験手順まとめ | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/4819a6e31cc0bb",
+      "summary": "DP-900を例に、Microsoft認定資格の受験手順を解説。個人Microsoftアカウント作成（氏名は身分証と一致）、Microsoft Learn経由で申込→Pearson VUEで受験方法・日程選択。テストセンター推奨、オンラインは環境準備が必要。勉強は約20時間でLearn・Udemy・演習。手続きの不明点が心理的障壁なので事前準備を促す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-21T05:21:01.000Z",
+      "contentHash": "0326867b47d5"
+    },
+    {
+      "id": "6f0464a33dfd",
+      "title": "Kiro から AWS Bedrock AgentCore Gateway に mcp-proxy-for-aws で接続する方法 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/02/21/131206",
+      "summary": "KiroからAWS Bedrock AgentCore Gatewayへbridge.pyなしで接続する方法。公式ツールmcp-proxy-for-aws（2025年10月GA）を使い、GatewayをIAM認証で作成するとSigV4認証・動的ツール登録・MCP⇄HTTP変換が自動化。uvの導入とKiroのmcp.json設定が必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-21T04:12:06.000Z",
+      "contentHash": "7fa874c9a0a9"
     },
     {
       "id": "5607ca4db430",
@@ -41,10 +167,10 @@
       "id": "a5cb8f6835ed",
       "title": "Xbox shakeup: Phil Spencer and Sarah Bond are leaving Microsoft",
       "url": "https://www.theverge.com/games/882363/xbox-microsoft-phil-spencer-out",
-      "summary": "Xbox責任者フィル・スペンサーと社長サラ・ボンドが退任。ナデラCEOはスペンサーの引退を発表し、Asha SharmaがMicrosoft Gaming CEOに、Matt BootyがEVP兼チーフコンテンツオフィサーに就任。スタジオの組織変更や解雇はないとしている。",
+      "summary": "MicrosoftはXbox長年責任者のPhil Spencerが退職、Xbox社長のSarah Bondも退任すると発表。Asha SharmaがMicrosoft Gaming CEOに、Matt BootyがEVP兼チーフコンテンツオフィサーに昇格。スタジオの解雇や組織変更はないと強調。",
       "source": "The Verge",
       "publishedAt": "2026-02-20T21:29:01.000Z",
-      "contentHash": "9ef8b52062aa"
+      "contentHash": "9e0d98fdbac9"
     },
     {
       "id": "20e9927a4e21",
@@ -315,6 +441,15 @@
       "source": "The Verge",
       "publishedAt": "2026-02-20T12:47:12.000Z",
       "contentHash": "b36c662bbc1e"
+    },
+    {
+      "id": "cf813cfedcac",
+      "title": "LLMの指示が無視される？プロンプト分割で解決した話 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/5f73478dfd2dc0",
+      "summary": "RAGで「回答生成」と「文体規則」を同一長文プロンプトに入れると文体指示が無視されることがあり、生成と文体修正を別プロンプト（prompt chaining）に分けることで文体統一や略語展開が改善。タスク単純化と中間出力検証が有効。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-20T12:06:36.000Z",
+      "contentHash": "558652c18104"
     },
     {
       "id": "d1ea58e853fc",
@@ -1112,10 +1247,10 @@
       "id": "9cef07452340",
       "title": "Autodesk Flow Studio を試す",
       "url": "https://note.com/npaka/n/n6c1284eee726",
-      "summary": "Autodesk Flow Studioは実写映像を解析してマーカーレスでモーションキャプチャやカメラトラッキングを行い、編集可能な3Dシーン（Blender/Maya/UE出力可）を自動生成するAIツール。クリーンプレート・アルファマスク・モーションデータ等を書き出せ、無料プランもある。",
+      "summary": "Autodesk Flow Studioは実写を解析してマーカーレスで人物モーションやカメラ・環境を再構築し、編集可能な3DシーンやモーションをMaya/Blender/UE形式で書き出すAIツール。無償版あり。動画アップ→人物スキャン→キャラ割当→出力の流れで使用。",
       "source": "npaka",
       "publishedAt": "2026-02-18T14:12:03.000Z",
-      "contentHash": "471eaf534fd6"
+      "contentHash": "a5e769adf09b"
     },
     {
       "id": "a24234af1957",
@@ -8865,141 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-02-01T16:00:00.000Z",
       "contentHash": "4ba62d37a6b9"
-    },
-    {
-      "id": "9fe866fbd18e",
-      "title": "English professors double down on requiring printed copies of readings",
-      "url": "https://yaledailynews.com/articles/english-professors-double-down-on-requiring-printed-copies-of-readings",
-      "summary": "申し訳ありませんが外部リンクを直接閲覧できません。記事本文を貼るか主要段落を教えていただければ、200文字以内で日本語要約します。HNコメントの要約も可。どちらがよいですか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-01T15:58:23.000Z",
-      "contentHash": "7717af69e996"
-    },
-    {
-      "id": "864b8197c3d1",
-      "title": "I don’t hate the robot barista like I thought I would",
-      "url": "https://www.theverge.com/tech/871350/artly-robot-coffee-jarvis-seattle",
-      "summary": "シアトルで出会ったロボットバリスタJarvisは、客の名を呼び薔薇シロップのラテや見事なラテアートを提供。作者は当初嫌悪を予想したが好印象で、人間の「手」の価値を問い直す。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-01T15:00:00.000Z",
-      "contentHash": "4ee2c245475c"
-    },
-    {
-      "id": "1d2b2658b45b",
-      "title": "Antigravity’s 360-degree A1 drone is nearly $250 off right now",
-      "url": "https://www.theverge.com/gadgets/870772/antigravity-insta360-a1-drone-deal-sale",
-      "summary": "Antigravity（Insta360）のA1 360度ドローンが初の15%オフで1,599ドル→1,359ドルに。2月9日まで、アクセサリ付バンドルも割引。8K30fps／5.7K60fps対応。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-01T14:00:00.000Z",
-      "contentHash": "4e88b6daeaf7"
-    },
-    {
-      "id": "919e13f1e15d",
-      "title": "【Azure】StorageAccountに接続したPrivateEndpointの接続名を取得する方法 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/4125bb7609496a",
-      "summary": "AzureのStorageAccountではPrivateEndpointの接続名をネットワーク画面から直接コピーできません。手順は、対象StorageAccountの概要→JSONビューを開き、'connection'で検索してnameを取得し、ネットワーク設定で確認することです。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-01T13:11:58.000Z",
-      "contentHash": "4aa15afaaef6"
-    },
-    {
-      "id": "fb186a2dd985",
-      "title": "【Azure】API Managementのユニット数について | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/f253baf298f48d",
-      "summary": "Azure API Managementのユニット数は「ユニット数＝スケーリング」で、ポータルの「APIM ＞ 概要 ＞ プロパティ ＞ スケーリング」で確認できる、という内容のヘッドウォータースの技術記事（採用案内も含む）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-01T13:09:22.000Z",
-      "contentHash": "d0b1fb20b636"
-    },
-    {
-      "id": "296c25de3f6b",
-      "title": "【Azure】ContainerRegistryからイメージタグを確認する方法 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/fcb4dac3b81e63",
-      "summary": "ヘッドウォータースの技術記事。Azure Container Registryでイメージタグを確認するには、ACRの「サービス」→「リポジトリ」→各リポジトリを選択して確認します。採用やAI関連情報も掲載。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-01T13:07:25.000Z",
-      "contentHash": "34049dbc9626"
-    },
-    {
-      "id": "9672d2ec3501",
-      "title": "【Azure】LogAnalyticsWorkspaceのLog保持期間の変更方法 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/32f91b74ea266e",
-      "summary": "Azure Log Analytics Workspaceの保持期間変更手順。ワークスペース全体は「設定＞使用量と推定コスト＞データ保持」でスライダー/数値を調整、テーブル単位は「設定＞テーブル＞対象を右クリック＞テーブルの管理」で設定。保持はリアルタイム分析で使える期間（リテンション）とデータ保存の全期間（最大12年）に分かれる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-01T13:06:28.000Z",
-      "contentHash": "a6ff3d2ed826"
-    },
-    {
-      "id": "b09f49992123",
-      "title": "The telephoto is the only phone camera that really matters",
-      "url": "https://www.theverge.com/column/870883/telephoto-phone-camera",
-      "summary": "スマホでは望遠（テレフォト）カメラが差別化の要となっている。ファーウェイやOppoに先行されたが、サムスンのGalaxy S20 Ultraは米国で「Space Zoom 100×」を大々的に宣伝して話題に。過剰なズームの必要性や倫理的疑問も生んだ。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-01T13:00:00.000Z",
-      "contentHash": "9eab76c680d6"
-    },
-    {
-      "id": "9883583a10f2",
-      "title": "How to Scale a System from 0 to 10M+ Users",
-      "url": "https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users",
-      "summary": "システムを0から1000万+ユーザーへ成長させる7段階を解説。初期は単一サーバで素早く検証し、過剰設計を避けつつ実際のボトルネックを見つけて段階的に分散化や機能追加を行うべきだと説明。各段階で何をいつ導入するかとトレードオフを示す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-01T11:35:32.000Z",
-      "contentHash": "b5eb16473504"
-    },
-    {
-      "id": "3ff2b4a24589",
-      "title": "Netbird – Open Source Zero Trust Networking",
-      "url": "https://netbird.io/",
-      "summary": "NetBirdはオープンソースのWireGuardベースメッシュVPNで、クラウドネイティブ設計、SSO連携や自己ホスト可能なコントロールプレーンを備え、開発者や企業が安全にプライベートネットワークを簡単に構築・管理できる点でTailscale等の代替として注目されています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-01T09:44:01.000Z",
-      "contentHash": "adb30e20d4b7"
-    },
-    {
-      "id": "0afbe3bc9323",
-      "title": "What I learned building an opinionated and minimal coding agent",
-      "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
-      "summary": "著者は、複雑化して挙動が変わる既存のコーディングエージェントに不満を持ち、コンテキスト制御と透明性を重視した最小限で意見を持つコーディングエージェントを自作。最小プロンプト・最小ツールで予測可能性を追求している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-01T09:33:46.000Z",
-      "contentHash": "b451d9871024"
-    },
-    {
-      "id": "25835ef41f3f",
-      "title": "NVIDIAのLLM Nemotron を試す",
-      "url": "https://note.com/npaka/n/nd1bcc20a3cb2",
-      "summary": "NVIDIAのLLM「Nemotron」(Base/Instruct/Reward/Nano)を紹介し、NVIDIA API Catalogでのモデル選択、APIキー発行手順、curlを使ったnemotron-3-nano-30b-a3bの動作確認例をまとめた記事。",
-      "source": "npaka",
-      "publishedAt": "2026-02-01T08:46:26.000Z",
-      "contentHash": "6e6cc5a0690a"
-    },
-    {
-      "id": "83d1bcbc2d61",
-      "title": "Hitem3D の 3Dモデル生成 を試す",
-      "url": "https://note.com/npaka/n/nb775130d2655",
-      "summary": "Hitem3Dを試した。テキストや画像から高品質な3Dモデルを自動生成でき、ゲーム・アニメ・3Dプリント・AR/VR等に利用可能。操作はログイン→画像アップ→生成→ダウンロード。リギング機能はない。",
-      "source": "npaka",
-      "publishedAt": "2026-02-01T08:03:55.000Z",
-      "contentHash": "09e6437a4782"
-    },
-    {
-      "id": "9b6ee0a4df35",
-      "title": "The Book of PF, 4th edition",
-      "url": "https://nostarch.com/book-of-pf-4th-edition",
-      "summary": "『The Book of PF』第4版はOpenBSD/FreeBSD/NetBSD向けのPF解説書。IPv6、デュアルスタック、キュー/優先度による帯域制御、NAT、無線、冗長化、ログ等を網羅し、実運用向け設定と応用を詳述。著: Peter N.M. Hansteen。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-01T07:50:51.000Z",
-      "contentHash": "b2b968d88b44"
-    },
-    {
-      "id": "0899b7382802",
-      "title": "Reachy Mini Robot with NeMo Agent Toolkit Tutorial の概要",
-      "url": "https://note.com/npaka/n/n281f72eb1e40",
-      "summary": "NVIDIA NeMo Agent Toolkitで作るリアルタイムAIエージェントがReachy Miniを制御するチュートリアル。NemotronのText/VLMとREACTをLLMルーターで動的に振り分け。構成はReachy Daemon、Bot Service、NeMo Agent Serviceの3つ。Python3.10とNVIDIA/ElevenLabs APIキーを.envに入れ、各サービスを3つの端末で起動して実行する。",
-      "source": "npaka",
-      "publishedAt": "2026-02-01T05:52:44.000Z",
-      "contentHash": "b45df1fdc6fc"
     }
   ]
 }
