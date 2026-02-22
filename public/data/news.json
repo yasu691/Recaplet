@@ -1,6 +1,51 @@
 {
-  "generatedAt": "2026-02-22T02:52:38.736Z",
+  "generatedAt": "2026-02-22T08:47:25.842Z",
   "items": [
+    {
+      "id": "44e0e5c14f2e",
+      "title": "Ollama で NVIDIA Nemotron 2 Nano 9B Japanese を試す",
+      "url": "https://note.com/npaka/n/n203120c2ef78",
+      "summary": "Ollama上でNVIDIAの日本語モデル「Nemotron 2 Nano 9B Japanese」を実際に試用し、導入手順、性能や応答品質、利点と課題をまとめたレポートです。",
+      "source": "npaka",
+      "publishedAt": "2026-02-22T05:53:35.000Z",
+      "contentHash": "747a1a9fa6cc"
+    },
+    {
+      "id": "c182b6556857",
+      "title": "Mac標準機能＋ffmpegで、動画撮影からGIFコピーまでをローカル内で自動化する | Rabee Tech blogのフィード",
+      "url": "https://zenn.dev/rabee/articles/mac-record-to-gif-copy",
+      "summary": "Macの画面収録とAutomator、ffmpegで、録画を保存するだけで自動的に高品質GIFに変換してクリップボードにコピーするワークフロー。Homebrewでffmpegを入れ、AutomatorのフォルダアクションにAppleScriptを設定、保存先を指定すると一時GIF作成→貼り付け→（30秒後）削除。オンラインに上げずローカルで完結。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-22T05:05:45.000Z",
+      "contentHash": "4bf355026ee6"
+    },
+    {
+      "id": "ef126bba2828",
+      "title": "ローカルLLMの検索ツールとして Gemini 2.5 Flash-Lite を試す",
+      "url": "https://note.com/npaka/n/ne2bd91159e32",
+      "summary": "ローカルLLMの検索ツール「Gemini 2.5 Flash-Lite」を試用し、導入手順や検索性能、利点と課題点を検証してまとめています。",
+      "source": "npaka",
+      "publishedAt": "2026-02-22T00:47:21.000Z",
+      "contentHash": "40c9d64f3294"
+    },
+    {
+      "id": "454e4747cc28",
+      "title": "Pythonの__init__.pyはなぜ必要なのか？importの安定化・API設計・pytestとの関係 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/b6573a66d5749b",
+      "summary": "__init__.pyはフォルダをパッケージと明示し、importの安定化（同名パッケージの結合回避、相対/絶対importやpytestのModuleNotFoundError解消）、IDE補完向上、公開API整理に役立つ。ほぼ全てのパッケージに配置を推奨。Web開発でnamespace packageが必要になることは稀。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-22T00:41:53.000Z",
+      "contentHash": "6e0c4eef57b3"
+    },
+    {
+      "id": "4e8f450b17be",
+      "title": "How I use Claude Code: Separation of planning and execution",
+      "url": "https://boristane.com/blog/how-i-use-claude-code/",
+      "summary": "筆者はClaude Codeを9か月使い、計画と実装を厳格に分離するワークフローを採用。深いリサーチをresearch.mdに記録→計画承認→注釈→実装→フィードバックを繰り返し、無駄を減らし設計を制御する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-22T00:29:05.000Z",
+      "contentHash": "51c602c44513"
+    },
     {
       "id": "7116de65ce64",
       "title": "Microsoft PurviewのDLPで取得したログをSplunkでダッシュボードにしてみた | CloudNative Inc. BLOGs",
@@ -20,6 +65,24 @@
       "contentHash": "a9e489a729c3"
     },
     {
+      "id": "217c079086d8",
+      "title": "Evidence of the bouba-kiki effect in naïve baby chicks",
+      "url": "https://www.science.org/doi/10.1126/science.adq7188",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできないためリンク先の記事を取得できません。記事の本文か要点を貼っていただければ、200文字以内の日本語要約を作成します。タイトルや主要見出し、抜粋でも構いません。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-21T21:51:58.000Z",
+      "contentHash": "d6de90a74e32"
+    },
+    {
+      "id": "8a9993595820",
+      "title": "Why is Claude an Electron app?",
+      "url": "https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html",
+      "summary": "コーディングエージェントは仕様とテストから各OS向けのネイティブ実装を自動生成できるはずなのに、Claudeは依然としてElectron製デスクトップアプリだ。Electronは一つのコードで多OS対応が容易だが肥大化や性能・OS統合の欠点があり、エージェントでネイティブ化できれば理想だが現状は変わらない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-21T21:28:13.000Z",
+      "contentHash": "4af61241f799"
+    },
+    {
       "id": "543d3c0a2132",
       "title": "Arturia’s FX Collection 6 adds two new effects and a $99 intro version",
       "url": "https://www.theverge.com/tech/882852/arturia-fx-collection-6",
@@ -36,6 +99,60 @@
       "source": "Hacker News",
       "publishedAt": "2026-02-21T20:57:30.000Z",
       "contentHash": "ffe0c632f1a8"
+    },
+    {
+      "id": "9f3e6d3b4c10",
+      "title": "EDuke32 – Duke Nukem 3D (Open-Source)",
+      "url": "https://www.eduke32.com/",
+      "summary": "EDuke32はDuke Nukem 3Dの無料オープンソース移植・ゲームエンジン。Polymerでピクセル単位の動的照明やリアルタイム影など多数機能を追加。多OS対応でGPL/BUILDライセンス。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-21T20:10:13.000Z",
+      "contentHash": "66cc2d786551"
+    },
+    {
+      "id": "f6ecfb9df8b0",
+      "title": "Parse, Don't Validate and Type-Driven Design in Rust",
+      "url": "https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/",
+      "summary": "記事は「parse, don't validate」つまり検証関数に頼らず不変条件を型で表現する型駆動設計をRustで解説。0除算などの例を用い、実行時チェックより型で安全なAPI設計を勧める。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-21T19:40:06.000Z",
+      "contentHash": "7d47cf2e4a20"
+    },
+    {
+      "id": "12d3df045137",
+      "title": "Cloudflare outage on February 20, 2026",
+      "url": "https://blog.cloudflare.com/cloudflare-outage-february-20-2026/",
+      "summary": "2026年2月20日、CloudflareのBYOIP設定変更により約1,100のIPプレフィックスがBGPで撤回され、約6時間7分にわたり一部顧客のサービスや1.1.1.1が到達不能／403エラーに。攻撃ではなく誤操作が原因で、変更を戻して復旧。謝罪と再発防止を表明。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-21T19:05:31.000Z",
+      "contentHash": "81b54865fe28"
+    },
+    {
+      "id": "b9afcf6b5210",
+      "title": "Toyota Mirai hydrogen car depreciation: 65% value loss in a year",
+      "url": "https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/",
+      "summary": "CarBuzzによれば、トヨタの燃料電池車ミライが発売後1年で大幅に価値を喪失。高い新車価格に対し大幅な値引きや補助、希薄な水素ステーション網、EVとの競合で中古価格が急落した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-21T18:09:24.000Z",
+      "contentHash": "adb7170b014a"
+    },
+    {
+      "id": "ba1517868fef",
+      "title": "Personal Statement of a CIA Analyst",
+      "url": "https://antipolygraph.org/statements/statement-038.shtml",
+      "summary": "2018年、CIA応募で初めてポリグラフを受検。対策書を読み正直に臨むつもりだったが申請で体重を少し誤記。女性検査官に同意し装置に繋がれ、身体的苦痛や検査官が席を外す場面があった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-21T17:49:02.000Z",
+      "contentHash": "7c80b9c993d8"
+    },
+    {
+      "id": "0074791e2917",
+      "title": "What not to write on your security clearance form (1988)",
+      "url": "https://milk.com/wall-o-shame/security_clearance.html",
+      "summary": "著者と友人が『Secret and Urgent』で頻度分析（英語の文字頻度はe-t-a-o-n-r-i）を学び、秘語コードを作成。タイプした暗号鍵を携帯し、著者は眼鏡ケースに折りたたんで隠し、よく海で遊んでいた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-21T17:08:12.000Z",
+      "contentHash": "21473181a4d8"
     },
     {
       "id": "da8579a5176f",
@@ -144,6 +261,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-02-21T04:12:06.000Z",
       "contentHash": "7fa874c9a0a9"
+    },
+    {
+      "id": "043ead011bb9",
+      "title": "Bedrock AgentCore Runtime に MCP サーバーをデプロイして Kiro から接続する | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/agentcore_runtime-mcp",
+      "summary": "Bedrock AgentCore RuntimeへMCPサーバーをデプロイしKiroで接続する手順を検証。必要ツール（Python/AWS CLI/uv/Kiro）、AWS設定と権限、デプロイ・Kiro設定・動作確認、エンドポイント差異やトラブル対処を詳述。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-21T02:59:56.000Z",
+      "contentHash": "fe3cd50d70bb"
     },
     {
       "id": "5607ca4db430",
@@ -635,10 +761,10 @@
       "id": "91133996a37a",
       "title": "Gemini 3.1 Pro の概要",
       "url": "https://note.com/npaka/n/nc859d1b06094",
-      "summary": "Googleが高度な推論能力を備えた新モデル「Gemini 3.1 Pro」を公開。開発者・企業・消費者向けに順次提供され、ARC-AGI-2で77.1%を記録。複雑問題解決やコード生成アニメ（SVG）等に強み。",
+      "summary": "Gemini 3.1 Proは複雑な作業向けに強化されたモデルで、推論性能や長文・マルチモーダル対応が向上し、精度・速度・安全性を高めて業務利用に適した設計です。",
       "source": "npaka",
       "publishedAt": "2026-02-19T21:36:37.000Z",
-      "contentHash": "a39078dfc093"
+      "contentHash": "fe2e21a1155b"
     },
     {
       "id": "caf159004e68",
@@ -1589,10 +1715,10 @@
       "id": "3dea533a3ccc",
       "title": "Gemini 3.0 Flash によるロボット向け動画理解",
       "url": "https://note.com/npaka/n/nbb9bb8e88a75",
-      "summary": "Gemini 3.0 Flashを使ったロボット向け動画理解の紹介。ローカル動画をFiles APIでアップロードし、VLA向けに「実行主体」「動作」「開始・終了秒」を含む構造化JSONへ分割するデモと手順を解説。",
+      "summary": "元記事の本文がないため正確には要約できません。記事全文か要点、またはリンクを送ってください。送っていただければ200字以内で簡潔にまとめます。タイトルだけでの推定要約も可能です。",
       "source": "npaka",
       "publishedAt": "2026-02-17T21:35:10.000Z",
-      "contentHash": "d8520c47db22"
+      "contentHash": "5d6d9805a757"
     },
     {
       "id": "c7c49cf951e8",
@@ -2543,10 +2669,10 @@
       "id": "4a78544dc6e4",
       "title": "Transformers.js v4 の概要",
       "url": "https://note.com/npaka/n/n6c830df2349d",
-      "summary": "Hugging FaceのTransformers.js v4が公開。C++製WebGPUランタイムでブラウザ/Node/Bun/DenoのGPU加速対応、モノレポ化、esbuildで高速化・軽量化、新モデル対応、トークナイザー分離、TypeScript型強化など大幅強化。",
+      "summary": "Transformers.js v4のプレビュー版がnpmで公開されました。性能向上、WebGPU対応やバンドル縮小、API改善などを通じてブラウザでの高速・軽量な推論を目指しており、試用とフィードバックが呼びかけられています。",
       "source": "npaka",
       "publishedAt": "2026-02-14T03:21:08.000Z",
-      "contentHash": "fde038b532da"
+      "contentHash": "5ceb74db3dda"
     },
     {
       "id": "e0fdfa795d45",
@@ -3074,10 +3200,10 @@
       "id": "1fe13f389d31",
       "title": "Gemini 3 Deep Think の概要",
       "url": "https://note.com/npaka/n/nf5af7e2762de",
-      "summary": "Googleが2026年2月に発表したGemini 3の「Deep Think」は、曖昧で複雑な科学・研究・工学課題を高度推論で解くモード。ARC-AGI-2で84.6%など高成績を記録し、論文検証や結晶成長最適化、スケッチ→3Dプリントなど実務での活用が可能。GeminiアプリやAPIで利用提供。",
+      "summary": "記事本文かリンクを貼っていただけますか？本文がない場合は、公開情報に基づいて「Gemini 3 Deep Think: Advancing science, research and engineering」を200字以内で要約してお作りしますが、その場合は一部推測を含む点をご了承ください。どちらがよいですか？",
       "source": "npaka",
       "publishedAt": "2026-02-12T21:48:04.000Z",
-      "contentHash": "745352bca369"
+      "contentHash": "b4a49bd97fcd"
     },
     {
       "id": "79ea10424f3d",
@@ -3092,10 +3218,10 @@
       "id": "be2f6af9260c",
       "title": "GPT‑5.3‑Codex‑Spark の概要",
       "url": "https://note.com/npaka/n/nfce6b3d860c9",
-      "summary": "OpenAIは2026年2月、リアルタイムのコード生成・編集に特化した研究プレビュー「GPT‑5.3‑Codex‑Spark」を発表。1,000トークン/秒超・128kトークンの大コンテキスト・低遅延をCerebras専用ハードで実現し、即時補完・リファクタリング・対話的デバッグなど対話的コーディングに最適化。",
+      "summary": "記事本文かリンクを貼ってください。内容を確認して200文字以内で日本語要約します。要点だけ教えていただければそれを基に短くまとめることも可能です。",
       "source": "npaka",
       "publishedAt": "2026-02-12T21:33:38.000Z",
-      "contentHash": "9c4bc8835b1e"
+      "contentHash": "ddb2708600c0"
     },
     {
       "id": "43038d7fb030",
@@ -8874,132 +9000,6 @@
       "source": "OpenAI",
       "publishedAt": "2026-02-02T00:00:00.000Z",
       "contentHash": "3072c9c9c5c8"
-    },
-    {
-      "id": "44fb2e212c78",
-      "title": "Two kinds of AI users are emerging",
-      "url": "https://martinalderson.com/posts/two-kinds-of-ai-users-are-emerging/",
-      "summary": "AI利用者は二種類に分かれる。Claude Code等で自動化・実行環境を活用する“パワーユーザー”と、ChatGPT系の会話だけ使う層。企業では劣るM365 Copilotが標準化され利用が制限される一方、Microsoftが内部でClaude Codeを導入するなど格差が明白。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-01T23:45:18.000Z",
-      "contentHash": "1c3dc6c2ff4f"
-    },
-    {
-      "id": "4b163a9dea20",
-      "title": "Show HN: NanoClaw – “Clawdbot” in 500 lines of TS with Apple container isolation",
-      "url": "https://github.com/gavrielc/nanoclaw",
-      "summary": "Appleコンテナで安全に動く個人用Claudeアシスタント。OpenClawより軽量で1プロセス・少数ファイル、実際のLinuxコンテナで隔離。理解・改変しやすく、Claude Codeがセットアップと操作を案内。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-01T22:49:22.000Z",
-      "contentHash": "20dd4158066f"
-    },
-    {
-      "id": "2a00afe62e3d",
-      "title": "Margin Call",
-      "url": "https://asymco.com/2026/02/01/margin-call-3/",
-      "summary": "アップルは前四半期に総利益率48.2％（ガイダンス上限超）、製品40.7％、サービス76.5％と過去最高水準を記録。ガイダンスは48–49％。決算説明はマージンに集中し、先端ノードの供給制約がある一方でメモリの影響はQ1で最小とティム・クックが述べた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-01T21:33:02.000Z",
-      "contentHash": "51366b23968f"
-    },
-    {
-      "id": "3a3154642a3b",
-      "title": "Defeating a 40-year-old copy protection dongle",
-      "url": "https://dmitrybrant.com/2026/02/01/defeating-a-40-year-old-copy-protection-dongle",
-      "summary": "ソフト考古学で40年前のコピー防止ドングルを解析。会計事務所のRPG製古ソフトはWindows98のDOS上で並列ポート接続のハードドングル（Software Security Inc., Stamford CT、\"RUNTIME\"表記）を要求。まずPCのディスクイメージを作成してエミュレータで動作させた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-01T21:30:51.000Z",
-      "contentHash": "729f6f87a1dd"
-    },
-    {
-      "id": "073468a9ee11",
-      "title": "Antigravity で Blender MCP を試す",
-      "url": "https://note.com/npaka/n/naa60a38c2938",
-      "summary": "AntigravityでBlender MCPを試用。MCP Servers→Manage MCPs→View raw configでmcp_config.jsonに\n{\"mcpServers\":{\"blender\":{\"command\":\"uvx\",\"args\":[\"blender-mcp\"]}}}\nを追加し再起動、Enableで有効化。未使用時は無効化推奨。Geminiは空間把握でカメラ指示が通りやすい。",
-      "source": "npaka",
-      "publishedAt": "2026-02-01T20:57:09.000Z",
-      "contentHash": "f0f5b7331234"
-    },
-    {
-      "id": "c15e5130ee02",
-      "title": "My iPhone 16 Pro Max produces garbage output when running MLX LLMs",
-      "url": "https://journal.rafaelcosta.me/my-thousand-dollar-iphone-cant-do-math/",
-      "summary": "iPhone 16 Pro MaxでMLX LLMを動かすとテンソル出力が桁違いに誤り、iPhone 15 ProやMacBook Proでは正常。Neural Engineなどのハード欠陥を疑い、支出管理アプリ検証中に原因究明に苦労したという報告。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-01T20:51:56.000Z",
-      "contentHash": "3484161499a4"
-    },
-    {
-      "id": "2d8d4214149e",
-      "title": "1-Click RCE to steal your Moltbot data and keys",
-      "url": "https://depthfirst.com/post/1-click-rce-to-steal-your-moltbot-data-and-keys",
-      "summary": "当社は世界のソフトを守るため4000万ドルのシリーズAを調達。セキュリティチームdepthfirstが、OpenClaw（旧Moltbot、10万人利用）で重大な論理不備を発見。gatewayUrl保存→即接続→authToken送出の連鎖により、悪意あるページ訪問だけで1クリックRCEが成立する脆弱性を実証した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-01T19:47:47.000Z",
-      "contentHash": "cdeb651c071d"
-    },
-    {
-      "id": "efc0df79c926",
-      "title": "TIL: Apple Broke Time Machine Again on Tahoe",
-      "url": "https://taoofmac.com/space/til/2026/02/01/1630",
-      "summary": "Time MachineがSynology NAS（SMB）へのバックアップを約2カ月 silently 停止。原因はmacOS（Tahoe）のSMBデフォルト変更。対策はMacの/etc/nsmb.confに署名などの設定を追加し、.sparsebundle名の非ASCII削除やNAS側設定確認。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-01T19:38:45.000Z",
-      "contentHash": "037a36a583ad"
-    },
-    {
-      "id": "9b7ece88ed11",
-      "title": "Bill Gates says accusations contained in Epstein files are ‘absolutely absurd’",
-      "url": "https://www.theverge.com/tech/871879/bill-gates-epstein-files-absolutely-absurd",
-      "summary": "エプスタイン関連の文書に、ゲイツがSTDに感染しメリンダに密かに抗生物質を与えようとした旨や既婚女性や「ロシアの女性」との関係を示すメールが含まれる。ゲイツ側は「全く根拠のない虚偽」と否定し、文書はエプスタインの陥れようとする試みを示すと主張している。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-01T19:24:53.000Z",
-      "contentHash": "021b06108c82"
-    },
-    {
-      "id": "d9a09d5e18ab",
-      "title": "Teaching my neighbor to keep the volume down",
-      "url": "https://idiallo.com/blog/teaching-my-neighbor-to-keep-the-volume-down",
-      "summary": "引っ越してDishのRFリモコン付きDVRを導入。便利さを喜んだが、隣人も同じRFリモコンで電波干渉が起き、勝手にチャンネルや音量が変わる問題に悩まされ、リモコンを叩いたり電池を抜いたり、本体を抜いて対処を試みた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-01T19:00:46.000Z",
-      "contentHash": "ddb9539c4fcb"
-    },
-    {
-      "id": "bbe0deaf8782",
-      "title": "Shedding light on Iran’s longest internet blackout",
-      "url": "https://www.theverge.com/policy/871848/iran-blackout-internet-mahsa-alimardani",
-      "summary": "記事は、1月の抗議を受けイランで史上最長のインターネット遮断が実施され、情報流通が遅延する中でも抗議は続いたと報告。国家による激しい弾圧で死者は数千〜数万と推定され、著者は専門家に取材して現状を伝える。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-01T18:30:00.000Z",
-      "contentHash": "de7a459ab229"
-    },
-    {
-      "id": "d57e0ce9d1e5",
-      "title": "You need to listen to M83’s icy post-rock record Dead Cities, Red Seas &#038; Lost Ghosts",
-      "url": "https://www.theverge.com/column/871847/m83-dead-cities-red-seas-lost-ghosts",
-      "summary": "M83の2nd『Dead Cities, Red Seas & Lost Ghosts』は、ニコラ在籍時のインスト寄りポストロック作。MogwaiやGodspeed風の反復的な大作感を、ドラムマシンやアナログシンセ、圧縮ギターで冷たく儚い境界的な音像に仕立てている。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-01T18:00:00.000Z",
-      "contentHash": "1d0c035885f3"
-    },
-    {
-      "id": "9e86dee1cc31",
-      "title": "Apple I Advertisement (1976)",
-      "url": "http://apple1.chez.com/Apple1project/Gallery/Gallery.htm",
-      "summary": "MOS 6502搭載のシングル基板マイクロコンピュータ「Apple」。内蔵ビデオ端末（24行×40桁、1KBビデオメモリ）とキーボード対応、最大8KBのRAM。組立済・電源内蔵で簡単起動、$666.66（4KB含）でテレタイプ不要の低価格端末を実現。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-01T17:36:57.000Z",
-      "contentHash": "a3fdb5aa574f"
-    },
-    {
-      "id": "649f0084f41b",
-      "title": "This tiny pocket-friendly e-reader is packed with frustration and potential",
-      "url": "https://www.theverge.com/tech/870583/xteink-x4-e-ink-reader-books-hands-on",
-      "summary": "Andrew Liszewski記者は、5インチKobo Miniより小さい$69の超小型電子書籍端末Xteink X4はポケットに収まる一方で、タッチではなくボタン操作で直感的でなく機能も限られると指摘。ただしユーザーコミュニティが改良を進めているため可能性がある。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-01T16:00:00.000Z",
-      "contentHash": "4ba62d37a6b9"
     }
   ]
 }
