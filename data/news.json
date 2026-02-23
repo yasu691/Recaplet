@@ -1,6 +1,60 @@
 {
-  "generatedAt": "2026-02-23T09:03:04.355Z",
+  "generatedAt": "2026-02-23T17:17:08.717Z",
   "items": [
+    {
+      "id": "a5cb8f6835ed",
+      "title": "Xbox shakeup: Phil Spencer and Sarah Bond are leaving Microsoft",
+      "url": "https://www.theverge.com/games/882363/xbox-microsoft-phil-spencer-out",
+      "summary": "XboxトップのPhil Spencerが約40年勤務の末に退任、Xbox社長のSarah Bondも退社。後任はCoreAI責任者のAsha SharmaがMicrosoft Gaming CEOに就き、Matt BootyがEVP兼チーフコンテンツオフィサーに昇格とNadellaが2月20日に発表。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-23T15:10:49.000Z",
+      "contentHash": "6ccf64b7e851"
+    },
+    {
+      "id": "ccba1d864c7a",
+      "title": "Hank Green will gladly take billionaire money for education videos",
+      "url": "https://www.theverge.com/podcast/882021/hank-green-complexly-non-profit-youtube-ai-algorithms-interview",
+      "summary": "ハンク・グリーンが弟ジョンと創業した教育動画会社Complexlyを非営利化し所有権を放棄。YouTubeやAI、資金調達（富豪の出資も歓迎）を含め、倫理的で持続可能なメディア運営について語る。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-23T15:00:00.000Z",
+      "contentHash": "09be1e9aa794"
+    },
+    {
+      "id": "9bf884f78118",
+      "title": "The peculiar case of Japanese web design (2022)",
+      "url": "https://sabrinas.space",
+      "summary": "2013年の指摘通り日本のウェブはミニマルと対照的に色彩や文字が過密。著者は世界の人気サイト2671枚のスクショをAI解析し、日本のサイトは空白暗色を避け明るく文字・画像密度が高い傾向を確認。文字体系や都市風景、言語・消費行動が原因候補。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-23T14:28:39.000Z",
+      "contentHash": "93bb8aa27430"
+    },
+    {
+      "id": "2ba0123974d1",
+      "title": "The Age Verification Trap: Verifying age undermines everyone's data protection",
+      "url": "https://spectrum.ieee.org/age-verification",
+      "summary": "年齢確認は子ども保護を目的に導入されるが、個人データを集中させ追跡・漏洩・監視リスクを高め、誰のデータ保護も損ない、真の解決にならないと論じる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-23T14:22:39.000Z",
+      "contentHash": "76a61a9fc198"
+    },
+    {
+      "id": "8c80652453a6",
+      "title": "Hetzner (European hosting provider) to increase prices by up to 38%",
+      "url": "https://old.reddit.com/r/BuyFromEU/comments/1rce0lf/hetzner_european_hosting_provider_to_increase/",
+      "summary": "記事の中身にアクセスできないため要約できません。記事本文（または主要部分）を貼っていただけますか？貼っていただければ200文字以内で日本語要約します。必要ならHNの議論も要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-23T11:44:10.000Z",
+      "contentHash": "3179f70fb471"
+    },
+    {
+      "id": "3c3132459343",
+      "title": "Elsevier shuts down its finance journal citation cartel",
+      "url": "https://www.chrisbrunet.com/p/elsevier-shuts-down-its-finance-journal",
+      "summary": "Elsevierが査読済とされた経済・金融論文12件を撤回。対象はInternational Review of Financial Analysisなどで、全てトリニティのBrian M. Lucey共著。編集職7件削除で、エルゼビア内の“エリート論文ミル”疑惑が露呈。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-23T08:22:34.000Z",
+      "contentHash": "8c6e1354224d"
+    },
     {
       "id": "6df067ae5887",
       "title": "GitHub リポジトリに「Agents」タブが登場！Copilot coding agent の管理と連携がより便利に | サーバーワークスエンジニアブログ",
@@ -36,6 +90,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-02-23T00:00:00.000Z",
       "contentHash": "0a3d4cc94507"
+    },
+    {
+      "id": "2cfab68296c9",
+      "title": "【AWS】API Gateway（REST API）のアクセスログを出力する方法 | Techfirm Cloud Architect Blog",
+      "url": "https://techblog.techfirm.co.jp/entry/aws-api-gateway-access-logs-output",
+      "summary": "API Gateway（REST）のアクセスログをCloudWatch Logsへ出力する手順。IAMロール（AmazonAPIGatewayPushToCloudWatchLogs）作成→API Gateway設定でロール指定（リージョン）→ロググループ作成→各ステージでカスタムアクセスログ（ロググループARNと形式）を設定。可観測性・監査性向上。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-23T00:00:00.000Z",
+      "contentHash": "f98cbc455041"
     },
     {
       "id": "6b2b7886b035",
@@ -149,10 +212,10 @@
       "id": "44e0e5c14f2e",
       "title": "Ollama で NVIDIA Nemotron 2 Nano 9B Japanese を試す",
       "url": "https://note.com/npaka/n/n203120c2ef78",
-      "summary": "OllamaでNVIDIA Nemotron 2 Nano 9B Japaneseを検証。9Bパラメータの日本語特化SLMで高速・高効率、商用利用可。OllamaではGGUFを基にModelfile（FROM/TEMPLATE/PARAMETER）で入力整形やツール呼び出しを設定して利用。",
+      "summary": "Ollama上でNVIDIAの日本語モデル「Nemotron 2 Nano 9B」を実際に試した報告記事。導入手順、動作確認、応答品質や速度、設定の注意点、使用感と結論をまとめています。",
       "source": "npaka",
       "publishedAt": "2026-02-22T05:53:35.000Z",
-      "contentHash": "5f4116dd076e"
+      "contentHash": "747a1a9fa6cc"
     },
     {
       "id": "c182b6556857",
@@ -450,15 +513,6 @@
       "source": "The Verge",
       "publishedAt": "2026-02-20T22:19:29.000Z",
       "contentHash": "a961e72ce681"
-    },
-    {
-      "id": "a5cb8f6835ed",
-      "title": "Xbox shakeup: Phil Spencer and Sarah Bond are leaving Microsoft",
-      "url": "https://www.theverge.com/games/882363/xbox-microsoft-phil-spencer-out",
-      "summary": "MicrosoftはXbox長年責任者のPhil Spencerが退職、Xbox社長のSarah Bondも退任すると発表。Asha SharmaがMicrosoft Gaming CEOに、Matt BootyがEVP兼チーフコンテンツオフィサーに昇格。スタジオの解雇や組織変更はないと強調。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-20T21:29:01.000Z",
-      "contentHash": "9e0d98fdbac9"
     },
     {
       "id": "20e9927a4e21",
@@ -3479,10 +3533,10 @@
       "id": "720d05f84e16",
       "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
-      "summary": "Gemini 3の専用推論モード「Deep Think」を大幅にアップグレードしてリリースします。",
+      "summary": "Gemini 3の推論モード「Deep Think」が科学・研究・工学向けに大幅強化されました。Google AI Ultra加入者はGeminiアプリで利用可能。研究者や企業はGemini API経由で早期アクセスを申請できます。生成AIは実験段階です。",
       "source": "Gemini",
       "publishedAt": "2026-02-12T16:13:00.000Z",
-      "contentHash": "a3c8513ad9be"
+      "contentHash": "dc18bc029390"
     },
     {
       "id": "8e8c7882d708",
@@ -6917,10 +6971,10 @@
       "id": "89b03a9e2a92",
       "title": "Watch our new Gemini ad ahead of football’s biggest weekend",
       "url": "https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/",
-      "summary": "Googleが2月8日のフットボール「ビッグゲーム」で放映する新しい広告を紹介する記事。広告の内容や狙い、制作背景、見どころなどを詳しく解説しています。",
+      "summary": "Googleがビッグゲーム前に新しいGemini広告を公開。全国放映の「New Home」では母子がNano Banana搭載の画像編集で空室を可視化し、Google Photosの思い出も活用。他のCMはヒューズボックス検索やヘア試着など即時支援例を紹介。",
       "source": "Gemini",
       "publishedAt": "2026-02-05T14:30:00.000Z",
-      "contentHash": "43189ba67742"
+      "contentHash": "60ea880be7f9"
     },
     {
       "id": "7ccf3e42b823",
@@ -8946,60 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-02-02T06:00:00.000Z",
       "contentHash": "fa9cfece55a3"
-    },
-    {
-      "id": "f4bbf1c3572c",
-      "title": "Snowflake and OpenAI partner to bring frontier intelligence to enterprise data",
-      "url": "https://openai.com/index/snowflake-partnership",
-      "summary": "OpenAIとSnowflakeが2億ドルで提携し、最先端AIを企業データに組み込む。Snowflake上でAIエージェントや解析・洞察を直接利用できるようにする契約を締結。",
-      "source": "OpenAI",
-      "publishedAt": "2026-02-02T06:00:00.000Z",
-      "contentHash": "df5181fe28c6"
-    },
-    {
-      "id": "c6a89b68ed5d",
-      "title": "Ansibleを使用してNW機器設定を自動化する（PaloAlto-セキュリティポリシー編②） | TechHarmony",
-      "url": "https://blog.usize-tech.com/ansible-automation-paloalto-secpolicy-2/",
-      "summary": "前回記事を改良し、PaloAltoのセキュリティポリシー設定をAnsibleで自動化。設定をJSON（Survey）で入力可能にしてインベントリ・認証を設定し、paloaltonetworks.panos.panos_security_ruleで登録/変更/削除を行う。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-02T05:49:50.000Z",
-      "contentHash": "65fc36e1f97c"
-    },
-    {
-      "id": "8416518af6ce",
-      "title": "LifeKeeperのバージョンアップやってみた。(前編) | TechHarmony",
-      "url": "https://blog.usize-tech.com/lifekeeper-versionup-1/",
-      "summary": "LifeKeeperのバージョンアップ前編。サポートライフサイクル（3年フルサポート等）やOS/ミドルウェアの認定情報を確認。Linuxはメジャー差分が3以上だと中間バージョン経由が必要、Windowsは直接可。バージョン変更申請で媒体取得、設定初期化等の注意事項を確認する必要あり。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-02T05:47:11.000Z",
-      "contentHash": "3feca67d34ad"
-    },
-    {
-      "id": "f68f2cb1b67d",
-      "title": "LifeKeeper　DRサイトのライセンスをどう考えるか？ | TechHarmony",
-      "url": "https://blog.usize-tech.com/lifekeeper-dr-license-count/",
-      "summary": "LifeKeeperのライセンスはサーバ単位でカウントし、仮想環境ではインストールする各VM分が必要（物理台数ではない）。ライセンスの種類や数え方を正しく理解し、DRサイト構築の重要性と費用対策（仮想サーバ向け割引等）に注意する必要がある。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-02T05:43:29.000Z",
-      "contentHash": "c990b9fd3a94"
-    },
-    {
-      "id": "63fd142ce1a9",
-      "title": "社内でAI活用のためのハッカソン第2回を開催しました！ | CAMPFIRE 開発チーム",
-      "url": "https://note.com/campfire_dev/n/n658325676196",
-      "summary": "CAMPFIREは2025年末（12/26）に社内で第2回AIハッカソンを開催。AI活用の機能開発や探索を目的に、学習機会と短時間での創意工夫を重視。運営とチームの事前準備を経て、エンジニア以外も参加し5時間弱で多様な成果を発表した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-02T05:38:26.000Z",
-      "contentHash": "a6c39cddc215"
-    },
-    {
-      "id": "3fc6605cc650",
-      "title": "Starlink mini の持ち運び、三脚アダプターは自作がお勧め？ | IIJ Engineers Blog",
-      "url": "https://eng-blog.iij.ad.jp/archives/34958",
-      "summary": "Starlink miniの2024年型と2025年型でパイプアダプターの内径・深さが変わり、市販の三脚アダプターが合わない問題が判明。著者は1/4インチネジ金具と直径約5cmの木柱で自作し、軽く固定しやすいと報告。制作は自己責任で。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-02T05:35:37.000Z",
-      "contentHash": "ee1726419fcf"
     }
   ]
 }
