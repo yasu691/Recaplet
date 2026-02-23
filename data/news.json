@@ -1,6 +1,60 @@
 {
-  "generatedAt": "2026-02-23T02:54:13.900Z",
+  "generatedAt": "2026-02-23T09:03:04.355Z",
   "items": [
+    {
+      "id": "6df067ae5887",
+      "title": "GitHub リポジトリに「Agents」タブが登場！Copilot coding agent の管理と連携がより便利に | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/github-agents-tab",
+      "summary": "GitHubリポジトリにAgentsタブが追加され、リポジトリ内でCopilot coding agentのセッションやタスク管理が可能に。coding agentはGitHub Actions上で非同期に自律的にコードを書きドラフトPRを作成し、従来のMission Controlより使いやすくなった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-23T04:03:33.000Z",
+      "contentHash": "6eaf84347729"
+    },
+    {
+      "id": "3f1905aa8f8c",
+      "title": "大量にある社内の CI/CD 未整備な小規模アプリを SKILLS でなんとかしたい | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/02/23/123000",
+      "summary": "社内で大量にある小規模Lambdaアプリが手元のAWSクレデンシャル依存で放置されているため、Serverless v3→oss-serverless移行とGitHub ActionsでのCI/CD整備を行い、SKILLSテンプレで「ローカルに共用クレデンシャルを持たずにデプロイできる」仕組みを標準化・横展開する試み。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-23T03:30:00.000Z",
+      "contentHash": "727c835b6d0b"
+    },
+    {
+      "id": "5b58e407f28a",
+      "title": "DreamDojo - 人間動画から物理世界を学ぶロボット向け基盤モデル",
+      "url": "https://note.com/npaka/n/n821009d4de9b",
+      "summary": "DreamDojoは44,000時間の人間一人称動画から物理世界を学ぶロボット向け世界モデル。ラベルなしで潜在アクションを獲得し、蒸留で軽量化してリアルタイム制御と未知環境への汎化を実現し、ロボット専用データ依存を低減する。",
+      "source": "npaka",
+      "publishedAt": "2026-02-23T01:28:57.000Z",
+      "contentHash": "a2e935d4e668"
+    },
+    {
+      "id": "ffbdb9b018e3",
+      "title": "Google Workspaceのストレージプールの仕組み | G-gen Tech Blog",
+      "url": "https://blog.g-gen.co.jp/entry/google-workspace-storage-pool-explained",
+      "summary": "Google Workspaceのストレージプールは、契約ライセンス数に応じた合算ストレージを組織で共有する仕組みです。Drive/Gmail/Photosや2022年5月2日以降のGoogle形式ファイルが容量対象。エディション別のユーザー当たり上限（例：Business Standard＝2TiB/ユーザー）を管理コンソールで確認でき、ユーザー・部門・共有ドライブごとの上限設定や、ライセンス追加・上位版へのアップグレード・追加購入で容量を増やせます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-23T00:00:00.000Z",
+      "contentHash": "0a3d4cc94507"
+    },
+    {
+      "id": "6b2b7886b035",
+      "title": "Instanaで実現するSREのベストプラクティス《第6章》パフォーマンスの継続的改善 | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n1bd11cfd8f76",
+      "summary": "Instanaを活用したSREのパフォーマンス継続改善を解説。メトリクス・分散トレーシング・AI異常検知・ログでボトルネック特定し、現状把握→需要予測→計画→評価のキャパシティプランを実施。改善点の特定・優先付け・小単位でのリファクタリングを推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-22T23:30:00.000Z",
+      "contentHash": "8d2315d9d2ad"
+    },
+    {
+      "id": "a8221ea67020",
+      "title": " Platform Engineeringの生存戦略：認知負荷のブラックホールからチームを救い出す技術 | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/02/23/083000",
+      "summary": "プラットフォームチームが開発者の負担を引き受けすぎると認知負荷が爆発する。複雑さは消えず移動するため、カプセル化とパターン化で総量を下げ、Team Topologiesでインターフェース設計、X‑as‑a‑Service（セルフサービス）と期限付きEnablement、InnerSourceで実装責任を分散することが持続的な生存戦略だ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-22T23:30:00.000Z",
+      "contentHash": "d16426d2f23d"
+    },
     {
       "id": "70ef6d929253",
       "title": "Samsung is adding Perplexity to Galaxy AI",
@@ -9,6 +63,15 @@
       "source": "The Verge",
       "publishedAt": "2026-02-22T22:15:30.000Z",
       "contentHash": "3b6d96ac896b"
+    },
+    {
+      "id": "f297e357962b",
+      "title": "視覚優位・聴覚優位 × 同時処理・継次処理　それぞれの特性に合わせて NotebookLM を使い分けるヒント | ユニファ開発者ブログ",
+      "url": "https://tech.unifa-e.com/entry/2026/02/23/070000",
+      "summary": "ユニファPdMが、視覚優位／聴覚優位と同時処理／継次処理を「偏り」と捉え、NotebookLMの出力（図表や会話調スクリプト、音声入出力）を特性別に使い分ける具体的なヒントを示す。WISC/WAISで傾向確認可。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-22T22:00:00.000Z",
+      "contentHash": "cbce0704cdd9"
     },
     {
       "id": "0e756978993a",
@@ -48,21 +111,21 @@
     },
     {
       "id": "9b3a12f3b67b",
-      "title": "Vibe camera shootout: Camp Snap Pro vs. Flashback One35 V2",
+      "title": "Retro camera shootout: Camp Snap Pro vs. Flashback One35 V2",
       "url": "https://www.theverge.com/gadgets/882641/camp-snap-pro-flashback-one35-v2-digicam-camera-comparison-review",
-      "summary": "若者の間で再評価される安価なデジタル「使い捨て風」カメラを比較。Camp Snap ProとFlashback One35 V2を試し、手軽さとローファイな写りを狙う試みや、単一ボタン・画面なしのCamp Snap（約$70）など特徴を紹介。",
+      "summary": "使い捨てカメラ風の味をデジタルで再現する低価格機、Camp Snap ProとFlashback One35 V2を比較。どちらも遊び心ある写りだが、Flashback One35 V2の方が完成度が高く成功している、という結論。",
       "source": "The Verge",
       "publishedAt": "2026-02-22T13:00:00.000Z",
-      "contentHash": "cab9d0593478"
+      "contentHash": "0576158ba68b"
     },
     {
       "id": "4832441fb9dc",
       "title": "Attention Media ≠ Social Networks",
       "url": "https://susam.net/attention-media-vs-social-networks.html",
-      "summary": "初期のSNSは知人との交流中心で通知も意味があったが、2012〜2016年頃に無限スクロールや見せかけの通知が導入され、通知が利用者でなくプラットフォームの注意を引くために使われ、社会性が希薄化した。",
+      "summary": "記事は、従来のマスメディアとソーシャルネットの「注意」の取り方の違いを論じる。マスは共有される公共的注意と共通認識を生む一方、SNSは個別最適化で視聴時間と感情反応を最大化し、分断・偏向・偽情報・操作を助長する。収益モデルやアルゴリズムの見直し、公共メディア強化などの対策を提言している。",
       "source": "Hacker News",
       "publishedAt": "2026-02-22T12:36:46.000Z",
-      "contentHash": "c83828d12b25"
+      "contentHash": "f9e6d1bb4c53"
     },
     {
       "id": "c01a665241f1",
@@ -86,10 +149,10 @@
       "id": "44e0e5c14f2e",
       "title": "Ollama で NVIDIA Nemotron 2 Nano 9B Japanese を試す",
       "url": "https://note.com/npaka/n/n203120c2ef78",
-      "summary": "Ollama上でNVIDIAの日本語特化9Bモデル「Nemotron-Nano-9B-v2-Japanese」を検証。高効率・高速なハイブリッド設計で商用利用可。OllamaではModelfileでGGUFに含まれない実行設定やテンプレート（System/Tools/TOOLCALL形式など）を定義して運用する点を紹介。",
+      "summary": "OllamaでNVIDIA Nemotron 2 Nano 9B Japaneseを検証。9Bパラメータの日本語特化SLMで高速・高効率、商用利用可。OllamaではGGUFを基にModelfile（FROM/TEMPLATE/PARAMETER）で入力整形やツール呼び出しを設定して利用。",
       "source": "npaka",
       "publishedAt": "2026-02-22T05:53:35.000Z",
-      "contentHash": "8552038a6f95"
+      "contentHash": "5f4116dd076e"
     },
     {
       "id": "c182b6556857",
@@ -167,10 +230,10 @@
       "id": "217c079086d8",
       "title": "Evidence of the bouba-kiki effect in naïve baby chicks",
       "url": "https://www.science.org/doi/10.1126/science.adq7188",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできないためリンク先の記事を取得できません。記事の本文か要点を貼っていただければ、200文字以内の日本語要約を作成します。タイトルや主要見出し、抜粋でも構いません。",
+      "summary": "申し訳ありませんが、外部URLの内容を直接取得できません。記事本文か主要部分を貼っていただくか、要点を教えてください。200文字以内で日本語要約します。HNコメントの要約も可能です。",
       "source": "Hacker News",
       "publishedAt": "2026-02-21T21:51:58.000Z",
-      "contentHash": "d6de90a74e32"
+      "contentHash": "85c056819910"
     },
     {
       "id": "8a9993595820",
@@ -203,10 +266,10 @@
       "id": "9f3e6d3b4c10",
       "title": "EDuke32 – Duke Nukem 3D (Open-Source)",
       "url": "https://www.eduke32.com/",
-      "summary": "EDuke32はDuke Nukem 3Dの無料オープンソース移植・ゲームエンジン。Polymerでピクセル単位の動的照明やリアルタイム影など多数機能を追加。多OS対応でGPL/BUILDライセンス。",
+      "summary": "EDuke32公式サイトの記事紹介。Duke Nukem 3Dのオープンソース移植EDuke32の開発状況や最新版情報、互換性・機能強化、導入方法がまとめられており、HNで利用法や歴史・コミュニティ、法的話題が議論された。",
       "source": "Hacker News",
       "publishedAt": "2026-02-21T20:10:13.000Z",
-      "contentHash": "66cc2d786551"
+      "contentHash": "5a5df799c5d1"
     },
     {
       "id": "f6ecfb9df8b0",
@@ -860,10 +923,10 @@
       "id": "91133996a37a",
       "title": "Gemini 3.1 Pro の概要",
       "url": "https://note.com/npaka/n/nc859d1b06094",
-      "summary": "Googleは高い推論能力を持つ新モデル「Gemini 3.1 Pro」を公開。開発者・企業・消費者向けに順次展開され、ARC-AGI-2で77.1%を記録。複雑問題解決やデータ統合、コード生成によるアニメーションSVG作成などに強み。",
+      "summary": "Gemini 3.1 Proは、複雑なタスク向けに推論力・長文理解・マルチモーダル性能を強化した高性能モデルです。コード生成や安全性の改善、業務利用に向けた高速・高精度なAPI提供でプロ用途に最適化されています。",
       "source": "npaka",
       "publishedAt": "2026-02-19T21:36:37.000Z",
-      "contentHash": "5288d2077af6"
+      "contentHash": "fe2e21a1155b"
     },
     {
       "id": "caf159004e68",
@@ -1712,6 +1775,15 @@
       "contentHash": "e47feaf8ea16"
     },
     {
+      "id": "55bc17d8de5d",
+      "title": "Introducing EVMbench",
+      "url": "https://openai.com/index/introducing-evmbench",
+      "summary": "OpenAIとParadigmがEVMbenchを発表。AIエージェントが高重大度のスマートコントラクト脆弱性を検出・修正・悪用する能力を評価するベンチマークで、セキュリティ評価の基準を提供します。",
+      "source": "OpenAI",
+      "publishedAt": "2026-02-18T00:00:00.000Z",
+      "contentHash": "966108aed4fa"
+    },
+    {
       "id": "5a9857b288b5",
       "title": "システム刷新という話　第３話 | くらしのマーケット開発ブログ",
       "url": "https://tech.curama.jp/entry/2026/02/18/084912",
@@ -1814,10 +1886,10 @@
       "id": "3dea533a3ccc",
       "title": "Gemini 3.0 Flash によるロボット向け動画理解",
       "url": "https://note.com/npaka/n/nbb9bb8e88a75",
-      "summary": "Gemini 3.0 Flashを用いたロボット向け動画理解を紹介。Alohaロボット動画をアップロードし、各区間を「実行主体・動作・開始秒・終了秒」のJSONで出力してVLA向けに構造化するデモや導入手順、API設定を解説。",
+      "summary": "記事本文を貼っていただけますか？正確に200字以内で要約します。  \n仮要約：Gemini 3.0 Flashを活用したロボティクス向け動画理解を紹介。軽量で高速なマルチモーダル処理により、リアルタイム認識・動作決定の精度と効率を向上させる点を中心に説明しています。",
       "source": "npaka",
       "publishedAt": "2026-02-17T21:35:10.000Z",
-      "contentHash": "d8520c47db22"
+      "contentHash": "5d6d9805a757"
     },
     {
       "id": "c7c49cf951e8",
@@ -3299,10 +3371,10 @@
       "id": "1fe13f389d31",
       "title": "Gemini 3 Deep Think の概要",
       "url": "https://note.com/npaka/n/nf5af7e2762de",
-      "summary": "Googleは2026年2月、Gemini 3の高度推論モード「Deep Think」を強化。曖昧で複雑な科学・研究・工学課題に対し深い推論や3D出力で解決し、ARC-AGI-2で84.6%等の高評価。論文検証・実験最適化・設計支援に活用可能で、アプリやAPIで提供。",
+      "summary": "記事本文かリンクを貼ってください。内容を確認して200文字以内で日本語要約します。もし今すぐ仮の要約が欲しい場合は、その旨を教えてください（ただし正確さは本文確認後に保証します）。",
       "source": "npaka",
       "publishedAt": "2026-02-12T21:48:04.000Z",
-      "contentHash": "745352bca369"
+      "contentHash": "b4a49bd97fcd"
     },
     {
       "id": "79ea10424f3d",
@@ -3407,10 +3479,10 @@
       "id": "720d05f84e16",
       "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
-      "summary": "Gemini 3の専門推論モード「Deep Think」が科学・研究・工学向けに大幅改良。Google AI Ultra加入者はGeminiアプリで利用可能。研究者・技術者・企業はGemini APIの早期アクセスに申請できる（生成AIは実験的）。",
+      "summary": "Gemini 3の専用推論モード「Deep Think」を大幅にアップグレードしてリリースします。",
       "source": "Gemini",
       "publishedAt": "2026-02-12T16:13:00.000Z",
-      "contentHash": "dc18bc029390"
+      "contentHash": "a3c8513ad9be"
     },
     {
       "id": "8e8c7882d708",
@@ -3677,10 +3749,10 @@
       "id": "e91d9cd2022e",
       "title": "ハーネスエンジニアリング - エージェントファーストの世界で Codex を活用する",
       "url": "https://note.com/npaka/n/nb4c5488e82fd",
-      "summary": "OpenAIチームがCodex（GPT‑5）エージェントのみでプロダクトを構築。手作業の約10分の1の時間で、5か月で約100万行・1,500PRを3人で運用。エンジニアは直接コーディングせず、環境設計・目標定義・エージェントへの指示・フィードバックに役割が再定義された。",
+      "summary": "記事は、エージェント中心の世界での「ハーネスエンジニアリング」を紹介。Codexを活用し、ツール連携、プロンプト設計、実行環境、監視・評価、ガードレールなどを整備して安全で信頼できる自律エージェントを構築する手法と課題を解説します。",
       "source": "npaka",
       "publishedAt": "2026-02-11T22:13:03.000Z",
-      "contentHash": "031f0e06514f"
+      "contentHash": "b5d2da1a7e82"
     },
     {
       "id": "efbd16daf886",
@@ -6845,10 +6917,10 @@
       "id": "89b03a9e2a92",
       "title": "Watch our new Gemini ad ahead of football’s biggest weekend",
       "url": "https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/",
-      "summary": "Googleはビッグゲーム前にGeminiの広告シリーズを公開。全国放映の「New Home」では母子がNano Banana搭載の画像編集で空室写真をテキスト操作し模様替えを即可視化、Googleフォトの思い出活用や車のヒューズ位置確認、ヘアスタイル試着など日常の課題解決も紹介。",
+      "summary": "Googleが2月8日のフットボール「ビッグゲーム」で放映する新しい広告を紹介する記事。広告の内容や狙い、制作背景、見どころなどを詳しく解説しています。",
       "source": "Gemini",
       "publishedAt": "2026-02-05T14:30:00.000Z",
-      "contentHash": "60ea880be7f9"
+      "contentHash": "43189ba67742"
     },
     {
       "id": "7ccf3e42b823",
@@ -8928,78 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-02-02T05:35:37.000Z",
       "contentHash": "ee1726419fcf"
-    },
-    {
-      "id": "5d32f2d711db",
-      "title": "Leaked Chats Expose the Daily Life of a Scam Compound's Enslaved Workforce",
-      "url": "https://www.wired.com/story/the-red-bull-leaks/",
-      "summary": "申し訳ありませんが外部リンクには直接アクセスできません。記事本文を貼るか主要な抜粋を教えてください。いただければ200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-02T05:10:59.000Z",
-      "contentHash": "c38804f6b154"
-    },
-    {
-      "id": "05d8f6bc24ed",
-      "title": "[AIブログライター] 第4回：Claude code sub-agentとskillsのバイブコーディングで、Pair Trading戦略の検証と記事の自動生成 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-      "url": "https://recruit.group.gmo/engineer/jisedai/blog/ai_blog_writer_4_claude-code_sub-agent_skills_sdk-agent_pair-trading/",
-      "summary": "Claude codeのsub-agentとskillsを使い、ペアトレード戦略を検証しつつ記事を自動生成する仕組みを解説。調査・執筆・校正を分担し最小限のコーディングで品質を担保、Human-in-the-Loopを目指す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-02T04:30:40.000Z",
-      "contentHash": "8cc4da0bf777"
-    },
-    {
-      "id": "8697929c3f27",
-      "title": "[AIブログライター] 第3回：Claude code+n8n SkillsのバイブコーディングでCore-Satellite記事を自動生成 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-      "url": "https://recruit.group.gmo/engineer/jisedai/blog/ai_blog_writer_3_claude-code_n8n_skills_core-satellite/",
-      "summary": "AI研究開発室のK.S.が、金融特化AIブログライター連載第3回でClaude codeとn8n Skillsを用い、ほぼコードを書かずにワークフローとCore‑Satellite投資記事を自動生成する手法を解説。Human‑in‑the‑LoopやClaude/n8nスキルの役割も紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-02T04:28:32.000Z",
-      "contentHash": "f4ec9277c327"
-    },
-    {
-      "id": "036f54f1425b",
-      "title": "Apple's MacBook Pro DFU port documentation is wrong",
-      "url": "https://lapcatsoftware.com/articles/2026/2/1.html",
-      "summary": "Appleのサポート文書はDFUポートを「14インチM4/M5は右、他は左」としているが誤りで、筆者の16インチM4 Proでは右側がDFUだった。外付けSSDでのmacOSインストール/更新時はDFUポートを避ける必要があり、何度も更新に失敗した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-02T03:29:55.000Z",
-      "contentHash": "97c9c46d03a7"
-    },
-    {
-      "id": "2e473e637d71",
-      "title": "ICE protester says her Global Entry was revoked after agent scanned her face",
-      "url": "https://arstechnica.com/tech-policy/2026/01/ice-protester-says-her-global-entry-was-revoked-after-agent-scanned-her-face/",
-      "summary": "ミネソタ住民のニコール・クレランド氏は、ICE車両を観察した後３日でGlobal EntryとTSA PreCheckを剥奪され、担当官が顔認証で特定したと米連邦地裁に申立て。報復・威嚇だと主張している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-02T03:25:31.000Z",
-      "contentHash": "867abfa9d1a0"
-    },
-    {
-      "id": "ca2dc698af2e",
-      "title": "Notepad++ hijacked by state-sponsored actors",
-      "url": "https://notepad-plus-plus.org/news/hijacked-incident-info-update/",
-      "summary": "Notepad++公式サイトが不正アクセスで改ざんされ、配布物やリンクが書き換えられました。運営はサイトを一時停止して復旧・調査中で、鍵や認証情報をリフレッシュしています。該当期間にダウンロードした場合はアンインストールや再取得、ハッシュ／署名の検証を推奨。詳報は公式告知を確認してください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-02T01:59:56.000Z",
-      "contentHash": "62f3211fd033"
-    },
-    {
-      "id": "b384f16cde45",
-      "title": "SnowPro Advanced: Architect合格体験記 | [公開中] AQ Tech Blog",
-      "url": "https://techblog.asia-quest.jp/202601/snowpro-advanced-architect-exam-report",
-      "summary": "SnowPro Advanced: Architect試験（65問・115分・受験料375USD、合格点750/1000）を著者が受験し890点で合格。Udemyの模試を中心に学習し、公式ドキュメントで補強。リージョン間共有やレプリケーション、Search Optimizationなどが頻出。子育てと両立しながらの勉強法や試験対策の体験記。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-02T01:15:46.000Z",
-      "contentHash": "f08ac475e238"
-    },
-    {
-      "id": "50f07f59a4bc",
-      "title": "Actors: A Model of Concurrent Computation [pdf] (1985)",
-      "url": "https://apps.dtic.mil/sti/tr/pdf/ADA157917.pdf",
-      "summary": "外部リンクへ直接アクセスできないため、PDF本文または主要箇所（目的・方法・結果・結論）を貼り付けてください。貼っていただければ200字以内で要約します。HNコメントの要約も希望なら併せて対応します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-02T01:11:15.000Z",
-      "contentHash": "5eab0d859bcc"
     }
   ]
 }
