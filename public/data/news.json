@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2026-02-26T02:38:35.728Z",
+  "generatedAt": "2026-02-26T09:09:32.595Z",
   "items": [
+    {
+      "id": "7fa7076a6862",
+      "title": "CrowdStrike Falcon Device Control USBデバイスのリスクを管理し、セキュリティを強化 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/crowdstrike-device-control",
+      "summary": "CrowdStrike FalconのDevice Controlは、USBデバイスの接続を可視化・制御してデータ漏洩やマルウェア感染を防ぐ機能です。モニター／強制モード、細かなアクセス制御、詳細ログで監査・調査を支援し、追加エージェント不要で運用負荷を軽減します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-26T07:17:26.000Z",
+      "contentHash": "f10931838c97"
+    },
+    {
+      "id": "b772caf3670c",
+      "title": "データのサイロ化を解消するには？語源・課題・解決策をわかりやすく解説 | スマートスタイル TECH BLOG",
+      "url": "https://blog.s-style.co.jp/2026/02/15388/",
+      "summary": "データのサイロ化は、部署やシステムごとに情報が孤立し横断利用できない状態。語源は農業のサイロ。原因は縦割り組織や個別システム導入、定義不統一で、組織改革と技術的統合・共通ルール整備が解決策。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-26T06:42:09.000Z",
+      "contentHash": "cc765eb32155"
+    },
+    {
+      "id": "82993778e29d",
+      "title": "CloudWatch Logs の削除保護機能が新たに提供されました | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/update-logs-delete-protection",
+      "summary": "CloudWatch Logsに削除保護機能が追加されました。保護有効のロググループはコンソール/CLI/SDKからの削除が拒否され、解除の明示的操作が必要です。追加費用なしで、マネコン・CLI・IaC・SAM/CDKで設定可能。本番は基本有効、IaC管理推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-26T06:33:40.000Z",
+      "contentHash": "8d8e83bce884"
+    },
+    {
+      "id": "51360efb91f8",
+      "title": "Reactデザインパターンに向き合う「なぜそのパターンを選ぶのか？」 | ONE CAREER Tech Blog",
+      "url": "https://note.com/dev_onecareer/n/n36c37a2b777d",
+      "summary": "ワンキャリアのエンジニアが、記事リストのグリッド表示と横スクロール表示対応で、柔軟なデザインパターンを一度採用したものの、過剰な抽象化や内部の if 分岐が保守性を悪化させると判断し破棄。適切な抽象化の粒度で設計し直した過程を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-26T06:22:52.000Z",
+      "contentHash": "abd9d41296c9"
+    },
+    {
+      "id": "32de89a1fbbf",
+      "title": "aws-cdk で扱いやすい最小規模 Redis として Amazon ElastiCache Serverless を使う | Hatena Developer Blog",
+      "url": "https://developer.hatenastaff.com/entry/2026/02/26/151335",
+      "summary": "保守不足でRedisが延長サポート対象となり費用増。aws-cdk/CloudFormationのElastiCacheインポート制約もあり、最小コストかつ取り回し良いElastiCache Serverless（Valkey、最低100MB課金・自動スケール）へ移行した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-26T06:13:35.000Z",
+      "contentHash": "cb5ce19c74a9"
+    },
+    {
+      "id": "208685decbc6",
+      "title": "AIを活用したGAS開発における新たな共創モデル | VISASQ Dev Blog",
+      "url": "https://tech.visasq.com/ai-gas-collaborate",
+      "summary": "現場主導でAIを活用しGAS開発を進め、ITは技術・セキュリティ面で支援する共創モデル。SaaS連携を想定した役割分担、AI生成コードのレビューや教育で開発速度向上・品質確保・現場のIT力向上を目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-26T05:59:28.000Z",
+      "contentHash": "3d7defa2bb63"
+    },
+    {
+      "id": "c7baae09dc71",
+      "title": "週刊Cloudflare - 2026/02/22週 | Gemcook Tech Blogのフィード",
+      "url": "https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_0215-0221",
+      "summary": "2026/02/15-21のCloudflare更新：wranglerが4.67/4.66でパイプライン検証やData Catalog自動有効化・バケット自動作成、TypeScript型生成、キャッシュ自動検出、各種バグ修正や機能改善を実施。Queues遅延延長やwhoami改良も。Workersの本番向けベストプラクティス（compatibility更新、Web Crypto推奨、ログ有効化等）も公開。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-26T05:35:34.000Z",
+      "contentHash": "c5536c8408f3"
+    },
+    {
+      "id": "364cf9b6f39c",
+      "title": "I don't know how you get here from “predict the next word”",
+      "url": "https://www.grumpy-economist.com/p/refine",
+      "summary": "著者はAIツールrefineを試用。無料で一度使っただけだが、論文へのコメントは自分のキャリアで最高峰に匹敵。主要指摘は財政ニュースの定量化で、インフレを事後的に解釈しないために具体的な日付付き指標が必要という点。80ページを要約したことも強調。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-26T04:59:01.000Z",
+      "contentHash": "71d09c8146a8"
+    },
+    {
+      "id": "3dc4cfbeb7b9",
+      "title": "Gemini API - Multimodal Function Calling",
+      "url": "https://note.com/npaka/n/n4ac7107c6ba0",
+      "summary": "Gemini APIのMultimodal Function Responsesは、Function Callingで画像（png/jpeg/webp）やPDFなど非テキストをツール経由でモデルに返し視覚推論を可能にする機能。UI操作支援、図表解析、商品照合などに活用でき、functionResponse内にマルチモーダルデータをネストして利用する（コード例あり）。",
+      "source": "npaka",
+      "publishedAt": "2026-02-26T03:54:15.000Z",
+      "contentHash": "29b4776b2748"
+    },
+    {
+      "id": "84b19b6120dd",
+      "title": "Jane Street Hit with Terra $40B Insider Trading Suit",
+      "url": "https://www.disruptionbanking.com/2026/02/24/jane-street-hit-with-terra-40b-insider-trading-suit/",
+      "summary": "テラ・ルナの400億ドル崩壊で、破産管財人が2月23日ジェーンストリートを提訴。テラが1.5億ドル引出した直後、10分以内に同社が8500万ドルを移し市場混乱を招き、盗用情報で不正利得を得たと主張し損賠・返還等を求める。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-26T01:25:49.000Z",
+      "contentHash": "0bb64cf5d4dd"
+    },
     {
       "id": "2ddba0cecb5c",
       "title": "【COBOL現新移行検証②】実機検証の設計思想と検証観点の全体像 | NTT DATA TECHのフィード",
@@ -93,39 +183,39 @@
     },
     {
       "id": "06b2c13a28c0",
-      "title": "First Website",
+      "title": "First Website (1992)",
       "url": "https://info.cern.ch",
-      "summary": "CERNのinfo.cern.chは、ティム・バーナーズ＝リーによるWorld Wide Webの紹介ページで、初のウェブサイトとしても知られる。ハイパーテキストやウェブサーバ／ブラウザの概念、仕組みや実装法、歴史を解説している。",
+      "summary": "info.cern.chはティム・バーナーズ＝リーが作った世界初のウェブページ。ハイパーテキスト（HTML）、URL、HTTPの基本やWWWプロジェクトの目的・歴史・技術背景、関連ソフトの入手方法を説明し、誰でもウェブを利用・作成できることを示している。",
       "source": "Hacker News",
       "publishedAt": "2026-02-25T23:02:58.000Z",
-      "contentHash": "da42f814b930"
+      "contentHash": "cb92f3853f1a"
     },
     {
       "id": "e0f7f57d4d9c",
       "title": "Flow のアップデート - 2026年2月",
       "url": "https://note.com/npaka/n/nbc52f336c121",
-      "summary": "Flowが再設計され、画像生成を強化。Whisk・ImageFX・Nano Bananaを統合し、無料生成や3月からの資産一括転送に対応。アセット管理の改善や新しい投げ縄・直接描画ツールで直感的な精密編集、動画の延長やオブジェクト追加・削除、カメラ調整も可能になりました。",
+      "summary": "Flowを再設計し、画像生成を中核にWhisk・ImageFX・Nano Bananaを統合したシームレスな制作ワークスペースを導入。無料画像生成やライブラリ連携、柔軟な資産管理、新しい投げ縄ツールや直接描画での直感的編集、映像の長さ調整やオブジェクト追加・削除など精密な動画編集機能を提供。",
       "source": "npaka",
       "publishedAt": "2026-02-25T22:39:15.000Z",
-      "contentHash": "046588017c1f"
+      "contentHash": "f651e5da83dc"
     },
     {
       "id": "919b9461cb73",
-      "title": "How the new Galaxy S26 phones stack up against each other on paper",
+      "title": "How the new Galaxy S26 phones compare",
       "url": "https://www.theverge.com/gadgets/883733/samsung-galaxy-s26-vs-plus-ultra-specs-features-hardware-comparison",
-      "summary": "サムスンがGalaxy S26/S26+／S26 Ultraを発表。新SoC Snapdragon 8 Elite Gen5で性能向上し、未知発信の着信振り分けやテキストでの写真編集、Google GeminiによるUber等の代行などAI機能を搭載。機種ごとにハード差あり。",
+      "summary": "サムスンが新型Galaxy S26シリーズ（S26/Plus/Ultra）を発表。Snapdragon 8 Elite Gen 5で性能向上し、不明発信者の自動振り分けや文章で写真を編集するなどAI機能を強化。機種間でハード差あり。",
       "source": "The Verge",
       "publishedAt": "2026-02-25T22:26:31.000Z",
-      "contentHash": "2aa2a31c4ab7"
+      "contentHash": "d7ef98017f88"
     },
     {
       "id": "8d82644ad0fb",
       "title": "世界モデルとは何か - Google が描く Project Genie の世界",
       "url": "https://note.com/npaka/n/n8476e43bcd94",
-      "summary": "世界モデルは物理や因果を内部でシミュレーションし、ユーザー操作でリアルタイムに変化する仮想世界を扱う技術。GoogleのProject Genieはそのプロトタイプで、学習環境・教育・ゲームやAIエージェントの試行・思考に応用が期待される。",
+      "summary": "世界モデルは、世界の状態とその動的変化を内部でシミュレーションして予測・操作できるAI技術です。GoogleのProject Genieはその試作で、インタラクティブな仮想世界を生成・探索でき、教育、学習環境、ゲームなどでの応用が期待されています。",
       "source": "npaka",
       "publishedAt": "2026-02-25T22:14:05.000Z",
-      "contentHash": "09591bc5e4c4"
+      "contentHash": "77a1a546df97"
     },
     {
       "id": "21742f51cf6f",
@@ -146,13 +236,22 @@
       "contentHash": "fff89ff86834"
     },
     {
+      "id": "2ea242228c52",
+      "title": "Trump claims tech companies will sign deals next week to pay for their own power supply",
+      "url": "https://www.theverge.com/science/884191/ai-data-center-energy-state-of-the-union-trump",
+      "summary": "トランプ大統領は国民の電気料金保護として、主要IT企業がデータセンター向けに自前で発電・費用負担する「rate payer protection pledge」に来週署名すると主張。3月4日にAmazon、Google、Meta、Microsoft、xAI、Oracle、OpenAI幹部が出席予定だが、内容や実行担保は不明。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-25T20:37:25.000Z",
+      "contentHash": "7afb7ea2c275"
+    },
+    {
       "id": "ff3b5a534423",
       "title": "Making MCP cheaper via CLI",
       "url": "https://kanyilmaz.me/2026/02/23/cli-vs-mcp.html",
-      "summary": "申し訳ありませんが外部ページへ直接アクセスできません。記事本文を貼っていただければ、200文字以内で日本語要約します。コメントも要約できます。",
+      "summary": "MCPは会話に全ツールのJSONスキーマを事前投入するためトークン代が膨らみ「過剰支払い」になる。CLIは軽いスキル一覧で遅延ロードし約94%節約。AnthropicのTool Searchは85%削減するが専用で最終的にスキーマを取得。著者はMCPからCLIを自動生成するCLIHubを公開。",
       "source": "Hacker News",
       "publishedAt": "2026-02-25T20:29:37.000Z",
-      "contentHash": "b7d8198d43bc"
+      "contentHash": "878cc5bb0a13"
     },
     {
       "id": "ab41decc65a9",
@@ -162,6 +261,42 @@
       "source": "Hacker News",
       "publishedAt": "2026-02-25T20:16:47.000Z",
       "contentHash": "d18402c6c316"
+    },
+    {
+      "id": "33aa42996a71",
+      "title": "Here’s how the new Samsung Galaxy S26 compares with last year’s S25",
+      "url": "https://www.theverge.com/gadgets/884281/samsung-galaxy-s26-plus-ultra-vs-s25-specs-features",
+      "summary": "サムスンがUnpackedでGalaxy S26シリーズを発表。S26は$899.99、S26 Plusは$1,099.99で各モデルは昨年比$100値上げ。S26 Ultraは$1,299.99で大容量バッテリー・高性能カメラ・Sペン対応。最安〜最上位の価格差は$400に縮小。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-25T20:09:14.000Z",
+      "contentHash": "1a795596f56b"
+    },
+    {
+      "id": "a72137083fa3",
+      "title": "Google and Samsung just launched the AI features Apple couldn’t with Siri",
+      "url": "https://www.theverge.com/tech/884703/google-samsung-galaxy-s26-gemini-apple-siri",
+      "summary": "GoogleのAI「Gemini」がPixel 10/10 ProとSamsung Galaxy S26で、グループチャットを読み取り配達注文や配車など複数手順を端末上で自動実行する機能を発表。Appleは同様のSiri機能を予告したが延期中。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-25T19:56:55.000Z",
+      "contentHash": "d375cb2375ae"
+    },
+    {
+      "id": "57e4bc61749e",
+      "title": "Google API keys weren't secrets, but then Gemini changed the rules",
+      "url": "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules",
+      "summary": "TruffleHogの調査で、Googleが長年「APIキーは非機密」として公開を許容してきたが、Geminiが同じAIza…キーで機密認証を行うようになり、約3,000件の公開キーでファイル閲覧やキャッシュ参照、LLM課金など不正利用可能になった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-25T19:54:14.000Z",
+      "contentHash": "1d56e0080019"
+    },
+    {
+      "id": "cde2395f32b7",
+      "title": "Preorders for Samsung’s S26 phones come with up to $200 in gift cards",
+      "url": "https://www.theverge.com/gadgets/883829/samsung-galaxy-s26-plus-ultra-how-to-buy-preorder-price-release-date",
+      "summary": "サムスンが新フラグシップGalaxy S26シリーズ（S26・S26+・S26 Ultra）を発表。3月11日発売で予約受付中。価格はそれぞれ$899.99、$1,099.99、$1,299.99。予約で最大$200分のギフトカードが付く。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-25T19:09:29.000Z",
+      "contentHash": "96f38de8a2ee"
     },
     {
       "id": "c336d7963d85",
@@ -185,10 +320,10 @@
       "id": "50636ea2b453",
       "title": "Let Gemini handle your multi-step daily tasks on Android.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/android-multi-step-tasks/",
-      "summary": "まもなくPixel 10とSamsung Galaxy S26シリーズ向けに、Geminiが複数工程からなる作業を代行できる機能が提供されます。",
+      "summary": "GoogleはGeminiアプリの新ベータ機能を発表。Pixel 10/10 ProとGalaxy S26で米韓向けに提供予定で、電源長押しで配車や食事再注文などの複数手順をバックグラウンドで自動実行。通知で進行確認・中止でき、仮想ウィンドウで限定アプリのみ操作しプライバシーを保護。最初は飲食・食料品・配車アプリ対応。",
       "source": "Gemini",
       "publishedAt": "2026-02-25T18:00:00.000Z",
-      "contentHash": "a09f7097039b"
+      "contentHash": "b27c38fa7e47"
     },
     {
       "id": "a46e760ee4cc",
@@ -198,6 +333,15 @@
       "source": "Gemini",
       "publishedAt": "2026-02-25T18:00:00.000Z",
       "contentHash": "cda07de92047"
+    },
+    {
+      "id": "6c8297cf4bc6",
+      "title": "Google Gemini can book an Uber or order food for you on Pixel 10 and Galaxy S26",
+      "url": "https://www.theverge.com/tech/884210/google-gemini-samsung-s26-pixel-10-uber",
+      "summary": "GoogleのAI「Gemini」が一部のPixel 10とGalaxy S26でタスク自動化に対応。Uberの配車やDoorDashの注文をアプリの仮想ウィンドウで自動的に組み立て、進行を表示・停止・介入可能。ただし最終的な送信はユーザーが行う必要あり。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-25T18:00:00.000Z",
+      "contentHash": "d5be2e746678"
     },
     {
       "id": "6f9dcee7c72a",
@@ -1049,10 +1193,10 @@
       "id": "273237c56a30",
       "title": "OpenAI API の WebSocket Mode の概要",
       "url": "https://note.com/npaka/n/n0da8907e9cfb",
-      "summary": "OpenAIのResponses APIのWebSocket Modeは、/v1/responsesへ持続接続しprevious_response_idと増分入力だけを送ることで、ツール呼び出しが多い長時間ワークフローを最適化（ZDR/store=false対応）。20回超の呼び出しで最大約40%高速化。generate:falseでウォームアップ可。",
+      "summary": "OpenAI Responses APIのWebSocket Modeは/v1/responsesへの永続接続で、previous_response_idと増分入力だけを送り長いツール呼び出しチェーンのオーバーヘッドを削減（ZDR/store=false対応）。response.createでターン開始、generate:falseでウォームアップ可能。",
       "source": "npaka",
       "publishedAt": "2026-02-23T21:53:12.000Z",
-      "contentHash": "bfce00fb163f"
+      "contentHash": "59839babe51e"
     },
     {
       "id": "5da7a905f669",
@@ -1175,10 +1319,10 @@
       "id": "de5667272a0c",
       "title": "6 tips for prompting Lyria 3 in the Gemini app",
       "url": "https://blog.google/products-and-platforms/products/gemini/tips-prompting-lyria-3/",
-      "summary": "Google DeepMindの最新生成AI「Lyria 3」を紹介。自分の曲作りを支援し、メロディや伴奏などを自動生成して音楽制作を手助けするツールです。",
+      "summary": "Google DeepMindの生成音楽モデル「Lyria 3」をGeminiアプリで使い、自作楽曲の作り方、実践的なプロンプト例や試すべき設定・コツを紹介する入門記事。",
       "source": "Gemini",
       "publishedAt": "2026-02-23T17:00:00.000Z",
-      "contentHash": "c584f28c6b6b"
+      "contentHash": "68eef786edf0"
     },
     {
       "id": "f3cc45d6e21f",
@@ -1490,10 +1634,10 @@
       "id": "ef126bba2828",
       "title": "ローカルLLMの検索ツールとして Gemini 2.5 Flash-Lite を試す",
       "url": "https://note.com/npaka/n/ne2bd91159e32",
-      "summary": "日本語ローカルLLMは改善したが10B以下は知識不足で検索が必要。Brave/Google/Tavily/DuckDuckGo/SearXNGを比較し、検索由来のハルシネーション対策としてGemini 2.5 Flash‑Liteを必要時のみクラウドツールとして使うハイブリッド運用を試した。",
+      "summary": "ローカルLLMの知識不足を補うため、Gemini 2.5 Flash‑Liteを「grounding」検索ツールとして試用。Brave/Google/Tavily/DuckDuckGo/SearXNGのMCPを比較し、検索由来のハルシネーション対策として常時はローカル、必要時のみクラウドLLMを利用する構成を検証した。",
       "source": "npaka",
       "publishedAt": "2026-02-22T00:47:21.000Z",
-      "contentHash": "9d003d237561"
+      "contentHash": "718a7b00dd4f"
     },
     {
       "id": "454e4747cc28",
@@ -2219,10 +2363,10 @@
       "id": "91133996a37a",
       "title": "Gemini 3.1 Pro の概要",
       "url": "https://note.com/npaka/n/nc859d1b06094",
-      "summary": "Googleの新モデル「Gemini 3.1 Pro」は推論能力を大幅強化し、開発者・企業・消費者向けに順次提供。ARC-AGI-2で77.1%を達成し、複雑問題解決やデータ統合、テキストからの高品質コードベースSVGアニメ生成などに応用可能。",
+      "summary": "Googleが高度推論強化版「Gemini 3.1 Pro」を公開。開発者・企業・消費者向けに順次提供。ARC-AGI-2で77.1%を達成し、Gemini 3 Pro比で推論力が2倍超。複雑問題解決やWeb向けコード生成アニメーション（SVG）などに対応。",
       "source": "npaka",
       "publishedAt": "2026-02-19T21:36:37.000Z",
-      "contentHash": "78d878d01d48"
+      "contentHash": "67a974cc0fc9"
     },
     {
       "id": "caf159004e68",
@@ -2372,10 +2516,10 @@
       "id": "24717f621aa3",
       "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
-      "summary": "3.1 Proは、単純な答えでは済まない複雑なタスクや高度な判断が必要な場面向けに設計された製品（モデル）です。",
+      "summary": "GoogleのGemini 3.1 Proは、高度な推論や複雑な課題対応に特化して性能を強化した新モデル。API、Vertex AI、Geminiアプリ、NotebookLMでプレビュー提供され、ベンチマークで改善を示す。",
       "source": "Gemini",
       "publishedAt": "2026-02-19T16:00:00.000Z",
-      "contentHash": "8d94037eb18d"
+      "contentHash": "fd16cb375419"
     },
     {
       "id": "3270c6163135",
@@ -2777,10 +2921,10 @@
       "id": "119490edde2c",
       "title": "A new way to express yourself: Gemini can now create music",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/",
-      "summary": "Lyria 3がGeminiアプリで利用可能に。テキストや画像から高品質な30秒のカスタム音楽トラックを生成できます。",
+      "summary": "GeminiアプリがGoogle DeepMindの音楽生成モデルLyria 3を搭載し、テキストや画像から30秒の楽曲とカバーアートを生成できるベータ機能を提供。生成音源には識別用の不可視透かしSynthIDが埋め込まれ、多言語対応。18歳以上向けで、有料会員は生成上限が高い。",
       "source": "Gemini",
       "publishedAt": "2026-02-18T16:00:00.000Z",
-      "contentHash": "b1eddb075cb8"
+      "contentHash": "bc9ebe6b0043"
     },
     {
       "id": "89afb2866a83",
@@ -4235,10 +4379,10 @@
       "id": "913ec523b446",
       "title": "5 ways Gemini can help students work smarter",
       "url": "https://blog.google/products-and-platforms/products/education/gemini-features-for-students/",
-      "summary": "Geminiの機能を紹介し、難解な科目の理解を助け、試験対策や就職・キャリア準備をサポートする方法を解説しています。",
+      "summary": "Geminiは学生向けにSAT/JEE模試（弱点フィードバック付き）や作文・プレゼン作成、コードデバッグ・校正を支援。対話式学習やカスタム問題、履歴書・志望書・模擬面接も提供。一部学生は無料アップグレード可。",
       "source": "Gemini",
       "publishedAt": "2026-02-13T18:00:00.000Z",
-      "contentHash": "0e9443287623"
+      "contentHash": "7122c9009ae7"
     },
     {
       "id": "cab1e3784bd3",
@@ -4325,10 +4469,10 @@
       "id": "0991e42b2354",
       "title": "Take a look at these incredible photos from Lunar New Year celebrations.",
       "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-camera-photo-tips-lunar-new-year/",
-      "summary": "台湾での旧正月の様子を、最新のPixelシリーズで撮影した写真を一堂に紹介する記事。端末のカメラ性能や現地の雰囲気が分かる写真が掲載されている。",
+      "summary": "Pixel 10 Proが台湾・九份で旧正月（午年）の写真を撮影。Pixel Cameraチームは5倍望遠のPro Zoom、HDR+/UltraHDR対応パノラマ、ポートレート、ProコントロールやNano Bananaなどの機能で祭りの風景を捉えた。",
       "source": "Gemini",
       "publishedAt": "2026-02-13T16:00:00.000Z",
-      "contentHash": "7334df9d0150"
+      "contentHash": "070c4759a580"
     },
     {
       "id": "84b4611c10ef",
@@ -4775,10 +4919,10 @@
       "id": "720d05f84e16",
       "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
-      "summary": "専門的な推論モード「Gemini 3 Deep Think」を大幅に強化・アップグレードしてリリースする、という発表です。",
+      "summary": "GoogleのGemini 3「Deep Think」が科学・研究・工学向けに大幅強化。Ultra会員はGeminiアプリで利用可能、研究者や企業はGemini APIで早期アクセスを申請できる。",
       "source": "Gemini",
       "publishedAt": "2026-02-12T16:13:00.000Z",
-      "contentHash": "a3c8513ad9be"
+      "contentHash": "dc18bc029390"
     },
     {
       "id": "8e8c7882d708",
@@ -8856,150 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-02-04T16:08:55.000Z",
       "contentHash": "75d377181cbc"
-    },
-    {
-      "id": "4b4ca1accf81",
-      "title": "The 14-inch, ARM-based Asus Vivobook is half off today",
-      "url": "https://www.theverge.com/gadgets/873792/asus-vivobook-snapdragon-x-laptop-amd-ryzen-switch-2-deal-sale",
-      "summary": "14インチARM版Asus Vivobook（静音ブルー、8コアSnapdragon X、16GB/512GB）がBest Buyで749.99→379.99ドルに大幅値下げ。Snapdragon XはX Plus/X Eliteより性能は劣るが、手頃なWindows互換機として注目。他にAMDデスクトップ部品バンドルやSwitch 2の割引情報も紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-04T15:55:38.000Z",
-      "contentHash": "be08aed04685"
-    },
-    {
-      "id": "4bb4537b58c6",
-      "title": "Voxtral Transcribe 2",
-      "url": "https://mistral.ai/news/voxtral-transcribe-2",
-      "summary": "Voxtral Transcribe 2を発表。バッチ向け「Mini Transcribe V2」は13言語で高精度・話者分離・語単位タイムスタンプ、低遅延「Realtime」はサブ200msでApache2.0公開。Mistral Studioで試用可。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-04T15:08:17.000Z",
-      "contentHash": "0fec22f10b27"
-    },
-    {
-      "id": "fe6d3582e848",
-      "title": "I drove three Chinese cars — here’s why they would clean up in the US",
-      "url": "https://www.theverge.com/transportation/873408/geely-zeekr-lynk-co-test-drive-china",
-      "summary": "記者がGeely、Lynk & Co、Zeekrの中国車3台を試乗。特にZeekr 7XはモデルY対抗の高性能EVで、中国価格約3.2万ドルと割安。米国市場でも通用する実力と評価。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-04T15:00:00.000Z",
-      "contentHash": "a1f16e9efa9e"
-    },
-    {
-      "id": "9fca315c5dc3",
-      "title": "A case study in PDF forensics: The Epstein PDFs",
-      "url": "https://pdfa.org/a-case-study-in-pdf-forensics-the-epstein-pdfs/",
-      "summary": "米司法省のエプスタイン関連PDFを技術的に検証。PDF構文、増分更新、メタデータ、写真や赤塗りの問題を分析し、全文は未検査。サニタイズの重要性を指摘。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-04T14:46:46.000Z",
-      "contentHash": "6d8e1450e165"
-    },
-    {
-      "id": "6d75a2b912f3",
-      "title": "FBI couldn't get into WaPo reporter's iPhone because Lockdown Mode enabled",
-      "url": "https://www.404media.co/fbi-couldnt-get-into-wapo-reporters-iphone-because-it-had-lockdown-mode-enabled/",
-      "summary": "FBIは機密漏洩捜査でハンナ・ナタンソン記者の自宅を捜索した際、押収したiPhoneが「ロックダウンモード」で保護されており解除できなかった。裁判記録はFBIが入手できた機器とできなかった機器を示し、ロックダウンモードの有効性を示唆している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-04T14:31:32.000Z",
-      "contentHash": "bb0addb1d29d"
-    },
-    {
-      "id": "79c874c3d8c2",
-      "title": "Spotify launches offline lyrics, translations, and lyric previews",
-      "url": "https://www.theverge.com/entertainment/873779/spotify-lyrics-offline-translations-previews",
-      "summary": "Spotifyは歌詞機能を拡充。歌詞翻訳と歌詞プレビューを無料・有料ユーザー向けに世界展開し、翻訳は端末の言語で表示。オフライン歌詞はプレミアム限定。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-04T14:31:10.000Z",
-      "contentHash": "17b6ffd828bd"
-    },
-    {
-      "id": "7ceaaee13582",
-      "title": "Amazon rolls out Alexa Plus nationwide and launches a new free tier",
-      "url": "https://www.theverge.com/news/873702/amazon-alexa-plus-ai-assistant-now-available",
-      "summary": "Amazonは生成AI搭載の「Alexa Plus」を米国で本格展開。Prime会員は端末・ウェブ・アプリで利用可能。非Primeはウェブ/アプリの無料プランか、月20ドルの無制限プランを選べる。3月に早期提供開始。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-04T14:00:00.000Z",
-      "contentHash": "ec87f1c4e489"
-    },
-    {
-      "id": "5036e5be7ea3",
-      "title": "Everyone is stealing TV",
-      "url": "https://www.theverge.com/streaming/873416/piracy-streaming-boxes",
-      "summary": "高騰する加入料に嫌気が差した視聴者が、NFLやUFCなどを無料視聴できる違法ストリーミング端末（例：SuperBox）を300～400ドルで購入。農産物市で売られ、Facebookグループで情報交換が行われている。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-04T13:30:00.000Z",
-      "contentHash": "a344b3d7b065"
-    },
-    {
-      "id": "3b1ef4e6a23e",
-      "title": "Anthropic says ‘Claude will remain ad-free,’ unlike ChatGPT",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/873686/anthropic-claude-ai-ad-free-super-bowl-advert-chatgpt",
-      "summary": "AnthropicはAIチャットボットClaudeを広告非表示とする方針を発表。ChatGPTの広告導入を揶揄するスーパーボウルCMも公開し、広告は利用者利益や回答の中立性を損なうと説明。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-04T13:09:50.000Z",
-      "contentHash": "3a87133e5544"
-    },
-    {
-      "id": "e205ffac9d9f",
-      "title": "Unlocking the Codex harness: how we built the App Server",
-      "url": "https://openai.com/index/unlocking-the-codex-harness",
-      "summary": "Codex App Serverを使ってCodexエージェントを組み込む方法。双方向JSON-RPC APIにより進捗のストリーミング、ツール利用、承認フロー、差分表示が可能になる。",
-      "source": "OpenAI",
-      "publishedAt": "2026-02-04T13:00:00.000Z",
-      "contentHash": "69845f7d340e"
-    },
-    {
-      "id": "7d7d62642bee",
-      "title": "New RelicのアラートからBacklog課題を自動起票してみた ～インシデント管理×AI活用への第一歩～ | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/newrelic-backlog",
-      "summary": "New RelicのアラートをBacklogに自動起票し、復旧時に自動でクローズする構成を紹介。AIを使ったインシデント管理・分析の基盤構築に関する解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-04T12:46:16.000Z",
-      "contentHash": "4df26070f13c"
-    },
-    {
-      "id": "ae57720eeecd",
-      "title": "Sen. Warren wants to know what Google Gemini’s built-in checkout means for user privacy",
-      "url": "https://www.theverge.com/news/873476/senator-elizabeth-warren-google-gemini-ai-shopping-privacy",
-      "summary": "ウォーレン上院議員がGoogle CEOに書簡を送り、チャットボットGeminiの決済機能で小売業者にどの種類・どれほどのユーザーデータが渡るのか、敏感情報や消費者操作の懸念を説明するよう求めた。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-04T12:00:00.000Z",
-      "contentHash": "fe461101a13a"
-    },
-    {
-      "id": "353939537318",
-      "title": "SRE Kaigi 2026に登壇してきました | TalentX Tech Blog",
-      "url": "https://tech.talentx.co.jp/entry/2026/02/04/204417",
-      "summary": "TalentX CTOの籔下がSRE Kaigi 2026で、一人運用→AWS移行→SREチーム立ち上げの軌跡を紹介。EKS/ECS判断やIaC×AIでのガードレール設計を解説。今後は横断的オブザーバビリティとAI自律インフラを推進し人材募集。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-04T11:44:17.000Z",
-      "contentHash": "dd0eaae1b867"
-    },
-    {
-      "id": "dc353fb5fb04",
-      "title": "脱VMwareのもうひとつの選択肢、フォールトトレラント仮想化ソリューション everRun | TechHarmony",
-      "url": "https://blog.usize-tech.com/everrun/",
-      "summary": "everRunはStratusのKVMベースのフォールトトレラント仮想化。VM単位でFT/HA/無保護を選択でき、FTは無停止稼働。2台ミラー構成で導入・運用が簡単・低コストだが拡張性は限定的で小規模高可用向け。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-04T10:42:40.000Z",
-      "contentHash": "3600d3b35327"
-    },
-    {
-      "id": "e85f06418454",
-      "title": "テーブルデータのバリデーションチェックを高速化した取り組みについて | TechHarmony",
-      "url": "https://blog.usize-tech.com/redshift-table-data-validation-optimization/",
-      "summary": "Redshift更新前のテーブル整合性チェックで、Tabulatorのフロント実行が大規模・複雑テーブルで数分〜10分かかる問題を改善。PK/UK/FKは独自バリデータを用い、処理をバックエンド（Lambda）へ移管し並列実行の課題を解決して性能向上を図った。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-04T10:40:57.000Z",
-      "contentHash": "086cf468ecd3"
-    },
-    {
-      "id": "2d5788149a6a",
-      "title": "【メンバー紹介①】プログラミングスクール出身で本当にスクラムマスターになれた環境とは | ハウテレビジョン技術ブログ",
-      "url": "https://howtv.hatenablog.com/entry/2026/02/04/184813",
-      "summary": "ハウテレビジョン開発メンバー紹介（Fさん）。商社の営業からプログラミングスクールで転身し2019年入社。現在は開発部長としてキャリアプラットフォームを統括し、外資就活の開発やToBチームリーダー、開発リーダー・EM・スクラムマスター等を歴任。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-04T09:48:13.000Z",
-      "contentHash": "c07515003178"
     }
   ]
 }
