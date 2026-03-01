@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-01T03:00:23.699Z",
+  "generatedAt": "2026-03-01T08:49:54.434Z",
   "items": [
     {
       "id": "7d3348d200b0",
@@ -68,10 +68,10 @@
       "id": "5879624a67ea",
       "title": "Jetson へのオープンソースの VLM の導入",
       "url": "https://note.com/npaka/n/n10f80ae0e8b9",
-      "summary": "Jetson端末（AGX Thor/Orin/Orin Nano）上でvLLMを使い、NVIDIA Cosmos Reason 2B（FP8）を動かしてLive VLM WebUIでリアルタイムWebカメラ物理AIを実現する手順。NGC CLIでモデルを取得し、vLLMコンテナにモデルをボリュームマウントして起動。JetPackとNVMe SSDが必須。",
+      "summary": "Jetson（AGX Thor/AGX Orin/Orin Nano）でオープンソースVLM（NVIDIA Cosmos Reason 2B）をvLLMコンテナで展開する手順。NGC CLIでFP8モデル（約5GB）を取得し、vLLM Dockerで起動、Live VLM WebUIと接続してリアルタイムWebカメラ操作を行う。JetPackやNVMe SSDが前提。",
       "source": "npaka",
       "publishedAt": "2026-02-28T14:39:23.000Z",
-      "contentHash": "e7edb9e3c0a6"
+      "contentHash": "2febdd971032"
     },
     {
       "id": "ba7e8f0ce508",
