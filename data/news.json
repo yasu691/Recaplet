@@ -1,6 +1,159 @@
 {
-  "generatedAt": "2026-02-28T08:48:47.947Z",
+  "generatedAt": "2026-03-01T03:00:23.699Z",
   "items": [
+    {
+      "id": "7d3348d200b0",
+      "title": "NVIDIA Brev で Isaac Lib x Isaac Sim を試す",
+      "url": "https://note.com/npaka/n/n8acd18865d8c",
+      "summary": "NVIDIA BrevでIsaac Lib×Isaac Simを試したまとめ。Brevはテンプレートで数分でGPU環境を構築でき、Isaac Launchableのデプロイ手順、Brev CLI/VSCode接続、nvidia-smiでの動作確認、Docker上でのIsaac Sim起動方法を解説。",
+      "source": "npaka",
+      "publishedAt": "2026-03-01T01:43:20.000Z",
+      "contentHash": "9336876f4fd0"
+    },
+    {
+      "id": "600a340c8d7b",
+      "title": "【AKS】 Ingress NGINXからNGINX Gateway Fabricへの乗り換え記 | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/03/01/083000",
+      "summary": "Ingress NGINXの廃止（2026年3月）に伴い、AKSでGateway API対応のNGINX Gateway Fabricに移行。理由はService Mesh過剰でNGINX慣れ、対象はargocd-server、Gateway API CRD導入後HelmでNGF(v2.4.2)をインストールし証明書生成を有効化。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-28T23:30:00.000Z",
+      "contentHash": "2eb225448613"
+    },
+    {
+      "id": "648c2305e069",
+      "title": "The Windows 95 user interface: A case study in usability engineering (1996)",
+      "url": "https://dl.acm.org/doi/fullHtml/10.1145/238386.238611",
+      "summary": "エリック・S・レイモンドの論考。集中管理型の「カテドラル」と対照して、頻繁に公開・更新しユーザを共開発者に巻き込む「バザール」式オープン開発を支持し、「多くの目があればバグは浅い（Linusの法則）」など実践的教訓を示す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-02-28T22:19:36.000Z",
+      "contentHash": "7011df3057dd"
+    },
+    {
+      "id": "2d94b4bc7291",
+      "title": "HumanoidBench が提供する27種類のタスクの概要",
+      "url": "https://note.com/npaka/n/n2eb2a29e6f36",
+      "summary": "HumanoidBenchはMuJoCoベースの高自由度ヒューマノイド研究用シミュレーションベンチで、Unitree H1等を含むロボットモデルと視覚・触覚を備えた多モーダル観測を提供。27の課題（移動12、全身操作15）で安全・低コストにアルゴリズム評価・比較を行える。",
+      "source": "npaka",
+      "publishedAt": "2026-02-28T21:07:41.000Z",
+      "contentHash": "1b8cd2f40702"
+    },
+    {
+      "id": "500c4cbabc4f",
+      "title": "Polymarket defends its decision to allow betting on war as ‘invaluable’",
+      "url": "https://www.theverge.com/tech/887040/polymarket-iran-war-betting-invaluable",
+      "summary": "予測市場Polymarketが米国の対イラン攻撃時期を賭けの対象にして批判を浴びた。実際の攻撃で死者が出る中、運営は市場を「貴重」と擁護し、既存メディアやXを批判した。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-28T20:46:35.000Z",
+      "contentHash": "25b9be1e31eb"
+    },
+    {
+      "id": "605779916768",
+      "title": "The Rubin Observatory’s alert system sent 800,000 pings on its first night",
+      "url": "https://www.theverge.com/science/887037/vera-c-rubin-observatory-800000-alerts",
+      "summary": "ヴェラ・C・ルービン天文台の自動警報システムが2月24日に公開稼働し、初夜に小惑星や超新星、降着中のブラックホールなど約80万件の警報を発出。毎夜約1000枚の画像を基準と比較し数分で変化を検出、将来的には夜間数百万件に達する見込み。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-28T19:33:51.000Z",
+      "contentHash": "92334463e017"
+    },
+    {
+      "id": "deedebc52357",
+      "title": "You can still grab great deals on Bose headphones and Astro Bot this weekend",
+      "url": "https://www.theverge.com/gadgets/886520/bose-quietcomfort-headphones-samsung-galaxy-s26-ultra-deal-sale",
+      "summary": "週末のセールまとめ：AmazonがGalaxy S26 Ultraを予約すると200ドル分のギフトカードを付与。Wootの「Video Games for All」セールや、Bose QuietComfortヘッドホン、話題作『Astro Bot』の割引も注目されています。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-28T16:07:14.000Z",
+      "contentHash": "c216f7ff764b"
+    },
+    {
+      "id": "5879624a67ea",
+      "title": "Jetson へのオープンソースの VLM の導入",
+      "url": "https://note.com/npaka/n/n10f80ae0e8b9",
+      "summary": "Jetson端末（AGX Thor/Orin/Orin Nano）上でvLLMを使い、NVIDIA Cosmos Reason 2B（FP8）を動かしてLive VLM WebUIでリアルタイムWebカメラ物理AIを実現する手順。NGC CLIでモデルを取得し、vLLMコンテナにモデルをボリュームマウントして起動。JetPackとNVMe SSDが必須。",
+      "source": "npaka",
+      "publishedAt": "2026-02-28T14:39:23.000Z",
+      "contentHash": "e7edb9e3c0a6"
+    },
+    {
+      "id": "ba7e8f0ce508",
+      "title": "Xiaomi’s tracker doesn’t need a case to clip to your keys",
+      "url": "https://www.theverge.com/tech/884567/xiaomi-tag-tracker-apple-find-my-google-hub-bluetooth",
+      "summary": "Xiaomiが初のBluetoothトラッカー「Xiaomi Tag」を発表。AirTagより縦長で金属ループを内蔵し、ケース不要で鍵等に付けられる。AppleのFind MyとGoogleのFind Hubに対応するが、設定時にどちらか一方を選択する必要がある。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-28T14:30:00.000Z",
+      "contentHash": "c3c4f3a990b0"
+    },
+    {
+      "id": "9eae164892ce",
+      "title": "Xiaomi’s Leica Leitzphone mostly earns the name",
+      "url": "https://www.theverge.com/gadgets/886131/xiaomi-leica-leitzphone-17-ultra-review",
+      "summary": "XiaomiがLeicaと協業した特別版「Leitzphone」と通常版「17 Ultra」を国際発売。カメラ寄りの設計で“Leitz”の名に相応しい仕上がりと評価され、MWC 2026で発表。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-28T14:30:00.000Z",
+      "contentHash": "0e4057de97ea"
+    },
+    {
+      "id": "15085256eef7",
+      "title": "Xiaomi 17 is a small(ish) phone with a big(ish) battery",
+      "url": "https://www.theverge.com/gadgets/886322/xiaomi-17-release-specs-price-mwc-ultra-leica",
+      "summary": "Xiaomiが新型フラッグシップXiaomi 17と17 Ultraを欧州などで発表。17はiPhone17/Galaxy S26対抗で£899/€999、Ultraは£1,299/€1,499〜。Leica協業の限定Leitzphoneは£1,699/€1,999（16GB）。中国向けの17 Proは未発表。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-28T14:30:00.000Z",
+      "contentHash": "238dc1207a0e"
+    },
+    {
+      "id": "ff1bac21de49",
+      "title": "The Witcher is a perfect fit for Reigns’ Tinder-like roleplaying",
+      "url": "https://www.theverge.com/entertainment/885432/reigns-the-witcher-interview-steam-iphone-android",
+      "summary": "Nerialが『Reigns』シリーズで『ウィッチャー』をTinder風の選択型アドベンチャーとして移植。複雑なロアや物語を簡潔な行動に落とし込み、ジェラルトの世界を手軽に体験できるとクリエイティブディレクターが説明。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-28T14:00:00.000Z",
+      "contentHash": "be7eecaebd6a"
+    },
+    {
+      "id": "1da14ff6831b",
+      "title": "GitHub Agentic Workflows を試してみた | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/try-github-agentic-workflows",
+      "summary": "2026-02-16にテクニカルプレビュー公開のGitHub Agentic Workflowsを公式Quick Startで検証。Markdownで記述したワークフローをAI（今回はGitHub Copilot）が実行。前提条件、gh拡張（gh-aw）導入、ウィザードで日次レポート作成を試した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-28T13:44:10.000Z",
+      "contentHash": "e954dd8a48ad"
+    },
+    {
+      "id": "65f3643d6209",
+      "title": "A legendary weather app makes a comeback",
+      "url": "https://www.theverge.com/tech/886462/acme-weather-samsung-s26-installer",
+      "summary": "The VergeのInstaller No.117。伝説的天気アプリ復活、サムスン新機種、RSSブックマークアプリShiori、Red Bull特集、Pixel 10 Pro試用、Claude Codeで作るTo‑Do案など今週の注目を紹介。",
+      "source": "The Verge",
+      "publishedAt": "2026-02-28T13:00:00.000Z",
+      "contentHash": "bc3f95ea2946"
+    },
+    {
+      "id": "277a11fdd320",
+      "title": "初心者でも分かるPythonのasyncio入門：async/awaitを料理で理解する非同期まとめ | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/9e96d6360be2b8",
+      "summary": "asyncは中断・再開できる非同期関数を定義し、awaitで待ちポイントを作って他のタスクへ切替える。並列ではなく「並行」処理。料理例ではご飯炊きとカレー煮込みを同時進行して時間短縮。asyncio.create_taskやasyncio.gatherで複数のawaitableを同時実行・待機する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-28T10:35:37.000Z",
+      "contentHash": "f0e7c64da5c2"
+    },
+    {
+      "id": "db084b21da96",
+      "title": "Stashはゴミ箱じゃない。試行錯誤の「遠回り」を技術資産に変える、新人なりのGit生存戦略 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/81defeaff2fb66",
+      "summary": "新人向けのGit運用提案。試行錯誤で生まれたボツ案をgit stashに「目的｜仮説｜結果」で保存し、コミット履歴を汚さず学びを蓄積。GUIで振り返りやレビュー説明に使え、将来的にAIで自動化も検討している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-28T10:14:30.000Z",
+      "contentHash": "dcdc363dbfcd"
+    },
+    {
+      "id": "cbda5043e7ac",
+      "title": "TUIとCLIでZephyrのテスト実行を人間にもAIにも使いやすくしました | Money Forward Developersのフィード",
+      "url": "https://zenn.dev/moneyforward/articles/7c2ee5c2da5c3e",
+      "summary": "bun913がZephyr向けCLIにTUIを導入。フォルダをツリー表示しj/kやp/fで即記録、カスタムフィールド表示、JSONスナップショット同期でTest Playerの操作性を改善。AI協働を意識した設計。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-28T09:45:53.000Z",
+      "contentHash": "8ac4358ea9d0"
+    },
     {
       "id": "d608ad45b300",
       "title": "Tenways nearly perfects the shareable city e-bike",
@@ -9,6 +162,24 @@
       "source": "The Verge",
       "publishedAt": "2026-02-28T08:00:00.000Z",
       "contentHash": "b16515add1a3"
+    },
+    {
+      "id": "8862dc814d97",
+      "title": "BigQueryでのUPSERT実装からの学び③ ─ ワイルドカードテーブルの扱い方 | 分析屋",
+      "url": "https://note.com/bunsekiya_tech/n/n30b06ae564d2",
+      "summary": "BigQueryのワイルドカードテーブルは複数の物理テーブルを名前の*で一括参照でき、_TABLE_SUFFIXで日付などを絞って不要な全スキャンや課金を防げる。パーティションは単一テーブル内の区切り、ワイルドカードは複数テーブルをまとめる点が違い、広告単価の履歴管理などで有用、という解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-28T08:00:00.000Z",
+      "contentHash": "4655581389c7"
+    },
+    {
+      "id": "bd17d2972a38",
+      "title": "ClaudeCodeで業務効率化！SlackBotでAIネイティブへ | Algomatic Tech Blog",
+      "url": "https://tech.algomatic.jp/entry/2026/02/28/154734",
+      "summary": "Algomatic AXはClaude Agent SDKとGCP上で@メンション起動のSlack Botを開発。画像生成・Web検索・チャンネル／スレッド検索・資料解析を実装し、ナレッジDBや定期投稿などで社内業務のAI化と運用整備を進める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-28T06:47:34.000Z",
+      "contentHash": "63ce2939861d"
     },
     {
       "id": "41ba6d4deba0",
@@ -27,6 +198,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-02-28T06:00:00.000Z",
       "contentHash": "42aa7c6b222e"
+    },
+    {
+      "id": "3cf6b4fe3e57",
+      "title": "生成AIの気になるニュース・記事（2/1~2/7) | 分析屋",
+      "url": "https://note.com/bunsekiya_tech/n/n21addf9abe72",
+      "summary": "2/1–7の生成AIまとめ：あいおいニッセイがAmazon BedrockでAIエージェント導入し分析効率化。Anthropic CEOは2027年の超人的AI到来を警告。AGIの恩恵と危険を議論。日本総研は産業特化型AIを普及策に、パーソル調査は業務利用約3割で若年・管理職が先行と報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-02-28T04:00:00.000Z",
+      "contentHash": "5d651110bf73"
     },
     {
       "id": "8fd8266f9faa",
@@ -117,6 +297,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-02-27T22:31:18.000Z",
       "contentHash": "3596b3ccac6e"
+    },
+    {
+      "id": "b7c069277850",
+      "title": "EgoScale - ロボットが器用さを学ぶ操作基盤モデル",
+      "url": "https://note.com/npaka/n/n12cff42c396e",
+      "summary": "NVIDIAのEgoScaleは、2万時間超の一人称人間動画で視覚・言語・行動を統合学習し、手首レベルの共通表現で人体とロボットの差を埋める三段階学習により、少量のロボットデータで高精度な器用操作を実現。データ量と性能のスケーリング則も確認。",
+      "source": "npaka",
+      "publishedAt": "2026-02-27T22:26:47.000Z",
+      "contentHash": "8740ee665a3c"
     },
     {
       "id": "140c713b22b0",
@@ -959,10 +1148,10 @@
       "id": "3dc4cfbeb7b9",
       "title": "Gemini API - Multimodal Function Responses",
       "url": "https://note.com/npaka/n/n4ac7107c6ba0",
-      "summary": "Gemini APIのMultimodal Function Responsesは、Function Callingで画像(PNG/JPEG/WebP)やPDFなど非テキストをツール経由でモデルに返し、視覚情報を含めて推論可能にする機能。UI操作自動化、図表解析、商品照合などに利用でき、SDKでfunctionResponse内にマルチモーダルデータをネストして扱える。",
+      "summary": "Gemini APIのMultimodal Function Responsesは、Function Callingでツール実行結果として画像やPDFなどのマルチモーダルデータをモデルに返し推論できる機能。従来のテキスト限定を拡張し、UI操作、図表解析、商品照合などに応用可能。コード例あり。",
       "source": "npaka",
       "publishedAt": "2026-02-26T03:54:15.000Z",
-      "contentHash": "20e496f7fec6"
+      "contentHash": "0db369aadabc"
     },
     {
       "id": "9de1dddd0b40",
@@ -8811,195 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-02-06T06:00:00.000Z",
       "contentHash": "4ae2502f523b"
-    },
-    {
-      "id": "bd81312de523",
-      "title": "Software Design 連載「実録 AI ネイティブプロダクト開発」がスタートします！ | LayerX エンジニアブログ",
-      "url": "https://tech.layerx.co.jp/entry/software-design-ai-native-product",
-      "summary": "@serima（LayerX）が技術評論社『Software Design』2026年3月号で新連載「実録 AI ネイティブプロダクト開発」を開始。AIエージェントを実運用で価値化するための実践知を全10回で、体験設計からバックエンド・運用監視まで解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T05:52:12.000Z",
-      "contentHash": "c3a4bbfd639f"
-    },
-    {
-      "id": "cd29c5b6ab22",
-      "title": "Things Unix can do atomically (2010)",
-      "url": "https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html",
-      "summary": "UNIX/POSIXが原子的に行える操作を列挙した記事。カーネルに処理を任せてスレッド／プロセス安全を確保する方針で、ローカルFS推奨（NFSは例外）。例：mv -Tはrenameで原子置換、link()は存在時EEXISTでロック代用。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-06T05:29:55.000Z",
-      "contentHash": "f69d3dc452c3"
-    },
-    {
-      "id": "f09754310272",
-      "title": "Systems Thinking",
-      "url": "http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html",
-      "summary": "ソフト開発には小さく始めて徐々に拡張する「進化型」と、全てを事前設計する「工学型」がある。著者は50年で3000超の分断システムを見て、統合して少数の大規模システムにすれば依存性や不整合が劇的に減り、信頼性とコストが改善すると論じる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-06T05:24:36.000Z",
-      "contentHash": "9274bf8bfca9"
-    },
-    {
-      "id": "cd6b9ba492dd",
-      "title": "GitHub Actions Self-hosted Runner 基盤の EKS バージョンアップを自動化した話 | Timee Product Team Blog",
-      "url": "https://tech.timee.co.jp/entry/2026/02/06/141426",
-      "summary": "タイミーのエンジニア徳富が、前回のEKS上での self-hosted GitHub Actions Runner 構築事例を振り返り（AWS公式ブログでも紹介）、その続編としてEKSに関する続報を紹介する記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T05:14:26.000Z",
-      "contentHash": "17bc236f6ab1"
-    },
-    {
-      "id": "341f904148b4",
-      "title": "AAAI-2026 参加報告 | TECH BLOG | 株式会社AI Shift",
-      "url": "https://www.ai-shift.co.jp/techblog/6781",
-      "summary": "AIチームの村田（@em_portero）が、1月に開催されたAAAI-2026（第40回年次大会）への参加報告をまとめた記事。株式会社AI Shiftの公式投稿として公開されています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T05:05:49.000Z",
-      "contentHash": "8b8c4b5c685a"
-    },
-    {
-      "id": "7d92474337c9",
-      "title": "選好ベースのアライメント／評価（LLM-as-a-judge）と物語アライメントに関する最新動向：サーベイ | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/4ec70e80a5c477",
-      "summary": "LLM生成物が意図とずれる問題は多く、プロンプト調整で対応することが多い。著者はアラインメント研究を調べ、AIにサーベイ論文を作成させ、自ら論文を収集してAIの文章をチェック・補足した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T05:05:01.000Z",
-      "contentHash": "5a94cd478cdb"
-    },
-    {
-      "id": "8fdb6e564118",
-      "title": "Show HN: Artifact Keeper – Open-Source Artifactory/Nexus Alternative in Rust",
-      "url": "https://github.com/artifact-keeper",
-      "summary": "Artifact Keeperは自己ホスト可能なオープンソースのフル機能アーティファクトレジストリ。45以上のネイティブ形式対応、脆弱性スキャン、SSO、WASMプラグイン、エッジ複製、Artifactory移行など全機能をOSSで提供します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-06T04:12:59.000Z",
-      "contentHash": "8c610548f938"
-    },
-    {
-      "id": "f07d38f25273",
-      "title": "GitHub Actions is slowly killing engineering teams",
-      "url": "https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/",
-      "summary": "著者は多数のCIを使ってきた経験から、GitHub Actionsは使い勝手が悪くチームを疲弊させると断じる。リポジトリ内という利便性だけで普及している。NixならGarnix、通常はBuildkiteを推奨。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-06T02:58:31.000Z",
-      "contentHash": "b74d21d34682"
-    },
-    {
-      "id": "17f28b38cf7b",
-      "title": "ANDPAD STADIUM で builderscon::3DP #1 を開催しました | ANDPAD Tech Blog",
-      "url": "https://tech.andpad.co.jp/entry/2026/02/06/100000",
-      "summary": "1月30日、ANDPAD STADIUMで3Dプリント特化のbuilderscon::3DP #1を開催。入門〜自作まで多彩な講演と展示があり、筆者は会場係として運営と作品鑑賞を担当。参加者の熱量高く満足度の高い回だった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T01:00:00.000Z",
-      "contentHash": "1480f25d9790"
-    },
-    {
-      "id": "ec347c802687",
-      "title": "Bill One QAが目指す姿 -「品質を守る」から「働き方を変える価値を届ける」組織へ | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/02/06/100000",
-      "summary": "Bill One QAは「品質を守る」門番型から脱却し、ユーザーの成功を起点に働き方を変える価値を届ける組織を目指す。不具合指摘から仮説検証へ転換し、シフトレフトでドメインと実装に早期介入して品質を再定義する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T01:00:00.000Z",
-      "contentHash": "dbaf8e11f269"
-    },
-    {
-      "id": "23cd05b8688d",
-      "title": "大規模ネットワーク解釈への挑戦 | fltech - 富士通研究所の技術ブログ",
-      "url": "https://blog.fltech.dev/entry/2026/02/06/graphai-large-scale-network-interpretation-ja",
-      "summary": "記事本文が提示されていません。要約する本文を貼るかURLを教えてください。本文が無い場合は題名からの推測で要約（精度低め）を作成します。どちらにしますか？",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T01:00:00.000Z",
-      "contentHash": "f42ebe2b831c"
-    },
-    {
-      "id": "07dae6546be8",
-      "title": "次世代モビリティインフラへの小さくて大きな一歩を踏み出す〜月極駐車場と1日貸しをつなぐワンデイパークが目指す世界〜 | Nealle Developer's Blog",
-      "url": "https://nealle-dev.hatenablog.com/entry/2026/02/06/095507",
-      "summary": "ワンデイパークはPark Directの月極駐車場を1日単位で貸し出すサービス。既存在庫へ容易導入でき、月極の空きと連携してダブルブッキングを防ぎ収益を最大化。導入100社超と急成長する一方で技術的課題も存在。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T00:55:07.000Z",
-      "contentHash": "00162b7f38d9"
-    },
-    {
-      "id": "5991aa378bf3",
-      "title": "Oracle AI World 2025 in Las Vegasレポート | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/02/06/095240",
-      "summary": "2025年10月13–17日ラスベガスで開催されたOracle AI Worldの現地レポ。日本から約400名が参加し4日間で12セッションを視聴。OracleはAIエージェント統合や大規模モデル運用、マルチクラウド（公私専用・ソブリン）とデータ移動の柔軟性を強調。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T00:52:40.000Z",
-      "contentHash": "61bd0455ce84"
-    },
-    {
-      "id": "f60a128a1044",
-      "title": "HBO is turning Baldur’s Gate into a TV show",
-      "url": "https://www.theverge.com/entertainment/874682/hbo-baldurs-gate-3-tv-show-craig-mazin",
-      "summary": "HBOが『Baldur’s Gate』をドラマ化。『The Last of Us』共同制作者のCraig Mazinが脚本・製作総指揮・ショーランナーを務め、物語は『Baldur’s Gate 3』の続編。新主人公中心ながらゲームの登場人物や俳優の参加も検討。公開時期は未定でLarianは関与していない。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-06T00:50:16.000Z",
-      "contentHash": "cb6ebf87a904"
-    },
-    {
-      "id": "33beb7630353",
-      "title": "QAエンジニアはなぜ「心配性」であるべきなのか？——健全な疑念のススメ | 株式会社ログラス テックブログのフィード",
-      "url": "https://zenn.dev/loglass/articles/429d91fdd5c481",
-      "summary": "QAエンジニアは「健全な疑念」を持ち、現状の肯定を排してライブラリの見えない変更や隠れた異常、完璧すぎるテスト結果、人為ミスの可能性を常に疑うべきだ。個人を責めずプロセスと事実に基づく対策で緊張感を保ち、製品の信頼を守る。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T00:20:47.000Z",
-      "contentHash": "b1c77b83e6ff"
-    },
-    {
-      "id": "bf07afebf825",
-      "title": "AWSを利用したMCPサーバー統合検証（後編） | TechHarmony",
-      "url": "https://blog.usize-tech.com/bedrock-agents-mcp-integration-2/",
-      "summary": "AWS Lambda上でMCPサーバーを動的にインストールしAmazon Bedrock Agentsと統合する検証。DynamoDBでユーザー設定管理、uvx/npxによる動的導入、Lambda制約や依存パッケージ化、IAM、コールドスタート対策など実装課題と性能・コストを報告。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T00:10:00.000Z",
-      "contentHash": "7417d148a198"
-    },
-    {
-      "id": "c0f1744700c6",
-      "title": "TCP参加レポート | コラボスタイル Developersのフィード",
-      "url": "https://zenn.dev/collabostyle/articles/320d2039b722d1",
-      "summary": "TCP参加レポート。生成AIでコーディングは手段、課題発見・定義力が重要に。エフェクチュエーションで小さく始めコミュニティと許容損失を重視。AIDLCやVibe Codingでプロトタイピング加速。今回で方向性と今後の行動が明確に。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T00:01:20.000Z",
-      "contentHash": "0bdbe65051c8"
-    },
-    {
-      "id": "bc8f089c6a33",
-      "title": "Google SecOpsとAWSのログ連携をキーレス認証で実現する | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/aws-logs-into-google-secops-by-keyless-federation",
-      "summary": "G-gen武井が、Google SecOpsのデータフィードでAWSのS3/SQS（CloudTrail）ログをキーレス認証（IAM Role for Identity Federation：OIDC＋STS AssumeRoleWithWebIdentity）で取り込む手順と過去記事との差分を解説。アクセスキー不要で漏洩リスク低減と運用負荷軽減を実現。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T00:00:00.000Z",
-      "contentHash": "cd4a02d6581f"
-    },
-    {
-      "id": "16c2167d7f97",
-      "title": "KENTEM TECH CONF 2025 Winterを開催しました！ | KENTEM TechBlog",
-      "url": "https://tech.kentem.jp/entry/2026/02/06/090000",
-      "summary": "12/23–24に社内オンライン技術発表会「KENTEM TECH CONF 2025 Winter」を開催。計40名が発表し、1年目のKさんがTeamsの投稿リアクション速度ランキングで総合優勝。準備の苦労や今後のアドバイス、AI活用など多彩な発表が行われた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T00:00:00.000Z",
-      "contentHash": "9c7be23d0553"
-    },
-    {
-      "id": "0c6566b1d127",
-      "title": "The RCE that AMD won't fix",
-      "url": "https://mrbruh.com/amd/",
-      "summary": "新PCのAMD AutoUpdateを逆コンパイルしたところ、設定はHTTPSでも実行ファイルのダウンロードがHTTPで行われ、MITMで改ざん可能かつ署名検証も行わず即実行するRCEを発見。AMDに報告したが「範囲外」で未修正。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-05T23:29:18.000Z",
-      "contentHash": "ea36a70d439d"
-    },
-    {
-      "id": "8c12f985bb0a",
-      "title": "Roblox is working to pull in adult players",
-      "url": "https://www.theverge.com/games/874675/roblox-earnings-q4-2025-increasing-adult-players",
-      "summary": "Robloxは年齢確認を導入し、1月31日時点でDAUの45%が確認済、うち27%が成人。成人は課金額が多く、シューティングやRPG、スポーツ・レースなど「高精細」ジャンルを拡充して18歳以上の獲得を目指す。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-05T23:14:51.000Z",
-      "contentHash": "7c6c1a600c39"
     }
   ]
 }
