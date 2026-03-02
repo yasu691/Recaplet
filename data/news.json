@@ -1,6 +1,168 @@
 {
-  "generatedAt": "2026-03-01T16:47:31.194Z",
+  "generatedAt": "2026-03-02T02:47:04.730Z",
   "items": [
+    {
+      "id": "926999ce5cd2",
+      "title": "OpenManage Enterprise Servicesプラグインをインストール・登録してみた | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/03/02/101731",
+      "summary": "OpenManage Enterprise(OME)でServicesプラグインの登録手順を解説。OME4.5は標準搭載。利用にはアクセスキーとPIN、ESRS接続が必要で、キー入力→連絡先登録→接続テスト後に設定・バージョン確認。iDRACの疑似アラートでアラート検知とサポートケース発行を検証。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-02T01:17:31.000Z",
+      "contentHash": "ef24f3171a8b"
+    },
+    {
+      "id": "be17937ebf1b",
+      "title": "巨大なiOSアプリをマルチモジュール化してみた | JCB Tech Blog",
+      "url": "https://tech.jcblab.jp/entry/2026/03/02/101727",
+      "summary": "JCBの若林がMyJCB iOSのマルチモジュール化を実践。衝突削減が目的でCoreDomainとCoreDataを分離予定だったが循環参照が発生し、両者を統合したAppCoreとUI系のCorePresentationを作成。Baseクラスを境界にコード移動やSwift Package作成、アクセス修飾子追加などを行い、まずは「動く形」を優先して約1.5ヶ月で実装した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-02T01:17:27.000Z",
+      "contentHash": "35059514863a"
+    },
+    {
+      "id": "83007d25ab28",
+      "title": "あなたはEntra IDを理解できる | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/64e6aad7acdff9",
+      "summary": "Entra ID（旧Azure AD）は企業向けのID管理で、テナントに管理者がユーザーを登録し、ログイン機能を外部API化して社内外のSaaSを統合する中央ゲート。SSOで利便性とセキュリティを両立し、多くはMicrosoft 365経由で導入される。開発者視点で仕組みを解説する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-02T01:02:43.000Z",
+      "contentHash": "6177e18ea711"
+    },
+    {
+      "id": "4f5ecc5a19af",
+      "title": "次世代AIアーキテクチャ「スパイキングニューラルネットワーク」の基本、その将来性 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/11babfc016415a",
+      "summary": "SNNは脳のスパイクで情報を伝える時間・イベント駆動型のニューラルネット。ANNの連続値同期計算と異なり発火時のみ計算して省電力。LIFモデルやレート/時間符号化で動作し、エッジAIやポストTransformer候補として注目（2026年2月時点）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-02T01:02:42.000Z",
+      "contentHash": "4ad4de62864d"
+    },
+    {
+      "id": "3ef75602443f",
+      "title": "0→1を走り切れるエンジニアは会社の未来を拓く。事業立ち上げで学んだ４つのこと | estie inside blog",
+      "url": "https://www.estie.jp/blog/entry/2026/03/02/100145",
+      "summary": "0→1を走り切れるエンジニアは会社の未来を拓く。著者は新規事業での経験から4つの学びを提示。要点は、今検証すべき仮説を目標化してチームで共有し反復すること、失敗を学びに変えること、苦しい時は小さな前進を拾い称賛し早めに相談してモメンタムを保つこと。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-02T01:01:45.000Z",
+      "contentHash": "df317bc90a5c"
+    },
+    {
+      "id": "7fbbabcc73db",
+      "title": "【協賛レポート｜後編】「AIチャレンジャーズフェス2025」パネルディスカッション-AI時代を生き抜く力 | GMO Developers",
+      "url": "https://developers.gmo.jp/technology/80245/",
+      "summary": "GMOインターネットが学生向けAIキャリアフェスを協賛。150名参加のパネルで、AIによる効率化や「コードを読む力」の重要性、非エンジニア領域の拡大、業務プロセスの見直しなど、AI時代の働き方と学びを議論した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-02T01:00:56.000Z",
+      "contentHash": "afa96d0f2626"
+    },
+    {
+      "id": "f0694bf6fbe2",
+      "title": "社内で AWS Well-Architected Mini Bootcamp を開催しました！ | MOTEX TECH BLOG",
+      "url": "https://tech.motex.co.jp/entry/2026/03/02/095625",
+      "summary": "2026-03-02に社内で「AWS Well‑Architected Mini Bootcamp」を開催し、ワークショップ形式でAWSのコスト最適化などを学んだことを報告する記事です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-02T00:56:25.000Z",
+      "contentHash": "a6a908b077c5"
+    },
+    {
+      "id": "69bc978b5167",
+      "title": "【Sansan × LayerX × ENECHANGE】運用と開発を進化させるAIの実践事例【イベントレポート】 | ENECHANGE Developer Blog",
+      "url": "https://tech.enechange.co.jp/entry/eventreport-20260129",
+      "summary": "2026年1月29日のオンラインイベントでSansan・LayerX・ENECHANGEが、環境構築やオンボーディングなど付加価値の低い作業をAIエージェントで代替する事例を紹介。Sansanは社内基盤Orbit向けに自然言語で作業を代行する「Orbit AI Agent」を導入し、Google ADK/Gemini3/Vertex等でマルチエージェントとドキュメント検索を組合せ、開発者の負担軽減と定量的効果測定を進める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-02T00:40:27.000Z",
+      "contentHash": "352bc4908e49"
+    },
+    {
+      "id": "1e1ec663015c",
+      "title": "Repro における AWS アカウント分離の取り組み Part3 - Kafka バージョンアップと KRaft 移行 | Repro Tech Blog",
+      "url": "https://tech.repro.io/entry/2026/03/02/092645",
+      "summary": "ReproのAWSアカウント分離Part3。EC2運用のKafkaを3.6→3.9へアップグレードしZooKeeperからKRaftへ移行。mitamae/hochoで構成管理とローリング再起動を自動化し、Java11→17やOS更新も併施。順序はdev→staging→production。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-02T00:26:45.000Z",
+      "contentHash": "54d43a931e23"
+    },
+    {
+      "id": "c88f9ccaba93",
+      "title": "A robot arm with puppy dog eyes is just one of Lenovo&#8217;s new desktop AI concepts",
+      "url": "https://www.theverge.com/tech/885228/lenovo-ai-workmate-companion-work-concept-robot-arm-desktop-clock-hub",
+      "summary": "LenovoはMWC2026でデスク向けAIコンセプト「AI Workmate」を発表。子犬のような目を持つ可動ロボットアームで文書スキャンや投影が可能で、ローカルAIで作業支援とオフィスでの“同伴”を目指す。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-01T23:01:00.000Z",
+      "contentHash": "d65f1c90a348"
+    },
+    {
+      "id": "be113935751f",
+      "title": "The new Yoga 9i 2-in-1 from Lenovo has an angled ‘canvas mode’ for easier note-taking",
+      "url": "https://www.theverge.com/tech/885724/lenovo-yoga-9i-2-in-1-angled-canvas-mode",
+      "summary": "LenovoがMWC2026で新Yogaを発表。注目は14型Yoga 9i 2-in-1（2880×1800、120Hz OLED）で、Yoga Pen Gen2のケースを蓋に付けると画面が傾く「キャンバスモード」で描画・筆記が快適。他に15型Pro 7aと14型Slim 7i Auraも。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-01T23:01:00.000Z",
+      "contentHash": "13d873359ff5"
+    },
+    {
+      "id": "0603caf74ef3",
+      "title": "Lenovo’s redesigned ThinkPad Detachable tablet has a bigger screen and legit keyboard",
+      "url": "https://www.theverge.com/tech/886134/lenovo-thinkpad-x13-detachable-tablet-t14-t14s-t16-laptops-price-specs",
+      "summary": "LenovoがMWC 2026でThinkPadを5機種とThinkBookを発表。注目は5年ぶりのタブレット型ThinkPad「X13 Detachable」で、画面が大型化し実用的なキーボードを装備。価格は約$1,754〜$1,999。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-01T23:01:00.000Z",
+      "contentHash": "be346f6eefc4"
+    },
+    {
+      "id": "ccbd2fb85315",
+      "title": "Lenovo made a Framework-like laptop with modular ports — and a second screen",
+      "url": "https://www.theverge.com/tech/886814/lenovo-thinkbook-modular-ai-pc-concept-mwc-2026-specs",
+      "summary": "MWC2026で公開された「ThinkBook Modular AI PC Concept」は、Framework風の着脱式ポート2つと磁石で背面に付く取り外し可能な14インチ第2画面を備え、キーボード/トラックパッドを外して第2画面と差し替え二画面化できる試作機です。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-01T23:01:00.000Z",
+      "contentHash": "764ad1292f18"
+    },
+    {
+      "id": "d6ea6d7a8d5a",
+      "title": "This Windows gaming handheld has a screen that folds in half",
+      "url": "https://www.theverge.com/tech/886848/lenovo-legion-go-fold-concept-windows-foldable-pc-gaming-handheld",
+      "summary": "Lenovoの試作機Legion Go Foldは折りたたみPOLEDを搭載したWindowsゲーミングハンドヘルド。7.7インチから11.6インチに展開でき、着脱式コントローラーやフォリオケースでミニノート化。コントローラーは四辺に配置でき、縦横や分割画面に対応。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-01T23:01:00.000Z",
+      "contentHash": "fcddb107e75b"
+    },
+    {
+      "id": "80da258013d3",
+      "title": "WebMCP is available for early preview",
+      "url": "https://developer.chrome.com/blog/webmcp-epp",
+      "summary": "WebMCPがプレビュー公開。WebサイトがAIエージェントと構造化された対話で連携できる標準を提供し、予約やサポート申請などの操作を迅速・正確に実行。宣言型API（HTMLフォームで定義）と命令型API（複雑な動作対応）を導入。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-01T22:13:58.000Z",
+      "contentHash": "9e0d0cd79135"
+    },
+    {
+      "id": "a84b17f2ea36",
+      "title": "Portable Sonos Play speaker leaks on Canadian Best Buy",
+      "url": "https://www.theverge.com/tech/887220/sonos-play-leak",
+      "summary": "Sonosの未発表ポータブルスピーカー「Play」がカナダのBest Buyに掲載。Move 2より小型で持ち手付き。CAD$399.99、発売は2026/3/31。Wi‑Fi（最大32台マルチルーム）、AirPlay2、Bluetooth5.3、AUX、Trueplay、IP67防塵防水、バッテリ24時間、ワイヤレス充電台付。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-01T20:10:10.000Z",
+      "contentHash": "af9a5c4188f3"
+    },
+    {
+      "id": "1eec4237aee1",
+      "title": "Kalshi voids some bets on Khamenei’s ouster because it’s ‘directly tied to death’",
+      "url": "https://www.theverge.com/tech/887210/kalshi-void-bets-khamenei-death",
+      "summary": "予測市場Kalshiは「ハメネイが最高指導者でなくなるか」市場を死に直接結びつくとして一部無効化し、死亡前の最終価格で決済、手数料返金と死亡後購入者の返金を実施。利用者は規約や文言の不明確さを批判。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-01T18:06:10.000Z",
+      "contentHash": "66253b465f8e"
+    },
+    {
+      "id": "2c3070ba0334",
+      "title": "When does MCP make sense vs CLI?",
+      "url": "https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html",
+      "summary": "著者はMCPは既に衰退中と断じる。業界の過剰反応で導入が進んだが、LLMは既にCLIを使いこなし、CLIは人間も同じコマンドで検証・デバッグでき、パイプ等で合成可能。MCPに実利はない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-01T16:54:49.000Z",
+      "contentHash": "00ee8883d634"
+    },
     {
       "id": "a81dd0e85bb8",
       "title": "Lego’s Smart Brick is here, and it transforms these new Star Wars sets",
@@ -11,6 +173,15 @@
       "contentHash": "592581ca845d"
     },
     {
+      "id": "0d484c352c48",
+      "title": "New iron nanomaterial wipes out cancer cells without harming healthy tissue",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260228093456.htm",
+      "summary": "オレゴン州立大学の研究者が、腫瘍の酸性環境と高い過酸化水素を利用して二重の酸素反応を起こし、がん細胞を内部から酸化ストレスで壊死させる鉄系ナノ素材を開発。マウスの乳がんを副作用なく消滅させ、研究はAdvanced Functional Materialsに掲載。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-01T15:09:55.000Z",
+      "contentHash": "33cd6f4ed948"
+    },
+    {
       "id": "5e7ef419177c",
       "title": "Soundcore’s Space 2 are an evolution of its budget headphones",
       "url": "https://www.theverge.com/tech/886180/soundcore-space-2-announcement-mwc-2026",
@@ -18,6 +189,15 @@
       "source": "The Verge",
       "publishedAt": "2026-03-01T15:00:00.000Z",
       "contentHash": "88525ba0db46"
+    },
+    {
+      "id": "295f8f63bc27",
+      "title": "Why XML tags are so fundamental to Claude",
+      "url": "https://glthr.com/XML-fundamental-to-Claude",
+      "summary": "申し訳ありませんが、外部サイトを直接閲覧できません。記事本文を貼り付けていただければ、200字以内で日本語要約します。HNコメントも要約希望なら一緒に貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-01T14:52:22.000Z",
+      "contentHash": "ba13db58a1db"
     },
     {
       "id": "3b459f3d53d4",
@@ -36,6 +216,24 @@
       "source": "Hacker News",
       "publishedAt": "2026-03-01T14:09:24.000Z",
       "contentHash": "951e275802d5"
+    },
+    {
+      "id": "7d6df8bebec8",
+      "title": "Ape Coding [fiction]",
+      "url": "https://rsaksida.com/blog/ape-coding/",
+      "summary": "Ape codingは人間が手でソースを手書きする開発手法。AIエージェント主導化で生まれた揶揄語を肯定的に再評価し、手作業の熟練や可読性を重視。AI生成コードは膨大で理解・テストが困難と批判される。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-01T14:07:05.000Z",
+      "contentHash": "8459475c88d3"
+    },
+    {
+      "id": "e771df8c292f",
+      "title": "AI is making junior devs useless",
+      "url": "https://beabetterdev.com/2026/03/01/ai-is-making-junior-devs-useless/",
+      "summary": "LLMでコードが簡単に書ける今、初心者は「浅い習熟」で実務経験や失敗から得る直感を積めず、コードの意図を説明できない危険がある。熟練者は失敗経験から得た洞察が価値。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-01T13:49:21.000Z",
+      "contentHash": "194c90084da5"
     },
     {
       "id": "89155799bbfe",
@@ -131,10 +329,10 @@
       "id": "7d3348d200b0",
       "title": "NVIDIA Brev で Isaac Lib x Isaac Sim を試す",
       "url": "https://note.com/npaka/n/n8acd18865d8c",
-      "summary": "NVIDIA BrevでIsaac Lib×Isaac Simを試したまとめ。Brevはテンプレートで数分でGPU環境を構築でき、Isaac Launchableのデプロイ手順、Brev CLI/VSCode接続、nvidia-smiでの動作確認、Docker上でのIsaac Sim起動方法を解説。",
+      "summary": "NVIDIA BrevでIsaac Lib×Isaac Simを試した記録。Brevはテンプレートで短時間にGPU環境（例:L40S）を構築可能。コンソールでIsaac Launchableをデプロイし、Brev CLI/VSCodeで接続、nvidia-smiで確認してdocker内でIsaac Simを起動・動作確認した。",
       "source": "npaka",
       "publishedAt": "2026-03-01T01:43:20.000Z",
-      "contentHash": "9336876f4fd0"
+      "contentHash": "ebb3932530f1"
     },
     {
       "id": "1f18d6b68cfa",
@@ -176,10 +374,10 @@
       "id": "2d94b4bc7291",
       "title": "HumanoidBench が提供する27種類のタスクの概要",
       "url": "https://note.com/npaka/n/n2eb2a29e6f36",
-      "summary": "HumanoidBenchはMuJoCoベースの高自由度ヒューマノイド研究用シミュレーションベンチで、Unitree H1等を含むロボットモデルと視覚・触覚を備えた多モーダル観測を提供。27の課題（移動12、全身操作15）で安全・低コストにアルゴリズム評価・比較を行える。",
+      "summary": "HumanoidBenchはMuJoCo基盤の高次元ヒューマノイドシミュ環境で、最大61DoFのロボットや視覚・触覚センサを備え、移動12種・全身操作15種の計27タスクによる安全で低コストな標準評価基盤を提供し研究を促進する。",
       "source": "npaka",
       "publishedAt": "2026-02-28T21:07:41.000Z",
-      "contentHash": "1b8cd2f40702"
+      "contentHash": "f75d21bf9e68"
     },
     {
       "id": "500c4cbabc4f",
@@ -369,15 +567,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-02-28T02:59:02.000Z",
       "contentHash": "074508930ec6"
-    },
-    {
-      "id": "83007d25ab28",
-      "title": "あなたはEntra IDを理解できる | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/64e6aad7acdff9",
-      "summary": "記事はMicrosoft Entra ID（旧Azure AD）を初心者向けに解説。企業専用のテナントでユーザーを管理し、社内外のSaaSを統合してシングルサインオンを実現。管理者は一元的にアクセス制御・退職者の権限剥奪が可能で、多くはMicrosoft 365経由で導入されている点を説明する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-28T02:20:00.000Z",
-      "contentHash": "1a04e9725db6"
     },
     {
       "id": "fd51498e6a90",
@@ -668,15 +857,6 @@
       "contentHash": "5f16d2c95f6a"
     },
     {
-      "id": "4f5ecc5a19af",
-      "title": "次世代AIアーキテクチャ「スパイキングニューラルネットワーク」の基本、その将来性 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/11babfc016415a",
-      "summary": "SNNは脳のスパイクで情報を伝える次世代ニューラルネットワーク。イベント駆動で計算・省電力性に優れ、LIFモデルやレート／時間符号化で動作。ポストTransformerの有力候補として研究が進む。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-27T11:00:08.000Z",
-      "contentHash": "325082e22668"
-    },
-    {
       "id": "3f79e08e2a8e",
       "title": "F-Droid Board of Directors nominations 2026",
       "url": "https://f-droid.org/2026/02/26/board-of-directors-nominations.html",
@@ -959,10 +1139,10 @@
       "id": "84551aab4538",
       "title": "Nano Banana 2 の概要",
       "url": "https://note.com/npaka/n/ne530e6d8cd18",
-      "summary": "最新画像モデル「Nano Banana 2（Gemini 3.1 Flash Image）」は、Pro級の知識・高品質・推論力を超高速で提供。Web連携で現実知識を反映した精密な描写や、画像内テキストの高精度生成・翻訳が可能で、インフォグラフィック等の迅速な編集・反復に適しています。",
+      "summary": "最新画像モデル「Nano Banana 2」（Gemini 3.1 Flash Image）は、Proの高品質や推論力を超高速で実現。現実世界知識を使った精密レンダリングや高精度テキスト描画・翻訳を広く提供し、迅速な編集や多様なインフォグラフィック生成を可能にする。",
       "source": "npaka",
       "publishedAt": "2026-02-26T20:39:25.000Z",
-      "contentHash": "02d65893c269"
+      "contentHash": "031266943e29"
     },
     {
       "id": "93f318d61c9a",
@@ -1427,10 +1607,10 @@
       "id": "e0f7f57d4d9c",
       "title": "Flow のアップデート - 2026年2月",
       "url": "https://note.com/npaka/n/nbc52f336c121",
-      "summary": "Flowの2026年アップデート：画像生成重視のUIを再設計し、Whisk・ImageFX・Nano Bananaを統合。無料生成や3月からの資産ライブラリ転送に対応。新アセットグリッドで管理が容易に、投げ縄ツールや直接描画で自然言語による精密な画像・動画編集（オブジェクト追加/削除、クリップ延長、カメラ調整）も可能。ローンチ以降15億点超を制作。",
+      "summary": "Flowが再設計され画像生成を強化。Whisk・ImageFX・Nano Bananaを統合し無料生成や3月からのアセット移行を実装。新アセットグリッドや投げ縄ツールで直感的編集、動画の延長・オブジェクト追加・削除・カメラ調整が可能。開始以降15億点超の成果。",
       "source": "npaka",
       "publishedAt": "2026-02-25T22:39:15.000Z",
-      "contentHash": "e02255af612d"
+      "contentHash": "c4018981f4af"
     },
     {
       "id": "919b9461cb73",
@@ -8820,186 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-02-06T17:34:09.000Z",
       "contentHash": "fe346a1d8167"
-    },
-    {
-      "id": "35db9bbb615e",
-      "title": "Fraud investigation is believing your lying eyes",
-      "url": "https://www.bitsaboutmoney.com/archive/fraud-investigation/",
-      "summary": "ミネソタの社会支援制度の不正を独立記者が暴露しようとしたが、証拠や認識基準に問題があり二次媒体に否定された。一方で「子どもがいない保育所」という生々しい証拠で拡散。米国では不正が政治化され、過大期待や過小評価が混在。著者は金融業の経験から不正は実務上深刻で完全撲滅は現実的でないと指摘する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-06T17:24:32.000Z",
-      "contentHash": "04a194b445db"
-    },
-    {
-      "id": "7c1566609fae",
-      "title": "Aura’s Aspen digital frame is a great gift, especially now that it’s $30 off",
-      "url": "https://www.theverge.com/gadgets/874904/aura-aspen-kobo-libra-colour-deal-sale",
-      "summary": "Auraの12インチデジタルフォトフレーム「Aspen」がAmazon・Best Buy・公式で$199（$30引き）。紙風テクスチャのアンチグレア画面、調節可能な金属スタンド、1600×1200のHD表示でLive Photos対応、遠隔で写真共有できるバレンタイン向けの一品。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-06T17:01:11.000Z",
-      "contentHash": "64f228977cdb"
-    },
-    {
-      "id": "905142540c7a",
-      "title": "The Alexa app is so bad I&#8217;m using Siri again",
-      "url": "https://www.theverge.com/tech/874792/the-alexa-app-is-so-bad-im-using-siri-again",
-      "summary": "AmazonのAlexaアプリがUIを刷新し、AI支援を前面に出したことで、従来便利だった音声での買い物リスト追加やEcho Show表示が使いにくくなり、筆者はAppleのリマインダーに乗り換えた。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-06T16:22:48.000Z",
-      "contentHash": "8cc6a60c85a3"
-    },
-    {
-      "id": "b0570df41b59",
-      "title": "The Waymo World Model",
-      "url": "https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation",
-      "summary": "WaymoはGenie 3を基にした「Waymo World Model」を発表。写真・LiDARなど高忠実度の多センサー仮想環境を生成し、稀な事象も再現・言語や入力で制御可能。自動運転の大規模シミュレーションと安全検証を強化。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-06T16:20:42.000Z",
-      "contentHash": "be1f7bd5ab91"
-    },
-    {
-      "id": "6be8cdc24868",
-      "title": "Analogue’s 4K N64 is getting five new transparent color options",
-      "url": "https://www.theverge.com/tech/874494/analogue-3d-4k-n64-console-prototype-limited-editions",
-      "summary": "Analogueが現代版N64「Analogue 3D」に、任天堂の未発売プロトタイプを再現した透明な限定5色を発表。2月9日8時（PT）に同社サイトで発売、各299.99ドル、出荷は24〜48時間内予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-06T16:00:00.000Z",
-      "contentHash": "f119ca6688e5"
-    },
-    {
-      "id": "fb6d899b0379",
-      "title": "What happens when Waymo runs into a tornado? Or an elephant?",
-      "url": "https://www.theverge.com/transportation/874771/waymo-world-model-simulation-google-deepmind-genie-3",
-      "summary": "WaymoはGoogle DeepMindの世界生成AI「Genie 3」を使い、写実的で対話的な3D仮想空間「World Model」を構築。竜巻や象などの極端なケースを含むシナリオを生成し、自動運転車の難事例検証を行う。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-06T16:00:00.000Z",
-      "contentHash": "293ef81d55d5"
-    },
-    {
-      "id": "d1f015191bd1",
-      "title": "Sheldon Brown's Bicycle Technical Info",
-      "url": "https://www.sheldonbrown.com/",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文か要点をここに貼っていただければ、200文字以内で日本語要約を作成します。HNのコメントも要約希望なら、それも貼ってください。必要なら、Sheldon Brownサイトの一般的な内容説明（自転車整備の総合ガイド等）を基に要約も可能です。どちらにしますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-06T15:40:42.000Z",
-      "contentHash": "47b5869f5cfc"
-    },
-    {
-      "id": "3e9b50ff2ca0",
-      "title": "Microsoft open-sources LiteBox, a security-focused library OS",
-      "url": "https://github.com/microsoft/litebox",
-      "summary": "LiteBoxはホストとのインターフェイスを絞り攻撃面を減らすセキュリティ重視のライブラリOS。Rust風の「North」APIと「South」プラットフォームで相互運用し、カーネル/非カーネル両対応。未変更のLinuxをWindowsで動作、Linux上のサンドボックス、SEV SNPやOP-TEE対応など用途多様。開発中でAPI変更の可能性あり。MITライセンス。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-06T15:13:04.000Z",
-      "contentHash": "e5124359da8c"
-    },
-    {
-      "id": "813daa7ea366",
-      "title": "AG1 is a lot less science-y than it sounds",
-      "url": "https://www.theverge.com/column/874696/optimizer-ag1-wellness-report-card-greens-powder",
-      "summary": "Athletic Greens（AG1）は70以上の成分を含むグリーンパウダー。広告やインフルエンサーは「clinically backed」と謳うが、実際の科学的根拠は曖昧で過剰な「サイエンス洗脳」と批判されている、という指摘。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-06T15:00:00.000Z",
-      "contentHash": "653d247b90a6"
-    },
-    {
-      "id": "ac9e5242f75d",
-      "title": "How Epstein became a tech influencer",
-      "url": "https://www.theverge.com/podcast/874768/epstein-files-tech-anthropic-ads-vergecast",
-      "summary": "エプスタイン文書にはイーロン・マスクやビル・ゲイツら著名テック経営者の名が多数登場。関係の濃淡は様々だが、富と権力を持つ男たちの特権的な世界の構図が浮かび上がり、不穏感を与える。The Vergecastで解説。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-06T14:24:30.000Z",
-      "contentHash": "56abff55686a"
-    },
-    {
-      "id": "00fe89180b7d",
-      "title": "AI駆動時代の中で将来的なインフラ業務の変化について | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/2d595a5cc92854",
-      "summary": "AIによりTerraform等でインフラ構築が自動化され、「作る」業務は激減。インフラエンジニアは設計・意思決定や運用フロー設計、セキュリティ・ガバナンス強化が主業務に。Policy as Codeや批判的思考、問いを立てる力が重要となり人材は二極化する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T14:15:01.000Z",
-      "contentHash": "89ad2b21d68a"
-    },
-    {
-      "id": "98c0e2e9b1d6",
-      "title": "Vibe Codingを使用して、Terraformインフラ構築した結果 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/43289d938d6940",
-      "summary": "GitHub Copilot（Vibe Coding）でTerraformを使いAzureインフラを自動生成した報告。著者は6年以上のクラウド経験があり、要件確定で1環境を20〜30分でデプロイ可能。構成例とプロンプトを紹介（コードは非公開）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T14:00:05.000Z",
-      "contentHash": "dd78c9fd4420"
-    },
-    {
-      "id": "992c2c720efc",
-      "title": "Hackers (1995) Animated Experience",
-      "url": "https://hackers-1995.vercel.app/",
-      "summary": "申し訳ありませんが外部サイトを直接参照できません。記事本文を貼り付けるか主要ポイントを教えてください。HNコメントも要約希望なら併記してください。200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-06T13:49:55.000Z",
-      "contentHash": "20784adaa54c"
-    },
-    {
-      "id": "3aac697a21c7",
-      "title": "Claude Code on Amazon Bedrock を開発プロジェクトで使う際の設定ファイル構成について考える | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/claude-code-settings-structure",
-      "summary": "サーバーワークスの宮本による、開発プロジェクトでClaude CodeをAmazon Bedrock経由で使う際の設定構成整理。設定優先順（管理設定>コマンド引数>.claude/settings.local.json>.claude/settings.json>~/.claude/settings.json）と共有設定例（aws sso loginで認証自動更新、.env読み取り拒否、CLAUDE_CODE_USE_BEDROCK=1や非必須トラフィック無効化）や最小権限の考え方を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T13:02:45.000Z",
-      "contentHash": "364e90015524"
-    },
-    {
-      "id": "05378ba63090",
-      "title": "Can China’s No. 2 automaker make it in America?",
-      "url": "https://www.theverge.com/transportation/874551/geely-volvo-china-cars-us-software-restrictions",
-      "summary": "中国第2位の自動車メーカー吉利（Geely）が米国進出・現地生産を模索。長年の関税や地政学的障壁で遠ざかってきたが、米市場では車両ソフトも含めサイバーセキュリティ規制に従う必要がある。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-06T13:00:00.000Z",
-      "contentHash": "f5c2249f9e7e"
-    },
-    {
-      "id": "1c16447068ff",
-      "title": "How the men in the Epstein files defeated #MeToo",
-      "url": "https://www.theverge.com/tech/874721/epstein-thiel-musk-trump-metoo",
-      "summary": "エプスタイン文書のメールで、“反ウォーク”を名乗る有力男性たちが#MeTooの追及をかわし、互いに守り合って説明責任を回避していた実態が明らかになった、と報じる記事。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-06T13:00:00.000Z",
-      "contentHash": "4ad34851de51"
-    },
-    {
-      "id": "060d62964cac",
-      "title": "Uber found liable for sexual assault in first of thousands of similar lawsuits",
-      "url": "https://www.theverge.com/transportation/874751/uber-sexual-assault-federal-case-verdict-liable",
-      "summary": "フェニックスの連邦陪審はウーバーに乗客レイプの責任を認め、被害者ジェイリン・ディーンへの賠償850万ドルを命じた。2023年11月の事件で、約3000件の類似訴訟に影響する可能性。ウーバーは従来、運転手の犯罪責任を否定してきた。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-06T12:54:00.000Z",
-      "contentHash": "b8c88a8ce69b"
-    },
-    {
-      "id": "370cb716694c",
-      "title": "TikTok&#8217;s infinite scroll is too addictive, say EU regulators",
-      "url": "https://www.theverge.com/policy/874746/tiktok-addictive-eu-regulators-infinite-scroll-notifications-autoplay",
-      "summary": "欧州委員会はTikTokの「無限スクロール」「自動再生」「通知」「高度に個人化された推薦」が依存性を高め、デジタルサービス法（DSA）に抵触する可能性があるとする予備調査を公表。確定すれば罰金やサービスの基本設計変更を命じられる可能性がある。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-06T12:41:21.000Z",
-      "contentHash": "41f7052d36fc"
-    },
-    {
-      "id": "0658cb4bf95c",
-      "title": "RSA 暗号をざっくり理解して暗号化と復号をやってみる | アルダグラム Tech Blogのフィード",
-      "url": "https://zenn.dev/aldagram_tech/articles/trying-rsa-encryption",
-      "summary": "著者が高校数学の範囲でRSAを解説。N=pqとオイラーの定理からa^{ed}≡a (mod N) を導き、公開鍵(e,N)・秘密鍵(d,N)を生成。例：p=61,q=53→N=3233,e=17,d=2753。暗号化C=M^e mod N、復号M=C^d mod N（例：2026→352）を実演。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-06T12:18:24.000Z",
-      "contentHash": "31e6adcf97b4"
-    },
-    {
-      "id": "194a56dd2e8c",
-      "title": "I now assume that all ads on Apple news are scams",
-      "url": "https://kirkville.com/i-now-assume-that-all-ads-on-apple-news-are-scams/",
-      "summary": "AppleがTaboolaと提携してApple Newsに配信される広告はチャムボックス風で反復的、最近登録されたドメインやAI生成風のクリエイティブが多く、詐欺広告の疑いが強いため著者は有料化に否定的と指摘。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-06T12:16:43.000Z",
-      "contentHash": "9b57da8ad74d"
     }
   ]
 }
