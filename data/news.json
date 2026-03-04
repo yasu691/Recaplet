@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-03-04T02:42:27.719Z",
+  "generatedAt": "2026-03-04T09:01:32.439Z",
   "items": [
+    {
+      "id": "55414075f5de",
+      "title": "Kiroでもペルソナを付与することでデザインが変わる！ | ForgeVision Engineer Blog",
+      "url": "https://techblog.forgevision.com/entry/kiro/persona",
+      "summary": "Kiroでペルソナを付与すると出力デザインが変わるか検証。ステアリングファイル生成後にproduct.mdへペルソナを追記。ペルソナなしはシンプル画面、女性カフェ店員ペルソナでは色合いや文言が可愛くなり、タスク完了時に励ましコメントが表示されるようになった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-04T07:01:27.000Z",
+      "contentHash": "27f1d34c9ecc"
+    },
+    {
+      "id": "507c9c173714",
+      "title": "Girls AI Scholarship by STORES 第3期生を募集します！ | STORES Product Blog",
+      "url": "https://product.st.inc/entry/girlsaischolarship3",
+      "summary": "STORESが女性学生向けAIプログラミング学習継続支援「Girls AI Scholarship by STORES」第3期を募集。Cursor ProまたはClaude Code Pro3ヶ月分、Discord支援、4/7オンライン講習、6/19任意懇親会。最大20名、18歳以上の女性自認学生でプログラミング経験者が対象。応募締切2026/3/30。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-04T07:01:26.000Z",
+      "contentHash": "4ebf7019453b"
+    },
+    {
+      "id": "48b0860c1942",
+      "title": "Dependabotレビュー専用プロンプトを作って日常業務を捗らせてみた | Rentio Tech Blogさんのフィード",
+      "url": "https://zenn.dev/rentio/articles/dependabot-review-prompt",
+      "summary": "レンティオのエンジニアが、VS CodeのGitHub Copilot Chat用にDependabotレビュー専用プロンプトを作成しレビュー作業を効率化。groupsでPRをまとめるdependabot.yml例と、.github/promptsに置くプロンプト（添付の更新表をそのまま出力する手順）を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-04T06:01:30.000Z",
+      "contentHash": "3d1aa40334a2"
+    },
+    {
+      "id": "37b769b3337d",
+      "title": "Motorola GrapheneOS devices will be bootloader unlockable/relockable",
+      "url": "https://grapheneos.social/@GrapheneOS/116160393783585567",
+      "summary": "外部URLへ直接アクセスできないため、記事本文をここに貼り付けてください。あるいは要点を教えていただければ、200文字以内で日本語要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-04T00:58:31.000Z",
+      "contentHash": "3071004f6f88"
+    },
     {
       "id": "ed463268ff0c",
       "title": "Anker’s last-gen sleep buds are nearly 40 percent off ahead of daylight saving time",
@@ -23,10 +59,10 @@
       "id": "25830fc0c7cb",
       "title": "ROS 2 の DDS における QoS の設定項目",
       "url": "https://note.com/npaka/n/n6aebffc82b17",
-      "summary": "ROS2のDDSでQoSはトピックごとの通信品質設定です。信頼性、永続性、履歴/深さ、デッドライン、生存通知、寿命、時間フィルタ、資源制限などを使い分け、Pub/Sub間で互換性が合わないと通信不可。例：センサはBEST_EFFORT+KEEP_LAST、制御はRELIABLE+KEEP_LAST。",
+      "summary": "ROS 2のDDS QoSはトピックごとの通信特性（確実性・新鮮さ・遅延）を制御する設定群。主項目はReliability、Durability、History/Depth、Deadline、Liveliness/Lease、Lifespan、Time-based Filter、Resource Limits。Pub/Sub間の互換性が必須で、センサーはBEST_EFFORT+KEEP_LAST、制御はRELIABLEなどの定番プリセットがある。",
       "source": "npaka",
       "publishedAt": "2026-03-03T22:45:22.000Z",
-      "contentHash": "18fc6bd73c6e"
+      "contentHash": "a6e64f8aecc0"
     },
     {
       "id": "f9dff53820bf",
@@ -36,6 +72,15 @@
       "source": "The Verge",
       "publishedAt": "2026-03-03T21:41:25.000Z",
       "contentHash": "23ef069544a9"
+    },
+    {
+      "id": "dd7b4af937a9",
+      "title": "The best AirPods deals you can get right now",
+      "url": "https://www.theverge.com/21302051/best-apple-airpods-deals",
+      "summary": "AppleのAirPods全ラインでセール中。AirPods MaxやAirPods 4（ANCあり/なし）、AirPods Pro（第3世代）などが割引対象で、Pro3は現在219ドル（30ドル引）。主要セール以外でもお得情報をまとめています。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-03T21:00:00.000Z",
+      "contentHash": "13efdac11c14"
     },
     {
       "id": "078a31e6c315",
@@ -81,6 +126,15 @@
       "source": "Gemini",
       "publishedAt": "2026-03-03T19:00:00.000Z",
       "contentHash": "4bfdf46ef091"
+    },
+    {
+      "id": "25983846182b",
+      "title": "Google brings Android’s desktop mode to Pixel devices",
+      "url": "https://www.theverge.com/tech/888370/google-pixel-tablet-android-desktop-mode",
+      "summary": "Googleは3月のPixelアップデートで、Pixel 8以降やPixel 9/10 Pro Fold、Pixel TabletがUSB-Cで外部モニタ接続するとデスクトップ風のマルチウィンドウ表示（マウス・キーボード対応）を導入しました。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-03T19:00:00.000Z",
+      "contentHash": "daa198538035"
     },
     {
       "id": "6d9863c7e0d1",
@@ -419,10 +473,10 @@
       "id": "102ddfe4f38a",
       "title": "技研AIマーケット3 でAI同人誌を頒布します",
       "url": "https://note.com/npaka/n/ne4fffd811731",
-      "summary": "2026年3月7日開催の技研AIマーケット3（浅草橋・技研ベース）で、npakaがAI4コマ『そらみ と へにへに のゆるふわAI研究所』と技術解説付きAIストーリー漫画『そらテラ』を頒布。AIアニメ・ゲーム・ロボットのデモも展示予定。",
+      "summary": "3月7日開催の技研AIマーケット3で、AI4コマ『そらみとへにへにのゆるふわAI研究所』と技術解説付きAI漫画『そらテラ』を頒布。AIアニメ・ゲーム・ロボットのデモも展示。会場は浅草橋・技研ベース。",
       "source": "npaka",
       "publishedAt": "2026-03-02T22:29:07.000Z",
-      "contentHash": "8fed608730ab"
+      "contentHash": "74791a07dade"
     },
     {
       "id": "f5369ba63d2d",
@@ -4979,15 +5033,6 @@
       "contentHash": "bf70d6b0e928"
     },
     {
-      "id": "dd7b4af937a9",
-      "title": "Here are the best AirPods deals you can get right now",
-      "url": "https://www.theverge.com/21302051/best-apple-airpods-deals",
-      "summary": "記事はAirPods各モデルの最新セール情報をまとめています。AirPods 4（ANCあり/なし）、AirPods Pro 3、AirPods Maxが割引中で、AirPods 4は最安99ドルから。大型セール時の大幅値引き例も紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-18T20:00:28.000Z",
-      "contentHash": "b8fd675323b4"
-    },
-    {
       "id": "a740f0d6b591",
       "title": "Polestar aims to shake off EV doldrums with 4 new models in 3 years",
       "url": "https://www.theverge.com/transportation/880808/polestar-four-new-models-ev-europe",
@@ -8955,51 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-02-09T01:20:06.000Z",
       "contentHash": "282a228e5e25"
-    },
-    {
-      "id": "a1322ac5ee41",
-      "title": "Chromeってどんなふうにうごいているの？ | iimon TECH BLOG",
-      "url": "https://tech.iimon.co.jp/entry/2026/02/09/101813",
-      "summary": "Chromeのマルチプロセス構造を解説し、採用による利点（安全性・安定性・並列処理など）、発生する課題（プロセス間通信・メモリ管理など）とその対策をまとめた記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-09T01:18:13.000Z",
-      "contentHash": "aa532d25c7c7"
-    },
-    {
-      "id": "a9acb19e870d",
-      "title": "AI体験で地域をつなぐ──GMO hinata が挑むCSR活動最前線 | GMO Developers",
-      "url": "https://developers.gmo.jp/technology/77722/",
-      "summary": "GMOインターネットグループは宮崎にオフィスを構え、地域に根ざした企業を目指して様々な取り組みを行い、地元に親しまれるよう「GMO hinata」の愛称で活動しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-09T01:00:00.000Z",
-      "contentHash": "79e63e9c06aa"
-    },
-    {
-      "id": "cd4936e18ff7",
-      "title": "オプティムにおけるPlatform Engineeringの現在地 | OPTiM TECH BLOG",
-      "url": "https://tech-blog.optim.co.jp/entry/2026/02/09/100000",
-      "summary": "オプティムのKubernetes基盤Cavorは、2023起動→2024マルチテナント→2025利用拡大で社内標準化。2025はKubecost導入や監視・認証・移行機能強化で改善し、可用性・性能課題に対応。2026は製品部門100%利用を目指し、テナント品質可視化やガードレール強化、セルフサービスやドキュメント改善を進める。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-09T01:00:00.000Z",
-      "contentHash": "e2d0f250e1c5"
-    },
-    {
-      "id": "c4af9f746876",
-      "title": "New RelicのSNMP監視でカスタムMIBを設定する方法 - ktranslate活用術 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/newrelic-custom-mib-setup-guide",
-      "summary": "New RelicのNetwork ObservabilityでカスタムMIBを設定する完全ガイド。PySMIでのMIB変換、実機でのSNMP Walk検証、YAMLプロファイル作成手順を詳述し、ベンダー固有メトリクスの監視を可能にする。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-09T01:00:00.000Z",
-      "contentHash": "2bf1e284eaa8"
-    },
-    {
-      "id": "7291bda33736",
-      "title": "フロントエンド技術選定: Next.js以外の選択肢を模索するテックトーク | もふもふ技術部",
-      "url": "https://www.mof-mof.co.jp/tech-blog/2026/02/09/093215",
-      "summary": "mofmofの週刊テックトークで「Next.jsを使わない技術選定」を議論。SSRの要否を分岐点に、Remix、Angular、Nuxt、Adonis、Redwoodなどの代替案と各メリット・デメリットを検討した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-09T00:32:15.000Z",
-      "contentHash": "556cb5d53317"
     }
   ]
 }
