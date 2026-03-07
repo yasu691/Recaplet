@@ -1,23 +1,50 @@
 {
-  "generatedAt": "2026-03-07T02:54:02.650Z",
+  "generatedAt": "2026-03-07T08:49:41.708Z",
   "items": [
+    {
+      "id": "47eb771d8b19",
+      "title": "Claude Codeに一言投げてDatabricksにダッシュボードを生やす | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/9596db1e506a79",
+      "summary": "Databricks AI Dev KitでClaude Codeに自然言語指示するだけで、Unity Catalogを探索しSilverからGoldテーブルを作成、Databricks上にダッシュボードを自動生成する手順とNYCタクシーデータ事例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-07T03:12:29.000Z",
+      "contentHash": "50f4b0523b4b"
+    },
+    {
+      "id": "e78f30e0e1e9",
+      "title": "DJI will pay $30K to the man who accidentally hacked 7,000 Romo robovacs",
+      "url": "https://www.theverge.com/news/890982/dji-pay-sammy-azdoufal-robot-vacuum-hack-romo-security",
+      "summary": "DJIは、PS用ゲームパッドで操作中に約7,000台のRomoロボ掃除機へアクセス可能と示したサミー・アズドゥファル氏に対し、1件の発見につき3万ドルを支払うと通知した。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-07T02:59:32.000Z",
+      "contentHash": "13311103c29a"
+    },
+    {
+      "id": "e323a014a202",
+      "title": "実装の前に、Microsoft Agent Frameworkの全体像を掴む | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/a4aa21fba689c6",
+      "summary": "Microsoft Agent Frameworkは、自律的なAIエージェントとマルチエージェントワークフローを構築・統合する開発基盤。エージェントとワークフローを中心に、Foundryでの運用、履歴・メモリ・RAG・UI連携など本番向け機能を提供する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-07T01:30:02.000Z",
+      "contentHash": "48a99759db9a"
+    },
     {
       "id": "cc6d0c1eb809",
       "title": "【Microsoft Agent Framework】- DevUIを使う方法 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/e43a4ae0799d4d",
-      "summary": "Microsoft Agent FrameworkのDevUI起動方法を解説。serve(entities=[agent/workflow], port=8000, auto_open=True)でChat型（AzureOpenAIChatClient＋ツール）やワークフロー型（Executor/WorkflowBuilder）を立ち上げる例を示す。",
+      "summary": "agent-frameworkのDevUIは、from agent_framework.devui import serve を使い、serve(entities=[...], port=8000, auto_open=True)でエージェントやワークフローを起動します。記事はAzureOpenAIを使ったChat型（get_weatherツール例）とExecutor/WorkflowBuilderを使ったワークフロー型（UpperCase→reverse_text）のサンプルコードを示しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-07T01:29:02.000Z",
-      "contentHash": "b4a8a7f4a677"
+      "contentHash": "ce08d3ed9c86"
     },
     {
       "id": "4aac8c891243",
       "title": "Plasma Bigscreen – 10-foot interface for KDE plasma",
       "url": "https://plasma-bigscreen.org",
-      "summary": "Plasma BigscreenはTV・HTPC向けの無料オープンソースLinux用UI（デスクトップ環境）。リモコン・ゲームパッド・KDE Connectで操作でき、KDE技術上でSteam/Kodi/Jellyfin等のアプリを導入・カスタマイズ可能。大画面向け設定やホームオーバーレイを備える。",
+      "summary": "申し訳ありませんが、外部サイトへ直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で日本語要約します。HNの議論要約をご希望なら、それも対応します。どちらがよいですか？",
       "source": "Hacker News",
       "publishedAt": "2026-03-06T23:59:16.000Z",
-      "contentHash": "78a6eef30584"
+      "contentHash": "261a96dda47e"
     },
     {
       "id": "29f0b5d8a40a",
@@ -491,10 +518,10 @@
       "id": "8220be20771b",
       "title": "GPT-5.4 の概要",
       "url": "https://note.com/npaka/n/nb8d78062e804",
-      "summary": "2026年3月公開のGPT‑5.4は推論・コーディング・エージェント機能を統合し、最大100万トークン対応。実務ベンチで大幅改善（GDPval83%）、誤情報減、スプレッドシート・デスクトップ操作成功率向上（75%）、高解像度画像解析やTool Searchでトークン47%削減など、ツール連携・速度・信頼性を強化。",
+      "summary": "GPT-5.4は推論・コーディング・エージェント機能とネイティブなコンピュータ操作、大コンテキスト(最大100万トークン)を統合。実務性能、視覚解析、ツール連携や自動操作が大幅に向上し、ハルシネーションも減少。Pro版は高度推論向け。",
       "source": "npaka",
       "publishedAt": "2026-03-05T21:38:29.000Z",
-      "contentHash": "a07fa7a20972"
+      "contentHash": "893d206e0b71"
     },
     {
       "id": "6718633210ec",
@@ -8973,33 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-02-11T18:48:50.000Z",
       "contentHash": "008c795b697a"
-    },
-    {
-      "id": "763fc0196c5b",
-      "title": "Amazon Ring's lost dog ad sparks backlash amid fears of mass surveillance",
-      "url": "https://www.theverge.com/tech/876866/ring-search-party-super-bowl-ad-online-backlash",
-      "summary": "Amazon傘下RingのAI機能「Search Party」が近隣カメラ映像で迷子犬を捜すCMを公開。近所の監視を肯定する演出に対し、公開監視や人の捜索への悪用を懸念する声が上がった。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-11T18:43:01.000Z",
-      "contentHash": "0c53079b3a78"
-    },
-    {
-      "id": "6d855cbf252c",
-      "title": "Claude Code is being dumbed down?",
-      "url": "https://symmetrybreak.ing/blog/claude-code-is-being-dumbed-down/",
-      "summary": "Claude Code v2.1.20がファイル読み込みや検索の詳細を「Read 3 files」等の一行要約に変更し、ファイルパスや検索パターンを隠す。ユーザーはトグルや復元を要求するが、Anthropicは簡略化を理由にverboseモードを提案。verboseは大量のデバッグ出力で不満が続く。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-11T18:23:39.000Z",
-      "contentHash": "7d9a3c337a13"
-    },
-    {
-      "id": "97f559d73c09",
-      "title": "Microsoft fixes Notepad flaw that could trick users into clicking malicious Markdown links",
-      "url": "https://www.theverge.com/tech/877295/microsoft-notepad-markdown-security-vulnerability-remote-code-execution",
-      "summary": "MicrosoftはNotepadのMarkdown機能にあった脆弱性（CVE-2026-20841）を修正しました。悪意あるリンクで未検証プロトコルが起動され、遠隔でファイルを実行される恐れがありましたが、実際の悪用は確認されておらず、火曜のパッチで対処しました。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-11T18:06:36.000Z",
-      "contentHash": "d016192c0787"
     }
   ]
 }
