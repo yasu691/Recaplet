@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T02:50:23.140Z",
+  "generatedAt": "2026-03-08T08:50:24.163Z",
   "items": [
     {
       "id": "44692e05d871",
@@ -9,6 +9,24 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-08T01:07:38.000Z",
       "contentHash": "72ccc2ee7882"
+    },
+    {
+      "id": "0e0c56c8d9d7",
+      "title": "Cloud VM benchmarks 2026",
+      "url": "https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html",
+      "summary": "2026年版クラウドVMベンチ。44のVMファミリーを複数リージョンで比較し、CPU性能と性能/価格を重視。バースタブル除外、単スレッドは個別評価、多スレッドは2vCPUで測定。対象はAWS/GCP/Azure/OCI/Akamami(Linode)/DigitalOcean/Hetzner。新CPUが上位を独占。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-08T00:44:32.000Z",
+      "contentHash": "4391f5c5c531"
+    },
+    {
+      "id": "4e38a0fa608b",
+      "title": "How to run Qwen 3.5 locally",
+      "url": "https://unsloth.ai/docs/models/qwen3.5",
+      "summary": "Alibabaの新LLMファミリーQwen3.5（0.8B〜397B）が登場。マルチモーダル／ハイブリッド推論、256K文脈・201言語対応、思考モード切替・微調整可能。35B/27Bは22GB端末で動作。GGUFで量子化（Unsloth Dynamic 2.0）改良、ツール呼び出しや長文・コーディング性能が向上。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-07T23:32:17.000Z",
+      "contentHash": "4af5d3c83ac5"
     },
     {
       "id": "16933db70b05",
@@ -23,10 +41,10 @@
       "id": "92adb5c64b5b",
       "title": "I resigned from OpenAI",
       "url": "https://twitter.com/kalinowski007/status/2030320074121478618",
-      "summary": "申し訳ありませんが、私は外部ウェブページに直接アクセスできません。リンク先の記事本文か主要な抜粋をここに貼っていただければ、200文字以内の日本語で要約します。コメントも要約できます。",
+      "summary": "外部リンクに直接アクセスできないため、該当ツイート/記事の本文を貼っていただけますか？貼っていただければ200文字以内で日本語要約します。URLの要点だけでも教えていただければ対応します。",
       "source": "Hacker News",
       "publishedAt": "2026-03-07T23:09:51.000Z",
-      "contentHash": "7404d28a3e92"
+      "contentHash": "c2287738638a"
     },
     {
       "id": "27154ae08aba",
@@ -45,6 +63,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-03-07T20:43:51.000Z",
       "contentHash": "249f0fc63310"
+    },
+    {
+      "id": "483a755da123",
+      "title": "War prediction markets are a national-security threat",
+      "url": "https://www.theatlantic.com/technology/2026/03/polymarket-insider-trading-going-get-people-killed/686283/",
+      "summary": "Polymarketの匿名戦争予測市場で、ハメネイ暗殺やマドゥロ失脚を事前に的中させた高額賭けが発生。暗号資産とブロックチェーンで身元が隠せるため、内部情報利用や国家安全、人命への重大な脅威になる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-07T20:09:30.000Z",
+      "contentHash": "b649787babab"
     },
     {
       "id": "2b46355cc890",
@@ -1769,10 +1796,10 @@
       "id": "579b7a573895",
       "title": "【書評】 最速でわかる生成AI実践ガイド",
       "url": "https://note.com/npaka/n/n010c081e719f",
-      "summary": "「最速でわかる生成AI実践ガイド」は、生成AIと大規模言語モデルの基礎からプロンプトエンジニアリング、RAG、AIエージェントまで図解で体系的に解説し、AIニュースや実務理解に役立つ入門書です。",
+      "summary": "『最速でわかる生成AI実践ガイド』は、生成AIと大規模言語モデルの基礎からプロンプト、RAG、AIエージェント（Profiling/Planning/Action/Memory）まで図解で整理し、断片的な知識を体系化してAIニュース理解や実務導入に役立つ入門書です。",
       "source": "npaka",
       "publishedAt": "2026-03-04T02:33:09.000Z",
-      "contentHash": "174f9933cd96"
+      "contentHash": "d75b6801eeb0"
     },
     {
       "id": "37b769b3337d",
@@ -8973,33 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-02-12T05:45:53.000Z",
       "contentHash": "f07c6fe51785"
-    },
-    {
-      "id": "1c53e86312f5",
-      "title": "Scaling Recommendations to 300M Users: Inside X's Algorithm and What It Teaches HR Tech | ONE CAREER Tech Blog",
-      "url": "https://note.com/dev_onecareer/n/nb4fa468246cd",
-      "summary": "Xがレコメンドアルゴリズムを公開。約3億ユーザーに提供するシステムで、従来の手作り特徴量から生データの埋め込みへ移行した。筆者はONE CAREERのデータサイエンティスト、Seiken。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-12T05:19:06.000Z",
-      "contentHash": "8ea1458f39ce"
-    },
-    {
-      "id": "cfcd294eb2d5",
-      "title": "Power BI マトリクス表の列幅調整方法 | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/02/12/141859",
-      "summary": "Power BIのマトリクス表で外枠を広げても列幅が変わらない挙動を説明し、編集画面でマトリクスを選択して外枠をドラッグするなど、表全体と列幅を拡大する手順を解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-12T05:18:59.000Z",
-      "contentHash": "a32671447487"
-    },
-    {
-      "id": "696d4f600e4b",
-      "title": "Warcraft III Peon Voice Notifications for Claude Code",
-      "url": "https://github.com/tonyyont/peon-ping",
-      "summary": "peon-pingはClaude Codeの通知をWarcraft IIIのPeonボイスで知らせるツール。1行インストール（macOS/WSL2）、CLIでミュート/切替可、音量や音声カテゴリをJSONで設定可能。タブタイトルとデスクトップ通知に対応。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-12T05:18:49.000Z",
-      "contentHash": "5305360ea221"
     }
   ]
 }
