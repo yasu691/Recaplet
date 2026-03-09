@@ -1,6 +1,141 @@
 {
-  "generatedAt": "2026-03-08T16:47:59.882Z",
+  "generatedAt": "2026-03-09T02:50:45.629Z",
   "items": [
+    {
+      "id": "27a88a8ce36e",
+      "title": "ネットスーパーでのLLM活用:お買い物AIのPoCから本番リリースまで | 10X Product Blog",
+      "url": "https://product.10x.co.jp/entry/2026/03/09/102325",
+      "summary": "ネットスーパー向けお買い物AIのPoCから本番導入までの事例。チャットUIでLLMが商品提案し購入体験を向上。設計は提案重視（提案→人間がカート・決済）、UX、個人情報・プロンプト注入・ハルシネ対策、段階的リリースやLLMによる自動評価など運用上の注意点と進め方を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-09T01:23:25.000Z",
+      "contentHash": "084aa5b57118"
+    },
+    {
+      "id": "479a93611ef1",
+      "title": "Markdownで書くE2Eテスト：自然言語シナリオをPlaywrightで自動実行する方法 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/51717",
+      "summary": "PSSLの佐々木が、Playwrightのコードを書く手間を省き、日本語のMarkdownに操作手順を記述するだけで自然言語シナリオを自動実行するE2Eテスト手法を紹介しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-09T01:22:10.000Z",
+      "contentHash": "2ccf3d7c61ef"
+    },
+    {
+      "id": "6a27d3874797",
+      "title": "Algomatic は NLP2026 にプラチナスポンサーとして参加します | Algomatic Tech Blog",
+      "url": "https://tech.algomatic.jp/entry/events/sponsorship/nlp/2026",
+      "summary": "Algomaticは言語処理学会年次大会（NLP2026、3/9–13）にプラチナスポンサーとして協賛。3/11のスポンサーミートアップ（15:20–16:50）でQ-3ブースにてポスター展示・チラシやノベルティ配布し交流。AIの社会実装や倫理・ガバナンス議論を深め、産学連携と人材募集を推進します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-09T01:00:00.000Z",
+      "contentHash": "fb54f4bb2f20"
+    },
+    {
+      "id": "b428bb3424d5",
+      "title": "Playwright MCP より手軽な公式 CLI — コマンド3つでセットアップ | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/51658",
+      "summary": "Playwrightはテストランナー（@playwright/test）、AI向けMCP（@playwright/mcp）、CLI（@playwright/cli）の三種。記事は手軽なCLIを解説し、Node.js v18+で次の3コマンドで動作する：npx playwright install chrome／npx @playwright/cli install --skills／npx @playwright/cli o。スクショやスナップショット操作が可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-09T00:51:20.000Z",
+      "contentHash": "efb55e5d7c7c"
+    },
+    {
+      "id": "8455c09570e1",
+      "title": "「あとで調べよう」が一生来ない人へ｜AIにぶち込むだけの処方箋 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/51654",
+      "summary": "気になった単語をAIにぶち込むだけで調査を自動化する手法を紹介。Claude Codeの/research（SKILL）やGeminiのリサーチGemで概要・詳細・出典・所感を生成し、小さな一歩で効率化・専門外カバー・行動化を促す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-09T00:50:36.000Z",
+      "contentHash": "7e8880b2c7dd"
+    },
+    {
+      "id": "4439e8c89671",
+      "title": "Most of the US economy is in a recession",
+      "url": "https://www.businessinsider.com/recession-economy-us-tech-wall-street-strategist-investing-stocks-market-2026-3",
+      "summary": "Business Insiderは、読者が知りたい革新的なビジネスやテクノロジーなどの話題を分かりやすく伝えるニュースメディアです。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-08T22:01:32.000Z",
+      "contentHash": "42a102fac276"
+    },
+    {
+      "id": "f8dadfd4d3c5",
+      "title": "DGX Spark で OpenArm のシミュレーションを試す",
+      "url": "https://note.com/npaka/n/ncc559a52f047",
+      "summary": "DGX Spark上でDockerを使い、オープンソースロボットアーム「OpenArm」をROS2＋MoveIt2でシミュレーションする手順を解説。専用Docker起動、必要なROS2パッケージ導入、openarmリポジトリのクローンとcolconビルド（実機用パッケージ除外）、フェイクハードウェアで両腕の動作確認までを説明しています。",
+      "source": "npaka",
+      "publishedAt": "2026-03-08T22:00:32.000Z",
+      "contentHash": "598b66b7a0a8"
+    },
+    {
+      "id": "2bf849c3935d",
+      "title": "Blacksky AppView",
+      "url": "https://github.com/blacksky-algorithms/atproto",
+      "summary": "BlackskyによるAT Protocolリファレンスのフォークで、api.blacksky.communityのAppViewを公開。寄稿不可。変更は主にpackages/servicesのbsky部分と1件のマイグレーション。TypeScript火hoseを高速なRust版rsky-wintermuteに置換し、バックフィル分離や運用工具を導入、PostgresのLATERAL JOINなどでクエリ最適化も実施。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-08T21:40:35.000Z",
+      "contentHash": "904ccd0c116d"
+    },
+    {
+      "id": "186776427b0a",
+      "title": "We should revisit literate programming in the agent era",
+      "url": "https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/",
+      "summary": "著者はエージェント時代にリテラルプログラミングを再検討すべきと主張。コードと散文を一体化する利点を認めつつ、散文と実装の二重管理やOrg Modeの「tangle」問題で普及が限られるが、個人設定や手動テストでは有用だったと述べる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-08T19:58:15.000Z",
+      "contentHash": "0c994ef39a3d"
+    },
+    {
+      "id": "24e621e6aff1",
+      "title": "Ask HN: Please restrict new accounts from posting",
+      "url": "https://news.ycombinator.com/item?id=47300329",
+      "summary": "HNで新規（緑）アカウントから明らかにAI生成の投稿が増加、特にShow HNで目立つ。運営に新規投稿制限や一定基準のアカウントのみ表示するフィルタ導入を望み、HNのTwitter化を懸念している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-08T19:26:59.000Z",
+      "contentHash": "c8d1436c46a5"
+    },
+    {
+      "id": "33e832a82200",
+      "title": "Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds",
+      "url": "https://github.com/BigBodyCobain/Shadowbroker",
+      "summary": "ShadowBrokerは、OSINTを統合して航空機・艦船・衛星・地震・紛争・監視カメラ・GPS妨害などをリアルタイム表示する地理空間インテリジェンス・ダッシュボード。Next.js/MapLibre/FastAPIで実装、Dockerで起動可能。プライベートジェット追跡や海運監視など分析用途向け。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-08T19:07:33.000Z",
+      "contentHash": "0115ab99ee77"
+    },
+    {
+      "id": "a068236e3eeb",
+      "title": "Google just gave Sundar Pichai a $692M pay package",
+      "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+      "summary": "Google CEOサンダー・ピチャイの新報酬は3年で最大6.92億ドル、ほとんどが業績連動でWaymoやWingの株式インセンティブを含む。一方PageとBrinは億万長者税対策と見られフロリダに豪邸を購入。ピチャイはロスアルトスに留まり、保有株は約5億ドル、昨夏までに約6.5億ドルを売却済み。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-08T18:37:37.000Z",
+      "contentHash": "e64f7f6d1554"
+    },
+    {
+      "id": "97a004b62bc3",
+      "title": "Apple is going high-end with new ‘Ultra’ products next",
+      "url": "https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next",
+      "summary": "低価格のMacBook Neo投入後、Appleは高級路線を強化。報道では折りたたみiPhone（約2000ドル）、タッチ対応MacBook Pro、Siri向けカメラ搭載の次世代AirPodsなど“Ultra”級製品を準備中。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-08T17:51:15.000Z",
+      "contentHash": "44c3e3e0062f"
+    },
+    {
+      "id": "74058cc35374",
+      "title": "The changing goalposts of AGI and timelines",
+      "url": "https://mlumiste.com/general/openai-charter/",
+      "summary": "2018年のOpenAI憲章は「価値整合性があり安全志向の他プロジェクトがAGI実現に近づけば競争をやめ協力する」との自己放棄条項を定めており、今も公式方針に残る。一方サム・アルトマンのAGI予測は年々前倒しされ、実現時期の見積もりが加速している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-08T17:16:38.000Z",
+      "contentHash": "bd53b005e710"
+    },
+    {
+      "id": "c5681512a42d",
+      "title": "Claude struggles to cope with ChatGPT exodus",
+      "url": "https://www.forbes.com/sites/barrycollins/2026/03/06/claude-struggles-to-cope-with-chatgpt-exodus/",
+      "summary": "外部リンクに直接アクセスできません。記事本文か主要段落を貼ってください。それを基に200字以内の日本語要約を作成します。HNコメントも要約希望なら添えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-08T17:14:53.000Z",
+      "contentHash": "00d8de545833"
+    },
     {
       "id": "724d441528de",
       "title": "Listen to this: Mabe Fratti’s experimental cello pop",
@@ -14,10 +149,10 @@
       "id": "e23b90ca1ca1",
       "title": "What we&#8217;re listening to, watching, and reading right now.",
       "url": "https://www.theverge.com/entertainment/891057/what-were-listening-to-watching-and-reading",
-      "summary": "Terrence O'BrienはThe Vergeで人間の推薦を重視する連載を紹介。ローリー・スピーゲルの1980年作『The Expanding Universe』を再評価し、シンセ実験、初期アンビエント、アルゴリズム作曲が融合した時代を超える名作と称賛した。",
+      "summary": "Terrence O'BrienがThe Vergeで推す注目作。Mabe Frattiの2024年作『Sentir Que No Sabes』を紹介。冒頭曲「Kravitz」は轟くチェロと突き放すキック／スネア、天井の耳を歌う偏執的なスペイン語詞、無調のホーンからピアノとドラムで盛り上がる実験的チェロ・ポップだ。",
       "source": "The Verge",
       "publishedAt": "2026-03-08T15:00:00.000Z",
-      "contentHash": "79d3d095ce57"
+      "contentHash": "3da25da8b589"
     },
     {
       "id": "5691a254750b",
@@ -122,10 +257,10 @@
       "id": "e12a0cf73a1d",
       "title": "Unity MCP を試す",
       "url": "https://note.com/npaka/n/n19e5132847c6",
-      "summary": "Unity MCPはMCPでUnityエディタとAIを接続し、シーン情報取得やGameObject作成などをAIから実行できる仕組み。導入はUnity6+とUnity AI Assistant、relayの有効化、Claude Desktopにrelayのパスを設定して接続承認すれば、赤い球などの配置やゲーム作成をAIに指示して試せる。",
+      "summary": "Unity MCPを試したまとめ。UnityとAIをMCPで接続し、エディタ情報取得やGameObject操作が可能に。手順はUnity 6+導入、Unity AI Assistant追加、Unity MCP（relay）有効化、Claude Desktopにrelayパス設定して接続承認。赤い球の配置や3Dシューティング作成を指示して動作を確認した。",
       "source": "npaka",
       "publishedAt": "2026-03-07T21:53:20.000Z",
-      "contentHash": "f4f21fcde070"
+      "contentHash": "04e056c2578c"
     },
     {
       "id": "7d2d3822192f",
@@ -896,10 +1031,10 @@
       "id": "8220be20771b",
       "title": "GPT-5.4 の概要",
       "url": "https://note.com/npaka/n/nb8d78062e804",
-      "summary": "2026年3月、OpenAIがGPT-5.4を公開。高度な推論・コーディング・エージェント機能を統合し、最大100万トークンの長文文脈、視覚・PC操作・ツール連携を強化。実務性能・信頼性（スプレッドシート・プレゼン等）や速度が大幅向上し、Pro版も提供。",
+      "summary": "2026年3月、OpenAIがGPT-5.4を公開。推論・コーディング・エージェント機能を統合し最大100万トークン対応。実務性能、画像認識、デスクトップ操作、ツール連携が大幅改善し誤情報も減少。Pro版も提供。",
       "source": "npaka",
       "publishedAt": "2026-03-05T21:38:29.000Z",
-      "contentHash": "dbaae43dd149"
+      "contentHash": "385886905f46"
     },
     {
       "id": "6718633210ec",
@@ -8865,141 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-02-12T23:52:24.000Z",
       "contentHash": "4b60b08585d1"
-    },
-    {
-      "id": "d95a1c759d88",
-      "title": "A surprise God of War prequel is out on the PS5 right now",
-      "url": "https://www.theverge.com/games/878375/god-of-war-sons-of-sparta-trilogy-sony-playstation-ps5-release-date-trailer",
-      "summary": "ソニーがPS5向けに新作『God of War: Sons of Sparta』を突如発売。アゴゲでの若きクレイトスとデイモスを描く2D横スクアクションで、Mega CatとSanta Monicaの共作。通常版29.99ドル、デジタルデラックス39.99ドル。初代三部作のリメイクとTC Carsonのクレイトス復帰も発表。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-12T23:30:36.000Z",
-      "contentHash": "fbcf76863a16"
-    },
-    {
-      "id": "faeb4847e7cc",
-      "title": "Ring cancels its partnership with Flock Safety after surveillance backlash",
-      "url": "https://www.theverge.com/news/878447/ring-flock-partnership-canceled",
-      "summary": "Amazon傘下のRingは、警察と連携する監視技術企業Flock Safetyとの統合計画を、批判や物議を醸した広告を受け中止すると発表。検討の結果、統合には多大な時間と資源が必要と判断した。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-12T23:00:00.000Z",
-      "contentHash": "880de34c7b1f"
-    },
-    {
-      "id": "9a4619039fd3",
-      "title": "Tell HN: Ralph Giles has died (Xiph.org| Rust@Mozilla | Ghostscript)",
-      "url": "https://news.ycombinator.com/item?id=46996490",
-      "summary": "Ralph（ラルフ）は2000年からXiph.orgに貢献、2001年にGhostscriptのコア開発者に。Theoraのプロジェクト責任者やXiphライブラリのリリース管理、インフラ整備を行い、MozillaではFirefoxへ初めてRustコードを導入。多大な貢献者で親しい同僚として惜しまれている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-12T22:58:58.000Z",
-      "contentHash": "1dfffba465ce"
-    },
-    {
-      "id": "42f5ddf78956",
-      "title": "Discord just killed anonymity",
-      "url": "https://michael-dev-tech.github.io/Website/matrix.html",
-      "summary": "Discordが全ユーザー対象に年齢確認を義務化。多くがMatrixへ移るが主要matrix.orgも検証を検討中。Matrixは分散型で自サーバーなら回避可能だが機能面やUXは粗い。筆者は自家サーバーを推奨。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-12T22:18:01.000Z",
-      "contentHash": "bc3fa3a0d751"
-    },
-    {
-      "id": "1fe13f389d31",
-      "title": "Gemini 3 Deep Think の概要",
-      "url": "https://note.com/npaka/n/nf5af7e2762de",
-      "summary": "GoogleはGemini 3の推論モード「Deep Think」を強化。曖昧で高度な科学・研究・工学課題を深い推論で解決し、3Dプリント出力も可能。ARC-AGI-2で84.6%等の高成績を記録し、論文検証や結晶成長最適化など実務導入が進む。GeminiアプリやAPIで提供。",
-      "source": "npaka",
-      "publishedAt": "2026-02-12T21:48:04.000Z",
-      "contentHash": "745352bca369"
-    },
-    {
-      "id": "79ea10424f3d",
-      "title": "PlayStation State of Play February 2026: all the news and trailers",
-      "url": "https://www.theverge.com/games/877875/playstation-state-of-play-february-2026-ps5-news-trailers",
-      "summary": "2/12のPlayStation State of Playは1時間超で世界中の新作や続報を紹介。ウルヴァリンは不在の可能性。発表は『Legacy of Kain: Ascendance』（3/31発売）と、サプライズで2D前日譚『God of War: Sons of Sparta』がPS5で即配信された。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-12T21:45:00.000Z",
-      "contentHash": "1dc20a302d95"
-    },
-    {
-      "id": "be2f6af9260c",
-      "title": "GPT‑5.3‑Codex‑Spark の概要",
-      "url": "https://note.com/npaka/n/nfce6b3d860c9",
-      "summary": "OpenAIは2026年2月、リアルタイム編集に最化した軽量高速コードモデル「GPT‑5.3‑Codex‑Spark」を研究プレビューで公開。1,000トークン/秒超・128kトークン大コンテキスト・低遅延でCerebras専用ハード上動作し、即時補完・リファクタリング・対話的デバッグ等で開発の即時性を高めることを目指す。",
-      "source": "npaka",
-      "publishedAt": "2026-02-12T21:33:38.000Z",
-      "contentHash": "020afb8fb519"
-    },
-    {
-      "id": "43038d7fb030",
-      "title": "In one swoop, Trump kills US greenhouse gas regulations",
-      "url": "https://www.theverge.com/science/877371/trump-carbon-pollution-endangerment-finding-repeal-climate-change",
-      "summary": "トランプ政権のEPAが、2009年以降の温室効果ガス規制の根拠だった「危険性認定」を撤回した。これにより自動車や発電所向けの排出規制を一挙に弱体化できる。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-12T19:35:41.000Z",
-      "contentHash": "4705bb19a970"
-    },
-    {
-      "id": "a4849ac78391",
-      "title": "Two powerful, OLED-equipped gaming laptops are hundreds off",
-      "url": "https://www.theverge.com/gadgets/878209/asus-acer-oled-rtx-5070ti-gaming-laptop-deal-sale",
-      "summary": "Best Buyで2025年型ゲーミングノート、ASUS ROG Zephyrus G14とAcer Predator Helios Neo 16Sが割引中。G14は3K Pantone認証OLED／120Hzの上位構成が$1,899.99、Neo 16Sはさらに安く、Neoのセールは本日終了、G14は大統領記念日まで続く見込み。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-12T19:10:12.000Z",
-      "contentHash": "be8adab150a5"
-    },
-    {
-      "id": "5495fca13f81",
-      "title": "Eufy’s midrange X10 Pro Omni robovac has fallen to its best-ever price",
-      "url": "https://www.theverge.com/gadgets/877673/eufy-x10-pro-omni-nothing-phone-3-deal-sale",
-      "summary": "Eufyの中位ロボ掃除機「X10 Pro Omni」がAmazon・Walmart・Eufyで過去最安の$449.99（50%オフ）に。AI障害物検知や強力な振動モップ搭載。Nothing Phone 3やUSB‑Cケーブル、Birdbuddyの太陽光フィーダーもセール中。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-12T18:59:21.000Z",
-      "contentHash": "cd844948cf15"
-    },
-    {
-      "id": "8662832c3dcd",
-      "title": "Jeffrey Epstein might not have created /pol/, but he helped carry out its mission",
-      "url": "https://www.theverge.com/tech/877903/jeffrey-epstein-4chan-pol-moot",
-      "summary": "公開された司法省のエプスタイン文書で、エプスタインが4chan創設者「moot」（クリストファー・プール）と面会し好印象を示していたことや、4chan由来の白人至上主義・女性蔑視的思想やオルトライト関係者との接点が明らかになった。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-12T18:30:00.000Z",
-      "contentHash": "94c345812357"
-    },
-    {
-      "id": "219b4d24f5ac",
-      "title": "Good Luck, Have Fun, Don’t Die is a rollicking parable about this moment in tech",
-      "url": "https://www.theverge.com/entertainment/877244/good-luck-have-fun-dont-die-review",
-      "summary": "ゴア・ヴァービンスキー監督の新作『Good Luck, Have Fun, Don’t Die』は、怒涛の寓話的な物語で、AI推進がもたらす社会的不安や「世の中が毒される」感覚を鋭く描き出している。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-12T17:45:00.000Z",
-      "contentHash": "513cf2c21c0a"
-    },
-    {
-      "id": "8883751b6140",
-      "title": "Top DOJ antitrust enforcer is out weeks before Live Nation trial",
-      "url": "https://www.theverge.com/policy/878163/doj-antitrust-chief-gail-slater-departs",
-      "summary": "米司法省の反トラスト担当トップ、ガイル・スレイターがライブネイション裁判開始直前に退任を発表。Xで感謝を述べ、司法長官パム・ボンディは謝意を示したが退任理由には言及せず。報道では既に職務から外されていたと伝えられる。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-12T17:38:22.000Z",
-      "contentHash": "d96b27e9c873"
-    },
-    {
-      "id": "055587995031",
-      "title": "El Paso airspace closure was reportedly triggered by the CBP’s use of an anti-drone laser",
-      "url": "https://www.theverge.com/policy/878108/el-paso-airspace-closure-cbp-anti-drone-laser",
-      "summary": "NYTとAPによれば、エルパソ空域の一時閉鎖はCBPが対ドローン用レーザーを使用したため。CBPは標的をドローンと誤認（実際は風船）しFAAに十分な通知をせず、商業便や医療搬送に影響した。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-12T17:02:08.000Z",
-      "contentHash": "2e61fee40f7e"
-    },
-    {
-      "id": "4e6081281956",
-      "title": "YouTube is coming to the Apple Vision Pro",
-      "url": "https://www.theverge.com/tech/878097/youtube-apple-vision-pro-visionos-app",
-      "summary": "AppleのVision Pro向けに公式YouTubeアプリが木曜に登場。Shortsや3D/360/VR180など全動画に対応し、2年前の「ロードマップ」発表からの実現。非公式アプリJunoも存在していた。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-12T17:00:00.000Z",
-      "contentHash": "648758a6aa71"
     }
   ]
 }
