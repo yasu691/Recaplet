@@ -1,6 +1,177 @@
 {
-  "generatedAt": "2026-03-09T17:12:39.333Z",
+  "generatedAt": "2026-03-10T02:39:32.474Z",
   "items": [
+    {
+      "id": "1bbb909edfd6",
+      "title": "AWS SSO環境のDocker運用でハマった話 〜miseとローカル実行でAD管理ツールを救う〜 | FURYU Tech Blog - フリュー株式会社",
+      "url": "https://tech.furyu.jp/entry/2026/03/10/101914",
+      "summary": "ピクトリンクの藤本です。ADアカウント運用を効率化するため、AWS Secrets Managerからパスワードを取得してLDAP操作するPythonスクリプトを開発。Docker環境でAWS SSOの挙動がWSLとMacで異なり問題になったため、Dockerをやめてmiseによるローカル実行に切り替え解決した経緯を紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-10T01:19:14.000Z",
+      "contentHash": "d2e3561a791c"
+    },
+    {
+      "id": "9d1c05b8012a",
+      "title": "AWS主催 Kiroワークショップ参加レポート：「仕様駆動開発」の開発体験について | techtekt",
+      "url": "https://techtekt.persol-career.co.jp/entry/tech/260310_01",
+      "summary": "AWS主催ワークショップでAI統合開発環境「Kiro」を体験したエンジニアが、AI支援によるコード補助や統合ツールなどの特徴と、開発現場での生産性向上やワークフロー変化といった影響を分析した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-10T01:15:03.000Z",
+      "contentHash": "2d0fe57138dd"
+    },
+    {
+      "id": "40b9afa65004",
+      "title": "AlloyDBのバックアップを定期的に別リージョンに作成・削除する方法 | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/03/10/100310",
+      "summary": "SmartHR SREのkekkeがSRE Kaigi 2026でのBCP登壇を紹介し、Google Cloud AlloyDBのバックアップを別リージョンへ定期的に作成・削除する方法を解説。背景に一部プロダクトでAlloyDBを利用している点を説明。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-10T01:03:10.000Z",
+      "contentHash": "fbffcb075066"
+    },
+    {
+      "id": "838c035b3c87",
+      "title": "AIがUIとロジックを溶かすとき、SaaSに残るもの | estie inside blog",
+      "url": "https://www.estie.jp/blog/entry/2026/03/10/100025",
+      "summary": "estieのPM三橋による「PM Blog Week」第6弾1日目。3月のMeetupに向けた連載で、ここ1〜2年の生成AI急進展によりSaaSやPMの将来を巡る議論が増えているが、それらはやや抽象的に感じられるという導入。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-10T01:00:25.000Z",
+      "contentHash": "ae00082a95df"
+    },
+    {
+      "id": "1a08d593339f",
+      "title": "アンドパッド 技術イベントのご案内 2026 年 3 月 | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/03/10/100000",
+      "summary": "id:sezemiさんの小3の娘がカプセルトイ「こめちゅあ」vol.1に夢中で入手困難。見つけたらXで教えてほしいとのお願い。アンドパッドは技術・プロダクト・組織関連のイベント登壇・開催・会場提供を行い、毎月イベント情報を案内しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-10T01:00:00.000Z",
+      "contentHash": "6d8c93191762"
+    },
+    {
+      "id": "50434e02380d",
+      "title": "ZTNAはVPNの代替にならない：失敗パターン3選と回避策 | GMO Developers",
+      "url": "https://developers.gmo.jp/technology/80701/",
+      "summary": "ZTNAはアプリ単位・IDベースで最小権限を実現し安全性を高めるが、ネットワーク全体へのアクセスやレガシー対応、運用・移行コストなどの理由でVPNを完全に置き換えられず、段階的な共存・補完が現実的だ、という要旨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-10T01:00:00.000Z",
+      "contentHash": "c882c66778c1"
+    },
+    {
+      "id": "3f4fc1858639",
+      "title": "Claude Code Agent Teamsを試す | NEXTSCAPE blog",
+      "url": "https://blog.nextscape.net/archives/2026/03/10/095438",
+      "summary": "2025/2/5発表のClaude Code Agent Teamsを試用。親子型ではなくチーム型の構造差を図解し、ToDoアプリでPM・バックエンド・フロント・QAの4エージェント協働を検証。設定、in‑process起動、トークン消費の注意点も解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-10T00:54:38.000Z",
+      "contentHash": "78860423a289"
+    },
+    {
+      "id": "abe3a0f84561",
+      "title": "【PostgreSQL】集計クエリを速くするLEFT JOIN LATERAL | Fenrir Engineers",
+      "url": "https://engineers.fenrir-inc.com/entry/2026/03/10/091714",
+      "summary": "バックエンドの長谷部が、データ増加でダッシュボードやレポートAPIが遅くなる問題を踏まえ、親子テーブルへの条件付き結合などのJOIN手法でDBパフォーマンスを改善する方法を解説する記事です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-10T00:17:14.000Z",
+      "contentHash": "5f527b86920b"
+    },
+    {
+      "id": "da7beda06b50",
+      "title": "SWRかと思ったら違った - Redash APIとSWRの比較で理解するキャッシュ戦略 | Hacobell Developers Blogのフィード",
+      "url": "https://zenn.dev/hacobell_dev/articles/redash-api-is-not-swr",
+      "summary": "ハコベルはデータ分析にRedashを利用。外部APIでクエリ結果を取得した際、あるエンドポイントがSWRのように「即座に（必ずしも最新でない）結果を返し、裏でクエリを再実行して更新する」挙動をすることに気づいた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-10T00:00:06.000Z",
+      "contentHash": "789b832f6460"
+    },
+    {
+      "id": "d639ee8115b1",
+      "title": "Vertex AI Custom Training入門 | G-gen Tech Blog",
+      "url": "https://blog.g-gen.co.jp/entry/introduction-to-vertexai-custom-training",
+      "summary": "G-genの片岩が、Vertex AI Custom Trainingを使いクラウドのフルマネージド環境で機械学習のトレーニングから推論まで行う手順を解説。初期設定、データ準備・分割、学習スクリプト作成、学習ジョブ実行、推論と結果確認を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-10T00:00:00.000Z",
+      "contentHash": "659014e619a5"
+    },
+    {
+      "id": "4f91847bfbce",
+      "title": "Apple smart home display rumors now point to a fall launch with iOS 27",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/891723/apple-homepad-delay-rumor",
+      "summary": "Appleのスマートホームディスプレイ（J490/HomePad）は当初2025年や春発売と報じられたが、Siriのチャット型AIアップデートの完成待ちで秋に延期。ロボットアーム搭載モデルは2027年発売見込みと報道。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-09T22:26:50.000Z",
+      "contentHash": "6f113c4ddf81"
+    },
+    {
+      "id": "762024890240",
+      "title": "The government shutdown is hitting airports — but not ICE",
+      "url": "https://www.theverge.com/policy/891686/dhs-government-shutdown-ice-cbp-tsa-airports",
+      "summary": "米政府の部分的閉鎖でTSAや沿岸警備隊が無給・人手不足となり空港で長蛇の列、職員がフードバンクに頼る事態に。一方でDHSの移民取締り（ICE・CBP）は資金的に影響を受けず、強硬姿勢が続いている。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-09T21:52:29.000Z",
+      "contentHash": "db085c295577"
+    },
+    {
+      "id": "de1758d682ea",
+      "title": "LeRobot v0.5.0 の概要",
+      "url": "https://note.com/npaka/n/n06d6928be313",
+      "summary": "本文が添付されていません。要約するには記事の本文かリンク、または主要箇所（新機能・改善点・影響など）を教えてください。受け取り次第、200字以内で要約します。",
+      "source": "npaka",
+      "publishedAt": "2026-03-09T21:46:19.000Z",
+      "contentHash": "9a60ce360487"
+    },
+    {
+      "id": "9ec73b080aaa",
+      "title": "Everything from the last week of everything is gambling now",
+      "url": "https://www.theverge.com/tech/891676/kalshi-iran-prediction-markets",
+      "summary": "予測市場Kalshiが、ハメネイの死去をめぐる賭けで支払いを怠ったとして集団訴訟に直面。死亡時の「デスカーブアウト」導入が遅れたと主張されている。女性利用者は増加（割合が倍増）し、S&P500の契約も開始予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-09T21:18:26.000Z",
+      "contentHash": "e98337311604"
+    },
+    {
+      "id": "2a17af019a92",
+      "title": "Employees across OpenAI and Google support Anthropic’s lawsuit against the Pentagon",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/891514/anthropic-pentagon-lawsuit-amicus-brief-openai-google",
+      "summary": "Anthropicが米国防総省の「サプライチェーンリスク」指定を巡り提訴。ジェフ・ディーンらOpenAI・Googleの約40名が支持の意見書を提出。指定は同社が国内大量監視と完全自律兵器への提供を拒んだことが発端で、交渉は決裂した。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-09T20:45:24.000Z",
+      "contentHash": "99cbbce9abdc"
+    },
+    {
+      "id": "0f1992a8415c",
+      "title": "Bluesky CEO Jay Graber will step aside",
+      "url": "https://www.theverge.com/tech/891562/bluesky-new-ceo",
+      "summary": "Blueskyの創業CEOジェイ・グレイバーが退き、投資家で元Automattic CEOのトニ・シュナイダーが暫定CEOに就任。グレイバーはChief Innovation Officerとなり、同社は約1年で利用者が3000万→4000万に増加しました。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-09T20:24:43.000Z",
+      "contentHash": "fb8306a77f2c"
+    },
+    {
+      "id": "ad37cb1cd43b",
+      "title": "You can get three months of Disney Plus and Hulu for $15 ",
+      "url": "https://www.theverge.com/gadgets/891598/disney-plus-hulu-academy-awards-deal-sale",
+      "summary": "ディズニープラスと広告付きHuluの3か月バンドルが月$4.99（合計約$15）で提供中。3月15日のアカデミー賞はHuluで生配信、3月24日には「デアデビル：ボーン・アゲイン」新シーズンも配信。新規・対象復帰会員向けで約$24の節約。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-09T20:14:44.000Z",
+      "contentHash": "6bcf30cc2148"
+    },
+    {
+      "id": "a29df0bbb1d0",
+      "title": "Apple&#8217;s new M5 Max feels like a huge upgrade if you bought your laptop three years ago",
+      "url": "https://www.theverge.com/gadgets/891508/apple-macbook-pro-air-2026-m5-max-benchmark-comparisons-m4-m3-m2-m1",
+      "summary": "Appleの新M5/M5 Max搭載Macは外観は前年モデルと同じで性能差は限定的だが、M5 MaxはSSDの持続読み書き速度が最大2倍に向上。特に3年以上前のラップトップを使う人には買い替えの価値あり。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-09T20:00:33.000Z",
+      "contentHash": "5056b875bb22"
+    },
+    {
+      "id": "daed45a4dca8",
+      "title": "‘Cash Apples’ is giving away $500,000 to people who click on trees in a web browser",
+      "url": "https://www.theverge.com/games/891544/cash-apples-is-giving-away-500000-to-people-who-click-on-trees-in-a-web-browser",
+      "summary": "Cash AppとMSCHFがウェブゲーム「Cash Apples」で米国向けに総額50万ドルを配布。5日間、毎日16〜20時ETに最大200ドル（週最大1,000ドル）獲得可能。参加は電話番号でのウェイトリスト登録か代替応募の抽選方式。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-09T19:30:06.000Z",
+      "contentHash": "eb2acd432b94"
+    },
     {
       "id": "683b17937119",
       "title": "Google’s latest Pixel Watches have fallen to their lowest prices ever",
@@ -144,6 +315,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-03-09T10:14:59.000Z",
       "contentHash": "e4afca783c6f"
+    },
+    {
+      "id": "f16a35767e05",
+      "title": "OpenAI to acquire Promptfoo",
+      "url": "https://openai.com/index/openai-to-acquire-promptfoo",
+      "summary": "OpenAIがPromptfooを買収。Promptfooは企業向けのAIセキュリティプラットフォームで、開発中のAIシステムの脆弱性を検出・修復する支援を行う。",
+      "source": "OpenAI",
+      "publishedAt": "2026-03-09T10:00:00.000Z",
+      "contentHash": "3758d608cc7d"
     },
     {
       "id": "42a75b834334",
@@ -1850,10 +2030,10 @@
       "id": "c5ffc3b9938c",
       "title": "Blender MCP で FBXモーション を VRM に適用する",
       "url": "https://note.com/npaka/n/n06c7d4832763",
-      "summary": "Blender MCPでFBXモーションをVRMへリターゲットする手順と修正。Tポーズ/Aポーズ差は腕に-35度オフセット＋Copy Rotationで補正。Hipsは位置・回転コピー、FBX原点はEmptyで相殺しRootはX/Y、HipsはZ追従に分割。ボーン向き差は中間ターゲットボーンで解消。",
+      "summary": "BlenderのMCPを使い、FBX形式のモーションをVRMモデルへ適用する手順と検証結果をまとめた記事。インポートやリターゲット方法、発生した問題と対処法、設定上のポイントや注意点を解説している。",
       "source": "npaka",
       "publishedAt": "2026-03-04T22:09:09.000Z",
-      "contentHash": "8c530771f907"
+      "contentHash": "7e843979e8d5"
     },
     {
       "id": "603d02168870",
@@ -2300,10 +2480,10 @@
       "id": "579b7a573895",
       "title": "【書評】 最速でわかる生成AI実践ガイド",
       "url": "https://note.com/npaka/n/n010c081e719f",
-      "summary": "生成AIの基礎からプロンプト、RAG、AIエージェントまでを図解とやさしい解説で体系化し、断片的な知識を整理して実務導入やAIニュースの理解に役立つ入門書。",
+      "summary": "プロンプトエンジニアリング、RAG、AIエージェントなどの用語はよく聞くが、仕組みを説明できる人は少ない。本書『最速でわかる生成AI実践ガイド』は、そうした断片的な知識を体系的理解に変える入門書である。",
       "source": "npaka",
       "publishedAt": "2026-03-04T02:33:09.000Z",
-      "contentHash": "8c8576888577"
+      "contentHash": "dc70ddd13fbf"
     },
     {
       "id": "37b769b3337d",
@@ -8820,186 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-02-13T23:43:27.000Z",
       "contentHash": "65920204f757"
-    },
-    {
-      "id": "d90f21f7eeac",
-      "title": "OpenAI has deleted the word 'safely' from its mission",
-      "url": "https://theconversation.com/openai-has-deleted-the-word-safely-from-its-mission-and-its-new-structure-is-a-test-for-whether-ai-serves-society-or-shareholders-274467",
-      "summary": "OpenAIがミッション文から「safely（安全に）」を削除。非営利から利益追求への移行が進み、AIが社会の利益か株主の利益かを問う試金石となり、製品安全をめぐる訴訟も抱えている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-13T22:17:06.000Z",
-      "contentHash": "b58067f5a479"
-    },
-    {
-      "id": "29b0a31444bd",
-      "title": "4chan’s creator says ‘Epstein had nothing to do’ with creating infamous far-right board /pol/",
-      "url": "https://www.theverge.com/tech/879132/moot-4chan-jeffrey-epstein-meeting-pol",
-      "summary": "4chan創設者Chris “moot” Pooleは、過激掲示板/pol/の創設にエプスタインは関与しておらず、板追加は事前に決められ出会いは偶然だったと説明。エプスタインとの遭遇を後悔していると述べ、DOJ文書のメールが憶測を呼んだ。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T21:01:19.000Z",
-      "contentHash": "9295d8951a86"
-    },
-    {
-      "id": "5f05f679847d",
-      "title": "The Verge’s 2026 Valentine’s Day gift guide (for him)",
-      "url": "https://www.theverge.com/gadgets/865396/valentines-day-2026-gift-ideas-for-him-boyfriend-husband-partner",
-      "summary": "The Vergeによる2026年バレンタイン（男性向け）ギフトガイド。花やチョコの定番に頼らない、彼氏・夫・パートナー向けの創造的な32アイテムを紹介し、編集者おすすめやセール情報も掲載。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T21:00:00.000Z",
-      "contentHash": "fdf587bf9ffb"
-    },
-    {
-      "id": "f5893470be35",
-      "title": "The Beats Studio Buds Plus are on sale for less than $100 for Presidents Day",
-      "url": "https://www.theverge.com/gadgets/878951/beats-studio-buds-plus-earbuds-presidents-day-sale-deal",
-      "summary": "Beats Studio Buds Plusがプレジデンツデーで41%オフの$99.95に。Amazon・Best Buy・Target・Walmartで販売中。ノイズキャンセリング搭載でiOS/Android両対応、目を引くトランスルーセント色も対象。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T20:00:56.000Z",
-      "contentHash": "909a21ed0832"
-    },
-    {
-      "id": "bb433df0ac2f",
-      "title": "The \"AI agent hit piece\" situation clarifies how dumb we are acting",
-      "url": "https://ardentperf.com/2026/02/13/the-scott-shambaugh-situation-clarifies-how-dumb-we-are-acting/",
-      "summary": "普段は技術系ブログの筆者が、PostgresなどオープンソースコミュニティのAI対応について異例の意見表明。CloudNativePGのAIポリシーやWSJの「botが謝った」等の表現が人間の責任を曖昧にすると批判。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-13T19:41:42.000Z",
-      "contentHash": "c35f16f2188b"
-    },
-    {
-      "id": "c6cbd411c905",
-      "title": "Steam beta lets users add their PC specs to reviews",
-      "url": "https://www.theverge.com/games/878920/steam-reviews-pc-specs-beta",
-      "summary": "Steamのクライアントβで、レビューに自分のPC仕様を自動添付する機能と、匿名化したフレームレートデータ収集オプションを追加。レビューの横のチェックで仕様を付けられ、性能問題がハード由来か判別しやすくなる。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T18:15:52.000Z",
-      "contentHash": "0c1c777cd13f"
-    },
-    {
-      "id": "913ec523b446",
-      "title": "5 ways Gemini can help students work smarter",
-      "url": "https://blog.google/products-and-platforms/products/education/gemini-features-for-students/",
-      "summary": "Geminiは学生向けにSAT/JEE模試（弱点フィードバック付き）や作文・プレゼン作成、コードデバッグ・校正を支援。対話式学習やカスタム問題、履歴書・志望書・模擬面接も提供。一部学生は無料アップグレード可。",
-      "source": "Gemini",
-      "publishedAt": "2026-02-13T18:00:00.000Z",
-      "contentHash": "7122c9009ae7"
-    },
-    {
-      "id": "cab1e3784bd3",
-      "title": "Building a TUI is easy now",
-      "url": "https://hatchet.run/blog/tuis-are-easy-now",
-      "summary": "筆者はClaude Codeで端末（TUI）ベースのコーディングエージェントを試し、懐疑が一転して数日でTUIを構築・公開。従来の失敗経験と比べ簡単に作れ、同APIでもGUIより軽快で好評だったと報告している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-13T17:50:54.000Z",
-      "contentHash": "5998b2610224"
-    },
-    {
-      "id": "75c430aeb31f",
-      "title": "What’s behind the mass exodus at xAI?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/878761/mass-exodus-at-xai-grok-elon-musk-restructuring",
-      "summary": "xAIで共同創業者や多くの社員が相次ぎ退職。ユーファイ・ウーやジミー・バらが辞職し、12人中半数の共同創業者が不在に。一部社員は独立して新たにAI企業を立ち上げ、再編は安全性や「追いつけない」状態を巡る対立が背景と報告されています。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T17:10:44.000Z",
-      "contentHash": "8f200a58609c"
-    },
-    {
-      "id": "181f072e33a8",
-      "title": "Can Democrats post their way to midterm victories?",
-      "url": "https://www.theverge.com/policy/877603/kamalahq-headquarters-democrats-social-media-strategy",
-      "summary": "2024年選挙で@KamalaHQはミームや若者言葉で高いエンゲージメントを得たが勝利はならず。現在は「デジタル即応」チームに再編し、ミッドタームでの巻き返しを図る試みを報じる。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T17:00:47.000Z",
-      "contentHash": "7bbc55ae60b0"
-    },
-    {
-      "id": "e65c115d6e84",
-      "title": "Trump Mobile’s origins lie with a Mexican middleweight boxer",
-      "url": "https://www.theverge.com/tech/878699/trump-mobile-interview-canelo-alvarez-origins",
-      "summary": "トランプ・モバイルはトランプ自身の発案ではなく、MVNOのLiberty Mobileが提案したもので、同社は5年前にボクサー・カネロで同様の手法（Canelo Mobile）を試していた。幹部がT1の準最終版を公開。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T16:50:26.000Z",
-      "contentHash": "8184eeb9ca6f"
-    },
-    {
-      "id": "8f77fd208748",
-      "title": "What’s in the Epstein files? For Tiktokers, a content gold mine",
-      "url": "https://www.theverge.com/tech/878380/epstein-files-tiktok-content",
-      "summary": "エプスタイン文書がTikTokで「コンテンツの金鉱」化。投稿者が断片をつなぎ合わせ、有名人や政治家を結び付ける推測や陰謀論を拡散。機関不信とバイラル志向が誤情報を助長している。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T16:30:00.000Z",
-      "contentHash": "2d78df470bc4"
-    },
-    {
-      "id": "a52edfe956b1",
-      "title": "iRobot&#8217;s Roombas have a new Chinese owner, but it says your data will remain in the US",
-      "url": "https://www.theverge.com/tech/878809/irobot-picea-robotics-acquisition-irobot-safe",
-      "summary": "中国のPicea Roboticsによる買収を受け、iRobotは米国顧客データを国内で保護する新子会社「iRobot Safe」を設立。Roombaは通常通り使え、非米所有とデータを切り離す狙い。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T16:20:32.000Z",
-      "contentHash": "f8463b8c76b4"
-    },
-    {
-      "id": "c1cfacde1414",
-      "title": "Ring&#8217;s adorable surveillance hellscape",
-      "url": "https://www.theverge.com/podcast/878797/ring-super-bowl-ad-backlash-epstein-files-chatgpt-vergecast",
-      "summary": "リングのスーパーボウルCMは犬の再会を描く一方、プライバシーを消す広範な監視システムの種をまいている。Vergecastで広告の狙い、監視が機能か欠陥か、Nestの削除映像回復問題を議論。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T16:10:45.000Z",
-      "contentHash": "bfd3c2185798"
-    },
-    {
-      "id": "6bb45b8beb46",
-      "title": "The Verge’s 2026 Valentine’s Day gift guide (for her)",
-      "url": "https://www.theverge.com/gadgets/865281/valentines-day-2026-gift-ideas-for-her-girlfriend-wife-partner",
-      "summary": "The Vergeの2026年バレンタイン（女性向け）ギフトガイド。スマートリングやレゴのバラなど、実用的で個人的な20の贈り物を厳選し、派手さより思いやりを重視した提案。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T16:00:00.000Z",
-      "contentHash": "aaba48d97e34"
-    },
-    {
-      "id": "041ad4049522",
-      "title": "‘Wellness’ feels like it’s losing all meaning in health tech",
-      "url": "https://www.theverge.com/column/878337/optimizer-oura-wearables-fda-regulation-digital-health-screeners",
-      "summary": "Ouraが米国でウェアラブル規制緩和をロビー。企業の主張は一理あるが、著者は規制より精度不足や過剰な健康訴求が問題で、「ウェルネス」の意味が希薄化していると論じる。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T16:00:00.000Z",
-      "contentHash": "58c696e60a3e"
-    },
-    {
-      "id": "0991e42b2354",
-      "title": "Take a look at these incredible photos from Lunar New Year celebrations.",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-camera-photo-tips-lunar-new-year/",
-      "summary": "Pixel 10 Proが台湾・九份で旧正月（午年）の写真を撮影。Pixel Cameraチームは5倍望遠のPro Zoom、HDR+/UltraHDR対応パノラマ、ポートレート、ProコントロールやNano Bananaなどの機能で祭りの風景を捉えた。",
-      "source": "Gemini",
-      "publishedAt": "2026-02-13T16:00:00.000Z",
-      "contentHash": "070c4759a580"
-    },
-    {
-      "id": "84b4611c10ef",
-      "title": "Meta’s Quest 3S is $50 off, and includes Batman: Arkham Shadow for free",
-      "url": "https://www.theverge.com/gadgets/878338/meta-quest-3s-batman-arkham-shadow-nothing-headphone-1-deal-sale",
-      "summary": "MetaのQuest 3S（128GB）がWalmartで50ドル引きの約249〜250ドル、Batman: Arkham Shadow無料付属。入門向けとして好評。Reality Labsの人員削減やSupernaturalの新規配信停止で戦略は不透明。Nothing Headphone 1やAppleのiPhone用クロスボディストラップなどもセール中。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T15:26:53.000Z",
-      "contentHash": "609e0082a895"
-    },
-    {
-      "id": "e1eaaeb37a12",
-      "title": "ICE moves out to the suburbs",
-      "url": "https://www.theverge.com/policy/878713/ice-minnesota-dhs-suburbs",
-      "summary": "ICEがミネソタのツインシティーズ郊外の低密度地域で活動を拡大。抗議や監視が組織しにくくなり、住民や支援者の対応が難しくなっている。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T15:07:22.000Z",
-      "contentHash": "c5af3b930c50"
-    },
-    {
-      "id": "0379ca6dc306",
-      "title": "Meta reportedly wants to add face recognition to smart glasses while privacy advocates are distracted",
-      "url": "https://www.theverge.com/tech/878725/meta-facial-recognition-smart-glasses-name-tag-privacy-advoates",
-      "summary": "NYTが入手した内部文書によれば、Metaはスマートグラスに顔認識「Name Tag」を搭載し、批判が手薄な「政治的に動的な環境」で展開を狙っていた。盲人会議で初公開を計画したが実現せず、プライバシー懸念が強い。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-13T15:05:44.000Z",
-      "contentHash": "905c36af7e59"
     }
   ]
 }
