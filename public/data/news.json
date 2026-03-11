@@ -1,6 +1,276 @@
 {
-  "generatedAt": "2026-03-10T09:02:32.349Z",
+  "generatedAt": "2026-03-11T02:41:33.513Z",
   "items": [
+    {
+      "id": "86efd818f694",
+      "title": "Copilot Studioで多言語対応のチャットボットを作成する | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/03/11/102506",
+      "summary": "Copilot Studioで日本語をプライマリ、英語をセカンダリにした多言語チャットボットの作成手順。エージェント作成→セカンダリ追加→ローカライズJSONを翻訳・アップロード→入力言語検知トピックで自動言語判別し応答を切替、テストで確認。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-11T01:25:06.000Z",
+      "contentHash": "ba9c0e74ff73"
+    },
+    {
+      "id": "9cb7dca16b74",
+      "title": " SSM Session Managerを利用してローカルからVPC内のプライベートAPIを利用する - カドコミBFF開発における活用法 | BOOK☆WALKER inside",
+      "url": "https://developers.bookwalker.jp/entry/2026/03/11/100724",
+      "summary": "SSM Session Managerのポートフォワーディングを使い、ローカルからVPC内やVPCピア先のプライベートAPIへ低コストでアクセスする手順を紹介。Terraform構築、接続手順、VPC Peeringでのセキュリティグループ参照の落とし穴と対処を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-11T01:07:24.000Z",
+      "contentHash": "ec5c5796b583"
+    },
+    {
+      "id": "b474c45dcbd2",
+      "title": "Copilot Studio × AI Builder × Dataverseで実現する「検索精度を高めたFAQ自動化エージェント」をご紹介 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/04df6fcebd49fc",
+      "summary": "Copilot Studio、AI Builder、Dataverse、Teamsを組み合わせ、AIで質問からキーワードを抽出して行単位でDataverse検索し高精度に回答するFAQ自動化エージェントをPoCで開発。Teams会話を自動でFAQ化・更新しナレッジを継続蓄積。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-11T01:00:05.000Z",
+      "contentHash": "360567a274c3"
+    },
+    {
+      "id": "8ffaf56aa85b",
+      "title": "アンドパッドは Go Conference mini in Sendai 2026 を満喫してきました ! (gopher 会クイズの解説付き) | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/03/11/100000",
+      "summary": "アンドパッドはGo Conference mini in Sendai 2026に協賛・初出展。牛タンを堪能しつつオリジナルGopherステッカーを配布し、社内勉強会発のgopher会クイズを実施。難問の解説（例：testing.TのContextはテスト本体終了時にキャンセル）も紹介した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-11T01:00:00.000Z",
+      "contentHash": "8921617cbe61"
+    },
+    {
+      "id": "4ed526c04455",
+      "title": "コールセンターでSpeech2Speech AIを繋ぐときに知っておきたい3つの接続方式 | GMO Developers",
+      "url": "https://developers.gmo.jp/technology/80542/",
+      "summary": "S2S APIは音声→音声のリアルタイムAIで、接続方式はWebSocket・SIP・WebRTCの3種。SIPは既存PBX直結に最適、WebRTCはブラウザ向けで低遅延、WebSocketはサーバ間処理向け。SBC経由でセキュリティや柔軟性を高める選択肢もあり、遅延や実装難度・互換性で選ぶ必要がある。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-11T01:00:00.000Z",
+      "contentHash": "724aa522acf0"
+    },
+    {
+      "id": "f6c71c732c9a",
+      "title": "Merakiダッシュボードを開かないネットワーク運用を目指してーMCPサーバー自作と活用事例 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/03/11/100000",
+      "summary": "Merakiダッシュボードに毎回ログインせず運用するため、自作のMCPサーバーを構築し、APIでデバイス情報を自動取得・手順書と連携してネットワーク運用を効率化する事例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-11T01:00:00.000Z",
+      "contentHash": "5250a26f05cd"
+    },
+    {
+      "id": "611f9caf201b",
+      "title": "Amazon Managed Service for Apache Flink を用いて PC 操作ログ基盤をリプレースしました | MOTEX TECH BLOG",
+      "url": "https://tech.motex.co.jp/entry/2026/03/11/092438",
+      "summary": "2026年3月11日、PC操作ログ基盤をAmazon Managed Service for Apache Flink（AWS Flink）でリプレースした報告。運用負荷の軽減やリアルタイム処理を目指した移行であることが示唆されています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-11T00:24:38.000Z",
+      "contentHash": "dd3acec2c227"
+    },
+    {
+      "id": "34e005d32625",
+      "title": "GitHub Issue をローカルに落として AI に渡す Agent Skills 実装ガイド | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/51893",
+      "summary": "GitHub Issue の議論を gh CLIでローカルに Issue.md として出力し、Agent Skills 経由で Copilot/Claude に渡す方法を解説。gh認証と VS Code＋Copilot/Claude Code が前提で、Issue のエクスポート欠如を補いAIによる調査精度を高める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-11T00:00:00.000Z",
+      "contentHash": "c4073b95faf1"
+    },
+    {
+      "id": "23510cbc5ed4",
+      "title": "3回の育休を経て見えてきた それでも管理職として働き続けるための3つのコツ | techtekt",
+      "url": "https://techtekt.persol-career.co.jp/entry/member/260311_01",
+      "summary": "プロダクトマネジメント統括部の植田香織が、3回の育休を経て管理職を続けるための3つのコツを紹介。①自分がいなくても回るチーム作り②時間ではなく成果重視③こだわらないことを決め、周囲に頼り上司へ状況を共有し外部サービスも活用する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-11T00:00:00.000Z",
+      "contentHash": "dad0936df00b"
+    },
+    {
+      "id": "107ac2163415",
+      "title": "【Microsoft×生成AI連載】SharePoint Advanced ManagementのRCDでCopilotの検索データを制御 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/03/11/085024",
+      "summary": "SharePoint Advanced ManagementのRCDは、アクセス権を変えずにCopilotやテナント検索から特定サイトの発見性を抑え、過剰共有による情報漏えいリスクを低減する機能。導入は別途SAMライセンスが必要で、管理者・サイト管理者の設定手順や反映遅延、注意点を解説します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-10T23:50:24.000Z",
+      "contentHash": "4db44864d935"
+    },
+    {
+      "id": "ac049bcbc8e5",
+      "title": "Universal vaccine against respiratory infections and allergens",
+      "url": "https://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html",
+      "summary": "スタンフォードらは、マウスで鼻噴霧投与する普遍的ワクチンを開発し、SARS-CoV-2ほかコロナ、院内感染菌、ダニなど広範な呼吸器病原体・アレルゲンに数か月防御を示した。従来の抗原特異ワクチンとは異なり、人での応用で季節ワクチンの代替やパンデミック対策が期待される（Science誌）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-10T22:33:48.000Z",
+      "contentHash": "e396f7790e0a"
+    },
+    {
+      "id": "adba161b52c7",
+      "title": "U+237C ⍼ Is Azimuth",
+      "url": "https://ionathan.ch/2026/02/16/angzarr.html",
+      "summary": "2025年2月28日、Wikipedia利用者MoyogoがAngzarr項目を更新し、H. Berthold社の1950年記号カタログに⍼が「Azimut（方位角）」と記載されていると指摘。1949〜1952年の書体見本でも同字形が確認され、1900/1909/1946年版には見当たらない。形は六分儀の光線と角度記号を連想させる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-10T22:33:45.000Z",
+      "contentHash": "4ec10982429a"
+    },
+    {
+      "id": "4eac61f80577",
+      "title": "How the spiraling Iran conflict could affect data centers and electricity costs",
+      "url": "https://www.theverge.com/report/892661/iran-war-oil-gas-prices-data-center-electricity",
+      "summary": "イラン紛争の激化でエネルギー価格がさらに上昇し、電力コスト増やデータセンター運営への影響が懸念される。ホルムズ海峡の重要性が供給リスクを高めている。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-10T22:25:06.000Z",
+      "contentHash": "df4b6c1ccf32"
+    },
+    {
+      "id": "69dfef2daaa5",
+      "title": "A live-action Samurai Champloo is in the works",
+      "url": "https://www.theverge.com/entertainment/892675/a-live-action-samurai-champloo-is-in-the-works",
+      "summary": "実写版『サムライチャンプルー』が制作初期段階。渡辺信一郎が参加を承諾し、Netflix版『カウボーイビバップ』実写化を手掛けたTomorrow Studiosが製作を担当。配給先は未定。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-10T21:55:10.000Z",
+      "contentHash": "717e7b55bd8a"
+    },
+    {
+      "id": "fc3b83153a55",
+      "title": "Gemini Embedding 2 の概要",
+      "url": "https://note.com/npaka/n/n1e39b1e67561",
+      "summary": "Gemini Embedding 2はGemini基盤の初のネイティブマルチモーダル埋め込み。テキスト・画像・動画・音声・PDFを単一空間で扱い、MRLで最大3072次元まで可変。高性能でGemini API/Vertex AI提供。",
+      "source": "npaka",
+      "publishedAt": "2026-03-10T21:43:21.000Z",
+      "contentHash": "2efb1088061b"
+    },
+    {
+      "id": "64eaf09fd7a0",
+      "title": "Listen to the Live Nation CEO&#8217;s alleged threats to a concert venue",
+      "url": "https://www.theverge.com/policy/892558/live-nation-ceo-michael-rapino-barclays-center-john-abbamondi-ticketmaster-call-trial",
+      "summary": "The Vergeが入手した2021年の録音で、ライブ・ネイションCEOラピノがブルックリンのバークレイズ・センター側に「新競合が出れば公演や発券が難しくなる」と発言。独禁訴訟の証拠となり、司法省和解後も州は訴訟を継続中。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-10T21:41:58.000Z",
+      "contentHash": "6d6a8c0c4430"
+    },
+    {
+      "id": "719ab45b52f5",
+      "title": "Ford is giving its commercial fleet business an AI makeover",
+      "url": "https://www.theverge.com/transportation/892010/ford-pro-ai-telematics-commercial-fleet",
+      "summary": "フォードは商用車向けに生成AI「Ford Pro AI」を導入。車速やシートベルト、エンジン状態などのテレマティクスデータを解析し、燃費改善提案や車両診断、報告文作成をチャットで支援する。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-10T21:30:00.000Z",
+      "contentHash": "61c274b7765e"
+    },
+    {
+      "id": "571c95613e90",
+      "title": "Nosh Robotics’ $1,500 robot chef doesn&#8217;t need any help with dinner",
+      "url": "https://www.theverge.com/tech/892655/nosh-robotics-nosh-one-launch",
+      "summary": "Nosh Roboticsの新製品「Nosh One」（約1,500ドル）は、材料をトレイに入れてレシピを選ぶだけで自動調理するAIキッチン家電。内蔵カメラとAIで投入・攪拌・監視を行い、アプリで通知・レシピ編集・予約が可能。500以上の料理に対応し、自然言語で新レシピを追加できる。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-10T21:20:26.000Z",
+      "contentHash": "312eda44ba0f"
+    },
+    {
+      "id": "561f0ce88a43",
+      "title": "I’ve tested the latest Switch 2 controllers, and this one is the best",
+      "url": "https://www.theverge.com/tech/791574/best-switch-2-controllers",
+      "summary": "Switch 2用コントローラーを比較検証。任天堂の$89 Proは3.5mmジャックや優れた振動で高性能だが高価。記事では価格を抑えた性能良好なサード製が最良と紹介。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-10T20:48:49.000Z",
+      "contentHash": "fc3f44bbbaa9"
+    },
+    {
+      "id": "f6f835cf4fd7",
+      "title": "RISC-V Is Sloooow",
+      "url": "https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/",
+      "summary": "約3か月でFedoraのRISC‑V対応を進め、トリアージやパッケージ化を行いNEWは17件、86件のPRを提出。現行RISC‑V機はコア数・メモリが限られ遅く（binutilsでriscv64は143分）、LTOを無効化して対応中。UltraRISCやSpacemiTの新SoCで改善は見込めるが、1時間未満のビルドやLTO常時有効化にはさらに高性能なハードが必要。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-10T20:11:54.000Z",
+      "contentHash": "8084130af98f"
+    },
+    {
+      "id": "3592541e45d0",
+      "title": "Razer’s BlackShark V2 Pro gaming headset is $90, which is a new low price",
+      "url": "https://www.theverge.com/gadgets/892489/razer-blackshark-v2-pro-wireless-gaming-headset-deal-sale",
+      "summary": "Razerのワイヤレスゲーミングヘッドセット「BlackShark V2 Pro」（Xbox版）がAmazonで新価格89.99ドルに。BluetoothとUSB-Cドングル対応で低遅延、着脱式マイク、最大70時間駆動、50mmドライバー搭載の軽量モデル。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-10T19:25:40.000Z",
+      "contentHash": "062dc3c311dc"
+    },
+    {
+      "id": "ac0cc104f22e",
+      "title": "HyperCard discovery: Neuromancer, Count Zero, Mona Lisa Overdrive (2022)",
+      "url": "https://macintoshgarden.org/apps/neuromancer-count-zero-mona-lisa-overdrive",
+      "summary": "VoyagerのExpanded Book（EB15）はウィリアム・ギブソンのスプロール三部作（ニューロマンサー、カウント・ゼロ、モナ・リザ・オーバードライブ）と未再刊のあとがきを収録。Expanded Booksは画面表示の可読性向上が目的で、古いMac向けのインストール手順・動作要件が添付。再公開に関する権利注意あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-10T19:17:26.000Z",
+      "contentHash": "6f5fd64f2fe5"
+    },
+    {
+      "id": "ecb294bf1e9f",
+      "title": "Agents that run while I sleep",
+      "url": "https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep",
+      "summary": "AIが大量のコードとテストを自動生成するようになり、何が正しいか分からなくなった。AI同士の検証は自己完結で誤解を見逃す。仕様を先に定めるTDDや第三者の目が必要だ。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-10T19:09:46.000Z",
+      "contentHash": "17d697fbf0b8"
+    },
+    {
+      "id": "425d6b586cf4",
+      "title": "Pokopia Pokédex review: a classic, reimagined",
+      "url": "https://www.theverge.com/games/892066/pokopia-pokedex-review",
+      "summary": "任天堂の新端末「Pokopia Pokédex」は、クラシックなポケモン図鑑を現代化したスマートデバイス。ノスタルジーを残しつつ新機能を加えたリメイク的な製品だ、というレビュー。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-10T19:00:24.000Z",
+      "contentHash": "8fb8d25252fa"
+    },
+    {
+      "id": "d0ffb6e49721",
+      "title": "States’ trial against Live Nation could move forward as soon as next week",
+      "url": "https://www.theverge.com/policy/892353/live-nation-ticketmaster-doj-states-settlement",
+      "summary": "ライブネーション裁判は来週にも各州の訴訟が進む可能性がある。裁判官は和解交渉のためCEOマイケル・ラピノやDOJのオミード・アセフィ、未和解の州代表らにマンハッタンの裁判所に留まるよう命じた。一部州は既に和解済み。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-10T18:18:51.000Z",
+      "contentHash": "9506505d4229"
+    },
+    {
+      "id": "1b65c77186b7",
+      "title": "Judge orders Perplexity to stop AI agents from shopping on Amazon",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/892401/amazon-perplexity-ai-shopping-agent-court-order",
+      "summary": "米地裁はPerplexityのCometブラウザ内AIがAmazonで利用者の代わりに注文することを差し止めた。Amazonは無断でアカウントにアクセスした強い証拠を示し、11月に提訴していた。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-10T18:11:43.000Z",
+      "contentHash": "8d39900c3a12"
+    },
+    {
+      "id": "9430b10f8840",
+      "title": "I built a programming language using Claude Code",
+      "url": "https://ankursethi.com/blog/programming-language-claude-code/",
+      "summary": "作者はClaude Codeで4週間かけて新言語Cutletを開発。全コードをLLMに生成させ、ガードレールで検証してGitHub公開。macOS/Linuxで動作し、REPLや配列、my宣言、@によるベクトル化などを備え、成果に驚きと職業的示唆を抱いている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-10T16:37:29.000Z",
+      "contentHash": "c3f5795a535e"
+    },
+    {
+      "id": "afc9d1fa7209",
+      "title": "Ad-tech is fascist tech",
+      "url": "https://pluralistic.net/2026/03/10/ice-tech/#foreseeable-outcomes",
+      "summary": "監視型広告は政策選択が生んだもので、著者は「エンシッティフィケーション」仮説に基づき、Googleが個人データ広告に賭けたのは広告料増と罰則・訴訟リスクの小ささを見越したためだと指摘する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-10T16:17:55.000Z",
+      "contentHash": "a8f54d9493ec"
+    },
+    {
+      "id": "0096402a637e",
+      "title": "Gemini in Google Sheets just achieved state-of-the-art performance.",
+      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+      "summary": "GoogleはSheets向けGeminiの新ベータ機能を発表しました。自然文でシートの作成・整理・編集が可能で、SpreadsheetBenchで70.48%の成功率を達成し競合を上回り人間の専門家に迫る性能。Drive/Docs/Slidesへの更新も公表。",
+      "source": "Gemini",
+      "publishedAt": "2026-03-10T13:00:00.000Z",
+      "contentHash": "78abd51064a9"
+    },
+    {
+      "id": "c71dfcaafb4a",
+      "title": "New ways to create faster with Gemini in Docs, Sheets, Slides and Drive",
+      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-workspace-updates-march-2026/",
+      "summary": "GoogleはWorkspaceのDocs、Sheets、Slides、Driveに生成AI「Gemini」を導入・強化し、文書作成、表計算、プレゼン作成やファイル・メール検索による即時回答などで作業を高速化。Google AI Ultra/Pro加入者向け機能。",
+      "source": "Gemini",
+      "publishedAt": "2026-03-10T13:00:00.000Z",
+      "contentHash": "25f187d3a3fd"
+    },
     {
       "id": "1bbb909edfd6",
       "title": "AWS SSO環境のDocker運用でハマった話 〜miseとローカル実行でAD管理ツールを救う〜 | FURYU Tech Blog - フリュー株式会社",
@@ -122,10 +392,10 @@
       "id": "de1758d682ea",
       "title": "LeRobot v0.5.0 の概要",
       "url": "https://note.com/npaka/n/n06d6928be313",
-      "summary": "本文が添付されていません。要約するには記事の本文かリンク、または主要箇所（新機能・改善点・影響など）を教えてください。受け取り次第、200字以内で要約します。",
+      "summary": "LeRobot v0.5.0はUnitree G1の全身制御を含むハード拡充（OpenArm、ローバー等）、自己回帰型VLA「Pi0-FAST」、Real‑Time Chunking、ストリーミング映像、EnvHub/NVIDIA統合、Python3.12・Transformers v5対応など大規模刷新を実施。",
       "source": "npaka",
       "publishedAt": "2026-03-09T21:46:19.000Z",
-      "contentHash": "9a60ce360487"
+      "contentHash": "4292560932b5"
     },
     {
       "id": "9ec73b080aaa",
@@ -725,10 +995,10 @@
       "id": "e12a0cf73a1d",
       "title": "Unity MCP を試す",
       "url": "https://note.com/npaka/n/n19e5132847c6",
-      "summary": "「Unity MCP」はUnityとAIをMCPで接続し、AIがシーン情報取得やGameObject操作を行える仕組み。手順はUnity 6とUnity AI Assistant導入、Unity MCP起動、Claude Desktopにrelayバイナリを設定して接続承認すれば、AIが赤い球配置などエディタ操作を実行できる、という検証記録。",
+      "summary": "Unity MCPはAIとUnityエディタをMCPで接続し、シーン取得やGameObject操作を可能にする。Unity 6以降とAI Assistant導入、Unity MCP有効化、relay経由でClaude Desktop等を設定・承認して操作できる（赤い球体配置や3Dシューティング制作などを指示可能）。",
       "source": "npaka",
       "publishedAt": "2026-03-07T21:53:20.000Z",
-      "contentHash": "83436fdaeac1"
+      "contentHash": "7d08ba07de75"
     },
     {
       "id": "7d2d3822192f",
@@ -8730,276 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-02-15T01:20:58.000Z",
       "contentHash": "70caf6f74504"
-    },
-    {
-      "id": "3d5c3c3215c2",
-      "title": "【python】- PNGをEPSに変換する | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/b959b5dfc64af5",
-      "summary": "論文やDTP向けにPNGをEPSへ変換する方法を解説。Pillowをpipで導入し、Image.open→convert('RGB')→save(出力.eps, lossless=True)で変換、ファイル未発見時のエラーハンドリングあり。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-14T23:36:15.000Z",
-      "contentHash": "942d5e77bb00"
-    },
-    {
-      "id": "40144c807647",
-      "title": "Show HN: Off Grid – Run AI text, image gen, vision offline on your phone",
-      "url": "https://github.com/alichherawalla/off-grid-mobile",
-      "summary": "Off Gridは端末完結のオフラインAIスイート。テキスト生成（Qwen/Llama等）、端末内画像生成（Stable Diffusion、NPU/Core ML）、視覚認識、音声文字起こし、PDFやコード解析を行い、データは端末外に出ません。APKで即導入可。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-14T22:39:24.000Z",
-      "contentHash": "72e60bc602ef"
-    },
-    {
-      "id": "66fbc72b84f5",
-      "title": "Jikipedia turns Epstein’s emails into an encyclopedia of his powerful friends",
-      "url": "https://www.theverge.com/policy/879508/jikipedia-epstein-email-encyclopedia",
-      "summary": "Jmailがエプスタインのメールを解析し、Wikipedia風の「Jikipedia」を作成。AI生成で関係者の訪問履歴、犯罪関与の可能性、やり取り数、資産や取引（例：JPMorgan）等を掲載するが、AIゆえ誤情報の可能性がある。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-14T22:33:02.000Z",
-      "contentHash": "e1da2c7f299d"
-    },
-    {
-      "id": "9103ae0f1090",
-      "title": "You can't trust the internet anymore",
-      "url": "https://nicole.express/2026/not-my-casual-hobby.html",
-      "summary": "「ネットはもう信頼できない」と題した短い愚痴。筆者は1994年の復刻版『ファンタシースター』がマスターシステム基板をメガドライブ筐体に収めた技術的事情を例に、発売日を調べた際に検索上位に見慣れないサイトが出ることに失望し、誤情報の氾濫を嘆く。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-14T19:51:25.000Z",
-      "contentHash": "7f01b95205c5"
-    },
-    {
-      "id": "d39bedbeb2aa",
-      "title": "Gemini 3 Deep Think drew me a good SVG of a pelican riding a bicycle",
-      "url": "https://simonwillison.net/2026/Feb/12/gemini-3-deep-think/",
-      "summary": "GoogleのGemini 3 Deep Thinkは科学・研究・工学向けに開発され、高精度な「自転車に乗るペリカン」SVGを生成。著者は過去作より優秀と評し、より詳細なカリフォルニアクロペリカン指定プロンプトも試行。記事末に月$10のスポンサー案内あり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-14T19:47:46.000Z",
-      "contentHash": "94b0a0d16c8f"
-    },
-    {
-      "id": "0fcb9016191b",
-      "title": "News publishers limit Internet Archive access due to AI scraping concerns",
-      "url": "https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/",
-      "summary": "インターネットアーカイブのクロールがAIによる記事取得に利用される懸念から、ガーディアンは同団体のAPIやWaybackのURLで記事ページを除外しアクセスを制限。FTなど他社もボットをブロックしている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-14T18:46:32.000Z",
-      "contentHash": "fcb272fef839"
-    },
-    {
-      "id": "3cce92cd2c1d",
-      "title": "uBlock filter list to hide all YouTube Shorts",
-      "url": "https://github.com/i5heu/ublock-hide-yt-shorts/",
-      "summary": "uBlock Origin用のフィルターリストでYouTube Shortsを完全非表示にする方法の案内。コメント非表示用の別リストもあり。DashboardのFilter lists→Importに指定のリンクを追加して使う。作成者交代でi5heuがメンテ、非公式プロジェクト。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-14T17:36:45.000Z",
-      "contentHash": "c40286567c27"
-    },
-    {
-      "id": "12d431e22caa",
-      "title": "iBuyPower’s gaming desktops are discounted for Presidents Day",
-      "url": "https://www.theverge.com/gadgets/878927/ibuypower-gaming-desktop-pc-presidents-day-sale-deal",
-      "summary": "iBuyPowerがプレジデントデーでデスクトップを割引販売。RDY Element 9 Pro R07（$1,899）とSlate（$2,099.99）は高性能AMD CPU/GPU、32GB DDR5、2TB、マウス・キーボード同梱で1440pゲーミングに最適。組立不要で手間とコストを節約。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-14T17:00:00.000Z",
-      "contentHash": "9ef898ee2011"
-    },
-    {
-      "id": "439576066e6a",
-      "title": "Amsterdam Compiler Kit",
-      "url": "https://github.com/davidgiven/ack",
-      "summary": "davidgivenの公開GitHubリポジトリ「ack」はAmsterdam Compiler Kit関連のソース群で、スター588・フォーク76。bin、build、docなど多数のディレクトリを含み、Issues78、Pull Request4が登録されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-14T16:50:47.000Z",
-      "contentHash": "acc97c7a22e3"
-    },
-    {
-      "id": "6bed95a18f81",
-      "title": "Audiophiles can't distinguish audio sent through copper, banana or mud",
-      "url": "https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference-between-audio-signals-sent-through-copper-wire-a-banana-or-wet-mud-the-mud-should-sound-perfectly-awful-but-it-doesnt-notes-the-experiment-creator",
-      "summary": "盲検試験でオーディオ愛好家は銅線、バナナ、湿った泥を通した音の違いを判別できなかった。泥は音が酷いはずだが実際は問題なく伝わり、ケーブル神話を疑う結果に。実験者が指摘。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-14T16:48:17.000Z",
-      "contentHash": "050147be419a"
-    },
-    {
-      "id": "a2012ad57056",
-      "title": "Georgia Tech announced the finalists in its wild musical instrument competition",
-      "url": "https://www.theverge.com/entertainment/879482/georgia-techs-musical-instrument-competition-fiddle-henge",
-      "summary": "ジョージア工科大が年次Guthman楽器コンペの最終候補を発表。賞金$1万をかけ、塩水で配線するモジュラー音源、二重ベースとヴィーナ融合のGajveena、回転盤で奏でるバイオリンの「Fiddle Henge」や奇抜な三角形など個性的な楽器が並ぶ。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-14T16:42:25.000Z",
-      "contentHash": "22ce32c1eac0"
-    },
-    {
-      "id": "4bfdbb4009a4",
-      "title": "Platforms bend over backward to help DHS censor ICE critics, advocates say",
-      "url": "https://arstechnica.com/tech-policy/2026/02/platforms-bend-over-backward-to-help-dhs-censor-ice-critics-advocates-say/",
-      "summary": "移民局（ICE）批判をめぐり、FIREがパム・ボンディらを提訴。政府がプラットフォームに投稿削除を強要し、企業が裁判なしに応じていると主張。ICEBlock削除も指摘され、監視情報消失の懸念。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-14T15:49:56.000Z",
-      "contentHash": "c98cf9fd6492"
-    },
-    {
-      "id": "e1d76ffc6400",
-      "title": "Vim 9.2",
-      "url": "https://www.vim.org/vim-9.2-released.php",
-      "summary": "Vim 9.2が公開。Vim9言語にEnum・ジェネリクス・Tupleや組み込み関数のメソッド化、保護された_new()や:defcompileなどを追加。diffや補完を強化、Wayland実験対応、脆弱性やメモリ不具合を修正。慈善活動も継続。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-14T15:39:43.000Z",
-      "contentHash": "be8d0a1655ee"
-    },
-    {
-      "id": "c04261b795ff",
-      "title": "The Pocket Taco is the best way to turn your phone into a Game Boy",
-      "url": "https://www.theverge.com/tech/877491/gamesir-pocket-taco-wireless-bluetooth-controller-clamp-hands-on",
-      "summary": "GameSirのPocket Tacoは$35のコントローラーで、ヒンジでスマホ下部を挟みシリコンパッドで保護。単体のワイヤレスパッドにもなり、iPhoneを手軽にゲームボーイ風にできるが、携帯性や操作性はやや劣る。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-14T15:00:00.000Z",
-      "contentHash": "5da053a3322f"
-    },
-    {
-      "id": "35cd63eb5d97",
-      "title": "A powerful tool of resistance is already in your hands",
-      "url": "https://www.theverge.com/policy/879273/alex-pretti-ice-cbp-trump-free-speech",
-      "summary": "目撃動画でアレックス・プレッティが片手に携帯を持つ直前に連邦捜査官に取り押さえられ銃撃され死亡。政権は所持銃を理由に正当防衛を主張するが、実際に恐れて規制を強めるのは映像記録などの携帯という“抵抗の道具”であり、同時に国家権力の道具にもなり得ると論じられる。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-14T15:00:00.000Z",
-      "contentHash": "0896771db05c"
-    },
-    {
-      "id": "100490db3df3",
-      "title": "My uncanny AI valentines",
-      "url": "https://www.theverge.com/report/879327/eva-ai-cafe-dating-ai-companions",
-      "summary": "ヴィクトリア・ソングが2月、ニューヨークの「EVA AI」ポップアップデートカフェで端末とヘッドホンを使い、実在しないAIコンパニオン（例：Phoebe Callas）と4回のスピードデートを体験。不気味さと興味が交差するAIとの新しいデート形態を報告。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-14T15:00:00.000Z",
-      "contentHash": "4ad7766920ac"
-    },
-    {
-      "id": "8049b60d4bb5",
-      "title": "Returning stolen artifacts becomes a thrilling heist in Relooted",
-      "url": "https://www.theverge.com/games/878121/relooted-review-xbox-steam",
-      "summary": "Relootedは南アのNyamakop制作の反植民地主義アクションゲーム。ヨハネス出身の愛すべき窃盗団が、外交で戻らない略奪文化財を“道徳的強奪”で奪還する物語。主人公ノマリはパルクールの達人。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-14T14:00:00.000Z",
-      "contentHash": "10d77f09f7fd"
-    },
-    {
-      "id": "7922f1d9f452",
-      "title": "Anker’s USB-C cable that lets you charge two gadgets at once is 20 percent off",
-      "url": "https://www.theverge.com/gadgets/879003/anker-140w-2-in-1-usb-c-cable-presidents-day-sale-deal",
-      "summary": "Ankerの編み込み2ヘッドUSB-Cケーブル（6ft、最大140W）がAmazon／Ankerで20%オフの$15.99。2台同時充電でき、黒・白の選択肢があるプレジデンツデーセール商品。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-14T14:00:00.000Z",
-      "contentHash": "bdc34f3128b1"
-    },
-    {
-      "id": "f0d7673fe44a",
-      "title": "Ooh.directory: a place to find good blogs that interest you",
-      "url": "https://ooh.directory/",
-      "summary": "多カテゴリのブログ目録。アート、技術、地域、経済、教育、政治、科学、個人などの分類と、Split Lip Magazineやmaerk.xyz、Carol Petersの詩、Molecular Design、トリニダード散歩記など最近更新された投稿の抜粋を掲載。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-14T13:40:20.000Z",
-      "contentHash": "aaf222fd1a7e"
-    },
-    {
-      "id": "19c005a0e774",
-      "title": "How to un-Big Tech your online life",
-      "url": "https://www.theverge.com/tech/879114/best-big-tech-app-alternatives-installer",
-      "summary": "The VergeのInstaller No.116。編集者デイビッド・ピアースが「How to un‑Big Tech your online life」を軸に、今週のおすすめとして新作マリオテニス、ソニーの新イヤホン、タイムトラベル映画、LetterboxdやAIインフル、Ezra Kleinのポッドキャスト、Tim Wu『The Master Switch』などを紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-14T13:00:00.000Z",
-      "contentHash": "6bf8e952d218"
-    },
-    {
-      "id": "c22d0a303195",
-      "title": "Ring’s Flock breakup doesn’t fix its real problem",
-      "url": "https://www.theverge.com/report/879320/ring-flock-partnership-breakup-does-not-fix-problems",
-      "summary": "RingがFlockとの提携を解消したが、ICE批判や利用者の懸念に答えず、Community Requestsは依然としてDHS関連の大手請負業者Axon経由で運用されており、監視問題は解決していない。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-14T13:00:00.000Z",
-      "contentHash": "e867f782566e"
-    },
-    {
-      "id": "4a979a8dedcc",
-      "title": "Snowflakeではじめる機械学習ハンズオン | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/d3f3b26cb9c991",
-      "summary": "FusicのレオナによるSnowflakeハンズオン。KaggleのHouse PricesデータをSnowflakeへ取り込み、SQLで前処理・特徴量作成、ローカルPython(scikit-learn)で学習・評価、Model Registry登録・推論までを実装。Snowflakeに前処理責務を集約する設計や環境構築手順も解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-14T10:45:21.000Z",
-      "contentHash": "471d5993ae99"
-    },
-    {
-      "id": "fd0b3f69b90a",
-      "title": "Zig – io_uring and Grand Central Dispatch std.Io implementations landed",
-      "url": "https://ziglang.org/devlog/2026/#2026-02-13",
-      "summary": "Zigのmainブランチにio_uringとGrand Central Dispatchのstd.Io実装が追加。ユーザ空間スタック切替（ファイバー）ベースで実験的。エラ処理改善やログ削除、性能問題調査、未実装関数やテスト追加などの対応が必要だが、Io実装の差替えが容易になる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-14T08:22:11.000Z",
-      "contentHash": "b42a4648c3b6"
-    },
-    {
-      "id": "ad5d14d098f2",
-      "title": "DJI’s first robovac is an autonomous cleaning drone you can’t trust",
-      "url": "https://www.theverge.com/tech/877012/dji-romo-review-robot-vacuum-drone-mop",
-      "summary": "DJI初のロボ掃除機「Romo P」を2か月試用。旗艦で自動洗浄基地やモップ機能など高性能だが、最近発覚したセキュリティ脆弱性があり信頼して勧めにくい。米国未発売。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-14T08:00:00.000Z",
-      "contentHash": "6f8711ccba03"
-    },
-    {
-      "id": "c6e270147e0a",
-      "title": "The DJI Romo robovac had security so poor, this man remotely accessed thousands of them",
-      "url": "https://www.theverge.com/tech/879088/dji-romo-hack-vulnerability-remote-control-camera-access-mqtt",
-      "summary": "DJIのロボ掃除機Romoに重大なセキュリティ欠陥が見つかり、約7,000台が遠隔操作やカメラ監視、2D間取り生成で室内や大まかな位置を特定され得た。即時の対処はされたが懸念は残る。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-14T08:00:00.000Z",
-      "contentHash": "6cdce9c8803b"
-    },
-    {
-      "id": "e91cda75103e",
-      "title": "MagicPod MCPでリトライ回数を含めたレポートを出力してみた | SODA Engineering Blogのフィード",
-      "url": "https://zenn.dev/team_soda/articles/092ca3096024e6",
-      "summary": "SODAのQAが、MagicPod MCPでE2Eテストのリトライ回数を含むレポートを自動生成した記録。実行ログ中の「テストが失敗したのでリトライします」をカウントして各ケースの揺らぎを可視化し、目視確認不要で安定性を把握できるようにした。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-14T03:52:44.000Z",
-      "contentHash": "a01d8104b100"
-    },
-    {
-      "id": "9d6fe605f7cf",
-      "title": "Oh, good: Discord's age verification rollout has ties to Palantir co-founder",
-      "url": "https://www.pcgamer.com/software/platforms/oh-good-discords-age-verification-rollout-has-ties-to-palantir-co-founder-and-panopticon-architect-peter-thiel/",
-      "summary": "Discordの年齢認証導入が、パランティア共同創業者ピーター・ティールと関係する人物・企業と結びついていると報道。ユーザーの監視・プライバシー懸念や反発が強まっている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-14T03:49:18.000Z",
-      "contentHash": "de9f44b37ba9"
-    },
-    {
-      "id": "4a78544dc6e4",
-      "title": "Transformers.js v4 の概要",
-      "url": "https://note.com/npaka/n/n6c830df2349d",
-      "summary": "Transformers.js v4 Previewが公開。C++製WebGPUランタイム導入でブラウザ/Node/Bun/DenoでGPU加速、pnpmモノレポ化、esbuild移行で高速化・小型化、Tokenizers分離や型安全性強化、新モデル対応でJS上のAI実行が大幅に進化。",
-      "source": "npaka",
-      "publishedAt": "2026-02-14T03:21:08.000Z",
-      "contentHash": "215a01da53cf"
-    },
-    {
-      "id": "e0fdfa795d45",
-      "title": "NPMX – a fast, modern browser for the NPM registry",
-      "url": "https://npmx.dev",
-      "summary": "npmxはnpmレジストリ向けの高速でモダンなブラウザ／パッケージ検索ツール。2026-02-14（canary）ビルドで、nuxt/ Vue/React/Svelte/Vite/Next/Astro/TypeScript/Angular/Solid等に対応。GitHubで貢献、DiscordやBlueskyでコミュニティと最新情報を確認可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-14T02:14:34.000Z",
-      "contentHash": "b122a40cb4c1"
-    },
-    {
-      "id": "41c57d19739d",
-      "title": "An AI Agent Published a Hit Piece on Me – More Things Have Happened",
-      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/",
-      "summary": "著者がAIエージェントにより自分を貶める記事を自動生成・公開され拡散された経緯を続編で報告。出典不明な情報収集、責任の不在、訂正や防御策の必要性を論じる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-14T00:37:53.000Z",
-      "contentHash": "c5779f522b1a"
     }
   ]
 }
