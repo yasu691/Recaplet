@@ -1,6 +1,51 @@
 {
-  "generatedAt": "2026-03-14T02:43:26.093Z",
+  "generatedAt": "2026-03-14T08:54:05.874Z",
   "items": [
+    {
+      "id": "cc143a4f5adb",
+      "title": "Docker で Isaac Sim 5.1 を起動してROS2 Bridge でロボット制御を試す",
+      "url": "https://note.com/npaka/n/n1403655343f5",
+      "summary": "Ubuntu 22.04＋NVIDIA環境で、Docker上にIsaac Sim 5.1を導入してROS2 Bridgeでロボット制御を検証。NGCからイメージ取得、キャッシュ／ログ用ディレクトリ作成、UID調整、~/.ros/fastdds.xmlでUDP有効化し、環境変数やボリュームマウント、--network=host等でコンテナを起動した。",
+      "source": "npaka",
+      "publishedAt": "2026-03-14T07:54:15.000Z",
+      "contentHash": "045bd9afffe5"
+    },
+    {
+      "id": "57d4162dae8e",
+      "title": "An investigation of the forces behind the age-verification bills",
+      "url": "https://old.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/",
+      "summary": "申し訳ありませんが、外部URLを直接参照できません。記事本文か主要部分をここに貼っていただけますか？貼っていただければ、200文字以内で日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-14T01:19:18.000Z",
+      "contentHash": "c3264777549d"
+    },
+    {
+      "id": "d1a31737ce93",
+      "title": "Games with loot boxes to get minimum 16 age rating across Europe",
+      "url": "https://www.bbc.com/news/articles/cge84xqjg5lo",
+      "summary": "欧州のレーティング機関PEGIは6月以降、いわゆるルートボックス（有料のランダム報酬）を含むゲームを原則16歳以上（場合により18歳）に指定すると発表。38カ国適用で賭博性を指摘する研究もあり、既存タイトルへの遡及は現状ない。英国は現行で規制なし。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-14T00:02:37.000Z",
+      "contentHash": "c772d04d3e23"
+    },
+    {
+      "id": "9d0e8cd51c9a",
+      "title": "I found 39 Algolia admin keys exposed across open source documentation sites",
+      "url": "https://benzimmermann.dev/blog/algolia-docsearch-admin-keys",
+      "summary": "研究者がAlgoliaのDocSearchを使うオープンソースのドキュメントを調査し、管理権限を持つAPIキー39件を発見。DocSearchは検索専用のはずだが、約1.5万サイトのフロントエンドスクレイピングで35件、Git履歴解析で4件が見つかり、全て有効。大規模プロジェクトも含まれる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-13T22:52:05.000Z",
+      "contentHash": "8a8f070d947b"
+    },
+    {
+      "id": "bfc8400306c3",
+      "title": "Human Rights Watch says drone strikes in Haiti have killed nearly 1,250 people",
+      "url": "https://haitiantimes.com/2026/03/11/hrw-condemns-haiti-drone-strikes-killing-children/",
+      "summary": "Human Rights Watchは、2025年3月〜2026年1月にハイチで治安部隊とエリック・プリンス系民間業者Vectusの爆装ドローン攻撃により少なくとも1,243人（子ども17人含む）が死亡、738人負傷。多くに犯罪組織との関係がなく超法規的殺害の疑いがあると報告。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-13T22:28:04.000Z",
+      "contentHash": "1b4d8824a51b"
+    },
     {
       "id": "2e7f247751d8",
       "title": "States’ anti-monopoly case against Live Nation continues Monday",
@@ -14,10 +59,10 @@
       "id": "5411ccca1d4a",
       "title": "Docker で Isaac Sim 5.1 を起動してStreaming Client でUI表示を試す",
       "url": "https://note.com/npaka/n/n449575521639",
-      "summary": "Docker上でIsaac Sim 5.1を起動しStreaming ClientでUIを表示する手順。nvcr.ioからイメージをpull、キャッシュ等のディレクトリ作成・UID調整、コンテナをマウント付きで起動後に./runheadless.shで起動。AppImage版Streaming Clientをchmodしlibfuse2を入れて実行、Connectで操作。",
+      "summary": "Docker上でIsaac Sim 5.1を起動しStreaming ClientでUI表示する手順。NGCからイメージをpull、キャッシュ等のディレクトリ作成・UID調整、コンテナ起動→runheadless実行後、AppImageに実行権限付与とlibfuse2を入れて接続し表示。",
       "source": "npaka",
       "publishedAt": "2026-03-13T22:03:40.000Z",
-      "contentHash": "b97501226e9f"
+      "contentHash": "9cb90fc08b5e"
     },
     {
       "id": "9147288d4919",
@@ -65,6 +110,24 @@
       "contentHash": "483f73d3b749"
     },
     {
+      "id": "dbbcdf264803",
+      "title": "Digg is gone again",
+      "url": "https://digg.com/",
+      "summary": "Diggは2026年の環境変化でプロダクト市場適合に苦戦し、大幅な人員削減を決断。高度なAIボットによる不正がコミュニティの信頼基盤を壊し、既存プラットフォームのネットワーク効果も障害だったが、サービスは継続し小規模チームで再構築を目指す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-13T18:52:17.000Z",
+      "contentHash": "5e82862bd822"
+    },
+    {
+      "id": "7c9300e69957",
+      "title": "Mouser: An open source alternative to Logi-Plus mouse software",
+      "url": "https://github.com/TomBadash/MouseControl",
+      "summary": "MouserはMX Master 3S用のオープンソース・ローカルボタンリマッパー。テレメトリー/クラウド/ログイン不要。6ボタン全リマップ、アプリ別プロファイル、macOS対応、DPI/スクロール調整、HID++ジェスチャー、自動再接続、設定はローカルJSON。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-13T18:42:54.000Z",
+      "contentHash": "6f0842b8c5ec"
+    },
+    {
       "id": "7a0cd3126f33",
       "title": "Google Pixel 10A review: Just buy the 9A",
       "url": "https://www.theverge.com/tech/894319/google-pixel-10a-review-screen-specs-battery-camera",
@@ -72,6 +135,24 @@
       "source": "The Verge",
       "publishedAt": "2026-03-13T18:36:36.000Z",
       "contentHash": "8b350d95699c"
+    },
+    {
+      "id": "66df0fc4d399",
+      "title": "Hammerspoon",
+      "url": "https://github.com/Hammerspoon/hammerspoon",
+      "summary": "HammerspoonはLuaスクリプトでmacOSを強力に自動化するツール。OSとLuaの橋渡しをする拡張で操作を記述する。手動やHomebrewで導入し~/.hammerspoon/init.luaを作成。ドキュメントやコミュニティがあり、Mjolnirのフォーク。今後はAPI拡充、拡張連携、UX向上を目指す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-13T18:34:12.000Z",
+      "contentHash": "9714a0ca6be8"
+    },
+    {
+      "id": "3285126b1db8",
+      "title": "Your phone is an entire computer",
+      "url": "https://medhir.com/blog/your-phone-is-an-entire-computer",
+      "summary": "筆者はスマホが完全なコンピュータであるにもかかわらず、iPhoneはAppleの制限でiOS以外や任意ソフトの導入ができない点を批判。新廉価MacBook Neoは同じA18 Pro搭載でも自由にソフトやLinuxを動かせると対照を指摘する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-13T18:02:32.000Z",
+      "contentHash": "bbe170185a95"
     },
     {
       "id": "16b4da7e921e",
@@ -90,6 +171,24 @@
       "source": "The Verge",
       "publishedAt": "2026-03-13T17:52:01.000Z",
       "contentHash": "81034ff55a59"
+    },
+    {
+      "id": "d3ba1da8c44f",
+      "title": "John Carmack about open source and anti-AI activists",
+      "url": "https://twitter.com/id_aa_carmack/status/2032460578669691171",
+      "summary": "外部リンクの内容を直接開けないため、そのページの本文（引用でも可）を貼っていただけますか？または、要約してほしい箇所（ツイート本文やHNの議論の要点）を教えていただければ、200文字以内で日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-13T17:51:34.000Z",
+      "contentHash": "25da2f82cb52"
+    },
+    {
+      "id": "2b3a2d5a5ce5",
+      "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
+      "url": "https://claude.com/blog/1m-context-ga",
+      "summary": "Opus 4.6とSonnet 4.6で1Mコンテキストが正式提供。長文に対する追加料金なしで標準価格（Opus:$5/$25、Sonnet:$3/$15／百万トークン）。メディア上限は100→600枚/ページに拡大。Claude Platform、Azure Foundry、Vertex AIで利用可。Claude Code（Max/Team/Enterprise）にも含まれ、200K超のリクエストは自動対応。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-13T17:19:01.000Z",
+      "contentHash": "3967b9b891de"
     },
     {
       "id": "0b3f18b882e2",
@@ -245,15 +344,6 @@
       "contentHash": "dfeed30c86b5"
     },
     {
-      "id": "57d4162dae8e",
-      "title": "I traced $2B in grants and 45 states' lobbying behind age‑verification bills",
-      "url": "https://old.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/",
-      "summary": "申し訳ありませんが外部リンクへ直接アクセスできません。記事本文を貼るか主要ポイントを教えてください。それをもとに200字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-13T10:15:56.000Z",
-      "contentHash": "0b5b20a106ad"
-    },
-    {
       "id": "284d1ccae928",
       "title": "「AIエージェントキャッチアップ #69 - Recursive Language Models (RLMs)」を開催しました | Generative Agents Tech Blog",
       "url": "https://blog.generative-agents.co.jp/entry/2026/03/13/190008",
@@ -275,10 +365,10 @@
       "id": "bad1595e7a31",
       "title": "【書評】 作ってわかる大規模言語モデルの仕組み",
       "url": "https://note.com/npaka/n/na8c148cd1fa2",
-      "summary": "『作ってわかる大規模言語モデルの仕組み』は、GPT-2相当モデルを実装しながらトークナイザー、埋め込み、位置エンコーディング、アテンション等の基礎とLoRA・SFT・RLHF・DPO、分散学習まで実践的に解説する良書。体験を通じてLLMの内部理解を深めたい人におすすめ。",
+      "summary": "本書はGPT‑2相当を実装しながら、トークナイザー、埋め込み、位置エンコーディング、アテンション等のTransformer基礎とLoRA、SFT、RLHF、DPO、分散学習まで実践的に解説し、体験を通してLLMの内部理解を深める良書です。",
       "source": "npaka",
       "publishedAt": "2026-03-13T09:07:38.000Z",
-      "contentHash": "faa80e9f9507"
+      "contentHash": "3fc156e77ee7"
     },
     {
       "id": "e618c9f39559",
@@ -320,10 +410,10 @@
       "id": "4c33b42fab1c",
       "title": "JaSST'25 Tokai イベントの雰囲気をお届けします | SHIFT Group 技術ブログ",
       "url": "https://note.shiftinc.jp/n/nbbd18dbc3e3c",
-      "summary": "2025年12月5日、刈谷で7年ぶり開催のJaSST'25 Tokaiの報告です。テーマは「組み込み×自動化」。基調講演（自動テストとAI）やモデルベース特別講演、6社のスポンサーセッション（SHIFTは「シナリオテストAI」紹介）、パネルやワークショップ、交流会が行われ、参加者は業務系のテスト担当で経験者が多い傾向でした。",
+      "summary": "SHIFTの石井がJaSST'25 Tokai（2025/12/5、刈谷）参加報告。テーマは「組み込み×自動化」。LayerXの自動テストとAI講演、ベリサーブのモデルベース自動化など有益な講演・SIG・ワークショップがあり、スポンサー6社が技術紹介。SHIFTはPoC中の「シナリオテストAI」を発表。参加者は業務系が多くテスト・品質担当が中心。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-13T08:25:48.000Z",
-      "contentHash": "cecfe0b6a6ab"
+      "contentHash": "d87f3910a561"
     },
     {
       "id": "a891309d03e3",
@@ -338,19 +428,19 @@
       "id": "8735850bbb73",
       "title": "そのAI活用、チームで再現できますか？ － 社内スキル共有基盤をつくった話 | Money Forward Developers Blog",
       "url": "https://moneyforward-dev.jp/entry/2026/03/13/how-we-built-an-internal-skill-sharing-platform",
-      "summary": "マネーフォワードCTO室のHirotaka Kawataととんがりが、社内向けAIスキル共有基盤でAI活用を個人任せにせず組織全体へ広げる取り組みを紹介。開発現場の利便性向上と組織間の活用差解消を目指す。",
+      "summary": "マネーフォワードは、AI活用が個人やチームに閉じないよう、Agent Skillsやプラグインを共有する社内基盤（ai-agent-tools）を構築。マーケットプレイス形式で社内文脈をAIに提供し、標準化・再利用で知見継承と品質向上を図る。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-13T08:00:00.000Z",
-      "contentHash": "8103debc03fa"
+      "contentHash": "13f5742250c2"
     },
     {
       "id": "9a1c5ae4c40a",
       "title": "ClaudeのAgent SkillsでQA業務を効率化した話 | every Tech Blog",
       "url": "https://tech.every.tv/entry/2026/03/13/162525",
-      "summary": "デリッシュキッチンのUserMatchingでAnthropic Claudeを活用したQA自動化の事例。QA手順を5つのAgent Skillsに落とし込み、LP表示条件の網羅やシナリオ自動生成、ETLのテストデータ自動設計と検証フローを構築。Chrome連携は断念し、導入で得られた効果と課題を整理。",
+      "summary": "デリッシュキッチンのUserMatching事業で、AnthropicのAgent Skillsを使いQA手順をSkill化。LPの表示条件網羅やシナリオ自動生成、ETLのテストデータ設計〜検証を自動化し、属人化と工数を削減した取り組み。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-13T07:25:25.000Z",
-      "contentHash": "3dca60869506"
+      "contentHash": "506dcbd1b026"
     },
     {
       "id": "60f8e72cf20f",
@@ -1526,10 +1616,10 @@
       "id": "fc3b83153a55",
       "title": "Gemini Embedding 2 の概要",
       "url": "https://note.com/npaka/n/n1e39b1e67561",
-      "summary": "Gemini Embedding 2はGoogle初のネイティブなマルチモーダル埋め込みモデル。テキスト(8192トークン)、画像(最大6枚)、動画(120秒)、音声、6頁PDFを単一埋め込み空間で扱い100以上の言語に対応。MRLで3072/1536/768等に出力次元を調整可能。Gemini API/Vertex AIで利用できる。",
+      "summary": "Googleが公開プレビューで「Gemini Embedding 2」を発表。テキスト・画像・動画・音声・PDFを単一の埋め込み空間で扱うネイティブなマルチモーダルモデルで、インターリーブ入力や次元可変(MRL)に対応し高性能。Gemini API/Vertex AIで利用可能でRAGやセマンティック検索などを簡素化・強化。",
       "source": "npaka",
       "publishedAt": "2026-03-10T21:43:21.000Z",
-      "contentHash": "6bc8cf795003"
+      "contentHash": "1ac4acad3d3f"
     },
     {
       "id": "64eaf09fd7a0",
@@ -2408,10 +2498,10 @@
       "id": "e12a0cf73a1d",
       "title": "Unity MCP を試す",
       "url": "https://note.com/npaka/n/n19e5132847c6",
-      "summary": "UnityとAIを接続する「Unity MCP」の試用報告。MCPでAIがエディタのシーン情報取得やGameObject操作を実行可能に。Unity 6+・Unity AI Assistant導入、relayバイナリを設定してClaude Desktopと接続承認後、AIに指示してオブジェクト配置やゲーム作成を試した。",
+      "summary": "Unity MCPはMCPでUnityとAIを接続し、エディタの情報取得やGameObject作成が可能に。手順はUnity 6＋でAI Assistant導入、Unity MCP起動・relay確認、Claude Desktopにrelayパスを設定して接続承認。承認後、AIにオブジェクト配置や簡易ゲーム制作を指示して動作確認した。",
       "source": "npaka",
       "publishedAt": "2026-03-07T21:53:20.000Z",
-      "contentHash": "fb3cb34ba09c"
+      "contentHash": "18665911fb80"
     },
     {
       "id": "7d2d3822192f",
@@ -8910,96 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-02-19T16:03:06.000Z",
       "contentHash": "ebb91da8118b"
-    },
-    {
-      "id": "24717f621aa3",
-      "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
-      "summary": "Googleの新モデル「Gemini 3.1 Pro」は高度な推論力でベンチマーク高得点。API、Vertex AI、Geminiアプリ、NotebookLMで提供され、複雑な問題解決やデータ統合向けにプレビュー展開中。",
-      "source": "Gemini",
-      "publishedAt": "2026-02-19T16:00:00.000Z",
-      "contentHash": "fd16cb375419"
-    },
-    {
-      "id": "3270c6163135",
-      "title": "Xenoblade Chronicles X is $20 off in time for its Switch 2 upgrade",
-      "url": "https://www.theverge.com/gadgets/881331/xenoblade-chronicles-x-switch-2-upgrade-deal-sale",
-      "summary": "任天堂が「Xenoblade Chronicles X: Definitive Edition」のSwitch 2向けアップグレードを配信。既存のSwitch版所有者は$4.99、Switch 2版は$64.99だが、AmazonやGameStopでデジタルSwitch版が$39.99に値下げ中なのでそれを購入して+$5でアップグレードするのが最も安い。物理版も割引あり。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-19T15:35:39.000Z",
-      "contentHash": "ae7bd4af6b7f"
-    },
-    {
-      "id": "d56ac300fb09",
-      "title": "Advancing independent research on AI alignment",
-      "url": "https://openai.com/index/advancing-independent-research-ai-alignment",
-      "summary": "OpenAIが750万ドルをThe Alignment Projectに拠出し、独立したAIアラインメント研究を支援。AGIの安全性・セキュリティリスクに対する国際的な対策を強化する取り組みです。",
-      "source": "OpenAI",
-      "publishedAt": "2026-02-19T10:00:00.000Z",
-      "contentHash": "34152c9ebe98"
-    },
-    {
-      "id": "8284a98ebf78",
-      "title": "駅メモ！「アルバム機能」開発の裏側：大規模ドッグフーディングとアジャイル的アプローチの試み | Mobile Factory Tech Blog",
-      "url": "https://tech.mobilefactory.jp/entry/2026/02/19/160000",
-      "summary": "駅メモ！に写真と移動ログを残す「アルバム機能」を開発。大規模ドッグフーディングでUIや画質を最適化し、週次のアジャイル確認でバグと品質を改善したが、工数予測やコード整合性、リファクタリング負荷などの課題が残った。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-19T07:00:00.000Z",
-      "contentHash": "9f5a5f41ad4f"
-    },
-    {
-      "id": "b960f81010b3",
-      "title": "マスタデータマネジメントって流行ってるの？ | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/673253b4d5c289",
-      "summary": "NTTデータの事例でInformatica採用のデータマネジメント案件を分析した結果、約半数がMDM/MDM SaaSで「流行中」と結論。M&Aやグローバル化、データ駆動経営、名寄せ、品質改善やクラウド移行などの課題解決が要因で、今後はAI対応のMDM需要が増えると予想。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-19T05:42:39.000Z",
-      "contentHash": "19e989f1dfc8"
-    },
-    {
-      "id": "fd5aad9d07e1",
-      "title": "週刊Cloudflare - 2026/02/15週 | Gemcook Tech Blogのフィード",
-      "url": "https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_0208-0214",
-      "summary": "週刊Cloudflare：Wrangler 4.65.0/4.64.0のマイナー更新。PagesローカルにCF_PAGES等を自動注入、KVネームスペースを名前で削除可能に、whoamiのJSON出力、autoconfig改善や複数の不具合修正。Pagesデプロイ削除やプロジェクト一覧JSON出力、フレームワーク選択やWRANGLER_COMMANDなどの機能追加も含む。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-19T05:12:04.000Z",
-      "contentHash": "c8f17c0872de"
-    },
-    {
-      "id": "ce4ae5716d1d",
-      "title": "European Tech Alternatives",
-      "url": "https://eutechmap.com/map",
-      "summary": "GDPR準拠でEU内ホストのソフト・サービス代替を集めたディレクトリ。30以上のカテゴリで500社超を紹介し、企業がデータ主権を守る欧州のプライバシー重視技術を見つける支援をします。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-19T05:07:37.000Z",
-      "contentHash": "d16617afbeee"
-    },
-    {
-      "id": "11f33b17a06b",
-      "title": "EMとして実践している1on1の運用方針 | SODA Engineering Blogのフィード",
-      "url": "https://zenn.dev/team_soda/articles/7bdaa5b1718eaa",
-      "summary": "SODAのEMが実践する1on1方針。目的は個人目標の進捗確認・調整、支援要望の把握、期待値の伝達、メンバー提案の受け入れ。頻度は週1〜月1で30分、原則スキップせず、私的相談や他で済む事項は除外。目標制度がある限り継続。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-19T04:57:04.000Z",
-      "contentHash": "fd20e23e0c93"
-    },
-    {
-      "id": "3cb106f1c703",
-      "title": "OpenClawでTelegramを使ってトレーディング戦略を構築してみた | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-      "url": "https://recruit.group.gmo/engineer/jisedai/blog/openclaw_stock_trading/",
-      "summary": "OpenClaw（旧Clawdbot）はTelegramなどで指示してローカルでコマンド実行や自動化を行うオープンソースの自律AI。LM StudioやAPIで多様なLLMを利用可能。著者はVPS上でTelegram経由のトレーディング戦略を試し、利便性と権限・セキュリティの注意点を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-19T04:49:35.000Z",
-      "contentHash": "0d0a32a8ca6f"
-    },
-    {
-      "id": "acde1ffbaf6d",
-      "title": "【SharePoint Online】”柔軟セクション（Flexible Section）”を使ってみた | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/02/19/134646",
-      "summary": "SharePoint Onlineの2025年新機能「柔軟セクション」は、グリッド上でWebパーツを自由に配置・高さ調整でき、レイヤーや図形切り取り、背景編集などで表現力が大幅に向上。導線整理や魅せ方に有効だが、要素の詰め込みやモバイル表示の崩れには注意が必要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-19T04:46:46.000Z",
-      "contentHash": "8bc4725dff0f"
     }
   ]
 }
