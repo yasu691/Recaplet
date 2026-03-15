@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-03-14T16:51:49.956Z",
+  "generatedAt": "2026-03-15T03:03:24.973Z",
   "items": [
+    {
+      "id": "f3265f47b4bc",
+      "title": "FCC chairman threatens TV broadcast licenses over news coverage",
+      "url": "https://fortune.com/2026/03/14/fcc-brendan-carr-tv-broadcast-licenses-news-coverage-us-war-iran-trump/",
+      "summary": "米FCC委員長ブレンダン・カー氏が、フェイクニュースを流す放送局は免許更新で取り消され得ると警告。トランプの報道批判投稿に重ねて発信し、対象は地上波局の免許でケーブルや紙媒体は含まれない。過去にCBSやジミー・キンメル番組への処分示唆も。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-15T00:08:22.000Z",
+      "contentHash": "4e121be8acf8"
+    },
+    {
+      "id": "69f03672dc2a",
+      "title": "ROS2 × Docker で Fast DDS を UDPv4 のみにする理由",
+      "url": "https://note.com/npaka/n/nce521b3788e6",
+      "summary": "Docker環境ではコンテナごとに/dev/shmが分離され、Fast DDSがSHMを誤検出して共有メモリ通信に失敗し、ノード発見やTopic受信が不能になる。加えてUDPマルチキャストの経路混在でDiscoveryが不安定になるため、最初からUDPv4のみを指定してSHMを無効化（Fast DDSのXML設定）すると通信が安定する。",
+      "source": "npaka",
+      "publishedAt": "2026-03-14T23:20:19.000Z",
+      "contentHash": "a00f33a2644f"
+    },
+    {
+      "id": "cb703c85af95",
+      "title": "Ageless Linux – Software for humans of indeterminate age",
+      "url": "https://agelesslinux.org/",
+      "summary": "Ageless Linuxは/etc/os-releaseを制御するためカリフォルニア法AB1043上の「OS提供者」に該当すると認める。変換スクリプト実行者も同様で、同法はアプリ起動時に年齢信号を要求（条文上“ユーザー”は子ども）。Ageless Linuxはこの分類を拒否し、年齢を尋ねず全員をユーザーとして扱う。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-14T22:10:26.000Z",
+      "contentHash": "e077eb06f3a0"
+    },
+    {
+      "id": "dc57d437f40b",
+      "title": "Changes to OpenTTD Distribution on Steam",
+      "url": "https://www.openttd.org/news/2026/03/14/steam-changes",
+      "summary": "OpenTTDはSteam/GOGでの単体配信を終了し、アタリ再発売のTransport Tycoon Deluxeとのバンドル（$9.99）で入手可能に。既存購入者や他配布元、開発体制への影響はなく、ゲーム本体は無料。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-14T22:04:48.000Z",
+      "contentHash": "34eb6f19678b"
+    },
+    {
+      "id": "d4a688dc6d1d",
+      "title": "Trump administration is allegedly collecting $10 billion on the TikTok deal",
+      "url": "https://www.theverge.com/policy/895039/trump-10-billion-tiktok",
+      "summary": "トランプ政権が仲介したTikTok買収で新投資家（OracleやSilver Lake等）が約100億ドルの手数料を負担。うち25億ドルは1月22日に財務省へ既払い、残額は分割支払い。Oracle共同創業者ラリー・エリソンも関与。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-14T21:57:07.000Z",
+      "contentHash": "b97c7eb7d1d3"
+    },
+    {
+      "id": "f9e2a54ed594",
+      "title": "Show HN: Han – A Korean programming language written in Rust",
+      "url": "https://github.com/xodn348/han",
+      "summary": "Hanは全キーワードがハングルの、Rust製静的型コンパイル言語。LLVM経由でネイティブ生成しつつインタープリタ/REPLやLSPを備え、ハングル識別子や配列・構造体・クロージャ・パターンマッチ等をサポートする。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-14T21:27:33.000Z",
+      "contentHash": "b9cc6243cb6b"
+    },
+    {
+      "id": "1308bba3600c",
+      "title": "Claude March 2026 usage promotion",
+      "url": "https://support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion",
+      "summary": "2026年3月13〜27日、Free/Pro/Max/Teamで米東部時間8〜14時／太平洋時間5〜11時を除くオフピーク時間の利用枠が自動で2倍に。Enterprise除外、週次上限に含まれず、終了後は元に戻ります。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-14T20:08:54.000Z",
+      "contentHash": "07989fceea70"
+    },
+    {
+      "id": "5e91c1c5c343",
+      "title": "GIMP 3.2 released",
+      "url": "https://www.gimp.org/news/2026/03/14/gimp-3-2-released/",
+      "summary": "GIMP 3.2 初版が公開。1年の改良を経て、外部画像を非破壊で扱えるリンクレイヤー、Pathでのベクターレイヤー、MyPaintブラシ強化、上書き塗り、改良テキスト編集、DDS/PSD/SVG/PDF対応や多彩なUX改善を収録。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-14T19:51:25.000Z",
+      "contentHash": "3c09bcb332c5"
+    },
+    {
+      "id": "7de5f75c4c85",
+      "title": "2026 tech layoffs reach 45,000 in March",
+      "url": "https://technode.global/2026/03/09/2026-tech-layoffs-reach-45000-in-march-more-than-9200-due-to-ai-and-automation-rationalfx/",
+      "summary": "RationalFXによれば、今年の世界のIT解雇45,363件のうち約9,238件（約20%）がAI導入や組織再編が原因。最大はBlockの4,000人削減（約1万→6,000人、CEOはAI能力向上を理由）。WiseTech（2,000）、Livspace（1,000）、eBay（800）なども実施。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-14T19:46:49.000Z",
+      "contentHash": "b41cbd8bdc3e"
+    },
+    {
+      "id": "77cd0f36214a",
+      "title": "Marketing for Founders",
+      "url": "https://github.com/EdoStra/Marketing-for-Founders",
+      "summary": "初期10/100/1000ユーザー獲得向けの実践マーケティング集。技術系創業者向けに、予算ゼロで使えるローンチ平台（Product Hunt等）、SNS、SEO、メール、広告、ランディング、価格戦略、検証など具体的手法とツールを網羅。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-14T19:35:40.000Z",
+      "contentHash": "ac6da1c97336"
+    },
+    {
+      "id": "a8507fb8c563",
+      "title": "Head of FCC threatens broadcaster licenses over critical coverage of Iran war",
+      "url": "https://twitter.com/BrendanCarrFCC/status/2032855414233047172",
+      "summary": "申し訳ありませんが、外部リンクを直接開けません。記事（あるいはツイートとHNコメントの要旨）を本文で貼っていただければ、200文字以内で日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-14T19:35:37.000Z",
+      "contentHash": "2b1ce5ff6607"
+    },
+    {
+      "id": "639c23c09d47",
+      "title": "MCP is dead; long live MCP",
+      "url": "https://chrlschn.dev/blog/2026/03/mcp-is-dead-long-live-mcp/",
+      "summary": "記事はMCPの熱狂と現状を整理。CLI流行でトークン節約はあるが、エージェントはMCPと同様のコンテキスト問題に直面する。ローカルMCPとサーバMCPの違いや、プロンプト/リソース、認証・テレメトリの重要性を指摘し、組織レベルではMCPが今後も重要だと結論付ける。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-14T19:32:13.000Z",
+      "contentHash": "b9affb301cbf"
+    },
+    {
+      "id": "a2fbad2f031e",
+      "title": "Meta is reportedly laying off up to 20 percent of its staff",
+      "url": "https://www.theverge.com/business/895026/meta-laying-off-20-percent",
+      "summary": "ロイター報道によればMetaが人員の最大20%（約1万5800人）を削減する見通し。メタバース関連を縮小し、AIやデータセンターに巨額投資する一方で、スマートグラスやチャットボット、若年層への影響で問題が続いている。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-14T18:48:56.000Z",
+      "contentHash": "02ed9af11c4a"
+    },
     {
       "id": "4031a8366c5a",
       "title": "Hulu, Disney Plus, and the Pixel Watch 4 are among this week’s best deals",
@@ -29,13 +146,22 @@
       "contentHash": "8b85e5ee1ba6"
     },
     {
+      "id": "ac5a43abe4c1",
+      "title": "FASTとスクラムに学ぶ、不確実性への2つのアプローチ | 株式会社ログラス テックブログのフィード",
+      "url": "https://zenn.dev/loglass/articles/fast-scrum-two-approaches-to-uncertainty",
+      "summary": "VUCA時代のソフト開発でFASTとスクラムを比較。スクラムは「チーム内部の安定」で変化に対抗、FASTは「チーム自体を流動化」して適応。目的は同じで手法が異なるため双方の利点を活かすことを提案。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-14T14:39:22.000Z",
+      "contentHash": "d45ef963c80d"
+    },
+    {
       "id": "0de795fc45e6",
       "title": "ROS開発者のための DDS 超入門 (5) - ROS2で選択可能なDDSまとめ",
       "url": "https://note.com/npaka/n/n96f81167244e",
-      "summary": "ROS2はRMWでDDSを抽象化し、Fast DDS（標準・高スループット）、Cyclone DDS（低レイテンシ・安定）、Connext（商用高性能）、GurumDDS（軽量）などを用途で選べます。RMW_IMPLEMENTATION環境変数で切替可能。Zenohも利用可。",
+      "summary": "ROS2はRMWを通してDDSを選択可能。主な実装はFast DDS（デフォルト・高スループット）、Cyclone DDS（低レイテンシ・安定）、Connext（商用高性能）、GurumDDS（軽量）。RMW_IMPLEMENTATION環境変数で切替でき、Zenohも代替として利用可能。",
       "source": "npaka",
       "publishedAt": "2026-03-14T14:02:04.000Z",
-      "contentHash": "87f3f0ea0151"
+      "contentHash": "b17f0d2e05ee"
     },
     {
       "id": "63bcca8e3e71",
@@ -131,10 +257,10 @@
       "id": "78ed60da10fd",
       "title": "CANバスモーター の概要",
       "url": "https://note.com/npaka/n/na0185e296701",
-      "summary": "CANバスモーターはモーター・減速機・エンコーダ・ドライバ・CANインターフェースを一体化したアクチュエーター。差動通信でノイズ耐性が高く配線簡素化・リアルタイム多数台制御が可能で、脚ロボットや高性能アーム向けにRobStrideやDamiaoなどで採用が進んでいる。",
+      "summary": "「CANバスモーター」はモーター＋減速機・エンコーダ・ドライバ・CANインターフェースを一体化したロボット用アクチュエーター。差動通信でノイズ耐性・配線簡略・多数同時制御が可能で、脚ロボットや高性能アームなどのプロ用途で採用が拡大している。",
       "source": "npaka",
       "publishedAt": "2026-03-14T09:11:25.000Z",
-      "contentHash": "d4d20dfe7462"
+      "contentHash": "62230bc0da3b"
     },
     {
       "id": "d1f55b525621",
@@ -149,14 +275,14 @@
       "id": "cc143a4f5adb",
       "title": "Docker で Isaac Sim 5.1 を起動してROS2 Bridge でロボット制御を試す",
       "url": "https://note.com/npaka/n/n1403655343f5",
-      "summary": "DockerでIsaac Sim 5.1を起動してROS2 Bridgeでロボット制御を試行。Ubuntu22.04＋NVIDIA環境でNGCイメージをpullしキャッシュ等のディレクトリを作成、UID調整、Fast DDS用のfastdds.xmlでUDPのみ有効化してコンテナを起動する手順を解説。",
+      "summary": "DockerでIsaac Sim 5.1を起動し、ROS2 Bridgeでロボット制御を検証した手順。Ubuntu22.04＋NVIDIA環境でNGCイメージを取得し、キャッシュディレクトリ作成、コンテナUID調整を行い、UDP有効化のため~/.ros/fastdds.xmlを用意してFASTRTPS設定を反映した上でdocker runで起動した。",
       "source": "npaka",
       "publishedAt": "2026-03-14T07:54:15.000Z",
-      "contentHash": "c69730bf0b4f"
+      "contentHash": "c6ee1508e4d4"
     },
     {
       "id": "7cf52eac840d",
-      "title": "【Azure】AppServiceにマネージドIDを割り当ててACRからPullできるようにする | ヘッドウォータースのフィード",
+      "title": "【Azure】AppServiceがACRからPullできるようにするための手順 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/742110043fa7fb",
       "summary": "App ServiceがACRからPullする手順。前提：ユーザーアクセス管理者権限とAppService/AppServicePlan/ACRが準備済み。デプロイセンターでレジストリ・イメージ/タグを設定して保存。裏でApp ServiceのマネージドIDにACRのAcrPullを割当てるため権限が必要。最後にACRのアクセス制御でAcrPull付与を確認。",
       "source": "企業テックブログRSS",
@@ -248,10 +374,10 @@
       "id": "5411ccca1d4a",
       "title": "Docker で Isaac Sim 5.1 を起動してStreaming Client でUI表示を試す",
       "url": "https://note.com/npaka/n/n449575521639",
-      "summary": "DockerでIsaac Sim 5.1を起動しStreaming ClientでUI表示する手順。NGCからイメージ取得、キャッシュ等ディレクトリ作成、UID合わせてコンテナ起動→./runheadless.sh。AppImageのStreaming Clientを実行（libfuse2要）してConnect。",
+      "summary": "DockerでIsaac Sim 5.1を起動し、Streaming ClientでUI表示を確認する手順。Ubuntu22.04＋NVIDIA環境でのイメージ取得、キャッシュ/設定ディレクトリ作成、UID合わせ、コンテナ起動(runheadless)、AppImage実行とlibfuse2インストールを解説。",
       "source": "npaka",
       "publishedAt": "2026-03-13T22:03:40.000Z",
-      "contentHash": "f182482befcf"
+      "contentHash": "9ef86434af55"
     },
     {
       "id": "9147288d4919",
@@ -536,10 +662,10 @@
       "id": "284d1ccae928",
       "title": "「AIエージェントキャッチアップ #69 - Recursive Language Models (RLMs)」を開催しました | Generative Agents Tech Blog",
       "url": "https://blog.generative-agents.co.jp/entry/2026/03/13/190008",
-      "summary": "ジェネラティブエージェンツの大嶋が「AIエージェントキャッチアップ #69」でRecursive Language Models（RLMs）を紹介。入力を分解して自身を再帰的に呼び出す手法を解説し、開催情報とアーカイブ動画が公開されています。",
+      "summary": "AIエージェントキャッチアップ#69でRecursive Language Models（RLMs）を紹介。RLMはREPLで言語モデルが自身を再帰呼び出しし、入力を動的に分割して無限に近い入出力を処理。計算タスクや長文要約を実演し、実装やシステムプロンプト、コーディングエージェントとの類似点を確認。次回はtree-sitter。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-13T10:00:08.000Z",
-      "contentHash": "92592ec69fdf"
+      "contentHash": "639aa0e49c7e"
     },
     {
       "id": "ca4e2b5d7382",
@@ -554,28 +680,28 @@
       "id": "bad1595e7a31",
       "title": "【書評】 作ってわかる大規模言語モデルの仕組み",
       "url": "https://note.com/npaka/n/na8c148cd1fa2",
-      "summary": "『作ってわかる大規模言語モデルの仕組み』は、GPT-2相当を実装しながらトークナイザー、埋め込み、位置エンコーディング、アテンション等のTransformer基礎やLoRA・SFT・RLHF・DPO、複数GPUの分散学習まで実践的に学べる良書。内部を深く理解したい人におすすめ。",
+      "summary": "『作ってわかる大規模言語モデルの仕組み』は、GPT-2相当を実装しながらTransformerの基本（トークナイザー、埋め込み、位置エンコーディング、アテンション等）やLoRA、SFT、RLHF、DPO、分散学習まで実践的に解説。作って学ぶことでLLMの内部理解が深まる良書。",
       "source": "npaka",
       "publishedAt": "2026-03-13T09:07:38.000Z",
-      "contentHash": "505397709cdf"
+      "contentHash": "fc5019977422"
     },
     {
       "id": "e618c9f39559",
       "title": "MLモデル学習バッチのログ設計と監視ダッシュボード運用 | MicroAd Developers Blog",
       "url": "https://developers.microad.co.jp/entry/2026/03/13/180000",
-      "summary": "マイクロアドの木村が、MLモデル学習バッチのログ設計と監視を解説。MLOpsの概要、一般・事例に基づく監視要件整理、ログテーブル設計、Looker Studioでのダッシュボード設計と運用事例を紹介。",
+      "summary": "マイクロアドの木村が学習バッチのログ設計と監視を解説。MLOpsの観点から実際のインシデントを踏まえ、日〜数週の時系列で監視する要件を整理。最小限の指標（データ数・正例数、平均予測値・logloss、特徴量重要度）をダッシュボードで定期確認し早期検知と原因切り分けを実現する運用を提案。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-13T09:00:00.000Z",
-      "contentHash": "c26f17a4ba05"
+      "contentHash": "03a260e33a2a"
     },
     {
       "id": "a5b23a4c0053",
       "title": "ASAI　2025年カンファレンス報告会 | vicc blog",
       "url": "https://blog.vicc.jp/entry/asai-2025-conference-tokyo",
-      "summary": "VIZチーム照井が10年ぶりの東京開催となった建築イラストレーター国際団体ASAIカンファレンスに参加。審査員賞受賞の喜びと、対面ならではの貴重な交流を報告するレポート。",
+      "summary": "ASAIの年次AIPコンペが2025年10月に10年ぶりに東京で開催され、住友会館で授賞式が行われ約100名が参加。筆者はレンダリング部門で審査員賞を受賞し、直接対面する貴重な交流の意義を実感した。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-13T09:00:00.000Z",
-      "contentHash": "5670bf921cdb"
+      "contentHash": "7e6da9574f65"
     },
     {
       "id": "d365f39e5166",
@@ -1805,10 +1931,10 @@
       "id": "fc3b83153a55",
       "title": "Gemini Embedding 2 の概要",
       "url": "https://note.com/npaka/n/n1e39b1e67561",
-      "summary": "GoogleのGemini Embedding 2は、テキスト・画像・動画・音声・PDFを単一埋め込み空間で扱うネイティブなマルチモーダルモデル。8192トークン、最大6枚画像、120秒動画、ネイティブ音声、6頁PDF対応。MRLで3072/1536/768次元に調整可能。Gemini API/Vertex AIで利用可。",
+      "summary": "Gemini Embedding 2はGemini基盤の初のネイティブマルチモーダル埋め込み（パブリックプレビュー）。テキスト（最大8192トークン）、画像（最大6枚）、動画（120秒）、音声（ネイティブ）、PDF（最大6頁）を単一空間に統合し、100以上の言語をカバー。MRLで出力次元を3072/1536/768等に調整可能。SOTA性能を達成し、Gemini APIやVertex AIで利用可能。",
       "source": "npaka",
       "publishedAt": "2026-03-10T21:43:21.000Z",
-      "contentHash": "ef6b874f4cce"
+      "contentHash": "92a570803c2d"
     },
     {
       "id": "64eaf09fd7a0",
@@ -8874,132 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-02-20T10:32:52.000Z",
       "contentHash": "0feb90df22e2"
-    },
-    {
-      "id": "10b67cf557cd",
-      "title": "Microsoft Agent FrameworkでAzure Document intelligenceを使いワークフローを作る | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/cb27ee7d66ffdd",
-      "summary": "Microsoft Agent FrameworkでAzure Document Intelligenceを使い、.envでの環境設定→@toolでPDF/画像のOCR実装→OCR結果をLLMで構造化しHuman-in-the-loopワークフローを構築する手順を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-20T10:00:05.000Z",
-      "contentHash": "4ecb16fedf3c"
-    },
-    {
-      "id": "b5ce9ca78663",
-      "title": "Wantedlyにて、「AIに聞けば答えが出る」環境を目指して。MCPサーバー開発で実現する「AIによるデータ分析の民主化」 ～GameWith × AI～ が掲載されました #GameWith #TechWith | GameWith Developer Blog",
-      "url": "https://tech.gamewith.co.jp/entry/2026/02/20/190000",
-      "summary": "GameWithがWantedlyで公開したインタビュー。Agentic CodingとMCPを活用し、自然言語で操作できる社内向け分析ツールを開発し、AIでデータ分析の民主化を目指す取り組みを紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-20T10:00:00.000Z",
-      "contentHash": "e30f6da62441"
-    },
-    {
-      "id": "35ad189bbe4b",
-      "title": "Railsの悲観的ロックと楽観的ロックの使用シーンの紹介 | インゲージ開発者ブログ",
-      "url": "https://blog.ingage.jp/entry/2026/02/20/180624",
-      "summary": "同時更新で発生するロストアップデートやダーティリード対策としてのロック解説。悲観的ロックは lock/with_lock（SELECT FOR UPDATE）で確実に排他するが遅延や負荷が増す。楽観的ロックは lock_version を使い競合時に StaleObjectError を返す方式で、競合が少ない場面に適する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-20T09:06:24.000Z",
-      "contentHash": "c824222e7ffb"
-    },
-    {
-      "id": "f45f31070dc0",
-      "title": "Chrome拡張機能を作って開発の\"地味な面倒\"を解消する | M&amp;amp;Aクラウド開発者ブログ",
-      "url": "https://tech.macloud.jp/entry/2026/02/20/180513",
-      "summary": "開発の地味な面倒（同一ブラウザでのアカウント切替、テストデータ入力、本番誤操作防止）を解消するため、Claude CodeでChrome拡張を作成。レビュー省略やキー暗号化などの方針でセキュリティに配慮し隙間時間に反復開発した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-20T09:05:13.000Z",
-      "contentHash": "8a823a3a1e02"
-    },
-    {
-      "id": "d324d2de6917",
-      "title": "I tried building my startup entirely on European infrastructure",
-      "url": "https://www.coinerella.com/made-in-eu-it-was-harder-than-i-thought/",
-      "summary": "欧州での製造は想像以上に困難だったという体験記。規制・認証手続き、サプライヤー選定、最小発注量、品質管理、コストや納期の課題に直面し、得た教訓と改善策を共有している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-20T09:02:05.000Z",
-      "contentHash": "3bb13318e2a9"
-    },
-    {
-      "id": "be74ccb81339",
-      "title": "Untapped Way to Learn a Codebase: Build a Visualizer",
-      "url": "https://jimmyhmiller.com/learn-codebase-visualizer",
-      "summary": "現在そのURLの本文に直接アクセスできないため、要約するには記事本文の貼り付けか主要ポイントの提供をお願いします。貼っていただければ200文字以内で日本語要約を作成します。Hacker Newsの議論も要約希望ならそれも一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-20T08:52:17.000Z",
-      "contentHash": "3cf355e6c0ec"
-    },
-    {
-      "id": "b60a3fcf864e",
-      "title": "Web Components: The Framework-Free Renaissance",
-      "url": "https://www.caimito.net/en/blog/2026/02/17/web-components-the-framework-free-renaissance.html",
-      "summary": "Web ComponentsはCustom Elements、Shadow DOM、HTML Templateなどの標準APIを使い、フレームワーク不要のUI構築を可能にする再興を論じる。カプセル化・再利用性・小さなバンドルでデザインシステムやマイクロフロントに適する一方、ブラウザ互換性、ポリフィル、SSR／ハイドレーションやツール周りの課題が残るが段階的導入が進んでいる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-20T08:45:57.000Z",
-      "contentHash": "28ff56e0ef41"
-    },
-    {
-      "id": "18d3ce09cb69",
-      "title": "[Drizzle] マテビューにindexを貼る機能がない時の代替案 | NCDC テックブログのフィード",
-      "url": "https://zenn.dev/ncdc/articles/d8c3d32d5c07f3",
-      "summary": "Drizzleはスキーマ定義でマテリアライズドビューにindexを貼れないため、drizzle-kitのmigrate機能で対応する方法を解説。generateでjsonとsqlを作成し、CREATE INDEX IF NOT EXISTSを記述してdrizzle-kit migrateで反映。CI/CDで管理するためコードベースで行う点とIF NOT EXISTSの注意を記載。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-20T08:34:30.000Z",
-      "contentHash": "844b5706d79d"
-    },
-    {
-      "id": "0b36fccc3f8b",
-      "title": "フロントエンドに汎用APIを使わせてはいけない（4年後の続編記事）（翻訳） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_02_20/156715",
-      "summary": "2021年の主張の4年後の続編。フロントエンド向けに汎用APIを作るべきでない理由を改めて論じ、汎用APIが招く複雑さや運用コストを再検証し、翻訳で紹介した記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-20T08:30:33.000Z",
-      "contentHash": "11f6776f4ea4"
-    },
-    {
-      "id": "1349143eb2d4",
-      "title": "モノレポでClaude Codeのスキルをチームごとに出し分けたい ― direnvと環境変数で30行で解決した話 | WHITEPLUS TechBlog",
-      "url": "https://blog.wh-plus.co.jp/entry/managing-claude-code-skills-per-team-in-monorepo",
-      "summary": "モノレポ環境でClaude Codeのスキルを個人・チーム・全体の3層で管理し、チーム別に適用範囲を制御する仕組みをdirenvと環境変数で約30行で実装した話。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-20T08:24:31.000Z",
-      "contentHash": "bc79a34b6cd0"
-    },
-    {
-      "id": "6bb4229d631a",
-      "title": "採用数V字回復。SHIFT人事がつかんだ、「絵に描いた餅」にならない目標設定の考えかた | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n0106f8ad49ca",
-      "summary": "SHIFT人事は応募数と内定承諾率の急落を市場分析で原因特定。転職者減少やエージェントの合格率重視に対応し、合格率向上をKPIにTAM/SAM/SOMで具体数値化して目標設定しV字回復を実現した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-20T07:38:09.000Z",
-      "contentHash": "aec9026dc717"
-    },
-    {
-      "id": "2ac60c502321",
-      "title": "【Amazon Connect】アクセスコントロールを使ってみよう | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/02/20/163723",
-      "summary": "Amazon Connectのアクセスコントロールを解説。階層ベース（エージェント階層で簡単に設定、対象はユーザーのみ）とタグベース（細かく制御可能だがタグ付けや制限あり）の違いを、Ope1〜Ope6の事例で検証。設定手順や注意点、公式ドキュメント確認を推奨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-20T07:37:23.000Z",
-      "contentHash": "140e9d8231f2"
-    },
-    {
-      "id": "c0342b1e2d53",
-      "title": "Reading the undocumented MEMS accelerometer on Apple Silicon MacBooks via iokit",
-      "url": "https://github.com/olvvier/apple-silicon-accelerometer",
-      "summary": "Apple Silicon搭載Macに加速度センサーが残存していることをリバースエンジニアリングで公開したリポジトリ。センサーの読み出し方法、データ形式、活用例（傾き検知や盗難対策）を示し、プライバシーや用途の議論を呼んでいる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-20T05:06:40.000Z",
-      "contentHash": "9de4a99d0f78"
-    },
-    {
-      "id": "996fdbd30e28",
-      "title": "MuMu Player (NetEase) silently runs 17 reconnaissance commands every 30 minutes",
-      "url": "https://gist.github.com/interpiduser5/547d8a7baec436f24b7cce89dd4ae1ea",
-      "summary": "NetEaseのMac用エミュレータMuMu Player Proが起動中、30分ごとにローカル機器一覧、全プロセスの実行引数、インストール済アプリ、hosts、カーネル設定等を収集しMacのシリアルと紐付けて送信。プライバシーポリシー未記載でエミュレータに不要。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-20T01:28:47.000Z",
-      "contentHash": "fe3dd0ca6f7c"
     }
   ]
 }
