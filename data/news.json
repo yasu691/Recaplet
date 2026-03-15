@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T03:03:24.973Z",
+  "generatedAt": "2026-03-15T08:54:55.998Z",
   "items": [
     {
       "id": "f3265f47b4bc",
@@ -14,10 +14,10 @@
       "id": "69f03672dc2a",
       "title": "ROS2 × Docker で Fast DDS を UDPv4 のみにする理由",
       "url": "https://note.com/npaka/n/nce521b3788e6",
-      "summary": "Docker環境ではコンテナごとに/dev/shmが分離され、Fast DDSがSHMを誤検出して共有メモリ通信に失敗し、ノード発見やTopic受信が不能になる。加えてUDPマルチキャストの経路混在でDiscoveryが不安定になるため、最初からUDPv4のみを指定してSHMを無効化（Fast DDSのXML設定）すると通信が安定する。",
+      "summary": "Docker上のROS2でFast DDSは通常SHM+UDPを自動選択しますが、コンテナごとの/dev/shm分離でSHM通信が失敗しノード発見やTopic受信が途絶えることがあります。UDPv4のみを指定すればSHM誤認やマルチキャスト経路問題を回避し、通信を安定化できます。",
       "source": "npaka",
       "publishedAt": "2026-03-14T23:20:19.000Z",
-      "contentHash": "a00f33a2644f"
+      "contentHash": "d6f7d2275431"
     },
     {
       "id": "cb703c85af95",
@@ -149,19 +149,19 @@
       "id": "ac5a43abe4c1",
       "title": "FASTとスクラムに学ぶ、不確実性への2つのアプローチ | 株式会社ログラス テックブログのフィード",
       "url": "https://zenn.dev/loglass/articles/fast-scrum-two-approaches-to-uncertainty",
-      "summary": "VUCA時代のソフト開発でFASTとスクラムを比較。スクラムは「チーム内部の安定」で変化に対抗、FASTは「チーム自体を流動化」して適応。目的は同じで手法が異なるため双方の利点を活かすことを提案。",
+      "summary": "現代ソフト開発では前提の変化や依存関係、要件変更、競合などで計画通り進まないことが常態化している。VUCA時代に対応するため、本記事は著者が実践する適応的な開発手法を紹介する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-14T14:39:22.000Z",
-      "contentHash": "d45ef963c80d"
+      "contentHash": "0030449bac4c"
     },
     {
       "id": "0de795fc45e6",
       "title": "ROS開発者のための DDS 超入門 (5) - ROS2で選択可能なDDSまとめ",
       "url": "https://note.com/npaka/n/n96f81167244e",
-      "summary": "ROS2はRMWを通してDDSを選択可能。主な実装はFast DDS（デフォルト・高スループット）、Cyclone DDS（低レイテンシ・安定）、Connext（商用高性能）、GurumDDS（軽量）。RMW_IMPLEMENTATION環境変数で切替でき、Zenohも代替として利用可能。",
+      "summary": "ROS2はRMW層でDDS実装を切替可能。主な選択肢はFast DDS（標準・高スループット）、Cyclone DDS（低遅延・安定）、Connext（商用高性能）、GurumDDS（軽量）。環境変数で切替、Zenohも代替で利用可。",
       "source": "npaka",
       "publishedAt": "2026-03-14T14:02:04.000Z",
-      "contentHash": "b17f0d2e05ee"
+      "contentHash": "21adb728e735"
     },
     {
       "id": "63bcca8e3e71",
@@ -248,64 +248,64 @@
       "id": "74a8cca76d52",
       "title": "MCPサーバーのE2EテストをAgent Skillsで実装したらメンテが劇的に楽になりました | Money Forward Developersのフィード",
       "url": "https://zenn.dev/moneyforward/articles/4f29a60fd349a8",
-      "summary": "MCP経由でTestRailを操作するOSSの保守負担を軽減するため、Claude CodeのAgent SkillsでE2Eテストを実装。PlaywrightでAPIキー発行やセットアップを自動化し、維持管理が劇的に楽になった。",
+      "summary": "ダイの大冒険エンジョイ勢のbun913が、TestRailをAIで使いやすくするMCPサーバーをOSS公開したが事情で自分ではほとんど使わなくなった。それでもスターやnpmダウンロードは増え、最低限の脆弱性対応は続けたい、という状況。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-14T09:35:29.000Z",
-      "contentHash": "6abe2c8e9b5d"
+      "contentHash": "432dc01e0bb2"
     },
     {
       "id": "78ed60da10fd",
       "title": "CANバスモーター の概要",
       "url": "https://note.com/npaka/n/na0185e296701",
-      "summary": "「CANバスモーター」はモーター＋減速機・エンコーダ・ドライバ・CANインターフェースを一体化したロボット用アクチュエーター。差動通信でノイズ耐性・配線簡略・多数同時制御が可能で、脚ロボットや高性能アームなどのプロ用途で採用が拡大している。",
+      "summary": "CANバスモーターはモーター＋減速機・エンコーダ・ドライバ・CAN通信を一体化したアクチュエーター。差動通信でノイズ耐性・高リアルタイム性があり配線が簡素化、複数モーターの同期制御に適する。RobStrideやDamiaoが代表例で、LeRobotでも導入が進む。",
       "source": "npaka",
       "publishedAt": "2026-03-14T09:11:25.000Z",
-      "contentHash": "62230bc0da3b"
+      "contentHash": "6908ea21437d"
     },
     {
       "id": "d1f55b525621",
       "title": "ネットワーク何もわからん！そんな私がネスペ合格までに役立った本まとめ | コラボスタイル Developersのフィード",
       "url": "https://zenn.dev/collabostyle/articles/843a1b7479c930",
-      "summary": "アプリ開発者の筆者が独学でネットワークスペシャリスト合格に至る過程で役立った参考書まとめ。絵や会話で通信イメージを掴む入門書→図解や実機解説で用語・設定を補完→最後に『マスタリングTCP/IP』で体系的に理解する学習順を推奨。",
+      "summary": "筆者（MESI）はアプリ開発中心で2年目まではネットワーク知識が乏しかったが、クラウドやインフラに触れるうちに必要性を感じ独学で学習を継続し、最終的にネットワークスペシャリスト試験に合格した。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-14T09:04:53.000Z",
-      "contentHash": "5461d9922422"
+      "contentHash": "3d84ccf18c75"
     },
     {
       "id": "cc143a4f5adb",
       "title": "Docker で Isaac Sim 5.1 を起動してROS2 Bridge でロボット制御を試す",
       "url": "https://note.com/npaka/n/n1403655343f5",
-      "summary": "DockerでIsaac Sim 5.1を起動し、ROS2 Bridgeでロボット制御を検証した手順。Ubuntu22.04＋NVIDIA環境でNGCイメージを取得し、キャッシュディレクトリ作成、コンテナUID調整を行い、UDP有効化のため~/.ros/fastdds.xmlを用意してFASTRTPS設定を反映した上でdocker runで起動した。",
+      "summary": "Ubuntu 22.04上でNVIDIA環境のDockerにIsaac Sim 5.1を導入し、ROS 2 Bridgeでロボット制御を試す手順を解説。NGCからのイメージ取得、キャッシュ・UID設定、fastdds.xmlでUDP有効化、docker runによる起動までを詳述。",
       "source": "npaka",
       "publishedAt": "2026-03-14T07:54:15.000Z",
-      "contentHash": "c6ee1508e4d4"
+      "contentHash": "b7d56c6d4422"
     },
     {
       "id": "7cf52eac840d",
       "title": "【Azure】AppServiceがACRからPullできるようにするための手順 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/742110043fa7fb",
-      "summary": "App ServiceがACRからPullする手順。前提：ユーザーアクセス管理者権限とAppService/AppServicePlan/ACRが準備済み。デプロイセンターでレジストリ・イメージ/タグを設定して保存。裏でApp ServiceのマネージドIDにACRのAcrPullを割当てるため権限が必要。最後にACRのアクセス制御でAcrPull付与を確認。",
+      "summary": "AppServiceがAzure Container Registry(ACR)からイメージをPullする手順。前提：User Access Administrator権限、コンテナAppService・AppServicePlan・ACRが作成済み。手順は①AppServiceのデプロイセンターを開く②既存レジストリを選択し、イメージ名とタグを設定。必要に応じてACRへのアクセス権（AcrPull等）を付与する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-14T07:41:32.000Z",
-      "contentHash": "84b1678f4782"
+      "contentHash": "63957ba6b305"
     },
     {
       "id": "4caa8f8b6507",
       "title": "【WSL2】wsl --unregister コマンドには気を付けてください | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/2cdc5a91b36d30",
-      "summary": "WSL2で誤って \"wsl --unregister <DistributionName>\" を実行してしまい、バックアップなしでUbuntu環境を完全削除。指定したディストリビューションは復旧不可のため実行に要注意、という注意喚起。",
+      "summary": "誤って「wsl --unregister <DistributionName>」を実行してWSL2のUbuntu環境を削除してしまいました。指定したディストリビューションは完全に削除され、バックアップがなければ復旧不可。実行時は十分注意してください。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-14T07:40:04.000Z",
-      "contentHash": "0d3edbdf48b6"
+      "contentHash": "c5fbc6301332"
     },
     {
       "id": "32c7154b7b20",
       "title": "Bashコマンドでvenv環境を作成起動 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/206b77ff6a003f",
-      "summary": "venv作成: python3 -m venv .venv、起動: source .venv/bin/activate、解除: deactivate。activateはPATHやVIRTUAL_ENVを現在のシェルで書き換えるためsource（または.）が必要。Windowsは別スクリプト。",
+      "summary": "Python仮想環境の作成と操作法：作成は python3 -m venv .venv、起動は source .venv/bin/activate、解除は deactivate。source を使うのは現在のシェルの環境変数を変更するため。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-14T07:39:05.000Z",
-      "contentHash": "f78bdd8b1456"
+      "contentHash": "2f51dc093b8c"
     },
     {
       "id": "57d4162dae8e",
@@ -374,10 +374,10 @@
       "id": "5411ccca1d4a",
       "title": "Docker で Isaac Sim 5.1 を起動してStreaming Client でUI表示を試す",
       "url": "https://note.com/npaka/n/n449575521639",
-      "summary": "DockerでIsaac Sim 5.1を起動し、Streaming ClientでUI表示を確認する手順。Ubuntu22.04＋NVIDIA環境でのイメージ取得、キャッシュ/設定ディレクトリ作成、UID合わせ、コンテナ起動(runheadless)、AppImage実行とlibfuse2インストールを解説。",
+      "summary": "Ubuntu 22.04＋NVIDIA環境で、Dockerから nvcr.io/nvidia/isaac-sim:5.1.0 を取得。キャッシュ等ディレクトリを作成・UID合わせ後、GPU有効でコンテナを起動し ./runheadless.sh。別途 isaacsim-webrtc-streaming-client AppImage をダウンロードして実行権限・libfuse2を入れ起動、ConnectでUIを表示。",
       "source": "npaka",
       "publishedAt": "2026-03-13T22:03:40.000Z",
-      "contentHash": "9ef86434af55"
+      "contentHash": "b55f7fe24608"
     },
     {
       "id": "9147288d4919",
@@ -662,10 +662,10 @@
       "id": "284d1ccae928",
       "title": "「AIエージェントキャッチアップ #69 - Recursive Language Models (RLMs)」を開催しました | Generative Agents Tech Blog",
       "url": "https://blog.generative-agents.co.jp/entry/2026/03/13/190008",
-      "summary": "AIエージェントキャッチアップ#69でRecursive Language Models（RLMs）を紹介。RLMはREPLで言語モデルが自身を再帰呼び出しし、入力を動的に分割して無限に近い入出力を処理。計算タスクや長文要約を実演し、実装やシステムプロンプト、コーディングエージェントとの類似点を確認。次回はtree-sitter。",
+      "summary": "ジェネラティブエージェンツの大嶋が「AIエージェントキャッチアップ #69 - Recursive Language Models (RLMs)」を開催。アーカイブ動画あり。RLMは入力を分解して自身を再帰的に呼び出す言語モデルについての解説を行いました。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-13T10:00:08.000Z",
-      "contentHash": "639aa0e49c7e"
+      "contentHash": "92592ec69fdf"
     },
     {
       "id": "ca4e2b5d7382",
@@ -689,10 +689,10 @@
       "id": "e618c9f39559",
       "title": "MLモデル学習バッチのログ設計と監視ダッシュボード運用 | MicroAd Developers Blog",
       "url": "https://developers.microad.co.jp/entry/2026/03/13/180000",
-      "summary": "マイクロアドの木村が学習バッチのログ設計と監視を解説。MLOpsの観点から実際のインシデントを踏まえ、日〜数週の時系列で監視する要件を整理。最小限の指標（データ数・正例数、平均予測値・logloss、特徴量重要度）をダッシュボードで定期確認し早期検知と原因切り分けを実現する運用を提案。",
+      "summary": "マイクロアドの機械学習エンジニア木村が、MLモデル学習バッチのログ設計と監視を解説。MLOpsの考え方、一般・インシデント基づく監視要件整理、ログテーブル設計、Looker Studioでのダッシュボード設計と運用事例を紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-13T09:00:00.000Z",
-      "contentHash": "03a260e33a2a"
+      "contentHash": "c26f17a4ba05"
     },
     {
       "id": "a5b23a4c0053",
@@ -1931,10 +1931,10 @@
       "id": "fc3b83153a55",
       "title": "Gemini Embedding 2 の概要",
       "url": "https://note.com/npaka/n/n1e39b1e67561",
-      "summary": "Gemini Embedding 2はGemini基盤の初のネイティブマルチモーダル埋め込み（パブリックプレビュー）。テキスト（最大8192トークン）、画像（最大6枚）、動画（120秒）、音声（ネイティブ）、PDF（最大6頁）を単一空間に統合し、100以上の言語をカバー。MRLで出力次元を3072/1536/768等に調整可能。SOTA性能を達成し、Gemini APIやVertex AIで利用可能。",
+      "summary": "Gemini Embedding 2はGemini基盤の初のネイティブ多モーダル埋め込みモデル。テキスト(最大8192トークン)、画像(最大6枚)、動画(120秒)、音声(書き起こし不要)、PDF(6頁)を単一空間にマップし、MRLで次元(3072/1536/768)を調整可能。100以上の言語対応でAPI/Vertex AIで公開プレビュー。",
       "source": "npaka",
       "publishedAt": "2026-03-10T21:43:21.000Z",
-      "contentHash": "92a570803c2d"
+      "contentHash": "e22bb3d17e1b"
     },
     {
       "id": "64eaf09fd7a0",
