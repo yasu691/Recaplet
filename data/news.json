@@ -1,14 +1,230 @@
 {
-  "generatedAt": "2026-03-16T17:21:37.232Z",
+  "generatedAt": "2026-03-17T02:45:11.760Z",
   "items": [
+    {
+      "id": "b0314d1f0184",
+      "title": "全社横断のデータガバナンスを実現するためにデータワーキンググループを設立・運営した | LegalOn Technologies Engineering Blog",
+      "url": "https://tech.legalforce.co.jp/entry/data-governance-working-group",
+      "summary": "LegalOnのHead of Data若菜が、データアナリストやエンジニアらが所属するデータ部門を紹介。データガバナンスは開発を縛る守りではなく、明確な基準で迷いを減らし開発と事業を加速するものだと述べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T01:21:38.000Z",
+      "contentHash": "4e76360c4a6c"
+    },
+    {
+      "id": "232801143bf2",
+      "title": "[Informatica IDMC] Secure Agentのパフォーマンスチューニング入門 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/ed2afbcb081a77",
+      "summary": "前回はSecure Agentをグループ化した負荷分散を解説しましたが、本記事は単体のSecure Agentのチューニングが同等に重要だと指摘します。デフォルト設定では高性能マシンの資源が活かせないため、Agent設定やリソース調整で処理能力を最大化する必要があると述べます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T01:02:32.000Z",
+      "contentHash": "bd7fd21b9577"
+    },
+    {
+      "id": "fe8bbc3c0e4e",
+      "title": "[Informatica IDMC] Secure Agentグループの負荷分散の仕組みと設計の基本 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/33324a232d0bab",
+      "summary": "IDMCでタスク増加により単一Secure Agentでは処理が追いつかない問題を、Secure Agentグループによる負荷分散で解決。並列実行や部門別リソース分離、ジョブ干渉防止の仕組みと設計方針を解説します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T01:02:05.000Z",
+      "contentHash": "4304e9cc3eac"
+    },
+    {
+      "id": "e751be897fd2",
+      "title": "[Informatica]IDMC監査ログをREST APIで取得してみた | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/051d706522cb4f",
+      "summary": "IDMCのGUIはログ表示件数や期間に制約があり、長期保管や大量ログの横断分析に不向き。REST APIで自動取得して外部保管する設計により、数年単位の保存、監査対応、横断検索やセキュリティ・自動化運用に活用できる、という内容です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T01:00:09.000Z",
+      "contentHash": "7a0cde1075f4"
+    },
+    {
+      "id": "ce1f07f47a14",
+      "title": "Lightdashのテーブルチャートを使いこなすためのTips | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/lightdash-table-chart-tips",
+      "summary": "ナウキャストのデータエンジニアh-miyazawaが、金融向けSnowflake基盤で採用したBIツールLightdashを紹介。Lightdashはdbtと直接連携し、dbtモデルをテーブルや棒・折れ線・散布図・円グラフなどで可視化できるオープンソースツールです。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T01:00:08.000Z",
+      "contentHash": "a35c66e982e6"
+    },
+    {
+      "id": "bf3a91286f30",
+      "title": "ARM64 OSを作ろう (2) ～ タスク切り替え | VA Linux エンジニアブログ  ",
+      "url": "https://www.valinux.co.jp/blog/entry/20260317",
+      "summary": "UART出力環境を基に、ARM64向け自作OSにマルチタスクを実装。コンテキストスイッチをアセンブリで記述し、Cのタスク管理とスケジューラでRaspberry Pi 4上で複数タスクを順次動作させる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T01:00:00.000Z",
+      "contentHash": "e7c13186078f"
+    },
+    {
+      "id": "36a5dc7b8036",
+      "title": "Claude for PowerPointを試してみた | NEXTSCAPE blog",
+      "url": "https://blog.nextscape.net/archives/2026/03/17/094853",
+      "summary": "AnthropicのPowerPoint用AIアドイン「Claude for PowerPoint」を試用。スライドのゼロから自動生成や既存スライドの部分編集に対応し、Microsoft CopilotやAgentModeとの違いも報告します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T00:48:53.000Z",
+      "contentHash": "df067cea3404"
+    },
+    {
+      "id": "04741c882d52",
+      "title": "Copilot Studioでチャットに入力されたファイルのURLを処理するエージェントを作成する | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/03/17/091957",
+      "summary": "Copilot Studioで自律的に判断するエージェントを作り、チャットに貼られたSharePointファイルURLを処理する手順（準備、作成、コネクタ追加、フロー実装、動作確認）を解説する記事です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T00:19:57.000Z",
+      "contentHash": "2afd2b24399d"
+    },
+    {
+      "id": "e2870610391b",
+      "title": "The Live Nation trial restarts with a &#8216;velvet hammer&#8217;",
+      "url": "https://www.theverge.com/policy/895778/live-nation-ticketmaster-states-trial-continues",
+      "summary": "司法省の和解で混乱した後、ライブ・ネイション訴訟は多くの州が主導して再開。州は当初誤審を求めたが撤回し、陪審への偏見を懸念しつつ DOJ の専門家を確保して裁判を続行。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-17T00:08:31.000Z",
+      "contentHash": "763a5fef0e07"
+    },
+    {
+      "id": "14723542f94c",
+      "title": "US SEC preparing to scrap quarterly reporting requirement",
+      "url": "https://www.reuters.com/business/finance/us-sec-preparing-eliminate-quarterly-reporting-requirement-wsj-says-2026-03-16/",
+      "summary": "※外部サイト未取得のため、見出し等に基づく要約です。\nWSJ報道によると、米SECは上場企業の四半期（10‑Q）報告義務を撤廃する方針を準備中。企業負担軽減を狙う一方、投資家の情報減少や透明性低下を懸念する声もある。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-17T00:02:35.000Z",
+      "contentHash": "a752efeb3868"
+    },
+    {
+      "id": "5fa24ff3a84c",
+      "title": "DLSS 5 looks like a real-time generative AI filter for video games",
+      "url": "https://www.theverge.com/news/895472/nvidia-dlss5-generative-ai-pc-graphics",
+      "summary": "NvidiaのDLSS 5は生成AIでゲームの照明や素材をリアルタイム書き換え、写実性を大幅向上。黄仁勲は「グラフィックスのGPT」と称賛する一方、作者意図を損なう「AIスロップ」との批判も出ている。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-16T21:56:05.000Z",
+      "contentHash": "7fe050b449b4"
+    },
+    {
+      "id": "461d4afdbed4",
+      "title": "Teens sue Elon Musk’s xAI over Grok’s AI-generated CSAM",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/895639/xai-grok-teens-lawsuit-grok-ai-elon-musk",
+      "summary": "テネシーの3人のティーンがイーロン・マスクのxAIを提訴。Grokの「spicy mode」がAI生成の児童性的画像・動画を作成し、運営は危険を認識していたと主張。被害者は自身と少なくとも18人の未成年の画像がDiscordに投稿されたと訴える。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-16T21:44:11.000Z",
+      "contentHash": "b6bd126b7dad"
+    },
+    {
+      "id": "cc756c3b8bf9",
+      "title": "Ecovacs’ Deebot X8 and X9 Pro Omni robovacs are nearly 50 percent off",
+      "url": "https://www.theverge.com/gadgets/895458/ecovacs-deebot-x8-x9-pro-omni-robot-vacuum-amazon-big-spring-sale-deal-2026",
+      "summary": "Ecovacsのロボット掃除機「Deebot X8 Pro Omni」が599ドル（約50%引）、「X9 Pro Omni」が679ドル（約48%引）に値下げ。Amazon／Best Buy／Ecovacs公式で、AmazonのBig Spring Sale前の最安値。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-16T21:21:31.000Z",
+      "contentHash": "34651af45407"
+    },
+    {
+      "id": "1714cec3bc16",
+      "title": "Leanstral: Open-source agent for trustworthy coding and formal proof engineering",
+      "url": "https://mistral.ai/news/leanstral",
+      "summary": "Lean 4論文は、定理証明器Leanを再設計し、証明と実用プログラミングを統合する新しい言語と実装を示す。高速なランタイムとコンパイル、強力なメタプログラミング（マクロ／戦術）、小さな信頼カーネルで拡張性と性能を両立した点を報告する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-16T20:59:40.000Z",
+      "contentHash": "40b9880f924e"
+    },
+    {
+      "id": "52b636181dbb",
+      "title": "Benjamin Netanyahu is struggling to prove he&#8217;s not an AI clone",
+      "url": "https://www.theverge.com/tech/895453/ai-deepfake-netanyahu-claims-conspiracy",
+      "summary": "ネット上でネタニヤフが死亡・AIクローンに置き換えられたというデマが拡散。6本指や不自然な飲み方の映像が話題だが、信頼できる証拠はなく、AIによる精巧な偽造で実情の確認が難しくなっている。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-16T20:41:55.000Z",
+      "contentHash": "fac4cb961582"
+    },
+    {
+      "id": "4c29e0ba14d9",
+      "title": "Nvidia says China’s BYD and Geely will use its robotaxi platform",
+      "url": "https://www.theverge.com/tech/895301/nvidia-robotaxi-byd-geely-hyperion-lyft-halos",
+      "summary": "NvidiaはGTCでBYD、Geely、Isuzu、Nissanがロボタクシー向けのDrive Hyperionプラットフォームを採用すると発表。BYDは既存のNvidia搭載車からレベル4自動運転へ移行、GeelyはThorチップをZeekrに使用。米中貿易摩擦下で同社の自動運転事業を拡大。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-16T20:30:00.000Z",
+      "contentHash": "0b83c017b41e"
+    },
+    {
+      "id": "5cebe402de37",
+      "title": "I met Olaf — the Frozen robot who might be the future of Disney Parks",
+      "url": "https://www.theverge.com/tech/895369/olaf-disney-imagineering-frozen-robot-up-close",
+      "summary": "ディズニー・イマジニアリングのロボット「オラフ」は、Steam Deckで遠隔操作され会話はできないテレオペパペットだが、不気味の谷を越える魅力を示し、3/26にパリ、夏に香港で登場。ロボットキャラ導入の可能性を示唆する。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-16T20:30:00.000Z",
+      "contentHash": "fff8ee2c19ed"
+    },
+    {
+      "id": "044328bc0fed",
+      "title": "Nvidia Launches Vera CPU, Purpose-Built for Agentic AI",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai",
+      "summary": "NVIDIAがデータセンター向けのエージェント型AI専用CPU「Vera」を発表。GPUと密接に連携して低遅延のメモリ／通信を実現し、AIエージェントの推論やオーケストレーションを効率化する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-16T20:01:02.000Z",
+      "contentHash": "20b4d0dbbab0"
+    },
+    {
+      "id": "d26af1ef7832",
+      "title": "Palestinian boy, 12, describes how Israeli forces killed his family in car",
+      "url": "https://www.bbc.com/news/articles/c70n2x7p22do",
+      "summary": "すみません、外部のURLを直接開けないため記事本文にアクセスできません。記事本文か要点を貼り付けていただければ、200文字以内で日本語に要約します。HNコメントの要約も同様に対応できます。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-16T18:38:14.000Z",
+      "contentHash": "7bf038f414ec"
+    },
+    {
+      "id": "9c49098f3833",
+      "title": "The return-to-the-office trend backfires",
+      "url": "https://thehill.com/opinion/technology/5775420-remote-first-productivity-growth/",
+      "summary": "記事は、リモートファーストが会議削減や非同期作業で生産性向上と採用範囲拡大をもたらすと主張。ハイブリッドは問題を残し、成果重視の評価やツール投資、オンボーディングと包摂設計を推奨。読者反応は賛否両論。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-16T18:13:18.000Z",
+      "contentHash": "8ca3f3381a64"
+    },
+    {
+      "id": "b1714f94410f",
+      "title": "Meta’s renewed commitment to jemalloc",
+      "url": "https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc/",
+      "summary": "jemallocは高性能なメモリアロケータで、断片化低減・並行性最適化・プロファイリングやチューニング機能を持つ。FirefoxやRedis等で採用されており、HNでは導入効果や設定・他アロケータ比較の議論が活発です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-16T18:12:32.000Z",
+      "contentHash": "4bb0b879f44f"
+    },
+    {
+      "id": "6f85021cd071",
+      "title": "Sony&#8217;s AI graphics upscaling for PS5 Pro games is getting a big update tonight",
+      "url": "https://www.theverge.com/games/895396/playstation-pssr-upscaling-cyberpunk-2077-silent-hill",
+      "summary": "ソニーのPS5 Pro向けAIアップスケーリング技術「PSSR」が今夜大幅アップデートされ、Resident Evilに続きCyberpunk 2077、Silent Hill 2、FFVII Rebirth等へ展開。Digital Foundryはちらつきやフリッカーなどのアーティファクトが改善され、よりシャープで安定した画質になったと評価した。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-16T18:07:30.000Z",
+      "contentHash": "84bb008332ce"
+    },
+    {
+      "id": "e473ebc01805",
+      "title": "The “small web” is bigger than you might think",
+      "url": "https://kevinboone.me/small_web_is_big.html",
+      "summary": "すみませんが、外部サイトに直接アクセスできないため記事本文を取得できません。要約を作成するには、記事本文（または重要な抜粋）をここに貼り付けてください。HNの議論も要約したい場合はその旨を教えてください。200文字以内でまとめます。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-16T17:17:57.000Z",
+      "contentHash": "4e69abf9651b"
+    },
+    {
+      "id": "16641df2d9c8",
+      "title": "US commercial insurers pay 254% of Medicare for the same hospital procedures",
+      "url": "https://github.com/rexrodeo/american-healthcare-conundrum",
+      "summary": "申し訳ありませんが外部URLへ直接アクセスできません。記事本文か主要部分をここに貼っていただければ、200字以内で日本語に要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-16T17:13:27.000Z",
+      "contentHash": "78df7b534bf0"
+    },
     {
       "id": "7addd219d246",
       "title": "Encyclopedia Britannica is suing OpenAI for allegedly ‘memorizing’ its content with ChatGPT",
       "url": "https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit",
-      "summary": "ブリタニカとメリアム・ウェブスターが、OpenAIが自社の著作物でGPT‑4等を学習させ、原文とほぼ同一の出力を生成したとして著作権侵害で提訴。出力例を並べて証拠を提示。",
+      "summary": "百科事典ブリタニカと辞書出版社メリアム・ウェブスターが、OpenAIが同社の著作物を無断で学習・「暗記」し、GPT‑4が原文に近い出力をしたとして著作権侵害で提訴した。",
       "source": "The Verge",
       "publishedAt": "2026-03-16T17:04:06.000Z",
-      "contentHash": "cd9572f423e2"
+      "contentHash": "e72c394842b5"
     },
     {
       "id": "3775beb709be",
@@ -18,6 +234,24 @@
       "source": "The Verge",
       "publishedAt": "2026-03-16T17:00:00.000Z",
       "contentHash": "da6bff5b7ef1"
+    },
+    {
+      "id": "6d32ae370100",
+      "title": "Show HN: Claude Code skills that build complete Godot games",
+      "url": "https://github.com/htdt/godogen",
+      "summary": "GodogenはテキストからGodot 4のプレイ可能プロジェクトを自動生成するパイプライン。GDScript知識不足は手作り仕様書・APIドキュメント・遅延読み込みで補い、ビルド時／実行時の差はシリアライズとowner設定で解決。別エージェントの視覚QAでレンダリング不具合を検出する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-16T16:07:29.000Z",
+      "contentHash": "bafb1c960252"
+    },
+    {
+      "id": "79f64a247e2a",
+      "title": "Apideck CLI – An AI-agent interface with much lower context consumption than MCP",
+      "url": "https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative",
+      "summary": "申し訳ありませんが外部リンクを直接開けません。記事本文を貼るか主要段落を送っていただけますか？受け取れば200字以内で日本語要約します。コメント要約も可。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-16T15:25:36.000Z",
+      "contentHash": "05ce9bd5e386"
     },
     {
       "id": "29c030275e88",
@@ -239,10 +473,10 @@
       "id": "2104f85638a9",
       "title": "Isaac Sim OmniGraph 入門",
       "url": "https://note.com/npaka/n/ncb37099dd155",
-      "summary": "NVIDIA Isaac Simのビジュアルプログラミング基盤OmniGraph入門。ノード・ポート・接続でコード不要にロボット処理（制御・センサ・ROS2等）を構築し、Action Graphでイベント制御。Jetbotを例にステージ準備、ノード配置・プロパティ設定、接続、シミュレーション実行手順を解説。",
+      "summary": "Isaac SimのOmniGraphを解説した記事で、5.1での特徴や改良点、ノードベースのビジュアルスクリプティングによるシミュレーション／ロボット制御の構築方法、実例と注意点をまとめています。",
       "source": "npaka",
       "publishedAt": "2026-03-16T09:41:39.000Z",
-      "contentHash": "1cbb04b649dd"
+      "contentHash": "62e61f33dd33"
     },
     {
       "id": "256ea81987fc",
@@ -1076,10 +1310,10 @@
       "id": "cc143a4f5adb",
       "title": "Docker で Isaac Sim 5.1 を起動してROS2 Bridge でロボット制御を試す",
       "url": "https://note.com/npaka/n/n1403655343f5",
-      "summary": "Ubuntu 22.04上でNVIDIA環境のDockerにIsaac Sim 5.1を導入し、ROS 2 Bridgeでロボット制御を試す手順を解説。NGCからのイメージ取得、キャッシュ・UID設定、fastdds.xmlでUDP有効化、docker runによる起動までを詳述。",
+      "summary": "Docker上でIsaac Sim 5.1を起動し、ROS 2 Bridgeを使ってロボット制御を試した手順・設定・結果や注意点をまとめた記事。",
       "source": "npaka",
       "publishedAt": "2026-03-14T07:54:15.000Z",
-      "contentHash": "b7d56c6d4422"
+      "contentHash": "85ff38253fcc"
     },
     {
       "id": "7cf52eac840d",
@@ -1175,10 +1409,10 @@
       "id": "5411ccca1d4a",
       "title": "Docker で Isaac Sim 5.1 を起動してStreaming Client でUI表示を試す",
       "url": "https://note.com/npaka/n/n449575521639",
-      "summary": "Ubuntu22.04＋NVIDIA環境でDocker上にIsaac Sim 5.1を起動しStreaming ClientでUI表示する手順。NGCからイメージ取得、キャッシュ等ディレクトリ作成・UID調整、コンテナ起動してrunheadless実行。Streaming Client AppImageをダウンロード・実行権付与、libfuse2を入れて起動・Connectで表示。",
+      "summary": "Docker上でIsaac Sim 5.1を起動し、Streaming Clientを使ってUI表示を行った手順と動作確認をまとめた記事。設定方法や接続手順、表示結果などを解説。",
       "source": "npaka",
       "publishedAt": "2026-03-13T22:03:40.000Z",
-      "contentHash": "fcb8ef7feff6"
+      "contentHash": "fd8be8978c68"
     },
     {
       "id": "9147288d4919",
@@ -1481,10 +1715,10 @@
       "id": "bad1595e7a31",
       "title": "【書評】 作ってわかる大規模言語モデルの仕組み",
       "url": "https://note.com/npaka/n/na8c148cd1fa2",
-      "summary": "『作ってわかる大規模言語モデルの仕組み』は、GPT-2相当を実装しながらトークナイザー、埋め込み、位置符号化、アテンションなどTransformerの基本やLoRA・SFT・RLHF・DPO、分散学習まで実践的に学べる良書。LLMの内部を体験的に理解したい人におすすめ。",
+      "summary": "『作ってわかる大規模言語モデルの仕組み』は、実際にLLMを作りながらTransformerやLoRA、RLHF、DPOなどの仕組みを深く理解できる良書だと紹介している。",
       "source": "npaka",
       "publishedAt": "2026-03-13T09:07:38.000Z",
-      "contentHash": "3fddfd08a548"
+      "contentHash": "ab1f7183eb12"
     },
     {
       "id": "e618c9f39559",
@@ -2732,10 +2966,10 @@
       "id": "fc3b83153a55",
       "title": "Gemini Embedding 2 の概要",
       "url": "https://note.com/npaka/n/n1e39b1e67561",
-      "summary": "Geminiアーキテクチャ初のネイティブ・マルチモーダル埋め込み「Gemini Embedding 2」。テキスト・画像・動画・音声・PDFを統一埋め込み空間へマップし、インターリーブ入力対応。MRLで出力次元（3072/1536/768等）を調整可能。性能向上しGemini API/Vertex AIで利用可。",
+      "summary": "Gemini Embedding 2は、テキストや画像などをネイティブに同一埋め込み空間で扱う初のマルチモーダル埋め込みモデルで、検索・類似検索やクロスモーダル理解・生成で精度と効率を高め、幅広い応用が期待されると説明している。",
       "source": "npaka",
       "publishedAt": "2026-03-10T21:43:21.000Z",
-      "contentHash": "8bb774ec7656"
+      "contentHash": "05b88a072608"
     },
     {
       "id": "64eaf09fd7a0",
@@ -8766,240 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-02-23T23:58:45.000Z",
       "contentHash": "6ce09d45436a"
-    },
-    {
-      "id": "7a5a4763e0e0",
-      "title": "AI Added 'Basically Zero' to US Economic Growth Last Year, Goldman Sachs Says",
-      "url": "https://gizmodo.com/ai-added-basically-zero-to-us-economic-growth-last-year-goldman-sachs-says-2000725380",
-      "summary": "メタやアマゾンらがAIに巨額投資、今年は約7千億ドルのデータセンター投資が見込まれる。トランプは州規制回避を主張し成長論が広まったが、ウォール街の一部やエコノミストはGDPへの実質寄与は限定的、ほぼゼロと見直している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-23T22:55:08.000Z",
-      "contentHash": "0e09a8a87d51"
-    },
-    {
-      "id": "2c6e45bc6327",
-      "title": "You are not supposed to install OpenClaw on your personal computer",
-      "url": "https://twitter.com/i/status/2025987544853188836",
-      "summary": "すみませんが、外部URLの中身に直接アクセスできません。動画の書き起こしか記事本文、もしくはハッカーニュースのコメント要約をここに貼っていただければ、200文字以内で日本語要約を作成します。どちらを要約しますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-23T22:05:27.000Z",
-      "contentHash": "8060a0f56df9"
-    },
-    {
-      "id": "d8e70d6cd027",
-      "title": "You are not supposed to install OpenClaw on your personal computer",
-      "url": "https://twitter.com/BenjaminBadejo/status/2025987544853188836",
-      "summary": "申し訳ありませんが外部リンクを直接開けません。記事本文か主要部分をここに貼っていただければ、200文字以内で要約します。HNコメントの要約も可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-23T22:05:27.000Z",
-      "contentHash": "2f50e2433d2b"
-    },
-    {
-      "id": "273237c56a30",
-      "title": "OpenAI API の WebSocket Mode の概要",
-      "url": "https://note.com/npaka/n/n0da8907e9cfb",
-      "summary": "OpenAI Responses APIのWebSocket Modeは、/v1/responsesへ持続接続し各ターンでprevious_response_idと増分入力のみ送る方式です。ツール呼び出しの多い長時間ワークフローでターンごとのオーバーヘッドを削減し（20回以上で最大約40%高速化）、ZDRやstore=falseに対応。response.createで各ターンを開始し、generate:falseでウォームアップ可能です。",
-      "source": "npaka",
-      "publishedAt": "2026-02-23T21:53:12.000Z",
-      "contentHash": "ac1bb734a1e3"
-    },
-    {
-      "id": "5da7a905f669",
-      "title": "FreeBSD doesn't have Wi-Fi driver for my old MacBook. AI build one for me",
-      "url": "https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/",
-      "summary": "2016年MacBook ProのBroadcom BCM4350はFreeBSDで未対応。通常はLinux VMでbrcmfmacを使うが、筆者はFreeBSD向けにそのLinuxドライバの「管理部分」を移植するため、AI（Claude Code）でのコード生成を試みた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-23T21:44:28.000Z",
-      "contentHash": "bb3ecce343c7"
-    },
-    {
-      "id": "8637e57beea8",
-      "title": "Flock cameras gifted by Horowitz Foundation, avoiding public oversight",
-      "url": "https://thenevadaindependent.com/article/vegas-police-are-big-users-of-license-plate-readers-public-has-little-input-because-its-a-gift",
-      "summary": "ラスベガス警察はナンバープレート読み取り装置を多用。寄贈で導入されたため税負担がなく、市民が監視ネット導入に意見する機会がほとんどなかった。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-23T21:15:20.000Z",
-      "contentHash": "5207f7a201e7"
-    },
-    {
-      "id": "ac1987398706",
-      "title": "Will Trump’s DOJ actually take on Ticketmaster?",
-      "url": "https://www.theverge.com/policy/883155/doj-antitrust-division-gail-slater-live-nation-ticketmaster-trial",
-      "summary": "司法省の独占禁止局トップ、ゲイル・スレイターが突如辞任。数週間後に控えたライブネイション／チケットマスター訴訟を前に、内部対立やトランプの私的取引懸念が訴追の行方を不透明にしている。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-23T20:37:24.000Z",
-      "contentHash": "37b8c2d99b4f"
-    },
-    {
-      "id": "4b545dc5bd65",
-      "title": "Billions of dollars later and still nobody knows what an Xbox is",
-      "url": "https://www.theverge.com/games/883159/phil-spencer-xbox-game-pass",
-      "summary": "ここ数年、フィル・スペンサー体制のXboxはGame Pass中心の「ゲームのNetflix」構想に巨額投資したが、解雇やスタジオ閉鎖、方針の混乱を招いた。スペンサー退任で今後は不透明だ。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-23T20:30:00.000Z",
-      "contentHash": "1efbe9fddc43"
-    },
-    {
-      "id": "92d62fec33e0",
-      "title": "Anthropic accuses DeepSeek and other Chinese firms of using Claude to train their AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/883243/anthropic-claude-deepseek-china-ai-distillation",
-      "summary": "AnthropicはDeepSeek、MiniMax、Moonshotの3社がClaudeを不正利用し、約2.4万の偽アカと1600万件超の対話でClaudeを「蒸留」して推論能力を狙い、政治的に敏感な質問の検閲回避案を生成したと非難。蒸留は正当手法だが悪用され得ると警告。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-23T20:22:55.000Z",
-      "contentHash": "d4b8ba612825"
-    },
-    {
-      "id": "894a8f117841",
-      "title": "UNIX99, a UNIX-like OS for the TI-99/4A",
-      "url": "https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/",
-      "summary": "TI-99/4A向けの趣味プロジェクト「UNIX99」を紹介するスレ。限られた資源でUnix風のシェルやコマンド、疑似ファイルシステム、プロセス風機能などを実装し、実機やエミュレータで動作するデモや開発経過を共有している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-23T20:05:15.000Z",
-      "contentHash": "9a8e7c3627d3"
-    },
-    {
-      "id": "6a1ab4d9ab42",
-      "title": "Binance fired employees who found $1.7B in crypto was sent to Iran",
-      "url": "https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html",
-      "summary": "NYT報道：バイナンスの内部調査でイランが約1,500口座にアクセスし、2口座から約17億ドルがテロ関連とされるイラン団体へ送金。調査報告後、関係した社員少なくとも4人が解雇・停職に。2023年のマネロン有罪後も違法の疑いが続出。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-23T19:23:30.000Z",
-      "contentHash": "52794caca4a4"
-    },
-    {
-      "id": "49eca6b3fd61",
-      "title": "Americans are destroying Flock surveillance cameras",
-      "url": "https://techcrunch.com/2026/02/23/americans-are-destroying-flock-surveillance-cameras/",
-      "summary": "米国各地でナンバープレート読み取りのFlock監視カメラが破壊されている。移民当局へのデータ提供や追跡を懸念する住民の抗議で、自治体の契約継続に反発。FlockはICEと直接共有しないと主張するが、警察がアクセスを渡した例もあり、約8万台が設置されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-23T19:04:34.000Z",
-      "contentHash": "94964a512fcd"
-    },
-    {
-      "id": "8cfd978d1ccc",
-      "title": "Anthropic announces proof of distillation at scale by MiniMax, DeepSeek,Moonshot",
-      "url": "https://twitter.com/anthropicai/status/2025997928242811253",
-      "summary": "申し訳ありませんが、外部リンクを直接参照できません。該当ツイート（本文やスレッド）とHacker Newsの主要コメントの要旨をここに貼っていただけますか？いただければ200文字以内で日本語要約を作成します。どちらも要約に含めますか、それともツイートのみでよいですか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-23T18:33:38.000Z",
-      "contentHash": "22e77da36220"
-    },
-    {
-      "id": "e7df49745825",
-      "title": "Apple’s newest AirTags are already on sale if you’re looking to upgrade",
-      "url": "https://www.theverge.com/gadgets/883101/apple-airtag-second-gen-location-bluetooth-tracker-costco-deal-sale",
-      "summary": "発売から1ヶ月足らずのApple第2世代AirTagが、精度と通信範囲を改善して登場。現在Costcoで5個入りが99.99ドル（約20ドル/個）に割引中。会員でなくても5ドル追加支払いや年会費で購入可。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-23T18:06:38.000Z",
-      "contentHash": "6e3e98b99ea2"
-    },
-    {
-      "id": "4c45d126bf73",
-      "title": "The creators of Dark Sky have a new weather app that shares multiple predictions",
-      "url": "https://www.theverge.com/tech/883089/acme-weather-forecast-app-ios-dark-sky-creators-subscription",
-      "summary": "Dark Skyの開発者が新アプリAcme Weatherを公開。2020年にAppleへ売却後に立ち上げ、主要予報と複数の代替予報で不確実性に対応。iOSのみ（Androidは未定）。2週間無料、継続は年額25ドル。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-23T17:31:17.000Z",
-      "contentHash": "e4c0f538c4eb"
-    },
-    {
-      "id": "ddce9b119171",
-      "title": "ASML unveils EUV light source advance that could yield 50% more chips by 2030",
-      "url": "https://www.reuters.com/world/china/asml-unveils-euv-light-source-advance-that-could-yield-50-more-chips-by-2030-2026-02-23/",
-      "summary": "申し訳ありませんが、外部リンクを直接参照できません。記事本文を貼っていただければ200字以内で日本語要約します。見出しだけで要約（正確性に限りあり）を希望される場合はその旨お伝えください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-23T17:18:41.000Z",
-      "contentHash": "8a963c63623c"
-    },
-    {
-      "id": "ab6d5f3c144b",
-      "title": "Decided to fly to the US to buy some hard drives",
-      "url": "https://old.reddit.com/r/DataHoarder/comments/1rb9ot4/decided_to_fly_to_the_us_to_buy_some_hard_drives",
-      "summary": "海外在住の投稿者が米国の安価なハードドライブを買うために渡航・大量購入して帰国した話。預け荷物や関税、保証・返品、配送の可否といった実務面や、節約効果についてコミュニティで議論された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-23T17:01:39.000Z",
-      "contentHash": "53dff31089e7"
-    },
-    {
-      "id": "de5667272a0c",
-      "title": "6 tips for prompting Lyria 3 in the Gemini app",
-      "url": "https://blog.google/products-and-platforms/products/gemini/tips-prompting-lyria-3/",
-      "summary": "Google DeepMindの最新生成AI「Lyria 3」を紹介する記事。Lyria 3は音楽制作を支援し、誰でも手軽にメロディや曲を作れるようにするツールです。",
-      "source": "Gemini",
-      "publishedAt": "2026-02-23T17:00:00.000Z",
-      "contentHash": "c584f28c6b6b"
-    },
-    {
-      "id": "f3cc45d6e21f",
-      "title": "Discord distances itself from Persona age verification after user backlash",
-      "url": "https://www.theverge.com/tech/878369/discord-persona-age-verification",
-      "summary": "Discordは顔スキャンやID提出への批判を受け、英国で実施していた年齢認証プロバイダPersonaの限定テストを終了し、同社から距離を置くと表明。PersonaはRedditやRobloxでも利用されている。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-23T16:22:20.000Z",
-      "contentHash": "6216b74e809e"
-    },
-    {
-      "id": "b5b192b5b5c4",
-      "title": "Kohler&#8217;s new shower reuses dirty water to get you clean",
-      "url": "https://www.theverge.com/tech/883006/kohler-anthem-evocycle-smart-shower-system-water-recirculate-filter-recycle",
-      "summary": "KohlerのAnthem EvoCycleは、シャワー底部の貯留タンクで使用水をろ過・再利用し、水圧を落とさず最大約80％の節水を実現するスマートシャワー。価格は本体約7,500ドル（割引で5,625ドル）、タンクは別売りで825ドル。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-23T16:17:26.000Z",
-      "contentHash": "fa2614222e4a"
-    },
-    {
-      "id": "e3d034180475",
-      "title": "Does Big Tech actually care about fighting AI slop?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/882956/ai-deepfake-detection-labels-c2pa-instagram-youtube",
-      "summary": "大手テックは偽造対策を打ち出すが進展は鈍く、撮影時署名のC2PAを導入したInstagramも実効性が乏しい。問題を作る側が掃除を試みる中で対策は遅れている、という指摘。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-23T16:00:00.000Z",
-      "contentHash": "88d0df854d7a"
-    },
-    {
-      "id": "0ac30730f03e",
-      "title": "Yep, it’s fast: Donut Lab’s solid-state battery gets its first test result",
-      "url": "https://www.theverge.com/transportation/882993/donut-labs-solid-state-battery-charge-speed-vtt-test",
-      "summary": "フィンランドのDonut Labが開発した固体電池が独立試験で0→80%充電を5分未満で達成。充電速度と熱挙動を検証し、同社の速充電主張に対する懐疑を一部払拭した。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-23T15:54:06.000Z",
-      "contentHash": "0aae0d56211f"
-    },
-    {
-      "id": "86e925a99ba7",
-      "title": "AOC’s 27-inch 1440p QD-OLED gaming monitor is down to $380",
-      "url": "https://www.theverge.com/gadgets/883004/qd-oled-27-1440p-gaming-monitor-ghost-yotei-beats-deal-sale",
-      "summary": "AOCの27インチ1440p QD‑OLEDゲーミングモニター（240Hz、G‑Sync対応、約111PPI、通常使用の焼き付き保護を含む3年保証）がBest Buyで$379.99に。PS5版「Ghost of Yōtei」が初めて$20引き、Beats Studio Budsは$60などのセール情報。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-23T15:50:02.000Z",
-      "contentHash": "37d451a147b5"
-    },
-    {
-      "id": "a5cb8f6835ed",
-      "title": "Xbox shakeup: Phil Spencer and Sarah Bond are leaving Microsoft",
-      "url": "https://www.theverge.com/games/882363/xbox-microsoft-phil-spencer-out",
-      "summary": "XboxトップのPhil Spencerが約40年勤務の末に退任、Xbox社長のSarah Bondも退社。後任はCoreAI責任者のAsha SharmaがMicrosoft Gaming CEOに就き、Matt BootyがEVP兼チーフコンテンツオフィサーに昇格とNadellaが2月20日に発表。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-23T15:10:49.000Z",
-      "contentHash": "6ccf64b7e851"
-    },
-    {
-      "id": "ccba1d864c7a",
-      "title": "Hank Green will gladly take billionaire money for education videos",
-      "url": "https://www.theverge.com/podcast/882021/hank-green-complexly-non-profit-youtube-ai-algorithms-interview",
-      "summary": "ハンク・グリーンが弟ジョンと創業した教育動画会社Complexlyを非営利化し所有権を放棄。YouTubeやAI、資金調達（富豪の出資も歓迎）を含め、倫理的で持続可能なメディア運営について語る。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-23T15:00:00.000Z",
-      "contentHash": "09be1e9aa794"
-    },
-    {
-      "id": "9bf884f78118",
-      "title": "The peculiar case of Japanese web design (2022)",
-      "url": "https://sabrinas.space",
-      "summary": "2013年の指摘通り日本のウェブはミニマルと対照的に色彩や文字が過密。著者は世界の人気サイト2671枚のスクショをAI解析し、日本のサイトは空白暗色を避け明るく文字・画像密度が高い傾向を確認。文字体系や都市風景、言語・消費行動が原因候補。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-23T14:28:39.000Z",
-      "contentHash": "93bb8aa27430"
     }
   ]
 }
