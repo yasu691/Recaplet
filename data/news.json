@@ -1,6 +1,141 @@
 {
-  "generatedAt": "2026-03-17T02:45:11.760Z",
+  "generatedAt": "2026-03-17T09:11:08.585Z",
   "items": [
+    {
+      "id": "057929bb1c89",
+      "title": "Hands on with Aqara’s new Matter-compatible camera",
+      "url": "https://www.theverge.com/tech/895326/aqara-g350-matter-camera-samsung-smartthings-hands-on-review",
+      "summary": "AqaraのG350は、初のMatter対応カメラ（室内用パン・チルト、最大4K）。ただし現時点でMatter 1.5対応はSamsung SmartThingsのみで、他のプラットフォームは未対応。CES発表・今週発売。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-17T08:00:00.000Z",
+      "contentHash": "a6a3aceaaeae"
+    },
+    {
+      "id": "e8d3013a9c02",
+      "title": "AIがコードを出す時代、「基礎力」が差をつける理由とは？新人育成の現場から考えるUdemy活用術 | Qiita Zine",
+      "url": "https://qiita.com/official-columns/interview/202603-udemy/",
+      "summary": "AIで動くコードは増えたが理屈が分からず依存やコミュニケーション負荷が増加。いえらぶGROUPは「新人AI禁止令」で基礎力重視の体系的学習を推進し、AIを“活用”する人材育成とUdemy定額プランの活用を紹介している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T07:00:03.000Z",
+      "contentHash": "5c7c45d4e3f5"
+    },
+    {
+      "id": "2d86b013e3e5",
+      "title": "DGX Spark で NemoClaw を試す",
+      "url": "https://note.com/npaka/n/n5bd56ce0cc28",
+      "summary": "DGX SparkでNemoClawを試した報告。NemoClawはOpenClawをOpenShell上で安全に常時稼働させるOSS。前提はUbuntu22.04+/Node.js22+/Docker/OpenShell。curlで導入し、サンドボックス作成、推論先（Local NIM/NVIDIA Cloud/Local Ollama）設定、ポリシープリセット選択の手順を紹介。",
+      "source": "npaka",
+      "publishedAt": "2026-03-17T06:45:56.000Z",
+      "contentHash": "975539963ebb"
+    },
+    {
+      "id": "19163ff31ee6",
+      "title": "2026年版 エンジニアのキャリアについて【SmartHRの場合】 | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/03/17/154014",
+      "summary": "SmartHRは等級制度でスペシャリストとマネジメントを並列化し、4等級以上はどちらかの要件で昇格可能。チーフはプレイヤー寄りでメンバー復帰も容易にし、給与レンジは高め。管理職への心理的障壁を下げる制度設計。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T06:40:14.000Z",
+      "contentHash": "27b08c4620da"
+    },
+    {
+      "id": "7a4909232a03",
+      "title": "Copilot StudioのエージェントでHuman in the loopを実装する | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/03/17/151001",
+      "summary": "Copilot StudioはプレビューのHuman in the loopコネクタを使い、Request for informationで人間の承認を挟むワークフローを実装可能。記事では承認メールで確認し、承認時のみTeams作成を実行する手順を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T06:10:01.000Z",
+      "contentHash": "ef20122b2e8e"
+    },
+    {
+      "id": "cef7afb029d1",
+      "title": "Rails / OSS パッチ会 2026年3月 (オンライン開催) のお知らせ | ESM アジャイル事業部 開発者ブログ",
+      "url": "https://blog.agile.esm.co.jp/entry/rails-oss-patch-meetup-20260318",
+      "summary": "3月18日(水)17:00–19:00、DiscordでRails/OSSパッチ会をオンライン開催。Railsなどのupstreamへパッチを送る会で、committerのa_matsudaに相談可能。初心者歓迎、招待URLあり（RubyKaigiの話題も）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T06:05:00.000Z",
+      "contentHash": "230000f06308"
+    },
+    {
+      "id": "6cae288653b9",
+      "title": "Copilot coding agentのPR descriptionは変えられないのか？ — GitHub Actionsで変えた | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/03/17/150000",
+      "summary": "GitHub Copilotが自動生成するPR本文は公式にはカスタマイズ不可。著者はGitHub ActionsでPR作成後に本文を上書きする方法を7回の試行で実現。課題はbot名の文脈差、Copilotの後書き換え、DRAFT解除時のactor変化で、解決策はready_for_review起点に pull_request.user.login=='Copilot' で判定して gh pr edit で上書きする構成。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T06:00:00.000Z",
+      "contentHash": "0622099ad3e3"
+    },
+    {
+      "id": "62858bdf2c61",
+      "title": "エンジニアが仕様書を書くことで、AI開発の設計・実装を速くしたい | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/03/17/145645",
+      "summary": "AI導入で個別作業は速くなったが、設計書の不備で開発全体の生産性が上がらない。PRDのWhatだけでは手戻りが発生するため、エンジニアが仕様を主導して技術観点を盛り込み、設計・実装の工数と手戻りを削減。PdMは本来業務に集中でき、仕様フォーマット改善でAI自動化も期待。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T05:56:45.000Z",
+      "contentHash": "36c5239feab7"
+    },
+    {
+      "id": "2c07c3154455",
+      "title": "LLMのパラメーターtemperature と top_pをチューニングしてみた | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
+      "url": "https://recruit.group.gmo/engineer/jisedai/blog/tuning-with-temperature-and-top_p/",
+      "summary": "次世代システム研究室のL.W.が天秤BizでGeminiやChatGPT等のtemperatureとtop_pを調整実験。 「家から洗車場50m、車で行くべきか？」の問いでモデルや設定により応答が分かれ、多くは「歩くべき」と結論。チューニング手順と結果を共有。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T05:43:10.000Z",
+      "contentHash": "01375274b65c"
+    },
+    {
+      "id": "43d48d843978",
+      "title": "アプリケーションエンジニアが自力でインフラを構築・運用できる体制を作るまでの話 | atama plus techblogのフィード",
+      "url": "https://zenn.dev/atamaplus/articles/3be1911a317597",
+      "summary": "atama plusは「DeKITA」と名付けた仕組みで、AWS CDKのプリセットConstruct群・運用ガイド・ガードレールを提供し、インフラ未熟なアプリ開発者が自力で安全にインフラを構築・運用できる体制を作った。SREは整備・支援に専念し、人的ボトルネックを解消した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T05:33:48.000Z",
+      "contentHash": "02c532b97208"
+    },
+    {
+      "id": "f31a9d3f1041",
+      "title": "Datadog MCP ServerがGAされたので、AWS DevOps Agentと連携して触ってみた | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/03/17/142253",
+      "summary": "2026年3月10日GAのDatadog MCP Serverを、プレビューのAWS DevOps Agentと連携して実践検証した報告。構成・構築（エージェントスペース、Capability Providers）、検証内容（envタグ未設定リソース列挙、モニター取得）、クリーンアップ、AgentとBedrock AgentCoreの違い、4/21セミナー案内を含む。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T05:22:53.000Z",
+      "contentHash": "15da35545aae"
+    },
+    {
+      "id": "0dd89331bf66",
+      "title": "jQuery 4.0がついにリリース！React・Vueと比較して見えてくる「今あえてjQueryを選ぶ理由」と「選ばない理由」 | Gemcook Tech Blogのフィード",
+      "url": "https://zenn.dev/gemcook/articles/jquery4-whats-new",
+      "summary": "jQuery 4.0が2026年1月に約10年ぶりに正式リリース。W3Techsでの普及率は依然高い一方、IE10以下や旧ブラウザ切り捨てで3KB超軽量化、ES Modules化、Trusted Types/CSP対応、非推奨API削除、フォーカス順のW3C準拠など変更点を挙げ、React/Vueと比べた「選ぶ理由」「選ばない理由」を整理しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-17T05:01:56.000Z",
+      "contentHash": "667491c4807d"
+    },
+    {
+      "id": "4d8e7baa976c",
+      "title": "Kagi Translate now supports LinkedIn Speak as an output language",
+      "url": "https://translate.kagi.com/?from=en&to=LinkedIn+speak",
+      "summary": "記事の本文が見当たりません。要約したい記事の本文またはURLを貼ってください（最大約2万文字まで対応）。特に強調したい点やトーンの指定（ビジネス向け、カジュアル等）があれば教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-17T04:39:42.000Z",
+      "contentHash": "6bf9d53720ef"
+    },
+    {
+      "id": "0c5aaba5f950",
+      "title": "Monkey Island for Commodore 64 Ground Up",
+      "url": "https://pixeldust.se/monkey-island-project",
+      "summary": "記事は、往年のアドベンチャーゲーム「Monkey Island」の再実装プロジェクトの技術記録です。SCUMMなど既存エンジンの解析、ゲーム資産の扱い、エンジン再構築とモダン環境への移植、得られた教訓やオープンソース化の方針と法的配慮を解説しています。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-17T04:00:28.000Z",
+      "contentHash": "07951fc6d43a"
+    },
+    {
+      "id": "33e7c8d42478",
+      "title": "Every layer of review makes you 10x slower",
+      "url": "https://apenwarr.ca/log/20260316",
+      "summary": "承認の階層が一つ増すごとに処理は約10倍遅くなるという実感則。例：修正30分→レビュー5時間→設計承認約1週→他チーム対応約3月→経営層では数年。遅延は主に待ち時間で、AIでは根本解決できない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-17T03:20:36.000Z",
+      "contentHash": "a69d45e4c2cb"
+    },
     {
       "id": "b0314d1f0184",
       "title": "全社横断のデータガバナンスを実現するためにデータワーキンググループを設立・運営した | LegalOn Technologies Engineering Blog",
@@ -86,10 +221,19 @@
       "id": "14723542f94c",
       "title": "US SEC preparing to scrap quarterly reporting requirement",
       "url": "https://www.reuters.com/business/finance/us-sec-preparing-eliminate-quarterly-reporting-requirement-wsj-says-2026-03-16/",
-      "summary": "※外部サイト未取得のため、見出し等に基づく要約です。\nWSJ報道によると、米SECは上場企業の四半期（10‑Q）報告義務を撤廃する方針を準備中。企業負担軽減を狙う一方、投資家の情報減少や透明性低下を懸念する声もある。",
+      "summary": "WSJ報道によれば、米SECが上場企業の四半期報告義務を廃止する案を準備中。規制負担の軽減が狙いだが、投資家の透明性低下を懸念する声もあり、最終決定はまだ。",
       "source": "Hacker News",
       "publishedAt": "2026-03-17T00:02:35.000Z",
-      "contentHash": "a752efeb3868"
+      "contentHash": "ab1cb493e759"
+    },
+    {
+      "id": "4fe57c355d22",
+      "title": "NVIDIA GTC 2026 発表まとめ",
+      "url": "https://note.com/npaka/n/n95a3e6ebcc4e",
+      "summary": "NVIDIAはGTC2026で、Vera Rubinプラットフォーム公開、Groq 3 LPX推論加速、DGX Station発表。NemoClaw/OpenShellのエージェント、Newton 1.0とPhysical AI Data Factory、Nemotron 3 SuperやGR00T N2、Dynamo 1.0を発表。",
+      "source": "npaka",
+      "publishedAt": "2026-03-16T22:40:31.000Z",
+      "contentHash": "0d9b8336d9b9"
     },
     {
       "id": "5fa24ff3a84c",
@@ -119,13 +263,22 @@
       "contentHash": "34651af45407"
     },
     {
+      "id": "c718ceadcd7a",
+      "title": "Beyond has dropped “meat” from its name and expanded its high-protein drink line",
+      "url": "https://plantbasednews.org/news/alternative-protein/beyond-meat-not-the-moment-rebrand/",
+      "summary": "Beyond MeatのCEOイーサン・ブラウンは社名を「Beyond The Plant Protein Company」に改めた後、「今は植物由来ミートの時期ではない」と発言。植物由来食品への混乱や超加工食品の批判に対応し、非GMOの黄えんどう・赤レンズ豆・ファバ豆などのクリーン原料とタンパク・食物繊維の利点を強調しつつ将来の普及を目指す、という内容。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-16T20:59:49.000Z",
+      "contentHash": "38db5db1caed"
+    },
+    {
       "id": "1714cec3bc16",
       "title": "Leanstral: Open-source agent for trustworthy coding and formal proof engineering",
       "url": "https://mistral.ai/news/leanstral",
-      "summary": "Lean 4論文は、定理証明器Leanを再設計し、証明と実用プログラミングを統合する新しい言語と実装を示す。高速なランタイムとコンパイル、強力なメタプログラミング（マクロ／戦術）、小さな信頼カーネルで拡張性と性能を両立した点を報告する。",
+      "summary": "LeanstralはLean 4向け初のオープンソースコードエージェント。6Bパラメータのスパース設計で証明工学向けに最適化。Apache 2.0で公開、無料API・Mistral vibe対応、Lean検証器と並列推論で高効率、評価スイートFLTEvalも提供。",
       "source": "Hacker News",
       "publishedAt": "2026-03-16T20:59:40.000Z",
-      "contentHash": "40b9880f924e"
+      "contentHash": "b579b70ef69b"
     },
     {
       "id": "52b636181dbb",
@@ -158,10 +311,10 @@
       "id": "044328bc0fed",
       "title": "Nvidia Launches Vera CPU, Purpose-Built for Agentic AI",
       "url": "https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai",
-      "summary": "NVIDIAがデータセンター向けのエージェント型AI専用CPU「Vera」を発表。GPUと密接に連携して低遅延のメモリ／通信を実現し、AIエージェントの推論やオーケストレーションを効率化する。",
+      "summary": "記事本文を貼っていただけますか？または要点（抜粋やリンク）を教えてください。200文字以内で要約します。特に強調したい点（技術、企業連携、応用分野など）があれば教えてください。",
       "source": "Hacker News",
       "publishedAt": "2026-03-16T20:01:02.000Z",
-      "contentHash": "20b4d0dbbab0"
+      "contentHash": "fe53ef67c189"
     },
     {
       "id": "d26af1ef7832",
@@ -176,19 +329,19 @@
       "id": "9c49098f3833",
       "title": "The return-to-the-office trend backfires",
       "url": "https://thehill.com/opinion/technology/5775420-remote-first-productivity-growth/",
-      "summary": "記事は、リモートファーストが会議削減や非同期作業で生産性向上と採用範囲拡大をもたらすと主張。ハイブリッドは問題を残し、成果重視の評価やツール投資、オンボーディングと包摂設計を推奨。読者反応は賛否両論。",
+      "summary": "記事は「リモートファースト」が生産性と経済成長を押し上げると論じる。通勤削減や広い人材プール、非同期文化の導入で効率化が進み、管理手法やインフラ整備が成功の鍵だと指摘、ハイブリッドの落とし穴にも触れる。",
       "source": "Hacker News",
       "publishedAt": "2026-03-16T18:13:18.000Z",
-      "contentHash": "8ca3f3381a64"
+      "contentHash": "1d8de470c570"
     },
     {
       "id": "b1714f94410f",
       "title": "Meta’s renewed commitment to jemalloc",
       "url": "https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc/",
-      "summary": "jemallocは高性能なメモリアロケータで、断片化低減・並行性最適化・プロファイリングやチューニング機能を持つ。FirefoxやRedis等で採用されており、HNでは導入効果や設定・他アロケータ比較の議論が活発です。",
+      "summary": "Metaは高性能メモリアロケータjemallocへの注力を再表明。保守負担軽減とコード近代化で最新ハード／ワークロードに対応し、OSSコミュニティと協力して開発を継続、過去の技術的負債も反省。",
       "source": "Hacker News",
       "publishedAt": "2026-03-16T18:12:32.000Z",
-      "contentHash": "4bb0b879f44f"
+      "contentHash": "a8f66806279d"
     },
     {
       "id": "6f85021cd071",
@@ -473,10 +626,10 @@
       "id": "2104f85638a9",
       "title": "Isaac Sim OmniGraph 入門",
       "url": "https://note.com/npaka/n/ncb37099dd155",
-      "summary": "Isaac SimのOmniGraphを解説した記事で、5.1での特徴や改良点、ノードベースのビジュアルスクリプティングによるシミュレーション／ロボット制御の構築方法、実例と注意点をまとめています。",
+      "summary": "Isaac SimのOmniGraph（ノード・ポート・接続）とAction Graphの関係を解説し、Jetbotを例にステージ準備、ノード配置・設定、接続、シミュレーション実行までの手順を紹介。",
       "source": "npaka",
       "publishedAt": "2026-03-16T09:41:39.000Z",
-      "contentHash": "62e61f33dd33"
+      "contentHash": "3fe3f8fbc9ca"
     },
     {
       "id": "256ea81987fc",
@@ -617,10 +770,10 @@
       "id": "63befeec009c",
       "title": "Docker 版 Isaac Sim の表示方法 - X11 と Streaming Client の違い",
       "url": "https://note.com/npaka/n/n8bcb6e1f56e3",
-      "summary": "Docker版Isaac Simの表示は2通り。X11はコンテナのGUIをホストのXサーバに出す方式で手元開発向きだが環境依存が強い。Streaming ClientはheadlessでWebRTC経由表示し、リモート/GPUサーバ向け。",
+      "summary": "Docker版Isaac Simの表示は主に2通り。X11でホストに直接GUI表示（Streaming Client不要、ローカルLinux向けだが環境依存）か、headlessで動かしStreaming Clientで表示（リモート/GPUクラウド向け、ネットワーク依存）。Dockerは実行環境で表示手段とは別。",
       "source": "npaka",
       "publishedAt": "2026-03-16T01:18:51.000Z",
-      "contentHash": "07c96435eafb"
+      "contentHash": "cb86e63f48e6"
     },
     {
       "id": "fe84836a11f1",
@@ -1310,10 +1463,10 @@
       "id": "cc143a4f5adb",
       "title": "Docker で Isaac Sim 5.1 を起動してROS2 Bridge でロボット制御を試す",
       "url": "https://note.com/npaka/n/n1403655343f5",
-      "summary": "Docker上でIsaac Sim 5.1を起動し、ROS 2 Bridgeを使ってロボット制御を試した手順・設定・結果や注意点をまとめた記事。",
+      "summary": "DockerでIsaac Sim 5.1を起動してROS2 Bridgeでロボット制御する手順。Ubuntu22.04＋NVIDIAで nvcr.io/nvidia/isaac-sim:5.1.0 を取得、キャッシュ等ディレクトリ作成、UIDを合わせ、~/.ros/fastdds.xmlでUDPを有効化し、環境変数とボリューム指定でコンテナを起動してROS2接続。",
       "source": "npaka",
       "publishedAt": "2026-03-14T07:54:15.000Z",
-      "contentHash": "85ff38253fcc"
+      "contentHash": "b7d56c6d4422"
     },
     {
       "id": "7cf52eac840d",
@@ -1409,10 +1562,10 @@
       "id": "5411ccca1d4a",
       "title": "Docker で Isaac Sim 5.1 を起動してStreaming Client でUI表示を試す",
       "url": "https://note.com/npaka/n/n449575521639",
-      "summary": "Docker上でIsaac Sim 5.1を起動し、Streaming Clientを使ってUI表示を行った手順と動作確認をまとめた記事。設定方法や接続手順、表示結果などを解説。",
+      "summary": "Ubuntu 22.04＋NVIDIA環境でDockerにIsaac Sim 5.1を導入。キャッシュディレクトリ作成・UID設定後コンテナを起動し内部で./runheadless.sh -v3を実行。別途Streaming Client(AppImage)をダウンロード・chmod、libfuse2を入れて起動しConnectでUI表示。",
       "source": "npaka",
       "publishedAt": "2026-03-13T22:03:40.000Z",
-      "contentHash": "fd8be8978c68"
+      "contentHash": "fcb8ef7feff6"
     },
     {
       "id": "9147288d4919",
@@ -1715,10 +1868,10 @@
       "id": "bad1595e7a31",
       "title": "【書評】 作ってわかる大規模言語モデルの仕組み",
       "url": "https://note.com/npaka/n/na8c148cd1fa2",
-      "summary": "『作ってわかる大規模言語モデルの仕組み』は、実際にLLMを作りながらTransformerやLoRA、RLHF、DPOなどの仕組みを深く理解できる良書だと紹介している。",
+      "summary": "本書はGPT-2相当を実装しながらトークナイザー、埋め込み、位置エンコ、アテンション、FFNなどLLMの構成要素を学べる実践書。LoRA・SFT・RLHF・DPOや分散学習も解説し、内部理解を深めたい人に最適。",
       "source": "npaka",
       "publishedAt": "2026-03-13T09:07:38.000Z",
-      "contentHash": "ab1f7183eb12"
+      "contentHash": "04ab99e26f60"
     },
     {
       "id": "e618c9f39559",
@@ -8847,159 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-02-24T07:09:00.000Z",
       "contentHash": "5565557c06ad"
-    },
-    {
-      "id": "33a8f05b5b7d",
-      "title": "Railsアプリケーションの非同期処理を安全に行うための勘所 | ONE CAREER Tech Blog",
-      "url": "https://note.com/dev_onecareer/n/nf77a7369a835",
-      "summary": "Railsの非同期処理で、データ不整合・二重実行・復旧コスト増大を防ぐ設計指南。安全性は「エラー時も整合性を保ち復旧可能な状態」と定義し、Active Job＋アダプター（本稿はDelayed Job）を利用。主な勘所はジョブ粒度を最小化（1ジョブ＝1レコード）、進捗/ステータス追跡とリトライ管理。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-24T07:03:54.000Z",
-      "contentHash": "7e45416d36a1"
-    },
-    {
-      "id": "492fdb80bc3c",
-      "title": "Firefox 148 Launches with AI Kill Switch Feature and More Enhancements",
-      "url": "https://serverhost.com/blog/firefox-148-launches-with-exciting-ai-kill-switch-feature-and-more-enhancements/",
-      "summary": "Firefox 148はAI機能を恒久的に無効化する「AIキルスイッチ」を導入。選択的ブロックや既存AIモデル削除、将来の上書き防止、遠隔更新やデータ収集の制御強化を含み、Trusted Types/SanitizerなどのセキュリティAPI導入、PDF数式読み上げ改善、Win10バックアップ、ベトナム語・繁体字翻訳、コンテナ新タブ壁紙、WebGPUのServiceWorker対応などを含む更新。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-24T05:47:23.000Z",
-      "contentHash": "da6925f22db8"
-    },
-    {
-      "id": "f840a34cf1c4",
-      "title": "Blood test boosts Alzheimer's diagnosis accuracy to 94.5%, clinical study shows",
-      "url": "https://medicalxpress.com/news/2026-02-blood-boosts-alzheimer-diagnosis-accuracy.html",
-      "summary": "血中バイオマーカー（リン酸化タウなど）を測る新たな血液検査がアルツハイマー病の診断精度を高めると報告。認知検査や画像診断と組み合わせることで早期発見やPET／脳脊髄液検査の削減が期待されるが、臨床導入と普及の検証が必要。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-24T03:10:16.000Z",
-      "contentHash": "49a6cede1ef6"
-    },
-    {
-      "id": "51ddb483bb5c",
-      "title": "Show HN: X86CSS – An x86 CPU emulator written in CSS",
-      "url": "https://lyra.horse/x86css/",
-      "summary": "x86CSSは純粋なCSSだけで動作するx86（8086）CPU／エミュレータで、GCCで生成した8086機械語をCSS内で実行する。JavaScript不要（クロム系で動作、時計用スクリプトは任意）。作者は仕組みをブログで解説予定。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-24T02:27:14.000Z",
-      "contentHash": "4ba02dfa08c8"
-    },
-    {
-      "id": "8c70e4a74e38",
-      "title": "生成AIは「スパイス」でいい。やる気ゼロから鬼編集者に変わる秘策 | Linkode.TechBlog",
-      "url": "https://blog.linkode.co.jp/entry/2026/02/24/101431",
-      "summary": "生成AIを代役にせず「スパイス」として使う実践法。やる気が出ないときにAIにわざと過剰な文章を作らせ、その違和感を手直しすることで編集意欲が湧き、理解と品質を保って締切に間に合わせる。AIは補助に留めるべき。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-24T01:14:31.000Z",
-      "contentHash": "4823006cfabb"
-    },
-    {
-      "id": "6295c3e4a068",
-      "title": "Playwright CodegenとClaude CodeでE2Eテスト作成をノーコード化する | kickflow Tech Blog",
-      "url": "https://tech.kickflow.co.jp/entry/2026/02/24/101002",
-      "summary": "kickflowのQAチームはPlaywright CodegenとClaude Codeを組み合わせた/codegen-testを開発。ブラウザ操作を記録するだけでAIが不要操作を除去・整形し、即利用可能なE2Eテストコードを生成。非プログラマのQAでもテスト作成が可能で、SKILL.md一つで挙動を定義できる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-24T01:10:02.000Z",
-      "contentHash": "49c3c3b20616"
-    },
-    {
-      "id": "2c730463b232",
-      "title": "バックエンド開発Handbookを届けるために ― AI時代の知の高速道路を敷く | Timee Product Team Blog",
-      "url": "https://tech.timee.co.jp/entry/2026/02/24/100702",
-      "summary": "タイミーはバックエンド開発HandbookをGitHub Pagesで公開し、設計中心のノウハウを形式知化しました。Claude CodeやCursor向けスキルも提供し、AIエージェント経由で開発中に自動参照・支援する仕組みを構築しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-24T01:07:02.000Z",
-      "contentHash": "f8fdbe916fd7"
-    },
-    {
-      "id": "fa203360f1eb",
-      "title": "The Personal AI OS I Didn’t Have to Build | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-      "url": "https://recruit.group.gmo/engineer/jisedai/blog/the-personal-ai-os-i-didnt-have-to-build/",
-      "summary": "PAI（Personal AI Infrastructure）はDaniel MiesslerのOSSで、Claude Codeに一コマンドで記憶・個性・問題解決フレーム・目標管理を付与。毎回リセットする欠点を周辺構造で補い、導入は簡単。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-24T01:06:11.000Z",
-      "contentHash": "3f87564096b1"
-    },
-    {
-      "id": "cc9ea3e5bc7c",
-      "title": "【協賛レポート｜前編】日本最大級の学生向けAIキャリアフェス「AIチャレンジャーズフェス2025」 | GMO Developers",
-      "url": "https://developers.gmo.jp/technology/80239/",
-      "summary": "AI人材を目指す学生向けイベント「AIチャレンジャーフェス2025」が、2025年12月21日に渋谷のGMO Yours・フクラスで開催されました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-24T01:00:28.000Z",
-      "contentHash": "2f783de1882d"
-    },
-    {
-      "id": "6575af276376",
-      "title": "なぜGoは「デフォルトが一番安全」を目指すのか？ - Secure by DesignとGo の動向 | ANDPAD Tech Blog",
-      "url": "https://tech.andpad.co.jp/entry/2026/02/24/100000",
-      "summary": "CISAの「Secure by Design」を元に、設計段階でセキュリティを組み込む「Secure by Default」の重要性を解説。CのgetsやPHPの未エスケープ例と対比し、Goはdatabase/sql等で安全なデフォルトを提供して利用者の負担を減らす方針を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-24T01:00:00.000Z",
-      "contentHash": "f373b656d8d7"
-    },
-    {
-      "id": "747f392246b4",
-      "title": "Vol. 06 「その機能、本当に“今”必要ですか？」チームで挑んだ引き算と加速 | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/02/24/100000",
-      "summary": "CS出身のPdMが短期間で価値を出すため、「今本当に必要か」を問い機能を削ぎ落としコアユースケースに集中。PdM・デザイナー・エンジニアが職能を越えて議論し、手戻りを減らして開発を加速。1stリリース後も改善継続。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-24T01:00:00.000Z",
-      "contentHash": "c8875cea5877"
-    },
-    {
-      "id": "d7d7fd422dd6",
-      "title": "【お蔵入り】ライドシェアドライバーアプリのSwiftUI作品集！ | newmo 技術ブログ",
-      "url": "https://tech.newmo.me/entry/rideshare-driver-swiftui-portfolio",
-      "summary": "事業判断で公開中止になったが、TCAとSwiftUI、Google Maps SDKで短期間に開発したライドシェア運転手向けiOSアプリのUIやアニメーション（マスコット走行、TimelineViewによる無限スクロール、repeatForeverでの車体揺れなど）を実装例と共に紹介する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-24T01:00:00.000Z",
-      "contentHash": "eece098fd131"
-    },
-    {
-      "id": "9c0859f8ac08",
-      "title": "AI エージェントに「記憶」を。Orphan ブランチ、Git worktree、DVC で構築する、思考とコードの完全同期フロー | techtekt",
-      "url": "https://techtekt.persol-career.co.jp/entry/tech/260224_01",
-      "summary": "Git worktreeでOrphanのnotesブランチを実体化し、コード（main/exp/*）と実験の思考履歴（spec/result）を分離・同期。DVCとコミットID、uv.lockでデータ・環境・コードの完全再現を担保し、AIエージェントに「記憶」と整理された実験ノートを持たせるワークフローを提案。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-24T00:56:22.000Z",
-      "contentHash": "862c6f573594"
-    },
-    {
-      "id": "4f726314594e",
-      "title": "Show HN: Steerling-8B, a language model that can explain any token it generates",
-      "url": "https://www.guidelabs.ai/post/steerling-8b-base-model-release/",
-      "summary": "Steerling-8Bを公開。各生成トークンを入力文脈・人が理解できる概念・学習データに紐付けできる初の可解釈モデル。1.35兆トークンで学習し、2～7倍のデータ量のモデルと同等の性能。推論時に再学習不要で概念の抑制・増強、生成文の出典追跡、概念単位のアラインメントが可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-24T00:38:02.000Z",
-      "contentHash": "39ad67257e20"
-    },
-    {
-      "id": "b1f6e0f48574",
-      "title": "Shatner is making an album with 35 metal icons",
-      "url": "https://www.guitarworld.com/artists/guitarists/william-shatner-announces-all-star-metal-album",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文（または主要段落）をここに貼り付けていただければ、200文字以内で日本語要約を作成します。コメントも要約希望なら併せて貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-24T00:33:06.000Z",
-      "contentHash": "b8ad7ea03dde"
-    },
-    {
-      "id": "ebdfa5a88b51",
-      "title": "CADDi の Control Plane を支えるシステムたちの紹介 | CADDi Tech Blog",
-      "url": "https://caddi.tech/2026/02/24/092138",
-      "summary": "CADDiは複数アプリ展開に伴い認証・認可をControl Planeでプラットフォーム化。各アプリのOIDC依存をやめ中央の認証Proxyと独自Internal Tokenで認可を管理し、運用と変更性を改善している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-24T00:21:38.000Z",
-      "contentHash": "3593f86f7440"
-    },
-    {
-      "id": "4acbc277caad",
-      "title": "I Ported Coreboot to the ThinkPad X270",
-      "url": "https://dork.dev/posts/2026-02-20-ported-coreboot/",
-      "summary": "ThinkPad X270（20HM、Kaby Lake）へCoreboot移植を完了した。BIOSをダンプしてRP2040-zero＋pico-serprogで書き込み、GbE/IFDやIntel ME用デルタ作成などを実施。作業中に0603キャパシタを破損したが、PJ304等で特定して対応した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-23T23:58:45.000Z",
-      "contentHash": "6ce09d45436a"
     }
   ]
 }
