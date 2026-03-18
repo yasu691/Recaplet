@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-03-18T02:53:43.395Z",
+  "generatedAt": "2026-03-18T09:09:24.963Z",
   "items": [
+    {
+      "id": "2ed7d380fdf2",
+      "title": "Claw Compactor: compress LLM tokens 54% with zero dependencies",
+      "url": "https://github.com/open-compress/claw-compactor",
+      "summary": "Claw Compactorは14段階のFusion PipelineでLLMトークンを圧縮するオープンソースエンジン。平均54%圧縮・LLM推論コストゼロ。AST解析やJSONサンプリング、simhash重複除去などの専門ステージを不変データフローで連結し、適用判定で無駄を省き、RewindStoreによるハッシュ参照で可逆圧縮を実現。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-18T08:06:48.000Z",
+      "contentHash": "312e55029ee9"
+    },
+    {
+      "id": "b899fab06a9c",
+      "title": "TLSと耐量子暗号 | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/35451",
+      "summary": "量子コンピュータによる将来の復号（ハーベスト攻撃）に備え、TLSへ耐量子暗号を導入・移行する必要性と、ハイブリッド方式やフォワードセキュリティ、互換性・標準化の課題を論じる記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-18T07:04:24.000Z",
+      "contentHash": "75b86e3fd2ef"
+    },
+    {
+      "id": "73721ec6ecea",
+      "title": "【Microsoft Teams】録画後に「OneDrive が有効になっていません」と表示され保存できない事象の原因と対処法 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/03/18/160032",
+      "summary": "Teams録画後に「OneDriveが有効になっていません」と表示され録画が保存できない事象。原因は対象ユーザーのOneDrive（個人用サイト）が未プロビジョニングだったため。対処はSharePoint管理シェルで事前に個人用サイトを作成すること（ライセンス割当とSharePoint管理者権限が必要）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-18T07:00:32.000Z",
+      "contentHash": "a7ecfe4984d2"
+    },
+    {
+      "id": "c0babcfffe3d",
+      "title": "ヒューマンエラーは起きるもの。徹底した現場目線で開発された「SmartRelease U」の設計思想に迫る | Qiita Zine",
+      "url": "https://qiita.com/official-columns/interview/202603-kddi-webcommunications/",
+      "summary": "KDDIの「SmartRelease U」は、テスト環境構築からリリースまでの人為ミスを自動化するツール。エンジニア寄りの試作UIを現場目線で何度も改良し、誤操作防止や最短6秒での環境構築を実現した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-18T07:00:09.000Z",
+      "contentHash": "8c95c99e2d8d"
+    },
+    {
+      "id": "49013bd1bd22",
+      "title": "Radix UIを活かすCompound Components設計 | 株式会社microCMSのフィード",
+      "url": "https://zenn.dev/microcms/articles/3d25e5b24574a1",
+      "summary": "Reactコンポーネントの複雑化対策として、VercelのComposition Patternsを参照しつつ、Radix UIを活かしたCompound Componentsパターンを実例で解説。モノリシック設計との比較や利点も紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-18T06:57:58.000Z",
+      "contentHash": "14014631ef51"
+    },
+    {
+      "id": "29945b8f633f",
+      "title": "LINEヤフーのエンジニアの動向を知る：State of LY 2025実施レポート | LINEヤフー Tech Blog (LY Corporation Tech Blog",
+      "url": "https://techblog.lycorp.co.jp/ja/20260318b",
+      "summary": "LINEヤフーの社内開発者調査「State of LY 2025」（322名回答）。対象をフロント以外に拡大し多様な技術スタックを把握。多くがフロント／バック両担当。Vibe coding利用は差が大きく、主なAI支援はGitHub Copilot・Claude Code・Cline。ViteやVitestの採用が進む。結果は社内WebとNotebookLMで参照可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-18T06:50:00.000Z",
+      "contentHash": "60186c5b2d56"
+    },
+    {
+      "id": "2fce4f022f63",
+      "title": "[UE5] Material Parameter Collection Modifier を使ってみる | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/55333/",
+      "summary": "Unreal Engine 5.7のMaterial Parameter Collection Modifier（MPC Modifier）を紹介。MPCの概要、設定や使い方、活用例を解説し、マテリアルパラメータ制御の効率化を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-18T06:00:07.000Z",
+      "contentHash": "06b29a1ec31e"
+    },
+    {
+      "id": "d204be4e698a",
+      "title": "AIの視点から逆算する デザインデータの作り方 | ユニファ開発者ブログ",
+      "url": "https://tech.unifa-e.com/entry/2026/03/18/144848",
+      "summary": "ユニファの砂田がLP制作でAI（Figma、Cursor、MCP）を活用。初回は約30%の精度でAIが独自判断して実装が崩れたため、Auto Layout徹底、レイヤー名最適化、サイズ制約などFigmaデータの構造化が重要と結論。社内で完結する実装体制の実現を目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-18T05:48:48.000Z",
+      "contentHash": "ca29b6a717d3"
+    },
+    {
+      "id": "763ba5d2050e",
+      "title": "AI は「作る」から「決める」へ。Agentic AI Summit '26 Spring を前に専門性について振り返る | クラウドエース株式会社さんのフィード",
+      "url": "https://zenn.dev/cloud_ace/articles/59d6f0d778a176",
+      "summary": "Agentic AI Summitを前に2025年秋を振り返り、AIが生成から自律実行へ移行したことを解説。GeminiやADK、Agent Engineで誰もが分身エージェントを作成でき、BigQueryも自律化。専門職は「作業」から判断・価値創出へのスキル転換が求められる、という要点をまとめる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-18T05:41:45.000Z",
+      "contentHash": "f2f1dff170de"
+    },
+    {
+      "id": "cb45ec648420",
+      "title": "条件付きアクセスの「サインインの頻度」を設定し、再認証のタイミングを制御する | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/03/18/143551",
+      "summary": "Microsoft Entra IDの条件付きアクセス「サインインの頻度」はMFA再認証の間隔を管理する機能（既定約90日）。1時間〜毎回で設定可能だがトークン更新で厳密な強制は不可。Outlook検証では1時間設定で約1〜4時間で再認証、ブラウザーは閲覧可、デスクトップはロック。導入前の動作確認と短頻度による運用負荷に注意。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-18T05:35:51.000Z",
+      "contentHash": "2a43afa35e1c"
+    },
+    {
+      "id": "3ae116e555bc",
+      "title": "これで完璧！SharePoint Embedded解説 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/b2781277159951",
+      "summary": "SharePoint EmbeddedはGraph API経由でSharePointのストレージを自アプリに組み込み、独自UIでファイル管理を提供する消費課金サービス。M365ライセンス不要でSaaSや外部向けに適し、Entra IDやPurview等のセキュリティ基盤が使える。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-18T05:32:23.000Z",
+      "contentHash": "c39c9aa1523f"
+    },
+    {
+      "id": "30efe93c8742",
+      "title": "SSH has no Host header",
+      "url": "https://blog.exe.dev/ssh-host-header",
+      "summary": "exe.devは多くのVMを定額で提供するためIPv4を各VMに割けず、SSHはHTTPのHostに相当する仕組みがない。解決策はIPv4プールを用い、ユーザー毎に相対的に一意な公開IPを割当て、接続時の公開鍵と入ってきたIPの組合せでVMへルーティングする方式。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-18T05:18:02.000Z",
+      "contentHash": "544d64ea5f27"
+    },
+    {
+      "id": "d72eb4083ddc",
+      "title": "Have a fucking website",
+      "url": "https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/",
+      "summary": "ネットは壊れているが、店やクリエイターは必ず自分のウェブサイトを持て。SNSは便利だが投稿やフォロワーは所有できず規約変更や凍結で失われ、データ収集者に与えるだけだ。料金・営業時間を載せ、メーリングリストを併用せよ。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-18T03:53:42.000Z",
+      "contentHash": "31076778f43e"
+    },
     {
       "id": "4038547ab69d",
       "title": "「言語処理学会第32回年次大会（NLP2026）」参加レポート | LegalOn Technologies Engineering Blog",
@@ -23,10 +140,10 @@
       "id": "d5d810c9907f",
       "title": "Codex Subagents 入門",
       "url": "https://note.com/npaka/n/n7436ccc91114",
-      "summary": "Codexのサブエージェントは、親エージェントがタスクを分解して起動する補助エージェント。自動生成はせず明示的指示で並列実行やコンテキスト分離が可能で、高速化と安定化が利点。実例はバグ検出や改善提案。",
+      "summary": "Codexのサブエージェントは、親エージェントがタスクを委任する補助エージェントで、明示的に要求した場合のみ生成される。タスクを分解して並列処理やコンテキスト分離で高速化・安定化する一方、トークン消費は増える。例：バグ検出と改善提案を並列実行して要約。",
       "source": "npaka",
       "publishedAt": "2026-03-18T01:14:13.000Z",
-      "contentHash": "3a63bae5ebf3"
+      "contentHash": "7f2db2d64f6b"
     },
     {
       "id": "ae67189017e0",
@@ -45,6 +162,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-18T01:02:06.000Z",
       "contentHash": "25638ea6c5bc"
+    },
+    {
+      "id": "610eeb463572",
+      "title": "The pleasures of poor product design",
+      "url": "https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design",
+      "summary": "カテリーナ・カンプラニの「The Uncomfortable」は、あえて使いにくい日用品を作ることで良いデザインの価値や設計の前提を可視化するユーモラスなプロジェクト。2011年開始で欧州の展覧会やTEDで注目された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-18T01:00:45.000Z",
+      "contentHash": "cb05527b05ee"
     },
     {
       "id": "ab849c3ac37e",
@@ -104,10 +230,19 @@
       "id": "a7ed7a2fb262",
       "title": "Codex Skills 入門",
       "url": "https://note.com/npaka/n/nfaa42624abd7",
-      "summary": "Codex Skillsは作業手順やルールを指示・スクリプト・リソースでまとめたモジュールで、AIが必要時に参照。品質安定、プロンプト短縮、チーム規約の適用が可能。Codex appで作成（例：「JP Greeting Test」）。",
+      "summary": "Codex SkillsはAIに作業手順やルールを教えるモジュールで、指示・スクリプト・リソースをまとめて品質を安定化、プロンプトを短縮、チーム規約の順守を可能にします。Codex appで簡単に作成・管理でき、必要時に自動読み込みします（例：挨拶応答スキル）。",
       "source": "npaka",
       "publishedAt": "2026-03-17T23:47:16.000Z",
-      "contentHash": "fa2579da2a40"
+      "contentHash": "9a0da51f5616"
+    },
+    {
+      "id": "28b1917d1690",
+      "title": "Why AI systems don't learn – On autonomous learning from cognitive science",
+      "url": "https://arxiv.org/abs/2603.15381",
+      "summary": "現行AIの自律学習の限界を批判し、人や動物の認知に倣う学習枠組みを提案。観察学習（A）と能動学習（B）を内部のメタ制御（M）で切替え現実環境への適応を目指す。進化・発達からの着想を論じる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-17T21:42:39.000Z",
+      "contentHash": "9a85c8b6bb39"
     },
     {
       "id": "e83845111157",
@@ -126,6 +261,15 @@
       "source": "The Verge",
       "publishedAt": "2026-03-17T20:47:35.000Z",
       "contentHash": "ea843d2196fd"
+    },
+    {
+      "id": "41b95429944a",
+      "title": "Warranty Void If Regenerated",
+      "url": "https://nearzero.software/p/warranty-void-if-regenerated",
+      "summary": "農機整備士だったトム・ハートマンは“ソフトウェア整備士”に転身した。移行でソフトは修理から「再生成」へ変わり、故障は不適切な仕様扱いに。ハードは依然物理的修理が必要で、多くの職業は技術転換後に生まれる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-17T20:39:19.000Z",
+      "contentHash": "c5ebaed0c17c"
     },
     {
       "id": "a20822619b29",
@@ -147,7 +291,7 @@
     },
     {
       "id": "bf5997aa698e",
-      "title": "Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System",
+      "title": "Get Shit Done: A meta-prompting, context engineering and spec-driven dev system",
       "url": "https://github.com/gsd-build/get-shit-done",
       "summary": "Get Shit Done（GSD）はClaude Code等向けの軽量メタプロンプト／コンテキスト設計と仕様駆動の開発ツール。コンテキストロットを解消し、単純なコマンドで信頼できるコード生成と検証を行う。",
       "source": "Hacker News",
@@ -176,10 +320,10 @@
       "id": "e80d1f9971b1",
       "title": "Meta Horizon Worlds on Meta Quest is being discontinued",
       "url": "https://communityforums.atmeta.com/blog/AnnouncementsBlog/updates-to-your-meta-quest-experience-in-2026/1369435",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできないため記事を確認できません。本文を貼るか主要箇所をコピーしていただければ、200文字以内で要約します。",
+      "summary": "申し訳ありませんが外部サイトに直接アクセスできません。要約する本文を貼るか主要な抜粋を教えてください。コメントもあれば一緒に要約します。200文字以内でまとめます。",
       "source": "Hacker News",
       "publishedAt": "2026-03-17T19:17:16.000Z",
-      "contentHash": "38a0c983a02e"
+      "contentHash": "a60ca0be87c7"
     },
     {
       "id": "122e1f57fe40",
@@ -545,10 +689,10 @@
       "id": "2d86b013e3e5",
       "title": "DGX Spark で NemoClaw を試す",
       "url": "https://note.com/npaka/n/n5bd56ce0cc28",
-      "summary": "DGX SparkでNVIDIAのNemoClawを試した記録。NemoClawはOpenClaw向け常時稼働アシスタントのOSS。要件はUbuntu22.04+, Node.js20+, Docker, OpenShell。導入とオンボーディングでサンドボックス作成、推論先（NIM/API/Ollama）設定、ポリシープリセット適用。",
+      "summary": "DGX SparkでNemoClawを試用。NemoClawはOpenClawをOpenShell上で安全に常時稼働させるOSS。要件はUbuntu22.04+, Node.js22+, Docker, OpenShell。curlで導入し、nemoclaw onboardでサンドボックス作成、推論接続（Local NIM/NVIDIA API/Ollama）やポリシープリセット設定を行う。",
       "source": "npaka",
       "publishedAt": "2026-03-17T06:45:56.000Z",
-      "contentHash": "6c1c90ec8f5d"
+      "contentHash": "d503b224afcc"
     },
     {
       "id": "19163ff31ee6",
@@ -770,10 +914,10 @@
       "id": "4fe57c355d22",
       "title": "NVIDIA GTC 2026 発表まとめ",
       "url": "https://note.com/npaka/n/n95a3e6ebcc4e",
-      "summary": "NVIDIAのGTC2026では、Vera RubinプラットフォームやGroq 3 LPX、DGX Stationなどの新ハード、NemoClaw/OpenShellのエージェント技術、Newton1.0やPhysical AI Data Factoryのロボット基盤、Nemotron3 Super/GR00T N2の新モデル、Dynamo1.0による大規模推論などが発表されました。",
+      "summary": "NVIDIA GTC 2026の発表まとめ：新ハードウェアVera Rubinプラットフォーム、Groq 3 LPX、DGX Station。エージェント向けNemoClaw／OpenShell。ロボット向けNewton 1.0やPhysical AI Data Factory。モデルにNemotron 3 SuperやGR00T N2、推論にDynamo 1.0を発表。",
       "source": "npaka",
       "publishedAt": "2026-03-16T22:40:31.000Z",
-      "contentHash": "7a3856882d2f"
+      "contentHash": "5ae3082cad87"
     },
     {
       "id": "5fa24ff3a84c",
@@ -8856,150 +9000,6 @@
       "source": "Gemini",
       "publishedAt": "2026-02-25T18:00:00.000Z",
       "contentHash": "b27c38fa7e47"
-    },
-    {
-      "id": "a46e760ee4cc",
-      "title": "A more intelligent Android on Samsung Galaxy S26",
-      "url": "https://blog.google/products-and-platforms/platforms/android/samsung-unpacked-2026/",
-      "summary": "AndroidをAI化してOSを賢いシステムに進化させ、Samsungとの10年の協業を踏まえGalaxy S26シリーズにGoogleの最新AI機能を搭載。日常タスク支援、見た目提案、詐欺検出などを提供します。",
-      "source": "Gemini",
-      "publishedAt": "2026-02-25T18:00:00.000Z",
-      "contentHash": "b41804122d82"
-    },
-    {
-      "id": "6c8297cf4bc6",
-      "title": "Google Gemini can book an Uber or order food for you on Pixel 10 and Galaxy S26",
-      "url": "https://www.theverge.com/tech/884210/google-gemini-samsung-s26-pixel-10-uber",
-      "summary": "GoogleのAI「Gemini」が一部のPixel 10とGalaxy S26でタスク自動化に対応。Uberの配車やDoorDashの注文をアプリの仮想ウィンドウで自動的に組み立て、進行を表示・停止・介入可能。ただし最終的な送信はユーザーが行う必要あり。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-25T18:00:00.000Z",
-      "contentHash": "d5be2e746678"
-    },
-    {
-      "id": "6f9dcee7c72a",
-      "title": "The Pentagon threatens Anthropic",
-      "url": "https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic",
-      "summary": "国防総省がAI企業Anthropicに対し、安全保障を理由にモデルやデータ提供の制限や契約打ち切りで圧力をかけた件を報告。著者は強硬措置が研究や競争を損ないかねないと批判し、透明で慎重な規制を訴える。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-25T17:49:27.000Z",
-      "contentHash": "b5369b208464"
-    },
-    {
-      "id": "2764b193e3ac",
-      "title": "The Om Programming Language",
-      "url": "https://www.om-language.com/",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文を貼り付けるか主要部分を送っていただければ、200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-25T17:48:21.000Z",
-      "contentHash": "c1aad3bc9ddc"
-    },
-    {
-      "id": "cb952c37899a",
-      "title": "Windows 11 Notepad to support Markdown",
-      "url": "https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders/",
-      "summary": "MicrosoftがWindows Insider向けにNotepadとPaintの新版を順次配信開始。見た目や操作性、パフォーマンス、アクセシビリティの改善や新機能を導入し、Insiderのフィードバックでさらに調整すると案内。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-25T17:14:19.000Z",
-      "contentHash": "e1e73b6e7766"
-    },
-    {
-      "id": "88e72a0c6525",
-      "title": "Live: Samsung unveils new Galaxy phones",
-      "url": "https://www.theverge.com/tech/881355/live-blog-samsung-galaxy-unpacked-2026",
-      "summary": "サンフランシスコでSamsungがGalaxy S26、S26 Plus、S26 Ultraを発表。折り畳みは別イベントで、RAM構成が価格に与える影響や新たなAI機能の有無に注目が集まるUnpacked 2026の速報。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-25T17:00:00.000Z",
-      "contentHash": "7eabb0e8335e"
-    },
-    {
-      "id": "72911c7ae2b8",
-      "title": "Samsung Unpacked 2026: live updates from the Galaxy S26 announcement event",
-      "url": "https://www.theverge.com/tech/883932/samsung-unpacked-2026-live-updates-galaxy-s26-announcement",
-      "summary": "サムスンが2月25日サンフランシスコでGalaxy S26/S26+/S26 Ultraを発表。視角で機密表示を消すディスプレイやQi2対応の噂、AI写真・動画編集機能が注目。発表は13時ET(10時PT)でYouTube配信。予約で$30クレジットあり。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-25T17:00:00.000Z",
-      "contentHash": "462c583338d9"
-    },
-    {
-      "id": "4d6653b22852",
-      "title": "Why isn't LA repaving streets?",
-      "url": "https://lapublicpress.org/2026/02/why-isnt-la-repaving-streets/",
-      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で日本語に要約します。貼れない場合は、タイトルから推測した概略要約（正確性は保証できません）を作成します。どちらにしますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-25T16:49:36.000Z",
-      "contentHash": "a8dba52aaaab"
-    },
-    {
-      "id": "9f57f309e016",
-      "title": "Racket v9.1",
-      "url": "https://blog.racket-lang.org/2026/02/racket-v9-1.html",
-      "summary": "すみません、外部URLを直接参照できません。記事本文（または要点）を貼っていただければ、200文字以内で日本語要約を作成します。コメント欄もまとめ希望なら一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-25T16:47:33.000Z",
-      "contentHash": "e90662414170"
-    },
-    {
-      "id": "bf05f6ca8d86",
-      "title": "Spotify&#8217;s Smart Reorder treats your playlists like a DJ set",
-      "url": "https://www.theverge.com/entertainment/884399/spotify-mix-smart-reorder-feature",
-      "summary": "SpotifyのMixに「Smart Reorder」導入。プレミアム限定でプレイリストをBPMとキーで自動並び替えし曲間の流れを最適化、Mix→編集から使用可能。保存すると既存の並び順は上書き。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-25T16:16:11.000Z",
-      "contentHash": "ddc92b331e2d"
-    },
-    {
-      "id": "4724615cd9ed",
-      "title": "Fanttik’s foldable V10 Apex vacuum is on sale for the lowest price we’ve seen",
-      "url": "https://www.theverge.com/gadgets/883696/fanttik-fold-v10-apex-foldable-car-vacuum-astro-bot-ps5-deal-sale",
-      "summary": "Fanttikの折りたたみ式ハンディ掃除機「Fold V10 Apex」が通常$149.99→Amazonで$85.49（約43%オフ）に値下げ、過去最安値に。車内や階段など手軽な掃除に便利。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-25T15:33:42.000Z",
-      "contentHash": "adea6de2913d"
-    },
-    {
-      "id": "225c018ae5e9",
-      "title": "Amazon&#8217;s AGI lab leader is leaving",
-      "url": "https://www.theverge.com/tech/884372/amazon-agi-lab-leader-david-luan-departure",
-      "summary": "AmazonのサンフランシスコAI研究所長デイビッド・ルアンが退社を発表。Nova Actなどを率いていたが今週末に辞任し、AGIを見据えAIに新能力を教える新事業に専念すると述べた。AmazonはAI競争で出遅れ感があり、Alexa Plusの評価も分かれている。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-25T15:24:39.000Z",
-      "contentHash": "5dcae54dcaac"
-    },
-    {
-      "id": "73e35c2dcab6",
-      "title": "We played Resident Evil Requiem, ask us anything",
-      "url": "https://www.theverge.com/entertainment/884295/resident-evil-requiem-ask-me-anything",
-      "summary": "『バイオハザード レクイエム』が2月27日発売。2021年の『Village』以来の新作で、RE4の銃撃戦とRE7の一人称ホラーを融合。The VergeのAndrew Websterらが先行プレイ・レビューを行い、視点切替やデュアルキャラ、Switch2での動作などについて読者の質問に答える。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-25T15:05:00.000Z",
-      "contentHash": "830bd3e387f6"
-    },
-    {
-      "id": "3d9d69b1fbc8",
-      "title": "Resident Evil Requiem is the best of both terrifying worlds",
-      "url": "https://www.theverge.com/entertainment/883947/resident-evil-requiem-review-ps5-xbox-switch-2",
-      "summary": "『Resident Evil Requiem』はシリーズ初の“キメラ”で、近作の一人称ホラーと『RE4』風アクションを高水準で融合。ゾンビやウイルスといったシリーズの要素を継承しつつ両方の魅力を両立させている。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-25T15:00:00.000Z",
-      "contentHash": "6c40ef249953"
-    },
-    {
-      "id": "c9421d978922",
-      "title": "Resident Evil Requiem is still scary as hell on the Switch 2",
-      "url": "https://www.theverge.com/games/883965/resident-evil-requiem-nintendo-switch-2-performance",
-      "summary": "Resident Evil RequiemのSwitch 2版は、他機種ほど映像は鮮明でないものの意外と堅実な移植で恐怖演出は健在。Switch 2がサード製タイトルの有力な受け皿であることを示す。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-25T15:00:00.000Z",
-      "contentHash": "55ae4d78dad9"
-    },
-    {
-      "id": "67051491d5bb",
-      "title": "Xiaomi&#8217;s magnetic power bank is incredibly thin",
-      "url": "https://www.theverge.com/tech/884330/xiaomi-ultra-thin-magnetic-magsafe-power-bank-5000-qi2",
-      "summary": "XiaomiがMWC発表予定だった「UltraThin Magnetic Power Bank 5000」を豪州サイトで先行公開。容量5000mAh、厚さ6mmでiPhone17やAppleのMagSafeより薄く、最速・大容量ではなく極薄が特徴。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-25T14:39:44.000Z",
-      "contentHash": "74c10d335564"
     }
   ]
 }
