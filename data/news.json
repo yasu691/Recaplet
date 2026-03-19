@@ -1,6 +1,168 @@
 {
-  "generatedAt": "2026-03-19T02:55:26.687Z",
+  "generatedAt": "2026-03-19T09:03:52.163Z",
   "items": [
+    {
+      "id": "21e7e104a3eb",
+      "title": "Isaac Sim Physics 入門",
+      "url": "https://note.com/npaka/n/n5a9b4763ad9d",
+      "summary": "Isaac SimのPhysics入門。物理挙動はRigid Body/Collider/Joint等の設定が必要で、内部はUSD→PhysX生成→各タイムステップで更新→USDへ書き戻し。シミュレーション時間と実時間、レンダリングフレームレートと物理のタイムステップを区別し、Time Codes Per SecondやTime Steps Per Secondで調整。Rigid Bodyを付与すると重力や外力を受ける。",
+      "source": "npaka",
+      "publishedAt": "2026-03-19T08:23:53.000Z",
+      "contentHash": "774d5273ea75"
+    },
+    {
+      "id": "a45cce2f2683",
+      "title": "Claude Codeと作った依存関係の自動更新パイプライン | LCL Engineers' Blog",
+      "url": "https://techblog.lclco.com/entry/2026/03/19/161021",
+      "summary": "格安移動の依存更新をClaude Codeと設計し、テスト基盤を整備してPATCHのみを段階的に自動化。Renovateで設定を統一し、WebはVRT、管理画面はスモーク→本番自動化、バッチはCI＋監視で即デプロイを実現。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T07:10:21.000Z",
+      "contentHash": "f29bb8642675"
+    },
+    {
+      "id": "f1678bb0fe91",
+      "title": "Codex notifyフックによるログ運用 〜 ハマったけどソースコード解析して何とかした話 | Mirai Translate TECH BLOG",
+      "url": "https://miraitranslate-tech.hatenablog.jp/entry/2026/03/19/155607",
+      "summary": "Codexのnotifyフックでエージェント対話ログを取ろうとしてハマった話。notifyはconfig.tomlのトップレベルでしか有効にならず、設定変更は「新しいセッション開始」でしか反映されない。対策はグローバルでdispatchして各プロジェクトのhandlerに委譲する構成。ソース解析（v0.115.0）で解決した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T06:56:07.000Z",
+      "contentHash": "be080541e1c1"
+    },
+    {
+      "id": "e7e30e14a1b1",
+      "title": "MongoDBのスロークエリ改善を、Datadog DBM × Claude Code × GitHub Issuesで自動化した話 | MEDLEY Developer Portal",
+      "url": "https://developer.medley.jp/entry/2026/03/19/153838",
+      "summary": "CLINICSのSREがMongoDB向けにDatadog DBMを導入。週次比較や実行計画の可視化でスロークエリ検知を強化し、対応履歴をGitHub Issue化、ログ取得を自動化して工数ゼロ化・改善サイクル短縮を実現。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T06:38:38.000Z",
+      "contentHash": "98de8805fcad"
+    },
+    {
+      "id": "2d223ce11c32",
+      "title": "週刊Cloudflare - 2026/03/15週 | Gemcook Tech Blogのフィード",
+      "url": "https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_0308-0314",
+      "summary": "週刊Cloudflare: Wrangler 4.73/4.72でSSHオプション非推奨化、persist:falseで永続化無効化対応、d1の複数テーブルエクスポート・NULL出力修正、vectorize/型生成修正、Astro競合回避、VPC入力検証、workerdや依存更新、コンテナのegress有効化、node-forge脆弱性修正",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T06:12:19.000Z",
+      "contentHash": "220e1f28ffa3"
+    },
+    {
+      "id": "5a5f268af093",
+      "title": "A more personal digital health experience for people in Europe",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-docmorris-partnership/",
+      "summary": "Googleは欧州のオンライン薬局DocMorrisと提携し、症状理解から処方管理まで支援する個人向けのデジタルヘルスコンパニオンを開発。生成AIを活用し、よりパーソナルで便利な医療体験を提供することが目的です。",
+      "source": "Gemini",
+      "publishedAt": "2026-03-19T06:00:00.000Z",
+      "contentHash": "344575879d43"
+    },
+    {
+      "id": "28eb5b119be2",
+      "title": "UXと要件定義をつなぐ「UX Requirements Bridge」 | Goodpatch Tech Blog",
+      "url": "https://goodpatch-tech.hatenablog.com/entry/ux-requirements-bridge",
+      "summary": "開発とUXは言語が違い議論が止まる問題を指摘。UX成果物を画面・API・非機能などの要件に翻訳する「UX Requirements Bridge」を提案し、ユースケース→機能要件等の対応で要件定義へ橋渡しする。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T06:00:00.000Z",
+      "contentHash": "1d50e7447ad3"
+    },
+    {
+      "id": "64c33ed433c7",
+      "title": "Antigravity と Gemini CLI の比較 | クラウドエース株式会社さんのフィード",
+      "url": "https://zenn.dev/cloud_ace/articles/3a8a0e2c7d5140",
+      "summary": "GoogleのAI開発ツールAntigravity（GUI IDE・Agent Managerで視覚的管理、細かな権限設定）とGemini CLI（ターミナル向け・CI/CD連携向き）を比較し、用途別の推奨を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T05:08:35.000Z",
+      "contentHash": "a149316ef5cf"
+    },
+    {
+      "id": "aa5b57f417d1",
+      "title": "What 81,000 people want from AI",
+      "url": "https://www.anthropic.com/features/81k-interviews",
+      "summary": "昨年12月、約8.1万人のClaude利用者がAI面接で回答（159カ国・70言語）。AIは診断支援や効率化で役立つ一方、失職や思考能力低下などの不安もあり、希望と懸念が共存している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-19T05:00:56.000Z",
+      "contentHash": "2f3369fc77ec"
+    },
+    {
+      "id": "8330966f2f49",
+      "title": "ブレインパッドOBがプロスポーツチームのデジタルマーケターへ転身！「データ×熱狂」で地域に「応援する文化」を創り出すデジマ最前線 | Platinum Data Blog by BrainPad ブレインパッド",
+      "url": "https://blog.brainpad.co.jp/entry/2026/03/19/140000",
+      "summary": "ブレインパッドは2024年8月にアルムナイネットワーク「ブレインパッド アルムナイ・グラフ（BAG）」を設立。退職者と在籍者の交流促進や卒業生同士のつながり、キャリア支援を目的に活動し、8月28日に第1回交流イベントを開催した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T05:00:00.000Z",
+      "contentHash": "c5638809f33b"
+    },
+    {
+      "id": "db39e3fd3a44",
+      "title": "PlaywrightでFlaky Testを減らすための実践知 | ITANDI Engineer Blog",
+      "url": "https://tech.itandi.co.jp/entry/2026/03/19/135516",
+      "summary": "賃貸募集支援プロダクト開発チームの張です。Web申込みのE2EテストにPlaywrightを導入したが、テスト増加でFlaky Test（同じコードで成功・失敗を繰り返す不安定なテスト）に直面。原因は並行処理や環境依存など。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T04:55:16.000Z",
+      "contentHash": "6f8abc91aff6"
+    },
+    {
+      "id": "13a1443f858f",
+      "title": "Vercel Sandbox x Continuity : sandbox-volume の考え方 | ROUTE06 Tech Blog",
+      "url": "https://tech.route06.co.jp/entry/2026/03/19/135506",
+      "summary": "Vercel SandboxのSnapshotとは別に、異なる永続化を実現するためにsandbox-volumeを作成した経緯と、その使い方を紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T04:55:06.000Z",
+      "contentHash": "ee6d8c05b7c5"
+    },
+    {
+      "id": "d1dc9b5eb70f",
+      "title": "Microsoft Entra Joinした端末に、Microsoft Entra ID上のユーザーでサインインできない事象の解決方法 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/03/19/135506",
+      "summary": "Azure上のWindows11仮想マシンをMicrosoft Entra ID参加後にテナントアカウントでログインできない問題の原因と対処を解説。CredSSP/NLAの無効化や「認証されたユーザー」グループ追加などの切り分け手順と確認方法を提示。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T04:55:06.000Z",
+      "contentHash": "0277125ee64c"
+    },
+    {
+      "id": "c5a92faadbbb",
+      "title": "Asus Ascent GX10 を工場出荷状態に戻す",
+      "url": "https://note.com/npaka/n/nfbe0431b91c8",
+      "summary": "Asus Ascent GX10を初期化する手順：USBフォーマットユーティリティでISOをUSBに焼き、GX10でDel連打してBIOSを開きBoot OptionをUEFI: USBに設定。保存して再起動後、DGX Spark Installation Options→Install DGX OS 7.4.0を選んでインストール。初期の家庭Wi‑Fi接続はスマホのテザリングで回避可能。",
+      "source": "npaka",
+      "publishedAt": "2026-03-19T03:40:51.000Z",
+      "contentHash": "b1a33ddd825d"
+    },
+    {
+      "id": "ff88060d517b",
+      "title": "Mozilla to launch free built-in VPN in upcoming Firefox 149",
+      "url": "https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/",
+      "summary": "MozillaはFirefox 149（3月24日）で無料の内蔵VPNを導入。米英仏独で月50GBの無料枠を提供し、プロキシでIPと位置情報を隠す。段階的展開で提供元は非公開、プライバシー重視と説明。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-19T03:31:01.000Z",
+      "contentHash": "f67e37caff74"
+    },
+    {
+      "id": "7a0cf48e5810",
+      "title": "A sufficiently detailed spec is code",
+      "url": "https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code",
+      "summary": "この記事は、エージェントによる仕様からのコード生成を批判的に検証する。主張は誤解に基づき、①仕様書がコードより簡単、②仕様作成がコーディングより熟考的、という点を否定し、OpenAIのSymphonyのSPEC.mdが擬似コード的で不十分だと指摘している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-19T02:23:17.000Z",
+      "contentHash": "934522603295"
+    },
+    {
+      "id": "54b6b4148a77",
+      "title": "Cook: A simple CLI for orchestrating Claude Code",
+      "url": "https://rjcorwin.github.io/cook/",
+      "summary": "Claude Code/Codex/OpenCode向けワークフロー: /cookスキルで導入。プロンプト・エージェント呼出・コア作業を反復(xN)、レビュー→ゲート(review)やタスクリスト進行(ralph)、並列分岐(vN, vs)と解決(pick)を左から合成。各分岐は独立gitワークツリー。cook initで設定を生成。OpenCodeはDocker限定。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-19T02:20:34.000Z",
+      "contentHash": "61446da40c0c"
+    },
+    {
+      "id": "1e335ab4f223",
+      "title": "Ask HN: How do you deal with people who trust LLMs?",
+      "url": "https://news.ycombinator.com/item?id=47433702",
+      "summary": "LLMを盲信する相手には、幻覚や真偽の欠如を指摘するか放置するか迷うが、最終的な検証は利用者の責任。盲信は怠慢や安心欲など理由多様で、議論では前提を辿り合意できなければ不一致を認めるべき。全ての情報源には偏りがあり「客観的真理」や「権威」は批判的に検討すべき。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-19T01:37:35.000Z",
+      "contentHash": "9bd7404f0d87"
+    },
     {
       "id": "ae39d9563a65",
       "title": "Strands Agentsで構築したAIエージェントにAmazon Nova Actを使わせてみた | NTT DATA TECHのフィード",
@@ -86,10 +248,19 @@
       "id": "bc00e91b6fa9",
       "title": "Isaac Sim のカメラ操作まとめ",
       "url": "https://note.com/npaka/n/n3d5cfa344a20",
-      "summary": "Isaac Simのカメラ操作まとめ。ViewportはAlt+ドラッグで回転・平行移動・ズーム、FPS風は右クリック＋W/A/S/DやQ/Eで移動、Fで選択にフォーカス。Scene内のCameraオブジェクトは固定視点やロボット添付が可能で、ROS配信や合成データ生成に利用できる。",
+      "summary": "Isaac Simのカメラ操作まとめ。ViewportはAlt＋ドラッグで回転/平行移動/ズーム、FPS風は右クリック＋WASD/QE/マウス、Fで選択にフォーカス。Scene内のCameraは固定視点やロボット取り付け、ROS配信や合成データ生成に使え、Create→Cameraで作成可能。",
       "source": "npaka",
       "publishedAt": "2026-03-19T00:47:12.000Z",
-      "contentHash": "916ebd06e4ea"
+      "contentHash": "22c65381293d"
+    },
+    {
+      "id": "9f35d033f039",
+      "title": "Autoresearch for SAT Solvers",
+      "url": "https://github.com/iliazintchenko/agent-sat",
+      "summary": "人の介入なしで自己学習する自律AIが、2024年MaxSAT評価の229インスタンスを用いて新しい戦略を発見・解を改善し、ツール群を反復的に改良。結果と知見をGitHubで共有、Claude CodeとEC2で稼働。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-19T00:40:32.000Z",
+      "contentHash": "60f0e4d482fe"
     },
     {
       "id": "be9daa2b5755",
@@ -131,10 +302,10 @@
       "id": "41b95429944a",
       "title": "Warranty Void If Regenerated",
       "url": "https://nearzero.software/p/warranty-void-if-regenerated",
-      "summary": "トム・ハートマンは転換後に「ソフトウェア整備士」になった。かつてのITサポートは壊れたソフトを直す仕事から「不十分な仕様」を再生成する仕事へ変わり、農機のハードは依然物理的修理が必要だった。",
+      "summary": "トムは農機整備士から「ソフトウェア整備士」へ転身した。移行でソフトは修理でなく再生成するようになり、故障は「仕様不足」とされる一方、エンジンなどハードは依然物理的修理が必要だ。",
       "source": "Hacker News",
       "publishedAt": "2026-03-18T20:45:54.000Z",
-      "contentHash": "759425d2e2e3"
+      "contentHash": "2c85dbbac5cb"
     },
     {
       "id": "d40349bd90ab",
@@ -644,10 +815,10 @@
       "id": "d5d810c9907f",
       "title": "Codex Subagents 入門",
       "url": "https://note.com/npaka/n/n7436ccc91114",
-      "summary": "Codexのサブエージェントは親エージェントがタスクを分割して起動する補助エージェント。明示的に要求した場合に生成され、並列処理で高速化しコンテキストを小さく保てるが、トークン消費は増える。",
+      "summary": "Codexのサブエージェントは、親エージェントがタスクを分解して起動する補助エージェントで、生成・割当・結果回収・ワークフロー管理を行う。自動生成はせず明示的要求時のみ使用。利点は並列処理とコンテキスト分離だがトークン消費は増える。例としてバグ検査と改善提案の2エージェントを同時実行して結果を要約する。",
       "source": "npaka",
       "publishedAt": "2026-03-18T01:14:13.000Z",
-      "contentHash": "abf1e447fdaf"
+      "contentHash": "e4295e3605e3"
     },
     {
       "id": "ae67189017e0",
@@ -734,10 +905,10 @@
       "id": "a7ed7a2fb262",
       "title": "Codex Skills 入門",
       "url": "https://note.com/npaka/n/nfaa42624abd7",
-      "summary": "Codex Skillsは、手順やルール（指示・スクリプト・リソース）をモジュール化してAIに参照させる仕組みです。作業品質の安定化、プロンプト短縮、チーム規約の適用が可能で、Codex appで作成・編集・試用し、必要時に自動読み込みされます。",
+      "summary": "Codex Skillsは作業手順やルールを指示・スクリプト・リソースでモジュール化しAIに参照させる仕組み。品質安定・短いプロンプト・チーム規約反映が可能で、Codexアプリで作成・管理し必要時自動読み込み（例：JP Greeting Test）。",
       "source": "npaka",
       "publishedAt": "2026-03-17T23:47:16.000Z",
-      "contentHash": "1ecb3c0a5d8b"
+      "contentHash": "7b60de7fc6c5"
     },
     {
       "id": "28b1917d1690",
@@ -8829,177 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-02-26T22:56:09.000Z",
       "contentHash": "23614e009910"
-    },
-    {
-      "id": "1dfaa948d064",
-      "title": "Statement from Dario Amodei on our discussions with the Department of War",
-      "url": "https://www.anthropic.com/news/statement-department-of-war",
-      "summary": "AnthropicのDario Amodeiは、Claudeを米国防省や情報機関の機密網・国立研究所で展開し諜報分析や作戦支援に使われていると説明。中国共産党関連企業の利用を拒否して収益を放棄、サイバー攻撃対策や輸出規制を支持。軍事判断は政府の専権としつつ、大規模国内監視など民主主義や安全性を損なう用途は契約に含めていないと表明。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-26T22:42:47.000Z",
-      "contentHash": "5b189a05024c"
-    },
-    {
-      "id": "114198b0927b",
-      "title": "Jack Dorsey’s Block cuts nearly half of its staff in AI gamble",
-      "url": "https://www.theverge.com/tech/885710/jack-dorsey-block-layoffs-job-cuts-ai",
-      "summary": "ジャック・ドーシー率いるBlockはAI導入に伴い従業員を約半減し、1万人超から6千人未満へ4000人超を削減。事業は好調で、段階的でなく一括での実施を選んだと説明。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T22:11:13.000Z",
-      "contentHash": "1be42393b100"
-    },
-    {
-      "id": "b5d1cb45532f",
-      "title": "Smartphone market forecast to decline this year due to memory shortage",
-      "url": "https://www.idc.com/resource-center/press-releases/wwsmartphoneforecast4q25/",
-      "summary": "IDCは2026年の世界スマホ出荷が前年比12.9%減の11億台と10年超ぶりの低水準になると予測。メモリ不足が構造的危機を招き、低価格Android勢が打撃を受ける一方、AppleやSamsungは有利。平均販売価格は14%上昇し523ドルに達する見込み。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-26T22:09:45.000Z",
-      "contentHash": "231b49ec10e4"
-    },
-    {
-      "id": "b19a70219466",
-      "title": "Lenovo leak reveals a foldable gaming handheld that&#8217;s also a Windows laptop",
-      "url": "https://www.theverge.com/tech/885656/lenovo-legion-go-fold-concept-leak",
-      "summary": "リークで判明した「Lenovo Legion Go Fold」は7.7→11.6インチのPOLEDを持つ折りたたみゲーミングPC兼Windowsノート。着脱式キーボードと変形コントローラで携帯・大画面・縦分割・ノートの4形態に対応。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T22:08:15.000Z",
-      "contentHash": "d5a5a409f89b"
-    },
-    {
-      "id": "ba36f02f32fe",
-      "title": "Why no magnets in Galaxy S26? Samsung R&#038;D chief explains",
-      "url": "https://www.theverge.com/news/885616/samsung-galaxy-s26-no-magnets-because-people-use-cases",
-      "summary": "SamsungのR&D責任者チェ・ウォンジュン氏は、Galaxy S26に本体内磁石を採用しなかった理由を説明。磁石は本体を厚くするため、8〜9割がケースを使う現状では磁石付きケースで対応し、空間はバッテリー増量や薄型化に充てたという。研究は継続中。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T21:57:12.000Z",
-      "contentHash": "a5644d2347b9"
-    },
-    {
-      "id": "d9c235028b61",
-      "title": "Smartphone sales could be in for their biggest drop ever",
-      "url": "https://www.theverge.com/gadgets/885638/smartphone-decline-ram-shortage-idc",
-      "summary": "IDCは、AI需要でRAM不足が続き、2026年のスマホ出荷が前年比12.9%減で10年以上ぶりの低水準に落ち込み、平均売価は14%上昇して523ドルに達すると予測。メモリ価格は2027年中頃に安定しても以前水準には戻らず、100ドル以下モデルは事実上消滅すると予想。Appleの廉価版「iPhone 17e」発表の噂あり。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T21:22:39.000Z",
-      "contentHash": "bd573c95a39f"
-    },
-    {
-      "id": "e746b5505ceb",
-      "title": "Samsung exec confirms you can blame RAM — and other materials — for the Galaxy S26’s higher price tag",
-      "url": "https://www.theverge.com/tech/885566/samsung-ram-galaxy-s26-price",
-      "summary": "サムスンの携帯事業COOは、メモリ不足がGalaxy S26/S26＋の値上げに「大きく寄与」したと認めた。素材費や関税も影響し、S26は128→256GBに増え価格は前世代より約100ドル高い。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T20:57:19.000Z",
-      "contentHash": "60b7602a15bb"
-    },
-    {
-      "id": "ee227cf8e792",
-      "title": "FTC declines to enforce a kids privacy law for data collected to verify users’ ages",
-      "url": "https://www.theverge.com/policy/885592/ftc-age-verification-childrens-online-privacy-enforcement",
-      "summary": "FTCは、未成年の年齢確認のための個人データ収集について児童向けオンラインプライバシー法の執行を一部見送ると発表。年齢確認技術の導入を促進し、利用には一定の基準を満たすことを求める。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T20:42:17.000Z",
-      "contentHash": "9a44227c8cd6"
-    },
-    {
-      "id": "84551aab4538",
-      "title": "Nano Banana 2 の概要",
-      "url": "https://note.com/npaka/n/ne530e6d8cd18",
-      "summary": "「Nano Banana 2」（Gemini 3.1 Flash Image）は、Nano Banana Proの高品質・推論能力を超高速で実現。Web連携による現実知識で精密なレンダリングや画像内テキスト生成・翻訳が可能になり、インフォグラフィック等の実用例と複数のプロンプト例が示されています。",
-      "source": "npaka",
-      "publishedAt": "2026-02-26T20:39:25.000Z",
-      "contentHash": "a197cdc063ac"
-    },
-    {
-      "id": "93f318d61c9a",
-      "title": "Qualcomm won&#8217;t be announcing Windows gaming handhelds at GDC after all",
-      "url": "https://www.theverge.com/games/885314/qualcomm-wont-be-announcing-windows-gaming-handhelds-at-gdc-after-all",
-      "summary": "クアルコムはGDCでWindows向けSnapdragon G/Xシリーズの新発表や評価機の提供を行わないと発表。以前の示唆から計画を変更し、詳細は後日改めて公表するとしている。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T20:25:17.000Z",
-      "contentHash": "5df4f16a400c"
-    },
-    {
-      "id": "a9ad3f66f888",
-      "title": "OsmAnd's Faster Offline Navigation (2025)",
-      "url": "https://osmand.net/blog/fast-routing/",
-      "summary": "OsmAndは従来の柔軟だが遅いA*に代わり、独自のHighway Hierarchyルーティングを導入。車用全世界データ約800MBのオフライン地図で最大100倍高速化し、高度なカスタマイズ性も維持。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-26T18:37:59.000Z",
-      "contentHash": "b1bdafa31310"
-    },
-    {
-      "id": "812b439a3758",
-      "title": "He saw an abandoned trailer. Then, uncovered a surveillance network",
-      "url": "https://calmatters.org/justice/2026/02/alpr-border-patrol-caltrans/",
-      "summary": "南カリフォルニアで国境警備隊が設置したとみられる隠しナンバープレート読み取りカメラが多数発見。州の許可で連邦データベースへ情報が流れ、プライバシーや州法違反の懸念と治安向上の主張で対立している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-26T18:27:11.000Z",
-      "contentHash": "0e844e1ed7cc"
-    },
-    {
-      "id": "66f832525aa3",
-      "title": "What Claude Code Chooses",
-      "url": "https://amplifying.ai/research/claude-code-picks",
-      "summary": "2430回の実行で得られた結論：Claude Codeは20カテゴリ中12で自前実装（build）を選び、例として環境変数による機能フラグやPythonのJWT認証を自作。ツール選択時はGitHub Actions94%、Stripe91%、shadcn/ui90%などJS寄りのデフォルトスタックを推奨。抽出率85.3%。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-26T18:12:26.000Z",
-      "contentHash": "966b2ae78105"
-    },
-    {
-      "id": "66579cfbcb51",
-      "title": "Google Street View in 2026",
-      "url": "https://tech.marksblogg.com/google-street-view-coverage.html",
-      "summary": "Google Street Viewの全球カバレッジ（各地点の最終撮影年月を含む）データをParquet化して地理空間パターンを解析。高性能ワークステーション上でDuckDB（H3/Lindel/JSON/Parquet/Spatial）とQGISを使用。WSLはGPUドライバとArcGIS Pro対応のため。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-26T17:38:03.000Z",
-      "contentHash": "c7bfb7371868"
-    },
-    {
-      "id": "93e6f1477225",
-      "title": "Cricut’s most popular cutting machine now takes up less space in your crafting room",
-      "url": "https://www.theverge.com/tech/883743/cricut-cutting-machine-explore-5-joy-2-drawing-writing-crafting",
-      "summary": "Cricutが新カッティング機を発表。Explore 5は従来比30%小型化し性能維持、Joy 2はさらに小型で印刷済素材の精密カット対応。Explore 5は$199で発売。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T17:00:00.000Z",
-      "contentHash": "8df42d7ce4bc"
-    },
-    {
-      "id": "a6ac581839cd",
-      "title": "3 Google AI tools that helped me get my new job",
-      "url": "https://blog.google/innovation-and-ai/products/google-ai-career-tools/",
-      "summary": "Abby CroweはGoogleのAIツールを活用して転職に成功。NotebookLMで志向や適性のパターンを抽出、Career Dreamerでスキルの転用と職業ブランドを整理、Geminiで職務評価と模擬面接を行い、従業員エンゲージメント職に就いた。生成AIは実験的と明記。",
-      "source": "Gemini",
-      "publishedAt": "2026-02-26T17:00:00.000Z",
-      "contentHash": "770a36e2b6ca"
-    },
-    {
-      "id": "d985280a0d68",
-      "title": "Your smart TV may be crawling the web for AI",
-      "url": "https://www.theverge.com/column/885244/smart-tv-web-crawler-ai",
-      "summary": "Bright DataのSDKを組み込んだTVアプリは、広告を減らす代わりにユーザーのスマートTVをグローバルなプロキシネットワークに参加させ、ウェブのクロールやデータ収集に利用する方式をストリーミング事業者に提案している。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T16:30:00.000Z",
-      "contentHash": "3a32d873b5e4"
-    },
-    {
-      "id": "413945e3f2bb",
-      "title": "8BitDo’s customizable Pro 3 controller is $30 off for the first time",
-      "url": "https://www.theverge.com/gadgets/885192/8bitdo-pro-3-controller-switch-2-pc-galaxy-buds-4-pro-deal-sale",
-      "summary": "Wootがゲームや周辺機器のセール実施中。クーポン「LEVEL20」で2/27まで最大$30引。8BitDo Pro 3が通常$69.99から$39.99に割引。Galaxy Buds4予約でギフト券あり。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T16:00:28.000Z",
-      "contentHash": "d3f83dfc1d01"
-    },
-    {
-      "id": "e750a48f5db2",
-      "title": "HBO Max&#8217;s password-sharing crackdown is going global",
-      "url": "https://www.theverge.com/streaming/885303/hbo-max-password-sharing-global-expansion-q4-2025",
-      "summary": "HBO Maxは2026年からパスワード共有の取り締まりを世界展開。米国で導入済みの追加ユーザー月約7.99ドルの有料共有を欧州・ラテン米、英・愛・アジア太平洋へ拡大予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T16:00:09.000Z",
-      "contentHash": "f55b2e3327ce"
     }
   ]
 }
