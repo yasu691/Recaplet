@@ -1,6 +1,240 @@
 {
-  "generatedAt": "2026-03-18T17:21:38.613Z",
+  "generatedAt": "2026-03-19T02:55:26.687Z",
   "items": [
+    {
+      "id": "ae39d9563a65",
+      "title": "Strands Agentsで構築したAIエージェントにAmazon Nova Actを使わせてみた | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/50e0cb015ff51a",
+      "summary": "Webページ構造の変化に強い自動化を目指し、Strands AgentsとKiroでAIエージェントを構築。Tavilyで検索→オーケストレーター経由でAmazon Nova Actへ自然言語指示し、Streamlitの予約サイトを操作、結果をS3に保存。KiroはMCPサーバ参照で実装支援。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T01:30:05.000Z",
+      "contentHash": "3e27b22f8568"
+    },
+    {
+      "id": "0ecf70dceb47",
+      "title": "イベントLPをAIで自動生成！2段階LLMで実現するランディングページ生成機能 | シー・エス・エス イノベーションラボ（ブログ）",
+      "url": "https://blog.css-net.co.jp/entry/2026/03/19/102901",
+      "summary": "入社2年目のハニーが、自社サービスQubeでイベント用LPをAIが自動生成する先行体験版を開発・公開。仕組みは入力データ→LLMでLP用JSON生成→再度LLMでJSON→HTML変換。開発時の苦戦点も解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T01:29:01.000Z",
+      "contentHash": "1a193f04fa2e"
+    },
+    {
+      "id": "d000711ad8a1",
+      "title": "Agent SkillとCIを使って楽して行うGitHub Projectでのタスク管理 | Axelspaceのフィード",
+      "url": "https://zenn.dev/axelspace/articles/d5d49c8d03a704",
+      "summary": "少人数（2〜5名）向けに、GitHub Project＋Claude Code＋GitHub ActionsでIssueの作成・分類・集計・Iteration管理を自動化。人はタイトル作成・実作業・振返りに集中し、Priority/SizeはAIが設定。GitHub完結運用向け。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T01:26:01.000Z",
+      "contentHash": "f521dbf64619"
+    },
+    {
+      "id": "877af2ed1415",
+      "title": "システムを内製する僕たちがTROCCOを使う理由 | Kurashicom Tech Blog",
+      "url": "https://note.com/kurashicom_tech/n/n7198aeced6ae",
+      "summary": "クラシコムは基幹システム再構築でKCAからBigQueryへのデータ転送に自作スクリプトではなくTROCCOを採用。GUIで開発負荷が低くdbt連携も強いため、データ基盤は内製不要と判断。ただし業務の連結はシステム内に留める方針。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T01:22:40.000Z",
+      "contentHash": "b23c0b500268"
+    },
+    {
+      "id": "b633faf9fd2b",
+      "title": "Claude CodeをWindows環境とMicrosoft Foundryを用いて利用する方法 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/03/19/100733",
+      "summary": "WindowsでMicrosoft FoundryのAPIキーを使ってClaude Codeを使う手順。GitとFoundryでモデルとAPIキーを準備し、claudeをインストール後、%USERPROFILE%/.claude/settings.jsonにFoundry関連のenvを記述して起動。便利な起動・操作コマンドも紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T01:07:33.000Z",
+      "contentHash": "b9f8ff93171d"
+    },
+    {
+      "id": "e8645bc2b8fe",
+      "title": "RubyGems/Bundler における Cooldown 機能の議論と現状 | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/03/19/100000",
+      "summary": "Rubyコミッタ柴田が、ガーデニングの話題から、サプライチェーン対策として他エコシステムで導入が進む「Cooldown」機能を紹介し、RubyGemsとBundlerへの導入検討と今後の方針を述べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T01:00:00.000Z",
+      "contentHash": "65353eea09d5"
+    },
+    {
+      "id": "be39a91a911a",
+      "title": "AIを活用した大規模iOSアプリのSwift Concurrency移行戦略 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/03/19/100000",
+      "summary": "SansanのiOSエンジニア劉志輝が、10年以上続くUIKit＋VIPER構成の既存アプリで、RxSwiftやGCDによる非同期処理をSwift6時代に向けてSwift Concurrencyへ移行する戦略を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T01:00:00.000Z",
+      "contentHash": "c945f44e34f0"
+    },
+    {
+      "id": "7cf9972fcabf",
+      "title": "vLLMとRDMAで構築するローカルLLMクラスタ (6)：Claude Code をローカルLLMで動かす | VA Linux エンジニアブログ  ",
+      "url": "https://www.valinux.co.jp/blog/entry/20260319",
+      "summary": "Linux PCとRDMAネットワークでvLLMのスケールアウト構成を構築し、コストパフォーマンス重視のローカルLLM実行環境を提案・検証する記事の続編です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T01:00:00.000Z",
+      "contentHash": "40216b5fd5c9"
+    },
+    {
+      "id": "dc8fcd1dc2ba",
+      "title": "【ゲーム事業本部／UIデザイナー職】アドグローブ社員に聞いてみた！ | アドグローブブログ | 渋谷のIT会社",
+      "url": "https://blog.adglobe.co.jp/entry/2026/03/19/100000",
+      "summary": "アドグローブのエフェクトデザイナーKさんとNさんへのインタビュー。仕事の魅力や働き方、制作の裏側やこだわり、制作プロセスを紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-19T01:00:00.000Z",
+      "contentHash": "bc5d8874d967"
+    },
+    {
+      "id": "bc00e91b6fa9",
+      "title": "Isaac Sim のカメラ操作まとめ",
+      "url": "https://note.com/npaka/n/n3d5cfa344a20",
+      "summary": "Isaac Simのカメラ操作まとめ。ViewportはAlt+ドラッグで回転・平行移動・ズーム、FPS風は右クリック＋W/A/S/DやQ/Eで移動、Fで選択にフォーカス。Scene内のCameraオブジェクトは固定視点やロボット添付が可能で、ROS配信や合成データ生成に利用できる。",
+      "source": "npaka",
+      "publishedAt": "2026-03-19T00:47:12.000Z",
+      "contentHash": "916ebd06e4ea"
+    },
+    {
+      "id": "be9daa2b5755",
+      "title": "Austin’s surge of new housing construction drove down rents",
+      "url": "https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents",
+      "summary": "2015〜2024年、オースティンはゾーニング緩和や大規模賃貸容認、2018年の2.5億ドル債券、許認可改革で12万戸（+30%）を供給。供給増で賃料は下落し、2026年1月の中央値1,296ドルは米平均を下回った。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-19T00:15:39.000Z",
+      "contentHash": "a395883403e8"
+    },
+    {
+      "id": "2502abb64177",
+      "title": "The FBI is buying Americans’ location data",
+      "url": "https://www.theverge.com/news/897145/kash-patel-ron-wyden-fbi-location-data-no-warrant",
+      "summary": "FBIがデータ仲介業者から米国民の位置情報を購入し、携帯事業者経由と違って令状不要で追跡できるとFBI長官カシュ・パテルが上院で認めた。ECPAに適合すると主張し、有益な情報を得たが購入中止は否定した。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-18T21:52:30.000Z",
+      "contentHash": "169b986d75ef"
+    },
+    {
+      "id": "702c89b66d26",
+      "title": "Amazon doesn’t want the blame for the Post Office going under",
+      "url": "https://www.theverge.com/tech/897114/amazon-usps-contract-money-running-out",
+      "summary": "WSJの報道でUSPS向け出荷削減計画が明るみに出ると、Amazonは責任を否定。契約交渉でUSPSが「突如離脱」し、Amazonは減便を望まず数十億ドルの提案があったと主張した。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-18T20:55:40.000Z",
+      "contentHash": "0d4b33145631"
+    },
+    {
+      "id": "2672521722a3",
+      "title": "Congress considers blowing up internet law",
+      "url": "https://www.theverge.com/policy/897106/section-230-reform-hearing-jawboning-social-media",
+      "summary": "上院商業委でインターネット免責のSection 230が攻撃を受け、訴訟の急増と政府検閲への超党派懸念が議論に。シュッツ議員は「10戒ではない」と発言し、ダービン氏とグラム氏は廃止案、適用縮小案も提出。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-18T20:54:16.000Z",
+      "contentHash": "9dbefd6464c3"
+    },
+    {
+      "id": "41b95429944a",
+      "title": "Warranty Void If Regenerated",
+      "url": "https://nearzero.software/p/warranty-void-if-regenerated",
+      "summary": "トム・ハートマンは転換後に「ソフトウェア整備士」になった。かつてのITサポートは壊れたソフトを直す仕事から「不十分な仕様」を再生成する仕事へ変わり、農機のハードは依然物理的修理が必要だった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-18T20:45:54.000Z",
+      "contentHash": "759425d2e2e3"
+    },
+    {
+      "id": "d40349bd90ab",
+      "title": "Hoto’s powerful PixelDrive electric screwdriver is 25 percent off",
+      "url": "https://www.theverge.com/gadgets/897056/hoto-pixeldrive-electric-screwdriver-amazon-big-spring-sale-deal",
+      "summary": "Hotoの上位電動ドライバーPixelDriveが米Amazonで25%オフの59.99ドルに。基本モデルよりビット数とトルクが多く、6段階トルクと2速（80/200RPM）を備え、より多用途です。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-18T20:10:05.000Z",
+      "contentHash": "491d87acb99e"
+    },
+    {
+      "id": "80d5593d88de",
+      "title": "FBI is buying location data to track US citizens, director confirms",
+      "url": "https://techcrunch.com/2026/03/18/fbi-is-buying-location-data-to-track-us-citizens-kash-patel-wyden/",
+      "summary": "FBIがデータブローカーから米国民の位置情報など市販データの購入を再開したと長官カシュ・パテルが証言。捜査手段として「憲法やECPAに合致する商用情報を購入する」と述べ、上院議員ワイデンは第四修正の回避だと批判。 FBIは詳細は非公表。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-18T20:09:52.000Z",
+      "contentHash": "9d9546222469"
+    },
+    {
+      "id": "6df4c083b796",
+      "title": "The best deals on MacBooks right now",
+      "url": "https://www.theverge.com/22399419/apple-macbook-air-pro-mac-mini-imac-deals",
+      "summary": "2026年、AppleはM系に加えiPhone由来のA系チップ搭載MacBookを展開。MacBook Neoは599ドル〜でmacOS 26搭載。用途や性能で選べ、最大約800ドルの割引が出るなど多くのセールがある。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-18T19:35:00.000Z",
+      "contentHash": "199e8935994f"
+    },
+    {
+      "id": "b425960fa70d",
+      "title": "David Sacks’ big Iran warning gets big time ignored",
+      "url": "https://www.theverge.com/column/896949/regulator-david-sacks-iran-polymarket",
+      "summary": "Tina NguyenのRegulatorで、デビッド・サックスの対イラン警告が広く無視されたことや、予測市場Polymarketが「状況監視」用のスポーツバーを開く計画など、政治とテクノロジーの話題を伝える。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-18T18:44:21.000Z",
+      "contentHash": "0f55d1b7e016"
+    },
+    {
+      "id": "a34501dae64a",
+      "title": "Robinhood is making a social network",
+      "url": "https://www.theverge.com/tech/896989/robinhood-social-network-beta",
+      "summary": "ロビンフッドがTwitter風の投資SNS「Robinhood Social」をβ公開。HOODサミット参加者1,000人に先行提供し、数週間でさらに1万人へ拡大予定。投稿やフィード上で取引でき、ニュースやインサイダー・ヘッジファンド・政治家のフォロー機能を順次追加。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-18T18:32:18.000Z",
+      "contentHash": "1041a0cf5d18"
+    },
+    {
+      "id": "4ed426f6edc4",
+      "title": "ChatGPT did not cure a dog’s cancer",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/896878/ai-did-not-cure-this-dogs-cancer",
+      "summary": "オーストラリアの起業家がChatGPTで愛犬のがんが治ったと主張し話題になったが、取材で主張は過剰と判明。獣医や専門家はAIが治療した証拠はなく、実際は獣医の治療や試験的療法が関与していたと指摘した。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-18T18:14:39.000Z",
+      "contentHash": "5c263cd012ee"
+    },
+    {
+      "id": "f677b882a6a4",
+      "title": "Kasa’s Matter-compatible smart plugs are on sale for $11 a pop",
+      "url": "https://www.theverge.com/gadgets/896899/kasa-smart-wi-fi-plug-slim-amazon-early-big-spring-sale-deal-sale",
+      "summary": "KasaのMatter対応スマートWi‑Fiプラグ（スリム）が2個組で$21.99（1個約$11）にセール中。ランプや扇風機などを差してWi‑Fi接続でスケジュールや主要スマートホームと連携可能。Amazon・B&Hで販売。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-18T17:43:23.000Z",
+      "contentHash": "5f6800755f1a"
+    },
+    {
+      "id": "cf7c24ad9c51",
+      "title": "EU Inc.: A new harmonised corporate legal regime",
+      "url": "https://commission.europa.eu/topics/business-and-industry/doing-business-eu/company-law-and-corporate-governance/eu-inc-new-harmonised-corporate-legal-regime_en",
+      "summary": "EUは革新的企業向けの任意利用可能なEU統一会社制度「EU Inc.（第28の体制）」を提案。48時間・最大100€で完全デジタル設立、運営・資本移転の簡素化、デジタル破産手続きや従業員ストックオプションの課税統一などで競争力を強化。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-18T17:42:10.000Z",
+      "contentHash": "e62b23969893"
+    },
+    {
+      "id": "532094f20fe0",
+      "title": "My favorite robot vacuum now supports Matter",
+      "url": "https://www.theverge.com/tech/896775/matic-robot-vacuum-apple-home-matter",
+      "summary": "Maticのロボット掃除機がMatter対応になり、Apple Home・Google Home・Home Assistantと連携可能に。音声操作や「外出時に稼働」「帰宅でドック」など自動化が設定でき、ペアリングは本体画面のコードで行う。ただしMatter認証は未取得。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-18T17:30:07.000Z",
+      "contentHash": "c00a8c25cb4b"
+    },
+    {
+      "id": "f12b3fe36c92",
+      "title": "Show HN: Will my flight have Starlink?",
+      "url": "https://news.ycombinator.com/item?id=47428650",
+      "summary": "機内のStarlink導入はまちまちで予測が難しいため、導入済み航空会社・機種・機体番号（テールナンバー）を照合して搭載確率を推定するデータベースと検索ツール（stardrift.ai）を公開。段階的に機種別で展開中。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-18T17:29:21.000Z",
+      "contentHash": "98914589b4dd"
+    },
+    {
+      "id": "d272bf9b8dce",
+      "title": "AI coding is gambling",
+      "url": "https://notes.visaint.space/ai-coding-is-gambling/",
+      "summary": "申し訳ありませんが、直接ウェブページを開けないため記事を取得できません。記事本文を貼っていただければ、200文字以内で日本語要約します。あるいは「AIによるコーディングはギャンブル」的な一般論での要約（推測）を希望する場合は、その旨お伝えください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-18T17:22:02.000Z",
+      "contentHash": "7f84f0030dd4"
+    },
     {
       "id": "d7b7bb4c0cd8",
       "title": "Weird Nintendo never went away",
@@ -20,6 +254,24 @@
       "contentHash": "4a753b6eab11"
     },
     {
+      "id": "f3fcf7fb709e",
+      "title": "North Korean's 100k fake IT workers net $500M a year for Kim",
+      "url": "https://www.theregister.com/2026/03/18/researchers_lift_the_lid_on/",
+      "summary": "IBM X‑ForceとFlareが北朝鮮の偽IT労働者網を解明。約10万人が40カ国で活動し年約5億ドルを送金。一部は年30万ドル超を稼ぎ、詐称採用や仲介で侵入し機密窃取。対策も提示。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-18T15:59:58.000Z",
+      "contentHash": "d95b31ee98a3"
+    },
+    {
+      "id": "3a9ab1a87922",
+      "title": "A tiny, decentralised tool to explore the small web",
+      "url": "https://codeberg.org/susam/wander",
+      "summary": "susam/wanderは、わずか2ファイルでホストできる小規模な分散型Web探索ツール。リポジトリは14コミット・1ブランチ(main)、主にHTMLで構成され、ブランチやタグ表示、RSSフィードなどの設定を含む。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-18T15:57:48.000Z",
+      "contentHash": "f092a2e3f735"
+    },
+    {
       "id": "8521eaeb1fb6",
       "title": "The best early Amazon Big Spring Sale deals you can get right now",
       "url": "https://www.theverge.com/gadgets/895635/best-amazon-big-spring-sale-early-deals-2026",
@@ -27,6 +279,24 @@
       "source": "The Verge",
       "publishedAt": "2026-03-18T15:52:39.000Z",
       "contentHash": "39235e6af8a3"
+    },
+    {
+      "id": "54ad9e569e99",
+      "title": "Show HN: I built 48 lightweight SVG backgrounds you can copy/paste",
+      "url": "https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/",
+      "summary": "SVGBackgroundsの作者Mattによるカスタマイズ可能な背景SVGの紹介。無料版は帰属表記が必要で、プレミアムは無制限・帰属不要。デモやプレビュー、ライセンス情報や購読案内あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-18T15:50:44.000Z",
+      "contentHash": "189ceae3a021"
+    },
+    {
+      "id": "52d5c07598d3",
+      "title": "Meta will shut down VR Horizon Worlds access June 15",
+      "url": "https://www.engadget.com/ar-vr/meta-will-shut-down-vr-horizon-worlds-access-in-june-222028919.html",
+      "summary": "MetaはVR版「Horizon Worlds」へのヘッドセットアクセスを6月15日に終了し、モバイルアプリに注力すると発表した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-18T15:43:38.000Z",
+      "contentHash": "0e764dff5620"
     },
     {
       "id": "45d8f02e0774",
@@ -374,10 +644,10 @@
       "id": "d5d810c9907f",
       "title": "Codex Subagents 入門",
       "url": "https://note.com/npaka/n/n7436ccc91114",
-      "summary": "Codexのサブエージェントは、親エージェントがタスクを委任する補助AIで、明示指示で生成される。並列処理やコンテキスト分離により高速化・安定化できるがトークン消費は増える。例：バグ検出と改善提案。",
+      "summary": "Codexのサブエージェントは親エージェントがタスクを分割して起動する補助エージェント。明示的に要求した場合に生成され、並列処理で高速化しコンテキストを小さく保てるが、トークン消費は増える。",
       "source": "npaka",
       "publishedAt": "2026-03-18T01:14:13.000Z",
-      "contentHash": "997ccc854a52"
+      "contentHash": "abf1e447fdaf"
     },
     {
       "id": "ae67189017e0",
@@ -464,10 +734,10 @@
       "id": "a7ed7a2fb262",
       "title": "Codex Skills 入門",
       "url": "https://note.com/npaka/n/nfaa42624abd7",
-      "summary": "Codex Skillsは、テスト作成やPRルールなど作業手順を指示・スクリプト・リソースでパッケージ化しAIが参照する仕組み。品質安定、短いプロンプト、チーム標準の自動適用が可能で、Codex appで簡単に作成・管理（例：日本語挨拶スキル）。",
+      "summary": "Codex Skillsは、手順やルール（指示・スクリプト・リソース）をモジュール化してAIに参照させる仕組みです。作業品質の安定化、プロンプト短縮、チーム規約の適用が可能で、Codex appで作成・編集・試用し、必要時に自動読み込みされます。",
       "source": "npaka",
       "publishedAt": "2026-03-17T23:47:16.000Z",
-      "contentHash": "e7858d342998"
+      "contentHash": "1ecb3c0a5d8b"
     },
     {
       "id": "28b1917d1690",
@@ -495,15 +765,6 @@
       "source": "The Verge",
       "publishedAt": "2026-03-17T20:47:35.000Z",
       "contentHash": "ea843d2196fd"
-    },
-    {
-      "id": "41b95429944a",
-      "title": "Warranty Void If Regenerated",
-      "url": "https://nearzero.software/p/warranty-void-if-regenerated",
-      "summary": "農機整備士だったトム・ハートマンは“ソフトウェア整備士”に転身した。移行でソフトは修理から「再生成」へ変わり、故障は不適切な仕様扱いに。ハードは依然物理的修理が必要で、多くの職業は技術転換後に生まれる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-17T20:39:19.000Z",
-      "contentHash": "c5ebaed0c17c"
     },
     {
       "id": "a20822619b29",
@@ -857,6 +1118,15 @@
       "contentHash": "cb3cf201495a"
     },
     {
+      "id": "4e32c322a737",
+      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
+      "url": "https://openai.com/index/japan-teen-safety-blueprint",
+      "summary": "OpenAI Japanが「Japan Teen Safety Blueprint」を発表。生成AIを使う十代向けに年齢確認強化、保護者コントロール、心身の安全対策などを導入します。",
+      "source": "OpenAI",
+      "publishedAt": "2026-03-17T10:00:00.000Z",
+      "contentHash": "f67c5f89d42c"
+    },
+    {
       "id": "7a3013a3d803",
       "title": "Kagi Small Web",
       "url": "https://kagi.com/smallweb/",
@@ -932,10 +1202,10 @@
       "id": "2d86b013e3e5",
       "title": "DGX Spark で NemoClaw を試す",
       "url": "https://note.com/npaka/n/n5bd56ce0cc28",
-      "summary": "DGX SparkでNemoClawを検証。NemoClawはOpenClaw常時稼働アシスタント向けのOSS。Ubuntu22.04/Node.js22/Docker/OpenShellが前提で、curlで導入。nemoclaw onboardでサンドボックス作成、推論接続（ローカルNIM/Cloud/Ollama、APIキー要）やポリシープリセット設定を行った。",
+      "summary": "DGX SparkでNVIDIAのオープンソースNemoClawを試用。要件はUbuntu22.04+、Node.js（22推奨）、Docker、OpenShell。curlでOpenShell/NemoClawを導入し、サンドボックス作成、推論接続（NIM/Cloud/Ollama）やポリシープリセット（discord/docker/huggingface/jira/npm）を設定。",
       "source": "npaka",
       "publishedAt": "2026-03-17T06:45:56.000Z",
-      "contentHash": "09c2cba73842"
+      "contentHash": "2f991fc28117"
     },
     {
       "id": "19163ff31ee6",
@@ -1157,10 +1427,10 @@
       "id": "4fe57c355d22",
       "title": "NVIDIA GTC 2026 発表まとめ",
       "url": "https://note.com/npaka/n/n95a3e6ebcc4e",
-      "summary": "GTC 2026では、Vera RubinプラットフォームやGroq 3 LPX、DGX Station等のハード、NemoClaw/OpenShell等のエージェント、Newtonや物理データ工場でのロボット強化、Nemotron 3 SuperやGR00T N2等の新モデル、Dynamo 1.0による大規模分散推論を発表。",
+      "summary": "NVIDIA GTC 2026では、Vera RubinプラットフォームやGroq 3 LPX/DGX Stationなどのハード、NemoClaw/OpenShellのエージェント、Newton 1.0とPhysical AI Data Factoryのロボット、Nemotron 3 SuperやGR00T N2のモデル、Dynamo 1.0による大規模推論を発表。",
       "source": "npaka",
       "publishedAt": "2026-03-16T22:40:31.000Z",
-      "contentHash": "4bcea4e01b97"
+      "contentHash": "2a14d7d92482"
     },
     {
       "id": "5fa24ff3a84c",
@@ -5276,15 +5546,6 @@
       "contentHash": "553d1353d12b"
     },
     {
-      "id": "6df4c083b796",
-      "title": "The best deals on MacBooks right now",
-      "url": "https://www.theverge.com/22399419/apple-macbook-air-pro-mac-mini-imac-deals",
-      "summary": "2026年、AppleはiPhone向けAシリーズ搭載のMacBook Neo（最安$599）を含む多彩なMacBookとMac Miniを展開。全機種がmacOS26対応で、割引情報や用途別の選び方、高性能機や複数6Kディスプレイ接続時の注意点を解説。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-06T19:13:45.000Z",
-      "contentHash": "dd9d069b88db"
-    },
-    {
       "id": "35292e62079b",
       "title": "The AI Doc is an overwrought hype piece for doomers and accelerationists alike",
       "url": "https://www.theverge.com/entertainment/890806/the-ai-doc-or-how-i-became-an-apocaloptimist-review",
@@ -8739,267 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-02-26T16:00:09.000Z",
       "contentHash": "f55b2e3327ce"
-    },
-    {
-      "id": "cefb8a3f174d",
-      "title": "Democrats to introduce bill aimed at resurrecting IRS Direct File",
-      "url": "https://www.theverge.com/policy/885225/democrats-irs-direct-file-act-taxes",
-      "summary": "エリザベス・ウォーレン上院議員らが主導する「Direct File法」を含む法案を160人の民主党議員が提出予定。トランプ政権が廃止した、政府が無料で提供するIRSの直接申告制度「Direct File」を復活させる狙い。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T16:00:00.000Z",
-      "contentHash": "7b0da3546617"
-    },
-    {
-      "id": "7006cd9bbdbf",
-      "title": "Google’s Nano Banana 2 brings advanced AI image tools to free users",
-      "url": "https://www.theverge.com/tech/885275/google-nano-banana-2-ai-image-model-gemini-launch",
-      "summary": "GoogleはNano Banana 2（Gemini 3.1 Flash Image）を無料ユーザー向けに展開。Pro相当のリアルタイム情報、ウェブ画像参照、判読可能な文字などを高速・低コストで生成できるようにした。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T16:00:00.000Z",
-      "contentHash": "cd14133168ee"
-    },
-    {
-      "id": "3e8082769840",
-      "title": "Build with Nano Banana 2, our best image generation and editing model",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-nano-banana-2/",
-      "summary": "DeepMindの画像生成モデル「Nano Banana 2（Gemini 3.1 Flash Image）」を公開。高精細・高速な編集と世界知識の改善を実現し、Gemini API経由でGoogle AI Studioから利用可能。",
-      "source": "Gemini",
-      "publishedAt": "2026-02-26T16:00:00.000Z",
-      "contentHash": "9a602c15a62b"
-    },
-    {
-      "id": "edfff1e305bc",
-      "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/",
-      "summary": "Google DeepMindが新画像モデル「Nano Banana 2」を発表。Nano Banana Proの高性能とGemini Flashの高速性を統合し、被写体の一貫性や精密な指示遵守を実現。Geminiや検索・広告で展開、SynthIDとC2PAで生成画像識別も強化。",
-      "source": "Gemini",
-      "publishedAt": "2026-02-26T16:00:00.000Z",
-      "contentHash": "c8fb3a36fea7"
-    },
-    {
-      "id": "a71d55a02b65",
-      "title": "Google might reshuffle search results to try to dodge fines in the EU",
-      "url": "https://www.theverge.com/tech/885270/google-eu-dma-search-results-changes",
-      "summary": "GoogleはEUのデジタル市場法違反を受け、罰金回避を目的に検索結果表示を見直す計画。まず宿泊検索で自社優先をやめ、航空や飲食なども順次、競合を上位表示する（欧州で展開）。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T15:18:12.000Z",
-      "contentHash": "c55102f07281"
-    },
-    {
-      "id": "07f064f25325",
-      "title": "In 2025, Meta paid an effective federal tax rate of 3.5%",
-      "url": "https://bsky.app/profile/rbreich.bsky.social/post/3mfptlfeucn2i",
-      "summary": "Blueskyの案内とRobert Reichの投稿要旨: 2025年、Metaの実効連邦税率は過去最低の3.5%。同社は今年AI推進派候補支援に6500万ドルを投入。トリクルダウン経済は民主主義を蝕み、大金が問題の根源だと警鐘。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-26T15:14:20.000Z",
-      "contentHash": "d2a078f7660a"
-    },
-    {
-      "id": "eddcafbc791f",
-      "title": "Xbox is in danger. Will Microsoft fix it or kill it?",
-      "url": "https://www.theverge.com/podcast/884693/xbox-phil-spencer-microsoft-gaming-future-cloud-game-pass",
-      "summary": "フィル・スペンサーが引退、後継と見られたサラ・ボンドも退任し、ゲーム未経験のAI責任者アシャ・シャルマが新たにXboxを統括。HaloやCoD、Minecraftを含む部門の大幅変革を示唆し、The Vergeのトム・ウォーレンが内幕を報道。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-26T15:00:00.000Z",
-      "contentHash": "4c6d330fa648"
-    },
-    {
-      "id": "40dea241858d",
-      "title": "Anthropic ditches its core safety promise",
-      "url": "https://www.cnn.com/2026/02/25/tech/anthropic-safety-policy-change",
-      "summary": "OpenAI出身者が創業したAnthropicは、競争激化を理由に自主的な「制御不能なら学習停止」といった拘束的な安全方針を撤廃し、変更可能な非拘束の安全枠組みに転換。国防総省から契約圧力も受けているが別問題と説明。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-26T12:52:50.000Z",
-      "contentHash": "f2e80a2a85cf"
-    },
-    {
-      "id": "1eca9604d48f",
-      "title": "SONIC - ロボットが全身を統合制御する基盤モデル",
-      "url": "https://note.com/npaka/n/nd9844df80e54",
-      "summary": "NVIDIAの「SONIC」は人型ロボット向けの全身統合制御基盤モデル。モーション追跡を学習目標に単一モデルで歩行・走行・操縦・VRテレオ等を扱い、報酬設計を簡略化。大規模データ（約700時間）、最大42Mパラメータで学習し、オープンソース公開。",
-      "source": "npaka",
-      "publishedAt": "2026-02-26T11:43:44.000Z",
-      "contentHash": "0eb36a9447c1"
-    },
-    {
-      "id": "cb07a49509d1",
-      "title": "なぜ開票前に当選確実になるの？ | 分析屋",
-      "url": "https://note.com/bunsekiya_tech/n/n99877551c18d",
-      "summary": "選挙で開票前に当確が出るのは、出口調査のサンプルを統計的に全体に推定するからです。1,000〜2,000人程度で誤差約2%になり、大差なら逆転はほぼ起きません。ただし偏りや虚偽で外れる可能性はあります。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-26T11:29:40.000Z",
-      "contentHash": "b73df53fd91b"
-    },
-    {
-      "id": "7bcb929dbb42",
-      "title": "You Want to Visit the UK? You Better Have a Google Play or App Store Account",
-      "url": "https://www.heltweg.org/posts/you-want-to-visit-the-uk-you-better-have-a-google-play-or-app-store-account/",
-      "summary": "2026年2月から英政府は85カ国の渡航者に観光含めETAを義務化。申請はオンライン化され公式アプリを推奨する一方、アナウンスにはアプリ以外の申請案内が分かりにくく隠されていると批判が出ている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-26T11:26:10.000Z",
-      "contentHash": "da38c34d4058"
-    },
-    {
-      "id": "0d399ae974d3",
-      "title": "Amazon BedrockによるCodeCommit用の独自PR-Agentの構築 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-      "url": "https://recruit.group.gmo/engineer/jisedai/blog/building-custom-pr-agent-for-codecommit-with-amazon-bedrock/",
-      "summary": "Amazon Bedrockと連携するCodeCommit向けの独自PR-Agentを開発。CodeCommitはAI機能がないため独自実装し、EventBridge/CDKとLambdaで検知・処理。トークン最適化とチャンク分割で大規模PRにも対応し、自動レビューで工数削減を目指す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-26T11:20:29.000Z",
-      "contentHash": "9487eafe3f51"
-    },
-    {
-      "id": "b85ab54ace9e",
-      "title": "Show HN: Terminal Phone – E2EE Walkie Talkie from the Command Line",
-      "url": "https://gitlab.com/here_forawhile/terminalphone",
-      "summary": "terminalphoneプロジェクトのリポジトリ情報：53コミット、ブランチ1、タグ0。README・CHANGELOGを含み、MITライセンス。作成日2026年2月16日。現在読み込み中。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-26T10:40:45.000Z",
-      "contentHash": "78d4a38d41ac"
-    },
-    {
-      "id": "b50e3d195c6e",
-      "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting ",
-      "url": "https://openai.com/index/pacific-northwest-national-laboratory",
-      "summary": "OpenAIとPNNLがDraftNEPABenchを公開。AIコーディングエージェントで連邦のNEPA文書作成を最大約15%短縮し、インフラ審査の近代化の可能性を示した。",
-      "source": "OpenAI",
-      "publishedAt": "2026-02-26T10:00:00.000Z",
-      "contentHash": "4775dc1f9f8a"
-    },
-    {
-      "id": "b94fc86391d1",
-      "title": "Tell HN: YC companies scrape GitHub activity, send spam emails to users",
-      "url": "https://news.ycombinator.com/item?id=47163885",
-      "summary": "ある人がRun Anywhere（YC）やVoice.AIから、GitHubのコミットメタデータ（氏名・メール）をスクレイピングして無断で勧誘メールを受け取った。GDPR違反の疑いで両社やGitHub、YC倫理窓口に苦情を提出。GitHubはno‑replyメールで匿名化を推奨しつつ、公開データ維持とAPI制限の兼ね合いを議論中。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-26T09:35:08.000Z",
-      "contentHash": "1a99d40ebcc9"
-    },
-    {
-      "id": "4b40344e844b",
-      "title": "Terraformのfor eachを活用したAzureワークショップ環境の構築 ～ユーザー/リソースグループの作成から権限設定まで～ | TechHarmony",
-      "url": "https://blog.usize-tech.com/azure-terraform-for-each/",
-      "summary": "Azureハンズオンで参加者ごとにユーザーと専用リソースグループを作り、Terraformのfor_eachを使ってそれらを自動生成・役割割当（権限付与）する手順とポイントを解説する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-26T09:28:51.000Z",
-      "contentHash": "0c6b62bfcbac"
-    },
-    {
-      "id": "19774875955f",
-      "title": "生成AIの気になるニュース・記事（1/25~1/31) | 分析屋",
-      "url": "https://note.com/bunsekiya_tech/n/n251bc3665b97",
-      "summary": "1/25〜1/31の生成AIまとめ。AGI市場は2026〜2033年に成長予測、AWSはTrainium3/Graviton5で自動車AIを強化。生成AIが入試満点で教育は「制限」から「統合」へ転換。エージェント框架比較や企業事例も掲載。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-26T09:25:16.000Z",
-      "contentHash": "221b67f2c742"
-    },
-    {
-      "id": "7fa7076a6862",
-      "title": "CrowdStrike Falcon Device Control USBデバイスのリスクを管理し、セキュリティを強化 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/crowdstrike-device-control",
-      "summary": "CrowdStrike FalconのDevice Controlは、USBデバイスの接続を可視化・制御してデータ漏洩やマルウェア感染を防ぐ機能です。モニター／強制モード、細かなアクセス制御、詳細ログで監査・調査を支援し、追加エージェント不要で運用負荷を軽減します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-26T07:17:26.000Z",
-      "contentHash": "f10931838c97"
-    },
-    {
-      "id": "b772caf3670c",
-      "title": "データのサイロ化を解消するには？語源・課題・解決策をわかりやすく解説 | スマートスタイル TECH BLOG",
-      "url": "https://blog.s-style.co.jp/2026/02/15388/",
-      "summary": "データのサイロ化は、部署やシステムごとに情報が孤立し横断利用できない状態。語源は農業のサイロ。原因は縦割り組織や個別システム導入、定義不統一で、組織改革と技術的統合・共通ルール整備が解決策。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-26T06:42:09.000Z",
-      "contentHash": "cc765eb32155"
-    },
-    {
-      "id": "82993778e29d",
-      "title": "CloudWatch Logs の削除保護機能が新たに提供されました | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/update-logs-delete-protection",
-      "summary": "CloudWatch Logsに削除保護機能が追加されました。保護有効のロググループはコンソール/CLI/SDKからの削除が拒否され、解除の明示的操作が必要です。追加費用なしで、マネコン・CLI・IaC・SAM/CDKで設定可能。本番は基本有効、IaC管理推奨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-26T06:33:40.000Z",
-      "contentHash": "8d8e83bce884"
-    },
-    {
-      "id": "51360efb91f8",
-      "title": "Reactデザインパターンに向き合う「なぜそのパターンを選ぶのか？」 | ONE CAREER Tech Blog",
-      "url": "https://note.com/dev_onecareer/n/n36c37a2b777d",
-      "summary": "ワンキャリアのエンジニアが、記事リストのグリッド表示と横スクロール表示対応で、柔軟なデザインパターンを一度採用したものの、過剰な抽象化や内部の if 分岐が保守性を悪化させると判断し破棄。適切な抽象化の粒度で設計し直した過程を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-26T06:22:52.000Z",
-      "contentHash": "abd9d41296c9"
-    },
-    {
-      "id": "32de89a1fbbf",
-      "title": "aws-cdk で扱いやすい最小規模 Redis として Amazon ElastiCache Serverless を使う | Hatena Developer Blog",
-      "url": "https://developer.hatenastaff.com/entry/2026/02/26/151335",
-      "summary": "保守不足でRedisが延長サポート対象となり費用増。aws-cdk/CloudFormationのElastiCacheインポート制約もあり、最小コストかつ取り回し良いElastiCache Serverless（Valkey、最低100MB課金・自動スケール）へ移行した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-26T06:13:35.000Z",
-      "contentHash": "cb5ce19c74a9"
-    },
-    {
-      "id": "4b51d8cada0e",
-      "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
-      "url": "https://openai.com/index/figma-partnership",
-      "summary": "OpenAIとFigmaがCodexの新統合を発表。コードとデザインを連携し、実装とFigmaキャンバスを行き来してチームの反復作業とリリースを高速化する。",
-      "source": "OpenAI",
-      "publishedAt": "2026-02-26T06:00:00.000Z",
-      "contentHash": "eb37100e2d00"
-    },
-    {
-      "id": "208685decbc6",
-      "title": "AIを活用したGAS開発における新たな共創モデル | VISASQ Dev Blog",
-      "url": "https://tech.visasq.com/ai-gas-collaborate",
-      "summary": "現場主導でAIを活用しGAS開発を進め、ITは技術・セキュリティ面で支援する共創モデル。SaaS連携を想定した役割分担、AI生成コードのレビューや教育で開発速度向上・品質確保・現場のIT力向上を目指す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-26T05:59:28.000Z",
-      "contentHash": "3d7defa2bb63"
-    },
-    {
-      "id": "c7baae09dc71",
-      "title": "週刊Cloudflare - 2026/02/22週 | Gemcook Tech Blogのフィード",
-      "url": "https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_0215-0221",
-      "summary": "2026/02/15-21のCloudflare更新：wranglerが4.67/4.66でパイプライン検証やData Catalog自動有効化・バケット自動作成、TypeScript型生成、キャッシュ自動検出、各種バグ修正や機能改善を実施。Queues遅延延長やwhoami改良も。Workersの本番向けベストプラクティス（compatibility更新、Web Crypto推奨、ログ有効化等）も公開。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-26T05:35:34.000Z",
-      "contentHash": "c5536c8408f3"
-    },
-    {
-      "id": "364cf9b6f39c",
-      "title": "I don't know how you get here from “predict the next word”",
-      "url": "https://www.grumpy-economist.com/p/refine",
-      "summary": "著者はAIツールrefineを試用。無料で一度使っただけだが、論文へのコメントは自分のキャリアで最高峰に匹敵。主要指摘は財政ニュースの定量化で、インフレを事後的に解釈しないために具体的な日付付き指標が必要という点。80ページを要約したことも強調。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-26T04:59:01.000Z",
-      "contentHash": "71d09c8146a8"
-    },
-    {
-      "id": "3dc4cfbeb7b9",
-      "title": "Gemini API - Multimodal Function Responses",
-      "url": "https://note.com/npaka/n/n4ac7107c6ba0",
-      "summary": "Gemini APIのMultimodal Function Responsesは、Function Callingで画像やPDFなどテキスト以外のデータをツール経由でモデルに返し視覚推論を行える仕組み。UI操作支援、図表解析、商品照合などが可能で実装例も示される。",
-      "source": "npaka",
-      "publishedAt": "2026-02-26T03:54:15.000Z",
-      "contentHash": "95e4f6839c26"
-    },
-    {
-      "id": "9de1dddd0b40",
-      "title": "RAM now represents 35 percent of bill of materials for HP PCs",
-      "url": "https://arstechnica.com/gadgets/2026/02/ram-now-represents-35-percent-of-bill-of-materials-for-hp-pcs/",
-      "summary": "HPはメモリ不足でPCの部材費に占めるRAM比率が約15–18%から約35%に上昇。DRAM/NAND価格は前期比約100%上昇し、TAMは年内に二桁減を見込み、下半期〜翌期まで影響。価格引上げや仕様抑制で対応。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-26T02:43:26.000Z",
-      "contentHash": "bb0e001a984a"
-    },
-    {
-      "id": "84b19b6120dd",
-      "title": "Jane Street Hit with Terra $40B Insider Trading Suit",
-      "url": "https://www.disruptionbanking.com/2026/02/24/jane-street-hit-with-terra-40b-insider-trading-suit/",
-      "summary": "テラ・ルナの400億ドル崩壊で、破産管財人が2月23日ジェーンストリートを提訴。テラが1.5億ドル引出した直後、10分以内に同社が8500万ドルを移し市場混乱を招き、盗用情報で不正利得を得たと主張し損賠・返還等を求める。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-26T01:25:49.000Z",
-      "contentHash": "0bb64cf5d4dd"
     }
   ]
 }
