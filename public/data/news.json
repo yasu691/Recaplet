@@ -1,14 +1,41 @@
 {
-  "generatedAt": "2026-03-21T02:42:16.685Z",
+  "generatedAt": "2026-03-21T08:53:44.859Z",
   "items": [
+    {
+      "id": "7d4f5231627e",
+      "title": "The improved battery-powered Starlink Mini is here",
+      "url": "https://www.theverge.com/reviews/898580/peakdo-linkpower-2-review-starlink-mini-battery",
+      "summary": "筆者は小型Starlink MiniとPeakDoの新型バッテリーLinkPower 2（$219）で、電源ケーブル不要で数時間稼働し、山間部など4G/5Gが届かない場所でも車中で安定したリモート作業が可能と報告。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-21T07:29:33.000Z",
+      "contentHash": "300e64abab31"
+    },
+    {
+      "id": "3cf5b5103cc7",
+      "title": "HuggingFace Diffusers v0.37.0の新機能",
+      "url": "https://note.com/npaka/n/n70eba03fe869",
+      "summary": "HuggingFace Diffusers v0.37.0は、再利用可能なブロックで柔軟に拡散パイプラインを組めるModular Diffusersを導入し、Z‑Image、FLUX.2 Klein、Qwen‑Image‑Layered、Fibo Edit、Cosmos系、GLM‑Image、RAE、音声同期Text‑to‑VideoのTX‑2など多数の新パイプライン・モデルを追加しました。",
+      "source": "npaka",
+      "publishedAt": "2026-03-21T07:01:02.000Z",
+      "contentHash": "026f696aba5e"
+    },
+    {
+      "id": "5e137ac5dddc",
+      "title": "Isaac Sim のバックエンド PhysX と Newton の違い",
+      "url": "https://note.com/npaka/n/nbba95f5055c2",
+      "summary": "Isaac Simの物理バックエンドは、安定で既存資産と相性の良い実用派のPhysXと、GPU活用や微分可能性、接触リッチなタスクを重視する研究向けのNewtonに分かれる。実務はPhysX、研究・学習はNewtonが有望で、用途で選ぶとよい。",
+      "source": "npaka",
+      "publishedAt": "2026-03-21T04:10:33.000Z",
+      "contentHash": "b7fa9c59a9e2"
+    },
     {
       "id": "d1352c59ff58",
       "title": "Isaac Sim の Joint Drive設定 まとめ",
       "url": "https://note.com/npaka/n/n852f10e35693",
-      "summary": "Isaac SimのJoint Driveは実機のサーボそのものではなく、実機らしい応答（立ち上がり、オーバーシュート、減衰、定常偏差、負荷追従等）を再現するための設定。stiffness/dampingはPD様挙動だが実機のKp/Kdをそのまま使えない。実機の入出力応答を測り、同じ入力でシミュレータ応答を合わせる調整が必要。",
+      "summary": "Isaac Sim の Joint Drive は実機のサーボゲインではなく、stiffness が位置引き込み、damping が速度追従を模した擬似モデル。実機のKp/Kdをそのまま使わず、立ち上がり・オーバーシュート等の入出力応答を実機で測り、シミュレータ側で応答波形を一致させるよう調整する。",
       "source": "npaka",
       "publishedAt": "2026-03-21T00:03:46.000Z",
-      "contentHash": "0c9dd0250e6d"
+      "contentHash": "708052feda1c"
     },
     {
       "id": "a3da0c8215c2",
@@ -18,6 +45,15 @@
       "source": "The Verge",
       "publishedAt": "2026-03-20T23:46:30.000Z",
       "contentHash": "d3c58ce07f59"
+    },
+    {
+      "id": "a07b8cf7f57d",
+      "title": "Ghostling",
+      "url": "https://github.com/ghostty-org/ghostling",
+      "summary": "申し訳ありませんが、外部URLに直接アクセスできないため記事内容を取得できません。記事（READMEや本文）とHNコメントの要約してほしい部分を貼っていただければ、200文字以内で日本語に要約します。どの部分を優先するか（リポジトリ本体／HN議論／両方）も教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-20T22:11:37.000Z",
+      "contentHash": "f82d5560bdb5"
     },
     {
       "id": "496bfb155eca",
@@ -30,39 +66,39 @@
     },
     {
       "id": "052cf1ee45ca",
-      "title": "We rewrote our Rust WASM Parser in TypeScript – and it got 3x Faster",
+      "title": "We rewrote our Rust WASM parser in TypeScript and it got faster",
       "url": "https://www.openui.com/blog/rust-wasm-parser",
-      "summary": "openui-langのパーサをRust→WASMで実装したが、実行自体は高速でもJS↔WASMの境界コスト（文字列コピーとJSONのシリアライズ/デシリアライズ）がレイテンシを支配。全6段階のパイプラインは毎チャンク実行されるため問題になり、JSON往復を避けるためserde-wasm-bindgenでJsValueを直接返す試みを行った。",
+      "summary": "申し訳ありませんが外部サイトを直接参照できません。記事本文か要点を貼っていただければ、200文字以内で日本語要約を作成します。コメント要約も必要なら教えてください。",
       "source": "Hacker News",
       "publishedAt": "2026-03-20T21:48:06.000Z",
-      "contentHash": "91f3f04f2888"
+      "contentHash": "c7e62483aa16"
     },
     {
       "id": "d4108b708f72",
       "title": "OpenCode – Open source AI coding agent",
       "url": "https://opencode.ai/",
-      "summary": "OpenCodeはターミナル/IDE/デスクトップで動くオープンソースのAIコーディングエージェント。LSP自動設定、マルチセッション、セッション共有、75以上のLLM対応（Copilot/ChatGPT等）、コードを保存しないプライバシー重視。GitHubで12万星、月500万開発者が利用。",
+      "summary": "申し訳ありませんが、外部リンクを直接開けません。記事本文か主要箇所を貼っていただければ、200文字以内で日本語要約を作成します。HNのコメントを要約希望ならそれらを貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2026-03-20T21:03:52.000Z",
-      "contentHash": "98897f8f3fb0"
+      "contentHash": "4a09a85e9ea7"
     },
     {
       "id": "604499d6226c",
       "title": "A Japanese glossary of chopsticks faux pas",
       "url": "https://www.nippon.com/en/japan-data/h01362/",
-      "summary": "日本の箸マナー（嫌い箸）を解説。口より高く上げる、汁で洗う、箸で食べ物を渡す（葬儀の骨拾いに由来する大禁忌）、皿を偏って使う、戻す、拝み箸、押し込み、落とす、逆さ箸など避けるべき行為を列挙。",
+      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文をここに貼っていただければ、200字以内で日本語要約を作成します。HNコメントも併せて要約希望なら知らせてください。",
       "source": "Hacker News",
       "publishedAt": "2026-03-20T20:54:57.000Z",
-      "contentHash": "b499a987d059"
+      "contentHash": "e6e27560727c"
     },
     {
       "id": "6eb9a0ad2978",
       "title": "The bespoke software revolution? I'm not buying it",
       "url": "https://world.hey.com/jason/the-bespoke-software-revolution-i-m-not-buying-it-4bfad9ec",
-      "summary": "オーダーメイドソフトは既に存在し、多くは冗長で使いにくい。開発者だけが期待するが、実務者は維持管理したくない。AIで利便性は上がっても、誰もが作り手になるわけではない。",
+      "summary": "著者は「特注ソフト」ブームに懐疑的で、企業は独自性を過大評価しがちでコスト・保守・再発明の負担が大きいと指摘。汎用SaaSや既存ツールでの運用改善を優先し、特注は最終手段と主張している。",
       "source": "Hacker News",
       "publishedAt": "2026-03-20T20:25:23.000Z",
-      "contentHash": "b8d57dfcf141"
+      "contentHash": "9acccdf98610"
     },
     {
       "id": "90f335cdc9aa",
@@ -86,10 +122,10 @@
       "id": "4034b85426b7",
       "title": "Our commitment to Windows quality",
       "url": "https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/",
-      "summary": "Windows品質向上の取り組みを発表。Insider向けにタスクバーの上下左右移動やカスタマイズ強化、Copilot導線の整理、更新の柔軟化（セットアップで更新スキップ等）、ファイルエクスプローラー高速化などを導入予定。",
+      "summary": "MicrosoftはWindowsの品質問題を認め、安定性と信頼性回復を約束。リリース検証とテレメトリ強化、段階的ロールアウトと迅速な修正、Insider/OEMとの連携や透明な情報公開とサポート改善で品質向上を図る。",
       "source": "Hacker News",
       "publishedAt": "2026-03-20T19:16:13.000Z",
-      "contentHash": "7dffb4086ec3"
+      "contentHash": "a5676382d6bf"
     },
     {
       "id": "50f985776d26",
@@ -122,10 +158,10 @@
       "id": "ecadf5520e69",
       "title": "Attention Residuals",
       "url": "https://github.com/MoonshotAI/Attention-Residuals",
-      "summary": "Attention Residuals（AttnRes）は、Transformerの固定重み残差を各層の学習済み疑似クエリによる過去出力へのソフトマックス注意で置換し、寄与の希薄化と隠れ状態の発散を抑える手法。Fullは高メモリだが、層をブロック化するBlock AttnResはメモリを削減しつつ大半の改善を維持（約8ブロックで実用的）。",
+      "summary": "MoonshotAIのリポジトリで、Transformerの残差ストリームを分解して注意機構やヘッド、MLPの出力寄与を解析するコード・理論・ノートを公開。可視化や実験で機構的解釈を支援するツール群。",
       "source": "Hacker News",
       "publishedAt": "2026-03-20T18:23:41.000Z",
-      "contentHash": "007c336d2479"
+      "contentHash": "3a247e2d3eef"
     },
     {
       "id": "f53cfbb8fe5a",
@@ -167,19 +203,19 @@
       "id": "c9ea4dc78af9",
       "title": "正規のIntune経由でデータをワイプする攻撃が起きたため、Intuneの存在が攻撃面になってしまった | CloudNative BLOGs",
       "url": "https://blog.cloudnative.co.jp/articles/regular-intune-wipe-attack/",
-      "summary": "米医療機器大手Strykerがサイバー攻撃を受け、攻撃者がMicrosoft Intuneの正規ワイプ機能を悪用して多数端末を初期化。ランサム等の兆候は未確認。CISAは設定強化を緊急勧告し、RBAC最小権限・フィッシング耐性MFA・多管理者承認を優先。Intune導入企業は管理プレーンを攻撃面と想定し設定監査と端末バックアップ導入を検討すべき。",
+      "summary": "米医療機器大手Strykerが管理者権限を侵害され、正規のMicrosoft Intuneワイプ機能で数万〜数十万台が初期化。ランサム痕跡は確認されず、CISAはRBAC最小権限・フィッシング耐性MFA・複数管理者承認などIntune設定強化と監査、バックアップ導入を勧告。管理プレーンが攻撃面化した点が問題。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-20T17:10:00.000Z",
-      "contentHash": "82852904accb"
+      "contentHash": "29da415a1e50"
     },
     {
       "id": "f244b0717e73",
       "title": "MacBook M5 Pro and Qwen3.5 = Local AI Security System",
       "url": "https://www.sharpai.org/benchmark/",
-      "summary": "HomeSec-Bench（96テスト/15スイート）で、MacBook Pro M5上のQwen3.5-9Bがローカル実行で93.8%を達成。GPT-5.4の97.9%に約4ポイント差。25 tok/s、13.8GB使用、API不要で完全ローカル動作。",
+      "summary": "外部リンクへ直接アクセスできないため、本文を貼ってください。記事本文か主要ポイントをいただければ、200字以内で日本語要約します。HNコメントの要約も希望なら一緒に貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2026-03-20T16:41:42.000Z",
-      "contentHash": "9156875224c5"
+      "contentHash": "13f19d217303"
     },
     {
       "id": "0eb2d45d5e01",
@@ -293,10 +329,10 @@
       "id": "d103a8fde4d6",
       "title": "楽しくなってきたので、Claude Codeで、気分でspinnerVerbsを設定できるカスタムスラッシュコマンドを・・・ | ちゅらデータ株式会社のフィード",
       "url": "https://zenn.dev/churadata/articles/7110f0aca0858a",
-      "summary": "ちゅらデータの田代学がClaude Codeで、自然言語入力でSpinner Verbsを気分ごとに設定するカスタムスラッシュコマンドを作成。ジョジョやジブリ、ネットミームやSnowflakeのTips（--longモードあり）など遊びと実用で使え、簡単に切替／元に戻すことが可能。",
+      "summary": "がく（ちゅらデータエンジニア）が生成AIで即席のプロジェクトを作成。手軽さに驚きつつ冗談めいたスラッシュコマンド作りを楽しんでいるが、PM効率化の話題は既にトップランナーに席巻されて入り込めないと感じている。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-20T13:00:05.000Z",
-      "contentHash": "f4c5db1f9d86"
+      "contentHash": "e36cd0210326"
     },
     {
       "id": "d3e8bd701101",
@@ -338,19 +374,19 @@
       "id": "84f66745f6b0",
       "title": "uvへの一歩を踏み出したい！ | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/75442ba430e5ac",
-      "summary": "uvはRust製の高速なオールインワンPython環境構築ツール。パッケージ・仮想環境・Python本体を一元管理し、uv runで自動実行、uv.lockで再現性を保証。CI/CDでの高速性が強み。",
+      "summary": "これまで仕組みを詳しく知らずに使っていたuvを学び直して整理する記事。uvはAstral製のRust製次世代Python環境構築ツールで、pipやvenvより10〜100倍高速。パッケージ導入、依存解決、仮想環境作成、Pythonバージョン管理を一本で担う。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-20T08:21:50.000Z",
-      "contentHash": "ffe908c3ba7b"
+      "contentHash": "419a0b6a9447"
     },
     {
       "id": "15cb0a33d6e3",
       "title": "EC2に「アクセスキー」は眠っていませんか？流出事案に学ぶ構成見直しリスト | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/ec2-access-key-security-checklist",
-      "summary": "AWSのアクセスキー流出事案の検知から収束までを報告。AWSの復旧4ステップ（無効化・CloudTrail確認・不要リソース削除・報告）や、キーを持たない設計、自動ローテ、最小権限と異常検知による再発防止を提言。",
+      "summary": "クロスインダストリー第2本部クラウド活用推進課の岡野氏が担当する顧客環境でAWSのアクセスキー流出が発生。管理不備や悪意によるものではなく、事故は起こり得るとし、アクセスキーの定期ローテーションを強く勧めた。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-20T07:54:55.000Z",
-      "contentHash": "80bf81ff2fd2"
+      "contentHash": "08aca67485ed"
     },
     {
       "id": "cc49fd7b2c0e",
@@ -365,19 +401,19 @@
       "id": "f3f2a353a7d6",
       "title": "Google Workspace CLIとKiro CLIで週報を自動生成してみた | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/google-workspace-cli-kiro-weekly-report",
-      "summary": "Google Workspace CLI（gws）でGoogleカレンダーの予定を取得し、Kiro CLIに渡して週報を自動生成する手順を解説。gwsの動的コマンド生成やスキル群、OAuth設定、インストール手順、運用のコツと簡易な代替方法も紹介。",
+      "summary": "Google Workspace CLIとKiro CLIを組み合わせ、gcloud導入・OAuth（Internal前提）設定、Kiroからのgwsコマンド実行、カスタムエージェント定義まで、CLIだけでGoogleカレンダーの予定を取得して週報を自動生成する手順を段階的に解説します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-20T04:00:00.000Z",
-      "contentHash": "9730552d7208"
+      "contentHash": "a5488008aa54"
     },
     {
       "id": "44b408c71b9c",
       "title": "ローカル実行の大規模言語モデル(LLM)を使ってAgentforceエージェントを評価する試みと結果 | フレクトのクラウドblog",
       "url": "https://cloud.flect.co.jp/entry/2026/03/20/112522",
-      "summary": "佐藤氏はAgentforceエージェント評価にローカル実行LLMを提案。モデル更新や非決定性を避けるためOpenVINO等でCPU実行し、小型モデルと簡易課題で出力を模範解答と比較して自動採点する手法と利点・制約を報告。",
+      "summary": "エンジニア佐藤がローカル実行の大規模言語モデル(LLM)を用いてAgentforceエージェントを評価する試みを報告。LLMは従来の計算機と異なり人間の思考を模倣する魅力がある一方、決定論的でない点に課題があると述べる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-20T02:25:22.000Z",
-      "contentHash": "af67eed26630"
+      "contentHash": "cb0b169f6d3e"
     },
     {
       "id": "c94c161c6cfd",
@@ -437,10 +473,10 @@
       "id": "754acb5ec761",
       "title": "2段階認証が原因でGoogleアカウントにログインできない場合の解決策 | G-gen Tech Blog",
       "url": "https://blog.g-gen.co.jp/entry/locked-out-of-google-account-due-to-2fa",
-      "summary": "2段階認証でGoogleにログインできない場合の対処法。ログイン画面の「別の方法を試す」から信頼端末・再設定用メール・バックアップコードを使用。Workspaceは管理者が一時無効化やコード発行、個人はアカウント復旧で本人確認（普段使う端末や場所で操作）して復旧する。",
+      "summary": "Googleアカウントは2段階認証で登録した電話が使えなくなるとログイン不能になることがある。この記事は別の認証方法の試行、Google Workspace管理者による対応、個人向けのアカウント復旧手順を解説する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-20T00:00:00.000Z",
-      "contentHash": "85cd8f184b4c"
+      "contentHash": "16fa5eac684e"
     },
     {
       "id": "a47140421c80",
@@ -455,19 +491,19 @@
       "id": "f7ae0da63be4",
       "title": "RAGの検索精度を爆上げする「インデックス最適化」3選：MultiVector, RAPTOR, ColBERTを徹底比較 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/c8c88d40e0495b",
-      "summary": "RAGの検索精度を上げる3つのインデックス最適化を解説。MultiVectorは要約・想定質問・小チャンクを複数ベクトル化し実装容易、RAPTORは階層的要約で大文書に強く、ColBERTは単語単位ベクトルで高精度だがコストと複雑度が高い。用途別の比較と実装コスト指針を提示。",
+      "summary": "Naive RAGの限界を指摘し、インデックス工夫で検索精度を大幅改善する3手法を解説。MultiVectorRetriever、RAPTOR、ColBERTの仕組み・適用場面・実装コスト・選定基準を比較し実践的に示す内容。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-19T22:56:32.000Z",
-      "contentHash": "07a0fdeb3021"
+      "contentHash": "b6972b45a98e"
     },
     {
       "id": "752794e73e91",
       "title": "Google AI Studio のフルスタックバイブコーディング機能の概要",
       "url": "https://note.com/npaka/n/n77bf70d9b349",
-      "summary": "Google AI Studioがバイブコーディングを刷新。プロンプトから本番アプリへ即変換でき、マルチプレイヤーや外部ライブラリ導入、進捗保存、セキュアログイン、Firebase（Firestore/認証）連携、シークレット管理、セッション復帰、強化エージェント、Next.js対応で、Three.js等を使ったゲームやリアルタイム協業の開発が容易に。",
+      "summary": "Google AI Studioがフルスタックのバイブコーディングを強化。プロンプトから本番アプリ化を自動化し、マルチプレイヤー、外部ライブラリ導入、進捗保存、安全なログイン、Firebase統合、シークレット管理、セッション復帰、Next.js対応などでリアルタイムゲームや共同編集、3D物理や外部API連携が容易に。",
       "source": "npaka",
       "publishedAt": "2026-03-19T22:14:29.000Z",
-      "contentHash": "36c5364a9f2b"
+      "contentHash": "c841c755609b"
     },
     {
       "id": "ca3ecd33c923",
@@ -680,10 +716,10 @@
       "id": "fa6706665f61",
       "title": "年間487件・276時間の本番保守作業の実態と機能化による改善 | BABY JOB  テックブログのフィード",
       "url": "https://zenn.dev/babyjob/articles/data-maintenance-function",
-      "summary": "BABY JOB開発部は年間487件・276時間の本番データメンテを定量化し、優先度の高い作業から機能化を提案。結果、割り込み依頼を約50%削減、年間100時間超の工数削減、エンジニア負荷やCS対応速度が改善。ただし機能化後の利用者負担を軽視した点は反省。",
+      "summary": "BABY JOB開発部は、おむつサブスク運用で常態化したエンジニアの直接DB修正を定量化し、作業を分類・可視化して他部署と承認フローや管理機能へ移行。自動化や権限整備で運用負荷を削減し、改善点を共有した。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-19T15:00:08.000Z",
-      "contentHash": "fa090db236e7"
+      "contentHash": "031e7e45145c"
     },
     {
       "id": "d745edbf029a",
@@ -770,10 +806,10 @@
       "id": "a37043031dc2",
       "title": "React Native開発が変わる。RozeniteでCoding Agentに「目と手」を与えた話 | テラーノベル テックブログのフィード",
       "url": "https://zenn.dev/tellernovel_inc/articles/bb27cd0f28f8cb",
-      "summary": "Rozeniteとagent-deviceでCoding Agentにモバイルの「目と手」を与え、DevToolsやプラグイン経由でログ・スクショやパフォーマンス情報を取得・操作可能に。エラー取得→修正→検証を自律化し人手を削減する。",
+      "summary": "テラーノベルの@kazutoyoが、以前のReact Native向けCoding Agent活用紹介に続き、Coding Agent自身がモバイルアプリを操作・検証できる2つのツールを紹介。作業検証手段を与える重要性も解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-19T11:20:43.000Z",
-      "contentHash": "df76c7a9a6ac"
+      "contentHash": "33c7a2d7884b"
     },
     {
       "id": "a4da19ec7d3d",
@@ -878,10 +914,10 @@
       "id": "21e7e104a3eb",
       "title": "Isaac Sim Physics 入門",
       "url": "https://note.com/npaka/n/n5a9b4763ad9d",
-      "summary": "Isaac SimのPhysics入門。物理挙動はRigid Body/Collider/Jointを設定し、USD→PhysXで生成→タイムステップで更新→USDへ書き戻す流れ。シミュレーション時間と実時間、レンダリングフレームレートと物理タイムステップの違いと、それぞれの設定方法（Time Codes Per Second、Physics SceneのTime Steps Per Second）を解説。",
+      "summary": "Isaac SimのPhysics（物理シミュレーション）機能を整理した記事。シミュレーションの仕組み、主要機能や設定方法、動作検証やIsaac Sim 5.1での改良点・実装例などを解説している。",
       "source": "npaka",
       "publishedAt": "2026-03-19T08:23:53.000Z",
-      "contentHash": "73db49a2535b"
+      "contentHash": "b709f96d3dfb"
     },
     {
       "id": "a45cce2f2683",
@@ -995,10 +1031,10 @@
       "id": "c5a92faadbbb",
       "title": "Asus Ascent GX10 を工場出荷状態に戻す",
       "url": "https://note.com/npaka/n/nfbe0431b91c8",
-      "summary": "Asus Ascent GX10を工場出荷状態に戻す手順：USBにISOを書き込み起動、BIOSでUEFI USBを選び保存後起動→DGX SparkのOSを選んでインストール。初期のWi‑Fi接続はスマホのテザリングで回避可能。",
+      "summary": "Asus Ascent GX10を工場出荷状態にリセットする手順と試行記録をまとめた記事。実際のリセット方法、注意点や結果が順を追って解説されている。",
       "source": "npaka",
       "publishedAt": "2026-03-19T03:40:51.000Z",
-      "contentHash": "ddb38771d7e5"
+      "contentHash": "deba4610461b"
     },
     {
       "id": "ff88060d517b",
@@ -8964,42 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-03-01T18:06:10.000Z",
       "contentHash": "66253b465f8e"
-    },
-    {
-      "id": "2c3070ba0334",
-      "title": "When does MCP make sense vs CLI?",
-      "url": "https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html",
-      "summary": "著者はMCPは既に衰退中と断じる。業界の過剰反応で導入が進んだが、LLMは既にCLIを使いこなし、CLIは人間も同じコマンドで検証・デバッグでき、パイプ等で合成可能。MCPに実利はない。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-01T16:54:49.000Z",
-      "contentHash": "00ee8883d634"
-    },
-    {
-      "id": "a81dd0e85bb8",
-      "title": "Lego’s Smart Brick is here, and it transforms these new Star Wars sets",
-      "url": "https://www.theverge.com/gadgets/886014/lego-smart-brick-star-wars-set-price-availability-release-date-buy",
-      "summary": "レゴの新Smart Brickは2x4ブロックに小型PC・マイク・NFCを内蔵し、対応セットで新しい遊びを提供。CES2026で“best in show”受賞。スター・ウォーズ対応は8セットで、3セットは本体と充電クレードル／ケーブル同梱、残りは本体別売の「Smart Play compatible」。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-01T16:00:10.000Z",
-      "contentHash": "592581ca845d"
-    },
-    {
-      "id": "0d484c352c48",
-      "title": "New iron nanomaterial wipes out cancer cells without harming healthy tissue",
-      "url": "https://www.sciencedaily.com/releases/2026/02/260228093456.htm",
-      "summary": "オレゴン州立大学の研究者が、腫瘍の酸性環境と高い過酸化水素を利用して二重の酸素反応を起こし、がん細胞を内部から酸化ストレスで壊死させる鉄系ナノ素材を開発。マウスの乳がんを副作用なく消滅させ、研究はAdvanced Functional Materialsに掲載。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-01T15:09:55.000Z",
-      "contentHash": "33cd6f4ed948"
-    },
-    {
-      "id": "5e7ef419177c",
-      "title": "Soundcore’s Space 2 are an evolution of its budget headphones",
-      "url": "https://www.theverge.com/tech/886180/soundcore-space-2-announcement-mwc-2026",
-      "summary": "SoundcoreがMWC2026でSpace Oneの後継「Space 2」を発表。米国で4月21日発売、リネンホワイト・ジェットブラック・シーフォームの3色、価格は$129.99（旧機より$30高）。低域を強化したフルバンドANCとマイク配置最適化で騒音低減を図る進化版。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-01T15:00:00.000Z",
-      "contentHash": "88525ba0db46"
     }
   ]
 }
