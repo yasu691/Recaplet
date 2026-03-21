@@ -1,6 +1,195 @@
 {
-  "generatedAt": "2026-03-20T17:11:57.509Z",
+  "generatedAt": "2026-03-21T02:42:16.685Z",
   "items": [
+    {
+      "id": "d1352c59ff58",
+      "title": "Isaac Sim の Joint Drive設定 まとめ",
+      "url": "https://note.com/npaka/n/n852f10e35693",
+      "summary": "Isaac SimのJoint Driveは実機のサーボそのものではなく、実機らしい応答（立ち上がり、オーバーシュート、減衰、定常偏差、負荷追従等）を再現するための設定。stiffness/dampingはPD様挙動だが実機のKp/Kdをそのまま使えない。実機の入出力応答を測り、同じ入力でシミュレータ応答を合わせる調整が必要。",
+      "source": "npaka",
+      "publishedAt": "2026-03-21T00:03:46.000Z",
+      "contentHash": "0c9dd0250e6d"
+    },
+    {
+      "id": "a3da0c8215c2",
+      "title": "Jury finds Elon Musk&#8217;s &#8216;stupid tweets&#8217; caused Twitter investors&#8217; losses",
+      "url": "https://www.theverge.com/tech/898511/elon-musk-twitter-lawsuit",
+      "summary": "カリフォルニアの陪審は、イーロン・マスクが2022年のTwitter買収前にスパム／ボットに関する虚偽・誤解を招くツイートで投資家を誤導したと判断。5月13日・27日の投稿で一部が低値で売却し、損害は最大約26億ドルに上る可能性。マスクは控訴予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-20T23:46:30.000Z",
+      "contentHash": "d3c58ce07f59"
+    },
+    {
+      "id": "496bfb155eca",
+      "title": "An automated moderation error left Tumblr users panicked",
+      "url": "https://www.theverge.com/tech/898402/tumblr-automated-account-bans-march-2026",
+      "summary": "Tumblrで自動モデレーションの誤作動により“sub-200”アカウントが一斉停止。多くがトランス女性のアカウントで理由不明の通知が届き、親会社Automatticは誤判定を認め多数を復旧した。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-20T22:00:34.000Z",
+      "contentHash": "7a7fa8f2a2d5"
+    },
+    {
+      "id": "052cf1ee45ca",
+      "title": "We rewrote our Rust WASM Parser in TypeScript – and it got 3x Faster",
+      "url": "https://www.openui.com/blog/rust-wasm-parser",
+      "summary": "openui-langのパーサをRust→WASMで実装したが、実行自体は高速でもJS↔WASMの境界コスト（文字列コピーとJSONのシリアライズ/デシリアライズ）がレイテンシを支配。全6段階のパイプラインは毎チャンク実行されるため問題になり、JSON往復を避けるためserde-wasm-bindgenでJsValueを直接返す試みを行った。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-20T21:48:06.000Z",
+      "contentHash": "91f3f04f2888"
+    },
+    {
+      "id": "d4108b708f72",
+      "title": "OpenCode – Open source AI coding agent",
+      "url": "https://opencode.ai/",
+      "summary": "OpenCodeはターミナル/IDE/デスクトップで動くオープンソースのAIコーディングエージェント。LSP自動設定、マルチセッション、セッション共有、75以上のLLM対応（Copilot/ChatGPT等）、コードを保存しないプライバシー重視。GitHubで12万星、月500万開発者が利用。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-20T21:03:52.000Z",
+      "contentHash": "98897f8f3fb0"
+    },
+    {
+      "id": "604499d6226c",
+      "title": "A Japanese glossary of chopsticks faux pas",
+      "url": "https://www.nippon.com/en/japan-data/h01362/",
+      "summary": "日本の箸マナー（嫌い箸）を解説。口より高く上げる、汁で洗う、箸で食べ物を渡す（葬儀の骨拾いに由来する大禁忌）、皿を偏って使う、戻す、拝み箸、押し込み、落とす、逆さ箸など避けるべき行為を列挙。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-20T20:54:57.000Z",
+      "contentHash": "b499a987d059"
+    },
+    {
+      "id": "6eb9a0ad2978",
+      "title": "The bespoke software revolution? I'm not buying it",
+      "url": "https://world.hey.com/jason/the-bespoke-software-revolution-i-m-not-buying-it-4bfad9ec",
+      "summary": "オーダーメイドソフトは既に存在し、多くは冗長で使いにくい。開発者だけが期待するが、実務者は維持管理したくない。AIで利便性は上がっても、誰もが作り手になるわけではない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-20T20:25:23.000Z",
+      "contentHash": "b8d57dfcf141"
+    },
+    {
+      "id": "90f335cdc9aa",
+      "title": "A new Nintendo Switch 2 could be the poster child for replaceable batteries",
+      "url": "https://www.theverge.com/games/898313/nintendo-switch-2-eu-replaceable-battery",
+      "summary": "日経報道によれば、任天堂はEU向けにバッテリーをユーザーで交換できるSwitch 2改良版を近く発売。現行は電池が接着式で、EUの2027年2月施行規則に対応。Joy‑Conも交換可。日本版は仕様変更なし。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-20T19:59:05.000Z",
+      "contentHash": "04e0bd4e29e0"
+    },
+    {
+      "id": "bcb1931ce2f7",
+      "title": "Future Sony PlayStation games will use AI to imagine new frames",
+      "url": "https://www.theverge.com/news/898283/future-sony-playstation-games-will-use-ai-to-imagine-new-frames",
+      "summary": "PlayStationの主任設計者マーク・セルニーは、機械学習によるフレーム生成を今後のPlayStationで導入すると発表。実フレーム間にAIが新フレームを挿入して映像を滑らかにするが遅延の可能性があり、PS5 Proか次世代PS6での対応かは未定。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-20T19:46:23.000Z",
+      "contentHash": "7c63f7867f01"
+    },
+    {
+      "id": "4034b85426b7",
+      "title": "Our commitment to Windows quality",
+      "url": "https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/",
+      "summary": "Windows品質向上の取り組みを発表。Insider向けにタスクバーの上下左右移動やカスタマイズ強化、Copilot導線の整理、更新の柔軟化（セットアップで更新スキップ等）、ファイルエクスプローラー高速化などを導入予定。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-20T19:16:13.000Z",
+      "contentHash": "7dffb4086ec3"
+    },
+    {
+      "id": "50f985776d26",
+      "title": "Windows 11 is finally getting a movable taskbar",
+      "url": "https://www.theverge.com/tech/897849/microsoft-windows-11-taskbar-vertical-top-movable",
+      "summary": "マイクロソフトはWindows 11でタスクバーを上下左右に移動できる機能を再導入する。Insiderに数週間内、一般には今年後半に配信。パフォーマンス批判への対応で、小型タスクバーも後日選択可能。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-20T19:00:00.000Z",
+      "contentHash": "17ec1d01c0ed"
+    },
+    {
+      "id": "d971dc3fb520",
+      "title": "Microsoft is ending the Windows Update nightmare — and letting you pause them indefinitely",
+      "url": "https://www.theverge.com/tech/898082/microsoft-promises-to-end-forced-windows-updates-still-automatic",
+      "summary": "マイクロソフトはWindows Updateを見直し、更新を無期限で一時停止できるなど利用者の制御を取り戻すと表明。自動更新での強制再起動や不要アプリ導入、バグ多発で失った信頼回復が狙い。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-20T19:00:00.000Z",
+      "contentHash": "9fd8bbea46d2"
+    },
+    {
+      "id": "f5503491ca28",
+      "title": "This is Microsoft&#8217;s plan to fix Windows 11",
+      "url": "https://www.theverge.com/news/897834/microsoft-windows-11-quality-performance-commitments-changes",
+      "summary": "マイクロソフトはWindows 11の信頼回復のため、性能・信頼性・体験を改善する計画を発表。パバン・ダヴルリ氏は初回改善を3〜4月にプレビューするとし、タスクバーを上や側面に移動可能にするなど不要な変更や煩わしさを削減すると述べた。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-20T18:56:15.000Z",
+      "contentHash": "38ddbec03b1a"
+    },
+    {
+      "id": "ecadf5520e69",
+      "title": "Attention Residuals",
+      "url": "https://github.com/MoonshotAI/Attention-Residuals",
+      "summary": "Attention Residuals（AttnRes）は、Transformerの固定重み残差を各層の学習済み疑似クエリによる過去出力へのソフトマックス注意で置換し、寄与の希薄化と隠れ状態の発散を抑える手法。Fullは高メモリだが、層をブロック化するBlock AttnResはメモリを削減しつつ大半の改善を維持（約8ブロックで実用的）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-20T18:23:41.000Z",
+      "contentHash": "007c336d2479"
+    },
+    {
+      "id": "f53cfbb8fe5a",
+      "title": "BYD is seeing a flood of new EV buyers",
+      "url": "https://electrek.co/2026/03/20/byd-ev-demand-surges-drivers-ditch-gas-amid-rising-oil-prices/",
+      "summary": "報道によれば、テスラは米国での100GW規模の太陽光導入を目指し、中国製の太陽光設備を約29億ドル分購入する協議を進めている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-20T18:19:58.000Z",
+      "contentHash": "0c961032d21c"
+    },
+    {
+      "id": "61733052f20f",
+      "title": "Trump takes another shot at dismantling state AI regulation",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/898055/trump-new-ai-policy-framework",
+      "summary": "トランプ政権はAI規制の7項目案を発表。児童保護は強化する一方、州独自の規制を禁じて国家のAI競争優先を主張。電力負担対策や若年層の技能育成を促し、著作物による学習は当面様子見とする。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-20T18:17:02.000Z",
+      "contentHash": "e9fde723b42a"
+    },
+    {
+      "id": "daa3c4657d99",
+      "title": "These electronic Polaroids are powered by your phone’s NFC chip",
+      "url": "https://www.theverge.com/tech/898162/vidabay-classic-plus-nfc-e-ink-fridge-magnet",
+      "summary": "VidaBayの「Classic Plus NFC E-Ink Fridge Magnet」はポラロイド風のカラーE Ink冷蔵庫マグネット。バッテリー不要でスマホのNFC経由で写真を更新し、表示は更新時のみ電力を消費。単品約30ドル、3個セット約87ドル。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-20T18:05:07.000Z",
+      "contentHash": "ff35d804e115"
+    },
+    {
+      "id": "0659f3f76c61",
+      "title": "Nine months later, the Trump phone still doesn’t exist",
+      "url": "https://www.theverge.com/tech/898110/trump-phone-t1-release-certification",
+      "summary": "トランプ・フォンは発売から9か月経っても実物の確認なし。記者は2月に関係者からビデオで「T1」を見せられ、数週間内の仕様公開やT‑Mobile認証を約束されたが、現在も情報更新はなく連絡も途絶えている。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-20T17:46:49.000Z",
+      "contentHash": "a4130135b89d"
+    },
+    {
+      "id": "c9ea4dc78af9",
+      "title": "正規のIntune経由でデータをワイプする攻撃が起きたため、Intuneの存在が攻撃面になってしまった | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/regular-intune-wipe-attack/",
+      "summary": "米医療機器大手Strykerがサイバー攻撃を受け、攻撃者がMicrosoft Intuneの正規ワイプ機能を悪用して多数端末を初期化。ランサム等の兆候は未確認。CISAは設定強化を緊急勧告し、RBAC最小権限・フィッシング耐性MFA・多管理者承認を優先。Intune導入企業は管理プレーンを攻撃面と想定し設定監査と端末バックアップ導入を検討すべき。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-20T17:10:00.000Z",
+      "contentHash": "82852904accb"
+    },
+    {
+      "id": "f244b0717e73",
+      "title": "MacBook M5 Pro and Qwen3.5 = Local AI Security System",
+      "url": "https://www.sharpai.org/benchmark/",
+      "summary": "HomeSec-Bench（96テスト/15スイート）で、MacBook Pro M5上のQwen3.5-9Bがローカル実行で93.8%を達成。GPT-5.4の97.9%に約4ポイント差。25 tok/s、13.8GB使用、API不要で完全ローカル動作。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-20T16:41:42.000Z",
+      "contentHash": "9156875224c5"
+    },
+    {
+      "id": "0eb2d45d5e01",
+      "title": "90% of crypto's Illinois primary spending failed to achieve its objective",
+      "url": "https://www.mollywhite.net/micro/entry/202603172318",
+      "summary": "暗号通貨系スーパーPACがイリノイ州予備選に1,420万ドル投入したが、90%（1,280万ドル）は無駄に。Fairshakeはストラットンに1,000万、フォードに250万を反対支出したが両者が勝利。勝利は既に有力な候補への支援のみで、支出は保有資金の6%未満、今後さらに大量投入の可能性あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-20T16:34:04.000Z",
+      "contentHash": "e7a86197d547"
+    },
     {
       "id": "3267af222c6a",
       "title": "Oregon school cell phone ban: 'Engaged students, joyful teachers'",
@@ -99,6 +288,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-03-20T13:23:56.000Z",
       "contentHash": "8334584342fd"
+    },
+    {
+      "id": "d103a8fde4d6",
+      "title": "楽しくなってきたので、Claude Codeで、気分でspinnerVerbsを設定できるカスタムスラッシュコマンドを・・・ | ちゅらデータ株式会社のフィード",
+      "url": "https://zenn.dev/churadata/articles/7110f0aca0858a",
+      "summary": "ちゅらデータの田代学がClaude Codeで、自然言語入力でSpinner Verbsを気分ごとに設定するカスタムスラッシュコマンドを作成。ジョジョやジブリ、ネットミームやSnowflakeのTips（--longモードあり）など遊びと実用で使え、簡単に切替／元に戻すことが可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-20T13:00:05.000Z",
+      "contentHash": "f4c5db1f9d86"
     },
     {
       "id": "d3e8bd701101",
@@ -257,19 +455,19 @@
       "id": "f7ae0da63be4",
       "title": "RAGの検索精度を爆上げする「インデックス最適化」3選：MultiVector, RAPTOR, ColBERTを徹底比較 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/c8c88d40e0495b",
-      "summary": "Naive RAGの限界を指摘し、インデックス工夫で精度を高める3手法（MultiVectorRetriever、RAPTOR、ColBERT）の仕組み・適用場面・実装コストや難易度比較、選定基準をわかりやすく解説。",
+      "summary": "RAGの検索精度を上げる3つのインデックス最適化を解説。MultiVectorは要約・想定質問・小チャンクを複数ベクトル化し実装容易、RAPTORは階層的要約で大文書に強く、ColBERTは単語単位ベクトルで高精度だがコストと複雑度が高い。用途別の比較と実装コスト指針を提示。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-19T22:56:32.000Z",
-      "contentHash": "b6972b45a98e"
+      "contentHash": "07a0fdeb3021"
     },
     {
       "id": "752794e73e91",
       "title": "Google AI Studio のフルスタックバイブコーディング機能の概要",
       "url": "https://note.com/npaka/n/n77bf70d9b349",
-      "summary": "Google AI Studioのバイブコーディングが強化され、プロンプトから本番アプリへ即変換可能に。マルチプレイヤー、外部ライブラリ、進捗保存、FirebaseでのDB/認証、シークレット管理、セッション復帰、強化エージェント、Next.js対応で、リアルタイムゲームや協業、実世界サービス連携が容易に構築可能。",
+      "summary": "Google AI Studioがバイブコーディングを刷新。プロンプトから本番アプリへ即変換でき、マルチプレイヤーや外部ライブラリ導入、進捗保存、セキュアログイン、Firebase（Firestore/認証）連携、シークレット管理、セッション復帰、強化エージェント、Next.js対応で、Three.js等を使ったゲームやリアルタイム協業の開発が容易に。",
       "source": "npaka",
       "publishedAt": "2026-03-19T22:14:29.000Z",
-      "contentHash": "40c83b1761ce"
+      "contentHash": "36c5364a9f2b"
     },
     {
       "id": "ca3ecd33c923",
@@ -482,10 +680,10 @@
       "id": "fa6706665f61",
       "title": "年間487件・276時間の本番保守作業の実態と機能化による改善 | BABY JOB  テックブログのフィード",
       "url": "https://zenn.dev/babyjob/articles/data-maintenance-function",
-      "summary": "BABY JOB開発部が、おむつサブスク「手ぶら登園」で常態化していたエンジニアによる直接SQL実行のデータメンテを定量化し、他部署を巻き込んで運用を機能化へ改善した過程と反省を紹介。",
+      "summary": "BABY JOB開発部は年間487件・276時間の本番データメンテを定量化し、優先度の高い作業から機能化を提案。結果、割り込み依頼を約50%削減、年間100時間超の工数削減、エンジニア負荷やCS対応速度が改善。ただし機能化後の利用者負担を軽視した点は反省。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-19T15:00:08.000Z",
-      "contentHash": "031e7e45145c"
+      "contentHash": "fa090db236e7"
     },
     {
       "id": "d745edbf029a",
@@ -572,10 +770,10 @@
       "id": "a37043031dc2",
       "title": "React Native開発が変わる。RozeniteでCoding Agentに「目と手」を与えた話 | テラーノベル テックブログのフィード",
       "url": "https://zenn.dev/tellernovel_inc/articles/bb27cd0f28f8cb",
-      "summary": "Rozeniteとagent-deviceでReact NativeのDevToolsをAIが直接操作可能に。エラーログ取得・スクショ・修正・動作確認や性能解析を自律で行い、これまでの人手による情報提供を不要にする取り組み。",
+      "summary": "Rozeniteとagent-deviceでCoding Agentにモバイルの「目と手」を与え、DevToolsやプラグイン経由でログ・スクショやパフォーマンス情報を取得・操作可能に。エラー取得→修正→検証を自律化し人手を削減する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-19T11:20:43.000Z",
-      "contentHash": "2538290f252e"
+      "contentHash": "df76c7a9a6ac"
     },
     {
       "id": "a4da19ec7d3d",
@@ -2678,10 +2876,10 @@
       "id": "2104f85638a9",
       "title": "Isaac Sim OmniGraph 入門",
       "url": "https://note.com/npaka/n/ncb37099dd155",
-      "summary": "Isaac Simの視覚的プログラミングOmniGraphの解説。ノード・ポート・接続で処理を組み、Action GraphでJetbotをノード配置・設定して制御する手順を示す（コード不要、ROS連携可）。",
+      "summary": "NVIDIA Isaac Simのビジュアルプログラミング機能OmniGraphを解説。ノード・ポート・接続でロボット制御・センサー・ROS2等の処理フローを構築。Action Graphはイベント用で、Jetbotを例に環境準備、ノード配置（On Playback Tick等）、プロパティ設定、接続、再生によるシミュレーション実行手順を示す。",
       "source": "npaka",
       "publishedAt": "2026-03-16T09:41:39.000Z",
-      "contentHash": "2713ee0d02da"
+      "contentHash": "2fdc5b7aba28"
     },
     {
       "id": "256ea81987fc",
@@ -8802,204 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-03-01T15:00:00.000Z",
       "contentHash": "88525ba0db46"
-    },
-    {
-      "id": "295f8f63bc27",
-      "title": "Why XML tags are so fundamental to Claude",
-      "url": "https://glthr.com/XML-fundamental-to-Claude",
-      "summary": "申し訳ありませんが、外部サイトを直接閲覧できません。記事本文を貼り付けていただければ、200字以内で日本語要約します。HNコメントも要約希望なら一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-01T14:52:22.000Z",
-      "contentHash": "ba13db58a1db"
-    },
-    {
-      "id": "3b459f3d53d4",
-      "title": "Honor claims its Robot Phone will launch later this year",
-      "url": "https://www.theverge.com/gadgets/887140/honor-robot-phone-mwc-release-date-specs",
-      "summary": "HonorはMWC 2026で「Robot Phone」を実機展示。背面に可動するジンバル式カメラアームを備え、メインは200MPセンサーで業界最小の4DoFジンバル。AIトラッキング搭載。発売は今年下半期（中国中心）予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-01T14:22:27.000Z",
-      "contentHash": "102b9f348420"
-    },
-    {
-      "id": "c78f951385c1",
-      "title": "AI Made Writing Code Easier. It Made Being an Engineer Harder",
-      "url": "https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/",
-      "summary": "AIでコード作成は容易になったが、無言の期待値上昇でエンジニアの業務はより広範・高速・複雑になり、勤務時間も延び疲弊する。HBR研究がこの自己強化サイクルを示す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-01T14:09:24.000Z",
-      "contentHash": "951e275802d5"
-    },
-    {
-      "id": "7d6df8bebec8",
-      "title": "Ape Coding [fiction]",
-      "url": "https://rsaksida.com/blog/ape-coding/",
-      "summary": "Ape codingは人間が手でソースを手書きする開発手法。AIエージェント主導化で生まれた揶揄語を肯定的に再評価し、手作業の熟練や可読性を重視。AI生成コードは膨大で理解・テストが困難と批判される。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-01T14:07:05.000Z",
-      "contentHash": "8459475c88d3"
-    },
-    {
-      "id": "e771df8c292f",
-      "title": "AI is making junior devs useless",
-      "url": "https://beabetterdev.com/2026/03/01/ai-is-making-junior-devs-useless/",
-      "summary": "LLMでコードが簡単に書ける今、初心者は「浅い習熟」で実務経験や失敗から得る直感を積めず、コードの意図を説明できない危険がある。熟練者は失敗経験から得た洞察が価値。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-01T13:49:21.000Z",
-      "contentHash": "194c90084da5"
-    },
-    {
-      "id": "89155799bbfe",
-      "title": "Resident Evil Requiem leans too much on the series’ past",
-      "url": "https://www.theverge.com/games/885811/resident-evil-requiem-grace-leon-nostalgia-ending",
-      "summary": "『Resident Evil Requiem』はシリーズ30周年の最新作で、序盤は限定装備の新主人公グレースによる新鮮なホラーが魅力。しかし中盤以降は過去作への依存が強まり、グレースよりもレオンに焦点が移ってしまう点が惜しい。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-01T13:00:00.000Z",
-      "contentHash": "90518d29d54a"
-    },
-    {
-      "id": "184df981f511",
-      "title": "How MLB can make baseball relevant on a fast-changing internet",
-      "url": "https://www.theverge.com/column/886115/how-mlb-can-make-baseball-relevant-on-a-fast-changing-internet",
-      "summary": "MLBはインターネットの急速な変化の中で若年層の関心を取り戻すため、バイラル化を重視して注目経済に全力で取り組んでいる。野球衰退論は百年続くテーマだが、現代版の対応が焦点だ。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-01T13:00:00.000Z",
-      "contentHash": "e19e4c134624"
-    },
-    {
-      "id": "93e8f8e7b5b4",
-      "title": "Meta won’t let morality get in the way of a product launch",
-      "url": "https://www.theverge.com/policy/886348/meta-glasses-ice-doxxing-privacy",
-      "summary": "サラ・ジョングは、Metaが道徳的懸念を顧みず製品ローンチを優先し、顔認識など監視技術を推進していると批判。ICEなど捜査機関との関係や市民のプライバシー軽視を問題視する。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-01T13:00:00.000Z",
-      "contentHash": "8ec2740c04b2"
-    },
-    {
-      "id": "f64551377e6a",
-      "title": "Honor’s Magic V6 is the first foldable with an IP69 rating",
-      "url": "https://www.theverge.com/tech/887104/honor-magic-v6-thinnest-battery-launch-mwc",
-      "summary": "HonorはMWCで折りたたみスマホMagic V6を発表。世界最薄のブック型折りたたみで折り畳み最大バッテリーを搭載し、初のIP69防水。中国は今月発売、国際版は後半、価格未定。筆者は試用済み。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-01T13:00:00.000Z",
-      "contentHash": "ca50e994e960"
-    },
-    {
-      "id": "7a2886d53de6",
-      "title": "Ghostty – Terminal Emulator",
-      "url": "https://ghostty.org/docs",
-      "summary": "Ghosttyは高速でクロスプラットフォームな端末エミュレータ。ネイティブUIとGPU加速を用い、初期設定不要で起動可能。macOS用バイナリやLinux向けパッケージ/ソースを提供。カスタムキー割当、数百のカラーテーマ、多数の設定、VT端末APIを備え、GitHubで編集可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-01T12:13:03.000Z",
-      "contentHash": "6e53659b7b64"
-    },
-    {
-      "id": "0fd9e867528e",
-      "title": "I built a demo of what AI chat will look like when it's \"free\" and ad-supported",
-      "url": "https://99helpers.com/tools/ad-supported-chat",
-      "summary": "広告だらけのAIチャットを風刺した実演デモ。バナー、全画面、スポンサード回答、フリーミアムなど多様な収益手法と架空ブランドの宣伝を再現。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-01T11:49:01.000Z",
-      "contentHash": "e342ee6562f1"
-    },
-    {
-      "id": "67078987377b",
-      "title": "Decision trees – the unreasonable power of nested decision rules",
-      "url": "https://mlu-explain.github.io/decision-tree/",
-      "summary": "幹径と高さで樹種を判定する例を通し、決定木は閾値で領域を分割して分類するが、深くし過ぎると訓練データのノイズを学習して過学習になり、バイアス・分散のトレードオフが生じる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-01T08:55:52.000Z",
-      "contentHash": "51284ad9bf78"
-    },
-    {
-      "id": "ac69b53d7cc0",
-      "title": "【2026/2/22〜28】Claude Code更新情報 Remote Control登場・Auto-Memory追加 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/03/01/170000",
-      "summary": "Claude Code（v2.1.51→v2.1.63）でRemote Control登場、ローカルセッションをスマホやブラウザで操作可能に。Auto‑Memoryでプロジェクト文脈を自動記憶。/simplify、/batch、/copy強化やZDRドキュメント追加など開発向け機能が多数追加。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-01T08:00:00.000Z",
-      "contentHash": "eed770e9b56a"
-    },
-    {
-      "id": "bf2c7ea48283",
-      "title": "10-202: Introduction to Modern AI (CMU)",
-      "url": "https://modernaicourse.org",
-      "summary": "本講義はChatGPT等の機械学習と大規模言語モデル（LLM）を中心に、教師あり学習・LLM・事後調整の基礎を学び、数百行のコードで動く最小限のAIチャットボットを実装・学習する。課題はmugrade提出で授業版は解答配布。初開講は2026年春。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-01T07:35:03.000Z",
-      "contentHash": "0f45a06223d5"
-    },
-    {
-      "id": "4c71985d77fa",
-      "title": "Samsung Galaxy update removes Android recovery menu tools, including sideloading",
-      "url": "https://9to5google.com/2026/02/27/samsung-galaxy-update-android-recovery-menu-removed/",
-      "summary": "その記事の本文かURLを送ってください。受け取れば200文字以内で日本語に要約します。必要なら簡潔／技術寄り／一般向けなどトーンも教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-01T01:59:00.000Z",
-      "contentHash": "1e882f8c3289"
-    },
-    {
-      "id": "7d3348d200b0",
-      "title": "NVIDIA Brev で Isaac Lib x Isaac Sim を試す",
-      "url": "https://note.com/npaka/n/n8acd18865d8c",
-      "summary": "NVIDIA BrevでIsaac Lib×Isaac Simを試した手順。Brevはテンプレートで数分でGPU環境を構築でき、Isaac LaunchableをDeploy→brev CLI/VSCodeで接続→dockerでIsaac Sim起動・nvidia-smiで動作確認まで解説。",
-      "source": "npaka",
-      "publishedAt": "2026-03-01T01:43:20.000Z",
-      "contentHash": "72cab8d24601"
-    },
-    {
-      "id": "1f18d6b68cfa",
-      "title": "Microgpt",
-      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
-      "summary": "Karpathyのmicrogptは200行の純Python単一ファイルで、トークナイザ、オートグラド、GPT風ネットワーク、Adam最適化、学習・推論を含む最小限のGPT実装。GitHub/ページ/Colabで公開、約3.2万件の名前データで動作例を示す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-01T01:39:26.000Z",
-      "contentHash": "eba2c0fca58d"
-    },
-    {
-      "id": "b49cceda55e1",
-      "title": "Pentagon chief blocks officers from Ivy League schools and top universities",
-      "url": "https://fortune.com/2026/02/28/pentagon-officer-education-ivy-league-schools-universities-partners-ai-space/",
-      "summary": "米国防長官ピート・ヘグセスは、2026年度以降の将校向け軍事教育提携校を見直し、ハーバード、イェール、MIT、カーネギーメロンなど主要大学を除外、代わりにリバティ大やジョージメイソン大等を候補に挙げ、「反米的で戦闘力強化を阻む」学校には投資しないと表明した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-28T23:51:04.000Z",
-      "contentHash": "d845914005e4"
-    },
-    {
-      "id": "600a340c8d7b",
-      "title": "【AKS】 Ingress NGINXからNGINX Gateway Fabricへの乗り換え記 | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/03/01/083000",
-      "summary": "Ingress NGINXの廃止（2026年3月）に伴い、AKSでGateway API対応のNGINX Gateway Fabricに移行。理由はService Mesh過剰でNGINX慣れ、対象はargocd-server、Gateway API CRD導入後HelmでNGF(v2.4.2)をインストールし証明書生成を有効化。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-02-28T23:30:00.000Z",
-      "contentHash": "2eb225448613"
-    },
-    {
-      "id": "648c2305e069",
-      "title": "The Windows 95 user interface: A case study in usability engineering (1996)",
-      "url": "https://dl.acm.org/doi/fullHtml/10.1145/238386.238611",
-      "summary": "エリック・S・レイモンドの論考。集中管理型の「カテドラル」と対照して、頻繁に公開・更新しユーザを共開発者に巻き込む「バザール」式オープン開発を支持し、「多くの目があればバグは浅い（Linusの法則）」など実践的教訓を示す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-02-28T22:19:36.000Z",
-      "contentHash": "7011df3057dd"
-    },
-    {
-      "id": "2d94b4bc7291",
-      "title": "HumanoidBench が提供する27種類のタスクの概要",
-      "url": "https://note.com/npaka/n/n2eb2a29e6f36",
-      "summary": "HumanoidBenchは高自由度ヒューマノイド向けMuJoCoベースの学習ベンチマーク。Unitree H1等に対応し、視覚・触覚を含む観測で高速・安全・低コストに実験可能。27タスク（移動12、全身操作15）で制御手法を標準評価。",
-      "source": "npaka",
-      "publishedAt": "2026-02-28T21:07:41.000Z",
-      "contentHash": "9cc9da78a397"
-    },
-    {
-      "id": "500c4cbabc4f",
-      "title": "Polymarket defends its decision to allow betting on war as ‘invaluable’",
-      "url": "https://www.theverge.com/tech/887040/polymarket-iran-war-betting-invaluable",
-      "summary": "予測市場Polymarketが米国の対イラン攻撃時期を賭けの対象にして批判を浴びた。実際の攻撃で死者が出る中、運営は市場を「貴重」と擁護し、既存メディアやXを批判した。",
-      "source": "The Verge",
-      "publishedAt": "2026-02-28T20:46:35.000Z",
-      "contentHash": "25b9be1e31eb"
     }
   ]
 }
