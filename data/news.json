@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-03-22T03:04:24.818Z",
+  "generatedAt": "2026-03-22T09:01:51.512Z",
   "items": [
+    {
+      "id": "d9b793bf697a",
+      "title": "RLT の概要",
+      "url": "https://note.com/npaka/n/n32e2b2186b62",
+      "summary": "RLTはVLAの内部表現をencoder-decoderで圧縮した小さな「RL token」を作り、それを入力に軽量なオンラインRLポリシーで精密操作の難所だけを高速適応・編集する手法。action chunkを予測してVLAの行動を編集する。",
+      "source": "npaka",
+      "publishedAt": "2026-03-22T06:05:06.000Z",
+      "contentHash": "bf304cea4a4f"
+    },
+    {
+      "id": "7b4692b80b4a",
+      "title": "Cloudflare flags archive.today as \"C&C/Botnet\"; no longer resolves via 1.1.1.2",
+      "url": "https://radar.cloudflare.com/domains/domain/archive.today",
+      "summary": "申し訳ありませんが、外部サイトへアクセスできないため直接記事を取得できません。記事本文か重要な抜粋をここに貼り付けていただければ、200文字以内で日本語要約を作成します。HNコメントも一緒に貼っていただければ同様に要約可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-22T03:43:51.000Z",
+      "contentHash": "6fb91b478dce"
+    },
+    {
+      "id": "aa59f92da32d",
+      "title": "The three pillars of JavaScript bloat",
+      "url": "https://43081j.com/2026/03/three-pillars-of-javascript-bloat",
+      "summary": "記事はnpm依存の肥大化を論じ、e18eコミュニティのクリーンアップを紹介。肥大化の主因を三つに分類：古いランタイム対応（ポリフィル）、グローバル汚染防御、クロスレルム対応。対策の必要性を指摘。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-22T02:04:31.000Z",
+      "contentHash": "f5e04ac1a0b9"
+    },
+    {
+      "id": "6e03600f1340",
+      "title": "Floci – A free, open-source local AWS emulator",
+      "url": "https://github.com/hectorvent/floci",
+      "summary": "Flociは無料のオープンソースなローカルAWSエミュレータ。LocalStackのCommunity版が制限される中、認証不要でCI対応、軽量・高速、S3/DynamoDB等多数サービスをDockerで即利用可能、既存SDKと互換。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-21T21:49:15.000Z",
+      "contentHash": "04dbd652c89d"
+    },
     {
       "id": "7fc694dbaf4c",
       "title": "Professional video editing, right in the browser with WebGPU and WASM",
@@ -30,7 +66,7 @@
     },
     {
       "id": "a981fc3af5d1",
-      "title": "Tinybox – Offline AI device 120B parameters",
+      "title": "Tinybox – A powerful computer for deep learning",
       "url": "https://tinygrad.org/#tinybox",
       "summary": "私たちはtinygradを開発・維持している。極めてシンプルで複雑なニューラルネットを3つのOpTypeに分解する。CONVやMATMULの扱いはコードを見れば分かる。tinybox（赤・緑・まもなくexa）を販売。",
       "source": "Hacker News",
@@ -50,10 +86,19 @@
       "id": "06029de3439a",
       "title": "NHI（Non-Human Identity）管理が一気に立ち上がってきた件 | CloudNative BLOGs",
       "url": "https://blog.cloudnative.co.jp/articles/nhi-non-human-identity-management/",
-      "summary": "マシン等の非人間アイデンティティ（NHI）は企業で人間比82:1と急増し可視化・統制が追いつかない。OasisやVeza等への投資やCyberArkのVenafi買収が進み、AI時代でNHI管理がゼロトラストの次の主戦場になりつつある。",
+      "summary": "企業のマシン（NHI）IDは人間の約82倍に達し可視化・統制が追いつかず、AIエージェント時代でゼロトラストの最重要課題に。NHI専業スタートアップや既存ベンダーへの投資・買収が急増し市場が拡大している。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-21T19:16:00.000Z",
-      "contentHash": "1044fa13cb63"
+      "contentHash": "fd24dbe41184"
+    },
+    {
+      "id": "218b1e7c6c83",
+      "title": "Show HN: Termcraft – terminal-first 2D sandbox survival in Rust",
+      "url": "https://github.com/pagel-s/termcraft",
+      "summary": "termcraftはRust製の端末専用2Dサンドボックス生存ゲーム（非公式ファン作、初期アルファ）。初期のブロック生存ループを側面表示の端末で再現し、地上／ネザー／エンド生成、採掘・配置・クラフト・精錬・醸造・農業・モンスター・村やダンジョンなど多機能を搭載。Rust環境でgitからビルドして実行。操作はWASDや矢印、マウス等。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-21T18:42:38.000Z",
+      "contentHash": "6772e05bf1d7"
     },
     {
       "id": "a6c44916994c",
@@ -239,10 +284,10 @@
       "id": "3cf5b5103cc7",
       "title": "HuggingFace Diffusers v0.37.0の新機能",
       "url": "https://note.com/npaka/n/n70eba03fe869",
-      "summary": "v0.37.0では再利用可能ブロックで柔軟に拡張できるModular Diffusersを導入。Z‑Image、FLUX.2 Klein、Qwen‑Image‑Layered、Fibo Edit、Cosmos2.5系、GLM‑Image、RAE、音声同期TX‑2など多数の新モデルとパイプラインを追加。",
+      "summary": "Diffusers v0.37.0は、再利用可能ブロックで柔軟にパイプラインを組むModular Diffusersを導入。高品質Z-Image、低遅延FLUX.2 Klein、レイヤー編集Qwen-Image-Layered、決定論的FIBO Edit、Cosmos系世界生成、GLM-Image、RAE、音声同期Text-to-VideoのTX-2など多彩な新モデルを追加しました。",
       "source": "npaka",
       "publishedAt": "2026-03-21T07:01:02.000Z",
-      "contentHash": "44168ba7d115"
+      "contentHash": "8c9724779fc2"
     },
     {
       "id": "3f3b32c560b4",
@@ -257,10 +302,10 @@
       "id": "5e137ac5dddc",
       "title": "Isaac Sim のバックエンド PhysX と Newton の違い",
       "url": "https://note.com/npaka/n/nbba95f5055c2",
-      "summary": "Isaac Simの物理バックエンドは従来の安定版PhysXと、研究・学習向けの新しいNewtonに分かれる。PhysXは既存資産や安定性重視、NewtonはGPU活用・微分可能性・接触リッチな学習や研究向け。現状はPhysX推奨だがNewtonは将来重要。",
+      "summary": "Isaac Simの物理バックエンドは、安定性と既存資産との相性が強みの従来型PhysXと、GPU活用や微分可能性、接触リッチなロボット学習に強い新型Newtonがあり、現状はPhysXが主流だが研究・学習用途ではNewtonが注目されている、という違い。",
       "source": "npaka",
       "publishedAt": "2026-03-21T04:10:33.000Z",
-      "contentHash": "8a0dda6d439c"
+      "contentHash": "6d95caa4c3c7"
     },
     {
       "id": "459def28a21b",
@@ -761,10 +806,10 @@
       "id": "752794e73e91",
       "title": "Google AI Studio のフルスタックバイブコーディング機能の概要",
       "url": "https://note.com/npaka/n/n77bf70d9b349",
-      "summary": "Google AI Studio がフルスタックの「vibe coding」を強化。プロンプトから本番アプリへ即変換でき、マルチプレイヤー、外部ライブラリ、進捗保存、FirebaseによるDB・認証統合、シークレット管理、セッション再開、強化エージェント、Next.js対応でリアルタイムゲームや3Dコラボ等を容易に構築可能。",
+      "summary": "Google AI Studioがフルスタックのバイブコーディングを強化。プロンプトから本番アプリ化する「Antigravity」やFirebase統合、マルチプレイヤー、外部ライブラリ導入、進捗保存、シークレット管理、セッション再開、Next.js対応でリアルタイムゲームやコラボ、外部サービス連携が容易に。",
       "source": "npaka",
       "publishedAt": "2026-03-19T22:14:29.000Z",
-      "contentHash": "005e857827a2"
+      "contentHash": "8204597c370b"
     },
     {
       "id": "ca3ecd33c923",
@@ -1994,10 +2039,10 @@
       "id": "d5d810c9907f",
       "title": "Codex Subagents 入門",
       "url": "https://note.com/npaka/n/n7436ccc91114",
-      "summary": "Codexのサブエージェントは、親エージェントがタスクを分割して起動する補助AI。明示的に要求した場合のみ生成され、並列実行で高速化・コンテキスト分離を実現するが、トークン消費は増える。",
+      "summary": "「サブエージェント」は親エージェントがタスクを委任する補助エージェントで、Codexは生成・割当・結果回収を管理するが明示的指示がない限り自動生成しない。並列処理とコンテキスト分離で高速化する一方、各エージェントのモデル・ツールによりトークン消費は増える。",
       "source": "npaka",
       "publishedAt": "2026-03-18T01:14:13.000Z",
-      "contentHash": "e51e384a89a7"
+      "contentHash": "bf887bb4108b"
     },
     {
       "id": "ae67189017e0",
@@ -2084,10 +2129,10 @@
       "id": "a7ed7a2fb262",
       "title": "Codex Skills 入門",
       "url": "https://note.com/npaka/n/nfaa42624abd7",
-      "summary": "Codex Skillsは、作業手順やルール（指示・スクリプト・リソース）をモジュール化してAIに教える仕組み。品質安定やプロンプト短縮、チーム基準の適用が可能。Codex appで作成・管理し、必要時に自動読み込みする（例：日本語挨拶スキル）。",
+      "summary": "Codex SkillsはAIエージェントに作業手順や規則（指示・スクリプト・リソース）をモジュール化して教える仕組み。品質安定、プロンプト短縮、チーム規約の適用が可能で、Codex appで簡単にスキル作成（例：挨拶応答スキル）。",
       "source": "npaka",
       "publishedAt": "2026-03-17T23:47:16.000Z",
-      "contentHash": "701f0353cfa8"
+      "contentHash": "1bcd5d444645"
     },
     {
       "id": "28b1917d1690",
@@ -8955,51 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-03-02T15:57:21.000Z",
       "contentHash": "6e34a4c4e02d"
-    },
-    {
-      "id": "c2b1cc7fd311",
-      "title": "Felix \"fx\" Lindner has died",
-      "url": "https://blog.recurity-labs.com/2026-03-02/Farewell_Felix",
-      "summary": "申し訳ありませんが外部サイトにアクセスできません。記事本文を貼るか要点を教えてください。HNコメントも要約するか指示ください。200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-02T15:53:23.000Z",
-      "contentHash": "5ddf905c5a26"
-    },
-    {
-      "id": "a7dab2bc8c4a",
-      "title": "Investigating the 61-pound machine that eats plastic and spits out bricks",
-      "url": "https://www.theverge.com/science/887063/clear-drop-review-soft-plastic-compactor-recycling-downcycling",
-      "summary": "Clear Dropの61ポンドの「ソフトプラスチック圧縮機」は、買い物袋や食品包装などの再利用困難な軟質プラを3ポンドのレンガに圧縮して郵送回収できると謳うが、著者は実際の手間や課題があり「簡単ではない」と指摘する。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-02T15:00:00.000Z",
-      "contentHash": "07c8785cf41d"
-    },
-    {
-      "id": "d49a1bee7560",
-      "title": "Zillow&#8217;s CEO on growing the company during a housing crisis",
-      "url": "https://www.theverge.com/podcast/887414/zillow-jeremy-wacksman-interview-ai-slop-housing-crisis",
-      "summary": "ZillowのCEOジェレミー・ワックスマンが、住宅危機下での同社成長、住宅の手頃さ、リスティングへのAI導入、MLSなどデータベースとアプリの関係、今後の不動産市場の展望を語る。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-02T15:00:00.000Z",
-      "contentHash": "632c80a77bc2"
-    },
-    {
-      "id": "1584fac7618e",
-      "title": "Apple announces the iPhone 17E",
-      "url": "https://www.theverge.com/tech/886476/apple-iphone-march-2026",
-      "summary": "Appleは新型エントリーモデルiPhone 17Eを発表。価格は$599からで容量は256GB（黒・白・ピンク）。6.1インチCeramic Shield 2、A19チップ、MagSafe（Qi2/15W）、高速C1Xモデム、48MPフュージョンカメラを搭載。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-02T14:04:43.000Z",
-      "contentHash": "dc23f4a9c1fb"
-    },
-    {
-      "id": "3a1eed4b113a",
-      "title": "Apple launches a new iPad Air with an upgraded M4 processor",
-      "url": "https://www.theverge.com/tech/886433/apple-ipad-air-2026-launch-price-specs-availability",
-      "summary": "AppleがM4搭載の新しいiPad Airを発表。M3比で最大30%高速化し、N1チップでWi‑Fi 7・Bluetooth 6・Threadに対応。セルラーモデルはC1Xモデムで最大50%高速な通信を実現。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-02T14:00:00.000Z",
-      "contentHash": "c5af7ca7f633"
     }
   ]
 }
