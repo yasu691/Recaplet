@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-03-21T16:58:09.318Z",
+  "generatedAt": "2026-03-22T03:04:24.818Z",
   "items": [
+    {
+      "id": "7fc694dbaf4c",
+      "title": "Professional video editing, right in the browser with WebGPU and WASM",
+      "url": "https://tooscut.app/",
+      "summary": "WebGPUとRust/WASMで動くブラウザ完結のプロ向け動画編集。GPU合成でほぼネイティブなリアルタイムプレビュー／書き出し、無制限トラック、ベジェ鍵フレーム、明暗・彩度・ブラー等のGPU効果。ファイルはローカル保存。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-21T21:27:50.000Z",
+      "contentHash": "c433d5cac77f"
+    },
+    {
+      "id": "91a14a012f3f",
+      "title": "Halide co-founder is suing former partner for bringing source code to Apple",
+      "url": "https://www.theverge.com/business/898687/halide-lawsuit-co-founder-apple",
+      "summary": "Halide開発元Luxの共同創業者ベン・サンドフスキーが、元共同創業者セバスティアン・デ・ウィットを提訴。訴状は、同氏が2025年12月に解雇される前に企業資金15万ドル超を私的流用し、HalideのソースコードをAppleに持ち込んだと主張する。デ・ウィットはその後Appleに入社している。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-21T21:02:56.000Z",
+      "contentHash": "4230ccb80649"
+    },
+    {
+      "id": "b34c69c42f6d",
+      "title": "Do Not Turn Child Protection into Internet Access Control",
+      "url": "https://news.dyne.org/child-protection-is-not-access-control/",
+      "summary": "記事は、年齢確認がSNSやメッセージ、検索など主流サービスへ広がり、インターネットを開放から許可制に変える危険を指摘。OSレベルでの常時年齢ステータス化やsystemdのbirthDate追加は、年齢認証が端末全体の身元レイヤー化し、監視や表現の自由、民主主義を損なう可能性があると警告する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-21T20:32:20.000Z",
+      "contentHash": "d0b25d73112d"
+    },
+    {
+      "id": "a981fc3af5d1",
+      "title": "Tinybox – Offline AI device 120B parameters",
+      "url": "https://tinygrad.org/#tinybox",
+      "summary": "私たちはtinygradを開発・維持している。極めてシンプルで複雑なニューラルネットを3つのOpTypeに分解する。CONVやMATMULの扱いはコードを見れば分かる。tinybox（赤・緑・まもなくexa）を販売。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-21T20:08:37.000Z",
+      "contentHash": "bfefabdcbe26"
+    },
+    {
+      "id": "0de2613fde09",
+      "title": "Study finds no evidence cannabis helps anxiety, depression, or PTSD",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260319044656.htm",
+      "summary": "シドニー大らのLancet掲載の大規模レビューで、医療用大麻は不安・うつ・PTSDに効果がなく、精神症状や依存リスクを高め、治療遅延の恐れがあると報告。不眠や自閉症には限定的弱証拠。使用増加で監視強化の声。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-21T20:05:58.000Z",
+      "contentHash": "637f3c232f76"
+    },
+    {
+      "id": "06029de3439a",
+      "title": "NHI（Non-Human Identity）管理が一気に立ち上がってきた件 | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/nhi-non-human-identity-management/",
+      "summary": "マシン等の非人間アイデンティティ（NHI）は企業で人間比82:1と急増し可視化・統制が追いつかない。OasisやVeza等への投資やCyberArkのVenafi買収が進み、AI時代でNHI管理がゼロトラストの次の主戦場になりつつある。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-21T19:16:00.000Z",
+      "contentHash": "1044fa13cb63"
+    },
+    {
+      "id": "a6c44916994c",
+      "title": "Passengers who refuse to use headphones can now be kicked off United flights",
+      "url": "https://www.cnn.com/2026/03/21/travel/travel-news-happiest-countries",
+      "summary": "ユナイテッド航空が機内で音声・映像を聴く際にヘッドホン未使用の乗客を搭乗拒否・降機対象に明記。FAAは昨年の乗客粗暴事案を1600件超と報告。世界幸福度報告ではフィンランドが9年連続首位（得点7.764）。旅行では航空運賃の上昇も予想される。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-21T17:52:51.000Z",
+      "contentHash": "3de60e0e7c49"
+    },
+    {
+      "id": "909cd73dc8e4",
+      "title": "Hide macOS Tahoe's Menu Icons",
+      "url": "https://512pixels.net/2026/03/hide-macos-tahoes-menu-icons-with-this-one-simple-trick/",
+      "summary": "macOS Tahoeのメニューに表示されるアイコンが煩わしい問題を、Steve Troughton‑Smithが見つけたTerminalコマンドで無効化できる：defaults write -g NSMenuEnableActionImages -bool NO。再起動で反映され、一部（ウィンドウ拡大等）は維持。著者はAppleに撤回や設定追加を求めている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-21T17:46:00.000Z",
+      "contentHash": "212120ee1b12"
+    },
+    {
+      "id": "8847d063aa7b",
+      "title": "The AirPods Pro 3 are $50 off right now, nearly matching their best-ever price",
+      "url": "https://www.theverge.com/gadgets/898502/airpods-pro-3-amazon-big-spring-sale-2026-deal",
+      "summary": "AppleのAirPods Pro 3がAmazon・Walmart・Best Buyで50ドル引きの199.99ドルに値下げ、過去2番目の最安値に一致。AirPods Max 2の発表後も、手頃に似た機能を得られ、iPhone向けに優れたノイキャンと音質、快適な角度設計と新XXSイヤーチップを備える。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-21T17:00:00.000Z",
+      "contentHash": "c4202171909e"
+    },
+    {
+      "id": "ff7f91451ff3",
+      "title": "404 Deno CEO not found",
+      "url": "https://dbushell.com/2026/03/20/denos-decline-and-layoffs/",
+      "summary": "著者はDenoの状況を憂慮し、deno.comの404や大規模離職・レイオフを見てDenoに費やした時間が無駄か悩む。過去の衰退指摘と資金調達（Seed $4.9M、Series A $21M）、CEO Ryan Dahlの反論、毒舌への謝罪に触れる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-21T15:10:54.000Z",
+      "contentHash": "3a9501f60edc"
+    },
+    {
+      "id": "1a28f3390722",
+      "title": "Iran launched unsuccessful attack on UK's Diego Garcia",
+      "url": "https://www.bbc.com/news/articles/c5yljdgwppzo",
+      "summary": "コーパー外相は、イランがディエゴガルシア島に弾道ミサイル2発を発射した報道を非難し、英国は防御支援は行うが攻撃には関与せず、紛争拡大を避け迅速な収束を求めると述べた。1発は失敗、1発は米軍が迎撃と報道。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-21T14:54:38.000Z",
+      "contentHash": "d1df14fc402f"
+    },
+    {
+      "id": "c424af769a0e",
+      "title": "Grafeo – A fast, lean, embeddable graph database built in Rust",
+      "url": "https://grafeo.dev/",
+      "summary": "GrafeoはRust製の高速で組み込み可能なグラフDB。LPG/RDF対応、GQL/Cypher/Gremlin等の多言語クエリ、HNSWベクトル検索、ACID/MVCCトランザクション、多言語バインディングとスタンドアロン両対応。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-21T14:50:18.000Z",
+      "contentHash": "b5fa9070119c"
+    },
+    {
+      "id": "314da8d317f8",
+      "title": "Some things just take time",
+      "url": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
+      "summary": "木は育つのに時間がかかり、価値や成熟は時間の蓄積から生まれる。だが現代は即時性を重視し、起業・開発で速度偏重に。成功やコンプライアンスには粘り強さや人間の関与が必要で、摩擦を無理に排すのは有害だ。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-21T14:46:56.000Z",
+      "contentHash": "e5f330bc9fa7"
+    },
     {
       "id": "1244847bfad1",
       "title": "Here are 20 of our favorite outdoor deals from REI’s Member Days Sale",
@@ -140,10 +257,10 @@
       "id": "5e137ac5dddc",
       "title": "Isaac Sim のバックエンド PhysX と Newton の違い",
       "url": "https://note.com/npaka/n/nbba95f5055c2",
-      "summary": "Isaac Simの物理バックエンドは、実用で安定したPhysXと、ロボット学習・接触リッチ課題向けの新しいNewtonに分かれる。PhysXは既存資産や互換性重視、NewtonはGPU活用・微分可能性・拡張性で研究向け。現状はPhysX推奨だがNewtonの重要性が増している。",
+      "summary": "Isaac Simの物理バックエンドは従来の安定版PhysXと、研究・学習向けの新しいNewtonに分かれる。PhysXは既存資産や安定性重視、NewtonはGPU活用・微分可能性・接触リッチな学習や研究向け。現状はPhysX推奨だがNewtonは将来重要。",
       "source": "npaka",
       "publishedAt": "2026-03-21T04:10:33.000Z",
-      "contentHash": "a48531ebae77"
+      "contentHash": "8a0dda6d439c"
     },
     {
       "id": "459def28a21b",
@@ -644,10 +761,10 @@
       "id": "752794e73e91",
       "title": "Google AI Studio のフルスタックバイブコーディング機能の概要",
       "url": "https://note.com/npaka/n/n77bf70d9b349",
-      "summary": "Google AI Studioがフルスタックのvibe codingを強化。プロンプトから本番アプリ化が可能に。マルチプレイヤー、外部ライブラリ導入、進捗保存、Firebase連携（Firestore/認証）、シークレット管理、デバイス間再開、強化エージェント、Next.js対応などを提供。",
+      "summary": "Google AI Studio がフルスタックの「vibe coding」を強化。プロンプトから本番アプリへ即変換でき、マルチプレイヤー、外部ライブラリ、進捗保存、FirebaseによるDB・認証統合、シークレット管理、セッション再開、強化エージェント、Next.js対応でリアルタイムゲームや3Dコラボ等を容易に構築可能。",
       "source": "npaka",
       "publishedAt": "2026-03-19T22:14:29.000Z",
-      "contentHash": "791abf65d9a5"
+      "contentHash": "005e857827a2"
     },
     {
       "id": "ca3ecd33c923",
@@ -1877,10 +1994,10 @@
       "id": "d5d810c9907f",
       "title": "Codex Subagents 入門",
       "url": "https://note.com/npaka/n/n7436ccc91114",
-      "summary": "Codexのサブエージェントは、親エージェントがタスクを分解して起動する補助AIで、明示的指示で生成・割当・結果回収・完了管理を行う。並列処理で高速化・コンテキスト分離が可能だが、トークン消費は増える（例：バグ検出と改善提案）。",
+      "summary": "Codexのサブエージェントは、親エージェントがタスクを分割して起動する補助AI。明示的に要求した場合のみ生成され、並列実行で高速化・コンテキスト分離を実現するが、トークン消費は増える。",
       "source": "npaka",
       "publishedAt": "2026-03-18T01:14:13.000Z",
-      "contentHash": "fb105736248f"
+      "contentHash": "e51e384a89a7"
     },
     {
       "id": "ae67189017e0",
@@ -1967,10 +2084,10 @@
       "id": "a7ed7a2fb262",
       "title": "Codex Skills 入門",
       "url": "https://note.com/npaka/n/nfaa42624abd7",
-      "summary": "Codex Skillsは、AIに作業手順やルール（指示・スクリプト・リソース）をモジュールとして登録し参照させる仕組み。品質が安定しプロンプトが短縮、チーム規約の適用が可能。Codex appで作成・編集・テストできる。",
+      "summary": "Codex Skillsは、作業手順やルール（指示・スクリプト・リソース）をモジュール化してAIに教える仕組み。品質安定やプロンプト短縮、チーム基準の適用が可能。Codex appで作成・管理し、必要時に自動読み込みする（例：日本語挨拶スキル）。",
       "source": "npaka",
       "publishedAt": "2026-03-17T23:47:16.000Z",
-      "contentHash": "05e01438e47c"
+      "contentHash": "701f0353cfa8"
     },
     {
       "id": "28b1917d1690",
@@ -2435,10 +2552,10 @@
       "id": "2d86b013e3e5",
       "title": "DGX Spark で NemoClaw を試す",
       "url": "https://note.com/npaka/n/n5bd56ce0cc28",
-      "summary": "DGX SparkでNVIDIAのNemoClawを検証。OpenClawをOpenShell上で安全に常時稼働させるオープンソーススタック。前提はUbuntu22.04+/Node.js（推奨22）/Docker/OpenShell。curlスクリプトで導入後、nemoclaw onboardでサンドボックス作成、推論先（ローカルNIM/Cloud/Ollama）設定、ポリシープリセット（discord/docker/huggingface/npm等）を行う。",
+      "summary": "DGX SparkでNVIDIAのNemoClawを試用。OpenClawをOpenShell上で安全に常時稼働させるOSS。Ubuntu22/Node.js22/Docker/OpenShellが前提。導入はDocker→Node→OpenShell→NemoClaw。オンボーディングでサンドボックス作成、推論先(NIM/Cloud/Ollama)やポリシー(discord/docker/huggingface/jira/npm)を設定。",
       "source": "npaka",
       "publishedAt": "2026-03-17T06:45:56.000Z",
-      "contentHash": "cba303fdeffc"
+      "contentHash": "7f9b099e5597"
     },
     {
       "id": "19163ff31ee6",
@@ -8883,123 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-03-02T14:00:00.000Z",
       "contentHash": "c5af7ca7f633"
-    },
-    {
-      "id": "094d4cc162da",
-      "title": "Microslop Manifesto",
-      "url": "http://microslop.com/",
-      "summary": "BingのAI生成要約が幻覚を生み、事実誤認や捏造引用、存在しない統計や商品レビューを含む誤情報で検索結果を汚染し、検証済み情報の代わりに合成されたゴミを提示している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-02T13:05:37.000Z",
-      "contentHash": "d17e7bd3c498"
-    },
-    {
-      "id": "0f2147098990",
-      "title": "Qualcomm’s new chip is geared toward wearable AI gadgets",
-      "url": "https://www.theverge.com/tech/886434/qualcomm-snapdragon-wear-elite-wearables",
-      "summary": "クアルコムが新型「Snapdragon Wear Elite」を発表。W5 Plusと共存する“wrist plus”向けで、ピンやペンダント、表示なしスマートグラスなどAIウェアラブルを想定。3nm製造でeNPUとHexagon NPUを搭載し、低消費電力AI処理と長時間駆動を重視。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-02T07:00:00.000Z",
-      "contentHash": "e728f12dac9b"
-    },
-    {
-      "id": "fee765464f35",
-      "title": "Motorola announces a partnership with GrapheneOS Foundation",
-      "url": "https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/",
-      "summary": "モトローラはMWCでGrapheneOS財団と長期提携を発表。GrapheneOS互換の次世代スマホで高度なプライバシーとセキュリティを提供し、Moto SecureやMoto Analyticsを導入してThinkShieldと連携しB2B製品と運用可視化を強化する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-02T06:48:07.000Z",
-      "contentHash": "3cd4cb8efd42"
-    },
-    {
-      "id": "f208e03823d4",
-      "title": "2025年度新卒エンジニア研修レポート | dwango on GitHub",
-      "url": "https://dwango.github.io/articles/2026-02_2025_engineer_onboarding/",
-      "summary": "2025年新卒エンジニアのtakeumaが、ニコニコQセクション所属として2025年4月中旬〜7月末に実施されたドワンゴの新卒研修の内容と感想をまとめた記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-02T06:00:00.000Z",
-      "contentHash": "60349af3400c"
-    },
-    {
-      "id": "80e2f9c8e960",
-      "title": "障害対応も「One Team」で。ウォンテッドリーでのSREの働き方 | Wantedly Engineer Blog",
-      "url": "https://www.wantedly.com/companies/wantedly/post_articles/1047568",
-      "summary": "記事の本文が途中で切れているため、全文を貼っていただけますか？全文をいただければ200文字以内で要約します。  \n（もし今すぐ要約が必要なら、断片からの推測で短い要約を作成しますが、正確性が落ちます）",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-02T05:01:26.000Z",
-      "contentHash": "e302e60038a3"
-    },
-    {
-      "id": "a4f9bf8ea22f",
-      "title": "The Motorola Razr Fold is shaping up to be pure flagship",
-      "url": "https://www.theverge.com/tech/887249/motorola-razr-fold-specs-camera-silicon-carbon-battery",
-      "summary": "モトローラの折りたたみ機Razr Foldはフラッグシップ寄り。Moto Pen Ultra同梱で欧州価格€1,999、北米は数か月内発売。6,000mAhシリコン炭素電池、ハイエンドSoCと高性能カメラ搭載。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-02T05:00:00.000Z",
-      "contentHash": "f8f688bfc4d0"
-    },
-    {
-      "id": "1aeedf694280",
-      "title": "Everett shuts down Flock camera network after judge rules footage public record",
-      "url": "https://www.wltx.com/article/news/nation-world/281-53d8693e-77a4-42ad-86e4-3426a30d25ae",
-      "summary": "ワシントン州エベレット市は、Flockのナンバープレート読み取りカメラ映像が公文書に当たると郡裁判所が判断したため、全網を停止した。市は安全上の懸念を理由に一時停止し、請求者は収集データを確認したかった。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-02T04:06:00.000Z",
-      "contentHash": "06d0bd79e734"
-    },
-    {
-      "id": "926999ce5cd2",
-      "title": "OpenManage Enterprise Servicesプラグインをインストール・登録してみた | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/03/02/101731",
-      "summary": "OpenManage Enterprise(OME)でServicesプラグインの登録手順を解説。OME4.5は標準搭載。利用にはアクセスキーとPIN、ESRS接続が必要で、キー入力→連絡先登録→接続テスト後に設定・バージョン確認。iDRACの疑似アラートでアラート検知とサポートケース発行を検証。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-02T01:17:31.000Z",
-      "contentHash": "ef24f3171a8b"
-    },
-    {
-      "id": "be17937ebf1b",
-      "title": "巨大なiOSアプリをマルチモジュール化してみた | JCB Tech Blog",
-      "url": "https://tech.jcblab.jp/entry/2026/03/02/101727",
-      "summary": "JCBの若林がMyJCB iOSのマルチモジュール化を実践。衝突削減が目的でCoreDomainとCoreDataを分離予定だったが循環参照が発生し、両者を統合したAppCoreとUI系のCorePresentationを作成。Baseクラスを境界にコード移動やSwift Package作成、アクセス修飾子追加などを行い、まずは「動く形」を優先して約1.5ヶ月で実装した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-02T01:17:27.000Z",
-      "contentHash": "35059514863a"
-    },
-    {
-      "id": "83007d25ab28",
-      "title": "あなたはEntra IDを理解できる | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/64e6aad7acdff9",
-      "summary": "Entra ID（旧Azure AD）は企業向けのID管理で、テナントに管理者がユーザーを登録し、ログイン機能を外部API化して社内外のSaaSを統合する中央ゲート。SSOで利便性とセキュリティを両立し、多くはMicrosoft 365経由で導入される。開発者視点で仕組みを解説する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-02T01:02:43.000Z",
-      "contentHash": "6177e18ea711"
-    },
-    {
-      "id": "4f5ecc5a19af",
-      "title": "次世代AIアーキテクチャ「スパイキングニューラルネットワーク」の基本、その将来性 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/11babfc016415a",
-      "summary": "SNNは脳のスパイクで情報を伝える時間・イベント駆動型のニューラルネット。ANNの連続値同期計算と異なり発火時のみ計算して省電力。LIFモデルやレート/時間符号化で動作し、エッジAIやポストTransformer候補として注目（2026年2月時点）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-02T01:02:42.000Z",
-      "contentHash": "4ad4de62864d"
-    },
-    {
-      "id": "3ef75602443f",
-      "title": "0→1を走り切れるエンジニアは会社の未来を拓く。事業立ち上げで学んだ４つのこと | estie inside blog",
-      "url": "https://www.estie.jp/blog/entry/2026/03/02/100145",
-      "summary": "0→1を走り切れるエンジニアは会社の未来を拓く。著者は新規事業での経験から4つの学びを提示。要点は、今検証すべき仮説を目標化してチームで共有し反復すること、失敗を学びに変えること、苦しい時は小さな前進を拾い称賛し早めに相談してモメンタムを保つこと。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-02T01:01:45.000Z",
-      "contentHash": "df317bc90a5c"
-    },
-    {
-      "id": "7fbbabcc73db",
-      "title": "【協賛レポート｜後編】「AIチャレンジャーズフェス2025」パネルディスカッション-AI時代を生き抜く力 | GMO Developers",
-      "url": "https://developers.gmo.jp/technology/80245/",
-      "summary": "GMOインターネットが学生向けAIキャリアフェスを協賛。150名参加のパネルで、AIによる効率化や「コードを読む力」の重要性、非エンジニア領域の拡大、業務プロセスの見直しなど、AI時代の働き方と学びを議論した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-02T01:00:56.000Z",
-      "contentHash": "afa96d0f2626"
     }
   ]
 }
