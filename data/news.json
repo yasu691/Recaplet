@@ -1,6 +1,222 @@
 {
-  "generatedAt": "2026-03-22T16:49:40.784Z",
+  "generatedAt": "2026-03-23T03:01:00.541Z",
   "items": [
+    {
+      "id": "1e877693d4d9",
+      "title": "コンテンツ開発力を技術でブーストする - 横断技術組織「開発推進室」 | Sumzap Engineering Blog",
+      "url": "https://tech.sumzap.co.jp/entry/eng_tech-dev-dept",
+      "summary": "サムザップの開発推進室は、プロジェクトごとの重複開発を防ぎ、ビルド・CI・共通ライブラリ・描画等の共通技術を横断的に整備して開発力を高めるために小さく始めた技術組織。ソリューション、アプリ基盤、サーバー基盤、グラフィックスの4領域で導入支援やR&Dを行う。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T01:27:12.000Z",
+      "contentHash": "6c5357bf51d8"
+    },
+    {
+      "id": "9cddfbed2c75",
+      "title": "SCPでlambda:AddPermissionがブロックされる環境でAppSync Event APIの認証を実現する | レスキューナウテックブログのフィード",
+      "url": "https://zenn.dev/rescuenow/articles/8352a08e8cd1d8",
+      "summary": "SCPでlambda:AddPermissionが禁止される環境で、AppSyncのLambdaオーソライザーが使えない問題を解説。データソースはservice_role_arnで呼べるがauthorizerは直接invokeでAddPermission必須。対策としてAPI Gatewayを前段に置き、authorizer_credentials_arnでpublishは解決（subscribeは別途課題）。STS Token Vending Machineパターンも紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T01:17:49.000Z",
+      "contentHash": "96fb5138ab2b"
+    },
+    {
+      "id": "4505f8acc087",
+      "title": "【2026年版】Claude Code フロントエンド特化の設定・ツールまとめ | ENECHANGEのフィード",
+      "url": "https://zenn.dev/enechange_blog/articles/9288d67beed7b4",
+      "summary": "React/Next.js向けにClaude Code周辺の設定とツールを紹介。model(opusplan)でモデル切替、envでagent teamsとENABLE_TOOL_SEARCHを有効化しトークン節約、hooksやstatusline、CLAUDE.md、さらにターミナル・ランチャー、CLI、フロントエンド向けツール群を解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T01:13:54.000Z",
+      "contentHash": "23131f1a329f"
+    },
+    {
+      "id": "d73d38141b3d",
+      "title": "Devinで並列開発を実現した ～「魔法の杖」を使いこなすために必要だったこと～ | Tabelog Tech Blog",
+      "url": "https://tech-blog.tabelog.com/entry/devin-parallel-development",
+      "summary": "食べログでAIエージェントDevinを導入し、試行錯誤の末にPlaybook整備や段取り管理で3〜4件の並列開発を実現。曖昧指示による手戻りを改善し、GitHub連携と低い初期準備が導入効果の要因。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T01:05:25.000Z",
+      "contentHash": "fc809ea2b329"
+    },
+    {
+      "id": "643a0ea2b3f7",
+      "title": "Department of State advises Americans worldwide to exercise increased caution",
+      "url": "https://travel.state.gov/en/international-travel/travel-advisories/global-events/worldwide-caution.html",
+      "summary": "米国務省は世界中、特に中東で米国民に警戒強化を呼びかけ。大使館や外交施設が標的になり得るため渡航や空域閉鎖に注意し、step.state.govやWhatsApp/Xで最新警報を確認。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-23T01:02:56.000Z",
+      "contentHash": "08b96f422fbf"
+    },
+    {
+      "id": "af2a3a7c8f1c",
+      "title": "タッグ開発 Night!!  \"お願い\" を Pull Request に変えてみた | estie inside blog",
+      "url": "https://www.estie.jp/blog/entry/2026/03/23/100129",
+      "summary": "株式会社estieで非エンジニアがSWEと組みAI Coding Agentで自らコードを書きPRを出す「タッグ開発 Night」を開催。13組が55分でVoC起点の改善を実装し、10件以上がマージ（並び替え・フィルター追加、PDF調整、UI改良等）。仮説検証の高速化と仕様理解向上が狙いで好評を得た。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T01:01:29.000Z",
+      "contentHash": "f5a62310b15a"
+    },
+    {
+      "id": "2fc7b2ad3da2",
+      "title": "指定条件のデータをダンプするspanner-dump-whereを不具合調査に活用 | 10ANTZ Developers Blog",
+      "url": "https://developers.10antz.co.jp/archives/4388",
+      "summary": "10ANTZの社内勉強会で、Spanner向けツールspanner-dump-whereを紹介。WHEREで指定条件のデータを抽出、外部キー順ソートやインストール・実行方法を説明し、進行停止やカード覚醒不能などの不具合調査での活用事例を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T01:00:46.000Z",
+      "contentHash": "624c53617d72"
+    },
+    {
+      "id": "b67bfec39831",
+      "title": "【2026年3月】OSSサポートエンジニアが気になった！OSS最新ニュース | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/51631",
+      "summary": "2026年3月のOSSニュース：高市早苗首相名の仮想通貨「SANAE TOKEN」が流通し無関係と注意喚起。Linux FoundationがAnthropicら7社から総額1250万ドルを助成されOSSのセキュリティ強化へ。LayerXはフォント改ざんでAI検出を回避する手法を発見。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T01:00:39.000Z",
+      "contentHash": "1bd173ac7f12"
+    },
+    {
+      "id": "d35f1eecb901",
+      "title": "知っておくとちょっと便利！Linux の拡張子について | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/51634",
+      "summary": "Linuxにおける拡張子の扱いと役割を解説。拡張子はファイル種類を判別する末尾の文字列で、知っておくと便利であると説明しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T01:00:00.000Z",
+      "contentHash": "571d19d204ab"
+    },
+    {
+      "id": "c474a8406ca5",
+      "title": "Exchange OnlineのIMAP移行ツールの仕様と注意事項について | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/51950",
+      "summary": "伊藤が、Exchange Onlineの標準機能であるIMAP移行ツールの仕様と注意事項を整理した記事。メール移行の手順や制限、事前確認ポイントなどを解説しています（SIOS Tech Lab）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T01:00:00.000Z",
+      "contentHash": "f452df5390d6"
+    },
+    {
+      "id": "410004ca67bd",
+      "title": "書評「Tidy First?」 | 虎の穴ラボ技術ブログ",
+      "url": "https://toranoana-lab.hatenablog.com/entry/2026/03/23/100000_1",
+      "summary": "Kent Beck著『Tidy First?』の書評。整頓を「小さなリファクタリング」と定義し、第I部で具体手法、第II部で導入タイミングと運用、第III部で理論を解説。整頓の是非と進め方を判断する実用的指針と評価。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T01:00:00.000Z",
+      "contentHash": "4c2846096443"
+    },
+    {
+      "id": "ba6263274c9e",
+      "title": "AI influencer awards season is upon us",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/898781/ai-personality-of-the-year-influencer-contest",
+      "summary": "AIインフルエンサーの賞が本格化。OpenArtとFanvue（ElevenLabs支援）主催の「AI Personality of the Year」が1か月開催、賞金総額2万ドル。総合とフィットネス、ライフスタイル、コメディ、音楽・ダンス、アニメ/ファンタジー部門で“本物の物語”などを評価。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-23T00:01:00.000Z",
+      "contentHash": "efbe956b89f2"
+    },
+    {
+      "id": "463307af28e0",
+      "title": "Diverse perspectives on AI from Rust contributors and maintainers",
+      "url": "https://nikomatsakis.github.io/rust-project-perspectives-on-ai/feb27-summary.html",
+      "summary": "Rustの寄稿者・メンテナのAIに関する多様な意見を集めた要約。個人見解で公式見解ではなく、解釈に注意が必要。AIは熟練が要る道具で、性能は急速に向上している、という主旨。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-22T22:19:03.000Z",
+      "contentHash": "f26d3905f8ec"
+    },
+    {
+      "id": "f3b5ee445566",
+      "title": "Iran war energy crisis is a renewable energy wake-up call",
+      "url": "https://apnews.com/article/middle-east-wars-renewable-energy-asia-4b5fe0693ce5816472c905db85f7da6e",
+      "summary": "提示されたテキストはAPの著者名や共有ボタン、スクリプトなどのページ要素のみで、記事本文が含まれていません。本文を提供いただければ200字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-22T22:01:03.000Z",
+      "contentHash": "37598e07541d"
+    },
+    {
+      "id": "bbca824546f5",
+      "title": "Topical Dancer is propulsive, playful, and political",
+      "url": "https://www.theverge.com/entertainment/898796/charlotte-adigery-bolis-pupul-topical-dancer-review",
+      "summary": "シャーロット・アディジェリーとボリス・ピュプルの2022年作『Topical Dancer』は、ダンサブルで政治性を帯びた、電子と有機音の融合が光る作品。遊び心と推進力があり、トーキング・ヘッズを想起させるロック的要素も特徴。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-22T21:44:30.000Z",
+      "contentHash": "a2c0afbb03d1"
+    },
+    {
+      "id": "1e15b6b9bf08",
+      "title": "GrapheneOS will remain usable by anyone without requiring personal information",
+      "url": "https://grapheneos.social/@GrapheneOS/116261301913660830",
+      "summary": "申し訳ありませんが、外部URLを直接参照できません。記事本文か主要抜粋を貼っていただければ、200文字以内で日本語要約します。HNコメントも含めるか（含める/除外）、要約のトーン（中立/肯定/批判）も教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-22T21:14:11.000Z",
+      "contentHash": "17340c5f6b8f"
+    },
+    {
+      "id": "8c35f70e304a",
+      "title": "We indexed the Delve audit leak: 533 reports, 455 companies, 99.8% identical",
+      "url": "https://trustcompliance.xyz",
+      "summary": "YC支援のDelve（調達$32M）が533件の監査報告で同一テンプレートを流用、455社が影響。trustcompliance.xyzが無償で対象企業の検索・報告スキャン・評価を提供。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-22T20:20:29.000Z",
+      "contentHash": "4356b4985018"
+    },
+    {
+      "id": "451dac033880",
+      "title": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon",
+      "url": "https://larstofus.com/2026/03/22/the-gold-standard-of-optimization-a-look-under-the-hood-of-rollercoaster-tycoon/",
+      "summary": "ドイツの人気Podcast出演で、1999年のRollerCoaster TycoonがChris Sawyerによりほぼ全編アセンブリで書かれ、当時の低スペック機で大量エージェントを高速処理した点を解説。現代はコンパイラ最適化で差が縮まった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-22T19:02:43.000Z",
+      "contentHash": "8710ae8dd5f6"
+    },
+    {
+      "id": "7340ec2a55a3",
+      "title": "PC Gamer recommends RSS readers in a 37mb article that just keeps downloading",
+      "url": "https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/",
+      "summary": "PC GamerのRSSリーダー紹介記事は、通知やニュースレターのポップアップ、背景の広告に覆われ、初回読み込みで37MB、数分で約0.5GBもの追加広告をダウンロードするなど過剰表示。筆者は良いRSSリーダーでこの煩雑さを回避できると指摘。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-22T18:23:40.000Z",
+      "contentHash": "70b24ae4bba5"
+    },
+    {
+      "id": "de5ea683150c",
+      "title": "Palantir extends reach into British state as gets access to sensitive FCA data",
+      "url": "https://www.theguardian.com/technology/2026/mar/22/palantir-extends-reach-into-british-state-as-it-gets-access-to-sensitive-fca-data",
+      "summary": "米企業Palantir（ピーター・ティール共同創業者）が英金融行為監督機構（FCA）の内部インテリジェンスデータへ3カ月試用でアクセス。週3万ポンド超を支払い金融犯罪対策の解析を実施、正式導入の可能性。市民団体らがプライバシー懸念を表明。既に英公共部門で5億ポンド超の契約を保有。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-22T17:56:26.000Z",
+      "contentHash": "5e70d3657a76"
+    },
+    {
+      "id": "b52b4db76a0e",
+      "title": "OpenClaw is a security nightmare dressed up as a daydream",
+      "url": "https://composio.dev/content/openclaw-security-and-vulnerabilities",
+      "summary": "2023年のAutoGPT熱は消えたが、3年後のOpenClaw（Opus）は大幅に改良され、ローカルファイル・端末・メール・家電連携など自動化が現実味を帯びた。OpenAIが人材獲得する一方、コスト高と深刻なセキュリティ脆弱性があり、筆者は懐疑的。ブログは利点・問題点と回避策を論じる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-22T17:35:28.000Z",
+      "contentHash": "6a00ed6acf22"
+    },
+    {
+      "id": "863dbde6afb0",
+      "title": "Crimson Desert dev apologizes for use of AI art",
+      "url": "https://www.theverge.com/games/898771/crimson-desert-dev-apologizes-ai-art",
+      "summary": "『Crimson Desert』でAI生成アートが最終版に混入した問題で、開発元が使用を認め謝罪。差し替える予定だったとし、AI資産の包括的監査と削除・差替えを行うと表明、透明性欠如も謝罪。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-22T17:34:34.000Z",
+      "contentHash": "172d54042a34"
+    },
+    {
+      "id": "e16fe1dd2dd1",
+      "title": "Why I love NixOS",
+      "url": "https://www.birkey.co/2026-03-22-why-i-love-nixos.html",
+      "summary": "筆者がNixOSを好むのは、Nixによる決定論的で再現可能な関数型パッケージ管理。OSを宣言的に一元定義して再構築・ロールバックでき、状態の蓄積やアップグレード不安がなく安定で移行も容易な点を評価している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-22T17:17:06.000Z",
+      "contentHash": "9ae496a5ec59"
+    },
+    {
+      "id": "8521eaeb1fb6",
+      "title": "The best deals you can already grab from Amazon’s Big Spring Sale",
+      "url": "https://www.theverge.com/gadgets/895635/best-amazon-big-spring-sale-early-deals-2026",
+      "summary": "Amazonの年次セール「Big Spring Sale」は3月25〜31日開催。公式開始前からスピーカーやロボ掃除機、Fire TV Stick 4K Maxなどの目玉が既に割引中。Prime Dayより前のセールで、関税上昇で高くなった家電を安く買える機会と報じられています。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-22T16:42:01.000Z",
+      "contentHash": "2b5b580bf17f"
+    },
     {
       "id": "b5b6efbcc05e",
       "title": "Musk says he’s building Terafab chip plant in Austin, Texas",
@@ -428,10 +644,10 @@
       "id": "3cf5b5103cc7",
       "title": "HuggingFace Diffusers v0.37.0の新機能",
       "url": "https://note.com/npaka/n/n70eba03fe869",
-      "summary": "Diffusers v0.37.0は、再利用可能ブロックで柔軟にパイプラインを組むModular Diffusersを導入。高品質Z-Image、低遅延FLUX.2 Klein、レイヤー編集Qwen-Image-Layered、決定論的FIBO Edit、Cosmos系世界生成、GLM-Image、RAE、音声同期Text-to-VideoのTX-2など多彩な新モデルを追加しました。",
+      "summary": "Diffusers v0.37.0は、再利用可能ブロックで柔軟に組めるModular Diffusersを導入。Z-ImageやFLUX.2、Qwen-Image-Layered、Fibo Edit、Cosmos系、GLM-Image、RAEなど多数の新画像モデルと、音声同期Text-to-Video（TX-2）などの新パイプラインを追加しました。",
       "source": "npaka",
       "publishedAt": "2026-03-21T07:01:02.000Z",
-      "contentHash": "8c9724779fc2"
+      "contentHash": "aa2a888b1f97"
     },
     {
       "id": "3f3b32c560b4",
@@ -444,12 +660,12 @@
     },
     {
       "id": "5e137ac5dddc",
-      "title": "Isaac Sim のバックエンド PhysX と Newton の違い",
+      "title": "Isaac Sim 6.0 のバックエンド PhysX と Newton の違い",
       "url": "https://note.com/npaka/n/nbba95f5055c2",
-      "summary": "Isaac Simの物理バックエンドは、安定性と既存資産との相性が強みの従来型PhysXと、GPU活用や微分可能性、接触リッチなロボット学習に強い新型Newtonがあり、現状はPhysXが主流だが研究・学習用途ではNewtonが注目されている、という違い。",
+      "summary": "Isaac Sim 6.0では、安定で既存資産と相性が良い標準バックエンドのPhysXと、ロボット学習・接触リッチなタスクや微分可能物理を重視する新しいNewtonが選べる。実務はPhysX、研究や将来性重視ならNewtonを検討。",
       "source": "npaka",
       "publishedAt": "2026-03-21T04:10:33.000Z",
-      "contentHash": "6d95caa4c3c7"
+      "contentHash": "1f25c1176481"
     },
     {
       "id": "459def28a21b",
@@ -464,10 +680,10 @@
       "id": "d1352c59ff58",
       "title": "Isaac Sim の Joint Drive設定 まとめ",
       "url": "https://note.com/npaka/n/n852f10e35693",
-      "summary": "Isaac Sim の Joint Drive は実機のサーボそのものではなく、実機らしい応答を再現するためのシミュレータ内モデルです。実機のKp/Kdをそのまま入れるのではなく、立ち上がり・オーバーシュート・減衰・定常誤差・負荷時追従などの入出力応答を実機で測定し、同じ入力に対してシミュレータ側のstiffness/damping等を調整して応答波形を一致させるのが正しい手順です。",
+      "summary": "Isaac SimのJoint Driveは実機のPIDそのものではなく、stiffness/dampingでシミュレータ内の関節駆動を安定化するモデル。実機のKp/Kdをそのまま使わず、立ち上がり時間・オーバーシュート・減衰・定常偏差・負荷時追従など実機の入出力応答を測り、同じ入力でシミュレータ応答を合わせるよう調整する。位置追従はposition drive（stiffness重視）。",
       "source": "npaka",
       "publishedAt": "2026-03-21T00:03:46.000Z",
-      "contentHash": "b5623f150063"
+      "contentHash": "2591f6813c34"
     },
     {
       "id": "33775fd7c93d",
@@ -950,10 +1166,10 @@
       "id": "752794e73e91",
       "title": "Google AI Studio のフルスタックバイブコーディング機能の概要",
       "url": "https://note.com/npaka/n/n77bf70d9b349",
-      "summary": "記事本文かURLを貼っていただけますか？内容を確認して日本語で200文字以内に要約します。もし公開記事で私が参照可能なら、その旨教えていただければこちらで要約します。どちらがよいですか？",
+      "summary": "Google AI Studioがフルスタックのvibe codingを強化。プロンプトから本番アプリを即生成でき、マルチプレイヤー対応、外部ライブラリ導入、進捗保存・安全ログイン、Firebase統合、シークレット管理、セッション復元、強化エージェントやNext.js対応で実世界サービスやリアルタイム3Dゲーム等を容易に構築可能に。",
       "source": "npaka",
       "publishedAt": "2026-03-19T22:14:29.000Z",
-      "contentHash": "7526b9f343ed"
+      "contentHash": "db887103d2cb"
     },
     {
       "id": "ca3ecd33c923",
@@ -1364,10 +1580,10 @@
       "id": "21e7e104a3eb",
       "title": "Isaac Sim Physics 入門",
       "url": "https://note.com/npaka/n/n5a9b4763ad9d",
-      "summary": "Isaac SimのPhysics機能（5.1）についてまとめた記事です。物理シミュレーションの概要や新機能、設定方法、活用例などを解説しています。",
+      "summary": "「Isaac Sim」Physicsの概要：オブジェクトにRigid Body/Collider/Jointを設定しないと物理挙動は起きない。内部はUSD→PhysX生成→タイムステップで更新→USDへ書戻し。シミュレーション時間と実時間、レンダリングフレームレートと物理タイムステップは別で、TimeCodesやPhysics Sceneで設定。タイムステップを小さくすると精度は上がるが計算負荷も増える。",
       "source": "npaka",
       "publishedAt": "2026-03-19T08:23:53.000Z",
-      "contentHash": "b709f96d3dfb"
+      "contentHash": "b4617058e9c2"
     },
     {
       "id": "a45cce2f2683",
@@ -1481,10 +1697,10 @@
       "id": "c5a92faadbbb",
       "title": "Asus Ascent GX10 を工場出荷状態に戻す",
       "url": "https://note.com/npaka/n/nfbe0431b91c8",
-      "summary": "Asus Ascent GX10を工場出荷状態に戻す手順を試し、手順・注意点・トラブル対処をまとめた記事。初期化方法や実行時のポイントが解説されている。",
+      "summary": "記事はAsus Ascent GX10を工場出荷状態に戻す手順を解説。USBにISOを書き込み、BIOSでUEFI:USBから起動して「DGX Spark Installation Options」→「Install DGX OS 7.4.0」を実行。初期セットアップで家のWi‑Fiに繋がらない場合はスマホのテザリングで回避可能。",
       "source": "npaka",
       "publishedAt": "2026-03-19T03:40:51.000Z",
-      "contentHash": "deba4610461b"
+      "contentHash": "f1efc0afcd52"
     },
     {
       "id": "ff88060d517b",
@@ -1607,10 +1823,10 @@
       "id": "bc00e91b6fa9",
       "title": "Isaac Sim のカメラ操作まとめ",
       "url": "https://note.com/npaka/n/n3d5cfa344a20",
-      "summary": "Isaac Sim 5.11のカメラ操作まとめ。ViewportはAlt+ドラッグで回転・平行移動・ズーム、FPS風は右クリック+WASD/QE/マウス、Fで選択にフォーカス。Scene内Cameraは固定視点やロボット添付、ROS配信や合成データ生成に利用可能。",
+      "summary": "Isaac Simのカメラ操作まとめ。ViewportはAlt+ドラッグで回転・平行移動・ズーム。FPS式は右クリック+W/A/S/D/Q/E/マウスで操作。Fで選択対象にフォーカス。シーン内にCameraオブジェクトを置けば固定視点やロボットに取り付け可能で、ROS配信や合成データ生成にも利用できる（Create→Camera）。",
       "source": "npaka",
       "publishedAt": "2026-03-19T00:47:12.000Z",
-      "contentHash": "c14a35af31a7"
+      "contentHash": "163351afc2cc"
     },
     {
       "id": "9f35d033f039",
@@ -1809,15 +2025,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-03-18T15:57:48.000Z",
       "contentHash": "f092a2e3f735"
-    },
-    {
-      "id": "8521eaeb1fb6",
-      "title": "The best early Amazon Big Spring Sale deals you can get right now",
-      "url": "https://www.theverge.com/gadgets/895635/best-amazon-big-spring-sale-early-deals-2026",
-      "summary": "Amazonの年次「Big Spring Sale」が3月25〜31日開催。開始前からFire TV Stick 4K MaxやEcho Dot Max、Ecovacs Deebot X8 Pro Omniなどスピーカーやロボット掃除機の割引が始まり、好機となっている。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-18T15:52:39.000Z",
-      "contentHash": "39235e6af8a3"
     },
     {
       "id": "54ad9e569e99",
@@ -2183,10 +2390,10 @@
       "id": "d5d810c9907f",
       "title": "Codex Subagents 入門",
       "url": "https://note.com/npaka/n/n7436ccc91114",
-      "summary": "「サブエージェント」は親エージェントがタスクを委任する補助エージェントで、Codexは生成・割当・結果回収を管理するが明示的指示がない限り自動生成しない。並列処理とコンテキスト分離で高速化する一方、各エージェントのモデル・ツールによりトークン消費は増える。",
+      "summary": "Codexのサブエージェントは、親エージェントがタスクを分担する補助AI。明示的に生成され、並列処理で高速化・コンテキスト分離が可能だがトークン消費は増える。例：バグ検出と改善提案を並列実行して統合。",
       "source": "npaka",
       "publishedAt": "2026-03-18T01:14:13.000Z",
-      "contentHash": "bf887bb4108b"
+      "contentHash": "eb7db04d9c47"
     },
     {
       "id": "ae67189017e0",
@@ -8793,213 +9000,6 @@
       "source": "npaka",
       "publishedAt": "2026-03-03T12:09:52.000Z",
       "contentHash": "238e6b3f89c2"
-    },
-    {
-      "id": "3ffc713be6c5",
-      "title": "「AIエージェントキャッチアップ #68 - AI-DLC」を開催しました | Generative Agents Tech Blog",
-      "url": "https://blog.generative-agents.co.jp/entry/2026/03/03/195824",
-      "summary": "勉強会でAWSのAI-DLCを紹介。インセプション・コンストラクション・オペレーションの3フェーズを持ち、ワークフローは自然言語でcore-workflow.mdと.aidlc-rule-detailsに定義。Claude Codeで家計簿アプリを試し、要件質問・矛盾検出・audit記録やExtensionsによるカスタマイズを確認。自然言語記述ゆえの誤判断も観察。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-03T10:58:24.000Z",
-      "contentHash": "39fa23da6a87"
-    },
-    {
-      "id": "73beef78fc62",
-      "title": "2026年3月技術イベント予定 | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/03/03/180000",
-      "summary": "Sansan株式会社が主催・共催する2026年3月の技術イベント一覧。3/5 技術負債解消、3/6 デザインシステム、3/19 データマネジメント、3/25 AI活用、3/26 LLM/VLM/VLA運用など。詳細は各イベントページで確認。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-03T09:00:00.000Z",
-      "contentHash": "fa449bd25493"
-    },
-    {
-      "id": "6300039dceff",
-      "title": "askenのClaude Code実践事例を発表しました！〜asken｜GMOペパボ｜Omiaiの3社合同LTイベントより〜 | asken テックブログ",
-      "url": "https://tech.asken.inc/entry/2026/03/03/170000",
-      "summary": "2026年2月24日、asken・GMOペパボ・Omiaiの3社合同でClaude Code実践LTを開催。askenは高橋が既存仕様把握用Skill、佐藤がAWSを越える活用事例を発表。現場で使える事例共有と交流が行われ、次回は3/11にKotlinイベント予定。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-03T08:00:00.000Z",
-      "contentHash": "f381ad495e8c"
-    },
-    {
-      "id": "5c6831bc7cc8",
-      "title": "少人数チームでマルチプロダクトを支える、\"頑張りすぎない\"プラットフォームエンジニアリング | M3Career Techblog",
-      "url": "https://m3career-eng.hatenablog.com/entry/2026/03/03/170000",
-      "summary": "少人数で複数プロダクトを運用するため、基盤を過度に作らず課題外在性の認知負荷を減らす「頑張りすぎないプラットフォームエンジニアリング」を採用。共通性・ドメイン不要な問題を解決しセルフサービス化でエンジニアは事業ロジックに集中。立ち上げ期はチームリーダーがSRE的役割を兼務。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-03T08:00:00.000Z",
-      "contentHash": "53a2efb3dc99"
-    },
-    {
-      "id": "7b9e43072e79",
-      "title": "EMConf JP 2026にOperation Supportersとして協賛します #emconf_jp | LayerX エンジニアブログ",
-      "url": "https://tech.layerx.co.jp/entry/2026/03/03/165810",
-      "summary": "LayerXはEMConf JP 2026（3/4、TOC有明）にOperation Supportersとして協賛・ブース出展します。EM向けの実践知見公開、参加型アンケート、当日その場での1on1などを通じて、テーマ「増幅」と「触媒」に沿った交流を図ります。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-03T07:58:10.000Z",
-      "contentHash": "01903427e6e1"
-    },
-    {
-      "id": "133a0d79f66e",
-      "title": "呪術に触れてみた | iimon TECH BLOG",
-      "url": "https://tech.iimon.co.jp/entry/2026/03/03/164655",
-      "summary": "kogureが注目のGit互換VCS「Jujutsu（jj）」を試用。Gitツール連携、作業コピーの自動コミット、操作ログと元に戻し機能などが特徴。Homebrewでjjを導入し、リポジトリをクローンして動作確認を始めた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-03T07:46:55.000Z",
-      "contentHash": "e57793f15bf0"
-    },
-    {
-      "id": "2812e750187e",
-      "title": "OpenArm × LeRobot のはじめ方",
-      "url": "https://note.com/npaka/n/n1c3e201b5a80",
-      "summary": "LeRobot v0.4.4がOpenArmを正式サポート。OpenArmはオープンソースの7自由度ヒューマノイドアームで人間サイズ、QDD安全設計、最大6kg耐荷重、CNC/3D製造データ公開。Linux限定でCAN（Damiao）通信・キャリブレーション・テレオペ・データ収集を備え、ハード/設定は公式ドキュメントとGitHub参照。",
-      "source": "npaka",
-      "publishedAt": "2026-03-03T05:27:33.000Z",
-      "contentHash": "df9407adb54e"
-    },
-    {
-      "id": "07d6f9e914cf",
-      "title": "Elevated Errors in Claude.ai",
-      "url": "https://status.claude.com/incidents/yf48hzysrvl5",
-      "summary": "claude.ai、cowork、platform、claude codeの「Elevated errors」更新をメールまたはSMSで購読できます。インシデント更新はメールで、Claudeがインシデントを作成・解決した際はテキストメッセージで通知されます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-03T03:31:07.000Z",
-      "contentHash": "3f6c213c05b4"
-    },
-    {
-      "id": "aab208e63cb4",
-      "title": "Zuckerberg's internal emails rendered as Facebook Messenger",
-      "url": "https://zuckmail.vercel.app/",
-      "summary": "公開された内部メモや会話では、ザッカーバーグらがInstagramやWhatsAppを競争相手として「中和」や買収で対処すべきと繰り返し議論し、機能・ブランド対策、買収交渉や訴訟対応への懸念が示されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-03T01:38:35.000Z",
-      "contentHash": "e5329ab6c809"
-    },
-    {
-      "id": "c7fdf5bb0fac",
-      "title": "Ars Technica fires reporter after AI controversy involving fabricated quotes",
-      "url": "https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes",
-      "summary": "Ars Technicaは上級AI記者ベンジ・エドワーズを解雇。2月13日掲載の記事が技術者スコット・シャンボーの発言とされたAI生成の捏造引用を含み撤回。編集長は「重大な基準違反」と謝罪。エドワーズは病気中に実験的AIツールを誤用したと責任を認め、Futurismが解雇を確認した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-03T01:12:30.000Z",
-      "contentHash": "40ea57711636"
-    },
-    {
-      "id": "369b0c5402d2",
-      "title": "Secure Web ProxyでCloud RunからのWEBアクセスを制御してみた | Dentsu Digital Tech Blog",
-      "url": "https://note.com/dd_techblog/n/ndb69c4cd8b2a",
-      "summary": "Cloud Runから特定ドメインのAPIのみ許可する方法を、Google CloudのSecure Web Proxyで実現する手順（機能、料金、IAM/API設定、URLリスト→ポリシー→SWP→検証→Cloud Run設定）を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-03T01:00:00.000Z",
-      "contentHash": "f56a46a486cc"
-    },
-    {
-      "id": "4df8eb2e11da",
-      "title": "総配布数1,500冊超え！ 技術書典19 出展レポート | GMO Developers",
-      "url": "https://developers.gmo.jp/events/78378/",
-      "summary": "GMOインターネットグループの石丸氏が、11月16日開催の技術書典19にゴールドスポンサーとして出展したことを紹介する記事。技術書典は技術書のイベントである。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-03T01:00:00.000Z",
-      "contentHash": "778c9fd2b299"
-    },
-    {
-      "id": "eab2b57828e7",
-      "title": "地方で働く、セキュリティエンジニアのリアル | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/03/03/100000",
-      "summary": "Sansan情報セキュリティ部の松尾氏は2025年12月に東京本社から愛知の中部支店へCSIRT/SOC担当として異動。24時間監視が求められる業務が地方で可能か懸念があったが、約3か月の勤務で「地方×セキュリティ」に大きな可能性を感じ、その実体験を紹介する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-03T01:00:00.000Z",
-      "contentHash": "2df952f3216a"
-    },
-    {
-      "id": "dca735c0a78a",
-      "title": "セキュリティカンファレンス「NCA Annual Conference 2025」に登壇してきました | NTT docomo Business Engineers' Blog",
-      "url": "https://engineers.ntt.com/entry/202602-NCA2025/entry",
-      "summary": "イノベーションセンターNA4Secの山門が、2025年12月18–19日のNCA Annual Conferenceで廃棄ドメインのリスクを報告。ECSを用いた2.3億件のログ解析で、利用終了後も攻撃・スキャンが継続し、観測が攻撃を誘発する「観察者効果」を確認した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-03T00:39:11.000Z",
-      "contentHash": "ffb9e21db9d2"
-    },
-    {
-      "id": "6646c3b14962",
-      "title": "デザインツールPencil.devを触ってみた | NEXTSCAPE blog",
-      "url": "https://blog.nextscape.net/archives/2026/03/03/092456",
-      "summary": "Claude Code契約者向けデザインツールPencil.devを試用。Figma風キャンバスでAIがUIを自動生成し、そのままReactコードに変換。2月にWindows版が公開され、追加費用なしで利用可能。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-03T00:24:56.000Z",
-      "contentHash": "5f446e36d2a5"
-    },
-    {
-      "id": "9790ad965dd6",
-      "title": "Power Appsでガントチャートアプリ作ってみた | IIJ Engineers Blog",
-      "url": "https://eng-blog.iij.ad.jp/archives/35268",
-      "summary": "石間伏（ISHIMABUSHI）と申します。普段はサービスコーディネータとして、IIJサービスをご契約いただいたお客様の導入プロジェクトを担当しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-03T00:22:52.000Z",
-      "contentHash": "520f8e414d1e"
-    },
-    {
-      "id": "7a63166080c3",
-      "title": " (2025年版) レバレジーズの機械学習エンジニアの1年を振り返る | レバレジーズ データAIブログ",
-      "url": "https://analytics.leverages.jp/entry/2026/03/03/090000",
-      "summary": "レバレジーズ技術戦略室の稲垣が、機械学習・AIエンジニアチームが全社横断でプロダクト・ツール・基盤を開発する活動を紹介。2024年版に続く2025年の振り返り記事の導入です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-03T00:00:00.000Z",
-      "contentHash": "90b19e83485e"
-    },
-    {
-      "id": "d007ce209de5",
-      "title": "Closure of the Weatheradio service in Canada",
-      "url": "https://www.rac.ca/rac-responds-to-the-closure-of-the-weatherradio-service-in-canada/",
-      "summary": "Radio Amateurs of Canadaは、カナダの環境・気候変動省によるWeatheradio閉鎖を遺憾とし、通信が限られる農村・遠隔地・北部での即時警報喪失を懸念。緊急通信の冗長性確保を訴え、政府と協議しつつアマチュア無線家は支援を表明。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-02T23:03:59.000Z",
-      "contentHash": "23b2bf7dbb70"
-    },
-    {
-      "id": "ce65b3336d90",
-      "title": "Meta’s AI smart glasses and data privacy concerns",
-      "url": "https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything",
-      "summary": "MetaのAIスマートグラスが録画した映像を裏で人間が確認しており、銀行情報や性行為、裸など私的な場面が含まれる。作業者は「すべて見えてしまう」とプライバシー侵害に不安を抱いている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-02T22:32:35.000Z",
-      "contentHash": "a83670b6b97b"
-    },
-    {
-      "id": "76c37b5e3b13",
-      "title": "Anthropic upgrades Claude’s memory to attract AI switchers",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/887885/anthropic-claude-memory-upgrades-importing",
-      "summary": "AnthropicがClaudeのメモリ機能を無料プランに開放し、ChatGPTやGoogle Geminiなど他のチャットボットから利用者データを取り込む新しいプロンプトとインポートツールを追加。既存の学習内容を引き継ぎ、乗り換えを容易にする狙い。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-02T22:29:46.000Z",
-      "contentHash": "a73d9e59cf89"
-    },
-    {
-      "id": "102ddfe4f38a",
-      "title": "技研AIマーケット3 でAI同人誌を頒布します",
-      "url": "https://note.com/npaka/n/ne4fffd811731",
-      "summary": "2026年3月7日の「技研AIマーケット3」で、AI4コマ『そらみ と へにへに のゆるふわAI研究所』とAIストーリー漫画『そらテラ』（技術解説付）を頒布します。AIアニメ・ゲーム・ロボット等のデモも持参。会場は浅草橋の技研ベース。",
-      "source": "npaka",
-      "publishedAt": "2026-03-02T22:29:07.000Z",
-      "contentHash": "6becc6f02879"
-    },
-    {
-      "id": "f5369ba63d2d",
-      "title": "Blender Fes 2026 SS で Blender × AI活用入門 についてお話しします",
-      "url": "https://note.com/npaka/n/n56c74887d61e",
-      "summary": "3月28・29日に開催されるBlender Fes 2026 SSで、npakaが「Blender×AI活用入門」を講演します。Blenderユーザー向けの2日間の技術交流イベントです。",
-      "source": "npaka",
-      "publishedAt": "2026-03-02T22:13:44.000Z",
-      "contentHash": "b7ab7c742e82"
-    },
-    {
-      "id": "7463e0eaaa41",
-      "title": "Apple’s cheapest AirPods have hit $89",
-      "url": "https://www.theverge.com/gadgets/887839/apple-airpods-4-active-noise-cancellation-deal-sale",
-      "summary": "AppleのAirPods 4がセール中。通常$129のモデルがWalmartで$89（$30引）、アクティブノイズキャンセリング搭載モデルはAmazon/Walmartで$119（$60引）。AirPods 4は低音や音質が改善され、エントリー向けで高評価。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-02T22:03:09.000Z",
-      "contentHash": "e766f44635db"
     }
   ]
 }
