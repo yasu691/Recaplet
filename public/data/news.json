@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2026-03-23T03:01:00.541Z",
+  "generatedAt": "2026-03-23T09:19:44.295Z",
   "items": [
+    {
+      "id": "ecb1747098c1",
+      "title": "【技育祭2026 春】🌸 スポンサー登壇 &amp;amp; ブース展示を行いました！ | CARTA TECH BLOG",
+      "url": "https://techblog.cartaholdings.co.jp/entry/geeksai2026-spring",
+      "summary": "CARTA HOLDINGSは技育祭2026春に協賛・出展し、なっかーが「何を作るかではなく何を解くか」を主題に登壇。ブースで学生と未来のエンジニア像を対話形式で描く体験企画を実施。夏の実践型インターン「Treasure」（8/10–8/28）参加者募集中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T07:20:46.000Z",
+      "contentHash": "03de35823811"
+    },
+    {
+      "id": "6e8ac5ee895b",
+      "title": "RACER: 自動運転VLAモデルの学習データセットの構築 | Tech Blog - Turingのフィード",
+      "url": "https://zenn.dev/turing_motors/articles/aeb2b1219eb6ee",
+      "summary": "自動運転のVLAモデル学習のため、エッジケース運転シナリオに対する根拠付きキャプションデータセットRACERを提案。VLMの思考力を活かしつつ、画像＋理由説明＋行動（制御）を揃え、従来データの注釈品質や汎用性の課題を解決することを目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T07:00:08.000Z",
+      "contentHash": "77f8eaccf2c1"
+    },
+    {
+      "id": "bc807bb8d853",
+      "title": "【AKS】CiliumNetworkPolicyによるコンテナ間の通信制御を検証してみる | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/03/23/160000",
+      "summary": "AKSでeBPFベースのCiliumのCiliumNetworkPolicyを検証。ACNSを有効化してL7/FQDN制御を利用し、サンプルEchoで「特定コンテナのみ許可」「バックエンドの外部URL制限」「特定通信の拒否」を実装・確認した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T07:00:00.000Z",
+      "contentHash": "81e6165e1bed"
+    },
+    {
+      "id": "a859aa4390f8",
+      "title": "プライベートサブネットのPatchManager、ec2messagesエンドポイントなしで動くのか？ | TechHarmony",
+      "url": "https://blog.usize-tech.com/does-patch-manager-work-without-ec2messages-endpoint/",
+      "summary": "記事は、プライベートサブネットでPatch Managerをec2messagesエンドポイントなしで検証した内容。SSM Agent v3.3.40+（検証は3.3.3883）ならssmとssmmessages（+s3/NAT経由のRHUIアクセス）で動作するため、ec2messagesは不要との結論。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T06:30:46.000Z",
+      "contentHash": "740768a67172"
+    },
+    {
+      "id": "6dcd9d558740",
+      "title": "絶対に理解できるSageMaker Canvas | Fenrir Engineers",
+      "url": "https://engineers.fenrir-inc.com/entry/2026/03/23/153013",
+      "summary": "若林さんがAWS資格学習のためSageMaker Canvasを実践で学んだ記録。Canvasはノーコードで機械学習モデルを作れるが、起動で課金が始まり英語UIの不便さがある点に注意。タイタニックの生存予測や犬猫分類を試した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T06:30:13.000Z",
+      "contentHash": "5b319207e6a5"
+    },
+    {
+      "id": "743598c6d67f",
+      "title": "Cloud Monitoring のアラートポリシーを再設計して PagerDuty の発火を抑えた話 | レスキューナウテックブログのフィード",
+      "url": "https://zenn.dev/rescuenow/articles/c0b80adaf67f3e",
+      "summary": "GCP Cloud Runで複数サービスを運用する中、従来は1つのCloud Monitoringポリシーが1行のエラーログで即PagerDuty発火し、一時的なDBエラーで無駄な通知が多発。ログベース指標をサービス別に作成し、1分集計＋継続3分の閾値で通知するよう再設計して、不要なPagerDuty発火を大幅に削減した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T06:30:11.000Z",
+      "contentHash": "872438de301c"
+    },
+    {
+      "id": "a658303f927a",
+      "title": "NLP2026現地参加レポート : LLM評価・品質保証の実践知 | Timee Product Team Blog",
+      "url": "https://tech.timee.co.jp/entry/2026/03/23/152227",
+      "summary": "株式会社タイミーのプロダクトAIエンジニア貝出が、LLMを用いた求人コンテンツモデレーションの開発に携わる。2026年3月のNLP2026に初めて現地参加し、大雪で移動は困難だったがポスター発表や他社交流で多くを学んだ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T06:22:27.000Z",
+      "contentHash": "ccd88fcf59f4"
+    },
+    {
+      "id": "c7f4d2df317d",
+      "title": "Apple Pay導入スタートガイド：最初に理解しておくべき仕組みと準備 | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/nf9b3dde70c94",
+      "summary": "SHIFTの技術ブログ記事。Web版Apple Pay導入の全体像ガイド。公式資料のアプリ版とWeb版の違い、Appleとの契約（ライセンス・商標・ドメイン証明）、PSPとの決済加盟契約・手数料、証明書取得やSandboxなど導入前に押さえるべき準備とポイントを整理。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T06:14:12.000Z",
+      "contentHash": "46820650fdbf"
+    },
+    {
+      "id": "4d759e5d955c",
+      "title": "Rails の query_log_tags でDB接続ロール（Writer/Reader）をログに出力する | リーナーテックブログのフィード",
+      "url": "https://zenn.dev/leaner_dev/articles/f220906c53b9aa",
+      "summary": "Railsのquery_log_tagsをカスタマイズして、ActiveRecord::Base.current_roleをタグに追加しDB接続ロール（Writer/Reader）をSQLログに出力する方法を紹介。arproxy依存を排し、verbose_query_logsとの競合も回避。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T06:00:08.000Z",
+      "contentHash": "2f22567acdc5"
+    },
+    {
+      "id": "bc9a63879ab3",
+      "title": "チームのために、互いに感謝し称賛する | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/5856980a1b1271",
+      "summary": "スクラムの経験主義を機能させるには心理的安全性が不可欠。Edmondsonの定義を紹介し、率直な発言に対し「感謝」や「称賛」を示すことで安全性を高める方法を解説。目標基準を下げる誤解に注意し、レトロスペクティブの「感謝」活動などで仕組み化する実例を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-23T06:00:04.000Z",
+      "contentHash": "e78c8c19a245"
+    },
+    {
+      "id": "491b365d8b13",
+      "title": "“Collaboration” is bullshit",
+      "url": "https://www.joanwestenberg.com/collaboration-is-bullshit/",
+      "summary": "記事は「コラボレーションは幻想」と断じる。戦闘調査や80/20則を引用し、組織では少数が実働の大半を担い大多数は形式的に留まると指摘。テック業界の協働重視はその不均衡を隠すだけだと論じる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-23T01:43:45.000Z",
+      "contentHash": "99e6a4bc4ccb"
+    },
     {
       "id": "1e877693d4d9",
       "title": "コンテンツ開発力を技術でブーストする - 横断技術組織「開発推進室」 | Sumzap Engineering Blog",
@@ -140,19 +239,19 @@
       "id": "1e15b6b9bf08",
       "title": "GrapheneOS will remain usable by anyone without requiring personal information",
       "url": "https://grapheneos.social/@GrapheneOS/116261301913660830",
-      "summary": "申し訳ありませんが、外部URLを直接参照できません。記事本文か主要抜粋を貼っていただければ、200文字以内で日本語要約します。HNコメントも含めるか（含める/除外）、要約のトーン（中立/肯定/批判）も教えてください。",
+      "summary": "申し訳ありませんが、外部リンクを直接開けないため記事の中身を取得できません。要約をご希望なら、記事本文または主要部分をここに貼ってください（コメント欄も可）。貼っていただければ200文字以内で日本語要約を作成します。",
       "source": "Hacker News",
       "publishedAt": "2026-03-22T21:14:11.000Z",
-      "contentHash": "17340c5f6b8f"
+      "contentHash": "370fd0e782e4"
     },
     {
       "id": "8c35f70e304a",
       "title": "We indexed the Delve audit leak: 533 reports, 455 companies, 99.8% identical",
       "url": "https://trustcompliance.xyz",
-      "summary": "YC支援のDelve（調達$32M）が533件の監査報告で同一テンプレートを流用、455社が影響。trustcompliance.xyzが無償で対象企業の検索・報告スキャン・評価を提供。",
+      "summary": "YC支援のDelveが作成したセキュリティ監査報告書533件が同一テンプレートで、455社が影響。影響企業はtrustcompliance.xyzで検索可能。報告の真偽確認や監視などのツールは無料提供。",
       "source": "Hacker News",
       "publishedAt": "2026-03-22T20:20:29.000Z",
-      "contentHash": "4356b4985018"
+      "contentHash": "16a6ed42d704"
     },
     {
       "id": "451dac033880",
@@ -173,13 +272,22 @@
       "contentHash": "70b24ae4bba5"
     },
     {
+      "id": "3c9e9fcdc0b7",
+      "title": "What young workers are doing to AI-proof themselves",
+      "url": "https://www.wsj.com/economy/jobs/ai-jobs-young-people-careers-14282284",
+      "summary": "外部の有料記事には直接アクセスできません。記事本文を貼っていただければ200字以内で要約します。貼れない場合はHNコメント等の情報を基に要約を作成することも可能です。どちらにしますか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-22T18:18:01.000Z",
+      "contentHash": "9d4ad505d491"
+    },
+    {
       "id": "de5ea683150c",
       "title": "Palantir extends reach into British state as gets access to sensitive FCA data",
       "url": "https://www.theguardian.com/technology/2026/mar/22/palantir-extends-reach-into-british-state-as-it-gets-access-to-sensitive-fca-data",
-      "summary": "米企業Palantir（ピーター・ティール共同創業者）が英金融行為監督機構（FCA）の内部インテリジェンスデータへ3カ月試用でアクセス。週3万ポンド超を支払い金融犯罪対策の解析を実施、正式導入の可能性。市民団体らがプライバシー懸念を表明。既に英公共部門で5億ポンド超の契約を保有。",
+      "summary": "米パランティアが英FCAの機密金融データ「データレイク」を3か月の試験で解析、週3万ポンド超で受注。ピーター・ティール関与を背景に個人情報保護や影響拡大への懸念が出ている。",
       "source": "Hacker News",
       "publishedAt": "2026-03-22T17:56:26.000Z",
-      "contentHash": "5e70d3657a76"
+      "contentHash": "74c85328d316"
     },
     {
       "id": "b52b4db76a0e",
@@ -257,10 +365,10 @@
       "id": "5ee69f2e1d6d",
       "title": "Isaac ROS 4.2 の概要",
       "url": "https://note.com/npaka/n/n3c11632e392a",
-      "summary": "Isaac ROS 4.2はNVIDIAのROS2向けGPU最適化ソフト群で、DGX Spark・JetPack7.1・Thor T4000等をサポート。深度推定やVisual SLAM、DNN、NITROSによる低遅延転送、操作・移動ロボット向け統合ワークフローとJetson実機対応が強み。導入は目的別に段階的に始めるとよい。",
+      "summary": "Isaac ROS 4.2はNVIDIAのROS2向けGPU最適化ソフト群で、DGX SparkやJetPack7.1、Thor T4000をサポート。深度推定やVisual SLAM強化、NITROSで低遅延通信、操作・移動ロボット向けの統合ワークフローと実機運用支援を提供。用途別に導入入口あり。",
       "source": "npaka",
       "publishedAt": "2026-03-22T12:46:48.000Z",
-      "contentHash": "af027622f029"
+      "contentHash": "239957aa1ffc"
     },
     {
       "id": "74782746120c",
@@ -8892,114 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-03-03T15:42:06.000Z",
       "contentHash": "e2e202cc7ddf"
-    },
-    {
-      "id": "dad2c19c54dd",
-      "title": "The best mobile tech announced at MWC 2026 so far",
-      "url": "https://www.theverge.com/tech/882992/mobile-world-congress-mwc-2026-smartphones-laptops-headphones",
-      "summary": "MWC 2026の注目機を紹介。ロボット電話や水没対応の折りたたみスマホ、ポートを差し替えるモジュール式ノートPC、レノボのロボットアーム型AI「Workmate」などが登場。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-03T15:34:33.000Z",
-      "contentHash": "3d90930b58dd"
-    },
-    {
-      "id": "33be6b2a79ea",
-      "title": "All of Amazon’s kid-friendly Kindles are on sale, including the color version",
-      "url": "https://www.theverge.com/gadgets/887836/kindle-paperwhite-colorsoft-kids-twelve-south-plugbug-charger-deal-sale",
-      "summary": "Amazonの子供向けKindle（カラーモデル含む）がセール中。通常モデルと同仕様で、保護ケース・2年延長保証・6か月のAmazon Kids+・広告非表示・保護者機能が付属してお得。他にモップ対応掃除機やFind My対応のTwelve South製GaN充電器も割引中。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-03T15:17:25.000Z",
-      "contentHash": "a24d8f9d9ed3"
-    },
-    {
-      "id": "085d1964a48d",
-      "title": "We played Pokémon Pokopia, ask us anything",
-      "url": "https://www.theverge.com/games/887838/pokemon-pokopia-ask-us-anything",
-      "summary": "ポケモン30周年作「Pokémon Pokopia」が3月5日（Nintendo Switch 2専用）発売。どうぶつの森×マイクラ風の人間なし世界を再建するライフシムで、記者2人が1週間遊んで作成物や仲間関係、キャラカスタム等について読者の質問に答える。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-03T15:00:00.000Z",
-      "contentHash": "675029b44633"
-    },
-    {
-      "id": "40f3d9d6ed7b",
-      "title": "Scott Pilgrim creator Bryan Lee O’Malley on taking ‘another run’ with new game",
-      "url": "https://www.theverge.com/games/887845/scott-pilgrim-ex-game-bryan-lee-omalley-interview",
-      "summary": "『Scott Pilgrim』が再び活気を取り戻している。2021年のゲーム再発、Netflixアニメ『Scott Pilgrim Takes Off』、20周年ボックスに続き、新作ビート’Em‑Up『Scott Pilgrim EX』が登場。作者ブライアン・リー・オマリーは再始動は特別な計画ではなく自然な流れだったと語る。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-03T15:00:00.000Z",
-      "contentHash": "621297304ed0"
-    },
-    {
-      "id": "d6c085a5cbaf",
-      "title": "The 6G, modular, robot phones of the future",
-      "url": "https://www.theverge.com/podcast/888089/mwc-2026-6g-foldable-robot-phones-vergecast",
-      "summary": "VergecastはMWC取材を報告。6Gやモジュール式・ロボット化したスマホ、個性的なケースやストラップ、Samsungのプライバシーディスプレイや「電話メタバース」など新発想が多数登場した。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-03T14:39:23.000Z",
-      "contentHash": "f8025e9571c0"
-    },
-    {
-      "id": "efded833e994",
-      "title": "Xiaomi, unlike Google and Samsung, thinks camera hardware comes first",
-      "url": "https://www.theverge.com/tech/888082/xiaomi-unlike-google-and-samsung-thinks-camera-hardware-comes-first",
-      "summary": "XiaomiはMWC2026でLeica共作の17/17 Ultraを発表。連続ズームやLOFICセンサーなどカメラのハード面を重視し、AIよりまずハードの課題解決を優先すると説明した。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-03T14:34:29.000Z",
-      "contentHash": "fb56f8cbbc92"
-    },
-    {
-      "id": "2e2bb010d6ee",
-      "title": "Apple introduces the new MacBook Air with M5",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/",
-      "summary": "AppleはM5搭載の新型MacBook Airを発表。高速CPU・次世代GPU（各コアにニューラルアクセラレータ）でAI性能向上。標準512GB（最大4TB）、N1でWi‑Fi7/Bluetooth6、薄型アルミ、13/15インチ、最大18時間駆動。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-03T14:04:56.000Z",
-      "contentHash": "e7e7267ba840"
-    },
-    {
-      "id": "a553588f92b4",
-      "title": "Apple Introduces MacBook Pro with All‑New M5 Pro and M5 Max",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
-      "summary": "Appleが14/16インチ新型MacBook Proを発表。M5 Pro/M5 Max搭載で世界最速CPUコアとNeural Accelerator内蔵GPUによりAI性能大幅向上。SSDは最大2倍速、標準容量は1TB（Pro）/2TB（Max）。N1でWi‑Fi7/Bluetooth6対応、最大24時間駆動、Liquid Retina XDRやThunderbolt5、12MPカメラ等を搭載。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-03T14:02:06.000Z",
-      "contentHash": "2c3be258c3f5"
-    },
-    {
-      "id": "9f981866c9c7",
-      "title": "Apple unveils new Studio Display and all-new Studio Display XDR",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/",
-      "summary": "Appleは新型Studio Displayとプロ向けStudio Display XDRを発表。Studio Displayは12MP Center Stage（Desk View対応）、3マイク、6スピーカー、Thunderbolt 5搭載。XDRは27型5K Retina XDR（mini‑LED、2000超のローカルディミング域）、最大1000nit SDR／2000nit HDR、120Hz・Adaptive Syncで高精度な色とコントラストを実現し、同等のカメラ・音響を備える。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-03T14:00:11.000Z",
-      "contentHash": "63a0c4a09a83"
-    },
-    {
-      "id": "2f3a046b9347",
-      "title": "【Microsoft 365 Copilot】- AgentBuilderでエージェントを作る | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/84fd07574a5cd0",
-      "summary": "Microsoft 365 CopilotのAgent Builderを使い、Excelで管理するドキュメント一覧をナレッジソースにした応答エージェント作成手順を紹介。Copilot chatでエージェント作成→名前・説明・指示入力→ナレッジ選択→保存→質問。非常に簡単で使いやすい。著者はHeadwatersのtakekawa tomoki。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-03T12:28:47.000Z",
-      "contentHash": "0e61e3b26a12"
-    },
-    {
-      "id": "895b6701f55c",
-      "title": "Mullvad VPN: Banned TV Ad in the Streets of London [video]",
-      "url": "https://www.youtube.com/watch?v=rwhznrpgl7k",
-      "summary": "外部のURLは直接参照できません。動画の文字起こしか要点、またはどちら（動画本編／HNの議論）を要約してほしいかを貼ってください。内容をいただければ200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-03T12:09:59.000Z",
-      "contentHash": "74c66ed8070c"
-    },
-    {
-      "id": "0e665ed45c58",
-      "title": "ROS開発者のための DDS 超入門 (1) - 事始め",
-      "url": "https://note.com/npaka/n/n9f776b937787",
-      "summary": "ROS 2の通信基盤DDSの超入門。roscore不要の分散ディスカバリ、DCPS（Domain/Topic/DataWriter/DataReader）とトピック別QoSの重要性、採用理由（実績・リアルタイム性・ベンダ選択）。",
-      "source": "npaka",
-      "publishedAt": "2026-03-03T12:09:52.000Z",
-      "contentHash": "238e6b3f89c2"
     }
   ]
 }
