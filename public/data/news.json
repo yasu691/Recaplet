@@ -1,6 +1,276 @@
 {
-  "generatedAt": "2026-03-23T17:13:32.518Z",
+  "generatedAt": "2026-03-24T02:50:31.668Z",
   "items": [
+    {
+      "id": "460eeea36032",
+      "title": "AI時代でも生きる！効率的な開発環境の紹介 | TalentX Tech Blog",
+      "url": "https://tech.talentx.co.jp/entry/2026/03/24/102826",
+      "summary": "TalentXの桃谷氏が、AI時代でも生産性を高めるGoバックエンド開発環境を紹介。zshのalias、iTerm2のHotKey、tmux＋git worktree、zsh‑autosuggestions、Alfred/RaycastなどでAIエージェントと並列作業を効率化する設定と使い方を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-24T01:28:26.000Z",
+      "contentHash": "1da5175a4cef"
+    },
+    {
+      "id": "975c8894af49",
+      "title": "【Claude Code】CLAUDE.mdが肥大化する問題とその解決策 | ENECHANGE Developer Blog",
+      "url": "https://tech.enechange.co.jp/entry/2026/03/24/102016",
+      "summary": "CLAUDE.mdは/initで生成され肥大化しやすく、長いとコンテキストを圧迫するため200行以下を目標に不要な記述を削除すべき。削除判断は「消したらClaudeがミスするか」。ミスは追記して生きた文書にし、詳細は .claude/rules と @imports で分割管理する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-24T01:20:16.000Z",
+      "contentHash": "07159eb1f5f8"
+    },
+    {
+      "id": "3607a78a7b48",
+      "title": "【小ネタ】AWS CLI で EBS ボリュームの「タイプ別総容量」をサクッと集計する | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/03/24/101233",
+      "summary": "AWS CloudShell上でAWS CLI（aws ec2 describe-volumes）とjqを使い、EBSボリュームをタイプ別に合計GiBで集計する方法を紹介。コスト削減や移行見積に役立つ。スクリプト作成→CloudShellへアップ→実行→確認→クリーンアップの手順。読み取りのみだがCloudShell利用権限が必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-24T01:12:33.000Z",
+      "contentHash": "a4f93a6df1c5"
+    },
+    {
+      "id": "29b7f167b17c",
+      "title": "【イベントレポート】どこまで共通化する？を一緒に考える夜 | estie inside blog",
+      "url": "https://www.estie.jp/blog/entry/2026/03/24/101042",
+      "summary": "2026年1月28日、estie主催でエンタープライズSaaSの「共通化と個別化の境界」を議論するイベントを開催。涌井氏の事例紹介と参加者のグループワークで、どの機能をコア化すべきかの判断軸を共有。実務的な示唆が得られ、今後も交流の場を継続予定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-24T01:10:42.000Z",
+      "contentHash": "ede7ad328b47"
+    },
+    {
+      "id": "a33f5e4a8bc6",
+      "title": "【2026年3月最新】生成AI WebAPI 料金比較 - 主要6社モデル一覧 | ENGINEER TECH BLOG",
+      "url": "https://note.com/fujisan390/n/n50ef4942220d",
+      "summary": "2026年3月版の生成AI WebAPI料金比較（主要6社）。高性能モデルは横ばい〜微増、低価格帯は値下がり（特にGoogle）。コンテキスト1Mトークン対応が増加。ChatGPTの一部モデルは選択肢から削除だがAPIで利用可。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-24T01:01:42.000Z",
+      "contentHash": "90462741d76d"
+    },
+    {
+      "id": "4bd353d04dcd",
+      "title": "第3回GMO大会議・春 サイバーセキュリティ2026を開催！産官学で守り抜く、AI時代のサイバーセキュリティ【イベントレポート前編】 | GMO Developers",
+      "url": "https://developers.gmo.jp/events/81168/",
+      "summary": "「第3回GMO大会議・春 サイバーセキュリティ2026」開会にあたり、グループ代表・熊谷正寿氏が来場者に挨拶。1995年のインターネット普及からの変遷を振り返り、AI時代におけるサイバーセキュリティ対策の重要性と連携を訴えた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-24T01:00:53.000Z",
+      "contentHash": "10d03a4f7a99"
+    },
+    {
+      "id": "35f6d2ccf718",
+      "title": "「圧倒的なドメイン知識×デジタル」で一気通貫のDXに伴走。日立製作所のコンサルティング部隊が熱い | Qiita Zine",
+      "url": "https://qiita.com/official-columns/interview/202603-hitachi-2/",
+      "summary": "日立のコンサル部隊は業界特有のドメイン知識とデジタルを掛け合わせ、顧客起点でDXを一気通貫支援。青木司部長は製薬領域の知見で戦略策定から実装まで伴走し、個別化医療などの課題解決に取り組む。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-24T01:00:14.000Z",
+      "contentHash": "db2e150a6c45"
+    },
+    {
+      "id": "f656911b45b5",
+      "title": "CopilotエージェントモードでEOL・脆弱性対応を「自動化」してみた！  エンジニアが本来の価値創造に集中するために | IDCF テックブログ",
+      "url": "https://blog.idcf.jp/entry/vsc-agent-update",
+      "summary": "IDCFの事例。VS CodeのCopilotエージェントでフロントのEOL/脆弱性対応（webpack4→5、vue-cli等）を自律実行。コンテナ起動→ログ確認→package更新→ビルドの反復で最小限の更新でエラー解消。鍵は小分け指示・明確な完了定義・人の承認で開発負荷を軽減し本来の価値創造へ集中可能にした点。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-24T01:00:00.000Z",
+      "contentHash": "95f9ce6b73ae"
+    },
+    {
+      "id": "ec921c71578a",
+      "title": "GitHub Copilot × OpenSpec（Fission-AI）で実現する次世代の仕様駆動開発（SDD） | IDCF テックブログ",
+      "url": "https://blog.idcf.jp/entry/sdd-with-AI",
+      "summary": "GitHub CopilotとOpenSpecで次世代の仕様駆動開発（SDD）を提案。AIが仕様やタスクリストを自動生成し人がレビュー・承認することで「仕様＝Single Source of Truth」を保ち、AIのコンテキスト喪失やVibe Codingの不安定さを解消し、常に最新のドキュメントを残す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-24T01:00:00.000Z",
+      "contentHash": "021ce9a6b3d4"
+    },
+    {
+      "id": "9c0721b02f7f",
+      "title": "【DGX Spark検証】小規模GPUサーバでどこまでできる？ DGX Sparkと最新モデルで探る「ローカルLLM」の実用性と可能性 | IDCF テックブログ",
+      "url": "https://blog.idcf.jp/entry/local_LLM",
+      "summary": "IDCフロンティアがDGX Spark（Dell Pro Max with GB10）上でOllama＋Open WebUIを使い、Nemotron‑Nano‑9B‑v2含む複数のOSSモデルを比較し、オンプレ日本語LLMの速度・精度と実用性を検証した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-24T01:00:00.000Z",
+      "contentHash": "b38ce25c4f0d"
+    },
+    {
+      "id": "9ff84ad5d3b1",
+      "title": "Windows 3.1 tiled background .bmp archive",
+      "url": "https://github.com/andreasjansson/win-3.1-backgrounds",
+      "summary": "全てのフィードバックを読み、真摯に受け止めています。利用可能な指定子はドキュメント（リンク）で確認してください。Windows 3.1のタイル背景.bmpアーカイブに関するページで読み込みエラーが発生したため、ページを再読み込みしてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-23T22:52:35.000Z",
+      "contentHash": "57beea94c034"
+    },
+    {
+      "id": "2a523e78e317",
+      "title": "The US government just banned consumer routers made outside the US",
+      "url": "https://www.theverge.com/news/899172/fcc-foreign-router-ban",
+      "summary": "米連邦通信委員会（FCC）は国家安全保障上のリスクを理由に、外国製の消費者向けルーターの今後の輸入を事実上禁止した。既存や既に無線認可を得た製品は継続使用・輸入可能だが、多くが海外製のため影響は大きい。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-23T22:47:23.000Z",
+      "contentHash": "a77761235f32"
+    },
+    {
+      "id": "7204a8f05b9c",
+      "title": "Claude Code Cheat Sheet",
+      "url": "https://cc.storyfox.cz",
+      "summary": "キーボードショートカット（一般操作、入力改行、モード切替など）、MCPサーバ管理（追加・一覧・起動・トランスポート）、設定スコープ（ローカル/プロジェクト/ユーザ）、およびセッション操作・設定・ツール・特殊コマンドなどの主要コマンド一覧。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-23T21:44:20.000Z",
+      "contentHash": "558ad8f1304f"
+    },
+    {
+      "id": "fda08cee0c35",
+      "title": "FCC Updates Covered List to Include Foreign-Made Consumer Routers",
+      "url": "https://www.fcc.gov/document/fcc-updates-covered-list-include-foreign-made-consumer-routers",
+      "summary": "申し訳ありませんが、外部リンクの内容を直接取得できません。URL先の記事を要約するには、本文を貼り付けるか、どの記事（どのリンク）を要約するか教えてください。各記事別に要約するか、3件まとめて要約するかも指定してください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-23T21:28:02.000Z",
+      "contentHash": "76ca28b93240"
+    },
+    {
+      "id": "2253762790d7",
+      "title": "The kid-friendly Fitbit Ace is $100, which matches its best price",
+      "url": "https://www.theverge.com/gadgets/899134/fitbit-ace-amazon-big-spring-sale-2026-deal",
+      "summary": "子供向けスマートウォッチ「Fitbit Ace LTE」がAmazonやBest Buy、Targetで過去最安の99.95ドルに値下げ。歩数を使ったゲームで運動を促し、保護者の管理や通話・メッセージ機能も備えた春のセール商品。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-23T21:10:28.000Z",
+      "contentHash": "93bec63853d0"
+    },
+    {
+      "id": "55acb1bc8879",
+      "title": "How I'm Productive with Claude Code",
+      "url": "https://neilkakkar.com/productive-with-claude-code.html",
+      "summary": "Tano入社後、ルーティンをClaude Codeの/git-prで自動化してPR作成の負担を削減し、ビルドをSWCに変えてサーバー再起動を1秒未満に短縮。文脈切替が減り生産性が向上した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-23T20:49:10.000Z",
+      "contentHash": "5b0a76876dbd"
+    },
+    {
+      "id": "42053fe49d39",
+      "title": "Bets on US-Iran ceasefire show signs of insider knowledge, say experts",
+      "url": "https://www.theguardian.com/us-news/2026/mar/23/bets-us-iran-ceasefire-show-signs-of-insider-knowledge-say-experts-polymarket",
+      "summary": "予測市場Polymarketで新規アカウント8件が3月21日ごろ約7万ドルを米・イラン停戦に賭け、成立なら約82万ドルに。匿名の仮想通貨ウォレットで追跡困難。専門家は時期や過去の類似勝利からインサイダー取引の疑いがあると指摘している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-23T20:25:10.000Z",
+      "contentHash": "254ed06ee5e5"
+    },
+    {
+      "id": "6237e47e5ea3",
+      "title": "Kalshi says it will block politicians and athletes from trading in markets they’re tied to",
+      "url": "https://www.theverge.com/tech/899097/kalshi-politicians-athletes-insider-trading-blocked",
+      "summary": "予測市場プラットフォームKalshiは、政治候補者や関係するプロ・大学選手、審判らが自分に関係する市場で取引するのを防ぐ技術的ガードレールと市場上の通報機能を導入すると発表した。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-23T20:24:43.000Z",
+      "contentHash": "ac2e04416389"
+    },
+    {
+      "id": "80c8d1ff52f0",
+      "title": "American aviation is near collapse?",
+      "url": "https://www.theatlantic.com/newsletters/2026/03/aviation-failures-tsa-dhs-shutdown/686505/",
+      "summary": "米国の商業航空が崩壊寸前だ。保安検査の長蛇列は部分的な政府閉鎖でTSA職員が未払い、ラガーディアでの事故で死者と数百便欠航、管制の不備や過労で全国の空港運航が逼迫している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-23T20:11:38.000Z",
+      "contentHash": "2cf4563ea606"
+    },
+    {
+      "id": "7e5438fba4b2",
+      "title": "Google’s new Pixel 10 ads made me go ‘Wait, WHAT are they trying to sell?’",
+      "url": "https://www.theverge.com/tech/898992/google-pixel-10-ads-moving-on-stalker-lying-beach-view-100-zoom",
+      "summary": "GoogleのPixel 10新CM2本が意図不明で波紋。特に「100x Zoom」はホテルの景色を偽って見せるよう示唆し、説明文で「シミュレーション」「追加機材使用」と注記している。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-23T19:49:11.000Z",
+      "contentHash": "c3fe02aeb84b"
+    },
+    {
+      "id": "b9f640a2a4dc",
+      "title": "Nvidia CEO Jensen Huang says &#8216;I think we&#8217;ve achieved AGI&#8217;",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/899086/jensen-huang-nvidia-agi",
+      "summary": "NvidiaのCEOジェンセン・フアンがLex Fridmanのポッドキャストで「AGIを達成したと思う」と発言し、その後やや釈明した。AGIは定義が曖昧で論争を呼び、用語や企業間契約にも影響している。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-23T19:42:33.000Z",
+      "contentHash": "1a06c6808946"
+    },
+    {
+      "id": "79793ec0b483",
+      "title": "Two of my favorite color e-book readers are the cheapest they’ve been in months",
+      "url": "https://www.theverge.com/gadgets/899019/kindle-colorsoft-kobo-libra-colour-ebook-reader-amazon-big-spring-sale-2026-deal",
+      "summary": "カラー対応電子書籍リーダーが値下げ中。Kindle Colorsoft（16GB）がAmazon/Best Buyで$169.99（$80引）、Kobo Libra ColourがRakutenで$199.99（$30引）と数ヶ月ぶりの底値。色表示は必須でないが魅力で、購入は電子書籍の買い先で選ぶのが良い。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-23T19:30:00.000Z",
+      "contentHash": "3dee75f68695"
+    },
+    {
+      "id": "d3f84434fee6",
+      "title": "Local Stack Archived their GitHub repo and requires an account to run",
+      "url": "https://github.com/localstack/localstack",
+      "summary": "開発を単一の統合LocalStackイメージに集約するため、このリポジトリはアーカイブ化（読み取り専用）されました。非商用向けの同等機能を持つ無料Hobbyプラン等に移行ください。バグ報告や要望、Slack参加は継続を。LocalStackはローカルでAWSをエミュレートするコンテナ型フレームワークです。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-23T18:57:08.000Z",
+      "contentHash": "5395ade5bef3"
+    },
+    {
+      "id": "e6ea7d92577d",
+      "title": "Apple could put ads in Maps as soon as this summer",
+      "url": "https://www.theverge.com/tech/899053/apple-maps-advertising-rumor",
+      "summary": "Bloomberg報道によると、Appleは今夏にもiPhoneやWebのMapsに広告を導入し、企業が「寿司」などの検索で上位表示を有料入札できるようにする可能性がある。今月発表され、サービス収入の増加が見込まれる。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-23T18:54:44.000Z",
+      "contentHash": "9d11eb2893ba"
+    },
+    {
+      "id": "5af4910b01ef",
+      "title": "Autoresearch on an old research idea",
+      "url": "https://ykumar.me/blog/eclip-autoresearch/",
+      "summary": "すみません、私には外部サイトを直接閲覧する機能がありません。この記事を要約するには本文のコピペか、要点（主要見出しや結論）を貼ってください。200字以内で簡潔にまとめます。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-23T18:40:58.000Z",
+      "contentHash": "e49c8b9e6527"
+    },
+    {
+      "id": "8389465b1c51",
+      "title": "Donut Lab’s solid-state battery could barely hold a charge after getting damaged",
+      "url": "https://www.theverge.com/transportation/898881/donut-lab-solid-state-battery-damage-test",
+      "summary": "Donut Labは固体電池の独立試験で、損傷を与えたセルがほとんど充電を保持できなかったものの発火はせず、同社はこれを成果と評価。過去の高温試験でパウチの真空シールが失われたことが背景にある。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-23T17:35:52.000Z",
+      "contentHash": "1da2346564fa"
+    },
+    {
+      "id": "103e0358bf5e",
+      "title": "US and TotalEnergies reach 'nearly $1B' deal to end offshore wind projects",
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html",
+      "summary": "米政府と仏トタルエナジーズが洋上風力事業の打ち切りで約10億ドルの合意に達した。安全や漁業への影響を巡る対立が背景で、再生可能エネ後退を懸念する声もある。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-23T17:35:38.000Z",
+      "contentHash": "f005f452f6a7"
+    },
+    {
+      "id": "2cc4d3e3aea8",
+      "title": "Apple’s WWDC 2026 event starts June 8th",
+      "url": "https://www.theverge.com/news/898997/apple-wwdc-2026-june-8-ios-27-ai-siri",
+      "summary": "AppleはWWDCを6月8～12日にApple Parkで開催。iOS/iPadOS/macOS/watchOS/tvOSの2027版やAI強化、SiriのAI改良が注目される。秋にはiPhone 18 Proの先行発売や新HomePod/Apple TVの噂もある。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-23T17:21:53.000Z",
+      "contentHash": "4d21f3cde53c"
+    },
+    {
+      "id": "a78d4890c12a",
+      "title": "PDP’s wireless guitar controller has returned to its best price to date",
+      "url": "https://www.theverge.com/gadgets/898962/pdp-riffmaster-guitar-controller-amazon-big-spring-sale-2026-deal",
+      "summary": "PDPの無線ギターコントローラー「Riffmaster」が最安の99.99ドルに復帰。通常約150ドルから50ドル引き。Xbox/PlayStation/ニンテンドースイッチ版がAmazon・Walmart・Best Buyでセール中（Amazon Big Spring Sale 2026）。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-23T17:05:12.000Z",
+      "contentHash": "719621613154"
+    },
+    {
+      "id": "67765b8e8526",
+      "title": "Is it a pint?",
+      "url": "https://isitapint.com/",
+      "summary": "何年もの注ぎで「これは本当にパイントか？」と疑問を持った著者が調査し、その発見からビール・ワイン・サイダーを正直な量で提供することを求める草の根運動「パイント・パトロール」が生まれた。発見と始まりを記録する記事。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-23T16:13:40.000Z",
+      "contentHash": "ec1b9aa7ffd1"
+    },
     {
       "id": "b253d34d62ca",
       "title": "Some writing advice from Project Hail Mary’s Andy Weir",
@@ -68,10 +338,10 @@
       "id": "ffbd8d6f205a",
       "title": "DGX Spark で piper-plus のTTS を試す",
       "url": "https://note.com/npaka/n/nd9cab6cf0665",
-      "summary": "DGX Sparkでpiper-plus v1.8.0を試用。linux-arm64版を入手しtsukuyomiモデルをダウンロード、piperでoutput.wavを生成。Speak.pyでpiper実行とaplay再生を自動化。VITS採用のマルチ言語TTS。",
+      "summary": "DGX Sparkでpiper-plus（v1.8.0）を試用。linux-arm64版を展開し、つくよみモデルをダウンロードしてCLIでテキスト→output.wavを生成。さらにSpeak.pyで自動実行・再生する手順を紹介。piper-plusはVITS採用の多言語マルチスピーカTTS。",
       "source": "npaka",
       "publishedAt": "2026-03-23T13:01:45.000Z",
-      "contentHash": "db893dfaeea6"
+      "contentHash": "acce1f63aa25"
     },
     {
       "id": "102106581f82",
@@ -590,10 +860,10 @@
       "id": "5ee69f2e1d6d",
       "title": "Isaac ROS 4.2 の概要",
       "url": "https://note.com/npaka/n/n3c11632e392a",
-      "summary": "Isaac ROS 4.2はNVIDIAのROS2向けGPU最適化ソフト群で、DGX SparkやJetPack7.1、Thor T4000をサポート。深度推定やVisual SLAM強化、NITROSで低遅延通信、操作・移動ロボット向けの統合ワークフローと実機運用支援を提供。用途別に導入入口あり。",
+      "summary": "Isaac ROS 4.2はDGXやJetPack7.1、Thor T4000をサポートし、ステレオ深度や手持ちカメラでの地図作成・局所化を強化。GPU最適化とNITROSで低遅延化し、移動ロボットやマニピュレーション、Jetson実機向けワークフローを提供。",
       "source": "npaka",
       "publishedAt": "2026-03-22T12:46:48.000Z",
-      "contentHash": "239957aa1ffc"
+      "contentHash": "5f0c4feafef1"
     },
     {
       "id": "74782746120c",
@@ -689,10 +959,10 @@
       "id": "d9b793bf697a",
       "title": "RLT の概要",
       "url": "https://note.com/npaka/n/n32e2b2186b62",
-      "summary": "「RLT」は大規模VLAの内部表現を圧縮した「RL token」を作り、小さなオンラインRLポリシーで精密操作の難所だけを短時間で改善する手法。VLA本体を再学習せず行動を編集して高速に適応する。",
+      "summary": "RLT（RL Tokens）は、VLAの内部表現を圧縮した「RLトークン」を用い、巨大モデルを再学習せず小型のactor/criticで精密操作の難所だけを高速オンライン適応する手法。VLAの行動を編集する形で数時間・多数回の更新が可能。",
       "source": "npaka",
       "publishedAt": "2026-03-22T06:05:06.000Z",
-      "contentHash": "65401c2d8a09"
+      "contentHash": "6478d6e11d08"
     },
     {
       "id": "7b4692b80b4a",
@@ -977,10 +1247,10 @@
       "id": "3cf5b5103cc7",
       "title": "HuggingFace Diffusers v0.37.0の新機能",
       "url": "https://note.com/npaka/n/n70eba03fe869",
-      "summary": "Diffusers v0.37.0は、再利用可能ブロックで柔軟に組めるModular Diffusersを導入。Z-ImageやFLUX.2、Qwen-Image-Layered、Fibo Edit、Cosmos系、GLM-Image、RAEなど多数の新画像モデルと、音声同期Text-to-Video（TX-2）などの新パイプラインを追加しました。",
+      "summary": "Diffusers v0.37.0では、再利用可能ブロックで組むModular Diffusersを導入し、Z-Image、Flux2 Klein、Qwen-Image-Layered、Fibo Edit、Cosmos Predict/Transfer2.5、GLM-Image、RAEや音声同期TX-2など多彩な新パイプラインとモデルが追加されました。",
       "source": "npaka",
       "publishedAt": "2026-03-21T07:01:02.000Z",
-      "contentHash": "aa2a888b1f97"
+      "contentHash": "11ae3a894022"
     },
     {
       "id": "3f3b32c560b4",
@@ -1499,10 +1769,10 @@
       "id": "752794e73e91",
       "title": "Google AI Studio のフルスタックバイブコーディング機能の概要",
       "url": "https://note.com/npaka/n/n77bf70d9b349",
-      "summary": "Google AI Studioがフルスタックのバイブコーディングに対応。プロンプトから本番アプリ化が可能に（マルチプレイヤー、外部ライブラリ、進捗保存、Firebase連携・認証、シークレット管理、セッション復元、Next.js対応）。エージェントが連携やコード生成を自動化し、リアルタイムゲームやコラボなどの開発を簡素化する。",
+      "summary": "Google AI Studioのバイブコーディングが強化され、プロンプトから即本番アプリ化が可能に。マルチプレイヤー、外部ライブラリ導入、進捗保存、Firebase（Firestore/Auth）統合、シークレット管理、セッション再開、Next.js対応などを備え、ゲームやリアルタイムコラボ例も紹介。",
       "source": "npaka",
       "publishedAt": "2026-03-19T22:14:29.000Z",
-      "contentHash": "ef928612ec88"
+      "contentHash": "ed2b7e41eb33"
     },
     {
       "id": "ca3ecd33c923",
@@ -8730,276 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-03-04T15:55:34.000Z",
       "contentHash": "3abd7d3f1eaf"
-    },
-    {
-      "id": "31f72444f205",
-      "title": "Google’s Pixel 10 is the best Android phone available, and it’s $200 off",
-      "url": "https://www.theverge.com/gadgets/889060/google-pixel-10-anker-soundcore-boom-3i-speaker-deal-sale",
-      "summary": "GoogleのPixel 10（128GB）がWootで3月6日まで$200引きの$599に。Pixel 10aは3月5日発売予定だが、Pixel 10は6.3インチOLEDや高性能仕様、1年保証が付くのが利点。AnkerスピーカーやMotoタグの割引も紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-04T15:50:00.000Z",
-      "contentHash": "97cf9b3b38b2"
-    },
-    {
-      "id": "5c31800fef79",
-      "title": "BenQ’s new Mac monitor could be a cheaper alternative to Apple’s new Studio Display",
-      "url": "https://www.theverge.com/tech/889082/benq-27-inch-5k-mac-monitor-ma270s-display",
-      "summary": "BenQが27型5KディスプレイMA270Sを発表。5120×2880、Nano Gloss採用で視野角向上、P3カバー99%、輝度500ニト。価格は$999でAppleの新Studio Display（$1599）より$600安いが機能面は一部劣る。今月発売予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-04T15:32:24.000Z",
-      "contentHash": "2688e5a676e2"
-    },
-    {
-      "id": "bf6e0dbad795",
-      "title": "\"It Turns Out\"",
-      "url": "https://jsomers.net/blog/it-turns-out",
-      "summary": "外部リンクへ直接アクセスできないため記事を取得できません。記事本文か主要抜粋をこちらに貼っていただければ、200文字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-04T14:52:46.000Z",
-      "contentHash": "80240059bc7c"
-    },
-    {
-      "id": "522ed7bb4bed",
-      "title": "Where to preorder the new iPhone 17E before it hits stores on March 11th",
-      "url": "https://www.theverge.com/gadgets/887512/iphone-17e-preorder-how-to-buy-price-release-date",
-      "summary": "iPhone 17Eは3月11日発売の廉価モデルで、6.1インチ・$599から。256GB基準・A19搭載、MagSafe（Qi2対応）やCeramic Shield 2を備え、先行予約はAppleや大手小売・キャリアで可能。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-04T14:29:02.000Z",
-      "contentHash": "0069b1f5c303"
-    },
-    {
-      "id": "2e2ea84962cc",
-      "title": "All the news about Apple’s MacBook Neo, iPhone 17E, and more",
-      "url": "https://www.theverge.com/tech/888352/apple-march-2026-event-experience-announcements-iphone-macbook-ipad",
-      "summary": "Appleは3月に新製品を一斉発表。iPhone 17E（$599、MagSafe・256GB・Ceramic Shield 2）、M4搭載iPad Air、M5搭載のMacBook Pro/Air、Studio Display XDR、A18 Pro搭載の廉価MacBook Neo（13インチ、$599）など。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-04T14:24:17.000Z",
-      "contentHash": "32a36b307f67"
-    },
-    {
-      "id": "978da8c69aa3",
-      "title": "iPhone 17e hands-on: nothing more, nothing less",
-      "url": "https://www.theverge.com/tech/888941/apple-iphone-17e-hands-on",
-      "summary": "Appleは廉価版「iPhone 17e」（$599）を発表。iPhone 17の簡易版で16eの後継。黒・白・ピンク。6.1インチ60HzでDynamic Island/ProMotion非搭載、Ceramic Shield 2で耐傷性向上。MagSafe対応と容量増で価格据え置き。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-04T14:23:35.000Z",
-      "contentHash": "abdced0b6176"
-    },
-    {
-      "id": "14f5921c4e15",
-      "title": "Apple launches $599 MacBook Neo powered by an iPhone chip",
-      "url": "https://www.theverge.com/tech/886496/apple-march-2026-event-macbook-neo-announcement",
-      "summary": "AppleがA18 Pro搭載のエントリーモデル「MacBook Neo」を発表。$599からで13インチ（2408×1506）、8GB RAM、256/512GB、1080pカメラ、USB‑C×2（1はUSB3、1はUSB2）、ヘッドホン端子、空間オーディオ対応スピーカー、Touch IDはオプション、4色展開。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-04T14:19:47.000Z",
-      "contentHash": "114c03dc6459"
-    },
-    {
-      "id": "8f986cce74dd",
-      "title": "MacBook Neo",
-      "url": "https://www.apple.com/macbook-neo/",
-      "summary": "申し訳ありませんが、外部リンクを直接開けないため元記事やコメントを取得できません。記事本文とコメントの要点か引用を貼っていただければ、200文字以内の日本語要約を作成します。※要約のトーン（中立/肯定/批判）指定があれば教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-04T14:16:56.000Z",
-      "contentHash": "62c806cfec01"
-    },
-    {
-      "id": "c31bac9a0298",
-      "title": "Apple Introduces MacBook Neo",
-      "url": "https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/",
-      "summary": "Appleが新ノート「MacBook Neo」を発表。薄型軽量の新設計と最新Appleシリコンで性能とバッテリ駆動時間を向上。改良ディスプレイ、接続性、macOS連携を備え、環境配慮の素材で複数構成・カラーを用意。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-04T14:16:41.000Z",
-      "contentHash": "af6c0b97cb2a"
-    },
-    {
-      "id": "54591c4b894e",
-      "title": "Our first hands-on look at Apple’s MacBook Neo",
-      "url": "https://www.theverge.com/tech/888712/macbook-neo-laptop-iphone-chip-apple-event-photos-price-features",
-      "summary": "Appleの新廉価ノート「MacBook Neo」はカラフルな筐体と控えめに色合わせされたキーボードが特徴。内部は通常のMシリーズではなくiPhone向けA18 Proチップ搭載で、$599から。トレードオフあり。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-04T14:15:04.000Z",
-      "contentHash": "ec984263cfe2"
-    },
-    {
-      "id": "4d9213de05d6",
-      "title": "Glaze by Raycast",
-      "url": "https://www.glazeapp.com/",
-      "summary": "GlazeはRaycastのデスクトップ向けAIアプリ生成ツール。ローカル実行でOSと統合、ファイルやAPI、ハードウェア連携が可能。コード不要で自然言語からアプリ作成・共有でき、プライベートベータのウェイトリスト制（既存Raycastユーザー優先）。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-04T13:21:31.000Z",
-      "contentHash": "f7fcefbf581a"
-    },
-    {
-      "id": "5a3cfe31ed18",
-      "title": "Qwen3.5 Fine-Tuning Guide – Unsloth Documentation",
-      "url": "https://unsloth.ai/docs/models/qwen3.5/fine-tune",
-      "summary": "UnslothでQwen3.5（0.8B〜35B等）を視覚・テキスト両対応でbf16 LoRAやFFTで高速・低VRAM（例:35B=74GB）に微調整可能。Colabノート有、transformers v5必須、QLoRA非推奨、FFTはVRAM4倍。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-04T12:04:31.000Z",
-      "contentHash": "a22cab60b4c6"
-    },
-    {
-      "id": "61daa06a7a63",
-      "title": "Nobody Gets Promoted for Simplicity",
-      "url": "https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/",
-      "summary": "「簡潔さは美徳だが獲得と評価が難しい」。シンプルに動く実装は目立たず昇進や評価で不利に。長く複雑な設計は語りやすく、過剰設計が報われやすい問題を指摘。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-04T11:43:32.000Z",
-      "contentHash": "951f798489f0"
-    },
-    {
-      "id": "d083e5b9b473",
-      "title": "【マルチアカウント設計】AWS Organizations / AWS Control Tower 導入前に整理すべきポイント | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/03/04/201007",
-      "summary": "AWS Organizations/Control Tower導入前に整理すべきマルチアカウント設計を解説。役割分担、OU構成とカスタマイズ、共通アカウント（統制・防御・記録・支援）、予防・発見的統制、運用・導入判断を整理し、方針未整備による過剰統制や混乱を防ぐ重要性を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-04T11:10:07.000Z",
-      "contentHash": "a1e2b56b5ad8"
-    },
-    {
-      "id": "4f8ad38521a7",
-      "title": "React Scanで再レンダーを改善してみた | iimon TECH BLOG",
-      "url": "https://tech.iimon.co.jp/entry/2026/03/04/191750",
-      "summary": "React Scanでテーブルのチェックボックス遅延を分析。1クリックで約1万超の再レンダリングを検出し、Memoizable表示を基にAntdコンポーネントのメモ化やuseCallback/React.memoで最適化して応答性を改善した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-04T10:17:50.000Z",
-      "contentHash": "189466b7591a"
-    },
-    {
-      "id": "648c259f879c",
-      "title": "Claude CodeによるAI駆動開発　〜Subagents と Agent Teamsの比較〜 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-      "url": "https://recruit.group.gmo/engineer/jisedai/blog/claude-code-driven-development/",
-      "summary": "Claude CodeのSubagentsとAgent Teamsを実運用で比較。小中規模の独立IssueはSubagents＋Git Worktreeが安定で高品質。Agent Teamsはclient/server/infraを並列で約40分で処理する攻撃力があるが品質は60〜70%で手戻りが発生しやすい。いずれもpermissions・hooks・カスタムAgent等の設定が必須。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-04T10:09:42.000Z",
-      "contentHash": "2045db8ada10"
-    },
-    {
-      "id": "c18f2115f639",
-      "title": "Dropbox APIでデータ移行ツールを作ってみた (後編) | TechHarmony",
-      "url": "https://blog.usize-tech.com/dropbox-api-data-migration-tool-2/",
-      "summary": "Dropbox APIで作った移行ツールはupload_sessionで並列アップロードを実装。検証では並列化で時間短縮はあるが比例せず、CPUコア数や回線帯域で頭打ちに。環境に応じた事前検証で最適並列度を決めるべきと結論。差分移行やミラー、マルチプロセス設計などの工夫も紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-04T10:06:06.000Z",
-      "contentHash": "891ad37d1dc7"
-    },
-    {
-      "id": "5bd932ab7f49",
-      "title": "Extending single-minus amplitudes to gravitons",
-      "url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
-      "summary": "新しいプレプリントは、シングルマイナス振幅をグラビトンに拡張し、量子重力における非ゼロの木レベル重力振幅を導出・検証した。作業にはGPT-5.2 Proが導出と検証の支援を行った。",
-      "source": "OpenAI",
-      "publishedAt": "2026-03-04T10:00:00.000Z",
-      "contentHash": "c0988ed27fd8"
-    },
-    {
-      "id": "94cd7ddacecb",
-      "title": "Bet on German Train Delays",
-      "url": "https://bahn.bet",
-      "summary": "複数の列車で大幅遅延が発生。Hamburg→München＋87分、Westerland→Köln＋116分、Basel→Hamburg＋113分など、区間ごとに遅延は数十〜百分。運賃表示や招待キャンペーンも併記。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-04T09:42:20.000Z",
-      "contentHash": "2c82cfe65e38"
-    },
-    {
-      "id": "ea78a800473f",
-      "title": "動的型付け言語はそろそろ淘汰されるべき | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/53f51eb428dab6",
-      "summary": "筆者はPythonなどの動的型付け言語は実務で保守性やツール面の限界があり、第一線から退くべきと主張。動的型は開発速度で有利だったが、型ヒントやTypeScript・Go・Rustの台頭で静的化が進んでいる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-04T09:15:26.000Z",
-      "contentHash": "0494a0a17963"
-    },
-    {
-      "id": "0f6446042b95",
-      "title": "ROS開発者のための DDS 超入門 (3) - 通信パターン",
-      "url": "https://note.com/npaka/n/n7738453d08e1",
-      "summary": "ROS 2のDDS通信パターンを整理。Pub/Subはセンサや状態、制御指令などの継続データ向け。Serviceは同期の問い合わせ/操作向け。Actionは途中経過やキャンセルが必要な長時間処理向け。Parameterは実行中にノード設定を変更する仕組み。",
-      "source": "npaka",
-      "publishedAt": "2026-03-04T09:03:19.000Z",
-      "contentHash": "a8adca5db339"
-    },
-    {
-      "id": "88085e4ff97d",
-      "title": "mistral-document-ai-2512 を試してみた | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/cd09307dd7c91f",
-      "summary": "mistral-document-ai-2512はOCRと文書理解を統合したDocument AI。画像/PDFから見出し・段落・リスト・表などの階層を保ってMarkdown/JSON出力し、表形式選択、ヘッダ/フッタ抽出、領域・文書全体のスキーマ抽出、QnA対応。Microsoft AI Foundryで利用可能。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-04T08:59:12.000Z",
-      "contentHash": "b8fd82515907"
-    },
-    {
-      "id": "6cb27e6e4fce",
-      "title": "Rails: ViewComponentで最初に作るのは「ダイアログコンポーネント」がおすすめ | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_03_04/156767",
-      "summary": "ViewComponent導入時に何をコンポーネント化するか迷った著者が試行錯誤を経て、最初に作るべきは汎用のダイアログ（ダイアログボックス）コンポーネントだと勧める記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-04T08:30:42.000Z",
-      "contentHash": "0d9f9393b091"
-    },
-    {
-      "id": "5923e6b0c941",
-      "title": " kintone フロントエンド開発における AI 活用の取り組み | Cybozu Inside Out | サイボウズエンジニアのブログ",
-      "url": "https://blog.cybozu.io/entry/ai-integration-in-kintore-frontend-development",
-      "summary": "サイボウズのkintoneフロントエンドでのAI活用を紹介。チームごとにドメイン知識をMarkdownで管理し、共通リポジトリでAgent Skillsを共有・選択導入して文脈消費と知見のサイロ化を防ぐ取り組み。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-04T08:30:00.000Z",
-      "contentHash": "a9ca21446726"
-    },
-    {
-      "id": "7f2ef6b5bc06",
-      "title": "【Github Copilot】-/init コマンドでcopilot-instructions.mdを生成する | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/5d9c3e935cc58b",
-      "summary": ".github/copilot-instructions.mdはプロジェクト固有の指示ファイル。VS CodeのCopilot Chatで「/init」を実行するとリポジトリを解析して自動生成（提案）され、言語やコーディング方針などが記載される。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-04T08:14:26.000Z",
-      "contentHash": "f87463fa919e"
-    },
-    {
-      "id": "ccf52dbf198c",
-      "title": "アダプティブ カード デザイナーの使い方：その4　アダプティブ カードを新規作成してみる | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/03/04/170315",
-      "summary": "Power Automate初心者向け第4回。Adaptive Card Designerでアンケートカードを実作成する手順を解説。TextBlock、Input.ChoiceSet、Action.Submitを配置し、テキスト／サイズ／色／Label／Placeholder／Id／選択肢を設定してJSONを確認・コピーする方法を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-04T08:03:15.000Z",
-      "contentHash": "91c90a320ae3"
-    },
-    {
-      "id": "e1b736a63d74",
-      "title": "RFC 9849. TLS Encrypted Client Hello",
-      "url": "https://www.rfc-editor.org/rfc/rfc9849.html",
-      "summary": "本書はTLSのClientHelloをサーバ公開鍵で暗号化する仕組み（Encrypted ClientHello: ECH）を規定するIETF標準文書で、設定・拡張・クライアント動作（暗号化、パディング、GREASE、受理判定、ハンドシェイク等）を詳述する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-04T07:25:24.000Z",
-      "contentHash": "a9f21a3f7f92"
-    },
-    {
-      "id": "55414075f5de",
-      "title": "Kiroでもペルソナを付与することでデザインが変わる！ | ForgeVision Engineer Blog",
-      "url": "https://techblog.forgevision.com/entry/kiro/persona",
-      "summary": "Kiroでペルソナを付与すると出力デザインが変わるか検証。ステアリングファイル生成後にproduct.mdへペルソナを追記。ペルソナなしはシンプル画面、女性カフェ店員ペルソナでは色合いや文言が可愛くなり、タスク完了時に励ましコメントが表示されるようになった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-04T07:01:27.000Z",
-      "contentHash": "27f1d34c9ecc"
-    },
-    {
-      "id": "507c9c173714",
-      "title": "Girls AI Scholarship by STORES 第3期生を募集します！ | STORES Product Blog",
-      "url": "https://product.st.inc/entry/girlsaischolarship3",
-      "summary": "STORESが女性学生向けAIプログラミング学習継続支援「Girls AI Scholarship by STORES」第3期を募集。Cursor ProまたはClaude Code Pro3ヶ月分、Discord支援、4/7オンライン講習、6/19任意懇親会。最大20名、18歳以上の女性自認学生でプログラミング経験者が対象。応募締切2026/3/30。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-04T07:01:26.000Z",
-      "contentHash": "4ebf7019453b"
-    },
-    {
-      "id": "7aa8472b0c57",
-      "title": "Better JIT for Postgres",
-      "url": "https://github.com/vladich/pg_jitter",
-      "summary": "pg_jitterはPostgreSQL(14–18)向けの軽量JITで、sljit/AsmJit/MIRの3バックエンドを追加。LLVMよりコンパイルがマイクロ秒級に高速で幅広いクエリに有効。ただしキャッシュやメモリ影響で最大約1msの遅延があり短時間クエリでは無効化推奨。jit_above_costはデフォルト100000から200〜数千へ引き下げが推奨。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-04T06:17:10.000Z",
-      "contentHash": "9a0ad2d15a17"
     }
   ]
 }
