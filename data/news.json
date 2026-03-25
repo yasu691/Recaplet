@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-03-25T03:06:00.480Z",
+  "generatedAt": "2026-03-25T09:10:08.298Z",
   "items": [
+    {
+      "id": "d94eff5da925",
+      "title": "【AWS】オンプレミスとAWS間のネットワーク接続方式の検討ポイント | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/2562c529df1c12",
+      "summary": "NTTデータがオンプレミスとAWS接続を解説。Client VPN／Site-to-Site／Direct Connectを紹介し、特にDirect Connectの閉域網接続、キャリアのクラウド接続サービス（UNO/WVS/FIC等）、冗長化（キャリア・機器・地域）、帯域選定の重要性と専用線の利点（低遅延・高安定性・セキュリティ）を説明。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-25T07:08:03.000Z",
+      "contentHash": "92f6f1403d33"
+    },
+    {
+      "id": "3edf2aa59eac",
+      "title": "TSKaigi 2026にGoldスポンサーとして協賛いたします &amp;amp; セッションの登壇もあります！ | Nealle Developer's Blog",
+      "url": "https://nealle-dev.hatenablog.com/entry/2026/03/25/155517",
+      "summary": "ニーリーはTSKaigi 2026（5/22-23・ベルサール羽田）にGoldスポンサーとして協賛します。TypeScript活用とコミュニティ貢献が目的で、立川が「TypeScriptとAngular Signalで保守性の高いアプリ設計」を発表。ブース出展・ノベルティあり。チケットは3/23発売（第2弾4/18）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-25T06:55:17.000Z",
+      "contentHash": "58726ff17bd0"
+    },
+    {
+      "id": "957f92e9a3d1",
+      "title": "FSMOロールとは？Active Directoryに特別な役割がある理由 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/03/25/155415",
+      "summary": "FSMOロールはADDSで重要処理を1台のDCに集約する5つの特別役割（フォレスト単位：スキーマ／ドメイン名前付け、ドメイン単位：RID／PDCエミュレーター／インフラ）で、整合性と運用の安定性を保つ仕組み。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-25T06:54:15.000Z",
+      "contentHash": "86047508d777"
+    },
+    {
+      "id": "143c6d400142",
+      "title": "「2つの未経験」を抱えてestieに飛び込んだ私が、CSとして前に進めた理由 | estie inside blog",
+      "url": "https://www.estie.jp/blog/entry/2026/03/25/153145",
+      "summary": "著者は2024年に不動産業界とtoB CSという「2つの未経験」を抱えてestieへ転職。半年〜9か月苦戦したが、顧客と共にプロダクトを作る経験で転機を迎え、CSは単なるサポートでなく顧客の成果を作る役割だと確信。顧客の声を開発に反映できる環境が合う人に向く。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-25T06:31:45.000Z",
+      "contentHash": "25cb3f9227bb"
+    },
+    {
+      "id": "14082f6ecd27",
+      "title": "事業戦略を日々の開発につなぐチームキックオフの実践 | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/03/25/153116",
+      "summary": "SmartHRのキャリア台帳チームは期初に対面キックオフを実施。事業戦略を言語化しFigJamで目標を日々の行動に落とし込み、業務疑似体験でユーザーの迷いを可視化して情報設計改善に繋げた。振り返りで進め方の課題も整理。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-25T06:31:16.000Z",
+      "contentHash": "48dee59cc7d6"
+    },
+    {
+      "id": "5a0e3ed0a233",
+      "title": "ワンクリックで実現するファイル収集・コピー・移動・分析：業務効率を倍増させるPowerShellテクニック | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/14d0651cefb7ac",
+      "summary": "PowerShellで深い階層からファイル収集・コピー・移動・リネームをワンクリックで自動化。拡張子・日付・サイズ・キーワード・一覧で抽出、同名衝突回避のためパス埋込、CSVで実行ログを出力。設定ファイルを編集して繰返し利用。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-25T06:24:25.000Z",
+      "contentHash": "18ac5a240e04"
+    },
+    {
+      "id": "8096ccf024d0",
+      "title": "国交省の不動産情報ライブラリMCPサーバを試す | レスキューナウテックブログのフィード",
+      "url": "https://zenn.dev/rescuenow/articles/fe5fc6f226cea7",
+      "summary": "国土交通省が不動産情報ライブラリAPIを統合呼び出しする「地理空間MCP Server」を公開。地価・用途地域など25種に対応する専用ツール群を提供。利用はAPI申請と設定が必要で、Claude連携設定例や札幌でのデモを紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-25T06:16:59.000Z",
+      "contentHash": "eb505181eb96"
+    },
+    {
+      "id": "b29e260c74b7",
+      "title": "[UE5]スクロールボックスでいい感じにスクロールさせる | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/55860/",
+      "summary": "UE5関連記事：Material Parameter Collection Modifierの活用法、Unreal Engineでのビットフラグ運用、レイトレーシェーダの導入手順を実践例と共に解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-25T06:00:06.000Z",
+      "contentHash": "727ea1d7e986"
+    },
+    {
+      "id": "f32e1801e3d0",
+      "title": "Tableau NextのAgentforceをサンプルスーパーストアで触ってみた | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n267549367c5e",
+      "summary": "SHIFTの山田がTableau NextのデモでAgentforceを試用。サンプルスーパーストアでダッシュボードを作り、自然言語分析の得意・苦手を検証してまとめた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-25T05:48:55.000Z",
+      "contentHash": "a9b1603af3ac"
+    },
+    {
+      "id": "9bed7363feec",
+      "title": "AWSマネージド型のApache Kafka+Apache Flinkでデータ連携してみた | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/59d4dfe9d34bb6",
+      "summary": "AWSのマネージドKafka（MSK）とマネージドFlink（MSF）を使った検証。EC2で疑似データをMSKへPublishし、MSF StudioノートブックでSubscribeしてCSVをS3へ出力。Glue Catalogでメタ管理し、構成や設定手順を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-25T05:28:30.000Z",
+      "contentHash": "fd6eae9c57b4"
+    },
+    {
+      "id": "30089e2028e6",
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+      "summary": "Google ResearchのTurboQuantは、トランスフォーマー系モデルを極小ビットで量子化して大幅圧縮し、性能低下を抑えつつ推論速度・メモリ・コストを削減する手法。評価結果と実装を公開し、効率的なLLM運用を促進する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T05:00:54.000Z",
+      "contentHash": "9a9f81fff4d8"
+    },
+    {
+      "id": "f8c9c67841f8",
+      "title": "Regular army and reserve components enlistment program: Summary of change",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN42922-AR_601-210-000-WEB-1.pdf",
+      "summary": "申し訳ありませんが、外部のURLやPDFにこちらから直接アクセスできません。本文を貼り付けるか主要箇所を教えていただければ、200字以内で日本語要約します。HNコメントの要約も対応可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T03:44:52.000Z",
+      "contentHash": "f81535df4e49"
+    },
+    {
+      "id": "36865fe83a8d",
+      "title": "VitruvianOS – Desktop Linux Inspired by the BeOS",
+      "url": "https://v-os.dev",
+      "summary": "外部サイトへ直接アクセスできないため記事を取得できません。記事本文か主要箇所（HNコメントも可）を貼ってください。いただければ200字以内で日本語要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T03:17:06.000Z",
+      "contentHash": "c8e8b5373e5c"
+    },
     {
       "id": "eceea98cd2f4",
       "title": "The BB-777 is the ultimate in boombox nostalgia",
@@ -56,6 +173,15 @@
       "contentHash": "e0f7c77c7662"
     },
     {
+      "id": "121575f2d46c",
+      "title": "In Edison’s Revenge, Data Centers Are Transitioning From AC to DC",
+      "url": "https://spectrum.ieee.org/data-center-dc",
+      "summary": "申し訳ありませんが、外部URLの内容を直接参照することはできません。記事本文をここに貼り付けていただければ、200文字以内で日本語に要約します。あるいは、要約の対象（記事本文／HNのコメント／両方）と、重点を置いてほしい点（技術面／環境影響／企業動向など）を教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T00:44:55.000Z",
+      "contentHash": "b0639af54a08"
+    },
+    {
       "id": "9b4f1f05b4b2",
       "title": "技術ブログを「続けられる仕組み」で書く — 社内講習会で共有したワークフローと気づき | APC 技術ブログ",
       "url": "https://techblog.ap-com.co.jp/entry/2026/03/25/093000",
@@ -63,6 +189,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-25T00:30:00.000Z",
       "contentHash": "db850eb70bf1"
+    },
+    {
+      "id": "941dafe603c3",
+      "title": "Flighty Airports",
+      "url": "https://flighty.com/airports",
+      "summary": "申し訳ありませんが、外部URLを直接参照できません。記事本文をここに貼っていただくか、要点を教えていただければ、それを200字以内で日本語に要約します。HNの議論も合わせて要約希望なら、その旨お知らせください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T00:29:45.000Z",
+      "contentHash": "b8f7dd05fed2"
     },
     {
       "id": "5224669a04e7",
@@ -113,10 +248,10 @@
       "id": "18827c6b2764",
       "title": "Cowork の Dispatch と Computer Use を試す",
       "url": "https://note.com/npaka/n/n3422c0d940ef",
-      "summary": "AnthropicのCoworkで「Dispatch」と「Computer Use」を試した報告。DispatchはスマホからPCのClaudeにタスクを送りPC側で処理→結果確認。Computer UseはClaudeがPCアプリやブラウザを操作して作業を実行する機能。導入・操作手順も試行。",
+      "summary": "「Cowork」のDispatchとComputer Useを試した。DispatchはスマホのClaudeからPCのClaudeへタスクを送り、デスクトップで処理・結果確認する機能。Computer UseはClaudeがPCのアプリやブラウザを人間のように操作して作業を実行する機能で、設定と実行手順を紹介している。",
       "source": "npaka",
       "publishedAt": "2026-03-24T22:43:51.000Z",
-      "contentHash": "5cd8469668e9"
+      "contentHash": "1bd0a54864bd"
     },
     {
       "id": "a5c8fbc53428",
@@ -131,10 +266,10 @@
       "id": "da6e10d2f663",
       "title": "Jury finds Meta liable in case over child sexual exploitation on its platforms",
       "url": "https://www.cnn.com/2026/03/24/tech/meta-new-mexico-trial-jury-deliberation",
-      "summary": "ニューメキシコ州の陪審は、Metaが利用者、特に子どもを性的捕食者から守らず危険を警告しなかったとして州法違反を認定、全項目で責任を認め3億7500万ドルの賠償を命じた。Metaは控訴予定。",
+      "summary": "外部サイトへ直接アクセスできないため、記事本文を貼るか主要箇所を教えてください。いただければ200字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-03-24T21:54:27.000Z",
-      "contentHash": "018ce4cbf5d4"
+      "contentHash": "461b604e956e"
     },
     {
       "id": "87fccc6956a4",
@@ -144,6 +279,15 @@
       "source": "The Verge",
       "publishedAt": "2026-03-24T21:47:24.000Z",
       "contentHash": "b840aa438282"
+    },
+    {
+      "id": "0f4a209b8c79",
+      "title": "I wanted to build vertical SaaS for pest control, so I took a technician job",
+      "url": "https://www.onhand.pro/p/i-wanted-to-build-vertical-saas-for-pest-control-i-took-a-technician-job-instead",
+      "summary": "害虫駆除向け垂直SaaSを作ろうとした著者が、現場でテクニシャンとして働き業務フローや顧客の実情、価格・導入の課題を直に学び、信頼構築と実務理解が製品成功の鍵だと実感した体験談。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-24T21:24:33.000Z",
+      "contentHash": "1e7876cb56f2"
     },
     {
       "id": "9c0e92d8dd90",
@@ -158,10 +302,19 @@
       "id": "9779453e96c6",
       "title": "OpenAI just gave up on Sora and its billion-dollar Disney deal",
       "url": "https://www.theverge.com/ai-artificial-intelligence/899850/openai-sora-ai-chatgpt",
-      "summary": "OpenAIは2024年末に発表した映像生成ツール「Sora」を終了。アプリとAPIを停止し、ChatGPTへの統合も行わず、ディズニーとの10億ドル規模の提携にも影響が出る。",
+      "summary": "OpenAIが動画生成ツール「Sora」を終了。アプリと開発者向けAPIを廃止し、ChatGPTへの統合予定もなく、ディズニーとの約10億ドルの出資・ライセンス契約にも影響が出る。",
       "source": "The Verge",
       "publishedAt": "2026-03-24T21:08:10.000Z",
-      "contentHash": "b8c1a31db2f4"
+      "contentHash": "dfacbd6c1a12"
+    },
+    {
+      "id": "b2fc114d50a9",
+      "title": "Disney Exits OpenAI Deal After AI Giant Shutters Sora",
+      "url": "https://www.hollywoodreporter.com/business/digital/openai-shutting-down-sora-ai-video-app-1236546187/",
+      "summary": "OpenAIがAI動画生成アプリ「Sora」の提供終了を発表。実験的な消費者向けサービスを停止し、ユーザーへのデータ・移行案内や対応を行う。理由はリソース配分や安全性・方針見直しのためとされる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-24T21:01:21.000Z",
+      "contentHash": "38df8e7593ef"
     },
     {
       "id": "7267ae1c3688",
@@ -185,19 +338,28 @@
       "id": "2bdfa4a7d463",
       "title": "Is anybody else bored of talking about AI?",
       "url": "https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/",
-      "summary": "AIの話に飽きた。毎日使いwebスケールで短期間に0→1を実現し生産性は上がったが、日常の議論はマンネリ化。Hacker NewsやKagiがAI投稿で溢れ、製品価値より自動補完やツール構成に固執する風潮に辟易している。",
+      "summary": "申し訳ありませんが、外部リンク先の本文を直接参照できません。記事本文（または主要部分）を貼り付けていただければ、200字以内で日本語要約を作成します。必要ならHNコメントも一緒に貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2026-03-24T20:31:08.000Z",
-      "contentHash": "fd3535c2be16"
+      "contentHash": "3a3b5c774aca"
     },
     {
       "id": "0760c7346e53",
       "title": "GitHub is once again down",
       "url": "https://www.githubstatus.com/incidents/kp06czybl7dw",
-      "summary": "OTPの再送案内（例：30秒表示）、Webhook送信先URLやエンドポイント障害時の通知メール、月2回の技術ガイド配信の購読案内、そしてGitHubサービス障害の更新・解決をメール/SMSで受け取る通知設定について説明している。",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文または要点をここに貼っていただければ、200文字以内で日本語要約します。Hacker Newsのコメントも要約希望なら、それも併せて貼ってください。どちらも難しければ、記事の主要トピック（例：障害の内容、影響範囲、復旧状況）を教えてください。",
       "source": "Hacker News",
       "publishedAt": "2026-03-24T20:23:34.000Z",
-      "contentHash": "43dddc99f8fa"
+      "contentHash": "a5e15bb3fe66"
+    },
+    {
+      "id": "880d0ab651cb",
+      "title": "The man who coined Metaverse now says Meta&#8217;s glasses are creepy",
+      "url": "https://www.theverge.com/tech/899797/metaverse-neal-stephenson-headsets-goggles-glasses-creepy-no-business-case",
+      "summary": "『メタバース』を造語した小説家ニール・スティーブンソンが、Metaのスマートグラスを「不気味」と批判。顔に装着する端末は嫌われ信頼されず、スマホ時代にゴーグルは未来ではないと述べた。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-24T20:08:14.000Z",
+      "contentHash": "9aafc1f778d4"
     },
     {
       "id": "655decac2786",
@@ -207,6 +369,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-03-24T20:01:05.000Z",
       "contentHash": "2cc8036ebe0e"
+    },
+    {
+      "id": "670485cae2a6",
+      "title": "Apple launches iOS 26.4 with AI playlists, purchase sharing, and more",
+      "url": "https://www.theverge.com/tech/899799/apple-ios-26-4-ai-playlist-purchase-sharing-update",
+      "summary": "iOS 26.4は、Apple MusicのAI「Playlist Playground」ベータで説明文からプレイリスト生成、近場コンサート検索、全画面アルバム背景、オフライン曲認識、家族共有の支払方法個別追加などを導入。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-24T19:22:29.000Z",
+      "contentHash": "3f9192d117bc"
     },
     {
       "id": "4f4aea340d00",
@@ -2939,10 +3110,10 @@
       "id": "c5a92faadbbb",
       "title": "Asus Ascent GX10 を工場出荷状態に戻す",
       "url": "https://note.com/npaka/n/nfbe0431b91c8",
-      "summary": "記事はAsus Ascent GX10を工場出荷状態に戻す手順を解説。USBにISOを書き込み、BIOSでUEFI:USBから起動して「DGX Spark Installation Options」→「Install DGX OS 7.4.0」を実行。初期セットアップで家のWi‑Fiに繋がらない場合はスマホのテザリングで回避可能。",
+      "summary": "Asus Ascent GX10を工場出荷状態に戻す手順を解説。USBにISOを書き込みBIOSでUEFI USB起動を設定し「DGX OS 7.4.0」をインストール。初期セットアップで家のWi‑Fiに繋がらない場合はスマホのテザリングで回避可能。",
       "source": "npaka",
       "publishedAt": "2026-03-19T03:40:51.000Z",
-      "contentHash": "f1efc0afcd52"
+      "contentHash": "197a08b05cf4"
     },
     {
       "id": "ff88060d517b",
@@ -8829,177 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-06T00:54:52.000Z",
       "contentHash": "6cef8478c42d"
-    },
-    {
-      "id": "328663e5c386",
-      "title": "Microsoft Forms＋Power Automateでアカウント払い出し申請を自動化！アダプティブカード承認付きフローの作り方 | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/03/06/095355",
-      "summary": "Microsoft Forms＋Power Automate＋Teamsでアカウント払い出しを自動化する手順を解説。Formsで申請→Teamsのアダプティブカードで承認→承認に応じEntra IDでユーザー作成。Microsoft365環境と管理権限が前提。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T00:53:55.000Z",
-      "contentHash": "37facc481d42"
-    },
-    {
-      "id": "d3ae286e89da",
-      "title": "Where things stand with the Department of War",
-      "url": "https://www.anthropic.com/news/where-stand-department-war",
-      "summary": "Anthropicは国防総省との関係方針を示し、致死兵器や標的監視用途への協力を拒否、人間の関与を維持すること、透明性と責任ある利用を求める原則を掲げ、非攻撃的・人道的な支援に限定すると表明した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-06T00:40:41.000Z",
-      "contentHash": "7f8811fb1adb"
-    },
-    {
-      "id": "ce0d6277f380",
-      "title": "今週の新着ブログ 4本_テラキャンAIコース提供開始_物理学×生成AIの最前線「GenAdS」と「GenPhys」ほか(2026.2.27~2026.3.5) | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/nbd4739282f3f",
-      "summary": "今週の新着4本：テラキャンAIの無料AI技術者コース（実務直結の基礎能力と学習設計）、生成AIで変わるIT業務と備え、AI技術者の役割解説、物理学を組込む生成AI「GenAdS/GenPhys」の最前線。SHIFTのAI活用マガジン案内。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T00:27:14.000Z",
-      "contentHash": "2bec9b6b5507"
-    },
-    {
-      "id": "c2d2ff69cb39",
-      "title": "【実践ノウハウ公開】「ユーザーストーリー」が開発の迷いをなくす理由— 第 2 回 「FAF/アジャイル勉強会」レポート | Tech | フライウィール",
-      "url": "https://www.flywheel.jp/topics/faf-agile-workshop-2/",
-      "summary": "フライウィールのFAF勉強会第2回は、ユーザー価値を「カタチ」にするユーザーストーリー作成を実践。バックログとWBSの違いをハンバーガー例で示し、INVEST原則やユーザーストーリーマッピング、Jira運用でMVP優先と議論の重要性を確認した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T00:00:07.000Z",
-      "contentHash": "a290fc95eabb"
-    },
-    {
-      "id": "dd1b765440c7",
-      "title": "【イベントレポート】AWS BuilderCards（セキュリティ拡張パック）体験会 | [公開中] AQ Tech Blog",
-      "url": "https://techblog.asia-quest.jp/202603/aws-buildercardsevent-event-report",
-      "summary": "2026年1月21日、Japan AWS Jr. Champions主催でAWS BuilderCards（セキュリティ拡張パック）体験会を開催。約10名が参加し、JAWS-UG千葉支部協力のもとカードゲームでAWS設計を学び、外部公開や拡張パック導入など新しい試みに挑戦した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T00:00:00.000Z",
-      "contentHash": "3f1a2e047368"
-    },
-    {
-      "id": "fead8d299a1b",
-      "title": "BigQueryのデータマスキング機能を解説 | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/bigquery-data-masking-explained",
-      "summary": "BigQueryのデータマスキングは、列にポリシータグを付与して権限に応じ値をハッシュ・NULL・固定文字列などで置換表示し、分析を妨げずに機密データを保護する機能。分類・データポリシー・列タグで設定し、IAMロール（細粒度読み取り/マスク読み取り）で挙動を制御する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T00:00:00.000Z",
-      "contentHash": "b70a6face6b2"
-    },
-    {
-      "id": "aaf83a162e11",
-      "title": "【編集後記】アドベントカレンダー2025を終えて | KENTEM TechBlog",
-      "url": "https://tech.kentem.jp/entry/2026/03/06/090000",
-      "summary": "KENTEM編集部は初のQiita Organization枠でAdvent Calendar 2025を開催し、25日完走。Qiitaの賞品を獲得し抽選でH.M（ストレスボール）、T.M（Tシャツ）、S.M（キーキャップ）に贈呈。参加者へ感謝し2026年も発信継続、採用実施中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T00:00:00.000Z",
-      "contentHash": "dd70d4f948b8"
-    },
-    {
-      "id": "e36bda90a093",
-      "title": "AIがPMOを革命する！2026年最新・プロジェクト管理を3分でわかりやすく解説 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/1dc4570c864e06",
-      "summary": "要旨: TISが2026年3月に開始した「中央管制型PMO」は、蓄積データと生成AIで複数プロジェクトを横断監視し、早期にリスク予測・対策提案を自動化。現場コンサル依存を減らしコスト削減を図り、2029年までにPM業務の大半をAI化する目標を掲げる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-05T23:59:32.000Z",
-      "contentHash": "110ad3691489"
-    },
-    {
-      "id": "51e7e28a4ccd",
-      "title": "The next generations of Bubble Tea, Lip Gloss, and Bubbles are available now",
-      "url": "https://charm.land/blog/v2/",
-      "summary": "Bubble Tea、Lip Gloss、Bubblesのv2がベータを脱し正式版に。Cursed Rendererによる高速レンダリングや高度な合成・高精度入力・宣言的APIを備え、AIエージェントCrushで本番運用済み。多数の導入例とアップグレードガイドあり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-05T23:26:52.000Z",
-      "contentHash": "4641fcd86d76"
-    },
-    {
-      "id": "0dd43ee28e80",
-      "title": "Lawmakers just advanced online safety laws that require age verification at the app store",
-      "url": "https://www.theverge.com/policy/890367/house-lawmakers-online-safety-bills-kids-act",
-      "summary": "下院委がKIDS法、Sammy’s法、アプリストアの年齢認証義務化を含む児童保護法案を本会議へ進めた。KIDS法は「義務的責任」を外しており、AOCは巨大ITのための「スモークスクリーン」と批判した。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-05T23:16:00.000Z",
-      "contentHash": "3730fa971b60"
-    },
-    {
-      "id": "c68877593b84",
-      "title": "The Pentagon formally labels Anthropic a supply-chain risk",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/890347/pentagon-anthropic-supply-chain-risk",
-      "summary": "米国防省はAnthropicを「サプライチェーンリスク」と正式指定。利用規約を巡る対立により、AI「Claude」を組み込む製品の防衛関連契約での使用を禁止し、ピート・ヘグセス長官が圧力をかけていた。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-05T23:02:22.000Z",
-      "contentHash": "fa96f36afd06"
-    },
-    {
-      "id": "2cbdd91da679",
-      "title": "Roku&#8217;s solution to streaming decision fatigue is a trivia game",
-      "url": "https://www.theverge.com/streaming/890312/roku-roklue-trivia-game",
-      "summary": "Rokuは3月7日、視聴選びを助ける無料のポップカルチャー・トリビアゲーム「Roklue」をホーム画面に導入。初回テーマは「賞レース」で、テーマは年内に随時変更。ダウンロード不要。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-05T21:42:58.000Z",
-      "contentHash": "7dbe27d74ae9"
-    },
-    {
-      "id": "8220be20771b",
-      "title": "GPT-5.4 の概要",
-      "url": "https://note.com/npaka/n/nb8d78062e804",
-      "summary": "2026年3月公開のGPT-5.4は、高度な推論・コーディング・エージェント機能を統合。最大100万トークン、ネイティブなComputer use、高解像度画像解析に対応し、業務性能・ツール連携・精度（誤り減少）を大幅に向上。Pro版あり。",
-      "source": "npaka",
-      "publishedAt": "2026-03-05T21:38:29.000Z",
-      "contentHash": "30fbf29753e4"
-    },
-    {
-      "id": "6718633210ec",
-      "title": "Proton Mail Helped FBI Unmask Anonymous 'Stop Cop City' Protester",
-      "url": "https://www.404media.co/proton-mail-helped-fbi-unmask-anonymous-stop-cop-city-protestor/",
-      "summary": "暗号化重視をうたうProton Mailが支払いデータをスイス当局に提供し、FBIがそれでアトランタのStop Cop City／DTAF関連の匿名アカウントの人物特定に用いたと裁判記録が示す。放火などの捜査で60人超の起訴は後に取り下げられ、Protonのプライバシー主張との乖離が浮き彫りに。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-05T21:35:40.000Z",
-      "contentHash": "b4cd4d9881de"
-    },
-    {
-      "id": "ae6c4a26d054",
-      "title": "United Airlines can permanently ban passengers who don’t wear headphones",
-      "url": "https://www.theverge.com/transportation/890202/united-airlines-headphones-policy-contract-of-carriage",
-      "summary": "ユナイテッド航空が輸送契約を改定し、機内で音声や映像を視聴する際はヘッドホン着用を明記。拒否した乗客は一時または永久に搭乗拒否・機外退去される可能性がある。改定は2月27日。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-05T20:22:38.000Z",
-      "contentHash": "3f46012cd3c5"
-    },
-    {
-      "id": "2b015add7ac7",
-      "title": "Microsoft teases its next Xbox, says &#8216;Project Helix&#8217; will play PC games too",
-      "url": "https://www.theverge.com/games/890194/microsoft-teases-its-next-xbox-says-project-helix-will-play-pc-games-too",
-      "summary": "マイクロソフトの新Xbox責任者アシャ・シャルマが次世代機のコード名を「Project Helix」と発表。XboxとPC両方のゲームが動くハイブリッド型で、高性能なプレミアム体験を目指す。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-05T20:14:17.000Z",
-      "contentHash": "6355d443c907"
-    },
-    {
-      "id": "2069075bade3",
-      "title": "Pentagon formally labels Anthropic supply-chain risk",
-      "url": "https://www.wsj.com/politics/national-security/pentagon-formally-labels-anthropic-supply-chain-risk-escalating-conflict-ebdf0523",
-      "summary": "米国防総省がAI企業Anthropicを正式に「サプライチェーンのリスク」と指定。国防分野での利用や契約が制限され、同社側と政府の対立が深まり、AI企業への規制強化を巡る議論が激化している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-05T19:24:35.000Z",
-      "contentHash": "3a4760532469"
-    },
-    {
-      "id": "c4a8ec0f0e63",
-      "title": "Let's Get Physical",
-      "url": "https://m4iler.cloud/posts/lets-get-physical/",
-      "summary": "ある企業で内外部・フィッシング・物理を含む総合ペネトレーションテストを実施。1週間でソーシャル・物理・内部を検査し、来訪バッジや監視の反応を試すのが目的。筆者はロックピック等を携行し、予想外に機会が多く非常に笑える実地検証になった。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-05T19:21:03.000Z",
-      "contentHash": "e927eb81b6d6"
-    },
-    {
-      "id": "310be266f867",
-      "title": "Birdbuddy’s AI-powered hummingbird feeder is matching its best price to date",
-      "url": "https://www.theverge.com/gadgets/889975/birdbuddy-smart-hummingbird-feeder-pro-solar-deal-sale",
-      "summary": "BirdbuddyのAI搭載スマートハチドリ給餌器「Pro Solar」が通常299ドル→現在189ドル（110ドル引き、最安）。ソーラー駆動の2Kモーションカメラで写真・動画を撮影し、アプリのAIが鳥種を識別・通知します。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-05T18:58:44.000Z",
-      "contentHash": "bcb943d54abc"
     }
   ]
 }
