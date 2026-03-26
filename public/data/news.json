@@ -1,6 +1,303 @@
 {
-  "generatedAt": "2026-03-25T09:10:08.298Z",
+  "generatedAt": "2026-03-26T03:00:31.324Z",
   "items": [
+    {
+      "id": "5a0fb758ef66",
+      "title": "visionOS向け空間ビデオプレイヤーを実装してみた① ~空間ビデオのメタデータについて~ | Yappli Tech Blog",
+      "url": "https://tech.yappli.io/entry/visionos-spatialvideo-1",
+      "summary": "visionOS向け空間ビデオプレイヤー実装の紹介記事。空間ビデオは奥行き情報を持つ立体映像で、Apple Vision Proや各種iPhoneで.MOV形式で撮影可能。メタデータに空間情報が含まれ、AVURLAssetで確認できる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-26T01:13:01.000Z",
+      "contentHash": "44bc7b18cf36"
+    },
+    {
+      "id": "2b78f770d408",
+      "title": "デキるリーダーの沈黙の使い方を考える | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n0452a47bc0d5",
+      "summary": "会話で相手が黙ったらすぐ埋めず「ゆっくりで大丈夫」と余白を与える。沈黙は思考が深まる時間であり、待つことで心理的安全性が生まれ、相手の主体性と言葉の深さを引き出す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-26T01:00:00.000Z",
+      "contentHash": "9538e5f34970"
+    },
+    {
+      "id": "12d36f5c663e",
+      "title": "Vol.14 Base UI × CSS Modules で始めるヘッドレスコンポーネント開発 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/03/26/100000",
+      "summary": "SansanのSDIフロントをNext.js+TypeScriptで開発するにあたり、社内デザインに合わせやすく実装コストが低いヘッドレスUI「Base UI」とNext.js標準のCSS Modulesを採用。Base UIはドキュメント充実で導入が速く、CSS Modulesは環境構築・学習コストが低くDesign Tokenを扱いやすい。data-*属性で状態をCSSのみで制御できる点も利点として挙げられる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-26T01:00:00.000Z",
+      "contentHash": "449f357eefd1"
+    },
+    {
+      "id": "a4ff6a8f389f",
+      "title": "新Linuxカーネル解読室 - Linuxの起動 ～ARM64編～ (1) | VA Linux エンジニアブログ  ",
+      "url": "https://www.valinux.co.jp/blog/entry/20260326",
+      "summary": "Linuxカーネルv6.8を基に、ARM64（Cortex‑A76、Ubuntu24.04想定）の起動処理を詳解する記事。カーネルエントリからMMU/仮想記憶、デバイスツリー、memblock、マルチコア起動、initramfsとinitプロセス、EFI対応までを扱う。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-26T01:00:00.000Z",
+      "contentHash": "e1dca74be1b5"
+    },
+    {
+      "id": "e50a6c38ef03",
+      "title": "MacBook Air のJIS配列のキーボードにUS配列キーボードを繋がて使うときの悩み | インゲージ開発者ブログ",
+      "url": "https://blog.ingage.jp/entry/2026/03/26/100000",
+      "summary": "長年US配列を使っていた筆者がJIS配列のMacBook Airに移行した際、外付けUSキーボードが誤認識され本体までUS扱いに。円マーク等が使えなくなったためKarabiner Elementsでキーを再割当てし、さらにGhostty用にLeftCmd→LeftOptionのComplex Modificationを設定して対処した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-26T01:00:00.000Z",
+      "contentHash": "52138dbf4e31"
+    },
+    {
+      "id": "fee1b53c1a8e",
+      "title": "第18回 統合認証シンポジウムに参加しました | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/51731",
+      "summary": "第18回統合認証シンポジウムに参加。SIOS服部がShibboleth IdPを紹介・デモ。講演はデジタル証明書とDX、認証基盤のクラウド化と情報源整理、マイナンバー活用やパスキー導入等を議論しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-26T01:00:00.000Z",
+      "contentHash": "9781e87e5f50"
+    },
+    {
+      "id": "f9141205ee58",
+      "title": "『コンテキストエンジニアリング』を読んで、AI活用の解像度を上げよう | 虎の穴ラボ技術ブログ",
+      "url": "https://toranoana-lab.hatenablog.com/entry/2026/03/26/100000",
+      "summary": "虎の穴ラボのY.Fが『コンテキストエンジニアリング』を紹介。AIへの指示や文脈提供（プロンプト改善、RAG等）の課題を論理的に解明・説明できるようにすることを目的に、LLMの仕組みやAPI、ツール、モデル選定など実務的知見を学ぶ書籍である。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-26T01:00:00.000Z",
+      "contentHash": "218cc4613e6c"
+    },
+    {
+      "id": "f5dd31fc3959",
+      "title": "【Google Cloud × Streamlit】ブラウザ上でデータ分析できるようにして、分析効率を上げてみた - 資金管理最適化での実践例 | Coincheck Tech Blog",
+      "url": "https://tech.coincheck.blog/entry/2026/03/26/094458",
+      "summary": "コインチェックのトレジャリー部が資金管理最適化の分析をCloud Run上のStreamlitに移行し、BigQuery/Cloud Storageやスプレッドシートで自動共有。ブラウザでパラメータ操作・実行可能になり、環境構築不要で作業時間を約30分→5〜10分に短縮しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-26T00:44:58.000Z",
+      "contentHash": "05f01c8c9c50"
+    },
+    {
+      "id": "8bc9dc3eccea",
+      "title": "Intel and LG Display may have beaten Apple and Qualcomm with the best laptop battery life ever",
+      "url": "https://www.theverge.com/tech/901155/dell-xps-16-best-battery-lg-display-1hz-panther-lake-intel",
+      "summary": "Dellの新型XPS 16（LGの1–120Hz可変リフレッシュ液晶＋Intel Core Ultra 325）がNotebookcheckのWi‑Fiブラウジングテストで、70Whで約27時間、アイドル消費1.5Wと史上最高級の省電力を記録。多くのMacBookを上回る成績。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-26T00:33:07.000Z",
+      "contentHash": "ba97ff2497ef"
+    },
+    {
+      "id": "143d57b055e4",
+      "title": "郵便番号の巡回セールスマン問題性 | estie inside blog",
+      "url": "https://www.estie.jp/blog/entry/2026/03/26/092717",
+      "summary": "estieのkageyuが郵便番号の構造を解説。郵便番号は都道府県―市区町村―町域の階層で、1〜2桁は地域区分局（鉄道輸送に由来）、3桁目は中心局、4〜5桁は路線・順序、6〜7桁は町域。1968年の自動読取機導入や1998年の7桁化、欠番や例外もある。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-26T00:27:17.000Z",
+      "contentHash": "477f429c0dc8"
+    },
+    {
+      "id": "834187116e80",
+      "title": "【SharePoint Tips】リストの列の内部名を半角英数字に設定する | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/03/26/091738",
+      "summary": "SharePoint Onlineのリスト列は作成時に内部名が自動生成され、日本語だとUTF-16形式でエンコードされ変更不可。Power AutomateやURL、運用で不便になるため、列は作成時に半角英数字で設定し、表示名だけ日本語にすることを推奨します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-26T00:17:38.000Z",
+      "contentHash": "c42f0cc401cd"
+    },
+    {
+      "id": "8995e8cdb0f7",
+      "title": "The Sonos Ace are a hefty 25 percent for Amazon’s Big Spring Sale",
+      "url": "https://www.theverge.com/tech/900836/sonos-ace-noise-canceling-headphones-amazon-big-spring-sale-2026-deal",
+      "summary": "Sonosの初代ノイズキャンセリングヘッドホン「Ace」がAmazonのビッグスプリングセールで25%オフの299ドルに。Amazon・Best Buy・Sonos直販で同価格。自社サウンドバー所有者には特に魅力的なデビュー作。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-25T22:30:00.000Z",
+      "contentHash": "b82d4457bf0d"
+    },
+    {
+      "id": "12850dbe1dd8",
+      "title": "The best deals we’ve found from Amazon’s Big Spring Sale (so far)",
+      "url": "https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals",
+      "summary": "Amazonの第3回「Big Spring Sale」が3月31日まで開催。スマートスピーカーや充電器など春向け家電が割引対象だが、割引規模はブラックフライデーやプライムデーほど大きくない、とThe Vergeが報告。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-25T21:58:00.000Z",
+      "contentHash": "db438181c7cf"
+    },
+    {
+      "id": "3ff0e162de03",
+      "title": "The portable Fanttik X9 Pro tire inflator is down to its best price in months",
+      "url": "https://www.theverge.com/gadgets/900863/fanttik-x9-pro-portable-tire-inflator-amazon-big-spring-sale-deal-sale",
+      "summary": "携帯型タイヤ空気入れFanttik X9 ProがAmazonのBig Springセールで約60ドル（$59.98）に値下げ、7月以来の最安。充電式で車・自転車のタイヤを約1分で充填、複数のプリセットで操作も簡単。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-25T21:14:15.000Z",
+      "contentHash": "61d3aa33ed37"
+    },
+    {
+      "id": "906a5817f0ba",
+      "title": "Running Tesla Model 3's computer on my desk using parts from crashed cars",
+      "url": "https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/",
+      "summary": "テスラのバグバウンティ参加のため、筆者はeBayで事故車から抜き取ったModel 3のMCU・APとタッチスクリーンを入手し、0–30V/10A電源でデスク上で車載OSを起動。MCUは$200–300、画面は$175、接続ケーブルが最難関だった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T21:11:57.000Z",
+      "contentHash": "bc490db6ef95"
+    },
+    {
+      "id": "b03740fa3815",
+      "title": "Meta is laying off hundreds of employees as it pours money into AI",
+      "url": "https://www.theverge.com/tech/900946/meta-layoffs-hundreds-employees",
+      "summary": "複数報道によると、MetaはAI投資拡大に伴い数百人を削減。Reality Labsや採用・SNS・営業部門が対象で、広報は再編や他部署への配置転換を検討するとし、削減数は非公表。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-25T21:10:32.000Z",
+      "contentHash": "2674d9f74081"
+    },
+    {
+      "id": "907d6289527b",
+      "title": "Spotify is letting artists manually approve releases to combat AI fakes",
+      "url": "https://www.theverge.com/streaming/900910/spotify-artist-profile-protection-ai-clones",
+      "summary": "Spotifyはベータで「Artist Profile Protection」を導入。参加アーティストは配信前にリリースを承認でき、メタデータ誤表示やAI生成の偽トラックが本人名義で公開されるのを防ぐ機能です。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-25T21:01:23.000Z",
+      "contentHash": "f38c7ce142a1"
+    },
+    {
+      "id": "cf743bd70a02",
+      "title": "China is mass-producing hypersonic missiles for $99,000",
+      "url": "https://kdwalmsley.substack.com/p/on-sale-now-china-is-mass-producing",
+      "summary": "すみませんが外部リンクに直接アクセスできません。記事本文か要点を貼っていただければ、200文字以内で日本語要約を作成します。HNコメントの要約希望でも可。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T20:55:36.000Z",
+      "contentHash": "ba53ec59a33a"
+    },
+    {
+      "id": "0f50fdd3dc5d",
+      "title": "Razer’s new Blade 16 gaming laptop has an Intel Panther Lake chip and very fast RAM",
+      "url": "https://www.theverge.com/gadgets/900518/razers-new-blade-16-gaming-laptop-has-an-intel-panther-lake-chip-and-very-fast-ram",
+      "summary": "Razerの2026年版Blade 16は薄型筐体を維持しつつAMDからIntel Core Ultra 9 386H（Panther Lake）と高速RAMに刷新。RTX 50シリーズ搭載で、RTX5080/32GB/1TBは$3,499.99、RTX5090/2TBは$4,499.99。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-25T20:36:58.000Z",
+      "contentHash": "a2c7ee683014"
+    },
+    {
+      "id": "b7d9596887d3",
+      "title": "The EU still wants to scan  your private messages and photos",
+      "url": "https://fightchatcontrol.eu/?foo=bar",
+      "summary": "0が並び、▲や📡️⚖️🎯👨‍👩‍👧‍👦🌍などの絵文字で監視・法規制や家族・世界への影響を示唆する象徴的な投稿。末尾に Mastodon アカウント @chatcontrol@mastodon.social と @fightchatcontrol が記載。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T20:27:03.000Z",
+      "contentHash": "ed435478410a"
+    },
+    {
+      "id": "dd489fa1cd63",
+      "title": "The surprise hit Nex Playground is the latest console to get a price hike",
+      "url": "https://www.theverge.com/entertainment/900856/nex-playground-price-hike",
+      "summary": "Kinect風家庭向け端末「Nex Playground」が4月1日から50ドル値上げで299ドルに。CEOはAIインフラ拡大でDDRやeMMCなどメモリ・ストレージ価格が上昇し供給不足が影響したと説明。年末はXboxより売れた。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-25T20:25:10.000Z",
+      "contentHash": "5b42c84e5331"
+    },
+    {
+      "id": "227509d6dd90",
+      "title": "Sodium-ion EV battery breakthrough delivers 11-min charging and 450 km range",
+      "url": "https://electrek.co/2026/03/25/sodium-ion-ev-battery-delivers-11-min-charging-450-km-range/",
+      "summary": "カリフォルニアの規制当局が、テスラは「自律走行車サービス」を運営していないと確認した。FSDやロボタクシーに関する同社の提供は自律走行サービスに該当せず、規制・安全監督の扱いが注目される。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T20:19:58.000Z",
+      "contentHash": "92b225cc7527"
+    },
+    {
+      "id": "b782d691918f",
+      "title": "Disney’s big bets on the metaverse and AI slop aren’t going so well",
+      "url": "https://www.theverge.com/streaming/900837/disney-open-ai-sora-epic-fortnite-metaverse",
+      "summary": "新CEOダマロ就任直後、OpenAIが画像生成「Sora」を停止しDisneyとの10億ドル提携が暗礁に。Fortnite開発のEpicが1000人削減し、Disneyとの15億ドルメタバース構想も不透明に。実現の可能性は残るが不確実性が高まった。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-25T20:02:48.000Z",
+      "contentHash": "761ee34083ac"
+    },
+    {
+      "id": "8cc384c875e0",
+      "title": "FreeCAD  v1.1",
+      "url": "https://blog.freecad.org/2026/03/25/freecad-version-1-1-released/",
+      "summary": "多くの貢献者の尽力でFreeCAD 1.1が公開されました。透明なPart Designプレビュー、Fillet/Chamferの対話型ハンドル、3点照明、選択改善、アセンブリ・FEMやアニメーション強化、新しいCAMツールライブラリなど多数の新機能。詳細はリリースノート、開発支援は寄付を。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T19:19:50.000Z",
+      "contentHash": "b134fd0a52ea"
+    },
+    {
+      "id": "0237cad53054",
+      "title": "Apple randomly closes bug reports unless you \"verify\" the bug remains unfixed",
+      "url": "https://lapcatsoftware.com/articles/2026/3/11.html",
+      "summary": "筆者はAppleへのバグ報告を続ける一方で、報告と報告者が軽視され時間を浪費されると批判。2023年3月のFB12088655は3年間放置され、最近macOS 26.4 beta4での検証を2週間で求められ、未検証ならクローズすると言われ不満を募らせている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T19:14:42.000Z",
+      "contentHash": "fa531db1b55d"
+    },
+    {
+      "id": "ae83f13edb3a",
+      "title": "Updates to GitHub Copilot interaction data usage policy",
+      "url": "https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/",
+      "summary": "マリオ・ロドリゲスはGitHubの最高プロダクト責任者。学習者で開発者ツールに情熱を注ぎ、MicrosoftとGitHubで20年指導。AI戦略とCopilotを立ち上げ数千組織・数百万ユーザーに展開。妻と二人娘と暮らし、米農村の教育向上のためチャータースクールを創立・共運営。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T19:09:16.000Z",
+      "contentHash": "b3c93b2c57f7"
+    },
+    {
+      "id": "44512e25f7c3",
+      "title": "Ball Pit",
+      "url": "https://codepen.io/mrdoob_/full/NPRwLZd",
+      "summary": "申し訳ありませんが、外部サイトへ直接アクセスできません。記事本文か主要部分を貼り付けていただければ、200文字以内で要約します。必要ならHNのやり取り要約も対応します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T19:08:38.000Z",
+      "contentHash": "ec7d6d133e94"
+    },
+    {
+      "id": "5d5b92cafa18",
+      "title": "Woot is offering over 20 percent off Switch 2 controllers and games today",
+      "url": "https://www.theverge.com/gadgets/900490/nintendo-switch-2-controllers-games-amazon-big-spring-sale-2026-deals",
+      "summary": "WootがAmazonのBig Spring Saleに合わせ1日限定セールを実施。Switch 2用コントローラーやゲームが割引で、クーポン「SAVETWENTY」を使うと3/26 0:59ETまで追加20％オフ。Mario Kart Worldがカートリッジ版$52、8BitDoのパッドはほぼ半額。Prime連携で送料無料。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-25T19:04:34.000Z",
+      "contentHash": "ea84427698a1"
+    },
+    {
+      "id": "d3c19447a584",
+      "title": "90% of Claude-linked output going to GitHub repos w <2 stars",
+      "url": "https://www.claudescode.dev/?window=since_launch",
+      "summary": "週次成長+8%、加速率-17.9pp、倍化時間61日。最速観測は2025/02/24。先週Claude Code初回コミットの新規リポ114,785、総コミット2,080万超、純コード増+307億行（追加504億−削除198億）。主要言語はTypeScript/Python/JavaScript。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T18:16:40.000Z",
+      "contentHash": "849d3d75ca04"
+    },
+    {
+      "id": "7a8d5f12f02e",
+      "title": "ARC-AGI-3",
+      "url": "https://arcprize.org/arc-agi/3",
+      "summary": "ARC-AGI-3は人間のような学習・適応力を測る対話型ベンチマーク。未知環境で経験から目標を獲得し、長期計画や記憶圧縮、逐次的な信念更新など時間軸での知能習得効率を評価。ツールキット、再生機能、UI、ドキュメントを提供。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-25T18:16:03.000Z",
+      "contentHash": "83dc0ba10764"
+    },
+    {
+      "id": "c53fde1af24f",
+      "title": "Lyria 3 Pro: Create longer tracks in more Google products",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/",
+      "summary": "Google DeepMindがLyria 3 Proを発表。曲構成を理解する高性能音楽生成で、イントロ／ヴァース／コーラス等を指定して最長3分の曲を作成可能。Vertex AIなどGoogle製品や開発者向けに展開し制作のスケール化を支援。",
+      "source": "Gemini",
+      "publishedAt": "2026-03-25T16:00:00.000Z",
+      "contentHash": "facef98c57ff"
+    },
+    {
+      "id": "8e80d0cd247d",
+      "title": "Xcode 26.3 の Agentic Coding を試す",
+      "url": "https://note.com/npaka/n/na204d7cf2a34",
+      "summary": "Xcode 26.3のAgentic Codingを試用。AIが計画→実装→ビルド→修正まで担うエージェント機能に進化。Coding AssistantでClaude/Codexにサインインして有効化し、MVVM・Observable・非同期API・モデル定義・ローディングやエラー表示、将来のストリーミング対応を想定したチャット機能を実装・検証した。",
+      "source": "npaka",
+      "publishedAt": "2026-03-25T11:18:31.000Z",
+      "contentHash": "179e78db6e61"
+    },
+    {
+      "id": "263c2043f1c3",
+      "title": "Inside our approach to the Model Spec",
+      "url": "https://openai.com/index/our-approach-to-the-model-spec",
+      "summary": "OpenAIのModel Specは、モデルの振る舞いを公開する枠組みで、安全性、利用者の自由、説明責任のバランスを図りつつ、進化するAIに対応することを目指す。",
+      "source": "OpenAI",
+      "publishedAt": "2026-03-25T10:00:00.000Z",
+      "contentHash": "d324f5a174ee"
+    },
     {
       "id": "d94eff5da925",
       "title": "【AWS】オンプレミスとAWS間のネットワーク接続方式の検討ポイント | NTT DATA TECHのフィード",
@@ -227,6 +524,15 @@
       "contentHash": "2bbbd9c79682"
     },
     {
+      "id": "fb38dfafd80a",
+      "title": "Introducing the OpenAI Safety Bug Bounty program",
+      "url": "https://openai.com/index/safety-bug-bounty",
+      "summary": "OpenAIは、エージェント化の脆弱性、プロンプト注入、データ流出などのAI悪用や安全リスクを発見するための「Safety Bug Bounty」プログラムを開始した。",
+      "source": "OpenAI",
+      "publishedAt": "2026-03-25T00:00:00.000Z",
+      "contentHash": "20ef0e4e54cf"
+    },
+    {
       "id": "5ee024877588",
       "title": "【Microsoft×生成AI連載】【Microsoft 365 Copilot】Copilot StudioのアダプティブカードをCopilot Chatで作成してみた | JBS Tech Blog",
       "url": "https://blog.jbs.co.jp/entry/2026/03/25/085732",
@@ -248,10 +554,10 @@
       "id": "18827c6b2764",
       "title": "Cowork の Dispatch と Computer Use を試す",
       "url": "https://note.com/npaka/n/n3422c0d940ef",
-      "summary": "「Cowork」のDispatchとComputer Useを試した。DispatchはスマホのClaudeからPCのClaudeへタスクを送り、デスクトップで処理・結果確認する機能。Computer UseはClaudeがPCのアプリやブラウザを人間のように操作して作業を実行する機能で、設定と実行手順を紹介している。",
+      "summary": "「Dispatch」はスマホのClaudeからPCのClaudeへタスクを送り、PC側で処理・後で結果確認できる機能。「Computer Use」はClaudeがPCのアプリやブラウザを人のように操作して作業を実行する機能で、両方の設定・実践を試した報告。",
       "source": "npaka",
       "publishedAt": "2026-03-24T22:43:51.000Z",
-      "contentHash": "1bd0a54864bd"
+      "contentHash": "effaba0c2ed7"
     },
     {
       "id": "a5c8fbc53428",
@@ -1148,10 +1454,10 @@
       "id": "ffbd8d6f205a",
       "title": "DGX Spark で piper-plus のTTS を試す",
       "url": "https://note.com/npaka/n/nd9cab6cf0665",
-      "summary": "DGX Sparkでpiper-plus v1.8.0のTTSを試した報告。linux-arm64版をダウンロードして展開し、つくよみちゃんモデルを取得。./piperでoutput.wavを生成し、Pythonスクリプト(Speak.py)から実行して再生する手順とコード例を紹介。",
+      "summary": "DGX Sparkでpiper-plus v1.8.0を試用。linux‑arm64版を展開し、つくよみモデルをダウンロードして./piper/bin/piperで音声をoutput.wavに出力。Pythonスクリプトで呼び出して再生可能。",
       "source": "npaka",
       "publishedAt": "2026-03-23T13:01:45.000Z",
-      "contentHash": "193c90bec060"
+      "contentHash": "5c639a8740de"
     },
     {
       "id": "102106581f82",
@@ -2057,10 +2363,10 @@
       "id": "3cf5b5103cc7",
       "title": "HuggingFace Diffusers v0.37.0の新機能",
       "url": "https://note.com/npaka/n/n70eba03fe869",
-      "summary": "Diffusers v0.37.0では、再利用可能ブロックで組むModular Diffusersを導入し、Z-Image、Flux2 Klein、Qwen-Image-Layered、Fibo Edit、Cosmos Predict/Transfer2.5、GLM-Image、RAEや音声同期TX-2など多彩な新パイプラインとモデルが追加されました。",
+      "summary": "Diffusers v0.37.0では、再利用可能ブロックで組む「Modular Diffusers」を導入。Z-ImageやFlux2、Qwen-Image、FIBO Edit、Cosmos系、GLM-Image、RAE、音声同期のTX-2など多数の新モデル・パイプラインを追加しました。",
       "source": "npaka",
       "publishedAt": "2026-03-21T07:01:02.000Z",
-      "contentHash": "11ae3a894022"
+      "contentHash": "605732cf7038"
     },
     {
       "id": "3f3b32c560b4",
@@ -8694,312 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-03-06T19:22:39.000Z",
       "contentHash": "553d1353d12b"
-    },
-    {
-      "id": "35292e62079b",
-      "title": "The AI Doc is an overwrought hype piece for doomers and accelerationists alike",
-      "url": "https://www.theverge.com/entertainment/890806/the-ai-doc-or-how-i-became-an-apocaloptimist-review",
-      "summary": "フォーカス・フィーチャーズの生成AIドキュメンタリーは過剰演出で悲観論者と加速主義者双方に訴えるが、取材は豊富でも思考が足りず浅い。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-06T19:05:00.000Z",
-      "contentHash": "de34aa8f8215"
-    },
-    {
-      "id": "c2db9a746888",
-      "title": "New imagery suggests U.S. responsible for Iran school strike",
-      "url": "https://www.cnn.com/2026/03/06/world/video/updates-suggests-us-responsible-iran-school-strike-digvid",
-      "summary": "CNNがまとめた証拠映像によると、南イランの小学校への攻撃は米軍が関与した可能性があり、多数の児童が死亡した。これは米・イスラエルとイランの約1週間の戦闘で最悪の民間人被害とされる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-06T18:45:37.000Z",
-      "contentHash": "098258c2fb5b"
-    },
-    {
-      "id": "0fbcabf19edb",
-      "title": "TSA leaves passenger needing surgery after illegally forcing her through scanner",
-      "url": "https://www.thetravel.com/tsa-leaves-passenger-needing-surgery-after-illegally-forcing-her-through-scanner-spinal-cord-implant/",
-      "summary": "TSA職員が乗客を違法にボディスキャナーに通し、脊髄インプラントを損傷して手術が必要になったとして、被害者が同庁を提訴した。最近もTSAの問題行動が続く。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-06T18:40:27.000Z",
-      "contentHash": "026831f6469f"
-    },
-    {
-      "id": "129f51e682d6",
-      "title": "You can already save up to $50 on the new M4 iPad Air",
-      "url": "https://www.theverge.com/gadgets/890389/apple-ipad-air-m4-xbox-wireless-controller-deal-sale",
-      "summary": "AppleのM4搭載iPad Airが3月11日発売。先行割引で128GB Wi‑FiがAmazon/Best Buy/Walmartで559ドル（40ドル引）、LTEは709ドル、11インチ256GBは649ドル、13インチ128GBは749ドル。記事はGarmin Forerunner 265の特別割引も紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-06T17:03:09.000Z",
-      "contentHash": "99897b4b4384"
-    },
-    {
-      "id": "1b1ecbf752a6",
-      "title": "The Trump phone was a no-show at the world’s biggest mobile show",
-      "url": "https://www.theverge.com/tech/889837/trump-phone-mobile-world-congress-mwc",
-      "summary": "トランプ・モバイルの端末がCESに続きMWCでも不在だった。記者が出展を確認したが見つからず、XiaomiやSamsungらが賑わう世界最大のモバイル展示会で姿を消していた。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-06T15:00:00.000Z",
-      "contentHash": "d49d501aa8bd"
-    },
-    {
-      "id": "a1c73a9ed987",
-      "title": "Trump&#8217;s surgeon general nominee is running the wellness grifter playbook perfectly",
-      "url": "https://www.theverge.com/column/889922/optimizer-casey-means-wellness-influencer-playbook",
-      "summary": "トランプの外科総監候補ケイシー・ミーンズは「Good Energy習慣」でがんを予防できると主張し、選択的な科学解釈で公的機関を貶める典型的なウェルネス系インフルエンサーの手口を巧妙に使っていると批判する記事。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-06T15:00:00.000Z",
-      "contentHash": "e81098457306"
-    },
-    {
-      "id": "53799b4bba0a",
-      "title": "Global Warming Has Accelerated Significantly",
-      "url": "https://www.researchgate.net/publication/389855619_Global_Warming_has_Accelerated_Significantly",
-      "summary": "論文は観測データと解析に基づき、地球温暖化が近年著しく加速していると報告する。温室効果ガス増加と気温上昇の相関、影響拡大を示し、緊急対策の必要性を強調する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-06T14:10:03.000Z",
-      "contentHash": "9cc669674ad3"
-    },
-    {
-      "id": "424cd9e93650",
-      "title": "Claude Codeに「チームの設計思想」を教え込んだら、最高の開発体験になった話 | YOUTRUST Tech Blog",
-      "url": "https://tech.youtrust.co.jp/entry/ai_guidance",
-      "summary": "Claude Codeにチームの設計思想を教え込んだ結果、AI支援でDart/Flutter開発の一貫性と効率が向上し、より良い開発体験を実現した事例を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T14:01:27.000Z",
-      "contentHash": "92a38c6bc276"
-    },
-    {
-      "id": "c3d0f1620a23",
-      "title": "Indie games are turning the act of looking into an art",
-      "url": "https://www.theverge.com/entertainment/889978/hidden-object-games-indie",
-      "summary": "インディーの隠し物ゲームが「見る」行為を芸術化。2017年のHidden Folksは探索と小さな物語を重視し、多数の類似作やクローンを生み、制作者は続編を準備中。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-06T14:00:00.000Z",
-      "contentHash": "8dedbadc0b74"
-    },
-    {
-      "id": "878b3b60e9d0",
-      "title": "How Descript enables multilingual video dubbing at scale",
-      "url": "https://openai.com/index/descript",
-      "summary": "DescriptはOpenAIのモデルを活用して多言語ビデオの吹替を拡大し、意味と発話タイミングの両方を最適化して各言語で自然に聞こえる音声を実現する。",
-      "source": "OpenAI",
-      "publishedAt": "2026-03-06T10:00:00.000Z",
-      "contentHash": "def22df6cc95"
-    },
-    {
-      "id": "5becf449a527",
-      "title": "Codex Security: now in research preview ",
-      "url": "https://openai.com/index/codex-security-now-in-research-preview",
-      "summary": "Codex Securityは、プロジェクトの文脈を解析して複雑な脆弱性を検出・検証・修正するAIセキュリティエージェントで、誤検知を抑え高い信頼性を提供します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-03-06T10:00:00.000Z",
-      "contentHash": "a381d80758aa"
-    },
-    {
-      "id": "4a3a0dbc8cd3",
-      "title": "DEIM2026参加レポート | LayerX エンジニアブログ",
-      "url": "https://tech.layerx.co.jp/entry/deim2026_report",
-      "summary": "機械学習エンジニア宇都のDEIM2026参加報告。LayerXはプラチナスポンサーで出展し、松村がAIエージェントによる業務自動化を発表。神戸会場ではブースやポスターでLLM系研究（文書同時更新、ペルソナRAG、連邦知識グラフ選択など）への関心が高まっていると紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T09:58:36.000Z",
-      "contentHash": "046058008dbd"
-    },
-    {
-      "id": "6740282190f7",
-      "title": "ブラウザだけでAIを動かす：WASM / ONNX Runtime Web / TFLite Webの実装ノート（一般化） | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/cf31f744cea468",
-      "summary": "ブラウザでWASM／ONNX Runtime Web／TFLite Webを用いて端末でAI推論を完結する技術メモ。利点はコスト削減・プライバシー・配布容易。蒸留・量子化で軽量化しリアルタイム化が現実的。課題は品質劣化、端末依存、古端末非対応、モデル流出や大型LLMの完全クライアント化難。C++→WASM化かTypeScript＋Webランタイムの実装パターン、Worker/AudioWorkletやモデル分割、メモリ管理、運用的流出対策を提案。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T09:13:57.000Z",
-      "contentHash": "af4e2a0cccb8"
-    },
-    {
-      "id": "90eb3e7fd250",
-      "title": "エンジニア歴1年強たって、初めてRedis触ってみた | ソーシャルデータバンク テックブログのフィード",
-      "url": "https://zenn.dev/sdb_blog/articles/f00b2572791c6e",
-      "summary": "エンジニア1年強の筆者が初めてRedisを触った体験記。Redisはオープンソースのインメモリキー/値型NoSQLで高速・永続化対応、キャッシュや拡張モジュール利用が可能。実務での例とサンプルコードはリポジトリに公開。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T09:00:02.000Z",
-      "contentHash": "00f3da723749"
-    },
-    {
-      "id": "8536cdd29277",
-      "title": "EMConf 2026 参加レポート  | Monstarlab's Engineering Blog",
-      "url": "https://engineering.monstar-lab.com/jp/post/2026/03/06/EMConf2026Report",
-      "summary": "3/4開催のEMConf 2026参加レポート。モンスターラボのフルサイクルチーム紹介と、安斎氏の「半径5mで変える管理」、こにふぁー氏のマネージャー版提案力（意図的に下げる手法含む）、江副氏の事業生産性（ROIC）重視など実践的な学びを得た。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T09:00:00.000Z",
-      "contentHash": "a7bc61bcfcc6"
-    },
-    {
-      "id": "490cf95828b9",
-      "title": "ServiceNowの変更管理の違い | TechHarmony",
-      "url": "https://blog.usize-tech.com/servicenow-change-management/",
-      "summary": "ServiceNowの変更管理は通常変更・緊急変更・標準的変更の3種類。通常は評価・承認を経て実施、緊急は評価を省略し迅速承認、標準は事前承認で評価・許可を省略。用途に応じて使い分ける。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T08:35:05.000Z",
-      "contentHash": "361527aff70d"
-    },
-    {
-      "id": "7d9be45d7bab",
-      "title": "BaseDB の /u01 枯渇問題を考える | スマートスタイル TECH BLOG",
-      "url": "https://blog.s-style.co.jp/2026/03/15528/",
-      "summary": "OCIのBase Database Serviceで/u01ファイルシステムが枯渇する問題を取り上げ、原因分析と監視、容量拡張や不要ファイル削除などの具体的対策を解説する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T07:01:57.000Z",
-      "contentHash": "861655539834"
-    },
-    {
-      "id": "5c47b6341b1a",
-      "title": "Google Workspace CLIって何ができる？活用方法は？ | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/google-workspace-cli",
-      "summary": "2026年3月公開のGoogle Workspace CLI（gws）を使えば、カレンダーやGmail、スプレッドシート操作をターミナルの一行コマンドで実行でき、AIと組み合わせて「明日のミーティングを設定して」のような日本語自然語で操作可能に。全体像と活用例を紹介する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T07:00:00.000Z",
-      "contentHash": "ff2a7b9e5da0"
-    },
-    {
-      "id": "dc37dabb9801",
-      "title": "How Balyasny Asset Management built an AI research engine for investing",
-      "url": "https://openai.com/index/balyasny-asset-management",
-      "summary": "BalyasnyはGPT-5.4を活用し、厳格なモデル評価とエージェントワークフローを導入して、大規模な投資分析を変革するAI研究システムを構築した。",
-      "source": "OpenAI",
-      "publishedAt": "2026-03-06T07:00:00.000Z",
-      "contentHash": "c5dcc17ae289"
-    },
-    {
-      "id": "00f2d3f260e2",
-      "title": "業務利用してるSaaSやWebサービスを把握する「ITサービスカタログ」について | 10X Product Blog",
-      "url": "https://product.10x.co.jp/entry/2026/03/06/155210",
-      "summary": "セキュリティチーム所属の著者がCorpITを引き継ぎ、業務で利用するSaaSやWebサービスの実態把握に着手。何が使われているか不明で管理・セキュリティ上の課題があり、ToBeを描きサービス管理台帳などで改善した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T06:52:10.000Z",
-      "contentHash": "fff06229ce49"
-    },
-    {
-      "id": "b803c991e57c",
-      "title": "エクセル設計書とソースコードを差分比較する仕組みを考えてみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/excel-design-review",
-      "summary": "Excel設計書をtxtに変換し、ソースコードと差分比較する手法を紹介。設計書未更新で生じる仕様差を検出・レビューする流れや実行結果、活用例とまとめを示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T06:33:21.000Z",
-      "contentHash": "953ece889026"
-    },
-    {
-      "id": "d8667b0f9742",
-      "title": "新卒1年目のメンバーがEMConfに参加してきた | Link and Motivation Developers' Blog",
-      "url": "https://link-and-motivation.hatenablog.com/entry/2026/03/06/152758",
-      "summary": "いとまどです。2025年入社で新規プロダクト開発のエンジニア。2026年3月4日にスポンサー企業の一員としてEMConf JP 2026（エンジニアリングマネジメントの知見共有カンファレンス）に参加。社内Slackの「誰でもOK」を見て手を挙げ、参加理由は三つありました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T06:27:58.000Z",
-      "contentHash": "9c0d0edd5ba6"
-    },
-    {
-      "id": "46a880e8b246",
-      "title": "SQS FIFO×Lambda連携を“挙動ベース”で理解する：API方式とESM方式をいろいろ検証 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/verification-of-sqs-spec",
-      "summary": "SQSのFIFOキューとLambdaの連携を検証したブログ。各検証のイメージ図を掲載し、FIFOの仕組み、Lambda連携時の挙動や検証結果を分かりやすく解説している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T06:08:50.000Z",
-      "contentHash": "0ea62928789e"
-    },
-    {
-      "id": "97e209015625",
-      "title": "Keycloakを学ぶ④パスキー編 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/keycloak-learn-4",
-      "summary": "Keycloakに指紋やPINなどパスキー（WebAuthn）を導入する手順を解説。認証フローの作成とバインド、ユーザーによるパスキー登録、動作確認とまとめを紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T06:00:26.000Z",
-      "contentHash": "632b6b97f231"
-    },
-    {
-      "id": "41b593359b52",
-      "title": "3日間のUnicorn Gymが1ヶ月で組織を変えた —— データで見るAI-DLC導入の波及効果 | Timee Product Team Blog",
-      "url": "https://tech.timee.co.jp/entry/2026/03/06/141357",
-      "summary": "タイミーのPlatform Engineeringマネージャー橋本が、2026年1月26〜28日にAWSと共催したAI-DLC Unicorn Gymを企画・運営・振り返りまで担当。AI-DLCは要件定義からリリースまでAIを深く組み込み開発を大幅に加速する手法。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T05:13:57.000Z",
-      "contentHash": "41fd96859a47"
-    },
-    {
-      "id": "04e18f010e8a",
-      "title": "はてなはEMConf JP 2026にシルバースポンサーとして協賛しました | Hatena Developer Blog",
-      "url": "https://developer.hatenastaff.com/entry/2026/03/06/140616",
-      "summary": "技術グループ長id:daiksyは、はてなが2026年3月4日のEMConf JP 2026にシルバースポンサーとして協賛したと報告。エンジニア100名超の組織整備のためEMの登用・育成に注力し、主催セミナーで紹介。コミュニティと連携して課題に取り組む。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T05:06:16.000Z",
-      "contentHash": "3ffaa5205d55"
-    },
-    {
-      "id": "457dfda6b4fe",
-      "title": "Goに脆弱性報告した話 | Wantedly Engineer Blog",
-      "url": "https://www.wantedly.com/companies/wantedly/post_articles/1041394",
-      "summary": "本日3月6日、Go 1.26.1 と 1.25.8 が公開され、複数の脆弱性や不具合が修正されました。影響を受ける環境は速やかに最新版へのアップデートを推奨します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T04:30:02.000Z",
-      "contentHash": "3909a3d50e1a"
-    },
-    {
-      "id": "113cdfa330fa",
-      "title": "System76 on Age Verification Laws",
-      "url": "https://blog.system76.com/post/system76-on-age-verification/",
-      "summary": "著者は子供の好奇心と情報アクセスの重要性を述べ、子供が年齢制限を巧みに回避する実例（ChatGPT利用）を紹介。コロラドとカリフォルニアの年齢確認法が意図せぬアクセス制限やプライバシー問題を招く懸念を示す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-06T04:12:26.000Z",
-      "contentHash": "4a9e526df5d1"
-    },
-    {
-      "id": "61d86e0b3a35",
-      "title": "Amazon.com says things are fixed after some issues with logging in and checking out",
-      "url": "https://www.theverge.com/tech/890215/amazon-is-down-login-prices",
-      "summary": "木曜、Amazonのサイトとアプリでログイン・検索・決済やAmazon Musicの再生に障害が発生し、Downdetectorで報告が急増。約3時間続いたが、Amazonはソフトウェアコードのデプロイが原因で既に復旧したと発表。商品ページで価格表示が消える等のエラーも確認された。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-06T01:24:36.000Z",
-      "contentHash": "e91fff29f4d9"
-    },
-    {
-      "id": "e691743ec829",
-      "title": "The best iPad deals you can get right now",
-      "url": "https://www.theverge.com/21280354/best-ipad-deals-apple",
-      "summary": "最新のiPadセールまとめ。無印、iPad mini、iPad Air、M5搭載iPad Proまで日替わりで値下げがあり、特にiPad miniは目玉割引。The Vergeが最安店を紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-06T01:08:00.000Z",
-      "contentHash": "d621b0853844"
-    },
-    {
-      "id": "de9e53a2887b",
-      "title": "Vol.10 立ち上げからリリースまで、「シュッと話す」文化で走り抜けたSDI開発チームの話 | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/03/06/100000",
-      "summary": "2025年6月に9名で発足したSDI開発チームは「最速でリリースする」ミッションのもと、Sansan Data Hubの基盤を活用して約6カ月でリリース。ドメイン知識不足が設計見直しを促し、合宿で育った「シュッと話す」文化、デザイナーとエンジニアの協業、イベントストーミング、AI活用でフルスタック開発を実現した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T01:00:00.000Z",
-      "contentHash": "82ba46f10465"
-    },
-    {
-      "id": "486f7657b4ba",
-      "title": "ONNX形式のMoveNetをC++で動かすまで[姿勢検出] | FURYU Tech Blog - フリュー株式会社",
-      "url": "https://tech.furyu.jp/entry/movenet",
-      "summary": "ONNX形式のMoveNetをC++で動かす手順を解説。プリントシール機で使うMoveNet SinglePose ThunderとONNX Runtimeの利用法、Lightning/Thunderの違い、256×256への前処理（黒パディングしてリサイズ）などを紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T01:00:00.000Z",
-      "contentHash": "8a1f246444df"
-    },
-    {
-      "id": "d3e42dfec1a4",
-      "title": "What if your real computer was a super-sized Lego computer brick?",
-      "url": "https://www.theverge.com/gadgets/890047/what-if-your-real-computer-was-a-super-sized-lego-computer-brick",
-      "summary": "Paul Staalがクラシックなレゴのコンピュータブロックを10倍サイズで再現した3Dプリント可能なデスクトップ「M2x2」を公開。Mac miniを内蔵し、7インチIPSタッチ液晶、USB‑CハブやSDカードリーダー、機能するスタッドや音量ノブなどを備える。モデルはウェブで公開中。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-06T00:59:11.000Z",
-      "contentHash": "9a522c52f285"
-    },
-    {
-      "id": "54414695f003",
-      "title": "【検証】AWS DevOpsAgentは「謎のタイムアウト」の原因を特定できるのか？人間とガチ対決させてみた | NCDC テックブログのフィード",
-      "url": "https://zenn.dev/ncdc/articles/b1d96b1d44b2b1",
-      "summary": "記事はAWSで作ったAIチャットの「応答なし」不具合を、人間エンジニアとAWS DevOpsAgentが45分で対決して原因究明を試みた検証記録。構成はAmplify・AppSync+Lambda・Bedrock・DynamoDB。人間は再現と「30秒」タイムアウトの手掛かりを掴むが根本原因は未特定で、続いてDevOpsAgentが調査する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-06T00:54:52.000Z",
-      "contentHash": "6cef8478c42d"
     }
   ]
 }
