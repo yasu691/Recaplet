@@ -1,6 +1,132 @@
 {
-  "generatedAt": "2026-03-27T03:14:40.803Z",
+  "generatedAt": "2026-03-27T09:15:05.952Z",
   "items": [
+    {
+      "id": "7a640c71cfd2",
+      "title": "NVIDIA Jetson の種類と違いまとめ",
+      "url": "https://note.com/npaka/n/n44aec7e4bc22",
+      "summary": "NVIDIA Jetsonは旧世代（Nano/TX2/Xavier）から現行のOrin世代、上位の次世代Thorへ。階層はOrin Nano→Orin NX→AGX Orin→Thor。Nanoは入門・軽量、NXは汎用商用、AGXは高性能多センサー、ThorはLLM/VLMや先端ロボ向け。開発は開発キットで試作、モジュールで製品化。",
+      "source": "npaka",
+      "publishedAt": "2026-03-27T08:42:43.000Z",
+      "contentHash": "0603f9252e73"
+    },
+    {
+      "id": "c7e6760008f3",
+      "title": "SmartHRの労務プロダクトに興味をお持ちの方へ | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/03/27/155947",
+      "summary": "SmartHRは労務プロダクトでクラウド人事給与基幹システム化を目指す。フロント、人事マスタ、給与計算、勤怠、スケーラビリティの5領域で開発を進め、二重入力不要の「データ入力レス」給与など機能拡充と技術課題解決に取り組む。各職種を募集中でカジュアル面談を受付。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-27T06:59:47.000Z",
+      "contentHash": "7f1ad1ee3344"
+    },
+    {
+      "id": "84d7a362e34f",
+      "title": "AWSにおける超巨大圧縮ログファイルのSplunkへの取込指南 | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n178c522f8205",
+      "summary": "AWSのS3にある超巨大ZipログをSplunk Cloudへ送ると、HFの送信キャッシュが1時間で削除され送信中断→SQS再投入のループが発生。対策はZipを展開して個別JSONに分割し、SQSメッセージ単位で送信時間を短縮するアーキテクチャへ変更すること。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-27T06:58:31.000Z",
+      "contentHash": "1732bf67ab01"
+    },
+    {
+      "id": "9e32ca7899de",
+      "title": "Microsoft Intune カスタムコンプライアンスでMicrosoft 365 Appsバージョンを判定する方法 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/03/27/153133",
+      "summary": "IntuneのカスタムコンプライアンスでPowerShell検出スクリプトによりMicrosoft 365 Appsのバージョンを取得し、JSONで最小バージョンを定義してポリシーを作成、準拠／非準拠を判定する手順を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-27T06:31:33.000Z",
+      "contentHash": "dc94ffd7c40e"
+    },
+    {
+      "id": "e57636c25ca0",
+      "title": "チームで使われる単語を統一するためのデザインシステム(#1: デザイントークン編) | RecoChoku Engineering Blog",
+      "url": "https://techblog.recochoku.jp/13415",
+      "summary": "レコチョクの河野が、自社デザインシステム「Sauna」を例に、チーム内の単語統一を究極目的とするデザインシステムとデザイントークンを解説。意味層（semantic）と参照層で色等を管理し、誤解を減らして人やAIとのコラボレーションを円滑にする点を強調。DDDのユビキタス言語と同義。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-27T06:26:42.000Z",
+      "contentHash": "d6232fb9cb09"
+    },
+    {
+      "id": "53d531ba0dc6",
+      "title": "M&amp;amp;A によるナレッジワークと Poetics のシステム統合の取り組み | Knowledge Work Developers Blog",
+      "url": "https://note.com/knowledgework/n/n1ad131c7a62d",
+      "summary": "ナレッジワークは2025年7月にPoeticsを吸収合併し、営業の前後を一貫支援する製品統合と技術・人材のシナジーを目指す「Project Unite」を推進。JamRollを組み込み、開発組織・運用文化の統合や交流施策・サーベイで円滑な連携と運用改善を実現している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-27T06:25:36.000Z",
+      "contentHash": "41875f7bc030"
+    },
+    {
+      "id": "2724e0e3222d",
+      "title": "【予告】外形監視のIPv6対応に伴い、アラートが再度通知される可能性があります | Mackerel ブログ #mackerelio",
+      "url": "https://mackerel.io/ja/blog/entry/announcement/20260327",
+      "summary": "Mackerelは外形監視のIPv6対応を近日実施します。既存の監視は当面IPv4で継続し機能影響はありませんが、アラート文面の変更により継続中のアラートが再通知される可能性があります。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-27T06:02:47.000Z",
+      "contentHash": "af95fffd665b"
+    },
+    {
+      "id": "009061aef63d",
+      "title": "AIが型を探す往復をゼロにする — Python型ヒントをAIへのガードレールとして使う | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/03/27/144621",
+      "summary": "AIでPythonコードを生成すると型の空白をAIが推測し誤りが生じやすく同じTypeErrorが繰り返される。型ヒントを「仕様書」として明記すれば誤推測を防げ、mypy/pyright意識や指示テンプレで型ヒントの導入・維持が可能になる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-27T05:46:21.000Z",
+      "contentHash": "214553e27f63"
+    },
+    {
+      "id": "987375d4cfd1",
+      "title": "Go言語の現場に入る前に知っておきたいGo言語の間違えやすい仕様クイズ[全5問] | MOBILUS TECH BLOG",
+      "url": "https://mobilus.hatenablog.com/entry/2026/03/27/142915",
+      "summary": "街歩き好きのMIYA.TOMOが、AI時代に求められるコード読解力を説き、Goの誤解しやすい仕様を全5問のクイズで解説。メソッド式、typed-nil、バッファ有無のチャネル、closeやnilの挙動を実例コードで確認でき、Go Playgroundでの実行を推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-27T05:29:15.000Z",
+      "contentHash": "5acc42d47480"
+    },
+    {
+      "id": "fb08d81fb3c3",
+      "title": "Go 1.26 の自己参照型制約って結局なんのために使うの？ | NIFTY engineering",
+      "url": "https://engineering.nifty.co.jp/blog/37567",
+      "summary": "Go 1.26でジェネリック型が定義内で自分自身を型パラメータの制約として参照できるようになった。公式のAdder例は自己参照不要だが、ジェネリックなインターフェースとカスタム型が相互参照し、メソッド制約を型定義側で扱う必要がある場合に有用で、実装上のワークアラウンド的改良。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-27T05:27:16.000Z",
+      "contentHash": "cd4836e76240"
+    },
+    {
+      "id": "038f2dc22e50",
+      "title": "グローバルに展開し、ローカルに攻める（IIJ.news） | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/35723",
+      "summary": "提示された文章が途中で切れています。全文を貼るか、要約してほしい範囲（URLでも可）を教えてください。現状の断片では正確な要約ができません。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-27T05:00:21.000Z",
+      "contentHash": "0d34b2523255"
+    },
+    {
+      "id": "1c8313d07719",
+      "title": "Schedule tasks on the web",
+      "url": "https://code.claude.com/docs/en/web-scheduled-tasks",
+      "summary": "クラウドのスケジュールタスクで定期作業を自動化する手順：作成フォームを開き、タスク名とプロンプトを入力、リポジトリと環境を選択、スケジュール設定、コネクタを確認してタスクを作成する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-27T04:47:15.000Z",
+      "contentHash": "7eb5a993d18d"
+    },
+    {
+      "id": "4b9682859834",
+      "title": "CGWORLD にて NVIDIA DGX Spark　×　Reachy Mini の連載はじめました",
+      "url": "https://note.com/npaka/n/nee8919d9c574",
+      "summary": "CGWORLDで「NVIDIA DGX Spark × Reachy Mini」の連載を開始。第1回はローカルAIロボット開発入門で、未来の音声AIロボットを自分の手で作る方法を紹介。執筆はnpaka。",
+      "source": "npaka",
+      "publishedAt": "2026-03-27T03:24:26.000Z",
+      "contentHash": "184e81176c96"
+    },
+    {
+      "id": "0e35bb50641c",
+      "title": "明日から「Blender Fes 2026 SS」が始まります！",
+      "url": "https://note.com/npaka/n/nf7b1d4c864c5",
+      "summary": "「Blender Fes 2026 SS」が明日開幕。npaka氏が3月29日17:30〜「Blender×AI活用入門」を講演し、Blender MCP、Tripo、DeepMotion Animate 3D、Flow Studio、Gemini TTSなどを紹介。前売り券は本日まで。",
+      "source": "npaka",
+      "publishedAt": "2026-03-27T03:19:15.000Z",
+      "contentHash": "2a7fd459fb33"
+    },
     {
       "id": "4867ed475485",
       "title": "地味に知って良かった Power BI の関数の使いどころ | ヘッドウォータースのフィード",
@@ -95,19 +221,19 @@
       "id": "2029e40298fa",
       "title": "Judge sides with Anthropic to temporarily block the Pentagon&#8217;s ban",
       "url": "https://www.theverge.com/ai-artificial-intelligence/902149/anthropic-dod-pentagon-lawsuit-supply-chain-risk-injunction",
-      "summary": "数週間の対立の末、裁判官がAnthropicに有利な予備差止めを認め、国防総省による同社排除を一時差し止めた。Lin判事は「処罰は違法な第一修正の報復」と述べた。",
+      "summary": "米連邦裁判所のLin判事が、国防総省によるAI企業Anthropicへの禁止措置を一時差し止め、「Anthropicを罰するのは違法な第一修正の報復だ」と述べたと報じられた。",
       "source": "The Verge",
       "publishedAt": "2026-03-27T00:33:44.000Z",
-      "contentHash": "7a3576432606"
+      "contentHash": "301770a08879"
     },
     {
       "id": "93a5dae6fc66",
       "title": "Isaac Sim で RTX LiDAR Sensors を試す",
       "url": "https://note.com/npaka/n/n0e497036fffa",
-      "summary": "Isaac Sim 5.11でNVIDIA RTXレイトレーシングを使った高精度LiDARを検証。2D(LaserScan:/scan)と3D(PointCloud2:/point_cloud)出力を確認。地面＋4つのキューブのシーンにExample Rotaryセンサーを配置し、Action GraphでRender ProductとROS2 RTX Lidar Helperを接続してトピックをpublish、ros2 topicやRViz2で確認した。",
+      "summary": "Isaac Sim 5.11でGPUレイトレーシングのRTX LiDARを試用。2D(LaserScan/scan)・3D(PointCloud2/point_cloud)出力をROS2で配信。シーン作成、センサー追加、Action Graphでノード接続し再生→ROS2トピックとRVizで確認。",
       "source": "npaka",
       "publishedAt": "2026-03-26T23:57:16.000Z",
-      "contentHash": "f328ab5c27d4"
+      "contentHash": "61c74334d38e"
     },
     {
       "id": "2d114e68f7cb",
@@ -131,28 +257,37 @@
       "id": "541985bc5345",
       "title": "Judge blocks Pentagon effort to 'punish' Anthropic with supply chain risk label",
       "url": "https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk",
-      "summary": "カリフォルニアの連邦裁判官リタ・リンは、国防省がAnthropicを「供給網リスク」と指定し政府取引を断つ措置を無期限で差し止めた。表現の自由と適正手続きの侵害と判断し、執行は1週延期。Anthropicは歓迎。",
+      "summary": "Anthropicが米国防総省による「供給網リスク」指定を巡り差し止めを求めて提訴。政府側は安全懸念で契約制限を検討、企業は根拠を争いAI統制と産業影響の対立が表面化。",
       "source": "Hacker News",
       "publishedAt": "2026-03-26T23:33:53.000Z",
-      "contentHash": "005f83363079"
+      "contentHash": "842befb4954d"
     },
     {
       "id": "2df7486166fb",
       "title": "Order Granting Preliminary Injunction – Anthropic vs. U.S. Department of War [pdf]",
       "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.465515/gov.uscourts.cand.465515.134.0.pdf",
-      "summary": "申し訳ありませんが、外部URLを直接開けません。PDF本文をここに貼るかファイルをアップロードしてください。あるいは要点（判決/命令/日付/当事者など）を教えていただければ、200文字以内で要約します。ニュース欄の議論要約も可能です。",
+      "summary": "そのPDFにこちらからアクセスできないため、本文を貼り付けるか要点（抜粋）を送ってください。全文を貼れない場合は、重要な段落やページ番号を教えていただければ、それを基に200文字以内で日本語要約を作成します。どちらがよろしいですか？",
       "source": "Hacker News",
       "publishedAt": "2026-03-26T23:11:45.000Z",
-      "contentHash": "6bfa8b1df0e9"
+      "contentHash": "2d767ad9f75d"
     },
     {
       "id": "7d49ff9a184a",
       "title": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
       "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
-      "summary": "外部サイトに直接アクセスできません。記事本文を貼っていただければ200字以内で要約します。HNコメントも要約希望ならその旨を教えてください。",
+      "summary": "二つのエージェント構成。公開のnullclawは678KBのZigバイナリでIRCとサイトのwebチャットを提供、非公開のironclawはTailscale＋Google A2Aでメールや予定管理。会話はHaiku 4.5、ツールはSonnet 4.6で階層化、課金はAPIキー一元化・上限$2/日。",
       "source": "Hacker News",
       "publishedAt": "2026-03-26T22:41:25.000Z",
-      "contentHash": "8f89ddd23e99"
+      "contentHash": "7f0361981fc4"
+    },
+    {
+      "id": "cc66ca77182f",
+      "title": "We rewrote JSONata with AI in a day, saved $500k/year",
+      "url": "https://www.reco.ai/blog/we-rewrote-jsonata-with-ai",
+      "summary": "RecoはCloudflareの手法を参考にAIを使いJSONataを純Go実装「gnata」に短時間で再実装。7時間・約$400で完成し、1000倍の高速化と年間50万ドルのコスト削減を達成。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-26T22:36:41.000Z",
+      "contentHash": "f59ac0100837"
     },
     {
       "id": "ff48add40f9a",
@@ -192,7 +327,7 @@
     },
     {
       "id": "76a0dfaddab7",
-      "title": "Apple discontinues the Mac Pro with no plans for future hardware",
+      "title": "Apple discontinues the Mac Pro",
       "url": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/",
       "summary": "AppleはMac Proの生産・販売を終了し、今後新しいMac Proハードウェアを投入する計画がないと発表した。プロ向けデスクトップのラインは事実上終了する。",
       "source": "Hacker News",
@@ -212,10 +347,10 @@
       "id": "f33f39245fa3",
       "title": "DeployTarot.com – Tarot card reading for deployments",
       "url": "https://deploytarot.com/setup",
-      "summary": "カード占いの比喩で、デプロイ作業の種類（A/Bテスト、AI導入、DB移行、フルリリース、ホットフィックス、インフラ変更、IPO、セキュリティ等）と関係者（CEO、CISO、CTO、クライアント等）を列挙し、結果やリスクを示す軽妙な解説。",
+      "summary": "タロット風に開発リリースの種類を列挙したユーモア寄りのチェックリスト。A/BテストやAI導入、DB移行、ホットフィックス、ドキュメント公開など各作業のリスクや皮肉を短く示す。",
       "source": "Hacker News",
       "publishedAt": "2026-03-26T20:53:54.000Z",
-      "contentHash": "81c619a69790"
+      "contentHash": "8f4899043381"
     },
     {
       "id": "310b0cfd8103",
@@ -248,10 +383,10 @@
       "id": "036a26faceae",
       "title": "We haven't seen the worst of what gambling and prediction markets will do",
       "url": "https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what",
-      "summary": "著者は賭博と予測市場の害がまだ序盤に過ぎないと警告する。例として、2025年に投手が故意にボールを投げ賭けで45万ドルを得た事件と、Polymarketで米国の対イラン爆撃直前に巨額の的中賭けが行われた疑惑を挙げる。",
+      "summary": "デレク・トンプソンは、ギャンブルと予測市場の害が過小評価されており、これからさらに深刻化すると警告する。例として、投手が故意に球を外して賭けに勝つ野球の八百長や、米国の対イラン爆撃を的中させ巨額を得た予測市場の不審な賭けを挙げる。",
       "source": "Hacker News",
       "publishedAt": "2026-03-26T19:48:05.000Z",
-      "contentHash": "d6f45033c4d7"
+      "contentHash": "833dfd7029fc"
     },
     {
       "id": "c71933579874",
@@ -887,10 +1022,10 @@
       "id": "8e80d0cd247d",
       "title": "Xcode 26.3 の Agentic Coding を試す",
       "url": "https://note.com/npaka/n/na204d7cf2a34",
-      "summary": "Xcode 26.3でAIを補助から実行主体にする「Agentic Coding」を導入。Coding AssistantでClaude/Codexを設定し、MVVM・Observable・async対応のチャット画面実装をAIに指示して試した手順と所感をまとめた記事。",
+      "summary": "Xcode 26.3のAgentic Codingを試した記事。AIが単なる補助から計画→実装→ビルド→修正まで担う新開発スタイル。Coding AssistantでClaud/Codexにサインインし、MVVM/Observableやメッセージモデル、async/await、API分離、ローディング／エラー表示、将来のストリーミング対応を備えたチャット機能の自動生成手順を紹介。",
       "source": "npaka",
       "publishedAt": "2026-03-25T11:18:31.000Z",
-      "contentHash": "a6da264348f9"
+      "contentHash": "1b9c30b3bf0c"
     },
     {
       "id": "263c2043f1c3",
@@ -1157,10 +1292,10 @@
       "id": "18827c6b2764",
       "title": "Cowork の Dispatch と Computer Use を試す",
       "url": "https://note.com/npaka/n/n3422c0d940ef",
-      "summary": "Coworkの新機能を試用。DispatchはスマホのClaudeからPCのClaudeへタスクを送ってPC側で処理・結果確認する機能。Computer UseはClaudeがPCのアプリやブラウザを人のように操作して作業する機能で、設定と実演を行った。",
+      "summary": "CoworkのDispatchはスマホのClaudeがPCのClaudeにタスクを送り、PCで処理して結果を後で確認する機能。Computer UseはClaudeがPCのアプリやブラウザを自動操作して作業を実行。両端で有効化して試した報告。",
       "source": "npaka",
       "publishedAt": "2026-03-24T22:43:51.000Z",
-      "contentHash": "c95cca45bcc4"
+      "contentHash": "79f32608e485"
     },
     {
       "id": "a5c8fbc53428",
@@ -8865,141 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-03-09T10:14:59.000Z",
       "contentHash": "e4afca783c6f"
-    },
-    {
-      "id": "f16a35767e05",
-      "title": "OpenAI to acquire Promptfoo",
-      "url": "https://openai.com/index/openai-to-acquire-promptfoo",
-      "summary": "OpenAIがPromptfooを買収。Promptfooは企業向けのAIセキュリティプラットフォームで、開発中のAIシステムの脆弱性を検出・修復する支援を行う。",
-      "source": "OpenAI",
-      "publishedAt": "2026-03-09T10:00:00.000Z",
-      "contentHash": "3758d608cc7d"
-    },
-    {
-      "id": "42a75b834334",
-      "title": "Fontcrafter: Turn Your Handwriting into a Real Font",
-      "url": "https://arcade.pirillo.com/fontcrafter.html",
-      "summary": "FontCrafterはブラウザで手書きを端末内だけで解析し、アカウント不要・無料でインストール可能なフォント（OTF/TTF/WOFF2/Base64）を生成。合字や文脈代替も自動対応し、データは端末を離れません。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-09T09:25:02.000Z",
-      "contentHash": "395632f030f8"
-    },
-    {
-      "id": "604554487045",
-      "title": "Claude Codeを活用したIT統制監査の証跡収集の効率化 | シンクロ・フード エンジニアブログ",
-      "url": "https://tech.synchro-food.co.jp/entry/2026/03/09/180000",
-      "summary": "シンクロ・フードのIT統制チームは、Claude CodeとMCPを使い、監査で必要な画面スクリーンショットや設計書の取得・所定フォルダへの保存を自動化。手作業の漏れや命名ミスを減らし監査対応を効率化した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-09T09:00:00.000Z",
-      "contentHash": "5766128dde12"
-    },
-    {
-      "id": "c1cf33e3d93e",
-      "title": "Rails: Solid Queue + SQLite3 で Puma プラグインをasyncモードに設定した話 | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_03_09/157005",
-      "summary": "Rails 8.1.2/Ruby 4.0.1でSQLite3を使うアプリにSolid Queueを導入すると、fly.io上でメモリ増大やSQLite3::BusyExceptionによる応答停止が発生。config/puma.rbでplugin :solid_queueとsolid_queue_mode :async（スレッド動作）に設定したところ解消し安定稼働した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-09T08:30:53.000Z",
-      "contentHash": "725464168fb1"
-    },
-    {
-      "id": "4576ddb72676",
-      "title": "【プレビュー】AWS DevOps Agentのハンズオンをやってみた【6 人目】 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/aws-devops-agent-preview-6",
-      "summary": "本記事はAWSのプレビュー新サービス「AWS DevOps Agent」をハンズオンで検証した報告です。IAMロール・Agent Space作成、Operator App有効化、CloudFormationでのエラー発生とCloudWatch連携、調査開始からタイムライン・Root Cause分析までの手順と結果、実装ポイントを解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-09T08:11:50.000Z",
-      "contentHash": "657265114b4a"
-    },
-    {
-      "id": "aaaf195e0644",
-      "title": "Dev ContainerでClaude Codeのプラグインマーケットプレイスのプラグインを読み込めなくなる問題を解決する | タケユー・ウェブ株式会社のフィード",
-      "url": "https://zenn.dev/takeyuwebinc/articles/f2e8ea10fe59c4",
-      "summary": "Dev Containerでホストの~/.claudeをバインド共有すると、Claude Codeがホストの絶対パスを記録するためコンテナ内でプラグインが読み込めません。対策はバインド先をホストと同じパスに変更し、CLAUDE_CONFIG_DIRを設定して双方向でパス解決すること。Dev Container廃止はデバッガ接続やパス不一致などの問題で見送られました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-09T08:06:24.000Z",
-      "contentHash": "84d454484017"
-    },
-    {
-      "id": "e99e60798d4b",
-      "title": "AAAI-26に参加しました#1 ～AIエージェントベンチマークに関するワークショップ開催～ | fltech - 富士通研究所の技術ブログ",
-      "url": "https://blog.fltech.dev/entry/2026/03/09/AAAI26-WS-AIAgentBenchmark-ja",
-      "summary": "富士通はAAAI-26でCMU・慶應と共催し、企業向けAgentic AIの評価・応用を主題にワークショップ（W8）を1月26日に開催。招待講演者や約40名の査読者を動員し、33件を採択して活発な議論と富士通のプレゼンス向上を図った。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-09T07:16:20.000Z",
-      "contentHash": "520a7eda701f"
-    },
-    {
-      "id": "7c5db19c9139",
-      "title": "「好き」が開発の原動力に。プロダクト作りを牽引する新卒5年目エンジニアにインタビュー！ | pixiv inside",
-      "url": "https://inside.pixiv.blog/2026/03/09/160000",
-      "summary": "pixivのエンジニア兼PdM、ytoさん（新卒5年目）。中学で独学し情報工学を専攻、インターンを経て2021年入社。フロント開発とPdMを兼務し「ログイン限定公開」「新検索」などを企画・主導。小説やpixivFACTORYの改善で利用促進を図り、約20名のUnitで少人数開発を行う。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-09T07:00:00.000Z",
-      "contentHash": "5c8c6cddb85f"
-    },
-    {
-      "id": "9bcdf296c6f4",
-      "title": "Navicat Premiumとは｜機能・価格比較・無料版との違い・購入方法まで徹底解説 | スマートスタイル TECH BLOG",
-      "url": "https://blog.s-style.co.jp/2026/03/15502/",
-      "summary": "Navicat Premiumは香港のPremiumSoft社製マルチDB対応GUI管理ツール。MySQL/Oracle/PostgreSQL/SQL Server/Redis等に同時接続でき、クエリビルダー・自動化・バックアップ・データ同期・ER図生成などを統合。クロスプラットフォーム・クラウド対応で運用負担とコスト削減に寄与。エディション別価格や導入事例、購入方法も解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-09T06:48:34.000Z",
-      "contentHash": "03b0a2422b3e"
-    },
-    {
-      "id": "c6927764c636",
-      "title": "US Court of Appeals: TOS may be updated by email, use can imply consent [pdf]",
-      "url": "https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/03/03/25-403.pdf",
-      "summary": "申し訳ありませんが、私には外部ウェブページを直接取得する機能がありません。記事本文をここに貼っていただくか、主要な箇所（判決要旨や重要な段落）を示していただければ、200文字以内で日本語要約を作成します。どちらがよろしいですか。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-09T06:28:02.000Z",
-      "contentHash": "27056986b6da"
-    },
-    {
-      "id": "416aff19e11a",
-      "title": "「Developers Summit 2026」出展レポート | Finatext Tech Blogのフィード",
-      "url": "https://zenn.dev/finatext/articles/developers-summit-2026",
-      "summary": "FinatextはDevelopers Summit 2026（有明）に出展し、証券・保険・貸金のプロダクトや、MCPアクセスを一元管理する企業向けゲートウェイ「AI Connect Hub（仮）」を紹介。会場は「コードのその先へ」をテーマにAI/LLM中心の展示・セッションが多数行われ、AI駆動開発やエンジニアの役割が議論された。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-09T05:37:43.000Z",
-      "contentHash": "f5617fdfb596"
-    },
-    {
-      "id": "9be7b734a3f7",
-      "title": "FFmpeg at Meta: Media Processing at Scale",
-      "url": "https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/",
-      "summary": "Metaはffmpeg/ffprobeを毎日数十億回実行する大規模メディア処理を行い、かつて内部フォークで必要機能を維持していたが、FFmpeg開発者・FFlabs・VideoLANと協力して機能を上流化し内部フォークを廃止、上流版に一本化した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-09T05:37:15.000Z",
-      "contentHash": "e28447d8fcca"
-    },
-    {
-      "id": "861f82325fed",
-      "title": "The death of social media is the renaissance of RSS (2025)",
-      "url": "https://www.smartlab.at/rss-revival-life-after-social-media/",
-      "summary": "申し訳ありませんが、外部URLの本文を直接取得できません。記事本文か主要な抜粋をここに貼っていただければ、200文字以内の日本語要約を作成します。HNコメントも要約希望なら同様に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-09T04:27:59.000Z",
-      "contentHash": "ea4834c93054"
-    },
-    {
-      "id": "e9bedb50cc7f",
-      "title": "How the Sriracha guys screwed over their supplier",
-      "url": "https://old.reddit.com/r/KitchenConfidential/comments/1ro61g2/how_the_sriracha_guys_screwed_over_their_supplier/",
-      "summary": "リンク先の記事に直接アクセスできないため、要約する本文を貼り付けていただくか、要点を教えてください。本文をいただければ200字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-09T04:16:33.000Z",
-      "contentHash": "0853d3713a6c"
-    },
-    {
-      "id": "27a88a8ce36e",
-      "title": "ネットスーパーでのLLM活用:お買い物AIのPoCから本番リリースまで | 10X Product Blog",
-      "url": "https://product.10x.co.jp/entry/2026/03/09/102325",
-      "summary": "ネットスーパー向けお買い物AIのPoCから本番導入までの事例。チャットUIでLLMが商品提案し購入体験を向上。設計は提案重視（提案→人間がカート・決済）、UX、個人情報・プロンプト注入・ハルシネ対策、段階的リリースやLLMによる自動評価など運用上の注意点と進め方を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-09T01:23:25.000Z",
-      "contentHash": "084aa5b57118"
     }
   ]
 }
