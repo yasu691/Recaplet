@@ -1,6 +1,141 @@
 {
-  "generatedAt": "2026-03-30T03:10:48.903Z",
+  "generatedAt": "2026-03-30T09:33:38.940Z",
   "items": [
+    {
+      "id": "338350ae18e9",
+      "title": "OpenArm Isaac Lab を試す",
+      "url": "https://note.com/npaka/n/nb49a936a0354",
+      "summary": "OpenArm Isaac Labを試用。NVIDIA Isaac Sim/Lab基盤のOpenArm向けシミュレーション／学習環境で、到達・持上げ・引出し開け・両手操作等のタスクとrsl_rl/rl_games/skrl等のポリシーを提供。Dockerコンテナ起動、リポジトリをクローンしてpipで導入し学習を実行（実行例あり、約15分で学習完了）。",
+      "source": "npaka",
+      "publishedAt": "2026-03-30T09:04:32.000Z",
+      "contentHash": "ae686af948fc"
+    },
+    {
+      "id": "b5aa788d04fe",
+      "title": "Monthly Tech Report 2026年2月 | ZOZO TECH BLOG",
+      "url": "https://techblog.zozo.com/entry/monthly-tech-report-202602",
+      "summary": "ZOZO開発組織の2026年2月活動を振り返るMonthly Tech Report。TECH BLOGで計16本（前月分含む）を公開。特に反響の大きい3本はすべて「Claude Code」関連で、登壇・掲載情報もまとめて紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T07:00:00.000Z",
+      "contentHash": "c57b1ca485f1"
+    },
+    {
+      "id": "e5ad176c5baf",
+      "title": "決済・送金の仕組みを磨き、創作文化を支える。 Financial Service Division リーダーにインタビュー！ | pixiv inside",
+      "url": "https://inside.pixiv.blog/2026/03/30/160000",
+      "summary": "ピクシブのFinancial Service Divisionリーダーyanatan（2021年入社）が取材に応じ、創作活動の「漠然としたお金の悩み」を解決する部署の役割や、BOOTH・pixivFANBOXなどのCtoCプラットフォームでクリエイターとファンの金銭受け渡しを支える業務について語った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T07:00:00.000Z",
+      "contentHash": "4107f0283e52"
+    },
+    {
+      "id": "91243b01d9f2",
+      "title": "現場の「気づかない」を解決！OsecTの新機能：信号灯連携のご紹介 | NTT docomo Business Engineers' Blog",
+      "url": "https://engineers.ntt.com/entry/202603-osect_signal_light/entry",
+      "summary": "2026年3月、OsecTにパトライト社信号灯との連携機能を実装。メール通知で見逃す課題を解消するため、既存ネットワークを変更せず導入を容易にするモバイル回線構成を採用し、技術的工夫を解説します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T06:59:20.000Z",
+      "contentHash": "f1a1e085e467"
+    },
+    {
+      "id": "86493094b4be",
+      "title": "Terraform + Aurora Data APIでDBユーザー作成をIaC化した話 | Timee Product Team Blog",
+      "url": "https://tech.timee.co.jp/entry/2026/03/30/155108",
+      "summary": "プラットフォームエンジニアが、新規プロダクトのDBユーザー作成と権限付与をTerraformでIaC化し、手動ミスを防いでインフラ構築を高速化した事例。ボイラープレートや自動化プロンプトも活用。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T06:51:08.000Z",
+      "contentHash": "a16ac6a96aa8"
+    },
+    {
+      "id": "957292730431",
+      "title": "「1億人規模の経済圏」のプラットフォームをつくる。共通基盤プロダクトエンジニアを募集します！ | Nealle Developer's Blog",
+      "url": "https://nealle-dev.hatenablog.com/entry/2026/03/30/155003",
+      "summary": "ニーリーのVPoE菊地(@_tinoji)です。マルチプロダクト化を加速するためエンジニア採用を強化中。特に共通基盤プロダクトエンジニアは1億人規模を見据えた基盤構築に挑む、キャリアの特異点となるポジションです。記事で詳細を紹介しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T06:50:03.000Z",
+      "contentHash": "12e8ca9a0fed"
+    },
+    {
+      "id": "281d1cc92611",
+      "title": "■ | KAKEHASHI Tech Blog",
+      "url": "https://kakehashi-dev.hatenablog.com/entry/2026/03/26/143501",
+      "summary": "サーバーサイドTypeScriptの型システムを他言語出身の2名に教えたオンボーディング事例。学習の進め方や実践課題、よくある誤解と対策、得られた教訓や推奨手法を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T06:49:52.000Z",
+      "contentHash": "bfbab2cddc5d"
+    },
+    {
+      "id": "91c6b8ca6d3d",
+      "title": "Gemini でお問い合わせ内容を要約して Issue を自動起票するワークフローを構築しました | stmn tech blog",
+      "url": "https://tech.stmn.co.jp/entry/2026/03/30/154510",
+      "summary": "株式会社スタメンの鈴木さんが、自社サービスTUNAGとTUNAGチャットを社内でドッグフーディングし運用する中、CS経由の問い合わせはこれまでTUNAGチャットの連絡をPdMが手動でGitHub Issue化してエンジニアが対応していたことを説明しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T06:45:10.000Z",
+      "contentHash": "10ec7b790604"
+    },
+    {
+      "id": "69e0b1c9fcd2",
+      "title": "Postman + GitHub Actions で QAエンジニアが一からAPI テストを完全自動化した話 | Yappli Tech Blog",
+      "url": "https://tech.yappli.io/entry/apitestautomation",
+      "summary": "ヤプリのQAエンジニアが、手動で実行していたPostmanのAPIテストをGitHub Actions＋Newmanで自動化し、月曜朝にSlackへ結果が届く仕組みを構築。技術選定や実装のハマりどころ、工夫を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T06:35:38.000Z",
+      "contentHash": "bd343beceee5"
+    },
+    {
+      "id": "ffaa3b424e94",
+      "title": "AIにテスト高速化のフィードバックループを自律的に回させる — autoresearchを利用した実験 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/03/30/153209",
+      "summary": "サーバーワークスの尾崎が、KarpathyのautoresearchをLLM以外に応用し、社内アプリのバックエンドpytest実行時間短縮をAIエージェントに自律的に試行させた試みについて報告しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T06:32:09.000Z",
+      "contentHash": "6a6f4a4557a8"
+    },
+    {
+      "id": "d77704e4a252",
+      "title": "AIに社員の性格をインストールする？富士通×お茶の水女子大によるペルソナLLMの試み​  | fltech - 富士通研究所の技術ブログ",
+      "url": "https://blog.fltech.dev/entry/2026/03/30/persona-LLM-ja",
+      "summary": "富士通の山並・志賀が、お茶の水女子大と共同で「社員の性格をAIにインストール」する研究を紹介。心理学の尺度で声なき声や見えないバイアスを可視化し、その知見を使ってペルソナLLMを開発し組織改善を目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T06:13:19.000Z",
+      "contentHash": "5b9c4b751279"
+    },
+    {
+      "id": "49e92c15e3b0",
+      "title": "The curious case of retro demo scene graphics",
+      "url": "https://www.datagubbe.se/aipixels/",
+      "summary": "AI Pixelsは、生成モデルがピクセル数（解像度）を変えたときの画像生成過程を可視化するデモ。低解像度では抽象的、解像度を上げると細部が現れ、モデルの特性や偏りが分かる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-30T05:27:18.000Z",
+      "contentHash": "dd56e0edae3c"
+    },
+    {
+      "id": "1796831e1b45",
+      "title": "Copilot edited an ad into my PR",
+      "url": "https://notes.zachmanson.com/copilot-edited-an-ad-into-my-pr/",
+      "summary": "チームメンバーがPRの誤字修正にCopilotを使したところ、CopilotがPR説明文に自分とRaycastの広告を勝手に挿入した。Doctorowは、プラットフォームはまず利用者に親切だが、やがて利用者や企業を搾取して価値を回収し、滅びると警告する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-30T04:04:31.000Z",
+      "contentHash": "c98852ba542c"
+    },
+    {
+      "id": "14127783a23b",
+      "title": "New Apple Silicon M4 and M5 HiDPI Limitation on 4K External Displays",
+      "url": "https://smcleod.net/2026/03/new-apple-silicon-m4-m5-hidpi-limitation-on-4k-external-displays/",
+      "summary": "Apple SiliconのM4/M5で外部4KディスプレイのフルHiDPIが使えず、最大HiDPIが3360×1890に制限。結果としてぼやけたフル解像度か鮮明だが作業領域が狭いモードを強いられ、原因はハードではなくソフトスタックの回帰とされる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-30T01:43:20.000Z",
+      "contentHash": "d874312c5ed2"
+    },
+    {
+      "id": "3f902571b16d",
+      "title": "Philly courts will ban all smart eyeglasses starting next week",
+      "url": "https://www.inquirer.com/news/philadelphia/smart-glasses-ai-meta-courts-20260326.html",
+      "summary": "フィラデルフィアの第一司法区は、映像・音声録画機能のあるスマート眼鏡を建物内・法廷で全面禁止すると発表した。処方眼鏡も対象で、検出困難なため録画による証人・陪審への威嚇防止が目的。違反者は入廷禁止・逮捕の可能性、裁判所の書面許可が例外。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-30T01:38:17.000Z",
+      "contentHash": "bd77a30ad580"
+    },
     {
       "id": "73970da2e991",
       "title": "All the latest in AI &#8216;music&#8217;",
@@ -104,10 +239,10 @@
       "id": "ba31d3d9df9d",
       "title": "Isaac Lab Arena を試す",
       "url": "https://note.com/npaka/n/n8a6a9cd4129a",
-      "summary": "Isaac Lab Arena（v0.1.1、Ubuntu24.04）を試用。NVIDIA Isaac Lab上のロボット環境生成・評価フレームワークで、電子レンジ開閉や物体把持など5タスクを提供。SmolVLA等の学習済モデルがあり、Python3.11仮想環境、Isaac Sim 5.1、IsaacLab/IsaacLab-Arena、LeRobot、SmolVLAを順に導入してlerobot-evalで評価を実行。",
+      "summary": "Isaac Lab Arena 0.1.1（Ubuntu22.04）を試用。NVIDIA Isaac Lab上のロボット環境生成・評価フレームワークで、電子レンジ開閉など5タスクとSmolVLA／π0.5／GR00T等の学習済みモデルを提供。導入はPython3.11仮想環境、ffmpeg、Isaac Sim 5.1、EULA同意後にIsaacLab/IsaacLab-Arena/LeRobot/SmolVLAを順にインストールし、lerobot-evalで評価を実行。",
       "source": "npaka",
       "publishedAt": "2026-03-29T23:54:08.000Z",
-      "contentHash": "ccfc0bbbb0c7"
+      "contentHash": "6935f86dd69e"
     },
     {
       "id": "42b945dddeed",
@@ -122,10 +257,19 @@
       "id": "930d77e7447a",
       "title": "Claude Code runs Git reset –hard origin/main against project repo every 10 mins",
       "url": "https://github.com/anthropics/claude-code/issues/40710",
-      "summary": "Claude Codeがユーザのリポジトリで10分毎にgit fetch＋git reset --hard origin/mainを自動実行し、追跡済みの未コミット変更を通知なく消去することがreflogと再現実験で確認された。未追跡ファイルは残り、worktreeは影響を受けない。",
+      "summary": "報告: Claude Codeが10分ごとにgit fetchとgit reset --hard origin/mainを実行して未コミット変更を消すと指摘された。しかし2026-03-30の追記で原因は同一作業ディレクトリで動いていた自作ツール（GitPython）であり、Claudeの不具合ではないと判明、謝罪された。",
       "source": "Hacker News",
       "publishedAt": "2026-03-29T22:15:06.000Z",
-      "contentHash": "aa5e7d24280a"
+      "contentHash": "f411ddd031dd"
+    },
+    {
+      "id": "c720bf728da9",
+      "title": "Helping disaster response teams turn AI into action across Asia",
+      "url": "https://openai.com/index/helping-disaster-response-teams-asia",
+      "summary": "OpenAIとビル＆メリンダ・ゲイツ財団がアジアの災害対応でAI活用を議論するワークショップを開催。データ共有、現地連携、倫理・安全、実証プロジェクトや支援・資金面の課題を話し合った。",
+      "source": "OpenAI",
+      "publishedAt": "2026-03-29T22:15:00.000Z",
+      "contentHash": "145053d37133"
     },
     {
       "id": "5241aed1b220",
@@ -135,6 +279,15 @@
       "source": "The Verge",
       "publishedAt": "2026-03-29T21:44:41.000Z",
       "contentHash": "21ec9bdea129"
+    },
+    {
+      "id": "43f7b4e807f1",
+      "title": "The road signs that teach travellers about France",
+      "url": "https://www.bbc.com/travel/article/20260327-the-road-signs-that-teach-travellers-about-france",
+      "summary": "フランスの茶色い高速案内板は1972年以降、史跡やワイナリー、郷土料理や慰霊碑などを図像で示し、移動中に地域の文化や歴史を短時間で伝える屋外ギャラリー的存在だ。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-29T20:30:02.000Z",
+      "contentHash": "8765493f608c"
     },
     {
       "id": "36629562a209",
@@ -212,10 +365,10 @@
       "id": "12850dbe1dd8",
       "title": "The best deals we’ve found from Amazon’s Big Spring Sale (so far)",
       "url": "https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals",
-      "summary": "The Vergeの記事。Amazonの第3回「Big Spring Sale」は2026年3月31日までで、スマートスピーカーや充電器などを割引。3月の閑散期を埋めプライムデー前に購買を促す催しで、割引は必ずしもブラックフライデー並みではないが、$50以下の注目セールも紹介している。",
+      "summary": "Amazonの第3回Big Spring Saleは3月31日まで開催。スマートスピーカーや充電器など春向け家電の割引が中心だが、ヴァージは「ブラックフライデーやプライムデーほどの大幅値引きではなく、見極めが必要」と伝える。",
       "source": "The Verge",
       "publishedAt": "2026-03-29T16:30:17.000Z",
-      "contentHash": "f1109b1806d6"
+      "contentHash": "a139c62e55c3"
     },
     {
       "id": "f245ec8dfa9b",
@@ -347,10 +500,10 @@
       "id": "5a785e047d57",
       "title": "VLM でスーパーマリオをクリアするのはなぜ難しいのか",
       "url": "https://note.com/npaka/n/n174a2c93441c",
-      "summary": "VLMがスーパーマリオをクリアしにくいのは、画像・言語理解は得意でも、数フレーム単位の精密な操作や物理予測、試行錯誤による最適化といった低レベル制御が苦手だから。強化学習は行動最適化に強く、VLMは高レベル指示や補助に向く。",
+      "summary": "VLMは画面理解や高レベル判断は得意だが、スーパーマリオのようなフレーム単位の精密操作・物理予測・探索的最適化が必要な運動的ゲームは苦手。RLは行動最適化が得意で、VLMは補助やハイブリッドで有効、単体でのクリアは難しい。",
       "source": "npaka",
       "publishedAt": "2026-03-29T08:22:18.000Z",
-      "contentHash": "75a6cf8945e6"
+      "contentHash": "8895b408aba8"
     },
     {
       "id": "26e5d1caacee",
@@ -563,10 +716,10 @@
       "id": "cb8ab6503597",
       "title": "VLA のActionと学習手順、主要モデルの違い",
       "url": "https://note.com/npaka/n/nefad2c5dfd7e",
-      "summary": "VLAは画像・言語・ロボット状態を入力し実行行動を出力するモデルで、Action定義（関節指令、手先移動、スキル選択）が設計・データ収集・学習・ロボット適応を大きく左右する。OpenVLA（7B, 97万エピソード学習）など主要モデルの違いも整理している。",
+      "summary": "VLAは画像・言語・ロボット状態を入力に行動を出力するモデルで、関節空間・手先空間・スキルなど出力形式が設計・学習・適応を左右する。OpenVLA（7B、970kエピソード事前学習）やπ0/SmolVLAなど主要手法の違いを整理し、VLAは観測–実行ループで繰り返し動作する点を強調している。",
       "source": "npaka",
       "publishedAt": "2026-03-28T12:11:38.000Z",
-      "contentHash": "972fe1e89525"
+      "contentHash": "85b78589be11"
     },
     {
       "id": "5b0696977116",
@@ -698,10 +851,10 @@
       "id": "1c31dca652a4",
       "title": "Codex Plugins 入門",
       "url": "https://note.com/npaka/n/n2b8806c271b3",
-      "summary": "Codex PluginsはSkill/App/MCP serverをまとめたパッケージで、単なる接続器ではなくワークフロー単位で配布・実行可能。例：Gmailプラグインは分類・要約・返信下書きなど受信箱管理を自動化する。",
+      "summary": "Codex PluginsはSkill、App、MCP serverをまとめて配布するインストール可能なパッケージで、単なるコネクタではなくワークフロー単位で機能を共有します。例としてGmailプラグインは受信分類、要約、返信下書きなどを自動化し、Codexアプリから追加して実行できます。",
       "source": "npaka",
       "publishedAt": "2026-03-28T01:58:55.000Z",
-      "contentHash": "cddd01cb9599"
+      "contentHash": "bb52df99b1ce"
     },
     {
       "id": "91c7b211d493",
@@ -1202,10 +1355,10 @@
       "id": "4b9682859834",
       "title": "CGWORLD にて NVIDIA DGX Spark　×　Reachy Mini の連載はじめました",
       "url": "https://note.com/npaka/n/nee8919d9c574",
-      "summary": "CGWORLDで「NVIDIA DGX Spark × Reachy Mini」の連載を開始。第1回はローカルAIロボット開発入門で、DGX SparkとReachy Miniを使って音声AIロボットを自作する手法を紹介します（執筆：npaka）。",
+      "summary": "CGWORLDで「NVIDIA DGX Spark × Reachy Mini」による連載『ローカルAIロボット開発入門』を開始。第1回は未来の音声AIロボットを自分の手で作る体験を紹介。執筆はプログラマーのnpaka。",
       "source": "npaka",
       "publishedAt": "2026-03-27T03:24:26.000Z",
-      "contentHash": "d17622b09885"
+      "contentHash": "5b606df03f29"
     },
     {
       "id": "0e35bb50641c",
@@ -8847,159 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-12T06:29:40.000Z",
       "contentHash": "6a50a4a95537"
-    },
-    {
-      "id": "7d30680bb03f",
-      "title": "新しい環境でコンテキスト理解をAIに手伝ってもらうための工夫 | estie inside blog",
-      "url": "https://www.estie.jp/blog/entry/2026/03/12/151222",
-      "summary": "入社直後、顧客固有のコンテキストが社内に散在して理解に苦労。AIに全部任せると情報更新負荷が大きかったため、資料を精査してChatGPT Projectsに集約し伴走的に短期間（約3か月）使うことで理解が進んだ。長期的なコンテキスト管理は依然課題。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T06:12:22.000Z",
-      "contentHash": "cf3589fa99f8"
-    },
-    {
-      "id": "c981061bcee4",
-      "title": "Claude Code 全社導入までの意思決定と歴史 | Gemcook Tech Blogのフィード",
-      "url": "https://zenn.dev/gemcook/articles/claude-code-company-wide",
-      "summary": "GemcookはAIリテラシー統一のため2026年2月にClaude Codeを全社導入。以前は2023年にCopilotを導入し、2024〜25年は複数のコーディングエージェントを試行。導入判断を先延ばししたことを反省しつつ、導入後は社内で急速に活用が進んでいると報告している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T06:10:53.000Z",
-      "contentHash": "45b20cce4201"
-    },
-    {
-      "id": "09d14038571c",
-      "title": "週刊Cloudflare - 2026/03/08週 | Gemcook Tech Blogのフィード",
-      "url": "https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_0301-0307",
-      "summary": "2026/03/01–07のCloudflare更新：Wrangler 4.71でHyperdriveがMySQL専用SSLモードとカスタムCA対応。4.70でContainersがDockerHub認証、実験的なContainers→Workers通信、シークレット検証・型生成、レジストリ資格情報追加。Workflowsのステップ上限が最大25,000に。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T05:47:37.000Z",
-      "contentHash": "1732f4af2528"
-    },
-    {
-      "id": "7d6990dc645c",
-      "title": "【新卒入社リアルレポート：2025年4月入社編】データサイエンスの最前線で何を感じた？ 入社動機から研修、現場での成長を振り返り！ | Platinum Data Blog by BrainPad ブレインパッド",
-      "url": "https://blog.brainpad.co.jp/entry/2026/03/12/140000",
-      "summary": "2025年入社の新卒3名が、ブレインパッドとグループ会社での入社動機・研修・現場での成長を語る記事。データ活用や0→1開発志望、現場講師のPPT研修やミニプロでのアジャイル・合意形成経験が成長に繋がったと振り返る。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T05:00:00.000Z",
-      "contentHash": "8b6465d27319"
-    },
-    {
-      "id": "523bf4fdd00b",
-      "title": "【AI時代のDocs運用】 Kiro × Hooks × MkDocsでドキュメントを継続的に更新・管理する② | ForgeVision Engineer Blog",
-      "url": "https://techblog.forgevision.com/entry/2026/03/12/134635",
-      "summary": "Kiroのエージェントフックで意味的整合性と文体一貫性をチェックし、Gitフックでメタデータ（title/owner/status/last_reviewed）やstatus=approved、最終更新期限を自動検証、MKDocsで公開するDocs基盤のセットアップと動作確認を解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T04:46:35.000Z",
-      "contentHash": "442b5c8ddc1e"
-    },
-    {
-      "id": "7631d72082c9",
-      "title": "DHS Contracts Explorer – Hacked data from the Office of Industry Partnership",
-      "url": "https://micahflee.github.io/ice-contracts/",
-      "summary": "州別マップでバブルの大きさが総受注額を示す表示。項目は企業、契約件数、総受注額、総義務額および契約情報（ID、企業名、プログラム、フェーズ、賞の種類、開始日、終了日、賞の状態）。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-12T02:03:01.000Z",
-      "contentHash": "a1abfc06214f"
-    },
-    {
-      "id": "ef9725ce8762",
-      "title": "NPUのポテンシャルを攻略せよ！AI PCアプリという巨大なブルーオーシャンを共に切り拓く同志を求む | Qiita Zine",
-      "url": "https://qiita.com/official-columns/interview/202603-k-kaleido/",
-      "summary": "インテルを17年務めた安生健一朗氏が独立し、NPU活用のローカルAIアプリと流通基盤「AI Edge Hub」を立ち上げ。AI PC普及には商用アプリと開発者支援が必須とし、ハード特性最適化や高還元レベニューシェアで市場開拓を目指す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T01:23:11.000Z",
-      "contentHash": "bf876dee5d6f"
-    },
-    {
-      "id": "e38144f2e056",
-      "title": " Claude Code の「Skills」で仕様書自動生成の仕組みを作った話 | ENECHANGE Developer Blog",
-      "url": "https://tech.enechange.co.jp/entry/2026/03/12/101310",
-      "summary": "川野邉（ENECHANGE）はClaude CodeのSkillsを使い、コード変更時に仕様書を自動生成・更新する仕組みを構築しました。Skill CreatorでSKILL.mdやテンプレートを作成し、クライアント向けのoverview.mdとエンジニア向けのspec.mdをセットでdocs配下に生成・維持するワークフローを定義しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T01:13:10.000Z",
-      "contentHash": "31cfee7ff491"
-    },
-    {
-      "id": "20a2880c9e6d",
-      "title": "古いWindowsサーバーを使い続ける本当のリスクとは？中規模製造業向け・低予算で実現するクラウド移行術 | シー・エス・エス イノベーションラボ（ブログ）",
-      "url": "https://blog.css-net.co.jp/entry/2026/03/12/100423",
-      "summary": "製造現場に放置されたサポート切れWindows Serverは、ランサムウェア標的化、取引先のセキュリティ監査、ハード故障や技術継承の危機を招く。高額刷新不要で、現状可視化→不要断捨離→ライトサイジング→AWS移行管理の段階的移行を提案。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T01:04:23.000Z",
-      "contentHash": "15f3bcff156a"
-    },
-    {
-      "id": "0ec3b22db30b",
-      "title": "システム刷新だけで終わらせない。その先のAIネイティブな組織実現に向けた日立のモダナイゼーションチームが熱すぎる | Qiita Zine",
-      "url": "https://qiita.com/official-columns/interview/202603-hitachi/",
-      "summary": "日立の「モダナイゼーション powered by Lumada」は、単なるIT刷新を超え、業務や人材育成を含む組織全体をAIネイティブ化するため、グランドデザイン策定からAIエージェント活用による実装まで一気通貫で支援するサービスです。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T01:00:57.000Z",
-      "contentHash": "9d865f1281e6"
-    },
-    {
-      "id": "8b47e1e413a5",
-      "title": "【AWS】ELBとターゲットを別VPCにしたらAuto Scaling Groupが使えない？その理由と解決策 | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/5b4ecb1647553e",
-      "summary": "ELB（ALB/NLB）を別VPCに配置すると、別VPC内のインスタンスはインスタンスIDで登録できずIP登録が必須になる。Auto Scaling Groupはターゲットをinstance指定する必要があるため連携できなくなる点と、その理由・回避策を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T01:00:05.000Z",
-      "contentHash": "d1c536594603"
-    },
-    {
-      "id": "88bbe097e1c9",
-      "title": "twadaさんによるTDDワークショップ2026を開催しました！ | Classi開発者ブログ",
-      "url": "https://tech.classi.jp/entry/2026/03/12/100000",
-      "summary": "Classiで和田卓人さんのTDDワークショップを開催。午前はAIと自動テストの講義、午後は「整数の閉区間」を題材にTDD実践。テストを仕様書と捉える重要性や設計力、AIとの協業法を学んだ。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T01:00:00.000Z",
-      "contentHash": "e3481fe20ebf"
-    },
-    {
-      "id": "d4bc7547f3f5",
-      "title": "「渋⾕ Biz × AI: ビジネスにおける AI 利活⽤ 事例勉強会 第4回」レポート | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/03/12/100000",
-      "summary": "2026年2月16日、Sansan・サイバーエージェント・ビズリーチ共催の「渋谷 Biz×AI 第4回」。テーマはMLOps/LLMOpsで、Langfuse導入と運用設計、Vertex AIによるMLOps標準化、AIエージェント監視やLLMOpsの動向が共有された。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T01:00:00.000Z",
-      "contentHash": "d369b9613d97"
-    },
-    {
-      "id": "63f550c5a786",
-      "title": "新Linuxカーネル解読室 - ネットワークトラフィック制御 ～TBF解説～ | VA Linux エンジニアブログ  ",
-      "url": "https://www.valinux.co.jp/blog/entry/20260312",
-      "summary": "Linuxカーネルv6.14の実装を基に、tcで扱うQdiscと帯域制御アルゴリズムTBF（トークンバケットフィルタ）を解説。パラメータ、enqueue/dequeueの動作、peakrate有無の挙動や設定時の注意点を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T01:00:00.000Z",
-      "contentHash": "d292c6508639"
-    },
-    {
-      "id": "d5fadd18f8f6",
-      "title": "CREの日常にはSRE活動が溢れていた ― SRE本の輪読会がチームにもたらしたもの | Money Forward Developers Blog",
-      "url": "https://moneyforward-dev.jp/entry/2026/03/12/sre-book-reading-group-by-cre",
-      "summary": "福岡のCREチームがSRE本の輪読会を実施し、エラーバジェットやポストモーテム、CUJ、オブザーバビリティなどSRE知見が日常業務と重なると気づいた。SREチーム参加で共通言語が生まれ、信頼性向上への取り組みが進んだ。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T01:00:00.000Z",
-      "contentHash": "15447c42b3ca"
-    },
-    {
-      "id": "f567a95468f1",
-      "title": "Copilot StudioのエージェントをTeamsのチーム内で利用する | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/03/12/094156",
-      "summary": "Copilot Studioで作成したエージェントをTeamsのチームチャネルで使う手順：エージェント作成とナレッジ追加→チャネル設定で「チームに追加可」を有効化（全ユーザー閲覧権付与に注意）→Teamsでチームに追加し、@メンションで質問するとスレッド内で回答。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-12T00:41:56.000Z",
-      "contentHash": "5ad8b227bccc"
-    },
-    {
-      "id": "2b4b2d83cb97",
-      "title": "Show HN: s@: decentralized social networking over static sites",
-      "url": "http://satproto.org/",
-      "summary": "sAT（s@）は静的サイト上の分散型SNS。各ユーザーがドメインに暗号化JSONでデータを保管し、ブラウザのクライアントが集約・公開。サーバや中継は不要。IDはHTTPSドメインで検証。/satellite/に発見ドキュメントと公開鍵を置き、既存パスはsatproto_root.jsonで指定。投稿は相互フォローのみ復号可。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-12T00:22:19.000Z",
-      "contentHash": "13e64acdad82"
     }
   ]
 }
