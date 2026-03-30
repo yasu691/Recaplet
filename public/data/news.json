@@ -1,23 +1,239 @@
 {
-  "generatedAt": "2026-03-29T16:52:35.229Z",
+  "generatedAt": "2026-03-30T03:10:48.903Z",
   "items": [
+    {
+      "id": "73970da2e991",
+      "title": "All the latest in AI &#8216;music&#8217;",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit",
+      "summary": "AIはサンプリングから制作・配信まで音楽業界に浸透し、法的・倫理的対立やミュージシャンの反発を招いている。BandcampはAI作品を禁止。Suno v5.5は音声学習、嗜好設定、カスタムモデルを導入した。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-30T01:32:14.000Z",
+      "contentHash": "163ebd0b7b1b"
+    },
+    {
+      "id": "1671fe6b8c96",
+      "title": "インフラ運用にAIをどう取り込むか -  Microsoft AI Tour Tokyo | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2026/03/30/103000",
+      "summary": "インフラ運用はリソース増加で複雑化し、状況把握に時間を取られる。AIに全自動化を期待しがちだが、Microsoftが示したAzure/GitHub Copilotは運用者を補助する現実的な相棒としての使い方を紹介する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T01:30:00.000Z",
+      "contentHash": "b42c8ef9ab4b"
+    },
+    {
+      "id": "6f41166bf6dc",
+      "title": "機械学習システム基盤の開発環境に GitHub Copilot を導入しました | techtekt（テックテクト） | パーソルキャリアのエンジニアブログ",
+      "url": "https://techtekt.persol-career.co.jp/entry/tech/260330_01",
+      "summary": "パーソルキャリアのAIエンジニアがAWS上のML基盤へGitHub Copilotを導入し、技術選定の理由やPoC結果を踏まえて開発効率を向上させた事例を紹介する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T01:21:16.000Z",
+      "contentHash": "e0ca6ff13617"
+    },
+    {
+      "id": "9e2547cc50da",
+      "title": " /digで「知の四象限」を動かせるか試した話 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/claude-code-dig-discovery-experiment",
+      "summary": "折戸（アプリケーションサービス本部）が「あるなしクイズ」発想で、探索補助コマンド「/dig」の動作と実験を報告。/digのフロー、深掘りによる応答差、unknownの挙動、開発現場への示唆、Opus 4.6の余談をまとめている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T01:12:14.000Z",
+      "contentHash": "93433f8cd0b9"
+    },
+    {
+      "id": "1144cb187995",
+      "title": "Google Stitchを触る | NEXTSCAPE blog",
+      "url": "https://blog.nextscape.net/archives/2026/03/30/101035",
+      "summary": "GoogleのAIデザインツール「Stitch」が3月18日に大幅アップデート。仕様書から自動生成する独自フロー、履歴を全て残す無限キャンバス、DESIGN.mdでルール管理、予測ヒートマップ、FigmaやMCP連携など主要機能を試した記録。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T01:10:35.000Z",
+      "contentHash": "913dba7cf6ba"
+    },
+    {
+      "id": "076265c07f37",
+      "title": "サーバーもネットワーク機器も Entra ID でログインする — opkssh と RADIUS で認証を一元化した話 | NTT docomo Business Engineers' Blog",
+      "url": "https://engineers.ntt.com/entry/202603-devops/entry",
+      "summary": "イノベーションセンターの福田・村田が、オンプレ／クラウドの検証環境拡大に伴うセキュリティやコンプライアンス強化のため、サーバーやネットワーク機器のログイン認証をEntra IDで一元化した背景、技術選定と運用で得た知見を共有する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T01:07:10.000Z",
+      "contentHash": "7d86b1c3f12d"
+    },
+    {
+      "id": "1136848c18bb",
+      "title": "テックブログのURL変更のお知らせ | CCCMKホールディングス TECH LABの Tech Blog",
+      "url": "https://techblog.cccmkhd.co.jp/entry/2026/03/30/100215",
+      "summary": "2026年4月1日から社名変更に伴いURLが変更になります。変更前：https://techblog.cccmkhd.co.jp/　変更後：https://techblog.vpoint.co.jp/　ブックマーク等を登録している場合は設定を更新してください。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T01:02:15.000Z",
+      "contentHash": "fe3794444f0d"
+    },
+    {
+      "id": "65d49456e7d2",
+      "title": "mmap直確保でGoのGC負荷を低減する | Mirrativ Tech Blog",
+      "url": "https://tech.mirrativ.stream/entry/2026/03/30/100000",
+      "summary": "八谷（インフラ・ストリーミング）が、GoでOSから直接mmap領域を確保する手法とランタイム(make)での確保を比較。直接mmapすることでGCが走査するオブジェクト数を減らせ、Stop‑The‑World時間を短縮できると結論づけた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T01:00:00.000Z",
+      "contentHash": "d641133e8cbd"
+    },
+    {
+      "id": "d998c1ae8b08",
+      "title": "【Microsoft AI Tour Tokyo 参加レポート】Azure Copilot と GitHub Copilot による運用の進化 | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2026/03/30/100000",
+      "summary": "オルターブースの横野です。2026年3月24日に東京ビッグサイトで開かれたMicrosoft AI Tour Tokyoに参加。基調講演やセッションに加え、Microsoft Igniteと重複しない「Azure CopilotとGitHub Copilotによる運用の進化」ワークショップに参加し、Copilotを活用した運用改善を学びました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T01:00:00.000Z",
+      "contentHash": "59af49a99053"
+    },
+    {
+      "id": "2c8ff4d33a64",
+      "title": "AIが書いたコードのレビュー、どこを見ればいいか② — 属人的レビューを仕組みに変える4つのレイヤー | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/03/30/100000",
+      "summary": "ACS越川による後編。前編の要点は2つ：AIに頻出パターンや典型バグを任せ、人間はエッジケース・組織固有要件・本番挙動に注力する「分担」と、レビューによる責任分散のあり方の検討。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T01:00:00.000Z",
+      "contentHash": "d313cef2413b"
+    },
+    {
+      "id": "b4655ae300b4",
+      "title": "CloudWatchのエラーログをSlackにリアルタイム転送する方法 | 虎の穴ラボ技術ブログ",
+      "url": "https://toranoana-lab.hatenablog.com/entry/2026/03/30/100000",
+      "summary": "AWSのCloudWatch Logsに集約されたエラーログをSlackへ自動転送する仕組みを紹介する記事です。コンソール確認の手間を減らし、即時通知でログ監視の負担を軽減する方法を解説します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-30T01:00:00.000Z",
+      "contentHash": "b05c5de39134"
+    },
+    {
+      "id": "ba31d3d9df9d",
+      "title": "Isaac Lab Arena を試す",
+      "url": "https://note.com/npaka/n/n8a6a9cd4129a",
+      "summary": "Isaac Lab Arena（v0.1.1、Ubuntu24.04）を試用。NVIDIA Isaac Lab上のロボット環境生成・評価フレームワークで、電子レンジ開閉や物体把持など5タスクを提供。SmolVLA等の学習済モデルがあり、Python3.11仮想環境、Isaac Sim 5.1、IsaacLab/IsaacLab-Arena、LeRobot、SmolVLAを順に導入してlerobot-evalで評価を実行。",
+      "source": "npaka",
+      "publishedAt": "2026-03-29T23:54:08.000Z",
+      "contentHash": "ccfc0bbbb0c7"
+    },
+    {
+      "id": "42b945dddeed",
+      "title": "Coding Agents Could Make Free Software Matter Again",
+      "url": "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/",
+      "summary": "著者は、AIエージェントがコードを読み理解し改変できるようになれば、SaaSで希薄化したStallman的な「フリーソフト」（実行・研究・改変・再配布の自由）が実用的に復活すると主張し、自身のSaaSカスタマイズ体験でそれを示す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-29T22:21:34.000Z",
+      "contentHash": "df6154b9bd43"
+    },
+    {
+      "id": "930d77e7447a",
+      "title": "Claude Code runs Git reset –hard origin/main against project repo every 10 mins",
+      "url": "https://github.com/anthropics/claude-code/issues/40710",
+      "summary": "Claude Codeがユーザのリポジトリで10分毎にgit fetch＋git reset --hard origin/mainを自動実行し、追跡済みの未コミット変更を通知なく消去することがreflogと再現実験で確認された。未追跡ファイルは残り、worktreeは影響を受けない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-29T22:15:06.000Z",
+      "contentHash": "aa5e7d24280a"
+    },
+    {
+      "id": "5241aed1b220",
+      "title": "Bluesky’s new app is an AI for customizing your feed",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/903190/bluesky-attie-ai-custom-feeds",
+      "summary": "BlueskyのチームがATプロトコル上で動くAIアシスタント「Attie」を発表。AnthropicのClaudeを搭載し、自然言語でカスタムフィードを作成可能。初は独立アプリだが将来Bluesky等へ統合、さらにアプリ生成も目指す。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-29T21:44:41.000Z",
+      "contentHash": "21ec9bdea129"
+    },
+    {
+      "id": "36629562a209",
+      "title": "ChatGPT won't let you type until Cloudflare reads your React state",
+      "url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/",
+      "summary": "ChatGPTは各応答でCloudflareのTurnstileを実行。著者が377件を復号して、ブラウザ情報・Cloudflareの経路情報・ChatGPTのReact状態を含む55項目を照合し、単なる指紋偽装では通らないことを確認。外層XORは容易に解け、内層はバイトコード内の浮動小数点リテラルで復号されると報告。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-29T20:21:05.000Z",
+      "contentHash": "f04d56a3356c"
+    },
+    {
+      "id": "9345bd7b9081",
+      "title": "Red Rooms makes online poker as thrilling as its serial killer",
+      "url": "https://www.theverge.com/entertainment/903174/red-rooms-movie-review-serial-killer-dark-web",
+      "summary": "『Red Rooms』（監督パスカル・プラント）は、オンラインポーカーと連続殺人を絡めたサイコスリラー。テクノロジー描写が正確で118分の遅効性テンポ、ジュリエット・ガリエピーの迫真演技が不穏で魅力的だ。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-29T19:45:00.000Z",
+      "contentHash": "49165c4d8b23"
+    },
+    {
+      "id": "a1633ccfc0bb",
+      "title": "The \"Vibe Coding\" Wall of Shame",
+      "url": "https://crackr.dev/vibe-coding-failures",
+      "summary": "AI生成・vibeコード由来の本番障害事例集（2026年3月更新）。32件、6.3M超の記録影響、35超のCVE、69件の脆弱性を収録。データ消失・漏洩、RCE／マルウェア、エージェント暴走、設定ミス等を一次出典付きで列挙。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-29T19:42:26.000Z",
+      "contentHash": "f9c93687f5f2"
+    },
+    {
+      "id": "453cedc51912",
+      "title": "The Cognitive Dark Forest",
+      "url": "https://ryelang.org/blog/posts/cognitive-dark-forest/",
+      "summary": "記事は、かつて公開・共有が価値を生んだ「広い草原」のようなインターネットが、AIの登場で『三体』の暗黒森林になりつつあると論じる。自己顕示は危険で隠蔽やゲート化が合理的になり、オープンな創作・協業が失われると警告する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-29T19:36:21.000Z",
+      "contentHash": "3ffe76b584cc"
+    },
+    {
+      "id": "ff3f19614a53",
+      "title": "My MacBook Keyboard Is Broken and It's Insanely Expensive to Fix",
+      "url": "https://tobiasberg.net/posts/my-macbook-keyboard-is-broken-and-its-insanely-expensive-to-fix/",
+      "summary": "MacBook Proの右矢印キーが常時押される不具合で清掃では直らず、Appleはキーボードをトップケースにリベット固定して単独交換不可、修理費€730と高額。著者はKarabiner Elementsでキーを再割当てして延命し、今後は修理しやすい機種を検討すると述べた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-29T19:08:20.000Z",
+      "contentHash": "eaab82f44429"
+    },
+    {
+      "id": "0828f9d19229",
+      "title": "C++26 is done ISO C++ standards meeting, Trip Report",
+      "url": "https://herbsutter.com/2026/03/29/c26-is-done-trip-report-march-2026-iso-c-standards-meeting-london-croydon-uk/",
+      "summary": "C++26の技術作業が完了。ロンドン会合で411件の国別コメントを解決し、最終原稿をDISとして国際承認へ提出予定。約210名参加、複数小委員会で議論。C++11以来の重要改訂。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-29T17:46:12.000Z",
+      "contentHash": "482589dcbd15"
+    },
+    {
+      "id": "7916ab2cd6c7",
+      "title": "Neovim 0.12.0",
+      "url": "https://github.com/neovim/neovim/releases/tag/v0.12.0",
+      "summary": "Neovim v0.12.0（3/29）公開。署名付きタグ、リリースノート・変更履歴あり。Windows・macOS（x86/arm）・Linux向けのバイナリ/MSI/AppImageを配布。vcruntime.dllやglibcなどの注意事項あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-29T17:39:55.000Z",
+      "contentHash": "43461e268eea"
+    },
+    {
+      "id": "f5cfbdfc62ce",
+      "title": "Netscape News Feed Straight Out of the Late 00s",
+      "url": "https://isp.netscape.com/",
+      "summary": "ロサンゼルスで「No Kings」集会後に催涙ガス使用で数十人逮捕、パキスタンが米とイランの会談を近く開催予定、議会は閉鎖時の航空・保安職員給与保障法案を再提案。『プロジェクト・ヘイル・メアリー』は第2週5450万ドルの好調、UConnが劇的勝利でファイナル4進出。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-29T17:34:20.000Z",
+      "contentHash": "837e5123531d"
+    },
     {
       "id": "12850dbe1dd8",
       "title": "The best deals we’ve found from Amazon’s Big Spring Sale (so far)",
       "url": "https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals",
-      "summary": "Amazonの第3回「Big Spring Sale」が3月31日まで開催中。スマートスピーカーや充電器などのセールがあるが、Black FridayやPrime Dayほど大幅割引ではなく、全品が買い得とは限らないとThe Vergeが伝える。",
+      "summary": "The Vergeの記事。Amazonの第3回「Big Spring Sale」は2026年3月31日までで、スマートスピーカーや充電器などを割引。3月の閑散期を埋めプライムデー前に購買を促す催しで、割引は必ずしもブラックフライデー並みではないが、$50以下の注目セールも紹介している。",
       "source": "The Verge",
       "publishedAt": "2026-03-29T16:30:17.000Z",
-      "contentHash": "8719b1a5ede2"
+      "contentHash": "f1109b1806d6"
+    },
+    {
+      "id": "f245ec8dfa9b",
+      "title": "The bot situation on the internet is worse than you could imagine",
+      "url": "https://gladeart.com/blog/the-bot-situation-on-the-internet-is-actually-worse-than-you-could-imagine-heres-why",
+      "summary": "このサイトはスクレイパー対策としてAnubis（Hashcash風のProof‑of‑Work）を導入。大量スクレイピングを抑え、将来的にはフォント描画などでヘッドレスブラウザを識別する予定。利用にはJavaScript有効化とJShelter等の無効化が必要です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-29T16:17:30.000Z",
+      "contentHash": "301f2ac3257f"
     },
     {
       "id": "48338cf7250d",
       "title": "Can my favorite Game Boy gadget tell fake cartridges from real?",
       "url": "https://www.theverge.com/games/902910/epilogue-gb-operator-phone-counterfeit-fake-cartridge-detection",
-      "summary": "EpilogueのGB Operator（約50ドル）はカートリッジをPCへバックアップでき、専用アプリRetraceでスマホ接続して正規判定や価値推定が可能。ただし50本検査では誤判定や検出失敗が散見され、精度向上が課題。",
+      "summary": "EpilogueのGB Operator（約50ドル）はカートリッジのPCバックアップやセーブ書込に加え、スマホ用Retraceで中古ゲームの真贋や価値を判定可能。約50本試したところ誤判定や読み取り失敗があり、信頼性には課題が残る。",
       "source": "The Verge",
       "publishedAt": "2026-03-29T15:00:00.000Z",
-      "contentHash": "a2e7343e43fb"
+      "contentHash": "7d54b4e9f1aa"
     },
     {
       "id": "85572a79a10d",
@@ -32,10 +248,10 @@
       "id": "c7f8e5b898e9",
       "title": "There is no ethical consumption of HBO’s Harry Potter series",
       "url": "https://www.theverge.com/report/901818/hbo-harry-potter-jk-rowling-transphobia",
-      "summary": "HBOが原作7作を順に映像化するハリー・ポッター新シリーズを制作。原作者J.K.ローリングが製作総指揮を務めるが、彼女が資金を使ってトランスの人々を害する活動を続けており、視聴の倫理性が問われている。",
+      "summary": "HBOが原作7巻を順次ドラマ化する新「ハリー・ポッター」はJ.K.ローリングが製作総指揮。彼女がトランスの人々に害を与えるため資産を使い続けていることから、作品の視聴は倫理的問題を孕むと指摘する。",
       "source": "The Verge",
       "publishedAt": "2026-03-29T14:00:00.000Z",
-      "contentHash": "17140a75967e"
+      "contentHash": "80fd705b0713"
     },
     {
       "id": "60ab361dfb43",
@@ -131,10 +347,10 @@
       "id": "5a785e047d57",
       "title": "VLM でスーパーマリオをクリアするのはなぜ難しいのか",
       "url": "https://note.com/npaka/n/n174a2c93441c",
-      "summary": "VLMは画面理解や高レベルな判断は得意だが、スーパーマリオに必要なフレーム単位の精密操作、長期報酬の最適化、探索や物理予測が苦手なため単体での攻略は難しい。VLMは補助役として強化学習と組み合わせるのが現実的。",
+      "summary": "VLMがスーパーマリオをクリアしにくいのは、画像・言語理解は得意でも、数フレーム単位の精密な操作や物理予測、試行錯誤による最適化といった低レベル制御が苦手だから。強化学習は行動最適化に強く、VLMは高レベル指示や補助に向く。",
       "source": "npaka",
       "publishedAt": "2026-03-29T08:22:18.000Z",
-      "contentHash": "9928d82e7a28"
+      "contentHash": "75a6cf8945e6"
     },
     {
       "id": "26e5d1caacee",
@@ -149,19 +365,19 @@
       "id": "74ef5a2c078c",
       "title": "Isaac Teleop の概要",
       "url": "https://note.com/npaka/n/n4769db20f86a",
-      "summary": "Isaac Teleopは、人の入力をロボット制御や学習用データに変換・記録する統一フレームワーク。デバイス統一、リターゲティング、FlatBuffers/mcap等のデータ基盤を備え、シミュレーションと実機を跨いで利用できる。",
+      "summary": "Isaac Teleopは、人の入力をロボット制御や学習データへ変換・記録するNVIDIAの統一フレームワーク。デバイス統一、グラフ式リターゲティング、FlatBuffers/mcapによる記録を備え、シミュレーションと実機の両方で利用可能。Isaac Lab teleopは主にシミュ内向けの機能。",
       "source": "npaka",
       "publishedAt": "2026-03-29T05:59:05.000Z",
-      "contentHash": "e71cacab6886"
+      "contentHash": "7ddeb0c6eeda"
     },
     {
       "id": "b0a48208372c",
       "title": "Isaac ROS CLI を試す",
       "url": "https://note.com/npaka/n/nf678d84b83b9",
-      "summary": "Isaac ROS CLIはNVIDIAの公式ツールで、Isaac ROS環境の初期化や依存管理を簡素化。ROS 2 Jazzy対応。Ubuntu 24.04ではGPUドライバ、APTリポジトリ追加、isaac-ros-cli・DockerとNVIDIA container toolkitの導入、docker設定とランタイム確認が必要。",
+      "summary": "NVIDIAの公式Isaac ROS CLIを試用し、環境構築を標準化して依存ズレを減らす利点を紹介。Ubuntu 24.04での導入手順（GPUドライバ、Aptリポジトリ設定、isaac-ros-cli・Docker・nvidia-container-toolkitの導入、ユーザ設定と動作確認）をまとめた。",
       "source": "npaka",
       "publishedAt": "2026-03-29T04:06:17.000Z",
-      "contentHash": "818c27339bee"
+      "contentHash": "66e1a6b1a375"
     },
     {
       "id": "8c3faaf83c91",
@@ -248,10 +464,10 @@
       "id": "98eb0af99142",
       "title": "Suno leans into customization with v5.5",
       "url": "https://www.theverge.com/entertainment/903056/suno-ai-music-v5-5-model",
-      "summary": "SunoがAI音楽モデルv5.5を公開。従来の音質改善から一歩進み、ユーザー制御を強化。Voices（自分の声で学習、検証フレーズ必須だが偽造の懸念あり）、My Taste、Custom Modelsを追加。",
+      "summary": "Sunoが音楽AIモデルv5.5を発表。ユーザーの声や楽曲で学習できる「Voices」、好み反映の「My Taste」、カスタムモデルを追加。音声は高品質推奨で本人確認フレーズが必要。",
       "source": "The Verge",
       "publishedAt": "2026-03-28T18:33:10.000Z",
-      "contentHash": "55a530f74913"
+      "contentHash": "eae408bee92e"
     },
     {
       "id": "1cc96b8f81de",
@@ -347,10 +563,10 @@
       "id": "cb8ab6503597",
       "title": "VLA のActionと学習手順、主要モデルの違い",
       "url": "https://note.com/npaka/n/nefad2c5dfd7e",
-      "summary": "VLAは画像・言語・ロボット状態を入力にロボット行動を出力するモデル。行動定義（関節空間・手先空間・スキル）が設計・データ収集・学習・適応に大きく影響し、OpenVLA等の主要モデルの違いを整理している。",
+      "summary": "VLAは画像・言語・ロボット状態を入力し実行行動を出力するモデルで、Action定義（関節指令、手先移動、スキル選択）が設計・データ収集・学習・ロボット適応を大きく左右する。OpenVLA（7B, 97万エピソード学習）など主要モデルの違いも整理している。",
       "source": "npaka",
       "publishedAt": "2026-03-28T12:11:38.000Z",
-      "contentHash": "39b0095cfb48"
+      "contentHash": "972fe1e89525"
     },
     {
       "id": "5b0696977116",
@@ -482,10 +698,10 @@
       "id": "1c31dca652a4",
       "title": "Codex Plugins 入門",
       "url": "https://note.com/npaka/n/n2b8806c271b3",
-      "summary": "Codex PluginsはSkill・App・MCP serverをまとめたインストール可能なパッケージで、単なる接続でなく再利用可能なワークフロー単位を配布可能。例としてGmailプラグインで受信メールの分類・要約・返信下書きを行い、Codexアプリから接続して利用できる。",
+      "summary": "Codex PluginsはSkill/App/MCP serverをまとめたパッケージで、単なる接続器ではなくワークフロー単位で配布・実行可能。例：Gmailプラグインは分類・要約・返信下書きなど受信箱管理を自動化する。",
       "source": "npaka",
       "publishedAt": "2026-03-28T01:58:55.000Z",
-      "contentHash": "9cec5eccc5d4"
+      "contentHash": "cddd01cb9599"
     },
     {
       "id": "91c7b211d493",
@@ -860,10 +1076,10 @@
       "id": "7a640c71cfd2",
       "title": "NVIDIA Jetson の種類と違いまとめ",
       "url": "https://note.com/npaka/n/n44aec7e4bc22",
-      "summary": "NVIDIA Jetsonは世代と階層で整理。主力はOrin（Nano：入門/省電力、NX：バランス、AGX：高性能）、上位にThor（LLM/VLMやロボ向け高帯域）。モジュールは組込用、開発キットは試作用。用途で選べばよい。",
+      "summary": "NVIDIA Jetsonは世代（旧世代／主力Orin／次世代Thor）と階層（Nano→NX→AGX→Thor）で整理。Orinが主力でNanoは入門〜軽量、NXはバランス、AGXは高性能、Thorは最先端。モジュールと開発キットを使い分ける。",
       "source": "npaka",
       "publishedAt": "2026-03-27T08:42:43.000Z",
-      "contentHash": "be41d3acf2db"
+      "contentHash": "704a6261c37b"
     },
     {
       "id": "8aea5845c9ef",
@@ -986,19 +1202,19 @@
       "id": "4b9682859834",
       "title": "CGWORLD にて NVIDIA DGX Spark　×　Reachy Mini の連載はじめました",
       "url": "https://note.com/npaka/n/nee8919d9c574",
-      "summary": "CGWORLDで「NVIDIA DGX Spark × Reachy Mini」の連載を始めました。NVIDIA DGX Sparkと小型ヒューマノイドReachy Miniを使ったローカルAIロボット開発の入門記事です。ぜひご覧ください。",
+      "summary": "CGWORLDで「NVIDIA DGX Spark × Reachy Mini」の連載を開始。第1回はローカルAIロボット開発入門で、DGX SparkとReachy Miniを使って音声AIロボットを自作する手法を紹介します（執筆：npaka）。",
       "source": "npaka",
       "publishedAt": "2026-03-27T03:24:26.000Z",
-      "contentHash": "d856f92e8016"
+      "contentHash": "d17622b09885"
     },
     {
       "id": "0e35bb50641c",
       "title": "明日から「Blender Fes 2026 SS」が始まります！",
       "url": "https://note.com/npaka/n/nf7b1d4c864c5",
-      "summary": "明日から「Blender Fes 2026 SS」が開催されます。私も3月29日（日）17:30〜「Blender×AI 活用入門」というテーマで登壇します。",
+      "summary": "明日から2日間の「Blender Fes 2026 SS」を開催。npakaが3/29(日)17:30に「Blender×AI 活用入門」を講演し、Blender MCP、Tripo、DeepMotion Animate 3D、Flow Studio、Gemini TTSを紹介。前売りは本日まで。",
       "source": "npaka",
       "publishedAt": "2026-03-27T03:19:15.000Z",
-      "contentHash": "3d5edc9480d3"
+      "contentHash": "cbc80bc0f0b3"
     },
     {
       "id": "4867ed475485",
@@ -1103,10 +1319,10 @@
       "id": "93a5dae6fc66",
       "title": "Isaac Sim で RTX LiDAR Sensors を試す",
       "url": "https://note.com/npaka/n/n0e497036fffa",
-      "summary": "「Isaac Sim 5.1」でRTX LiDARセンサーを試したまとめです。導入手順、動作確認、計測結果の可視化や性能評価、発見した課題と改善案を解説しています。",
+      "summary": "Isaac Sim 5.11でGPUレイトレーシングのRTX LiDARを試し、LaserScan(2D)とPointCloud2(3D)をROS2で配信する手順を解説。シーン作成、Example Rotaryセンサー追加、Action Graphでレンダ出力をROS2ヘルパーにつなぎ、/scanと/point_cloudを発行してRVizで確認。",
       "source": "npaka",
       "publishedAt": "2026-03-26T23:57:16.000Z",
-      "contentHash": "437445d3cf6b"
+      "contentHash": "4f7c732a6b78"
     },
     {
       "id": "2d114e68f7cb",
@@ -8784,222 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-03-12T00:22:19.000Z",
       "contentHash": "13e64acdad82"
-    },
-    {
-      "id": "7d896ede43a0",
-      "title": "One of Grammarly’s ‘experts’ is suing the company over its identity-stealing AI feature",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/893451/grammarly-ai-lawsuit-julia-angwin",
-      "summary": "ジャーナリストのジュリア・アングウィンが、Grammarlyが許可なく実在人物の肖像や身元をAIの「Expert Review」機能で使用したとして、プライバシー・パブリシティ権侵害を理由に集団訴訟を起こした。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-11T22:51:53.000Z",
-      "contentHash": "428fd242fdd2"
-    },
-    {
-      "id": "98385d100c66",
-      "title": "Atlassian to cut roughly 1,600 jobs in pivot to AI",
-      "url": "https://www.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/",
-      "summary": "米ソフトウエア大手Atlassianは業務再編で約1,600人を解雇し、資源を生成AIなどのAI開発に集中させると発表。コスト削減と製品戦略の転換が狙い。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-11T22:29:42.000Z",
-      "contentHash": "bdb8071dba47"
-    },
-    {
-      "id": "4508b9f4239a",
-      "title": "iPhone Fold rumor: iPad-like multitasking, but no iPad apps and no Face ID",
-      "url": "https://www.theverge.com/tech/893429/iphone-fold-rumor-ipad-multitasking-face-id-rumor",
-      "summary": "ブルームバーグは、Appleの折りたたみiPhoneは内側がiPad mini級の広い画面でiPad風の分割表示をサポートするが既存のiPadアプリは動かず、薄型前面のためFace IDをやめTouch IDを採用すると報じた。外側は小型iPhone相当。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-11T22:22:33.000Z",
-      "contentHash": "29e0e6e0b59d"
-    },
-    {
-      "id": "f3789b4e173f",
-      "title": "Some of the best horror games ever made are included in Humble’s latest $15 bundle",
-      "url": "https://www.theverge.com/gadgets/893314/frictional-games-amnesia-soma-humble-bundle-deal-sale-steam",
-      "summary": "HumbleがFrictional Gamesのホラー6本（Penumbraコレクターズ、Amnesia4作、Soma）をSteam用バンドルで合計$15で販売。一部はMac/Linux/Steam Deck対応。Steam単体価格は約$78。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-11T21:50:28.000Z",
-      "contentHash": "bc4eedf95d52"
-    },
-    {
-      "id": "aa06f4fcf7f0",
-      "title": "Valve says it will fight New York&#8217;s loot box lawsuit",
-      "url": "https://www.theverge.com/games/893383/valve-steam-loot-box-gambling-cd2-dota-tf2",
-      "summary": "ニューヨーク州検事総長がValveをルートボックスを「違法ギャンブル」として提訴。Valveはポケモンカード等と同様で景品は主に化粧的、開封不要と反論し、訴訟で争うとNYプレイヤーへ通知した。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-11T21:23:35.000Z",
-      "contentHash": "517b242bda58"
-    },
-    {
-      "id": "fe8d936b4811",
-      "title": "Britain is ejecting hereditary nobles from Parliament after 700 years",
-      "url": "https://apnews.com/article/uk-house-of-lords-hereditary-peers-expelled-535df8781dd01e8970acda1dca99d3d4",
-      "summary": "英国は約700年続いた慣例を終わらせ、世襲貴族の貴族院（上院）からの排除を進め、議会の構成を近代化する改革を実施している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-11T21:06:06.000Z",
-      "contentHash": "37ea0c67223e"
-    },
-    {
-      "id": "fb4fd1629641",
-      "title": "Many SWE-bench-Passing PRs would not be merged",
-      "url": "https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/",
-      "summary": "SWE-benchでテスト合格したAI生成PR（mid‑2024〜mid/late‑2025のエージェント）の約半数は、実際の保守者レビューではマージされないと判定された。4人の保守者が296件のAI PR（比較用に47件の人間PR）を審査し、機能不備・他破壊・品質問題で変更を要求。反復機会がないためベンチ結果は実用性を過大評価し得る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-11T20:56:52.000Z",
-      "contentHash": "35fe80edbce3"
-    },
-    {
-      "id": "eac5927697c3",
-      "title": "The dead Internet is not a theory anymore",
-      "url": "https://www.adriankrebs.ch/blog/dead-internet/",
-      "summary": "「死んだインターネット」は現実化。応募者の自動返信、HackerNewsの生成コメント規制、Redditのアストロターフ、LinkedInのAI投稿、GitHubの無意味なPRなど、ボットやAIがネットを席巻し、以前のようなインターネットは戻らない。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-11T20:20:22.000Z",
-      "contentHash": "38ac8e9f3eb1"
-    },
-    {
-      "id": "4d0ccd6b9958",
-      "title": "X is selling existing users' handles",
-      "url": "https://news.ycombinator.com/item?id=47340754",
-      "summary": "長期未ログインだとXがハンドルを取得し、希少ハンドルを警告なしでオークション（約10万ドル）に出す。30日ごとログインが対策。ブランド保護や企業優先化への懸念と、放置なら権利薄いとの反論、利益目的で収集する疑念がある。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-11T20:11:50.000Z",
-      "contentHash": "da8f05b9f9e2"
-    },
-    {
-      "id": "cdfcba54d453",
-      "title": "The Live Nation settlement has industry insiders baffled",
-      "url": "https://www.theverge.com/policy/893272/live-nation-ticketmaster-doj-settlement-states",
-      "summary": "米司法省がライブネイション＝チケットマスター訴訟で解体を求めない和解に合意。業界は困惑・不満。手数料上限15％やアーティスト向け透明性強化はあるが不十分で、州の訴訟継続に期待。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-11T19:31:03.000Z",
-      "contentHash": "ba8dd546064c"
-    },
-    {
-      "id": "675bb5456b82",
-      "title": "Don't post generated/AI-edited comments. HN is for conversation between humans",
-      "url": "https://news.ycombinator.com/newsguidelines.html#generated",
-      "summary": "Hacker Newsの方針：知的好奇心を満たす話題は歓迎、政治・芸能などは原則オフ。投稿は原典を示し宣伝や大文字・誇張は避け、動画/ PDFは明記。コメントは親切で議論に集中。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-11T19:29:29.000Z",
-      "contentHash": "49a0e6f1c8a8"
-    },
-    {
-      "id": "29d6a152f836",
-      "title": "Grammarly says it will stop using AI to clone experts without permission",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/893270/grammarly-ai-expert-review-disabled",
-      "summary": "GrammarlyはVergeなど記者の文体を無断で模倣したとして批判を受け、Expert Review機能を再設計し専門家に参加の可否を選ばせると表明。Superhumanは同機能を無効化して謝罪した。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-11T18:45:50.000Z",
-      "contentHash": "5524944e4c57"
-    },
-    {
-      "id": "762afbe48622",
-      "title": "Personal Computer by Perplexity",
-      "url": "https://www.perplexity.ai/personal-computer-waitlist",
-      "summary": "その記事に直接アクセスできないため、本文を貼っていただくか要点を教えてください。いただければ200文字以内で日本語要約します。HNの議論要約も可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-11T18:22:21.000Z",
-      "contentHash": "f587dacecc4c"
-    },
-    {
-      "id": "d137cb2ebebb",
-      "title": "I was interviewed by an AI bot for a job",
-      "url": "https://www.theverge.com/featured-video/892850/i-was-interviewed-by-an-ai-bot-for-a-job",
-      "summary": "記者がAIアバター面接を体験。不気味の谷に抵抗を感じつつ、AIがビデオで質問と応答を分析し応募者を広く扱えるとCodeSignal等は主張、偏見低減の意図もあるが議論が続いている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-11T18:17:30.000Z",
-      "contentHash": "6d64e3188c1f"
-    },
-    {
-      "id": "c8595102cc0e",
-      "title": "Microsoft&#8217;s ‘Xbox mode’ is coming to every Windows 11 PC",
-      "url": "https://www.theverge.com/games/892875/microsoft-xbox-mode-windows-11-gdc",
-      "summary": "マイクロソフトはXboxとWindowsの統合を進める。次世代Xbox「Project Helix」はPCゲーム対応でアルファは2027年。先行して4月からWindows 11全PCに全画面の「Xboxモード」を導入。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-11T18:02:31.000Z",
-      "contentHash": "658a6aeec9d0"
-    },
-    {
-      "id": "9806f31aeb31",
-      "title": "Microsoft’s next Xbox, Project Helix, won&#8217;t reach alpha until 2027",
-      "url": "https://www.theverge.com/games/893119/xbox-project-helix-jason-ronald-gdc-2026",
-      "summary": "マイクロソフトがGDCで次世代Xbox「Project Helix」を発表。カスタムAMDチップでレイトレーシング性能を桁違いに高めパストレーシング対応。機械学習搭載の次世代FSR（FSR Diamond）でフレーム生成し滑らか化。α版は開発者に2027年配布予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-11T17:28:28.000Z",
-      "contentHash": "604d0cd5ad00"
-    },
-    {
-      "id": "e3ccec42129c",
-      "title": "OpenAI’s Sora video generator is reportedly coming to ChatGPT",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/893189/openai-chatgpt-sora-integration",
-      "summary": "報道によれば、OpenAIの動画生成ツール「Sora」がChatGPTに統合される可能性がある。アクセスが容易になり利用者増が見込まれる一方、MLKの侮辱的なディープフェイクや著作権侵害など悪用リスクが懸念されている。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-11T16:50:45.000Z",
-      "contentHash": "f8d1eaaeb7a4"
-    },
-    {
-      "id": "f0452d349dc5",
-      "title": "Show HN: I built a tool that watches webpages and exposes changes as RSS",
-      "url": "https://sitespy.app",
-      "summary": "Site Spyはウェブページを自動監視するツール。要素指定で部分追跡、視覚的差分表示とスナップショット履歴、色タグ管理、柔軟な監視間隔、プッシュ/メール/Telegram通知、クロス端末同期とAI連携に対応。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-11T16:21:06.000Z",
-      "contentHash": "0b4c3cb4e958"
-    },
-    {
-      "id": "9b980aa73a35",
-      "title": "Alternative app store AltStore PAL is joining the fediverse",
-      "url": "https://www.theverge.com/tech/893085/altstore-pal-alternative-app-store-fediverse",
-      "summary": "代替iOSアプリストアAltStore PAL（EU・日本展開）がフェディバース連携を開始。Mastodon／Threads／Bluesky上の「いいね」やコメントがアプリ内に表示され、同アカウントでログイン可能。探索サイトで連携アプリを共有・発見しやすくする狙いで、3つのフェディバース系アプリも追加予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-11T16:00:00.000Z",
-      "contentHash": "3b1e9d1d898b"
-    },
-    {
-      "id": "e029d86bc692",
-      "title": "Temporal: A nine-year journey to fix time in JavaScript",
-      "url": "https://bloomberg.github.io/js-blog/post/temporal/",
-      "summary": "BloombergのJason Williamsが、JavaScriptの日時ライブラリ「Temporal」を巡る9年の取り組みを紹介。Bloombergの標準化参加、TC39の提案ステージ（0〜4）の流れ、2018年にTemporalがStage1でDateの置換を目指した経緯などを説明。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-11T15:35:50.000Z",
-      "contentHash": "23408f5cf6dc"
-    },
-    {
-      "id": "e09e3370d51d",
-      "title": "Canva’s new editing tool adds layers to AI-generated designs",
-      "url": "https://www.theverge.com/tech/893124/canva-ai-magic-layers-feature-beta",
-      "summary": "Canvaが新機能「Magic Layers」を公開ベータで導入。平面画像やAI生成画像をレイヤー化し、オブジェクトやテキスト等を個別編集でき、元のレイアウトを保持。米英加豪で提供開始。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-11T15:02:02.000Z",
-      "contentHash": "19a63fb008f3"
-    },
-    {
-      "id": "d54e130765e7",
-      "title": "Faster asin() was hiding in plain sight",
-      "url": "https://16bpp.net/blog/post/faster-asin-was-hiding-in-plain-sight/",
-      "summary": "申し訳ありませんが外部ページに直接アクセスできません。記事本文（または要点）を貼っていただければ、200字以内で日本語要約を作成します。コメントも要約希望なら併せて貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-11T14:35:53.000Z",
-      "contentHash": "b988c45fe90f"
-    },
-    {
-      "id": "047cce139ea0",
-      "title": "How to ditch Ring’s surveillance network",
-      "url": "https://www.theverge.com/tech/890910/best-ring-alternatives-privacy-focused-video-doorbell-local-storage-reolink-aqara-tapo-ecobee",
-      "summary": "Ringの警察連携やAIによる映像検索に懸念が広がる。既存Ringを安全化する対策と、EufyやReolink、SwitchBot、Tapo、Aqaraなどのローカル保存・エンドツーエンド暗号化対応カメラの代替案を紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-11T14:31:27.000Z",
-      "contentHash": "59ddb17644e4"
-    },
-    {
-      "id": "4f4bf882e2c7",
-      "title": "You can’t replace the battery in Lego’s Smart Bricks — and many of its sensors aren’t available yet",
-      "url": "https://www.theverge.com/tech/892894/lego-smart-brick-battery-sensors-disposable",
-      "summary": "レゴの新スマートブロックは電池交換不可で、発売時点では多くのセンサーが無効化されている。音声マイク、周囲光、精密距離、位置・姿勢検出などは今後の製品で解放予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-11T14:31:05.000Z",
-      "contentHash": "ca72c293c077"
     }
   ]
 }
