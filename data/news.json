@@ -1,6 +1,150 @@
 {
-  "generatedAt": "2026-03-31T03:03:51.191Z",
+  "generatedAt": "2026-03-31T09:21:49.729Z",
   "items": [
+    {
+      "id": "ced3ca85db87",
+      "title": "Another Starlink satellite has inexplicably exploded",
+      "url": "https://www.theverge.com/science/903906/another-starlink-satellite-has-inexplicably-exploded",
+      "summary": "SpaceXのStarlink衛星34343が異常で通信を喪失し、Leo Labsが周辺で多数の破片を検出。ISSやアルテミスIIへの影響はないとされ、破片は数週間で大気圏再突入して焼失見込み。原因は調査中で、12月の同様事故に続く発生。",
+      "source": "The Verge",
+      "publishedAt": "2026-03-31T08:19:52.000Z",
+      "contentHash": "ca1bde809f6c"
+    },
+    {
+      "id": "0221abc06db3",
+      "title": "Figma MCPを使用してアプリのUI作成を効率化しよう | RecoChoku Engineering Blog",
+      "url": "https://techblog.recochoku.jp/13367",
+      "summary": "Figma MCPを使いAndroid StudioでUI作成を効率化する手順。MCPはAIがFigmaデータを安全に参照するプロトコル。リモート／デスクトップMCP、Node.jsのローカルブリッジ(npx --stdio)、個人用アクセストークン作成、mcp.json（GitHub Copilot連携）設定例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-31T07:27:56.000Z",
+      "contentHash": "8aff44bfef7d"
+    },
+    {
+      "id": "96d4acdffaad",
+      "title": "レコメンドの目視テスト、もう限界なのでLLMに任せた話 — 自動評価ワークフロー構築の裏側 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/ab7f555c4e1cc6",
+      "summary": "ニュースのレコメンド評価が目視では規模と主観で限界になったため、プロンプトで基準を固定したLLMを評価ワークフローに組み込み自動化。均一な評価と工数削減、原因分析レポート自動生成を実現。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-31T07:26:19.000Z",
+      "contentHash": "fd9d48866414"
+    },
+    {
+      "id": "9c985ca46bac",
+      "title": "AIは「なぜそう思うか」まで見せる！〜富士通の最先端グラウンディング技術がMLLMを革新〜 | fltech - 富士通研究所の技術ブログ",
+      "url": "https://blog.fltech.dev/entry/2026/03/31/mllm-grounding-ja",
+      "summary": "富士通FRDCはMLLMの「グラウンディング技術」を開発。回答の根拠領域を示す根拠グラウンディングと思考過程全体を追う思考グラウンディングを提案。SFTとRLを組合せた共同学習でQwen-VL-7BがChartQA/DocVQA/DORG等で高精度化し、AIが「なぜそう判断したか」を可視化可能に。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-31T07:21:56.000Z",
+      "contentHash": "89ce5736c455"
+    },
+    {
+      "id": "99089b9fd398",
+      "title": "内部監査で繰り返し指摘される、個人情報管理の“ありがちな落とし穴”トップ5 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/a3c425c560c56e",
+      "summary": "内部監査で繰り返し指摘される個人情報管理の落とし穴トップ5：①管理者がログ編集可②共有アカウントの未変更③ログ未点検④不適切な権限設定⑤アカウント管理不備。本人追跡性・最小権限・人事連携での運用強化を推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-31T07:06:33.000Z",
+      "contentHash": "8e9ae92afd7f"
+    },
+    {
+      "id": "1c3b03528933",
+      "title": "富士通が提案する企業向けベンチマーク：AIエージェントモデルの真価を引き出す #3「読む」から「考える」へ：企業の法務AIを支えるFujitsu Assessing Compliance in Enterprise Datasetのご紹介 | fltech - 富士通研究所の技術ブログ",
+      "url": "https://blog.fltech.dev/entry/2026/03/26/Fujitsu-Assessing-Compliance-in-Enterprise-Dataset-for-Enterprise-Legal-Compliance-Agents-ja",
+      "summary": "富士通は法務AI向けデータセット「Fujitsu Assessing Compliance in Enterprise (ACE)」と、条項間の関係図で推論するAIアシスタント「COMPACT」を提案。既存LLMは複数条項推論で低精度（34–57%）であり、グラフ構造で「読む」から「考える」法務AIを目指す。EACL2026採択。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-31T07:06:10.000Z",
+      "contentHash": "dace0e54d470"
+    },
+    {
+      "id": "bb41150e0776",
+      "title": "スクラム、ちゃんとできてる？ ― 輪講会で振り返ってみた | ENGINEERING BLOG ドコモ開発者ブログ",
+      "url": "https://nttdocomo-developers.jp/entry/2026/03/31/160000",
+      "summary": "NTTドコモのサービス基盤チームで、吉羽龍太郎氏のDeep Dive資料を題材に5名で輪講会（1回1時間×5回）を実施。講解→個人振返→討議で、バックログのソリューション化、スプリントゴール不明瞭、レビューの内向き化、ベロシティ運用、レトロのマンネリ等の課題を抽出し、行動宣言で改善を目指した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-31T07:00:00.000Z",
+      "contentHash": "f8e5e796d52a"
+    },
+    {
+      "id": "129e0dfffb30",
+      "title": "開発チームに入ってセキュリティを向上するということ | カミナシ エンジニアブログ",
+      "url": "https://kaminashi-developer.hatenablog.jp/entry/2026/03/31/embedded-security-eng",
+      "summary": "カミナシにSecurity Engineerとして1年参画し、オンコールでサービス把握後にインフラ・セキュリティ改善を実施。AWSコントロール対応手順やTerraformを公開し、他チームへナレッジ共有。脅威モデリングやSASTの勉強会で開発者の「気づく力」と相談の習慣化を促した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-31T07:00:00.000Z",
+      "contentHash": "e71947bd4333"
+    },
+    {
+      "id": "117317cce90f",
+      "title": "axiosにサプライチェーン攻撃が発生した話と、担当プロジェクトでやっていた備え | レスキューナウテックブログのフィード",
+      "url": "https://zenn.dev/rescuenow/articles/880bf865235aaf",
+      "summary": "axiosのメンテナーのnpmトークンが窃取され、偽依存パッケージplain-crypto-jsを仕込みトロイを配布する悪意あるv1.14.1・v0.30.4が公開されました。npmは削除。レジストリプロキシ（Takumi Guard等）での対策を推奨します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-31T06:54:31.000Z",
+      "contentHash": "45e96649847e"
+    },
+    {
+      "id": "b77a9f861cac",
+      "title": "PDFの図表はRAGで扱えるのか？6つの方法で検証して分かった“現実的な最適解” | HEROZ Tech Blog",
+      "url": "https://techblog.heroz.jp/entry/2026/03/31/152439",
+      "summary": "PDFの図表をRAGで扱うため、テキスト抽出・OCR・OCR＋画像・画像Embedding（3種）の計6手法を精度・コスト・処理時間で比較。マルチモーダルEmbeddingでページ全体のベクトル化が可能になったが、用途次第で最新手法が最適とは限らないとし、実務向けの最適解を提示。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-03-31T06:24:39.000Z",
+      "contentHash": "c752fcb5d560"
+    },
+    {
+      "id": "be9ca20e151a",
+      "title": "Multitask DiT Policy の概要",
+      "url": "https://note.com/npaka/n/nec8bdd6bbacd",
+      "summary": "Multitask DiT Policyは画像・言語・ロボット状態を条件に未来の行動列を生成するマルチタスクポリシー（LeRobotのmulti_task_dit、約450M）。Diffusion Policy系のTransformer DiTを核とし、CLIPエンコーダを用い、diffusionとflow matchingで学習。horizonやn_action_stepsで予測長や実行ステップを調整。",
+      "source": "npaka",
+      "publishedAt": "2026-03-31T06:13:26.000Z",
+      "contentHash": "70619283a243"
+    },
+    {
+      "id": "52a49b8215a2",
+      "title": "Google's 200M-parameter time-series foundation model with 16k context",
+      "url": "https://github.com/google-research/timesfm",
+      "summary": "TimesFMはGoogle Researchの時系列予測用事前学習ファウンデーションモデル（ICML2024）。最新版2.5は200Mパラメータ、文脈長16k、1k先までの連続分位予測用30Mヘッド対応、XReg共変量対応復活。リポジトリでpip/Flax/Torch導入可（非公式）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-31T05:21:59.000Z",
+      "contentHash": "452101bd7e15"
+    },
+    {
+      "id": "a2d8102f557e",
+      "title": "GitHub backs down, kills Copilot pull-request ads after backlash",
+      "url": "https://www.theregister.com/2026/03/30/github_copilot_ads_pull_requests/",
+      "summary": "GitHubは、Copilotが他人のプルリクに「tips」（広告）を挿入する機能を開発者の反発で撤回した。オーストラリアの開発者がRaycast広告の挿入を発見、1万1千件超で同様の挿入が確認され、製品マネージャーも判断ミスを認めた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-31T05:11:24.000Z",
+      "contentHash": "4c452c199ce6"
+    },
+    {
+      "id": "6cfda92b3a1f",
+      "title": "Ollama is now powered by MLX on Apple Silicon in preview",
+      "url": "https://ollama.com/blog/mlx",
+      "summary": "OllamaがAppleの機械学習基盤MLXでApple Silicon（M5系）に対応し、TTFTや生成速度が大幅向上。NVFP4形式で精度を保ち本番互換性を確保、キャッシュ改善で応答性も向上。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-31T03:40:45.000Z",
+      "contentHash": "6eaf397b114a"
+    },
+    {
+      "id": "1ee67b2a79f6",
+      "title": "Axios compromised on NPM – Malicious versions drop remote access trojan",
+      "url": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan",
+      "summary": "npmのaxiosが乗っ取られ、維持者アカウントから1.14.1や0.30.4などの改ざん版が公開されました。隠し依存でクロスプラットフォームのRAT（リモートアクセス型トロイの木馬）が仕込まれており、現在調査中で詳細な技術解析を追って公開予定です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-31T02:54:17.000Z",
+      "contentHash": "004305832db6"
+    },
+    {
+      "id": "e6ea268f580b",
+      "title": "Artemis II is not safe to fly",
+      "url": "https://idlewords.com/2026/03/artemis_ii_is_not_safe_to_fly.htm",
+      "summary": "アルテミスIIが水曜に打上予定だが、前回2022年の再突入でオリオンのAvcoat製ヒートシールドに大きな欠損やボルトの侵食・融解が発生。NASAは当初軽視・報告未公開で、2024年5月の検査写真で深刻さが判明。安全性に懸念あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-31T02:23:50.000Z",
+      "contentHash": "53a1780e3052"
+    },
     {
       "id": "167d84fec5d5",
       "title": "Gemini・Claude・Devin…5つのAIでカスタマーサポートが変わったこと | inSmartBank",
@@ -18,6 +162,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-31T01:25:46.000Z",
       "contentHash": "b07cd0eb2c83"
+    },
+    {
+      "id": "563686cdd796",
+      "title": "Universal Claude.md – cut Claude output tokens",
+      "url": "https://github.com/drona23/claude-token-efficient",
+      "summary": "プロジェクトにCLAUDE.mdを置くだけで、設定不要にClaudeの迎合表現・冗長・フォーマットノイズを抑え出力を約63%削減。自動化や大量出力に有効。Claudeでベンチ済、他モデルは未検証。単発短問には不向き。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-31T01:23:34.000Z",
+      "contentHash": "63f71d387b79"
     },
     {
       "id": "cfcc4ad42168",
@@ -104,10 +257,10 @@
       "id": "a8680baa36d7",
       "title": "Show HN: 30u30.fyi – Is your startup founder on Forbes' most fraudulent list?",
       "url": "https://30u30.fyi",
-      "summary": "申し訳ありませんが、こちらからWebページを直接取得できません。記事本文を貼るか重要な箇所（見出しや抜粋）を教えてください。それを基に200字以内で日本語要約します。",
+      "summary": "申し訳ありませんが、外部サイトを直接閲覧できません。記事本文を貼り付けていただければ、200文字以内で要約します。特に強調してほしい点があれば教えてください。",
       "source": "Hacker News",
       "publishedAt": "2026-03-30T22:10:22.000Z",
-      "contentHash": "288c786df674"
+      "contentHash": "3ffd350d08a9"
     },
     {
       "id": "bfccd6ba8856",
@@ -117,6 +270,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-03-30T22:05:21.000Z",
       "contentHash": "f0a573a60d10"
+    },
+    {
+      "id": "e0cd7fd73b6b",
+      "title": "OpenGridWorks: The Electricity Infrasctructure, Mapped",
+      "url": "https://www.opengridworks.com",
+      "summary": "外部サイトに直接アクセスできないため、URL先の本文をこちらに貼ってください。本文（または要点の抜粋）をいただければ、200文字以内の日本語で要約します。HNのコメントを含めてほしい場合は、それも一緒に貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-03-30T21:12:46.000Z",
+      "contentHash": "6f29085f6f5f"
     },
     {
       "id": "15f4e66d9582",
@@ -977,10 +1139,10 @@
       "id": "5a785e047d57",
       "title": "VLM でスーパーマリオをクリアするのはなぜ難しいのか",
       "url": "https://note.com/npaka/n/n174a2c93441c",
-      "summary": "VLMは画面理解や高レベル判断は得意だが、マリオのようなフレーム単位の精密操作や物理予測、長期報酬・探索を要する低レベル制御が苦手で、認識から操作への橋渡しが難しい。補助役としては有用。",
+      "summary": "VLMは画面理解や高レベル判断は得意だが、マリオのようなフレーム単位の低レベル制御・即時反応・物理予測・探索最適化が苦手で、強化学習が有利。VLMは補助役として有用。",
       "source": "npaka",
       "publishedAt": "2026-03-29T08:22:18.000Z",
-      "contentHash": "7de3ee3852b8"
+      "contentHash": "67563b55f99a"
     },
     {
       "id": "26e5d1caacee",
@@ -8838,168 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-03-13T15:24:08.000Z",
       "contentHash": "2a8b898c9568"
-    },
-    {
-      "id": "69e8e98d52b1",
-      "title": "The Pixel Buds Pro 2 are some of the best wireless earbuds $170 can buy",
-      "url": "https://www.theverge.com/gadgets/894392/google-pixel-buds-pro-2-deal-sale",
-      "summary": "Pixel Buds Pro 2は小型でイヤーフィン採用、音質向上、ANCやトランスペアレンシーモード搭載と進化し、同価格帯で高評価。筆者はAシリーズから乗り換えて満足。現在AmazonやBest Buy、Walmartで過去最安の169.99ドル（通常229.99ドル）。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-13T15:16:58.000Z",
-      "contentHash": "f36603bfa1fd"
-    },
-    {
-      "id": "e70c412e37f2",
-      "title": "Meta Platforms: Lobbying, Dark Money, and the App Store Accountability Act",
-      "url": "https://github.com/upper-up/meta-lobbying-and-other-findings",
-      "summary": "Metaが巨額ロビーとダークマネーで偽の「Digital Childhood Alliance」を資金提供し、年齢確認義務をアプリストアに転嫁するASAAを推進。2025年の連邦ロビー費は26.3百万ドル、アラベラ系に20億ドルの資金流れを追跡。公開記録に基づく調査継続中。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-13T15:14:29.000Z",
-      "contentHash": "3208d67ca0e5"
-    },
-    {
-      "id": "806aed089d6a",
-      "title": "Epic says its Fortnite V-bucks price hike is a &#8216;direct correlation&#8217; to operating costs",
-      "url": "https://www.theverge.com/games/894379/epic-games-fortnite-v-bucks-price-hike-operating-costs",
-      "summary": "EpicはFortniteのVバックスを3月19日から値上げすると発表。「運営コストの増加」が理由だとする一方で、具体的な内訳は明かさず、ユーザーの抗議には社員が反応した。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-13T14:24:54.000Z",
-      "contentHash": "cbe6d08a1b74"
-    },
-    {
-      "id": "5b8126b7ae1c",
-      "title": "Peacock is adding an AI Andy Cohen to narrate an endless stream of Bravo clips",
-      "url": "https://www.theverge.com/streaming/894128/peacock-nbcuniversal-ai-andy-cohen-bravo",
-      "summary": "Peacockは今夏、アンディ・コーエンのAIアバターが案内する「Your Bravoverse」をスマホアプリに導入。AIが好みのBravo番組から短尺クリップを選び、無限スワイプで表示して視聴維持を狙う。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-13T14:20:59.000Z",
-      "contentHash": "b678f52596e9"
-    },
-    {
-      "id": "6a30d3963fb1",
-      "title": "Peacock’s NBA streams are going vertical",
-      "url": "https://www.theverge.com/streaming/894152/peacock-live-sports-nba-streams-vertical-mobile",
-      "summary": "Peacockは縦向きで視聴できるネイティブ縦型ライブスポーツ配信を今春NBAで開始。アルゴリズムで選手を追跡してズーム表示する。日本発のviztrick AiDi（顔認識技術）を使うかは不明。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-13T14:00:00.000Z",
-      "contentHash": "08cf841883d2"
-    },
-    {
-      "id": "7900c6fcde2a",
-      "title": "The MacBook Neo is a winner",
-      "url": "https://www.theverge.com/podcast/894274/macbook-neo-review-xbox-helix-vergecast",
-      "summary": "VergecastでデイビッドとニレイがAppleの599ドル新型「MacBook Neo」を評価。手頃で完成度が高く初回で当たり、macOS Tahoeへの不満やPCメーカーが対抗できない点を議論。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-13T13:13:16.000Z",
-      "contentHash": "55810109f0fc"
-    },
-    {
-      "id": "e3fe4a6f5a99",
-      "title": "Nanny state discovers Linux, demands it check kids' IDs before booting",
-      "url": "https://www.theregister.com/2026/03/13/opinion_os_verification/",
-      "summary": "米国の州でOSベンダーに利用者の年齢・生年月日を登録・保存させる要求が浮上。WindowsやmacOSは対応できるが、自由を旨とするLinux等オープン系は困難。著者は検閲的管理とプライバシー侵害を警告し、OSレベルの年齢確認が標準化する懸念を示す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-13T13:10:50.000Z",
-      "contentHash": "4ac4d3b78fbe"
-    },
-    {
-      "id": "248cda8fedca",
-      "title": "E2E encrypted messaging on Instagram will no longer be supported after 8 May",
-      "url": "https://help.instagram.com/491565145294150",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文（または要点）をここに貼り付けていただけますか？Instagramヘルプ記事とHacker Newsのコメント両方の要約も可能です。200文字以内でまとめます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-13T13:03:42.000Z",
-      "contentHash": "5abdd9b60fc8"
-    },
-    {
-      "id": "7f4dc44d6aac",
-      "title": "PSA: Don’t buy a $4,400 gray market Samsung TriFold on eBay",
-      "url": "https://www.theverge.com/tech/894063/samsung-galaxy-z-trifold-sold-out-ebay",
-      "summary": "Allison JohnsonはeBayで4,399ドルのグレーマーケットSamsung Galaxy Z TriFoldを購入したが、起動時に「USIM」を要求され設定できず、サムスンが流通を抑えたい製品の可能性があるとして購入を強く警告している。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-13T13:00:00.000Z",
-      "contentHash": "7f257519653b"
-    },
-    {
-      "id": "375d38d05a0e",
-      "title": "PC makers are not ready for the MacBook Neo",
-      "url": "https://www.theverge.com/report/894090/macbook-neo-pc-windows-laptop-competition-asus-footinmouth",
-      "summary": "Appleの新廉価モデル「MacBook Neo」が登場し、手頃な価格と性能でWindows PCメーカーに大きな圧力をかける。PC業界は製品や価格戦略の見直しを迫られる可能性がある。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-13T12:00:00.000Z",
-      "contentHash": "ab6efb7242d3"
-    },
-    {
-      "id": "8a5e4cd2f506",
-      "title": "TUI Studio – visual terminal UI design tool",
-      "url": "https://tui.studio/",
-      "summary": "Figma風のTUIビジュアルエディタ。ドラッグ＆ドロップでリアルタイムANSIプレビュー、豊富なコンポーネントとAbsolute/Flex/Grid配置、テーマ対応。Ink/BubbleTea/Blessed/Textual/OpenTUI/Tviewへワンクリック出力、.tui JSONで保存。macOSやWindowsでは起動警告が出る場合あり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-13T10:32:45.000Z",
-      "contentHash": "aefc4ec8ae43"
-    },
-    {
-      "id": "5b482b0c67a5",
-      "title": "Peter Thiel's Antichrist Lectures",
-      "url": "https://apnews.com/article/italy-peter-thiel-paypal-pope-vatican-c3a6c7d2daba501caf8152558ac2d743",
-      "summary": "PayPalとPalantirの共同創業者ピーター・ティールが、2022年4月7日にマイアミビーチで開かれたビットコイン会議の基調講演で聴衆に100ドル紙幣を配った。写真はAP提供。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-13T10:31:21.000Z",
-      "contentHash": "0c33cebd717b"
-    },
-    {
-      "id": "bd76b0cc0318",
-      "title": "【AD検証ラボ】AWS / Azure で Active Directory 構築ガイド | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/aws-azure-active-directory-guide/",
-      "summary": "オンプレAD検証ラボのAWS/Azure構築ガイド。AWSは制約のあるマネージドADよりEC2上にAD DSを立てることを推奨（スキーマ拡張やFSMO操作、DCログイン可能）。停止で課金を抑えられ、t3.large(8GB)を推奨。DNS/Kerberos/LDAP/RPC/GC/RDPなど必要なセキュリティグループのポートも詳細に解説。マルチVPCやAzure接続は設計が複雑。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-13T10:22:00.000Z",
-      "contentHash": "dfeed30c86b5"
-    },
-    {
-      "id": "284d1ccae928",
-      "title": "「AIエージェントキャッチアップ #69 - Recursive Language Models (RLMs)」を開催しました | Generative Agents Tech Blog",
-      "url": "https://blog.generative-agents.co.jp/entry/2026/03/13/190008",
-      "summary": "ジェネラティブエージェンツの大嶋が「AIエージェントキャッチアップ #69 - Recursive Language Models (RLMs)」を開催。アーカイブ動画あり。RLMは入力を分解して自身を再帰的に呼び出す言語モデルについての解説を行いました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-13T10:00:08.000Z",
-      "contentHash": "92592ec69fdf"
-    },
-    {
-      "id": "ca4e2b5d7382",
-      "title": "Source code of Swedish e-government services has been leaked",
-      "url": "https://darkwebinformer.com/full-source-code-of-swedens-e-government-platform-leaked-from-compromised-cgi-sverige-infrastructure/",
-      "summary": "Font Awesomeを読み込み、ダークテーマのWebレイアウト用CSS。全体リセット、本文フォント・背景、最大幅コンテナ、ヘッダーのグラデやサイト名・見出し・メタ情報、コンテンツ領域、プロモカード（バッジ・グラデ・境界・角丸）などのスタイルを定義。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-13T09:45:30.000Z",
-      "contentHash": "6a6b12863ede"
-    },
-    {
-      "id": "bad1595e7a31",
-      "title": "【書評】 作ってわかる大規模言語モデルの仕組み",
-      "url": "https://note.com/npaka/n/na8c148cd1fa2",
-      "summary": "本書はGPT-2相当を実装しながらトークナイザー、埋め込み、位置エンコ、アテンション、FFNなどLLMの構成要素を学べる実践書。LoRA・SFT・RLHF・DPOや分散学習も解説し、内部理解を深めたい人に最適。",
-      "source": "npaka",
-      "publishedAt": "2026-03-13T09:07:38.000Z",
-      "contentHash": "04ab99e26f60"
-    },
-    {
-      "id": "e618c9f39559",
-      "title": "MLモデル学習バッチのログ設計と監視ダッシュボード運用 | MicroAd Developers Blog",
-      "url": "https://developers.microad.co.jp/entry/2026/03/13/180000",
-      "summary": "マイクロアドの機械学習エンジニア木村が、MLモデル学習バッチのログ設計と監視を解説。MLOpsの考え方、一般・インシデント基づく監視要件整理、ログテーブル設計、Looker Studioでのダッシュボード設計と運用事例を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-13T09:00:00.000Z",
-      "contentHash": "c26f17a4ba05"
-    },
-    {
-      "id": "a5b23a4c0053",
-      "title": "ASAI　2025年カンファレンス報告会 | vicc blog",
-      "url": "https://blog.vicc.jp/entry/asai-2025-conference-tokyo",
-      "summary": "ASAIの年次AIPコンペが2025年10月に10年ぶりに東京で開催され、住友会館で授賞式が行われ約100名が参加。筆者はレンダリング部門で審査員賞を受賞し、直接対面する貴重な交流の意義を実感した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-13T09:00:00.000Z",
-      "contentHash": "7e6da9574f65"
     }
   ]
 }
