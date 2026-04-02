@@ -1,6 +1,141 @@
 {
-  "generatedAt": "2026-04-02T03:00:15.212Z",
+  "generatedAt": "2026-04-02T09:19:05.561Z",
   "items": [
+    {
+      "id": "a92e98b8d83b",
+      "title": "モノレポ環境でAGENTS.md / CLAUDE.mdを階層化してうまく読み込ませる方法 #GameWith #TechWith | GameWith Developer Blog",
+      "url": "https://tech.gamewith.co.jp/entry/2026/04/02/160233",
+      "summary": "モノレポでAGENTS.md/CLAUDE.mdを階層化し、ルートに共通ルール、サブディレクトリに個別ルールを置いて「まずルートを読み、競合時はサブを優先」とAIに明示する運用方法と記述例を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T07:02:33.000Z",
+      "contentHash": "81a8b037845f"
+    },
+    {
+      "id": "b2e5f9dd132e",
+      "title": "週刊Cloudflare - 2026/03/29週 | Gemcook Tech Blogのフィード",
+      "url": "https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_0322-0328",
+      "summary": "週刊Cloudflare：Wrangler 4.77/4.78で、secrets.requiredによるデプロイ前検証、リモートプレビュー自動リトライ、Qwik/Python修正、Access Service Tokenでwrangler dev認証、ai_search_namespaces追加、Workers VPC/TCP対応、R2操作の検証と確認プロンプト、Streamのローカル実行、証明書検証モード追加など多数の改善・修正が行われました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T06:10:48.000Z",
+      "contentHash": "37d78b47169c"
+    },
+    {
+      "id": "7d580306864c",
+      "title": "eTail Asia 2026に参加しました🇸🇬 | Oisix ra daichi Creator's Blog（オイシックス・ラ・大地クリエイターズブログ）",
+      "url": "https://creators.oisixradaichi.co.jp/entry/2026/04/02/150817",
+      "summary": "SREの青木が2026年3月24–25日にシンガポールで開催されたeTail Asia 2026に参加。アジア太平洋のeコマース会議でAI活用、D2C、ブランディング等のマーケティング系セッションを計28回聴講し、エンジニア視点でビジネス知見を得た内容をまとめる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T06:08:17.000Z",
+      "contentHash": "47b01f3177cd"
+    },
+    {
+      "id": "a27b6ba00a4d",
+      "title": "プロダクトは、完成しない | RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20260402/pdm-driving-force",
+      "summary": "複数プロダクトのPdM組織課長に就任した著者が、\"Why\"を起点に顧客価値を最優先するプロダクトマネジメントを説く。PMFは終わりでなく新たな始まりであり、顧客・ビジネス・技術を統合しAIを活用して高速に検証するチームづくりと個人の原動力の言語化を重視する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T06:00:00.000Z",
+      "contentHash": "c5d3f1b3996f"
+    },
+    {
+      "id": "c8705f0cfbe3",
+      "title": "TypeScript 6.0に上げたかった | ITANDI Engineer Blog",
+      "url": "https://tech.itandi.co.jp/entry/2026/04/02/143618",
+      "summary": "TypeScript 6.0への移行を試みたが完了できず。typescript-eslintのautofixで型が消える問題で詰まり対応待ち。TS6でtsconfigのtypes既定が[]になり、noUncheckedSideEffectImportsがtrueに変わったため設定調整（例: typesにgtag.jsやvite/client追加）してから再挑戦予定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T05:36:18.000Z",
+      "contentHash": "59e8d2248971"
+    },
+    {
+      "id": "b4a088993c3b",
+      "title": "r/programming bans all discussion of LLM programming",
+      "url": "https://old.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/",
+      "summary": "r/programmingがLLM（大型言語モデル）生成の投稿を一時禁止。質の低下やスパム対策の暫定措置で、検出手段や例外、運用ルールを詰めるためコミュニティの意見を募る。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-02T05:33:20.000Z",
+      "contentHash": "e5ca2f931ad7"
+    },
+    {
+      "id": "89facc22a4c3",
+      "title": "Windows Autopatch を始めよう！主要機能クイックガイド | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/windows-autopatch-quick-guide/",
+      "summary": "Windows AutopatchはIntuneの拡張で、更新リングや機能更新、ドライバー、Edge/Microsoft 365 AppsをAutopatchグループで一括管理。段階的展開や詳細レポートで運用負荷を軽減し、対応ライセンスとEntra Joinが必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T04:45:00.000Z",
+      "contentHash": "ee6ebc65ab31"
+    },
+    {
+      "id": "6e20bfca1f9e",
+      "title": "配色ロジック：なぜ、UIの「黒」は黒ではないのか | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/52394",
+      "summary": "多くのエンジニアが color: #000000 や color: black を指定するが、UIで使う「黒」は可読性や視覚の調和、アクセシビリティを考慮して微妙に調整された濃色を用いる理由を解説する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T04:17:36.000Z",
+      "contentHash": "8a27a734e913"
+    },
+    {
+      "id": "8146b23fb319",
+      "title": "【SCSK 出展告知】Zabbix 全国セミナー in 東京 2026　 | TechHarmony",
+      "url": "https://blog.usize-tech.com/scsk-zabbix-seminar-tokyo-2026/",
+      "summary": "SCSKの木下からの案内です。4月24日にZabbix Japan主催「Zabbix全国セミナー in 東京 2026」が開催されます。Zabbixプロフェッショナル向けの情報共有イベントです。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T04:14:21.000Z",
+      "contentHash": "9fd34589df00"
+    },
+    {
+      "id": "6b677e2f9052",
+      "title": "Subscription bombing and how to mitigate it",
+      "url": "https://bytemash.net/posts/subscription-bombing-your-signup-form-is-a-weapon/",
+      "summary": "Sugaでゴミ名の新規登録が相次ぎ歓迎メールが大量に届いていた。これは購読爆撃で、被害者の重要通知を埋めてパスワードリセットや不正利用を狙う攻撃だ。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-02T04:08:05.000Z",
+      "contentHash": "219bb3829e4a"
+    },
+    {
+      "id": "2df02860b398",
+      "title": "LLMアプリケーションを改善したければLangfuseを使ってみてほしい～トレース確認からプロンプトの評価までの流れ | TechDoctor開発者Blog",
+      "url": "https://techblog.technology-doctor.com/entry/2026/04/02/130323",
+      "summary": "LLMアプリの出力原因不明やプロンプト変更影響の可視化難を解決するため、テックドクターがLangfuseを導入。入出力トレース、プロンプト管理、データセット評価、Prompt Experiments等で観測・評価を一元化。SaaS/セルフホスト対応。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T04:03:23.000Z",
+      "contentHash": "ff5154b69354"
+    },
+    {
+      "id": "60056515dce4",
+      "title": "CRE Camp #5 参加レポート — 「何屋になるんだろうなあ」の先にあるもの | 株式会社ココナラさんのフィード",
+      "url": "https://zenn.dev/coconala/articles/aba61049ebb60d",
+      "summary": "CRE Camp #5参加レポ。LTではCREは「トイル削減」から「トイル予防」へ進化すべきと議論。菅井氏はCREの核を「困りごとの構造化」と「技術的裏取り」と定義。ココナラでもAI調査エージェントを実運用中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T03:46:37.000Z",
+      "contentHash": "b2d958aaa3bf"
+    },
+    {
+      "id": "cde48f749167",
+      "title": "Steam on Linux Use Skyrocketed Above 5% in March",
+      "url": "https://www.phoronix.com/news/Steam-On-Linux-Tops-5p",
+      "summary": "Steamの月次調査で2026年3月、Linuxのシェアが過去最高の5.33%に急増（+3.1%）、macOSは2.35%（+1.19%）、Windowsは92.33%（-4.28%）。簡体字表記修正が影響し、約4分の1がSteamOS、LinuxでのAMD採用は約70%。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-02T03:12:24.000Z",
+      "contentHash": "b355af0bb399"
+    },
+    {
+      "id": "680881553da6",
+      "title": "The Claude Code Leak",
+      "url": "https://build.ms/2026/4/1/the-claude-code-leak/",
+      "summary": "Claude Codeのソース流出で「コードは雑」でも製品は大成功だったことが露呈。コード品質より製品価値やUXが重要で、参入障壁が下がり開発の常識が揺らぐと警鐘を鳴らす。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-02T02:26:05.000Z",
+      "contentHash": "79bbe49bdb15"
+    },
+    {
+      "id": "e4a6da367035",
+      "title": "Weather.com/Retro",
+      "url": "https://weather.com/retro/",
+      "summary": "現在56°Fで近くににわか雨。湿度86%、視程9マイル、気圧30.01in上昇。今夜は曇りで小雨の可能性（最低約50°F、降水確率70%、北西風5–10mph）。明日は部分的に晴れ最高約65°F。金曜は晴れて約76°F、土日さらに高く土85°F・日86°F。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-02T01:48:18.000Z",
+      "contentHash": "129dfb471935"
+    },
     {
       "id": "476be74091fa",
       "title": "【Rails × GraphQL × Next.js】技術研修でタスク管理アプリを作りました | mofmof inc.のフィード",
@@ -83,6 +218,15 @@
       "contentHash": "9cc2e482b7ce"
     },
     {
+      "id": "99bbdd937fee",
+      "title": "Quantum computing bombshells that are not April Fools",
+      "url": "https://scottaaronson.blog/?p=9665",
+      "summary": "今週、量子計算で二件の衝撃発表。Caltechは高率符号で誤り耐性のオーバーヘッドを大幅削減。Googleは256ビット楕円曲線を破る低オーバーヘッドなショア回路をZK証明で公表。両者で必要物理量子ビットは約2.5万と推定され、暗号の量子耐性化が急務となった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-02T00:24:43.000Z",
+      "contentHash": "9124e1718e59"
+    },
+    {
       "id": "aae5fc884928",
       "title": "松江データセンターパーク 新棟開設からの運用状況 | IIJ Engineers Blog",
       "url": "https://eng-blog.iij.ad.jp/archives/35744",
@@ -101,13 +245,22 @@
       "contentHash": "50006d956374"
     },
     {
+      "id": "76cf7fb7ace8",
+      "title": "A new C++ back end for ocamlc",
+      "url": "https://github.com/ocaml/ocaml/pull/14701",
+      "summary": "ocaml/ocaml の GitHubページの表示内容。フォークやスター数、Issues/PRなどの概要と、プルリクエスト関連のチャネル情報を含む内部JSONペイロードが掲載されている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-01T23:35:02.000Z",
+      "contentHash": "b834130c1aa7"
+    },
+    {
       "id": "cb653275a980",
       "title": "CaP-X の概要",
       "url": "https://note.com/npaka/n/n4d455116fc10",
-      "summary": "CaP-Xは、LLM/VLMが生成するコードでロボットを動かすCode-as-Policyの評価・改善フレームワーク。CaP-Gym/Bench/Agent0/RLの4要素で抽象化の重要性を示し、Agent0は推論だけで高性能、CaP-RLは実行結果でコード生成モデルを強化学習で改善する。",
+      "summary": "CaP-Xは、LLM/VLMにロボット操作用のコードを生成・実行させるCode-as-Policyのフレームワーク。CaP-Gym（環境）、CaP-Bench（8階層ベンチ）、CaP-Agent0（学習不要の多段コード修正で一部タスクは人手並み）、CaP-RL（コード生成を強化学習で改善）で構成。高レベルな抽象APIが性能向上に重要と示された。",
       "source": "npaka",
       "publishedAt": "2026-04-01T23:21:09.000Z",
-      "contentHash": "5c5fab121dfd"
+      "contentHash": "741bf6f9cf41"
     },
     {
       "id": "e1338a853d31",
@@ -126,6 +279,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-01T22:38:25.000Z",
       "contentHash": "955a91903662"
+    },
+    {
+      "id": "55d03fe0ded6",
+      "title": "Swappa.com for GrapheneOS compatible devices – Stay Away",
+      "url": "https://discuss.grapheneos.org/d/33727-swappacom-for-grapheneos-compatible-devices-stay-away",
+      "summary": "Swappaで「Unlocked」と記載の中古Pixelを3台購入したが全てブートローダー解除不可で返金手数料を損失。Swappaの出品管理を批判し、GrapheneOS対応端末の入手先を募る。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-01T21:59:14.000Z",
+      "contentHash": "e9bb86027a5e"
     },
     {
       "id": "f68887fa44f1",
@@ -1121,10 +1283,10 @@
       "id": "be9ca20e151a",
       "title": "Multitask DiT Policy の概要",
       "url": "https://note.com/npaka/n/nec8bdd6bbacd",
-      "summary": "Multitask DiT Policyは画像・言語・ロボット状態を条件に未来の行動列をまとめて生成するマルチタスク制御ポリシーです。Diffusion Policy系のTransformer(DiT)とCLIPエンコーダを用い、diffusionとflow matching両方を学習目標に採用。LeRobotで約450M規模の実装です。",
+      "summary": "Multitask DiT Policyは画像・言語・ロボット状態を条件に未来の行動列を一括生成するマルチタスク制御モデル。CLIPエンコーダとTransformerベースのDiTを用い、Diffusion／Flow Matchingで学習。LeRobot実装（約450M）、DDPM/DDIMやhorizon等の設定をサポート。",
       "source": "npaka",
       "publishedAt": "2026-03-31T06:13:26.000Z",
-      "contentHash": "b5101744fe31"
+      "contentHash": "d66b2ecc68f3"
     },
     {
       "id": "52a49b8215a2",
@@ -8838,168 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-03-16T10:24:02.000Z",
       "contentHash": "56d8f7992f2b"
-    },
-    {
-      "id": "23fe3e52e9a8",
-      "title": "【Databricks】- Free Edtionの始め方 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/f9fe10b4e1bf87",
-      "summary": "Databricks Free Editionの始め方を手順（サイトへアクセス→無料サインアップ→ログイン→リージョン指定→待機→確認）で説明。Free版は無料だがサーバーレスのみ、GPU不可、クラスター設定や管理機能、SSO等に制限があり、SQL/WarehouseやJobsなど利用上限がある点に注意。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T10:20:26.000Z",
-      "contentHash": "49def49a9c2c"
-    },
-    {
-      "id": "71f45cbbf2e2",
-      "title": "【Microsoft Foundry】リソース削除後に同名作成できないときの対処 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/86ac35f1fb633d",
-      "summary": "Microsoft Foundryのリソースはソフトデリート（論理削除）で一定期間「削除済み（復元可能）」として残るため、見た目は消えても同名で再作成できない。再作成するにはFoundryの「削除済みリソース管理」から該当を明示的に完全削除する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T10:12:30.000Z",
-      "contentHash": "c76cdbe8391b"
-    },
-    {
-      "id": "79735f66f5ec",
-      "title": "SASのいろいろ10（SAS日付と時間の変換など） | 分析屋",
-      "url": "https://note.com/bunsekiya_tech/n/na347e02b93be",
-      "summary": "SASでの日付・時刻変換を解説。today()/date(), time(), datetime()で現在値を取得し、put/inputと各種フォーマット(yymmdd10., time5./8., anydtdtm., E8601DT19.など)で文字列⇔SAS日付に変換。日付と時刻の結合は空白か\"T\"で可。yymmddsで区切りを\"/\"に変更。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T10:07:50.000Z",
-      "contentHash": "d3af4bc46af8"
-    },
-    {
-      "id": "a1c872b91136",
-      "title": "My fitness tracker is a secret weapon against my chronic illness",
-      "url": "https://www.theverge.com/features/889835/fitness-trackers-chronic-illness-visible-whoop",
-      "summary": "慢性疾患の患者がフィットネストラッカーを「秘密兵器」として活用。長引くコロナやPOTSなどで心拍や活動を記録し、発作やクラッシュの予兆把握やペース配分、医療データに役立てている。著者も自転車での急な体調悪化を経験し利用を始めた。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-16T10:00:00.000Z",
-      "contentHash": "24db5f1816aa"
-    },
-    {
-      "id": "1d9f63548ce9",
-      "title": "JaSST'25 全拠点の特色やレポート記事をまとめます！ | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n45529c459e04",
-      "summary": "SHIFTの石井がJaSST'25全拠点に統一テーマで出展し、各地の特色を比較・発信。Tokyoは約2,250人の国内最大規模で多彩なセッションと大規模プロジェクトの品質管理登壇、Tohokuは約70人でワークショップ中心、生成AIを使ったテスト観点育成を録画登壇。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T09:58:36.000Z",
-      "contentHash": "1c496b883638"
-    },
-    {
-      "id": "01b234504cb7",
-      "title": "JaSST'25 Tokai 講演レポート「自動テストの未来を拓く思考の羅針盤」（山口鉄平氏） | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/nad34948b0926",
-      "summary": "JaSST'25 Tokaiで山口鉄平氏が「自動テストの未来を拓く思考の羅針盤」を講演。技術より「どう考えるか」「問いの立て方」に焦点を当て、自身のキャリア遍歴や自動テスト改善事例、AI時代の展望と実践的な問いを提示した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T09:54:06.000Z",
-      "contentHash": "5e9db771009d"
-    },
-    {
-      "id": "2104f85638a9",
-      "title": "Isaac Sim OmniGraph 入門",
-      "url": "https://note.com/npaka/n/ncb37099dd155",
-      "summary": "NVIDIA Isaac Simのビジュアルプログラミング機能OmniGraphを解説。ノード・ポート・接続でロボット制御・センサー・ROS2等の処理フローを構築。Action Graphはイベント用で、Jetbotを例に環境準備、ノード配置（On Playback Tick等）、プロパティ設定、接続、再生によるシミュレーション実行手順を示す。",
-      "source": "npaka",
-      "publishedAt": "2026-03-16T09:41:39.000Z",
-      "contentHash": "2fdc5b7aba28"
-    },
-    {
-      "id": "256ea81987fc",
-      "title": "運用スクリプトのお作法：argparseとバリデーションで安全なスクリプトを作る | FURYU Tech Blog - フリュー株式会社",
-      "url": "https://tech.furyu.jp/entry/2026/03/16/180937",
-      "summary": "S3大量オブジェクト取得でPaginatorを使い1,000件超を網羅。課金削減のためAPI呼び出し前にargparseでフェイルファストな入力検証（カスタム日付型やtype=int）。入出力は厳格に、内部はstrにキャストして柔軟に処理。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T09:09:37.000Z",
-      "contentHash": "b6b30b28c7df"
-    },
-    {
-      "id": "b24d69d1e349",
-      "title": "Figma MCP × GitHub CopilotでReact UI実装してわかった実践Tips | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/2c537cb07d5cb2",
-      "summary": "Figma MCPでデザインを構造化し、GitHub CopilotでReact UIを生成するワークフローを紹介。Auto layout/Variantsや命名・トークン化で精度向上、カスタム指示で生成を安定化。利点は実装速度と認識齟齬の削減、欠点は設計品質依存と生成コードのばらつき。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T08:40:18.000Z",
-      "contentHash": "af5aea65210f"
-    },
-    {
-      "id": "e4f9ec14b283",
-      "title": "既存EC2の情報からCloudFormationを自動生成してEC2を再構築する方法 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/auto-gen-cfn-ec2-v2",
-      "summary": "既存EC2の情報からCloudFormationテンプレートを自動生成し、新しいEC2を作成するツールを紹介。新規ENI作成で既存EC2を削除不要。Python3/boto3/AWS CLI等が前提で、EC2情報をCSV化→編集→CFN YAML生成→展開する。取得パラメータは限定的で、利用は自己責任。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T07:13:24.000Z",
-      "contentHash": "0dbab2764124"
-    },
-    {
-      "id": "62ab48cb4aae",
-      "title": "Google AI Dojo: 最新AIスキルを習得！実践型ハンズオンプログラム 2026年第一回開催（４月２日〜） | Google Developers Japan",
-      "url": "https://developers-jp.googleblog.com/2026/03/google-ai-dojo-ai-2026.html",
-      "summary": "「Google AI Dojo」はAIの基礎から既存アプリへの統合まで実践的に学べるデベロッパー向けラボシリーズ。4月2〜6日にラボを実施し、4月17日に表彰式とLT会を行う。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T06:50:00.000Z",
-      "contentHash": "d8d7ac890053"
-    },
-    {
-      "id": "4200d45e5df8",
-      "title": "《お礼と開催報告》2/26 中東エンタメビジネスセミナー＆SHIFT Arabia設立記念ネットワーキングパーティー | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n43df8f278fbb",
-      "summary": "2/26に麻布台ヒルズで「中東エンタメビジネスセミナー＆SHIFT Arabia設立記念パーティ」を開催。日・バーレーン両大使祝辞、現地企業登壇、約200名満員、ハラール提供。SHIFT Arabiaは日本と中東のエンタメの懸け橋を目指し営業代行・調査・ローカライズ等を行い、2027年度の中東テストマーケ予算計上を呼びかけ、情勢の早期正常化を祈る。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T06:13:38.000Z",
-      "contentHash": "dacc25a5abca"
-    },
-    {
-      "id": "2ad0096d77bc",
-      "title": "Apple Neural Engine の Private API を叩いて LLM 推論を高速化しようとした話 | SALESCOREテックブログのフィード",
-      "url": "https://zenn.dev/salescore/articles/776dff7a85f781",
-      "summary": "LLM推論高速化を目指し、AppleのANEをPrivate APIで直接叩き手書きMILで検証。25演算・70ベンチを回しSRAMバンク競合を発見・修正。ANEはfp16内部演算、IOSurface経由、チャネルファーストなど制約があり、適用領域を明らかにした。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T06:10:00.000Z",
-      "contentHash": "589f43789b7c"
-    },
-    {
-      "id": "fceaa7bf0816",
-      "title": "【Teams Phone】シリアルルーティングによる「順次鳴動」の設定方法 | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/03/16/150514",
-      "summary": "Teams Phoneの通話キューで着信を順番に1人ずつ鳴らす「シリアルルーティング」の概要と、Teams管理センターでの具体的設定手順（クラシックセットアップで通話キュー作成、ルーティング選択、エージェント警告時間、最大待機時間、タイムアウト時の切断／リダイレクトなど）を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T06:05:14.000Z",
-      "contentHash": "ab536c6389fe"
-    },
-    {
-      "id": "6f3bd2a8ac30",
-      "title": "AAAI-26に参加しました #3 ～本会議で「仮説駆動型AI推論技術」について発表しました～ | fltech - 富士通研究所の技術ブログ",
-      "url": "https://blog.fltech.dev/entry/2026/03/16/AAAI26-Paper-HDR-ja",
-      "summary": "富士通の山田らがAAAI-26で「Hypothesis-Driven Reasoning」を発表。LLMの長期記憶（過去の経験を基に新タスクを解く能力）を評価するため、人工データで異常ラベル付き図形の個数を数える知識転用課題を3段階の難易度で設計し、単純プロンプトでは性能が出ない点を指摘し改善技術を提案しました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T06:03:16.000Z",
-      "contentHash": "c9f72144df77"
-    },
-    {
-      "id": "6643c5aa7efe",
-      "title": "ACKを利用してKubernetesからAWSリソースを制御する | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/ab3fd8aa1aab9c",
-      "summary": "2025年11月発表のEKS Capabilitiesは、ArgoCDやACK等のサードパーティ機能をAWS側でマネージド提供し運用負担を軽減します。ACKはKubernetesからS3やRDS等をCRDで操作でき、従来のHelm管理をまとめて簡単に導入可能（利用に追加費用あり）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T06:00:06.000Z",
-      "contentHash": "5030a54da149"
-    },
-    {
-      "id": "72e506eb36a3",
-      "title": "AIコーディングエージェントにプロジェクト知識を「賢く」持たせる方法 | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/70aec759d10f1e",
-      "summary": "エージェントにプロジェクト固有知識を渡す際、情報がフラットだと誤答やノイズが発生する。解決策はドキュメントを階層化し「ナビゲーター」で領域と参照深度を指示、必要な部分だけ辿らせる方式。再利用可能な知識基盤と実践手順を提示。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T06:00:05.000Z",
-      "contentHash": "1dee48a7823a"
-    },
-    {
-      "id": "c0e6f71b6a55",
-      "title": "同じ作品を3回味わうだけで、思考が深くなる：読む→聴く→観る | RAKUS Developers Blog | ラクス エンジニアブログ",
-      "url": "https://tech-blog.rakus.co.jp/entry/20260316/product-thinking-media-training",
-      "summary": "同じ作品を「読む→聴く→観る」ことで思考を多角化するトレーニング。読むで構造（論理）を、聴くで温度（情緒）を、観るで引き算（直感・表現の取捨）を鍛え、2〜4時間でユーザー理解や余白設計（80%で止める）に活かせる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T06:00:00.000Z",
-      "contentHash": "4b7b0b80805f"
     }
   ]
 }
