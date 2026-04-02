@@ -1,6 +1,231 @@
 {
-  "generatedAt": "2026-04-01T17:18:14.928Z",
+  "generatedAt": "2026-04-02T03:00:15.212Z",
   "items": [
+    {
+      "id": "476be74091fa",
+      "title": "【Rails × GraphQL × Next.js】技術研修でタスク管理アプリを作りました | mofmof inc.のフィード",
+      "url": "https://zenn.dev/mofmof_inc/articles/6fd357b9a40e0b",
+      "summary": "入社後2ヶ月の研修でRails＋GraphQL＋Next.jsのタスク管理アプリを開発。CRUD、期限通知、CSV入出力、検索、ドラッグ並び替え等を実装し、フロント・バック両面や環境構築・デプロイ、スクラムを学ぶ。GraphQLやCD設定に苦労し、AIは補助的に活用。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T01:24:53.000Z",
+      "contentHash": "dbe075e2f615"
+    },
+    {
+      "id": "0d64255f3ec4",
+      "title": "DAのABテスト業務をAIで加速する ── 実験設計レビューの自動化 | Timee Product Team Blog",
+      "url": "https://tech.timee.co.jp/entry/2026/04/02/101547",
+      "summary": "タイミーのDAチームがClaude/CursorでABテストの実験設計レビューを自動化。SUTVA等6項目のチェックリストをAIに読み込ませ、網羅的な下書きレビューを出力。AIは品質の下限を保証し、最終判断は人が行う運用で回転数向上を図る。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T01:15:47.000Z",
+      "contentHash": "20133fb7785e"
+    },
+    {
+      "id": "1587a8f702b4",
+      "title": "Google Cloud の構成図を Cursor で draw.io に書いてみた | クラウドエース株式会社さんのフィード",
+      "url": "https://zenn.dev/cloud_ace/articles/7f255864f911ee",
+      "summary": "クラウドエースの喜村氏が、Cursorとdraw.ioのMCPを連携し、プロンプトでGoogle Cloudの構成図を自動生成する手順、設定例、公式アイコン化やプロンプトのコツを紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T01:05:22.000Z",
+      "contentHash": "0e321f2e5ea0"
+    },
+    {
+      "id": "a7a9ad0f21c9",
+      "title": "「やりたいなら自分で立ち上げればいい」入社4年目で大規模案件のPLを担う若手SEが語る、日立の圧倒的裁量 | Qiita Zine",
+      "url": "https://qiita.com/official-columns/interview/202604-hitachi/",
+      "summary": "日立の若手SE・坂本翔は入社4年目で官公庁向け大規模案件のPLを担当。NetApp等他社製品を日立品質で統合し、生成AI等も活用しながら年次に関係なく挑戦できる裁量と支援のある環境を語る。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T01:00:31.000Z",
+      "contentHash": "a7b211287870"
+    },
+    {
+      "id": "e149e9ed6ac8",
+      "title": "アンドパッドのCREがTamachi.sre#3で発表してきました！ | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/04/02/100000",
+      "summary": "アンドパッドCREの島根が2026/03/19のTamachi.sre#3で「極端に遅いリクエストとの戦い」を発表。事業影響やCREが担う意義、Datadogを使った自動集計事例を紹介。会場はIVRyで反響良好。CRE採用も実施中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T01:00:00.000Z",
+      "contentHash": "578dfb512bd8"
+    },
+    {
+      "id": "77deef65d6fc",
+      "title": "第2回：堅牢な広告計測データ基盤とはなにか - CAPI, sGTM, SGW  | Dentsu Digital Tech Blog",
+      "url": "https://note.com/dd_techblog/n/n74905fb88658",
+      "summary": "堅牢な広告計測策として、個人情報をハッシュ化して送るConversion API、1stパーティ通信を実現するServer Side GTM/Meta Signals Gateway、安定配信のGoogle Tag Gateway導入を推奨。3rdパーティCookie依存は脆弱で、実装には開発と法令遵守が必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T01:00:00.000Z",
+      "contentHash": "053a4531f2ca"
+    },
+    {
+      "id": "6b489fc48718",
+      "title": "OSS LGTMスタック運用の視点で読み解く、Grafana Observability CON 2026 Tokyo 参加レポート | OPTiM TECH BLOG",
+      "url": "https://tech-blog.optim.co.jp/entry/2026/04/02/100000",
+      "summary": "Grafana Observability CON 2026参加報告。Grafana Cloudは可視化から進化し、Knowledge Graph＋RCA Workbenchで構成とシグナルを結び根本原因特定、Grafana Assistant等のAIで運用支援。Adaptive TelemetryやInstrumentation Hubで導入・コスト最適化も提唱。OSS LGTM運用への応用を検討。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T01:00:00.000Z",
+      "contentHash": "3c05f642402f"
+    },
+    {
+      "id": "394a12772aa9",
+      "title": "AWS CloudTrail ログを BigQuery 上で分析できるようにしました | PR TIMES 開発者ブログ",
+      "url": "https://developers.prtimes.jp/2026/04/02/cloudtrail-bigquery/",
+      "summary": "PR TIMESがAWS CloudTrailの監査ログをS3→BigQueryへ移行。DTSでJSON配列の中間テーブルに取り込み、スケジュールクエリで整形して本テーブルへ挿入。直接転送のスキーマ不一致を回避し、分析基盤を一元化・安定化した事例。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T01:00:00.000Z",
+      "contentHash": "f6fcb3a8a764"
+    },
+    {
+      "id": "ca8b190db840",
+      "title": "ARM64 OSを作ろう (4) ～ 時限待ちとセマフォ | VA Linux エンジニアブログ  ",
+      "url": "https://www.valinux.co.jp/blog/entry/20260402",
+      "summary": "ARM64向けOSでタスクの時限待ちとセマフォを実装。TaskControlにstate(READY/BLOCKED)とexpireを持たせ、SnoozeでBLOCKEDにしてタイマ割り込みでexpireをデクリメントし0でREADY復帰。READYが無ければwfi命令を使うアイドルタスクを実行。コードはGitHub公開。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T01:00:00.000Z",
+      "contentHash": "9cc2e482b7ce"
+    },
+    {
+      "id": "aae5fc884928",
+      "title": "松江データセンターパーク 新棟開設からの運用状況 | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/35744",
+      "summary": "IIJの松江データセンターパークに新棟（システムモジュール棟）が竣工して約9カ月。この記事は、竣工後に同データセンターで行われている実際の運用の様子を紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-02T00:23:46.000Z",
+      "contentHash": "af3373f1093f"
+    },
+    {
+      "id": "acf1b53e6300",
+      "title": "Trump’s birthright citizenship ban may fail — but the administration already got too far",
+      "url": "https://www.theverge.com/policy/905649/trump-supreme-court-birthright-citizenship-scotus-arguments",
+      "summary": "最高裁がトランプの2025年出生地主義禁止令をめぐる訴訟（Trump v. Barbara）を審理。判事は懐疑的だが、審理自体が排外主義の勢力拡大を示す。第14条は明確で、トランプはこれを覆し無国籍に近い新たな下層を生み出そうとしている。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-01T23:39:15.000Z",
+      "contentHash": "50006d956374"
+    },
+    {
+      "id": "cb653275a980",
+      "title": "CaP-X の概要",
+      "url": "https://note.com/npaka/n/n4d455116fc10",
+      "summary": "CaP-Xは、LLM/VLMが生成するコードでロボットを動かすCode-as-Policyの評価・改善フレームワーク。CaP-Gym/Bench/Agent0/RLの4要素で抽象化の重要性を示し、Agent0は推論だけで高性能、CaP-RLは実行結果でコード生成モデルを強化学習で改善する。",
+      "source": "npaka",
+      "publishedAt": "2026-04-01T23:21:09.000Z",
+      "contentHash": "5c5fab121dfd"
+    },
+    {
+      "id": "e1338a853d31",
+      "title": "NASA launches four astronauts toward the Moon on the Artemis II mission",
+      "url": "https://www.theverge.com/science/904458/nasa-artemis-ii-mission-moon-astronauts",
+      "summary": "NASAはアルテミスIIを打ち上げ、リード・ウィズマン、ビクター・グローバー、クリスティーナ・コッホ、カナダのジェレミー・ハンセンの4人がオリオンで10日間の月周回へ向かった。有人SLSの初飛行で月周回は1972年以来初。2月のヘリウム供給問題で一時延期があった。アルテミスIIIの月着陸計画は後ろ倒しに。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-01T22:44:30.000Z",
+      "contentHash": "d9c9ac120df2"
+    },
+    {
+      "id": "8ccca32bb893",
+      "title": "Artemis II lifts off: four astronauts begin 10-day lunar mission",
+      "url": "https://www.theguardian.com/science/live/2026/apr/01/artemis-ii-launch-nasa-orion-moon-trip-live-updates",
+      "summary": "NASAは有人ミッションArtemis IIを打ち上げ、4人の宇宙飛行士が10日間の月周回試験飛行を開始した。着陸はせず、初の女性と有色人種が地月間（シスルナー）へ向かい、オリオンは人類史上最遠へ到達する可能性がある。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-01T22:38:25.000Z",
+      "contentHash": "955a91903662"
+    },
+    {
+      "id": "f68887fa44f1",
+      "title": "DRAM pricing is killing the hobbyist SBC market",
+      "url": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/",
+      "summary": "DRAM価格高騰で趣味向けSBC市場が危機。Raspberry PiがLPDDR4機を値上げ（3GB Pi4 $83.75、16GB Pi5 $299.99）し、LPDDRが基板コストの大部分に。高容量機は手が届かず新製品減少、筆者は旧機種やマイコンへ回帰。将来の回復は不透明。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-01T21:36:41.000Z",
+      "contentHash": "c7b21cb7c426"
+    },
+    {
+      "id": "144c87e5217b",
+      "title": "The Artemis Moon base project is legally dubious",
+      "url": "https://www.theverge.com/science/905406/artemis-ii-moon-base-law",
+      "summary": "NASAのArtemis IIが月帰還を再始動する一方、将来の月面基地や資源利用をめぐり、米国の方針や協定が領有禁止など既存の宇宙条約と抵触する可能性が指摘され、国際的な法整備が求められている。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-01T19:05:23.000Z",
+      "contentHash": "cc530c80fba5"
+    },
+    {
+      "id": "9e49cf494355",
+      "title": "Apple at 50",
+      "url": "https://www.apple.com/",
+      "summary": "50年の「Think Different」。過去を振り返りつつ常に未来を見据え、人々の生活を豊かにする道具と体験を創り続けてきた。これまでを祝いつつ、共に未来へ進む決意を新たにする。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-01T18:48:30.000Z",
+      "contentHash": "b305e5a49b16"
+    },
+    {
+      "id": "54e05a551df3",
+      "title": "Everything is iPhone now",
+      "url": "https://www.theverge.com/tech/905398/apple-iphone-anniversary-jobs-release",
+      "summary": "Nilay Patelは、iPhoneが登場して以来、Appleの軸を成し世界を根本的に変えたと論じる。iPhoneの影響とAppleの変遷を振り返る、50周年特集の記事。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-01T18:02:52.000Z",
+      "contentHash": "3cab008cc891"
+    },
+    {
+      "id": "de7f801b2294",
+      "title": "April Fools’ Day 2026: the best and cringiest pranks",
+      "url": "https://www.theverge.com/tldr/904346/april-fools-day-2026-pranks-jokes-best-worst",
+      "summary": "2026年のエイプリルフールは企業の失敗が目立つ。対応は①何もしない②冗談を実現する③最初から冗談と明示する④顧客を騙す嘘は避ける、が良策。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-01T17:59:04.000Z",
+      "contentHash": "3577d10e739b"
+    },
+    {
+      "id": "c664453f05bb",
+      "title": "Ukrainian drone holds position for 6 weeks",
+      "url": "https://defenceleaders.com/news/ukrainian-combat-robot-holds-frontline-position-for-six-weeks-in-sign-of-growing-ugv-maturity/",
+      "summary": "英国は、イランのミサイル・ドローン攻撃が3,500件を超えたことを受け、スカイセイバー防空システムを湾岸3カ国に緊急配備し、タイフーン戦闘機の展開を延長した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-01T17:57:40.000Z",
+      "contentHash": "c91fa6521e23"
+    },
+    {
+      "id": "1c1a2256a43f",
+      "title": "Kia&#8217;s compact EV3 is coming to the US this year, with 320 miles of range",
+      "url": "https://www.theverge.com/transportation/905363/kia-ev3-north-america-launch",
+      "summary": "KiaはコンパクトEV SUV「EV3」を米国で2026年末発売予定。海外発売中の現行モデルをベースにセンターコンソールを改良し、光沢黒の「Nightfall」仕様追加。航続は標準220マイル／長距離320マイル、長距離はAWD選択可。バッテリーで外部機器や家屋への給電（V2L）にも対応。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-01T17:50:15.000Z",
+      "contentHash": "b0ef2fcef1a0"
+    },
+    {
+      "id": "4e8d34380d40",
+      "title": "SpaceX files to go public",
+      "url": "https://www.nytimes.com/2026/04/01/technology/spacex-ipo-elon-musk.html",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文をここに貼るか、主要ポイントを教えていただければ、200字以内で日本語要約を作成します。どちらにしますか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-01T17:49:54.000Z",
+      "contentHash": "a82c4383949a"
+    },
+    {
+      "id": "c2097731ef65",
+      "title": "AI for American-produced cement and concrete",
+      "url": "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/",
+      "summary": "MetaがACI会議に合わせ、米国内生産向けの持続可能なコンクリート配合設計AIモデル「BOxCrete」と基礎データをGitHubで公開。試行錯誤中心の設計を効率化し、輸入セメント依存（約20～25%）の低減を目指す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-01T17:17:24.000Z",
+      "contentHash": "0e8b7f8de168"
+    },
+    {
+      "id": "e5a9b73b3e05",
+      "title": "The Shokz OpenRun Pro 2 are now at their lowest price in months",
+      "url": "https://www.theverge.com/gadgets/905292/shokz-openrun-pro-2-ember-mug-2-deal-sale",
+      "summary": "春のセールで骨伝導ヘッドホンShokzが割引中。4月7日までOpenRun Pro 2がAmazon・Best Buy・公式で139.99ドル（40ドル引き）と数ヶ月ぶりの底値近くに。屋外運動に最適。Ember Mug 2や伸縮式Goliath Power Saberの割引も紹介。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-01T17:11:50.000Z",
+      "contentHash": "f406f50c558b"
+    },
+    {
+      "id": "c099a94f1481",
+      "title": "Live: Artemis II Launch Day Updates",
+      "url": "https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/",
+      "summary": "NASAのアルテミスIIが2026年4月1日にフロリダから打ち上げられ、リード・ワイズマン、ビクター・グローバー、クリスティーナ・コッホ、ジェレミー・ハンセンの4名が搭乗し月周回約10日のミッションへ。オリオン「Integrity」の太陽電池翼4枚が展開・発電を開始し、次は近地点・遠地点上昇噴射（PRM/ARB）で深宇宙運用へ準備する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-01T17:11:31.000Z",
+      "contentHash": "3b32214194b8"
+    },
     {
       "id": "a441b4ef04dc",
       "title": "I tested a living room full of cheap Ikea speakers against Sonos and Bose",
@@ -14,10 +239,28 @@
       "id": "c804d482770c",
       "title": "Snapchat&#8217;s &#8216;Reals&#8217; joke mocks Instagram&#8217;s many ripoffs",
       "url": "https://www.theverge.com/tech/905272/snapchat-reals-spotlight-instagram-feed-april-fools-day-2026",
-      "summary": "Snapがエイプリルフール企画でSpotlightを一時的に「Reals」と改名。CEOエヴァン・スピーゲルが「本物の自己表現」を強調し、SnapchatのStoriesやInstagramの模倣を皮肉る形で宣伝した。",
+      "summary": "エイプリルフールにSnapは短尺動画フィードSpotlightを一日限定で「Reals」に改名するジョーク動画を公開。CEOエヴァン・スピーゲルがSnapchatの「本物志向」やStoriesの起源を強調し、Instagramの模倣を皮肉った。",
       "source": "The Verge",
       "publishedAt": "2026-04-01T16:24:37.000Z",
-      "contentHash": "78114f6c67ee"
+      "contentHash": "2e9063eba6aa"
+    },
+    {
+      "id": "6fc85647f3bc",
+      "title": "StepFun 3.5 Flash is #1 cost-effective model for OpenClaw tasks (300 battles)",
+      "url": "https://app.uniclaw.ai/arena?tab=costEffectiveness&via=hn",
+      "summary": "OpenClaw Arenaは、実際のタスクでAIエージェント同士を対戦させ、リーダーボード、バトル結果、モデル統計、可視化で性能を比較・評価するプラットフォームです。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-01T16:17:35.000Z",
+      "contentHash": "92fc76a86c1b"
+    },
+    {
+      "id": "0a0d3e159500",
+      "title": "EmDash – A spiritual successor to WordPress that solves plugin security",
+      "url": "https://blog.cloudflare.com/emdash-wordpress/",
+      "summary": "EmDashはWordPressの精神的後継CMS。TypeScript製でサーバーレス（任意環境で可）、プラグインをDynamic Workersで隔離して安全化。Astro採用、MITでOSS化。v0.1.0プレビューはCloudflareやNode.jsへデプロイ可能。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-01T16:14:38.000Z",
+      "contentHash": "6ee3727e8f60"
     },
     {
       "id": "66deea24661f",
@@ -27,6 +270,15 @@
       "source": "The Verge",
       "publishedAt": "2026-04-01T15:55:39.000Z",
       "contentHash": "e06c5554a5df"
+    },
+    {
+      "id": "da2c5cd207af",
+      "title": "The OpenAI graveyard: All the deals and products that haven't happened",
+      "url": "https://www.forbes.com/sites/phoebeliu/2026/03/31/openai-graveyard-deals-and-products-havent-happened-openai/",
+      "summary": "ForbesはOpenAIが発表した多数の提携案や製品計画が実現していない「墓場」を検証。具体例と時系列で未達成案件を列挙し、過度な宣伝や透明性欠如への懸念と批判的反応を紹介している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-01T15:55:30.000Z",
+      "contentHash": "7e17cbf353ea"
     },
     {
       "id": "e6b4d9afb961",
@@ -54,15 +306,6 @@
       "source": "The Verge",
       "publishedAt": "2026-04-01T14:44:38.000Z",
       "contentHash": "a012f83a1c07"
-    },
-    {
-      "id": "de7f801b2294",
-      "title": "April Fools’ Day 2026: the best and cringiest pranks",
-      "url": "https://www.theverge.com/tldr/904346/april-fools-day-2026-pranks-jokes-best-worst",
-      "summary": "記事はエイプリルフール2026を扱い、企業の選択肢を提示：①何もしない②ネタを実際に実現する③最初から冗談と明示する④顧客を騙す（最悪）と警告。カプコンの動画例も紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-01T14:44:22.000Z",
-      "contentHash": "a8fdee9a61c5"
     },
     {
       "id": "4e80a83de3e3",
@@ -1913,10 +2156,10 @@
       "id": "5a785e047d57",
       "title": "VLM でスーパーマリオをクリアするのはなぜ難しいのか",
       "url": "https://note.com/npaka/n/n174a2c93441c",
-      "summary": "VLMは物や危険を認識し高レベル判断は得意だが、マリオのような数フレーム単位の精密な操作、長期報酬の最適化、探索や動的予測、低レベル操作指示が苦手で単体ではクリア困難。RLが制御学習に強く、VLMは補助役として有用。",
+      "summary": "VLMは画像・言語理解に強いが、マリオで必要な「数フレーム単位の精密な操作」「長期報酬の最適化」「探索」「物理予測」「低レベル命令の実行」が苦手なため攻略が難しい。VLMは高レベルの場面把握や指示には有用で、RLなど行動学習と組み合わせて補助的に使うのが現実的。",
       "source": "npaka",
       "publishedAt": "2026-03-29T08:22:18.000Z",
-      "contentHash": "be51ddb1fcc5"
+      "contentHash": "ae7f31eb64e8"
     },
     {
       "id": "26e5d1caacee",
@@ -2129,10 +2372,10 @@
       "id": "cb8ab6503597",
       "title": "VLA のActionと学習手順、主要モデルの違い",
       "url": "https://note.com/npaka/n/nefad2c5dfd7e",
-      "summary": "VLAは画像・言語・ロボット状態を入力に行動を出力するモデルで、関節空間・手先空間・スキルなど出力形式が設計・学習・適応を左右する。OpenVLA（7B、970kエピソード事前学習）やπ0/SmolVLAなど主要手法の違いを整理し、VLAは観測–実行ループで繰り返し動作する点を強調している。",
+      "summary": "VLAは画像・言語・ロボット状態を入力し行動を出力するモデルで、Action定義（関節空間・手先空間・スキル）が設計・データ収集・学習・移植性を左右する。OpenVLAやπ0等の主要流派と学習手順を整理。",
       "source": "npaka",
       "publishedAt": "2026-03-28T12:11:38.000Z",
-      "contentHash": "85b78589be11"
+      "contentHash": "c717771f2212"
     },
     {
       "id": "5b0696977116",
@@ -2264,10 +2507,10 @@
       "id": "1c31dca652a4",
       "title": "Codex Plugins 入門",
       "url": "https://note.com/npaka/n/n2b8806c271b3",
-      "summary": "Codex PluginsはSkill/App/MCP serverをまとめたインストール可能なパッケージで、単なる接続ではなく再利用可能なワークフロー単位を配布可能。例としてGmailプラグインは受信分類・要約・返信下書きなどを自動化しCodexと連携できる。",
+      "summary": "Codex PluginsはSkill・App・MCP serverをまとめて導入・配布するインストール可能なパッケージで、単なる接続ではなく「ワークフローの配布単位」を提供します。例：Gmailプラグインは受信整理・要約・返信下書きなどのスキルを持ち、Codexに接続して利用可能です。",
       "source": "npaka",
       "publishedAt": "2026-03-28T01:58:55.000Z",
-      "contentHash": "2a1c71247e8a"
+      "contentHash": "dd675046e5c7"
     },
     {
       "id": "91c7b211d493",
@@ -8757,249 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-16T06:00:00.000Z",
       "contentHash": "4b7b0b80805f"
-    },
-    {
-      "id": "5a746dfc9a40",
-      "title": "言語処理学会第32回年次大会(NLP2026) 参加レポート | LayerX エンジニアブログ",
-      "url": "https://tech.layerx.co.jp/entry/2026/03/16/145839",
-      "summary": "2026年3月9–13日開催の言語処理学会NLP2026にLayerXがプラチナスポンサーで参加。Bakuraku/Ai Workforceを展示し懇親会を実施。FDE/DSの働き方を紹介。注目発表は、対話形式プロンプトでのレビュー生成向上、複数PDF入力で中間文書が抜けやすい問題、品質と機械文検出性を両立するD-PUPPET。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T05:58:39.000Z",
-      "contentHash": "faa4814d872c"
-    },
-    {
-      "id": "48d595503365",
-      "title": "Federal Right to Privacy Act – Draft legislation",
-      "url": "https://righttoprivacyact.github.io",
-      "summary": "車や学校、監視企業、データ業者が行動・顔・健康記録などを無断で収集・連携・売買し「影のプロファイル」を作る。政府もデータを購入できる現状は自由の侵害であり、監視や隠密収集、強制的同意、データ取引や政府の迂回を厳しく制限する法案が必要だ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-16T01:58:56.000Z",
-      "contentHash": "52bc6af79bde"
-    },
-    {
-      "id": "c39e8e513929",
-      "title": "JANOG57 Meeting in OSAKAに初めて参加してきました！ | IIJ Engineers Blog",
-      "url": "https://eng-blog.iij.ad.jp/archives/35458",
-      "summary": "IIJのk-maiseiが自己紹介。普段は名古屋支社で営業を担当し、セレクトジョブで広報部を兼務中。今回は「JANOGとは？」から話を始めるという趣旨の紹介記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T01:26:37.000Z",
-      "contentHash": "d1572f31d1e9"
-    },
-    {
-      "id": "c993f9f94dc0",
-      "title": "How I write software with LLMs",
-      "url": "https://www.stavros.io/posts/how-i-write-software-with-llms/",
-      "summary": "著者はプログラミング自体ではなく物作りが好きで、LLMの進化により低欠陥で迅速にものを作れるようになったと述べる。技能は実装から設計や技術選択へ移り、理解不足の分野では品質が落ちる。ワークフローと実例を紹介。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-16T01:24:09.000Z",
-      "contentHash": "3426b4d94044"
-    },
-    {
-      "id": "63befeec009c",
-      "title": "Docker 版 Isaac Sim の表示方法 - X11 と Streaming Client の違い",
-      "url": "https://note.com/npaka/n/n8bcb6e1f56e3",
-      "summary": "Dockerは実行基盤で、表示はX11かStreaming Clientの2通り。X11はコンテナ内で動きつつホストのXに直接GUI表示されローカル開発向け（環境依存）。StreamingはheadlessでWebRTCクライアント経由のリモート/GPU向けだが別クライアントやネットワーク設定が必要。",
-      "source": "npaka",
-      "publishedAt": "2026-03-16T01:18:51.000Z",
-      "contentHash": "81bcd241b490"
-    },
-    {
-      "id": "fe84836a11f1",
-      "title": "What is agentic engineering?",
-      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/",
-      "summary": "エージェント的エンジニアリングは、コードを書き実行できるコーディングエージェント（例：Claude Code、Codex）がLLMとツールを使い目標達成まで反復する手法。実行能力が鍵で、人は要求定義やツール準備、選択肢の判断・検証・反復を担う。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-16T01:07:47.000Z",
-      "contentHash": "6418c2219f59"
-    },
-    {
-      "id": "a9d63ef61d02",
-      "title": "Gemini Embedding 2 を使ってみた〜テキスト・画像・音声・動画・PDFの類似度比較〜 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-      "url": "https://recruit.group.gmo/engineer/jisedai/blog/gemini-embedding-2/",
-      "summary": "GoogleのGemini Embedding 2は、テキスト・画像・音声・動画・PDFを同一埋め込み空間に統合するマルチモーダル埋め込みモデル。RAGで非テキスト情報の活用が可能となり、性能は従来より大幅改善。APIとPython例も紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T01:05:17.000Z",
-      "contentHash": "76f7fb02825f"
-    },
-    {
-      "id": "86cfd760d6a2",
-      "title": "Rails enum のカラム型、integer・string・PostgreSQL native enum をどう選ぶか | タケユー・ウェブ株式会社のフィード",
-      "url": "https://zenn.dev/takeyuwebinc/articles/2fc8a8510f3f1a",
-      "summary": "Railsのenumカラムはinteger・string・PostgreSQLネイティブの3種類。多くのケースではstring型＋CHECK制約が最適とし、Rails7で文字列・PostgreSQL enumが公式サポートされたため各方式の利点と注意点を整理している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T01:00:07.000Z",
-      "contentHash": "b052068cddd5"
-    },
-    {
-      "id": "b5d77caf8c12",
-      "title": "Vol. 24 Bill One開発Unit ブログリレー2025終幕 | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/03/16/100000",
-      "summary": "今村（Bill One開発Unit）が入社1年目の自己紹介を交え、エンジニアやデザイナー、QA、プロダクト責任者らが参加して計24本を執筆した「Bill One開発Unit ブログリレー2025」の実施経緯と内容を振り返りまとめています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T01:00:00.000Z",
-      "contentHash": "a2a5318cf2a5"
-    },
-    {
-      "id": "56e4f14f04b1",
-      "title": "Claude Code SkillsでRailsアップグレードを仕組み化した話 | freee Developers Hub",
-      "url": "https://developers.freee.co.jp/entry/rails-upgrade-by-claude-skills",
-      "summary": "freee請求書チームのエンジニアnuresenが、Claude CodeのSkillsを使ってRailsを7系から8.1へアップデートした記録。大規模プロダクトでの課題や、EOL前を目安に年1～2回程度で定期的にバージョンアップする方針を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T00:30:00.000Z",
-      "contentHash": "468d2d9e7297"
-    },
-    {
-      "id": "f655c9d4c432",
-      "title": "Claude Codeの失敗をバグチケット化して潰す方法 | SIOS Tech Lab",
-      "url": "https://tech-lab.sios.jp/archives/52066",
-      "summary": "毎日Claude Codeと仕事する著者が、同じ失敗や回避行動を検出し、その失敗をバグチケット化して潰す具体的な方法を解説するSIOS Tech Labの記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T00:30:00.000Z",
-      "contentHash": "5edbfbebce11"
-    },
-    {
-      "id": "74b46fc9cf52",
-      "title": "Cannabinoids remove plaque-forming Alzheimer's proteins from brain cells (2016)",
-      "url": "https://www.salk.edu/news-release/cannabinoids-remove-plaque-forming-alzheimers-proteins-from-brain-cells/",
-      "summary": "サルク研究所の予備研究で、THCなどのカンナビノイドが培養ヒト神経細胞で有害なアミロイドβの除去を促し、炎症とアミロイド蓄積に影響することが示された。アルツハイマー治療の手がかりに。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-16T00:22:48.000Z",
-      "contentHash": "0faa1ba33ca9"
-    },
-    {
-      "id": "2e7745185759",
-      "title": "スペック駆動開発をデータ分析にどう実践するか | GO Tech Blog",
-      "url": "https://techblog.goinc.jp/entry/2026/03/16/091349",
-      "summary": "GO社のデータサイエンス責任者・織田が、スペック駆動開発（SDD）をデータ分析へ適用できるか検討。Vibe Codingの問題点（スパゲッティ化、コンテキストドリフト等）を指摘し、探索的プロジェクト向けの実践的アプローチを提案する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T00:13:49.000Z",
-      "contentHash": "248317525b9e"
-    },
-    {
-      "id": "e6baddc67754",
-      "title": "【Microsoft Purview】秘密度ラベルの基本操作 | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/03/16/090706",
-      "summary": "クラウド普及とリモートワークで情報共有が多様化し漏洩リスクが増加。Microsoft Purviewの秘密度ラベルでデータ保護する考え方と、ラベル作成・発行ポリシーによる展開、Wordでの表示確認までの手順を解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T00:07:06.000Z",
-      "contentHash": "19f4aec550ba"
-    },
-    {
-      "id": "304d40cfa438",
-      "title": "なぜ自動テストは「負債」になるのか。Autify Meetup 2026で語られた安定化のポイントと実践ノウハウ | ContractS開発者ブログ",
-      "url": "https://tech.contracts.co.jp/entry/2026/03/16/090020",
-      "summary": "Autify Community Meetupでは、テスト自動化の負債化打破を議論。リグレッションを2週→2日に短縮、録画依存脱却と組織的運用、運用改善でアンチパターンを排除。生デモでハプニングを活かし、ツール活用には運用体制と意識改革が必須と総括。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-16T00:00:20.000Z",
-      "contentHash": "7dfad888bab6"
-    },
-    {
-      "id": "8a8601b30dd9",
-      "title": "Why Codex Security Doesn’t Include a SAST Report",
-      "url": "https://openai.com/index/why-codex-security-doesnt-include-sast",
-      "summary": "従来のSASTに頼らず、AIベースの制約推論と検証で実際の脆弱性を検出し、誤検知を大幅に削減する理由を深掘り。",
-      "source": "OpenAI",
-      "publishedAt": "2026-03-16T00:00:00.000Z",
-      "contentHash": "03d94cacfab8"
-    },
-    {
-      "id": "2f9f1c8201f7",
-      "title": "Nasdaq's Shame",
-      "url": "https://keubiko.substack.com/p/nasdaqs-shame",
-      "summary": "外部サイトに直接アクセスできないため、記事本文を貼り付けていただくか主要箇所を教えてください。いただければ200文字以内の日本語要約を作成します。コメント要約も可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-15T22:16:09.000Z",
-      "contentHash": "098b84264764"
-    },
-    {
-      "id": "d9361fc441b7",
-      "title": "Kangina",
-      "url": "https://en.wikipedia.org/wiki/Kangina",
-      "summary": "カンギナはアフガニスタンの伝統的果実保存法で、泥と藁で作った密閉容器に主にブドウ（タイフィやキシュミシ）を詰め、通気を制御して約6か月ほど新鮮に保つ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-15T22:11:17.000Z",
-      "contentHash": "0bc875205cbf"
-    },
-    {
-      "id": "23557b94a7ba",
-      "title": "Canada's bill C-22 mandates mass metadata surveillance",
-      "url": "https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains/",
-      "summary": "2026年3月、法的アクセス法案C‑22が提出。C‑2で問題化した令状不要の広範な個人情報取得は見直され、通信事業者への捜査アクセスと国内監視整備（SAAIA）を二部構成で規定。過度な対象拡大は撤回されたがバックドア監視の危険は残る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-15T21:22:16.000Z",
-      "contentHash": "346a5d66315c"
-    },
-    {
-      "id": "e50e5f617880",
-      "title": "LLMs can be exhausting",
-      "url": "https://tomjohnell.com/llms-can-be-absolutely-exhausting/",
-      "summary": "長時間ClaudeやCodexと作業すると疲労でプロンプト品質が落ち、途中割り込みや再解析で悪循環になる。大きなファイル処理はフィードバックが遅く文脈枯渇を招き、休んで翌日取り組むと改善することが多い。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-15T20:56:21.000Z",
-      "contentHash": "e33cc1fbfba5"
-    },
-    {
-      "id": "1c8ae2829420",
-      "title": "Aether OS is a computer in a browser built for the AT Protocol",
-      "url": "https://www.theverge.com/tech/895083/aether-os-browser-at-protocol",
-      "summary": "Aether OSはATプロトコル（Bluesky等）と連携するブラウザ内フルデスクトップ。テキスト編集・タスク・SNSやチップチューン、DAW、動画編集など42のアプリを搭載。マトリックス風の外観。現在はアルファで不安定・ドキュメント不十分、暗号化や権限管理がなく公開状態なので注意が必要。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-15T19:35:57.000Z",
-      "contentHash": "2a480ea17090"
-    },
-    {
-      "id": "43c99e1655c8",
-      "title": "The 49MB web page",
-      "url": "https://thatshubham.com/blog/news-audit",
-      "summary": "主要ニュースサイトは極端に重い。NYTで422リクエスト・49MB、読み込みに2分かかりWindows95や音楽アルバム並の容量。クライアント側での広告入札・トラッキングが肥大化し、ハード進化を相殺しているため広告ブロックが必須になっている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-15T19:25:18.000Z",
-      "contentHash": "246da1a502e6"
-    },
-    {
-      "id": "2ade940c0754",
-      "title": "Chrome DevTools MCP (2025)",
-      "url": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
-      "summary": "Chrome DevToolsのMCPサーバーが強化され、コーディングエージェントが現在のブラウザセッションやDevToolsのデバッグセッションに直接接続可能に。既存ログインを再利用してネットワークリクエストや要素を調査でき、ページをコレクションで保存・分類する機能もある。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-15T19:12:53.000Z",
-      "contentHash": "1b8b32e28495"
-    },
-    {
-      "id": "721e22de9d59",
-      "title": "Office.eu launches as Europe's sovereign office platform",
-      "url": "https://office.eu/media/pressrelease-20260304",
-      "summary": "欧州資本のオフィススイート「Office.eu」がハーグで正式ローンチ。オープンソースで欧州インフラ上に稼働し、データ主権とプライバシーを重視。EU法準拠でMS/Googleからの移行支援を提供し、招待制で順次展開。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-15T18:22:36.000Z",
-      "contentHash": "d2bf807ccf22"
-    },
-    {
-      "id": "17d4bc34c82a",
-      "title": "Animated 'Firefly' Reboot in Development from Nathan Fillion, 20th TV",
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/animated-firefly-reboot-in-development-nathan-fillion-1236533089/",
-      "summary": "ネイサン・フィリオンが、20th Television Animationと製作する『Firefly』のアニメ化が初期開発中と発表。Collision33制作でタラ・バッターズとマーク・ガゲンハイムがショーランナー、脚本とShadowMachineと協業したコンセプトアートもあり、TV版と映画『セレニティ』の間の時期を描く。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-15T18:04:34.000Z",
-      "contentHash": "e1998de179d9"
-    },
-    {
-      "id": "bb98fc362995",
-      "title": "Grandparents are glued to their phones [video]",
-      "url": "https://www.bbc.com/reel/video/p0n61dg3/grandparents-are-glued-to-their-phones-families-are-worried",
-      "summary": "チャーリー・ワーゼルは高齢者のスマホ利用増加とそれを心配する子や孫の反応を検証。懸念は妥当か若年層のスクリーン不安の投影かを問い、技術、孤独、家族関係の複雑さを議論する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-15T17:43:19.000Z",
-      "contentHash": "1a37d40f2997"
-    },
-    {
-      "id": "5cbc61c8d7a9",
-      "title": "Stop Sloppypasta",
-      "url": "https://stopsloppypasta.ai/",
-      "summary": "未検証のAI生成文をそのまま転送すると、受け手に精査や対応の手間を押し付け議論を阻害する無礼な行為になる。共有前に要点を絞り、検証・編集してから出すべきだ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-15T17:25:00.000Z",
-      "contentHash": "7212557e6076"
     }
   ]
 }
