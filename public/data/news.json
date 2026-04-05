@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2026-04-04T16:56:20.758Z",
+  "generatedAt": "2026-04-05T03:04:33.573Z",
   "items": [
+    {
+      "id": "420a48de75db",
+      "title": "AWS Engineer Reports PostgreSQL Perf Halved by Linux 7.0, Fix May Not Be Easy",
+      "url": "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop",
+      "summary": "AWSのエンジニアが、Linux 7.0でPostgreSQLのスループットが約半減したと報告。原因はプリエンプションモード制限でユーザースピンロック増加。PREEMPT_NONE復帰は不確実で、作者はPostgreSQLをRSEQで対応すべきと提案。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-05T00:13:55.000Z",
+      "contentHash": "b22bb0f5d0fe"
+    },
+    {
+      "id": "ae79274a9fed",
+      "title": "How many products does Microsoft have named 'Copilot'?",
+      "url": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
+      "summary": "筆者はMicrosoftの「Copilot」名義の製品を全て洗い出し、少なくとも75種類を確認。アプリや機能、プラットフォーム、キーやノートPC分類まで含み、公式一覧がないため公開情報を集めてカテゴリ別の対話式可視化を作成した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-04T19:39:43.000Z",
+      "contentHash": "350ff37f8a3f"
+    },
+    {
+      "id": "88d1f8f187df",
+      "title": "Iranian missile blitz takes down AWS data centers in Bahrain and Dubai",
+      "url": "https://www.tomshardware.com/tech-industry/iranian-missile-blitz-takes-down-aws-data-centers-in-bahrain-and-dubai-amazon-declares-hard-down-status-for-multiple-zones",
+      "summary": "イランのミサイル攻撃でバーレーンとドバイのAWSデータセンターが被害を受け、Amazonは複数のアベイラビリティゾーンを「ハードダウン」と宣言。大規模なサービス障害が発生し、クラウドの冗長性や地政学リスクが問題となっている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-04T18:23:55.000Z",
+      "contentHash": "5d4ed4d0629d"
+    },
+    {
+      "id": "b9dce4b09f76",
+      "title": "Scientists observe an immune signaling complex forming inside cells",
+      "url": "https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research",
+      "summary": "申し訳ありませんが、外部リンク先のページを直接開けません。記事本文をここに貼っていただくか、主要箇所（見出し・リード文・重要段落）を教えてください。貼っていただければ200文字以内で要約します。Hacker Newsのコメントも要約可能です。どちらを希望しますか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-04T17:52:55.000Z",
+      "contentHash": "7a49c29a7746"
+    },
+    {
+      "id": "16a592df6647",
+      "title": "A folk musician became a target for AI fakes and a copyright troll",
+      "url": "https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright",
+      "summary": "フォーク歌手マーフィー・キャンベルはパブリックドメインの民謡を演奏しているのに、AI生成の偽音源や著作権トロールに狙われ、YouTubeが著作権主張を受理。著作権制度の欠陥が浮き彫りに。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-04T17:52:10.000Z",
+      "contentHash": "def336e0cf28"
+    },
+    {
+      "id": "18c6fc83ba6e",
+      "title": "Why the most valuable things you know are things you cannot say",
+      "url": "https://deadneurons.substack.com/p/why-the-most-valuable-things-you",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文か主要抜粋を貼っていただければ、200字以内で日本語要約を作成します。全文でも要点だけでも可です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-04T16:49:40.000Z",
+      "contentHash": "6f0181709ab5"
+    },
+    {
+      "id": "8d794ebe7144",
+      "title": "Show HN: A game where you build a GPU",
+      "url": "https://jaso1024.com/mvidia/",
+      "summary": "GPUアーキテクチャの資料が不足していると感じた投稿者が、参考資料をまとめて公開した投稿。Hacker Newsで支持を集め（526ポイント、138コメント）、活発な議論が起きている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-04T16:45:54.000Z",
+      "contentHash": "7cc9594a8150"
+    },
+    {
+      "id": "752cb4d590dd",
+      "title": "12k AI-generated blog posts added in a single commit",
+      "url": "https://github.com/OneUptime/blog/commit/30cd2384794c897d95aca77d173db44af51ca849",
+      "summary": "OneUptimeのブログにClickHouse、Redis、MongoDB、MySQL、Rook/Ceph、Daprなどを含む12,000件の投稿を追加。Todo.mdの項目（SQL関数、設定ガイド、トラブルシューティング、アーキ比較、SDK、オペレータ展開）を完了し、Blogs.jsonとCodeValidate.jsonを更新。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-04T16:45:31.000Z",
+      "contentHash": "bf191f4547ee"
+    },
+    {
+      "id": "6535f65e3170",
+      "title": "Apple approves driver that lets Nvidia eGPUs work with Arm Macs",
+      "url": "https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs",
+      "summary": "Tiny Corpが開発した、Arm（Apple Silicon）MacでNVIDIA/AMDの外部GPUを動かすドライバがAppleに署名され承認された。ただしNvidia製ではなくTiny製でLLM向け、Dockerでのビルドが必要でプラグアンドプレイ不可。SIP解除は不要。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-04T16:16:10.000Z",
+      "contentHash": "ab349ba64ee1"
+    },
+    {
+      "id": "20872d5c2882",
+      "title": "German men 18-45 need military permit for extended stays abroad",
+      "url": "https://www.dw.com/en/german-men-need-military-permit-for-extended-stays-abroad/a-76662677",
+      "summary": "ドイツで徴兵対象の男性が長期の海外滞在をする際、事前に軍当局の許可が必要になったことを報じる。政府は動員準備や管理目的と説明する一方、差別的で留学・就労に負担を強いると批判が出ている、という内容。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-04T15:39:10.000Z",
+      "contentHash": "06e08de8e601"
+    },
+    {
+      "id": "6c13f2a33f37",
+      "title": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens",
+      "url": "https://sllm.cloud",
+      "summary": "DeepSeek V3（685B）は8×H100で約月$14k。多くは15–25 tok/sで足りる。sllmは専用ノードを共同利用するコホート方式でカードで予約、コホートが埋まるまで課金なし。小型モデルは月$5〜。通信ログを残さず完全プライベート。APIはOpenAI互換（vLLM）でURLを差し替えるだけ。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-04T15:18:58.000Z",
+      "contentHash": "30970664e8a8"
+    },
     {
       "id": "b7f40be3788a",
       "title": "Buy two Nintendo Switch games, get $30 off at Target",
@@ -77,10 +176,10 @@
       "id": "17fc441699e9",
       "title": "imapsync を利用して Amazon WorkMail からの移行をしてみた | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/transfer-from-workmail-to-sakuramailbox",
-      "summary": "AWSがAmazon WorkMailのサポート終了を発表。筆者は個人利用でメール移行が必要になり、公式のS3エクスポートや代替（Zoho等）がある中、メールのみ移すためOSSのimapsyncでIMAP間同期してDNS切替で移行することにした。",
+      "summary": "2026年3月のAmazon WorkMail終了に伴い、OSSのimapsyncでさくらのメールボックスへ移行した実作業を解説。IMAP接続確認方法やDNS切替時の注意点、よくあるハマりどころをまとめています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-04T10:07:23.000Z",
-      "contentHash": "faba0a0d396a"
+      "contentHash": "fdb7eee151a4"
     },
     {
       "id": "5207446367ac",
@@ -104,19 +203,19 @@
       "id": "4b852f04107d",
       "title": "MSI EdgeXpert を工場出荷状態に戻す",
       "url": "https://note.com/npaka/n/n025e42c3d417",
-      "summary": "MSI EdgeXpertを工場出荷状態に戻す手順: DGX Spark OSのISOをダウンロードしてUSBに書き込み、USBから起動(BIOSでBoot Override)、DGX Sparkのインストールを選んでOSを導入する。",
+      "summary": "MSI EdgeXpertを工場出荷状態に戻す作業を実際に試し、その手順と結果をまとめた記事。リセット方法や注意点、詳しい手順は本文に続く。",
       "source": "npaka",
       "publishedAt": "2026-04-04T06:57:36.000Z",
-      "contentHash": "5d24dfd9f2e6"
+      "contentHash": "e10b77839d8c"
     },
     {
       "id": "f8d17701beaa",
       "title": "4コマ漫画は“1本”より“1冊”が面白い-コミタンMが4コマ漫画沼にハマるまで | BOOK☆WALKER inside",
       "url": "https://developers.bookwalker.jp/entry/2026/04/04/150000",
-      "summary": "BOOK☆WALKERの「4コマの日」は、書店員・コミタンMの4コマ愛が発端。1本より1冊を通して読むことで日常の積み重ねが物語になる魅力を伝える。2026年は「ドラマチック」特集で人間ドラマ性を紹介し、購入特典も実施。",
+      "summary": "4月4日はBOOK☆WALKER発の「4コマの日」。4コマを1000冊以上所持する書店員・コミタンMの熱意から始まった企画で、2026年に13回目を迎える。今回はキャンペーン担当のコミタンMに“4コマ推し”になるまでを聞くインタビュー。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-04T06:00:00.000Z",
-      "contentHash": "c2c8ea8f54a0"
+      "contentHash": "4524448501b3"
     },
     {
       "id": "87d594391a88",
@@ -131,10 +230,10 @@
       "id": "f80246d05586",
       "title": "DataFrameを型安全に使うためのライブラリpaviseを作った話 | エムスリーテックブログ",
       "url": "https://www.m3tech.blog/entry/python/pavise",
-      "summary": "paviseというDataFrameを型安全に扱うライブラリを作った話。pandas/polarsは列情報が型に出ず、panderaは有用だがテストで未使用列を埋める必要や依存逆転が課題。paviseはProtocol採用で値制約バリデータやNotRequiredColumnで未存在列を許容し解決する。",
+      "summary": "AI・機械学習チーム北川の記事。pandasやpolarsでDataFrameが持つ列情報をpd.DataFrame/pl.DataFrameの型では表現できず、型ヒントや説明不足に悩む問題を述べている。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-04T02:00:00.000Z",
-      "contentHash": "d6708b61024b"
+      "contentHash": "eff5d87d1f42"
     },
     {
       "id": "dd0b0dddb4d5",
@@ -167,10 +266,10 @@
       "id": "1606dc742faa",
       "title": "Anthropic essentially bans OpenClaw from Claude by making subscribers pay extra",
       "url": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
-      "summary": "Anthropicが4月4日からClaudeのサブスクでOpenClaw等サードパーティの利用をカバーせず、利用は別途の従量課金に。OpenClaw創始者SteinbergerのOpenAI移籍も背景にあり、Anthropicは自社ツール（Claude Cowork）利用を促す可能性。",
+      "summary": "Anthropicは4月4日午後3時ET以降、OpenClawなどサードパーティ製ハーネスでClaudeの購読枠を使えなくし、別途の従量課金制にすると発表。開発者のOpenAI移籍で自社ツール推進との指摘もある。",
       "source": "The Verge",
       "publishedAt": "2026-04-03T23:52:49.000Z",
-      "contentHash": "76e622085c95"
+      "contentHash": "4654c7040f74"
     },
     {
       "id": "7ff8d2fb586a",
@@ -356,10 +455,10 @@
       "id": "f6e9a3cb2d6d",
       "title": "AICore Developer Preview で Gemma 4 を試す",
       "url": "https://note.com/npaka/n/n79383ac828ec",
-      "summary": "2026年4月2日、GoogleがAICore Developer PreviewでGemma 4をAndroid端末で試用可能に。Prompt API対応確認、aicore-experimental参加、Android AICoreベータ導入とモデルDLが必要。Pixel 9はTPU未対応。Android Studioでサンプル作成しgenai-prompt:1.0.0-beta2を使用。対応端末は専用AIアクセラレータで動作、非対応はCPU上で実行。",
+      "summary": "元記事の本文かリンクを貼ってください。現状の情報だけでは要約できません。本文をいただければ200文字以内で要約します。",
       "source": "npaka",
       "publishedAt": "2026-04-03T14:00:51.000Z",
-      "contentHash": "d4866e590285"
+      "contentHash": "01b852b4c307"
     },
     {
       "id": "b8c546b03451",
@@ -410,37 +509,37 @@
       "id": "4f254e7d7065",
       "title": "Claude CodeのAgent Teamsでテクニカルサポート調査を行いやすくする | インゲージ開発者ブログ",
       "url": "https://blog.ingage.jp/entry/2026/04/03/203314",
-      "summary": "CREチームで人手不足からClaude Code導入を試行。単独AIは速いが早合点や論理破綻が問題に。解決策として調査リーダー・批判的レビュアー・コード担当・ログ担当の4役割エージェントで「仮説→調査→論理チェック→再調査」の循環を回し、信頼性を高めた。",
+      "summary": "fujimmm331は週1で走って気分転換。CREチームに所属し、コードやログを調べ顧客の技術問い合わせ（週4〜5件）に対応している。チームは人手が半減し、本人はフロントエンド出身のためバックエンドやインフラを含む全体調査に時間がかかるという状況。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-03T11:33:14.000Z",
-      "contentHash": "089502fb7a57"
+      "contentHash": "154900e314e4"
     },
     {
       "id": "2f8da331e15a",
       "title": "【2026年版】Snowflake入門（7）セキュリティ編・前編 - RBACとポリシー | Snowflake Data Heroesのフィード",
       "url": "https://zenn.dev/dataheroes/articles/d3741aea862e99",
-      "summary": "2026年版Snowflake入門第7回（セキュリティ前編）。RBACやマスキング等ポリシーの設計法、セキュリティを「データ活用の信頼基盤」と位置付ける意義、リスクと投資判断、ロール種類を解説。",
+      "summary": "「2026年版 Snowflake入門」全11回シリーズの第7回「セキュリティ編・前編」。導入検討からコンピュート最適化、セキュリティまでを順に解説する入門記事で、各回の想定読者を明示しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-03T11:22:26.000Z",
-      "contentHash": "f399b1b29bdd"
+      "contentHash": "2e983e95b955"
     },
     {
       "id": "30d37e865d80",
       "title": "ClaudeでSlack×Google Calendarの情報を集約した「自動TODOリスト」を作った話 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/claude-original-todo-list",
-      "summary": "アプリ担当がClaudeのCowork/MCP連携を使い、Slackの「後で」とGoogle Calendarを毎平日9時に自動取得してHTMLのインタラクティブTODOリスト（状態を永続化）に集約。OAuth不要で導入コストが低く、案件別・優先度別に整理する仕組みとプロンプト設計を紹介。",
+      "summary": "遠藤（アプリケーションサービス部）が、Slackの「後で」ブックマークとGoogle Calendarの予定をClaude（Coworkモード）で平日朝9時に自動集約するインタラクティブHTMLのTODOリストを作成。活用法や工夫を解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-03T11:21:39.000Z",
-      "contentHash": "7cf0e7549462"
+      "contentHash": "12b27ee241ee"
     },
     {
       "id": "5c52b3578d1f",
       "title": "GigaViewer の配信基盤を支えるマルチテナントアーキテクチャ | Hatena Developer Blog",
       "url": "https://developer.hatenastaff.com/entry/2026/04/03/200000",
-      "summary": "GigaViewerはサービス固有要件と突発的なトラフィック増に対応するため、CDNをサービス別のサイロ、ロードバランサーとリバースプロキシを共有するプールで組み合わせたブリッジモデルを採用。Terraformで標準化しコスト・運用負荷を削減、スパイク平準化やセキュリティ効率化を実現した。",
+      "summary": "SRE連載3月号。chaya2zがはてなのマンガビューワーGigaViewer（2017年以降20超サービス導入）の技術課題とアーキテクチャを解説。CDNのサイロ型とプール型、境界と移行戦略、橋渡し、オリジン保護、運用の振り返りを論じる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-03T11:00:00.000Z",
-      "contentHash": "61f82853455f"
+      "contentHash": "eb636d747068"
     },
     {
       "id": "a4aa765b8ed2",
@@ -455,28 +554,28 @@
       "id": "f59fc86bb989",
       "title": "認定スクラムマスターになりました！ | CloudNative BLOGs",
       "url": "https://blog.cloudnative.co.jp/articles/certified-scrum-master-achievement/",
-      "summary": "Eimiが認定スクラムマスター（CSM）を取得。スクラムの基本と役割（PO・開発者・SM）を解説。Attractorの3日間研修（22万円、会社負担）を受講し、初心者向けの実践ワークで学んだ経験と社内の資格支援を紹介。",
+      "summary": "認定スクラムマスター（CSM）の資格を取得しました。スクラムの基本概念、CSM研修で学んだ内容、認定試験に関するポイントを整理しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-03T10:27:00.000Z",
-      "contentHash": "7b7d06220d3f"
+      "contentHash": "e729eee0ff53"
     },
     {
       "id": "96b3fdf0af3c",
       "title": "クラウドエンジニア、次の一手をどう打つ？キャリアを広げる3つの方向性 | APC 技術ブログ",
       "url": "https://techblog.ap-com.co.jp/entry/2026/04/03/190000",
-      "summary": "クラウドエンジニアは領域拡大で停滞や器用貧乏に悩む。キャリアの方向性は①専門を深める②隣接技術で横展開③アーキテクト／マネジメントで影響拡大の3つ。資格を戦略的に使い、継続的なアウトプット、社内越境、メンター活用を推奨。",
+      "summary": "クラウドエンジニア向けのキャリア指南。市場は「広くて深い」ため、深化・横展開・影響範囲拡大の三方向で次を考える。資格集めや流行追随、アウトプット不足、一人完結は陥りやすい。対策として資格の戦略的活用、継続的な発信、社内越境などの実践を勧める。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-03T10:00:00.000Z",
-      "contentHash": "256e2781f324"
+      "contentHash": "c83d1f865ad8"
     },
     {
       "id": "e4afd22d1f29",
       "title": "2026年4月技術イベント予定 | Sansan Tech Blog",
       "url": "https://buildersbox.corp-sansan.com/entry/2026/04/03/184000",
-      "summary": "Sansanは2026年4月に複数の技術イベントを主催・共催します。4/21モバイル勉強会、4/22福岡でAI×Mobileとアノテーション実践、4/23関西でデータ活用、4/06に登壇予定。詳細は各ページで確認。",
+      "summary": "Sansanは技術イベントや勉強会の主催・登壇・協賛を行っています。各イベントの詳細はリンク先で確認してください。開催状況により受付終了の場合や、掲載情報が公開当時のままの場合があります。最新情報は各イベントページを参照してください。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-03T09:40:00.000Z",
-      "contentHash": "fde7fe6bdcda"
+      "contentHash": "1961c74f7d76"
     },
     {
       "id": "613d9e429ff2",
@@ -608,10 +707,10 @@
       "id": "b334d06c85bb",
       "title": "Gemma 4 の概要",
       "url": "https://note.com/npaka/n/n240f81855918",
-      "summary": "「Gemma 4」をApache 2.0で公開。E2B/E4B（128k）、26B MoE・31B Dense（256k）など4サイズを提供し、高度な推論・エージェントワークフロー、コード生成、画像・音声処理、長文対応（最大256k）、140以上の言語に対応。",
+      "summary": "記事本文かURLを貼ってください。確認次第、200文字以内で日本語要約を作成します。タイトルのみでよければ、それを基にした推測要約（簡潔版）をすぐ作れますが、正確さは本文次第です。どちらがよいですか？",
       "source": "npaka",
       "publishedAt": "2026-04-02T21:22:05.000Z",
-      "contentHash": "571ccca434aa"
+      "contentHash": "18e739fcba55"
     },
     {
       "id": "29592cfbfcf0",
@@ -4352,10 +4451,10 @@
       "id": "5efd9074b77a",
       "title": "We’re partnering with multiple national teams ahead of soccer’s biggest global showdown.",
       "url": "https://blog.google/company-news/inside-google/company-announcements/soccer-nationalteam-partnerships/",
-      "summary": "この夏のサッカー大会向けに、Googleはアルゼンチンやフランス代表との提携を発表。SearchはAI応答でスコア確認や追問を支援し、Geminiは観戦会の企画や試合画像の作成を手助け。今後も提携を順次発表予定。",
+      "summary": "夏の忘れられないサッカー大会へのカウントダウンが始まり、今年はファンが大会を探索し、刺激を受け、試合をより間近で楽しめるよう支援する取り組みを紹介する。",
       "source": "Gemini",
       "publishedAt": "2026-03-26T20:00:00.000Z",
-      "contentHash": "9d56a1981c8e"
+      "contentHash": "9ac1c5594d5c"
     },
     {
       "id": "036a26faceae",
@@ -4388,10 +4487,10 @@
       "id": "db1a7f4b6615",
       "title": "Make the switch: Bring your AI memories and chat history to Gemini",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-to-gemini-app/",
-      "summary": "Geminiへ他のAIアプリのメモリやチャット履歴を取り込めるようになりました。設定で提案プロンプトの応答を貼るか、履歴のZIPをアップして過去の会話や好みを継続利用可能。順次提供中。",
+      "summary": "Geminiアプリが他のAIチャットアプリからの乗り換えを簡単にし、チャットや設定を一から作り直す必要なく引き継げるようにした。",
       "source": "Gemini",
       "publishedAt": "2026-03-26T19:00:00.000Z",
-      "contentHash": "8cc0b0fa9787"
+      "contentHash": "867ef7373982"
     },
     {
       "id": "05aedee8f5d5",
@@ -8901,105 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-03-17T21:42:39.000Z",
       "contentHash": "9a85c8b6bb39"
-    },
-    {
-      "id": "e83845111157",
-      "title": "Mistral AI Releases Forge",
-      "url": "https://mistral.ai/news/forge",
-      "summary": "MistralのForgeは企業向けシステムで、公開データではなく社内文書・コード・運用記録などで学習し、用語・推論・方針に沿った業務特化型AIを事前学習・微調整・強化学習で構築できる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-17T21:04:26.000Z",
-      "contentHash": "adb1a344b612"
-    },
-    {
-      "id": "5ec7e9887a2b",
-      "title": "I went to the Pentagon to watch Pete Hegseth scold war reporters",
-      "url": "https://www.theverge.com/policy/896312/pentagon-briefing-iran-war-pete-hegseth",
-      "summary": "ティナ・グエン記者がペンタゴンでピート・ヘグセスが戦争記者を公然と叱責する場を取材。トランプ政権のリアリティ番組的プロパガンダが、対イラン戦争下で報道を牽制し世論操作を狙う様子を描く。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-17T20:47:35.000Z",
-      "contentHash": "ea843d2196fd"
-    },
-    {
-      "id": "a20822619b29",
-      "title": "The Beats Studio Pro are nearly $200 off ahead of Amazon’s big spring sale",
-      "url": "https://www.theverge.com/gadgets/896279/beats-studio-pro-anc-headphones-amazon-big-spring-sale-deal-2026",
-      "summary": "Beats Studio ProがAmazonなどで約169.95ドル（約180ドル引き）の最安値に。AirPods Max 2はH2搭載だがクロスOS互換で劣り、Studio Proは古い設計ながら中位機として堅実。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-17T20:38:08.000Z",
-      "contentHash": "7a7efc8ef07c"
-    },
-    {
-      "id": "ebc4198c50fe",
-      "title": "Meta and TikTok let harmful content rise to drove engagement, say whistleblowers",
-      "url": "https://www.bbc.com/news/articles/cqj9kgxqjwjo",
-      "summary": "告発者らは、MetaとTikTokが「怒り」が利用者の反応を高めると知りつつ、株価や政治的関係を優先して暴力・性的恐喝・陰謀論などの有害投稿を容認・放置したと証言。Reelsは保護不足で導入された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-17T20:24:33.000Z",
-      "contentHash": "76a960a6fb88"
-    },
-    {
-      "id": "bf5997aa698e",
-      "title": "Get Shit Done: A meta-prompting, context engineering and spec-driven dev system",
-      "url": "https://github.com/gsd-build/get-shit-done",
-      "summary": "Get Shit Done（GSD）はClaude Code等向けの軽量メタプロンプト／コンテキスト設計と仕様駆動の開発ツール。コンテキストロットを解消し、単純なコマンドで信頼できるコード生成と検証を行う。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-17T20:23:39.000Z",
-      "contentHash": "2733fcc8a8cd"
-    },
-    {
-      "id": "a31865791592",
-      "title": "Remedy’s live-service shooter Firebreak is getting its final major update",
-      "url": "https://www.theverge.com/entertainment/896278/fbc-firebreak-last-update-remedy",
-      "summary": "Remedyのライブサービスシューター『FBC: Firebreak』が最終大型アップデート「Open House」を配信。Control由来の新エリアや戦闘改善を追加。新規コンテンツは打ち切りだが、数年はプレイ可能に維持する予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-17T19:36:45.000Z",
-      "contentHash": "4701d6d173fa"
-    },
-    {
-      "id": "8227c6bb8077",
-      "title": "Spotify adds &#8216;Exclusive Mode&#8217; audiophile feature for Windows PCs",
-      "url": "https://www.theverge.com/entertainment/896290/spotify-exclusive-mode-windows",
-      "summary": "SpotifyがWindowsアプリに「Exclusive Mode」を導入。Premium限定でOSのリサンプリングやシステム音の混入を防ぎ、DACへビットパーフェクト再生を実現。Mac版は後日対応。設定→Playbackで有効化。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-17T19:33:29.000Z",
-      "contentHash": "146890132758"
-    },
-    {
-      "id": "e80d1f9971b1",
-      "title": "Meta Horizon Worlds on Meta Quest is being discontinued",
-      "url": "https://communityforums.atmeta.com/blog/AnnouncementsBlog/updates-to-your-meta-quest-experience-in-2026/1369435",
-      "summary": "申し訳ありませんが外部サイトに直接アクセスできません。要約する本文を貼るか主要な抜粋を教えてください。コメントもあれば一緒に要約します。200文字以内でまとめます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-17T19:17:16.000Z",
-      "contentHash": "a60ca0be87c7"
-    },
-    {
-      "id": "122e1f57fe40",
-      "title": "A Decade of Slug",
-      "url": "https://terathon.com/blog/decade-slug.html",
-      "summary": "Slugは2016年に開発、2017年に論文発表されたGPU上でベジェ曲線から直接フォントやベクタを高品質・高速にレンダリングする手法。ゲームや科学可視化等で広く採用され、C4 Engineや数式エディタRadical Pieでも使用。記事は2017年以降の改良と実装向けの発表を紹介。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-17T18:59:50.000Z",
-      "contentHash": "a71da2bfc41e"
-    },
-    {
-      "id": "3351229f1d0e",
-      "title": "Ikea tried to build a smart home for everyone — here&#8217;s why it&#8217;s not working yet",
-      "url": "https://www.theverge.com/tech/896006/ikea-matter-thread-smart-home-problems",
-      "summary": "Ikeaの低価格Matter-over-Thread製品（センサー、リモコン、スマートプラグ、空気質モニタ、電球等）はApple HomeやAlexaと連携するはずだったが、相互運用性の問題で期待どおり動作せず、スマートホームの互換性の課題を露呈した。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-17T18:45:14.000Z",
-      "contentHash": "246411247f89"
-    },
-    {
-      "id": "9e895dc23247",
-      "title": "Java 26 is here",
-      "url": "https://hanno.codes/2026/03/17/java-26-is-here/",
-      "summary": "Java 26が公開。AOTオブジェクトキャッシュやG1改善、HTTP/3対応などに加え、構造化並行処理、遅延定数、Vector API、プリミティブのパターン対応など複数のプレビューを含み、JEP500等でProject Valhallaなど将来機能の基盤を整備しています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-17T18:44:09.000Z",
-      "contentHash": "0a411c9102ed"
     }
   ]
 }
