@@ -1,14 +1,68 @@
 {
-  "generatedAt": "2026-04-05T03:04:33.573Z",
+  "generatedAt": "2026-04-05T09:09:59.751Z",
   "items": [
     {
+      "id": "c0ce29332f6d",
+      "title": "Introduction to Computer Music (2009) [pdf]",
+      "url": "https://composerprogrammer.com/introductiontocomputermusic.pdf",
+      "summary": "提示された記事は文字化け・破損しており内容を読み取れません。元の日本語テキスト、URL、またはPDF/plainテキストで再送してください。要約の文字数指定も教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-05T01:54:29.000Z",
+      "contentHash": "31859b67fc37"
+    },
+    {
+      "id": "62d6e74da3e5",
+      "title": "画像付きのバグチケット起票を楽にするコスト安のSlack AI Botを作ってみた | Money Forward Developersのフィード",
+      "url": "https://zenn.dev/moneyforward/articles/e7cc10c1301673",
+      "summary": "テスト時のバグ起票を簡素化するSlack向けAIボットを開発。スレッドの会話と画像をAmazon Bedrockで解析してJIRAにチケット作成・更新・完了を実行。Lambda＋SQS構成でDBは使わずメタデータはSlackに保持。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-05T01:40:27.000Z",
+      "contentHash": "63eb40953f64"
+    },
+    {
+      "id": "8ddeb3304ec8",
+      "title": "【Microsoft Agent Frameork】- FoundryAgentの権限エラーについて | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/13d75027fd900c",
+      "summary": "Microsoft Agent Frameworkのサンプル実行でAzureのOpenAI API呼び出し（Microsoft.CognitiveServices/.../responses/write）が拒否されるエラーが発生。原因はRBAC不足。対処法は実行主体にMicrosoft FoundryでCognitive Services OpenAI User（推論用最小権限）またはContributor（モデル管理含む）を付与すること。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-05T01:24:43.000Z",
+      "contentHash": "9115b2da6f0f"
+    },
+    {
+      "id": "315074d20300",
+      "title": "Shooting down ideas is not a skill",
+      "url": "https://scottlawsonbc.com/post/shooting-down-ideas",
+      "summary": "会議で新案を即否定するのは簡単だが価値を生まない。批判はミス防止にはなるが保存的で、創造的価値を作るのは想像と勇気で提案する行為だけ。善意の火消しも多い。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-05T00:42:42.000Z",
+      "contentHash": "ba2e7057d533"
+    },
+    {
       "id": "420a48de75db",
-      "title": "AWS Engineer Reports PostgreSQL Perf Halved by Linux 7.0, Fix May Not Be Easy",
+      "title": "AWS engineer reports PostgreSQL perf halved by Linux 7.0, fix may not be easy",
       "url": "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop",
-      "summary": "AWSのエンジニアが、Linux 7.0でPostgreSQLのスループットが約半減したと報告。原因はプリエンプションモード制限でユーザースピンロック増加。PREEMPT_NONE復帰は不確実で、作者はPostgreSQLをRSEQで対応すべきと提案。",
+      "summary": "AmazonのエンジニアがLinux 7.0でPostgreSQLのスループットが約半減したと報告。原因はプリエンプション制限でユーザ空間のスピンロック滞留増加。PREEMPT_NONE復活案は不確実で、RSEQ対応をPostgreSQL側に求める案が出ている。",
       "source": "Hacker News",
       "publishedAt": "2026-04-05T00:13:55.000Z",
-      "contentHash": "b22bb0f5d0fe"
+      "contentHash": "70ef037b0887"
+    },
+    {
+      "id": "e733ce4237af",
+      "title": "Nvim-treesitter (13K+ Stars) is Archived",
+      "url": "https://github.com/nvim-treesitter/nvim-treesitter/discussions/8627",
+      "summary": "nvim-treesitterは2026年4月3日にアーカイブされ読み取り専用に。リリースがほとんど無い点が問題視され、v0.12でv0.11サポートを即時打ち切った変更やパーサ更新の負担への不満が議論されている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-04T23:39:44.000Z",
+      "contentHash": "d7cc56d18f7d"
+    },
+    {
+      "id": "be17167c7878",
+      "title": "German implementation of eIDAS will require an Apple/Google account to function",
+      "url": "https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/",
+      "summary": "ウォレットの認証手段はPIDと鍵で結び付けられ、WBがKey Attestationで鍵管理を確認。ISO/IEC18045やEU規制に基づき高い攻撃耐性が求められ、複製・改竄や不正利用防止のためRWSCD/HSMなどの評価・認証済み実装が必要。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-04T22:57:44.000Z",
+      "contentHash": "99e2ed1238ca"
     },
     {
       "id": "ae79274a9fed",
@@ -23,19 +77,19 @@
       "id": "88d1f8f187df",
       "title": "Iranian missile blitz takes down AWS data centers in Bahrain and Dubai",
       "url": "https://www.tomshardware.com/tech-industry/iranian-missile-blitz-takes-down-aws-data-centers-in-bahrain-and-dubai-amazon-declares-hard-down-status-for-multiple-zones",
-      "summary": "イランのミサイル攻撃でバーレーンとドバイのAWSデータセンターが被害を受け、Amazonは複数のアベイラビリティゾーンを「ハードダウン」と宣言。大規模なサービス障害が発生し、クラウドの冗長性や地政学リスクが問題となっている。",
+      "summary": "申し訳ありませんが、外部リンクを直接参照できません。記事本文をここに貼っていただければ、200文字以内で日本語に要約します。記事中の要点（誰が、何を、いつ、どこで、影響は）を教えていただいても対応できます。どちらがよろしいですか？",
       "source": "Hacker News",
       "publishedAt": "2026-04-04T18:23:55.000Z",
-      "contentHash": "5d4ed4d0629d"
+      "contentHash": "550a8dde2d65"
     },
     {
       "id": "b9dce4b09f76",
       "title": "Scientists observe an immune signaling complex forming inside cells",
       "url": "https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research",
-      "summary": "申し訳ありませんが、外部リンク先のページを直接開けません。記事本文をここに貼っていただくか、主要箇所（見出し・リード文・重要段落）を教えてください。貼っていただければ200文字以内で要約します。Hacker Newsのコメントも要約可能です。どちらを希望しますか？",
+      "summary": "リンク先に直接アクセスできないため、記事本文をここに貼っていただけますか？または要点（重要な段落や見出し）を教えていただければ、200文字以内で日本語要約を作成します。",
       "source": "Hacker News",
       "publishedAt": "2026-04-04T17:52:55.000Z",
-      "contentHash": "7a49c29a7746"
+      "contentHash": "7a2b1b3cb043"
     },
     {
       "id": "16a592df6647",
@@ -47,13 +101,22 @@
       "contentHash": "def336e0cf28"
     },
     {
+      "id": "91fc906a9943",
+      "title": "LLM Wiki – example of an \"idea file\"",
+      "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "summary": "LLM Wikiは、RAGのように都度文書を検索するのではなく、LLMがマークダウンの持続的な相互参照ウィキを構築・更新して重要情報を抽出・統合、矛盾を記録し知識を蓄積する仕組み。利用者は資料提供と質問を行い、LLMが維持管理する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-04T16:57:45.000Z",
+      "contentHash": "9360bd10704d"
+    },
+    {
       "id": "18c6fc83ba6e",
       "title": "Why the most valuable things you know are things you cannot say",
       "url": "https://deadneurons.substack.com/p/why-the-most-valuable-things-you",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文か主要抜粋を貼っていただければ、200字以内で日本語要約を作成します。全文でも要点だけでも可です。",
+      "summary": "記事は、最も価値ある仕事は顧客に見えない内部設計や自動化、信頼性、ドキュメント、人材育成などであり、短期の可視成果で軽視されがちだと指摘。見えない価値を測り伝え、文化と報酬を整える重要性を説く。",
       "source": "Hacker News",
       "publishedAt": "2026-04-04T16:49:40.000Z",
-      "contentHash": "6f0181709ab5"
+      "contentHash": "6d0be110cf04"
     },
     {
       "id": "8d794ebe7144",
@@ -131,10 +194,10 @@
       "id": "af3f75e599bd",
       "title": "Transformers.js で Gemma 4 を試す",
       "url": "https://note.com/npaka/n/n8d399c1b60f0",
-      "summary": "Hugging FaceのTransformers.jsでGemma 4をブラウザやNode.js上で動かす手順を紹介。WebGPU対応ブラウザ（Chrome/Safari/Firefox等）でGPU推論可能。Transformers.js 4.0.1以降を指定し、TypeScriptの簡単なサンプルとモデルキャッシュで高速化するコード例が掲載されている。",
+      "summary": "Hugging FaceのTransformers.jsでGemma 4をブラウザ/Node.js上で試した。WebGPU対応ブラウザでGPU推論でき、Transformers.js 4.0.1以上を指定。CodexがTypeScriptの簡単なサンプルコードを生成し、モデルは一度ダウンロードすればキャッシュされ高速化。",
       "source": "npaka",
       "publishedAt": "2026-04-04T13:25:17.000Z",
-      "contentHash": "16e6293d64f2"
+      "contentHash": "4963f8e2b5dd"
     },
     {
       "id": "9c43866c6f53",
@@ -176,10 +239,10 @@
       "id": "17fc441699e9",
       "title": "imapsync を利用して Amazon WorkMail からの移行をしてみた | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/transfer-from-workmail-to-sakuramailbox",
-      "summary": "2026年3月のAmazon WorkMail終了に伴い、OSSのimapsyncでさくらのメールボックスへ移行した実作業を解説。IMAP接続確認方法やDNS切替時の注意点、よくあるハマりどころをまとめています。",
+      "summary": "Amazon WorkMailの終了を受け、著者は個人利用のメール（カレンダー不要）を移行するため、公式のS3エクスポートやZoho等の代替案を検討しつつ、OSSのimapsyncでIMAP同期→DNS切替する手順で移行を試した。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-04T10:07:23.000Z",
-      "contentHash": "fdb7eee151a4"
+      "contentHash": "df1dfeb8b0b4"
     },
     {
       "id": "5207446367ac",
@@ -203,19 +266,19 @@
       "id": "4b852f04107d",
       "title": "MSI EdgeXpert を工場出荷状態に戻す",
       "url": "https://note.com/npaka/n/n025e42c3d417",
-      "summary": "MSI EdgeXpertを工場出荷状態に戻す作業を実際に試し、その手順と結果をまとめた記事。リセット方法や注意点、詳しい手順は本文に続く。",
+      "summary": "MSI EdgeXpertを工場出荷状態に戻す手順：DGX Spark OSのISOをダウンロードしてUSBに書き込み、EdgeXpertに挿入。BIOSでUSB起動を選び、DGX Spark Installation Optionsから「Install DGX OS 7.4.0」を実行し、インストール完了を待つ。",
       "source": "npaka",
       "publishedAt": "2026-04-04T06:57:36.000Z",
-      "contentHash": "e10b77839d8c"
+      "contentHash": "0ca635e87b66"
     },
     {
       "id": "f8d17701beaa",
       "title": "4コマ漫画は“1本”より“1冊”が面白い-コミタンMが4コマ漫画沼にハマるまで | BOOK☆WALKER inside",
       "url": "https://developers.bookwalker.jp/entry/2026/04/04/150000",
-      "summary": "4月4日はBOOK☆WALKER発の「4コマの日」。4コマを1000冊以上所持する書店員・コミタンMの熱意から始まった企画で、2026年に13回目を迎える。今回はキャンペーン担当のコミタンMに“4コマ推し”になるまでを聞くインタビュー。",
+      "summary": "BOOK☆WALKER発の「4コマの日」は、書店員コミタンMの4コマ愛がきっかけ。作家推しから広がり、1本より1冊で物語が深まる点を訴求。2026年は「ドラマチック」特集で厳選作品や相関図を紹介、対象購入でコイン+20%還元。まずは一冊通して読んでほしいという呼びかけ。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-04T06:00:00.000Z",
-      "contentHash": "4524448501b3"
+      "contentHash": "c2c8ea8f54a0"
     },
     {
       "id": "87d594391a88",
@@ -230,10 +293,10 @@
       "id": "f80246d05586",
       "title": "DataFrameを型安全に使うためのライブラリpaviseを作った話 | エムスリーテックブログ",
       "url": "https://www.m3tech.blog/entry/python/pavise",
-      "summary": "AI・機械学習チーム北川の記事。pandasやpolarsでDataFrameが持つ列情報をpd.DataFrame/pl.DataFrameの型では表現できず、型ヒントや説明不足に悩む問題を述べている。",
+      "summary": "pandas/polarsのDataFrameは列情報が型に表れず実行時エラーになりやすい。panderaはスキーマ検証を提供するが、テストで不要列を埋める必要や依存逆転が課題。これを解決するためProtocolベースの新ライブラリpaviseを作成し、値バリデータやNotRequiredColumnで存在しない列を許容する等の機能を提供する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-04T02:00:00.000Z",
-      "contentHash": "eff5d87d1f42"
+      "contentHash": "d6708b61024b"
     },
     {
       "id": "dd0b0dddb4d5",
@@ -266,10 +329,10 @@
       "id": "1606dc742faa",
       "title": "Anthropic essentially bans OpenClaw from Claude by making subscribers pay extra",
       "url": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
-      "summary": "Anthropicは4月4日午後3時ET以降、OpenClawなどサードパーティ製ハーネスでClaudeの購読枠を使えなくし、別途の従量課金制にすると発表。開発者のOpenAI移籍で自社ツール推進との指摘もある。",
+      "summary": "Anthropicは4月4日午後3時（ET）からClaudeのサブスクでOpenClawなどのサードパーティ利用を認めず、別途ペイ・アズ・ユー・ゴーで課金すると通知。OpenClaw作成者のOpenAI移籍も影響と報じられる。",
       "source": "The Verge",
       "publishedAt": "2026-04-03T23:52:49.000Z",
-      "contentHash": "4654c7040f74"
+      "contentHash": "76e622085c95"
     },
     {
       "id": "7ff8d2fb586a",
@@ -455,10 +518,10 @@
       "id": "f6e9a3cb2d6d",
       "title": "AICore Developer Preview で Gemma 4 を試す",
       "url": "https://note.com/npaka/n/n79383ac828ec",
-      "summary": "元記事の本文かリンクを貼ってください。現状の情報だけでは要約できません。本文をいただければ200文字以内で要約します。",
+      "summary": "Googleは2026年4月2日、AICore Developer PreviewでGemma 4を公開。Prompt API対応端末でAndroid AICoreベータ（aicore-experimentalログイン、アプリ・モデル取得）を導入し、Android Studioでgenai-prompt:1.0.0-beta2を使って試せる。専用AIアクセラレータで最適動作、未対応端末はCPU実行。",
       "source": "npaka",
       "publishedAt": "2026-04-03T14:00:51.000Z",
-      "contentHash": "01b852b4c307"
+      "contentHash": "69577311d219"
     },
     {
       "id": "b8c546b03451",
@@ -509,37 +572,37 @@
       "id": "4f254e7d7065",
       "title": "Claude CodeのAgent Teamsでテクニカルサポート調査を行いやすくする | インゲージ開発者ブログ",
       "url": "https://blog.ingage.jp/entry/2026/04/03/203314",
-      "summary": "fujimmm331は週1で走って気分転換。CREチームに所属し、コードやログを調べ顧客の技術問い合わせ（週4〜5件）に対応している。チームは人手が半減し、本人はフロントエンド出身のためバックエンドやインフラを含む全体調査に時間がかかるという状況。",
+      "summary": "CREのテクニカルサポートでClaude Code単体は速さや誤断、論理飛躍の問題があったため、Agent Teamsで調査リーダー・批判的レビュアー・コード調査・ログ分析の4役割に分け、仮説→調査→批判→再調査のサイクルで信頼性を高めた。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-03T11:33:14.000Z",
-      "contentHash": "154900e314e4"
+      "contentHash": "089502fb7a57"
     },
     {
       "id": "2f8da331e15a",
       "title": "【2026年版】Snowflake入門（7）セキュリティ編・前編 - RBACとポリシー | Snowflake Data Heroesのフィード",
       "url": "https://zenn.dev/dataheroes/articles/d3741aea862e99",
-      "summary": "「2026年版 Snowflake入門」全11回シリーズの第7回「セキュリティ編・前編」。導入検討からコンピュート最適化、セキュリティまでを順に解説する入門記事で、各回の想定読者を明示しています。",
+      "summary": "2026年版Snowflake入門第7回（前編）はRBACとポリシーを解説。セキュリティを「制限」ではなくデータ活用の「信頼基盤」と位置づけ、GDPR罰金等のリスク事例や投資判断、各種ロール類型を紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-03T11:22:26.000Z",
-      "contentHash": "2e983e95b955"
+      "contentHash": "f399b1b29bdd"
     },
     {
       "id": "30d37e865d80",
       "title": "ClaudeでSlack×Google Calendarの情報を集約した「自動TODOリスト」を作った話 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/claude-original-todo-list",
-      "summary": "遠藤（アプリケーションサービス部）が、Slackの「後で」ブックマークとGoogle Calendarの予定をClaude（Coworkモード）で平日朝9時に自動集約するインタラクティブHTMLのTODOリストを作成。活用法や工夫を解説。",
+      "summary": "遠藤氏がClaudeのCoworkモードとMCPでSlackの「後で」とGoogle Calendarを自動集約するTODOリストを構築。認証やコード不要で平日朝9時にHTMLで更新、チェック状態を永続化し導入コストが低い運用を実現。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-03T11:21:39.000Z",
-      "contentHash": "12b27ee241ee"
+      "contentHash": "7cf0e7549462"
     },
     {
       "id": "5c52b3578d1f",
       "title": "GigaViewer の配信基盤を支えるマルチテナントアーキテクチャ | Hatena Developer Blog",
       "url": "https://developer.hatenastaff.com/entry/2026/04/03/200000",
-      "summary": "SRE連載3月号。chaya2zがはてなのマンガビューワーGigaViewer（2017年以降20超サービス導入）の技術課題とアーキテクチャを解説。CDNのサイロ型とプール型、境界と移行戦略、橋渡し、オリジン保護、運用の振り返りを論じる。",
+      "summary": "GigaViewerは、サービス別CDNのサイロと共通のロードバランサ／nginxプールを組み合わせたブリッジ型マルチテナント設計を採用。Terraformで標準化し、急増するトラフィックの平滑化と運用コスト削減を実現。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-03T11:00:00.000Z",
-      "contentHash": "eb636d747068"
+      "contentHash": "61f82853455f"
     },
     {
       "id": "a4aa765b8ed2",
@@ -554,10 +617,10 @@
       "id": "f59fc86bb989",
       "title": "認定スクラムマスターになりました！ | CloudNative BLOGs",
       "url": "https://blog.cloudnative.co.jp/articles/certified-scrum-master-achievement/",
-      "summary": "認定スクラムマスター（CSM）の資格を取得しました。スクラムの基本概念、CSM研修で学んだ内容、認定試験に関するポイントを整理しています。",
+      "summary": "アシスタントEimiが認定スクラムマスター（CSM）を取得。スクラムの役割や短いスプリントでの開発を解説。Attractorの3日間オンライン研修（22万円、会社負担）で実践的なワークが多く、初心者でも理解でき、コミュニケーションの重要性を実感した。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-03T10:27:00.000Z",
-      "contentHash": "e729eee0ff53"
+      "contentHash": "7b7d06220d3f"
     },
     {
       "id": "96b3fdf0af3c",
@@ -662,10 +725,10 @@
       "id": "e0feb3e80459",
       "title": "Gemma 4 の動画入力を試す",
       "url": "https://note.com/npaka/n/nba88e41ae055",
-      "summary": "Gemma 4はテキスト・画像・音声のマルチモーダル対応で、ビジュアルトークン予算（70〜1120）で解像度制御、ASR/ASTの指定プロンプト形式あり。音声30秒・動画60秒まで。Colabでgoogle/gemma-4-e2b-itを使い動画入力を試し、文字起こしや小説化で高精度だった。",
+      "summary": "Gemma 4はテキスト・画像・音声を扱うマルチモーダルモデルで、画像はビジュアルトークン予算(70〜1120)で解像度を制御。ASR/ASTのフォーマットや音声30秒・動画60秒制限があり、Colabでgoogle/gemma-4-e2b-itを使い動画入力を簡単に試せます。",
       "source": "npaka",
       "publishedAt": "2026-04-03T06:53:55.000Z",
-      "contentHash": "46dbd0b391ec"
+      "contentHash": "f6c4a10c1085"
     },
     {
       "id": "6061ecfbe7ee",
@@ -707,10 +770,10 @@
       "id": "b334d06c85bb",
       "title": "Gemma 4 の概要",
       "url": "https://note.com/npaka/n/n240f81855918",
-      "summary": "記事本文かURLを貼ってください。確認次第、200文字以内で日本語要約を作成します。タイトルのみでよければ、それを基にした推測要約（簡潔版）をすぐ作れますが、正確さは本文次第です。どちらがよいですか？",
+      "summary": "GoogleがApache 2.0で公開した「Gemma 4」。E2B/E4B(128k)、26B MoE/31B Dense(256k)の4種で、高度な推論・エージェントワークフロー、画像・音声・コード対応、長文(128–256KB)、140以上言語対応、各種ハードウェア向け最適化を実現。",
       "source": "npaka",
       "publishedAt": "2026-04-02T21:22:05.000Z",
-      "contentHash": "18e739fcba55"
+      "contentHash": "311a4150da12"
     },
     {
       "id": "29592cfbfcf0",
@@ -4451,10 +4514,10 @@
       "id": "5efd9074b77a",
       "title": "We’re partnering with multiple national teams ahead of soccer’s biggest global showdown.",
       "url": "https://blog.google/company-news/inside-google/company-announcements/soccer-nationalteam-partnerships/",
-      "summary": "夏の忘れられないサッカー大会へのカウントダウンが始まり、今年はファンが大会を探索し、刺激を受け、試合をより間近で楽しめるよう支援する取り組みを紹介する。",
+      "summary": "Googleがアルゼンチンやフランス代表などと提携し、今夏のサッカートーナメントを支援。SearchはAIでスコアや詳細な回答を提供し、Geminiは観戦会の企画や試合画像作成を手助け。今後も協力発表予定。",
       "source": "Gemini",
       "publishedAt": "2026-03-26T20:00:00.000Z",
-      "contentHash": "9ac1c5594d5c"
+      "contentHash": "9d56a1981c8e"
     },
     {
       "id": "036a26faceae",
@@ -4487,10 +4550,10 @@
       "id": "db1a7f4b6615",
       "title": "Make the switch: Bring your AI memories and chat history to Gemini",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-to-gemini-app/",
-      "summary": "Geminiアプリが他のAIチャットアプリからの乗り換えを簡単にし、チャットや設定を一から作り直す必要なく引き継げるようにした。",
+      "summary": "Geminiに他のAIアプリから記憶や会話履歴を取り込める機能が追加されました。提案プロンプトを使って記憶を移すか、チャット履歴をZIPでアップロードして設定から取り込めます。過去の会話をそのまま引き継げます。",
       "source": "Gemini",
       "publishedAt": "2026-03-26T19:00:00.000Z",
-      "contentHash": "867ef7373982"
+      "contentHash": "8cc0b0fa9787"
     },
     {
       "id": "05aedee8f5d5",
@@ -8937,69 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-18T01:00:00.000Z",
       "contentHash": "ebe929276ac9"
-    },
-    {
-      "id": "6624943bb075",
-      "title": "正解のない世界でPdMはどう決断するか？カミナシ右田氏に学ぶ「覚悟」と「仕組み」【ドコモ×カミナシ】 | ENGINEERING BLOG ドコモ開発者ブログ",
-      "url": "https://nttdocomo-developers.jp/entry/2026/03/18/090000",
-      "summary": "正解のない状況で意思決定を迫られるPdM向けに、SaaSカミナシの右田涼氏の勉強会の学びを紹介。AI×データで事業変革を進めるドコモDP部の取り組みとPdMの役割を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-18T01:00:00.000Z",
-      "contentHash": "772025ed7184"
-    },
-    {
-      "id": "486a621be663",
-      "title": "✨非デザイナーでも“オプティムっぽい”UIデザインは、作れる！✨ | OPTiM TECH BLOG",
-      "url": "https://tech-blog.optim.co.jp/entry/2026/03/18/100000",
-      "summary": "オプティムは社内デザインシステムnucleusと生成AI（v0等）を組合せ、非デザイナーでも“オプティムらしい”UIを高速に作成可能に。工数削減やUX統一が期待される一方、色・フォントや未定義コンポーネントの混入で実装負担が生じ、UIチームはエンジニアと連携してテンプレ適用など対策を進めている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-18T01:00:00.000Z",
-      "contentHash": "f9147d47bb55"
-    },
-    {
-      "id": "fbe82747d900",
-      "title": "Sansanのデータ化オペレーションを支えるデータ基盤hydra | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/03/18/100000",
-      "summary": "Sansanは名刺等のデータ化で散在する作業実績を集約するデータ基盤hydraを構築。作業開始・完了・判定イベントをBigQueryで横断的に可視化・自動化し、人員調整や支払い計算などの手作業を削減した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-18T01:00:00.000Z",
-      "contentHash": "1b996f4dac19"
-    },
-    {
-      "id": "c0ac1bf75e61",
-      "title": "UIKit アプリに Liquid Glass の検索タブを実装する | every Tech Blog",
-      "url": "https://tech.every.tv/entry/2026/03/18/100000",
-      "summary": "WWDC25のLiquid GlassでiOS26は検索UIが刷新。タブバー右端の検索アイコンを押すとタブバー内に検索フィールドが展開します。SwiftUIはTab(role:.search)で簡単、UIKitはiOS18のUITab APIのUISearchTabをtabsに追加するだけで標準動作を実現できます。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-18T01:00:00.000Z",
-      "contentHash": "95f6ee97f549"
-    },
-    {
-      "id": "51a91489b057",
-      "title": "AI時代の\"ゴールデンパス\"、まだ誰も定義していないなら自分たちで定義してみた | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/03/18/100000",
-      "summary": "AI時代のゴールデンパスは、AI活用を組織的に再現可能にする推奨ルート。要素は①インストラクション（行動規範）②Skills（実行タスク定義）③ADR（判断の理由記録）。個人依存を減らし知見共有・オンボーディングを促進する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-18T01:00:00.000Z",
-      "contentHash": "a564a0642b84"
-    },
-    {
-      "id": "a7ed7a2fb262",
-      "title": "Codex Skills 入門",
-      "url": "https://note.com/npaka/n/nfaa42624abd7",
-      "summary": "Codex SkillsはAIエージェントに作業手順や規則（指示・スクリプト・リソース）をモジュール化して教える仕組み。品質安定、プロンプト短縮、チーム規約の適用が可能で、Codex appで簡単にスキル作成（例：挨拶応答スキル）。",
-      "source": "npaka",
-      "publishedAt": "2026-03-17T23:47:16.000Z",
-      "contentHash": "1bcd5d444645"
-    },
-    {
-      "id": "28b1917d1690",
-      "title": "Why AI systems don't learn – On autonomous learning from cognitive science",
-      "url": "https://arxiv.org/abs/2603.15381",
-      "summary": "現行AIの自律学習の限界を批判し、人や動物の認知に倣う学習枠組みを提案。観察学習（A）と能動学習（B）を内部のメタ制御（M）で切替え現実環境への適応を目指す。進化・発達からの着想を論じる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-17T21:42:39.000Z",
-      "contentHash": "9a85c8b6bb39"
     }
   ]
 }
