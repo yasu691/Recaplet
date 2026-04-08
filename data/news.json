@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-04-08T03:10:39.616Z",
+  "generatedAt": "2026-04-08T09:26:21.165Z",
   "items": [
+    {
+      "id": "d3f0f3ba448d",
+      "title": "内部不正対策におけるログの要点 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/f222bdf2c91186",
+      "summary": "内部不正は長年上位の脅威で、正規権限で行われ発見が難しい。ログは早期検知や事後調査に不可欠だが、闇雲な取得では対策にならない。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T07:25:34.000Z",
+      "contentHash": "baba8e2ad30f"
+    },
+    {
+      "id": "d1eb29c79f4d",
+      "title": "Snowflake Dynamic Tables の EXECUTE AS USER を試してみた | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/04/08/160047",
+      "summary": "SnowflakeのDynamic TablesにEXECUTE AS USERが追加され、指定ユーザー権限で実行可能に。Owner＋ユーザーのセカンダリロールで権限評価・監査が明確化され、更新設計やリフレッシュ権限付与手順が変わることを実機で検証しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T07:00:47.000Z",
+      "contentHash": "cd9361adac9c"
+    },
+    {
+      "id": "8b1e743eaca6",
+      "title": "AIで影響範囲などの調査をする時にやってる方法 | レバテック開発部のフィード",
+      "url": "https://zenn.dev/levtech/articles/246d5dbb0be828",
+      "summary": "レバテック開発部の今井が、業務システムの影響範囲調査は複雑で手作業や単一AIでは漏れや遅れが出ると指摘。複数AIエージェントでチェックシートを並列実行し、スクリプトで結果を機械的に検証する手法を紹介。セキュリティ等の境界的影響も対象とする。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T07:00:14.000Z",
+      "contentHash": "773d6211ca9c"
+    },
+    {
+      "id": "989bcdc80bea",
+      "title": "プロポクラウドのTerraformコードをイタンジの標準構成に移設した話 | ITANDI Engineer Blog",
+      "url": "https://tech.itandi.co.jp/entry/2026/04/08/153253",
+      "summary": "イタンジの清水です。20以上のAWSアカウントと10超の開発チームを支える3名のインフラチームが、設計・運用・障害対応を開発チームと共に行い、デプロイ・監視・CI/CD・メトリクスの標準化を進めています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T06:32:53.000Z",
+      "contentHash": "56a46bec1076"
+    },
+    {
+      "id": "0fb0133e1775",
+      "title": "GitHub Pull Request で通常時は 2 approve、緊急時だけ 1 approve でマージする | MIXI DEVELOPERS Tech Blogのフィード",
+      "url": "https://zenn.dev/mixi/articles/github-ruleset-two-approves-with-emergency-bypass",
+      "summary": "通常はPRマージに2承認必須とするチームが、深夜の緊急対応用に「緊急時は1承認で可」としGitHub設定を1承認でマージ可能にした結果、緊急でない場合でも2承認ルールが回避されレビュー不足や運用上の問題が生じた、という報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T06:28:43.000Z",
+      "contentHash": "382ab32f5f3c"
+    },
+    {
+      "id": "9d6d7eb13049",
+      "title": "ラティスパス編集距離の元論文の紹介 | D2C m-techのフィード",
+      "url": "https://zenn.dev/d2c_mtech_blog/articles/6931eeb1e39bec",
+      "summary": "EMNLP 2023の論文を紹介。日本語検索クエリログから誤綴り–訂正ペアを抽出する際、ローマ字入力を考慮した新しい編集距離（Lattice Path Edit Distance）を提案し、従来手法の課題に対処する内容を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T06:28:12.000Z",
+      "contentHash": "7c26ffd08efd"
+    },
+    {
+      "id": "921ff30dcb05",
+      "title": "[UE5] 見た目が異なるウィジェットを ListView で表示したい | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/56013/",
+      "summary": "UE5.7.2環境で、ListViewに見た目の異なるウィジェットを表示する方法を解説。UE4.20のListView知識を前提に、異なるセルの実装手順や注意点、実用的な対処法を紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T06:00:11.000Z",
+      "contentHash": "c317e7d07a61"
+    },
+    {
+      "id": "0fd844f81475",
+      "title": "「それでも僕はコードを書く」自分がClaude Codeヘビーユーザーになった数ヶ月 | Goodpatch Tech Blog",
+      "url": "https://goodpatch-tech.hatenablog.com/entry/why_claude_code_2026",
+      "summary": "デザインエンジニア藤井（touyou）が社内でのAI活用に積極的に関与する立場を紹介。AIタスクフォース参加、Tech Blog寄稿、GitHub Copilot導入手続き、社内研修講師など『親AI派』として活動している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T06:00:00.000Z",
+      "contentHash": "764a7a697191"
+    },
+    {
+      "id": "af7838a97333",
+      "title": "Revision Demoparty 2026: Razor1911 [video]",
+      "url": "https://www.youtube.com/watch?v=Lw4W9V57SKs&t=5716s",
+      "summary": "申し訳ありませんが外部URLに直接アクセスできません。動画の文字起こしか要点を貼っていただければ、200文字以内で要約します。どの部分を重視するか教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-08T05:34:08.000Z",
+      "contentHash": "633dcc6d6bbc"
+    },
+    {
+      "id": "33d45f2ba49e",
+      "title": "AIエージェントの成功率をどう引き上げるか。Long-running taskにおけるスケーリング則と検証器の役割 | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/long-running-task-papers",
+      "summary": "Ai Workforce事業部FDEの恩田です。AIエージェントは長時間タスクをこなせるようになり、METRはClaude Opus 4.6が10時間タスクを50%で完了（1時間は80%）と報告。長時間化に伴いステップ数が増え、各ステップの成功率向上やリトライ・原因分析・復帰機構が重要になる、という概要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T05:11:11.000Z",
+      "contentHash": "0e941fbf577a"
+    },
+    {
+      "id": "01fb888216f0",
+      "title": "10年越しの理想に向けて大きな一歩。非エンジニアが振り返る、システム移行プロジェクト | Kurashicom Tech Blog",
+      "url": "https://note.com/kurashicom_tech/n/n6309561e4b7a",
+      "summary": "クラシコムMDの山根が、現場ユーザー代表として10年超の旧ECシステムを新システムへ移行したKCAプロジェクトを振り返る。商品管理を段階的に移行（①商品情報〜④入庫完了）し、「販売停止フラグ」で在庫と販売状態を分離、運用効率化と理想の実現を図った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T05:09:44.000Z",
+      "contentHash": "a2d5f3dca0b0"
+    },
+    {
+      "id": "44996491db0d",
+      "title": "Protect your shed",
+      "url": "https://dylanbutler.dev/blog/protect-your-shed/",
+      "summary": "著者は、大規模な企業開発が設計書や検査など「スケールの物理」を教える一方、週末の個人プロジェクト（裏庭の小屋）が技術への情熱を保ち続ける原動力であり、サイドプロジェクトは面接対策よりキャリアに有益だと述べる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-08T03:03:33.000Z",
+      "contentHash": "d18838f56dc5"
+    },
+    {
+      "id": "84ce14b4904e",
+      "title": "OpenAI says its new model GPT-2 is too dangerous to release (2019)",
+      "url": "https://slate.com/technology/2019/02/openai-gpt2-text-generating-algorithm-ai-dangerous.html",
+      "summary": "OpenAIは高性能な文章生成モデルGPT-2を開発したが、安全性を理由に完全版や学習データ・訓練コードを非公開にして小型版だけ公開した。報道はセンセーショナルで、研究者間では危険なAIの公開方針を巡る議論が続いている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-08T02:41:12.000Z",
+      "contentHash": "dfe646f81132"
+    },
     {
       "id": "9c6e827ed76a",
       "title": "セキュリティエンジニアはこう見る。開発時に認可制御不備を怪しむべき実装パターン10選 | GMO Flatt Security Blog",
@@ -77,10 +194,10 @@
       "id": "242d339eb3da",
       "title": "DGX Spark で Parakeet TDT-CTC 0.6B JA を試す",
       "url": "https://note.com/npaka/n/nd9a5ebcc5531",
-      "summary": "DGX SparkでNVIDIAの日本語ASR「Parakeet TDT-CTC 0.6B JA」を検証。Cohere TranscribeのOSS化で比較を更新したが、Parakeetが総合1位。話し方によってはCohereが優れる場合もあり、導入手順と音声ファイル／リアルタイム文字起こしのコード例を掲載。",
+      "summary": "DGX SparkでNVIDIAの日本語ASR「Parakeet TDT-CTC 0.6B JA」を試用。高精度でランキング首位を維持。Cohere TranscribeのOSS化で評価を更新し、話し方によってはCohereが有利な場合も。導入手順と音声/リアルタイム文字起こしのサンプルコードを掲載。",
       "source": "npaka",
       "publishedAt": "2026-04-08T00:59:09.000Z",
-      "contentHash": "7e773b5c566f"
+      "contentHash": "edf53f9d87f8"
     },
     {
       "id": "6342ae43d48e",
@@ -95,10 +212,10 @@
       "id": "1418c5036309",
       "title": "US and Iran agree to provisional ceasefire",
       "url": "https://www.theguardian.com/us-news/2026/apr/07/trump-iran-war-ceasefire",
-      "summary": "外部リンクに直接アクセスできないため、その記事本文をここに貼っていただけますか？あるいは記事のタイトルと公開日を教えてくだされば、その情報をもとに200文字以内で要約します。",
+      "summary": "米とイランはパキスタン仲介で2週間の条件付き停戦に合意、ホルムズ海峡は一時再開へ。トランプ大統領は自らの爆撃期限直前に降伏か壊滅の威嚇を撤回して停戦を発表。B-52接近で戦争犯罪懸念も出ていた。",
       "source": "Hacker News",
       "publishedAt": "2026-04-07T22:41:02.000Z",
-      "contentHash": "2d6950b5923c"
+      "contentHash": "321855693055"
     },
     {
       "id": "4087268f7428",
@@ -122,10 +239,19 @@
       "id": "ff8e8d6b0788",
       "title": "Bitcoin and quantum computing",
       "url": "https://nehanarula.org/2026/04/03/bitcoin-and-quantum-computing.html",
-      "summary": "量子コンピュータはShorでECDSA秘密鍵を破る理論があるが、BTCでは公開鍵は通常支出時に初めて露出するため未使用アドレスは比較的安全。マイニングへの影響はGroverで二乗速くなる程度で実用的脅威は小さい。実用化時期は不確実で、移行はポスト量子署名やハイブリッド署名、アドレス使い回し回避などで備えるべき、という内容。",
+      "summary": "重要な量子コンピュータ(CRQC)が出現すればビットコインの署名は破られ、ソフトフォークやウォレットの移行が必須。実現時期と改修成功率が鍵で、例として2030年にCRQC10%・改修成功50%なら5%で機能喪失のリスクがあり、価格評価にゼロの下限リスクが生じる。",
       "source": "Hacker News",
       "publishedAt": "2026-04-07T20:56:23.000Z",
-      "contentHash": "79f6bc92be22"
+      "contentHash": "8a52a2657bfb"
+    },
+    {
+      "id": "913c3ecebe3e",
+      "title": "Show HN: An interactive map of Tolkien's Middle-earth",
+      "url": "https://middle-earth-interactive-map.web.app/",
+      "summary": "トールキンの中つ国を示すインタラクティブ地図で、伝承の出来事をマーカー表示。ベース地図画像はインターネットから引用し、ファン／教育目的で使用。地図画像の著作権は主張しない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-07T20:42:37.000Z",
+      "contentHash": "0552494f8e94"
     },
     {
       "id": "4bf8624cde60",
@@ -140,19 +266,19 @@
       "id": "d3f29ee293c4",
       "title": "S3 Files",
       "url": "https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html",
-      "summary": "外部リンク先を直接参照できないため、記事本文をここに貼っていただくか、主要ポイントを教えてください。貼っていただければ200文字以内で日本語要約を作成します。Hacker Newsの議論要約でもよければその旨を教えてください。",
+      "summary": "大規模データの煩雑な移動問題に対し、UBCでのゲノム研究経験を元にアンディ・ウォーフィールドのチームが考案したS3 Filesの解決策、教訓、逸話を紹介。",
       "source": "Hacker News",
       "publishedAt": "2026-04-07T19:44:01.000Z",
-      "contentHash": "9ced589b3fbd"
+      "contentHash": "0e7d2138367e"
     },
     {
       "id": "cee7228fc0f2",
       "title": "Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon",
       "url": "https://github.com/mattmireles/gemma-tuner-multimodal",
-      "summary": "M2 UltraのMacで限られた計算資源でWhisperを微調整。GCSの15,000時間を学習時にストリーミングし、Gemma 3n→4対応を追加。64GBで長シーケンスはOOMしやすく、MLX非対応のため公開した副プロジェクト。",
+      "summary": "約半年前、M2 Ultra Mac Studioで計算資源の限られた環境でWhisperのローカル微調整を開始。GCSの15,000時間音声を学習時にストリーミングし、Gemma 3n→4を統合。64GB RAMで長尺はOOMしやすく、MLXで音声微調整できないため自作ツールを公開。",
       "source": "Hacker News",
       "publishedAt": "2026-04-07T19:37:05.000Z",
-      "contentHash": "401d86fad2b2"
+      "contentHash": "288be688c334"
     },
     {
       "id": "41a4f6a2d81d",
@@ -176,10 +302,10 @@
       "id": "890d9234aecc",
       "title": "System Card: Claude Mythos Preview [pdf]",
       "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
-      "summary": "外部リンクへ直接アクセスできないため、記事本文を貼るか、どの記事（Project Glasswing／Claude Mythosのどちら）を要約するか教えてください。本文があれば200字以内で要約します。",
+      "summary": "記事は、AI時代の重要ソフト保護を目指す「Project Glasswing」と、Anthropicの新モデルClaude Mythosのサイバーセキュリティ評価を扱う。Glasswingは供給網や重要ソフトの強化を提案し、Claudeの評価では堅牢性と回避可能な脆弱性が議論され、透明性や防御強化の必要性が指摘された。",
       "source": "Hacker News",
       "publishedAt": "2026-04-07T18:18:36.000Z",
-      "contentHash": "bdc05b78357a"
+      "contentHash": "9b481ce0a9b4"
     },
     {
       "id": "c90fe530630a",
@@ -194,10 +320,10 @@
       "id": "b4a7c378a401",
       "title": "Assessing Claude Mythos Preview's cybersecurity capabilities",
       "url": "https://red.anthropic.com/2026/mythos-preview/",
-      "summary": "AnthropicがProject Glasswingを発表し、AI時代の重要ソフト保護を目指す。Claude Mythosのシステムカード公開と併せ、安全性や透明性の確保の必要性が議論されている。",
+      "summary": "AnthropicがClaude Mythos Previewを発表。セキュリティ解析に強く、重要ソフト保護のためProject Glasswingを開始。オープン／クローズドコードでゼロデイやN日脆弱性を発見・悪用可能性を示し、詳細は未修正多数のため非公開としている。",
       "source": "Hacker News",
       "publishedAt": "2026-04-07T18:11:31.000Z",
-      "contentHash": "6a63286b0f50"
+      "contentHash": "9fda54669e58"
     },
     {
       "id": "b0e284183065",
@@ -1319,10 +1445,10 @@
       "id": "621a2382395b",
       "title": "秋葉原ロボットほこ天 まとめ",
       "url": "https://note.com/npaka/n/na67555d47f79",
-      "summary": "2026年4月5日、秋葉原UDXで「秋葉原ロボットほこ天」開催。DigiKeyやJLCPCBら企業出展、ダンスや操縦体験、搬送・倒立・サッカーロボットなど多彩なデモで賑わい、大盛況だった。",
+      "summary": "2026年4月5日、秋葉原UDXで開催された「秋葉原ロボットほこ天」は入場無料のロボット展示イベント。DigiKeyやJLCPCBら企業出展、ダンスやサッカーデモ、操縦体験や大型荷重対応の倒立振子ロボなど多彩な展示で賑わった。",
       "source": "npaka",
       "publishedAt": "2026-04-05T13:36:20.000Z",
-      "contentHash": "c8dd6da211c8"
+      "contentHash": "42efb1f49d90"
     },
     {
       "id": "145aa752a569",
@@ -8874,132 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-03-20T18:05:07.000Z",
       "contentHash": "ff35d804e115"
-    },
-    {
-      "id": "0659f3f76c61",
-      "title": "Nine months later, the Trump phone still doesn’t exist",
-      "url": "https://www.theverge.com/tech/898110/trump-phone-t1-release-certification",
-      "summary": "トランプ・フォンは発売から9か月経っても実物の確認なし。記者は2月に関係者からビデオで「T1」を見せられ、数週間内の仕様公開やT‑Mobile認証を約束されたが、現在も情報更新はなく連絡も途絶えている。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-20T17:46:49.000Z",
-      "contentHash": "a4130135b89d"
-    },
-    {
-      "id": "c9ea4dc78af9",
-      "title": "正規のIntune経由でデータをワイプする攻撃が起きたため、Intuneの存在が攻撃面になってしまった | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/regular-intune-wipe-attack/",
-      "summary": "米医療機器大手Strykerが管理者権限を侵害され、正規のMicrosoft Intuneワイプ機能で数万〜数十万台が初期化。ランサム痕跡は確認されず、CISAはRBAC最小権限・フィッシング耐性MFA・複数管理者承認などIntune設定強化と監査、バックアップ導入を勧告。管理プレーンが攻撃面化した点が問題。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-20T17:10:00.000Z",
-      "contentHash": "29da415a1e50"
-    },
-    {
-      "id": "f244b0717e73",
-      "title": "MacBook M5 Pro and Qwen3.5 = Local AI Security System",
-      "url": "https://www.sharpai.org/benchmark/",
-      "summary": "外部リンクへ直接アクセスできないため、本文を貼ってください。記事本文か主要ポイントをいただければ、200字以内で日本語要約します。HNコメントの要約も希望なら一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-20T16:41:42.000Z",
-      "contentHash": "13f19d217303"
-    },
-    {
-      "id": "0eb2d45d5e01",
-      "title": "90% of crypto's Illinois primary spending failed to achieve its objective",
-      "url": "https://www.mollywhite.net/micro/entry/202603172318",
-      "summary": "暗号通貨系スーパーPACがイリノイ州予備選に1,420万ドル投入したが、90%（1,280万ドル）は無駄に。Fairshakeはストラットンに1,000万、フォードに250万を反対支出したが両者が勝利。勝利は既に有力な候補への支援のみで、支出は保有資金の6%未満、今後さらに大量投入の可能性あり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-20T16:34:04.000Z",
-      "contentHash": "e7a86197d547"
-    },
-    {
-      "id": "3267af222c6a",
-      "title": "Oregon school cell phone ban: 'Engaged students, joyful teachers'",
-      "url": "https://portlandtribune.com/2026/03/18/oregon-school-cell-phone-ban-engaged-students-joyful-teachers/",
-      "summary": "コテック知事が昨夏発令したK-12の校内携帯禁止令をエスタカダ高校で視察。24年勤務の英語教師ジェフ・メレマは「授業の対話が改善され喜んでいる」と好評で、教育省と連携し導入支援も行われている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-20T15:39:19.000Z",
-      "contentHash": "48e9107138b7"
-    },
-    {
-      "id": "af40b6787cfa",
-      "title": "Google’s battery-powered Nest Doorbell is $40 off right now",
-      "url": "https://www.theverge.com/gadgets/897085/google-nest-video-doorbell-amazon-big-spring-sale-2026-deal",
-      "summary": "Googleのバッテリー式Nest Doorbellが$40オフの$139.99。人・荷物・車両を識別する無料スマート通知付きで、配達や来客確認、防犯に便利。Amazon・Best Buy・Targetでセール中（AmazonのBig Spring Sale前）。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-20T15:35:15.000Z",
-      "contentHash": "4b56013fbff8"
-    },
-    {
-      "id": "6562b949eaaf",
-      "title": "The Artist Pro 27 is XP-Pen’s latest 4K flagship display tablet",
-      "url": "https://www.theverge.com/tech/897947/xppen-artist-pro-27-drawing-display-tablet-launch-price",
-      "summary": "XP-Penは27インチ4K描画ディスプレイ「Artist Pro 27」を発売。120Hz・高色精度を謳い、価格は$1,899.99で、Wacomの高価なCintiq Proと競合します。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-20T15:00:03.000Z",
-      "contentHash": "cab149ed5a4a"
-    },
-    {
-      "id": "8756af47ee6b",
-      "title": "This sleek alarm clock uses lights and sounds to help you sleep, focus, and wake up",
-      "url": "https://www.theverge.com/tech/897902/balmuda-japan-travel-alarm-clock-led-speaker-white-noise-aluminum",
-      "summary": "Balmudaの携帯アラーム時計「The Clock」は、削り出しアルミの小型ボディ（約260g）にミ minimalistな文字盤を備え、動く針の代わりに光で12時間表示し、カスタム音と光で睡眠・集中・起床をサポートします。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-20T14:32:53.000Z",
-      "contentHash": "aa31e978974c"
-    },
-    {
-      "id": "2fed5b064b9c",
-      "title": "Google Search is now using AI to replace headlines",
-      "url": "https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment",
-      "summary": "Google検索がAIでニュース見出しを独自生成し、従来の検索結果でも出版社の見出しを差し替え始めた。Discoverでの導入に続きThe Vergeなどで複数例が確認され、意味が変わる短縮も起きている。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-20T14:30:00.000Z",
-      "contentHash": "07238168e1b9"
-    },
-    {
-      "id": "414275e5f8fc",
-      "title": "Germany Mandates ODF for Public Administration",
-      "url": "https://linuxiac.com/germany-mandates-odf-for-public-administration/",
-      "summary": "ドイツは国家デジタル基盤「Deutschland-Stack」で公文書にODFとPDF/UAを必須化し、独自プロプライエタリ形式を排除。オープン標準とオープンソースで相互運用性・データ主権・ベンダーロックイン回避を図る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-20T14:04:39.000Z",
-      "contentHash": "19be61a33241"
-    },
-    {
-      "id": "3dbad6da8644",
-      "title": "Much ado about protein",
-      "url": "https://www.theverge.com/column/897715/optimizer-protein-proteinmaxxing-proteinwashing-wellness",
-      "summary": "記事は、ウェルネス界の過剰なタンパク質ブームを批判的に描く。牛ひき肉＋白米の「ボーイキブル」や「プロテインマキシング」「プロテイン・ウォッシング」といった流行、さらにはタンポン売場にプロテイン粉が置かれるような過剰なマーケティングを指摘する。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-20T14:00:00.000Z",
-      "contentHash": "3dfeca545421"
-    },
-    {
-      "id": "a863537704a1",
-      "title": "Amazon is making an Alexa phone",
-      "url": "https://www.theverge.com/tech/897915/amazon-transformer-alexa-phone",
-      "summary": "アマゾンはコード名「Transformer」の新スマホを開発中。Alexaを中心に据えるが専用OSとは限らず、J・アラード率いるZeroOneがライトフォン風のミニマルなスマホ／ダムフォン案を検討している。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-20T13:42:51.000Z",
-      "contentHash": "da2b42502e2c"
-    },
-    {
-      "id": "79d627acddba",
-      "title": "I'm OK being left behind, thanks",
-      "url": "https://shkspr.mobi/blog/2026/03/im-ok-being-left-behind-thanks/",
-      "summary": "著者は暗号通貨やAIの早期導入を促すFOMOを批判し、未成熟で使えないツールに飛びつく必要はないと主張する。安定し有用になってから自分のペースで学べば十分で、初期投資は無駄になることが多いと述べる。ワクチン試験は例外と認める。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-20T13:38:56.000Z",
-      "contentHash": "5d883157e66a"
-    },
-    {
-      "id": "15874dbee427",
-      "title": "Why people really hate AI",
-      "url": "https://www.theverge.com/podcast/897900/ai-trust-gap-killer-app-vergecast",
-      "summary": "企業はAI普及を急ぐが、世間は懐疑的。研究は人々が懸念を抱き利点に見合わないと示す。The VergecastのDavidとNilayが、水問題や“悲観CEO”ではない別の単純な原因を探る。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-20T13:27:53.000Z",
-      "contentHash": "6a4b0d94d0ca"
     }
   ]
 }
