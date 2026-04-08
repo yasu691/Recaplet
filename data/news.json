@@ -1,6 +1,240 @@
 {
-  "generatedAt": "2026-04-07T17:25:39.310Z",
+  "generatedAt": "2026-04-08T03:10:39.616Z",
   "items": [
+    {
+      "id": "9c6e827ed76a",
+      "title": "セキュリティエンジニアはこう見る。開発時に認可制御不備を怪しむべき実装パターン10選 | GMO Flatt Security Blog",
+      "url": "https://blog.flatt.tech/entry/authz_assessment_view",
+      "summary": "認可制御不備の原因と診断着眼点を解説する記事。所有権確認や親子関係の欠落が主因で自動検知が難しいがLLMで補完可能。開発時に注意すべき10の実装パターン（連番ID、推測可能値、曖昧な権限境界等）を具体例と診断視点で示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T01:30:00.000Z",
+      "contentHash": "512c7afe894d"
+    },
+    {
+      "id": "1e24cc4e7126",
+      "title": "DuckDBとTaskfileで作るBQ×スプレッドシートの使い捨てEDA環境 | エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/2026/04/08/101840",
+      "summary": "DuckDBとTaskfileで、BigQueryとGoogleスプレッドシートを1つのSQLで横断する使い捨てEDA環境を提案。BQ/GSheets拡張でJOINし、ローカルキャッシュで高速化・課金ゼロ。Taskfileで軽量ワークフローとキャッシュ戦略を実装し、結果をスプレッドシートへ書き戻せる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T01:18:40.000Z",
+      "contentHash": "135a35d2cde0"
+    },
+    {
+      "id": "2185544d523f",
+      "title": "100名以上が渋谷に集まった「インハウス動画サミット2026」── 企画の裏側と満足度97.3%の理由 | GMO Developers",
+      "url": "https://developers.gmo.jp/technology/81641/",
+      "summary": "GMOインターネットグループの映像領域エキスパート、加藤優真の自己紹介。GMOインターネット（ドメイン・クラウド事業本部）クリエイティブ部映像チームのリーダーとして、ConoHaに関する映像制作などを担当している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T01:00:00.000Z",
+      "contentHash": "c1e0197a6640"
+    },
+    {
+      "id": "4dae70e593b4",
+      "title": "【Dify】運用改善への取り組み：AI技術の活用 | IDCF テックブログ",
+      "url": "https://blog.idcf.jp/entry/dify-inquiry-ai",
+      "summary": "運用システム部は社内問合せをAI化。社外秘保護でDifyをセルフホストし、Gemini 3.1＋埋め込みでマニュアル検索→回答案生成のワークフローを構築。誤応答対策に資料をQ&A化・参照範囲を問い合わせ種別で絞り、HITL承認機能も検証中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T01:00:00.000Z",
+      "contentHash": "eceefca6cda1"
+    },
+    {
+      "id": "d5469560e45a",
+      "title": "【MatsuribaMAX 2026参加レポート】東海一熱い学生エンジニアコミュニティ | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/04/08/100000",
+      "summary": "Sansan中部支店はMatsuribaMAX2026にゴールド協賛で企業ブース出展。デジタル名刺体験を提供し、学生の高い技術力（SNS連携カレンダー、アーケード風音ゲー、言葉で魔法を使うRPG等）に刺激を受けた。地域コミュニティとの継続的交流やイベント・インターン参加を呼びかける。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T01:00:00.000Z",
+      "contentHash": "1e7f9db36ccf"
+    },
+    {
+      "id": "414f1d2e5f83",
+      "title": "【2026年度】入社式を執り行いました！ | アドグローブブログ | 渋谷のIT会社",
+      "url": "https://blog.adglobe.co.jp/entry/2026/04/08/100000",
+      "summary": "アドグローブは4月1日に2026年度入社式を開催し、ソリューション10名・ゲーム5名・営業1名の計16名を迎えた。小林社長は「毎日元気に出勤」と「コミュニケーションを増やす」ことを訴え、新入社員代表も成長意欲を表明。東京・大阪を結ぶ式は記念撮影で締めくくられた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T01:00:00.000Z",
+      "contentHash": "54c9c014e14b"
+    },
+    {
+      "id": "a965bad89e66",
+      "title": "その変数、本当に値が入っていますか？ ～Agent Scriptの実行順序の落とし穴～ | フレクトのクラウドblog",
+      "url": "https://cloud.flect.co.jp/entry/2026/04/08/100000",
+      "summary": "Agent Scriptの実行順序の落とし穴。Flow実行で得た値をinstructions内で使おうとしたが、変数が展開される前にLLMに渡され空になり期待通り動作しなかった。文法だけでなく代入タイミングを確認せよ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T01:00:00.000Z",
+      "contentHash": "bc49cfefd063"
+    },
+    {
+      "id": "cd06e3bf236f",
+      "title": "マネーフォワードはRubyKaigi 2026にスポンサーします！ #rubykaigi | Money Forward Developers Blog",
+      "url": "https://moneyforward-dev.jp/entry/2026/04/08/100000",
+      "summary": "マネーフォワードは2026年4月22〜24日のRubyKaigi（函館）にGoldスポンサーとして参加。社内から多様なメンバーが集まりブースは無し。筆者はPM転身後初参加で、地元パン屋巡りや開催地作家の小説を読むなどの独自ルールでカンファレンスを楽しむ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T01:00:00.000Z",
+      "contentHash": "7e92a2676bb7"
+    },
+    {
+      "id": "242d339eb3da",
+      "title": "DGX Spark で Parakeet TDT-CTC 0.6B JA を試す",
+      "url": "https://note.com/npaka/n/nd9a5ebcc5531",
+      "summary": "DGX SparkでNVIDIAの日本語ASR「Parakeet TDT-CTC 0.6B JA」を検証。Cohere TranscribeのOSS化で比較を更新したが、Parakeetが総合1位。話し方によってはCohereが優れる場合もあり、導入手順と音声ファイル／リアルタイム文字起こしのコード例を掲載。",
+      "source": "npaka",
+      "publishedAt": "2026-04-08T00:59:09.000Z",
+      "contentHash": "7e773b5c566f"
+    },
+    {
+      "id": "6342ae43d48e",
+      "title": "ブランチ戦略の見直しで開発・リリースの負担を解消しました！ | ASKUL Engineering BLOG",
+      "url": "https://tech.askul.co.jp/entry/2026/04/08/094045",
+      "summary": "アスクルのたいち氏は、2025年9月の「ソロエルアリーナ」スマホ対応を無事リリースできた要因としてブランチ戦略の見直しを挙げる。従来はdevelop／epic／envの多数ブランチと手動マージで管理負担が大きく、案件間依存や環境の固定化でリリースコストが増えていた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-08T00:40:45.000Z",
+      "contentHash": "8045a11c6835"
+    },
+    {
+      "id": "1418c5036309",
+      "title": "US and Iran agree to provisional ceasefire",
+      "url": "https://www.theguardian.com/us-news/2026/apr/07/trump-iran-war-ceasefire",
+      "summary": "外部リンクに直接アクセスできないため、その記事本文をここに貼っていただけますか？あるいは記事のタイトルと公開日を教えてくだされば、その情報をもとに200文字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-07T22:41:02.000Z",
+      "contentHash": "2d6950b5923c"
+    },
+    {
+      "id": "4087268f7428",
+      "title": "Nothing’s noise-canceling CMF Buds 2A are down to $19.99 for the rest of today",
+      "url": "https://www.theverge.com/gadgets/908409/nothing-cmf-buds-2a-earbuds-amazon-lightning-deal-sale",
+      "summary": "Nothingの格安イヤホンCMF Buds 2Aが4月7日11:15PM ETまでAmazonで19.99ドル（29ドルオフ）に。ANC約42dB、トランスペアレンシー、調整可能なEQやアプリ対応、IP54。音はやや薄め。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-07T22:16:21.000Z",
+      "contentHash": "1ca2a7d260c8"
+    },
+    {
+      "id": "3a2e34ba1dac",
+      "title": "Amazon is ending support for older Kindles and Kindle Fires",
+      "url": "https://www.theverge.com/tech/908302/amazon-ending-support-kindle-fire-tablet-e-reader-pre-2012-older",
+      "summary": "Amazonは2026年5月20日から2012年以前発売のKindle端末とKindle FireでKindleストアから新たな購入・借用・ダウンロードができなくなると発表。既存書籍は読め、購入履歴はアプリ・ウェブ・新機種で確認可能。リセット後は再登録不可。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-07T21:44:20.000Z",
+      "contentHash": "a89749d79f62"
+    },
+    {
+      "id": "ff8e8d6b0788",
+      "title": "Bitcoin and quantum computing",
+      "url": "https://nehanarula.org/2026/04/03/bitcoin-and-quantum-computing.html",
+      "summary": "量子コンピュータはShorでECDSA秘密鍵を破る理論があるが、BTCでは公開鍵は通常支出時に初めて露出するため未使用アドレスは比較的安全。マイニングへの影響はGroverで二乗速くなる程度で実用的脅威は小さい。実用化時期は不確実で、移行はポスト量子署名やハイブリッド署名、アドレス使い回し回避などで備えるべき、という内容。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-07T20:56:23.000Z",
+      "contentHash": "79f6bc92be22"
+    },
+    {
+      "id": "4bf8624cde60",
+      "title": "Spotify&#8217;s Prompted Playlists can help you find new podcasts to listen to",
+      "url": "https://www.theverge.com/entertainment/908339/spotify-prompted-playlists-podcasts",
+      "summary": "SpotifyがPrompted Playlistsをポッドキャスト対応に拡張。Premiumユーザーはテキストで好みを指定してポッドキャストのDiscover Weekly風プレイリストを生成可能。元は音楽向けβで、英語のみの提供（米・英・加・アイルランド・豪・NZ・スウェーデン）。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-07T20:13:23.000Z",
+      "contentHash": "ad35fa27bef2"
+    },
+    {
+      "id": "d3f29ee293c4",
+      "title": "S3 Files",
+      "url": "https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html",
+      "summary": "外部リンク先を直接参照できないため、記事本文をここに貼っていただくか、主要ポイントを教えてください。貼っていただければ200文字以内で日本語要約を作成します。Hacker Newsの議論要約でもよければその旨を教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-07T19:44:01.000Z",
+      "contentHash": "9ced589b3fbd"
+    },
+    {
+      "id": "cee7228fc0f2",
+      "title": "Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon",
+      "url": "https://github.com/mattmireles/gemma-tuner-multimodal",
+      "summary": "M2 UltraのMacで限られた計算資源でWhisperを微調整。GCSの15,000時間を学習時にストリーミングし、Gemma 3n→4対応を追加。64GBで長シーケンスはOOMしやすく、MLX非対応のため公開した副プロジェクト。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-07T19:37:05.000Z",
+      "contentHash": "401d86fad2b2"
+    },
+    {
+      "id": "41a4f6a2d81d",
+      "title": "You can now turn 2D apps into 3D while using the Galaxy XR headset",
+      "url": "https://www.theverge.com/tech/908268/android-xr-samsung-galaxy-auto-spatialization-2d-3d",
+      "summary": "GoogleがAndroid XRで実験的機能「auto-spatialization」をGalaxy XRに導入。2Dのアプリ・画像・動画・ウェブを3D空間化して表示。1080p/30fps以下対応でバッテリー消費は増加、フォーカス中のウィンドウのみ有効。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-07T19:07:12.000Z",
+      "contentHash": "61177ea34951"
+    },
+    {
+      "id": "3b76dd7ff765",
+      "title": "I wish this selfie phone case was better for selfies",
+      "url": "https://www.theverge.com/tech/908251/dockcase-selfix-selfie-phone-case-hands-on",
+      "summary": "iPhone 17 Pro向けのSelfixケースは背面の丸い小画面でメインカメラを使った自撮りを可能にする面白い発想だが、実用面で問題が多く期待通りに機能しない。前面カメラは改善したが背面の方が低照度やポートレートで優れる。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-07T19:05:00.000Z",
+      "contentHash": "7a1de742324c"
+    },
+    {
+      "id": "890d9234aecc",
+      "title": "System Card: Claude Mythos Preview [pdf]",
+      "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
+      "summary": "外部リンクへ直接アクセスできないため、記事本文を貼るか、どの記事（Project Glasswing／Claude Mythosのどちら）を要約するか教えてください。本文があれば200字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-07T18:18:36.000Z",
+      "contentHash": "bdc05b78357a"
+    },
+    {
+      "id": "c90fe530630a",
+      "title": "Samsung’s Galaxy S26 Ultra is $200 off for the first time",
+      "url": "https://www.theverge.com/gadgets/908196/samsung-galaxy-s26-ultra-privacy-display-deal-sale-unlocked",
+      "summary": "サムスンのGalaxy S26 Ultra（256GB）が初めて$200引きで$1,099.99に。通勤等の覗き見を防ぐPrivacy Displayが好評で、Amazon・Samsung・Best Buyで販売。S26 Plusより約$100高。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-07T18:16:52.000Z",
+      "contentHash": "5a2de3b6cd09"
+    },
+    {
+      "id": "b4a7c378a401",
+      "title": "Assessing Claude Mythos Preview's cybersecurity capabilities",
+      "url": "https://red.anthropic.com/2026/mythos-preview/",
+      "summary": "AnthropicがProject Glasswingを発表し、AI時代の重要ソフト保護を目指す。Claude Mythosのシステムカード公開と併せ、安全性や透明性の確保の必要性が議論されている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-07T18:11:31.000Z",
+      "contentHash": "6a63286b0f50"
+    },
+    {
+      "id": "b0e284183065",
+      "title": "Project Glasswing: Securing critical software for the AI era",
+      "url": "https://www.anthropic.com/glasswing",
+      "summary": "Anthropicの新モデル「Claude Mythos Preview」のシステムカード公開とサイバーセキュリティ評価がHNで活発に議論。脆弱性や誤用対策、Project Glasswingの必要性が指摘され注目を集めている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-07T18:09:34.000Z",
+      "contentHash": "ef8ac9ea7851"
+    },
+    {
+      "id": "88f2c25b3753",
+      "title": "A new Anthropic model found security problems &#8216;in every major operating system and web browser&#8217;",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/908114/anthropic-project-glasswing-cybersecurity",
+      "summary": "AnthropicはProject Glasswingで新AIモデル（Claude Mythos Preview）を発表。NvidiaやGoogleらと協力し、防御目的で主要OSやブラウザの脆弱性をほぼ自動検出。公開はせず防御関係者のみに提供。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-07T18:00:00.000Z",
+      "contentHash": "5d4d07f3d085"
+    },
+    {
+      "id": "6d8335bcad01",
+      "title": "A whole civilization might die tonight",
+      "url": "https://www.nbcnews.com/politics/white-house/trump-threat-whole-civilization-will-die-iran-war-deadline-hormuz-rcna267059",
+      "summary": "NBCは、トランプ氏がホルムズ海峡でのイランの行動に対し「文明全体が失われる」と受け取れる強い恫喝を口にしたと報道。専門家や政界からは無責任だと批判が出ており、緊張と外交リスクの懸念が高まっている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-07T17:31:41.000Z",
+      "contentHash": "816a694881b1"
+    },
+    {
+      "id": "ecedf8bcfb34",
+      "title": "Cambodia unveils statue to honour famous landmine-sniffing rat",
+      "url": "https://www.bbc.com/news/articles/c0rx7xzd10xo",
+      "summary": "すみませんが、外部サイトに直接アクセスできないため指定URLの記事を取得できません。記事本文（または要点）をここに貼り付けていただければ、200文字以内で日本語要約を作成します。HNコメントも要約希望なら、そちらも貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-07T17:23:43.000Z",
+      "contentHash": "65eea642e074"
+    },
     {
       "id": "2debe5514089",
       "title": "The rugged Bose Soundlink Flex is 25 percent off right now",
@@ -18,6 +252,15 @@
       "source": "The Verge",
       "publishedAt": "2026-04-07T17:00:00.000Z",
       "contentHash": "49a9eb05ac50"
+    },
+    {
+      "id": "22dca9f73507",
+      "title": "Rescuing old printers with an in-browser Linux VM bridged to WebUSB over USB/IP",
+      "url": "https://printervention.app/details",
+      "summary": "申し訳ありませんが外部サイトに直接アクセスできません。記事本文を貼り付けるか要点を教えてください。いただければ200字以内で要約します。HNコメントの要約も可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-07T16:33:57.000Z",
+      "contentHash": "153c699bad13"
     },
     {
       "id": "b9530986bb50",
@@ -99,6 +342,15 @@
       "source": "The Verge",
       "publishedAt": "2026-04-07T14:00:00.000Z",
       "contentHash": "69be0814c06b"
+    },
+    {
+      "id": "7236fd9ca299",
+      "title": "XMCP を試す",
+      "url": "https://note.com/npaka/n/nae69651a3c79",
+      "summary": "XMCPはAIツール向けにX APIを仲介するMCPサーバ。自体は無料だがX API/xAIの利用料が必要。X Developer Consoleでキーを取得し、xmcpをクローン・設定してserver.pyを起動、Claude Desktopから接続してユーザー情報取得や投稿検索が可能。",
+      "source": "npaka",
+      "publishedAt": "2026-04-07T13:40:56.000Z",
+      "contentHash": "653db15b8fae"
     },
     {
       "id": "e5e7fa55360a",
@@ -1067,10 +1319,10 @@
       "id": "621a2382395b",
       "title": "秋葉原ロボットほこ天 まとめ",
       "url": "https://note.com/npaka/n/na67555d47f79",
-      "summary": "2026年4月5日、秋葉原UDXで「秋葉原ロボットほこ天」が開催。DigiKeyやJLCPCBら多数企業が出展し、ロボットパレード・デモや操縦体験、搬送ロボやサッカーデモなど盛況で入場無料。",
+      "summary": "2026年4月5日、秋葉原UDXで「秋葉原ロボットほこ天」開催。DigiKeyやJLCPCBら企業出展、ダンスや操縦体験、搬送・倒立・サッカーロボットなど多彩なデモで賑わい、大盛況だった。",
       "source": "npaka",
       "publishedAt": "2026-04-05T13:36:20.000Z",
-      "contentHash": "337d7a1de6e3"
+      "contentHash": "c8dd6da211c8"
     },
     {
       "id": "145aa752a569",
@@ -1913,10 +2165,10 @@
       "id": "e0feb3e80459",
       "title": "Gemma 4 の動画入力を試す",
       "url": "https://note.com/npaka/n/nba88e41ae055",
-      "summary": "Gemma 4は画像・音声・動画のマルチモーダル対応（E2B/E4Bは音声対応）、視覚はトークン予算（70〜1120）で解像度制御。音声30秒・動画60秒まで。ColabでGPU設定・HF_TOKEN・transformersを入れ、google/gemma-4-e2b-itで動画の文字起こしや小説化を試したところ良好だった。",
+      "summary": "Gemma 4はマルチモーダルでモデルにより対応が異なる（E2B/E4Bは音声含む、26/31Bは画像のみ）。画像音声はテキスト前に配置。視覚トークン予算(70〜1120)で解像度と速度を調整。音声30秒、動画60秒まで。ASR/ASTのプロンプト形式あり。ColabでGPU・HFトークン・transformersを使い google/gemma-4-e2b-it を試し、文字起こしや小説化が良好だった。",
       "source": "npaka",
       "publishedAt": "2026-04-03T06:53:55.000Z",
-      "contentHash": "6262c2a99094"
+      "contentHash": "b4264aa2825f"
     },
     {
       "id": "6061ecfbe7ee",
@@ -1958,10 +2210,10 @@
       "id": "b334d06c85bb",
       "title": "Gemma 4 の概要",
       "url": "https://note.com/npaka/n/n240f81855918",
-      "summary": "「Gemma 4」をApache 2.0で公開。E2B/E4B（128KB）、26B MoE/31B Dense（256KB）の4種で、高度な推論・エージェント機能、関数呼び出し、コード生成、画像・音声処理、長文（最大256KB）、140以上言語対応。",
+      "summary": "Gemma 4を公開。E2B/E4B(128k)、26B MoE/31B Dense(256k)の4サイズで、高度な推論・エージェントワークフロー・コード生成・画像・音声処理をネイティブ対応。Apache 2.0で公開、140以上の言語と多様なハードウェアに最適化。",
       "source": "npaka",
       "publishedAt": "2026-04-02T21:22:05.000Z",
-      "contentHash": "e0f0c91b928c"
+      "contentHash": "8648c40d765f"
     },
     {
       "id": "29592cfbfcf0",
@@ -8748,258 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-03-20T13:27:53.000Z",
       "contentHash": "6a4b0d94d0ca"
-    },
-    {
-      "id": "3fec2aacb7cc",
-      "title": "HP realizes that mandatory 15-minute support call wait times isn't good support",
-      "url": "https://arstechnica.com/gadgets/2025/02/misguided-hp-customer-support-approach-included-forced-15-minute-call-wait-times/",
-      "summary": "HPは英国・フランス・ドイツ・アイルランド・イタリアの電話サポートで、顧客をデジタル自己解決に誘導するために強制的な15分待ちアナウンスを導入したが、反発を受け撤回した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-20T13:23:56.000Z",
-      "contentHash": "8334584342fd"
-    },
-    {
-      "id": "d103a8fde4d6",
-      "title": "楽しくなってきたので、Claude Codeで、気分でspinnerVerbsを設定できるカスタムスラッシュコマンドを・・・ | ちゅらデータ株式会社のフィード",
-      "url": "https://zenn.dev/churadata/articles/7110f0aca0858a",
-      "summary": "ちゅらデータのがくさんが生成AIで遊び感覚のツールを作成。簡単さに驚きお笑いスラッシュコマンド作りを楽しむ一方、「Claude Codeで作業効率UP」系の派手な話題は既にトップランナーがいて参入は難しいと感じている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-20T13:00:05.000Z",
-      "contentHash": "e36cd0210326"
-    },
-    {
-      "id": "e5949c75594d",
-      "title": "&#8216;Work from home,&#8217; encourages the world&#8217;s energy watchdog",
-      "url": "https://www.theverge.com/science/897874/iea-fuel-gas-shortage-recommendations-work-from-home",
-      "summary": "IEAはイラン紛争による燃料供給不安に対し、政府・企業・家庭に10の即時対策を提言。テレワークや減速運転、ガスから電気調理への切替などでエネルギー需要を削減するよう促す。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-20T12:14:38.000Z",
-      "contentHash": "459590cf477e"
-    },
-    {
-      "id": "bd9d52100381",
-      "title": "Entso-E final report on Iberian 2025 blackout",
-      "url": "https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/",
-      "summary": "2025年4月28日のスペイン・ポルトガル停電について、専門家報告は振動や電圧・無効電力制御の欠陥、発電機の切離れなどの相互作用が原因と結論。運用改善、監視強化、データ共有や規制見直しを提言し、局所事象の広域波及対策を求める。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-20T11:03:27.000Z",
-      "contentHash": "59232f8e6ddd"
-    },
-    {
-      "id": "205e34161de7",
-      "title": "Cursor Composer 2 is just Kimi K2.5 with RL",
-      "url": "https://twitter.com/fynnso/status/2034706304875602030",
-      "summary": "外部リンク先に直接アクセスできないため、元ツイート本文かHNの要点（引用やコメントの抜粋）を貼ってください。どちらを要約するか（ツイート単体／HN議論／両方）を指定いただければ、200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-20T09:41:51.000Z",
-      "contentHash": "cf8a3991e3c4"
-    },
-    {
-      "id": "84f66745f6b0",
-      "title": "uvへの一歩を踏み出したい！ | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/75442ba430e5ac",
-      "summary": "理解せず使ってきたuvを学び直し記事化。uvはAstral開発のRust製次世代Python環境構築ツールで、pipやvenvより高速にパッケージ管理・依存解決・仮想環境・Pythonバージョン管理を一体化する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-20T08:21:50.000Z",
-      "contentHash": "419a0b6a9447"
-    },
-    {
-      "id": "15cb0a33d6e3",
-      "title": "EC2に「アクセスキー」は眠っていませんか？流出事案に学ぶ構成見直しリスト | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/ec2-access-key-security-checklist",
-      "summary": "AWSのアクセスキー流出事案を受け、対応から収束、再発防止策を整理。AWSの4ステップ（キー無効化・CloudTrail確認・不要資源削除・報告）を実行し、提言は「キーを持たない設計」「自動ローテーション」「権限絞り込みと異常検知」。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-20T07:54:55.000Z",
-      "contentHash": "80bf81ff2fd2"
-    },
-    {
-      "id": "cc49fd7b2c0e",
-      "title": "ArXiv declares independence from Cornell",
-      "url": "https://www.science.org/content/article/arxiv-pioneering-preprint-server-declares-independence-cornell",
-      "summary": "プレプリントサーバーarXivがコーネル大の管理から独立し、新たな独立運営体（非営利）へ移行。資金・ガバナンスを共同で担い、サービスの持続性と中立性を確保する狙い。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-20T04:24:11.000Z",
-      "contentHash": "b8f5695e6ce8"
-    },
-    {
-      "id": "f3f2a353a7d6",
-      "title": "Google Workspace CLIとKiro CLIで週報を自動生成してみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/google-workspace-cli-kiro-weekly-report",
-      "summary": "Google Workspace CLI（gws）でGoogleカレンダーの予定を取得し、Kiro CLIに渡して週報を自動生成する手順を解説。gwsの動的コマンド生成やAIスキル、導入・OAuth設定、運用のコツも紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-20T04:00:00.000Z",
-      "contentHash": "9730552d7208"
-    },
-    {
-      "id": "44b408c71b9c",
-      "title": "ローカル実行の大規模言語モデル(LLM)を使ってAgentforceエージェントを評価する試みと結果 | フレクトのクラウドblog",
-      "url": "https://cloud.flect.co.jp/entry/2026/03/20/112522",
-      "summary": "佐藤氏はAgentforceエージェント評価にローカル実行LLMを提案。非決定性やモデル更新の影響を避けるため、OpenVINOで小型モデルをCPU実行し、質問と模範解答の比較で自動評価する手法と利点・制約を検証。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-20T02:25:22.000Z",
-      "contentHash": "af67eed26630"
-    },
-    {
-      "id": "c94c161c6cfd",
-      "title": "Full Disclosure: A Third (and Fourth) Azure Sign-In Log Bypass Found",
-      "url": "https://trustedsec.com/blog/full-disclosure-a-third-and-fourth-azure-sign-in-log-bypass-found",
-      "summary": "2026年、研究者nyxgeekがAzure Entra IDの3・4番目のサインインログ回避を発見（既に修正）。特殊なログインで有効トークンを取得してもサインインログに残らず検出困難で、過去事例とKQLによる検出法を解説。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-20T01:09:45.000Z",
-      "contentHash": "9d5c3818a691"
-    },
-    {
-      "id": "0e48089324b6",
-      "title": "Valve’s huge SteamOS 3.8 update adds long-awaited features — and supports Steam Machine",
-      "url": "https://www.theverge.com/games/897765/valve-steamos-3-8-update-steam-deck-hibernation-steam-machine-xbox-ally",
-      "summary": "ValveがSteamOS 3.8のプレビューを公開。Steam Machine対応に加え、Steam Deckのハイバネーション、Bluetoothヘッドセットのマイク対応、Xbox AllyやLegion Go 2など多数の携帯機を新たにサポートします。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-20T00:34:04.000Z",
-      "contentHash": "a3a597b7fd37"
-    },
-    {
-      "id": "b504b16805fd",
-      "title": "Drugwars for the TI-82/83/83 Calculators (2011)",
-      "url": "https://gist.github.com/mattmanning/1002653/b7a1e88479a10eaae3bd5298b8b2c86e16fb4404",
-      "summary": "TI-82/83電卓用の『Drugwars』プログラム（Ver.2.00）。John E. DellのIBM原作を移植した売買シミュレーションで、薬物の価格変動を利用して借金を返し、30日で利益を狙う。警察の摘発リスクあり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-20T00:26:47.000Z",
-      "contentHash": "ee0ba03e9e3c"
-    },
-    {
-      "id": "a5b416ea8df4",
-      "title": "Push events into a running session with channels",
-      "url": "https://code.claude.com/docs/en/channels",
-      "summary": "MCPサーバーからチャンネル経由でメッセージ・アラート・WebhookをClaude Codeへ送り、CI結果や監視イベントで自動応答させる方法。Telegram/Discordボット作成（プラグイン導入、トークン設定、再起動、アカウント連携）とfakechatチャンネル導入でメッセージ送信。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-20T00:22:08.000Z",
-      "contentHash": "065d260ed060"
-    },
-    {
-      "id": "f4e08c341cab",
-      "title": "OpenAI is planning a desktop ‘superapp’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/897778/openai-chatgpt-codex-atlas-browser-superapp",
-      "summary": "OpenAIはChatGPT、Codex、Atlasブラウザを統合したデスクトップ「スーパ―アプリ」を開発中。製品の分散解消で品質向上と競合（Anthropic）対策が狙い。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-20T00:09:38.000Z",
-      "contentHash": "512626abd996"
-    },
-    {
-      "id": "a4035b929e82",
-      "title": "Wayland set the Linux Desktop back by 10 years?",
-      "url": "https://omar.yt/posts/wayland-set-the-linux-desktop-back-by-10-years",
-      "summary": "Waylandは誤った方向で時間と開発資源を浪費し、Linuxデスクトップを約10年遅らせたと主張。X11の問題点や修復可否、新規置換の目的と所要期間を技術的に総括する記事。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-20T00:01:40.000Z",
-      "contentHash": "6e42c5008a5c"
-    },
-    {
-      "id": "754acb5ec761",
-      "title": "2段階認証が原因でGoogleアカウントにログインできない場合の解決策 | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/locked-out-of-google-account-due-to-2fa",
-      "summary": "2段階認証で登録電話が使えずログインできない場合の対策。まず「別の方法を試す」で信頼済み端末、再設定用メール、バックアップコードを確認。Workspaceなら管理者が一時無効化やコード発行可。個人は復旧ページで身元確認（普段の端末・場所・ブラウザ推奨）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-20T00:00:00.000Z",
-      "contentHash": "85cd8f184b4c"
-    },
-    {
-      "id": "a47140421c80",
-      "title": "Bombarding gamblers with offers greatly increases betting and gambling harm",
-      "url": "https://www.bristol.ac.uk/news/2026/march/bombarding-gamblers-with-offers-greatly-increases-betting-and-gambling-harm.html",
-      "summary": "オーストラリア・セントラルクイーンズランド大と英ブリストル大の研究（Addiction）で、直接メール等のギャンブル販促を停止した参加者は賭け数が23%減、支出39%減、短期被害67%減だった。販促が賭博被害を因果的に増やすことを示し、規制強化を提言。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-19T22:59:18.000Z",
-      "contentHash": "290574044d4d"
-    },
-    {
-      "id": "f7ae0da63be4",
-      "title": "RAGの検索精度を爆上げする「インデックス最適化」3選：MultiVector, RAPTOR, ColBERTを徹底比較 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/c8c88d40e0495b",
-      "summary": "RAGの検索精度を上げるためのインデックス最適化3手法を比較。MultiVectorは要約・想定質問・小チャンクで複数ベクトルを紐付け、RAPTORは再帰的階層要約で大規模文書を段階処理、ColBERTは語単位でベクトル化して高精度検索を実現。用途やコスト、実装難易度も解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-19T22:56:32.000Z",
-      "contentHash": "07a0fdeb3021"
-    },
-    {
-      "id": "752794e73e91",
-      "title": "Google AI Studio のフルスタックバイブコーディング機能の概要",
-      "url": "https://note.com/npaka/n/n77bf70d9b349",
-      "summary": "Google AI Studioが「full-stack vibe」コーディング体験を導入。開発、モデル作成、テスト、デプロイ、コラボを統合し、迅速なプロトタイピングと運用を容易にすることを目指す機能強化の紹介です。",
-      "source": "npaka",
-      "publishedAt": "2026-03-19T22:14:29.000Z",
-      "contentHash": "7526b9f343ed"
-    },
-    {
-      "id": "ca3ecd33c923",
-      "title": "Sony’s new WF-1000XM6 earbuds are already on sale for $30 off",
-      "url": "https://www.theverge.com/gadgets/897668/sony-wf-1000xm6-wireless-earbuds-deal-sale",
-      "summary": "ソニーの高級ワイヤレスイヤホンWF-1000XM6が初の値引きで約30ドルオフの約298ドルに。Amazon／Best Buy／ソニー直販で販売中。最上級のノイズキャンセルと音質（通常329ドル）。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-19T21:25:00.000Z",
-      "contentHash": "ce7240e18f2b"
-    },
-    {
-      "id": "16053586d0be",
-      "title": "Be intentional about how AI changes your codebase",
-      "url": "https://aicode.swerdlow.dev",
-      "summary": "AIが生成するコードは意図的に設計するべきだ。コードは自己文書化され、セマンティック関数は最小で入出力を明確にし副作用を避け、複雑な流れは自己説明的な小関数に分割せよ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-19T21:23:24.000Z",
-      "contentHash": "1583da5952b0"
-    },
-    {
-      "id": "fc2fcc691520",
-      "title": "Cockpit is a web-based graphical interface for servers",
-      "url": "https://github.com/cockpit-project/cockpit",
-      "summary": "Cockpitはブラウザ上で実際のLinuxセッションと連携する軽量なサーバ管理Webインターフェース。Debian/Fedora/RHEL等で導入でき、コンテナ起動、ストレージやネットワーク管理、ログ確認などが容易で、端末と双方向に連携して複数ホストをSSH経由で切り替え管理できる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-19T20:33:02.000Z",
-      "contentHash": "98cad20e8313"
-    },
-    {
-      "id": "ad6e60800f0a",
-      "title": "Waymo Safety Impact",
-      "url": "https://waymo.com/safety/impact/",
-      "summary": "Waymoは自動運転車の安全性を最優先とし、実走行と大量のシミュレーション、厳格な評価基準、透明な報告や外部評価、地域との協働により事故削減と信頼構築を目指す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-19T20:13:35.000Z",
-      "contentHash": "7cbf72054f12"
-    },
-    {
-      "id": "096e1ead5af9",
-      "title": "Tesla: Failure of the FSD's degradation detection system [pdf]",
-      "url": "https://static.nhtsa.gov/odi/inv/2026/INOA-EA26002-10023.pdf",
-      "summary": "NHTSAがテスラの高度運転支援機能について予備調査（EA26002）を開始。複数の関連事故報告を受け、車両ログやソフト動作などの情報提供をテスラに要求し安全性評価を進める内容。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-19T20:09:02.000Z",
-      "contentHash": "f7516db4528a"
-    },
-    {
-      "id": "a205f65a7d9f",
-      "title": "Marc Andreessen is a philosophical zombie",
-      "url": "https://www.theverge.com/tldr/897566/marc-andreessen-is-a-philosophical-zombie",
-      "summary": "ザ・ヴァージのエリザベス・ロパットは、シリコンバレーが思考実験の「哲学的ゾンビ」を現実化したと指摘し、マーク・アンドリーセンらの内面や共感の欠如を批判する記事を伝える。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-19T20:07:54.000Z",
-      "contentHash": "6498fb12ad55"
-    },
-    {
-      "id": "70ed0c49e1f2",
-      "title": "The coolest game controller for your phone is $50 off",
-      "url": "https://www.theverge.com/gadgets/897465/ohsnap-mcon-phone-controller-deal-sale",
-      "summary": "OhSnapのMCONは、MagSafe/Pixelsnap対応や粘着リングでスマホを装着し、ボタンで端末が跳ね上がるとGameSir製スティック等の操作系が現れる多機能コントローラー。発売時150ドルがメーカー直販で99.99ドルに割引。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-19T19:47:45.000Z",
-      "contentHash": "de3a9926f4aa"
-    },
-    {
-      "id": "0fdacdc7fea0",
-      "title": "Anthropic takes legal action against OpenCode",
-      "url": "https://github.com/anomalyco/opencode/pull/18186",
-      "summary": "GitHubリポジトリ anomalyco/opencode のページ断片。通知設定やフォーク・スター・Issue・Pull Requestの数表示と、プルリクエスト関連の内部JSONチャネル情報が含まれている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-19T19:37:26.000Z",
-      "contentHash": "249a915afbd6"
     }
   ]
 }
