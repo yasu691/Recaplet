@@ -1,6 +1,222 @@
 {
-  "generatedAt": "2026-04-08T17:29:45.400Z",
+  "generatedAt": "2026-04-09T02:51:34.521Z",
   "items": [
+    {
+      "id": "72362a652560",
+      "title": "スクラムイベントでのAI活用 ── 叩き台を作る運用と、やめた運用 | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/04/09/100119",
+      "summary": "SmartHRのチームはNotion AIでSlack/GitHub/Jiraを横断しスクラムイベントの叩き台を自動生成。レトロでGKPTや具体的な称賛、PBRで受け入れ条件や観点チェックを事前作成して議論短縮。期間外情報や担当誤認はプロンプト改善で対処し、デイリーは試して断念した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-09T01:01:19.000Z",
+      "contentHash": "3667a8be0d73"
+    },
+    {
+      "id": "3a1182a56a1e",
+      "title": "アンドパッドは RubyKaigi 2026 で立ち読み喫茶と本のプレゼント企画をやります | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/04/09/100000",
+      "summary": "アンドパッドはRubyKaigi 2026で「立ち読み喫茶」を開催します。Rubyistが選んだ技術書をコーヒー片手に立ち読みでき、選者や著者と話せる場を提供。本屋と協力し会期中毎日書籍プレゼントも実施。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-09T01:00:00.000Z",
+      "contentHash": "114f97071a52"
+    },
+    {
+      "id": "c348d6fd92c8",
+      "title": "【イベントレポート・前編】インハウス動画サミット2026｜「愛」がつなぐ、インハウス動画クリエイターの未来 | GMO Developers",
+      "url": "https://developers.gmo.jp/events/80979/",
+      "summary": "本イベントは株式会社Vookと共催で、急増するインハウス動画制作について議論しました。動画の内製化は単なるコスト削減から、企業成長を支える中核的取り組みへと進化している点を共有しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-09T01:00:00.000Z",
+      "contentHash": "96318b18f579"
+    },
+    {
+      "id": "4d4294a3b635",
+      "title": "Figma MCPだけではUIは作れない ── AIに不足していた知識の正体と補い方 | OPTiM TECH BLOG",
+      "url": "https://tech-blog.optim.co.jp/entry/2026/04/09/100000",
+      "summary": "フロントエンドエンジニアがFigma MCPでUI自動生成を試行。初期はMUIやデザイントークンなど前提知識不足で精度が低かったが、AIやMUI MCPの進化で改善。Agent Skillsで設計ルールやライブラリ使用法を明示し、few-shotの実装例カタログを参照させることで誤実装を回避。設計対話型Skillsで約10分でほぼ修正不要のUI生成を達成。重要なのは知識の整理、適切なツール選択、段階的解決。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-09T01:00:00.000Z",
+      "contentHash": "18256353226b"
+    },
+    {
+      "id": "818c7b6119b5",
+      "title": "Bill Oneのデータ分析エージェントをインターンで開発した話 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/04/09/100000",
+      "summary": "Sansan CTO室でインターンした広瀬エイトルが、Bill Oneのデータを自然言語で検索・集計・可視化する分析エージェントを約1.5カ月で開発。技術選定や詰まった点を解説（本人同意）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-09T01:00:00.000Z",
+      "contentHash": "43ecf728eabf"
+    },
+    {
+      "id": "ed38b57e7f77",
+      "title": "新Linuxカーネル解読室 - タスクスケジューラ (その4) | VA Linux エンジニアブログ  ",
+      "url": "https://www.valinux.co.jp/blog/entry/20260409",
+      "summary": "タスクスケジューラ解説シリーズ最終回。どのCPUでタスクを実行するかに焦点を当て、CPU選択とロードバランスの仕組みを実装ベースで解説。SCHED_FAIRとSCHED_RTの配置最適化を深掘り。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-09T01:00:00.000Z",
+      "contentHash": "30db783a0cc9"
+    },
+    {
+      "id": "944971779cce",
+      "title": "Claude Code と進める Ingress から Gateway への移行 | エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/ingress-to-gateway-with-claude-code",
+      "summary": "AI・機械学習チームの苅野によるブログリレー9日目。前日はDuckDBとTaskfileでのEDA解説。劇場版コナン新作公開に合わせ関連エピソードを紹介し、チームは機械学習基盤にGKEを利用している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-09T01:00:00.000Z",
+      "contentHash": "1e27b9003a17"
+    },
+    {
+      "id": "02d83c636c01",
+      "title": "ゼロから始めた Musubi インフラ IaC 化の軌跡 — 課題解決と工夫の記録 | KAKEHASHI Tech Blog",
+      "url": "https://kakehashi-dev.hatenablog.com/entry/2026/04/09/100000",
+      "summary": "IaC化の背景と4つの課題（管掌未明文化、IaCツール乱立、デプロイリポジトリ未体系化、Serverlessの有償化）と対策を解説。Terraform構成、CI/CD並列化、OIDCでIAM廃止、ドリフト検出、PR運用などの実践を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-09T01:00:00.000Z",
+      "contentHash": "1b7a78a35a2b"
+    },
+    {
+      "id": "bd7b1ddfd88a",
+      "title": "「気をつけます」を卒業する。GeminiのGemsで構築する「折れない」なぜなぜ分析 | 虎の穴ラボ技術ブログ",
+      "url": "https://toranoana-lab.hatenablog.com/entry/2026/04/09/100000",
+      "summary": "「『以後気をつけます』は再発防止にならない。感情や忖度を排してシステム障害の真因を特定するため、GeminiのGemsを使った論理の破綻を許さないAI聞き役によるなぜなぜ分析の実践記録と、組織改善に向けた具体的プロンプトを紹介。」",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-09T01:00:00.000Z",
+      "contentHash": "9056a8f3d1ef"
+    },
+    {
+      "id": "b9b4c2f000e6",
+      "title": "Cursor3.0を触ってみる | NEXTSCAPE blog",
+      "url": "https://blog.nextscape.net/archives/2026/04/09/093714",
+      "summary": "Cursor 3.0の新機能「Agents Window」「Design Mode」を実際に検証し、AIエージェントによる設計・実装・レビューの開発フローと各機能の使い方を紹介する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-09T00:37:14.000Z",
+      "contentHash": "2973bc312fe9"
+    },
+    {
+      "id": "44c924e052da",
+      "title": "LittleSnitch for Linux",
+      "url": "https://obdev.at/products/littlesnitch-linux/index.html",
+      "summary": "製品とサイトメニューの一覧。Little Snitch、Little Snitch Mini、Micro Snitch、LaunchBar、Internet Access Policy Viewerなどの製品名と、Shop、Support、Blogへのリンクを示している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-09T00:26:08.000Z",
+      "contentHash": "80ed30066379"
+    },
+    {
+      "id": "23710cd51933",
+      "title": "Gemini gets notebooks to help you organize projects",
+      "url": "https://www.theverge.com/tech/909031/google-gemini-notebooks-notebooklm",
+      "summary": "GoogleのGeminiに「notebooks」機能が追加。ファイルや過去会話、カスタム指示を一箇所にまとめ、会話の文脈として利用可能。ChatGPTのProjectsに類似し、NotebookLMと同期。今週ウェブで購読者向け提供。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-09T00:06:12.000Z",
+      "contentHash": "f1895e99938e"
+    },
+    {
+      "id": "071bdd11b192",
+      "title": "Dyson made a handheld version of its iconic fans",
+      "url": "https://www.theverge.com/tech/907802/dyson-hushjet-mini-cool-handheld-personal-fan-specs-availability",
+      "summary": "ダイソンがブレードレス扇風機を小型化した携帯冷却機「HushJet Mini Cool」（99ドル）を発表。可視ブレードがなく安全で、65,000rpmのブラシレスDCモーターが最大約55mphの強風を生む設計。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-09T00:01:00.000Z",
+      "contentHash": "5b9bf7b3dcd6"
+    },
+    {
+      "id": "09e412123201",
+      "title": "Show HN: Is Hormuz open yet?",
+      "url": "https://www.ishormuzopenyet.com/",
+      "summary": "データに興味があり港の開閉を調べるツールを作成。船舶追跡APIが高額なためMarineTrafficのJSONを手作業で取得し、将来はAIで定期取得予定。港情報はPortWatchに頼ったが4日遅延。ニュース解析や予測市場導入も検討したが今回は中断。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-08T21:33:06.000Z",
+      "contentHash": "1fda1ccb51ff"
+    },
+    {
+      "id": "f581a0971efb",
+      "title": "John Deere to pay $99M in right-to-repair settlement",
+      "url": "https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement",
+      "summary": "農機メーカーJohn Deereが農家との「修理権」集団訴訟で和解。Deereは9900万ドルを支払い、2018年1月以降の正規修理費の過払い分を参加者に配分（回収率26〜53%）、さらに10年間機械の診断・修理用デジタルツールを提供する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-08T20:46:27.000Z",
+      "contentHash": "c07a44cdba04"
+    },
+    {
+      "id": "c530544570a5",
+      "title": "OpenAI made economic proposals — here’s what DC thinks of them",
+      "url": "https://www.theverge.com/column/908880/openai-made-economic-proposals-heres-what-dc-thinks-of-them",
+      "summary": "The Vergeのティナ・グエンによる政治テック誌「Regulator」号。OpenAIの経済提案に対するワシントンの反応や、ホワイトハウス記者会見パーティー参加の話題、編集者の近況と寄稿募集を伝える。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-08T20:14:00.000Z",
+      "contentHash": "cadcda0f9636"
+    },
+    {
+      "id": "1111a65fe307",
+      "title": "I finally get the iPhone Air",
+      "url": "https://www.theverge.com/gadgets/908788/iphone-air-magsafe-wallet-battery-modular",
+      "summary": "Allison JohnsonはiPhone Airを「モジュール型」と評価。薄型で別の高性能機と併用する二台持ちユーザーに向くとし、当初は懐疑的だったが実際は悪くなく、以前の評価は7点だった。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-08T19:45:00.000Z",
+      "contentHash": "a798e43cbe48"
+    },
+    {
+      "id": "2e88f2fe022b",
+      "title": "The AI RAM shortage is also driving up SSD prices",
+      "url": "https://www.theverge.com/tech/908916/ssd-storage-shortages-price-increases",
+      "summary": "AI向けメモリ不足の影響でSSDやHDDの価格が急騰。例：WD Black SN850X 2TBが$173→$649、Samsung 990 Pro 4TBが$320→約$1,000、SanDisk外付けは200%高、SonyはSD/CFexpress受注停止、Frameworkも値上げ警告。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-08T19:32:49.000Z",
+      "contentHash": "10f2706b09a4"
+    },
+    {
+      "id": "9fa678a2dcef",
+      "title": "USB for Software Developers: An introduction to writing userspace USB drivers",
+      "url": "https://werwolv.net/posts/usb_for_sw_devs/",
+      "summary": "外部リンクに直接アクセスできません。記事本文を貼っていただければ正確に要約します。本文がない場合は一般的な要約を以下に示します（200字以内）:\n\nUSBの仕組みを開発者向けに解説。ホスト/デバイス、エンドポイントと転送種別（制御・バルク・割込・アイソ）、列挙と記述子、電源・速度、代表プロトコルやドライバ・デバッグ手法を実務的に紹介。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-08T19:23:34.000Z",
+      "contentHash": "99eef09d7a9b"
+    },
+    {
+      "id": "03a553eeaeeb",
+      "title": "The Neo Effect: How Apple&#8217;s cheapest Mac is changing the PC game",
+      "url": "https://www.theverge.com/tech/904705/apple-macbook-neo-news-reviews-mods",
+      "summary": "MacBook Neoは599ドル（学生499ドル）でA18 Proを搭載し、日常作業に十分な性能と上質な筐体を低価格で提供。PCメーカーは対抗困難で、簡単な放熱改造でゲーム性能も向上。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-08T18:21:50.000Z",
+      "contentHash": "2e9c697b5dcc"
+    },
+    {
+      "id": "ae3c9c3323f2",
+      "title": "One item purchased, ten emails",
+      "url": "https://joshghent.com/online-shopping/",
+      "summary": "ネット通販は便利だが、注文ごとの過剰なメール通知（多段階の配達ステータスなど）が増え、A/Bテストで指標最適化した結果ユーザー体験が悪化。Goodhartの法則の例で、著者は使い捨てのログイン別名で対処しているが本来不要のはず。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-08T18:13:22.000Z",
+      "contentHash": "d33648b74be8"
+    },
+    {
+      "id": "cfb6804bc1fb",
+      "title": "I've been waiting over a month for Anthropic to respond to my billing issue",
+      "url": "https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/",
+      "summary": "3月初め、未使用のClaude Maxで16件のExtra Usage請求（約180ドル）。ダッシュボードは100%表示だが実際のセッションは極小。他ユーザーも同様。3月7日に証拠付きでサポートへ連絡したがAI自動応答と使えない返金案内のみで、人間の対応は1か月以上ない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-08T17:44:25.000Z",
+      "contentHash": "f1538de71db4"
+    },
+    {
+      "id": "d7ad2ab9f292",
+      "title": "Understanding the Kalman filter with a simple radar example",
+      "url": "https://kalmanfilter.net",
+      "summary": "カルマンフィルタは測定ノイズや未知要因下で系の状態を推定・予測するアルゴリズムで、追跡・ナビ・ロボット・金融・気象などに応用。本ガイドは数値例や失敗例を用いて分かりやすく解説し、3段階の学習パスで基礎から実装まで学べる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-08T17:11:46.000Z",
+      "contentHash": "7ade1552cd16"
+    },
+    {
+      "id": "90670b35b203",
+      "title": "Claude Managed Agents",
+      "url": "https://claude.com/blog/claude-managed-agents",
+      "summary": "Claude Managed Agentsを公開ベータで提供開始。組み合わせ可能なAPIとクラウドホスティングでサンドボックス実行、状態管理、認可、監査など運用を代行し、プロダクション化を従来の約10倍速く。単一タスク〜マルチエージェントに対応。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-08T17:04:40.000Z",
+      "contentHash": "84fc149ec65a"
+    },
     {
       "id": "4fb7db30a2f5",
       "title": "Microsoft’s executive shake-up continues as developer division chief resigns",
@@ -23,10 +239,19 @@
       "id": "e63bf1a1116a",
       "title": "Muse Spark – Meta Superintelligence Labs",
       "url": "https://meta.ai/",
-      "summary": "Metaが新しい軽量マルチモーダルモデル「Muse Spark（MSL）」を発表。効率的な画像生成・編集・解析を想定し、性能・安全対策や研究利用のための公開方針を示す。",
+      "summary": "申し訳ありませんが外部リンクを直接開けません。記事本文を貼っていただければ、200字以内で日本語要約します。要点や強調してほしい点があれば教えてください。",
       "source": "Hacker News",
       "publishedAt": "2026-04-08T16:05:54.000Z",
-      "contentHash": "abf1fd47cb4d"
+      "contentHash": "487d0b2e3d1c"
+    },
+    {
+      "id": "fc3fcf2a636b",
+      "title": "Muse Spark: Scaling towards personal superintelligence",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/?_fb_noscript=1",
+      "summary": "MetaのSuperintelligence Labsが新モデルMuse Sparkを発表。ネイティブのマルチモーダル推論、ツール利用、視覚的思考連鎖、マルチエージェント調整を備え、Contemplatingモードで並列推論。meta.aiとMeta AIアプリで提供、選定ユーザー向けにAPIプレビューも実施。インフラと研究への投資でさらなるスケールを目指す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-08T16:01:32.000Z",
+      "contentHash": "a7efea210f24"
     },
     {
       "id": "6f9f4df7d668",
@@ -65,6 +290,15 @@
       "contentHash": "87e3d6816cbf"
     },
     {
+      "id": "7bcd68b5d5cb",
+      "title": "The next phase of enterprise AI",
+      "url": "https://openai.com/index/next-phase-of-enterprise-ai",
+      "summary": "OpenAIが企業向けAIの次フェーズを提示。Frontier、ChatGPT Enterprise、Codex、社内AIエージェントなどで業界横断的な導入が加速している。",
+      "source": "OpenAI",
+      "publishedAt": "2026-04-08T14:00:00.000Z",
+      "contentHash": "4f2034701209"
+    },
+    {
       "id": "cc106b05261c",
       "title": "The vibes are off at OpenAI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai",
@@ -72,6 +306,15 @@
       "source": "The Verge",
       "publishedAt": "2026-04-08T13:47:38.000Z",
       "contentHash": "b761832d69ae"
+    },
+    {
+      "id": "13346ebb5667",
+      "title": "Try notebooks in Gemini to easily keep track of projects",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
+      "summary": "Geminiのノートブックは、GeminiアプリとAI搭載の研究パートナーNotebookLMを連携させ、手軽に使えるワークフローのためのプロジェクト基盤を提供します。",
+      "source": "Gemini",
+      "publishedAt": "2026-04-08T13:45:00.000Z",
+      "contentHash": "dd733de214b2"
     },
     {
       "id": "980e5d342017",
@@ -473,10 +716,10 @@
       "id": "242d339eb3da",
       "title": "DGX Spark で Parakeet TDT-CTC 0.6B JA を試す",
       "url": "https://note.com/npaka/n/nd9a5ebcc5531",
-      "summary": "NVIDIAの日本語ASR「Parakeet TDT-CTC 0.6B JA」をDGX Sparkで検証。venvやtorch、NeMo導入手順と音声→文字起こしのコード例、リアルタイム実行例を紹介。Cohere Transcribeの公開で順位に影響の可能性あり。",
+      "summary": "NVIDIAの日本語ASR「Parakeet TDT-CTC 0.6B JA」をDGX Sparkで検証。Cohere Transcribe公開で順位更新も、Parakeetが依然トップ。環境構築手順やファイル／リアルタイム文字起こしのサンプルコードを掲載。",
       "source": "npaka",
       "publishedAt": "2026-04-08T00:59:09.000Z",
-      "contentHash": "19f22f5079de"
+      "contentHash": "44b686a51224"
     },
     {
       "id": "6342ae43d48e",
@@ -689,10 +932,10 @@
       "id": "b8e3ad733069",
       "title": "Here’s how we built Gmail to keep your data secure and private in the Gemini era.",
       "url": "https://blog.google/products-and-platforms/products/gmail/privacy-in-gmail-with-gemini/",
-      "summary": "GoogleはGeminiなどの基盤モデルを個人メールで学習させておらず、GmailでGeminiに許可するのは要約などの限定的な処理のみ。処理後にデータは保持されず、受信箱はプライベートに保たれる。",
+      "summary": "Googleは個人のGmailをGeminiの学習データに使わないと明言。GmailのAI機能はオプトインや管理者設定、暗号化などの保護措置で、個人データがモデル訓練に利用されないよう管理される。",
       "source": "Gemini",
       "publishedAt": "2026-04-07T16:00:00.000Z",
-      "contentHash": "75475dae3334"
+      "contentHash": "0c4155fdd219"
     },
     {
       "id": "b4e152278024",
@@ -752,10 +995,10 @@
       "id": "7236fd9ca299",
       "title": "XMCP を試す",
       "url": "https://note.com/npaka/n/nae69651a3c79",
-      "summary": "XMCPはX APIをAIツールで使いやすくするMCPサーバ。自体は無料だがX APIやxAIは有料。Consumerキー等を取得し、xmcpをクローンして.env設定・server起動（schema圧縮）、Claude Desktopにmcpを設定して接続・ユーザー取得や投稿検索が可能。",
+      "summary": "XMCPはX APIをAI向けに仲介する無料のMCPサーバー。実利用はX API（場合によりxAI）の課金が発生。Developer Consoleで鍵を取得し、xmcpをクローンして.envを設定、server.py実行。Claude/Codex側を設定して接続確認・ユーザー取得・投稿検索が可能。",
       "source": "npaka",
       "publishedAt": "2026-04-07T13:40:56.000Z",
-      "contentHash": "7f16f33e2c40"
+      "contentHash": "31093586ee9f"
     },
     {
       "id": "e5e7fa55360a",
@@ -851,10 +1094,10 @@
       "id": "2f5a40f46865",
       "title": "An update on our mental health work",
       "url": "https://blog.google/innovation-and-ai/technology/health/mental-health-updates/",
-      "summary": "Googleは、精神保健が10億人以上に影響する重大課題と位置づけ、支援への導線を簡素化するGeminiを更新し、世界の危機ヘルプライン支援に3,000万ドルを提供すると発表しました。",
+      "summary": "精神保健に関する取り組みの最新情報を共有します。人々が適切な情報にアクセスしやすくするための新しい変更点が含まれます。",
       "source": "Gemini",
       "publishedAt": "2026-04-07T10:00:00.000Z",
-      "contentHash": "399c48654caa"
+      "contentHash": "989a6249b65b"
     },
     {
       "id": "e93758063d30",
@@ -1722,12 +1965,12 @@
     },
     {
       "id": "621a2382395b",
-      "title": "秋葉原ロボットほこ天 まとめ",
+      "title": "秋葉原ロボットほこ天 2026 まとめ",
       "url": "https://note.com/npaka/n/na67555d47f79",
-      "summary": "2026年4月5日、秋葉原UDXで開催された「秋葉原ロボットほこ天」は入場無料のロボット展示イベント。DigiKeyやJLCPCBら企業出展、ダンスやサッカーデモ、操縦体験や大型荷重対応の倒立振子ロボなど多彩な展示で賑わった。",
+      "summary": "2026年4月5日、秋葉原UDXで開かれた「秋葉原ロボットほこ天2026」のまとめ。DigiKeyやJLCPCBなど企業出展やugoRobot、Omakase、ABEJAのOpenArm、REFINED ROBOTICSの大荷重倒立振子、FaBoBoosterなど多彩なデモ・体験とパレードが盛況。JRRF2026告知やAI作曲のパレード曲も紹介。入場無料。",
       "source": "npaka",
       "publishedAt": "2026-04-05T13:36:20.000Z",
-      "contentHash": "42efb1f49d90"
+      "contentHash": "8043d70c034c"
     },
     {
       "id": "145aa752a569",
@@ -2615,10 +2858,10 @@
       "id": "b334d06c85bb",
       "title": "Gemma 4 の概要",
       "url": "https://note.com/npaka/n/n240f81855918",
-      "summary": "記事はオープンモデル「Gemma 4」の概要を紹介しています。タイトルは「Gemma 4: Byte for byte, the most capable open models」で、詳細は本文で続けて説明される旨が示されています。",
+      "summary": "オープンモデル「Gemma 4」をApache 2.0で公開。E2B/E4B(128KB)、26B MoE/31B Dense(256KB)の4種で、高度な推論・エージェント機能、コード生成、画像・音声対応、長文(最大256KB)、140以上の言語に対応し、ハードウェア効率も高い。",
       "source": "npaka",
       "publishedAt": "2026-04-02T21:22:05.000Z",
-      "contentHash": "18e739fcba55"
+      "contentHash": "cf2cdde5372a"
     },
     {
       "id": "29592cfbfcf0",
@@ -2651,10 +2894,10 @@
       "id": "20e9cbbba2c8",
       "title": "Gemma 4: Byte for byte, the most capable open models",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-      "summary": "Google DeepMindは新たな公開モデル「Gemma 4」を発表。高度な推論やエージェント型ワークフロー向けに設計され、従来より高い知性と性能を目指すと説明している。",
+      "summary": "Gemma 4は、これまでで最も高性能なオープンモデル群であり、高度な推論能力とエージェント的ワークフロー（自律的なタスク実行）に特化して設計されています。",
       "source": "Gemini",
       "publishedAt": "2026-04-02T16:00:00.000Z",
-      "contentHash": "428848fa7736"
+      "contentHash": "3c10a06028b0"
     },
     {
       "id": "058831d642a1",
@@ -3443,10 +3686,10 @@
       "id": "1097cf2f5ea3",
       "title": "The latest AI news we announced in March 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
-      "summary": "2026年3月、GoogleはGeminiの文脈理解強化やSearch Live拡張、MapsやDocs/Sheets/Slides/DriveへのAI機能、Personal Intelligence拡大、他AIからの移行支援、ヘルスケア連携を発表。",
+      "summary": "その記事本文か要点、または記事のURLを貼ってください。こちらではウェブを直接取得できないため、本文を貼っていただければ200字以内で日本語要約を作成します。要約のトーン（簡潔／詳細め）も指定できます。",
       "source": "Gemini",
       "publishedAt": "2026-04-01T13:00:00.000Z",
-      "contentHash": "4becf332c717"
+      "contentHash": "7e4d8f166476"
     },
     {
       "id": "c03c38a452a1",
@@ -5792,10 +6035,10 @@
       "id": "f70eaaf68dd0",
       "title": "Find out what’s new in the Gemini app in March's Gemini Drop.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-updates-march-2026/",
-      "summary": "GoogleのGemini Dropは、他社のAIチャット履歴を数クリックで移行でき、米国でPersonal Intelligenceを無料提供（Gmail/Photos/YouTube連携で個別支援）。Google TVで視覚回答と朗読、Lyria 3 Proで最長3分の楽曲作成、Gemini Live（3.1）は会話が高速化し文脈保持が2倍に。",
+      "summary": "Gemini DropsはGeminiアプリの活用法を毎月紹介する定期更新です。",
       "source": "Gemini",
       "publishedAt": "2026-03-27T16:00:00.000Z",
-      "contentHash": "232f2ac2d665"
+      "contentHash": "bb57ccd4e140"
     },
     {
       "id": "ff011d0cbbc1",
@@ -6359,10 +6602,10 @@
       "id": "5efd9074b77a",
       "title": "We’re partnering with multiple national teams ahead of soccer’s biggest global showdown.",
       "url": "https://blog.google/company-news/inside-google/company-announcements/soccer-nationalteam-partnerships/",
-      "summary": "グーグルは夏のサッカー大会に向け、アルゼンチンやフランスなど代表チームとの連携を発表。検索はAI応答で試合情報を支援し、Geminiは観戦パーティーの企画や共有画像作成を手助け。今後も協力発表予定。",
+      "summary": "忘れられない夏のサッカーに向けたカウントダウンが正式に始まりました。今年はファンが大会を探り、刺激を受け、試合により近づけるよう支援します。",
       "source": "Gemini",
       "publishedAt": "2026-03-26T20:00:00.000Z",
-      "contentHash": "9d56a1981c8e"
+      "contentHash": "9ac1c5594d5c"
     },
     {
       "id": "036a26faceae",
@@ -6395,10 +6638,10 @@
       "id": "db1a7f4b6615",
       "title": "Make the switch: Bring your AI memories and chat history to Gemini",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-to-gemini-app/",
-      "summary": "Geminiに他のAIアプリの記憶やチャット履歴を簡単に移行可能に。推奨プロンプトでメモリを取り込み、またはチャット履歴のZIPを設定からアップロードできる。'Past chats'は'memory'に名称変更、順次展開中。",
+      "summary": "Geminiアプリが、他のAIチャットアプリからの乗り換えを簡単にし、最初からやり直すことなく移行できるようになった。",
       "source": "Gemini",
       "publishedAt": "2026-03-26T19:00:00.000Z",
-      "contentHash": "8cc0b0fa9787"
+      "contentHash": "867ef7373982"
     },
     {
       "id": "05aedee8f5d5",
@@ -6449,10 +6692,10 @@
       "id": "9ab840ff0c69",
       "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
-      "summary": "Googleの音声AI「Gemini 3.1 Flash Live」は高品質・低遅延でトーン理解が向上したリアルタイム対話モデル。Gemini Live APIで開発者や企業のCX向けに利用可能。Search Liveは200カ国超、生成音声には透かしあり。",
+      "summary": "Googleは新しいAIモデル「Gemini 3.1 Flash Live」をGoogle製品全体で提供開始しました。",
       "source": "Gemini",
       "publishedAt": "2026-03-26T15:21:00.000Z",
-      "contentHash": "4955f78b3382"
+      "contentHash": "7c9230a512b7"
     },
     {
       "id": "7e087842d370",
@@ -6989,10 +7232,10 @@
       "id": "c53fde1af24f",
       "title": "Lyria 3 Pro: Create longer tracks in more Google products",
       "url": "https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/",
-      "summary": "Googleは音楽生成AI「Lyria 3 Pro」を公開。曲構造を理解し最大3分の長尺トラック（イントロ／Aメロ／サビ／ブリッジ等）を生成。Vertex AI、AI Studio、Gemini、Google Vids等で利用可。出力は透かし入りで既存アーティストの模倣回避、音楽家と連携して開発中。",
+      "summary": "Lyria 3を、プロが日々の業務や創作で使うツールに導入して利用可能にします。",
       "source": "Gemini",
       "publishedAt": "2026-03-25T16:00:00.000Z",
-      "contentHash": "41bf84ac20a7"
+      "contentHash": "2ad37e27f73f"
     },
     {
       "id": "8e80d0cd247d",
@@ -8757,249 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-03-22T11:30:03.000Z",
       "contentHash": "d2a354f95ace"
-    },
-    {
-      "id": "0f0b1627c527",
-      "title": "Claude Code更新 Channels・使用量2倍・サブエージェント強化【2026/3/15〜21】 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/03/22/190000",
-      "summary": "サーバーワークス池田報告: Claude Code v2.1.77→v2.1.81で更新。研究プレビューのChannelsでTelegram/Discordから操作可能に、Remote Controlとの使い分け、サブエージェント制御強化、3/27まで使用量制限が一時2倍。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-22T10:00:00.000Z",
-      "contentHash": "83520481a1e9"
-    },
-    {
-      "id": "c0e70ff6b21d",
-      "title": "Vatican Rebukes Peter Thiel's Antichrist Lectures in Rome",
-      "url": "https://www.thenerdreich.com/peter-thiels-antichrist-circus-smacked-down-in-rome/",
-      "summary": "ピーター・ティールがローマで「反キリスト」講義を行ったが、バチカンの顧問パオロ・ベナンティ神父らに公然と批判された。宗教を独裁・独占や競争礼賛の正当化に悪用し、模倣欲望理論を歪めていると非難された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-22T09:35:54.000Z",
-      "contentHash": "12ed6bfee66e"
-    },
-    {
-      "id": "24e298665990",
-      "title": "Hormuz Minesweeper – Are you tired of winning?",
-      "url": "https://hormuz.pythonic.ninja/",
-      "summary": "申し訳ありませんが、外部ウェブページに直接アクセスできません。記事本文をここに貼り付けていただければ、200文字以内で日本語要約を作成します。コメントも要約希望なら一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-22T09:00:37.000Z",
-      "contentHash": "9e6cb6767811"
-    },
-    {
-      "id": "d9b793bf697a",
-      "title": "RLT の概要",
-      "url": "https://note.com/npaka/n/n32e2b2186b62",
-      "summary": "RLTはVLAの内部表現を小さな「RL token」に圧縮し、軽量なオンラインRLで精密な局面だけを数時間でロボット上で高速に適応・改善する手法。VLA本体は再学習しない。",
-      "source": "npaka",
-      "publishedAt": "2026-03-22T06:05:06.000Z",
-      "contentHash": "62fa12646fca"
-    },
-    {
-      "id": "7b4692b80b4a",
-      "title": "Cloudflare flags archive.today as \"C&C/Botnet\"; no longer resolves via 1.1.1.2",
-      "url": "https://radar.cloudflare.com/domains/domain/archive.today",
-      "summary": "Cloudflare Radarによるarchive.todayのドメイン分析。訪問国・ISP分布、トラフィック推移、接続プロトコルやTLS状況、悪意あるリクエスト等のセキュリティ指標を示し、利用動向とリスクを可視化している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-22T03:43:51.000Z",
-      "contentHash": "8cd0851418bf"
-    },
-    {
-      "id": "aa59f92da32d",
-      "title": "The three pillars of JavaScript bloat",
-      "url": "https://43081j.com/2026/03/three-pillars-of-javascript-bloat",
-      "summary": "申し訳ありませんが、外部URLを直接閲覧できません。記事本文を貼っていただければ200字以内で要約します。参考として推測要約：JS肥大化の主因は言語仕様の増加、npmのマイクロパッケージ文化、トランスパイル/ツールの過剰化です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-22T02:04:31.000Z",
-      "contentHash": "07fa091a76c3"
-    },
-    {
-      "id": "cf6075698ef8",
-      "title": "Chest Fridge (2009)",
-      "url": "https://mtbest.net/chest-fridge/",
-      "summary": "外部サイトに直接アクセスできないため記事を取得できません。記事本文（または要約してほしい部分）をここに貼っていただければ、200文字以内で日本語要約します。HNコメントも要約可。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-22T01:02:10.000Z",
-      "contentHash": "43c155e36029"
-    },
-    {
-      "id": "6e03600f1340",
-      "title": "Floci – A free, open-source local AWS emulator",
-      "url": "https://github.com/hectorvent/floci",
-      "summary": "flociはGoogleのFLoC/Topicsに関連するコホート生成をローカルで再現・検証するオープンソース実装。実験コードや使い方を公開しており、HNではプライバシー懸念や実用性が議論された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-21T21:49:15.000Z",
-      "contentHash": "f5e9f26fce6a"
-    },
-    {
-      "id": "7fc694dbaf4c",
-      "title": "Professional video editing, right in the browser with WebGPU and WASM",
-      "url": "https://tooscut.app/",
-      "summary": "外部URLを直接取得できないため、記事本文を貼り付けていただくか主要ポイントを教えてください。200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-21T21:27:50.000Z",
-      "contentHash": "1114035aa4f4"
-    },
-    {
-      "id": "91a14a012f3f",
-      "title": "Halide co-founder is suing former partner for bringing source code to Apple",
-      "url": "https://www.theverge.com/business/898687/halide-lawsuit-co-founder-apple",
-      "summary": "Halide開発元Luxの共同創業者ベン・サンドフスキーが、元共同創業者セバスティアン・デ・ウィットを提訴。訴状は、同氏が2025年12月に解雇される前に企業資金15万ドル超を私的流用し、HalideのソースコードをAppleに持ち込んだと主張する。デ・ウィットはその後Appleに入社している。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-21T21:02:56.000Z",
-      "contentHash": "4230ccb80649"
-    },
-    {
-      "id": "b34c69c42f6d",
-      "title": "Do Not Turn Child Protection into Internet Access Control",
-      "url": "https://news.dyne.org/child-protection-is-not-access-control/",
-      "summary": "記事は、年齢確認がSNSやメッセージ、検索など主流サービスへ広がり、インターネットを開放から許可制に変える危険を指摘。OSレベルでの常時年齢ステータス化やsystemdのbirthDate追加は、年齢認証が端末全体の身元レイヤー化し、監視や表現の自由、民主主義を損なう可能性があると警告する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-21T20:32:20.000Z",
-      "contentHash": "d0b25d73112d"
-    },
-    {
-      "id": "a981fc3af5d1",
-      "title": "Tinybox – A powerful computer for deep learning",
-      "url": "https://tinygrad.org/#tinybox",
-      "summary": "私たちはtinygradを開発・維持している。極めてシンプルで複雑なニューラルネットを3つのOpTypeに分解する。CONVやMATMULの扱いはコードを見れば分かる。tinybox（赤・緑・まもなくexa）を販売。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-21T20:08:37.000Z",
-      "contentHash": "bfefabdcbe26"
-    },
-    {
-      "id": "0de2613fde09",
-      "title": "Study finds no evidence cannabis helps anxiety, depression, or PTSD",
-      "url": "https://www.sciencedaily.com/releases/2026/03/260319044656.htm",
-      "summary": "シドニー大らのLancet掲載の大規模レビューで、医療用大麻は不安・うつ・PTSDに効果がなく、精神症状や依存リスクを高め、治療遅延の恐れがあると報告。不眠や自閉症には限定的弱証拠。使用増加で監視強化の声。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-21T20:05:58.000Z",
-      "contentHash": "637f3c232f76"
-    },
-    {
-      "id": "06029de3439a",
-      "title": "NHI（Non-Human Identity）管理が一気に立ち上がってきた件 | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/nhi-non-human-identity-management/",
-      "summary": "企業のマシン（NHI）IDは人間の約82倍に達し可視化・統制が追いつかず、AIエージェント時代でゼロトラストの最重要課題に。NHI専業スタートアップや既存ベンダーへの投資・買収が急増し市場が拡大している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-21T19:16:00.000Z",
-      "contentHash": "fd24dbe41184"
-    },
-    {
-      "id": "218b1e7c6c83",
-      "title": "Show HN: Termcraft – terminal-first 2D sandbox survival in Rust",
-      "url": "https://github.com/pagel-s/termcraft",
-      "summary": "termcraftはRust製の端末専用2Dサンドボックス生存ゲーム（非公式ファン作、初期アルファ）。初期のブロック生存ループを側面表示の端末で再現し、地上／ネザー／エンド生成、採掘・配置・クラフト・精錬・醸造・農業・モンスター・村やダンジョンなど多機能を搭載。Rust環境でgitからビルドして実行。操作はWASDや矢印、マウス等。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-21T18:42:38.000Z",
-      "contentHash": "6772e05bf1d7"
-    },
-    {
-      "id": "a6c44916994c",
-      "title": "Passengers who refuse to use headphones can now be kicked off United flights",
-      "url": "https://www.cnn.com/2026/03/21/travel/travel-news-happiest-countries",
-      "summary": "ユナイテッド航空が機内で音声・映像を聴く際にヘッドホン未使用の乗客を搭乗拒否・降機対象に明記。FAAは昨年の乗客粗暴事案を1600件超と報告。世界幸福度報告ではフィンランドが9年連続首位（得点7.764）。旅行では航空運賃の上昇も予想される。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-21T17:52:51.000Z",
-      "contentHash": "3de60e0e7c49"
-    },
-    {
-      "id": "909cd73dc8e4",
-      "title": "Hide macOS Tahoe's Menu Icons",
-      "url": "https://512pixels.net/2026/03/hide-macos-tahoes-menu-icons-with-this-one-simple-trick/",
-      "summary": "macOS Tahoeのメニューに表示されるアイコンが煩わしい問題を、Steve Troughton‑Smithが見つけたTerminalコマンドで無効化できる：defaults write -g NSMenuEnableActionImages -bool NO。再起動で反映され、一部（ウィンドウ拡大等）は維持。著者はAppleに撤回や設定追加を求めている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-21T17:46:00.000Z",
-      "contentHash": "212120ee1b12"
-    },
-    {
-      "id": "ff7f91451ff3",
-      "title": "404 Deno CEO not found",
-      "url": "https://dbushell.com/2026/03/20/denos-decline-and-layoffs/",
-      "summary": "著者はDenoの状況を憂慮し、deno.comの404や大規模離職・レイオフを見てDenoに費やした時間が無駄か悩む。過去の衰退指摘と資金調達（Seed $4.9M、Series A $21M）、CEO Ryan Dahlの反論、毒舌への謝罪に触れる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-21T15:10:54.000Z",
-      "contentHash": "3a9501f60edc"
-    },
-    {
-      "id": "1a28f3390722",
-      "title": "Iran launched unsuccessful attack on UK's Diego Garcia",
-      "url": "https://www.bbc.com/news/articles/c5yljdgwppzo",
-      "summary": "コーパー外相は、イランがディエゴガルシア島に弾道ミサイル2発を発射した報道を非難し、英国は防御支援は行うが攻撃には関与せず、紛争拡大を避け迅速な収束を求めると述べた。1発は失敗、1発は米軍が迎撃と報道。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-21T14:54:38.000Z",
-      "contentHash": "d1df14fc402f"
-    },
-    {
-      "id": "c424af769a0e",
-      "title": "Grafeo – A fast, lean, embeddable graph database built in Rust",
-      "url": "https://grafeo.dev/",
-      "summary": "GrafeoはRust製の高速で組み込み可能なグラフDB。LPG/RDF対応、GQL/Cypher/Gremlin等の多言語クエリ、HNSWベクトル検索、ACID/MVCCトランザクション、多言語バインディングとスタンドアロン両対応。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-21T14:50:18.000Z",
-      "contentHash": "b5fa9070119c"
-    },
-    {
-      "id": "314da8d317f8",
-      "title": "Some things just take time",
-      "url": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
-      "summary": "木は育つのに時間がかかり、価値や成熟は時間の蓄積から生まれる。だが現代は即時性を重視し、起業・開発で速度偏重に。成功やコンプライアンスには粘り強さや人間の関与が必要で、摩擦を無理に排すのは有害だ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-21T14:46:56.000Z",
-      "contentHash": "e5f330bc9fa7"
-    },
-    {
-      "id": "1244847bfad1",
-      "title": "Here are 20 of our favorite outdoor deals from REI’s Member Days Sale",
-      "url": "https://www.theverge.com/gadgets/897628/best-outdoor-deals-rei-member-days-sale-2026",
-      "summary": "REIの会員限定セールで、ガーミン腕時計やテント、携帯ストーブなどおすすめ20選を紹介。会費$30で加入可能、コード MEMBER26で1点20%オフ。開催は3/23まで。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-21T14:40:00.000Z",
-      "contentHash": "373a99b4938a"
-    },
-    {
-      "id": "f8e146d8bf0f",
-      "title": "The gen AI Kool-Aid tastes like eugenics",
-      "url": "https://www.theverge.com/entertainment/897923/ghost-in-the-machine-valerie-veatch-interview",
-      "summary": "『Ghost in the Machine』監督ヴァレリー・ヴィーチは、現代の生成AIブームが人種科学や優生学の影響で形作られてきたと指摘し、無批判なAI礼賛に警鐘を鳴らす。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-21T14:00:00.000Z",
-      "contentHash": "e6fc74c480d8"
-    },
-    {
-      "id": "4e21e65c1ad5",
-      "title": "Mayor of Paris removed parking spaces, \"drastically\" reduced the number of cars",
-      "url": "https://www.cnn.com/2026/03/21/travel/paris-transformation-anne-hidalgo-mayor",
-      "summary": "スペイン移民のアンヌ・イダルゴ市長は12年で歩行者優先化や自転車レーン整備、セーヌ浄化を推進し五輪で象徴的に泳いだが、渋滞やバス混雑など市民の不満も強い。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-21T13:12:10.000Z",
-      "contentHash": "9395af3b1a0d"
-    },
-    {
-      "id": "b53d8c22b395",
-      "title": "Oeuf is a punishing platformer in a cozy shell",
-      "url": "https://www.theverge.com/entertainment/895435/oeuf-review",
-      "summary": "インディー作Oeufは卵の形状を活かした手強い物理系プラットフォーマー。’90年代風3Dで教会の屋根や木を転がり、側面と縦置きで変わる不安定な挙動を操作し、小さな足場で勢いを作って帰路を目指す。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-21T13:00:00.000Z",
-      "contentHash": "7c4d2381d6a3"
-    },
-    {
-      "id": "46eef00ae987",
-      "title": "Dreame’s self-cleaning L10s Pro Ultra is nearly $1,000 off its original list price",
-      "url": "https://www.theverge.com/gadgets/898287/dreame-l10s-pro-ultra-robot-vacuum-mop-amazon-big-spring-sale-2026-deal",
-      "summary": "Dreameのロボット掃除機L10s Pro Ultraが大幅値下げ。モップ自動洗浄＆洗剤自動供給機能を搭載し、Amazon・Best Buy・公式で約$350（約$950引き）。公式ではコードL10PUXM利用可。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-21T12:30:00.000Z",
-      "contentHash": "b1f9415315da"
-    },
-    {
-      "id": "65226d27307f",
-      "title": "NFCタグの使い方とWeb NFC API | Ubie テックブログのフィード",
-      "url": "https://zenn.dev/ubie_dev/articles/nfc-guide-for-hackers",
-      "summary": "NFCタグの仕組みと使い方を解説する記事。スマホ決済で馴染みのNFCを自分で書き込む方法やシール型タグの活用例、「かざすだけ」でできる用途、ブラウザから読み書きするWeb NFC APIのサンプルを紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-21T12:19:56.000Z",
-      "contentHash": "a54d51b3332a"
     }
   ]
 }
