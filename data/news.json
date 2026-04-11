@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2026-04-11T03:01:05.161Z",
+  "generatedAt": "2026-04-11T09:10:49.995Z",
   "items": [
+    {
+      "id": "4e8bbc6f3143",
+      "title": "20 years on AWS and never not my job",
+      "url": "https://www.daemonology.net/blog/2026-04-11-20-years-on-AWS-and-never-not-my-job.html",
+      "summary": "著者は2006年4月10日に初めてAWSアカウントを作成しS3に関心を持った。初期のAWSはサービスごとに有効化が必要で、デフォルトはSQSとE‑Commerce Service。FreeBSDのセキュリティ責任者として、APIはリクエストに署名がある一方で応答に署名がなく、HTTP利用時に改ざんの危険があると指摘した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-11T05:31:10.000Z",
+      "contentHash": "bb0faad4f424"
+    },
+    {
+      "id": "c2b93696327a",
+      "title": "Agentic MLOpsで加速する機械学習開発 | エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/2026/04/11/130000",
+      "summary": "池嶋氏のチームは6年前からYAMLで設定を切り出すconfig-driven機械学習を実践し、コードと設定の分離や実験管理を容易にしてきた。さらにLLMエージェントがYAMLを自律チューニングするAgentic MLOpsで開発が一層加速している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-11T04:00:00.000Z",
+      "contentHash": "0b001953d265"
+    },
+    {
+      "id": "06ecc1c907ae",
+      "title": "日本語の音声認識で使える 学習ベースVAD まとめ",
+      "url": "https://note.com/npaka/n/n8d2a2fbe72bc",
+      "summary": "日本語ASRの前処理で重要な学習ベースVADを紹介。VADは無音除去や長尺音声分割でASR負荷や認識品質を改善。主要実装はSilero（軽量・導入容易）、pyannote（高精度・話者ダイアライゼーション向け）、FunASR/FSMN（ASRと統合）、SpeechBrain（柔軟カスタマイズ）。用途別推奨も提示。",
+      "source": "npaka",
+      "publishedAt": "2026-04-11T02:23:14.000Z",
+      "contentHash": "ee235b10f31f"
+    },
+    {
+      "id": "eae89ee3f06b",
+      "title": "【Microsoft Fabric】- ワークスペースを削除する方法 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/8775fd2ae8662c",
+      "summary": "Microsoft Fabricのワークスペース削除手順を解説。Fabricを開き該当ワークスペース→設定→全般→「このワークスペースを削除する」をクリックして削除。著者はtakekawa tomoki（ヘッドウォータース）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-11T01:08:43.000Z",
+      "contentHash": "b96164e0365b"
+    },
+    {
+      "id": "cef63ad5e226",
+      "title": "HHKB Hybrid Type-S を Mac に繋いだら US 配列になった話と解決方法 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/3da1b82b013019",
+      "summary": "MacBook Pro（M5）にHHKB HYBRID Type-S（JIS）を接続したらUS配列と認識され、Shift+2で@などキー位置がずれる。対処はUSBで有線接続にし（Fn+Control+0）、システム設定→キーボード→「キーボードの種類を変更」でzと_を押してJISを選択。Bluetoothでは設定が反映されない場合あり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-11T00:30:32.000Z",
+      "contentHash": "6cb713b85a23"
+    },
+    {
+      "id": "30043132254e",
+      "title": "Artemis II safely splashes down",
+      "url": "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/",
+      "summary": "NASAのアルテミスIIは9日間の月ミッションを終え、オリオンカプセルが大気再突入後にサンディエゴ沖の太平洋へ着水。指揮官リード・ワイスマンら4人（グローバー、コック、カナダのハンセン）がUSS John P. Murthaで医療検査を受け、人類史上最遠到達を記録した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-11T00:10:51.000Z",
+      "contentHash": "4fbf4ed96568"
+    },
+    {
+      "id": "5966d1df72e8",
+      "title": "Sam Altman's response to Molotov cocktail incident",
+      "url": "https://blog.samaltman.com/2279512",
+      "summary": "家族写真を公開し、午前3:45に家に投げられたモロトフ（幸い無傷）で次の被害抑止を願う。言葉の力を痛感しつつ信条を説明：皆の繁栄と技術推進は道義的責務、AIは強力だが安全対策と社会的対応、民主化と権力分散が必要。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-10T23:05:48.000Z",
+      "contentHash": "b96276dc4562"
+    },
+    {
+      "id": "58f63fe97303",
+      "title": "Filing the corners off my MacBooks",
+      "url": "https://kentwalters.com/posts/corners/",
+      "summary": "MacBookの鋭いアルミ角が手首に当たるので、少しずつヤスリで角を丸めた。スピーカーやキーボードを養生しクランプで固定、粗ヤスリ→150→400番で仕上げ。数カ月後も満足で、同様の改造を勧めている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-10T22:16:40.000Z",
+      "contentHash": "b2818e8dac60"
+    },
+    {
+      "id": "01310eea4b0d",
+      "title": "Installing every* Firefox extension",
+      "url": "https://jack.cab/blog/every-firefox-extension",
+      "summary": "Firefoxの拡張を全件インストールしようとし、公開APIをスクレイピングして約84,194件（99.94%）を取得。APIのページ制限回避や複数試行でダウンロード・起動・解析を行い、大規模拡張や最悪の拡張、フィッシング・SEOスパム・PUAなどの問題を報告。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-10T21:56:33.000Z",
+      "contentHash": "c023eae580fb"
+    },
     {
       "id": "fa114864226d",
       "title": "AGIBOT AI WEEK 2026 まとめ",
@@ -38,6 +119,42 @@
       "contentHash": "62d87db070f3"
     },
     {
+      "id": "119a244b2326",
+      "title": "DOJ wants to scrap Watergate-era rule that makes presidential records public",
+      "url": "https://theintercept.com/2026/04/09/trump-documents-library-presidential-records-act/",
+      "summary": "司法省が大統領記録法を違憲とする見解を示し、大統領の公文書を私的所有とみなせると主張。ウォーターゲート以降の透明性を覆し、説明責任を損なう危険がある。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-10T19:28:09.000Z",
+      "contentHash": "6194442eaffc"
+    },
+    {
+      "id": "475957ff629f",
+      "title": "Nowhere is safe",
+      "url": "https://steveblank.com/2026/04/09/nowhere-is-safe/",
+      "summary": "ドローン戦で地表が争点化。既存の制空・防空は大量ドローンに不十分で、油槽所やデータセンター等の地上インフラが標的に。米は対UAS兵器へ巨額投資するが、地下化などで重要資産を迅速に避難・保護する対策を軽視しており、防護の再考が必要と主張。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-10T19:27:58.000Z",
+      "contentHash": "4e53088149d1"
+    },
+    {
+      "id": "86f036cdb902",
+      "title": "Chimpanzees in Uganda locked in eight-year 'civil war', say researchers",
+      "url": "https://www.bbc.com/news/articles/cr71lkzv49po",
+      "summary": "ウガンダ・キバレ国立公園の約200頭の世界最大のチンパンジー群「ングゴ」が分裂し、2018年以降8年間“内戦”状態に。研究は24件の殺害（うち幼獣17頭）を記録し、2015年頃の対立激化が人類の争いの起源解明に示唆を与えると報告。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-10T19:10:22.000Z",
+      "contentHash": "313e48c50901"
+    },
+    {
+      "id": "7b912575dbf3",
+      "title": "Molotov cocktail is hurled at home of Sam Altman",
+      "url": "https://www.nytimes.com/2026/04/10/us/open-ai-sam-altman-molotov-cocktail.html",
+      "summary": "外部リンクを直接開けないため記事本文を取得できません。記事全文か要点（何が起きたか、関係者、日時、結果）を貼っていただければ、200字以内で日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-10T18:48:24.000Z",
+      "contentHash": "6bad15bde9b3"
+    },
+    {
       "id": "2c33024cfd2b",
       "title": "Microsoft finally lets Windows 11 testers unlock experimental features without ViVeTool",
       "url": "https://www.theverge.com/news/909659/microsoft-windows-insider-changes-unlock-experimental-features-without-vivetool",
@@ -45,6 +162,15 @@
       "source": "The Verge",
       "publishedAt": "2026-04-10T18:00:00.000Z",
       "contentHash": "c5fa8886955f"
+    },
+    {
+      "id": "90fb77ce627f",
+      "title": "【Microsoft Agent Framework 】クライアント生成を理解したい | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/8ae0a928cafe3e",
+      "summary": "Microsoft Agent Framework v1.0公開。記事は「クライアント生成」を接続先・モデル・認証をまとめるオブジェクトと定義し、OpenAIChatCompletionClient、OpenAIChatClient、FoundryChatClient、FoundryAgentを紹介。認証はAPIキーやAzureCliCredentialなどが使え、GAサンプルはFoundryChatClient＋AzureCliCredentialを例示。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-10T17:49:46.000Z",
+      "contentHash": "08e19ec3fd03"
     },
     {
       "id": "d744fd98673d",
@@ -63,6 +189,15 @@
       "source": "The Verge",
       "publishedAt": "2026-04-10T17:31:58.000Z",
       "contentHash": "8473c711c9b0"
+    },
+    {
+      "id": "3d1d26b00656",
+      "title": "The Iranian Lego AI video creators credit their virality to &#8216;heart&#8217;",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/909948/explosive-media-lego-iran-war-trump-netanyahu",
+      "summary": "イランの制作集団Explosive MediaがAI生成のレゴ映像で、米軍の戦闘機救出を嘲笑。機体喪失や「1人救うのに1億ドル無駄」を描き、歌詞で米への再挑戦を示唆し、ホワイトハウスとミーム戦を展開。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-10T17:30:00.000Z",
+      "contentHash": "48f6d635219b"
     },
     {
       "id": "1b51b946e49d",
@@ -176,10 +311,10 @@
       "id": "b4e95d1b5405",
       "title": "DatabricksとAzure SQLをPrivate Endpoint経由でセキュアに接続する | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/2bda472131bf50",
-      "summary": "DatabricksのNCCとAzure Private Linkを組み合わせ、インターネットを経由せずAzure SQLへ接続を検証。Managed VNet前提でVNet Injection不要、Unity Catalog経由のLakehouse Federationでのクエリ実行まで確認。",
+      "summary": "DatabricksのNCCとAzure Private Linkを使い、インターネットを経由せずAzure SQLへPrivate Endpoint接続を検証。Managed VNetでVNet Injection不要、Unity Catalog経由のクエリも確認。設定はDatabricksコンソールで簡単かつセキュア。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-10T12:55:22.000Z",
-      "contentHash": "9dcb32c2db5b"
+      "contentHash": "852fad0642ba"
     },
     {
       "id": "2d8bdc9b4c96",
@@ -221,10 +356,10 @@
       "id": "0cf0e6931ddc",
       "title": "git worktree管理CLIツールを自作した話 | TalentX Tech Blog",
       "url": "https://tech.talentx.co.jp/entry/2026/04/10/203621",
-      "summary": "バックエンドエンジニア樋口が、git worktreeを快適に使うためGoで作ったCLIツール「gwm」を紹介。使用ライブラリや実装でのつまずきと解決策をまとめ、リポジトリを提示。Claude Codeの対応にも触れつつ、仕組み理解の重要性を述べる。",
+      "summary": "Go製のgit worktree管理CLI「gwm」を自作。tmux連携でworktreeの作成/切替/削除、ファイルのcopy/symlink/substitute管理、開発サービスの起動・ポート管理・一意起動を提供。TUIはbubbletea/lipglossを使用し、cdがシェルに反映されない問題など実装上の課題と解決策を解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-10T11:36:21.000Z",
-      "contentHash": "9d2371126885"
+      "contentHash": "8e981b562ee9"
     },
     {
       "id": "9504266d8800",
@@ -266,10 +401,10 @@
       "id": "7b0557c5e22d",
       "title": "OCI チュートリアル「監査ログを使用したテナント監視」をやってみた Vol.1 | スマートスタイル TECH BLOG",
       "url": "https://blog.s-style.co.jp/2026/04/15826/",
-      "summary": "OCIにはテナンシ内の全APIコールを自動記録する監査（Audit）が標準搭載されていますが、単にログが溜まるだけでは意味がありません。今回は公式チュートリアルを基に、そのログの有効な活用方法を紹介します。",
+      "summary": "OCIの監査ログをソースに、サービス・コネクタ・ハブと通知サービスで「バケット作成を検知してメール通知」するノーコード構築手順を解説。Bucket–Createとcompartment OCIDでフィルタし、通知トピック/サブスクは事前作成、IAMポリシーは自動生成。Vol.2で動作確認と高度なフィルタを紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-10T10:37:48.000Z",
-      "contentHash": "38fade0fa02f"
+      "contentHash": "bceab6cd64c6"
     },
     {
       "id": "56a1c6bdcc4d",
@@ -284,28 +419,28 @@
       "id": "e62a4d28bcd0",
       "title": "2026年版モブプログラミング実践録 ── シンキングハット法とClaude Codeで回すチーム開発 | SmartHR Tech Blog",
       "url": "https://tech.smarthr.jp/entry/2026/04/10/190606",
-      "summary": "SmartHRのKentaが別チームで毎日2〜3時間のモブプログラミングを約2ヶ月体験。最初は躊躇したが学びが多く、振り返りの仕組みや集合知の力、AIツールClaude Codeの活用を紹介する。",
+      "summary": "SmartHRのKentaが別チームで約2カ月参加した毎日2〜3時間のモブプログラミング体験を紹介。15分交代のドライバー制・Notionの手引き・小さなPR方針を実践し、シンキングハット法の振り返りで休憩ルールやコミット整理など具体的改善を達成。AIツールClaude Codeも活用している。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-10T10:06:06.000Z",
-      "contentHash": "94892fd6d013"
+      "contentHash": "7f4679377a25"
     },
     {
       "id": "d0d1b64472e0",
       "title": "AIを開発ワークフローに組み込む設計パターン — awesome-copilotエージェント定義から学ぶ分離・構造化・品質ゲート | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/be8e6d370e7032",
-      "summary": "単発のコード生成にとどまるAI利用を超え、開発プロセスへAIを組み込む設計パターンを提示。GitHub Copilotの100件超のエージェント定義分析で共通ワークフローを抽出し、他ツールでも有用とする。",
+      "summary": "AIを単発で使うのではなく開発プロセスに組み込む設計パターンを紹介。100件超のエージェント定義分析から、タスク自動分類（Strategy）、計画と実行の分離（Pipeline）、マルチエージェントによるオーケストレーションなどの実践的ワークフローが有効と示す。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-10T10:05:58.000Z",
-      "contentHash": "683f320c9161"
+      "contentHash": "9b48d7b1e955"
     },
     {
       "id": "e934b16f0d8f",
       "title": "AIに「ちゃんとやらせる」ためのプロンプト技法 — エージェント定義から抽出した実践パターン | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/96f6b78d73a376",
-      "summary": "AIの出力ミスは能力不足でなく指示設計の問題が多い。GitHub Copilotの100件超のエージェント定義を分析し、汎用的なプロンプト設計手法を体系的に紹介する。",
+      "summary": "GitHub Copilotの100件超のエージェント定義を分析し、汎用プロンプト技法を提示。重要指示は表現を変えて最低3回繰り返す、思考過程を出力フォーマットで強制する等、モデル固有の弱点やコンテキスト制約に注意。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-10T10:04:18.000Z",
-      "contentHash": "bce51ae852fd"
+      "contentHash": "dca3a6d12256"
     },
     {
       "id": "c5289bd3ec5b",
@@ -329,10 +464,10 @@
       "id": "43dcc3914ddf",
       "title": "openarm_teleop の使い方まとめ",
       "url": "https://note.com/npaka/n/n7f865c9c8d29",
-      "summary": "openarm_teleopはOpenArmのleader–followerテレオペ用で、単方向（Unilateral）と力覚付き双方向（Bilateral）をサポート。openarm_descriptionとopenarm_teleopをクローン・ビルドし依存導入、CANをCAN FDで初期化してからscript/launch_unilateral.shでアームとCANデバイスを指定して起動します。",
+      "summary": "OpenArmのleader‑followerテレオペ用リポジトリopenarm_teleopの使い方まとめ。1:1のUnilateral/Bilateralをサポート。openarm_descriptionとopenarm_teleopをクローン・ビルドし依存を導入、CANインターフェースをFDモードで初期化してから、script/launch_unilateral.shでarmとCANを指定して実行（引数省略時はデフォルトあり）。",
       "source": "npaka",
       "publishedAt": "2026-04-10T09:03:31.000Z",
-      "contentHash": "411471a843cb"
+      "contentHash": "cb2c713a470b"
     },
     {
       "id": "f7e8e2df63dd",
@@ -623,6 +758,51 @@
       "contentHash": "d2b9a11b6cd6"
     },
     {
+      "id": "d7251d4d2bbc",
+      "title": "Using custom GPTs",
+      "url": "https://openai.com/academy/custom-gpts",
+      "summary": "カスタムGPTの構築と活用法を学び、業務自動化、出力の一貫性維持、目的別のAIアシスタント作成を解説します。",
+      "source": "OpenAI",
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "contentHash": "4c3acb93c7f3"
+    },
+    {
+      "id": "f6f80e4d7509",
+      "title": "ChatGPT for customer success teams",
+      "url": "https://openai.com/academy/customer-success",
+      "summary": "カスタマーサクセスチームがChatGPTを活用して、アカウント管理や顧客対応を改善し、解約率を下げつつ導入促進や契約更新を促す方法を紹介。",
+      "source": "OpenAI",
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "contentHash": "5f7265083d60"
+    },
+    {
+      "id": "2ffc54a54257",
+      "title": "Applications of AI at OpenAI",
+      "url": "https://openai.com/academy/applications-of-ai",
+      "summary": "ChatGPT、Codex、APIなどOpenAIの製品が、業務やソフト開発、日常のタスクにAIを応用し、効率化・自動化・創作支援など現実用途での活用例を紹介する。",
+      "source": "OpenAI",
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "contentHash": "5fe6004fa417"
+    },
+    {
+      "id": "884aaaa8e6ec",
+      "title": "Research with ChatGPT",
+      "url": "https://openai.com/academy/search-and-deep-research",
+      "summary": "ChatGPTを使ったリサーチ方法を解説。検索と深掘りで最新情報を収集・出典を分析し、体系的な洞察を生成する手法を学ぶ。",
+      "source": "OpenAI",
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "contentHash": "ab6be8715c9d"
+    },
+    {
+      "id": "75b9ed387c10",
+      "title": "Responsible and safe use of AI ",
+      "url": "https://openai.com/academy/responsible-and-safe-use",
+      "summary": "ChatGPTなどのAIを安全性・正確性・透明性を重視して責任を持って使うための運用指針とベストプラクティスを示す。",
+      "source": "OpenAI",
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "contentHash": "8a3d2073e629"
+    },
+    {
       "id": "12aa5eec1666",
       "title": "ChatGPT has a new $100 per month Pro subscription",
       "url": "https://www.theverge.com/ai-artificial-intelligence/909599/chatgpt-pro-subscription-new",
@@ -662,10 +842,10 @@
       "id": "6c873d661f09",
       "title": "Muse Spark の概要",
       "url": "https://note.com/npaka/n/n15faa774e781",
-      "summary": "タイトルだけでは正確な要約ができません。記事本文かURLを貼ってください。いただければ200文字以内で日本語要約を作成します。",
+      "summary": "Metaは2026年4月に製品最適化型AI「Muse Spark」を発表。マルチモーダルで視覚を前提に意思決定支援し、複数サブエージェントでタスク分解。Llamaと異なり研究より製品統合・速度・ガードレール重視。言語・視覚は競争力あるがコーディング等は弱く、広範なMeta製品への組込みが強み。",
       "source": "npaka",
       "publishedAt": "2026-04-09T22:10:02.000Z",
-      "contentHash": "35cb21b49b82"
+      "contentHash": "2fc07b85946c"
     },
     {
       "id": "973f766d0b1e",
@@ -689,10 +869,10 @@
       "id": "a1684190a11c",
       "title": "Claude Mythos Preview の概要",
       "url": "https://note.com/npaka/n/n8300dedbd1bb",
-      "summary": "Claude Mythos Previewは脆弱性発見やエクスプロイト作成で高性能を示し、危険な出力抑制が不十分なため一般公開を見送り。防御目的で限定提供するProject Glasswingにより重要ソフトの脆弱性検出に活用される。",
+      "summary": "AnthropicのClaude Mythos Previewは脆弱性発見やエクスプロイト生成で飛躍的性能を示し、危険な出力を抑え切れないため一般公開を見送り。防御目的で限定提供するProject Glasswing経由で重要組織に展開し、AIが攻防両面でセキュリティの前提を変える可能性を示した。",
       "source": "npaka",
       "publishedAt": "2026-04-09T21:38:57.000Z",
-      "contentHash": "96af7e767c08"
+      "contentHash": "5609e868c8b3"
     },
     {
       "id": "63d8811ee9b7",
@@ -986,10 +1166,10 @@
       "id": "e54c2d22d93e",
       "title": "4月12日 技術書典20 に新刊 『Nano Banana・Grok Imagine・Gemini TTS で始める AIアニメ生成入門』 で参加します",
       "url": "https://note.com/npaka/n/na85f22deec79",
-      "summary": "4月12日(日)開催の技術書典20オフラインで、新刊『Nano Banana・Grok Imagine・Gemini TTSで始めるAIアニメ生成入門』を頒布します。ぜひお越しください。",
+      "summary": "4月12日開催の技術書典20オフラインイベントで、んぱか工房（npaka）が新刊『Nano Banana・Grok Imagine・Gemini TTSで始めるAIアニメ生成入門』を頒布します。応援よろしくお願いします。",
       "source": "npaka",
       "publishedAt": "2026-04-09T12:24:27.000Z",
-      "contentHash": "5f3df829f7ab"
+      "contentHash": "59351aa7946d"
     },
     {
       "id": "a8fab82fa16a",
@@ -1553,10 +1733,10 @@
       "id": "13346ebb5667",
       "title": "Try notebooks in Gemini to easily keep track of projects",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
-      "summary": "GeminiのNotebooksはプロジェクトの拠点となり、GeminiアプリとAI研究パートナーのNotebookLMを連携して、手軽で効率的なワークフローを提供します。",
+      "summary": "Geminiアプリにプロジェクト管理用の「ノートブック」機能が追加。チャットやファイルをNotebookLMと同期し、カスタム指示や資料追加で個人知識ベースを構築。Ultra/Pro/PlusのWeb利用者から順次提供。",
       "source": "Gemini",
       "publishedAt": "2026-04-08T13:45:00.000Z",
-      "contentHash": "dd733de214b2"
+      "contentHash": "1cf8a67d8b3c"
     },
     {
       "id": "980e5d342017",
@@ -2228,10 +2408,10 @@
       "id": "7236fd9ca299",
       "title": "XMCP を試す",
       "url": "https://note.com/npaka/n/nae69651a3c79",
-      "summary": "XMCPはX APIをAIツール向けに仲介する無償のMCPサーバー。実利用はX APIやxAIの課金が必要。Developer Consoleでキーとクレジットを取得し、xmcpをクローンして.env設定・server.py起動、Claude Desktopを設定して接続・投稿検索などを行う。ツール定義のschemaが大きく圧縮が必要な場合あり。",
+      "summary": "XMCPはX APIをAIツールから使いやすくするMCPサーバー。本体は無料だがX/xAI API利用料は別途発生。開発者コンソールでキーを取得し、リポジトリをクローン・.env設定・server.py実行、Claude Desktopに接続してユーザー情報取得や投稿検索などを行う。",
       "source": "npaka",
       "publishedAt": "2026-04-07T13:40:56.000Z",
-      "contentHash": "4be653584e53"
+      "contentHash": "7747886d1089"
     },
     {
       "id": "e5e7fa55360a",
@@ -7871,10 +8051,10 @@
       "id": "db1a7f4b6615",
       "title": "Make the switch: Bring your AI memories and chat history to Gemini",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-to-gemini-app/",
-      "summary": "Geminiアプリが、他のAIチャットアプリからの乗り換えを簡単にし、会話履歴などを一から作り直す必要なく移行できるようにした。",
+      "summary": "Geminiに他のAIアプリの「メモリ」やチャット履歴を取り込めるようになりました。推奨プロンプトで移行するか、履歴をZIPでアップロードし、設定から復元できます。",
       "source": "Gemini",
       "publishedAt": "2026-03-26T19:00:00.000Z",
-      "contentHash": "867ef7373982"
+      "contentHash": "8cc0b0fa9787"
     },
     {
       "id": "05aedee8f5d5",
@@ -8820,186 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-03-24T20:43:14.000Z",
       "contentHash": "70901e4ad092"
-    },
-    {
-      "id": "183a94a490ef",
-      "title": "Apple is testing a standalone app for its overhauled Siri",
-      "url": "https://www.theverge.com/tech/899801/apple-wwdc-2026-new-siri-apple-intelligence-standalone-app",
-      "summary": "Bloomberg報道：AppleはWWDC2026（6/8）でiOS27／macOS27向けに刷新されたSiriを発表予定。単独アプリ化しシステム横断でアプリ操作やメール・メモ等を用いた作業遂行、ニュースやウェブの要約・箇条書き・画像付き応答が強化される。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-24T20:41:24.000Z",
-      "contentHash": "6ad7874f91da"
-    },
-    {
-      "id": "2bdfa4a7d463",
-      "title": "Is anybody else bored of talking about AI?",
-      "url": "https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/",
-      "summary": "申し訳ありませんが、外部リンク先の本文を直接参照できません。記事本文（または主要部分）を貼り付けていただければ、200字以内で日本語要約を作成します。必要ならHNコメントも一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-24T20:31:08.000Z",
-      "contentHash": "3a3b5c774aca"
-    },
-    {
-      "id": "0760c7346e53",
-      "title": "GitHub is once again down",
-      "url": "https://www.githubstatus.com/incidents/kp06czybl7dw",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文または要点をここに貼っていただければ、200文字以内で日本語要約します。Hacker Newsのコメントも要約希望なら、それも併せて貼ってください。どちらも難しければ、記事の主要トピック（例：障害の内容、影響範囲、復旧状況）を教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-24T20:23:34.000Z",
-      "contentHash": "a5e15bb3fe66"
-    },
-    {
-      "id": "880d0ab651cb",
-      "title": "The man who coined Metaverse now says Meta&#8217;s glasses are creepy",
-      "url": "https://www.theverge.com/tech/899797/metaverse-neal-stephenson-headsets-goggles-glasses-creepy-no-business-case",
-      "summary": "『メタバース』を造語した小説家ニール・スティーブンソンが、Metaのスマートグラスを「不気味」と批判。顔に装着する端末は嫌われ信頼されず、スマホ時代にゴーグルは未来ではないと述べた。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-24T20:08:14.000Z",
-      "contentHash": "9aafc1f778d4"
-    },
-    {
-      "id": "655decac2786",
-      "title": "Goodbye to Sora",
-      "url": "https://twitter.com/soraofficialapp/status/2036532795984715896",
-      "summary": "外部リンクは直接開けないため、記事本文を貼付いただくか主要ポイント（見出し・要点）を教えてください。いただければ200字以内で日本語要約します。Hacker Newsの議論要約も可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-24T20:01:05.000Z",
-      "contentHash": "2cc8036ebe0e"
-    },
-    {
-      "id": "670485cae2a6",
-      "title": "Apple launches iOS 26.4 with AI playlists, purchase sharing, and more",
-      "url": "https://www.theverge.com/tech/899799/apple-ios-26-4-ai-playlist-purchase-sharing-update",
-      "summary": "iOS 26.4は、Apple MusicのAI「Playlist Playground」ベータで説明文からプレイリスト生成、近場コンサート検索、全画面アルバム背景、オフライン曲認識、家族共有の支払方法個別追加などを導入。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-24T19:22:29.000Z",
-      "contentHash": "3f9192d117bc"
-    },
-    {
-      "id": "4f4aea340d00",
-      "title": "Wine 11 rewrites how Linux runs Windows games at kernel with massive speed gains",
-      "url": "https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/",
-      "summary": "Wine 11はWindowsゲームの動作をカーネルレベルで再設計し、従来のWine/Protonより互換性と実行速度が大幅に向上。LinuxでのWindowsゲーム動作に劇的な性能改善をもたらす。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-24T18:34:52.000Z",
-      "contentHash": "8096b01260a9"
-    },
-    {
-      "id": "8441e43a28fe",
-      "title": "Show HN: I took back Video.js after 16 years and we rewrote it to be 88% smaller",
-      "url": "https://videojs.org/blog/videojs-v10-beta-hello-world-again",
-      "summary": "Video.js v10ベータを公開。PlyrやVidstackらと共同で全面再構築し、デフォルトのバンドルを88%削減。React/TypeScript/Tailwindを一等級でサポートし、美しいデフォルトとAI対応の設計を備える。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-24T18:03:48.000Z",
-      "contentHash": "3b077d299870"
-    },
-    {
-      "id": "6e7ff95e623d",
-      "title": "FCC has banned the import of all new foreign-made routers here's what you can do",
-      "url": "https://blog.adafruit.com/2026/03/24/fcc-just-banned-the-import-of-all-new-foreign-made-routers-heres-what-you-can-do-about-it/",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できないため記事を取得できません。記事本文を貼っていただければ、200文字以内で日本語要約します。HNのコメントも一緒に貼れば併せて要約します。どちらか提供をお願いします。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-24T17:49:35.000Z",
-      "contentHash": "56c1bfdfc8f5"
-    },
-    {
-      "id": "b66cddecfcbe",
-      "title": "Country that put backdoors in Cisco routers to spy on world bans foreign routers",
-      "url": "https://www.theregister.com/2026/03/24/fcc_foreign_routers/",
-      "summary": "米FCCは国家安全保障を理由に外国製の消費者向けルーター全機種をCovered Listに追加し、新規モデルの承認を事実上禁止。既存の承認品は引き続き販売可とし、供給網の脆弱性を懸念。一方で米情報機関が過去にCisco製ルーターを改竄して諜報活動を行った事例は皮肉だ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-24T17:32:31.000Z",
-      "contentHash": "2b054322b8a6"
-    },
-    {
-      "id": "166b61905c46",
-      "title": "Welp, I bought an iPhone again",
-      "url": "https://www.theverge.com/tech/899602/best-phone-android-ios-app-store",
-      "summary": "筆者は退屈で他社のスマホを片っ端から試したが、魅力的な点は多い一方で大きな問題があり、最終的に期待した機種ではないものの緑色のiPhoneを再び購入した。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-24T17:00:00.000Z",
-      "contentHash": "9b6790019ce2"
-    },
-    {
-      "id": "385d26d9e03e",
-      "title": "A BlackBerry you might actually want just landed on Kickstarter",
-      "url": "https://www.theverge.com/tech/899632/unihertz-titan-2-elite-pro-android-blackberry-smartphone-pricing-kickstarter-preorder",
-      "summary": "Unihertzの小型キーボード搭載Android端末「Titan 2 Elite」がKickstarterで先行予約開始。BlackBerry風キー、Android 16、4.03型120Hz AMOLED搭載。価格は通常$489、早期割$389〜、出荷は2026年6月予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-24T16:27:36.000Z",
-      "contentHash": "3530036be383"
-    },
-    {
-      "id": "facbd0266d29",
-      "title": "Life is Strange: Reunion is a full-circle moment for its stars",
-      "url": "https://www.theverge.com/entertainment/897984/life-is-strange-reunion-cast-interview",
-      "summary": "『Life is Strange: Reunion』でマックスとクロエが予想外に再登場。声優リアナ・デヴリーズらも出演に驚き、物語の区切りをつける試みだが、プレイヤーの選択を覆す展開に賛否がある。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-24T16:00:00.000Z",
-      "contentHash": "f9962f3a08b6"
-    },
-    {
-      "id": "706355e00198",
-      "title": "Google’s Android Automotive is moving from the dashboard to the ‘brain’ of the car",
-      "url": "https://www.theverge.com/tech/899034/google-android-automotive-os-software-defined-vehicle",
-      "summary": "グーグルはAndroid Automotiveの新版を発表。従来のインフォテインメントからソフトウェア定義車両（非安全領域）の車載コンピュータへ拡大し、オープンアーキテクチャで断片化を解消して事実上の標準化を目指す。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-24T16:00:00.000Z",
-      "contentHash": "b959b507f844"
-    },
-    {
-      "id": "9de62da57424",
-      "title": "3 new Gemini features are coming to Google TV",
-      "url": "https://blog.google/products-and-platforms/platforms/google-tv/new-gemini-features-march-2026/",
-      "summary": "Google TVに3つのGemini機能が追加されます。視覚的な回答（ライブ得点やレシピ動画）、ナレーション付きのDeep dives（健康・技術などの詳細解説）、スポーツの音声要約。米国・カナダで展開中、春に豪州・NZ・英国へ拡大予定。",
-      "source": "Gemini",
-      "publishedAt": "2026-03-24T16:00:00.000Z",
-      "contentHash": "37bd2a67a4ec"
-    },
-    {
-      "id": "17fda369f96e",
-      "title": "Apple Maps will introduce ads this summer",
-      "url": "https://www.theverge.com/tech/899597/apple-maps-ads-launch-summer-2026",
-      "summary": "Appleは今夏、米国とカナダのApple Mapsに検索結果上部や「Suggested Places」欄で広告を導入。広告は明示表示され、位置情報や広告のやり取りはAppleアカウントと紐付けず端末内で処理すると説明。中小企業向けの端末＋ローカル広告プランも開始。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-24T15:44:59.000Z",
-      "contentHash": "b2dc07ef702c"
-    },
-    {
-      "id": "43bdcd0d486a",
-      "title": "Major insider trading on oil detected ahead of Iran talks",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-03-24-2026/card/mystery-jump-in-oil-trading-ahead-of-trump-post-draws-scrutiny-56sgwdXtlOlonqIKDsL6",
-      "summary": "WSJは、トランプ氏の投稿直前に原油取引で異例の急増が発生し、規制当局や取引所が情報漏えいや市場操作の可能性を調査していると報じた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-24T15:25:52.000Z",
-      "contentHash": "f22656596693"
-    },
-    {
-      "id": "be5ecef4d33d",
-      "title": "LaGuardia pilots raised safety alarms months before deadly runway crash",
-      "url": "https://www.theguardian.com/us-news/2026/mar/24/laguardia-airplane-pilots-safety-concerns-crash",
-      "summary": "申し訳ありませんが、外部のウェブページを直接閲覧できません。記事本文を貼り付けていただければ、200文字以内で日本語要約します。Hacker Newsのコメントも含めますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-24T15:19:19.000Z",
-      "contentHash": "be27af4a05d4"
-    },
-    {
-      "id": "c1a434605ee5",
-      "title": "Pokémon Champions is coming to the Nintendo Switch on April 8th",
-      "url": "https://www.theverge.com/games/899535/pokemon-champions-is-coming-to-the-nintendo-switch-on-april-8th",
-      "summary": "任天堂とポケモン社は『Pokémon Champions』を4月8日にNintendo Switchで発売すると発表。Switch 2は同日グラフィック向上の無償更新を受け、ポケモンHOME連携で他作とのポケモン移行が可能。モバイル版は今年後半、合わせて新トレーラーも公開。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-24T15:10:25.000Z",
-      "contentHash": "9e5a50c5fe56"
-    },
-    {
-      "id": "00c367ae0763",
-      "title": "Meta’s reckoning over kids safety is in the hands of two juries",
-      "url": "https://www.theverge.com/policy/899494/meta-new-mexico-los-angeles-kids-safety-jury-trial",
-      "summary": "子どもの安全問題でMetaが2件の裁判に直面。ニューメキシコで児童を助長した疑い、LAで「依存」を招いた製品欠陥の責任を問う訴訟。敗訴なら20億ドル超の賠償や追加訴訟を招く可能性。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-24T14:56:31.000Z",
-      "contentHash": "c2369a0ba081"
     }
   ]
 }
