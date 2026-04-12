@@ -1,23 +1,50 @@
 {
-  "generatedAt": "2026-04-12T03:36:42.616Z",
+  "generatedAt": "2026-04-12T09:14:11.402Z",
   "items": [
+    {
+      "id": "d9422495de69",
+      "title": "I run multiple $10K MRR companies on a $20/month tech stack",
+      "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+      "summary": "著者は月20ドル程度の最小限スタックで複数の月間10Kドル事業を運営。資金調達より低コスト運営でランウェイ確保し設計を簡素化。LinodeやDigitalOceanの$5〜10VPS、1GB RAM＋スワップで十分と提唱。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-12T06:00:00.000Z",
+      "contentHash": "e1dda96f566a"
+    },
+    {
+      "id": "163550f90e9c",
+      "title": "US appeals court declares 158-year-old home distilling ban unconstitutional",
+      "url": "https://www.theguardian.com/law/2026/apr/11/appeals-court-ruling-home-distilling-ban-unconstitutional",
+      "summary": "米第5巡回控訴裁は、1868年制定の自家蒸留禁止を違憲と判断した。Hobby Distillersらの訴えを認め、禁止は課税権の濫用で税収を減らし、家庭活動を不当に刑事化すると指摘した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-12T05:08:03.000Z",
+      "contentHash": "b9e4c4c06128"
+    },
+    {
+      "id": "2ea91c5b8075",
+      "title": "「claudeの最新情報をお届け！」～【claude】今週の人気記事TOP5（2026/04/12） | CareNet Engineersのフィード",
+      "url": "https://zenn.dev/carenet/articles/zenn-weekly-claude-articles-2026-04",
+      "summary": "Zennの人気記事を自動取得・要約する週刊「claudeの最新情報」TOP5（2026/04/12）。主な話題はAIでPRの83%自動マージ、社内向け17台MCPサーバ設計、PM向けClaude Code、トークン削減プロンプト「genshijin」、国交省MCPとClaude連携。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-12T02:27:25.000Z",
+      "contentHash": "418158e4cf92"
+    },
     {
       "id": "37f25e6de90e",
       "title": "SAM3とマトリックス・コードで作る\"cat matrix\" | エムスリーテックブログ",
       "url": "https://www.m3tech.blog/entry/2026/04/12/100000",
-      "summary": "AI・機械学習チームの鴨田によるブログリレー12日目。前日は池嶋氏のYAMLに関する記事。娘の影響でYouTubeの「シナぷしゅ」月歌と親向け解説動画を楽しみにしており、プロデューサーの詳しい解説を推薦。nanobananaの「マトリックス・コードで猫の黒いシルエット」画像作成にも触れる。",
+      "summary": "MetaのセグメンテーションモデルSAM3を用い、画像／動画から「cat」プロンプトで猫のマスクを抽出。マトリックス風コードの描画を改修してマスク領域を透過させ、動く猫シルエットアニメを生成。実装手順や環境設定、Colabのメモリ問題などを解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-12T01:00:00.000Z",
-      "contentHash": "5e4d5629b099"
+      "contentHash": "6549eecb66b0"
     },
     {
       "id": "f76cb9e261f4",
       "title": "いまエンジニアを目指すならコーディングから始めるべきか？ ― AI時代の採用現場から思うこと | NCDC テックブログのフィード",
       "url": "https://zenn.dev/ncdc/articles/1570d22bf9b63d",
-      "summary": "生成AI時代、エンジニア志望はまずコーディングより「何を作るか」を決める設計力やAIエージェントを使いこなす力（要件整理、出力評価、修正指示、統合）を優先すべきだという提言。",
+      "summary": "AI時代は「コードを書く力」より「何を作るか決める設計力」やAIエージェントを使いこなす力（要件整理、出力評価、問題特定・修正、統合）が重要で、採用でも優先されるべきだという主張。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-12T00:09:05.000Z",
-      "contentHash": "1cafe4c9fcd6"
+      "contentHash": "4a79ca9d037a"
     },
     {
       "id": "ed40ba0799b1",
@@ -41,46 +68,55 @@
       "id": "ca19cb528611",
       "title": "Apple Silicon and Virtual Machines: Beating the 2 VM Limit (2023)",
       "url": "https://khronokernel.com/macos/2023/08/08/AS-VM.html",
-      "summary": "申し訳ありませんが外部ページに直接アクセスできません。記事本文を貼っていただければ、200字以内で日本語要約します。HNコメントも一緒に貼れば併せて要約できます。",
+      "summary": "Apple Silicon上のmacOS仮想マシンは同時に最大2台までしか動かせない制限（VZError.Code.virtualMachineLimitExceeded）があり、これはmacOS VenturaのSLA条項に起因する。筆者はUTM等で開発・検証を行う中でこの制約を調べ、macOS内部でのチェック実装箇所や回避手法（開発カーネルコレクションを作成して起動する等）を探った経験を報告する。",
       "source": "Hacker News",
       "publishedAt": "2026-04-11T20:58:48.000Z",
-      "contentHash": "872ed3ada944"
+      "contentHash": "c3db7e751884"
     },
     {
       "id": "9ac5b92d9e0e",
       "title": "447 TB/cm² at zero retention energy – atomic-scale memory on fluorographane",
       "url": "https://zenodo.org/records/19513269",
-      "summary": "申し訳ありませんが、外部リンク先の内容を直接取得できません。記事本文をここに貼るか、主要ポイント（タイトル・要旨・重要箇所）を教えてください。Hacker Newsの議論を要約してほしい場合はその旨を伝えてください。いただければ200文字以内で日本語要約を作成します。",
+      "summary": "単層フルオログラフェン上のフッ素原子の二安定配向をビット化し、約4.6 eVの反転障壁で熱・トンネル誤りを事実上排除、ゼロ保持エネルギーで非揮発性。1cm²で447TB、体積密度0.4–9ZB/cm³、Tier化した読み書きで最大25PB/s、走査プローブ試作で既存技術を5桁上回る面密度を実証。",
       "source": "Hacker News",
       "publishedAt": "2026-04-11T20:08:46.000Z",
-      "contentHash": "367b8f936817"
+      "contentHash": "9861213f8fb4"
     },
     {
       "id": "0942f2c545d9",
       "title": "Dark Castle",
       "url": "https://darkcastle.co.uk/",
-      "summary": "すみません、直接ウェブページにはアクセスできません。記事本文をここに貼り付けていただければ、200文字以内の日本語で要約します。Hacker Newsのコメントも要約希望なら一緒に貼ってください。",
+      "summary": "古いMac用ゲーム『Dark Castle』（1986・白黒）と『Beyond Dark Castle』（1987・カラー）をMini vMacで遊べる形で配布。ZIPはMiniVMac、Mac Plus ROM、System 6、両ゲームのイメージを含む（Return toは未収録）。解凍後DCImageをMini vMacにドラッグして起動、CTRL‑Fで全画面、日付を12/25にするとイースターエッグ。制作者はMark PierceとJonathan Gay。",
       "source": "Hacker News",
       "publishedAt": "2026-04-11T20:01:59.000Z",
-      "contentHash": "9b15b479de79"
+      "contentHash": "1f0539492c2b"
     },
     {
       "id": "63f78f0106b9",
       "title": "How We Broke Top AI Agent Benchmarks: And What Comes Next",
       "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできないため記事を取得できません。記事本文を貼るか主要箇所を教えていただければ、200字以内で日本語要約を作成します。HNコメントも同様に対応可。",
+      "summary": "UC Berkeleyの研究者らは、自動スキャンエージェントでSWE-benchやWebArena、Terminal-Bench等の主要8ベンチを攻略し、スコア計算や環境の漏洩を突いてほぼ満点を達成。ベンチは実際の能力を測れておらず、設計の改善が必要だと警告する。",
       "source": "Hacker News",
       "publishedAt": "2026-04-11T19:15:56.000Z",
-      "contentHash": "abf6ec36466e"
+      "contentHash": "dce8892bfe21"
+    },
+    {
+      "id": "2c95a44f6846",
+      "title": "How to build a `Git diff` driver",
+      "url": "https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/",
+      "summary": "git diff用の外部差分コマンド（diff driver）の作り方を解説。Gitが渡す7つの引数の扱いや、OpenAPI差分に使うoasdiffの具体例を示し、textconvでは不十分なケースでの利点を説明。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-11T18:07:49.000Z",
+      "contentHash": "caa4983e3cb4"
     },
     {
       "id": "f12489a0fef8",
       "title": "Small models also found the vulnerabilities that Mythos found",
       "url": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
-      "summary": "生成AIの進展がサイバー攻撃と防御の力関係を急速に変え、「ギザギザの前線」が生まれていると論じる。モデル悪用や自動化、データ毒性、サプライチェーンリスクなど攻撃側の優位と、AIを使った検出・レッドチーム、監視、ガバナンス強化、共同対策による堅牢化の必要性を提言している。",
+      "summary": "AnthropicのMythos発表を受け、小型オープンモデルで同社の脆弱性解析を再現。結果、能力はモデルサイズで滑らかに伸びず「ギザギザ」的で、鍵は専門知識を組み込むシステム（堀）だと結論。Mythosは手法を裏付けるが決着はついていない。",
       "source": "Hacker News",
       "publishedAt": "2026-04-11T16:47:28.000Z",
-      "contentHash": "3669ba6c8c1b"
+      "contentHash": "9bb88f7b578f"
     },
     {
       "id": "5696ce18132e",
@@ -284,37 +320,37 @@
       "id": "c2b93696327a",
       "title": "Agentic MLOpsで加速する機械学習開発 | エムスリーテックブログ",
       "url": "https://www.m3tech.blog/entry/2026/04/11/130000",
-      "summary": "池嶋大樹（AI・機械学習チーム）。6年前からYAMLで設定管理するconfig-driven MLを実践。現在はLLMエージェントが性能グラフを参照してYAMLを自律チューニングするAgentic MLOpsで開発を加速している。",
+      "summary": "池嶋氏のチームは6年前からYAMLで設定管理するconfig-driven機械学習を実践し、コードと設定を分離して実験管理を効率化。近年はLLMエージェントがYAMLを自律チューニングするAgentic MLOpsで開発がさらに加速している。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-11T04:00:00.000Z",
-      "contentHash": "896d7a603dcd"
+      "contentHash": "0b001953d265"
     },
     {
       "id": "06ecc1c907ae",
       "title": "日本語の音声認識で使える 学習ベースVAD まとめ",
       "url": "https://note.com/npaka/n/n8d2a2fbe72bc",
-      "summary": "学習ベースVADの比較。VADはASR前の無音除去や長尺分割で重要で、短発話や雑音に強い学習型が有効。候補は導入容易なSilero、精度・拡張性重視のpyannote.audio、ASR統合のFunASR(FSMN‑VAD)、カスタマイズ向けのSpeechBrain。用途別の選び方も提示。",
+      "summary": "音声認識で重要な前処理VADについて、学習ベースの利点を説明し代表4種を比較。Silero（軽量・導入容易）、pyannote.audio（高精度・話者分離向け）、FunASR/FSMN-VAD（ASRと統合しやすい）、SpeechBrain（実験・カスタマイズ向け）。用途に応じて使い分けを推奨。",
       "source": "npaka",
       "publishedAt": "2026-04-11T02:23:14.000Z",
-      "contentHash": "edf25fdf91a3"
+      "contentHash": "434fdb7177b5"
     },
     {
       "id": "eae89ee3f06b",
       "title": "【Microsoft Fabric】- ワークスペースを削除する方法 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/8775fd2ae8662c",
-      "summary": "Microsoft Fabricでワークスペースを削除する手順: Fabricを開き該当ワークスペースを選択→設定→全般→「このワークスペースを削除する」をクリックして削除を実行。",
+      "summary": "Microsoft Fabricのワークスペースを削除する手順を解説。Fabricを開き該当ワークスペース→設定→全般→「このワークスペースを削除する」を選んで削除します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-11T01:08:43.000Z",
-      "contentHash": "b47cf995b019"
+      "contentHash": "b96164e0365b"
     },
     {
       "id": "cef63ad5e226",
       "title": "HHKB Hybrid Type-S を Mac に繋いだら US 配列になった話と解決方法 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/3da1b82b013019",
-      "summary": "2026/04/11報告：MacBook Pro（M5 Pro）にHHKB Professional HYBRID Type-S（日本語配列）を接続したところ、macOSがUS配列として認識。Shift+2で@が出るなど記号位置がずれる問題が発生し、記事では対処法を示す。",
+      "summary": "MacBook Pro（M5）にHHKB Hybrid Type-S（JIS）を接続するとUS配列と認識され、記号の位置がずれる。対処法はUSBで有線接続（Fn＋Control＋0で切替）し、システム設定→キーボード→「キーボードの種類を変更」でJISを選ぶこと。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-11T00:30:32.000Z",
-      "contentHash": "927c7c4b1720"
+      "contentHash": "6cb713b85a23"
     },
     {
       "id": "30043132254e",
@@ -365,10 +401,10 @@
       "id": "fa114864226d",
       "title": "AGIBOT AI WEEK 2026 まとめ",
       "url": "https://note.com/npaka/n/n851df4a47f7a",
-      "summary": "AGIBOT AI WEEK（4/7–14）で、実世界100%の大規模データセット「AGIBOT WORLD 2026」(高品質注釈・5研究領域対応)と、LLM駆動で高忠実な3D環境を生成する統合シミュレータ「Genie Sim 3.0」(オープンソース、合成データ・評価対応)が発表された。",
+      "summary": "AGIBOT AI WEEK（4/7–14）で実世界データやシミュレーションなどを連日発表。Day1は100%実世界収集の大規模データセット「AGIBOT WORLD 2026」を公開（高品質注釈、Hugging Face）。Day2はLLM駆動で高忠実3D環境を生成する統合シミュレータ「Genie Sim 3.0」を公開（オープンソース、合成データ・評価基準・並列RL対応）。",
       "source": "npaka",
       "publishedAt": "2026-04-10T20:57:25.000Z",
-      "contentHash": "9d172b295d55"
+      "contentHash": "780ede416020"
     },
     {
       "id": "caba035c1a23",
@@ -743,10 +779,10 @@
       "id": "43dcc3914ddf",
       "title": "openarm_teleop の使い方まとめ",
       "url": "https://note.com/npaka/n/n7f865c9c8d29",
-      "summary": "OpenArmのleader‑followerテレオペ用リポジトリopenarm_teleopの使い方まとめ。1:1のUnilateral/Bilateralをサポート。openarm_descriptionとopenarm_teleopをクローン・ビルドし依存を導入、CANインターフェースをFDモードで初期化してから、script/launch_unilateral.shでarmとCANを指定して実行（引数省略時はデフォルトあり）。",
+      "summary": "openarm_teleop は OpenArm の leader-follower テレオペ用で、Unilateral/Bilateral をサポート。openarm_description と openarm_teleop をクローン・ビルドし依存導入、CAN を socketcan(FD) で初期化して使用。起動例: ./script/launch_unilateral.sh right_arm|left_arm [leader_can follower_can]。",
       "source": "npaka",
       "publishedAt": "2026-04-10T09:03:31.000Z",
-      "contentHash": "cb2c713a470b"
+      "contentHash": "0501d4f78052"
     },
     {
       "id": "f7e8e2df63dd",
@@ -1127,6 +1163,42 @@
       "contentHash": "616cf50f9f47"
     },
     {
+      "id": "0f5953f545f0",
+      "title": "ChatGPT for marketing teams",
+      "url": "https://openai.com/academy/marketing",
+      "summary": "マーケティングチームがChatGPTを活用し、キャンペーン企画、コンテンツ作成、効果分析を行って、アイデアから実行までのスピードを高める方法を紹介。",
+      "source": "OpenAI",
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "contentHash": "c3cf1cad375c"
+    },
+    {
+      "id": "d78a27ea5811",
+      "title": "Our response to the Axios developer tool compromise",
+      "url": "https://openai.com/index/axios-developer-tool-compromise",
+      "summary": "OpenAIはAxiosのサプライチェーン攻撃を受け、macOS用コード署名証明書をローテーションしてアプリを更新し、ユーザーデータに被害はなかったと確認しました。",
+      "source": "OpenAI",
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "contentHash": "3ca1be4d2d0b"
+    },
+    {
+      "id": "f56c542f57be",
+      "title": "Using skills",
+      "url": "https://openai.com/academy/skills",
+      "summary": "ChatGPTスキルの作成と活用方法を解説。再利用可能なワークフローを構築し、定型作業を自動化して、一貫した高品質な成果を得る方法を学べる。",
+      "source": "OpenAI",
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "contentHash": "07a6fc13df78"
+    },
+    {
+      "id": "f27e81386276",
+      "title": "ChatGPT for operations teams",
+      "url": "https://openai.com/academy/operations",
+      "summary": "オペレーションチームはChatGPTを活用し、ワークフローの効率化、連携強化、業務の標準化を図ることで、より迅速な実行を促進している。",
+      "source": "OpenAI",
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "contentHash": "312c44526922"
+    },
+    {
       "id": "12aa5eec1666",
       "title": "ChatGPT has a new $100 per month Pro subscription",
       "url": "https://www.theverge.com/ai-artificial-intelligence/909599/chatgpt-pro-subscription-new",
@@ -1166,10 +1238,10 @@
       "id": "6c873d661f09",
       "title": "Muse Spark の概要",
       "url": "https://note.com/npaka/n/n15faa774e781",
-      "summary": "Muse Sparkは、個人向け「パーソナル・スーパーインテリジェンス」を目指す新モデルで、スケーリングと効率化を重視し、カスタマイズ性やマルチモーダル対応、実用化に向けた評価・安全性・プライバシー対策を強調している。",
+      "summary": "MetaのMuse Sparkは、テキスト・画像等を前提に扱うマルチモーダルでマルチエージェント設計のAI。Facebook・Instagram・WhatsApp・AIグラス等への製品統合に最適化され、実用性・速度・統合性を重視。ベンチマークで万能ではないが実サービス向けの強みを狙う。",
       "source": "npaka",
       "publishedAt": "2026-04-09T22:10:02.000Z",
-      "contentHash": "35cb21b49b82"
+      "contentHash": "cae8c9655eff"
     },
     {
       "id": "973f766d0b1e",
@@ -1193,10 +1265,10 @@
       "id": "a1684190a11c",
       "title": "Claude Mythos Preview の概要",
       "url": "https://note.com/npaka/n/n8300dedbd1bb",
-      "summary": "記事の本文が途中で切れているようです。全文を貼っていただければ、200文字以内で要約します。全文を用意できない場合は、今ある情報（「Claude Mythos Preview」の概要やProject Glasswingについて）を元に短く要約するか確認してください。どちらにしますか？",
+      "summary": "AnthropicのClaude Mythos Previewは脆弱性発見やエクスプロイト作成に高い能力を持ち危険性があるため一般公開を回避し、防御目的で限定組織向けにProject Glasswingで提供。AIがセキュリティを変える可能性を示唆。",
       "source": "npaka",
       "publishedAt": "2026-04-09T21:38:57.000Z",
-      "contentHash": "5c3bed09959d"
+      "contentHash": "6f24dea7696f"
     },
     {
       "id": "63d8811ee9b7",
@@ -1490,10 +1562,10 @@
       "id": "e54c2d22d93e",
       "title": "4月12日 技術書典20 に新刊 『Nano Banana・Grok Imagine・Gemini TTS で始める AIアニメ生成入門』 で参加します",
       "url": "https://note.com/npaka/n/na85f22deec79",
-      "summary": "4/12(日)開催の技術書典20オフラインイベントで、新刊『Nano Banana・Grok Imagine・Gemini TTSで始めるAIアニメ生成入門』を頒布します。よろしくお願いします。",
+      "summary": "4月12日開催の技術書典20オフラインで、んぱか工房（npaka）が新刊『Nano Banana・Grok Imagine・Gemini TTSで始めるAIアニメ生成入門』を頒布します。AIで漫画やアニメを作る技術書です。",
       "source": "npaka",
       "publishedAt": "2026-04-09T12:24:27.000Z",
-      "contentHash": "5f3df829f7ab"
+      "contentHash": "e12bd013c421"
     },
     {
       "id": "a8fab82fa16a",
@@ -2462,10 +2534,10 @@
       "id": "242d339eb3da",
       "title": "DGX Spark で Parakeet TDT-CTC 0.6B JA を試す",
       "url": "https://note.com/npaka/n/nd9a5ebcc5531",
-      "summary": "日本語音声認識を比較。NVIDIAのParakeet TDT-CTC 0.6B JAが首位を維持する一方、Cohere Transcribeがオープンソース化されランキングを更新。話し方次第でCohereが優れる場合もあり。",
+      "summary": "DGX SparkでNVIDIAの日本語ASR「Parakeet TDT-CTC 0.6B JA」を検証。高精度で首位維持。Cohere Transcribeの公開でランキング更新の可能性あり。導入手順とサンプル／リアルタイム実装例を紹介。",
       "source": "npaka",
       "publishedAt": "2026-04-08T00:59:09.000Z",
-      "contentHash": "eec79ac2b64e"
+      "contentHash": "3275e720655a"
     },
     {
       "id": "6342ae43d48e",
@@ -8928,78 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-03-25T19:09:16.000Z",
       "contentHash": "b3c93b2c57f7"
-    },
-    {
-      "id": "44512e25f7c3",
-      "title": "Ball Pit",
-      "url": "https://codepen.io/mrdoob_/full/NPRwLZd",
-      "summary": "申し訳ありませんが、外部サイトへ直接アクセスできません。記事本文か主要部分を貼り付けていただければ、200文字以内で要約します。必要ならHNのやり取り要約も対応します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-25T19:08:38.000Z",
-      "contentHash": "ec7d6d133e94"
-    },
-    {
-      "id": "5d5b92cafa18",
-      "title": "Woot is offering over 20 percent off Switch 2 controllers and games today",
-      "url": "https://www.theverge.com/gadgets/900490/nintendo-switch-2-controllers-games-amazon-big-spring-sale-2026-deals",
-      "summary": "WootがAmazonのBig Spring Saleに合わせ1日限定セールを実施。Switch 2用コントローラーやゲームが割引で、クーポン「SAVETWENTY」を使うと3/26 0:59ETまで追加20％オフ。Mario Kart Worldがカートリッジ版$52、8BitDoのパッドはほぼ半額。Prime連携で送料無料。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-25T19:04:34.000Z",
-      "contentHash": "ea84427698a1"
-    },
-    {
-      "id": "d3c19447a584",
-      "title": "90% of Claude-linked output going to GitHub repos w <2 stars",
-      "url": "https://www.claudescode.dev/?window=since_launch",
-      "summary": "週次成長+8%、加速率-17.9pp、倍化時間61日。最速観測は2025/02/24。先週Claude Code初回コミットの新規リポ114,785、総コミット2,080万超、純コード増+307億行（追加504億−削除198億）。主要言語はTypeScript/Python/JavaScript。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-25T18:16:40.000Z",
-      "contentHash": "849d3d75ca04"
-    },
-    {
-      "id": "7a8d5f12f02e",
-      "title": "ARC-AGI-3",
-      "url": "https://arcprize.org/arc-agi/3",
-      "summary": "ARC-AGI-3は人間のような学習・適応力を測る対話型ベンチマーク。未知環境で経験から目標を獲得し、長期計画や記憶圧縮、逐次的な信念更新など時間軸での知能習得効率を評価。ツールキット、再生機能、UI、ドキュメントを提供。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-25T18:16:03.000Z",
-      "contentHash": "83dc0ba10764"
-    },
-    {
-      "id": "c53fde1af24f",
-      "title": "Lyria 3 Pro: Create longer tracks in more Google products",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/",
-      "summary": "Googleが音楽生成AI「Lyria 3 Pro」を公開。構造認識でイントロ・Aメロ・サビ・ブリッジ等を含む最長3分の楽曲作成が可能。Vertex AI、AI Studio、Gemini、Google Vids等で利用でき、透かしと模倣回避策を導入。",
-      "source": "Gemini",
-      "publishedAt": "2026-03-25T16:00:00.000Z",
-      "contentHash": "41bf84ac20a7"
-    },
-    {
-      "id": "8e80d0cd247d",
-      "title": "Xcode 26.3 の Agentic Coding を試す",
-      "url": "https://note.com/npaka/n/na204d7cf2a34",
-      "summary": "Xcode 26.3のAgentic Codingを試した記事。AIが単なる補助から計画→実装→ビルド→修正まで担う主体に進化。Coding Assistantをセットアップ（Claude/Codex）し、MVVM・Observable・async/await・API分離・ローディング/エラー表示・ストリーミング対応を想定したチャットアプリ作成を実演。",
-      "source": "npaka",
-      "publishedAt": "2026-03-25T11:18:31.000Z",
-      "contentHash": "1d1a0480c3fb"
-    },
-    {
-      "id": "263c2043f1c3",
-      "title": "Inside our approach to the Model Spec",
-      "url": "https://openai.com/index/our-approach-to-the-model-spec",
-      "summary": "OpenAIのModel Specは、モデルの振る舞いを公開する枠組みで、安全性、利用者の自由、説明責任のバランスを図りつつ、進化するAIに対応することを目指す。",
-      "source": "OpenAI",
-      "publishedAt": "2026-03-25T10:00:00.000Z",
-      "contentHash": "d324f5a174ee"
-    },
-    {
-      "id": "d94eff5da925",
-      "title": "【AWS】オンプレミスとAWS間のネットワーク接続方式の検討ポイント | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/2562c529df1c12",
-      "summary": "NTTデータがオンプレミスとAWS接続を解説。Client VPN／Site-to-Site／Direct Connectを紹介し、特にDirect Connectの閉域網接続、キャリアのクラウド接続サービス（UNO/WVS/FIC等）、冗長化（キャリア・機器・地域）、帯域選定の重要性と専用線の利点（低遅延・高安定性・セキュリティ）を説明。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-25T07:08:03.000Z",
-      "contentHash": "92f6f1403d33"
     }
   ]
 }
