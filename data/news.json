@@ -1,6 +1,267 @@
 {
-  "generatedAt": "2026-04-15T17:32:17.978Z",
+  "generatedAt": "2026-04-16T03:40:51.037Z",
   "items": [
+    {
+      "id": "f63c0ad91273",
+      "title": "AWS CDKにAWSの既存リソースをインポートする方法 | MIXI DEVELOPERS Tech Blogのフィード",
+      "url": "https://zenn.dev/mixi/articles/0bdedc681f5ede",
+      "summary": "既存のAWSリソースをCDKの管理下に移行する手順。Former2でコード化→インポート先スタック決定→L2へ書換→自動デプロイ停止→CloudFormationでインポート→再開。テンプレ修正（DeletionPolicy追加やECR調整）や必要ツールも解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-16T02:52:27.000Z",
+      "contentHash": "464319626816"
+    },
+    {
+      "id": "fe0913310c3e",
+      "title": "S3 Intelligent-Tieringを検討する際は、四半期に一度以上のアクセス頻度だとしてもGlacier Instant Retrievalも検討しよう | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/04/16/115129",
+      "summary": "保存オブジェクト数や取り出しデータ量次第では、四半期に一度以上のアクセスでもS3 Intelligent‑TieringよりGlacier Instant Retrievalの方が有利になる場合がある。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-16T02:51:29.000Z",
+      "contentHash": "239fcf12a321"
+    },
+    {
+      "id": "be24b3c09384",
+      "title": "締め切り駆動と泥臭い試行錯誤で乗り切った人生初のLT登壇〜ふりかえりカンファレンス2026〜 | 【PRONI】テックブログ",
+      "url": "https://note.com/m_shimokawa/n/nb8299aaec7aa",
+      "summary": "ふりかえりカンファレンス2026でPRONIのしもかわが人生初LT。締め切りと泥臭い試行錯誤、AI支援＋対面練習約30回で準備し、100人前で「ふりかえりは始め方が大事」を伝え切り成功。協力者に感謝。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-16T02:51:15.000Z",
+      "contentHash": "65da059d5934"
+    },
+    {
+      "id": "65d5d2860e87",
+      "title": "AWS Certified Machine Learning - Specialty 合格体験記 - 機械学習未経験からの学習の流れと試験所感 | MOTEX TECH BLOG",
+      "url": "https://tech.motex.co.jp/entry/2026/04/16/114621",
+      "summary": "機械学習未経験者向けに、AWS Certified Machine Learning - Specialty合格を目指すための学習方法（学習ステップ、教材選び、実践演習、試験対策など）を分かりやすく紹介する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-16T02:46:21.000Z",
+      "contentHash": "bf073ba09455"
+    },
+    {
+      "id": "83b22befb1ca",
+      "title": "ログ分析トレーニング バージョン2をHayabusaで解いてみる | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/049f86d2a3ff88",
+      "summary": "JPCERT/CCの「ログ分析トレーニングv2」応用編ハンズオン1を、Windowsイベントログ解析ツールHayabusa（v3.8.1）で解く手順を初心者向けに解説。VPN経由のAD攻撃想定、ログ概要把握の重要性、log-metrics等のコマンド例やCSV文字化け注意を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-16T02:41:34.000Z",
+      "contentHash": "09b23257b50f"
+    },
+    {
+      "id": "ff929674e71e",
+      "title": "「Inertia v3は罠だらけ？知らないと地獄を見るLaravel変更点」～【laravel】人気記事TOP5（2026/04/12） | CareNet Engineersのフィード",
+      "url": "https://zenn.dev/carenet/articles/zenn-weekly-laravel-articles-2026-04",
+      "summary": "Zennの人気Laravel記事をAIが自動要約。主題はInertia v3導入でのStarter Kitの落とし穴（情報分断・レイアウト/SSR変更）ほか、Playwright×Claudeでの自律UI修正、Teams新Webhook対応、Bladeの本番挙動問題、UX改善やテスト設計など。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-16T02:31:43.000Z",
+      "contentHash": "e88a76051759"
+    },
+    {
+      "id": "2061e926e9ea",
+      "title": "エンジニアインターンシップ2026を開催します！ | Cybozu Inside Out | サイボウズエンジニアのブログ",
+      "url": "https://blog.cybozu.io/entry/2026/04/16/113000",
+      "summary": "サイボウズのエンジニア向けサマーインターンは、今年はフルリモートと対面で開催。製品開発やプラットフォーム等の全14コースで実務環境を体験でき、社長や社員との1対1交流もある。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-16T02:30:00.000Z",
+      "contentHash": "ab3236a24e95"
+    },
+    {
+      "id": "f38609db0674",
+      "title": "「UE技術サポート」のご案内 | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/62930/",
+      "summary": "Unreal Engine専門の開発会社ヒストリアが、日常的にUEで開発するスタッフを担当者として配置し、クライアントのプロジェクトを支援する「UE技術サポート」を提供しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-16T02:26:35.000Z",
+      "contentHash": "9249a39b6563"
+    },
+    {
+      "id": "d1ee80e7ea65",
+      "title": "Unreal Engineエンタープライズライセンス「Unreal Subscription」の販売を開始 | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/62973/",
+      "summary": "ヒストリアがEpic Gamesと提携し、Unreal Engineのエンタープライズライセンス「Unreal Subscription」の販売を開始。1シート（1ユーザー・1年）単位で提供しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-16T02:26:33.000Z",
+      "contentHash": "439b3680ecc2"
+    },
+    {
+      "id": "4cbc115910fc",
+      "title": "RAGの検索精度、GraphDBを足したら変わるかもしれない | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/graphdb-rag-hybrid-search",
+      "summary": "社内RAGはベクトル検索で文書の内容は拾えるが、担当者や関係性など構造化知識は苦手。GraphDBを追加して関係性やメタデータを持たせ、ベクトル検索と併用すれば検索精度や回答の正確性が向上する可能性がある。導入やスキーマ整備のコストに注意。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-16T02:23:03.000Z",
+      "contentHash": "cf903b238064"
+    },
+    {
+      "id": "a17087928044",
+      "title": "Gemini 3.1 Flash TTS プロンプトガイド",
+      "url": "https://note.com/npaka/n/n4cc609d2f054",
+      "summary": "Gemini 3.1 Flash TTSは「何を話すか」だけでなく「どう話すか」を理解するLLM型TTS。ユーザーはディレクターとしてAudio Profile・Scene・Director's Notes・Sample context・Transcript・Audio tagsを組み合わせたプロンプトで声の演技を指示する。",
+      "source": "npaka",
+      "publishedAt": "2026-04-15T23:01:41.000Z",
+      "contentHash": "0fa058f749ec"
+    },
+    {
+      "id": "1e21fcd941bc",
+      "title": "Gemini 3.1 Flash TTS の概要",
+      "url": "https://note.com/npaka/n/n697be937e07e",
+      "summary": "Googleが「Gemini 3.1 Flash TTS」を公開。音声品質・制御性・表現力を向上させ、自然な出力を実現。オーディオタグで細かな演出や話者設定が可能、70以上の言語対応、生成音声に識別用SynthIDを埋め込み。APIやAI Studioなどで利用可。",
+      "source": "npaka",
+      "publishedAt": "2026-04-15T22:26:55.000Z",
+      "contentHash": "ff1674935c19"
+    },
+    {
+      "id": "d3144fa555cd",
+      "title": "YouTube now lets you turn off Shorts",
+      "url": "https://www.theverge.com/streaming/912898/youtube-shorts-feed-limit-zero-minutes",
+      "summary": "YouTubeがShortsの制限を「0分」に設定できる機能を全ユーザーに提供開始。これでShortsを実質表示しないようにでき、制限到達時は通知だけ表示される。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-15T22:18:36.000Z",
+      "contentHash": "d45fdf7465ee"
+    },
+    {
+      "id": "016100e31896",
+      "title": "The buns in McDonald's Japan's burger photos are all slightly askew",
+      "url": "https://www.mcdonalds.co.jp/en/menu/burger/",
+      "summary": "すみませんが外部URLに直接アクセスできません。記事本文か重要部分、またはHNのコメントを貼っていただければ、それを基に200文字以内で日本語要約を作成します。どちらもまとめて可。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-15T21:48:18.000Z",
+      "contentHash": "adc23107bbb4"
+    },
+    {
+      "id": "d5942c38e850",
+      "title": "ChatGPT for Excel",
+      "url": "https://chatgpt.com/apps/spreadsheets/",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文を貼っていただくか、要約してほしい箇所を教えてください。Hacker Newsのコメントも要約する場合はその旨をお知らせください。200文字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-15T21:21:05.000Z",
+      "contentHash": "9e3c9a45aa7e"
+    },
+    {
+      "id": "170b9878d708",
+      "title": "Does Gas Town 'steal' usage from users' LLM credits to improve itself?",
+      "url": "https://github.com/gastownhall/gastown/issues/3649",
+      "summary": "申し訳ありませんが、外部URLを直接参照できません。記事やコメントの本文（または主要部分）をここに貼っていただければ、200文字以内で日本語要約を作成します。本文が長ければ抜粋で構いません。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-15T20:49:48.000Z",
+      "contentHash": "96b8d5b360da"
+    },
+    {
+      "id": "6f8f50ca6ecd",
+      "title": "Ford’s EV and software chief Doug Field is leaving the company",
+      "url": "https://www.theverge.com/transportation/912647/ford-doug-field-leaving-ev-software",
+      "summary": "フォードのEV・ソフト責任者ダグ・フィールドが退任。後任は元テスラのアラン・クラークが副社長に昇格しUEV開発を継続して指揮する。今回の人事は5か月前の195億ドルのEV減損発表後の刷新。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-15T20:05:00.000Z",
+      "contentHash": "6539388e576c"
+    },
+    {
+      "id": "f9e27763f503",
+      "title": "Trump’s posting even more AI-generated Trump-Jesus fan art",
+      "url": "https://www.theverge.com/column/912627/trump-jesus-ai-whcd-penguin-meme",
+      "summary": "トランプが自作のAI生成“イエス像”を次々投稿。病人を癒す絵をポープ批判の直後に掲載し、宗教保守層との亀裂を招く可能性がある。ヘルツォークはトランプのペンギンミームにも言及。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-15T19:50:31.000Z",
+      "contentHash": "aafd1e5ac909"
+    },
+    {
+      "id": "ee2f5b791a45",
+      "title": "Why are Flock employees watching our children?",
+      "url": "https://substack.com/home/post/p-193593234",
+      "summary": "外部リンクに直接アクセスできないため記事を取得できません。記事本文か主要箇所を貼っていただければ、200文字以内で要約します。タイトルや要点だけでも可。どの観点（結論、背景、論点など）を強調するか教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-15T19:30:52.000Z",
+      "contentHash": "79df75d53f74"
+    },
+    {
+      "id": "43a6f86a5125",
+      "title": "Ask HN: Who is using OpenClaw?",
+      "url": "https://news.ycombinator.com/item?id=47783940",
+      "summary": "投稿者は自分も周囲もそのAIツールを使っておらず、AI業界に精通していると思っていても実際の利用は乏しいと指摘。話題性と実運用の乖離や過熱した期待への懐疑を示す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-15T19:22:10.000Z",
+      "contentHash": "279343309521"
+    },
+    {
+      "id": "4b46a335635c",
+      "title": "Ticketmaster is an illegal monopoly, jury finds",
+      "url": "https://www.theverge.com/policy/912689/live-nation-ticketmaster-antitrust-monopoly-trial-verdict",
+      "summary": "ニューヨークの陪審はLive Nation‑Ticketmasterを違法独占と認定。米司法省（バイデン政権）の訴訟で、チケット販売、アンフィシアター支配、会場とプロモーションの抱き合わせの三件で違法とされ、解体の可能性が生じた。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-15T19:09:17.000Z",
+      "contentHash": "ba120147d58f"
+    },
+    {
+      "id": "d9e0e61e0665",
+      "title": "Live Nation illegally monopolized ticketing market, jury finds",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds",
+      "summary": "NYTとThe Vergeは、Live Nation／Ticketmasterの独占的チケット支配と不公正な慣行を報じ、訴訟や規制強化の動き、手数料上昇やファン・会場への悪影響を指摘している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-15T19:06:39.000Z",
+      "contentHash": "a2d33c412cf0"
+    },
+    {
+      "id": "47b2edeb5211",
+      "title": "FTC pushes ad agencies into dropping brand safety rules",
+      "url": "https://www.theverge.com/policy/912680/ftc-ad-agency-settlement-trust-safety",
+      "summary": "FTCと8州は大手広告代理店と、政治的見解を理由にXなどを共同で排除するブランドセーフティ規則の協調を禁じる和解案を発表。FTCはGARM等の反競争的共同行為を問題視。Xの類似訴訟は先に却下。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-15T19:00:23.000Z",
+      "contentHash": "5af817b2a9df"
+    },
+    {
+      "id": "52ce38c3ff01",
+      "title": "Ikea&#8217;s smart donut lamp is a sweet treat",
+      "url": "https://www.theverge.com/tech/911809/ikea-varmblixt-smart-donut-lamp-review-matter-thread",
+      "summary": "Ikeaのドーナツ型スマート照明Varmblixtはカラー変更・調光・Matter over Thread対応。卓上・壁掛け両用で手頃な価格。レビュワーは子ども部屋のベッドサイド照明として雰囲気作りに好評と報告。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-15T18:30:50.000Z",
+      "contentHash": "aa954059bb4d"
+    },
+    {
+      "id": "ce7c6f5cf39b",
+      "title": "AI-assisted cognition endangers human development?",
+      "url": "https://heidenstedt.org/posts/2026/ai-assisted-cognition-endangers-human-development/",
+      "summary": "外部リンクへ直接アクセスできません。記事本文を貼るか主要部分を送ってください。受け取れば200字以内で日本語要約します。HNコメントも併せて可。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-15T18:16:50.000Z",
+      "contentHash": "1b20ca481c7c"
+    },
+    {
+      "id": "47b1a71790f6",
+      "title": "Kalshi CEO expects US DOJ to prosecute insider trading cases",
+      "url": "https://www.semafor.com/article/04/15/2026/kalshi-ceo-tarek-mansour-expects-us-doj-to-prosecute-insider-trading-cases",
+      "summary": "KalshiのCEOタレク・マンスールは、米司法省が内部者取引の疑いで起訴に踏み切ると予想。予測市場を含む業界に対する規制強化と透明性・コンプライアンスの重要性を強調した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-15T18:11:24.000Z",
+      "contentHash": "427e7dbd369a"
+    },
+    {
+      "id": "5cbed6f5127f",
+      "title": "Google launches a Gemini AI app on Mac",
+      "url": "https://www.theverge.com/tech/912638/google-gemini-mac-app",
+      "summary": "GoogleがMac向けにGeminiアプリを公開。Option+Spaceで浮動チャットを呼び出し、画面共有（許可必要）で表示内容を参照して質問可能。画像・動画・音楽生成もでき、Spotlight類似でデスクトップAI競争に参入。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-15T18:10:15.000Z",
+      "contentHash": "8630c83f9ad8"
+    },
+    {
+      "id": "d5e69b78b251",
+      "title": "Microsoft counters the MacBook Neo with freebies for students",
+      "url": "https://www.theverge.com/news/912639/microsoft-counters-the-macbook-neo-with-freebies-for-students",
+      "summary": "Appleの廉価MacBook Neoへの対抗策として、Microsoftは米国で学生向けにWindows 11搭載PCを値下げし、12か月のMicrosoft 365 PremiumとXbox Game Pass Ultimateをバンドルする「Microsoft College Offer」をAcer、Asus、Dell、HP、LenovoやSurfaceで開始しました。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-15T18:03:46.000Z",
+      "contentHash": "42caa15a63b8"
+    },
+    {
+      "id": "eba351918e7d",
+      "title": "Google broke its promise to me – now ICE has my data",
+      "url": "https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data",
+      "summary": "Googleは位置情報の取り扱いを制限すると約束したが、実際にはICEが私の位置データを入手した事例を報告。EFFは約束違反を批判し、利用者通知・透明性の向上、データ共有の法的制限や監査を求めている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-15T17:44:26.000Z",
+      "contentHash": "00a58ac0fbd6"
+    },
     {
       "id": "0dcdb71f0a0c",
       "title": "Best Buy’s Ultimate Upgrade Sale features deals on dozens of our favorite gadgets",
@@ -428,10 +689,10 @@
       "id": "fdeed44cbad1",
       "title": "Gemini Robotics-ER 1.6 を試す",
       "url": "https://note.com/npaka/n/n93116b196748",
-      "summary": "Gemini Robotics‑ER 1.6は、ロボット向けVLMで視覚データ解釈や空間推論、自然言語からの動作計画により自律性やタスク分解・オーケストレーションを実現します。SDK導入、APIキー設定、モデル動作確認の手順と画像処理やJSONパース等のユーティリティが含まれます。",
+      "summary": "Gemini Robotics‑ER 1.6は物理世界向けのVLMで、ロボットの高度推論や自律性、自然言語操作、タスク分解、物体認識・把持・軌道計画を可能にします。SDK導入、APIキー設定、モデル（gemini-robotics-er-1.6-preview）テストや画像・JSON処理のユーティリティ手順も解説しています。",
       "source": "npaka",
       "publishedAt": "2026-04-15T00:38:13.000Z",
-      "contentHash": "7737509b36a3"
+      "contentHash": "b13d9bc9a7e4"
     },
     {
       "id": "0131928e5409",
@@ -482,10 +743,10 @@
       "id": "0fa63a19e45a",
       "title": "Gemini Robotics-ER 1.6 の概要",
       "url": "https://note.com/npaka/n/nab5ab4cd7858",
-      "summary": "Gemini Robotics‑ER 1.6（Google DeepMind）は、空間推論・マルチビュー理解、ポインティング、成功検出、計器読み取りを強化したロボット向け身体性推論モデル。Boston Dynamics事例を踏まえ、APIやColabで開発者向けに提供。",
+      "summary": "2025年4月15日、Google DeepMindはロボット向け推論強化モデル「Gemini Robotics‑ER 1.6」を発表。空間・マルチビュー理解やポインティング、計数、成功検出、計測器読み取りを強化し、Boston Dynamics連携の実運用に対応。Gemini APIやGoogle AI Studioで開発者提供、Colabも公開。",
       "source": "npaka",
       "publishedAt": "2026-04-14T22:21:05.000Z",
-      "contentHash": "d0dc731712d3"
+      "contentHash": "6fe280c70831"
     },
     {
       "id": "39e3ef43457c",
@@ -824,10 +1085,10 @@
       "id": "b1f2015b04b6",
       "title": "【書評】 はじめてのNext.js　App Routerによるフロントエンド開発の教科書",
       "url": "https://note.com/npaka/n/nbc463892d792",
-      "summary": "Next.jsのApp Routerを中心に、仕組みや設計判断（サーバ/クライアント分担、データ取得、ルーティング）を丁寧に解説する入門書。React経験者やAI時代の設計力向上を目指す人に最適。",
+      "summary": "『はじめてのNext.js App Router〜』は、App Routerを軸にNext.jsの仕組みや設計判断（サーバ/クライアント処理、データ取得、ルーティング）を丁寧に解説する入門書。React経験者やAI時代に設計力を高めたい人におすすめ。",
       "source": "npaka",
       "publishedAt": "2026-04-14T08:41:44.000Z",
-      "contentHash": "27aa218ac38c"
+      "contentHash": "9bc82e35f97d"
     },
     {
       "id": "edab179dfcf3",
@@ -3182,10 +3443,10 @@
       "id": "a1684190a11c",
       "title": "Claude Mythos Preview の概要",
       "url": "https://note.com/npaka/n/n8300dedbd1bb",
-      "summary": "AnthropicのClaude Mythos Previewは脆弱性発見やエクスプロイト作成で高い性能を示し、危険な出力を懸念して一般公開せず防御目的で限定提供するProject Glasswingを通じ企業や重要インフラ向けに供与。AIがセキュリティの前提を変えるため業界での迅速な備えが必要とされる。",
+      "summary": "AnthropicのClaude Mythos Previewは脆弱性発見やエクスプロイト生成で高い能力を示し、危険な出力抑制が不十分なため一般公開を見送り。防御目的で限定提供するProject Glasswingを通じ脆弱性対策や支援を行い、AIがセキュリティの前提を変える可能性を示した。",
       "source": "npaka",
       "publishedAt": "2026-04-09T21:38:57.000Z",
-      "contentHash": "43215f059cff"
+      "contentHash": "bd50250099b6"
     },
     {
       "id": "63d8811ee9b7",
@@ -8739,267 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-30T07:00:00.000Z",
       "contentHash": "4107f0283e52"
-    },
-    {
-      "id": "91243b01d9f2",
-      "title": "現場の「気づかない」を解決！OsecTの新機能：信号灯連携のご紹介 | NTT docomo Business Engineers' Blog",
-      "url": "https://engineers.ntt.com/entry/202603-osect_signal_light/entry",
-      "summary": "2026年3月、OsecTにパトライト社信号灯との連携機能を実装。メール通知で見逃す課題を解消するため、既存ネットワークを変更せず導入を容易にするモバイル回線構成を採用し、技術的工夫を解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T06:59:20.000Z",
-      "contentHash": "f1a1e085e467"
-    },
-    {
-      "id": "86493094b4be",
-      "title": "Terraform + Aurora Data APIでDBユーザー作成をIaC化した話 | Timee Product Team Blog",
-      "url": "https://tech.timee.co.jp/entry/2026/03/30/155108",
-      "summary": "プラットフォームエンジニアが、新規プロダクトのDBユーザー作成と権限付与をTerraformでIaC化し、手動ミスを防いでインフラ構築を高速化した事例。ボイラープレートや自動化プロンプトも活用。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T06:51:08.000Z",
-      "contentHash": "a16ac6a96aa8"
-    },
-    {
-      "id": "957292730431",
-      "title": "「1億人規模の経済圏」のプラットフォームをつくる。共通基盤プロダクトエンジニアを募集します！ | Nealle Developer's Blog",
-      "url": "https://nealle-dev.hatenablog.com/entry/2026/03/30/155003",
-      "summary": "ニーリーのVPoE菊地(@_tinoji)です。マルチプロダクト化を加速するためエンジニア採用を強化中。特に共通基盤プロダクトエンジニアは1億人規模を見据えた基盤構築に挑む、キャリアの特異点となるポジションです。記事で詳細を紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T06:50:03.000Z",
-      "contentHash": "12e8ca9a0fed"
-    },
-    {
-      "id": "281d1cc92611",
-      "title": "■ | KAKEHASHI Tech Blog",
-      "url": "https://kakehashi-dev.hatenablog.com/entry/2026/03/26/143501",
-      "summary": "サーバーサイドTypeScriptの型システムを他言語出身の2名に教えたオンボーディング事例。学習の進め方や実践課題、よくある誤解と対策、得られた教訓や推奨手法を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T06:49:52.000Z",
-      "contentHash": "bfbab2cddc5d"
-    },
-    {
-      "id": "91c6b8ca6d3d",
-      "title": "Gemini でお問い合わせ内容を要約して Issue を自動起票するワークフローを構築しました | stmn tech blog",
-      "url": "https://tech.stmn.co.jp/entry/2026/03/30/154510",
-      "summary": "株式会社スタメンの鈴木さんが、自社サービスTUNAGとTUNAGチャットを社内でドッグフーディングし運用する中、CS経由の問い合わせはこれまでTUNAGチャットの連絡をPdMが手動でGitHub Issue化してエンジニアが対応していたことを説明しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T06:45:10.000Z",
-      "contentHash": "10ec7b790604"
-    },
-    {
-      "id": "69e0b1c9fcd2",
-      "title": "Postman + GitHub Actions で QAエンジニアが一からAPI テストを完全自動化した話 | Yappli Tech Blog",
-      "url": "https://tech.yappli.io/entry/apitestautomation",
-      "summary": "ヤプリのQAエンジニアが、手動で実行していたPostmanのAPIテストをGitHub Actions＋Newmanで自動化し、月曜朝にSlackへ結果が届く仕組みを構築。技術選定や実装のハマりどころ、工夫を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T06:35:38.000Z",
-      "contentHash": "bd343beceee5"
-    },
-    {
-      "id": "ffaa3b424e94",
-      "title": "AIにテスト高速化のフィードバックループを自律的に回させる — autoresearchを利用した実験 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/03/30/153209",
-      "summary": "サーバーワークスの尾崎が、KarpathyのautoresearchをLLM以外に応用し、社内アプリのバックエンドpytest実行時間短縮をAIエージェントに自律的に試行させた試みについて報告しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T06:32:09.000Z",
-      "contentHash": "6a6f4a4557a8"
-    },
-    {
-      "id": "d77704e4a252",
-      "title": "AIに社員の性格をインストールする？富士通×お茶の水女子大によるペルソナLLMの試み​  | fltech - 富士通研究所の技術ブログ",
-      "url": "https://blog.fltech.dev/entry/2026/03/30/persona-LLM-ja",
-      "summary": "富士通の山並・志賀が、お茶の水女子大と共同で「社員の性格をAIにインストール」する研究を紹介。心理学の尺度で声なき声や見えないバイアスを可視化し、その知見を使ってペルソナLLMを開発し組織改善を目指す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T06:13:19.000Z",
-      "contentHash": "5b9c4b751279"
-    },
-    {
-      "id": "22cfeea6b685",
-      "title": "15 years, one server, 8GB RAM and 500k users – how Webminal refuses to die",
-      "url": "https://community.webminal.org/t/15-years-one-server-8gb-ram-and-500k-users-how-webminal-refuses-to-die/8803",
-      "summary": "Webminalは2011年から1台のCentOS（8GB）で動く学習サイト。15年で50万人を抱え、2021年のデータセンター火災で15万アカウントを失うも継続。新版は新UI、UMLによるRoot Lab、eBPFのライブコマンド表示などを導入。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-30T06:08:53.000Z",
-      "contentHash": "b2b5ca11f192"
-    },
-    {
-      "id": "49e92c15e3b0",
-      "title": "The curious case of retro demo scene graphics",
-      "url": "https://www.datagubbe.se/aipixels/",
-      "summary": "AI Pixelsは、生成モデルがピクセル数（解像度）を変えたときの画像生成過程を可視化するデモ。低解像度では抽象的、解像度を上げると細部が現れ、モデルの特性や偏りが分かる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-30T05:27:18.000Z",
-      "contentHash": "dd56e0edae3c"
-    },
-    {
-      "id": "1796831e1b45",
-      "title": "Copilot edited an ad into my PR",
-      "url": "https://notes.zachmanson.com/copilot-edited-an-ad-into-my-pr/",
-      "summary": "チームメンバーがPRの誤字修正にCopilotを使したところ、CopilotがPR説明文に自分とRaycastの広告を勝手に挿入した。Doctorowは、プラットフォームはまず利用者に親切だが、やがて利用者や企業を搾取して価値を回収し、滅びると警告する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-30T04:04:31.000Z",
-      "contentHash": "c98852ba542c"
-    },
-    {
-      "id": "14127783a23b",
-      "title": "New Apple Silicon M4 and M5 HiDPI Limitation on 4K External Displays",
-      "url": "https://smcleod.net/2026/03/new-apple-silicon-m4-m5-hidpi-limitation-on-4k-external-displays/",
-      "summary": "Apple SiliconのM4/M5で外部4KディスプレイのフルHiDPIが使えず、最大HiDPIが3360×1890に制限。結果としてぼやけたフル解像度か鮮明だが作業領域が狭いモードを強いられ、原因はハードではなくソフトスタックの回帰とされる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-30T01:43:20.000Z",
-      "contentHash": "d874312c5ed2"
-    },
-    {
-      "id": "3f902571b16d",
-      "title": "Philly courts will ban all smart eyeglasses starting next week",
-      "url": "https://www.inquirer.com/news/philadelphia/smart-glasses-ai-meta-courts-20260326.html",
-      "summary": "フィラデルフィアの第一司法区は、映像・音声録画機能のあるスマート眼鏡を建物内・法廷で全面禁止すると発表した。処方眼鏡も対象で、検出困難なため録画による証人・陪審への威嚇防止が目的。違反者は入廷禁止・逮捕の可能性、裁判所の書面許可が例外。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-30T01:38:17.000Z",
-      "contentHash": "bd77a30ad580"
-    },
-    {
-      "id": "73970da2e991",
-      "title": "All the latest in AI &#8216;music&#8217;",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit",
-      "summary": "AIはサンプリングから制作・配信まで音楽業界に浸透し、法的・倫理的対立やミュージシャンの反発を招いている。BandcampはAI作品を禁止。Suno v5.5は音声学習、嗜好設定、カスタムモデルを導入した。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-30T01:32:14.000Z",
-      "contentHash": "163ebd0b7b1b"
-    },
-    {
-      "id": "1671fe6b8c96",
-      "title": "インフラ運用にAIをどう取り込むか -  Microsoft AI Tour Tokyo | Alternative Architecture DOJO",
-      "url": "https://aadojo.alterbooth.com/entry/2026/03/30/103000",
-      "summary": "インフラ運用はリソース増加で複雑化し、状況把握に時間を取られる。AIに全自動化を期待しがちだが、Microsoftが示したAzure/GitHub Copilotは運用者を補助する現実的な相棒としての使い方を紹介する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T01:30:00.000Z",
-      "contentHash": "b42c8ef9ab4b"
-    },
-    {
-      "id": "6f41166bf6dc",
-      "title": "機械学習システム基盤の開発環境に GitHub Copilot を導入しました | techtekt（テックテクト） | パーソルキャリアのエンジニアブログ",
-      "url": "https://techtekt.persol-career.co.jp/entry/tech/260330_01",
-      "summary": "パーソルキャリアのAIエンジニアがAWS上のML基盤へGitHub Copilotを導入し、技術選定の理由やPoC結果を踏まえて開発効率を向上させた事例を紹介する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T01:21:16.000Z",
-      "contentHash": "e0ca6ff13617"
-    },
-    {
-      "id": "9e2547cc50da",
-      "title": " /digで「知の四象限」を動かせるか試した話 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/claude-code-dig-discovery-experiment",
-      "summary": "折戸（アプリケーションサービス本部）が「あるなしクイズ」発想で、探索補助コマンド「/dig」の動作と実験を報告。/digのフロー、深掘りによる応答差、unknownの挙動、開発現場への示唆、Opus 4.6の余談をまとめている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T01:12:14.000Z",
-      "contentHash": "93433f8cd0b9"
-    },
-    {
-      "id": "1144cb187995",
-      "title": "Google Stitchを触る | NEXTSCAPE blog",
-      "url": "https://blog.nextscape.net/archives/2026/03/30/101035",
-      "summary": "GoogleのAIデザインツール「Stitch」が3月18日に大幅アップデート。仕様書から自動生成する独自フロー、履歴を全て残す無限キャンバス、DESIGN.mdでルール管理、予測ヒートマップ、FigmaやMCP連携など主要機能を試した記録。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T01:10:35.000Z",
-      "contentHash": "913dba7cf6ba"
-    },
-    {
-      "id": "076265c07f37",
-      "title": "サーバーもネットワーク機器も Entra ID でログインする — opkssh と RADIUS で認証を一元化した話 | NTT docomo Business Engineers' Blog",
-      "url": "https://engineers.ntt.com/entry/202603-devops/entry",
-      "summary": "イノベーションセンターの福田・村田が、オンプレ／クラウドの検証環境拡大に伴うセキュリティやコンプライアンス強化のため、サーバーやネットワーク機器のログイン認証をEntra IDで一元化した背景、技術選定と運用で得た知見を共有する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T01:07:10.000Z",
-      "contentHash": "7d86b1c3f12d"
-    },
-    {
-      "id": "1136848c18bb",
-      "title": "テックブログのURL変更のお知らせ | CCCMKホールディングス TECH LABの Tech Blog",
-      "url": "https://techblog.cccmkhd.co.jp/entry/2026/03/30/100215",
-      "summary": "2026年4月1日から社名変更に伴いURLが変更になります。変更前：https://techblog.cccmkhd.co.jp/　変更後：https://techblog.vpoint.co.jp/　ブックマーク等を登録している場合は設定を更新してください。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T01:02:15.000Z",
-      "contentHash": "fe3794444f0d"
-    },
-    {
-      "id": "65d49456e7d2",
-      "title": "mmap直確保でGoのGC負荷を低減する | Mirrativ Tech Blog",
-      "url": "https://tech.mirrativ.stream/entry/2026/03/30/100000",
-      "summary": "八谷（インフラ・ストリーミング）が、GoでOSから直接mmap領域を確保する手法とランタイム(make)での確保を比較。直接mmapすることでGCが走査するオブジェクト数を減らせ、Stop‑The‑World時間を短縮できると結論づけた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T01:00:00.000Z",
-      "contentHash": "d641133e8cbd"
-    },
-    {
-      "id": "d998c1ae8b08",
-      "title": "【Microsoft AI Tour Tokyo 参加レポート】Azure Copilot と GitHub Copilot による運用の進化 | Alternative Architecture DOJO",
-      "url": "https://aadojo.alterbooth.com/entry/2026/03/30/100000",
-      "summary": "オルターブースの横野です。2026年3月24日に東京ビッグサイトで開かれたMicrosoft AI Tour Tokyoに参加。基調講演やセッションに加え、Microsoft Igniteと重複しない「Azure CopilotとGitHub Copilotによる運用の進化」ワークショップに参加し、Copilotを活用した運用改善を学びました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T01:00:00.000Z",
-      "contentHash": "59af49a99053"
-    },
-    {
-      "id": "2c8ff4d33a64",
-      "title": "AIが書いたコードのレビュー、どこを見ればいいか② — 属人的レビューを仕組みに変える4つのレイヤー | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/03/30/100000",
-      "summary": "ACS越川による後編。前編の要点は2つ：AIに頻出パターンや典型バグを任せ、人間はエッジケース・組織固有要件・本番挙動に注力する「分担」と、レビューによる責任分散のあり方の検討。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T01:00:00.000Z",
-      "contentHash": "d313cef2413b"
-    },
-    {
-      "id": "b4655ae300b4",
-      "title": "CloudWatchのエラーログをSlackにリアルタイム転送する方法 | 虎の穴ラボ技術ブログ",
-      "url": "https://toranoana-lab.hatenablog.com/entry/2026/03/30/100000",
-      "summary": "AWSのCloudWatch Logsに集約されたエラーログをSlackへ自動転送する仕組みを紹介する記事です。コンソール確認の手間を減らし、即時通知でログ監視の負担を軽減する方法を解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-30T01:00:00.000Z",
-      "contentHash": "b05c5de39134"
-    },
-    {
-      "id": "ba31d3d9df9d",
-      "title": "Isaac Lab Arena を試す",
-      "url": "https://note.com/npaka/n/n8a6a9cd4129a",
-      "summary": "「Isaac Lab Arena」をUbuntu22.04で試用。Arena 0.1.1上で5種類のロボット操作タスクを評価。手順はPython3.11仮想環境、ffmpeg、Isaac Sim 5.1、EULA同意、IsaacLab v2.3/Arenaの導入、LeRobot・SmolVLA(0.4.4)を入れてlerobot-evalで学習済みモデルを実行、という内容です。",
-      "source": "npaka",
-      "publishedAt": "2026-03-29T23:54:08.000Z",
-      "contentHash": "7e1298a694f3"
-    },
-    {
-      "id": "42b945dddeed",
-      "title": "Coding Agents Could Make Free Software Matter Again",
-      "url": "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/",
-      "summary": "著者は、AIエージェントがコードを読み理解し改変できるようになれば、SaaSで希薄化したStallman的な「フリーソフト」（実行・研究・改変・再配布の自由）が実用的に復活すると主張し、自身のSaaSカスタマイズ体験でそれを示す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-29T22:21:34.000Z",
-      "contentHash": "df6154b9bd43"
-    },
-    {
-      "id": "930d77e7447a",
-      "title": "Claude Code runs Git reset –hard origin/main against project repo every 10 mins",
-      "url": "https://github.com/anthropics/claude-code/issues/40710",
-      "summary": "報告: Claude Codeが10分ごとにgit fetchとgit reset --hard origin/mainを実行して未コミット変更を消すと指摘された。しかし2026-03-30の追記で原因は同一作業ディレクトリで動いていた自作ツール（GitPython）であり、Claudeの不具合ではないと判明、謝罪された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-29T22:15:06.000Z",
-      "contentHash": "f411ddd031dd"
-    },
-    {
-      "id": "c720bf728da9",
-      "title": "Helping disaster response teams turn AI into action across Asia",
-      "url": "https://openai.com/index/helping-disaster-response-teams-asia",
-      "summary": "OpenAIとビル＆メリンダ・ゲイツ財団がアジアの災害対応でAI活用を議論するワークショップを開催。データ共有、現地連携、倫理・安全、実証プロジェクトや支援・資金面の課題を話し合った。",
-      "source": "OpenAI",
-      "publishedAt": "2026-03-29T22:15:00.000Z",
-      "contentHash": "145053d37133"
-    },
-    {
-      "id": "5241aed1b220",
-      "title": "Bluesky’s new app is an AI for customizing your feed",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/903190/bluesky-attie-ai-custom-feeds",
-      "summary": "BlueskyのチームがATプロトコル上で動くAIアシスタント「Attie」を発表。AnthropicのClaudeを搭載し、自然言語でカスタムフィードを作成可能。初は独立アプリだが将来Bluesky等へ統合、さらにアプリ生成も目指す。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-29T21:44:41.000Z",
-      "contentHash": "21ec9bdea129"
     }
   ]
 }
