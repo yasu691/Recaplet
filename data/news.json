@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2026-04-17T03:33:30.098Z",
+  "generatedAt": "2026-04-17T09:37:47.395Z",
   "items": [
+    {
+      "id": "a5fc119b0f7a",
+      "title": "G1Pilot の概要",
+      "url": "https://note.com/npaka/n/n404917ddc102",
+      "summary": "G1PilotはUnitree G1向けのROS 2オープンソースパッケージで、歩行は純正コントローラに委ね上半身・ハンド操作、テレオペ、可視化、ナビを提供。Joint/Cartesian制御、テレメトリ、RViz、ジョイスティックやナビ機能を備え、短期間で実機開発や試作を始められる開発基盤です。",
+      "source": "npaka",
+      "publishedAt": "2026-04-17T07:55:36.000Z",
+      "contentHash": "7ab892555213"
+    },
+    {
+      "id": "4841e5b12c0e",
+      "title": "Agent Fabricでエージェント資産を管理 | フレクトのクラウドblog",
+      "url": "https://cloud.flect.co.jp/entry/2026/04/17/160544",
+      "summary": "Agent FabricはMuleSoft上で企業内のAIエージェントをカタログ化し、オーケストレーション・ガバナンス・監視を一元化するプラットフォーム。Exchangeに登録し、agent-network.yamlでAgent/Broker/LLM/MCPを定義、Managed Flex Gatewayを設定してPublish→DeployでBroker経由の連携を実行。Brokerのinstructions記述が重要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-17T07:05:44.000Z",
+      "contentHash": "a314c0b020e8"
+    },
+    {
+      "id": "0786363cb61d",
+      "title": "【Claude Code】コマンドは3つだけ！どんどんClaudeと分かり合えるハーネスエンジニアリング実践編 | Happy Elementsのフィード",
+      "url": "https://zenn.dev/happy_elements/articles/acb15bb96e7024",
+      "summary": "ハーネスエンジニアリングはプロンプトだけでなくルール・コマンド・ワークフローでLLM出力を改善する手法。/harness:log（事象記録）→/harness:distill（パターン抽出）→/harness:promote（共有ルール化）の3コマンドで個人→チームへ知見を反映するサイクルを回す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-17T06:48:21.000Z",
+      "contentHash": "413c0ebefe3c"
+    },
+    {
+      "id": "8e69a5ebc825",
+      "title": "Unity Build Layout Viewer — Addressablesのビルド結果を可視化するセルフホスト型Webツール | Akatsuki Hackers Lab | 株式会社アカツキ（Akatsuki Inc.)",
+      "url": "https://hackerslab.aktsk.jp/2026/04/17/152852",
+      "summary": "Unity Build Layout Viewerは、AddressablesのBuildLayout.jsonを取り込み、ブラウザでアセット検索・スナップショット管理・差分比較・依存関係グラフ可視化を行うセルフホスト型Webツール。大規模JSONはストリーミング解析で処理し、Dockerで起動可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-17T06:28:52.000Z",
+      "contentHash": "612bea3e2e45"
+    },
+    {
+      "id": "5fa2fb77bb82",
+      "title": "Playwright移行を支えるClaude Agentシステム - AI+ツールで品質を担保する | エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/2026/04/17/150000",
+      "summary": "Playwright移行を支援するClaude Agentは、全体制御のオーケストレーターと生成・デバッグ・コード品質・仕様レビューの専門エージェントによる2層構造。AI＋ツールで規約遵守・資産再利用・二重検証を行い移行課題を解決した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-17T06:00:00.000Z",
+      "contentHash": "434790da252b"
+    },
+    {
+      "id": "29e5695adc76",
+      "title": "PdMが実践する論点整理術：開発部と事業部の判断軸の違いをどうつなぐか | RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20260417/pdm-discussion-framework",
+      "summary": "開発部は実現性・保守性重視、事業部は顧客価値・事業影響重視。PdMは要望を課題化し「必要性」と「実現性」を分離、スコープ分割や届け方まで含めて整理し議論を進める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-17T06:00:00.000Z",
+      "contentHash": "65433028bb86"
+    },
+    {
+      "id": "7e3aa3520739",
+      "title": "コンテキストスイッチを減らして、集中できる時間をつくる | ENECHANGE Developer Blog",
+      "url": "https://tech.enechange.co.jp/entry/2026/04/17/144546",
+      "summary": "ENECHANGEのチームで定例会議を週の水曜日に集約。プランニング・振り返り・プロダクト会議を同日に行い、他日は会議を減らして集中日（フォーカスデー）に。水曜を週の起点にして作業のリズムと集中時間を改善したという報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-17T05:45:46.000Z",
+      "contentHash": "4486092df67e"
+    },
+    {
+      "id": "593f38330945",
+      "title": "日本の職人技をAIで守る！精密製造業が抱える3つの深刻問題を解決する新ツール登場 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/966c1c2b08cb44",
+      "summary": "日本の精密製造業は熟練職人の退職で暗黙知が失われ、担当者間で品質がばらつき、監査書類が散在する三大課題を抱える。AI PrecisionTech on IDXは暗黙知をAI化し工程を標準化、監査記録をクラウドで自動管理、多言語対応で一括解決するツールだ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-17T04:51:40.000Z",
+      "contentHash": "707b094cc3be"
+    },
+    {
+      "id": "41d160556bbb",
+      "title": "設計思想進化論 — なぜ\"単独設計\"の時代は終わり、AIドリブンDDDが生まれるのか | Dokokadeさんのフィード",
+      "url": "https://zenn.dev/dokokade/articles/a18b7372cef009",
+      "summary": "記事は設計思想の進化を解説。DDDは業務概念を正しく表す注文住宅、クリーンは依存を内向きにして保守性を高めるモジュラー、AIドリブンはユースケース単位の速いプレハブ。用途に応じて使い分けるべきとする。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-17T04:41:40.000Z",
+      "contentHash": "5958c498e9d1"
+    },
+    {
+      "id": "cff1a6a45d93",
+      "title": "入社して二週間の新入社員の研修風景 | 株式会社Polestar-ID エンジニアブログ",
+      "url": "https://www.psid.co.jp/news/2026/04/17/%e5%85%a5%e7%a4%be%e3%81%97%e3%81%a6%e4%ba%8c%e9%80%b1%e9%96%93%e3%81%ae%e6%96%b0%e5%85%a5%e7%a4%be%e5%93%a1%e3%81%ae%e7%a0%94%e4%bf%ae%e9%a2%a8%e6%99%af/",
+      "summary": "Polestar-IDの新入社員研修の様子を紹介。研修ではPING-Tを用いてCCNAの学習を進めており、IT未経験者も多く参加している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-17T04:40:12.000Z",
+      "contentHash": "61ed5a3e68f8"
+    },
+    {
+      "id": "7cff5e0c830f",
+      "title": "設計書・コード・テストを全部AIに書かせて半年間開発してみたよ | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/8a010aff542625",
+      "summary": "NTTデータの茂呂範が率いる3人チームが2025/10〜2026/3にGitHub Copilotで設計書・コード・テストを全自動生成して納品したAIネイティブ開発の報告。Terasoluna/AWSでモック主体の要件定義→実装を行い、高い生産性を実感した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-17T04:26:19.000Z",
+      "contentHash": "3fbb4b20cffe"
+    },
     {
       "id": "5d53f350c676",
       "title": "Starlinkを“実機で体験”できる｜IIJ Starlinkワンデイラボ開催 | IIJ Engineers Blog",
@@ -122,10 +221,10 @@
       "id": "58a262f76eec",
       "title": "Codexアプリの新機能まとめ - Computer use ・ アプリ内ブラウザ ・ 画像生成 など",
       "url": "https://note.com/npaka/n/nf334367baf0a",
-      "summary": "OpenAIのCodex大型アップデートは、コード支援から開発ワークフロー全体へ拡張。画面操作するComputer use、Webに直接注釈できるアプリ内ブラウザ、gpt-image-1.5による画像生成、90以上のプラグイン連携、GitHubレビュー対応や複数ターミナル・SSH・リッチプレビュー、Automationsで長期タスク自動化が可能に。",
+      "summary": "OpenAIがCodexをコード生成から開発ワークフロー全体へ拡張。画面操作する「Computer use」、ページに直接コメントできるアプリ内ブラウザ、画像生成、90以上のプラグイン、GitHubレビューや複数ターミナル・SSH対応、長期タスクを再開するAutomations強化などを追加。",
       "source": "npaka",
       "publishedAt": "2026-04-16T22:11:44.000Z",
-      "contentHash": "e689d44081e2"
+      "contentHash": "9a14d3a67ffe"
     },
     {
       "id": "6decf15fb729",
@@ -698,10 +797,10 @@
       "id": "a17087928044",
       "title": "Gemini 3.1 Flash TTS プロンプトガイド",
       "url": "https://note.com/npaka/n/n4cc609d2f054",
-      "summary": "Gemini 3.1 Flash TTSは「何を話すか」だけでなく「どう話すか」を理解するLLMベースのTTS。優れたプロンプトはAudio Profile、Scene、Director's Notes、Sample context、Transcript、Audio tagsを含み、ユーザーはGeminiでボイスのキャラ設定（ディレクター役）を作る。",
+      "summary": "Gemini 3.1 Flash TTSは「何を話すか」だけでなく「どう話すか」まで理解するLLMベースのTTS。プロンプトはAudio Profile、Scene、Director's Notes、Sample context、Transcript、Audio tagsを含み、ユーザーが仮想声優の演技を指示するディレクターとなる。",
       "source": "npaka",
       "publishedAt": "2026-04-15T23:01:41.000Z",
-      "contentHash": "d8d8075e074c"
+      "contentHash": "8a6ae4bc0aa0"
     },
     {
       "id": "8bc4732bf24d",
@@ -1310,10 +1409,10 @@
       "id": "fdeed44cbad1",
       "title": "Gemini Robotics-ER 1.6 を試す",
       "url": "https://note.com/npaka/n/n93116b196748",
-      "summary": "Gemini Robotics-ER 1.6を試用。Geminiのエージェント機能をロボットへ応用するVLMで、視覚・空間推論や自然言語によるタスク分解・計画、把持や軌道生成などを実現。導入手順とJSON・画像処理のユーティリティ例を紹介。",
+      "summary": "Gemini Robotics-ER 1.6は、Geminiのエージェント機能をロボットに応用するVLMで、視覚・空間推論、自然言語によるタスク分解・オーケストレーション、把持や軌道計画で自律性を高める。導入手順やAPI・画像処理ユーティリティ例も紹介。",
       "source": "npaka",
       "publishedAt": "2026-04-15T00:38:13.000Z",
-      "contentHash": "4f5781725bf1"
+      "contentHash": "6da8297624e4"
     },
     {
       "id": "0131928e5409",
@@ -1706,10 +1805,10 @@
       "id": "b1f2015b04b6",
       "title": "【書評】 はじめてのNext.js　App Routerによるフロントエンド開発の教科書",
       "url": "https://note.com/npaka/n/nbc463892d792",
-      "summary": "本書はNext.jsのApp Routerを軸に、サーバ/クライアントの役割分担、データ取得・キャッシュ、ルーティング設計などの仕組みを丁寧に解説し、意図的に設計できる力を養う入門書。React経験者で設計力やAI活用時の判断力を高めたい人に最適。",
+      "summary": "Reactを基盤にNext.jsでWebアプリを組む流れが主流化。Next.jsはルーティング、SSR、データ取得、API、サーバ処理まで担う実践的フレームワーク。AI支援で高速開発できる一方、仕組み理解が重要に。",
       "source": "npaka",
       "publishedAt": "2026-04-14T08:41:44.000Z",
-      "contentHash": "6c2fa902cf61"
+      "contentHash": "6840594d6040"
     },
     {
       "id": "edab179dfcf3",
@@ -8901,105 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-03-31T12:30:00.000Z",
       "contentHash": "1daea6bf9549"
-    },
-    {
-      "id": "5fa85b78dfbc",
-      "title": "Anthropic: Claude Code users hitting usage limits 'way faster than expected'",
-      "url": "https://www.theregister.com/2026/03/31/anthropic_claude_code_limits/",
-      "summary": "Anthropicが対話型AI「Claude」にコード生成の新たな制限を導入。危険な用途や大規模なコード生成を抑える安全対策だが、開発者側から利便性低下や透明性欠如を懸念する声が上がっている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-31T12:11:29.000Z",
-      "contentHash": "855df4ba4a38"
-    },
-    {
-      "id": "fe4ec3447ffe",
-      "title": "U.S. stocks are set to deliver their worst quarter in nearly four years",
-      "url": "https://www.wsj.com/finance/stocks/wall-street-is-finishing-the-worst-quarter-for-stocks-in-four-years-31ac41ea",
-      "summary": "ウォール街はここ4年で最悪の四半期を迎え、主要株価指数が大幅下落。利上げ継続や景気後退懸念、企業業績の弱さ、金利上昇とボラティリティ高止まりが重荷となり、投資家の先行き不安が強まった。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-31T11:53:04.000Z",
-      "contentHash": "3613f3511152"
-    },
-    {
-      "id": "8f520a695098",
-      "title": "MIXI SRE Topics Monthly 2026-03 号 | MIXI DEVELOPERS Tech Blogのフィード",
-      "url": "https://zenn.dev/mixi/articles/f217b518fb3e5c",
-      "summary": "CTO室のSRE大野が、月1回のSRE共有会で交わされるポストモーテム、相談、TIPSなどを技術ブログで発信するシリーズの2026年3月号。今月は「AIとオブザーバビリティ」やAWSの観測関連を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-31T11:00:10.000Z",
-      "contentHash": "f7c141a49031"
-    },
-    {
-      "id": "ece9468c65aa",
-      "title": "準備で勝ちに行く！「Nuxt.js → React」移行戦略 | TalentX Tech Blog",
-      "url": "https://tech.talentx.co.jp/entry/2026/03/31/200000",
-      "summary": "MyTalent CRMのフロントエンドを担当する田中です。現在Nuxt.js（Vue）からReactへ移行中。色分けしたVSCodeで両環境を行き来し、Claude Codeを活用して移行を効率化しアプリを堅牢化する取り組みを紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-31T11:00:00.000Z",
-      "contentHash": "f9286915a27e"
-    },
-    {
-      "id": "00f2ff205d43",
-      "title": "Snowflake Trust CenterでCIS Benchmarksに基づくアカウントセキュリティを継続監視する | Finatext Tech Blogのフィード",
-      "url": "https://zenn.dev/finatext/articles/snowflake-cis-trust-center-summary",
-      "summary": "ナウキャストの島尻氏は、Snowflakeのネットワークポリシーや認証、最小権限設計は導入後も継続監視が必要と指摘。未ログインユーザーの棚卸やポリシー変更確認などを例に、Trust Centerを紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-31T10:56:37.000Z",
-      "contentHash": "9d827154e0aa"
-    },
-    {
-      "id": "9e83188accb0",
-      "title": "Regional Scrum Gathering Tokyo 2026 参加レポート | TVer Tech Blog",
-      "url": "https://techblog.tver.co.jp/entry/rsgt2026",
-      "summary": "サービスプロダクト本部フロントエンド開発部の中谷がRSGT 2026に参加。スクラムを軸に多数のセッションからエンジニアリング全般に通じる学びを得て、当日のメモを基に印象的なセッション（キーノートはBeyond Budgeting）と学びを報告する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-31T10:42:15.000Z",
-      "contentHash": "4b728235eea4"
-    },
-    {
-      "id": "34ec03a34f0c",
-      "title": "PHPerKaigi 2026 登壇レポート: メッセージングを利用して時間的結合を分離しよう | TechTrainテックブログのフィード",
-      "url": "https://zenn.dev/techtrain_blog/articles/phperkaigi2026-messaging-temporal-coupling",
-      "summary": "TechBowlの梶川がPHPerKaigi 2026で発表。外部APIの遅延や重い処理が生む「時間的結合」を、メッセージングで非同期化して切り離す手法と設計上の工夫を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-31T10:01:13.000Z",
-      "contentHash": "30cc13fee91f"
-    },
-    {
-      "id": "70f978df5143",
-      "title": "OpenTelemetryとは？——概要から導入メリットまでわかりやすく解説 | Mackerel ブログ #mackerelio",
-      "url": "https://mackerel.io/ja/blog/entry/basic/opentelemetry",
-      "summary": "OpenTelemetryは可観測性を高めるフレームワークで、テレメトリデータを標準化して生成・収集し、ベンダーロックインを防ぎつつ柔軟に扱えるようにする。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-31T10:00:00.000Z",
-      "contentHash": "f506dceb31ec"
-    },
-    {
-      "id": "9b4c590c13a7",
-      "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
-      "url": "https://twitter.com/Fried_rice/status/2038894956459290963",
-      "summary": "申し訳ありませんが、外部リンクに直接アクセスできないためそのURLの内容を取得できません。記事本文かツイート全文、HNの主要コメントを貼っていただければ、200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-31T09:00:40.000Z",
-      "contentHash": "9159b59aa8e1"
-    },
-    {
-      "id": "ced3ca85db87",
-      "title": "Another Starlink satellite has inexplicably exploded",
-      "url": "https://www.theverge.com/science/903906/another-starlink-satellite-has-inexplicably-exploded",
-      "summary": "SpaceXのStarlink衛星34343が異常で通信を喪失し、Leo Labsが周辺で多数の破片を検出。ISSやアルテミスIIへの影響はないとされ、破片は数週間で大気圏再突入して焼失見込み。原因は調査中で、12月の同様事故に続く発生。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-31T08:19:52.000Z",
-      "contentHash": "ca1bde809f6c"
-    },
-    {
-      "id": "0221abc06db3",
-      "title": "Figma MCPを使用してアプリのUI作成を効率化しよう | RecoChoku Engineering Blog",
-      "url": "https://techblog.recochoku.jp/13367",
-      "summary": "Figma MCPを使いAndroid StudioでUI作成を効率化する手順。MCPはAIがFigmaデータを安全に参照するプロトコル。リモート／デスクトップMCP、Node.jsのローカルブリッジ(npx --stdio)、個人用アクセストークン作成、mcp.json（GitHub Copilot連携）設定例を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-03-31T07:27:56.000Z",
-      "contentHash": "8aff44bfef7d"
     }
   ]
 }
