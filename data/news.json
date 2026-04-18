@@ -1,41 +1,68 @@
 {
-  "generatedAt": "2026-04-18T03:05:53.003Z",
+  "generatedAt": "2026-04-18T09:12:08.766Z",
   "items": [
+    {
+      "id": "489d1a2739d7",
+      "title": "LeRobotでDamiaoモーターをCANバス接続する方法まとめ",
+      "url": "https://note.com/npaka/n/n818ba5a5fe76",
+      "summary": "LeRobotとDamiaoモーターをCANで接続する手順。Linux限定（OpenArmsドライバ）。手順は①can-utils導入・ip linkでCAN(FD推奨)設定②lerobot-setup-canで疎通/速度テスト③PythonのDamiaoMotorsBusでモーター定義・connectして読み書き。",
+      "source": "npaka",
+      "publishedAt": "2026-04-18T06:06:52.000Z",
+      "contentHash": "29a505833934"
+    },
+    {
+      "id": "e9651e592f42",
+      "title": "Azure APIM の AI Gateway を深掘りする──信頼境界・資格情報終端・Foundry との責務分離 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/0d958774066930",
+      "summary": "Azure APIMをAI Gatewayに使う場合、設置場所より「どの境界で認証を終端するか」が重要だ。JWT・Managed Identity・Credential Managerの役割を踏まえ、認証責務と資格情報管理の終端を設計する必要がある。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-18T02:32:57.000Z",
+      "contentHash": "00e3b977486c"
+    },
     {
       "id": "f3cc72e92e3d",
       "title": "π 0.7 の概要",
       "url": "https://note.com/npaka/n/n7382d3820960",
-      "summary": "Physical Intelligenceのπ0.7は「何を」だけでなく「どうやるか」を言語・メタデータ・制御モード・視覚サブゴールで条件付けし、多様な経験を意味づけ統合。言語コーチングで未学習タスク（例：エアフライヤー調理）に対処し、異なるロボット（UR5eでの洗濯物たたみ）への跨身体転移も示した。",
+      "summary": "π0.7は、品質・速度・制御モード・視覚サブゴール等の多層プロンプトで多様な経験を意味づけ統合するモデル。未学習タスクの合成的一般化や言語追従、異形ロボット間でのスキル移転を示した。",
       "source": "npaka",
       "publishedAt": "2026-04-18T01:35:52.000Z",
-      "contentHash": "664c726b5536"
+      "contentHash": "f5006d79f721"
+    },
+    {
+      "id": "15b0a746f097",
+      "title": "Show HN: I made a calculator that works over disjoint sets of intervals",
+      "url": "https://victorpoughon.github.io/interval-calculator/",
+      "summary": "区間の和（合併）で計算する電卓。Interval Union Arithmeticを実装し閉包性があり、0を含む除算も扱える。任意の実数選択に対し結果が包含される保証があり、不確実性表現や関数・全精度モード、[a,b]やU記法をサポート。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-18T01:15:43.000Z",
+      "contentHash": "b7b29ea06117"
     },
     {
       "id": "479708d12e90",
       "title": "GR00T N1.7 の概要",
       "url": "https://note.com/npaka/n/n9708bb211fd1",
-      "summary": "NVIDIAのオープンVLA「Isaac GR00T N1.7」は3Bパラメータのヒューマノイド向け基盤モデル。高次推論と低次制御を分離するAction Cascadeを採用し、2万8千時間超の一人称動画で事前学習。器用さのスケーリング則を示し商用利用可、Hugging Face/GitHubで公開。",
+      "summary": "NVIDIAのIsaac GR00T N1.7は、3Bパラメータのオープンで商用利用可能なヒューマノイド向けVLA。Reasoning系と運動制御を分離するAction Cascadeを採用し、約2万時間の一人称動画で事前学習。データ増加で器用さが安定向上するスケーリング則を確認し、産業現場で即導入可能。",
       "source": "npaka",
       "publishedAt": "2026-04-17T22:37:55.000Z",
-      "contentHash": "606a077ac3e7"
+      "contentHash": "04ad7c023111"
     },
     {
       "id": "2633356a602d",
       "title": "【Microsoft Fabric】  - DataAgentが作成できない?時にみるポイント | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/ae0374d6125eb6",
-      "summary": "DataAgent作成不可時は管理ポータルで以下4点を確認：ユーザーのAzure OpenAI/Copilot利用許可、容量をFabric Copilot指定、送信データの処理可否、送信データの保存可否（③④は特定容量リージョンが必要）。設定変更はEntraIDでFabric管理者付与が必要。",
+      "summary": "執筆日2026/4/17。管理ポータルで4つの設定を有効にすると、ユーザーはAzure OpenAI対応のFabric Copilotなどを利用可能。容量はFabric Copilot容量として指定でき、送信データは容量の地理リージョンやコンプライアンス境界、国内クラウド外で処理される可能性がある。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-17T22:34:23.000Z",
-      "contentHash": "2b200f560d29"
+      "contentHash": "babded034b03"
     },
     {
       "id": "bfa700463dd0",
       "title": "【Microsoft Fabric】 - CosmoDBミラーリングの設定でエラーが出た際に見てほしい | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/1c4055d18bc2f5",
-      "summary": "Microsoft FabricでCosmos DBのミラーリング設定中にエラー発生。原因は継続的バックアップ（Point‑in‑time restore）が無効なこと。対処法：Azure Cosmos DBでPoint‑in‑time restoreをChangeから有効化し、バックアップ期間を設定する。",
+      "summary": "執筆日2026/4/18: Microsoft FabricでCosmos DBのミラーリング設定中にエラー発生。原因は継続的バックアップが無効なため。対処はAzure Cosmos DBで「ポイントインタイムリストア」→Changeからバックアップ期間を設定すること。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-17T22:21:25.000Z",
-      "contentHash": "8e811281e194"
+      "contentHash": "c851aea4564a"
     },
     {
       "id": "93f6f62ecf9c",
@@ -84,21 +111,21 @@
     },
     {
       "id": "12faa1c2e37b",
-      "title": "Even \"cat readme.txt\" is not safe",
+      "title": "\"cat readme.txt\" is not safe if you use iTerm2",
       "url": "https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not",
-      "summary": "iTerm2のSSH統合はリモートに「conductor」スクリプトを配置し、端末制御シーケンスでやり取りするため、catでファイルを表示するだけでも出力がプロトコルを偽装して任意のコード実行につながる恐れがある。",
+      "summary": "iTerm2のSSH統合はリモートに導入する「conductor」と端末エスケープを通じてやり取りするが、PTY越しの出力がそのプロトコルを偽装できるため、\"cat readme.txt\"のような無害に見える操作でも任意コード実行につながる脆弱性がある。",
       "source": "Hacker News",
       "publishedAt": "2026-04-17T18:43:32.000Z",
-      "contentHash": "af8610e8c773"
+      "contentHash": "ee6ab5982fbc"
     },
     {
       "id": "a5a81c0d69a6",
       "title": "All 12 moonwalkers had \"lunar hay fever\" from dust smelling like gunpowder (2018)",
       "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon",
-      "summary": "アポロ飛行士は月の塵で喉や目の不調を起こした。月塵は鋭利な珪酸塩粒子で防護服や容器を損傷し、低重力で肺内に長く残留して有害の可能性がある。ESAが毒性評価を進める。",
+      "summary": "アポロ飛行士は月の細かく鋭利な塵で目や喉を痛め「月の花粉症」を経験。塵はシリケート含有で磨耗・封止破壊を起こし、微粒子は肺に長く留まり健康リスクが懸念される。ESAが毒性評価研究を進める。",
       "source": "Hacker News",
       "publishedAt": "2026-04-17T18:17:01.000Z",
-      "contentHash": "317076b4d3f4"
+      "contentHash": "0587e4782f9a"
     },
     {
       "id": "94754e16a452",
@@ -140,19 +167,19 @@
       "id": "c96da3c3963a",
       "title": "Hyperscalers have already outspent most famous US megaprojects",
       "url": "https://twitter.com/finmoorhouse/status/2044933442236776794",
-      "summary": "外部リンクの中身を直接参照できません。本文（ツイート本文＋HNの要約や主要コメント）をここに貼っていただければ、200文字以内で日本語要約を作成します。どの部分を重視するか（論点・結論・反応など）も教えてください。",
+      "summary": "申し訳ありませんが外部リンクを直接開けません。ツイート本文か要点（またはHNコメントの抜粋）を貼っていただければ、200文字以内で日本語要約します。どちらを要約しますか？",
       "source": "Hacker News",
       "publishedAt": "2026-04-17T16:23:22.000Z",
-      "contentHash": "1f970d25aec8"
+      "contentHash": "df52fa5118ba"
     },
     {
       "id": "4bb84a185b41",
       "title": "Spending 3 months coding by hand",
       "url": "https://miguelconner.substack.com/p/im-coding-by-hand",
-      "summary": "外部リンクの中身を直接参照できないため、記事本文を貼り付けていただけますか？本文をいただければ200文字以内で日本語要約します。Hacker Newsのコメント要約も必要ならそれも教えてください。",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文を貼り付けていただければ、200文字以内で日本語要約します。HNコメントも要約希望なら一緒に貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2026-04-17T16:19:53.000Z",
-      "contentHash": "7799dd9dd1a5"
+      "contentHash": "55d38c6ce5c6"
     },
     {
       "id": "a2f63c8b3404",
@@ -257,10 +284,10 @@
       "id": "51b66ac2b6fc",
       "title": "gh skillが登場。GitHub公式のスキル管理ツールにnpx skillsから乗り換えた | Ubie テックブログのフィード",
       "url": "https://zenn.dev/ubie_dev/articles/gh-skill-install-agent-skills",
-      "summary": "GitHub CLIにgh skillが追加され、公開スキルのsearch/preview/install/update/publishが可能に。改ざん検知・バージョン固定・由来情報などサプライチェーン対策を備え、筆者は安全性からnpxから乗替え。gh v2.90.0以上が必要で、インストール前のSKILL.md確認を推奨。",
+      "summary": "AIエージェントのスキル管理について。2026/04/16にGitHub CLIへgh skillが追加され、リポジトリ公開のスキルをghでインストール・更新・公開可能に。筆者はnpxから安全性で乗換え、利点と動作を紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-17T12:48:49.000Z",
-      "contentHash": "2dad838e1da3"
+      "contentHash": "4d63eb1eaa12"
     },
     {
       "id": "1f0b8af8469e",
@@ -320,10 +347,10 @@
       "id": "52d4afec7c6d",
       "title": "生成AIの気になるニュース・記事（3/1~3/7) | 分析屋",
       "url": "https://note.com/bunsekiya_tech/n/n7b6ea05173ad",
-      "summary": "分析屋・池田が3/1〜3/7にリリースされたAI関連情報をまとめました。詳細や各リリースの解説は「続きをみる」で確認できます。",
+      "summary": "3/1–3/7の主なAI話題：OpenAIが史上最大級の資金調達で高評価を獲得。AI経由の流入が約7倍に増え「ゼロクリック検索」普及で情報設計が重要に。NTTドコモは個人化AI「SyncMe」を開始、MSはAIエージェント導入には組織的準備が必須と指摘。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-17T09:18:35.000Z",
-      "contentHash": "6291e5b9a805"
+      "contentHash": "d0cf24e5a23d"
     },
     {
       "id": "fc035c5cfded",
@@ -356,10 +383,10 @@
       "id": "a5fc119b0f7a",
       "title": "G1Pilot の概要",
       "url": "https://note.com/npaka/n/n404917ddc102",
-      "summary": "G1PilotはUnitree G1向けのオープンソースROS2パッケージで、歩行は純正コントローラに任せ上半身・ハンド・テレオペ・可視化・ナビを扱える開発基盤を提供。Joint/Cartesian制御、テレメトリ、RViz、ジョイスティック、経路計画やDockerワークフローを備え、短期間での試作や研究に適する。",
+      "summary": "G1PilotはUnitree G1向けのROS2開発パッケージで、歩行は純正コントローラに任せ上半身・ハンド制御、テレオペ、可視化、ナビを提供。Joint/Cartesian制御やテレメトリ、RViz、ジョイスティック、Docker対応で短期間の試作に適する。",
       "source": "npaka",
       "publishedAt": "2026-04-17T07:55:36.000Z",
-      "contentHash": "177191875ac6"
+      "contentHash": "4769f182b4ed"
     },
     {
       "id": "4841e5b12c0e",
@@ -572,10 +599,10 @@
       "id": "58a262f76eec",
       "title": "Codexアプリの新機能まとめ - Computer use ・ アプリ内ブラウザ ・ 画像生成 など",
       "url": "https://note.com/npaka/n/nf334367baf0a",
-      "summary": "2026年4月16日、Codexが大幅強化。画面操作する「Computer use」、Web上に注釈できるアプリ内ブラウザ、gpt-image-1.5による画像生成、90超のプラグイン、GitHubレビュー・複数ターミナル・SSH対応、長期タスク自動化などで開発ワークフロー全体を支援。",
+      "summary": "OpenAIは2026年4月16日、Codexを開発ワークフロー全体対応に拡張。画面操作や並列エージェント、アプリ内ブラウザ注釈、画像生成、90超のプラグイン、GitHubレビュー・複数ターミナル・SSH対応、Automations強化を追加。",
       "source": "npaka",
       "publishedAt": "2026-04-16T22:11:44.000Z",
-      "contentHash": "46259f465f7a"
+      "contentHash": "617f6d4c660b"
     },
     {
       "id": "6decf15fb729",
@@ -1166,10 +1193,10 @@
       "id": "1e21fcd941bc",
       "title": "Gemini 3.1 Flash TTS の概要",
       "url": "https://note.com/npaka/n/n697be937e07e",
-      "summary": "「Gemini 3.1 Flash TTS」発表。音声品質・表現力・制御性が向上し、Gemini APIやGoogle AI Studio等で利用可能。オーディオタグで場面や話者表現を細かく指定でき、70以上の言語に対応。生成音声には識別用のSynthIDウォーターマークが埋め込まれる。",
+      "summary": "Googleが「Gemini 3.1 Flash TTS」を公開。音質・表現・制御性を向上させ、自然な発話でElo1211を記録。オーディオタグで細かな演技指示や話者設定が可能、70以上の言語対応、出力にはSynthID透かしを埋め込み、Gemini API/AI Studio/Vertex等で利用可。",
       "source": "npaka",
       "publishedAt": "2026-04-15T22:26:55.000Z",
-      "contentHash": "8f0956d22dde"
+      "contentHash": "88941310465c"
     },
     {
       "id": "d3144fa555cd",
@@ -1760,10 +1787,10 @@
       "id": "fdeed44cbad1",
       "title": "Gemini Robotics-ER 1.6 を試す",
       "url": "https://note.com/npaka/n/n93116b196748",
-      "summary": "Gemini Robotics-ER 1.6はロボット向けのVLMで、視覚・空間推論や自然言語でのタスク指示・分解、把持や軌道計画で自律性を高める。SDK導入、APIキー設定、動作確認や画像処理ユーティリティの手順を解説。",
+      "summary": "Gemini Robotics-ER 1.6はロボット向けのGeminiエージェントVLM。視覚解析と空間推論で自然言語から動作を計画・分解して自律実行し、物体認識、把持・軌道計画、動的場面解釈や画像解析コード生成を提供。SDK導入とAPIキーで利用可能。",
       "source": "npaka",
       "publishedAt": "2026-04-15T00:38:13.000Z",
-      "contentHash": "b9ffd5bfdcb7"
+      "contentHash": "81fdbfc14883"
     },
     {
       "id": "0131928e5409",
@@ -1814,10 +1841,10 @@
       "id": "0fa63a19e45a",
       "title": "Gemini Robotics-ER 1.6 の概要",
       "url": "https://note.com/npaka/n/nab5ab4cd7858",
-      "summary": "Google DeepMindのGemini Robotics-ER 1.6は、空間・マルチビュー推論を強化し、ポインティング、カウント、成功検出、計器読取りなど身体的推論能力向上で実世界ロボットの自律性を高める。Boston Dynamics等の実用例を想定し、APIとColabが提供される。",
+      "summary": "DeepMindのGemini Robotics-ER 1.6は、空間推論とマルチビュー理解を強化したロボット向け身体性推論モデルで、ポインティング・カウント・成功検出や計器読み取りが向上。開発者向けにAPIやColabで提供。",
       "source": "npaka",
       "publishedAt": "2026-04-14T22:21:05.000Z",
-      "contentHash": "e04e72ddf5b5"
+      "contentHash": "6e3e81452b71"
     },
     {
       "id": "39e3ef43457c",
@@ -8973,33 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-01T02:00:00.000Z",
       "contentHash": "32cda9d7d62c"
-    },
-    {
-      "id": "f2d366641985",
-      "title": "AI時代の認証課題を解決する次世代標準候補「ID-JAG」とは？ | LINEヤフー Tech Blog (LY Corporation Tech Blog",
-      "url": "https://techblog.lycorp.co.jp/ja/20260401a",
-      "summary": "LINEヤフーのAthenz担当、金廷祐が執筆。AIエージェントと各種サービス連携における認証・認可の課題と、Athenzを用いた安全な設計や運用指針を紹介する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-01T02:00:00.000Z",
-      "contentHash": "ebc8f7c2c3a9"
-    },
-    {
-      "id": "c9469ce885dc",
-      "title": "仕様が異なる2つのECをつなぐ設計 ── 元営業エンジニアが取り組んだZOZOTOWN Yahoo!店 ギフト導入の記録 | ZOZO TECH BLOG",
-      "url": "https://techblog.zozo.com/entry/yahooshopping-gift",
-      "summary": "YSHP部の三上です。2023年10月に社内公募で異動し、Yahoo!ショッピングのZOZOTOWN Yahoo!店のバックエンド開発を担当。開発未経験でAPIも不慣れな状態から、2025年9月末に2021年頃から構想のあったギフトラッピング機能導入プロジェクトに参加しました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-01T02:00:00.000Z",
-      "contentHash": "a7d154df9301"
-    },
-    {
-      "id": "a0904673d8e8",
-      "title": "Gradient Labs gives every bank customer an AI account manager",
-      "url": "https://openai.com/index/gradient-labs",
-      "summary": "Gradient LabsはGPT-4.1やGPT-5.4（mini、nano）を活用し、低遅延・高信頼のAIエージェントで銀行のサポート業務を自動化している。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-01T02:00:00.000Z",
-      "contentHash": "80cfd4b370cb"
     }
   ]
 }
