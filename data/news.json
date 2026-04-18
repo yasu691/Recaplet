@@ -1,6 +1,159 @@
 {
-  "generatedAt": "2026-04-17T17:12:18.129Z",
+  "generatedAt": "2026-04-18T03:05:53.003Z",
   "items": [
+    {
+      "id": "f3cc72e92e3d",
+      "title": "π 0.7 の概要",
+      "url": "https://note.com/npaka/n/n7382d3820960",
+      "summary": "Physical Intelligenceのπ0.7は「何を」だけでなく「どうやるか」を言語・メタデータ・制御モード・視覚サブゴールで条件付けし、多様な経験を意味づけ統合。言語コーチングで未学習タスク（例：エアフライヤー調理）に対処し、異なるロボット（UR5eでの洗濯物たたみ）への跨身体転移も示した。",
+      "source": "npaka",
+      "publishedAt": "2026-04-18T01:35:52.000Z",
+      "contentHash": "664c726b5536"
+    },
+    {
+      "id": "479708d12e90",
+      "title": "GR00T N1.7 の概要",
+      "url": "https://note.com/npaka/n/n9708bb211fd1",
+      "summary": "NVIDIAのオープンVLA「Isaac GR00T N1.7」は3Bパラメータのヒューマノイド向け基盤モデル。高次推論と低次制御を分離するAction Cascadeを採用し、2万8千時間超の一人称動画で事前学習。器用さのスケーリング則を示し商用利用可、Hugging Face/GitHubで公開。",
+      "source": "npaka",
+      "publishedAt": "2026-04-17T22:37:55.000Z",
+      "contentHash": "606a077ac3e7"
+    },
+    {
+      "id": "2633356a602d",
+      "title": "【Microsoft Fabric】  - DataAgentが作成できない?時にみるポイント | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/ae0374d6125eb6",
+      "summary": "DataAgent作成不可時は管理ポータルで以下4点を確認：ユーザーのAzure OpenAI/Copilot利用許可、容量をFabric Copilot指定、送信データの処理可否、送信データの保存可否（③④は特定容量リージョンが必要）。設定変更はEntraIDでFabric管理者付与が必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-17T22:34:23.000Z",
+      "contentHash": "2b200f560d29"
+    },
+    {
+      "id": "bfa700463dd0",
+      "title": "【Microsoft Fabric】 - CosmoDBミラーリングの設定でエラーが出た際に見てほしい | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/1c4055d18bc2f5",
+      "summary": "Microsoft FabricでCosmos DBのミラーリング設定中にエラー発生。原因は継続的バックアップ（Point‑in‑time restore）が無効なこと。対処法：Azure Cosmos DBでPoint‑in‑time restoreをChangeから有効化し、バックアップ期間を設定する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-17T22:21:25.000Z",
+      "contentHash": "8e811281e194"
+    },
+    {
+      "id": "93f6f62ecf9c",
+      "title": "A simplified model of Fil-C",
+      "url": "https://www.corsix.org/content/simplified-model-of-fil-c",
+      "summary": "Fil-CはC/C++を自動変換し、各ポインタ局所変数にAllocationRecord*を追加して割当情報を追跡する。ポインタ操作や関数呼び出し、malloc/freeをfilc_*に置換し、複数領域を確保してメモリ安全性を実現する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-17T21:38:20.000Z",
+      "contentHash": "88f0b73dfa04"
+    },
+    {
+      "id": "d3f8168e84ac",
+      "title": "OpenAI’s former Sora boss is leaving",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
+      "summary": "OpenAIがビデオ生成ツール「Sora」を断念し、Soraチーム責任者ビル・ピーブルズやAI for Science副社長らが退社。会社は「寄り道」を避け、コーディングや企業向けに重点を移している。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-17T21:13:25.000Z",
+      "contentHash": "e0f956805420"
+    },
+    {
+      "id": "df8194f2f14d",
+      "title": "Should you stare into Sam Altman&#8217;s orb before your next date?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/914385/world-id-tinder-identity-verifying-orb",
+      "summary": "OpenAI CEOサム・アルトマン共同創業のWorldが、対面で顔と目をスキャンする「オーブ」で本人確認するWorld IDを日本や米国などに拡大。Tinderの認証でブースト5回付与。画像は端末に暗号化保存され利用者が管理、ZoomやDocuSignなどと連携可能。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-17T20:42:47.000Z",
+      "contentHash": "181d8f9c020e"
+    },
+    {
+      "id": "135e53b5d544",
+      "title": "Anthropic’s new cybersecurity model could get it back in the government’s good graces",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/914229/tides-turning-anthropic-trump-administration-cybersecurity-mythos-preview",
+      "summary": "Anthropicの新サイバーセキュリティ特化モデル「Claude Mythos Preview」が、国内監視や完全自律兵器の使用を拒否して悪化した米政府との関係を改善する可能性。CEOはホワイトハウスで会合。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-17T20:14:21.000Z",
+      "contentHash": "5cac2b0d592d"
+    },
+    {
+      "id": "aa4ff2c654ef",
+      "title": "Tesla tells HW3 owner to 'be patient' after 7 years of waiting for FSD",
+      "url": "https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/",
+      "summary": "テスラがHW3搭載車の所有者に対し、7年間待ち続けるFSD（完全自動運転）対応について「辛抱してほしい」と伝えた。長期の遅延やハードウェア互換性、アップグレード問題に対する所有者の不満が改めて浮き彫りになっている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-17T19:00:07.000Z",
+      "contentHash": "dae7c0fd6f7f"
+    },
+    {
+      "id": "12faa1c2e37b",
+      "title": "Even \"cat readme.txt\" is not safe",
+      "url": "https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not",
+      "summary": "iTerm2のSSH統合はリモートに「conductor」スクリプトを配置し、端末制御シーケンスでやり取りするため、catでファイルを表示するだけでも出力がプロトコルを偽装して任意のコード実行につながる恐れがある。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-17T18:43:32.000Z",
+      "contentHash": "af8610e8c773"
+    },
+    {
+      "id": "a5a81c0d69a6",
+      "title": "All 12 moonwalkers had \"lunar hay fever\" from dust smelling like gunpowder (2018)",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon",
+      "summary": "アポロ飛行士は月の塵で喉や目の不調を起こした。月塵は鋭利な珪酸塩粒子で防護服や容器を損傷し、低重力で肺内に長く残留して有害の可能性がある。ESAが毒性評価を進める。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-17T18:17:01.000Z",
+      "contentHash": "317076b4d3f4"
+    },
+    {
+      "id": "94754e16a452",
+      "title": "Betting on the news raises ethical questions for journalists",
+      "url": "https://www.theverge.com/report/914157/prediction-markets-news-outlet-ethics-policy-propublica-kalshi-polymarket",
+      "summary": "PolymarketやKalshiなどの予測市場が、音楽や天候、弾劾などあらゆる事象を賭けの対象にし暴力的な結果も扱う中、業界は「世論調査より精度が高い」と主張。新聞社は提携する一方で職員の利用を禁止するなど、報道の倫理や情報の商品化に関する問題が浮上している。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-17T18:07:43.000Z",
+      "contentHash": "7de786935a82"
+    },
+    {
+      "id": "794d43bcc87f",
+      "title": "This charming gadget writes bad AI poetry",
+      "url": "https://www.theverge.com/gadgets/913981/poetry-camera-ai-hands-on",
+      "summary": "Poetry Cameraは撮影画像をWi‑Fiでクラウドへ送り、AIが約30秒で感熱紙に詩を印刷するかわいいローファイ風カメラ。画面は無く操作は簡素だが、著者は詩の出来に魅力よりももどかしさを感じた。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-17T17:30:00.000Z",
+      "contentHash": "091034bc3f5a"
+    },
+    {
+      "id": "7788e5c23113",
+      "title": "Show HN: Smol machines – subsecond coldstart, portable virtual machines",
+      "url": "https://github.com/smol-machines/smolvm",
+      "summary": "smolvmはデフォルトで隔離された軽量VMをCLIで管理・実行するツール。サブ秒起動、macOS/Linux対応、メモリ弾性、状態を単一ファイル(.smolmachine)化。ネットは初期オフで許可ホストのみ接続可。一時VM・永続VM・自己完結バイナリ作成が可能でサンドボックスに最適。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-17T17:18:58.000Z",
+      "contentHash": "a5b3dc8c8817"
+    },
+    {
+      "id": "eab1215d78a7",
+      "title": "Show HN: PanicLock – Close your MacBook lid disable TouchID –> password unlock",
+      "url": "https://github.com/paniclock/paniclock/",
+      "summary": "PanicLockはmacOS用メニューバー常駐ツールで、ワンクリック・ホットキー・蓋閉じで即座にTouch IDを無効化して画面をロック。パスワードのみで復帰し設定は解除後自動復元。macOS 14以上・Touch ID搭載Mac対応。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-17T16:38:44.000Z",
+      "contentHash": "fcbfb23820dd"
+    },
+    {
+      "id": "c96da3c3963a",
+      "title": "Hyperscalers have already outspent most famous US megaprojects",
+      "url": "https://twitter.com/finmoorhouse/status/2044933442236776794",
+      "summary": "外部リンクの中身を直接参照できません。本文（ツイート本文＋HNの要約や主要コメント）をここに貼っていただければ、200文字以内で日本語要約を作成します。どの部分を重視するか（論点・結論・反応など）も教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-17T16:23:22.000Z",
+      "contentHash": "1f970d25aec8"
+    },
+    {
+      "id": "4bb84a185b41",
+      "title": "Spending 3 months coding by hand",
+      "url": "https://miguelconner.substack.com/p/im-coding-by-hand",
+      "summary": "外部リンクの中身を直接参照できないため、記事本文を貼り付けていただけますか？本文をいただければ200文字以内で日本語要約します。Hacker Newsのコメント要約も必要ならそれも教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-17T16:19:53.000Z",
+      "contentHash": "7799dd9dd1a5"
+    },
     {
       "id": "a2f63c8b3404",
       "title": "Our new favorite budget phones",
@@ -20,6 +173,15 @@
       "contentHash": "65947bad45f7"
     },
     {
+      "id": "23f5a12f9472",
+      "title": "NASA Force",
+      "url": "https://nasaforce.gov/",
+      "summary": "NASAと米国人事管理局(OPM)が共同で始めた採用施策「NASA Force」は、1～2年の任期で早中堅の技術者を少数募集。有人宇宙・航空・科学ミッションの実務に参加し、技術力を磨く。募集は限定枠で4日間のみ。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-17T15:47:41.000Z",
+      "contentHash": "ad471b698bbb"
+    },
+    {
       "id": "ae4a075d6504",
       "title": "Dairy Queen is putting an AI chatbot in its drive-thrus",
       "url": "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto",
@@ -27,6 +189,15 @@
       "source": "The Verge",
       "publishedAt": "2026-04-17T15:46:37.000Z",
       "contentHash": "b934f3a77576"
+    },
+    {
+      "id": "1308ad6243ce",
+      "title": "Measuring Claude 4.7's tokenizer costs",
+      "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
+      "summary": "AnthropicのClaude Opus 4.7は公式の「1.0–1.35x」より多くトークンを消費し、技術文書で1.47x、CLAUDE.mdで1.45x、7件の加重平均は1.325x。価格・クォータは同じためウィンドウやキャッシュ消費が増え、レート制限に早く達する。筆者はトークンカウンターと実・合成サンプルで検証。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-17T15:29:36.000Z",
+      "contentHash": "0d62f73b44a8"
     },
     {
       "id": "f04db39d659b",
@@ -86,19 +257,19 @@
       "id": "51b66ac2b6fc",
       "title": "gh skillが登場。GitHub公式のスキル管理ツールにnpx skillsから乗り換えた | Ubie テックブログのフィード",
       "url": "https://zenn.dev/ubie_dev/articles/gh-skill-install-agent-skills",
-      "summary": "GitHub公式CLIのghに（2026/04/16）スキル管理用のサブコマンドgh skillが追加され、GitHub上のスキルをgh経由でインストール・更新・公開可能に。筆者はnpxから安全性を理由に乗り換え、メリットと動作を紹介する。",
+      "summary": "GitHub CLIにgh skillが追加され、公開スキルのsearch/preview/install/update/publishが可能に。改ざん検知・バージョン固定・由来情報などサプライチェーン対策を備え、筆者は安全性からnpxから乗替え。gh v2.90.0以上が必要で、インストール前のSKILL.md確認を推奨。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-17T12:48:49.000Z",
-      "contentHash": "4d63eb1eaa12"
+      "contentHash": "2dad838e1da3"
     },
     {
       "id": "1f0b8af8469e",
       "title": "まずは現状把握から！セキュアブート証明書の更新確認と Intune 強制更新ガイド | CloudNative BLOGs",
       "url": "https://blog.cloudnative.co.jp/articles/kicking-off-secure-boot-certificates-update-guide/",
-      "summary": "Windowsのセキュアブート証明書の更新方法を解説。確認手順と、証明書が更新されていない場合の具体的な対処（更新手順や設定変更、注意点）を整理して説明します。",
+      "summary": "2011年版のWindowsセキュアブート証明書が2026年6月に期限切れ。通常はWindows Updateで2023版へ更新されるがBIOS依存で未更新の機種もあるため、PowerShell/WindowsセキュリティGUIやIntuneで状況確認し、未更新ならIntune経由で強制更新やレジストリ対処を行う。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-17T11:50:00.000Z",
-      "contentHash": "fda17f8dc59f"
+      "contentHash": "0d2dbf905f76"
     },
     {
       "id": "9eb2e29621f7",
@@ -401,10 +572,10 @@
       "id": "58a262f76eec",
       "title": "Codexアプリの新機能まとめ - Computer use ・ アプリ内ブラウザ ・ 画像生成 など",
       "url": "https://note.com/npaka/n/nf334367baf0a",
-      "summary": "OpenAIのCodex大型アップデートで、画面操作するComputer use、アプリ内ブラウザ、gpt-image-1.5画像生成、90超のプラグイン、GitHubレビュー対応・複数ターミナル・SSH、Automations強化などによりコード生成から開発ワークフロー全体を支援。",
+      "summary": "2026年4月16日、Codexが大幅強化。画面操作する「Computer use」、Web上に注釈できるアプリ内ブラウザ、gpt-image-1.5による画像生成、90超のプラグイン、GitHubレビュー・複数ターミナル・SSH対応、長期タスク自動化などで開発ワークフロー全体を支援。",
       "source": "npaka",
       "publishedAt": "2026-04-16T22:11:44.000Z",
-      "contentHash": "8ab07dcb2f36"
+      "contentHash": "46259f465f7a"
     },
     {
       "id": "6decf15fb729",
@@ -977,10 +1148,10 @@
       "id": "a17087928044",
       "title": "Gemini 3.1 Flash TTS プロンプトガイド",
       "url": "https://note.com/npaka/n/n4cc609d2f054",
-      "summary": "「Gemini 3.1 Flash TTS」は話す内容だけでなく「どう話すか」まで理解するLLMベースのTTS。プロンプトでAudio Profile、Scene、Director's Notes、Sample context、Transcript、Audio tagsを定義し、ユーザーがディレクターとしてボイスタレントの演技を指示する。",
+      "summary": "Gemini 3.1 Flash TTSは、発話内容だけでなく「どう話すか」をLLMで制御。優れたプロンプトはAudio Profile、Scene、Director's Notes、Sample context、Transcript、Audio tagsを含み、Geminiにキャラクタースケッチを作らせることを推奨します。",
       "source": "npaka",
       "publishedAt": "2026-04-15T23:01:41.000Z",
-      "contentHash": "0464fee86e74"
+      "contentHash": "6bfbf7fe6fea"
     },
     {
       "id": "8bc4732bf24d",
@@ -1985,10 +2156,10 @@
       "id": "b1f2015b04b6",
       "title": "【書評】 はじめてのNext.js　App Routerによるフロントエンド開発の教科書",
       "url": "https://note.com/npaka/n/nbc463892d792",
-      "summary": "本書はApp Routerを前提に、Next.jsの仕組み（サーバ/クライアント処理、データ取得・キャッシュ、ルーティング設計など）を丁寧に解説し、表面的な利用から意図的に設計できる力を養う入門書。React経験者やAI時代に設計力を重視する人におすすめ。",
+      "summary": "『はじめてのNext.js App Router...』は、App Routerを前提にNext.jsの仕組み（サーバ/クライアントの役割、データ取得・キャッシュ、ルーティング設計等）を丁寧に解説し、動くだけでなく意図して設計できる力を養う入門書。React経験者やAI支援下で設計判断を持ちたい人に最適。",
       "source": "npaka",
       "publishedAt": "2026-04-14T08:41:44.000Z",
-      "contentHash": "2940bb4f8516"
+      "contentHash": "e2a6aa8fd51c"
     },
     {
       "id": "edab179dfcf3",
@@ -8829,177 +9000,6 @@
       "source": "OpenAI",
       "publishedAt": "2026-04-01T02:00:00.000Z",
       "contentHash": "80cfd4b370cb"
-    },
-    {
-      "id": "d7457e1c8fdf",
-      "title": "We intercepted the White House app's network traffic",
-      "url": "https://www.atomic.computer/blog/white-house-app-network-traffic-analysis/",
-      "summary": "ホワイトハウス公式iOSアプリ（v47.0.4）の通信をMITMproxyで傍受・復号し全タブを通常操作で検査。改変なし。OS除き31ホストに接続し、www.whitehouse.govやYouTube、Elfsight、OneSignal、Google、Facebook、Twitter等へ多数のリクエストを送信。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-01T01:58:45.000Z",
-      "contentHash": "e620475fe034"
-    },
-    {
-      "id": "82000084e3c4",
-      "title": "U.S. exempts oil industry from protecting Gulf animals, for 'national security'",
-      "url": "https://www.npr.org/2026/03/30/nx-s1-5745926/endangered-species-committee-hegseth-security",
-      "summary": "すみません、現在ウェブページを直接開けません。記事本文を貼っていただくか、主要な段落を送ってください。いただければ200文字以内で日本語要約を作成します。Hacker Newsのコメント要約も必要なら併せて対応します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-01T01:18:51.000Z",
-      "contentHash": "bdd714a82ff7"
-    },
-    {
-      "id": "12850dbe1dd8",
-      "title": "The best deals to shop during the last few hours of Amazon’s Big Spring Sale",
-      "url": "https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals",
-      "summary": "Amazonの「Big Spring Sale 2026」は本日PT時刻の23:59で終了。イヤホンや充電器などが対象で最大約50%オフ、50ドル以下の特選品も揃う第3回の春セール。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-01T01:14:30.000Z",
-      "contentHash": "74d54b6c0c6b"
-    },
-    {
-      "id": "dd299a19618a",
-      "title": "Neanderthals survived on a knife's edge for 350k years",
-      "url": "https://www.science.org/content/article/neanderthals-survived-knife-s-edge-350-000-years",
-      "summary": "新研究は、ネアンデルタール人が約35万年にわたり人口が小規模で断片化し、頻繁な局所絶滅と再定住を繰り返す「紙一重」の状態で生き延びていたと推定。気候変動と低遺伝的多様性が長期的脆弱性を生み、最終的絶滅は複合要因の結果と結論づける。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-01T01:12:12.000Z",
-      "contentHash": "8198978e65ff"
-    },
-    {
-      "id": "8847d063aa7b",
-      "title": "The AirPods Pro 3 are nearly matching their best-ever price for Amazon’s Big Spring Sale",
-      "url": "https://www.theverge.com/gadgets/898502/airpods-pro-3-amazon-big-spring-sale-2026-deal",
-      "summary": "AirPods Pro 3がAmazonとWalmartで$199（$50引き）に値下げ。AirPods Max 2の多くの機能を低価格で享受でき、iPhone向けに優れたノイズキャンセルと音質を提供。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-31T23:53:47.000Z",
-      "contentHash": "d30ebf0fd1f9"
-    },
-    {
-      "id": "3a81f3e2b633",
-      "title": "Amazon is offering up to 50 percent off chargers from Anker and others for its Big Spring Sale",
-      "url": "https://www.theverge.com/gadgets/904242/amazon-big-spring-sale-2026-baseus-anker-chargers-power-banks-batteries-deals",
-      "summary": "AmazonのBig Spring SaleでAnker、Twelve South、Baseusなどの充電関連が最大50%オフ。25,000mAh級モバイルバッテリー、3-in-1磁気充電スタンド、Qi2パッドやケーブル類が割引中。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-31T23:00:00.000Z",
-      "contentHash": "179a49c59977"
-    },
-    {
-      "id": "d5aa3d85c7db",
-      "title": "Claude Code leak exposes a Tamagotchi-style ‘pet’ and an always-on agent",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak",
-      "summary": "AnthropicのClaude Code 2.1.88に含まれるソースマップが流出し、約51万行のTypeScriptコードが公開。未公開機能やAIへの指示、記憶構造が解析され、タマゴッチ風の「ペット」や常時稼働のKAIROS機能などが明らかになった。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-31T22:24:19.000Z",
-      "contentHash": "f3f56c9766ce"
-    },
-    {
-      "id": "eccf5092450a",
-      "title": "You can grab a four-pack of Govee’s color-changing smart bulbs for just $27",
-      "url": "https://www.theverge.com/gadgets/904698/govee-smart-a19-led-color-bulbs-amazon-big-spring-sale-2026-deal",
-      "summary": "GoveeのMatter対応スマートA19電球4個パックが、AmazonのBig Spring Saleで3月31日まで26.99ドル（13ドル引き）。1600万色・音楽同期対応で、複数設置で演出可能。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-31T21:59:47.000Z",
-      "contentHash": "874c6ceac856"
-    },
-    {
-      "id": "35c6681b3497",
-      "title": "A dot a day keeps the clutter away",
-      "url": "https://scottlawsonbc.com/post/dot-system",
-      "summary": "すみません、外部サイトへ直接アクセスできないため記事を取得できません。記事全文か要点（抜粋）を貼っていただければ、200文字以内で要約します。HNの議論要約をご希望ならそれでも対応します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-31T21:15:01.000Z",
-      "contentHash": "1e2e1673eccc"
-    },
-    {
-      "id": "9717e99fe49b",
-      "title": "You can now use ChatGPT with Apple’s CarPlay",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/904676/apple-carplay-openai-chatgpt",
-      "summary": "iOS 26.4以降と最新版のChatGPTアプリで、CarPlay上から音声のみでChatGPTが使えるようになった。応答はテキスト表示不可でミュート・終了ボタンや過去会話一覧はあるが、ウェイクワードは使えず手動でアプリを起動する必要がある。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-31T21:03:18.000Z",
-      "contentHash": "2ba2ae1d16ca"
-    },
-    {
-      "id": "130c13a12434",
-      "title": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
-      "url": "https://prismml.com/",
-      "summary": "すみません、外部リンクを直接開けないため記事本文を取得できません。要約するには以下のいずれかをお願いします：\n1) 記事本文（または主要部分）を貼り付ける。  \n2) 要約してほしい箇所（見出しや段落）を指定する。  \nHNのコメントも要約するか（はい/いいえ）を教えてください。200文字以内で作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-31T21:01:18.000Z",
-      "contentHash": "734d3b5b4bc1"
-    },
-    {
-      "id": "1df039848ebc",
-      "title": "Ministack (Replacement for LocalStack)",
-      "url": "https://ministack.org/",
-      "summary": "すみません、外部URLを直接参照できません。記事本文をここに貼り付けるか主要ポイントを教えていただけますか？貼っていただければ200文字以内で日本語要約を作成します。HNのコメントを要約希望ならそれも貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-31T20:48:15.000Z",
-      "contentHash": "d20f3aa87aa2"
-    },
-    {
-      "id": "6d9d2ac5c36d",
-      "title": "OpenAI closes funding round at an $852B valuation",
-      "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
-      "summary": "OpenAIが次のAI段階を加速する計画を発表。大規模計算資源とパートナーシップ強化でモデル開発を推進し、安全性・ガバナンス強化や実用化を重視するとしている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-31T20:07:30.000Z",
-      "contentHash": "bdc698ca26e4"
-    },
-    {
-      "id": "9fc9d9bbf716",
-      "title": "Samsung’s new app claims to alleviate motion sickness using sound",
-      "url": "https://www.theverge.com/tech/904579/samsung-hearapy-mobile-app-galaxy-buds-motion-sickness-symptoms",
-      "summary": "サムスンがAndroid向け無料アプリ「Hearapy」を公開。100Hzの正弦波をヘッドホンで40〜120秒（標準60秒）再生し、内耳の前庭を刺激して乗り物酔い症状を最長約2時間軽減すると主張。Google Playで配信中。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-31T19:56:26.000Z",
-      "contentHash": "f7d7bd8044cf"
-    },
-    {
-      "id": "3ed0e96d15f6",
-      "title": "Anker&#8217;s power bank with built-in cables is one of my favorite gadgets, and it&#8217;s cheaper than usual",
-      "url": "https://www.theverge.com/gadgets/904523/anker-laptop-power-bank-amazon-big-spring-sale-2026-deal-sale",
-      "summary": "Ankerの内蔵ケーブル付きラップトップ向けパワーバンクのレビュー。25,000mAh／90Wh、USB‑C×3＋USB‑A、最大130W出力でM1 MacBook AirやiPhone16などを高速充電可能。Amazonのセールで$95.99に値下げ中。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-31T19:36:35.000Z",
-      "contentHash": "65a32e5fd514"
-    },
-    {
-      "id": "5d571f9754b9",
-      "title": "GitHub's Historic Uptime",
-      "url": "https://damrnelson.github.io/github-historical-uptime/",
-      "summary": "GitHubの稼働履歴をStatus APIや履歴ページから収集・可視化したデータと解析。障害発生や稼働率（%）、主要な大規模障害の年表・傾向を示し、データとコードは公開されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-31T19:01:29.000Z",
-      "contentHash": "70032e24e91a"
-    },
-    {
-      "id": "857f8e746afc",
-      "title": "The Super Mario Galaxy Movie is beautiful but a little too busy",
-      "url": "https://www.theverge.com/entertainment/904033/the-super-mario-galaxy-movie-review",
-      "summary": "任天堂とIlluminationの『スーパー・マリオ ギャラクシー』映画は映像が圧巻で美しいが、情報過多でやや散漫、物語は平凡で刺激に欠ける、という評価です。",
-      "source": "The Verge",
-      "publishedAt": "2026-03-31T19:00:00.000Z",
-      "contentHash": "b01dbdc73974"
-    },
-    {
-      "id": "e8f7bfca6c8e",
-      "title": "OkCupid gave 3M dating-app photos to facial recognition firm, FTC says",
-      "url": "https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/",
-      "summary": "Match Group（OkCupidなど）は利用者の写真を顔認識企業に提供していたが、規制当局は罰金を科さず是正措置で済ませた。利用者の同意不足やプライバシー侵害の懸念が指摘されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-31T17:55:04.000Z",
-      "contentHash": "72d9237b9d10"
-    },
-    {
-      "id": "84df05c8f6b2",
-      "title": "Show HN: Postgres extension for BM25 relevance-ranked full-text search",
-      "url": "https://github.com/timescale/pg_textsearch",
-      "summary": "PostgresクラウドのTiger Dataが、AI支援で約2四半期で全文検索拡張 pg_textsearch v1.0 をOSS（Postgresライセンス）で公開。MS‑MARCOベンチでParade/Tantivyを上回る4.7倍のクエリスループットを実現。",
-      "source": "Hacker News",
-      "publishedAt": "2026-03-31T16:29:52.000Z",
-      "contentHash": "a5d1c614f365"
     }
   ]
 }
