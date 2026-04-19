@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-04-19T03:41:40.666Z",
+  "generatedAt": "2026-04-19T09:12:08.686Z",
   "items": [
+    {
+      "id": "6c0bf94d5e85",
+      "title": "OpenArm Description の概要",
+      "url": "https://note.com/npaka/n/na279cc988793",
+      "summary": "OpenArm Descriptionパッケージの概要。URDFやメッシュ、関節定義、センサ／コントローラ設定、GazeboやRViz用のlaunchファイルなどを提供し、OpenArmロボットのモデル化・視覚化・シミュレーションや開発を支援します。",
+      "source": "npaka",
+      "publishedAt": "2026-04-19T08:22:05.000Z",
+      "contentHash": "a5abb0055e62"
+    },
+    {
+      "id": "a533bbf0eb13",
+      "title": "AWS の Kiro で AI-DLC をやってみたら、おひとり様でも”非同期コラボ”が捗った話 | ForgeVision Engineer Blog",
+      "url": "https://techblog.forgevision.com/entry/kiro/ai-dlc",
+      "summary": "佐渡島の半農半エンジニアが、AWS提唱のAI-DLC（AI-Driven Development Life Cycle）を、AWS純正IDE「Kiro」を使って実際に試してみた体験を紹介する話です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-19T05:22:18.000Z",
+      "contentHash": "20c5598c8193"
+    },
+    {
+      "id": "9f2bd1df5e12",
+      "title": "管理者目線でGitHub Copilotの方が優れていること | NCDC テックブログのフィード",
+      "url": "https://zenn.dev/ncdc/articles/ee35ef7974d279",
+      "summary": "管理者視点で、Claude Codeと比較しつつGitHub Copilotが組織導入・管理しやすい理由を論じる記事。著者は個人でClaudeに移行（Team導入は1日で社内稟議通過）したが、組織的利便性を評価している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-19T05:13:59.000Z",
+      "contentHash": "25ebc3a1874c"
+    },
+    {
+      "id": "c569daa80aa5",
+      "title": "Azure APIMを起点に考えるAPIキャッシュ設計 ── Edge / Gateway / App / AI の役割分担 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/80f8443d3f62d2",
+      "summary": "Azure APIMのレスポンスキャッシュやAI用セマンティックキャッシュは便利だが、「機能があるから」だけで設計を始めると失敗しがち。重要なのはどの層で、何を、どこまで共有・再利用するかを検討すること、という主張。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-19T02:38:34.000Z",
+      "contentHash": "51333aaa078e"
+    },
     {
       "id": "dac6710a0748",
       "title": "Dad brains: How fatherhood rewires the male mind",
@@ -104,10 +140,10 @@
       "id": "2f468c7b24da",
       "title": "OpenArm のセットアップ手順まとめ",
       "url": "https://note.com/npaka/n/n3ae36b5be6ce",
-      "summary": "OpenArmセットアップ概要：必要機器（Damiaoモーター、24V電源、Damiao USB CANデバッガー、UbuntuでのSocketCAN）。WindowsでDamiaoツールを解除・起動し（シリアル921600bps）、Read/WriteでCAN/Master ID設定、簡易キャリブレーション、各種制御コマンド送信・停止。問題時は電流供給とCAN終端を確認。",
+      "summary": "OpenArmの導入手順を要約。必要機器はDamiaoモーター、24V電源、Damiao USB‑CANデバッガーとWindows/Ubuntu環境。Damiaoデバッグツール導入（Defender許可）、モーターID設定、簡易キャリブ・各種テスト、トラブル対策（電流確認・CAN終端）、SocketCAN設定手順を解説。",
       "source": "npaka",
       "publishedAt": "2026-04-18T13:01:35.000Z",
-      "contentHash": "fa0f6ecbca9e"
+      "contentHash": "cbefdc7cd3f7"
     },
     {
       "id": "8f29f5c949ec",
@@ -131,10 +167,10 @@
       "id": "1865cd0f88e8",
       "title": "正しく脆弱性を怖がるために資格の過去問を通して、実際に指標値を確かめてみた | Money Forward Developersのフィード",
       "url": "https://zenn.dev/moneyforward/articles/6caab074328d02",
-      "summary": "SDETの筆者がaxiosのサプライチェーン攻撃で慌てた反省から、書籍とIPAの安全確保支援士過去問で学習。手を動かして脆弱性評価を実践し、CVSSの基本・現状・環境基準等を理解して「正しく怖がる」姿勢を身につけた。",
+      "summary": "QAチームのSDET・bun913が、脆弱性対応で「正しく怖がれず急いだ」反省を踏まえ、資料を裏付けにセキュリティを学び手を動かして検証した記録。誤情報は随時修正する意向。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-18T12:07:19.000Z",
-      "contentHash": "efe1ad0165b1"
+      "contentHash": "b8e4578e6439"
     },
     {
       "id": "56fbb28033e9",
@@ -185,28 +221,28 @@
       "id": "489d1a2739d7",
       "title": "LeRobotでDamiaoモーターをCANバス接続する方法まとめ",
       "url": "https://note.com/npaka/n/n818ba5a5fe76",
-      "summary": "LeRobotとDamiaoモーターをCANで接続する手順。OpenArmsドライバはLinuxのみ。can-utilsを入れ、CAN FD（推奨）でインターフェースを設定。lerobot-setup-canで接続・テスト・速度測定を行い、PythonのDamiaoMotorsBusとMotor定義で接続・読み書きする。",
+      "summary": "元記事の本文が見当たりません。要約するために、記事全文かリンク、または主要段落を貼ってください（200文字以内での要約にします）。口語／ビジネス調などのトーン指定があれば教えてください。",
       "source": "npaka",
       "publishedAt": "2026-04-18T06:06:52.000Z",
-      "contentHash": "64f6262b22c3"
+      "contentHash": "c6edc65bd6a6"
     },
     {
       "id": "e9651e592f42",
       "title": "Azure APIM の AI Gateway を深掘りする──信頼境界・資格情報終端・Foundry との責務分離 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/0d958774066930",
-      "summary": "APIMをAI Gatewayに使う際は、入口の一元化より「どこで資格情報を終端し、次に誰の権限に張り替えるか」を明確にすることが重要。フロントのOAuth/JWTはバックエンド認証の代替でなく、Azureではcredential termination and reestablishmentを原則に。MCP/外部APIは入出力別設計、Foundry連携時は責務分離を行う。",
+      "summary": "Azure APIMをAIゲートウェイとして用いる際は、配置よりも認証の終端位置が鍵。記事はAIゲートウェイ概念、Azure/AWS実装、JWT/Managed Identity/Credential Managerの基本と、APIM前段での認証終端や資格情報受渡しの設計課題を解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-18T02:32:57.000Z",
-      "contentHash": "2312179d5c43"
+      "contentHash": "00e3b977486c"
     },
     {
       "id": "f3cc72e92e3d",
       "title": "π 0.7 の概要",
       "url": "https://note.com/npaka/n/n7382d3820960",
-      "summary": "Physical Intelligenceの新モデルπ0.7は、作業の「どうやるか」や品質・制御モード・視覚サブゴール等をプロンプト化して多様な経験を統合。断片的経験を組合せる合成的一般化とロボット間転移を示し、未学習タスクや異形ロボットでも言語コーチングと自動生成サブタスクで高い実行力を発揮した。",
+      "summary": "その記事本文か主要ポイントを貼ってください。内容がなければ、要約で強調したい点（目的、読者、重要な発見など）を教えてください。いただければ200文字以内で要約します。",
       "source": "npaka",
       "publishedAt": "2026-04-18T01:35:52.000Z",
-      "contentHash": "f87fbbedd932"
+      "contentHash": "4c74b47035d2"
     },
     {
       "id": "15b0a746f097",
@@ -221,19 +257,19 @@
       "id": "479708d12e90",
       "title": "GR00T N1.7 の概要",
       "url": "https://note.com/npaka/n/n9708bb211fd1",
-      "summary": "NVIDIAのIsaac GR00T N1.7は、3Bパラメータのオープンで商用利用可能なヒューマノイド向けVLA。Reasoning系と運動制御を分離するAction Cascadeを採用し、約2万時間の一人称動画で事前学習。データ増加で器用さが安定向上するスケーリング則を確認し、産業現場で即導入可能。",
+      "summary": "NVIDIAのIsaac GR00T N1.7は3Bパラメータのオープン商用VLA。Cosmos-Reason2 VLM＋DiTのAction Cascadeで視覚と言語から連続アクションを生成。2.8万時間超の一人称動画で学習し、データ増加で器用さが向上するスケーリング則を確認。Hugging Face/GitHub公開で現場導入可能。",
       "source": "npaka",
       "publishedAt": "2026-04-17T22:37:55.000Z",
-      "contentHash": "04ad7c023111"
+      "contentHash": "59bc0b4568e7"
     },
     {
       "id": "2633356a602d",
       "title": "【Microsoft Fabric】  - DataAgentが作成できない?時にみるポイント | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/ae0374d6125eb6",
-      "summary": "Microsoft FabricでDataAgentが作れない場合の確認点：管理ポータルで①Copilot等の利用許可、②容量をFabric Copilotに指定、③④（Azure OpenAIへ送信データが容量リージョン／コンプライアンス境界／国内クラウド外で処理・格納され得る）が有効か確認。③④はEU等の条件で必要。設定変更はEntraIDでFabric管理者付与が前提。",
+      "summary": "管理ポータルで4つのテナント設定を有効にすると、Azure OpenAI対応のCopilotや関連機能が利用可能。容量はFabric Copilot容量で指定でき、Azure OpenAIへ送信したデータは容量の地理リージョンやコンプライアンス境界、国内クラウド外で処理される場合がある。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-17T22:34:23.000Z",
-      "contentHash": "2b200f560d29"
+      "contentHash": "babded034b03"
     },
     {
       "id": "b4d1204bc910",
@@ -248,10 +284,10 @@
       "id": "bfa700463dd0",
       "title": "【Microsoft Fabric】 - CosmoDBミラーリングの設定でエラーが出た際に見てほしい | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/1c4055d18bc2f5",
-      "summary": "Microsoft FabricでCosmos DBのミラーリング設定中に発生するエラーは、継続的バックアップが無効なことが原因。対処法はAzure Cosmos DBで「ポイントインタイムリストア」→「Change」を選び、バックアップ期間を設定すること。",
+      "summary": "Microsoft FabricでCosmosDBミラーリング設定中にエラー発生。原因は継続的バックアップが無効なこと。対処方法はAzure CosmosDBで「ポイントインタイムリストア」→Change→バックアップ期間を設定。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-17T22:21:25.000Z",
-      "contentHash": "8e811281e194"
+      "contentHash": "c851aea4564a"
     },
     {
       "id": "93f6f62ecf9c",
@@ -473,10 +509,10 @@
       "id": "51b66ac2b6fc",
       "title": "gh skillが登場。GitHub公式のスキル管理ツールにnpx skillsから乗り換えた | Ubie テックブログのフィード",
       "url": "https://zenn.dev/ubie_dev/articles/gh-skill-install-agent-skills",
-      "summary": "GitHub CLI（gh）に新サブコマンド gh skill（v2.90.0）が追加され、search/preview/install/update/publishでAgent Skillsを管理可能に。改ざん検知・バージョン固定・由来情報など供給網対策を備え、著者は安全性からnpx skillsから移行し、導入前にpreviewでSKILL.md確認を推奨しています。",
+      "summary": "2026/04/16、GitHub公式CLI ghにAIエージェント用スキル管理の新サブコマンド「gh skill」が追加。GitHub上のスキルをghでインストール・更新・公開でき、著者は安全性からnpxから乗換え。機能と利点を紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-17T12:48:49.000Z",
-      "contentHash": "d5986475f731"
+      "contentHash": "2caf4147b153"
     },
     {
       "id": "1f0b8af8469e",
@@ -500,10 +536,10 @@
       "id": "b59cac92c6f5",
       "title": "RubyKaigi 2026でスマートバンクのメンバーと握手🤝 #rubykaigi | inSmartBank",
       "url": "https://blog.smartbank.co.jp/entry/rubykaigi2026",
-      "summary": "スマートバンクがRubyKaigi 2026に登壇・スポンサー参加。ohbaryeが形式仕様からプロパティベーステストを生成する発表（4/23）、yuhiが7ステップでYARV VMを作るLT（4/22）。Hack Spaceで電源・休憩提供とBoard43を使ったPicoRubyワークショップ（持ち帰り可）。",
+      "summary": "SmartBankがRubyKaigi 2026に登壇・スポンサー参加。2名が登壇予定。ohbaryeが4月23日16:40〜Small Hallで「From Formal Specification to Property Based Test」を発表し、形式仕様とプロパティベーステストの橋渡しを解説します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-17T11:00:00.000Z",
-      "contentHash": "190957ee13f5"
+      "contentHash": "2162d7194744"
     },
     {
       "id": "71f06c1f88db",
@@ -788,10 +824,10 @@
       "id": "58a262f76eec",
       "title": "Codexアプリの新機能まとめ - Computer use ・ アプリ内ブラウザ ・ 画像生成 など",
       "url": "https://note.com/npaka/n/nf334367baf0a",
-      "summary": "OpenAIがCodexをコード生成から開発ワークフロー全体へ拡張する大型アップデートを発表。画面操作(Computer use)、アプリ内ブラウザ、gpt-image-1.5による画像生成、90超のプラグイン、GitHubレビュー対応、複数ターミナル・SSH、リッチプレビュー、Automationsの長期タスク再開強化などを追加。",
+      "summary": "この記事は、2026年4月16日に発表されたCodexアプリの新機能をまとめたものです。主要テーマは「Codex for (almost) everything」で、汎用性の向上や幅広い用途・連携拡大を目的としたアップデートが紹介されています。",
       "source": "npaka",
       "publishedAt": "2026-04-16T22:11:44.000Z",
-      "contentHash": "76905ed578c2"
+      "contentHash": "484a343b7fa3"
     },
     {
       "id": "6decf15fb729",
@@ -1364,10 +1400,10 @@
       "id": "a17087928044",
       "title": "Gemini 3.1 Flash TTS プロンプトガイド",
       "url": "https://note.com/npaka/n/n4cc609d2f054",
-      "summary": "Gemini 3.1 Flash TTSは「何を話すか」だけでなく「どう話すか」も理解するLLM型TTS。ユーザーは演出家としてAudio Profile、Scene、Director's Notes、Sample context、Transcript、Audio tags等を含むプロンプトでキャラクターや演技指示を作り、Geminiに生成させる。",
+      "summary": "Gemini 3.1 Flash TTSのガイド。内容だけでなく話し方もLLMで制御し、ユーザーは仮想声優の「演出家」となる。プロンプトはAudio Profile、Scene、Director's Notes、Sample context、Transcript、Audio tagsを含み、具体例（Jaz R.）で作成法を示す。",
       "source": "npaka",
       "publishedAt": "2026-04-15T23:01:41.000Z",
-      "contentHash": "ff6b487675a5"
+      "contentHash": "2c3050482166"
     },
     {
       "id": "8bc4732bf24d",
@@ -1382,10 +1418,10 @@
       "id": "1e21fcd941bc",
       "title": "Gemini 3.1 Flash TTS の概要",
       "url": "https://note.com/npaka/n/n697be937e07e",
-      "summary": "GoogleがGemini 3.1 Flash TTSを公開。音質・表現力・制御性を向上（Artificial Analysis TTSでElo1211）、オーディオタグで細かなスタイル・ペース・話者制御、70以上の言語対応。生成音声はSynthID透かし入り。API/AI Studio/Vertex等で利用可能。",
+      "summary": "Gemini 3.1 Flash TTSは、高速・低遅延で感情表現に富む自然な音声合成を実現。多言語対応やカスタム音声、オンデバイス利用や開発者向けAPIで多様なアプリに応用可能。",
       "source": "npaka",
       "publishedAt": "2026-04-15T22:26:55.000Z",
-      "contentHash": "ce80798b24fb"
+      "contentHash": "377abddcc195"
     },
     {
       "id": "d3144fa555cd",
@@ -1976,10 +2012,10 @@
       "id": "fdeed44cbad1",
       "title": "Gemini Robotics-ER 1.6 を試す",
       "url": "https://note.com/npaka/n/n93116b196748",
-      "summary": "Gemini Robotics-ER 1.6はロボット向けのGeminiエージェントVLM。視覚解析と空間推論で自然言語から動作を計画・分解して自律実行し、物体認識、把持・軌道計画、動的場面解釈や画像解析コード生成を提供。SDK導入とAPIキーで利用可能。",
+      "summary": "「Gemini Robotics-ER 1.6」を試用したまとめ記事。Quickstartでの導入手順から主要な新機能、操作感や性能の印象、注意点と実用的な活用法まで分かりやすく解説しています。",
       "source": "npaka",
       "publishedAt": "2026-04-15T00:38:13.000Z",
-      "contentHash": "81fdbfc14883"
+      "contentHash": "9251f846bd5d"
     },
     {
       "id": "0131928e5409",
@@ -8964,42 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-04-01T14:00:00.000Z",
       "contentHash": "56dc47258281"
-    },
-    {
-      "id": "cf2699562991",
-      "title": "Is BGP safe yet?",
-      "url": "https://isbgpsafeyet.com/",
-      "summary": "BGPはインターネットの経路選択を担うが認証がなくハイジャック被害が起きる。対策はRPKIという認証システムで、ISPなどによる導入が必要だ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-01T13:10:29.000Z",
-      "contentHash": "afebe95d2642"
-    },
-    {
-      "id": "1097cf2f5ea3",
-      "title": "The latest AI news we announced in March 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
-      "summary": "2026年3月、GoogleはGeminiを強化し文脈理解やSearch Live拡張、Docs/Sheets/Slides/DriveやMapsのAI機能を追加。Personal Intelligence拡大、他AIからの移行ツールや健康連携強化を実施。生成AIは実験的。",
-      "source": "Gemini",
-      "publishedAt": "2026-04-01T13:00:00.000Z",
-      "contentHash": "4becf332c717"
-    },
-    {
-      "id": "c03c38a452a1",
-      "title": "Microsoft 365 Copilotの新機能：Copilot Coworkをざっくり理解する | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/microsoft-365-copilot-new-feature-overview/",
-      "summary": "Microsoft 365の新機能Copilot CoworkがFrontier（プレビュー相当）で公開。AnthropicのLLM採用で検索・手順整理・実行まで行う長時間・多段階のAIエージェントへと進化し、導入やIT管理者向け設定・運用の要点を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-01T10:56:00.000Z",
-      "contentHash": "ec07e3311d11"
-    },
-    {
-      "id": "11b5fa8c146b",
-      "title": "GraphQL の可観測性を上げる！Datadog の OSS にコントリビュートした話 | kubell Creator's Note",
-      "url": "https://creators-note.chatwork.com/entry/2026/04/01/190710",
-      "summary": "kubellのtomoikeyがDatadogのdd-trace-goへPRを送りマージ。gqlgenでフィールド毎に大量のSpanが発生する問題を受け、graphql.FieldContextで条件判定してSpan生成を制御するWithShouldStartSpanFuncオプションを追加し、細かな抑制やサンプリングが可能にした。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-01T10:07:10.000Z",
-      "contentHash": "dac08a61336f"
     }
   ]
 }
