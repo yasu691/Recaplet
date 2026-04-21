@@ -1,6 +1,258 @@
 {
-  "generatedAt": "2026-04-20T17:22:24.235Z",
+  "generatedAt": "2026-04-21T03:36:34.233Z",
   "items": [
+    {
+      "id": "411eb8e422ca",
+      "title": "MySQLスロークエリがビジネスを止める？ パフォーマンス改善戦略を知る | スマートスタイル TECH BLOG",
+      "url": "https://blog.s-style.co.jp/2026/04/16055/",
+      "summary": "MySQLのスロークエリはページ遅延や高負荷、売上機会損失を招く。主因はインデックス不足・フルテーブルスキャン・非効率な結合・データ増加。対策はスロークエリログを有効化し（long_query_time等を設定）、検出→解析→インデックス追加やSQL最適化で改善する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T02:29:55.000Z",
+      "contentHash": "de03c46920bb"
+    },
+    {
+      "id": "01c9f15af0c8",
+      "title": "AIエージェントに使わせるCLIの設計原則8選 | アサインのフィード",
+      "url": "https://zenn.dev/assign/articles/b3d1d07d385b87",
+      "summary": "AIエージェント向けCLI設計の8原則を解説。MCP/APIスキルとの使い分けを示し、mycli（TypeScript擬似実装）で検証。必須は構造化出力、セマンティック終了コード、非対話モード／シークレット管理、Noun‑Verb文法。describeによる自己記述やアクション可能なエラー等も推奨し、設計チェックリストと参考実装を提供。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T02:00:07.000Z",
+      "contentHash": "8b23d0510469"
+    },
+    {
+      "id": "3b74fd385614",
+      "title": "SREがどうして機械学習システムの運用に貢献できるのか | CADDi Tech Blog",
+      "url": "https://caddi.tech/2026/04/21/110000",
+      "summary": "SREやバックエンド経験があれば、機械学習の推論システム運用に貢献できる。非同期設計、データリソース選定、モニタリング／アラート設計、GPUのコスト管理など既存知見が有用。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T02:00:00.000Z",
+      "contentHash": "db846d5d320f"
+    },
+    {
+      "id": "d6bacae2255c",
+      "title": "DMM.go#12開催レポート | DMM Developers Blog",
+      "url": "https://developersblog.dmm.com/entry/2026/04/21/110000",
+      "summary": "2026年2月20日開催のDMM.go #12（六本木＋オンライン）。bytedance/sonicを使いJITでreflectコストを削減しオンメモリキャッシュから30ms以下で広告配信した事例と、学生インターンが短期間でGoを学びPRを出した経験（言語特徴、gofmt/govet/gofix、nilの落とし穴）を報告。懇親会も実施。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T02:00:00.000Z",
+      "contentHash": "d659ecaf8503"
+    },
+    {
+      "id": "5118d351c82b",
+      "title": "Codex CLIで作るSlack 1次回答AI | LINEヤフー Tech Blog (LY Corporation Tech Blog",
+      "url": "https://techblog.lycorp.co.jp/ja/20260421a",
+      "summary": "LINEヤフーのワークショップでは、Codex CLIのスキル機能でSlackの問い合わせをコードやドキュメント横断で調査し、根拠付きの一次回答を自動生成する仕組みを紹介。割り込み対応や属人化を減らすため、ローカル→組織→クラウドの段階的導入を実演し、レシピ公開フローの例で動作を確認した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T02:00:00.000Z",
+      "contentHash": "88a84bc0ee09"
+    },
+    {
+      "id": "daea559f7df7",
+      "title": "教育版マインクラフト専用サーバーかんたん構築ガイド ｰさくらのVPS for Windows Serverでホストする | さくらのナレッジ",
+      "url": "https://knowledge.sakura.ad.jp/50551/",
+      "summary": "教育版マインクラフトの専用サーバーが登場。MS365テナント（グローバル管理者）で有効化し、VPSのIP・ポートを設定して管理ポータルでサーバー追加→ファイル実行→確認コードで接続。クロステナント設定はやや複雑。さくらのVPS for Windows Serverを例に手順を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T02:00:00.000Z",
+      "contentHash": "16ee61d8b667"
+    },
+    {
+      "id": "72ea34fc0d39",
+      "title": "新卒6年目のエンジニアがPdMにチャレンジして感じた『価値を作る難しさ』 | エス・エム・エス エンジニア テックブログ",
+      "url": "https://tech.bm-sms.co.jp/entry/2026/04/21/110000",
+      "summary": "新卒6年目のエンジニアがPdMに挑戦し、価値を届ける難しさを実感。プロダクトは一連の体験であり、エンジニアのHow志向からPdMのWhy／What志向への視座転換が必要。目的・ゴール設定とユーザー理解、検証の重要性を学んだ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T02:00:00.000Z",
+      "contentHash": "b11ccd69a317"
+    },
+    {
+      "id": "4e16f8968923",
+      "title": "ZEN Study バックエンドの 10年を振り返って | ドワンゴ教育サービス開発者ブログ",
+      "url": "https://blog.nnn.dev/entry/2026/04/21/110000",
+      "summary": "ZEN Study（旧N予備校）のバックエンド10年を総括。2015年にRails中心のマイクロサービスで立ち上げ、2016年に機能拡充。2018年のN高必修化でAPI Gatewayを薄層からオーケストレーション化し、長期キャッシュやPub/Subでの更新通知を導入して対応した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T02:00:00.000Z",
+      "contentHash": "434e61176c5c"
+    },
+    {
+      "id": "e9402798705a",
+      "title": "Devinがシニアエンジニアレベルへ、自律エージェントの今——Cognition Merge Tokyo 参加レポート | 弥生開発者ブログ",
+      "url": "https://tech-blog.yayoi-kk.co.jp/entry/2026/04/21/110000",
+      "summary": "4/9のCognition Merge Tokyoレポ。Devinは半年でジュニア→シニア相当に進化し、サブエージェントで協調・常時稼働の自律運用により生産性が大幅向上。エンジニアはHowからWhy/Whatへ役割が変化。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T02:00:00.000Z",
+      "contentHash": "26cb0dfea8e8"
+    },
+    {
+      "id": "dd3e8b8cff1a",
+      "title": "Starlink 最新・最強の Performance Gen3 を紹介します | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/35329",
+      "summary": "IIJが入手したStarlink最新アンテナ「Performance Gen3」。船舶や高層ビル向けの堅牢設計で新衛星V3により1Gbps対応予定。耐候・融雪性は高いが大型・重く消費電力も大。梱包やAC/DC冗長電源、PoEルーター、M6固定などキット構成を写真で解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T01:54:27.000Z",
+      "contentHash": "1d6ee0c84cc1"
+    },
+    {
+      "id": "b1ecc5d08083",
+      "title": "Tim Cook will still be Apple’s Trump whisperer",
+      "url": "https://www.theverge.com/policy/915422/tim-cook-apple-chairman-trump-policy",
+      "summary": "クックはCEOを退いて会長になるが、対政策当局や特にトランプとの折衝など政治的調整役は継続する。中国と米政府の板挟みを巧みに乗り切ってきた。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T00:14:45.000Z",
+      "contentHash": "e6c98a4b5737"
+    },
+    {
+      "id": "105ab27e59b3",
+      "title": "The Lenovo Legion Go S is RAMageddon’s latest victim",
+      "url": "https://www.theverge.com/games/915278/lenovo-legion-go-s-price-hike-discontinued-ramageddon",
+      "summary": "Lenovoの8インチ携帯機Legion Go Sの価格が急騰。発売時$829.99のSteamOS/Z1 ExtremeモデルがBest Buyで$1,579.99とほぼ倍増、Windows版も高値に。RAM価格上昇が影響。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-20T22:49:42.000Z",
+      "contentHash": "06a9ffec3fab"
+    },
+    {
+      "id": "acf16c5eba89",
+      "title": "Even 'uncensored' models can't say what they want",
+      "url": "https://morgin.ai/articles/even-uncensored-models-cant-say-what-they-want.html",
+      "summary": "Morgin.aiのベンチマークでは、安全フィルタ付きの事前学習モデルは過激・センシティブな語を明確に拒否しなくても、その語の出現確率を下げる「flinch」を示すと報告。5社7モデルで差を測定した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-20T22:43:29.000Z",
+      "contentHash": "21f581ade6c8"
+    },
+    {
+      "id": "c7ff8577b1fe",
+      "title": "John Ternus is taking over from Tim Cook as Apple&#8217;s CEO",
+      "url": "https://www.theverge.com/tech/915272/apple-john-ternus-tim-cook",
+      "summary": "Appleはティム・クックが9月1日付でCEOを退き会長に就任すると発表。現ハードウェアSVPジョン・ターナスが新CEOに、ジョニー・スルジがチーフハードウェアオフィサーに就任。クックは感謝を表明。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-20T21:44:15.000Z",
+      "contentHash": "d9a6b59883ac"
+    },
+    {
+      "id": "36b1770b7386",
+      "title": "Read Tim Cook&#8217;s letter to the Apple world as he departs as CEO",
+      "url": "https://www.theverge.com/tech/915279/tim-cook-ceo-letter-apple-community",
+      "summary": "ティム・クックが9月にCEOを退任して会長に就く。後任CEOはジョン・ターナス、ターナスの後任としてジョニー・スルジが最高ハードウェア責任者に。クックは15年の支援に感謝する書簡を発表。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-20T21:42:36.000Z",
+      "contentHash": "4a72e84f75c1"
+    },
+    {
+      "id": "f4b7b9dfb8e1",
+      "title": "Jujutsu megamerges for fun and profit",
+      "url": "https://isaaccorbrey.com/notes/jujutsu-megamerges-for-fun-and-profit",
+      "summary": "Jujutsuの作者が提案する「megamerges」は、多数のコミットやブランチを一度に効率的に統合する手法。履歴DAGと祖先解析を用いて競合処理や高速化の工夫を示し、実装と評価結果を解説している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-20T21:32:10.000Z",
+      "contentHash": "9627a2e6101f"
+    },
+    {
+      "id": "d1b8a9a5f0cc",
+      "title": "OpenAI ad partner now selling ChatGPT ad placements based on “prompt relevance”",
+      "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/",
+      "summary": "流出した資料によれば、DSPのStackAdaptはChatGPT向け広告の戦略を提示。プロンプトの関連性で配信を最適化し、CPMは15～60ドル、パイロットは最低5万ドルの出稿が必要。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-20T21:20:52.000Z",
+      "contentHash": "ab988a621333"
+    },
+    {
+      "id": "66cf3e4c85c9",
+      "title": "Apple names Johny Srouji as chief hardware officer",
+      "url": "https://www.theverge.com/tech/915240/apple-johny-srouji-ternus-cook",
+      "summary": "Appleはジョニー・スルジを即時付で最高ハードウェア責任者に任命。現ハード担当ジョン・ターナスは9月にCEOへ就き、ティム・クックは会長に就任する。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-20T21:05:59.000Z",
+      "contentHash": "3510bbe39a7e"
+    },
+    {
+      "id": "c4d73baf313b",
+      "title": "Apple CEO Tim Cook is stepping down",
+      "url": "https://www.theverge.com/tech/915213/tim-cook-apple-ceo-stepping-down-john-ternus",
+      "summary": "Appleのティム・クックCEOが退任。2026年9月1日付でハードウェアSVPのジョン・ターナスがCEO兼取締役に就任し、クックは執行会長に。ジョニー・スルジが最高ハードウェア責任者に即日就任。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-20T20:42:59.000Z",
+      "contentHash": "0bdf64f25a63"
+    },
+    {
+      "id": "701651b466a1",
+      "title": "Here&#8217;s how Amazon&#8217;s price fixing allegedly drove up prices everywhere",
+      "url": "https://www.theverge.com/policy/915209/amazon-price-fixing-california-lawsuit",
+      "summary": "カリフォルニア州司法長官ロブ・ボンタが、アマゾンがリーバイス等の取引先と共謀し、プライムデー前に他小売の価格を引き上げさせたり割引品を在庫切れにして低価格販売を阻止したとする証拠を開示し、差し止めを求める16頁の文書を公開した。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-20T20:39:51.000Z",
+      "contentHash": "da32601d283d"
+    },
+    {
+      "id": "eddf605ff0cd",
+      "title": "John Ternus to become Apple CEO",
+      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+      "summary": "Appleは2026年9月1日付でジョン・ターナスを新CEOに、ティム・クックをエグゼクティブ・チェアマンに任命すると発表。クックは夏までCEOを続け移行を支援し、取締役会が満場一致で承認した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-20T20:39:32.000Z",
+      "contentHash": "3fab6081bbcb"
+    },
+    {
+      "id": "371a7e166cbb",
+      "title": "Silicon Valley has forgotten what normal people want",
+      "url": "https://www.theverge.com/tldr/915176/nft-metaverse-ai-weirdos",
+      "summary": "NFTやAI、メタバース熱に囚われ、シリコンバレーの“思想的指導者”たちが一般人の実際のニーズを無視し、誇大宣伝や自己演出を優先していると批判する記事。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-20T20:30:00.000Z",
+      "contentHash": "a69c273dd446"
+    },
+    {
+      "id": "53438aba5557",
+      "title": "AI Resistance: some recent anti-AI stuff that’s worth discussing",
+      "url": "https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/",
+      "summary": "記事は、職場や教育現場でAI導入への抵抗が強まっていると指摘する。労働者や利用者が監視、透明性、雇用・著作権保護を求め、AI拒否や規制・組合交渉が増加。安易な導入は信頼喪失を招くと警告している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-20T20:19:13.000Z",
+      "contentHash": "f11324948715"
+    },
+    {
+      "id": "31a232acf75a",
+      "title": "WhatsApp tests &#8216;Plus&#8217; subscription that adds stickers and more for a few bucks a month",
+      "url": "https://www.theverge.com/tech/915172/meta-testing-whatsapp-plus-subscription",
+      "summary": "MetaがWhatsApp Plusを限定ユーザー向けにAndroidで試験導入。月額約€2.49で限定ステッカー、アプリテーマ・アイコン、プレミア着信音、チャット20件までピン留め、チャット群への一括設定などの有料カスタマイズを提供。iOSは後対応、Business版は対象外。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-20T20:12:23.000Z",
+      "contentHash": "3c02ab2b9598"
+    },
+    {
+      "id": "ac81f237999d",
+      "title": "F-35 is built for the wrong war",
+      "url": "https://warontherocks.com/cogs-of-war/the-f-35-is-a-masterpiece-built-for-the-wrong-war/",
+      "summary": "F-35は優れた高性能機だが総生涯費用が2兆ドル超で大量運用・長期戦に不向き。現代の紛争は大量生産・交換可能な無人機などを有利にする。解決策はF-35の強みを残しつつ無人機調達を増やし機数を減らした均衡部隊。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-20T20:07:35.000Z",
+      "contentHash": "4d28258b4e47"
+    },
+    {
+      "id": "9e423aad1673",
+      "title": "Japanese man sentenced to prison for posting spoilers",
+      "url": "https://www.theverge.com/entertainment/914984/godzilla-minus-one-overlord-coda-spoilers-lawsuit-toho-kadokawa-shoten",
+      "summary": "東京地裁は、映画やドラマの長文ネタバレを掲載したサイト管理人の39歳・竹内渉を著作権侵害で有罪とし、刑を言い渡した。裁判は「あらすじの創作的改変で本質を残す行為は新作に当たる」と判断した。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-20T20:02:58.000Z",
+      "contentHash": "c753ac532fcc"
+    },
+    {
+      "id": "8e9790f6356f",
+      "title": "We got 207 tok/s with Qwen3.5-27B on an RTX 3090",
+      "url": "https://github.com/Luce-Org/lucebox-hub",
+      "summary": "チップごとに手作業で最適化してソフトで性能を引き出すOpen LLM。MegakernelはRTX3090でQwen3.5‑0.8Bを単一CUDAで高効率化(1.87 tok/J)。DFlashはQwen3.5‑27Bを推測デコードと量子化で大幅高速化（最大207 tok/s、128K文脈対応）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-20T18:46:22.000Z",
+      "contentHash": "2c362714784a"
+    },
+    {
+      "id": "4fa2724241c2",
+      "title": "Kimi vendor verifier – verify accuracy of inference providers",
+      "url": "https://www.kimi.com/blog/kimi-vendor-verifier",
+      "summary": "Kimi K2.6公開に合わせ、推論実装の検証ツール「Kimi Vendor Verifier」を公開。デコード設定誤用や第三者APIとのベンチ差を検出し、ThinkingモードでTemperature等を強制、vLLM/SGLang/KTransformersと協力して根本修正、6つの主要ベンチや事前検証で配備前に問題を是正します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-20T18:39:53.000Z",
+      "contentHash": "c8a1b240ee79"
+    },
     {
       "id": "4cb83cebe31b",
       "title": "Fortnite developers can make AI characters now — just don&#8217;t try to date them",
@@ -9,6 +261,24 @@
       "source": "The Verge",
       "publishedAt": "2026-04-20T16:58:39.000Z",
       "contentHash": "27c614fde4df"
+    },
+    {
+      "id": "256dee06b7d2",
+      "title": "Quantum Computers Are Not a Threat to 128-Bit Symmetric Keys",
+      "url": "https://words.filippo.io/128-bits/",
+      "summary": "量子コンピュータはShorで公開鍵暗号を脅かすが、AESやSHAなどの共通鍵暗号や鍵長は影響を受けない。Groverによる「鍵長半減」誤解は実用的でなく、AES-128やSHA-256は安全で鍵長変更は不要、という専門家の合意を説明している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-20T16:37:48.000Z",
+      "contentHash": "2f026c792af4"
+    },
+    {
+      "id": "2dbc655de4d4",
+      "title": "Start vibe coding in AI Studio with your Google AI subscription.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-one-ai-studio/",
+      "summary": "GoogleはAI Pro/Ultra加入者向けにGoogle AI Studioの利用上限を拡大し、Nano Banana ProやGemini Proモデルへのアクセスを提供。短時間で試作できる低設定の課金ブリッジを用意し、必要に応じてAPIへ移行可能。順次提供中。",
+      "source": "Gemini",
+      "publishedAt": "2026-04-20T16:32:00.000Z",
+      "contentHash": "8313c8b70b44"
     },
     {
       "id": "c6fc7f439945",
@@ -338,10 +608,10 @@
       "id": "e80812a3fc79",
       "title": "openarm_ros2 の概要",
       "url": "https://note.com/npaka/n/n4e8991f87758",
-      "summary": "openarm_ros2はOpenArm向けのROS2統合リポジトリで、起動・制御・可視化・シミュレーションを提供。モデル読み込みやRViz表示、ros2_control／MoveIt2連携が可能。導入はROS Jazzyのインストール、環境変数設定、開発ツール導入、リポジトリをクローンしてcolconでビルド。ros2_controlでハードウェアを抽象化し位置/速度/トルク制御を統一。",
+      "summary": "openarm_ros2はOpenArm向けのROS2統合パッケージで、モデル読み込み・RViz可視化・ros2_control連携による制御・MoveIt2での動作計画やシミュレーションを可能にします。Ubuntu22.04/ros-jazzy導入、環境変数設定、開発ツール、リポジトリのクローンとcolconビルドで利用。ros2_controlはハード抽象化で位置/速度/トルク指令や実機・シミュ共通制御を提供し、実機操作前のセットアップ確認が必要です。",
       "source": "npaka",
       "publishedAt": "2026-04-20T02:19:43.000Z",
-      "contentHash": "c2fd019a98e4"
+      "contentHash": "dc74580acb48"
     },
     {
       "id": "008f8c569b12",
@@ -428,10 +698,10 @@
       "id": "a14a98e05ef8",
       "title": "OpenArm CAN Library の概要",
       "url": "https://note.com/npaka/n/nb1c7fb515d36",
-      "summary": "記事は「OpenArm CAN Library」の目的と特徴、導入手順や基本的な使い方、対応ハードやライセンス、サンプルや開発時の注意点などを簡潔にまとめて紹介しています。",
+      "summary": "OpenArm CAN LibraryはSocketCANで高レベルOpenArmと低レベルモータプロトコルを橋渡しするライブラリ。3層構成（can/socket・OpenArm・モータ部品）、主要クラス（OpenArm/ArmComponent/Gripper/DMDeviceCollection）、DamiaoのMIT制御でモータを操作。初期化→デバイス登録→有効化→制御→フィードバック解析の流れを持ち、デモとベクトル長整合性の注意あり。",
       "source": "npaka",
       "publishedAt": "2026-04-19T23:14:56.000Z",
-      "contentHash": "3cc42a95d53a"
+      "contentHash": "5cc24bc1f6a7"
     },
     {
       "id": "1349e9139a6e",
@@ -635,10 +905,10 @@
       "id": "6c0bf94d5e85",
       "title": "OpenArm Description の概要",
       "url": "https://note.com/npaka/n/na279cc988793",
-      "summary": "OpenArm Descriptionパッケージの概要をまとめた記事。目的や構成（URDFや設定ファイル）、導入・利用手順、シミュレーションや制御への応用例など、パッケージ活用に必要な情報を解説している。",
+      "summary": "OpenArm DescriptionはOpenArmのURDF/xacroをまとめたROS2パッケージ。RViz表示、片腕/両腕やハンド切替、ros2_control連携、URDF出力が可能。robot/arm/body/ee/ros2_controlの階層的xacro構成と設定ファイルを含み、git clone→colcon build→sourceで導入します。",
       "source": "npaka",
       "publishedAt": "2026-04-19T08:22:05.000Z",
-      "contentHash": "a5abb0055e62"
+      "contentHash": "6e69f0edc5de"
     },
     {
       "id": "2f4b7ff3ef9d",
@@ -815,10 +1085,10 @@
       "id": "2f468c7b24da",
       "title": "OpenArm のセットアップ手順まとめ",
       "url": "https://note.com/npaka/n/n3ae36b5be6ce",
-      "summary": "OpenArmのセットアップ手順を簡潔に解説。ソフト導入、ドライバ設定、機器接続と通信確認、基本動作テストまでの流れを順に説明しています。",
+      "summary": "OpenArmのセットアップ：Damiaoモーター搭載アームと24V電源を用意。WindowsでDamiaoデバッグツールをインストール・許可し、シリアル(921600bps)で接続してReadParam/WriteParamでCAN/MASTER IDを設定、簡易キャリブレーションと各種テストを実行。電流供給とCAN終端(120Ω)を確認。UbuntuではSocketCANの設定が必要。",
       "source": "npaka",
       "publishedAt": "2026-04-18T13:01:35.000Z",
-      "contentHash": "69954f7c198f"
+      "contentHash": "d935f9734976"
     },
     {
       "id": "8f29f5c949ec",
@@ -896,10 +1166,10 @@
       "id": "489d1a2739d7",
       "title": "LeRobotでDamiaoモーターをCANバス接続する方法まとめ",
       "url": "https://note.com/npaka/n/n818ba5a5fe76",
-      "summary": "本文がタイトルだけのため要約できません。記事全文かURLを送ってください。受け取れば200字以内で簡潔に要約します。",
+      "summary": "LeRobotとDamiaoモーターのCAN接続手順。Linux限定のOpenArmsドライバを使い、can-utils導入→CAN（推奨はCAN FD）設定→lerobot-setup-canで疎通/速度テスト→PythonのDamiaoMotorsBusでID定義して接続・読み書き。",
       "source": "npaka",
       "publishedAt": "2026-04-18T06:06:52.000Z",
-      "contentHash": "c6edc65bd6a6"
+      "contentHash": "ae92eb03f4c2"
     },
     {
       "id": "e9651e592f42",
@@ -914,10 +1184,10 @@
       "id": "f3cc72e92e3d",
       "title": "π 0.7 の概要",
       "url": "https://note.com/npaka/n/n7382d3820960",
-      "summary": "記事本文が見えないため要約できません。本文かリンクを貼っていただけますか？貼れない場合は、タイトルのみでも短い推測要約を作成します（その場合は事実誤認の可能性があります）。200字以内で要約します。",
+      "summary": "Physical Intelligenceのπ0.7は、品質や制御モード・視覚サブゴールなどをプロンプト化して多様な経験を整理・学習する「操作可能」ロボット基盤モデル。言語コーチングで未学習タスクを合成的に遂行し、異なる機体間でもスキル転移を示した。",
       "source": "npaka",
       "publishedAt": "2026-04-18T01:35:52.000Z",
-      "contentHash": "4c74b47035d2"
+      "contentHash": "10e8e5c887c2"
     },
     {
       "id": "15b0a746f097",
@@ -932,10 +1202,10 @@
       "id": "479708d12e90",
       "title": "GR00T N1.7 の概要",
       "url": "https://note.com/npaka/n/n9708bb211fd1",
-      "summary": "記事本文かリンクを貼ってください。全文がないと正確な要約は難しいです。  \nもし本文が用意できない場合は、タイトルから想定される内容（NVIDIA Isaac GR00T N1.7がヒューマノイド向けの推論用VLAモデルで、動作理解や制御に役立つ等）の短い要約を作成します。どちらを希望しますか？",
+      "summary": "NVIDIAのIsaac GR00T N1.7は、3Bパラのオープンかつ商用利用可能なVLAで、画像と言語から連続的なロボット動作を生成。Action Cascade（VLM＋Diffusion）構成で指先制御も対応。2万時間超の一人称動画で事前学習し、データ増加で器用さが予測可能に向上するスケーリング則を発見。Hugging Face/GitHubで公開、現場導入可能。",
       "source": "npaka",
       "publishedAt": "2026-04-17T22:37:55.000Z",
-      "contentHash": "3aafd62c91c9"
+      "contentHash": "81aba1b701ca"
     },
     {
       "id": "2633356a602d",
@@ -1499,10 +1769,10 @@
       "id": "58a262f76eec",
       "title": "Codexアプリの新機能まとめ - Computer use ・ アプリ内ブラウザ ・ 画像生成 など",
       "url": "https://note.com/npaka/n/nf334367baf0a",
-      "summary": "2026年4月16日付のCodexアプリ新機能まとめ。拡張された機能群や統合を中心に、ほぼあらゆる用途に対応する「Codex for (almost) everything」構想の導入などを紹介しています。",
+      "summary": "OpenAIはCodexを「Codex for (almost) everything」へ更新し、画面操作するComputer use、アプリ内ブラウザ、画像生成(gpt-image-1.5)、90以上のプラグイン、GitHubレビュー対応、複数ターミナル・SSH、資料プレビュー、長期タスク自動再開のAutomations強化などを導入しました。",
       "source": "npaka",
       "publishedAt": "2026-04-16T22:11:44.000Z",
-      "contentHash": "484a343b7fa3"
+      "contentHash": "b384ad7c1b3d"
     },
     {
       "id": "6decf15fb729",
@@ -8730,276 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-03T09:40:00.000Z",
       "contentHash": "1961c74f7d76"
-    },
-    {
-      "id": "613d9e429ff2",
-      "title": "European alternatives to Google, Apple, Dropbox and 120 US apps",
-      "url": "https://only-eu.eu/en/",
-      "summary": "欧州のソフト・製品・サービスの代替を集めたディレクトリ。プライバシー保護、環境基準、短いサプライチェーン、欧州品質を重視し、利用中のサービスを選ぶとGDPR準拠の代替案を提示。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-03T09:37:24.000Z",
-      "contentHash": "9c7d414d1071"
-    },
-    {
-      "id": "b66cfcabb877",
-      "title": "NHS staff refusing to use FDP over Palantir ethical concerns",
-      "url": "https://www.freevacy.com/news/financial-times/nhs-staff-refusing-to-use-fdp-over-palantir-ethical-concerns/7272",
-      "summary": "英NHS職員が米Palantir提供のFederated Data Platform（FDP）を倫理問題で使用拒否。Palantirは2023年に3.3億ポンドで患者データ等を集約。導入は205信託中123、政府は契約解除を検討。Palantirは批判は思想的と反論。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-03T09:36:33.000Z",
-      "contentHash": "5d2f8345a6bc"
-    },
-    {
-      "id": "36d59d84b111",
-      "title": "April 2026 TLDR Setup for Ollama and Gemma 4 26B on a Mac mini",
-      "url": "https://gist.github.com/greenstevester/fc49b4e60a4fef9effc79066c1033ae5",
-      "summary": "Apple Silicon搭載Mac mini（Gemma4 12Bは統合メモリ24GB以上推奨）にHomebrewで ollama-app を導入し起動。ollama pull gemma4:12b（約17GB）でモデル取得、ollama runで動作・GPU加速を確認。起動時自動起動とLaunchAgentsでモデルのプリロード設定が可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-03T09:35:16.000Z",
-      "contentHash": "d30b2bb5ce8f"
-    },
-    {
-      "id": "3ac27839e790",
-      "title": "【Dify】Outlook返信をAIが自動生成し、承認すれば送信するフローをつくってみた | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/224e2388cd81b9",
-      "summary": "DifyのHITLでOutlookの受信を監視し、自動で返信案を作成→人間が承認すると送信、結果をSlack通知するワークフローを構築。テンプレやナレッジ参照で実用性向上。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-03T09:30:05.000Z",
-      "contentHash": "1da611754cca"
-    },
-    {
-      "id": "614d481fac39",
-      "title": "Terraform管理のECSタスク定義がCodePipelineのデプロイに反映されない問題をecspressoで解消 | 【PRONI】テックブログ",
-      "url": "https://note.com/oshira_proni/n/n3254b1bc32ca",
-      "summary": "Terraformで登録したECSタスク定義がCodePipelineのECS標準デプロイに反映されない問題を、ecspressoにタスク定義管理を移行して解決した。原因はデプロイアクションがサービスの使用中リビジョンを基に新規定義を生成する仕様。対策はTerraformでtask_definitionをignore_changesかつstateから除外し、ecspressoで一元管理して手動更新を不要にした。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-03T09:25:26.000Z",
-      "contentHash": "b0703befc57b"
-    },
-    {
-      "id": "b8a6c3b76de3",
-      "title": "Show HN: Apfel – The free AI already on your Mac",
-      "url": "https://apfel.franzai.com",
-      "summary": "macOS 26（Tahoe）搭載のApple SiliconにオンデバイスLLMが組込済みだがSiri経由のみ。apfelはそれをCLI・OpenAI互換HTTPサーバ・チャットで解放し、ローカル（Neural Engine/GPU、ネット不要）でパイプ・JSON・ストリーミング・マルチターン対応。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-03T09:15:34.000Z",
-      "contentHash": "b1681c9f4af5"
-    },
-    {
-      "id": "4299cbb54d03",
-      "title": "distrolessコンテナイメージの中を覗いて「なんか軽くてセキュアらしい」より理解を深める | エムスリーテックブログ",
-      "url": "https://www.m3tech.blog/entry/2026/04/03/180000",
-      "summary": "エムスリーの横本がdistrolessイメージを実地調査。scratchやAlpineと比較し、Go実験で問題点を確認後、distroless/staticの展開・構成を解析。攻撃面削減や脆弱性トリアージ低減の意義と代替案（DHI、Chainguard）を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-03T09:00:00.000Z",
-      "contentHash": "f8cbda203b64"
-    },
-    {
-      "id": "88cffd163b31",
-      "title": "Proton meet isn't what they told you it was",
-      "url": "https://www.sambent.com/proton-meet-isnt-what-they-told-you/",
-      "summary": "Proton MeetはCLOUD Act回避を謳うが、実際はCLOUD Act対象のインフラで運用され、運営側が政府の要請で通話記録を提供。公式は「政府もアクセス不可」と宣伝し、これをプライバシーポリシーで隠していた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-03T08:59:45.000Z",
-      "contentHash": "68bb7119dc81"
-    },
-    {
-      "id": "8174785d36cc",
-      "title": "New Rowhammer attacks give complete control of machines running Nvidia GPUs",
-      "url": "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/",
-      "summary": "高性能NVIDIA GPUのGDDRを狙う新たなRowhammer攻撃（GDDRHammer、GeForge）が、ビット反転を引き起こしGPUからCPUへ波及、クラウド共有環境でホストのroot権限を奪えることを示した。Rowhammer技術はDDR系で進化を続けている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-03T08:15:12.000Z",
-      "contentHash": "7763e5514428"
-    },
-    {
-      "id": "e0feb3e80459",
-      "title": "Gemma 4 の動画入力を試す",
-      "url": "https://note.com/npaka/n/nba88e41ae055",
-      "summary": "Gemma 4はマルチモーダルでモデルにより対応が異なる（E2B/E4Bは音声含む、26/31Bは画像のみ）。画像音声はテキスト前に配置。視覚トークン予算(70〜1120)で解像度と速度を調整。音声30秒、動画60秒まで。ASR/ASTのプロンプト形式あり。ColabでGPU・HFトークン・transformersを使い google/gemma-4-e2b-it を試し、文字起こしや小説化が良好だった。",
-      "source": "npaka",
-      "publishedAt": "2026-04-03T06:53:55.000Z",
-      "contentHash": "b4264aa2825f"
-    },
-    {
-      "id": "6061ecfbe7ee",
-      "title": "GEN-1 の概要",
-      "url": "https://note.com/npaka/n/na1f8ce42db4e",
-      "summary": "Generalist AIのロボット基盤モデル「GEN-1」は、信頼性・速度・即興性を重視し、成功率約99%、作業時間を約2.8倍短縮したと報告。人間のウェアラブルで収集した大量事前データと少量ロボットデータで適応させる方式だが、社内評価のため外部検証と安全性確認が必要。",
-      "source": "npaka",
-      "publishedAt": "2026-04-02T23:57:52.000Z",
-      "contentHash": "e921e2ca5fa8"
-    },
-    {
-      "id": "bc12bf4029b1",
-      "title": "AO3 is finally out of beta after 17 years",
-      "url": "https://www.theverge.com/tech/906346/ao3-archive-of-our-own-beta-exit",
-      "summary": "ファンフィクションサイトAO3が、2009年開設から17年でベータ表記を撤回すると非営利団体OTWが発表。タグや作品DL、公開範囲設定などは寄付やボランティアで整備され、今後も機能追加を続ける。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-02T22:07:58.000Z",
-      "contentHash": "b44a89c206db"
-    },
-    {
-      "id": "418982c04c85",
-      "title": "PSA: Anyone with a link can view your Granola notes by default",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/906253/granola-note-links-ai-training-psa",
-      "summary": "AIノートアプリGranolaは「プライベート」と謳うが、初期設定でリンクを知る人が閲覧可能になり、非エンタープライズ利用者のノートは内部AI学習に使われる（オプトアウト可）。会議音声を録って要約するため設定確認が必要。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-02T21:56:16.000Z",
-      "contentHash": "3357cce1d4cd"
-    },
-    {
-      "id": "f1dabcb48196",
-      "title": "Reddit is moving on from r/all",
-      "url": "https://www.theverge.com/tech/906314/reddit-r-all-deprecating",
-      "summary": "Redditは「r/all」を段階的に廃止する。代替は「r/popular」。r/allは一部NSFWを含むフィルタの緩いフィードで、アプリ実験や表示削除を経て最終廃止の実施段階に入った。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-02T21:50:53.000Z",
-      "contentHash": "a2e208c0d115"
-    },
-    {
-      "id": "b334d06c85bb",
-      "title": "Gemma 4 の概要",
-      "url": "https://note.com/npaka/n/n240f81855918",
-      "summary": "Gemma 4は規模当たりで高い性能を発揮する最新のオープンモデルで、精度・推論効率を大幅に向上。多用途対応と安全対策を強化し、研究や実運用での活用を想定している。",
-      "source": "npaka",
-      "publishedAt": "2026-04-02T21:22:05.000Z",
-      "contentHash": "18e739fcba55"
-    },
-    {
-      "id": "29592cfbfcf0",
-      "title": "Hisense’s art-inspired CanvasTV has hit a new low price",
-      "url": "https://www.theverge.com/gadgets/905964/hisense-canvastv-deal-sale",
-      "summary": "Hisenseのアート風TV「Canvas」55型がAmazon／Best Buy／Walmartで過去最安の$599.99（$400引き）。ベゼル付き4K QLEDでマット反射防止画面、1000点超の無料アート搭載。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-02T16:31:06.000Z",
-      "contentHash": "86bf8cd2c405"
-    },
-    {
-      "id": "d28c55f87ccb",
-      "title": "Google releases Gemma 4 open models",
-      "url": "https://deepmind.google/models/gemma/gemma-4/",
-      "summary": "DeepMindのGemma-4は、前世代より性能・推論効率・安全性を高めた大規模言語モデル群。技術資料や利用指針を公開し、各種ベンチマークで高い精度を示しつつ、研究・実用向けの利用制約や倫理対策も提示している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-02T16:10:54.000Z",
-      "contentHash": "5ef9aabbe342"
-    },
-    {
-      "id": "321c0108b26b",
-      "title": "Flipboard just launched Surf, its new social app and feed reader",
-      "url": "https://www.theverge.com/tech/905929/flipboard-surf-fediverse-launch",
-      "summary": "Flipboardが新アプリ「Surf」を正式公開。BlueskyやMastodonなどフェディバースを統合するクライアント兼フィードリーダーで、RSSやYouTube、ポッドキャスト購読やフィード作成・共有が可能。Web版公開、モバイルはβ。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-02T16:06:11.000Z",
-      "contentHash": "2710071b8db0"
-    },
-    {
-      "id": "20e9cbbba2c8",
-      "title": "Gemma 4: Byte for byte, the most capable open models",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-      "summary": "Google DeepMindは新たな公開モデル「Gemma 4」を発表。高度な推論やエージェント的ワークフロー向けに設計され、従来より高い知能密度と性能を備えた最も有能なオープンモデルと位置付けられる。",
-      "source": "Gemini",
-      "publishedAt": "2026-04-02T16:00:00.000Z",
-      "contentHash": "428848fa7736"
-    },
-    {
-      "id": "058831d642a1",
-      "title": "New York lawmakers want 3D-printer companies to block the creation of ‘ghost guns’",
-      "url": "https://www.theverge.com/tech/905922/new-york-3d-printed-ghost-gun-ban-luigi-mangione-united-healthcare-shooting",
-      "summary": "UnitedHealthcareのCEO殺害を受け、ニューヨーク州知事ホホールらは、シリアル番号のない自作銃（ゴーストガン）を3Dプリンターで作れないようメーカーにブロック技術導入を求める。2社が自主対応し、設計データ削除も報告、関連法案が提出された。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-02T15:47:12.000Z",
-      "contentHash": "762d253b6678"
-    },
-    {
-      "id": "b3e0d8c1d845",
-      "title": "Razer gaming accessories include a $25 Taco Bell gift card at Best Buy",
-      "url": "https://www.theverge.com/gadgets/905788/razer-taco-bell-best-buy-gaming-mouse-keyboard-deal-sale",
-      "summary": "Best Buyで本日限定、Razerの対象ゲーミングアクセサリ購入でTaco Bellの$25ギフトカードを無料進呈。マウスやヘッドセット、キーボード、コントローラー計41品が対象。Basilisk V3 Proは$109.99。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-02T15:40:24.000Z",
-      "contentHash": "d7a0a096f60e"
-    },
-    {
-      "id": "f74bae61986d",
-      "title": "It’s not easy to get depression-detecting AI through the FDA",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/905864/depression-detecting-ai-kintsugi-clinical-ai-startup-shut-down",
-      "summary": "カリフォルニアのスタートアップKintsugiは、会話の話し方からうつや不安を検出するAIを7年開発したがFDA承認が間に合わず事業終了、技術をオープンソース化。医療外の応用も見込まれる。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-02T15:33:23.000Z",
-      "contentHash": "cd5e539c3c39"
-    },
-    {
-      "id": "cdd2321866cd",
-      "title": "Despite EV headwinds, Rivian’s sales are up",
-      "url": "https://www.theverge.com/transportation/905903/despite-ev-headwinds-rivians-sales-are-up",
-      "summary": "逆風のEV市場でもRivianは好調。2026年Q1に10,365台を販売（前年同期比+20%）、10,236台を生産（+30%）。年販売見通しは62,000～67,000台を維持、手頃なR2投入を控える。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-02T15:30:02.000Z",
-      "contentHash": "f0ab46157e40"
-    },
-    {
-      "id": "6a5a0112d0f8",
-      "title": "YouTube&#8217;s TV takeover continues with 24/7 streaming ‘Stations’",
-      "url": "https://www.theverge.com/column/905787/youtube-stations",
-      "summary": "YouTubeは「Stations」と呼ぶ24時間のリニア配信（FAST）を導入。コーチェラでは出演アーティスト映像を連続配信し、リビングでの受動的視聴を強化。クリエイターも同様のチャンネルを作成可能。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-02T15:30:00.000Z",
-      "contentHash": "b2a521256bbc"
-    },
-    {
-      "id": "cea1a0c41190",
-      "title": "Samsung announces 2026 Frame TVs and the Pro costs less than last year’s",
-      "url": "https://www.theverge.com/tech/905652/samsung-announces-2026-frame-and-oled-tvs",
-      "summary": "サムスンが2026年版The Frame／Frame Proを発表。Frame Proは65/75/85型の発売価格を前年より引き下げ（65型$1,999等）、新たに55型を追加。通常版は後日発表で75/85型が追加予定。接続端子は従来のOne Connect Boxではなく本体内蔵に。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-02T15:00:00.000Z",
-      "contentHash": "6563baad87cc"
-    },
-    {
-      "id": "ce162a48759a",
-      "title": "The boring, insidious world of the womanosphere",
-      "url": "https://www.theverge.com/policy/905871/usha-vance-podcast-storytime-second-lady-katie-miller",
-      "summary": "保守系政治家の妻たちがポッドキャストを次々開始する潮流。例として米副大統領夫人ウシャ・ヴァンスは短い子ども向け読み聞かせ番組『Storytime with the Second Lady』を配信し、文化戦争の新たな舞台になっている。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-02T15:00:00.000Z",
-      "contentHash": "29f4436afa55"
-    },
-    {
-      "id": "b733f7d9a858",
-      "title": "Qwen3.6-Plus: Towards Real World Agents",
-      "url": "https://qwen.ai/blog?id=qwen3.6",
-      "summary": "申し訳ありませんが、外部サイトを直接閲覧できません。記事本文をここに貼るか主要な箇所を教えていただければ、200文字以内で日本語要約を作成します。HNコメントも一緒に要約できます。どちらにしますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-02T14:28:52.000Z",
-      "contentHash": "f65e79b1883c"
-    },
-    {
-      "id": "de8fc3b98291",
-      "title": "Tesla’s sales recover slightly, but the trend lines are all bad",
-      "url": "https://www.theverge.com/transportation/905811/tesla-q1-2026-sales-deliveries-elon-musk",
-      "summary": "テスラの第1四半期は前年同期比で6%増と回復したものの、前四半期比では納車が14%減の358,023台、製造は408,306台と落ち込み、先行きに懸念が残る。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-02T14:09:40.000Z",
-      "contentHash": "e0339204a5dc"
-    },
-    {
-      "id": "9c2731be64a3",
-      "title": "LinkedIn Is Illegally Searching Your Computer",
-      "url": "https://browsergate.eu/",
-      "summary": "申し訳ありませんが、外部のURLを直接参照できません。記事本文をここに貼っていただければ、200文字以内で日本語要約を作成します。HNコメントの要約や論点整理も可能です。要約の文体（中立/批判的など）を指定したければ教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-02T13:09:09.000Z",
-      "contentHash": "c11d461bf230"
-    },
-    {
-      "id": "2e4e2cd7cd13",
-      "title": "話題のTrivy問題であのCiscoが持ってかれたということは、既に多くの企業の鍵が持ってかれているかもしれない | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/trivy-cisco-shinyhunters-supply-chain-attack/",
-      "summary": "Trivyを起点としたCiscoへのサイバー攻撃を解説。サプライチェーン侵害の経緯、攻撃の影響、企業が確認すべきポイントを整理している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-02T12:00:00.000Z",
-      "contentHash": "7d6e9bafac3c"
     }
   ]
 }
