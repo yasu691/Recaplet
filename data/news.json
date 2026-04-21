@@ -1,6 +1,159 @@
 {
-  "generatedAt": "2026-04-21T03:36:34.233Z",
+  "generatedAt": "2026-04-21T09:49:05.633Z",
   "items": [
+    {
+      "id": "9a1f29a5e322",
+      "title": "Microsoft Teams is trying to fix accidental hand-raising",
+      "url": "https://www.theverge.com/tech/915586/microsoft-teams-accidental-hand-raising-fix",
+      "summary": "Microsoft Teamsが操作ツールバーを再設計。誤操作を減らすため「手を挙げる」機能をメインからリアクション内に移動し、ツールバーの表示をユーザーがカスタマイズ可能にする。6月展開予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T09:14:16.000Z",
+      "contentHash": "6f7f7a7b172f"
+    },
+    {
+      "id": "13f27ba0b61f",
+      "title": "Ikea and Samsung promise glitch-free SmartThings integration",
+      "url": "https://www.theverge.com/tech/915560/ikea-and-samsung-promise-glitch-free-smartthings-integration",
+      "summary": "IkeaのMatter/Thread製品は不具合が続いてきたが、SamsungはSmartThingsでスクロールリモコン、電球、スマートプラグ、温湿度・空気・モーション・水・開閉センサー等を対象に強化統合と接続安定性検証、専用UXを実装し正常動作とルーティン連携を保証すると発表。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T09:13:06.000Z",
+      "contentHash": "62a61ab6ca1a"
+    },
+    {
+      "id": "69ee02ce0cc1",
+      "title": "Apple Sports now lets you follow scores in a CarPlay widget",
+      "url": "https://www.theverge.com/news/915564/apple-sports-widget-carplay",
+      "summary": "Apple SportsがCarPlayウィジェットに対応（iOS26）。リーグやお気に入りチームのライブスコアやスケジュールを表示できるが、記者の検証では時間表示が即時に更新されず遅延が見られた。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T09:08:22.000Z",
+      "contentHash": "ea2969e59ea5"
+    },
+    {
+      "id": "7d6449182f6f",
+      "title": "Ruby: ZJIT を Perfetto プロファイラでグラフ化して分析する（翻訳） | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_04_21/157654",
+      "summary": "ZJITをPerfettoで可視化・解析する方法を翻訳公開した記事。ベンチマークで見つかった遅いイベントの例を示し、図はクリックで拡大可。CC BY-NC-SA 4.0、TechRacho掲載。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T08:30:06.000Z",
+      "contentHash": "4ccc75c0e70e"
+    },
+    {
+      "id": "1535df561aec",
+      "title": "【Skew Protection】Server Actionがクライアント-サーバー間のバージョン不一致でエラーになる問題をIstioのVirtual Serviceで解決した話 | Uzabase for Engineers",
+      "url": "https://tech.uzabase.com/entry/nextjs-server-actions-version-skew-istio",
+      "summary": "ユーザベースの佐藤一徹が、社内エキスパート管理ツールで発生するNext.js Server Actionのversion skew問題に対し、Kubernetes＋Istioでクライアントと同バージョンのサーバへルーティングする仕組みを実装した事例を紹介しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T08:16:45.000Z",
+      "contentHash": "ef63d0b6d86e"
+    },
+    {
+      "id": "b91d13fcce5a",
+      "title": "ボタンを押すだけでコード変換が走る ― AWS Transform custom を GitHub Actions で自動化する | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/04/21/170914",
+      "summary": "GitHub ActionsでTransform customを実行するための初期設定を解説。AWSでOIDCプロバイダーとIAMロール・ポリシーを作成し、GitHub側設定、リポジトリ構成、config.yamlの記述例や実行手順、結果確認とトラブルシューティングを紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T08:09:14.000Z",
+      "contentHash": "ac1417c3daca"
+    },
+    {
+      "id": "2cdf1bc2eaaf",
+      "title": "S2S API比較：RAG編 〜Speech-to-SpeechでRAGを使うなら、何を選ぶべきか | HEROZ Tech Blog",
+      "url": "https://techblog.heroz.jp/entry/2026/04/21/170627",
+      "summary": "S2S（Speech-to-Speech）APIにRAGを組み込んだ際のモデル選定の違いを、5モデルを対象に検索性能・会話型RAG・レイテンシ・Tool Calling実装まで比較し、Gemini 2.5 Flash Live、GPT Realtime 1.5、Nova 2 Sonicの実務での使い分けを整理した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T08:06:27.000Z",
+      "contentHash": "8c3a657faaa8"
+    },
+    {
+      "id": "3cab69f5d53a",
+      "title": "タイムアウト設計奮闘記 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/b724534db2035d",
+      "summary": "マイクロサービス等の多層で経路が多様なシステムではタイムアウト設計が重要。呼び出し元は呼び先の想定処理時間より長くするのが原則だが、MSAでは維持が難しい。本稿は現場で得た整合性確保の実践的手法を紹介する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T07:54:52.000Z",
+      "contentHash": "00f85f898efb"
+    },
+    {
+      "id": "4aa64b35f375",
+      "title": "そのAIアプリはテストされているか | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/1823a019925c1f",
+      "summary": "ナウキャストの隅田が担当するWebアプリ「DataLens店舗開発」は、PDFや画像から物件情報を抽出するAIで、従来の人手承認を不要にする高精度自動化を実現し特許を取得。リリースから1年以上経過している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T07:44:37.000Z",
+      "contentHash": "e166816d54fa"
+    },
+    {
+      "id": "f8e7aac08698",
+      "title": "invalidateQueries と setQueryData、どっちを使うべき？——TanStack Query のキャッシュ更新方法を学ぶ | ONE CAREER Tech Blog",
+      "url": "https://note.com/dev_onecareer/n/n18f45283d9d1",
+      "summary": "ワンキャリアのアプリチーム所属エンジニア金（GitHub:@chihiroanihr）が、React Nativeアプリ開発でTanStack Query（旧React Query）を導入したことを紹介する記事です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T07:42:55.000Z",
+      "contentHash": "b246308e7f6e"
+    },
+    {
+      "id": "050946841cbe",
+      "title": "【キャリアストーリー】「発見」で終わらせず「社会実装」へ — バイオインフォマティクスからモビルスのAIエンジニアへの軌跡 | MOBILUS TECH BLOG",
+      "url": "https://mobilus.hatenablog.com/entry/2026/04/21/163112",
+      "summary": "MobilusのR&DでAIエンジニアを務めるアンドレが、物理学からバイオインフォマティクスを経てAIへ転身した経緯を紹介。生物データの扱いがNLP開発にどう活きるかを語る記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T07:31:12.000Z",
+      "contentHash": "cf51a0f12357"
+    },
+    {
+      "id": "9984b74581ae",
+      "title": "Agent Plugins for AWS を安全に使うための Claude Code 制御レイヤー設計 （第1回：Guide編） | ForgeVision Engineer Blog",
+      "url": "https://techblog.forgevision.com/entry/2026/04/21/162014",
+      "summary": "AWSの藤岡です。2026年2月発表の「Agent Plugins for AWS」でAIエージェントがIaC実装やデプロイを実行可能に。ただし誤操作やセキュリティ、コスト増などのリスクがあり、安全な制御が不可欠だと指摘します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-21T07:20:14.000Z",
+      "contentHash": "b0081db32d8a"
+    },
+    {
+      "id": "e9aaecbe8f25",
+      "title": "PlayStation&#8217;s age-gating restrictions are coming to UK consoles",
+      "url": "https://www.theverge.com/news/915448/sony-playstation-age-verification-uk-messaging-voice-chat",
+      "summary": "ソニーは英国・アイルランドでOnline Safety Actに対応し、2026年6月以降、年齢確認未完了のPS4/PS5利用者はボイスチャット、メッセージ、配信などのソーシャル機能が利用不可に。Yotiで携帯番号、顔認証、身分証で確認。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T07:11:34.000Z",
+      "contentHash": "4f07dd04e6bc"
+    },
+    {
+      "id": "58b014cb7f19",
+      "title": "Israeli soldiers using sexual assault to force Palestinians out of West Bank",
+      "url": "https://www.theguardian.com/world/2026/apr/21/israeli-soldiers-using-sexual-assault-to-force-palestinians-out-of-west-bank-report-says",
+      "summary": "国際人権団体の報告によれば、占領下のヨルダン川西岸でイスラエル軍や入植者が性的暴力や裸にする行為、侵襲的な体腔検査、陰部露出、侮辱写真、尿をかける等でパレスチナ人を追い出す圧力をかけている。ここ3年で16件記録され過小報告が多く、女生徒の退学や早期結婚を招いている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-21T05:15:23.000Z",
+      "contentHash": "77ea451cbede"
+    },
+    {
+      "id": "1581f797763d",
+      "title": "A Roblox cheat and one AI tool brought down Vercel's platform",
+      "url": "https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform",
+      "summary": "外部リンク先を直接参照できないため、記事本文を貼り付けるか主要ポイントを教えてください。本文をいただければ、200文字以内で日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-21T04:12:12.000Z",
+      "contentHash": "fc7a5a0c8179"
+    },
+    {
+      "id": "a5b7779f117e",
+      "title": "Dyson’s back with a travel-size Supersonic hairdryer",
+      "url": "https://www.theverge.com/gadgets/915165/dyson-supersonic-travel-hairdryer-gadgets-price",
+      "summary": "ダイソンが旅行向けの小型「Supersonic Travel」ヘアドライヤーを発表。価格は299.99ドルで、32%小型化・25%軽量化しバッグや機内持ち込みに対応。自動電圧切替機能があり、従来機のアタッチメントと互換（アタッチメントは別売り）。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T04:00:00.000Z",
+      "contentHash": "58618bbccc0f"
+    },
+    {
+      "id": "b3d0897aba68",
+      "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
+      "url": "https://docs.openclaw.ai/providers/anthropic",
+      "summary": "OpenClawのAnthropicプロバイダ解説。Anthropic（Claude）をOpenClawで使うための認証方法、対応モデル、API呼び出し例（Python/JS）、ストリーミング・エラーハンドリング・レート制限や安全性の注意点をまとめている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-21T03:43:03.000Z",
+      "contentHash": "8c4d9509ecde"
+    },
     {
       "id": "411eb8e422ca",
       "title": "MySQLスロークエリがビジネスを止める？ パフォーマンス改善戦略を知る | スマートスタイル TECH BLOG",
@@ -92,6 +245,15 @@
       "contentHash": "1d6ee0c84cc1"
     },
     {
+      "id": "c858c1e5089b",
+      "title": "How to make a fast dynamic language interpreter",
+      "url": "https://zef-lang.dev/implementation",
+      "summary": "「Zef」という超簡素なASTインタプリタをJITやGC、バイトコード無しで最適化し、Lua/QuickJS/CPythonと競える性能にした話。値表現、インラインキャッシュ、オブジェクトモデル、ウォッチポイントなどの単純な手法で16倍（Yolo-C++暫定で67倍）高速化し、ScriptBench1のベンチで評価している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-21T00:48:07.000Z",
+      "contentHash": "a9ad39e4965d"
+    },
+    {
       "id": "b1ecc5d08083",
       "title": "Tim Cook will still be Apple’s Trump whisperer",
       "url": "https://www.theverge.com/policy/915422/tim-cook-apple-chairman-trump-policy",
@@ -119,6 +281,15 @@
       "contentHash": "21f581ade6c8"
     },
     {
+      "id": "5f9b51c4ad52",
+      "title": "Chronicle の概要",
+      "url": "https://note.com/npaka/n/n242bb3fc6e91",
+      "summary": "ChronicleはmacOS版ChatGPT Proのオプトイン研究プレビューで、画面キャプチャによりCodexの記憶を補完しコンテキスト説明を省略。画面録画・アクセシビリティ権限が必要でレートを消費、暗号化されず保存されるなどプライバシーリスクがある。一時停止・無効化可。EU等未提供。",
+      "source": "npaka",
+      "publishedAt": "2026-04-20T22:00:03.000Z",
+      "contentHash": "825ef3590315"
+    },
+    {
       "id": "c7ff8577b1fe",
       "title": "John Ternus is taking over from Tim Cook as Apple&#8217;s CEO",
       "url": "https://www.theverge.com/tech/915272/apple-john-ternus-tim-cook",
@@ -140,19 +311,19 @@
       "id": "f4b7b9dfb8e1",
       "title": "Jujutsu megamerges for fun and profit",
       "url": "https://isaaccorbrey.com/notes/jujutsu-megamerges-for-fun-and-profit",
-      "summary": "Jujutsuの作者が提案する「megamerges」は、多数のコミットやブランチを一度に効率的に統合する手法。履歴DAGと祖先解析を用いて競合処理や高速化の工夫を示し、実装と評価結果を解説している。",
+      "summary": "Jujutsuの「megamerge」ワークフロー紹介。複数親（オクトパス）マージを多用し、小さなPRや複雑な開発を一括で効率的に統合する手法を解説。マージコミットは特別でない点や実践的コツも提示。",
       "source": "Hacker News",
       "publishedAt": "2026-04-20T21:32:10.000Z",
-      "contentHash": "9627a2e6101f"
+      "contentHash": "088671bde86d"
     },
     {
       "id": "d1b8a9a5f0cc",
       "title": "OpenAI ad partner now selling ChatGPT ad placements based on “prompt relevance”",
       "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/",
-      "summary": "流出した資料によれば、DSPのStackAdaptはChatGPT向け広告の戦略を提示。プロンプトの関連性で配信を最適化し、CPMは15～60ドル、パイロットは最低5万ドルの出稿が必要。",
+      "summary": "Adweekが入手した流出資料で、広告プラットフォームStackAdaptがChatGPT向けの広告戦略を解説。プロンプトやプラグインを使った配信やターゲティング、計測手法が示され、利用者のプライバシーや透明性への懸念を呼び、HNで議論になっている。",
       "source": "Hacker News",
       "publishedAt": "2026-04-20T21:20:52.000Z",
-      "contentHash": "ab988a621333"
+      "contentHash": "cce3e6c2601b"
     },
     {
       "id": "66cf3e4c85c9",
@@ -203,10 +374,10 @@
       "id": "53438aba5557",
       "title": "AI Resistance: some recent anti-AI stuff that’s worth discussing",
       "url": "https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/",
-      "summary": "記事は、職場や教育現場でAI導入への抵抗が強まっていると指摘する。労働者や利用者が監視、透明性、雇用・著作権保護を求め、AI拒否や規制・組合交渉が増加。安易な導入は信頼喪失を招くと警告している。",
+      "summary": "申し訳ありませんが、外部リンクを直接読むことができません。記事本文または主要段落を貼り付けていただければ、200文字以内で日本語に要約します。HNコメントも同様に対応できます。",
       "source": "Hacker News",
       "publishedAt": "2026-04-20T20:19:13.000Z",
-      "contentHash": "f11324948715"
+      "contentHash": "63aa258f1a51"
     },
     {
       "id": "31a232acf75a",
@@ -275,10 +446,10 @@
       "id": "2dbc655de4d4",
       "title": "Start vibe coding in AI Studio with your Google AI subscription.",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-one-ai-studio/",
-      "summary": "GoogleはAI Pro/Ultra加入者向けにGoogle AI Studioの利用上限を拡大し、Nano Banana ProやGemini Proモデルへのアクセスを提供。短時間で試作できる低設定の課金ブリッジを用意し、必要に応じてAPIへ移行可能。順次提供中。",
+      "summary": "本日より、Google AI Pro／Ultra加入者はGoogle AI Studioの利用上限が引き上げられ、Nano Banana ProやGemini Proなどのモデルへのアクセスも拡充されます。",
       "source": "Gemini",
       "publishedAt": "2026-04-20T16:32:00.000Z",
-      "contentHash": "8313c8b70b44"
+      "contentHash": "66a1ddb5a852"
     },
     {
       "id": "c6fc7f439945",
@@ -1769,10 +1940,10 @@
       "id": "58a262f76eec",
       "title": "Codexアプリの新機能まとめ - Computer use ・ アプリ内ブラウザ ・ 画像生成 など",
       "url": "https://note.com/npaka/n/nf334367baf0a",
-      "summary": "OpenAIはCodexを「Codex for (almost) everything」へ更新し、画面操作するComputer use、アプリ内ブラウザ、画像生成(gpt-image-1.5)、90以上のプラグイン、GitHubレビュー対応、複数ターミナル・SSH、資料プレビュー、長期タスク自動再開のAutomations強化などを導入しました。",
+      "summary": "この記事は2026年4月16日付のCodexアプリ新機能をまとめたもので、主な目玉は「Codex for (almost) everything」です。詳細は記事本文で確認できます。",
       "source": "npaka",
       "publishedAt": "2026-04-16T22:11:44.000Z",
-      "contentHash": "b384ad7c1b3d"
+      "contentHash": "484a343b7fa3"
     },
     {
       "id": "6decf15fb729",
@@ -1985,10 +2156,10 @@
       "id": "65855801f848",
       "title": "New ways to create personalized images in the Gemini app",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
-      "summary": "GeminiアプリがGoogleフォトとPersonal Intelligenceを使い、長文プロンプト不要で自分や家族を含むパーソナル画像を自動生成。参照写真の差替えや微調整可能。米国のAI Plus/Pro/Ultra会員に順次提供。私人フォトはモデル訓練に使用しない。",
+      "summary": "Nano Banana 2が個人の文脈とGoogleフォトを活用し、あなたの生活や記憶を反映した画像を生成できるようになった。",
       "source": "Gemini",
       "publishedAt": "2026-04-16T16:00:00.000Z",
-      "contentHash": "225e21cab5db"
+      "contentHash": "3aca8ca1b1ed"
     },
     {
       "id": "e468557509a4",
@@ -2570,10 +2741,10 @@
       "id": "6ec3dd100527",
       "title": "The Gemini app is now on Mac",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
-      "summary": "GoogleのAIアプリ「Gemini」がmacOS 15以上でネイティブ提供開始。gemini.google/macから無料で入手可。Option＋Spaceで起動し、画面共有でローカルファイルの要約や画像・動画生成が可能。生成AIは実験的。",
+      "summary": "GoogleはAIアプリ「Gemini」をmacOS向けにネイティブのデスクトップアプリとして提供し、Mac上で直接使えるデスクトップ体験を導入します。",
       "source": "Gemini",
       "publishedAt": "2026-04-15T16:00:00.000Z",
-      "contentHash": "5aea27d98886"
+      "contentHash": "a10a4e5b27cc"
     },
     {
       "id": "6898568a6b30",
@@ -2588,10 +2759,10 @@
       "id": "757aaa019f35",
       "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
-      "summary": "Gemini 3.1 Flash TTSは、自然で表現豊かな音声を生成するAI音声モデル。音声タグで話法や速度を細かく指示でき、70以上の言語に対応。AI Studio/Vertexで調整・書き出し可能。生成音声はSynthIDで透かし判別。",
+      "summary": "Gemini 3.1 Flash TTSがGoogleの各製品で利用可能になりました。高品質で高速な音声合成が検索やアシスタントなどのサービスに導入されます。",
       "source": "Gemini",
       "publishedAt": "2026-04-15T15:00:00.000Z",
-      "contentHash": "5b8c635eaf2b"
+      "contentHash": "a28e178689ee"
     },
     {
       "id": "eec2c57b62e2",
@@ -5018,10 +5189,10 @@
       "id": "3bfce51049c7",
       "title": "6 easy ways to study for finals with Gemini",
       "url": "https://blog.google/products-and-platforms/products/education/gemini-finals-study-tips/",
-      "summary": "期末に向け、Geminiを学習パートナーにする6つの簡単な方法を紹介。ノートを読み込んで学習ガイドや単語カード、ポッドキャスト化、図表作成、模試やカスタムクイズ、苦手分野の段階的解説で学習を効率化する。",
+      "summary": "Geminiを個人の学習パートナーとして活用する方法を紹介。乱れた講義ノートをポッドキャストに変換したり、オリジナルのクイズで理解度をテストしたりできる。",
       "source": "Gemini",
       "publishedAt": "2026-04-10T13:00:00.000Z",
-      "contentHash": "44a38edb705d"
+      "contentHash": "61872bec9c11"
     },
     {
       "id": "b4e95d1b5405",
@@ -5900,19 +6071,19 @@
       "id": "0478e26c90b9",
       "title": "The Gemini app can now generate interactive simulations and models.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/",
-      "summary": "Geminiアプリがチャット内で質問を対話的な可視化や機能的シミュレーションに変換可能に。分子回転や月の軌道などをスライダーで操作して即時確認でき、全ユーザーに展開中。gemini.google.comでProを選び「show me」等で利用。",
+      "summary": "Geminiが、質問や複雑なトピックをカスタムでインタラクティブな可視化に変換できるようになりました。",
       "source": "Gemini",
       "publishedAt": "2026-04-09T16:00:00.000Z",
-      "contentHash": "ce300ea55d28"
+      "contentHash": "6092f1c18305"
     },
     {
       "id": "417bff228a5f",
       "title": "6 ways Gemini can help you find your next home",
       "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-home-buying-renting-tips/",
-      "summary": "GoogleのAI Geminiは、写真で改装イメージ作成、周辺や市場動向の分析、検査報告や賃貸契約の要約、住宅ローン試算や費用管理、受信箱からの情報抽出、検索効率化で物件探しを支援する（生成AIは実験的）。",
+      "summary": "引っ越しを控えていますか？Geminiが近隣の分析、検査報告の要約、リノベの可視化、物件探しの効率化をどのように支援するか紹介します。",
       "source": "Gemini",
       "publishedAt": "2026-04-09T16:00:00.000Z",
-      "contentHash": "1d8a39d94fc1"
+      "contentHash": "41c7dc0fa88d"
     },
     {
       "id": "ac12232913b2",
@@ -6593,10 +6764,10 @@
       "id": "13346ebb5667",
       "title": "Try notebooks in Gemini to easily keep track of projects",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
-      "summary": "Geminiにノートブック機能が追加。チャットやファイルをプロジェクト単位で整理し、AI研究パートナーNotebookLMと同期する個人ナレッジベース。カスタム指示やファイル追加で文脈付与、ソース利用は契約プラン依存。Ultra/Pro/Plusのウェブ利用者から順次提供。",
+      "summary": "Geminiのノートブックは、GeminiアプリとAI搭載の研究パートナーNotebookLMを結びつけるプロジェクト基盤を提供し、手軽なワークフローを可能にします。",
       "source": "Gemini",
       "publishedAt": "2026-04-08T13:45:00.000Z",
-      "contentHash": "1cf8a67d8b3c"
+      "contentHash": "dd733de214b2"
     },
     {
       "id": "980e5d342017",
@@ -7205,10 +7376,10 @@
       "id": "b8e3ad733069",
       "title": "Here’s how we built Gmail to keep your data secure and private in the Gemini era.",
       "url": "https://blog.google/products-and-platforms/products/gmail/privacy-in-gmail-with-gemini/",
-      "summary": "Googleは個人メールをGeminiなどの基盤モデルの学習に使わず、Gmail内でのGeminiのアクセスは要請された個別タスクに限定。処理後にデータを保持せず、受信箱の内容はプライベートに保たれます。",
+      "summary": "Googleは個人のGmailをGeminiの学習データに使用しないと明言。新しいAIモデル導入に伴い、管理者による制御や各種プライバシー保護策で個人データの学習利用や流出を防いでいる。",
       "source": "Gemini",
       "publishedAt": "2026-04-07T16:00:00.000Z",
-      "contentHash": "75475dae3334"
+      "contentHash": "0c4155fdd219"
     },
     {
       "id": "b4e152278024",
@@ -7367,10 +7538,10 @@
       "id": "2f5a40f46865",
       "title": "An update on our mental health work",
       "url": "https://blog.google/innovation-and-ai/technology/health/mental-health-updates/",
-      "summary": "Googleはメンタルヘルス施策を更新し、AI「Gemini」で支援への導線を簡素化すると発表。世界の危機相談窓口支援に3,000万ドルを拠出し、10億人超に影響する課題への情報・支援提供を強化。",
+      "summary": "メンタルヘルスに関する取り組みの最新情報を共有します。人々を適切な情報に結びつけるための新たな変更を導入しました。",
       "source": "Gemini",
       "publishedAt": "2026-04-07T10:00:00.000Z",
-      "contentHash": "399c48654caa"
+      "contentHash": "989a6249b65b"
     },
     {
       "id": "e93758063d30",
@@ -8829,177 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-03T16:57:09.000Z",
       "contentHash": "1923ecfb4071"
-    },
-    {
-      "id": "ff6104e8d673",
-      "title": "Mercedes adds steer-by-wire — and a dang steering yoke — to the EQS",
-      "url": "https://www.theverge.com/transportation/906539/mercedes-steer-by-wire-steering-yoke-eqs",
-      "summary": "メルセデスが改良型EQSに初のステア・バイ・ワイヤ（電動操舵）とステアリングヨークを導入。ラック＆ピニオンを電子アクチュエータで置換する一方、従来の電動機械式操舵仕様も併売する予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-03T15:34:10.000Z",
-      "contentHash": "0a1cd270ae27"
-    },
-    {
-      "id": "218cc765ef24",
-      "title": "Anker&#8217;s small, five-port travel adapter is down to its best price yet",
-      "url": "https://www.theverge.com/gadgets/906392/anker-nano-travel-adapter-samsung-galaxy-watch-ultra-deal-sale",
-      "summary": "Ankerの5ポート小型「Nano Travel Adapter」が過去最安の$19.99に。A/C/G/Iプラグ対応で200カ国以上で使用可、20W出力。AmazonとAnker直販で割引中。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-03T15:10:31.000Z",
-      "contentHash": "8eaa5f75e07f"
-    },
-    {
-      "id": "038747f8f2e8",
-      "title": "I saved a doomed Windows laptop by embracing Linux",
-      "url": "https://www.theverge.com/tech/905946/windows-11-forced-obsolescence-linux-thinkpad",
-      "summary": "Windows10サポート終了で多くの古いPCが“obsolete”扱いだが、著者は9年物ThinkPadにLinuxを入れて再活用。普段使いやSteamも問題なく動くと報告。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-03T15:00:00.000Z",
-      "contentHash": "cce82b86b2f8"
-    },
-    {
-      "id": "3f4b5a2d8856",
-      "title": "Solar and batteries can power the world",
-      "url": "https://nworbmot.org/blog/solar-battery-world.html",
-      "summary": "2030年想定で、太陽光＋蓄電が電力の90%を賄えば世界人口の80%で80€/MWh未満になる。高緯度は冬の日照でコスト上昇し風力・水力が補完。2050年は更に低コスト。解析は蓄電・燃料バックアップと余剰を含む8760時間気象データで最適化。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-03T14:29:26.000Z",
-      "contentHash": "2c514ecd32e4"
-    },
-    {
-      "id": "2965eedde8e8",
-      "title": "Marc Andreessen is wrong about introspection",
-      "url": "https://www.joanwestenberg.com/marc-andreessen-is-wrong-about-introspection/",
-      "summary": "アンドリーセンが「内省は1910年代に発明された」と主張したことを著者が批判。ソクラテス、ストア派（マルクス・アウレリウス）、アウグスティヌス、孟子など古今に内省の伝統があると挙げ、その主張を誤りと断じる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-03T14:29:12.000Z",
-      "contentHash": "aceba4edd0fb"
-    },
-    {
-      "id": "f6e9a3cb2d6d",
-      "title": "AICore Developer Preview で Gemma 4 を試す",
-      "url": "https://note.com/npaka/n/n79383ac828ec",
-      "summary": "Googleは2026/4/2、AICore Developer PreviewでGemma 4をAndroid端末で試用可能にした。Prompt API対応確認、aicore-experimentalログイン、Android AICore導入、モデルDL後にAndroid Studioで検証。プレビューは専用AIアクセラレータで動き、未対応端末はCPU実装で性能が劣る。",
-      "source": "npaka",
-      "publishedAt": "2026-04-03T14:00:51.000Z",
-      "contentHash": "bd8bb81da01d"
-    },
-    {
-      "id": "b8c546b03451",
-      "title": "Waiting for Trump Phone",
-      "url": "https://www.theverge.com/tech/905599/where-is-the-trump-phone-t1-april",
-      "summary": "トランプT1スマホは発表から9か月以上たつが出荷されず所在不明。記者の問い合わせにも応答がなく、その間にSamsungのTriFoldなど他製品の興亡があったと報告している。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-03T14:00:00.000Z",
-      "contentHash": "56a16e462f2f"
-    },
-    {
-      "id": "73b73364e83e",
-      "title": "How the Apple Watch defined modern health tech",
-      "url": "https://www.theverge.com/column/906391/apple-watch-optimizer-apple-50-health-tech-wearables",
-      "summary": "Apple Watch Series 4（2018）は心電図など医療的スクリーニングをスマートウォッチにもたらし、歩数や心拍中心のフィットネス機器だったウェアラブルを健康管理や救命につながるデバイスへと転換し、現代のヘルステックを定義した。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-03T14:00:00.000Z",
-      "contentHash": "f1531d474df8"
-    },
-    {
-      "id": "53fd449e13e1",
-      "title": "Apple’s best product ever",
-      "url": "https://www.theverge.com/podcast/906548/best-apple-product-vergecast",
-      "summary": "The Vergecastで、創立50周年記念の視聴者投票（160万票超）によるApple製品ベスト50を発表・解説。50位から11位の結果や所感、OpenAI関連の話題、購読特典に触れる。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-03T12:52:41.000Z",
-      "contentHash": "683bf89e224d"
-    },
-    {
-      "id": "9bbfdd2527fd",
-      "title": "Show HN: I built a frontpage for personal blogs",
-      "url": "https://text.blogosphere.app/",
-      "summary": "SNSやAI時代にインディーウェブを守るため、個人ブログの最新投稿をカテゴリ別に集めて紹介する「Blogosphere」。HN風の最小版と通常版があり、掲載は申請で承認される。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-03T12:33:45.000Z",
-      "contentHash": "993bc4d9237d"
-    },
-    {
-      "id": "7cfe9be2233c",
-      "title": "Chatbots are now prescribing psychiatric drugs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/906525/ai-chatbot-prescribe-refill-psychiatric-drugs",
-      "summary": "ユタ州がAIチャットボット（Legion Health）に医師なしで精神科薬の処方更新を許可する1年の試験を開始。月額19ドルで迅速な再処方を謳うが、医師は不透明性や安全リスク、実際のアクセス拡大の疑問を指摘している。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-03T11:43:21.000Z",
-      "contentHash": "a108c5ac2b44"
-    },
-    {
-      "id": "4f254e7d7065",
-      "title": "Claude CodeのAgent Teamsでテクニカルサポート調査を行いやすくする | インゲージ開発者ブログ",
-      "url": "https://blog.ingage.jp/entry/2026/04/03/203314",
-      "summary": "筆者（fujimmm331）は週1でランニングし気分転換。CREチームに所属しテクニカルサポートを担当、週4〜5件の問い合わせでコードやログを調査。元々5人のチームが半減し、フロントエンド中心のためバックエンドやインフラを含む全体調査に時間がかかっている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-03T11:33:14.000Z",
-      "contentHash": "154900e314e4"
-    },
-    {
-      "id": "2f8da331e15a",
-      "title": "【2026年版】Snowflake入門（7）セキュリティ編・前編 - RBACとポリシー | Snowflake Data Heroesのフィード",
-      "url": "https://zenn.dev/dataheroes/articles/d3741aea862e99",
-      "summary": "2026年版Snowflake入門第7回（前編）はRBACとポリシーを解説。セキュリティを「制限」ではなくデータ活用の「信頼基盤」と位置づけ、GDPR罰金等のリスク事例や投資判断、各種ロール類型を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-03T11:22:26.000Z",
-      "contentHash": "f399b1b29bdd"
-    },
-    {
-      "id": "30d37e865d80",
-      "title": "ClaudeでSlack×Google Calendarの情報を集約した「自動TODOリスト」を作った話 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/claude-original-todo-list",
-      "summary": "アプリケーションサービス部の遠藤が、Slackの「後で」ブックマークやGoogle Calendarの予定が散在して頭の整理に時間を取られる問題を解消するため、Claude（Coworkモード）で両者を自動集約するHTMLインタラクティブなTODOリストを作成。平日毎朝9時に更新され、活用方法や工夫を紹介する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-03T11:21:39.000Z",
-      "contentHash": "12b27ee241ee"
-    },
-    {
-      "id": "5c52b3578d1f",
-      "title": "GigaViewer の配信基盤を支えるマルチテナントアーキテクチャ | Hatena Developer Blog",
-      "url": "https://developer.hatenastaff.com/entry/2026/04/03/200000",
-      "summary": "GigaViewerは、サービス別CDNのサイロと共通のロードバランサ／nginxプールを組み合わせたブリッジ型マルチテナント設計を採用。Terraformで標準化し、急増するトラフィックの平滑化と運用コスト削減を実現。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-03T11:00:00.000Z",
-      "contentHash": "61f82853455f"
-    },
-    {
-      "id": "a4aa765b8ed2",
-      "title": "Critics say EU risks ceding control of its tech laws under U.S. pressure",
-      "url": "https://www.politico.eu/article/fatal-decision-eu-slammed-for-caving-to-us-pressure-on-digital-rules/",
-      "summary": "欧州委員会が米国とのデジタル規則「対話」を検討。委は規則は交渉対象でないと主張するが、議員らはDSA・DMAの執行を米側に譲る“屈服”で企業と民主主義に致命的影響になると強く批判。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-03T10:58:51.000Z",
-      "contentHash": "27e79eb7c3bb"
-    },
-    {
-      "id": "f59fc86bb989",
-      "title": "認定スクラムマスターになりました！ | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/certified-scrum-master-achievement/",
-      "summary": "アシスタントEimiが認定スクラムマスター（CSM）を取得。スクラムの役割や短いスプリントでの開発を解説。Attractorの3日間オンライン研修（22万円、会社負担）で実践的なワークが多く、初心者でも理解でき、コミュニケーションの重要性を実感した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-03T10:27:00.000Z",
-      "contentHash": "7b7d06220d3f"
-    },
-    {
-      "id": "96b3fdf0af3c",
-      "title": "クラウドエンジニア、次の一手をどう打つ？キャリアを広げる3つの方向性 | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/04/03/190000",
-      "summary": "クラウドエンジニア向けのキャリア指南。市場は「広くて深い」ため、深化・横展開・影響範囲拡大の三方向で次を考える。資格集めや流行追随、アウトプット不足、一人完結は陥りやすい。対策として資格の戦略的活用、継続的な発信、社内越境などの実践を勧める。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-03T10:00:00.000Z",
-      "contentHash": "c83d1f865ad8"
-    },
-    {
-      "id": "e4afd22d1f29",
-      "title": "2026年4月技術イベント予定 | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/04/03/184000",
-      "summary": "Sansanは技術イベントや勉強会の主催・登壇・協賛を行っています。各イベントの詳細はリンク先で確認してください。開催状況により受付終了の場合や、掲載情報が公開当時のままの場合があります。最新情報は各イベントページを参照してください。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-03T09:40:00.000Z",
-      "contentHash": "1961c74f7d76"
     }
   ]
 }
