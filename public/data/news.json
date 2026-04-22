@@ -1,6 +1,267 @@
 {
-  "generatedAt": "2026-04-21T17:27:38.217Z",
+  "generatedAt": "2026-04-22T03:34:50.807Z",
   "items": [
+    {
+      "id": "1801289644e3",
+      "title": "外形監視がIPv6に対応しました ほか10件のアップデート | Mackerel ブログ #mackerelio",
+      "url": "https://mackerel.io/ja/blog/entry/weekly/20260422",
+      "summary": "外形監視がIPv6対応。外形監視の取得失敗をグラフで「途切れ」表示し、Cookie/TLS/証明書チェックを厳格化。ロール画面で単位表示、APM通知でサービス選択可、差分表示保持、SAMLセッション期限対応、mkrに--quiet追加などの改善とGWのサポート休業案内。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T02:57:34.000Z",
+      "contentHash": "f4d8921d6aab"
+    },
+    {
+      "id": "8c5bdbdd1929",
+      "title": "【技術書典20】200冊が完売! 執筆陣のこだわりが詰まった「Aiming Tech Book Vol.6」制作の裏側 | Aiming 開発者ブログ",
+      "url": "https://developer.aiming-inc.com/misc/post-13409/",
+      "summary": "Aimingは技術書典20でゴールドスポンサー参加し、現役エンジニア執筆の168ページ技術書「Aiming Tech Book Vol.6」200冊を配布即完。特大B1チラシで集客し、GitHubや執筆ガイド等で執筆環境を改善、期日内完成。電子版は無料DL可、採用も呼びかけ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T02:44:45.000Z",
+      "contentHash": "0e13ba6c6bbd"
+    },
+    {
+      "id": "b1c80c9b6145",
+      "title": "AI-nativeなテストフレームワーク Tsumiki を試してみた | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/9d50273309bccd",
+      "summary": "クラスメソッド提供のAI支援TDDフレームワーク「Tsumiki」。Claude向けのAITDD（仕様ファースト・テストファースト・品質重視）で要件定義から実装までAIが支援。kairo/tdd/revコマンドを備え、検証ではGitHub Copilotで時計表示機能を作成した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T02:34:35.000Z",
+      "contentHash": "a44f9e5cb2c8"
+    },
+    {
+      "id": "5534bc3a5744",
+      "title": "Playwright移行を自律化。Claude Codeで実現するマルチエージェント設計 | エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/2026/04/22/112049",
+      "summary": "mablのE2EテストをClaude CodeでPlaywrightへ自律リプレース。6つのサブエージェントと.claude/CLAUDE.mdでcommands/agents/skills/hooksを設計し、仕様作成→実装→テスト→レビューの自律ワークフローを構築。人的マネジメント手法の適用が成功要因。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T02:20:49.000Z",
+      "contentHash": "1de2c52e1e06"
+    },
+    {
+      "id": "7682e013652b",
+      "title": "Docker Desktopがストレージ容量を圧迫する | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/4e7d57bb0cc5dc",
+      "summary": "Docker Desktopの仮想ディスク（docker_data.vhdxやext4.vhdx）が数百GBになりCドライブを圧迫。アプリ一覧に反映されない。対処は不要リソース削除（docker system prune -a等）と、wsl --shutdown後にdiskpartで仮想ディスクを読み取り接続→compact vdisk→detachしてファイルを縮小すること。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T02:20:49.000Z",
+      "contentHash": "884dc63265a6"
+    },
+    {
+      "id": "a438da93c7a8",
+      "title": "LaravelのCVE修正diffで学ぶWebセキュリティ 第2回：入力値と暗号の落とし穴（A04・A05） | コドモン Product Team Blog",
+      "url": "https://tech.codmon.com/entry/2026/04/22/111437",
+      "summary": "Laravelの過去CVE差分でA04（暗号）とA05（注入）の落とし穴を解説。例としてCVE-2017-14775のremember_meで===比較がタイミング攻撃を招く問題を挙げ、定時間比較や最新版への更新を推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T02:14:37.000Z",
+      "contentHash": "a5cbd95b0a0e"
+    },
+    {
+      "id": "079d71bec521",
+      "title": "技術の総合格闘技でプロセスをハックする！ニーリーの「サクセスエンジニア」がFDEっぽくて面白い | Nealle Developer's Blog",
+      "url": "https://nealle-dev.hatenablog.com/entry/2026/04/22/110943",
+      "summary": "ニーリーの「サクセスエンジニア」は、急成長と高いオペレーション重要度から生まれた社内向けのエンジニア職。顧客対応は行わず、ツール開発やAI・ノーコード等を駆使して業務を定量化・設計・実装・定着させ、プロセスをハックして事業貢献する。Park Directの公開業務自動化が実例。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T02:09:43.000Z",
+      "contentHash": "38aa5e2d76b6"
+    },
+    {
+      "id": "80efe4fce33b",
+      "title": "継続的な負荷テスト環境をBASEに構築しました 〜 第2回: 負荷生成ツールの構築と運用 | BASEプロダクトチームブログ",
+      "url": "https://devblog.thebase.in/entry/2026/04/22/110000",
+      "summary": "BASEの継続的負荷試験環境第2回。ツール比較の結果、Web UIや分散実行、学習コストからLocustを採用。ECSでMaster/Worker構成にデプロイし、Terraformでインフラをコード管理。30秒でRamp-upし5分間の安定観測でテストを実行。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T02:00:00.000Z",
+      "contentHash": "10e706608879"
+    },
+    {
+      "id": "24dd1ad08556",
+      "title": "構造で読みとき、感情で語る PdMプロダクトナイト【DMM/グッドパッチ/サイバーエージェント】 | DMM Developers Blog",
+      "url": "https://developersblog.dmm.com/entry/2026/04/22/110000",
+      "summary": "DMM/グッドパッチ/サイバーエージェント共催のPdM限定イベント。プロダクトを構造的に分析し偏愛を語る趣旨で、3名が「好き」起点の改善案、UXの独自性、AI時代の一点集中戦略を発表。懇親で議論を深め、ロジックと感情両面で価値を再考した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T02:00:00.000Z",
+      "contentHash": "c7cd0610606e"
+    },
+    {
+      "id": "0596c5c652fe",
+      "title": "AIは「正解」を知っているが「作法」は経験者に学んだ。Webエンジニアが挑んだWindowsアプリ開発 | KAKEHASHI Tech Blog",
+      "url": "https://kakehashi-dev.hatenablog.com/entry/2026/04/22/110000",
+      "summary": "Webフロント出身の著者が未経験でWindowsアプリ開発を一人目エンジニアとして担当。AIで素早く試作して要件確認を進めつつ、設計判断や配布などWebとの文化差は経験者と協働して学び、AI出力を実践的な経験に落とし込む必要があった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T02:00:00.000Z",
+      "contentHash": "b6145a6e3545"
+    },
+    {
+      "id": "a177fff60855",
+      "title": "San Diego rents declined more than 19 of 20 top US markets after surge in supply",
+      "url": "https://www.kpbs.org/news/economy/2026/03/27/san-diego-rents-declined-more-than-19-of-nations-top-20-markets-following-surge-in-supply",
+      "summary": "KPBSは、供給の急増を受けサンディエゴの家賃が主要20市場の中で19％超下落したと報道。供給増で賃貸市場が緩和し、空室増や借り手の交渉余地拡大が生じている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-22T01:21:09.000Z",
+      "contentHash": "222498d33e5f"
+    },
+    {
+      "id": "079ebc091ea3",
+      "title": "I'm Sick of AI Everything",
+      "url": "https://news.ycombinator.com/item?id=47857461",
+      "summary": "以前Facebookをやめたが、今はAIにも我慢できず、ブラウザレベルでAI関連を一切ブロックしてほしいと考えている、という意見。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-22T01:19:30.000Z",
+      "contentHash": "57d9b77d7729"
+    },
+    {
+      "id": "72604df34136",
+      "title": "SpaceX cuts a deal to maybe buy Cursor for $60 billion",
+      "url": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
+      "summary": "スペースXがAIコーディング企業Cursorを60Bドルで買収するか、10Bドルを支払うという異例の契約を発表。IPO前の布石でxAIの競争力強化を狙うもので、報道を受け同社が確認した。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T22:45:37.000Z",
+      "contentHash": "17c7aaa3ec4d"
+    },
+    {
+      "id": "3d5b915d4448",
+      "title": "SpaceX says it has agreement to acquire Cursor for $60B",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion",
+      "summary": "スペースXはAI企業Cursorを約600億ドルで買収する合意に達したと発表。ロケット外のAI・ソフト分野への大規模な進出で、関連企業や投資家に影響を与える可能性がある。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-21T22:40:46.000Z",
+      "contentHash": "cc8e0d5e6af7"
+    },
+    {
+      "id": "835b4edbbdf8",
+      "title": "SpaceX says it has agreement to acquire Cursor for $60B",
+      "url": "https://twitter.com/spacex/status/2046713419978453374",
+      "summary": "直接リンク先を開けないため、記事本文か主要抜粋を貼ってください。複数記事とHNコメントをまとめて、指定の200文字以内で要約します。要約のトーン（中立・批判的など）があれば教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-21T22:13:18.000Z",
+      "contentHash": "8001176563f1"
+    },
+    {
+      "id": "3e4c4390e7d7",
+      "title": "We translated the Palantir manifesto for actual human beings",
+      "url": "https://www.theverge.com/policy/915237/palantir-manifesto",
+      "summary": "パランティアCEOアレックス・カープの22項目要約は不穏で反動的だとThe Vergeが指摘。記事はその「マニフェスト」を平易に翻訳・解説し、企業の思想的危険性を批判している。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T21:06:21.000Z",
+      "contentHash": "f398485c5116"
+    },
+    {
+      "id": "6b9b406af152",
+      "title": "Claude Code to be removed from Anthropic's Pro plan?",
+      "url": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
+      "summary": "外部リンクに直接アクセスできないため、本文やスクリーンショット、主要ポイントを貼ってください。貼っていただければ200文字以内で要約します。ツイートとHN議論のどちらも要約希望かも教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-21T21:03:04.000Z",
+      "contentHash": "47da5d60ea85"
+    },
+    {
+      "id": "57afc559e7d2",
+      "title": "AI×ゲームの現在地がわかる記事と作品まとめ",
+      "url": "https://note.com/npaka/n/ncde6fd2958d2",
+      "summary": "ゲームとAIの融合が次の転換点にあり、定型は未確立で作り手・遊び手が新しい遊びを模索中。GFSやJSAI等の論考と、清水亮のAIゲームセンターやInstantale、対話型AIバディなどの実作をまとめて紹介。",
+      "source": "npaka",
+      "publishedAt": "2026-04-21T20:57:39.000Z",
+      "contentHash": "979dee0e65db"
+    },
+    {
+      "id": "8da7f8536aed",
+      "title": "California has more money than projected after admin miscalculated state budget",
+      "url": "https://www.kcra.com/article/california-more-money-than-projected-newsom-miscalculated-budget/71056376",
+      "summary": "カリフォルニア州で当初の収入予測を誤り、ニューサム知事の予算見積りより実際の歳入が多いことが判明。結果的に想定外の黒字が発生し、支出配分や財政計画の見直しと政治的批判を招いている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-21T20:28:57.000Z",
+      "contentHash": "9d73c71bf979"
+    },
+    {
+      "id": "fc9e0955bd50",
+      "title": "I don't want your PRs anymore",
+      "url": "https://dpc.pw/posts/i-dont-want-your-prs-anymore/",
+      "summary": "あるOSSメンテナーがPR受け入れ方針を変更。意図不明・大規模・スタイル変更のPRは受けず、まずIssueで議論し、仕様合意・小さな差分・テスト付きの貢献のみを歓迎する旨を説明。メンテナ負担軽減と明確な寄稿ルールの提案。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-21T20:21:40.000Z",
+      "contentHash": "8de7c4dc9275"
+    },
+    {
+      "id": "023c342b7d5c",
+      "title": "ISS astronauts are getting new laptops",
+      "url": "https://www.theverge.com/science/916300/nasa-iss-computer-upgrades-hp-zbook-fury-g9",
+      "summary": "NASAはISS第74次遠征クルー向けにHPのZBook Fury G9（G9モバイルワークステーション）を新ノートに選定。まずネットワークサーバを交換し、続いて新機を稼働。クリス・ウィリアムズが機材を開梱した。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T20:12:02.000Z",
+      "contentHash": "dc67c326c5f2"
+    },
+    {
+      "id": "3c542b7946ce",
+      "title": "Tim Cook was an innovator — just not the Jobs kind",
+      "url": "https://www.theverge.com/tech/916172/tim-cook-apple-legacy-supply-chain-ceo",
+      "summary": "ジョブズが製品革新を牽引したのに対し、ティム・クックは徹底した最適化でアップルを高収益かつ予測可能な企業に変えた。クックの手法はジョブズ型の革新とは異なり、後継にジョン・ターナスが就任する。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T19:15:00.000Z",
+      "contentHash": "21bab97de730"
+    },
+    {
+      "id": "869a3c8de8fb",
+      "title": "AI backlash is coming for elections",
+      "url": "https://www.theverge.com/policy/916210/ai-midterm-elections-data-centers-jobs",
+      "summary": "米国でAIへの不安が拡大し、データセンター反対やSNSでの激しい怒りが生じる一方、世論は60％超が規制や開発抑制を支持。しかし中間選挙での影響はまだ不透明。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T19:00:05.000Z",
+      "contentHash": "b45af04a8c85"
+    },
+    {
+      "id": "32b8b8063174",
+      "title": "OpenAI’s updated image generator can now pull information from the web",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/916166/openai-chatgpt-images-2",
+      "summary": "OpenAIはGPT Image 2搭載のChatGPT Images 2.0を公開。ウェブ検索で情報を取り込み、一つのプロンプトから最大8枚を生成。指示遵守や細部保持、テキスト生成、ファイルからの図解作成が可能で、Plus/Pro/Business/Enterprise向け。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T19:00:00.000Z",
+      "contentHash": "3884597f9c25"
+    },
+    {
+      "id": "d148c51f9554",
+      "title": "ChatGPT Images 2.0",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+      "summary": "外部サイトを直接参照できないため、要約対象の記事本文か完全なURLを貼ってください。ライブ配信・システムカード・HNコメントのどれを要約するかも教えてください。200文字以内でまとめます。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-21T18:50:00.000Z",
+      "contentHash": "6aa9b3d0bae6"
+    },
+    {
+      "id": "96cb59abd769",
+      "title": "Framework’s Laptop 13 Pro launch event",
+      "url": "https://www.theverge.com/gadgets/916168/framework-next-gen-laptop-13-pro-event",
+      "summary": "Frameworkがサンフランシスコで新型Laptop 13 Proを発表。モジュール式・修理可能で初のアルミ削り出し筐体、「Linuxユーザー向けMacBook Pro」を標榜。ソファ用キーボードやTyvek製スリーブ（$39）も披露。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T18:41:08.000Z",
+      "contentHash": "f7338041010b"
+    },
+    {
+      "id": "074aea563f4d",
+      "title": "X makes it 1,900 percent more expensive to post links",
+      "url": "https://www.theverge.com/tech/916178/x-link-post-api-expensive-techmeme",
+      "summary": "XがAPI経由のURL投稿料金を1件0.01ドルから0.20ドル（1900%増）に引き上げ。サードパーティやニュース媒体に負担、リンクがリーチを下げる懸念やNieman Labの調査、Nate Silverとの論争も影響している。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T18:27:18.000Z",
+      "contentHash": "b917ecdf683b"
+    },
+    {
+      "id": "4c04030175d7",
+      "title": "Framework announces Laptop 13 Pro, ‘the MacBook Pro for Linux users’",
+      "url": "https://www.theverge.com/gadgets/915508/framework-announces-laptop-13-pro-the-macbook-pro-for-linux-users",
+      "summary": "Frameworkが新型Laptop 13 Proを発表。従来の「拡張性・修理性は高いがバッテリや筐体品質が課題」を改善し、6000系アルミ削り出し筐体、ハプティックトラックパッド、13.5型3:2 2.8K可変リフレッシュなどを搭載。Linuxユーザー向けの“MacBook Pro”を標榜。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T18:08:00.000Z",
+      "contentHash": "bee981a4031e"
+    },
+    {
+      "id": "74696e9c78c1",
+      "title": "Framework’s first eGPUs turn its laptop into a desktop PC",
+      "url": "https://www.theverge.com/gadgets/915328/framework-oculink-egpu-dev-kit-laptop-16",
+      "summary": "Frameworkが外付けGPU対応を発表。OCuLink Dev KitでLaptop 16のGPUモジュールを外付け化、またはデスクトップGPUや他のPCIeカードをPCIe x8で接続可能。Thunderboltではなく、電源オフでの抜き差しが必要な上級者向け。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-21T18:07:24.000Z",
+      "contentHash": "70aa9842461b"
+    },
     {
       "id": "79e4b56c8d57",
       "title": "Wearable health tech might be Tim Cook’s greatest legacy ",
@@ -572,10 +833,10 @@
       "id": "5f9b51c4ad52",
       "title": "Chronicle の概要",
       "url": "https://note.com/npaka/n/n242bb3fc6e91",
-      "summary": "ChronicleはmacOS版ChatGPT Proのオプトイン機能で、画面の表示を使いCodexの記憶を補完して作業理解を向上します。画面録画・アクセシビリティ権限が必要でEU等未対応。機密露出、暗号化未保存、レート制限やプロンプト挿入のリスクがあり、一時停止や無効化が可能です。",
+      "summary": "ChronicleはmacOS版ChatGPT Proのオプトインプレビューで、画面キャプチャを使いCodexのメモリを補完して作業コンテキストを自動取得します。権限付与が必要で、レート消費や未暗号化保存などのプライバシーリスクがあります。",
       "source": "npaka",
       "publishedAt": "2026-04-20T22:00:03.000Z",
-      "contentHash": "f5469de35667"
+      "contentHash": "2a722848ab01"
     },
     {
       "id": "c7ff8577b1fe",
@@ -1643,10 +1904,10 @@
       "id": "f3cc72e92e3d",
       "title": "π 0.7 の概要",
       "url": "https://note.com/npaka/n/n7382d3820960",
-      "summary": "Physical Intelligenceのπ0.7は、品質や制御モード・視覚サブゴールなどをプロンプト化して多様な経験を整理・学習する「操作可能」ロボット基盤モデル。言語コーチングで未学習タスクを合成的に遂行し、異なる機体間でもスキル転移を示した。",
+      "summary": "Physical Intelligenceの新モデル「π 0.7」は、作業方法や品質、制御モード、視覚サブゴールなどのメタ情報を利用して学習し、未学習タスクへの合成的一般化や異形ロボットへの移転、言語コーチングでの自律化を示した。データ量より多様性の整理が鍵。",
       "source": "npaka",
       "publishedAt": "2026-04-18T01:35:52.000Z",
-      "contentHash": "10e8e5c887c2"
+      "contentHash": "69df888f97c4"
     },
     {
       "id": "15b0a746f097",
@@ -8739,267 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-05T12:43:47.000Z",
       "contentHash": "3ac26b436fc0"
-    },
-    {
-      "id": "bbe32922d92b",
-      "title": "How the Amazon Echo learned to talk — and listen",
-      "url": "https://www.theverge.com/podcast/907146/amazon-echo-alexa-version-history",
-      "summary": "ジェフベゾスが望んだ音声コンピュータ実現を目指し、アマゾンのチームが苦闘してエコーとアレクサを生み出した経緯と、意外なヒットとその後の複雑な歩みを語る回。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-05T12:24:45.000Z",
-      "contentHash": "7c3f09fbe185"
-    },
-    {
-      "id": "9571bb9eb612",
-      "title": "Grammarly’s sloppelganger saga",
-      "url": "https://www.theverge.com/column/906606/grammarly-expert-review-ai-saga",
-      "summary": "GrammarlyがAIで生成した「専門家レビュー」が利用者や専門家から不評を買い、信頼性や倫理面で問題視されたとThe Vergeが報じた。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-05T12:00:00.000Z",
-      "contentHash": "3a8a7fe809aa"
-    },
-    {
-      "id": "7da3ad5fa0c8",
-      "title": "Ubuntu now requires more RAM than Windows 11",
-      "url": "https://www.howtogeek.com/ubuntu-now-requires-more-ram-than-windows-11/",
-      "summary": "Ubuntu 26.04 LTS（Resolute Raccoon）は最低メモリ要件を4GBから6GBに引き上げ、2GHzデュアルコア等の新基準を導入。軽量OSのイメージから現代的な性能重視へ移行し、これでWindows 11より多い最低RAMを要求する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-05T11:57:25.000Z",
-      "contentHash": "0013a8bc0b5c"
-    },
-    {
-      "id": "fd55a753529b",
-      "title": "My Google Workspace account suspension",
-      "url": "https://zencapital.substack.com/p/sad-story-of-my-google-workspace",
-      "summary": "著者のGoogle Workspaceが突如凍結・削除され、メールやファイルが失われた。有償契約でも事務的な対応しか得られず復旧不可。ベンダーロックインの危険を指摘し、定期的なバックアップや代替手段への移行を勧める内容。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-05T11:48:13.000Z",
-      "contentHash": "923574ba4dc8"
-    },
-    {
-      "id": "cf9da614aa52",
-      "title": "Claude Code更新 Computer Use CLI・powerup・ultraplan【3/29〜4/4】 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/04/05/190000",
-      "summary": "サーバーワークスの池田が3/29〜4/4のClaude Code（v2.1.86→v2.1.92）更新を紹介。DesktopのComputer UseがCLI対応しターミナルからmacOSネイティブアプリ操作が可能に。/powerup等の対話型チュートリアル追加や権限設定の解説を含む。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-05T10:00:00.000Z",
-      "contentHash": "a0e4397c1f20"
-    },
-    {
-      "id": "8836de03529e",
-      "title": "The threat is comfortable drift toward not understanding what you're doing",
-      "url": "https://ergosphere.blog/posts/the-machines-are-fine/",
-      "summary": "新任助教がAliceとBobという二人の博士学生に解ける課題を与え、文献再現と週次指導で基本技術やトラブル対応を教えながら育てる過程。夏までに両者とも堅実な論文を完成し、目的は研究者を育てること。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-05T09:57:25.000Z",
-      "contentHash": "820df0a80600"
-    },
-    {
-      "id": "d77a71ce1883",
-      "title": "Agentic Coding時代のデータ分析環境： marimo + gokartで高速かつ再現性あるEDAを実現しよう | エムスリーテックブログ",
-      "url": "https://www.m3tech.blog/entry/agentic-eda",
-      "summary": "AI・機械学習チームのMLエンジニア髙橋によるブログリレー5日目の記事。データ分析のコーディングをAIエージェントに任せる実践を紹介し、デモではJupyter Notebookが短時間で整うが、実務でのClaude Code運用には課題があると指摘している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-05T09:30:00.000Z",
-      "contentHash": "e95bc1fa6947"
-    },
-    {
-      "id": "bac657e60ae0",
-      "title": "A Claude Code skill that makes Claude talk like a caveman, cutting token use",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "summary": "Claude/Codex用の「caveman」プラグイン。説明を原始人風に端的にして冗長語を削り、技術用語・コード・エラーメッセージは正確に保ちつつトークンを約75%削減。/caveman等で起動、停止コマンドあり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-05T08:56:18.000Z",
-      "contentHash": "2119c3128286"
-    },
-    {
-      "id": "de53c498f58c",
-      "title": "Lisette a little language inspired by Rust that compiles to Go",
-      "url": "https://lisette.run/",
-      "summary": "代数的データ型・パターンマッチ・nil排除、Hindley–Milner型システムでデフォルト不変。Goと相互運用可能で構文はRust似。実行時問題をコンパイル時に検出し理解しやすいGoへコンパイル。github.com/ivov/lisette、MIT、©2026 Iván Ovejero",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-05T06:57:19.000Z",
-      "contentHash": "bbd15272458f"
-    },
-    {
-      "id": "c0ce29332f6d",
-      "title": "Introduction to Computer Music (2009) [pdf]",
-      "url": "https://composerprogrammer.com/introductiontocomputermusic.pdf",
-      "summary": "コンピュータ音楽の入門。デジタル音声の基礎（サンプリング・量子化）、合成法（加算・減算・FM・グラニュラー・物理モデリング）、MIDI/DAW、信号処理やプログラミング環境（SuperCollider等）、アルゴリズム作曲と実践的リソースを概説。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-05T01:54:29.000Z",
-      "contentHash": "3dc78c902dc2"
-    },
-    {
-      "id": "62d6e74da3e5",
-      "title": "画像付きのバグチケット起票を楽にするコスト安のSlack AI Botを作ってみた | Money Forward Developersのフィード",
-      "url": "https://zenn.dev/moneyforward/articles/e7cc10c1301673",
-      "summary": "テスト時のバグ起票を簡素化するSlack向けAIボットを開発。スレッドの会話と画像をAmazon Bedrockで解析してJIRAにチケット作成・更新・完了を実行。Lambda＋SQS構成でDBは使わずメタデータはSlackに保持。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-05T01:40:27.000Z",
-      "contentHash": "63eb40953f64"
-    },
-    {
-      "id": "8ddeb3304ec8",
-      "title": "【Microsoft Agent Frameork】- FoundryAgentの権限エラーについて | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/13d75027fd900c",
-      "summary": "Microsoft Agent Frameworkのサンプル実行でAzureのOpenAI API呼び出し（Microsoft.CognitiveServices/.../responses/write）が拒否されるエラーが発生。原因はRBAC不足。対処法は実行主体にMicrosoft FoundryでCognitive Services OpenAI User（推論用最小権限）またはContributor（モデル管理含む）を付与すること。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-05T01:24:43.000Z",
-      "contentHash": "9115b2da6f0f"
-    },
-    {
-      "id": "315074d20300",
-      "title": "Shooting down ideas is not a skill",
-      "url": "https://scottlawsonbc.com/post/shooting-down-ideas",
-      "summary": "会議で新案を即否定するのは簡単だが価値を生まない。批判はミス防止にはなるが保存的で、創造的価値を作るのは想像と勇気で提案する行為だけ。善意の火消しも多い。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-05T00:42:42.000Z",
-      "contentHash": "ba2e7057d533"
-    },
-    {
-      "id": "420a48de75db",
-      "title": "AWS engineer reports PostgreSQL perf halved by Linux 7.0, fix may not be easy",
-      "url": "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop",
-      "summary": "AmazonのエンジニアがLinux 7.0でPostgreSQLのスループットが約半減したと報告。原因はプリエンプション制限でユーザ空間のスピンロック滞留増加。PREEMPT_NONE復活案は不確実で、RSEQ対応をPostgreSQL側に求める案が出ている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-05T00:13:55.000Z",
-      "contentHash": "70ef037b0887"
-    },
-    {
-      "id": "e733ce4237af",
-      "title": "Nvim-treesitter (13K+ Stars) is Archived",
-      "url": "https://github.com/nvim-treesitter/nvim-treesitter/discussions/8627",
-      "summary": "nvim-treesitterは2026年4月3日にアーカイブされ読み取り専用に。リリースがほとんど無い点が問題視され、v0.12でv0.11サポートを即時打ち切った変更やパーサ更新の負担への不満が議論されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-04T23:39:44.000Z",
-      "contentHash": "d7cc56d18f7d"
-    },
-    {
-      "id": "be17167c7878",
-      "title": "German implementation of eIDAS will require an Apple/Google account to function",
-      "url": "https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/",
-      "summary": "ウォレットの認証手段はPIDと鍵で結び付けられ、WBがKey Attestationで鍵管理を確認。ISO/IEC18045やEU規制に基づき高い攻撃耐性が求められ、複製・改竄や不正利用防止のためRWSCD/HSMなどの評価・認証済み実装が必要。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-04T22:57:44.000Z",
-      "contentHash": "99e2ed1238ca"
-    },
-    {
-      "id": "ae79274a9fed",
-      "title": "How many products does Microsoft have named 'Copilot'?",
-      "url": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
-      "summary": "筆者はMicrosoftの「Copilot」名義の製品を全て洗い出し、少なくとも75種類を確認。アプリや機能、プラットフォーム、キーやノートPC分類まで含み、公式一覧がないため公開情報を集めてカテゴリ別の対話式可視化を作成した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-04T19:39:43.000Z",
-      "contentHash": "350ff37f8a3f"
-    },
-    {
-      "id": "88d1f8f187df",
-      "title": "Iranian missile blitz takes down AWS data centers in Bahrain and Dubai",
-      "url": "https://www.tomshardware.com/tech-industry/iranian-missile-blitz-takes-down-aws-data-centers-in-bahrain-and-dubai-amazon-declares-hard-down-status-for-multiple-zones",
-      "summary": "申し訳ありませんが、外部リンクを直接参照できません。記事本文をここに貼っていただければ、200文字以内で日本語に要約します。記事中の要点（誰が、何を、いつ、どこで、影響は）を教えていただいても対応できます。どちらがよろしいですか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-04T18:23:55.000Z",
-      "contentHash": "550a8dde2d65"
-    },
-    {
-      "id": "b9dce4b09f76",
-      "title": "Scientists observe an immune signaling complex forming inside cells",
-      "url": "https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research",
-      "summary": "リンク先に直接アクセスできないため、記事本文をここに貼っていただけますか？または要点（重要な段落や見出し）を教えていただければ、200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-04T17:52:55.000Z",
-      "contentHash": "7a2b1b3cb043"
-    },
-    {
-      "id": "16a592df6647",
-      "title": "A folk musician became a target for AI fakes and a copyright troll",
-      "url": "https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright",
-      "summary": "フォーク歌手マーフィー・キャンベルはパブリックドメインの民謡を演奏しているのに、AI生成の偽音源や著作権トロールに狙われ、YouTubeが著作権主張を受理。著作権制度の欠陥が浮き彫りに。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-04T17:52:10.000Z",
-      "contentHash": "def336e0cf28"
-    },
-    {
-      "id": "91fc906a9943",
-      "title": "LLM Wiki – example of an \"idea file\"",
-      "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
-      "summary": "LLM Wikiは、RAGのように都度文書を検索するのではなく、LLMがマークダウンの持続的な相互参照ウィキを構築・更新して重要情報を抽出・統合、矛盾を記録し知識を蓄積する仕組み。利用者は資料提供と質問を行い、LLMが維持管理する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-04T16:57:45.000Z",
-      "contentHash": "9360bd10704d"
-    },
-    {
-      "id": "18c6fc83ba6e",
-      "title": "Why the most valuable things you know are things you cannot say",
-      "url": "https://deadneurons.substack.com/p/why-the-most-valuable-things-you",
-      "summary": "記事は、最も価値ある仕事は顧客に見えない内部設計や自動化、信頼性、ドキュメント、人材育成などであり、短期の可視成果で軽視されがちだと指摘。見えない価値を測り伝え、文化と報酬を整える重要性を説く。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-04T16:49:40.000Z",
-      "contentHash": "6d0be110cf04"
-    },
-    {
-      "id": "8d794ebe7144",
-      "title": "Show HN: A game where you build a GPU",
-      "url": "https://jaso1024.com/mvidia/",
-      "summary": "GPUアーキテクチャの資料が不足していると感じた投稿者が、参考資料をまとめて公開した投稿。Hacker Newsで支持を集め（526ポイント、138コメント）、活発な議論が起きている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-04T16:45:54.000Z",
-      "contentHash": "7cc9594a8150"
-    },
-    {
-      "id": "752cb4d590dd",
-      "title": "12k AI-generated blog posts added in a single commit",
-      "url": "https://github.com/OneUptime/blog/commit/30cd2384794c897d95aca77d173db44af51ca849",
-      "summary": "OneUptimeのブログにClickHouse、Redis、MongoDB、MySQL、Rook/Ceph、Daprなどを含む12,000件の投稿を追加。Todo.mdの項目（SQL関数、設定ガイド、トラブルシューティング、アーキ比較、SDK、オペレータ展開）を完了し、Blogs.jsonとCodeValidate.jsonを更新。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-04T16:45:31.000Z",
-      "contentHash": "bf191f4547ee"
-    },
-    {
-      "id": "6535f65e3170",
-      "title": "Apple approves driver that lets Nvidia eGPUs work with Arm Macs",
-      "url": "https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs",
-      "summary": "Tiny Corpが開発した、Arm（Apple Silicon）MacでNVIDIA/AMDの外部GPUを動かすドライバがAppleに署名され承認された。ただしNvidia製ではなくTiny製でLLM向け、Dockerでのビルドが必要でプラグアンドプレイ不可。SIP解除は不要。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-04T16:16:10.000Z",
-      "contentHash": "ab349ba64ee1"
-    },
-    {
-      "id": "20872d5c2882",
-      "title": "German men 18-45 need military permit for extended stays abroad",
-      "url": "https://www.dw.com/en/german-men-need-military-permit-for-extended-stays-abroad/a-76662677",
-      "summary": "ドイツで徴兵対象の男性が長期の海外滞在をする際、事前に軍当局の許可が必要になったことを報じる。政府は動員準備や管理目的と説明する一方、差別的で留学・就労に負担を強いると批判が出ている、という内容。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-04T15:39:10.000Z",
-      "contentHash": "06e08de8e601"
-    },
-    {
-      "id": "6c13f2a33f37",
-      "title": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens",
-      "url": "https://sllm.cloud",
-      "summary": "DeepSeek V3（685B）は8×H100で約月$14k。多くは15–25 tok/sで足りる。sllmは専用ノードを共同利用するコホート方式でカードで予約、コホートが埋まるまで課金なし。小型モデルは月$5〜。通信ログを残さず完全プライベート。APIはOpenAI互換（vLLM）でURLを差し替えるだけ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-04T15:18:58.000Z",
-      "contentHash": "30970664e8a8"
-    },
-    {
-      "id": "b7f40be3788a",
-      "title": "Buy two Nintendo Switch games, get $30 off at Target",
-      "url": "https://www.theverge.com/gadgets/906843/nintendo-switch-2-game-sale-target-circle-deal",
-      "summary": "TargetがTarget Circle会員向けに、対象のNintendo Switch／Switch 2ゲームを2本購入すると合計から$30オフになるセールを実施中（要サインイン・無料）。対象は物理・デジタル合わせて224本、米東部時間4月5日2:59AMまで。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-04T15:00:00.000Z",
-      "contentHash": "989477aa96a9"
-    },
-    {
-      "id": "0b88aa99d00a",
-      "title": "Author of \"Careless People\" banned from saying anything negative about Meta",
-      "url": "https://www.thetimes.com/uk/technology-uk/article/sarah-wynn-williams-careless-people-meta-nrffdfpmf",
-      "summary": "Metaが元政策ディレクター、サラ・ウィン＝ウィリアムズの告発本『Careless People』について米仲裁で差し止め・宣伝禁止を認め、彼女を黙殺した。書は性的嫌がらせ、未成年操作、検閲共謀などを暴露し、出版社は同社の対応がその主張を裏付けると訴える。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-04T14:48:26.000Z",
-      "contentHash": "8667fd73de09"
     }
   ]
 }
