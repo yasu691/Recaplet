@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2026-04-22T03:34:50.807Z",
+  "generatedAt": "2026-04-22T09:43:15.380Z",
   "items": [
+    {
+      "id": "db01c4dc4eb8",
+      "title": "Anthropic’s most dangerous AI model just fell into the wrong hands",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/916501/anthropic-mythos-unauthorized-users-access-security",
+      "summary": "Anthropicのサイバー用AI「Mythos」が、第三者契約者のアクセスとネット捜査でDiscordの少人数グループに約2週間不正流出。Mythosは主要OS／ブラウザの脆弱性を特定・悪用可能で、正式利用は一部大手企業と政府に限定される。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-22T09:18:40.000Z",
+      "contentHash": "e7cf921410db"
+    },
+    {
+      "id": "6b29e5548c14",
+      "title": "VSCodeリリースノートで追うGitHub Copilot進化史 (v1.86 → v1.116) | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/efbb71c684d0a0",
+      "summary": "VS Code v1.86〜v1.116の公開ノートを追い、GitHub Copilotが「補完」→「編集」→「自律エージェント」へと変貌した経緯を整理。2024年H1のインラインチャット基盤から2026年の本体組込みまで、5つの転換期（UI・編集自律性・MCP・モデル・ガバナンスの進化）で解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T06:05:55.000Z",
+      "contentHash": "c1671f2e70bc"
+    },
+    {
+      "id": "450d189145ef",
+      "title": "マルチアカウント運用をしているプロジェクトのCDKのバージョンアップの際にValidationErrorが出た時の対応メモ | Fusic 技術ブログのフィード",
+      "url": "https://zenn.dev/fusic/articles/a83f6e8a8f30d6",
+      "summary": "CDKを2.118→2.221へ更新した際、synthで「クロス環境参照には物理名を明示 or PhysicalName.GENERATE_IF_NEEDEDを使用せよ」というValidationErrorが発生。対策はroleNameに cdk.PhysicalName.GENERATE_IF_NEEDED を設定することで解決（同環境はCloudFormation任せ、クロス参照時のみCDKが物理名を固定）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T06:02:08.000Z",
+      "contentHash": "ddfe56edbf84"
+    },
+    {
+      "id": "976cdd0f4e69",
+      "title": "[UE5]TopDownテンプレートのバリアントオプション「Strategy」を改造して遊んでみよう！ | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/56406/",
+      "summary": "関連ブログ更新：UE技術サポートの案内（2026/04/16）、Unreal Engineエンタープライズライセンス「Unreal Subscription」販売開始（2026/04/16）、UE5 BlueprintのVectorノードまとめその1・基本編（2026/04/15）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T06:00:54.000Z",
+      "contentHash": "8ad1cc86ea1c"
+    },
+    {
+      "id": "f9ea6b2a7883",
+      "title": "ウォーターフォール型プロジェクトでのPM業務を、スクラムの役割にマッピングして整理 | Raccoon Tech Blog [株式会社ラクーンホールディングス 技術戦略部ブログ]",
+      "url": "https://techblog.raccoon.ne.jp/archives/1776836819.html",
+      "summary": "BtoB決済サービスPaidの長谷川氏が、ウォーターフォールでのPM業務をスクラムの各役割（PO/SM/開発チーム等）に対応づけて整理し、「PMの仕事は誰がやるのか」を解説する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T05:46:59.000Z",
+      "contentHash": "a87f4b94fbc4"
+    },
+    {
+      "id": "a91e93741dea",
+      "title": "Cloud Identity FreeとGoogle Workspace ゲストアカウントの違い | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/cloud-identity-free-vs-googleworkspace-guest-accounts/",
+      "summary": "2026年3月発表（4月一般展開）のGoogle Workspaceゲストアカウントは、Workspace未利用の外部ユーザーを招待元テナント内に自動作成しChat/Drive/Meetで共同作業可能（個人マイドライブ不可）。Cloud Identity Freeは別のIdaaSでディレクトリ等を提供。記事は両者の設計・機能差と導入ポイントを比較。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T05:28:00.000Z",
+      "contentHash": "b7bb22e80c55"
+    },
+    {
+      "id": "b7d864cbd5ba",
+      "title": "DockerでEC2にintdash建ててみた | aptpod Tech Blog",
+      "url": "https://tech.aptpod.co.jp/entry/2026/04/22/140000",
+      "summary": "開発・検証向けにEC2上でDocker化したintdashサーバー構築手順を解説。AWS CDK/CloudFormationでインフラ自動化し、Docker ComposeでAPI/DB同居、SSL・ドメイン・ライセンス設定やログ・接続・負荷検証まで説明。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T05:00:00.000Z",
+      "contentHash": "0e46852f38fc"
+    },
+    {
+      "id": "157fff92b2a6",
+      "title": "新卒エンジニアがフルリモートで働いて2年が経った | SO Technologies 開発者ブログ",
+      "url": "https://developer.so-tech.co.jp/entry/2026/04/22/133809",
+      "summary": "24新卒のバックエンドエンジニアが入社以来フルリモートで2年。Slackやバーチャルオフィス、レビューや朝会で不安は解消。課題は自主性・自己管理・孤独感で、10分悩んだら質問、言語化して相談。ポモドーロ・散歩・筋トレで調整している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T04:38:09.000Z",
+      "contentHash": "19ed246d0c57"
+    },
+    {
+      "id": "4d15e8f78296",
+      "title": "ローカル環境を占有しない並列開発 | コドモン Product Team Blog",
+      "url": "https://tech.codmon.com/entry/2026/04/22/130442",
+      "summary": "GitHub Copilotのクラウドエージェントでローカルを占有せず並列開発。テスト作成はcopilot、SQL集約はClaude Codeで実施。利点はプロンプト保存・ローカル負荷や承認待ち解消、欠点はクラウド構築の必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T04:04:42.000Z",
+      "contentHash": "9558bd64609b"
+    },
+    {
+      "id": "f4cea5b2c831",
+      "title": "try! Swift Tokyo 2026に参加しました | Hatena Developer Blog",
+      "url": "https://developer.hatenastaff.com/entry/2026/04/22/130000",
+      "summary": "try! Swift Tokyo 2026に参加。立川ステージガーデンの雰囲気と多言語コミュニティが印象的。iOS Private PlaygroundsでのプライベートAPI活用や、構造化コンテキストでAIにXCUITestコード生成させる手法が特に印象に残った。幅広いセッションと交流で刺激を受け、英語力向上を課題に感じた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T04:00:00.000Z",
+      "contentHash": "5ab9911b8fba"
+    },
+    {
+      "id": "f71d2481a98c",
+      "title": "Intune エンドポイント特権管理 (EPM) 入門 - 最小権限運用の第一歩 | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/34a3617f/",
+      "summary": "IntuneのEPMはローカル管理者権限を剥奪しつつ、必要時に.exe/.msi/.ps1を一時昇格して実行可能にする機能。昇格設定・昇格ルール・レポートで管理・監査でき、専用ライセンスや対応OS、Entra参加、SSL復号除外などの前提や制限があり、ネットワーク共有やマップドライブ上は昇格対象外です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-22T03:20:00.000Z",
+      "contentHash": "267031471363"
+    },
     {
       "id": "1801289644e3",
       "title": "外形監視がIPv6に対応しました ほか10件のアップデート | Mackerel ブログ #mackerelio",
@@ -9,6 +108,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-22T02:57:34.000Z",
       "contentHash": "f4d8921d6aab"
+    },
+    {
+      "id": "a103e32bc471",
+      "title": "FBI looks into dead or missing scientists tied to NASA, Blue Origin, SpaceX",
+      "url": "https://fortune.com/2026/04/21/scientists-disappear-die-nasa-space-blue-origin-spacex/",
+      "summary": "2022年以降、NASAやSpaceX・Blue Originに関係する核・宇宙防衛の研究者ら少なくとも11人が死亡または行方不明に。下院監視委がFBI・エネルギー省・国防省・NASAへ説明を要求し、国家安全保障上の脅威を懸念。政府も事態を認識している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-22T02:49:40.000Z",
+      "contentHash": "4bccdd37a7eb"
     },
     {
       "id": "8c5bdbdd1929",
@@ -93,21 +201,30 @@
     },
     {
       "id": "a177fff60855",
-      "title": "San Diego rents declined more than 19 of 20 top US markets after surge in supply",
+      "title": "San Diego rents declined following surge in supply",
       "url": "https://www.kpbs.org/news/economy/2026/03/27/san-diego-rents-declined-more-than-19-of-nations-top-20-markets-following-surge-in-supply",
-      "summary": "KPBSは、供給の急増を受けサンディエゴの家賃が主要20市場の中で19％超下落したと報道。供給増で賃貸市場が緩和し、空室増や借り手の交渉余地拡大が生じている。",
+      "summary": "サンディエゴの家賃が1ベッドで5.6％、2ベッドで7.5％下落。賃貸リスティングが約15％増え供給が拡大したため、上位20都市中19都市より下落が大きく、新規許可は年間約1万件に近づいている。",
       "source": "Hacker News",
       "publishedAt": "2026-04-22T01:21:09.000Z",
-      "contentHash": "222498d33e5f"
+      "contentHash": "a4761e5f3e0f"
     },
     {
       "id": "079ebc091ea3",
-      "title": "I'm Sick of AI Everything",
+      "title": "Tell HN: I'm sick of AI everything",
       "url": "https://news.ycombinator.com/item?id=47857461",
-      "summary": "以前Facebookをやめたが、今はAIにも我慢できず、ブラウザレベルでAI関連を一切ブロックしてほしいと考えている、という意見。",
+      "summary": "ツールは有用だが企業は冷静に。AIは既存の組織的ボトルネックを増幅するため、導入前に組織課題を先に解決しヘッジすべき。ドットコム崩壊の実例や、投機資金で実態と株価が乖離しバブルが続く危険性も指摘される。",
       "source": "Hacker News",
       "publishedAt": "2026-04-22T01:19:30.000Z",
-      "contentHash": "57d9b77d7729"
+      "contentHash": "b77f3fbe1d1e"
+    },
+    {
+      "id": "b0e66a5d4747",
+      "title": "Drunk post: Things I've learned as a senior engineer (2021)",
+      "url": "https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as",
+      "summary": "申し訳ありませんが、外部のウェブページに直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で日本語要約を作成します。本文が長ければ主要段落や抜粋でも構いません。あるいはHNの議論からの要約でもよければその旨を教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-21T23:53:45.000Z",
+      "contentHash": "65e4a7e722c9"
     },
     {
       "id": "72604df34136",
@@ -122,19 +239,28 @@
       "id": "3d5b915d4448",
       "title": "SpaceX says it has agreement to acquire Cursor for $60B",
       "url": "https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion",
-      "summary": "スペースXはAI企業Cursorを約600億ドルで買収する合意に達したと発表。ロケット外のAI・ソフト分野への大規模な進出で、関連企業や投資家に影響を与える可能性がある。",
+      "summary": "SpaceXがCursorを600億ドルで買収する合意に達したと発表。買収の狙いや条件、業界への影響などについて記事で報じられている。",
       "source": "Hacker News",
       "publishedAt": "2026-04-21T22:40:46.000Z",
-      "contentHash": "cc8e0d5e6af7"
+      "contentHash": "d1a1078dd071"
+    },
+    {
+      "id": "ff6cad7a3796",
+      "title": "SpaceX strikes deal with Cursor for $60B",
+      "url": "https://www.nytimes.com/2026/04/21/business/spacex-cursor-deal.html",
+      "summary": "SpaceXはコード生成AIを手がけるスタートアップCursorと契約し、今年後半に600億ドルで買収するオプションを取得した。マスク率いる同社はAI強化を掲げ上場準備を進めている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-21T22:27:17.000Z",
+      "contentHash": "18e342c57147"
     },
     {
       "id": "835b4edbbdf8",
       "title": "SpaceX says it has agreement to acquire Cursor for $60B",
       "url": "https://twitter.com/spacex/status/2046713419978453374",
-      "summary": "直接リンク先を開けないため、記事本文か主要抜粋を貼ってください。複数記事とHNコメントをまとめて、指定の200文字以内で要約します。要約のトーン（中立・批判的など）があれば教えてください。",
+      "summary": "申し訳ありませんが、外部リンク先のページに直接アクセスできません。記事本文を貼っていただくか、主要ポイントを教えてください。いただければ200字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-04-21T22:13:18.000Z",
-      "contentHash": "8001176563f1"
+      "contentHash": "cd9d18e1f752"
     },
     {
       "id": "3e4c4390e7d7",
@@ -149,28 +275,28 @@
       "id": "6b9b406af152",
       "title": "Claude Code to be removed from Anthropic's Pro plan?",
       "url": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
-      "summary": "外部リンクに直接アクセスできないため、本文やスクリーンショット、主要ポイントを貼ってください。貼っていただければ200文字以内で要約します。ツイートとHN議論のどちらも要約希望かも教えてください。",
+      "summary": "申し訳ありませんが、外部リンク先の内容を直接開けません。記事やツイート本文、要点をここに貼っていただければ、200文字以内で日本語要約を作成します。HNの議論もまとめたい場合は、そのコメントの抜粋を貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2026-04-21T21:03:04.000Z",
-      "contentHash": "47da5d60ea85"
+      "contentHash": "1059a71f2290"
     },
     {
       "id": "57afc559e7d2",
       "title": "AI×ゲームの現在地がわかる記事と作品まとめ",
       "url": "https://note.com/npaka/n/ncde6fd2958d2",
-      "summary": "ゲームとAIの融合が次の転換点にあり、定型は未確立で作り手・遊び手が新しい遊びを模索中。GFSやJSAI等の論考と、清水亮のAIゲームセンターやInstantale、対話型AIバディなどの実作をまとめて紹介。",
+      "summary": "「ゲーム×AI」の現状を解説する記事と作品をまとめた紹介。AI導入による新しい体験や講演・研究事例を取り上げ、InstantaleやAIゲームセンター、おしゃべりスラミィ等の具体作も紹介。",
       "source": "npaka",
       "publishedAt": "2026-04-21T20:57:39.000Z",
-      "contentHash": "979dee0e65db"
+      "contentHash": "df0bcbcdf4e0"
     },
     {
       "id": "8da7f8536aed",
       "title": "California has more money than projected after admin miscalculated state budget",
       "url": "https://www.kcra.com/article/california-more-money-than-projected-newsom-miscalculated-budget/71056376",
-      "summary": "カリフォルニア州で当初の収入予測を誤り、ニューサム知事の予算見積りより実際の歳入が多いことが判明。結果的に想定外の黒字が発生し、支出配分や財政計画の見直しと政治的批判を招いている。",
+      "summary": "カリフォルニア州で、ニューサム知事の予算作成時にCalPERS関連の約20億ドルの会計誤算が判明し、州の資金が想定より多く、当初の約29億ドルの不足見込みが縮む可能性が出た。議会には2月に通知済みで、財務局は来月改訂予算に反映すると回答。LAOが確認。",
       "source": "Hacker News",
       "publishedAt": "2026-04-21T20:28:57.000Z",
-      "contentHash": "9d73c71bf979"
+      "contentHash": "bc4fa6193a23"
     },
     {
       "id": "fc9e0955bd50",
@@ -833,10 +959,10 @@
       "id": "5f9b51c4ad52",
       "title": "Chronicle の概要",
       "url": "https://note.com/npaka/n/n242bb3fc6e91",
-      "summary": "ChronicleはmacOS版ChatGPT Proのオプトインプレビューで、画面キャプチャを使いCodexのメモリを補完して作業コンテキストを自動取得します。権限付与が必要で、レート消費や未暗号化保存などのプライバシーリスクがあります。",
+      "summary": "ChronicleはmacOS版ChatGPT Proのオプトインプレビューで、画面のコンテキストを使いCodexのメモリを補完して説明を省略化する機能。画面録画・アクセシビリティ権限が必要で、レート制限を消費し暗号化されない記憶保存やプライバシーリスクがある。EU・英国・スイスでは未提供。",
       "source": "npaka",
       "publishedAt": "2026-04-20T22:00:03.000Z",
-      "contentHash": "2a722848ab01"
+      "contentHash": "1fcb21b8dbe6"
     },
     {
       "id": "c7ff8577b1fe",
@@ -1922,10 +2048,10 @@
       "id": "479708d12e90",
       "title": "GR00T N1.7 の概要",
       "url": "https://note.com/npaka/n/n9708bb211fd1",
-      "summary": "NVIDIAのIsaac GR00T N1.7は、3Bパラのオープンかつ商用利用可能なVLAで、画像と言語から連続的なロボット動作を生成。Action Cascade（VLM＋Diffusion）構成で指先制御も対応。2万時間超の一人称動画で事前学習し、データ増加で器用さが予測可能に向上するスケーリング則を発見。Hugging Face/GitHubで公開、現場導入可能。",
+      "summary": "NVIDIAのIsaac GR00T N1.7は、ヒューマノイド向けのオープンな「視覚・言語・行動（VLA）」推論モデルで、マルチモーダル理解と行動指示を強化し、ロボットの自律動作開発と実装を加速することを目的としています。",
       "source": "npaka",
       "publishedAt": "2026-04-17T22:37:55.000Z",
-      "contentHash": "81aba1b701ca"
+      "contentHash": "3aafd62c91c9"
     },
     {
       "id": "2633356a602d",
@@ -8874,132 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-06T01:00:00.000Z",
       "contentHash": "372ee65d6fce"
-    },
-    {
-      "id": "ba6dfd5b7eb3",
-      "title": "「同じグループにこんな人がいたんだ」── 動画クリエイターの横のつながりを作った話 | GMO Developers",
-      "url": "https://developers.gmo.jp/technology/81621/",
-      "summary": "GMOインターネットグループ映像領域エキスパートの加藤優真による自己紹介。GMOインターネット（ドメイン・クラウド事業本部クリエイティブ）での普段の業務や、前回記事の読者への挨拶を述べる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-06T01:00:00.000Z",
-      "contentHash": "9a4afc729884"
-    },
-    {
-      "id": "179169ec3c61",
-      "title": "Copilot CLIとGitHub Actionsで実現する、アンビエントエージェントの作り方 | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n82c72a394ac5",
-      "summary": "Copilot CLIをGitHub Actions上で動かし、自然言語から自律的にタスクをこなすアンビエントエージェントの作り方を解説。導入手順、AI推論用(COPILOT_GITHUB_TOKEN)と操作用(GITHUB_TOKEN)の役割分担、既存CI/CD拡張やMCP活用について説明。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-06T01:00:00.000Z",
-      "contentHash": "37e30107c7dd"
-    },
-    {
-      "id": "6eb6d4d8af84",
-      "title": "Amazon LinuxでTransit Gateway Connectと接続してみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/04/06/093755",
-      "summary": "Amazon Linux 2023上でfrrを使い、仮想アプライアンス不要でAWS Transit Gateway Connectに接続する手順。TGW Connectアタッチメントとピア（TGW/ピアGREアドレス、BGP CIDR、ASN）作成→TGWルート伝播設定→EC2で送信元/送信先チェック停止、SGでGRE許可、SPAL有効化後frrをインストールし低コストで検証可能。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-06T00:37:55.000Z",
-      "contentHash": "0fce5ab1275c"
-    },
-    {
-      "id": "b46bc24de32c",
-      "title": "Copilot StudioでWork IQ MCPを利用する - Work IQ Word | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/04/06/093654",
-      "summary": "Copilot StudioからWork IQ MCPを利用し、Work IQ Wordを検証。エージェント作成→ツール追加・接続設定後、ドキュメント作成、内容取得、コメント作成・返信をテスト。2026年3月時点はプレビュー。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-06T00:36:54.000Z",
-      "contentHash": "9fbd9f5b6cf3"
-    },
-    {
-      "id": "bbbd24bfc030",
-      "title": "BigQueryにおけるクエリ管理手法の解説 | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/bigquery-query-management-methods",
-      "summary": "BigQueryのクエリ管理手法3種（保存済みクエリ、スケジュールされたクエリ、BigQueryパイプライン）を解説。各手法の保存場所、利点（バージョン管理や共有、定期実行等）と確認方法を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-06T00:00:00.000Z",
-      "contentHash": "f132d291ec08"
-    },
-    {
-      "id": "01d02eec9389",
-      "title": "Los Thuthanaka’s Wak&#8217;a is a mellower follow-up to last year’s surprise Pitchfork favorite",
-      "url": "https://www.theverge.com/entertainment/907174/los-thuthanaka-waka-review",
-      "summary": "Los Thuthanakaは昨年Pitchforkで意外な年間1位を獲得した独特な爆音×民族サウンドで注目。新EP「Wak'a」はテンポを落とし、割れたスピーカー音やボリビア伝統楽器のサンプリングで、アイマラ族の「最初の夜明け」伝説を3曲で穏やかに表現している。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-05T18:30:00.000Z",
-      "contentHash": "1467f8a06ee9"
-    },
-    {
-      "id": "22bfdeb3cce6",
-      "title": "Suno is a music copyright nightmare",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers",
-      "summary": "AI音楽プラットフォームSunoは著作権禁止を謳う一方で、Beyoncé風の楽曲を簡単に生成・大量作成でき、配信を氾濫させて著作権管理やアーティスト保護に重大な問題を生む。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-05T16:00:00.000Z",
-      "contentHash": "362fafa31408"
-    },
-    {
-      "id": "680333714732",
-      "title": "Artemis II crew see first glimpse of far side of Moon [video]",
-      "url": "https://www.bbc.com/news/videos/ce3d5gkd2geo",
-      "summary": "NASAのアルテミスII乗組員（ワイズマン、グローバー、コッホ、ハンセン）がオリオンで月の裏側を初観測。オリエンタレ盆地を撮影し、人類の目で全景が初めて確認されたと報告。地球から約18万マイル離脱。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-05T14:18:12.000Z",
-      "contentHash": "03666bb76bd3"
-    },
-    {
-      "id": "7be922b96c0e",
-      "title": "I let Gemini in Google Maps plan my day and it went surprisingly well",
-      "url": "https://www.theverge.com/tech/907015/gemini-google-maps-hands-on",
-      "summary": "Googleの生成AI「Gemini」がMapsに導入されたため、レビュアーのAllison Johnsonが一日の行程を任せて試したところ、意外にうまく機能し、危険な指示（川に入るなど）は出なかった、という報告。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-05T14:00:00.000Z",
-      "contentHash": "69a149f5a89c"
-    },
-    {
-      "id": "621a2382395b",
-      "title": "秋葉原ロボットほこ天 2026 まとめ",
-      "url": "https://note.com/npaka/n/na67555d47f79",
-      "summary": "2026年4月5日、秋葉原UDXで「秋葉原ロボットほこ天2026」開催。企業ブースやロボットパレード、デモ・体験多数（DigiKey、JLCPCB、ugoRobot、ABEJA等）。重量搬送や踊るロボ、操縦体験で大盛況、入場無料。",
-      "source": "npaka",
-      "publishedAt": "2026-04-05T13:36:20.000Z",
-      "contentHash": "6e5dd142f531"
-    },
-    {
-      "id": "145aa752a569",
-      "title": "Someone at BrowserStack Is Leaking Users' Email Address",
-      "url": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/",
-      "summary": "著者がBrowserStackで利用者のメールアドレスが外部に漏洩している疑いを報告。証拠や解析を示し、影響範囲と同社の対応を問いかける内容。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-05T13:14:38.000Z",
-      "contentHash": "34eae570d578"
-    },
-    {
-      "id": "17f24c52926e",
-      "title": "Finnish sauna heat exposure induces stronger immune cell than cytokine responses",
-      "url": "https://www.tandfonline.com/doi/full/10.1080/23328940.2026.2645467#abstract",
-      "summary": "外部リンク先を直接参照できないため要約できません。本文か要旨を貼っていただければ、200文字以内で日本語要約します。必要ならHNコメントも含めます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-05T13:14:36.000Z",
-      "contentHash": "62877c9332cb"
-    },
-    {
-      "id": "fc19e2b963b8",
-      "title": "Is the Slate Truck too minimal for its own good?",
-      "url": "https://www.theverge.com/transportation/905947/slate-truck-ev-minimal-range-size-interior-design",
-      "summary": "Slateの二人乗り電動ピックアップを紹介。塗装やラジオ、パワーウィンドウ、携帯接続まで排した極端なミニマル設計が実用性を疑問視させ、誰に向けた車かを問いかける記事。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-05T13:00:00.000Z",
-      "contentHash": "e2872aac747a"
-    },
-    {
-      "id": "181a10d9da3f",
-      "title": "Eight years of wanting, three months of building with AI",
-      "url": "https://lalitm.com/post/building-syntaqlite-ai/",
-      "summary": "著者は8年間高品質なSQLite向け開発ツールを望み、約250時間をかけ3か月でsyntaqliteを公開。AIコーディングエージェントの助けで完成し、AIの利点と欠点を実例で検証。背景はPerfettoの拡張SQL需要。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-05T12:43:47.000Z",
-      "contentHash": "3ac26b436fc0"
     }
   ]
 }
