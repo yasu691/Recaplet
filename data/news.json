@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2026-04-27T03:53:46.918Z",
+  "generatedAt": "2026-04-27T10:43:01.847Z",
   "items": [
+    {
+      "id": "a92569d0f905",
+      "title": "This touchscreen mouse is my over-engineering nightmare",
+      "url": "https://www.theverge.com/gadgets/918919/turtle-beach-mc7-gaming-mouse-touchscreen-command-series",
+      "summary": "Turtle Beachの無線ゲーミングマウスCommand Series MC7は左側に2.25インチのタッチディスプレイを搭載。Stream Deckのようにマクロやアプリ、OBS操作を割り当てできる一方、親指で誤操作しやすく過剰設計だという指摘がある。価格は160ドル。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-27T10:10:30.000Z",
+      "contentHash": "1d73ba2cb29d"
+    },
+    {
+      "id": "6568dbacd5e4",
+      "title": "レンティオエンジニアでRubyKaigi 2026に参加しました | Rentio Tech Blogさんのフィード",
+      "url": "https://zenn.dev/rentio/articles/rubykaigi-2026-report",
+      "summary": "レンティオの太田です。2026年4月22〜24日に開催されたRubyKaigi 2026にエンジニア2名で参加し、今年もスポンサーとしてノベルティ配布を行いました。実装や設計意図に触れられる貴重な場でした。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-27T08:40:01.000Z",
+      "contentHash": "1da1c49709db"
+    },
+    {
+      "id": "09543d1e90be",
+      "title": "Claude Code に AWS コストを PR 上で試算させる | MNTSQ Techブログ",
+      "url": "https://tech.mntsq.co.jp/entry/2026/04/27/173830",
+      "summary": "AWS上のマルチテナント環境をTerraformで管理する中で、ECSタスクのCPU/メモリ変更を安全に運用する手順を紹介。インフラ／アプリ両リポジトリの変更点、Reusable/Caller構成への移行、運用例とコスト影響の扱いを解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-27T08:38:30.000Z",
+      "contentHash": "f4870f510d46"
+    },
+    {
+      "id": "8932608f7567",
+      "title": "Ruby: その正規表現の書き方は間違っている（翻訳） | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_04_27/157204",
+      "summary": "Zil Norvilisの英語記事（2026/03/10）を翻訳公開。正規表現の誤用を指摘し、Rubyの隠れた機能を活用した正しい書き方と注意点を解説する指南記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-27T08:30:08.000Z",
+      "contentHash": "7dccd380f25a"
+    },
+    {
+      "id": "97efab798174",
+      "title": "AI業務活用 STEP 2：プロセスの標準化 ― AIに「どう考えるか」という手順を教える | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n3ec74cb1f449",
+      "summary": "株式会社SHIFTの能力開発部で検定や教育制度を開発している林稔明（りんりん）です。社員が現場で活躍できるよう、業務や作業を分解し人の行動を分析して能力・スキル向上に取り組んでいます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-27T08:20:20.000Z",
+      "contentHash": "269a925d0840"
+    },
+    {
+      "id": "3b6817b4cd8f",
+      "title": "AI業務活用 STEP 1：アウトプットの標準化 ―「良いゴール」を定義する | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n65473ccc9c0f",
+      "summary": "株式会社SHIFTの能力開発部で検定や教育制度を開発している林稔明（りんりん）です。社員が現場で活躍できるよう、能力・スキル向上のため業務を分解したり行動を分析したりしています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-27T08:15:06.000Z",
+      "contentHash": "269a925d0840"
+    },
+    {
+      "id": "323f52dde29c",
+      "title": "大規模Railsアプリを支える「バックエンド委員会」とRuby YJIT導入によるパフォーマンス改善 | freee Developers Hub",
+      "url": "https://developers.freee.co.jp/entry/backend-committee-and-ruby-yjit",
+      "summary": "フリーのエンジニアyassyとkenzaが2026年1月30日のfreee Tech Nightで登壇。14年運用の大規模Ruby on Rails製品「freee会計」を健全に進化させるバックエンド委員会の活動と、YJIT導入の詳細を解説しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-27T08:00:00.000Z",
+      "contentHash": "3a746ae7b1b5"
+    },
+    {
+      "id": "bef75adc47b6",
+      "title": "GitHub CLIで自作のエージェントスキルを発行する | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2026/04/27/165935",
+      "summary": "GitHub CLI v2.90.0の gh skill でCopilot向けスキルの検索・発行・インストールが簡単に。著者は gh skill publishで自作スキルを公開し、タグ作成・リリース・Immutable releases設定など発行手順と、gh skill installで対象エージェントやスコープを選んで導入する流れを解説。従来のクローン方式より管理が効率化。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-27T07:59:35.000Z",
+      "contentHash": "f3b2cee63f2c"
+    },
+    {
+      "id": "7db103298c6d",
+      "title": "AI業務活用 STEP 0：AIリテラシーよりも重要な「本質課題」の言語化能力 | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n444389938b16",
+      "summary": "株式会社SHIFTの能力開発部で検定や教育制度を開発している林稔明（りんりん）です。社員が現場で活躍できるよう、業務を分解して行動を分析し、能力・スキル向上に取り組んでいます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-27T07:52:26.000Z",
+      "contentHash": "269a925d0840"
+    },
     {
       "id": "2a343cca7cd3",
       "title": "感情表現研修を経て得たスキル | 株式会社Polestar-ID エンジニアブログ",
@@ -29,6 +110,15 @@
       "contentHash": "124894e5fb70"
     },
     {
+      "id": "30616e1d8eef",
+      "title": "The Prompt API",
+      "url": "https://developer.chrome.com/docs/ai/prompt-api",
+      "summary": "外部サイトへ直接アクセスできないため、記事本文を貼っていただくか要約してほしい箇所（記事のみ／HNコメントも含める）を教えてください。本文をいただければ200文字以内で日本語要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-27T02:18:58.000Z",
+      "contentHash": "12327a50d85f"
+    },
+    {
       "id": "612575010f9a",
       "title": "ITフリーランス向けサイト「レバテックフリーランス」にて、当ブログが紹介されました | COLOPL Tech Blog",
       "url": "https://blog.colopl.dev/entry/2026/04/27/111032",
@@ -47,6 +137,15 @@
       "contentHash": "a5b8bb7c9d4a"
     },
     {
+      "id": "09e2cb758220",
+      "title": "TurboQuant: A first-principles walkthrough",
+      "url": "https://arkaung.github.io/interactive-turboquant/",
+      "summary": "TurboQuantは高次元AIベクトルをランダム回転で各座標を既知分布に変え、共通の符号語帳で2–4ビットに量子化しほぼ最適な歪みで圧縮。スケール因子不要、学習や補正も不要でKVキャッシュや埋め込みに適用可能。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-27T01:54:32.000Z",
+      "contentHash": "bb74189f1ef8"
+    },
+    {
       "id": "ace74e9c0ee7",
       "title": "【前編】SECCON 14 電脳会議 イベントレポート｜「横のつながり」で深まる、ホワイトハッカーの連帯感 | GMO Developers",
       "url": "https://developers.gmo.jp/technology/81860/",
@@ -54,6 +153,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-27T01:40:57.000Z",
       "contentHash": "ce7891668099"
+    },
+    {
+      "id": "88b1142b19f7",
+      "title": "Google banks on AI edge to catch up to cloud rivals Amazon and Microsoft",
+      "url": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
+      "summary": "外部サイトに直接アクセスできないため、リンク先を読むことができません。記事本文をここに貼るか、主要な段落や要点を送ってください。いただければ200文字以内で日本語要約を作成します。コメント欄の要約希望ならその旨も教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-27T00:34:30.000Z",
+      "contentHash": "03bf30ea7925"
     },
     {
       "id": "4f38294d736c",
@@ -68,19 +176,28 @@
       "id": "df77b7274789",
       "title": "Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race",
       "url": "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo",
-      "summary": "ロンドンマラソンでケニアのセバスチャン・サウェが競技大会で初の2時間切りを達成、1:59:30で優勝。デビューのヨミフ・ケジェルチャも1:59:41で2位、ジャコブ・キプリモは2:00:28で3位。旧記録はケプトゥム2:00:35。女子はティグスト・アセファが女子大会記録更新。",
+      "summary": "ロンドンマラソンでセバスチャン・サウェが競技大会で初めてサブ2時間を達成し1:59:30で優勝。ハーフ通過1:00:29から後半加速。デビューのヨミフ・ケジェルチャが1:59:41で2位、ジェイコブ・キプリモは2:00:28で3位。女子はティグスト・アセファが女子レース限定の世界新で連覇。",
       "source": "Hacker News",
       "publishedAt": "2026-04-26T20:56:30.000Z",
-      "contentHash": "da447946cf08"
+      "contentHash": "621e5fcbecba"
     },
     {
       "id": "35225f68cc26",
       "title": "I bought Friendster for $30k – Here's what I'm doing with it",
       "url": "https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d",
-      "summary": "外部URLには直接アクセスできません。記事本文を貼っていただければ、200文字以内で日本語要約します。Hacker Newsのコメントも含めるか教えてください。",
+      "summary": "著者が3万ドルでFriendsterの権利を買収。取得経緯を語り、過去データやノスタルジーの保存、コミュニティ再構築、実験的プロダクト展開と収益化方針、法務・技術課題への対応を説明しています。",
       "source": "Hacker News",
       "publishedAt": "2026-04-26T20:41:06.000Z",
-      "contentHash": "882ecb899f70"
+      "contentHash": "7379e91356b1"
+    },
+    {
+      "id": "b5e92edef6c4",
+      "title": "Fast16: High-precision software sabotage 5 years before Stuxnet",
+      "url": "https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/",
+      "summary": "SentinelLABSは2005年のサイバー破壊フレームワーク「fast16」を発見。メモリ上で高精度計算ソフトのコードを改変し、自己伝播で施設全体に誤算を広げる攻撃。Stuxnetより5年前で、Lua VM組込みを特徴、ShadowBrokers漏洩にも言及。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-26T20:18:37.000Z",
+      "contentHash": "30d66b46b37f"
     },
     {
       "id": "61c0ebef1413",
@@ -90,6 +207,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-26T20:03:12.000Z",
       "contentHash": "f7fddc73e92f"
+    },
+    {
+      "id": "83129b2d7f3c",
+      "title": "If you stop hiring juniors, your senior engineers own you",
+      "url": "https://evalcode.com/posts/if-you-stop-hiring-juniors-your-seniors-own-you/",
+      "summary": "ジュニア採用をやめると人材育成と後継パイプラインが枯渇し、シニアが待遇や意思決定で優位に立ちやすくなる。ジュニアは給与リスクの保険であり、AIの進化はあっても採用継続が不可欠だ、という主張。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-26T20:01:59.000Z",
+      "contentHash": "fdd334d7455e"
     },
     {
       "id": "d27a7d210399",
@@ -203,10 +329,10 @@
       "id": "35cf0190f0fd",
       "title": "Isaac Sim で TurtleBot3 の操作を試す",
       "url": "https://note.com/npaka/n/n632f456cd232",
-      "summary": "Isaac Sim 5.11でTurtleBot3のURDFをxacroで処理してインポートし、物理シミュレーションを実行。車輪をVelocityに設定して接地を確認。Action GraphでOn Playback Tick、ROS2 Context、cmd_vel購読や単位変換（Scale）を組み、ROS2経由でTurtleBot3を制御する手順をまとめた。",
+      "summary": "Isaac Sim 5.11でTurtleBot3のURDFをxacroで前処理してインポートし、車輪をVelocityに設定して物理シミュレーションを実行。再生用のAction Graphを作成し、ROS2のcmd_vel購読や単位変換ノードを接続して制御を試した。",
       "source": "npaka",
       "publishedAt": "2026-04-26T10:21:28.000Z",
-      "contentHash": "cbdc20452446"
+      "contentHash": "e21f32358729"
     },
     {
       "id": "8464db21e6d1",
@@ -1238,10 +1364,10 @@
       "id": "eddb3ddd6fc0",
       "title": "Codexのアップデート - GPT-5.5対応・ブラウザ操作・自動承認レビュー",
       "url": "https://note.com/npaka/n/n5feb1f18b961",
-      "summary": "CodexがGPT-5.5対応（高度なコーディング・デバッグ・調査向け）になり、アプリ内ブラウザを操作して画面を見ながら開発やUI検証が可能に。さらに自動承認レビューで実行前にリスク判定を行い、承認判断を支援します。",
+      "summary": "Codexの4月23日更新で、①新モデルGPT-5.5対応（高度なコーディング・調査向け）、②Codex appからのブラウザ操作対応（画面確認・UI検証可能）、③実行前の自動承認レビュー導入により支援と安全性が強化されました。",
       "source": "npaka",
       "publishedAt": "2026-04-23T22:44:31.000Z",
-      "contentHash": "84daba87cc58"
+      "contentHash": "2dbc4c2df5e2"
     },
     {
       "id": "bd95a5f30967",
@@ -1319,10 +1445,10 @@
       "id": "f10c521b2f4d",
       "title": "GPT-5.5 の概要",
       "url": "https://note.com/npaka/n/n4b5ba0f84b5d",
-      "summary": "OpenAIがGPT-5.5を発表。複雑な目標理解、ツール利用の信頼性、長時間作業の継続力、実務での完成度を強化し、コーディングや調査で高性能。ChatGPT/Codexで提供中、APIは間もなく。",
+      "summary": "OpenAIはGPT-5.5を発表（2026/4/23）。複雑な目標理解、ツール利用の信頼性、長時間作業の粘り強さを強化し、コーディング・調査など実務で高性能。各種ベンチで高得点。ChatGPT/Codexで提供中、APIは間もなく。400Kコンテキスト対応、価格帯も公表。ゲーム制作など実例あり。",
       "source": "npaka",
       "publishedAt": "2026-04-23T20:01:50.000Z",
-      "contentHash": "8096089291f8"
+      "contentHash": "af0f8b2f2240"
     },
     {
       "id": "a74ef27220b7",
@@ -1760,10 +1886,10 @@
       "id": "7e83fb17fc31",
       "title": "CGWORLD にて NVIDIA DGX Spark × Reachy Mini の連載の3回目公開されました",
       "url": "https://note.com/npaka/n/n7110847ae451",
-      "summary": "CGWORLDで「NVIDIA DGX Spark × Reachy Mini」連載第3回が公開。Reachy MiniにGemma4を搭載し、Function Calling精度良好、思考量調整可能、常時カメラ参照、ロールプレイ得意、動作高速と報告。",
+      "summary": "CGWORLDでNVIDIA DGX Spark×Reachy Mini連載第3回公開。Reachy MiniにGemma4を導入し、Function Calling精度良好、思考量調整可、常時カメラ可視、ロールプレイ得意、動作高速。",
       "source": "npaka",
       "publishedAt": "2026-04-23T08:29:56.000Z",
-      "contentHash": "fbb2ba02a5ab"
+      "contentHash": "5a4da07afeb2"
     },
     {
       "id": "a8b4227f060f",
@@ -8874,132 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-09T13:23:50.000Z",
       "contentHash": "6c77a3303fc6"
-    },
-    {
-      "id": "003e8e954b68",
-      "title": "Waymo is offering to help cities fix their potholes",
-      "url": "https://www.theverge.com/transportation/908886/waymo-potholes-cities-data-waze-robotaxi",
-      "summary": "自動運転企業Waymoが、路面の穴（ポットホール）データをWazeと共同で一部都市に提供するパイロットを開始。市当局の要請に応じ、走行の安全性向上と自治体との関係強化を目指す。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-09T13:00:00.000Z",
-      "contentHash": "fca2a8b23533"
-    },
-    {
-      "id": "b1462997a414",
-      "title": "How Pizza Tycoon simulated traffic on a 25 MHz CPU",
-      "url": "https://pizzalegacy.nl/blog/traffic-system.html",
-      "summary": "申し訳ありませんが、外部URLの内容を直接取得できません。記事本文を貼っていただければ、200文字以内で要約します。HNのコメント要約も希望ならその旨お知らせください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-09T12:57:10.000Z",
-      "contentHash": "7a3a0e006f38"
-    },
-    {
-      "id": "bfae47513bda",
-      "title": "Am I German or Autistic?",
-      "url": "https://german.millermanschool.com/",
-      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文を貼っていただければ、200文字以内で要約します。HNのコメントも含めてまとめる希望があれば併せて教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-09T12:52:12.000Z",
-      "contentHash": "da40d71eb4f5"
-    },
-    {
-      "id": "9739a701390d",
-      "title": "Show HN: 41 years sea surface temperature anomalies",
-      "url": "https://ssta.willhelps.org",
-      "summary": "外部リンクに直接アクセスできないため、記事本文をここに貼っていただけますか？全文か主要段落を貼っていただければ、200文字以内の日本語要約を作成します。URLだけでは取得できません。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-09T12:25:57.000Z",
-      "contentHash": "de62e41b2634"
-    },
-    {
-      "id": "e54c2d22d93e",
-      "title": "4月12日 技術書典20 に新刊 『Nano Banana・Grok Imagine・Gemini TTS で始める AIアニメ生成入門』 で参加します",
-      "url": "https://note.com/npaka/n/na85f22deec79",
-      "summary": "4月12日の技術書典20オフラインイベントで、新刊『Nano Banana・Grok Imagine・Gemini TTSで始めるAIアニメ生成入門』を頒布します。作者は技術書執筆やAI/ロボット制作のnpaka。",
-      "source": "npaka",
-      "publishedAt": "2026-04-09T12:24:27.000Z",
-      "contentHash": "db18f8fc70f6"
-    },
-    {
-      "id": "a8fab82fa16a",
-      "title": "Lichess and Take Take Take Sign Cooperation Agreement",
-      "url": "https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy",
-      "summary": "申し訳ありませんが、外部のウェブページに直接アクセスできません。記事本文を貼り付けていただければ、200文字以内で日本語に要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-09T11:56:56.000Z",
-      "contentHash": "3b97bb25fd85"
-    },
-    {
-      "id": "aa1032421b52",
-      "title": "Wit, unker, Git: The lost medieval pronouns of English intimacy",
-      "url": "https://www.bbc.com/future/article/20260408-the-extinct-english-words-for-just-the-two-of-us",
-      "summary": "外部リンクに直接開けないため記事を確認できません。本文を貼っていただければ200字以内で要約します。必要なら見出しから推測した仮要約を示しますか？\n\n仮要約例（160字程度）：\nBBCは「二人だけ」を表す英語の絶滅語を取り上げ、twainなどの古語とその語源、使用例、言語変化でこうした細かな語彙が失われた経緯や文化的意義を解説している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-09T10:10:19.000Z",
-      "contentHash": "e87ae000f408"
-    },
-    {
-      "id": "63da36fe6708",
-      "title": "週刊Cloudflare - 2026/04/05週 | Gemcook Tech Blogのフィード",
-      "url": "https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_0329-0404",
-      "summary": "Cloudflare週次：Wrangler 4.79/4.80でAI SearchのCLIと型生成対応、workflowsに--local/--port追加、autoconfigのバージョン検証強化や各種不具合修正、実験的ヘッドフルブラウザとvpc_networksバインディング追加。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-09T09:32:11.000Z",
-      "contentHash": "696418819460"
-    },
-    {
-      "id": "65f504a7c1ca",
-      "title": "Claude mixes up who said what",
-      "url": "https://dwyer.co.za/static/claude-mixes-up-who-said-what-and-thats-not-ok.html",
-      "summary": "記事はAnthropicのAI「Claude」が発言者を取り違え虚偽の引用を生成する実例を挙げ、名誉毀損や誤情報の危険を指摘。透明性・検証可能な対策と人間による確認の重要性を訴えている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-09T09:25:28.000Z",
-      "contentHash": "327bbfcc0252"
-    },
-    {
-      "id": "8fde7619fa2c",
-      "title": "転職してエクセルファイルを読み解いてHTMLに変換する仕事をしていたが、悪役令嬢は出てこないし、勇者パーティーも追放されなかった話 | アルダグラム Tech Blogのフィード",
-      "url": "https://zenn.dev/aldagram_tech/articles/c472e358412864",
-      "summary": "アルダグラムのテクニカルフェロー（自称）・蓬莱が、Mで始まるGAFAM企業を辞めて入社して半年。今回の話題は「エクセルファイルをアプリでなく人間が読む」ことについての導入で、続きへの誘い。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-09T09:00:13.000Z",
-      "contentHash": "73ef095f25c9"
-    },
-    {
-      "id": "f360152c1cc4",
-      "title": "Microsoft Copilot Studio vs Azure AI Foundry 徹底比較！自社に最適なAI開発ツールはどっち？ | TechHarmony",
-      "url": "https://blog.usize-tech.com/microsoft-copilot-studio-vs-azure-ai-foundry/",
-      "summary": "Copilot Studioはローコードで業務部門が短期間に社内データ連携や自動化を実装できるビジネス向け、Azure AI Foundryは開発者向けのプロコード基盤で高度なカスタマイズと運用に強い。用途で選ぶべき。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-09T08:45:56.000Z",
-      "contentHash": "359070cbb37d"
-    },
-    {
-      "id": "7d6d6a535149",
-      "title": "Claude Codeに伴走してもらう「学習モード」が想像以上によかった話 | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hidechi/2026_04_09/157571",
-      "summary": "Claude Codeの「学習モード」は、コードを丸ごと出さずヒントやTODOでユーザーに実装させる出力スタイル。Default/Explanatory/Learningの3種があり、Insightで技術背景や設計意図を補足。ジュニアの学習や教育に有用で、/configやsettings.jsonで設定可能。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-09T08:30:27.000Z",
-      "contentHash": "21b2ad4ece3b"
-    },
-    {
-      "id": "3df58deb749e",
-      "title": "KubernetesでMySQL自動フェイルオーバーを検証する（Percona Operator＋Orchestrator） | スマートスタイル TECH BLOG",
-      "url": "https://blog.s-style.co.jp/2026/04/15921/",
-      "summary": "Kubernetes上でPercona Operatorの非同期レプリケーション（tech previewで本番非推奨）とOrchestratorを組み合わせ、MySQLの自動フェイルオーバー挙動を検証。導入手順、障害時の自動昇格動作と使用バージョンを示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-09T08:30:19.000Z",
-      "contentHash": "dfb22796d337"
-    },
-    {
-      "id": "839de1a5e97b",
-      "title": "Amflow’s latest e-bikes raise the bar again",
-      "url": "https://www.theverge.com/transportation/909060/amflows-latest-e-bikes-raise-the-bar-again",
-      "summary": "DJI系ブランドAmflowが新型e-MTB「PX（約20kg）」「PR（約22kg）」を発表。Avinox製M2/M2Sモーターで最大1,500W・150Nmを発揮し、パワー・航続距離・軽量性の両立を目指す。カーボンフレームは40通りのジオメトリ、PRは着脱式800Wh搭載。強力な出力はチェーンやギアへの負荷に注意。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-09T08:30:02.000Z",
-      "contentHash": "948ae3126229"
     }
   ]
 }
