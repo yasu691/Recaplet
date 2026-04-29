@@ -1,14 +1,50 @@
 {
-  "generatedAt": "2026-04-29T03:58:30.682Z",
+  "generatedAt": "2026-04-29T10:26:15.457Z",
   "items": [
+    {
+      "id": "f3a59a9b8b19",
+      "title": "GitHub rushed to fix a critical vulnerability in less than six hours",
+      "url": "https://www.theverge.com/news/920295/github-remote-code-execution-vulnerability-fix",
+      "summary": "Wiz ResearchがAIで発見した重大なリモートコード実行脆弱性を、GitHubが40分で再現、原因特定後1時間余りで修正を展開し、github.comや公開・非公開リポジトリ、Enterprise Serverを2時間以内に保護、6時間未満で対応完了。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-29T10:04:25.000Z",
+      "contentHash": "069607a88d51"
+    },
+    {
+      "id": "169506bb8460",
+      "title": "General Motors is adding Gemini to four million cars",
+      "url": "https://www.theverge.com/transportation/920285/general-motors-gm-gemini-ai-update",
+      "summary": "GMが米国の約400万台（2022年以降のGoogle搭載キャデラック、シボレー、ビュイック、GMC）にGoogleのAI「Gemini」を数カ月かけてOTA導入。従来のGoogleアシスタントがメッセージ、ナビ、音楽提案などより賢いAIに強化。併せてSuper Cruiseのハンズフリー走行が10億マイル達成と発表。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-29T09:14:38.000Z",
+      "contentHash": "b4b78137da8c"
+    },
+    {
+      "id": "c5eff5926075",
+      "title": "Isaac Sim の ROS2 Transform Trees と Odometry を試す",
+      "url": "https://note.com/npaka/n/n04d1752d2dd3",
+      "summary": "Isaac Sim 5.1でROS2のTransform TreesとOdometryを実際に試し、設定手順や動作確認、発生した問題点とその対処法をまとめた記事です。",
+      "source": "npaka",
+      "publishedAt": "2026-04-29T06:50:56.000Z",
+      "contentHash": "6096c26fd057"
+    },
+    {
+      "id": "3267244981fa",
+      "title": "[UE5]キャラクター基準でカメラの相対方向を検出する方法 | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/56549/",
+      "summary": "UE5.7で、キャラクター基準にカメラが左右どちらにいるかを判定する方法を解説。キャラクター向けの説明だが、実装自体は汎用的で他の用途にも応用可能です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-29T06:00:16.000Z",
+      "contentHash": "c0fb423d7cfe"
+    },
     {
       "id": "4440fa99ae9c",
       "title": "AWS Batch でテナント間の順番待ちを緩和した話 | DRESS CODE TECH BLOGのフィード",
       "url": "https://zenn.dev/dress_code/articles/aws-batch-fair-share",
-      "summary": "DRESS CODEのAWS Batch（Fargate）基盤で、ある組織の大量ジョブがスロットを独占するNoisy Neighbor問題が発生。キュー分割は上限や資源断片化で非現実的なため、AWS BatchのFair Share Schedulingで公平化して緩和した。",
+      "summary": "Dress Codeのプロダクトエンジニアないとーが、自社製品DRESS CODEを紹介。人事・総務等を横断する業務OSで、CSV等のアップロードをS3→EventBridgeで検知し、AWS Batch on Fargateで非同期にデータ変換・取り込みを行う基盤を解説しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-29T02:00:05.000Z",
-      "contentHash": "041b4e973fd0"
+      "contentHash": "207ce4625829"
     },
     {
       "id": "3c058c8ab609",
@@ -23,10 +59,10 @@
       "id": "960accfa8ca5",
       "title": "LambdaのトリガーをAWSコンソールで見たい | TechHarmony",
       "url": "https://blog.usize-tech.com/aws-iam-policy-lambda-trigger/",
-      "summary": "AWSコンソールでLambdaのSQSトリガーを表示するには、lambda:ListFunctions、lambda:GetFunction/GetFunctionConfiguration、lambda:ListEventSourceMappings、lambda:GetEventSourceMappingに加え、特にlambda:GetPolicyが必須。GetPolicyを付与するとトリガー情報が表示される。生成AIは当初これを見落としていた。",
+      "summary": "春のスキルアップ応援フェア2026（4/29）記事。クラウド担当の藪内が、AWSコンソールでAWS LambdaにAmazon SQSをイベントソースとして設定する手順とポイント、注意点を解説するハンズオン記事。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-29T00:00:09.000Z",
-      "contentHash": "22288f63a2b3"
+      "contentHash": "4e7f615d649d"
     },
     {
       "id": "6ec919580dd8",
@@ -36,6 +72,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-28T23:59:57.000Z",
       "contentHash": "758196cae7d0"
+    },
+    {
+      "id": "925fcfa363d5",
+      "title": "Claude の Blender Connector の使い方",
+      "url": "https://note.com/npaka/n/nfc0bc102fd97",
+      "summary": "記事本文が見えないため要約できません。該当の記事全文またはリンク／本文の貼付をお願いします。200文字以内での要約を希望とのこと、受け取り次第すぐに日本語でまとめます。",
+      "source": "npaka",
+      "publishedAt": "2026-04-28T23:54:40.000Z",
+      "contentHash": "eab2841a2ed4"
     },
     {
       "id": "eff9c0ae32bc",
@@ -68,10 +113,10 @@
       "id": "dcb9ca989d60",
       "title": "Blender・Autodesk・AdobeとつながるClaudeの新Connector",
       "url": "https://note.com/npaka/n/n7864b38c7432",
-      "summary": "Anthropicは2026年4月、Blender・Autodesk・Adobe・Ableton・Splice等と連携するClaudeの新Connector群を発表。制作の自動化や学習支援、スクリプト生成、ツール間パイプライン連携が可能に。Blenderでは自然言語でPython API操作やシーン解析・デバッグなどが行える。",
+      "summary": "ClaudeがBlender、Autodesk、Adobe、Ableton、Spliceなど主要クリエイティブツール対応のコネクタを公開。自然言語で操作やスクリプト生成、学習支援、アセット同期やバッチ処理を行い制作ワークフローを自動化。BlenderはPython API経由でシーン操作・デバッグ・UI拡張が可能。",
       "source": "npaka",
       "publishedAt": "2026-04-28T23:07:08.000Z",
-      "contentHash": "513f31ddcb09"
+      "contentHash": "165ce892536d"
     },
     {
       "id": "c78efead009c",
@@ -104,10 +149,10 @@
       "id": "4fc108fd7676",
       "title": "Elon Musk tells the jury that all he wants to do is save humanity",
       "url": "https://www.theverge.com/ai-artificial-intelligence/920048/elon-musk-testimony-save-humanity",
-      "summary": "裁判でイーロン・マスクは自らを「人類を救う」救世主として演出。南ア出身や起業遍歴を語り、共同創業者サム・アルトマンと対照的に寛大な英雄像を印象づけようとした。",
+      "summary": "エロン・マスクはOpenAIを巡るサム・アルトマンとの裁判で証言し、自らを「人類を救う」使命のある寛大な英雄として演出。南ア出身からの来歴や事業遍歴を詳述し、アルトマンと対比した。",
       "source": "The Verge",
       "publishedAt": "2026-04-28T20:46:54.000Z",
-      "contentHash": "f9b14462a3c6"
+      "contentHash": "8c2038b8b7b2"
     },
     {
       "id": "20854de907d3",
@@ -212,10 +257,10 @@
       "id": "8d66e1027ce8",
       "title": "Deno に DOMMatrix を入れるために Rust で CSS Values and Units の構文解析、計算をした話 | pixivのフィード",
       "url": "https://zenn.dev/pixiv/articles/69638446455b0d",
-      "summary": "DenoにGeometry Interfaces（DOMMatrix）をRustで実装しPRがマージされた報告。DOMMatrixをCSSのtransform文字列で初期化するため、CSS Values and Unitsの構文解析と計算を実装した経緯を、OffscreenCanvas/Canvas2D対応の背景とともに解説。",
+      "summary": "趣味でDenoに貢献する@petamorikenが、2年以上かけて進めてきたGeometry Interfaces実装がついにマージされました。記事は実装で得た知見を紹介し、特にCSS Values and Unitsの構文解析や計算部分に焦点を当てています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-28T17:22:24.000Z",
-      "contentHash": "b77b50b8c9a0"
+      "contentHash": "b7dca055585e"
     },
     {
       "id": "cd5a4464466f",
@@ -320,10 +365,10 @@
       "id": "19c23e101a5a",
       "title": "Claude Code の「1.ラーメン」を物理ボタンで殴る | SMARTCAMP Engineer Blogのフィード",
       "url": "https://zenn.dev/smartcamp/articles/devenv-relay-ma2cta",
-      "summary": "Claude Codeの承認プロンプトを物理ボタンで素早く処理するため、Stream Deckを使ってiTerm2フォーカスや文字入力（数字・英字・yes/no等）をマルチアクションで自動化。ボタン画像は視認性向上のためClaudeに生成させた、という紹介記事。",
+      "summary": "SMARTCAMP Engineer Blogの開発環境リレー第3回。スマートキャンプのma2Ctaが、承認や確認を頻繁に求めるAIコーディングツール「Claude Code」を日常的に使っており、その小ネタや扱い方を紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-28T14:23:51.000Z",
-      "contentHash": "1beca5b0b9cb"
+      "contentHash": "66149da72563"
     },
     {
       "id": "3b300f64d3b4",
@@ -374,10 +419,10 @@
       "id": "fe6d47477e0a",
       "title": "MCP サーバーの API キーを AWS Secrets Manager で管理してみた | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/mcp-api-key-secrets-manager",
-      "summary": "MCPサーバーのAPIキーを設定ファイルに残さず、ClaudeにAPIキーを読ませない形で、Pythonのラッパー(run_mcp.py)がAWS Secrets Managerから取得して環境変数で子プロセス起動する方法を解説。Windows/Mac共通・venv対応で、共有・監査・自動ローテーションが利点。",
+      "summary": "アプリサービス部の山本が、Claude DesktopとMCPでBacklog等と連携する際のAPIキー管理の重要性を説き、設定ファイルにキーを残さずClaudeが読めないようにAWS Secrets ManagerとPythonのvenvで安全に扱う方法を解説します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-28T11:39:15.000Z",
-      "contentHash": "6764198c6886"
+      "contentHash": "a0cc9fb65738"
     },
     {
       "id": "f99efcf73cc4",
@@ -392,19 +437,19 @@
       "id": "564671efa320",
       "title": "生成AIの気になるニュース・記事（3/15~3/21) | 分析屋",
       "url": "https://note.com/bunsekiya_tech/n/n1dfae2ab5783",
-      "summary": "池田が3/15–3/21の生成AIニュースをまとめた。Forbesは感情・文脈・記憶を先読みするマーケティングの3技術を提示。日販テクシードは生成AI×ClickHouseで非専門家向けデータ分析を提供。GoogleのAIO表示は減少・配置変更、AIsmileyはAIエージェント導入ガイドを公開。",
+      "summary": "分析屋の池田が、3/15〜3/21にリリースされたAI関連の情報をまとめた案内です。続きを見ると各リリースの詳細が確認できます。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-28T10:52:23.000Z",
-      "contentHash": "44ca6d5f64e5"
+      "contentHash": "fa0af8a8d989"
     },
     {
       "id": "439bcd9b94c2",
       "title": "設計はなぜレビューで歪むのか～脳番地と注意資源で読み解く設計プロセス～ | 分析屋",
       "url": "https://note.com/bunsekiya_tech/n/n1fde7351f107",
-      "summary": "作成→レビュー→修正の反復は合理的だが、レビューで虫の目（局所）に偏ると正しい指摘の積み重ねが全体設計をぼやかす。個人の問題でなく認知特性（脳番地）、鳥・虫・魚の視点切替不足や時間制約によるプロセス問題で、視点の切替が必要と論じる。",
+      "summary": "分析屋のFが自己紹介し、ソフトウェア開発やインフラ構築など多くのIT企業でドキュメント作成の基本プロセスが共通していると述べる導入文。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-28T10:51:51.000Z",
-      "contentHash": "5d914741aee4"
+      "contentHash": "be9c891a3eaa"
     },
     {
       "id": "b921c0487770",
@@ -419,10 +464,10 @@
       "id": "392e6a284275",
       "title": "Red Hat Connectivity Link 第3回: JWTベースの認証 と ロールベースアクセス制御（RBAC） | 赤帽エンジニアブログ",
       "url": "https://rheb.hatenablog.com/entry/rhcl-03",
-      "summary": "Red Hat Connectivity LinkでKeycloak（RHBK）とAuthorinoを使い、JWT認証とロールベースアクセス制御(RBAC)を構築する手順を解説。セットアップスクリプト、サンプルRealm/ユーザー、JWT検証、RBACやロール別レート制限の実装方法を示す。",
+      "summary": "レッドハットのソリューションアーキテクト森が、第2回のAPIキー認証に続き、第3回でJWT認証とロールベースアクセス制御（RBAC）を実装。RHBKをOIDCプロバイダーにし、Authorinoと統合してエンタープライズ向け認証・認可基盤を構築する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-28T09:50:31.000Z",
-      "contentHash": "c9961040f27e"
+      "contentHash": "7c53fa7c1fd4"
     },
     {
       "id": "3ec65d279179",
@@ -473,10 +518,10 @@
       "id": "123e09b3bef5",
       "title": "Isaac Sim で ROS 2 Camera を試す",
       "url": "https://note.com/npaka/n/n0d0af329df6c",
-      "summary": "Isaac SimでROS2 Cameraを試したまとめ。仮想カメラのRGB/Depth/PointCloud/CameraInfo/セマンティック・インスタンスラベルや2D/3DボックスをROS2トピックで配信し、RViz2やrqt_image_viewで確認可能。Viewportの操作方法やカメラ追加・位置・向き・画角の設定手順も解説。",
+      "summary": "Isaac Sim 5.1上でROS 2 Cameraを試した記録です。導入手順や設定方法、動作確認の結果、発生した問題点とその対処法をまとめています。",
       "source": "npaka",
       "publishedAt": "2026-04-28T07:13:45.000Z",
-      "contentHash": "52cad5cf0727"
+      "contentHash": "5404a00b55c8"
     },
     {
       "id": "d605fcc4e94c",
@@ -590,10 +635,10 @@
       "id": "d70a67c9bebe",
       "title": "Isaac Sim で ROS 2 Clock を試す",
       "url": "https://note.com/npaka/n/n1d4db1ef3525",
-      "summary": "Isaac SimでのROS 2時間管理のまとめ。実機の「システム時間」とシミュレータの「シミュレーション時間」は別で、シミュレータは/clockを配信。ノードはuse_sim_time=trueで/clockを使いRViz・TF・Nav2等を同期する。RTFは経過シム時間÷現実時間でシミュレータ負荷確認に使う指標。",
+      "summary": "Isaac Sim 5.1上でROS 2のClock機能を試した記録をまとめた記事。設定手順、動作確認結果、トラブル対処や注意点など実践的な情報を紹介しています。",
       "source": "npaka",
       "publishedAt": "2026-04-28T00:49:20.000Z",
-      "contentHash": "cffd96e5ebdc"
+      "contentHash": "45385bbedb80"
     },
     {
       "id": "95ddf2a528b0",
@@ -1238,10 +1283,10 @@
       "id": "35cf0190f0fd",
       "title": "Isaac Sim で TurtleBot3 の操作を試す",
       "url": "https://note.com/npaka/n/n632f456cd232",
-      "summary": "Isaac Sim 5.11でTurtleBot3のURDFをxacroで生成してインポートし、Simple Roomに配置。車輪をVelocity制御に設定してURDF→USD変換・再生で接地確認。Action GraphでROS2（cmd_vel）購読→ステージ単位変換して速度制御ノードを構成。",
+      "summary": "Isaac Sim 5.1でTurtleBot3の操作を試した記録。セットアップ手順、シミュレーションでの移動やセンサ確認、発生した問題と対処法、気づきや手順をまとめている。",
       "source": "npaka",
       "publishedAt": "2026-04-26T10:21:28.000Z",
-      "contentHash": "8f9442501532"
+      "contentHash": "e63b7d015234"
     },
     {
       "id": "8464db21e6d1",
@@ -2021,10 +2066,10 @@
       "id": "e606286c8685",
       "title": "Grok Voice Think Fast 1.0 の概要",
       "url": "https://note.com/npaka/n/n61bea6104437",
-      "summary": "xAIが音声モデル「Grok Voice Think Fast 1.0」を公開。低遅延でリアルタイム推論を行い、顧客対応や予約などの複数ステップ業務向け。雑音や強いアクセント、割り込みに強く、住所・電話番号などの正確抽出と誤答抑制を実装。τ-voice Benchで首位。API提供。",
+      "summary": "「Grok Voice Think Fast 1.0」の概要を紹介する記事。高速・低遅延の音声対話機能や主な特徴、利用例、導入メリットと注意点を簡潔に解説している。",
       "source": "npaka",
       "publishedAt": "2026-04-24T08:21:08.000Z",
-      "contentHash": "892e2e7bdffd"
+      "contentHash": "a69d814f40ec"
     },
     {
       "id": "0d45650df9ca",
@@ -8955,51 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-10T12:55:22.000Z",
       "contentHash": "9dcb32c2db5b"
-    },
-    {
-      "id": "2d8bdc9b4c96",
-      "title": "Fear and loathing at OpenAI",
-      "url": "https://www.theverge.com/podcast/909621/openai-sam-altman-drama-vergecast",
-      "summary": "The Vergecastでサム・アルトマンの混乱したOpenAI在任期（一時解任と復帰）やNew Yorkerの深掘り記事が彼の適性を問う点をめぐり、ホストが議論するエピソード。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-10T12:23:18.000Z",
-      "contentHash": "3a170e1cd8de"
-    },
-    {
-      "id": "9565c8c5d755",
-      "title": "Intel 486 CPU announced April 10, 1989",
-      "url": "https://dfarq.homeip.net/intel-486-cpu-announced-april-10-1989/",
-      "summary": "Intelは1989年4月10日に486を発表（1,000個単位で$950）。Infoworldは速度向上の再現を疑いつつも、グラフィックやマルチタスクで需要増を予測し価格下落を見込んだ。別記事は1.2Mトランジスタ統合でムーアの法則を裏付けると評した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-10T12:03:34.000Z",
-      "contentHash": "a63b23884626"
-    },
-    {
-      "id": "2af9d701e9e8",
-      "title": "Snap is sticking with Qualcomm for its next AR glasses",
-      "url": "https://www.theverge.com/tech/909608/snap-specs-qualcomm-snapdragon-ar-glasses",
-      "summary": "Snapは今年発売予定の消費者向けARメガネ「Specs」にQualcommのSnapdragon XRを搭載。両社は複数世代で協業しており、長期提携でオンデバイスAIや高性能グラフィックスを共同開発する。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-10T12:00:00.000Z",
-      "contentHash": "bdb2e3cf17f0"
-    },
-    {
-      "id": "c984dec9f58d",
-      "title": "White House staff told not to place bets on prediction markets",
-      "url": "https://www.bbc.co.uk/news/articles/cgld65x396go",
-      "summary": "ホワイトハウスは3月24日、職員にKalshiやPolymarketなどの予測マーケットで内部情報を用いて賭けをしないよう警告。トランプ氏の対イラン攻撃一時停止直後の送信で、報道が懸念を指摘したが広報は否定し倫理規定を強調。過去にPolymarketでマドゥロ捕縛に関する大口賭けが問題化している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-10T11:47:08.000Z",
-      "contentHash": "d3c0f55a4bb3"
-    },
-    {
-      "id": "0cf0e6931ddc",
-      "title": "git worktree管理CLIツールを自作した話 | TalentX Tech Blog",
-      "url": "https://tech.talentx.co.jp/entry/2026/04/10/203621",
-      "summary": "バックエンドの樋口が、git worktreeを快適に使うためGoでCLIツール「gwm」を自作。使用ライブラリの紹介と実装での躓きや解決策をまとめ、リポジトリを公開。Claude Codeの対応にも触れる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T11:36:21.000Z",
-      "contentHash": "9d2371126885"
     }
   ]
 }
