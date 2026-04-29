@@ -1,14 +1,221 @@
 {
-  "generatedAt": "2026-04-28T18:09:32.069Z",
+  "generatedAt": "2026-04-29T03:58:30.682Z",
   "items": [
+    {
+      "id": "4440fa99ae9c",
+      "title": "AWS Batch でテナント間の順番待ちを緩和した話 | DRESS CODE TECH BLOGのフィード",
+      "url": "https://zenn.dev/dress_code/articles/aws-batch-fair-share",
+      "summary": "DRESS CODEのAWS Batch（Fargate）基盤で、ある組織の大量ジョブがスロットを独占するNoisy Neighbor問題が発生。キュー分割は上限や資源断片化で非現実的なため、AWS BatchのFair Share Schedulingで公平化して緩和した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-29T02:00:05.000Z",
+      "contentHash": "041b4e973fd0"
+    },
+    {
+      "id": "3c058c8ab609",
+      "title": "Claude の Adobe for creativity の使い方",
+      "url": "https://note.com/npaka/n/n6841ac39cc4c",
+      "summary": "AdobeとAnthropicのConnector「Adobe for creativity」をClaudeに連携すると、チャットでPhotoshop等を呼び出し、自然文で写真編集・デザイン作成・動画リサイズ・SNS向け変換や一括補正が可能。Adobeアカウントで連携し素材をアップロードして指示するだけ。",
+      "source": "npaka",
+      "publishedAt": "2026-04-29T01:50:16.000Z",
+      "contentHash": "bf3ff33bd971"
+    },
+    {
+      "id": "960accfa8ca5",
+      "title": "LambdaのトリガーをAWSコンソールで見たい | TechHarmony",
+      "url": "https://blog.usize-tech.com/aws-iam-policy-lambda-trigger/",
+      "summary": "AWSコンソールでLambdaのSQSトリガーを表示するには、lambda:ListFunctions、lambda:GetFunction/GetFunctionConfiguration、lambda:ListEventSourceMappings、lambda:GetEventSourceMappingに加え、特にlambda:GetPolicyが必須。GetPolicyを付与するとトリガー情報が表示される。生成AIは当初これを見落としていた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-29T00:00:09.000Z",
+      "contentHash": "22288f63a2b3"
+    },
+    {
+      "id": "6ec919580dd8",
+      "title": "Regression: malware reminder on every read still causes subagent refusals",
+      "url": "https://github.com/anthropics/claude-code/issues/49363",
+      "summary": "v2.1.111で、Read/Grepの結果にマルウェア判定を促す<system-reminder>が埋め込まれ、サブエージェントが正当なOSSコード修正を拒否する回帰が発生。v2.1.92で修正済とされたが再現し、文字列はCLIバイナリ内に確認された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-28T23:59:57.000Z",
+      "contentHash": "758196cae7d0"
+    },
+    {
+      "id": "eff9c0ae32bc",
+      "title": "How ChatGPT serves ads",
+      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
+      "summary": "OpenAIの広告は二部構成。ChatGPT側が会話のSSEストリームにsingle_advertiser_ad_unitを注入し、訪問者側はOAIQ SDKで閲覧を報告。Fernet暗号のクリックトークン（広告ごと4つ）で結合。広告素材はbzrcdn.openai.comで配信。著者は同意済みモバイルで両側を観測。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-28T23:54:14.000Z",
+      "contentHash": "1d8f169f32c8"
+    },
+    {
+      "id": "dc952676486d",
+      "title": "It’s primetime for conspiracy theorist video creators",
+      "url": "https://www.theverge.com/streaming/919291/white-house-correspondents-dinner-conspiracy-videos-false-flag",
+      "summary": "ホワイトハウス記者団晩餐会の銃撃後、TikTokやYouTubeで「偽旗」説を唱える陰謀論動画が急増。反応動画文化が拡散を助け、容疑者コール・アレンについて不明点が残る中も投稿が続いている。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-28T23:31:53.000Z",
+      "contentHash": "368ec3c7e9cc"
+    },
+    {
+      "id": "1c7525877f0f",
+      "title": "Elon Musk appeared more petty than prepared",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920191/elon-musk-sam-altman-trial-day-one",
+      "summary": "エロン・マスクがサム・アルトマンとのOpenAIを巡る裁判で最初の証人として出廷。冒頭証言は私怨めいた発言で焦点が定まらず、威厳や説得力に欠ける印象だった。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-28T23:17:12.000Z",
+      "contentHash": "7b5a46523e40"
+    },
+    {
+      "id": "dcb9ca989d60",
+      "title": "Blender・Autodesk・AdobeとつながるClaudeの新Connector",
+      "url": "https://note.com/npaka/n/n7864b38c7432",
+      "summary": "Anthropicは2026年4月、Blender・Autodesk・Adobe・Ableton・Splice等と連携するClaudeの新Connector群を発表。制作の自動化や学習支援、スクリプト生成、ツール間パイプライン連携が可能に。Blenderでは自然言語でPython API操作やシーン解析・デバッグなどが行える。",
+      "source": "npaka",
+      "publishedAt": "2026-04-28T23:07:08.000Z",
+      "contentHash": "513f31ddcb09"
+    },
+    {
+      "id": "c78efead009c",
+      "title": "Carrot Disclosure: Forgejo",
+      "url": "https://dustri.org/b/carrot-disclosure-forgejo.html",
+      "summary": "FedoraのPagure移行を機にForgejoを調査。一晩でSSRF、CSP不在、暗号・認証の不備、DoSや情報漏洩など多数を発見しチェインでRCEや権限昇格が可能に。RCEは公開登録や非標準設定依存で実害は限定的。開示は全面公開せず、修正を促す「キャロット・ディスクロージャ」を採ると決めた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-28T22:14:29.000Z",
+      "contentHash": "909d56347406"
+    },
+    {
+      "id": "cfc33a5ac473",
+      "title": "James Comey indicted over Instagram seashell photo that allegedly threatened Trump",
+      "url": "https://www.theverge.com/policy/920131/james-comey-indicted-over-instagram-seashell-photo-that-allegedly-threatened-trump",
+      "summary": "司法省は元FBI長官ジェームズ・コミーを、昨年5月にインスタに投稿して削除した「8647」の貝殻写真がトランプ氏への脅迫と解釈され得るとしてノースカロライナ連邦裁に起訴した。司法省は「eighty‑six」が「排除する」の俗語で、トランプ氏が第47代大統領である点を指摘している。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-28T21:40:08.000Z",
+      "contentHash": "16be7bd91f88"
+    },
+    {
+      "id": "fef8766c3e95",
+      "title": "Before GitHub",
+      "url": "https://lucumr.pocoo.org/2026/4/28/before-github/",
+      "summary": "筆者はSourceForgeやTrac、Bitbucketを経てGitHubに移り、GitHubが自身のOSS活動やコミュニティ形成に不可欠だったと述べる。現在の衰退を悲しみ、GitHubやnpmが依存増加と公開・利用の摩擦低減でOSSの在り方を変えたと振り返る。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-28T21:17:40.000Z",
+      "contentHash": "74e363371a1b"
+    },
+    {
+      "id": "4fc108fd7676",
+      "title": "Elon Musk tells the jury that all he wants to do is save humanity",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920048/elon-musk-testimony-save-humanity",
+      "summary": "裁判でイーロン・マスクは自らを「人類を救う」救世主として演出。南ア出身や起業遍歴を語り、共同創業者サム・アルトマンと対照的に寛大な英雄像を印象づけようとした。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-28T20:46:54.000Z",
+      "contentHash": "f9b14462a3c6"
+    },
+    {
+      "id": "20854de907d3",
+      "title": "Drone pilot makes US rescind no-fly zones around unmarked, moving ICE vehicles",
+      "url": "https://arstechnica.com/gadgets/2026/04/no-fly-zones-around-moving-ice-vehicles-this-drone-pilot-fought-back-and-won/",
+      "summary": "2026年、DHSは移動中・無表示の車両周辺を含む無人機の飛行禁止を拡大。市民の監視や表現の自由への懸念が高まり、ドローン操縦士の働きかけで米政府はその対象撤回に追い込まれた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-28T20:30:35.000Z",
+      "contentHash": "9859a5c02370"
+    },
+    {
+      "id": "c47b5752361f",
+      "title": "Taylor Swift is stepping up the legal war on AI copycats",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/919827/taylor-swift-trademarks-ai-copycats",
+      "summary": "テイラー・スウィフトがAIの「なりすまし」対策として、「Hey, it's Taylor Swift」「Hey, it's Taylor」の音声フレーズを商標出願（TAS Rights Management名義）した。音声クリップを添付したが、法的効果は不確実。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-28T20:30:00.000Z",
+      "contentHash": "0642ac8778f0"
+    },
+    {
+      "id": "2e600a19e613",
+      "title": "Now YouTube TV lets you multiview any channel you want",
+      "url": "https://www.theverge.com/streaming/919958/youtube-tv-custom-multiview-channel",
+      "summary": "YouTubeのネアル・モハンCEOが発表：YouTube TVで最大4つのライブを自由に組み合わせられる「カスタムマルチビュー」を提供開始。従来の事前選択型から拡張され、YouTube TVおよびジャンル別プラン加入者が利用可能。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-28T19:46:19.000Z",
+      "contentHash": "28d1108a0a2c"
+    },
+    {
+      "id": "434fee2b0869",
+      "title": "Ghostty is leaving GitHub",
+      "url": "https://mitchellh.com/writing/ghostty-leaving-github",
+      "summary": "Mitchell HashimotoはプロジェクトGhosttyをGitHubから移行すると発表。2008年加入のユーザー1299として18年以上ほぼ毎日GitHubを訪れ、人生や仕事の多くを捧げてきたため離脱は悲しい決断だと語り、VagrantをGitHub就職の夢から始めたことも述べる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-28T19:44:52.000Z",
+      "contentHash": "68a0856ec313"
+    },
+    {
+      "id": "8da77f32ffdc",
+      "title": "The FCC is going after the broadcast licenses of Disney-owned ABC stations",
+      "url": "https://www.theverge.com/policy/919739/fcc-disney-abc-broadcast-licenses-threat",
+      "summary": "米FCCはディズニー傘下のABC局に対し、DEI方針の調査の一環として放送免許の早期更新を命じた。発表はジミー・キンメルの「expectant widow」発言を巡るトランプの解雇要求の直後だった。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-28T19:36:14.000Z",
+      "contentHash": "b517eb6662a6"
+    },
     {
       "id": "41c83ec293ad",
       "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
       "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "summary": "イーロン・マスクがOpenAIを相手取り、創設理念放棄や利益優先を理由にサム・アルトマンらの解任と1500億ドル（約1.5兆円）の賠償を請求。OpenAIは競争妨害の主張と反論し、裁判が開幕。",
+      "summary": "イーロン・マスクはOpenAIが創業理念を捨て営利重視に転じたとして提訴、アルトマンらの解任と公益法人廃止、最大1500億ドルの賠償を要求。4月に裁判が始まり、マスクが最初の証人として出廷。OpenAIは競争妨害目的の根拠ない訴訟と反論している。",
       "source": "The Verge",
-      "publishedAt": "2026-04-28T17:45:16.000Z",
-      "contentHash": "6dac2874c6ec"
+      "publishedAt": "2026-04-28T19:27:50.000Z",
+      "contentHash": "df00ee945a74"
+    },
+    {
+      "id": "55ff6ff1b7c6",
+      "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
+      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
+      "summary": "MicrosoftとOpenAIが提携を修正し、OpenAI製品はAzureで優先提供されるが他のクラウド（例：AWS）でも提供可能に。Microsoftは2032年までのIPライセンスを非独占で保ち、OpenAIからの収益分配は2030年まで継続（上限あり）。Microsoftは主要株主として関与継続。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-28T19:24:43.000Z",
+      "contentHash": "4056f8fa035e"
+    },
+    {
+      "id": "aaca0dc9b0cd",
+      "title": "Elon Musk takes the stand in high-profile trial against OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917052/elon-musk-takes-stand-trial-openai-sam-altman",
+      "summary": "イーロン・マスクがサム・アルトマンらを相手取った裁判で最初の証人として出廷した。マスクは初期に最大3800万ドル出資後に方針対立で離脱、後にxAIを設立。今回の訴訟はカリフォルニアで陪審裁判に進んだ。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-28T19:00:13.000Z",
+      "contentHash": "64bf95c00551"
+    },
+    {
+      "id": "b0d905ad0f2d",
+      "title": "Bankruptcies increase 11.9 percent",
+      "url": "https://www.uscourts.gov/data-news/judiciary-news/2026/04/23/bankruptcies-increase-119-percent",
+      "summary": "米連邦裁判所事務局は、2026年3月31日までの12か月の破産申立てが前年同期比11.9%増の591,850件と発表。事業は11.4%増の25,960件、非事業は11.9%増の565,890件。2010年のピーク以降低下し2022年以降は増加傾向だが歴史的高水準には届いていない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-28T18:47:09.000Z",
+      "contentHash": "0ba2ac65cd81"
+    },
+    {
+      "id": "1574db071005",
+      "title": "A good AGENTS.md is a model upgrade. A bad one is worse than no docs at all",
+      "url": "https://www.augmentcode.com/blog/how-to-write-good-agents-dot-md-files",
+      "summary": "モノレポの多数のAGENTS.mdを評価。最良は生成品質を大幅改善、最悪は無用より悪化。同一ファイルでタスクごとに約30%の差が出て、効果は特定パターンに依存。AuggieBenchで既存PRと比較。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-28T18:26:53.000Z",
+      "contentHash": "0f2063af2080"
+    },
+    {
+      "id": "c8b695fb97a0",
+      "title": "Waymo in Portland",
+      "url": "https://waymo.com/blog/shorts/waymo-in-portland/",
+      "summary": "Waymoがポートランド進出へ。州市や地域と規制整備を進めつつ、自動運転システムを慣らすため手動運転で走行開始。Vision Zeroや飲酒運転撲滅を支援し、導入都市では重傷事故を13倍低減した安全性を目指す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-28T18:08:13.000Z",
+      "contentHash": "16aabf3e0982"
+    },
+    {
+      "id": "8d66e1027ce8",
+      "title": "Deno に DOMMatrix を入れるために Rust で CSS Values and Units の構文解析、計算をした話 | pixivのフィード",
+      "url": "https://zenn.dev/pixiv/articles/69638446455b0d",
+      "summary": "DenoにGeometry Interfaces（DOMMatrix）をRustで実装しPRがマージされた報告。DOMMatrixをCSSのtransform文字列で初期化するため、CSS Values and Unitsの構文解析と計算を実装した経緯を、OffscreenCanvas/Canvas2D対応の背景とともに解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-28T17:22:24.000Z",
+      "contentHash": "b77b50b8c9a0"
     },
     {
       "id": "cd5a4464466f",
@@ -113,10 +320,10 @@
       "id": "19c23e101a5a",
       "title": "Claude Code の「1.ラーメン」を物理ボタンで殴る | SMARTCAMP Engineer Blogのフィード",
       "url": "https://zenn.dev/smartcamp/articles/devenv-relay-ma2cta",
-      "summary": "SMARTCAMP Engineer Blog開発環境リレー第3回。ma2CtaがClaude Codeに関する小ネタを紹介します。著者はClaude Codeを日常的に多用しており、人間に承認や確認を求める挙動について触れています。",
+      "summary": "Claude Codeの承認プロンプトを物理ボタンで素早く処理するため、Stream Deckを使ってiTerm2フォーカスや文字入力（数字・英字・yes/no等）をマルチアクションで自動化。ボタン画像は視認性向上のためClaudeに生成させた、という紹介記事。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-28T14:23:51.000Z",
-      "contentHash": "66149da72563"
+      "contentHash": "1beca5b0b9cb"
     },
     {
       "id": "3b300f64d3b4",
@@ -167,10 +374,10 @@
       "id": "fe6d47477e0a",
       "title": "MCP サーバーの API キーを AWS Secrets Manager で管理してみた | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/mcp-api-key-secrets-manager",
-      "summary": "アプリケーションサービス部の山本が、Claude DesktopでMCPサーバーを通じBacklog等と連携する際のAPIキー管理を解説。設定ファイルに鍵を残さず、Claudeに読ませないためにAWS Secrets ManagerとPythonのvenvを使う手法を紹介。",
+      "summary": "MCPサーバーのAPIキーを設定ファイルに残さず、ClaudeにAPIキーを読ませない形で、Pythonのラッパー(run_mcp.py)がAWS Secrets Managerから取得して環境変数で子プロセス起動する方法を解説。Windows/Mac共通・venv対応で、共有・監査・自動ローテーションが利点。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-28T11:39:15.000Z",
-      "contentHash": "a0cc9fb65738"
+      "contentHash": "6764198c6886"
     },
     {
       "id": "f99efcf73cc4",
@@ -212,10 +419,10 @@
       "id": "392e6a284275",
       "title": "Red Hat Connectivity Link 第3回: JWTベースの認証 と ロールベースアクセス制御（RBAC） | 赤帽エンジニアブログ",
       "url": "https://rheb.hatenablog.com/entry/rhcl-03",
-      "summary": "Red Hatの森による第3回記事。JWT認証とロールベースアクセス制御(RBAC)を実装し、Red Hat build of KeycloakをOIDCプロバイダー、Authorinoと統合してエンタープライズ向け認証・認可基盤を構築する方法を解説します。",
+      "summary": "Red Hat Connectivity LinkでKeycloak（RHBK）とAuthorinoを使い、JWT認証とロールベースアクセス制御(RBAC)を構築する手順を解説。セットアップスクリプト、サンプルRealm/ユーザー、JWT検証、RBACやロール別レート制限の実装方法を示す。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-28T09:50:31.000Z",
-      "contentHash": "7c53fa7c1fd4"
+      "contentHash": "c9961040f27e"
     },
     {
       "id": "3ec65d279179",
@@ -266,10 +473,10 @@
       "id": "123e09b3bef5",
       "title": "Isaac Sim で ROS 2 Camera を試す",
       "url": "https://note.com/npaka/n/n0d0af329df6c",
-      "summary": "Isaac SimでROS 2 Cameraを試したまとめ。仮想カメラをROS2トピック（RGB/Depth/PointCloud/CameraInfo/セマンティック・インスタンスラベル/BoundingBox等）で配信可能。Viewport操作法、カメラ追加・配置や画角調整手順、RViz2やrqt_image_viewでの確認方法を解説。",
+      "summary": "Isaac SimでROS2 Cameraを試したまとめ。仮想カメラのRGB/Depth/PointCloud/CameraInfo/セマンティック・インスタンスラベルや2D/3DボックスをROS2トピックで配信し、RViz2やrqt_image_viewで確認可能。Viewportの操作方法やカメラ追加・位置・向き・画角の設定手順も解説。",
       "source": "npaka",
       "publishedAt": "2026-04-28T07:13:45.000Z",
-      "contentHash": "c3a85a8ae5d2"
+      "contentHash": "52cad5cf0727"
     },
     {
       "id": "d605fcc4e94c",
@@ -383,10 +590,10 @@
       "id": "d70a67c9bebe",
       "title": "Isaac Sim で ROS 2 Clock を試す",
       "url": "https://note.com/npaka/n/n1d4db1ef3525",
-      "summary": "Isaac Sim 5.1上でROS 2のClockを試した記録。セットアップ手順、Clock同期の動作確認結果、遭遇した問題点と対処法、実践的な活用例をまとめています。",
+      "summary": "Isaac SimでのROS 2時間管理のまとめ。実機の「システム時間」とシミュレータの「シミュレーション時間」は別で、シミュレータは/clockを配信。ノードはuse_sim_time=trueで/clockを使いRViz・TF・Nav2等を同期する。RTFは経過シム時間÷現実時間でシミュレータ負荷確認に使う指標。",
       "source": "npaka",
       "publishedAt": "2026-04-28T00:49:20.000Z",
-      "contentHash": "45385bbedb80"
+      "contentHash": "cffd96e5ebdc"
     },
     {
       "id": "95ddf2a528b0",
@@ -405,6 +612,15 @@
       "source": "OpenAI",
       "publishedAt": "2026-04-28T00:00:00.000Z",
       "contentHash": "affd4f5fe85c"
+    },
+    {
+      "id": "a15adbd33f27",
+      "title": "Our commitment to community safety",
+      "url": "https://openai.com/index/our-commitment-to-community-safety",
+      "summary": "OpenAIは、モデル内の安全対策、悪用検知、ポリシー執行、安全専門家との連携を通じてChatGPTのコミュニティの安全を守る方法を示しています。",
+      "source": "OpenAI",
+      "publishedAt": "2026-04-28T00:00:00.000Z",
+      "contentHash": "df19757deaa4"
     },
     {
       "id": "25740529633a",
@@ -1859,10 +2075,10 @@
       "id": "540768082ca7",
       "title": "DeepSeek-V4 の概要",
       "url": "https://note.com/npaka/n/nb825e125a82d",
-      "summary": "DeepSeekがV4プレビューを公開。1Mトークン対応でハイブリッド圧縮注意により計算とKVキャッシュを大幅削減。Pro(1.6T/49B)とFlash(284B/13B)、Thinkingモードやエージェント志向設計、オープンウェイト公開が特徴。",
+      "summary": "DeepSeek-V4がPreview公開。1Mトークン対応でCSA/HCA（Token-wise compression+DSA）により計算量・KV削減。Pro(1.6T/活性49B)とFlash(284B/活性13B)、Non‑think/Think/Think Max切替、エージェント重視でオープンウェイト公開。",
       "source": "npaka",
       "publishedAt": "2026-04-24T07:42:04.000Z",
-      "contentHash": "6c69a265b432"
+      "contentHash": "a2a1205e16a3"
     },
     {
       "id": "5a19e3015113",
@@ -1949,10 +2165,10 @@
       "id": "0e5e9c38de85",
       "title": "テクノエッジにてレポ漫画「へにへにAIイベント探訪」の連載はじめました",
       "url": "https://note.com/npaka/n/nd8c3b9032b12",
-      "summary": "npakaがテクノエッジでAIイベントレポ漫画「へにへにAIイベント探訪」を連載開始。第1回は秋葉原ロボットほこ天2026をレポートし、バトルやパレード、ロボットの個人領域化を紹介しています。",
+      "summary": "テクノエッジでnpakaによるAIイベントレポ漫画「へにへにAIイベント探訪」が連載開始。第1回は秋葉原ロボットほこ天2026を取材し、バトルやパレードなどの様子を描く。",
       "source": "npaka",
       "publishedAt": "2026-04-24T02:49:45.000Z",
-      "contentHash": "905ff5bf0968"
+      "contentHash": "7cd542afa619"
     },
     {
       "id": "a711ee1fc5cc",
@@ -8784,222 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-10T11:36:21.000Z",
       "contentHash": "9d2371126885"
-    },
-    {
-      "id": "9504266d8800",
-      "title": "FBI used iPhone notification data to retrieve deleted Signal messages",
-      "url": "https://9to5mac.com/2026/04/09/fbi-used-iphone-notification-data-to-retrieve-deleted-signal-messages/",
-      "summary": "記事本文を貼っていただけますか？見出しだけだと正確な要約ができません。本文を提供いただければ、200文字以内で日本語に要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-10T11:29:04.000Z",
-      "contentHash": "7e2354257a66"
-    },
-    {
-      "id": "be604f21835c",
-      "title": "Gen Z’s love-hate relationship with AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/909687/gen-z-doesnt-like-ai-gallup",
-      "summary": "ギャラップの調査（米、14〜29歳約1600人）で、Z世代はAIへの熱意が低下し、希望18％・興奮22％に減少する一方、怒りは31％に増加（前年22％）。不安は約40％で安定。学校や職場でAIが浸透する中、使わざるを得ないと感じつつ不満が強まっている。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-10T11:23:28.000Z",
-      "contentHash": "bfb29596fb85"
-    },
-    {
-      "id": "1a348800630f",
-      "title": "YouTube Premium is getting pricier",
-      "url": "https://www.theverge.com/streaming/909698/youtube-premium-price-hike-us",
-      "summary": "米国でYouTube Premiumの料金が値上げ。個人プランは月額$15.99（+ $2）、ファミリープランは$26.99（+ $4）、Premium Liteは$8.99（+ $1）。新規は即適用、既存会員へは順次通知。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-10T11:23:06.000Z",
-      "contentHash": "dbefaa9738d5"
-    },
-    {
-      "id": "e87d67cbd0f3",
-      "title": "Microsoft suspends dev accounts for high-profile open source projects",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/",
-      "summary": "Microsoft（GitHubを含む）が複数の高名なオープンソース開発者アカウントを突如停止し、パッケージ公開やCI等に支障が発生。説明不足や対応への批判が高まり、同社は調査と一部復旧を行うと発表した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-10T11:20:51.000Z",
-      "contentHash": "f70a0569a9f2"
-    },
-    {
-      "id": "7b0557c5e22d",
-      "title": "OCI チュートリアル「監査ログを使用したテナント監視」をやってみた Vol.1 | スマートスタイル TECH BLOG",
-      "url": "https://blog.s-style.co.jp/2026/04/15826/",
-      "summary": "OCIのAuditはテナンシ内の全APIコールを自動記録するが、単にログが溜まるだけでは意味が少ない。本記事は公式チュートリアルを基に、監査ログの活用方法や運用のポイントを解説する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T10:37:48.000Z",
-      "contentHash": "38fade0fa02f"
-    },
-    {
-      "id": "56a1c6bdcc4d",
-      "title": "France Launches Government Linux Desktop Plan as Windows Exit Begins",
-      "url": "https://www.numerique.gouv.fr/sinformer/espace-presse/souverainete-numerique-reduction-dependances-extra-europeennes/",
-      "summary": "仏政府が欧州外へのデジタル依存を削減する方針を提示。クラウド、半導体、データ基盤、オープンソース等の欧州内製化を推進し、規制・資金・調達で産業基盤と自律性を強化、EUと連携してデジタル主権の確立を目指す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-10T10:37:33.000Z",
-      "contentHash": "ba0cbe36df37"
-    },
-    {
-      "id": "e62a4d28bcd0",
-      "title": "2026年版モブプログラミング実践録 ── シンキングハット法とClaude Codeで回すチーム開発 | SmartHR Tech Blog",
-      "url": "https://tech.smarthr.jp/entry/2026/04/10/190606",
-      "summary": "SmartHRのプロダクトエンジニアKentaが、2026年2月から約2ヶ月間、別チームの毎日2〜3時間のモブプログラミングに参加。最初は負担に感じたが多く学び、振り返り・集合知の効果とAIツールClaude Codeの活用を紹介する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T10:06:06.000Z",
-      "contentHash": "94892fd6d013"
-    },
-    {
-      "id": "d0d1b64472e0",
-      "title": "AIを開発ワークフローに組み込む設計パターン — awesome-copilotエージェント定義から学ぶ分離・構造化・品質ゲート | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/be8e6d370e7032",
-      "summary": "AIを単発で使うのではなく開発プロセスに組み込む設計パターンを紹介。100件超のエージェント定義分析から、タスク自動分類（Strategy）、計画と実行の分離（Pipeline）、マルチエージェントによるオーケストレーションなどの実践的ワークフローが有効と示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T10:05:58.000Z",
-      "contentHash": "9b48d7b1e955"
-    },
-    {
-      "id": "e934b16f0d8f",
-      "title": "AIに「ちゃんとやらせる」ためのプロンプト技法 — エージェント定義から抽出した実践パターン | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/96f6b78d73a376",
-      "summary": "GitHub Copilotの100件超のエージェント定義を分析し、汎用プロンプト技法を提示。重要指示は表現を変えて最低3回繰り返す、思考過程を出力フォーマットで強制する等、モデル固有の弱点やコンテキスト制約に注意。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T10:04:18.000Z",
-      "contentHash": "dca3a6d12256"
-    },
-    {
-      "id": "c5289bd3ec5b",
-      "title": "Kubernetes初心者編：Dockerとの違いから学ぶコンテナオーケストレーション | MOBILUS TECH BLOG",
-      "url": "https://mobilus.hatenablog.com/entry/2026/04/10/183150",
-      "summary": "モビルスのPMがKubernetes学習の記録を紹介。Dockerだけで足りるかを「Docker単体」と「Kubernetes」を並べて動かすハンズオンで比較し、用途や決定的な違いと導入理由を解説する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T09:31:50.000Z",
-      "contentHash": "b969358f8904"
-    },
-    {
-      "id": "fd1671a2f640",
-      "title": "【セッションレポート】Agentic AI Summit ’26 Spring Gemini Enterprise 関連セッションまとめ | NHN テコラス Tech Blog | AWS、Google Cloudなどのインフラ技術ブログ",
-      "url": "https://techblog.nhn-techorus.com/archives/44082",
-      "summary": "2026年3月19日開催のGoogle Cloud主催「Agentic AI Summit ’26 Spring」のセッションレポート。生成AIを単なるタスク処理以上に活用するAgentic AIとGemini Enterprise関連セッションのまとめ（NHNテコラスTech Blog掲載）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T09:14:22.000Z",
-      "contentHash": "024dde76d0f5"
-    },
-    {
-      "id": "43dcc3914ddf",
-      "title": "openarm_teleop の使い方まとめ",
-      "url": "https://note.com/npaka/n/n7f865c9c8d29",
-      "summary": "openarm_teleop は OpenArm の leader-follower テレオペ用リポジトリで、Unilateral（片方向追従）と Bilateral（力覚フィードバック）の両モードをサポート。導入は openarm_description をクローンして colcon build、openarm_teleop をクローンし依存を apt で入れて cmake ビルド、各アームごとに CAN を socketcan で初期化。実行例: ./script/launch_unilateral.sh right_arm can0 can2（左は left_arm can1 can3）。",
-      "source": "npaka",
-      "publishedAt": "2026-04-10T09:03:31.000Z",
-      "contentHash": "e97d0642e5ba"
-    },
-    {
-      "id": "f7e8e2df63dd",
-      "title": "job-iteration gem から Active Job Continuation に移行した | Social PLUS Tech Blogのフィード",
-      "url": "https://zenn.dev/socialplus/articles/f50f525d0ed0c3",
-      "summary": "Ruby on Rails 8.1でActive Job Continuationが導入され、長時間実行中のジョブを中断・再開でき、デプロイ等で途切れても中断箇所から続行可能に。job-iteration gemが着想元。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T09:00:08.000Z",
-      "contentHash": "8e743550604f"
-    },
-    {
-      "id": "1c16be1fd058",
-      "title": "レバレジーズに入社して１年が経ちました！ | レバレジーズ データAIブログ",
-      "url": "https://analytics.leverages.jp/entry/2026/04/10/180000",
-      "summary": "テクノロジー戦略室AIMLチームの苑田が入社1年を振り返り。LLMを使ったシステム構築・運用が中心で、初仕事はGeminiで本文を自動解析・タグ付けするメールフィルターを作り、営業の判断工数を削減し1日数千件を処理している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T09:00:00.000Z",
-      "contentHash": "58b14d4fba51"
-    },
-    {
-      "id": "f39055e6c90f",
-      "title": "Fargate/LambdaのDockerビルドでCodeArtifactのトークンどう渡す？（ARG/ENVはNG） | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/codeartifact-docker-build-secrets",
-      "summary": "AWS Fargate/Lambda向けDockerコンテナで、CodeArtifactのプライベートPythonパッケージを安全にインストールする方法を解説。Docker Build Secrets（--mount=type=secret）で認証トークンをイメージに残さない点がポイントです。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T07:00:00.000Z",
-      "contentHash": "8c1499fcbfeb"
-    },
-    {
-      "id": "dc905bf2b125",
-      "title": "技術書典20で新刊『エムスリーテックブック9』を出します！ | エムスリーテックブログ",
-      "url": "https://www.m3tech.blog/entry/2026/04/10/152222",
-      "summary": "データ基盤チームの橋口です。記念すべき技術書典20（2026/04/12、オンライン4/11-4/26）にエムスリー有志でサークル参加し、新刊『エムスリーテックブック9』（148頁・1000円）を4/11からオンライン販売します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T06:22:22.000Z",
-      "contentHash": "c416c2603916"
-    },
-    {
-      "id": "e9c35edac99b",
-      "title": "Penguin 'Toxicologists' Find PFAS Chemicals in Remote Patagonia",
-      "url": "https://www.ucdavis.edu/health/news/penguin-toxicologists-find-pfas-chemicals-remote-patagonia",
-      "summary": "UC DavisとSUNYバッファローの研究で、パタゴニアのマゼランペンギン54羽に数日間装着したシリコーン足環から採取した試料で、遠隔地でもPFASが90％超検出。非侵襲的な動物による環境モニタリングの有効性を示した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-10T06:15:46.000Z",
-      "contentHash": "5d4dd4c36c06"
-    },
-    {
-      "id": "067113b2b344",
-      "title": "内製化を加速させる「カスタムトレーニング」 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/swx-original-custom-training",
-      "summary": "エデュケーショナルサービス課の井澤です。サーバーワークスはAWS導入・運用・サポートでクラウド活用を支援しており、近年増える「自社運用（内製化）」の相談に応えるため、AWSトレーニング・内製化支援サービスを提供しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T06:15:27.000Z",
-      "contentHash": "f6eb91652f1b"
-    },
-    {
-      "id": "4441bf069e08",
-      "title": "AIエージェントの暴走を防ぐ。OWASP LLM06対策と汎用ポリシーチェック | OpenWork Tech Blog",
-      "url": "https://techblog.openwork.co.jp/entry/ai-hooks-deny-check",
-      "summary": "オープンワークのWebエンジニアがAI活用を進める中、AIエージェントがIssue内の悪意ある指示（例：.envの内容を攻撃者サイトへ送信）を実行し機密漏洩を招く懸念があり、対策の重要性を訴えている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T06:01:28.000Z",
-      "contentHash": "0c9b2f254696"
-    },
-    {
-      "id": "9765dafc60ab",
-      "title": "AIを使ったら、アラート調査がターミナルだけで完結するようになった | コドモン Product Team Blog",
-      "url": "https://tech.codmon.com/entry/2026/04/10/140753",
-      "summary": "新規事業の杉山が、Claude CodeとDatadog MCP、AWS CLI、GitHub CLIを組み合わせ、Slackのアラートからターミナル上で原因特定〜コード修正提案までAIで迅速・高精度に行う手法を、エンジニア向けに紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T05:07:53.000Z",
-      "contentHash": "4b35af7901bf"
-    },
-    {
-      "id": "aabb1a55aee1",
-      "title": "RubyKaigi 2026にピクシブからCTO・harukasanが登壇します！ | pixiv inside",
-      "url": "https://inside.pixiv.blog/2026/04/10/134000",
-      "summary": "Developer Relationsのjoyが案内。ピクシブCTOのharukasanが、2026年4月22日開始・北海道函館開催のRubyKaigi 2026で「Building a Standalone Ruby Programming Environment」を講演します。セッション概要を紹介し参加者のイベント満喫を支援します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T04:40:00.000Z",
-      "contentHash": "7fee48d2ddb5"
-    },
-    {
-      "id": "dd0965f860b9",
-      "title": "Microsoft Global Secure Accessのファイルポリシーを利用してみた | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/04/10/133506",
-      "summary": "クラウドやSaaSの普及でファイルが社内外で扱われ利便性は向上したが、機密ファイルの外部アップロードや私用クラウドへの持ち出し、マルウェア混入ファイルのダウンロードなどファイル起点の情報漏洩リスクが増大している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T04:35:06.000Z",
-      "contentHash": "ac48716f25ae"
-    },
-    {
-      "id": "20909b7a9852",
-      "title": "ベクトル検索は不要なのか | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/694e39ceff58b7",
-      "summary": "結論：ベクトル検索は不要ではないが、従来の文書分割→ベクトル化→並列検索型RAGでは対応困難なケースが多い。記事は従来の課題を整理し、最新RAGアーキテクチャとベクトル検索の共存を検討する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-10T04:22:55.000Z",
-      "contentHash": "4764f11a1097"
-    },
-    {
-      "id": "a1830cbcd2b2",
-      "title": "Afrika Bambaataa, hip-hop pioneer, has died",
-      "url": "https://www.bbc.co.uk/news/articles/c2evppm30p7o",
-      "summary": "ヒップホップ先駆者アフリカ・バンバータ（本名ランス・テイラー）が68歳で死去。1973年にユニバーサル・ズールー・ネイションを創設、1982年の「Planet Rock」で世界的影響を与えた。晩年は80〜90年代の児童性虐待疑惑で批判を受け本人は否定。TMZはがんの合併症が原因と報じた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-10T04:17:28.000Z",
-      "contentHash": "3ec5a2130991"
     }
   ]
 }
