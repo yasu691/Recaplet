@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2026-04-30T03:59:29.026Z",
+  "generatedAt": "2026-04-30T10:32:29.133Z",
   "items": [
+    {
+      "id": "519021e81fef",
+      "title": "PlayStation now requires a ‘one-time online check’ to confirm you own a game",
+      "url": "https://www.theverge.com/games/921064/sony-playstation-drm-online-license-statement",
+      "summary": "ソニーはPS5/PS4の新DRMが30日ごとのオンライン接続を要求するとの噂を否定。ゲームは「一度のオンライン認証」でライセンス確認が完了し、その後も通常通り遊べると説明した。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-30T09:18:51.000Z",
+      "contentHash": "5c4af5284c9c"
+    },
+    {
+      "id": "2fde3e1b2054",
+      "title": "【2026年度版】パーソルキャリアのデータ・AIソリューション本部 各統括部・部の紹介 | techtekt（テックテクト） | パーソルキャリアのエンジニアブログ",
+      "url": "https://techtekt.persol-career.co.jp/entry/culture/260430_02",
+      "summary": "パーソルキャリアのデータ・AIソリューション本部は、全社でデータとAIを日常的に活用するため、インテリジェンスプラットフォームの構築、共通基盤・ガバナンス整備、全社アーキテクチャとPMO統括、データメッシュ型プラットフォームで意思決定の質と再現性を高めることをFY26の目標とする。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-30T08:39:21.000Z",
+      "contentHash": "ffacb2c678ce"
+    },
+    {
+      "id": "cfe2559f702c",
+      "title": "社内AWS勉強会（Amazon DynamoDBのハンズオン） | 分析屋",
+      "url": "https://note.com/bunsekiya_tech/n/n8263fc5d2f9a",
+      "summary": "基盤運用構築部のAWS勉強会でDynamoDBハンズオンを実施。ゲームセッション用テーブルを作りTimestampをUNIXタイムで保存、CloudShellで100件投入。DynamoDBの特徴（NoSQL、低レイテンシ、フルマネージド、高スケーラビリティ）を学び、Scan（全件読み取りで高コスト）とQuery（パーティション指定で高速）の違いを体感した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-30T08:35:15.000Z",
+      "contentHash": "05544e6ab18f"
+    },
+    {
+      "id": "ff0a3e97b7d6",
+      "title": "Dev Containers にホストのタイムゾーンを正しく伝播させる方法 | TechRacho",
+      "url": "https://techracho.bpsinc.jp/sakahara-shintaro/2026_04_30/157835",
+      "summary": "Dev Containersでホストのタイムゾーンを反映する際、/etc/localtimeを直接bindするとタイムゾーン名がEtc/UTCになる問題が起きる。対策は/etc/timezoneをbindし、/etc/localtimeはbindせず、postCreateCommandで/etc/localtimeを/usr/share/zoneinfo/$(cat /etc/timezone)へシンボリックリンクし直すこと。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-30T08:30:49.000Z",
+      "contentHash": "4b48e0d8f338"
+    },
+    {
+      "id": "5e4c1586f8a0",
+      "title": "「医療 × SRE」、両方初心者の私から見たヘンリーとは | 株式会社ヘンリー エンジニアブログ",
+      "url": "https://dev.henry.jp/entry/2026/04/30/170505",
+      "summary": "2026年4月にヘンリーへSREとして入社したgaloitsu。SIerで7年勤務後、家族の入院で医療分野への貢献欲が再燃し、エンドユーザーに近い開発を求め転職。医療×SRE×利用者接点が揃うことと面談での人柄・経営陣の成長支援が決め手。入社後も社風にギャップはなかった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-30T08:05:05.000Z",
+      "contentHash": "e174e8b96ba4"
+    },
+    {
+      "id": "2a34c184ecb9",
+      "title": "コードを1行も書かずにアプリが完成した——非エンジニア向けClaude活用勉強会をやってみた話 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/claude-for-sales-team",
+      "summary": "社内で非エンジニア向けにClaudeの勉強会を実施。Geminiは主にチャットだがClaudeはArtifactsでPDF要約・自動化・入力フォーム等の“動く”成果物を日本語で作成可能。プロジェクト機能で共有し、繰り返し作業の自動化やアプリ作成をチームに展開することを推奨。コード不要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-30T08:00:00.000Z",
+      "contentHash": "5735ac152748"
+    },
+    {
+      "id": "8ac995b018b2",
+      "title": "生成AI各社の新モデル発表と、少し落ち着いて向き合いたい | スタイル・エッジ技術ブログ",
+      "url": "https://techblog.styleedge.co.jp/entry/2026/04/30/170000",
+      "summary": "生成AIの新モデル発表が相次ぎ情報過多で困惑する中、記事は「事後学習（振る舞い・安全性などの後付け調整）」「有効コンテキスト（最大トークン数≠安定して使える長さ）」「ベンチマーク飽和（高得点で差が分かりにくい）」を解説し、発表を冷静に読むための確認ポイントを示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-30T08:00:00.000Z",
+      "contentHash": "bf925851d0df"
+    },
+    {
+      "id": "b9f75b8704b1",
+      "title": "カスタマーサクセス業務を変革したヘルススコアの実現と学び | 株式会社ログラス テックブログのフィード",
+      "url": "https://zenn.dev/loglass/articles/344ed611aad538",
+      "summary": "ログラスのCREがカスタマーサクセスの効率化のためヘルススコアを構築。老朽化ダッシュボード、プロダクトとCRMのデータ分断、判断の属人化を課題とし、段階的にダッシュボード刷新・データ統合・スコアリングで顧客状態の可視化と対応標準化を目指した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-30T07:56:18.000Z",
+      "contentHash": "970355f91e84"
+    },
+    {
+      "id": "b7aaa4d8a025",
+      "title": "RubyKaigi 2026参加レポート | Timee Product Team Blog",
+      "url": "https://tech.timee.co.jp/entry/2026/04/30/164059",
+      "summary": "タイミー8名がRubyKaigi 2026（函館）に参加。Day2で@dak2登壇。本レポートは注目セッションを整理し、特にShopifyのFalcon導入事例を紹介。FiberベースのAsyncでメモリ効率が良く、BFCMで3290億リクエストを捌き、段階的スケールテストやOSS還元が印象的。筆者はローカルでFalconを試す予定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-04-30T07:40:59.000Z",
+      "contentHash": "4c86f3ce091a"
+    },
     {
       "id": "e23f987583e5",
       "title": "クラウドネイティブ会議@名古屋に参加します | 赤帽エンジニアブログ",
@@ -140,10 +221,10 @@
       "id": "dccf9a330fc3",
       "title": "Google Search queries hit an ‘all time high’ last quarter",
       "url": "https://www.theverge.com/tech/920815/google-alphabet-q1-2026-earnings-sundar-pichai",
-      "summary": "アルファベットのQ1で検索クエリが過去最高に達し、AIが利用を牽引。検索収入は19%増。消費者向けAIは過去最高でGeminiが主導、有料会員は3.5億超。連結売上高は1099億ドル（前年比22%増）。",
+      "summary": "サンダー・ピチャイCEOは、2026年Q1の検索クエリが過去最高となり、AI施策で利用が増加、検索収益は19%増と発表。Geminiアプリ主導で消費者向けAI有料プランは過去最高、課金ユーザーは3.5億超。アルファベットの売上は1099億ドル（前年同期比22%増）。",
       "source": "The Verge",
       "publishedAt": "2026-04-29T20:28:11.000Z",
-      "contentHash": "a82207cd46ae"
+      "contentHash": "14a0c9f5a1e9"
     },
     {
       "id": "00b341742918",
@@ -8919,87 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-11T19:15:56.000Z",
       "contentHash": "dce8892bfe21"
-    },
-    {
-      "id": "2c95a44f6846",
-      "title": "How to build a `Git diff` driver",
-      "url": "https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/",
-      "summary": "git diff用の外部差分コマンド（diff driver）の作り方を解説。Gitが渡す7つの引数の扱いや、OpenAPI差分に使うoasdiffの具体例を示し、textconvでは不十分なケースでの利点を説明。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-11T18:07:49.000Z",
-      "contentHash": "caa4983e3cb4"
-    },
-    {
-      "id": "f12489a0fef8",
-      "title": "Small models also found the vulnerabilities that Mythos found",
-      "url": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
-      "summary": "AnthropicのMythos発表を受け、小型オープンモデルで同社の脆弱性解析を再現。結果、能力はモデルサイズで滑らかに伸びず「ギザギザ」的で、鍵は専門知識を組み込むシステム（堀）だと結論。Mythosは手法を裏付けるが決着はついていない。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-11T16:47:28.000Z",
-      "contentHash": "9bb88f7b578f"
-    },
-    {
-      "id": "5696ce18132e",
-      "title": "The disturbing white paper Red Hat is trying to erase from the internet",
-      "url": "https://www.osnews.com/story/144776/the-disturbing-white-paper-red-hat-is-trying-to-erase-from-the-internet/",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできないため記事本文を取得できません。記事全文か主要部分を貼っていただければ、200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-11T16:38:50.000Z",
-      "contentHash": "b93dd8f6b458"
-    },
-    {
-      "id": "cdba382232b1",
-      "title": "Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS",
-      "url": "https://www.v68k.org/advanced-mac-substitute/",
-      "summary": "申し訳ありませんが、外部URLには直接アクセスできません。記事本文や主要段落をここに貼っていただければ、200字以内で日本語要約します。HNコメントの要約も対応可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-11T15:39:19.000Z",
-      "contentHash": "237c4b9d3f26"
-    },
-    {
-      "id": "95578de3851b",
-      "title": "Google says Polymarket bets showing up in News was an ‘error’",
-      "url": "https://www.theverge.com/tech/910691/google-news-polymarket-bets-error",
-      "summary": "予測市場Polymarketの賭けがGoogleニュース上で正規の記事と並んで表示されていたが、Googleは「誤表示」として該当結果を削除。賭けは具体的な時事事象に紐づいていた。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-11T15:07:47.000Z",
-      "contentHash": "fcf082b1cf26"
-    },
-    {
-      "id": "8af52cc2a64a",
-      "title": "Pokémon Champions is off to a rough start",
-      "url": "https://www.theverge.com/games/910110/pokemon-champions-bugs-balance-issues-vgc-newcomers",
-      "summary": "『ポケモン チャンピオンズ』はSwitch/Switch2向けの無料開始バトルシム。発売初期はバグや戦闘不具合が多いが一部は修正済み。競技性を目指す設計がかえって誰の満足も得られない恐れがある。モバイル版も後日配信予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-11T15:00:00.000Z",
-      "contentHash": "23077ce27d4b"
-    },
-    {
-      "id": "485ee0817c72",
-      "title": "Your article about AI doesn’t need AI art",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai",
-      "summary": "ニューズァーカーのサム・アルトマン特集の挿絵はデイヴィッド・サゾーダー名義だが「Generated using A.I.」と明記されたAI生成。複数の不気味な顔を配して不信を示す表現で、名門誌の生成AI採用と創作工程の希薄化への批判を招いている。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-11T15:00:00.000Z",
-      "contentHash": "be4d3003df17"
-    },
-    {
-      "id": "7a376d324ba1",
-      "title": "Google’s latest Nest Doorbells just hit their lowest prices of the year",
-      "url": "https://www.theverge.com/gadgets/910472/google-nest-doorbell-wired-battery-powered-deal-sale",
-      "summary": "GoogleのNest Doorbellが年内最安値に。電池式（第2世代）がAmazon/Best Buyで129.99ドル（50ドル引）、有線（第3世代）が139.99ドル（40ドル引）で販売。高画質と購読不要のスマート通知が特長。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-11T15:00:00.000Z",
-      "contentHash": "b02fedc84ae2"
-    },
-    {
-      "id": "9c97241177f2",
-      "title": "The future of everything is lies, I guess – Part 5: Annoyances",
-      "url": "https://aphyr.com/posts/415-the-future-of-everything-is-lies-i-guess-annoyances",
-      "summary": "aphyrは、分散システムや監視、キャッシュ、機械学習などで「近似」や表示の省略が常態化し、結果的にユーザーに誤情報（＝嘘）を伝えてしまう現状を批判。具体例を示しつつ、不確実性や出所を正直に示す設計・可視化の重要性を訴えている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-11T14:32:39.000Z",
-      "contentHash": "b43cb93fe2fc"
     }
   ]
 }
