@@ -1,6 +1,231 @@
 {
-  "generatedAt": "2026-04-30T17:40:12.165Z",
+  "generatedAt": "2026-05-01T04:15:01.541Z",
   "items": [
+    {
+      "id": "3c8bd07284fb",
+      "title": "Unixにおけるリダイレクト処理を改めて確認 &amp;gt;file 2&amp;gt;&amp;amp;1 は実際にはなにをやっているのか | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/05/01/111453",
+      "summary": "開発2部の内原が、シェルのリダイレクト（>fileや2>&1）がカーネルやプロセスレベルで何をするかを、ファイルディスクリプタとUnixシステムコールの観点から解説。fdはプロセスごとにカーネルが管理するファイルテーブルへの整数インデックスであると説明する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-01T02:14:53.000Z",
+      "contentHash": "89a0ba38a3db"
+    },
+    {
+      "id": "f42afba78394",
+      "title": "RubyKaigi 2026参加レポート —— 2026年新卒エンジニアが体験したセッション・ブース・市電LT | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/05/01/110623",
+      "summary": "SmartHRの新卒プロダクトエンジニア@itojumが、社員として初めて函館のRubyKaigi 2026に参加。セッションや社内外のRubyistとの交流で刺激を受け、特にtagomoris氏の基調講演など二つのセッションが印象的だった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-01T02:06:23.000Z",
+      "contentHash": "4c8349837f0b"
+    },
+    {
+      "id": "7404486640d4",
+      "title": "YAML×AIで脱Excel地獄！テストの本質に思考を集中させよう | CADDi Tech Blog",
+      "url": "https://caddi.tech/2026/05/01/110000",
+      "summary": "Control Planeの小森が、複数チーム開発でアーキテクトとしてシステムテスト準備を主導した経験を紹介。AIエージェントを活用し、テストケース作成の品質向上と効率化を図った事例を解説する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-01T02:00:00.000Z",
+      "contentHash": "139f7c8b52ae"
+    },
+    {
+      "id": "6dd45883e823",
+      "title": "AIの仕組みを知らなかったエンジニアがG検定を受けてみた話 | hacomono TECH BLOG",
+      "url": "https://techblog.hacomono.jp/entry/2026/05/01/110000",
+      "summary": "hacomonoの森山（せっちゃん）が、AI・ディープラーニングのジェネラリスト資格G検定を受験し、勉強法を記録した記事。Claude CodeやGemini、Stable Diffusionなど日常的にAIを使う中で利便性を感じつつ、基礎理解を深めるために学習した経緯と方法を紹介している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-01T02:00:00.000Z",
+      "contentHash": "e7a019b9af49"
+    },
+    {
+      "id": "6feff5ff6b74",
+      "title": "2025年度 バックボーン構成変更とトラフィック状況の振り返り | シナプス技術者ブログ",
+      "url": "https://tech.synapse.jp/entry/2026/05/01/110000",
+      "summary": "サービスシステム運用課の末吉氏が、2025年度に鹿児島〜福岡〜大阪間のバックボーンを100G化し上流回線を見直した結果、平常時の増加やイベント時の急増トラフィックに対応しやすくなったことをトラフィック推移や拠点比率で振り返る記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-01T02:00:00.000Z",
+      "contentHash": "1794e98a4d91"
+    },
+    {
+      "id": "d4c400213976",
+      "title": "【お知らせ】弥生のエンジニアXが復活します！ | 弥生開発者ブログ",
+      "url": "https://tech-blog.yayoi-kk.co.jp/entry/2026/05/01/110000",
+      "summary": "弥生の開発ブログ担当・川上です。5月1日、休止していた弥生エンジニア公式Xを再始動しました。単なる復活ではなく、エンジニア発信の在り方を見直す第一歩として技術発信を強化していきます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-01T02:00:00.000Z",
+      "contentHash": "66e7629dd495"
+    },
+    {
+      "id": "52ab02337cc8",
+      "title": "【Nishika 論文サク読み 第7回】音声認識と大規模言語モデルの融合 | Nishika Tech Blogのフィード",
+      "url": "https://zenn.dev/team_nishika/articles/fa5b10c85b8377",
+      "summary": "NishikaでAIエンジニアインターンをしている笠原です。コンペ参加がきっかけでR&D業務に従事し貴重な経験を得ています。最近読んだASR論文「Speech Recognition Meets Large Language Model（AAAI 2025）」を簡潔に共有します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-01T01:54:58.000Z",
+      "contentHash": "af84f05e09af"
+    },
+    {
+      "id": "ad9c13a2a6c6",
+      "title": "Codex のiOSアプリ開発のためのプロンプトまとめ",
+      "url": "https://note.com/npaka/n/n51962b239b68",
+      "summary": "CodexでiOS SwiftUIアプリの雛形作成、xcodebuild/TuistでCLIビルドループ、XcodeBuildMCPで高度自動化。SwiftUI系スキルで設計・性能・並行処理・リファクタ支援。反復は明確なプロンプトで。",
+      "source": "npaka",
+      "publishedAt": "2026-05-01T00:14:37.000Z",
+      "contentHash": "4fb5721f6b46"
+    },
+    {
+      "id": "b04e6b1c80ec",
+      "title": "The craziest part of Musk v. Altman happened while the jury was out of the room",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/921713/musk-v-altman-jared-birchall-screw-up-xai",
+      "summary": "イーロン・マスクとサム・アルトマンのOpenAI裁判で、陪審退廷中にマスクの資産管理人ジャレッド・バーシャルが答えてはいけない質問に答えてしまった。影響は不明と報じられる。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-30T22:59:51.000Z",
+      "contentHash": "6f098d1c388d"
+    },
+    {
+      "id": "4e837202c532",
+      "title": "Codex のゲーム開発のためのプロンプトまとめ",
+      "url": "https://note.com/npaka/n/n8fb9f73d2ce3",
+      "summary": "Codexでのブラウザゲーム開発まとめ。PLAN.mdで目的・メインループ・操作・勝敗・難度・ビジュアル・技術・マイルストーンを定義し、AGENTS.mdでスタックや指示を与える。Playwrightで動作検証、ImageGenでアセット生成、作業は`.logs/`に記録。",
+      "source": "npaka",
+      "publishedAt": "2026-04-30T22:31:38.000Z",
+      "contentHash": "a0609a1acd52"
+    },
+    {
+      "id": "c47d1e3a21ec",
+      "title": "Roblox’s daily users continue to drop as age checks slow growth",
+      "url": "https://www.theverge.com/games/921694/roblox-q1-2026-132-million-dau",
+      "summary": "Robloxはここ6か月で日間利用者が約1億5200万→1億3200万と2000万減少。年齢確認導入が新規獲得を鈍らせ、ロシアでの禁止も影響。米加は100万減だが収益は14億ドルに増加。年齢制限や改善を今後も進める。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-30T21:25:15.000Z",
+      "contentHash": "08a9cebf1f4b"
+    },
+    {
+      "id": "6791765eeff0",
+      "title": "Codex のユースケースまとめ",
+      "url": "https://note.com/npaka/n/nc4fd318fbead",
+      "summary": "OpenAIのCodexは単なるコード生成を超え、実装・レビュー・調査・自動化・品質管理まで担う実務向けAI。PRレビューや大規模コード解析、フロント／iOS・macOS開発、データ分析、バグトリアージやQA自動化など多用途に使える。",
+      "source": "npaka",
+      "publishedAt": "2026-04-30T21:17:59.000Z",
+      "contentHash": "96f140936290"
+    },
+    {
+      "id": "991c2b4678b4",
+      "title": "Congress keeps kicking surveillance reform down the road",
+      "url": "https://www.theverge.com/policy/921652/congress-fisa-section-702-45-day-extension",
+      "summary": "米議会は外国情報監視法（セクション702）を45日間延長。捜査令状の義務化は見送られ、軽微な修正とFRBの中央銀行デジタル通貨禁止条項が盛り込まれ、改正協議は続く。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-30T20:59:58.000Z",
+      "contentHash": "718913f380a8"
+    },
+    {
+      "id": "1c559c6ba73c",
+      "title": "Apple&#8217;s iPhone revenue jumps to $57 billion despite chip shortages",
+      "url": "https://www.theverge.com/tech/921527/apple-iphone-revenue-q2-2026-earnings",
+      "summary": "アップルのiPhone収益が半導体不足下でも22%増の570億ドルに達し、四半期収益は1112億ドルで過去最高となった。クックCEOは需要は旺盛だが部品供給に制約があると述べ、9月に退任、ジョン・ターナスが後任予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-30T20:58:22.000Z",
+      "contentHash": "808ec733c7df"
+    },
+    {
+      "id": "415dafa077e7",
+      "title": "Rivian’s revenue is up as R2 production kicks into gear",
+      "url": "https://www.theverge.com/transportation/921295/rivian-q1-2026-earnings-revenue-profit-r2",
+      "summary": "RivianはQ1 2026で売上13.8億ドル（前年同期比11.3%増）、生産10,236台（同30%増）、販売10,365台（同20%増）を報告。R2生産が本格化し、通年62,000–67,000台目標を維持、年内の粗利益黒字化を目指す。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-30T20:05:00.000Z",
+      "contentHash": "e61a4a595b51"
+    },
+    {
+      "id": "2ab05d6d40b8",
+      "title": "Rivian downsizes new EV factory after Trump’s DOE slashes loan agreement",
+      "url": "https://www.theverge.com/transportation/921585/rivian-georgia-factory-capacity-doe-loan",
+      "summary": "Rivianはジョージア州の新工場について、DOEが融資を66億ドルから45億ドルに削減したため、年産能力を当初予定の40万台から30万台に縮小。ただし30万台には当初より早く到達する見込み。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-30T20:05:00.000Z",
+      "contentHash": "e236599d713e"
+    },
+    {
+      "id": "dbb28bfa9dfb",
+      "title": "Vercel’s pricing page",
+      "url": "https://theupsellgame.com/",
+      "summary": "すみません、外部サイトに直接アクセスできません。記事本文を貼っていただくか、要点を教えてください。それを基に200文字以内の日本語要約（HNコメントの要約も可）を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-30T20:02:35.000Z",
+      "contentHash": "405be1a16e94"
+    },
+    {
+      "id": "5502efaa89f7",
+      "title": "The logic of the racist Supreme Court isn’t adding up",
+      "url": "https://www.theverge.com/policy/921597/callais-louisiana-voting-rights-act",
+      "summary": "最高裁がルイジアナ州で投票権法第2条を事実上崩し、人種差別是正の区割りを違憲と判断。黒人約30%の州で多数派黒人区が6区中2区（33%）→1区（17%）に減ると批判されている。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-30T19:52:29.000Z",
+      "contentHash": "7114fec3404c"
+    },
+    {
+      "id": "c44d9b62a1ab",
+      "title": "U.S. Senators Vote to Ban Themselves from Trading on Prediction Markets",
+      "url": "https://www.wsj.com/politics/policy/senators-vote-to-ban-themselves-from-trading-on-prediction-markets-ae4535dd",
+      "summary": "上院は議員やスタッフらが政治的結果を賭ける予測市場で取引することを禁じる規則を可決した。利益相反やインサイダー取引の懸念に対応する倫理改革で、賛否が分かれる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-30T19:42:33.000Z",
+      "contentHash": "8b77a07ce6fc"
+    },
+    {
+      "id": "8dbc8eebcdfd",
+      "title": "LinkedIn is scanning browser extensions",
+      "url": "https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/",
+      "summary": "LinkedInがブラウザ拡張をスキャンし、2017年以降ツールでChrome拡張を収集・追跡、現在6,278件を記録。開発者ツールで確認でき、未同意の個人特定やプライバシー侵害が懸念される。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-30T19:40:20.000Z",
+      "contentHash": "dfb6f31058a6"
+    },
+    {
+      "id": "2935dbdd608b",
+      "title": "Microsoft’s Xbox mode is now available for all Windows 11 PCs",
+      "url": "https://www.theverge.com/news/921582/microsoft-xbox-mode-windows-11",
+      "summary": "マイクロソフトはWindows 11向けに「Xbox mode」を全PCへ展開開始。Xbox PCアプリの全画面インターフェイスでSteamのBig Pictureに類似し、AsusのXbox Allyで試験導入されたFSEを発展。最新のWindows更新で順次利用可能になり、コンソールとWindowsの溝を埋める狙い。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-30T19:14:23.000Z",
+      "contentHash": "a7e63ac60838"
+    },
+    {
+      "id": "0d19b56ee017",
+      "title": "Meta threatens to pull its apps from New Mexico if forced to make ‘technologically impractical’ changes",
+      "url": "https://www.theverge.com/policy/921557/meta-threatens-leaving-new-mexico",
+      "summary": "ニューメキシコ州で375百万ドルの陪審判決後、州司法長官が未成年のE2E暗号禁止、年齢確認、新規CSAM検知99％などの措置を請求。Metaは技術的に不可能としてFacebook・Instagram・WhatsAppを州から撤退する可能性を示唆。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-30T19:05:01.000Z",
+      "contentHash": "97d6e98eda54"
+    },
+    {
+      "id": "672336ed0b72",
+      "title": "With Saros, Housemarque makes a case for doing next-gen games differently",
+      "url": "https://www.theverge.com/games/921391/housemarque-interview-saros-ps5",
+      "summary": "ハウスマークは新作『Saros』で、次世代機の表現は写実追求より派手な演出と遊びを重視すべきと主張。ソニー傘下のフィンランド開発らしく、アーケード的な表現で差別化を図る。",
+      "source": "The Verge",
+      "publishedAt": "2026-04-30T19:00:45.000Z",
+      "contentHash": "31f5fe47ec5d"
+    },
+    {
+      "id": "24d12a3c2e33",
+      "title": "Full-Text Search with DuckDB",
+      "url": "https://peterdohertys.website/blog-posts/full-text-search-w-duckdb.html",
+      "summary": "この記事はDuckDBの全文検索(FTS)を解説するフォロー記事です。ElasticsearchやPostgresと比較しつつ、DuckDBのFTS拡張が提供するステミング、ストップワード、アクセント除去やOkapi BM25（k₁、b）などの機能を概説します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-30T18:14:18.000Z",
+      "contentHash": "b3fe29eec260"
+    },
+    {
+      "id": "125dcbe3b323",
+      "title": "I built a Game Boy emulator in F#",
+      "url": "https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/",
+      "summary": "著者は基礎学習（From NAND to Tetris）とCHIP-8実装を経て、Game Boyエミュレータ「Fame Boy」を作成。音声対応でデスクトップ/ブラウザ動作。コアとフロントは単純な配列と関数で分離し、CPUは実機LR35902に準拠、メモリとIOをモジュール化している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-30T17:14:21.000Z",
+      "contentHash": "7ea6e72376df"
+    },
     {
       "id": "41c83ec293ad",
       "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
@@ -27,6 +252,33 @@
       "source": "The Verge",
       "publishedAt": "2026-04-30T16:45:06.000Z",
       "contentHash": "176b0cedc4f8"
+    },
+    {
+      "id": "f3314b889779",
+      "title": "For Linux kernel vulnerabilities, there is no heads-up to distributions",
+      "url": "https://www.openwall.com/lists/oss-security/2026/04/30/10",
+      "summary": "blistsによる配信。対応するOpen Source Software Security Wikiを参照してください。メーリングリストの使い方が分からない場合はWikipediaとメッセージの書式ガイドを確認しましょう。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-30T16:43:47.000Z",
+      "contentHash": "95636f0085fd"
+    },
+    {
+      "id": "2bfeb3b388c1",
+      "title": "How Mark Klein told the EFF about Room 641A [book excerpt]",
+      "url": "https://thereader.mitpress.mit.edu/the-whistleblower-who-uncovered-the-nsas-big-brother-machine/",
+      "summary": "NSAの内部告発者が同局の大規模監視プログラム（通話・通信の収集や監視システム）を暴露し、プライバシー対国家安全の議論を国際的に喚起した経緯と告発者の運命を描く記事。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-30T16:41:00.000Z",
+      "contentHash": "2c67534a9c4d"
+    },
+    {
+      "id": "af33d9e57fe1",
+      "title": "Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library",
+      "url": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/",
+      "summary": "PyPIパッケージ \"lightning\" の2.6.2/2.6.3（2026-04-30公開）が供給網攻撃で改ざん。読み込み時に難読化JSが実行され資格情報・環境変数・クラウド秘密を窃取しGitHubを汚染。Shai‑Hulud系の手口。Semgrepルールでスキャン、トークン回転、リポジトリ（.claude/.vscode）監査を推奨。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-30T16:09:26.000Z",
+      "contentHash": "d473c27ba207"
     },
     {
       "id": "eca2914072ae",
@@ -68,10 +320,10 @@
       "id": "3b2d5a8da2b6",
       "title": "Spain's parliament will act against massive IP blockages by LaLiga",
       "url": "https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/",
-      "summary": "スペイン下院は、ラ・リーガが海賊版対策で行った大規模なIP遮断が無関係なサービスに被害を与えた問題を受け、過度なIPブロッキングを制限し比例性を確保する規制や司法運用の見直しを進める方針を示した。",
+      "summary": "スペイン下院は、ラ・リーガが著作権対策で大量のIP／IPレンジを遮断し多数の副次被害を生んだ問題を受け、恣意的・過度なIPブロッキングを制限する法的対策を進める方針を示した。",
       "source": "Hacker News",
       "publishedAt": "2026-04-30T15:31:40.000Z",
-      "contentHash": "4351714b8f10"
+      "contentHash": "b8a159e5b7fd"
     },
     {
       "id": "1d606b09d252",
@@ -815,10 +1067,10 @@
       "id": "c5eff5926075",
       "title": "Isaac Sim の ROS2 Transform Trees と Odometry を試す",
       "url": "https://note.com/npaka/n/n04d1752d2dd3",
-      "summary": "Isaac Sim 5.1でROS2のTransform Trees(/tf)とOdometry(/odom)を検証。各センサーやロボットの座標フレームを/tfでツリー管理し、/odomはodom→base_linkの相対的な移動推定を示す。Navigation/SLAMではmap→odom→base_link構成を用い、URDF準備の上でtfをpublishした。",
+      "summary": "Isaac SimでROS2のTransform Trees(/tf)とOdometry(/odom)を検証。センサやロボットの座標フレームの親子関係を/tfで管理し、/odomはodom→base_linkの相対的な位置・姿勢・速度を配信。誤差蓄積対策にmap→odom→base_link構成を利用。",
       "source": "npaka",
       "publishedAt": "2026-04-29T06:50:56.000Z",
-      "contentHash": "a58d0d7e49a3"
+      "contentHash": "f30f68bd126b"
     },
     {
       "id": "3456dcc30ba9",
@@ -860,10 +1112,10 @@
       "id": "3c058c8ab609",
       "title": "Claude の Adobe for creativity の使い方",
       "url": "https://note.com/npaka/n/n6841ac39cc4c",
-      "summary": "2026年4月28日、AdobeとAnthropicがClaude用Connector「Adobe for creativity」を公開。チャットからPhotoshop等を呼び出し、自然文で写真編集・デザイン作成・動画リサイズ・一括編集・SNS向け変換が可能。導入はClaude Desktopでコネクタ追加→Adobeでサインイン。",
+      "summary": "Claudeの新Connector「Adobe for creativity」で、チャットからPhotoshop/Firefly等のAdobeツールを呼び出し、写真レタッチ、デザイン制作、動画リサイズや一括編集を自然文で指示可能。導入はClaudeでコネクタ追加後、Adobeアカウントでサインインするだけ。",
       "source": "npaka",
       "publishedAt": "2026-04-29T01:50:16.000Z",
-      "contentHash": "f9f2ec0fc0d2"
+      "contentHash": "9e753cabb413"
     },
     {
       "id": "960accfa8ca5",
@@ -887,10 +1139,10 @@
       "id": "925fcfa363d5",
       "title": "Claude の Blender Connector の使い方",
       "url": "https://note.com/npaka/n/nfc0bc102fd97",
-      "summary": "ClaudeのBlender Connectorは、会話でBlenderを操作できるツール。Claude DesktopとBlenderアドオンを接続して使用。名前整理、ジオメトリノード解析とラベル追加、マテリアル依存調査、ポリゴン過多の重いオブジェクト検出などの活用例を紹介。",
+      "summary": "ClaudeのBlender Connectorは、ClaudeからBlenderを操作・解析できるツール。Claude DesktopとBlenderアドオンを連携して利用。名前整理、ジオメトリノード説明、マテリアル依存調査、ポリゴン多い重いオブジェクト検出などが可能。",
       "source": "npaka",
       "publishedAt": "2026-04-28T23:54:40.000Z",
-      "contentHash": "23e735073f9e"
+      "contentHash": "4cf7ded84bdf"
     },
     {
       "id": "eff9c0ae32bc",
@@ -923,10 +1175,10 @@
       "id": "dcb9ca989d60",
       "title": "Blender・Autodesk・AdobeとつながるClaudeの新Connector",
       "url": "https://note.com/npaka/n/n7864b38c7432",
-      "summary": "ClaudeがBlender、Autodesk、Adobe、Ableton、Spliceなどと連携する新Connectorを発表。自然言語での操作やスクリプト生成、アセット同期、バッチ処理、BlenderのPython API制御などで制作ワークフローを自動化・効率化する。",
+      "summary": "ClaudeがBlender、Autodesk、Adobe、Ableton、Splice等と連携する新Connectorを発表。自然言語で操作や学習、スクリプト自動生成、アセット同期・バッチ処理を行え、BlenderではPython API経由でシーン操作やツール追加・デバッグを支援。",
       "source": "npaka",
       "publishedAt": "2026-04-28T23:07:08.000Z",
-      "contentHash": "9caaf71f9db0"
+      "contentHash": "1a89ceea18d0"
     },
     {
       "id": "c78efead009c",
@@ -8748,258 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-13T08:20:32.000Z",
       "contentHash": "3a05d15cf761"
-    },
-    {
-      "id": "c7b3de3363a0",
-      "title": "Huawei beats Apple and Samsung with new wide foldable",
-      "url": "https://www.theverge.com/tech/910867/huawei-pura-x-max-foldable-phone-wide-china",
-      "summary": "Huaweiは4月20日に中国で折りたたみ機Pura X Maxを発表。噂のiPhone Foldと似た“パスポート”型の横長比率を採用し、青・白・橙・黒の色展開、トリプル背面カメラ、グリッド模様の背面を継承。横長画面で横向き動画に最適化され、AppleやSamsungより先行。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-13T08:13:41.000Z",
-      "contentHash": "10e41e23bac3"
-    },
-    {
-      "id": "b36cd318a985",
-      "title": "Vercel Labs の「emulate」を試してみた | every Tech Blog",
-      "url": "https://tech.every.tv/entry/2026/04/13/170936",
-      "summary": "Vercel LabsのローカルAPIエミュレータ「emulate」を試用。GitHub/GoogleやAWS等12サービスをステートフルに再現し、npxで起動。Bearerトークンで簡易認証・adminフォールバックがあり、AWS SDK(v3)のS3互換やOAuth実装、本番切替を検証。S3利用にはエンドポイント等の調整が必要だった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T08:09:36.000Z",
-      "contentHash": "5d82fbb2fcea"
-    },
-    {
-      "id": "0eb213faf66a",
-      "title": "AI-Readyとは？企業がAIを活用できる組織・データ基盤を整える方法を解説 | スマートスタイル TECH BLOG",
-      "url": "https://blog.s-style.co.jp/2026/04/16006/",
-      "summary": "企業がAIを本格活用するには、ツール導入だけでなくデータ整備、運用体制やガバナンスの構築など組織全体で「AI-Ready」な状態を整えることが重要だ。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T08:05:48.000Z",
-      "contentHash": "8a0eca32f731"
-    },
-    {
-      "id": "a2e568e4b4dc",
-      "title": "【ミラティブ】try! Swift Tokyo 2026にスポンサーとして協賛します | Mirrativ Tech Blog",
-      "url": "https://tech.mirrativ.stream/entry/2026/04/13/170112",
-      "summary": "ミラティブはSwiftカンファレンス「try! Swift Tokyo 2026」にブロンズスポンサーとして協賛（4/12〜14、立川）。SwiftでMirrativを開発し、コミュニティ貢献や社外発信を推進、技術ブログ公開とエンジニア採用も実施。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T08:01:12.000Z",
-      "contentHash": "c0106461c7ad"
-    },
-    {
-      "id": "66b60ed0e4d3",
-      "title": "[Informatica] IDMC REST API入門（第1回）：REST APIの基本とログイン | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/38c27ecb9e4435",
-      "summary": "Informatica IDMCのREST API入門（第1回）。ログイン方法と本シリーズで使うAPI一覧を解説。RunAJobより汎用性の高いREST活用を目的とし、サンプルは説明用で運用上の注意を明記。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T08:00:06.000Z",
-      "contentHash": "1bb25c284ef6"
-    },
-    {
-      "id": "23303b6d08a3",
-      "title": "GitHub の設定を増やすより、運用の曖昧さを減らしたかった — ぐるなびウエディングで見直した GitHub 運用 | ぐるなびをちょっと良くするエンジニアブログ",
-      "url": "https://developers.gnavi.co.jp/entry/github-operation/",
-      "summary": "ぐるなびウエディングのGitHub運用見直し。設定追加より「曖昧さ」を減らす方針で、PRテンプレでwhyを明示、CODEOWNERS＋自動ラベルで責務とレビュー先を明確化、依存更新は緊急度別に運用分離し自動化は失敗検知まで設計、リリース承認を集約、可視化は状態共有に限定。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T08:00:00.000Z",
-      "contentHash": "9c5098e9d911"
-    },
-    {
-      "id": "e212898e4afd",
-      "title": "スタートアップCTOが、M3のAIチームに転職して3か月。感じた不安と、その答え。 | エムスリーテックブログ",
-      "url": "https://www.m3tech.blog/entry/2026/04/13/170000",
-      "summary": "スタートアップCTOがM3のAIチームに転職して3か月。入社前の「歯車化・裁量喪失・スキル不足・分野違い・上場企業の堅さ」への不安はほぼ解消。裁量は保たれ、我流が活き、学びの文化やツールで成長できたと報告。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T08:00:00.000Z",
-      "contentHash": "7688d219b5b0"
-    },
-    {
-      "id": "206302c0dbea",
-      "title": "スキャン費用を最大89%削減！BigQueryの ARRAY 活用で大容量ログ分析を最適化 | pixiv inside",
-      "url": "https://inside.pixiv.blog/2026/04/13/170000",
-      "summary": "BigQueryのARRAYを使い、キーごとにイベントを配列化して行数とスキャン量を削減（最大89%）。1行100MB制限はchunk_numberで回避し、メタデータでUNNEST誤りを防ぎ、データマート乱立を避けつつ柔軟な後付け分析を実現。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T08:00:00.000Z",
-      "contentHash": "c535d9ad19a6"
-    },
-    {
-      "id": "4586c5f3db35",
-      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
-      "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
-      "summary": "CloudflareがAgent CloudにOpenAIのGPT-5.4とCodexを導入し、企業が実世界の業務向けAIエージェントを高速かつ安全に開発・展開・拡張できるようにした。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-13T06:00:00.000Z",
-      "contentHash": "e07e4984a8e9"
-    },
-    {
-      "id": "0480d2e9f5a8",
-      "title": "Teamsアプリのアイコンは公式ピクセル数を守らなくていい？ | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/6c3b6fe16136d3",
-      "summary": "Teamsアプリアイコンの192×192/32×32は推奨値で、必ず守る必要はなさそうです。実際に1956×1956で登録・表示でき、Microsoftも「推奨」と回答。ただし保証はなく自己責任。PowerPointで透過outlineを作る方法も紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T02:55:22.000Z",
-      "contentHash": "61a7a5ef012f"
-    },
-    {
-      "id": "f3579fa50e2f",
-      "title": "SREを「努力」から「仕組み」へ — Platform Engineeringという選択 | 株式会社ログラス テックブログのフィード",
-      "url": "https://zenn.dev/loglass/articles/f4dda877788337",
-      "summary": "ログラスは1年でアラート整理、開発者によるCI/CDセルフ化、インシデントコマンダー確立などSREを推進したが、複数設定による認知負荷で民主化が進まず、Platform Engineeringで仕組み化して解決を図る。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T02:48:27.000Z",
-      "contentHash": "718b6cf8f2ee"
-    },
-    {
-      "id": "a32113bf63b4",
-      "title": "【GmailからExchange Onlineへの移行】Exchange管理センターで使用できる移行ツールで移行する方法 | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/04/13/114755",
-      "summary": "Exchange管理センターの移行ツールでGmailからExchange Onlineへ移行する手順を解説。移行元/先を記載したCSVを用意し、Google Workspaceを選択してエンドポイント指定、ユーザーメールボックスをインポート、フィルターやスケジュールを設定して移行バッチ（最大100件、1件300ユーザー）を作成・実行します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T02:47:55.000Z",
-      "contentHash": "117e7d582d1e"
-    },
-    {
-      "id": "b0683c508ec0",
-      "title": "AzureでHub-Spoke構成と閉域App Serviceを作り、Bastion経由でWebアプリにアクセス | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/e21f42e49a8ea6",
-      "summary": "AzureでHub‑Spokeを構築し、App ServiceとACRを閉域化、運用者はBastion経由の作業VMからのみアクセスする構成を検証した記録。App Serviceはoutbound用とPrivate Endpoint用にサブネットを分離。HubにAzure FirewallやDNS Private Resolverを置いたがUDRやカスタムDNS未設定で実際の通信はFirewallを経由しておらず、記事後半で不要部分を削った最終構成を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T02:34:18.000Z",
-      "contentHash": "5918622a2fc7"
-    },
-    {
-      "id": "e75098f75af1",
-      "title": "仕様ですか？不具合ですか？ — 未来のチームを救うために「Why」を残す | Cybozu Inside Out | サイボウズエンジニアのブログ",
-      "url": "https://blog.cybozu.io/entry/2026/04/13/113000",
-      "summary": "サイボウズのQAエンジニアが、仕様の「なぜ（Why）」を記録する重要性を提唱。背景が残らないと仕様と不具合の判別や改修判断が困難になり、過去記録や比較で“考古学”的に理由を掘り起こす必要があると述べる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T02:30:00.000Z",
-      "contentHash": "fbf02b11bc96"
-    },
-    {
-      "id": "439f456a4b1e",
-      "title": "Claude Code Marketplaceを使ったSkillのチーム展開とPlugin化の恩恵 | 株式会社ヘンリー エンジニアブログ",
-      "url": "https://dev.henry.jp/entry/claude-code-marketplace",
-      "summary": "Claude CodeのMarketplaceを導入し、個人用とチーム用Skillを分離。チーム向けはStarter Kit化してGitHubリポジトリをMarketplace化、PluginでSkillやAgentをまとめ配布。登録はコマンド一発で簡単。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T02:30:00.000Z",
-      "contentHash": "9616d4e3cfef"
-    },
-    {
-      "id": "31dab8c58f0e",
-      "title": "コドモン春のブログリレー、始まります！ | コドモン Product Team Blog",
-      "url": "https://tech.codmon.com/entry/2026/04/13/112523",
-      "summary": "コドモン開発チームが4月〜6月に初の「春のブログリレー」を開催。約30名が執筆し、AI・ペアプログラミング・セキュリティなどを2〜3日おきに公開。知見共有と採用PRが目的。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T02:25:23.000Z",
-      "contentHash": "924f3ff18326"
-    },
-    {
-      "id": "4a26bdb9788e",
-      "title": "【特集】三角関数やベクトルはどこで役立つ？実は3DやCADの世界で大活躍！ | DTダイナミクス テックブログ",
-      "url": "https://techblog.dt-dynamics.com/entry/2026/04/13/111220",
-      "summary": "三角関数やベクトル（内積・外積）は3D/CADで位置・角度・方向を計算する幾何計算に不可欠。sin/cosは回転やカメラ、内積は光や視界判定、外積は法線計算に使われ、ロボット制御や3Dゲーム、AR/VR、ドローン、自動運転などで広く応用される。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T02:12:20.000Z",
-      "contentHash": "141d53d64174"
-    },
-    {
-      "id": "0ddf1430d7b2",
-      "title": "Tech valuations are back to pre-AI boom levels",
-      "url": "https://www.apollo.com/wealth/the-daily-spark/tech-valuations-back-to-pre-ai-boom-levels",
-      "summary": "AIブームで高騰した米テック株のバリュエーションが縮小し、AI熱前の水準に回帰。市場は成長期待から収益性重視へ転換し、一部の有力AI銘柄を除きマルチプルは正常化している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-12T22:13:22.000Z",
-      "contentHash": "f7e788ce43f5"
-    },
-    {
-      "id": "79baab55c041",
-      "title": "Room for the Moon is thrillingly weird experimental pop",
-      "url": "https://www.theverge.com/entertainment/910826/room-for-the-moon-is-thrillingly-weird-experimental-pop",
-      "summary": "Kate NVの2020年作『Room for the Moon』は、70〜80年代のロシア・日本ポップや児童映画に影響を受けた実験的で奇妙かつ遊び心あるポップアルバム。従来の音楽形式に対する軽やかな反抗として評価されている。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-12T20:00:00.000Z",
-      "contentHash": "b1201b52afc5"
-    },
-    {
-      "id": "d8ad30fe4e95",
-      "title": "Google removes \"Doki Doki Literature Club\" from Google Play",
-      "url": "https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t",
-      "summary": "申し訳ありませんが、外部リンクの内容を直接取得できません。要約する本文（または重要な抜粋）をここに貼り付けてください。Hacker Newsのコメントも含めてまとめたいか（または投稿のみか）を教えてください。200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-12T19:53:08.000Z",
-      "contentHash": "6f4990f8d7ea"
-    },
-    {
-      "id": "07c739b221e3",
-      "title": "European AI. A playbook to own it",
-      "url": "https://europe.mistral.ai/",
-      "summary": "パリ発のAI企業Mistralの欧州向けサイトで、高性能のオープンソースLLMやAPI、研究成果とモデル提供、商用展開に関する情報を紹介し、EU内でのデータ保護やコンプライアンス対応にも言及している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-12T19:51:06.000Z",
-      "contentHash": "42ca3ebdac28"
-    },
-    {
-      "id": "31c08bad7c1c",
-      "title": "The peril of laziness lost",
-      "url": "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/",
-      "summary": "申し訳ありませんが、現在外部URLを直接参照できません。記事本文を貼り付けていただければ、200文字以内で要約します。内容提供が難しければ、「推測で良い」旨を教えてください。短く推測要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-12T19:44:40.000Z",
-      "contentHash": "a2a0e0d81c63"
-    },
-    {
-      "id": "e684ecf6b4cd",
-      "title": "Viktor Orbán concedes defeat after 'painful' election result",
-      "url": "https://apnews.com/article/hungary-election-orban-magyar-trump-1a4eb0ba6b94e0c80c3cd18bd36254ab",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事全文か主要段落を貼っていただければ、200字以内で日本語に要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-12T19:37:15.000Z",
-      "contentHash": "e4e28a070f6f"
-    },
-    {
-      "id": "d6b42ecd2291",
-      "title": "The Closing of the Frontier",
-      "url": "https://tanyaverma.sh/2026/04/10/closing-of-the-frontier.html",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文をここに貼っていただければ、200文字以内で日本語要約します。HNコメントも要約しますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-12T18:30:29.000Z",
-      "contentHash": "bb04cb2be941"
-    },
-    {
-      "id": "1282e32212f8",
-      "title": "Apple has removed most of the towns and villages in Lebanon from Apple maps?",
-      "url": "https://maps.apple.com/frame?center=33.723388%2C35.614698&span=1.983925%2C4.004193",
-      "summary": "そのリンク先にはこちらから直接アクセスできないため、記事（ツイート本文やHNコメント）を貼っていただけますか？貼っていただければ、200文字以内で日本語要約を作成します。ツイートのみ／HNコメントも含めるかも併せて教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-12T18:19:02.000Z",
-      "contentHash": "25c03565f9fe"
-    },
-    {
-      "id": "020e75b8917c",
-      "title": "Show HN: boringBar – a taskbar-style dock replacement for macOS",
-      "url": "https://boringbar.app/",
-      "summary": "Fedora/GNOMEからMacへ移行した作者が、Dockではなく現在のSpaceのウィンドウだけを表示するタスクバー「boringBar」を作成。スクロールでSpace移動、デスクトップ切替、Dock非表示、ピン留め、サムネプレビュー、検索起動などを備え、macOSでGNOME風の操作感を求める人向け。フィードバック募集中。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-12T17:25:44.000Z",
-      "contentHash": "cddd048cf7c4"
-    },
-    {
-      "id": "e600cd2af141",
-      "title": "Rockstar Games says hack will have ‘no impact’",
-      "url": "https://www.theverge.com/games/910815/rockstar-games-says-hack-will-have-no-impact",
-      "summary": "Rockstarは第三者サービスAnodot経由でSnowflakeが侵害され、ハッカー集団ShinyHuntersが身代金を要求。被害は限定的でプレイヤー情報に影響はなく、企業データが主に狙われた模様。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-12T17:02:00.000Z",
-      "contentHash": "845783bc3f7e"
-    },
-    {
-      "id": "bcfdc6d888ae",
-      "title": "DIY Soft Drinks",
-      "url": "https://blinry.org/diy-soft-drinks/",
-      "summary": "この記事は自宅で炭酸飲料を自作する手順やレシピを詳述。糖蜜やフレーバーの作り方、炭酸注入の方法（ソーダサイフォンや炭酸水メーカー）、コスト・環境面の利点と安全上の注意点、保存や応用例を紹介。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-12T16:38:43.000Z",
-      "contentHash": "d07cc9e71ec8"
     }
   ]
 }
