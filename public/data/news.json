@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-05-01T04:15:01.541Z",
+  "generatedAt": "2026-05-01T10:14:22.806Z",
   "items": [
+    {
+      "id": "ae110b0cef8d",
+      "title": "Codex のスラッシュコマンドまとめ",
+      "url": "https://note.com/npaka/n/n87a5c4364154",
+      "summary": "Codexのスラッシュコマンド一覧。/mcp /review /status /side /feedback /fork /plan /memory /model /compact /personality /reasoning /auto-review /fastなどで接続確認、コードレビュー、会話分岐、計画作成、メモ管理、設定切替を素早く行えます。",
+      "source": "npaka",
+      "publishedAt": "2026-05-01T06:51:29.000Z",
+      "contentHash": "4177e7a4459a"
+    },
     {
       "id": "3c8bd07284fb",
       "title": "Unixにおけるリダイレクト処理を改めて確認 &amp;gt;file 2&amp;gt;&amp;amp;1 は実際にはなにをやっているのか | every Tech Blog",
@@ -68,10 +77,10 @@
       "id": "ad9c13a2a6c6",
       "title": "Codex のiOSアプリ開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n51962b239b68",
-      "summary": "CodexでiOS SwiftUIアプリの雛形作成、xcodebuild/TuistでCLIビルドループ、XcodeBuildMCPで高度自動化。SwiftUI系スキルで設計・性能・並行処理・リファクタ支援。反復は明確なプロンプトで。",
+      "summary": "CodexでSwiftUIのスターターを生成し、xcodebuildやTuistなどCLI中心でビルドループを回す。高度化はXcodeBuildMCPやLiquid Glass、性能解析、並行処理、リファクタ等のSwiftUIスキルを追加し、具体的なプロンプトで反復開発を行う。",
       "source": "npaka",
       "publishedAt": "2026-05-01T00:14:37.000Z",
-      "contentHash": "4fb5721f6b46"
+      "contentHash": "e4bd48d37a10"
     },
     {
       "id": "b04e6b1c80ec",
@@ -83,13 +92,22 @@
       "contentHash": "6f098d1c388d"
     },
     {
+      "id": "cd3cbd2b1bf1",
+      "title": "CPanel and WHM Authentication Bypass – CVE-2026-41940",
+      "url": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/",
+      "summary": "cPanel&WHMの認証バイパス脆弱性CVE‑2026‑41940が全サポート版に影響。管理者権限を奪われる深刻な欠陥で、watchTowr LabsがAIで迅速検出・検証し、エッジで自動緩和する対策ルールを公開した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-04-30T22:48:51.000Z",
+      "contentHash": "f61f169f5072"
+    },
+    {
       "id": "4e837202c532",
       "title": "Codex のゲーム開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n8fb9f73d2ce3",
-      "summary": "Codexでのブラウザゲーム開発まとめ。PLAN.mdで目的・メインループ・操作・勝敗・難度・ビジュアル・技術・マイルストーンを定義し、AGENTS.mdでスタックや指示を与える。Playwrightで動作検証、ImageGenでアセット生成、作業は`.logs/`に記録。",
+      "summary": "Codexでのブラウザゲーム開発まとめ：まずPLAN.mdで仕様（目標・メインループ・操作・勝敗・難度・ビジュアル・技術・マイルストーン）を定義。Playwrightで反復テスト、ImageGenでアセット生成、OpenAI Docs参照。AGENTS.mdでCodex挙動を制御し、作業を`.logs/`に記録。",
       "source": "npaka",
       "publishedAt": "2026-04-30T22:31:38.000Z",
-      "contentHash": "a0609a1acd52"
+      "contentHash": "4a0a592ca20c"
     },
     {
       "id": "c47d1e3a21ec",
@@ -104,10 +122,10 @@
       "id": "6791765eeff0",
       "title": "Codex のユースケースまとめ",
       "url": "https://note.com/npaka/n/nc4fd318fbead",
-      "summary": "OpenAIのCodexは単なるコード生成を超え、実装・レビュー・調査・自動化・品質管理まで担う実務向けAI。PRレビューや大規模コード解析、フロント／iOS・macOS開発、データ分析、バグトリアージやQA自動化など多用途に使える。",
+      "summary": "OpenAIのCodexは単なるコード生成を超え、実装・レビュー・調査・自動化・品質管理を担う実務向けAI。PRレビューや大規模コード解析、Figma/スクショ→UIコード、iOS/macOS支援、データ分析・レポート、バグトリアージやQA自動化など多領域で活用可能。",
       "source": "npaka",
       "publishedAt": "2026-04-30T21:17:59.000Z",
-      "contentHash": "96f140936290"
+      "contentHash": "4509caa94369"
     },
     {
       "id": "991c2b4678b4",
@@ -149,10 +167,10 @@
       "id": "dbb28bfa9dfb",
       "title": "Vercel’s pricing page",
       "url": "https://theupsellgame.com/",
-      "summary": "すみません、外部サイトに直接アクセスできません。記事本文を貼っていただくか、要点を教えてください。それを基に200文字以内の日本語要約（HNコメントの要約も可）を作成します。",
+      "summary": "申し訳ありませんが、外部サイトへ直接アクセスできません。記事本文を貼るか主要箇所をコピーしていただければ、200文字以内で日本語要約します。HNコメントの要約も可能です。どちらを希望しますか？",
       "source": "Hacker News",
       "publishedAt": "2026-04-30T20:02:35.000Z",
-      "contentHash": "405be1a16e94"
+      "contentHash": "dc3b4056e896"
     },
     {
       "id": "5502efaa89f7",
@@ -167,10 +185,10 @@
       "id": "c44d9b62a1ab",
       "title": "U.S. Senators Vote to Ban Themselves from Trading on Prediction Markets",
       "url": "https://www.wsj.com/politics/policy/senators-vote-to-ban-themselves-from-trading-on-prediction-markets-ae4535dd",
-      "summary": "上院は議員やスタッフらが政治的結果を賭ける予測市場で取引することを禁じる規則を可決した。利益相反やインサイダー取引の懸念に対応する倫理改革で、賛否が分かれる。",
+      "summary": "上院は議員が立法や規制などの結果を対象にした予測市場で取引することを禁止する案を可決。インサイダー取引や利益相反を防ぐための倫理強化措置として導入された。",
       "source": "Hacker News",
       "publishedAt": "2026-04-30T19:42:33.000Z",
-      "contentHash": "8b77a07ce6fc"
+      "contentHash": "6d46ec6fec1d"
     },
     {
       "id": "8dbc8eebcdfd",
@@ -266,10 +284,10 @@
       "id": "2bfeb3b388c1",
       "title": "How Mark Klein told the EFF about Room 641A [book excerpt]",
       "url": "https://thereader.mitpress.mit.edu/the-whistleblower-who-uncovered-the-nsas-big-brother-machine/",
-      "summary": "NSAの内部告発者が同局の大規模監視プログラム（通話・通信の収集や監視システム）を暴露し、プライバシー対国家安全の議論を国際的に喚起した経緯と告発者の運命を描く記事。",
+      "summary": "NSAの大量監視体制を内部告発した人物が、通信の大規模収集と通信事業者との協力を暴露。監督の欠如やプライバシー侵害が明らかになり、告発者は法的・社会的報復を受けた。",
       "source": "Hacker News",
       "publishedAt": "2026-04-30T16:41:00.000Z",
-      "contentHash": "2c67534a9c4d"
+      "contentHash": "60924c2cb1cb"
     },
     {
       "id": "af33d9e57fe1",
@@ -1067,10 +1085,10 @@
       "id": "c5eff5926075",
       "title": "Isaac Sim の ROS2 Transform Trees と Odometry を試す",
       "url": "https://note.com/npaka/n/n04d1752d2dd3",
-      "summary": "Isaac SimでROS2のTransform Trees(/tf)とOdometry(/odom)を検証。センサやロボットの座標フレームの親子関係を/tfで管理し、/odomはodom→base_linkの相対的な位置・姿勢・速度を配信。誤差蓄積対策にmap→odom→base_link構成を利用。",
+      "summary": "Isaac SimでROS2のTransform Trees(/tf)とOdometry(/odom)を検証。/tfはセンサーやロボット各座標系の親子関係を示し、/odomはodom→base_linkの相対的な位置・姿勢・速度を配信。NavigationやSLAMではmap→odom→base_linkで誤差補正が必要。",
       "source": "npaka",
       "publishedAt": "2026-04-29T06:50:56.000Z",
-      "contentHash": "f30f68bd126b"
+      "contentHash": "a58d0d7e49a3"
     },
     {
       "id": "3456dcc30ba9",
@@ -1139,10 +1157,10 @@
       "id": "925fcfa363d5",
       "title": "Claude の Blender Connector の使い方",
       "url": "https://note.com/npaka/n/nfc0bc102fd97",
-      "summary": "ClaudeのBlender Connectorは、ClaudeからBlenderを操作・解析できるツール。Claude DesktopとBlenderアドオンを連携して利用。名前整理、ジオメトリノード説明、マテリアル依存調査、ポリゴン多い重いオブジェクト検出などが可能。",
+      "summary": "ClaudeのBlender Connectorは、ClaudeとBlenderを連携して会話ベースでBlender操作を行えるツール。Claude DesktopとBlenderのMCPサーバーで設定し、名前整理、ジオメトリノードの解説、素材参照調査、高ポリゴンオブジェクト検出などが可能です。",
       "source": "npaka",
       "publishedAt": "2026-04-28T23:54:40.000Z",
-      "contentHash": "4cf7ded84bdf"
+      "contentHash": "fb816c3bd05c"
     },
     {
       "id": "eff9c0ae32bc",
@@ -1571,10 +1589,10 @@
       "id": "123e09b3bef5",
       "title": "Isaac Sim で ROS 2 Camera を試す",
       "url": "https://note.com/npaka/n/n0d0af329df6c",
-      "summary": "Isaac SimでROS 2 Cameraを試し、シーン内カメラをROS2トピック（RGB/Depth/PointCloud/CameraInfo/セマンティック・インスタンスラベル/2D・3Dバウンディングボックス）として配信できることを確認。RViz等で表示可能で、Viewport操作やCreate→Cameraでの追加・位置・向き・焦点・画角設定方法も解説。",
+      "summary": "Isaac SimでROS 2 Cameraを試したまとめ。シミュレータ内カメラをROS2トピック（RGB/Depth/PointCloud/CameraInfo/セマンティック・インスタンスラベル/境界箱など）で配信し、RViz2やrqt_image_viewで確認可能。Viewportの操作方法やカメラ追加・配置、画角設定手順も解説。",
       "source": "npaka",
       "publishedAt": "2026-04-28T07:13:45.000Z",
-      "contentHash": "60dbd5089369"
+      "contentHash": "86ebe6efd629"
     },
     {
       "id": "d605fcc4e94c",
@@ -8982,24 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-13T08:40:55.000Z",
       "contentHash": "0574ded766b6"
-    },
-    {
-      "id": "633f350099a3",
-      "title": "Rails: to_paramメソッドでモデルURLをカスタマイズする（翻訳） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_04_13/157020",
-      "summary": "Railsのto_paramでモデルURLをカスタマイズ。デフォルトのid表示(/articles/42)をスラッグに置換したりidを隠すことができ、実装例を解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T08:30:08.000Z",
-      "contentHash": "118954c1d05d"
-    },
-    {
-      "id": "221d9105fba0",
-      "title": "アーキテクチャモダナイゼーション感想会をはじめました | M&amp;amp;Aクラウド開発者ブログ",
-      "url": "https://tech.macloud.jp/entry/2026/04/13/172032",
-      "summary": "弊社では付箋に感想を書き投票して議論する技術書感想会を実施。4月から『アーキテクチャモダナイゼーション』を週1で2章ずつ読解中。CTOらも参加し多様な視点で実務応用の議論が進んでおり参加者募集中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-13T08:20:32.000Z",
-      "contentHash": "3a05d15cf761"
     }
   ]
 }
