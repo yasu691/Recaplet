@@ -1,14 +1,104 @@
 {
-  "generatedAt": "2026-05-02T09:32:39.535Z",
+  "generatedAt": "2026-05-02T17:16:34.282Z",
   "items": [
+    {
+      "id": "1bacc0077242",
+      "title": "LLMs consistently pick resumes they generate over ones by humans or other models",
+      "url": "https://arxiv.org/abs/2509.00462",
+      "summary": "求人審査でLLMが自ら生成した履歴書を優遇する「自己優先」現象を大規模実験で確認。同モデル生成は人間・他モデルより67–82%有利で、採用候補入りは23–60%増、販売・会計で特に顕著。簡単な介入で偏りを50%以上軽減可能。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-02T15:28:13.000Z",
+      "contentHash": "c8958b47d882"
+    },
+    {
+      "id": "ff719a5f9971",
+      "title": "Anker’s discounted 2-in-1 USB-C cable is a great way to spend $15",
+      "url": "https://www.theverge.com/gadgets/922288/native-union-anker-2-in-1-usb-c-cable-mothers-day-sale-deal",
+      "summary": "Ankerの2-in-1 USB-Cケーブルが約15ドルで割引中。1本で2台同時充電でき、最大140W対応のモデルもあり、壁充電器のポートを節約できると著者が推奨している。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-02T13:56:12.000Z",
+      "contentHash": "7064b9d34833"
+    },
+    {
+      "id": "b7ba2292c2d1",
+      "title": "Russia Poisons Wikipedia",
+      "url": "https://www.bettedangerous.com/p/russia-poisons-wikipedia",
+      "summary": "ロシアがウィキペディアを悪用し、群衆編集の仕組みで事実を歪めプーチン礼賛や歴史改竄を行い、AIや公衆認識に影響を与える「外国のデジタル干渉」を引き起こしている。報告はソックパペットによる戦争関連ページ操作を指摘。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-02T13:07:50.000Z",
+      "contentHash": "1e1659b479a4"
+    },
+    {
+      "id": "d8ff876dfb1e",
+      "title": "Open Design: Use Your Coding Agent as a Design Engine",
+      "url": "https://github.com/nexu-io/open-design",
+      "summary": "Open DesignはAnthropicのClaude Designへのオープンソース代替。ローカル優先・BYOKで複数のコーディングエージェントを自動検出し、31のSkillsと72のデザインシステムでアーティファクト中心のデザインをローカル実行・Web展開しロックインを排除。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-02T12:16:16.000Z",
+      "contentHash": "a6ce9b9d6e1a"
+    },
+    {
+      "id": "24598783d9a4",
+      "title": "Snowflake Optima 自律化サービスのその後 | Snowflake Data Heroesのフィード",
+      "url": "https://zenn.dev/dataheroes/articles/218ac4964209df",
+      "summary": "2025年の記事を振り返り、2026年公開のSnowflake Optima Metadataを解説。クエリ履歴から頻出の関数・変換述語を特定し専用メタデータを生成、min/maxで除外できないパーティションをより積極的にプルーニングして、スキャン済みパーティションの約40%の無寄与読取を削減する狙い。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-02T12:06:49.000Z",
+      "contentHash": "767fabbc96cc"
+    },
+    {
+      "id": "d56f99e08295",
+      "title": "Playing Esoteric Ebb is like rolling the dice with a great DM",
+      "url": "https://www.theverge.com/games/903575/esoteric-ebb-review-pc-steam",
+      "summary": "『Esoteric Ebb』はディスコ・エリジウム風の会話と内的声をD&D風ファンタジーに融合したCRPG。僧侶として茶店爆発などの謎を追い、見下ろし視点で読み物とダイス判定が多く、序盤は取っつきにくいが楽しい。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-02T12:00:00.000Z",
+      "contentHash": "c4ee7f22cfe0"
+    },
+    {
+      "id": "7ea4646fa596",
+      "title": "The things we’re building",
+      "url": "https://www.theverge.com/tech/922505/vibe-code-projects-claude-installer",
+      "summary": "The Vergeのニュースレター「Installer」第126号。自己宣伝ウィークとして編集者デイビッド・ピアースが厳選したおすすめを紹介。Steam Controller、映画『プラダを着た悪魔』、ジョン・オリバーのAI回のほか、テスラダイナーやテッド・ラッソ再視聴など多彩な話題を扱う。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-02T12:00:00.000Z",
+      "contentHash": "7a81ffb6aba1"
+    },
+    {
+      "id": "d4dfa58f35ef",
+      "title": "【CloudFormation/SAM】既存の API Gateway(REST API) を AWS::Serverless::Api としてインポートする | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/05/02/185302",
+      "summary": "既存のAPI Gateway（REST API）をAWS SAMでAWS::Serverless::Apiとしてインポートする手順を解説。CloudFormationでのimport例、SAMではStageName必須のテンプレート例とimport用JSON、create-change-setコマンド例を示す。前回はLambdaのインポートも解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-02T09:53:02.000Z",
+      "contentHash": "29398f8cb004"
+    },
+    {
+      "id": "cccf20a7173c",
+      "title": "How fast is a macOS VM, and how small could it be?",
+      "url": "https://eclecticlight.co/2026/05/02/how-fast-is-a-macos-vm-and-how-small-could-it-be/",
+      "summary": "Apple Silicon上のmacOS VMを検証。Mac mini M4 ProでのGeekbenchは単コアがホストの約98%、GPUは約95%と良好だが、Neural Engineは半精度・量子化で大幅に遅い。MacBook Neoでも実用的に動く可能性が示唆された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-02T09:30:49.000Z",
+      "contentHash": "a71f95d4e65c"
+    },
+    {
+      "id": "f74e039e3ed9",
+      "title": "Why are there both TMP and TEMP environment variables? (2015)",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20150417-00/?p=44213",
+      "summary": "TMPとTEMPの由来を解説する記事。起点は環境変数の無いCP/Mで、一時ファイル場所は実行ファイルをバイナリパッチして指定していた。MS‑DOSはCP/Mの設計を強く受け継ぎ移植性を重視した、という話。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-02T08:23:23.000Z",
+      "contentHash": "15448db34b4f"
+    },
     {
       "id": "656e19c4737a",
       "title": "Why does it take so long to release black fan versions?",
       "url": "https://www.noctua.at/en/expertise/blog/how-can-it-take-so-long-to-release-black-fan-versions",
-      "summary": "Noctuaが黒ファンを出すのに時間がかかる理由は、着色で樹脂特性やブレードの重量・バランスが変わり騒音や空力に影響するため。塗装や素材・金型の変更、厳格な耐久・品質試験が必要で、既存性能を損なわずに黒化するには長い開発とコストが伴う、という内容です。",
+      "summary": "Noctuaが黒ファンを出すのに時間がかかるのは、塗装ではなく黒色の材料配合で成形する方針のため。顔料が潤滑剤や材質特性に影響し得るため金型・原料変更、サプライチェーン手配、厳格な音響/耐久試験や再認証が必要で、モデル数の多さとコスト増も遅延要因になっている、という説明です。",
       "source": "Hacker News",
       "publishedAt": "2026-05-02T04:38:04.000Z",
-      "contentHash": "343782f82dc1"
+      "contentHash": "27b873983d26"
     },
     {
       "id": "134d3ccdfb65",
@@ -23,19 +113,19 @@
       "id": "2c7f2c6f5d02",
       "title": "Codex の Computer Use を試す",
       "url": "https://note.com/npaka/n/nd62f3e1fe802",
-      "summary": "Codexの「Computer Use」はmacOS上でGUIを見てクリックや入力を自動化する機能。導入は専用プラグインを入れ画面収録・アクセシビリティ権限を許可。GUI依存作業やブラウザ操作、バグ再現や複数アプリ連携に有用。内部ブラウザはローカル無ログイン向け。",
+      "summary": "Codexの「Computer Use」はmacOS上でGUIを見てクリックや入力ができる機能。画面録画・アクセシビリティ権限が必要で、GUI依存のテストやブラウザ操作、バグ再現に有効。内部ブラウザや専用プラグインとの使い分け、アプリ承認や都度の許可設定に注意。",
       "source": "npaka",
       "publishedAt": "2026-05-02T01:50:54.000Z",
-      "contentHash": "306df61c3617"
+      "contentHash": "618bc5e18b1f"
     },
     {
       "id": "1f73e9f6cbfd",
       "title": "Job Postings for Software Engineers Are Rapidly Rising",
       "url": "https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/",
-      "summary": "リンク先には直接アクセスできないため、記事本文を貼っていただくか、主要な段落や要点を教えてください。いただければ200字以内で日本語要約を作成します。どの部分に重点を置くか（結論、提言、背景など）も指定できます。",
+      "summary": "申し訳ありませんが、私は外部サイトを直接参照できません。記事全文または要約したい本文（または主要箇所）を貼り付けていただけますか？貼っていただければ200文字以内で日本語要約します。Hacker Newsのコメントも要約希望なら、それも併せて貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2026-05-02T01:46:24.000Z",
-      "contentHash": "82d55a8f9151"
+      "contentHash": "57faec62e8e5"
     },
     {
       "id": "564bc594e9bc",
@@ -77,10 +167,10 @@
       "id": "21cb6b0d9f26",
       "title": "Codex pets を試す",
       "url": "https://note.com/npaka/n/n80eae24e08b6",
-      "summary": "OpenAIのCodex appのコンパニオン機能「Codex Pets」を試した報告。デスクトップのオーバーレイでCodexの作業状況（実行中・入力待ち・レビュー準備）と短い進捗を常時表示。表示切替はコマンドや設定で行え、$skill-installer hatch-pet→再起動→/hatchでカスタムペットを作成できる。",
+      "summary": "OpenAIのCodex appのアニメーション付きコンパニオン「Codex Pets」を試用した報告。デスクトップのオーバーレイでCodexのスレッドや状態を可視化。\"/\"や設定で表示切替、設定→外観でペット選択、$skill-installerなどでカスタム作成が可能。",
       "source": "npaka",
       "publishedAt": "2026-05-01T23:10:17.000Z",
-      "contentHash": "da4fdec4a2a7"
+      "contentHash": "a0bbafdeed0b"
     },
     {
       "id": "be7f413c2f41",
@@ -383,10 +473,10 @@
       "id": "ae110b0cef8d",
       "title": "Codex のスラッシュコマンドまとめ",
       "url": "https://note.com/npaka/n/n87a5c4364154",
-      "summary": "OpenAI Codexのスラッシュコマンド一覧と用途解説。会話や作業モード切替、コードレビュー、ステータス確認、分岐(/side,/fork)、計画(/plan)、メモ(/memory)、モデル変更(/model)、圧縮(/compact)、応答調整(/personality,/reasoning)、自動レビューや高速化などを説明。",
+      "summary": "OpenAI Codexのスラッシュコマンド一覧。/mcp、/review、/status、/side、/feedback、/fork、/plan、/memory、/model、/compact、/personality、/reasoning、/auto-review、/fast等で会話や作業モードの切替、コードレビュー、状態確認、メモ管理を素早く行える。",
       "source": "npaka",
       "publishedAt": "2026-05-01T06:51:29.000Z",
-      "contentHash": "c8500bf8c558"
+      "contentHash": "cd6008df50b6"
     },
     {
       "id": "3c8bd07284fb",
@@ -455,10 +545,10 @@
       "id": "ad9c13a2a6c6",
       "title": "Codex のiOSアプリ開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n51962b239b68",
-      "summary": "CodexでSwiftUIのiOSアプリ骨組みを生成し、CLI中心にxcodebuildやTuistでビルドループを回す。高度化はXcodeBuildMCPやSwiftUI関連スキル（性能・並行処理・Liquid Glass等）を導入し、明確なプロンプトで反復開発する。",
+      "summary": "CodexでiOS SwiftUIアプリの雛形を生成し、xcodebuildやTuistでCLI中心にビルド。高度化はXcodeBuildMCPを利用。SwiftUI向けの各種スキル（Liquid Glass、性能、並行処理、リファクタ等）を追加し、明確なプロンプトで反復改善する。",
       "source": "npaka",
       "publishedAt": "2026-05-01T00:14:37.000Z",
-      "contentHash": "613e8b84b102"
+      "contentHash": "ba1040649497"
     },
     {
       "id": "b04e6b1c80ec",
@@ -482,10 +572,10 @@
       "id": "4e837202c532",
       "title": "Codex のゲーム開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n8fb9f73d2ce3",
-      "summary": "Codexはゲーム開発でコード生成以上に活用可能。まずPLAN.mdで目標・操作・メインループ・勝敗・進行・ビジュアル・技術等を定義し、Playwrightで動作検証、ImageGenで資産作成、OpenAI Docs参照。AGENTS.mdでCodexの動作とスタックを制御し、作業は`.logs/`に記録する。",
+      "summary": "Codexを使ったブラウザゲーム開発指南。まずPLAN.mdで目標・メインループ・操作・勝敗・難度・ビジュアル・技術・マイルストーンを定義し、AGENTS.mdでスタック・検証・ログを指定。Playwrightでテスト、ImageGenで資産生成、OpenAI Docsを参照し反復開発する。",
       "source": "npaka",
       "publishedAt": "2026-04-30T22:31:38.000Z",
-      "contentHash": "3db5799c3357"
+      "contentHash": "4ff46ba2612e"
     },
     {
       "id": "c47d1e3a21ec",
@@ -500,10 +590,10 @@
       "id": "6791765eeff0",
       "title": "Codex のユースケースまとめ",
       "url": "https://note.com/npaka/n/nc4fd318fbead",
-      "summary": "OpenAIのCodexは単なるコード生成を超え、実装・レビュー・調査・自動化・品質管理を担う実務向けAI。PRレビューや大規模コード理解、フロント/ネイティブ開発支援（Figma→コード、SwiftUI生成等）、データ分析・レポート、バグトリアージやQA自動化など多様なユースケースがある。",
+      "summary": "Codexは単なるコード生成ではなく、実装・レビュー・調査・自動化・品質管理まで担う実務向けAI。PRレビューや大規模コード解析、Figma→UI変換、SwiftUI等のネイティブ支援、データ分析やバグトリアージ/QA自動化など幅広いユースケースがある。",
       "source": "npaka",
       "publishedAt": "2026-04-30T21:17:59.000Z",
-      "contentHash": "e198e3c2243b"
+      "contentHash": "cf234527ba80"
     },
     {
       "id": "991c2b4678b4",
@@ -1490,10 +1580,10 @@
       "id": "3c058c8ab609",
       "title": "Claude の Adobe for creativity の使い方",
       "url": "https://note.com/npaka/n/n6841ac39cc4c",
-      "summary": "Claudeの新Connector「Adobe for creativity」で、チャットからPhotoshop/Firefly等のAdobeツールを呼び出し、写真レタッチ、デザイン制作、動画リサイズや一括編集を自然文で指示可能。導入はClaudeでコネクタ追加後、Adobeアカウントでサインインするだけ。",
+      "summary": "AnthropicとAdobeが公開したClaudeのConnector「Adobe for creativity」は、ClaudeのチャットからPhotoshop等のAdobeツールを呼び出し、自然文で写真編集・デザイン制作・動画リサイズなどを実行できる。Claude DesktopでAdobeアカウントと連携して使用し、ポートレート補正、テンプレート作成、動画切り出しや一括補正などに対応。",
       "source": "npaka",
       "publishedAt": "2026-04-29T01:50:16.000Z",
-      "contentHash": "9e753cabb413"
+      "contentHash": "1decdcbaf5d4"
     },
     {
       "id": "960accfa8ca5",
@@ -1517,10 +1607,10 @@
       "id": "925fcfa363d5",
       "title": "Claude の Blender Connector の使い方",
       "url": "https://note.com/npaka/n/nfc0bc102fd97",
-      "summary": "ClaudeのBlender Connectorは、ClaudeとBlenderを連携してノード解説・一括編集・未使用データ削除・Pythonツール生成などを行えます。Claude DesktopとBlender（4.2+）のアドオン導入が必要。用途例は名前整理、ジオメトリノードの解説とフレームラベル追加、マテリアル参照調査、ポリゴン多い重いオブジェクト抽出と最適化提案です。",
+      "summary": "ClaudeのBlender Connectorは、Claudeと会話してBlenderを操作できるツール。Claude DesktopとBlender（4.2+）にConnectorとMCPアドオンを入れて接続。名前整理、ジオメトリノード解析／ラベル追加、マテリアル依存調査、重いオブジェクト特定と最適化提案などが可能。",
       "source": "npaka",
       "publishedAt": "2026-04-28T23:54:40.000Z",
-      "contentHash": "2c706923d52f"
+      "contentHash": "b49f75897d45"
     },
     {
       "id": "eff9c0ae32bc",
@@ -8910,96 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-14T05:02:39.000Z",
       "contentHash": "0759ad9d31e8"
-    },
-    {
-      "id": "c6a75938c2b4",
-      "title": "AIエージェント×「Rtoaster」20年の歴史ー「強いチーム」で挑む、プロダクト事業の新たな挑戦 | Platinum Data Blog by BrainPad ブレインパッド",
-      "url": "https://blog.brainpad.co.jp/entry/2026/04/14/140000",
-      "summary": "ブレインパッドの主力「Rtoaster」が20周年を迎え、AIエージェント搭載の「Rtoaster GenAI」開発などで変革期。プロダクト責任者皆瀬雄貴のインタビューで事業状況、キャリアの挑戦や未来の仲間へのメッセージを伝える。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T05:00:00.000Z",
-      "contentHash": "6eb804cbdcd6"
-    },
-    {
-      "id": "1ae992cbe941",
-      "title": "Hacker compromises A16Z-backed phone farm, calling them the 'antichrist'",
-      "url": "https://www.404media.co/hacker-compromises-a16z-backed-phone-farm-tries-to-post-memes-calling-a16z-the-antichrist/",
-      "summary": "a16z出資のDoublespeedのバックエンドが侵害され、AI生成の偽TikTokアカでa16zを「反キリスト」とするミーム投稿がキューに入れられた。47MB流出、573アカウント投稿可能、413端末ダンプの痕跡があるが投稿は行われず、同社は旧キューシステムを修正し影響は限定的と説明。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-14T03:32:16.000Z",
-      "contentHash": "d6d445c1cb95"
-    },
-    {
-      "id": "19102844a33e",
-      "title": "A new spam policy for “back button hijacking”",
-      "url": "https://developers.google.com/search/blog/2026/04/back-button-hijacking",
-      "summary": "Googleはブラウザの「戻る」ボタンを妨げる「バックボタンハイジャック」を悪質なスパム行為として明文化。利用者体験を損ない、手動ペナルティや検索順位の自動降格対象となり、改善期間を設けると発表。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-14T03:06:27.000Z",
-      "contentHash": "35c4d09abd73"
-    },
-    {
-      "id": "d87a8caa0d51",
-      "title": "Sometimes powerful people just do dumb shit",
-      "url": "https://www.joanwestenberg.com/sometimes-powerful-people-just-do-dumb-shit/",
-      "summary": "1812年、ナポレオンは助言を無視して68万5千の大軍でロシア侵攻を決行。補給や目的が曖昧で、冬までに約40万人が餓死・凍死、10万人が捕虜に。天才でも傲慢が大失敗を招いた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-14T03:04:20.000Z",
-      "contentHash": "8e35a7f2d8cf"
-    },
-    {
-      "id": "40433f3851b1",
-      "title": "AI エージェント kuro が入社しました | STORES Product Blog",
-      "url": "https://product.st.inc/entry/2026/04/14/114807",
-      "summary": "技術推進本部のshia報告。2026年2月入社のAIエージェント「kuro」はSlack/GitHubで自律稼働し、権限を絞りつつSentryのエラー調査、顧客問合せ初動、データ分析、機能実装・レビュー、雑務など多様な業務を支援。数千件規模のPR処理実績があり、次回は内部仕組みを解説予定。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T02:48:07.000Z",
-      "contentHash": "1f1962ff6d1f"
-    },
-    {
-      "id": "1caddefa45be",
-      "title": "サイボウズのQA内定者アルバイトって何をするの？ | Cybozu Inside Out | サイボウズエンジニアのブログ",
-      "url": "https://blog.cybozu.io/entry/2026/04/14/113000",
-      "summary": "26卒の文系出身者が2025年9月〜2026年3月にサイボウズでQA内定者アルバイトを経験。kintoneの操作理解から手動テスト・テスト設計を段階的に学び、React移行中のチームで実践的に成長した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T02:30:00.000Z",
-      "contentHash": "bef7d5743d79"
-    },
-    {
-      "id": "3950d3f3a97a",
-      "title": "入社オンボーディング「病院ごっこ」で体感した病院の複雑さ | 株式会社ヘンリー エンジニアブログ",
-      "url": "https://dev.henry.jp/entry/hospital-roleplay-onboarding",
-      "summary": "新入社員エンジニアがヘンリーの入社オンボーディング「病院ごっこ」を体験。クラウドネイティブな電子カルテ兼レセコンを提供する同社で、医師や看護師らの役を演じ外来・入院・レセプト等の8種の業務フローの複雑さと現場の高度な専門性を実感した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T02:30:00.000Z",
-      "contentHash": "22e8fea7bbb1"
-    },
-    {
-      "id": "85db59c44dab",
-      "title": "【入社半年のエンジニアから見た】コミュニケーション文化に救われる日々〜クロスマートのオープンな場作り〜 | クロスマート Tech Blog",
-      "url": "https://xmart-techblog.hatenablog.com/entry/2026/04/14/112848",
-      "summary": "入社半年のバックエンドエンジニアが語るクロスマートの文化。公開Slackやtimesでの気軽な共有、毎朝のデイリースクラムでの継続的なエラー確認により、フルリモートでも馴染みやすく情報が行動につながり生産性が向上していると報告。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T02:28:48.000Z",
-      "contentHash": "13dff6eff6f4"
-    },
-    {
-      "id": "0d5dfb4ba573",
-      "title": "DaVinci Resolve – Photo",
-      "url": "https://www.blackmagicdesign.com/products/davinciresolve/photo",
-      "summary": "DaVinci ResolveのPhotoページは静止画向けにハリウッド級のカラーグレーディングを提供。白平衡・露出などの基本からノード式の高度な補正、スコープ、Resolve FX/AI、RAW（最大32K/400MP）対応、GPU高速・非破壊処理でプロのワークフローを写真に適用可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-14T02:25:15.000Z",
-      "contentHash": "0d82722e9e77"
-    },
-    {
-      "id": "b1c085af6603",
-      "title": "フロントエンドを ECS から CloudFront に移行した話 | JMDC TECH BLOG",
-      "url": "https://techblog.jmdc.co.jp/entry/20260414",
-      "summary": "当初SSRでECS(Fargate)運用していたがSPAで足りると判断し、フロントをECSからCloudFront＋S3へ移行。OACでS3制御、オリジングループでメンテへフェイルオーバー、Lambda@Edgeでルーティング調整。ダウンタイム解消、リリース1分程度に短縮、コスト削減。メンテ切替は手動のまま。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T02:00:00.000Z",
-      "contentHash": "e8a8a5b62ba8"
     }
   ]
 }
