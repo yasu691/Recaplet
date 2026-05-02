@@ -1,14 +1,86 @@
 {
-  "generatedAt": "2026-05-02T03:46:06.802Z",
+  "generatedAt": "2026-05-02T09:32:39.535Z",
   "items": [
+    {
+      "id": "656e19c4737a",
+      "title": "Why does it take so long to release black fan versions?",
+      "url": "https://www.noctua.at/en/expertise/blog/how-can-it-take-so-long-to-release-black-fan-versions",
+      "summary": "Noctuaが黒ファンを出すのに時間がかかる理由は、着色で樹脂特性やブレードの重量・バランスが変わり騒音や空力に影響するため。塗装や素材・金型の変更、厳格な耐久・品質試験が必要で、既存性能を損なわずに黒化するには長い開発とコストが伴う、という内容です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-02T04:38:04.000Z",
+      "contentHash": "343782f82dc1"
+    },
+    {
+      "id": "134d3ccdfb65",
+      "title": "Ask.com has closed",
+      "url": "https://www.ask.com/",
+      "summary": "IACは検索事業（Ask.com含む）を終了し、25年の歴史を経てAsk.comは2026年5月1日に公式閉鎖されました。開発者・利用者への感謝と「Jeevesの精神は続く」と表明しています。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-02T04:12:35.000Z",
+      "contentHash": "53be245b4e5a"
+    },
     {
       "id": "2c7f2c6f5d02",
       "title": "Codex の Computer Use を試す",
       "url": "https://note.com/npaka/n/nd62f3e1fe802",
-      "summary": "CodexのComputer UseはmacOS上でGUIを見てクリックや入力を行う機能。専用プラグインを入れ画面収録・アクセシビリティ権限を許可して使う。デスクトップアプリやブラウザ操作、GUIでしか再現しないバグ検証向け。内部ブラウザはログイン不要のローカル確認用で、ログイン済みChrome等はComputer Useを利用。操作対象は承認したアプリに限定される。",
+      "summary": "Codexの「Computer Use」はmacOS上でGUIを見てクリックや入力を自動化する機能。導入は専用プラグインを入れ画面収録・アクセシビリティ権限を許可。GUI依存作業やブラウザ操作、バグ再現や複数アプリ連携に有用。内部ブラウザはローカル無ログイン向け。",
       "source": "npaka",
       "publishedAt": "2026-05-02T01:50:54.000Z",
-      "contentHash": "db37d9af5e92"
+      "contentHash": "306df61c3617"
+    },
+    {
+      "id": "1f73e9f6cbfd",
+      "title": "Job Postings for Software Engineers Are Rapidly Rising",
+      "url": "https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/",
+      "summary": "リンク先には直接アクセスできないため、記事本文を貼っていただくか、主要な段落や要点を教えてください。いただければ200字以内で日本語要約を作成します。どの部分に重点を置くか（結論、提言、背景など）も指定できます。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-02T01:46:24.000Z",
+      "contentHash": "82d55a8f9151"
+    },
+    {
+      "id": "564bc594e9bc",
+      "title": "RubyKaigi2026 初参加レポート | SMARTCAMP Engineer Blogのフィード",
+      "url": "https://zenn.dev/smartcamp/articles/fa049e31b5c6fa",
+      "summary": "RubyKaigi2026に初参加したレポ。聴講した多数セッション（Box、並列テスト、Ractor、GC、JRuby、RBS高速化など）を要点メモで紹介。特に「From Formal Specification to Property Based Test」を高評価し、Drink Upや購入本、学びや初参加向けの助言もまとめている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-02T01:00:06.000Z",
+      "contentHash": "96dcd132c4ad"
+    },
+    {
+      "id": "e4199696c162",
+      "title": "Good developers learn to program. Most courses teach a language",
+      "url": "https://evilgeniuslabs.ca/blog/good-developers-learn-to-program-not-a-language",
+      "summary": "良い開発者は言語の構文でなく、データの流れ、責務分離、どこに決定が残るかなどプログラミングの本質を学ぶべきだ。構文は数週で習得できるが、本質の習得には十年かかる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-02T00:14:33.000Z",
+      "contentHash": "56cfcdd563b5"
+    },
+    {
+      "id": "483155534b0d",
+      "title": "Kiroで爆速API開発してみた | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/aa761353c137ec",
+      "summary": "KiroのSpecモードで既存AWS（Lambda+Express）APIを再実装し設計〜結合試験を検証。経験浅いメンバーで従来比生産性約2倍、コード3倍、試験8倍。仕様・試験は人レビュー、コードは自動担保。初期設定コストあり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-02T00:01:05.000Z",
+      "contentHash": "d7f6b5e5c3e3"
+    },
+    {
+      "id": "08332ccc4e9e",
+      "title": "VSCode 1.118 のアップデートがアツすぎ | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/f629e2f92828e7",
+      "summary": "VSCode 1.118はGitHub Copilot強化版。SKILL.mdでcontext: forkを設定するとスキルをサブエージェント化して会話汚染を防ぎ、CLIはスマホやGitHub.comから遠隔承認可能に。プロンプトキャッシュ等でトークン効率も向上し、値上げの影響を相殺する充実の更新。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-01T23:40:05.000Z",
+      "contentHash": "8b13afbd45e6"
+    },
+    {
+      "id": "21cb6b0d9f26",
+      "title": "Codex pets を試す",
+      "url": "https://note.com/npaka/n/n80eae24e08b6",
+      "summary": "OpenAIのCodex appのコンパニオン機能「Codex Pets」を試した報告。デスクトップのオーバーレイでCodexの作業状況（実行中・入力待ち・レビュー準備）と短い進捗を常時表示。表示切替はコマンドや設定で行え、$skill-installer hatch-pet→再起動→/hatchでカスタムペットを作成できる。",
+      "source": "npaka",
+      "publishedAt": "2026-05-01T23:10:17.000Z",
+      "contentHash": "da4fdec4a2a7"
     },
     {
       "id": "be7f413c2f41",
@@ -68,10 +140,19 @@
       "id": "3721427799b3",
       "title": "Ubuntu servers taken offline by \"sustained, cross-border attack\"",
       "url": "https://arstechnica.com/security/2026/05/ubuntu-infrastructure-has-been-down-for-more-than-a-day/",
-      "summary": "Ubuntuと親会社Canonicalのウェブ/サーバが24時間以上ダウンし、重大なroot奪取脆弱性の連絡・対応が妨げられている。公式は「持続的な越境DDoS」と報告し、親イラン系グループがBeamを用いた攻撃を自称。ミラー経由の更新は継続。",
+      "summary": "Ubuntuと親会社Canonicalのウェブや更新サーバーが24時間以上ダウンし、root権限を奪う重大脆弱性の周知が困難に。Canonicalは「越境する持続的なDDoS攻撃」と発表。親イラン系グループがBeamで犯行を主張、ミラー経由の更新は継続。",
       "source": "Hacker News",
       "publishedAt": "2026-05-01T19:14:41.000Z",
-      "contentHash": "538334e4a745"
+      "contentHash": "0a6692730d0e"
+    },
+    {
+      "id": "0ad4b58ade82",
+      "title": "Lib0xc: A set of C standard library-adjacent APIs for safer systems programming",
+      "url": "https://github.com/microsoft/lib0xc",
+      "summary": "lib0xcはCをより安全にする標準ライブラリ互換のAPI集。多くの警告を有効化して-Werror運用を支援し、固定サイズデータやマクロで静的境界を重視、-fbounds-safety対応、割当依存を避け導入しやすく文書化・テスト済み。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-01T19:10:56.000Z",
+      "contentHash": "06ad68c556fd"
     },
     {
       "id": "8c7ef2666025",
@@ -81,6 +162,15 @@
       "source": "The Verge",
       "publishedAt": "2026-05-01T18:42:24.000Z",
       "contentHash": "e14b5c2c4d42"
+    },
+    {
+      "id": "73265c84b6c6",
+      "title": "City Learns Flock Accessed Cameras in Children's Gymnastics Room as a Sales Demo",
+      "url": "https://www.404media.co/city-learns-flock-accessed-cameras-in-childrens-gymnastics-room-as-a-sales-pitch-demo-renews-contract-anyway/",
+      "summary": "アトランタ郊外で、監視会社Flockの営業が子ども用体操室、遊び場、学校、ユダヤ会館、プールなど市内カメラにアクセスし警察向けデモを行っていたことが公開記録で判明。Flockはデモや調査・デバッグ目的のアクセスを認め「子供を盗撮していない」と反論し透明性を主張している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-01T18:37:47.000Z",
+      "contentHash": "0922168ab218"
     },
     {
       "id": "893a79a7ca59",
@@ -104,10 +194,10 @@
       "id": "7de55a92ea94",
       "title": "New research suggests people can communicate and practice skills while dreaming",
       "url": "https://www.newyorker.com/culture/annals-of-inquiry/its-possible-to-learn-in-our-sleep-should-we",
-      "summary": "申し訳ありませんが、外部リンクを直接開けないため記事を取得できません。記事本文を貼り付けるか要点を教えてください。Hacker Newsのコメントも含めて要約するかどうかも指定してください。200字以内でまとめます。",
+      "summary": "外部サイトへ直接アクセスできないため、リンク先の記事本文をここに貼ってください。貼っていただければ、200文字以内の日本語要約を作成します。HNのコメント要約も希望なら教えてください。",
       "source": "Hacker News",
       "publishedAt": "2026-05-01T17:47:42.000Z",
-      "contentHash": "816afd373f4e"
+      "contentHash": "ff91231bbd98"
     },
     {
       "id": "773933e3e798",
@@ -365,10 +455,10 @@
       "id": "ad9c13a2a6c6",
       "title": "Codex のiOSアプリ開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n51962b239b68",
-      "summary": "CodexでSwiftUIのスターターを生成し、xcodebuildやTuistなどCLI中心でビルドループを回す。高度化はXcodeBuildMCPやLiquid Glass、性能解析、並行処理、リファクタ等のSwiftUIスキルを追加し、具体的なプロンプトで反復開発を行う。",
+      "summary": "CodexでSwiftUIのiOSアプリ骨組みを生成し、CLI中心にxcodebuildやTuistでビルドループを回す。高度化はXcodeBuildMCPやSwiftUI関連スキル（性能・並行処理・Liquid Glass等）を導入し、明確なプロンプトで反復開発する。",
       "source": "npaka",
       "publishedAt": "2026-05-01T00:14:37.000Z",
-      "contentHash": "e4bd48d37a10"
+      "contentHash": "613e8b84b102"
     },
     {
       "id": "b04e6b1c80ec",
@@ -410,10 +500,10 @@
       "id": "6791765eeff0",
       "title": "Codex のユースケースまとめ",
       "url": "https://note.com/npaka/n/nc4fd318fbead",
-      "summary": "OpenAIのCodexは単なるコード生成を超え、実装・レビュー・調査・自動化・品質管理を担う実務向けAI。PRレビューや大規模コード理解、フロントエンド（スクショやFigma→UI）、iOS/macOSネイティブ開発、データ分析・レポート作成、バグトリアージやQA自動化など幅広いユースケースがある。",
+      "summary": "OpenAIのCodexは単なるコード生成を超え、実装・レビュー・調査・自動化・品質管理を担う実務向けAI。PRレビューや大規模コード理解、フロント/ネイティブ開発支援（Figma→コード、SwiftUI生成等）、データ分析・レポート、バグトリアージやQA自動化など多様なユースケースがある。",
       "source": "npaka",
       "publishedAt": "2026-04-30T21:17:59.000Z",
-      "contentHash": "912fa71c5a35"
+      "contentHash": "e198e3c2243b"
     },
     {
       "id": "991c2b4678b4",
@@ -1427,10 +1517,10 @@
       "id": "925fcfa363d5",
       "title": "Claude の Blender Connector の使い方",
       "url": "https://note.com/npaka/n/nfc0bc102fd97",
-      "summary": "ClaudeのBlender Connectorは、ClaudeとBlenderを連携して会話ベースでBlender操作を行えるツール。Claude DesktopとBlenderのMCPサーバーで設定し、名前整理、ジオメトリノードの解説、素材参照調査、高ポリゴンオブジェクト検出などが可能です。",
+      "summary": "ClaudeのBlender Connectorは、ClaudeとBlenderを連携してノード解説・一括編集・未使用データ削除・Pythonツール生成などを行えます。Claude DesktopとBlender（4.2+）のアドオン導入が必要。用途例は名前整理、ジオメトリノードの解説とフレームラベル追加、マテリアル参照調査、ポリゴン多い重いオブジェクト抽出と最適化提案です。",
       "source": "npaka",
       "publishedAt": "2026-04-28T23:54:40.000Z",
-      "contentHash": "fb816c3bd05c"
+      "contentHash": "2c706923d52f"
     },
     {
       "id": "eff9c0ae32bc",
@@ -1463,10 +1553,10 @@
       "id": "dcb9ca989d60",
       "title": "Blender・Autodesk・AdobeとつながるClaudeの新Connector",
       "url": "https://note.com/npaka/n/n7864b38c7432",
-      "summary": "ClaudeがBlender、Autodesk、Adobe、Ableton、Splice等と連携する新Connectorを発表。自然言語で操作や学習、スクリプト自動生成、アセット同期・バッチ処理を行え、BlenderではPython API経由でシーン操作やツール追加・デバッグを支援。",
+      "summary": "AnthropicのClaudeがBlender、Autodesk、Adobe、Ableton、Splice等と連携する新Connectorを発表。自然言語でソフト操作やBlender Python API制御、スクリプト／プラグイン生成、アセット同期やバッチ処理など、学習・自動化・パイプライン支援でクリエイティブ制作を強化します。",
       "source": "npaka",
       "publishedAt": "2026-04-28T23:07:08.000Z",
-      "contentHash": "1a89ceea18d0"
+      "contentHash": "1fa49fc4c1ba"
     },
     {
       "id": "c78efead009c",
@@ -8910,96 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-14T02:00:00.000Z",
       "contentHash": "e8a8a5b62ba8"
-    },
-    {
-      "id": "824064e9685c",
-      "title": "hacomonoは RubyKaigi 2026 で Wellness Sponsor として心身を整えるリフレッシュ体験を提供します | hacomono TECH BLOG",
-      "url": "https://techblog.hacomono.jp/entry/2026/04/14/1100",
-      "summary": "hacomonoはRubyKaigi 2026にRuby兼Wellnessスポンサーとして協賛します。2025年のウェルネス賞ブース、Yakiniku Drinkup、Morning CrossFitに続き、函館で心身を整えるリフレッシュ体験やセッション・ブースで来場者と交流します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T02:00:00.000Z",
-      "contentHash": "11c5645fef86"
-    },
-    {
-      "id": "6664c00d4de9",
-      "title": "【イベントレポート】さくらの夕べ クラウドネイティブナイト | さくらのナレッジ",
-      "url": "https://knowledge.sakura.ad.jp/50433/",
-      "summary": "「さくらの夕べ クラウドネイティブナイト」はオンライン開催。さくらのクラウド上にPrometheus/Loki/Grafana/OpenTelemetry/Terraform等でCloudNative Days向けのオブザーバビリティ基盤を構築し、運用負荷を抑える方針を紹介。さくらのAI EngineやKubernetesでクラウドネイティブを身近にする事例も発表。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T02:00:00.000Z",
-      "contentHash": "65af9a536c7f"
-    },
-    {
-      "id": "a768564deb72",
-      "title": "課題があるからこそ、前に進める。カイゴジョブエージェント開発チームで見えてきたこと | エス・エム・エス エンジニア テックブログ",
-      "url": "https://tech.bm-sms.co.jp/entry/2026/04/14/110000",
-      "summary": "2025年11月入社の岡本が、カイゴジョブエージェント開発チームでの振り返り。会社の高齢社会ミッションに共感し入社。担当不明瞭や開発とマーケの連携課題を受け、自発的にプロダクト別チーム分割を提案。認知負荷が下がり開発や技術負債の改善が進み、ユーザー起点の議論も活発化している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T02:00:00.000Z",
-      "contentHash": "8b2f806ca495"
-    },
-    {
-      "id": "66e2b39d6bc3",
-      "title": "ZEN Study iOS アプリの10年と、現在とこれから | ドワンゴ教育サービス開発者ブログ",
-      "url": "https://blog.nnn.dev/entry/2026/04/14/110000",
-      "summary": "ZEN Study iOSはリリースから10周年。2016年初版から2021年・2024年にホームやブランドを刷新しUIを進化。技術はUIKit/MVC→RxSwiftでMVVM化（2016–2019）、現在はSwiftUI化と共通デザイン採用でさらに進化中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T02:00:00.000Z",
-      "contentHash": "b770e52eaae4"
-    },
-    {
-      "id": "5835f714f302",
-      "title": "Lean proved this program correct; then I found a bug",
-      "url": "https://kirancodes.me/posts/log-who-watches-the-watchers.html",
-      "summary": "Leanで「正しい」と証明されたzlib実装（lean-zip）をファズしたところ、Leanランタイムのバッファオーバーフローを発見した。AIで脆弱性発見コストは急落中で、形式手法や実行環境の安全性が改めて重要に。lean-zipは1GB未満でdecompress(compress(data))=dataを証明済み。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-14T00:25:08.000Z",
-      "contentHash": "180830bdf39a"
-    },
-    {
-      "id": "99465e0a735a",
-      "title": "Daniel Moreno-Gama is facing federal charges for attacking Sam Altman&#8217;s home and OpenAI’s HQ",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/911423/openai-sam-altman-attack",
-      "summary": "ダニエル・モレノ＝ガマは4月10日、サム・アルトマン宅に火炎瓶を投げ、OpenAI本社の扉を椅子で壊そうとして逮捕。殺害目的でテキサスから来たとされ、灯油や焼夷物、未登録銃、\"Your Last Warning\"の文書が押収。爆発物による器物損壊未遂と未登録銃所持で連邦起訴（最大刑20年・10年）。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-14T00:02:38.000Z",
-      "contentHash": "bed4264f8be5"
-    },
-    {
-      "id": "17bf9cbe1f8c",
-      "title": "Trusted access for the next era of cyber defense",
-      "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
-      "summary": "OpenAIは「Trusted Access for Cyber」プログラムを拡大し、審査済みの防御担当者向けにGPT-5.4-Cyberを提供。AIのサイバー能力の進展に合わせて安全対策を強化した。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-14T00:00:00.000Z",
-      "contentHash": "f55ad9f56b9d"
-    },
-    {
-      "id": "f2e996c106ad",
-      "title": "WiiFin – Jellyfin Client for Nintendo Wii",
-      "url": "https://github.com/fabienmillet/WiiFin",
-      "summary": "Wii用Jellyfinクライアント「WiiFin」。実験的ホームブリューで、認証・複数プロファイル・ライブラリ閲覧・転送再生（MPlayer CE経由）・再生報告・HTTPS対応などを提供。直接再生や5.1非対応、字幕はサーバー埋め込みが必要。devkitPro等でビルド可。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-13T23:33:18.000Z",
-      "contentHash": "80cf6b1a0d36"
-    },
-    {
-      "id": "24fe699fe656",
-      "title": "The Mercedes EQS returns with massive range and charging gains",
-      "url": "https://www.theverge.com/transportation/911196/mercedes-benz-eqs-ev-range-battery-charging-2027",
-      "summary": "メルセデスは米国で一時販売を止めていた電気セダンEQSを再導入。需要低迷と連邦優遇の縮小で休止していたが、今回は航続距離と充電性能を大幅改善し、ステア・バイ・ワイヤを新採用して復帰した。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-13T22:01:00.000Z",
-      "contentHash": "7126bffd63e4"
-    },
-    {
-      "id": "23af479c0a9f",
-      "title": "Stanford report highlights growing disconnect between AI insiders and everyone",
-      "url": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
-      "summary": "スタンフォード報告書によると、AI専門家と一般の意見が乖離し不安が拡大。米国では雇用・医療・経済への懸念が強まり、特にZ世代の否定的感情が増加。技術者はAGIを重視する一方、一般は給与や電気代など現実的影響を心配し、SNSでも分断が顕在化している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-13T21:25:38.000Z",
-      "contentHash": "9e3a7e3e21e6"
     }
   ]
 }
