@@ -1,6 +1,150 @@
 {
-  "generatedAt": "2026-05-02T17:16:34.282Z",
+  "generatedAt": "2026-05-03T09:40:17.508Z",
   "items": [
+    {
+      "id": "9cddc9b274d1",
+      "title": "Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a coding challenge",
+      "url": "https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge/",
+      "summary": "Rohana RezelのAI Coding Contest第12回は単語スライドパズル対決。10モデル中1つが接続失敗で9モデルが競い、中国の公開モデルKimi K2.6が優勝（22点）、XiaomiのMiMo V2‑Proが2位、GPT‑5.5が3位。盤は10〜30サイズで横縦の英単語を作り、7文字以上を加点、短い語は減点。大きい盤ほど初期の語が崩れ勝敗に影響。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T04:05:28.000Z",
+      "contentHash": "f4e5729269c9"
+    },
+    {
+      "id": "e002d7c0eea9",
+      "title": "【DB設計】ユニークと思いがちだけどユニークじゃないかもしれないもの | NCDC テックブログのフィード",
+      "url": "https://zenn.dev/ncdc/articles/69900b19b2b63e",
+      "summary": "DB設計で自然キー（例：ISBN）を主キーにしようとしたが、出版社の運用や誤登録、版替わりなどで理論上のユニーク性が崩れることがあると判り、自然キー採用には慎重になるべきだと結論づけた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-03T04:03:41.000Z",
+      "contentHash": "1856d2973a5e"
+    },
+    {
+      "id": "3bc039a6dd18",
+      "title": "Open source does not imply open community",
+      "url": "https://blog.feld.me/posts/2026/04/open-source-does-not-imply-open-community/",
+      "summary": "かつてはFTPやHTML、メーリングリスト、IRCで緩く配布・議論され、政治や規則も少なかった。Git/GitHubの台頭で中央化が進み、保守者の無償労働や運営負担が増大した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T02:36:09.000Z",
+      "contentHash": "4e34c2f74152"
+    },
+    {
+      "id": "a802d384efc7",
+      "title": "Maryland to ban A.I.-driven price increases in grocery stores",
+      "url": "https://www.nytimes.com/2026/05/01/business/surveillance-pricing-groceries-maryland.html",
+      "summary": "申し訳ありませんが、外部URLの本文を直接取得できません。記事本文を貼るか、主要なポイントを教えていただければ、200文字以内の日本語要約を作成します。どちらにしますか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T01:24:09.000Z",
+      "contentHash": "5b71852c4ffe"
+    },
+    {
+      "id": "8a823d4d8c18",
+      "title": "A network smuggling Starlink tech into Iran to beat internet blackout",
+      "url": "https://www.bbc.com/news/articles/cvgzk91leweo",
+      "summary": "イランの長期的な通信遮断を迂回するため、違法のStarlink端末を密輸する秘密ネットワーク。実行者サハンドは家族の安全を懸念しつつ、衛星回線で市民が独立した情報へアクセスできるよう支援している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T01:22:41.000Z",
+      "contentHash": "dbbe3a8fc53e"
+    },
+    {
+      "id": "0fa2ffaafc99",
+      "title": "【Databricks】Delta Lakeハンズオン:CREATEからVACUUMまで一通り触ってみる | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/2e53d740392d86",
+      "summary": "Databricks上でDelta Lakeをハンズオン解説。Unity Catalog環境でCREATE→INSERT→DESCRIBE HISTORY→UPDATE→Time Travel→DELETE→RESTORE→VACUUMを実行し、バージョン管理や履歴、タイムトラベルの挙動を実例で確認します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-03T00:09:27.000Z",
+      "contentHash": "ea6ff07228a1"
+    },
+    {
+      "id": "58ef22d62a87",
+      "title": "A Couple Million Lines of Haskell: Production Engineering at Mercury",
+      "url": "https://blog.haskell.org/a-couple-million-lines-of-haskell/",
+      "summary": "『Haskellers from the trenches』の一編。著者は十代でHaskellに惚れ20年の実務経験を持つ。大規模コードや成長するフィンテック企業（Mercury：30万社超、2025年$248B処理）で、型による安全境界やAPIに運用知識を組み込み安全性と可観測性を高める利点を述べる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T00:01:14.000Z",
+      "contentHash": "fb873c15eb7b"
+    },
+    {
+      "id": "31209eef0c57",
+      "title": "「Chaos Engineer」サブエージェントで実現する、AI主導のカオスエンジニアリング：システムの回復力を自動で検証する | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/chaos-engineer-subagent-resilience",
+      "summary": "Claude 3.5ベースのサブエージェント「chaos-engineer」でカオスエンジニアリングを自動化。定常状態や仮説設定、爆発半径最小化など科学的手順で安全に障害注入し、インフラ・アプリ・データ・ネットワーク・セキュリティの弱点を検出し回復力向上を支援する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-03T00:00:13.000Z",
+      "contentHash": "d423ab0c91ea"
+    },
+    {
+      "id": "1c8ba26c7924",
+      "title": "Tesla owner won $10k in court for Tesla's FSD lies. Tesla is still fighting him",
+      "url": "https://electrek.co/2026/05/02/this-tesla-owner-won-10k-in-court-for-teslas-fsd-lies-tesla-is-still-fighting-him/",
+      "summary": "1966年式フォード・マスタングを電動化し、テスラのハード・ソフトを組み込んで「Full Self-Driving」が実際に動作するように改造した事例を紹介する記事。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-02T22:45:23.000Z",
+      "contentHash": "cc000eccf05f"
+    },
+    {
+      "id": "0a20600471f7",
+      "title": "Clojurists Together – Q2 2026 Open Source Funding Announcement",
+      "url": "https://www.clojuriststogether.org/news/q2-2026-funding-announcement/",
+      "summary": "Clojurists Togetherは2026年Q2に5件へ合計31,000USDを助成（9,000×3、2,000×2）。MetabaseがMalli支援で参加。採択：Ambrose(Malli)、Dragan(Uncomplicate AI: Clojure LLM)、Cvetomir(SciCloj)、Ingy(Gloat)、Shantanu(PluMCP)。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-02T21:34:49.000Z",
+      "contentHash": "49f52c31515f"
+    },
+    {
+      "id": "751d1c25bd2c",
+      "title": "Show HN: State of the Art of Coding Models, According to Hacker News Commenters",
+      "url": "https://hnup.date/hn-sota",
+      "summary": "AI支援コーディングの動向を追うプロジェクト。Hacker Newsのコメントから各コーディングモデルの言及数とユーザー感情を日次で収集・解析し、監査用にコメントIDと感情結果をGoogleシートに記録。コメントはIDで閲覧可能。集計は直近10日（2026/4/23–5/1）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-02T21:25:05.000Z",
+      "contentHash": "7a75aa17251b"
+    },
+    {
+      "id": "c1baaa073231",
+      "title": "The agent harness belongs outside the sandbox",
+      "url": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+      "summary": "エージェントのハーネスはサンドボックス内で動くか外部バックエンドで動くかの二択があり、セキュリティ・障害特性やスキル・メモリ共有に影響する。著者はマルチユーザー環境で外部化する利点を論じる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-02T21:21:27.000Z",
+      "contentHash": "dddaf1bddf29"
+    },
+    {
+      "id": "1cf11ea93906",
+      "title": "Six Years Perfecting Maps on WatchOS",
+      "url": "https://www.david-smith.org/blog/2026/04/29/maps-on-watchos/",
+      "summary": "著者は山歩きで腕時計の地図を必須とし、6年以上かけてApple Watch向け地図を磨いた。Pedometer++ 8で到達点を示し、サーバ生成地図の限界を経てSwiftUIネイティブの独自レンダリングでオフラインやウィジェット対応を実現した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-02T21:14:29.000Z",
+      "contentHash": "3acab0eabc5b"
+    },
+    {
+      "id": "b01b16decd36",
+      "title": "Meta&#8217;s historic loss in court could cost a lot more than $375 million",
+      "url": "https://www.theverge.com/policy/922380/new-mexico-meta-public-nuisance-trial-kids-safety",
+      "summary": "ニューメキシコ州の司法長官がメタに対し児童安全訴訟で3.75億ドルの勝訴。続く審理では年齢確認や未成年の端末でのE2E禁止など、Facebook/Instagram/WhatsAppの事業変更を巡る命令が争われ、業界への波及も懸念される。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-02T18:25:26.000Z",
+      "contentHash": "b23208ec1fcc"
+    },
+    {
+      "id": "741cb941d345",
+      "title": "Spirit Airlines shuts down after Trump’s war on Iran doubled jet fuel prices",
+      "url": "https://www.theverge.com/business/922788/spirit-airlines-shutdown",
+      "summary": "超格安航空スピリット・エアラインが34年の歴史に幕を閉じ、トランプの対イラン戦争でジェット燃料価格が倍増した影響で5月2日早朝に全便を運航停止・欠航。公式サイトは再建用に転送され、利用客や従業員が取り残された。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-02T17:51:04.000Z",
+      "contentHash": "f368aaa15817"
+    },
+    {
+      "id": "d3244a999c15",
+      "title": "Aura’s delightful Aspen photo frame is on sale for $30 off this weekend",
+      "url": "https://www.theverge.com/gadgets/922513/aura-aspen-carver-walden-digital-photo-frame-mothers-day-deal-sale",
+      "summary": "Auraの12インチデジタルフォトフレーム「Aspen」が週末セールで30ドル引きの199ドルに。鮮やかな液晶で実物感があり、世界中の家族が写真・動画を送れる（購読不要）。母の日の贈り物に最適。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-02T17:00:00.000Z",
+      "contentHash": "810d85be1b3a"
+    },
     {
       "id": "1bacc0077242",
       "title": "LLMs consistently pick resumes they generate over ones by humans or other models",
@@ -113,10 +257,10 @@
       "id": "2c7f2c6f5d02",
       "title": "Codex の Computer Use を試す",
       "url": "https://note.com/npaka/n/nd62f3e1fe802",
-      "summary": "Codexの「Computer Use」はmacOS上でGUIを見てクリックや入力ができる機能。画面録画・アクセシビリティ権限が必要で、GUI依存のテストやブラウザ操作、バグ再現に有効。内部ブラウザや専用プラグインとの使い分け、アプリ承認や都度の許可設定に注意。",
+      "summary": "CodexのComputer UseはmacOS上のGUIを見てクリックや入力を行う機能。画面収録とアクセシビリティ権限を付与しプラグインを導入して使う。GUI依存作業やブラウザ、複数アプリのワークフロー、バグ再現に向き、内部ブラウザや専用プラグインと使い分ける。実行時はアプリごとの承認が必要で「常に許可」設定も可能。",
       "source": "npaka",
       "publishedAt": "2026-05-02T01:50:54.000Z",
-      "contentHash": "618bc5e18b1f"
+      "contentHash": "0532985d9ec3"
     },
     {
       "id": "1f73e9f6cbfd",
@@ -167,10 +311,10 @@
       "id": "21cb6b0d9f26",
       "title": "Codex pets を試す",
       "url": "https://note.com/npaka/n/n80eae24e08b6",
-      "summary": "OpenAIのCodex appのアニメーション付きコンパニオン「Codex Pets」を試用した報告。デスクトップのオーバーレイでCodexのスレッドや状態を可視化。\"/\"や設定で表示切替、設定→外観でペット選択、$skill-installerなどでカスタム作成が可能。",
+      "summary": "「Codex Pets」はOpenAIのCodex appにあるアニメーション付き常駐コンパニオン。デスクトップのオーバーレイでスレッド状態や進捗を可視化。表示/非表示は「/」→「なでる」や右クリック・設定で切替、設定でペット変更。カスタムは「$skill-installer hatch-pet」→再起動→「/hatch」で作成し選択。",
       "source": "npaka",
       "publishedAt": "2026-05-01T23:10:17.000Z",
-      "contentHash": "a0bbafdeed0b"
+      "contentHash": "1ccc1fb7ae18"
     },
     {
       "id": "be7f413c2f41",
@@ -545,10 +689,10 @@
       "id": "ad9c13a2a6c6",
       "title": "Codex のiOSアプリ開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n51962b239b68",
-      "summary": "CodexでiOS SwiftUIアプリの雛形を生成し、xcodebuildやTuistでCLI中心にビルド。高度化はXcodeBuildMCPを利用。SwiftUI向けの各種スキル（Liquid Glass、性能、並行処理、リファクタ等）を追加し、明確なプロンプトで反復改善する。",
+      "summary": "OpenAI Codexを使ったネイティブ開発の解説。APIによるコード生成・補完の手法、各プラットフォームへの統合例、実装上の注意点やセキュリティ、ベストプラクティスを紹介。",
       "source": "npaka",
       "publishedAt": "2026-05-01T00:14:37.000Z",
-      "contentHash": "ba1040649497"
+      "contentHash": "c0751c3c9f6b"
     },
     {
       "id": "b04e6b1c80ec",
@@ -572,10 +716,10 @@
       "id": "4e837202c532",
       "title": "Codex のゲーム開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n8fb9f73d2ce3",
-      "summary": "Codexを使ったブラウザゲーム開発指南。まずPLAN.mdで目標・メインループ・操作・勝敗・難度・ビジュアル・技術・マイルストーンを定義し、AGENTS.mdでスタック・検証・ログを指定。Playwrightでテスト、ImageGenで資産生成、OpenAI Docsを参照し反復開発する。",
+      "summary": "OpenAIのCodexを使ったゲーム開発の活用法を紹介。プロトタイピングやスクリプト自動生成、AIキャラクターやツール連携による開発効率化の事例と、検証や安全性などの注意点を解説しています。",
       "source": "npaka",
       "publishedAt": "2026-04-30T22:31:38.000Z",
-      "contentHash": "4ff46ba2612e"
+      "contentHash": "e59ebe7e95eb"
     },
     {
       "id": "c47d1e3a21ec",
@@ -1535,10 +1679,10 @@
       "id": "c5eff5926075",
       "title": "Isaac Sim の ROS2 Transform Trees と Odometry を試す",
       "url": "https://note.com/npaka/n/n04d1752d2dd3",
-      "summary": "Isaac SimでROS2のTransform Trees(/tf)とOdometry(/odom)を検証。/tfはセンサーやロボット各座標系の親子関係を示し、/odomはodom→base_linkの相対的な位置・姿勢・速度を配信。NavigationやSLAMではmap→odom→base_linkで誤差補正が必要。",
+      "summary": "Isaac Sim 5.1でROS2のTransform TreesとOdometryを検証。接続設定やTFツリーの可視化、オドメトリの取得・挙動確認を行い、手順や注意点をまとめた報告です。",
       "source": "npaka",
       "publishedAt": "2026-04-29T06:50:56.000Z",
-      "contentHash": "a58d0d7e49a3"
+      "contentHash": "6096c26fd057"
     },
     {
       "id": "3456dcc30ba9",
@@ -1607,10 +1751,10 @@
       "id": "925fcfa363d5",
       "title": "Claude の Blender Connector の使い方",
       "url": "https://note.com/npaka/n/nfc0bc102fd97",
-      "summary": "ClaudeのBlender Connectorは、Claudeと会話してBlenderを操作できるツール。Claude DesktopとBlender（4.2+）にConnectorとMCPアドオンを入れて接続。名前整理、ジオメトリノード解析／ラベル追加、マテリアル依存調査、重いオブジェクト特定と最適化提案などが可能。",
+      "summary": "記事本文または全文のリンクを貼ってください。私はウェブを直接閲覧できないため、URLだけでは要約できないことがあります。本文を提供いただければ、200文字以内で日本語に要約します。",
       "source": "npaka",
       "publishedAt": "2026-04-28T23:54:40.000Z",
-      "contentHash": "b49f75897d45"
+      "contentHash": "eab2841a2ed4"
     },
     {
       "id": "eff9c0ae32bc",
@@ -1643,10 +1787,10 @@
       "id": "dcb9ca989d60",
       "title": "Blender・Autodesk・AdobeとつながるClaudeの新Connector",
       "url": "https://note.com/npaka/n/n7864b38c7432",
-      "summary": "AnthropicのClaudeがBlender、Autodesk、Adobe、Ableton、Splice等と連携する新Connectorを発表。自然言語でソフト操作やBlender Python API制御、スクリプト／プラグイン生成、アセット同期やバッチ処理など、学習・自動化・パイプライン支援でクリエイティブ制作を強化します。",
+      "summary": "要約する本文やリンクが見当たりません。記事全文かURLを貼るか、要点を教えてください。受け取り次第、200字以内で分かりやすく要約します。",
       "source": "npaka",
       "publishedAt": "2026-04-28T23:07:08.000Z",
-      "contentHash": "1fa49fc4c1ba"
+      "contentHash": "36b327dc9e75"
     },
     {
       "id": "c78efead009c",
@@ -8856,150 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-14T08:35:45.000Z",
       "contentHash": "b510f694c13f"
-    },
-    {
-      "id": "d5367c3c1531",
-      "title": "Backblaze has stopped backing up OneDrive and Dropbox folders and maybe others",
-      "url": "https://rareese.com/posts/backblaze/",
-      "summary": "BackblazeがOneDriveやDropboxなどのフォルダを黙ってバックアップ対象から外していた。筆者は10年愛用し復旧経験もあるが、この無断の除外に気づき信頼が揺らいだ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-14T08:30:27.000Z",
-      "contentHash": "cd322a904b35"
-    },
-    {
-      "id": "0ba969126740",
-      "title": "The new Trump Phone design is here",
-      "url": "https://www.theverge.com/tech/911503/trump-mobile-t1-phone-redesign-new-website",
-      "summary": "Trump Mobileがサイトを刷新し新ロゴとデザイン言語を導入。以前示されたのと同じ改良版T1の最終デザインを公開。金色背面に星条旗と「Trump Mobile」表記、巨大な「T1」ロゴは撤去。トリプルカメラや曲面ボディ、ヘッドフォン端子を確認、発売日は未発表。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-14T08:25:07.000Z",
-      "contentHash": "40b0a1b5fbae"
-    },
-    {
-      "id": "802109f8a1e8",
-      "title": "CRE Camp #5 開催レポート 〜 CREをテーマとしたアンカンファレンスに初挑戦！ | SmartHR Tech Blog",
-      "url": "https://tech.smarthr.jp/entry/2026/04/14/165819",
-      "summary": "3月25日、弁護士ドットコム六本木でCRE Camp #5を開催。SmartHR CREも運営参加。菅井氏はトイルを超えるCREの役割（困りごとの構造化・技術的裏取り）と実践を共有。ログラス加藤氏はAIで高品質なサポート記事を高速作成する手法を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T07:58:19.000Z",
-      "contentHash": "157ea5eb135b"
-    },
-    {
-      "id": "5f7f3aa5de65",
-      "title": "Introspective Diffusion Language Models",
-      "url": "https://introspective-diffusion.github.io/",
-      "summary": "I-DLMはIntrospective Strided Decodingで既生成トークンを検証しつつ並列生成する拡散言語モデル。内省性を改善して同規模ARに匹敵する品質を達成し、I-DLM-8BはLLaDA-2.1-mini(16B)を上回り、2.9–4.1×高速化、LoRAで無損失加速可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-14T07:57:33.000Z",
-      "contentHash": "d6c2b7f8949d"
-    },
-    {
-      "id": "bb01a38bc5d8",
-      "title": "MySQLレプリケーションとは？ 役割・仕組み・メリットを徹底解説 | スマートスタイル TECH BLOG",
-      "url": "https://blog.s-style.co.jp/2026/04/16013/",
-      "summary": "MySQLレプリケーションはソースからレプリカへデータを複製し冗長化や読み取り負荷分散を実現する仕組み。バイナリログ→リレーログで同期し、非同期／準同期やバイナリログ方式とGTIDの違い、構成例と運用上の注意点を解説。MySQL8系はsource/replica用語に。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T07:45:27.000Z",
-      "contentHash": "620a3691fad8"
-    },
-    {
-      "id": "cc404f29aeb1",
-      "title": "AWSのAIツール ― Claude Code拡張機能 × IAM Policy Autopilot × Agent Pluginsを試してみた | every Tech Blog",
-      "url": "https://tech.every.tv/entry/2026/04/14/161725",
-      "summary": "Claude CodeとAWSのIAM Policy Autopilot・Agent Pluginsを連携して検証。Autopilotはast-grepの決定論的解析で最小権限ポリシーを自動生成。Agent Pluginsは5段階ワークフローとMCPで最新ドキュメント/料金を参照。ツールは素のLLMより鮮度・一貫性・検証性・最小権限で優れ、4シナリオで比較した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T07:17:25.000Z",
-      "contentHash": "dcc2cfba0441"
-    },
-    {
-      "id": "6a251e073806",
-      "title": "The secrets of the Shinkansen",
-      "url": "https://www.worksinprogress.news/p/the-secret-behind-japans-railways",
-      "summary": "日本は旅客キロの28%が鉄道で移動する世界有数の鉄道大国。数多くの私鉄が競い、JR東日本は巨大で黒字、補助金も少ない。利用が多いのは文化ではなく、高品質な鉄道網の成果だ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-14T06:41:01.000Z",
-      "contentHash": "8bcaae193816"
-    },
-    {
-      "id": "1ee553ea8574",
-      "title": "Distributed DuckDB Instance",
-      "url": "https://github.com/citguru/openduck",
-      "summary": "OpenDuckはMotherDuckの設計（差分ストレージ・ハイブリッド実行・ATTACHベースのUX）をオープン化したDuckDB拡張。追記層とスナップショットで永続化し、単一クエリでローカルとクラウドを透過的に分散処理。リモート表はファーストクラス。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-14T06:31:44.000Z",
-      "contentHash": "387f8c020275"
-    },
-    {
-      "id": "1c8cda99f401",
-      "title": "再帰的知識の結晶化：揮発するコンテキストを「永続的なスキル」として資産化する新手法 | Google Cloud Japanのフィード",
-      "url": "https://zenn.dev/google_cloud_jp/articles/2026-04-14-a",
-      "summary": "AIの揮発する短期記憶を、可読でバージョン管理可能なSKILL.md等のAgent skillファイルへ自律的に書き出し更新する「再帰的知識の結晶化」。属人化・ブラックボックス化を防ぎ、個別付録や全体指示でスキルを進化させる手法。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T06:27:27.000Z",
-      "contentHash": "845541a22b21"
-    },
-    {
-      "id": "99ccf76a0c80",
-      "title": "S2S APIを比較して分かった実務的な選び方 | HEROZ Tech Blog",
-      "url": "https://techblog.heroz.jp/entry/2026/04/14/152539",
-      "summary": "S2S（Speak-to-Speak）APIは音声→音声のリアルタイム対話向け新アーキテクチャ。GPT・Gemini・Novaを同条件で比較し、体験品質、知能性能、レイテンシ、ターン制御やAPI設計の違いから実務向けの選び方を整理する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T06:25:39.000Z",
-      "contentHash": "14f7870f292c"
-    },
-    {
-      "id": "c1ee4b0b1c91",
-      "title": "Agent Plugins for AWSの「deploy-on-aws」を試す | Gemcook Tech Blogのフィード",
-      "url": "https://zenn.dev/gemcook/articles/3b8d088ac56afd",
-      "summary": "村中（@wage790）紹介。2026/4/14時点でAWSがAI向け公式プラグイン集「Agent Plugins for AWS」を公開。Claude Code/Cursor/Codex対応で、特にdeploy-on-awsは自然言語で構成選定からCDKコード生成・デプロイまで自動化。仕様は変更の可能性あり。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T06:05:49.000Z",
-      "contentHash": "5fb22769757e"
-    },
-    {
-      "id": "b13a42a719f2",
-      "title": "Orvalを使ってOpenAPI SchemaからAPIクライアントを自動生成する | iimon TECH BLOG",
-      "url": "https://tech.iimon.co.jp/entry/2026/04/14/150529",
-      "summary": "Orvalを使ったAPIクライアント自動生成の紹介。手書きとの比較や利点を解説し、Djangoでのバックエンド作成、ModelSchemaやOpenAPI出力、フロントのOrval設定、モデル変更への追従までをハンズオンで示す記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T06:05:29.000Z",
-      "contentHash": "75cbf909e602"
-    },
-    {
-      "id": "2ee064e7b35a",
-      "title": "AIエージェントを安全に使い倒すには？Claude Codeのサンドボックス機能を試してみた | エムスリーテックブログ",
-      "url": "https://www.m3tech.blog/entry/claude-code-sandbox",
-      "summary": "AI・機械学習チームの須藤のブログリレー14日目。今春からランニングを始め、当初はキロ8〜9分で2〜3kmだったが継続でキロ4分台・20kmまで走れるように。目標はマラソン出場。最近adizero evo sl wovenを購入。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T06:00:00.000Z",
-      "contentHash": "c2534ecc56dc"
-    },
-    {
-      "id": "e5ee9937505c",
-      "title": "【ラクス開発TOPが語る】次期中期経営計画のプロダクト・開発組織戦略：クオリティグロースへの転換 | RAKUS Developers Blog | ラクス エンジニアブログ",
-      "url": "https://tech-blog.rakus.co.jp/entry/20260414/cto",
-      "summary": "CTO公手です。4月に新中期経営計画が始動。前中計で売上・組織を約4倍にした「ハイグロース」から、次の3年はAIで組織を筋肉質化する「クオリティグロース」へ。開発本部は3つのプロダクト戦略と3つの変革でこれを実現します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T05:49:37.000Z",
-      "contentHash": "91f91bfd0cd9"
-    },
-    {
-      "id": "223689c97b0f",
-      "title": "AWS サービスの改廃をまとめて確認できる「AWS Lifecycle Changes」を読む | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/aws-lifecycle-changes",
-      "summary": "セキュリティサービス部の佐竹です。2026年3月末公開のAWS公式「AWS Lifecycle Changes」をもとにサービスの改廃状況を整理しました。個別通知が一本化され、インフラ管理の可視化が進みます。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T05:07:37.000Z",
-      "contentHash": "084f944a5f1b"
-    },
-    {
-      "id": "9c8c6fa162a2",
-      "title": "2026年4月6日開催｜DataOps Night#10 イベントレポート | Finatext Tech Blogのフィード",
-      "url": "https://zenn.dev/finatext/articles/3e424c091031e4",
-      "summary": "2026年4月6日、ナウキャスト主催の勉強会「DataOps Night#10」を開催。テーマは「エンタープライズAIエージェントを支える技術」。現地・オンライン合わせ217名が参加。ナウキャスト六車、サイバーエージェント山田、LayerX澁井らが最新知見を共有。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-14T05:02:39.000Z",
-      "contentHash": "0759ad9d31e8"
     }
   ]
 }
