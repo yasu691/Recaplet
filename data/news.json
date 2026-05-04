@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2026-05-03T17:20:57.866Z",
+  "generatedAt": "2026-05-04T04:01:46.511Z",
   "items": [
+    {
+      "id": "a13ae63c01b1",
+      "title": "「AWS Lambda高速化！350msの壁を越えるSnapStart最適解」～【python】人気記事TOP5（2026/05/03） | CareNet Engineersのフィード",
+      "url": "https://zenn.dev/carenet/articles/zenn-weekly-python-articles-2026-05",
+      "summary": "CareNet Engineersの人気Python記事TOP5。主要はAWS Lambda SnapStart検証で、Init Durationが約350〜400msを境に有効性が変わり、短い関数では逆効果になり得ると結論。ほかに日本人ペルソナ解析、bundle exec解説、TOTP自作、Stream Deck×Claude Code記事を収録。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-04T02:42:20.000Z",
+      "contentHash": "a2aaf9eadaf7"
+    },
+    {
+      "id": "ccf14aab1f68",
+      "title": ".NET調査を振り返る  パッケージ環境依存解決 NU1608 | KENTEM TechBlog",
+      "url": "https://tech.kentem.jp/entry/2026/05/04/090000",
+      "summary": ".NETプロジェクトでNU1608警告。Xamarin.AndroidX.AppCompatが間接的に古いFragmentを参照し、Lifecycleのバージョン競合が発生。csprojでXamarin.AndroidX.Lifecycle.ViewModelSavedState.AndroidをVersion=2.9.2に指定して解決しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "contentHash": "ee58a8f93322"
+    },
+    {
+      "id": "5a1d2b11d4c5",
+      "title": "The text mode lie: why modern TUIs are a nightmare for accessibility",
+      "url": "https://xogium.me/the-text-mode-lie-why-modern-tuis-are-a-nightmare-for-accessibility",
+      "summary": "「ターミナル＝アクセシブル」は誤解。CLIの時系列ストリームとTUIの2Dグリッドは別物で、InkやBubble Tea等の近代TUIは頻繁な再描画でSpeakupやNVDAをスパムし、視覚障害者には逆に使いにくい。gemini-cliが実例。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T23:59:02.000Z",
+      "contentHash": "5b7a77a7ba96"
+    },
+    {
+      "id": "d6a383fc9c87",
+      "title": "Let's Buy Spirit Air",
+      "url": "https://letsbuyspiritair.com/",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文か主要部分を貼り付けていただければ、200文字以内の日本語要約を作成します。HNのコメント要約も必要なら同様に貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T23:36:11.000Z",
+      "contentHash": "5033147ec474"
+    },
+    {
+      "id": "13622ee3999d",
+      "title": "Agentic Coding Is a Trap",
+      "url": "https://larsfaye.com/articles/agentic-coding-is-a-trap",
+      "summary": "記事は、AIエージェント中心のコーディング（SDD）が普及する一方で罠だと警告する。生成コードとの乖離、AI非決定性対応の複雑化、技能の萎縮、ベンダーロックイン、コスト変動が問題で、批判的に検証できる熟練者が不可欠だがAIはその思考力を損なう。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T22:52:07.000Z",
+      "contentHash": "e6372cac3006"
+    },
+    {
+      "id": "89f78b7ddf36",
+      "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper",
+      "url": "https://github.com/aattaran/deepclaude",
+      "summary": "deepclaudeはClaude Codeの思考モデルをDeepSeek V4 ProやOpenRouter等に差し替え、同じUXで約17倍安く動かせるツール。CLI、ファイル編集、bash実行やサブエージェント対応で、APIキー設定とスクリプト配置ですぐ利用可能。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T22:13:20.000Z",
+      "contentHash": "31f27e67449c"
+    },
+    {
+      "id": "ffd23e919e1c",
+      "title": "New statue in London, attributed to Banksy, of a suited man, blinded by a flag",
+      "url": "https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/",
+      "summary": "中央ロンドンのウォータール・プレイスに、旗で目を覆われ崖から落ちそうなスーツ姿の彫像が深夜に設置され、署名とBanksyの公式Instagram投稿で本人作とみられ話題に。近隣の伝統的な記念碑と対比して議論を呼んでいる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T18:54:28.000Z",
+      "contentHash": "9a91118d6992"
+    },
+    {
+      "id": "2b4472079bac",
+      "title": "Why TUIs are back",
+      "url": "https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/",
+      "summary": "記事はTUIの復活を論じる。DHHのOmarchyはTUI・Webアプリ・ネイティブを併用し、コードエディタでもネイティブ→Electron→vim/emacsの流れがあったと指摘。ネイティブGUIは衰退し、Windowsは頻繁なGUIフレームワークの刷新で断片化・複雑化し機能後退が生じ、Electron依存が残ると結論づける。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T18:42:28.000Z",
+      "contentHash": "2193fed3591f"
+    },
+    {
+      "id": "0d23894b0849",
+      "title": "BYOMesh – New LoRa mesh radio offers 100x the bandwidth",
+      "url": "https://partyon.xyz/@nullagent/116499715071759135",
+      "summary": "外部リンクに直接アクセスできないため記事を取得できません。本文か重要箇所を貼っていただければ、200字以内で要約します。HNコメント要約や文体（中立/批判的）指定も可。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T18:03:14.000Z",
+      "contentHash": "cfbf6b8ae828"
+    },
+    {
+      "id": "5048b227c921",
+      "title": "How far behind is each major Chromium browser?",
+      "url": "https://chromium-drift.pages.dev/",
+      "summary": "Chromiumの旧バージョンを使うブラウザは、公表済みだが未配布の修正が反映されず既知の脆弱性に晒され攻撃を受けやすい。最新のWeb APIや機能も使えず互換性問題が生じる。ブラウザのChromium版を確認してください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T17:05:58.000Z",
+      "contentHash": "244c5ed4d439"
+    },
+    {
+      "id": "fd74449b26a2",
+      "title": "Southwest Headquarters Tour",
+      "url": "https://katherinemichel.github.io/blog/travel/southwest-headquarters-tour-2026.html",
+      "summary": "著者は2017年の経験からサウスウエスト航空の格安運賃と柔軟な旅行クレジットで多くの会議に参加できたと述べ、ファン向け本社ツアーに参加。ダラスLEADセンターで客室乗務員の水上避難・消火・自己防衛訓練、歴代制服、パイロットの女性比率が6%と低い点などを見学した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T17:02:13.000Z",
+      "contentHash": "09657d8f98d8"
+    },
+    {
+      "id": "dd06c52fdd16",
+      "title": "Metal Gear Solid 2's source code has been leaked on 4chan",
+      "url": "https://www.thegamer.com/mgs2-hd-edition-source-code-massive-leak/",
+      "summary": "Metal Gear Solid 2のHD版の全ソースコードが流出。ファンは移植や改造への期待を示す一方、著作権や法的リスク、悪用の懸念も指摘され、保存や解析には注意が必要と報じられる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T16:48:11.000Z",
+      "contentHash": "dd38e96f08a3"
+    },
     {
       "id": "d6217dfa81d1",
       "title": "Reggie Fils-Aimé says Amazon once asked Nintendo to break the law",
@@ -41,10 +149,10 @@
       "id": "11cd193e0bdf",
       "title": "Codex CLI の /goal の概要",
       "url": "https://note.com/npaka/n/n15e84ee77f5a",
-      "summary": "Codex CLIに、ゴールをスレッドで保持して反復的に達成を試みる /goal コマンドが追加された。/goal <目標> の設定や pause/resume/clear が可能で実験的機能のため設定で有効化が必要。テスト合格やCI復旧など完了条件が明確な作業向け。曖昧な目標や大規模な自動編集に注意し、git diffやテスト結果を確認すること。",
+      "summary": "/goal は Codex CLI の目標持続コマンド。目標設定後に作業→検証→修正を反復し、達成・一時停止・再開・解除や予算管理ができる。完了条件を明確にし、差分や広範囲変更に注意。実験機能で設定が必要。",
       "source": "npaka",
       "publishedAt": "2026-05-03T14:13:51.000Z",
-      "contentHash": "a469f154a700"
+      "contentHash": "8076d1f92ff8"
     },
     {
       "id": "0d01c1c3bf9f",
@@ -374,10 +482,10 @@
       "id": "2c7f2c6f5d02",
       "title": "Codex の Computer Use を試す",
       "url": "https://note.com/npaka/n/nd62f3e1fe802",
-      "summary": "Codexの「Computer Use」はmacOS上で画面を見てクリックや入力などのGUI操作を自動化する機能。Screen RecordingとAccessibility権限が必要で、ログイン済みのChrome操作やアプリ間ワークフロー、GUI専用バグ再現に適する。設定でプラグインを導入し、実行時にアプリごとの承認を与える。",
+      "summary": "CodexのComputer UseはmacOS上で画面を見てクリックや入力などGUI操作を自動実行する機能。プラグインの導入と画面録画・アクセシビリティ権限が必要で、デスクトップアプリやログイン済みブラウザ操作、GUI依存のバグ再現に適する。@Computer Useや@AppNameで起動し、アプリごとに許可を与える。",
       "source": "npaka",
       "publishedAt": "2026-05-02T01:50:54.000Z",
-      "contentHash": "ec3287db8c2e"
+      "contentHash": "3ef94c9f14e8"
     },
     {
       "id": "1f73e9f6cbfd",
@@ -428,10 +536,10 @@
       "id": "21cb6b0d9f26",
       "title": "Codex pets を試す",
       "url": "https://note.com/npaka/n/n80eae24e08b6",
-      "summary": "OpenAIのCodex appのアニメ付きコンパニオン「Codex Pets」を試したまとめ。デスクトップ常駐のオーバーレイでスレッド状態や進捗を可視化。表示/非表示はメッセージ欄の「/→なでる」や右クリック、設定で切替。ペット変更は設定→外観。カスタムは「$skill-installer hatch-pet」再起動→「/hatch」で作成。",
+      "summary": "OpenAIのCodex appのアニメ付きコンパニオン「Codex Pets」を試用した報告。デスクトップのオーバーレイでスレッド状態や進捗を表示、表示/非表示やペット切替が可能。カスタムは $skill-installer hatch-pet → 再起動 → /hatch で作成。",
       "source": "npaka",
       "publishedAt": "2026-05-01T23:10:17.000Z",
-      "contentHash": "029911a4218c"
+      "contentHash": "32dfc8704b78"
     },
     {
       "id": "be7f413c2f41",
@@ -734,10 +842,10 @@
       "id": "ae110b0cef8d",
       "title": "Codex のスラッシュコマンドまとめ",
       "url": "https://note.com/npaka/n/n87a5c4364154",
-      "summary": "OpenAI Codexのスラッシュコマンド一覧と解説。/mcp、/review、/status、/side、/feedback、/fork、/plan、/memory、/model、/compact、/personality、/reasoning、/auto-review、/fast等で会話や作業モード切替、コードレビュー、メモ管理、モデル変更、コンテキスト圧縮などが迅速に行えます。",
+      "summary": "OpenAI Codexの「/」で表示されるスラッシュコマンド一覧。会話や作業モードを素早く切替えるショートカットで、/mcp、/review、/status、/side、/feedback、/fork、/plan、/memory、/model、/compact、/personality、/reasoning、/auto-review、/fast などの機能と使いどころを解説しています。",
       "source": "npaka",
       "publishedAt": "2026-05-01T06:51:29.000Z",
-      "contentHash": "0181d2cfdbef"
+      "contentHash": "6136cdac83c1"
     },
     {
       "id": "3c8bd07284fb",
@@ -806,10 +914,10 @@
       "id": "ad9c13a2a6c6",
       "title": "Codex のiOSアプリ開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n51962b239b68",
-      "summary": "CodexでSwiftUIの雛形を作り、CLI優先でxcodebuildやTuistでビルド。高度化時はXcodeBuildMCPを導入し、SwiftUI/ Liquid Glass、性能や並行処理など専用スキルを追加して具体的なプロンプトで反復開発する。",
+      "summary": "CodexでSwiftUIアプリのひな形を生成し、CLI主体でxcodebuild/Tuistのビルドループを回す。規模拡大でXcodeBuildMCPや性能・並行処理・リファクタ等のSwiftUIスキルを追加し、具体的なプロンプトで反復改良する手法を解説。",
       "source": "npaka",
       "publishedAt": "2026-05-01T00:14:37.000Z",
-      "contentHash": "b699073668c8"
+      "contentHash": "1566b5e1a0c1"
     },
     {
       "id": "b04e6b1c80ec",
@@ -833,10 +941,10 @@
       "id": "4e837202c532",
       "title": "Codex のゲーム開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n8fb9f73d2ce3",
-      "summary": "Codexでのブラウザゲーム開発まとめ。まずPLAN.mdに目標・メインループ・操作・勝敗・進行・ビジュアル・技術・マイルストーンを定義。AGENTS.mdでCodexの動作や技術スタックを指定し、Playwrightでテスト、ImageGenでアセット生成、OpenAI Docs参照、作業は`.logs/`に記録。",
+      "summary": "Codexでブラウザゲームを作る手順。実装前にPLAN.mdで目的・メインループ・操作・勝敗・難易度・ビジュアル・技術前提・マイルストーンを定義。$playwright-interactiveでUIテスト、$imagegenでアセット、$openai-docs参照。AGENTS.mdでCodexを制御し、作業は`.logs/`に記録。",
       "source": "npaka",
       "publishedAt": "2026-04-30T22:31:38.000Z",
-      "contentHash": "63a2e0eeb741"
+      "contentHash": "19b42f82aecf"
     },
     {
       "id": "c47d1e3a21ec",
@@ -851,10 +959,10 @@
       "id": "6791765eeff0",
       "title": "Codex のユースケースまとめ",
       "url": "https://note.com/npaka/n/nc4fd318fbead",
-      "summary": "OpenAIのCodexは単なるコード生成を超え、PRレビューや大規模コード解析、フロント／iOS・macOS開発支援、データ分析・レポート作成、バグトリアージやQA自動化など実務寄りの幅広い開発支援を担う。",
+      "summary": "OpenAIのCodexは単なるコード生成以上の実務向けAIで、実装・レビュー・調査・自動化・品質管理を支援。PRレビューや大規模コード理解、フロント（スクショ/Figma→UI）、iOS/macOS開発、データ分析・レポート、バグトリアージやQA自動化など多用途で活用可能。",
       "source": "npaka",
       "publishedAt": "2026-04-30T21:17:59.000Z",
-      "contentHash": "401a468625dc"
+      "contentHash": "8a0b9df3c841"
     },
     {
       "id": "991c2b4678b4",
@@ -1796,10 +1904,10 @@
       "id": "c5eff5926075",
       "title": "Isaac Sim の ROS2 Transform Trees と Odometry を試す",
       "url": "https://note.com/npaka/n/n04d1752d2dd3",
-      "summary": "Isaac Sim 5.1でROS2のTransform Trees(/tf)とOdometry(/odom)を検証。各センサや本体の座標系の親子関係が重要で、/odomはodom→base_linkの相対的推定。Navigationではmap→odom→base_linkで誤差補正が必要。",
+      "summary": "Isaac Sim 5.1でROS2のTransform Trees(/tf)とOdometry(/odom)を検証。/tfはロボットやセンサーの座標系の親子関係を管理し、/odomはodom→base_linkの推定位置・姿勢・速度を配信。実機では誤差が蓄積するためmap→odom→base_link構成でNavigationやSLAMに用いる。",
       "source": "npaka",
       "publishedAt": "2026-04-29T06:50:56.000Z",
-      "contentHash": "f30f68bd126b"
+      "contentHash": "36edfd0614e9"
     },
     {
       "id": "3456dcc30ba9",
@@ -1841,10 +1949,10 @@
       "id": "3c058c8ab609",
       "title": "Claude の Adobe for creativity の使い方",
       "url": "https://note.com/npaka/n/n6841ac39cc4c",
-      "summary": "2026年4月28日、AdobeとAnthropicがClaude用コネクタ「Adobe for creativity」を発表。Claudeのチャット画面からPhotoshop等を呼び出し、自然文で写真レタッチ、デザイン作成、動画リサイズ・カット、SNS向けバリエーションや一括補正が可能。導入はコネクタ追加後にAdobeでサインイン。",
+      "summary": "AdobeとAnthropicのConnector「Adobe for creativity」を使うと、ClaudeのチャットからPhotoshop等を自然文で操作でき、写真レタッチ、テンプレートデザイン、動画リサイズ・カット、SNS向けバリエーションや一括編集が可能。セットアップはコネクタ追加→Adobeでサインイン。",
       "source": "npaka",
       "publishedAt": "2026-04-29T01:50:16.000Z",
-      "contentHash": "91f4f853033e"
+      "contentHash": "b0b0c7bd4527"
     },
     {
       "id": "960accfa8ca5",
@@ -8892,114 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-04-14T17:26:22.000Z",
       "contentHash": "3acdf834c86e"
-    },
-    {
-      "id": "49aff9651307",
-      "title": "Google&#8217;s Spotlight-like desktop search bar for Windows is available for everyone",
-      "url": "https://www.theverge.com/tech/911741/google-windows-app-launch",
-      "summary": "GoogleがSpotlight風デスクトップ検索アプリを英語版でWindows向けに全世界公開。Windows10以上でAlt+Space起動、ウェブ・PC内・Drive検索、画像やGoogle Lens、AIモード対応。macOS/Linux展開は未定。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-14T17:12:03.000Z",
-      "contentHash": "2cdcea7356b5"
-    },
-    {
-      "id": "28a3447b4d78",
-      "title": "Turn your best AI prompts into one-click tools in Chrome",
-      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
-      "summary": "Chromeの新機能「Skills」は、チャット履歴からAIプロンプトを保存してワンクリックで再実行できる機能。複数タブで動作し、レシピ置換、比較、文書要約などに利用可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-14T17:09:43.000Z",
-      "contentHash": "e59d191a5633"
-    },
-    {
-      "id": "5664d7ec34b8",
-      "title": "Chrome now lets you turn AI prompts into repeatable &#8216;Skills&#8217;",
-      "url": "https://www.theverge.com/tech/911658/google-chrome-gemini-ai-skills-availability-launch",
-      "summary": "ChromeがGeminiのAIプロンプトを「Skills」として保存し、複数タブやページでワンクリック再利用可能に。米国英語設定のデスクトップChromeで順次提供。/入力・コンパスアイコンで管理。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-14T17:00:00.000Z",
-      "contentHash": "61a34733005b"
-    },
-    {
-      "id": "ec12b5a965e3",
-      "title": "Spain to expand internet blocks to tennis, golf, movies broadcasting times",
-      "url": "https://bandaancha.eu/articulos/telefonica-consigue-bloqueos-ips-11731",
-      "summary": "外部サイトに直接アクセスできないため、記事本文を貼っていただけますか？あるいは要点を教えていただければ、それを基に200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-14T16:59:09.000Z",
-      "contentHash": "90310f457caf"
-    },
-    {
-      "id": "3fedcbf50ba7",
-      "title": "The world’s oldest art, now in 6K IMAX",
-      "url": "https://www.theverge.com/entertainment/911678/werner-herzog-cave-forgotten-dreams-imax",
-      "summary": "ヴェルナー・ヘルツォーク監督のドキュメンタリー『忘れられた夢の洞窟』が6K IMAX向けに修復上映。1994年に発見されたフランス・ショーヴェ洞窟の3万年以上前の壁画、世界最古の美術が大画面で蘇る。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-14T16:15:00.000Z",
-      "contentHash": "cb750e699107"
-    },
-    {
-      "id": "659a3821be0a",
-      "title": "Sony’s new 1440p OLED gaming monitor seems a lot better than its first",
-      "url": "https://www.theverge.com/news/907924/sony-inzone-m10s-ii-oled-tandem-gaming-monitor-specs-price-features",
-      "summary": "ソニーの1440p OLEDゲーミングモニター「InZone M10S II」は、低プロファイル設計を継承しつつ第4世代WOLED（LGのPrimary RGB Tandem）で輝度・コントラスト向上、480Hz維持、価格は前作と同じ$1,099.99、オンライン限定販売。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-14T16:00:00.000Z",
-      "contentHash": "be04fb3b870e"
-    },
-    {
-      "id": "17c9fb41a8df",
-      "title": "Sony’s latest gaming headset offers great open-back audio",
-      "url": "https://www.theverge.com/tech/908132/sony-inzone-h6-air-open-back-gaming-headset-hands-on",
-      "summary": "ソニーのPC向けInZoneブランドから開放型ゲーミングヘッドホン「H6 Air」（$199.99）。H9 IIの快適な形状を踏襲して有線化し、穴あきのオープンバックで自然な音と装着感を実現。ただし外音遮断は得意でない。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-14T16:00:00.000Z",
-      "contentHash": "bc4de903d5c3"
-    },
-    {
-      "id": "42aa1736b74a",
-      "title": "Google, Microsoft, Meta All Tracking You Even When You Opt Out",
-      "url": "https://www.404media.co/google-microsoft-meta-all-tracking-you-even-when-you-opt-out-according-to-an-independent-audit/",
-      "summary": "webXrayの独立監査はカリフォルニアの7,000超サイト（3月）を解析し、55%がオプトアウト後も広告クッキーを設定。GPC無視率はGoogle87%、Microsoft50%、Meta69%で州法違反・巨額罰金の可能性。各社は調査に異議を唱え、Googleは「誤解」があると反論。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-14T15:46:43.000Z",
-      "contentHash": "0e9923100ad2"
-    },
-    {
-      "id": "9b6b59f500ef",
-      "title": "DaVinci Resolve adds new photo editing tools to take on Lightroom and Photoshop",
-      "url": "https://www.theverge.com/tech/911635/blackmagic-design-davinci-resolve-21-photo-page-raw-support",
-      "summary": "Blackmagic DesignのDaVinci Resolve 21が写真モードを追加。複数画像の整理・編集・色補正やSony/Canon/Nikon/FujifilmのRAW対応、AI検索と俳優の若返り/老化などAI編集でLightroom/PhotoshopやPremiereの代替を狙う。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-14T15:28:36.000Z",
-      "contentHash": "a79df9367529"
-    },
-    {
-      "id": "f25728e50558",
-      "title": "Bose’s noise-crushing QC Ultra Earbuds are nearly 20 percent off right now",
-      "url": "https://www.theverge.com/gadgets/911188/bose-quietcomfort-ultra-earbuds-2nd-gen-turtle-beach-stealth-pivot-deal-sale",
-      "summary": "Boseのノイズキャンセリング最上位QC Ultra Earbuds（第2世代）がAmazonとBest Buyで249ドル（約50ドルオフ、約20%引）で販売中。音質とノイキャンが向上。Belkinの2-in-1充電器が35ドルなど他セールもあり。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-14T15:04:49.000Z",
-      "contentHash": "70f1a0aad1a3"
-    },
-    {
-      "id": "7660cf7a33cd",
-      "title": "The future of everything is lies, I guess: Work",
-      "url": "https://aphyr.com/posts/418-the-future-of-everything-is-lies-i-guess-work",
-      "summary": "ソフト開発は工学より魔術化する可能性がある。AI同僚への過剰期待は誤りで、自動化は脆弱化・技能喪失・監視疲労・偏見・乗っ取りなどの危険を招く。MLは富と権力を大手に集中させ、UBIには繋がらない。自然言語でのプログラミングは進歩したが限界とリスクがある。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-14T15:00:45.000Z",
-      "contentHash": "d69b883bc6b2"
-    },
-    {
-      "id": "2315bceb7d72",
-      "title": "Lucid sells more robotaxis to Uber, appoints a new CEO",
-      "url": "https://www.theverge.com/transportation/911628/lucid-uber-robotaxi-nuro-ceo-saudi-arabia",
-      "summary": "ルーシッドがウーバー向けロボタクシー契約を拡大。ウーバーがグラビティSUVを2万台から3.5万台に増やし、出資を5億ドルに増額。新CEOはエレベーター等メーカー出身。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-14T14:17:13.000Z",
-      "contentHash": "f0d746f3e1d2"
     }
   ]
 }
