@@ -1,23 +1,41 @@
 {
-  "generatedAt": "2026-05-04T04:01:46.511Z",
+  "generatedAt": "2026-05-04T10:35:09.803Z",
   "items": [
+    {
+      "id": "2f564983ebc3",
+      "title": "StripeのSelective Test Executionから考える、Rails CIで「全部走らせない」設計 | noteエンジニアチーム 公式マガジン",
+      "url": "https://note.com/taakuuyaa/n/n38d5d6e6dd4b",
+      "summary": "CI高速化は並列化やキャッシュが定番だが、増え続けるテストには限界がある。Stripeの論文は50M行Rubyのモノレポで、「全部を速く回す」ではなく「安全に全部を回さない（選択的テスト実行）」手法が鍵だと示した点が興味深い。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-04T06:09:54.000Z",
+      "contentHash": "940d4ca0b67c"
+    },
+    {
+      "id": "44cd09e0f09e",
+      "title": "【Backstage】New Frontend System (NFS) 入門 | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/05/04/123456",
+      "summary": "APCコミュニケーションズACS事業部の亀崎が、2022年以降毎年5月4日に記事を投稿する恒例を紹介。過去の投稿例を挙げ、5月4日の意味は最後に明かすと予告しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-04T03:34:56.000Z",
+      "contentHash": "feea67921f85"
+    },
     {
       "id": "a13ae63c01b1",
       "title": "「AWS Lambda高速化！350msの壁を越えるSnapStart最適解」～【python】人気記事TOP5（2026/05/03） | CareNet Engineersのフィード",
       "url": "https://zenn.dev/carenet/articles/zenn-weekly-python-articles-2026-05",
-      "summary": "CareNet Engineersの人気Python記事TOP5。主要はAWS Lambda SnapStart検証で、Init Durationが約350〜400msを境に有効性が変わり、短い関数では逆効果になり得ると結論。ほかに日本人ペルソナ解析、bundle exec解説、TOTP自作、Stream Deck×Claude Code記事を収録。",
+      "summary": "Zennの人気Python記事を自動取得してAIで要約・自動更新するページ。例としてAWS LambdaのSnapStart高速化や、NVIDIAの日本人ペルソナ100万人データをPythonで分析し、性別・年齢・地域・職業の集計や保育関連職の偏りを検証しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-04T02:42:20.000Z",
-      "contentHash": "a2aaf9eadaf7"
+      "contentHash": "da6dcdffa1a1"
     },
     {
       "id": "ccf14aab1f68",
       "title": ".NET調査を振り返る  パッケージ環境依存解決 NU1608 | KENTEM TechBlog",
       "url": "https://tech.kentem.jp/entry/2026/05/04/090000",
-      "summary": ".NETプロジェクトでNU1608警告。Xamarin.AndroidX.AppCompatが間接的に古いFragmentを参照し、Lifecycleのバージョン競合が発生。csprojでXamarin.AndroidX.Lifecycle.ViewModelSavedState.AndroidをVersion=2.9.2に指定して解決しました。",
+      "summary": "モバイルエンジニアのT.Sがプロジェクトで発生したNuGet警告NU1608（パッケージ参照のバージョン競合）を調査。UI関連のLifecycleパッケージで発生し、原因と解決方法を記録・共有している。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-04T00:00:00.000Z",
-      "contentHash": "ee58a8f93322"
+      "contentHash": "47b96beebe99"
     },
     {
       "id": "5a1d2b11d4c5",
@@ -32,10 +50,19 @@
       "id": "d6a383fc9c87",
       "title": "Let's Buy Spirit Air",
       "url": "https://letsbuyspiritair.com/",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文か主要部分を貼り付けていただければ、200文字以内の日本語要約を作成します。HNのコメント要約も必要なら同様に貼ってください。",
+      "summary": "外部リンクの内容を直接開けないため、記事本文を貼っていただけますか？貼っていただければ200文字以内で日本語要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-05-03T23:36:11.000Z",
-      "contentHash": "5033147ec474"
+      "contentHash": "ff4b497cc4df"
+    },
+    {
+      "id": "50cae89b94a9",
+      "title": "The 'Hidden' Costs of Great Abstractions",
+      "url": "https://jdgr.net/the-hidden-costs-of-great-abstractions",
+      "summary": "抽象化で複雑さは隠れるが理解は低下。高速化で開発者はライブラリやLLMに頼り、見た目は良くても品質は怪しい。良否を見分ける専門知識が必要で、著者は負傷で選択肢が限られた自身の経歴を語る。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T23:12:02.000Z",
+      "contentHash": "f48dd223cd43"
     },
     {
       "id": "13622ee3999d",
@@ -48,7 +75,7 @@
     },
     {
       "id": "89f78b7ddf36",
-      "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper",
+      "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro",
       "url": "https://github.com/aattaran/deepclaude",
       "summary": "deepclaudeはClaude Codeの思考モデルをDeepSeek V4 ProやOpenRouter等に差し替え、同じUXで約17倍安く動かせるツール。CLI、ファイル編集、bash実行やサブエージェント対応で、APIキー設定とスクリプト配置ですぐ利用可能。",
       "source": "Hacker News",
@@ -77,10 +104,19 @@
       "id": "0d23894b0849",
       "title": "BYOMesh – New LoRa mesh radio offers 100x the bandwidth",
       "url": "https://partyon.xyz/@nullagent/116499715071759135",
-      "summary": "外部リンクに直接アクセスできないため記事を取得できません。本文か重要箇所を貼っていただければ、200字以内で要約します。HNコメント要約や文体（中立/批判的）指定も可。",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文をここに貼るか主要ポイントを教えてください。いただければ200字以内で日本語に要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-05-03T18:03:14.000Z",
-      "contentHash": "cfbf6b8ae828"
+      "contentHash": "75a60a7ff7ec"
+    },
+    {
+      "id": "024fa16dedd9",
+      "title": "LLMs Are Not a Higher Level of Abstraction",
+      "url": "https://www.lelanthran.com/chap15/content.html",
+      "summary": "LLMがアセンブリ→C→Pythonのような「次の高位抽象化」だという主張を否定する記事。従来は入力が常に特定の出力を生む決定的変換だったが、LLMは出力が確率分布で非決定的なため同列に扱えない、という主張。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-03T17:51:58.000Z",
+      "contentHash": "3ca3380e4b8b"
     },
     {
       "id": "5048b227c921",
@@ -176,10 +212,10 @@
       "id": "4e53bd101b89",
       "title": "【合格体験記】OCIのFoundations資格を3つ受けてみた | APC 技術ブログ",
       "url": "https://techblog.ap-com.co.jp/entry/2026/05/03/214910",
-      "summary": "OCIのFoundations資格を3種受験。FoundationsとAI Foundationsは模擬試験で合格。Data Platformは初回不合格も研修スライドをNotebookLMで整理して再受験で合格。試験は無料・日本語対応・オンライン。日本語設定と模擬試験、AI活用を推奨。",
+      "summary": "クラウド事業部の葛城がスキル向上のためOCIの基礎系資格3種（OCI Foundations、AI Foundations、Oracle Data Platform Foundations）を受験。勉強法や失敗談を交えて受験をこれから考える人向けに感想を共有している。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-03T12:49:10.000Z",
-      "contentHash": "63c9697140dc"
+      "contentHash": "9d6afe91adcc"
     },
     {
       "id": "dfb9e1c34f96",
@@ -194,10 +230,10 @@
       "id": "ef7858195cd8",
       "title": "Claude Code更新 alwaysLoad・hooks強化・project purge【4/26〜5/2】 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/2026/05/03/190000",
-      "summary": "Claude Code v2.1.120–126で、MCP単位で常時ツール読み込みするalwaysLoad、全ツール対応に拡張されたPostToolUseのupdatedToolOutput、プロジェクト状態を一括削除するclaude project purge、CI向けのultrareview、孤立依存を除くplugin pruneの追加、メモリリーク修正など運用・Hooks・管理機能が強化されました。",
+      "summary": "サーバーワークスの池田です。今週Claude Codeはv2.1.120〜v2.1.126の5バージョンを公開（v2.1.124はCHANGELOG未記載、v2.1.125は番号スキップ）。MCPツールをまとめて除外するalwaysLoadや、PostToolUseの出力置換をMCP限定から全ツール対応に拡張したupdatedToolOutput、プロジェクト紐付け関連の改善などが含まれます。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-03T10:00:00.000Z",
-      "contentHash": "c16922e426e8"
+      "contentHash": "b58849bf90af"
     },
     {
       "id": "eef185f1612b",
@@ -239,10 +275,10 @@
       "id": "e002d7c0eea9",
       "title": "【DB設計】ユニークと思いがちだけどユニークじゃないかもしれないもの | NCDC テックブログのフィード",
       "url": "https://zenn.dev/ncdc/articles/69900b19b2b63e",
-      "summary": "DB設計で自然キー（例：ISBN）を主キーにしようとしたが、出版社の運用や誤登録、版替わりなどで理論上のユニーク性が崩れることがあると判り、自然キー採用には慎重になるべきだと結論づけた。",
+      "summary": "SQLアンチパターン「IDリクワイアド」を読んでプロジェクトの疑似キーを見直したが、自然キーは業務変化や実務で一意性が崩れることがあり採用に迷った。t-wada氏のデータモデリング助言が執筆の契機。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-03T04:03:41.000Z",
-      "contentHash": "1856d2973a5e"
+      "contentHash": "2eeefb71520d"
     },
     {
       "id": "3bc039a6dd18",
@@ -275,10 +311,10 @@
       "id": "0fa2ffaafc99",
       "title": "【Databricks】Delta Lakeハンズオン:CREATEからVACUUMまで一通り触ってみる | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/2e53d740392d86",
-      "summary": "Databricks上でDelta Lakeをハンズオン解説。Unity Catalog環境でCREATE→INSERT→DESCRIBE HISTORY→UPDATE→Time Travel→DELETE→RESTORE→VACUUMを実行し、バージョン管理や履歴、タイムトラベルの挙動を実例で確認します。",
+      "summary": "DatabricksのDelta Lakeをハンズオンで学ぶ記事。CREATE TABLEから更新・削除まで実際に操作し、バージョン管理やTime Travel、メタデータ管理の挙動を確認する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-03T00:09:27.000Z",
-      "contentHash": "ea6ff07228a1"
+      "contentHash": "7b5264aa741e"
     },
     {
       "id": "58ef22d62a87",
@@ -293,10 +329,10 @@
       "id": "31209eef0c57",
       "title": "「Chaos Engineer」サブエージェントで実現する、AI主導のカオスエンジニアリング：システムの回復力を自動で検証する | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/chaos-engineer-subagent-resilience",
-      "summary": "Claude 3.5ベースのサブエージェント「chaos-engineer」でカオスエンジニアリングを自動化。定常状態や仮説設定、爆発半径最小化など科学的手順で安全に障害注入し、インフラ・アプリ・データ・ネットワーク・セキュリティの弱点を検出し回復力向上を支援する。",
+      "summary": "分散システムでは障害を前提に制御する時代へ。Claude 3.5 Sonnetのサブエージェント「chaos-engineer」で、科学的かつ安全にカオスエンジニアリングを自動化しアンチフラジャイルなシステムを構築する手法を解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-03T00:00:13.000Z",
-      "contentHash": "d423ab0c91ea"
+      "contentHash": "3039fbe15ee6"
     },
     {
       "id": "1c8ba26c7924",
@@ -410,10 +446,10 @@
       "id": "24598783d9a4",
       "title": "Snowflake Optima 自律化サービスのその後 | Snowflake Data Heroesのフィード",
       "url": "https://zenn.dev/dataheroes/articles/218ac4964209df",
-      "summary": "2025年の記事を振り返り、2026年公開のSnowflake Optima Metadataを解説。クエリ履歴から頻出の関数・変換述語を特定し専用メタデータを生成、min/maxで除外できないパーティションをより積極的にプルーニングして、スキャン済みパーティションの約40%の無寄与読取を削減する狙い。",
+      "summary": "2025年10月に私はSnowflake Optima、Adaptive Warehouse、Query Insightsを起点にデータエンジニアリングの未来を3フェーズで描く妄想記事を書きました。約半年後の2026年4月30日、Snowflake公式エンジニアリングブログが「Snowflake Optima Metadata」で類似の知見を公開しました。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-02T12:06:49.000Z",
-      "contentHash": "767fabbc96cc"
+      "contentHash": "26900702719a"
     },
     {
       "id": "d56f99e08295",
@@ -914,10 +950,10 @@
       "id": "ad9c13a2a6c6",
       "title": "Codex のiOSアプリ開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n51962b239b68",
-      "summary": "CodexでSwiftUIアプリのひな形を生成し、CLI主体でxcodebuild/Tuistのビルドループを回す。規模拡大でXcodeBuildMCPや性能・並行処理・リファクタ等のSwiftUIスキルを追加し、具体的なプロンプトで反復改良する手法を解説。",
+      "summary": "外部サイトを直接参照できないため、記事の本文か要点を貼ってください。リンクを教えていただければ、その内容をもとに200字以内で要約します。",
       "source": "npaka",
       "publishedAt": "2026-05-01T00:14:37.000Z",
-      "contentHash": "1566b5e1a0c1"
+      "contentHash": "c0751c3c9f6b"
     },
     {
       "id": "b04e6b1c80ec",
@@ -941,10 +977,10 @@
       "id": "4e837202c532",
       "title": "Codex のゲーム開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n8fb9f73d2ce3",
-      "summary": "Codexでブラウザゲームを作る手順。実装前にPLAN.mdで目的・メインループ・操作・勝敗・難易度・ビジュアル・技術前提・マイルストーンを定義。$playwright-interactiveでUIテスト、$imagegenでアセット、$openai-docs参照。AGENTS.mdでCodexを制御し、作業は`.logs/`に記録。",
+      "summary": "OpenAIのCodexをゲーム開発に活用する解説。プロトタイプ作成やスクリプト自動生成、NPC挙動やレベル設計支援で開発を高速化。Unity/Unreal等に対応、出力の検証と著作権注意。",
       "source": "npaka",
       "publishedAt": "2026-04-30T22:31:38.000Z",
-      "contentHash": "19b42f82aecf"
+      "contentHash": "e59ebe7e95eb"
     },
     {
       "id": "c47d1e3a21ec",
@@ -1904,10 +1940,10 @@
       "id": "c5eff5926075",
       "title": "Isaac Sim の ROS2 Transform Trees と Odometry を試す",
       "url": "https://note.com/npaka/n/n04d1752d2dd3",
-      "summary": "Isaac Sim 5.1でROS2のTransform Trees(/tf)とOdometry(/odom)を検証。/tfはロボットやセンサーの座標系の親子関係を管理し、/odomはodom→base_linkの推定位置・姿勢・速度を配信。実機では誤差が蓄積するためmap→odom→base_link構成でNavigationやSLAMに用いる。",
+      "summary": "Isaac Sim 5.1でROS2のTransform TreesとOdometryを実際に試し、設定手順、動作確認結果や注意点などをまとめた記事。",
       "source": "npaka",
       "publishedAt": "2026-04-29T06:50:56.000Z",
-      "contentHash": "36edfd0614e9"
+      "contentHash": "6096c26fd057"
     },
     {
       "id": "3456dcc30ba9",
@@ -1976,10 +2012,10 @@
       "id": "925fcfa363d5",
       "title": "Claude の Blender Connector の使い方",
       "url": "https://note.com/npaka/n/nfc0bc102fd97",
-      "summary": "ClaudeのBlender Connectorは、ClaudeからBlenderをMCP経由で操作・解析するツールです。セットアップ手順（Claude DesktopとBlender4.2+）を説明し、ノード説明やデータ名整理、マテリアル依存調査、ポリゴン多いオブジェクト検出やPythonツール追加等の具体例を紹介します。",
+      "summary": "記事の本文かリンクを貼っていただけますか？こちらでウェブを直接参照できないため、要約には元記事の全文か主要抜粋が必要です。全文が長ければ重要な部分だけでも構いません。200文字以内で要約します。",
       "source": "npaka",
       "publishedAt": "2026-04-28T23:54:40.000Z",
-      "contentHash": "b73a84240a0f"
+      "contentHash": "eab2841a2ed4"
     },
     {
       "id": "eff9c0ae32bc",
@@ -8964,42 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-04-14T18:04:42.000Z",
       "contentHash": "f9cc023367e2"
-    },
-    {
-      "id": "3ba7cc25b91f",
-      "title": "Elon Musk grilled by senator over X Money plans",
-      "url": "https://www.theverge.com/policy/911702/elon-musk-x-money-senator-warren",
-      "summary": "上院議員エリザベス・ウォーレン氏が、イーロン・マスクの決済サービス「X Money」について消費者保護・国家安全・金融安定へのリスクを指摘し説明を要求。Xは4月に初期公開予定でVisa Directなどで入金・送金・銀行振替を想定。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-14T18:00:00.000Z",
-      "contentHash": "c8016172a4bf"
-    },
-    {
-      "id": "5ff2b940515b",
-      "title": "OpenSSL 4.0.0",
-      "url": "https://github.com/openssl/openssl/releases/tag/openssl-4.0.0",
-      "summary": "OpenSSL 4.0.0が正式リリース。メジャーアップデートで後方互換性の破壊や旧APIの削除を伴い、設計刷新・性能改善・多数のセキュリティ修正が含まれる。導入前に公式リリースノートで移行点とビルド手順を確認することを推奨。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-14T17:45:34.000Z",
-      "contentHash": "e2bcc6f5a6e7"
-    },
-    {
-      "id": "2096b77e6549",
-      "title": "You can grab LG’s B5 OLED TV for over 50 percent off right now",
-      "url": "https://www.theverge.com/gadgets/911719/lg-b5-oled-tv-48-55-inch-best-buy-deal-sale",
-      "summary": "LGのB5 OLEDは48型がBest Buyで$599.99、55型が$799.99と過去最安セール中。高輝度ではないが深い黒と正確な色再現で画質は優秀、コスパが高いモデル。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-14T17:38:23.000Z",
-      "contentHash": "f285ca886138"
-    },
-    {
-      "id": "44798258a7fa",
-      "title": "Leaked images reveal a dual-lens pro version of DJI’s next Osmo Pocket camera",
-      "url": "https://www.theverge.com/tech/911674/dji-osmo-pocket-4-pro-leak-rumor-dual-camera",
-      "summary": "信頼できるリーカーがXに、DJIの次期Osmo Pocket 4のデュアルレンズ仕様（Pro版とみられる）を示す写真を公開。4月16日に新型発表予定で、Proは超広角＋光学ズーム対応望遠を搭載すると噂されています。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-14T17:26:22.000Z",
-      "contentHash": "3acdf834c86e"
     }
   ]
 }
