@@ -1,6 +1,150 @@
 {
-  "generatedAt": "2026-05-04T18:06:12.642Z",
+  "generatedAt": "2026-05-05T03:48:22.166Z",
   "items": [
+    {
+      "id": "74d3d2a589b3",
+      "title": "閾値付き Snapshot Test で Lighthouse Score の劣化を防ぐ | hacomono TECH BLOG",
+      "url": "https://techblog.hacomono.jp/entry/2026/05/05/110000",
+      "summary": "VitestとPlaywrightでSEO向けにLighthouseスコアの劣化をCIで防ぐ仕組み。expect.extendとsnapshotState.matchで独自スナップショットマッチャーを作り、閾値付きスナップショットで数値の揺らぎを許容しつつ回帰を検出する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-05T02:00:00.000Z",
+      "contentHash": "46f577b61d40"
+    },
+    {
+      "id": "e7c2c688e40f",
+      "title": "Bun is being ported from Zig to Rust",
+      "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+      "summary": "oven-sh/bun リポジトリで Jarred Sumner が2026-05-04に「Phase-A 移植ガイド」docs/PORTING.md と scripts/port-batch.ts を追加するコミットを行いました。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T01:08:17.000Z",
+      "contentHash": "4d574687bd9b"
+    },
+    {
+      "id": "623b67ab48c3",
+      "title": "The 40 best Mother’s Day gift ideas for 2026",
+      "url": "https://www.theverge.com/gadgets/907032/best-mothers-day-gift-ideas-2026-mom-tech-gadgets",
+      "summary": "ザ・ヴァージが母の日（5月10日）向けに2026年のおすすめギフト40選を紹介。家事を助ける時短家電（例：Roborock Q10 Plus）や家族の予定管理用スマートスクリーン、ウェルネスやマッサージなど癒し系まで幅広く掲載。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-05T00:10:00.000Z",
+      "contentHash": "378065afcf02"
+    },
+    {
+      "id": "b68a7b90e344",
+      "title": "Y Combinator's Stake in OpenAI (0.6%)",
+      "url": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai",
+      "summary": "ジョン・グラバーは、ニューイヤーのローナン・ファローらのサム・アルトマン調査で核心は「信頼できるか」と指摘。ポール・グレアムは明言を避け、YCが2016年にOpenAIに出資し保有株が巨額になっている可能性を問題視している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T00:09:01.000Z",
+      "contentHash": "9c79fab81699"
+    },
+    {
+      "id": "d0b41e9a572b",
+      "title": "Valve just imported 50 tons of game consoles in two days",
+      "url": "https://www.theverge.com/news/923461/valve-steam-machine-frame-deck-import-records-may-2026",
+      "summary": "Valveが4月30日〜5月1日に米国へ約50トンの「ゲーム機」を輸入。記録から新型Steam Machine／Steam Frameの可能性が指摘され、年末の出荷減少後に出荷が再び増加している。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-04T23:58:44.000Z",
+      "contentHash": "d1ded83e966d"
+    },
+    {
+      "id": "8794ac3cc0a5",
+      "title": "OpenAI’s president does ‘all the things,’ except answer a question",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/923684/musk-brockman-altman-openai-trial",
+      "summary": "イーロン・マスクとサム・アルトマンのOpenAIを巡る裁判で、社長グレッグ・ブロックマンが重要証人として出廷。細部まで争われる中で質問に答えない場面があったと報じる。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-04T23:49:33.000Z",
+      "contentHash": "d88fd8129d8d"
+    },
+    {
+      "id": "4fa573234660",
+      "title": "Codex App Server の概要",
+      "url": "https://note.com/npaka/n/n075114596672",
+      "summary": "Codex App ServerはCodexハーネスとクライアントをつなぐJSON‑RPC風（stdio上のJSONL）双方向プロトコルです。CLIやIDEでハーネス再利用を可能にし、会話管理・認証・ツール実行・進捗や差分出力を扱う。stdioリーダー、メッセージ処理、スレッド管理、coreスレッドの4構成でリッチUIを実現。",
+      "source": "npaka",
+      "publishedAt": "2026-05-04T23:15:33.000Z",
+      "contentHash": "9141478e2fc6"
+    },
+    {
+      "id": "51fb4a570124",
+      "title": "AIエージェントの設定をコードで管理する：Microsoft製「APM (Agent Package Manager)」入門 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/microsoft-apm-agent-package-manager",
+      "summary": "MicrosoftのAPMは、AIエージェントの依存関係をコードで管理するオープンツール。apm.ymlで依存解決と40文字SHA固定の再現性を提供し、ローカル優先やファイル実行前提のセキュリティ検査（不可視Unicode検出・ハッシュ整合性）、および「厳格化のみ」可能な組織ポリシーでガバナンスを実現。複数エージェントに対応。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-04T22:40:16.000Z",
+      "contentHash": "b1c8b0b4e30e"
+    },
+    {
+      "id": "c6135bcf5e06",
+      "title": "Elon Musk will settle the feds’ Twitter lawsuit with pocket change",
+      "url": "https://www.theverge.com/tech/923612/elon-musk-sec-1-5-million-penalty-twitter-x",
+      "summary": "SECは2022年春にマスクがTwitter株を5億ドル超購入した際、適時開示を怠り約1.5億ドルを節約したと主張。イーロン・マスク・リボカブル・トラストを訴訟に追加し、和解で150万ドルの罰金支払いで決着した。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-04T22:11:17.000Z",
+      "contentHash": "5d1b211a1b7e"
+    },
+    {
+      "id": "9fb6d64d7116",
+      "title": "Agent Skills",
+      "url": "https://addyosmani.com/blog/agent-skills/",
+      "summary": "AIコーディングエージェントは「完了」だけを目指し、仕様・テスト・レビューなど差分に現れない重要工程を省略しがち。Agent Skillsはそれらシニア工程をマークダウンの「スキル」としてエージェントに注入し、SDLCやGoogleの実務に沿った設計を強制するプロジェクトです。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-04T21:40:42.000Z",
+      "contentHash": "1b8fc292c8fd"
+    },
+    {
+      "id": "b41c354fbbfe",
+      "title": "Skylight’s 15-inch smart calendar is down to its lowest price to date",
+      "url": "https://www.theverge.com/gadgets/918544/skylight-15-inch-smart-calendar-2-mothers-day-deal-2026-sale",
+      "summary": "Skylightの15インチスマートカレンダー「Calendar 2」が母の日前セールでBest Buyと公式で5月7日まで259.99ドル（40ドル引）に。Google/Outlook/iCloudと双方向同期、色分け表示、画面が明るく高速・薄型で磁石式フレーム採用。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-04T20:45:00.000Z",
+      "contentHash": "f9ddeefdc5b0"
+    },
+    {
+      "id": "c456d30a8ead",
+      "title": "Formatting a 25M-line codebase overnight",
+      "url": "https://stripe.dev/blog/formatting-an-entire-25-million-line-codebase-overnight-the-rubyfmt-story",
+      "summary": "Stripeの開発チームがrubyfmtで2500万行のRubyコードを一晩で自動整形した事例。導入手順、テストと安全なロールアウト、可読性と生産性向上の効果を紹介。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-04T20:11:53.000Z",
+      "contentHash": "24bd5643d688"
+    },
+    {
+      "id": "f4afbb150a63",
+      "title": "SwitchBot’s rechargeable button pusher is on sale for over 20 percent off",
+      "url": "https://www.theverge.com/gadgets/923162/switchbot-bot-rechargeable-button-presser-mothers-day-sale-deal",
+      "summary": "SwitchBotの充電式ボタン押し「Bot Rechargeable」が母の日セールで5/10まで約27ドル（コードFORHER20で割引）と過去最安。物理ボタンをリモート操作可能。電池式は約23ドル。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-04T18:47:01.000Z",
+      "contentHash": "1d4757506d95"
+    },
+    {
+      "id": "7f33dba14406",
+      "title": "Microsoft Edge stores all passwords in memory in clear text, even when unused",
+      "url": "https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730",
+      "summary": "申し訳ありませんが、直接ウェブへアクセスできないため指定URLの内容を取得できません。記事（ツイート本文とHacker Newsの要点）をここに貼っていただければ、200文字以内で日本語要約します。要点だけ列挙していただいても可です。どの観点を強調するか（論点・結論・反応など）も教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-04T18:22:42.000Z",
+      "contentHash": "1f0b126fed0f"
+    },
+    {
+      "id": "8b6eff111a8b",
+      "title": "Offenders sentenced up to 10 years for spying on TSMC",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/04/28/2003856358",
+      "summary": "元TSMC技術者の陳力銘が最先端2ナノ工程の機密漏洩で国家安全法違反等により懲役10年。共犯のTSMC技術者は懲役3年・2年、別の社員6年。東京威力の盧怡尹は執行猶予10か月・罰金100万NT$、同社は1億5千万NT$罰金（補償支払いで減免可）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-04T18:04:33.000Z",
+      "contentHash": "05f376445331"
+    },
+    {
+      "id": "9a6a089fe93d",
+      "title": "Securing a DoD contractor: Finding a multi-tenant authorization vulnerability",
+      "url": "https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability-dod-backed-startup",
+      "summary": "Strixが米国防総省支援のスタートアップで認証不要の重大脆弱性を発見。未認証で内部APIやデータにアクセスできた経緯、探索手順、責任ある開示と修正対応を説明し、認証強化や自動検査、最小権限など再発防止策を提言。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-04T17:46:32.000Z",
+      "contentHash": "1287362bb199"
+    },
     {
       "id": "728a4d52e0da",
       "title": "The latest AI news we announced in April 2026",
@@ -50,10 +194,10 @@
       "id": "41c83ec293ad",
       "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
       "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "summary": "イーロン・マスクがサム・アルトマンらを相手取り、OpenAIが設立理念を放棄し利益追求に走ったと提訴。アルトマンらの解任や公益法人停止、損害賠償最大1500億ドルを要求。裁判は4月27日開始、マスクが複数日証言、週2にはラッセル教授とブロックマンの証言予定。OpenAIは訴えを競合潰しと反論。",
+      "summary": "イーロン・マスクがOpenAIを提訴。創業目的を捨て利益追求に走ったと主張し、アルトマンらの解任と最大1500億ドルの賠償を要求。4月27日陪審選任開始でマスクが複数日証言、OpenAIは「競争妨害」と反論。第2週に専門家やブロックマンが証言、裁判はライブ配信も実施。",
       "source": "The Verge",
       "publishedAt": "2026-05-04T15:43:49.000Z",
-      "contentHash": "4c27e245f395"
+      "contentHash": "26b33bdb725e"
     },
     {
       "id": "ee01c41a985a",
@@ -126,6 +270,15 @@
       "source": "The Verge",
       "publishedAt": "2026-05-04T13:00:00.000Z",
       "contentHash": "beac3177120d"
+    },
+    {
+      "id": "b61949abe64b",
+      "title": "Microsoft Fabric のデータエージェントに PrepForAI を適用して精度を検証してみた | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/47f92204ba5baa",
+      "summary": "Microsoft Fabricのデータエージェントはセマンティックモデルから自然言語→DAXを生成するが応答品質はデータ準備に依存。著者はPrepForAI（AIデータスキーマで不要列をOFF、AIインストラクションを設定）を適用し、過剰出力を抑え応答精度を改善する手順を検証した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-04T12:47:30.000Z",
+      "contentHash": "a70fc1fd31ee"
     },
     {
       "id": "9ea413515568",
@@ -329,10 +482,10 @@
       "id": "11cd193e0bdf",
       "title": "Codex CLI の /goal の概要",
       "url": "https://note.com/npaka/n/n15e84ee77f5a",
-      "summary": "Codex CLIの/goalは目標を設定して完了までAIが反復するコマンド（Ralph loop相当）。configで有効化。/goal <目標>、pause/resume/clearが使え、テストやCI修正など完了条件が明確な反復作業向き。曖昧な目標や大きな差分には注意し、必ずgit diffやテスト確認を行う。",
+      "summary": "Codex CLIの実験的コマンド「/goal」はスレッド内で目標を保持し、達成まで自動で反復作業（設定・一時停止・再開・解除・予算制約）を行う機能。完了条件が明確な反復修正向きだが、曖昧な目標や大規模な差分には注意。有効化は ~/.codex/config.toml。",
       "source": "npaka",
       "publishedAt": "2026-05-03T14:13:51.000Z",
-      "contentHash": "9c834e07d54a"
+      "contentHash": "f073d9a581e8"
     },
     {
       "id": "0d01c1c3bf9f",
@@ -1022,10 +1175,10 @@
       "id": "ae110b0cef8d",
       "title": "Codex のスラッシュコマンドまとめ",
       "url": "https://note.com/npaka/n/n87a5c4364154",
-      "summary": "OpenAI Codexのスラッシュコマンドまとめ。入力欄で「/」を押すと表示され、MCP、/review、/status、/side、/feedback、/fork、/plan、/memory、/model、/compact、/personality、/reasoning、/auto-review、/fastなどで接続確認、コードレビュー、会話分岐、メモ管理、モード切替や高速化が行えます。",
+      "summary": "Codexのスラッシュコマンド一覧。入力欄で「/」を押すと表示され、MCP確認、コードレビュー、ステータス、会話分岐(/side)、フォーク、プラン(/plan)、メモリ(/memory)、モデル切替、コンパクト化、性格・推論設定、自動レビュー、高速化など作業切替や管理のショートカットを提供。",
       "source": "npaka",
       "publishedAt": "2026-05-01T06:51:29.000Z",
-      "contentHash": "34540dcf3560"
+      "contentHash": "25ee826bec22"
     },
     {
       "id": "3c8bd07284fb",
@@ -1121,10 +1274,10 @@
       "id": "4e837202c532",
       "title": "Codex のゲーム開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n8fb9f73d2ce3",
-      "summary": "OpenAIのCodexをゲーム開発に活用する解説。プロトタイプ作成やスクリプト自動生成、NPC挙動やレベル設計支援で開発を高速化。Unity/Unreal等に対応、出力の検証と著作権注意。",
+      "summary": "Codexを使ったブラウザゲーム開発の要点: 実装前にPLAN.mdで目標・メインループ・操作・勝敗・進行・ビジュアル・スタック・マイルストーンを定義。$playwright-interactiveで動作検証、$imagegenでアセット生成、OpenAI Docs参照。AGENTS.mdでCodexの振る舞いを指示し、.logsに作業記録を残す。",
       "source": "npaka",
       "publishedAt": "2026-04-30T22:31:38.000Z",
-      "contentHash": "e59ebe7e95eb"
+      "contentHash": "75b122be2404"
     },
     {
       "id": "c47d1e3a21ec",
@@ -2075,10 +2228,10 @@
       "id": "c5eff5926075",
       "title": "Isaac Sim の ROS2 Transform Trees と Odometry を試す",
       "url": "https://note.com/npaka/n/n04d1752d2dd3",
-      "summary": "Isaac Sim 5.1でROS2のTransform TreesとOdometryを実際に試し、設定手順、動作確認結果や注意点などをまとめた記事。",
+      "summary": "Isaac SimでROS2のTransform Trees(/tf)とOdometry(/odom)を検証。座標系の親子関係やフレーム例（base_link等）、/odomは相対的な位置・姿勢・速度を配信し、map→odom→base_link構成でNavigation/SLAMに利用する点とURDF準備やtf公開手順を解説。",
       "source": "npaka",
       "publishedAt": "2026-04-29T06:50:56.000Z",
-      "contentHash": "6096c26fd057"
+      "contentHash": "36edfd0614e9"
     },
     {
       "id": "3456dcc30ba9",
@@ -2120,10 +2273,10 @@
       "id": "3c058c8ab609",
       "title": "Claude の Adobe for creativity の使い方",
       "url": "https://note.com/npaka/n/n6841ac39cc4c",
-      "summary": "AdobeとAnthropicのConnector「Adobe for creativity」を使うと、ClaudeのチャットからPhotoshop等を自然文で操作でき、写真レタッチ、テンプレートデザイン、動画リサイズ・カット、SNS向けバリエーションや一括編集が可能。セットアップはコネクタ追加→Adobeでサインイン。",
+      "summary": "AdobeとAnthropicが発表したClaude用コネクタ「Adobe for creativity」は、チャットからPhotoshop/Illustrator/Firefly/Premiere等を呼び出し、自然文で写真レタッチ、デザイン制作、動画リサイズや一括編集、SNS向けバリエーション作成などができる。Claude Desktopでコネクタを追加しAdobeでサインインして利用。",
       "source": "npaka",
       "publishedAt": "2026-04-29T01:50:16.000Z",
-      "contentHash": "b0b0c7bd4527"
+      "contentHash": "66d97cd3d6af"
     },
     {
       "id": "960accfa8ca5",
@@ -2846,15 +2999,6 @@
       "contentHash": "43a67d0b077e"
     },
     {
-      "id": "623b67ab48c3",
-      "title": "The Verge’s 2026 Mother’s Day gift guide",
-      "url": "https://www.theverge.com/gadgets/907032/best-mothers-day-gift-ideas-2026-mom-tech-gadgets",
-      "summary": "The Vergeの2026年母の日ギフトガイド。忙しい母の負担を減らす時短家電（例：Roborock Q10 Plus）、家族の予定管理向けスマート画面（Skylight Calendar 2）、リラクゼーションや感傷的な贈り物を紹介。アフィリエイトあり。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-27T15:00:00.000Z",
-      "contentHash": "34541f0ad52a"
-    },
-    {
       "id": "0ef16ac07990",
       "title": "\"Why not just use Lean?\"",
       "url": "https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html",
@@ -3303,15 +3447,6 @@
       "source": "OpenAI",
       "publishedAt": "2026-04-26T16:00:00.000Z",
       "contentHash": "87e0aa1b84c8"
-    },
-    {
-      "id": "b41c354fbbfe",
-      "title": "Skylight’s 15-inch smart calendar is down to its lowest price to date",
-      "url": "https://www.theverge.com/gadgets/918544/skylight-15-inch-smart-calendar-2-mothers-day-deal-2026-sale",
-      "summary": "Skylightの15インチスマートカレンダー「Calendar 2」が5月7日まで$259.99（$40オフ）で最安。Google/Outlook/iCloudと双方向同期、色分け表示、画面明るく高速＆薄型で家族の予定管理を簡単に。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-26T14:05:03.000Z",
-      "contentHash": "3af0b94bd9f0"
     },
     {
       "id": "216df316f03b",
@@ -8865,141 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-15T05:33:42.000Z",
       "contentHash": "f7f48722145d"
-    },
-    {
-      "id": "1fd8eaeb5813",
-      "title": "Fixing a 20-year-old bug in Enlightenment E16",
-      "url": "https://iczelia.net/posts/e16-20-year-old-bug/",
-      "summary": "Enlightenment E16の2006年起源の稀な致命バグを修正。特定のPDFでデスクトップが固まる現象をgdbで解析し、imlib2のフォント処理にある誤ったニュートン法実装が原因と判明、修正した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-15T04:47:00.000Z",
-      "contentHash": "3f51551b4aee"
-    },
-    {
-      "id": "949864408082",
-      "title": "オンプレミスエンジニアが AI 時代のハイブリッドなインフラエンジニアを目指すならまずはこのあたりから考え始めてみてはどうか、という話 - Microsoft AI Tour Tokyo | Alternative Architecture DOJO",
-      "url": "https://aadojo.alterbooth.com/entry/2026/04/15/134614",
-      "summary": "1月入社の中山です。オンプレ中心のインフラ経験でAzureは学び始めたばかり。AIやクラウドに興味はあるが何をすべきか不明で試行錯誤中。Microsoft AI Tour Tokyo 2026で「全部理解する必要はないが、押さえるべき要点を学べば今後が楽になる」と気づき、その気づきを共有したい、という内容です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T04:46:14.000Z",
-      "contentHash": "5bd902e64550"
-    },
-    {
-      "id": "6b4d92f2768c",
-      "title": "Saying goodbye to Agile",
-      "url": "https://lewiscampbell.tech/blog/260414.html",
-      "summary": "記事は、アジャイルが定義曖昧でマニフェストも抽象的だと指摘。業界はウォーターフォール批判からアジャイルを持ち上げたが、多くの手法は1970年代のRoyceやBellらが既に示していたと論じる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-15T04:45:37.000Z",
-      "contentHash": "c3e892266464"
-    },
-    {
-      "id": "3a79fbc04789",
-      "title": "AI エージェント kuro の裏側 | STORES Product Blog",
-      "url": "https://product.st.inc/entry/2026/04/15/133306",
-      "summary": "技術推進本部の@shiaが、前回のkuro事例の裏側を解説。既存SaaSやエージェントを使わず自作した理由は、2月時点で選択肢が少なく、Devinは使えたがGitHubの制約や開発環境の問題で物足りなかったため、という内容です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T04:33:06.000Z",
-      "contentHash": "4b5bba0fc875"
-    },
-    {
-      "id": "14cfd7e2e32e",
-      "title": "日産の「AI搭載車」が9割になる時代へ！3つの変革で未来の移動が変わる理由 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/a912487c3cf24d",
-      "summary": "日産はAIDVで販売車の約9割にAI運転を搭載する計画を発表。車種を56→45に集約し、e‑POWERやEV/HEV/PHEV/REEVなど多様な電動化で日・米・中を重視、2030年までに販売拡大を目指す。新型エルグランドにE2E自動運転導入予定。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T03:42:38.000Z",
-      "contentHash": "40198fed1a90"
-    },
-    {
-      "id": "e5bee26897cc",
-      "title": "教養として学ぶアイデンティティ設計の古今東西：不変性・名前空間・水際防御・推測耐性・ゼロ知識証明 | 株式会社ログラス テックブログのフィード",
-      "url": "https://zenn.dev/loglass/articles/8dac2be2cf0e3c",
-      "summary": "現実社会のID設計を歴史と制度から考察。名前の可変性に対するサロゲートキーや宗門人別改帳の複合主キー、屋号、検査桁による誤入力防止、推測耐性のためのランダム化、最小化とゼロ知識証明によるプライバシー保護を論じる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T03:33:05.000Z",
-      "contentHash": "a7c80b6e3561"
-    },
-    {
-      "id": "9aee2300cdad",
-      "title": "「手戻り」を仕組みでなくせる。ITANDI 賃貸仲介チームが辿り着いた爆速開発の最適解 | ITANDI Engineer Blog",
-      "url": "https://tech.itandi.co.jp/entry/2026/04/15/122709",
-      "summary": "「ITANDI 賃貸仲介」開発チームはサイクルタイム中央値1.4時間、レビュー承認中央値0.0時間を達成。個人技術に依存せず、合意形成とチケット運用によって品質を保ちながら高い流動性を実現する仕組みを紹介する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T03:27:09.000Z",
-      "contentHash": "0ee143c80fee"
-    },
-    {
-      "id": "7d8eaa192f1d",
-      "title": "「理解してから作る」から「作りながら理解する」へ ― 入社3ヶ月、AIが変えた学習の順序 | Timee Product Team Blog",
-      "url": "https://tech.timee.co.jp/entry/2026/04/15/122229",
-      "summary": "タイミーのプロダクトエンジニア津守が、入社3か月で感じた「AIツールがオンボーディングをどう変えたか」を個人的な気づきとしてまとめた記事。従来は資料やコードを読み理解してから作業を始めていたという導入。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T03:22:29.000Z",
-      "contentHash": "1f7fbdcc9da9"
-    },
-    {
-      "id": "2e3d52c8c718",
-      "title": "Dependency cooldowns turn you into a free-rider",
-      "url": "https://calpaterson.com/deps.html",
-      "summary": "依存関係のクールダウンは新版を数日待つことで供給網攻撃を避けるが、他者を無償のベータテスターにするフリーライドで全体に負担を押し付け、公開と配布の分離など根本問題を解決しない。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-15T02:03:12.000Z",
-      "contentHash": "09687f864d30"
-    },
-    {
-      "id": "6cdc259a51bf",
-      "title": "OpenAI's $852B valuation faces investor scrutiny amid strategy shift, FT reports",
-      "url": "https://www.reuters.com/legal/transactional/openai-investors-question-852-billion-valuation-strategy-shifts-ft-reports-2026-04-14/",
-      "summary": "FT報道を引用するロイターによれば、OpenAIの投資家が同社の高評価や最近の戦略転換、ガバナンスや透明性に疑問を呈し、資本政策や収益化方針が将来のリターンを損なうと懸念している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-15T01:36:22.000Z",
-      "contentHash": "d9562067f902"
-    },
-    {
-      "id": "70cf597f425c",
-      "title": "STORES Tech Conf 2026 “World 2” を2026年8月31日（月）に開催＆学生向け参加支援をします | STORES Product Blog",
-      "url": "https://product.st.inc/entry/2026/04/15/103000",
-      "summary": "STORES Tech Conf 2026「World 2」を8月31日13時に浅草橋で無料開催。AI（エージェント導入やコード自動生成）が進む「新しい世界」を共有する完全オープン制カンファレンスで、学生向け参加支援も実施。参加申込受付中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T01:30:00.000Z",
-      "contentHash": "f06ef8507066"
-    },
-    {
-      "id": "08d5bb865f02",
-      "title": "AI 時代を乗りこなすために Story Point を導入した話（試験中） | kickflow Tech Blog",
-      "url": "https://tech.kickflow.co.jp/entry/2026/04/15/102928",
-      "summary": "AI導入で効率は向上したが、タスク並列化とコンテキストスイッチで作業が不透明になり疲弊。kickflowはClaudeでStory Point算出とベロシティ計測を導入し、可視化して実際のキャパを把握する試験を行っている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T01:29:28.000Z",
-      "contentHash": "23a8d6855b39"
-    },
-    {
-      "id": "98028d9139d9",
-      "title": "データセンター構築シミュレーションゲーム『Data Center』プレイ記録 | QG Tech Blog",
-      "url": "https://tech.quickguard.jp/posts/data-center/",
-      "summary": "パー子が『Data Center』製品版をプレイ。World rankや日本語表示が追加され、体験版より親切なチュートリアルで倉庫から台車搬送、ラック組立・機器設置・ケーブル配線を体験。操作は細かく癖があり配置や重心に注意が必要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T01:00:00.000Z",
-      "contentHash": "7f73bb98e47c"
-    },
-    {
-      "id": "fdeed44cbad1",
-      "title": "Gemini Robotics-ER 1.6 を試す",
-      "url": "https://note.com/npaka/n/n93116b196748",
-      "summary": "「Gemini Robotics-ER 1.6」を試用したまとめ記事。Quickstartでの導入手順から主要な新機能、操作感や性能の印象、注意点と実用的な活用法まで分かりやすく解説しています。",
-      "source": "npaka",
-      "publishedAt": "2026-04-15T00:38:13.000Z",
-      "contentHash": "9251f846bd5d"
-    },
-    {
-      "id": "0131928e5409",
-      "title": "Looker StudioでBigQueryにサービスアカウントで認証できない時のチェックリスト | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/trouble-shooting-with-looker-studio-and-service-account",
-      "summary": "Looker Studioでサービスアカウント認証のBigQuery接続が失敗する場合のチェック：Looker Studioのサービスエージェントに対象サービスアカウントのroles/iam.serviceAccountTokenCreatorを付与（データソース所有組織のエージェント）、設定ユーザーに「使用」権限、VPC Service Controlsで遮断されていないか確認。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T00:00:00.000Z",
-      "contentHash": "97899a1bf655"
     }
   ]
 }
