@@ -1,14 +1,86 @@
 {
-  "generatedAt": "2026-05-05T03:48:22.166Z",
+  "generatedAt": "2026-05-05T10:10:42.613Z",
   "items": [
+    {
+      "id": "7f82771a54e5",
+      "title": "Microsoft is finally ditching the junk MSN feed in Windows widgets",
+      "url": "https://www.theverge.com/news/923884/microsoft-hide-msn-feed-windows-widgets",
+      "summary": "MicrosoftはWindows 11のウィジェットで表示されるMSNニュースフィードをデフォルトで隠し、ホバーでの自動展開やタスクバーのバッジを無効化して通知や視覚的な中断を抑える設定をテストしています。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-05T09:46:52.000Z",
+      "contentHash": "5513c99b705c"
+    },
+    {
+      "id": "cbb5ef811650",
+      "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+      "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
+      "summary": "記事は、Google Chromeが同意やオプトアウト無しに約4GBのAIモデルを端末へ密かにインストールし、他のChromium系ブラウザへ設定を書き込み再インストールする手法を指摘。10億台規模での気候負荷やプライバシー問題を警告。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T07:34:55.000Z",
+      "contentHash": "7d324c73bb53"
+    },
+    {
+      "id": "436e34cf2aa0",
+      "title": "Async Rust never left the MVP state",
+      "url": "https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state",
+      "summary": "著者は非同期Rustの「バイナリ肥大（async bloat）」をコンパイラで根本解決したく、Project Goalを提出。特にマイコンで問題になりやすく、シリーズ第2回では生成されるFutureの状態機械とそれを改善するコンパイラ最適化を詳述する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T07:26:03.000Z",
+      "contentHash": "53acf5c6ab10"
+    },
+    {
+      "id": "28821baa095f",
+      "title": "Empty Screenings – Finds AMC movie screenings with few or no tickets sold",
+      "url": "https://walzr.com/empty-screenings",
+      "summary": "申し訳ありませんが外部URLへ直接アクセスできません。記事本文を貼り付けるか主要箇所を教えてください。いただければ200字以内で要約します。HNの議論も要約可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T04:33:22.000Z",
+      "contentHash": "1d0ff79c60b0"
+    },
+    {
+      "id": "75e1d1252e50",
+      "title": "Train Your Own LLM from Scratch",
+      "url": "https://github.com/angelos-p/llm-from-scratch",
+      "summary": "nanoGPTに触発された、GPTを一から実装するハンズオン。約10MパラメータでノートPC（MPS/CUDA/CPU）で1時間以内に学習可能。トークナイザー、トランスフォーマー、学習ループ、生成を自作し、シェイクスピア風テキスト生成を目指す。Python3.12+／Colab対応。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T04:09:17.000Z",
+      "contentHash": "e47071903f92"
+    },
+    {
+      "id": "aef27668e35b",
+      "title": "Hand Drawn QR Codes",
+      "url": "https://sethmlarson.dev/hand-drawn-qr-codes",
+      "summary": "10x10の付箋に最小のQR（version1=21x21）を手描き。23バイトの域でドメインを短縮し（後に大文字なら収まると判明）、Pythonのqrcodeで参照を作成。位置パターンやタイミング線を描きつつ徐々に読み取れ、誤り訂正で小ミスは問題にならず、紙の反りでスキャンが難しかったがモニターに吊るして成功。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T04:02:01.000Z",
+      "contentHash": "55e7ef7496e0"
+    },
+    {
+      "id": "53d0f2d312cd",
+      "title": "CVE-2026-31431: Copy Fail vs. rootless containers",
+      "url": "https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-rootless-containers/",
+      "summary": "CVE-2026-31431（Copy Fail）の公開exploitを分解・解析し、rootless Podman内で実行・syscallトレース。rootlessコンテナが特権昇格を阻止することをeBPFとuid_mapで確認し、未知コード実行の危険性も指摘。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T03:43:08.000Z",
+      "contentHash": "8e6340118906"
+    },
+    {
+      "id": "be040c4c13de",
+      "title": "What I'm Hearing About Cognitive Debt (So Far)",
+      "url": "https://margaretstorey.com/blog/2026/02/18/cognitive-debt-revisited/",
+      "summary": "生成系・エージェントAIでシステムの構造とチームの共通理解の乖離＝認知負債が拡大。速度は上がるが理解が追いつかず、自信喪失・レビュー増・デバッグ難化・オンボーディング遅延・疲弊など人的コストが増える。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T02:08:21.000Z",
+      "contentHash": "4a725202c97c"
+    },
     {
       "id": "74d3d2a589b3",
       "title": "閾値付き Snapshot Test で Lighthouse Score の劣化を防ぐ | hacomono TECH BLOG",
       "url": "https://techblog.hacomono.jp/entry/2026/05/05/110000",
-      "summary": "VitestとPlaywrightでSEO向けにLighthouseスコアの劣化をCIで防ぐ仕組み。expect.extendとsnapshotState.matchで独自スナップショットマッチャーを作り、閾値付きスナップショットで数値の揺らぎを許容しつつ回帰を検出する。",
+      "summary": "SEOは非機能要件だが重要なため、Lighthouseスコアの劣化を防ぐCI自動チェックを構築。Vitest上でPlaywrightを使うE2Eテストなど複数手法を組み合わせ、テストコードの完全版を示す。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-05T02:00:00.000Z",
-      "contentHash": "46f577b61d40"
+      "contentHash": "36563a72c40a"
     },
     {
       "id": "e7c2c688e40f",
@@ -30,7 +102,7 @@
     },
     {
       "id": "b68a7b90e344",
-      "title": "Y Combinator's Stake in OpenAI (0.6%)",
+      "title": "Y Combinator's Stake in OpenAI (0.6%?)",
       "url": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai",
       "summary": "ジョン・グラバーは、ニューイヤーのローナン・ファローらのサム・アルトマン調査で核心は「信頼できるか」と指摘。ポール・グレアムは明言を避け、YCが2016年にOpenAIに出資し保有株が巨額になっている可能性を問題視している。",
       "source": "Hacker News",
@@ -59,10 +131,10 @@
       "id": "4fa573234660",
       "title": "Codex App Server の概要",
       "url": "https://note.com/npaka/n/n075114596672",
-      "summary": "Codex App ServerはCodexハーネスとクライアントをつなぐJSON‑RPC風（stdio上のJSONL）双方向プロトコルです。CLIやIDEでハーネス再利用を可能にし、会話管理・認証・ツール実行・進捗や差分出力を扱う。stdioリーダー、メッセージ処理、スレッド管理、coreスレッドの4構成でリッチUIを実現。",
+      "summary": "Codex App Serverは、Codexハーネスを複数クライアントで再利用するための双方向JSON‑RPC風プロトコルです。Codex core（エージェントループ、会話管理、設定・認証、ツール実行）をstdio経由で操作し、stdioリーダー、メッセージプロセッサ、スレッドマネージャ、coreスレッドの4構成でリッチなUI連携を実現します。",
       "source": "npaka",
       "publishedAt": "2026-05-04T23:15:33.000Z",
-      "contentHash": "9141478e2fc6"
+      "contentHash": "ac34235232a5"
     },
     {
       "id": "51fb4a570124",
@@ -90,6 +162,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-05-04T21:40:42.000Z",
       "contentHash": "1b8fc292c8fd"
+    },
+    {
+      "id": "2b843178b595",
+      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "summary": "OpenAIとPwCが提携し、企業向けにAIエージェントで財務ワークフローの自動化、予測精度向上、内部統制強化、CFO機能の近代化を支援する。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-04T21:00:00.000Z",
+      "contentHash": "e976a9f2279f"
     },
     {
       "id": "b41c354fbbfe",
@@ -149,10 +230,10 @@
       "id": "728a4d52e0da",
       "title": "The latest AI news we announced in April 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
-      "summary": "Googleは4月にGemma 4や第8世代チップ、Gemini Enterprise Agent Platform、Deep Research Max、無料のGoogle Vids、Colabの個別コーディングチューターなど多彩なAIツールを発表し、企業向けエージェントや教育・医療支援を強化しました。",
+      "summary": "記事本文かURLを貼ってください。確認後、200文字以内で日本語に要約します。要点のみでよければその旨も教えてください。",
       "source": "Gemini",
       "publishedAt": "2026-05-04T17:00:00.000Z",
-      "contentHash": "36f361aa13a5"
+      "contentHash": "f54c18ea70d2"
     },
     {
       "id": "fd9f33d9676b",
@@ -263,6 +344,15 @@
       "contentHash": "645af9c0cce0"
     },
     {
+      "id": "46ca0db155b9",
+      "title": "【Microsoft】- Responsible AI（責任あるAI）原則とは？ | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/d6bf99e8219dc7",
+      "summary": "責任あるAIは、AIを公平で安全に使う考え方。Microsoftは「公平性、信頼性と安全性、プライバシーとセキュリティ、包括性、透明性、説明責任」の6原則を掲げ、偏り防止・情報保護・人間の監督などを求める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-04T13:16:05.000Z",
+      "contentHash": "f59b43e88654"
+    },
+    {
       "id": "bf84e26af5c9",
       "title": "Hisense aggressively cuts the price of its RGB LED TV on release day",
       "url": "https://www.theverge.com/tech/922571/hisense-cuts-price-ur9",
@@ -302,19 +392,19 @@
       "id": "2f564983ebc3",
       "title": "StripeのSelective Test Executionから考える、Rails CIで「全部走らせない」設計 | noteエンジニアチーム 公式マガジン",
       "url": "https://note.com/taakuuyaa/n/n38d5d6e6dd4b",
-      "summary": "StripeのSTEは、テスト実行時のファイルアクセスを記録し、変更ファイルに過去アクセスしたテストだけを再実行する方式で平均5%しか走らせない。失敗中や不確実なテストは必ず実行し、並列化だけでなく「全部走らせない」CI設計をRailsにも応用する示唆を示す。",
+      "summary": "StripeのSTEは、テスト実行時にLD_PRELOADでファイルアクセスを記録し、変更されたファイルに過去にアクセスしたテストだけを次回実行。失敗や判別しにくいテストは常に実行し、平均5%未満でCIを高速化。Railsでは「変更に応じたフィードバック」設計の示唆になる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-04T06:09:54.000Z",
-      "contentHash": "dc5dee389702"
+      "contentHash": "1117b1d9ca56"
     },
     {
       "id": "44cd09e0f09e",
       "title": "【Backstage】New Frontend System (NFS) 入門 | APC 技術ブログ",
       "url": "https://techblog.ap-com.co.jp/entry/2026/05/04/123456",
-      "summary": "BackstageのNew Frontend System(NFS)入門。2023年開発、2026年3月にGA相当。従来の手続き的なコード生成(OFS)から、プラグイン自動取り込みの宣言的なapp-config.yaml設定へ移行し導入が簡素化。create-app v1.49以降デフォルト。",
+      "summary": "APCコミュニケーションズACS事業部の亀崎です。2022年以降毎年5月4日に記事を公開しており、2022年はAKSでDaprとApp Insights、2023年はPlatform Engineering（共同責任モデルと関心事の分離）、2024年はBackstageのKubernetesプラグインでAKS上のアプリ情報表示を扱っています。5月4日の意味は最後に明かすとあります。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-04T03:34:56.000Z",
-      "contentHash": "9d16f8196c70"
+      "contentHash": "feea67921f85"
     },
     {
       "id": "a13ae63c01b1",
@@ -333,6 +423,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-04T00:00:00.000Z",
       "contentHash": "ee58a8f93322"
+    },
+    {
+      "id": "5c3d93bd7160",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "summary": "OpenAIはWebRTCを再設計し、低遅延・グローバルスケールのリアルタイム音声AI基盤を構築。カスタムスタックと分散インフラ、音声検出やターンテイキング制御で滑らかな会話体験を実現した。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "contentHash": "e6fc83eb306f"
     },
     {
       "id": "5a1d2b11d4c5",
@@ -482,10 +581,10 @@
       "id": "11cd193e0bdf",
       "title": "Codex CLI の /goal の概要",
       "url": "https://note.com/npaka/n/n15e84ee77f5a",
-      "summary": "Codex CLIの実験的コマンド「/goal」はスレッド内で目標を保持し、達成まで自動で反復作業（設定・一時停止・再開・解除・予算制約）を行う機能。完了条件が明確な反復修正向きだが、曖昧な目標や大規模な差分には注意。有効化は ~/.codex/config.toml。",
+      "summary": "Codex CLIに/goalコマンドが追加。目標をスレッドで保持して達成まで反復（Ralph loop）し、pause/resume/clearが可能。experimentalで設定が必要。完了条件を明確にし、差分やテストを必ず確認すること。",
       "source": "npaka",
       "publishedAt": "2026-05-03T14:13:51.000Z",
-      "contentHash": "f073d9a581e8"
+      "contentHash": "ed087ace671e"
     },
     {
       "id": "0d01c1c3bf9f",
@@ -509,10 +608,10 @@
       "id": "4e53bd101b89",
       "title": "【合格体験記】OCIのFoundations資格を3つ受けてみた | APC 技術ブログ",
       "url": "https://techblog.ap-com.co.jp/entry/2026/05/03/214910",
-      "summary": "OCIのFoundations系3資格（Foundations、AI、Data Platform）を受験。試験は無料・在宅・日本語対応。Foundationsは既得知識で合格、AIは3〜4時間で合格、Data Platformは初回不合格後に研修スライドをNotebookLMで整理し7〜8時間で再合格。受験前は日本語設定確認、模擬試験とAI活用を推奨。",
+      "summary": "クラウド事業部の葛城が自己研鑽としてOCIの基礎系資格3種（OCI Certified Foundations、AI Foundations、Oracle Data Platform Foundations）を受験。今後、勉強法や失敗談、感想を共有し受験者の参考にする報告。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-03T12:49:10.000Z",
-      "contentHash": "63c9697140dc"
+      "contentHash": "9d6afe91adcc"
     },
     {
       "id": "dfb9e1c34f96",
@@ -815,10 +914,10 @@
       "id": "2c7f2c6f5d02",
       "title": "Codex の Computer Use を試す",
       "url": "https://note.com/npaka/n/nd62f3e1fe802",
-      "summary": "Codexの「Computer Use」はmacOS上でGUIを見てクリックや入力を行う機能。導入はプラグインのインストールと画面録画・アクセシビリティ権限が必要。GUI依存のテストやバグ再現、ログイン済みブラウザ操作や複数アプリ連携に有効。内部ブラウザはローカル未ログイン向け。実行は@Computer Use等で指定し、macOS権限とアプリ承認が別途必要。",
+      "summary": "CodexのComputer UseはmacOS上でGUIを見てクリックや入力を自動操作する機能。Screen RecordingとAccessibility権限を付与してセットアップ。GUI依存作業やChromeでのログイン確認、UIバグ再現、複数アプリ間のワークフローに向き、専用プラグインがあればそちらを優先。実行時はアプリごとに承認が必要で「常に許可」も設定可能。",
       "source": "npaka",
       "publishedAt": "2026-05-02T01:50:54.000Z",
-      "contentHash": "644b10c0342e"
+      "contentHash": "e65a09f19aab"
     },
     {
       "id": "1f73e9f6cbfd",
@@ -869,10 +968,10 @@
       "id": "21cb6b0d9f26",
       "title": "Codex pets を試す",
       "url": "https://note.com/npaka/n/n80eae24e08b6",
-      "summary": "OpenAIのCodex app搭載のアニメ付きコンパニオン「Codex Pets」を試用。デスクトップのオーバーレイでスレッドや進捗を視覚化。表示切替やペット変更は設定やコマンドで行え、$skill-installer→/hatchでカスタムペット作成も可能。",
+      "summary": "OpenAIのCodex appの「Codex Pets」は、デスクトップに浮かぶアニメーションのコンパニオンで、スレッドの実行状況や進捗を可視化。表示は「/」→「なでる」や右クリック、設定で切替。設定で種類変更、$skill-installer hatch-pet→再起動→/hatchでカスタム作成可能。",
       "source": "npaka",
       "publishedAt": "2026-05-01T23:10:17.000Z",
-      "contentHash": "d588c9ee3b19"
+      "contentHash": "11d2f810fedb"
     },
     {
       "id": "be7f413c2f41",
@@ -1175,10 +1274,10 @@
       "id": "ae110b0cef8d",
       "title": "Codex のスラッシュコマンドまとめ",
       "url": "https://note.com/npaka/n/n87a5c4364154",
-      "summary": "Codexのスラッシュコマンド一覧。入力欄で「/」を押すと表示され、MCP確認、コードレビュー、ステータス、会話分岐(/side)、フォーク、プラン(/plan)、メモリ(/memory)、モデル切替、コンパクト化、性格・推論設定、自動レビュー、高速化など作業切替や管理のショートカットを提供。",
+      "summary": "OpenAI Codexのスラッシュコマンド一覧と用途まとめ。/mcp, /review, /status, /side, /feedback, /fork, /plan, /memory, /model, /compact, /personality, /reasoning, /auto-review, /fastなどで接続確認、コードレビュー、会話分岐、計画立案、メモ管理、モデル切替、コンテキスト圧縮、応答調整や高速化が行えます。",
       "source": "npaka",
       "publishedAt": "2026-05-01T06:51:29.000Z",
-      "contentHash": "25ee826bec22"
+      "contentHash": "01cd47691e31"
     },
     {
       "id": "3c8bd07284fb",
@@ -1247,10 +1346,10 @@
       "id": "ad9c13a2a6c6",
       "title": "Codex のiOSアプリ開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n51962b239b68",
-      "summary": "Codexを用いたiOS(SwiftUI)開発の手順と推奨ツールを整理。CLI中心にxcodebuild/Tuistでスケルトン生成・ビルドし、高度化でXcodeBuildMCPやSwiftUI関連スキルを追加、プロンプトと反復を明確化。",
+      "summary": "CodexでSwiftUIスターターを生成し、CLI優先でxcodebuildやTuistによるビルドループを回す。高度化すればXcodeBuildMCPを導入。SwiftUI、Liquid Glassや性能・並行処理・リファクタ等のスキル群で設計・改善を支援し、明確なプロンプトで反復開発を行う。",
       "source": "npaka",
       "publishedAt": "2026-05-01T00:14:37.000Z",
-      "contentHash": "089aeacfadb9"
+      "contentHash": "68d185339553"
     },
     {
       "id": "b04e6b1c80ec",
@@ -1274,10 +1373,10 @@
       "id": "4e837202c532",
       "title": "Codex のゲーム開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n8fb9f73d2ce3",
-      "summary": "Codexを使ったブラウザゲーム開発の要点: 実装前にPLAN.mdで目標・メインループ・操作・勝敗・進行・ビジュアル・スタック・マイルストーンを定義。$playwright-interactiveで動作検証、$imagegenでアセット生成、OpenAI Docs参照。AGENTS.mdでCodexの振る舞いを指示し、.logsに作業記録を残す。",
+      "summary": "Codexを用いたブラウザゲーム開発のガイド。まずPLAN.mdで目標やメインループ等を定義し、AGENTS.mdでCodexの振る舞いを制御。Playwrightで反復テスト、ImageGenでアセット生成、OpenAI Docsで仕様確認し、`.logs/`に作業記録を残す。",
       "source": "npaka",
       "publishedAt": "2026-04-30T22:31:38.000Z",
-      "contentHash": "75b122be2404"
+      "contentHash": "1af8f27d2e7d"
     },
     {
       "id": "c47d1e3a21ec",
@@ -2048,10 +2147,10 @@
       "id": "6a5f73f03ae7",
       "title": "You can now easily generate files in Gemini.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/",
-      "summary": "GeminiアプリがチャットのプロンプトでPDF、Word(.docx)、Excel(.xlsx)、Google Docs/Sheets/Slides、CSV、LaTeX、Markdown等のファイルを直接生成・ダウンロードやDriveへエクスポート可能に。全ユーザー対応。",
+      "summary": "Geminiの単一プロンプトで、ブレインストーミングから完成された文書・スプレッドシート・PDFへ移行できます。",
       "source": "Gemini",
       "publishedAt": "2026-04-29T16:00:00.000Z",
-      "contentHash": "b6b6e8a7afd5"
+      "contentHash": "549b08bfb02f"
     },
     {
       "id": "1115745e2b1c",
@@ -2120,10 +2219,10 @@
       "id": "f9a625348e8a",
       "title": "Enjoy new ways to create, search and stream on Google TV",
       "url": "https://blog.google/products-and-platforms/platforms/google-tv/enjoy-new-ways-to-create-search-and-stream-on-google-tv/",
-      "summary": "Google TVが新しいAI機能を導入。音声で画像や動画を生成でき、Googleフォトの検索・リミックスやテレビを動的な写真ギャラリー化可能。今夏ホーム画面に短尺動画列を追加予定。",
+      "summary": "Google TVが楽しい画像・動画を作るツールやGoogleフォトの表示方法を刷新。さらに近く短尺動画を配信する新しい行（ショート動画）の追加も予定しています。",
       "source": "Gemini",
       "publishedAt": "2026-04-29T15:00:00.000Z",
-      "contentHash": "46274d0fe74d"
+      "contentHash": "decbd06513e9"
     },
     {
       "id": "6b8c46a3e355",
@@ -3029,10 +3128,10 @@
       "id": "20769b8fc97e",
       "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "summary": "GoogleとKaggleが無料の5日間「AI Agents Vibe Coding」講座を2026年6月15–19日に開催。自然言語で実用的なAIエージェントを作る実践課題や最終プロジェクト、講師陣付き。登録は公式サイトで受付中。",
+      "summary": "GoogleがKaggleと共同で5日間のAIエージェント集中コースを復活開講し、参加登録の受付を開始しました。",
       "source": "Gemini",
       "publishedAt": "2026-04-27T13:00:00.000Z",
-      "contentHash": "3b5321b6bacf"
+      "contentHash": "73dde948e571"
     },
     {
       "id": "ff52c1488d8a",
@@ -3875,10 +3974,10 @@
       "id": "caecb50726ec",
       "title": "8 Gemini tips for organizing your space (and life)",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-      "summary": "GoogleのAI「Gemini」を使った片付け・整理術の紹介記事。カスタムチェックリスト作成、家電のトラブルシュート、収納最適化、冷蔵庫整理、メールや買い物の管理、植物ケアなど生活全般の効率化を支援する。生成AIは実験的。",
+      "summary": "Geminiを使って家庭とデジタル空間を整理。AIが掃除スケジュール作成、受信トレイの整理、季節ごとの家事など実用的なアドバイスを提供します。",
       "source": "Gemini",
       "publishedAt": "2026-04-24T19:00:00.000Z",
-      "contentHash": "9d4c5c6e4f4f"
+      "contentHash": "cb02405c661e"
     },
     {
       "id": "e41b73fc8aed",
@@ -3983,10 +4082,10 @@
       "id": "2b37477dc60d",
       "title": "Find out what’s new in the Gemini app in April's Gemini Drop.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-april-2026/",
-      "summary": "Gemini Drops第10弾。Personal IntelligenceとNano Bananaで個人向け画像生成が容易に、Googleアプリ連携やNotebookLM統合、Macネイティブ対応、Lyria 3 Proで最長3分の音楽制作、チャットで概念を可視化。詳細はHub参照。",
+      "summary": "Gemini Dropsは、Geminiアプリの活用法を毎月紹介する定期更新記事です。",
       "source": "Gemini",
       "publishedAt": "2026-04-24T16:00:00.000Z",
-      "contentHash": "1bb926f980bb"
+      "contentHash": "bb57ccd4e140"
     },
     {
       "id": "87ee8b56db58",
@@ -5117,10 +5216,10 @@
       "id": "2a12912ff901",
       "title": "Gemini Embedding 2 is now generally available.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2-generally-available/",
-      "summary": "Gemini Embedding 2が一般提供開始。プレビューでeコマース検索や映像解析などのマルチモーダル試作が進み、テキスト・画像・動画・音声を横断する検索・推論が可能に。Gemini APIとEnterprise Agent Platformで安定化・最適化し本番導入を支援、Googleの研究成果を開発者向けに提供。",
+      "summary": "Gemini Embedding 2 が Gemini API と Vertex AI を通じて一般提供（GA）になったと発表しました。",
       "source": "Gemini",
       "publishedAt": "2026-04-22T16:15:00.000Z",
-      "contentHash": "1dc43b6af529"
+      "contentHash": "8cff196bc776"
     },
     {
       "id": "eb556b717fc0",
@@ -5747,10 +5846,10 @@
       "id": "91f078dda900",
       "title": "Make chats more natural and efficient with Continued Conversation, now in Gemini for Home",
       "url": "https://blog.google/products-and-platforms/devices/how-to-use-gemini-continued-conversation/",
-      "summary": "GoogleがGemini for Homeに「Continued Conversation」を導入。最初の「Hey Google」後に数秒マイクを維持して続けて話せ、会話文脈を保持・多言語対応・雑談判別改善・家中で利用可能。Homeアプリで有効化。",
+      "summary": "元記事が途中で切れているため正確な要約ができません。全文を貼っていただくかリンクをお願いします。なお、いただいた部分だけでの暫定要約は以下です：\n\n「早期アクセス開始以降、多くのユーザーが日常利用とフィードバックでGemini for Homeの改善に協力しており、本日、最優先の要望の一つを実装して発表する、という趣旨です。」",
       "source": "Gemini",
       "publishedAt": "2026-04-21T16:00:00.000Z",
-      "contentHash": "bb1e2ac5adc0"
+      "contentHash": "8526dda11325"
     },
     {
       "id": "dd5a630c8903",
@@ -5774,10 +5873,10 @@
       "id": "a076947f6231",
       "title": "Deep Research Max: a step change for autonomous research agents",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/",
-      "summary": "GoogleがGemini 3.1 Pro搭載の自律研究エージェントを発表。高速版と深掘り版「Deep Research Max」があり、MCPで私的データに安全接続、専門的な図表を自動作成し長期の高度解析を支援。",
+      "summary": "Googleが次世代の自律リサーチエージェント「Deep Research」と「Deep Research Max」を発表。高度なAIで調査・情報収集や分析作業を自動化し、研究効率と精度の向上を目指す。",
       "source": "Gemini",
       "publishedAt": "2026-04-21T15:30:00.000Z",
-      "contentHash": "a6b0991529bf"
+      "contentHash": "0f16dbcfc0d8"
     },
     {
       "id": "0285a47baf26",
@@ -6440,10 +6539,10 @@
       "id": "2dbc655de4d4",
       "title": "Start vibe coding in AI Studio with your Google AI subscription.",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-one-ai-studio/",
-      "summary": "GoogleのAI Pro／Ultra加入者向けにGoogle AI Studioの利用上限が拡大。Nano Banana ProやGemini Proが利用可能になり、短時間でプロトタイプ作成や手軽な課金で実験でき、製品化は従量課金APIへ移行可能。",
+      "summary": "本日より、Google AI Pro・Ultra契約者はGoogle AI Studioの利用上限が引き上げられ、Nano Banana ProやGemini Proといった高性能モデルへのアクセスが可能になります。",
       "source": "Gemini",
       "publishedAt": "2026-04-20T16:32:00.000Z",
-      "contentHash": "8313c8b70b44"
+      "contentHash": "66a1ddb5a852"
     },
     {
       "id": "c6fc7f439945",
@@ -8901,105 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-15T10:02:40.000Z",
       "contentHash": "8de733cdb1ee"
-    },
-    {
-      "id": "1ecdad90bfb4",
-      "title": "The next evolution of the Agents SDK",
-      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-      "summary": "OpenAIがAgents SDKを更新し、ネイティブのサンドボックス実行とモデルネイティブハーネスを追加。ファイルやツールを跨いで安全に長時間稼働するエージェント開発を支援します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-15T10:00:00.000Z",
-      "contentHash": "c3bc87721604"
-    },
-    {
-      "id": "cd394fcc987c",
-      "title": "Want to Write a Compiler? Just Read These Two Papers (2008)",
-      "url": "https://prog21.dadgum.com/30.html",
-      "summary": "コンパイラ書籍は理論過多で実装に結びつかないことが多いが、Jack Crenshawの\"Let's Build a Compiler!\"は単一通過で実践的、初心者向け。Pascal/C/Forth訳があるが、内部表現（AST）がないのが欠点。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-15T09:41:19.000Z",
-      "contentHash": "180ed37cae20"
-    },
-    {
-      "id": "a1c435097cec",
-      "title": "Cato AI セキュリティプラットフォームとは？～AIセキュリティ課題を解決する新たなソリューション～ | TechHarmony",
-      "url": "https://blog.usize-tech.com/cato-ai-security-platform/",
-      "summary": "企業で拡大するシャドーAI、情報漏洩、ガバナンス不足、プロンプト攻撃などAIセキュリティ課題を解説し、Cato Networksの「Cato AIセキュリティプラットフォーム」がユーザー向け・アプリ向けに可視化・制御・保護を提供する新たな解決策として紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T09:17:49.000Z",
-      "contentHash": "a9c79547a506"
-    },
-    {
-      "id": "59de844362a4",
-      "title": "vLLMをCPUとGPUで遊ぶ | 仮想化通信",
-      "url": "https://tech.virtualtech.jp/entry/2026/04/15/180129",
-      "summary": "OllamaやLM Studioを普段使う中でvLLMを試した。CPU版はCPU世代や基本性能に強く依存し、古い環境ではもちろん新しい環境でも快適に動かず、モデルをメモリに読み込んでからサーバを起動する仕様が問題だった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T09:01:29.000Z",
-      "contentHash": "6e75dd0b5ade"
-    },
-    {
-      "id": "f178089cdc28",
-      "title": "Rails: HTML のカスタム要素を活用して「楽観的なUI」を構築する（翻訳） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_04_15/156806",
-      "summary": "RailsでHTMLカスタム要素を使って楽観的UIを構築する英語記事の翻訳。原著はRails Designer（2025-12-04）。ViewComponent/TailwindのUI販売やMDN参照あり。TechRacho掲載。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T08:30:18.000Z",
-      "contentHash": "ae0c87c5446d"
-    },
-    {
-      "id": "71e16cb71c1e",
-      "title": "aws login で AWS CLI の認証がこう変わる | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/aws-cli-login-command",
-      "summary": "aws loginは2025年11月追加のAWS CLIコマンドで、ブラウザでコンソールにサインインするだけで一時CLI認証を取得。長期アクセスキー不要で自動ローテーション（トークン15分、セッション最大12時間）、aws logoutで即削除。AWS CLI v2.32.0以降対応。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T08:26:18.000Z",
-      "contentHash": "3ace80db1e7e"
-    },
-    {
-      "id": "e9b3ee563760",
-      "title": "Snowflake PrivateLink実践Tips ー複数アカウント対応のDNS／Route53設計と検証ー | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/6b67677beec78d",
-      "summary": "SnowflakeをAWS PrivateLinkで複数アカウント接続する際のDNS/Route53設計と検証を解説。社内DNSとVPC内Route53の参照差、同一リージョンでのURL重複による経路誤導、RHEL9上のSnowSQLの遅延・対応策を整理。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T08:15:05.000Z",
-      "contentHash": "540a4d1d0894"
-    },
-    {
-      "id": "5f75f3eb1670",
-      "title": "【インタビュー】社内各部署の困りごとをAIで解決。好きな分野を突き詰めながら、本業外でも会社に貢献する【AI活用推進チーム 前編】 | NIFTY engineering",
-      "url": "https://engineering.nifty.co.jp/interview/37140",
-      "summary": "ニフティでは所属部署の業務に加え、社員有志が自主的に行う社内活動があり、強制ではない。興味ある分野で取り組み、会社公認で予算が付くものもあり社内業務に貢献している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T06:04:25.000Z",
-      "contentHash": "a288bcfd91f8"
-    },
-    {
-      "id": "af49d031ed44",
-      "title": "[UE5] BlueprintのVectorノードまとめ その１ 【基本編】 | historia Inc – 株式会社ヒストリア",
-      "url": "https://historia.co.jp/archives/55377/",
-      "summary": "UE5.7のBlueprintで使うVector系ノードの使い方・注意点・サンプルをまとめた全3回シリーズの第1回（基本編）。基礎的なノード説明と利用例を分かりやすく解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T06:00:59.000Z",
-      "contentHash": "7a9f899945ab"
-    },
-    {
-      "id": "a5af54631e4f",
-      "title": "23年続くOSSの、9年越しのバグが直るまで | エムスリーテックブログ",
-      "url": "https://www.m3tech.blog/entry/2026/04/15/150000",
-      "summary": "AIチームブログリレー15日目。育休明けの三浦がAIエージェントの進化と開発変化に驚きつつ、20年以上続く老舗ソフトへの貢献挑戦を通じ「小さな一歩で世界を良くしよう」と呼びかける。前日は須藤のClaude Codeサンドボックス検証。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T06:00:00.000Z",
-      "contentHash": "a76ba9570007"
-    },
-    {
-      "id": "4f89447fec33",
-      "title": "小学校PTAでのITコンサル事例 | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/04/15/143342",
-      "summary": "CL事業部の長谷川が、小学校PTAで行った業務改善のIT事例を紹介。職業としてのITコンサルではなく地域貢献で、GoogleドライブやQRコード、権限管理を使いPTA業務をデジタル化した話。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-15T05:33:42.000Z",
-      "contentHash": "f7f48722145d"
     }
   ]
 }
