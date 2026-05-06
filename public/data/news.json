@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-05-06T04:03:28.425Z",
+  "generatedAt": "2026-05-06T10:43:56.117Z",
   "items": [
+    {
+      "id": "fc1c09181c70",
+      "title": "Chrome’s AI features may be hogging 4GB of your computer storage",
+      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+      "summary": "Google Chromeが一部のAI機能で、ローカル実行のGemini Nano用約4GBのweights.binを自動的にブラウザフォルダへダウンロードし、ストレージを圧迫。通知が不十分で問題化。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-06T10:13:09.000Z",
+      "contentHash": "f24f43cce9f0"
+    },
+    {
+      "id": "a0df78bc60fe",
+      "title": "開発部でAIハッカソンを始めました | トレタ開発者ブログ",
+      "url": "https://tech.toreta.in/entry/2026/05/06/%E9%96%8B%E7%99%BA%E9%83%A8%E3%81%A7AI%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3%E3%82%92%E5%A7%8B%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F",
+      "summary": "トレタ開発部が業務でのAI活用促進を目的に初のAIハッカソンを開催。AI必須・動作実装不要で参加障壁を下げ、1日で実践共有。例としてログ解析で修正案を出した不具合調査自動化や、PMがAIでPlaywrightコードを作り経費処理を自動化。今後は横展開と深掘りを目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-06T08:38:52.000Z",
+      "contentHash": "e90b515cc891"
+    },
     {
       "id": "033d5af7f08c",
       "title": "「GHAでTerraform applyは危険！CI/CDセキュリティの落とし穴と3つの対策」～【aws】人気記事（2026/05/03） | CareNet Engineersのフィード",
@@ -14,19 +32,19 @@
       "id": "dd1c5a389f84",
       "title": "GPT‑5.5 Instant の概要",
       "url": "https://note.com/npaka/n/nf19bb3ea10d5",
-      "summary": "ChatGPTのデフォルトがGPT‑5.5 Instantに更新。事実性や画像・STEM解析、Web検索判断が向上し誤情報を大幅削減。応答は簡潔でパーソナライズ強化、記憶確認機能「メモリソース」を導入。順次全ユーザーとAPIへ展開。",
+      "summary": "ChatGPTのデフォルトがGPT‑5.5 Instantに更新。事実精度（医療・法律・金融含む）や視覚推論・STEM能力が向上し誤情報を大幅削減。応答は簡潔でパーソナライズ強化、記憶参照の透明化機能を導入し順次全ユーザーへ展開。",
       "source": "npaka",
       "publishedAt": "2026-05-05T23:15:08.000Z",
-      "contentHash": "2460f55b3adc"
+      "contentHash": "cf6798a33e26"
     },
     {
       "id": "71c94ca6ca21",
       "title": "Gemma 4 MTP Drafters の概要",
       "url": "https://note.com/npaka/n/n7e64b803037c",
-      "summary": "Gemma 4向けMTP Draftersは、軽量ドラフトモデルが複数トークンを予測し本モデルが並列検証する投機的デコーディングで、品質を維持しつつ最大3倍の推論高速化を実現。応答性向上やエッジ・ローカル実行の最適化を備える。",
+      "summary": "Gemma 4向けMTP Draftersは、軽量ドラフトモデルが複数トークンを一括予測し、重いGemma 4が並列検証する投機的デコーディングで推論を最大約3倍高速化。品質を損なわず低遅延化やオンデバイス性能向上、KVキャッシュ共有などの最適化を実現する。",
       "source": "npaka",
       "publishedAt": "2026-05-05T22:58:06.000Z",
-      "contentHash": "996ba5c97169"
+      "contentHash": "8a51a2d7a6b7"
     },
     {
       "id": "d5c1c1407409",
@@ -245,6 +263,15 @@
       "contentHash": "e651a33bbb3b"
     },
     {
+      "id": "c393b136efc3",
+      "title": "Microsoft Agent Framework の Agent Skills を試してみる | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/fa50bc71760ea3",
+      "summary": "Microsoft Agent Framework の Agent Skills を紹介。業務知識や処理をパッケージ化し、必要時に段階的（Progressive Disclosure）に読み込んで利用する仕組み。SKILL.md の書式やファイル／コード両対応での定義方法を実例で試した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-05T14:33:20.000Z",
+      "contentHash": "b2d997362224"
+    },
+    {
       "id": "8603a79aeeab",
       "title": "The fun has been optimized out of the Internet",
       "url": "https://muddy.jprs.me/posts/2026-05-03-the-best-is-over/",
@@ -401,10 +428,10 @@
       "id": "74d3d2a589b3",
       "title": "閾値付き Snapshot Test で Lighthouse Score の劣化を防ぐ | hacomono TECH BLOG",
       "url": "https://techblog.hacomono.jp/entry/2026/05/05/110000",
-      "summary": "SEOを劣化させないため、LighthouseスコアをCIで自動チェックする仕組みを提案。Vitest＋PlaywrightでE2Eテスト化し、複数機能を組み合わせた実装と統合テストコードを紹介する。",
+      "summary": "Vitestのカスタムマッチャー（expect.extendでsnapshotState.matchを利用）とPlaywrightを組合せ、Lighthouseスコアを基準値＋閾値で比較する閾値付きスナップショットテストをCIで実行しスコア劣化を防ぐ方法を紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-05T02:00:00.000Z",
-      "contentHash": "36563a72c40a"
+      "contentHash": "46f577b61d40"
     },
     {
       "id": "e7c2c688e40f",
@@ -464,10 +491,10 @@
       "id": "4fa573234660",
       "title": "Codex App Server の概要",
       "url": "https://note.com/npaka/n/n075114596672",
-      "summary": "Codex App Serverは、Codexハーネス（エージェントループ、会話・認証・ツール実行管理）を各クライアントへ接続する双方向JSON-RPC風プロトコル。CLIやIDEでの再利用性向上を目的に開発され、stdioリーダー、メッセージプロセッサ、スレッドマネージャ、coreスレッドの4コンポーネントで進捗・差分・ツール実行などを扱う。",
+      "summary": "Codex App Serverは、Codexハーネス（エージェントループ、会話管理、ツール実行等）をクライアントとつなぐ双方向JSON-RPC類似プロトコル。CLIやIDE統合のために開発され、stdioリーダー・メッセージ処理・スレッド管理・coreスレッドの4構成でセッション、進捗、差分、ツール実行などを扱いリッチなUIを可能にする。",
       "source": "npaka",
       "publishedAt": "2026-05-04T23:15:33.000Z",
-      "contentHash": "6605a46a7433"
+      "contentHash": "d28cfa6d90c8"
     },
     {
       "id": "51fb4a570124",
@@ -725,10 +752,10 @@
       "id": "44cd09e0f09e",
       "title": "【Backstage】New Frontend System (NFS) 入門 | APC 技術ブログ",
       "url": "https://techblog.ap-com.co.jp/entry/2026/05/04/123456",
-      "summary": "エーピーコミュニケーションズACS事業部の亀崎氏が、毎年5月4日に記事を投稿する恒例企画を紹介。2022〜2024年の過去記事（AKSでDapr、Platform Engineering、Backstage/Kubernetes Plugin）を列挙し、5月4日の意味は記事末で明かすと予告しています。",
+      "summary": "BackstageのNew Frontend System（NFS）入門。NFSは2023年開発開始、2026年KubeConでGA間近と紹介され、create-app v1.49.0以降でデフォルト化。従来の手続き的OFSから宣言的NFSへ移行し、プラグインはコード追記不要でapp-config.yamlに設定するだけで導入が簡単に。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-04T03:34:56.000Z",
-      "contentHash": "feea67921f85"
+      "contentHash": "9d16f8196c70"
     },
     {
       "id": "a13ae63c01b1",
@@ -905,10 +932,10 @@
       "id": "11cd193e0bdf",
       "title": "Codex CLI の /goal の概要",
       "url": "https://note.com/npaka/n/n15e84ee77f5a",
-      "summary": "Codex CLIに追加された実験的コマンド「/goal」は、目標をスレッド内で保持して達成まで反復作業（Ralph loop）を行う機能です。作成・一時停止・再開・解除が可能で、明確な完了条件のあるテスト修正などに向く一方、曖昧な目標や大規模な差分には注意が必要です。~/.codex/config.tomlで有効化します。",
+      "summary": "Codex CLIの/goalは目標を設定して作業→検証を繰り返すコマンド。/goal <目標>、pause、resume、clearが使え、~/.codex/config.tomlで有効化。テスト通過やCI修復など反復作業向け。曖昧な目標や大規模変更に注意し、差分やテストを必ず確認すること。",
       "source": "npaka",
       "publishedAt": "2026-05-03T14:13:51.000Z",
-      "contentHash": "1acd3bf4b985"
+      "contentHash": "093d63622c30"
     },
     {
       "id": "0d01c1c3bf9f",
@@ -1670,10 +1697,10 @@
       "id": "ad9c13a2a6c6",
       "title": "Codex のiOSアプリ開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n51962b239b68",
-      "summary": "CodexでSwiftUIアプリのスケルトンを生成し、CLI中心にxcodebuildやTuistでビルド。高度化はXcodeBuildMCPとSwiftUI関連スキル（Liquid Glass、性能、並行処理等）を追加し、明確なプロンプトで反復開発する。",
+      "summary": "Codexを使ったiOS SwiftUI開発の要点。CLI優先でxcodebuildやTuistでスケルトン生成とビルドループを回し、より高度な自動化はXcodeBuildMCPへ。SwiftUI設計、性能、並行処理、Liquid Glass等のスキルで生成・レビュー・リファクタを行い、明確なプロンプトで反復開発する。",
       "source": "npaka",
       "publishedAt": "2026-05-01T00:14:37.000Z",
-      "contentHash": "e82fe8a48b08"
+      "contentHash": "9e4579c09251"
     },
     {
       "id": "b04e6b1c80ec",
@@ -1697,10 +1724,10 @@
       "id": "4e837202c532",
       "title": "Codex のゲーム開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n8fb9f73d2ce3",
-      "summary": "Codexを使ったブラウザゲーム開発の要点：まずPLAN.mdでゲーム設計（目標・ループ・操作・勝敗・難度・ビジュアル・技術スタック等）を定義し、AGENTS.mdでCodex挙動を制御。Playwrightで動作テスト、ImageGenでアセット生成、OpenAI Docs参照、作業は`.logs/`へ記録。",
+      "summary": "Codexでのブラウザゲーム開発手順。まずPLAN.mdで仕様（目標・メインループ・操作・勝敗・難易度・見た目・技術・マイルストーン）を定義し、Playwrightで動作検証、ImageGenでアセット生成、OpenAI Docs参照、AGENTS.mdでCodexの役割と作業ログ(.logs)を管理する。",
       "source": "npaka",
       "publishedAt": "2026-04-30T22:31:38.000Z",
-      "contentHash": "3cb603e46036"
+      "contentHash": "a59dd92274a2"
     },
     {
       "id": "c47d1e3a21ec",
@@ -1715,10 +1742,10 @@
       "id": "6791765eeff0",
       "title": "Codex のユースケースまとめ",
       "url": "https://note.com/npaka/n/nc4fd318fbead",
-      "summary": "OpenAIのCodexは単なるコード生成を超え、実装・レビュー・調査・自動化・品質管理を担う開発エージェント。PRレビューや大規模コード解析、UI生成（スクショ/Figma）、iOS/macOS支援、データ分析・レポート、バグトリアージやQA自動化など実務的な幅広いユースが紹介されている。",
+      "summary": "OpenAIのCodexは単なるコード生成を越え、実装・レビュー・調査・自動化・品質管理を担う実務向けAI。PRレビューや大規模コード解析、フロント／ネイティブ開発支援、データ分析・レポート、バグトリアージやQA自動化など幅広く活用できる。",
       "source": "npaka",
       "publishedAt": "2026-04-30T21:17:59.000Z",
-      "contentHash": "ff8afb530376"
+      "contentHash": "2854283451d4"
     },
     {
       "id": "991c2b4678b4",
@@ -8973,33 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-15T22:05:44.000Z",
       "contentHash": "20e9564e6b26"
-    },
-    {
-      "id": "016100e31896",
-      "title": "The buns in McDonald's Japan's burger photos are all slightly askew",
-      "url": "https://www.mcdonalds.co.jp/en/menu/burger/",
-      "summary": "メニューは店舗や特定店・配達で価格差あり。表示は税込でイートイン・持帰共通。アレルギー情報は表示必須8品目＋推奨20品目（2024年9月）。提供時間や店舗で取扱・表示が異なり、カスタムで完全除去は不可。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-15T21:48:18.000Z",
-      "contentHash": "b160277bef83"
-    },
-    {
-      "id": "d5942c38e850",
-      "title": "ChatGPT for Excel",
-      "url": "https://chatgpt.com/apps/spreadsheets/",
-      "summary": "申し訳ありませんが外部URLは直接参照できません。記事本文を貼っていただければ200字以内で要約します。Hacker Newsの議論を要約希望ならその旨を教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-15T21:21:05.000Z",
-      "contentHash": "752fe8934d36"
-    },
-    {
-      "id": "170b9878d708",
-      "title": "Does Gas Town 'steal' usage from users' LLM credits to improve itself?",
-      "url": "https://github.com/gastownhall/gastown/issues/3649",
-      "summary": "Gas Townの標準formulaがローカルでGitHubのIssueを自動レビューし、利用者のClaudeなどLLMクレジットやGitHubアカウントで修正PRを上流に送る機能がデフォルトで動作し、利用者のリソースを無断消費する。デフォルト停止してオプトイン化を求める。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-15T20:49:48.000Z",
-      "contentHash": "ac2f003db0a4"
     }
   ]
 }
