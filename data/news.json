@@ -1,41 +1,194 @@
 {
-  "generatedAt": "2026-05-05T18:03:11.553Z",
+  "generatedAt": "2026-05-06T04:03:28.425Z",
   "items": [
+    {
+      "id": "033d5af7f08c",
+      "title": "「GHAでTerraform applyは危険！CI/CDセキュリティの落とし穴と3つの対策」～【aws】人気記事（2026/05/03） | CareNet Engineersのフィード",
+      "url": "https://zenn.dev/carenet/articles/zenn-weekly-aws-articles-2026-05",
+      "summary": "CareNetの技術記事まとめ。GHAでterraform applyは実行環境と権限の結合で危険、CodePipeline等の承認フローを推奨。AIとGoogle連携は権限直渡しを避け専用サービスアカウントや鍵レス委任で保護。S3 Files性能評価、走行データビューア実装、DevOps Agent設計実践も解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-06T02:40:21.000Z",
+      "contentHash": "79857f7e1086"
+    },
+    {
+      "id": "dd1c5a389f84",
+      "title": "GPT‑5.5 Instant の概要",
+      "url": "https://note.com/npaka/n/nf19bb3ea10d5",
+      "summary": "ChatGPTのデフォルトがGPT‑5.5 Instantに更新。事実性や画像・STEM解析、Web検索判断が向上し誤情報を大幅削減。応答は簡潔でパーソナライズ強化、記憶確認機能「メモリソース」を導入。順次全ユーザーとAPIへ展開。",
+      "source": "npaka",
+      "publishedAt": "2026-05-05T23:15:08.000Z",
+      "contentHash": "2460f55b3adc"
+    },
+    {
+      "id": "71c94ca6ca21",
+      "title": "Gemma 4 MTP Drafters の概要",
+      "url": "https://note.com/npaka/n/n7e64b803037c",
+      "summary": "Gemma 4向けMTP Draftersは、軽量ドラフトモデルが複数トークンを予測し本モデルが並列検証する投機的デコーディングで、品質を維持しつつ最大3倍の推論高速化を実現。応答性向上やエッジ・ローカル実行の最適化を備える。",
+      "source": "npaka",
+      "publishedAt": "2026-05-05T22:58:06.000Z",
+      "contentHash": "996ba5c97169"
+    },
+    {
+      "id": "d5c1c1407409",
+      "title": "Zuckerberg 'personally authorized' Meta's copyright infringement, publishers say",
+      "url": "https://apnews.com/article/meta-mark-zuckerberg-ai-publishers-lawsuit-llama-5609846d4d840014974a847b01079c32",
+      "summary": "複数の出版社がメタを提訴。LLaMAなど同社のAIが有料記事を無断で学習に使ったと主張し、損害賠償と差し止めを求めている。メタは公開情報の利用を主張し、ザッカーバーグの関与や著作権適用が裁判の焦点となっている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T22:07:18.000Z",
+      "contentHash": "c27772acb589"
+    },
+    {
+      "id": "9538f7e05960",
+      "title": "NPR finds \"no sign\" of Polymarket at its Panama HQ address",
+      "url": "https://www.npr.org/2026/05/05/nx-s1-5807918/polymarket-panama-prediction-market",
+      "summary": "申し訳ありませんが外部URLを直接参照できません。記事本文（または主要段落）を貼り付けていただければ、200文字以内で日本語要約を作成します。コメントも合わせて要約可。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T21:50:21.000Z",
+      "contentHash": "5261c6828634"
+    },
+    {
+      "id": "cefcc8a635eb",
+      "title": "Google Home&#8217;s Gemini AI can handle more complicated requests",
+      "url": "https://www.theverge.com/tech/924755/google-home-gemini-3-1-upgrade",
+      "summary": "Google HomeのAIがGemini 3.1に更新され、単一の音声で複数の要求や複雑なマルチステップ操作を実行可能に。定期・終日イベントの扱いや予定の移動も改善され、自然言語理解や誤認識修正の延長線上の改良。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-05T21:46:04.000Z",
+      "contentHash": "b243b17a4980"
+    },
+    {
+      "id": "9218a2e56610",
+      "title": "Write some software, give it away for free",
+      "url": "https://nonogra.ph/write-some-software-give-it-away-for-free-05-05-2026",
+      "summary": "このサイトはオープンソースの無料ソフトNonographで、公開に約600ドルかかったが作者が無償提供している。サブスクや広告、強制AIによる機能の課金化を批判し、趣味としての開発は金儲け目的にすると情熱を失い質も落ちるため、サブスク導入は不要で有害だと主張している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T21:26:50.000Z",
+      "contentHash": "febe2c30849a"
+    },
+    {
+      "id": "9622e2a06a98",
+      "title": "Apple agrees to pay iPhone owners $250 million for not delivering AI Siri",
+      "url": "https://www.theverge.com/tech/924706/apple-iphone-siri-intelligence-class-action-lawsuit-settlement",
+      "summary": "AppleはApple Intelligenceの提供遅延で誤認を招いたとして、iPhone16全機種とiPhone15 Pro購入者を対象に2億5,000万ドルで和解合意。対象期間は2024/6/10〜2025/3/29で、申請により端末ごとに25ドル（申請数等で最大95ドル）受け取れる可能性。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-05T21:18:23.000Z",
+      "contentHash": "504915f58362"
+    },
+    {
+      "id": "453946e40478",
+      "title": ".de TLD offline due to DNSSEC?",
+      "url": "https://dnssec-analyzer.verisignlabs.com/nic.de",
+      "summary": "マウスをシンボルに重ねると修復ヒントが表示され、nic.deはdnsviz.netで確認可能。高度設定でDS/DNSKEYを入力するとDNSに公開されていない信頼アンカーを使って、そのオーナー名から検証を開始でき、代替の開始ネームサーバー（同ゾーンの権威サーバー）も指定できる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T20:16:35.000Z",
+      "contentHash": "96ce842c842d"
+    },
+    {
+      "id": "8a4bc1727308",
+      "title": "Microsoft gives up on Xbox Copilot AI",
+      "url": "https://www.theverge.com/games/924551/microsoft-xbox-ceo-copilot-ai-asha-sharma",
+      "summary": "新Xbox CEOアシャ・シャルマは、プラットフォーム再編とCoreAI出身幹部の登用に伴い、モバイル版Copilotを段階的終了、コンソール版の開発中止を発表。速度向上とコミュニティ重視で不要機能を整理するという。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-05T19:54:37.000Z",
+      "contentHash": "c3a470752951"
+    },
+    {
+      "id": "a0b4633bb483",
+      "title": "Apple could let you pick a favorite AI model in iOS 27",
+      "url": "https://www.theverge.com/tech/924515/apple-intelligence-third-party-chatbot-extensions-ios-27",
+      "summary": "Bloomberg報道：iOS/iPadOS/macOS 27（今秋）でサードパーティ製AI「Extensions」を導入。ChatGPT等の外部モデルをSiriやWriting Tools、Image Playgroundで選べ、モデルごとにSiri音声も設定可能。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-05T19:45:30.000Z",
+      "contentHash": "506ae8adcae2"
+    },
+    {
+      "id": "6499d8da3931",
+      "title": "Threads is finally getting DMs on the web",
+      "url": "https://www.theverge.com/tech/924436/meta-threads-web-dms-direct-messages",
+      "summary": "Metaがモバイルで提供していたThreadsのDMをウェブ版でテスト導入。受信箱やメッセージリクエスト、誰からDMを受け取るかの設定やグループチャットなどを順次展開予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-05T18:30:42.000Z",
+      "contentHash": "fd3d506cba00"
+    },
+    {
+      "id": "f24ef0f68c0f",
+      "title": "California farmers to destroy 420k peach trees following Del Monte bankruptcy",
+      "url": "https://www.sfgate.com/centralcoast/article/usda-aid-california-farmers-22240694.php",
+      "summary": "外部サイトに直接アクセスできないため記事本文を取得できません。本文を貼り付けていただければ、200文字以内で日本語要約します。HNの議論も要約希望なら同様に貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T18:13:47.000Z",
+      "contentHash": "4d74df908944"
+    },
+    {
+      "id": "c18016512a4d",
+      "title": "Show HN: Explore color palettes inspired by 3000 master painter artworks",
+      "url": "https://paletteinspiration.com/",
+      "summary": "ルネサンスから印象派まで数千の名画から抽出したカラーパレットを探索。色相ホイールを動かすと巨匠が組み合わせた色を表示。3065名以上の画家を収録。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T18:13:14.000Z",
+      "contentHash": "05a0c2feccad"
+    },
+    {
+      "id": "0b1f38f19078",
+      "title": "Clarification on the Notepad++ Trademark Issue",
+      "url": "https://notepad-plus-plus.org/news/clarify-npp-trademark-infringement/",
+      "summary": "Notepad++が商標ポリシーを明確化し、無断で名称やロゴを使う配布や改変版に対して使用停止や名称変更を求めた。派生版は名称変更や事前連絡で対応可能で、混同防止が目的。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T18:04:20.000Z",
+      "contentHash": "39301c19a627"
+    },
+    {
+      "id": "31d1fa1a3d40",
+      "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+      "url": "https://arxiv.org/abs/2604.26752",
+      "summary": "GLM-5V-Turboは、画像・動画・文書・GUIなどのマルチモーダル知覚を推論・計画・ツール操作・実行の中核に組み込んだ基盤モデル。設計、学習、強化学習、ツール連携で改良し現実環境対応を強化。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T17:52:31.000Z",
+      "contentHash": "dd27a45e60f4"
+    },
     {
       "id": "41c83ec293ad",
       "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
       "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "summary": "マスクが2024年にOpenAIを提訴、アルトマンらが創業の公益目的を捨て利益追求に走ったと主張。裁判で双方が証言し、マスクは排除と最大1500億ドルの賠償、公益法人解消を要求。OpenAIは訴訟を競争妨害と反論。ChatGPTと競合するxAIのGrokも背景にある。",
+      "summary": "マスクがアルトマンらを相手取り、OpenAIが創業理念を投げ捨て利益追求に走ったと訴訟。解任や公益法人廃止、巨額賠償を求め証人尋問が続く。OpenAIは根拠のない妬みと反論。",
       "source": "The Verge",
       "publishedAt": "2026-05-05T17:28:52.000Z",
-      "contentHash": "277350ef63cb"
+      "contentHash": "43e690651869"
+    },
+    {
+      "id": "3548843fda67",
+      "title": "IBM didn't want Microsoft to use the Tab key to move between dialog fields",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298",
+      "summary": "OS/2開発でのMicrosoftとIBMの文化衝突を示す逸話。ダイアログのフィールド移動にTABを使うかで対立。Microsoftは現場判断でTAB採用、IBMが幹部にまでエスカレートしたが「ビル・ゲイツの母はTABに興味がない」で議論が終わりTABが残った。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-05T17:28:18.000Z",
+      "contentHash": "e3c880415ec7"
     },
     {
       "id": "b98cbb3b2349",
       "title": "OpenAI claims ChatGPT’s new default model hallucinates way less",
       "url": "https://www.theverge.com/ai-artificial-intelligence/924225/openai-chatgpt-default-model-gpt-5-5-instant",
-      "summary": "OpenAIは新しいデフォルトモデル「GPT-5.5 Instant」が事実誤認を大幅に低減したと発表。高リスク分野で誤情報を52.5%削減、難問で37.3%減。画像解析やウェブ参照が向上し、応答は簡潔で絵文字も減少。",
+      "summary": "OpenAIはChatGPTの新デフォルトモデルGPT-5.5 Instantを発表。社内評価で医療・法務・金融など高リスク分野の誤情報を52.5%削減、ユーザー指摘の誤答は37.3%減。画像解析やWeb参照の能力向上、不要な絵文字も減少。",
       "source": "The Verge",
       "publishedAt": "2026-05-05T17:00:00.000Z",
-      "contentHash": "54b20e5ba0df"
+      "contentHash": "73ac9d45bf41"
     },
     {
       "id": "5d69eb5449a5",
-      "title": "Meta sued by major book publishers over copyright infringement",
+      "title": "Book publishers sue Meta over AI&#8217;s &#8216;word-for-word&#8217; copying",
       "url": "https://www.theverge.com/tech/924230/meta-publishers-lawsuit-ai-copyright",
-      "summary": "Macmillan、McGraw‑Hill、Elsevier、Hachette、Cengageと作家スコット・タローが、MetaがLlamaの学習に自社の書籍や論文を無断で海賊サイト（LibGen等）やCommon Crawlから大量に複製して使用したとして、史上最大級の著作権侵害だと主張し集団訴訟を起こした。",
+      "summary": "Macmillan、McGraw Hill、Elsevier、Hachette、Cengage と作家スコット・ツルーが、MetaがLlamaの学習でLibGenやAnna’s Archive、Sci‑HubやCommon Crawlなどから無断で書籍・論文を丸写しし大規模な著作権侵害を行ったとして集団訴訟を起こした。",
       "source": "The Verge",
       "publishedAt": "2026-05-05T16:52:38.000Z",
-      "contentHash": "5156cc9a613b"
+      "contentHash": "c564c747b3c2"
     },
     {
       "id": "b8ce81cb4638",
       "title": "Microsoft’s new Xbox shake-up is all about platform changes",
       "url": "https://www.theverge.com/news/923908/microsoft-xbox-reorg-platform-changes",
-      "summary": "Xbox新CEOのAsha Sharmaがプラットフォーム部門を再編。ベテランの退任や昇進の一方、技術力重視で人員補強。CoreAI出身のJared PalmerがVP兼技術顧問に就き、開発ツールやインフラ整備に注力。Game Pass値下げやMicrosoft GamingのXbox復帰に続く施策。",
+      "summary": "Xbox新CEOアシャ・シャルマは、機能強化やGame Pass値下げ、Gaming再統合に続きプラットフォームを再編。CoreAI出身のジャレッド・パーマーをVP兼技術顧問に迎え、開発者ツールやインフラなどの複雑な技術課題に注力する。",
       "source": "The Verge",
       "publishedAt": "2026-05-05T16:46:39.000Z",
-      "contentHash": "2f7dd8d2cda0"
+      "contentHash": "44f1e45108bd"
     },
     {
       "id": "6d5814570d11",
@@ -248,10 +401,10 @@
       "id": "74d3d2a589b3",
       "title": "閾値付き Snapshot Test で Lighthouse Score の劣化を防ぐ | hacomono TECH BLOG",
       "url": "https://techblog.hacomono.jp/entry/2026/05/05/110000",
-      "summary": "VitestとPlaywrightでLighthouseスコアの劣化をCIで防ぐ方法。expect.extendとthis.snapshotState.matchで独自のスナップショットマッチャーを作り、基準値と現在値の差が閾値内かを判定する「閾値付きスナップショットテスト」を提案する。",
+      "summary": "SEOを劣化させないため、LighthouseスコアをCIで自動チェックする仕組みを提案。Vitest＋PlaywrightでE2Eテスト化し、複数機能を組み合わせた実装と統合テストコードを紹介する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-05T02:00:00.000Z",
-      "contentHash": "46f577b61d40"
+      "contentHash": "36563a72c40a"
     },
     {
       "id": "e7c2c688e40f",
@@ -281,6 +434,15 @@
       "contentHash": "9c79fab81699"
     },
     {
+      "id": "08792e01b9a9",
+      "title": "New ways to buy ChatGPT ads",
+      "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+      "summary": "OpenAIはChatGPTの広告を拡充し、ベータ版セルフサーブのAds Manager、クリック単価（CPC）入札、強化した測定ツールを導入しました。プライバシー保護と会話と広告の分離を重視しています。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-05T00:00:00.000Z",
+      "contentHash": "0bf74757cdd1"
+    },
+    {
       "id": "d0b41e9a572b",
       "title": "Valve just imported 50 tons of game consoles in two days",
       "url": "https://www.theverge.com/news/923461/valve-steam-machine-frame-deck-import-records-may-2026",
@@ -302,10 +464,10 @@
       "id": "4fa573234660",
       "title": "Codex App Server の概要",
       "url": "https://note.com/npaka/n/n075114596672",
-      "summary": "Codex App Serverは、CodexハーネスをCLIやIDE等のクライアントとつなぐ双方向JSON-RPC風プロトコル実装。スレッド管理、認証、ツール実行、進捗・差分出力などを扱い、stdioリーダー、メッセージ処理、スレッドマネージャ、core実行の4コンポーネントでリッチなUI統合を可能にする。",
+      "summary": "Codex App Serverは、Codexハーネス（エージェントループ、会話・認証・ツール実行管理）を各クライアントへ接続する双方向JSON-RPC風プロトコル。CLIやIDEでの再利用性向上を目的に開発され、stdioリーダー、メッセージプロセッサ、スレッドマネージャ、coreスレッドの4コンポーネントで進捗・差分・ツール実行などを扱う。",
       "source": "npaka",
       "publishedAt": "2026-05-04T23:15:33.000Z",
-      "contentHash": "78d44c7282ef"
+      "contentHash": "6605a46a7433"
     },
     {
       "id": "51fb4a570124",
@@ -563,19 +725,19 @@
       "id": "44cd09e0f09e",
       "title": "【Backstage】New Frontend System (NFS) 入門 | APC 技術ブログ",
       "url": "https://techblog.ap-com.co.jp/entry/2026/05/04/123456",
-      "summary": "BackstageのNew Frontend System（NFS）入門。NFSは従来のコードで行う手続き的設定から、app-config.yamlによる宣言的設定へ移行し、プラグインを自動取り込みして導入を簡素化する仕組み。2026年3月のv1.49.0以降でデフォルト化されGA相当とされた。",
+      "summary": "エーピーコミュニケーションズACS事業部の亀崎氏が、毎年5月4日に記事を投稿する恒例企画を紹介。2022〜2024年の過去記事（AKSでDapr、Platform Engineering、Backstage/Kubernetes Plugin）を列挙し、5月4日の意味は記事末で明かすと予告しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-04T03:34:56.000Z",
-      "contentHash": "9d16f8196c70"
+      "contentHash": "feea67921f85"
     },
     {
       "id": "a13ae63c01b1",
       "title": "「AWS Lambda高速化！350msの壁を越えるSnapStart最適解」～【python】人気記事TOP5（2026/05/03） | CareNet Engineersのフィード",
       "url": "https://zenn.dev/carenet/articles/zenn-weekly-python-articles-2026-05",
-      "summary": "CareNet EngineersがZennの人気Python記事TOP5を自動集計・要約。内容は、AWS Lambda SnapStartはInit約350–400msで有効性が変わる分析、NVIDIA日本人ペルソナの偏り検証、bundle execとuvの比較、TOTP自作、Stream DeckでClaude Code自動化。",
+      "summary": "Zennが人気Python記事を自動取得しAIで要約・自動更新するページ。例としてAWS LambdaのSnapStart高速化や、NVIDIAの100万人日本人ペルソナデータをPythonで分析し、性別・年齢・地域・職業の集計や職種ごとの偏りを検証した記事が紹介されている。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-04T02:42:20.000Z",
-      "contentHash": "a2aaf9eadaf7"
+      "contentHash": "da6dcdffa1a1"
     },
     {
       "id": "ccf14aab1f68",
@@ -743,10 +905,10 @@
       "id": "11cd193e0bdf",
       "title": "Codex CLI の /goal の概要",
       "url": "https://note.com/npaka/n/n15e84ee77f5a",
-      "summary": "Codex CLIに/goalコマンドが追加。目標をスレッドで保持して達成まで反復（Ralph loop）し、pause/resume/clearが可能。experimentalで設定が必要。完了条件を明確にし、差分やテストを必ず確認すること。",
+      "summary": "Codex CLIに追加された実験的コマンド「/goal」は、目標をスレッド内で保持して達成まで反復作業（Ralph loop）を行う機能です。作成・一時停止・再開・解除が可能で、明確な完了条件のあるテスト修正などに向く一方、曖昧な目標や大規模な差分には注意が必要です。~/.codex/config.tomlで有効化します。",
       "source": "npaka",
       "publishedAt": "2026-05-03T14:13:51.000Z",
-      "contentHash": "ed087ace671e"
+      "contentHash": "1acd3bf4b985"
     },
     {
       "id": "0d01c1c3bf9f",
@@ -1130,10 +1292,10 @@
       "id": "21cb6b0d9f26",
       "title": "Codex pets を試す",
       "url": "https://note.com/npaka/n/n80eae24e08b6",
-      "summary": "OpenAIのCodex appの「Codex Pets」は、デスクトップ上のアニメーションコンパニオンで、作業スレッドや状態（実行中/入力待ち/レビュー準備）をオーバーレイで可視化。表示切替はメッセージ欄や設定から行え、$skill-installer hatch-pet→再起動→/hatchでカスタムペットを作成できる。",
+      "summary": "OpenAIのCodex appのアニメ付きコンパニオン機能「Codex Pets」を試用。デスクトップのオーバーレイでスレッド状態や進捗を表示。表示切替は「/」→なでるや右クリック・設定で行い、ペット変更は設定から。カスタムは $skill-installer hatch-pet → 再起動 → /hatch で作成。",
       "source": "npaka",
       "publishedAt": "2026-05-01T23:10:17.000Z",
-      "contentHash": "0d71d03a98de"
+      "contentHash": "4b217a0fb851"
     },
     {
       "id": "be7f413c2f41",
@@ -1508,10 +1670,10 @@
       "id": "ad9c13a2a6c6",
       "title": "Codex のiOSアプリ開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n51962b239b68",
-      "summary": "CodexでSwiftUIスターターを生成し、CLI優先でxcodebuildやTuistによるビルドループを回す。高度化すればXcodeBuildMCPを導入。SwiftUI、Liquid Glassや性能・並行処理・リファクタ等のスキル群で設計・改善を支援し、明確なプロンプトで反復開発を行う。",
+      "summary": "CodexでSwiftUIアプリのスケルトンを生成し、CLI中心にxcodebuildやTuistでビルド。高度化はXcodeBuildMCPとSwiftUI関連スキル（Liquid Glass、性能、並行処理等）を追加し、明確なプロンプトで反復開発する。",
       "source": "npaka",
       "publishedAt": "2026-05-01T00:14:37.000Z",
-      "contentHash": "68d185339553"
+      "contentHash": "e82fe8a48b08"
     },
     {
       "id": "b04e6b1c80ec",
@@ -1535,10 +1697,10 @@
       "id": "4e837202c532",
       "title": "Codex のゲーム開発のためのプロンプトまとめ",
       "url": "https://note.com/npaka/n/n8fb9f73d2ce3",
-      "summary": "Codexを用いたブラウザゲーム開発のガイド。まずPLAN.mdで目標やメインループ等を定義し、AGENTS.mdでCodexの振る舞いを制御。Playwrightで反復テスト、ImageGenでアセット生成、OpenAI Docsで仕様確認し、`.logs/`に作業記録を残す。",
+      "summary": "Codexを使ったブラウザゲーム開発の要点：まずPLAN.mdでゲーム設計（目標・ループ・操作・勝敗・難度・ビジュアル・技術スタック等）を定義し、AGENTS.mdでCodex挙動を制御。Playwrightで動作テスト、ImageGenでアセット生成、OpenAI Docs参照、作業は`.logs/`へ記録。",
       "source": "npaka",
       "publishedAt": "2026-04-30T22:31:38.000Z",
-      "contentHash": "1af8f27d2e7d"
+      "contentHash": "3cb603e46036"
     },
     {
       "id": "c47d1e3a21ec",
@@ -8838,168 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-15T20:49:48.000Z",
       "contentHash": "ac2f003db0a4"
-    },
-    {
-      "id": "6f8f50ca6ecd",
-      "title": "Ford’s EV and software chief Doug Field is leaving the company",
-      "url": "https://www.theverge.com/transportation/912647/ford-doug-field-leaving-ev-software",
-      "summary": "フォードのEV・ソフト責任者ダグ・フィールドが退任。後任は元テスラのアラン・クラークが副社長に昇格しUEV開発を継続して指揮する。今回の人事は5か月前の195億ドルのEV減損発表後の刷新。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-15T20:05:00.000Z",
-      "contentHash": "6539388e576c"
-    },
-    {
-      "id": "f9e27763f503",
-      "title": "Trump’s posting even more AI-generated Trump-Jesus fan art",
-      "url": "https://www.theverge.com/column/912627/trump-jesus-ai-whcd-penguin-meme",
-      "summary": "トランプが自作のAI生成“イエス像”を次々投稿。病人を癒す絵をポープ批判の直後に掲載し、宗教保守層との亀裂を招く可能性がある。ヘルツォークはトランプのペンギンミームにも言及。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-15T19:50:31.000Z",
-      "contentHash": "aafd1e5ac909"
-    },
-    {
-      "id": "ee2f5b791a45",
-      "title": "Why are Flock employees watching our children?",
-      "url": "https://substack.com/home/post/p-193593234",
-      "summary": "外部リンクに直接アクセスできないため記事を取得できません。記事本文か主要箇所を貼っていただければ、200文字以内で要約します。タイトルや要点だけでも可。どの観点（結論、背景、論点など）を強調するか教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-15T19:30:52.000Z",
-      "contentHash": "79df75d53f74"
-    },
-    {
-      "id": "43a6f86a5125",
-      "title": "Ask HN: Who is using OpenClaw?",
-      "url": "https://news.ycombinator.com/item?id=47783940",
-      "summary": "投稿者は自分も周囲もそのAIツールを使っておらず、AI業界に精通していると思っていても実際の利用は乏しいと指摘。話題性と実運用の乖離や過熱した期待への懐疑を示す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-15T19:22:10.000Z",
-      "contentHash": "279343309521"
-    },
-    {
-      "id": "4b46a335635c",
-      "title": "Ticketmaster is an illegal monopoly, jury finds",
-      "url": "https://www.theverge.com/policy/912689/live-nation-ticketmaster-antitrust-monopoly-trial-verdict",
-      "summary": "ニューヨークの陪審はLive Nation‑Ticketmasterを違法独占と認定。米司法省（バイデン政権）の訴訟で、チケット販売、アンフィシアター支配、会場とプロモーションの抱き合わせの三件で違法とされ、解体の可能性が生じた。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-15T19:09:17.000Z",
-      "contentHash": "ba120147d58f"
-    },
-    {
-      "id": "d9e0e61e0665",
-      "title": "Live Nation illegally monopolized ticketing market, jury finds",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds",
-      "summary": "NYTとThe Vergeは、Live Nation／Ticketmasterの独占的チケット支配と不公正な慣行を報じ、訴訟や規制強化の動き、手数料上昇やファン・会場への悪影響を指摘している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-15T19:06:39.000Z",
-      "contentHash": "a2d33c412cf0"
-    },
-    {
-      "id": "47b2edeb5211",
-      "title": "FTC pushes ad agencies into dropping brand safety rules",
-      "url": "https://www.theverge.com/policy/912680/ftc-ad-agency-settlement-trust-safety",
-      "summary": "FTCと8州は大手広告代理店と、政治的見解を理由にXなどを共同で排除するブランドセーフティ規則の協調を禁じる和解案を発表。FTCはGARM等の反競争的共同行為を問題視。Xの類似訴訟は先に却下。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-15T19:00:23.000Z",
-      "contentHash": "5af817b2a9df"
-    },
-    {
-      "id": "52ce38c3ff01",
-      "title": "Ikea&#8217;s smart donut lamp is a sweet treat",
-      "url": "https://www.theverge.com/tech/911809/ikea-varmblixt-smart-donut-lamp-review-matter-thread",
-      "summary": "Ikeaのドーナツ型スマート照明Varmblixtはカラー変更・調光・Matter over Thread対応。卓上・壁掛け両用で手頃な価格。レビュワーは子ども部屋のベッドサイド照明として雰囲気作りに好評と報告。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-15T18:30:50.000Z",
-      "contentHash": "aa954059bb4d"
-    },
-    {
-      "id": "ce7c6f5cf39b",
-      "title": "AI-assisted cognition endangers human development?",
-      "url": "https://heidenstedt.org/posts/2026/ai-assisted-cognition-endangers-human-development/",
-      "summary": "外部リンクへ直接アクセスできません。記事本文を貼るか主要部分を送ってください。受け取れば200字以内で日本語要約します。HNコメントも併せて可。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-15T18:16:50.000Z",
-      "contentHash": "1b20ca481c7c"
-    },
-    {
-      "id": "47b1a71790f6",
-      "title": "Kalshi CEO expects US DOJ to prosecute insider trading cases",
-      "url": "https://www.semafor.com/article/04/15/2026/kalshi-ceo-tarek-mansour-expects-us-doj-to-prosecute-insider-trading-cases",
-      "summary": "KalshiのCEOタレク・マンスールは、米司法省が内部者取引の疑いで起訴に踏み切ると予想。予測市場を含む業界に対する規制強化と透明性・コンプライアンスの重要性を強調した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-15T18:11:24.000Z",
-      "contentHash": "427e7dbd369a"
-    },
-    {
-      "id": "5cbed6f5127f",
-      "title": "Google launches a Gemini AI app on Mac",
-      "url": "https://www.theverge.com/tech/912638/google-gemini-mac-app",
-      "summary": "GoogleがMac向けにGeminiアプリを公開。Option+Spaceで浮動チャットを呼び出し、画面共有（許可必要）で表示内容を参照して質問可能。画像・動画・音楽生成もでき、Spotlight類似でデスクトップAI競争に参入。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-15T18:10:15.000Z",
-      "contentHash": "8630c83f9ad8"
-    },
-    {
-      "id": "d5e69b78b251",
-      "title": "Microsoft counters the MacBook Neo with freebies for students",
-      "url": "https://www.theverge.com/news/912639/microsoft-counters-the-macbook-neo-with-freebies-for-students",
-      "summary": "Appleの廉価MacBook Neoへの対抗策として、Microsoftは米国で学生向けにWindows 11搭載PCを値下げし、12か月のMicrosoft 365 PremiumとXbox Game Pass Ultimateをバンドルする「Microsoft College Offer」をAcer、Asus、Dell、HP、LenovoやSurfaceで開始しました。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-15T18:03:46.000Z",
-      "contentHash": "42caa15a63b8"
-    },
-    {
-      "id": "eba351918e7d",
-      "title": "Google broke its promise to me – now ICE has my data",
-      "url": "https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data",
-      "summary": "Googleは位置情報の取り扱いを制限すると約束したが、実際にはICEが私の位置データを入手した事例を報告。EFFは約束違反を批判し、利用者通知・透明性の向上、データ共有の法的制限や監査を求めている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-15T17:44:26.000Z",
-      "contentHash": "00a58ac0fbd6"
-    },
-    {
-      "id": "0dcdb71f0a0c",
-      "title": "Best Buy’s Ultimate Upgrade Sale features deals on dozens of our favorite gadgets",
-      "url": "https://www.theverge.com/gadgets/911853/best-buy-ultimate-upgrade-sale-2026-tech-deals-apple",
-      "summary": "Best Buyの5日間セール「Ultimate Upgrade Sale」が4月19日まで開催。4KテレビやApple製品、スマホ、スマート家電など多数割引で、AirPods Pro 3が50ドルオフなどお得。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-15T17:04:34.000Z",
-      "contentHash": "ed3cc2797b79"
-    },
-    {
-      "id": "8eff7a0bf3ab",
-      "title": "The Senate is voting to save free IRS Direct File today",
-      "url": "https://www.theverge.com/policy/912490/irs-direct-file-senate-vote",
-      "summary": "上院が無償のIRS Direct File復活法案を採決。ウォーレン上院議員が速決を求め、2024年試行で25州に広がったが2025年廃止された無料税申告サービスを、2月提出・160超の民主党支持の法案で復活させる狙い。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-15T17:00:00.000Z",
-      "contentHash": "77450dbf2b5c"
-    },
-    {
-      "id": "587ea7d224f6",
-      "title": "Most people still don’t want anything to do with robotaxis",
-      "url": "https://www.theverge.com/transportation/912357/robotaxi-poll-ev-intelligence-report-waymo-tesla",
-      "summary": "自動運転車は技術進展や一部都市でのロボタクシー運行が進んでも、世論の不信感は根強く、多くの人が運転手なしの車に乗りたがらない。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-15T16:27:56.000Z",
-      "contentHash": "37ace0c99235"
-    },
-    {
-      "id": "9b4935931587",
-      "title": "Allbirds announced a switch from shoes to AI and its stock jumped 600 percent",
-      "url": "https://www.theverge.com/news/912484/allbirds-ai-hyperscale",
-      "summary": "Allbirdsは靴事業が不振で店舗を閉鎖し、社名・資産を3900万ドルで売却したが、CEOは匿名投資家から5000万ドルを調達してNewBird AIをGPUaaS・AIクラウド事業に転換すると発表、株価は600％急騰した。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-15T16:13:30.000Z",
-      "contentHash": "3d8a0274c70b"
-    },
-    {
-      "id": "6ec3dd100527",
-      "title": "The Gemini app is now on Mac",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
-      "summary": "GoogleのAI「Gemini」アプリがmacOS 15以上でネイティブ対応。gemini.google/macから無料で入手可能。Option＋Spaceで画面共有しローカルファイルの要約や画像・動画生成などのAI支援を手軽に利用できる。生成AIは実験的。",
-      "source": "Gemini",
-      "publishedAt": "2026-04-15T16:00:00.000Z",
-      "contentHash": "5aea27d98886"
     }
   ]
 }
