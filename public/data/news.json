@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2026-05-08T03:51:34.783Z",
+  "generatedAt": "2026-05-08T10:07:47.059Z",
   "items": [
+    {
+      "id": "62bc0e69b3a4",
+      "title": "Sony&#8217;s PS5 sales plummet amid price rises and a memory crisis",
+      "url": "https://www.theverge.com/news/926609/sonys-ps5-sales-plummet-memory-costs-price-hikes",
+      "summary": "ソニーの最新四半期のPS5販売は前年同期比46%減の150万台。価格を499.99→649.99ドルに2度引上げ、メモリ不足や経済・中東情勢を理由に挙げ、年間ゲーム売上を6%減と予想。今後は調達可能なメモリ量で販売を左右。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-08T09:15:54.000Z",
+      "contentHash": "6975387a4a0e"
+    },
+    {
+      "id": "45784cc6e4c1",
+      "title": "App Service 上で実行中のアプリのコンソールログ確認方法 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/718ab45cffcb5e",
+      "summary": "App Serviceのコンソールログは、診断設定で「App Service Console Logs」とLog Analytics送信を有効化して取得。ポータルの[監視]→[ログ]→[テーブル]→AppServiceConsoleLogsで確認。例KQL：AppServiceConsoleLogs | where TimeGenerated > ago(30m) | where ResultDescription contains \"START\"",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-08T09:08:30.000Z",
+      "contentHash": "e04215722f32"
+    },
+    {
+      "id": "c2fbf2eeed7c",
+      "title": "MAAS 環境における Cluster API 導入ガイド | MicroAd Developers Blog",
+      "url": "https://developers.microad.co.jp/entry/2026/05/08/180000",
+      "summary": "MAAS環境でCluster APIを使ってKubernetesクラスタを宣言的に構築・管理する手順書。Image作成→MAAS登録→kindでManagement Cluster作成→Cluster API資源作成→Control‑plane/Worker作成、セルフホスト化（pivot）やバージョンアップ手順も解説。対象はK8s／MAAS運用者。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-08T09:00:00.000Z",
+      "contentHash": "96fa539de08b"
+    },
+    {
+      "id": "135bc23e5582",
+      "title": "custom_lint、卒業します。〜Flutter独自lint13本をDart Analyzer Pluginに完全移植した話〜 | YOUTRUST Tech Blog",
+      "url": "https://tech.youtrust.co.jp/entry/analyzer-plugins",
+      "summary": "Flutter向けの独自カスタムlint13本をDart Analyzer Pluginへ完全移植し、custom_lintを卒業した経緯と利点を解説。Analyzer統合で開発効率やチーム運用、パフォーマンスが向上した話。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-08T08:50:11.000Z",
+      "contentHash": "acf429d33799"
+    },
+    {
+      "id": "3aaec58852b2",
+      "title": "【GCN’26 New】Agent Development Kit  (ADK) 2.0 を試してみる。 | TechHarmony",
+      "url": "https://blog.usize-tech.com/adk-2-0-overview/",
+      "summary": "Googleのオープンソース多エージェント開発キットADKが2.0へ進化。グラフベースWorkflow、コーディネーター＋サブエージェントの協調動作、動的ワークフローで制御性と予測性を強化し、Workflow APIで実用的なマルチエージェントパイプラインを検証しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-08T08:39:21.000Z",
+      "contentHash": "b91195497cc4"
+    },
+    {
+      "id": "4b5fd77d1545",
+      "title": "プロダクトバックログを一列に並べたらシンプルになった | Social PLUS Tech Blogのフィード",
+      "url": "https://zenn.dev/socialplus/articles/ordered-product-backlog",
+      "summary": "9段階のステータスで管理が煩雑だったプロダクトバックログを、スクラムガイドに沿って全アイテムを優先順に一列で並べるだけに簡素化。優先度や割り込み対応が明確になり運用が容易になった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-08T08:37:53.000Z",
+      "contentHash": "eeac23702cfc"
+    },
+    {
+      "id": "78bfd940889a",
+      "title": "デジタル基盤停止のリスクを極小化する——SCSKが選ぶ高可用性クラスターの価値 | TechHarmony",
+      "url": "https://blog.usize-tech.com/lifekeeper-scsk-recommended-ha-cluster/",
+      "summary": "DXでIT依存が高まる中、SCSKは実績あるサイオステクノロジーのLifeKeeperと協業。ハイブリッド・マルチクラウド対応で既存投資を活かしつつ可用性を高め、停止リスクを極小化して事業継続を支える投資の重要性を提示。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-08T08:34:35.000Z",
+      "contentHash": "6f8fc8ba0dd7"
+    },
+    {
+      "id": "83dbbbe0142a",
+      "title": "Nintendo is raising Switch 2 prices",
+      "url": "https://www.theverge.com/games/926606/nintendo-switch-2-price-hikes-earnings-results",
+      "summary": "任天堂は市場環境の変化を理由にSwitch 2などを値上げ。米国は9月1日から$449.99→$499.99、欧州・カナダも値上げ。日本は5月25日から各機種やオンライン料金も大幅値上げし、来年度の販売減を見込む。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-08T08:33:24.000Z",
+      "contentHash": "cfcd38baabd4"
+    },
+    {
+      "id": "94f263b8a908",
+      "title": "Tailwind CSS v4 で知っておきたい隠れた便利技16種を公開します（翻訳） | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_05_08/157793",
+      "summary": "Tailwind CSS v4の隠れた便利技16選を翻訳紹介。チェックボックス色（accent-*）、peer修飾子で隣接要素制御、file:でファイル入力装飾、色の不透明度変更などを解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-08T08:30:35.000Z",
+      "contentHash": "e65766e3df4d"
+    },
+    {
+      "id": "5be99142e7bf",
+      "title": "Lambda × S3 Files で構成するステートフルなデータ前処理パイプライン | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/05/08/165952",
+      "summary": "Amazon S3 FilesがGA化しLambda対応。NFSベースで複数Lambdaが同時マウント可能になり、大容量マスターや中間成果物の共有が容易に。ファイルとS3オブジェクトを同期管理し、並列前処理の状態管理が簡素化される。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-08T07:59:52.000Z",
+      "contentHash": "2baf56224499"
+    },
     {
       "id": "6187f74315e4",
       "title": "AI に「リポジトリの地図」を渡す — マルチレポを束ねるセントラルリポジトリ設計 | 株式会社ログラス テックブログのフィード",
@@ -95,19 +185,19 @@
       "id": "3a18c3d48ddc",
       "title": "Codex Chrome extension の概要",
       "url": "https://note.com/npaka/n/n8de1c3acd145",
-      "summary": "Codex Chrome拡張は、ログイン済みのChrome上でCodexがLinkedIn/Gmail/Salesforce等を読み操作できる機能です。Pluginsから接続設定し、サイトごとに許可・拒否や許可/ブロックリストを管理できます。導入時は強いChrome権限が求められます。",
+      "summary": "OpenAIのCodex Chrome拡張は、ログイン済みChrome上でLinkedIn・Gmail・Salesforceなどを読み取り・操作できる機能。Pluginsから接続・権限付与し、サイト単位で一時許可・常時許可・拒否を設定可能。強いブラウザ権限を要求するが、確認や許可・ブロックリストで制御される。",
       "source": "npaka",
       "publishedAt": "2026-05-07T22:47:49.000Z",
-      "contentHash": "4e02451b1912"
+      "contentHash": "42c281588560"
     },
     {
       "id": "8d2b7ead8341",
       "title": "GPT-Realtime-2 ・ GPT-Realtime-Translate ・ GPT-Realtime-Whisper の概要",
       "url": "https://note.com/npaka/n/nade0d8498e64",
-      "summary": "OpenAIがAPIで3つの新音声モデルを発表。GPT‑Realtime‑2はGPT‑5級の推論・長大コンテキスト・ツール連携・トーン制御を備えたリアルタイム対話用、GPT‑Realtime‑Translateは70超の入力言語→13出力言語のリアルタイム翻訳、GPT‑Realtime‑Whisperは低遅延のストリーミング文字起こし。音声を理解・推論・行動できるインターフェースへ進化します。",
+      "summary": "OpenAIが3つの新音声モデルを発表。GPT-Realtime-2は高精度なリアルタイム対話（推論・ツール呼び出し・長文コンテキスト対応）、GPT-Realtime-Translateは70以上の入力言語を即時翻訳、GPT-Realtime-Whisperは低遅延のストリーミング文字起こしで、音声で意図理解し行動するインターフェースを強化します。",
       "source": "npaka",
       "publishedAt": "2026-05-07T21:45:17.000Z",
-      "contentHash": "1d7c88c7c9d2"
+      "contentHash": "0bf3d2b1a3cb"
     },
     {
       "id": "bbfe7c8eee50",
@@ -365,10 +455,10 @@
       "id": "6c86f5fec788",
       "title": "Claude Managed Agents を試す",
       "url": "https://note.com/npaka/n/n190b39339bf9",
-      "summary": "Claude Managed AgentsはAnthropicのマネージド基盤で、Claudeを自律エージェントとして動かせます。ファイル操作、コマンド実行、Web検索や安全なコード実行が可能。Agent/Environment/Session/Eventsで構成され、課金はモデルのトークン料＋セッション稼働時間($0.08/時)。APIキーとAnthropic SDKの導入でセットアップし、複数ステップや長時間タスク向けです。",
+      "summary": "Claude Managed AgentsはAnthropicのマネージド基盤で、Claudeを自律エージェント化しコード実行・ファイル操作・Web検索などの複数ステップ作業を実行可能。構成はAgent/Environment/Session/Events。料金は通常のトークン料に加えセッション実行料($0.08/時)。導入はAPIキー設定、仮想環境作成、anthropic SDKのインストール等。",
       "source": "npaka",
       "publishedAt": "2026-05-07T08:32:58.000Z",
-      "contentHash": "f9446e8aad90"
+      "contentHash": "130bdd8db8ac"
     },
     {
       "id": "eb86a772af0b",
@@ -644,10 +734,10 @@
       "id": "ee647ff34d77",
       "title": "Claude Managed Agents の新機能まとめ - Dreaming ・ Outcomes ・ Multiagent orchestration ・ Webhooks",
       "url": "https://note.com/npaka/n/n800e489e1be9",
-      "summary": "Anthropicは2026年5月6日、Claude Managed Agentsに研究プレビューのDreamingとOutcomes、Multiagent orchestration、Webhooksを追加。Dreamingは過去セッションを整理し記憶を最適化、Outcomesは成果基準と評価ループを設定、Multiagentは役割分担による並列処理、Webhooksは状態通知で監視を簡素化。",
+      "summary": "AnthropicはClaude Managed Agentsに新機能を追加：過去セッションを振り返りメモを整理するDreaming（研究プレビュー）、成果基準で評価・修正するOutcomes、役割分担で並列処理するMultiagent orchestration、状態通知のWebhooksを提供。",
       "source": "npaka",
       "publishedAt": "2026-05-06T23:00:10.000Z",
-      "contentHash": "dc69d874f39c"
+      "contentHash": "3611fc43c4e8"
     },
     {
       "id": "ef3e61de4219",
@@ -1058,10 +1148,10 @@
       "id": "71c94ca6ca21",
       "title": "Gemma 4 MTP Drafters の概要",
       "url": "https://note.com/npaka/n/n7e64b803037c",
-      "summary": "Gemma 4向けMTP（Multi‑Token Prediction）Draftersは、軽量ドラフトモデルで複数トークンを投機的に予測しGemma 4が並列検証する方式で、品質を保ちながら最大約3倍の推論高速化を実現。ローカル/エッジでの応答性向上やKVキャッシュ共有などの最適化も含む。",
+      "summary": "Gemma 4向けMTP Draftersが登場。軽量ドラフトモデルで複数トークンを先予測し、重いGemma 4が並列検証する投機的デコーディングで品質を保ちながら最大約3倍高速化。応答性改善、オンデバイス実行、KVキャッシュ共有やハードウェア最適化により実運用向けに最適化。",
       "source": "npaka",
       "publishedAt": "2026-05-05T22:58:06.000Z",
-      "contentHash": "9a810aac8054"
+      "contentHash": "92290287ade9"
     },
     {
       "id": "d5c1c1407409",
@@ -1499,10 +1589,10 @@
       "id": "4fa573234660",
       "title": "Codex App Server の概要",
       "url": "https://note.com/npaka/n/n075114596672",
-      "summary": "Codex App Serverは、Codexハーネス（エージェントループ・会話管理・ツール実行等）と各クライアントを繋ぐ双方向JSON-RPC風プロトコル。stdioのJSONLで通信し、リーダー・メッセージ処理・スレッド管理・コア実行の4構成で進捗や差分出力を扱い、ハーネスの再利用と統合を容易にする。",
+      "summary": "Codex App Serverは、Codexハーネスとクライアントをつなぐ双方向JSON-RPC風プロトコル（stdioのJSONL）で、会話管理・ツール実行・進捗や差分表示を提供。stdioリーダー・メッセージ処理・スレッド管理・coreスレッドの4構成でCLIやIDE統合を容易にする。",
       "source": "npaka",
       "publishedAt": "2026-05-04T23:15:33.000Z",
-      "contentHash": "a58e880bda50"
+      "contentHash": "460f5b8c488e"
     },
     {
       "id": "51fb4a570124",
@@ -8910,96 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-17T18:43:32.000Z",
       "contentHash": "03f7b28853aa"
-    },
-    {
-      "id": "a5a81c0d69a6",
-      "title": "All 12 moonwalkers had \"lunar hay fever\" from dust smelling like gunpowder (2018)",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon",
-      "summary": "アポロ飛行士は月の細かく鋭利な塵で目や喉を痛め「月の花粉症」を経験。塵はシリケート含有で磨耗・封止破壊を起こし、微粒子は肺に長く留まり健康リスクが懸念される。ESAが毒性評価研究を進める。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-17T18:17:01.000Z",
-      "contentHash": "0587e4782f9a"
-    },
-    {
-      "id": "94754e16a452",
-      "title": "Betting on the news raises ethical questions for journalists",
-      "url": "https://www.theverge.com/report/914157/prediction-markets-news-outlet-ethics-policy-propublica-kalshi-polymarket",
-      "summary": "PolymarketやKalshiなどの予測市場が、音楽や天候、弾劾などあらゆる事象を賭けの対象にし暴力的な結果も扱う中、業界は「世論調査より精度が高い」と主張。新聞社は提携する一方で職員の利用を禁止するなど、報道の倫理や情報の商品化に関する問題が浮上している。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-17T18:07:43.000Z",
-      "contentHash": "7de786935a82"
-    },
-    {
-      "id": "794d43bcc87f",
-      "title": "This charming gadget writes bad AI poetry",
-      "url": "https://www.theverge.com/gadgets/913981/poetry-camera-ai-hands-on",
-      "summary": "Poetry Cameraは撮影画像をWi‑Fiでクラウドへ送り、AIが約30秒で感熱紙に詩を印刷するかわいいローファイ風カメラ。画面は無く操作は簡素だが、著者は詩の出来に魅力よりももどかしさを感じた。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-17T17:30:00.000Z",
-      "contentHash": "091034bc3f5a"
-    },
-    {
-      "id": "7788e5c23113",
-      "title": "Show HN: Smol machines – subsecond coldstart, portable virtual machines",
-      "url": "https://github.com/smol-machines/smolvm",
-      "summary": "smolvmはデフォルトで隔離された軽量VMをCLIで管理・実行するツール。サブ秒起動、macOS/Linux対応、メモリ弾性、状態を単一ファイル(.smolmachine)化。ネットは初期オフで許可ホストのみ接続可。一時VM・永続VM・自己完結バイナリ作成が可能でサンドボックスに最適。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-17T17:18:58.000Z",
-      "contentHash": "a5b3dc8c8817"
-    },
-    {
-      "id": "eab1215d78a7",
-      "title": "Show HN: PanicLock – Close your MacBook lid disable TouchID –> password unlock",
-      "url": "https://github.com/paniclock/paniclock/",
-      "summary": "PanicLockはmacOS用メニューバー常駐ツールで、ワンクリック・ホットキー・蓋閉じで即座にTouch IDを無効化して画面をロック。パスワードのみで復帰し設定は解除後自動復元。macOS 14以上・Touch ID搭載Mac対応。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-17T16:38:44.000Z",
-      "contentHash": "fcbfb23820dd"
-    },
-    {
-      "id": "c96da3c3963a",
-      "title": "Hyperscalers have already outspent most famous US megaprojects",
-      "url": "https://twitter.com/finmoorhouse/status/2044933442236776794",
-      "summary": "申し訳ありませんが外部リンクを直接開けません。ツイート本文か要点（またはHNコメントの抜粋）を貼っていただければ、200文字以内で日本語要約します。どちらを要約しますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-17T16:23:22.000Z",
-      "contentHash": "df52fa5118ba"
-    },
-    {
-      "id": "4bb84a185b41",
-      "title": "Spending 3 months coding by hand",
-      "url": "https://miguelconner.substack.com/p/im-coding-by-hand",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文を貼り付けていただければ、200文字以内で日本語要約します。HNコメントも要約希望なら一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-17T16:19:53.000Z",
-      "contentHash": "55d38c6ce5c6"
-    },
-    {
-      "id": "a2f63c8b3404",
-      "title": "Our new favorite budget phones",
-      "url": "https://www.theverge.com/tech/912286/our-new-favorite-budget-phones",
-      "summary": "各社が手頃価格帯を刷新したためThe Vergeが格安スマホを再評価。おすすめはiPhone 17E。16EからMagSafeを搭載し、フラグシップと同じA19で高性能、価格は約599〜600ドル。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-17T15:58:07.000Z",
-      "contentHash": "0bb2df40270f"
-    },
-    {
-      "id": "6ce4d505a504",
-      "title": "The best budget smartphones you can buy",
-      "url": "https://www.theverge.com/gadgets/912271/best-budget-smartphones-cheap-iphone-android-phones",
-      "summary": "600ドル以下の「予算スマホ」でも、iPhoneや120Hz表示、耐水など高機能な機種が手に入り、余計な高額投資を避けつつ実用的に使えると解説しています。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-17T15:55:00.000Z",
-      "contentHash": "65947bad45f7"
-    },
-    {
-      "id": "23f5a12f9472",
-      "title": "NASA Force",
-      "url": "https://nasaforce.gov/",
-      "summary": "NASAと米国人事管理局(OPM)が共同で始めた採用施策「NASA Force」は、1～2年の任期で早中堅の技術者を少数募集。有人宇宙・航空・科学ミッションの実務に参加し、技術力を磨く。募集は限定枠で4日間のみ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-17T15:47:41.000Z",
-      "contentHash": "ad471b698bbb"
     }
   ]
 }
