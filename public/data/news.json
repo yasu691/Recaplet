@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-05-09T17:23:45.043Z",
+  "generatedAt": "2026-05-10T03:51:38.279Z",
   "items": [
+    {
+      "id": "f23bc8e99f97",
+      "title": "France moves to break encrypted messaging",
+      "url": "https://reclaimthenet.org/france-moves-to-break-encrypted-messaging",
+      "summary": "Braveが機能を絞った新オプション「Brave Now」を投入。作りはまとまっているが、利用の価値はユーザーがどれだけプライバシーを重視するか次第、という内容。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-09T22:14:35.000Z",
+      "contentHash": "87d799ff5aa4"
+    },
+    {
+      "id": "4cd0c0295d18",
+      "title": "Getting arrested in Japan",
+      "url": "https://sundaicity.com/blogs/getting-arrested-in-japan",
+      "summary": "日本は治安が良いが厳格で、些細なトラブルでも逮捕され得る。逮捕後は警察の留置場に入り、初期処理約3日＋10日＋さらに10日延長で最大23日拘留。別件で延長や数ヶ月の拘束もあり、起訴前の一時収容施設だ。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-09T21:56:19.000Z",
+      "contentHash": "0609c5f5ddd0"
+    },
+    {
+      "id": "8fe30e4b9d2c",
+      "title": "Local privilege escalation via execve()",
+      "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc",
+      "summary": "申し訳ありませんが、こちらでは外部サイトに直接アクセスできません。記事本文（または重要箇所）を貼り付けていただければ、200文字以内の日本語で要約します。コメント欄も要約希望なら教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-09T20:31:21.000Z",
+      "contentHash": "e7e1c6ad83a3"
+    },
+    {
+      "id": "458cf02000d8",
+      "title": "Meta's embrace of A.I. is making its employees miserable",
+      "url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+      "summary": "NYT記事: MetaのAI部門で従業員の士気低下が深刻。過酷な労働、過剰な目標、頻繁な方針変更や解雇リスク、競争圧力が重なり、混乱と生産性低下を招いている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-09T18:33:36.000Z",
+      "contentHash": "f0fda556434c"
+    },
+    {
+      "id": "35dcb8af3eed",
+      "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
+      "url": "https://github.com/nooga/let-go",
+      "summary": "let-goはGo製のClojure系バイトコードコンパイラ兼VM。約10MBの単一実行ファイルで6–7ms起動、AOTやWASM出力、core.async/HTTP/JSON/nREPL等を同梱。Go相互運用や広範なClojure互換を目指すが完全置換は目的外。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-09T17:52:13.000Z",
+      "contentHash": "302ebaaea08b"
+    },
+    {
+      "id": "5ea61e1122d7",
+      "title": "Zed Editor Theme-Builder",
+      "url": "https://zed.dev/theme-builder",
+      "summary": "ZedのTheme Builderはデスクトップ限定で、テーマ拡張を閲覧可能。画面はカラートークンやテーマ編集機能を表示。添付のReact/TypeScriptの例では未使用プロパティ、型不一致、引数名の綴り間違いなどの警告が示されている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-09T17:30:39.000Z",
+      "contentHash": "5677a85c605b"
+    },
+    {
+      "id": "f1014e96e10f",
+      "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
+      "url": "https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/",
+      "summary": "cPanel/WHM向け：2026年5月8日、cPanelが緊急パッチ（CVE-2026-29201/29202/29203）を公開。うち2件はCVSS8.8。先のCVE-2026-41940で4.4万台被害の直後の2回目TSRで、監査により任意ファイル読み取りなど深刻な脆弱性が追加発見された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-09T17:06:46.000Z",
+      "contentHash": "7e45d9624805"
+    },
+    {
+      "id": "8be270ca5f04",
+      "title": "I’ve banned query strings",
+      "url": "https://chrismorgan.info/no-query-strings",
+      "summary": "静的資産にクエリ文字列を付けると一部CDNやプロキシがキャッシュしないため性能が低下する。代替としてコンテンツハッシュ入りファイル名でバージョン管理し、長いTTLと適切なCache‑Controlを設定するのが推奨。HNではCDN設定やビルド運用、Service Workerなどの議論が交わされた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-09T16:28:36.000Z",
+      "contentHash": "1d78c225c1d4"
+    },
     {
       "id": "20ce01179267",
       "title": "Dyson’s powerful 360 Vis Nav robovac is down to $279.99 for a limited time",
@@ -9,6 +81,24 @@
       "source": "The Verge",
       "publishedAt": "2026-05-09T16:00:00.000Z",
       "contentHash": "995dd7be6a4e"
+    },
+    {
+      "id": "38888ef2f7f6",
+      "title": "Distributing Mac software is increasing my cortisol levels",
+      "url": "https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels",
+      "summary": "Claude Code管理用の小さなユーティリティを公開したが、Goで作った静的バイナリはLinux/Windowsは配布しやすい一方、macOSはGatekeeperの隔離で署名が必要。Appleの高額な年会費が小規模配布には負担で作者は困惑している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-09T14:40:58.000Z",
+      "contentHash": "750d82538c3d"
+    },
+    {
+      "id": "30f0c4714fa1",
+      "title": "GrapheneOS fixes Android VPN leak Google refused to patch",
+      "url": "https://cyberinsider.com/grapheneos-fixes-android-vpn-leak-google-refused-to-patch/",
+      "summary": "Googleが修正を拒否した問題をGrapheneOSが修正。Android 16のQUIC接続終了最適化を悪用し、アプリがsystem_server経由でVPNを迂回して実IPを漏洩させる脆弱性を、registerQuicConnectionClosePayload無効化で対処。研究者がPixel8で再現。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-09T14:11:10.000Z",
+      "contentHash": "2e3bdc8cb244"
     },
     {
       "id": "1252aef1541e",
@@ -68,19 +158,19 @@
       "id": "74a462a12af2",
       "title": "Claude Code 恒久2倍 vs Codex 5月限定プロモ - 上限引き上げ比較 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/2026/05/09/190000",
-      "summary": "AnthropicのClaude Codeは2026/5/6に5時間ウィンドウ上限を恒久的に2倍化し、Pro/Maxのピーク時間制限を撤廃（SpaceX契約で裏付け）。OpenAIのCodexは〜5/31までPro $100/$200のレートを期間限定で大幅引き上げ（Pro $100は約10倍、Pro $200は5時間で約25倍相当）。",
+      "summary": "サーバーワークスの池田によると、2026年5月にAnthropicのClaude CodeとOpenAIのCodexがトークン上限を引き上げた。Claudeは5時間レートを2倍化しピーク制限を撤廃（恒久、SpaceX契約裏付け）。Codexは5月31日までProのレートを期間限定で引き上げ（新プラン記念・既存ユーザー向け）。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-09T10:00:00.000Z",
-      "contentHash": "24c7a4b866aa"
+      "contentHash": "6c18623ae888"
     },
     {
       "id": "b5a372213c2d",
       "title": "Kiro Web が公開されたので、コーポレートサイトを勝手にこそっとリデザインしてもらった | ForgeVision Engineer Blog",
       "url": "https://techblog.forgevision.com/entry/kiro/kiro-web",
-      "summary": "Kiro Webがプレビュー公開。ブラウザ上のチャット型開発エージェントで、GitHub連携によりコード作成からPR作成まで自動化。Pro系プラン限定。対話／自律モードがあり自律モードは高い自立性。セッションはサンドボックス化、Steeringファイル対応、MCPやリージョンに制限あり。",
+      "summary": "AWSグループの尾谷です。今週Kiro Webがプレビュー公開され、Kiro Pro / Pro+ / Powerプランで利用可能になったため、会社のホームページを無断でリデザインしてもらいました。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-09T09:58:44.000Z",
-      "contentHash": "0b5abbdf5d76"
+      "contentHash": "a05080453948"
     },
     {
       "id": "8c8c38bfca22",
@@ -374,10 +464,10 @@
       "id": "1db7ea4a99ab",
       "title": "MacでWordをPDFに変換する方法 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/ecaa35a259166b",
-      "summary": "MacでWordをPDFに変換する方法: Wordファイルを開き、「名前を付けて保存」でファイル名を入力、ファイル形式をPDFに選択して「エクスポート」をクリック。",
+      "summary": "執筆日2026/5/8。Wordファイルを開き、「名前を付けて保存」を選択してファイル名を入力、ファイル形式で「PDF」を選び、「エクスポート」をクリックしてPDFとして保存する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-08T10:50:05.000Z",
-      "contentHash": "1228502c7d00"
+      "contentHash": "2f0f7250125b"
     },
     {
       "id": "90bf880928c1",
@@ -401,55 +491,55 @@
       "id": "45784cc6e4c1",
       "title": "App Service 上で実行中のアプリのコンソールログ確認方法 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/718ab45cffcb5e",
-      "summary": "App Serviceのコンソールログは、診断設定で「App Service Console Logs」とLog Analytics送信を有効化して取得。ポータルの[監視]→[ログ]→[テーブル]→AppServiceConsoleLogsで確認。例KQL：AppServiceConsoleLogs | where TimeGenerated > ago(30m) | where ResultDescription contains \"START\"",
+      "summary": "App Serviceでコンソールログを取得するには、診断設定でApp Service Console Logsを有効化しLog Analytics送信をオンにする。ポータル: App Service→監視→診断設定追加。ログはAppServiceConsoleLogsテーブルでKQLモードのクエリ（例: 直近30分の\"START\"含むログ）で検索する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-08T09:08:30.000Z",
-      "contentHash": "e04215722f32"
+      "contentHash": "048ef96e1d75"
     },
     {
       "id": "c2fbf2eeed7c",
       "title": "MAAS 環境における Cluster API 導入ガイド | MicroAd Developers Blog",
       "url": "https://developers.microad.co.jp/entry/2026/05/08/180000",
-      "summary": "MAAS環境でCluster APIを使ってKubernetesクラスタを宣言的に構築・管理する手順書。Image作成→MAAS登録→kindでManagement Cluster作成→Cluster API資源作成→Control‑plane/Worker作成、セルフホスト化（pivot）やバージョンアップ手順も解説。対象はK8s／MAAS運用者。",
+      "summary": "マイクロアドのプラットフォームエンジニア齊藤が、RancherでのKubernetesクラスタライフサイクル管理と、Rancher内部で使われるCluster APIを用いたクラスタ構築・管理方法を MAAS 環境で再現する手順として紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-08T09:00:00.000Z",
-      "contentHash": "96fa539de08b"
+      "contentHash": "ae5a4d1396fa"
     },
     {
       "id": "135bc23e5582",
       "title": "custom_lint、卒業します。〜Flutter独自lint13本をDart Analyzer Pluginに完全移植した話〜 | YOUTRUST Tech Blog",
       "url": "https://tech.youtrust.co.jp/entry/analyzer-plugins",
-      "summary": "Flutter向けの独自カスタムlint13本をDart Analyzer Pluginへ完全移植し、custom_lintを卒業した経緯と利点を解説。Analyzer統合で開発効率やチーム運用、パフォーマンスが向上した話。",
+      "summary": "YOUTRUSTのルーカスが、Flutterアプリで使う13個の独自lintルールを、これまで暮らしていたサードパーティのcustom_lintパッケージから別の「国」へ移した話。custom_lintはDart標準を補う独自ルール作成フレームワーク。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-08T08:50:11.000Z",
-      "contentHash": "acf429d33799"
+      "contentHash": "a68fb6a10e23"
     },
     {
       "id": "3aaec58852b2",
       "title": "【GCN’26 New】Agent Development Kit  (ADK) 2.0 を試してみる。 | TechHarmony",
       "url": "https://blog.usize-tech.com/adk-2-0-overview/",
-      "summary": "Googleのオープンソース多エージェント開発キットADKが2.0へ進化。グラフベースWorkflow、コーディネーター＋サブエージェントの協調動作、動的ワークフローで制御性と予測性を強化し、Workflow APIで実用的なマルチエージェントパイプラインを検証しました。",
+      "summary": "途中で切れており全文がありません。全文を貼っていただけますか？200文字以内で要約して差し上げます。もし要点だけでよければ、ADK 2.0の概要（高度なエージェント開発、統合ツール、拡張性など）を要約することも可能です。どちらがよいですか？",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-08T08:39:21.000Z",
-      "contentHash": "b91195497cc4"
+      "contentHash": "ee8c15910db4"
     },
     {
       "id": "4b5fd77d1545",
       "title": "プロダクトバックログを一列に並べたらシンプルになった | Social PLUS Tech Blogのフィード",
       "url": "https://zenn.dev/socialplus/articles/ordered-product-backlog",
-      "summary": "9段階のステータスで管理が煩雑だったプロダクトバックログを、スクラムガイドに沿って全アイテムを優先順に一列で並べるだけに簡素化。優先度や割り込み対応が明確になり運用が容易になった。",
+      "summary": "プロダクトバックログが複雑で分かりにくい問題を改善しました。改善前はDraft、UI required、Backlog、Waiting for refinement、In refining、Refined、Ready、In progressなど計9つのステータスが順に進む設計で混乱していたため、整理・簡素化して運用を分かりやすくしました。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-08T08:37:53.000Z",
-      "contentHash": "eeac23702cfc"
+      "contentHash": "2c30cf637743"
     },
     {
       "id": "78bfd940889a",
       "title": "デジタル基盤停止のリスクを極小化する——SCSKが選ぶ高可用性クラスターの価値 | TechHarmony",
       "url": "https://blog.usize-tech.com/lifekeeper-scsk-recommended-ha-cluster/",
-      "summary": "DXでIT依存が高まる中、SCSKは実績あるサイオステクノロジーのLifeKeeperと協業。ハイブリッド・マルチクラウド対応で既存投資を活かしつつ可用性を高め、停止リスクを極小化して事業継続を支える投資の重要性を提示。",
+      "summary": "ＳＣＳＫの池田氏が、経営層や高可用性クラスター選定担当者向けに、デジタル化とDX投資の加速に伴い企業基幹系を支える高可用性クラスターの重要性を説く記事です。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-08T08:34:35.000Z",
-      "contentHash": "6f8fc8ba0dd7"
+      "contentHash": "f9d8f33667fc"
     },
     {
       "id": "83dbbbe0142a",
@@ -599,19 +689,19 @@
       "id": "3a18c3d48ddc",
       "title": "Codex Chrome extension の概要",
       "url": "https://note.com/npaka/n/n8de1c3acd145",
-      "summary": "Codex Chrome extensionは、ログイン済みのChromeを使ってLinkedIn・Salesforce・Gmail等のサイトを読み取り／操作できる拡張機能。Pluginsから接続して@Chromeで起動。ドメイン単位の許可/拒否や許可リストで制御できるが、強いブラウザ権限を要求する点に注意。",
+      "summary": "Codex Chrome extensionは、ログイン済みのChrome上のWebサイトをCodexが読み取り・操作できる拡張機能です。Salesforce/Gmail/LinkedIn等で作業可能。Pluginsから接続し、ホスト単位で許可・常時許可・拒否を設定でき、強力なブラウザ権限を要求します。",
       "source": "npaka",
       "publishedAt": "2026-05-07T22:47:49.000Z",
-      "contentHash": "527e094992d1"
+      "contentHash": "ff5f59569ff6"
     },
     {
       "id": "8d2b7ead8341",
       "title": "GPT-Realtime-2 ・ GPT-Realtime-Translate ・ GPT-Realtime-Whisper の概要",
       "url": "https://note.com/npaka/n/nade0d8498e64",
-      "summary": "OpenAIが3つの新音声モデルを公開。GPT‑Realtime‑2はGPT‑5級の推論でリアルタイム対話・ツール実行・128Kコンテキストやトーン制御、GPT‑Realtime‑Translateは70以上の入力言語から13言語へ同時翻訳、GPT‑Realtime‑Whisperは低遅延のストリーミング文字起こしを提供し、音声を理解・推論・翻訳・行動するインターフェースを実現する。",
+      "summary": "OpenAIがAPIにGPT-Realtime-2、GPT-Realtime-Translate、GPT-Realtime-Whisperを追加。リアルタイム推論とツール連携、長文コンテキスト拡張、70言語超の即時翻訳、低遅延文字起こしで音声インターフェースを高度化。",
       "source": "npaka",
       "publishedAt": "2026-05-07T21:45:17.000Z",
-      "contentHash": "e20a63593224"
+      "contentHash": "5fe21399be14"
     },
     {
       "id": "bbfe7c8eee50",
@@ -869,10 +959,10 @@
       "id": "6c86f5fec788",
       "title": "Claude Managed Agents を試す",
       "url": "https://note.com/npaka/n/n190b39339bf9",
-      "summary": "AnthropicのClaude Managed Agentsを試用。Claudeをマネージド環境で自律動作させ、ファイル編集・コマンド実行・Web調査・安全なコード実行などの複数ステップ作業向け。構成はAgent/Environment/Session/Events。課金は通常のトークン料＋稼働時間($0.08/セッション時間)。APIキー設定とSDK導入で利用開始。",
+      "summary": "Claude Managed AgentsはAnthropicのマネージド基盤で、Claudeを自律エージェントとしてファイル編集・コード実行・Web調査などの複数ステップ作業を実行。構成はAgent/Environment/Session/Events。課金はモデルのトークン料＋セッション実行時間($0.08/時)。導入はAPIキー設定やSDKインストールなど。",
       "source": "npaka",
       "publishedAt": "2026-05-07T08:32:58.000Z",
-      "contentHash": "3021daab2cde"
+      "contentHash": "e460bb9d9375"
     },
     {
       "id": "eb86a772af0b",
@@ -1148,10 +1238,10 @@
       "id": "ee647ff34d77",
       "title": "Claude Managed Agents の新機能まとめ - Dreaming ・ Outcomes ・ Multiagent orchestration ・ Webhooks",
       "url": "https://note.com/npaka/n/n800e489e1be9",
-      "summary": "AnthropicはClaude Managed Agentsに新機能を追加：Dreaming（過去セッションを振り返りメモを整理）、Outcomes（成果物の評価基準化と自動フィードバック）、Multiagent orchestration（役割分担で並列処理）、Webhooks（状態通知でポーリング不要）。",
+      "summary": "Anthropicは2026年5月6日、Claude Managed Agentsの新機能を発表。過去セッションからメモを整理するDreaming（研究プレビュー）、成果基準で評価・再試行するOutcomes、役割分担で並列処理するMultiagent orchestration、状態通知のWebhooksを提供。",
       "source": "npaka",
       "publishedAt": "2026-05-06T23:00:10.000Z",
-      "contentHash": "e0157548bfe1"
+      "contentHash": "20b8871721cc"
     },
     {
       "id": "ef3e61de4219",
@@ -1553,10 +1643,10 @@
       "id": "dd1c5a389f84",
       "title": "GPT‑5.5 Instant の概要",
       "url": "https://note.com/npaka/n/nf19bb3ea10d5",
-      "summary": "GPT-5.5 InstantがChatGPTの新デフォルトに。事実誤認が大幅減少し画像・STEM対応や自然で簡潔な応答が向上。過去チャットやファイル/Gmailを使った個別化と「メモリ資源」機能を導入し、順次全ユーザー・APIへ展開。",
+      "summary": "GPT‑5.5 InstantをChatGPTのデフォルトに順次導入。事実精度・視覚推論・STEM能力が向上し応答はより簡潔に。過去チャットやファイル/Gmailでパーソナライズし、「メモリソース」で透明性を提供。API・各プランへ段階展開。",
       "source": "npaka",
       "publishedAt": "2026-05-05T23:15:08.000Z",
-      "contentHash": "5b5724f0322c"
+      "contentHash": "c6d4805df8b7"
     },
     {
       "id": "71c94ca6ca21",
@@ -2003,10 +2093,10 @@
       "id": "4fa573234660",
       "title": "Codex App Server の概要",
       "url": "https://note.com/npaka/n/n075114596672",
-      "summary": "Codex App ServerはCodexハーネスを複数クライアントで再利用するための双方向JSON-RPC風プロトコルです。coreが会話・認証・ツール実行等を管理し、stdioリーダー、メッセージプロセッサ、スレッドマネージャ、coreスレッドの4要素でリッチなUI連携を実現します。",
+      "summary": "OpenAIのCodexハーネスを複数クライアントで再利用するためのプロトコル兼サーバ。JSONLベースの双方向JSON-RPCでCodex coreと接続し、会話管理・認証・ツール実行・スレッド管理や進捗・差分表示などIDE統合に対応。",
       "source": "npaka",
       "publishedAt": "2026-05-04T23:15:33.000Z",
-      "contentHash": "96f55fb569cd"
+      "contentHash": "e0d12aee82da"
     },
     {
       "id": "51fb4a570124",
@@ -2102,10 +2192,10 @@
       "id": "728a4d52e0da",
       "title": "The latest AI news we announced in April 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
-      "summary": "4月のGoogle AIまとめ：Gemma 4やEnterprise Agent Platform、8世代チップ、無料のGoogle Vids、Deep Research Max、Colabの学習モードなど、研究・業務・教育・医療向けにAI機能を拡充。",
+      "summary": "記事本文が見当たりません。要約する本文またはURLを貼っていただけますか？貼っていただければ200文字以内で日本語要約を作成します。トーン（フォーマル／カジュアル）指定があれば教えてください。",
       "source": "Gemini",
       "publishedAt": "2026-05-04T17:00:00.000Z",
-      "contentHash": "36f361aa13a5"
+      "contentHash": "f54c18ea70d2"
     },
     {
       "id": "fd9f33d9676b",
@@ -2444,10 +2534,10 @@
       "id": "11cd193e0bdf",
       "title": "Codex CLI の /goal の概要",
       "url": "https://note.com/npaka/n/n15e84ee77f5a",
-      "summary": "Codex CLIの「/goal」はスレッド内で目標を保持して反復作業・検証を自動で回すコマンド。/goal <目標>、pause/resume/clearが使え、experimentalで設定が必要。完了条件を明確にし、差分やテストの確認を必須とする。",
+      "summary": "Codex CLIに/goalコマンドが追加。スレッドで目標を保持し、テスト→修正→検証の反復で達成を目指す。~/.codex/config.tomlで有効化。/goal <目標>、pause、resume、clearが使え、完了条件を明確にし差分や曖昧な指示に注意。",
       "source": "npaka",
       "publishedAt": "2026-05-03T14:13:51.000Z",
-      "contentHash": "d36ce1a42f53"
+      "contentHash": "5d8e79e41c8e"
     },
     {
       "id": "0d01c1c3bf9f",
@@ -4010,10 +4100,10 @@
       "id": "6a5f73f03ae7",
       "title": "You can now easily generate files in Gemini.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/",
-      "summary": "Geminiアプリはチャットで指示するだけで、PDF・.docx・.xlsx・Google Docs/Sheets/Slides・CSV・LaTeX・TXTなど多様な形式のファイルを生成して直接ダウンロードやDriveへエクスポート可能に。全ユーザー向け提供。",
+      "summary": "Geminiでは、1つのプロンプトでブレインストーミングから完成した文書・表計算シート・PDFへと仕上げられます。",
       "source": "Gemini",
       "publishedAt": "2026-04-29T16:00:00.000Z",
-      "contentHash": "b6b6e8a7afd5"
+      "contentHash": "549b08bfb02f"
     },
     {
       "id": "1115745e2b1c",
@@ -4082,10 +4172,10 @@
       "id": "f9a625348e8a",
       "title": "Enjoy new ways to create, search and stream on Google TV",
       "url": "https://blog.google/products-and-platforms/platforms/google-tv/enjoy-new-ways-to-create-search-and-stream-on-google-tv/",
-      "summary": "Google TVが新機能を導入。音声で画像や動画を生成（Gemini対応端末）、Googleフォトを検索・リミックスして動的フォトギャラリー化、夏にホーム画面へ短尺動画の行を追加。",
+      "summary": "Google TVが楽しい画像・動画を作るツールやGoogleフォトを見せる新表示機能を追加し、近く短尺動画を再生する新しい行（ショート動画）も導入予定です。",
       "source": "Gemini",
       "publishedAt": "2026-04-29T15:00:00.000Z",
-      "contentHash": "46274d0fe74d"
+      "contentHash": "decbd06513e9"
     },
     {
       "id": "6b8c46a3e355",
@@ -4991,10 +5081,10 @@
       "id": "20769b8fc97e",
       "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "summary": "GoogleとKaggleが無料の5日間「AI Agents Vibe Coding」コースを2026年6月15～19日に開催。自然言語によるvibe codingやツール/API連携、実践的な最終課題で実務向けAIエージェント開発を学べる。登録は公式サイトで受付中。",
+      "summary": "GoogleがKaggleと共催で、5日間のAIエージェント集中講座を再開。コースの登録受付が始まりました。",
       "source": "Gemini",
       "publishedAt": "2026-04-27T13:00:00.000Z",
-      "contentHash": "3b5321b6bacf"
+      "contentHash": "73dde948e571"
     },
     {
       "id": "ff52c1488d8a",
@@ -5837,10 +5927,10 @@
       "id": "caecb50726ec",
       "title": "8 Gemini tips for organizing your space (and life)",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-      "summary": "Geminiを使って春の大掃除や暮らしの整理を簡単にする方法。カスタムチェックリスト作成、修理のトラブルシューティング、収納の最適化、メール整理や買い物計画、植物ケアなど日常の整理整頓を支援する。",
+      "summary": "ジェミニで家庭とデジタル空間を整理。AIが掃除スケジュール、受信箱の整理、季節の家事などの具体的な提案を行う。",
       "source": "Gemini",
       "publishedAt": "2026-04-24T19:00:00.000Z",
-      "contentHash": "9d4c5c6e4f4f"
+      "contentHash": "cb02405c661e"
     },
     {
       "id": "e41b73fc8aed",
@@ -5945,10 +6035,10 @@
       "id": "2b37477dc60d",
       "title": "Find out what’s new in the Gemini app in April's Gemini Drop.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-april-2026/",
-      "summary": "Gemini Drops第10号。GeminiアプリがMacネイティブ対応。Personal IntelligenceとNano Bananaで個人向け画像生成やGoogle連携が強化。NotebookLMでプロジェクト管理、Lyria 3 Proで最大3分の高音質楽曲作成、チャット内で概念を視覚化可能。",
+      "summary": "Gemini Dropsは、Geminiアプリを最大限に活用するための毎月の定期アップデートです。",
       "source": "Gemini",
       "publishedAt": "2026-04-24T16:00:00.000Z",
-      "contentHash": "1bb926f980bb"
+      "contentHash": "bb57ccd4e140"
     },
     {
       "id": "87ee8b56db58",
@@ -7079,10 +7169,10 @@
       "id": "2a12912ff901",
       "title": "Gemini Embedding 2 is now generally available.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2-generally-available/",
-      "summary": "Gemini Embedding 2が一般提供され、テキスト・画像・映像・音声を統合するネイティブなマルチモーダル埋め込みをGemini APIとEnterprise Agent Platformで安定提供。プロトタイプ事例を経て開発者がプロダクション利用可能になり、Google製品で培った研究成果が共有される。",
+      "summary": "Gemini Embedding 2がGemini APIとVertex AIを通じて一般提供（GA）開始されたことを発表しました。",
       "source": "Gemini",
       "publishedAt": "2026-04-22T16:15:00.000Z",
-      "contentHash": "1dc43b6af529"
+      "contentHash": "8cff196bc776"
     },
     {
       "id": "eb556b717fc0",
@@ -7709,10 +7799,10 @@
       "id": "91f078dda900",
       "title": "Make chats more natural and efficient with Continued Conversation, now in Gemini for Home",
       "url": "https://blog.google/products-and-platforms/devices/how-to-use-gemini-continued-conversation/",
-      "summary": "早期利用者の声を受け、Gemini for Homeに「Continued Conversation」を導入。最初の「Hey Google」後数秒マイクが有効で会話を継続可。会話履歴保持・多言語対応・誤反応低減・家族や来客も利用可能。Google Homeアプリで有効化。",
+      "summary": "記事が途中で切れています。全文を貼っていただければ、200文字以内の日本語で要約します。続きを送れない場合は、抜粋分だけでの要約も可能です。どちらがよいですか？",
       "source": "Gemini",
       "publishedAt": "2026-04-21T16:00:00.000Z",
-      "contentHash": "bb1e2ac5adc0"
+      "contentHash": "8526dda11325"
     },
     {
       "id": "dd5a630c8903",
@@ -7736,10 +7826,10 @@
       "id": "a076947f6231",
       "title": "Deep Research Max: a step change for autonomous research agents",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/",
-      "summary": "GoogleのGemini 3.1 Pro搭載「Deep Research」と上位「Deep Research Max」は、MCPで私的データに安全接続し、自動で高度な分析や図表作成、長期研究の計画実行・調整が可能な自律研究エージェントです。",
+      "summary": "Googleが次世代の自律調査エージェント「Deep Research」と上位版「Deep Research Max」を発表。自動で高度な情報収集・分析を行い、研究や調査業務を効率化します。",
       "source": "Gemini",
       "publishedAt": "2026-04-21T15:30:00.000Z",
-      "contentHash": "a6b0991529bf"
+      "contentHash": "0f16dbcfc0d8"
     },
     {
       "id": "0285a47baf26",
@@ -8402,10 +8492,10 @@
       "id": "2dbc655de4d4",
       "title": "Start vibe coding in AI Studio with your Google AI subscription.",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-one-ai-studio/",
-      "summary": "GoogleはAI Pro/Ultra加入者向けにAI Studioの利用上限を拡大し、Nano Banana ProやGemini Proモデルへのアクセスを提供。短時間でのプロトタイピングや低設定の課金ブリッジが可能で、本番はAPIへ移行可能。順次提供中。",
+      "summary": "本日よりGoogle AI ProおよびUltra加入者はGoogle AI Studioの使用上限が拡大され、Nano Banana ProやGemini Proなどへのアクセスが可能になりました。",
       "source": "Gemini",
       "publishedAt": "2026-04-20T16:32:00.000Z",
-      "contentHash": "8313c8b70b44"
+      "contentHash": "66a1ddb5a852"
     },
     {
       "id": "c6fc7f439945",
@@ -8910,96 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-19T15:23:39.000Z",
       "contentHash": "f3b8184af3b0"
-    },
-    {
-      "id": "4ff29fdf3e46",
-      "title": "Notion leaks email addresses of all editors of any public page",
-      "url": "https://twitter.com/weezerOSINT/status/2045849358462222720",
-      "summary": "申し訳ありませんが外部リンク（Twitter/Hacker News）を直接閲覧できません。記事本文か主要箇条を貼り付けていただければ、200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-19T15:20:01.000Z",
-      "contentHash": "c1453d4cb2e3"
-    },
-    {
-      "id": "9309af93cf9f",
-      "title": "GuideLLMを使ってローカルLLMの性能測定をしてみた | 電通総研 テックブログ",
-      "url": "https://tech.dentsusoken.com/entry/2026/04/20/GuideLLM%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%ABLLM%E3%81%AE%E6%80%A7%E8%83%BD%E6%B8%AC%E5%AE%9A%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F",
-      "summary": "クロスイノベーション本部の山下が、gpt-ossやQwen3.5などのローカルLLMの普及を受け、LLMサーバの応答速度などを測るベンチマークソフト「GuideLLM」を紹介。レイテンシー等を評価する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-19T15:00:00.000Z",
-      "contentHash": "ab8a943269af"
-    },
-    {
-      "id": "b7726d16f7fd",
-      "title": "Notes from the SF peptide scene",
-      "url": "https://12gramsofcarbon.com/p/notes-from-the-sf-peptide-scene",
-      "summary": "Scott Alexanderの風変わりなベイエリアのパーティー描写を引き、著者は実際に春の「ゲイ・ペプチド・パーティー」に参加した体験を記す。AI話題に飽和する中で「安い中国製ペプチド」が流行していると驚きを伝える。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-19T14:43:07.000Z",
-      "contentHash": "4581f800177f"
-    },
-    {
-      "id": "afc7fecec923",
-      "title": "Nothing’s modular CMF Headphone Pro are down to their lowest price to date",
-      "url": "https://www.theverge.com/gadgets/913989/nothing-cmf-noise-canceling-headphone-pro-spring-sale-deal",
-      "summary": "Nothingの廉価ブランドCMF初のオーバーイヤー「CMF Headphone Pro」がAmazonで過去最安の69ドルに。適応型ノイズキャンセリング、タクタイル操作、最大100時間のバッテリーを搭載。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-19T14:30:00.000Z",
-      "contentHash": "bc8ac2a0dd2b"
-    },
-    {
-      "id": "23e89bdaabd6",
-      "title": "Vercel April 2026 security incident",
-      "url": "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
-      "summary": "Vercelは内部システムへの不正アクセスを確認。専門家と捜査機関と協力し調査中。影響は限定された顧客に個別通知済みで、サービスは稼働中。顧客は環境変数を確認し「機密環境変数」を利用、秘密のローテーション等はvercel.com/helpへ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-19T14:14:38.000Z",
-      "contentHash": "240aea891c6f"
-    },
-    {
-      "id": "6a9137ab6276",
-      "title": "The Stars My Destination is classic proto-cyberpunk",
-      "url": "https://www.theverge.com/entertainment/914680/the-stars-my-destination-alfred-bester-review-cyberpunk",
-      "summary": "アルフレッド・ベスターの1956年SF小説『The Stars My Destination（英題Tiger! Tiger!）』紹介。テレポーテーションやサイバー改造、共感覚、復讐を描くプロト・サイバーパンク。評価は賛否ありつつSFファンに薦め、クライマックスは紙版で読むべきと著者。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-19T14:00:00.000Z",
-      "contentHash": "e3695752e00b"
-    },
-    {
-      "id": "6cfd87faa510",
-      "title": "Airline worker arrested after sharing photos of bomb damage in WhatsApp group",
-      "url": "https://www.lbc.co.uk/article/dubai-police-spied-private-whatsapp-5HjdXwr_2/",
-      "summary": "ドバイ警察が、航空会社社員を同僚の非公開WhatsAppグループに戦闘の爆発写真を共有したとして逮捕。警察は閉鎖チャットにアクセスして証拠を保存し、面会に誘って拘束。国家利益を害する情報公開容疑で拘留され、私的通信の監視とプライバシー侵害が懸念されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-19T13:13:09.000Z",
-      "contentHash": "dec37552c5b3"
-    },
-    {
-      "id": "ff26baeb93d7",
-      "title": "Marathon battery life makes Keychron’s Ultra 8K keyboards its best yet",
-      "url": "https://www.theverge.com/tech/914085/keychron-q1-v5-ultra-8k-zmk-mechanical-keyboards-review",
-      "summary": "Keychronの新型Ultra 8Kキーボード（V5 Ultra 8K、Q1 Ultra 8K）は動作が高速化され、音質が改善、バッテリー持続時間が大幅延長。一般ユーザーとキーボード愛好家双方におすすめの完成度。V5は約$120で1800配列。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-19T12:00:00.000Z",
-      "contentHash": "58d6c70a7d58"
-    },
-    {
-      "id": "32245417f463",
-      "title": "The future of local TV news has taken a Trumpian turn",
-      "url": "https://www.theverge.com/column/914674/nexstar-tegna-merger-trump-local-news",
-      "summary": "2004年の放送世帯39%上限が、2025年トランプ復帰後にFCC議長ブレンダン・カーの「Delete, Delete, Delete」で緩和され、200局超を持つNexstarのTegna買収が地元テレビの寡占化や不透明な手法を招いている。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-19T12:00:00.000Z",
-      "contentHash": "737eb340873f"
-    },
-    {
-      "id": "070b24a60edf",
-      "title": "Claude Code更新 デスクトップ刷新・ultrareview【4/12〜18】 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/04/19/190000",
-      "summary": "サーバーワークスの池田が4/12〜4/18のClaude Code更新を報告。v2.1.105〜v2.1.112（v2.1.106は欠番）の7版がリリース。Anthropicは4/14にデスクトップ刷新とRoutines、4/16にOpus 4.7と/ultrareviewを発表。本記事はOpus以外のClaude Code更新に焦点。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-19T10:00:00.000Z",
-      "contentHash": "41e29aa025c9"
     }
   ]
 }
