@@ -1,6 +1,60 @@
 {
-  "generatedAt": "2026-05-10T03:51:38.279Z",
+  "generatedAt": "2026-05-10T10:02:05.006Z",
   "items": [
+    {
+      "id": "3a9841b522ed",
+      "title": "RubyLLM × さくらのAI Engine — 「OpenAI 互換」でハマったこと | タケユー・ウェブ株式会社のフィード",
+      "url": "https://zenn.dev/takeyuwebinc/articles/daec34094c21ce",
+      "summary": "RubyLLMをさくらのAI Engineに接続する際、base_urlとAPIキー差替えで動くが、providerとassume_model_existsの指定が必要。「OpenAI互換」はプロトコル互換のみで、with_schemaが効かない・toolsの挙動がモデルごとに異なる等の差異があった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-10T06:36:03.000Z",
+      "contentHash": "cf7646cb8ff5"
+    },
+    {
+      "id": "2c87505d3501",
+      "title": "Debian must ship reproducible packages",
+      "url": "https://lists.debian.org/debian-devel-announce/2026/05/msg00001.html",
+      "summary": "申し訳ありませんが、外部リンク先の本文を直接取得できません。記事本文をここに貼っていただければ、200文字以内で日本語要約します。URLの要点（タイトル・日付・扱っているトピック）を教えていただいても対応できます。どちらにしますか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-10T05:26:03.000Z",
+      "contentHash": "798b475db3af"
+    },
+    {
+      "id": "5100a173d421",
+      "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
+      "url": "https://github.com/imtomt/ymawky",
+      "summary": "ymawkyはMac向けの静的ファイルサーバーで、ARM64アセンブリで全実装。GET/PUT/DELETE/HEAD/OPTIONSやRange（動画シーク）対応、パーセントデコード、docroot厳格化、カスタムエラーページ、ディレクトリ一覧、Slowloris対策等を備える。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-10T03:01:44.000Z",
+      "contentHash": "8c0073fba568"
+    },
+    {
+      "id": "fd45d8c7ac1c",
+      "title": "【文系AIコンサル】コンサルのバイブル『コンサル一年目が学ぶこと』の学びを実践。26卒が身をもって知った「基礎」の破壊力。 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/875717bc8d5fe2",
+      "summary": "著者は新人コンサルとして、華やかなスキルよりPREP法徹底、前提の検証、着手前の合意形成、数字への執着、議事録で合意を可視化するなど泥臭い基礎の重要性を説く。文系や若手向けの実践指南。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-10T02:58:39.000Z",
+      "contentHash": "63620ec08cb3"
+    },
+    {
+      "id": "008233b56ad2",
+      "title": "「Claudeエージェントでエンジニアは不要？AI開発の役割激変を徹底解説」～【claude】今週の人気記事TOP5（2026/05/10） | CareNet Engineersのフィード",
+      "url": "https://zenn.dev/carenet/articles/zenn-weekly-claude-articles-2026-05",
+      "summary": "Zennの人気記事を自動取得し要約。Claude関連記事TOP5を紹介：セッション永続メモ導入、生成AIサブスク選び、Claude DesktopのSSH脆弱性、コード0行の財務アプリ事例、Managed Agentsの運用境界を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-10T02:47:13.000Z",
+      "contentHash": "8375fc6f71cd"
+    },
+    {
+      "id": "860b697b46c5",
+      "title": "gbrainに学ぶ、Agentの記憶基盤とKnowledge Graphの作り方 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/8bc4e8c3119fa3",
+      "summary": "YC CEO作のOSS「gbrain」は、Markdownや会議メモ・コード・画像をPostgres/PGLiteで管理し、content_chunksとlinksでKnowledge Graphを構築。TypeScript+SQLの決定論的ランタイムで検索・更新・グラフ巡回を提供し、関係探索に基づく堅牢なエージェント記憶基盤を実現。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-10T02:34:06.000Z",
+      "contentHash": "06b6bcf4e874"
+    },
     {
       "id": "f23bc8e99f97",
       "title": "France moves to break encrypted messaging",
@@ -20,31 +74,40 @@
       "contentHash": "0609c5f5ddd0"
     },
     {
+      "id": "5eea12261322",
+      "title": "Show HN: Rust but Lisp",
+      "url": "https://github.com/ThatXliner/rust-but-lisp",
+      "summary": "ThatXlinerの「rust-but-lisp」は、Rustの所有権・借用・ライフタイムなどの概念をS式（Lisp風）構文で表現する実験的なGitHubプロジェクト。教育的なデモ・概念可視化が目的で実用向けではないが、工夫とユーモアで注目を集めた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-09T21:46:27.000Z",
+      "contentHash": "d77cc97c3310"
+    },
+    {
       "id": "8fe30e4b9d2c",
       "title": "Local privilege escalation via execve()",
       "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc",
-      "summary": "申し訳ありませんが、こちらでは外部サイトに直接アクセスできません。記事本文（または重要箇所）を貼り付けていただければ、200文字以内の日本語で要約します。コメント欄も要約希望なら教えてください。",
+      "summary": "外部URLに直接アクセスできないため、元記事の本文を貼っていただけますか？貼っていただければ200文字以内で日本語要約します。HNの議論も要約希望なら、その部分も一緒に貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2026-05-09T20:31:21.000Z",
-      "contentHash": "e7e1c6ad83a3"
+      "contentHash": "a88c47d8029c"
     },
     {
       "id": "458cf02000d8",
-      "title": "Meta's embrace of A.I. is making its employees miserable",
+      "title": "Meta's embrace of AI is making its employees miserable",
       "url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
-      "summary": "NYT記事: MetaのAI部門で従業員の士気低下が深刻。過酷な労働、過剰な目標、頻繁な方針変更や解雇リスク、競争圧力が重なり、混乱と生産性低下を招いている。",
+      "summary": "申し訳ありませんが、指定のURL先を直接参照できません。記事本文を貼り付けていただければ、200文字以内で日本語要約を作成します。あるいは主要ポイントを教えていただければ、それを元に要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-05-09T18:33:36.000Z",
-      "contentHash": "f0fda556434c"
+      "contentHash": "c634762ded46"
     },
     {
       "id": "35dcb8af3eed",
       "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
       "url": "https://github.com/nooga/let-go",
-      "summary": "let-goはGo製のClojure系バイトコードコンパイラ兼VM。約10MBの単一実行ファイルで6–7ms起動、AOTやWASM出力、core.async/HTTP/JSON/nREPL等を同梱。Go相互運用や広範なClojure互換を目指すが完全置換は目的外。",
+      "summary": "Let-goは純Goで書かれたClojure互換言語（JVM Clojureと約90%互換）。約10MBの静的バイナリでコールドブート約7ms、nREPL対応。Goに埋め込みやすくCLI・Web・データ処理やシステム向けに利用可。簡易コンパイラとスタックVMでAOTやスタンドアロン化が可能だが、JARや全Java APIは未対応で既存Clojureは修正が必要。試用・PR歓迎。",
       "source": "Hacker News",
       "publishedAt": "2026-05-09T17:52:13.000Z",
-      "contentHash": "302ebaaea08b"
+      "contentHash": "76c350eacd3f"
     },
     {
       "id": "5ea61e1122d7",
@@ -59,10 +122,10 @@
       "id": "f1014e96e10f",
       "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
       "url": "https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/",
-      "summary": "cPanel/WHM向け：2026年5月8日、cPanelが緊急パッチ（CVE-2026-29201/29202/29203）を公開。うち2件はCVSS8.8。先のCVE-2026-41940で4.4万台被害の直後の2回目TSRで、監査により任意ファイル読み取りなど深刻な脆弱性が追加発見された。",
+      "summary": "cPanelは「Black Week」直後、ランサムウェア被害で約44,000台のサーバーが侵害された件を受け、追加で3件の脆弱性を修正。管理者に対し即時アップデート、認証情報や鍵の変更、侵害有無の確認と復旧対策を強く促した。",
       "source": "Hacker News",
       "publishedAt": "2026-05-09T17:06:46.000Z",
-      "contentHash": "7e45d9624805"
+      "contentHash": "ae2cda2b0f4a"
     },
     {
       "id": "8be270ca5f04",
@@ -158,19 +221,19 @@
       "id": "74a462a12af2",
       "title": "Claude Code 恒久2倍 vs Codex 5月限定プロモ - 上限引き上げ比較 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/2026/05/09/190000",
-      "summary": "サーバーワークスの池田によると、2026年5月にAnthropicのClaude CodeとOpenAIのCodexがトークン上限を引き上げた。Claudeは5時間レートを2倍化しピーク制限を撤廃（恒久、SpaceX契約裏付け）。Codexは5月31日までProのレートを期間限定で引き上げ（新プラン記念・既存ユーザー向け）。",
+      "summary": "2026年5月、AnthropicはClaude Codeの5時間レート上限を恒久的に2倍化しピーク時間制限を撤廃（SpaceX契約が裏付け）。対してOpenAIはCodexで5月31日までPro $100/$200の一時的レート引き上げを実施。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-09T10:00:00.000Z",
-      "contentHash": "6c18623ae888"
+      "contentHash": "24c7a4b866aa"
     },
     {
       "id": "b5a372213c2d",
       "title": "Kiro Web が公開されたので、コーポレートサイトを勝手にこそっとリデザインしてもらった | ForgeVision Engineer Blog",
       "url": "https://techblog.forgevision.com/entry/kiro/kiro-web",
-      "summary": "AWSグループの尾谷です。今週Kiro Webがプレビュー公開され、Kiro Pro / Pro+ / Powerプランで利用可能になったため、会社のホームページを無断でリデザインしてもらいました。",
+      "summary": "Kiro Webがプレビュー公開。ブラウザ上で動く開発エージェントでPro/Pro+/Powerのみ利用可（Free不可）。対話／自律モードがあり、自律モードで計画・実装・PR作成まで行える。GitHub連携前提でセッションはサンドボックス、Steeringで方針共有。現状はus-east-1限定やMCPなどの制約あり。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-09T09:58:44.000Z",
-      "contentHash": "a05080453948"
+      "contentHash": "0b5abbdf5d76"
     },
     {
       "id": "8c8c38bfca22",
@@ -464,10 +527,10 @@
       "id": "1db7ea4a99ab",
       "title": "MacでWordをPDFに変換する方法 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/ecaa35a259166b",
-      "summary": "執筆日2026/5/8。Wordファイルを開き、「名前を付けて保存」を選択してファイル名を入力、ファイル形式で「PDF」を選び、「エクスポート」をクリックしてPDFとして保存する。",
+      "summary": "MacでWordをPDFに変換する手順: Wordファイルを開き「名前を付けて保存」を選択、ファイル名を入力、ファイル形式でPDFを選び「エクスポート」をクリック。執筆: takekawa tomoki（ヘッドウォータース）",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-08T10:50:05.000Z",
-      "contentHash": "2f0f7250125b"
+      "contentHash": "1228502c7d00"
     },
     {
       "id": "90bf880928c1",
@@ -491,19 +554,19 @@
       "id": "45784cc6e4c1",
       "title": "App Service 上で実行中のアプリのコンソールログ確認方法 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/718ab45cffcb5e",
-      "summary": "App Serviceでコンソールログを取得するには、診断設定でApp Service Console Logsを有効化しLog Analytics送信をオンにする。ポータル: App Service→監視→診断設定追加。ログはAppServiceConsoleLogsテーブルでKQLモードのクエリ（例: 直近30分の\"START\"含むログ）で検索する。",
+      "summary": "Azure App Serviceでコンソールログを取得するには、診断設定でApp Service Console LogsとLog Analytics送信を有効化。ログは[監視]→[ログ]→AppServiceConsoleLogsで確認、KQLで絞り込める（例: AppServiceConsoleLogs | where TimeGenerated > ago(30m) | where ResultDescription contains \"START\"）。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-08T09:08:30.000Z",
-      "contentHash": "048ef96e1d75"
+      "contentHash": "e04215722f32"
     },
     {
       "id": "c2fbf2eeed7c",
       "title": "MAAS 環境における Cluster API 導入ガイド | MicroAd Developers Blog",
       "url": "https://developers.microad.co.jp/entry/2026/05/08/180000",
-      "summary": "マイクロアドのプラットフォームエンジニア齊藤が、RancherでのKubernetesクラスタライフサイクル管理と、Rancher内部で使われるCluster APIを用いたクラスタ構築・管理方法を MAAS 環境で再現する手順として紹介します。",
+      "summary": "MAAS上でCluster APIを使いKubernetesクラスタを宣言的に構築・管理する手順を解説。Imageビルド→MAAS登録→kindでManagement Cluster作成→Cluster APIでControl-plane/Worker作成、セルフホスト化やバージョンアップ手順も紹介。K8s/MAAS運用者向け。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-08T09:00:00.000Z",
-      "contentHash": "ae5a4d1396fa"
+      "contentHash": "96fa539de08b"
     },
     {
       "id": "135bc23e5582",
@@ -689,19 +752,19 @@
       "id": "3a18c3d48ddc",
       "title": "Codex Chrome extension の概要",
       "url": "https://note.com/npaka/n/n8de1c3acd145",
-      "summary": "Codex Chrome extensionは、ログイン済みのChrome上のWebサイトをCodexが読み取り・操作できる拡張機能です。Salesforce/Gmail/LinkedIn等で作業可能。Pluginsから接続し、ホスト単位で許可・常時許可・拒否を設定でき、強力なブラウザ権限を要求します。",
+      "summary": "OpenAIのCodex Chrome拡張は、Chromeのログイン状態を使ってLinkedInやSalesforce、Gmailなどログイン必須のサイトを読み取り・操作できる機能。in‑app browserや専用プラグインと使い分け、プラグインから接続してホストごとに「今回のみ／常時許可／拒否」を選べる。インストール時は広範な権限を求めるが、操作は都度確認・設定で制御できる。",
       "source": "npaka",
       "publishedAt": "2026-05-07T22:47:49.000Z",
-      "contentHash": "ff5f59569ff6"
+      "contentHash": "a7930d6e55e1"
     },
     {
       "id": "8d2b7ead8341",
       "title": "GPT-Realtime-2 ・ GPT-Realtime-Translate ・ GPT-Realtime-Whisper の概要",
       "url": "https://note.com/npaka/n/nade0d8498e64",
-      "summary": "OpenAIがAPIにGPT-Realtime-2、GPT-Realtime-Translate、GPT-Realtime-Whisperを追加。リアルタイム推論とツール連携、長文コンテキスト拡張、70言語超の即時翻訳、低遅延文字起こしで音声インターフェースを高度化。",
+      "summary": "APIに3つの新音声モデルが追加。GPT‑Realtime‑2はGPT‑5級の推論、長大コンテキスト（32K→128K）、ツール呼び出しや応答制御を強化。GPT‑Realtime‑Translateは70言語超→13言語のリアルタイム翻訳・文字起こし、GPT‑Realtime‑Whisperは低遅延のストリーミング音声認識。音声が聞くだけでなく推論・行動するインターフェースへ進化。",
       "source": "npaka",
       "publishedAt": "2026-05-07T21:45:17.000Z",
-      "contentHash": "5fe21399be14"
+      "contentHash": "67946d6b83ee"
     },
     {
       "id": "bbfe7c8eee50",
@@ -959,10 +1022,10 @@
       "id": "6c86f5fec788",
       "title": "Claude Managed Agents を試す",
       "url": "https://note.com/npaka/n/n190b39339bf9",
-      "summary": "Claude Managed AgentsはAnthropicのマネージド基盤で、Claudeを自律エージェントとしてファイル編集・コード実行・Web調査などの複数ステップ作業を実行。構成はAgent/Environment/Session/Events。課金はモデルのトークン料＋セッション実行時間($0.08/時)。導入はAPIキー設定やSDKインストールなど。",
+      "summary": "Claude Managed AgentsはAnthropicのマネージド基盤で、Claudeを自律エージェント化しファイル操作・コマンド実行・Web調査・コード実行などの複数ステップ作業を実行。Agent/Environment/Session/Eventsで構成。料金はトークン課金に加えセッション実行時間($0.08/時)。セットアップはAPIキー設定とSDK導入。",
       "source": "npaka",
       "publishedAt": "2026-05-07T08:32:58.000Z",
-      "contentHash": "e460bb9d9375"
+      "contentHash": "abcf5843ea4d"
     },
     {
       "id": "eb86a772af0b",
@@ -1238,10 +1301,10 @@
       "id": "ee647ff34d77",
       "title": "Claude Managed Agents の新機能まとめ - Dreaming ・ Outcomes ・ Multiagent orchestration ・ Webhooks",
       "url": "https://note.com/npaka/n/n800e489e1be9",
-      "summary": "Anthropicは2026年5月6日、Claude Managed Agentsの新機能を発表。過去セッションからメモを整理するDreaming（研究プレビュー）、成果基準で評価・再試行するOutcomes、役割分担で並列処理するMultiagent orchestration、状態通知のWebhooksを提供。",
+      "summary": "AnthropicがClaude Managed Agentsに新機能を導入。Dreamingで過去セッションを整理、Outcomesで成果基準と評価・再試行、Multiagent orchestrationで役割分担、Webhooksで状態通知を実装。",
       "source": "npaka",
       "publishedAt": "2026-05-06T23:00:10.000Z",
-      "contentHash": "20b8871721cc"
+      "contentHash": "b53e7019e8a7"
     },
     {
       "id": "ef3e61de4219",
@@ -2192,10 +2255,10 @@
       "id": "728a4d52e0da",
       "title": "The latest AI news we announced in April 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
-      "summary": "記事本文が見当たりません。要約する本文またはURLを貼っていただけますか？貼っていただければ200文字以内で日本語要約を作成します。トーン（フォーマル／カジュアル）指定があれば教えてください。",
+      "summary": "Googleは4月に「エージェント時代」を掲げ、Gemma 4や第8世代チップ、Gemini Enterprise Agent Platformを発表。無料の動画作成ツールGoogle Vids、Deep Research Max、Colabの学習モードやKaggle講座で研究・開発・教育・医療支援を強化。",
       "source": "Gemini",
       "publishedAt": "2026-05-04T17:00:00.000Z",
-      "contentHash": "f54c18ea70d2"
+      "contentHash": "36f361aa13a5"
     },
     {
       "id": "fd9f33d9676b",
@@ -2534,10 +2597,10 @@
       "id": "11cd193e0bdf",
       "title": "Codex CLI の /goal の概要",
       "url": "https://note.com/npaka/n/n15e84ee77f5a",
-      "summary": "Codex CLIに/goalコマンドが追加。スレッドで目標を保持し、テスト→修正→検証の反復で達成を目指す。~/.codex/config.tomlで有効化。/goal <目標>、pause、resume、clearが使え、完了条件を明確にし差分や曖昧な指示に注意。",
+      "summary": "Codex CLIに/goal追加。スレッドで目標を保持し、達成まで反復的に作業・検証する（Ralph loop）。設定・pause/resume/clearを備え、experimental機能でconfigで有効化。完了条件が明確な反復作業向きで、曖昧な目標や大規模な差分には注意。",
       "source": "npaka",
       "publishedAt": "2026-05-03T14:13:51.000Z",
-      "contentHash": "5d8e79e41c8e"
+      "contentHash": "7a74c6676965"
     },
     {
       "id": "0d01c1c3bf9f",
@@ -4100,10 +4163,10 @@
       "id": "6a5f73f03ae7",
       "title": "You can now easily generate files in Gemini.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/",
-      "summary": "Geminiでは、1つのプロンプトでブレインストーミングから完成した文書・表計算シート・PDFへと仕上げられます。",
+      "summary": "Geminiアプリがチャット内の指示だけでPDF、Word、Excel、Google Docs/Sheets/Slidesなど多様な形式（pdf、docx、xlsx、csv、LaTeX、TXT、RTF、MD等）でファイルを生成・ダウンロードやDrive保存できる機能を全ユーザー向けに提供。",
       "source": "Gemini",
       "publishedAt": "2026-04-29T16:00:00.000Z",
-      "contentHash": "549b08bfb02f"
+      "contentHash": "b6b6e8a7afd5"
     },
     {
       "id": "1115745e2b1c",
@@ -4172,10 +4235,10 @@
       "id": "f9a625348e8a",
       "title": "Enjoy new ways to create, search and stream on Google TV",
       "url": "https://blog.google/products-and-platforms/platforms/google-tv/enjoy-new-ways-to-create-search-and-stream-on-google-tv/",
-      "summary": "Google TVが楽しい画像・動画を作るツールやGoogleフォトを見せる新表示機能を追加し、近く短尺動画を再生する新しい行（ショート動画）も導入予定です。",
+      "summary": "Google TVがAI機能を追加。音声で画像・動画を生成したり、Googleフォトを検索・リミックスして動的なフォトギャラリーを作成可能。Gemini対応機器で利用でき、今夏ホームに短尺動画欄を追加予定。",
       "source": "Gemini",
       "publishedAt": "2026-04-29T15:00:00.000Z",
-      "contentHash": "decbd06513e9"
+      "contentHash": "46274d0fe74d"
     },
     {
       "id": "6b8c46a3e355",
@@ -5081,10 +5144,10 @@
       "id": "20769b8fc97e",
       "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "summary": "GoogleがKaggleと共催で、5日間のAIエージェント集中講座を再開。コースの登録受付が始まりました。",
+      "summary": "GoogleとKaggleが無料の5日間「AI Agents Vibe Coding」コースを2026年6月15〜19日に開催、登録開始。自然言語でのvibe codingや実践課題、最終プロジェクトで本番向けAIエージェント構築を学べます。",
       "source": "Gemini",
       "publishedAt": "2026-04-27T13:00:00.000Z",
-      "contentHash": "73dde948e571"
+      "contentHash": "3b5321b6bacf"
     },
     {
       "id": "ff52c1488d8a",
@@ -5927,10 +5990,10 @@
       "id": "caecb50726ec",
       "title": "8 Gemini tips for organizing your space (and life)",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-      "summary": "ジェミニで家庭とデジタル空間を整理。AIが掃除スケジュール、受信箱の整理、季節の家事などの具体的な提案を行う。",
+      "summary": "Geminiを使えば春の大掃除や生活の整理が楽に。カスタムチェックリスト作成、修理のトラブルシュート、収納最適化、メール整理、買い物計画、植物ケアなどを支援します。",
       "source": "Gemini",
       "publishedAt": "2026-04-24T19:00:00.000Z",
-      "contentHash": "cb02405c661e"
+      "contentHash": "9d4c5c6e4f4f"
     },
     {
       "id": "e41b73fc8aed",
@@ -6035,10 +6098,10 @@
       "id": "2b37477dc60d",
       "title": "Find out what’s new in the Gemini app in April's Gemini Drop.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-april-2026/",
-      "summary": "Gemini Dropsは、Geminiアプリを最大限に活用するための毎月の定期アップデートです。",
+      "summary": "Gemini Drops第10弾。Personal IntelligenceとNano Bananaで画像を個人化、Google連携で個別化支援、NotebookLM内蔵でプロジェクト管理、Macネイティブ対応、Lyria 3 Proで最大3分の楽曲作成、チャットで概念を視覚化。詳細はGemini Drops Hub。",
       "source": "Gemini",
       "publishedAt": "2026-04-24T16:00:00.000Z",
-      "contentHash": "bb57ccd4e140"
+      "contentHash": "1bb926f980bb"
     },
     {
       "id": "87ee8b56db58",
@@ -7169,10 +7232,10 @@
       "id": "2a12912ff901",
       "title": "Gemini Embedding 2 is now generally available.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2-generally-available/",
-      "summary": "Gemini Embedding 2がGemini APIとVertex AIを通じて一般提供（GA）開始されたことを発表しました。",
+      "summary": "GoogleがGemini Embedding 2の一般提供を発表。テキスト・画像・動画・音声をネイティブに扱うマルチモーダル埋め込みで検索や推論を統合し、Gemini APIとEnterprise Agentで実運用を支援。",
       "source": "Gemini",
       "publishedAt": "2026-04-22T16:15:00.000Z",
-      "contentHash": "8cff196bc776"
+      "contentHash": "1dc43b6af529"
     },
     {
       "id": "eb556b717fc0",
@@ -7799,10 +7862,10 @@
       "id": "91f078dda900",
       "title": "Make chats more natural and efficient with Continued Conversation, now in Gemini for Home",
       "url": "https://blog.google/products-and-platforms/devices/how-to-use-gemini-continued-conversation/",
-      "summary": "記事が途中で切れています。全文を貼っていただければ、200文字以内の日本語で要約します。続きを送れない場合は、抜粋分だけでの要約も可能です。どちらがよいですか？",
+      "summary": "Gemini for Homeに「Continued Conversation」機能が追加。初回の「Hey Google」後に数秒間マイクを維持して会話の文脈を保持、複数言語対応、雑音判定改善、家族やゲストも利用可。設定はGoogle HomeアプリのHome Settings > Gemini for Home > Continued Conversationで有効化。",
       "source": "Gemini",
       "publishedAt": "2026-04-21T16:00:00.000Z",
-      "contentHash": "8526dda11325"
+      "contentHash": "bb1e2ac5adc0"
     },
     {
       "id": "dd5a630c8903",
@@ -7826,10 +7889,10 @@
       "id": "a076947f6231",
       "title": "Deep Research Max: a step change for autonomous research agents",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/",
-      "summary": "Googleが次世代の自律調査エージェント「Deep Research」と上位版「Deep Research Max」を発表。自動で高度な情報収集・分析を行い、研究や調査業務を効率化します。",
+      "summary": "Googleの新しいDeep Researchエージェントは、速い版と深堀り向けのDeep Research Maxを提供。Gemini 3.1 Pro搭載でMCP経由の安全な私的データ接続、ネイティブな図表作成や研究計画の指示で長期かつ高品質な分析を高速化します。",
       "source": "Gemini",
       "publishedAt": "2026-04-21T15:30:00.000Z",
-      "contentHash": "0f16dbcfc0d8"
+      "contentHash": "a6b0991529bf"
     },
     {
       "id": "0285a47baf26",
@@ -8492,10 +8555,10 @@
       "id": "2dbc655de4d4",
       "title": "Start vibe coding in AI Studio with your Google AI subscription.",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-one-ai-studio/",
-      "summary": "本日よりGoogle AI ProおよびUltra加入者はGoogle AI Studioの使用上限が拡大され、Nano Banana ProやGemini Proなどへのアクセスが可能になりました。",
+      "summary": "GoogleはAI Pro/Ultra加入者向けにGoogle AI Studioの使用上限を引き上げ、Nano Banana ProやGemini Proモデルへのアクセスを提供。短時間で試作からアプリ化できる低手間の課金ブリッジとしてGoogle AIプランを利用でき、順次提供中。",
       "source": "Gemini",
       "publishedAt": "2026-04-20T16:32:00.000Z",
-      "contentHash": "66a1ddb5a852"
+      "contentHash": "8313c8b70b44"
     },
     {
       "id": "c6fc7f439945",
@@ -8937,69 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-04-19T20:28:52.000Z",
       "contentHash": "300383d59cc3"
-    },
-    {
-      "id": "cadec8092416",
-      "title": "Swiss authorities want to reduce dependency on Microsoft",
-      "url": "https://www.swissinfo.ch/eng/swiss-ai/swiss-authorities-want-to-reduce-dependency-on-microsoft/91280532",
-      "summary": "スイス当局はマイクロソフト依存を低減する方針を示した。国内クラウドやオープンソース採用、調達ルール見直しでデータ主権と安定性、競争を強化する狙い。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-19T20:25:29.000Z",
-      "contentHash": "7b7ca3b5f524"
-    },
-    {
-      "id": "ce8ca2693c23",
-      "title": "Cloud development platform Vercel was hacked",
-      "url": "https://www.theverge.com/tech/914723/vercel-hacked",
-      "summary": "クラウド開発プラットフォームVercelが第三者のAIツール侵害を経由してハッキングされ、従業員名やメール、活動タイムスタンプ等が流出し一部顧客が影響。ShinyHuntersを名乗る者が一部公開・売却を試み、Vercelはログ確認と環境変数のローテーションを管理者に促した。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-19T19:54:52.000Z",
-      "contentHash": "a4993858882b"
-    },
-    {
-      "id": "7ef7c2af20e5",
-      "title": "Show HN: Faceoff – A terminal UI for following NHL games",
-      "url": "https://www.vincentgregoire.com/faceoff/",
-      "summary": "FaceoffはNHLの試合をリアルタイムで追えるターミナルUIアプリ。日付別スケジュール、自動更新スコア、プレイバイプレイ／ボックススコア、先発比較、順位表、選手・チーム詳細を表示。uvx／pipで導入可。非公認。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-19T17:44:44.000Z",
-      "contentHash": "fe019ec9c481"
-    },
-    {
-      "id": "dec52cba73b4",
-      "title": "The Bromine Chokepoint",
-      "url": "https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/",
-      "summary": "米・イスラエルとイランの戦闘で半導体メモリ供給網の脆弱性が顕在化。ヘリウムに注目が集まるが、より深刻なのは臭素で、韓国は輸入の97.5％をイスラエルに依存。半導体用HBr製造は専用設備が必要で代替や増産に年単位を要し、DRAM/NAND供給に重大リスクをもたらす。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-19T17:44:03.000Z",
-      "contentHash": "309ca8fb42d7"
-    },
-    {
-      "id": "5e63f7bbaff5",
-      "title": "PM Carney declares U.S. ties now a 'weakness' in address to Canadians",
-      "url": "https://www.ctvnews.ca/politics/article/pm-carney-declares-us-ties-now-a-weakness-in-address-to-canadians/",
-      "summary": "カナダのマーク・カーニー首相は国民向け演説で、米国が変化し貿易を含む経済環境が大きく変わったため、カナダもそれに応じた対応を講じる必要があると訴えた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-19T16:21:31.000Z",
-      "contentHash": "3b44bb1bfc4b"
-    },
-    {
-      "id": "f1cfc3d73ea8",
-      "title": "Turtle WoW classic server announces shutdown after Blizzard wins injunction",
-      "url": "https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/",
-      "summary": "Blizzardが差し止めを認められ、人気の非公式WoW Classicサーバー「Turtle WoW」は閉鎖を発表。プレイヤーや運営がサービス停止し、ファン運営サーバーの法的リスクが再浮上した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-19T15:48:40.000Z",
-      "contentHash": "6e2ef7616ef3"
-    },
-    {
-      "id": "755fedf102c2",
-      "title": "Vercel says internal systems hit in breach",
-      "url": "https://decipher.sc/2026/04/19/vercel-says-internal-systems-hit-in-breach/",
-      "summary": "Vercelは内部システムへの不正アクセスを公表。第三者AIツールのGoogle Workspace OAuthアプリの侵害が原因で一部顧客が影響。ログ確認や環境変数の変更を推奨し、対応中。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-19T15:23:39.000Z",
-      "contentHash": "f3b8184af3b0"
     }
   ]
 }
