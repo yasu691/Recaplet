@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-05-11T04:19:32.100Z",
+  "generatedAt": "2026-05-11T11:50:34.918Z",
   "items": [
+    {
+      "id": "bb3a6e1b414f",
+      "title": "Windows 11 is getting a macOS-like speed boost",
+      "url": "https://www.theverge.com/news/927736/windows-11-is-getting-a-macos-like-speed-boost",
+      "summary": "MicrosoftはWindows 11で「Low Latency Profile」を試験中。短時間でCPU周波数をブーストし、スタートメニューやファイルエクスプローラー、アプリ起動を高速化。自社アプリで最大約40%、メニュー類で最大約70%の改善が報告されています。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-11T11:12:42.000Z",
+      "contentHash": "f84f7052c5f7"
+    },
+    {
+      "id": "0b5942d76dec",
+      "title": "Forza Horizon 6 has been leaked and cracked a week before its release",
+      "url": "https://www.theverge.com/news/927704/forza-horizon-6-leak-cracked",
+      "summary": "Forza Horizon 6の製品版が発売前のSteamプレロードで暗号化されず流出し、150GB超のファイルが共有サイトに現れて既にオンライン認証を迂回するクラックが出回った。Redditで発見され削除。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-11T10:21:17.000Z",
+      "contentHash": "f9350ca3b184"
+    },
+    {
+      "id": "cec698e70880",
+      "title": "Logitech’s tiny folding mouse improves upon the laptop trackpad",
+      "url": "https://www.theverge.com/tech/927695/logitech-folding-mouse-leaked-images",
+      "summary": "Logitechが折りたたみ式の小型ワイヤレスマウスを開発中。フリップ状に半分に折れて携帯性が高く、リーク画像ではトラックパッドより筋肉負担を22%軽減、複数OS対応。名称は未発表。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-11T09:57:19.000Z",
+      "contentHash": "0c96e25fac40"
+    },
+    {
+      "id": "75d77a797497",
+      "title": "RevitでCAD図を読み込んだ時のめちゃくちゃな線種パターンをきれいにしよう | vicc blog",
+      "url": "https://blog.vicc.jp/entry/lets-clean-up-the-messy-line-patterns-of-revit-project-due-to-cad-drawings-jp",
+      "summary": "RevitにCADを読み込むと大量の不要な線種パターンが残り、個別削除しかできない問題をDynamoスクリプトでフィルタして一括削除する方法を紹介。Purge Unusedでは消えず、BIM運用上の整理が重要。スクリプト提供可。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-11T09:00:00.000Z",
+      "contentHash": "ab99ab98fd33"
+    },
+    {
+      "id": "b1ca7c9491de",
+      "title": "慶應で出題したGH演習問題を公開します | vicc blog",
+      "url": "https://blog.vicc.jp/entry/keio-lecture-gh-training-jp",
+      "summary": "慶應SFC「建築技術論」のGrasshopper演習を公開。課題はRhino/GrasshopperでH形鋼（200×200、175×350）2本と断面100×50の溝形鋼を接合する部材を作成し、傾斜などのパラメータ変化に追随して部材形状・ボルト位置・リブ（6mm）を出力すること。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-11T09:00:00.000Z",
+      "contentHash": "ef069cfbbec6"
+    },
+    {
+      "id": "8c4c433f82d1",
+      "title": "大規模プロジェクトでのRhinoの運用#3 – LinkedBlock | vicc blog",
+      "url": "https://blog.vicc.jp/entry/rhino-on-large-scale-project-3-jp",
+      "summary": "RhinoのLinkedBlock運用報告。入れ子は階層編集が煩雑で参照循環や重複読み込みに注意が必要。規格の反復部材はLinkedBlockで一括更新に有効。パラメトリックや個別編集はWorksession併用で、何をBlock化するかはプロジェクトごとに判断すべき。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-11T09:00:00.000Z",
+      "contentHash": "cb2df9518044"
+    },
+    {
+      "id": "429debae14d0",
+      "title": "Mythos Finds a Curl Vulnerability",
+      "url": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
+      "summary": "AnthropicのAI「Mythos」がcurlの脆弱性を一件発見した。Linux Foundation経由で開発者に限定提供されるはずがアクセスが遅れ、代わりに権限ある第三者がMythosでcurlを解析して報告を送った経緯が述べられる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-11T06:39:08.000Z",
+      "contentHash": "41c990fa949d"
+    },
     {
       "id": "5822d11613f5",
       "title": "「VS Codeはもう古い？Google AIエージェントが拓く「自律開発」」～【googlecloud】人気記事（2026/05/10） | CareNet Engineersのフィード",
@@ -86,10 +149,19 @@
       "id": "663b221b220f",
       "title": "I'm going back to writing code by hand",
       "url": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/",
-      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文を貼っていただければ、200字以内で日本語要約を作成します。本文を貼れない場合は、タイトルから推測した簡潔な要約を作ることも可能です。どちらがよいですか？",
+      "summary": "AIだけでの開発を試み、Claudeでvibe-codingし7か月・234コミットでGPU向けKubernetes TUI「k10s」を作ったが、設計は人間が必要と判明。AIは機能を出せるがアーキテクチャは書けず、現行をアーカイブして一から書き直す。",
       "source": "Hacker News",
       "publishedAt": "2026-05-11T01:23:51.000Z",
-      "contentHash": "bc9dcad4a955"
+      "contentHash": "9b79777ba6f6"
+    },
+    {
+      "id": "6eacea02cb2f",
+      "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
+      "url": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
+      "summary": "AIコーディングエージェントは保守コストを確実に下げないと意味がない。生産性が2倍なら保守は半分に、3倍なら3分の1に減らせない限り、一時的な速度向上が恒久的な負担になる。コードは継続的に保守が必要。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-10T23:39:55.000Z",
+      "contentHash": "2edef7d5c46e"
     },
     {
       "id": "57294eed6117",
@@ -104,37 +176,37 @@
       "id": "ee8b6b466c18",
       "title": "Running local models on an M4 with 24GB memory",
       "url": "https://jola.dev/posts/running-local-models-on-m4",
-      "summary": "Apple M4でローカルLLMを動かす手順と性能比較を解説。llama.cpp/ggmlやmlc-llmなどのツール導入、量子化でメモリ削減、MPS/Neural Engine活用による高速化や実運用の注意点を示す。",
+      "summary": "M4 24GBでローカルLLMを試行。Ollama/llama.cpp/LM Studioやモデル選定、メモリ・128K文脈など細かな設定が必要で難しい。多くは実用困難だったが、LM StudioでQwen 3.5-9B(q4_k_s)が128K文脈・約40トークン/s・ツール利用可で最良。SOTAには劣るがオフラインで基本作業に十分。",
       "source": "Hacker News",
       "publishedAt": "2026-05-10T23:09:10.000Z",
-      "contentHash": "b9926cc619d2"
+      "contentHash": "e2e12412860a"
     },
     {
       "id": "f5e60b801e70",
       "title": "Obsidian plugin was abused to deploy a remote access trojan",
       "url": "https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/",
-      "summary": "研究者がObsidianのサードパーティ製プラグインを悪用した攻撃で、リモートアクセス型マルウェア「Phantom Pulse RAT」が配布されたと報告。偽プラグイン経由でペイロードを導入し遠隔操作や情報窃取を行う。該当プラグインの削除、提供元確認、ソフト更新や調査を推奨。",
+      "summary": "研究者は、金融・暗号業界を標的にObsidianの共有ボルトを悪用するソーシャルエンジニアリング攻撃（REF6598）を報告。LinkedIn/Telegramで信頼を築き、利用者にcommunityプラグインの有効化を促して改変プラグイン経由で新型RAT「PHANTOMPULSE」を配布。Windows/macOS対応でEthereumを使いC2を解決、キーログ・スクショ・ファイル流出などで完全侵害を狙う。",
       "source": "Hacker News",
       "publishedAt": "2026-05-10T22:02:43.000Z",
-      "contentHash": "1d239f392e2e"
+      "contentHash": "8ce90aa0177e"
     },
     {
       "id": "664a75795eb2",
       "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
-      "summary": "メリーランド州の電力利用者が、州外のAIデータセンターに電力を供給するための送電網改修費約20億ドルを負担させられる事態に。州は連邦エネルギー規制委（FERC）に訴え、追加費用が利用者保護の約束に反するとして是正を求めている。",
+      "summary": "メリーランド州で約20億ドルの送電網改修費が州民に転嫁される見込みで、その費用が主に州外のAIデータセンター向けであるとして州が連邦電力規制当局に抗議。追加費用は料金保護の約束に反すると主張。",
       "source": "Hacker News",
       "publishedAt": "2026-05-10T21:16:58.000Z",
-      "contentHash": "0ab7ca323fa5"
+      "contentHash": "a30fa85d3f3c"
     },
     {
       "id": "7f803c95df3b",
       "title": "The Bastl Kalimba is a wild synth that thinks it’s a thumb piano",
       "url": "https://www.theverge.com/tech/927638/the-bastl-kalimba-is-a-wild-synth-that-thinks-its-a-thumb-piano",
-      "summary": "Bastl Kalimbaは親指ピアノ風のシンセで、弦は音を出さないタッチ/ベロシティトリガー。物理モデリング＋FM音源、内蔵マイク、リバーブ/ディレイ/歪み等のエフェクト、ルーパーやアルペジエイター搭載。Kickstarterで70万ドル超を調達。",
+      "summary": "Bastl Kalimbaは親指ピアノの形をしたシンセ。弦はタッチ／ベロシティ・トリガーで音は物理モデリング＋FMが主体、内蔵マイクは混ぜられる。多彩な音色とディレイ・リバーブ・歪み・ビットクラッシュ・テープ、フィルター、アルペジエイター、タイムストレッチ対応ルーパーやタッチポイントを搭載。Kickstarterで70万ドル超を調達。",
       "source": "The Verge",
       "publishedAt": "2026-05-10T20:42:08.000Z",
-      "contentHash": "81f9fef1b464"
+      "contentHash": "ed78cca75b21"
     },
     {
       "id": "ec1493d25422",
@@ -149,10 +221,10 @@
       "id": "7a095d7a2249",
       "title": "Incident Report: CVE-2024-YIKES",
       "url": "https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html",
-      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文を貼り付けるか、主要なポイントを教えていただけますか？いただければ200文字以内で日本語要約します。",
+      "summary": "JavaScriptの依存が侵害され、メンテナの認証情報がフィッシングで盗まれた結果、Rust圧縮ライブラリ経由でPythonビルドツールにマルウェアが混入。約400万人に配布され、postinstallで認証情報が流出。73時間後、偶発的な暗号通貨マイナー活動で修正された。",
       "source": "Hacker News",
       "publishedAt": "2026-05-10T17:43:10.000Z",
-      "contentHash": "2e5cff4c88d8"
+      "contentHash": "b37ecb4de9e8"
     },
     {
       "id": "e64be3e3229f",
@@ -1067,19 +1139,19 @@
       "id": "3a18c3d48ddc",
       "title": "Codex Chrome extension の概要",
       "url": "https://note.com/npaka/n/n8de1c3acd145",
-      "summary": "Codex Chrome extensionは、ログイン済みのWebサイト上でCodexがページを読み操作できるChrome拡張です。SalesforceやGmail、LinkedIn等で作業可能。Pluginsから接続し、サイトごとに「今回のみ・常時許可・拒否」を設定でき、強めの権限を求めるが利用は確認や許可リストで制御されます。",
+      "summary": "Codex Chrome extensionは、ログイン済みのChromeを使いLinkedIn/Gmail/Salesforce等でCodexがページを読み取ったり操作したりできる拡張機能です。Pluginsから接続・権限承認で設定し、サイトごとに「今回のみ/常時許可/拒否」を選べます。強いブラウザ権限を要求しますが確認や許可リストで制御可能。非ログインやローカル確認はin-app browserが推奨されます。",
       "source": "npaka",
       "publishedAt": "2026-05-07T22:47:49.000Z",
-      "contentHash": "19d205df1b1e"
+      "contentHash": "9a8e0a1c4088"
     },
     {
       "id": "8d2b7ead8341",
       "title": "GPT-Realtime-2 ・ GPT-Realtime-Translate ・ GPT-Realtime-Whisper の概要",
       "url": "https://note.com/npaka/n/nade0d8498e64",
-      "summary": "APIに3つの新音声モデルが追加。GPT‑Realtime‑2はGPT‑5級の推論、長大コンテキスト（32K→128K）、ツール呼び出しや応答制御を強化。GPT‑Realtime‑Translateは70言語超→13言語のリアルタイム翻訳・文字起こし、GPT‑Realtime‑Whisperは低遅延のストリーミング音声認識。音声が聞くだけでなく推論・行動するインターフェースへ進化。",
+      "summary": "OpenAIがAPIにGPT-Realtime-2、GPT-Realtime-Translate、GPT-Realtime-Whisperを追加。GPT-Realtime-2は高度推論・長コンテキスト・低遅延会話・ツール連携・トーン制御が可能、Translateは70以上の入力言語からリアルタイム翻訳、Whisperは低遅延のストリーミング文字起こしを提供し、音声を「応答」から「推論・行動」するインターフェースへ進化させる。",
       "source": "npaka",
       "publishedAt": "2026-05-07T21:45:17.000Z",
-      "contentHash": "67946d6b83ee"
+      "contentHash": "69051dc0244a"
     },
     {
       "id": "bbfe7c8eee50",
@@ -1616,10 +1688,10 @@
       "id": "ee647ff34d77",
       "title": "Claude Managed Agents の新機能まとめ - Dreaming ・ Outcomes ・ Multiagent orchestration ・ Webhooks",
       "url": "https://note.com/npaka/n/n800e489e1be9",
-      "summary": "Anthropicが2026年5月6日、Claude Managed Agentsに新機能を追加。研究プレビューのDreaming（過去セッション整理）、成果評価と再試行のOutcomes、役割分担で並列処理するMultiagent orchestration、状態通知のWebhooksを提供。",
+      "summary": "AnthropicがClaude Managed Agentsに新機能を追加：Dreaming（過去セッションのメモを整理）、Outcomes（評価基準で成果を検査・再試行）、Multiagent orchestration（役割分担で並列処理）、Webhooks（状態通知）。",
       "source": "npaka",
       "publishedAt": "2026-05-06T23:00:10.000Z",
-      "contentHash": "40e6d6499093"
+      "contentHash": "2e554df73e16"
     },
     {
       "id": "ef3e61de4219",
@@ -2471,10 +2543,10 @@
       "id": "4fa573234660",
       "title": "Codex App Server の概要",
       "url": "https://note.com/npaka/n/n075114596672",
-      "summary": "Codex App Serverは、エージェントループや会話管理、認証、ツール実行を担うCodexハーネスを複数クライアントで共有するためのJSON-RPC風双方向プロトコルサーバ。stdioのJSONLで通信し、リーダー・メッセージ処理・スレッド管理・コア実行の4コンポーネントでセッション、進捗、差分、ツール呼び出しを扱い、IDEなどでのリッチな体験を実現する。",
+      "summary": "OpenAIのCodexハーネスを各クライアントとつなぐための双方向JSON-RPC風プロトコル「Codex App Server」を解説。Codex coreのエージェントループ、会話管理、認証、ツール実行を再利用でき、stdioリーダー・メッセージ処理・スレッド管理・コア実行の4構成で複雑な進捗や差分表示を可能にする。",
       "source": "npaka",
       "publishedAt": "2026-05-04T23:15:33.000Z",
-      "contentHash": "08edb56869cc"
+      "contentHash": "524865d3655c"
     },
     {
       "id": "51fb4a570124",
@@ -8928,78 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-04-20T15:00:00.000Z",
       "contentHash": "339edae0afcc"
-    },
-    {
-      "id": "068eb427302c",
-      "title": "Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving",
-      "url": "https://qwen.ai/blog?id=qwen3.6-max-preview",
-      "summary": "申し訳ありませんが外部リンクを直接参照できません。記事本文をここに貼るか主要ポイントを送ってください。受け取れば200文字以内で日本語に要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T14:05:34.000Z",
-      "contentHash": "87fd6adcd2d0"
-    },
-    {
-      "id": "8903a697d7f9",
-      "title": "All phones sold in the EU to have replaceable batteries from 2027",
-      "url": "https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/",
-      "summary": "EUは2027年からスマホやタブレットに交換可能なバッテリーを義務化。修理や交換を容易にして製品寿命を延ばし、電子廃棄物削減と消費者負担軽減を図る措置で、メーカーは交換用電池の提供などが求められる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T13:41:25.000Z",
-      "contentHash": "b902415337a1"
-    },
-    {
-      "id": "86eb14da5300",
-      "title": "Sauna effect on heart rate",
-      "url": "https://tryterra.co/research/sauna-effect-on-heart-rate",
-      "summary": "サウナは高温により心拍数を運動時レベルまで一時的に上昇させ、心拍変動が低下することがある。定期利用で安静時心拍や血圧改善などの心血管利益が報告される一方、脱水や心疾患のある人は注意し、短時間・水分補給を心がけるべきとまとめている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T13:40:28.000Z",
-      "contentHash": "d1d9f167a21a"
-    },
-    {
-      "id": "d68f3573db87",
-      "title": "The Elden Ring movie hits theaters in March 2028",
-      "url": "https://www.theverge.com/entertainment/914818/elden-ring-movie-date-cast",
-      "summary": "2022年のオープンワールドRPG『Elden Ring』の実写映画が2028年3月3日公開予定。今春撮影開始。製作はA24、脚本・監督はアレックス・ガーランド。主要キャストにキット・コナー、ベン・ウィショー、ケイリー・スパニーら。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-20T13:25:40.000Z",
-      "contentHash": "6ee403154396"
-    },
-    {
-      "id": "c7257e39e0e5",
-      "title": "Vampire Survivors’ new spinoff switches genres but keeps the good vibes",
-      "url": "https://www.theverge.com/games/913410/vampire-survivors-new-spinoff-switches-genres-but-keeps-the-good-vibes",
-      "summary": "「Vampire Survivors」スピンオフ「Vampire Crawlers」は、ダンジョンクローラー×ローグライク・デッキ構築に転向しつつも元作の雰囲気と楽しさを受け継ぎ、筆者の熱中を再燃させた。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-20T13:00:00.000Z",
-      "contentHash": "c0a709bb81ec"
-    },
-    {
-      "id": "eff0928d6d67",
-      "title": "This pasta sauce wants to record your family",
-      "url": "https://www.theverge.com/tech/913874/prego-connection-keeper-bundle-voice-recorder-storycorps",
-      "summary": "Pregoは夕食の会話を記録・保存するスクリーン無しの音声レコーダー「Connection Keeper」を発表。瓶蓋風のデザインでStoryCorpsと協力。AI／Wi‑Fi／Bluetoothは非搭載だが、録音は任意でStoryCorpsにアップして家族で共有でき、家族のつながりや思い出の保存が目的。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-20T13:00:00.000Z",
-      "contentHash": "95c4f33c943f"
-    },
-    {
-      "id": "61881bb6805e",
-      "title": "ggsql: A Grammar of Graphics for SQL",
-      "url": "https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/",
-      "summary": "ggsqlはSQL内でグラフィック文法（grammar of graphics）に基づく可視化を記述できるツール。α版でQuarto・Jupyter・Positron・VS Code等に対応し、散布図などの例を提供。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T12:51:20.000Z",
-      "contentHash": "d6e4f1ffb0e6"
-    },
-    {
-      "id": "f72fedfae9b1",
-      "title": "Atlassian Enables Default Data Collection to Train AI",
-      "url": "https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8",
-      "summary": "Atlassianが製品データの収集をデフォルトでAI学習に利用する設定に変更。ユーザー生成コンテンツやテレメトリが対象で企業はオプトアウト可能だが、機密コードやプライバシー利用の懸念から批判が集まっている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T12:23:39.000Z",
-      "contentHash": "25253e312b60"
     }
   ]
 }
