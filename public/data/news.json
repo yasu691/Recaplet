@@ -1,6 +1,186 @@
 {
-  "generatedAt": "2026-05-10T17:22:21.592Z",
+  "generatedAt": "2026-05-11T04:19:32.100Z",
   "items": [
+    {
+      "id": "5822d11613f5",
+      "title": "「VS Codeはもう古い？Google AIエージェントが拓く「自律開発」」～【googlecloud】人気記事（2026/05/10） | CareNet Engineersのフィード",
+      "url": "https://zenn.dev/carenet/articles/zenn-weekly-googlecloud-articles-2026-05",
+      "summary": "Zennの人気Google Cloud記事を自動収集してAIが要約紹介。SpannerのColumnar Engine検証、Claude×Geminiゲートウェイ、APIコスト監視、Antigravity/Agent Studioの自律開発、OpenClawのGCP上セキュリティ、Cloud Next参加術などを扱う。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-11T02:56:44.000Z",
+      "contentHash": "8b374ac285ba"
+    },
+    {
+      "id": "0144b0517eb7",
+      "title": "Vercelのコストを抑えるためにBot対策する | chot Inc. tech blogのフィード",
+      "url": "https://zenn.dev/chot/articles/vercel_bot_manager",
+      "summary": "Vercelの高コストはボットアクセスが原因と判明し、2025年3月末に異常を検知。4月からBot Management（AI保護・CustomRules、60秒40回のレート制限、JA4 TLSフィンガープリントやパス／AS名監視）を導入したところ、Next.js更新以上にコスト削減効果があり、公開直後の自動攻撃やCT Logの影響も指摘している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-11T02:52:24.000Z",
+      "contentHash": "05b261c87822"
+    },
+    {
+      "id": "28776cd144fe",
+      "title": "新規事業にデータアナリストが伴走した半年間 | Timee Product Team Blog",
+      "url": "https://tech.timee.co.jp/entry/2026/05/11/110222",
+      "summary": "タイミーの新規事業「タイキャリ」を半年伴走したリードDAが、立ち上げで遭遇した3つの課題（窓口不在、計測設計の後追い、横断優先度の欠如）と、それを防ぐ時系列の実務アクション（専任アサイン、関係者ヒアリング、依頼チャンネル合意、計測設計早期介入など）をまとめた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-11T02:02:22.000Z",
+      "contentHash": "430b64b3de43"
+    },
+    {
+      "id": "71f495c4dff9",
+      "title": "拡張性は「誰が何を変えるか」で設計する | DRESS CODE TECH BLOGのフィード",
+      "url": "https://zenn.dev/dress_code/articles/design-extensibility-who-what",
+      "summary": "拡張性はまず「誰が拡張するか（自分／チーム内／第三者）」と「何を変えるか（実装差替／手順組替／参加者追加）」で決める。軸に応じてStrategy/Factory/Template/Decorator/Chain of Responsibility/Registry/Observer/Plugin等を使い分ける。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-11T02:00:08.000Z",
+      "contentHash": "6cfe2adca22b"
+    },
+    {
+      "id": "e75f3404283a",
+      "title": "LINE iOSアプリにおけるMergeable Libraryの段階的導入 | LINEヤフー Tech Blog (LY Corporation Tech Blog",
+      "url": "https://techblog.lycorp.co.jp/ja/20260511b",
+      "summary": "LINE iOSは静的フレームワーク中心でXcode Previewsが不安定だったため、Xcode15のMergeable Libraryを段階的導入。Debugでは動的に振る舞いプレビューと増分ビルドを高速化、Releaseではバイナリをマージして起動時間とサイズを最適化。課題と対策を報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-11T02:00:00.000Z",
+      "contentHash": "59b3f5b13308"
+    },
+    {
+      "id": "beab1870f016",
+      "title": "try! Swift Tokyo 2026に採択・登壇するまでの舞台裏 | ZOZO TECH BLOG",
+      "url": "https://techblog.zozo.com/entry/try-swift-tokyo-2026-report",
+      "summary": "ZOZOのiOSエンジニア續橋がtry! Swift Tokyo 2026で「GeoJSON×SwiftUI」を発表するまでの舞台裏。社内プロポーザル会やGPTコーチで準備し、採択→スライド英訳・ビジュアライズ改善→練習→登壇までの過程と横断的な協力を綴る。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-11T02:00:00.000Z",
+      "contentHash": "77160cef2cc6"
+    },
+    {
+      "id": "0b9756495154",
+      "title": "【immich】Google Photoを卒業した話 | TechHarmony",
+      "url": "https://blog.usize-tech.com/immich-on-ec2/",
+      "summary": "SCSKの永見さんが、長年Androidで重宝しているGoogleフォトのストレージ不足に直面。上位プランへの移行をためらいながら、対策を調べ始めたという導入部分です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-11T01:53:18.000Z",
+      "contentHash": "5c99d71566b2"
+    },
+    {
+      "id": "992fd8f9f09b",
+      "title": "「CTO EXCELLENCE in 100 Days」から学ぶ、CTOとしての所作 | コネヒト開発者ブログ",
+      "url": "https://tech.connehito.com/entry/2026/05/11/104857",
+      "summary": "たかぱい（@takapy0210）がさとやんから受け取った「スマイルバトン」を紹介。スマイルバトンは書籍やチケットを贈り合うリレー型アウトプット企画で、受け取った人は感想を共有して次へ渡す。今回読んだ本は『CTO EXCELLENCE in 100 Days』。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-11T01:48:57.000Z",
+      "contentHash": "1140c2eb04e2"
+    },
+    {
+      "id": "11dbe6d2f948",
+      "title": "AI駆動PMの5原則と12の具体例 — Claude Code × Obsidian | アサインのフィード",
+      "url": "https://zenn.dev/assign/articles/4ba3d41bf59a61",
+      "summary": "Claude CodeとObsidianでのAI駆動PMの手法を解説。成果物をMarkdownに集約し「コンテキスト揃え・構造化・状態保持・操作可能化・鮮度維持」の5原則を示し、外部情報自動収集・自律実行・スプリント一括起票など12の具体例を紹介する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-11T01:35:00.000Z",
+      "contentHash": "a2a8289e977e"
+    },
+    {
+      "id": "663b221b220f",
+      "title": "I'm going back to writing code by hand",
+      "url": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/",
+      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文を貼っていただければ、200字以内で日本語要約を作成します。本文を貼れない場合は、タイトルから推測した簡潔な要約を作ることも可能です。どちらがよいですか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-11T01:23:51.000Z",
+      "contentHash": "bc9dcad4a955"
+    },
+    {
+      "id": "57294eed6117",
+      "title": "PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs",
+      "url": "https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656",
+      "summary": "PS3エミュレータの開発者が、AI生成の低品質なプルリクエストが大量に送られ作業を妨げているとして、送付を控えるよう穏やかに要請。多くのPRは却下・クローズされている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-10T23:36:48.000Z",
+      "contentHash": "6baa1916d5f6"
+    },
+    {
+      "id": "ee8b6b466c18",
+      "title": "Running local models on an M4 with 24GB memory",
+      "url": "https://jola.dev/posts/running-local-models-on-m4",
+      "summary": "Apple M4でローカルLLMを動かす手順と性能比較を解説。llama.cpp/ggmlやmlc-llmなどのツール導入、量子化でメモリ削減、MPS/Neural Engine活用による高速化や実運用の注意点を示す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-10T23:09:10.000Z",
+      "contentHash": "b9926cc619d2"
+    },
+    {
+      "id": "f5e60b801e70",
+      "title": "Obsidian plugin was abused to deploy a remote access trojan",
+      "url": "https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/",
+      "summary": "研究者がObsidianのサードパーティ製プラグインを悪用した攻撃で、リモートアクセス型マルウェア「Phantom Pulse RAT」が配布されたと報告。偽プラグイン経由でペイロードを導入し遠隔操作や情報窃取を行う。該当プラグインの削除、提供元確認、ソフト更新や調査を推奨。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-10T22:02:43.000Z",
+      "contentHash": "1d239f392e2e"
+    },
+    {
+      "id": "664a75795eb2",
+      "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+      "summary": "メリーランド州の電力利用者が、州外のAIデータセンターに電力を供給するための送電網改修費約20億ドルを負担させられる事態に。州は連邦エネルギー規制委（FERC）に訴え、追加費用が利用者保護の約束に反するとして是正を求めている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-10T21:16:58.000Z",
+      "contentHash": "0ab7ca323fa5"
+    },
+    {
+      "id": "7f803c95df3b",
+      "title": "The Bastl Kalimba is a wild synth that thinks it’s a thumb piano",
+      "url": "https://www.theverge.com/tech/927638/the-bastl-kalimba-is-a-wild-synth-that-thinks-its-a-thumb-piano",
+      "summary": "Bastl Kalimbaは親指ピアノ風のシンセで、弦は音を出さないタッチ/ベロシティトリガー。物理モデリング＋FM音源、内蔵マイク、リバーブ/ディレイ/歪み等のエフェクト、ルーパーやアルペジエイター搭載。Kickstarterで70万ドル超を調達。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-10T20:42:08.000Z",
+      "contentHash": "81f9fef1b464"
+    },
+    {
+      "id": "ec1493d25422",
+      "title": "Hardware Attestation as Monopoly Enabler",
+      "url": "https://grapheneos.social/@GrapheneOS/116550899908879585",
+      "summary": "すみません、外部URLへ直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で日本語要約します。HNコメントまで含めるか（または本文のみか）も教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-10T17:54:02.000Z",
+      "contentHash": "9a8296682e1d"
+    },
+    {
+      "id": "7a095d7a2249",
+      "title": "Incident Report: CVE-2024-YIKES",
+      "url": "https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html",
+      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文を貼り付けるか、主要なポイントを教えていただけますか？いただければ200文字以内で日本語要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-10T17:43:10.000Z",
+      "contentHash": "2e5cff4c88d8"
+    },
+    {
+      "id": "e64be3e3229f",
+      "title": "Ask HN: What are you working on? (May 2026)",
+      "url": "https://news.ycombinator.com/item?id=48085993",
+      "summary": "Hacker Newsの「何に取り組んでる？新アイデアは？」スレ。参加者が開発中のプロジェクトやアイデアを共有し、フィードバックや協力を募る投稿が多数。AI、開発ツール、スタートアップ、学習など多彩な話題で議論が活発。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-10T17:34:41.000Z",
+      "contentHash": "6913f12c7c83"
+    },
+    {
+      "id": "b18d930fb246",
+      "title": "Local AI needs to be the norm",
+      "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+      "summary": "記事はAIをクラウド任せにせず端末上で動かす「ローカルAI」を標準にすべきと主張。プライバシー保護、低遅延、オフライン動作、個人最適化など利点と、共通フォーマット・API・配布・更新・ハード支援などの標準化が必要と論じる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-10T17:19:28.000Z",
+      "contentHash": "1b186b64eba3"
+    },
+    {
+      "id": "d1e48710d608",
+      "title": "Traces Of Humanity",
+      "url": "https://tracesofhumanity.org/hello-world/",
+      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文を貼り付けるか主要ポイントを教えてください。受け取れば200文字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-10T17:15:10.000Z",
+      "contentHash": "f0f8154c4436"
+    },
     {
       "id": "f231b6f8c36a",
       "title": "Ashnymph’s Childhood EP is exhilarating dance goth rock",
@@ -41,10 +221,10 @@
       "id": "7979e5bbfe47",
       "title": "Cricut’s $99 craft cutting machine helped me feel creative again",
       "url": "https://www.theverge.com/gadgets/924281/cricut-joy-2-smart-cutting-machine-printer-hands-on",
-      "summary": "Cricut Joy 2は99ドルのデスク置き可能な小型カッティング機で、テンプレートを使い短時間でステッカーやカード、しおり作りが楽しめ創作意欲を回復させた。一方アプリのオンボーディングは改善が必要。",
+      "summary": "Cricut Joy 2（$99）は小型のクラフト切断・描画機。3週間試用でステッカーやカード作りが気軽にでき、テンプレが創作再開を後押しした。アプリの導入は改善が必要。",
       "source": "The Verge",
       "publishedAt": "2026-05-10T14:00:00.000Z",
-      "contentHash": "000c731db440"
+      "contentHash": "d3d03270e1b3"
     },
     {
       "id": "ca58f16aa3e0",
@@ -302,10 +482,10 @@
       "id": "1252aef1541e",
       "title": "These great digital gifts will arrive just in time for Mother’s Day",
       "url": "https://www.theverge.com/gadgets/927310/best-digital-gift-ideas-mothers-day-online-cards-subscriptions-2026",
-      "summary": "母の日が明日で配送が間に合わない人向けに、映画・ゲーム・音楽などのデジタルギフトを提案。即贈送でき、体験を届けたり母が自由に選べる便利で多用途な選択肢。",
+      "summary": "母の日が間近で配送が間に合わない人向けに、映画・ゲーム・音楽などのデジタルギフトを紹介。物でなくても体験や選べる贈り物として便利で即送可能と提案している。",
       "source": "The Verge",
       "publishedAt": "2026-05-09T14:00:00.000Z",
-      "contentHash": "eb053a2cf229"
+      "contentHash": "149b5fea6a9b"
     },
     {
       "id": "6df174264699",
@@ -887,10 +1067,10 @@
       "id": "3a18c3d48ddc",
       "title": "Codex Chrome extension の概要",
       "url": "https://note.com/npaka/n/n8de1c3acd145",
-      "summary": "OpenAIのCodex Chrome extensionは、ログイン済みのChromeを通じてSalesforceやGmail、LinkedIn等を読み書き・操作できる拡張機能。Pluginsから接続し、ホストごとの許可/拒否や許可リストでアクセス制御が可能。導入時は広範なChrome権限を求める点に注意。",
+      "summary": "Codex Chrome extensionは、ログイン済みのWebサイト上でCodexがページを読み操作できるChrome拡張です。SalesforceやGmail、LinkedIn等で作業可能。Pluginsから接続し、サイトごとに「今回のみ・常時許可・拒否」を設定でき、強めの権限を求めるが利用は確認や許可リストで制御されます。",
       "source": "npaka",
       "publishedAt": "2026-05-07T22:47:49.000Z",
-      "contentHash": "a13406b1e848"
+      "contentHash": "19d205df1b1e"
     },
     {
       "id": "8d2b7ead8341",
@@ -1436,10 +1616,10 @@
       "id": "ee647ff34d77",
       "title": "Claude Managed Agents の新機能まとめ - Dreaming ・ Outcomes ・ Multiagent orchestration ・ Webhooks",
       "url": "https://note.com/npaka/n/n800e489e1be9",
-      "summary": "2026年5月6日、AnthropicはClaude Managed AgentsにDreaming（過去セッションを振り返りメモを整理）、Outcomes（成果基準の設定と評価・再試行）、Multiagent orchestration（役割分担で並列処理）、Webhooks（状態通知）を追加しました。",
+      "summary": "Anthropicが2026年5月6日、Claude Managed Agentsに新機能を追加。研究プレビューのDreaming（過去セッション整理）、成果評価と再試行のOutcomes、役割分担で並列処理するMultiagent orchestration、状態通知のWebhooksを提供。",
       "source": "npaka",
       "publishedAt": "2026-05-06T23:00:10.000Z",
-      "contentHash": "34084559ed56"
+      "contentHash": "40e6d6499093"
     },
     {
       "id": "ef3e61de4219",
@@ -1841,19 +2021,19 @@
       "id": "dd1c5a389f84",
       "title": "GPT‑5.5 Instant の概要",
       "url": "https://note.com/npaka/n/nf19bb3ea10d5",
-      "summary": "GPT‑5.5 InstantをChatGPTのデフォルトに順次導入。事実精度・視覚推論・STEM能力が向上し応答はより簡潔に。過去チャットやファイル/Gmailでパーソナライズし、「メモリソース」で透明性を提供。API・各プランへ段階展開。",
+      "summary": "GPT‑5.5 InstantがChatGPTの新デフォルトに。事実精度や画像・STEM解析が大幅改善され簡潔化、過去チャットやファイルを使ったパーソナライズ強化と「メモリソース」で管理可能。順次全ユーザーとAPIに展開。",
       "source": "npaka",
       "publishedAt": "2026-05-05T23:15:08.000Z",
-      "contentHash": "c6d4805df8b7"
+      "contentHash": "6c00fc474d9c"
     },
     {
       "id": "71c94ca6ca21",
       "title": "Gemma 4 MTP Drafters の概要",
       "url": "https://note.com/npaka/n/n7e64b803037c",
-      "summary": "Gemma 4向けMTP（Multi‑Token Prediction）Draftersを発表。軽量ドラフトモデルが複数トークンを先読みし、Gemma 4が並列検証する投機的デコーディングで最大3倍高速化。品質維持のままレイテンシ削減やオンデバイス最適化を実現。",
+      "summary": "Gemma 4向けMTP Draftersは、軽量ドラフトモデルが複数トークンを予測し重いGemma 4が並列検証する投機的デコーディングで最大3倍高速化。品質を保ちつつ応答性・オンデバイス性能を改善し、KVキャッシュ共有などの最適化を導入。",
       "source": "npaka",
       "publishedAt": "2026-05-05T22:58:06.000Z",
-      "contentHash": "95f099a6ce0c"
+      "contentHash": "2f37b8a4c431"
     },
     {
       "id": "d5c1c1407409",
@@ -2291,10 +2471,10 @@
       "id": "4fa573234660",
       "title": "Codex App Server の概要",
       "url": "https://note.com/npaka/n/n075114596672",
-      "summary": "OpenAIのCodexハーネスを複数の製品で再利用するための下位互換性あるプロトコル兼サーバ。stdio経由のJSONL風双方向JSON-RPCで通信し、スレッド管理、ツール実行、進捗/差分表示、認証などを4つのコンポーネントで提供する。",
+      "summary": "Codex App Serverは、エージェントループや会話管理、認証、ツール実行を担うCodexハーネスを複数クライアントで共有するためのJSON-RPC風双方向プロトコルサーバ。stdioのJSONLで通信し、リーダー・メッセージ処理・スレッド管理・コア実行の4コンポーネントでセッション、進捗、差分、ツール呼び出しを扱い、IDEなどでのリッチな体験を実現する。",
       "source": "npaka",
       "publishedAt": "2026-05-04T23:15:33.000Z",
-      "contentHash": "cee7e0ad160b"
+      "contentHash": "08edb56869cc"
     },
     {
       "id": "51fb4a570124",
@@ -2732,10 +2912,10 @@
       "id": "11cd193e0bdf",
       "title": "Codex CLI の /goal の概要",
       "url": "https://note.com/npaka/n/n15e84ee77f5a",
-      "summary": "Codex CLIに/goal追加。スレッドで目標を保持し、達成まで反復的に作業・検証する（Ralph loop）。設定・pause/resume/clearを備え、experimental機能でconfigで有効化。完了条件が明確な反復作業向きで、曖昧な目標や大規模な差分には注意。",
+      "summary": "Codex CLIの実験的コマンド/goalは目標をスレッドで保持し、検証→修正を繰り返して達成を目指す機能（Ralph loop相当）。/goal <目標>、pause、resume、clearが使え、~/.codex/config.tomlで有効化。完了条件を明確にしないと差分拡大や迷走の恐れあり。",
       "source": "npaka",
       "publishedAt": "2026-05-03T14:13:51.000Z",
-      "contentHash": "7a74c6676965"
+      "contentHash": "5b8693a90418"
     },
     {
       "id": "0d01c1c3bf9f",
@@ -8820,186 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-20T12:23:39.000Z",
       "contentHash": "25253e312b60"
-    },
-    {
-      "id": "c43717339cb8",
-      "title": "Huawei beats Samsung and Apple to market with the first wide foldable",
-      "url": "https://www.theverge.com/tech/914807/huawei-pura-x-max-launch-price-specs-availability",
-      "summary": "Huaweiがパスポート型ワイド折りたたみスマホ「Pura X Max」を中国で発表・発売。AppleやSamsungに先駆け市場初のワイド折りたたみ機。12/16GBや256/512GBなどの仕様で、約10,999〜13,999元（約1,600〜2,050ドル）、本日から予約開始。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-20T12:19:19.000Z",
-      "contentHash": "b7e8109b6a68"
-    },
-    {
-      "id": "268ff144f920",
-      "title": "Tesla concealed fatal accidents to continue testing autonomous driving",
-      "url": "https://www.rts.ch/info/monde/2026/article/tesla-dissimule-des-milliers-d-incidents-de-conduite-autonome-mortels-29214161.html",
-      "summary": "すみません、外部リンクの本文を直接参照できません。記事本文をここに貼っていただければ、200文字以内で日本語に要約します。全文が長ければ要点だけでも構いません。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T12:12:19.000Z",
-      "contentHash": "fc12883f6c0e"
-    },
-    {
-      "id": "b72539e4adcc",
-      "title": "M 7.4 earthquake – 100 km ENE of Miyako, Japan",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sri7/",
-      "summary": "申し訳ありませんが、外部サイトへ直接アクセスできません。要約するには、記事本文（または重要箇条）をここに貼ってください。HNのコメントも要約希望なら一緒に貼るか、その旨を教えてください。貼っていただければ200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T10:04:40.000Z",
-      "contentHash": "8e21a55b477d"
-    },
-    {
-      "id": "8ebb2f8739a4",
-      "title": "NSA is using Anthropic's Mythos despite blacklist",
-      "url": "https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon",
-      "summary": "申し訳ありませんが外部リンクに直接アクセスできません。記事本文を貼るか主要ポイントを教えていただければ、200字以内で日本語要約します。HNの議論も要約可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T10:00:35.000Z",
-      "contentHash": "7b38e40bb598"
-    },
-    {
-      "id": "cec6030da229",
-      "title": "Claude Cowork にある「Project」を使って、社外登壇の準備を進めてみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/04/20/183214",
-      "summary": "Claude CoworkのProject機能で社外登壇準備を効率化した体験記。背景・タスク・ファイル・履歴を一元管理でき、思い出しコストや聴衆仮説構築、ストーリー修正の負担が大幅に軽減。手順と改善点、Tipsを紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-20T09:32:14.000Z",
-      "contentHash": "6e053ac64e7a"
-    },
-    {
-      "id": "89dff81a2e21",
-      "title": "GoPro’s new Mission cameras are priced beyond most weekend athletes",
-      "url": "https://www.theverge.com/gadgets/914764/gopros-mission-camera-prices",
-      "summary": "GoProがMission 1とMission 1 Proを発表。価格は$599.99と$699.99でサブスク加入なら各$100引き。5月28日発売、予約で専用グリップ無料。MFT対応のPro ILSはQ3登場。プロ向けの高価格で週末ユーザーには割高感、アクセサリも高額。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-20T09:04:39.000Z",
-      "contentHash": "33269c5d48e6"
-    },
-    {
-      "id": "dedbd34a0551",
-      "title": "TypeScriptで配列引数の要素に応じて返り値の型を変える4つの方法 | atama plus techblogのフィード",
-      "url": "https://zenn.dev/atamaplus/articles/9df0ac2b3b3462",
-      "summary": "配列引数の要素に応じて返り値の型を切り替えるTypeScriptの手法を4つ比較する記事。例としてロール配列に基づき返却型を絞る問題を提示し、条件型（ArrayIncludesで要素判定）やオーバーロード等の実装例と向き不向きを解説する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-20T09:00:07.000Z",
-      "contentHash": "4bdb83492874"
-    },
-    {
-      "id": "c950ddd2240e",
-      "title": "CRuby のメモリ管理を MMTk で再構築する試み（翻訳） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_04_20/157760",
-      "summary": "CRubyのメモリ管理をMMTkで再構築する試みを翻訳。Peter Zhuの2025年記事と関連論文に基づき、MMTk導入による設計・実装・性能改善を解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-20T08:30:45.000Z",
-      "contentHash": "3de99a3ef90b"
-    },
-    {
-      "id": "f781972f936b",
-      "title": "“Dropboxフォルダのアップデート”表示、見かけたら要チェック！ | TechHarmony",
-      "url": "https://blog.usize-tech.com/dropbox-folder-update/",
-      "summary": "Windows版Dropboxは順次「WindowsのクラウドファイルAPI」へ移行します。［同期］で更新状況を確認し案内から更新。更新でエクスプローラーに状態列とWindowsの雲アイコンが表示され、処理に数時間かかる・一時的にアイコンが消えることがあります。同期数50万件超や旧Backup有効は自動更新対象外で、未更新でも即使えなくはないが将来の改善やセキュリティ更新が受けにくくなります。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-20T08:27:02.000Z",
-      "contentHash": "4e6e1ec0e7df"
-    },
-    {
-      "id": "34144e987770",
-      "title": "GitHub's Fake Star Economy",
-      "url": "https://awesomeagents.ai/news/github-fake-stars-investigation/",
-      "summary": "調査はGitHubの「スター」が業者とボットで大量に買われており、リポジトリの可視性や信頼を歪めていると報告。手口（大量アカウント、プロキシ、マーケットプレイス）、既存対策の限界を示し、スター出所の可視化や厳格な検出・検証強化を提言。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T08:26:52.000Z",
-      "contentHash": "970466cf527e"
-    },
-    {
-      "id": "2cff7e1499c0",
-      "title": "2026年新卒入社合宿ブログ【コース①】 | アプリ開発・制作／システム開発のYAZ",
-      "url": "https://www.yaz.co.jp/news/10357",
-      "summary": "2026年4月に株式会社YAZへ入社した義田が、4月2〜3日に三浦海岸のマホロバで行われた新入社員研修合宿（2026年新卒入社合宿コース①）について綴ったブログ記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-20T08:17:00.000Z",
-      "contentHash": "3c23f85dce70"
-    },
-    {
-      "id": "2733ae4b4782",
-      "title": "Zscaler環境のWSLからSnowSQLを使ってSSO認証でSnowflakeに接続する方法 | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/af1cf4c5026e55",
-      "summary": "WSL上のSnowSQLでZscaler環境下のSSO接続を試したところ、ZIAのSSLインスペクションによる証明書エラーとブラウザSSO認証失敗に遭遇。記事は原因と対処（WSLにZscalerのCAを導入、ブラウザ/認証設定の調整）をSnowSQL1.4.5・Ubuntu WSL環境で解説し、新規はSnowflake CLI検討を推奨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-20T07:09:56.000Z",
-      "contentHash": "a0a1d7784ab5"
-    },
-    {
-      "id": "ffa0050907c3",
-      "title": "「AIエージェントキャッチアップ #74 - NemoClaw」を開催しました | Generative Agents Tech Blog",
-      "url": "https://blog.generative-agents.co.jp/entry/2026/04/20/160615",
-      "summary": "ジェネラティブエージェンツの大嶋が「AIエージェントキャッチアップ #74 - NemoClaw」を開催。NVIDIAの常時稼働アシスタントを安全に実行するためのNemoClawを紹介・解説し、Connpass案内、YouTubeアーカイブ、GitHubリポジトリを公開。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-20T07:06:15.000Z",
-      "contentHash": "f5e894bb660f"
-    },
-    {
-      "id": "f899471de42c",
-      "title": "NTTグループKaggle勉強会に参加してみた（2026/3/24） | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/e956073315b83e",
-      "summary": "2026年3月24日にNTTグループ内でKaggle勉強会を開催。Kaggleの始め方や学習環境、実務応用事例、各社の支援体制や課題（計算資源・業務両立）を共有し、交流による学び拡大を確認した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-20T06:54:28.000Z",
-      "contentHash": "07c9abf68223"
-    },
-    {
-      "id": "3305984e45fc",
-      "title": "2025年のイベントレポートふりかえり | SmartHR Tech Blog",
-      "url": "https://tech.smarthr.jp/entry/2026/04/20/151912",
-      "summary": "inaoが春の挨拶とともに、明日からRubyKaigi 2026で函館へ行くことを告知。昨年出すはずだった2025年のイベント／協賛レポートまとめが遅れてしまい、改めて2025年1〜12月のイベントレポートを振り返る記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-20T06:19:12.000Z",
-      "contentHash": "0a274a04993f"
-    },
-    {
-      "id": "3e4a3c6b3844",
-      "title": "IT障害現場の交通整理“情報の渋滞”を解消して復旧を前へ | ASKUL Engineering BLOG",
-      "url": "https://tech.askul.co.jp/entry/2026/04/20/144028",
-      "summary": "アスクルのBtoB開発マネージャー・笹井が、アスクルサイトとソロエルアリーナのシステム障害対応でインシデントコマンダーを務め、関係者招集・状況整理・復旧に向けた意思決定と連絡を指揮している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-20T05:40:28.000Z",
-      "contentHash": "f04c8e83c6ee"
-    },
-    {
-      "id": "6e73c2a3112a",
-      "title": "登壇経験ゼロだったエンジニアが技術カンファレンスで登壇するようになるまでの話 | コドモン Product Team Blog",
-      "url": "https://tech.codmon.com/entry/2026/04/20/142851",
-      "summary": "コドモンでEMをする上代さんは、社外登壇に踏み出せず悩んでいたが、誘いをきっかけに社内発表で経験を積み、国内最大級のJavaカンファレンスJJUG CCCで登壇するまでの経緯を振り返り、同じ悩みを持つ人を後押しする記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-20T05:28:51.000Z",
-      "contentHash": "beee71100d83"
-    },
-    {
-      "id": "90c2b2bc4374",
-      "title": "AWS DevOps AgentにEC2上のWebサーバー障害調査は任せられるのか検証してみた | TechHarmony",
-      "url": "https://blog.usize-tech.com/aws-devops-agent-quick-poc/",
-      "summary": "SCSKがAWS DevOps Agent（GA）でEC2上のWeb障害を再現して調査精度を検証。Agentは読み取り専用のAWS APIで動作し、インスタンスを変更せず内部にインストールもしない。OS内部は事前にCloudWatch等で送信しておく必要があり、従量課金制で無料トライアルあり。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-20T05:06:51.000Z",
-      "contentHash": "9099ecc6a021"
-    },
-    {
-      "id": "14409866e5d7",
-      "title": "RubyKaigi 2026 note社ブースでプレイできるゲームをゆるハッカソンでつくりました | noteエンジニアチーム 公式マガジン",
-      "url": "https://engineerteam.note.jp/n/n8c48f52b9e41",
-      "summary": "一足早く北海道へ向かおうとしたが欠航で落ち込んでいる、服好きのエンジニアkoki。notenoteで働き、出勤コーディネートをnoteに投稿している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-20T05:05:02.000Z",
-      "contentHash": "7c62af25193d"
-    },
-    {
-      "id": "0f2e3bf70d36",
-      "title": "リーナープロダクトの現状と課題、採用情報 2026年4月版 | リーナー開発者ブログ",
-      "url": "https://developer.leaner.co.jp/entry/202604-leaner-dev-careers",
-      "summary": "リーナーは調達購買向けのBtoB SaaSで、見積・購買・コネクト等を提供。リーナーコネクトをローンチし、AIエージェント活用や「チームカタリスト」導入で開発体制を強化。購買・コネクト・横断基盤を優先採用。課題はAIの安定化、図面解析機能やアカウント管理の再設計。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-20T02:50:04.000Z",
-      "contentHash": "fec2817abdb6"
     }
   ]
 }
