@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-05-11T18:20:44.254Z",
+  "generatedAt": "2026-05-12T04:02:25.721Z",
   "items": [
+    {
+      "id": "eaff5f40f071",
+      "title": "「クラウドネイティブ会議」に協賛・登壇します | CADDi Tech Blog",
+      "url": "https://caddi.tech/cloudnativekaigi2026",
+      "summary": "CADDiは5/14–15の名古屋「クラウドネイティブ会議」に初協賛。SRE・Platformの7名が参加し、Central SRE小林がDay2 11:10に「生成AI時代の信頼性維持—Policy as Codeの実践」を登壇。図面データのクイズやAI活用展示、ノベルティ配布、15日12:00–13:30は小林がブース常駐。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-12T02:15:33.000Z",
+      "contentHash": "410171d4eddf"
+    },
+    {
+      "id": "f8ed6d76474a",
+      "title": "スキーマでアーキテクチャを縛る ── 人間とAIを同じルールで動かす | ZOZO TECH BLOG",
+      "url": "https://techblog.zozo.com/entry/architecture-codegen-pipeline",
+      "summary": "ZOZOTOWNのiOSチームは、アーキテクチャを努力目標でなくYAMLスキーマとして定義し、人間とAIが同じルールに従う形でSwiftコードを自動生成するパイプラインを構築。命名・依存・禁止パターン等を明文化し、AI生成コードのレビュー通過や品質向上を実現した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-12T02:00:00.000Z",
+      "contentHash": "02aab1de3f44"
+    },
+    {
+      "id": "a368f081d429",
+      "title": "新規事業 × QAの挑戦　—QAに求められる役割の変革 | hacomono TECH BLOG",
+      "url": "https://techblog.hacomono.jp/entry/2026/05/12/110000",
+      "summary": "hacomonoが約1年半で開発したtoCフィットネスアプリFitFits。著者はQAとして立ち上げから参画し、週次イテレーションで全工程の品質を担保。初期は意思決定コストや連携不足というプロジェクトの混乱を解消し、リスク排除とプロセス改善に注力した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-12T02:00:00.000Z",
+      "contentHash": "89e58229f685"
+    },
+    {
+      "id": "b8714dd76d5b",
+      "title": "クックパッドアプリのLiquid Glass対応 | クックパッド開発者ブログ",
+      "url": "https://techlife.cookpad.com/entry/2026/05/12/110000",
+      "summary": "iOS26導入のLiquid Glass対応でクックパッドiOSは早期有効化。UINavigationBarでカスタムtitleViewのRTL＋モーダル時クラッシュをUISearchController移行で解決。BarButtonは最小タップ領域とoverflow仕様で表示欠落が発生し、titleView中央寄せと標準overflowへ移行して対応。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-12T02:00:00.000Z",
+      "contentHash": "5178ada5eb63"
+    },
+    {
+      "id": "0698c5e8a65d",
+      "title": "OpenAI just released its answer to Claude Mythos",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai",
+      "summary": "OpenAIは脆弱性の発見・修正を自動化するセキュリティAI「Daybreak」を発表。Codex SecurityとGPT-5.5-Cyber等を組み合わせ、コードの脅威モデル作成・検証・高リスク検出を行う。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-11T23:05:01.000Z",
+      "contentHash": "0f167a4d5136"
+    },
+    {
+      "id": "11ad5d1a87cd",
+      "title": "Yarbo says it will remove the intentional backdoor from its robot lawn mower",
+      "url": "https://www.theverge.com/tech/928289/yarbo-remove-robot-lawn-mower-backdoor",
+      "summary": "ロボット芝刈機の遠隔バックドアで乗っ取りやメール・GPS流出が判明。Yarboは当初内部用に残す方針だったが、共同創業者が完全撤去し、顧客が導入可否を選べるようにすると表明した。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-11T22:40:20.000Z",
+      "contentHash": "9881649e3e69"
+    },
+    {
+      "id": "8d6d1fad1ff5",
+      "title": "Here&#8217;s what Mira Murati&#8217;s AI company is up to",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model",
+      "summary": "元OpenAI CTOミラ・ムラティ創業のThinking Machinesは、音声・映像・テキストを継続的に取り込みリアルタイムで応答・行動する「インタラクションモデル」を開発中。従来の一回限りの「単一スレッド」処理の限界を克服し、人間と自然に協働できることを目指す。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-11T22:19:15.000Z",
+      "contentHash": "1568f8e31a4f"
+    },
+    {
+      "id": "6fd4333f36e2",
+      "title": "Postmortem: TanStack npm supply-chain compromise",
+      "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+      "summary": "2026-05-11 UTC 19:20–19:26、攻撃者が@tanstack/*の42パッケージに84の悪意ある版を公開（PRターゲット＋Actionsキャッシュ汚染＋OIDCトークン抽出を悪用）。npm公開やnpmトークン流出の証拠は無し。20分で発見され全悪版を非推奨化・tarball撤去。11日に導入した場合はインストールホストの資格情報をローテーション推奨。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-11T21:08:25.000Z",
+      "contentHash": "bd4c0342e559"
+    },
+    {
+      "id": "eaeeb5eb6926",
+      "title": "If AI writes your code, why use Python?",
+      "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+      "summary": "すみません、外部URLに直接アクセスできません。記事本文を貼っていただくか主要箇所を教えてください。いただければ200文字以内で日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-11T20:45:55.000Z",
+      "contentHash": "df12f008ef51"
+    },
+    {
+      "id": "0e3dc5bce94b",
+      "title": "590k buyers paid $59M for Trump's gold phone, but not one has shipped",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/590-000-buyers-paid-59-223500998.html",
+      "summary": "トランプ・モバイルの金色スマホ「T1」は、「米国製」と謳われたが、約59万人が各100ドルの預金で計5900万ドルを支払った。発表から1年経っても出荷はゼロで、返金の見込みは低い。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-11T20:19:38.000Z",
+      "contentHash": "23b5274b1ea6"
+    },
+    {
+      "id": "c7c38a81275c",
+      "title": "Govee’s new portable smart lamp is on sale for the first time ",
+      "url": "https://www.theverge.com/gadgets/928249/govee-table-lamp-classic-deal-sale",
+      "summary": "Goveeの充電式スマートランプ「Table Lamp Classic」が初めて値下げされ、Amazonで$63.99に。4800mAhでカラー使用なら最大約30時間、明るい白色だと約5時間。Philips Hue Goより安価だが連続時間は短め。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-11T19:56:28.000Z",
+      "contentHash": "e76e76519e45"
+    },
+    {
+      "id": "d01dbdada149",
+      "title": "Palantir&#8217;s true believers are wearing this jacket",
+      "url": "https://www.theverge.com/report/928026/palantir-chore-coat",
+      "summary": "データ企業パランティアが$239のコットン作業着風ジャケットをマーチで発売。小さなロゴ入りの高額商品は、軍需や移民局との関係を背景に政治的支持表明と受け取られ、批判を招いた。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-11T18:26:04.000Z",
+      "contentHash": "6da4c95b335d"
+    },
+    {
+      "id": "2ebbcae0510a",
+      "title": "Can someone please explain whether Cloudflare blackmailed Canonical?",
+      "url": "https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/",
+      "summary": "2026年4月末、Canonicalの公式サイトやリポジトリが約20時間停止。攻撃者はCloudflare回避を謳う有料サービスBeamedを使用と主張。BeamedとCanonicalは共にCloudflare上にあり、Cloudflareが攻撃者を無料でフロントし被害者に救済料を請求しているのではと疑念が生じている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-11T18:12:38.000Z",
+      "contentHash": "a53440043e6e"
+    },
     {
       "id": "fc508012979c",
       "title": "Apple brings encrypted RCS chats to iPhone",
@@ -11,13 +128,40 @@
       "contentHash": "6db8c09703da"
     },
     {
+      "id": "2034d65d5dad",
+      "title": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)",
+      "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
+      "summary": "UCLAが、脳梗塞で遠隔部位のパルバルビン陽性ニューロン結合が失われることを解明し、リハビリと同等の運動回復をマウスで再現する薬DDL-920を発見した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-11T17:53:08.000Z",
+      "contentHash": "cf51953ab9a5"
+    },
+    {
+      "id": "eb549f7de872",
+      "title": "Microsoft Israel chief leaves amid ethical controversy",
+      "url": "https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602",
+      "summary": "米マイクロソフトのイスラエル支社長アロン・ハイモビッチが、国防省向け業務をめぐる本社調査の末に辞任。倫理違反や透明性欠如、欧州でのサーバー利用やIDF（8200）との関係による法的リスクが指摘され、ガバナンス部門の幹部も多数退任。暫定的に仏本社が管理。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-11T17:18:11.000Z",
+      "contentHash": "574afb550175"
+    },
+    {
       "id": "d5ddea194daa",
       "title": "Texas sues Netflix for advertising &#8216;bait and switch&#8217; and spying",
       "url": "https://www.theverge.com/streaming/928071/texas-netflix-lawsuit-privacy",
-      "summary": "テキサス州司法長官ケン・パクストンがNetflixを提訴。広告無しで子どもに安全と約束して会員を増やしたのに、2022年に広告プランを導入し子どもを含む利用者データを広告業界に提供して誤導したと主張。",
+      "summary": "テキサス州の司法長官ケン・パクストンがNetflixを提訴。広告導入で「広告なし」の公約を反故にし、2022年の広告付帯化で子どもや家庭のデータを大手広告業者に開示し監視を助長したと主張しています。",
       "source": "The Verge",
       "publishedAt": "2026-05-11T17:04:22.000Z",
-      "contentHash": "6e2e18c0a109"
+      "contentHash": "e2ccc3683c55"
+    },
+    {
+      "id": "b0a04f72d3e6",
+      "title": "Interfaze: A new model architecture built for high accuracy at scale",
+      "url": "https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+      "summary": "InterfazeはOCR・視覚・音声・構造化出力で既存モデルを上回る新アーキテクチャ。DNN/CNNのタスク特化精度とトランスフォーマーの柔軟性を融合し、決定論的作業で高精度・低コスト・メタデータ提供を実現する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-11T16:22:31.000Z",
+      "contentHash": "00583bfd8bf4"
     },
     {
       "id": "8be168198108",
@@ -74,6 +218,15 @@
       "contentHash": "217586714a7a"
     },
     {
+      "id": "6262633bf728",
+      "title": "How ChatGPT adoption broadened in early 2026",
+      "url": "https://openai.com/signals/research/2026q1-update",
+      "summary": "2026年Q1にChatGPTの利用が急増。35歳以上での伸びが最も速く、男女比も均衡化しており、AIの一般的な普及が進んでいることを示す。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-11T15:00:00.000Z",
+      "contentHash": "8edef1e5dcc7"
+    },
+    {
       "id": "0d8ef8ebe900",
       "title": "Matter and OpenADR team up to connect smart homes to the grid",
       "url": "https://www.theverge.com/tech/927756/matter-openadr-demand-response-smart-home-energy-management",
@@ -119,6 +272,24 @@
       "contentHash": "f9350ca3b184"
     },
     {
+      "id": "2a6999bc8c1a",
+      "title": "How enterprises are scaling AI",
+      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "summary": "企業がAIを拡大導入するには、実験段階から信頼構築とガバナンス整備を行い、業務フロー設計と大規模での品質担保を通じて効果を累積させることが重要だ。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-11T10:00:00.000Z",
+      "contentHash": "82caf9fddf33"
+    },
+    {
+      "id": "5d49356f591b",
+      "title": "OpenAI Campus Network: Student club interest form",
+      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "summary": "OpenAI Campus Networkに参加して、世界中の学生クラブとつながり、AIツールにアクセスし、イベントを開催してAI活用のキャンパスコミュニティを作れます。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-11T10:00:00.000Z",
+      "contentHash": "34752f28b493"
+    },
+    {
       "id": "cec698e70880",
       "title": "Logitech’s tiny folding mouse improves upon the laptop trackpad",
       "url": "https://www.theverge.com/tech/927695/logitech-folding-mouse-leaked-images",
@@ -162,6 +333,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-05-11T06:39:08.000Z",
       "contentHash": "41c990fa949d"
+    },
+    {
+      "id": "e7455462824d",
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "summary": "OpenAIはDeployCoを立ち上げ、企業が最先端AIを実運用に導入し、測定可能なビジネス成果に結びつけるための展開支援を行う新会社を開始しました。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-11T06:00:00.000Z",
+      "contentHash": "6caa4e8a8143"
     },
     {
       "id": "5822d11613f5",
@@ -1238,19 +1418,19 @@
       "id": "3a18c3d48ddc",
       "title": "Codex Chrome extension の概要",
       "url": "https://note.com/npaka/n/n8de1c3acd145",
-      "summary": "OpenAIのCodex Chrome拡張は、ログイン済みのWebサイトをCodexが読み取り・操作できるようにするツールです。Pluginsから接続し、サイトごとに許可/拒否や許可リスト管理が可能。強いブラウザ権限を要求するため注意が必要で、localhostや公開プレビューはin‑app browserの利用が推奨されます。",
+      "summary": "Codex Chrome extensionは、ログイン済みのChromeを使いCodexがGmailやSalesforceなどのサイトを読み取り・操作できる拡張機能。Pluginsから接続し、サイトごとに許可/拒否や許可リスト管理が可能。強いブラウザ権限を要求するが、操作前にユーザー確認が入る。",
       "source": "npaka",
       "publishedAt": "2026-05-07T22:47:49.000Z",
-      "contentHash": "739f33f7786d"
+      "contentHash": "9a9268184009"
     },
     {
       "id": "8d2b7ead8341",
       "title": "GPT-Realtime-2 ・ GPT-Realtime-Translate ・ GPT-Realtime-Whisper の概要",
       "url": "https://note.com/npaka/n/nade0d8498e64",
-      "summary": "OpenAIがAPIにGPT-Realtime-2、GPT-Realtime-Translate、GPT-Realtime-Whisperを追加。GPT-Realtime-2は高度推論・長コンテキスト・低遅延会話・ツール連携・トーン制御が可能、Translateは70以上の入力言語からリアルタイム翻訳、Whisperは低遅延のストリーミング文字起こしを提供し、音声を「応答」から「推論・行動」するインターフェースへ進化させる。",
+      "summary": "OpenAIがAPIでGPT-Realtime-2、GPT-Realtime-Translate、GPT-Realtime-Whisperを公開。Realtime-2は高い推論・長文コンテキスト（最大128K）・トーン制御や並列ツール呼び出し対応。Translateは70超言語→13言語のリアルタイム翻訳、Whisperは低遅延ストリーミング文字起こし。音声による操作（Voice-to-action／Systems-to-voice／Voice-to-voice）が進化。",
       "source": "npaka",
       "publishedAt": "2026-05-07T21:45:17.000Z",
-      "contentHash": "69051dc0244a"
+      "contentHash": "bc2015fb92ed"
     },
     {
       "id": "bbfe7c8eee50",
@@ -3074,10 +3254,10 @@
       "id": "11cd193e0bdf",
       "title": "Codex CLI の /goal の概要",
       "url": "https://note.com/npaka/n/n15e84ee77f5a",
-      "summary": "Codex CLIの実験的コマンド/goalは目標をスレッドで保持し、検証→修正を繰り返して達成を目指す機能（Ralph loop相当）。/goal <目標>、pause、resume、clearが使え、~/.codex/config.tomlで有効化。完了条件を明確にしないと差分拡大や迷走の恐れあり。",
+      "summary": "Codex CLIに/goalコマンドが追加。目標をスレッドで保持し、自動反復（Ralph loop）で達成を目指す。/goal <目標>、pause/resume/clearが使え、~/.codex/config.tomlで有効化。完了条件を明確にしないと差分拡大や迷走の恐れあり。",
       "source": "npaka",
       "publishedAt": "2026-05-03T14:13:51.000Z",
-      "contentHash": "5b8693a90418"
+      "contentHash": "a47cc64ff7d5"
     },
     {
       "id": "0d01c1c3bf9f",
@@ -8820,186 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-21T01:54:27.000Z",
       "contentHash": "1d6ee0c84cc1"
-    },
-    {
-      "id": "c858c1e5089b",
-      "title": "How to make a fast dynamic language interpreter",
-      "url": "https://zef-lang.dev/implementation",
-      "summary": "「Zef」という超簡素なASTインタプリタをJITやGC、バイトコード無しで最適化し、Lua/QuickJS/CPythonと競える性能にした話。値表現、インラインキャッシュ、オブジェクトモデル、ウォッチポイントなどの単純な手法で16倍（Yolo-C++暫定で67倍）高速化し、ScriptBench1のベンチで評価している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-21T00:48:07.000Z",
-      "contentHash": "a9ad39e4965d"
-    },
-    {
-      "id": "b1ecc5d08083",
-      "title": "Tim Cook will still be Apple’s Trump whisperer",
-      "url": "https://www.theverge.com/policy/915422/tim-cook-apple-chairman-trump-policy",
-      "summary": "クックはCEOを退いて会長になるが、対政策当局や特にトランプとの折衝など政治的調整役は継続する。中国と米政府の板挟みを巧みに乗り切ってきた。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T00:14:45.000Z",
-      "contentHash": "e6c98a4b5737"
-    },
-    {
-      "id": "1b257354b88b",
-      "title": "Scaling Codex to enterprises worldwide",
-      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
-      "summary": "OpenAIがCodex Labsを立ち上げ、Accenture、PwC、Infosysらと提携してソフトウェア開発ライフサイクル全体で企業のCodex導入・拡張を支援すると発表。Codexの週次アクティブユーザーは400万に到達。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-21T00:00:00.000Z",
-      "contentHash": "a232c89b0308"
-    },
-    {
-      "id": "105ab27e59b3",
-      "title": "The Lenovo Legion Go S is RAMageddon’s latest victim",
-      "url": "https://www.theverge.com/games/915278/lenovo-legion-go-s-price-hike-discontinued-ramageddon",
-      "summary": "Lenovoの8インチ携帯機Legion Go Sの価格が急騰。発売時$829.99のSteamOS/Z1 ExtremeモデルがBest Buyで$1,579.99とほぼ倍増、Windows版も高値に。RAM価格上昇が影響。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-20T22:49:42.000Z",
-      "contentHash": "06a9ffec3fab"
-    },
-    {
-      "id": "acf16c5eba89",
-      "title": "Even 'uncensored' models can't say what they want",
-      "url": "https://morgin.ai/articles/even-uncensored-models-cant-say-what-they-want.html",
-      "summary": "Morgin.aiのベンチマークでは、安全フィルタ付きの事前学習モデルは過激・センシティブな語を明確に拒否しなくても、その語の出現確率を下げる「flinch」を示すと報告。5社7モデルで差を測定した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T22:43:29.000Z",
-      "contentHash": "21f581ade6c8"
-    },
-    {
-      "id": "5f9b51c4ad52",
-      "title": "Chronicle の概要",
-      "url": "https://note.com/npaka/n/n242bb3fc6e91",
-      "summary": "ChronicleはmacOS版ChatGPT Proのオプトイン研究プレビューで、画面キャプチャを使いCodexの記憶を補完して作業コンテキストを自動取得します。画面録画・アクセシビリティ権限が必要でEU/英/スイス未対応。未暗号化保存やレート消費、プロンプト挿入や機密漏洩のリスクがあり、一時停止・無効化可能です。",
-      "source": "npaka",
-      "publishedAt": "2026-04-20T22:00:03.000Z",
-      "contentHash": "77f63ffbf7d2"
-    },
-    {
-      "id": "c7ff8577b1fe",
-      "title": "John Ternus is taking over from Tim Cook as Apple&#8217;s CEO",
-      "url": "https://www.theverge.com/tech/915272/apple-john-ternus-tim-cook",
-      "summary": "Appleはティム・クックが9月1日付でCEOを退き会長に就任すると発表。現ハードウェアSVPジョン・ターナスが新CEOに、ジョニー・スルジがチーフハードウェアオフィサーに就任。クックは感謝を表明。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-20T21:44:15.000Z",
-      "contentHash": "d9a6b59883ac"
-    },
-    {
-      "id": "36b1770b7386",
-      "title": "Read Tim Cook&#8217;s letter to the Apple world as he departs as CEO",
-      "url": "https://www.theverge.com/tech/915279/tim-cook-ceo-letter-apple-community",
-      "summary": "ティム・クックが9月にCEOを退任して会長に就く。後任CEOはジョン・ターナス、ターナスの後任としてジョニー・スルジが最高ハードウェア責任者に。クックは15年の支援に感謝する書簡を発表。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-20T21:42:36.000Z",
-      "contentHash": "4a72e84f75c1"
-    },
-    {
-      "id": "f4b7b9dfb8e1",
-      "title": "Jujutsu megamerges for fun and profit",
-      "url": "https://isaaccorbrey.com/notes/jujutsu-megamerges-for-fun-and-profit",
-      "summary": "Jujutsuの「megamerge」ワークフロー紹介。複数親（オクトパス）マージを多用し、小さなPRや複雑な開発を一括で効率的に統合する手法を解説。マージコミットは特別でない点や実践的コツも提示。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T21:32:10.000Z",
-      "contentHash": "088671bde86d"
-    },
-    {
-      "id": "d1b8a9a5f0cc",
-      "title": "OpenAI ad partner now selling ChatGPT ad placements based on “prompt relevance”",
-      "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/",
-      "summary": "Adweekが入手した流出資料で、広告プラットフォームStackAdaptがChatGPT向けの広告戦略を解説。プロンプトやプラグインを使った配信やターゲティング、計測手法が示され、利用者のプライバシーや透明性への懸念を呼び、HNで議論になっている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T21:20:52.000Z",
-      "contentHash": "cce3e6c2601b"
-    },
-    {
-      "id": "66cf3e4c85c9",
-      "title": "Apple names Johny Srouji as chief hardware officer",
-      "url": "https://www.theverge.com/tech/915240/apple-johny-srouji-ternus-cook",
-      "summary": "Appleはジョニー・スルジを即時付で最高ハードウェア責任者に任命。現ハード担当ジョン・ターナスは9月にCEOへ就き、ティム・クックは会長に就任する。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-20T21:05:59.000Z",
-      "contentHash": "3510bbe39a7e"
-    },
-    {
-      "id": "c4d73baf313b",
-      "title": "Apple CEO Tim Cook is stepping down",
-      "url": "https://www.theverge.com/tech/915213/tim-cook-apple-ceo-stepping-down-john-ternus",
-      "summary": "Appleのティム・クックCEOが退任。2026年9月1日付でハードウェアSVPのジョン・ターナスがCEO兼取締役に就任し、クックは執行会長に。ジョニー・スルジが最高ハードウェア責任者に即日就任。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-20T20:42:59.000Z",
-      "contentHash": "0bdf64f25a63"
-    },
-    {
-      "id": "701651b466a1",
-      "title": "Here&#8217;s how Amazon&#8217;s price fixing allegedly drove up prices everywhere",
-      "url": "https://www.theverge.com/policy/915209/amazon-price-fixing-california-lawsuit",
-      "summary": "カリフォルニア州司法長官ロブ・ボンタが、アマゾンがリーバイス等の取引先と共謀し、プライムデー前に他小売の価格を引き上げさせたり割引品を在庫切れにして低価格販売を阻止したとする証拠を開示し、差し止めを求める16頁の文書を公開した。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-20T20:39:51.000Z",
-      "contentHash": "da32601d283d"
-    },
-    {
-      "id": "eddf605ff0cd",
-      "title": "John Ternus to become Apple CEO",
-      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
-      "summary": "Appleは2026年9月1日付でジョン・ターナスを新CEOに、ティム・クックをエグゼクティブ・チェアマンに任命すると発表。クックは夏までCEOを続け移行を支援し、取締役会が満場一致で承認した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T20:39:32.000Z",
-      "contentHash": "3fab6081bbcb"
-    },
-    {
-      "id": "371a7e166cbb",
-      "title": "Silicon Valley has forgotten what normal people want",
-      "url": "https://www.theverge.com/tldr/915176/nft-metaverse-ai-weirdos",
-      "summary": "NFTやAI、メタバース熱に囚われ、シリコンバレーの“思想的指導者”たちが一般人の実際のニーズを無視し、誇大宣伝や自己演出を優先していると批判する記事。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-20T20:30:00.000Z",
-      "contentHash": "a69c273dd446"
-    },
-    {
-      "id": "53438aba5557",
-      "title": "AI Resistance: some recent anti-AI stuff that’s worth discussing",
-      "url": "https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/",
-      "summary": "申し訳ありませんが、外部リンクを直接読むことができません。記事本文または主要段落を貼り付けていただければ、200文字以内で日本語に要約します。HNコメントも同様に対応できます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T20:19:13.000Z",
-      "contentHash": "63aa258f1a51"
-    },
-    {
-      "id": "31a232acf75a",
-      "title": "WhatsApp tests &#8216;Plus&#8217; subscription that adds stickers and more for a few bucks a month",
-      "url": "https://www.theverge.com/tech/915172/meta-testing-whatsapp-plus-subscription",
-      "summary": "MetaがWhatsApp Plusを限定ユーザー向けにAndroidで試験導入。月額約€2.49で限定ステッカー、アプリテーマ・アイコン、プレミア着信音、チャット20件までピン留め、チャット群への一括設定などの有料カスタマイズを提供。iOSは後対応、Business版は対象外。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-20T20:12:23.000Z",
-      "contentHash": "3c02ab2b9598"
-    },
-    {
-      "id": "ac81f237999d",
-      "title": "F-35 is built for the wrong war",
-      "url": "https://warontherocks.com/cogs-of-war/the-f-35-is-a-masterpiece-built-for-the-wrong-war/",
-      "summary": "F-35は優れた高性能機だが総生涯費用が2兆ドル超で大量運用・長期戦に不向き。現代の紛争は大量生産・交換可能な無人機などを有利にする。解決策はF-35の強みを残しつつ無人機調達を増やし機数を減らした均衡部隊。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T20:07:35.000Z",
-      "contentHash": "4d28258b4e47"
-    },
-    {
-      "id": "9e423aad1673",
-      "title": "Japanese man sentenced to prison for posting spoilers",
-      "url": "https://www.theverge.com/entertainment/914984/godzilla-minus-one-overlord-coda-spoilers-lawsuit-toho-kadokawa-shoten",
-      "summary": "東京地裁は、映画やドラマの長文ネタバレを掲載したサイト管理人の39歳・竹内渉を著作権侵害で有罪とし、刑を言い渡した。裁判は「あらすじの創作的改変で本質を残す行為は新作に当たる」と判断した。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-20T20:02:58.000Z",
-      "contentHash": "c753ac532fcc"
-    },
-    {
-      "id": "8e9790f6356f",
-      "title": "We got 207 tok/s with Qwen3.5-27B on an RTX 3090",
-      "url": "https://github.com/Luce-Org/lucebox-hub",
-      "summary": "チップごとに手作業で最適化してソフトで性能を引き出すOpen LLM。MegakernelはRTX3090でQwen3.5‑0.8Bを単一CUDAで高効率化(1.87 tok/J)。DFlashはQwen3.5‑27Bを推測デコードと量子化で大幅高速化（最大207 tok/s、128K文脈対応）。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-20T18:46:22.000Z",
-      "contentHash": "2c362714784a"
     }
   ]
 }
