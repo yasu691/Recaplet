@@ -1,6 +1,186 @@
 {
-  "generatedAt": "2026-05-13T18:25:18.666Z",
+  "generatedAt": "2026-05-14T04:12:33.156Z",
   "items": [
+    {
+      "id": "8b86e8fd2553",
+      "title": "【最新アップデート】HARMONY Ver.1.07 新機能まとめ | Blogical",
+      "url": "https://blog.logical.co.jp/entry/2026/05/14/113838",
+      "summary": "HARMONY Ver.1.07はChatGPT-5.4/Claude4.6対応、軽量/バランス/精密の推論選択や適応思考で後処理を最大80%削減。階層フィルタ付きシートマップとリアルタイムアラート、マルチプロンプト切替を追加。2ヶ月無償トライアルあり（通話・AI利用料は実費）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-14T02:38:38.000Z",
+      "contentHash": "18348003fbcc"
+    },
+    {
+      "id": "8c70ad8bb3c5",
+      "title": "Datadog MonitorをOwnership単位で再設計する | CADDi Tech Blog",
+      "url": "https://caddi.tech/2026/05/14/113000",
+      "summary": "CADDi DrawerのSRE佐藤が、複数チームの監視設定が単一のDatadog Monitorに混在し所有者不明で改修が停滞していたため、TerraformをOwnership単位のモジュール設計に再設計。監視ロジックとオーナー情報を分離・一元管理して自律的改善を可能にした経緯と学びを紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-14T02:30:00.000Z",
+      "contentHash": "32c25675861a"
+    },
+    {
+      "id": "f3e3a509d13b",
+      "title": "RAGの評価データセットをユーザーと一緒に作って、思った以上に良かった | CADDi Tech Blog",
+      "url": "https://caddi.tech/2026/05/14/110000",
+      "summary": "製造業向けRAG検証で、コストやLLM評価依存からデータセット作成に踏み出せなかったが、チームの「100本ノック」を契機にCSやドメイン専門家と共同でベンチマークを作成。検証速度が約5倍になりユーザー理解も深まった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-14T02:00:00.000Z",
+      "contentHash": "42808922f1f9"
+    },
+    {
+      "id": "f023f5ae234a",
+      "title": "Deep Dive PHP: PHP 8.5 の新機能「Tail call VM」とは？ | COLOPL Tech Blog",
+      "url": "https://blog.colopl.dev/entry/2026/05/14/110000",
+      "summary": "PHP 8.5の新機能「Tail call VM」を紹介。Zend Engineと既存VMモード（CALL/SWITCH/GOTO/HYBRID）の違いや、HYBRIDがGCCのGlobal Register Variablesに依存してclangで使えない制約を説明し、Tail call VMが今後のPHPに向けた重要な一歩だと論じる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-14T02:00:00.000Z",
+      "contentHash": "dfb14aa8d7a5"
+    },
+    {
+      "id": "25ba1c693528",
+      "title": "Teams Phone自動応答にて「音声コマンド」を利用する | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/05/14/104223",
+      "summary": "Teams Phoneの自動応答で「音声コマンド」を設定すると、発信者が「りんご」「みかん」等を発話して転送先を選べる。音声入力を有効化し語句と転送先を設定、認識後に確認して転送。無応答や未認識時は再案内。ダイヤル併用可能で認識精度も高く利便性が向上。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-14T01:42:23.000Z",
+      "contentHash": "9d73820105bf"
+    },
+    {
+      "id": "015180f3cf44",
+      "title": "Scorched Earth 2000 – Web",
+      "url": "http://www.scorch2000.com/web/",
+      "summary": "Scorched Earth 2000 v1.1（2026/5/11）の画面表示。システム名SCORCH 2000、風速0、弾薬999、パワー300、角度30。操作提示（+ / ←→ / fire）と新ラウンド開始（ラウンド1/1）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-14T00:41:29.000Z",
+      "contentHash": "623437b05faa"
+    },
+    {
+      "id": "5cbc777c4b31",
+      "title": "Codex でノベルゲームの作成を試す",
+      "url": "https://note.com/npaka/n/n2944f84050a1",
+      "summary": "Codexでノベルゲーム作成を試した報告。GPT-5.4で作ったゲームブックをノベル化し、キャラ設定と画面レイアウト（GPT Image 2）を追加。PLAN.mdで進行管理し、参照画像とnoteのシナリオを元にImage Genで素材生成。Codexでアドベンチャーゲームが出力された。",
+      "source": "npaka",
+      "publishedAt": "2026-05-14T00:06:47.000Z",
+      "contentHash": "9b9799c38044"
+    },
+    {
+      "id": "e85a44a8ec18",
+      "title": "Microsoft&#8217;s Edge Copilot update uses AI to pull information from across your tabs",
+      "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
+      "summary": "Microsoft EdgeのCopilotが開いている全タブの情報を参照可能に。タブ内容の要約・比較、AIポッドキャストやクイズ、学習モードなどを生成。Copilot Modeは廃止し「Browse with Copilot」に統合、機能は選択可能。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-13T22:04:28.000Z",
+      "contentHash": "004ce5189bf9"
+    },
+    {
+      "id": "ae10af8199c5",
+      "title": "Trump administration defends right to ban content moderation experts from US",
+      "url": "https://www.theverge.com/policy/930178/citr-rubio-visa-deportation-misinformation-research",
+      "summary": "トランプ政権は、外国のコンテンツ規制専門家への査証制限方針を擁護。独立研究団体CITRが差止めを求め提訴しBoasberg判事が審理。方針は既に5人の制裁に使われた。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-13T21:58:44.000Z",
+      "contentHash": "1b66fef758ff"
+    },
+    {
+      "id": "0c045d091711",
+      "title": "Tell HN: Dont use Claude Design, lost access to my projects after unsubscribing",
+      "url": "https://news.ycombinator.com/item?id=48128003",
+      "summary": "解除で過去セッションや付与クレジットが失われ、再加入しても戻らない。複雑な課金は実装が難しいがユーザーが不利益。Claude Designはdesign_chatsにJSONでエクスポートでき復元可能だが、回帰が増え機能は魅力的でもGPT‑5.5の方が特定コーディングで優れる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-13T21:40:18.000Z",
+      "contentHash": "738cec7dc072"
+    },
+    {
+      "id": "775a8a03eebb",
+      "title": "YouTube is courting creators — and sponsors — with streaming shows",
+      "url": "https://www.theverge.com/news/930092/youtube-creators-shows-sponsors-netflix-upfront",
+      "summary": "YouTubeは広告主向けイベントで、トレバー・ノアやアレックス・クーパー、カリーム・ラフマらの独占新番組を発表。クリエイターを広告・テレビ・配信の未来と位置づけ、広告主との連携を強調した。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-13T21:30:00.000Z",
+      "contentHash": "fb9bd42f0730"
+    },
+    {
+      "id": "64a4f63d5626",
+      "title": "AMD&#8217;s best CPU tech for gamers is coming to workstations too",
+      "url": "https://www.theverge.com/tech/930132/amd-ryzen-pro-9000-series-3d-v-cache",
+      "summary": "AMDが初めて商用ワークステーション向けRyzen PRO 9000にゲーミング用だった3D V‑Cacheを導入。Zen5で6〜16コア/12〜32スレッド、最大256GB ECC DDR5対応し、シミュレーションやレンダリング等の大規模データ処理を高速化。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-13T20:38:16.000Z",
+      "contentHash": "f340c9bc9b7e"
+    },
+    {
+      "id": "448d244c4985",
+      "title": "Meta won't let you block its AI account on Threads",
+      "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
+      "summary": "MetaがThreadsでユーザーがMeta AIアカウントをタグして会話の回答や文脈を得られる機能をテスト開始。だが新AIアカウントはブロック不可で利用者の不満が続出。MetaはMuse Sparkなどに大規模投資。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-13T20:22:21.000Z",
+      "contentHash": "d0943c6d099c"
+    },
+    {
+      "id": "d4d0b3605f2a",
+      "title": "Princeton mandates proctoring for in-person exams, upending 133 year precedent",
+      "url": "https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent",
+      "summary": "プリンストン大学は7月1日から対面試験の立会い監督を全学で義務化することを教授会で可決した。1893年の名誉制度以来の大改定で、AIなど不正対策が目的。監督者は干渉せず疑いは学生運営の名誉委員会に報告する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-13T20:12:16.000Z",
+      "contentHash": "ab70f015584f"
+    },
+    {
+      "id": "32a576cb4633",
+      "title": "The crypto Clarity Act returns to the Senate this week. The banks are already trying to kill it.",
+      "url": "https://www.theverge.com/column/929752/the-crypto-clarity-act-returns-to-the-senate-this-week-the-banks-are-already-trying-to-kill-it",
+      "summary": "上院で仮想通貨の市場構造法案「Clarity Act」が再び審議される。銀行は既に廃案を狙い、共和党が議会を失う前にステーブルコイン規制を成立させられるかが焦点だ。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-13T19:19:00.000Z",
+      "contentHash": "c6106c8306cc"
+    },
+    {
+      "id": "f6d2f80158bc",
+      "title": "Fighting Trump will make or break Disney’s new CEO",
+      "url": "https://www.theverge.com/streaming/930009/johh-damaro-disney-trump-fcc-the-view-equal-time-doctrine",
+      "summary": "新任ディズニーCEOジョシュ・ダマロは当初Disney+強化を掲げていたが、ABCがトランプ政権とFCCによる「The View」調査を言論の自由侵害と非難し、対立が就任早々の焦点となった。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-13T19:15:21.000Z",
+      "contentHash": "a914e1d36e2b"
+    },
+    {
+      "id": "c8481cdc05b7",
+      "title": "Making the news available at no cost is a victory",
+      "url": "https://www.sltrib.com/opinion/commentary/2026/05/12/just-days-tribune-reporting/",
+      "summary": "ソルトレイク・トリビューンの政治チームと記者らが2026年3月25日、SpyHop Rooftopで前回の立法会期の総括と次回選挙会期の展望を話し合うパネルを開催。司会はLauren GustusとSheila McCann、登壇はCourtney Tanner、Addy Baird、Emily Anderson Stern、Robert Gehrke、編集長Jeff Parrott。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-13T19:14:47.000Z",
+      "contentHash": "b2fde6a35f87"
+    },
+    {
+      "id": "6003b0e7e988",
+      "title": "Netflix’s ad ambitions just keep growing",
+      "url": "https://www.theverge.com/streaming/929627/netflix-ads-plan-upfront-2026",
+      "summary": "Netflixの広告付きプラン（月額約$8.99）は月間視聴者が昨年の9400万から2年連続で倍増し2.5億超に達した。2025年広告収入は15億ドルで、来年からモバイルの縦型動画やポッドキャストにも広告を拡大。基本プランは2022年導入後に値上げも実施。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-13T18:45:32.000Z",
+      "contentHash": "8115cdf73b17"
+    },
+    {
+      "id": "636252b4c6bf",
+      "title": "Everything at The Criterion Collection is 30 percent off right now",
+      "url": "https://www.theverge.com/gadgets/929760/the-criterion-collection-spring-sale-anora-wes-anderson-deal-sale",
+      "summary": "Criterion Collectionが全ディスクを30%オフで販売中（～5月25日）。Blu‑rayや4K、ボックスセット、予約商品も対象。古典から新作、ドキュメンタリーやアート映画まで約1,000タイトル超が割引。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-13T18:41:49.000Z",
+      "contentHash": "cce05296c882"
+    },
+    {
+      "id": "fcf1145fa75d",
+      "title": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
+      "url": "https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/",
+      "summary": "MacBook Neoのベンチマーク、ウェーハコスト、8GBメモリの賭けをデータと数式でAnandTech風に解析。著者はMac専門でないがAppleシリコンの歴史を踏まえ、$599という価格設定の成り立ちを検証。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-13T18:30:51.000Z",
+      "contentHash": "783e60359f45"
+    },
     {
       "id": "53a07d0ad6e5",
       "title": "Instagram hits the copy button again with new disappearing Instants photos",
@@ -18,6 +198,15 @@
       "source": "The Verge",
       "publishedAt": "2026-05-13T16:45:43.000Z",
       "contentHash": "ba80615dd11f"
+    },
+    {
+      "id": "3bf795b36596",
+      "title": "Haiku",
+      "url": "https://www.haiku-os.org",
+      "summary": "読み込み中の表示と更新情報の表示があり、寄付の案内とグッズ販売の案内があります。グッズは提携先のFreewearが扱い、売上の一部がHaiku Inc.に寄付されます。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-13T16:22:10.000Z",
+      "contentHash": "bf06af00bb23"
     },
     {
       "id": "26f6fd2e3da9",
@@ -90,6 +279,15 @@
       "source": "The Verge",
       "publishedAt": "2026-05-13T13:25:02.000Z",
       "contentHash": "802de15edc22"
+    },
+    {
+      "id": "4a3442a5ca8c",
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "url": "https://openai.com/index/building-codex-windows-sandbox",
+      "summary": "OpenAIはWindows上でCodex向けの安全なサンドボックスを構築し、ファイルアクセスやネットワークを制限して、安全で効率的なコーディングエージェントを実現した。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-13T11:00:00.000Z",
+      "contentHash": "ae156eeab229"
     },
     {
       "id": "653c5530ceaa",
@@ -261,15 +459,6 @@
       "source": "The Verge",
       "publishedAt": "2026-05-12T21:36:11.000Z",
       "contentHash": "743a7ef7885a"
-    },
-    {
-      "id": "448d244c4985",
-      "title": "Meta won’t let you block its AI account on Threads",
-      "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
-      "summary": "MetaがThreadsでユーザーがMeta AIアカウントをタグして会話の回答や文脈を得られる機能をテスト開始。だが新AIアカウントはブロック不可で利用者の不満が続出。MetaはMuse Sparkなどに大規模投資。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-12T20:35:23.000Z",
-      "contentHash": "d0943c6d099c"
     },
     {
       "id": "73487790c4e0",
@@ -1904,10 +2093,10 @@
       "id": "8d2b7ead8341",
       "title": "GPT-Realtime-2 ・ GPT-Realtime-Translate ・ GPT-Realtime-Whisper の概要",
       "url": "https://note.com/npaka/n/nade0d8498e64",
-      "summary": "OpenAIが3つの新音声モデルを公開。GPT-Realtime-2は高度な推論・長文コンテキスト・ツール連携・応答制御、GPT-Realtime-Translateは70言語→13言語のリアルタイム翻訳、GPT-Realtime-Whisperは低遅延文字起こしで、自然で文脈対応するリアルタイム音声体験を実現する。",
+      "summary": "GPT-Realtime-2、GPT-Realtime-Translate、GPT-Realtime-Whisperが公開。Realtime-2はリアルタイム推論・長文コンテキスト(最大128K)・ツール連携・トーン制御、Translateは70言語超→13言語の同時翻訳、Whisperは低遅延文字起こし。自然で多機能な音声インターフェースを実現。",
       "source": "npaka",
       "publishedAt": "2026-05-07T21:45:17.000Z",
-      "contentHash": "10dc9bb76b52"
+      "contentHash": "536d972268bd"
     },
     {
       "id": "bbfe7c8eee50",
@@ -2156,10 +2345,10 @@
       "id": "6c86f5fec788",
       "title": "Claude Managed Agents を試す",
       "url": "https://note.com/npaka/n/n190b39339bf9",
-      "summary": "Claude Managed AgentsはAnthropicのマネージド基盤で、Claudeを自律エージェントとして多段作業（コード実行・ファイル編集・Web調査等）を実行可能。Agent/Environment/Session/Eventsで構成され、料金はトークン課金に加え実行中セッション時間（$0.08/時間）。APIキーとAnthropic SDKが必要。",
+      "summary": "Claude Managed AgentsはAnthropicのマネージド基盤で、Claudeを自律エージェントとしてファイル編集・コード実行・Web調査などの複数ステップ作業を実行。Agent/Environment/Session/Eventsの4要素で動作し、料金はモデルのトークン課金＋稼働時間のセッションランタイム($0.08/セッション時間)。導入はAPIキー設定、Python環境、SDKインストールで開始。",
       "source": "npaka",
       "publishedAt": "2026-05-07T08:32:58.000Z",
-      "contentHash": "301884f0a92a"
+      "contentHash": "cc327d7b1eab"
     },
     {
       "id": "eb86a772af0b",
@@ -2435,10 +2624,10 @@
       "id": "ee647ff34d77",
       "title": "Claude Managed Agents の新機能まとめ - Dreaming ・ Outcomes ・ Multiagent orchestration ・ Webhooks",
       "url": "https://note.com/npaka/n/n800e489e1be9",
-      "summary": "「Claude Managed Agents」に研究プレビューのDreamingと、Outcomes、Multiagent orchestration、Webhooksが追加。Dreamingは過去セッションのメモ整理、Outcomesは評価基準で反復改善、Multiagentは役割分担で並列処理、Webhooksは状態通知で監視を簡素化。",
+      "summary": "Anthropicは2026年5月6日、Claude Managed Agentsに研究プレビューのDreamingとOutcomes、Multiagent orchestration、Webhooksを追加。Dreamingは過去セッションを振り返りメモを整理、Outcomesは成果物の評価基準と検査→再試行、Multiagentは役割分担で並列処理、Webhooksは状態通知でポーリング不要にする機能です。",
       "source": "npaka",
       "publishedAt": "2026-05-06T23:00:10.000Z",
-      "contentHash": "06fd135e7734"
+      "contentHash": "ce746a56beb1"
     },
     {
       "id": "ef3e61de4219",
@@ -2840,10 +3029,10 @@
       "id": "dd1c5a389f84",
       "title": "GPT‑5.5 Instant の概要",
       "url": "https://note.com/npaka/n/nf19bb3ea10d5",
-      "summary": "GPT‑5.5 InstantがChatGPTの新デフォルトに。事実精度や画像・STEM解析が大幅改善され簡潔化、過去チャットやファイルを使ったパーソナライズ強化と「メモリソース」で管理可能。順次全ユーザーとAPIに展開。",
+      "summary": "GPT‑5.5 InstantがChatGPTのデフォルトに。事実精度（医療・法律・金融等）や画像・STEM解析が向上し誤情報を大幅削減。応答は簡潔化され、過去チャット・ファイル・Gmailを用いた個人化と「メモリソース」による透明性を提供。順次全ユーザーとAPIへ展開。",
       "source": "npaka",
       "publishedAt": "2026-05-05T23:15:08.000Z",
-      "contentHash": "6c00fc474d9c"
+      "contentHash": "76cefd1b60cd"
     },
     {
       "id": "71c94ca6ca21",
@@ -8811,195 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-21T22:27:17.000Z",
       "contentHash": "18e342c57147"
-    },
-    {
-      "id": "835b4edbbdf8",
-      "title": "SpaceX says it has agreement to acquire Cursor for $60B",
-      "url": "https://twitter.com/spacex/status/2046713419978453374",
-      "summary": "申し訳ありませんが、外部リンク先のページに直接アクセスできません。記事本文を貼っていただくか、主要ポイントを教えてください。いただければ200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-21T22:13:18.000Z",
-      "contentHash": "cd9d18e1f752"
-    },
-    {
-      "id": "3e4c4390e7d7",
-      "title": "We translated the Palantir manifesto for actual human beings",
-      "url": "https://www.theverge.com/policy/915237/palantir-manifesto",
-      "summary": "パランティアCEOアレックス・カープの22項目要約は不穏で反動的だとThe Vergeが指摘。記事はその「マニフェスト」を平易に翻訳・解説し、企業の思想的危険性を批判している。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T21:06:21.000Z",
-      "contentHash": "f398485c5116"
-    },
-    {
-      "id": "6b9b406af152",
-      "title": "Claude Code to be removed from Anthropic's Pro plan?",
-      "url": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
-      "summary": "申し訳ありませんが、外部リンク先の内容を直接開けません。記事やツイート本文、要点をここに貼っていただければ、200文字以内で日本語要約を作成します。HNの議論もまとめたい場合は、そのコメントの抜粋を貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-21T21:03:04.000Z",
-      "contentHash": "1059a71f2290"
-    },
-    {
-      "id": "57afc559e7d2",
-      "title": "AI×ゲームの現在地がわかる記事と作品まとめ",
-      "url": "https://note.com/npaka/n/ncde6fd2958d2",
-      "summary": "ゲーム×AIの現状をまとめた記事。AIが次の転換点と位置づけられ、作り手・遊び手が模索中。対話・声・見た目を真似る「模倣型」と、アイテムやルールを生成する「オーダーメイド型」の事例（DQXの対話AI、Vaudeville、AI2U、Instantale、GIKEN STAR等）と関連記事を紹介。",
-      "source": "npaka",
-      "publishedAt": "2026-04-21T20:57:39.000Z",
-      "contentHash": "2d55f16bbafa"
-    },
-    {
-      "id": "8da7f8536aed",
-      "title": "California has more money than projected after admin miscalculated state budget",
-      "url": "https://www.kcra.com/article/california-more-money-than-projected-newsom-miscalculated-budget/71056376",
-      "summary": "カリフォルニア州で、ニューサム知事の予算作成時にCalPERS関連の約20億ドルの会計誤算が判明し、州の資金が想定より多く、当初の約29億ドルの不足見込みが縮む可能性が出た。議会には2月に通知済みで、財務局は来月改訂予算に反映すると回答。LAOが確認。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-21T20:28:57.000Z",
-      "contentHash": "bc4fa6193a23"
-    },
-    {
-      "id": "fc9e0955bd50",
-      "title": "I don't want your PRs anymore",
-      "url": "https://dpc.pw/posts/i-dont-want-your-prs-anymore/",
-      "summary": "あるOSSメンテナーがPR受け入れ方針を変更。意図不明・大規模・スタイル変更のPRは受けず、まずIssueで議論し、仕様合意・小さな差分・テスト付きの貢献のみを歓迎する旨を説明。メンテナ負担軽減と明確な寄稿ルールの提案。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-21T20:21:40.000Z",
-      "contentHash": "8de7c4dc9275"
-    },
-    {
-      "id": "023c342b7d5c",
-      "title": "ISS astronauts are getting new laptops",
-      "url": "https://www.theverge.com/science/916300/nasa-iss-computer-upgrades-hp-zbook-fury-g9",
-      "summary": "NASAはISS第74次遠征クルー向けにHPのZBook Fury G9（G9モバイルワークステーション）を新ノートに選定。まずネットワークサーバを交換し、続いて新機を稼働。クリス・ウィリアムズが機材を開梱した。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T20:12:02.000Z",
-      "contentHash": "dc67c326c5f2"
-    },
-    {
-      "id": "3c542b7946ce",
-      "title": "Tim Cook was an innovator — just not the Jobs kind",
-      "url": "https://www.theverge.com/tech/916172/tim-cook-apple-legacy-supply-chain-ceo",
-      "summary": "ジョブズが製品革新を牽引したのに対し、ティム・クックは徹底した最適化でアップルを高収益かつ予測可能な企業に変えた。クックの手法はジョブズ型の革新とは異なり、後継にジョン・ターナスが就任する。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T19:15:00.000Z",
-      "contentHash": "21bab97de730"
-    },
-    {
-      "id": "869a3c8de8fb",
-      "title": "AI backlash is coming for elections",
-      "url": "https://www.theverge.com/policy/916210/ai-midterm-elections-data-centers-jobs",
-      "summary": "米国でAIへの不安が拡大し、データセンター反対やSNSでの激しい怒りが生じる一方、世論は60％超が規制や開発抑制を支持。しかし中間選挙での影響はまだ不透明。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T19:00:05.000Z",
-      "contentHash": "b45af04a8c85"
-    },
-    {
-      "id": "32b8b8063174",
-      "title": "OpenAI’s updated image generator can now pull information from the web",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/916166/openai-chatgpt-images-2",
-      "summary": "OpenAIはGPT Image 2搭載のChatGPT Images 2.0を公開。ウェブ検索で情報を取り込み、一つのプロンプトから最大8枚を生成。指示遵守や細部保持、テキスト生成、ファイルからの図解作成が可能で、Plus/Pro/Business/Enterprise向け。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T19:00:00.000Z",
-      "contentHash": "3884597f9c25"
-    },
-    {
-      "id": "d148c51f9554",
-      "title": "ChatGPT Images 2.0",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
-      "summary": "外部サイトを直接参照できないため、要約対象の記事本文か完全なURLを貼ってください。ライブ配信・システムカード・HNコメントのどれを要約するかも教えてください。200文字以内でまとめます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-21T18:50:00.000Z",
-      "contentHash": "6aa9b3d0bae6"
-    },
-    {
-      "id": "96cb59abd769",
-      "title": "Framework’s Laptop 13 Pro launch event",
-      "url": "https://www.theverge.com/gadgets/916168/framework-next-gen-laptop-13-pro-event",
-      "summary": "Frameworkがサンフランシスコで新型Laptop 13 Proを発表。モジュール式・修理可能で初のアルミ削り出し筐体、「Linuxユーザー向けMacBook Pro」を標榜。ソファ用キーボードやTyvek製スリーブ（$39）も披露。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T18:41:08.000Z",
-      "contentHash": "f7338041010b"
-    },
-    {
-      "id": "074aea563f4d",
-      "title": "X makes it 1,900 percent more expensive to post links",
-      "url": "https://www.theverge.com/tech/916178/x-link-post-api-expensive-techmeme",
-      "summary": "XがAPI経由のURL投稿料金を1件0.01ドルから0.20ドル（1900%増）に引き上げ。サードパーティやニュース媒体に負担、リンクがリーチを下げる懸念やNieman Labの調査、Nate Silverとの論争も影響している。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T18:27:18.000Z",
-      "contentHash": "b917ecdf683b"
-    },
-    {
-      "id": "4c04030175d7",
-      "title": "Framework announces Laptop 13 Pro, ‘the MacBook Pro for Linux users’",
-      "url": "https://www.theverge.com/gadgets/915508/framework-announces-laptop-13-pro-the-macbook-pro-for-linux-users",
-      "summary": "Frameworkが新型Laptop 13 Proを発表。従来の「拡張性・修理性は高いがバッテリや筐体品質が課題」を改善し、6000系アルミ削り出し筐体、ハプティックトラックパッド、13.5型3:2 2.8K可変リフレッシュなどを搭載。Linuxユーザー向けの“MacBook Pro”を標榜。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T18:08:00.000Z",
-      "contentHash": "bee981a4031e"
-    },
-    {
-      "id": "74696e9c78c1",
-      "title": "Framework’s first eGPUs turn its laptop into a desktop PC",
-      "url": "https://www.theverge.com/gadgets/915328/framework-oculink-egpu-dev-kit-laptop-16",
-      "summary": "Frameworkが外付けGPU対応を発表。OCuLink Dev KitでLaptop 16のGPUモジュールを外付け化、またはデスクトップGPUや他のPCIeカードをPCIe x8で接続可能。Thunderboltではなく、電源オフでの抜き差しが必要な上級者向け。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T18:07:24.000Z",
-      "contentHash": "70aa9842461b"
-    },
-    {
-      "id": "79e4b56c8d57",
-      "title": "Wearable health tech might be Tim Cook’s greatest legacy ",
-      "url": "https://www.theverge.com/tech/915976/tim-cook-john-ternus-apple-watch-health-tech-wearables",
-      "summary": "ティム・クックの最大の遺産はウェアラブルの健康技術かもしれない。クックは「最大の貢献は健康」と語り、Apple Watchなどで実現を目指した。ジョン・ターナスが後任CEOに就任予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T17:05:51.000Z",
-      "contentHash": "db33e1fe8021"
-    },
-    {
-      "id": "7c638d457d00",
-      "title": "Oppo’s new phone has one camera too many",
-      "url": "https://www.theverge.com/gadgets/915686/oppo-find-x9-ultra-review-10x-telephoto-lens",
-      "summary": "Oppo Find X9 Ultraは3年ぶりの10倍望遠を搭載し、現行で最良の10倍レンズを備えるが、動体や暗所では弱くややギミック寄り。それ以外は大容量電池、優れた表示、高スペックと魅力的な二面パネルデザインで総合的に高評価。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T17:00:00.000Z",
-      "contentHash": "3f36318c6ed9"
-    },
-    {
-      "id": "776723a2da42",
-      "title": "Ordering with the Starbucks ChatGPT app was a true coffee nightmare",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/915821/starbucks-chatgpt-app-testing",
-      "summary": "StarbucksがChatGPT連携の注文機能を導入したが、筆者が試したところ大混乱。普段は店頭や公式アプリで簡単に注文できるのに、@Starbucks経由の指示は誤認識や手間が多く、AIで既存アプリを超えるのは難しいと述べる。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T16:19:40.000Z",
-      "contentHash": "a8b192d0e75e"
-    },
-    {
-      "id": "a07e51ba3b99",
-      "title": "Dyson’s newest floor scrubber is already on sale for 20 percent off",
-      "url": "https://www.theverge.com/gadgets/915137/dyson-clean-wash-hygiene-wet-cleaner-hades-2-deal-nintendo-sale",
-      "summary": "ダイソンの新床用洗浄機「Clean+Wash Hygiene」がAmazon・Walmart・Best Buyで20%オフの$399.99に。吸引式ではなく給水と4段階のモーターブラシで汚れを除去。任天堂もSwitch 2向けソフト（Blue Prince、Hades IIなど）を値下げ中。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T16:09:00.000Z",
-      "contentHash": "494c4a7a7a3f"
-    },
-    {
-      "id": "a4e014a8a47d",
-      "title": "Xbox Game Pass Ultimate gets a price cut but loses new Call of Duty games",
-      "url": "https://www.theverge.com/news/915928/microsoft-xbox-game-pass-ultimate-price-drop",
-      "summary": "XboxのGame Passが値下げ。Asha Sharma氏の「高すぎた」発言を受け、Ultimateは月額29.99→22.99ドル、PCは16.49→13.99ドルに。新作『Call of Duty』は発売時にGame Pass非対応で約1年後の年末に追加。既存作とクラウド提供は継続。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-21T16:03:27.000Z",
-      "contentHash": "ece8dd3c54d1"
-    },
-    {
-      "id": "91f078dda900",
-      "title": "Make chats more natural and efficient with Continued Conversation, now in Gemini for Home",
-      "url": "https://blog.google/products-and-platforms/devices/how-to-use-gemini-continued-conversation/",
-      "summary": "Gemini for Homeに「Continued Conversation」機能が追加。初回の「Hey Google」後に数秒間マイクを維持して会話の文脈を保持、複数言語対応、雑音判定改善、家族やゲストも利用可。設定はGoogle HomeアプリのHome Settings > Gemini for Home > Continued Conversationで有効化。",
-      "source": "Gemini",
-      "publishedAt": "2026-04-21T16:00:00.000Z",
-      "contentHash": "bb1e2ac5adc0"
     }
   ]
 }
