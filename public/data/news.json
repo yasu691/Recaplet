@@ -1,6 +1,258 @@
 {
-  "generatedAt": "2026-05-14T18:21:06.334Z",
+  "generatedAt": "2026-05-15T04:19:21.164Z",
   "items": [
+    {
+      "id": "9d147bcc5c60",
+      "title": "Amazon DynamoDB Transactions でキー項目以外の一意制約を実現する | MOTEX TECH BLOG",
+      "url": "https://tech.motex.co.jp/entry/2026/05/15/114628",
+      "summary": "DynamoDB Transactions を使ってキー以外の属性の一意制約を実現する手法を紹介。値をキーとする補助項目（索引用エントリ）を作り、主項目と同時に TransactWriteItems で書き込み、attribute_not_exists 条件で重複を防ぎ原子性を保証する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T02:46:28.000Z",
+      "contentHash": "8bca4a253ec3"
+    },
+    {
+      "id": "ad640476780f",
+      "title": "「正解の仕様が分からない」を乗り越えた、給付費申請画面刷新プロジェクトの実践例 | コドモン Product Team Blog",
+      "url": "https://tech.codmon.com/entry/2026/05/15/113000",
+      "summary": "連携先更改で仕様が不明瞭だった給付費申請画面刷新で、現場担当者へ複数職能でヒアリングしエクスペリエンスマップを作成。UI検討では開発リスクを考慮し「やらないこと」も記録して優先度を決定、不要な機能化を避けつつ仕様を固めた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T02:30:00.000Z",
+      "contentHash": "551abf3249e8"
+    },
+    {
+      "id": "ec82b9aa82d0",
+      "title": "検索エンジン上に作るAgent向け仮想ファイルシステム | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/2026/05/15/112547",
+      "summary": "OpenSearch上にls/cat/grep風の操作とsemantic_searchを備えたAgent向け仮想ファイルシステムを実装。ファイル感覚で探索しつつ検索インデックスとDocument Level Securityで権限制御や順位付けを実現するAgentic Searchの実験で、コードはGitHub公開。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T02:25:47.000Z",
+      "contentHash": "38d72527397c"
+    },
+    {
+      "id": "29f92448fe3b",
+      "title": "最初の30日で何ができる？ SmartHRに飛び込んだQAエンジニアのオンボーディング記録 | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/05/15/111827",
+      "summary": "SmartHRに入社したQAエンジニアが、最初の30日で「仕事が回り始める状態」を作る過程を記録。オンボーディングや環境・権限設定、Daily log共有、Scrum@Scale理解、Notion AIやClaude等のAIツール導入、個人ミッション策定、JaSSTでの顔合わせなどを実施した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T02:18:27.000Z",
+      "contentHash": "f864d8dd1d09"
+    },
+    {
+      "id": "24a83902bf54",
+      "title": "Claude DesktopのスキルアーキテクチャをWindowsのファイルシステムから読み解く | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/cowork-code-desktop-skill-sharing-windows",
+      "summary": "Claude DesktopのCoworkとCode on Desktopは、同一Windows上でもカスタムスキルを信頼して共有できません。CoworkはUI/manifest、Code on Desktopは~/.claude/skills/とleveldbで管理。手動追加やキャッシュ削除が非公式な回避策で、プログレッシブ読込や永続性の要件は満たせません。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T02:12:58.000Z",
+      "contentHash": "1fa72320ac91"
+    },
+    {
+      "id": "176f8bb7feac",
+      "title": "Claude Code Desktop で「最近使ったフォルダ」を削除する方法【実機検証済み】 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/claude-code-desktop-remove-recent-folder",
+      "summary": "Claude Code Desktopの「最近使ったフォルダ」はUIで個別削除できません。対処法はアプリを終了してLevelDBフォルダを削除（Windows:%LOCALAPPDATA%/.../leveldb、macOS:~/Library/.../leveldb）し再起動。セッションやカスタムスキル等は~/.claude配下に残るため、削除は自己責任で事前にバックアップ推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T02:12:56.000Z",
+      "contentHash": "17af15c3cb1b"
+    },
+    {
+      "id": "f264e08af622",
+      "title": "家庭内LANから学ぶ：Google Cloud の VPC ネットワークの通信が実現される仕組み | クラウドエース株式会社さんのフィード",
+      "url": "https://zenn.dev/cloud_ace_jp/articles/basic-lan-and-vpc",
+      "summary": "家庭内LANでの実験（ARP/MAC、サブネット／ルーティング、OSファイアウォール）を通して、物理LANとGoogle Cloud VPCの通信仕組み（ブロードキャスト処理、グローバルVPCの違い、ゼロトラスト）を比較検証する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T02:02:46.000Z",
+      "contentHash": "3dab7604d719"
+    },
+    {
+      "id": "b3c8e2176f79",
+      "title": "関ケ原Ruby会議01にて「RubyKaja 2026」特別賞をいただくことになりました | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_05_15/158010",
+      "summary": "hachi8833さんがRubyKaja 2026の「特別賞」を受賞。5月30日の関ケ原Ruby会議01で授与式が行われる予定。驚きと喜びを述べ、BPS、YassLab、翻訳元や読者らへ感謝を伝えている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T02:00:17.000Z",
+      "contentHash": "48e945f6b50b"
+    },
+    {
+      "id": "62e7b517ccca",
+      "title": "Laravel 13へアップデートする際の対応とAI検索機能をざっくり理解する | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/05/15/104821",
+      "summary": "Laravel13がリリース。破壊的変更は少ないがPHPが最低8.3（推奨8.4）に。更新ではランタイム・拡張、対応パッケージ／周辺ライブラリ、テスト設定、Carbon等コード修正を確認。AI関連機能も強化。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T01:48:21.000Z",
+      "contentHash": "4f4a08ced3b1"
+    },
+    {
+      "id": "f21d001c4f45",
+      "title": "東京アビリンピックって何？出場してみた！2026 | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/nebc3ba422dee",
+      "summary": "SHIFTの藤本が2026年2月の東京アビリンピックDTP部門に出場。自転車ヘルメット着用を促すB4ポスターを90分で制作し、やわらかいパステルで仕上げたが入賞はならず。職場の同僚が金賞を獲得し、経験を得て満足している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T01:45:37.000Z",
+      "contentHash": "1e8f99587698"
+    },
+    {
+      "id": "6ed96c5b00ba",
+      "title": "Honda&#8217;s hybrid future starts with new Accord and RDX prototypes",
+      "url": "https://www.theverge.com/transportation/931044/honda-hybrid-prototypes-accord-acura-rdx",
+      "summary": "ホンダは新世代ハイブリッドのアコードとアキュラRDXのプロトタイプを公開。RDXは次世代2モーターハイブリッド搭載予定。2030年のEV比率目標や2040年完全EV方針を撤回し、開発をハイブリッドへ再配分、2030年度末までに主に北米で15車種投入を計画。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-14T22:46:55.000Z",
+      "contentHash": "35c443b17ab9"
+    },
+    {
+      "id": "7026c0a26245",
+      "title": "Grok Build の概要",
+      "url": "https://note.com/npaka/n/nd813d073196e",
+      "summary": "Grok Buildは2026年5月にSuperGrok Heavy向け早期ベータで公開されたCLI型コーディングエージェント。コード理解→計画確認・承認→実行・差分提示が可能。既存環境連携、並列サブエージェントとワークツリー、ヘッドレスCI対応で自動化に強い。",
+      "source": "npaka",
+      "publishedAt": "2026-05-14T22:44:56.000Z",
+      "contentHash": "221e61ff476e"
+    },
+    {
+      "id": "32bfd5bd8c3f",
+      "title": "More than sixty percent of the United States is experiencing drought conditions",
+      "url": "https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html",
+      "summary": "米国の60%以上が干ばつ、20%以上が極端干ばつに。Virginia Techの気候学者は、異常なラニーニャで南部から北西部まで乾燥が拡大し、温暖化による蒸発散増加で悪化していると指摘。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-14T22:38:18.000Z",
+      "contentHash": "9a4fe814df54"
+    },
+    {
+      "id": "19b52156f1fb",
+      "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
+      "url": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
+      "summary": "オンタリオ州監査院の報告で、医療用AI書記20種の評価のうち約60%が基本事実を誤り、処方薬の取り違えや重要情報の欠落、記録にない治療提案などの「幻覚」を示した（9/20が虚偽の治療提案）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-14T22:37:40.000Z",
+      "contentHash": "085083831199"
+    },
+    {
+      "id": "4d0eaaed3e7e",
+      "title": "Closing time",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/931006/musk-v-altman-closing-arguments-analysis",
+      "summary": "ムスク対オルトマン裁判の最終弁論は混乱とゴシップの応酬だった。ムスク側弁護士の失言や共被告の名取り違えなど失態が目立ち、矛盾が露呈した。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-14T22:21:46.000Z",
+      "contentHash": "e327fe85d09a"
+    },
+    {
+      "id": "f54edcca3049",
+      "title": "Metroid Prime 4: Beyond got its first big discount",
+      "url": "https://www.theverge.com/gadgets/930875/metroid-prime-4-beyond-nintendo-switch-deal-sale",
+      "summary": "Best BuyでMetroid Prime 4: Beyondの物理版が39.99ドル（20ドル引）。Switch 2向けに10ドルのデジタルアップグレードで高解像度テクスチャ、読み込み短縮、マウス操作が可能。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-14T21:38:45.000Z",
+      "contentHash": "dce0ca8b6e71"
+    },
+    {
+      "id": "6746c9bae633",
+      "title": "Meta brings virtual writing to everyone with Meta Ray-Ban Display glasses",
+      "url": "https://www.theverge.com/tech/930941/meta-ray-ban-display-virtual-neural-handwriting-apps-developer",
+      "summary": "MetaがRay‑Ban Displayスマートグラスに新機能を展開。神経リストバンドで手振りだけで文字入力が可能に（WhatsApp/Messenger/Instagram/ネイティブメッセージ対応）。また、レンズ表示と実世界映像、音声を合成する「表示録画」機能も追加。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-14T21:08:46.000Z",
+      "contentHash": "01ddf821171b"
+    },
+    {
+      "id": "555e18d4f2c7",
+      "title": "Behold, the Elon Musk jackass trophy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/930893/elon-musk-sam-altman-trial-ai-safety-jackass-statue",
+      "summary": "Musk対Altman裁判で、元OpenAI研究者ジョシュ・アチアムに贈られたトロフィーの銘「Never stop being a jackass」が法廷で披露された。アチアムはムスクに「jackass」と呼ばれた経緯を証言。ムスクは訴訟をAI危害回避の主張としている。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-14T20:59:23.000Z",
+      "contentHash": "fe7057f5fb09"
+    },
+    {
+      "id": "0c7b82ecae3b",
+      "title": "Leaked images reveal Xbox Elite 3 controller with mysterious new buttons",
+      "url": "https://www.theverge.com/news/930902/microsoft-xbox-elite-3-controller-leak-images",
+      "summary": "Anatelが誤公開した画像でXbox Elite 3の外観が流出。Elite 2の後継で、交換式十字キーやパドル、底部の2つのスクロールホイール風ボタン、着脱式電池、クラウドモードボタンを備え、デザインが洗練されている。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-14T20:52:19.000Z",
+      "contentHash": "685773c27681"
+    },
+    {
+      "id": "7de6c4ca80f5",
+      "title": "Amazonbot is finally respecting robots.txt",
+      "url": "https://xeiaso.net/notes/2026/amazonbot-respecting-robots-txt/",
+      "summary": "接続の安全を確認するためボットでないかチェック中です。しばらくお待ちください。サイトはTecharoのAnubis（v1.25.0-49-g9f479f5）で保護され、マスコットはCELPHASEがデザイン、カナダ製です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-14T20:22:35.000Z",
+      "contentHash": "a54a497f8389"
+    },
+    {
+      "id": "5b467fe813da",
+      "title": "OpenAI’s Codex is now in the ChatGPT mobile app",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview",
+      "summary": "OpenAIは、デスクトップでコード作成やアプリ操作ができるCodexをChatGPTモバイルアプリで利用可能に。スマホからPC上のCodexを操作し、出力確認やコマンド承認、モデル切替などが行える。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-14T20:00:00.000Z",
+      "contentHash": "afd5a5fb46b1"
+    },
+    {
+      "id": "e866ec858a28",
+      "title": "Meta’s summer sale drops Ray-Ban’s new smart glasses to record-low prices",
+      "url": "https://www.theverge.com/gadgets/930785/meta-smart-glasses-gen-1-2-deal-sale",
+      "summary": "MetaのサマーセールでRay‑Ban×Metaのスマートグラスが最安値に。初代が約224ドル（74ドル引）、第2世代が約322ドル（57ドル引、映像とバッテリー改善）でAmazon／Best Buy／公式にて5月26日まで販売。ハンズフリー撮影・通話やAI機能搭載。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-14T19:44:17.000Z",
+      "contentHash": "9ff97269a53c"
+    },
+    {
+      "id": "f33149e42dfe",
+      "title": "Germany's Sovereign Tech Fund Backs KDE with €1.3M",
+      "url": "https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562",
+      "summary": "KDEはドイツ主権技術基金から€1,285,200の支援を受け、PlasmaやKDE Linux（Project Banana）など基盤の信頼性・セキュリティ強化に充てる。欧州のデジタル主権化の流れの一環。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-14T19:16:02.000Z",
+      "contentHash": "a80879993e4b"
+    },
+    {
+      "id": "94e2733bab9b",
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "summary": "Microsoftは従業員向けに導入していたAnthropicのAIコーディングツール「Claude Code」の大半のライセンスを取り消し、多くの開発者をコマンドライン版「GitHub Copilot CLI」へ移行する予定。Claude Codeは人気だったがCopilot CLIを損なったため方針転換した。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-14T19:00:00.000Z",
+      "contentHash": "e394e88c00d2"
+    },
+    {
+      "id": "f1bf32fd8515",
+      "title": "Linux devs are fighting the new age-gated internet",
+      "url": "https://www.theverge.com/tech/930573/age-verification-bills-linux-open-source",
+      "summary": "欧米でOSに利用者年齢の収集を義務付ける法案が広がり、Linuxなどオープンソース開発者がプライバシー侵害や実装負担を懸念して、法的対応や代替技術を模索している。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-14T18:58:00.000Z",
+      "contentHash": "a1f86ba18bcf"
+    },
+    {
+      "id": "18c26e23b55c",
+      "title": "The AI Zombification of Universities",
+      "url": "https://www.thenewcritic.com/p/the-great-zombification",
+      "summary": "著者は大学でのAI利用が単なるカンニングを超え、学問文化を蝕み学生を「ゾンビ化」させ、大学の人文的・道徳的・職業的役割を毀損すると警告する。年長世代は要求が甘いと指摘。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-14T18:37:08.000Z",
+      "contentHash": "2861a8b46d2f"
+    },
+    {
+      "id": "1cc0794b1e71",
+      "title": "First public macOS kernel memory corruption exploit on Apple M5",
+      "url": "https://blog.calif.io/p/first-public-kernel-memory-corruption",
+      "summary": "研究者チームがApple M5のMIE（MTE）を回避し生き残る、初の公表済みmacOSカーネルメモリ破損エクスプロイトを5日で作成。Appleに直接報告し、修正後に技術公開予定。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-14T18:25:09.000Z",
+      "contentHash": "396103e9da42"
+    },
+    {
+      "id": "731c5e14d167",
+      "title": "AI is making me dumb",
+      "url": "https://jpain.io/god-damn-ai-is-making-me-dumb/",
+      "summary": "AIに頼りすぎて文章やコーディング能力が低下し、自信を失った。1〜2年で手書きの技術を忘れたため再学習中。AI依存が技能喪失を助長すると懸念しつつも、専門家は依然必要と考える。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-14T18:19:28.000Z",
+      "contentHash": "ecf75740f648"
+    },
     {
       "id": "576a225160df",
       "title": "Use this map to find the data centers in your backyard",
@@ -194,10 +446,10 @@
       "id": "f8b45ac326f1",
       "title": "Codex のゲーム開発のための技術スタックまとめ",
       "url": "https://note.com/npaka/n/n64f370566ca4",
-      "summary": "Codexでの開発はまず静的Webゲーム（HTML/CSS/JS）で始めるのが便利。Vite+TypeScriptを基本とし、ジャンル別に小規模2DはCanvas、一般2DはPhaser、2DはPixiJS、3DはThree.js。公開は静的配信後にElectronやCapacitorでデスクトップ/モバイル化。型管理のためTypeScript推奨。",
+      "summary": "Codexでのゲーム開発は最初に技術スタックを決め、まずは静的Webゲーム（ブラウザ動作）で作るのがおすすめ。基本はVite＋TypeScript。小規模2DはCanvas、一般2DはPhaser、演出重視はPixiJS、3DはThree.js。配布はWeb公開→Electron/Capacitorでデスクトップ・スマホ化。TypeScriptで型設計すると改修や依頼が楽になる。",
       "source": "npaka",
       "publishedAt": "2026-05-14T09:29:35.000Z",
-      "contentHash": "69f8dbca0e30"
+      "contentHash": "a54885eaa148"
     },
     {
       "id": "f722a2881585",
@@ -347,19 +599,19 @@
       "id": "5cbc777c4b31",
       "title": "Codex でノベルゲームの作成を試す",
       "url": "https://note.com/npaka/n/n2944f84050a1",
-      "summary": "Codexでノベルゲーム制作を試した報告。GPT-5.4で作ったゲームブックをノベル形式に変換し、キャラ設定やGPT Image 2作成の画面レイアウトを追加。素材は指定画像とnoteを使用し、PLAN.mdで管理、画像生成はサブエージェントで実行。",
+      "summary": "Codexでノベルゲーム作成を試行。GPT-5.4で作ったゲームブックをノベル化し、キャラ設定や画面レイアウト（GPT Image 2）を追加。画像は参照素材を元に生成、制作計画はPLAN.mdで管理。シナリオはNote記事を流用。",
       "source": "npaka",
       "publishedAt": "2026-05-14T00:06:47.000Z",
-      "contentHash": "2afd36239601"
+      "contentHash": "3b8160cf46a1"
     },
     {
       "id": "cfbaa064de11",
       "title": "Googlebook の概要",
       "url": "https://note.com/npaka/n/n90b63f378163",
-      "summary": "Googleが2026年5月発表の新PCカテゴリ「Googlebook」。AndroidとChromeOSを統合しGemini中心のAIネイティブ設計。Magic Pointer、ウィジェット作成、スマホ連携Quick Access搭載。Acer等複数メーカーが秋発売予定でChromebookの単純後継ではない。",
+      "summary": "Googleは2026年5月にAIネイティブな新ノートPCカテゴリ「Googlebook」を発表。AndroidとChromeOSを融合しGemini中心で設計。Magic Pointer、自然言語で作るウィジェット、スマホファイル直アクセスなどを搭載。Acer等複数メーカーが参入し秋発売予定、Chromebookの単純後継ではない。",
       "source": "npaka",
       "publishedAt": "2026-05-13T23:17:16.000Z",
-      "contentHash": "55ca9d5f0497"
+      "contentHash": "f9cdaaada68e"
     },
     {
       "id": "e85a44a8ec18",
@@ -2417,19 +2669,19 @@
       "id": "3a18c3d48ddc",
       "title": "Codex Chrome extension の概要",
       "url": "https://note.com/npaka/n/n8de1c3acd145",
-      "summary": "Codex Chrome拡張は、ログイン済みのChrome上でCodexがLinkedIn/Gmail/Salesforceなどのサイトを読み取り・操作できる拡張機能。Pluginsから接続・権限承認して利用し、ホスト単位で許可/拒否や許可・ブロックリストで制御可能。高度なブラウザ権限が必要。",
+      "summary": "Codex Chrome拡張は、ログイン済みのChromeを通じてLinkedInやGmail、Salesforce等のサイトをCodexに読ませ・操作させる機能です。Pluginsから接続し権限を承認、サイトごとに許可（今回のみ/常時/拒否）や許可・ブロックリストで管理できます。強いブラウザ権限を要求するため注意。ログイン不要の確認はin-app browserを推奨。",
       "source": "npaka",
       "publishedAt": "2026-05-07T22:47:49.000Z",
-      "contentHash": "ef2172459f07"
+      "contentHash": "4b2300bf7866"
     },
     {
       "id": "8d2b7ead8341",
       "title": "GPT-Realtime-2 ・ GPT-Realtime-Translate ・ GPT-Realtime-Whisper の概要",
       "url": "https://note.com/npaka/n/nade0d8498e64",
-      "summary": "GPT-Realtime-2、GPT-Realtime-Translate、GPT-Realtime-Whisperが公開。Realtime-2はリアルタイム推論・長文コンテキスト(最大128K)・ツール連携・トーン制御、Translateは70言語超→13言語の同時翻訳、Whisperは低遅延文字起こし。自然で多機能な音声インターフェースを実現。",
+      "summary": "OpenAIがAPIでGPT-Realtime-2、GPT-Realtime-Translate、GPT-Realtime-Whisperを公開。Realtime-2は高い推論力・長コンテキスト(32K→128K)、トーン制御や並列ツール呼出し対応。Translateは70以上→13言語のリアルタイム翻訳、Whisperは低遅延のストリーミング文字起こし。音声で理解・推論・翻訳・行動するインターフェースを目指す。",
       "source": "npaka",
       "publishedAt": "2026-05-07T21:45:17.000Z",
-      "contentHash": "536d972268bd"
+      "contentHash": "f6f530a7b506"
     },
     {
       "id": "bbfe7c8eee50",
@@ -8748,258 +9000,6 @@
       "source": "OpenAI",
       "publishedAt": "2026-04-23T10:00:00.000Z",
       "contentHash": "590dc67537a4"
-    },
-    {
-      "id": "22ae4e843bbd",
-      "title": "RubyKaigi 2026 参加レポート — Day 2 | Link and Motivation Developers' Blog",
-      "url": "https://link-and-motivation.hatenablog.com/entry/2026/04/23/185422",
-      "summary": "函館開催のRubyKaigi 2026 Day2報告。Charles NutterがJRubyの20年とJVM改良、並列性能の高さを紹介。Daichi Kamiyamaは型の代わりに「メソッド呼び出し可否」を高速検査するMethod‑Rayを提案。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-23T09:54:22.000Z",
-      "contentHash": "8acabaa811b5"
-    },
-    {
-      "id": "ba639d329e9a",
-      "title": "Real-time multimodality: Building seamless experiences with the Gemini Live API（Google Cloud Next '26セッションレポート） | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/next-26-gemini-live-api",
-      "summary": "Google Cloud Next '26でGemmani Live APIを紹介。自律エージェント基盤と音声・視覚・エンタープライズ対応の3柱や新機能「Live Avatar」（プライベートプレビュー）、リアルタイム音声・感情対応デモ、ShopifyやCitibank、Otto、スクウェア・エニックスの事例を発表。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-23T09:30:00.000Z",
-      "contentHash": "6c8d87182c74"
-    },
-    {
-      "id": "087aa3f2e34e",
-      "title": "今週の新着ブログ 9本_新卒にリーダーシップは必要か_Entra ID の「カスタム禁止パスワード」を攻撃者目線で設定する　(2026.4.17~4.23) | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n1991fec36ef0",
-      "summary": "SHIFTグループ技術ブログ編集部の案内です。ITだけでなく広義の“技術”としてグループの知見やノウハウを、入社歴や部署を越えた従業員が公式ブロガーとして発信するお役立ち記事を公開しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-23T09:06:27.000Z",
-      "contentHash": "628687c01d03"
-    },
-    {
-      "id": "79888153b6cb",
-      "title": "Claude Codeのルールを育て続ける——Routinesでレビュー指摘を.claude/rulesに自動反映する | 株式会社ZOZOのフィード",
-      "url": "https://zenn.dev/zozotech/articles/20260423_pr_review_claude_rules",
-      "summary": "Claude CodeのRoutinesで週次にPRレビュー指摘を自動分析し、.claude/rules/へ反映する仕組みを解説。繰り返すレビュー指摘をルール化してAI生成コードの品質向上を図り、変更PRに元指摘URLを紐づける。前提や実行手順、エージェントプロンプト付き。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-23T09:00:50.000Z",
-      "contentHash": "7d79ba8ce34c"
-    },
-    {
-      "id": "249dd032bf33",
-      "title": "【文系AIコンサル】WBS（作業分解構成図）は単なる「予定表」じゃない。エンジニアの魂を社会の実装へ繋ぐ「対話の地図」だ。 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/82cd9d0181acb3",
-      "summary": "新人コンサルがWBSを単なる進捗表でなく、エンジニアの「魂」を社会に届けるための対話の地図と再認識。アジャイル＝バイキング、ウォーターフォール＝フルコースの比喩で手法選定の重要性と、完了基準などの客観的定義を示し、コンサルは技術を顧客ニーズに翻訳して継続的活用まで責任を負うべきと述べる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-23T09:00:06.000Z",
-      "contentHash": "d3b3d50101d1"
-    },
-    {
-      "id": "48e8b0b7e7be",
-      "title": "What's new with Gemini from Google DeepMind（Google Cloud Next '26速報） | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/whats-new-with-gemin-from-google-deepmind",
-      "summary": "Google Cloud Next '26の速報は、DeepMindのGeminiの進化とPro/Flash/Flash‑Lightなどのラインナップ、Gemma/Gemini Live/Lyria等の多様なモデルを紹介。Google Cloudでのエンタープライズ導入、マルチモーダル・エージェント機能、ReplitのVertex AI活用事例も解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-23T09:00:00.000Z",
-      "contentHash": "6f05da43d584"
-    },
-    {
-      "id": "7e83fb17fc31",
-      "title": "CGWORLD にて NVIDIA DGX Spark × Reachy Mini の連載の3回目公開されました",
-      "url": "https://note.com/npaka/n/n7110847ae451",
-      "summary": "CGWORLDで「NVIDIA DGX Spark×Reachy Mini」連載第3回が公開。Gemma4をReachy Miniに搭載し、Function Callingの精度向上、Thinking量の調整、常時カメラ視認、ロールプレイや高速動作などでAIロボのキャラ性と実用性を拡張する内容。",
-      "source": "npaka",
-      "publishedAt": "2026-04-23T08:29:56.000Z",
-      "contentHash": "8fbdd44b8ce8"
-    },
-    {
-      "id": "a8b4227f060f",
-      "title": "Our newsroom AI policy",
-      "url": "https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/",
-      "summary": "申し訳ありませんが、外部URLを直接開けません。記事本文か主要箇所（あるいはHNのコメント抜粋）をここに貼っていただければ、200文字以内で日本語要約を作成します。貼り付けが難しければ、要点（目的、方針の主要項目、結論など）を教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-23T05:14:05.000Z",
-      "contentHash": "e02de2fe6343"
-    },
-    {
-      "id": "cd97f61e6af4",
-      "title": "I am building a cloud",
-      "url": "https://crawshaw.io/blog/building-a-cloud",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文をここに貼っていただければ、200字以内で日本語要約します。URLからの要約が必要なら、本文のコピーか主要ポイントを共有してください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-23T04:44:19.000Z",
-      "contentHash": "00ceb4dfe96f"
-    },
-    {
-      "id": "d2f04a645a93",
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
-      "summary": "GPT-5.5 Bio Bug Bountyは、バイオ安全リスクに関する普遍的なジャイルブレイクを発見するためのレッドチーミング（バグバウンティ）挑戦で、報奨金は最大25,000ドルです。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-23T00:00:00.000Z",
-      "contentHash": "0d26c386c746"
-    },
-    {
-      "id": "439543f2e8aa",
-      "title": "OpenAI Workspace Agents の概要",
-      "url": "https://note.com/npaka/n/ndca66b79411b",
-      "summary": "Workspace Agentsは、繰り返し発生するチーム業務をクラウドで自動化・共有するChatGPT拡張。レポート作成やSlack一次対応、ツール横断要約に向き、再現性と運用管理機能を提供。権限や最終判断は注意。Business/Enterprise/Eduでリサーチプレビュー、期間限定で無料。",
-      "source": "npaka",
-      "publishedAt": "2026-04-22T23:58:37.000Z",
-      "contentHash": "e3c057a2271a"
-    },
-    {
-      "id": "38cdd88c1503",
-      "title": "Anthropic&#8217;s Mythos rollout has missed America’s cyberscurity agency",
-      "url": "https://www.theverge.com/policy/916758/anthropic-mythos-preview-cisa-left-out",
-      "summary": "Anthropicの脆弱性発見AI「Claude Mythos Preview」が商務省やNSAなどでは採用されている一方、米中央サイバー調整機関CISAは利用できていないと報道。政権とAnthropicは利用拡大を協議中だという。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-22T16:57:36.000Z",
-      "contentHash": "d407d9a49bb7"
-    },
-    {
-      "id": "7267e9f30513",
-      "title": "Microsoft teases mysterious Discord and Xbox Game Pass partnership",
-      "url": "https://www.theverge.com/news/916787/microsoft-discord-xbox-game-pass-partnership",
-      "summary": "マイクロソフトがDiscordとXbox Game Passの新提携を予告。Asha Sharma氏は「Game Passをより柔軟にする」ため再連携すると述べ、Nitroの拡充や機能バンドルの可能性が指摘され、テスト開始の兆候もある。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-22T16:41:06.000Z",
-      "contentHash": "e7863b955d2a"
-    },
-    {
-      "id": "b369a325c8f5",
-      "title": "Google Meet will take AI notes for in-person meetings too",
-      "url": "https://www.theverge.com/tech/916779/google-meet-ai-notetaker-in-person-meetings",
-      "summary": "GoogleのAI会議メモ機能（Gemini）がGoogle Meet以外や対面会議に対応。ZoomやTeamsでも要約・文字起こしが可能で、Meetの「take notes for me」からモバイル／デスクトップで起動、即席会議やビデオ通話への切替にも対応。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-22T16:38:19.000Z",
-      "contentHash": "586edd9eb97c"
-    },
-    {
-      "id": "b86e5fde7054",
-      "title": "Microsoft says the ‘idea’ of an Xbox mobile store ‘is not dead’",
-      "url": "https://www.theverge.com/news/916601/microsoft-xbox-mobile-store-comment",
-      "summary": "Microsoftは2022年から準備してきた「Xboxモバイルストア」が2024年の予定を逃して現在保留に。テスト用URLも消え、厳しいApp Store規約で展開が難航する一方、構想自体は「死んでいない」としている。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-22T16:28:20.000Z",
-      "contentHash": "04f723dda337"
-    },
-    {
-      "id": "2a12912ff901",
-      "title": "Gemini Embedding 2 is now generally available.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2-generally-available/",
-      "summary": "GoogleがGemini Embedding 2の一般提供を発表。テキスト・画像・動画・音声をネイティブに扱うマルチモーダル埋め込みで検索や推論を統合し、Gemini APIとEnterprise Agentで実運用を支援。",
-      "source": "Gemini",
-      "publishedAt": "2026-04-22T16:15:00.000Z",
-      "contentHash": "1dc43b6af529"
-    },
-    {
-      "id": "eb556b717fc0",
-      "title": "Will a new CEO help realize Apple&#8217;s smart home potential?",
-      "url": "https://www.theverge.com/tech/916698/apple-home-ternus-hardware-homepad-rumors",
-      "summary": "ジョン・ターナス新CEOは、長年活かされてこなかったAppleのスマートホーム基盤を本格化させる好機にある。今秋にも新しいスマートホーム機器群が出る兆しがあり、分野復活が期待される。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-22T15:31:34.000Z",
-      "contentHash": "cf12809c1338"
-    },
-    {
-      "id": "8cad933a121d",
-      "title": "Making ChatGPT better for clinicians",
-      "url": "https://openai.com/index/making-chatgpt-better-for-clinicians",
-      "summary": "OpenAIは米国の認証済み医師、ナースプラクティショナー、薬剤師向けに「ChatGPT for Clinicians」を無料提供し、臨床ケア、文書作成、研究支援を行う。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-22T15:00:00.000Z",
-      "contentHash": "ef17a48be75f"
-    },
-    {
-      "id": "8faa8e8a501d",
-      "title": "Sony’s PlayStation 5 is $200 off for the first time since December",
-      "url": "https://www.theverge.com/gadgets/916610/ps5-digital-4k-bluray-fitbit-google-pixel-watch-deal-sale",
-      "summary": "ソニー直販のPS Directで、ディスクなしのPS5スリムバンドルが他店より200ドル安い399ドルで販売。DualSenseや電源・HDMI、Fortniteのコスメ同梱。4月22日報。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-22T14:38:51.000Z",
-      "contentHash": "e27c14111ae8"
-    },
-    {
-      "id": "dc027f2eb8e8",
-      "title": "Now Meta will track what employees do on their computers to train its AI agents",
-      "url": "https://www.theverge.com/tech/916681/meta-ai-agents-employee-tracking",
-      "summary": "メタは米国社員のPCに「Model Capability Initiative」を導入し、業務アプリでのマウス移動・クリック・キー入力・一部スクリーンショットを記録。収集データはAIエージェントの学習（業務自動化）に使われ、人事評価には使わないと報道されています。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-22T14:22:35.000Z",
-      "contentHash": "3bc2fdd87ef6"
-    },
-    {
-      "id": "2e82e51727d5",
-      "title": "I bought Alienware&#8217;s $350 OLED monitor and I can&#8217;t believe how good it is",
-      "url": "https://www.theverge.com/tech/916277/alienware-aw2726dm-qdoled-gaming-monitor-specs-hands-on",
-      "summary": "著者が$350のAlienware 27型1440p QD‑OLEDモニターAW2726DMを購入。豊かなコントラスト、240Hz、半光沢コート、派手なRGBなしの薄型筐体、焼き付き対応の3年保証など高コスパを評価し、ゲームで好印象を得た。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-22T14:00:00.000Z",
-      "contentHash": "80f813a60b8f"
-    },
-    {
-      "id": "87c4b1feafb0",
-      "title": "Call of Duty never made much sense for Xbox Game Pass",
-      "url": "https://www.theverge.com/games/916627/call-of-duty-xbox-game-pass",
-      "summary": "MicrosoftがXbox Game Pass Ultimateを月額$29.99から$22.99に値下げする一方、今後のCall of Duty新作は発売時にGame Passに含まれなくなる。サブスク戦略の転換を示唆。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-22T13:45:00.000Z",
-      "contentHash": "e040dee058a4"
-    },
-    {
-      "id": "513880293e34",
-      "title": "BMW’s flagship 7 Series gets its ‘Neue Klasse’ upgrade",
-      "url": "https://www.theverge.com/transportation/915630/bmw-7-series-neue-klasse-range-price-specs",
-      "summary": "BMWが2021年発表の新世代EVアーキテクチャ「Neue Klasse」を採用した新型7シリーズをNYと北京で発表。外観は賛否あるが、10万ドル超の高級EVに高性能と先進技術を搭載し「究極のコンピューティングプラットフォーム」を目指す。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-22T13:00:00.000Z",
-      "contentHash": "b967ee05e7e0"
-    },
-    {
-      "id": "0567f6c16969",
-      "title": "PHPerが見るRubyKaigiタイムテーブル Day 2 | pixiv inside",
-      "url": "https://inside.pixiv.blog/2026/04/22/193333",
-      "summary": "Platform Divisionのうさみ(@tadsan)が、普段PHPを書く視点でRubyKaigi Day2を紹介。師匠と仰ぐささだこういち氏の講演「The AST Galaxy to the Virtual Machine Blues」を取り上げる。ささだ氏はるびま発起人でYARV開発者、現Rubyコミッタ。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-22T10:33:33.000Z",
-      "contentHash": "94a662c4b143"
-    },
-    {
-      "id": "8f555fe918e1",
-      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
-      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-      "summary": "Codexエージェントループを詳細解析。WebSocketとコネクションスコープのキャッシュを導入してAPIオーバーヘッドを低減し、モデル応答のレイテンシを改善した。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-22T10:00:00.000Z",
-      "contentHash": "a1467bd68930"
-    },
-    {
-      "id": "c71ef79e3212",
-      "title": "Introducing workspace agents in ChatGPT",
-      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
-      "summary": "ChatGPTのWorkspace agentsはCodex搭載で、複雑なワークフローをクラウドで自動化し、ツール間でチームの業務を安全にスケールさせるエージェントです。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-22T10:00:00.000Z",
-      "contentHash": "45b160a50250"
-    },
-    {
-      "id": "469345dd3874",
-      "title": "Workspace agents",
-      "url": "https://openai.com/academy/workspace-agents",
-      "summary": "ChatGPTのワークスペースエージェントを構築・活用・拡張して、繰り返し作業を自動化し、ツール連携でチームの業務を効率化する方法を解説。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-22T10:00:00.000Z",
-      "contentHash": "96a8d1a55919"
-    },
-    {
-      "id": "f7c3f318601b",
-      "title": "Ruby Kaigi 2026 1日目レポート | Link and Motivation Developers' Blog",
-      "url": "https://link-and-motivation.hatenablog.com/entry/2026/04/22/183310",
-      "summary": "バックエンドエンジニアの津曲が函館で開催のRuby Kaigi 2026に参加。所属のリンクアンドモチベーションはプラチナスポンサー。技術カンファ初参加で熱気と現地の温かさを感じ、ブース出展しつつ1日目のセッションをレポートします。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-22T09:33:10.000Z",
-      "contentHash": "5f4b6c9ef66a"
     }
   ]
 }
