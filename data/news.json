@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2026-05-15T04:19:21.164Z",
+  "generatedAt": "2026-05-15T10:32:54.235Z",
   "items": [
+    {
+      "id": "3a39d0d6982f",
+      "title": "Apache Icebergのメタデータを追跡してみた話 | MicroAd Developers Blog",
+      "url": "https://developers.microad.co.jp/entry/2026/05/15/180000",
+      "summary": "Apache Icebergのメタデータを調査。検証環境でINSERT/UPDATE後のメタデータ変化を確認し、多数のデータファイルを生成してrewrite_data_filesとrewrite_manifestsによるコンパクション結果を検証。今後の展望も示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T09:00:00.000Z",
+      "contentHash": "f73822bad773"
+    },
+    {
+      "id": "164dc5b1db20",
+      "title": "Software Design 2026年6月号で toitta の技術選定について読めます | Hatena Developer Blog",
+      "url": "https://developer.hatenastaff.com/entry/software-design-202606-toitta",
+      "summary": "toittaのAI開発担当がSoftware Design（2026年6月号）に技術選定を寄稿。toittaは2023年発足のインタビュー分析SaaSで、録音/録画から書き起こし・発話抽出・クラスタリング・レポート生成・横断検索で分析を支援し、LLM中心の潮流を踏まえた技術選定を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T09:00:00.000Z",
+      "contentHash": "69cf0e49f67a"
+    },
+    {
+      "id": "ca6dac666000",
+      "title": "クラウドネイティブ会議 2026 参加レポート DAY1 | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/05/15/175642",
+      "summary": "クラウド事業部の宋が名古屋中日ホールで開催された「クラウドネイティブ会議2026」に現地参加。会場の雰囲気や印象的なセッションをエンジニア視点で客観的にまとめ、学びと感想を共有した報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T08:56:42.000Z",
+      "contentHash": "03565eeced7f"
+    },
+    {
+      "id": "e3fb02f4755b",
+      "title": "iOS 26で認証コードを手で打たせない — キーボードに召喚術を教えた話 | YOUTRUST Tech Blog",
+      "url": "https://tech.youtrust.co.jp/entry/ios-26-one-time-code-keyboard",
+      "summary": "アプリ開発者のルーカスが、サブスクログインでGmailの認証メールに含まれるワンタイムコードがiOSキーボードに自動表示されて驚く話。従来はSMSのみだった自動入力がiOS 26でメールにも対応した新機能の紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T08:37:09.000Z",
+      "contentHash": "cdab5346d3e0"
+    },
+    {
+      "id": "ced1801bf5a7",
+      "title": "EKSの操作がCloudShellから簡単に ～ワンクリッククラスタアクセスを試す～ | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/d3af447bb29a58",
+      "summary": "Kubernetes運用には別途端末が必要。EKSはAPI公開をパブリック/プライベートで選べ、従来プライベートは同VPC内のEC2経由が必須だった。2026/4/30からCloudShellで簡単にプライベートEKSを操作可能に。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T08:00:07.000Z",
+      "contentHash": "debfd2ac0adc"
+    },
+    {
+      "id": "752af39a6b55",
+      "title": "TSKaigi 2026にブロンズスポンサーとして協賛します | BASEプロダクトチームブログ",
+      "url": "https://devblog.thebase.in/entry/2026/05/15/170000",
+      "summary": "Pay IDエンジニア岡部が、BASEがブロンズスポンサーを務めるカンファレンス「TSKaigi 2026」を紹介。発表を通じた学びと参加者同士の交流で、型にとらわれないエンジニアの成長と新たな繋がりを目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T08:00:00.000Z",
+      "contentHash": "efad3eb53a74"
+    },
+    {
+      "id": "cf67731a6d27",
+      "title": "OCI EventsおよびOCI Functionsを利用したSlack通知の実装 | スマートスタイル TECH BLOG",
+      "url": "https://blog.s-style.co.jp/2026/05/16130/",
+      "summary": "OCIのEventsサービスは、OCIリソースで発生したイベントを契機に処理を起動でき、OCI Functionsと組み合わせることでサーバレス構成によるイベント通知や自動化を実現する方法を解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T07:57:07.000Z",
+      "contentHash": "5a7bf7c69206"
+    },
+    {
+      "id": "4efcd5694891",
+      "title": "Work IQでTeamsに眠るナレッジを即活用 ～「15分で構築可能！問い合わせ対応支援エージェント」のご紹介 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/75bebd16367ea4",
+      "summary": "Microsoft Copilot Studioのプレビュー機能「Work IQ MCP」と、それを使った問い合わせ対応支援エージェントを紹介。情報取得→文脈理解→実行まで一気通貫で行い、情報源の選定・判断・結果返却を自動化する点を特徴とする。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T07:43:41.000Z",
+      "contentHash": "91856ccb4bd9"
+    },
+    {
+      "id": "6e77eab0856c",
+      "title": "Copilot+ PC の NPU を活用して、完全ローカルRAGシステムを構築してみた（AI Toolkit × Lemonade Server） | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/05/15/164331",
+      "summary": "NPU搭載のCopilot+ PCでクラウド不要にPDFを即時検索する手順を、セットアップから操作方法、注意点まで実用的に解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T07:43:31.000Z",
+      "contentHash": "e8cbccb7ccdd"
+    },
+    {
+      "id": "34bbe5b4f42e",
+      "title": "「AIエージェントキャッチアップ #76 - Open Data Spaces (ODS)」を開催しました | Generative Agents Tech Blog",
+      "url": "https://blog.generative-agents.co.jp/entry/2026/05/15/161917",
+      "summary": "ジェネラティブエージェンツの大嶋が「AIエージェントキャッチアップ #76」で、エージェンティックAI時代向けの分散データ管理アーキテクチャ「Open Data Spaces（ODS）」を解説。勉強会のアーカイブ動画やODS公式サイト、ドキュメントへのリンクを案内しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-15T07:19:17.000Z",
+      "contentHash": "607fcfbdba39"
+    },
+    {
+      "id": "466dfcd96246",
+      "title": "Agent Sprite Forge を試す",
+      "url": "https://note.com/npaka/n/n9986ee3631d5",
+      "summary": "Agent Sprite Forgeは、自然言語からスプライトシートやレイヤー化マップ、Godot/Unity向け素材を生成するCodex向け2Dアセット制作スキル。generate2dsprite／generate2dmapを備え、背景除去・フレーム抽出・PNG/GIF出力やエンジン連携まで自動化。導入はリポジトリをクローンして依存導入、スキルをCodexに配置して再起動。",
+      "source": "npaka",
+      "publishedAt": "2026-05-15T03:07:58.000Z",
+      "contentHash": "4caa5e85a6e4"
+    },
     {
       "id": "9d147bcc5c60",
       "title": "Amazon DynamoDB Transactions でキー項目以外の一意制約を実現する | MOTEX TECH BLOG",
@@ -95,19 +194,19 @@
       "id": "6ed96c5b00ba",
       "title": "Honda&#8217;s hybrid future starts with new Accord and RDX prototypes",
       "url": "https://www.theverge.com/transportation/931044/honda-hybrid-prototypes-accord-acura-rdx",
-      "summary": "ホンダは新世代ハイブリッドのアコードとアキュラRDXのプロトタイプを公開。RDXは次世代2モーターハイブリッド搭載予定。2030年のEV比率目標や2040年完全EV方針を撤回し、開発をハイブリッドへ再配分、2030年度末までに主に北米で15車種投入を計画。",
+      "summary": "ホンダは新型ハイブリッドの試作車、アコードとアキュラRDXを披露。RDXは次世代2モーター採用。来年から新プラットフォームで展開し、2030年3月期までに15車種投入。EV目標を撤回しハイブリッドへ注力。",
       "source": "The Verge",
       "publishedAt": "2026-05-14T22:46:55.000Z",
-      "contentHash": "35c443b17ab9"
+      "contentHash": "a0c9899d1d11"
     },
     {
       "id": "7026c0a26245",
       "title": "Grok Build の概要",
       "url": "https://note.com/npaka/n/nd813d073196e",
-      "summary": "Grok Buildは2026年5月にSuperGrok Heavy向け早期ベータで公開されたCLI型コーディングエージェント。コード理解→計画確認・承認→実行・差分提示が可能。既存環境連携、並列サブエージェントとワークツリー、ヘッドレスCI対応で自動化に強い。",
+      "summary": "本文が抜けているようです。「Introducing Grok Build」の記事全文かURLを貼ってください。いただければ内容に沿って200字以内で要約します。",
       "source": "npaka",
       "publishedAt": "2026-05-14T22:44:56.000Z",
-      "contentHash": "221e61ff476e"
+      "contentHash": "fbc0924c5d90"
     },
     {
       "id": "32bfd5bd8c3f",
@@ -137,6 +236,15 @@
       "contentHash": "e327fe85d09a"
     },
     {
+      "id": "905ee122c182",
+      "title": "Codex in the ChatGPT mobile app の概要",
+      "url": "https://note.com/npaka/n/n40bc7878909e",
+      "summary": "ChatGPTモバイルアプリにCodexが統合され、スマホから長時間の開発作業を監視・承認・指示できるようになった。スクリーンショット、差分、テスト結果を確認しモデル切替や新スレッド作成が可能で、SSH経由で管理されたリモート環境にも接続できるため、外出先でバグ調査・方針決定・アイデア実装が行える。",
+      "source": "npaka",
+      "publishedAt": "2026-05-14T22:09:49.000Z",
+      "contentHash": "f5d754891c4e"
+    },
+    {
       "id": "f54edcca3049",
       "title": "Metroid Prime 4: Beyond got its first big discount",
       "url": "https://www.theverge.com/gadgets/930875/metroid-prime-4-beyond-nintendo-switch-deal-sale",
@@ -149,10 +257,10 @@
       "id": "6746c9bae633",
       "title": "Meta brings virtual writing to everyone with Meta Ray-Ban Display glasses",
       "url": "https://www.theverge.com/tech/930941/meta-ray-ban-display-virtual-neural-handwriting-apps-developer",
-      "summary": "MetaがRay‑Ban Displayスマートグラスに新機能を展開。神経リストバンドで手振りだけで文字入力が可能に（WhatsApp/Messenger/Instagram/ネイティブメッセージ対応）。また、レンズ表示と実世界映像、音声を合成する「表示録画」機能も追加。",
+      "summary": "MetaはRay‑Ban Displayスマートグラスに、ニューラルリストバンドで手のジェスチャーだけで文字を書く機能を全ユーザーに展開。WhatsApp、Messenger、Instagramやネイティブメッセージで利用可能。レンズ表示と実世界映像・音声を合成して録画する「表示録画」も追加。",
       "source": "The Verge",
       "publishedAt": "2026-05-14T21:08:46.000Z",
-      "contentHash": "01ddf821171b"
+      "contentHash": "e42cccb6d1c8"
     },
     {
       "id": "555e18d4f2c7",
@@ -171,6 +279,15 @@
       "source": "The Verge",
       "publishedAt": "2026-05-14T20:52:19.000Z",
       "contentHash": "685773c27681"
+    },
+    {
+      "id": "326607290d21",
+      "title": "Sea's View on the Future of Agentic Software Development with Codex",
+      "url": "https://openai.com/index/sea-david-chen",
+      "summary": "Sea LimitedのCPOが、エンジニアリングチーム全体にCodexを導入し、アジアでのAIネイティブなソフトウェア開発を加速する理由を説明している。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-14T20:30:00.000Z",
+      "contentHash": "b68daf52bbd5"
     },
     {
       "id": "7de6c4ca80f5",
@@ -389,6 +506,15 @@
       "contentHash": "64e769173fff"
     },
     {
+      "id": "18f13afbd690",
+      "title": "Work with Codex from anywhere",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere",
+      "summary": "ChatGPTのモバイルアプリでCodexをどこでも利用でき、デバイスやリモート環境をまたいでコーディング作業をリアルタイムに監視・指示・承認できます。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-14T13:00:00.000Z",
+      "contentHash": "76ff4cce3c52"
+    },
+    {
       "id": "3bef8e10b15c",
       "title": "Computer Hobby Movement in Canada",
       "url": "https://museum.eecs.yorku.ca/exhibits/show/hobby_canada/hobby_canada",
@@ -446,10 +572,10 @@
       "id": "f8b45ac326f1",
       "title": "Codex のゲーム開発のための技術スタックまとめ",
       "url": "https://note.com/npaka/n/n64f370566ca4",
-      "summary": "Codexでのゲーム開発は最初に技術スタックを決め、まずは静的Webゲーム（ブラウザ動作）で作るのがおすすめ。基本はVite＋TypeScript。小規模2DはCanvas、一般2DはPhaser、演出重視はPixiJS、3DはThree.js。配布はWeb公開→Electron/Capacitorでデスクトップ・スマホ化。TypeScriptで型設計すると改修や依頼が楽になる。",
+      "summary": "Codexに依頼するなら静的Webゲームを基本に技術スタックを決めると進行しやすい。開発はVite＋TypeScript推奨で、2DはCanvas/Phaser/PixiJS、3DはThree.js。公開は静的配布後にElectron/TauriやCapacitorで展開可。TypeScriptで型を整えると改修や指示が安定する。",
       "source": "npaka",
       "publishedAt": "2026-05-14T09:29:35.000Z",
-      "contentHash": "a54885eaa148"
+      "contentHash": "32b60c42c800"
     },
     {
       "id": "f722a2881585",
@@ -599,19 +725,28 @@
       "id": "5cbc777c4b31",
       "title": "Codex でノベルゲームの作成を試す",
       "url": "https://note.com/npaka/n/n2944f84050a1",
-      "summary": "Codexでノベルゲーム作成を試行。GPT-5.4で作ったゲームブックをノベル化し、キャラ設定や画面レイアウト（GPT Image 2）を追加。画像は参照素材を元に生成、制作計画はPLAN.mdで管理。シナリオはNote記事を流用。",
+      "summary": "Codexでノベルゲーム制作を試行。GPT-5.4で作ったゲームブックをノベル化し、キャラ設定と画面レイアウト（GPT Image 2で生成）を追加。制作計画はPLAN.mdで管理し、参照画像とnote記事をもとにImage Genで素材を作成。",
       "source": "npaka",
       "publishedAt": "2026-05-14T00:06:47.000Z",
-      "contentHash": "3b8160cf46a1"
+      "contentHash": "f5e6b22b52ad"
+    },
+    {
+      "id": "a1312e54bd28",
+      "title": "Helping ChatGPT better recognize context in sensitive conversations",
+      "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
+      "summary": "新しいChatGPTの安全性更新は、センシティブな会話で文脈把握を強化し、時間経過に伴うリスクを検出してより安全に対応できるようにします。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-14T00:00:00.000Z",
+      "contentHash": "1baa9ac9b11a"
     },
     {
       "id": "cfbaa064de11",
       "title": "Googlebook の概要",
       "url": "https://note.com/npaka/n/n90b63f378163",
-      "summary": "Googleは2026年5月にAIネイティブな新ノートPCカテゴリ「Googlebook」を発表。AndroidとChromeOSを融合しGemini中心で設計。Magic Pointer、自然言語で作るウィジェット、スマホファイル直アクセスなどを搭載。Acer等複数メーカーが参入し秋発売予定、Chromebookの単純後継ではない。",
+      "summary": "Googleは2026年5月、新ノートPCカテゴリ「Googlebook」を発表。AndroidとChromeOSをGemini中心に統合し、Magic Pointer、ウィジェット自動作成、スマホ連携のQuick Access等で作業文脈に溶け込むAI体験を目指す。複数メーカー製で秋発売予定。",
       "source": "npaka",
       "publishedAt": "2026-05-13T23:17:16.000Z",
-      "contentHash": "f9cdaaada68e"
+      "contentHash": "487a02967180"
     },
     {
       "id": "e85a44a8ec18",
@@ -995,10 +1130,10 @@
       "id": "54fa1fb877f8",
       "title": "Gemini Intelligence の概要",
       "url": "https://note.com/npaka/n/n32630e52f066",
-      "summary": "GoogleのGemini IntelligenceはAndroidに深く統合され、アプリ操作の自動化、Chrome自動巡回、フォーム自動入力（Personal Intelligence）、話し言葉を要約するRambler、自然文で作るウィジェット、Material 3 Expressiveの新UIを備える。今夏Galaxy／Pixelから順次提供され、他のAndroid機器へ展開予定。",
+      "summary": "GoogleのGemini IntelligenceをAndroidに統合し、文脈理解に基づく提案や自動化を強化。オンデバイス処理で高速・省電力かつプライバシー配慮された能動的なアシスタント体験を提供する。",
       "source": "npaka",
       "publishedAt": "2026-05-12T22:12:55.000Z",
-      "contentHash": "ccc7367b0b7e"
+      "contentHash": "eb1ece0594a1"
     },
     {
       "id": "6478c6bcd387",
@@ -1094,19 +1229,19 @@
       "id": "a4d92e0d3c56",
       "title": "The Android Show: I/O Edition 2026",
       "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
-      "summary": "Android Show: I/O 2026で、Gemini Intelligenceを中心としたプロアクティブAIを発表。AndroidやChromeに統合し自動ブラウズ等を強化、Googlebookや年内発売予定のグラスなど端末連携と開発者向け機能も紹介。",
+      "summary": "世界で最も人気のあるOSの最新ブレークスルーを最前列で見られる。",
       "source": "Gemini",
       "publishedAt": "2026-05-12T17:00:00.000Z",
-      "contentHash": "f3a09be81f5e"
+      "contentHash": "f346cc265c12"
     },
     {
       "id": "c5b9668d7cd8",
       "title": "A smarter, more proactive Android with Gemini Intelligence",
       "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
-      "summary": "AndroidにGemini Intelligenceを導入。複数手順の自動化、ウェブ要約や複雑フォーム自動入力、音声を整えるRambler、自然言語で作るカスタムウィジェットを追加。今夏一部Samsung/Googleで先行提供、年内順次拡大。",
+      "summary": "Android Show 2026で、Android向けの先進的で予測型の新AI機能「Gemini Intelligence」を発表しました。",
       "source": "Gemini",
       "publishedAt": "2026-05-12T17:00:00.000Z",
-      "contentHash": "219211955633"
+      "contentHash": "b5b5dee83304"
     },
     {
       "id": "ce943383d658",
@@ -1445,10 +1580,10 @@
       "id": "3b75af970e4c",
       "title": "Digitize your paper notes with Gemini.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/",
-      "summary": "手書きノートをページごとに写真で撮ってGeminiにアップすると、試験向けの論理的な学習ガイドやフラッシュカードを自動生成。基礎を飛ばして高度な内容に絞るなど、学期分の整理や復習にも活用できる。",
+      "summary": "Geminiは数百ページのノートを学習ガイドやフラッシュカードに変換し、学期分の学習内容を体系的に整理できる。",
       "source": "Gemini",
       "publishedAt": "2026-05-11T16:00:00.000Z",
-      "contentHash": "9c35352351ea"
+      "contentHash": "7a531cc14938"
     },
     {
       "id": "fd62756c5414",
@@ -4163,10 +4298,10 @@
       "id": "728a4d52e0da",
       "title": "The latest AI news we announced in April 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
-      "summary": "Googleは4月に「エージェント時代」を掲げ、Gemma 4や第8世代チップ、Gemini Enterprise Agent Platformを発表。無料の動画作成ツールGoogle Vids、Deep Research Max、Colabの学習モードやKaggle講座で研究・開発・教育・医療支援を強化。",
+      "summary": "すみません、元の記事本文かURLを共有してください。内容を確認して200文字以内で日本語要約を作成します。",
       "source": "Gemini",
       "publishedAt": "2026-05-04T17:00:00.000Z",
-      "contentHash": "36f361aa13a5"
+      "contentHash": "f54c18ea70d2"
     },
     {
       "id": "fd9f33d9676b",
@@ -6071,10 +6206,10 @@
       "id": "6a5f73f03ae7",
       "title": "You can now easily generate files in Gemini.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/",
-      "summary": "Geminiアプリがチャット内の指示だけでPDF、Word、Excel、Google Docs/Sheets/Slidesなど多様な形式（pdf、docx、xlsx、csv、LaTeX、TXT、RTF、MD等）でファイルを生成・ダウンロードやDrive保存できる機能を全ユーザー向けに提供。",
+      "summary": "Geminiでは、ブレインストーミングの内容を一つのプロンプトで整った文書、スプレッドシート、またはPDFに一気に仕上げられる機能を提供します。",
       "source": "Gemini",
       "publishedAt": "2026-04-29T16:00:00.000Z",
-      "contentHash": "b6b6e8a7afd5"
+      "contentHash": "549b08bfb02f"
     },
     {
       "id": "1115745e2b1c",
@@ -6143,10 +6278,10 @@
       "id": "f9a625348e8a",
       "title": "Enjoy new ways to create, search and stream on Google TV",
       "url": "https://blog.google/products-and-platforms/platforms/google-tv/enjoy-new-ways-to-create-search-and-stream-on-google-tv/",
-      "summary": "Google TVがAI機能を追加。音声で画像・動画を生成したり、Googleフォトを検索・リミックスして動的なフォトギャラリーを作成可能。Gemini対応機器で利用でき、今夏ホームに短尺動画欄を追加予定。",
+      "summary": "Google TVが画像・動画を手軽に作れる新ツールとGoogleフォトの表示強化を導入。さらに、短尺動画を配信する新しい行（ショート動画セクション）も間もなく追加予定です。",
       "source": "Gemini",
       "publishedAt": "2026-04-29T15:00:00.000Z",
-      "contentHash": "46274d0fe74d"
+      "contentHash": "decbd06513e9"
     },
     {
       "id": "6b8c46a3e355",
@@ -7052,10 +7187,10 @@
       "id": "20769b8fc97e",
       "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "summary": "GoogleとKaggleが無料の5日間「AI Agents Vibe Coding」コースを2026年6月15〜19日に開催、登録開始。自然言語でのvibe codingや実践課題、最終プロジェクトで本番向けAIエージェント構築を学べます。",
+      "summary": "GoogleがKaggleと共同で5日間の「AI Agents Intensive」コースを再び開催。AIエージェントに関する集中講座で、現在参加登録を受け付けています。",
       "source": "Gemini",
       "publishedAt": "2026-04-27T13:00:00.000Z",
-      "contentHash": "3b5321b6bacf"
+      "contentHash": "73dde948e571"
     },
     {
       "id": "ff52c1488d8a",
@@ -7898,10 +8033,10 @@
       "id": "caecb50726ec",
       "title": "8 Gemini tips for organizing your space (and life)",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-      "summary": "Geminiを使えば春の大掃除や生活の整理が楽に。カスタムチェックリスト作成、修理のトラブルシュート、収納最適化、メール整理、買い物計画、植物ケアなどを支援します。",
+      "summary": "Geminiを使って住まいやデジタル空間を整理。AIが掃除スケジュール、受信箱の整理、季節ごとの家事などの具体的なアドバイスを提供します。",
       "source": "Gemini",
       "publishedAt": "2026-04-24T19:00:00.000Z",
-      "contentHash": "9d4c5c6e4f4f"
+      "contentHash": "cb02405c661e"
     },
     {
       "id": "e41b73fc8aed",
@@ -8006,10 +8141,10 @@
       "id": "2b37477dc60d",
       "title": "Find out what’s new in the Gemini app in April's Gemini Drop.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-april-2026/",
-      "summary": "Gemini Drops第10弾。Personal IntelligenceとNano Bananaで画像を個人化、Google連携で個別化支援、NotebookLM内蔵でプロジェクト管理、Macネイティブ対応、Lyria 3 Proで最大3分の楽曲作成、チャットで概念を視覚化。詳細はGemini Drops Hub。",
+      "summary": "Gemini Dropsは、Geminiアプリを最大限に活用する方法を毎月伝える定期アップデートです。",
       "source": "Gemini",
       "publishedAt": "2026-04-24T16:00:00.000Z",
-      "contentHash": "1bb926f980bb"
+      "contentHash": "bb57ccd4e140"
     },
     {
       "id": "87ee8b56db58",
@@ -8865,141 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-23T13:37:48.000Z",
       "contentHash": "d57c79195421"
-    },
-    {
-      "id": "71e364b6ca56",
-      "title": "A2UI — エージェントがUIを\"喋る\"時代 | Uzabase for Engineers",
-      "url": "https://tech.uzabase.com/entry/2026/04/23/214718",
-      "summary": "A2UIは、AIエージェントがテキストの代わりにJSONでフォームやカード、テーブルなどのUI構造を出力し、フロントエンドがネイティブに描画する宣言型プロトコルです。createSurface→updateComponents→updateDataModelの3段階でストリーミングし、カタログ（JSON Schema）がAgentとUIの契約となります。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-23T12:47:18.000Z",
-      "contentHash": "278c49860e2d"
-    },
-    {
-      "id": "baa732a0aa8d",
-      "title": "Raylib v6.0",
-      "url": "https://github.com/raysan5/raylib/releases/tag/6.0",
-      "summary": "raylib 6.0公開。多くの貢献者とNLnet/NGI支援による大規模更新（約2000コミット・330件解決・API+20・例+70等）。注目はGPU不要でCPUのみで動く新ソフトウェアレンダラ「rlsw」。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-23T12:16:16.000Z",
-      "contentHash": "61ba90936d64"
-    },
-    {
-      "id": "ee16aea6751e",
-      "title": "Investigation uncovers two sophisticated telecom surveillance campaigns",
-      "url": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/",
-      "summary": "市民ラボは、世界の電話網の脆弱性を悪用した2件の位置追跡キャンペーンを報告。正規事業者を装う“ゴースト”監視ベンダーが、認証や暗号化の欠けるSS7や不完全なDiameter実装を利用して携帯の位置情報を取得していた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-23T12:12:03.000Z",
-      "contentHash": "d39903332487"
-    },
-    {
-      "id": "74b6b0085156",
-      "title": "Tim Cook’s departure is the start of a new era at Apple",
-      "url": "https://www.theverge.com/tech/916585/tim-cook-apple-new-era",
-      "summary": "ティム・クックが9月に退任し、ハードウェア責任者ジョン・ターンナスが後任に就任。スティーブ・ジョブズ時代に選ばれた経営陣が減り、ジョブズ色が薄れる新時代の到来を示す。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-23T12:00:00.000Z",
-      "contentHash": "def2ba62d0bd"
-    },
-    {
-      "id": "6093a068b671",
-      "title": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
-      "url": "https://github.com/russellromney/honker",
-      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。記事本文とHNコメントの要点を貼り付けていただければ、200字以内で日本語要約します。どちらも貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-23T11:53:11.000Z",
-      "contentHash": "61bd9b050852"
-    },
-    {
-      "id": "dfe7e0c6ff39",
-      "title": "Introducing GPT-5.5",
-      "url": "https://openai.com/index/introducing-gpt-5-5",
-      "summary": "GPT-5.5を発表。従来より高速で高性能になり、コーディング、研究、データ分析などの複雑な作業や複数ツールをまたぐ処理に対応できる最先端モデル。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-23T11:00:00.000Z",
-      "contentHash": "2788cedf0510"
-    },
-    {
-      "id": "f5640f13c4ba",
-      "title": "PHPerが見るRubyKaigi タイムテーブル Day 3 | pixiv inside",
-      "url": "https://inside.pixiv.blog/2026/04/23/190617",
-      "summary": "RubyKaigi最終日の注目は「Ruby Committers and the World」と「Ruby Releases」。CRuby/MRIやコミッターの役割（MatzによるBDFL体制）やPHPのRFCとの違い、hsbt氏によるリリース運用やゼロデイ対応、OSパッケージ連携の重要性を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-23T10:06:17.000Z",
-      "contentHash": "4ade86e0bbd6"
-    },
-    {
-      "id": "b03e6468dffd",
-      "title": "【try! Swift Tokyo 2026】Private APIで探るiOSの裏側。「iOS Private Playgrounds」 ワークショップ参加レポート | Yappli Tech Blog",
-      "url": "https://tech.yappli.io/entry/try-swift-2026-private-api-workshop-entry-report",
-      "summary": "try! Swift Tokyo 2026の「iOS Private Playgrounds」参加レポート。非公開APIを使い、lldbでのオブジェクトダンプ、KVC、@_silgen_name/dlsym、.swiftinterface編集などでUIKit/SwiftUIの内部挙動を深掘り。App Storeには非適合で検証目的のみの注意喚起。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-23T10:00:00.000Z",
-      "contentHash": "dd500a46031a"
-    },
-    {
-      "id": "9fab69c8c968",
-      "title": "Automations",
-      "url": "https://openai.com/academy/codex-automations",
-      "summary": "Codexでスケジュールやトリガーを使い、レポート作成、要約生成、定期ワークフローなどを手動操作なしで自動化する方法を解説します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-23T10:00:00.000Z",
-      "contentHash": "afed034a3557"
-    },
-    {
-      "id": "533227aa4391",
-      "title": "Top 10 uses for Codex at work",
-      "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
-      "summary": "Codexの実用的な10事例を紹介。タスク自動化や成果物作成、ツール・ファイル・ワークフロー間で実データを出力に変換する方法を解説。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-23T10:00:00.000Z",
-      "contentHash": "555047472ac8"
-    },
-    {
-      "id": "277cf65bf8c8",
-      "title": "Plugins and skills",
-      "url": "https://openai.com/academy/codex-plugins-and-skills",
-      "summary": "Codexのプラグインとスキルでツール連携やデータアクセスを行い、反復可能なワークフローで作業を自動化して成果を向上させる方法を解説。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-23T10:00:00.000Z",
-      "contentHash": "1de87d4d86da"
-    },
-    {
-      "id": "40d5894d1daf",
-      "title": "Working with Codex",
-      "url": "https://openai.com/academy/working-with-codex",
-      "summary": "Codexのワークスペース設定、スレッド・プロジェクトの作成、ファイル管理、タスク開始までを段階的に案内する方法を解説します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-23T10:00:00.000Z",
-      "contentHash": "1dc0c0382b46"
-    },
-    {
-      "id": "72f200cf8d8a",
-      "title": "Codex settings",
-      "url": "https://openai.com/academy/codex-settings",
-      "summary": "Codexの個人化、出力の詳細度、権限設定などの方法を説明し、タスク実行を円滑にしてワークフローをカスタマイズする手順を紹介します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-23T10:00:00.000Z",
-      "contentHash": "a239a59fa34a"
-    },
-    {
-      "id": "34f009d107cc",
-      "title": "What is Codex?",
-      "url": "https://openai.com/academy/what-is-codex",
-      "summary": "Codexはチャット機能を拡張し、作業を自動化・ツール連携して、ドキュメントやダッシュボードなどの実際の成果物を生成する方法を提供します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-23T10:00:00.000Z",
-      "contentHash": "6c387c5ece62"
-    },
-    {
-      "id": "0bd514e3244e",
-      "title": "How to get started with Codex",
-      "url": "https://openai.com/academy/codex-how-to-start",
-      "summary": "Codexの始め方をステップごとに解説し、プロジェクトの設定、スレッド作成、最初のタスク完了まで順を追って案内します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-23T10:00:00.000Z",
-      "contentHash": "590dc67537a4"
     }
   ]
 }
