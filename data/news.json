@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-05-16T03:57:03.544Z",
+  "generatedAt": "2026-05-16T10:05:57.708Z",
   "items": [
+    {
+      "id": "12e7eb89714d",
+      "title": "Frontier AI has broken the open CTF format",
+      "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
+      "summary": "すみません、外部サイトへ直接アクセスできません。要約するには記事本文を貼っていただくか、主要な箇所を教えてください。貼るのが面倒なら、一般的な「CTFシーンは死んだ」論の想定要約（200字以内）を作成することもできます。どちらがよいですか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-16T07:01:55.000Z",
+      "contentHash": "66edff2c50eb"
+    },
+    {
+      "id": "277c19fcc6d1",
+      "title": "Amazon FSx for NetApp ONTAP の SVM ルートボリュームには何が入っているのか調べてみた | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/fsx-ontap-svm-volume",
+      "summary": "FSx for NetApp ONTAPでSVM作成時に自動作成される1GBのルートボリュームの中身を調査。NFSでは隠しディレクトリが見えないためONTAP REST APIを使い、path未指定時に隠し項目が返ることを確認した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-16T05:00:00.000Z",
+      "contentHash": "8d217b8a2283"
+    },
     {
       "id": "2124abf0684c",
       "title": "'No way to prevent this,' says only package manager where this regularly happens",
@@ -14,10 +32,19 @@
       "id": "402e85971ead",
       "title": "Erlang/OTP 29.0",
       "url": "https://www.erlang.org/news/188",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文か主要箇所を貼り付けていただければ、200文字以内で日本語要約します。HNコメントも要約希望なら一緒に貼ってください。",
+      "summary": "外部のURLへ直接アクセスできないため要約できません。記事本文を貼っていただければ、200文字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-05-15T23:33:32.000Z",
-      "contentHash": "95d12fc04cf7"
+      "contentHash": "f1f9cd924244"
+    },
+    {
+      "id": "4c604812e37a",
+      "title": "SQL patterns I use to catch transaction fraud",
+      "url": "https://analytics.fixelsmith.com/posts/sql-fraud-patterns/",
+      "summary": "申し訳ありませんが、外部リンク先を直接参照できません。記事本文か主要部分、もしくはコメントの抜粋を貼り付けていただけますか？いただければ200文字以内で日本語要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-15T23:22:30.000Z",
+      "contentHash": "b2fcf50bbfce"
     },
     {
       "id": "fd135641c5e5",
@@ -38,13 +65,22 @@
       "contentHash": "6410371497a3"
     },
     {
+      "id": "1f5ac2a5d71d",
+      "title": "How to Write to SSDs [pdf]",
+      "url": "https://www.vldb.org/pvldb/vol19/p1469-lee.pdf",
+      "summary": "申し訳ありませんが、外部リンクを直接取得できません。記事本文（または要約したい箇所）を貼っていただければ、200文字以内の日本語要約を作成します。Hacker Newsのコメント要約も希望なら、それも一緒に貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-15T22:23:38.000Z",
+      "contentHash": "c105a59b80a4"
+    },
+    {
       "id": "8dd0a14037e4",
       "title": "Agent Game Forge を試す",
       "url": "https://note.com/npaka/n/nd26c6515c013",
-      "summary": "Agent Game Forge（AGF）はローカルで動くAI搭載の2Dゲーム開発IDE。Codex CLIやClaude Codeにプロンプトを投げると、vanilla JS＋Canvasの横スクロール原型を生成し、ビジュアルエディタで足場やハザードを調整可能。プロジェクトはPCに保存され、外部へ出るのは選んだAIプロバイダーへの呼び出しのみ。npmで起動しブラウザUIから操作。",
+      "summary": "Agent Game Forge(AGF)はCodex/Claudeでローカルに2Dゲームの原型を自動生成するIDE。vanilla JS+Canvas出力、ビジュアルエディタでステージ調整可。プロジェクトはPCに保存され、npmで起動してプロンプトを与えれば約1時間で試作ができる。",
       "source": "npaka",
       "publishedAt": "2026-05-15T22:16:14.000Z",
-      "contentHash": "efcea03e01cb"
+      "contentHash": "58ca88383f6b"
     },
     {
       "id": "7f1bc97b46bf",
@@ -68,37 +104,37 @@
       "id": "93d3c73bcd63",
       "title": "London Police Deploy Facial Recognition at Protest for First Time",
       "url": "https://reclaimthenet.org/london-police-deploy-facial-recognition-at-protest-for-first-time",
-      "summary": "ウェブは承認済みと未承認の人間に分断されつつある。Googleは2023年にオープンウェブの門前管理を提案して却下されたが、誰の同意も得ず製品アップデートで同様の仕組みを導入した。",
+      "summary": "ロンドン警視庁が初めて抗議集会でライブ顔認識を導入。警察は指名手配者特定など治安維持が目的と説明する一方、市民団体はプライバシー侵害や誤認、表現の萎縮を懸念し批判した。",
       "source": "Hacker News",
       "publishedAt": "2026-05-15T20:28:44.000Z",
-      "contentHash": "d197e7729b8d"
+      "contentHash": "1620d076100e"
     },
     {
       "id": "c0174a0d9381",
       "title": "I believe there are entire companies right now under AI psychosis",
       "url": "https://twitter.com/mitchellh/status/2055380239711457578",
-      "summary": "外部リンクへ直接アクセスできないため、記事を取得できません。本文を貼るか重要箇所を教えてください。いただければ200文字以内で要約します。",
+      "summary": "申し訳ありませんが、外部リンクを直接開けないため本文を取得できません。記事または該当ツイート/スレッドの本文（または主要ポイント）をここに貼っていただければ、200文字以内で日本語要約を作成します。どの形式でも対応します。",
       "source": "Hacker News",
       "publishedAt": "2026-05-15T20:26:47.000Z",
-      "contentHash": "33e767ecc193"
+      "contentHash": "9b28cc11eef4"
     },
     {
       "id": "99b424d26ca8",
       "title": "Palantir has hired more than 30 senior UK Government officials",
       "url": "https://www.thenational.scot/news/26055524.palantir-hired-30-senior-uk-government-officials/",
-      "summary": "米データ企業パランティアが英国の元高官30人を採用。政界との「回転ドア」や影響力、機密データアクセスへの懸念が指摘され、透明性や利益相反が問題視されている。同社は専門性と法令順守を主張。",
+      "summary": "米データ企業パランティアが英国の元閣僚や上級官僚ら約30人を雇用。政府案件受注との利害や「回転ドア」による影響力行使、透明性不足が問題視され、規制強化や説明責任の要求が高まっている。",
       "source": "Hacker News",
       "publishedAt": "2026-05-15T20:06:51.000Z",
-      "contentHash": "b86d627fa62c"
+      "contentHash": "7223967e117c"
     },
     {
       "id": "db64faae7f79",
-      "title": "California bill would require patches or refunds when online games shut down",
+      "title": "Bill to block publishers from killing online games advances in California",
       "url": "https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/",
-      "summary": "カリフォルニア州議会の予算委で、オンラインゲームの運営終了時に発売元が返金かサーバ不要で遊べる独立版を提供し、60日前通知を義務付ける「Protect Our Games Act」が可決。無料や期間限定サブスクは対象外で、適用は2027年1月以降販売分。SKGが推進、ESAが反対。",
+      "summary": "カリフォルニア州で、サービス終了後もオンライン専用ゲームが遊べるよう開発元に対策を義務付ける法案が重要委員会を通過。保存団体は支持、業界はコストや安全面を懸念。修正で範囲や例外が調整され審議続行中。",
       "source": "Hacker News",
       "publishedAt": "2026-05-15T19:48:48.000Z",
-      "contentHash": "7662bc1b1b49"
+      "contentHash": "14b8ffd2bf8c"
     },
     {
       "id": "33fb39e50b20",
@@ -473,10 +509,10 @@
       "id": "466dfcd96246",
       "title": "Agent Sprite Forge を試す",
       "url": "https://note.com/npaka/n/n9986ee3631d5",
-      "summary": "Agent Sprite ForgeはCodex向けの2Dゲームアセット生成スキルです。自然言語でスプライトシートやレイヤー化マップ、Godot/Unity向け素材を生成し、背景除去・フレーム分割・PNG/GIF出力・エンジン連携までローカル処理で仕上げます。generate2dspriteとgenerate2dmapの二つのスキルを含みます。",
+      "summary": "Agent Sprite ForgeはCodex向けの2Dゲーム資産制作スキルです。自然言語でスプライトシートやレイヤー化マップを生成し、背景除去・フレーム分割・整列・PNG/GIF出力やGodot/Unity向けエクスポートまでローカル処理で行います。generate2dspriteとgenerate2dmapの2スキルと導入手順、推奨プロンプト例を提供。",
       "source": "npaka",
       "publishedAt": "2026-05-15T03:07:58.000Z",
-      "contentHash": "541d6356e5e0"
+      "contentHash": "8e7dc3f3c21b"
     },
     {
       "id": "9d147bcc5c60",
@@ -587,6 +623,33 @@
       "contentHash": "abca74917978"
     },
     {
+      "id": "009013928220",
+      "title": "How sales teams use Codex",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "summary": "営業チームがCodexを使い、実際の業務データからパイプライン概要、会議準備資料、予測レビュー、アカウントプラン、停滞案件の診断を生成する方法を紹介。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-15T00:00:00.000Z",
+      "contentHash": "7a3a700d9b58"
+    },
+    {
+      "id": "5da970c02350",
+      "title": "How business operations teams use Codex",
+      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+      "summary": "ビジネスオペレーションチームがCodexを活用し、実際の業務入力から施策概要、戦略更新、経営判断用資料、進捗報告などを自動生成する事例を紹介。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-15T00:00:00.000Z",
+      "contentHash": "eabb8a8040b4"
+    },
+    {
+      "id": "578b3bdf5cbf",
+      "title": "How data science teams use Codex",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "summary": "データサイエンスチームがCodexを活用し、実際の業務入力から根本原因ブリーフ、影響報告、KPIメモ、範囲限定分析、ダッシュボード仕様書を作成する方法を示す。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-15T00:00:00.000Z",
+      "contentHash": "0a49cbacfe6b"
+    },
+    {
       "id": "6ed96c5b00ba",
       "title": "Honda&#8217;s hybrid future starts with new Accord and RDX prototypes",
       "url": "https://www.theverge.com/transportation/931044/honda-hybrid-prototypes-accord-acura-rdx",
@@ -635,10 +698,10 @@
       "id": "905ee122c182",
       "title": "Codex in the ChatGPT mobile app の概要",
       "url": "https://note.com/npaka/n/n40bc7878909e",
-      "summary": "ChatGPTモバイルにCodexが統合され、スマホでリモートマシン上の開発進捗確認、承認、質問応答、差分やテスト結果閲覧が可能に。セキュアな中継とSSH対応で企業環境にも対応し、短いフィードバックで効率と品質を向上させる。",
+      "summary": "ChatGPTモバイルアプリにCodexが統合され、スマホから長時間の開発作業をリアルタイムで確認・承認・指示・新規作成できるように。差分やテスト結果も閲覧可能で、安全なリレー/SSHにより企業環境にも対応し生産性を向上させる。",
       "source": "npaka",
       "publishedAt": "2026-05-14T22:09:49.000Z",
-      "contentHash": "9b6e3c687f58"
+      "contentHash": "c3549398cab9"
     },
     {
       "id": "f54edcca3049",
@@ -1139,10 +1202,10 @@
       "id": "cfbaa064de11",
       "title": "Googlebook の概要",
       "url": "https://note.com/npaka/n/n90b63f378163",
-      "summary": "Googleは2026年5月にAIネイティブPC新カテゴリ「Googlebook」を発表。AndroidとChromeOSを統合しGemini中心設計。Magic Pointerやウィジェット自動生成、スマホ連携機能を備え、複数メーカーから秋に発売予定。Chromebookとは別カテゴリ。",
+      "summary": "Googleは2026年5月にAIネイティブノートPC新カテゴリ「Googlebook」を発表。AndroidとChromeOSをGemini中心に統合し、Magic Pointer、自然言語で作るウィジェット、スマホ連携のQuick Accessで作業文脈に入り込み支援。Acer等複数メーカー製、秋発売予定。Chromebookの単純後継ではない。",
       "source": "npaka",
       "publishedAt": "2026-05-13T23:17:16.000Z",
-      "contentHash": "019e8841c244"
+      "contentHash": "fbec30d2a97b"
     },
     {
       "id": "e85a44a8ec18",
@@ -8537,10 +8600,10 @@
       "id": "2b37477dc60d",
       "title": "Find out what’s new in the Gemini app in April's Gemini Drop.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-april-2026/",
-      "summary": "Gemini Dropsは、Geminiアプリを最大限に活用する方法を毎月伝える定期アップデートです。",
+      "summary": "Gemini Drops第10弾。Personal IntelligenceとNano Bananaで個人化画像生成が容易に、Googleアプリ連携で個別化支援。NotebookLM内蔵のNotebooks、Macネイティブ版、Lyria 3 Proで3分までの楽曲制作、チャット内で概念を可視化。詳細はDrops Hubで。",
       "source": "Gemini",
       "publishedAt": "2026-04-24T16:00:00.000Z",
-      "contentHash": "bb57ccd4e140"
+      "contentHash": "1bb926f980bb"
     },
     {
       "id": "87ee8b56db58",
@@ -8937,69 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-24T04:04:42.000Z",
       "contentHash": "ef72a81997bf"
-    },
-    {
-      "id": "a0d5aaf3b3e5",
-      "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
-      "summary": "DeepSeek-V4シリーズのプレビュー。MoEモデルDeepSeek-V4-Pro(1.6T/49B活性)とV4-Flash(284B/13B活性)、1Mトークン対応。32Tトークンで事前学習後、SFT＋GRPOで専門家育成→オンポリシー蒸留で統合。Pro-Maxが最良のオープンソース性能、FP4/FP8混合精度、エンコード用Pythonスクリプト同梱。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-24T03:07:54.000Z",
-      "contentHash": "3533cd1a77e1"
-    },
-    {
-      "id": "94a4467bac50",
-      "title": "DeepSeek v4",
-      "url": "https://api-docs.deepseek.com/",
-      "summary": "申し訳ありませんが、外部サイトを直接開けません。記事全文か要約してほしい部分をここに貼っていただけますか？貼っていただければ200文字以内で日本語に要約します。Hacker Newsのコメント要約も同様に対応可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-24T03:01:21.000Z",
-      "contentHash": "e3e9b1d34535"
-    },
-    {
-      "id": "0e5e9c38de85",
-      "title": "テクノエッジにてレポ漫画「へにへにAIイベント探訪」の連載はじめました",
-      "url": "https://note.com/npaka/n/nd8c3b9032b12",
-      "summary": "TechnoEdgeでAIイベントレポ漫画「へにへにAIイベント探訪」の連載が始動。第1回は秋葉原ロボットほこ天2026をレポートし、バトルやパレードを通じてロボットの個人領域化を描く（布留川英一）。",
-      "source": "npaka",
-      "publishedAt": "2026-04-24T02:49:45.000Z",
-      "contentHash": "ad4d36da580b"
-    },
-    {
-      "id": "a711ee1fc5cc",
-      "title": "新卒3年目QAの振り返り：少しずつできることが増えてきた話 | Cybozu Inside Out | サイボウズエンジニアのブログ",
-      "url": "https://blog.cybozu.io/entry/2026/04/24/113000",
-      "summary": "24卒QAの永田です。kintoneアプリ設定チーム所属の同期3人は各プロダクトで業務が異なり、月1回のざつだん会で近況や悩みを共有。入社3年目を記念して振り返りブログを始めます。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-24T02:30:00.000Z",
-      "contentHash": "8493eab67bb0"
-    },
-    {
-      "id": "28694741eecd",
-      "title": "Why I Write (1946)",
-      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
-      "summary": "オーウェルは5〜6歳で作家志望を自覚し、17〜24歳に一度断念を試みたが結局書く運命と感じた。孤独な幼少期に空想で物語を作り言葉の才を養い、幼年期の詩が新聞掲載された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-24T02:26:23.000Z",
-      "contentHash": "2c4ae87d2492"
-    },
-    {
-      "id": "d8a19f264507",
-      "title": "新人PM Devinくん奮闘記 | Repro Tech Blog",
-      "url": "https://tech.repro.io/entry/2026/04/24/110109",
-      "summary": "Reproのデザイナー竹内が、定例会議の準備・ファシリテーションをAIエージェントDevinに任せる手法と直面した課題を報告。Feature 3 Unitは1〜2週スプリントのスクラムでClickUpを活用している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-24T02:01:09.000Z",
-      "contentHash": "5bddf2b27b2d"
-    },
-    {
-      "id": "57a2fdd37394",
-      "title": "PHPカンファレンス小田原2026のブース企画でスタンプラリーをやりました | BASEプロダクトチームブログ",
-      "url": "https://devblog.thebase.in/entry/2026/04/24/110000",
-      "summary": "Checkout Reliabilityのバックエンドエンジニアかがのさんが、2026年4月11日のPHPカンファレンス小田原2026でブース出展。『UMECO周辺のBASEショップを巡ろう！小田原ショップスタンプラリー』を実施し、特設サイト（odawara2026.thebase.in）は5/11まで公開。UMECOがスタート地点。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-24T02:00:00.000Z",
-      "contentHash": "954591a5b0da"
     }
   ]
 }
