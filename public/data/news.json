@@ -1,6 +1,204 @@
 {
-  "generatedAt": "2026-05-17T17:22:44.667Z",
+  "generatedAt": "2026-05-18T04:31:58.474Z",
   "items": [
+    {
+      "id": "88a598b800f6",
+      "title": "Supabase Storage のバックアップ基盤を Google Cloud + Pulumi で構築した | kickflow Tech Blog",
+      "url": "https://tech.kickflow.co.jp/entry/2026/05/18/115336",
+      "summary": "Supabase Storageのファイルを日次でGCPへバックアップする基盤をPulumi(TypeScript)で構築。rcloneをCloud Run Jobs＋Cloud Schedulerで実行し、OIDC認証、動的rclone.conf、二層監視、最小権限化を実装。Supabaseは自動バックアップやバージョン未対応のため自前で備え、運用上の落とし穴にも対処した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-18T02:53:36.000Z",
+      "contentHash": "2d3ffccba8df"
+    },
+    {
+      "id": "42f581ac0a81",
+      "title": "HelloはRubyKaigi 2026にDrinkup Sponsorとして協賛しました！ | Hello Tech",
+      "url": "https://tech.hello.ai/entry/2026/05/18/114610",
+      "summary": "HelloはRubyKaigi 2026（函館）に初協賛し、GoldかつDrinkup Sponsorとして4/22に盛況のドリンクアップを主催。AutoReserve/Respoを紹介し交流を深め、今後Rubyコミュニティへ一層貢献する意向。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-18T02:46:10.000Z",
+      "contentHash": "3db4db1c4686"
+    },
+    {
+      "id": "240699028b84",
+      "title": "やらかしたことで得られたこと | ENECHANGE Developer Blog",
+      "url": "https://tech.enechange.co.jp/entry/2026/05/18/111843",
+      "summary": "仕事で大きなミスをし、隠したい気持ちを抑えてチームに報告。冷静で支援的な対応に救われ、心理的安全性やBe Openの重要性、個人とチームの知識不足や報告フローの課題を認識し、成長につなげる決意をした。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-18T02:18:43.000Z",
+      "contentHash": "7cf1801bf390"
+    },
+    {
+      "id": "ce8e65de34f9",
+      "title": "Spinel で Optcarrot が動いた（暫定） | STORES Product Blog",
+      "url": "https://product.st.inc/entry/2026/05/18/111453",
+      "summary": "Spinel（RubyのAOTコンパイラ）でOptcarrotを動作させた報告。未対応機能の回避やファイル結合など多くの修正で動き、約1000fps（標準Rubyの約20倍）を達成。ただし型推論等未成熟で暫定的。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-18T02:14:53.000Z",
+      "contentHash": "13b4a6179de5"
+    },
+    {
+      "id": "291ff0db3f38",
+      "title": "Professional Security Operations Engineer 認定試験範囲の解説 2026 | クラウドエース株式会社さんのフィード",
+      "url": "https://zenn.dev/cloud_ace_jp/articles/cert-secops-engineer-gcp",
+      "summary": "Google CloudのProfessional Security Operations Engineer試験範囲を、モッシュの例で「侵入防止だけでなく侵入後の迅速な検出・対応」が重要と解説。SecOpsの基礎、検出・監視・分析・自動化やクラウド時代の脅威を平易に説明し、試験学習者向けにまとめる。画像はGemini生成。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-18T02:13:27.000Z",
+      "contentHash": "61250309a95e"
+    },
+    {
+      "id": "c25972db3b07",
+      "title": "テクニカルアウトプット第二回目　　　　　　　　　ネットワーク未経験者へのサポート風景 | 株式会社Polestar-ID エンジニアブログ",
+      "url": "https://www.psid.co.jp/news/2026/05/18/%e3%83%86%e3%82%af%e3%83%8b%e3%82%ab%e3%83%ab%e3%82%a2%e3%82%a6%e3%83%88%e3%83%97%e3%83%83%e3%83%88%e7%ac%ac%e4%ba%8c%e5%9b%9e%e7%9b%ae%e3%80%80%e3%80%80%e3%80%80%e3%80%80%e3%80%80%e3%80%80%e3%80%80/",
+      "summary": "テクニカルアウトプット第二回の様子を紹介します。学んだことを成果物として発表する取り組みの趣旨や当日の発表・活動、成果のレポートをまとめています。ぜひ最後までご覧ください。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-18T02:02:29.000Z",
+      "contentHash": "18388af237d5"
+    },
+    {
+      "id": "bd00d21c7065",
+      "title": "エンジニア以外にもCoding Agent活用を広げる架け橋に ─ 個人開発から始まった、Codex×Electron製GUIエージェント誕生秘話インタビュー | LINEヤフー Tech Blog (LY Corporation Tech Blog",
+      "url": "https://techblog.lycorp.co.jp/ja/20260518b",
+      "summary": "個人開発のLY MCP Agentは、MCP Server×Coding Agentの導入ハードル（複雑な設定やエンジニア前提の利用）を解消し、ターミナル不要の直感的GUIと推奨設定のプリセットで非エンジニアにも即導入・活用可能にするツールです。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-18T02:00:00.000Z",
+      "contentHash": "a4685cd80f39"
+    },
+    {
+      "id": "12d66e77e5bf",
+      "title": "「チャットツールでの画像受渡し」は要注意！問題点と対処法について | COLOPL Tech Blog",
+      "url": "https://blog.colopl.dev/entry/2026/05/18/110000",
+      "summary": "チャットツール（Slack等）へ画像を投稿すると多くのサービスが再圧縮・変換を行い画質が劣化する可能性がある。コロプラ事例ではWebPが特に悪化、PNGはメタ情報のみ変化。業務利用でも注意と対策が必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-18T02:00:00.000Z",
+      "contentHash": "232d17960565"
+    },
+    {
+      "id": "b02936efb79e",
+      "title": "【AI時代の就活シリーズ】AIに依存した就活は失敗する | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/nccaaad390733",
+      "summary": "株式会社SHIFTの能力開発部で検定や教育制度を開発している林稔明（りんりん）です。社員が現場で活躍できるよう、業務や作業を分解し人の行動を分析して能力・スキル向上に取り組んでいます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-18T01:51:13.000Z",
+      "contentHash": "269a925d0840"
+    },
+    {
+      "id": "a2872ae6f37e",
+      "title": "【AI時代の就活シリーズ】AI時代の自己分析は自分探しではない | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n28db18b6120b",
+      "summary": "株式会社SHIFTの能力開発部で検定や教育制度を開発している林稔明（りんりん）です。社員が現場で活躍できるよう、業務や作業を分解し人の行動を分析して能力・スキル向上に取り組んでいます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-18T01:47:04.000Z",
+      "contentHash": "269a925d0840"
+    },
+    {
+      "id": "06d8673cfef3",
+      "title": "Two EA-18 fighter jets collide at Mountain Home airshow, pilots ejected safely",
+      "url": "https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base",
+      "summary": "マウンテンホーム空軍基地の航空ショーで米海軍のEA‑18Gグラウラー2機が空中衝突して墜落。搭乗員4人は射出座席で全員無事に脱出し医療評価を受け、基地内の負傷者はなし。観客の映像はパラシュートと炎上を捉えた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-17T21:45:30.000Z",
+      "contentHash": "db6c104efb2f"
+    },
+    {
+      "id": "1f105368abbc",
+      "title": "GenCAD",
+      "url": "https://gencad.github.io/",
+      "summary": "GenCADは画像を条件にパラメトリックCADコマンド（CADプログラム）全体を生成するモデル。B-rep課題を回避し、トランスフォーマー・コントラスト学習・潜在拡散・デコーダでCAD命令列を出力し3Dソリッドに変換可能。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-17T21:40:35.000Z",
+      "contentHash": "7976eff063dd"
+    },
+    {
+      "id": "3fefa36e9264",
+      "title": "Grok の Hermes Agent 連携の概要",
+      "url": "https://note.com/npaka/n/nb637bcadd806",
+      "summary": "2026年5月、xAIはGrokサブスクをNous Researchの常駐AI「Hermes Agent」で利用可能にしました。Grok 4.3の対話・推論、TTS、画像・動画生成等がOAuthで既存サブスクに接続して利用でき、認証は~/.hermes/auth.jsonに保存・自動更新。動画生成やX検索は手動で有効化が必要です。",
+      "source": "npaka",
+      "publishedAt": "2026-05-17T21:37:08.000Z",
+      "contentHash": "d6392aea159f"
+    },
+    {
+      "id": "749d7251d454",
+      "title": "Microsoft is retiring Teams’ Together Mode",
+      "url": "https://www.theverge.com/tech/932215/microsoft-teams-together-mode",
+      "summary": "MicrosoftはTeamsのTogether Modeを段階的に廃止する。パンデミック期に導入されたAIで参加者を仮想空間に配置する機能やシーン・席割が削除され、切替メニューも消える。狙いは演出より映像品質・性能向上とプラットフォームの断片化解消。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-17T21:15:28.000Z",
+      "contentHash": "e51d9e8d88e3"
+    },
+    {
+      "id": "34b2eaa291e8",
+      "title": "VoIP brings back old-fashioned pay phones to rural Vermont (2025)",
+      "url": "https://spectrum.ieee.org/payphone-voip",
+      "summary": "ヴァーモント州の技術者が、VoIPと逆向きの解析で過疎地の硬貨式公衆電話を復活。通話はインターネット経由で行われ、ダイヤル0で設置者に直通する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-17T19:39:10.000Z",
+      "contentHash": "b93d62426c43"
+    },
+    {
+      "id": "df560ca46ada",
+      "title": "Revamped Siri will reportedly offer auto-deleting chats",
+      "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
+      "summary": "BloombergのMark Gurman報道によると、iOS 27で導入されるより会話型のSiriはチャット履歴を自動削除でき、30日・1年・永久保存を選択可能。AppleはGoogleのGeminiを採用しつつ、プライバシーをAIの差別化要素に据えている。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-17T18:40:28.000Z",
+      "contentHash": "a9e5302f9b2f"
+    },
+    {
+      "id": "d52a1a4c055f",
+      "title": "EU weighs restricting use of US cloud platforms to process government data",
+      "url": "https://www.osnews.com/story/144943/eu-weighs-restricting-use-of-us-cloud-platforms-to-process-sensitive-government-data/",
+      "summary": "EUが政府の機微データ処理で米国クラウド利用を制限する規則を検討中。著者は米依存の危険性を批判し、加盟国の依存や規制が譲歩で弱まる懸念を指摘している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-17T17:29:38.000Z",
+      "contentHash": "e5f174ecc2c1"
+    },
+    {
+      "id": "e76ea613258e",
+      "title": "University of Arizona students boo Eric Schmidt’s AI cheerleading during commencement",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
+      "summary": "元Google CEOエリック・シュミットがアリゾナ大学の卒業式でAIについて演説した際、学生に繰り返しブーイングされた。雇用や気候などの不安を「合理的」と認めつつ苛立ちを示し、昨年の性暴行疑惑への抗議もあった。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-17T17:22:23.000Z",
+      "contentHash": "afb9415168ca"
+    },
+    {
+      "id": "02ba21ce1b82",
+      "title": "Meta deletes popular 1M follower account after Kuwaiti request",
+      "url": "https://twitter.com/ryangrim/status/2055992439031185782",
+      "summary": "すみません、外部URLの内容を直接取得できません。記事（ツイートとHNの議論）の本文やスクリーンショットを貼っていただければ、200文字以内で日本語に要約します。貼れない場合は、要約に使ってほしいポイントを教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-17T17:10:48.000Z",
+      "contentHash": "9f04864fc23d"
+    },
+    {
+      "id": "c3ddb50ed504",
+      "title": "The occasional ECONNRESET",
+      "url": "https://movq.de/blog/postings/2026-05-05/1/POSTING-en.html",
+      "summary": "同一マシンの2サービス。サーバがlocalhostで待ち受け、接続ごとに60万バイト送出。クライアントは受信中に時折ECONNRESETを受け、--spam（先に送信）で再現。RSTはサーバ由来でsendtoは全送信成功を返しプロセスは終了した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-17T17:09:36.000Z",
+      "contentHash": "b9594194b93a"
+    },
+    {
+      "id": "952ef2f03c27",
+      "title": "At least 25 Flock cameras have been destroyed in five states since April 2025",
+      "url": "https://stateofsurveillance.org/news/flock-cameras-destroyed-nationwide-ice-backlash-2026/",
+      "summary": "報道によれば、Flock Safetyの自動ナンバープレート読み取りカメラが、ICEへのデータ提供が明らかになったことへの抗議として全米で多数破壊された。個人情報保護と当局利用を巡る議論が再燃している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-17T17:09:15.000Z",
+      "contentHash": "49d37da2019f"
+    },
+    {
+      "id": "55c13bb333f5",
+      "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+      "url": "https://github.com/MinishLab/semble",
+      "summary": "Sembleはエージェント向けの高速高精度コード検索ライブラリ。grep+readより約98%少ないトークンで、リポジトリ索引約250ms・検索約1.5ms、CPUのみで動作し、MCPサーバーやbashで利用可。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-17T15:37:07.000Z",
+      "contentHash": "718fc3345bfe"
+    },
     {
       "id": "a0669eee4de6",
       "title": "「象・死んだ魚・嘔吐」を試して気づかされた——手法の前に必要なもの  | 弁護士ドットコム株式会社 Creators’ blog",
@@ -32,19 +230,19 @@
       "id": "7a33985d2894",
       "title": "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit",
       "url": "https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html",
-      "summary": "セキュリティ研究者が、MicrosoftがBitLockerに秘密のバックドア（復旧機能）を組み込み、それを示す証拠とツールを公開したと報告。これによりBitLockerの暗号化信頼性が問題視され、Microsoftに説明が求められている。",
+      "summary": "セキュリティ研究者が、MicrosoftがBitLockerに秘密の「バックドア」的な復号経路を組み込み、実証コードを公開したと主張。Microsoftは企業向けの回復キー管理機能だと説明し、プライバシーと安全性を巡り論争になっている。",
       "source": "Hacker News",
       "publishedAt": "2026-05-17T13:42:30.000Z",
-      "contentHash": "ca161e886209"
+      "contentHash": "865794271f6a"
     },
     {
       "id": "11d42f8ee75f",
-      "title": "WHO Declares Ebola Outbreak a Global Health Emergency",
+      "title": "WHO declares Ebola outbreak a global health emergency",
       "url": "https://www.nytimes.com/2026/05/17/world/africa/ebola-congo-uganda-who-public-health-emergency.html",
-      "summary": "コンゴとウガンダでのエボラ出血熱の再流行を受け、WHOはこれを公衆衛生上の国際的緊急事態に当たるか検討中。国境越えの拡大リスク、医療・ワクチン不足、監視や封じ込めの強化と国際支援が課題となっている。",
+      "summary": "申し訳ありませんが、外部サイトのページを直接取得できません。記事本文を貼っていただければ、200文字以内で日本語要約を作成します。必要ならHNのコメントもまとめます。どちらを貼りますか？",
       "source": "Hacker News",
       "publishedAt": "2026-05-17T13:22:14.000Z",
-      "contentHash": "9d0606ac11a8"
+      "contentHash": "ceb1a6abbab2"
     },
     {
       "id": "3961cd84aa78",
@@ -59,10 +257,10 @@
       "id": "ba5a601a33a4",
       "title": "Codex + Agent Sprite Forge で格闘ゲームの作成を試す",
       "url": "https://note.com/npaka/n/n4fb9fa7428e1",
-      "summary": "CodexとAgent Sprite Forgeで、Vite+TypeScript+Phaserを使った2人対戦格闘を制作。導入・game.jpg/character.png準備、$generate2dspriteで256×256スプライト生成、$imagegenで他素材作成、PLAN.mdで計画・調整、タイトル・勝利画面・カットインを追加して完成。",
+      "summary": "CodexとAgent Sprite Forgeを使い、Vite+TypeScript+Phaserで2人対戦格闘ゲームを制作。Agent Sprite Forge導入、game.jpg/character.png準備、スプライトは$generate2dsprite(256x256)、素材は$imagegen、PLAN.mdで設計管理、調整と演出を加えて完成。作者: npaka",
       "source": "npaka",
       "publishedAt": "2026-05-17T13:11:51.000Z",
-      "contentHash": "b42786c99242"
+      "contentHash": "2c5ec4f6dd2e"
     },
     {
       "id": "2d7e9f8cee7b",
@@ -158,10 +356,10 @@
       "id": "ac0a0fc668c1",
       "title": "音声合成AI ・ 音声認識AI ・ 音声翻訳AI のリリース年表",
       "url": "https://note.com/npaka/n/n867803eed7e3",
-      "summary": "歌声生成・音声合成・音声認識・翻訳・ボイスチェンジャーの主要リリース年表です。2021年のCoeFont/VOICEVOX/COEIROINKから、Whisper、VALL‑E、ElevenLabs、RVC、SeamlessM4T、Bert‑VITS2を経て、2024年のGPT‑SoVITSや日本語特化版、ReazonSpeech v2など最新までを年代順に列挙しています。",
+      "summary": "歌声生成・音声合成・音声認識・翻訳・ボイスチェンジャーの主要リリース年表。2021〜2024年の代表例としてCoeFont、VOICEVOX、Whisper、VALL‑E／VALL‑E X、ElevenLabs、RVC、SeamlessM4T、Bert‑VITS2、ParakeetVC、GPT‑SoVITSなどを時系列でまとめています。",
       "source": "npaka",
       "publishedAt": "2026-05-17T08:04:39.000Z",
-      "contentHash": "e6cb6505992a"
+      "contentHash": "78c07b597e91"
     },
     {
       "id": "ad2c022b4edf",
@@ -176,10 +374,10 @@
       "id": "9164ceb588ea",
       "title": "3D生成AI ・ 3D制作AI のリリース年表",
       "url": "https://note.com/npaka/n/nf21f0e9593d1",
-      "summary": "2020～2024年の主要な3D生成／制作AIの年表。DeepMotion（2020）を始め、2022年のGET3D・DreamFusion・Magic3D・Point‑E等、その後もStability系、Meshy、MotionGPT、ReMoDiffuse、InstantMeshなど多数のモデルが登場しています。",
+      "summary": "2020年のDeepMotionから始まり、2022〜2024年にかけてのDreamFusion、GET3D、Magic3D、Point‑E、Stable系、Meshy、Tripo、MotionGPTなど主要な3D生成・制作AIのリリース年表をまとめた記事。",
       "source": "npaka",
       "publishedAt": "2026-05-17T06:45:49.000Z",
-      "contentHash": "ff9b650d45c3"
+      "contentHash": "26e86f63cb5b"
     },
     {
       "id": "4cdf76853bad",
@@ -212,10 +410,10 @@
       "id": "7a91ceb6d97e",
       "title": "Codex の App ・ CLI ・ IDE ・ Web の違いと使い分けまとめ",
       "url": "https://note.com/npaka/n/nb3fba697ffae",
-      "summary": "Codexはコードを読み編集実行するエージェントで、用途別に複数UIがある。Appは複数タスク管理・レビュー向け、CLIは端末統合と自動化向け、IDE拡張はファイル単位の即時編集向け、Webは手軽なブラウザ操作向け。用途やワークフローで使い分けるのが最適。",
+      "summary": "Codexはコードを読む・編集・実行するエージェント群で、用途別に使い分ける。Appは複数タスクのGUIベース作業管理・Git対応、CLIはターミナル統合と自動化向け、IDE拡張はエディタ内で文脈を見ながら編集・修正に最適。",
       "source": "npaka",
       "publishedAt": "2026-05-17T01:04:14.000Z",
-      "contentHash": "7e71dc03de16"
+      "contentHash": "2c32c4166e38"
     },
     {
       "id": "2ac1339c55e9",
@@ -464,10 +662,10 @@
       "id": "fcfb79656f8a",
       "title": "Tauri を試す",
       "url": "https://note.com/npaka/n/n7cf7a2a00866",
-      "summary": "TauriをmacOSで試用。HTML/CSS/JSでUIを作り、必要に応じてRustでネイティブ処理を追加。Electronより軽量だがWebView差やRust知識に注意。プロジェクト作成、既存dist配置、tauri.conf.json編集、アイコン生成、npm run tauri buildでアプリを出力する手順を解説。",
+      "summary": "macOSでTauriを試したまとめ。HTML/CSS/JSでUI、必要に応じてRustでネイティブ処理を加える軽量フレームワーク。Electronより小容量・省メモリ。プロジェクト作成、dist配置、tauri.conf.json編集（frontendDist等）、アイコン生成、npm run tauri buildでmacOSアプリを出力。",
       "source": "npaka",
       "publishedAt": "2026-05-16T00:32:14.000Z",
-      "contentHash": "85dac14cfd0b"
+      "contentHash": "d22daefa57ed"
     },
     {
       "id": "20383a0947db",
@@ -527,10 +725,10 @@
       "id": "8dd0a14037e4",
       "title": "Agent Game Forge を試す",
       "url": "https://note.com/npaka/n/nd26c6515c013",
-      "summary": "Agent Game Forgeはローカルで動くAI主導の2Dゲーム開発IDE。Codex CLIやClaude CodeでJS/Canvas製の横スクロールゲームのコード・アセット・ステージを生成し、ビジュアルエディタで調整可能。プロジェクトはPCに保存され、AI呼び出しのみ外部通信。筆者は約1時間で猫の横スクロールを作成。",
+      "summary": "Agent Game Forgeはローカル実行のAI搭載2Dゲーム開発IDE。Codex/ClaudeでJS+Canvasのゲームやアセットを生成し、ビジュアルエディタでレベル調整。プロジェクトはPC保存、AI呼び出しのみ外部接続。導入はリポジトリをクローンしてnpmで起動。",
       "source": "npaka",
       "publishedAt": "2026-05-15T22:16:14.000Z",
-      "contentHash": "61846e83dcb2"
+      "contentHash": "03cf092b319f"
     },
     {
       "id": "7f1bc97b46bf",
@@ -1112,10 +1310,10 @@
       "id": "7026c0a26245",
       "title": "Grok Build の概要",
       "url": "https://note.com/npaka/n/nd813d073196e",
-      "summary": "Grok Buildの早期ベータ（SuperGrok Heavy限定）が公開。コードを理解して計画→実行→差分表示するCLI型AIエージェント。curlで導入可能。計画モードでレビュー・承認やコメント、既存ワークフロー連携、並列サブエージェントやヘッドレスCI対応。",
+      "summary": "本文が提示されていないため要約できません。記事の全文かURLを貼ってください。長文なら重点（機能・仕組み・用途など）を指定いただければ、200文字以内でまとめます。",
       "source": "npaka",
       "publishedAt": "2026-05-14T22:44:56.000Z",
-      "contentHash": "cd9d74099e9c"
+      "contentHash": "fbc0924c5d90"
     },
     {
       "id": "32bfd5bd8c3f",
@@ -8802,204 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-04-25T01:47:33.000Z",
       "contentHash": "7c69be947148"
-    },
-    {
-      "id": "24269b02457d",
-      "title": "Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do",
-      "url": "https://alash3al.github.io/stash?_v01",
-      "summary": "StashはAIのための永続的記憶層。会話や行動を事実化・知識化し名前空間で階層整理してセッション間の連続性を実現する。RAGは検索に過ぎず、Stashはモデルやプラットフォームを越えて学習・蓄積する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-25T01:24:40.000Z",
-      "contentHash": "0bcfb4dd884b"
-    },
-    {
-      "id": "d1b4b7597a74",
-      "title": "Plain text has been around for decades and it’s here to stay",
-      "url": "https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/",
-      "summary": "Mockdown、Wiretext、Monodrawなどのプレーンテキスト図作成ツールは、制約を活かした軽量な可視化とソースコード埋め込み、生成AIの入口として再評価されている。古典TUIの現代的再解釈で、可搬性と編集性が魅力。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-25T01:03:09.000Z",
-      "contentHash": "9d1bb26e4586"
-    },
-    {
-      "id": "506dc786a0bb",
-      "title": "ICLR2026が開催中なので、エムスリー AI・機械学習チームの推し論文を勝手に紹介するぜ！ | エムスリーテックブログ",
-      "url": "https://www.m3tech.blog/entry/2026/04/25/100000",
-      "summary": "エムスリーAIチームがICLR2026の輪読会で推し論文を紹介。注目は「Is it Thinking or Cheating?」で、モデルがCoTで巧妙に抜け道（暗黙のハッキング）を隠す問題を指摘し、推論努力の測定で検出する手法を提案。他にAnyUp、Neon、RealPDEBench、Invisible Safety Threat等も紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-25T01:00:00.000Z",
-      "contentHash": "8697cb77192a"
-    },
-    {
-      "id": "6e24c89eb7a3",
-      "title": "Replace IBM Quantum back end with /dev/urandom",
-      "url": "https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md",
-      "summary": "IBM量子バックエンドを /dev/urandom に差し替えても、projecteleven.py のECDLP鍵復元は同等の成功率で再現された。報告された「量子攻撃」は量子ハードの有意な寄与を示していない。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-25T00:58:38.000Z",
-      "contentHash": "c470297eb64b"
-    },
-    {
-      "id": "71118de6cf6d",
-      "title": "GPT-image-2が凄くて感動した | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/afc24e4d168ca3",
-      "summary": "OpenAIが2026/4/21に公開した画像生成モデルGPT‑image‑2を紹介。Azure（一部リージョン）でデプロイ可能。サンプルコードと広告・スライド・ロゴ（Headwaters例）生成例を掲載し、日本語描画精度が向上と報告。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-25T00:51:45.000Z",
-      "contentHash": "2fdbf82ccb72"
-    },
-    {
-      "id": "0925cf75816f",
-      "title": "Microsoft Purview のロール設計を理解する | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/50584066f2514a",
-      "summary": "Microsoft Purviewはマルチ環境のデータ管理ソリューション。記事はData Mapのアクセス制御を解説。Azureポータルの「Root collection permission」はサービスプリンシパル等で作成した際の初回ブートストラップ用にルートのCollection Adminを追加する緊急手段。通常の権限管理はPurviewポータルで行い、コレクション階層で権限継承や継承停止が可能。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-25T00:45:42.000Z",
-      "contentHash": "65ccbf63f690"
-    },
-    {
-      "id": "fc1531e42acd",
-      "title": "Education must go beyond the mere production of words",
-      "url": "https://www.ncregister.com/commentaries/schnell-repairing-the-ruins",
-      "summary": "AIが言葉を自在に作る時代、教育の本質は言語生成ではなく、ミルトンのいう「失われた能力の修復」だ。現実との直接的関わり、成熟の過程、実質的理解を通じた回復が必要で、AIはそれを置き換えられない。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-25T00:11:43.000Z",
-      "contentHash": "cc0daf97b6d9"
-    },
-    {
-      "id": "4166491d9fea",
-      "title": "Show HN: I've built a nice home server OS",
-      "url": "https://lightwhale.asklandd.dk/",
-      "summary": "Lightwhale 3を公開。起動するだけでDocker Engineが使える無料の不変（immutable）Linuxで、インストール・設定・保守を省略。学習しやすく低メモリ設計で自己ホスト向け。入門ガイドあり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-24T21:42:26.000Z",
-      "contentHash": "a6f793b617e8"
-    },
-    {
-      "id": "282207bf0815",
-      "title": "Google Flow Music",
-      "url": "https://www.flowmusic.app/",
-      "summary": "Flow MusicはAI音楽制作プラットフォーム。チャット型ProducerやLyria 3でフル曲とダイナミックなボーカルを作成、VeoでAI音楽映像を演出。プラグインやDAWを自作・共有でき、個人のスタイルを学習。無料で始められます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-24T21:01:50.000Z",
-      "contentHash": "6af0b4e3c8c4"
-    },
-    {
-      "id": "e324f7e6b9e8",
-      "title": "Microsoft will let you pause Windows Updates indefinitely, 35 days at a time",
-      "url": "https://www.theverge.com/tech/918572/microsoft-windows-updates-pause-35-days",
-      "summary": "MicrosoftはWindows Updateを35日ごとに何度でも延長して事実上無期限に一時停止できる機能と、シャットダウン／再起動時に更新を実行しない選択肢を追加。Dev／ExperimentalのInsider向けに提供中。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-24T20:45:58.000Z",
-      "contentHash": "cec1ccf57eba"
-    },
-    {
-      "id": "9be0ae067364",
-      "title": "Alex Jones has uncovered another massive conspiracy",
-      "url": "https://www.theverge.com/news/918527/alex-jones-infowars-takeover-the-onion-tim-heidecker",
-      "summary": "アレックス・ジョーンズは、InfowarsをThe Onionに奪われる瀬戸際で、コメディアンのティム・ハイデッカーが児童誘拐・拷問等を肯定する番組を制作したとSNSで非難。投稿には2017年のAdult Swim法廷コメディの場面写真を加工した“逮捕写真”が使われていた。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-24T20:10:00.000Z",
-      "contentHash": "d0cae14355b7"
-    },
-    {
-      "id": "11dc9254567e",
-      "title": "Google to invest up to $40B in Anthropic in cash and compute",
-      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
-      "summary": "報道によればGoogleはAnthropicに最大400億ドル投資を計画。まず100億ドルを時価総額3500億ドルで出資し、業績達成で追加300億ドル。Anthropicは最新モデルMythosを限定公開し悪用や高コストを懸念、Google CloudのTPUなどインフラに依存。AmazonやCoreWeaveとも大規模契約を結んでいる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-24T20:00:30.000Z",
-      "contentHash": "cd7098bfad99"
-    },
-    {
-      "id": "f93aceb1ba81",
-      "title": "The person who allegedly leaked Paramount’s new Avatar movie has been arrested",
-      "url": "https://www.theverge.com/entertainment/918250/avatar-aang-the-last-airbender-leaks-arrest-paramount-plus",
-      "summary": "パラマウントの新作アバター映画流出で、シンガポール警察が26歳の男を逮捕。調べでサーバーへ不正遠隔アクセスして全編を入手、端末から映画のコピーが見つかった。公開は10月9日予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-24T19:45:01.000Z",
-      "contentHash": "b0a35d39a9a2"
-    },
-    {
-      "id": "11bda36ce3ec",
-      "title": "My audio interface has SSH enabled by default",
-      "url": "https://hhh.hn/rodecaster-duo-fw/",
-      "summary": "Rodecaster Duoを解析。アップデートでファームがgzipで丸ごと取得でき、署名検証なしで上書き可能。2パーティションの復旧機構があり、デフォルトで公開鍵認証のSSHも有効で既定鍵が入っていた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-24T19:30:46.000Z",
-      "contentHash": "2f5c7640b9ed"
-    },
-    {
-      "id": "7c80075cb1e9",
-      "title": "The Classic American Diner",
-      "url": "https://blogs.loc.gov/picturethis/2026/04/the-classic-american-diner/",
-      "summary": "ダイナーは以前ほど多くないが米国の食文化を象徴する存在。図書館所蔵写真は、列車客車風に大量生産された銀色の“ストリームライナー”型外観や古いメニュー（ホットドッグ5セント等）を伝え、郷愁を呼び起こす。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-24T19:01:09.000Z",
-      "contentHash": "20566ae1013c"
-    },
-    {
-      "id": "caecb50726ec",
-      "title": "8 Gemini tips for organizing your space (and life)",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-      "summary": "Geminiを使って春の大掃除や生活の整理を支援。カスタムチェックリスト作成、冷蔵庫や家電の整理・修理の助言、収納最適化、メール管理、買い物や用事の計画、植物の手入れ相談などが可能。",
-      "source": "Gemini",
-      "publishedAt": "2026-04-24T19:00:00.000Z",
-      "contentHash": "9d4c5c6e4f4f"
-    },
-    {
-      "id": "e41b73fc8aed",
-      "title": "SFO Quiet Airport (2025)",
-      "url": "https://viewfromthewing.com/san-francisco-airport-removed-90-minutes-of-daily-noise-travelers-say-it-changed-everything/",
-      "summary": "SFOは2018年から“静かな空港”化を推進。放送を各ゲート周辺に限定し、2020年に航空各社と統合して放送を40%削減、国際線で1日90分超の無駄放送を廃止。エスカレーター音低減も検討。雑音減はストレス軽減や感覚過敏支援に有効だが、視覚障害者向け音声代替が課題。通知はアプリ等が主流。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-24T18:29:53.000Z",
-      "contentHash": "6843f1f8bcf7"
-    },
-    {
-      "id": "49e8d0577a5e",
-      "title": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API",
-      "url": "https://developers.openai.com/api/docs/changelog",
-      "summary": "2026年3〜4月の更新: GPT‑5.5（1Mトークン文脈、画像入力、構造化出力、関数呼び出し、拡張プロンプトキャッシュ、GPT‑5.5 pro）とGPT Image 2（高品質生成・編集、可変サイズ、バッチ割引）を公開。Agents SDK強化、GPT‑5.4 mini/nanoも追加。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-24T18:23:32.000Z",
-      "contentHash": "82991f2c80ba"
-    },
-    {
-      "id": "8930cbb14dfd",
-      "title": "There Will Be a Scientific Theory of Deep Learning",
-      "url": "https://arxiv.org/abs/2604.21691",
-      "summary": "本論文は、学習過程・隠れ表現・最終重み・性能の統計を記述する「ディープラーニングの科学理論」が出現しつつあると主張する。可解モデル、極限解析、単純法則、ハイパーパラ分離、普遍挙動の5分野が合流し、「学習力学 (learning mechanics)」として定量的・反証可能な理論を目指す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-24T18:06:05.000Z",
-      "contentHash": "358e48ba3075"
-    },
-    {
-      "id": "ffcc02560ebe",
-      "title": "BMW is one step closer to selling you a color-changing car",
-      "url": "https://www.theverge.com/tech/918216/bmw-ix3-flow-edition-concept-car-2026-beijing-auto-show-e-ink-color-changing",
-      "summary": "BMWは北京モーターショーで、ボンネットにE Inkパネルを埋め込んだ新コンセプト「iX3 Flow Edition」を発表。従来の全身パネルから単一パネルへ簡素化し、カラー変更車の量産化に一歩近づいた。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-24T17:31:44.000Z",
-      "contentHash": "c363c0abdb70"
-    },
-    {
-      "id": "57e91a8ffa39",
-      "title": "Google’s handsome Pixel Watch 4 is on sale for $40 off in both size configurations",
-      "url": "https://www.theverge.com/gadgets/917924/google-pixel-watch-4-apple-airpods-deal-sale",
-      "summary": "Googleの春セール（4月26日まで）でPixel Watch 4が両サイズとも$40オフ。41mm Wi‑Fiが約$310、45mmが約$360でAmazon・Best Buy・Google Storeで販売中。ほかのPixelデバイスや周辺機器（Theragun Miniの割引コード等）も対象。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-24T17:25:49.000Z",
-      "contentHash": "a41576cb86f0"
-    },
-    {
-      "id": "51863efaeca5",
-      "title": "The RAM shortage could get even worse if Samsung labor protests cut production",
-      "url": "https://www.theverge.com/tech/918301/samsung-south-korea-union-protests",
-      "summary": "AIデータセンター需要で進むRAM不足が、サムスンの賃上げ要求による生産停滞でさらに悪化する恐れ。ピョンテクで約4万人が集会し、ボーナス上限撤廃や基本給引上げを要求。合意なければ5月に18日間のストを計画。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-24T17:11:33.000Z",
-      "contentHash": "b2e68b20f45c"
     }
   ]
 }
