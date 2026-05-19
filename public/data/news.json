@@ -1,6 +1,141 @@
 {
-  "generatedAt": "2026-05-19T04:25:41.435Z",
+  "generatedAt": "2026-05-19T11:48:58.230Z",
   "items": [
+    {
+      "id": "5fcdb9ea0774",
+      "title": "Google I/O 2026: How to watch and what to expect",
+      "url": "https://www.theverge.com/tech/932939/google-io-2026-how-to-watch",
+      "summary": "Google I/O 2026は5月19日10:00PT/13:00ET開始、基調講演は約2時間でYouTubeと公式サイトで配信。Geminiを軸にSearchなどGoogleのAI関連アップデートが中心になる見込み。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-19T11:00:00.000Z",
+      "contentHash": "bead3523fd7f"
+    },
+    {
+      "id": "69c243a4af89",
+      "title": "Gemini is in danger of going full Copilot",
+      "url": "https://www.theverge.com/tech/931752/google-io-2026-gemini-icon-docs-workspace",
+      "summary": "Googleの生成AI「Gemini」が、スパークルアイコンを通じてGmailやDriveなどあらゆるGoogleアプリに浸透。最初は目立たなかったが急速に露出が増え、Copilotのように常駐化する懸念があると著者は指摘している。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-19T10:30:00.000Z",
+      "contentHash": "10f3c3fc4289"
+    },
+    {
+      "id": "63c299c1ea97",
+      "title": "やさしい AIF（ドメイン 5） | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/yasashii-aif-5",
+      "summary": "AWS上のAIシステム保護を解説。IAM/SageMaker Role Managerで最小権限のアクセス制御、CloudTrailで操作監査、Macieで機密検出、Glue/DataBrew/Lake Formationでデータ品質と統合、S3/ECR等でデータ・モデルのバージョン管理を行う。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-19T10:02:45.000Z",
+      "contentHash": "069e1e263d8c"
+    },
+    {
+      "id": "b0595ca82be6",
+      "title": "やさしい AIF（ドメイン 4） | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/yasashii-aif-4",
+      "summary": "AIは精度だけでなく、公平性・説明性・堅牢性・プライバシー・ガバナンス・透明性が必要。バイアスは主にデータ起因（クラス不均衡・誤ラベル等）で、多様性確保、匿名化、同意取得、定期監査で対処。Amazon SageMaker Clarifyなどでバイアス検出を行う。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-19T10:02:39.000Z",
+      "contentHash": "93ad93767a01"
+    },
+    {
+      "id": "38acbb2a0bb5",
+      "title": "やさしい AIF（ドメイン 3） | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/yasashii-aif-3",
+      "summary": "生成AIの基盤モデルを実アプリで活用する設計・実装・評価を整理。FMの大規模性・ブラックボックス性と説明可能性の課題、推論パラメータ、RAGの仕組みとベクトルDB（例：Amazon OpenSearch）を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-19T10:02:29.000Z",
+      "contentHash": "27ff3f12cbee"
+    },
+    {
+      "id": "0a4e34914088",
+      "title": "Ansible Automation Platform を OPA (Open Policy Agent) と連携してみよう | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/2026/05/19/185858",
+      "summary": "Ansible Automation PlatformをOPAと連携し、Policy as Codeで実行時にポリシー検証を行う手順を紹介。例としてextra_varsでansible_user=rootを禁止するRegoを作成し、OPAコンテナで起動後AAPに設定する流れを説明。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-19T09:58:58.000Z",
+      "contentHash": "2712b7868fa1"
+    },
+    {
+      "id": "c084c0f6dbb9",
+      "title": "ウォンテッドリーは TSKaigi 2026 に協賛し、ブースでは限定のTECH BOOKをプレゼントします | Wantedly Engineer Blog",
+      "url": "https://www.wantedly.com/companies/wantedly/post_articles/1065517",
+      "summary": "ウェブページのCSS（styled-components）断片。ボタンやヘッダーのスタイル定義で、flex配置・中央揃え・余白・丸角・遷移、メディアクエリでのレスポンシブ調整、和文フォント指定などを行っている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-19T09:00:20.000Z",
+      "contentHash": "8d6f432fb441"
+    },
+    {
+      "id": "d10b8c4cf84c",
+      "title": "ゴールデンテスト - AI駆動開発における実践的なテストコードを考える | Monstarlab's Engineering Blog",
+      "url": "https://engineering.monstar-lab.com/jp/post/2026/05/19/GoldenTest-for-AI-era",
+      "summary": "ゴールデンテストは関数やAPIの出力を期待値ファイル（ゴールデンファイル）と比較する手法です。テストを簡潔に保ち、大きな出力やリファクタ時の更新が容易で差分がPRで確認しやすく、AI生成の無意味なアサーションを避けられ、期待値が仕様書代わりになる利点があります。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-19T09:00:00.000Z",
+      "contentHash": "1592413b62ed"
+    },
+    {
+      "id": "8fc4e54f18f1",
+      "title": "Rails: Stimulus コントローラからリクエストを送信する方法（翻訳） | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_05_19/157430",
+      "summary": "Stimulusコントローラからサーバーや外部APIへイベントを送る方法を解説。fetchの例を示し、Rails公式の@rails/request.jsのpostでCSRF等を自動処理できること、trackEventのヘルパーに切り出して再利用する手法を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-19T08:30:05.000Z",
+      "contentHash": "7cb18b1229ad"
+    },
+    {
+      "id": "948edb95283e",
+      "title": "【DataKeeper：ミラー同期とデータ保護の核心 #1】同期中だから切り替わらない！？フェイルオーバーの「絶対条件」と性能評価の罠 | TechHarmony",
+      "url": "https://blog.usize-tech.com/datakeeper-troubleshooting-1/",
+      "summary": "クラウドでのDataKeeperは共有ディスクなしでリアルタイム複製を行う。同期中はDataKeeperが「Mirroring」状態でないとフェイルオーバーを許可せず、ネットワーク遮断でセッションが残ると切替失敗や性能評価の誤判断が起きる。対策と設計ポイントを解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-19T08:26:42.000Z",
+      "contentHash": "c626c40bebca"
+    },
+    {
+      "id": "a9f7b5fd30df",
+      "title": "AIで書いた仕様書をクライアント向けの仕様書に変換するスキルを作成しました | chot Inc. tech blogのフィード",
+      "url": "https://zenn.dev/chot/articles/4a9dba1545f65e",
+      "summary": "AIでエンジニア向け仕様書をクライアント向けに自動変換するスキルを作成。技術用語禁止で「何ができるか」を重視するテンプレートに沿ってMarkdown生成し、pandocでWord化。範囲明示により認識齟齬を減らす。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-19T08:14:34.000Z",
+      "contentHash": "c8437f469eba"
+    },
+    {
+      "id": "69d2f2b9d4e3",
+      "title": "Unreal Engine サービス パートナー プログラムの「2026 ゴールド ステータス」を獲得いたしました。 | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/62886/",
+      "summary": "関連ブログのお知らせ：UE技術サポート案内（2026/04/16）、Unreal Engineエンタープライズライセンス「Unreal Subscription」販売開始（2026/04/16）、採用情報として2/19開催の個人ゲーム制作者向けキャリア相談会（2026/01/28）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-19T08:04:15.000Z",
+      "contentHash": "776e810199fe"
+    },
+    {
+      "id": "8133cd30611a",
+      "title": "Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised",
+      "url": "https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/",
+      "summary": "2026年5月19日、npmアカウント「atool」が侵害され、22分間で317パッケージに計637の悪意あるバージョンが自動公開された。size-sensorやecharts-for-reactなど人気パッケージが影響を受けた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-19T05:04:49.000Z",
+      "contentHash": "216bb7d5cda9"
+    },
+    {
+      "id": "77e05733a9e4",
+      "title": "Peter Neumann has died",
+      "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html",
+      "summary": "申し訳ありませんが、外部URLの中身に直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で日本語要約します。HNのコメントも要約希望ならその旨を教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-19T03:17:45.000Z",
+      "contentHash": "37a7e15fb5ac"
+    },
+    {
+      "id": "6498d1f8dcb4",
+      "title": "Peter Salus has died",
+      "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html",
+      "summary": "すみません、外部ウェブページに直接アクセスできないため、そのURLの記事を取得できません。要約をご希望なら、記事本文をここに貼り付けていただくか、重要な箇所（見出しや要点）を教えてください。Hacker Newsのコメントも要約希望ならそれも貼ってください。200文字以内で簡潔に要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-19T02:56:42.000Z",
+      "contentHash": "7a7409786114"
+    },
     {
       "id": "95e9615acbb0",
       "title": "Culture &amp;amp; Growth A New Grad SRE's 1st Year at ONE CAREER | ONE CAREER Tech Blog",
@@ -56,6 +191,24 @@
       "contentHash": "33435ce0b2d7"
     },
     {
+      "id": "36e478adfa60",
+      "title": "The American Rebellion Against AI Is Gaining Steam",
+      "url": "https://www.wsj.com/tech/ai/the-american-rebellion-against-ai-is-gaining-steam-94b72529",
+      "summary": "米国でAIへの反発が強まり、労働者やクリエイター、教育界、規制当局がストや訴訟、法規制や導入制限で対抗。著作権、雇用、安全性への懸念が拡大し、AI普及や企業の動きに影響を与え始めている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-19T01:51:48.000Z",
+      "contentHash": "dd7c2fa204b6"
+    },
+    {
+      "id": "39cccd7e3bd3",
+      "title": "The last six months in LLMs in five minutes",
+      "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+      "summary": "PyCon US 2026の5分発表で過去6か月のLLM動向を総括。2025年11月が転換点で「最良」モデルが5回入れ替わり（Claude Sonnet 4.5→GPT‑5.1→Gemini 3→GPT‑5.1 Codex Max→Claude Opus 4.5）。ペリカン自転車SVGテストで比較し、OpenAIとAnthropicのRLによる改良でコーディングエージェントが実用化された点を強調。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-19T01:30:42.000Z",
+      "contentHash": "215bbd3ab4b0"
+    },
+    {
       "id": "071637362b7d",
       "title": "データベースのパフォーマンスを測定する ～ BenchBase | JBS Tech Blog",
       "url": "https://blog.jbs.co.jp/entry/2026/05/19/102840",
@@ -104,28 +257,28 @@
       "id": "588f22deb571",
       "title": "Codex でボクセルの3Dモデル生成を試す",
       "url": "https://note.com/npaka/n/nde5589d13536",
-      "summary": "npakaがChatGPT(GPT‑Image2)で作成した3面図を元に、Codex（Game Studio）でボクセル3Dモデルを生成・調整。レーシングカーはタイヤ回転アニメ、ロボットはVRM化してVRMAで再生。技術はVite/TS/three.js。",
+      "summary": "Codexで、ChatGPT(GPT-Image2)が作成した3面図からボクセル3Dモデルを生成。レーシングカーにタイヤ回転アニメ追加、人型はVRM/VRMAで再生。MixamoのFBXをCodexでVRMA変換。技術はVite+TypeScript+three.js、Game Studio有効。",
       "source": "npaka",
       "publishedAt": "2026-05-18T23:48:27.000Z",
-      "contentHash": "20ce484410f4"
+      "contentHash": "b816f47983db"
     },
     {
       "id": "8b573beaa372",
       "title": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
       "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
-      "summary": "教皇レオ14世の初回回勅「Magnifica humanitas」が2026年5月25日に公表される。AI時代の人間性保護が主題で、署名は5月15日。発表はバチカンで教皇や枢機卿、神学者、Anthropic共同創業者らが出席する。",
+      "summary": "教皇レオ14世の初回回勅「Magnifica humanitas」が2026年5月25日に公表される。AI時代の人間の尊厳保護を主題に、バチカンで教皇や枢機卿、研究者らが出席して発表会が行われる。",
       "source": "Hacker News",
       "publishedAt": "2026-05-18T23:18:10.000Z",
-      "contentHash": "24fc9626c269"
+      "contentHash": "dfe7ea9a51b0"
     },
     {
       "id": "6a6512a985a6",
       "title": "Click (2016)",
       "url": "https://clickclickclick.click/",
-      "summary": "外部サイトに直接アクセスできないため記事を取得できません。記事本文か要点を貼るか、主要ポイント（誰が・何を・いつ・なぜ）を教えてください。頂ければ200字以内で要約します。",
+      "summary": "申し訳ありませんが外部サイトへ直接アクセスできません。記事本文をここに貼っていただくか、要約してほしい部分を教えてください。いただければ200字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-05-18T23:03:02.000Z",
-      "contentHash": "ff4c83787772"
+      "contentHash": "4bb55f534441"
     },
     {
       "id": "8a6dcfeb7bfb",
@@ -147,7 +300,7 @@
     },
     {
       "id": "0617140f2cdf",
-      "title": "No More JetBrains Products for Me",
+      "title": "No more JetBrains products for me",
       "url": "https://matthewkosarek.xyz/posts/jetbrains/",
       "summary": "Zed v1を試し、高速で応答良くVS Code互換や控えめなAI統合が好印象だった。長年使ったJetBrainsのCLionは機能は優れるが動作が遅く重いため、主力エディタをZedに乗り換える決断をした。",
       "source": "Hacker News",
@@ -959,10 +1112,10 @@
       "id": "ac0a0fc668c1",
       "title": "音声合成AI ・ 音声認識AI ・ 音声翻訳AI のリリース年表",
       "url": "https://note.com/npaka/n/n867803eed7e3",
-      "summary": "歌声生成・音声合成・音声認識・音声翻訳・ボイスチェンジャーの主要AIの2021〜2024年リリース年表。CoeFont、VOICEVOX、Whisper、VALL‑E、ElevenLabs、RVC、SeamlessM4Tなどを収録。",
+      "summary": "歌声生成・音声合成・音声認識・音声翻訳・ボイスチェンジャーの主要リリース年表。2021年のCoeFont／VOICEVOX等からWhisper、VALL‑E、ElevenLabs、RVC、SeamlessM4T、Bert‑VITS2、Parakeet、GPT‑SoVITS、ReazonSpeechなど2024年までの主要事例を時系列で整理。",
       "source": "npaka",
       "publishedAt": "2026-05-17T08:04:39.000Z",
-      "contentHash": "ba61966682f8"
+      "contentHash": "55db2305f940"
     },
     {
       "id": "ad2c022b4edf",
@@ -977,10 +1130,10 @@
       "id": "9164ceb588ea",
       "title": "3D生成AI ・ 3D制作AI のリリース年表",
       "url": "https://note.com/npaka/n/nf21f0e9593d1",
-      "summary": "2020年のDeepMotionから始まり、2022〜2024年にかけてのDreamFusion、GET3D、Magic3D、Point‑E、Stable系、Meshy、Tripo、MotionGPTなど主要な3D生成・制作AIのリリース年表をまとめた記事。",
+      "summary": "2020〜2024年の主な3D生成・制作AIの年表。DeepMotionからNVIDIAのGET3D、DreamFusion、Magic3D、Point‑E、Stability系やMeshy、MotionGPTなど主要リリースを年代順に整理。",
       "source": "npaka",
       "publishedAt": "2026-05-17T06:45:49.000Z",
-      "contentHash": "26e86f63cb5b"
+      "contentHash": "948163712d74"
     },
     {
       "id": "4cdf76853bad",
@@ -1013,10 +1166,10 @@
       "id": "7a91ceb6d97e",
       "title": "Codex の App ・ CLI ・ IDE ・ Web の違いと使い分けまとめ",
       "url": "https://note.com/npaka/n/nb3fba697ffae",
-      "summary": "Codexはコードを読む・編集・実行するAI。Appは複数スレッドとGit管理向けのデスクトップ作業管理、CLIはターミナル統合と自動化向け、IDE拡張はエディタ内でのファイル単位編集・レビューに最適。用途で使い分けるべき。",
+      "summary": "Codexはコードを読み編集・実行するエージェントで、App/CLI/IDE拡張/Webなど複数形態がある。Appは複数タスク管理・レビュー向き、CLIは端末統合・自動化向き、IDE拡張はエディタ内で文脈依存作業向き、Webは手軽なブラウザ操作やタスク委任向き。",
       "source": "npaka",
       "publishedAt": "2026-05-17T01:04:14.000Z",
-      "contentHash": "bb118ffb0af1"
+      "contentHash": "96d234c68457"
     },
     {
       "id": "2ac1339c55e9",
@@ -1328,10 +1481,10 @@
       "id": "8dd0a14037e4",
       "title": "Agent Game Forge を試す",
       "url": "https://note.com/npaka/n/nd26c6515c013",
-      "summary": "Agent Game Forge はローカルファーストのAI搭載2Dゲーム開発IDE。Codex CLIやClaudeでJS+Canvas製の横スクロールプラットフォーマーを自動生成し、ビジュアルエディタで足場やハザードを調整可能。プロジェクトはPCに保存され、API呼び出しだけ外部に出る。npm起動後、約1時間で試作できる。",
+      "summary": "Agent Game Forge (AGF)は、Codex CLIやClaude Codeを使いAIに2D横スクロールゲームを生成させるローカルファーストな開発IDE。vanilla JS+CanvasのWebゲームを出力し、ビジュアルエディタでステージ調整可。プロジェクトはローカル保存、外部通信は選んだAIプロバイダーへの呼び出しのみ。npmで起動し、プロンプト入力で約1時間でプロトタイプが作れる。",
       "source": "npaka",
       "publishedAt": "2026-05-15T22:16:14.000Z",
-      "contentHash": "d7bc91202ad2"
+      "contentHash": "6622f416106c"
     },
     {
       "id": "7f1bc97b46bf",
@@ -1760,10 +1913,10 @@
       "id": "466dfcd96246",
       "title": "Agent Sprite Forge を試す",
       "url": "https://note.com/npaka/n/n9986ee3631d5",
-      "summary": "Agent Sprite ForgeはCodex向けの2Dゲームアセット生成スキルです。自然言語でスプライトシートやレイヤー化マップを作り、背景除去・フレーム分割・検証・Godot/Unity向けエクスポートまで行うgenerate2dspriteとgenerate2dmapを提供。導入手順と利用例あり。",
+      "summary": "Agent Sprite Forgeは、自然言語からスプライトシートやレイヤー化マップ、Godot/Unity向け素材を生成・整形するCodex-firstツールです。generate2dspriteとgenerate2dmapを備え、画像生成後に背景除去・フレーム抽出・整列・PNG/GIF出力・エンジン用エクスポートまでローカル処理で行います。セットアップ手順と推奨プロンプトも記載。",
       "source": "npaka",
       "publishedAt": "2026-05-15T03:07:58.000Z",
-      "contentHash": "23f91aea2a25"
+      "contentHash": "785ef07258d3"
     },
     {
       "id": "9d147bcc5c60",
@@ -8847,159 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-04-27T16:03:04.000Z",
       "contentHash": "92dc32d61952"
-    },
-    {
-      "id": "44c3a5015cea",
-      "title": "Dutch central bank ditches AWS and chooses Lidl for European Cloud",
-      "url": "https://www.techzine.eu/news/infrastructure/140634/dutch-central-bank-chooses-lidl-for-european-cloud/",
-      "summary": "オランダ中央銀行（DNB）は米国クラウド依存を減らすため、LidlのIT部門Schwarz Digitsと欧州クラウド契約を締結。DNBや金融当局が依存を警告しており、欧州製は米大手より開発歴が浅く移行課題があるが、既に大手企業で利用されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-27T15:12:41.000Z",
-      "contentHash": "43a67d0b077e"
-    },
-    {
-      "id": "0ef16ac07990",
-      "title": "\"Why not just use Lean?\"",
-      "url": "https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html",
-      "summary": "「Leanが数学形式化を可能にした」という主張を退け、1968年のde BruijnのAUTOMATHや1977年のJuttingによるLandauの形式化を例に、形式化の基盤は既にあったと指摘。AUTOMATHは記法や自動化に欠点があるが強力で、著者は依存型界隈のカルト性などにより離れたと述べる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-27T14:24:53.000Z",
-      "contentHash": "8ad3f9037039"
-    },
-    {
-      "id": "b5d18c04f7f6",
-      "title": "OpenAI available at FedRAMP Moderate",
-      "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
-      "summary": "OpenAIがChatGPT EnterpriseとOpenAI APIでFedRAMP Moderate認証を取得し、米連邦機関が安全な条件でAIを導入・利用できるようになりました。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-27T14:00:00.000Z",
-      "contentHash": "43b55d820cae"
-    },
-    {
-      "id": "46ec1380da3d",
-      "title": "Microsoft and OpenAI end their exclusive and revenue-sharing deal",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai",
-      "summary": "申し訳ありませんが、外部リンクをこちらで直接開けません。記事本文を貼っていただければ、200文字以内で日本語要約します。要点だけ（見出しや主要箇所）を教えていただいても対応可能です。どちらにしますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-27T13:22:42.000Z",
-      "contentHash": "2648fa461a7c"
-    },
-    {
-      "id": "20769b8fc97e",
-      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "summary": "GoogleとKaggleが2026年6月15〜19日に無料の5日間「AI Agents Vibe Coding」講座を開催。自然言語でエージェントを開発し、API連携や実践的なキャップストーンを通じて本番対応のAIを学べます。要登録。",
-      "source": "Gemini",
-      "publishedAt": "2026-04-27T13:00:00.000Z",
-      "contentHash": "3b5321b6bacf"
-    },
-    {
-      "id": "ff52c1488d8a",
-      "title": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
-      "url": "https://github.com/dirac-run/dirac",
-      "summary": "Diracはハッシュ基準の並列編集やAST操作で高効率化したオープンソースのコーディングエージェント。APIコストを平均64.8%削減し、gemini‑3でTerminal‑Bench‑2を65.2%で首位。評価は再現可能で、Clineのコスト報告バグはPRで修正済み。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-27T12:35:55.000Z",
-      "contentHash": "e77a1c921c7f"
-    },
-    {
-      "id": "770e81991783",
-      "title": "Men who stare at walls",
-      "url": "https://www.alexselimov.com/posts/men_who_stare_at_walls/",
-      "summary": "Simple Lucasの方法は、作業中に画面や娯楽を断ち、疲れたら数分壁を見つめて集中を回復するというもの。情報過多（2008年34GB→現在約87GB）で睡眠不足→カフェイン→メディアで紛らわす悪循環に陥りやすく、画面断ちが有効だが実践は難しい。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-27T11:08:26.000Z",
-      "contentHash": "6156fea301ab"
-    },
-    {
-      "id": "8f9c96f7ec22",
-      "title": "Pgbackrest is no longer being maintained",
-      "url": "https://github.com/pgbackrest/pgbackrest",
-      "summary": "pgBackRestは13年の開発を経て作者が保守を停止しました。資金や職を得られず継続困難なためハードストップを決断。フォークする際は新名で独立運営が必要。貢献者へ感謝。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-27T10:56:34.000Z",
-      "contentHash": "3c456f897d35"
-    },
-    {
-      "id": "5058daecfcc0",
-      "title": "AWS DevOps AgentとBacklog MCPを連携してみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/devops_agent_with_backlog",
-      "summary": "AWS DevOps AgentのGAを受け、CDKでデプロイ、認証やホスティング、スキル設定を行い、EC2に負荷をかけてAgentへ問い合わせる検証を実施。手順はWikiに公開。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-27T10:39:42.000Z",
-      "contentHash": "afdcb81110ff"
-    },
-    {
-      "id": "0d09ca4576a9",
-      "title": "FDA Approves First-Ever Gene Therapy for Treatment of Genetic Hearing Loss",
-      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher",
-      "summary": "FDAはOTOF遺伝子起因の重〜高度（>90dB HL）感音性難聴の小児・成人向けに、世界初の二重AAV遺伝子治療薬Otarmeniを承認。外有毛細胞温存かつ同耳に人工内耳未挿入が適応。国家優先バウチャーで61日で承認。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-27T10:15:17.000Z",
-      "contentHash": "9144708816a4"
-    },
-    {
-      "id": "2b1285fb8d83",
-      "title": "Mistral built a $14B AI empire by not being American",
-      "url": "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/",
-      "summary": "パリのMistralは当初OpenAIらと競う最先端モデルを目指したが達成できず、代わりに「米中製でない」実用的なAIを重視する顧客に応え、時価約140億ドルの企業に成長した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-27T10:14:15.000Z",
-      "contentHash": "1f06b2cf458c"
-    },
-    {
-      "id": "a92569d0f905",
-      "title": "This touchscreen mouse is my over-engineering nightmare",
-      "url": "https://www.theverge.com/gadgets/918919/turtle-beach-mc7-gaming-mouse-touchscreen-command-series",
-      "summary": "Turtle Beachの無線ゲーミングマウスCommand Series MC7は左側に2.25インチのタッチディスプレイを搭載。Stream Deckのようにマクロやアプリ、OBS操作を割り当てできる一方、親指で誤操作しやすく過剰設計だという指摘がある。価格は160ドル。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-27T10:10:30.000Z",
-      "contentHash": "1d73ba2cb29d"
-    },
-    {
-      "id": "aba3999211db",
-      "title": "4TB of voice samples just stolen from 40k AI contractors at Mercor",
-      "url": "https://app.oravys.com/blog/mercor-breach-2026",
-      "summary": "2026年4月4日、Lapsus$がMercor流出を公開。約4TBで4万人分の音声と身分証が流出し、15秒程度で高品質な音声クローンが作成可能。契約者らが訴訟を提起、不正利用の懸念。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-27T09:57:10.000Z",
-      "contentHash": "e30e12cdf811"
-    },
-    {
-      "id": "0bc6a2b21575",
-      "title": "【Zabbix × ServiceNow検証①】Zabbixの障害通知をServiceNowのインシデントとして自動起票・クローズ連携する方法 | TechHarmony",
-      "url": "https://blog.usize-tech.com/zabbix-servicenow-integration-1-incident/",
-      "summary": "SCSKの新沼が、ZabbixとServiceNowを連携し、Zabbixの障害通知をServiceNowのインシデントとして自動起票・クローズする検証手順を紹介する記事。設定や検証方法、連携のポイントを解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-27T09:25:43.000Z",
-      "contentHash": "7234b206d937"
-    },
-    {
-      "id": "3dc62a43bc17",
-      "title": "LINE・Notion・Cloud Run で作る小規模文書検索システムの設計 | Linkode.TechBlog",
-      "url": "https://blog.linkode.co.jp/entry/2026/04/27/181355",
-      "summary": "娘の幼稚園プリント（予定表・給食・同意書・感染症対応）から「明日の持ち物」「病気の対応」など断片情報を自然言語で探せるよう、LINEを入口にNotionで整理しCloud Run上のアプリ経由で検索する小規模文書検索システムを試作した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-27T09:13:55.000Z",
-      "contentHash": "731968c390be"
-    },
-    {
-      "id": "12cfc0049094",
-      "title": "ETLだけじゃない！Informatica IDMCの4本柱をざっくり解説 | フレクトのクラウドblog",
-      "url": "https://cloud.flect.co.jp/entry/2026/04/27/175425",
-      "summary": "フレクトの馬上です。データ増加とAI普及で「良いデータ」が重要になり、データ統合・品質管理・ガバナンスの土台整備が必要です。そこでInformaticaの知見を持つエンジニア育成に注力し、顧客への提供価値を高めています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-27T08:54:25.000Z",
-      "contentHash": "42892a9ab2e5"
-    },
-    {
-      "id": "0db943332a0c",
-      "title": "【2026年版】ZabbixでAzure環境を監視！連携手順から取得できる値まで完全解説 | TechHarmony",
-      "url": "https://blog.usize-tech.com/zabbix-azure-monitoring-2026/",
-      "summary": "SCSKの坂木による記事。統合監視ツールZabbixがクラウドやマルチクラウド監視に対応し、一元管理に使えることを紹介し、Zabbix公式テンプレートの活用による設定・運用のポイントを解説する内容です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-27T08:48:25.000Z",
-      "contentHash": "17c40f443c26"
     }
   ]
 }
