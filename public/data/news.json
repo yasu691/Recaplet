@@ -1,14 +1,131 @@
 {
-  "generatedAt": "2026-05-20T04:19:14.401Z",
+  "generatedAt": "2026-05-20T11:10:46.117Z",
   "items": [
+    {
+      "id": "20c704b7465a",
+      "title": "未経験からIT企業に新卒で入社して身についたソフトスキル ---OJT研修で得た実践的な学び | 分析屋",
+      "url": "https://note.com/bunsekiya_tech/n/n8459c2953576",
+      "summary": "2025年新卒の筆者は未経験でExcelVBAチームに配属。技術より言語・文化差からソフトスキルが難しかったが、OJTで「結論ファースト」の伝え方、議事録や工数見積り、資料整理を実務とフィードバックで習得。今後は技術と業務理解を深め価値ある提案を目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-20T09:56:22.000Z",
+      "contentHash": "f752a4b4094a"
+    },
+    {
+      "id": "8d22cfa2b4dd",
+      "title": "SageMaker Real-time Endpointを別VPCからAWS PrivateLink経由でプライベートに呼び出してみた | Fusic 技術ブログのフィード",
+      "url": "https://zenn.dev/fusic/articles/0111d7a11a4400",
+      "summary": "Kaggleデータで学習したモデルをSageMakerリアルタイムエンドポイントにデプロイし、別VPCからsagemaker.runtimeのInterface VPC Endpoint（Private DNS有効）を介してAWS PrivateLinkでプライベートに推論する手順をTerraformで解説。モデルコンテナのENIはOperation VPCに配置し、呼び出し側VPCはVPCピアリング不要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-20T09:01:25.000Z",
+      "contentHash": "5fb604a9a7d2"
+    },
+    {
+      "id": "a0fdcea95692",
+      "title": "Dify 三昧：【リリース情報】 Dify v1.14.2 リリース！セキュリティ強化と安定性向上、エージェント機能の足固め | DENET 技術ブログ",
+      "url": "https://blog.denet.co.jp/dify-031/",
+      "summary": "Dify v1.14.2をリリース。テナント分離や認証管理などのセキュリティ強化、ワークフロー/HITL・ナレッジベース/RAGの信頼性向上、監視・トレーシング修正、エージェント基盤整備やデプロイ/開発体験改善を含む安定化アップデート。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-20T09:00:55.000Z",
+      "contentHash": "577617a2d324"
+    },
+    {
+      "id": "7aa22614cf96",
+      "title": "Vitestの設定を調整してテスト速度を改善してみる | Social PLUS Tech Blogのフィード",
+      "url": "https://zenn.dev/socialplus/articles/613776932acc95",
+      "summary": "Vitest(v4.1.5)でテスト速度改善を試み、vitest.configでpoolを'threads'、isolateをfalseに設定。高速化したが共有環境でテスト間干渉が起き失敗が増加。徹底した後処理が必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-20T09:00:08.000Z",
+      "contentHash": "55d28df8500b"
+    },
+    {
+      "id": "f539d6a84a64",
+      "title": "2チーム兼務のタスク管理をClaude Codeの仮想秘書に任せてみた | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/05/20/175737",
+      "summary": "SmartHRのエンジニアが2チーム兼務で増えたタスクをClaude Codeの仮想秘書で管理。MarkdownスキルとMCPでNotion/Slack/GitHubと連携し、ペルソナを設定して朝のブリーフやタスク追加・振り返りを自動化した事例。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-20T08:57:37.000Z",
+      "contentHash": "7399cb7ba21a"
+    },
+    {
+      "id": "f3802a2b8c10",
+      "title": "2026年版「クジラに乗ったRuby」Evil Martians流 Docker + Ruby/Rails 開発環境構築（LLM対応） | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_05_20/157884",
+      "summary": "Evil Martiansの2026年版ガイド「Ruby on Whales」を翻訳公開。DockerでのRuby/Rails開発環境構築（LLM対応）を解説。原著者許諾のもとTechRachoに掲載。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-20T08:30:47.000Z",
+      "contentHash": "729f4447e3a1"
+    },
+    {
+      "id": "e77141e7f712",
+      "title": "ローカルAWSエミュレータとしてFlociを利用し始めたので紹介します | コドモン Product Team Blog",
+      "url": "https://tech.codmon.com/entry/2026/05/20/171020",
+      "summary": "保育園検索サービスの開発で、共有AWSによるユーザー衝突やCIでのE2E実行困難を解決するため、OSSのローカルAWSエミュレータFlociを導入。Cognito対応等を評価しDockerで運用、資源干渉解消・CIでのE2E実行基盤・即時テスト実行を実現。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-20T08:10:20.000Z",
+      "contentHash": "7397b38c4dbf"
+    },
+    {
+      "id": "2a78d7911cb3",
+      "title": "Qwen3-ASRを日本語音声で微調整して日本語音声認識能力を向上する | Nishika Tech Blogのフィード",
+      "url": "https://zenn.dev/team_nishika/articles/a76261cfaff751",
+      "summary": "Qwen3-ASRを日本語で微調整。独自200時間超の訓練と900件評価で、エンコーダ凍結＋デコーダ全層FTが最良（WER0.2731→0.1733）。エンコーダ学習は効果小、LoRAやプロンプトはほとんど効果なし。出力スタイル適応で誤変換が改善。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-20T08:06:21.000Z",
+      "contentHash": "3ee8e1495ce5"
+    },
+    {
+      "id": "2b19e28f92bd",
+      "title": "ODEX｜デジタル化・DX推進展、参加レポート | ForgeVision Engineer Blog",
+      "url": "https://techblog.forgevision.com/entry/2026/05/20/165727",
+      "summary": "フォージビジョンの今田が5月13〜15日開催のODEX（東京ビッグサイト）に来場。AIやDXの最新トレンドや現場の熱量を直接確認し、エンジニアや情シスだけでなく営業や人事など幅広いビジネスパーソンに伝えるための展示会レポートを届ける。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-20T07:57:27.000Z",
+      "contentHash": "0395bdd2b882"
+    },
+    {
+      "id": "48a9bc0e1f1b",
+      "title": "Dependabot の Security patch を AI レビュー付きで自動マージする運用にした話 | 【PRONI】テックブログ",
+      "url": "https://note.com/ymymymymy/n/nc6f43aded021",
+      "summary": "PRONIはDependabotのPRが後回しになる問題を受け、CI通過を前提にGitHub審査済みのSecurity updateのみを対象にAIレビューを追加して自動マージする運用に変更。npmのサプライチェーン攻撃を警戒し、Version updateは自動化しない方針とした。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-20T07:11:18.000Z",
+      "contentHash": "54f1fbb18039"
+    },
+    {
+      "id": "ea0742ded670",
+      "title": "Everything in C is undefined behavior",
+      "url": "https://blog.habets.se/2026/05/Everything-in-C-is-undefined-behavior.html",
+      "summary": "個人ブログ。著者は30年の経験からC/C++は未定義動作(UB)が極めて多く、正しく書くのは事実上不可能と断言。典型的なメモリ誤り以外にも微妙なUBが多数あり、最適化を切っても解決しない。現代の環境に合わないと警鐘。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T06:07:22.000Z",
+      "contentHash": "ab47b834eb40"
+    },
+    {
+      "id": "4d797953d265",
+      "title": "Google Flow Music の使い方",
+      "url": "https://note.com/npaka/n/n68e7d8194c3d",
+      "summary": "Google Flow Musicはテキスト・画像・音声プロンプトから曲・プレイリスト・MVなどを作れるGoogle LabsのAIツール。ジャンル・雰囲気・テンポ・楽器・歌詞を指定して生成し、少しずつ編集。Composeで歌詞・音色・詳細を調整、Remixで延長・別アレンジ・差し替えが可能。",
+      "source": "npaka",
+      "publishedAt": "2026-05-20T05:55:00.000Z",
+      "contentHash": "4b68d78c0422"
+    },
+    {
+      "id": "95f72d557cc6",
+      "title": "GitHub Compromised",
+      "url": "https://twitter.com/github/status/2056949168208552080",
+      "summary": "外部リンクを直接開けないため、記事本文（またはスクリーンショット／引用）を貼ってください。貼っていただければ200字以内で日本語要約します。ニュース記事かHNの議論どちらを要約するかも教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T04:12:48.000Z",
+      "contentHash": "eef63d8790a5"
+    },
     {
       "id": "5ee361179c2f",
       "title": "Mercedes’ electric AMG GT 4-door coupe can go 0-60 in 2 seconds",
       "url": "https://www.theverge.com/news/934037/mercedes-amg-gt-four-door-coupe-ev-specs",
-      "summary": "メルセデスが新型電動スーパーサルーン、AMG GT 4ドアクーペを発表。YASA製軸流モーター3基で最大1,153馬力・1,475lb-ft、0→60mph約2秒。高性能バッテリー搭載だが擬似エンジン音あり。",
+      "summary": "メルセデスが電動スーパーセダン「AMG GT 4ドアクーペ」を発表。YASA製の薄型アクシャルフラックスモーターを3基搭載し最高1153馬力・1475lb‑ft、0→60mph約2秒。高性能バッテリーと人工エンジン音を採用。",
       "source": "The Verge",
       "publishedAt": "2026-05-20T03:30:00.000Z",
-      "contentHash": "cea0ff1a4de1"
+      "contentHash": "9bc6470b55f0"
     },
     {
       "id": "5c909ca9091c",
@@ -74,6 +191,24 @@
       "contentHash": "cb18ecd9a54f"
     },
     {
+      "id": "0bafbd1f2ec6",
+      "title": "Japan is gripped by mass allergies. A 1950s project is to blame",
+      "url": "https://www.bbc.com/future/article/20260515-the-1950s-blunder-which-causes-mass-hay-fever-in-japan",
+      "summary": "戦後の再植林でスギ・ヒノキなど限られた樹種に偏ったため春に大量の花粉が飛散。花粉症は国民の約43%が中〜重度で、ピーク時の経済損失は1日約$1.6bnに達する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T01:43:06.000Z",
+      "contentHash": "e9db122251eb"
+    },
+    {
+      "id": "f48685a4f344",
+      "title": "FiveThirtyEight articles on the Internet Archive",
+      "url": "https://fivethirtyeightindex.com/",
+      "summary": "2008年3月のNate Silverによる記事見出しと日付の一覧。サイトは年別・著者別で閲覧可能で、Nate Silverが最多（4966件）を含む著者別投稿数も表示。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T01:34:19.000Z",
+      "contentHash": "0faace6d49f8"
+    },
+    {
       "id": "34487d1dd9ef",
       "title": "PR TIMES は Laravel Live Japan に協賛・登壇します！ | PR TIMES 開発者ブログ",
       "url": "https://developers.prtimes.com/2026/05/20/laravel-live-japan-2026/",
@@ -92,13 +227,31 @@
       "contentHash": "d1e007ba5835"
     },
     {
+      "id": "f716300a07e5",
+      "title": "Incident Report: Railway Blocked by Google Cloud (Resolved)",
+      "url": "https://blog.railway.com/p/incident-report-may-19-2026-gcp-account-outage",
+      "summary": "5月19日22:20〜5月20日06:14頃（約8時間）、Google Cloudが誤ってRailwayのアカウントをサスペンドし、API・ダッシュボード・データベースなどGCP上のインフラが停止。ルートキャッシュ切れでAWSやRailway Metalにも波及し全リージョンで到達不能に。復旧と再発防止策を進めている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T00:23:54.000Z",
+      "contentHash": "6756307bad04"
+    },
+    {
       "id": "6e1eb7ee7eec",
       "title": "GitHub is investigating unauthorized access to their internal repositories",
       "url": "https://twitter.com/github/status/2056884788179726685",
-      "summary": "外部リンクに直接アクセスできません。該当ツイートや記事の本文、画像の内容、または主要ポイントをこちらに貼り付けてください。貼っていただければ200字以内で要約します。",
+      "summary": "申し訳ありませんが外部リンクに直接アクセスできません。記事本文か主要部分を貼り付けていただければ、200文字以内で日本語要約します。HNのコメント要約も希望ならその旨を教えてください。",
       "source": "Hacker News",
       "publishedAt": "2026-05-20T00:01:18.000Z",
-      "contentHash": "31f301f2b3e6"
+      "contentHash": "8e6e1178041a"
+    },
+    {
+      "id": "aada05358e56",
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "summary": "OpenAIが教育支援を強化し、各国の学校でのAI導入を拡大。新しい提携、教員研修、教育ツールを通じて世界の学習成果向上を目指す。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-20T00:00:00.000Z",
+      "contentHash": "8f84035a0371"
     },
     {
       "id": "c6f5e3867ee8",
@@ -120,7 +273,7 @@
     },
     {
       "id": "a8a37c129980",
-      "title": "Remove–AI–Watermarks – CLI and library for removing AI watermarks from images",
+      "title": "Remove-AI-Watermarks – CLI and library for removing AI watermarks from images",
       "url": "https://github.com/wiltodelta/remove-ai-watermarks",
       "summary": "Remove-AI-Watermarksは、Google GeminiやDALL·E、Stable Diffusion、Adobe Firefly、Midjourney等のAI生成画像からスパークル等の可視ウォーターマーク、SynthID/C2PA等の不可視ウォーターマーク、EXIF/XMP等のメタデータを一括除去するツール。逆アルファ合成や拡散再生成で痕跡を消し、フィルム粒子付加や顔保護、バッチ処理、検出機能、オンライン版(raiw.cc)も提供。",
       "source": "Hacker News",
@@ -131,10 +284,10 @@
       "id": "659861350af7",
       "title": "Google Flow ・ Flow Music の新機能 - Gemini Omni ・ エージェント ・ モバイルアプリ",
       "url": "https://note.com/npaka/n/n47ffe842981b",
-      "summary": "Googleはクリエイター向け『Google Flow』『Google Flow Music』を更新。動画編集特化のマルチモーダル新モデル「Gemini Omni」、制作支援エージェント、自然言語で作るカスタムツール、モバイルアプリ、楽曲の部分編集・スタイル変換やMV生成などを追加。※一部機能はGoogle AI加入者向け。",
+      "summary": "Googleが「Google Flow」「Google Flow Music」を拡張。動画特化のマルチモーダル新モデルGemini Omni、制作支援のFlow Agent、自然言語で作れるFlow Toolsやモバイルアプリを導入。Flow Musicは部分編集やスタイル変換、MV制作対応。",
       "source": "npaka",
       "publishedAt": "2026-05-19T22:27:00.000Z",
-      "contentHash": "2b26979b7a2b"
+      "contentHash": "d51ad0b658ae"
     },
     {
       "id": "1bab959f9a60",
@@ -149,10 +302,10 @@
       "id": "54fdd3aca5f0",
       "title": "Google I/O 2026 におけるスマートグラス発表の概要",
       "url": "https://note.com/npaka/n/ne3b89c5a21a0",
-      "summary": "GoogleはI/O 2026で、Android XRとGemini搭載の「Intelligent eyewear」を発表。音声対応のオーディオグラス（今秋）と視界提示のディスプレイグラスがあり、SamsungやGentle Monster、Warby Parkerと協業。音声で周辺照会、ナビ、通話・メッセージ管理、撮影編集、翻訳、アプリ操作などが可能。",
+      "summary": "Google I/O 2026で「Intelligent eyewear」を発表。Samsung/QualcommのAndroid XR基盤でGentle MonsterやWarby Parkerと協業。今秋は音声対応のオーディオグラスが登場し、Geminiでハンズフリーの視界認識、ナビ、翻訳、撮影編集、複数手順タスクやアプリ操作を支援（Android/iOS対応）。",
       "source": "npaka",
       "publishedAt": "2026-05-19T22:00:16.000Z",
-      "contentHash": "a9e112e81958"
+      "contentHash": "919b129c0879"
     },
     {
       "id": "abf0f0d3c66b",
@@ -167,10 +320,10 @@
       "id": "eb2b67ec340c",
       "title": "Gemini 3.5 Flash の概要",
       "url": "https://note.com/npaka/n/n0c77f0c311ba",
-      "summary": "Gemini 3.5 Flashは高速応答とフロンティア級の知能を両立した実用モデル。コーディング・エージェント性能に優れ、マルチステップ作業やUI・グラフィック生成に対応。企業導入や個人向けエージェント展開が進み、安全対策も組み込まれている。",
+      "summary": "Gemini 3.5 Flashは低レイテンシでフロンティア級の知能を両立した実用モデル。コーディングやマルチステップのエージェント作業、UI/グラフィック生成に強く、企業導入や個人向けエージェント、安全対策と共に提供される。",
       "source": "npaka",
       "publishedAt": "2026-05-19T21:45:32.000Z",
-      "contentHash": "f51ad9e33336"
+      "contentHash": "9751638344f0"
     },
     {
       "id": "059628e90ce7",
@@ -185,10 +338,10 @@
       "id": "59591cdd322c",
       "title": "Gemini Omni の概要",
       "url": "https://note.com/npaka/n/n7d37bbbd1681",
-      "summary": "Gemini OmniはGoogle DeepMindのマルチモーダル生成モデルで、テキスト・画像・音声などを組み合わせて動画を生成・会話で自然に編集可能。環境や動作の変更、段階的な指示による洗練、物理・歴史・文化的知識を活かした推論的な映像制作を目指す。",
+      "summary": "Google DeepMindのマルチモーダル生成モデル「Gemini Omni」は、テキスト・画像・音声などを組み合わせて動画を生成・会話で編集可能。環境や動作の変更、段階的な微調整や物理・文化知識に基づく推論で意味ある映像制作を目指す。",
       "source": "npaka",
       "publishedAt": "2026-05-19T21:15:30.000Z",
-      "contentHash": "37d89fc5bf66"
+      "contentHash": "a433929dbbb0"
     },
     {
       "id": "bdc97380f844",
@@ -248,10 +401,10 @@
       "id": "ca6dcc3fb0ea",
       "title": "OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool",
       "url": "https://openai.com/index/advancing-content-provenance/",
-      "summary": "OpenAIはコンテンツの出自（プロビナンス）強化を発表。画像やテキスト生成物に付与するメタデータや暗号署名、オープン基準や検証ツールを提供し、真偽判定・責任追跡を業界と協働で進める。",
+      "summary": "OpenAIはC2PA準拠のContent Credentials導入、Googleと協力した耐久型SynthID画像透かし、公開検証ツールの試作を発表し、AI生成メディアの出所表示と識別を強化します。",
       "source": "Hacker News",
       "publishedAt": "2026-05-19T19:34:30.000Z",
-      "contentHash": "521bb4cccd17"
+      "contentHash": "21ed1b3ca549"
     },
     {
       "id": "a56bfa532c95",
@@ -491,10 +644,10 @@
       "id": "fea335ac32b4",
       "title": "個人制作で使いやすい効果音素材サイトまとめ",
       "url": "https://note.com/npaka/n/n72ae3fa9ceca",
-      "summary": "個人制作向けの効果音素材サイトを紹介。効果音ラボ、効果音工房、DOVA‑SYNDROME、くらげ工匠などは商用・加工可でクレジット不要が多いが、再配布やAI学習利用、法人利用には制限があるため最新規約を確認。",
+      "summary": "個人制作向けの効果音素材サイトを紹介する記事。利用時のライセンス（商用可・クレジット・加工・法人利用など）に注意を促し、効果音ラボ、効果音工房（法人は要確認）、DOVA-SYNDROME、くらげ工匠など、商用利用やクレジット不要で使いやすいサイトをまとめています。",
       "source": "npaka",
       "publishedAt": "2026-05-19T14:05:18.000Z",
-      "contentHash": "081c0699284f"
+      "contentHash": "5aa78e3961a0"
     },
     {
       "id": "0fde6fb85f0b",
@@ -869,10 +1022,10 @@
       "id": "588f22deb571",
       "title": "Codex でボクセルの3Dモデル生成を試す",
       "url": "https://note.com/npaka/n/nde5589d13536",
-      "summary": "Codexでボクセル3Dモデル生成を検証。GPT-Image2で作った3面図からVite+TypeScript+three.jsでレーシングカーやロボットを生成・調整し、タイヤ回転やVRM/VRMA化、MixamoのFBXをVRMAに変換して再生。OpenAI Game Studioスキル使用。",
+      "summary": "Codexで3面図からボクセル3Dモデルを自動生成する実験。レーシングカーのモデル作成・タイヤ回転アニメ・CatmullRomスプラインで作るボクセル風サーキットや視点切替、ロボットをVRM/VRMA化、MixamoのFBXをVRMAに変換して再生。技術はVite＋TypeScript＋three.js。",
       "source": "npaka",
       "publishedAt": "2026-05-18T23:48:27.000Z",
-      "contentHash": "13af49958fa8"
+      "contentHash": "1aa140aadb19"
     },
     {
       "id": "8b573beaa372",
@@ -1724,10 +1877,10 @@
       "id": "ac0a0fc668c1",
       "title": "音声合成AI ・ 音声認識AI ・ 音声翻訳AI のリリース年表",
       "url": "https://note.com/npaka/n/n867803eed7e3",
-      "summary": "歌声生成・音声合成・音声認識・翻訳・ボイスチェンジャー等の主要音声AIのリリース年表を、2021〜2024年の代表的ツール（CoeFont、VOICEVOX、Whisper、VALL‑E、ElevenLabs、RVC、SeamlessM4T、Bert‑VITS2など）でまとめた記事。",
+      "summary": "主要な歌声生成、音声合成、音声認識、音声翻訳、ボイスチェンジャーのリリース年表を年代順に整理し、代表的なサービスや技術的な節目を示して各分野の発展を一目で分かるようにまとめた記事です。",
       "source": "npaka",
       "publishedAt": "2026-05-17T08:04:39.000Z",
-      "contentHash": "12af65f3b164"
+      "contentHash": "76b6d3618d95"
     },
     {
       "id": "ad2c022b4edf",
@@ -8847,159 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-29T08:45:36.000Z",
       "contentHash": "e20993abce4d"
-    },
-    {
-      "id": "c5eff5926075",
-      "title": "Isaac Sim の ROS2 Transform Trees と Odometry を試す",
-      "url": "https://note.com/npaka/n/n04d1752d2dd3",
-      "summary": "Isaac SimでROS2のTransform Trees(/tf)とOdometry(/odom)を検証。座標系の親子関係やフレーム例（base_link等）、/odomは相対的な位置・姿勢・速度を配信し、map→odom→base_link構成でNavigation/SLAMに利用する点とURDF準備やtf公開手順を解説。",
-      "source": "npaka",
-      "publishedAt": "2026-04-29T06:50:56.000Z",
-      "contentHash": "36edfd0614e9"
-    },
-    {
-      "id": "3456dcc30ba9",
-      "title": "Germany Overtakes US in Ammunition Production Capacity",
-      "url": "https://www.newsweek.com/germany-overtakes-us-in-ammunition-production-capacity-11886409",
-      "summary": "ラインメタルCEOは、ドイツが米国を上回る弾薬生産力を持つと発表。中口径を4倍超に、砲弾を7万発から110万発に増産。米の欧州支援縮小やウクライナ・中東情勢で欧州は再軍備を加速。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-29T06:46:42.000Z",
-      "contentHash": "9ec3a2848bfd"
-    },
-    {
-      "id": "3267244981fa",
-      "title": "[UE5]キャラクター基準でカメラの相対方向を検出する方法 | historia Inc – 株式会社ヒストリア",
-      "url": "https://historia.co.jp/archives/56549/",
-      "summary": "関連記事は、UE5 TopDownテンプレートのバリアント「Strategy」を改造して遊ぶ記事（2026/04/22）、UE技術サポート案内（2026/04/16）、Unreal Subscription企業向けライセンス販売開始（2026/04/16）です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-29T06:00:16.000Z",
-      "contentHash": "a55606132c1e"
-    },
-    {
-      "id": "180302e63d71",
-      "title": "Cybersecurity in the Intelligence Age",
-      "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
-      "summary": "OpenAIは、インテリジェンス時代のサイバーセキュリティ強化のため、AIを活用した防御の民主化と重要インフラ保護を柱にした5本柱の行動計画を提示した。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-29T04:00:00.000Z",
-      "contentHash": "65c5a122c201"
-    },
-    {
-      "id": "4440fa99ae9c",
-      "title": "AWS Batch でテナント間の順番待ちを緩和した話 | DRESS CODE TECH BLOGのフィード",
-      "url": "https://zenn.dev/dress_code/articles/aws-batch-fair-share",
-      "summary": "Dress CodeのAWS Batch（Fargate）基盤で、ある組織の大量ジョブがスロットを独占するNoisy Neighbor問題が発生。キュー分割は上限や断片化の問題があり、AWS BatchのFair Share Schedulingで順番待ちを緩和した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-29T02:00:05.000Z",
-      "contentHash": "041b4e973fd0"
-    },
-    {
-      "id": "3c058c8ab609",
-      "title": "Claude の Adobe for creativity の使い方",
-      "url": "https://note.com/npaka/n/n6841ac39cc4c",
-      "summary": "AdobeとAnthropicがClaude内でPhotoshop等を自然文で操作できるConnector「Adobe for creativity」を発表。チャットから写真編集、デザイン作成、動画リサイズや一括補正、SNS向け変換などが行え、Claudeでコネクタ追加→Adobeアカウントでサインインして利用。作成物はExpressやPhotoshop等でさらに編集可能。",
-      "source": "npaka",
-      "publishedAt": "2026-04-29T01:50:16.000Z",
-      "contentHash": "f4e0e110dbfa"
-    },
-    {
-      "id": "960accfa8ca5",
-      "title": "LambdaのトリガーをAWSコンソールで見たい | TechHarmony",
-      "url": "https://blog.usize-tech.com/aws-iam-policy-lambda-trigger/",
-      "summary": "AWSコンソールでLambdaのSQSトリガーを表示するには、lambda:ListFunctions、lambda:GetFunction／GetFunctionConfiguration／GetPolicy、lambda:ListEventSourceMappings、lambda:GetEventSourceMapping等の権限が必要。特にlambda:GetPolicyがないとトリガータブが読み込み状態のまま表示されない。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-29T00:00:09.000Z",
-      "contentHash": "22288f63a2b3"
-    },
-    {
-      "id": "6ec919580dd8",
-      "title": "Regression: malware reminder on every read still causes subagent refusals",
-      "url": "https://github.com/anthropics/claude-code/issues/49363",
-      "summary": "v2.1.111で、Read/Grepの結果にマルウェア判定を促す<system-reminder>が埋め込まれ、サブエージェントが正当なOSSコード修正を拒否する回帰が発生。v2.1.92で修正済とされたが再現し、文字列はCLIバイナリ内に確認された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-28T23:59:57.000Z",
-      "contentHash": "758196cae7d0"
-    },
-    {
-      "id": "925fcfa363d5",
-      "title": "Claude の Blender Connector の使い方",
-      "url": "https://note.com/npaka/n/nfc0bc102fd97",
-      "summary": "ClaudeのBlender Connectorは、ClaudeからBlenderを操作するツール。Claude DesktopとBlenderアドオンを連携して導入し、名前整理、ジオメトリノードの解説と注記、マテリアル依存調査、重いオブジェクト検出と最適化提案などが行えます。",
-      "source": "npaka",
-      "publishedAt": "2026-04-28T23:54:40.000Z",
-      "contentHash": "8717d27c7e30"
-    },
-    {
-      "id": "eff9c0ae32bc",
-      "title": "How ChatGPT serves ads",
-      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
-      "summary": "OpenAIの広告は二部構成。ChatGPT側が会話のSSEストリームにsingle_advertiser_ad_unitを注入し、訪問者側はOAIQ SDKで閲覧を報告。Fernet暗号のクリックトークン（広告ごと4つ）で結合。広告素材はbzrcdn.openai.comで配信。著者は同意済みモバイルで両側を観測。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-28T23:54:14.000Z",
-      "contentHash": "1d8f169f32c8"
-    },
-    {
-      "id": "dc952676486d",
-      "title": "It’s primetime for conspiracy theorist video creators",
-      "url": "https://www.theverge.com/streaming/919291/white-house-correspondents-dinner-conspiracy-videos-false-flag",
-      "summary": "ホワイトハウス記者団晩餐会の銃撃後、TikTokやYouTubeで「偽旗」説を唱える陰謀論動画が急増。反応動画文化が拡散を助け、容疑者コール・アレンについて不明点が残る中も投稿が続いている。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-28T23:31:53.000Z",
-      "contentHash": "368ec3c7e9cc"
-    },
-    {
-      "id": "1c7525877f0f",
-      "title": "Elon Musk appeared more petty than prepared",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/920191/elon-musk-sam-altman-trial-day-one",
-      "summary": "エロン・マスクがサム・アルトマンとのOpenAIを巡る裁判で最初の証人として出廷。冒頭証言は私怨めいた発言で焦点が定まらず、威厳や説得力に欠ける印象だった。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-28T23:17:12.000Z",
-      "contentHash": "7b5a46523e40"
-    },
-    {
-      "id": "dcb9ca989d60",
-      "title": "Blender・Autodesk・AdobeとつながるClaudeの新Connector",
-      "url": "https://note.com/npaka/n/n7864b38c7432",
-      "summary": "要約する本文やリンクが見当たりません。記事全文かURLを貼るか、要点を教えてください。受け取り次第、200字以内で分かりやすく要約します。",
-      "source": "npaka",
-      "publishedAt": "2026-04-28T23:07:08.000Z",
-      "contentHash": "36b327dc9e75"
-    },
-    {
-      "id": "c78efead009c",
-      "title": "Carrot Disclosure: Forgejo",
-      "url": "https://dustri.org/b/carrot-disclosure-forgejo.html",
-      "summary": "FedoraのPagure移行を機にForgejoを調査。一晩でSSRF、CSP不在、暗号・認証の不備、DoSや情報漏洩など多数を発見しチェインでRCEや権限昇格が可能に。RCEは公開登録や非標準設定依存で実害は限定的。開示は全面公開せず、修正を促す「キャロット・ディスクロージャ」を採ると決めた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-28T22:14:29.000Z",
-      "contentHash": "909d56347406"
-    },
-    {
-      "id": "cfc33a5ac473",
-      "title": "James Comey indicted over Instagram seashell photo that allegedly threatened Trump",
-      "url": "https://www.theverge.com/policy/920131/james-comey-indicted-over-instagram-seashell-photo-that-allegedly-threatened-trump",
-      "summary": "司法省は元FBI長官ジェームズ・コミーを、昨年5月にインスタに投稿して削除した「8647」の貝殻写真がトランプ氏への脅迫と解釈され得るとしてノースカロライナ連邦裁に起訴した。司法省は「eighty‑six」が「排除する」の俗語で、トランプ氏が第47代大統領である点を指摘している。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-28T21:40:08.000Z",
-      "contentHash": "16be7bd91f88"
-    },
-    {
-      "id": "fef8766c3e95",
-      "title": "Before GitHub",
-      "url": "https://lucumr.pocoo.org/2026/4/28/before-github/",
-      "summary": "筆者はSourceForgeやTrac、Bitbucketを経てGitHubに移り、GitHubが自身のOSS活動やコミュニティ形成に不可欠だったと述べる。現在の衰退を悲しみ、GitHubやnpmが依存増加と公開・利用の摩擦低減でOSSの在り方を変えたと振り返る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-28T21:17:40.000Z",
-      "contentHash": "74e363371a1b"
-    },
-    {
-      "id": "4fc108fd7676",
-      "title": "Elon Musk tells the jury that all he wants to do is save humanity",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/920048/elon-musk-testimony-save-humanity",
-      "summary": "エロン・マスクはOpenAIを巡るサム・アルトマンとの裁判で証言し、自らを「人類を救う」使命のある寛大な英雄として演出。南ア出身からの来歴や事業遍歴を詳述し、アルトマンと対比した。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-28T20:46:54.000Z",
-      "contentHash": "8c2038b8b7b2"
     }
   ]
 }
