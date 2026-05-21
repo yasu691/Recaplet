@@ -1,6 +1,249 @@
 {
-  "generatedAt": "2026-05-20T18:39:03.716Z",
+  "generatedAt": "2026-05-21T04:24:23.126Z",
   "items": [
+    {
+      "id": "25b4e229cfc7",
+      "title": "In SpaceX’s IPO, Elon Musk is a risk factor",
+      "url": "https://www.theverge.com/science/935102/spacex-ipo-elon-musk-tesla-cybertruck-xai-risk-factor",
+      "summary": "SpaceXのIPO申請書で最大のリスク要因はイーロン・マスクだと明記。会社はリーダーシップに強く依存するとし、マスクが関与する他社が競合となり得ると指摘している。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-21T03:42:45.000Z",
+      "contentHash": "754517676cc7"
+    },
+    {
+      "id": "254d850df47d",
+      "title": "【AD検証ラボ】デバイス管理編 〜 Hybrid Entra Join・SID History を整理する | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/3673617f2dbe80f8/",
+      "summary": "Windows端末の参加状態を整理し、Hybrid Entra Join（ドメイン参加＋Entra ID登録＋PRT取得）の仕組みを解説。必要要素はオンプレAD、Entra Connect、SCP、Entra IDで、Computers OU同期が必須。AD廃止でGPOやKerberosは使えなくなり、新規端末はEntra Join推奨。PRTはユーザー単位で、ユーザーが同期されていないとSSOは動かない。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-21T02:42:00.000Z",
+      "contentHash": "21ccd3969457"
+    },
+    {
+      "id": "f5e5e388137b",
+      "title": "Autodesk Flow Studio での 3Dモデル生成 を試す",
+      "url": "https://note.com/npaka/n/n71d2e9c9df40",
+      "summary": "Autodesk Flow StudioのAI群「Wonder Tools」で、Text to 3D・Image to 3D・Text to Imageを検証。プロンプトや画像からメッシュ生成、ポリ数・トポロジ選択、ヒューマノイドリギングまで試し、生成とモーションを確認した記録。",
+      "source": "npaka",
+      "publishedAt": "2026-05-21T02:36:23.000Z",
+      "contentHash": "59e0a36c9121"
+    },
+    {
+      "id": "dbba57691bfb",
+      "title": "クラウドネイティブ会議 2026 参加レポート DAY2 | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/05/21/113349",
+      "summary": "吉田氏によるクラウドネイティブ会議2026現地レポート。AIワークロードのGPU中心な観測難やプロファイリング、デモでの自律AIによる性能改善事例を紹介し、適切なモニタリングと運用・セキュリティ設計の重要性を強調。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-21T02:33:49.000Z",
+      "contentHash": "512167892c77"
+    },
+    {
+      "id": "3695bbf13304",
+      "title": "外部イベントがモニタリング対象に与える影響を評価し続けるエージェントの試作 | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/2026/05/21/111742",
+      "summary": "LayerXのkoseiは、外部ニュース等をトリガーに案件やプロジェクトの評価を継続更新するambient agentを試作。二次的波及をKnowledge Graphで補い、World Bank文書とニュースで危険性の変化を監視する実験を行った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-21T02:17:42.000Z",
+      "contentHash": "12625b2e5719"
+    },
+    {
+      "id": "a4725c529ffb",
+      "title": "RFC 8707 Resource Indicatorsの活用事例: マイクロサービス間のトークンの権限適正化 | CADDi Tech Blog",
+      "url": "https://caddi.tech/2026/05/21/110000",
+      "summary": "キャディのControl PlaneでM2Mトークンを改修。OAuth2のClient CredentialsにRFC8707のresourceを導入し、発行トークンのaudにアクセス先を付与。Istioでaudとscopeを検証して最小権限を実現。複数resourceも可能だが原則は1リクエスト1トークン。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-21T02:00:00.000Z",
+      "contentHash": "01eb594ef36b"
+    },
+    {
+      "id": "53546326981e",
+      "title": "リスクベースド × AIエージェントで実現する探索的テスト 〜「暗黙知」を「形式知」に変えるテストの考え方〜 | LINEヤフー Tech Blog (LY Corporation Tech Blog",
+      "url": "https://techblog.lycorp.co.jp/ja/20260521b",
+      "summary": "リスクベースド×AIエージェントで探索的テストを実現し、ベテランの「暗黙知」をリスク表などで形式知化。AIは観点抽出・繰り返し実行、人は文脈判断と最終承認を担い、属人化解消と網羅性向上を目指す社内ワークショップの報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-21T02:00:00.000Z",
+      "contentHash": "349f2c4722a2"
+    },
+    {
+      "id": "a20ee7df5002",
+      "title": "2026年6月の技術系イベント予定 | LINEヤフー Tech Blog (LY Corporation Tech Blog",
+      "url": "https://techblog.lycorp.co.jp/ja/20260521a",
+      "summary": "LINEヤフーが主催・協賛する2026年6月の技術イベント予定：6/2 Google I/O振り返り（ZOZO共催）、6/5 Python Meetup Fukuoka、6/8–9 Extended Tokyo（WWDC視聴・LT）、6/29 Tech‑Verse。情報は各リンクで確認を。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-21T02:00:00.000Z",
+      "contentHash": "922742d2cb04"
+    },
+    {
+      "id": "342c2fa28422",
+      "title": "WindowsローカルAI実践 第2回:ONNX Runtime で“ふつうのMLモデル”を動かす最小実装 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/d28770bcd5ba3d",
+      "summary": "第2回。ONNX→ONNX Runtime→Execution Provider→CPU/GPUの流れをPythonで実践。scikit-learnとPyTorchモデルを「変換→ロード→前処理→推論→検証」の5段で動かし、CPUからDirectMLへ切替えて結果一致を確認。入力契約や前処理の重要性を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-21T01:46:38.000Z",
+      "contentHash": "9587e1dabffb"
+    },
+    {
+      "id": "0d47993df263",
+      "title": "功績の数だけ、勲章がある。私たちがノベルティに「熱量」を詰め込んだ理由 | ROXX開発者ブログ",
+      "url": "https://techblog.roxx.co.jp/entry/2026/05/21/100621",
+      "summary": "功績を勲章に見立て、ノベルティに熱量を込めた理由を述べつつ、改良版カスタムサムネイル表示システムを紹介。OGPや記事内画像、既存サムネを優先取得し、記事URLでサムネ作成・「続きを読む」追加するJS実装を説明。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-21T01:06:21.000Z",
+      "contentHash": "c46905c23b67"
+    },
+    {
+      "id": "155535ea56a3",
+      "title": "【研修風景】講義内容とその様子について📚🔍 | 株式会社Polestar-ID エンジニアブログ",
+      "url": "https://www.psid.co.jp/news/2026/05/21/%e3%80%90%e7%a0%94%e4%bf%ae%e9%a2%a8%e6%99%af%e3%80%91%e8%ac%9b%e7%be%a9%e5%86%85%e5%ae%b9%e3%81%a8%e3%81%9d%e3%81%ae%e6%a7%98%e5%ad%90%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+      "summary": "研修担当のSが、研修センターでの日々の講義内容や様子をブログで紹介。CCNAの学習進捗やBootcamp（実機演習）など、研修中の取り組みを報告します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-21T01:03:53.000Z",
+      "contentHash": "3ddac255d057"
+    },
+    {
+      "id": "76a0a8bf1684",
+      "title": "AWSのサービスで自席の快適度を測定できるようにしてみた話（２） | IIJ Engineers Blog",
+      "url": "https://eng-blog.iij.ad.jp/archives/36525",
+      "summary": "前の記事でAWS IoT SiteWise Monitorを使い、自席付近の気温や湿度の計測を行えるようにした。その後、2025年10月付でSiteWise Monitorに関する重要な変更があった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-21T01:02:33.000Z",
+      "contentHash": "00a5095a0e5f"
+    },
+    {
+      "id": "990359797637",
+      "title": "Show HN: I reverse engineered Apple's video wallpapers",
+      "url": "https://github.com/kageroumado/phosphene",
+      "summary": "PhospheneはmacOS Tahoe向けのメニューバー＋壁紙拡張で、任意の動画をデスクトップ/ロック画面の壁紙としてシステムの壁紙ピッカーに統合して再生。ギャップレスループ、マルチディスプレイ、電力・ロック画面最適化などを備えるが、Appleの非公開WallpaperExtensionKitをdlopenで利用するため将来の互換性リスクがあり、macOS 26以降が必要。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T23:54:06.000Z",
+      "contentHash": "55b1e422b546"
+    },
+    {
+      "id": "268751f4fde4",
+      "title": "DOS Zone",
+      "url": "https://dos.zone/",
+      "summary": "外部リンクの直接取得はできません。記事本文を貼り付けていただければ、200文字以内で要約します。記事が長い場合は主要段落や要点を貼るだけでも構いません。どのトーン（中立/簡潔/魅力的）にするかも教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T22:53:27.000Z",
+      "contentHash": "0880077d561c"
+    },
+    {
+      "id": "03d72cd71821",
+      "title": "Starship's Twelfth Flight Test",
+      "url": "https://www.spacex.com/launches/starship-flight-12",
+      "summary": "申し訳ありませんが、外部リンク先のページを直接参照することはできません。記事本文（および必要ならHNコメント）をここに貼り付けていただければ、200文字以内の日本語で要約します。要点だけでも構いません。どちらを要約しますか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T21:41:54.000Z",
+      "contentHash": "1cb125406159"
+    },
+    {
+      "id": "bd0babd2bdb1",
+      "title": "Google Declaring War on the Web",
+      "url": "https://tante.cc/2026/05/20/on-google-declaring-war-on-the-web/",
+      "summary": "記事は、GoogleがChromeや独自API、Privacy Sandboxなどでウェブ標準や広告生態系を支配し、相互運用性や中小出版社の収入を損なうことで「オープンなウェブを破壊している」と批判。規制や反撃を促す主張。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T21:33:18.000Z",
+      "contentHash": "b3c5fb1acab2"
+    },
+    {
+      "id": "1cca61517783",
+      "title": "SpaceX just filed for what could be the biggest IPO ever",
+      "url": "https://www.theverge.com/business/902219/spacex-ipo-details",
+      "summary": "SpaceXがSECにS-1を提出、ナスダックにSPCXで上場へ。2025年売上186.7億ドル（Starlinkが110億ドル超）、損失49億ドル超、設備投資207億ドル。xAI合併で損失増も収益22%増、時価総額1.75兆ドルの観測。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-20T21:29:05.000Z",
+      "contentHash": "f4342b6582f9"
+    },
+    {
+      "id": "7ce59c68bed9",
+      "title": "‘Solve all diseases,’ you say?",
+      "url": "https://www.theverge.com/column/935021/google-io-gemini-for-science-alphafold-alphagenome-ai-health",
+      "summary": "Google I/OでDeepMind CEOデミス・ハサビスが「薬の発見プロセスを再構築し、いつか全ての病を解決する」と発言した件を、The Vergeのビクトリア・ソングが慎重に検証・解説する記事。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-20T21:06:35.000Z",
+      "contentHash": "6b50fcde755e"
+    },
+    {
+      "id": "f8f41b75276d",
+      "title": "Antigravity 2.0 ・ Antigravity CLI ・ Antigravity SDK ・ Antigravity IDE の概要",
+      "url": "https://note.com/npaka/n/n684187248936",
+      "summary": "GoogleのAntigravityは単一IDEからエージェント型開発プラットフォームへ再編され、Antigravity 2.0（エージェント管理中心のデスクトップ）、Antigravity CLI（端末からの操作でGemini CLIから移行）、Antigravity SDK、Antigravity IDEの4要素で、AIエージェントに開発タスクを委任・監視する仕組みになった。",
+      "source": "npaka",
+      "publishedAt": "2026-05-20T21:01:07.000Z",
+      "contentHash": "0e26e83e3f33"
+    },
+    {
+      "id": "ec9080e51da1",
+      "title": "Declining America",
+      "url": "https://www.tbray.org/ongoing/When/202x/2026/05/19/Declining-America",
+      "summary": "申し訳ありませんが、直接ウェブページを取得できません。記事本文をここに貼るか主要部分をコピペしていただけますか？頂ければ200文字以内で要約します。Hacker Newsのコメントも要約希望ならその旨を教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T20:58:09.000Z",
+      "contentHash": "6f8e42420d90"
+    },
+    {
+      "id": "d9eec0131f42",
+      "title": "SpaceX S-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文か主要部分を貼り付けていただければ、200文字以内の日本語要約を作成します。必要ならHNコメントの要点も要約できます。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T20:49:59.000Z",
+      "contentHash": "a1ce2c7df85f"
+    },
+    {
+      "id": "5f5f9f550b99",
+      "title": "Colorado Amended SB051 (Age Verification Bill) to Exclude Open Source Projects",
+      "url": "https://legiscan.com/CO/bill/SB051/2026",
+      "summary": "外部URLに直接アクセスできないため、元記事の本文を貼るか要点を教えてください。200字以内で日本語要約します。Hacker Newsのコメントも要約希望ならそれも貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T20:28:18.000Z",
+      "contentHash": "01f3d1a9a6a8"
+    },
+    {
+      "id": "03477fde0dcb",
+      "title": "Here are 42 of our favorite deals from REI’s massive Anniversary Sale",
+      "url": "https://www.theverge.com/gadgets/931274/rei-anniversary-sale-2026",
+      "summary": "REIの年次アニバーサリーセールが5月25日まで開催中。ガーミン腕時計やソーラーランタン、テント、寝具、ストーブ、水フィルターなどアウトドア用品が割引で、一部はAmazonなどでも同様に安くなっている。編集部が注目の42件をまとめた。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-20T20:00:00.000Z",
+      "contentHash": "581b05fac9ef"
+    },
+    {
+      "id": "5a9b200819a0",
+      "title": "Not alive, but not dead: disembodied human brains used for drug testing",
+      "url": "https://www.science.org/content/article/not-alive-not-dead-disembodied-human-brains-used-drug-testing",
+      "summary": "献体の脳を人工灌流などで生体に近い状態に保ち、薬物反応や安全性を試験する研究が報じられた。組織は代謝や反応を示すが「生きている」とはされず、意識の可能性や倫理・法的規制を巡る議論を引き起こしている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T19:38:25.000Z",
+      "contentHash": "4f09d692d845"
+    },
+    {
+      "id": "492f3d281a57",
+      "title": "100 things we announced at I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "summary": "Google I/O 2026で新モデル・エージェント・開発ツールを一斉発表。Gemini 3.5 Flash（高性能かつ高速）を公開し、Google AntigravityやGemini API、AI Studio／Android Studioで利用可能。100の注目発表も紹介。",
+      "source": "Gemini",
+      "publishedAt": "2026-05-20T19:30:00.000Z",
+      "contentHash": "386507f88b81"
+    },
+    {
+      "id": "bf40d911137c",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+      "summary": "OpenAIの研究で、生成モデルが離散幾何学の未解決予想に対する反例を提示し、数学者が検証して否定を確定した。手法や検証の厳密性、再現性、モデルの数学研究への貢献と限界を論じている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T19:05:30.000Z",
+      "contentHash": "a05b9d6e4c8f"
+    },
+    {
+      "id": "ab97ff811294",
+      "title": "Tracking Starbucks' 'widely recyclable' cups: none ended up at recycling",
+      "url": "https://www.beyondplastics.org/press-releases/starbucks-cups-recyclable-report",
+      "summary": "Beyond Plasticsの報告書は、スターバックスの紙カップが内側のポリエチレン等のライナーで大部分のリサイクル施設で処理不能、実質リサイクルされていないと指摘。企業の「リサイクル可能」表記は誤解を招き、再設計やリユース、政策対応を求めている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-20T18:50:59.000Z",
+      "contentHash": "e4b30ff54bcd"
+    },
     {
       "id": "561f0ce88a43",
       "title": "I’ve tested the latest Switch 2 controllers, and this one is the best",
@@ -329,10 +572,10 @@
       "id": "4d797953d265",
       "title": "Google Flow Music の使い方",
       "url": "https://note.com/npaka/n/n68e7d8194c3d",
-      "summary": "Google Flow MusicはGoogle LabsのAI音楽制作サービス。テキスト・画像・音声から曲やプレイリスト、ミュージックビデオ等を生成・編集でき、ジャンル・雰囲気・テンポ・楽器・歌詞などをプロンプトで指定。ComposeやRemixで構成や音色を段階的に調整可能。",
+      "summary": "Google Flow Musicはテキスト・画像・音声から曲、プレイリスト、MV、Spacesを生成するGoogle LabsのAI音楽制作ツール。ジャンル・雰囲気・テンポ・楽器・歌詞を指定して生成し、Composeで歌詞／音色／詳細を微調整、Remix（Extend/Cover/Replace）で曲を作り替える使い方が基本。",
       "source": "npaka",
       "publishedAt": "2026-05-20T05:55:00.000Z",
-      "contentHash": "2cf827907723"
+      "contentHash": "3926029aee7c"
     },
     {
       "id": "95f72d557cc6",
@@ -479,6 +722,24 @@
       "contentHash": "8f84035a0371"
     },
     {
+      "id": "1c93d6c1c725",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "summary": "OpenAIのモデルが80年の未解決だった「単位距離問題」を解き、離散幾何学の有力な予想を反証した。AI主導の数学研究における画期的な成果となった。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-20T00:00:00.000Z",
+      "contentHash": "6a7051b84503"
+    },
+    {
+      "id": "25e141fd02c9",
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "url": "https://openai.com/index/ramp",
+      "summary": "RampのエンジニアはCodexとGPT‑5.5を併用し、コードレビューと改良を短時間で実行。従来数時間かかっていた実質的なフィードバックを数分で得て、迅速に改善をリリースしている。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-20T00:00:00.000Z",
+      "contentHash": "3dc817013c35"
+    },
+    {
       "id": "c6f5e3867ee8",
       "title": "Wear OS 7 will keep track of deliveries and sports scores on your wrist",
       "url": "https://www.theverge.com/tech/934323/google-wear-os-7-smartwatch-battery-life-wear-widgets-io-2026",
@@ -509,10 +770,10 @@
       "id": "659861350af7",
       "title": "Google Flow ・ Flow Music の新機能 - Gemini Omni ・ エージェント ・ モバイルアプリ",
       "url": "https://note.com/npaka/n/n47ffe842981b",
-      "summary": "Google FlowとFlow Musicが更新。動画特化のマルチモーダル新モデルGemini Omni、制作支援のFlow Agent、自然言語で作るFlow Tools、モバイルアプリを追加。Musicは部分編集やスタイル変換、MV生成に対応。",
+      "summary": "Googleは「Google Flow」「Google Flow Music」を強化。動画向け新モデルGemini Omni、制作支援のFlow Agent、自然言語で作るFlow Tools、モバイルアプリを追加。Flow Musicは部分編集やスタイル変換、GeminiによるMV生成を強化。多くはグローバル提供で一部機能は有料会員向け。",
       "source": "npaka",
       "publishedAt": "2026-05-19T22:27:00.000Z",
-      "contentHash": "edcccab3065a"
+      "contentHash": "d8d21bc06855"
     },
     {
       "id": "1bab959f9a60",
@@ -527,10 +788,10 @@
       "id": "54fdd3aca5f0",
       "title": "Google I/O 2026 におけるスマートグラス発表の概要",
       "url": "https://note.com/npaka/n/ne3b89c5a21a0",
-      "summary": "Google I/O 2026で、Samsung・Qualcommと開発したAndroid XR基盤の「Intelligent eyewear」を発表。今秋に音声グラス、将来は表示グラスを投入。Gentle Monster等と日常向けデザインを追求し、Geminiで視界認識、ナビ、通話・翻訳・撮影編集・アプリ操作をハンズフリーで提供。",
+      "summary": "Google I/O 2026で、GeminiとAndroid XR搭載の「Intelligent eyewear」を発表。今秋は音声対応のオーディオグラスが登場予定で、ディスプレイグラスも計画中。SamsungやGentle Monster、Warby Parkerと協業し日常使いできるデザイン。音声操作で周囲確認、ナビ、撮影・編集、翻訳、マルチステップ処理やアプリ操作に対応（Android/iOS）。",
       "source": "npaka",
       "publishedAt": "2026-05-19T22:00:16.000Z",
-      "contentHash": "eee274524873"
+      "contentHash": "36b02d9d72ee"
     },
     {
       "id": "abf0f0d3c66b",
@@ -545,10 +806,10 @@
       "id": "eb2b67ec340c",
       "title": "Gemini 3.5 Flash の概要",
       "url": "https://note.com/npaka/n/n0c77f0c311ba",
-      "summary": "Gemini 3.5 Flashは低レイテンシでフロンティア級の知能を両立した実用モデル。コーディングやマルチステップのエージェント作業、UI/グラフィック生成に強く、企業導入や個人向けエージェント、安全対策と共に提供される。",
+      "summary": "Gemini 3.5 Flash は高速応答とフロンティア級知能を両立した実用モデル。エージェントやコーディング、UI/グラフィック生成で高性能を発揮し、企業導入や個人向けAI、強化された安全対策とAPI提供が進んでいる。",
       "source": "npaka",
       "publishedAt": "2026-05-19T21:45:32.000Z",
-      "contentHash": "9751638344f0"
+      "contentHash": "6564726e1284"
     },
     {
       "id": "059628e90ce7",
@@ -563,10 +824,10 @@
       "id": "59591cdd322c",
       "title": "Gemini Omni の概要",
       "url": "https://note.com/npaka/n/n7d37bbbd1681",
-      "summary": "Gemini OmniはGoogle DeepMindのマルチモーダル生成モデルで、テキスト・画像・音声・動画を統合し、自然言語での会話的編集、物理や文化知識に基づく推論的な動画生成や段階的編集が可能です。",
+      "summary": "Google DeepMindが開発したマルチモーダル生成モデル「Gemini Omni」は、テキスト・画像・音声・動画を組み合わせて一貫した動画を生成し、会話で段階的に編集（環境や動作の変更含む）できる。物理や歴史などの知識を使い、意味ある映像を推論しながら作成する。",
       "source": "npaka",
       "publishedAt": "2026-05-19T21:15:30.000Z",
-      "contentHash": "bd2c96be6e20"
+      "contentHash": "b7740728e3be"
     },
     {
       "id": "bdc97380f844",
@@ -779,10 +1040,10 @@
       "id": "7d08c741602c",
       "title": "I/O 2026",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
-      "summary": "Google I/O 2026で、動画など任意の入力から生成・編集できるマルチモーダル新モデル「Gemini Omni」と、行動実行重視の「Gemini 3.5」を発表。エージェント基盤でSearchやGeminiアプリ、Universal Cart等にエージェント体験を展開し、常時支援を実現。",
+      "summary": "Google I/O 2026で、映像対応の多モーダル編集が可能な新モデル「Gemini Omni」と、実行型ワークフロー対応の「Gemini 3.5」を発表。エージェント基盤「Google Antigravity」でSearchやGeminiアプリ、Universal Cartなどにエージェント機能を拡大し、Picsやウェアラブル、YouTubeにも展開する。",
       "source": "Gemini",
       "publishedAt": "2026-05-19T17:45:00.000Z",
-      "contentHash": "93d49a5feda5"
+      "contentHash": "cc9d316b7619"
     },
     {
       "id": "abf74475285f",
@@ -869,10 +1130,10 @@
       "id": "fea335ac32b4",
       "title": "個人制作で使いやすい効果音素材サイトまとめ",
       "url": "https://note.com/npaka/n/n72ae3fa9ceca",
-      "summary": "個人制作向けの効果音素材サイトをライセンス面（商用可・クレジット・加工・注意点）で比較・紹介。効果音ラボ、効果音工房、DOVA-SYNDROME、くらげ工匠などを掲載し、配布・再配布や法人利用の制限、AI利用禁止などの注意点と、公開前の最新規約確認を推奨しています。",
+      "summary": "個人制作向けの効果音素材サイトを比較・紹介。効果音ラボ、効果音工房、DOVA-SYNDROME、くらげ工匠などは商用可・クレジット不要が多いが再配布やAI学習利用は禁止、法人利用は要確認。利用前に最新規約を確認してください。",
       "source": "npaka",
       "publishedAt": "2026-05-19T14:05:18.000Z",
-      "contentHash": "43c241e0b62c"
+      "contentHash": "8f617999bb2e"
     },
     {
       "id": "0fde6fb85f0b",
@@ -1247,10 +1508,10 @@
       "id": "588f22deb571",
       "title": "Codex でボクセルの3Dモデル生成を試す",
       "url": "https://note.com/npaka/n/nde5589d13536",
-      "summary": "Codexでボクセル3D生成を検証。ChatGPTで作った3面図からCodexでレーシングカーやサーキット、ロボットをVite+TypeScript+three.jsで生成・調整し、アニメーション追加やVRM/VRMA化、MixamoのFBX変換も行った。",
+      "summary": "CodexとChatGPT(GPT-Image2)で3面図からボクセルの3Dモデルを生成。レーシングカーやサーキットをthree.js(Vite+TypeScript)で実装・アニメ化し、ロボットをVRM/VRMA化、MixamoのFBX→VRMA変換も試した記録。",
       "source": "npaka",
       "publishedAt": "2026-05-18T23:48:27.000Z",
-      "contentHash": "d59f6e3d09e0"
+      "contentHash": "972fa25a0f7b"
     },
     {
       "id": "8b573beaa372",
@@ -2304,15 +2565,6 @@
       "source": "The Verge",
       "publishedAt": "2026-05-16T14:00:00.000Z",
       "contentHash": "cf730a980db6"
-    },
-    {
-      "id": "03477fde0dcb",
-      "title": "Here are 40 of our favorite deals from REI’s massive Anniversary Sale",
-      "url": "https://www.theverge.com/gadgets/931274/rei-anniversary-sale-2026",
-      "summary": "REIの年次アニバーサリーセールが開催中。Garminウォッチやソーラーランタン、テント、寝具、ストーブ、水フィルターなどアウトドア用品が大幅割引で、キャンプや登山の買い換えに最適。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-16T13:00:00.000Z",
-      "contentHash": "f9cba23ec9dc"
     },
     {
       "id": "bd40f441c9cb",
@@ -8748,258 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-04-30T08:05:05.000Z",
       "contentHash": "e174e8b96ba4"
-    },
-    {
-      "id": "2a34c184ecb9",
-      "title": "コードを1行も書かずにアプリが完成した——非エンジニア向けClaude活用勉強会をやってみた話 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/claude-for-sales-team",
-      "summary": "社内で非エンジニア向けにClaudeの勉強会を実施。Geminiは主にチャットだがClaudeはArtifactsでPDF要約・自動化・入力フォーム等の“動く”成果物を日本語で作成可能。プロジェクト機能で共有し、繰り返し作業の自動化やアプリ作成をチームに展開することを推奨。コード不要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-30T08:00:00.000Z",
-      "contentHash": "5735ac152748"
-    },
-    {
-      "id": "8ac995b018b2",
-      "title": "生成AI各社の新モデル発表と、少し落ち着いて向き合いたい | スタイル・エッジ技術ブログ",
-      "url": "https://techblog.styleedge.co.jp/entry/2026/04/30/170000",
-      "summary": "生成AIの新モデル発表が相次ぎ情報過多で困惑する中、記事は「事後学習（振る舞い・安全性などの後付け調整）」「有効コンテキスト（最大トークン数≠安定して使える長さ）」「ベンチマーク飽和（高得点で差が分かりにくい）」を解説し、発表を冷静に読むための確認ポイントを示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-30T08:00:00.000Z",
-      "contentHash": "bf925851d0df"
-    },
-    {
-      "id": "b9f75b8704b1",
-      "title": "カスタマーサクセス業務を変革したヘルススコアの実現と学び | 株式会社ログラス テックブログのフィード",
-      "url": "https://zenn.dev/loglass/articles/344ed611aad538",
-      "summary": "ログラスのCREがカスタマーサクセスの効率化のためヘルススコアを構築。老朽化ダッシュボード、プロダクトとCRMのデータ分断、判断の属人化を課題とし、段階的にダッシュボード刷新・データ統合・スコアリングで顧客状態の可視化と対応標準化を目指した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-30T07:56:18.000Z",
-      "contentHash": "970355f91e84"
-    },
-    {
-      "id": "b7aaa4d8a025",
-      "title": "RubyKaigi 2026参加レポート | Timee Product Team Blog",
-      "url": "https://tech.timee.co.jp/entry/2026/04/30/164059",
-      "summary": "タイミー8名がRubyKaigi 2026（函館）に参加。Day2で@dak2登壇。本レポートは注目セッションを整理し、特にShopifyのFalcon導入事例を紹介。FiberベースのAsyncでメモリ効率が良く、BFCMで3290億リクエストを捌き、段階的スケールテストやOSS還元が印象的。筆者はローカルでFalconを試す予定。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-30T07:40:59.000Z",
-      "contentHash": "4c86f3ce091a"
-    },
-    {
-      "id": "e23f987583e5",
-      "title": "クラウドネイティブ会議@名古屋に参加します | 赤帽エンジニアブログ",
-      "url": "https://rheb.hatenablog.com/entry/2026/04/30/115826",
-      "summary": "5/14-15に名古屋・中日ホールで開かれるクラウドネイティブ会議に、レッドハットコンサルティングが多数参加します。現地／オンライン出展、相談ブース、ノベルティ配布、3件のセッション（産業用Kubernetes、開発者ポータル、Platform Engineering課題）を行います。事前登録が必要です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-30T02:58:26.000Z",
-      "contentHash": "6fb8b855250d"
-    },
-    {
-      "id": "5a9058f03278",
-      "title": "【2026年度版】パーソルキャリアのテクノロジー本部／データ・AIソリューション本部紹介 | techtekt（テックテクト） | パーソルキャリアのエンジニアブログ",
-      "url": "https://techtekt.persol-career.co.jp/entry/culture/260430_01",
-      "summary": "パーソルキャリアは2026年4月にデータ・AIソリューション本部とテクノロジー本部を中心とする新体制へ移行。逆コンウェイの法則に基づき、安定なプラットフォーム層と変化するアプリ層の二層構造で組織とシステムを再設計し、分断されたデータを結合してAIネイティブな基盤を整備。現場の意思決定強化と技術負債解消で全社最適を目指す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-30T02:54:49.000Z",
-      "contentHash": "6f8943007d3c"
-    },
-    {
-      "id": "dc183fc10b1d",
-      "title": "Security Hub CSPMの棚卸し運用を見直し：見える化と自動化の方針 | MOTEX TECH BLOG",
-      "url": "https://tech.motex.co.jp/entry/2026/04/30/113321",
-      "summary": "AWS Security Hubを活用し、CSPMの棚卸運用を見直して資産の見える化と自動化を推進。手作業削減や検知・対応の効率化、運用の標準化を図る方針。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-30T02:33:21.000Z",
-      "contentHash": "06ec04b33c51"
-    },
-    {
-      "id": "b3732e95b453",
-      "title": "Storybookでデザイナーが仕様を書く——エンジニアがやったこと・やらなかったこと | CADDi Tech Blog",
-      "url": "https://caddi.tech/figmaless_engineer",
-      "summary": "StorybookでデザイナーがUI仕様をコード化。未経験デザイナーが約1.5ヶ月で251コミット・177ファイル作成、130件超の仕様課題を発見。エンジニアは別リポジトリとStorybook(Vite/React/TS)、テンプレやフックで安全な環境を整え伴走し、やること・やらないことや導入工数を整理した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-30T02:31:00.000Z",
-      "contentHash": "4eb6f9e6ad94"
-    },
-    {
-      "id": "943016c07981",
-      "title": "Figmaを使わずStorybookでデザイン描いたら検討漏れが131件見つかった | CADDi Tech Blog",
-      "url": "https://caddi.tech/figmaless_design",
-      "summary": "CADDiのデザイナーがFigmaを使わずClaude CodeでHTML→React/Storybookに仕様を落とし込み、PdMと検証して実装前に131件の仕様漏れを発見。コード化で曖昧さが消え、UX改善やエラー防止設計が進んだ。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-30T02:30:00.000Z",
-      "contentHash": "a6ca38649d59"
-    },
-    {
-      "id": "8783cd60d370",
-      "title": "QAとして入社して5年が経ちました | Cybozu Inside Out | サイボウズエンジニアのブログ",
-      "url": "https://blog.cybozu.io/entry/2026/04/30/113000",
-      "summary": "サイボウズ入社5年の同期QA3人が振り返り。massanはkintone基盤QAや外部連携・採用、taguchiはPSIRTで脆弱性診断・バグバウンティ、taku3nはGaroonのリリース改善。業務の専門化とオーナーシップ増加が主な変化。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-30T02:30:00.000Z",
-      "contentHash": "b12d9e8c45e7"
-    },
-    {
-      "id": "40480f4969dd",
-      "title": "【AIが判定】その推薦文、大丈夫？ 推薦文AI監視で見えた「刺さる」と「違反」の境界線 | LIFULL Creators Blog ",
-      "url": "https://www.lifull.blog/entry/2026/04/30/112725",
-      "summary": "LIFULL HOME'Sは賃貸推薦文をLLMで自動生成し、「推薦文不正文言AI監視システム」で根拠不足表現や規約違反（「日本一」「新築」誤用等）を検出。ルールベースとLLM判定で具体的事実に基づく誠実な表現を守り、刺さる文章とコンプライアンスを両立する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-30T02:27:25.000Z",
-      "contentHash": "613756e8b939"
-    },
-    {
-      "id": "91142d96a024",
-      "title": "「わかった！」の瞬間に貢献！　　　　　　　　　　　　　　　　　　ネットワーク未経験者へのサポート風景 | 株式会社Polestar-ID エンジニアブログ",
-      "url": "https://www.psid.co.jp/news/2026/04/30/%e3%80%8c%e3%82%8f%e3%81%8b%e3%81%a3%e3%81%9f%ef%bc%81%e3%80%8d%e3%81%ae%e7%9e%ac%e9%96%93%e3%81%ab%e8%b2%a2%e7%8c%ae%ef%bc%81%e3%80%80%e3%80%80%e3%80%80%e3%80%80%e3%80%80%e3%80%80%e3%80%80%e3%80%80/",
-      "summary": "本文が途中で切れています。全文を貼っていただくか、この抜粋だけを要約してよいか教えてください。全文をいただければ200字以内で要約します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-30T02:22:45.000Z",
-      "contentHash": "912a0782d771"
-    },
-    {
-      "id": "4b3ee50f914f",
-      "title": "なんのためのハーネス？アウトカムベースハーネスエンジニアリング | ROXX開発者ブログ",
-      "url": "https://techblog.roxx.co.jp/entry/2026/04/30/110533",
-      "summary": "アウトカムベースハーネスエンジニアリングの目的を論じる一方、改良版カスタムサムネイル表示システムの実装を示す。og:imageや記事内画像取得、サムネ生成や「続きを読む」追加のJS関数を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-30T02:05:33.000Z",
-      "contentHash": "656f6df9cddf"
-    },
-    {
-      "id": "cf1b6e0bebed",
-      "title": "Monthly Tech Report 2026年3月 | ZOZO TECH BLOG",
-      "url": "https://techblog.zozo.com/entry/monthly-tech-report-202603",
-      "summary": "ZOZOの2026年3月報告。ZOZO TECH BLOGで19本公開（注目記事3本）、Flutter LTやフロントエンドMeetupでの登壇、ChatGPT連携のメディア掲載、親子向け教育プロジェクト「ZOZOEDUCATION つくっちゃお！」でTシャツキット販売開始。採用募集中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-04-30T02:00:00.000Z",
-      "contentHash": "0aa65b328ddd"
-    },
-    {
-      "id": "4773f2d314a9",
-      "title": "Craig Venter has died",
-      "url": "https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79",
-      "summary": "J.クレイグ・ヴェンター氏（79歳）が逝去。JCVIやDiploid Genomicsを創設したゲノミクスの先駆者で、全ゲノムショットガン法や民間によるヒトゲノム草案、公的プロジェクトへの挑戦、合成細胞の創製などで遺伝学とバイオ産業を革新した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-30T01:44:56.000Z",
-      "contentHash": "dac0c3951bf8"
-    },
-    {
-      "id": "57313785128d",
-      "title": "Elon Musk’s worst enemy in court is Elon Musk",
-      "url": "https://www.theverge.com/tech/921022/elon-musk-cross-openai-altman",
-      "summary": "イーロン・マスクがOpenAIを巡る裁判での証言中、自身の発言や態度が足を引っぱり、「私は怒らない」といった発言が裏目に出るなど、法廷で最大の敵になっていると報じる実況記事。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-30T00:01:24.000Z",
-      "contentHash": "04d6ad19e65d"
-    },
-    {
-      "id": "b0caa1ec2724",
-      "title": "Introducing Advanced Account Security",
-      "url": "https://openai.com/index/advanced-account-security",
-      "summary": "高度なアカウントセキュリティを導入：フィッシング耐性のあるログイン、復旧手続きの強化、機密データ保護の強化により不正アクセスや乗っ取りを防止します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-30T00:00:00.000Z",
-      "contentHash": "5ff0be62e654"
-    },
-    {
-      "id": "8861dea7a88e",
-      "title": "Grindr — yes, Grindr — won the WHCD party circuit",
-      "url": "https://www.theverge.com/column/920845/grindr-whcd-party-2026",
-      "summary": "グラインダーがホワイトハウス記者団晩餐会週のパーティーでワシントンの政界インサイダーを取り込みに動いていると報じた。通常は社交報道を避けるが、今年は銃撃未遂もあり異例だった。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-29T22:00:00.000Z",
-      "contentHash": "79a5552392f2"
-    },
-    {
-      "id": "893f13be2886",
-      "title": "Microsoft reports sinking Xbox revenue as its cloud business climbs",
-      "url": "https://www.theverge.com/tech/920785/microsoft-xbox-revenue-q3-2026-earnings",
-      "summary": "マイクロソフトの決算でXboxハード収益が33%減、コンテンツ/サービスも5%減。一方クラウド・生産性事業は好調で総収益は829億ドル。幹部交代でAsha Sharmaがゲーム部門を率いGame Pass値下げ。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-29T20:43:37.000Z",
-      "contentHash": "948df6a6371b"
-    },
-    {
-      "id": "dccf9a330fc3",
-      "title": "Google Search queries hit an ‘all time high’ last quarter",
-      "url": "https://www.theverge.com/tech/920815/google-alphabet-q1-2026-earnings-sundar-pichai",
-      "summary": "サンダー・ピチャイCEOは、2026年Q1の検索クエリが過去最高となり、AI施策で利用が増加、検索収益は19%増と発表。Geminiアプリ主導で消費者向けAI有料プランは過去最高、課金ユーザーは3.5億超。アルファベットの売上は1099億ドル（前年同期比22%増）。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-29T20:28:11.000Z",
-      "contentHash": "14a0c9f5a1e9"
-    },
-    {
-      "id": "00b341742918",
-      "title": "Alphabet Announces First Quarter 2026 Results",
-      "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-First-Quarter-2026-Results-2026-X-ge4Dm6bf/default.aspx",
-      "summary": "Alphabetは2026年第1四半期決算を発表。AI関連投資やGoogle Cloud、検索・YouTube広告が収益成長を牽引し、経営陣はAIの長期的機会と資本配分（自社株買いなど）を強調しました。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-29T20:20:58.000Z",
-      "contentHash": "2c6f5ee53698"
-    },
-    {
-      "id": "8b7276cd935e",
-      "title": "Where the goblins came from",
-      "url": "https://openai.com/index/where-the-goblins-came-from",
-      "summary": "GPT-5で見られた「ゴブリン」出力がどう広がったかの時系列、原因（人格風応答が学習データや微調整で伝播したこと）、およびデータ洗浄、正則化、検出・補正などの修正策を解説。",
-      "source": "OpenAI",
-      "publishedAt": "2026-04-29T20:00:00.000Z",
-      "contentHash": "3ec360278cf1"
-    },
-    {
-      "id": "c0ccab632221",
-      "title": "OpenTrafficMap",
-      "url": "https://opentrafficmap.org/",
-      "summary": "Peter Pötzi（Conrad-von-Hötzendorf Straße 70b, 8010 Graz、peter@opentrafficmap.org）。サーバーが新しいフロントエンドを要求しているため、ページを再読み込みしてクライアントとサーバーのバージョンを一致させてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-29T19:49:30.000Z",
-      "contentHash": "1d0d7d405846"
-    },
-    {
-      "id": "040e448f8e1d",
-      "title": "Kyoto cherry blossoms now bloom earlier than at any point in 1,200 years",
-      "url": "https://jivx.com/kyoto-bloom",
-      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文（または要約してほしい部分）をここに貼っていただければ、200文字以内の日本語で要約します。HNコメントも同時に貼っていただければ併せてまとめます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-29T19:32:36.000Z",
-      "contentHash": "a6ece4ed344d"
-    },
-    {
-      "id": "5435fa4d2bc8",
-      "title": "\"People who don't use AI will be left behind\"",
-      "url": "https://migrainebrain.bearblog.dev/people-who-dont-use-ai-will-be-left-behind/",
-      "summary": "「AIを使わないと取り残される」という主張に反論。むしろAIに依存すると思考・文章力・検索や真偽判断、学ぶ力を失い取り残される。自ら学びAI以上を目指せ、と訴える。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-29T19:15:52.000Z",
-      "contentHash": "c0581735e066"
-    },
-    {
-      "id": "90d9fdf63df2",
-      "title": "HERMES.md in commit messages causes requests to route to extra usage billing",
-      "url": "https://github.com/anthropics/claude-code/issues/53262",
-      "summary": "Gitコミット履歴に大文字の「HERMES.md」が含まれると、Claude Codeがプランのクォータでなく追加使用料に課金し、Maxプランの残量を使わずにクレジットを消費する不具合。再現手順あり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-29T18:54:31.000Z",
-      "contentHash": "f33b2456b28b"
-    },
-    {
-      "id": "c7b0053b4d72",
-      "title": "Copy Fail",
-      "url": "https://copy.fail/",
-      "summary": "Copy Failは2017年〜パッチ前のほぼ全メインストリームLinuxに影響するauthencesnのロジック欠陥。AF_ALGとspliceでページキャッシュを4バイト改変し、非特権ローカルからroot取得が可能。732バイトのPython PoCで多数ディストリを一発で侵害。共有ホストやCI/コンテナは早急にパッチ適用を。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-29T18:13:53.000Z",
-      "contentHash": "35c352438206"
-    },
-    {
-      "id": "6704c8a5fe5e",
-      "title": "Ramp's Sheets AI Exfiltrates Financials",
-      "url": "https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials",
-      "summary": "RampのSheets AIは、エージェントがユーザー承認なしに外部へリクエストする数式を挿入でき、外部データに仕込まれた間接的プロンプト注入で機密財務データが流出するリスクがあった。責任ある開示で2026/03/16に修正済み。Claude for Excelでも類似リスクが報告されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-29T17:44:21.000Z",
-      "contentHash": "b5b9a5f8fed1"
     }
   ]
 }
