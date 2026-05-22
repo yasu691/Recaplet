@@ -1,14 +1,239 @@
 {
-  "generatedAt": "2026-05-21T18:20:28.821Z",
+  "generatedAt": "2026-05-22T04:20:42.612Z",
   "items": [
+    {
+      "id": "eebc4158df3a",
+      "title": "新卒社員向けアジャイル・スクラム研修を体験型で設計した話 | Cybozu Inside Out | サイボウズエンジニアのブログ",
+      "url": "https://blog.cybozu.io/entry/2026/05/22/113000",
+      "summary": "kintone開発のスクラムマスターが新卒6名向けに実施した一日研修を紹介。午前は講義で基礎を押さえ、午後はMiroで遊園地開発の疑似プロジェクトを4スプリント体験。用語理解だけでなく実践的な判断・改善体験を重視し、オンラインでの設計や得られた学び・課題を報告しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T02:30:00.000Z",
+      "contentHash": "cc88de977be4"
+    },
+    {
+      "id": "0ac6e617d0da",
+      "title": "Renovateの設定 | Timee Product Team Blog",
+      "url": "https://tech.timee.co.jp/entry/2026/05/22/112812",
+      "summary": "PythonモノレポでDependabotの大量PRを解消するためRenovateに移行。PRの粒度を制御し、公開直後のバージョン除外やGCP WIFのブランチ長制限回避など、Python+uv向け設定と段階的運用方針を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T02:28:12.000Z",
+      "contentHash": "b95cf7f3175a"
+    },
+    {
+      "id": "ab9a9d82fc4b",
+      "title": "実データx経営直下のスピードで価値を生む製造業AI研究開発 - リサーチエンジニア募集 | CADDi Tech Blog",
+      "url": "https://caddi.tech/2026/05/22/110000",
+      "summary": "キャディが製造業向け2D/3D視覚・マルチモーダルのリサーチエンジニアを募集。製造現場はテクスチャのない純幾何学と物理制約が特徴で汎用VLMは性能不足。実データとドメイン知で迅速に価値創出し、3D理解・2D/3D対応付け・横断検索を重点研究する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T02:00:00.000Z",
+      "contentHash": "59b7216d512b"
+    },
+    {
+      "id": "8c5bac3b7c94",
+      "title": "Devinのスラッシュコマンド入門 — / から始める開発依頼 | 弥生開発者ブログ",
+      "url": "https://tech-blog.yayoi-kk.co.jp/entry/2026/05/22/110000",
+      "summary": "Devinは自律AIエージェント。/で起動するスラッシュコマンド（組み込み、Skill、カスタム）で開発を効率化。/planで設計・分解してIssueへ反映→/implement→/review,/testなどの流れとSlack連携が推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T02:00:00.000Z",
+      "contentHash": "fc538d255b9f"
+    },
+    {
+      "id": "fa850d802101",
+      "title": "マイクロサービスプラットフォームを EKS から ECS に移行しました | 東京ガス内製開発チーム Tech Blog",
+      "url": "https://tech-blog.tokyo-gas.co.jp/entry/2026/05/22/105548",
+      "summary": "東京ガスのマイクロサービス基盤を、運用負荷と学習コストを軽減するため2025年11月にEKSからECS/Fargateへ移行。少人数体制でのEKSの頻繁なバージョン対応や過剰設計を課題とし、機能要件と将来影響を確認の上で決定しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T01:55:48.000Z",
+      "contentHash": "dbb39a32e5d1"
+    },
+    {
+      "id": "007c455945ab",
+      "title": "Flutter 3.41 へのアップデートで対応したことまとめ（SceneDelegate移行・依存競合解消など） | SODA Engineering Blogのフィード",
+      "url": "https://zenn.dev/team_soda/articles/71c65311aec7d5",
+      "summary": "スニーカーダンクをFlutter 3.35.2→3.41.4に更新。主な対応はiOSのAppDelegate→UISceneDelegate移行、Dart 3.10による型厳格化対応でのプラグイン更新（keyboard_actions等）、asdf/FVM更新やプッシュ通知対応、podバージョン固定、MinimumOSVersion調整などです。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T01:45:05.000Z",
+      "contentHash": "781cb195bf71"
+    },
+    {
+      "id": "8493c2ee8989",
+      "title": "Azure BatchにおけるWindows並列処理基盤の最適化 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/967c05149d2969",
+      "summary": "Azure BatchでのWindows並列処理構築で、StartTaskは日本語言語パック等の導入で約70分かかり非現実的。手動イメージは高負荷でノードがクラッシュしタスク再実行を招いたため、Azure VM Image BuilderとPowerShellスクリプトで自動化・安定化し、言語パックを効率的に抽出・適用する方式へ移行した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T01:39:05.000Z",
+      "contentHash": "a2993eb8bd7f"
+    },
+    {
+      "id": "6ff6f48d4d31",
+      "title": "【Datadog Live Tokyo 2026】AIが人をつなぐ、オブザーバビリティ文化の深化～Datadog現場の最前線 | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/05/22/101753",
+      "summary": "Datadog Live Tokyo 2026参加レポ。自社のDatadog導入支援・教育でEnablement Excellence受賞。JALは全社標準化でサイロ解消、フリーはAIAgentでアラート対応を約83%短縮し、AIとオブザーバビリティで運用と組織をつなぐ事例が紹介された。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T01:17:53.000Z",
+      "contentHash": "91028f2cef11"
+    },
+    {
+      "id": "d18f76e04e04",
+      "title": "外国株とPMO | MONEX ENGINEER BLOG │マネックス エンジニアブログ",
+      "url": "https://blog.tech-monex.com/entry/2026/05/22/101331",
+      "summary": "外国株領域でのPMOは、法規制や時差・言語を越え米国拠点と連携し、リスク検知・リカバリ、品質管理、日米調整を行うプロジェクト成功のハブ。グローバル業務、ビジネスと技術の橋渡し、自律的に仕組みを創る面白さがあり、不確実性を楽しめる人材を募集。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T01:13:31.000Z",
+      "contentHash": "6626ed949097"
+    },
+    {
+      "id": "69a8a7f530fc",
+      "title": "The IBM-ification of Google?",
+      "url": "https://zeroshot.bearblog.dev/google-is-shattering-under-its-own-weight-the-ibm-ification-of-google/",
+      "summary": "かつて垂直統合は強みだったが、RailwayのGCP一方的停止に象徴される自動化された運用とサポート欠如で企業の信頼を失い、価格競争力も乏しい。製品廃止癖やAI要約で外部コンテンツを剥ぎ取りリンクしない点も問題視される。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-21T23:30:10.000Z",
+      "contentHash": "303a772ffdc6"
+    },
+    {
+      "id": "4f0d65a1a735",
+      "title": "Anker’s new earbuds are the first with its AI chip that boosts noise reduction",
+      "url": "https://www.theverge.com/tech/934621/anker-liberty-5-pro-max-wireless-headphones-earbuds-ai-thus-chip",
+      "summary": "AnkerがThus AIチップ搭載の新イヤホン「Liberty 5 Pro/Pro Max」を発表。AIでノイズ低減と通話音声を強化。Maxは大型タッチ画面や本体で会議録音可能。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-21T23:00:00.000Z",
+      "contentHash": "77f28788cefe"
+    },
+    {
+      "id": "49e71850c6ab",
+      "title": "Anker’s new earbuds have the best call quality I’ve ever heard",
+      "url": "https://www.theverge.com/tech/935766/soundcore-liberty-5-pro-series-earbuds-review",
+      "summary": "AnkerのSoundcore新イヤホン「Liberty 5 Pro/5 Pro Max」は新開発のThusチップで処理能力を強化し、AppleやSonyなど上位製品と競う性能に。特に通話時のノイズキャンセルはこれまでで最高水準と評価された。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-21T23:00:00.000Z",
+      "contentHash": "d3ad1f88a539"
+    },
+    {
+      "id": "c61bab870c46",
+      "title": "States ask judge to break up Live Nation-Ticketmaster",
+      "url": "https://www.theverge.com/policy/935735/live-nation-ticketmaster-states-remedies-request-break-up",
+      "summary": "連邦裁判所に対し30州超がライブ・ネイション＝チケットマスターの売却や主要野外会場の切り離し、残存施設利用を自社プロモーション利用と結び付ける制限を命じるよう要請。要請は司法省の和解案を超える。4月に陪審は同社を違法な独占と認定。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-21T22:27:03.000Z",
+      "contentHash": "86c68e8020b6"
+    },
+    {
+      "id": "60968eec1af2",
+      "title": "The memory shortage is causing a repricing of consumer electronics",
+      "url": "https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone",
+      "summary": "AIによるメモリ需要増で部品価格が上昇し、格安スマホ時代が終わりつつある。数十年で激安化した携帯が値上げ・出荷減（2026年は世界で約13％減、特にアフリカ・中東で顕著）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-21T21:55:56.000Z",
+      "contentHash": "fb8ef860f9d7"
+    },
+    {
+      "id": "78046019b0a9",
+      "title": "Uv is fantastic, but its package management UX is a mess",
+      "url": "https://www.loopwerk.io/articles/2026/uv-ux-mess/",
+      "summary": "uvは高速で便利だが、パッケージ管理のUXが不十分。古い依存を調べるコマンドが冗長（uv tree --outdated --depth 1）で出力も長く探しにくい。Poetryは幾分改善するが完璧でなく、さらにuvは既定のバージョン制約が安全でない点が問題（pnpm/Poetryは^や範囲指定でメジャー更新を防ぐ）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-21T20:56:36.000Z",
+      "contentHash": "7b3552cbb5ad"
+    },
+    {
+      "id": "41c83ec293ad",
+      "title": "All of the updates from Elon Musk and Sam Altman’s battle over OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "summary": "2024年、イーロン・マスクがOpenAIが設立目的を放棄し利益優先に転じたとしてアルトマンらを提訴。約1か月の審理で多人が証言したが、陪審は時効を理由に全訴えを却下。マスクは経営陣排除と公益法人解消を求めていた。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-21T20:15:18.000Z",
+      "contentHash": "2eb45ed06c73"
+    },
+    {
+      "id": "bfc286c26d54",
+      "title": "Firefox is working on a rounded redesign with easy-to-find controls for privacy and AI",
+      "url": "https://www.theverge.com/tech/935631/firefox-project-nova-redesign",
+      "summary": "Firefoxは「Project Nova」で丸みのあるUIやバブル状タブ、色・アイコンを刷新し、設定を再設計。現在・将来のAI機能を一括で無効化するスイッチやコンパクトモード復活などを今年後半に導入予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-21T20:05:09.000Z",
+      "contentHash": "6ae01eaa7552"
+    },
+    {
+      "id": "bfd75013c163",
+      "title": "In desperate times, graduates find hope in humiliating tech CEOs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/935602/graduates-boo-ai-ceos",
+      "summary": "2026年、卒業式で学生がAIを礼賛する大手幹部（例：エリック・シュミット）に大ブーイング。AIを「避けられない」と語る経営側に対し、雇用不安や傲慢さへの反発が噴出。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-21T20:00:06.000Z",
+      "contentHash": "48b0283282be"
+    },
+    {
+      "id": "1aeb2e05e760",
+      "title": "Who gets to own the Luigi Mangione story?",
+      "url": "https://www.theverge.com/news/935598/luigi-mangione-new-york-case-press-credentials-supporters",
+      "summary": "ルイージ・マンジオーネ被告（ユナイテッド・ヘルスケアCEOブライアン・トンプソン殺害容疑）の予審で、支持者がNY市発行の記者証を携えて出席。誰が事件の物語を所有するかが問題になっている。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-21T19:51:22.000Z",
+      "contentHash": "9230d424a275"
+    },
+    {
+      "id": "bfabe6cc845f",
+      "title": "Philips’ new display has a screen on both sides",
+      "url": "https://www.theverge.com/tech/935477/philips-business-monitor-dual-sided-lcd-display-24b2d5300",
+      "summary": "フィリップスの24B2D5300は前後両面に画面を備え、同時にミラー表示または別々の表示が可能なデュアルサイド業務用モニタ。受付や営業、診察など対面用途向けで、来月欧州で£359.99（英国・アイルランド掲載）、その他地域は未定。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-21T19:36:00.000Z",
+      "contentHash": "a995ae93c30a"
+    },
+    {
+      "id": "78f411ae4c2e",
+      "title": "Using Kagi Search with Low Vision",
+      "url": "https://veroniiiica.com/using-kagi-search-with-low-vision/",
+      "summary": "検索結果の視覚的な乱雑さ（AI要約や低品質コンテンツ、広告、自動再生など）で視覚疲労が悪化。テキスト読み上げでも不便だったが、有料で広告なし・カスタマイズ可能なKagiに替えると視認性が劇的に改善し集中できた。スポンサーではない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-21T19:32:16.000Z",
+      "contentHash": "4bed9292bbae"
+    },
+    {
+      "id": "eec1bd5cdabc",
+      "title": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
+      "url": "https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/",
+      "summary": "10年近くUbuntu 16.04で運用していたブログを、EOLや更新リスクを理由にFreeBSDへ移行した記録。データ移行やサービス再構築の手間はあったが、FreeBSDの一貫したベースシステム、安定性、管理のしやすさに満足したという内容。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-21T18:54:55.000Z",
+      "contentHash": "5b41371706c4"
+    },
+    {
+      "id": "4be06cea8aa9",
+      "title": "One of Meta’s big legal reckonings just ended in a settlement",
+      "url": "https://www.theverge.com/policy/935552/meta-youtube-tiktok-snap-school-district-settlement",
+      "summary": "メタがケンタッキー州Breathitt郡学区の、SNSが青少年のメンタルヘルス被害に対処する費用請求訴訟で和解。YouTube、Snap、TikTokも和解済みで、MDLの先導裁判は中止。多くの訴訟は継続中。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-21T18:54:22.000Z",
+      "contentHash": "64c900ec7531"
+    },
+    {
+      "id": "cb29889f1952",
+      "title": "BBEdit 16",
+      "url": "https://www.barebones.com/products/bbedit/bbedit16.html",
+      "summary": "BBEdit 16は100以上の新機能と大幅な性能改善を含む更新。App IntentsでShortcutsからのテキスト変換、画像内テキスト検索（複数ファイル・grep対応）、プロジェクト別配色、AIワークシートの高速化と結果ストリーミングなどを追加。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-21T18:21:37.000Z",
+      "contentHash": "69eb2b89d2a6"
+    },
+    {
+      "id": "8f42139add49",
+      "title": "Seattle Shield, an intelligence-sharing network operated by the Seattle police",
+      "url": "https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance/",
+      "summary": "シアトル警察が運営する「Seattle Shield」はFacebookやAmazon、民間企業やICEも参加する2009年創設の情報共有ネット。テロ対策名目で非公開運用され、有効性や説明責任、共有方法の透明性が疑問視され、警察や企業は取材に応じていない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-21T17:55:58.000Z",
+      "contentHash": "4e9b83386dda"
+    },
     {
       "id": "4a8e4c26547b",
       "title": "Bungie gives up on Destiny",
       "url": "https://www.theverge.com/games/935536/bungie-destiny-2-final-update-date",
-      "summary": "BungieはDestiny 2の最終大型アップデートを6月9日に配信すると発表。以降もゲームはプレイ可能で、復帰しやすい調整が行われる。スタジオは新たな出発に注力し、週次ブログは休止する。",
+      "summary": "Bungieは『Destiny 2』の最終大型アップデートを6月9日に配信し、その後もゲームはプレイ可能に。以降は次作へ注力し定期ブログは休止。復帰しやすさ重視で人員調整の可能性あり。",
       "source": "The Verge",
       "publishedAt": "2026-05-21T17:48:34.000Z",
-      "contentHash": "4d4572ce182a"
+      "contentHash": "9261ab48a95e"
     },
     {
       "id": "acc2d7970107",
@@ -18,6 +243,15 @@
       "source": "The Verge",
       "publishedAt": "2026-05-21T17:27:16.000Z",
       "contentHash": "fd3d91bc2c20"
+    },
+    {
+      "id": "5a09a5913f20",
+      "title": "Chewing gum restores dad's taste and smell years after Covid",
+      "url": "https://discover.swns.com/2026/05/chewing-gum-restores-dads-taste-and-smell-years-after-covid/",
+      "summary": "トラック運転手がNHSで受けた減量手術の合併症により激痛の末に死亡したと報じられた（Nathan Pynn、2026年5月21日）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-21T17:14:56.000Z",
+      "contentHash": "b919e422ce8c"
     },
     {
       "id": "9318f5745d0b",
@@ -38,6 +272,15 @@
       "contentHash": "1caf9d35aa11"
     },
     {
+      "id": "efb62eb85d99",
+      "title": "News outlets are limiting the Internet Archive’s access to their journalism",
+      "url": "https://www.niemanlab.org/2026/05/more-than-340-local-news-outlets-are-limiting-the-internet-archives-access-to-their-journalism/",
+      "summary": "Nieman Labの報道によれば、AIによる学習データ化を懸念して主要出版社がInternet Archiveを遮断。米国内で340超の地方紙がアーカイブ保存を制限し、研究者や記者の資料保全が危機に陥り、公開署名も起きている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-21T16:59:27.000Z",
+      "contentHash": "e71ec4c476e8"
+    },
+    {
       "id": "871c3824f65f",
       "title": "This mechanical bird drops dead when your home’s air quality worsens",
       "url": "https://www.theverge.com/tech/935292/birdie-pro-smart-air-monitor-kickstarter-crowdfunding",
@@ -50,10 +293,10 @@
       "id": "0a2b48497cd4",
       "title": "London Mayor Blocks Palantir",
       "url": "https://www.theguardian.com/uk-news/2026/may/21/london-mayor-sadiq-khan-blocks-met-police-deal-with-palantir",
-      "summary": "ロンドン市長サディク・カーンは、スコットランドヤードがパランティアと進めた5000万ポンドのAI契約を、調達手続き違反や技術の囲い込み、費用対効果や市の価値観への懸念で承認せず差し止めた。将来の入札は可能だが同社の公的分野での影響拡大に懸念が強い。",
+      "summary": "サディク・カーン市長が、英メトロポリタン警察のパランティア社との5000万ポンドのAI契約を調達規則違反や依存懸念で阻止。警察は失望し人員削減や治安悪化を警告。パランティアは物議を醸す企業。",
       "source": "Hacker News",
       "publishedAt": "2026-05-21T16:35:01.000Z",
-      "contentHash": "86580bb6355e"
+      "contentHash": "6b12c649e025"
     },
     {
       "id": "8ecb5ce2dd40",
@@ -194,10 +437,10 @@
       "id": "aa456c350331",
       "title": "Blender のテクスチャペイントの使い方",
       "url": "https://note.com/npaka/n/n3bf7b376d59b",
-      "summary": "Blender 5.1.11のテクスチャペイント解説。3Dモデル上で直接テクスチャ画像を編集する手順（モデル読み込み→メッシュ選択→Texture Paint→ツールで画像選択）と、スポイト(Shift+X)で自然に色を拾う修正法、Paint/Soft Paint/Blur/Smear/Clone/Fill/Maskなど主要ツールの用途を紹介。",
+      "summary": "Blenderのテクスチャペイント解説。モード切替（メッシュ選択→テクスチャペイントタブ→ツール設定→画像選択）、スポイトで周囲色を拾って自然に修正する方法、Paint/Soft Paint/Blur/Smear/Clone/Fill/Maskなど主要ツールの用途を紹介。",
       "source": "npaka",
       "publishedAt": "2026-05-21T10:33:52.000Z",
-      "contentHash": "bbc7661c9570"
+      "contentHash": "bb5074088bf6"
     },
     {
       "id": "70549b8a620a",
@@ -329,10 +572,10 @@
       "id": "f5e5e388137b",
       "title": "Autodesk Flow Studio での 3Dモデル生成 を試す",
       "url": "https://note.com/npaka/n/n71d2e9c9df40",
-      "summary": "Autodesk Flow StudioのAI機能（Wonder Tools/Wonder 3D）でText-to-Image、Image-to-3D、Text-to-3Dを試した。生成後にポリ数やトポロジを選び自動リギング（Humanoid）で動作確認、ダウンロードは有料でCodexで操作可能。",
+      "summary": "Autodesk Flow StudioのAI群「Wonder Tools（Wonder 3D）」を試用。Text to Image、Image to 3D、Text to 3Dでプロンプトから画像やメッシュ生成、ポリ数・トポロジー選択、Humanoidリグで自動リギングとモーション生成を確認。生成モデルのダウンロードは有料でCodex連携可能。",
       "source": "npaka",
       "publishedAt": "2026-05-21T02:36:23.000Z",
-      "contentHash": "274725e7f26d"
+      "contentHash": "0700677ace4b"
     },
     {
       "id": "dbba57691bfb",
@@ -482,10 +725,10 @@
       "id": "f8f41b75276d",
       "title": "Antigravity 2.0 ・ Antigravity CLI ・ Antigravity SDK ・ Antigravity IDE の概要",
       "url": "https://note.com/npaka/n/n684187248936",
-      "summary": "GoogleのAntigravityは単一IDEから、Agent管理のデスクトップ「Antigravity 2.0」、ターミナル用「Antigravity CLI」、開発用SDK、従来の編集機能を担う「Antigravity IDE」の4構成へ移行。開発は行単位のコーディングからタスクを定義しAIエージェントに実行・レビューさせる形に変わり、Gemini CLIは段階的にAntigravity CLIへ移行します。",
+      "summary": "GoogleのAntigravityはAI補完からエージェントが開発タスクを実行する段階へ進化。Antigravity 2.0（エージェント管理のデスクトップ）、CLI（端末操作）、SDK、IDEの4要素で構成され、エディタ機能はIDE側に分離されています。",
       "source": "npaka",
       "publishedAt": "2026-05-20T21:01:07.000Z",
-      "contentHash": "3407fabae92b"
+      "contentHash": "2c874be59c9f"
     },
     {
       "id": "ec9080e51da1",
@@ -887,10 +1130,10 @@
       "id": "4d797953d265",
       "title": "Google Flow Music の使い方",
       "url": "https://note.com/npaka/n/n68e7d8194c3d",
-      "summary": "Google Flow Musicはテキスト・画像・音声プロンプトから曲やMV、プレイリスト、Spacesを生成・編集できるGoogle LabsのAI。プロンプト作成のコツ（ジャンル・雰囲気・テンポ・楽器・歌詞）、Composeでの細部調整、Remix（Extend/Cover/Replace）方法を解説。",
+      "summary": "Google Flow Musicはテキスト・画像・音声から曲やMV、プレイリスト、Spacesを生成・編集・公開できるAI音楽制作サービス。プロンプトにジャンル・雰囲気・テンポ・楽器・歌詞テーマ等を記入し、生成後はComposeやRemixで細部を調整・拡張できる。",
       "source": "npaka",
       "publishedAt": "2026-05-20T05:55:00.000Z",
-      "contentHash": "caf8ee42c77d"
+      "contentHash": "1927b015e194"
     },
     {
       "id": "95f72d557cc6",
@@ -1085,10 +1328,10 @@
       "id": "659861350af7",
       "title": "Google Flow ・ Flow Music の新機能 - Gemini Omni ・ エージェント ・ モバイルアプリ",
       "url": "https://note.com/npaka/n/n47ffe842981b",
-      "summary": "Googleがクリエイター向けAI「Google Flow」「Google Flow Music」を更新。動画生成・編集特化の新モデルGemini Omni、制作支援のFlow Agent、自然言語で作るFlow Tools、モバイルアプリ、楽曲の部分編集やスタイル変換、Gemini OmniによるMV制作などを追加。",
+      "summary": "GoogleはAI制作ツール「Google Flow」「Google Flow Music」を更新。動画編集特化の新モデル「Gemini Omni」、制作支援の「Flow Agent」、自然言語で作れる「Flow Tools」、モバイルアプリ、楽曲の局所編集やスタイル変換、ミュージックビデオ生成機能を追加しました。",
       "source": "npaka",
       "publishedAt": "2026-05-19T22:27:00.000Z",
-      "contentHash": "95613114535c"
+      "contentHash": "51314ae8562a"
     },
     {
       "id": "1bab959f9a60",
@@ -1121,10 +1364,10 @@
       "id": "eb2b67ec340c",
       "title": "Gemini 3.5 Flash の概要",
       "url": "https://note.com/npaka/n/n0c77f0c311ba",
-      "summary": "Gemini 3.5 Flashは低遅延でフロンティア級の知能を両立した実用モデル。コーディングやマルチステップのエージェント作業、マルチモーダルUI・グラフィック生成に強く、企業導入や個人向け展開、厳格な安全対策も進められている。",
+      "summary": "Gemini 3.5 Flashは高知能と低レイテンシを両立するフロンティア級の高速モデル。コーディングやマルチステップのエージェント作業、UI/グラフィック生成で高性能を示し、企業導入や個人向けエージェント展開、安全対策も組み込まれ、開発者向けAPI等で利用可能。",
       "source": "npaka",
       "publishedAt": "2026-05-19T21:45:32.000Z",
-      "contentHash": "c65f4b1ee924"
+      "contentHash": "c2ec1cdd8f72"
     },
     {
       "id": "059628e90ce7",
@@ -1139,10 +1382,10 @@
       "id": "59591cdd322c",
       "title": "Gemini Omni の概要",
       "url": "https://note.com/npaka/n/n7d37bbbd1681",
-      "summary": "Google DeepMindのGemini Omniは、テキスト・画像・音声・動画を扱うマルチモーダル生成モデル。会話で動画を生成・編集でき、環境や動作を変え複数段階で洗練、物理や文化知識に基づく推論で意味ある映像制作を目指す。",
+      "summary": "Gemini OmniはGoogle DeepMindのマルチモーダル生成モデルで、テキスト・画像・音声・動画を組み合わせて動画を生成・会話で編集可能。環境や動作も変えられ、段階的に仕上げられるほか、物理や歴史などの知識を活かした意味ある映像作りを目指す。",
       "source": "npaka",
       "publishedAt": "2026-05-19T21:15:30.000Z",
-      "contentHash": "17c0f34f16df"
+      "contentHash": "9bc109c878ab"
     },
     {
       "id": "bdc97380f844",
@@ -1445,10 +1688,10 @@
       "id": "fea335ac32b4",
       "title": "個人制作で使いやすい効果音素材サイトまとめ",
       "url": "https://note.com/npaka/n/n72ae3fa9ceca",
-      "summary": "個人制作向けの効果音素材サイトをまとめ（効果音ラボ、効果音工房、DOVA-SYNDROME、くらげ工匠など）。多くは商用可・クレジット不要だが、法人利用や再配布・AI利用などの制限や個別条件があるため、必ず各サイトの最新規約を確認してください。",
+      "summary": "個人制作向けの効果音素材サイトを紹介。効果音ラボ、効果音工房、DOVA‑SYNDROME、くらげ工匠などは多数が商用可・クレジット不要で使いやすいが、法人利用や再配布、AI学習利用の制限や規約変更に注意。",
       "source": "npaka",
       "publishedAt": "2026-05-19T14:05:18.000Z",
-      "contentHash": "126044ca34be"
+      "contentHash": "3f33e0216839"
     },
     {
       "id": "0fde6fb85f0b",
@@ -1823,10 +2066,10 @@
       "id": "588f22deb571",
       "title": "Codex でボクセルの3Dモデル生成を試す",
       "url": "https://note.com/npaka/n/nde5589d13536",
-      "summary": "Codexで3面図からボクセル3Dモデルを生成し、レーシングカーやロボットを作成・調整。three.js+TypeScriptでスプライン基盤のボクセル風サーキットや視点、タイヤ回転などのアニメ、VRM/VRMA化やMixamoのFBX→VRMA変換再生も試行。",
+      "summary": "CodexとChatGPT（GPT-Image2）でボクセルの3面図からthree.js(Vite+TypeScript)製の3Dモデルとアニメを生成。レーシングカーとサーキット、ロボットのVRM/VRMA再生、MixamoのFBX→VRMA変換を試した。",
       "source": "npaka",
       "publishedAt": "2026-05-18T23:48:27.000Z",
-      "contentHash": "672c2de32528"
+      "contentHash": "60abdd6f9426"
     },
     {
       "id": "8b573beaa372",
@@ -1962,15 +2205,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-05-18T18:12:18.000Z",
       "contentHash": "4ebcdd53f50f"
-    },
-    {
-      "id": "41c83ec293ad",
-      "title": "All of the updates from Elon Musk and Sam Altman’s battle over OpenAI",
-      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "summary": "イーロン・マスクが2024年にサム・アルトマンらを相手取り、OpenAIが創業理念を放棄したとして提訴した裁判は、約1か月の審理と主要証言の末、陪審が時効を理由に訴えを棄却しマスクの敗訴で終結した。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-18T17:49:49.000Z",
-      "contentHash": "6c1e9c181881"
     },
     {
       "id": "46df28ff2ca5",
@@ -8766,240 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-01T02:06:23.000Z",
       "contentHash": "4c8349837f0b"
-    },
-    {
-      "id": "7404486640d4",
-      "title": "YAML×AIで脱Excel地獄！テストの本質に思考を集中させよう | CADDi Tech Blog",
-      "url": "https://caddi.tech/2026/05/01/110000",
-      "summary": "Control Planeの小森が、複数チーム開発でアーキテクトとしてシステムテスト準備を主導した経験を紹介。AIエージェントを活用し、テストケース作成の品質向上と効率化を図った事例を解説する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-01T02:00:00.000Z",
-      "contentHash": "139f7c8b52ae"
-    },
-    {
-      "id": "6dd45883e823",
-      "title": "AIの仕組みを知らなかったエンジニアがG検定を受けてみた話 | hacomono TECH BLOG",
-      "url": "https://techblog.hacomono.jp/entry/2026/05/01/110000",
-      "summary": "hacomonoの森山（せっちゃん）が、AI・ディープラーニングのジェネラリスト資格G検定を受験し、勉強法を記録した記事。Claude CodeやGemini、Stable Diffusionなど日常的にAIを使う中で利便性を感じつつ、基礎理解を深めるために学習した経緯と方法を紹介している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-01T02:00:00.000Z",
-      "contentHash": "e7a019b9af49"
-    },
-    {
-      "id": "6feff5ff6b74",
-      "title": "2025年度 バックボーン構成変更とトラフィック状況の振り返り | シナプス技術者ブログ",
-      "url": "https://tech.synapse.jp/entry/2026/05/01/110000",
-      "summary": "サービスシステム運用課の末吉氏が、2025年度に鹿児島〜福岡〜大阪間のバックボーンを100G化し上流回線を見直した結果、平常時の増加やイベント時の急増トラフィックに対応しやすくなったことをトラフィック推移や拠点比率で振り返る記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-01T02:00:00.000Z",
-      "contentHash": "1794e98a4d91"
-    },
-    {
-      "id": "d4c400213976",
-      "title": "【お知らせ】弥生のエンジニアXが復活します！ | 弥生開発者ブログ",
-      "url": "https://tech-blog.yayoi-kk.co.jp/entry/2026/05/01/110000",
-      "summary": "弥生の開発ブログ担当・川上です。5月1日、休止していた弥生エンジニア公式Xを再始動しました。単なる復活ではなく、エンジニア発信の在り方を見直す第一歩として技術発信を強化していきます。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-01T02:00:00.000Z",
-      "contentHash": "66e7629dd495"
-    },
-    {
-      "id": "52ab02337cc8",
-      "title": "【Nishika 論文サク読み 第7回】音声認識と大規模言語モデルの融合 | Nishika Tech Blogのフィード",
-      "url": "https://zenn.dev/team_nishika/articles/fa5b10c85b8377",
-      "summary": "NishikaでAIエンジニアインターンをしている笠原です。コンペ参加がきっかけでR&D業務に従事し貴重な経験を得ています。最近読んだASR論文「Speech Recognition Meets Large Language Model（AAAI 2025）」を簡潔に共有します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-01T01:54:58.000Z",
-      "contentHash": "af84f05e09af"
-    },
-    {
-      "id": "ad9c13a2a6c6",
-      "title": "Codex のiOSアプリ開発のためのプロンプトまとめ",
-      "url": "https://note.com/npaka/n/n51962b239b68",
-      "summary": "CodexでSwiftUIのスターターを生成し、CLI優先でxcodebuildやTuistによるビルドループを回す。高度化したらXcodeBuildMCPやSwiftUI/性能・並行処理・Liquid Glassなどのスキルを導入し、反復時は環境・ターゲット・検証ループを明確にプロンプト化する。",
-      "source": "npaka",
-      "publishedAt": "2026-05-01T00:14:37.000Z",
-      "contentHash": "9e4579c09251"
-    },
-    {
-      "id": "b04e6b1c80ec",
-      "title": "The craziest part of Musk v. Altman happened while the jury was out of the room",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/921713/musk-v-altman-jared-birchall-screw-up-xai",
-      "summary": "イーロン・マスクとサム・アルトマンのOpenAI裁判で、陪審退廷中にマスクの資産管理人ジャレッド・バーシャルが答えてはいけない質問に答えてしまった。影響は不明と報じられる。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-30T22:59:51.000Z",
-      "contentHash": "6f098d1c388d"
-    },
-    {
-      "id": "cd3cbd2b1bf1",
-      "title": "CPanel and WHM Authentication Bypass – CVE-2026-41940",
-      "url": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/",
-      "summary": "cPanel&WHMの認証バイパス脆弱性CVE‑2026‑41940が全サポート版に影響。管理者権限を奪われる深刻な欠陥で、watchTowr LabsがAIで迅速検出・検証し、エッジで自動緩和する対策ルールを公開した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-30T22:48:51.000Z",
-      "contentHash": "f61f169f5072"
-    },
-    {
-      "id": "4e837202c532",
-      "title": "Codex のゲーム開発のためのプロンプトまとめ",
-      "url": "https://note.com/npaka/n/n8fb9f73d2ce3",
-      "summary": "OpenAI Codexを用いたゲーム開発の活用法を解説。コード自動生成でプロトタイプやスクリプト作成、NPC挙動やレベル生成、Unity/Unreal連携による効率化事例と、品質・安全性や検証の注意点を示す。",
-      "source": "npaka",
-      "publishedAt": "2026-04-30T22:31:38.000Z",
-      "contentHash": "e59ebe7e95eb"
-    },
-    {
-      "id": "c47d1e3a21ec",
-      "title": "Roblox’s daily users continue to drop as age checks slow growth",
-      "url": "https://www.theverge.com/games/921694/roblox-q1-2026-132-million-dau",
-      "summary": "Robloxはここ6か月で日間利用者が約1億5200万→1億3200万と2000万減少。年齢確認導入が新規獲得を鈍らせ、ロシアでの禁止も影響。米加は100万減だが収益は14億ドルに増加。年齢制限や改善を今後も進める。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-30T21:25:15.000Z",
-      "contentHash": "08a9cebf1f4b"
-    },
-    {
-      "id": "6791765eeff0",
-      "title": "Codex のユースケースまとめ",
-      "url": "https://note.com/npaka/n/nc4fd318fbead",
-      "summary": "OpenAIのCodexは単なるコード生成でなく、実装・レビュー・調査・自動化・品質管理を担う実務向けAI。PRレビューや大規模コード解析、スクショ/Figma→UI生成、iOS/macOS開発支援、データ分析やバグトリアージなど多用途に活用される。",
-      "source": "npaka",
-      "publishedAt": "2026-04-30T21:17:59.000Z",
-      "contentHash": "7e8086e640b3"
-    },
-    {
-      "id": "991c2b4678b4",
-      "title": "Congress keeps kicking surveillance reform down the road",
-      "url": "https://www.theverge.com/policy/921652/congress-fisa-section-702-45-day-extension",
-      "summary": "米議会は外国情報監視法（セクション702）を45日間延長。捜査令状の義務化は見送られ、軽微な修正とFRBの中央銀行デジタル通貨禁止条項が盛り込まれ、改正協議は続く。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-30T20:59:58.000Z",
-      "contentHash": "718913f380a8"
-    },
-    {
-      "id": "1c559c6ba73c",
-      "title": "Apple&#8217;s iPhone revenue jumps to $57 billion despite chip shortages",
-      "url": "https://www.theverge.com/tech/921527/apple-iphone-revenue-q2-2026-earnings",
-      "summary": "アップルのiPhone収益が半導体不足下でも22%増の570億ドルに達し、四半期収益は1112億ドルで過去最高となった。クックCEOは需要は旺盛だが部品供給に制約があると述べ、9月に退任、ジョン・ターナスが後任予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-30T20:58:22.000Z",
-      "contentHash": "808ec733c7df"
-    },
-    {
-      "id": "415dafa077e7",
-      "title": "Rivian’s revenue is up as R2 production kicks into gear",
-      "url": "https://www.theverge.com/transportation/921295/rivian-q1-2026-earnings-revenue-profit-r2",
-      "summary": "RivianはQ1 2026で売上13.8億ドル（前年同期比11.3%増）、生産10,236台（同30%増）、販売10,365台（同20%増）を報告。R2生産が本格化し、通年62,000–67,000台目標を維持、年内の粗利益黒字化を目指す。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-30T20:05:00.000Z",
-      "contentHash": "e61a4a595b51"
-    },
-    {
-      "id": "2ab05d6d40b8",
-      "title": "Rivian downsizes new EV factory after Trump’s DOE slashes loan agreement",
-      "url": "https://www.theverge.com/transportation/921585/rivian-georgia-factory-capacity-doe-loan",
-      "summary": "Rivianはジョージア州の新工場について、DOEが融資を66億ドルから45億ドルに削減したため、年産能力を当初予定の40万台から30万台に縮小。ただし30万台には当初より早く到達する見込み。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-30T20:05:00.000Z",
-      "contentHash": "e236599d713e"
-    },
-    {
-      "id": "dbb28bfa9dfb",
-      "title": "Vercel’s pricing page",
-      "url": "https://theupsellgame.com/",
-      "summary": "申し訳ありませんが、外部サイトへ直接アクセスできません。記事本文を貼るか主要箇所をコピーしていただければ、200文字以内で日本語要約します。HNコメントの要約も可能です。どちらを希望しますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-30T20:02:35.000Z",
-      "contentHash": "dc3b4056e896"
-    },
-    {
-      "id": "5502efaa89f7",
-      "title": "The logic of the racist Supreme Court isn’t adding up",
-      "url": "https://www.theverge.com/policy/921597/callais-louisiana-voting-rights-act",
-      "summary": "最高裁がルイジアナ州で投票権法第2条を事実上崩し、人種差別是正の区割りを違憲と判断。黒人約30%の州で多数派黒人区が6区中2区（33%）→1区（17%）に減ると批判されている。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-30T19:52:29.000Z",
-      "contentHash": "7114fec3404c"
-    },
-    {
-      "id": "c44d9b62a1ab",
-      "title": "U.S. Senators Vote to Ban Themselves from Trading on Prediction Markets",
-      "url": "https://www.wsj.com/politics/policy/senators-vote-to-ban-themselves-from-trading-on-prediction-markets-ae4535dd",
-      "summary": "上院は議員が立法や規制などの結果を対象にした予測市場で取引することを禁止する案を可決。インサイダー取引や利益相反を防ぐための倫理強化措置として導入された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-30T19:42:33.000Z",
-      "contentHash": "6d46ec6fec1d"
-    },
-    {
-      "id": "8dbc8eebcdfd",
-      "title": "LinkedIn is scanning browser extensions",
-      "url": "https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/",
-      "summary": "LinkedInがブラウザ拡張をスキャンし、2017年以降ツールでChrome拡張を収集・追跡、現在6,278件を記録。開発者ツールで確認でき、未同意の個人特定やプライバシー侵害が懸念される。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-30T19:40:20.000Z",
-      "contentHash": "dfb6f31058a6"
-    },
-    {
-      "id": "2935dbdd608b",
-      "title": "Microsoft’s Xbox mode is now available for all Windows 11 PCs",
-      "url": "https://www.theverge.com/news/921582/microsoft-xbox-mode-windows-11",
-      "summary": "マイクロソフトはWindows 11向けに「Xbox mode」を全PCへ展開開始。Xbox PCアプリの全画面インターフェイスでSteamのBig Pictureに類似し、AsusのXbox Allyで試験導入されたFSEを発展。最新のWindows更新で順次利用可能になり、コンソールとWindowsの溝を埋める狙い。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-30T19:14:23.000Z",
-      "contentHash": "a7e63ac60838"
-    },
-    {
-      "id": "0d19b56ee017",
-      "title": "Meta threatens to pull its apps from New Mexico if forced to make ‘technologically impractical’ changes",
-      "url": "https://www.theverge.com/policy/921557/meta-threatens-leaving-new-mexico",
-      "summary": "ニューメキシコ州で375百万ドルの陪審判決後、州司法長官が未成年のE2E暗号禁止、年齢確認、新規CSAM検知99％などの措置を請求。Metaは技術的に不可能としてFacebook・Instagram・WhatsAppを州から撤退する可能性を示唆。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-30T19:05:01.000Z",
-      "contentHash": "97d6e98eda54"
-    },
-    {
-      "id": "672336ed0b72",
-      "title": "With Saros, Housemarque makes a case for doing next-gen games differently",
-      "url": "https://www.theverge.com/games/921391/housemarque-interview-saros-ps5",
-      "summary": "ハウスマークは新作『Saros』で、次世代機の表現は写実追求より派手な演出と遊びを重視すべきと主張。ソニー傘下のフィンランド開発らしく、アーケード的な表現で差別化を図る。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-30T19:00:45.000Z",
-      "contentHash": "31f5fe47ec5d"
-    },
-    {
-      "id": "24d12a3c2e33",
-      "title": "Full-Text Search with DuckDB",
-      "url": "https://peterdohertys.website/blog-posts/full-text-search-w-duckdb.html",
-      "summary": "この記事はDuckDBの全文検索(FTS)を解説するフォロー記事です。ElasticsearchやPostgresと比較しつつ、DuckDBのFTS拡張が提供するステミング、ストップワード、アクセント除去やOkapi BM25（k₁、b）などの機能を概説します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-30T18:14:18.000Z",
-      "contentHash": "b3fe29eec260"
-    },
-    {
-      "id": "125dcbe3b323",
-      "title": "I built a Game Boy emulator in F#",
-      "url": "https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/",
-      "summary": "著者は基礎学習（From NAND to Tetris）とCHIP-8実装を経て、Game Boyエミュレータ「Fame Boy」を作成。音声対応でデスクトップ/ブラウザ動作。コアとフロントは単純な配列と関数で分離し、CPUは実機LR35902に準拠、メモリとIOをモジュール化している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-04-30T17:14:21.000Z",
-      "contentHash": "7ea6e72376df"
-    },
-    {
-      "id": "95bad5d30a96",
-      "title": "Meta is running get-rich-quick ads for its AI tools",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/915970/meta-manus-ai-ads-website-slop",
-      "summary": "Metaが約20億ドルで買収したAI企業Manusが、AIで短時間に地元店舗の欠けた／不十分なウェブサイトを作って販売すれば「簡単に稼げる」と宣伝。報酬を払ったクリエイターがSNSで推奨投稿を行い、企業との関係を隠すものもあり、調査後に一部TikTokアカウントは削除された。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-30T16:48:13.000Z",
-      "contentHash": "68e07f6e61c5"
-    },
-    {
-      "id": "d13562b752df",
-      "title": "Cricut’s Joy 2 makes creating stickers easier for beginners, and it’s on sale",
-      "url": "https://www.theverge.com/gadgets/921355/cricut-joy-2-mothers-day-deal-sale",
-      "summary": "Cricut Joy 2は省スペースで初心者向けのステッカー作成用カッティングマシン。筆者が数週間試用し扱いやすさを評価。単体は$99、素材入りバンドルが割引中でお得。",
-      "source": "The Verge",
-      "publishedAt": "2026-04-30T16:45:06.000Z",
-      "contentHash": "176b0cedc4f8"
     }
   ]
 }
