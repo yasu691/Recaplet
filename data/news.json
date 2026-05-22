@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-05-22T04:20:42.612Z",
+  "generatedAt": "2026-05-22T11:11:22.661Z",
   "items": [
+    {
+      "id": "006e7cb233ee",
+      "title": "Microsoft is letting Office users remove an annoying Copilot button",
+      "url": "https://www.theverge.com/news/935967/microsoft-copilot-floating-button-office-excel-apps-removal",
+      "summary": "MicrosoftはWord/Excel/PowerPointに最近表示された右下の浮動Copilotボタンについて、来週の更新で無効化やリボンに戻す設定を提供すると発表。特にExcelでセルを遮る不満が多く、短期的に操作性を改善する対応。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-22T09:52:19.000Z",
+      "contentHash": "398bfcb24f66"
+    },
+    {
+      "id": "970ee2e64e51",
+      "title": "なぜブロックを使うのか？ | vicc blog",
+      "url": "https://blog.vicc.jp/entry/why-should-we-use-block",
+      "summary": "CAD/BIMでのブロックは、同一部材を一つの定義で参照し属性付与や一括変更が可能で、データ軽量化や数量管理に有利。グループは個別実体で編集されやすく信頼性に欠ける。実験で検証。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T09:00:00.000Z",
+      "contentHash": "e58c8ab10dd2"
+    },
+    {
+      "id": "6201a42fa7fa",
+      "title": "AIをマイクロマネジメントしない勇気 | コネヒト開発者ブログ",
+      "url": "https://tech.connehito.com/entry/2026/05/22/173919",
+      "summary": "AIを新卒社員のように「情報を渡す・安全を守る・自走させる・改善を促す」の四本柱でマネジメントし、環境整備とPDCAで裁量を与えた結果、ママリの新機能「レシートエール」をClaude Codeで100%実装した成功事例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T08:39:19.000Z",
+      "contentHash": "325fe6c42421"
+    },
+    {
+      "id": "eb1b43a16277",
+      "title": "コスパ最強のリリース環境Cloudflareを試してみる！ | SO Technologies 開発者ブログ",
+      "url": "https://developer.so-tech.co.jp/entry/2026/05/22/173446",
+      "summary": "個人写真サービスをConoHa VPS＋FirebaseからCloudflare月$5プランへ移行して検証。VPSの固定費とFirebaseの帯域制限が問題で、Workers/R2/D1をwranglerで構築・運用し、コスパ良好と結論。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T08:34:46.000Z",
+      "contentHash": "7984df530525"
+    },
+    {
+      "id": "683f01b0b6eb",
+      "title": "アーキテクチャを忘れかけていた私が見つけた、Vibe Coding時代のFlutter設計 | YOUTRUST Tech Blog",
+      "url": "https://tech.youtrust.co.jp/entry/2026/05/22/173246",
+      "summary": "筆者が忘れかけていたアーキテクチャを、Vibe Coding時代のFlutter設計で再発見。AI時代のFlutter/Android/iOS開発や設計原則を紹介し、記事表示用CSS調整も記載。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T08:32:46.000Z",
+      "contentHash": "abbcb55bb8bb"
+    },
+    {
+      "id": "9c539b7180a6",
+      "title": "Rails: Arkencyが考える「2026年のRails Way」とは（翻訳） | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_05_22/157922",
+      "summary": "Arkencyは2026年のRailsの典型を「コールバック付きファットモデル→Service Object起動→そのServiceはバックグラウンド実行」と定義。ActiveRecordに処理／ワークフロー状態が混在し、enumやタイムスタンプが永続化された処理ステートとして使われる点を指摘している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T08:30:38.000Z",
+      "contentHash": "ee627d64664f"
+    },
+    {
+      "id": "4073151b1b50",
+      "title": "Autodesk Flow Studio + Codex で3Dゲームの作成を試す",
+      "url": "https://note.com/npaka/n/na559f5f1d136",
+      "summary": "Autodesk Flow Studioで画像から女の子・床・スターの3Dモデルを生成・調整し、Mixamoのモーションを適用、three.js用に変換。ChatGPTで画面画像を作成し、Codexに指示して奥方向スクロールのジャンプゲームを実装、操作性やエフェクトを繰り返し調整しました。",
+      "source": "npaka",
+      "publishedAt": "2026-05-22T08:24:37.000Z",
+      "contentHash": "b991d3996323"
+    },
+    {
+      "id": "70d3c346b235",
+      "title": "Redashを26.03化したらスケジュールクエリが止まった話 | Rentio Tech Blogさんのフィード",
+      "url": "https://zenn.dev/rentio/articles/in-memory-cache-trouble-during-redash-update",
+      "summary": "Redashを26.03に更新後、スケジュールクエリが停止。ElastiCacheでメモリスワップやeviction、Getレイテンシ悪化が発生。調査でRedisの大容量キー（例：スキーマキャッシュ約472MB）やmaxmemory-policy/reserved-memory設定が原因と判明した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T08:13:45.000Z",
+      "contentHash": "072b6476767c"
+    },
+    {
+      "id": "f3323c958d76",
+      "title": "PdM・デザイナーが語る、現場での生成AI活用術 | LIVESENSE ENGINEER BLOG",
+      "url": "https://made.livesense.co.jp/entry/2026/05/22/170000",
+      "summary": "2026年4月の社内勉強会レポート。PdM吉田はCursorで議事録整理・コード調査・Figma連携・Jira起票を自動化、工藤はClaude CodeでSQL・分析効率化、大堀はリサーチ整理やプロトタイプで「動き」の合意に生成AIを活用。AIは目的達成の手段と強調。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T08:00:00.000Z",
+      "contentHash": "9cf50168833e"
+    },
+    {
+      "id": "57ad67ab31f3",
+      "title": "サイボウズは JaSST'26 Tohoku で協賛＆登壇します！ | Cybozu Inside Out | サイボウズエンジニアのブログ",
+      "url": "https://blog.cybozu.io/entry/2026/05/22/170000",
+      "summary": "サイボウズは2026年5月29日開催のJaSST'26 Tohokuを協賛・登壇します。新卒QAの「すずりん」がGaroonのリリース基準の“なぜ”を探ったライトニングトークを発表。QA採用強化中でカジュアル面談も実施。 blogリンクあり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T08:00:00.000Z",
+      "contentHash": "719e5c3a68ea"
+    },
+    {
+      "id": "ed5acb62cb4c",
+      "title": "MySQL JSON Duality View 入門：作成方法・更新方法の注意点についての検証 | スマートスタイル TECH BLOG",
+      "url": "https://blog.s-style.co.jp/2026/05/16094/",
+      "summary": "MySQL 9.4で導入されたJSON Duality Viewは、正規化されたリレーショナルデータを仮想JSONドキュメントとして公開し、整合性を保ちながらJSON形式での参照・更新を可能にする機能。記事はMySQL 9.7で検証し作成・更新時の注意点を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T07:48:26.000Z",
+      "contentHash": "eab701662ff2"
+    },
+    {
+      "id": "95e911bb96e8",
+      "title": "女子高校生がCARTAを見学！Girls Meet STEM イベント開催レポート!!! | CARTA TECH BLOG",
+      "url": "https://techblog.cartaholdings.co.jp/entry/girls-meet-stem-carta-2026",
+      "summary": "2026/05/21、山田進太郎D&I財団主催の「Girls Meet STEM」がCARTAで開催。十文字高校の女子約20名が参加し、先輩エンジニア3人が仕事紹介や学びの活かし方（文系からの転身、数学・AI・データの重要性）を語り、オフィスツアーと座談会で交流した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-22T07:48:05.000Z",
+      "contentHash": "a25547efcb6f"
+    },
+    {
+      "id": "57309e189b3a",
+      "title": "Cleve Moler has died",
+      "url": "https://www.mathworks.com/company/aboutus/founders/clevemoler.html",
+      "summary": "クリーブ・モラーはLINPACKやEISPACKなどの数値線形代数を基に、教育用行列演算環境MATLABを開発し、ジャック・リトルらとMathWorksを共同設立。科学技術計算の普及に大きく貢献した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-22T02:35:54.000Z",
+      "contentHash": "a1d8df7bf28e"
+    },
     {
       "id": "eebc4158df3a",
       "title": "新卒社員向けアジャイル・スクラム研修を体験型で設計した話 | Cybozu Inside Out | サイボウズエンジニアのブログ",
@@ -65,6 +182,15 @@
       "contentHash": "a2993eb8bd7f"
     },
     {
+      "id": "92fcd0978209",
+      "title": "Samsung chip workers will get an average $340k bonus as AI profits soar",
+      "url": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126",
+      "summary": "Quartz報道：サムスンはAI需要で半導体事業が好調なことを受け、チップ工場の現場労働者に一時金や業績連動ボーナスを支給する方針に。AI収益の現場還元と配分の議論が注目されている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-22T01:30:45.000Z",
+      "contentHash": "6ac817702406"
+    },
+    {
       "id": "6ff6f48d4d31",
       "title": "【Datadog Live Tokyo 2026】AIが人をつなぐ、オブザーバビリティ文化の深化～Datadog現場の最前線 | APC 技術ブログ",
       "url": "https://techblog.ap-com.co.jp/entry/2026/05/22/101753",
@@ -81,6 +207,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-22T01:13:31.000Z",
       "contentHash": "6626ed949097"
+    },
+    {
+      "id": "bd3058916654",
+      "title": "Tell HN: I'm tired of AI-generated answers",
+      "url": "https://news.ycombinator.com/item?id=48230104",
+      "summary": "会社で開発者をしている私が、経営者や同僚が質問に答えずChatGPTのスクショを転送するだけで対応され、AI相手だと気づかず疲弊。AI生成物の質も低く、レビュー業務が急増して限界を感じている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-21T23:37:14.000Z",
+      "contentHash": "17ffc834b560"
     },
     {
       "id": "69a8a7f530fc",
@@ -122,19 +257,19 @@
       "id": "60968eec1af2",
       "title": "The memory shortage is causing a repricing of consumer electronics",
       "url": "https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone",
-      "summary": "AIによるメモリ需要増で部品価格が上昇し、格安スマホ時代が終わりつつある。数十年で激安化した携帯が値上げ・出荷減（2026年は世界で約13％減、特にアフリカ・中東で顕著）。",
+      "summary": "これまでの「安いスマホ」で普及した時代が終わりつつある。AIによるメモリ需要増大で部品価格が上昇し、電子機器の大幅な再評価が進行。IDCは2026年の世界スマホ出荷が13％減、特にアフリカ・中東の廉価機で二割超の落ち込みを予測している。",
       "source": "Hacker News",
       "publishedAt": "2026-05-21T21:55:56.000Z",
-      "contentHash": "fb8ef860f9d7"
+      "contentHash": "49c20affe440"
     },
     {
       "id": "78046019b0a9",
       "title": "Uv is fantastic, but its package management UX is a mess",
       "url": "https://www.loopwerk.io/articles/2026/uv-ux-mess/",
-      "summary": "uvは高速で便利だが、パッケージ管理のUXが不十分。古い依存を調べるコマンドが冗長（uv tree --outdated --depth 1）で出力も長く探しにくい。Poetryは幾分改善するが完璧でなく、さらにuvは既定のバージョン制約が安全でない点が問題（pnpm/Poetryは^や範囲指定でメジャー更新を防ぐ）。",
+      "summary": "Astralのuvは高速で複数ツールを置き換える優秀なツールだが、依存管理のUXが貧弱。導入は簡単でも、古いパッケージの検出や更新表示が煩雑で、デフォルトのバージョン制約が安全性を損なう。",
       "source": "Hacker News",
       "publishedAt": "2026-05-21T20:56:36.000Z",
-      "contentHash": "7b3552cbb5ad"
+      "contentHash": "fecf7946df9c"
     },
     {
       "id": "41c83ec293ad",
@@ -173,13 +308,22 @@
       "contentHash": "9230d424a275"
     },
     {
+      "id": "d91fc7c994cc",
+      "title": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
+      "url": "https://arxiv.org/abs/2605.12460",
+      "summary": "本稿は、従来の単一ストリーム型チャットをやめ、思考・入力・出力などを独立した並列ストリームで扱う「マルチストリーム」LLMを提案。読書中に出力、思考と行動の同時並列化で効率・安全性・監視性を向上させると主張する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-21T19:37:26.000Z",
+      "contentHash": "c746c3e7e2b6"
+    },
+    {
       "id": "bfabe6cc845f",
       "title": "Philips’ new display has a screen on both sides",
       "url": "https://www.theverge.com/tech/935477/philips-business-monitor-dual-sided-lcd-display-24b2d5300",
-      "summary": "フィリップスの24B2D5300は前後両面に画面を備え、同時にミラー表示または別々の表示が可能なデュアルサイド業務用モニタ。受付や営業、診察など対面用途向けで、来月欧州で£359.99（英国・アイルランド掲載）、その他地域は未定。",
+      "summary": "Philipsの24B2D5300は両面ディスプレイで、前後をミラー表示または別々に使用可能。受付や営業、診察などで画面を見せ合う場面に向く。来月欧州（英・愛）で発売、価格は£359.99（約$484）。",
       "source": "The Verge",
       "publishedAt": "2026-05-21T19:36:00.000Z",
-      "contentHash": "a995ae93c30a"
+      "contentHash": "2c5276098127"
     },
     {
       "id": "78f411ae4c2e",
@@ -194,10 +338,10 @@
       "id": "eec1bd5cdabc",
       "title": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
       "url": "https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/",
-      "summary": "10年近くUbuntu 16.04で運用していたブログを、EOLや更新リスクを理由にFreeBSDへ移行した記録。データ移行やサービス再構築の手間はあったが、FreeBSDの一貫したベースシステム、安定性、管理のしやすさに満足したという内容。",
+      "summary": "10年以上稼働したNYのDigitalOcean（Ubuntu 16.04、2GB/1vCPU、$13/月）がサポート切れで危険なため、ドイツのHetznerへ移行。半額以下で性能向上し、さらにFreeBSDへ移しBastilleでJails導入、負荷ベンチも行った話。",
       "source": "Hacker News",
       "publishedAt": "2026-05-21T18:54:55.000Z",
-      "contentHash": "5b41371706c4"
+      "contentHash": "2ec447a33b48"
     },
     {
       "id": "4be06cea8aa9",
@@ -437,10 +581,10 @@
       "id": "aa456c350331",
       "title": "Blender のテクスチャペイントの使い方",
       "url": "https://note.com/npaka/n/n3bf7b376d59b",
-      "summary": "Blenderのテクスチャペイント解説。モード切替（メッシュ選択→テクスチャペイントタブ→ツール設定→画像選択）、スポイトで周囲色を拾って自然に修正する方法、Paint/Soft Paint/Blur/Smear/Clone/Fill/Maskなど主要ツールの用途を紹介。",
+      "summary": "3Dモデル表面に直接テクスチャを描くBlenderのテクスチャペイント解説。モデル選択→「テクスチャペイント」タブで切替、スポイト(Shift+X)で色を採取しPaint/Soft Paint/Blur/Smear/Clone/Fill/Mask等で修正。",
       "source": "npaka",
       "publishedAt": "2026-05-21T10:33:52.000Z",
-      "contentHash": "bb5074088bf6"
+      "contentHash": "62d5b0f6bb43"
     },
     {
       "id": "70549b8a620a",
@@ -572,10 +716,10 @@
       "id": "f5e5e388137b",
       "title": "Autodesk Flow Studio での 3Dモデル生成 を試す",
       "url": "https://note.com/npaka/n/n71d2e9c9df40",
-      "summary": "Autodesk Flow StudioのAI群「Wonder Tools（Wonder 3D）」を試用。Text to Image、Image to 3D、Text to 3Dでプロンプトから画像やメッシュ生成、ポリ数・トポロジー選択、Humanoidリグで自動リギングとモーション生成を確認。生成モデルのダウンロードは有料でCodex連携可能。",
+      "summary": "Autodesk Flow StudioのWonder Toolsを試用。Text to Image、Image to 3D、Text to 3Dでテキストや画像から3Dモデルを生成でき、ポリ数やトポロジ設定、AIによる自動リギングとモーション確認が可能。出力のダウンロードは有料。",
       "source": "npaka",
       "publishedAt": "2026-05-21T02:36:23.000Z",
-      "contentHash": "0700677ace4b"
+      "contentHash": "2e28e4fee298"
     },
     {
       "id": "dbba57691bfb",
@@ -725,10 +869,10 @@
       "id": "f8f41b75276d",
       "title": "Antigravity 2.0 ・ Antigravity CLI ・ Antigravity SDK ・ Antigravity IDE の概要",
       "url": "https://note.com/npaka/n/n684187248936",
-      "summary": "GoogleのAntigravityはAI補完からエージェントが開発タスクを実行する段階へ進化。Antigravity 2.0（エージェント管理のデスクトップ）、CLI（端末操作）、SDK、IDEの4要素で構成され、エディタ機能はIDE側に分離されています。",
+      "summary": "GoogleのAntigravityは単一IDEから、Agent Managerを中心とするエージェント型開発プラットフォームに再編。Antigravity 2.0（デスクトップ管理）、CLI（端末操作）、SDK、IDEに分かれ、開発者はタスク指示と成果確認が主役に。Gemini CLIからの移行方針あり。",
       "source": "npaka",
       "publishedAt": "2026-05-20T21:01:07.000Z",
-      "contentHash": "2c874be59c9f"
+      "contentHash": "c4c6711c5542"
     },
     {
       "id": "ec9080e51da1",
@@ -1130,10 +1274,10 @@
       "id": "4d797953d265",
       "title": "Google Flow Music の使い方",
       "url": "https://note.com/npaka/n/n68e7d8194c3d",
-      "summary": "Google Flow Musicはテキスト・画像・音声から曲やMV、プレイリスト、Spacesを生成・編集・公開できるAI音楽制作サービス。プロンプトにジャンル・雰囲気・テンポ・楽器・歌詞テーマ等を記入し、生成後はComposeやRemixで細部を調整・拡張できる。",
+      "summary": "Google Flow Musicはテキスト・画像・音声から曲やMV、プレイリスト、Spacesを生成するGoogleのAI制作サービス。プロンプトはジャンル・雰囲気・テンポ・楽器・歌詞テーマ等を指定し、生成後は部分編集やCompose（歌詞・音・詳細調整）、Remix（Extend/Cover/Replace）で改変・公開・共有・ダウンロードできる。",
       "source": "npaka",
       "publishedAt": "2026-05-20T05:55:00.000Z",
-      "contentHash": "1927b015e194"
+      "contentHash": "f0a0ea87574c"
     },
     {
       "id": "95f72d557cc6",
@@ -1364,10 +1508,10 @@
       "id": "eb2b67ec340c",
       "title": "Gemini 3.5 Flash の概要",
       "url": "https://note.com/npaka/n/n0c77f0c311ba",
-      "summary": "Gemini 3.5 Flashは高知能と低レイテンシを両立するフロンティア級の高速モデル。コーディングやマルチステップのエージェント作業、UI/グラフィック生成で高性能を示し、企業導入や個人向けエージェント展開、安全対策も組み込まれ、開発者向けAPI等で利用可能。",
+      "summary": "Gemini 3.5 Flashは、低レイテンシでフロンティア級の知能を両立する高速エージェント向けモデル。コーディングや複雑なマルチステップ業務、マルチモーダル生成で企業・個人の実務支援に使われ、安全対策とAPI提供も進む。",
       "source": "npaka",
       "publishedAt": "2026-05-19T21:45:32.000Z",
-      "contentHash": "c2ec1cdd8f72"
+      "contentHash": "50e9c797bc6c"
     },
     {
       "id": "059628e90ce7",
@@ -1382,10 +1526,10 @@
       "id": "59591cdd322c",
       "title": "Gemini Omni の概要",
       "url": "https://note.com/npaka/n/n7d37bbbd1681",
-      "summary": "Gemini OmniはGoogle DeepMindのマルチモーダル生成モデルで、テキスト・画像・音声・動画を組み合わせて動画を生成・会話で編集可能。環境や動作も変えられ、段階的に仕上げられるほか、物理や歴史などの知識を活かした意味ある映像作りを目指す。",
+      "summary": "Google DeepMindのマルチモーダル生成モデル「Gemini Omni」は、テキスト・画像・音声・動画を統合し、会話で動画を生成・編集。環境や動作の変更や段階的編集、物理や文化知識を活かした意味ある映像制作が可能。",
       "source": "npaka",
       "publishedAt": "2026-05-19T21:15:30.000Z",
-      "contentHash": "9bc109c878ab"
+      "contentHash": "f8238110141e"
     },
     {
       "id": "bdc97380f844",
@@ -1688,10 +1832,10 @@
       "id": "fea335ac32b4",
       "title": "個人制作で使いやすい効果音素材サイトまとめ",
       "url": "https://note.com/npaka/n/n72ae3fa9ceca",
-      "summary": "個人制作向けの効果音素材サイトを紹介。効果音ラボ、効果音工房、DOVA‑SYNDROME、くらげ工匠などは多数が商用可・クレジット不要で使いやすいが、法人利用や再配布、AI学習利用の制限や規約変更に注意。",
+      "summary": "個人制作者向けの効果音素材サイトを比較。効果音ラボ・効果音工房・DOVA-SYNDROME・くらげ工匠などを紹介し、商用利用やクレジット要否、加工可否や法人利用・再配布・AI学習利用の禁止など注意点を解説。最新規約確認を推奨。",
       "source": "npaka",
       "publishedAt": "2026-05-19T14:05:18.000Z",
-      "contentHash": "3f33e0216839"
+      "contentHash": "74733e0a6863"
     },
     {
       "id": "0fde6fb85f0b",
@@ -8856,150 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-05-01T16:57:27.000Z",
       "contentHash": "eb7f0f1569a0"
-    },
-    {
-      "id": "07cc14d28b89",
-      "title": "Severe Linux Copy Fail security flaw uncovered using AI scanning help",
-      "url": "https://www.theverge.com/tech/922243/linux-cve-2026-3141-copy-fail-exploit",
-      "summary": "2017年以降のほぼ全Linux配布版が、Theori発見の特権昇格脆弱「Copy Fail」(CVE-2026-31431)に影響。Pythonスクリプトで配布版ごとの調整不要にroot取得可能。ページキャッシュ破損で検出困難。ArchやFedora等は対策済み。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-01T16:55:16.000Z",
-      "contentHash": "9ddc6e43a5bf"
-    },
-    {
-      "id": "2dfe9cb13a4a",
-      "title": "Dreame’s rocket-powered car can do 0–60 in 0.9 seconds because you can just say things now",
-      "url": "https://www.theverge.com/transportation/921204/dreame-ev-car-rocket-boosted-zero-sixty-reality",
-      "summary": "中国の掃除機メーカーDreameがサンフランシスコでロケット推進を謳う電気スポーツカー「NEXT 01 JET Edition」を発表。0→60mphを0.9秒とする加速性能は物理的に疑わしく、主張は整合しないと報じられた。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-01T16:33:46.000Z",
-      "contentHash": "4d9c84d265a1"
-    },
-    {
-      "id": "44ca33d6c835",
-      "title": "We just got a new reason to believe the Trump phone is real(ish)",
-      "url": "https://www.theverge.com/gadgets/922180/trump-mobile-t1-phone-ptcrb-certification-t-mobile",
-      "summary": "Trump MobileのT1、いわゆる「トランプ携帯」がPTCRB認証を取得。米国で主要回線利用やIMEI発行に必要な認証で、発売に向けた重要な進展の証拠とされる。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-01T16:28:39.000Z",
-      "contentHash": "4644b4374a8a"
-    },
-    {
-      "id": "4013aa87bd17",
-      "title": "Snowflake 2026年1〜4月リリース総括：AI本番化・オープン化・セキュリティ成熟の3軸 | Snowflake Data Heroesのフィード",
-      "url": "https://zenn.dev/dataheroes/articles/20260502_snowflake_2026q1",
-      "summary": "2026年1〜4月のSnowflakeは「AI本番化」「オープン化」「セキュリティ成熟」を推進。Cortex AI関数群GAやGuardrails/Budgets、Iceberg/Postgres対応強化、PrivateLinkや機微データ分類で運用・互換性・安全性を向上。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-01T16:12:40.000Z",
-      "contentHash": "2bff4488d41f"
-    },
-    {
-      "id": "226abf35398f",
-      "title": "Aurzen’s tiny trifold projector is almost 40 percent off right now",
-      "url": "https://www.theverge.com/gadgets/921686/aurzen-zip-mini-projector-garmin-venu-4-watch-deal-sale",
-      "summary": "記事は、Aurzenの三つ折り小型プロジェクター「Zip」が約40%オフで約$250になっていると報じ、Garmin Venu 4やGoogle TV（4K）、Xboxワイヤレスヘッドセットなども割引中と伝える。Zipは小型ながら実用的と評価。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-01T15:00:46.000Z",
-      "contentHash": "990d955f6eaa"
-    },
-    {
-      "id": "1336a2c4335e",
-      "title": "Some of Xteink’s credit card-sized e-readers are losing their best feature",
-      "url": "https://www.theverge.com/tech/921552/xteink-x3-x4-e-reader-third-party-crosspoint-firmware-usb-blocked",
-      "summary": "Xteinkのカード型小型リーダー（X3/X4）は、PC経由で代替ファームウェアCrossPoint Readerを導入して操作性を改善できたが、購入地域によってXteinkがその導入をブロックしていると報告された。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-01T14:24:54.000Z",
-      "contentHash": "bba4209e93cd"
-    },
-    {
-      "id": "953e024d730a",
-      "title": "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia",
-      "summary": "米国防総省がOpenAI、Google、Nvidia、Microsoft、Amazon、xAI、Reflectionと機密用途でのAI契約を締結。一方、以前機密情報を扱っていたAnthropicは供給網リスクで排除された。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-01T14:09:56.000Z",
-      "contentHash": "ac17517e8914"
-    },
-    {
-      "id": "210dadefedcf",
-      "title": "RubyKaigi 2026参加レポート — 初めてのスポンサー出展 | kickflow Tech Blog",
-      "url": "https://tech.kickflow.co.jp/entry/2026/05/01/225308",
-      "summary": "kickflowが初スポンサー出展したRubyKaigi2026参加報告。AI出力当てクイズで会話を生み、英語対応や即興対応も。稟議システムの説明は相手の文脈に合わせる重要性を実感。会期中はAIが主要テーマ。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-01T13:53:08.000Z",
-      "contentHash": "75c448df9b88"
-    },
-    {
-      "id": "d4bbea4efbc1",
-      "title": "DfMA：リア・ローディングからの脱却とVICCの役割 | vicc blog",
-      "url": "https://blog.vicc.jp/entry/dfma-symposium-vol2",
-      "summary": "芝浦工大のDfMAシンポVol.2でリア・ローディング脱却を議論。プレキャスト連携、垂直統合、配管デジタル化、サプライチェーン連携など具体事例で概念から実装へ進展。一方DX格差が課題で、現場主導の前倒し要請やISO19650の導入兆しがあり、ヴィックは情報の通訳者として橋渡し役を果たすべきとまとめた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-01T12:35:00.000Z",
-      "contentHash": "181e96155142"
-    },
-    {
-      "id": "76ba00ef5b00",
-      "title": "DeltaLakeとは？ | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/4e378ef1b137e1",
-      "summary": "Data Warehouseは構造化データの高速・信頼性重視の分析向け、Data Lakeは生データを安価に貯める貯水池、Data Lakehouseは両者の利点を統合するアーキテクチャ。Delta LakeはLakehouseを実現する代表的なOSSのストレージ／テーブルフォーマット。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-01T12:06:38.000Z",
-      "contentHash": "5d9b9894f34d"
-    },
-    {
-      "id": "25fa8de4f7b1",
-      "title": "【ちょっと微妙な新機能】マネジメントコンソールにおけるリージョンおよびサービスの可視設定 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/account-customizations-console",
-      "summary": "2026年3月、AWSマネジメントコンソールに「アカウント色」「サービスの可視性」「リージョンの可視性」を設定できるUXC機能が追加。アカウント単位で全IAMエンティティの表示に影響するが、API実行は制限されない。コンソールとaws uxc CLIで設定可能。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-01T12:03:59.000Z",
-      "contentHash": "36739b2d55ce"
-    },
-    {
-      "id": "d9e41abc9039",
-      "title": "RubyKaigi 2026 に登壇しました | Timee Product Team Blog",
-      "url": "https://tech.timee.co.jp/entry/2026/05/01/190000",
-      "summary": "タイミーの神山がRubyKaigi 2026（函館、4/22–24）に参加・Day2で登壇。Kaigi Passで8名が参加。印象的だったのはA Faster FFI（ffx/FJITの工夫）、ZJITの高速化（Lightweight Frames）、MatzのKeynote（Spinel）。学びはレポートで公開中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-01T10:00:00.000Z",
-      "contentHash": "64063dbb1ed9"
-    },
-    {
-      "id": "d045416ba498",
-      "title": "RubyKaigi 2026 参加レポート | Social PLUS Tech Blogのフィード",
-      "url": "https://zenn.dev/socialplus/articles/5cfa128b8ddb0a",
-      "summary": "RubyKaigi 2026参加レポ。自社はGoldスポンサーで5名参加。印象的セッションはCRubyソースコード読解指南（VALUE型やinsns.def、AIで背景知識補完）と「型不要、呼べるメソッドだけ確認」案（AI開発向けにNoMethodErrorをCLIで検出するgem method-ray）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-01T09:00:07.000Z",
-      "contentHash": "27ca697073de"
-    },
-    {
-      "id": "ae110b0cef8d",
-      "title": "Codex のスラッシュコマンドまとめ",
-      "url": "https://note.com/npaka/n/n87a5c4364154",
-      "summary": "OpenAI Codexのスラッシュコマンドまとめ。'/'で一覧表示され、会話や作業モードの切替を素早く行えるショートカット。主な例：/review（コードレビュー）、/side（会話分岐）、/fork（ワークツリー分岐）、/plan、/memory、/status、/model、/feedback、/compact、/personality、/reasoning、/auto-review、/fast。",
-      "source": "npaka",
-      "publishedAt": "2026-05-01T06:51:29.000Z",
-      "contentHash": "7e27488ecaab"
-    },
-    {
-      "id": "3c8bd07284fb",
-      "title": "Unixにおけるリダイレクト処理を改めて確認 &amp;gt;file 2&amp;gt;&amp;amp;1 は実際にはなにをやっているのか | every Tech Blog",
-      "url": "https://tech.every.tv/entry/2026/05/01/111453",
-      "summary": "開発2部の内原が、シェルのリダイレクト（>fileや2>&1）がカーネルやプロセスレベルで何をするかを、ファイルディスクリプタとUnixシステムコールの観点から解説。fdはプロセスごとにカーネルが管理するファイルテーブルへの整数インデックスであると説明する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-01T02:14:53.000Z",
-      "contentHash": "89a0ba38a3db"
-    },
-    {
-      "id": "f42afba78394",
-      "title": "RubyKaigi 2026参加レポート —— 2026年新卒エンジニアが体験したセッション・ブース・市電LT | SmartHR Tech Blog",
-      "url": "https://tech.smarthr.jp/entry/2026/05/01/110623",
-      "summary": "SmartHRの新卒プロダクトエンジニア@itojumが、社員として初めて函館のRubyKaigi 2026に参加。セッションや社内外のRubyistとの交流で刺激を受け、特にtagomoris氏の基調講演など二つのセッションが印象的だった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-01T02:06:23.000Z",
-      "contentHash": "4c8349837f0b"
     }
   ]
 }
