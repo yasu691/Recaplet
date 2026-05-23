@@ -1,23 +1,77 @@
 {
-  "generatedAt": "2026-05-23T04:00:03.254Z",
+  "generatedAt": "2026-05-23T10:12:46.101Z",
   "items": [
+    {
+      "id": "1b95e6c4942b",
+      "title": "TSKaigi 2026 に参加してきました！ | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/05/23/171348",
+      "summary": "2026年5月開催のTSKaigi2026に弊社エンジニア6名が参加。ゴールドスポンサーとしてAI活用アンケートや食クイズ等のブース企画を実施。注目セッションはビジネスモデル起点のAI+開発、TypeScriptの歴史やテストの書き時等。会場の様子はアーカイブ公開予定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-23T08:13:48.000Z",
+      "contentHash": "25d3a98621e2"
+    },
+    {
+      "id": "8b8153417768",
+      "title": "Codex で部屋のトップビュー画像からの3Dモデル生成を試す",
+      "url": "https://note.com/npaka/n/n7ba334ed61e1",
+      "summary": "npakaが部屋のトップビュー画像からCodexでローポリボクセルの3D教室（Vite＋TypeScript＋Three.js、テクスチャは$imagegen）を生成する実験を報告。併せてGPT Image 2で四方向画像、Gemini Omniで360度動画化も試した。",
+      "source": "npaka",
+      "publishedAt": "2026-05-23T04:44:10.000Z",
+      "contentHash": "0ce9d6565173"
+    },
+    {
+      "id": "35039390e159",
+      "title": "Microsoft reports AI is more expensive than paying human employees",
+      "url": "https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents/",
+      "summary": "企業が従業員にAI利用を促進する中で問題が表面化。MicrosoftはClaude Codeの大半ライセンスを打ち切りCopilot CLIへ移行、UberはAIツール費用を短期間で使い果たした。導入や計算コストが想定より高く、AI置換の経済性は複雑だと指摘される。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-23T03:44:16.000Z",
+      "contentHash": "16eff94c7b27"
+    },
     {
       "id": "348485e42263",
       "title": "Is AI Profitable Yet?",
       "url": "https://isaiprofitable.com/",
-      "summary": "申し訳ありませんが、外部サイトへ直接アクセスできないため記事を取得できません。本文を貼っていただければ200字以内で要約します。要点や注目箇所でも可。",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文をここに貼っていただけますか？HNコメントも要約希望なら併せて貼るか指示をください。200文字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-05-23T02:10:38.000Z",
-      "contentHash": "eb6adaf3e716"
+      "contentHash": "99fcdb4b18a5"
     },
     {
       "id": "3c4b237dea47",
       "title": "OpenClawとは？ChatGPTとの違いからわかる「常駐AI秘書」の仕組み",
       "url": "https://note.com/npaka/n/n562ebadce4b5",
-      "summary": "OpenClawはセルフホストのオープンソースAI基盤で、SlackやDiscord経由で外部LLMやツールを連携し常駐する実行型AI秘書を作るゲートウェイ。ChatGPTが完成型の会話サービスなのに対し、OpenClawはセッション・ルーティング・チャネル管理で文脈や権限を制御し用途に応じたエージェントを構築できる。",
+      "summary": "OpenClawはセルフホストのオープンソースAI基盤で、SlackやDiscord等のチャットを外部LLMやツールに繋ぐゲートウェイ（セッション・ルーティング・チャネル管理）です。ChatGPTが完成済みの会話サービスなのに対し、OpenClawは常駐する実行型AI秘書を作るためのプラットフォームです。",
       "source": "npaka",
       "publishedAt": "2026-05-23T02:02:42.000Z",
-      "contentHash": "d84680305dc4"
+      "contentHash": "676ebea8fdc4"
+    },
+    {
+      "id": "fc5bc2079e9a",
+      "title": "FBI director's Based Apparel site has been spotted hosting a 'ClickFix' attack",
+      "url": "https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware",
+      "summary": "FBI長官カシュ・パテルが共同設立したグッズサイトBasedApparel.comが、macOS利用者を騙してマルウェアを実行させる“ClickFix”型攻撃を掲載。偽のCloudflare「人間確認」ページで悪意あるコマンド実行を促すと、ポルトガルの利用者が発見した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-23T00:34:25.000Z",
+      "contentHash": "5a1e6cb94fa9"
+    },
+    {
+      "id": "720168ee26b3",
+      "title": "TikTok disproportionately served anti-Democratic videos during the 2024 election",
+      "url": "https://www.psypost.org/tiktok-disproportionately-served-anti-democratic-videos-during-the-2024-election-study-finds/",
+      "summary": "研究チームは、2024年米大統領選中にTikTokの推薦アルゴリズムが反民主的な動画を不均衡に拡散・増幅し、多くの視聴者に届いたと報告。プラットフォームの透明性と規制強化が求められる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-22T23:51:56.000Z",
+      "contentHash": "10cb20443350"
+    },
+    {
+      "id": "6ba4a9b33117",
+      "title": "SpaceX launches Starship v3 rocket",
+      "url": "https://www.nbcnews.com/now/video/spacex-successfully-launches-prototype-of-starship-rocket-263835205505",
+      "summary": "SpaceXはスターシップ試作機の高高度打ち上げ試験に成功した。飛行や再突入、着陸技術の評価が目的で、将来の月・火星ミッションに向けた開発の一環だ。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-22T23:41:55.000Z",
+      "contentHash": "6c51636b624b"
     },
     {
       "id": "a31dee11d065",
@@ -27,6 +81,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-05-22T22:57:58.000Z",
       "contentHash": "cfa9e502ba2a"
+    },
+    {
+      "id": "0f54279bd744",
+      "title": "Sleep research led to a new sleep apnea drug",
+      "url": "https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug",
+      "summary": "トロント大のリチャード・ホーナー教授が30年以上の睡眠・呼吸研究で気道閉塞の主要な2経路を解明。これを標的とする薬が第3相で良好な結果を示し、世界約16億人の睡眠時無呼吸症治療に期待が高まっている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-22T22:05:39.000Z",
+      "contentHash": "d58ee5d90d54"
     },
     {
       "id": "280a415d97ea",
@@ -41,10 +104,10 @@
       "id": "5eed93bc540d",
       "title": "Shipping a laptop to a refugee camp in Uganda",
       "url": "https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda",
-      "summary": "著者はロンドン大学の遠隔課程で学ぶ仲間に出会い、コンゴ出身の難民Djangoはウガンダのキャンプで太陽光と限られたAirtel通信で学ぶ。DjangoのPCがバッテリ接続で故障し、著者は古いMacBookを送ろうとしたが、発送が想定より複雑だった。",
+      "summary": "外部サイトに直接アクセスできないため、記事本文をここに貼ってください。貼れない場合は「目的、困難、対処、結果」の要点を教えていただければ、200字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-05-22T21:36:55.000Z",
-      "contentHash": "3ddc3022290a"
+      "contentHash": "97bb65c3f41d"
     },
     {
       "id": "c99a512455e5",
@@ -56,13 +119,22 @@
       "contentHash": "3507ab3b6912"
     },
     {
+      "id": "0ebfa3b20bd3",
+      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
+      "url": "https://github.com/anomalyco/models.dev",
+      "summary": "models.devはAnomaly Co.のオープンAIモデル検索・カタログリポジトリで、各モデルのメタデータ・ライセンス・導入情報を整理・表示するサイトとコードを提供。HNでは使いやすさやHugging Faceとの違い、収録モデルやライセンス表記の改善点が議論された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-22T20:26:07.000Z",
+      "contentHash": "990436469fd8"
+    },
+    {
       "id": "9d44573c198f",
       "title": "Project Glasswing: An Initial Update",
       "url": "https://www.anthropic.com/research/glasswing-initial-update",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文をここに貼り付けていただければ、200文字以内で日本語要約します。Hacker Newsのコメントも一緒に貼ればそれも反映できます。",
+      "summary": "外部URLに直接アクセスできないため、記事本文を貼り付けるか主要箇所を教えてください。貼っていただければ200文字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-05-22T19:31:45.000Z",
-      "contentHash": "8671f79306e2"
+      "contentHash": "c000a87339b3"
     },
     {
       "id": "d47b4c04d2ce",
@@ -167,10 +239,10 @@
       "id": "cfd81863ddbd",
       "title": "AtlassianがJira・ConfluenceのデータをAI体験改善に利用へ、オプトアウト可否と情シスの対処法 | CloudNative BLOGs",
       "url": "https://blog.cloudnative.co.jp/articles/atlassian-data-contribution-ai-optout/",
-      "summary": "Atlassianは2026年8月17日からJira/Confluence/JSM等のアプリ内データと派生メタデータを全顧客向けのアプリ・AI改善に利用します。アプリ内データは全プランで管理者が無効化可能ですが、メタデータのオプトアウトはEnterpriseのみ。設定UIは5月19日までに提供済です。",
+      "summary": "Atlassianは2026年8月17日からJira/Confluence/JSM等のアプリ内データと派生メタデータを全顧客向けのアプリ・AI改善に利用（デフォルト有効のオプトアウト方式）。アプリ内データは全プランで管理者がオフ可能だが、メタデータはEnterpriseのみ停止可。設定UIは5月19日までに提供済み。機密情報の横断利用がガバナンス上の懸念。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-22T15:32:00.000Z",
-      "contentHash": "67b99aacc060"
+      "contentHash": "2b9c26047bdd"
     },
     {
       "id": "09b36c1f1b76",
@@ -302,10 +374,10 @@
       "id": "7090f826cbfa",
       "title": "【セキュリティ対応】複数サブシステムで構成されるPythonプロジェクト(with AWS SAM)におけるパッケージ管理の改善 | Fusic 技術ブログのフィード",
       "url": "https://zenn.dev/fusic/articles/7cebdc2e939e2d",
-      "summary": "サプライチェーン攻撃増加を受けPythonのパッケージ管理を見直したが、pip/pipenv/poetry/uv/condaなど選択肢が多く役割が曖昧でベスプラが分かりにくい。",
+      "summary": "サプライチェーン攻撃対策として、AWS SAMで構成された複数サブシステムのPythonプロジェクトで依存管理をuvで統一。pyproject.toml→uv.lockで全依存を固定し、各サブシステムのrequirements.txtを自動生成、CIで整合性を検証して運用複雑性を低減。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-22T09:25:36.000Z",
-      "contentHash": "f3fafa17f810"
+      "contentHash": "e6b0e21298a6"
     },
     {
       "id": "ef545ff45f53",
@@ -374,10 +446,10 @@
       "id": "4073151b1b50",
       "title": "Autodesk Flow Studio + Codex で3Dゲームの作成を試す",
       "url": "https://note.com/npaka/n/na559f5f1d136",
-      "summary": "Autodesk Flow Studioで画像から女の子・床・星の3Dモデルを生成（ダウンロードはサブスク必要）、Mixamoでモーション取得、three.jsに変換してビューアを作成。ChatGPTで画面画像を作り、Codexに指示して奥行きスクロールのジャンプゲームを反復開発（操作やエフェクト、切替など細かく調整）。",
+      "summary": "Autodesk Flow Studioで画像から女の子・床・スターの3Dモデルを作り、Mixamoのモーションを組み込んでthree.js(Vite+TS)で表示。ChatGPTで画面素材を用意し、Codexでジャンプ系スクロールゲームを生成・反復調整して操作性やエフェクト、スコア・ライフ・ビュー切替などを実装した。",
       "source": "npaka",
       "publishedAt": "2026-05-22T08:24:37.000Z",
-      "contentHash": "029f76f442ea"
+      "contentHash": "0dec3ad59bf6"
     },
     {
       "id": "70d3c346b235",
@@ -914,10 +986,10 @@
       "id": "aa456c350331",
       "title": "Blender のテクスチャペイントの使い方",
       "url": "https://note.com/npaka/n/n3bf7b376d59b",
-      "summary": "Blender（5.1.1）のテクスチャペイントは、3Dモデル上で直接テクスチャ画像を編集する機能。モード切替・テクスチャ選択・スポイト（Shift+X）で色を拾い、Paint/Soft Paint/Blur/Smear/Clone/Fill/Maskなどで自然に修正できます。",
+      "summary": "Blender 5.1.11のテクスチャペイント解説。モデル上で直接テクスチャを編集する手順（モード切替・テクスチャ選択）と、スポイト(Shift+X)で色を拾ってPaint/Soft Paint/Blur/Smear/Clone/Fill/Maskなどで修正するコツとツール用途を紹介。",
       "source": "npaka",
       "publishedAt": "2026-05-21T10:33:52.000Z",
-      "contentHash": "09579b470e44"
+      "contentHash": "121cf5ace7e5"
     },
     {
       "id": "70549b8a620a",
@@ -1202,10 +1274,10 @@
       "id": "f8f41b75276d",
       "title": "Antigravity 2.0 ・ Antigravity CLI ・ Antigravity SDK ・ Antigravity IDE の概要",
       "url": "https://note.com/npaka/n/n684187248936",
-      "summary": "GoogleのAntigravityは単一のAI IDEから、Antigravity 2.0（デスクトップのAgent Manager）、Antigravity CLI（端末でエージェント操作、Gemini CLIから移行）、Antigravity SDK（統合・拡張）、Antigravity IDE（従来の編集）に分かれたエージェント型開発プラットフォームへ移行。開発者は行単位のコーディングよりタスク定義とエージェントの監督・レビューに重点を置くようになる。",
+      "summary": "GoogleのAntigravityは単一のAI IDEから、Antigravity 2.0（Agent Manager中心のデスクトップ）、CLI、SDK、IDEで構成されるエージェント型開発プラットフォームへ移行。AIエージェントが開発タスクを実行・監視する役割分担に。",
       "source": "npaka",
       "publishedAt": "2026-05-20T21:01:07.000Z",
-      "contentHash": "f0240bb7319b"
+      "contentHash": "5b6469b30d5d"
     },
     {
       "id": "ec9080e51da1",
@@ -1607,10 +1679,10 @@
       "id": "4d797953d265",
       "title": "Google Flow Music の使い方",
       "url": "https://note.com/npaka/n/n68e7d8194c3d",
-      "summary": "Google Flow Musicはテキスト・画像・音声から曲やMV、プレイリストを生成するGoogleのAI音楽サービス。プロンプト（ジャンル・雰囲気・テンポ・楽器・歌詞）で曲を作り、Composeで歌詞やサウンドを細かく調整、Remixで延長・別アレンジ・差し替えして公開・共有・ダウンロードできる。",
+      "summary": "Google Flow Musicはテキスト・画像・音声から曲やMVを生成するGoogleのAIサービス。プロンプトで楽曲を作成・再生し、Composeで歌詞・音色・詳細を微調整、Remixで延長・別アレンジ・一部差替えが可能。編集は少しずつ行うのがコツ。",
       "source": "npaka",
       "publishedAt": "2026-05-20T05:55:00.000Z",
-      "contentHash": "851693452b8f"
+      "contentHash": "906b981ea692"
     },
     {
       "id": "95f72d557cc6",
@@ -1805,10 +1877,10 @@
       "id": "659861350af7",
       "title": "Google Flow ・ Flow Music の新機能 - Gemini Omni ・ エージェント ・ モバイルアプリ",
       "url": "https://note.com/npaka/n/n47ffe842981b",
-      "summary": "Googleは「Google Flow」「Google Flow Music」を強化。動画生成・編集特化の新モデル「Gemini Omni」、制作支援の「Google Flow Agent」、自然言語で作る「Flow Tools」、モバイル対応、楽曲の部分編集やスタイル変換、Geminiによるミュージックビデオ制作などを追加し、制作工程をAIで幅広く支援します。",
+      "summary": "Googleはクリエイター向けAI制作ツール「Google Flow」「Google Flow Music」を更新。動画生成に強いマルチモーダル新モデルGemini Omni、制作支援のFlow Agent、自然言語で作れるFlow Tools、モバイルアプリを追加。Flow Musicは部分編集や全体のスタイル変換、Gemini Omniによるミュージックビデオ制作を強化。",
       "source": "npaka",
       "publishedAt": "2026-05-19T22:27:00.000Z",
-      "contentHash": "a10b65a59d63"
+      "contentHash": "a4be5a954fa4"
     },
     {
       "id": "1bab959f9a60",
@@ -8928,78 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-05-02T21:25:05.000Z",
       "contentHash": "7a75aa17251b"
-    },
-    {
-      "id": "c1baaa073231",
-      "title": "The agent harness belongs outside the sandbox",
-      "url": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
-      "summary": "エージェントのハーネスはサンドボックス内で動くか外部バックエンドで動くかの二択があり、セキュリティ・障害特性やスキル・メモリ共有に影響する。著者はマルチユーザー環境で外部化する利点を論じる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-02T21:21:27.000Z",
-      "contentHash": "dddaf1bddf29"
-    },
-    {
-      "id": "1cf11ea93906",
-      "title": "Six Years Perfecting Maps on WatchOS",
-      "url": "https://www.david-smith.org/blog/2026/04/29/maps-on-watchos/",
-      "summary": "著者は山歩きで腕時計の地図を必須とし、6年以上かけてApple Watch向け地図を磨いた。Pedometer++ 8で到達点を示し、サーバ生成地図の限界を経てSwiftUIネイティブの独自レンダリングでオフラインやウィジェット対応を実現した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-02T21:14:29.000Z",
-      "contentHash": "3acab0eabc5b"
-    },
-    {
-      "id": "b01b16decd36",
-      "title": "Meta&#8217;s historic loss in court could cost a lot more than $375 million",
-      "url": "https://www.theverge.com/policy/922380/new-mexico-meta-public-nuisance-trial-kids-safety",
-      "summary": "ニューメキシコ州の司法長官がメタに対し児童安全訴訟で3.75億ドルの勝訴。続く審理では年齢確認や未成年の端末でのE2E禁止など、Facebook/Instagram/WhatsAppの事業変更を巡る命令が争われ、業界への波及も懸念される。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-02T18:25:26.000Z",
-      "contentHash": "b23208ec1fcc"
-    },
-    {
-      "id": "741cb941d345",
-      "title": "Spirit Airlines shuts down after Trump’s war on Iran doubled jet fuel prices",
-      "url": "https://www.theverge.com/business/922788/spirit-airlines-shutdown",
-      "summary": "超格安航空スピリット・エアラインが34年の歴史に幕を閉じ、トランプの対イラン戦争でジェット燃料価格が倍増した影響で5月2日早朝に全便を運航停止・欠航。公式サイトは再建用に転送され、利用客や従業員が取り残された。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-02T17:51:04.000Z",
-      "contentHash": "f368aaa15817"
-    },
-    {
-      "id": "d3244a999c15",
-      "title": "Aura’s delightful Aspen photo frame is on sale for $30 off this weekend",
-      "url": "https://www.theverge.com/gadgets/922513/aura-aspen-carver-walden-digital-photo-frame-mothers-day-deal-sale",
-      "summary": "Auraの12インチデジタルフォトフレーム「Aspen」が週末セールで30ドル引きの199ドルに。鮮やかな液晶で実物感があり、世界中の家族が写真・動画を送れる（購読不要）。母の日の贈り物に最適。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-02T17:00:00.000Z",
-      "contentHash": "810d85be1b3a"
-    },
-    {
-      "id": "1bacc0077242",
-      "title": "LLMs consistently pick resumes they generate over ones by humans or other models",
-      "url": "https://arxiv.org/abs/2509.00462",
-      "summary": "求人審査でLLMが自ら生成した履歴書を優遇する「自己優先」現象を大規模実験で確認。同モデル生成は人間・他モデルより67–82%有利で、採用候補入りは23–60%増、販売・会計で特に顕著。簡単な介入で偏りを50%以上軽減可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-02T15:28:13.000Z",
-      "contentHash": "c8958b47d882"
-    },
-    {
-      "id": "ff719a5f9971",
-      "title": "Anker’s discounted 2-in-1 USB-C cable is a great way to spend $15",
-      "url": "https://www.theverge.com/gadgets/922288/native-union-anker-2-in-1-usb-c-cable-mothers-day-sale-deal",
-      "summary": "Ankerの2-in-1 USB-Cケーブルが約15ドルで割引中。1本で2台同時充電でき、最大140W対応のモデルもあり、壁充電器のポートを節約できると著者が推奨している。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-02T13:56:12.000Z",
-      "contentHash": "7064b9d34833"
-    },
-    {
-      "id": "b7ba2292c2d1",
-      "title": "Russia Poisons Wikipedia",
-      "url": "https://www.bettedangerous.com/p/russia-poisons-wikipedia",
-      "summary": "ロシアがウィキペディアを悪用し、群衆編集の仕組みで事実を歪めプーチン礼賛や歴史改竄を行い、AIや公衆認識に影響を与える「外国のデジタル干渉」を引き起こしている。報告はソックパペットによる戦争関連ページ操作を指摘。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-02T13:07:50.000Z",
-      "contentHash": "1e1659b479a4"
     }
   ]
 }
