@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-05-24T04:21:36.489Z",
+  "generatedAt": "2026-05-24T10:15:42.621Z",
   "items": [
+    {
+      "id": "356817782cb2",
+      "title": "VFX 入門",
+      "url": "https://note.com/npaka/n/n326e7773eff1",
+      "summary": "VFX（視覚効果）は実写にCGや合成処理を加え、現実に撮れない映像を自然に作る技術。CGはVFXの一部で、コンポジット、キーイング、ロトスコープ、トラッキング、マッチムーブ、クリーンアップ、ペイントなど多様な作業を含み、良いVFXは観客に気づかれない。",
+      "source": "npaka",
+      "publishedAt": "2026-05-24T06:48:45.000Z",
+      "contentHash": "b9b93e434b40"
+    },
+    {
+      "id": "a85b335c077c",
+      "title": "Codex + Agent Sprite Forge でRPGの街の生成を試す",
+      "url": "https://note.com/npaka/n/n34b00d58dfbe",
+      "summary": "CodexとAgent Sprite ForgeでRPGの街を自動生成する試み。ChatGPTでトップビュー画像を作り、Codexでローポリボクセルの3DマップをThree.jsで生成。$imagegenでテクスチャ修正、$generate2dspriteで斜め含むビルボード主人公スプライトを作成し画面内のマス移動に対応させて完成。",
+      "source": "npaka",
+      "publishedAt": "2026-05-24T05:28:01.000Z",
+      "contentHash": "7b3f7ae54ab2"
+    },
+    {
+      "id": "effcfa7bd032",
+      "title": "Snowflake Cortex Agent と Cortex Search を活用したアップセル・クロスセル支援システムの構築 | Snowflake Data Heroesのフィード",
+      "url": "https://zenn.dev/dataheroes/articles/2026-05-24-snowflake-cortex-agent-cortex-search",
+      "summary": "SnowflakeのCortex Agent／Cortex SearchとSalesforceを使い、商談要約と製品説明を照合してアップセル・クロスセルを支援する仕組みを提案。バッチ／インタラクティブ×クロス／アップの4パターンと必要データ（商談要約、SERVICE_DESCRIPTION、Cortex LLM、契約・利用データ、Cortex Search）を整理。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-24T05:26:05.000Z",
+      "contentHash": "5ff2b1653de5"
+    },
+    {
+      "id": "7e9cf5d46318",
+      "title": "Cortex Search と Salesforce を活用した営業支援の仕組み | Snowflake Data Heroesのフィード",
+      "url": "https://zenn.dev/dataheroes/articles/2026-05-24-cortex-search-salesforce",
+      "summary": "対話ログをCortex Search＋LLMで解析し、アップグレード関心顧客を抽出してSalesforceへ連携。営業の仮説設計とHuman-in-the-Loopで小さく始め反復改善。Cortex Agent中心を推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-24T05:26:04.000Z",
+      "contentHash": "3fae712e4908"
+    },
+    {
+      "id": "cfb100f82aba",
+      "title": "Snowflake - Cortex Code を用いた Cortex Agent / Analyst の活用 | Snowflake Data Heroesのフィード",
+      "url": "https://zenn.dev/dataheroes/articles/2026-05-24-snowflake-cortex-code-cortex-agent",
+      "summary": "各UIごとにCortex Agent/Analystを別構築する必要はなく、バックエンドは共通で再利用可。セマンティックビューとAgentを整備すればSnowflake Intelligence、Snowsight、CLI、Teams等から利用可能。担当分担と推奨UIを提示。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-24T05:16:47.000Z",
+      "contentHash": "87c8aba4cfd4"
+    },
+    {
+      "id": "01d375e1e595",
+      "title": "Snowflake GPA フレームワークに基づいたノーコード・ローコードなモニタリング戦略 | Snowflake Data Heroesのフィード",
+      "url": "https://zenn.dev/dataheroes/articles/2026-05-24-snowflake-cortex-agent-analyst",
+      "summary": "SnowflakeのGPA（Goal-Plan-Action）フレームワークを使い、主にSnowsightのノーコード操作でCortex Agent/Analystを継続監視する手法を解説。目標・計画・実行の三軸で評価し、一部アラート設定に最小限のSQLが必要。GPAは従来手法より高精度（例：95%のエラー検出）で問題箇所を特定可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-24T05:16:46.000Z",
+      "contentHash": "697c325b5a24"
+    },
+    {
+      "id": "b7f76dcbe1ac",
+      "title": "Cortex Agent / Analyst における LLM と人間が協調して間違いを検出し、修正する機構 | Snowflake Data Heroesのフィード",
+      "url": "https://zenn.dev/dataheroes/articles/2026-05-24-cortex-agent-analyst-llm",
+      "summary": "Cortex Agent/AnalystでのLLM出力は利用者が正誤を判断しにくく、情報の非対称で誤りが連鎖する。対策は事前防止（セマンティックビュー整備・VQR）、リアルタイム検知（異常検知・クロス検証）、事後修正を組合せ、実装優先度を示すこと。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-24T05:11:35.000Z",
+      "contentHash": "62d3e0078a0c"
+    },
+    {
+      "id": "80585e757216",
+      "title": "Microsoft Fabricの最初の一歩 - OneLakeとLakehouseで理解する「データの置き場と流れ」 | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2026/05/24/131847",
+      "summary": "Microsoft Fabric入門。OneLakeは全社共通のデータ置き場、Workspaceは作業領域（OneLake内の領域）、LakehouseはData LakeとData Warehouseを統合した保存・整理の仕組みで、これらでデータの保管場所と流れを理解する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-24T04:18:47.000Z",
+      "contentHash": "38893e4e23f0"
+    },
     {
       "id": "9e90422c3aae",
       "title": "【Backstage】AI関連リソースもカタログ管理してさらに効率化しよう | APC 技術ブログ",
@@ -212,10 +284,10 @@
       "id": "8799fe2fa9af",
       "title": "OpenClaw入門 (2) - 事始め",
       "url": "https://note.com/npaka/n/n1f3b978ed400",
-      "summary": "OpenClawはローカルで動く個人用AIアシスタントで、常駐のGatewayを中心にDashboardやCLI、チャット連携を行います。Node.jsや各種APIキーを用意し、提供のインストールコマンドで導入。オンボーディングでモデル認証、ワークスペース、チャネル、デーモン等を設定し、共有利用時はセキュリティに注意。最後にGatewayの稼働確認を行います。",
+      "summary": "OpenClawは常駐のGatewayを軸にDashboard/CLI/TUIやチャネルと連携するパーソナルAI。Node.jsと各モデルプロバイダの認証情報を用意し、提供のインストール後にonboardで認証・ワークスペース・チャネル・デーモン等を設定。デフォルトは個人利用で、公開や複数人利用時は追加のセキュリティ対策が必要。起動後はGatewayの状態を確認する。",
       "source": "npaka",
       "publishedAt": "2026-05-23T10:05:19.000Z",
-      "contentHash": "3e907954e864"
+      "contentHash": "6d8221d500a4"
     },
     {
       "id": "e5016380c476",
@@ -266,10 +338,10 @@
       "id": "8b8153417768",
       "title": "Codex で部屋のトップビュー画像からの3Dモデル生成を試す",
       "url": "https://note.com/npaka/n/n7ba334ed61e1",
-      "summary": "部屋のトップビュー画像からCodexでVite+TypeScript+Three.jsのローポリ・ボクセル教室3Dを生成し、テクスチャは$imagegenで作成。机・椅子を独立モデル化して配置UI（通常・掃除・給食）を追加。GPT Image 2で4方向画像、Gemini Omniで360度動画化も試行。",
+      "summary": "Codexで部屋のトップビュー画像からローポリボクセルの3Dモデル（Vite+TypeScript+Three.js）を生成し、テクスチャは$imagegenで作成。机と椅子を独立モデル化して配置切替UI（デフォルト・掃除・給食）を追加。さらにGPT Image 2で四方向画像、Gemini Omniで360度動画化も試行。",
       "source": "npaka",
       "publishedAt": "2026-05-23T04:44:10.000Z",
-      "contentHash": "2338bec0d667"
+      "contentHash": "45b257cf2ba9"
     },
     {
       "id": "35039390e159",
@@ -293,10 +365,10 @@
       "id": "3c4b237dea47",
       "title": "OpenClaw 入門 (1) - 概要",
       "url": "https://note.com/npaka/n/n562ebadce4b5",
-      "summary": "OpenClawはセルフホストのAIアシスタント基盤で、Slack/Discord/Telegram等のチャットから外部LLMやツールをつなぎ、セッション管理・ルーティング・権限・スケジューラで常駐する実行型エージェントを作る点がChatGPTと異なる。",
+      "summary": "OpenClawはChatGPTと異なり、セルフホスト型のAIアシスタント基盤（ゲートウェイ）です。Slack等のチャットと外部LLMやツールを連携し、メール・カレンダー・ファイル操作や定期実行を行う常駐AI秘書をセッション管理やルーティングで実現します。",
       "source": "npaka",
       "publishedAt": "2026-05-23T02:02:42.000Z",
-      "contentHash": "53ad1827188d"
+      "contentHash": "abce6de68607"
     },
     {
       "id": "fc5bc2079e9a",
@@ -1373,10 +1445,10 @@
       "id": "f5e5e388137b",
       "title": "Autodesk Flow Studio での 3Dモデル生成 を試す",
       "url": "https://note.com/npaka/n/n71d2e9c9df40",
-      "summary": "Autodesk Flow StudioのAI群（Wonder Tools/Wonder 3D）でText to Image、Image to 3D、Text to 3Dを試験。プロンプトや画像から生成→メッシュ選択→ポリゴン/トポロジー設定→リギングで動作確認。書き出しは有料。",
+      "summary": "Autodesk Flow StudioのWonder Tools（Wonder 3D）でText to 3D、Image to 3D、Text to Imageを試用。プロンプトや画像からメッシュ生成、ポリ数・トポロジ選択、Humanoid bipedalでリギングし関節配置・モーション生成。ダウンロードは有料でCodexと連携可能。",
       "source": "npaka",
       "publishedAt": "2026-05-21T02:36:23.000Z",
-      "contentHash": "422ec5f1c093"
+      "contentHash": "0328db288bc4"
     },
     {
       "id": "dbba57691bfb",
@@ -1526,10 +1598,10 @@
       "id": "f8f41b75276d",
       "title": "Antigravity 2.0 ・ Antigravity CLI ・ Antigravity SDK ・ Antigravity IDE の概要",
       "url": "https://note.com/npaka/n/n684187248936",
-      "summary": "GoogleのAntigravityは単一のAI IDEから、Antigravity 2.0（エージェント管理のデスクトップ）、Antigravity CLI、SDK、IDEの4製品で構成される「エージェント型開発プラットフォーム」へ移行。開発者はコードを書くよりタスク定義とAIエージェントの監督・レビューを行い、Gemini CLIは段階的にAntigravity CLIへ移行する。",
+      "summary": "GoogleのAntigravityは単一IDEから、Antigravity 2.0（Agent Manager中心のデスクトップ）、Antigravity CLI、SDK、IDEの四構成によるエージェント型開発プラットフォームへ再編。開発者はコード執筆よりAIエージェントにタスクを委任・監督・レビューする役割に移行し、Antigravity CLIはGemini CLIから段階的に移行される。",
       "source": "npaka",
       "publishedAt": "2026-05-20T21:01:07.000Z",
-      "contentHash": "c009641f1630"
+      "contentHash": "3dbfc24efcad"
     },
     {
       "id": "ec9080e51da1",
@@ -8928,78 +9000,6 @@
       "source": "OpenAI",
       "publishedAt": "2026-05-04T00:00:00.000Z",
       "contentHash": "e6fc83eb306f"
-    },
-    {
-      "id": "5a1d2b11d4c5",
-      "title": "The text mode lie: why modern TUIs are a nightmare for accessibility",
-      "url": "https://xogium.me/the-text-mode-lie-why-modern-tuis-are-a-nightmare-for-accessibility",
-      "summary": "「ターミナル＝アクセシブル」は誤解。CLIの時系列ストリームとTUIの2Dグリッドは別物で、InkやBubble Tea等の近代TUIは頻繁な再描画でSpeakupやNVDAをスパムし、視覚障害者には逆に使いにくい。gemini-cliが実例。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-03T23:59:02.000Z",
-      "contentHash": "5b7a77a7ba96"
-    },
-    {
-      "id": "d6a383fc9c87",
-      "title": "Let's Buy Spirit Air",
-      "url": "https://letsbuyspiritair.com/",
-      "summary": "外部リンクの内容を直接開けないため、記事本文を貼っていただけますか？貼っていただければ200文字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-03T23:36:11.000Z",
-      "contentHash": "ff4b497cc4df"
-    },
-    {
-      "id": "50cae89b94a9",
-      "title": "The 'Hidden' Costs of Great Abstractions",
-      "url": "https://jdgr.net/the-hidden-costs-of-great-abstractions",
-      "summary": "抽象化で複雑さは隠れるが理解は低下。高速化で開発者はライブラリやLLMに頼り、見た目は良くても品質は怪しい。良否を見分ける専門知識が必要で、著者は負傷で選択肢が限られた自身の経歴を語る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-03T23:12:02.000Z",
-      "contentHash": "f48dd223cd43"
-    },
-    {
-      "id": "13622ee3999d",
-      "title": "Agentic Coding Is a Trap",
-      "url": "https://larsfaye.com/articles/agentic-coding-is-a-trap",
-      "summary": "記事は、AIエージェント中心のコーディング（SDD）が普及する一方で罠だと警告する。生成コードとの乖離、AI非決定性対応の複雑化、技能の萎縮、ベンダーロックイン、コスト変動が問題で、批判的に検証できる熟練者が不可欠だがAIはその思考力を損なう。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-03T22:52:07.000Z",
-      "contentHash": "e6372cac3006"
-    },
-    {
-      "id": "89f78b7ddf36",
-      "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro",
-      "url": "https://github.com/aattaran/deepclaude",
-      "summary": "deepclaudeはClaude Codeの思考モデルをDeepSeek V4 ProやOpenRouter等に差し替え、同じUXで約17倍安く動かせるツール。CLI、ファイル編集、bash実行やサブエージェント対応で、APIキー設定とスクリプト配置ですぐ利用可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-03T22:13:20.000Z",
-      "contentHash": "31f27e67449c"
-    },
-    {
-      "id": "ffd23e919e1c",
-      "title": "New statue in London, attributed to Banksy, of a suited man, blinded by a flag",
-      "url": "https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/",
-      "summary": "中央ロンドンのウォータール・プレイスに、旗で目を覆われ崖から落ちそうなスーツ姿の彫像が深夜に設置され、署名とBanksyの公式Instagram投稿で本人作とみられ話題に。近隣の伝統的な記念碑と対比して議論を呼んでいる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-03T18:54:28.000Z",
-      "contentHash": "9a91118d6992"
-    },
-    {
-      "id": "2b4472079bac",
-      "title": "Why TUIs are back",
-      "url": "https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/",
-      "summary": "記事はTUIの復活を論じる。DHHのOmarchyはTUI・Webアプリ・ネイティブを併用し、コードエディタでもネイティブ→Electron→vim/emacsの流れがあったと指摘。ネイティブGUIは衰退し、Windowsは頻繁なGUIフレームワークの刷新で断片化・複雑化し機能後退が生じ、Electron依存が残ると結論づける。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-03T18:42:28.000Z",
-      "contentHash": "2193fed3591f"
-    },
-    {
-      "id": "0d23894b0849",
-      "title": "BYOMesh – New LoRa mesh radio offers 100x the bandwidth",
-      "url": "https://partyon.xyz/@nullagent/116499715071759135",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文をここに貼るか主要ポイントを教えてください。いただければ200字以内で日本語に要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-03T18:03:14.000Z",
-      "contentHash": "75a60a7ff7ec"
     }
   ]
 }
