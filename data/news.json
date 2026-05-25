@@ -1,6 +1,177 @@
 {
-  "generatedAt": "2026-05-24T17:23:19.741Z",
+  "generatedAt": "2026-05-25T04:30:59.363Z",
   "items": [
+    {
+      "id": "10c12a2f11cb",
+      "title": "Claude Code on the web のクラウド環境を devbox + direnv で構築する | CARTA TECH BLOG",
+      "url": "https://techblog.cartaholdings.co.jp/entry/devbox-on-cc-web",
+      "summary": "Claude Code on the web のクラウド環境を devbox + direnv で再現する手順を紹介。devbox.json でNodeなどのバージョン固定とCLI群を再現し、Setup script一枚でスナップショット化。設計判断や注意点も解説。手元での検証を推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-25T02:30:00.000Z",
+      "contentHash": "a50068197452"
+    },
+    {
+      "id": "1eafb27702da",
+      "title": "みのるんさんをお招きしてAIエージェント開発講演を開催しました！ | ASKUL Engineering BLOG",
+      "url": "https://tech.askul.co.jp/entry/2026/05/25/110717",
+      "summary": "アスクルでKDDIの御田稔（みのるん）氏を招きAIエージェント開発講演を開催。A-BOSSやVibe商談、スライド自動生成、M365秘書エージェントなど実演し、Q&Aやじゃんけん・サイン会で社内の関心と満足度が大幅に高まった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-25T02:07:17.000Z",
+      "contentHash": "f6dfd8880c44"
+    },
+    {
+      "id": "268505ca7294",
+      "title": "【小ネタ】AWS API のアクション名をターミナルから離れずに取得・把握したい | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/aws_service_reference",
+      "summary": "AWS CLI利用者向けに、ブラウザを開かずターミナルでAPIアクション名を把握する方法を紹介。servicereference.us-east-1.amazonaws.comのJSONインデックスが各サービスの詳細JSONのURLを返し、ポリシー管理やAPI名検索の自動化に使える。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-25T02:03:37.000Z",
+      "contentHash": "21a163931e8c"
+    },
+    {
+      "id": "71c2f37bfd95",
+      "title": "SIerの経験は大規模サービス運用でどう生きるのか。LINEのSRE Opsで見えたキャリアの広げ方 | LINEヤフー Tech Blog (LY Corporation Tech Blog",
+      "url": "https://techblog.lycorp.co.jp/ja/20260525a",
+      "summary": "SIerでの運用・インフラ・リリースなどの経験が事業会社や大規模サービスの現場で通用するか、キャリアを広げたいエンジニアが抱く疑問を問う記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-25T02:00:00.000Z",
+      "contentHash": "455961774b18"
+    },
+    {
+      "id": "c444e0dfc7b5",
+      "title": "ユーザインタフェース操作のパフォーマンスを公平に計算するには？（CHI 2026採択論文解説） | LINEヤフー Tech Blog (LY Corporation Tech Blog",
+      "url": "https://techblog.lycorp.co.jp/ja/20260525b",
+      "summary": "LINEヤフー研究所のHCI研究者・山中が登場し、新しいマウスを買う際に何を重視するかを読者に問いかける導入文。例として価格や持ちやすさが挙げられている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-25T02:00:00.000Z",
+      "contentHash": "ad1b4f76763f"
+    },
+    {
+      "id": "d0fdec4174ec",
+      "title": "ZOZOTOWNを支えるリアルタイム連携基盤の再設計 ── ETL層をGoで作り直した事例 | ZOZO TECH BLOG",
+      "url": "https://techblog.zozo.com/entry/realtime-streaming-replace",
+      "summary": "ZOZOTOWNはオンプレのSQL Server→BigQueryのリアルタイム連携で、ETL層をFluent Bit上のGoプラグインで再設計。約400テーブルを低遅延・安定処理するため、取得/エンコードや送信/ACKを分離し、将来的にCDC移行を検討している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-25T02:00:00.000Z",
+      "contentHash": "af4e4d75a662"
+    },
+    {
+      "id": "a735791147b8",
+      "title": "Generative AI Japanのウェビナー に登壇させていただきました！ | COLOPL Tech Blog",
+      "url": "https://blog.colopl.dev/entry/2026/05/25/110000",
+      "summary": "コロプラの採用・技術広報担当A.T.の記事です。2026年4月28日のGenerative AI JapanウェビナーでCIO菅井が登壇し、社員の9割以上が生成AIを活用するに至った経緯と、導入を全社定着・プロダクト実装までつなげた取り組みを紹介したセッション内容をまとめています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-25T02:00:00.000Z",
+      "contentHash": "62d6f5c88cae"
+    },
+    {
+      "id": "78b4b8bba521",
+      "title": "【2026年5月】OSSサポートエンジニアが気になった！OSS最新ニュース | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/52739",
+      "summary": "SIOS Tech Labの5月号。OSSサポートエンジニア向け最新ニュースで、2017年から潜伏していたLinuxカーネルの深刻脆弱性「Copy Fail」が重大リスクとして判明したことを報告しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-25T01:55:41.000Z",
+      "contentHash": "f9129843ba0d"
+    },
+    {
+      "id": "baf7e769f691",
+      "title": "AI時代こそ、コミュニケーション力が武器になる～AIとの対話が教えてくれた、伝える力の本質～ | [公開中] AQ Tech Blog",
+      "url": "https://techblog.asia-quest.jp/202605/communication-skills-in-ai-era",
+      "summary": "ChatGPT、Claude、GitHub CopilotなどのAIツールは、現在エンジニアの日常業務に欠かせない存在となっている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-25T01:51:40.000Z",
+      "contentHash": "e55d1e9fe7d6"
+    },
+    {
+      "id": "371733d77ae0",
+      "title": "知っておくとちょっと便利！ターミナル操作の時短テクニック1 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/52737",
+      "summary": "Linuxのターミナル操作で入力の手間を減らす時短テクニックを紹介する記事。便利なショートカットや効率的な操作法をまとめ、関連する過去記事も参照できる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-25T01:39:30.000Z",
+      "contentHash": "5078bd591fae"
+    },
+    {
+      "id": "1fd2b0980136",
+      "title": "CBP Directive 3340-049B: Border Search of Electronic Devices",
+      "url": "https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices",
+      "summary": "米国CBPの電子機器検査指令。国境で端末やデータを令状なしで検索可能とし、手動検索は日常対応、フォレンジック解析や長期保管は上長承認・合理的疑いや記録・プライバシー配慮の手続きを定める。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-24T19:12:46.000Z",
+      "contentHash": "abfeba70ee4d"
+    },
+    {
+      "id": "495646d6f868",
+      "title": "A fundamental principle of aeronautical engineering has been overturned",
+      "url": "https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/",
+      "summary": "申し訳ありませんが、外部URLを直接閲覧できません。記事本文を貼り付けていただくか、重要な箇所を教えてください。いただければ200文字以内で要約します。必要ならHNの議論要点のコピペでも可です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-24T19:10:26.000Z",
+      "contentHash": "39aae0c5bd90"
+    },
+    {
+      "id": "8e6710b187c9",
+      "title": "The four-day workweek in Australia: insights from early adopters of 100:80:100",
+      "url": "https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/",
+      "summary": "豪州の四日労働制試験は、生産性を維持しつつ従業員の健康・満足度が向上し、欠勤・離職が減ったと示した。ただし選択バイアスや業種差、短期データなどの制約があり、さらなる大規模・長期調査が必要と結論づけられる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-24T18:56:09.000Z",
+      "contentHash": "bc54a6c60985"
+    },
+    {
+      "id": "2d53692a1253",
+      "title": "Defeating Git Rigour Fatigue with Jujutsu",
+      "url": "https://ikesau.co/blog/defeating-git-rigour-fatigue-with-jujutsu/",
+      "summary": "記事は、厳格すぎるGit運用が疲労を招くとし、「Git柔術」と呼ぶ柔軟で復元力のある技術を提案。amend/rebase/reset/reflogなどで手早く修正・巻き戻しし、フックやエイリアスで自動化、強制プッシュは注意しつつ誤りを恐れないワークフローで生産性と心理的安全性を高めようと主張する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-24T18:39:10.000Z",
+      "contentHash": "eb77552fb35f"
+    },
+    {
+      "id": "29a594954700",
+      "title": "Migrating from Go to Rust",
+      "url": "https://corrode.dev/learn/migration-guides/go-to-rust/",
+      "summary": "GoからRustへ移行する実務ガイド。所有権とライフタイムによるメモリ管理、goroutineやチャネルとRustのasync/スレッド・channelの違い、Result/Optionによるエラー処理、インタフェース→トレイト、主要クレート（tokio/serde/anyhow/thiserror等）、段階的移行と性能・安全性の注意点を具体例で解説。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-24T18:31:42.000Z",
+      "contentHash": "93a6989741fe"
+    },
+    {
+      "id": "ac6d93473959",
+      "title": "Claude is not your architect. Stop letting it pretend",
+      "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "summary": "記事は、AnthropicのClaudeなどの大規模言語モデルがソフトウェアアーキテクトを代替できないと論じる。表面的な設計支援は可能でも、深い設計判断、信頼性・安全性評価、組織調整が苦手で、人間による検証・ガードレールと適切なワークフローが不可欠だと指摘する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-24T18:28:11.000Z",
+      "contentHash": "9223dc60c25d"
+    },
+    {
+      "id": "59a48a39cac9",
+      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
+      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "summary": "外部リンクの本文を直接取得できないため、記事本文をここに貼っていただくか、主要な抜粋を共有してください。いただければ200文字以内で日本語要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-24T16:31:29.000Z",
+      "contentHash": "9698eef41d2d"
+    },
+    {
+      "id": "65458cd7757c",
+      "title": "Ruby for Good",
+      "url": "https://ti.to/codeforgood/rubyforgood",
+      "summary": "すみません、外部サイトへアクセスできないため該当ページの本文を直接取得できません。記事本文か主要抜粋を貼っていただければ、200文字以内で日本語要約を作成します。必要ならHNのコメント要約も対応します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-24T15:49:19.000Z",
+      "contentHash": "f81a73edc18f"
+    },
+    {
+      "id": "8701e37796f6",
+      "title": "Usborne 1980s Computer Books",
+      "url": "https://usborne.com/us/books/computer-and-coding-books",
+      "summary": "Usborneの「コンピュータとコーディング」書籍一覧。子ども向けにScratchやPython、HTML等を図解や実習で学べる入門書やプロジェクト集、パズルや教師・保護者向け教材を年齢別に紹介。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-24T15:43:00.000Z",
+      "contentHash": "f84993a26c17"
+    },
     {
       "id": "039a8670c7a7",
       "title": "The best Memorial Day sales you can shop this weekend",
@@ -9,6 +180,15 @@
       "source": "The Verge",
       "publishedAt": "2026-05-24T15:28:08.000Z",
       "contentHash": "95835a204cfa"
+    },
+    {
+      "id": "0a7eec420749",
+      "title": "Show HN: Audiomass – a free, open-source multitrack audio editor for the web",
+      "url": "https://audiomass.co/?multitrack=1",
+      "summary": "AudioMassはブラウザで動く無料のオーディオ編集ツール。マルチトラック対応となり複数トラックの録音・編集・エフェクト適用・書き出しが可能。インストール不要でオープンソースな点が注目を集めた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-24T15:25:43.000Z",
+      "contentHash": "9eb5d317c40a"
     },
     {
       "id": "cfe0966425b2",
@@ -68,19 +248,19 @@
       "id": "356817782cb2",
       "title": "VFX 入門",
       "url": "https://note.com/npaka/n/n326e7773eff1",
-      "summary": "VFX（視覚効果）は実写にCGや合成処理を加え、非現実的・危険な表現を自然に見せる技術。CGは要素でVFXは合成を含む工程全体。主な作業はコンポジット、キーイング、ロトスコープ、トラッキング／マッチムーブ、クリーンアップ、ペイント等で、目立たない修正も重要。",
+      "summary": "VFXは実写にCGや合成処理を加え、実際に撮れない表現を自然に見せる技術。CGとの違いや、コンポジット、キーイング、ロトスコープ、トラッキング、マッチムーブ、クリーンアップ、ペイントなどの主要タスクと、気付かれない地味な作業の重要性を解説。",
       "source": "npaka",
       "publishedAt": "2026-05-24T06:48:45.000Z",
-      "contentHash": "2cf31da8c22d"
+      "contentHash": "767ce4de3789"
     },
     {
       "id": "a85b335c077c",
       "title": "Codex + Agent Sprite Forge でRPGの街の生成を試す",
       "url": "https://note.com/npaka/n/n34b00d58dfbe",
-      "summary": "CodexとAgent Sprite ForgeでRPGの街自動生成を試行。手順：トップビュー画像生成→Codexでローポリボクセル3D（Vite+TS+Three.js）作成→$imagegenで各テクスチャ修正→$generate2dspriteで四方向＋斜めのビルボード主人公スプライト生成、画面内グリッド移動で完成。",
+      "summary": "CodexとAgent Sprite ForgeでRPG街を生成。ChatGPTでトップビューを作り、Codexでローポリボクセル3D（Vite/TS/Three.js）を生成。Sprite Agent Forgeで方向別ビルボード主人公アニメを作成し、imagegenで噴水・屋根・木などのテクスチャを修正して完成（GRANDIA風）。",
       "source": "npaka",
       "publishedAt": "2026-05-24T05:28:01.000Z",
-      "contentHash": "f2a8652eb4da"
+      "contentHash": "8d67460356d0"
     },
     {
       "id": "effcfa7bd032",
@@ -347,10 +527,10 @@
       "id": "8799fe2fa9af",
       "title": "OpenClaw入門 (2) - 事始め",
       "url": "https://note.com/npaka/n/n1f3b978ed400",
-      "summary": "OpenClawはローカルで動くパーソナルAIで、常駐するGatewayがDashboard/CLI/TUIやSlack等をつなぐ。Node.js（24推奨）とモデルAPIキーが必要。curl/PowerShellで導入し、openclaw onboard --install-daemonでモデル認証やチャネル等を設定。デフォルトは個人向けで共有時は追加のロックダウンが必要。Gatewayはopenclaw gateway statusで確認。",
+      "summary": "OpenClawは常駐Gatewayを中心とするパーソナルAI。Node.js（24推奨）と各モデルプロバイダの認証情報を用意し、提供コマンドでインストール。openclaw onboardで認証・ワークスペース・チャネル・デーモン等を設定。デフォルトは個人利用のため共有時はロックダウンが必要。Gatewayはopenclaw gateway statusで確認。",
       "source": "npaka",
       "publishedAt": "2026-05-23T10:05:19.000Z",
-      "contentHash": "1928b9c627a3"
+      "contentHash": "c320c2797c85"
     },
     {
       "id": "e5016380c476",
@@ -401,10 +581,10 @@
       "id": "8b8153417768",
       "title": "Codex で部屋のトップビュー画像からの3Dモデル生成を試す",
       "url": "https://note.com/npaka/n/n7ba334ed61e1",
-      "summary": "部屋のトップビュー画像からの3Dモデル生成をCodexで検証。ChatGPTでローポリ教室画像を作り、Vite+TypeScript+Three.jsでボクセル化、$imagegenでテクスチャ生成。机・椅子を独立モデル化し配置UI（通常/掃除/給食）を実装。さらにGPT Image 2で四方向画像生成、Gemini Omniで360度動画化も試した。",
+      "summary": "トップビュー画像からCodexでローポリ教室の3Dモデルを生成（Vite+TypeScript+Three.js）、テクスチャは$imagegenで作成。机・椅子を独立モデル化し配置変更UIを追加。GPT Image 2で四方向画像生成、Gemini Omniで360度動画化も試行。",
       "source": "npaka",
       "publishedAt": "2026-05-23T04:44:10.000Z",
-      "contentHash": "1e4774b4203d"
+      "contentHash": "db00891557b0"
     },
     {
       "id": "35039390e159",
@@ -824,10 +1004,10 @@
       "id": "4073151b1b50",
       "title": "Autodesk Flow Studio + Codex で3Dゲームの作成を試す",
       "url": "https://note.com/npaka/n/na559f5f1d136",
-      "summary": "Autodesk Flow Studioで画像から女の子・床・スター等の3Dモデルを生成し、Mixamoでモーションを取得、three.jsへ変換してビューアを作成。ChatGPTで画面を用意し、Codexにジャンプゲーム制作を指示、挙動やエフェクトを繰り返し調整した。",
+      "summary": "Autodesk Flow Studioで画像から女の子・床・星の3Dモデルを生成・補正し、Mixamoのモーションを適用、three.js向けに変換してビューアを構築。ChatGPTで画面画像を作り、Codexにジャンプゲーム制作と細かな挙動やエフェクト指示を繰り返して実装した。",
       "source": "npaka",
       "publishedAt": "2026-05-22T08:24:37.000Z",
-      "contentHash": "e69793b59276"
+      "contentHash": "eacc44aa88f9"
     },
     {
       "id": "70d3c346b235",
@@ -8820,186 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-05-04T20:11:53.000Z",
       "contentHash": "24bd5643d688"
-    },
-    {
-      "id": "f4afbb150a63",
-      "title": "SwitchBot’s rechargeable button pusher is on sale for over 20 percent off",
-      "url": "https://www.theverge.com/gadgets/923162/switchbot-bot-rechargeable-button-presser-mothers-day-sale-deal",
-      "summary": "SwitchBotの充電式ボタン押し「Bot Rechargeable」が母の日セールで5/10まで約27ドル（コードFORHER20で割引）と過去最安。物理ボタンをリモート操作可能。電池式は約23ドル。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-04T18:47:01.000Z",
-      "contentHash": "1d4757506d95"
-    },
-    {
-      "id": "7f33dba14406",
-      "title": "Microsoft Edge stores all passwords in memory in clear text, even when unused",
-      "url": "https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730",
-      "summary": "申し訳ありませんが、直接ウェブへアクセスできないため指定URLの内容を取得できません。記事（ツイート本文とHacker Newsの要点）をここに貼っていただければ、200文字以内で日本語要約します。要点だけ列挙していただいても可です。どの観点を強調するか（論点・結論・反応など）も教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-04T18:22:42.000Z",
-      "contentHash": "1f0b126fed0f"
-    },
-    {
-      "id": "8b6eff111a8b",
-      "title": "Offenders sentenced up to 10 years for spying on TSMC",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/04/28/2003856358",
-      "summary": "元TSMC技術者の陳力銘が最先端2ナノ工程の機密漏洩で国家安全法違反等により懲役10年。共犯のTSMC技術者は懲役3年・2年、別の社員6年。東京威力の盧怡尹は執行猶予10か月・罰金100万NT$、同社は1億5千万NT$罰金（補償支払いで減免可）。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-04T18:04:33.000Z",
-      "contentHash": "05f376445331"
-    },
-    {
-      "id": "9a6a089fe93d",
-      "title": "Securing a DoD contractor: Finding a multi-tenant authorization vulnerability",
-      "url": "https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability-dod-backed-startup",
-      "summary": "Strixが米国防総省支援のスタートアップで認証不要の重大脆弱性を発見。未認証で内部APIやデータにアクセスできた経緯、探索手順、責任ある開示と修正対応を説明し、認証強化や自動検査、最小権限など再発防止策を提言。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-04T17:46:32.000Z",
-      "contentHash": "1287362bb199"
-    },
-    {
-      "id": "728a4d52e0da",
-      "title": "The latest AI news we announced in April 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
-      "summary": "Googleは4月に「エージェント時代」を掲げ、オープンモデルGemma 4、Gemini Enterprise Agent Platform、8世代チップ、無料のGoogle Vids、Deep Research Max、Colabの学習モードなど多数のAIツールを発表しました。",
-      "source": "Gemini",
-      "publishedAt": "2026-05-04T17:00:00.000Z",
-      "contentHash": "36f361aa13a5"
-    },
-    {
-      "id": "fd9f33d9676b",
-      "title": "The creator of Roomba is back with a furry robot companion",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/922947/roomba-creator-new-robot-familiar-machines-magic-ai-launch",
-      "summary": "ルンバ開発者コリン・アングルが新会社Familiar Machines & Magicで、家事でなく人との交流を目的とした犬サイズの毛のある自律家庭用ロボット「Familiar」を発表した。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-04T16:51:38.000Z",
-      "contentHash": "50f71375c7ac"
-    },
-    {
-      "id": "a252677f04a3",
-      "title": "The Pixel 11 could be the next victim of the RAM shortage",
-      "url": "https://www.theverge.com/tech/923252/google-pixel-11-spec-leak-lower-ram",
-      "summary": "RAM不足でPixel 11シリーズがスペックダウンの可能性。リークでは無印が8GB、Pro系は12GB起点に（16GBは残るが価格上昇の可能性）。カメラは強化と伝えられる。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-04T16:48:21.000Z",
-      "contentHash": "5a0537026060"
-    },
-    {
-      "id": "96c54c3fa85c",
-      "title": "The best Star Wars Day deals",
-      "url": "https://www.theverge.com/gadgets/922905/best-star-wars-day-2026-may-the-fourth-4th-deals-sale",
-      "summary": "5月4日の「スター・ウォーズ・デー」に合わせ、ザ・ヴァージがゲームやレゴ、映画などのセール情報を紹介。新作は少ないがグッズをお得に楽しめる内容。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-04T16:29:18.000Z",
-      "contentHash": "67aea5b49a60"
-    },
-    {
-      "id": "544172b0cf17",
-      "title": "GitHub Is Down",
-      "url": "https://www.githubstatus.com/incidents/72q3n8yxthcy",
-      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文（または要点）を貼っていただければ、200文字以内で日本語要約します。Hacker Newsのコメントも要約希望ならそちらも添えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-04T15:53:21.000Z",
-      "contentHash": "33f27ffeeb89"
-    },
-    {
-      "id": "ee01c41a985a",
-      "title": "Amazon&#8217;s trying to turn its massive shipping operation into another AWS",
-      "url": "https://www.theverge.com/tech/923013/amazon-supply-chain-services",
-      "summary": "Amazonは自社の巨大物流網を外部企業に開放し「Amazon Supply Chain Services（ASCS）」を開始。貨物輸送・流通・フルフィルメント・小口配送を企業向けに提供し、DHLやUPSなど既存物流業者と競合、AWSのように物流サービスを有償で提供する狙い。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-04T15:16:14.000Z",
-      "contentHash": "9ecd0970e0b2"
-    },
-    {
-      "id": "9d56ff729614",
-      "title": "Removable batteries in smartphones will be mandatory in the EU starting in 2027",
-      "url": "https://www.ecopv-eu.com/en/blog-en/replaceable-smartphone-batteries-2027-eu-regulation/",
-      "summary": "記事はEUが2027年までにスマホの着脱式バッテリー義務化を検討中と報告。目的は修理容易化・廃棄物削減・製品寿命延長。製造業の反発や安全性・規格化、コスト影響の議論も紹介。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-04T15:10:41.000Z",
-      "contentHash": "719cba0b27ad"
-    },
-    {
-      "id": "f12d382fb760",
-      "title": "Dara Khosrowshahi on replacing Uber drivers — and himself — with AI",
-      "url": "https://www.theverge.com/podcast/922909/dara-khosrowshahi-uber-drivers-ai-hotels-service",
-      "summary": "Uber CEOダラ・コスロシャヒのインタビュー。Uberを「何でもアプリ」に拡大し、Expediaと提携してアプリ内でホテル予約、車内飲食や個人買物サービスを導入。AIで運転手や自身を代替する可能性も議論。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-04T14:30:00.000Z",
-      "contentHash": "89f9abd36f20"
-    },
-    {
-      "id": "159233ed5b5f",
-      "title": "Tesla hits Musk’s threshold for ‘safe unsupervised’ driving",
-      "url": "https://www.theverge.com/transportation/922900/tesla-10-billion-miles-unsupervised-fsd-robotaxi-elon-musk",
-      "summary": "テスラはFSD（監視付き）車の総走行距離が同社発表で100億マイルを突破し、マスク氏の「無監視で安全」の基準を超えた。しかし実際のFSDは依然レベル2で、運転者の監視と介入が必要。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-04T14:28:01.000Z",
-      "contentHash": "87b5edfdef17"
-    },
-    {
-      "id": "7b7012f27eda",
-      "title": "Redis array: short story of a long development process",
-      "url": "https://antirez.com/news/164",
-      "summary": "そのURLにはこちらから直接アクセスできないため、記事本文を貼っていただけますか？全文か主要段落を貼っていただければ、200文字以内の日本語要約を作成します。Hacker Newsのコメント要約も希望なら一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-04T14:23:07.000Z",
-      "contentHash": "047a3bf1d93e"
-    },
-    {
-      "id": "da8d17318bc0",
-      "title": "How Monero's proof of work works",
-      "url": "https://blog.alcazarsec.com/tech/posts/how-moneros-proof-of-work-works",
-      "summary": "MoneroのPoWはASIC抑制のためCryptoNightからRandomXへ移行。RandomXはランダムな仮想マシンでメモリ集約・CPU最適化された処理を行い、難易度調整で公平なマイニングとネットワーク防御を実現する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-04T14:10:50.000Z",
-      "contentHash": "e23b6f223889"
-    },
-    {
-      "id": "e5e72ad0c9f3",
-      "title": "GameStop makes $56 billion offer to acquire eBay",
-      "url": "https://www.theverge.com/games/922935/gamestop-ebay-bid",
-      "summary": "GameStopがeBayを560億ドルで買収する事前打診なしの提案を提示。CEOライアン・コーエンはeBayをAmazon対抗に育てる狙い。eBayは「慎重に検討」。資金は自社現金94億ドルとTDの最大200億ドル融資などで、残額は中東の政府系ファンド等で賄う可能性。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-04T13:46:24.000Z",
-      "contentHash": "645af9c0cce0"
-    },
-    {
-      "id": "46ca0db155b9",
-      "title": "【Microsoft】- Responsible AI（責任あるAI）原則とは？ | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/d6bf99e8219dc7",
-      "summary": "責任あるAIは、AIを公平で安全に使う考え方。Microsoftは「公平性、信頼性と安全性、プライバシーとセキュリティ、包括性、透明性、説明責任」の6原則を掲げ、偏り防止・情報保護・人間の監督などを求める。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-04T13:16:05.000Z",
-      "contentHash": "f59b43e88654"
-    },
-    {
-      "id": "bf84e26af5c9",
-      "title": "Hisense aggressively cuts the price of its RGB LED TV on release day",
-      "url": "https://www.theverge.com/tech/922571/hisense-cuts-price-ur9",
-      "summary": "HisenseがRGB LEDテレビUR9を発売日に大幅値下げ。65型$1,999、75型$2,999、85型$3,999に改定（サイズで$1,500〜$2,000引き）。当初は65型$3,500でLG/SamsungのフラグシップOLEDより高かった。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-04T13:00:00.000Z",
-      "contentHash": "beac3177120d"
-    },
-    {
-      "id": "b61949abe64b",
-      "title": "Microsoft Fabric のデータエージェントに PrepForAI を適用して精度を検証してみた | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/47f92204ba5baa",
-      "summary": "Microsoft Fabricのデータエージェントはセマンティックモデルから自然言語→DAXを生成するが応答品質はデータ準備に依存。著者はPrepForAI（AIデータスキーマで不要列をOFF、AIインストラクションを設定）を適用し、過剰出力を抑え応答精度を改善する手順を検証した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-04T12:47:30.000Z",
-      "contentHash": "a70fc1fd31ee"
-    },
-    {
-      "id": "9ea413515568",
-      "title": "Homebridge 2.0 is here, and it speaks Matter",
-      "url": "https://www.theverge.com/tech/922877/homebridge-2-0-matter-update-robot-vacuums",
-      "summary": "オープンソースのHomebridgeが2.0を5月4日に正式公開。3年以上のβを経て初期のMatter対応を導入し、Ringなど非HomeKit機器をApple Homeへ統合、AlexaやGoogle Home、Home Assistantなどとの連携が可能に。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-04T12:35:06.000Z",
-      "contentHash": "f73cfaae6b09"
     }
   ]
 }
