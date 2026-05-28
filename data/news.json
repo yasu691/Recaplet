@@ -1,14 +1,221 @@
 {
-  "generatedAt": "2026-05-27T18:33:16.479Z",
+  "generatedAt": "2026-05-28T04:09:21.459Z",
   "items": [
+    {
+      "id": "7d43683844a4",
+      "title": "Autodesk Flow Studio で Video to Motion を試す",
+      "url": "https://note.com/npaka/n/n27053118902c",
+      "summary": "Autodesk Flow StudioのVideo to Motionを試用。動画をStatic Camera AI MoCapで処理し俳優をCGに割当てIKやオフセット等を設定、約40分でFBX出力。Blender MCPで足元・ルート・Yawを補正してVRM/VRMA化しCodexで再生確認。",
+      "source": "npaka",
+      "publishedAt": "2026-05-28T02:43:44.000Z",
+      "contentHash": "38c2753b41f2"
+    },
+    {
+      "id": "66fd451a80ec",
+      "title": "【Claude Code ✖Obsidian】自分用ルールをskillsを使ってAIに自動読み込み・更新させる仕組みを作ってみた | ARMテックブログのフィード",
+      "url": "https://zenn.dev/arm_techblog/articles/ea4a436c5b80bb",
+      "summary": "ARMのフロントエンド担当が、Claude Codeへ毎回同じ前提を伝える手間を解消するため、個人用ルールをObsidianで管理する仕組みを構築。Vaultに00_AI-OSを置き、Global.mdとプロジェクト別のRules.md/Feedback.md（テンプレ含む）でClaudeの自動読み書きと指摘の再発防止を目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-28T02:03:28.000Z",
+      "contentHash": "e63ae9384ca1"
+    },
+    {
+      "id": "415adf373123",
+      "title": "FastlyからCloudFrontへ段階的移行 ── 無停止で実現したWEAR CDNの刷新 | ZOZO TECH BLOG",
+      "url": "https://techblog.zozo.com/entry/fastly-to-cloudfront-migration",
+      "summary": "WEARのSRE木内が、オンプレからAWSへの段階的移行でCDNにFastlyを採用した経緯を紹介。パスベースのルーティング、ネイキッドドメイン対応、設定即時反映で迅速なロールバックが可能になった点が決め手。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-28T02:00:00.000Z",
+      "contentHash": "5730f18ffef3"
+    },
+    {
+      "id": "91d6fbd6da7a",
+      "title": "Kubernetesを使わない環境にもCloud Nativeなデプロイを実現する 〜クラウドネイティブ会議発表レポート〜 | さくらのナレッジ",
+      "url": "https://knowledge.sakura.ad.jp/50732/",
+      "summary": "2026年5月14–15日に名古屋で開かれたクラウドネイティブ会議の報告記事。さくらインターネット研究所の小田知央さんの発表を中心に紹介しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-28T02:00:00.000Z",
+      "contentHash": "e132a584f75a"
+    },
+    {
+      "id": "0cfefb9a7ebf",
+      "title": "カケハシを支える開発チームの今と次なる課題 〜ベテラン&amp;amp;社歴半年メンバーで本音の座談会〜 | KAKEHASHI Tech Blog",
+      "url": "https://kakehashi-dev.hatenablog.com/entry/2026/05/28/110000",
+      "summary": "KAKEHASHI Tech Encounterは開発組織の熱量を伝える技術イベント。第6回は入社半年のSRE・森藤の発案で「開発チームの今と次なる課題」をテーマに、転職時の目的や入社半年で見えた現状、チーム横断の課題を登壇者（森藤・大山・竹本）が自身の言葉で語った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-28T02:00:00.000Z",
+      "contentHash": "4150172b24e0"
+    },
+    {
+      "id": "341f99b80e3d",
+      "title": "TVerにおけるテスト自動化の歩み | TVer Tech Blog",
+      "url": "https://techblog.tver.co.jp/entry/shiroma/history-of-test-automation",
+      "summary": "TVerのAutomationチーム城間です。2025年からリリースサイクル短縮を目指し、複数チーム同期の「リリーストレイン」を導入。Web/iOS/Androidは現在ほぼ隔週リリース。詳細は社ブログで紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-28T01:53:55.000Z",
+      "contentHash": "dd9b58991955"
+    },
+    {
+      "id": "c51d7fbe6fce",
+      "title": "【Nishika 論文サク読み 第11回】Text-Embedding-to-Speech-Latent | Nishika Tech Blogのフィード",
+      "url": "https://zenn.dev/team_nishika/articles/92e5083a24424b",
+      "summary": "渡辺（Nishika）が紹介する論文は、音声データが入手困難な状況でテキストのみでLLMベースASRをドメイン適応する手法を提案。音声エンコーダ＋プロジェクタ＋LLM構成に対し、疑似音声プロンプトを音声–テキスト整合で精錬してテキストのみでの適応を可能にする。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-28T01:40:02.000Z",
+      "contentHash": "f2cb41003fa5"
+    },
+    {
+      "id": "481b12658080",
+      "title": "Containerlab と vJunos で体験するクラウドネットワーク構築 | NTT docomo Business Engineers' Blog",
+      "url": "https://engineers.ntt.com/entry/202605-clab-vjunos/entry",
+      "summary": "ContainerlabとJuniper無償vJunosでLeaf‑SpineデータセンタNWをゼロから構築するハンズオン。eBGPアンダーレイ、EVPN/VXLANのL2拡張、ESI‑LAG冗長化、VRFルートリークでのインターネット接続模擬を、ハード不要・無償イメージのみで実践手順と全設定例付きで解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-28T01:37:56.000Z",
+      "contentHash": "141cdc486cfc"
+    },
+    {
+      "id": "337aecf949b5",
+      "title": "Amazon Bedrock で Claude に JSON だけ返させる方法 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/amazon-bedrock-claude-json-structured-outputs",
+      "summary": "Amazon BedrockのConverse APIでoutputConfigにJSON Schemaを渡すと、Claudeが余計な説明やマークダウンを混ぜずにスキーマ準拠の純粋なJSONだけを返すようにでき、EventBridgeなど厳密なJSON処理に対応できる、という説明です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-28T01:30:00.000Z",
+      "contentHash": "6f139b973bd9"
+    },
+    {
+      "id": "56d405dd895d",
+      "title": "Can we have the day off?",
+      "url": "https://mlsu.io/posts/day-off/",
+      "summary": "AIが生産性を劇的に高めるなら、週4日勤務や金曜を「AI休業日」にして、木曜にプロンプトを整えAIに仕事を回すことで余暇が増えるはずだと主張。育児負担軽減も訴えている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-28T00:40:26.000Z",
+      "contentHash": "d804f3ea2f32"
+    },
+    {
+      "id": "7f3e71d34540",
+      "title": "FBI Arrests CIA Official with $40M in Gold Bars in His Home",
+      "url": "https://www.nytimes.com/2026/05/27/us/politics/fbi-arrest-cia-official-gold-bars.html",
+      "summary": "申し訳ありませんが、直接そのURLの内容を参照できません。記事本文をここに貼っていただくか、主要なポイント（誰が、何を、いつ、どこで、なぜ）を教えてください。いただければ200文字以内で要約します。コメント欄の要約も可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-27T23:23:29.000Z",
+      "contentHash": "5f9c9e4048a5"
+    },
+    {
+      "id": "935098baf384",
+      "title": "A Google employee allegedly used inside information to win $1.2 million on Polymarket ",
+      "url": "https://www.theverge.com/tech/938635/google-polymarket-insider-trading-prediction-market-bets",
+      "summary": "Google社員ミケーレ・スパニョーロが社内の機密検索データを使いPolymarketで「Year in Search 2025」に賭けて120万ドルを得たとして、商品詐欺・電信詐欺・資金洗浄で起訴。NYで逮捕され225万ドルの保釈で釈放。ユーザー名はAlphaRacoon。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-27T22:30:02.000Z",
+      "contentHash": "40f237eadc3e"
+    },
+    {
+      "id": "43409aa05151",
+      "title": "Apple’s newest iPad Air is up to $100 off for the first time",
+      "url": "https://www.theverge.com/gadgets/938519/apple-ipad-air-m4-deal-sale",
+      "summary": "最新iPad AirがAmazonで最大$100オフ。11インチ128GB Wi‑Fiが約$520（約$79引き）、13インチ128GBが$699（$100引き）。エントリーiPadより高性能でiPad Proより手頃。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-27T21:08:41.000Z",
+      "contentHash": "5f4b61dbeb70"
+    },
+    {
+      "id": "9cf013caa76c",
+      "title": "All the news about Ferrari&#8217;s polarizing Luce EV",
+      "url": "https://www.theverge.com/transportation/938513/ferrari-luce-ev",
+      "summary": "フェラーリ初のEVセダン「ルーチェ」はジョニー・アイブ率いるLoveFromがデザインしたが、従来のフェラーリらしさを欠くとファンや批評家に不評で株価下落を招いた。ランボはハイブリッド重視を表明。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-27T20:22:57.000Z",
+      "contentHash": "e44a4da8d5d2"
+    },
+    {
+      "id": "98f436f175de",
+      "title": "The new Halide camera app launches with film looks and an upgraded photo editor",
+      "url": "https://www.theverge.com/tech/938339/lux-optics-halide-mark-iii-ios-iphone-camera-app-looks-editor-raw-files-now-available",
+      "summary": "Lux OpticsがiPhone/iPad向けにHalide Mark IIIを正式リリース。ハリウッドの色彩師と共作したフィルム風の5種類の「Looks」と、他カメラのRAWも処理できる強化された写真編集機能を搭載。App Storeで1週間の無料試用が可能。価格は買い切り$59.99または年額$19.99。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-27T20:06:12.000Z",
+      "contentHash": "a0d129d94f25"
+    },
+    {
+      "id": "d6f78f50d09f",
+      "title": "Facebook launches a ‘Plus’ subscription that gives you extra features",
+      "url": "https://www.theverge.com/tech/938500/facebook-whatsapp-instagram-meta-ai-subscriptions",
+      "summary": "MetaがFacebook・Instagram（各月$3.99）とWhatsApp（$2.99）の有料サブスクを数週間で世界展開、Meta AIの課金も試験中。ストーリー延長や非表示閲覧などの追加機能を提供。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-27T20:03:42.000Z",
+      "contentHash": "c8c65c542135"
+    },
+    {
+      "id": "a0558f841c58",
+      "title": "YouTube to automatically label AI-generated videos",
+      "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
+      "summary": "YouTubeは生成AIの透明性向上で、写実的・大幅にAI改変された動画のラベルを長尺はプレーヤー下、Shortsはオーバーレイに統一。非写実や軽微改変は説明欄に表示。投稿時の開示は継続し、自動検出も導入。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-27T20:00:51.000Z",
+      "contentHash": "93ac36357c5f"
+    },
+    {
+      "id": "b511c7a59c0b",
+      "title": "I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)",
+      "url": "https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/",
+      "summary": "著者は自分のISPを運営する一方で中央事業者への依存とIP資源の制約を痛感。ローカル端末を活かすメッシュネットワークに期待し、帯域/遅延が重要な用途以外（例：メッセージング、SNS）に適すると述べる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-27T19:52:49.000Z",
+      "contentHash": "a9da950eb304"
+    },
+    {
+      "id": "8d0ecbc10409",
+      "title": "Rust (and Slint) on a Jailbroken Kindle",
+      "url": "https://sverre.me/blog/rust-on-kindle/",
+      "summary": "脱獄した7世代Kindle Paperwhiteを時計化した流れで、RustとSlintを動かす試み。ARMv7＋muslが必要で、Zig付属のmuslとリンカを使うcargo-zigbuildでクロスコンパイルし、実行のためにシェルアクセスを取得した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-27T19:51:47.000Z",
+      "contentHash": "5ab193a67609"
+    },
+    {
+      "id": "816afc3ab238",
+      "title": "What Apple and Google are doing to push notifications",
+      "url": "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications",
+      "summary": "AppleとGoogleがプッシュ通知の二大経路を支配し、デバイス上のモデルで通知を要約・並べ替え・書き換えするようになったと指摘する。APNsやFCMは省電力のために始まったが、現在は配信を超える介入がマーケティングや顧客接点に影響している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-27T19:24:10.000Z",
+      "contentHash": "c2fc65518e2f"
+    },
+    {
+      "id": "c7065d35fad9",
+      "title": "Roids were all the rage at the Enhanced Games",
+      "url": "https://www.theverge.com/features/937620/enhanced-games-performance-enhancing-drugs-science-health-sports",
+      "summary": "招待制の「Enhanced Games（いわゆるステロイド五輪）」がラスベガスで開催され、アスリートが公然と性能強化薬を使用し実験のように扱われた様子を伝える記事。コディ・ミラーが25万ドルを獲得。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-27T19:08:31.000Z",
+      "contentHash": "60137372259f"
+    },
+    {
+      "id": "13bfcd20f5eb",
+      "title": "I found a second vote.gov – and it's registered to the White House",
+      "url": "https://thedreydossier.substack.com/p/i-found-a-second-votegov-and-its",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文を貼り付けるか主要箇所を送っていただければ、200字以内で日本語に要約します。どの点を重視するか（要旨／論点／結論）も教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-27T18:47:17.000Z",
+      "contentHash": "a9bf5b35f10c"
+    },
+    {
+      "id": "7ae742230538",
+      "title": "SimCity 3k in 4k (2025)",
+      "url": "https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html",
+      "summary": "SimCity 3000は名作で、現代のWindows10＋4K環境でも調整すれば快適に動く。GOG提供のパッチEXEでワイド/No‑CD化し、SC3U.iniをCorinaMarieの設定で編集すればマウス加速や解像度の歪みを直して4K表示が可能になる、という導入記と手順。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-27T17:36:29.000Z",
+      "contentHash": "384b05f17aeb"
+    },
     {
       "id": "26131afa62e4",
       "title": "Valve raises Steam Deck prices by more than $200",
       "url": "https://www.theverge.com/games/938340/valve-steam-deck-price-increase",
-      "summary": "ValveがSteam Deckの価格を大幅改定。512GB OLEDは549ドル→789ドル、1TBは649ドル→949ドルに引上げ。メモリ・ストレージ費用や物流問題が理由。両モデルは在庫あり（配送3〜5営業日）、整備済みも販売中。",
+      "summary": "ValveがSteam Deckを大幅値上げ。512GB OLEDは549→789ドル、1TBは649→949ドル（1TBは+300ドル）。理由はメモリ・ストレージなど部品や物流コストの上昇。現在は在庫ありで配送3〜5営業日、一部整備済みも販売中。",
       "source": "The Verge",
       "publishedAt": "2026-05-27T17:32:48.000Z",
-      "contentHash": "a57346ad6068"
+      "contentHash": "1990f99e76d1"
     },
     {
       "id": "d83fbd2b106c",
@@ -27,6 +234,15 @@
       "source": "The Verge",
       "publishedAt": "2026-05-27T16:56:02.000Z",
       "contentHash": "4c04eba2a7c4"
+    },
+    {
+      "id": "9dcf1cd9386d",
+      "title": "Canada to order military plane fleet from Sweden in shift from US suppliers",
+      "url": "https://www.theguardian.com/world/2026/may/27/canada-sweden-saab-globaleye-aircraft",
+      "summary": "カナダは米国依存を減らすため、キャーニー首相がスウェーデンのサーブ製早期警戒機GlobalEyeを採用すると発表。北極監視強化が目的で機数は未確定（当初6機想定）、サーブはカナダでのR&D投資を表明。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-27T16:53:25.000Z",
+      "contentHash": "1546de3fb346"
     },
     {
       "id": "3ef42c2a074c",
@@ -110,6 +326,15 @@
       "contentHash": "5dcbd8eb3845"
     },
     {
+      "id": "53e1da4b0cbc",
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "url": "https://openai.com/index/cisco",
+      "summary": "CiscoとOpenAIはCodexで企業向けエンジニアリングを再定義し、CiscoのAIネイティブ開発を拡大、AI防御の作業を加速、欠陥修復の自動化を支援している。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-27T11:00:00.000Z",
+      "contentHash": "9f3d1265e767"
+    },
+    {
       "id": "93e7f66d0828",
       "title": "I'm Tired of Talking to AI",
       "url": "https://orchidfiles.com/im-tired-of-ai-generated-answers/",
@@ -158,10 +383,10 @@
       "id": "e6e12bce6298",
       "title": "Codex で VRM のモーション再生を試す",
       "url": "https://note.com/npaka/n/ne3ae56988340",
-      "summary": "VRoid Studioで作成したVRMをCodex（Vite+TypeScript+Three.js）で表示し、公式のVRMAアニメ7種を再生。さらにMixamoのFBXをCodexでVRMAに変換して再生でき、UIでモーション選択可能。",
+      "summary": "CodexでVRMのモーション再生を試験。VRoid StudioでVRMを作成し、Codex（Vite+TypeScript+Three.js）で表示。VRoid公式のVRMAアニメを再生でき、MixamoのFBXをVRMAに変換して再生する手順も紹介。",
       "source": "npaka",
       "publishedAt": "2026-05-27T08:53:58.000Z",
-      "contentHash": "f6d1643103a2"
+      "contentHash": "890f78c5395d"
     },
     {
       "id": "5d7d60e83137",
@@ -239,10 +464,10 @@
       "id": "04ee569e9517",
       "title": "OpenClaw 入門 (6) - Ollama",
       "url": "https://note.com/npaka/n/n0540ab566f02",
-      "summary": "OpenClawでOllama経由のローカルLLMを使う手順：Ollamaをインストールして自動起動設定、gemma4:26bをpullして動作確認。OpenClawでollamaプラグインを有効化しオンボードでLocal・base URL（http://127.0.0.1:11434）・デフォルトモデルを設定。/modelや/statusで切替・確認。",
+      "summary": "OpenClaw入門(6): Ollama経由でローカルLLMを使う手順。Ollamaをインストール・systemd有効化・gemma4:26bをpullして動作確認。OpenClawでOllamaプラグイン有効化→onboardでLocal/URL/デフォルトモデル設定。/modelや/statusで切替・確認。",
       "source": "npaka",
       "publishedAt": "2026-05-27T06:29:07.000Z",
-      "contentHash": "6c7e8c4f22ea"
+      "contentHash": "df9d8bb0a2ad"
     },
     {
       "id": "e8af5129696b",
@@ -275,10 +500,10 @@
       "id": "5117aebda137",
       "title": "OpenClaw入門 (5) - スキル",
       "url": "https://note.com/npaka/n/nbff26ae8425a",
-      "summary": "OpenClawのスキルはAgentSkills互換のフォルダ（SKILL.mdやスクリプト・素材を含む）で作業手順を定義。複数場所から優先度順で読み込み、環境や設定で有効化を判定。エージェントごとに参照制限可能。",
+      "summary": "OpenClawのスキルはAgentSkills互換のフォルダ（SKILL.md＋スクリプトや資材）で作る「作業手順パック」。複数場所（workspaceや~/.openclaw等）から優先順で読み込み、環境やバイナリ・設定が揃わないと有効化されない。agents設定でエージェントごとの可視制御が可能。例えばGoogle、メール、Trello等の同梱スキルあり。",
       "source": "npaka",
       "publishedAt": "2026-05-27T02:28:03.000Z",
-      "contentHash": "3eb3dcaca0cf"
+      "contentHash": "1a5a2be4090d"
     },
     {
       "id": "cb7731ddfda4",
@@ -405,6 +630,15 @@
       "source": "OpenAI",
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "contentHash": "de550757df7b"
+    },
+    {
+      "id": "ddd2460e2a3b",
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "url": "https://openai.com/index/warp",
+      "summary": "WarpはGPT-5.5やOpenAIのモデルを利用し、ローカル・クラウド・オープンソースの開発ワークフロー間でコーディングエージェントを連携・調整します。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-27T00:00:00.000Z",
+      "contentHash": "5aee025e4807"
     },
     {
       "id": "81097a6550c9",
@@ -698,19 +932,19 @@
       "id": "62d91c06e5d1",
       "title": "OpenClaw入門 (4) - Slackチャネルの設定",
       "url": "https://note.com/npaka/n/n7bb1c58e14b1",
-      "summary": "OpenClawをSlackから使うための設定手順。Slackアプリをマニフェストで作成し、Bot・アプリホーム・assistant_viewやスラッシュコマンド(/openclaw)、OAuth権限、イベントURLを登録する。",
+      "summary": "OpenClawをSlackから呼び出すための設定手順。Slackアプリをマニフェストで作成し、ワークスペース選択、イベントURLや/slashコマンド、OAuthスコープなどを設定してメンション・DM・スラッシュで利用可能にする。",
       "source": "npaka",
       "publishedAt": "2026-05-26T08:30:05.000Z",
-      "contentHash": "a8d5307ce295"
+      "contentHash": "b72b88303934"
     },
     {
       "id": "f292787da2e3",
       "title": "OpenClaw入門 (3) - Discordチャネルの設定",
       "url": "https://note.com/npaka/n/ne6c5c5a2b586",
-      "summary": "OpenClawをDiscordから利用するための設定手順。Discordでアプリ作成→Bot登録・トークン取得、Message ContentなどのIntent有効化、OAuth2でサーバー招待、サーバーID取得。トークンを.envに設定し、openclawのdiscordチャネルを有効化・guild許可（requireMention等）をpatchで反映、dry-runで確認して適用。",
+      "summary": "OpenClawをDiscordで使う手順：Discord Developer Portalでアプリ作成→Bot設定（トークン取得・Message Content Intent有効化）→OAuth2でサーバー招待→開発者モードでサーバーID取得→Botトークンを環境変数に登録し、OpenClawのdiscordチャネル設定とサーバー許可（requireMentionなど）をpatchで反映。dry-runで確認。",
       "source": "npaka",
       "publishedAt": "2026-05-26T04:37:01.000Z",
-      "contentHash": "325b21e6ae12"
+      "contentHash": "d338bef02683"
     },
     {
       "id": "83fe128dcb53",
@@ -806,10 +1040,10 @@
       "id": "659ca135d1f5",
       "title": "ゲームエフェクトのアルファブレンド入門",
       "url": "https://note.com/npaka/n/n7b9d74564bb6",
-      "summary": "ゲームにおけるアルファブレンド解説。炎や煙などの自然表現、攻撃範囲や状態表示、操作の手触り強化、空間演出、視線誘導に使われ、通常・加算・乗算などのブレンドモードや実装・最適化の注意点をまとめた記事。",
+      "summary": "アルファブレンドは透明度で色を混ぜる描画技法で、炎・煙などの自然表現から攻撃範囲表示、操作感の演出、空間の雰囲気づくり、視線誘導まで多用途。ブレンドモードで印象が変わり、実装や最適化に注意が必要。",
       "source": "npaka",
       "publishedAt": "2026-05-25T22:33:38.000Z",
-      "contentHash": "617f225960cf"
+      "contentHash": "c7737ce31259"
     },
     {
       "id": "78ee7306d808",
@@ -1328,19 +1562,19 @@
       "id": "356817782cb2",
       "title": "VFX 入門",
       "url": "https://note.com/npaka/n/n326e7773eff1",
-      "summary": "映画・ドラマ・CMで用いられるVFXについて、主な作業（合成・モデリング・ライティング等）、代表的なツール、専門用語や制作工程・役割の違いを分かりやすく整理した入門まとめです。",
+      "summary": "VFXは実写にCGや合成処理を加え現実に撮れない表現を作る技術。CGは要素、VFXは合成工程全体。コンポジット、キーイング、ロトスコープ、トラッキング、マッチムーブ、クリーンアップ、ペイントなどの地味な作業も含み、自然に見せることが目的。",
       "source": "npaka",
       "publishedAt": "2026-05-24T06:48:45.000Z",
-      "contentHash": "a90c36b086f6"
+      "contentHash": "d02494e42bf1"
     },
     {
       "id": "a85b335c077c",
       "title": "Codex + Agent Sprite Forge でRPGの街の生成を試す",
       "url": "https://note.com/npaka/n/n34b00d58dfbe",
-      "summary": "CodexとAgent Sprite Forgeで、トップビュー画像からローポリ3D街を生成し、$imagegenで噴水・屋根・木などのテクスチャを修正。$generate2dspriteで斜め含む複数方向のビルボード主人公を作り、マップ回転に応じてスプライトを切替え、GRANDIA風の街画面を完成させた。",
+      "summary": "CodexとAgent Sprite ForgeでRPGの街を生成する実験。トップビュー画像からローポリボクセルの3Dマップ（Vite+TS+Three.js）を作り、$imagegenでテクスチャを修正。$generate2dspriteで方向別ビルボード主人公アニメを作成し、マップ回転に応じてスプライト切替して完成。",
       "source": "npaka",
       "publishedAt": "2026-05-24T05:28:01.000Z",
-      "contentHash": "6297f0902cf4"
+      "contentHash": "1d32829e3b87"
     },
     {
       "id": "effcfa7bd032",
@@ -8766,240 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-05-07T16:43:35.000Z",
       "contentHash": "585c6338e8c6"
-    },
-    {
-      "id": "1e52a46cee76",
-      "title": "Inside the return of Xbox",
-      "url": "https://www.theverge.com/tech/925966/microsoft-return-to-xbox-town-hall-notepad",
-      "summary": "マイクロソフトの新Xbox CEOアシャ・シャルマが「Return of Xbox」を掲げ、社内集会でハード、ゲーム、プラットフォーム、サービスの四点計画を提示。コンソール更新不足やPC展開の弱さを認め、改善を訴えた。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-07T16:00:00.000Z",
-      "contentHash": "a4385eb85730"
-    },
-    {
-      "id": "0b8600aff458",
-      "title": "The future of Disney Plus is a confused mess",
-      "url": "https://www.theverge.com/streaming/925973/josh-damaro-disney-plus-disney-parks",
-      "summary": "新任CEOジョシュ・ダマーロはDisney+を「没入型・双方向のデジタル中枢（＝何でもできるアプリ）」に育て、配信とテーマパークを連携させてファンとの主要な接点にしたいと表明した。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-07T16:00:00.000Z",
-      "contentHash": "203cbc3c3939"
-    },
-    {
-      "id": "abac5d346e91",
-      "title": "A hacker ran me over with a robot lawn mower",
-      "url": "https://www.theverge.com/tech/925696/yarbo-robot-lawn-mower-hack-remote-control-camera-access-mqtt",
-      "summary": "研究者が遠隔からYarboの刃付きロボ芝刈り機をハッキングし、記者を危険に晒す実演で同機の深刻なセキュリティ脆弱性と遠隔乗っ取りリスクを暴露した。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-07T16:00:00.000Z",
-      "contentHash": "5756b4b3a14a"
-    },
-    {
-      "id": "7af3dcfc98cf",
-      "title": "There’s actually a good deal happening now on the Xbox Series X",
-      "url": "https://www.theverge.com/gadgets/925429/xbox-series-forza-horizon-6-controller-magsafe-airtags-deal-sale",
-      "summary": "近頃高値のXbox Series Xだが、Best BuyでForza Horizon 6版バンドルが通常価格＋約10ドルで登場。1TB本体、ディスク版Horizon 6、限定デザインのワイヤレスコントローラー付き（発売5月19日）。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-07T15:35:17.000Z",
-      "contentHash": "0458e0e443b7"
-    },
-    {
-      "id": "99b1170ac145",
-      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
-      "url": "https://deepmind.google/blog/alphaevolve-impact/",
-      "summary": "外部サイトを直接参照できないため、記事本文か主要部分をここに貼ってください。貼っていただければ200文字以内で日本語に要約します。HNコメントも要約希望ならそれも一緒に送ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-07T15:02:20.000Z",
-      "contentHash": "a5477a165b01"
-    },
-    {
-      "id": "28a7a5abfc72",
-      "title": "The map that keeps Burning Man honest",
-      "url": "https://www.not-ship.com/burning-man-moop/",
-      "summary": "その記事に直接アクセスできないため、本文を貼っていただけますか？貼っていただければ200文字以内で日本語要約します。HNコメント要約も希望ならそれも可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-07T14:06:10.000Z",
-      "contentHash": "fbb14622d6c8"
-    },
-    {
-      "id": "68ddc274b76f",
-      "title": "Child marriages plunged when girls stayed in school in Nigeria",
-      "url": "https://www.nature.com/articles/d41586-026-00796-2",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文を貼るか、要点（見出し・リード文・重要な段落）を教えていただければ、200文字以内で日本語要約します。HNコメントの要約も同様に対応できます。どちらにしますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-07T13:30:04.000Z",
-      "contentHash": "612a8e33d72b"
-    },
-    {
-      "id": "a505eac8f113",
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "summary": "OpenAIはGPT‑5.5とGPT‑5.5‑Cyberを含む「Trusted Access for Cyber」を拡大し、認証済みの防御者が脆弱性調査を加速して重要インフラを保護できるよう支援します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-05-07T13:00:00.000Z",
-      "contentHash": "d9a1b7e9316c"
-    },
-    {
-      "id": "8a0c4f4d7cf8",
-      "title": "LinkedIn profile visitor lists belong to the people, says Noyb",
-      "url": "https://www.theregister.com/offbeat/2026/05/05/noyb-cries-foul-on-linkedin-withholding-profile-visitor-data/5225338",
-      "summary": "EUのプライバシー団体noybが、LinkedInが「プロフィールを閲覧した人」や内部のプロファイリング情報をGDPRに基づくデータ提供から除外しているとして当局に違反を申立てました。LinkedInは第三者のプライバシーや企業秘密を理由に一部開示を拒否しています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-07T11:08:43.000Z",
-      "contentHash": "cf57bb26d4e4"
-    },
-    {
-      "id": "fa002821b90d",
-      "title": "Parloa builds service agents customers want to talk to",
-      "url": "https://openai.com/index/parloa",
-      "summary": "ParloaはOpenAIのモデルを活用し、音声対応のスケーラブルなAIカスタマーサービスエージェントを提供。企業が設計・シミュレーション・本番展開を行い、リアルタイムで信頼性の高い対話を実現する。",
-      "source": "OpenAI",
-      "publishedAt": "2026-05-07T11:00:00.000Z",
-      "contentHash": "e3ad0c1419b9"
-    },
-    {
-      "id": "24a3c172de48",
-      "title": "Advancing voice intelligence with new models in the API",
-      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
-      "summary": "OpenAI APIの新しいリアルタイム音声モデルを紹介。推論・翻訳・文字起こしを行い、より自然で高度な音声体験を実現します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-05-07T10:00:00.000Z",
-      "contentHash": "2462d3a3b2ac"
-    },
-    {
-      "id": "6c86f5fec788",
-      "title": "Claude Managed Agents を試す",
-      "url": "https://note.com/npaka/n/n190b39339bf9",
-      "summary": "Claude Managed AgentsはAnthropicのマネージド基盤で、Claudeを自律エージェントとしてファイル編集・コード実行・Web調査などの複数ステップ作業を実行。Agent/Environment/Session/Eventsの4要素で動作し、料金はモデルのトークン課金＋稼働時間のセッションランタイム($0.08/セッション時間)。導入はAPIキー設定、Python環境、SDKインストールで開始。",
-      "source": "npaka",
-      "publishedAt": "2026-05-07T08:32:58.000Z",
-      "contentHash": "cc327d7b1eab"
-    },
-    {
-      "id": "eb86a772af0b",
-      "title": "AWS IAM Identity Center の構築・設計における注意点 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/iam-identity-center-design-guide",
-      "summary": "イーゴリ解説：AWS IAM Identity Center（旧SSO）はマルチアカウントの認証基盤。設計ミスで後戻り不能な制約や外部IdP連携の罠があり、インスタンスはManagement Accountに配置、Control Towerと同一リージョン必須、2024年以降はマルチリージョン対応。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-07T08:32:01.000Z",
-      "contentHash": "cc9333cdbe5c"
-    },
-    {
-      "id": "336793425529",
-      "title": "Rails にはレイヤはあるがモジュールはない（翻訳） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_05_07/157714",
-      "summary": "RailsはMVCなどのレイヤはあるが、機能単位の「モジュール」（Rubyのmoduleではなく）を構造化しないため、モデルが増えモジュール化されない設計問題が起きやすい、というArkency記事の翻訳。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-07T08:30:52.000Z",
-      "contentHash": "dfd406f94e78"
-    },
-    {
-      "id": "d86f0bf2d32b",
-      "title": "Vertex AI で実現するオンライン需要予測 — ブラウザのみで完結する構築ガイド | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/95864e98bfa9ac",
-      "summary": "Google CloudのVertex AIをブラウザのみで使い、オンライン需要予測を構築する手順。BigQueryのIowa Liquor Salesを前処理し、Tabular Workflowで学習→Model Registry→Vertex AI EndpointへデプロイしてREST APIで推論。API有効化やGCSバケット作成などの前提とクリーンアップ注意あり。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-07T08:07:18.000Z",
-      "contentHash": "35634b78d199"
-    },
-    {
-      "id": "508ea91b193d",
-      "title": "Amazon SageMaker Canvasによる画像分類モデルの構築と実践 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/sagemaker-canvas-image-classification",
-      "summary": "イーゴリです。画像分類の需要はEC商品分類や不適切画像検知、製造の外観検査などで増加していますが、従来は専門知識やモデル選定、環境構築、推論運用が課題でした。これらを解決するのがAmazon SageMaker Canvasです。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-07T08:00:12.000Z",
-      "contentHash": "82b8080e8131"
-    },
-    {
-      "id": "327aa79d6d25",
-      "title": "学びの場としての OST(Open Space Technology) とは？ | MOBILUS TECH BLOG",
-      "url": "https://mobilus.hatenablog.com/entry/2026/05/07/165713",
-      "summary": "筆者はGWに地元でチャンバラ貝を堪能。カオナビの社内OST「オアシス」に触発され、モビルスでエンジニア交流を目的とした第1回OSTを開催。詳細はWantedlyに掲載。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-07T07:57:13.000Z",
-      "contentHash": "897f40137cd1"
-    },
-    {
-      "id": "da1659497159",
-      "title": "外部連携バッチシステムの動作確認をしやすくする | every Tech Blog",
-      "url": "https://tech.every.tv/entry/2026/05/07/165132",
-      "summary": "リテールハブ開発部の清水です。外部と深夜にCSVをやり取りするバッチ群を開発・運用。順序や設定が重要で新メンバーがローカルで動かしにくいため、Docker ComposeでFTP/S3互換ストレージやMySQLを立て、動作確認しやすくする工夫を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-07T07:51:32.000Z",
-      "contentHash": "655e31eb5ead"
-    },
-    {
-      "id": "632d3bf38af1",
-      "title": "Claude CoworkをAmazon Bedrock 経由で使ってみた | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/7ac5229f4d65f0",
-      "summary": "Claude DesktopでAmazon Bedrockを推論バックエンドに設定する手順を紹介。短期APIキー取得→開発者モード有効化→AWSリージョン(ap-northeast-1)、Bearerトークン、推論プロファイルIDを入力して再起動するとBedrock経由で応答。AWS請求やCost Explorerで管理でき、データを国内リージョンに閉じられる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-07T07:33:23.000Z",
-      "contentHash": "4b76d0e22173"
-    },
-    {
-      "id": "9b199a592674",
-      "title": "gRPCのCLIツールを操作するAgent Skillを作った話 | Yappli Tech Blog",
-      "url": "https://tech.yappli.io/entry/grpc_agent_skill",
-      "summary": "サーバーエンジニア水戸が作ったAgent Skill「grpcurl」を紹介。gRPC向けで、サーバー種別選択→対話で情報収集→コマンド生成・実行→結果表示。proto指定からreflectionへ変更や認証ヘッダ分岐に苦労した点を解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-07T07:30:37.000Z",
-      "contentHash": "9010e86a327a"
-    },
-    {
-      "id": "75898f693adf",
-      "title": "MCP サーバーの API キーを AWS Systems Manager Parameter Store で管理してみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/mcp-apikey-ssm-parameter-store",
-      "summary": "アプリケーションサービス部の山本です。前回はMCPサーバーのAPIキーをAWS Secrets Managerで管理する方法を紹介。コストやチームでParameter Storeを使いたいという声を受け、本稿ではParameter Storeで同様に管理する方法を解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-07T07:01:59.000Z",
-      "contentHash": "a6cc38bc6c19"
-    },
-    {
-      "id": "7d9d39fdf5cc",
-      "title": "絆を深める企画が満載！ピクシブ流の新卒歓迎会2026 | pixiv inside",
-      "url": "https://inside.pixiv.blog/2026/05/07/160000",
-      "summary": "4月に12名の新卒が入社。ピクシブでは入社初日に前年新卒が企画・運営する「ピクシブらしい」歓迎会を開催。入念な準備で司会や音響・映像がスムーズに進行し、個々の働き方も柔軟に選べる環境が紹介された。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-07T07:00:00.000Z",
-      "contentHash": "75690cfa7050"
-    },
-    {
-      "id": "ccbf3815c57b",
-      "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
-      "url": "https://arxiv.org/abs/2605.03546",
-      "summary": "外部サイトに直接参照できないため、要約する本文（または抄録）を貼り付けてください。論文だけを要約するか、Hacker Newsの議論も含めるかも教えてください。いただければ200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-07T03:46:15.000Z",
-      "contentHash": "797fd3c3e9e8"
-    },
-    {
-      "id": "2ddf279c30cb",
-      "title": "Diskless Linux boot using ZFS, iSCSI and PXE",
-      "url": "https://aniket.foo/posts/20260505-netboot/",
-      "summary": "外部リンクには直接アクセスできません。記事本文か主要箇所を貼ってください。いただければ200字以内で日本語要約します。HNコメントも要約したければ一緒に送ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-07T03:13:24.000Z",
-      "contentHash": "c0f284cb8396"
-    },
-    {
-      "id": "b0c127a0cced",
-      "title": "「【必見】Claude Code、トークン消費を80%削減する裏技とAIエージェントの真実」～【ai】人気記事（2026/05/03） | CareNet Engineersのフィード",
-      "url": "https://zenn.dev/carenet/articles/zenn-weekly-ai-articles-2026-05",
-      "summary": "ZennのAI人気記事を自動取得・AIで要約して自動更新する記事。注目はClaude Codeでトークン消費を約80%削減し、CLAUDE.mdやskills、agentsを整備して開発体験を劇的に改善する「育成」手法の紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-07T02:42:43.000Z",
-      "contentHash": "1fa6f9dce782"
-    },
-    {
-      "id": "7d8a529c2d1a",
-      "title": "AWS インテグレーションの RDS のホスト詳細で、Amazon Aurora のメタデータを追加しました 他5件のアップデート | Mackerel ブログ #mackerelio",
-      "url": "https://mackerel.io/ja/blog/entry/weekly/20260507",
-      "summary": "Mackerelの更新告知：AWS統合でRDSのAmazon Auroraメタデータを追加、Step Functionsのメトリクス取得を改善、Webで組織グループのSAMLセッション有効期限設定を追加、mackerel-agentがOracle Linux 10対応、mackerel-container-agentはKubernetes関連の改善を実施。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-07T02:40:34.000Z",
-      "contentHash": "f4b8b6189afc"
     }
   ]
 }
