@@ -1,6 +1,141 @@
 {
-  "generatedAt": "2026-05-29T18:49:42.569Z",
+  "generatedAt": "2026-05-30T04:05:14.507Z",
   "items": [
+    {
+      "id": "f9f7643ea416",
+      "title": "Codex + Agent Sprite Forge でアクションゲームの生成を試す",
+      "url": "https://note.com/npaka/n/ne0c0daafbfa3",
+      "summary": "Codex + Agent Sprite Forgeで横スクロールアクションを自動生成し、キャラ(run/idle)や背景ループの修正、マップエディタ追加、敵・UI・ライフ挙動やSE/BGM導入、表示調整を行い動作確認した。",
+      "source": "npaka",
+      "publishedAt": "2026-05-30T01:47:09.000Z",
+      "contentHash": "b6537aed7754"
+    },
+    {
+      "id": "b33512c6f511",
+      "title": "Amazon BedrockでAIモデルのパラメータ検証していたらカップラーメンが破壊されるとか言ってきた | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/amazon-nova-temperature-test",
+      "summary": "Amazon BedrockのPlaygroundでAmazon Nova Lite 1.0に同一プロンプトを投げ、温度（Temperature）のみを変えて出力の違いを検証した結果を共有。AWS認定AI Practitioner向けの用語解説（Temperature、Top P、Top K）と準備手順（Playground起動、モデル選択、パラメータ設定）をまとめている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-30T01:37:51.000Z",
+      "contentHash": "1757c31276e2"
+    },
+    {
+      "id": "6f0005165d23",
+      "title": "Power BI レポートをDatabricksダッシュボードに変換する | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/56a8e6f5ae9e12",
+      "summary": "Azure DatabricksのGenie Codeベータ機能「Import BI files using Genie Code」を検証。pbitファイルを渡すとDatabricks上にスキーマ・テーブル・Metric View・ダッシュボードが自動生成され、従来Power BIに閉じたBI資産をDatabricksで利活用できる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-30T00:45:32.000Z",
+      "contentHash": "ede6b7634fb2"
+    },
+    {
+      "id": "4651e52f42fd",
+      "title": "What Is a Dickover?",
+      "url": "https://daringfireball.net/2026/05/what_is_a_dickover",
+      "summary": "ジョン・グルーバーは、コンテンツを遮り不要な操作を強いるモーダルやポップオーバーを「dickover」と呼び、クッキー同意や購読要求などがウェブ全体に蔓延していると批判、特にSubstackの全画面案内を例に挙げている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-29T23:54:22.000Z",
+      "contentHash": "3edef9cbb93e"
+    },
+    {
+      "id": "e4cca38d8005",
+      "title": "Nvidia, Microsoft, and Arm are all teasing Nvidia’s new N1X laptop processors",
+      "url": "https://www.theverge.com/news/940275/nvidia-n1x-laptop-processor-arm-microsoft-teaser",
+      "summary": "NvidiaがComputex日曜夜の基調講演でArm搭載のノート向けN1/N1Xチップを発表するとみられる。MicrosoftとArmも「新時代のPC」と台北の座標で示唆。LenovoやDellの採用報道あり。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-29T23:03:29.000Z",
+      "contentHash": "6fdb8ac4c27b"
+    },
+    {
+      "id": "52009a07b017",
+      "title": "MCP is dead?",
+      "url": "https://www.quandri.io/engineering-blog/mcp-is-dead",
+      "summary": "MCP（LLMと外部ツール接続）はツール定義でコンテキストを大量消費（4サーバで10.5%、Linear単独で約12,800トークン）、性能・信頼性に問題があり既存CLI/APIと重複する。初回で最大9.4倍遅い等のオーバーヘッドがあり、Claude CodeのDeferred Loadingでコンテキスト問題は改善したが性能・デバッグ・設計上の課題は残る。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-29T22:56:49.000Z",
+      "contentHash": "5f2996fb5ff2"
+    },
+    {
+      "id": "ddbfadcf0274",
+      "title": "SpaceX gets $4 billion contract to build missile-tracking ‘Golden Dome’ satellites",
+      "url": "https://www.theverge.com/science/940207/spacex-golden-dome-satellite-contract",
+      "summary": "米国防省がスペースXに、トランプ氏の防衛構想「ゴールデン・ドーム」用ミサイル追跡衛星を41.6億ドルで発注。衛星で宇宙から目標を検出・追跡し、同社は他の関連契約も保有している。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-29T21:48:52.000Z",
+      "contentHash": "ebf4a9cef9f5"
+    },
+    {
+      "id": "1824dd1f6d8e",
+      "title": "NSA「ゼロトラスト実装ガイドライン（ZIG）」完全解説 — 4本のPDF、42 Capabilityと91 Activity | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/nsa-zig-zero-trust-implementation-guidelines/",
+      "summary": "NSAのZero Trust Implementation Guidelines（ZIG）は4本のPDFで42のCapability・91のActivityを示す「実装作業仕様書」。新理論でなくDoDのFY2027目標達成のために「何を、いつ、どう実装するか」を具体化し、米防衛サプライチェーン経由で世界の企業に波及する可能性がある。この記事は要点翻訳・実務チェックリスト・APT対応の限界分析を提供。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-29T20:47:00.000Z",
+      "contentHash": "e8cb2b679f1f"
+    },
+    {
+      "id": "9a3e2cc3c50f",
+      "title": "The California state assembly has passed the 'Protect Our Games Act'",
+      "url": "https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill",
+      "summary": "「Stop Killing Games」運動が追い風に。カリフォルニア州下院がAB1921「Protect Our Games Act」を可決。2027年以降のデジタルゲームはサービス終了時に60日通知と購入者が引き続き遊べる環境維持を義務化。発端はUbisoftの『The Crew』停止。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-29T19:55:56.000Z",
+      "contentHash": "12cbc5cee517"
+    },
+    {
+      "id": "8fc846704960",
+      "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
+      "url": "https://github.com/jmaczan/tiny-vllm",
+      "summary": "tiny-vllmはC++とCUDAで高性能LLM推論エンジンを作る実装＋講義リポジトリ。SafetensorsのLlama読み込み、CUDAカーネル、KVキャッシュ、静的/連続バッチ、オンラインsoftmaxやPagedAttentionなど最適化手法を段階的に学べる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-29T19:38:27.000Z",
+      "contentHash": "b184aa33b234"
+    },
+    {
+      "id": "5d6a562776f8",
+      "title": "Microsoft 0-day feud escalates as researcher threatens another exploit dump",
+      "url": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
+      "summary": "不満を抱くバグハンター「Nightmare Eclipse」がWindows向けゼロデイ6件を公開。BlueHammer・RedSun・UnDefendは既に悪用され、YellowKey（CVE-2026-455）などは未修正。Microsoftは事前通報を受けておらず警察に通報、7月14日に追加公開を予告。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-29T19:37:41.000Z",
+      "contentHash": "36cc624c224b"
+    },
+    {
+      "id": "d376513844ed",
+      "title": "On Rendering Diffs",
+      "url": "https://pierre.computer/writing/on-rendering-diffs",
+      "summary": "プルリクの差分表示は小規模なら問題ないが、大きくなると表示遅延や操作性低下が起きる。そこで6ヶ月前に「Diffs」を公開し、File/FileDiffや仮想化でレンダリング負荷を下げ、レビュー周辺の作業に集中できるようにした。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-29T19:04:54.000Z",
+      "contentHash": "7a0ccabf82de"
+    },
+    {
+      "id": "541c94058649",
+      "title": "Acer’s launching a Linux handheld for streaming your PC games",
+      "url": "https://www.theverge.com/games/940091/acer-nitro-blaze-link-linux-handheld",
+      "summary": "Acerがストリーミング専用のLinux携帯機「Nitro Blaze Link」を発表。7インチ（1920×1200）、Wi‑Fi6、RAM1GB、内蔵8GB、2026年Q4発売予定。ローカル実行は想定外で価格未定。",
+      "source": "The Verge",
+      "publishedAt": "2026-05-29T19:01:48.000Z",
+      "contentHash": "0cc3a6367b84"
+    },
+    {
+      "id": "f207ff77e37e",
+      "title": "Rothko for your current weather conditions",
+      "url": "https://rothko.joonas.wtf/",
+      "summary": "マーク・ロスコは1940年代後半に具象をやめ、光や色、鑑賞者に与える感情だけを追求した。ぼやけた縁の長方形を2〜3配置し、色が独自の気配を持つまで画面を練り、低く掛け照明を落として座って向き合うことを求めた。絵はただ見るものではなく何かを為すべきだと考えた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-29T18:31:52.000Z",
+      "contentHash": "0c6a72c522e9"
+    },
+    {
+      "id": "ad448856994d",
+      "title": "SQLite is all you need for durable workflows",
+      "url": "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/",
+      "summary": "記事は、SQLiteのACID性やWALなどを用いてワークフロー／タスクキューを単一DBで実装する方法を紹介。トランザクションでタスクの確保・再試行・予約を行い、外部ミドル不要で堅牢かつ運用が簡素化されるが、スケーリングやファイルシステム依存の注意点があると指摘する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-29T17:54:50.000Z",
+      "contentHash": "35d37d920100"
+    },
     {
       "id": "8e8fb67fbd90",
       "title": "Tech companies desperately want to film you doing chores",
@@ -12,12 +147,21 @@
     },
     {
       "id": "b1eb05743ee0",
-      "title": "11 demos of Gemini Omni and Gemini 3.5 in action",
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
-      "summary": "Google I/O 2026で、推論力と生成力を融合したGemini Omniと、複雑なエージェント的ワークフローを実行するGemini 3.5を発表。記事は両モデルの11のデモを紹介しています。",
+      "summary": "2026年のGoogle I/Oで発表されたGemini OmniとGemini 3.5を紹介。Omniは推論と生成を統合しクリエイティブ作業に強く、Gemini 3.5は複雑なエージェント的ワークフローの実行向け。9つのデモで実演。",
       "source": "Gemini",
       "publishedAt": "2026-05-29T17:30:00.000Z",
-      "contentHash": "8debf46bbcb3"
+      "contentHash": "1b8531ab20a8"
+    },
+    {
+      "id": "508119bec856",
+      "title": "Claude Codeを使うなら知っておきたい「コンテキスト」の話 | スタフェステックブログのフィード",
+      "url": "https://zenn.dev/stafes_blog/articles/nano72mkn-context-intro",
+      "summary": "ClaudeなどのLLMでいうコンテキストは会話履歴・参照ファイル・実行結果など「今見えている情報」で、作業に必須。ウィンドウ（上限）があり膨らむと遅延や忘却、指示混乱、コスト増が起きる。Context Rotで上限前から性能劣化し、ノイズや提示方法が影響するため、こまめに整理・切替えるのが有効。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-29T17:17:51.000Z",
+      "contentHash": "2e359c97444f"
     },
     {
       "id": "0137aaaf6d0e",
@@ -38,13 +182,22 @@
       "contentHash": "06cad4e43246"
     },
     {
+      "id": "c395bdb399cd",
+      "title": "Show HN: TV Explorer. Adding advanced UI to free online TV",
+      "url": "https://tvexplorer.live",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で日本語に要約します。要点だけでよければ箇条でも構いませんし、要約のトーン（中立・賛否など）があれば教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-29T16:39:09.000Z",
+      "contentHash": "ac972dbee702"
+    },
+    {
       "id": "6b9d31b7e387",
-      "title": "Notes from the Mistral AI Now Summit in Paris",
+      "title": "Notes from the Mistral AI Now Summit",
       "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
-      "summary": "Mistralはモデルに留まらず40MW含むデータセンター等の計算資源・モデル・プラットフォーム・コンサルを揃えたフルAIスタックを構築。オンプレ可の効率的な小型特化モデルでASML・BNP・Alexa+等と連携し、Vibe for Workを発表。エージェントはハーネス（文脈・永続性・学習）と推論が鍵。",
+      "summary": "リンク先を直接参照できないため、記事本文を貼っていただけますか？本文を貼っていただければ日本語で200文字以内に要約します。HNのコメントを要約してほしい場合は、そのテキストを貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2026-05-29T16:22:01.000Z",
-      "contentHash": "3e2eb8b7cf19"
+      "contentHash": "8ffaa17ad152"
     },
     {
       "id": "677a4e305c87",
@@ -104,10 +257,10 @@
       "id": "1d91e25f16f0",
       "title": "distrolessコンテナイメージ使おうとして依存が足りないときはどうすればいいですか？あ、OCamlなんですけど。 | エムスリーテックブログ",
       "url": "https://www.m3tech.blog/entry/2026/05/30/000000",
-      "summary": "OCamlバイナリをdistrolessで動かす際の実践記。multi-stageでhello worldを作り、.so不足やldd/dlopenの限界、LightGBM等の依存対策、staticリンク化やTLS・DNS問題、scratch移行までの試行錯誤と解決策を紹介。",
+      "summary": "基盤開発チームブログリレー4日目。リーダー横本が、基盤記事のはずがいつの間にかOCamlブログリレーになり戸惑う様子をユーモラスに綴る。前3日でWeb・CLI・機械学習とOCamlが続き、OCamlデビューの流れに触れる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-29T15:00:00.000Z",
-      "contentHash": "244e6ef89936"
+      "contentHash": "49142d99f817"
     },
     {
       "id": "df2467a8706a",
@@ -158,10 +311,10 @@
       "id": "2b46731dfcb6",
       "title": "「AIエージェントキャッチアップ #78 - Meta-Harness」を開催しました | Generative Agents Tech Blog",
       "url": "https://blog.generative-agents.co.jp/entry/2026/05/29/225827",
-      "summary": "AIエージェントキャッチアップ#78では、タスク固有のハーネスを自動探索・最適化するMeta-Harnessを紹介。GitHubの参照例とONBOARDING.mdでClaude Codeがdomain_spec.mdを生成し、Solver（解く役）とProposer（評価・最適化役）で実験。次回はOneManCompany。",
+      "summary": "大嶋が「AIエージェントキャッチアップ #78」で、タスク固有のハーネスを自動探索するMeta-Harnessを紹介。アーカイブ動画・GitHub・論文を共有。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-29T13:58:27.000Z",
-      "contentHash": "51538f9f86c5"
+      "contentHash": "1e025844c48a"
     },
     {
       "id": "491fb39bc5a4",
@@ -176,10 +329,10 @@
       "id": "3273d712a73f",
       "title": "量子コンピュータによる多重配列アラインメントの高速化 | fltech - 富士通研究所の技術ブログ",
       "url": "https://blog.fltech.dev/entry/2026/05/25/quantum-msa",
-      "summary": "量子コンピュータで多重配列アラインメントの距離行列作成を量子回路化し、配列のシフト比較をGrover探索で効率化。決定グラフ型量子回路シミュレータで高速シミュレーションを実証し、近傍ペア検出に注力。",
+      "summary": "量子研究所の木村悠介が、ゲノム解析の多重配列アラインメント(MSA)の一部を量子回路として実装し、独自の決定グラフ(DD)型量子回路シミュレータで高速にシミュレーションした研究をarXivで公開。この記事はその論文を分かりやすく解説する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-29T13:13:59.000Z",
-      "contentHash": "70b93f8235a9"
+      "contentHash": "3a24bc95e60a"
     },
     {
       "id": "0e3713c16644",
@@ -227,6 +380,15 @@
       "contentHash": "00ee361e12e2"
     },
     {
+      "id": "880638aa77e3",
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "url": "https://openai.com/index/braintrust",
+      "summary": "BraintrustのエンジニアはCodexとGPT-5.5を組み合わせ、実験やコーディングを高速化。コード生成・デバッグ・テスト自動化で反復を短縮し、生産性と品質を高めつつ人の監督を維持している。",
+      "source": "OpenAI",
+      "publishedAt": "2026-05-29T12:00:00.000Z",
+      "contentHash": "24a4c0360cd4"
+    },
+    {
       "id": "f1c29a43b59a",
       "title": "This is MSI’s new Claw 8 EX AI Plus gaming handheld",
       "url": "https://www.theverge.com/entertainment/939758/msi-claw-8-ex-ai-plus-gaming-handheld-reveal-computex-2026",
@@ -239,28 +401,28 @@
       "id": "d0c1d159b275",
       "title": "物語AIの方法序説：創造性のリファクタリング　理性を正しく導き、創造性を学術的に探究するための方法の話。 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/b02e294200a70e",
-      "summary": "AI物語生成のサーベイ。登場人物・世界観・因果・時系列など長距離の一貫性維持が難点で、可視化／テキスト／マルチモーダルの三分類と4種類の一貫性定義を示す。GAN→拡散→LLMへと変遷した技術と評価・実運用の課題を整理。",
+      "summary": "AIによる物語生成は依然難しい。登場人物・世界観・因果・時系列など長距離の整合が必要で、局所的な流暢さだけでなくグローバルな一貫性とコヒーレンスが求められる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-29T10:45:05.000Z",
-      "contentHash": "de287619f247"
+      "contentHash": "5b6c8eaa4c3a"
     },
     {
       "id": "f4f0e54041d3",
       "title": "【AWS Secrets Manager】末尾が \"ハイフン＋6文字\" のシークレット名には気をつけろ！！ | レバテック開発部のフィード",
       "url": "https://zenn.dev/levtech/articles/946b5154085468",
-      "summary": "AWS Secrets Managerで末尾が「ハイフン＋6文字」（例: -secret）のシークレット名は、IaC（AWS CDK等）で部分ARN（シークレット名）を使って参照するとAWSが自動付与サフィックスと誤認しリソースが見つからずエラーになる。対策は全ARNで指定するか末尾を変えること。",
+      "summary": "AWS Secrets Managerで、シークレット名がハイフン＋6文字（例「-secret」）で終わると、AWSが自動付与のランダムサフィックスと誤認し、部分ARNで参照するとリソース未検出エラーになる。回避策は末尾パターンを避けるか完全ARNで参照すること。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-29T10:29:58.000Z",
-      "contentHash": "e7f077b5766c"
+      "contentHash": "5526c42eb824"
     },
     {
       "id": "40b18d5bfe47",
       "title": "214ファイル、13,500行のHamlをERBに移行しReActionViewを採用 | STORES Product Blog",
       "url": "https://product.st.inc/entry/2026/05/29/191707",
-      "summary": "STORESでReActionViewを導入し、214ファイル（約13,500行）のHamlをERBへ移行。AIエージェントとスクリプトで約9営業日で完了し、HerbツールとHerb Linter導入で約100件の不具合を修正。開発環境でデバッグ用メタタグが隣接セレクタのCSSに影響する問題を確認。",
+      "summary": "STORESの一部でReActionViewをレンダリングエンジンとして採用した導入経緯と過程。ActionView互換のERBでHerb基盤によりHTMLとERBを統一解析できる点に惹かれ、Kaigiでの出会いを経て決断した。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-29T10:17:07.000Z",
-      "contentHash": "48e5760567b3"
+      "contentHash": "80cede2b4954"
     },
     {
       "id": "e2d9f27ad1d5",
@@ -383,10 +545,10 @@
       "id": "f9213c981206",
       "title": "NVIDIA OpenShell のクイックスタート",
       "url": "https://note.com/npaka/n/n3a15ca83ee95",
-      "summary": "NVIDIA OpenShellはAIエージェント向けの安全なサンドボックス環境で、ホストのファイルや認証情報を隔離し、ネットワークや操作をポリシーで制御・ログ化します。CLIでサンドボックスを作成・接続・削除し、エージェント実行や生成ファイルの確認が可能。導入にはmacOS/Linux/Windows(WSL)、Docker等、APIキーが必要です。",
+      "summary": "NVIDIA OpenShellはAIエージェント向けの安全なサンドボックス環境で、ホスト資源を隔離し、ネットワークや操作をポリシーで制御します。CLIでサンドボックスを作成・接続・削除し、エージェントにコード作成などを安全に実行させられます。導入には対応OS、コンテナ環境、CLI、APIキー等が必要です。",
       "source": "npaka",
       "publishedAt": "2026-05-29T05:11:49.000Z",
-      "contentHash": "2a6c9c586e6d"
+      "contentHash": "05a50556cb51"
     },
     {
       "id": "2da60208066e",
@@ -545,19 +707,19 @@
       "id": "d5e4b3d9f267",
       "title": "Claude Code の dynamic workflows の概要",
       "url": "https://note.com/npaka/n/ne4ec7f5bfc1b",
-      "summary": "2026年5月、AnthropicはClaude Codeにdynamic workflowsを導入。数十〜数百のサブエージェントを並列実行・検証して大規模移行やバグ探索、セキュリティ監査などをエンドツーエンドで自動化。研究プレビュー提供・高トークン消費の注意、ultracode/auto利用を推奨。",
+      "summary": "AnthropicがClaude Codeにdynamic workflowsを導入。数十〜数百のサブエージェントを並列生成・検証してバグ検出や大規模移行などをエンドツーエンドで自動化。プレビュー提供で高トークン消費に注意。",
       "source": "npaka",
       "publishedAt": "2026-05-28T23:36:41.000Z",
-      "contentHash": "e5520a562dc7"
+      "contentHash": "834fb2e12341"
     },
     {
       "id": "4ff869813e00",
       "title": "Claude Opus 4.8 の概要",
       "url": "https://note.com/npaka/n/n9cb4d1f22b08",
-      "summary": "AnthropicがClaude Opus 4.8を公開。4.7比で誠実性とアライメントが向上し、裏付けのない主張や欠陥見逃しが大幅減。Dynamic Workflowsで大規模コード対応、Effort制御や高速モード（2.5倍、料金1/3）を追加。",
+      "summary": "Claude Opus 4.8を公開。4.7より誠実性・アライメントが大幅改善し誤情報が減少。高速モードは2.5倍速で料金は3分の1、Dynamic Workflowsで大規模コード処理が可能、ユーザーはEffortで応答深度を調整できる。",
       "source": "npaka",
       "publishedAt": "2026-05-28T23:09:26.000Z",
-      "contentHash": "c6e5ed124aae"
+      "contentHash": "d573bdb356a5"
     },
     {
       "id": "68d7a23f1438",
@@ -743,10 +905,10 @@
       "id": "1e59226b47d2",
       "title": "OpenClaw と NemoClaw のセキュリティ設計まとめ",
       "url": "https://note.com/npaka/n/ne6fa414786d2",
-      "summary": "OpenClawとNemoClawは二層でAIエージェントのリスクを防ぐ。OpenClawは見せるツールや権限を最小化し、シェル実行に承認やファイル操作制限を設ける。NemoClawは安全な実行環境で被害拡大を抑える。",
+      "summary": "OpenClawはエージェントに見せるツールを最小化し、シェル実行に承認を挟みファイル操作を制限するアプリ層の防御。NemoClawは安全な実行環境で外部への被害拡大を防ぐランタイム層の防御。",
       "source": "npaka",
       "publishedAt": "2026-05-28T08:41:17.000Z",
-      "contentHash": "dc2c71809f76"
+      "contentHash": "33a1661ee9ca"
     },
     {
       "id": "21a54e624c64",
@@ -4775,10 +4937,10 @@
       "id": "7d08c741602c",
       "title": "I/O 2026",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
-      "summary": "I/O 2026でGoogleはGemini Omni（映像含む任意入力で生成・編集）とGemini 3.5 Flash（行動対応）を発表。エージェント重視のAntigravityでSearch、Geminiアプリ、Universal Cartなどにエージェント機能を展開し、Picsやスマート眼鏡、Ask YouTubeへも拡大する。",
+      "summary": "Google I/O 2026で、映像を含むあらゆる入力を生成・編集できるマルチモーダル新モデル「Gemini Omni」と「Gemini 3.5 Flash」を発表。エージェント基盤Antigravityで行動支援するエージェントをSearchやGeminiアプリ、Universal Cart、Google Pics、スマート眼鏡、Ask YouTubeなどに展開する。",
       "source": "Gemini",
       "publishedAt": "2026-05-19T17:45:00.000Z",
-      "contentHash": "0df20fd08c6c"
+      "contentHash": "6a6f3678d740"
     },
     {
       "id": "abf74475285f",
@@ -8838,168 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-10T09:37:18.000Z",
       "contentHash": "4420e5734d14"
-    },
-    {
-      "id": "3a9841b522ed",
-      "title": "RubyLLM × さくらのAI Engine — 「OpenAI 互換」でハマったこと | タケユー・ウェブ株式会社のフィード",
-      "url": "https://zenn.dev/takeyuwebinc/articles/daec34094c21ce",
-      "summary": "RubyLLMをさくらのAI Engineに接続する際、base_urlとAPIキー差替えで動くが、providerとassume_model_existsの指定が必要。「OpenAI互換」はプロトコル互換のみで、with_schemaが効かない・toolsの挙動がモデルごとに異なる等の差異があった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-10T06:36:03.000Z",
-      "contentHash": "cf7646cb8ff5"
-    },
-    {
-      "id": "5f1fb2ea186d",
-      "title": "Task Paralysis and AI",
-      "url": "https://g5t.de/articles/20260510-task-paralysis-and-ai/index.html",
-      "summary": "診断は未確定だがADHDの兆候があり、飽きやすく2〜3年で職を変え、計画は立てられても実行できない「タスク麻痺」で悩む。AIは有料で利用する一方、失職や著作権侵害を懸念し創作には極力使わず旧来の方法や購入を選んでいる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-10T06:20:50.000Z",
-      "contentHash": "b1a55816be23"
-    },
-    {
-      "id": "2c87505d3501",
-      "title": "Debian must ship reproducible packages",
-      "url": "https://lists.debian.org/debian-devel-announce/2026/05/msg00001.html",
-      "summary": "すみません、外部リンクを直接開けません。記事本文か重要箇所を貼っていただければ、200文字以内で日本語要約を作成します。どちらを貼りますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-10T05:26:03.000Z",
-      "contentHash": "f85cff0359ab"
-    },
-    {
-      "id": "07ab4ad398dc",
-      "title": "Gemini API File Search is now multimodal",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
-      "summary": "Gemini APIのFile Searchがマルチモーダル対応、カスタムメタデータ、ページ単位の引用を追加。非構造化データを構造化し、効率的で検証可能なRAG構築を支援するアップデート。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-10T03:22:02.000Z",
-      "contentHash": "d7501f84dd51"
-    },
-    {
-      "id": "5100a173d421",
-      "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
-      "url": "https://github.com/imtomt/ymawky",
-      "summary": "ymawkyはMac向けの静的ファイルサーバーで、ARM64アセンブリで全実装。GET/PUT/DELETE/HEAD/OPTIONSやRange（動画シーク）対応、パーセントデコード、docroot厳格化、カスタムエラーページ、ディレクトリ一覧、Slowloris対策等を備える。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-10T03:01:44.000Z",
-      "contentHash": "8c0073fba568"
-    },
-    {
-      "id": "fd45d8c7ac1c",
-      "title": "【文系AIコンサル】コンサルのバイブル『コンサル一年目が学ぶこと』の学びを実践。26卒が身をもって知った「基礎」の破壊力。 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/875717bc8d5fe2",
-      "summary": "著者は新人コンサルとして、華やかなスキルよりPREP法徹底、前提の検証、着手前の合意形成、数字への執着、議事録で合意を可視化するなど泥臭い基礎の重要性を説く。文系や若手向けの実践指南。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-10T02:58:39.000Z",
-      "contentHash": "63620ec08cb3"
-    },
-    {
-      "id": "008233b56ad2",
-      "title": "「Claudeエージェントでエンジニアは不要？AI開発の役割激変を徹底解説」～【claude】今週の人気記事TOP5（2026/05/10） | CareNet Engineersのフィード",
-      "url": "https://zenn.dev/carenet/articles/zenn-weekly-claude-articles-2026-05",
-      "summary": "Zennの人気記事を自動取得し要約。Claude関連記事TOP5を紹介：セッション永続メモ導入、生成AIサブスク選び、Claude DesktopのSSH脆弱性、コード0行の財務アプリ事例、Managed Agentsの運用境界を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-10T02:47:13.000Z",
-      "contentHash": "8375fc6f71cd"
-    },
-    {
-      "id": "860b697b46c5",
-      "title": "gbrainに学ぶ、Agentの記憶基盤とKnowledge Graphの作り方 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/8bc4e8c3119fa3",
-      "summary": "YC CEO作のOSS「gbrain」は、Markdownや会議メモ・コード・画像をPostgres/PGLiteで管理し、content_chunksとlinksでKnowledge Graphを構築。TypeScript+SQLの決定論的ランタイムで検索・更新・グラフ巡回を提供し、関係探索に基づく堅牢なエージェント記憶基盤を実現。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-10T02:34:06.000Z",
-      "contentHash": "06b6bcf4e874"
-    },
-    {
-      "id": "f23bc8e99f97",
-      "title": "France moves to break encrypted messaging",
-      "url": "https://reclaimthenet.org/france-moves-to-break-encrypted-messaging",
-      "summary": "Braveが機能を絞った新オプション「Brave Now」を投入。作りはまとまっているが、利用の価値はユーザーがどれだけプライバシーを重視するか次第、という内容。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-09T22:14:35.000Z",
-      "contentHash": "87d799ff5aa4"
-    },
-    {
-      "id": "4cd0c0295d18",
-      "title": "Getting arrested in Japan",
-      "url": "https://sundaicity.com/blogs/getting-arrested-in-japan",
-      "summary": "日本は治安が良いが厳格で、些細なトラブルでも逮捕され得る。逮捕後は警察の留置場に入り、初期処理約3日＋10日＋さらに10日延長で最大23日拘留。別件で延長や数ヶ月の拘束もあり、起訴前の一時収容施設だ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-09T21:56:19.000Z",
-      "contentHash": "0609c5f5ddd0"
-    },
-    {
-      "id": "5eea12261322",
-      "title": "Show HN: Rust but Lisp",
-      "url": "https://github.com/ThatXliner/rust-but-lisp",
-      "summary": "ThatXlinerの「rust-but-lisp」は、Rustの所有権・借用・ライフタイムなどの概念をS式（Lisp風）構文で表現する実験的なGitHubプロジェクト。教育的なデモ・概念可視化が目的で実用向けではないが、工夫とユーモアで注目を集めた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-09T21:46:27.000Z",
-      "contentHash": "d77cc97c3310"
-    },
-    {
-      "id": "8fe30e4b9d2c",
-      "title": "Local privilege escalation via execve()",
-      "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc",
-      "summary": "外部URLに直接アクセスできないため、元記事の本文を貼っていただけますか？貼っていただければ200文字以内で日本語要約します。HNの議論も要約希望なら、その部分も一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-09T20:31:21.000Z",
-      "contentHash": "a88c47d8029c"
-    },
-    {
-      "id": "458cf02000d8",
-      "title": "Meta's embrace of AI is making its employees miserable",
-      "url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
-      "summary": "申し訳ありませんが、指定のURL先を直接参照できません。記事本文を貼り付けていただければ、200文字以内で日本語要約を作成します。あるいは主要ポイントを教えていただければ、それを元に要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-09T18:33:36.000Z",
-      "contentHash": "c634762ded46"
-    },
-    {
-      "id": "35dcb8af3eed",
-      "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
-      "url": "https://github.com/nooga/let-go",
-      "summary": "Let-goは純Goで書かれたClojure互換言語（JVM Clojureと約90%互換）。約10MBの静的バイナリでコールドブート約7ms、nREPL対応。Goに埋め込みやすくCLI・Web・データ処理やシステム向けに利用可。簡易コンパイラとスタックVMでAOTやスタンドアロン化が可能だが、JARや全Java APIは未対応で既存Clojureは修正が必要。試用・PR歓迎。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-09T17:52:13.000Z",
-      "contentHash": "76c350eacd3f"
-    },
-    {
-      "id": "5ea61e1122d7",
-      "title": "Zed Editor Theme-Builder",
-      "url": "https://zed.dev/theme-builder",
-      "summary": "ZedのTheme Builderはデスクトップ限定で、テーマ拡張を閲覧可能。画面はカラートークンやテーマ編集機能を表示。添付のReact/TypeScriptの例では未使用プロパティ、型不一致、引数名の綴り間違いなどの警告が示されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-09T17:30:39.000Z",
-      "contentHash": "5677a85c605b"
-    },
-    {
-      "id": "f1014e96e10f",
-      "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
-      "url": "https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/",
-      "summary": "cPanelは「Black Week」直後、ランサムウェア被害で約44,000台のサーバーが侵害された件を受け、追加で3件の脆弱性を修正。管理者に対し即時アップデート、認証情報や鍵の変更、侵害有無の確認と復旧対策を強く促した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-09T17:06:46.000Z",
-      "contentHash": "ae2cda2b0f4a"
-    },
-    {
-      "id": "8be270ca5f04",
-      "title": "I’ve banned query strings",
-      "url": "https://chrismorgan.info/no-query-strings",
-      "summary": "静的資産にクエリ文字列を付けると一部CDNやプロキシがキャッシュしないため性能が低下する。代替としてコンテンツハッシュ入りファイル名でバージョン管理し、長いTTLと適切なCache‑Controlを設定するのが推奨。HNではCDN設定やビルド運用、Service Workerなどの議論が交わされた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-09T16:28:36.000Z",
-      "contentHash": "1d78c225c1d4"
-    },
-    {
-      "id": "20ce01179267",
-      "title": "Dyson’s powerful 360 Vis Nav robovac is down to $279.99 for a limited time",
-      "url": "https://www.theverge.com/gadgets/926942/dyson-360-vis-nav-robot-vacuum-woot-dust-busting-deals-sale",
-      "summary": "Dysonのロボ掃除機360 Vis NavがWootで期間限定（5月11日まで）$279.99に値下げ。旧モデルながら65AWの強力吸引でカーペットの汚れをよく取ると評価され、2年保証付き。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-09T16:00:00.000Z",
-      "contentHash": "995dd7be6a4e"
     }
   ]
 }
