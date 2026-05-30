@@ -1,32 +1,77 @@
 {
-  "generatedAt": "2026-05-30T04:05:14.507Z",
+  "generatedAt": "2026-05-30T10:18:35.932Z",
   "items": [
+    {
+      "id": "7c472ad421cb",
+      "title": "飛び級で統計検定準1級に不合格（51点）→合格（66点）した話 | 分析屋",
+      "url": "https://note.com/bunsekiya_tech/n/n74a9465c90a7",
+      "summary": "飛び級で統計検定準1級に一度不合格（51点）後、再挑戦で合格（66点）。生物系院卒のデータサイエンティストが公式ワークブック・過去問・とけたろうのチートシートをAIで加工した赤シート暗記ノート等で対策し合格。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-30T06:00:00.000Z",
+      "contentHash": "6daea3504a47"
+    },
+    {
+      "id": "d818cf04e727",
+      "title": "Microsoft Fabricのしくみをもう一歩理解する - Tablesの中で何が起きているのか（Delta Lake入門） | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2026/05/30/130629",
+      "summary": "Microsoft FabricのLakehouse内のTablesは、単なるファイルではなくDelta Lakeで管理され、parquetがデータ本体、_delta_logが変更履歴を保持する。更新や履歴参照が可能で、Power BIやSQLで安全かつ効率的に分析できる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-30T04:06:29.000Z",
+      "contentHash": "743555d7ac0f"
+    },
+    {
+      "id": "ebc2bf469a66",
+      "title": "Naphtha shortages in Japan",
+      "url": "https://www.nippon.com/en/japan-data/h02783/",
+      "summary": "イラン情勢でナフサ不足が拡大。カルビーはインク・溶剤不足のため一部商品を白黒パッケージに変更し写真やマスコットも一時撤去。ナフサは化学原料で、製造業の約30%に波及。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-30T02:20:40.000Z",
+      "contentHash": "3fbb7c30153f"
+    },
+    {
+      "id": "8f3b3931fc2d",
+      "title": "データ同期バッチを Choreography から Orchestration Saga へ作り直した話 | DRESS CODE TECH BLOGのフィード",
+      "url": "https://zenn.dev/dress_code/articles/deaca45dcb9873",
+      "summary": "外部SaaSの同期バッチを、各ハンドラが次を決めるChoreography型から、中央オーケストレーターが宣言的に制御するOrchestration型へ移行。可視性不足・リトライで経路変化・スロットリング・肥大化を解消。FetchとReconcileの分離、ハンドラは完了/継続/失敗のみ返却、ウォーターマークで差分検出し再実行性と負荷分散を向上。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-30T02:00:05.000Z",
+      "contentHash": "faa9191240a4"
+    },
     {
       "id": "f9f7643ea416",
       "title": "Codex + Agent Sprite Forge でアクションゲームの生成を試す",
       "url": "https://note.com/npaka/n/ne0c0daafbfa3",
-      "summary": "Codex + Agent Sprite Forgeで横スクロールアクションを自動生成し、キャラ(run/idle)や背景ループの修正、マップエディタ追加、敵・UI・ライフ挙動やSE/BGM導入、表示調整を行い動作確認した。",
+      "summary": "CodexとAgent Sprite Forgeで横スクロールアクションを自動生成。素材準備→スプライト・背景の修正→マップ・敵・プレイヤー挙動やUI調整→マップエディタ・SE/BGM追加。歩行スプライトの左右偏りは手動修正や参照変換で対処。",
       "source": "npaka",
       "publishedAt": "2026-05-30T01:47:09.000Z",
-      "contentHash": "b6537aed7754"
+      "contentHash": "d3ddb171eaf2"
+    },
+    {
+      "id": "aeed2f832151",
+      "title": "WH proposes rules giving political appointees final approval on research grants",
+      "url": "https://www.scientificamerican.com/article/white-house-proposes-new-rules-giving-political-appointees-final-say-on-research-grants/",
+      "summary": "ホワイトハウスは連邦研究助成で政治任命者が最終承認する草案規則を提示。OMBが資金配分を集中管理し、上級任命者が大統領優先に沿うか審査、専門家の無党派審査から転換。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-30T01:39:52.000Z",
+      "contentHash": "4d8ff4fa91e6"
     },
     {
       "id": "b33512c6f511",
       "title": "Amazon BedrockでAIモデルのパラメータ検証していたらカップラーメンが破壊されるとか言ってきた | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/amazon-nova-temperature-test",
-      "summary": "Amazon BedrockのPlaygroundでAmazon Nova Lite 1.0に同一プロンプトを投げ、温度（Temperature）のみを変えて出力の違いを検証した結果を共有。AWS認定AI Practitioner向けの用語解説（Temperature、Top P、Top K）と準備手順（Playground起動、モデル選択、パラメータ設定）をまとめている。",
+      "summary": "Amazon BedrockのPlaygroundでAmazon Nova Lite 1.0に同一プロンプトを投げ、温度のみ（0/0.5/1）を変えて出力の違いを検証。Temperature/TopP/TopKの解説、手順、結果比較（Claude Sonnet 4.5含む）と考察をまとめた記事。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-30T01:37:51.000Z",
-      "contentHash": "1757c31276e2"
+      "contentHash": "8e2211c3e1e4"
     },
     {
       "id": "6f0005165d23",
       "title": "Power BI レポートをDatabricksダッシュボードに変換する | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/56a8e6f5ae9e12",
-      "summary": "Azure DatabricksのGenie Codeベータ機能「Import BI files using Genie Code」を検証。pbitファイルを渡すとDatabricks上にスキーマ・テーブル・Metric View・ダッシュボードが自動生成され、従来Power BIに閉じたBI資産をDatabricksで利活用できる。",
+      "summary": "Azure DatabricksのGenie Code β機能「Import BI files」を検証。Power BIの.pbitを読み込んでスキーマ、テーブル、Metric View（DAXを宣言的定義へ変換）、ダッシュボードを自動生成。データ本体やカタログ設計は別途必要。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-30T00:45:32.000Z",
-      "contentHash": "ede6b7634fb2"
+      "contentHash": "abae797b3a98"
     },
     {
       "id": "4651e52f42fd",
@@ -65,13 +110,31 @@
       "contentHash": "ebf4a9cef9f5"
     },
     {
+      "id": "b207022313c5",
+      "title": "EV Stupidity Checklist",
+      "url": "http://hypercritical.co/2026/05/29/ev-stupidity-checklist",
+      "summary": "著者はEVが従来の優れた設計を捨て、埋め込み式ドアハンドルや過剰なタッチスクリーンなどで機能性・安全性を損ねていると批判。タッチは安価で普及したが不人気で危険。安全優先へ戻すためのチェックリストを作成した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-29T21:29:51.000Z",
+      "contentHash": "d28354e54877"
+    },
+    {
       "id": "1824dd1f6d8e",
       "title": "NSA「ゼロトラスト実装ガイドライン（ZIG）」完全解説 — 4本のPDF、42 Capabilityと91 Activity | CloudNative BLOGs",
       "url": "https://blog.cloudnative.co.jp/articles/nsa-zig-zero-trust-implementation-guidelines/",
-      "summary": "NSAのZero Trust Implementation Guidelines（ZIG）は4本のPDFで42のCapability・91のActivityを示す「実装作業仕様書」。新理論でなくDoDのFY2027目標達成のために「何を、いつ、どう実装するか」を具体化し、米防衛サプライチェーン経由で世界の企業に波及する可能性がある。この記事は要点翻訳・実務チェックリスト・APT対応の限界分析を提供。",
+      "summary": "NSAのZIGは新理論でなく、4本のPDFで42のCapability・91のActivityに分解した「実装作業仕様書」。DoDのFY2027目標達成に向けた現場向け導入・運用指針で、米防衛サプライチェーン経由で日本企業にも影響する実務ガイド。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-29T20:47:00.000Z",
-      "contentHash": "e8cb2b679f1f"
+      "contentHash": "bf4106fbd62d"
+    },
+    {
+      "id": "9a95a183af72",
+      "title": "The Last Technical Interview",
+      "url": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
+      "summary": "スティーブ・イェッジは、ホワイトボード上のアルゴリズム問題中心の技術面接を批判し、実務に近い課題、ペアプログラミング、設計議論や短期トライアル採用で実際の能力・協働力を評価する新しい採用法を提案する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-29T19:58:56.000Z",
+      "contentHash": "e53977538fc0"
     },
     {
       "id": "9a3e2cc3c50f",
@@ -99,6 +162,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-05-29T19:37:41.000Z",
       "contentHash": "36cc624c224b"
+    },
+    {
+      "id": "55b0c0308dd4",
+      "title": "Shift will clean homes for free to train future robots",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
+      "summary": "AIスタートアップShiftは、将来のロボット訓練用データを得るために清掃員の作業を「マジックハット」のカメラで録画する代わりに、無料で自宅を清掃すると発表した。作業映像でロボットを学習させるという。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-29T19:16:32.000Z",
+      "contentHash": "57b8a082d316"
     },
     {
       "id": "d376513844ed",
@@ -257,10 +329,10 @@
       "id": "1d91e25f16f0",
       "title": "distrolessコンテナイメージ使おうとして依存が足りないときはどうすればいいですか？あ、OCamlなんですけど。 | エムスリーテックブログ",
       "url": "https://www.m3tech.blog/entry/2026/05/30/000000",
-      "summary": "基盤開発チームブログリレー4日目。リーダー横本が、基盤記事のはずがいつの間にかOCamlブログリレーになり戸惑う様子をユーモラスに綴る。前3日でWeb・CLI・機械学習とOCamlが続き、OCamlデビューの流れに触れる。",
+      "summary": "OCamlバイナリをdistrolessで動かす試行記。`.so`不足やldd/dlopenの限界に直面し、staticリンクやscratch化、TLS/DNSやLightGBMの対処法を紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-29T15:00:00.000Z",
-      "contentHash": "49142d99f817"
+      "contentHash": "244e6ef89936"
     },
     {
       "id": "df2467a8706a",
@@ -311,10 +383,10 @@
       "id": "2b46731dfcb6",
       "title": "「AIエージェントキャッチアップ #78 - Meta-Harness」を開催しました | Generative Agents Tech Blog",
       "url": "https://blog.generative-agents.co.jp/entry/2026/05/29/225827",
-      "summary": "大嶋が「AIエージェントキャッチアップ #78」で、タスク固有のハーネスを自動探索するMeta-Harnessを紹介。アーカイブ動画・GitHub・論文を共有。",
+      "summary": "勉強会#78はMeta-Harnessを紹介。タスク固有ハーネスを自動最適化するフレームワークで、GitHub例や論文、Solver/Proposerの構成、ONBOARDING.mdを使いClaude Codeがdomain_spec.mdとコードを生成する流れを確認。次回はOneManCompany。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-29T13:58:27.000Z",
-      "contentHash": "1e025844c48a"
+      "contentHash": "51538f9f86c5"
     },
     {
       "id": "491fb39bc5a4",
@@ -329,10 +401,10 @@
       "id": "3273d712a73f",
       "title": "量子コンピュータによる多重配列アラインメントの高速化 | fltech - 富士通研究所の技術ブログ",
       "url": "https://blog.fltech.dev/entry/2026/05/25/quantum-msa",
-      "summary": "量子研究所の木村悠介が、ゲノム解析の多重配列アラインメント(MSA)の一部を量子回路として実装し、独自の決定グラフ(DD)型量子回路シミュレータで高速にシミュレーションした研究をarXivで公開。この記事はその論文を分かりやすく解説する。",
+      "summary": "量子回路とGrover探索を用いて、多重配列アラインメントの距離行列作成（配列のシフト比較）を量子化し、DD型量子回路シミュレータで高速にシミュレーションした研究をarXivで公開。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-29T13:13:59.000Z",
-      "contentHash": "3a24bc95e60a"
+      "contentHash": "70b93f8235a9"
     },
     {
       "id": "0e3713c16644",
@@ -545,10 +617,10 @@
       "id": "f9213c981206",
       "title": "NVIDIA OpenShell のクイックスタート",
       "url": "https://note.com/npaka/n/n3a15ca83ee95",
-      "summary": "NVIDIA OpenShellはAIエージェント向けの安全なサンドボックス環境で、ホスト資源を隔離し、ネットワークや操作をポリシーで制御します。CLIでサンドボックスを作成・接続・削除し、エージェントにコード作成などを安全に実行させられます。導入には対応OS、コンテナ環境、CLI、APIキー等が必要です。",
+      "summary": "NVIDIA OpenShellはAIエージェント向けの安全なサンドボックス環境で、ホストのファイルや認証情報を隔離し、ネットワークや操作をポリシーで制御・ログ化します。CLIでサンドボックスを作成・接続・削除してエージェントを実行・作業依頼でき、導入にはmacOS/Linux/Windows+WSLやDocker等が必要です。",
       "source": "npaka",
       "publishedAt": "2026-05-29T05:11:49.000Z",
-      "contentHash": "05a50556cb51"
+      "contentHash": "d9cce562e6df"
     },
     {
       "id": "2da60208066e",
@@ -707,19 +779,19 @@
       "id": "d5e4b3d9f267",
       "title": "Claude Code の dynamic workflows の概要",
       "url": "https://note.com/npaka/n/ne4ec7f5bfc1b",
-      "summary": "AnthropicがClaude Codeにdynamic workflowsを導入。数十〜数百のサブエージェントを並列生成・検証してバグ検出や大規模移行などをエンドツーエンドで自動化。プレビュー提供で高トークン消費に注意。",
+      "summary": "AnthropicはClaude Codeにdynamic workflowsを導入。数十〜数百のサブエージェントを動的生成し並列実行して、バグ検出・大規模移行・セキュリティ監査・重要作業の二重検証など複雑作業をエンドツーエンドで処理。結果を検証・統合して返す。研究プレビュー提供。トークン多消費に注意。",
       "source": "npaka",
       "publishedAt": "2026-05-28T23:36:41.000Z",
-      "contentHash": "834fb2e12341"
+      "contentHash": "81a9eb5dd765"
     },
     {
       "id": "4ff869813e00",
       "title": "Claude Opus 4.8 の概要",
       "url": "https://note.com/npaka/n/n9cb4d1f22b08",
-      "summary": "Claude Opus 4.8を公開。4.7より誠実性・アライメントが大幅改善し誤情報が減少。高速モードは2.5倍速で料金は3分の1、Dynamic Workflowsで大規模コード処理が可能、ユーザーはEffortで応答深度を調整できる。",
+      "summary": "AnthropicはClaude Opus 4.8を公開。誠実さとアライメントを大幅改善し、自己検証で誤りを減少。Effort制御や大規模並列処理のDynamic Workflows、速度2.5倍・費用1/3の高速モードを提供。",
       "source": "npaka",
       "publishedAt": "2026-05-28T23:09:26.000Z",
-      "contentHash": "d573bdb356a5"
+      "contentHash": "647255885ddf"
     },
     {
       "id": "68d7a23f1438",
@@ -8928,78 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-05-10T14:00:00.000Z",
       "contentHash": "d3d03270e1b3"
-    },
-    {
-      "id": "ca58f16aa3e0",
-      "title": "Writers are fleeing the Substack Tax",
-      "url": "https://www.theverge.com/tech/927294/substack-tax-ghost-beehiiv",
-      "summary": "Substackから作家が流出。『Substack税』への不満やサイト運営の自由を求め、The AnklerらがGhostやBeehiivなどの競合プラットフォームへ移行している。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-10T14:00:00.000Z",
-      "contentHash": "0ce7da18566e"
-    },
-    {
-      "id": "d4b5bbb96ff9",
-      "title": "Netflix may have finally figured out games",
-      "url": "https://www.theverge.com/column/926250/netflix-tv-games-strategy",
-      "summary": "Netflixがテレビ向けの新作ゲームで手応えを掴んだ可能性。リモコンやスマホで気軽に遊べる、テレビ体験に合ったカジュアル／家族向けゲームが「うまく」機能している、と報告。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-10T12:00:00.000Z",
-      "contentHash": "9fb2e54c2321"
-    },
-    {
-      "id": "7fd547a5c6c6",
-      "title": "【Microsoft Agent Framework】- hosted agentをデプロイしてみる | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/9c2836aa0f3ab0",
-      "summary": "Azure Developer CLI（azd）を使い、Microsoft Foundry上にhosted agentをデプロイする手順を解説。前提リソース・権限、azd拡張導入、init→ローカル実行→azd deploy、動作確認・監視・コード実行例を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-10T11:59:50.000Z",
-      "contentHash": "efc13562dc99"
-    },
-    {
-      "id": "9fe5e734b3d4",
-      "title": "Space Cadet Pinball on Linux",
-      "url": "https://brennan.io/2026/05/09/pinball-and-escrow/",
-      "summary": "Windows XPに同梱されていたSpace Cadet PinballがLinuxで遊べる。リバースエンジニアで移植されGitHubに公開、Flatpakで導入可能。高解像度はFull Tiltのデータ（archive.org）を使えば差替えられる。Flatpakは更新少なめ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-10T11:22:02.000Z",
-      "contentHash": "5e699b5aad6a"
-    },
-    {
-      "id": "c6a46af85e73",
-      "title": "Vivo’s X300 Ultra has the best cameras in any phone",
-      "url": "https://www.theverge.com/tech/926067/vivos-x300-ultra-has-the-best-cameras-in-any-phone",
-      "summary": "Vivo X300 Ultraは派手な望遠競争を避け、35mmの高性能メインと業界最高クラスの超広角、プロ向け動画機能で三つのカメラが均衡した最高峰の写真性能を実現。一方デザインは地味。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-10T11:00:00.000Z",
-      "contentHash": "310411c17a80"
-    },
-    {
-      "id": "edb0c49bfa44",
-      "title": "Replacing a 3 GB SQLite db with a 10 MB FST (finite state transducer) binary",
-      "url": "https://til.andrew-quinn.me/posts/replacing-a-3-gb-sqlite-database-with-a-7-mb-fst-finite-state-trandsucer-binary/",
-      "summary": "著者は3GBのSQLiteを10MBのFSTバイナリに置き換え、約300倍の容量削減を達成。フィンランド語辞書アプリtskはプレフィックス検索に当初Goのトライを使い、1–3文字をメモ化して50〜100件で打ち切る最適化で約60MBに抑えたが、膠着語ゆえの多様な語尾変化が課題となった。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-10T10:33:06.000Z",
-      "contentHash": "3bdc6158ee21"
-    },
-    {
-      "id": "c8598ff85c0b",
-      "title": "Claude Code更新 worktree baseRef・hooks effort・scrollback復活【5/3〜9】 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/05/10/190000",
-      "summary": "Claude Code v2.1.128→v2.1.138で更新。主な追加は worktree.baseRef（起点をorigin/<default>かlocal HEAD選択）、Hooksの effort.level/$CLAUDE_EFFORT、CLAUDE_CODE_DISABLE_ALTERNATE_SCREENでターミナルのnative scrollback復活。並列セッション401やsubagent、MCP OAuthトークン等の長期バグも修正。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-10T10:00:00.000Z",
-      "contentHash": "7d554c962c32"
-    },
-    {
-      "id": "af9bc21487b2",
-      "title": "1時間で料理バトルAIエージェントを作ってみた | NCDC テックブログのフィード",
-      "url": "https://zenn.dev/ncdc/articles/750ebc277019b9",
-      "summary": "LangGraphでスクラッチ実装し、錬金術師と会計士が議論する料理バトルAIを約1時間で作成。審判が両者の意見をまとめ合意スコアを算出し、80超えるまで反復。AIエージェントは知覚→計画→行動→評価のループで自律動作し、LangGraphはノード／エッジで思考ループや分岐を設計できるフレームワーク。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-10T09:37:18.000Z",
-      "contentHash": "4420e5734d14"
     }
   ]
 }
