@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-05-31T04:32:30.120Z",
+  "generatedAt": "2026-05-31T10:33:17.288Z",
   "items": [
+    {
+      "id": "c1736160ebb3",
+      "title": "DGX Spark で Trellis.2 による3Dモデル生成を試す",
+      "url": "https://note.com/npaka/n/n344aae232ac0",
+      "summary": "DGX SparkでMicrosoftのImage-to-3DモデルTrellis.2を試した報告。Hugging Faceでモデル許可を取得し、dr-vij/Trellis2-DGX-Spark-DockerでCUDAやFlashAttentionを構築、モデルDLに約2時間。.envにHFトークンを入れてdocker composeでGradioを起動し、画像からPBR付き3D（GLB）を生成できる。",
+      "source": "npaka",
+      "publishedAt": "2026-05-31T08:53:48.000Z",
+      "contentHash": "d3609a06ce31"
+    },
+    {
+      "id": "f9cb2c160bbc",
+      "title": "The Website Specification",
+      "url": "https://specification.website/",
+      "summary": "良いウェブサイトが備えるべき技術要件をプラットフォーム非依存で整理した仕様。128トピック・10分類（基本、SEO、アクセシビリティ、セキュリティ等）で標準に準拠、GitHubで公開・編集可、エージェント向けAPI/llms.txt対応。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-31T07:09:50.000Z",
+      "contentHash": "4d3618110081"
+    },
+    {
+      "id": "7e2455d83d52",
+      "title": "弾幕シューティングのきれいな弾幕パターン15選まとめ",
+      "url": "https://note.com/npaka/n/n5d38b7d84173",
+      "summary": "弾幕シューティングの美しい弾幕パターン15種を、見た目とゲーム性で分類・解説。放射、螺旋、扇形、自機狙い、波、格子、花形、円環、星形などの特徴・用途・変化技法を紹介。",
+      "source": "npaka",
+      "publishedAt": "2026-05-31T06:06:44.000Z",
+      "contentHash": "0ab0b8fe0650"
+    },
+    {
+      "id": "e8e7052a7574",
+      "title": "FSx for NetApp ONTAP のログの種類と用途についてまとめてみた | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/fsx-ontap-log-type",
+      "summary": "FSx for NetApp ONTAPには4種類のログがあり、管理監査ログ（CLI/API操作の証跡）、ファイルアクセス監査ログ（SMB/NFSでのファイル操作記録）など、各ログは管理操作の追跡、利用者操作の記録、障害解析やセキュリティ監視に利用される。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-31T03:37:28.000Z",
+      "contentHash": "601787e28c58"
+    },
+    {
+      "id": "eecff9086c8c",
+      "title": "Please Do Not Vibe Fuck Up This Software",
+      "url": "https://github.com/RsyncProject/rsync/issues/929",
+      "summary": "RsyncProject/rsyncのIssue #929「Please Do Not Vibe Fuck Up This Software」が2026-05-30にユーザーII-Paulus-IIから投稿され、画像を添付。議論・反応が活発でコメント数は66件。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-31T03:16:48.000Z",
+      "contentHash": "9cfcc963eec2"
+    },
+    {
+      "id": "cafccfcb6323",
+      "title": "Agent Garden - Teams会議の暗黙知を“育てて咲かせる” Microsoft 365 Copilot エージェント生成ツール | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/c5d16d51324f1e",
+      "summary": "Teams録画をアップロードして暗黙知を「知識／スキル／パーソナリティ／意思決定」に構造化し、Microsoft 365 Copilot用エージェントとして継続的に育てるWebアプリ。編集履歴やフィードバックで成長・更新可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-31T02:18:31.000Z",
+      "contentHash": "43e4a4309f28"
+    },
+    {
+      "id": "7bf97b99016b",
+      "title": "早朝のAIは空いている—生活をIoT改造した話 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/8a9f1d985dcdf6",
+      "summary": "Copilotの混雑を避けるため早朝に利用。意志に頼らずIoTで強制起床（5時に音楽・自動カーテン・照明・ロボット掃除機＋障害物で起きざるを得ない仕掛け）。騒音対策や安全配慮が必要。早朝はCopilotが安定・高速。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-05-31T00:34:57.000Z",
+      "contentHash": "ae583ad4c692"
+    },
     {
       "id": "6a2f30c3ea96",
       "title": "【6月企画】KENTEMテックブログ、リレーブログ始めます！ | KENTEM TechBlog",
@@ -12,12 +75,21 @@
     },
     {
       "id": "4124cd7e6f7e",
-      "title": "Microsoft degrades functionality of perpetually-licensed offline products",
+      "title": "Microsoft Office 2019 and 2021 for Mac view-only conversion",
       "url": "https://consumerrights.wiki/w/Microsoft_Office_2019_and_2021_for_Mac_view-only_conversion_(2026)",
       "summary": "Microsoftは2026年7月13日、Office 2019/2021 for Macのライセンス検証証明書の期限切れによりアプリを編集・保存不可の「閲覧専用」モードに切替える予定。2023年時点の「継続動作」表記は後に削除された。",
       "source": "Hacker News",
       "publishedAt": "2026-05-30T23:26:13.000Z",
       "contentHash": "4c27df6e258c"
+    },
+    {
+      "id": "8d73eb6a69cb",
+      "title": "Cheese Paper: a text editor specifically designed for writing",
+      "url": "https://brie.gay/cheese-paper/",
+      "summary": "Cheese Paperは小説向けの軽量テキストエディタ。各シーンをMarkdown本文とTOMLヘッダでメモや要約を保存し、どのテキストエディタでも編集可能。同期ツールと連携して外部変更を自動反映し、完全オフラインでデータを売らず課金もしない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-30T22:58:41.000Z",
+      "contentHash": "9834b1362be1"
     },
     {
       "id": "a1899575f83b",
@@ -29,6 +101,24 @@
       "contentHash": "351e073f3ddc"
     },
     {
+      "id": "6fc86224e193",
+      "title": "The AV2 Video Standard Has Released (Final v1.0 Specification)",
+      "url": "https://av2.aomedia.org",
+      "summary": "AV2はAOMediaの次世代動画符号化規格（v1.0.0、2026-05-28公開）。AV1より圧縮効率を改善し、ストリーミング／放送／会議やAR/VR、分割画面・画面コンテンツに対応。ビットストリーム仕様とデコーダ手順、AVM参照実装を提供し、フィードバック窓口もある。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-30T21:46:18.000Z",
+      "contentHash": "da703bd764bd"
+    },
+    {
+      "id": "8d7b43543161",
+      "title": "OpenBlender の概要",
+      "url": "https://note.com/npaka/n/n708203026e50",
+      "summary": "OpenBlenderは生成AIをBlenderに統合するアドオンで、TXT/IMG/VID→画像・動画・3D・HDRI・リグ生成やAIチャット、MCP等を同画面で扱える。Blenderで構図やカメラを固定して生成AIをガイドできるのが特徴。",
+      "source": "npaka",
+      "publishedAt": "2026-05-30T21:37:45.000Z",
+      "contentHash": "e3f539e1f223"
+    },
+    {
       "id": "e2dba8b881f7",
       "title": "Domain expertise has always been the real moat",
       "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
@@ -36,6 +126,33 @@
       "source": "Hacker News",
       "publishedAt": "2026-05-30T20:40:57.000Z",
       "contentHash": "2478c04828f3"
+    },
+    {
+      "id": "bbdc833eff5e",
+      "title": "Dusklight – GC Twilight Princess Decompiled",
+      "url": "https://twilitrealm.dev/",
+      "summary": "DusklightがPC・モバイル向けに発売。発表記事とリリーストレーラーを公開。各種修正・改善でクラシックなアドベンチャーが復刻し、「再び伝説になる」ことを謳っています。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-30T20:24:26.000Z",
+      "contentHash": "c1c15fbf1c52"
+    },
+    {
+      "id": "18383fa33403",
+      "title": "Parallel Reconstruction of Lawful TLS Wiretapping",
+      "url": "https://remyhax.xyz/posts/reproducing-lawful-tls-wiretapping/",
+      "summary": "記事はTLSとCAの仕組みを解説し、ルートCA署名を用いた「法的」ワイヤータップが実際に行われる事例を提示する。2023年のHetzner/LinodeでのロシアXMPP傍受では証明書未更新で露呈し、本件の解析と教訓を論じる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-30T19:47:36.000Z",
+      "contentHash": "67ec8a932b61"
+    },
+    {
+      "id": "c9d788269d82",
+      "title": "Jef Raskin, the Visionary Behind the Mac (2013)",
+      "url": "https://lowendmac.com/2013/jef-raskin-the-visionary-behind-the-mac/",
+      "summary": "ジェフ・ラスキンはAppleの31人目社員で、Macプロジェクトを創始しGUI普及に寄与。音楽家出身で「簡潔さ」を重視し、白書やビジネス論でマネジメント（マーカラ）を説得。1981年中頃にスティーブ・ジョブズが関与してチームを離れた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-05-30T19:42:33.000Z",
+      "contentHash": "2614da5b5c0c"
     },
     {
       "id": "0627818966e3",
@@ -284,19 +401,19 @@
       "id": "7c472ad421cb",
       "title": "飛び級で統計検定準1級に不合格（51点）→合格（66点）した話 | 分析屋",
       "url": "https://note.com/bunsekiya_tech/n/n74a9465c90a7",
-      "summary": "データサイエンティスト東口が飛び級で統計検定準1級を一度不合格（51点）→再挑戦で合格（66点）。公式ワークブック・過去問・とけたろうのチートシートを用い、AIで数式をLaTeX化して自作の赤シート暗記ノート（約80頁）を3週間で作成。",
+      "summary": "SAC部の東口が統計検定準1級合格の勉強法を紹介。2級以下を受けず飛び級で準1級に挑戦し、決して余裕のある合格ではなかったが、飛び級受験を考える人の参考になればと記している。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-30T06:00:00.000Z",
-      "contentHash": "aa04476ff213"
+      "contentHash": "eddc42980977"
     },
     {
       "id": "d818cf04e727",
       "title": "Microsoft Fabricのしくみをもう一歩理解する - Tablesの中で何が起きているのか（Delta Lake入門） | Alternative Architecture DOJO",
       "url": "https://aadojo.alterbooth.com/entry/2026/05/30/130629",
-      "summary": "Microsoft FabricのLakehouse内のTablesは、単なるファイルではなくDelta Lakeで管理され、parquetがデータ本体、_delta_logが変更履歴を保持する。更新や履歴参照が可能で、Power BIやSQLで安全かつ効率的に分析できる。",
+      "summary": "Microsoft Fabric学習シリーズ第2回。Tablesに焦点を当て、図解と実例でDelta Lakeのストレージ構成やトランザクション、更新・履歴管理などの仕組みを分かりやすく解説しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-30T04:06:29.000Z",
-      "contentHash": "743555d7ac0f"
+      "contentHash": "7f0c5170d7cd"
     },
     {
       "id": "0fb5fca13efe",
@@ -329,10 +446,10 @@
       "id": "f9f7643ea416",
       "title": "Codex + Agent Sprite Forge でアクションゲームの生成を試す",
       "url": "https://note.com/npaka/n/ne0c0daafbfa3",
-      "summary": "CodexとAgent Sprite Forgeで横スクロールアクションを自動生成。素材準備(Vite+TS+Phaser、game0/1.png)、スプライト・背景ループ・マップ・敵・UI・SE/BGM・マップエディタを調整し、歩行アニメの連続ミス対策も提案。",
+      "summary": "CodexとAgent Sprite Forgeで横スクロールアクションを生成。素材準備→自動生成→スプライト・背景の修正、マップ・敵・UI調整、マップエディタ追加、SE/BGM導入と動作確認を行い、歩行スプライトの偏り対策も提示。",
       "source": "npaka",
       "publishedAt": "2026-05-30T01:47:09.000Z",
-      "contentHash": "e6cbd893a85f"
+      "contentHash": "915b61ae5ed2"
     },
     {
       "id": "aeed2f832151",
@@ -905,10 +1022,10 @@
       "id": "f9213c981206",
       "title": "NVIDIA OpenShell のクイックスタート",
       "url": "https://note.com/npaka/n/n3a15ca83ee95",
-      "summary": "NVIDIA OpenShellはAIエージェント向けの安全なサンドボックスで、ホストのファイルや認証情報を隔離し、ネットワークをポリシーで制御、操作をログ化して権限を調整可能。macOS/Linux/Windows+WSL2とDocker等、OpenShell CLIが要件で、CLIでインストールし sandbox create/connect/list/delete などでエージェントを起動・管理する。",
+      "summary": "NVIDIA OpenShellはAIエージェント向けの安全なサンドボックス環境。ホストのファイルや認証情報を隔離し、ネットワークや操作をポリシーで制御。CLIでインストール・サンドボックス作成・接続・削除が可能で、操作はログで確認・ポリシー更新で権限調整できる。",
       "source": "npaka",
       "publishedAt": "2026-05-29T05:11:49.000Z",
-      "contentHash": "3323efb85eb0"
+      "contentHash": "a7fb9b1ee173"
     },
     {
       "id": "2da60208066e",
@@ -1067,19 +1184,19 @@
       "id": "d5e4b3d9f267",
       "title": "Claude Code の dynamic workflows の概要",
       "url": "https://note.com/npaka/n/ne4ec7f5bfc1b",
-      "summary": "AnthropicはClaude Codeにdynamic workflowsを導入。数十〜数百のサブエージェントを動的に生成・並列実行し、バグ探査や大規模移行、セキュリティ監査など複雑なタスクをエンドツーエンドで処理。出力は検証・敵対的チェックで統合され、現在プレビュー提供（トークン消費大）。",
+      "summary": "AnthropicはClaude Codeにdynamic workflowsを導入。単一セッションで多数のサブエージェントを並列実行し、複雑なバグ検出や大規模移行、二重チェックが必要な重要作業をエンドツーエンドで計画・実行・検証して統合結果を返す機能。研究プレビューで提供され、トークン消費が大きい。",
       "source": "npaka",
       "publishedAt": "2026-05-28T23:36:41.000Z",
-      "contentHash": "1daf165874ef"
+      "contentHash": "6630b687c4ea"
     },
     {
       "id": "4ff869813e00",
       "title": "Claude Opus 4.8 の概要",
       "url": "https://note.com/npaka/n/n9cb4d1f22b08",
-      "summary": "AnthropicがClaude Opus 4.8を発表。Opus 4.7より性能と誠実性が向上し、誤情報やコード欠陥が減少。Dynamic Workflowsで大規模コード対応、Effortで思考深度を調整可能、2.5倍高速モードは料金1/3、Messages APIも改良。",
+      "summary": "Claude Opus 4.8をリリース。性能と誠実さが向上し、裏付けのない主張やコード欠陥の見落としが大幅減。高速モード（2.5倍、料金は1/3）やユーザーが応答の“Effort”を調整可能、Dynamic Workflowsで大規模並列処理やMessages APIの途中指示更新に対応。価格は据え置き。",
       "source": "npaka",
       "publishedAt": "2026-05-28T23:09:26.000Z",
-      "contentHash": "56ffc404f116"
+      "contentHash": "c79548c1c4a9"
     },
     {
       "id": "68d7a23f1438",
@@ -8883,123 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-05-11T16:22:31.000Z",
       "contentHash": "00583bfd8bf4"
-    },
-    {
-      "id": "8be168198108",
-      "title": "Google stopped a zero-day hack that it says was developed with AI",
-      "url": "https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped",
-      "summary": "Googleは初めて、AIで生成されたとみられるゼロデイ脆弱性の悪用を阻止したと発表。攻撃者はオープンソースのWeb管理ツールで二要素認証を回避する大規模悪用を計画し、Pythonコードに「幻覚」CVSSや教科書的な構造が見られた。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-11T16:09:42.000Z",
-      "contentHash": "6dab17f37022"
-    },
-    {
-      "id": "cccd4a40aef0",
-      "title": "A million baby monitors and security cameras were easily viewable by hackers",
-      "url": "https://www.theverge.com/tech/926487/meari-technology-hack-baby-monitor-security-camera",
-      "summary": "中国の白ラベルブランドMeariのWi‑Fiベビーモニターや防犯カメラ約100万台が極めて脆弱で、第三者が子供を含む家庭の映像を容易に閲覧できた。単一カメラへの侵入で多数にアクセス可能だった。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-11T16:00:00.000Z",
-      "contentHash": "fa02159f1eae"
-    },
-    {
-      "id": "3b75af970e4c",
-      "title": "Digitize your paper notes with Gemini.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/",
-      "summary": "学期の手書きノートを写真で撮ってGeminiにアップロードし、「試験用の学習ガイドを作成して」と指示すると、基礎を省いて応用を深掘りしたり、要点を整理してスタディガイドやフラッシュカード、学期の復習用に体系化してくれます。",
-      "source": "Gemini",
-      "publishedAt": "2026-05-11T16:00:00.000Z",
-      "contentHash": "9c35352351ea"
-    },
-    {
-      "id": "fd62756c5414",
-      "title": "7 of our favorite deals from Amazon’s Pet Days sale",
-      "url": "https://www.theverge.com/gadgets/927788/amazon-pet-days-tech-gadgets-cat-dog-deal-sale",
-      "summary": "記事はAmazonの5日間Pet Daysセール（5月16日まで）を紹介。猫や犬向けを中心に多数の割引商品を紹介し、BissellのLittle Greenなど掃除用品の買い得を挙げている。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-11T15:45:32.000Z",
-      "contentHash": "dd6886b98d47"
-    },
-    {
-      "id": "507cb5f57816",
-      "title": "GM settles California lawsuit claiming it sold driving habit data to insurance companies",
-      "url": "https://www.theverge.com/transportation/927863/gm-settles-california-lawsuit-claiming-it-sold-driving-habit-data-to-insurance-companies",
-      "summary": "GMはカリフォルニアのプライバシー訴訟で1275万ドルで和解。NYT報道で問題になった運転データ販売を巡り、5年間データブローカーへの販売停止とOnStarの位置情報収集を利用者が停止できる措置を約束した。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-11T15:11:23.000Z",
-      "contentHash": "217586714a7a"
-    },
-    {
-      "id": "6262633bf728",
-      "title": "How ChatGPT adoption broadened in early 2026",
-      "url": "https://openai.com/signals/research/2026q1-update",
-      "summary": "2026年Q1にChatGPTの利用が急増。35歳以上での伸びが最も速く、男女比も均衡化しており、AIの一般的な普及が進んでいることを示す。",
-      "source": "OpenAI",
-      "publishedAt": "2026-05-11T15:00:00.000Z",
-      "contentHash": "8edef1e5dcc7"
-    },
-    {
-      "id": "0d8ef8ebe900",
-      "title": "Matter and OpenADR team up to connect smart homes to the grid",
-      "url": "https://www.theverge.com/tech/927756/matter-openadr-demand-response-smart-home-energy-management",
-      "summary": "スマートホーム標準Matter（CSA）と電力系プロトコルOpenADRが連携。家庭の家電と送配電網の信号をつなぎ、デマンドレスポンス参加を簡素化して電気代削減を促す。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-11T14:40:28.000Z",
-      "contentHash": "af18d9246f39"
-    },
-    {
-      "id": "c2608e7f8a65",
-      "title": "Joanna Stern is not a robot, but she lived with them",
-      "url": "https://www.theverge.com/podcast/926752/joanna-stern-i-am-not-a-robot-new-things-media-youtube-ai-automation",
-      "summary": "ジョアンナ・スターンがWSJを退職し、新メディア「New Things」を立ち上げ、AIと暮らした1年を綴る新刊『I Am Not a Robot』を刊行。ナイレイ・パテルがインタビューし、NBCとも提携している。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-11T14:00:00.000Z",
-      "contentHash": "b7254badb16f"
-    },
-    {
-      "id": "b143690d44cb",
-      "title": "TikTok is letting UK users pay to remove ads",
-      "url": "https://www.theverge.com/tech/927761/tiktok-ad-free-paid-subscription-uk",
-      "summary": "TikTokは英国で18歳以上向けに月£3.99の広告非表示サブスクを数ヶ月内に導入予定。広告を除去し、広告目的でのユーザーデータ利用を行わないとするGDPR対応の「支払うか同意するか」モデル。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-11T13:02:20.000Z",
-      "contentHash": "f6e758430c19"
-    },
-    {
-      "id": "bb3a6e1b414f",
-      "title": "Windows 11 is getting a macOS-like speed boost",
-      "url": "https://www.theverge.com/news/927736/windows-11-is-getting-a-macos-like-speed-boost",
-      "summary": "MicrosoftはWindows 11で「Low Latency Profile」を試験中。短時間でCPU周波数をブーストし、スタートメニューやファイルエクスプローラー、アプリ起動を高速化。自社アプリで最大約40%、メニュー類で最大約70%の改善が報告されています。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-11T11:12:42.000Z",
-      "contentHash": "f84f7052c5f7"
-    },
-    {
-      "id": "0b5942d76dec",
-      "title": "Forza Horizon 6 has been leaked and cracked a week before its release",
-      "url": "https://www.theverge.com/news/927704/forza-horizon-6-leak-cracked",
-      "summary": "Forza Horizon 6の製品版が発売前のSteamプレロードで暗号化されず流出し、150GB超のファイルが共有サイトに現れて既にオンライン認証を迂回するクラックが出回った。Redditで発見され削除。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-11T10:21:17.000Z",
-      "contentHash": "f9350ca3b184"
-    },
-    {
-      "id": "2a6999bc8c1a",
-      "title": "How enterprises are scaling AI",
-      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-      "summary": "企業がAIを拡大導入するには、実験段階から信頼構築とガバナンス整備を行い、業務フロー設計と大規模での品質担保を通じて効果を累積させることが重要だ。",
-      "source": "OpenAI",
-      "publishedAt": "2026-05-11T10:00:00.000Z",
-      "contentHash": "82caf9fddf33"
-    },
-    {
-      "id": "5d49356f591b",
-      "title": "OpenAI Campus Network: Student club interest form",
-      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "summary": "OpenAI Campus Networkに参加して、世界中の学生クラブとつながり、AIツールにアクセスし、イベントを開催してAI活用のキャンパスコミュニティを作れます。",
-      "source": "OpenAI",
-      "publishedAt": "2026-05-11T10:00:00.000Z",
-      "contentHash": "34752f28b493"
     }
   ]
 }
