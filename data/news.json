@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-06-04T04:50:25.304Z",
+  "generatedAt": "2026-06-04T11:33:21.994Z",
   "items": [
+    {
+      "id": "258bee30f875",
+      "title": "Codex の AGENTS.md 読み込みルールまとめ",
+      "url": "https://note.com/npaka/n/ndb3b2ccfc879",
+      "summary": "CodexのAGENTS.mdはAI向け作業ルールを記述するファイル。~/.codexやリポジトリ内・サブディレクトリのoverrideを順に読み込み、近い階層が優先。フォールバック名設定やCODEX_HOMEでホーム切替が可能で、読み込み確認コマンドがある。",
+      "source": "npaka",
+      "publishedAt": "2026-06-04T10:54:22.000Z",
+      "contentHash": "a55c925992b6"
+    },
+    {
+      "id": "0e5366dc2686",
+      "title": "Amazon develops a warehouse robot workers can speak to",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/942884/amazon-next-generation-warehouse-robot-proteus",
+      "summary": "Amazonは倉庫用自律ロボット「Proteus」を自然言語や音声で指示可能に改良。専門ソフト不要で作業を割り当てられ、同社は「支援」を強調する一方で自動化を進める。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-04T09:31:14.000Z",
+      "contentHash": "bb5a0534b348"
+    },
+    {
+      "id": "ae58dc32a578",
+      "title": "UK media fails to disclose defence sector links in nearly 60% of cases",
+      "url": "https://aoav.org.uk/2026/military-experts-or-arms-industry-insiders-uk-media-fails-to-disclose-defence-sector-links-in-nearly-60-of-cases/",
+      "summary": "英国メディアが軍事関連記事で取り上げた「専門家」の防衛産業関係を約6割で明示せず、利益相反の懸念があるとAoAVの調査が指摘。透明性向上と開示強化を求める。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-04T08:45:36.000Z",
+      "contentHash": "5653cbe7e901"
+    },
+    {
+      "id": "85c49dea38a5",
+      "title": "Shokz upgraded its open earbuds with better sound and a lighter design",
+      "url": "https://www.theverge.com/tech/942054/shokz-clip-on-opendots-2-air-earbuds-wireless-headphones",
+      "summary": "Shokzが耳を塞がないオープン型イヤホンの新モデル、OpenDots 2と廉価版OpenDots Airを発表。OpenDots 2は音質向上と軽量化に加え骨伝導マイクを搭載。Airは手頃な入門モデルで黒・デイブレイクパープルを展開。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-04T07:00:00.000Z",
+      "contentHash": "9324afc823a8"
+    },
+    {
+      "id": "057cf15d6c06",
+      "title": "vCenter Server 8.0U2以降で実装された「vCLS退避モード」でクラスタをシャットダウンしてみた | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/06/04/125019",
+      "summary": "vCenter Server 8.0U2のvCLS退避モードは、クラスタのvCLS VMを一時退避・デプロイ停止し、GUIで簡単にクラスタ全体を安全に停止・再起動できる機能。隠し設定不要で運用負荷とミスを削減。手順例: vCLS以外のVM停止→退避モード設定→ホストをメンテ→電源OFF。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T03:50:19.000Z",
+      "contentHash": "dac2756f3877"
+    },
+    {
+      "id": "d85f73ede19a",
+      "title": "技術共有と交流で熱気あふれたオフライン勉強会の現場をレポートします！ | Aiming 開発者ブログ",
+      "url": "https://developer.aiming-inc.com/study/post-13473/",
+      "summary": "Aimingが久しぶりに社内エンジニアのオフライン勉強会を開催。40名超が参加し、事業部横断の技術共有と交流で満足度高。改善点を踏まえ次回は2026年11月、今後は他社連携や外部講師招へいでよりオープンに拡大予定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T03:01:47.000Z",
+      "contentHash": "b059f9f9f6cb"
+    },
+    {
+      "id": "074f32298792",
+      "title": " PM業務を整理したら、PM価値の話になった | Goodpatch Tech Blog",
+      "url": "https://goodpatch-tech.hatenablog.com/entry/pm-kachi",
+      "summary": "著者はPM業務を「議事録やスケジュール等の行動」と、それが生む「価値」に分け、PMの違いは行動ではなく「何を成立させるか」にあると指摘する。PMは領域横断の調整や意思決定を促し、プロジェクトを成立させる価値を提供する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T03:00:00.000Z",
+      "contentHash": "a6e55acf1b03"
+    },
+    {
+      "id": "699ef40a4fb1",
+      "title": "miseをリポジトリ用のタスクランナーとして「も」使う | Hatena Developer Blog",
+      "url": "https://developer.hatenastaff.com/entry/2026/06/04/120000",
+      "summary": "ノベルチームでTaskからmiseに移行。miseをツール管理とタスクランナーに一本化し、Taskfile/foreman/*envを統合。並列実行やランタイム・ツールの一括インストールが可能で手元環境が簡素化された。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T03:00:00.000Z",
+      "contentHash": "2ddf6266eee8"
+    },
+    {
+      "id": "23ea8cc066a6",
+      "title": "Introduction to GRPO and Its Variants | RevComm Tech Blog",
+      "url": "https://tech.revcomm.co.jp/introduction-to-grpo",
+      "summary": "DeepSeekMath/DeepSeek-R1で普及したGRPOは、検証可能な正誤信号を大規模に活用するRL後処理法。各質問で候補群を生成し個別に採点、群内で正規化して利得を算出し方策勾配で更新、群をベースラインとしKLで更新を抑制する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T03:00:00.000Z",
+      "contentHash": "c023f5e60371"
+    },
+    {
+      "id": "632f872c14a6",
+      "title": "「ルールルルルルRubyKaigi 2026事後勉強会 ── したっけ、東京で！」を開催しました | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/06/04/113124",
+      "summary": "2026年5月22日、SmartHR六本木でRubyKaigi 2026事後勉強会「したっけ、東京で！」を開催。松田明さんら登壇、初参加者やスピーカーのLT、ポストモーテム、モルックやIKATSURUBYなどの交流企画と限定アクキーで賑わいました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T02:31:24.000Z",
+      "contentHash": "c19efa163717"
+    },
+    {
+      "id": "ba5f153950af",
+      "title": "アンドパッド 技術イベントのご案内 2026 年 6 月 | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/06/04/113000",
+      "summary": "アンドパッドは2026年6月に複数の技術イベントに協賛・登壇・会場提供します。6/6 松江Ruby会議（スポンサー・ブース／nagachikaがruby.wasm発表）、6/16 v-tokyo Meetup（会場提供・羽馬・小泉登壇、Vite+）、6/17 食べログ×ANDPAD×Sansan勉強会（長堀がOSアップデート登壇）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T02:30:00.000Z",
+      "contentHash": "9fc68035cdb4"
+    },
+    {
+      "id": "17a5f76fe3f6",
+      "title": "毎朝の自動テスト結果をKickRailで確認する | kickflow Tech Blog",
+      "url": "https://tech.kickflow.co.jp/entry/2026/06/04/112944",
+      "summary": "QAチームが自社テスト管理ツールKickRailに、毎晩GitHub Actionsで実行するPlaywright（500本超を20シャード）とPostmanの自動テスト結果を集約。ファイル／コレクション単位で登録し、Passed/Failed/再実行OK等のQA判断を残して朝の確認を一本化。実装の工夫や課題も紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T02:29:44.000Z",
+      "contentHash": "e4b4145606f4"
+    },
+    {
+      "id": "b6d1f5a54ccc",
+      "title": "生成AI推進担当に聞く、AI駆動開発を現場に根付かせる実践ノウハウ ── ツール選定・チーム展開・ハルシネーション対策まで | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/ai-driven-development-team-practices-hariu-san",
+      "summary": "針生泰有氏のAI駆動開発ノウハウ。Claude Codeで生成、Codexでレビューするマルチモデル運用、現場に入り込む定着化、仕様駆動で小刻み開発、公式参照でハルシネーション防止、反復作業は自動化し出力からAIらしさを除去。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T02:22:34.000Z",
+      "contentHash": "e6b69640a8e5"
+    },
     {
       "id": "b8d907223db7",
       "title": "アプリ開発チームに転職して感じたこと | エムスリーテックブログ",
@@ -66,7 +183,7 @@
     },
     {
       "id": "027e0ee3b70e",
-      "title": "U.S. to Dismantle System Tracking Atlantic Currents That Are at Risk of Collapse",
+      "title": "U.S. to dismantle system tracking Atlantic currents that are at risk of collapse",
       "url": "https://e360.yale.edu/digest/trump-ooi-amoc",
       "summary": "トランプ政権が太平洋・大西洋で稼働する900超の海洋観測機器を15か月以内に撤去へ。2016年開始の本来25年計画が断たれ、大西洋大循環（AMOC）の崩壊リスクなど重要データ喪失を懸念。民主党が反発。",
       "source": "Hacker News",
@@ -81,6 +198,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-04T00:28:19.000Z",
       "contentHash": "b8f2c05ec4c1"
+    },
+    {
+      "id": "64af1d1a2fd4",
+      "title": "The ways we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "summary": "内部サービスを停止し得る権限をAIに与えることが日常化し生産性は向上したが、被害範囲（blast radius）は拡大。故障確率は下がる一方、被害上限を封じる工学が課題。人間の逐次承認は疲労で脆弱なため自動承認を導入。Mythosは危険度大で未公開、守りが強化されれば段階的公開され得るがリスクは残る。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-04T00:27:52.000Z",
+      "contentHash": "0bef7299777d"
     },
     {
       "id": "9563d3473f38",
@@ -120,7 +246,7 @@
     },
     {
       "id": "fc6895e7df27",
-      "title": "\"They're made out of weights\"",
+      "title": "They’re made out of weights",
       "url": "https://maxleiter.com/blog/weights",
       "summary": "「They're Made Out of Weights」のパロディ。会話形式で、言語モデルは辞書や推論モジュールを持たず、80層の浮動小数点「重み」と行列演算だけで言葉や知識、推論が生じると主張するユーモラスな論考。",
       "source": "Hacker News",
@@ -140,19 +266,19 @@
       "id": "2b7c0788ab02",
       "title": "Apple is bringing age verification to Texas this week",
       "url": "https://www.theverge.com/tech/942761/apple-texas-age-verification-app-store",
-      "summary": "Appleは6月4日からテキサス州で新規Apple ID作成時に18歳以上の年齢確認を導入。クレジットカードや政府発行IDで確認、既存情報で自動判定する場合も。18歳未満はファミリー共有で保護者の同意が必要で、開発者は年齢適合の対応を行う。",
+      "summary": "Appleは6月4日からテキサスで新規Apple ID作成時に年齢確認を実施。18歳以上はクレカや政府IDで確認（アカウント年齢や登録カードで自動確認する場合も）。18歳未満は保護者の同意を得てファミリー共有へ参加し、開発者は年齢に応じた体験を提供する必要がある。",
       "source": "The Verge",
       "publishedAt": "2026-06-03T21:49:51.000Z",
-      "contentHash": "c272e3a97164"
+      "contentHash": "89ca42349e67"
     },
     {
       "id": "112ed602faf4",
       "title": "Gemma 4 12B の概要",
       "url": "https://note.com/npaka/n/n7bdf1e232831",
-      "summary": "Google DeepMindのGemma 4 12Bは、12Bパラメータのローカル実行重視マルチモーダルモデル。16GB級環境で動作可能なencoder-free設計により、画像・音声・動画を直接LLM入力へ射影し、エージェントやコーディング等の実用的な用途を想定しています。",
+      "summary": "Google DeepMindのGemma 4 12Bは12Bパラメータのエンコーダ不要なマルチモーダルモデル。16GB級マシンで画像・音声・動画を直接扱え、軽量埋め込みでローカルのエージェントやコーディング支援等を想定。E4Bと26B MoEの中間で性能と省メモリを両立。",
       "source": "npaka",
       "publishedAt": "2026-06-03T21:48:37.000Z",
-      "contentHash": "31884085024c"
+      "contentHash": "102fdce72a62"
     },
     {
       "id": "2a628bb87b16",
@@ -162,6 +288,24 @@
       "source": "The Verge",
       "publishedAt": "2026-06-03T21:12:51.000Z",
       "contentHash": "b11138129908"
+    },
+    {
+      "id": "2bb54990ea8f",
+      "title": "Ableton Extensions SDK",
+      "url": "https://www.ableton.com/en/live/extensions/",
+      "summary": "期待に縛られず、Liveを自分流に変えよう。Explore Extensionsの開発を始めて、新しい体験を創造しよう。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-03T20:39:34.000Z",
+      "contentHash": "781606a01e1e"
+    },
+    {
+      "id": "7c1c049a27e1",
+      "title": "A Man Who Reads Books for a Living",
+      "url": "https://lithub.com/the-man-who-reads-books-for-a-living-one-every-two-days/",
+      "summary": "原作書籍を映画化向けに評価する職業「書籍リーダー」クラーク・スペッカーを紹介。彼の人柄や仕事ぶりを通し、良い翻案は原作の核を映画的に再構築するという考えを伝える。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-03T20:08:33.000Z",
+      "contentHash": "806e66a312a3"
     },
     {
       "id": "bee0855b022a",
@@ -635,10 +779,10 @@
       "id": "5280bbad227a",
       "title": "NVIDIA Agent Skills の概要",
       "url": "https://note.com/npaka/n/n8115505c0eda",
-      "summary": "NVIDIA Agent Skillsは、AIエージェント向けにNVIDIAライブラリやツールの操作手順を再利用可能な「スキル」としてまとめたコレクション。GitHubで公開され、npx skills addで導入。AI‑Q、CUDA‑Q、cuDF、cuOpt、DeepStream、Dynamo、Medical AI、NeMoなど多分野を網羅。",
+      "summary": "NVIDIA Agent Skillsは、AIエージェント向けにNVIDIA製ライブラリやツールの操作手順をまとめた再利用可能なスキル集。GitHub(nvidia/skills)で公開、skills CLIで導入。AI‑Q、CUDA‑Q、cuDF、cuOpt、DeepStream、Dynamo、Holoscan、医療AI(MONAI)、Megatron、NeMoなど多分野をカバー。",
       "source": "npaka",
       "publishedAt": "2026-06-02T22:17:20.000Z",
-      "contentHash": "be998e364c35"
+      "contentHash": "2aa4fe0cda8e"
     },
     {
       "id": "9cddf66bf599",
@@ -1301,10 +1445,10 @@
       "id": "a4895fc0f13e",
       "title": "NVIDIA Cosmos 3 の概要",
       "url": "https://note.com/npaka/n/n807ad9dfc98f",
-      "summary": "NVIDIAのCosmos 3はCOMPUTEX 2026で発表された物理AI向けのオープンomniモデル。世界生成・物理推論・行動生成を統合し、現実理解→未来予測→行動生成を一貫で扱える。MoTアーキテクチャで開発者向け公開。",
+      "summary": "NVIDIAはCOMPUTEX 2026で物理AI向けオープンomni-model「Cosmos 3」を発表。世界生成・物理推論・行動生成を統合し、ロボットや自動運転で理解・予測・行動を一貫処理。MoT構成でGitHub/Hugging Face公開、開発やデータ生成に有用。",
       "source": "npaka",
       "publishedAt": "2026-06-01T08:35:46.000Z",
-      "contentHash": "aae6b541f44a"
+      "contentHash": "460e1963590d"
     },
     {
       "id": "e08d529c89ea",
@@ -1364,10 +1508,10 @@
       "id": "8f7cfc4fb16f",
       "title": "RPGの小クエスト設計入門",
       "url": "https://note.com/npaka/n/nb82961738a4e",
-      "summary": "RPGの小クエストは単なる寄り道でなく、レベリング・探索・戦闘学習・世界観強化・感情移入など複数の役割を果たす。記事はおつかい、討伐、収集、探索、護衛などのカテゴリ別に機能と設計上の工夫（発見要素や数の調整、学習導線）を解説している。",
+      "summary": "RPGの小クエストは単なる寄り道でなく、導線誘導・育成（経験値・報酬）・システム学習・感情移入・挑戦など複数の役割を持つ。おつかい・討伐・収集・探索・護衛等に分類し、学習要素や報酬、意味づけを入れて退屈を避け、段階的に導く設計が重要。",
       "source": "npaka",
       "publishedAt": "2026-06-01T07:14:56.000Z",
-      "contentHash": "f8c20eb7efbd"
+      "contentHash": "3c65ba0275a2"
     },
     {
       "id": "81757c0df561",
@@ -8856,150 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-16T05:00:00.000Z",
       "contentHash": "8302e20ec7fe"
-    },
-    {
-      "id": "2124abf0684c",
-      "title": "'No way to prevent this,' says only package manager where this regularly happens",
-      "url": "https://kevinpatel.xyz/posts/no-way-to-prevent-this/",
-      "summary": "npmレジストリのサプライチェーン攻撃で多数の企業アプリが被害、数十億件の記録が流出。開発者は「防げない」と嘆き、深い未検証依存とインストール時の任意スクリプト実行が問題点と指摘。GoやRustなどは被害報告なし。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-16T00:36:02.000Z",
-      "contentHash": "0372373a69fe"
-    },
-    {
-      "id": "fcfb79656f8a",
-      "title": "Tauri を試す",
-      "url": "https://note.com/npaka/n/n7cf7a2a00866",
-      "summary": "TauriはHTML/CSS/JSでUIを作り、必要に応じてRustでネイティブ処理を書く軽量なデスクトップ開発フレームワーク（macOSで動作確認）。npm create→npm install→npm run tauri devで起動。既存TSはdistを配置しsrc-tauri/tauri.conf.jsonでfrontendDistやproductName等を設定、アイコン生成後npm run tauri buildでmacOS用実行ファイルを作成。WebView差異とRust知識に注意。",
-      "source": "npaka",
-      "publishedAt": "2026-05-16T00:32:14.000Z",
-      "contentHash": "402d49f1cc08"
-    },
-    {
-      "id": "20383a0947db",
-      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
-      "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
-      "summary": "OpenAIはマルタと提携し、ChatGPT Plus提供や市民向け研修を通じて、実践的なAIスキルの習得と責任あるAI利用の普及を支援する。",
-      "source": "OpenAI",
-      "publishedAt": "2026-05-16T00:00:00.000Z",
-      "contentHash": "dda827e5a0fe"
-    },
-    {
-      "id": "402e85971ead",
-      "title": "Erlang/OTP 29.0",
-      "url": "https://www.erlang.org/news/188",
-      "summary": "外部のURLへ直接アクセスできないため要約できません。記事本文を貼っていただければ、200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T23:33:32.000Z",
-      "contentHash": "f1f9cd924244"
-    },
-    {
-      "id": "4c604812e37a",
-      "title": "SQL patterns I use to catch transaction fraud",
-      "url": "https://analytics.fixelsmith.com/posts/sql-fraud-patterns/",
-      "summary": "申し訳ありませんが、外部リンク先を直接参照できません。記事本文か主要部分、もしくはコメントの抜粋を貼り付けていただけますか？いただければ200文字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T23:22:30.000Z",
-      "contentHash": "b2fcf50bbfce"
-    },
-    {
-      "id": "fd135641c5e5",
-      "title": "Xbox is now XBOX",
-      "url": "https://www.theverge.com/news/931918/microsoft-xbox-rebrand-caps",
-      "summary": "MicrosoftがXbox表記を「XBOX」に変更した模様。CEOアシャ・シャルマがXで実施した投票結果を受けX公式を改名。ThreadsやBlueskyは未変更。大文字表記は初代ロゴ回帰で、ゲーム部門名の再変更に続く動き。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T23:10:13.000Z",
-      "contentHash": "026040aeb080"
-    },
-    {
-      "id": "4ae294d975ff",
-      "title": "YouTube is expanding its AI deepfake detection tool to all adult users",
-      "url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
-      "summary": "YouTubeは18歳以上の全ユーザーにAIによる顔類似検出を拡大。セルフィーで顔を登録するとプラットフォーム上の類似映像やディープフェイクを検出して通知し、発見時に削除を請求できる。導入は当初は制作者や公人らに限定して試験され、削除要請は少数だった。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T22:25:00.000Z",
-      "contentHash": "6410371497a3"
-    },
-    {
-      "id": "1f5ac2a5d71d",
-      "title": "How to Write to SSDs [pdf]",
-      "url": "https://www.vldb.org/pvldb/vol19/p1469-lee.pdf",
-      "summary": "申し訳ありませんが、外部リンクを直接取得できません。記事本文（または要約したい箇所）を貼っていただければ、200文字以内の日本語要約を作成します。Hacker Newsのコメント要約も希望なら、それも一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T22:23:38.000Z",
-      "contentHash": "c105a59b80a4"
-    },
-    {
-      "id": "8dd0a14037e4",
-      "title": "Agent Game Forge を試す",
-      "url": "https://note.com/npaka/n/nd26c6515c013",
-      "summary": "Agent Game Forge (AGF)は、Codex CLIやClaude Codeを使いAIに2D横スクロールゲームを生成させるローカルファーストな開発IDE。vanilla JS+CanvasのWebゲームを出力し、ビジュアルエディタでステージ調整可。プロジェクトはローカル保存、外部通信は選んだAIプロバイダーへの呼び出しのみ。npmで起動し、プロンプト入力で約1時間でプロトタイプが作れる。",
-      "source": "npaka",
-      "publishedAt": "2026-05-15T22:16:14.000Z",
-      "contentHash": "6622f416106c"
-    },
-    {
-      "id": "7f1bc97b46bf",
-      "title": "Windows 11 tests an adjustable taskbar and resizable Start menu",
-      "url": "https://www.theverge.com/tech/931817/windows-11-movable-taskbar-start-button",
-      "summary": "Windows 11のInsider実験チャンネルで、タスクバーを上下左右に移動可能に。アイコン位置調整や小型画面向けの短いタスクバー、Startメニューの「小/大」切替、ピン留め・推奨・全表示のトグルが追加。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T21:14:45.000Z",
-      "contentHash": "4c363c42b3fb"
-    },
-    {
-      "id": "350030b7020b",
-      "title": "ArXiv will ban researchers who upload papers full of AI slop",
-      "url": "https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers",
-      "summary": "プレプリントサイトarXivは、LLMの作成物に作者が確認していない明白な証拠（出典の捏造やAIのメタコメント等）がある論文を投稿した著者を1年間利用停止とし、今後の投稿は査読済みの受理を条件とする。署名者は生成手段に関係なく内容に責任を負うと明記。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T20:38:19.000Z",
-      "contentHash": "e76f9bcc87f1"
-    },
-    {
-      "id": "93d3c73bcd63",
-      "title": "London Police Deploy Facial Recognition at Protest for First Time",
-      "url": "https://reclaimthenet.org/london-police-deploy-facial-recognition-at-protest-for-first-time",
-      "summary": "ロンドン警視庁が初めて抗議集会でライブ顔認識を導入。警察は指名手配者特定など治安維持が目的と説明する一方、市民団体はプライバシー侵害や誤認、表現の萎縮を懸念し批判した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T20:28:44.000Z",
-      "contentHash": "1620d076100e"
-    },
-    {
-      "id": "c0174a0d9381",
-      "title": "I believe there are entire companies right now under AI psychosis",
-      "url": "https://twitter.com/mitchellh/status/2055380239711457578",
-      "summary": "申し訳ありませんが、外部リンクを直接開けないため本文を取得できません。記事または該当ツイート/スレッドの本文（または主要ポイント）をここに貼っていただければ、200文字以内で日本語要約を作成します。どの形式でも対応します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T20:26:47.000Z",
-      "contentHash": "9b28cc11eef4"
-    },
-    {
-      "id": "99b424d26ca8",
-      "title": "Palantir has hired more than 30 senior UK Government officials",
-      "url": "https://www.thenational.scot/news/26055524.palantir-hired-30-senior-uk-government-officials/",
-      "summary": "米データ企業パランティアが英国の元閣僚や上級官僚ら約30人を雇用。政府案件受注との利害や「回転ドア」による影響力行使、透明性不足が問題視され、規制強化や説明責任の要求が高まっている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T20:06:51.000Z",
-      "contentHash": "7223967e117c"
-    },
-    {
-      "id": "db64faae7f79",
-      "title": "Bill to block publishers from killing online games advances in California",
-      "url": "https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/",
-      "summary": "カリフォルニア州で、サービス終了後もオンライン専用ゲームが遊べるよう開発元に対策を義務付ける法案が重要委員会を通過。保存団体は支持、業界はコストや安全面を懸念。修正で範囲や例外が調整され審議続行中。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T19:48:48.000Z",
-      "contentHash": "14b8ffd2bf8c"
-    },
-    {
-      "id": "33fb39e50b20",
-      "title": "Judge bars Kars4Kids from broadcasting 'misleading' ads in California",
-      "url": "https://www.nytimes.com/2026/05/15/us/kars4kids-advertising-banned-california.html",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文か要約したい部分をここに貼っていただければ、200文字以内で日本語に要約します。HNのコメントも含めて欲しい場合は、それらも貼ってください。希望の文体（簡潔／丁寧など）も教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T19:27:15.000Z",
-      "contentHash": "951b845ef98a"
     }
   ]
 }
