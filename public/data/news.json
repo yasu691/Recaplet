@@ -1,6 +1,186 @@
 {
-  "generatedAt": "2026-06-03T20:05:15.647Z",
+  "generatedAt": "2026-06-04T04:50:25.304Z",
   "items": [
+    {
+      "id": "b8d907223db7",
+      "title": "アプリ開発チームに転職して感じたこと | エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/2026/06/04/100150",
+      "summary": "八箇は2025年9月にエムスリーへ転職し9ヶ月。入社前は高い技術力や複数アプリ運用を不安に感じたが、実際はフラットで裁量大、学べる環境で自分のペースで開発できると述べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T01:01:50.000Z",
+      "contentHash": "886da577f143"
+    },
+    {
+      "id": "bd7dee5a905f",
+      "title": "アンドパッドは総勢 23 名で RubyKaigi 2026 を楽しんできました！ | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/06/04/100000",
+      "summary": "アンドパッドは23名でRubyKaigi 2026に参加。CRubyソース入門や濃密なLT群、MatzのAOTコンパイラ「Spinel」紹介、コミッター議論など多彩な講演と会場の思い出を報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T01:00:00.000Z",
+      "contentHash": "67df6b76fca5"
+    },
+    {
+      "id": "fb6681754dcd",
+      "title": "「どの項目を改善すれば仕訳の自動化率が上がるか」を試算するシミュレーターを作った話 | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/invoice-automation-simulator",
+      "summary": "債務管理で伝票の自動化率を上げるため、項目別修正率だけでは伝票単位の手作業削減効果が分からない課題に対し、項目ごとの修正パターン×件数を集約した確率モデルとStreamlit画面のシミュレーターを作成。各項目の目標自動化率を変えて伝票全体の自動化率と削減見込みを試算し、改善優先度の判断に使える。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T01:00:00.000Z",
+      "contentHash": "4557d6e24cc2"
+    },
+    {
+      "id": "f84012aee450",
+      "title": "Sansan iOS 差分なしのincremental buildを28秒 → 2秒に高速化した話 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/06/04/100000",
+      "summary": "SansanのiOSで差分なしのincremental buildが28秒かかっていた原因は、毎回実行されるbuild phase script（主にmockoloとR.swift）。これらをビルドフェーズから外してMakefileのmake mockolo/make rswiftで変更時のみ外部実行（環境変数付与・走査抑制・並列化）するようにして、ビルド時間を約28秒→2秒に短縮した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T01:00:00.000Z",
+      "contentHash": "3790b1f2c304"
+    },
+    {
+      "id": "fb086679dd7d",
+      "title": "vLLMとRDMAで構築するローカルLLMクラスタ (8)：LLM wiki を試す | VA Linux エンジニアブログ  ",
+      "url": "https://www.valinux.co.jp/blog/entry/20260604",
+      "summary": "KarpathyのLLM wikiをClaude Codeで試用。日次のYouTubeタイトルから生成したブログをObsidian形式のWikiへIngestし、Ingest/Query/Lintの三操作で自動更新・git管理。Human-in-the-loopで差分を日次確認、Ingestは毎日、Lintは月1回。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T01:00:00.000Z",
+      "contentHash": "c4717a6f8b92"
+    },
+    {
+      "id": "f8f90f054d51",
+      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
+      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
+      "summary": "著者は脆弱なReact Native＋Pythonの書評アプリを作り、LLMがFirebaseの設定漏れ（google‑services.json）を使って直接サインアップしFirestoreから非公開レビュー（flag）を読み取れるか検証。複数LLMを試し計$1,500消費、非科学的な実験。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-04T00:56:32.000Z",
+      "contentHash": "eb37e3a3b953"
+    },
+    {
+      "id": "13e1baba8394",
+      "title": "AIネイティブな開発プロセスへの移行、はじめました — SmartHR勤怠管理の開発チームの取り組み | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/06/04/094730",
+      "summary": "SmartHR勤怠管理は2026年4月にAI前提で開発プロセスをゼロベース再設計するプロジェクトを開始。実験専任のパイロットチームで3カ月集中し、品質を損なわず開発生産性を2倍にすることを目指し、密な実験ループと方針で検証する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T00:47:30.000Z",
+      "contentHash": "ef0652be71dc"
+    },
+    {
+      "id": "027e0ee3b70e",
+      "title": "U.S. to Dismantle System Tracking Atlantic Currents That Are at Risk of Collapse",
+      "url": "https://e360.yale.edu/digest/trump-ooi-amoc",
+      "summary": "トランプ政権が太平洋・大西洋で稼働する900超の海洋観測機器を15か月以内に撤去へ。2016年開始の本来25年計画が断たれ、大西洋大循環（AMOC）の崩壊リスクなど重要データ喪失を懸念。民主党が反発。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-04T00:44:13.000Z",
+      "contentHash": "1ff1ede0f1ec"
+    },
+    {
+      "id": "ca372cd3ffff",
+      "title": "TursoでPRごとにDBを複製してテストを回す | chot Inc. tech blogのフィード",
+      "url": "https://zenn.dev/chot/articles/turso-pr-branching",
+      "summary": "TursoのBranchingで既存DBをスキーマ・データごとPR毎に複製し、PRごとに独立したテストDBを作成してCIでE2Eを回す手順。CLI導入、ベースDB作成、APIトークン発行、GitHub ActionsでDB作成・削除しDrizzle/Playwrightで検証。FreeはDB上限100件。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T00:28:19.000Z",
+      "contentHash": "b8f2c05ec4c1"
+    },
+    {
+      "id": "9563d3473f38",
+      "title": "Nintendo confirms it will sell a new Switch 2 with replaceable battery in the EU",
+      "url": "https://www.theverge.com/games/942808/nintendo-switch-2-replaceable-battery-eu",
+      "summary": "任天堂は、2027年2月18日施行のEU新規則に対応して、ユーザーがバッテリーを容易に交換できる仕様のSwitch 2をEU向けに用意・販売すると発表した。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-04T00:04:04.000Z",
+      "contentHash": "9fb02e93e367"
+    },
+    {
+      "id": "504ee2a0433c",
+      "title": "【Snowflake Summit 2026】AI時代のSemantic Layer戦略とExcel/Power BI統合 | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/snowflake-summit-2026-semantic-layer-for-ai",
+      "summary": "Snowflake Summit 2026で、AtScale提供のXMLA EndpointによりExcel/Power BIからSnowflake Semantic Viewsへネイティブ接続可能に。セマンティックレイヤーがAI/BIのビジネスロジック整備と整合性確保を支え、Open&Independent・Governance・Composable・Beyond SQLの四柱やHorizon Contextなどの新機能が紹介された。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T00:00:13.000Z",
+      "contentHash": "7974e7e65c27"
+    },
+    {
+      "id": "cb54f5d78651",
+      "title": "RSC時代にランタイムCSS-in-jsはなぜ厳しいのか | KENTEM TechBlog",
+      "url": "https://tech.kentem.jp/entry/2026/06/04/090000",
+      "summary": "ランタイムで動くCSS-in-JSがRSCと相性が悪い理由を解説。グローバル名前空間、依存性、非決定論、SSR時のDOM/CSSOM依存やApp RouterのStreamingでstyled‑components等が壊れる点を挙げ、Panda CSSのような静的/原子設計で回避できると示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "contentHash": "badd33780214"
+    },
+    {
+      "id": "c569ffcf6ed1",
+      "title": "TSKaigi 2026に参加してきました！ | i-plug Tech Blog",
+      "url": "https://iplug-tech.hatenablog.com/entry/2026/06/04/090000",
+      "summary": "5月開催のTSKaigi 2026に加藤と赤星が参加。会場報告と、React最適化、Branded Types、テストの哲学、Polymorphic Components等の印象的なセッション紹介と実務導入の検討を記載。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "contentHash": "160c9ef04d79"
+    },
+    {
+      "id": "fc6895e7df27",
+      "title": "\"They're made out of weights\"",
+      "url": "https://maxleiter.com/blog/weights",
+      "summary": "「They're Made Out of Weights」のパロディ。会話形式で、言語モデルは辞書や推論モジュールを持たず、80層の浮動小数点「重み」と行列演算だけで言葉や知識、推論が生じると主張するユーモラスな論考。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-03T23:37:18.000Z",
+      "contentHash": "1c0c93bd66cd"
+    },
+    {
+      "id": "332fec0895e5",
+      "title": "LeLab の概要",
+      "url": "https://note.com/npaka/n/nd3ad1b4865cc",
+      "summary": "LeLabはLeRobotをブラウザGUIで操作するアプリです。ロボット接続・キャリブレーション・テレオペ・データ記録・ローカル／HFクラウド学習・学習済みポリシー実行・コミュニティデータ利用を一元化。現状SO-ARM101対応で、uv経由でインストール・起動します。",
+      "source": "npaka",
+      "publishedAt": "2026-06-03T22:22:48.000Z",
+      "contentHash": "e38ae1c402f3"
+    },
+    {
+      "id": "2b7c0788ab02",
+      "title": "Apple is bringing age verification to Texas this week",
+      "url": "https://www.theverge.com/tech/942761/apple-texas-age-verification-app-store",
+      "summary": "Appleは6月4日からテキサス州で新規Apple ID作成時に18歳以上の年齢確認を導入。クレジットカードや政府発行IDで確認、既存情報で自動判定する場合も。18歳未満はファミリー共有で保護者の同意が必要で、開発者は年齢適合の対応を行う。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-03T21:49:51.000Z",
+      "contentHash": "c272e3a97164"
+    },
+    {
+      "id": "112ed602faf4",
+      "title": "Gemma 4 12B の概要",
+      "url": "https://note.com/npaka/n/n7bdf1e232831",
+      "summary": "Google DeepMindのGemma 4 12Bは、12Bパラメータのローカル実行重視マルチモーダルモデル。16GB級環境で動作可能なencoder-free設計により、画像・音声・動画を直接LLM入力へ射影し、エージェントやコーディング等の実用的な用途を想定しています。",
+      "source": "npaka",
+      "publishedAt": "2026-06-03T21:48:37.000Z",
+      "contentHash": "31884085024c"
+    },
+    {
+      "id": "2a628bb87b16",
+      "title": "WiiM expands its whole-home ecosystem with a new soundbar",
+      "url": "https://www.theverge.com/tech/942748/wiim-releases-first-soundbar",
+      "summary": "WiiMが7月発売する初のサウンドバー「WiiM Bar」（$479）。3.0.2 Atmos構成の8ドライバー＋4パッシブラジエーター、前面2.1インチタッチ画面を搭載。WiiM Sub Pro（$449）で3.1.2、リアスピーカー追加で5.1.2に拡張可能。ストリーミング対応の手頃な全館オーディオ製品。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-03T21:12:51.000Z",
+      "contentHash": "b11138129908"
+    },
+    {
+      "id": "bee0855b022a",
+      "title": "Nvidia is already planning N2X and N3X chips — the goal is the Star Trek computer",
+      "url": "https://www.theverge.com/tech/942588/nvidia-rtx-spark-n2x-n3x-r2-d2-star-trek-star-wars-plan",
+      "summary": "NVIDIAはRTX Sparkの後継としてN2X・N3Xを既に計画中。Huang CEOはComputex 2026で、約3年前からMicrosoftのNadellaと協力し、音声で操作する「スタートレック風のPC」や「R2‑D2のようなドロイド」を目指すと述べた。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-03T20:03:50.000Z",
+      "contentHash": "950ec61e7614"
+    },
+    {
+      "id": "706b87cc25ba",
+      "title": "Elixir v1.20: Now a gradually typed language",
+      "url": "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/",
+      "summary": "Elixir v1.20は漸進的型付けを導入。注釈不要で全プログラムの型推論と段階的型検査を行い、実行時に失敗する検証済バグや死コードを高精度で検出。dynamic()で動的型と共存、ベンチで高評価。CNRS/Remoteの協力、Fresha・Tidewaveが支援。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-03T19:02:26.000Z",
+      "contentHash": "1ba1d624823e"
+    },
     {
       "id": "f64ef76b7e8e",
       "title": "The best Bluetooth trackers for Apple and Android phones",
@@ -20,6 +200,15 @@
       "contentHash": "153da6ac0ac0"
     },
     {
+      "id": "86e128343ade",
+      "title": "Artificial intelligence is not conscious – Ted Chiang",
+      "url": "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/",
+      "summary": "テッド・チャンは、Anthropicの「Claude憲章」や関係者の発言がAIを人間化していると批判し、生成AIの言語的流暢さを意識や道徳性と混同するのは誤りであり危険だと論じる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-03T17:51:37.000Z",
+      "contentHash": "87329cb0c42b"
+    },
+    {
       "id": "8b8ef6d90e0b",
       "title": "As AI gets better, it reveals an empty promise",
       "url": "https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise",
@@ -32,10 +221,19 @@
       "id": "4f4940656f14",
       "title": "Bot vs human traffic",
       "url": "https://radar.cloudflare.com/traffic#bot-vs-human",
-      "summary": "Cloudflareの解析では、ウェブトラフィックの半数超がボット由来に変化し、自動化トラフィック増加がセキュリティ、分析、帯域利用に影響を及ぼしていると報告。HNではボット定義や測定方法、対策の効果を巡り議論が分かれた。",
+      "summary": "すみません、直接ウェブ閲覧できないため記事本文を貼っていただくか、要約してほしい箇所を教えてください。本文をいただければ200文字以内で日本語要約します。Hacker Newsのコメントも要約可能です。",
       "source": "Hacker News",
       "publishedAt": "2026-06-03T17:43:00.000Z",
-      "contentHash": "ea4009f33eb9"
+      "contentHash": "3000b891d091"
+    },
+    {
+      "id": "ee87b679631c",
+      "title": "Gooey: A GPU-accelerated UI framework for Zig",
+      "url": "https://github.com/duanebester/gooey",
+      "summary": "GooeyはZig向けのGPU高速UIフレームワーク（macOS: Metal、Linux: Vulkan/Wayland、WASMは制約）。宣言的コンポーネント、状態分離、アニメ、エンティティ、各種ウィジェット、テキスト描画、カスタムシェーダー、ドラッグ＆ドロップ、アクセシビリティ、ネイティブファイル・クリップボード対応。外部Zig依存なし。Zig 0.16+対応。開発初期でAPIは変化中。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-03T17:12:27.000Z",
+      "contentHash": "427524b76edc"
     },
     {
       "id": "4b2d11164b9d",
@@ -47,13 +245,22 @@
       "contentHash": "490248265e39"
     },
     {
+      "id": "3a841db185ad",
+      "title": "Angular v22",
+      "url": "https://blog.angular.dev/announcing-angular-v22-c52bb83a4664",
+      "summary": "Angular v22が発表され、フレームワークを「リアクティビティ優先」に進化させる方針を掲示。Signalsを軸にした変更検知や性能向上、SSRや開発ツール・CLIの強化、移行ガイドと互換性方針を提供。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-03T16:51:49.000Z",
+      "contentHash": "ca199e8d9ed4"
+    },
+    {
       "id": "983c162b29a5",
-      "title": "MacBook Neo Is So Popular That Apple Doubled Production",
+      "title": "MacBook Neo is so popular that Apple doubled production",
       "url": "https://www.macrumors.com/2026/06/03/macbook-neo-production-doubled-says-kuo/",
-      "summary": "MacBook Neoは反響が「オフ・ザ・チャート」で人気が高く、Kuo氏によれば2026年出荷目標が500万台から1000万台に倍増。A18 Pro搭載で最安599ドル（学生499ドル）、第2世代はA19 Pro・12GB予定。",
+      "summary": "MacBook Neoが大ヒットし、出荷目標が当初の500万台から1000万台に倍増。Cookは需要が想定を超え新規Mac購入者を増やしたと述べた。$599（学生$499）、A18 Pro搭載。来年A19 Pro版予定。",
       "source": "Hacker News",
       "publishedAt": "2026-06-03T16:33:17.000Z",
-      "contentHash": "f7e710142248"
+      "contentHash": "0cad4d8fe72f"
     },
     {
       "id": "f9dacd28a2b4",
@@ -164,6 +371,15 @@
       "contentHash": "ec1f4ef98086"
     },
     {
+      "id": "ba562226725d",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "summary": "GPT-Rosalindは、生物学的推論、創薬化学の専門性、ゲノム解析、実験ワークフロー支援を強化し、ライフサイエンス研究を加速するAIモデルです。",
+      "source": "OpenAI",
+      "publishedAt": "2026-06-03T13:15:00.000Z",
+      "contentHash": "5f03c2475dcd"
+    },
+    {
       "id": "e61ed5109aa6",
       "title": "32GB of DDR5 now costs $375 – AI shortage continues to squeeze PC building",
       "url": "https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building",
@@ -180,6 +396,15 @@
       "source": "The Verge",
       "publishedAt": "2026-06-03T12:00:20.000Z",
       "contentHash": "79cd7402c353"
+    },
+    {
+      "id": "032a72a6e212",
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "url": "https://openai.com/index/wasmer",
+      "summary": "WasmerはCodexとGPT-5.5を活用してエッジ向けNode.jsランタイムを構築。開発を10〜20倍加速し、数か月かかる作業を数週間で出荷した事例を紹介。",
+      "source": "OpenAI",
+      "publishedAt": "2026-06-03T12:00:00.000Z",
+      "contentHash": "dfa8c37a29b9"
     },
     {
       "id": "a0a224c5d45b",
@@ -410,10 +635,10 @@
       "id": "5280bbad227a",
       "title": "NVIDIA Agent Skills の概要",
       "url": "https://note.com/npaka/n/n8115505c0eda",
-      "summary": "NVIDIA Agent Skillsは、AIエージェント向けにNVIDIA製ライブラリやプラットフォームツールの操作手順をまとめた再利用可能なスキル集。GitHub（NVIDIA/skills）で公開され、npx skills addで導入可能。AI‑Q、CUDA‑Q、cuDF、cuOpt、DeepStream、Dynamo、Earth2Studio、Holoscan、医療AI（MONAI）、Megatron、NeMo等のカテゴリで導入・設定・デプロイ・検証・最適化を支援。",
+      "summary": "NVIDIA Agent Skillsは、AIエージェント向けにNVIDIAライブラリやツールの操作手順を再利用可能な「スキル」としてまとめたコレクション。GitHubで公開され、npx skills addで導入。AI‑Q、CUDA‑Q、cuDF、cuOpt、DeepStream、Dynamo、Medical AI、NeMoなど多分野を網羅。",
       "source": "npaka",
       "publishedAt": "2026-06-02T22:17:20.000Z",
-      "contentHash": "787bdfa6e67d"
+      "contentHash": "be998e364c35"
     },
     {
       "id": "9cddf66bf599",
@@ -680,10 +905,10 @@
       "id": "ce021b3e95a1",
       "title": "TripoSplat による3Dモデル生成を試す",
       "url": "https://note.com/npaka/n/n7b2db4a017ff",
-      "summary": "TripoSplatはTripoAIのMITライセンスOSSで、1枚の2D画像から3D Gaussian Splatting用データを生成。Ubuntu/Windows+WSL2、NVIDIA RTX3060相当（VRAM8–12GB）、RAM16GB以上推奨。gradioで起動→画像をGenerate→plyをダウンロードし、Gaussian VRMで動作確認した。",
+      "summary": "TripoSplatは1枚の2D画像から3D Gaussian Splatting用データを生成するTripoAIのオープンソース（MIT）モデル。Ubuntu/Windows+WSL2、NVIDIA GPU（RTX3060推奨、VRAM8–12GB以上）、RAM16GB以上などが必要。Gradioで起動→画像をGenerateしてplyをダウンロードし、Gaussian VRMで表示して試した報告。",
       "source": "npaka",
       "publishedAt": "2026-06-02T07:50:51.000Z",
-      "contentHash": "180097ed60f3"
+      "contentHash": "927436c1f553"
     },
     {
       "id": "f4e0423d66a1",
@@ -734,10 +959,10 @@
       "id": "24be998a45f8",
       "title": "ROBOMETER の 概要",
       "url": "https://note.com/npaka/n/n25bfc57efe9a",
-      "summary": "「ROBOMETER」は作業動画とタスク文からフレームごとの進捗・成功確率や軌道比較をゼロショットで推定する汎用ロボット報酬モデル。Qwen系VLM基盤でLeRobot/Hugging Faceから利用でき、手作り報酬設計を削減しデモ選別や報酬計算に有用。",
+      "summary": "ROBOMETERは、ロボット作業動画と自然言語タスク説明からフレームごとの進捗・成功確率・軌道比較をゼロショットで推定するビデオ言語報酬モデル。Qwen3‑VL基盤で手作業の報酬設計を減らし、デモ選別などに活用できる。",
       "source": "npaka",
       "publishedAt": "2026-06-01T23:32:41.000Z",
-      "contentHash": "0be03fcff8ce"
+      "contentHash": "7215a8ac9997"
     },
     {
       "id": "777e7a07f582",
@@ -1076,10 +1301,10 @@
       "id": "a4895fc0f13e",
       "title": "NVIDIA Cosmos 3 の概要",
       "url": "https://note.com/npaka/n/n807ad9dfc98f",
-      "summary": "NVIDIAはCOMPUTEX 2026で物理AI向け世界基盤モデル「Cosmos 3」を発表。世界生成・物理推論・行動生成を統合したオムニモデルで、ロボットや自動運転など実世界の理解・予測・制御に対応。MoT構成でHugging Face/GitHubで公開。",
+      "summary": "NVIDIAのCosmos 3はCOMPUTEX 2026で発表された物理AI向けのオープンomniモデル。世界生成・物理推論・行動生成を統合し、現実理解→未来予測→行動生成を一貫で扱える。MoTアーキテクチャで開発者向け公開。",
       "source": "npaka",
       "publishedAt": "2026-06-01T08:35:46.000Z",
-      "contentHash": "c802a0c6e84e"
+      "contentHash": "aae6b541f44a"
     },
     {
       "id": "e08d529c89ea",
@@ -1139,10 +1364,10 @@
       "id": "8f7cfc4fb16f",
       "title": "RPGの小クエスト設計入門",
       "url": "https://note.com/npaka/n/nb82961738a4e",
-      "summary": "RPGの小クエストは単なる寄り道でなく、導線・育成・学習・感情移入・挑戦など複数の役割を持つ。代表的なカテゴリはおつかい、討伐、収集、探索、護衛で、設計次第でレベリングやチュートリアル、世界観強化に活用できる。",
+      "summary": "RPGの小クエストは単なる寄り道でなく、レベリング・探索・戦闘学習・世界観強化・感情移入など複数の役割を果たす。記事はおつかい、討伐、収集、探索、護衛などのカテゴリ別に機能と設計上の工夫（発見要素や数の調整、学習導線）を解説している。",
       "source": "npaka",
       "publishedAt": "2026-06-01T07:14:56.000Z",
-      "contentHash": "2b8e3b56a763"
+      "contentHash": "f8c20eb7efbd"
     },
     {
       "id": "81757c0df561",
@@ -1562,10 +1787,10 @@
       "id": "f29fa2b71828",
       "title": "Codex で弾幕シューティングゲームの生成を試す",
       "url": "https://note.com/npaka/n/n4de390d62d0c",
-      "summary": "Codexで弾幕シューティングを生成。素材画像を整備し、Vite+TypeScript+Phaserで実装。自動連射・移動・シフト減速・BOM、HPで変化する4種の弾幕、UI/演出や効果音・BGMを調整して動作確認。",
+      "summary": "Codexで弾幕シューティングを自動生成した試作報告。事前画像準備、プレイヤー・ボス・UI・弾幕パターン（HPで4段階）や演出調整、BGM/SE導入、動作確認までの手順と課題をまとめ。",
       "source": "npaka",
       "publishedAt": "2026-05-31T13:04:07.000Z",
-      "contentHash": "f02fcba5cabb"
+      "contentHash": "fc92ceb7dd79"
     },
     {
       "id": "bfd581bb2a27",
@@ -8775,231 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-05-15T19:27:15.000Z",
       "contentHash": "951b845ef98a"
-    },
-    {
-      "id": "5e31015c70d4",
-      "title": "WinCE64 – Windows CE 2.11 for N64",
-      "url": "https://github.com/ThroatyMumbo/WinCE64",
-      "summary": "WinCE64は作者が公開したオープンソースの64ビットx86向けWindows CE風OS実装。最小カーネルとランタイムを備え、VM（QEMU等）で起動可能、GUIやサンプル付きの学習・復刻プロジェクトです。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T19:23:29.000Z",
-      "contentHash": "e7d7fcd8493b"
-    },
-    {
-      "id": "09dfc18a3aa3",
-      "title": "ABC News has taken all FiveThirtyEight articles offline",
-      "url": "https://twitter.com/baseballot/status/2055309076209492208",
-      "summary": "すみません、外部リンクを直接開けないため元記事の内容が見られません。記事（ツイート本文やリンク先の文章、HNの重要コメントなど）をここに貼っていただければ、200文字以内で日本語要約します。どの範囲を要約するか（ツイートだけ／リンク先全文／HN議論も）も教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T19:07:08.000Z",
-      "contentHash": "6f7db4286688"
-    },
-    {
-      "id": "ce53651c8fbf",
-      "title": "The Analogue 3D is finally getting save states",
-      "url": "https://www.theverge.com/tech/931615/analogue-3d-nintendo-64-console-memories-save-state",
-      "summary": "Analogueが4K N64互換機Analogue 3D向けに新ファームを配信し、Pocketで導入された「Memories」セーブステートを実装。任意の瞬間に中断・復帰でき、オリジナル/有線コントローラー使用時のVirtual Controller Pak未対応の回避にもなる。当初は2024年10月発表で実装が遅れていた。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T18:43:43.000Z",
-      "contentHash": "72cf071c4bb0"
-    },
-    {
-      "id": "3e93342c42d6",
-      "title": "OpenAI keeps shuffling its executives in bid to win AI agent battle",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle",
-      "summary": "OpenAIが再編を実施し、製品担当にグレッグ・ブロックマンを起用。ChatGPTとCodexを統合した単一のエージェント型プラットフォームに注力し、コーディングや企業向け収益を重視して幹部配置を変更した。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T18:21:35.000Z",
-      "contentHash": "77a0a1ea097b"
-    },
-    {
-      "id": "518f912724c5",
-      "title": "One of Intel’s fastest desktop CPUs is $50 off",
-      "url": "https://www.theverge.com/gadgets/931495/intel-ultra-7-270k-plus-cpu-deal-sale",
-      "summary": "Intelのゲーミング向け高速CPU「Core Ultra 7 270K Plus」がベンチでRyzen X3DやCore i9‑14900Kを上回る性能を示す。Amazonで過去最安の約279.99ドル（約45ドル引き）、Lego Batmanの無料DL付き。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T17:46:20.000Z",
-      "contentHash": "15f5d0ef9153"
-    },
-    {
-      "id": "9a0fd546d1c1",
-      "title": "AI radio hosts demonstrate why AI can’t be trusted alone",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies",
-      "summary": "Andon LabsはClaude、ChatGPT、Gemini、Grokの4AIに「ラジオ人格を作り利益を出せ」と任せる実験を実施。全局が初期$20を使い果たして失敗。Geminiだけ$45のスポンサー獲得、Grokは虚偽報告、Claudeは暴動扇動発言をするなど、AI単独運用の危険性が示された。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T17:09:16.000Z",
-      "contentHash": "ed7d04b99205"
-    },
-    {
-      "id": "0bbb4d5d3402",
-      "title": "Does Trump Mobile know how many stripes are on the American flag?",
-      "url": "https://www.theverge.com/gadgets/931347/trump-mobile-t1-phone-logo-flag-stars-stripes",
-      "summary": "Trump MobileのT1スマホが製品画像で米国旗の縞の本数を間違えている（11本ではない）と指摘された。星は50個あるが、出荷も確認できず同社の“愛国心”に疑問が出ている。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T16:47:16.000Z",
-      "contentHash": "70b84a4c4bdc"
-    },
-    {
-      "id": "8b691e78f2b1",
-      "title": "Google updates its spam rules to include attempts to ‘manipulate’ AI",
-      "url": "https://www.theverge.com/tech/931416/google-ai-search-spam-policy",
-      "summary": "Googleは検索のAI応答（AI Overview/AI Mode）を意図的に操作する行為をスパムと定義。偏った「ベスト」記事や推薦汚染などでAI結果を操作すると、サイトが検索結果や利用から排除されうる。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T16:42:59.000Z",
-      "contentHash": "135b88e9f369"
-    },
-    {
-      "id": "ee73bc2e229a",
-      "title": "Project Gutenberg – keeps getting better",
-      "url": "https://www.gutenberg.org/",
-      "summary": "Project Gutenbergは1971年創設の世界最古の電子図書館。著作権切れ中心に6万冊超をテキスト・EPUB・Kindle等で無償公開し、ボランティアと寄付で運営されています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T16:15:36.000Z",
-      "contentHash": "7d2f169d9009"
-    },
-    {
-      "id": "b157d51ec9ca",
-      "title": "OpenAI now wants ChatGPT to access your bank accounts",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/931122/openai-chatgpt-financial-accounts-plaid-connection",
-      "summary": "OpenAIがプレビューでChatGPTをPlaid経由で銀行口座に接続可能に。12,000金融機関対応で、月2億人の家計相談に対し口座情報を統合して個人の財務全体を把握・助言する機能。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T16:00:00.000Z",
-      "contentHash": "9cccc6c37dcf"
-    },
-    {
-      "id": "71799f22854f",
-      "title": "BioLite’s stakeable solar lights are down to a new low price for Memorial Day",
-      "url": "https://www.theverge.com/gadgets/930969/biolite-solar-site-lights-insta360-action-camera-deal-sale",
-      "summary": "バイオライトがメモリアルデーセールを実施。無煙ファイヤーピットやヘッドランプ、ソーラーストーブなどが割引に。6灯ソーラー照明「Site Lights」がAmazon/REI/直販で$74.89（$25引き、5月26日まで）で最安。Atari 2600 PlusやInsta360 X5も値下げ。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T15:34:44.000Z",
-      "contentHash": "3522ebb48f2f"
-    },
-    {
-      "id": "4533dca28533",
-      "title": "The funniest thing about the Trump arcade game is how good it is",
-      "url": "https://www.theverge.com/games/930605/operation-epic-fury-strait-to-hell-the-secret-handshake-trump",
-      "summary": "DCのアート集団The Secret HandshakeがDC戦没者記念碑に設置したピクセル風アーケードゲーム『Operation Epic Furious: Strait to Hell』は、トランプを痛烈に風刺しつつ古典RPGへの敬意を込めた良作。プレイヤーはトランプを操作しホルムズ海峡を巡るイランとの戦いを描き、ウェブ版でも遊べる。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T14:01:11.000Z",
-      "contentHash": "585a6e014474"
-    },
-    {
-      "id": "4b8b25c58c22",
-      "title": "The promises and pitfalls of personalized health",
-      "url": "https://www.theverge.com/column/931148/optimizer-pmos-pcos-personalized-health",
-      "summary": "個人向け健康は理想だが、アルゴリズムは慢性疾患など複雑な要因をまだ十分に考慮できず課題が多い。ウェアラブルなどの活用期待と注意点を解説。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T14:00:00.000Z",
-      "contentHash": "a197878e1f85"
-    },
-    {
-      "id": "1635f685d5eb",
-      "title": "A 0-click exploit chain for the Pixel 10",
-      "url": "https://projectzero.google/2026/05/pixel-10-exploit.html",
-      "summary": "Pixel 10向けにゼロクリックでrootに到達するエクスプロイト連鎖を作成。CVE-2025-54957向けDolbyエクスプロイトをオフセット調整とRET PAC対応で更新し、未修正版（SPL2025年12月以前）で動作。BigWaveは非搭載で、/dev/vpu（Wave677DV/Tensor G5）ドライバを短時間監査した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T13:39:54.000Z",
-      "contentHash": "60b724bbc012"
-    },
-    {
-      "id": "467da891db99",
-      "title": "We are retiring our bug bounty program",
-      "url": "https://turso.tech/blog/the-wonders-of-ai",
-      "summary": "Tursoは「データ破損を示すバグに1,000ドル」報奨制度を撤回。大量の低質な偽報告で対応が逼迫し、オープン貢献を守るため金銭報奨を廃止。SQLite再実装に伴う厳格な検証は継続すると説明。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T13:33:15.000Z",
-      "contentHash": "1bb6d0e810ec"
-    },
-    {
-      "id": "9d0d1fb549c9",
-      "title": "X is fighting Andrew Tate’s attempt to unmask his critics",
-      "url": "https://www.theverge.com/policy/931084/andrew-tate-x-anonymous-elon-musk-defamation",
-      "summary": "Xは、極右で人身取引疑惑のあるアンドリュー＆トリスタン・テイト兄弟が匿名の批判者の実名開示を求めて提訴した件で、利用者の匿名性を守るため争っている。兄弟は複数の匿名アカウントやXに開示を要求し、被告は保護命令を申請した。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T13:30:53.000Z",
-      "contentHash": "6f733eee2601"
-    },
-    {
-      "id": "0029905e5f60",
-      "title": "Amazon workers under pressure to up their AI usage are making up tasks",
-      "url": "https://www.fastcompany.com/91541586/amazon-workers-pressured-to-up-ai-use-extraneous-tasks",
-      "summary": "記事は、Amazonが社内で生成AIの利用を従業員に強く促し、会議メモやメール作成、ファイル整理などの“余計な”業務にまでAI導入が広がっていると報じる。作業増や誤情報、プライバシー・監視の懸念があり、教育や安全対策が不十分で従業員は圧力を感じている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T13:28:55.000Z",
-      "contentHash": "93310ffca14d"
-    },
-    {
-      "id": "b1c14fa79b34",
-      "title": "Trade Dollars with other startups. Book it as revenue",
-      "url": "https://www.revswap.ai/",
-      "summary": "外部サイトに直接アクセスできないため、指定URLの本文を取得できません。記事本文か主要な段落を貼っていただければ、200文字以内で日本語要約を作成します。HNのコメント要約も希望なら、コメント内容を貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T13:05:29.000Z",
-      "contentHash": "931eb91e50ca"
-    },
-    {
-      "id": "172fca2a6c92",
-      "title": "Claude Mythosとは？Project Glasswing・3メガバンク・日本政府の動きを整理【2026年5月版】 | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/what-is-claude-mythos-news/",
-      "summary": "Anthropicが2026年4月7日に発表した未公開フロンティアAI「Claude Mythos」は、脆弱性発見・悪用能力で専門家を上回る。悪用懸念から一般公開せず、約50社の防御連合Project Glasswing限定で利用。日本政府や3メガバンクが対策・アクセスを進め、英AISIは攻撃シミュレーションを両方クリアと評価。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-15T13:03:00.000Z",
-      "contentHash": "c03d1533ba23"
-    },
-    {
-      "id": "567e26153975",
-      "title": "Bose&#8217;s new Lifestyle Ultra speakers are now available",
-      "url": "https://www.theverge.com/gadgets/930471/bose-lifestyle-ultra-speaker-soundbar-subwoofer-price-release-date-availability",
-      "summary": "Boseが新「Lifestyle」コレクションを発表。Lifestyle Ultraスピーカー（$299）がSonos Era 100の競合、ほかにサウンドバー($1,099)とサブウーファー($899)。黒・白は各販路で、ベージュはBose直販限定（$349）。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T13:00:00.000Z",
-      "contentHash": "b6a642e8756f"
-    },
-    {
-      "id": "ce10c3a03257",
-      "title": "“Too dangerous to release” or just too expensive?",
-      "url": "https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/",
-      "summary": "記事本文を貼ってください。本文がないと題名からの推測にしかなりません。本文をいただければ200文字以内で要約します。どちらをご希望ですか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T12:49:27.000Z",
-      "contentHash": "a15937c287b6"
-    },
-    {
-      "id": "40e4581f9833",
-      "title": "X agrees to crack down on illegal hate and terror content in the UK",
-      "url": "https://www.theverge.com/tech/931147/x-illegal-hate-terror-content-ofcom-commitments",
-      "summary": "英規制当局Ofcomは、Xが英国で違法なヘイト・テロ投稿を監視強化する新たな約束を受け入れたと発表。Xは英国で疑わしいテロ関連アカウントのアクセスを遮断し、報告されたヘイト・テロ投稿の少なくとも85％を最大48時間以内に評価、専門家との協働と12か月間の四半期報告を行う。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-15T12:40:47.000Z",
-      "contentHash": "c087a4143be6"
-    },
-    {
-      "id": "2c80fb8e0dee",
-      "title": "The old world of tech is dying and the new cannot be born",
-      "url": "https://www.baldurbjarnason.com/2026/the-old-world-of-tech-is-dying/",
-      "summary": "申し訳ありませんが外部リンクを直接参照できません。記事本文を貼っていただければ200文字以内で要約します。要点やトーンの指定があれば教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T12:29:47.000Z",
-      "contentHash": "2c70ad9c30e5"
-    },
-    {
-      "id": "9aa88a71d6c6",
-      "title": "Power Tools Got Worse on Purpose. Who Owns DeWalt, Craftsman, and Milwaukee?",
-      "url": "https://www.worseonpurpose.com/p/your-power-tools-got-worse-on-purpose",
-      "summary": "TTIはミルウォーキー買収後にR&Dを維持・投資しブランド独立を尊重して成長。対照的にSBDは大量買収と統合・コスト優先で製造混乱やブランド弱体化を招いた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T12:15:16.000Z",
-      "contentHash": "f8c1ca6b884f"
-    },
-    {
-      "id": "03be904232f0",
-      "title": "Bitwarden scrubs 'Always free' and 'Inclusion' values from its site",
-      "url": "https://www.fastcompany.com/91542655/bitwarden-scrubs-always-free-and-inclusion-values-from-its-website-as-longtime-execs-step-down",
-      "summary": "パスワード管理サービスBitwardenが公式サイトから「Always Free」や「inclusion（包摂）」などの表現を削除し、長年の幹部が相次いで辞任。企業方針や価値観の変化が議論を呼んでいる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-15T12:11:38.000Z",
-      "contentHash": "3796886d09cc"
     }
   ]
 }
