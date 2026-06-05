@@ -1,14 +1,23 @@
 {
-  "generatedAt": "2026-06-05T04:27:33.996Z",
+  "generatedAt": "2026-06-05T11:46:10.744Z",
   "items": [
+    {
+      "id": "f8a986e51d16",
+      "title": "Porsche’s Cayenne Coupe Turbo will even make 911 owners nervous",
+      "url": "https://www.theverge.com/transportation/943004/porsche-cayenne-coupe-turbo-review-specs-price",
+      "summary": "2002年に物議を醸したポルシェのSUVは主力に成長。昨年マカンとカイエンで販売の62％を占め、電動化も進展（カイエンEVや小型プラグイン・マカン）。新型カイエン・クーペ・ターボはやや小型化しつつ大幅に高出力で、911オーナーを脅かすほどの速さ。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-05T11:00:00.000Z",
+      "contentHash": "6452e29aa1f8"
+    },
     {
       "id": "eaec0456e610",
       "title": "Codex の プラグイン と スキル の関係まとめ",
       "url": "https://note.com/npaka/n/n8db0d21b3ad8",
-      "summary": "CodexではMarketplaceがPluginのカタログ、Pluginが配布・インストール単位、Skillが実際の作業手順。PluginはSkillやApp integration、MCP設定、hooks、assets等を含み、Skillは再利用可能なワークフローで必要時に読み込まれます。",
+      "summary": "Codexの関係を整理：MarketplaceはPluginのカタログ、Pluginは配布単位（plugin.json必須）で複数のSkillやApp integration（外部接続設定）、MCP/Hooks/Assetsを含む。Skillは作業手順の中身で再利用可能。Codexは必要時にSkillを読み込む。",
       "source": "npaka",
       "publishedAt": "2026-06-05T01:51:43.000Z",
-      "contentHash": "b90241725e64"
+      "contentHash": "6f5b149728e0"
     },
     {
       "id": "239872c2d7db",
@@ -23,28 +32,28 @@
       "id": "ccd0667ba26c",
       "title": "Google CloudのAgent Identityを解説 | G-gen Tech Blog",
       "url": "https://blog.g-gen.co.jp/entry/agent-identity-explained",
-      "summary": "Google CloudのAgent Identityは、AIエージェントにSPIFFE準拠の固有IDを付与し、サービスアカウントより安全に認証する仕組みです。エージェント単位のID発行、なりすまし不可、長期鍵不要、トークンはX.509と結合。Agent RuntimeとGemini Enterpriseで利用可能です。",
+      "summary": "G-genの佐々木が、Google Cloud上のAIエージェントに固有のIDを付与するAgent Identityの仕組みと認証方式を解説。サービスアカウントとの違い、SPIFFE形式識別子、認証情報、セキュリティ・ガバナンス、対応認証方式や設定例を紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-05T00:00:00.000Z",
-      "contentHash": "bb51368a4c96"
+      "contentHash": "2288c061f232"
     },
     {
       "id": "35d6b47b460e",
       "title": "不具合調査をもっとスムーズに！FE向けDevToolsガイド | KENTEM TechBlog",
       "url": "https://tech.kentem.jp/entry/2026/06/05/090000",
-      "summary": "フロントエンドの不具合調査を効率化するChrome DevToolsの紹介記事。F12で開き、条件付きブレークポイントやログポイントでコードを一切書き換えずにログ出力・停止、DOMブレークポイント（サブツリー／属性／削除）や変数監視で原因を素早く特定できると解説しています。",
+      "summary": "テックブログ強化月間リレーブログ企画2026参加記事。フロントエンド開発でのconsole.log連打問題を解消するため、コードを書き換えずにログを仕込むLogpointsやDOM変更検知、変数監視などDevToolsの機能でデバッグ効率を高める方法を紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-05T00:00:00.000Z",
-      "contentHash": "25524ea70ecd"
+      "contentHash": "9bba5450ac0e"
     },
     {
       "id": "9fd244ec43ec",
       "title": "Cloudflare Tunnelを使って、自宅サーバをインターネットへ公開してみよう | アドグローブブログ | 渋谷のIT会社",
       "url": "https://blog.adglobe.co.jp/entry/2026/06/05/090000",
-      "summary": "Cloudflare Tunnelで自宅サーバを固定IPやポート開放不要で独自ドメイン公開する方法を解説。cloudflaredでCloudflareへ接続し、ドメイン追加→Tunnel作成→サーバ起動→ルート設定で公開。費用はほぼゼロ。",
+      "summary": "Cloudflare Tunnelを使い、自宅サーバを独自ドメインで安全に公開する方法を解説。導入手順、設定項目、運用上の注意点や料金・コスト比較まで詳しく説明します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-05T00:00:00.000Z",
-      "contentHash": "e0905be6483b"
+      "contentHash": "c8826a659c40"
     },
     {
       "id": "972f18851d20",
@@ -59,28 +68,37 @@
       "id": "68de4d71c2ab",
       "title": "【Microsoft×生成AI連載】Frontline Agentを使ってみた | JBS Tech Blog",
       "url": "https://blog.jbs.co.jp/entry/2026/06/05/085619",
-      "summary": "Microsoft 365 CopilotのFrontline Agentは、TeamsやSharePointと連携し、現場業務の情報検索・未読要約・シフト引継ぎを自動化・要約して業務効率化するAIアシスタント。導入手順や活用例、利点と注意点を紹介。",
+      "summary": "業務での情報不足やシフト引継ぎの属人化といった課題を解決するMicrosoft 365 CopilotのFrontline Agentについて、概要・機能・基本的な使い方を紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-04T23:56:19.000Z",
-      "contentHash": "8f73f96c6e98"
+      "contentHash": "4713186fdffb"
     },
     {
       "id": "83b572738a31",
       "title": "13サイクル回してわかった、AI生成コンテンツの品質を高める3つのポイント | コドモン Product Team Blog",
       "url": "https://tech.codmon.com/entry/2026/06/05/13%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E5%9B%9E%E3%81%97%E3%81%A6%E3%82%8F%E3%81%8B%E3%81%A3%E3%81%9F%E3%80%81AI%E7%94%9F%E6%88%90%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%81%AE%E5%93%81%E8%B3%AA",
-      "summary": "AI生成コンテンツの品質向上はPDCAを回せる仕組みが前提。promptfooで自動テストを整備し、サイクル管理で履歴比較、さらに自動評価（ルール＋LLM判定）と人間の主観評価の2層で最低ラインと文章のニュアンスを担保する。",
+      "summary": "コドモンの重田がプロンプトエンジニアリングでAI生成テキストをリリース品質に高める過程を解説。内容ではなく品質向上の仕組み化に絞り、エンジニア・PdM・デザイナー向けに有効な3つのポイント（まずPDCA）を紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-04T23:50:35.000Z",
-      "contentHash": "b741f977ed7e"
+      "contentHash": "0763d919f1ee"
     },
     {
       "id": "da319cd609b6",
       "title": "ChatGPTのメモリは「メモ」から「文脈理解」へ",
       "url": "https://note.com/npaka/n/n1316728e7725",
-      "summary": "OpenAIはChatGPTのメモリを単なる保存から「文脈理解」へ進化させる新アーキテクチャ「Dreaming V3」を発表。チャット履歴を自動で整理・合成し、好みや制約、時間経過を反映して継続的な文脈を保持。まずPlus/Proに提供後、順次拡大予定。",
+      "summary": "OpenAIはChatGPTのメモリをSaved memoriesから、チャット履歴を自動で整理・合成する新アーキテクチャ「Dreaming V3」へ刷新。文脈の継続、好みの反映、時間変化への更新性を高め、まずPlus/Pro向けに提供し順次拡大予定。",
       "source": "npaka",
       "publishedAt": "2026-06-04T23:50:31.000Z",
-      "contentHash": "5963031aefb1"
+      "contentHash": "3bfa5fd74946"
+    },
+    {
+      "id": "60491e4a4c02",
+      "title": "コンテナの「不変性」を活かしたRHACSによる現実的な多層防御 | 赤帽エンジニアブログ",
+      "url": "https://rheb.hatenablog.com/entry/2026/06/05/085017",
+      "summary": "巧妙化するランサムウェアに対し、Kubernetes/コンテナ環境ではまず防御層を一枚増やしRHACSで攻撃チェーンを分断、被害半径を縮小する実例を紹介。RHACS単体の限界も示しつつ、導入の軽さとAlert観測から運用を始める実践を勧める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T23:50:17.000Z",
+      "contentHash": "e18af507dd47"
     },
     {
       "id": "65dba9eb134c",
@@ -95,19 +113,19 @@
       "id": "bd924c8a854a",
       "title": "Nature における「スマートロックとはなにか」をドメインモデリングする | Nature Engineering Blog",
       "url": "https://engineering.nature.global/entry/smartlock-domain-models",
-      "summary": "NatureがNature LockとNature Keyを発売。サーバー側で扱うため用語を定義・統一し、Nature Lockは「デバイス」かつ「家電」で他デバイス連携があり、Nature Keyはサーバーと直接通信できないためドメインモデルを改定した。",
+      "summary": "Natureは2026年4月30日にスマートロック「Nature Lock」とApple「探す」対応スマートキー「Nature Key」を発売。5月19日に外部操作対応、6月3日に1ドア2ロック対応を追加。記事は主にNature Lockを解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-04T23:00:00.000Z",
-      "contentHash": "43ae054d687d"
+      "contentHash": "1c999bc69b73"
     },
     {
       "id": "930f4766bdea",
       "title": "コンポーネントディレクトリをフラットに保つために | カミナシ エンジニアブログ",
       "url": "https://kaminashi-developer.hatenablog.jp/entry/2026/06/05/flat-component-directory",
-      "summary": "カミナシのフロントはfeature単位で構成するが、コンポーネント内でcomponents/hooksなどの責務別フォルダを階層ごとに繰り返すとネストが深く見通しが悪くなるため、内部ファイルをフラットに配置する方針に変えた。理由は内部部品が少なく責務別分割が冗長になるため。",
+      "summary": "カミナシの澤木が、設備保全フロントのコンポーネントディレクトリ設計と「ネストを深くしない工夫」を解説。機能単位でディレクトリを切り、各feature内をcomponents/hooks/contexts/model/repositoryなど責務別に整理する構成を採用している。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-04T23:00:00.000Z",
-      "contentHash": "4158a4cc544c"
+      "contentHash": "5ecc69537377"
     },
     {
       "id": "3eb8a19c5b7d",
@@ -218,6 +236,15 @@
       "contentHash": "63716b7ba424"
     },
     {
+      "id": "3820f58cbe14",
+      "title": "【Snowflake Summit 2026】リアルタイム × マルチモーダルAIエージェントをSnowflake Onlyで構築 | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/5bd5a733c5581d",
+      "summary": "Snowflake Summit 2026のセッションで、NYC交通カメラ映像をSnowflakeのみで取り込み→マルチモーダルLLM解析→エージェント化→アクションまで実演。SNACKはS:Snowflake、N:NiFi/Openflow、A:Iceberg、C:Cortex、K:Kafka。リアルタイム処理をSQLで統一し、Cortexのセマンティック層が重要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T16:21:37.000Z",
+      "contentHash": "c680305d30e1"
+    },
+    {
       "id": "9e5e9682128d",
       "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
       "url": "https://www.anthropic.com/institute/recursive-self-improvement",
@@ -275,10 +302,10 @@
       "id": "a4d71d7953ff",
       "title": "GPT-5・Claudeに迫る超巨大ローカルLLMまとめ",
       "url": "https://note.com/npaka/n/ndb5d275de74e",
-      "summary": "20B〜30Bでは実務エージェントは不十分とし、DGX Station GB300環境で動く200B以上の超巨大ローカルLLM（Nemotron3 Ultra、Qwen3-Coder-480B、MiniMax-M2、GLM系など）を比較。実務対応力と推論効率を重視。",
+      "summary": "記事は、AIエージェントに実務を任せるには20〜30B級では不十分とし、DGX Station GB300を前提に200B以上のローカル超巨大LLMを紹介。Nemotron 3 Ultra、Qwen3‑Coder‑480B、MiniMax‑M2、GLM‑4.5/5などを比較し、長文理解やツール利用、効率的推論が可能な点を解説。",
       "source": "npaka",
       "publishedAt": "2026-06-04T14:48:34.000Z",
-      "contentHash": "89bbf888263a"
+      "contentHash": "ea5f266c9519"
     },
     {
       "id": "46321db628b1",
@@ -374,10 +401,10 @@
       "id": "258bee30f875",
       "title": "Codex の AGENTS.md 読み込みルールまとめ",
       "url": "https://note.com/npaka/n/ndb3b2ccfc879",
-      "summary": "AGENTS.mdはAI向けの作業ルールファイル。Codexは~/.codex/AGENTS.mdやリポジトリ内のAGENTS.md/AGENTS.override.mdをルート→作業ディレクトリ順に結合して読み込み、近い上書きが優先。フォールバック名やCODEX_HOMEで設定を切替え、codexコマンドで有効ルールを確認できる。",
+      "summary": "CodexのAGENTS.mdはAI向け作業ルールを記述するファイル。~/.codex（グローバル）やリポジトリ内、階層ごとのAGENTS.override.mdを結合して適用し、近い階層が優先。フォールバック名やCODEX_HOMEで切替可能。読み込み状況はcodexコマンドで確認できる。",
       "source": "npaka",
       "publishedAt": "2026-06-04T10:54:22.000Z",
-      "contentHash": "e71aa68751c2"
+      "contentHash": "65f90042d366"
     },
     {
       "id": "67277520ec76",
@@ -770,10 +797,10 @@
       "id": "332fec0895e5",
       "title": "LeLab の概要",
       "url": "https://note.com/npaka/n/nd3ad1b4865cc",
-      "summary": "LeLabはLeRobotをブラウザGUIで操作するツールです。ロボット接続・キャリブレーション、テレオペレーション、データ記録、ローカル/クラウド学習(HF Jobs)、学習済みモデル実機実行、コミュニティデータ利用を一画面で完結。現状SO-ARM101対応、uv経由でインストール・起動しCLI不要。",
+      "summary": "LeLabはLeRobotをブラウザGUIで操作するツールです。SO-ARM101対応で、ロボット追加・キャリブレーション、テレオペレーション、データ記録、ローカル／クラウド学習、学習済みポリシー実行、コミュニティデータ利用が可能。uv経由でインストール・起動します。",
       "source": "npaka",
       "publishedAt": "2026-06-03T22:22:48.000Z",
-      "contentHash": "a8cd2e5ba567"
+      "contentHash": "3530f7dcb658"
     },
     {
       "id": "2b7c0788ab02",
@@ -788,10 +815,10 @@
       "id": "112ed602faf4",
       "title": "Gemma 4 12B の概要",
       "url": "https://note.com/npaka/n/n7bdf1e232831",
-      "summary": "Google DeepMindのGemma 4 12Bは12Bパラメータのローカル向けマルチモーダルモデル。16GB級で動くencoder-free設計で、軽量Vision Embedderと音声の線形射影により画像・音声・動画を統合し、エージェントやコーディング支援向けに低メモリで高性能化（MTPで高速化）を図る。",
+      "summary": "Google DeepMindのGemma 4 12Bは12Bパラメータのエンコーダフリーなマルチモーダルモデルで、16GB級のローカル実行を想定。軽量なVision Embedderと生音声射影でテキスト・画像・音声・動画やエージェント、コーディング等を低メモリで効率的に処理する。",
       "source": "npaka",
       "publishedAt": "2026-06-03T21:48:37.000Z",
-      "contentHash": "bea8108e6f3c"
+      "contentHash": "236536b9a67a"
     },
     {
       "id": "2a628bb87b16",
@@ -8973,33 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-05-17T21:40:35.000Z",
       "contentHash": "7976eff063dd"
-    },
-    {
-      "id": "3fefa36e9264",
-      "title": "Grok の Hermes Agent 連携の概要",
-      "url": "https://note.com/npaka/n/nb637bcadd806",
-      "summary": "xAIはGrokのサブスクをNous ResearchのHermes Agentで利用可能に。OAuthで既存アカウントを接続し、grok-4.3による会話・推論、TTS、画像・動画生成などをHermes上で利用できる。インストール後にプロバイダ選択と認証保存が必要で、動画生成やX検索は別途有効化する必要がある。",
-      "source": "npaka",
-      "publishedAt": "2026-05-17T21:37:08.000Z",
-      "contentHash": "b28c5b32f536"
-    },
-    {
-      "id": "27cf1f67a905",
-      "title": "Prolog Coding Horror",
-      "url": "https://www.metalevel.at/prolog/horror",
-      "summary": "申し訳ありませんが、外部リンク先に直接アクセスできません。記事本文をここに貼るか、主要な箇所をコピーしていただけますか？いただければ200字以内で日本語要約します。HNコメントの要約も希望ならそちらも貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-17T21:15:51.000Z",
-      "contentHash": "99e97473040e"
-    },
-    {
-      "id": "749d7251d454",
-      "title": "Microsoft is retiring Teams’ Together Mode",
-      "url": "https://www.theverge.com/tech/932215/microsoft-teams-together-mode",
-      "summary": "Microsoftはパンデミック期に導入したTeamsのTogether Modeを段階的に廃止。AIで参加者を仮想空間に配置する機能やシーン・席割りを削除し、派手な演出をやめ映像品質と性能改善に注力すると説明。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-17T21:15:28.000Z",
-      "contentHash": "2a2493db715c"
     }
   ]
 }
