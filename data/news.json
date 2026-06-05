@@ -1,6 +1,204 @@
 {
-  "generatedAt": "2026-06-04T18:26:56.656Z",
+  "generatedAt": "2026-06-05T04:27:33.996Z",
   "items": [
+    {
+      "id": "eaec0456e610",
+      "title": "Codex の プラグイン と スキル の関係まとめ",
+      "url": "https://note.com/npaka/n/n8db0d21b3ad8",
+      "summary": "CodexではMarketplaceがPluginのカタログ、Pluginが配布・インストール単位、Skillが実際の作業手順。PluginはSkillやApp integration、MCP設定、hooks、assets等を含み、Skillは再利用可能なワークフローで必要時に読み込まれます。",
+      "source": "npaka",
+      "publishedAt": "2026-06-05T01:51:43.000Z",
+      "contentHash": "b90241725e64"
+    },
+    {
+      "id": "239872c2d7db",
+      "title": "Meta enables ADB on deprecated Portal devices [video]",
+      "url": "https://fb.watch/HxPu0fSyeH/",
+      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。記事本文を貼り付けるか主要ポイントを教えていただければ、200文字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-05T00:44:38.000Z",
+      "contentHash": "f78af9112bfa"
+    },
+    {
+      "id": "ccd0667ba26c",
+      "title": "Google CloudのAgent Identityを解説 | G-gen Tech Blog",
+      "url": "https://blog.g-gen.co.jp/entry/agent-identity-explained",
+      "summary": "Google CloudのAgent Identityは、AIエージェントにSPIFFE準拠の固有IDを付与し、サービスアカウントより安全に認証する仕組みです。エージェント単位のID発行、なりすまし不可、長期鍵不要、トークンはX.509と結合。Agent RuntimeとGemini Enterpriseで利用可能です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-05T00:00:00.000Z",
+      "contentHash": "bb51368a4c96"
+    },
+    {
+      "id": "35d6b47b460e",
+      "title": "不具合調査をもっとスムーズに！FE向けDevToolsガイド | KENTEM TechBlog",
+      "url": "https://tech.kentem.jp/entry/2026/06/05/090000",
+      "summary": "フロントエンドの不具合調査を効率化するChrome DevToolsの紹介記事。F12で開き、条件付きブレークポイントやログポイントでコードを一切書き換えずにログ出力・停止、DOMブレークポイント（サブツリー／属性／削除）や変数監視で原因を素早く特定できると解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-05T00:00:00.000Z",
+      "contentHash": "25524ea70ecd"
+    },
+    {
+      "id": "9fd244ec43ec",
+      "title": "Cloudflare Tunnelを使って、自宅サーバをインターネットへ公開してみよう | アドグローブブログ | 渋谷のIT会社",
+      "url": "https://blog.adglobe.co.jp/entry/2026/06/05/090000",
+      "summary": "Cloudflare Tunnelで自宅サーバを固定IPやポート開放不要で独自ドメイン公開する方法を解説。cloudflaredでCloudflareへ接続し、ドメイン追加→Tunnel作成→サーバ起動→ルート設定で公開。費用はほぼゼロ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-05T00:00:00.000Z",
+      "contentHash": "e0905be6483b"
+    },
+    {
+      "id": "972f18851d20",
+      "title": "AIエージェントとシステムをつなぐMCP入門（StreamableHTTPステートフル実装編） | 豆蔵デベロッパーサイト",
+      "url": "https://developer.mamezou-tech.com/blogs/2026/06/05/mcp-impl_http_stateful/",
+      "summary": "本稿は「MCP入門」続編で、StreamableHTTPを使ったステートフルMCPサーバ実装を解説。セッション単位で接続コンテキストを保持し、sessionIdで再利用、ツール結果や一時状態を継承。SIGINTで全セッションを終了。SDK制約でサーバ/トランスポートをセッション毎に管理する実装例を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-05T00:00:00.000Z",
+      "contentHash": "0a41c3f7b122"
+    },
+    {
+      "id": "68de4d71c2ab",
+      "title": "【Microsoft×生成AI連載】Frontline Agentを使ってみた | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/06/05/085619",
+      "summary": "Microsoft 365 CopilotのFrontline Agentは、TeamsやSharePointと連携し、現場業務の情報検索・未読要約・シフト引継ぎを自動化・要約して業務効率化するAIアシスタント。導入手順や活用例、利点と注意点を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T23:56:19.000Z",
+      "contentHash": "8f73f96c6e98"
+    },
+    {
+      "id": "83b572738a31",
+      "title": "13サイクル回してわかった、AI生成コンテンツの品質を高める3つのポイント | コドモン Product Team Blog",
+      "url": "https://tech.codmon.com/entry/2026/06/05/13%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E5%9B%9E%E3%81%97%E3%81%A6%E3%82%8F%E3%81%8B%E3%81%A3%E3%81%9F%E3%80%81AI%E7%94%9F%E6%88%90%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%81%AE%E5%93%81%E8%B3%AA",
+      "summary": "AI生成コンテンツの品質向上はPDCAを回せる仕組みが前提。promptfooで自動テストを整備し、サイクル管理で履歴比較、さらに自動評価（ルール＋LLM判定）と人間の主観評価の2層で最低ラインと文章のニュアンスを担保する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T23:50:35.000Z",
+      "contentHash": "b741f977ed7e"
+    },
+    {
+      "id": "da319cd609b6",
+      "title": "ChatGPTのメモリは「メモ」から「文脈理解」へ",
+      "url": "https://note.com/npaka/n/n1316728e7725",
+      "summary": "OpenAIはChatGPTのメモリを単なる保存から「文脈理解」へ進化させる新アーキテクチャ「Dreaming V3」を発表。チャット履歴を自動で整理・合成し、好みや制約、時間経過を反映して継続的な文脈を保持。まずPlus/Proに提供後、順次拡大予定。",
+      "source": "npaka",
+      "publishedAt": "2026-06-04T23:50:31.000Z",
+      "contentHash": "5963031aefb1"
+    },
+    {
+      "id": "65dba9eb134c",
+      "title": "Do transformers need three projections? Systematic study of QKV variants",
+      "url": "https://arxiv.org/abs/2606.04032",
+      "summary": "TransformerのQ,K,V投影共有（Q-K=V, Q=K-V, Q=K=V）を系統的に評価。Q-K=Vは性能ほぼ同等でKVキャッシュ50%削減（困惑度+3.1%）。GQA/MQA併用で最大96.9%削減、端末推論可能。Q=K-Vは注意の方向性を破壊し、K/Vの類似表現と低ランク注意が効くと解析。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-04T23:11:56.000Z",
+      "contentHash": "ac5784862d2a"
+    },
+    {
+      "id": "bd924c8a854a",
+      "title": "Nature における「スマートロックとはなにか」をドメインモデリングする | Nature Engineering Blog",
+      "url": "https://engineering.nature.global/entry/smartlock-domain-models",
+      "summary": "NatureがNature LockとNature Keyを発売。サーバー側で扱うため用語を定義・統一し、Nature Lockは「デバイス」かつ「家電」で他デバイス連携があり、Nature Keyはサーバーと直接通信できないためドメインモデルを改定した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T23:00:00.000Z",
+      "contentHash": "43ae054d687d"
+    },
+    {
+      "id": "930f4766bdea",
+      "title": "コンポーネントディレクトリをフラットに保つために | カミナシ エンジニアブログ",
+      "url": "https://kaminashi-developer.hatenablog.jp/entry/2026/06/05/flat-component-directory",
+      "summary": "カミナシのフロントはfeature単位で構成するが、コンポーネント内でcomponents/hooksなどの責務別フォルダを階層ごとに繰り返すとネストが深く見通しが悪くなるため、内部ファイルをフラットに配置する方針に変えた。理由は内部部品が少なく責務別分割が冗長になるため。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-04T23:00:00.000Z",
+      "contentHash": "4158a4cc544c"
+    },
+    {
+      "id": "3eb8a19c5b7d",
+      "title": "Valve says it&#8217;s ready to launch the Steam Machine this summer",
+      "url": "https://www.theverge.com/games/943657/valve-steam-machine-frame-summer-launch-verified",
+      "summary": "Valveは、遅延していたSteam Machine（PC）とSteam Frame（VRヘッドセット）を今夏に発売すると発表。メモリ・ストレージ不足で価格と出荷計画を見直しており、Verifiedプログラムも公表した。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-04T22:48:53.000Z",
+      "contentHash": "027923bec7bf"
+    },
+    {
+      "id": "971a4932ab80",
+      "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
+      "summary": "リンク先に直接アクセスできないため正確な全文確認はできませんが、見出しに基づく要約を示します（詳細が必要なら記事本文を貼ってください）。\n\nS&Pダウ・ジョーンズは協議の結果、メガキャップ向けのIPOルールを現行のまま維持すると決定し、大型上場基準に変更はない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-04T22:48:19.000Z",
+      "contentHash": "726a0305e198"
+    },
+    {
+      "id": "ec871a0ca219",
+      "title": "IPv6 zones in URLs are a mistake",
+      "url": "https://xeiaso.net/notes/2026/ipv6-zones-go-url/",
+      "summary": "申し訳ありませんが外部サイトへ直接アクセスできないため要約できません。記事本文か主要部分（またはHNコメント）を貼っていただければ、200字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-04T21:42:34.000Z",
+      "contentHash": "ea9226045d8f"
+    },
+    {
+      "id": "ec2aee29b187",
+      "title": "Iran Shock Jolts Asia and Europe to Speed Up Energy Transition",
+      "url": "https://www.bloomberg.com/graphics/2026-energy-transition-iran-war/",
+      "summary": "申し訳ありませんが、外部のURLを直接参照できません。記事本文をここに貼っていただければ、200文字以内で要約します。コメント欄の要約でも対応可能です。\n\n（参考として推測要約が必要なら：中東の戦況が化石燃料供給リスクを高め、短期的な原油高と長期的な脱炭素投資の加速を同時に招く、といった内容が想定されます。要約をご希望なら「推測で要約して」とお伝えください。）",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-04T20:19:07.000Z",
+      "contentHash": "3219b694e105"
+    },
+    {
+      "id": "ffb79fe518b6",
+      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "summary": "Claudeを使った自動脆弱性発見・修復の参照実装。複数組織での知見に基づくClaude Codeスキル群とC/C++向けASANハーネスを提供。非保守リポジトリ、商用はClaude Security。ブログ・クックブックあり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-04T20:11:20.000Z",
+      "contentHash": "0a47803a4feb"
+    },
+    {
+      "id": "dbc87d9206bd",
+      "title": "Cyberdecks used to look like little laptops, but now they&#8217;re getting more personal",
+      "url": "https://www.theverge.com/tech/943445/cyberdeck-tiktok",
+      "summary": "サイバーデッキが頑丈な箱型中心の外観から、バッグや宝箱、玩具などに組み込まれたファッション性の高い個人製作へ変化。Raspberry Pi基板搭載の作品がSNSで話題に。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-04T20:07:31.000Z",
+      "contentHash": "ef5a49bcda35"
+    },
+    {
+      "id": "edbc8beb0d4e",
+      "title": "Meta's ships facial recognition on smart glasses",
+      "url": "https://www.buchodi.com/meta-glasses-facial-recognition/",
+      "summary": "Metaのスマートグラス用アプリStella（Android v273.0.0.21）に、端末上で完結する顔認識の全処理系が搭載されていると確認。3モデルやローカルDB、2048次元埋め込み、通知まで動作したが、未登録の標準アカウントではUIやサーバー配信は無効で、実運用はMetaが制御している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-04T19:36:48.000Z",
+      "contentHash": "920313a923d5"
+    },
+    {
+      "id": "6e256504bb95",
+      "title": "Kevin O’Leary agrees to downsize massive Utah data center",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/943234/kevin-oleary-agrees-to-downsize-massive-utah-data-center",
+      "summary": "ケビン・オリアリーは住民らの反発で、ユタ州の約4万エーカー計画データセンター「Project Stratos」から1万9430エーカーを削除し規模を半減すると表明。敷地はLocomotive Springs周辺で、水使用削減や余剰水をグレートソルト湖へ回す要請が出ている。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-04T18:38:04.000Z",
+      "contentHash": "d9799c768ea2"
+    },
+    {
+      "id": "73480bfddc8d",
+      "title": "Google is letting social media stars customize their search result page",
+      "url": "https://www.theverge.com/tech/943233/google-search-profiles-custom-page",
+      "summary": "Googleは米国で大手クリエイター・出版社向けに専用のSearchプロフィールを提供開始。YouTube/Instagram/Xで10万、またはTikTokで30万フォロワー以上かつ18歳以上が対象で、リンクや概要、ピン留めメディア、複数平台の投稿集約を表示可能。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-04T18:32:23.000Z",
+      "contentHash": "654d8abe8f5a"
+    },
+    {
+      "id": "9629e88947ea",
+      "title": "The desperation of NYTimes",
+      "url": "https://rozumem.xyz/posts/16",
+      "summary": "有料記事閲覧のためNYTimesに月$2で加入したが、5日間で解除できない5通のオンボーディングメールに不快感。フッターで「必須情報」として無条件配信を正当化し、強引で絶望的と批判。筆者は解除リンクやアカウント閉鎖導線を常設すべきだと主張。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-04T17:39:13.000Z",
+      "contentHash": "8578bb67dc9a"
+    },
     {
       "id": "533c78a0c4e3",
       "title": "Amazon’s new plan for games: James Bond and AI Snoop Dogg",
@@ -9,6 +207,24 @@
       "source": "The Verge",
       "publishedAt": "2026-06-04T17:01:15.000Z",
       "contentHash": "73034de2fc0f"
+    },
+    {
+      "id": "0ff58aeba0a2",
+      "title": "Sagrada Família Lego set",
+      "url": "https://www.lego.com/en-us/product/sagrada-familia-21065",
+      "summary": "レゴの公式建築シリーズ「サグラダ・ファミリア（21065）」のミニチュア模型。ガウディの教会をレンガで再現したコレクタブルで、再現度や価格、デザインの是非についてHacker Newsで賛否が交わされていた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-04T16:25:20.000Z",
+      "contentHash": "63716b7ba424"
+    },
+    {
+      "id": "9e5e9682128d",
+      "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "summary": "Anthropic Instituteは、自己改善AI（Recursive Self-Improvement）を定義し、実現経路と障壁を分析。データ・計算・評価・アラインメントなどの技術的制約で急激な爆発的成長は起こりにくいが、部分的な能力向上やリスクは現実的とし、監視・ガバナンスと安全研究の強化を提言している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-04T16:20:17.000Z",
+      "contentHash": "e6518ded71ac"
     },
     {
       "id": "6aa5f650d12c",
@@ -59,10 +275,10 @@
       "id": "a4d71d7953ff",
       "title": "GPT-5・Claudeに迫る超巨大ローカルLLMまとめ",
       "url": "https://note.com/npaka/n/ndb5d275de74e",
-      "summary": "20–30B級では実務エージェントには不十分として、DGX Station GB300を前提に200B以上の超巨大ローカルLLMを紹介。Nemotron 3 Ultra、Qwen3-Coder-480B、MiniMax-M2、GLM-4.5/5などMoEでagentic推論・ツール利用・コーディングに強い候補を整理。",
+      "summary": "20B〜30Bでは実務エージェントは不十分とし、DGX Station GB300環境で動く200B以上の超巨大ローカルLLM（Nemotron3 Ultra、Qwen3-Coder-480B、MiniMax-M2、GLM系など）を比較。実務対応力と推論効率を重視。",
       "source": "npaka",
       "publishedAt": "2026-06-04T14:48:34.000Z",
-      "contentHash": "3493c5cb70b7"
+      "contentHash": "89bbf888263a"
     },
     {
       "id": "46321db628b1",
@@ -158,10 +374,10 @@
       "id": "258bee30f875",
       "title": "Codex の AGENTS.md 読み込みルールまとめ",
       "url": "https://note.com/npaka/n/ndb3b2ccfc879",
-      "summary": "CodexはAI向け指示書AGENTS.mdを作業前に読み込む。~/.codexやリポジトリ内のAGENTS.md/AGENTS.override.mdを階層順に結合して近い方を優先。ファイル名はフォールバック設定可、CODEX_HOMEで切替、codexコマンドで確認可能。",
+      "summary": "AGENTS.mdはAI向けの作業ルールファイル。Codexは~/.codex/AGENTS.mdやリポジトリ内のAGENTS.md/AGENTS.override.mdをルート→作業ディレクトリ順に結合して読み込み、近い上書きが優先。フォールバック名やCODEX_HOMEで設定を切替え、codexコマンドで有効ルールを確認できる。",
       "source": "npaka",
       "publishedAt": "2026-06-04T10:54:22.000Z",
-      "contentHash": "03ef963e724e"
+      "contentHash": "e71aa68751c2"
     },
     {
       "id": "67277520ec76",
@@ -531,6 +747,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-04T00:00:00.000Z",
       "contentHash": "160c9ef04d79"
+    },
+    {
+      "id": "32a436ff121f",
+      "title": "Biodefense in the Intelligence Age",
+      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "summary": "AIを活用して生物学的脅威への回復力を高める行動計画。予測・監視・実験設計・危険性評価にAIを導入し、規格・監督・人材育成・国際協力で安全性と透明性を確保する。",
+      "source": "OpenAI",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "contentHash": "b27e96306112"
     },
     {
       "id": "fc6895e7df27",
@@ -1067,10 +1292,10 @@
       "id": "5280bbad227a",
       "title": "NVIDIA Agent Skills の概要",
       "url": "https://note.com/npaka/n/n8115505c0eda",
-      "summary": "NVIDIA Agent Skillsは、AIエージェント向けにNVIDIA製ライブラリやツールの操作手順をまとめた再利用可能なスキル集。GitHub(nvidia/skills)で公開、skills CLIで導入。AI‑Q、CUDA‑Q、cuDF、cuOpt、DeepStream、Dynamo、Holoscan、医療AI(MONAI)、Megatron、NeMoなど多分野をカバー。",
+      "summary": "NVIDIA Agent Skillsは、AIエージェント向けにNVIDIA製ライブラリやツールの使い方を定義した再利用可能な手順集。GitHubで公開され、skills CLIで導入可能。AI‑Q、CUDA‑Q、cuDF、cuOpt、DeepStream、Dynamo、Holoscan、Medical AI、Megatron、NeMo等のスキルを含む。",
       "source": "npaka",
       "publishedAt": "2026-06-02T22:17:20.000Z",
-      "contentHash": "2aa4fe0cda8e"
+      "contentHash": "d181e5f954de"
     },
     {
       "id": "9cddf66bf599",
@@ -1337,10 +1562,10 @@
       "id": "ce021b3e95a1",
       "title": "TripoSplat による3Dモデル生成を試す",
       "url": "https://note.com/npaka/n/n7b2db4a017ff",
-      "summary": "TripoSplatは1枚の2D画像から3D Gaussian Splatting用データを生成するTripoAIのオープンソース（MIT）モデル。Ubuntu/Windows+WSL2、NVIDIA GPU（RTX3060推奨、VRAM8–12GB以上）、RAM16GB以上などが必要。Gradioで起動→画像をGenerateしてplyをダウンロードし、Gaussian VRMで表示して試した報告。",
+      "summary": "TripoSplatは1枚の2D画像から3D Gaussian Splatting用データを生成するTripoAIのMIT公開オープンソース。Ubuntu/Windows+WSL2、NVIDIA GPU（VRAM8–12GB以上）等が必要。gradioで起動→画像をGenerateしsplat.plyを出力、Gaussian VRMで動かせる。",
       "source": "npaka",
       "publishedAt": "2026-06-02T07:50:51.000Z",
-      "contentHash": "927436c1f553"
+      "contentHash": "d4348f1e3eee"
     },
     {
       "id": "f4e0423d66a1",
@@ -1589,10 +1814,10 @@
       "id": "10845ea96e17",
       "title": "How we used Gemini to build Google I/O 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-      "summary": "Google社員がAIを活用し、Google I/O 2026の企画・脚本作成、映像編集、ライブ配信、字幕など制作工程を自動化・効率化して、制作速度・品質・アクセシビリティを高めた事例を紹介。",
+      "summary": "GoogleはGeminiなど生成AIを活用し、クラゲのプレショーや「TPU Training Day」映像などの制作を通じて、Google I/O 2026の体験と発表をAIで支えたと報告している。",
       "source": "Gemini",
       "publishedAt": "2026-06-01T16:00:00.000Z",
-      "contentHash": "8db881a02c95"
+      "contentHash": "383a71a98409"
     },
     {
       "id": "5adf281bf2f9",
@@ -2912,10 +3137,10 @@
       "id": "b1eb05743ee0",
       "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
-      "summary": "Google I/O 2026で発表されたGemini OmniとGemini 3.5の機能を紹介する9本の動画をまとめて紹介・視聴できる記事。",
+      "summary": "Google I/O 2026で発表された新モデル、Gemini OmniとGemini 3.5の9つのデモ紹介。Omniは推論力と創造力を融合、Gemini 3.5は複雑なエージェント的ワークフローの実行に特化。",
       "source": "Gemini",
       "publishedAt": "2026-05-29T17:30:00.000Z",
-      "contentHash": "9782022b2eff"
+      "contentHash": "1b8531ab20a8"
     },
     {
       "id": "508119bec856",
@@ -3650,10 +3875,10 @@
       "id": "37ff2c4c3b92",
       "title": "Catch up on 12 major I/O 2026 moments",
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
-      "summary": "Google I/O 2026基調講演の12大ハイライト。Gemini OmniやGemini 3.5 Flashなどの新発表を含み、AI機能やデバイス・ソフトの最新動向と今後の展望が示された。",
+      "summary": "Google I/O 2026の12の主要発表を総覧。Gemini Omniなどの新生成AIモデルの披露、Searchのアップデートや技術的ブレークスルーなど注目のオンステージ発表を紹介。",
       "source": "Gemini",
       "publishedAt": "2026-05-28T15:00:00.000Z",
-      "contentHash": "05e336cf2ee6"
+      "contentHash": "2bcfb3dd9346"
     },
     {
       "id": "2aa7e747964e",
@@ -6890,10 +7115,10 @@
       "id": "492f3d281a57",
       "title": "100 things we announced at I/O 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
-      "summary": "I/O 2026での主要な発表、製品ローンチ、デモの要点をまとめた報告です。注目トピックや新機能、実演の概要を手短に紹介しています。",
+      "summary": "Google I/O 2026で新モデル、エージェント、ツールを多数発表。目玉は高性能で高速な「Gemini 3.5 Flash」で、Google Antigravity、Gemini API、AI Studio、Android Studioで利用可能。100のハイライトも公開。",
       "source": "Gemini",
       "publishedAt": "2026-05-20T19:30:00.000Z",
-      "contentHash": "5b0f24e7c005"
+      "contentHash": "386507f88b81"
     },
     {
       "id": "bf40d911137c",
@@ -7691,55 +7916,55 @@
       "id": "306170b3d62c",
       "title": "Making it easier to understand how content was created and edited",
       "url": "https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/",
-      "summary": "ウェブ上のコンテンツがどのように作成・編集されたかを理解するためのツールを拡充しています。",
+      "summary": "生成メディアの普及を受け、Googleはコンテンツの出所や編集履歴を分かりやすくするため、Search、Gemini、Chrome、Pixel、Cloudなどで透明性と検証ツールを拡充します。",
       "source": "Gemini",
       "publishedAt": "2026-05-19T17:45:00.000Z",
-      "contentHash": "24bea86a814c"
+      "contentHash": "6dedb7c4f790"
     },
     {
       "id": "7d08c741602c",
       "title": "I/O 2026",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
-      "summary": "Google I/O 2026で、AIを誰にとってもより役立つものにする取り組みや新機能を発表しました。発表された内容の全貌をまとめて紹介しています。",
+      "summary": "Google I/O 2026でGemini OmniとGemini 3.5を発表。Omniは動画を含む任意入力から生成・編集、3.5は行動可能な高性能モデル。Agent-firstのAntigravityでエージェント化を進め、SearchやGeminiアプリ、Universal Cartなど製品横断でGeminiを拡大。",
       "source": "Gemini",
       "publishedAt": "2026-05-19T17:45:00.000Z",
-      "contentHash": "b02d65a0f2b5"
+      "contentHash": "44f04e6746c6"
     },
     {
       "id": "abf74475285f",
       "title": "Introducing Gemini Omni",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
-      "summary": "Gemini Omniの紹介。あらゆる入力から任意のコンテンツを生成でき、会話のような自然な言葉で編集・修正できるAIツールです。",
+      "summary": "GoogleはマルチモーダルAI「Gemini Omni」を発表。画像・音声・動画・文章など任意の入力から高品質な動画を生成し、対話で編集可能。初版「Gemini Omni Flash」をGeminiアプリ、Google Flow、YouTube Shortsで提供。",
       "source": "Gemini",
       "publishedAt": "2026-05-19T17:45:00.000Z",
-      "contentHash": "91e19d2f3c35"
+      "contentHash": "bde133c5401b"
     },
     {
       "id": "f3054c38c05b",
       "title": "I/O 2026: Welcome to the agentic Gemini era",
       "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
-      "summary": "Google I/Oの最新発表：AI「Gemini」を活用し、より多くの作業を効率的にこなせるようにする新機能や活用例、提供計画を紹介。",
+      "summary": "Google I/O 2026でのSundar Pichai氏の講演まとめ。ジェミニの「エージェント化」時代到来を宣言し、会話型AI、インフラ強化、ジェミニモデルやエージェント機能などで生産性向上を目指す新発表群を紹介。",
       "source": "Gemini",
       "publishedAt": "2026-05-19T17:45:00.000Z",
-      "contentHash": "388d38aed38f"
+      "contentHash": "23c2ecf6afbd"
     },
     {
       "id": "64d3b9098e0e",
       "title": "Gemini 3.5: frontier intelligence with action",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-      "summary": "GoogleはGoogle I/Oで、最先端の知能と行動実行を組み合わせた新シリーズ「Gemini 3.5」を発表しました。",
+      "summary": "Gemini 3.5は複雑なエージェント的ワークフローを実行するフロンティア級AI。高速処理、大規模エージェント対応、リッチなグラフィックス、実世界応用や個人AI対応を最先端の安全対策で提供開始。",
       "source": "Gemini",
       "publishedAt": "2026-05-19T17:45:00.000Z",
-      "contentHash": "bcc59c1c82b9"
+      "contentHash": "446a2c0144f7"
     },
     {
       "id": "a7d7ffa87c3e",
       "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
       "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
-      "summary": "Gemini for Scienceは、科学探究の規模と精度を拡大するために設計された、新しい科学ツールと実験の集まりです。",
+      "summary": "Googleは「Gemini for Science」の一環で、Google Antigravityの新しいScience SkillsとGoogle Labsの実験ツール（Co‑Scientist、AlphaEvolve、Empirical Research Assistance、NotebookLM）を発表し、科学的方法の主要工程を加速して発見を支援する。",
       "source": "Gemini",
       "publishedAt": "2026-05-19T17:45:00.000Z",
-      "contentHash": "67bbf3ea74c0"
+      "contentHash": "827c7e4b7d99"
     },
     {
       "id": "2c817b76f70b",
@@ -8775,231 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-05-17T21:15:28.000Z",
       "contentHash": "2a2493db715c"
-    },
-    {
-      "id": "34b2eaa291e8",
-      "title": "VoIP brings back old-fashioned pay phones to rural Vermont (2025)",
-      "url": "https://spectrum.ieee.org/payphone-voip",
-      "summary": "消えゆく公衆電話をVoIP化して延命する試みを紹介する記事。技術的手法や運用コスト、法規制、緊急通報対応やデジタル格差への影響、保存と実用化のジレンマと実例を論じる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-17T19:39:10.000Z",
-      "contentHash": "c10977be4f19"
-    },
-    {
-      "id": "df560ca46ada",
-      "title": "Revamped Siri will reportedly offer autodeleting chats",
-      "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
-      "summary": "BloombergのMark Gurmanによれば、iOS 27でチャット型に強化されるSiriは会話の自動削除機能を搭載。会話は30日／1年／無期限で保存を選べ、AppleはプライバシーをAI差別化の軸に据える一方、内部でGoogleのGemini技術を用いる。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-17T18:40:28.000Z",
-      "contentHash": "600463b1b7e1"
-    },
-    {
-      "id": "d52a1a4c055f",
-      "title": "EU weighs restricting use of US cloud platforms to process government data",
-      "url": "https://www.osnews.com/story/144943/eu-weighs-restricting-use-of-us-cloud-platforms-to-process-sensitive-government-data/",
-      "summary": "EUがAWS/GCP/Azureなど米国クラウドを使った機密性の高い政府データ処理を制限する案を検討中。米国の諜報アクセスや法的リスクを懸念し、欧州独自のクラウド整備や例外・移行措置を議論、主要事業者や各国対応に影響が及ぶ見込み。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-17T17:29:38.000Z",
-      "contentHash": "685ab64abc27"
-    },
-    {
-      "id": "e76ea613258e",
-      "title": "University of Arizona students boo Eric Schmidt’s AI cheerleading during commencement",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
-      "summary": "元Google CEOエリック・シュミットがアリゾナ大学の卒業式でAIについて演説した際、学生に繰り返しブーイングされた。雇用や気候などの不安を「合理的」と認めつつ苛立ちを示し、昨年の性暴行疑惑への抗議もあった。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-17T17:22:23.000Z",
-      "contentHash": "afb9415168ca"
-    },
-    {
-      "id": "02ba21ce1b82",
-      "title": "Meta deletes popular 1M follower account after Kuwaiti request",
-      "url": "https://twitter.com/ryangrim/status/2055992439031185782",
-      "summary": "すみません、外部URLの内容を直接取得できません。記事（ツイートとHNの議論）の本文やスクリーンショットを貼っていただければ、200文字以内で日本語に要約します。貼れない場合は、要約に使ってほしいポイントを教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-17T17:10:48.000Z",
-      "contentHash": "9f04864fc23d"
-    },
-    {
-      "id": "c3ddb50ed504",
-      "title": "The occasional ECONNRESET",
-      "url": "https://movq.de/blog/postings/2026-05-05/1/POSTING-en.html",
-      "summary": "同一マシンの2サービス。サーバがlocalhostで待ち受け、接続ごとに60万バイト送出。クライアントは受信中に時折ECONNRESETを受け、--spam（先に送信）で再現。RSTはサーバ由来でsendtoは全送信成功を返しプロセスは終了した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-17T17:09:36.000Z",
-      "contentHash": "b9594194b93a"
-    },
-    {
-      "id": "952ef2f03c27",
-      "title": "At least 25 Flock cameras have been destroyed in five states since April 2025",
-      "url": "https://stateofsurveillance.org/news/flock-cameras-destroyed-nationwide-ice-backlash-2026/",
-      "summary": "報道によれば、Flock Safetyの自動ナンバープレート読み取りカメラが、ICEへのデータ提供が明らかになったことへの抗議として全米で多数破壊された。個人情報保護と当局利用を巡る議論が再燃している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-17T17:09:15.000Z",
-      "contentHash": "49d37da2019f"
-    },
-    {
-      "id": "55c13bb333f5",
-      "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
-      "url": "https://github.com/MinishLab/semble",
-      "summary": "Sembleはエージェント向けの高速高精度コード検索ライブラリ。grep+readより約98%少ないトークンで、リポジトリ索引約250ms・検索約1.5ms、CPUのみで動作し、MCPサーバーやbashで利用可。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-17T15:37:07.000Z",
-      "contentHash": "718fc3345bfe"
-    },
-    {
-      "id": "a0669eee4de6",
-      "title": "「象・死んだ魚・嘔吐」を試して気づかされた——手法の前に必要なもの  | 弁護士ドットコム株式会社 Creators’ blog",
-      "url": "https://creators.bengo4.com/entry/2026/05/18/000000",
-      "summary": "チームで「象・死んだ魚・嘔吐」振り返りを試し、認識齟齬や会議の沈黙、技術的負債など普段出にくい課題が出た。評価は概ね好評だが効果に差あり。心理的安全性と認識合わせの姿勢が先に必要だと分かった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-17T15:00:00.000Z",
-      "contentHash": "f28a0494c287"
-    },
-    {
-      "id": "bcee8195e0b2",
-      "title": "【悲報】Gemini、GQuuuuuuXを知らない | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/e233abdb478c70",
-      "summary": "プライベートのGeminiが「GQuuuuuuX」を存在しないと誤認したが、実際は公式作品（ジークアクス）。原因はトークン分割やハルシネ抑制などの可能性。命名はAIに認識される設計や構造化データ（AEO/LLMO）対応が必要、という備忘録。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-17T14:44:05.000Z",
-      "contentHash": "5067b787fb45"
-    },
-    {
-      "id": "a6f260c5a0fa",
-      "title": "Oddity is masterfully tense horror from the director of Hokum",
-      "url": "https://www.theverge.com/entertainment/932179/oddity-damian-mccarthy-horror-movie-hokum",
-      "summary": "ダミアン・マッカーシー監督の前作『Oddity』は、アイルランドの田園で呪われた物や孤立の恐怖を描く緊張感あるホラー。HooplaやKanopy、Hulu、Shudderで配信中。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-17T14:00:00.000Z",
-      "contentHash": "dae891f44b35"
-    },
-    {
-      "id": "7a33985d2894",
-      "title": "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit",
-      "url": "https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html",
-      "summary": "セキュリティ研究者が、MicrosoftがBitLockerに秘密の「バックドア」的な復号経路を組み込み、実証コードを公開したと主張。Microsoftは企業向けの回復キー管理機能だと説明し、プライバシーと安全性を巡り論争になっている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-17T13:42:30.000Z",
-      "contentHash": "865794271f6a"
-    },
-    {
-      "id": "11d42f8ee75f",
-      "title": "WHO declares Ebola outbreak a global health emergency",
-      "url": "https://www.nytimes.com/2026/05/17/world/africa/ebola-congo-uganda-who-public-health-emergency.html",
-      "summary": "申し訳ありませんが、外部サイトのページを直接取得できません。記事本文を貼っていただければ、200文字以内で日本語要約を作成します。必要ならHNのコメントもまとめます。どちらを貼りますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-17T13:22:14.000Z",
-      "contentHash": "ceb1a6abbab2"
-    },
-    {
-      "id": "3961cd84aa78",
-      "title": "プロジェクトマネジメントするときのテンプレとルーティンを紹介します | レバテック開発部のフィード",
-      "url": "https://zenn.dev/levtech/articles/pjm-rutine-and-template",
-      "summary": "プロジェクト開始時のテンプレとルーティンを紹介。プロジェクトフォルダ、ルートドキュメント、議事録、進捗報告、プロマネメモ、タスク一覧、ガントチャートを用意。週15分の定例（クライアント・リーダー）、週一以上のタスク/スケジュール更新、長期は月次報告で頻繁にガントを更新し課題共有で前進させる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-17T13:18:16.000Z",
-      "contentHash": "238ff23b5240"
-    },
-    {
-      "id": "ba5a601a33a4",
-      "title": "Codex + Agent Sprite Forge で格闘ゲームの作成を試す",
-      "url": "https://note.com/npaka/n/n4fb9fa7428e1",
-      "summary": "npakaがCodexとAgent Sprite Forgeで2人対戦格闘ゲームを作成した報告。Agent Sprite Forge導入、game.jpg/character.png準備、Vite+TypeScript+Phaserで制作、$generate2dsprite（256×256）でスプライト生成、PLAN.mdで設計、調整・タイトル・勝利画面・カットインを追加して完成。",
-      "source": "npaka",
-      "publishedAt": "2026-05-17T13:11:51.000Z",
-      "contentHash": "25f8fdde236f"
-    },
-    {
-      "id": "2d7e9f8cee7b",
-      "title": "AI is a technology not a product",
-      "url": "https://daringfireball.net/2026/05/ai_is_technology_not_a_product",
-      "summary": "グルーバーは、ワイヤードの「AppleはキラーAI製品を出すべき」論を否定。Appleは技術自体を売るのではなく製品・体験を重視し、AIも既存の積み上げで対応すべきだと擁護する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-17T13:11:20.000Z",
-      "contentHash": "c00f6b13e16f"
-    },
-    {
-      "id": "0df48672d796",
-      "title": "Fujifilm’s X Half is even more whimsical with a $300 price cut",
-      "url": "https://www.theverge.com/gadgets/928204/fujifilm-x-half-digital-camera-deal-sale",
-      "summary": "富士フイルムのデジカメ「X Half」が値下げ中。MSRP $649.99からさらに$100引きで約$549に（Amazon、B&H、Best Buy）。Adoramaは64GB SDとケース付き。6月28日まで。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-17T13:00:00.000Z",
-      "contentHash": "9cd113b15f20"
-    },
-    {
-      "id": "bd460b42c973",
-      "title": "ElliQ is a surprisingly helpful companion robot for older adults",
-      "url": "https://www.theverge.com/gadgets/928806/elliq-intuition-robotics-hands-on",
-      "summary": "高齢者向けコンパニオンロボットElliQが、パーキンソン病の母に運動や趣味、交流を再開させ、薬を増やす前の生活改善に貢献。著者は予想外の効果に救われた。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-17T13:00:00.000Z",
-      "contentHash": "b8a79e16661b"
-    },
-    {
-      "id": "5759f566b40b",
-      "title": "I don't think AI will make your processes go faster",
-      "url": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
-      "summary": "著者はAIで業務が速くなるという期待に懐疑的。『トヨタの流儀』『ザ・ゴール』を再読し、プロセス最適化は単純化や視覚的ボトルネックの誤認が多く、本質的な制約に注目すべきと論じる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-17T12:13:45.000Z",
-      "contentHash": "e51cbbea1a19"
-    },
-    {
-      "id": "aaad9e3f93e7",
-      "title": "Apple Silicon costs more than OpenRouter",
-      "url": "https://www.williamangel.net/blog/2026/05/17/offline-llm-energy-use.html",
-      "summary": "M5搭載Macは電気代は安く（約$0.02/時）ても本体償却を入れると1時間当たり$0.05–0.16に。10–40 tpsで1Mトークン当たり約$1.6–$4.8。OpenRouterは同等モデルで価格は約1/3、速度は約2倍で安価。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-17T12:09:23.000Z",
-      "contentHash": "dfc063d98fed"
-    },
-    {
-      "id": "3859474e0457",
-      "title": "Chatbots at the drive-thru are just the beginning",
-      "url": "https://www.theverge.com/column/928096/chatbots-ai-drive-thru-mcdonalds-wendys",
-      "summary": "ドライブスルーのチャットボットはAIの生活浸透の始まりを示し、2021年にマクドナルドが先駆け。注文の自動化が顧客体験や雇用に影響を与える可能性がある、という内容。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-17T12:00:00.000Z",
-      "contentHash": "da9d2ee2bac6"
-    },
-    {
-      "id": "62eb1e71f443",
-      "title": "Native all the way, until you need text",
-      "url": "https://justsitandgrin.im/posts/native-all-the-way-until-you-need-text/",
-      "summary": "20年のmacOS/iOS開発者がSwift/SwiftUIでMarkdownチャットを作ろうとしたが、選択やTextKit/AppKitとの統合、ストリーミングで次々問題に直面。多くのネイティブ実装が未成熟で、結局WebKitでのレンダリングが性能・表示面で現実的だった。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-17T11:49:46.000Z",
-      "contentHash": "ca73c96ff4e2"
-    },
-    {
-      "id": "5de009b4502e",
-      "title": "Every AI Subscription Is a Ticking Time Bomb for Enterprise",
-      "url": "https://www.thestateofbrand.com/news/ai-subscription-time-bomb",
-      "summary": "OpenAIやAnthropicなどのAI各社は、意図的に企業向けサービスを赤字で提供している。サブスク価格は実際の提供コストを大きく下回り、価格是正が起きれば企業のAIコストは急増するリスクがある（Claude ProやGitHub Copilotの例）。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-17T11:49:31.000Z",
-      "contentHash": "30faacc99726"
-    },
-    {
-      "id": "779c7f782f53",
-      "title": "MacTexのセットアップ方法 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/b6c8a670a3d65c",
-      "summary": "MacTeXはmacOS向けTeXディストリ。Homebrewで brew install --cask mactex を実行しターミナル再起動、pdflatexで動作確認。VS CodeにLaTeX Workshopを入れ、hoge.texを作成して latexmk -lualatex でPDFを生成します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-17T11:24:20.000Z",
-      "contentHash": "fb5751c9cc57"
-    },
-    {
-      "id": "2be6264b1387",
-      "title": "Claude Opus 4.7 が「扱いづらい」と感じる理由 — Claude Code のバグと 4.7 の特性 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/05/17/190000",
-      "summary": "Claude Opus 4.7 が扱いづらい理由は二層構造。第一層はClaude Codeの3つのバグ／設定ミスで v2.1.116 で修正。第二層はモデル特性の変化（トークン増、意図読み不足など）で使用法変更が必要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-17T10:00:00.000Z",
-      "contentHash": "4b0a9ab12003"
     }
   ]
 }
