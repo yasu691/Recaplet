@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-06-05T18:13:10.022Z",
+  "generatedAt": "2026-06-06T04:10:31.597Z",
   "items": [
+    {
+      "id": "6f7c47fd43a8",
+      "title": "Google Colab CLI を試す",
+      "url": "https://note.com/npaka/n/n3ad5e2331e00",
+      "summary": "Google Colab CLIは、ローカル端末からColab VMを作成・操作できるCLIツール。ランタイムの開始/停止、PythonやNotebook実行、GPU/TPU指定、ファイル操作、Driveマウント、パッケージ導入などをサポート（Linux/macOS対応）。インストールと主要コマンド例を紹介。",
+      "source": "npaka",
+      "publishedAt": "2026-06-06T00:54:08.000Z",
+      "contentHash": "9398d2f6ecc4"
+    },
+    {
+      "id": "49a188037d49",
+      "title": "More than a decade later, the team behind N++ is back with a multiplayer sequel",
+      "url": "https://www.theverge.com/entertainment/943194/metanet-n-plus-plus-multiplayer-sequel",
+      "summary": "2015年の高難度2Dアクション『N++』を手掛けた少人数スタジオが続編『N Plus Infinity Times Two』を発表。2027年発売予定で、マルチプレイ重視の“バーチャルカウチパーティー”を目指す。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-05T23:25:34.000Z",
+      "contentHash": "06affce9fef2"
+    },
+    {
+      "id": "aa212b2a6a29",
+      "title": "Grand Theft Auto VI is warping the video game release calendar",
+      "url": "https://www.theverge.com/entertainment/944229/grand-theft-auto-6-release-calendar-summer-game-fest",
+      "summary": "GTA VIの11月発売が影響し、11月はほぼ空白になる一方で、秋は主要タイトルが集中して混雑している。例：Wolverine（9/15）、Dune（9/22）、Control／Silent Hill（9/24）等。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-05T23:05:27.000Z",
+      "contentHash": "63cb086dc1a4"
+    },
+    {
+      "id": "f60fa7e15b8f",
+      "title": "Final Fantasy VII&#8217;s remake trilogy will conclude with Revelation",
+      "url": "https://www.theverge.com/games/939396/final-fantasy-vii-revelation-remake-trilogy-third-game-announcement",
+      "summary": "スクウェニがリメイク三部作最終作『FFVII Revelation』を発表。2027年春にPC/PS5/Xbox Series/Switch2で同時発売。ハイウィンドでの飛行やオープンワールド着地、ヴィンセントとシドの操作、巨大ウェポン戦、FITSというジョブ風装備を搭載。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-05T22:52:06.000Z",
+      "contentHash": "674e57964029"
+    },
+    {
+      "id": "48b05a46547b",
+      "title": "Qwen3-TTS の音声クローンを試す",
+      "url": "https://note.com/npaka/n/nda90baec71aa",
+      "summary": "Qwen3-TTSの音声クローン解説。参照音声（3〜15秒、単一話者・低ノイズ）とその文字起こし(ref_text)を用意し、Baseモデル(0.6B/1.7B)でクローンする。0.6Bは軽量、1.7Bは高品質。Pythonでの導入・生成コード例あり。",
+      "source": "npaka",
+      "publishedAt": "2026-06-05T22:10:11.000Z",
+      "contentHash": "0ad754455537"
+    },
+    {
+      "id": "1da61d0662ec",
+      "title": "Gemma 4 QAT の概要",
+      "url": "https://note.com/npaka/n/ndeef4df16dd2",
+      "summary": "2026年6月5日、量子化対応学習（QAT）で最適化された「Gemma 4 QAT」が公開。モバイル/エッジ向けにメモリを大幅削減（E2Bは約1GB、テキスト専用は1GB未満）しつつ品質を維持。静的アクティベーション、チャネル量子化、部分的2ビット圧縮、埋め込みやKVキャッシュ最適化を導入。Hugging Faceやllama.cppなどで入手・実行可能。",
+      "source": "npaka",
+      "publishedAt": "2026-06-05T20:48:59.000Z",
+      "contentHash": "38597a66ceab"
+    },
+    {
+      "id": "f1d42a88acb6",
+      "title": "Summer Game Fest Live 2026: The biggest news, trailers, and announcements",
+      "url": "https://www.theverge.com/games/939484/summer-game-fest-live-2026-biggest-news-trailers-announcements",
+      "summary": "Geoff KeighleyのSummer Game Fest Live 2026で多数の発表。FFVIIリメイク三部作の完結作「Revelation」や続編「Control Resonant」、Stranger Than HeavenのTupac登場、Palworldの7/1正式版発表など。開発各社はGTA VI回避で2027年リリースを多く並べている。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-05T20:40:00.000Z",
+      "contentHash": "16cc10213edb"
+    },
     {
       "id": "4dcab8004c8f",
       "title": "The Sonos Era 100 speaker is down to its lowest price in months",
@@ -104,10 +167,10 @@
       "id": "714b49b30165",
       "title": "YOUTRUSTのフロントエンドをREGO化した話 | YOUTRUST Tech Blog",
       "url": "https://tech.youtrust.co.jp/entry/2026/06/05/211546",
-      "summary": "2026-06-05｜YOUTRUSTのフロントエンドをREGOに移行した話。レスポンシブなパディング設定や段落・リストの行間・余白調整、見出し装飾などCSSによる表示改善を解説。",
+      "summary": "YOUTRUSTのREGOは2024年3月に始まった独自のデザインシステムで、ボタンやダイアログ等のUIコンポーネントを統一提供する取り組み。執筆はREGOエンジニアの中谷。名前の由来は入社して確認を。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-05T12:15:46.000Z",
-      "contentHash": "27324274b5d3"
+      "contentHash": "535b1e20eeda"
     },
     {
       "id": "5b6fc817d6e4",
@@ -122,19 +185,19 @@
       "id": "476caedeb9e5",
       "title": "『AI Engineering Summit Tokyo 2026』 にSilverスポンサーとして出展します！ | kubell Creator's Note",
       "url": "https://creators-note.chatwork.com/entry/2026/06/05/200657",
-      "summary": "kubell（旧Chatwork）は6月8日開催のAI Engineering Summit Tokyo 2026にSilverスポンサー出展。6/8はブース出展と上田隼也が11:20〜ROOM DでAI開発のベストプラクティスを講演。会場でAIスキル診断やChatwork絵文字付箋配布、採用・中小企業の生産性向上に関心ある来場者を歓迎。",
+      "summary": "kubell（旧Chatwork）は、2026年6月8〜9日のAI Engineering Summit Tokyo 2026にSilverスポンサーとして参加します。ブースと登壇は6月8日（9:15〜18:20、懇親会18:40〜20:40）、会場は浜松町コンベンションホール＆Hybridスタジオ。対象はAIエージェントに関わるエンジニアや責任者です。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-05T11:06:57.000Z",
-      "contentHash": "a321ea8cb69e"
+      "contentHash": "c5ba244c7295"
     },
     {
       "id": "ede9d9eff6e9",
       "title": "Claude Code トークン枯渇問題と最適化戦略 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
       "url": "https://recruit.group.gmo/engineer/jisedai/blog/claude-code-token-optimization/",
-      "summary": "2026年、Claude Codeのトークン消費増で5時間ごとのRate Limitに達し作業が止まる問題が発生。対策は①Claudeを使わずCodex等へ分散②文章を短く単純化（genshijin/serena）③ネイティブ機能で消費抑制（effort=auto等）。並列セッション増加が主因。",
+      "summary": "D.M.の記事。2026年6月時点でAIエージェント開発は進展する一方、Claudeのトークン消費が激しく$100のClaude Maxでも数時間で枯渇する問題を挙げ、トークン節約や最適化戦略を解説する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-05T11:02:56.000Z",
-      "contentHash": "c9497e99a23b"
+      "contentHash": "7afee7f5b379"
     },
     {
       "id": "f8a986e51d16",
@@ -149,55 +212,55 @@
       "id": "c8c45c6b84be",
       "title": "Reader Store開発チームでのAI活用についてご紹介 | booklista tech blog",
       "url": "https://techblog.booklista.co.jp/entry/2026/06/05/190124",
-      "summary": "Reader Store開発チームは半年前にClaude Codeを導入し、AI前提の開発が定着。週1回の改善時間でCLAUDE.mdや運用ルール、共有プラグイン（TDD支援のRed/Green/Refactor等）を整備し、コーディング含む多くの業務でAIを活用している。",
+      "summary": "ブックリスタの長塚氏は、Reader Store開発チームが半年前にClaude Codeを導入して以降、多くの開発者が直接コーディングせずAIと協働する体制になり、開発や執筆などほぼ全業務でAIを活用していると報告。またブログ執筆ではAIを執筆コーチとして利用している。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-05T10:01:24.000Z",
-      "contentHash": "c0f34bdace7e"
+      "contentHash": "847dd5ab2ce8"
     },
     {
       "id": "6ebed1975c91",
       "title": "AI-DLCワークショップ | コラボスタイル Developersのフィード",
       "url": "https://zenn.dev/collabostyle/articles/44683d0dd579a8",
-      "summary": "社内でAI-DLCワークショップを開催。生成AIのコスト対策やモデル使い分け、プロンプトの共通化を重視。epic単位で設計→チケット分割し、必要時のみモブで集約。AIにはエビデンスとスコアリングを求め、人は目的設定・評価軸・最終判断に集中する。",
+      "summary": "社内でサイバーエージェント小西さんを招きAI-DLCワークショップを開催。事前アンケートを基にQ&A形式で課題を議論し、生成AIの展望やGitHub Copilotの従量課金化などを共有した。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-05T09:23:58.000Z",
-      "contentHash": "5308b6199516"
+      "contentHash": "2f27d788fd77"
     },
     {
       "id": "1ee9ac98e734",
       "title": "ビジュアリゼーションレクチャー実施レポート｜伝わるパースの考え方 | vicc blog",
       "url": "https://blog.vicc.jp/entry/maeda-visualization-lecture",
-      "summary": "前田建設で若手向けに行った「伝わるパース」講義報告。表現技術より制作プロセスとコミュニケーション整理が重要で、早期に完成イメージを共有しMiroで情報を集約。光・人物配置・奥行きを意図的に編集し、設計意図を伝え意思決定を促進する、という内容です。",
+      "summary": "前田建設工業の若手向け「伝わるパースのつくり方」レクチャーの要点。表現技術に加え制作プロセスや情報集約の重要性を説き、クオリティ向上のための具体的な3つのチェックポイントを示す。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-05T09:00:00.000Z",
-      "contentHash": "96e640f2fc22"
+      "contentHash": "a57afdd2698f"
     },
     {
       "id": "92d5964c7ad6",
       "title": "Amazon BedrockでOpenAI GPT5.5とGPT5.4がサポートされたので試してみた | Fusic 技術ブログのフィード",
       "url": "https://zenn.dev/fusic/articles/1e0172548196d0",
-      "summary": "2026年6月、Amazon BedrockでOpenAIのGPT-5.5（us-east-2）とGPT-5.4（us-east-2, us-west-2）が一般提供。Bedrock経由でIAMやCloudTrail、請求統合が可能。GPT-5.5はbedrock-mantleのopenai/v1/responsesで呼び出し、APIキーとOpenAI SDKを使うPython例を紹介。",
+      "summary": "Fusicのレオナです。2026年6月、OpenAIのGPT-5.5/5.4がAmazon Bedrockで一般提供開始。従来のgpt-ossに加えフロンティアモデルがBedrock経由で利用可能になり、IAMやCloudTrailなど既存のAWS環境へ統合しやすくなった重要なアップデートです。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-05T08:45:39.000Z",
-      "contentHash": "a00249b7166f"
+      "contentHash": "b4faaf972df0"
     },
     {
       "id": "1d94823f3bfe",
       "title": "Rails: html_safeを避けて、tagヘルパーやsafe_join、sanitizeを使おう（翻訳） | TechRacho",
       "url": "https://techracho.bpsinc.jp/hachi8833/2026_06_05/157917",
-      "summary": "Railsでhtml_safeを使うと組み込みのXSS保護を無効化して危険。代わりに、要素生成はtagヘルパー、配列結合はsafe_join、ユーザー入力のHTMLはsanitizeを使い、デフォルト設定を安易に緩めないこと。",
+      "summary": "テンプレート外で文字列を結合してhtml_safeに頼るのは危険。RailsではTag Helpers、safe_join、sanitizeを使い、XSSなどの脆弱性を防ぐべき、というAndy Crollの記事翻訳。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-05T08:30:02.000Z",
-      "contentHash": "e2aed9a085ab"
+      "contentHash": "961afa10ea63"
     },
     {
       "id": "7039d60d98c2",
       "title": "『コンテキストスイッチを減らして、集中できる時間をつくる』から約2か月。実際どうだったのか振り返ってみた | ENECHANGE Developer Blog",
       "url": "https://tech.enechange.co.jp/entry/2026/06/05/171904",
-      "summary": "スクラムの計画・振り返りを水曜に集約して2か月運用。チームのリズムは定着し計画が立てやすくなったが、顧客対応や緊急タスクでの切替は残る。非急の相談は水曜にまとめ、リリースは火曜朝に集約。会議集約だけでは不十分で関係者連携が今後の課題。",
+      "summary": "ENECHANGEのエンジニアリングマネージャー川野邉が、コンテキストスイッチを減らすため分散していたスクラムイベント（計画・振り返り）を水曜に集約し週の起点にする取り組みを実施。約2か月運用した結果の良点と課題を振り返る。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-05T08:19:04.000Z",
-      "contentHash": "c4c3d6a44406"
+      "contentHash": "45db9c93e5a4"
     },
     {
       "id": "e19033500c02",
@@ -212,10 +275,10 @@
       "id": "eaec0456e610",
       "title": "Codex の プラグイン と スキル の関係まとめ",
       "url": "https://note.com/npaka/n/n8db0d21b3ad8",
-      "summary": "CodexではPluginが配布・インストール単位（必須はplugin.json）で、複数のSkill（作業手順）やApp integration（外部接続設定）、MCP設定、hooks、assetsを含められる。Skillは再利用可能なワークフローで、Plugin有効化で必要時に読み込まれる。",
+      "summary": "CodexではMarketplaceがプラグインのカタログ、Pluginが配布・インストール単位、Skillが実際の作業手順。Pluginは複数のSkillやApp integration、MCP設定、hooks、assets等を含み、Codexは必要時にSkill本体を読み込む。",
       "source": "npaka",
       "publishedAt": "2026-06-05T01:51:43.000Z",
-      "contentHash": "cfd3a4052c89"
+      "contentHash": "7c522da1f5bc"
     },
     {
       "id": "239872c2d7db",
@@ -284,10 +347,10 @@
       "id": "da319cd609b6",
       "title": "ChatGPTのメモリは「メモ」から「文脈理解」へ",
       "url": "https://note.com/npaka/n/n1316728e7725",
-      "summary": "OpenAIはChatGPTのメモリを「Saved memories」から自動で履歴を整理・合成する新アーキテクチャ「Dreaming V3」へ進化させた。文脈継続、利用者の好みや制約の反映、時間経過に伴う更新を重視し、まずPlus/Pro向けに提供開始する。",
+      "summary": "OpenAIはChatGPTのメモリを保存中心から「文脈理解」へ進化させる新アーキテクチャ（Dreaming V3）を発表。会話履歴を自動整理して継続的な前提、好みの反映、時間経過での更新を実現し、まずPlus/Pro向けに提供、順次拡大予定。",
       "source": "npaka",
       "publishedAt": "2026-06-04T23:50:31.000Z",
-      "contentHash": "e180c331f740"
+      "contentHash": "73e485befc7e"
     },
     {
       "id": "60491e4a4c02",
@@ -500,10 +563,10 @@
       "id": "a4d71d7953ff",
       "title": "GPT-5・Claudeに迫る超巨大ローカルLLMまとめ",
       "url": "https://note.com/npaka/n/ndb5d275de74e",
-      "summary": "実務向けAIエージェントは20〜30Bでは力不足。DGX Station GB300を前提に200B以上の超巨大ローカルLLM（Nemotron 3 Ultra、Qwen3‑Coder‑480B、MiniMax‑M2、GLM‑4.5/5等）を比較し、agentic reasoning、長文コンテキスト、ツール利用やコーディング適性を重視する。",
+      "summary": "20B〜30B級では実務エージェントは限界があり、DGX Station GB300を前提に200B以上の超巨大ローカルLLM（Nemotron 3 Ultra、Qwen3-Coder-480B、MiniMax-M2、GLM-4.5/5等）を、エージェント能⼒と推論効率重視で比較・整理。",
       "source": "npaka",
       "publishedAt": "2026-06-04T14:48:34.000Z",
-      "contentHash": "7bc9598424b4"
+      "contentHash": "267d56c6fb00"
     },
     {
       "id": "46321db628b1",
@@ -599,10 +662,10 @@
       "id": "258bee30f875",
       "title": "Codex の AGENTS.md 読み込みルールまとめ",
       "url": "https://note.com/npaka/n/ndb3b2ccfc879",
-      "summary": "AGENTS.mdはAI向けの作業ルールファイル。Codexはグローバル(~/.codex)、リポジトリ、ディレクトリごとのoverrideをルート→作業ディレクトリ順に結合（近い方が優先）し、フォールバック名やCODEX_HOMEで切替可能。読み込み確認コマンドあり。",
+      "summary": "CodexはAI向け指示ファイルAGENTS.mdを読み込み、グローバル(~/.codex)、リポジトリルート、作業ディレクトリの順で結合・上書きします。AGENTS.override.mdで上書き可。代替名はconfigで指定、CODEX_HOMEでホーム切替、codexコマンドで有効指示を確認できます。",
       "source": "npaka",
       "publishedAt": "2026-06-04T10:54:22.000Z",
-      "contentHash": "d532322c6bd7"
+      "contentHash": "dc5696d42ba5"
     },
     {
       "id": "67277520ec76",
@@ -1013,10 +1076,10 @@
       "id": "112ed602faf4",
       "title": "Gemma 4 12B の概要",
       "url": "https://note.com/npaka/n/n7bdf1e232831",
-      "summary": "Google DeepMindのGemma 4 12Bは12Bパラメータのencoder-freeマルチモーダルモデル。16GB級でのローカル実行を想定し、軽量Vision Embedderや音声の線形射影で画像・音声・動画を直接扱い、エージェントやコーディング支援などに適用。MTPで高速化を図る。",
+      "summary": "Google DeepMindのGemma 4 12Bは12Bパラメータのエンコーダーフリーなマルチモーダルモデル。16GB級のローカル実行を重視し、軽量な視覚埋め込みや音声射影で画像・音声・動画を直接統合。26B MoEに近い性能を低メモリで狙い、エージェントやコード生成などローカルAI用途を想定する。",
       "source": "npaka",
       "publishedAt": "2026-06-03T21:48:37.000Z",
-      "contentHash": "bd56141b5002"
+      "contentHash": "2eb3380f2cab"
     },
     {
       "id": "2a628bb87b16",
@@ -8937,69 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-05-18T10:50:25.000Z",
       "contentHash": "4082bf36f39c"
-    },
-    {
-      "id": "a5aed570b592",
-      "title": "【Vulkan】時間/空間蓄積なしで128rppを4k 60FPS MSAAx4で達成する残像なしのレイトレーシング | 技術ブログ – infiniteloop",
-      "url": "https://www.infiniteloop.co.jp/tech-blog/2026/05/%e3%80%90vulkan%e3%80%91%e6%99%82%e9%96%93-%e7%a9%ba%e9%96%93%e8%93%84%e7%a9%8d%e3%81%aa%e3%81%97%e3%81%a7128rpp%e3%82%924k-60fps-msaax4%e3%81%a7%e9%81%94%e6%88%90%e3%81%99%e3%82%8b%e6%ae%8b%e5%83%8f/",
-      "summary": "レイトレーシングは本当に重いのかを、自作のVulkanゲームエンジンで実装・検証している記事です。RDNA2/3を題材に理論値と実測を比較し、負荷の要因や最適化手法を考察します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-18T10:15:34.000Z",
-      "contentHash": "07b0b765f735"
-    },
-    {
-      "id": "d54849c093c1",
-      "title": "Disco Elysium’s spiritual successor can&#8217;t escape its phantoms",
-      "url": "https://www.theverge.com/entertainment/931629/zero-parades-for-dead-spies-review-disco-elysium",
-      "summary": "Zero Paradesは、作戦失敗で仲間を裏切った主人公ケイスケードが5年「冷凍」後にポルトフィロで贖罪を目指すRPG。Disco Elysiumに作風は似るが、創業メンバー退社やIP訴訟などでZA/UMは大きく変わった。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-18T10:00:00.000Z",
-      "contentHash": "22d92a28ef72"
-    },
-    {
-      "id": "9e29108f5913",
-      "title": "Claude Code更新 claude agents画面・goalコマンド・Fast mode 4.7化【5/10〜16】 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/05/18/190000",
-      "summary": "5/10〜16のClaude Code更新（v2.1.139→v2.1.143）。主要はバックグラウンドを一望するclaude agentsターミナルUI、完了まで自走する/goalコマンド、/fastのOpus4.7化。周辺設定や不具合修正も多数。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-18T10:00:00.000Z",
-      "contentHash": "1b151e23e30e"
-    },
-    {
-      "id": "6f1209c6c0e0",
-      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
-      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
-      "summary": "OpenAIとDellが提携し、Codexをハイブリッドやオンプレミス環境に提供。企業がデータや業務フロー内で安全にAIコーディングエージェントを展開できるよう支援する。",
-      "source": "OpenAI",
-      "publishedAt": "2026-05-18T10:00:00.000Z",
-      "contentHash": "8f305e351b9f"
-    },
-    {
-      "id": "fbdfb6306561",
-      "title": "Redash の Query Result をパラメータ付きで参照する | Social PLUS Tech Blogのフィード",
-      "url": "https://zenn.dev/socialplus/articles/redash-query-result-with-parameters",
-      "summary": "RedashのQuery Results Data Sourceで複数パラメータを渡すメモ。呼び出しは query_{PARAM1=値1&PARAM2=値2…}形式で&区切り、空白はそのまま可（%20も可）、値に引用符不要。DateRangeはPARAM.start/ .endで渡せる。'--'はSQLコメント扱いで注意。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-18T09:48:45.000Z",
-      "contentHash": "007e33a0c874"
-    },
-    {
-      "id": "a097623fb86b",
-      "title": "「EC2って何？」レベルだった私を救ったAWS学習本・講座まとめ | コラボスタイル Developersのフィード",
-      "url": "https://zenn.dev/collabostyle/articles/ddf499ba0d818a",
-      "summary": "新卒でAWS学習に苦戦した著者が、公式ドキュメントは難しいと述べ、EC2等の基礎を学べる入門書（クラウド超入門、サービス図解、コンテナ設計）やUdemyのハンズオン講座を紹介。まず基礎を固めてから公式を読むことを勧める。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-18T09:41:01.000Z",
-      "contentHash": "ed0f46e02191"
-    },
-    {
-      "id": "993625e0468f",
-      "title": "Where Are the Vibecoded Photoshops?",
-      "url": "https://indiepixel.de/blog/posts/where-are-the-vibecoded-photoshops/",
-      "summary": "外部サイトを直接参照できないため、記事本文を貼っていただけますか？（あるいは要点・抜粋を貼る）  \nHacker Newsの議論も要約する場合は、そのコメントも貼ってください。200文字以内でまとめます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-18T09:28:56.000Z",
-      "contentHash": "712609c6b489"
     }
   ]
 }
