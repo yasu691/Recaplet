@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T04:27:11.998Z",
+  "generatedAt": "2026-06-13T10:46:44.226Z",
   "items": [
     {
       "id": "81122a35696e",
@@ -329,10 +329,10 @@
       "id": "d3336786cc20",
       "title": "OpenCV 5 の新機能まとめ",
       "url": "https://note.com/npaka/n/n3f9ab21ba743",
-      "summary": "OpenCV 5は大規模な世代交代。C++17必須、Python2と古いC APIを削除し、DNNを刷新（動的shape/subgraph対応の新推論エンジン、ONNX Runtime連携、VLM対応）。Featuresや3D・画像処理・キャリブレーションも整理。",
+      "summary": "OpenCV 5は大規模な世代交代。C++17必須、Python2と古いC API廃止。DNNを刷新し動的shapeやVLM対応、ただし新エンジンは現状CPUのみ。ONNX Runtime連携強化、Features整理。",
       "source": "npaka",
       "publishedAt": "2026-06-12T06:14:11.000Z",
-      "contentHash": "871962362d46"
+      "contentHash": "105e38db6d44"
     },
     {
       "id": "78764e1911ee",
@@ -356,10 +356,10 @@
       "id": "0a018181042b",
       "title": "Suno 入門",
       "url": "https://note.com/npaka/n/n2bd9d8b3895d",
-      "summary": "Sunoはテキストからメロディ・伴奏・歌詞・ボーカル入り曲を生成するAIサービス。サイトで歌詞やスタイルを入力して作成。無料プラン（v4.5-allで試用）や商用対応のPro/Premier（高性能v5.5等）あり。",
+      "summary": "Sunoはテキストからメロディ・伴奏・歌詞・ボーカル入りの曲を生成するAIサービス。サイトでログイン→Createに歌詞とスタイルを入力するだけ。無料は日50クレジットで非商用、Pro/Premierは商用利用や上位モデル(v5.5等)、高度編集やステム分離などを提供（有料）。",
       "source": "npaka",
       "publishedAt": "2026-06-12T02:23:05.000Z",
-      "contentHash": "2741c07fb483"
+      "contentHash": "268275e07dfd"
     },
     {
       "id": "7874061062f9",
@@ -554,10 +554,10 @@
       "id": "f23fb03eaa97",
       "title": "Codex でプレゼン資料の作成を試す",
       "url": "https://note.com/npaka/n/nf909472b7e95",
-      "summary": "Codexでプレゼン作成を試した。手順は①背景テンプレ（表紙・セクション・本文・まとめ）を1枚画像で作り分割（背景のみがポイント）、②Markdownでスライド内容（例：「プロジェクト管理の基本」9枚）を用意、③それらからKeynote（9枚）を生成し、必要に応じて編集。",
+      "summary": "Codexでプレゼン作成を試した報告。手順は、(1) 表紙・セクション・本文・まとめの4種背景を画像で作成、(2) Markdownでスライド構成作成（例：プロジェクト管理9枚）、(3) それらでKeynoteを生成し必要に応じ編集。",
       "source": "npaka",
       "publishedAt": "2026-06-11T16:02:10.000Z",
-      "contentHash": "4d0011ac1362"
+      "contentHash": "833d691aff86"
     },
     {
       "id": "ce9cf660cf79",
@@ -716,10 +716,10 @@
       "id": "c5b44c7d12e8",
       "title": "Codex のブラウザ操作機能まとめ - Browser ・ Chrome ・ Computer Use ・ Playwright の違い",
       "url": "https://note.com/npaka/n/n6ea96a2c929c",
-      "summary": "Codexのブラウザ操作機能は4つ。Browser：内部ブラウザで表示確認。Chrome：実際のChromeでログインや拡張対応。Computer Use：デスクトップ全体を操作。Playwright：操作の自動化・テスト。用途に応じて使い分ける。",
+      "summary": "Codexのブラウザ操作機能4種の違い：BrowserはCodex内ブラウザで軽い表示確認、Chromeは実ブラウザでログインや拡張対応、Computer UseはPC全体の画面操作、Playwrightは操作の自動化・テスト向け。",
       "source": "npaka",
       "publishedAt": "2026-06-11T10:25:18.000Z",
-      "contentHash": "947e1c07c784"
+      "contentHash": "47fd457ba3ac"
     },
     {
       "id": "f305646ed3f2",
@@ -761,10 +761,10 @@
       "id": "f41f57d9548d",
       "title": "自作ゲームのバランス調整とレベリングのコツ",
       "url": "https://note.com/npaka/n/n11e36666faa3",
-      "summary": "自作ゲームのバランス調整は数値ではなく「プレイヤー体験の流れ」を作ること。想定プレイ時間を決め、何戦でレベルが上がるかから経験値を逆算。成長は手触りで感じさせ、敵は強さだけでなく役割を持たせ、緩急や報酬で行動を誘導する。",
+      "summary": "自作ゲームのバランス調整は数値ではなく「プレイヤー体験」の設計。想定プレイ時間を決め、経験値は「何戦で上がるか」から逆算し、成長が体感できる変化を用意。敵に役割を持たせ、緩急ある構成と報酬で遊び方を誘導する。",
       "source": "npaka",
       "publishedAt": "2026-06-11T06:58:36.000Z",
-      "contentHash": "08b5ad0005e7"
+      "contentHash": "af0915e8eaa0"
     },
     {
       "id": "55dffce3e3a7",
@@ -779,10 +779,10 @@
       "id": "86f9d345cb7a",
       "title": "DiffusionGemma の概要",
       "url": "https://note.com/npaka/n/n0c5a1dd4a0e8",
-      "summary": "Googleが公開した実験的テキスト拡散モデルDiffusionGemma。Gemma4ベースのMoEで256トークンを並列修正し専用GPUで最大4倍高速。インライン編集やコード補完等に適するが品質はGemma4より劣りハード依存。Apache2.0。",
+      "summary": "Googleの実験的公開モデルDiffusionGemmaは、テキスト拡散方式で256トークンを並列修正して高速化（専用GPUで最大4倍）。25.2B MoE（推論時3.8B）、Apache2.0。インライン編集やコード補完など対話的・構造化生成向きだがGemma4より品質は低く、効果はハード依存。",
       "source": "npaka",
       "publishedAt": "2026-06-11T04:29:36.000Z",
-      "contentHash": "217716c60c53"
+      "contentHash": "e75113e3666f"
     },
     {
       "id": "9ff25cae5b01",
@@ -1355,10 +1355,10 @@
       "id": "f61971fb2286",
       "title": "Claude Fable 5 と Claude Mythos 5 の概要",
       "url": "https://note.com/npaka/n/n337118664b85",
-      "summary": "Anthropicは一般向けに安全強化した高性能モデルClaude Fable 5と、信頼された用途向けに制限を緩めたClaude Mythos 5を発表。Fable 5は長期推論、コード移行、視覚解析、知識労働で高性能。危険領域は分類器でOpus 4.8にフォールバックし安全性を維持。Mythos 5はサイバー防御や生命科学向けに提供し、創薬などで大幅な高速化を報告。",
+      "summary": "Anthropicが一般向け高性能モデルClaude Fable 5と、信頼済み利用向けの制限緩和版Claude Mythos 5を発表。Fable 5は長期文脈・コーディング・視覚解析などに強く、危険分野は安全分類器でOpus 4.8にフォールバック。Mythos 5はサイバーや生命科学向けに限定提供し研究や創薬を加速。",
       "source": "npaka",
       "publishedAt": "2026-06-09T21:37:48.000Z",
-      "contentHash": "1d4de9a246fa"
+      "contentHash": "23e1426e4c5d"
     },
     {
       "id": "e633dbcce15d",
@@ -2975,10 +2975,10 @@
       "id": "dc34360fa48d",
       "title": "GitHub ActionsのNode.jsバージョンアップ対応をしたときの作業ポイント | APC 技術ブログ",
       "url": "https://techblog.ap-com.co.jp/entry/2026/06/06/113000",
-      "summary": "GitHub ActionsのNode.jsデフォルトが20→24へ更新されるため、組織内のカスタムAction修正、Marketplace等外部Actionのバージョン更新、更新が止まった依存Actionへの対応など、リポジトリ移行時の作業ポイントをまとめたメモ。",
+      "summary": "GitHub ActionsのランナーがNode.js 20→24へ移行するため、開発環境をNode24へ更新し、カスタムActionのaction.ymlをruns.using: node24に変更、外部Actionは対応済みバージョンへ更新。依存先が更新されなければ自前スクリプトで代替。期限は6月16日まで延長。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-06T02:30:00.000Z",
-      "contentHash": "04552c267a70"
+      "contentHash": "ae0529eaf0bc"
     },
     {
       "id": "6f7c47fd43a8",
