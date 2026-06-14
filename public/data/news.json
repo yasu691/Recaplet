@@ -1,9 +1,45 @@
 {
-  "generatedAt": "2026-06-14T04:56:11.195Z",
+  "generatedAt": "2026-06-14T11:03:34.808Z",
   "items": [
     {
+      "id": "9e4b83f99365",
+      "title": "Don't trust large context windows",
+      "url": "https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows",
+      "summary": "LLMの有効な文脈は宣伝値より小さく、実用的な「スマートゾーン」は約10万トークン。長セッションで注意が落ちる“忘却ゾーン”に入り性能低下。自動要約は不完全で、手作り仕様や新セッションでのブレッドクラム引き継ぎが有効。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-14T06:07:09.000Z",
+      "contentHash": "1874e3f24d94"
+    },
+    {
+      "id": "a37cf2f73409",
+      "title": "Phoenix LiveView 1.2",
+      "url": "https://phoenixframework.org/blog/phoenix-liveview-1-2-released",
+      "summary": "Phoenix LiveView 1.2公開。mix.exsの依存を更新するだけで移行可能。HEEx内で<style :type={MyApp.ColocatedCSS}>によりコロケートCSSを抽出してビルドツールで処理し、@scopeでコンポーネント単位にスタイルを限定可能。1.1のColocated JSの延長。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-14T04:53:51.000Z",
+      "contentHash": "cc60852af8a6"
+    },
+    {
+      "id": "d28e76789d49",
+      "title": "Pac-Man, but you're the ghost",
+      "url": "https://garrit.xyz/posts/2026-06-13-pac-man-but-you-re-the-ghost",
+      "summary": "パックマンのゴースト側を操作するミニゲームを制作。AIで動くパックマンを迷路クリア前に捕まえるのが目的で、パワーペレットを食べられると数秒間役割が逆転する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-14T04:18:45.000Z",
+      "contentHash": "3a7466fc2054"
+    },
+    {
+      "id": "644b26252eb6",
+      "title": "Free SQL→ER diagram tool, runs in the browser, nothing uploaded",
+      "url": "https://sqltoerdiagram.com/",
+      "summary": "CREATE TABLE文を貼り付けてテーブルを視覚的に編集（ドラッグ、ズーム、ダブルクリックで名称変更）し、完了後にエクスポート可能。サンプル読み込み対応で処理は100%ブラウザ内、アップロードやアカウント不要。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-14T03:43:30.000Z",
+      "contentHash": "ffa64ce914f8"
+    },
+    {
       "id": "829c770a3d05",
-      "title": "10th Gen Honda Civic Updates Are Signed with AOSP Test Keys",
+      "title": "Honda Civics and the Evil Valet",
       "url": "https://juniperspring.org/posts/honda-evil-valet/",
       "summary": "3年前から2021年ホンダ・シビックのヘッドユニットを解析。USB更新に公開AOSPテスト鍵が残り、署名検証がAOSP準拠なため、正規署名で任意コード実行可能。前面USBへの物理アクセスで改ざんできる脆弱性を「EvilValet」と命名。",
       "source": "Hacker News",
@@ -41,10 +77,10 @@
       "id": "7cf4dd7c01e1",
       "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
       "url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
-      "summary": "ダービーシャー警察の警官が、複数の事件でAIを使って証拠を捏造した疑いで調査を受けている。内部調査が進行中で、関係する捜査や裁判の見直しがあり得る。",
+      "summary": "ダービーシャー警察の警察官が、複数の捜査でAIを用いて証拠を作成した疑いで捜査を受けている。警察は影響のある事件の再調査や規律・法的対応を検討しており、捜査の透明性と信頼回復が課題となっている。",
       "source": "Hacker News",
       "publishedAt": "2026-06-13T19:54:55.000Z",
-      "contentHash": "1f4e533d9fd8"
+      "contentHash": "56f637d5c059"
     },
     {
       "id": "c967cdae1eed",
@@ -56,22 +92,31 @@
       "contentHash": "6a1dc470d4d6"
     },
     {
+      "id": "f9235e5d2629",
+      "title": "What happens to an economy when it's too hot to work?",
+      "url": "https://www.bloomberg.com/news/features/2026-06-12/india-s-extreme-heat-is-hurting-its-economy-and-workers",
+      "summary": "インドで猛暑が経済と労働者に深刻な打撃。農業・建設など屋外労働の生産性低下、健康被害や労働時間短縮がGDP成長を圧迫。冷房・電力負荷増や適応策の遅れも課題。気候変動対策が急務。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-13T18:35:15.000Z",
+      "contentHash": "e3eeb729da5e"
+    },
+    {
       "id": "250225259adc",
       "title": "GameBoy Workboy",
       "url": "https://tcrf.net/Workboy",
-      "summary": "Workboyはゲームボーイを業務用PDA化する周辺機器で、電話帳・電卓・スケジュールなどのアプリを提供。TCRF記事は機能説明、未使用データやプロトタイプ画像、ROM吸出しやエミュレーションの課題など保存状況をまとめている。",
+      "summary": "TCRFのWorkboy記事は、任天堂が90年代初頭に開発した未発売のゲームボーイ周辺機器「Workboy」を紹介。キーボード装着でカレンダー・電卓・住所録などの生産性アプリを想定していたが発売中止。プロトタイプ画像やROM解析、隠しデータの発見記録をまとめている。",
       "source": "Hacker News",
       "publishedAt": "2026-06-13T17:43:02.000Z",
-      "contentHash": "ad4264af62c2"
+      "contentHash": "9bc1a4c91117"
     },
     {
       "id": "68871dcb7288",
       "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
       "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
-      "summary": "そのWSJ記事にはこちらから直接アクセスできません。記事の本文を貼るか主要な段落を共有していただけますか？いただければ200文字以内で要約します。",
+      "summary": "そのURLはこちらから直接開けないため、記事本文を貼るか主要箇所を教えてください。貼れない場合は、見出しや要点（誰が何をしたか、影響など）を指定してください。",
       "source": "Hacker News",
       "publishedAt": "2026-06-13T16:57:49.000Z",
-      "contentHash": "dbadee5a4b63"
+      "contentHash": "39e0b636cd41"
     },
     {
       "id": "ce211978d013",
@@ -608,10 +653,10 @@
       "id": "d3336786cc20",
       "title": "OpenCV 5 の新機能まとめ",
       "url": "https://note.com/npaka/n/n3f9ab21ba743",
-      "summary": "OpenCV 5は大規模な世代交代。C++17必須、古いC APIとPython2を廃止し機能を整理。DNNを大幅刷新（動的shapeやVLM対応、新エンジンは現状CPUのみ）、ONNX Runtime連携強化、特徴量や3Dなどモジュールを再編成。",
+      "summary": "OpenCV 5は大規模な世代交代で、C++17必須、Python2と古いC APIを削除。DNNを刷新し動的shapeやVLM対応、ONNX Runtime連携を強化。特徴量や3Dなども現代化。",
       "source": "npaka",
       "publishedAt": "2026-06-12T06:14:11.000Z",
-      "contentHash": "f9e0ad7bde38"
+      "contentHash": "98c312d37c6f"
     },
     {
       "id": "78764e1911ee",
@@ -833,10 +878,10 @@
       "id": "f23fb03eaa97",
       "title": "Codex でプレゼン資料の作成を試す",
       "url": "https://note.com/npaka/n/nf909472b7e95",
-      "summary": "Codexでプレゼン作成を試行。手順は①白ベースの表紙/セクション/本文/まとめの背景テンプレートを画像で作成・分割、②Markdownで9枚分の「プロジェクト管理の基本」構成を用意、③それらを使ってKeynote（9枚）を生成。必要に応じて編集。",
+      "summary": "Codexでプレゼン作成を試した報告。手順は(1) 背景テンプレートを2x2の1枚画像で作り分割（表紙・セクション・本文・まとめ）、(2) Markdownでスライド構成作成（例：プロジェクト管理9枚）、(3) それらを使ってKeynoteを生成し、必要に応じて編集可能。",
       "source": "npaka",
       "publishedAt": "2026-06-11T16:02:10.000Z",
-      "contentHash": "aa3b1d8b8640"
+      "contentHash": "9265a356aec2"
     },
     {
       "id": "ce9cf660cf79",
@@ -995,10 +1040,10 @@
       "id": "c5b44c7d12e8",
       "title": "Codex のブラウザ操作機能まとめ - Browser ・ Chrome ・ Computer Use ・ Playwright の違い",
       "url": "https://note.com/npaka/n/n6ea96a2c929c",
-      "summary": "Codexのブラウザ操作機能は4種。BrowserはCodex内の簡易ブラウザ確認、Chromeは実際のChromeでログインや拡張対応、Computer UseはPC全体のGUI操作、Playwrightは操作の自動化・テスト。用途に応じて使い分ける。",
+      "summary": "Codexのブラウザ操作機能を整理。Browserは内部ブラウザで表示確認、Chromeは実際のChromeでログインや拡張対応、Computer UseはPC画面全体の操作、Playwrightは操作の自動テスト向け。用途で使い分け。",
       "source": "npaka",
       "publishedAt": "2026-06-11T10:25:18.000Z",
-      "contentHash": "72dd9d3b923f"
+      "contentHash": "deda637815cb"
     },
     {
       "id": "f305646ed3f2",
@@ -1058,10 +1103,10 @@
       "id": "86f9d345cb7a",
       "title": "DiffusionGemma の概要",
       "url": "https://note.com/npaka/n/n0c5a1dd4a0e8",
-      "summary": "DiffusionGemmaはGoogleの実験的オープンモデル。Gemma‑4基盤のテキスト拡散型で、256トークン単位で並列・反復生成し専用GPUで最大4倍高速化。MoE（総25.2B、推論時3.8B）、Apache2.0。編集・コード補完・構造化生成向きだが品質はGemma4より低くハード依存。",
+      "summary": "Googleの実験的オープンモデルDiffusionGemmaはGemma 4ベースのテキスト拡散型MoE（総25.2B、推論時3.8B）。256トークンを並列修正し双方向注意で専用GPUで最大4倍高速。編集・コード補完・構造化生成に向くが品質はGemma4より低く、ハード依存。Apache 2.0公開。",
       "source": "npaka",
       "publishedAt": "2026-06-11T04:29:36.000Z",
-      "contentHash": "6c125190ed45"
+      "contentHash": "3bc392b13671"
     },
     {
       "id": "9ff25cae5b01",
@@ -8955,51 +9000,6 @@
       "source": "npaka",
       "publishedAt": "2026-05-24T23:45:31.000Z",
       "contentHash": "ab017741661d"
-    },
-    {
-      "id": "1fd2b0980136",
-      "title": "CBP Directive 3340-049B: Border Search of Electronic Devices",
-      "url": "https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices",
-      "summary": "米国税関国境警備局（CBP）が電子機器の入出国時検査に関する検索、閲覧、保存、共有の指針・標準手順を示す文書（CBP指令3340‑049Bや関連メモ等、FOIA対象）。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-24T19:12:46.000Z",
-      "contentHash": "97f41f300825"
-    },
-    {
-      "id": "495646d6f868",
-      "title": "A fundamental principle of aeronautical engineering has been overturned",
-      "url": "https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/",
-      "summary": "新研究が、長年の定説である航空工学の基本原理（翼の最適揚力分布）が必ずしも最適でないことを示した。数値最適化で従来理論より効率的な翼設計が見つかり、教科書や設計手法の再検討を促す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-24T19:10:26.000Z",
-      "contentHash": "e00092344b79"
-    },
-    {
-      "id": "8e6710b187c9",
-      "title": "The four-day workweek in Australia: insights from early adopters of 100:80:100",
-      "url": "https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/",
-      "summary": "豪州の研究で15社が2022–24年に100:80:100（給与100%・労働時間80%・生産100%）を試行。14社が継続し、生産性は低下せず6社で向上。指標は各社が個別設定。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-24T18:56:09.000Z",
-      "contentHash": "13475eed67e8"
-    },
-    {
-      "id": "2d53692a1253",
-      "title": "Defeating Git Rigour Fatigue with Jujutsu",
-      "url": "https://ikesau.co/blog/defeating-git-rigour-fatigue-with-jujutsu/",
-      "summary": "大規模機能開発では「機能ごとの良いコミット」を作るのが難しく、WIP連投で履歴やレビューしやすさが壊れがち。Jujutsuはコミット間の移動・整理を簡単にし、jj absorb等が多少助けるが負担は残る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-24T18:39:10.000Z",
-      "contentHash": "a1f301431d42"
-    },
-    {
-      "id": "29a594954700",
-      "title": "Migrating from Go to Rust",
-      "url": "https://corrode.dev/learn/migration-guides/go-to-rust/",
-      "summary": "Matthias EndlerのGo→Rust移行ガイド。バックエンド中心に両言語の重なりと差異、GoパターンのRustへの移し方、借用チェッカーの利点、段階的移行法やどの場合にGoを残すべきかを解説。著者はGoを批判しつつ実用性を認める。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-24T18:31:42.000Z",
-      "contentHash": "61f0f0cdbb86"
     }
   ]
 }
