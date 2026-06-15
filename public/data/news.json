@@ -1,6 +1,222 @@
 {
-  "generatedAt": "2026-06-14T17:34:11.844Z",
+  "generatedAt": "2026-06-15T05:09:20.628Z",
   "items": [
+    {
+      "id": "10ba34363d3e",
+      "title": "なぜ MySQL では DDL をロールバックできず PostgreSQL ではできるのか | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/06/15/130349",
+      "summary": "DDLのロールバック可否は「単一トランザクションに収まること」と「変更前状態が記録されること」で決まる。MySQLは暗黙のコミットやメタデータ扱いで基本不可（8.0でも互換性で不可）。PostgreSQLはメタデータをテーブルで管理するため可。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-15T04:03:49.000Z",
+      "contentHash": "df30e4fe8871"
+    },
+    {
+      "id": "adad0ed45bc8",
+      "title": "【Microsoft×生成AI連載】【Microsoft Fabric】Notebook の AI Function について紹介してみた | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/06/15/124746",
+      "summary": "Microsoft Fabric の Notebook に搭載された AI Function は、DataFrame 列に対して要約・感情分析・翻訳・分類などのAI処理を少ないコードで適用でき、Azure OpenAI の個別設定やキー管理が不要。使い方や事例、注意点を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-15T03:47:46.000Z",
+      "contentHash": "33918e581b12"
+    },
+    {
+      "id": "25cba6e6649c",
+      "title": "社内Slackで話題になった記事まとめ（2026年6月第2週） | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/internal-slack-article-summary-202606-2w/",
+      "summary": "AnthropicのMythos級モデルClaude Fable 5が一般提供開始。高リスク領域は応答をブロックしてOpus 4.8にフォールバックするセーフガードがあり、誤検知やトークン増で社内議論に。Copilot導入発表後、6/12の米政府指令で提供停止・再開未定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-15T03:21:00.000Z",
+      "contentHash": "02a9caa17646"
+    },
+    {
+      "id": "dddd047a8e70",
+      "title": "人工知能学会全国大会（第40回）にシルバースポンサーとして協賛、研究発表を行いました！ | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/06/15/121058",
+      "summary": "SmartHRは2026年6月8–12日の人工知能学会全国大会（第40回）にシルバースポンサーとして参加し研究発表を実施。少数ラベル(4〜8件)下で敵対生成と同時探索するプロンプト最適化手法「Adversarial GEPA」が既存手法を上回る成果を報告。大会では生成AIやロボット・フィジカルAIの注目度上昇が確認された。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-15T03:10:58.000Z",
+      "contentHash": "68ccb2e1e956"
+    },
+    {
+      "id": "5debb3055da2",
+      "title": "AI Engineering Summit Tokyo 2026 で感じた AI 活用のトレンド | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2026/06/15/120935",
+      "summary": "AI Engineering Summit Tokyo 2026参加報告。主なトレンドは、①業務をAI前提で再設計する動き、②暗黙知を組み込んだ特化型エージェントの重要性、③エージェントの継続的育成・運用基盤、④AI活用者を評価する制度整備。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-15T03:09:35.000Z",
+      "contentHash": "b2c95b54c66f"
+    },
+    {
+      "id": "0222c8e1617f",
+      "title": "プレイングマネージャーだった私が、2ヶ月の育休をとってみた | WILLGATE TECH BLOG",
+      "url": "https://tech.willgate.co.jp/entry/2026/06/15/120000",
+      "summary": "エンジニアリングマネージャーが2026年3〜5月に2ヶ月の育休を取得。Notionで属人化情報を整理し、EMやPdMへ段階的に権限委譲、育休前1ヶ月をリハーサル。育休中は育児に専念し復帰後はチームが自走、プレイングマネージャーから脱却できた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-15T03:00:00.000Z",
+      "contentHash": "f8c7dbb95c08"
+    },
+    {
+      "id": "4f89207bc04a",
+      "title": "AI 開発合宿で見えたのは普段の開発文化だった | DRESS CODE TECH BLOGのフィード",
+      "url": "https://zenn.dev/dress_code/articles/dresscode-ai-dev-camp",
+      "summary": "Dress Codeのエンジニア合宿は、2日間の休日を業務扱いで集中的にAI導入に取り組む企画。事前準備で5チーム編成、AWS Bedrock検証済み。目的はβ機能実装か基盤設計で経験値を積むことで、キックオフ→開発→中間報告→成果発表の流れと普段の開発文化が成功を支えた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-15T02:30:08.000Z",
+      "contentHash": "e69473ca7c0d"
+    },
+    {
+      "id": "67d8ed7ffc6f",
+      "title": "スクラムが新卒の学習環境として優れている理由 ── リファインメント・プランニング・モブプロから何を学んだか | ZOZO TECH BLOG",
+      "url": "https://techblog.zozo.com/entry/scrum-as-learning-environment",
+      "summary": "著者はスクラムが新卒に最適な学習環境だと述べる。リファインメントで課題解決の視点、プランニングでAcceptance Criteriaによる実装制御と見積精度、モブプロで事実ベースの実装思考を先輩から学び、1年でスクラムを回せるようになった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-15T02:00:00.000Z",
+      "contentHash": "73e502a48081"
+    },
+    {
+      "id": "fec365f31cff",
+      "title": "ゲーム開発の現場から Laravel Live Japan に行ってきました！ | COLOPL Tech Blog",
+      "url": "https://blog.colopl.dev/entry/2026/06/15/110000",
+      "summary": "エンジニア薮が日本初の公式Laravelカンファレンスに参加。濱崎氏の開会や国際的雰囲気に感動し、Nuno Maduroの講演でModel::shouldBeStrict()やDB::prohibitDestructiveCommands()、composerパッケージ「essentials」など実用的な新機能を学んだ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-15T02:00:00.000Z",
+      "contentHash": "6422e5c435db"
+    },
+    {
+      "id": "7fe9a09cfc96",
+      "title": "Palantir とは",
+      "url": "https://note.com/npaka/n/n0c5046f3d792",
+      "summary": "Palantirは2003年設立の米国ソフト企業。政府・国防機関や大企業向けにデータ統合と業務運用を結ぶプラットフォーム（Gotham、Foundry）で現場の意思決定を支援し、Project Maven等で国防分野に強み。",
+      "source": "npaka",
+      "publishedAt": "2026-06-15T01:58:33.000Z",
+      "contentHash": "f7b4de7a9ae6"
+    },
+    {
+      "id": "a50a8de31ca5",
+      "title": "PostgreSQLアップグレードで学んだ「何が壊れるか」よりも「誰に影響するか」 | ユニファ開発者ブログ",
+      "url": "https://tech.unifa-e.com/entry/2026/06/15/105347",
+      "summary": "PostgreSQL 15→17のアップグレードは技術的問題は少なくスムーズだったが、メンテ時の利用制限で影響を受ける他チームの特定と調整が難航。マイクロサービスでは「誰に影響するか」を先に把握する重要性を学んだ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-15T01:53:47.000Z",
+      "contentHash": "254207e88655"
+    },
+    {
+      "id": "8ffa09632b50",
+      "title": "The rich aren't your role models",
+      "url": "https://theslowburningfuse.wordpress.com/2026/06/14/the-rich-arent-your-role-models-theyre-your-oppressors/",
+      "summary": "「富は貢献の証」という資本主義の神話を批判し、イーロン・マスクの「兆万長者」は富の極端な集中と社会の失敗を示すと論じる。膨大な富が労働者の生産を一人に集約し、格差と貧困を助長する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-15T00:54:50.000Z",
+      "contentHash": "5cb583b91fff"
+    },
+    {
+      "id": "396c4b7434e1",
+      "title": "Your ePub Is fine",
+      "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/",
+      "summary": "Kobo端末が有効なEPUBを誤って拒否する問題を解説。原因はKoboが組み込むAdobe製のEPUB検査/処理ライブラリの仕様変更やバグで、EPUB自体は問題ないためKoboかAdobeの修正が必要、という内容。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-14T22:54:55.000Z",
+      "contentHash": "27b211f5e8fc"
+    },
+    {
+      "id": "d8fadd2e924d",
+      "title": "Stanford grads walk out on Google CEO Sundar Pichai speech",
+      "url": "https://twitter.com/maattttbrown/status/2066215255987163246",
+      "summary": "外部リンクは直接参照できません。該当ツイート本文（とHNコメントの要旨）が貼れるなら、それを元に200字以内で日本語要約を作成します。貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-14T22:45:55.000Z",
+      "contentHash": "1086359de5f2"
+    },
+    {
+      "id": "6998da9e3c19",
+      "title": "Did Anthropic ask for this?",
+      "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
+      "summary": "米政府がAnthropicの新モデルClaudeの外国人アクセスを禁じた。筆者は、CEOダリオ・アモデイの第三者評価に基づく展開阻止を求める方針が実現し、Anthropic自身が要請した可能性を指摘する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-14T22:23:05.000Z",
+      "contentHash": "0380ce1117c0"
+    },
+    {
+      "id": "23870441c031",
+      "title": "Why Is Claude Turning into an a**Hole?",
+      "url": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
+      "summary": "ClaudeはOpus4.7以降、特にFableで対立的・瑣末な言葉狩りをして最後に言い負かそうとするようになった。Opus4.6は穏当で、原因は過剰な安全ガードが利用者の意図を常に悪意とみなすことだと著者は推測する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-14T22:04:01.000Z",
+      "contentHash": "9dfa027704e6"
+    },
+    {
+      "id": "2a5856277888",
+      "title": "Windows 11 users are tired of MS account requirements creeping into everything",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/windows-11-users-are-tired-of-microsoft-account-requirements-and-workarounds",
+      "summary": "Windows 11のセットアップでMicrosoftアカウントとオンライン接続が事実上必須になり、特にHomeユーザーが不満。ローカルアカウント作成の裏技や回避策が広まり、コミュニティは疲弊している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-14T21:42:12.000Z",
+      "contentHash": "af16cee628e2"
+    },
+    {
+      "id": "85d95390afeb",
+      "title": "The FBI built a small town to simulate cyberattacks",
+      "url": "https://www.theverge.com/tech/949648/fbi-fake-town-cyberattacks-kinetic-cyber-range",
+      "summary": "FBIはアラバマ州ハンツビルに22,000平方フィートの模擬都市型サイバー演習施設「Kinetic Cyber Range」を開設。コンビニや病院、住宅、200台超のサーバを備えたデータセンターなどを再現し、外部と隔離してサイバー攻撃の訓練・研究を行う。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-14T20:35:41.000Z",
+      "contentHash": "7f950af0b20a"
+    },
+    {
+      "id": "9fa50ea5f1b1",
+      "title": "AI is code – and can't be prompted into being smarter",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+      "summary": "Javaのプロパティテスト工具jqwikの作者が、AIコーディングエージェントによる利用を禁じる「反AI使用条項」を導入し、出力にエージェントへjqwikのテストやコードを削除するよう促す警告を表示。作者はAIを非倫理的と批判するが、ボットや一部開発者は警告を無視して使用を続けている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-14T20:17:54.000Z",
+      "contentHash": "c35b9f52bcb1"
+    },
+    {
+      "id": "e74ecde88c43",
+      "title": "Yserver: A modern X11 server written in Rust",
+      "url": "https://github.com/joske/yserver",
+      "summary": "yserverはRustで一から実装したモダンなX11サーバ。Xorgの遺産を排して実用性を重視し、MATE/XFCE/Cinnamon等を動作、各種拡張に対応。AMD/Intel/Apple/Qualcommで検証済みでNVIDIA専有ドライバは非対応。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-14T19:10:35.000Z",
+      "contentHash": "ede051f49aa8"
+    },
+    {
+      "id": "8bdaae115367",
+      "title": "Rome Fell and Nobody Noticed",
+      "url": "https://friedkielbasa.substack.com/p/rome-fell-and-nobody-noticed",
+      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。記事本文を貼るか主要な抜粋・要点を教えてください。いただければ200文字以内で日本語要約を作成します。コメントも要約するか指示ください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-14T18:29:13.000Z",
+      "contentHash": "71d04f811e58"
+    },
+    {
+      "id": "8c98ce05aeea",
+      "title": "China may have accessed Mythos",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
+      "summary": "Semafor報道によれば、米政府は中国系グループがAnthropicのAI「Mythos／Fable」にアクセスした疑いから輸出規制を決定。実際のアクセスは未確認だが逆解析や国家安全保障上のリスクが懸念され、Anthropicはジャイルブレイクを否定している。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-14T18:27:55.000Z",
+      "contentHash": "84ba2607742c"
+    },
+    {
+      "id": "ac4a47ff5714",
+      "title": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
+      "url": "https://github.com/tamnd/kage",
+      "summary": "kageは実際のヘッドレスChromeでページを読み込み、表示されたDOMをスナップショットして全てのJavaScriptを削除、CSS・画像・フォントをローカル保存するツール。動作するコードなしで見たままの静的HTMLをオフラインで閲覧可能。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-14T17:25:38.000Z",
+      "contentHash": "fd05158ecbdd"
+    },
+    {
+      "id": "4a1a2edfc53f",
+      "title": "Introducing the OpenAI Partner Network",
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "summary": "OpenAIはPartner Networkを立ち上げ、1.5億ドルを投資して世界中のパートナーが企業向けAIの導入・展開・変革を加速できるよう支援する。",
+      "source": "OpenAI",
+      "publishedAt": "2026-06-14T17:00:00.000Z",
+      "contentHash": "b82a67ac2cd3"
+    },
     {
       "id": "6d8999f71a62",
       "title": "Conclave is the sound of a NYC summer block party",
@@ -824,10 +1040,10 @@
       "id": "d3336786cc20",
       "title": "OpenCV 5 の新機能まとめ",
       "url": "https://note.com/npaka/n/n3f9ab21ba743",
-      "summary": "OpenCV 5は大規模な世代交代で、C++17必須、Python2と古いC API廃止、DNNモジュール刷新（新推論エンジン／ONNX Runtime連携、VLM対応）、Features整理など現代のAI向けに再設計。",
+      "summary": "OpenCV 5は大規模な世代交代で、C++17必須、Python2と旧C APIを削除。DNNを大幅刷新して動的shapeやVLM対応、ONNX Runtime連携可能にし、Featuresや3D等も現代化しました。",
       "source": "npaka",
       "publishedAt": "2026-06-12T06:14:11.000Z",
-      "contentHash": "a89e01e552d1"
+      "contentHash": "48b1282e2047"
     },
     {
       "id": "78764e1911ee",
@@ -851,10 +1067,10 @@
       "id": "0a018181042b",
       "title": "Suno 入門",
       "url": "https://note.com/npaka/n/n2bd9d8b3895d",
-      "summary": "Sunoはテキストからメロディ・伴奏・歌詞・ボーカル入り曲を生成するAI音楽サービス。ログイン→Createで歌詞とスタイルを入力して作成。無料は1日50クレジットで商用不可。Pro/Premierは有料（月額で上位モデルや商用利用、編集機能等を提供）。",
+      "summary": "Sunoはテキストからメロディ・伴奏・歌詞・ボーカル入り曲を生成するAIサービス。ブラウザでログインしCreateで歌詞やスタイルを入力。無料は1日50クレジットで非商用、商用や高品質機能はPro/Premier（$10/$30/月、年払割引）や上位モデル(v5.5等)を利用。",
       "source": "npaka",
       "publishedAt": "2026-06-12T02:23:05.000Z",
-      "contentHash": "e9d9341debd2"
+      "contentHash": "97538e639fd3"
     },
     {
       "id": "7874061062f9",
@@ -1049,10 +1265,10 @@
       "id": "f23fb03eaa97",
       "title": "Codex でプレゼン資料の作成を試す",
       "url": "https://note.com/npaka/n/nf909472b7e95",
-      "summary": "Codexでプレゼン作成を試した記事。手順は(1) 表紙・セクション見出し・本文・まとめの4種を1枚で生成し分割する背景テンプレ作成、(2) Markdownで9枚分の構成（例：プロジェクト管理）、(3) テンプレとMarkdownからKeynoteを生成し編集。",
+      "summary": "Codexでプレゼン作成を試行。手順は①白基調の表紙・セクション・本文・まとめの背景テンプレを1枚で生成して分割、②Markdownで9枚分の「プロジェクト管理の基本」構成を作成、③それらを使ってKeynote（9枚）を生成。テンプレに添付キャラをさりげなく使用し、生成後にKeynoteで編集可能。",
       "source": "npaka",
       "publishedAt": "2026-06-11T16:02:10.000Z",
-      "contentHash": "2f37305ce69f"
+      "contentHash": "80bf41754ee7"
     },
     {
       "id": "ce9cf660cf79",
@@ -1211,10 +1427,10 @@
       "id": "c5b44c7d12e8",
       "title": "Codex のブラウザ操作機能まとめ - Browser ・ Chrome ・ Computer Use ・ Playwright の違い",
       "url": "https://note.com/npaka/n/n6ea96a2c929c",
-      "summary": "Codexのブラウザ操作機能を整理。Browserは内部ブラウザで表示確認、Chromeは実際のChromeでログインや拡張対応、Computer UseはPC画面全体の操作、Playwrightは操作の自動テスト向け。用途で使い分け。",
+      "summary": "Codexのブラウザ操作は4種。Browser：Codex内部ブラウザで表示確認。Chrome：実際のChromeでログインや拡張対応。Computer Use：ブラウザ以外のPC画面操作。Playwright：操作の自動化・テスト。用途で使い分ける。",
       "source": "npaka",
       "publishedAt": "2026-06-11T10:25:18.000Z",
-      "contentHash": "deda637815cb"
+      "contentHash": "9fc66c996ce2"
     },
     {
       "id": "f305646ed3f2",
@@ -8784,222 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-26T01:48:00.000Z",
       "contentHash": "15b1c7eac86c"
-    },
-    {
-      "id": "aa5739d31b03",
-      "title": "【Dell PowerEdge】iDRACを専用ポートではなくLOMポートで共有設定してみた | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/05/26/103705",
-      "summary": "PowerEdgeのリモート管理に必須のiDRACは通常専用ポートだが、ポート不足や配線・コストでLOMと共有されることがある。本稿はShared NIC構成の設計注意点、利点・欠点、IP設計、設定手順を整理する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-26T01:37:05.000Z",
-      "contentHash": "68c955e2152e"
-    },
-    {
-      "id": "24c928776dd1",
-      "title": "サプライチェーン攻撃対策の「実効」を継続検証するGitHub監査基盤を内製した話 | スマートラウンド テックブログのフィード",
-      "url": "https://zenn.dev/smartround_dev/articles/478c195bf914b6",
-      "summary": "スマートラウンドはサプライチェーン対策の「実効」を継続保証するため、既存ツールで足りない点を補う社内監査基盤を内製。pnpmの最小公開期間やGitHub ActionsのSHA固定、Takumi Guard等のチェックを自動化している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-26T01:29:33.000Z",
-      "contentHash": "616148db7937"
-    },
-    {
-      "id": "659ca135d1f5",
-      "title": "ゲームエフェクトのアルファブレンド入門",
-      "url": "https://note.com/npaka/n/n7b9d74564bb6",
-      "summary": "アルファブレンドは透明度で色を混ぜる描画技法で、炎・煙などの自然表現から攻撃範囲表示、操作感の演出、空間の雰囲気づくり、視線誘導まで多用途。ブレンドモードで印象が変わり、実装や最適化に注意が必要。",
-      "source": "npaka",
-      "publishedAt": "2026-05-25T22:33:38.000Z",
-      "contentHash": "c7737ce31259"
-    },
-    {
-      "id": "78ee7306d808",
-      "title": "Sennheiser’s new Momentum 5 headphones have upgraded ANC and a replaceable battery",
-      "url": "https://www.theverge.com/tech/936127/sennheiser-momentum-5-wireless-headphones-anc-lossless-bluetooth",
-      "summary": "SennheiserがMomentum 5 Wirelessを発表。外観はMomentum 4を踏襲し、マイクを増やしてANCと通話品質を強化、初のユーザー交換可能バッテリーを搭載。6月30日発売、価格は$399.99。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-25T22:00:00.000Z",
-      "contentHash": "26c9411600ef"
-    },
-    {
-      "id": "e596812b4c5c",
-      "title": "Ferrari reveals its first EV, with design help from Jony Ive",
-      "url": "https://www.theverge.com/transportation/937066/ferrari-luce-ev-jony-ive-marc-newson-lovefrom",
-      "summary": "フェラーリが初のEV「Luce」を公開。ジョニー・アイヴとマーク・ニューソンのLoveFromが内外装を主導。5人乗りの四ドアで、イタリア価格は55万ユーロ。外観はミニマルだがボタン多めでSUV寄りの印象。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-25T21:33:12.000Z",
-      "contentHash": "099579b39525"
-    },
-    {
-      "id": "27e0ec5d374b",
-      "title": "Cox Media fined after bragging it spied on users through their phones",
-      "url": "https://www.theverge.com/policy/937027/cox-media-marketing-ai-powered-phone-spying-ads-ftc-fine",
-      "summary": "FTCはCox MediaとMindSift、1010 Digital Worksに対し、電話やスマート機器で利用者を盗聴して広告ターゲティングできると虚偽に宣伝したとして計93万ドルの和解金支払いを命じたが、実際に可能だった証拠は乏しい。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-25T18:28:30.000Z",
-      "contentHash": "9212586bfa7a"
-    },
-    {
-      "id": "04ae3b22f051",
-      "title": "Pope Leo calls for being ‘profoundly human’ in the age of AI",
-      "url": "https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare",
-      "summary": "教皇レオ14世が初の回勅「Magnifica Humanitas」で、AI時代に「深く人間らしく」あることを訴え、AIによる戦争・労働・人間の尊厳侵害を警告。新たな法的・倫理的枠組みの構築を求め、現代をバベルの塔になぞらえた。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-25T15:05:07.000Z",
-      "contentHash": "3f021c7afde5"
-    },
-    {
-      "id": "138181572c8b",
-      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
-      "url": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-      "summary": "オランダ当局は、ロシアのEU内サイバー攻撃や偽情報工作に利用されたとされるStarkやMIRhostingに関与したホスティング会社共同経営者2名をEU制裁違反容疑で5月18日に逮捕した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-25T13:56:39.000Z",
-      "contentHash": "a80349463df2"
-    },
-    {
-      "id": "03477fde0dcb",
-      "title": "Here are our favorite last-minute deals from REI’s giant Anniversary Sale",
-      "url": "https://www.theverge.com/gadgets/931274/rei-anniversary-sale-2026",
-      "summary": "REIの年次アニバーサリーセールが5月25日まで開催中。ガーミン腕時計やソーラーライト、テント・寝具・ストーブ・浄水器などアウトドア用品が特価。Amazonなどでも一部割引あり。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-25T13:40:00.000Z",
-      "contentHash": "da8ed40898aa"
-    },
-    {
-      "id": "fc55997dc5d6",
-      "title": "Pope Leo XIV says AI must serve humanity, not the powerful few",
-      "url": "https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/",
-      "summary": "教皇レオ14世は回勅『Magnifica Humanitas』で、AIを軍事・経済的支配から「脱武装」し、人々の参加を促し規制強化を求めるよう訴えた。一部の富裕層・ビッグテックによる格差拡大や民主主義・人間性の侵食を警告している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-25T13:17:58.000Z",
-      "contentHash": "c0c75585bef9"
-    },
-    {
-      "id": "9c6979ddf3a4",
-      "title": "Pope Leo: opaque AI run by few firms risks \"New Forms of Dehumanization\"",
-      "url": "https://variety.com/2026/biz/global/pope-leo-ai-encyclical-algorithms-threaten-dehumanisation-1236758186/",
-      "summary": "教皇レオ14世は回勅「Magnificent Humanity」で、不透明なアルゴリズムが少数企業に握られると新たな「非人間化」を招くと警告し、AI規制と利潤至上主義への反対を訴えた。米・イスラエルの対イラン戦でもAIが使われたと指摘。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-25T13:12:40.000Z",
-      "contentHash": "81321a596f9a"
-    },
-    {
-      "id": "45a3c7b11299",
-      "title": "Search engines alternatives now that Google isn't Google anymore",
-      "url": "https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/",
-      "summary": "GoogleはI/O 2026で検索を対話型AI中心に大刷新。AIモードやチャット式の「AI概要」を導入する一方、強制的なAI導入や過去の誤情報事例により利用者の反発や独占問題の懸念が出ている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-25T12:27:11.000Z",
-      "contentHash": "393c568c7608"
-    },
-    {
-      "id": "2e2e979cf397",
-      "title": "Leave Me Behind",
-      "url": "http://androidessence.com/leave-me-behind/",
-      "summary": "「AIを学べ、さもなくば取り残される」と言われる中、著者は2014年にAndroid開発を学び、todoアプリで「閃き」を得る。以後十年、人々の生活を助けるアプリを作り続け、成果よりもともに歩んだ人々を大切にする過程を語る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-25T12:03:54.000Z",
-      "contentHash": "8168b354d27d"
-    },
-    {
-      "id": "be148234eb3b",
-      "title": "Amazon Bedrock AgentCore を一から触ってみる | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/05/25/203111",
-      "summary": "Amazon Bedrock AgentCoreで天気エージェントを再構築。Runtime/Memory/Gateway/Observabilityを活用し、CLIで作成→ローカル検証→デプロイ。コードベース化、@tool/Gateway連携、トレース可視化や導入手順・注意点を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-25T11:31:11.000Z",
-      "contentHash": "902c7ef3d63a"
-    },
-    {
-      "id": "9908bfafd10f",
-      "title": "Amazon Bedrock Agents を触ってみる | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/bedrock-agents-begginer-weather",
-      "summary": "Amazon Bedrock Agentsを使い、Claude（Anthropic）＋Lambda＋Open‑Meteoで「東京の天気を教える」チャットエージェントをGUI中心に作る手順を解説。アーキテクチャ、アクショングループ、Lambda作成・ポリシー設定・テスト・API呼び出し例を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-25T11:23:55.000Z",
-      "contentHash": "784852785a76"
-    },
-    {
-      "id": "0b3b915b9673",
-      "title": "XSS（クロスサイトスクリプティング）とは？脆弱性の診断方法と対策 | エニグモ開発者ブログ",
-      "url": "https://tech.enigmo.co.jp/entry/2026/05/25/200000",
-      "summary": "XSSは悪意あるスクリプトをWebサイトに注入し利用者のブラウザで実行させる脆弱性で、クッキー窃取や不正操作、強制リダイレクトなどを引き起こす。反映型・蓄積型があり、入力にテスト用スクリプトを入れて診断し、サニタイズや出力エンコーディングで対策する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-25T11:00:00.000Z",
-      "contentHash": "7a37331b9952"
-    },
-    {
-      "id": "82b7275074f8",
-      "title": "Claude Code更新 usage内訳・modelセッション単位・agents定着【5/17〜23】 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/05/25/200000",
-      "summary": "5/17〜23のClaude Codeはバグ修正と安定化が中心。主な変更は、/usageがskills・subagents・plugins・MCP別に利用内訳表示（v2.1.149）、/modelがセッション単位化で'd'で既定保存（v2.1.144）、/resumeやピン留めでagentsやバックグラウンドセッション運用を強化（v2.1.144〜147）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-25T11:00:00.000Z",
-      "contentHash": "2b104da6ef8b"
-    },
-    {
-      "id": "5a1ada1138c3",
-      "title": "Magnifica Humanitas",
-      "url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
-      "summary": "SocialBarオブジェクトはシェアボタンを管理し、クリックでシェアバーを開閉する。開閉アニメやローディング表示を行い、Facebook/Twitter/メールの共有リンクを動的に生成して表示する機能を持つ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-25T10:11:29.000Z",
-      "contentHash": "4fad83e4059a"
-    },
-    {
-      "id": "b12a1fae4165",
-      "title": "エンジニア1年目の苦労と学び | 分析屋",
-      "url": "https://note.com/bunsekiya_tech/n/n75ac802028f0",
-      "summary": "未経験でAIエンジニアになってから約1年を振り返る記事。手探りで過ごした混乱の1年を中心に、失敗や恥をかいた経験を赤裸々に共有する内容です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-25T10:01:40.000Z",
-      "contentHash": "ccbaba8081d7"
-    },
-    {
-      "id": "937fb8e45e4f",
-      "title": "Rising seas will swallow New Orleans. People need to start relocating now",
-      "url": "https://www.cnn.com/2026/05/25/climate/new-orleans-sea-level-rise-relocation",
-      "summary": "新研究は今世紀中にニューオーリンズがメキシコ湾に囲まれる可能性を示し、事実上「後戻り不能」と警告。海面上昇（約3～7m）や湿地の大規模消失で残存湿地の約75%が失われ、海岸線は最大約100km後退。混乱回避のため早急な移転計画と格差対策が必要としている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-25T09:41:38.000Z",
-      "contentHash": "89b5d2553b41"
-    },
-    {
-      "id": "328a5ca84ea3",
-      "title": "TanStack Query × Dexie.js で「プロトタイプを全部捨てる」から卒業する境界設計 | DRESS CODE TECH BLOGのフィード",
-      "url": "https://zenn.dev/dress_code/articles/5d33f06aa14582",
-      "summary": "もず（Dress Code）が、フロントだけで動くCRUDプロトタイプの「捨てるコード」を最小化する設計を紹介。データやりとりを-api層に閉じ、Dexie.js（IndexedDB）で永続化し、TanStack Queryの-query以上を本実装として再利用する方針。IndexedDBはリロード保持やBlob対応が利点。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-25T09:30:05.000Z",
-      "contentHash": "f405624000d4"
-    },
-    {
-      "id": "b5e0096d8081",
-      "title": "Rust のSIGTRAPバグを調べたら破壊的変更の取り消しが原因だった（翻訳） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_05_25/157909",
-      "summary": "Rust 1.85.0で、Cにパスしたクロージャをunsafeなtransmuteで&mut &mut dyn FnMut()に戻すコードがコンパイラ最適化でUD2命令（SIGTRAP）になり大量のテストが失敗。原因は破壊的変更の取り消しに伴う最適化の振る舞いだった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-25T08:30:04.000Z",
-      "contentHash": "80c77bb9397c"
-    },
-    {
-      "id": "284f7a7892e7",
-      "title": "TSKaigi 2026 協賛・参加レポート | ROUTE06 Tech Blog",
-      "url": "https://tech.route06.co.jp/entry/2026/05/25/172523",
-      "summary": "ROUTE06はTSKaigi 2026をBronze協賛し、エンジニアNoritakaIkedaが登壇。OSSへneverthrowを漸進導入し、Result型で型安全なエラーハンドリングを行う4段階の手法やAIとの相性、運用知見を紹介し好評を得ました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-25T08:25:23.000Z",
-      "contentHash": "ba9381fb1135"
-    },
-    {
-      "id": "4ed12c6df154",
-      "title": "Android Developer Verificationが与えるストア外配信への影響 | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/ff3ee3201d5042",
-      "summary": "2026年からAndroidは開発者登録を義務化。未登録アプリは熟練者向けのAdvanced Flowでのみインストール可能（開発者モード有効化、再起動・再認証等の手順）。adbは例外。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-25T08:16:17.000Z",
-      "contentHash": "b5163340bf75"
     }
   ]
 }
