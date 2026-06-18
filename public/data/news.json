@@ -1,14 +1,149 @@
 {
-  "generatedAt": "2026-06-18T04:35:48.811Z",
+  "generatedAt": "2026-06-18T12:05:33.703Z",
   "items": [
     {
+      "id": "e18dd35b8f7b",
+      "title": "[Claude Code] SkillとPluginが内部でどう読み込まれているのか、実際のファイルを覗いてみた | NCDC テックブログのフィード",
+      "url": "https://zenn.dev/ncdc/articles/d39bf5c31e0fe8",
+      "summary": "Claude CodeのSkillは指示書を格納したフォルダで、実体はYAMLフロントマター＋本文のSKILL.md。スコープはユーザ（~/.claude/skills）とプロジェクト（.claude/skills）で優先度はProject>User>Enterprise。起動時は各SKILL.mdのname/descriptionだけを読み取り<available_skills>に登録する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-18T09:18:20.000Z",
+      "contentHash": "a058337e09f1"
+    },
+    {
+      "id": "cd38287bfe86",
+      "title": "VMとロードバランサを使ってたインフラ系エンジニアが、AKSのネットワークに入門したら | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/06/18/180000",
+      "summary": "VM中心の固定IP運用と違い、KubernetesのPodは短命でIPが変わる。そこでService（不変のL4仮想IP）とIngress（外部公開の設計＋Controller）が通信を担う。AKSではネットワークモデル選択（推奨：Azure CNIオーバーレイ、従来のAzure CNI、参考：Kubenet）が重要、という入門ガイド。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-18T09:00:00.000Z",
+      "contentHash": "13d45be4cc72"
+    },
+    {
+      "id": "ab53f70b54bf",
+      "title": "Datadog DASH 2026に参加してきました！ | Timee Product Team Blog",
+      "url": "https://tech.timee.co.jp/entry/2026/06/18/180000",
+      "summary": "タイミーのPlatform EngineerがDASH 2026に参加。斎藤氏がLLM本番導入を発表。DatadogはBits AIを軸にOps／Dev／AI Agentの三つのループで検知・修復・コード生成・テスト・エージェント観測を自動化する新機能群を披露。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-18T09:00:00.000Z",
+      "contentHash": "08666d77b1df"
+    },
+    {
+      "id": "e62bc476d1f5",
+      "title": "【イベントレポート】InteropTokyo2026～AIセキュリティとAI駆動開発の今を探る～ | TechHarmony",
+      "url": "https://blog.usize-tech.com/interop-tokyo-2026-report-ai/",
+      "summary": "Interop Tokyo 2026参加レポ。会場はAI一色で、AIセキュリティはシャドーAI可視化、プロンプト難読化やエージェント対策、運用自動化・可視化が注目。AI駆動開発は実践重視、利用状況のアセスメント、AI主導のレビューや従量課金化が今後の潮流。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-18T08:51:02.000Z",
+      "contentHash": "f38a83caf8ff"
+    },
+    {
+      "id": "58eeb22a3fff",
+      "title": "Claude Code の VS Code 拡張で個人設定を見せずにデモしたい ── CLAUDE_CONFIG_DIR で設定を分離する | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/claude-code-vscode-demo-config-separation",
+      "summary": "CLAUDE_CONFIG_DIRでClaude Codeの設定ディレクトリを切り替え、~/.claude-demoなどを用意して個人のHooksやCLAUDE.mdを読み込まずにVS Code拡張をデモする方法。複数のVS Codeを同時に開く場合は--user-data-dirでユーザーデータも分離。macOS＋zsh向けのセットアップ手順あり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-18T08:32:08.000Z",
+      "contentHash": "f8af1119bd5b"
+    },
+    {
+      "id": "6e0238b52783",
+      "title": "Rails: ネストしたフォームを Turbo だけで構築する（翻訳） | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_06_18/158082",
+      "summary": "原著許諾の翻訳：Rails Designerが、追加の依存なしにTurboだけでRailsのネストしたフォームを構築する手法を解説します（原文2024/08/15、更新09/17）。ViewComponentやTailwindのUIも紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-18T08:30:30.000Z",
+      "contentHash": "a7b3b1461bd3"
+    },
+    {
+      "id": "6b5f6a59becf",
+      "title": "【New Relic】MCP×AIエージェントによるインシデント調査の自動化 | TechHarmony",
+      "url": "https://blog.usize-tech.com/newrelic-mcp-server/",
+      "summary": "New RelicのMCPサーバーをAIエージェント（Claude Code）と接続し、自然言語でのデータ取得・ログ分析・アラート確認などによりインシデント調査を自動化する手順（前提、認証準備、接続設定、接続確認）を解説する入門記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-18T08:22:17.000Z",
+      "contentHash": "f7175d68f7e8"
+    },
+    {
+      "id": "add6b5385c14",
+      "title": "AMD silently removes memory encryption from consumer Ryzen CPUs",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change",
+      "summary": "Tom's Hardwareは、AMDが新しいAGESAファームで消費者向けRyzenのメモリ暗号化（SMEなど）サポートを告知なく実質的に削除し、ユーザーが気付かないまま保護機能が消え脆弱性が懸念されていると報告。AMD側は説明を避けているとして、Hacker Newsでも議論になっている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T08:08:00.000Z",
+      "contentHash": "ad119e9947da"
+    },
+    {
+      "id": "3f5b6fb5911e",
+      "title": "Microsoft公式の論文「エージェントAI時代のプラットフォームエンジニアリング」を解説する | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/06/18/170000",
+      "summary": "Microsoft論文は、Agentic AIがライブAPIを直接読みデイゼロでインフラを構築し、IaCは抽象化から変更記録へ役割変化すると指摘。プラットフォームはモジュール提供からエージェント運用へ移行。実験段階。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-18T08:00:00.000Z",
+      "contentHash": "9d207942a18b"
+    },
+    {
+      "id": "3db3c2c9cb22",
+      "title": "LegalOn Technologiesで7ヶ月インターンした話 — 読み順が崩れる官報PDFをLLMで構造化した | LegalOn Technologies Engineering Blog",
+      "url": "https://tech.legalforce.co.jp/entry/structuring-kanpo-pdf-with-llm",
+      "summary": "2025年12月〜2026年6月にLegalOnでインターン。TomoniAI向けに官報PDF解析を担当。bboxの順序が読み順と異なり縦横混在でルールベースが困難なため、調査→PoC→実装で技術検証（PDFライブラリ・LLM等）を進めた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-18T07:53:42.000Z",
+      "contentHash": "1c7d7792cf8b"
+    },
+    {
+      "id": "596c785b706f",
+      "title": "Algomatic AIラボの論文解説から振り返る、AIエージェント研究の変化 | Algomatic Tech Blog",
+      "url": "https://tech.algomatic.jp/entry/ai-agent-research-trends",
+      "summary": "Algomatic AIラボがX投稿を再整理。AIエージェント研究は①能力拡大と外部連携、②業務利用に向けた設計、③安全性・再現性重視へ移行。対話推論やロボット、EC、ヘルスケア、機密データ技術が初期に注目。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-18T07:53:41.000Z",
+      "contentHash": "62e69a842cb1"
+    },
+    {
+      "id": "438eb8aff4a1",
+      "title": "The Australian Government to Require SMS/MMS Sender ID Registraion",
+      "url": "https://www.acma.gov.au/sms-sender-id-register",
+      "summary": "ACMAがSMS送信者IDの登録制度を導入。企業・団体がアルファベット等の送信者IDを登録し、通信事業者や利用者が発信元を確認できる仕組みで、SMS詐欺やなりすまし対策を強化する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T06:23:24.000Z",
+      "contentHash": "b0d50839b0e7"
+    },
+    {
+      "id": "7ea330ae999c",
+      "title": "DeepSeek Introduces Vision",
+      "url": "https://chat.deepseek.com/",
+      "summary": "すみません、現状で外部ページを直接開けません。記事本文を貼っていただけますか？またHacker Newsのコメントも要約するか（はい/いいえ）を教えてください。200字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T06:17:40.000Z",
+      "contentHash": "2d32499396ea"
+    },
+    {
+      "id": "fffae681381a",
+      "title": "SteamOS Linux 3.8 released as stable",
+      "url": "https://store.steampowered.com/news/app/1675200/view/697641379212298072",
+      "summary": "Steamストアのページ用JavaScriptで、セッションIDや言語設定、ミニプロファイルホバーの初期化、動的ストアの初期化、通貨表示フォーマッタや最小価格単位などを設定している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T04:05:06.000Z",
+      "contentHash": "1a098db0e11d"
+    },
+    {
       "id": "67d0422be3c1",
-      "title": "Midjourney Medical goes from generating ‘cat images’ to full-body ultrasound scans",
+      "title": "Midjourney goes from generating cat images to full-body ultrasound scans",
       "url": "https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan",
-      "summary": "MidjourneyのCEOが発表した「Midjourney Scanner」は、環状センサーで全身を縦方向にスキャンする超音波装置。筋肉・脂肪・骨・臓器の構成を解析し、MRIに匹敵する画質を目指し、年一回や毎日の健康チェックを想定している。",
+      "summary": "MidjourneyのCEOデイビッド・ホルツが発表した「Midjourney Scanner」は、リング状センサーで全身を垂直断面スキャンする超音波ベースの機器。筋肉・脂肪・骨・臓器の構成を解析し、MRI並の画質を目指して日常的・年次の体組成変化の追跡を想定。サンフランシスコのスパ展開も計画している。",
       "source": "The Verge",
       "publishedAt": "2026-06-18T03:12:31.000Z",
-      "contentHash": "10299017cad6"
+      "contentHash": "0efda1e69d76"
+    },
+    {
+      "id": "2f378c007c33",
+      "title": "Local Qwen isn't a worse Opus, it's a different tool",
+      "url": "https://blog.alexellis.io/local-ai-is-not-opus/",
+      "summary": "著者は実務経験から、ローカルQwen（27B/35A3B）はOpusと異なる有用な道具だと述べる。業務で費用回収できる価値を示した一方、消費者GPU向けに量子化すると無限ループや幻覚が出やすく、監視運用が必要と警告。自身のOpenFaaS等の運営背景も紹介。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T03:04:20.000Z",
+      "contentHash": "79f899f17df3"
     },
     {
       "id": "3cc44f706ee1",
@@ -41,10 +176,10 @@
       "id": "96462802cc97",
       "title": "Midjourney Medical",
       "url": "https://www.midjourney.com/medical/blogpost",
-      "summary": "Midjourneyが医療向け画像・動画生成機能を発表。教育や可視化の利点が期待される一方、診断誤導やデータ倫理・規制のリスクを懸念する議論が活発化（HNで278点・235コメント）。",
+      "summary": "Midjourneyが医療用のAI動画生成機能を発表。手術や診療のリアルな教育映像を簡便に作れる一方、学習データの出典や患者プライバシー、誤情報・深刻な悪用（ディープフェイク）への懸念がコミュニティで大きな議論を呼んだ。",
       "source": "Hacker News",
       "publishedAt": "2026-06-18T01:59:51.000Z",
-      "contentHash": "e2da03cdbf0a"
+      "contentHash": "a124b079a4ef"
     },
     {
       "id": "69b2921c452b",
@@ -110,8 +245,35 @@
       "contentHash": "5ed200c83104"
     },
     {
+      "id": "4285691dba3f",
+      "title": "ChatGPT's image generator can be manipulated to produce violent, sexual content",
+      "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+      "summary": "Mindgardの調査で、ChatGPTの画像生成フィルターが容易に回避され、暴力や性的に過激な画像が直接指示しなくても生成されることが判明。シャドーAIや攻撃面を露呈し、継続的な検査と即時対応の必要性を示す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T00:24:04.000Z",
+      "contentHash": "ed98d027185f"
+    },
+    {
+      "id": "530b097d53ed",
+      "title": "Taxonomy of the Occlupanida (parasitoids on bread bag tags)",
+      "url": "https://www.horg.com/horg/?page_id=921",
+      "summary": "申し訳ありませんが外部サイトに直接アクセスできません。記事本文または主要部分を貼っていただければ、200文字以内で日本語要約します。HNコメントの要約も可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-17T23:20:38.000Z",
+      "contentHash": "0c3c6ad59196"
+    },
+    {
+      "id": "cd1a8b93286e",
+      "title": "Clojure Hosted on Go",
+      "url": "https://github.com/glojurelang/glojure",
+      "summary": "Goで実装されたClojure風のLisp実装「glojure」。REPLや基本的なデータ構造、Goとの相互運用を目指すプロジェクトで、設計方針や用途についてHNで活発に議論されています。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-17T23:14:49.000Z",
+      "contentHash": "3c1fe3b399a4"
+    },
+    {
       "id": "991fa60a2523",
-      "title": "Storied Colors – a catalogue of named colors",
+      "title": "Storied Colors – A catalogue of named colors",
       "url": "https://storiedcolors.com/",
       "summary": "唐代の鉱物性黄色顔料「帝黄」。温かく鮮やかな色合いで、唐以降は中国皇帝専用とされ、身分規定により皇族以外の使用が禁じられた。",
       "source": "Hacker News",
@@ -167,10 +329,10 @@
       "id": "06d532abc694",
       "title": "Epic wants to let you bring your Fortnite skins to other games",
       "url": "https://www.theverge.com/games/951785/epic-games-fortnite-unreal-fest-2026-unreal-engine-6-ai-metaverse",
-      "summary": "EpicはUnreal Engine 6でフォートナイトのスキンを他ゲームでも使える仕組みを導入。開発者はフォートナイトと相互運用するスキンを作成でき、購入を尊重するメタバース実現を目指す。",
+      "summary": "EpicはUnreal Engine 6でFortniteスキンの相互利用を実現し、他ゲームがプレイヤーのスキンを使えるほか、他の開発者がFortnite対応スキンを作れる仕組みを導入。購入を尊重するメタバース構想の実証を目指す。",
       "source": "The Verge",
       "publishedAt": "2026-06-17T19:09:00.000Z",
-      "contentHash": "cd95aea272d0"
+      "contentHash": "ee3cff0ea63a"
     },
     {
       "id": "c1fa95dd22fb",
@@ -608,10 +770,10 @@
       "id": "ba6e7a0ad29a",
       "title": "プロシージャルモデリングによる3Dモデル生成",
       "url": "https://note.com/npaka/n/n25bfbc58b41e",
-      "summary": "プロシージャルモデリングはルールやパラメータで大量の3Dモデルやシーンを自動生成する手法で、ゲームや映像の地形・木・建物・破壊表現に有効。Houdini、Blender Geometry Nodes、Substance Designerが代表ツールで、AI生成と組み合わせて効率と再編集性を高められる。",
+      "summary": "プロシージャルモデリングはルールやパラメータで地形・木・建物など大量の3Dモデルを生成する手法。ゲームや映像で多用され、Houdini・Blender Geometry Nodes・Substance等が代表ツール。プロシージャル生成の一種で、AI生成と組み合わせ効率と再編集性を高められる。",
       "source": "npaka",
       "publishedAt": "2026-06-17T03:52:03.000Z",
-      "contentHash": "62579bfd2e94"
+      "contentHash": "0eb6e8a1f6af"
     },
     {
       "id": "1c3c68539c2a",
@@ -1607,10 +1769,10 @@
       "id": "2018f7f18005",
       "title": "Codex の自分用スキルの作り方と育て方",
       "url": "https://note.com/npaka/n/n1ca7a4fe32ac",
-      "summary": "Codexでよく使う指示を「スキル」として ~/.agents/skills/ に保存する方法を解説。校正チェックを例に作成・配置・更新手順を示し、使いながら好みやルールを追記して育て、人間が確認しつつCodexに編集させる運用を推奨。",
+      "summary": "Codexで頻繁な指示を「スキル」として保存・運用する方法。例は校正スキル（番号付き提案、修正前後と説明、採用確認）を~/.agents/skills/に置き、使いながらルールを追加して好みに育てる。",
       "source": "npaka",
       "publishedAt": "2026-06-15T12:43:36.000Z",
-      "contentHash": "8b971bef784b"
+      "contentHash": "dcfcd7ae5a6b"
     },
     {
       "id": "8efceb5be72f",
@@ -1886,10 +2048,10 @@
       "id": "7fe9a09cfc96",
       "title": "Palantir とは",
       "url": "https://note.com/npaka/n/n0c5046f3d792",
-      "summary": "Palantirは政府・国防機関や大企業向けに、分散するデータを統合しAIや業務フローと結び付けて現場の意思決定を支援するソフトウェア企業。Gotham（防衛向け）やFoundry（企業向け）が代表製品。",
+      "summary": "Palantirは2003年創業の米国ソフト企業で、GothamやFoundryなどで政府・国防機関や大企業の多様なデータを統合し、AIと結び付けて現場の意思決定・業務運用を支援する基盤を提供する。Project Mavenなどで国防分野でも存在感がある。",
       "source": "npaka",
       "publishedAt": "2026-06-15T01:58:33.000Z",
-      "contentHash": "8dc731dfa379"
+      "contentHash": "e67ce597a476"
     },
     {
       "id": "a50a8de31ca5",
@@ -2876,10 +3038,10 @@
       "id": "0a018181042b",
       "title": "Suno 入門",
       "url": "https://note.com/npaka/n/n2bd9d8b3895d",
-      "summary": "Sunoはテキストから歌入り曲を生成するAIサービス。ブラウザでログインし歌詞とスタイルを入力して作曲。無料/Pro/Premiumの料金とモデル差（無料はv4.5、有料はv5.5等）があり、商用利用はPro以上を推奨。プロンプト例や楽曲サンプルも掲載。",
+      "summary": "Sunoはテキストからメロディ・伴奏・歌詞・ボーカル入り曲を生成するAIサービス。サイトでログイン→Createで歌詞やスタイルを入力するだけ。無料/Pro/Premierの料金体系があり、商用利用や高品質モデル(v5.5等)、高度編集は有料。プロンプトで曲調を細かく指定可能。",
       "source": "npaka",
       "publishedAt": "2026-06-12T02:23:05.000Z",
-      "contentHash": "4f97a8270f0b"
+      "contentHash": "60ff053a196b"
     },
     {
       "id": "7874061062f9",
@@ -8838,168 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-05-30T01:37:51.000Z",
       "contentHash": "1757c31276e2"
-    },
-    {
-      "id": "6f0005165d23",
-      "title": "Power BI レポートをDatabricksダッシュボードに変換する | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/56a8e6f5ae9e12",
-      "summary": "Azure DatabricksのGenie Code β機能「Import BI files」を検証。Power BIの.pbitを読み込んでスキーマ、テーブル、Metric View（DAXを宣言的定義へ変換）、ダッシュボードを自動生成。データ本体やカタログ設計は別途必要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-30T00:45:32.000Z",
-      "contentHash": "abae797b3a98"
-    },
-    {
-      "id": "4651e52f42fd",
-      "title": "What Is a Dickover?",
-      "url": "https://daringfireball.net/2026/05/what_is_a_dickover",
-      "summary": "ジョン・グルーバーは、コンテンツを遮り不要な操作を強いるモーダルやポップオーバーを「dickover」と呼び、クッキー同意や購読要求などがウェブ全体に蔓延していると批判、特にSubstackの全画面案内を例に挙げている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-29T23:54:22.000Z",
-      "contentHash": "3edef9cbb93e"
-    },
-    {
-      "id": "e4cca38d8005",
-      "title": "Nvidia, Microsoft, and Arm are all teasing Nvidia’s new N1X laptop processors",
-      "url": "https://www.theverge.com/news/940275/nvidia-n1x-laptop-processor-arm-microsoft-teaser",
-      "summary": "NvidiaがComputex日曜夜の基調講演でArm搭載のノート向けN1/N1Xチップを発表するとみられる。MicrosoftとArmも「新時代のPC」と台北の座標で示唆。LenovoやDellの採用報道あり。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-29T23:03:29.000Z",
-      "contentHash": "6fdb8ac4c27b"
-    },
-    {
-      "id": "52009a07b017",
-      "title": "MCP is dead?",
-      "url": "https://www.quandri.io/engineering-blog/mcp-is-dead",
-      "summary": "MCP（LLMと外部ツール接続）はツール定義でコンテキストを大量消費（4サーバで10.5%、Linear単独で約12,800トークン）、性能・信頼性に問題があり既存CLI/APIと重複する。初回で最大9.4倍遅い等のオーバーヘッドがあり、Claude CodeのDeferred Loadingでコンテキスト問題は改善したが性能・デバッグ・設計上の課題は残る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-29T22:56:49.000Z",
-      "contentHash": "5f2996fb5ff2"
-    },
-    {
-      "id": "ddbfadcf0274",
-      "title": "SpaceX gets $4 billion contract to build missile-tracking ‘Golden Dome’ satellites",
-      "url": "https://www.theverge.com/science/940207/spacex-golden-dome-satellite-contract",
-      "summary": "米国防省がスペースXに、トランプ氏の防衛構想「ゴールデン・ドーム」用ミサイル追跡衛星を41.6億ドルで発注。衛星で宇宙から目標を検出・追跡し、同社は他の関連契約も保有している。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-29T21:48:52.000Z",
-      "contentHash": "ebf4a9cef9f5"
-    },
-    {
-      "id": "b207022313c5",
-      "title": "EV Stupidity Checklist",
-      "url": "http://hypercritical.co/2026/05/29/ev-stupidity-checklist",
-      "summary": "著者はEVが従来の優れた設計を捨て、埋め込み式ドアハンドルや過剰なタッチスクリーンなどで機能性・安全性を損ねていると批判。タッチは安価で普及したが不人気で危険。安全優先へ戻すためのチェックリストを作成した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-29T21:29:51.000Z",
-      "contentHash": "d28354e54877"
-    },
-    {
-      "id": "1824dd1f6d8e",
-      "title": "NSA「ゼロトラスト実装ガイドライン（ZIG）」完全解説 — 4本のPDF、42 Capabilityと91 Activity | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/nsa-zig-zero-trust-implementation-guidelines/",
-      "summary": "NSAのZIGは新理論でなく、4本のPDFで42のCapability・91のActivityに分解した「実装作業仕様書」。DoDのFY2027目標達成に向けた現場向け導入・運用指針で、米防衛サプライチェーン経由で日本企業にも影響する実務ガイド。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-29T20:47:00.000Z",
-      "contentHash": "bf4106fbd62d"
-    },
-    {
-      "id": "9a95a183af72",
-      "title": "The Last Technical Interview",
-      "url": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
-      "summary": "スティーブ・イェッジは、ホワイトボード上のアルゴリズム問題中心の技術面接を批判し、実務に近い課題、ペアプログラミング、設計議論や短期トライアル採用で実際の能力・協働力を評価する新しい採用法を提案する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-29T19:58:56.000Z",
-      "contentHash": "e53977538fc0"
-    },
-    {
-      "id": "9a3e2cc3c50f",
-      "title": "The California state assembly has passed the 'Protect Our Games Act'",
-      "url": "https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill",
-      "summary": "「Stop Killing Games」運動が追い風に。カリフォルニア州下院がAB1921「Protect Our Games Act」を可決。2027年以降のデジタルゲームはサービス終了時に60日通知と購入者が引き続き遊べる環境維持を義務化。発端はUbisoftの『The Crew』停止。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-29T19:55:56.000Z",
-      "contentHash": "12cbc5cee517"
-    },
-    {
-      "id": "8fc846704960",
-      "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
-      "url": "https://github.com/jmaczan/tiny-vllm",
-      "summary": "tiny-vllmはC++とCUDAで高性能LLM推論エンジンを作る実装＋講義リポジトリ。SafetensorsのLlama読み込み、CUDAカーネル、KVキャッシュ、静的/連続バッチ、オンラインsoftmaxやPagedAttentionなど最適化手法を段階的に学べる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-29T19:38:27.000Z",
-      "contentHash": "b184aa33b234"
-    },
-    {
-      "id": "5d6a562776f8",
-      "title": "Microsoft 0-day feud escalates as researcher threatens another exploit dump",
-      "url": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
-      "summary": "不満を抱くバグハンター「Nightmare Eclipse」がWindows向けゼロデイ6件を公開。BlueHammer・RedSun・UnDefendは既に悪用され、YellowKey（CVE-2026-455）などは未修正。Microsoftは事前通報を受けておらず警察に通報、7月14日に追加公開を予告。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-29T19:37:41.000Z",
-      "contentHash": "36cc624c224b"
-    },
-    {
-      "id": "55b0c0308dd4",
-      "title": "Shift will clean homes for free to train future robots",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
-      "summary": "AIスタートアップShiftは、将来のロボット訓練用データを得るために清掃員の作業を「マジックハット」のカメラで録画する代わりに、無料で自宅を清掃すると発表した。作業映像でロボットを学習させるという。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-29T19:16:32.000Z",
-      "contentHash": "57b8a082d316"
-    },
-    {
-      "id": "d376513844ed",
-      "title": "On Rendering Diffs",
-      "url": "https://pierre.computer/writing/on-rendering-diffs",
-      "summary": "プルリクの差分表示は小規模なら問題ないが、大きくなると表示遅延や操作性低下が起きる。そこで6ヶ月前に「Diffs」を公開し、File/FileDiffや仮想化でレンダリング負荷を下げ、レビュー周辺の作業に集中できるようにした。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-29T19:04:54.000Z",
-      "contentHash": "7a0ccabf82de"
-    },
-    {
-      "id": "541c94058649",
-      "title": "Acer’s launching a Linux handheld for streaming your PC games",
-      "url": "https://www.theverge.com/games/940091/acer-nitro-blaze-link-linux-handheld",
-      "summary": "Acerがストリーミング専用のLinux携帯機「Nitro Blaze Link」を発表。7インチ（1920×1200）、Wi‑Fi6、RAM1GB、内蔵8GB、2026年Q4発売予定。ローカル実行は想定外で価格未定。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-29T19:01:48.000Z",
-      "contentHash": "0cc3a6367b84"
-    },
-    {
-      "id": "f207ff77e37e",
-      "title": "Rothko for your current weather conditions",
-      "url": "https://rothko.joonas.wtf/",
-      "summary": "マーク・ロスコは1940年代後半に具象をやめ、光や色、鑑賞者に与える感情だけを追求した。ぼやけた縁の長方形を2〜3配置し、色が独自の気配を持つまで画面を練り、低く掛け照明を落として座って向き合うことを求めた。絵はただ見るものではなく何かを為すべきだと考えた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-29T18:31:52.000Z",
-      "contentHash": "0c6a72c522e9"
-    },
-    {
-      "id": "ad448856994d",
-      "title": "SQLite is all you need for durable workflows",
-      "url": "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/",
-      "summary": "記事は、SQLiteのACID性やWALなどを用いてワークフロー／タスクキューを単一DBで実装する方法を紹介。トランザクションでタスクの確保・再試行・予約を行い、外部ミドル不要で堅牢かつ運用が簡素化されるが、スケーリングやファイルシステム依存の注意点があると指摘する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-29T17:54:50.000Z",
-      "contentHash": "35d37d920100"
-    },
-    {
-      "id": "8e8fb67fbd90",
-      "title": "Tech companies desperately want to film you doing chores",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/940007/ai-companies-will-pay-for-robot-training-data",
-      "summary": "ロボット開発のため、家事作業の実世界映像を集めようとする企業が清掃を無料で提供し撮影を行っている。物理環境の複雑さを学習させる必要があり、ShiftはNYで始め他都市展開を計画している。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-29T17:37:43.000Z",
-      "contentHash": "40a762c6f450"
-    },
-    {
-      "id": "b1eb05743ee0",
-      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
-      "summary": "Google I/O 2026で発表された新モデル、Gemini Omniは推論力と生成力を融合し、Gemini 3.5は複雑なエージェント的ワークフロー実行を支援します。記事は両者の実演9例を紹介。",
-      "source": "Gemini",
-      "publishedAt": "2026-05-29T17:30:00.000Z",
-      "contentHash": "1b8531ab20a8"
     }
   ]
 }
