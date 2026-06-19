@@ -1,6 +1,204 @@
 {
-  "generatedAt": "2026-06-18T18:38:45.314Z",
+  "generatedAt": "2026-06-19T05:02:23.169Z",
   "items": [
+    {
+      "id": "8ad2b1d3c2a8",
+      "title": "Barret Zoph is out at OpenAI again after just five months",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+      "summary": "OpenAIのエンタープライズAI営業責任者バレット・ゾフが、1月の再入社からわずか5カ月で退社した。再加入前はMira Muratiの競合、Thinking Machines Labを共同設立していた。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-19T04:49:33.000Z",
+      "contentHash": "016a63993c20"
+    },
+    {
+      "id": "b81115442cc5",
+      "title": "Teams Phone設定漏れユーザーをPowerShellで一括特定 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/06/19/130954",
+      "summary": "Teams Phoneのライセンスは付与済みでも、EnterpriseVoiceEnabledの有効化や電話番号割当がされていなければ機能は使えず費用の無駄に。PowerShellでTeams/Microsoft Graphに接続し、Microsoft 365 E5・Teams Phone Standard・Shared Device保有者をスキャンして未設定（EnterpriseVoiceEnabled未有効や電話番号未割当）ユーザーを抽出し、C:\\temp\\Teams_Full_Audit_Report.csvに出力するコマンドを紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-19T04:09:54.000Z",
+      "contentHash": "ec2d78f47ca7"
+    },
+    {
+      "id": "119877b9baaf",
+      "title": "React NativeのQAビルド時間を約80%改善した話 — Expoのfingerprint × repackでフルビルドをスキップ | テラーノベル テックブログのフィード",
+      "url": "https://zenn.dev/tellernovel_inc/articles/05b0e164a3ceff",
+      "summary": "テラーノベルは@expo/fingerprintでネイティブの差分を検出して成果物をキャッシュし、@expo/repack-appでJSだけ差し替え再署名する仕組みを導入。ネイティブを再ビルドせずQA配布を行い、iOS約77%、Android約85%（約17分→4分/2.5分）短縮。自前ビルドするReact Native/Expo向けの手法と実装上の注意点を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-19T04:05:35.000Z",
+      "contentHash": "b8e197cb71c5"
+    },
+    {
+      "id": "f11671fbe927",
+      "title": "【インタビュー】職場の雰囲気からワークライフバランスまで。新人たちに聞く、ニフティってどんな会社？【2025年度 新卒社員 後編】 | NIFTY engineering",
+      "url": "https://engineering.nifty.co.jp/interview/38034",
+      "summary": "ニフティの新卒エンジニアは3か月の研修後、7月からOJTに入り、8か月で3部署をローテーションして業務知識やチームでの開発手法、技術を習得します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-19T04:03:45.000Z",
+      "contentHash": "cfa40a2607e2"
+    },
+    {
+      "id": "29cad2ebe09d",
+      "title": "人工知能学会全国大会（JSAI2026）参加報告 ― 所属と業種から見る日本のAI研究の関心地図 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/d6be8e2ffd0c8f",
+      "summary": "JSAI2026参加報告。発表はOCR精度向上と物語翻訳の感性アラインメント。1,534件の分析でLLMが最多（約37%）。大学は基礎・社科寄り、企業は実務応用寄り、公的機関は科学・社会課題寄りと関心が棲み分かれ、LLM集中度は大学37%・企業46%・公的51%。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-19T04:03:05.000Z",
+      "contentHash": "b0ca49b6047c"
+    },
+    {
+      "id": "c1a8397be38a",
+      "title": "全社データ基盤「ODIN」をゼロから立ち上げるまで — 組織と戦略の話 | 弁護士ドットコム株式会社 Creators’ blog",
+      "url": "https://creators.bengo4.com/entry/2026/06/19/125343",
+      "summary": "弁護士ドットコムのCDOが、分断していた複数事業のデータを統一する全社データ基盤「ODIN」と3部体制をゼロから構築した経緯を紹介。野良クエリや指標不一致、属人化を解消するため「全社基盤」「迅速・便利」「コード管理」の3戦略で分析に集中できる環境を実現した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-19T03:53:43.000Z",
+      "contentHash": "f7a7846e8c00"
+    },
+    {
+      "id": "f2d192ee5c50",
+      "title": "AI活用によって劇的に変わった、エンジニアとゴール（成果）の距離感とは？ | 【PRONI】テックブログ",
+      "url": "https://note.proni.co.jp/n/nb1f7d2dce412",
+      "summary": "PRONI採用担当がAIでエンジニアの仕事はどう変わるかを取材。単なるコーディング高速化でなく「成果に近い領域で働ける」感覚を得られるとし、CTO竹澤氏とEM岸本氏がAI時代の開発や求められる姿勢、PRONIの魅力を語る。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-19T03:18:07.000Z",
+      "contentHash": "55c732eb349f"
+    },
+    {
+      "id": "c5eaf15afd09",
+      "title": "AWS Advanced JDBC WrapperのFailover機能について調べてみよう！ | ENGINEER TECH BLOG",
+      "url": "https://note.com/wa1st_tak/n/n4ee4161e98b9",
+      "summary": "Amazon Aurora PostgreSQLのライターフェイルオーバー時、JDBCドライバーの挙動でデータ損失の程度が変わる。本稿は標準PostgreSQL JDBCとAWS Advanced JDBC Wrapperを同一クラスタ・同一ワークロードで実測比較し、適切なリトライ実装を検討する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-19T03:01:15.000Z",
+      "contentHash": "e6fd34f102af"
+    },
+    {
+      "id": "496e923d9653",
+      "title": "現場エンジニアがお勧めする、サイオスの28卒サマーインターン | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/information/summer-internship2026",
+      "summary": "エンジニアの龍ちゃんが、普段のClaude Code関連記事から趣向を変え、サイオスの28卒対象サマーインターンを紹介するお知らせ。現場エンジニアおすすめの内容や募集案内を伝える記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-19T03:01:10.000Z",
+      "contentHash": "c3e8a86ebd2e"
+    },
+    {
+      "id": "11517f6e0450",
+      "title": "第26回UE5ぷちコン ゲームジャム開催のお知らせ | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/64828/",
+      "summary": "Unreal Engine 5学習用コンテスト「第26回UE5ぷちコン」ゲームジャムの開催が、株式会社ヒストリアより発表されました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-19T03:00:27.000Z",
+      "contentHash": "1802d6c12ba6"
+    },
+    {
+      "id": "1d9860c0750f",
+      "title": "【予告】Unreal Engine 5 学習向け作品制作コンテスト「第26回UE5ぷちコン」 7月17日（金）より開催！ | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/64687/",
+      "summary": "Unreal Engine 5学習向け作品制作コンテスト「第26回UE5ぷちコン」が開催。期間は2026年7月17日～8月30日（応募締切8月31日AM10:00）。2～3日で気軽に制作・応募可能。主催：株式会社ヒストリア。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-19T03:00:16.000Z",
+      "contentHash": "96bc5cb37272"
+    },
+    {
+      "id": "6005c73f7554",
+      "title": "Unreal Engine 5.8 のクイックスタート",
+      "url": "https://note.com/npaka/n/n71a4eda351eb",
+      "summary": "Unreal Engine 5.8で空のプロジェクトを作成し、床（スケールしたCube）と物理を有効にした球体を配置して転がす手順を解説。インストール（Windows/Mac/Linux）、レベル保存、ビューポート操作やカメラ設定など基本操作も紹介。5.8はワールド構築・地形・ライティングが強化。",
+      "source": "npaka",
+      "publishedAt": "2026-06-19T02:33:30.000Z",
+      "contentHash": "be9dcb5fc646"
+    },
+    {
+      "id": "90f00b44aaec",
+      "title": "Update on Ocean Observatories Initiative",
+      "url": "https://www.nsf.gov/news/update-ocean-observatories-initiative",
+      "summary": "NSFはOOIの残る観測網からの機器撤去・縮小を直ちに中止し、運用と保守を継続します。Endurance Arrayは一時撤去済みだが整備後再展開予定。利害関係者から意見を募るDear Colleague Letterを発出し、専門家パネルで観測ニーズと持続可能な方策を検討、海洋科学と利用者支援に注力します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T23:41:48.000Z",
+      "contentHash": "07d2c7c47441"
+    },
+    {
+      "id": "995fa9461c51",
+      "title": "Zero-Touch OAuth for MCP",
+      "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+      "summary": "MCPのEnterprise-Managed Authorization拡張が安定版に。企業はIdPでMCPサーバーアクセスを一元管理でき、ユーザーは初回ログインで個別OAuth不要のゼロタッチ接続が可能。Anthropic、Microsoft、Okta等が採用。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T21:54:10.000Z",
+      "contentHash": "d7e53bb04cc3"
+    },
+    {
+      "id": "d5e87b22fc9d",
+      "title": "Show HN: Are You in the Weights?",
+      "url": "https://www.intheweights.com/",
+      "summary": "ウェブ外に流れるトラフィックが増える中、モデルの「重み」に残る痕跡に興味を持ち、前線モデルと小型モデルを並列照会して応答をクラスタリングし、どれほど自分を認識しているかを示すサイトを作った。質問歓迎。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T20:49:03.000Z",
+      "contentHash": "a58e48ece532"
+    },
+    {
+      "id": "ea3c8e039dfb",
+      "title": "Valve is so behind on Steam Controller orders that some won&#8217;t ship until 2027",
+      "url": "https://www.theverge.com/games/952582/valve-steam-controller-reservations-orders-behind-estimated-date",
+      "summary": "ValveはSteam Controllerの予約が大幅に遅れており、注文見込みを「～2026年9月」「～2026年12月」「2027年中」の3種類で表示。現時点の予約は2027年発送案内。生産は継続するが需要が供給を上回り遅延を説明している。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-18T20:26:06.000Z",
+      "contentHash": "821f6658fa5f"
+    },
+    {
+      "id": "a054c4b0de10",
+      "title": "You can now use the Game Boy Camera with your phone",
+      "url": "https://www.theverge.com/tech/952173/epilogue-gb-operator-game-boy-camera-ios-android-app-iphone",
+      "summary": "EpilogueがGB Operator向けモバイルアプリ「Flashback」を公開。スマホにGB Operatorを接続して、ゲームボーイカメラ風の2色・128×112の低解像度写真をiOS/Androidで撮影可能に。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-18T20:22:46.000Z",
+      "contentHash": "ae94d308d657"
+    },
+    {
+      "id": "84a07816d3a1",
+      "title": "HBO Max&#8217;s annual plans are 28 percent off right now",
+      "url": "https://www.theverge.com/gadgets/952326/hbo-max-annual-plan-deal-sale",
+      "summary": "HBO Maxが年額プランを7月15日まで28%割引（新規・復帰対象）。広告あり年額$78.99、スタンダード$132.99、プレミアム$164.99で、月払いより最大40%お得。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-18T19:18:30.000Z",
+      "contentHash": "da7336146c15"
+    },
+    {
+      "id": "ac96f65afb7a",
+      "title": "Snap’s Specs look good on nobody",
+      "url": "https://www.theverge.com/podcast/952126/snap-specs-ar-glasses-vergecast",
+      "summary": "Snapの新スマートグラス「Specs」は高度なAR機能で業界をリードする一方、$2,195の高額さに加えCEOやモデル写真で太く重そうなテンプルが目立ち、着用意欲を削ぐ懸念がある。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-18T19:15:03.000Z",
+      "contentHash": "08653326a273"
+    },
+    {
+      "id": "f6ad96a279e1",
+      "title": "The best early Amazon Prime Day deals so far",
+      "url": "https://www.theverge.com/gadgets/944084/best-early-prime-day-deals",
+      "summary": "アマゾンの前倒しプライムデーは6月23日開始だが、既に多数の早期セール実施中。AirPods Pro 3が最安更新、Ringの電池式ドアベルが60ドル引き＋室内カメラ無料、Apple製品やロボ掃除機も割引。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-18T18:54:32.000Z",
+      "contentHash": "7e5bddff9089"
+    },
+    {
+      "id": "9cb4bd1cbda9",
+      "title": "I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M",
+      "url": "https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/",
+      "summary": "著者は2021年、Elkjopの会員制でマーケ配信を止める唯一の方法が退会であり、強制的同意はGDPR違反と指摘した。5年後、同社は180万ユーロの制裁を受けた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T18:31:23.000Z",
+      "contentHash": "965774c64632"
+    },
+    {
+      "id": "46469b93db52",
+      "title": "The AI Hate Progression",
+      "url": "https://www.xodium.net/2026/06/the-ai-hate-progression.html",
+      "summary": "著者は初期の生成AIの冗談的利用を面白がっていたが、技術の見せ方や利用・支配のされ方、利用者の横柄さに嫌悪を募らせ、現在の強いAI嫌悪に至った経緯を述べる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T18:30:33.000Z",
+      "contentHash": "c3db35e4d65c"
+    },
     {
       "id": "db1c3ad37f5c",
       "title": "This robotic self-driving toilet comes to you",
@@ -29,6 +227,15 @@
       "contentHash": "f3a0c4ae161b"
     },
     {
+      "id": "f57f8b7e84a6",
+      "title": "Migrating from GNU Stow to Chezmoi",
+      "url": "https://rednafi.com/misc/chezmoi/",
+      "summary": "著者は複数台のMacでGNU stowのシンボリック運用が端末ごとのリポジトリ汚れや競合、初期ファイルの衝突で煩雑になり、より柔軟なchezmoiへ移行。chezmoiは要件を満たしエージェント設定も管理できる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T17:09:53.000Z",
+      "contentHash": "f5f34b9995da"
+    },
+    {
       "id": "86f650402b9a",
       "title": "The Onion’s rebooted InfoWars is coming July 2nd",
       "url": "https://www.theverge.com/news/952264/the-onion-infowars-takeover-alex-jones-relaunch",
@@ -36,6 +243,24 @@
       "source": "The Verge",
       "publishedAt": "2026-06-18T17:00:00.000Z",
       "contentHash": "792196fcb71e"
+    },
+    {
+      "id": "450d5ccfb160",
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "summary": "OpenAIはChatGPT Enterpriseに支出管理機能と利用状況の分析ツールを導入し、組織がコストを把握・制御して安心してAI活用を拡大できるよう支援します。",
+      "source": "OpenAI",
+      "publishedAt": "2026-06-18T17:00:00.000Z",
+      "contentHash": "3fd169ffb8f6"
+    },
+    {
+      "id": "1027fcbb81e9",
+      "title": "The founder of Craigslist has given away half a billion dollars",
+      "url": "https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html",
+      "summary": "Craigslist創業者クレイグ・ニュー・マーク氏は資産の少なくとも5億ドルを寄付した。一部の億万長者やネットの中傷で慈善が攻撃される米国を懸念し、リプロ権や気候変動対策、反ビッグテックなどを支援している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T16:55:25.000Z",
+      "contentHash": "56cf40ec90d0"
     },
     {
       "id": "c08721582685",
@@ -56,13 +281,22 @@
       "contentHash": "40729448fb66"
     },
     {
+      "id": "57b492e79b9b",
+      "title": "TerraPower in deal with Meta for eight Natrium 345 MW nuclear plants",
+      "url": "https://neutronbytes.com/2026/01/09/terrapower-in-mega-deal-with-meta-for-eight-natrium-345-mw-advanced-nuclear-plants/",
+      "summary": "TerraPowerとMetaが最大8基のNatrium（各345MW）と蓄電システムを共同開発。双基で1サイト690MW、蓄電は500MW超を5時間以上供給可能。Metaが資金提供、初期は2032年頃。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T15:13:26.000Z",
+      "contentHash": "62d2b0660ea0"
+    },
+    {
       "id": "47c449510669",
       "title": "A website that lists websites to submit your website to",
       "url": "https://www.submission.directory/",
-      "summary": "そのURLには直接アクセスできません。記事全文か主要段落を貼るか、要点（主題・結論・重要事実）を教えてください。いただければ200字以内で要約します。",
+      "summary": "ビジネスやスタートアップ、サイトを登録できる厳選ディレクトリ一覧。Product Hunt、Hacker News、Crunchbase、Medium、Reddit、Capterra等を紹介し、被リンク・集客・検索順位向上を支援。",
       "source": "Hacker News",
       "publishedAt": "2026-06-18T15:12:43.000Z",
-      "contentHash": "5c0c660b946f"
+      "contentHash": "2b230023b908"
     },
     {
       "id": "0a8f8b8c11e6",
@@ -72,6 +306,15 @@
       "source": "Gemini",
       "publishedAt": "2026-06-18T15:00:00.000Z",
       "contentHash": "90d205c354fc"
+    },
+    {
+      "id": "f5be79574376",
+      "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
+      "url": "https://tester.army",
+      "summary": "TesterArmyはウェブ・モバイルの主要操作をAIが人間のように自動で実行・監視し、障害を検知すると通知。2分で導入、SDK不要で自然文でテスト定義。GitHub連携や定期実行・Webhook対応、スクリーンショットや録画付きの具体的なバグ報告で誤検知を減らし継続的な品質保証を支援。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-18T14:49:44.000Z",
+      "contentHash": "ae7f9fa9efc5"
     },
     {
       "id": "599f65d366eb",
@@ -731,15 +974,6 @@
       "contentHash": "4632e3d582c6"
     },
     {
-      "id": "f6ad96a279e1",
-      "title": "The best early Amazon Prime Day deals so far",
-      "url": "https://www.theverge.com/gadgets/944084/best-early-prime-day-deals",
-      "summary": "Amazonの前倒しプライムデー先行セール紹介。AirPods Pro 3が最安、Ringドアベルは割引＋屋内カメラ無料、レゴ「星月夜」136ドル、Neweggで$100購入で$15券、Fitbit Charge 6が$79.99、Logitech MX Master 3Sが$89.99。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-17T14:12:57.000Z",
-      "contentHash": "b95f71fc60eb"
-    },
-    {
       "id": "2a9eb573eedd",
       "title": "ICE Appears to Be Buying Immigrants' Tax Identifiers from a Data Broker",
       "url": "https://www.404media.co/ice-appears-to-be-buying-immigrants-tax-identifiers-from-a-data-broker/",
@@ -995,10 +1229,10 @@
       "id": "ba6e7a0ad29a",
       "title": "プロシージャルモデリングによる3Dモデル生成",
       "url": "https://note.com/npaka/n/n25bfbc58b41e",
-      "summary": "プロシージャルモデリングはルールやパラメータで3Dモデルやシーンを自動生成する手法。大量の地形・背景生成に適し、ゲームや映像で多用。Houdini、Blender Geometry Nodes、Substanceが代表ツールで、AI生成と組み合わせて効率と再編集性を高められる。",
+      "summary": "プロシージャルモデリングはルールやパラメータで地形・木・岩・建物など大量の3Dバリエーションを自動生成する手法。ゲーム・映像で多用され、HoudiniやBlender(Geometry Nodes)、Substance Designerが代表。AI生成と組合せて効率と再編集性を高める。",
       "source": "npaka",
       "publishedAt": "2026-06-17T03:52:03.000Z",
-      "contentHash": "627d4bb8627e"
+      "contentHash": "e0c6ce5e48ee"
     },
     {
       "id": "1c3c68539c2a",
@@ -1994,10 +2228,10 @@
       "id": "2018f7f18005",
       "title": "Codex の自分用スキルの作り方と育て方",
       "url": "https://note.com/npaka/n/n1ca7a4fe32ac",
-      "summary": "Codexで繰り返す指示を「スキル」として ~/.agents/skills/ に保存する方法を解説。校正チェックを例にSKILL.mdで手順を定義し、利用しながら好みやルールを追記・更新して人間が確認して育てることで、毎回長いプロンプトを書かずに済む、という内容。",
+      "summary": "Codexで頻繁に使う指示は「スキル」として保存する方法を解説。例として校正チェックスキル（番号付き修正案・修正前後と説明・採用番号確認）を~/.agents/skills/に配置し、使用しながら好みやルールを追記・更新、人間が確認して育てる流れを薦める。",
       "source": "npaka",
       "publishedAt": "2026-06-15T12:43:36.000Z",
-      "contentHash": "eb385fc8ba17"
+      "contentHash": "0f2e4f85f6bd"
     },
     {
       "id": "8efceb5be72f",
@@ -2273,10 +2507,10 @@
       "id": "7fe9a09cfc96",
       "title": "Palantir とは",
       "url": "https://note.com/npaka/n/n0c5046f3d792",
-      "summary": "Palantirは政府・国防機関や大企業向けに、組織内データを統合しAIや業務フローと結び付けて現場の意思決定を支援するソフトウェア基盤を提供する企業。GothamやFoundryを展開し、国防のProject Maven等でも活用される。",
+      "summary": "Palantirは政府・国防・大企業向けに、AI時代の意思決定を支えるデータ統合・解析ソフトウェアを提供する企業です。",
       "source": "npaka",
       "publishedAt": "2026-06-15T01:58:33.000Z",
-      "contentHash": "ab2b1cf717cb"
+      "contentHash": "fcc68871d203"
     },
     {
       "id": "a50a8de31ca5",
@@ -8766,240 +9000,6 @@
       "source": "npaka",
       "publishedAt": "2026-05-31T06:06:44.000Z",
       "contentHash": "854c8b2ec299"
-    },
-    {
-      "id": "8c3d1ee58e21",
-      "title": "A pictorial introduction to differential geometry (2017)",
-      "url": "https://arxiv.org/abs/1709.08492",
-      "summary": "Jonathan Gratusによる微分幾何学の図示的入門。式を使わず多くの図で概念を示し、マクスウェル方程式を「三つの図」として直感的に説明する。高校生から大学院生まで有用。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-31T05:30:18.000Z",
-      "contentHash": "43833adba7dd"
-    },
-    {
-      "id": "e8e7052a7574",
-      "title": "FSx for NetApp ONTAP のログの種類と用途についてまとめてみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/fsx-ontap-log-type",
-      "summary": "FSx for NetApp ONTAPには4種類のログがあり、管理監査ログ（CLI/API操作の証跡）、ファイルアクセス監査ログ（SMB/NFSでのファイル操作記録）など、各ログは管理操作の追跡、利用者操作の記録、障害解析やセキュリティ監視に利用される。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-31T03:37:28.000Z",
-      "contentHash": "601787e28c58"
-    },
-    {
-      "id": "eecff9086c8c",
-      "title": "Please Do Not Vibe Fuck Up This Software",
-      "url": "https://github.com/RsyncProject/rsync/issues/929",
-      "summary": "RsyncProject/rsyncのIssue「Please Do Not Vibe Fuck Up This Software」が2026-05-30にユーザーII‑Paulus‑IIにより投稿され、画像が添付されておりコメントが97件付いています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-31T03:16:48.000Z",
-      "contentHash": "0ddb24398faa"
-    },
-    {
-      "id": "cafccfcb6323",
-      "title": "Agent Garden - Teams会議の暗黙知を“育てて咲かせる” Microsoft 365 Copilot エージェント生成ツール | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/c5d16d51324f1e",
-      "summary": "本ハッカソンでは「ベテランの暗黙知を継続的にエージェントへ学習させるには」をテーマに、会議で失われる判断の根拠や暗黙知を取り込み、変化やスキル更新を反映してチームで育てるカスタムエージェントの実現を目指しました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-31T02:18:31.000Z",
-      "contentHash": "114342cc9ae6"
-    },
-    {
-      "id": "7bf97b99016b",
-      "title": "早朝のAIは空いている—生活をIoT改造した話 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/8a9f1d985dcdf6",
-      "summary": "Microsoft 365 CopilotのCowork（フロンティア）は長時間の推論をバックグラウンドで回せる便利機能だが、利用集中時に処理が止まったり遅くなる問題がある。著者は混雑回避のため早起きして使うことを提案するが、起床の難しさにも触れている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-31T00:34:57.000Z",
-      "contentHash": "279ec364fbc9"
-    },
-    {
-      "id": "3952b02d5a41",
-      "title": "Mechanical Pencil: An illustrated celebration of the engineering around us",
-      "url": "https://mechanical-pencil.com/",
-      "summary": "機械工学者で画家のBryanが、PILOT G2やZippo、BIC芯ホルダー、PEZなど身近な製品を分解→CAD→イラスト/アニメで内部構造と動作を美しく解説するサイト。更新通知あり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-31T00:25:12.000Z",
-      "contentHash": "a3df7046589e"
-    },
-    {
-      "id": "6a2f30c3ea96",
-      "title": "【6月企画】KENTEMテックブログ、リレーブログ始めます！ | KENTEM TechBlog",
-      "url": "https://tech.kentem.jp/entry/2026/05/31/090000",
-      "summary": "KENTEMの期末を締めくくる6月のリレーブログ企画を紹介します。編集部が週ごとのお題（第1週：フロントエンド、第2週：AI、第3週：技術者の1日、第4週：マネージャー投稿、第5週：年数を経ての感想）を設定し、社内メンバーに記事投稿を募る内容です。ぜひ最後までお読みください。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-05-31T00:00:00.000Z",
-      "contentHash": "f380d850b28c"
-    },
-    {
-      "id": "4124cd7e6f7e",
-      "title": "Microsoft Office 2019 and 2021 for Mac view-only conversion",
-      "url": "https://consumerrights.wiki/w/Microsoft_Office_2019_and_2021_for_Mac_view-only_conversion_(2026)",
-      "summary": "Microsoftは2026年7月13日、Office 2019/2021 for Macのライセンス検証証明書の期限切れによりアプリを編集・保存不可の「閲覧専用」モードに切替える予定。2023年時点の「継続動作」表記は後に削除された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-30T23:26:13.000Z",
-      "contentHash": "4c27df6e258c"
-    },
-    {
-      "id": "8d73eb6a69cb",
-      "title": "Cheese Paper: a text editor specifically designed for writing",
-      "url": "https://brie.gay/cheese-paper/",
-      "summary": "Cheese Paperは小説向けの軽量テキストエディタ。各シーンをMarkdown本文とTOMLヘッダでメモや要約を保存し、どのテキストエディタでも編集可能。同期ツールと連携して外部変更を自動反映し、完全オフラインでデータを売らず課金もしない。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-30T22:58:41.000Z",
-      "contentHash": "9834b1362be1"
-    },
-    {
-      "id": "a1899575f83b",
-      "title": "Shantell Sans (2023)",
-      "url": "https://shantellsans.com/process",
-      "summary": "Shantell SansはWeight・Italic・Informality・Bounceの可変軸で、日常の読みやすさからアニメ向けの実験的表現まで可能な書体。制作者Shantell Martinは幼少期の綴りテストや後に判明したディスレクシア体験から、遊び心とアクセス性を両立するフォントを目指して制作し、Comic Sansに影響を受けている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-30T22:06:38.000Z",
-      "contentHash": "351e073f3ddc"
-    },
-    {
-      "id": "6fc86224e193",
-      "title": "The AV2 Video Standard Has Released (Final v1.0 Specification)",
-      "url": "https://av2.aomedia.org",
-      "summary": "AV2はAOMediaの次世代動画符号化規格（v1.0.0、2026-05-28公開）。AV1より圧縮効率を改善し、ストリーミング／放送／会議やAR/VR、分割画面・画面コンテンツに対応。ビットストリーム仕様とデコーダ手順、AVM参照実装を提供し、フィードバック窓口もある。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-30T21:46:18.000Z",
-      "contentHash": "da703bd764bd"
-    },
-    {
-      "id": "8d7b43543161",
-      "title": "OpenBlender の概要",
-      "url": "https://note.com/npaka/n/n708203026e50",
-      "summary": "OpenBlenderはBlender内で生成AIを統合するアドオン。テキスト／画像／動画からの画像・動画・3Dモデル・HDRI・リグ生成、AIチャット、MCP操作を同画面で行え、ビューポートやカメラアニメをAI出力のガイドに使えるのが特徴。LoRA対応やIMG→3D（GLB）など多機能。",
-      "source": "npaka",
-      "publishedAt": "2026-05-30T21:37:45.000Z",
-      "contentHash": "651522e59adc"
-    },
-    {
-      "id": "e2dba8b881f7",
-      "title": "Domain expertise has always been the real moat",
-      "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
-      "summary": "ソフト開発の核心はコードではなく領域モデルの構築だった。エージェント型AIが生成を担うことで、重要なのは「作れるか」ではなく「正しいかを判定できる」領域専門家の知見になり、専門性が新たな競争力となる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-30T20:40:57.000Z",
-      "contentHash": "2478c04828f3"
-    },
-    {
-      "id": "bbdc833eff5e",
-      "title": "Dusklight – GC Twilight Princess Decompiled",
-      "url": "https://twilitrealm.dev/",
-      "summary": "DusklightがPC・モバイル向けに発売。発表記事とリリーストレーラーを公開。各種修正・改善でクラシックなアドベンチャーが復刻し、「再び伝説になる」ことを謳っています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-30T20:24:26.000Z",
-      "contentHash": "c1c15fbf1c52"
-    },
-    {
-      "id": "18383fa33403",
-      "title": "Parallel Reconstruction of Lawful TLS Wiretapping",
-      "url": "https://remyhax.xyz/posts/reproducing-lawful-tls-wiretapping/",
-      "summary": "記事はTLSとCAの仕組みを解説し、ルートCA署名を用いた「法的」ワイヤータップが実際に行われる事例を提示する。2023年のHetzner/LinodeでのロシアXMPP傍受では証明書未更新で露呈し、本件の解析と教訓を論じる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-30T19:47:36.000Z",
-      "contentHash": "67ec8a932b61"
-    },
-    {
-      "id": "c9d788269d82",
-      "title": "Jef Raskin, the Visionary Behind the Mac (2013)",
-      "url": "https://lowendmac.com/2013/jef-raskin-the-visionary-behind-the-mac/",
-      "summary": "ジェフ・ラスキンはAppleの31人目社員で、Macプロジェクトを創始しGUI普及に寄与。音楽家出身で「簡潔さ」を重視し、白書やビジネス論でマネジメント（マーカラ）を説得。1981年中頃にスティーブ・ジョブズが関与してチームを離れた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-30T19:42:33.000Z",
-      "contentHash": "2614da5b5c0c"
-    },
-    {
-      "id": "0627818966e3",
-      "title": "EY Canada published a cybersecurity report and most citations were hallucinated",
-      "url": "https://gptzero.me/investigations/ey",
-      "summary": "GPTZeroは「vibe citing」（LLMの幻覚で生じる偽引用）を指摘。EYの2025年報告などで偽引用や誤情報が拡散し、研究やAIのデータを汚染。GPTZeroは検出ツールと自動調査で大手報告書への蔓延を確認し、個別に公表するとしている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-30T19:02:54.000Z",
-      "contentHash": "ec98c99bebac"
-    },
-    {
-      "id": "3a1da839d8f4",
-      "title": "Hormuz crisis side effect: a sharp rise in container shipping rates",
-      "url": "https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates",
-      "summary": "ホルムズ海峡危機でコンテナ運賃が急騰。イランとの戦争開始以降、SCFIグローバル総合指数は2倍に上昇し、紅海危機時の2024年9月以来の高水準。バンカー燃料費も上昇。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-30T18:19:23.000Z",
-      "contentHash": "5f14993ac742"
-    },
-    {
-      "id": "56a9cf44252b",
-      "title": "Zig ELF Linker Improvements Devlog",
-      "url": "https://ziglang.org/devlog/2026/#2026-05-30",
-      "summary": "Zigの新しいELFリンカ（-fnew-linker）は0.16.0以降大幅改良され、LLVM/LLD有効の自己ホスト型コンパイラのビルドや、外部ライブラリ・Cを含む高速インクリメンタル再ビルドを追加のオーバーヘッドなしで（x86_64 Linux）実現した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-30T17:29:22.000Z",
-      "contentHash": "e4277c9d0578"
-    },
-    {
-      "id": "53eb7b2a269b",
-      "title": "OpenRouter raises $113M Series B",
-      "url": "https://openrouter.ai/announcements/series-b",
-      "summary": "OpenRouterがCapitalG主導で$113MのシリーズB調達。NVIDIAら主要ベンチャーも参加。週トークン量は5兆→25兆、年1京超見込みで800万超開発者・400超モデルに対応。マルチモデル本番向けのルーティング／ゲートウェイ基盤を提供。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-30T17:27:28.000Z",
-      "contentHash": "f52ac169d454"
-    },
-    {
-      "id": "ec8e21168aeb",
-      "title": "Backrooms is a certified blockbuster with a $38 million opening day",
-      "url": "https://www.theverge.com/entertainment/940421/backrooms-blockbuster-38-million-opening",
-      "summary": "Kane Parsons監督の低予算ホラー『Backrooms』が初日で3,800万ドル、週末は最大9,000万ドルを見込み、A24史上最高の開幕成績。製作費約1,000万ドルで大黒字、評判も概ね好評。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-30T16:58:51.000Z",
-      "contentHash": "c50d2d2265b2"
-    },
-    {
-      "id": "55be36055689",
-      "title": "Accenture to acquire Ookla",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-to-acquire-ookla-to-strengthen-network-intelligence-and-experience-with-data-and-ai-for-enterprises",
-      "summary": "アクセンチュアがOoklaを買収し、Speedtest等のデータを取り込んでAIでWi‑Fi/5Gやエッジの性能と顧客体験を最適化。1,000超の属性を基に金融・電力・小売などのAI活用を支援する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-30T16:28:58.000Z",
-      "contentHash": "f6b9f3d34eb3"
-    },
-    {
-      "id": "ab2a663588d6",
-      "title": "To have a moral stance on AI is to be an outcast, and it sucks",
-      "url": "https://musings.martyn.berlin/to-have-a-moral-stance-on-ai-is-to-be-an-outcast-and-it-sucks",
-      "summary": "著者はAIの技術と影響を理解した上で強く反対。AIは単なるマーケ用語で、環境破壊・労働搾取・盗用・認知低下・権力集中・偽情報・職業破壊など害が大きく、支持が広まる中で孤立し疲弊、友人や団体の無断使用に嫌悪感を抱いている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-05-30T16:04:00.000Z",
-      "contentHash": "89f9f5118428"
-    },
-    {
-      "id": "ec6b76282706",
-      "title": "Welcome to Night Vale host Cecil Baldwin shares his tech pet peeves",
-      "url": "https://www.theverge.com/entertainment/939930/welcome-to-night-vale-host-cecil-baldwin-shares-his-tech-pet-peeves",
-      "summary": "ポッドキャスト「Welcome to Night Vale」司会のセシル・ボールドウィンが、映画のエンドロールを邪魔されるのが嫌いなど日常のテックに関する小さな不満を語る記事。彼の「Gravity Falls」出演やドキュメンタリー朗読などの経歴も紹介される。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-30T16:00:00.000Z",
-      "contentHash": "3821624b2bb0"
-    },
-    {
-      "id": "0872859320d5",
-      "title": "Microsoft is threatening legal action for disclosing exploits",
-      "url": "https://www.theverge.com/tech/940416/microsoft-nightmare-eclipse-zero-day-vulnerability",
-      "summary": "Microsoftが「Nightmare Eclipse」と名乗る人物によるゼロデイ脆弱性の公開とPoC投稿に対し、報告の「適切な調整」欠如を理由に刑事措置を示唆しGitHub等のアカウントを停止。研究者Kevin Beaumontは、同社が同様の行為をした人物を雇ってきた点や、通報を困難にする対応を批判している。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-30T15:19:50.000Z",
-      "contentHash": "9da9e3c4220a"
-    },
-    {
-      "id": "399460daae7a",
-      "title": "Two of our favorite art TVs are more than 40 percent off this weekend",
-      "url": "https://www.theverge.com/gadgets/940211/samsung-frame-hisense-canvastv-art-tv-sale-deal",
-      "summary": "Wootが6月26日までセール。2025年のHisense CanvasTVとSamsung Frameが大幅値下げ。65型Canvasが$779.99、Frameは$587.99〜。Hisenseは1年保証、Frameは90日。",
-      "source": "The Verge",
-      "publishedAt": "2026-05-30T15:00:00.000Z",
-      "contentHash": "097250585b87"
     }
   ]
 }
