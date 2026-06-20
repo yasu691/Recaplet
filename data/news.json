@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-06-20T04:19:46.265Z",
+  "generatedAt": "2026-06-20T10:45:58.084Z",
   "items": [
+    {
+      "id": "af65d6c0eb32",
+      "title": "ロボットハンドを遠隔操作するためのリターゲティング入門",
+      "url": "https://note.com/npaka/n/n58cd38ca9bfb",
+      "summary": "人の手とロボット手の違いを補うリターゲティングの解説。握る・つまむ・押すなどのタスク分類と、低・中・高の3レベル（低:関節値、中:手形→操作パターン、高:作業コマンド）を説明。低レベル例に全体開閉と指別曲げを挙げる。",
+      "source": "npaka",
+      "publishedAt": "2026-06-20T07:25:10.000Z",
+      "contentHash": "46061812dac9"
+    },
+    {
+      "id": "71f0c45301d2",
+      "title": "SwitchBot’s Standing Circulator Fan is worth fighting for",
+      "url": "https://www.theverge.com/tech/952855/switchbot-standing-circulator-fan-review",
+      "summary": "SwitchBotのStanding Circulator Fanはバッテリー駆動で静か、上下左右に動く3D循環で部屋の空気をしっかり送れる。数時間駆動、ナイトライト内蔵、デスク⇄スタンドに変形、スマートホーム対応で高評価。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-20T07:00:00.000Z",
+      "contentHash": "03fd4fd0294b"
+    },
     {
       "id": "c723769178a2",
       "title": "ロボットテレオペレーションにおけるアーム操作の実装パターン",
@@ -32,10 +50,10 @@
       "id": "72ffb80c2b38",
       "title": "ロボットのテレオペレーションにおけるVR表示の実装パターン",
       "url": "https://note.com/npaka/n/n716157751a7d",
-      "summary": "ロボット遠隔操縦のVR表示7パターンを解説：VR内モニタ、ステレオ視、HMD追従カメラ、広角/魚眼切り出し、360/VR180、3Dモデル・点群表示、映像に3D情報重ね。各方式の利点・欠点（没入感、遅延、解像度、キャリブレーション等）と用途を比較。",
+      "summary": "ロボットのテレオペレーション向けVR表示の9パターンを整理。固定スクリーン、ステレオ、HMD追従、広角切出し、360/VR180、3Dモデル・点群、映像への3D重畳などそれぞれの没入感、遅延、解像度や校正の課題と適用例を解説。",
       "source": "npaka",
       "publishedAt": "2026-06-19T23:42:31.000Z",
-      "contentHash": "b6c6045aed0e"
+      "contentHash": "084dc14792c4"
     },
     {
       "id": "5744998baaca",
@@ -149,10 +167,10 @@
       "id": "5892397b4245",
       "title": "Honraku Taroを作った話 〜#H0Hackathon参加記〜 | ForgeVision Engineer Blog",
       "url": "https://techblog.forgevision.com/entry/vercel/H0Hackathon/Honraku-Taro",
-      "summary": "H0ハッカソン参加のための記事。AWSとVercel共催のH0は、v0で素早く生成したNext.jsフロントエンドを、Amazon Aurora（PostgreSQL／DSQL）やDynamoDBなどのAWSデータベースと組み合わせる技術スタックに焦点を当てる。",
+      "summary": "H0ハッカソン向けに作ったHonraku Taroは、Vercel上のNext.jsフロントエンドとAWSのデータ/AIで講演のリアルタイム翻訳と検索可能な要約アーカイブを提供するアプリ。出張時の翻訳ニーズから開発。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-19T15:23:35.000Z",
-      "contentHash": "daecd0691f6a"
+      "contentHash": "8a63dc4c1e43"
     },
     {
       "id": "a6d6647c047b",
@@ -239,19 +257,19 @@
       "id": "03b6e577aa4f",
       "title": "ローカルLLMエージェントを自作して、Claude Codeに実験管理させた話 | エムティーアイ エンジニアリングブログ",
       "url": "https://tech.mti.co.jp/entry/ac2026summer/0619",
-      "summary": "テクノロジー本部の田中が、GPUなしのCPU推論でOllama+LangChain+MCPを使いローカルLLMエージェントを自作。初期は14Bでタイムアウト多発も改良し実用化へ。構成・実験設計・結果を提示。",
+      "summary": "CPUのみでOllama+LangChain+MCPを使いローカルLLMエージェントを自作。qwen2.5（7b/14b）でplan_execとReActを比較し、Claude Codeに実験管理・自動採点（TCA/StepCR/Judge）を任せる運用が有効だった。14bは当初タイムアウト多発。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-19T10:00:00.000Z",
-      "contentHash": "5e738a042af3"
+      "contentHash": "61da449978c6"
     },
     {
       "id": "a6cffdee6fb1",
       "title": "Salesforce 生成AI + RAG：2案件を Flow と Apex に分けた判断とは | フレクトのクラウドblog",
       "url": "https://cloud.flect.co.jp/entry/2026/06/19/190000",
-      "summary": "エンジニア大橋が、Salesforceの生成AI機能（Data 360＋Prompt Template）を使ったRAGシステム設計を実案件の判断を基に解説。入力→検索クエリ生成→検索→結果をプロンプトに挿入→LLM呼出→出力処理、出力先書込などの一般的な処理フローを説明。",
+      "summary": "Salesforceの生成AI（Data360＋Prompt Template）でRAGを構築した事例。単純案件はFlowで全体を制御し、検索やJSONパース等の個別処理はApex、Flex Promptで複数項目を一括生成。複雑案件はApexでオーケストレーション。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-19T10:00:00.000Z",
-      "contentHash": "983db19c3603"
+      "contentHash": "98ad5810f142"
     },
     {
       "id": "7f7124fcfd52",
@@ -266,28 +284,28 @@
       "id": "df568ddd9e97",
       "title": "ロボットアームとロボットハンドの力覚フィードバック入門",
       "url": "https://note.com/npaka/n/n6903924a5f8e",
-      "summary": "遠隔操作で触感を伝える力覚フィードバック入門。力・トルク・接触・硬さ・滑り等を6軸力覚や指先触覚で検出し、抵抗や振動で操作者に伝える。方式は力覚センサ、関節トルク推定、触覚センサ、仮想バネなど。構成は操作装置・ロボット・センサ・制御（フィルタ、インピーダンス/アドミッタンス）。",
+      "summary": "遠隔操作で触覚や力を伝える力覚フィードバック入門。返す情報（力・トルク・接触・硬さ・滑り等）、構成（操作側・ロボット・センサ・制御）、方式（6軸力覚センサ、関節トルク推定、触覚センサ、仮想力）と制御（インピーダンス/アドミッタンス）について解説。",
       "source": "npaka",
       "publishedAt": "2026-06-19T09:30:02.000Z",
-      "contentHash": "993698a53006"
+      "contentHash": "c4656b242ee2"
     },
     {
       "id": "f0376d28f09d",
       "title": "OpenAI・ElevenLabs・Geminiを使い比べてわかった、AI音声生成の”本質的な違い” |  | One Tech Blog",
       "url": "https://tech.gmogshd.com/ai-tts-comparison/",
-      "summary": "植松氏は2025年初めに音声AIへ強い関心を持ち、同年末までにウェブサイトへの導入が当たり前になると予想したが、その見通しは外れた、という導入部分。",
+      "summary": "ブログ向け音声要約を目指し、OpenAI・ElevenLabs・Google GeminiのTTSを比較。OpenAIは高速安定だが平坦、ElevenLabsは最も人間らしく安定、Geminiは演劇的で文脈理解に強い。チャンク処理やWordPress組込も検討。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-19T09:01:31.000Z",
-      "contentHash": "1a771e530d33"
+      "contentHash": "8d437c277e59"
     },
     {
       "id": "f9e96249db8c",
       "title": "干渉マトリックスをつくろう | vicc blog",
       "url": "https://blog.vicc.jp/entry/clash-detection-3",
-      "summary": "BIMの干渉マトリックスは、干渉チェック結果を扱う表で、軸（分類）、セルごとの優先度（対応の優先度）、許容値（無視する干渉の距離）を設定し、プロジェクトや段階に応じて調整して有意な干渉に絞り込む手法を解説しています。",
+      "summary": "干渉マトリックスとは、BIMで干渉チェック結果を整理する表で、軸（部材分類）、セルごとの優先度（検証順）と許容値で構成。設計上の課題と3D表現の問題を仕分けし、プロジェクト進捗管理に活用。優先度や許容値はプロジェクトに応じて調整する必要がある。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-19T09:00:00.000Z",
-      "contentHash": "ba494d523bd8"
+      "contentHash": "82e9811aa1ff"
     },
     {
       "id": "99acdd14fac2",
@@ -347,10 +365,10 @@
       "id": "cec14852f608",
       "title": "Unreal MCP で Codex から Unreal Engine を操作する",
       "url": "https://note.com/npaka/n/n2e3b4823be9c",
-      "summary": "Unreal Engine 5.8のUnreal MCPを有効化（プラグインON、エディタ再起動、Auto Start Server設定）し、CodexにMCPを追加して再起動。接続確認後、Codexからアクター一覧取得や床・球体・ライトの配置、位置や色の変更などでエンジンを操作できる手順を紹介。",
+      "summary": "Unreal Engine 5.8でUnreal MCPを有効化（プラグインON・再起動・自動サーバ起動設定）し、CodexにMCPを追加して再起動。接続確認後、アクター一覧取得や床・球体・ライト配置、位置変更や色変更などをCodexから操作する手順を解説。",
       "source": "npaka",
       "publishedAt": "2026-06-19T06:17:28.000Z",
-      "contentHash": "e7a7a06a4566"
+      "contentHash": "7434fba5aef6"
     },
     {
       "id": "8ad2b1d3c2a8",
@@ -473,10 +491,10 @@
       "id": "6005c73f7554",
       "title": "Unreal Engine 5.8 のクイックスタート",
       "url": "https://note.com/npaka/n/n71a4eda351eb",
-      "summary": "Unreal Engine 5.8で空プロジェクトを作り、床（大きなCube）と物理を有効にした球体を配置して転がす手順を解説。インストール（Windows/Mac/Linux）、プロジェクト作成(Blink/C++)、レベル保存、ランドスケープ削除、アクタ配置・物理設定、カメラ位置設定までを扱います。",
+      "summary": "UE5.8で空のプロジェクトを作成し、床（拡大したCube）と物理シミュレーション有効の球を配置して転がすまでの手順を解説。インストール（Win/Mac/Linux）、レベル保存、ビューポート操作、カメラ設定など基本操作に慣れることが目的。",
       "source": "npaka",
       "publishedAt": "2026-06-19T02:33:30.000Z",
-      "contentHash": "03d21e6eb4ed"
+      "contentHash": "34947f512f2d"
     },
     {
       "id": "90f00b44aaec",
@@ -1616,10 +1634,10 @@
       "id": "ba6e7a0ad29a",
       "title": "プロシージャルモデリングによる3Dモデル生成",
       "url": "https://note.com/npaka/n/n25bfbc58b41e",
-      "summary": "プロシージャルモデリングはルールやパラメータで地形・木・岩・建物など大量の3Dバリエーションを自動生成する手法。ゲーム・映像で多用され、HoudiniやBlender(Geometry Nodes)、Substance Designerが代表。AI生成と組合せて効率と再編集性を高める。",
+      "summary": "プロシージャルモデリングはルールやパラメータで大量の3Dモデルを自動生成する手法。地形や木、建物などのバリエーション生成に有利で、HoudiniやBlender Geometry Nodes、Substance 3D Designerが代表ツール。AI生成と組合せて効率化や再編集性向上が可能。",
       "source": "npaka",
       "publishedAt": "2026-06-17T03:52:03.000Z",
-      "contentHash": "e0c6ce5e48ee"
+      "contentHash": "ec10e20488cc"
     },
     {
       "id": "1c3c68539c2a",
@@ -2894,10 +2912,10 @@
       "id": "7fe9a09cfc96",
       "title": "Palantir とは",
       "url": "https://note.com/npaka/n/n0c5046f3d792",
-      "summary": "Palantirは2003年創業の米ソフト企業で、Gotham（政府・国防向け）やFoundry（大企業向け）で多様なデータを統合し、AIと業務を結びつけて現場の意思決定・作戦支援を実現する。ダッシュボードではなく運用化を重視し、米国防総省などと深い関係がある。",
+      "summary": "Palantirは2003年創業の米ソフト企業。組織内データを統合しAIと結び付けて、政府・国防（Gotham、Maven）や大企業（Foundry）で現場の意思決定・業務運用を支援する。",
       "source": "npaka",
       "publishedAt": "2026-06-15T01:58:33.000Z",
-      "contentHash": "18c2744ca2d8"
+      "contentHash": "d007092aa43b"
     },
     {
       "id": "a50a8de31ca5",
@@ -8982,24 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-01T04:00:00.000Z",
       "contentHash": "78477e888c96"
-    },
-    {
-      "id": "20d53b1cd544",
-      "title": "React 始めました（10年使ったPHPからの切り替え） | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/06/01/121851",
-      "summary": "CL事業部の長谷川が、10年使ったPHP/jQueryからReact（TypeScript）へ部分移行した体験記。脆弱性対策や業界の流れで導入し、公式ドキュメントに苦戦しつつGitHub Copilot等の生成AIを補助に使うが、AI出力は必ずレビューし自学習も続けることが重要と結論。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-01T03:18:51.000Z",
-      "contentHash": "5abac1c9a377"
-    },
-    {
-      "id": "7a7d0aa33960",
-      "title": "Anthropicが発表したゼロトラスト「Zero Trust for AI agents」解説、AIにもゼロトラストを適用して運用する方法 | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/anthropic-zero-trust-for-ai-agents/",
-      "summary": "AnthropicはAIエージェントをIDを持つ非人間主体（NHI）として扱い、最小権限・ログ・高リスクで人判断を残すなど既存ゼロトラストを拡張し、ツール・メモリ・サプライチェーンやAIで加速する脆弱性悪用に備える実務指針を示した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-01T03:10:00.000Z",
-      "contentHash": "1a8b08ff573a"
     }
   ]
 }
