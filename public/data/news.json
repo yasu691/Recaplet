@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-06-21T11:30:46.966Z",
+  "generatedAt": "2026-06-21T17:53:16.726Z",
   "items": [
+    {
+      "id": "4b31f5d99870",
+      "title": "Cold Court’s debut EP is an infectious, glitchy genre mashup",
+      "url": "https://www.theverge.com/entertainment/953303/cold-court-hands-up-ep-music-review",
+      "summary": "フィラデルフィアの兄妹デュオCold CourtのデビューEP「\\(^_^\\)/」は、プログレ、ダンスパンク、ハイパーポップを混ぜたグリッチーな音像。100 Gecs風の過激さもあるがより真面目で、冒頭曲「Nina」はダンスパンクからビート反復で展開する。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-21T17:00:33.000Z",
+      "contentHash": "84ee3ef19eee"
+    },
+    {
+      "id": "2034abc1fdf1",
+      "title": "Polymarket reportedly paid people to post fake videos of themselves placing bets",
+      "url": "https://www.theverge.com/tech/953285/polymarket-fake-viral-video-bets",
+      "summary": "WSJの調査で、予測市場Polymarketが報酬を与えSNSに偽の賭け動画を投稿させていたことが判明。1100本超で架空の勝利を演出し約90万ドルの“勝ち”を見せたが、実際は約16.6万ドルの敗北になる賭けだった。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-21T14:19:46.000Z",
+      "contentHash": "0ae0e4a19217"
+    },
+    {
+      "id": "22da75369fe4",
+      "title": "How Roomba started a robot revolution",
+      "url": "https://www.theverge.com/podcast/953275/roomba-robot-vacuum-version-history",
+      "summary": "Roombaが家庭用ロボット掃除機の革命を起こした経緯をThe Vergeのポッドキャストで紹介。iRobot創業者コリン・アングルらが約10年の開発苦労や崩壊寸前の危機、初期の単純な“ぶつかる”設計がどう愛される製品になったかを語る。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-21T12:29:01.000Z",
+      "contentHash": "bb96dc2ead1c"
+    },
+    {
+      "id": "b104e2260f1c",
+      "title": "Electric air taxis are stuck in the courtroom",
+      "url": "https://www.theverge.com/column/950975/electric-air-taxis-lawsuits",
+      "summary": "米国の主要eVTOL企業Joby、Archer、Verticalが企業スパイ、対中関係隠蔽、特許侵害などで訴訟合戦。Wiskとの係争再燃もあり、法廷闘争が空飛ぶタクシー産業の実用化を危うくしている。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-21T12:00:00.000Z",
+      "contentHash": "d21337b97041"
+    },
     {
       "id": "51eb1279dd98",
       "title": "Sony’s Xperia 1 VIII is still a phone for the fans",
@@ -11,22 +47,31 @@
       "contentHash": "e8529781d484"
     },
     {
+      "id": "c4d07100c8d7",
+      "title": "SnowflakeのOLTP機能を比較したい：Snowflake Postgres / Hybrid Tables【連載1日目・準備編】 | Fusic 技術ブログのフィード",
+      "url": "https://zenn.dev/fusic/articles/0021-snowflake-postgres-prepare",
+      "summary": "Fusicの岡山が連載でSnowflakeのOLTP機能を検証。Snowflake Postgres（専用VM上で本物のPostgres、互換100%）とHybrid Tables/Unistore（SnowflakeネイティブのHTAP、独自SQL）の違いを実機で比較。OLTP/OLAPの性質やHTAPでETL/CDCの課題を解消する狙いを整理する準備編。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-21T10:56:00.000Z",
+      "contentHash": "4d6bcc663c12"
+    },
+    {
       "id": "b67a5f5c7dba",
       "title": "M5Stack版 StackChan のファームを初期状態に戻す",
       "url": "https://note.com/npaka/n/n6a848443aa27",
-      "summary": "M5Stack版StackChanのファームを初期状態に戻す手順。台座側のUSB-CでPC接続して起動・接続許可後、M5Burnerを起動。「Only Official」でStackChanを選び「StackChan-UserDemo」をDownload→Burn、該当シリアルポートを選んでStart、書き込み完了まで待ち画面を確認。",
+      "summary": "M5Stack版StackChanを初期化する手順。台座側USB-CでPC接続→電源ON（接続許可を承認）→M5Burnerを起動し「Only Official」で「StackChan-UserDemo」をダウンロード→Burn→対応シリアルを選びStart→書込完了後画面確認。",
       "source": "npaka",
       "publishedAt": "2026-06-21T10:51:06.000Z",
-      "contentHash": "5d2e5832175e"
+      "contentHash": "64ec05785c83"
     },
     {
       "id": "fff353ff28c1",
       "title": "M5Stack版 StackChan のセットアップ手順",
       "url": "https://note.com/npaka/n/n0e27ce9867f3",
-      "summary": "M5Stack版StackChanのセットアップ手順。組立済みの小型AIデスクトップロボット（画面・カメラ・マイク・スピーカー・サーボ等搭載）。同梱は本体・USB‑C・ケース。初回起動で画面案内に従いサーボテスト→QRでアプリDL→「Add a new StackChan」でID・名前・エージェント情報・Wi‑Fiを入力して登録完了。",
+      "summary": "M5Stack版StackChanは画面・カメラ・マイク等を備えた組み立て済みの小型AIデスクトップロボット。初回起動でQRからアプリ連携・Wi‑Fi設定を行い、アプリでAVATAR・MONITORING・MOTION・DANCEを操作可能。AI会話、ESPNOW遠隔操作、アプリ追加機能も搭載。",
       "source": "npaka",
       "publishedAt": "2026-06-21T10:49:15.000Z",
-      "contentHash": "9127102af35c"
+      "contentHash": "3c91c3d35d8a"
     },
     {
       "id": "4cf14987a0e6",
@@ -221,10 +266,10 @@
       "id": "44adbf32c29f",
       "title": "Unity AI の概要",
       "url": "https://note.com/npaka/n/n4434920529b7",
-      "summary": "Unityに統合された新AI「Unity AI」は、エディタ内でプロジェクト文脈を理解して支援するAI Assistant、外部AIを呼べるAI Gateway、外部ツールと接続するMCP Serverの3本柱。MuseやSentisとは役割が異なり、Personalは14日後に月$10、Pro/Enterprise等はプランに含まれる。",
+      "summary": "Unity AIはエディタ内でプロジェクト文脈を参照してコード作成・エラー確認・シーン編集を支援する公式AI。Assistant（チャット）、外部接続のAI Gateway、MCP Serverを備え、Personalは14日無料後$10/月、Pro/Enterprise等はプランに含まれる。com.unity.ai.assistantを導入しAgent/Plan/Askモードで利用。",
       "source": "npaka",
       "publishedAt": "2026-06-21T01:07:15.000Z",
-      "contentHash": "48756f5690a4"
+      "contentHash": "cbe58462c03d"
     },
     {
       "id": "ec8b880c3a13",
@@ -239,10 +284,10 @@
       "id": "df3b1c5c369f",
       "title": "Meta Quest のハプティクスの種類まとめ",
       "url": "https://note.com/npaka/n/nbf65a9cb482a",
-      "summary": "Meta Questのハプティクスは、Simple（単純振動）、System（定型パターン）、Haptics SDK/.haptic（作り込んだクリップ）、Parametric（時間変化）、PCM（波形制御）の5種に分かれ、表現力や用途、実装難易度が異なります。",
+      "summary": "Meta Questのハプティクス解説。Simple Haptics（基本振動）、System Haptics（定型パターン）、Haptics SDK/.haptic（作り込んだクリップ）、Parametric（時間変化）、PCM（波形制御）と用途別に紹介。",
       "source": "npaka",
       "publishedAt": "2026-06-21T00:18:35.000Z",
-      "contentHash": "6149a7be0ccb"
+      "contentHash": "117c92d5c1b8"
     },
     {
       "id": "8d93eba0d14e",
@@ -491,10 +536,10 @@
       "id": "c723769178a2",
       "title": "ロボットテレオペレーションにおけるアーム操作の実装パターン",
       "url": "https://note.com/npaka/n/na824f7473679",
-      "summary": "ロボットアーム遠隔操作の実装パターンを分類。操作対象（関節、手先位置・姿勢、グリッパー）、入力デバイス（ゲームパッド、3Dマウス、VR、ハンドトラッキング、マスターアーム）、操作方式（直接、ゴースト、ポイント指定、軌道教示）や支援・安全策を整理。",
+      "summary": "ロボットアーム遠隔操作を、操作対象（関節・手先位置・姿勢・グリッパー）、入力デバイス（ゲームパッド・3Dマウス・VR・ハンドトラッキング・マスターアーム）、操作方式（直接・ゴースト・ポイント指定・軌道教示）、及びロボット側の補助や安全制限の観点で整理・解説した記事です。",
       "source": "npaka",
       "publishedAt": "2026-06-20T01:06:36.000Z",
-      "contentHash": "582487c1cb8f"
+      "contentHash": "035bc1039381"
     },
     {
       "id": "19c589a76f17",
@@ -518,10 +563,10 @@
       "id": "72ffb80c2b38",
       "title": "ロボットのテレオペレーションにおけるVR表示の実装パターン",
       "url": "https://note.com/npaka/n/n716157751a7d",
-      "summary": "ロボットのテレオペレーション向けVR表示の実装パターンを整理。固定モニタ表示、ステレオ、HMD連動、広角切出し、360/VR180、3Dモデル・点群表示、映像への3D重畳の利点と課題を比較。",
+      "summary": "ロボット遠隔操作向けVR表示の実装パターンを7種紹介：固定スクリーン、ステレオ、HMD追従、広角／魚眼の切り出し、360／VR180、3Dモデル・点群表示、映像への3D重畳。没入感・奥行き・遅延・解像度・用途適性ごとの利点と課題を比較。",
       "source": "npaka",
       "publishedAt": "2026-06-19T23:42:31.000Z",
-      "contentHash": "b29012d41504"
+      "contentHash": "766d3ecf82bb"
     },
     {
       "id": "058454e91596",
@@ -8955,51 +9000,6 @@
       "source": "OpenAI",
       "publishedAt": "2026-06-02T07:00:00.000Z",
       "contentHash": "35d8ece70d8c"
-    },
-    {
-      "id": "473eced4d0d7",
-      "title": "Codex is becoming a productivity tool for everyone",
-      "url": "https://openai.com/index/codex-for-knowledge-work",
-      "summary": "「The Next Era of Knowledge Work」報告は、CodexがAIによる調査、データ解析、ワークフロー自動化、コンテンツ生成を通じて知識労働の生産性を変革する方法を解説する。",
-      "source": "OpenAI",
-      "publishedAt": "2026-06-02T02:00:00.000Z",
-      "contentHash": "b15e72fb153d"
-    },
-    {
-      "id": "72d09e096d4d",
-      "title": "macOS needs its grid back",
-      "url": "https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/",
-      "summary": "著者はLeopardのグリッド配置が可能だったSpacesでの操作性を懐かしみ、Lion以降失われた「空間的な仮想デスクトップ」を取り戻すために、macOS向けのグリッド復活アプリを自作した経緯と理由を語る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-02T01:28:34.000Z",
-      "contentHash": "45659fe70014"
-    },
-    {
-      "id": "8ac3cbc215fb",
-      "title": "How is Groq raising more money?",
-      "url": "https://www.zach.be/p/how-the-hell-is-groq-raising-more",
-      "summary": "Groqが更なる資金調達に成功した背景を疑問視する記事。元Google出身チームの高性能AIチップを標榜する一方で、実績や顧客が不足し、秘密主義や性能誇張の疑い、投資家のAI熱が資金流入を後押ししていると指摘。ハードウェア事業の難しさも強調。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-02T01:05:29.000Z",
-      "contentHash": "3a85d809a33d"
-    },
-    {
-      "id": "02701b97985b",
-      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
-      "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
-      "summary": "申し訳ありませんが外部ページへ直接アクセスできません。記事本文（または重要箇所）を貼っていただければ、200字以内で日本語要約します。HNのコメントも含めるか教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-01T23:45:46.000Z",
-      "contentHash": "47fbf8025bf5"
-    },
-    {
-      "id": "24be998a45f8",
-      "title": "ROBOMETER の 概要",
-      "url": "https://note.com/npaka/n/n25bfc57efe9a",
-      "summary": "ROBOMETERは、ロボット作業動画と自然言語タスク説明からフレームごとの進捗・成功確率・軌道比較をゼロショットで推定するビデオ言語報酬モデル。Qwen3‑VL基盤で手作業の報酬設計を減らし、デモ選別などに活用できる。",
-      "source": "npaka",
-      "publishedAt": "2026-06-01T23:32:41.000Z",
-      "contentHash": "7215a8ac9997"
     }
   ]
 }
