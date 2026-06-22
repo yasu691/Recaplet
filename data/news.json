@@ -1,6 +1,195 @@
 {
-  "generatedAt": "2026-06-21T17:53:16.726Z",
+  "generatedAt": "2026-06-22T05:08:22.277Z",
   "items": [
+    {
+      "id": "d0ffd5a6d684",
+      "title": "Amazon Quick の Web検索が東京リージョン内で処理されるようになっていました(注意点あり) | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/amazon-quick-web-search-tokyo-region",
+      "summary": "Amazon QuickのWeb検索処理が東京リージョンで行われるようになった（2026/5/29ドキュメント反映）ため国内で検索処理が可能に。しかし実地検証では役員検索などで誤認が起き、日本語検索精度の課題は残る。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-22T04:40:13.000Z",
+      "contentHash": "c1cf0c7942ee"
+    },
+    {
+      "id": "5c8d91d92165",
+      "title": "【第6回XR・メタバース総合展】XRとAIの接点に見る体験技術の現在地 | ForgeVision Engineer Blog",
+      "url": "https://techblog.forgevision.com/entry/2026/06/22/131212",
+      "summary": "第6回XR・メタバース総合展では、技術より実務や体験設計に重点。体験型VR（訓練・内覧・ウェアラブル等）が人気で、AIはQAや3D生成、AR重畳で支援。統合は発展途上で用途設計が鍵。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-22T04:12:12.000Z",
+      "contentHash": "f3b88fa5c8d7"
+    },
+    {
+      "id": "b33f094900ff",
+      "title": "AI時代は自分専用ツールを作って生産性アゲ⤴︎⤴︎ | YOUTRUST Tech Blog",
+      "url": "https://tech.youtrust.co.jp/entry/2026/06/22/131028",
+      "summary": "AI時代には自分専用のツールを作ることで生産性を大きく向上できる。記事はAIとFlutterを活用した働き方改革や開発効率化の重要性と実践のヒントを伝える。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-22T04:10:28.000Z",
+      "contentHash": "2d2cb488394f"
+    },
+    {
+      "id": "b251bda364d0",
+      "title": "Databricksが発表したOLAP×OLTP両刀⚔️の次世代DBアーキテクチャ「LTAP」を深堀る！ | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/e1e7bc7aeb9b20",
+      "summary": "DatabricksはData+AI Summit 2026で、OLAPのLakehouseとOLTPのLakebaseをDelta/Iceberg上の単一コピーで統合する新アーキテクチャ「LTAP」を発表。ETLやデータ複製、参照遅延を削減し、分析とトランザクションを同一基盤で効率化する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-22T03:51:56.000Z",
+      "contentHash": "fdc45082b20d"
+    },
+    {
+      "id": "3c23b545911a",
+      "title": "MicrosoftグループのGroupIDを抽出するスクリプト | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/06/22/124108",
+      "summary": "M365グループのGroupIDを抽出するPowerShellスクリプト。TeamMail列のCSVを入力し、UTF‑8(BOM)でps1保存。Microsoft.GraphモジュールとGroup.Read.All/Directory.Read.All権限でGraphに接続し、移行や棚卸用にIDを取得します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-22T03:41:08.000Z",
+      "contentHash": "464e67b723f7"
+    },
+    {
+      "id": "4dd905e6772b",
+      "title": "知っておくとちょっと便利！履歴を表示する history コマンド | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/52908",
+      "summary": "historyコマンドは端末で実行した過去のコマンドを一覧表示・再実行する工具。引数なしで履歴表示、!n/!string/!?string?で再実行、history|grepで絞り込み、末尾数値で表示件数を制限できる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-22T03:33:56.000Z",
+      "contentHash": "7f0c3812e796"
+    },
+    {
+      "id": "615331f8370e",
+      "title": "【2026年6月】OSSサポートエンジニアが気になった！OSS最新ニュース | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/52986",
+      "summary": "Linus TorvaldsがLinux 7.1安定版を公開（新NTFSドライバやIntel/AMD向け最適化）。Linux Foundation Japanが「2026年技術系人材の現状レポート」を公開。SUSEは7月に東京でSUSE Summit 2026を開催。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-22T03:33:39.000Z",
+      "contentHash": "6d4e9c51fb47"
+    },
+    {
+      "id": "0992d02e1e3a",
+      "title": "Agent Bricksが進化！Databricks Sandbox・Omnigent・Agent Memoryを早速試してみた💨 | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/98be21f3848a8e",
+      "summary": "DatabricksのAgent BricksがOSSのOmnigentで強化。エージェントの自動最適化に加え、複数エージェントの組合せ・制御・運用管理・安全性・共有機能が拡張され、Data+AI Summit 2026で発表・実地検証した報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-22T03:31:50.000Z",
+      "contentHash": "cdfdb1da5c24"
+    },
+    {
+      "id": "44d5c7c709a4",
+      "title": "そのMCPサーバーは安全か危険か。信頼性を見極める実務フレームワーク｜出所検証・脆弱性スキャン・第三者監査・ベンダー認証 | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/mcp-server-security-evaluation-2026/",
+      "summary": "MCPサーバーは誰でも作れるため安全性が玉石混交。出所確認は必須だが安全性を保障しない。対策は出所証明・脆弱性スキャン・第三者監査・ベンダー認証・運用統制を重ね、出所→スキャン→既知脆弱性照合→権限最小化→運用統制の多層判断フレームワークを採ること。ツールポイズニングやプロンプトインジェクション等の危険にも注意。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-22T03:12:00.000Z",
+      "contentHash": "7753c4ea03d5"
+    },
+    {
+      "id": "db4dd05fa6da",
+      "title": "AIを活用してモバイルアプリのアニメーション開発効率を高める技術 | Oisix ra daichi Creator's Blog（オイシックス・ラ・大地クリエイターズブログ）",
+      "url": "https://creators.oisixradaichi.co.jp/entry/2026/06/22/120005",
+      "summary": "モバイルのアニメーション開発でAIを活用する手法を紹介。アニメーション仕様書でAIと人間の共通入力を作り、試作（ジャブ）で要求を整理、時間と乱数を抽象化してVRT化し品質を担保。紙吹雪アニメを事例に可変パラメータや奥行き4層を提示。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-22T03:00:05.000Z",
+      "contentHash": "dc377d3b5b5e"
+    },
+    {
+      "id": "60c1cbe4382f",
+      "title": "dora-openarm-vr の使い方",
+      "url": "https://note.com/npaka/n/n0e05c01562d6",
+      "summary": "dora-openarm-vrはMeta Quest 3でOpenArmをVR操作するプロジェクト。Questの位置・姿勢・入力をPCで受信しIK経由でMuJoCoや実機を制御。初回はAPKをサイドロード、PCでリポジトリ取得・ビルド、デフォルト受信ポート5006。まずMuJoCoで動作確認を推奨。コントローラ情報は座標変換して使用。",
+      "source": "npaka",
+      "publishedAt": "2026-06-22T01:54:49.000Z",
+      "contentHash": "417c613015d5"
+    },
+    {
+      "id": "abd061a91568",
+      "title": "stackchan-mcp を試す",
+      "url": "https://note.com/npaka/n/n9d82cc8d5fd2",
+      "summary": "stackchan-mcpはM5Stack版StackChanとPC上のAI/MCPクライアントをつなぐWebSocketゲートウェイです。首振り・カメラ撮影・表情・TTS/STT・LEDなど操作可能。導入は対応ファーム書込→Wi‑FiとGateway URL設定→PCでgateway起動（WS:8765, capture:8766）→MCPクライアントに接続設定します。",
+      "source": "npaka",
+      "publishedAt": "2026-06-22T00:32:43.000Z",
+      "contentHash": "6f44f0a43e0f"
+    },
+    {
+      "id": "4a975b89e4a0",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "summary": "サムスン電子が世界中の従業員向けにChatGPT EnterpriseとCodexを導入。OpenAIによる企業向けAIの導入としては最大級の展開となる。",
+      "source": "OpenAI",
+      "publishedAt": "2026-06-21T23:00:00.000Z",
+      "contentHash": "ecd34a23bf4c"
+    },
+    {
+      "id": "6d621aad9c7c",
+      "title": "Did my old job only exist because of fraud?",
+      "url": "https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/",
+      "summary": "ソフト初期に英国のGenieDBが米VC Frost VPに買収され、著者は米国に移り起業家生活を経験。会社は顧客少なく衰退。十年後、FrostがSECに詐欺で訴えられ、過剰なインキュベーション手数料等が問題に。投資家が仲裁で勝訴し、SECはFrostの運用禁止を求めた。著者は自分の渡米と会社の存続が不正に依存していたのか問い直す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-21T21:40:53.000Z",
+      "contentHash": "63ac464283df"
+    },
+    {
+      "id": "ed4d2066322d",
+      "title": "FDA advisors unanimously vote to approve Moderna's mRNA after agency drama",
+      "url": "https://arstechnica.com/health/2026/06/fda-advisors-unanimously-vote-to-approve-modernas-mrna-after-agency-drama/",
+      "summary": "FDA諮問委は9―0でモデルナの季節性mRNAワクチン（mFlusiva）の承認支持を可決。50歳以上の大規模試験で従来ワクチンより約27%高い効果、65歳以上で強い免疫応答、概ね安全と評価。2月にトランプ任命者が審査を阻止しようとした。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-21T21:30:25.000Z",
+      "contentHash": "43950b5f070d"
+    },
+    {
+      "id": "3d1f3fa6ce3a",
+      "title": "Apertus – Open Foundation Model for Sovereign AI",
+      "url": "https://apertvs.ai/",
+      "summary": "6月15日、Apertusが蒸留と量子化の手法を示すために、16種類の小型言語モデルセット「Apertus Mini」を公開した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-21T21:29:43.000Z",
+      "contentHash": "378a32e024bc"
+    },
+    {
+      "id": "f1053550fbe3",
+      "title": "Everything is logarithms",
+      "url": "https://alexkritchevsky.com/2026/05/25/everything-is-logarithms.html",
+      "summary": "筆者は「基なし対数」log N を抽象的な単位と見なし、基付き対数をその比で表すことで基の変換を単位換算として直感化する。例: log₂N = (log N)/(log2) = log₂(N) bits。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-21T21:10:32.000Z",
+      "contentHash": "46383439f233"
+    },
+    {
+      "id": "5f56c075c483",
+      "title": "There is minimal downside to switching to open models",
+      "url": "https://www.marble.onl/posts/cancel_claude.html",
+      "summary": "かつてLinuxは互換性やソフト不足で使いづらかったが今は改善。一方でオープンLLMは性能面で商用APIモデルに劣り、GPTやClaudeが上位。公開モデルは配信経路やデータ共有でプライバシー懸念があり機密データは送れない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-21T20:56:01.000Z",
+      "contentHash": "a8036fd46d18"
+    },
+    {
+      "id": "b25893239c00",
+      "title": "Ask for no, don't ask for yes (2022)",
+      "url": "https://www.mooreds.com/wordpress/archives/3518",
+      "summary": "行動を優先し、上司に「許可をください」と尋ねる代わりに「◯日までに反対がなければ実行します」と伝えて実行し、反対の機会を与えることで停滞を防ぐという小規模企業での経験談。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-21T20:17:48.000Z",
+      "contentHash": "80448452dfa2"
+    },
+    {
+      "id": "2785dd56c688",
+      "title": "Bose thinks it can be a media company for some reason",
+      "url": "https://www.theverge.com/entertainment/953324/bose-studios-record-label-media-company",
+      "summary": "BoseがBose Studiosを立ち上げ、レーベル（Bose Records）や映画、ポッドキャストでメディア事業に参入。CMOジム・モリカは従来の広告中心からの転換と新人支援を挙げるが、企業系レーベルの失敗例が多く成功は疑問視されている。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-21T18:53:50.000Z",
+      "contentHash": "a82394e4c00b"
+    },
+    {
+      "id": "8e195a9e8c2c",
+      "title": "JSON-LD explained for personal websites",
+      "url": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
+      "summary": "JSON-LDはウェブページに構造化データを埋め込む形式で、検索エンジンがサイト構造を理解しリッチプレビューや検索順位向上に役立つ。<head>内にapplication/ld+jsonでschema.orgの@contextや@graph/@typeを記述する方法を解説。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-21T18:51:47.000Z",
+      "contentHash": "4e6018eab5fa"
+    },
     {
       "id": "4b31f5d99870",
       "title": "Cold Court’s debut EP is an infectious, glitchy genre mashup",
@@ -9,6 +198,33 @@
       "source": "The Verge",
       "publishedAt": "2026-06-21T17:00:33.000Z",
       "contentHash": "84ee3ef19eee"
+    },
+    {
+      "id": "4f3ac210a583",
+      "title": "Tell HN: Happy Fathers Day",
+      "url": "https://news.ycombinator.com/item?id=48620502",
+      "summary": "父は商業画家として苦労しつつ子ども二人を大学へ出し、通勤や職替えを重ね孫にも会えた。ロケットカーやサイレンの逸話を含む思い出に感謝し、子育ての時間は短いと実感、日々を大切に。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-21T17:00:26.000Z",
+      "contentHash": "3bedd8925500"
+    },
+    {
+      "id": "950c45944476",
+      "title": "Burnout is real for open source maintainers",
+      "url": "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers",
+      "summary": "Lodash創始者ジョン＝デイヴィッド・ダルトンが、2012年に個人で始めたユーティリティライブラリが世界中で利用（npm日100万超→日100M）される中での維持負担、燃え尽きて退きつつも持続可能な再建を目指す個人的軌跡を振り返る。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-21T16:56:18.000Z",
+      "contentHash": "2b624d32d6e0"
+    },
+    {
+      "id": "d1119878d942",
+      "title": "The minimum viable unit of saleable software",
+      "url": "https://brandur.org/minimum-viable-unit",
+      "summary": "著者はStainless退職後、サイドプロジェクトRiverを事業化する意向。AI時代の「作るか買うか」を問われ、LinkedInの例（ClaudeでJira代替を自作し月$400節約）を挙げ、LLMで開発コストは大幅に下がったがゼロにはならないと説明する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-21T16:41:21.000Z",
+      "contentHash": "9305d083abd5"
     },
     {
       "id": "2034abc1fdf1",
@@ -59,19 +275,19 @@
       "id": "b67a5f5c7dba",
       "title": "M5Stack版 StackChan のファームを初期状態に戻す",
       "url": "https://note.com/npaka/n/n6a848443aa27",
-      "summary": "M5Stack版StackChanを初期化する手順。台座側USB-CでPC接続→電源ON（接続許可を承認）→M5Burnerを起動し「Only Official」で「StackChan-UserDemo」をダウンロード→Burn→対応シリアルを選びStart→書込完了後画面確認。",
+      "summary": "M5Stack版StackChanを初期状態に戻す手順。台座のUSB-CでPCに接続して起動・接続許可を行い、公式ツールM5Burnerを起動。Only Officialで「StackChan-UserDemo」をダウンロード→Burn→対応シリアルを選びStart→書き込み完了後に画面を確認。",
       "source": "npaka",
       "publishedAt": "2026-06-21T10:51:06.000Z",
-      "contentHash": "64ec05785c83"
+      "contentHash": "588c0593e4e3"
     },
     {
       "id": "fff353ff28c1",
       "title": "M5Stack版 StackChan のセットアップ手順",
       "url": "https://note.com/npaka/n/n0e27ce9867f3",
-      "summary": "M5Stack版StackChanは画面・カメラ・マイク等を備えた組み立て済みの小型AIデスクトップロボット。初回起動でQRからアプリ連携・Wi‑Fi設定を行い、アプリでAVATAR・MONITORING・MOTION・DANCEを操作可能。AI会話、ESPNOW遠隔操作、アプリ追加機能も搭載。",
+      "summary": "M5Stack版StackChanは画面・カメラ・マイク・スピーカー等が一体の小型デスクトップロボット。箱出しですぐ動かせ、初期画面とスマホアプリのQRで機器追加→Wi‑Fi設定で登録。アプリはAVATAR／MONITORING／MOTION／DANCE等を操作でき、本体は音声AI（AI.AGENT）、AVATAR、ESP‑NOWリモート、アプリセンター等の機能を備える。",
       "source": "npaka",
       "publishedAt": "2026-06-21T10:49:15.000Z",
-      "contentHash": "3c91c3d35d8a"
+      "contentHash": "6c3b86ed51e4"
     },
     {
       "id": "4cf14987a0e6",
@@ -266,10 +482,10 @@
       "id": "44adbf32c29f",
       "title": "Unity AI の概要",
       "url": "https://note.com/npaka/n/n4434920529b7",
-      "summary": "Unity AIはエディタ内でプロジェクト文脈を参照してコード作成・エラー確認・シーン編集を支援する公式AI。Assistant（チャット）、外部接続のAI Gateway、MCP Serverを備え、Personalは14日無料後$10/月、Pro/Enterprise等はプランに含まれる。com.unity.ai.assistantを導入しAgent/Plan/Askモードで利用。",
+      "summary": "Unity AIはエディタ内でプロジェクト文脈を参照し、コード生成・エラー確認・シーン編集を支援する開発支援機能。Assistant（チャット）、AI Gateway（外部AI接続）、MCP Server（連携）を提供。Personalは14日無料後月$10、Pro/Enterpriseに含まれる。導入手順とAgent/Plan/Askモードあり。",
       "source": "npaka",
       "publishedAt": "2026-06-21T01:07:15.000Z",
-      "contentHash": "cbe58462c03d"
+      "contentHash": "b04b5ef1f3a2"
     },
     {
       "id": "ec8b880c3a13",
@@ -284,10 +500,10 @@
       "id": "df3b1c5c369f",
       "title": "Meta Quest のハプティクスの種類まとめ",
       "url": "https://note.com/npaka/n/nbf65a9cb482a",
-      "summary": "Meta Questのハプティクス解説。Simple Haptics（基本振動）、System Haptics（定型パターン）、Haptics SDK/.haptic（作り込んだクリップ）、Parametric（時間変化）、PCM（波形制御）と用途別に紹介。",
+      "summary": "Meta Questのハプティクスまとめ：Simpleは単純振動、Systemは標準パターン再生、Haptics SDK（.haptic）は作り込んだクリップ再生、Parametricは時間変化、PCMは波形制御。用途に応じて使い分ける。",
       "source": "npaka",
       "publishedAt": "2026-06-21T00:18:35.000Z",
-      "contentHash": "117c92d5c1b8"
+      "contentHash": "d22db09f20ff"
     },
     {
       "id": "8d93eba0d14e",
@@ -329,10 +545,10 @@
       "id": "b6ff00ee1275",
       "title": "Meta Quest 3S で MR アプリを作る",
       "url": "https://note.com/npaka/n/n44ccc43f76e3",
-      "summary": "Meta Quest 3Sでパススルーを背景に3Dキューブを重ねるMRアプリ作成手順。必要機材と開発者モード有効化、UnityでMeta XR SDK導入、OVRCameraRigにPassthroughとOVRPassthroughLayerを設定しキューブを配置、ビルドしてQuestにインストール。",
+      "summary": "Meta Quest 3Sのパススルーを使い、Unityで現実に重ねる3DキューブのシンプルなMRアプリを作る手順。開発者モード有効化、UnityプロジェクトとMeta XR SDK導入、OVRCameraRig/パススルー設定、キューブ配置、ビルドとデバイス転送までを解説。",
       "source": "npaka",
       "publishedAt": "2026-06-20T22:28:48.000Z",
-      "contentHash": "15a0aefa5050"
+      "contentHash": "01af3b6e675f"
     },
     {
       "id": "c3fb9723381a",
@@ -563,10 +779,10 @@
       "id": "72ffb80c2b38",
       "title": "ロボットのテレオペレーションにおけるVR表示の実装パターン",
       "url": "https://note.com/npaka/n/n716157751a7d",
-      "summary": "ロボット遠隔操作向けVR表示の実装パターンを7種紹介：固定スクリーン、ステレオ、HMD追従、広角／魚眼の切り出し、360／VR180、3Dモデル・点群表示、映像への3D重畳。没入感・奥行き・遅延・解像度・用途適性ごとの利点と課題を比較。",
+      "summary": "ロボット遠隔操作のVR表示パターンを整理：1) 固定カメラをVR内モニタ表示、2) ステレオで立体視、3) HMDでカメラ追従、4) 広角映像を切出し、5) 360/VR180、6) 3Dモデル・点群表示、7) 映像に3D情報重ね。各方式の利点・欠点と適用例（マニピュレーション、移動、監視、デジタルツイン等）を解説。",
       "source": "npaka",
       "publishedAt": "2026-06-19T23:42:31.000Z",
-      "contentHash": "766d3ecf82bb"
+      "contentHash": "d4922c478b1d"
     },
     {
       "id": "058454e91596",
@@ -8784,222 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-06-02T19:56:46.000Z",
       "contentHash": "e8a4068211e3"
-    },
-    {
-      "id": "4eee26400138",
-      "title": "I held the next-gen handheld",
-      "url": "https://www.theverge.com/games/941360/intel-arc-g3-extreme-msi-claw-next-gen-handheld-preview",
-      "summary": "MSIの携帯機Claw 8 EX AI Plusは、Intelの18Aプロセス製Panther Lake系Arc G3 Extremeを搭載。筆者は実機で性能とバッテリーの飛躍的向上を確認し、次世代携帯機の到来とIntelの巻き返しを感じた。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-02T19:56:02.000Z",
-      "contentHash": "6f5073c2db10"
-    },
-    {
-      "id": "a10c8142d219",
-      "title": "The advertising cartel coming to your web browser",
-      "url": "https://blog.zgp.org/the-advertising-cartel-coming-to-your-web-browser/",
-      "summary": "Meta・Google・Apple（Mozilla含む）が提案するブラウザ内広告計測「Attribution Level 1」は、同意や明確な権限なく表示と購買を結び付け、大手に有利でサイト収益を奪い、プライバシー侵害や追跡リスクを助長すると批判されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-02T19:39:25.000Z",
-      "contentHash": "283ac7756a30"
-    },
-    {
-      "id": "2764e16a715f",
-      "title": "Open Repair Data Standard – Open Repair Alliance",
-      "url": "https://openrepair.org/open-data/open-standard/",
-      "summary": "Open Repair Data Standard（ORDS）は、小型電気・電子機器の修理データを共通仕様で収集・公開し、複数団体のデータを統合して故障傾向を把握する標準。v0.3（2021年12月）で製品・修理・セッション等の項目や推奨値が整備されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-02T19:37:10.000Z",
-      "contentHash": "812a1c296f99"
-    },
-    {
-      "id": "9a24c3ad3cd3",
-      "title": "Gmail thinks I'm stupid, so I left",
-      "url": "https://moddedbear.com/gmail-thinks-im-stupid-so-i-left",
-      "summary": "著者はGmailが無断でメール要約や返信をAI生成し、「Help me write」など執拗に介入してくるのを侮辱的と感じ、完全に無効化できない設計にも失望してサービスを離れた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-02T19:27:40.000Z",
-      "contentHash": "04633bdaffd1"
-    },
-    {
-      "id": "af72e1d6dc9e",
-      "title": "Microsoft Build 2026: The 7 biggest announcements",
-      "url": "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements",
-      "summary": "Microsoft Build 2026はAI中心の基調講演。NvidiaのArmベースSpark RTXや128GB搭載のSurface RTX Spark Dev Boxなど新ハード、常時稼働のパーソナルAIアシスタント、社内AIモデルやWindowsの更新が発表された。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-02T19:23:52.000Z",
-      "contentHash": "75cf2319feaf"
-    },
-    {
-      "id": "db5434336b9d",
-      "title": "HP re-releases classic computer science calculator: The HP-16C",
-      "url": "https://hpcalcs.com/product/hp-16c-collectors-edition/",
-      "summary": "HP-16Cのコレクターズエディションが復刻発売。往年のプログラマー向け電卓を忠実に再現し、現代的な改良や限定生産を施した製品で、仕様・写真・価格や購入情報が掲載されています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-02T19:02:40.000Z",
-      "contentHash": "75e57ce04270"
-    },
-    {
-      "id": "f4c892581028",
-      "title": "MAI-Code-1-Flash",
-      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
-      "summary": "Microsoftは新コーディングモデル「MAI‑Code‑1‑Flash」を発表。クリーンなライセンス済データで自社開発し、VS CodeのGitHub Copilot向けに展開。実務向けのエージェント機能、適応的思考と高い指示遵守でトークン効率を高め、Claude Haiku 4.5より優れた価格性能を謳う。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-02T18:47:07.000Z",
-      "contentHash": "4710bbd5ef02"
-    },
-    {
-      "id": "78ac8c1e1510",
-      "title": "Trump signs executive order to review AI models before they’re released",
-      "url": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
-      "summary": "トランプ大統領は最先端AIモデルを公開前に連邦政府と任意で共有する枠組みを定める大統領令に署名。規制を控えつつ重要インフラのサイバー安全性向上とAIの高度な攻撃能力評価のため、複数省庁に枠組み作成を指示した。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-02T18:33:42.000Z",
-      "contentHash": "2e80cd05ff8d"
-    },
-    {
-      "id": "2342887150a4",
-      "title": "Microsoft’s next-gen quantum chip cuts timeline to useful quantum computing",
-      "url": "https://www.theverge.com/news/940874/microsoft-majorana-2-quantum-chip-build",
-      "summary": "Microsoftはトポロジカル量子チップ「Majorana 2」を発表しました。昨年のMajorana 1の後継で、新素材スタックなどにより量子ビットの信頼性が同社比で約1000倍向上したと主張しており、量子計算の信頼性改善の節目とされています。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-02T18:15:00.000Z",
-      "contentHash": "080186e5fe5e"
-    },
-    {
-      "id": "94b87b655b56",
-      "title": "Microsoft’s first advanced reasoning AI is here",
-      "url": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
-      "summary": "MicrosoftはBuild 2026で旗艦の社内AI「MAI-Thinking-1」など新モデルを発表。中規模でソフトウェア工学の主要ベンチに匹敵し、第三者モデル由来ではないクリーンデータで一から訓練したと説明。OpenAI依存の見直しの一環。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-02T18:12:44.000Z",
-      "contentHash": "daefba840994"
-    },
-    {
-      "id": "2440416b8eed",
-      "title": "The durable, floatable UE Wonderboom 4 speaker is cheaper than ever",
-      "url": "https://www.theverge.com/gadgets/941763/ultimate-ears-wonderboom-fractal-design-scape-deal-sale",
-      "summary": "UE Wonderboom 4が青色限定で最安値に—Amazonで$51.49、Walmart/Best Buyで$51.99（通常$79.99から$28引き）。小型ながら音質良好、IP67防水・浮く、最大14時間再生、2台でステレオ可。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-02T18:05:35.000Z",
-      "contentHash": "4b7d8878ce52"
-    },
-    {
-      "id": "cad668908646",
-      "title": "Microsoft Scout is a new AI personal assistant built on OpenClaw",
-      "url": "https://www.theverge.com/news/939713/microsoft-scout-assistant-openclaw",
-      "summary": "Microsoftは常時稼働のAI個人秘書「Scout」を発表。Outlook/OneDrive/Teamsと統合し、予定調整、経費処理、メール下書きなどを代行。Copilotより広範に動作し電話発信や交通情報参照で最適な時間を提案可能。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-02T18:00:00.000Z",
-      "contentHash": "cc2158e90ccd"
-    },
-    {
-      "id": "2a907c0d5a65",
-      "title": "Google’s Phone app will tell you if a scammer is impersonating one of your contacts",
-      "url": "https://www.theverge.com/tech/941517/google-phone-scammer-ai-impersonation",
-      "summary": "GoogleのPhoneアプリがAIによるなりすまし通話を検出し、連絡先と同番号の不審着信を警告して切断を促す機能を追加。6月のAndroid更新でAirDrop拡大、13歳未満向けPersonal Safety提供、PhotosのAI試着なども導入。FBIは2025年に約8.93億ドルのAI詐欺被害を報告。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-02T18:00:00.000Z",
-      "contentHash": "ed6645fa41e5"
-    },
-    {
-      "id": "a9bb80f03bcf",
-      "title": "I tested a bunch of Switch 2 screen protectors, and these are the best",
-      "url": "https://www.theverge.com/reviews/694948/best-switch-2-glass-screen-protector-glossy-matte",
-      "summary": "Switch 2の画面保護はガラス製を強く推奨。光沢かマットかを選び、薄いプラスチック製は無駄と断言。著者が多数を実地検証し、傷防止のため早めに貼ることを勧めています。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-02T17:48:33.000Z",
-      "contentHash": "2df58e48a237"
-    },
-    {
-      "id": "7bb42b643828",
-      "title": "Microsoft&#8217;s Project Solara is an OS for AI agent gadgets",
-      "url": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets",
-      "summary": "マイクロソフトはBuild 2026で、AIエージェント向けOS「Project Solara」を発表。Androidベースで、顔認証で起動するデスク型（Echo Show風）と、カメラ・指紋でワンタッチ録音・即時文字起こしや映像共有が可能なバッジ型を公開。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-02T17:31:02.000Z",
-      "contentHash": "eca1fe1f6b08"
-    },
-    {
-      "id": "05fe455b9ac1",
-      "title": "Microsoft created the mini Surface dev box that Qualcomm couldn&#8217;t",
-      "url": "https://www.theverge.com/news/941271/microsoft-surface-rtx-spark-dev-box-specs-availability",
-      "summary": "Microsoftは開発者向け小型PC「Surface RTX Spark Dev Box」を発表。Arm版NVIDIA RTX Spark搭載、100W熱枠のアルミ筐体、128GB統合メモリで最大1200億パラメータ規模のローカルAI処理に対応。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-02T16:30:00.000Z",
-      "contentHash": "2319da3341f2"
-    },
-    {
-      "id": "0f6ac88fe403",
-      "title": "People are leaving a lot of weird stuff in their robotaxis",
-      "url": "https://www.theverge.com/transportation/941150/uber-lost-found-robotaxi-items-waymo-motional-avride",
-      "summary": "Uberが年次の「Lost and Found Index」で初めて自動運転車内の落とし物を集計。ユニコーンのぬいぐるみ、15ポンドのボウリング球、入れ歯など奇妙な品が報告され、UberはWaymoやMotional等のロボタクシー増加で集計対象を拡大した。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-02T12:00:00.000Z",
-      "contentHash": "555a622f6fe0"
-    },
-    {
-      "id": "079b6eb163b4",
-      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
-      "url": "https://openai.com/index/travelers",
-      "summary": "TravelersはOpenAIと協力してAI搭載のクレーム（請求）アシスタントを構築し、顧客の請求手続き案内、24時間サポート、繁忙期の業務拡大を実現した。",
-      "source": "OpenAI",
-      "publishedAt": "2026-06-02T12:00:00.000Z",
-      "contentHash": "97922bbba9a5"
-    },
-    {
-      "id": "baeaf3dedf2e",
-      "title": "How to watch Microsoft’s Build 2026 conference",
-      "url": "https://www.theverge.com/tech/941379/microsoft-build-conference-2026-how-to-watch-livestream",
-      "summary": "Microsoftはサンフランシスコで年次開発者会議Build 2026を開催。チケットは完売だが、Nadellaの基調講演（6/2 12:30ET／9:30PT）は無料配信。会議は主にAI中心の開発者向け発表で、新ハードの可能性も示唆されている。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-02T11:00:00.000Z",
-      "contentHash": "43058ed092da"
-    },
-    {
-      "id": "cf1403de01d4",
-      "title": "Adafruit Receives Demand Letter from Fenwick Legal Counsel on Behalf of Flux.ai",
-      "url": "https://blog.adafruit.com/",
-      "summary": "外部サイトに直接アクセスできないため、記事本文か主要部分（または要点）を貼ってください。HNコメントも同時に要約希望ならそれも添えてください。受け取り次第、200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-02T10:00:56.000Z",
-      "contentHash": "7a83ff12a16b"
-    },
-    {
-      "id": "9f732c11e1df",
-      "title": "Why Janet? (2023)",
-      "url": "https://ianthehenry.com/posts/why-janet/",
-      "summary": "著者がスクリプト言語「Janet」を選んだ理由を述べる記事。軽量で組み込みやC連携が容易、REPLやマクロなど表現力が高く実用的な設計哲学を評価する一方、エコシステムやドキュメントの制約も指摘している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-02T09:34:31.000Z",
-      "contentHash": "b36e08f72b58"
-    },
-    {
-      "id": "b040c6a97600",
-      "title": "Codex for every role, tool, and workflow",
-      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
-      "summary": "アナリスト、マーケター、デザイナー、投資家などのチームがAIでより多くの成果を出せるようにする、新しいCodexプラグイン、サイト、注釈を紹介します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-06-02T09:00:00.000Z",
-      "contentHash": "7fa6d7685b37"
-    },
-    {
-      "id": "ce021b3e95a1",
-      "title": "TripoSplat による3Dモデル生成を試す",
-      "url": "https://note.com/npaka/n/n7b2db4a017ff",
-      "summary": "TripoSplatは1枚の2D画像から3D Gaussian Splatting用データを生成するTripoAIのMIT公開オープンソース。Ubuntu/Windows+WSL2、NVIDIA GPU（VRAM8–12GB以上）等が必要。gradioで起動→画像をGenerateしsplat.plyを出力、Gaussian VRMで動かせる。",
-      "source": "npaka",
-      "publishedAt": "2026-06-02T07:50:51.000Z",
-      "contentHash": "d4348f1e3eee"
-    },
-    {
-      "id": "f4e0423d66a1",
-      "title": "Advancing youth safety and opportunity through global leadership",
-      "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
-      "summary": "OpenAIは若年層のAI安全確保のため国際的行動を呼びかけ、保護策・基準・教育や就業機会を強化する国際機関の設立を提案した。",
-      "source": "OpenAI",
-      "publishedAt": "2026-06-02T07:00:00.000Z",
-      "contentHash": "35d8ece70d8c"
     }
   ]
 }
