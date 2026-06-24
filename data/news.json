@@ -1,6 +1,276 @@
 {
-  "generatedAt": "2026-06-23T18:14:33.394Z",
+  "generatedAt": "2026-06-24T04:04:26.720Z",
   "items": [
+    {
+      "id": "6dc9d4a746c2",
+      "title": "相次ぐGitHub Actions 侵害から学ぶ、初期アクセス手法と開発者が知っておきたい対策 | GMO Flatt Security Blog",
+      "url": "https://blog.flatt.tech/entry/2026-github-actions-security-part1",
+      "summary": "GitHub Actionsの侵害がもたらす影響と具体的事例を解説。脆弱トリガーによるインジェクション（Ultralytics, nx）、タグ汚染によるサプライチェーン攻撃(tj-actions, trivy)、AIエージェントの過剰権限、信頼できないPRのcheckoutでのRCEなどの初期アクセス手口を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-24T02:51:24.000Z",
+      "contentHash": "ad97c713c146"
+    },
+    {
+      "id": "103db07f092b",
+      "title": "プリフライトリクエストをバックエンドに通さずALBのみで処理する | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/06/24/112747",
+      "summary": "CORSのプリフライトリクエストがサーバでエラーになることがあるため、ALBだけでプリフライトに応答しエラーを回避する方法を検証します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-24T02:27:47.000Z",
+      "contentHash": "66df7a28a181"
+    },
+    {
+      "id": "8b27c2b60a2f",
+      "title": "「26卒エンジニアの輪を広げNight」を開催しました！！ | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/06/24/112426",
+      "summary": "25卒の190、uho-wq、あかがわまさともの3人が2026年6月5日、自社オフィスで「26卒エンジニアの輪を広げNight」を開催。各社の26卒が働き方や抱負を共有して交流するイベントで、記事は企画背景・当日の内容・運営での気づきをまとめる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-24T02:24:26.000Z",
+      "contentHash": "3d19672ad454"
+    },
+    {
+      "id": "3fe7282a7f19",
+      "title": "Claude Code で1体のAIレビューに欲張って失敗し、3エージェントに分けた話 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/53091",
+      "summary": "龍ちゃんはセミナー資料作りが苦手で、AIと一緒にスライドをレビューしている。Claude Codeで1体のAIに欲張って任せて失敗し、その後レビュー役を3つのエージェントに分けて対応した話。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-24T02:16:29.000Z",
+      "contentHash": "42dde5eec870"
+    },
+    {
+      "id": "adf0fd4f5a6c",
+      "title": "AIとスライドを作る進め方｜「なんか違う」修正ループが終わらない人へ | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/53088",
+      "summary": "社内セミナーのスライドをAIと作る著者（龍ちゃん）は、一括で頼むと見た目は整うが「なんか違う」と修正ループに陥る経験から、その無限ループを止めるためのAIとの進め方を解説する記事です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-24T02:13:11.000Z",
+      "contentHash": "587966f12dda"
+    },
+    {
+      "id": "86469c18b020",
+      "title": "Slidev のデザインシステムを CSS変数と CLAUDE.md で作る：移植が簡単 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/53085",
+      "summary": "手作業では間に合わないため、龍ちゃんがSlidevとClaude Codeでスライドを大量生成する環境を構築。CSS変数とCLAUDE.mdで移植しやすいデザインシステムを作った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-24T02:12:51.000Z",
+      "contentHash": "fe8c84d6af5e"
+    },
+    {
+      "id": "044a5b9d5862",
+      "title": "Claude Code × Slidev：AIに全任せしないデザインシステムの育て方 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/52948",
+      "summary": "SlidevとClaude Codeでスライドを量産する著者が、AIに全部任せずにデザインシステムを育てる方法を解説。前回は色・サイズをCSS変数で固定する話で、今回はその上位設計の続編。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-24T02:12:41.000Z",
+      "contentHash": "b579665fe181"
+    },
+    {
+      "id": "8a1c6e6b1f52",
+      "title": "Claude Code×Slidev：AIスライドが“毎回揃わない”を解決するデザイントークン | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/52944",
+      "summary": "SlidevとClaude Codeでスライドを大量生成する実践報告。AIは概ね高品質だがデザインが毎回揃わず誤りもあるため、デザイントークンを導入して不揃い問題を解決する提案。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-24T02:12:31.000Z",
+      "contentHash": "9719ef7a21a7"
+    },
+    {
+      "id": "b6dbe94c1370",
+      "title": "Marp と Slidev の使い分け：Git で管理したい僕がやる使い分け | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/52940",
+      "summary": "MarpとSlidevの使い分けを紹介する記事。筆者は当初Marpで作成していたがSlidevへ移行し、両者の特徴やMarkdownベースでGit管理する際の使い分けを解説している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-24T02:12:19.000Z",
+      "contentHash": "f7a4912a7444"
+    },
+    {
+      "id": "b921c8bc76db",
+      "title": "Claude Code × Slidev：構文ゼロで作って、Git で管理する | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/52936",
+      "summary": "Slidev（Markdown）とClaude Codeを組み合わせ、AIで高速にスライドを自動生成し、Gitでコードとして管理する手法を紹介。構文記述不要でスライド作成が効率化される。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-24T02:12:07.000Z",
+      "contentHash": "be5a97a99f92"
+    },
+    {
+      "id": "71c2a6e641ec",
+      "title": "Meta Pauses Employee-Tracking Program Following Internal Data Leak",
+      "url": "https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
+      "summary": "Metaは従業員の位置や活動を収集する社内追跡プログラムの運用を一時停止しました。内部のセキュリティ侵害でデータに不正アクセスがあったためで、同社は調査と被害確認を進めています。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-24T00:28:41.000Z",
+      "contentHash": "93e6f37134bb"
+    },
+    {
+      "id": "480c6cef3e8f",
+      "title": "The best robot vacuum deals available during Prime Day",
+      "url": "https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026",
+      "summary": "Prime DayでRoborock、Dreame、Sharkなど実機検証済みのロボット掃除機が割引中。基本モデルからモップ洗浄や段差越え対応の高級機まで幅広くお得に購入可能。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-24T00:17:27.000Z",
+      "contentHash": "c559a3740050"
+    },
+    {
+      "id": "261dae7d661d",
+      "title": "This year’s Prime Day deals on Apple products are the best I’ve seen",
+      "url": "https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026",
+      "summary": "Prime Day 2026で早期にAppleセール開始。Apple Watch Series 11が最安値、AirPods Pro 3はWalmartで過去最安169ドルに達し売切れ、現在は179ドルで割引中。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-23T23:58:13.000Z",
+      "contentHash": "ee5384fcc906"
+    },
+    {
+      "id": "31d0a00892d3",
+      "title": "Vulnerability reports are not special anymore",
+      "url": "https://words.filippo.io/vuln-reports/",
+      "summary": "かつて脆弱性報告は研究者の秘匿的洞察で特別扱いされ、迅速対応や帰属が期待された。しかし2026年、LLMで誰でも脆弱性を発見できるようになり洞察は希少でなくなり、重要なのは報告の真偽を見極めるトリアージと信頼関係だと論じる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-23T23:42:46.000Z",
+      "contentHash": "d49d049e1709"
+    },
+    {
+      "id": "0f5aff509cff",
+      "title": "Extreme Heat conference cancelled due to extreme heat warning",
+      "url": "https://www.lse.ac.uk/granthaminstitute/events/extreme-heat-improving-governance-and-strengthening-action-around-the-world/",
+      "summary": "LSEグランサム研究所のイベントは、猛暑増加に対するガバナンス強化と行動促進を議論。早期警報や都市設計、医療・脆弱層支援、資金・法整備、国際協力の必要性を強調した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-23T23:26:43.000Z",
+      "contentHash": "8e9ed16696ef"
+    },
+    {
+      "id": "84f97c6761a7",
+      "title": "The Nex Playground is down to its pre-RAMageddon price during Prime Day",
+      "url": "https://www.theverge.com/gadgets/950871/nex-playground-prime-day-deal-sale",
+      "summary": "キネクト風の子ども向けモーションゲーム機「Nex Playground」がPrime Dayで299ドル→239ドルに値下げ。操作は完璧でないが子供に好評のオールインワン家庭用ゲーム機と評される。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-23T23:00:00.000Z",
+      "contentHash": "b2817ebfe826"
+    },
+    {
+      "id": "d824c3171249",
+      "title": "Google Home will soon get better at recognizing you",
+      "url": "https://www.theverge.com/tech/955385/google-home-familiar-faces-clothing",
+      "summary": "6月23日からのGoogle Home更新で、Familiar Facesが顔が不鮮明でも体格や服の色などの非生体情報で人物を識別可能に。登録写真は自動更新され誤通知が減る。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-23T22:28:19.000Z",
+      "contentHash": "0b4d6456efd2"
+    },
+    {
+      "id": "808125032ed1",
+      "title": "California AB 2047 makes 3D printers off-limits to students, educators, business",
+      "url": "https://www.the3dprintingnerd.com/ab2047",
+      "summary": "AB2047はカリフォルニアで販売される全3Dプリンターに司法省認定の検出アルゴリズム搭載を義務化する案。実現困難で学校や図書館などから機材撤去の恐れがあり、州上院の司法・公共安全委員会に対し電話やメールで反対を訴えるよう呼びかけている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-23T22:12:18.000Z",
+      "contentHash": "9a4556ee8ac4"
+    },
+    {
+      "id": "111f44f8de8d",
+      "title": "Hollywood is bending the knee to OpenAI",
+      "url": "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt",
+      "summary": "ルカ・グァダニーノ監督のサム・アルトマン／OpenAIを描く映画『Artificial』がNetflix、A24、Focus、Warnerらに見送られ、Amazon MGMも配給撤回。NeonやMubiは関心を示すが、ビッグテック批判を避ける業界の萎縮を示唆している。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-23T22:03:18.000Z",
+      "contentHash": "ff1ddf7d598b"
+    },
+    {
+      "id": "c6b8f70b9e48",
+      "title": "United Wizards of the Coast recognized by NLRB",
+      "url": "https://unitedwizardsofthecoast.com/news/2026-06-23-we-have-a-union",
+      "summary": "Arenaの労働者がUWOTC‑CWA組合の結成に成功し、投票で正式に選出されました。署名や報道、CWAスタッフらの支援に感謝し、契約成立の報告と他職場の組織化を目指します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-23T21:57:32.000Z",
+      "contentHash": "e2c271462ec7"
+    },
+    {
+      "id": "6b641428d588",
+      "title": "Trains halted across Germany because of communication system problem",
+      "url": "https://apnews.com/article/germany-trains-halted-communications-radio-problem-deutsche-bahn-e8fd970b2d889f3ae7ce03322d5c726b",
+      "summary": "ドイツ全土で通信システムの障害が発生し、鉄道が全面停止。6月23日、多くの乗客がミュンヘンやデュイスブルクなど各駅で足止めされ、案内窓口に列を作った。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-23T21:19:44.000Z",
+      "contentHash": "0009aec7b28e"
+    },
+    {
+      "id": "02f199e7b848",
+      "title": "Prime Day takes $240 off Roborock’s Saros 20, one of our favorite robovacs",
+      "url": "https://www.theverge.com/gadgets/953936/roborock-saros-20-amazon-deal-sale",
+      "summary": "Prime DayでRoborockのロボット掃除機兼モップ「Saros 20」が240ドル引きの約1,359.99ドルに。家具下へ入れ、障害物回避に優れ、部屋中を安心して掃除できると高評価のモデルです。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-23T21:00:00.000Z",
+      "contentHash": "6e5f2bb977ab"
+    },
+    {
+      "id": "e67aa70595a8",
+      "title": "The Meta Quest 3S is on sale for $297 — which is basically its old price",
+      "url": "https://www.theverge.com/gadgets/954049/meta-quest-3s-vr-headset-prime-day-deal-sale",
+      "summary": "MetaのエントリーレベルVRヘッドセット「Quest 3S（128GB）」がAmazonで296.79ドルに値下げ。発売時は299.99ドルで今年は349.99ドルに値上げされており、スタンドアロンの基本モデルとして妥当な割引。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-23T21:00:00.000Z",
+      "contentHash": "e34de19c515c"
+    },
+    {
+      "id": "59fbf7a0cd7f",
+      "title": "The best Prime Day deals we found on our favorite gear",
+      "url": "https://www.theverge.com/gadgets/948610/best-prime-day-tech-deals-sale",
+      "summary": "The Vergeの編集者カメロン・フォークナーが、Amazon Prime Day（開催中〜6月27日3:01AM ET）を案内。プライム会員向けの4日間セールで、家電やゲーム等の注目おすすめ品をカテゴリー別に数十点厳選して紹介している。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-23T20:59:34.000Z",
+      "contentHash": "61a96cc2c3ea"
+    },
+    {
+      "id": "2f7efdb0a9ba",
+      "title": "Don't verify email addresses by sending spam to them",
+      "url": "https://milek7.pl/mailverifyspam/",
+      "summary": "メール検証は確認メールを送るべきだが、Pangramの登録フォームは入力だけで迷惑メールを送りアドレスを“検証”している。差出人ドメインを回し拒否されると別サーバーから再送するなど無意味で不適切。実際の取引メールはMailgun経由。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-23T20:23:49.000Z",
+      "contentHash": "d3b2720d5f94"
+    },
+    {
+      "id": "9c12cdd99538",
+      "title": "Xteink’s tiny e-readers are 20 percent off for Prime Day",
+      "url": "https://www.theverge.com/gadgets/955139/xteink-x3-x4-e-ink-reader-amazon-prime-day-deal-sale",
+      "summary": "Xteinkの小型電子書籍リーダーX4/X3がPrime Dayで割引。X4は55.20ドル（通常69）、X3は63.20ドル（通常79）。Kindle/Koboより小型でポケット収納可、MagSafe対応スマホに貼れる磁石付き。標準ソフトは粗いが無償のCrossPoint Readerにアップデート可能。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-23T20:11:24.000Z",
+      "contentHash": "73c4740447ef"
+    },
+    {
+      "id": "e8da89dec357",
+      "title": "Prime Day has some solid deals on Switch 2, PS5, and Xbox games",
+      "url": "https://www.theverge.com/gadgets/951901/prime-day-video-games-switch-playstation-xbox-pc-deal-sale",
+      "summary": "Prime DayでSwitch 2・PS5・Xbox向けのゲームや周辺機器が多数セール。本体はほとんど割引対象外だが、近年作の物理版を中心に大幅割引やデジタル版・Best Buyの同価格もあり、ヘッドセットやコントローラー、Switch用のmicroSDなどが狙い目。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-23T20:00:00.000Z",
+      "contentHash": "5624fc414dfc"
+    },
+    {
+      "id": "47b909232038",
+      "title": "Anthropic updates their terms to verify age or identity",
+      "url": "https://www.anthropic.com/legal/privacy",
+      "summary": "申し訳ありませんが、こちらから直接ウェブページを閲覧できません。URL先の本文をここに貼っていただくか、Anthropicのプライバシーポリシーについて「一般的な内容での要約」を作成してよいか教えてください。Hacker Newsのコメントも含めて要約希望なら、そのテキストを貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-23T19:45:07.000Z",
+      "contentHash": "b8e3b9de3fb0"
+    },
+    {
+      "id": "4725a678ff9c",
+      "title": "Algorithmic Monocultures in Hiring",
+      "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+      "summary": "3.4M人の応募データを基にした大規模研究で、単一ベンダーの採用AIが人種間で不利益を生み、同一候補者が複数企業で一律に排除されることが判明。EEOC基準で差別的影響を確認し、AI依存が不平等を拡大すると警告。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-23T18:56:19.000Z",
+      "contentHash": "2512717c5921"
+    },
+    {
+      "id": "c89ab99c82d8",
+      "title": "Jerry's Map",
+      "url": "http://www.jerrysmap.com/the-map",
+      "summary": "ジェリーは1963年に落書きとして架空都市の地図を描き始め、1983年に中断後、息子ヘンリーの発見で再開。現在は4000枚超の8×10インチパネルで円形を成す“仮想世界”で、固定座標上の各パネルを作家の自作カードデッキの指示に従い混合技法で継続的に改変している。ブログやr/jerrymappingも存在。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-23T18:40:22.000Z",
+      "contentHash": "828ede83ecfa"
+    },
     {
       "id": "072c0c397337",
       "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
@@ -63,15 +333,6 @@
       "source": "The Verge",
       "publishedAt": "2026-06-23T15:30:00.000Z",
       "contentHash": "6e0e9c7a6c29"
-    },
-    {
-      "id": "59fbf7a0cd7f",
-      "title": "The best Prime Day deals we found on our favorite gear",
-      "url": "https://www.theverge.com/gadgets/948610/best-prime-day-tech-deals-sale",
-      "summary": "The Vergeが選んだPrime Dayのおすすめセールまとめ。編集者キャメロン・フォークナーが家電やゲームなど複数カテゴリの注目商品をピックアップ。セールは6月27日3:01AM ETまでの4日間。リンク経由でVoxが手数料を得る場合あり。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-23T15:12:52.000Z",
-      "contentHash": "573a05d3b34e"
     },
     {
       "id": "af5dcc7138d1",
@@ -173,6 +434,15 @@
       "contentHash": "4a90417ab446"
     },
     {
+      "id": "aec47bf76556",
+      "title": "Helping build shared standards for advanced AI",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "summary": "OpenAIはAppia財団を通じ、先進的AIの共通基準策定を支援し、評価フレームワークや安全対策、国際的な協力を推進している。",
+      "source": "OpenAI",
+      "publishedAt": "2026-06-23T13:00:00.000Z",
+      "contentHash": "daa7b54818c2"
+    },
+    {
       "id": "11b86268bb2d",
       "title": "Unlimited OCR: One-Shot Long-Horizon Parsing",
       "url": "https://github.com/baidu/Unlimited-OCR",
@@ -218,15 +488,6 @@
       "contentHash": "1fd199da9ff3"
     },
     {
-      "id": "480c6cef3e8f",
-      "title": "The best robot vacuum deals available during Prime Day",
-      "url": "https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026",
-      "summary": "Prime DayでRoborock、Dreame、Sharkなど複数ブランドのロボット掃除機がセールに。基本モデルからモップ自動洗浄や段差越え対応の高機能機まで、幅広い価格帯で割引中。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-23T10:24:10.000Z",
-      "contentHash": "ee6a71805153"
-    },
-    {
       "id": "51f003db62ec",
       "title": "Israel targeted Gaza children resulting in genocide, UN inquiry says",
       "url": "https://www.reuters.com/world/middle-east/israel-targeted-gaza-children-resulting-genocide-un-inquiry-says-2026-06-23/",
@@ -234,15 +495,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-06-23T10:16:48.000Z",
       "contentHash": "306b230c85f1"
-    },
-    {
-      "id": "261dae7d661d",
-      "title": "The best Apple deals you can get during Prime Day",
-      "url": "https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026",
-      "summary": "Prime DayでのApple製品セールまとめ。Apple Watch Series 11が過去最安、AirPods Pro 3はWalmartで$169の記録的安値（売切れ）、現在はAmazonやBest Buyで$179。記事は随時更新。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-23T10:15:26.000Z",
-      "contentHash": "2d29384f3fce"
     },
     {
       "id": "fdf20c6529f0",
@@ -959,10 +1211,10 @@
       "id": "2f5d460e894c",
       "title": "Meta Quest アプリのデバッグ方法",
       "url": "https://note.com/npaka/n/ncd8e36546601",
-      "summary": "Meta Questアプリのデバッグは、Unity Editor+Meta XR Simulator、Editor+Quest Link、実機ビルドの3方式。Meta XR SimulatorはPlayモードでUIや視点・コントローラ操作、基本インタラクションやログ確認が可能で、Meta XR SDK導入、OpenXR有効化、StandaloneのSimulatorインストールで利用できる。",
+      "summary": "Meta Questアプリのデバッグは、Unity Editor+Meta XR Simulator、Unity Editor+Quest Link、実機へのAndroidビルドの3方式を使い分ける。Meta XR SimulatorはEditor上で視点・コントローラ・UI・基本インタラクションや仮想環境をシミュレートでき、Meta XR SDK導入・OpenXR有効化・Simulatorアプリのインストールで利用可能。",
       "source": "npaka",
       "publishedAt": "2026-06-22T07:55:40.000Z",
-      "contentHash": "5d048a89e7a0"
+      "contentHash": "b4bd839061a6"
     },
     {
       "id": "8a36656aba0d",
@@ -1103,10 +1355,10 @@
       "id": "60c1cbe4382f",
       "title": "dora-openarm-vr の使い方",
       "url": "https://note.com/npaka/n/n0e05c01562d6",
-      "summary": "dora-openarm-vrはMeta Quest 3でOpenArmをVR操作するプロジェクト。Questの姿勢・入力をUDP（デフォルト5006）でPCのdora-rsに送り、IK経由でMuJoCoまたは実機を制御。QuestにAPKをサイドロードし、PCでリポジトリを取得・ビルド、データフローを実行。動作確認やデータ収集用の設定ファイルが提供される。",
+      "summary": "dora-openarm-vrはMeta Quest 3のHMD/コントローラ情報をPCのdora-rsで受け、IK経由でMuJoCoや実機OpenArmを遠隔操作するプロジェクト。Questに開発用APKをサイドロード、PCでリポジトリを取得・ビルドしポート5006でUDP受信を確認後、config/dataflow-mujoco.yamlで動作確認。実機はまずMuJoCoで安全確認を行う。データ収集用設定も同梱。",
       "source": "npaka",
       "publishedAt": "2026-06-22T01:54:49.000Z",
-      "contentHash": "24c2f9f4bccb"
+      "contentHash": "17dacdc15b32"
     },
     {
       "id": "f3f9da2677a7",
@@ -1121,10 +1373,10 @@
       "id": "abd061a91568",
       "title": "stackchan-mcp を試す",
       "url": "https://note.com/npaka/n/n9d82cc8d5fd2",
-      "summary": "stackchan-mcpはM5Stack版StackChanとPC上のAIツール/MCPクライアントをつなぐWebSocketゲートウェイ。首振りやカメラ撮影、表情・LED制御、TTS/STTなどを遠隔操作でき、ファーム書込やWi‑Fi/Gateway設定、起動・MCPクライアント設定手順を解説しています。",
+      "summary": "stackchan-mcp v0.12.0を試用し、インストール・設定手順、主要機能や使い方、互換性や注意点、簡単なサンプルと改善点、総評をコンパクトにまとめたレビューです。",
       "source": "npaka",
       "publishedAt": "2026-06-22T00:32:43.000Z",
-      "contentHash": "4cfa251819d1"
+      "contentHash": "7c316a515599"
     },
     {
       "id": "e2330fefe7e2",
@@ -1598,10 +1850,10 @@
       "id": "b6ff00ee1275",
       "title": "Meta Quest 3S で MR アプリを作る",
       "url": "https://note.com/npaka/n/n44ccc43f76e3",
-      "summary": "Meta Quest 3Sでパススルーを使った簡単なMRアプリをUnityで作る手順。必要環境（Quest3S、Unity、Meta XR SDK等）、開発者モード有効化、プロジェクト設定、OVRCameraRigとPassthrough有効化、OVRPassthroughLayer追加、キューブ配置、USBでビルド・インストール。",
+      "summary": "Meta Quest 3SでのMRアプリ作成手順をUnity 6.3を用いてまとめた記事。環境設定、開発フロー、ビルドやデプロイ、実機テストなどのポイントが解説されています。",
       "source": "npaka",
       "publishedAt": "2026-06-20T22:28:48.000Z",
-      "contentHash": "8a2127cbbf3d"
+      "contentHash": "850c5ecf873e"
     },
     {
       "id": "c3fb9723381a",
@@ -8748,258 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-04T23:50:17.000Z",
       "contentHash": "e18af507dd47"
-    },
-    {
-      "id": "65dba9eb134c",
-      "title": "Do transformers need three projections? Systematic study of QKV variants",
-      "url": "https://arxiv.org/abs/2606.04032",
-      "summary": "TransformerのQ,K,V投影共有（Q-K=V, Q=K-V, Q=K=V）を系統的に評価。Q-K=Vは性能ほぼ同等でKVキャッシュ50%削減（困惑度+3.1%）。GQA/MQA併用で最大96.9%削減、端末推論可能。Q=K-Vは注意の方向性を破壊し、K/Vの類似表現と低ランク注意が効くと解析。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-04T23:11:56.000Z",
-      "contentHash": "ac5784862d2a"
-    },
-    {
-      "id": "bd924c8a854a",
-      "title": "Nature における「スマートロックとはなにか」をドメインモデリングする | Nature Engineering Blog",
-      "url": "https://engineering.nature.global/entry/smartlock-domain-models",
-      "summary": "Natureは2026年4月30日にスマートロック「Nature Lock」とApple「探す」対応スマートキー「Nature Key」を発売。5月19日に外部操作対応、6月3日に1ドア2ロック対応を追加。記事は主にNature Lockを解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-04T23:00:00.000Z",
-      "contentHash": "1c999bc69b73"
-    },
-    {
-      "id": "930f4766bdea",
-      "title": "コンポーネントディレクトリをフラットに保つために | カミナシ エンジニアブログ",
-      "url": "https://kaminashi-developer.hatenablog.jp/entry/2026/06/05/flat-component-directory",
-      "summary": "カミナシの澤木が、設備保全フロントのコンポーネントディレクトリ設計と「ネストを深くしない工夫」を解説。機能単位でディレクトリを切り、各feature内をcomponents/hooks/contexts/model/repositoryなど責務別に整理する構成を採用している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-04T23:00:00.000Z",
-      "contentHash": "5ecc69537377"
-    },
-    {
-      "id": "3eb8a19c5b7d",
-      "title": "Valve says it&#8217;s ready to launch the Steam Machine this summer",
-      "url": "https://www.theverge.com/games/943657/valve-steam-machine-frame-summer-launch-verified",
-      "summary": "Valveは、遅延していたSteam Machine（PC）とSteam Frame（VRヘッドセット）を今夏に発売すると発表。メモリ・ストレージ不足で価格と出荷計画を見直しており、Verifiedプログラムも公表した。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-04T22:48:53.000Z",
-      "contentHash": "027923bec7bf"
-    },
-    {
-      "id": "971a4932ab80",
-      "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
-      "summary": "リンク先に直接アクセスできないため正確な全文確認はできませんが、見出しに基づく要約を示します（詳細が必要なら記事本文を貼ってください）。\n\nS&Pダウ・ジョーンズは協議の結果、メガキャップ向けのIPOルールを現行のまま維持すると決定し、大型上場基準に変更はない。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-04T22:48:19.000Z",
-      "contentHash": "726a0305e198"
-    },
-    {
-      "id": "ec871a0ca219",
-      "title": "IPv6 zones in URLs are a mistake",
-      "url": "https://xeiaso.net/notes/2026/ipv6-zones-go-url/",
-      "summary": "申し訳ありませんが外部サイトへ直接アクセスできないため要約できません。記事本文か主要部分（またはHNコメント）を貼っていただければ、200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-04T21:42:34.000Z",
-      "contentHash": "ea9226045d8f"
-    },
-    {
-      "id": "ec2aee29b187",
-      "title": "Iran Shock Jolts Asia and Europe to Speed Up Energy Transition",
-      "url": "https://www.bloomberg.com/graphics/2026-energy-transition-iran-war/",
-      "summary": "申し訳ありませんが、外部のURLを直接参照できません。記事本文をここに貼っていただければ、200文字以内で要約します。コメント欄の要約でも対応可能です。\n\n（参考として推測要約が必要なら：中東の戦況が化石燃料供給リスクを高め、短期的な原油高と長期的な脱炭素投資の加速を同時に招く、といった内容が想定されます。要約をご希望なら「推測で要約して」とお伝えください。）",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-04T20:19:07.000Z",
-      "contentHash": "3219b694e105"
-    },
-    {
-      "id": "ffb79fe518b6",
-      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
-      "url": "https://github.com/anthropics/defending-code-reference-harness",
-      "summary": "Claudeを使った自動脆弱性発見・修復の参照実装。複数組織での知見に基づくClaude Codeスキル群とC/C++向けASANハーネスを提供。非保守リポジトリ、商用はClaude Security。ブログ・クックブックあり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-04T20:11:20.000Z",
-      "contentHash": "0a47803a4feb"
-    },
-    {
-      "id": "dbc87d9206bd",
-      "title": "Cyberdecks used to look like little laptops, but now they&#8217;re getting more personal",
-      "url": "https://www.theverge.com/tech/943445/cyberdeck-tiktok",
-      "summary": "サイバーデッキが頑丈な箱型中心の外観から、バッグや宝箱、玩具などに組み込まれたファッション性の高い個人製作へ変化。Raspberry Pi基板搭載の作品がSNSで話題に。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-04T20:07:31.000Z",
-      "contentHash": "ef5a49bcda35"
-    },
-    {
-      "id": "edbc8beb0d4e",
-      "title": "Meta's ships facial recognition on smart glasses",
-      "url": "https://www.buchodi.com/meta-glasses-facial-recognition/",
-      "summary": "Metaのスマートグラス用アプリStella（Android v273.0.0.21）に、端末上で完結する顔認識の全処理系が搭載されていると確認。3モデルやローカルDB、2048次元埋め込み、通知まで動作したが、未登録の標準アカウントではUIやサーバー配信は無効で、実運用はMetaが制御している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-04T19:36:48.000Z",
-      "contentHash": "920313a923d5"
-    },
-    {
-      "id": "6e256504bb95",
-      "title": "Kevin O’Leary agrees to downsize massive Utah data center",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/943234/kevin-oleary-agrees-to-downsize-massive-utah-data-center",
-      "summary": "ケビン・オリアリーは住民らの反発で、ユタ州の約4万エーカー計画データセンター「Project Stratos」から1万9430エーカーを削除し規模を半減すると表明。敷地はLocomotive Springs周辺で、水使用削減や余剰水をグレートソルト湖へ回す要請が出ている。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-04T18:38:04.000Z",
-      "contentHash": "d9799c768ea2"
-    },
-    {
-      "id": "73480bfddc8d",
-      "title": "Google is letting social media stars customize their search result page",
-      "url": "https://www.theverge.com/tech/943233/google-search-profiles-custom-page",
-      "summary": "Googleは米国で大手クリエイター・出版社向けに専用のSearchプロフィールを提供開始。YouTube/Instagram/Xで10万、またはTikTokで30万フォロワー以上かつ18歳以上が対象で、リンクや概要、ピン留めメディア、複数平台の投稿集約を表示可能。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-04T18:32:23.000Z",
-      "contentHash": "654d8abe8f5a"
-    },
-    {
-      "id": "9629e88947ea",
-      "title": "The desperation of NYTimes",
-      "url": "https://rozumem.xyz/posts/16",
-      "summary": "有料記事閲覧のためNYTimesに月$2で加入したが、5日間で解除できない5通のオンボーディングメールに不快感。フッターで「必須情報」として無条件配信を正当化し、強引で絶望的と批判。筆者は解除リンクやアカウント閉鎖導線を常設すべきだと主張。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-04T17:39:13.000Z",
-      "contentHash": "8578bb67dc9a"
-    },
-    {
-      "id": "533c78a0c4e3",
-      "title": "Amazon’s new plan for games: James Bond and AI Snoop Dogg",
-      "url": "https://www.theverge.com/games/943147/amazon-gaming-strategy-james-bond-snoop-dogg-luna",
-      "summary": "AmazonはTwitch買収やLuna開始、MMO投資を経てゲーム戦略を再編。Lunaをスマホをコントローラーにするパーティー重視に刷新し、Snoop DoggのAI審判などを投入。撤退ではなく集中戦略と説明。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-04T17:01:15.000Z",
-      "contentHash": "73034de2fc0f"
-    },
-    {
-      "id": "0ff58aeba0a2",
-      "title": "Sagrada Família Lego set",
-      "url": "https://www.lego.com/en-us/product/sagrada-familia-21065",
-      "summary": "レゴの公式建築シリーズ「サグラダ・ファミリア（21065）」のミニチュア模型。ガウディの教会をレンガで再現したコレクタブルで、再現度や価格、デザインの是非についてHacker Newsで賛否が交わされていた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-04T16:25:20.000Z",
-      "contentHash": "63716b7ba424"
-    },
-    {
-      "id": "3820f58cbe14",
-      "title": "【Snowflake Summit 2026】リアルタイム × マルチモーダルAIエージェントをSnowflake Onlyで構築 | Finatext Tech Blogのフィード",
-      "url": "https://zenn.dev/finatext/articles/5bd5a733c5581d",
-      "summary": "Snowflake Summit 2026のセッションで、NYC交通カメラ映像をSnowflakeのみで取り込み→マルチモーダルLLM解析→エージェント化→アクションまで実演。SNACKはS:Snowflake、N:NiFi/Openflow、A:Iceberg、C:Cortex、K:Kafka。リアルタイム処理をSQLで統一し、Cortexのセマンティック層が重要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-04T16:21:37.000Z",
-      "contentHash": "c680305d30e1"
-    },
-    {
-      "id": "9e5e9682128d",
-      "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
-      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
-      "summary": "Anthropic Instituteは、自己改善AI（Recursive Self-Improvement）を定義し、実現経路と障壁を分析。データ・計算・評価・アラインメントなどの技術的制約で急激な爆発的成長は起こりにくいが、部分的な能力向上やリスクは現実的とし、監視・ガバナンスと安全研究の強化を提言している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-04T16:20:17.000Z",
-      "contentHash": "e6518ded71ac"
-    },
-    {
-      "id": "6aa5f650d12c",
-      "title": "Belkin’s new Joy-Con grips also boost the Switch 2’s battery life",
-      "url": "https://www.theverge.com/tech/942617/belkin-gaming-charging-grip-nintendo-switch-2-joy-con-controller",
-      "summary": "BelkinがSwitch 2向けに、ジョイコン用の滑りにくいグリップと着脱式10,000mAhバッテリーを一体化した「Charging Grip」を発売。3〜4時間延長、黒・ライラック・オリーブの3色で99.99ドル。磁着式だが本体は磁気アクセ非対応。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-04T16:00:00.000Z",
-      "contentHash": "6d30cffbff7b"
-    },
-    {
-      "id": "ae79de66d7a7",
-      "title": "Cash App made a magic wand for contactless payments",
-      "url": "https://www.theverge.com/tech/942897/cash-app-tags-magic-wand-contactless-payments-price-launch",
-      "summary": "Cash AppがNFC搭載の虹色スター付き「魔法の杖」を発売。スマホやカードを出さずに非接触決済でき、3DプリントなどのDIYワンド流行に便乗した商品です。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-04T16:00:00.000Z",
-      "contentHash": "c705de360c91"
-    },
-    {
-      "id": "d41a72e8b6e8",
-      "title": "Windows is back on the Microsoft menu",
-      "url": "https://www.theverge.com/tech/943108/microsoft-build-2026-windows-love-notepad",
-      "summary": "MicrosoftはBuildでWindowsを前面に押し出し、Nadellaが「Surface RTX Spark Dev Kit」を披露。NvidiaのRTX SparkでWindows on Armが復活し、ローカルAI処理とMicrosoftのAIエージェント戦略でWindowsが重要役割を担う。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-04T16:00:00.000Z",
-      "contentHash": "6a7bac5da590"
-    },
-    {
-      "id": "1c215f9ac9ff",
-      "title": "Remarkable’s refurbished Paper Pro bundle is hundreds off",
-      "url": "https://www.theverge.com/gadgets/942999/remarkable-paper-pro-vizio-soundbar-marathon-deal-sale",
-      "summary": "WootでRemarkableの整備済み11.8インチPaper Proが、Mosaicフォリオ＋Marker Plus（計$139相当）付きで$509に。90日保証。メーカー整備済みは同バンドル$649で1年保証。ほかVizio 5.1やBungieのMarathonもセール中。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-04T15:46:07.000Z",
-      "contentHash": "03a842605ebd"
-    },
-    {
-      "id": "98b4d1712694",
-      "title": "Google employees internally share memes about how its AI sucks",
-      "url": "https://www.404media.co/google-employees-internally-share-memes-about-how-its-ai-sucks/",
-      "summary": "ピチャイCEOは社内の新規コードの75%がAI生成と公表するが、社内ではAIがコーディングを誤り仕事を増やすとするミームが拡散している。記事は有料会員向け。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-04T15:42:33.000Z",
-      "contentHash": "2241b32e3891"
-    },
-    {
-      "id": "a4d71d7953ff",
-      "title": "GPT-5・Claudeに迫る超巨大ローカルLLMまとめ",
-      "url": "https://note.com/npaka/n/ndb5d275de74e",
-      "summary": "記事は「起動できる」より「実務を任せられる」ことが重要とし、DGX Station GB300前提で200B以上の超巨大ローカルLLMを検討。Nemotron3 Ultra、Qwen3‑Coder‑480B、MiniMax‑M2、GLM‑4.5/5などをagentic reasoningやツール利用の観点で比較し、20–30B級は実務には不十分と結論づける。",
-      "source": "npaka",
-      "publishedAt": "2026-06-04T14:48:34.000Z",
-      "contentHash": "71bc06a0865e"
-    },
-    {
-      "id": "46321db628b1",
-      "title": "In a first, wind and solar generated more power than gas globally in April 2026",
-      "url": "https://electrek.co/2026/05/20/in-a-first-wind-solar-generated-more-power-than-gas-globally-april-2026/",
-      "summary": "SpaceX系のAI企業xAIがテスラ製の大型蓄電ユニットMegapackを追加で2億6900万ドル相当購入した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-04T14:36:39.000Z",
-      "contentHash": "b615b9b9317b"
-    },
-    {
-      "id": "9d6cf6af8afd",
-      "title": "TSMC struggles to keep up with AI demand: &#8216;We can only support so much&#8217;",
-      "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
-      "summary": "世界最大の半導体製造TSMCは、米国での工場増強にも関わらず米顧客の需要に追いつけず苦戦。魏明谷CEOは「支えられるのは限度がある」「米国生産では対応に非常に長くかかる」と述べ、AIブームで半導体・メモリ不足が長期化し価格引き上げを望む。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-04T14:15:44.000Z",
-      "contentHash": "108cf8545801"
-    },
-    {
-      "id": "6d355bf7e2a0",
-      "title": "We’re giving away a Prime Day grab bag loaded with over $800 of free tech",
-      "url": "https://www.theverge.com/gadgets/936396/prime-day-grab-bag-giveaway-sweepstakes",
-      "summary": "The Vergeが試用ガジェットで溢れたクローゼット整理のため、800ドル超相当のガジェットを詰めたNomaticトラベルパックを抽選で1名にプレゼント。応募締切は現地時間6月30日午前10時。プライムデー（6/23〜6/26）前の企画。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-04T14:00:00.000Z",
-      "contentHash": "021f76225e97"
-    },
-    {
-      "id": "0f8dbf14396f",
-      "title": "Elon Musk is steamrolling Wall Street to become a trillionaire",
-      "url": "https://www.theverge.com/podcast/942586/elon-musk-spacex-ipo-x-xai-index-funds",
-      "summary": "Nilay Patelの番組でNYT記者ライアン・マックが解説。スペースXの約2兆ドル規模IPOは史上最大級で、市場ルールが曲げられつつ進行し、マスクがさらに富を拡大する狙いがあると指摘。買収したX（旧Twitter）問題も絡む。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-04T14:00:00.000Z",
-      "contentHash": "9e4c8b84cd68"
-    },
-    {
-      "id": "bca98e8d36aa",
-      "title": "VoidZero Is Joining Cloudflare",
-      "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
-      "summary": "Viteなどを開発するVoidZeroがCloudflareに合流しチーム全員が移籍。ただしVite/Vitest/Rolldown/Oxc/Vite+はMITでオープンソース・ベンダ非依存・コミュニティ主導のまま。Cloudflareは開発支援を行う。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-04T13:00:51.000Z",
-      "contentHash": "150581b37e12"
     }
   ]
 }
