@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2026-06-27T04:09:16.590Z",
+  "generatedAt": "2026-06-27T10:29:05.822Z",
   "items": [
+    {
+      "id": "554a9225fc05",
+      "title": "unmodifiableListで要素が書き変わる事象への対応法 | サイゼントの技術ブログ",
+      "url": "https://cyzennt.co.jp/blog/2026/06/27/unmodifiablelist%e3%81%a7%e8%a6%81%e7%b4%a0%e3%81%8c%e6%9b%b8%e3%81%8d%e5%a4%89%e3%82%8f%e3%82%8b%e4%ba%8b%e8%b1%a1%e3%81%b8%e3%81%ae%e5%af%be%e5%bf%9c%e6%b3%95/",
+      "summary": "Javaで要素不変の配列を作る際の解説。よくある失敗は（1）配列をfinalにしても要素は変更可能、（2）Arrays.asListやCollections.unmodifiableListの背後の配列が変更されうる点。対策はList.ofやCollections.unmodifiableList(new ArrayList<>(...))、返却時の防御的コピー（Arrays.copyOf）など。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-27T09:27:27.000Z",
+      "contentHash": "8732aecfbbf3"
+    },
+    {
+      "id": "83c918129564",
+      "title": "【AWS Summit Japan 2026】体験型ブースで見たAIエージェントの今 ─ 4つの展示レポート | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/06/27/165914",
+      "summary": "エデュケーショナルサービス課の森純子がAWS Summit Japan 2026の体験型展示をレポート。各ブースはAIエージェントが自律稼働し“エージェント時代”を実感。説明で資料リンクを入手し、特に印象的な4展示を紹介（写真一部なし）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-27T07:59:14.000Z",
+      "contentHash": "e5f5ea5fd4a6"
+    },
+    {
+      "id": "cdf53e76c42d",
+      "title": "【AWS Summit Japan 2026】AI エージェント時代における責任あるAIのベストプラクティスと実践例 [AIM345] セッションレポート | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/06/27/152305",
+      "summary": "AWS Summit Japan 2026のセッションレポート。AIエージェントの自律性向上でインシデント影響が拡大するため、責任あるAIは「ガードレール→監視→組織的改善」の循環が本質。Indeedの「Anticipate→Guardrail→Observe」事例が具体的で参考になると紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-27T06:23:05.000Z",
+      "contentHash": "1ef3f2002107"
+    },
+    {
+      "id": "6c4a67814d12",
+      "title": "【AWS Summit Japan 2026】AI 駆動カオスエンジニアリングのすすめ [DVT452] セッションレポート | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/06/27/141547",
+      "summary": "エデュケーショナルサービス課の森純子がAWS Summit Japan 2026を訪問。会場は大盛況で基調講演のDJも印象的。目的はAI時代の開発の「今」を現場で知ることで、運用ではAIを使う一方、アプリ開発は初心者として実情を探った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-27T05:15:47.000Z",
+      "contentHash": "a6bc754b23e1"
+    },
+    {
+      "id": "1a1b380dcb63",
+      "title": "Zennfesのスポンサーをした感想 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/a8fe1f2ecbb9ae",
+      "summary": "HeadwatersはZennで約1500本を公開し、Azure/Data&AI発信強化のためZennfesをスポンサー。ブースと5分LTで企業テックブログの意義を紹介し、専門的な交流を得た。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-27T04:52:04.000Z",
+      "contentHash": "e21bf220b4f8"
+    },
+    {
+      "id": "d78bd1739970",
+      "title": "OpenTTD 16.0-Beta1",
+      "url": "https://www.openttd.org/news/2026/06/25/openttd-16-0-beta1",
+      "summary": "OpenTTD 16.0-beta1（2026-06-25）公開。列車の後退走行、招待不要で参加できる企業、地形生成改善、CargoDist補助金、NewGRFコレクション、報酬老化調節、検索付きドロップダウンなど多数の新機能と修正。メニュー用タイトルゲームのコンペも開催。バグ報告歓迎。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-27T04:31:06.000Z",
+      "contentHash": "2222f6c0e95f"
+    },
+    {
+      "id": "061cabea620d",
+      "title": "AgentCore Policy に来た Guardrails を IAM 認証ゲートウェイで動かす（プロンプトインジェクションをゲートウェイで止める） | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/agentcore_guardrails",
+      "summary": "記事はGuardrailsの目的とCedar Policyとの違いを解説。守るレイヤーや止める指示例、定義する4要素、認可→コンテンツ安全の二段構成、検証環境・運用前提、具体ポリシーと条件（PROMPT_INJECTIONの重複指摘）を説明しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-27T04:24:27.000Z",
+      "contentHash": "21febf34325e"
+    },
+    {
+      "id": "d706c2858467",
+      "title": "【AWS Summit Japan 2026】AI ネイティブで実現する、妥協なき顧客体験 - Amazon Connect Customer [BIZ201] セッションレポート | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/AWS_Summit_Japan_2026_BIZ201",
+      "summary": "AWSはAIで顧客体験を再設計。プロアクティブなアクションにより、効率化と個別化を図った先回り型の顧客サポートの未来像を提案する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-27T04:07:07.000Z",
+      "contentHash": "bb46e3d83dc6"
+    },
+    {
+      "id": "2e89b1987251",
+      "title": "How I Built Honraku Taro — My #H0Hackathon Journey | ForgeVision Engineer Blog",
+      "url": "https://techblog.forgevision.com/entry/vercel/H0Hackathon/Honraku-Taro/English",
+      "summary": "この記事はVercelとAWS共催のハッカソン「H0: Hack the Zero Stack」参加のために書かれ、ハッカソンの趣旨や特定の技術組み合わせ（Zero Stack）に焦点を当てて紹介しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-27T03:38:28.000Z",
+      "contentHash": "ba3c20aea6cf"
+    },
     {
       "id": "261dae7d661d",
       "title": "Prime Day is almost over, but these are still the best Apple deals I&#8217;ve seen",
@@ -27,6 +108,15 @@
       "source": "The Verge",
       "publishedAt": "2026-06-27T02:33:54.000Z",
       "contentHash": "90e216d7acfa"
+    },
+    {
+      "id": "34460bea5f75",
+      "title": "【AWS Summit Japan 2026】ごった煮イベントレポート | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/aws_summit_japan_2026_ohshiro",
+      "summary": "マネージドサービス部の大城がAWS Summit Japan 2026参加レポ。沖縄→羽田→幕張の行程、Day1は生成AI×MCPで自律運用とSRE、Day2はAIエージェント開発やキンドリルのIT基盤実践を要約・感想付きで報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-27T02:27:00.000Z",
+      "contentHash": "e787c225c52d"
     },
     {
       "id": "480c6cef3e8f",
@@ -95,10 +185,19 @@
       "id": "8b756646fe95",
       "title": "Why does kinetic energy increase quadratically, not linearly, with speed? (2011)",
       "url": "https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed",
-      "summary": "運動エネルギーが1/2 mv^2で速度に線形で増えない理由を直感的に教えてほしい、0→1m/sより1→2m/sに多くの仕事が必要なのはなぜか。積分やラグランジアンを使わない説明を求める質問。",
+      "summary": "運動エネルギーが1/2mv^2で速度に線形増加しないのはなぜか、0→1m/sより1→2m/sに多くの仕事が要る理由を問う投稿。多くはF=maや積分で示すが、投稿者は積分やラグランジアンを使わない直感的説明を求めている。",
       "source": "Hacker News",
       "publishedAt": "2026-06-26T22:43:29.000Z",
-      "contentHash": "743b664deb46"
+      "contentHash": "b20443670dc8"
+    },
+    {
+      "id": "f25be1ac35f6",
+      "title": "AI in mathematics is forcing big questions",
+      "url": "https://spectrum.ieee.org/ai-in-mathematics",
+      "summary": "AIが数学を担う時代に、研究者は動機・目的・分野の未来を議論する。タオは人と機械の協働する「ビッグ数学」を提案。著者は純粋数学者が解の過程や理解の美に喜びを見出すと述べる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-26T22:36:51.000Z",
+      "contentHash": "7a3c4443f946"
     },
     {
       "id": "6cad51339e8c",
@@ -117,6 +216,15 @@
       "source": "The Verge",
       "publishedAt": "2026-06-26T21:25:22.000Z",
       "contentHash": "259fd55557f0"
+    },
+    {
+      "id": "a76455d4cb60",
+      "title": "The National Parks Were Reportedly Told to Stay Silent on Deaths",
+      "url": "https://www.outsideonline.com/outdoor-adventure/environment/nps-internal-memo-deaths/?link_source=ta_first_comment&taid=6a3dae4f4d2dce00016deef8&utm_content=trueanthem&utm_medium=social&utm_source=facebook",
+      "summary": "米国立公園局（NPS）の内部メモが公園内での死亡者増加を指摘し、広報対応の見直しや救助・安全対策の強化、事故データ管理の徹底を指示。情報公開や対応方針をめぐり議論が起きている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-26T21:19:20.000Z",
+      "contentHash": "00f77821118e"
     },
     {
       "id": "b1b5ec40d7b4",
@@ -140,37 +248,37 @@
       "id": "6256373c8cca",
       "title": "GPT-5.6 Sol ・ Terra ・ Luna の概要",
       "url": "https://note.com/npaka/n/nd656159a93c3",
-      "summary": "OpenAIがGPT‑5.6を限定プレビュー。高性能のSol、業務向けTerra、低コストのLunaを公開し、推論・エージェント能力やコーディング・生物学・サイバー性能を向上。多層的な安全対策と段階的公開で防御的利用を優先し、現時点で「サイバークリティカル」閾値は超えていない。",
+      "summary": "GPT-5.6シリーズ（Sol/Terra/Luna）の限定プレビュー。Solは最上位、Terraは日常向け、Lunaは高速廉価。新推論とサブエージェントでコーディング・生物学・サイバー性能向上。防御重視の多層安全対策を採用し、試験では自律的な完全エクスプロイト生成は確認されなかった。",
       "source": "npaka",
       "publishedAt": "2026-06-26T20:24:58.000Z",
-      "contentHash": "65c18080e941"
+      "contentHash": "40b93b219272"
     },
     {
       "id": "12c7f80ddff4",
       "title": "PlayStation Is Deleting 551 Movies from Customers' Accounts",
       "url": "https://kotaku.com/playstation-store-movies-digital-studio-canal-terminator-2000711013",
-      "summary": "PlayStationがStudioCanal配給の551作品（例：ターミネーター2、トータル・リコール、ランボー等）を9月1日付で購入者のライブラリから削除。理由はライセンス契約で、返金などの対応は明示されず、デジタル購入の「所有」でない実情を示す。",
+      "summary": "PlayStationがStudioCanal配給の551作品を配信ライセンス終了に伴い購入者のライブラリから削除すると通知。返金や補償は明示されず、デジタル所有の不安定さを示した。",
       "source": "Hacker News",
       "publishedAt": "2026-06-26T20:07:18.000Z",
-      "contentHash": "19392f606c34"
+      "contentHash": "72d9d81ce5bb"
     },
     {
       "id": "25c744efffd1",
       "title": "These are the best deals you can still get on MacBooks before Apple&#8217;s price hike kicks in",
       "url": "https://www.theverge.com/gadgets/956830/prime-day-macbook-deals-apple-price-hikes",
-      "summary": "Appleがメモリ高騰でMacやiPadの価格を引き上げたため、既存のセール割引が相対的に大きくなっている。例：MacBook Neoの割引が$10→$110、13インチAir(M5)は実質$350引きに。",
+      "summary": "Appleがメモリ価格上昇でMac/iPadの価格を引き上げたため、プライムデー中の現在の割引が実質的に増大。例：13インチMacBook Air（M5）はセールで大幅に安く、早めの購入が得。",
       "source": "The Verge",
       "publishedAt": "2026-06-26T19:42:52.000Z",
-      "contentHash": "8447e0bfce34"
+      "contentHash": "6131e231def8"
     },
     {
       "id": "5b06356252b4",
       "title": "U.S. government will decide who gets to use GPT-5.6",
       "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
-      "summary": "外部リンクに直接アクセスできないため、記事本文を貼り付けていただけますか？貼っていただければ、200文字以内で日本語要約します。コメントも要約希望ならその旨を教えてください。",
+      "summary": "申し訳ありませんが外部サイトに直接アクセスできません。記事本文を貼るか、要約してほしい箇所（本文かHNの議論か）を教えてください。200文字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-06-26T18:23:14.000Z",
-      "contentHash": "db165bd13361"
+      "contentHash": "f3dde9fcc950"
     },
     {
       "id": "cda7e3cd5e14",
@@ -1166,10 +1274,10 @@
       "id": "e92525866286",
       "title": "Autodesk Flow Studio の無料オンラインセミナーやります",
       "url": "https://note.com/npaka/n/n342d4c6bcf16",
-      "summary": "7/15（水）15:00から「Autodesk Flow Studio」の無料オンラインセミナー実施。実写人物をAIで3DCG化、モーションキャプチャやカメラトラッキング出力、Image→3D生成やゲーム実装例などをnpaka氏が解説します。",
+      "summary": "7/15（水）15:00、npaka氏とボーンデジタルによる無料ウェビナー「Autodesk Flow Studio」。実写人物の3DCG置換、モーションキャプチャ／カメラトラッキング、Image→3Dやゲーム実装出力などを紹介します。",
       "source": "npaka",
       "publishedAt": "2026-06-24T23:40:17.000Z",
-      "contentHash": "7768d1db80a3"
+      "contentHash": "a9a7b5ef389e"
     },
     {
       "id": "e12455b2e819",
@@ -8892,114 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-06-08T23:58:30.000Z",
       "contentHash": "2c249c1caa65"
-    },
-    {
-      "id": "66934da7af9c",
-      "title": "Apple’s Screen Time updates are too little, too late",
-      "url": "https://www.theverge.com/tech/946446/apples-screen-time-updates-are-too-little-too-late",
-      "summary": "WWDCでAppleがスクリーンタイム強化を大々的に打ち出したが、目新しいのはUI刷新や既存機能の改良が中心で実効性は乏しい。著者は子どもの端末管理に疲れ、今回の変更を「不十分」と評している。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-08T23:41:00.000Z",
-      "contentHash": "f822d929e644"
-    },
-    {
-      "id": "fa65df2de7d5",
-      "title": "5 things I already love from the iOS 27 beta",
-      "url": "https://www.theverge.com/tech/946391/apple-ios-27-developer-beta-1-wwdc-2026-5-things",
-      "summary": "iOS 27のデベロッパーベータを試用。Siri AIは未使用だが、新しい光沢のあるアイコンや太めのウィジェット、Liquid Glassの不透明度スライダーなどUIの細部改善が好印象。大規模更新ではないが仕上がり良好。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-08T23:30:00.000Z",
-      "contentHash": "118d7b2041ca"
-    },
-    {
-      "id": "3a4c258e09c3",
-      "title": "Apple is using AI to fix Safari’s extension problem",
-      "url": "https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions",
-      "summary": "AppleはAI（Apple Intelligence）でユーザーの記述からSafari拡張を自動生成する「vibe-code」を導入。厳しい開発要件で拡張が乏しい問題を解消する狙い（例：レシピ保存拡張）。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-08T22:14:17.000Z",
-      "contentHash": "f61048f2bfff"
-    },
-    {
-      "id": "239b8338c604",
-      "title": "Where was tvOS 27 at WWDC?",
-      "url": "https://www.theverge.com/tech/946329/tvos-27-absent-wwdc",
-      "summary": "WWDCでtvOS 27はスライドで一度触れられただけで事実上不在。発表は機能軸で進み、macOS/iOS/iPadOS/visionOSはSiri AIなど新機能が紹介されたが、Apple TV向けの目立つ更新や新ハードは示されなかった。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-08T22:04:42.000Z",
-      "contentHash": "d27a44e25607"
-    },
-    {
-      "id": "ebff48719d09",
-      "title": "Apple’s new parental controls are for keeping Apple out of trouble",
-      "url": "https://www.theverge.com/policy/946331/apple-parental-controls-child-accounts-wwdc",
-      "summary": "AppleはWWDCで子ども用アカウントの親向け機能を拡充。細かな画面時間制御やメッセージ内の暴力画像事前ブロックを導入し、規制論議を背景に開発者対応も促した。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-08T21:48:08.000Z",
-      "contentHash": "50335d85a4bc"
-    },
-    {
-      "id": "fab8a1d43a40",
-      "title": "OpenAI files for IPO, following Anthropic",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential",
-      "summary": "OpenAIが米SECに秘密裏でS-1を提出し、IPO準備を一歩前進。Anthropicの6月1日提出に続く動きで、秘密提出のため報酬や詳細な財務情報は未公開。Anthropicは9650億ドル評価、OpenAIは8520億ドル。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-08T21:38:29.000Z",
-      "contentHash": "c4ff5b95d13d"
-    },
-    {
-      "id": "2f212237ceb0",
-      "title": "Confidential submission of draft S-1 to the SEC",
-      "url": "https://openai.com/index/openai-submits-confidential-s-1/",
-      "summary": "OpenAIが米SECに機密扱いのS-1（上場申請）を提出、IPOを検討中で詳細は非公開。マイクロソフトとの関係や会社のガバナンス、収益モデルが注目される。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-08T21:22:43.000Z",
-      "contentHash": "8d77b5e1f682"
-    },
-    {
-      "id": "0875324a1c28",
-      "title": "FrontierCode",
-      "url": "https://cognition.ai/blog/frontier-code",
-      "summary": "外部サイトへ直接アクセスできないため、記事本文を貼っていただくか主要ポイントを教えてください。いただければ200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-08T20:45:03.000Z",
-      "contentHash": "259bf0784529"
-    },
-    {
-      "id": "a8680d790add",
-      "title": "44 things coming to your Apple devices that you might have missed",
-      "url": "https://www.theverge.com/tech/946260/apple-wwdc-2026-ios-ipados-macos-watchos-visionos-27-features-missed",
-      "summary": "WWDC 2026はSiriやApple IntelligenceなどAIが主役だったが、小さな便利機能も多数発表。開発者ベータは即日、パブリックベータは7月、正式版は秋公開。iOS 27の例：Liquid Glass不透明度スライダー、アプリ起動30%高速化、AirDrop80%高速化、Wi‑Fi／セルラーの切替改善。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-08T20:26:52.000Z",
-      "contentHash": "72e372d4c4bd"
-    },
-    {
-      "id": "e6e302fca18a",
-      "title": "Apple drops support for a long list of Apple Watches with latest OS updates",
-      "url": "https://www.theverge.com/news/946147/apple-watchos-27-ipados-27-supported-devices-dropped",
-      "summary": "AppleはwatchOS 27とiPadOS 27で多くの旧機種を切り捨て、watchOS 27はSeries 8など少なくとも3世代をサポート外に。公式対象はSeries 9／Series 10以上、Ultra 2以上、SE3のみで、一部で初代Ultraにベータを入れた報告もある。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-08T19:45:00.000Z",
-      "contentHash": "e8aa4bfec219"
-    },
-    {
-      "id": "f5a4b9a4e226",
-      "title": "Surveillance is not safety: A statement on the UK's latest threat to privacy [pdf]",
-      "url": "https://signal.org/blog/pdfs/2026-06-08-uk-surveillance-is-not-safety.pdf",
-      "summary": "Signalは、英国の監視強化案がエンドツーエンド暗号を弱め、クライアント側スキャンやバックドアで誤検知・濫用・国家監視を招き、安全性を損ない逆効果だと批判し、技術的・政策的代替を提案しています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-08T19:42:28.000Z",
-      "contentHash": "c74f5d8fced0"
-    },
-    {
-      "id": "8fc2f58f2800",
-      "title": "Apple announces watchOS 27, now with Siri AI",
-      "url": "https://www.theverge.com/tech/943145/apple-watch-watchos-27-wwdc-2026",
-      "summary": "AppleはwatchOS 27を発表。Apple Intelligence搭載のSiri AIを専用アプリで利用可能にし、動的なアプリグリッドや健康・フィットネス改善を導入。今秋配信、Series 9以降（Ultra 2/3、SE 3）対応。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-08T19:34:10.000Z",
-      "contentHash": "dd85d0ba5946"
     }
   ]
 }
