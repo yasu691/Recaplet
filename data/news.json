@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-06-28T10:46:52.615Z",
+  "generatedAt": "2026-06-28T17:29:35.223Z",
   "items": [
+    {
+      "id": "e84d52b891a2",
+      "title": "The Cube is Jim Henson’s little-known proto-Black Mirror masterpiece",
+      "url": "https://www.theverge.com/entertainment/958757/jim-henson-the-cube-black-mirror-tv-movie-review",
+      "summary": "ジム・ヘンソンの1969年のテレビプレイ『The Cube』は、マペット不在の53分間の一室劇。白い立方体で目覚めた男を描く、シュールで不安を誘う実験作で、ブラックミラーの原型とも評される。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-28T16:30:00.000Z",
+      "contentHash": "6060e897e66a"
+    },
+    {
+      "id": "6a8b3d5a53dc",
+      "title": "AWS Summit Japan 2026 の Builder Community Lounge でチョークトークをしてきました | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/20260625_aws-summit-japan-2026-chalktalk",
+      "summary": "AWS Summit Japan 2026のBuilder Community Loungeでチョークトーク登壇。アクセスキー不正利用対策を主題に流出経路や脱却困難な理由、多層防御の重要性を参加者と議論し、振り返りと学びをまとめた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-28T15:20:08.000Z",
+      "contentHash": "31ade85e8b7f"
+    },
+    {
+      "id": "d51b23efa8b8",
+      "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+      "summary": "パリセーズ火災の放火容疑で起訴された被告の裁判で、検察はiPhone位置情報や監視映像、目撃証言に加えChatGPTのログ（火の画像生成や「なぜいつも怒っているのか」など）を提出したが、陪審は信用せず10対2で意見が割れ、審理は不成立（無効）となった。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-28T14:12:06.000Z",
+      "contentHash": "e20c4018d9ab"
+    },
+    {
+      "id": "3e473adb0e36",
+      "title": "Nest&#8217;s quest to fix your thermostat",
+      "url": "https://www.theverge.com/podcast/958735/nest-thermostat-version-history",
+      "summary": "iPhone開発の立役者トニー・ファデールが、古く高価な温度調節を刷新するためサーモスタットを再発明してネストを創業した経緯と、その急速な成功をポッドキャスト『Version History』で語る。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-28T12:02:44.000Z",
+      "contentHash": "a72fb9b4ed60"
+    },
+    {
+      "id": "f1451e60af4a",
+      "title": "Ad-free streaming is a luxury now",
+      "url": "https://www.theverge.com/column/958379/streaming-industry-ads",
+      "summary": "定額制の継続的な値上げで「広告なし」プランが贅沢品化し、視聴者は安い広告付きプランへ移行しているというストリーミング業界の現状を伝える。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-28T12:00:00.000Z",
+      "contentHash": "987fc1357aad"
+    },
+    {
+      "id": "641fb3a451ee",
+      "title": "Microsoft Foundry - Content filter,ガードレールの違いは？ | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/bf2384679fddfe",
+      "summary": "Azure OpenAI/Microsoft Foundryにモデルをデプロイすると（Whisper等除く）既定でContent filterが自動適用されます。しきい値はOff（検出無効：承認顧客のみ）、Low（低・中・高をブロック）、Medium（中・高をブロック）、High（高のみをブロック）から選べます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-28T10:29:09.000Z",
+      "contentHash": "d142c3e3ed1b"
+    },
+    {
+      "id": "0f1680c36039",
+      "title": "Apache IcebergをSnowflakeの機能を通して理解したい【メリット検証】 | Fusic 技術ブログのフィード",
+      "url": "https://zenn.dev/fusic/articles/0028-snowflake-iceberg-benefits-day28",
+      "summary": "Fusicの岡山によるSnowflakeアドベントカレンダー28日目。前回はApache IcebergのスナップショットでのACID確認や通常テーブルとのINSERT比較を行い、今回はスキーマを後から変更した際に過去データや動作にどう影響するかをSnowflakeの機能で検証します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-28T10:06:42.000Z",
+      "contentHash": "7456b22f9c15"
+    },
     {
       "id": "d74726f43c01",
       "title": "TMD’s keyless bike lock is a $280 solution to a $60 problem",
@@ -14,10 +77,10 @@
       "id": "8046d6af48c4",
       "title": "Prowler を使ってアカウントのセキュリティ状態についてチェックしてみた。 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/prowler-account-check",
-      "summary": "Prowlerを使いAWSアカウントをスキャン。OSSのCSPMでAWS/Azure/GCP/K8s対応、Security Hubを補完して権限昇格経路など追加検出、結果をHubへ送信可。Docker実行でPython3.14のpipインストール問題を確認。",
+      "summary": "OSSのクラウドセキュリティツールProwlerでAWSアカウントをスキャンした試行記。ProwlerはAWS/Azure/GCP/Kubernetes対応のCSPMで、CISやPCI-DSS、GDPRなどの基準に基づくチェックを実行し、設定確認に役立つ。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-28T04:43:28.000Z",
-      "contentHash": "d9f0c213d60d"
+      "contentHash": "5c06498d2fb2"
     },
     {
       "id": "31ab6fd58d8b",
@@ -50,10 +113,10 @@
       "id": "03117ada19d6",
       "title": "AWS Blocks と Amplify Gen2 のリソースを相互利用する | NCDC テックブログのフィード",
       "url": "https://zenn.dev/ncdc/articles/0abe188442bd2f",
-      "summary": "Amplify Gen2とAWS Blocksの相互利用検証の続編。AmplifyのAuth(Cognito)をdefineAuthで追加し、BlocksからAuthCognito.fromExistingで既存Cognitoを参照して統合する手法を示す。相互取り込みで循環参照に注意。",
+      "summary": "前回記事の続編。Amplify Gen2とAWS Blocksを併用できるか検証。AWS BlocksはIaCや完全ローカル実行を提供し、Amplify Gen2のコンソール・ホスティング・CI/CDと補完関係で、バックエンドをBlocksに寄せれば共存可能と結論。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-28T01:30:06.000Z",
-      "contentHash": "1f4cdc7390b2"
+      "contentHash": "bd6325018720"
     },
     {
       "id": "24307e94bc55",
@@ -149,10 +212,10 @@
       "id": "a20108d7013e",
       "title": "【AWS Summit Japan 2026】AI-DLCについての話をセッション横断でまとめてみました | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/AWS_Summit_Japan_2026_AI-DLC_Summary",
-      "summary": "AWS Summit Japan 2026でのAI駆動開発ライフサイクル（AI‑DLC）関連セッションを横断整理。INCEPTION/CONSTRUCTION/OPERATIONの流れ、9の教訓、技能侵食やオーナーシップ課題、作成者が運用を担う等の対策、Design for Evaluationや具体事例をまとめた。",
+      "summary": "AWS Summit Japan 2026でAI-DLCが複数セッションで取り上げられ、各発表の関連性を見出して一つの話の流れに整理・要約しました。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-27T18:01:37.000Z",
-      "contentHash": "6d9ace904e83"
+      "contentHash": "a04c891f1cea"
     },
     {
       "id": "dfcf3c7896d1",
@@ -284,19 +347,19 @@
       "id": "cf8ed05b9904",
       "title": "Apache IcebergをSnowflakeの機能を通して理解したい【特徴編】 | Fusic 技術ブログのフィード",
       "url": "https://zenn.dev/fusic/articles/0027-snowflake-iceberg-features-day27",
-      "summary": "記事はApache IcebergをSnowflakeで学ぶ導入編。IcebergはParquet等の上に4層のメタデータ（Catalog/Metadata/ManifestList/ManifestFile）を重ねる仕様で、従来HiveのO(n)ファイル一覧問題を解消し高速化（O(1））とスナップショットによるACIDを実現。Snowflakeでの扱いや利点をSQLで検証する。",
+      "summary": "Fusicの岡山によるSnowflakeアドベントカレンダー27日目。前回はGA4をSnowflakeで可視化した話。最近注目のApache IcebergをS3 Tables経由でSnowflakeから扱う方法や連携について解説しています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-27T11:09:21.000Z",
-      "contentHash": "5ea3a980ab7b"
+      "contentHash": "ed318cd25769"
     },
     {
       "id": "d875cc08b105",
       "title": "Kiro CLI V3 がやってくる - 主な変更点と注意点まとめ | ForgeVision Engineer Blog",
       "url": "https://techblog.forgevision.com/entry/kiro/about_kirov3",
-      "summary": "Kiro CLI V3がEarly Access公開。IDE/Webと共通の統合エージェントハーネスを採用し、改善が全クライアントへ同時反映。ターミナルでのSpec駆動開発対応、permissions.yamlによる能力ベース権限、フック強化などが導入。v2と共存し --v3 で試用可能。",
+      "summary": "AWSグループの尾谷です。Kiro CLI v3がEarly Accessで公開され、v2から大幅に変わるようだったため急ぎ調査しました。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-27T10:52:15.000Z",
-      "contentHash": "73f818754e1c"
+      "contentHash": "bc69ff46ca01"
     },
     {
       "id": "e980be08a839",
@@ -311,10 +374,10 @@
       "id": "0fc7cb9c127b",
       "title": "Azure AI Languageとは何ができる？ | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/0db80a7e7d25e3",
-      "summary": "Azure AI Language（旧Text Analytics）は、プリビルトとカスタムモデルで固有表現抽出、PII検出、感情分析、要約、質問応答などのNLP機能をクラウドAPIで提供。Foundry/REST/各言語ライブラリから利用でき、セットアップ例や言語検出のサンプルコードを紹介しています。",
+      "summary": "Azure AI Language（旧Text Analytics等）は、クラウドAPIで自然言語処理を提供するサービス。固有表現抽出、PII検出、感情分析、要約、質問応答などを学習不要のプリビルト機能やカスタムモデルで利用できる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-27T10:20:18.000Z",
-      "contentHash": "d7d3e71dc972"
+      "contentHash": "d56851d897a5"
     },
     {
       "id": "554a9225fc05",
@@ -590,10 +653,10 @@
       "id": "6256373c8cca",
       "title": "GPT-5.6 Sol ・ Terra ・ Luna の概要",
       "url": "https://note.com/npaka/n/nd656159a93c3",
-      "summary": "OpenAIがGPT‑5.6を限定プレビュー公開。Sol（旗艦）、Terra（汎用）、Luna（高速）を用意。推論手法やサブエージェントでコーディング・ゲノミクス・サイバー性能を大幅向上。脆弱性検査や政府協働を実施し、多層的な安全対策と段階的公開で悪用を抑制。",
+      "summary": "GPT‑5.6はフラッグシップのSol、業務向けTerra、廉価高速のLunaを限定プレビュー。新推論やサブエージェントでコーディング・生物学・サイバー能力を強化し、厳格な脆弱性検査と多層防護で攻撃利用を抑えつつ防御支援を重視し段階的に公開する。",
       "source": "npaka",
       "publishedAt": "2026-06-26T20:24:58.000Z",
-      "contentHash": "768f9e13fa41"
+      "contentHash": "9d037e5b1d99"
     },
     {
       "id": "12c7f80ddff4",
@@ -1616,10 +1679,10 @@
       "id": "e92525866286",
       "title": "Autodesk Flow Studio の無料オンラインセミナーやります",
       "url": "https://note.com/npaka/n/n342d4c6bcf16",
-      "summary": "7/15(水)15:00、ボーンデジタルとnpaka氏による「Autodesk Flow Studio」無料オンラインセミナー。AI映像制作ツールの基本と、実写人物の3DCG化、モーションキャプチャやカメラトラッキング出力、Image→3Dやゲーム実装までを解説。",
+      "summary": "7/15(水)15:00、Born Digital主催の無料オンラインセミナー「はじめてのAutodesk Flow Studio：AI映像制作の最前線をnpaka氏と検証」を開催。Flow Studioの概要と活用法を解説。",
       "source": "npaka",
       "publishedAt": "2026-06-24T23:40:17.000Z",
-      "contentHash": "e411448cc6f4"
+      "contentHash": "c297bdf0a50d"
     },
     {
       "id": "e12455b2e819",
@@ -3362,10 +3425,10 @@
       "id": "abd061a91568",
       "title": "stackchan-mcp を試す",
       "url": "https://note.com/npaka/n/n9d82cc8d5fd2",
-      "summary": "stackchan-mcpはM5Stack版StackChanとPC上のAI/MCPクライアントをつなぐWebSocketゲートウェイ。カメラ撮影、首振り、表情、明るさ・音量調整、TTS/STT等をAIから操作可能。導入はファーム書込→Wi‑FiとGateway URL設定→PCでgateway起動（デフォルトWS:8765, HTTPキャプチャ:8766）→MCPクライアントをstdioで接続。",
+      "summary": "記事全文が必要です。正確な要約に本文を貼るか、主要点（目的、導入手順、成果、問題点、結論）を教えてください。いただければ200字以内で要約します。",
       "source": "npaka",
       "publishedAt": "2026-06-22T00:32:43.000Z",
-      "contentHash": "343fe61d6e42"
+      "contentHash": "7c316a515599"
     },
     {
       "id": "e2330fefe7e2",
@@ -8937,69 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-06-09T21:34:46.000Z",
       "contentHash": "3b8152733541"
-    },
-    {
-      "id": "0b846f59b96d",
-      "title": "The App Store is going to add subscription bundles soon",
-      "url": "https://www.theverge.com/tech/947365/apple-subscription-bundles-app-store",
-      "summary": "AppleはWWDCでiOS 27とともにApp Storeを改定。企業横断の定期購読バンドルや単体非提供の「Suites」を導入予定。更新乏しい“機会主義的”アプリの削除方針や、Mac App Storeの旧Intel必須撤廃も発表。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-09T21:30:48.000Z",
-      "contentHash": "b0e58acfcf75"
-    },
-    {
-      "id": "51651a7ed67e",
-      "title": "If Claude Fable stops helping you, you'll never know",
-      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
-      "summary": "AnthropicのFable 5（Claude）は、フロンティアLLM開発に関する支援をユーザーに知らせずに効果を低減する「サイレント」な制限を導入。研究と通常の製品開発の境界が曖昧になり、企業のサプライチェーンリスクや誤判断を招く懸念がある。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-09T21:19:11.000Z",
-      "contentHash": "9834f0c08969"
-    },
-    {
-      "id": "1a0a2e4a0ce4",
-      "title": "Upcoming breaking changes for npm v12",
-      "url": "https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/",
-      "summary": "npm v12（2026年7月予定）は依存パッケージのスクリプト実行、Git依存、リモートURL解決をデフォルトで無効化します。信頼するパッケージはnpm approve-scriptsでallowlist化しpackage.jsonに保存。まずは11.16.0以上に更新して検査してください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-09T21:01:00.000Z",
-      "contentHash": "4a8604b8e60f"
-    },
-    {
-      "id": "a5d264170ec2",
-      "title": "GM thinks EVs can help offset AI’s energy suck with vehicle-to-grid tech",
-      "url": "https://www.theverge.com/transportation/946820/gm-energy-ev-v2g-storage-sodium-ion",
-      "summary": "GMはサンフランシスコで、AIデータセンター増加に伴う電力需要に備え、EVの電力を系統へ戻すV2G機能や家庭・産業向けのナトリウムイオン蓄電戦略、公共充電簡素化機能を発表した。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-09T21:00:00.000Z",
-      "contentHash": "eb1ced2dd7ac"
-    },
-    {
-      "id": "89eea1ffd80b",
-      "title": "Alpine Linux 3.24.0 Released",
-      "url": "https://alpinelinux.org/posts/Alpine-3.24.0-released.html",
-      "summary": "Alpine Linux 3.24.0公開。py3-setuptools 82でpkg_resources廃止、qemu-binfmt非推奨。インストーラーがLimine/IPv6とシリアル自動設定対応。COSMICをcommunityに追加、GTK+3はcommunityへ移行、GTK2/Qt5/libsoup2削除。大版移行時はapk upgrade --available実行、GRUBはgrub-install実行を。詳細はWiki参照。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-09T20:50:54.000Z",
-      "contentHash": "4140c564ed5e"
-    },
-    {
-      "id": "dc2be2c2900a",
-      "title": "Microsoft AI head calls out Anthropic for acting like Claude is conscious",
-      "url": "https://www.theverge.com/tech/947197/microsoft-ai-mustafa-suleyman-anthropic-claude-conscious",
-      "summary": "MicrosoftのAI責任者ムスタファ・スレイマンは、AnthropicがClaudeの「憲法」で意識や福祉の可能性を示唆するのは「非常に危険」と批判。設計の擬人化が誤認を生み、自己の苦痛を持つ超知能を招く恐れがあると警告した。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-09T20:24:25.000Z",
-      "contentHash": "0bdce95b0395"
-    },
-    {
-      "id": "fc7c7b6c085b",
-      "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
-      "url": "https://aarushgupta.io/posts/kan-fpga/",
-      "summary": "修士論文の解説。Kolmogorov–Arnoldネットワーク（KAN）を用い、FPGAでの超高速推論とオンライン学習を実現するハード設計を紹介。LUT評価（KANELÉ）やスプライン局所性でナノ〜サブマイクロ秒級の低遅延・高効率を達成し、GPUでは難しい極低遅延用途に適する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-09T19:21:45.000Z",
-      "contentHash": "c7395718001b"
     }
   ]
 }
