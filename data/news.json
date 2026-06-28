@@ -1,23 +1,104 @@
 {
-  "generatedAt": "2026-06-28T04:31:20.258Z",
+  "generatedAt": "2026-06-28T10:46:52.615Z",
   "items": [
+    {
+      "id": "d74726f43c01",
+      "title": "TMD’s keyless bike lock is a $280 solution to a $60 problem",
+      "url": "https://www.theverge.com/tech/957603/tmd-smart-keyless-bike-lock-review",
+      "summary": "TMDのキーレス自転車ロック（約280ドル）はATM向け技術応用。Bluetooth近接・モーションアラーム、焼入鋼芯をダイニーマ／ケブラーで覆う軽く柔軟な構造。共有可能で耐候・耐衝撃、ART-2認証を取得し都市駐輪向け。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-28T07:00:00.000Z",
+      "contentHash": "912900ebedbe"
+    },
+    {
+      "id": "8046d6af48c4",
+      "title": "Prowler を使ってアカウントのセキュリティ状態についてチェックしてみた。 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/prowler-account-check",
+      "summary": "Prowlerを使いAWSアカウントをスキャン。OSSのCSPMでAWS/Azure/GCP/K8s対応、Security Hubを補完して権限昇格経路など追加検出、結果をHubへ送信可。Docker実行でPython3.14のpipインストール問題を確認。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-28T04:43:28.000Z",
+      "contentHash": "d9f0c213d60d"
+    },
+    {
+      "id": "31ab6fd58d8b",
+      "title": "Ford hired AI and sacked humans. It backfired badly",
+      "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+      "summary": "フォードはAI導入で人員削減を進めたが自動化が不具合を招き、過去3年で350人超の熟練技術者（「gray beards」）を品質改善のため再雇用。社は「経験を十分に重視しなかった」と認めた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-28T03:09:13.000Z",
+      "contentHash": "6d980835f03a"
+    },
+    {
+      "id": "7ab1719b20ee",
+      "title": "Marfa Public Radio Puts You to Sleep",
+      "url": "https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep",
+      "summary": "Marfa Public Radioは24時間放送。会員募金の一環で、FCC準拠やNPR規約など「退屈な書類」を朗読して聴取者を眠らせるポッドキャスト「Puts You to Sleep」を配信。起床後に寄付を呼びかける。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-28T02:23:08.000Z",
+      "contentHash": "316c32885570"
+    },
+    {
+      "id": "a37053378bee",
+      "title": "Feds Killed Polestar and Spared Volvo",
+      "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
+      "summary": "米商務省が「Connected Vehicle Rule」に基づき、親会社が中国・吉利のためポールスターの2027年以降の米販売承認を却下。姉妹ブランドのボルボは承認済みで理由不明。サウスカロライナ移転の生産も不透明。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-28T01:55:21.000Z",
+      "contentHash": "41716fa14da0"
+    },
     {
       "id": "03117ada19d6",
       "title": "AWS Blocks と Amplify Gen2 のリソースを相互利用する | NCDC テックブログのフィード",
       "url": "https://zenn.dev/ncdc/articles/0abe188442bd2f",
-      "summary": "Amplify Gen2とAWS Blocksの連携続編。前回はバックエンドをBlocksに寄せたが、今回はAmplifyのAuth（Cognito）をBlocks側から既存リソースとして利用する方法（AuthCognito.fromExisting）を試し、循環参照に注意しつつ両者の補完関係を目指す。",
+      "summary": "Amplify Gen2とAWS Blocksの相互利用検証の続編。AmplifyのAuth(Cognito)をdefineAuthで追加し、BlocksからAuthCognito.fromExistingで既存Cognitoを参照して統合する手法を示す。相互取り込みで循環参照に注意。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-28T01:30:06.000Z",
-      "contentHash": "6f812c4e1402"
+      "contentHash": "1f4cdc7390b2"
+    },
+    {
+      "id": "24307e94bc55",
+      "title": "The best response to AI slop and online noise is from Robin Williams",
+      "url": "https://jayacunzo.com/blog/your-move-chief",
+      "summary": "AIの雑音や無限の助言に対する最良の応答は、ロビン・ウィリアムズの『グッド・ウィル・ハンティング』のベンチの演説にある。書斎の知識より実体験の重みを説く名場面。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-28T01:28:10.000Z",
+      "contentHash": "449f21bb1c17"
+    },
+    {
+      "id": "4383664cba90",
+      "title": "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C",
+      "url": "https://decomp-academy.dev",
+      "summary": "Decomp Academyは無料のオンライン講座で、GameCubeのPowerPC（Gekko）アセンブリをバイト一致するCへ逆コンパイルする方法を対話的に学べます。Metrowerks CodeWarrior GC/2.0で採点され、入門〜上級向け（約40時間）、GitHubやプレイグラウンドあり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-28T01:21:20.000Z",
+      "contentHash": "e33ff0daf9d2"
+    },
+    {
+      "id": "1634c3a63bd6",
+      "title": "AMD Strix Halo RDMA Cluster Setup Guide",
+      "url": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
+      "summary": "AMD Strix Halo二ノード（Intel E810 RoCEv2）でのvLLM分散推論（Tensor Parallelism）構築手順。Fedora43・NIC/BIOS/カーネル設定、パスワードレスSSH、静的IP/MTU9000、refresh_toolbox.shでRDMA対応コンテナ導入後、start-vllm-clusterでRayとvLLMを起動。gatedモデルはHF_TOKEN要設定。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-28T00:46:52.000Z",
+      "contentHash": "b56daa2c9904"
+    },
+    {
+      "id": "0ee2a23005de",
+      "title": "Choosing a Public DNS Resolver",
+      "url": "https://evilbit.de/dns-resolver-guide.html",
+      "summary": "公開DNSリゾルバ比較ツール。プライバシー、マルウェア遮断、親子制御、速度、IPv6、管轄等で絞り込み・スコア化して比較表を提供。DoH/DoTは遅延小で改竄抑制効果ありが品質差、DNSSEC検証や無記録・ODoHを優先すると安全。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-27T22:11:28.000Z",
+      "contentHash": "77fe00b540b0"
     },
     {
       "id": "a9fbd9f6d022",
       "title": "Michigan spent $1.8B and only created 602 jobs",
       "url": "https://www.msn.com/en-us/money/general/michigan-spent-1-8-billion-and-only-created-602-jobs/ar-AA26Cusu",
-      "summary": "申し訳ありませんが、こちらから外部サイトを直接参照できません。記事本文を貼り付けていただければ、200文字以内で日本語要約を作成します。要約のトーン（中立・批判的など）指定があれば教えてください。",
+      "summary": "ミシガン州が企業誘致のために18億ドルを投入したが、報告では創出された雇用はわずか602件にとどまり、費用対効果や監督・返還制度の不備が強く批判されている。",
       "source": "Hacker News",
       "publishedAt": "2026-06-27T21:44:57.000Z",
-      "contentHash": "849123334843"
+      "contentHash": "9a5d025dbf74"
     },
     {
       "id": "178be0090853",
@@ -68,10 +149,10 @@
       "id": "a20108d7013e",
       "title": "【AWS Summit Japan 2026】AI-DLCについての話をセッション横断でまとめてみました | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/AWS_Summit_Japan_2026_AI-DLC_Summary",
-      "summary": "AWS Summit Japan 2026のAI駆動開発ライフサイクル（AI‑DLC）関連セッションを横断整理。INCEPTION/CONSTRUCTION/OPERATIONの流れ、9つの教訓、技能侵食やオーナー不在の課題、作成者の運用責任・意図的非効率・Design for Evaluationなどの対策と事例・実践法をまとめた。",
+      "summary": "AWS Summit Japan 2026でのAI駆動開発ライフサイクル（AI‑DLC）関連セッションを横断整理。INCEPTION/CONSTRUCTION/OPERATIONの流れ、9の教訓、技能侵食やオーナーシップ課題、作成者が運用を担う等の対策、Design for Evaluationや具体事例をまとめた。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-27T18:01:37.000Z",
-      "contentHash": "d7f4b12309e7"
+      "contentHash": "6d9ace904e83"
     },
     {
       "id": "dfcf3c7896d1",
@@ -266,28 +347,28 @@
       "id": "83c918129564",
       "title": "【AWS Summit Japan 2026】体験型ブースで見たAIエージェントの今 ─ 4つの展示レポート | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/2026/06/27/165914",
-      "summary": "AWS Summit Japan 2026の体験型ブース4件を紹介。自律的に動くAIエージェントが、リアルタイムで曲・映像を生成するAI DJ、低遅延のサッカー実況、物品片付けロボットなどを実演し、エージェント時代を体感させた。",
+      "summary": "AWS Summit Japan 2026の体験ブースレポ。自律的に動くAIエージェントの実例を4件紹介：リアルタイム作曲・映像（AI DJ）、サッカー実況、片付けロボなど。Agent構成や低遅延・観客連動が印象的。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-27T07:59:14.000Z",
-      "contentHash": "398116bd0888"
+      "contentHash": "a133bdf49116"
     },
     {
       "id": "cdf53e76c42d",
       "title": "【AWS Summit Japan 2026】AI エージェント時代における責任あるAIのベストプラクティスと実践例 [AIM345] セッションレポート | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/2026/06/27/152305",
-      "summary": "AWS Summit Japan 2026のセッションレポート。AIエージェント時代は自律性向上でインシデント影響が拡大するため、ガードレール→監視→組織的改善の循環が重要。IndeedのAnticipate→Guardrail→ObserveやBedrock Guardrails/CloudWatch等の実践例を紹介。",
+      "summary": "AWS Summit Japan 2026の報告。AIエージェント時代の責任あるAIは「ガードレール→監視→組織的改善」の継続が重要と説明。IndeedのAnticipate→Guardrail→ObserveやBedrock Guardrails／CloudWatch等の実践例を紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-27T06:23:05.000Z",
-      "contentHash": "c542aab03620"
+      "contentHash": "bb7bbf76592d"
     },
     {
       "id": "6c4a67814d12",
       "title": "【AWS Summit Japan 2026】AI 駆動カオスエンジニアリングのすすめ [DVT452] セッションレポート | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/2026/06/27/141547",
-      "summary": "AWS Summit Japan 2026のセッションレポート。AI-DLC（AI駆動開発ライフサイクル）の運用フェーズに注目し、人とAIの協働で試行コストを下げる方針と、リスクストーミング×カオスエンジニアリングのデモを紹介。",
+      "summary": "エデュケーショナルサービス課の森純子がAWS Summit Japan 2026に参加。会場は大盛況でDJも印象的。目的はAI時代の開発の「今」を現場で確認することで、運用ではAIを日常的に使うがアプリ開発は初心者と述べる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-27T05:15:47.000Z",
-      "contentHash": "28b3d459d923"
+      "contentHash": "a6bc754b23e1"
     },
     {
       "id": "1a1b380dcb63",
@@ -509,10 +590,10 @@
       "id": "6256373c8cca",
       "title": "GPT-5.6 Sol ・ Terra ・ Luna の概要",
       "url": "https://note.com/npaka/n/nd656159a93c3",
-      "summary": "GPT-5.6シリーズ（Sol/Terra/Luna）を限定プレビュー。Solは最上位で推論・エージェント能力が向上し、コーディング・生物学・サイバーで性能改善。厳格な多層安全対策と段階的公開で防御支援に注力し、自律的攻撃生成は確認されていない。",
+      "summary": "OpenAIがGPT‑5.6を限定プレビュー公開。Sol（旗艦）、Terra（汎用）、Luna（高速）を用意。推論手法やサブエージェントでコーディング・ゲノミクス・サイバー性能を大幅向上。脆弱性検査や政府協働を実施し、多層的な安全対策と段階的公開で悪用を抑制。",
       "source": "npaka",
       "publishedAt": "2026-06-26T20:24:58.000Z",
-      "contentHash": "39d3547b7314"
+      "contentHash": "768f9e13fa41"
     },
     {
       "id": "12c7f80ddff4",
@@ -779,10 +860,10 @@
       "id": "724423a3c908",
       "title": "Meta Quest のUnityワールドの原点はどう決まるのか",
       "url": "https://note.com/npaka/n/n4ea7bd8652df",
-      "summary": "Meta Quest向けUnityではOVRCameraRigがプレイヤーの基準。Unity原点は(0,0,0)で、OVRCameraRigの位置・回転でプレイヤー位置と前方が決まる。高さはOVRManagerのTracking Origin Type（Floor/Eye）で切替、HMDはCenterEyeAnchor、左右コントローラーはLeft/RightHandAnchorに反映される。",
+      "summary": "Meta Quest向けUnityではOVRCameraRigがプレイヤー基準。Unity原点は(0,0,0)で、OVRCameraRigの位置で全体の位置が決まり、回転で前方が変わる。Tracking Origin Type（Floor/Eye）で高さ基準が変わり、CenterEyeAnchor/LeftHandAnchor/RightHandAnchorがHMDとコントローラ位置を反映する。",
       "source": "npaka",
       "publishedAt": "2026-06-26T06:57:35.000Z",
-      "contentHash": "5abcd9d27d19"
+      "contentHash": "f842910bb0f0"
     },
     {
       "id": "8706fabe72ef",
@@ -3263,10 +3344,10 @@
       "id": "60c1cbe4382f",
       "title": "dora-openarm-vr の使い方",
       "url": "https://note.com/npaka/n/n0e05c01562d6",
-      "summary": "dora-openarm-vrはMeta Quest 3でOpenArm v2をVR遠隔操作するプロジェクト。Questの姿勢・トリガーをPCのdora-rsで受けIK→MuJoCoまたは実機へ送る。APKをサイドロードし、リポジトリをクローン・ビルド、uvでデータフローを実行（UDPポート5006）。事前にセンサー設定やネットワーク、MuJoCoで動作確認してから実機を動かす。configにデータ収集用フローあり。",
+      "summary": "dora-openarm-vrはMeta Quest 3でOpenArm v2をVR操作するプロジェクト。Questの姿勢・トリガーをPCのdora-rsで受信しIK経由でMuJoCoや実機を制御。APKをQuestにサイドロード、PCでリポジトリ取得・ビルド。UDPポート5006で接続し、まずMuJoCoで動作と安全を確認してから実機を使う。",
       "source": "npaka",
       "publishedAt": "2026-06-22T01:54:49.000Z",
-      "contentHash": "fc561fe16650"
+      "contentHash": "17209f178859"
     },
     {
       "id": "f3f9da2677a7",
@@ -8919,87 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-06-09T19:21:45.000Z",
       "contentHash": "c7395718001b"
-    },
-    {
-      "id": "9f54754ee47d",
-      "title": "Nintendo is playing things too safe",
-      "url": "https://www.theverge.com/entertainment/947120/nintendo-direct-june-2026-analysis",
-      "summary": "任天堂の6月Directは1時間の発表で見た目の良い新作はあったが新規性に乏しく安全策に終始。高価格化するSwitch 2向け年末ラインはN64世代のリメイク中心で、『ゼルダ 時のオカリナ』のリメイクが発表された。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-09T19:01:04.000Z",
-      "contentHash": "c6edc3fffc2c"
-    },
-    {
-      "id": "4c86a46afcf3",
-      "title": "Ask HN: Are you still using a Vision Pro?",
-      "url": "https://news.ycombinator.com/item?id=48465702",
-      "summary": "装着感が肝で、DualKnitバンドやオープンフェイス改造で快適に。r/VisionProでは支持者多数だが、反射や視野、度入りレンズの不具合、バッテリーや電源仕様が普及の障壁。試用レンタルや共用環境が解決策になり得る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-09T18:47:52.000Z",
-      "contentHash": "bc2e477749e6"
-    },
-    {
-      "id": "aea001fe49d6",
-      "title": "CEOs who think AI replaces their employees are just bad CEOs",
-      "url": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/",
-      "summary": "ツールは強力でも、それで従業員を代替できると考えるCEOは単に無能で、自己重要感が強く本当は従業員を好いていない、という主張です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-09T18:45:59.000Z",
-      "contentHash": "5a36ee6aa1eb"
-    },
-    {
-      "id": "fd1dd835f76f",
-      "title": "GPT-2: Too Dangerous To Release (2019)",
-      "url": "https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/",
-      "summary": "GPT-2はGPT-1の単純なスケールアップで、同じトランスフォーマー（デコーダ）構造だがパラメータ数と学習データを大幅に増やした。性能向上で悪用懸念が出たため、OpenAIは完全モデルを即時公開せず小型版と論文を先行公開した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-09T18:21:43.000Z",
-      "contentHash": "d1be6c5d91d7"
-    },
-    {
-      "id": "53ff38912269",
-      "title": "Fitbit’s Charge 6 and Ace LTE are now as cheap as the new $100 Air",
-      "url": "https://www.theverge.com/gadgets/947063/fitbit-charge-6-ace-lte-air-deal-sale",
-      "summary": "FitbitのCharge 6、Ace LTE、新型Airがいずれも約100ドルに値下げ。Charge 6は$50オフで多機能、Ace LTEは$80オフの子ども向け、Airは画面なしのシンプルモデル。Amazon／Best Buy／Targetでセール中。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-09T17:35:51.000Z",
-      "contentHash": "284b7bd2edf8"
-    },
-    {
-      "id": "6be6d4d1760e",
-      "title": "Apple wants Europe to blink",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/947051/apple-europe-dma-siri-ai",
-      "summary": "アップルは欧州でSiriの新AI提供をデジタル市場法（DMA）の影響で遅らせていると主張。一方EU側は、法的に提供を妨げるものはなく、アップルはいつでも導入可能だと反論している。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-09T17:13:14.000Z",
-      "contentHash": "def2078f6984"
-    },
-    {
-      "id": "1da870b22929",
-      "title": "Anthropic releases its first Mythos-class model Claude Fable ",
-      "url": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
-      "summary": "Anthropicが最上位Mythos級のClaude Fable 5を公開。ソフト開発・知識作業・視覚で高性能。サイバーや生物関連の高リスク応答を遮断し、必要時はClaude Opus 4.8に切替える新たな安全策で公開。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-09T17:00:00.000Z",
-      "contentHash": "5d0441e2d858"
-    },
-    {
-      "id": "6ba772e68b7d",
-      "title": "System Card: Claude Fable 5 and Claude Mythos 5 [pdf]",
-      "url": "https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf",
-      "summary": "申し訳ありませんが、外部リンク先のPDFに直接アクセスできません。本文を貼るか主要部分（または要点）を送っていただければ、200文字以内で要約します。コメント欄も要約希望なら教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-09T16:58:13.000Z",
-      "contentHash": "906723b6cca7"
-    },
-    {
-      "id": "e11fcea9cd94",
-      "title": "Claude Fable 5",
-      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "summary": "申し訳ないですが、こちらから記事に直接アクセスできません。本文を貼っていただくか、記事の要点（発表内容、性能、用途、安全性など）を教えていただければ、200文字以内で要約します。HNコメントの要約も可。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-09T16:58:01.000Z",
-      "contentHash": "becf134b1e60"
     }
   ]
 }
