@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-06-30T04:22:10.054Z",
+  "generatedAt": "2026-06-30T11:32:02.682Z",
   "items": [
+    {
+      "id": "5fc826bbbbe5",
+      "title": "This motor could be the future of e-bikes",
+      "url": "https://www.theverge.com/news/959382/avinox-mg-concept-gobao-mgu-ecvt",
+      "summary": "2027年登場予定の新型モーター内蔵ギアボックス（MGU）がEurobikeで発表。Avinoxらが、リアディレイラーやカセット不要で自動／手動の滑らかな変速を実現。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-30T10:30:04.000Z",
+      "contentHash": "d09a3761c342"
+    },
+    {
+      "id": "74aea65e6f79",
+      "title": "Claude Code のサブスク使用状況を VSCode で“常時可視化”する拡張機能を作った | 株式会社マインディア テックブログのフィード",
+      "url": "https://zenn.dev/minedia/articles/17a07dc1ce4f12",
+      "summary": "VSCode拡張 claude-cost を作成。ステータスバーでClaude Codeのサブスク使用率（5h/週・週次）を常時表示し、クリックでAPI換算費用や超過コストを詳細表示。使用率は公式CLIの /usage を実行して出力を解析し、認証情報には触れない方式。外部CLI連携やキャッシュ設計の罠と対処を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-30T10:10:05.000Z",
+      "contentHash": "4b656112764e"
+    },
+    {
+      "id": "07abf49c9818",
+      "title": "Our best look yet at Samsung’s new wide foldable",
+      "url": "https://www.theverge.com/tech/959372/samsung-galaxy-z-fold-wide-image-leaks",
+      "summary": "Android Headlinesのリーク画像で、Galaxy Z Fold8のワイド（パスポート風）折り畳みとGalaxy Z Flip8のケースと実機が流出。来月のGalaxy Unpacked前に幅広筐体やセルフィーカメラ配置などの外観が明らかになった。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-30T09:54:44.000Z",
+      "contentHash": "e766ae647954"
+    },
+    {
+      "id": "19407b9a84b7",
+      "title": "ログに乗ってくる情報が薄い Redash の操作ログ監査を、Redash 内部 DB から補って成立させる | MNTSQ Techブログ",
+      "url": "https://tech.mntsq.co.jp/entry/2026/06/30/183145",
+      "summary": "弊社のRedash操作監査で、営業時間外に操作があればSlackで利用目的を確認する運用を導入。改善としてRedash内部DBからeventsをAthenaへ取り込み、通知本文に操作要約を追加。これにより監査性向上と回答促進が期待される。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-30T09:31:45.000Z",
+      "contentHash": "60fa27a730a6"
+    },
+    {
+      "id": "f24f55b8e8ee",
+      "title": "AIエージェントを駆使し、E2EとQAの自動化を目指している話 #gamewith #techwith | GameWith Developer Blog",
+      "url": "https://tech.gamewith.co.jp/entry/2026/06/30/182623",
+      "summary": "社内でClaudeCodeを全社利用し、E2E自動化にDevinを採用。DeepWikiでURL特定精度が高く、v1は環境コストで断念。v2ではDevinが差分からPlaywright用テストとURLを生成、Claudeがレビュー、CIで実行。url_confidenceが低い場合は手動確認や代替チェックを行う。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-30T09:26:23.000Z",
+      "contentHash": "2797a6f41ac9"
+    },
+    {
+      "id": "de5ff8b6c3d1",
+      "title": "サーバーサイドグループ組織紹介（2026年版） | Yappli Tech Blog",
+      "url": "https://tech.yappli.io/entry/server-group-recruting-2026",
+      "summary": "ハイブリッド勤務の開発組織（Yappli/CX/UNITE/マルチプロダクト）で週次・月次・四半期の交流を実施。約1000アプリを支えるためPHPからGo＋DDDへ移行し、MySQLのパーティション剪定で性能を16倍改善。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-30T09:07:34.000Z",
+      "contentHash": "7f5127627528"
+    },
+    {
+      "id": "62a6db27316e",
+      "title": "Dockerは空なのにCドライブが満杯？docker_data.vhdxが356GBまで肥大化していた話 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/63780a350067e2",
+      "summary": "業務PCのCドライブが空き1.8GBまで逼迫し、Docker/WSL起動不良やアプリ不安定、Windows Update失敗の恐れ。原因はDocker Desktopの仮想ディスク（docker_data.vhdx）が約356GBに肥大化したことで、原因究明と容量回復の調査過程をまとめた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-30T09:00:29.000Z",
+      "contentHash": "542eb60be162"
+    },
+    {
+      "id": "716acead74f5",
+      "title": "野良アプリを無くせ！Cloud Run × Streamlit による社内アプリ開発基盤の構築と自動化 | レバレジーズ データAIブログ",
+      "url": "https://analytics.leverages.jp/entry/2026/06/30/180000",
+      "summary": "データ戦略室兼AI推進室のブライソンが、社内に散在する把握困難な便利ツール群を整理するため開発した、Streamlitアプリ共通デプロイ基盤「Guam」を紹介。main.pyをGitHubにpushするだけで認証付きの社内Webアプリが公開される仕組み。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-30T09:00:00.000Z",
+      "contentHash": "e5fb2c903eac"
+    },
+    {
+      "id": "7ff81dce0678",
+      "title": "Monthly Tech Report 2026年5月 | ZOZO TECH BLOG",
+      "url": "https://techblog.zozo.com/entry/monthly-tech-report-202605",
+      "summary": "ZOZO開発組織の2026年5月活動を振り返るMonthly Tech Report。ZOZO TECH BLOGで前月報を含む計10本を公開し、特にClaude Code関連のE2Eテスト記事が反響。登壇や掲載情報（RubyKaigi 2026アフターイベントなど）もまとめて紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-30T09:00:00.000Z",
+      "contentHash": "72e869f6a789"
+    },
+    {
+      "id": "5b9d4394fb0c",
+      "title": "JavaScript：フロントエンドのクラッシュをデバッグして依存関係の循環を解決した話（翻訳） | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_06_30/158633",
+      "summary": "NeetoCRMのフロントエンドクラッシュを解析し、neeto-widget-replay.jsのエラー原因を特定して循環依存を解消した事例を、原著（2026-06-10 Joseph Mathew）翻訳としてTechRachoに公開。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-30T08:30:35.000Z",
+      "contentHash": "53995978a5ca"
+    },
+    {
+      "id": "b629517d25df",
+      "title": "MCPサーバーを自作して動かしてみる | iimon TECH BLOG",
+      "url": "https://tech.iimon.co.jp/entry/2026/06/30/171611",
+      "summary": "自作MCPの作り方を解説。最小MCPのプロジェクト作成・サーバー実装・ビルド・Claude Codeへの登録手順と、同サーバーにGitHubツールを追加する方法（環境構築、src/github.ts・src/index.ts追記、GITHUB_TOKEN認証、実行）を順に説明しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-06-30T08:16:11.000Z",
+      "contentHash": "3109359ebc8f"
+    },
+    {
+      "id": "be202b5f9272",
+      "title": "US Supreme Court Just Blew Up EU-US Data Transfers",
+      "url": "https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers",
+      "summary": "NOYBは、米最高裁の判決が米当局による広範なデータアクセスを事実上容認し、EU‑米データ移転の保護が崩壊したと批判。企業に移転停止とEU側の速やかな対策を要求している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-30T05:17:02.000Z",
+      "contentHash": "8ff49dc9296b"
+    },
+    {
+      "id": "e8b71ae75767",
+      "title": "Popping the GPU Bubble",
+      "url": "https://moondream.ai/blog/popping-the-gpu-bubble",
+      "summary": "Moondreamの推論エンジンPhotonは、トークン生成ごとのCPUハウスキーピングでGPUが待機する「GPUバブル」を、CPUとGPU作業を重ねるパイプラインデコードで解消。NVIDIA B200で約33ms、デコードスループットを最大35%向上させる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-30T05:14:35.000Z",
+      "contentHash": "60073ed55c7b"
+    },
     {
       "id": "9d33ad49edcb",
       "title": "GO TechTalk #33 『GO』における、AI活用の現場から 〜2026 夏〜 | GO Tech Blog",
@@ -83,13 +200,40 @@
       "contentHash": "b19c2c1dff22"
     },
     {
+      "id": "224aafc12cd4",
+      "title": "Memory Safe Context Switching",
+      "url": "https://fil-c.org/context_switches",
+      "summary": "Fil-Cは0.680でsetjmp/longjmpやgetcontext/setcontext/makecontext/swapcontextをメモリ安全にサポート（試すにはソースからビルド）。誤用で生じるダングリングスタックやスタック破損、能力モデル違反を防ぐ設計。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-30T00:38:19.000Z",
+      "contentHash": "82ce52a12870"
+    },
+    {
+      "id": "79537920c56a",
+      "title": "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active",
+      "url": "https://longcat.chat/blog/longcat-2.0/",
+      "summary": "外部ページへ直接アクセスできないため、記事本文か要点を貼ってください。いただければ200字以内で日本語要約します。HNコメントの要約も希望なら併記してください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-30T00:30:11.000Z",
+      "contentHash": "74943d79c475"
+    },
+    {
       "id": "0c22bcce83de",
       "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
       "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
-      "summary": "韓国政府がメモリ半導体の増産とヒューマノイドロボット開発へ大規模投資を表明。主要企業支援とR&D強化で国際競争力と供給網の強化を狙う一方、費用対効果や「勝ち組」選定への懸念も指摘されている。",
+      "summary": "韓国政府と大手企業がメモリ増産、AIデータセンター建設、人型ロボ商用化を柱に1兆ドル投資し、2028年までに物理的AIで主導権を狙う。サムスン等の利益急増や供給不足、労組のロボ導入反発も課題。",
       "source": "Hacker News",
       "publishedAt": "2026-06-29T22:21:00.000Z",
-      "contentHash": "2daceeb82bd5"
+      "contentHash": "c11c0bbe31a6"
+    },
+    {
+      "id": "a6f3665508a1",
+      "title": "Scientists find molecular-level evidence for two structures in liquid water",
+      "url": "https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html",
+      "summary": "2026年のNature Physics掲載のシミュレーション研究が、液体水が「密で無秩序」な構造と「希で秩序ある」構造の二種類が絶えず入れ替わる混合状態であるという分子レベルの証拠を示した。二相モデルは水の異常性を説明するが直接証拠はこれまで乏しかった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-06-29T22:18:26.000Z",
+      "contentHash": "5b7fecc28bc8"
     },
     {
       "id": "e44d2a528278",
@@ -113,28 +257,28 @@
       "id": "5673b1908617",
       "title": "Leaked iPhone 18 Pro photos reportedly wound up on the dark web",
       "url": "https://www.theverge.com/tech/959229/iphone-18-pro-leak-apple-dark-web",
-      "summary": "iPhone 18 Proの流出写真や部品リストがダークウェブに公開されました。インドのサプライヤーTata Electronicsが先週データ侵害を確認し、ランサム集団World Leaksが20万件超のファイルを投稿。写真は落下テストや三眼カメラ、Appleロゴを示し、複数ファイルに数百の部品が記載されていました。",
+      "summary": "iPhone 18 Proの写真や部品リストがダークウェブに流出。インドのサプライヤーTata Electronicsがデータ侵害を認め、ランサム集団「World Leaks」が20万件超のファイルを公開し、AppleやTesla関連資料やドロップテスト映像も含まれていた。",
       "source": "The Verge",
       "publishedAt": "2026-06-29T20:18:26.000Z",
-      "contentHash": "523332fdefe3"
+      "contentHash": "3c3aa4ede935"
     },
     {
       "id": "526258c3c27f",
       "title": ".self: A new top-level domain designed to support self-hosting",
       "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
-      "summary": "外部サイトへ直接アクセスできないため、記事本文を貼っていただけますか？貼っていただければ200文字以内で要約します。HNコメントも要約希望なら教えてください。タイトルのみでの推定要約も可能です。",
+      "summary": "HCCFは、データ搾取に対抗し人間中心の代替ウェブ基盤を目指して、ICANNの申請支援プログラム参加者として承認を受け、新たな倫理的・人間中心のトップレベルドメイン（.self等）取得キャンペーンを開始しました。詳細はパンフレット（PDF）。",
       "source": "Hacker News",
       "publishedAt": "2026-06-29T19:49:28.000Z",
-      "contentHash": "0dd05bcaddec"
+      "contentHash": "9dc7cff1e147"
     },
     {
       "id": "024d61b38634",
-      "title": "Tidal won’t pay royalties on AI-generated music but isn’t banning it outright",
+      "title": "Tidal won’t pay royalties on AI-generated music, but isn’t banning it outright",
       "url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
-      "summary": "TidalはAI生成音楽を全面禁止せず、7月15日から100%AI生成曲にアイコン表示。ただし本日以降その曲は収益化（ロイヤリティ）対象外とし、原作者へ配分を優先すると発表。検出方法は非公開。",
+      "summary": "Tidalは100% AI生成曲のロイヤリティを支払わないと発表。全面禁止はせず、7月15日から該当曲にアイコン表示、本日（6月29日）から収益化を停止。検出手段は非公開。",
       "source": "The Verge",
       "publishedAt": "2026-06-29T19:47:35.000Z",
-      "contentHash": "800e5ea4091e"
+      "contentHash": "f31e33d78ac5"
     },
     {
       "id": "5a686f325153",
@@ -185,19 +329,28 @@
       "id": "36a2cd0721c4",
       "title": "Qwen 3.6 27B is the sweet spot for local development",
       "url": "https://quesma.com/blog/qwen-36-is-awesome/",
-      "summary": "記事は36B級の言語モデル「Qwen‑36」が、速度・コスト・精度の面で優れ、各種ベンチや実用タスクで高評価を得ていることを紹介。オープン性と応答品質の高さから注目モデルと結論付ける。",
+      "summary": "Qwen 3.6 27Bはローカル開発の「ちょうど良い」モデル。密モデルで35Bより遅いが性能は高く、創作や実用タスクで期待以上に動作する。動作中は発熱するが価値あり。",
       "source": "Hacker News",
       "publishedAt": "2026-06-29T17:05:16.000Z",
-      "contentHash": "251d95b52808"
+      "contentHash": "13e5f97639a4"
+    },
+    {
+      "id": "52759dd79d4f",
+      "title": "The best July 4th sales we found so far",
+      "url": "https://www.theverge.com/gadgets/958906/best-july-4th-tech-deal-sale",
+      "summary": "Prime Dayは終了したが、独立記念日前にセールが継続中。Best BuyやREIの4th of Julyセールや、価格改定前のApple製品割引など、注目のセール情報を随時まとめる。",
+      "source": "The Verge",
+      "publishedAt": "2026-06-29T16:42:48.000Z",
+      "contentHash": "22ea7d5cc2bc"
     },
     {
       "id": "5e513cb3cfeb",
       "title": "The Radiation Exposure Lie",
       "url": "https://worksinprogress.co/issue/how-to-lie-about-radiation/",
-      "summary": "申し訳ありませんが、外部URLのページを直接参照できません。記事本文を貼っていただくか要点を送ってください。いただければ200文字以内で日本語要約を作成します。",
+      "summary": "チェルノブイリは最悪の原発事故。設計欠陥と安全装置停止で試験中に爆発・火災が発生。600人中134人が高線量被ばく、初期に28人死亡。汚染牛乳で子供の甲状腺に放射性ヨウ素が蓄積し6000件の甲状腺がん（15人死亡、将来約200人の可能性）。急性被ばくで死者を出した唯一の商用原発事故。",
       "source": "Hacker News",
       "publishedAt": "2026-06-29T16:27:27.000Z",
-      "contentHash": "5803ca13dece"
+      "contentHash": "1acddbb4248c"
     },
     {
       "id": "4e7e8684ff2b",
@@ -419,10 +572,10 @@
       "id": "535909223dfd",
       "title": "Codex + MuJoCo で LiDAR 入門",
       "url": "https://note.com/npaka/n/na0dba65aac83",
-      "summary": "CodexとMuJoCoで作るLiDAR入門。rangefinderをsiteに配置して距離を測る。まず床・簡易ロボット・障害物・前方1本で動作確認し、次に12本（30°間隔）等で2D LiDAR化。CodexにMJCF/Python生成を任せ、センサ値取得から障害回避など自律タスクへ発展させる流れを解説。",
+      "summary": "MuJoCoのrangefinderを使い、Codexで床・簡易ロボット・障害物・センサーを生成する手順を解説。まず単一本で計測を確認し、複数本を扇状や段に配置して2D/簡易3DのLiDAR風にし、最終的に障害物回避など自律移動へつなげる流れを示す。",
       "source": "npaka",
       "publishedAt": "2026-06-29T09:14:54.000Z",
-      "contentHash": "6fa2a0a47fa5"
+      "contentHash": "85566607005d"
     },
     {
       "id": "eff9be5635bd",
@@ -1616,10 +1769,10 @@
       "id": "724423a3c908",
       "title": "Meta Quest のUnityワールドの原点はどう決まるのか",
       "url": "https://note.com/npaka/n/n4ea7bd8652df",
-      "summary": "Meta Quest向けUnityではOVRCameraRigがプレイヤー基準。Unity原点は(0,0,0)で、OVRCameraRigの位置で全体の位置が決まり、回転で前方が変わる。Tracking Origin Type（Floor/Eye）で高さ基準が変わり、CenterEyeAnchor/LeftHandAnchor/RightHandAnchorがHMDとコントローラ位置を反映する。",
+      "summary": "Meta QuestのUnityではOVRCameraRigがプレイヤー基準。Unity原点は(0,0,0)（+X右、+Y上、+Z前）。OVRCameraRigの位置でプレイヤー位置が決まり、OVRManagerのTracking Origin Typeで高さ基準をFloor（床をY=0）／Eye（頭をY=0）に切替。起動やリセンター時の向きが前方向となり、OVRCameraRigの回転も反映される。",
       "source": "npaka",
       "publishedAt": "2026-06-26T06:57:35.000Z",
-      "contentHash": "f842910bb0f0"
+      "contentHash": "1b635ee41e96"
     },
     {
       "id": "8706fabe72ef",
@@ -8847,159 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-06-11T16:28:24.000Z",
       "contentHash": "5b106723772f"
-    },
-    {
-      "id": "6eb103858f8a",
-      "title": "Solar generates more energy in US than coal for first time",
-      "url": "https://www.theguardian.com/us-news/2026/jun/11/solar-energy-us-coal",
-      "summary": "米国で5月、太陽光が初めて石炭を上回り電力の12.8％を供給（石炭12.2％）。自然ガス・原子力に次ぐ第3位に。エンバーやSEIAらの報告で、トランプ政権の石炭推進にも関わらず太陽光は拡大、石炭は衰退。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-11T16:10:05.000Z",
-      "contentHash": "10b5393c6d0b"
-    },
-    {
-      "id": "66e9e19a72c6",
-      "title": "Waymo Premier",
-      "url": "https://waymo.com/blog/2026/06/waymo-premier/",
-      "summary": "Waymoが招待制会員「Waymo Premier」を開始。月額29.99ドルで優先ピックアップ、乗車ごとに10%のWaymo Cash還元（混雑時優遇）、新都市の早期利用、月5回まで無料キャンセルなどの特典。初期はSF・LA・フェニックスで提供。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-11T16:10:02.000Z",
-      "contentHash": "80743b842396"
-    },
-    {
-      "id": "78792269b093",
-      "title": "A warrantless wiretap law is about to expire — but surveillance networks aren’t actually ‘going dark’",
-      "url": "https://www.theverge.com/tech/948451/fisa-702-reauthorization-vote-fails-congress-wiretapping-lapse",
-      "summary": "下院は218対198で外国情報監視法（FISA）第702条の3週間延長を否決し、同条項は少なくとも1週間失効する見込みだ。支持者は監視網が「暗転」すると警告するが、実際に米国の監視能力が失われたわけではない。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-11T16:03:38.000Z",
-      "contentHash": "c7cc4a32134b"
-    },
-    {
-      "id": "f23fb03eaa97",
-      "title": "Codex でプレゼン資料の作成を試す",
-      "url": "https://note.com/npaka/n/nf909472b7e95",
-      "summary": "Codexでプレゼン作成を試行。流れは(1) 表紙・セクション・本文・まとめの4種を白基調で1枚画像生成→分割、(2) Markdownでスライド構成（例：プロジェクト管理9枚）、(3) それらを使ってKeynoteを生成、必要に応じて編集。",
-      "source": "npaka",
-      "publishedAt": "2026-06-11T16:02:10.000Z",
-      "contentHash": "17f75ff2e8fb"
-    },
-    {
-      "id": "ce9cf660cf79",
-      "title": "Waymo introduces $30-a-month premium tier for riders who want faster pickups",
-      "url": "https://www.theverge.com/transportation/947974/waymo-premier-monthly-membership-perks-priority-cash-back",
-      "summary": "Waymoが月29.99ドルの招待制プレミア会員「Waymo Premier」を導入。優先ピックアップ、全乗車の10%キャッシュバック、新都市での早期アクセス、月最大5回の無料キャンセルなどをSF・LA・フェニックスの選定利用者向けに提供。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-11T16:00:00.000Z",
-      "contentHash": "53134e5fde18"
-    },
-    {
-      "id": "04df8dca4747",
-      "title": "I&#8217;ve found the Goldilocks of portable MIDI controllers",
-      "url": "https://www.theverge.com/tech/948024/arturia-minilab-37-midi-controller-review",
-      "summary": "ArturiaのMiniLab 37は、レビューで「37鍵が理想」と評されるバランスの良いポータブルMIDI鍵盤。25鍵より1オクターブ広く演奏性が向上。149ドルで8パッド、8エンコーダー、4フェーダー、タッチストリップ、USB-CとMIDI DINを搭載。筐体はやや安っぽい。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-11T16:00:00.000Z",
-      "contentHash": "b1484427b4f3"
-    },
-    {
-      "id": "4c8081773175",
-      "title": "Elon Musk is encouraging race riots on the eve of SpaceX’s IPO",
-      "url": "https://www.theverge.com/policy/948426/elon-musk-belfast-riots-anti-immigration",
-      "summary": "スペースX上場直前のイーロン・マスクが、ベルファストの暴動を受け排外主義政党「リストア・ブリテン」を支持。党首の大量追放や政治家の起訴主張を転載し「これが道だ」と追随、抗議地点を共有して「繰り返し大声で抗議せよ」と呼び掛けた。容疑者はスーダン出身難民と報道。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-11T15:51:27.000Z",
-      "contentHash": "1decdc8c995b"
-    },
-    {
-      "id": "5c85c98e9105",
-      "title": "Petition to Withdraw Canada's Bill C-22",
-      "url": "https://www.ourcommons.ca/petitions/en/Petition/Sign/e-7416",
-      "summary": "外部リンクに直接アクセスできないため、記事本文か要点を貼ってください。受け取れば200文字以内で日本語要約します。記事とHNコメントの両方をまとめることもできます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-11T15:37:23.000Z",
-      "contentHash": "5d7bfb6a65a6"
-    },
-    {
-      "id": "09151c752104",
-      "title": "Is Apple TV the new HBO?",
-      "url": "https://www.theverge.com/column/948295/apple-tv-new-hbo",
-      "summary": "Apple TV+は『Severance』『Pachinko』『Ted Lasso』などの看板作を重視する一方、利用者数は上位10に入らず小規模。Antennaは視聴が少数のヒット作に依存していると報告。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-11T15:30:00.000Z",
-      "contentHash": "88370783550c"
-    },
-    {
-      "id": "2ddb75950be3",
-      "title": "MiMo Code is now released and open-source",
-      "url": "https://mimo.xiaomi.com/mimocode",
-      "summary": "申し訳ありませんが、直接ウェブを取得できないため記事本文をこちらに貼っていただけますか？また、HNの議論も要約希望か教えてください。いただければ200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-11T14:27:19.000Z",
-      "contentHash": "5ad9525c3033"
-    },
-    {
-      "id": "2c63d795df9a",
-      "title": "Nextcloud Hub 26 Spring: Built together, designed for the future",
-      "url": "https://nextcloud.com/blog/nextcloud-hub26-spring/",
-      "summary": "リンク先には直接アクセスできません。記事本文を貼っていただくか、要点（例：新機能、リリース日、影響範囲）を指定してください。HNコメントも要約しますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-11T14:17:47.000Z",
-      "contentHash": "f3ef09d55be4"
-    },
-    {
-      "id": "4cfe633d1de7",
-      "title": "MapComplete: Maps about various topics which you can contribute to",
-      "url": "https://mapcomplete.org/",
-      "summary": "MapCompleteは、遊び場や木、ベンチ、アクセシビリティ等の特定テーマに特化した地図ベースの簡易入力フォームを作り、非専門家でもモバイルから構造化データをOpenStreetMapへ投稿できるオープンソースのフロントエンド。コミュニティ向けにカスタマイズ可能で使いやすさが評価されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-11T14:04:05.000Z",
-      "contentHash": "e23f39670817"
-    },
-    {
-      "id": "4baf45a6f3d2",
-      "title": "US-Canada border library gets new Quebec-only entrance",
-      "url": "https://www.bbc.com/news/videos/clyrvrde160o",
-      "summary": "申し訳ありませんが、外部リンクを直接開けません。記事や動画の本文・文字起こし、または要点をここに貼っていただければ、200文字以内で日本語要約を作成します。どの範囲を要約するか（本文のみ／コメント含む）も教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-11T13:42:42.000Z",
-      "contentHash": "6d1ad7443ccf"
-    },
-    {
-      "id": "b8e1a5449483",
-      "title": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
-      "url": "https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6",
-      "summary": "企業がAIを導入しても、実際は「ボッツィッティング」──人間がAIの監視・修正・ラベリングなどの目に見えない労働を担う。低賃金・過酷・不安定な仕事が増え、導入効果は過大宣伝されがちで、透明性や労働保護が求められている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-11T13:26:59.000Z",
-      "contentHash": "042df796c408"
-    },
-    {
-      "id": "7863add78999",
-      "title": "Show HN: Homebrew 6.0.0",
-      "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
-      "summary": "Homebrew 6.0.0を発表。5.1以降の主な変更は、tap信頼によるセキュリティ機構、新しく高速で小型の内部JSON API、Linuxでのサンドボックス、ユーザ調査に基づくデフォルト改善、brew bundleの多数改良、性能向上、macOS 27（Golden Gate）への初期対応です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-11T13:24:29.000Z",
-      "contentHash": "6034febe6d0d"
-    },
-    {
-      "id": "a17dd37c5dbe",
-      "title": "Open Reproduction of DeepSeek-R1",
-      "url": "https://github.com/huggingface/open-r1",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できません。URL先の記事本文を貼るか、主要ポイントを教えてください。いただければ200文字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-11T13:14:31.000Z",
-      "contentHash": "0976492f37b6"
-    },
-    {
-      "id": "88a88362de86",
-      "title": "Lines of code got a better publicist",
-      "url": "https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist/",
-      "summary": "すみません、現時点でそのURLの本文を直接取得できません。記事本文（または要点）をここに貼っていただけますか？貼っていただければ、200文字以内の日本語で要約します。HNのコメントも要約希望なら合わせて教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-11T12:26:42.000Z",
-      "contentHash": "3e859aaceef4"
     }
   ]
 }
