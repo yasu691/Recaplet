@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-07-04T03:39:35.062Z",
+  "generatedAt": "2026-07-04T10:18:03.918Z",
   "items": [
+    {
+      "id": "dfba6835e40b",
+      "title": "Qi fan fan",
+      "url": "https://www.theverge.com/tech/961332/qi-active-cooling-really-works",
+      "summary": "レビュー：Kuxiu D5はアクティブ冷却でQiスマホを冷やしつつ時計・イヤホンも同時充電。冷却により50W級の高出力ワイヤレス充電標準実現を後押しする可能性がある（著：Thomas Ricker）。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-04T07:00:00.000Z",
+      "contentHash": "41afa30b27da"
+    },
     {
       "id": "57ae9349133d",
       "title": "受託・SESエンジニアの新人教育の必要性とは？２つの理由を紹介！ | サイゼントの技術ブログ",
@@ -14,10 +23,10 @@
       "id": "0cb926f9ffc1",
       "title": "超伝導量子コンピュータのためのSパラメータを用いた大規模チップ設計手法を紹介 | fltech - 富士通研究所の技術ブログ",
       "url": "https://blog.fltech.dev/entry/2026/06/30/sparameter-quantum-ja",
-      "summary": "単一セルのSパラメータを抽出しCPWで接続する回路モデルで、量子ビット間結合Jijや緩和率Γを効率的に評価する手法を理研と共同で提案。フルEMより計算効率が高く、16〜256量子ビット規模へ適用可能と確認。",
+      "summary": "量子研究所の芝が理化学研究所と共同で超伝導量子コンピュータを開発。Fujitsu Quantum Day 2026でSパラメータを用いた大規模超伝導量子ビットチップ設計手法（IMS2025と同内容）を発表し、設計の難点と解析手法を解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-03T20:56:05.000Z",
-      "contentHash": "e847d6f69fb5"
+      "contentHash": "c8ee8f1c52db"
     },
     {
       "id": "5762e9515f24",
@@ -383,10 +392,10 @@
       "id": "0a6fd4a5d6ec",
       "title": "ロボットで重いものを運ぶときの電流制限とプログラム制御",
       "url": "https://note.com/npaka/n/nc6eb4684c4e5",
-      "summary": "ロボットで重物を扱う際は電流制限・トルクリミット・ゲイン調整が重要。電流増はトルク向上と引き換えに発熱や機構負荷を招くため、速度・加速度抑制、目標角の段階的変更、Kp/Kd調整、把持姿勢改善、監視・安全停止などソフト制御で無理を避けるべき。",
+      "summary": "ロボットが重物を扱う際は電流制限・トルクリミット・ゲイン調整（Kp/Kd）でモーター保護と安全を両立。速度・加速度低減、目標角度の段階的変更、姿勢や把持法の工夫、電流・温度監視と異常停止を組み合わせることが重要。",
       "source": "npaka",
       "publishedAt": "2026-07-02T23:41:01.000Z",
-      "contentHash": "ca6c7829fd2d"
+      "contentHash": "40498c87e075"
     },
     {
       "id": "ff393333ff44",
@@ -1373,10 +1382,10 @@
       "id": "4d943849a5f9",
       "title": "Claude Sonnet 5 の概要",
       "url": "https://note.com/npaka/n/n3c7cd783d3e9",
-      "summary": "Anthropicは2026年6月30日にエージェント性能を強化した新モデル「Claude Sonnet 5」を発表。Sonnet4.6より推論・ツール利用・コーディングが改善され、Opus4.8に近い性能を低コストで提供。effortで処理量とコストを調整可能。安全性は4.6より向上しサイバー保護がデフォルトだが、最上位モデルほどではない。",
+      "summary": "Anthropicは2026年6月、エージェント性能強化の新モデルSonnet 5を発表。計画やブラウザ・ターミナル等のツールで自律的な多段作業に対応し、Sonnet 4.6比で大幅改善、Opus 4.8に近い性能を低コストで実現。導入価格は入力100万トークン$2/出力$10（8/31迄）、以降$3/$15。effortで性能とコストを調整可能。安全性も向上しサイバー保護を標準搭載。",
       "source": "npaka",
       "publishedAt": "2026-06-30T21:59:24.000Z",
-      "contentHash": "54335acbe908"
+      "contentHash": "d6351555f176"
     },
     {
       "id": "40ce5abc8c70",
@@ -3146,10 +3155,10 @@
       "id": "6256373c8cca",
       "title": "GPT-5.6 Sol ・ Terra ・ Luna の概要",
       "url": "https://note.com/npaka/n/nd656159a93c3",
-      "summary": "GPT‑5.6の限定プレビューで、最上位Sol、日常向けTerra、低価格Lunaを発表。新しい推論とサブエージェントでコーディング・生物学・サイバー性能が向上。段階的公開と多層防御で悪用抑止し、防御支援を重視。",
+      "summary": "記事本文かリンクを貼ってください。確認して200文字以内で要約します。全文がない場合は、公開情報に基づく一般的な概要（想定される改善点や用途、性能・安全性の特徴）を代わりに作成することもできます。どちらがよいですか？",
       "source": "npaka",
       "publishedAt": "2026-06-26T20:24:58.000Z",
-      "contentHash": "fa7d404e1dfa"
+      "contentHash": "669443ee714d"
     },
     {
       "id": "12c7f80ddff4",
@@ -4172,10 +4181,10 @@
       "id": "e92525866286",
       "title": "Autodesk Flow Studio の無料オンラインセミナーやります",
       "url": "https://note.com/npaka/n/n342d4c6bcf16",
-      "summary": "7月15日15時、npaka氏による無料オンラインセミナー「Autodesk Flow Studio」開催。AIで実写人物を3DCG化し、モーションキャプチャやカメラトラッキング、Image-to-3Dやゲーム実装まで解説します。",
+      "summary": "7/15(水)15:00開催の無料オンラインセミナー「はじめてのAutodesk Flow Studio：AI映像制作の最前線をnpaka氏と検証」。Autodesk Flow Studioの概要と活用法をテック系クリエイターが解説（主催：ボーンデジタル）。",
       "source": "npaka",
       "publishedAt": "2026-06-24T23:40:17.000Z",
-      "contentHash": "9ec6779cbda3"
+      "contentHash": "c297bdf0a50d"
     },
     {
       "id": "e12455b2e819",
@@ -8991,15 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-06-15T19:04:53.000Z",
       "contentHash": "ab7f38e3e1e6"
-    },
-    {
-      "id": "504fb31b421c",
-      "title": "Around 200 Stanford students walk out as Google CEO takes stage",
-      "url": "https://www.sfgate.com/tech/article/sundar-pichai-stanford-commencement-22304888.php",
-      "summary": "サンダー・ピチャイ氏がスタンフォード卒業式で講演。AIや技術の影響力を認めつつ、好奇心と共感を持ち、倫理や規制を考慮して誰にとっても有益な技術を責任を持って作るよう卒業生に訴えた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-15T18:34:14.000Z",
-      "contentHash": "a3c3fb37cb2f"
     }
   ]
 }
