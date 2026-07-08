@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-07-08T03:37:35.588Z",
+  "generatedAt": "2026-07-08T10:40:46.071Z",
   "items": [
+    {
+      "id": "72d06f740068",
+      "title": "LeRobotのデータセット形式をロボット別に整理する",
+      "url": "https://note.com/npaka/n/n357667f5e0fd",
+      "summary": "LeRobotDataset v3.0は低次元データをParquet（data/）、カメラ画像をMP4（videos/）、メタ情報をmeta/に保存。ロボットごとにobservation.state・action・使用カメラが異なり、学習時は1フレーム単位で結合して辞書形式で扱います。",
+      "source": "npaka",
+      "publishedAt": "2026-07-08T09:52:38.000Z",
+      "contentHash": "4988afe0aa8e"
+    },
+    {
+      "id": "c5ac8a23c73c",
+      "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
+      "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+      "summary": "Akamaiの「Peace for All」Tシャツ（ユニクロ販売）の裏に、難読化されたbashスクリプト（base64のHere文字列をevalでデコードする自己評価型のイースターエッグ）が印刷されており、筆者が解読・購入、OCR転写の難しさや別デザインの文字切れも指摘した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-08T08:46:06.000Z",
+      "contentHash": "6f0863bebb19"
+    },
+    {
+      "id": "8d8030bbc6ef",
+      "title": "JavaScript エラー発生時に対応方法をバナーで自動表示する（翻訳） | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_07_08/158658",
+      "summary": "未処理のJavaScriptエラーをwindow.onerrorやunhandledrejectionで捕捉し、ページ上部にユーザー向けのエラーバナーを自動表示するErrorFeedbackクラスを紹介。UX改善とサポート削減に有効。コードはGitHub公開。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-08T08:30:43.000Z",
+      "contentHash": "9c8ee5aa991a"
+    },
+    {
+      "id": "7f31c83314d6",
+      "title": "Samsung will launch its new wide foldable on July 22nd",
+      "url": "https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july",
+      "summary": "Samsungは7月22日ロンドンでGalaxy Unpackedを開催。タグラインは「A new shape unfolds」。短く幅広い新フォルムの大型フォルダブルが噂され、Flip/Foldの新版（FoldはZ Fold 8 Ultraの可能性）や新Galaxy Watchも発表見込み。開始は7月22日9時ET。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-08T08:13:52.000Z",
+      "contentHash": "913163a60725"
+    },
+    {
+      "id": "f2208a07afbb",
+      "title": "「楽楽精算」AIエージェント実装で立ちはだかった3つの壁と突破の裏側 | RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20260703/aiagent",
+      "summary": "ラクスのAIエージェント開発課は、経費精算「楽楽精算」へ自動伝票作成AIを実装。コスト・精度・応答速度の三壁を、例示による学習、ルール連携のハイブリッド、イベント駆動等で突破し、共通LLM基盤や監視基盤を構築して他製品へ展開した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-08T08:09:12.000Z",
+      "contentHash": "e85501b486ad"
+    },
+    {
+      "id": "4ab083551ab1",
+      "title": "ProxySQL版Orchestrator v4.30の新機能 ProxySQLネイティブ連携を検証 | スマートスタイル TECH BLOG",
+      "url": "https://blog.s-style.co.jp/2026/07/16375/",
+      "summary": "ProxySQLがOrchestratorを引き継ぎ、v4.30でProxySQLネイティブ連携（フェイルオーバー時のHostgroup自動更新）、Kubernetes向け/healthエンドポイント、PostgreSQLストリーミング対応を追加。Kubernetes上でPercona Operator経由にて検証済みで、カスタムスクリプト不要化や運用負荷削減が期待される。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-08T08:00:32.000Z",
+      "contentHash": "c9d8955f2dc7"
+    },
+    {
+      "id": "d7082318a656",
+      "title": "[UE5]3分で花びらが散っているエフェクトを作る | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/64685/",
+      "summary": "UE5向けのチュートリアル3本を紹介。ポストプロセスで放射状ブラー素材を作る方法（2026/07/01）、Widget不要で設定画面を作るShowObjectDialogの使い方（2026/06/24）、初心者向けの色収差基本設定で画面を「エモく」する手法（2026/06/17）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-08T06:00:52.000Z",
+      "contentHash": "1c24b0e3e324"
+    },
+    {
+      "id": "dd07d509ef60",
+      "title": "React 画面を「コンポーネント情報つきの単一 HTML」に書き出す | DRESS CODE TECH BLOGのフィード",
+      "url": "https://zenn.dev/dress_code/articles/21459a654d28ac",
+      "summary": "Reactプロトタイプの画面を、サーバ不要で動く単一HTMLとして書き出し、各要素に「どのコンポーネント由来か」を埋め込む実装記録。Dexieのスナップショットで状態を固定し、AI可読かつ低コストでデザインの検討履歴を残せる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-08T05:40:05.000Z",
+      "contentHash": "1ddefac9e7a8"
+    },
+    {
+      "id": "cf7d6d2d79cf",
+      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "summary": "AnthropicのClaude Tagで「エージェントID」が可能になり、IAMはエージェントの識別・認証、権限委譲と最小権限適用、監査・トレーサビリティ強化、ポリシーや運用の見直しが必要になると論じる記事。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-08T05:25:35.000Z",
+      "contentHash": "fa3833e2177a"
+    },
+    {
+      "id": "5bb0400663c7",
+      "title": "AWS Cost and Usage Report（CUR）でKiroのユーザー別クレジット消費量を可視化する | MOTEX TECH BLOG",
+      "url": "https://tech.motex.co.jp/entry/2026/07/08/135145",
+      "summary": "AWS Cost and Usage Report（CUR）を利用し、クラウド運用ツールKiroのユーザー別クレジット消費量を取得・集計して可視化する手順と注意点を解説する記事です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-08T04:51:45.000Z",
+      "contentHash": "b5e57cfe6c3f"
+    },
+    {
+      "id": "2fa9ab06053f",
+      "title": "noteのレコメンド開発を支えるAIエージェント活用 | noteエンジニアチーム 公式マガジン",
+      "url": "https://engineerteam.note.jp/n/nd0bc1a5987f9",
+      "summary": "note社のAIプラットフォームエンジニア・漆山による、AI Engineering Summit Tokyo 2026での発表に対する質問回答記事。noteのレコメンド開発でのAIエージェント活用についての解説とアーカイブ視聴ページ（動画リンクあり）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-08T04:42:56.000Z",
+      "contentHash": "e99d8162cd40"
+    },
+    {
+      "id": "1bd6a547e4df",
+      "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
+      "url": "https://twitter.com/OpenAI/status/2074704958419792299",
+      "summary": "外部リンクを直接開けないため、そのツイート本文か要点、HNの重要なコメントをここに貼ってください。それをもとに200文字以内で日本語要約を作成します。必要なら元ツイートとコメント両方の要約も作れます。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-08T04:12:13.000Z",
+      "contentHash": "7d58e2ddc173"
+    },
+    {
+      "id": "d8aa048430a6",
+      "title": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)",
+      "url": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/",
+      "summary": "TrueNASを使わずに最小限のZFS NASを構築する実践ガイド。ZFS導入、プール・データセット設計、SMB/NFS共有、スナップショット・スクラブ、自動化スクリプト、バックアップやハードウェア注意点を解説。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-08T03:59:35.000Z",
+      "contentHash": "a1c69800119e"
+    },
     {
       "id": "6bf564c41aa1",
       "title": "「エンジニアのキャリアを知るナイト」に登壇してきました | SmartHR Tech Blog",
@@ -27,6 +144,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-08T02:31:01.000Z",
       "contentHash": "d106fb822c6b"
+    },
+    {
+      "id": "2c2c02b1d75b",
+      "title": "Is The Economist Always Wrong?",
+      "url": "https://www.economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong",
+      "summary": "エコノミスト紙の予測は本当に外れるのかを検証する記事。表紙や社説の過去予想をデータで分析し、挑発的で短期予測に誤りが多く、長期トレンドは比較的当たるが正確性は限定的だと結論づける。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-08T02:17:01.000Z",
+      "contentHash": "b194c4b2465a"
     },
     {
       "id": "2ce646841360",
@@ -83,6 +209,24 @@
       "contentHash": "3214a6192d16"
     },
     {
+      "id": "7a2f4d3bf3ef",
+      "title": "Tenda firmware (multiple versions) contains hidden authentication backdoor",
+      "url": "https://kb.cert.org/vuls/id/213560",
+      "summary": "Tendaの複数ファームに未公開の認証バックドア（CVE-2026-11405）。/bin/httpdのlogin()が失敗時にsys.rzadmin.passwordを平文比較し一致で管理者(role=2)を付与。ユーザー名は問わず全権限取得でき、機器再設定やセキュリティ無効化が可能。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-08T00:08:51.000Z",
+      "contentHash": "881ed6fdcd93"
+    },
+    {
+      "id": "dc57ab8dfd78",
+      "title": "Structure and Interpretation of Computer Programs Video Lectures (1986)",
+      "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
+      "summary": "Hal AbelsonとGerald Jay Sussmanが1986年にHP向けに行った全20回の講義映像。SICP第1版に基づきプロ制作で公開、商用可CCで配布。手続き、抽象データ、状態、評価器、コンパイラなどを網羅。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-07T23:57:29.000Z",
+      "contentHash": "ff96f00e10e5"
+    },
+    {
       "id": "3f32262a31b3",
       "title": "Meta’s glasses will turn off the camera if you tamper with the privacy light",
       "url": "https://www.theverge.com/gadgets/962514/meta-privacy-light-tampering-smart-glasses-update",
@@ -95,10 +239,19 @@
       "id": "d43a216c0d25",
       "title": "LeRobot v0.6.0 の 学習用GPUガイド - ポリシー別のVRAM目安とクラウド実行方法",
       "url": "https://note.com/npaka/n/naf1aec4456cf",
-      "summary": "LeRobot v0.6.0のGPUガイド：ポリシー別VRAM目安（Light 2–6GB、Diffusion 8–14GB、Small VLA 10–16GB、Large/Multimodal 24–40GB）。不足時はバッチ削減・勾配蓄積・視覚エンコーダ固定で対応。学習時間は総フレーム数・バッチ・GPU数で見積もる（例：50話≈45kフレーム）。",
+      "summary": "LeRobot v0.6.0のCompute HW Guideは、ポリシー別VRAM目安（Light BC 2–6GB、Diffusion 8–14GB、Small VLA 10–16GB、Large/Multimodal 24–40GB）、VRAM不足時の対処（バッチ縮小、勾配蓄積、視覚エンコーダ凍結）、学習時間の見積り方法と実行先指針を示します。",
       "source": "npaka",
       "publishedAt": "2026-07-07T23:52:50.000Z",
-      "contentHash": "cf0ef395b33a"
+      "contentHash": "7f89f2a28fe0"
+    },
+    {
+      "id": "0656c25ec2cb",
+      "title": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup",
+      "url": "https://www.gao.gov/products/gao-26-108193",
+      "summary": "GAOはDOEの環境管理局が大型プロジェクトのミッションニーズ文書でしばしば特定の解決策を示し、代替案やコスト削減策が排除されると指摘。法規制や請負業者の関与も影響し、承認前に独立専門家を参画させるよう勧告している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-07T22:23:58.000Z",
+      "contentHash": "3c9b87b558cd"
     },
     {
       "id": "718442ff55c6",
@@ -113,10 +266,28 @@
       "id": "2671f7ae2b26",
       "title": "Netflix is about to host videos from BuzzFeed, Condé Nast, and other publishers",
       "url": "https://www.theverge.com/streaming/962528/netflix-digital-media-brands-streaming",
-      "summary": "Netflixは8月3日からBuzzFeedやCondé Nast、Hearst、People、Tastemadeなど多数のデジタル媒体の動画配信を開始。YouTube等で公開された過去動画や新シリーズ（例：Architectural Digestの「Open Door」、Vanity Fairの「Lie Detector Test」）をNetflix内で視聴可能にする。",
+      "summary": "Netflixは8月3日からBuzzFeed、Condé Nast、Hearst、People、Tastemadeなど多数のデジタル媒体の過去動画や新シリーズを配信し、YouTube等のネット動画をNetflix内で視聴可能にする。",
       "source": "The Verge",
       "publishedAt": "2026-07-07T21:37:19.000Z",
-      "contentHash": "3f4d7d660989"
+      "contentHash": "234b7b24428c"
+    },
+    {
+      "id": "7d6be6827162",
+      "title": "Every new car sold in the European Union must include a driver monitoring camera",
+      "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
+      "summary": "EUが新車に運転者の居眠り・注意散漫を検知する車内監視システム（車内カメラ等）を義務化予定。安全性向上が狙いだが、映像や行動データの収集・処理でプライバシーと透明性の懸念がある。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-07T20:50:46.000Z",
+      "contentHash": "60fd75d9425c"
+    },
+    {
+      "id": "a2f59f13ddf6",
+      "title": "We charge $10k a week to delete AI-generated code",
+      "url": "https://odra.dev/slopfix/",
+      "summary": "AI生成で肥大化したコードを無償診断し、削減目標を約束して一週間・上級3名でリファクタ。固定$10k、未達は達成度に応じて支払、2週間保証、sccで行数計測。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-07T20:35:42.000Z",
+      "contentHash": "8628b81b298b"
     },
     {
       "id": "779fe69a19a6",
@@ -329,10 +500,10 @@
       "id": "5ac5f5d7badc",
       "title": "LeRobot v0.6.0 の概要",
       "url": "https://note.com/npaka/n/n7776f13be5ef",
-      "summary": "LeRobot v0.6.0は「Imagine/Evaluate/Improve」を掲げ、ワールドモデル系ポリシー（VLA-JEPA, LingBot-VA, FastWAM）やVLA拡充（GR00T N1.7等）、報酬モデル、シミュ評価、データセット／学習・推論ワークフロー強化により改善ループを支援します。",
+      "summary": "LeRobot v0.6.0は「Imagine・Evaluate・Improve」のワークフローを軸に、想像・評価・改善のサイクルを強化したアップデート。使い勝手向上や安定化、バグ修正などを含む概要をまとめています。",
       "source": "npaka",
       "publishedAt": "2026-07-07T09:43:27.000Z",
-      "contentHash": "72968766aa77"
+      "contentHash": "01a993e70e5b"
     },
     {
       "id": "010c088ddeaa",
@@ -2885,19 +3056,19 @@
       "id": "4d943849a5f9",
       "title": "Claude Sonnet 5 の概要",
       "url": "https://note.com/npaka/n/n3c7cd783d3e9",
-      "summary": "Anthropicは2026年6月30日、エージェント性能強化の新モデル「Claude Sonnet 5」を発表。計画立案やブラウザ等ツールの自律利用、推論やコーディングが向上し、Opusに近い性能を低コストで提供（導入価格：入力$2/出力$10／1Mトークン、以降$3/$15）。effortで処理深度とコストを調整可能。Sonnet4.6より安全性は改善したが最上位には及ばない。",
+      "summary": "記事「Introducing Claude Sonnet 5」が面白かったため、その内容を簡潔にまとめた紹介文。詳細は「続きを読む」で確認できる旨を伝えている。",
       "source": "npaka",
       "publishedAt": "2026-06-30T21:59:24.000Z",
-      "contentHash": "f78f7a6b94b9"
+      "contentHash": "07568f052f9e"
     },
     {
       "id": "40ce5abc8c70",
       "title": "Nano Banana 2 Lite と Gemini Omni Flash の概要",
       "url": "https://note.com/npaka/n/neccb293a0236",
-      "summary": "2026年6月30日、GoogleがGemini APIとAI Studioで「Nano Banana 2 Lite」（高速・低コストの画像生成、4秒出力、1K枚0.034ドル）と「Gemini Omni Flash」（マルチモーダル対応の高品質動画生成・会話型編集、現状10秒制限などの制約あり）を提供開始しました。",
+      "summary": "記事は「Nano Banana 2 Lite」と「Gemini Omni Flash」での開発開始を紹介しており、面白かったため簡潔にまとめたもの。続きを読むリンクが付いている。",
       "source": "npaka",
       "publishedAt": "2026-06-30T21:42:25.000Z",
-      "contentHash": "3663ee5cdc6b"
+      "contentHash": "460408ecc5ff"
     },
     {
       "id": "a29b2b081c3e",
@@ -8829,177 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-06-18T14:49:44.000Z",
       "contentHash": "ae7f9fa9efc5"
-    },
-    {
-      "id": "599f65d366eb",
-      "title": "What was nice about the UI of Windows 2000",
-      "url": "https://movq.de/blog/postings/2026-06-16/0/POSTING-en.html",
-      "summary": "申し訳ありませんが外部リンクに直接アクセスできません。記事本文を貼るか主要段落を教えていただけますか？いただければ200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-18T14:45:43.000Z",
-      "contentHash": "d94810693e14"
-    },
-    {
-      "id": "53e56391ad83",
-      "title": "Google Calendar finally has more color options for events",
-      "url": "https://www.theverge.com/tech/952123/google-calendar-event-color-options-expansion",
-      "summary": "Googleカレンダーのイベント色が従来の11色から最大200のカスタム色へ拡張されました。デフォルトは24色に増え、RGBピッカーも利用可能。Web・モバイル・APIで提供され、6月18日から段階的に展開、Workspaceや個人アカウントで利用できます。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-18T14:32:16.000Z",
-      "contentHash": "5f6921b48af1"
-    },
-    {
-      "id": "971b8f8a79a4",
-      "title": "Ubiquiti: Enterprise NAS, Built on ZFS",
-      "url": "https://blog.ui.com/article/introducing-enterprise-nas",
-      "summary": "申し訳ありませんが、外部リンク先のページを直接参照できません。記事本文をここに貼り付けていただければ、200文字以内で日本語要約を作成します。コメントもまとめたい場合は、それも併せて貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-18T14:24:30.000Z",
-      "contentHash": "667a6a421ee6"
-    },
-    {
-      "id": "401e848fd98a",
-      "title": "The midterms are going to be a data security nightmare",
-      "url": "https://www.theverge.com/policy/952167/voter-rolls-privacy-election-save-program",
-      "summary": "2026年中間選挙を前に、米国土安全保障省のSAVE制度拡大が非市民の投票摘発を名目に有権者データを一元化。専門家は誤判定で失権や流出・脅迫を招くと警告し、問題はほとんど存在せず連邦の権限も疑問視される。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-18T14:21:37.000Z",
-      "contentHash": "c06d7b362dd3"
-    },
-    {
-      "id": "693372a64b24",
-      "title": "Swiss parliament lifts ban on new nuclear power plants",
-      "url": "https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html",
-      "summary": "スイス議会は新規原子力発電所の建設禁止を撤廃しました。エネルギー安全保障や脱炭素の観点で再検討する一方、安全性や放射性廃棄物処理への懸念は残り、建設は今後の許認可次第です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-18T14:17:07.000Z",
-      "contentHash": "c99840c0ba16"
-    },
-    {
-      "id": "70e8b2d2f403",
-      "title": "Wages in America Are Too Low for the 30% Rule to Work for Renters Anymore",
-      "url": "https://www.realtor.com/advice/rent/wages-in-america-are-too-low-for-the-30-rule-to-work-for-renters-anymore/",
-      "summary": "米国では賃金の伸びが家賃に追いつかず、「収入の30%ルール」が現実に合わなくなっている。多くの入居者が30%超を家賃に費やし、地域・所得で負担差が拡大。賃上げや住宅供給拡大、補助や規制などの政策対応が必要と指摘している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-18T13:21:28.000Z",
-      "contentHash": "9a73a19ca379"
-    },
-    {
-      "id": "9abba6b75997",
-      "title": "Has W Social switched to closed source?",
-      "url": "https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/",
-      "summary": "申し訳ありませんが外部URLに直接アクセスできません。記事本文を貼っていただくか、主要ポイントを教えてください。いただければ200文字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-18T12:46:04.000Z",
-      "contentHash": "9e7654142261"
-    },
-    {
-      "id": "d5a5be699b48",
-      "title": "Microsoft new Outlook takes 10 seconds to do what Outlook Classic does instantly",
-      "url": "https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows/",
-      "summary": "Windows Latestは、Microsoftの新しいOutlook（Windows版）が従来のOutlookで瞬時にできる操作を約10秒かけて行い、起動・検索・表示で遅延や高負荷が生じていると報告。強制移行にユーザーが不満を漏らし、改善や旧版への戻しを求めている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-18T12:19:05.000Z",
-      "contentHash": "bd1bd5497e43"
-    },
-    {
-      "id": "7677b02de833",
-      "title": "「snowを叩くたびにブラウザに飛ばされる」を、Snowflake推奨の方式のまま消したい | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/0018-snowflake-claude-code-snow-cli-auth",
-      "summary": "snow CLIをClaude Codeで連続実行すると毎回ブラウザでOAuthログインを要求される。原因はトークン保存が無くリフレッシュされないため。公式は対話型にOAuthを推奨しており、推奨方式を維持したままトークンキャッシュ等で都度ログインを止める設定を検証する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-18T12:12:01.000Z",
-      "contentHash": "5c941bb35cae"
-    },
-    {
-      "id": "7361c29f8ffe",
-      "title": "Emacs 31 is around the corner: The changes I'm daily driving",
-      "url": "https://www.rahuljuliato.com/posts/emacs-31-around-the-corner",
-      "summary": "すみません、外部URLに直接アクセスできません。記事本文を貼っていただければ、200文字以内で日本語要約を作成します。HNコメントの要約も必要なら一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-18T12:10:53.000Z",
-      "contentHash": "3d61c15a7d4f"
-    },
-    {
-      "id": "d2b4a784ba08",
-      "title": "I found 10k GitHub repositories distributing Trojan malware",
-      "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
-      "summary": "調査で多数のGitHubリポジトリがマルウェア（スティーラー、RAT、マイナー等）を配布していることを示す報告。生ファイルやリリース、Actionsの悪用、難読化で検知を回避し、発見・削除の遅さが問題。具体例と検出・運用上の対策を挙げ、プラットフォーム側の改善を訴えている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-18T11:45:43.000Z",
-      "contentHash": "ce19b48645bb"
-    },
-    {
-      "id": "5a0a74813a08",
-      "title": "Modos Color Monitor Pushes E-Paper Displays Further",
-      "url": "https://spectrum.ieee.org/modos-e-paper-monitor",
-      "summary": "すみません、外部サイトに直接アクセスできません。記事本文を貼るか主要箇所を教えていただければ、200字以内で日本語要約します。コメントの要約も必要ですか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-18T11:41:21.000Z",
-      "contentHash": "b4b6e273023e"
-    },
-    {
-      "id": "18abbe4963ef",
-      "title": "Google Workspace 2026年下期セキュリティ設定見直しガイド｜DBSC・AI control center・監査ログ拡張を「管理コンソールの棚卸し」に落とす | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/google-workspace-security-settings-review-2026-h2/",
-      "summary": "Google Workspaceは2026年、DBSC（Chrome/WindowsでGA・既定有効）、AI control center、全SAMLアプリへの既定CAA、MCPサーバ、監査ログ拡張などを導入。管理者は管理コンソールを棚卸し、DBSCとCAAを組合せた設計やエージェントアクセス管理、拡張ログの能動的監視運用へ移行する必要がある。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-18T11:33:00.000Z",
-      "contentHash": "4f62041f2c93"
-    },
-    {
-      "id": "9f4dbdd37bfa",
-      "title": "Improving health intelligence in ChatGPT",
-      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "summary": "GPT-5.5 Instantは推論力・文脈把握・表現の明瞭化を強化し、医師の視点を取り入れた評価によりChatGPTの健康・ウェルネス関連応答を改善します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-06-18T11:00:00.000Z",
-      "contentHash": "92ae78d7a0b6"
-    },
-    {
-      "id": "e18dd35b8f7b",
-      "title": "[Claude Code] SkillとPluginが内部でどう読み込まれているのか、実際のファイルを覗いてみた | NCDC テックブログのフィード",
-      "url": "https://zenn.dev/ncdc/articles/d39bf5c31e0fe8",
-      "summary": "Claude CodeのSkillは指示書を格納したフォルダで、実体はYAMLフロントマター＋本文のSKILL.md。スコープはユーザ（~/.claude/skills）とプロジェクト（.claude/skills）で優先度はProject>User>Enterprise。起動時は各SKILL.mdのname/descriptionだけを読み取り<available_skills>に登録する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-18T09:18:20.000Z",
-      "contentHash": "a058337e09f1"
-    },
-    {
-      "id": "cd38287bfe86",
-      "title": "VMとロードバランサを使ってたインフラ系エンジニアが、AKSのネットワークに入門したら | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/06/18/180000",
-      "summary": "AKSのネットワークはService（不変の仮想IPを持つL4ロードバランサ）とIngress（ルール定義のリソースと動作するIngress Controller）が中心。ネットワークモデルはAzure CNIオーバーレイ推奨、従来のAzure CNIやKubenetも選べる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-18T09:00:00.000Z",
-      "contentHash": "c9691f63e507"
-    },
-    {
-      "id": "ab53f70b54bf",
-      "title": "Datadog DASH 2026に参加してきました！ | Timee Product Team Blog",
-      "url": "https://tech.timee.co.jp/entry/2026/06/18/180000",
-      "summary": "タイミーのPlatform Engineerが2026年6月9〜10日にNYで開かれたDatadog DASH 2026に参加。MLOpsの斎藤が「How Timee Delivers Day 1 Production Ready LLM Features」で登壇。記事はKeynote概要、登壇内容、Fireside Chatの要点を報告します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-18T09:00:00.000Z",
-      "contentHash": "b907cbd320bb"
-    },
-    {
-      "id": "e62bc476d1f5",
-      "title": "【イベントレポート】InteropTokyo2026～AIセキュリティとAI駆動開発の今を探る～ | TechHarmony",
-      "url": "https://blog.usize-tech.com/interop-tokyo-2026-report-ai/",
-      "summary": "6月10〜12日開催の国内最大級ICTイベント「Interop Tokyo 2026」（幕張）に6月11日参加。今回の参加テーマは「AIセキュリティ」と「AI駆動開発」でした。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-18T08:51:02.000Z",
-      "contentHash": "f64447aecd01"
-    },
-    {
-      "id": "58eeb22a3fff",
-      "title": "Claude Code の VS Code 拡張で個人設定を見せずにデモしたい ── CLAUDE_CONFIG_DIR で設定を分離する | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/claude-code-vscode-demo-config-separation",
-      "summary": "環境変数 CLAUDE_CONFIG_DIR を使って Claude Code の設定ディレクトリをデモ用に切り替え、個人設定を無視する方法を紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-18T08:32:08.000Z",
-      "contentHash": "9e619fdc7813"
     }
   ]
 }
