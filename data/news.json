@@ -1,14 +1,50 @@
 {
-  "generatedAt": "2026-07-11T03:35:04.390Z",
+  "generatedAt": "2026-07-11T09:46:32.386Z",
   "items": [
+    {
+      "id": "ef635b6afb70",
+      "title": "Are you filthy enough for a $700 portable shower? ",
+      "url": "https://www.theverge.com/reviews/963814/joolca-hottap-portable-shower-review",
+      "summary": "オーストラリアJoolcaの高級携帯シャワーHottap Goは12L内蔵タンクで外部容器や長いホース不要。温度になるまで水を循環して冷水ショックを防ぎ節水。キャンプやバンライフでの快適な温シャワーとして高価格を正当化する製品だ。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-11T07:00:00.000Z",
+      "contentHash": "7608ad0b90bf"
+    },
+    {
+      "id": "0342adce8d45",
+      "title": "新規作成する AWS Organizations 組織に組織離脱を防ぐ SCP が自動付与されるようになりました | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/20260711_DenyLeaveAndCloseAccount",
+      "summary": "2026年7月10日付で、コンソールから全機能有効な新規AWS Organizationsを作成すると、組織離脱・解約を防ぐSCP（DenyLeaveAndCloseAccount）が自動作成・Rootへアタッチされるようになりました。適用には organizations:EnablePolicyType、CreatePolicy、AttachPolicy 権限が必要です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-11T06:16:05.000Z",
+      "contentHash": "351dd9b8cfc8"
+    },
+    {
+      "id": "bb17f72aa509",
+      "title": "Tsurugi DB 入門",
+      "url": "https://note.com/npaka/n/na6f0f10f96e6",
+      "summary": "国産オープンソースRDB「Tsurugi DB」はメニーコアCPUと大容量メモリ向けに最適化され、短時間のオンライン処理と長時間バッチ処理を共存可能にします。記事はDockerでの起動、Python(tsurugi-dbapi)での接続、テーブル作成・CRUD、トランザクション操作（DDL後もcommitが必須）を手順付きで解説しています。",
+      "source": "npaka",
+      "publishedAt": "2026-07-11T06:05:06.000Z",
+      "contentHash": "65f6022404f7"
+    },
     {
       "id": "25f74853b9a4",
       "title": "DoraのデータフローYAMLを可視化する方法",
       "url": "https://note.com/npaka/n/nb81c322a6f49",
-      "summary": "Doraはノード間接続をYAMLで定義するデータフロー・ミドルウェア。規模が大きくなると可視化が必須になるため、YAMLをMermaidやGraphvizに変換してフローチャートやグラフ（SVG/PNG）を生成する手順を解説しています。",
+      "summary": "Doraはノード間のデータフローをYAMLで定義するミドルウェア。複雑化する構成を可視化するため、MermaidでMarkdown内に手軽に図化、Graphvizで自動レイアウトや色分け・グループ化して大規模構成を描画する手順（YAML→mmd/dot→SVG）を紹介しています。",
       "source": "npaka",
       "publishedAt": "2026-07-11T02:43:35.000Z",
-      "contentHash": "a3942c3c2dfc"
+      "contentHash": "16e6fa565d4e"
+    },
+    {
+      "id": "656413159da6",
+      "title": "Microsoft Agent Framework - ハーネスエージェントを作ってみる | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/4bf7d7b6cf1ce4",
+      "summary": "Microsoft Agent Frameworkのpython-1.11.0でcreate_harness_agentが追加され、チャットクライアントを渡すだけでTODO管理や計画/実行モード、Web検索等を備えたエージェントを自動生成可能に。記事は前提（Agent Framework 1.10、Foundryデプロイ）、.envによるAzure OpenAI設定、最小構成のコード例と、計画をファイル保存して実行承認を求める動作例を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-11T02:19:50.000Z",
+      "contentHash": "698ab5be2daa"
     },
     {
       "id": "06f11f2e891d",
@@ -41,10 +77,10 @@
       "id": "77d7ff9dffda",
       "title": "Einstein's relativity rules chemical bonds in heavy elements, new research shows",
       "url": "https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity",
-      "summary": "ブラウン大学の研究で、ビスマスなど重元素では電子が相対論的に速くなるため三重結合の構造が変わり、教科書にあるσ結合とπ結合の区別がぼやけることを光電子分光で直接実証した。",
+      "summary": "リンク先の本文を直接参照できないため、要約するには記事本文（またはタイトルと主要ポイント）を貼り付けてください。Hacker Newsの議論要約でも良ければ、その旨を教えてください。",
       "source": "Hacker News",
       "publishedAt": "2026-07-10T22:30:44.000Z",
-      "contentHash": "23f8321cccad"
+      "contentHash": "9c8e6eb1427a"
     },
     {
       "id": "7231fadcded6",
@@ -59,37 +95,37 @@
       "id": "d3401a623770",
       "title": "Apple sues OpenAI, accusing it of stealing company secrets",
       "url": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html",
-      "summary": "申し訳ありませんが、外部リンク先の全文に直接アクセスできません。記事の本文を貼っていただくか、主要段落をコピペしていただけますか？（HNコメントも要約する場合はそちらもお願いします。）または、限定的な一般知識に基づく推測要約を希望するか教えてください。",
+      "summary": "申し訳ありませんが、外部リンク先の記事を直接開けません。記事本文（または主要段落・要点）をここに貼り付けていただければ、200文字以内の日本語要約を作成します。Hacker Newsのコメント要約も可能です。語調の希望（簡潔・解説風など）があれば教えてください。",
       "source": "Hacker News",
       "publishedAt": "2026-07-10T21:20:29.000Z",
-      "contentHash": "34de4e684a80"
+      "contentHash": "8955f56b52b4"
     },
     {
       "id": "24fd53f66cfc",
       "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
       "url": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
-      "summary": "TryAIがGPT‑5.6（Sol/Terra/Luna）をGrok 4.5、Claude、MetaのMuse Sparkやオープン重みモデルと比較。レイキャスター、ルービックキューブ、電卓、ライフゲームの4アプリを各モデルで実装し、5回ずつ試行して性能・コスト・レイテンシを測定した。",
+      "summary": "すみません、外部サイトに直接アクセスできません。記事本文を貼り付けるか主要ポイントを教えていただければ、200文字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-07-10T20:52:28.000Z",
-      "contentHash": "f59ffdb62ed1"
+      "contentHash": "681e29cf1648"
     },
     {
       "id": "ba0dc24cfcb7",
       "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
       "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
-      "summary": "記事本文を貼っていただけますか？見出しだけでは正確な要約ができません。本文をいただければ200文字以内で要約します。",
+      "summary": "AppleがOpenAIを提訴。ChatGPTなどがAppleの著作物や機密情報を無断で学習・生成に利用したと主張し、利用差止め・削除・損害賠償を求める。OpenAIは争う方針。",
       "source": "Hacker News",
       "publishedAt": "2026-07-10T20:47:09.000Z",
-      "contentHash": "1e63fed9a58a"
+      "contentHash": "8a496f36040d"
     },
     {
       "id": "f530ca46d4fb",
       "title": "Please don't discontinue Gemini 2.5 Flash",
       "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
-      "summary": "Gemini 2.5 Flashの廃止を避けてほしいという要望。内部ベンチや利用者は2.5が低遅延・高性能でコストも抑えられ、3系は遅延増・費用高・品質面で劣るため、特に豪州の音声エージェントで不可欠と訴えている。",
+      "summary": "ユーザーがGemini 2.5 Flashの提供中止に反対し、低遅延・低コストで実用的なため継続提供または同等の代替や移行支援を求める。HNなどの議論では賛同や事業判断への理解、代替案の提案が交わされた。",
       "source": "Hacker News",
       "publishedAt": "2026-07-10T20:00:28.000Z",
-      "contentHash": "28688e05a053"
+      "contentHash": "ea9625a19406"
     },
     {
       "id": "13ba5092922a",
@@ -104,19 +140,19 @@
       "id": "990b9963a2e2",
       "title": "An update on residential proxies and the scraper situation",
       "url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
-      "summary": "AI学習用データ収集のスクレイピングが増大しサイトを過負荷に。攻撃は数百万の住宅・モバイル回線を制御ノードで操る「residential proxies」経由で行われ、人間風を装い検知やブロックが難しい。",
+      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文を貼るか、主要部分をコピーして送っていただけますか？あるいは要約してほしい箇所を教えてください。",
       "source": "Hacker News",
       "publishedAt": "2026-07-10T19:38:34.000Z",
-      "contentHash": "7525f6f3f936"
+      "contentHash": "5ab7b191e2b0"
     },
     {
       "id": "0c4f01003d03",
       "title": "Mayor Mamdani announces \"Click-to-Cancel\" rules",
       "url": "https://www.nyc.gov/mayors-office/news/2026/07/mayor-mamdani-announces-landmark--click-to-cancel--consumer-prot",
-      "summary": "ニューヨーク市長マムダニ氏は、初の自治体「ワンクリック解約」規則と総額表示で隠れ手数料やサブスク罠を禁止する新ルールを発表。解約を登録と同等に簡単にし、年間最大1億6250万ドルの節約を見込む。",
+      "summary": "ニューヨーク市長マムダニが「ワンクリックで解約」消費者保護策を発表。オンラインやアプリで簡単に解約できるボタン設置を義務化し、解約妨害や不透明な自動更新を禁止、違反には罰則を科し市が監視・執行する。",
       "source": "Hacker News",
       "publishedAt": "2026-07-10T19:30:12.000Z",
-      "contentHash": "e08992019e69"
+      "contentHash": "e8916911276f"
     },
     {
       "id": "242808a891bd",
@@ -131,28 +167,28 @@
       "id": "47d40526e3a1",
       "title": "How the terrorist group Boko Haram uses frontier AI",
       "url": "https://casp.ac/reports/ai-enabled-terrorism",
-      "summary": "リンク先に直接アクセスできないため、記事本文を貼るか要点を教えてください。貼っていただければ200字以内で日本語要約します。",
+      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。記事全文か主要段落を貼っていただければ、200文字以内で日本語要約します。全文が長ければ要点だけでも構いません。",
       "source": "Hacker News",
       "publishedAt": "2026-07-10T18:49:26.000Z",
-      "contentHash": "dedc46205393"
+      "contentHash": "22466182b9f1"
     },
     {
       "id": "66bbdd7828c6",
       "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
       "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
-      "summary": "外部リンクに直接アクセスできないため、元記事の本文（または重要な抜粋）を貼ってください。複数リンクがありますが、どれを要約しますか？貼っていただければ200文字以内で日本語要約します。",
+      "summary": "申し訳ありませんが、外部リンクを直接開けません。記事本文か主要部分を貼り付けていただければ、200文字以内で日本語要約を作成します。必要ならHNの議論要約も対応します。",
       "source": "Hacker News",
       "publishedAt": "2026-07-10T18:29:19.000Z",
-      "contentHash": "9d7aa0a6799b"
+      "contentHash": "94ae63a74ccd"
     },
     {
       "id": "3bdd4de3beb1",
-      "title": "New York City to to ban deceptive subscription practices",
+      "title": "New York City to ban deceptive subscription practices",
       "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
-      "summary": "ニューヨーク市は米国初の欺瞞的サブスク慣行禁止規則を採用。10月1日施行で解約を簡単にしない企業に利用者ごと最大525ドルの罰金や未収金返還を科し、必須の追加料金も総額表示を義務化。",
+      "summary": "申し訳ありませんが、外部リンク先のページを直接参照できません。記事本文を貼っていただくか、主要ポイント（見出し・日時・発表内容など）を教えてください。200文字以内で要約してお返しします。",
       "source": "Hacker News",
       "publishedAt": "2026-07-10T18:26:24.000Z",
-      "contentHash": "e85bcc9a73d9"
+      "contentHash": "58a66083c259"
     },
     {
       "id": "3839887e5ca5",
@@ -185,10 +221,10 @@
       "id": "fbd6ba2fa64f",
       "title": "Here’s how to make study notebooks in the Gemini app.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
-      "summary": "Geminiアプリの新機能「Study Notebooks」は、個別学習スペース。学びたい内容を伝えると、得意・苦手に合わせた短いレッスンと確認クイズを作成し、ダッシュボードで進捗・優先項目を管理。効率的に習得できる。使い方は動画で紹介。",
+      "summary": "テスト勉強の始め方に迷う人向け。Geminiアプリの新機能「Study notebooks」が、学習の整理と効率化をサポートします。",
       "source": "Gemini",
       "publishedAt": "2026-07-10T16:00:00.000Z",
-      "contentHash": "bc0273a18d81"
+      "contentHash": "64df5e0b1b2f"
     },
     {
       "id": "39404e835ddc",
@@ -239,10 +275,10 @@
       "id": "33873a7baaa2",
       "title": "パスキー利用状況レポート @ マネーフォワード ID (vol.10, Jul 2026) | Money Forward Developers Blog",
       "url": "https://moneyforward-dev.jp/entry/2026/07/10/passkey-report-vol10",
-      "summary": "マネーフォワードIDの2026年7月時点でパスキー約340万件。OS比率はiOS66％、Android17％、macOS9％、Windows7％。認証利用率はiOS60％、Android60％、macOS65％、Windows47％。新規登録でパスキー選択は約30％、スマホ中心のサービスではパスワード登録が7％未満。サインアップ・リセット・セットアップ導線が登録の過半を占める。",
+      "summary": "マネーフォワードID開発チームがパスキー利用状況を報告。Vol.9以降パスキーのみの登録導線が好調で、パスワード生成時にも代替登録経路を拡大。2026年7月時点で約340万件のパスキーが登録されています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-10T12:00:00.000Z",
-      "contentHash": "a3321d62bd0d"
+      "contentHash": "46d38e16663a"
     },
     {
       "id": "8ce2555398e1",
@@ -266,55 +302,55 @@
       "id": "d88d9939e23c",
       "title": "AWS Security Agentコードレビュー機能(preview)を試してみた | Fenrir Engineers",
       "url": "https://engineers.fenrir-inc.com/entry/2026/07/10/195027",
-      "summary": "AWS Summit参加報告。AWS Security Agentのコードレビュー機能(preview)を試用。設計レビュー・脅威モデリング・コードレビューはpreviewで無料枠があり、PR自動コメントや修正PR作成機能を提供。ペネトレーションテストはGAで従量課金(約$1,200想定)。東京リージョンで利用可。",
+      "summary": "クラウドネイティブ技術部の平田がAWS Summit Japan 2026に2年連続参加。全冠は達成したがAIP未取得で金扇子は逃す。会場は生成AI一色で、AI駆動開発やAgent関連（Amazon Bedrock AgentCore等）の話題が多数で熱気に満ちていた。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-10T10:50:27.000Z",
-      "contentHash": "141e324704e0"
+      "contentHash": "d8084a853416"
     },
     {
       "id": "661b4450cbd1",
       "title": "Python SDK x インスタンス・プリンシパルでOCI上にVM構築 | スマートスタイル TECH BLOG",
       "url": "https://blog.s-style.co.jp/2026/07/16421/",
-      "summary": "OCI Python SDKとインスタンス・プリンシパルを使い、認証情報をコードに持たせずにOracle Cloud上へOracle Linuxのコンピュートを自動プロビジョニングする手順を解説。前提、SDK導入、動的グループ／ポリシー設定、認証コードの変更点を紹介。",
+      "summary": "クラウドインフラをコンソールで手作業構築すると直感的だが、スケールや定期構築で人為ミスや運用負荷が増す。そこで自動化やIaCで標準化・再現性向上を図る必要性を述べる記事。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-10T08:47:32.000Z",
-      "contentHash": "1e4a2b65886c"
+      "contentHash": "c8a6ba39d646"
     },
     {
       "id": "a6700cd4913e",
       "title": "Rails: バックエンド開発者が Tailwind で失敗しないための5つのコツ（翻訳） | TechRacho",
       "url": "https://techracho.bpsinc.jp/hachi8833/2026_07_10/158507",
-      "summary": "Rails開発者向けTailwindの5つのコツ：カードは薄い境界線と大きめ角丸・小さめ影、背景は薄灰で白カードを浮かせる、色で階層化、補助操作は控えめ、間隔と統一感を大切に。",
+      "summary": "Zil Norvilisの英語記事を翻訳。RailsでTailwindを使うバックエンド開発者向けに、空のビューを高級感あるUIにするための5つの簡単なコツを紹介しています（TechRacho掲載、2026/05/28）。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-10T08:30:45.000Z",
-      "contentHash": "e587ccdce29d"
+      "contentHash": "eb1c263ae34f"
     },
     {
       "id": "d1dbc047b4ce",
       "title": "BunはZig 53万行をどう11日でRustに書き換えたのか。64並列Claude Codeの事例から学べたこと、まだ真似できないこと | アサインのフィード",
       "url": "https://zenn.dev/assign/articles/bun-rust-rewrite-harness-engineering",
-      "summary": "Bunが11日でZigの53万行超をRustへ書き換え。Jarred氏が64並列Claude Codeで、実装者＋敵対的レビュアー2名＋フィクサーのループを回し、言語非依存のTypeScriptテスト（6万件超）で品質を担保。プロセス改善重視の教訓はランタイム以外でも応用可能。",
+      "summary": "株式会社アサインのエンジニア・うちほりが、JS/TSランタイムBunが11日間でZigの実装（535,496行）をRustへ書き換えた事例を読み、その意思決定や取り組みを分析してプロダクト開発への示唆を探る記事。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-10T08:15:49.000Z",
-      "contentHash": "cc888f060a36"
+      "contentHash": "b0a3848d93bb"
     },
     {
       "id": "2a0381c03102",
       "title": "【ポスターセッションレポート】「眠れる資産」を「生きたユーザー」として呼び覚ます - RESEARCH Conference 2026 | LIFULL Creators Blog ",
       "url": "https://www.lifull.blog/entry/2026/07/10/170000",
-      "summary": "LIFULLはRESEARCH Conference 2026で、過去のインタビューと既存セグメントを生成AIで結び付け、開発者が参照できる「ユーザーライブラリ」を構築・運用している事例を発表。NotebookLM/Geminiで定性データを管理し、社内利便性と確証バイアス対策を重視している。",
+      "summary": "過去のUX調査データを生成AIとユーザライブラリで、開発現場ですぐ使える知見に変えた事例。眠っていたインタビュー情報の設計・活用方法がわかりやすく学べる。#LIFULL",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-10T08:00:00.000Z",
-      "contentHash": "c30504e6faac"
+      "contentHash": "df5694807291"
     },
     {
       "id": "6b7de435b82c",
       "title": "関西Ruby会議09 チーフオーガナイザーの ydah さんにタイムテーブルを解説してもらいました | SmartHR Tech Blog",
       "url": "https://tech.smarthr.jp/entry/2026/07/10/170000",
-      "summary": "関西Ruby会議09は2026年7月18日、滋賀・大津市伝統芸能会館の能楽ホールで開催。チーフのydahが能舞台ならではの体験や、テーマ「照」で見えない構造や低レイヤを照らす意図を解説。SmartHRはSilver協賛で社員2名が登壇。",
+      "summary": "SmartHRのinaoが、2026年7月18日に滋賀・大津伝統芸能会館で開かれる関西Ruby会議09を紹介。基調講演は成瀬ゆいさんとはすじょいさん。SmartHRはSilverスポンサーで社内から2名が登壇予定。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-10T08:00:00.000Z",
-      "contentHash": "c3059839f2e0"
+      "contentHash": "16f7af69ec25"
     },
     {
       "id": "d96a0356669f",
@@ -464,10 +500,10 @@
       "id": "d1cc78c2a8b3",
       "title": "ChatGPT Work クイックスタート",
       "url": "https://note.com/npaka/n/ne1f9886fd98d",
-      "summary": "2026年7月9日、OpenAIは複数の資料や外部サービスを横断して調査・分析し、文書・表計算・プレゼン等の成果物を作成・長時間作業できるAIエージェント「ChatGPT Work」を発表。新しいデスクトップアプリでChat/Work/Codexを切替え、既存アプリから移行可能。ログインして会話やプロジェクトを開き、Workモードを選んで開始する。",
+      "summary": "2026年7月9日、OpenAIはChatGPT Workを発表。Webやファイル、外部サービスから情報を集め、調査→文書・表計算・プレゼン等の成果物を段階的に作成。Chat/Work/Codex統合の新デスクトップアプリでローカルファイル対応。導入後はWorkモードで出力・資料・制約を指定し、既知の作業から試すことを推奨。",
       "source": "npaka",
       "publishedAt": "2026-07-10T00:59:44.000Z",
-      "contentHash": "ea7ac016cb64"
+      "contentHash": "497688802315"
     },
     {
       "id": "f27f5d5b1800",
@@ -563,10 +599,10 @@
       "id": "057c66d46252",
       "title": "GPT-5.6 Sol ・ Terra ・ Luna のリリース",
       "url": "https://note.com/npaka/n/n5cc5fc5ad25f",
-      "summary": "OpenAIがGPT-5.6を発表。実務向けエージェント志向で、Sol/Terra/Lunaの3階層とmax/ultra推論を備え、少ないトークンで高度なコーディング・調査・UI設計を効率的に実行。ChatGPT/Codex/APIで利用可。",
+      "summary": "OpenAIがGPT-5.6を発表。Sol/Terra/Lunaの3階層と、長時間推論のmaxや並列エージェントのultraを搭載。コーディング、ツール連携、UI/フロント強化でChatGPT/Codex/APIで利用可能。",
       "source": "npaka",
       "publishedAt": "2026-07-09T17:25:40.000Z",
-      "contentHash": "d9053769b2ee"
+      "contentHash": "ff21f4e83622"
     },
     {
       "id": "ecd4a351ef58",
@@ -779,10 +815,10 @@
       "id": "e40519830788",
       "title": "Grok Build で Grok 4.5 を試す",
       "url": "https://note.com/npaka/n/n4d8ee29e6297",
-      "summary": "xAIがGrok 4.5を発表。コーディングやエージェント作業に強くGPT-5.5級の性能。CLIツール「Grok Build」でリポジトリ解析・計画作成・編集・テストが可能で、端末から起動して3Dシューティング制作を試したレポート。",
+      "summary": "xAIが発表したGrok 4.5（2026/7/8）はコーディングやエージェント作業に強くGPT-5.5級の性能。Grok Buildはリポジトリ操作できるCLI型コーディングエージェントで、導入手順と3Dシューティング制作の試用例を紹介。",
       "source": "npaka",
       "publishedAt": "2026-07-09T12:49:47.000Z",
-      "contentHash": "9b24a360680a"
+      "contentHash": "636b87b4dd95"
     },
     {
       "id": "339cf379e0b8",
@@ -923,10 +959,10 @@
       "id": "b0e3f4e9b8db",
       "title": "ロボットの多指ハンドの制御方法",
       "url": "https://note.com/npaka/n/n5be85b5e1845",
-      "summary": "多指ハンドは把持後の器用な操作（インハンドマニピュレーション、持ち替え、回転、柔らか物の扱い）が可能だが、自由度や接触が増え制御・センサー・学習・実機調整が難しい。単純搬送はグリッパーが現実的で、記事は制御・学習手法と実用化手順を整理している。",
+      "summary": "ロボットの多指ハンドは、グリッパーが苦手な把持後の器用な操作（インハンド操作、持ち替え、回転、柔らか物の保持）に強い。一方、関節・接触・摩擦・力などの制御や学習・実機調整が難しく、用途に応じて選択すべき、という内容。",
       "source": "npaka",
       "publishedAt": "2026-07-09T02:40:50.000Z",
-      "contentHash": "49c8daa0bf93"
+      "contentHash": "1e15d47db89e"
     },
     {
       "id": "83becca1fadd",
@@ -1049,10 +1085,10 @@
       "id": "49a24f704ed3",
       "title": "GPT-Live の概要",
       "url": "https://note.com/npaka/n/n0207cdf3c2bc",
-      "summary": "GPT‑Liveは聞きながら同時に話せるフルデュプレックス音声モデルで、相づちや途中修正に対応し自然な会話やリアルタイム翻訳を実現。複雑問は高性能テキストモデルへ引き継ぎ、ハンズフリー操作等に有用だが誤答の可能性があり重要判断は過信禁物。",
+      "summary": "GPT-Liveは同時に聞き話せるフルデュプレックス音声モデルで、相づちや言い直しに対応し自然な会話を実現。リアルタイム翻訳や複雑処理のテキストモデル委譲にも対応。段階的にVoice機能へ展開（有料はGPT‑Live‑1、無料はmini）。重要情報は要確認。",
       "source": "npaka",
       "publishedAt": "2026-07-08T17:47:39.000Z",
-      "contentHash": "da2561e64ec0"
+      "contentHash": "1784b4f3ae14"
     },
     {
       "id": "7a227d92620a",
@@ -1094,10 +1130,10 @@
       "id": "5f980433ba77",
       "title": "3 ways this coffee shop is growing with Gemini",
       "url": "https://blog.google/products-and-platforms/products/gemini/coffee-shop-gemini-features/",
-      "summary": "サンフランシスコの喫茶店Henry’s House of CoffeeはGeminiを導入し、グラフィック制作、メルマガ、売上予測や追跡コード作成を効率化。スプレッドシート自動化や社内ガイド簡素化、業界ニュース要約にも活用。生成AIは実験的。",
+      "summary": "コーヒー店などの小規模事業は、Geminiを活用してグラフィック作成、メールマーケティング、売上予測などの作業を省力化・短縮できる。",
       "source": "Gemini",
       "publishedAt": "2026-07-08T16:00:00.000Z",
-      "contentHash": "e095ee8fb179"
+      "contentHash": "9f0260239b2e"
     },
     {
       "id": "4f744bee9310",
@@ -3956,10 +3992,10 @@
       "id": "0be6913362ae",
       "title": "The latest AI news we announced in June 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-      "summary": "Googleが2026年6月に発表したAIの総まとめ。Gemini 3.5 Live Translate、Android 17、新しいGoogle Home Speakerなどで翻訳や端末機能強化、学習支援など日常を補助するAIを推進。",
+      "summary": "2026年6月時点のGoogleの最新AIアップデートをまとめた記事。新機能・製品や研究の進展、方針や安全対策の更新点などを概説している。",
       "source": "Gemini",
       "publishedAt": "2026-07-01T18:15:00.000Z",
-      "contentHash": "94d91929147e"
+      "contentHash": "55e32fc1c70b"
     },
     {
       "id": "548bd0b24030",
@@ -4433,10 +4469,10 @@
       "id": "cfac3368216d",
       "title": "Gemini Spark updates: macOS launch, connected apps and more",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/",
-      "summary": "Gemini SparkがmacOSアプリ化され、CanvaやDropboxなどと連携。デスクトップのファイル自動化やスマホからの遠隔タスク実行、ニュース・スポーツ・金融のリアルタイム追跡を強化。",
+      "summary": "最新のGemini Sparkアップデートは、macOSアプリ対応、好みのアプリとの連携、リアルタイムでのトピック追跡を追加しました。",
       "source": "Gemini",
       "publishedAt": "2026-06-30T21:00:00.000Z",
-      "contentHash": "eeba83297e90"
+      "contentHash": "d9a5de648e98"
     },
     {
       "id": "b5f02f3221df",
@@ -4595,10 +4631,10 @@
       "id": "51316e8a2b80",
       "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
-      "summary": "Googleは高速で低コストな画像モデル「Nano Banana 2 Lite」と、高品質な動画生成・会話編集対応の「Gemini Omni Flash」を公開。両モデルはAI StudioやGemini API、消費者向けアプリで利用可能になり、開発者の迅速なマルチメディア制作を支援する。",
+      "summary": "Nano Banana 2 Liteは最速かつコスト効率に優れたGemini Imageモデルで、Gemini Omni Flashは高品質な動画と会話形式の編集向け。これらでアイデアを効率的に拡大できます。",
       "source": "Gemini",
       "publishedAt": "2026-06-30T16:00:00.000Z",
-      "contentHash": "c1d32a6a3965"
+      "contentHash": "40ec3489ab18"
     },
     {
       "id": "a8dba2229a7a",
@@ -4991,10 +5027,10 @@
       "id": "e7deba371a30",
       "title": "The Gemini app is bringing personalized image creation to more users.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana-us-expansion/",
-      "summary": "GoogleのGeminiアプリは、ユーザー許可でGmail・Googleフォト・YouTube・検索などと連携するPersonal Intelligenceにより応答や画像生成を個人向けに最適化。米国の対象者はNano BananaとGoogleフォト連携で無料のパーソナル画像生成を利用可能。接続はオプトインで設定変更可。",
+      "summary": "Personal Intelligenceは、ユーザーの許可を得てGmail、Googleフォト、YouTube、検索などのGoogleツールから情報を取り込み、Geminiアプリを個人向けに最適化する機能です。",
       "source": "Gemini",
       "publishedAt": "2026-06-29T17:30:00.000Z",
-      "contentHash": "bf12f5609f01"
+      "contentHash": "69dd73f95e14"
     },
     {
       "id": "d9f45b9f5a56",
@@ -5054,10 +5090,10 @@
       "id": "2d31332e3d52",
       "title": "Gemini can now take notes in Google Meet for Google AI Pro and Ultra subscribers.",
       "url": "https://blog.google/products-and-platforms/products/workspace/take-notes-for-me/",
-      "summary": "Google AI Pro/Ultra契約者と対象Workspace企業は、Google Meet（Web/モバイル・一部言語）で「Take notes for me」を利用可能。Geminiが会話を文字起こしして要約とアクションを生成しGoogleドキュメントに自動保存、要約をメール送信。会議中は鉛筆アイコンで開始、設定でも有効化。参加者に通知。",
+      "summary": "Google Meetの「Take notes for me（メモ作成）」機能が、Google AI ProおよびUltraの加入者向けに一部言語で利用可能になった。",
       "source": "Gemini",
       "publishedAt": "2026-06-29T16:00:00.000Z",
-      "contentHash": "b78f2179a2de"
+      "contentHash": "255b1f396303"
     },
     {
       "id": "f65c32a66cc6",
@@ -6260,10 +6296,10 @@
       "id": "69b4e2292f4b",
       "title": "Here's how Gemini can help you avoid jetlag.",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-help-avoid-jetlag/",
-      "summary": "遠方旅行の際、GeminiアプリはGmailとカレンダーへの許可でフライト情報を取得し、時差対策スケジュールを作成してカレンダーに追加。最先端のGemini 3.5 Flashで動作し、動画で使い方を紹介。",
+      "summary": "遠方旅行の際、Geminiアプリは時差ボケを防いで滞在を最大限楽しめるよう支援します。利用にはGeminiへのアクセス許可を与える必要があります。",
       "source": "Gemini",
       "publishedAt": "2026-06-26T16:00:00.000Z",
-      "contentHash": "70ecfc5b7fde"
+      "contentHash": "d6d5b364b916"
     },
     {
       "id": "4575ea20cd09",
@@ -6701,19 +6737,19 @@
       "id": "391b66df499a",
       "title": "Try these 3 Google AI tools to help find your next job.",
       "url": "https://blog.google/products-and-platforms/products/gemini/find-job-with-google-ai-tools/",
-      "summary": "GoogleのAIツールで転職活動を効率化。Career Dreamerは興味・経験から職種を提案、NotebookLMは履歴書や志望動機を添削、Gemini Liveは面接練習と即時フィードバックを支援。",
+      "summary": "GoogleのAIツール（Career Dreamer、NotebookLM、Gemni Liveなど）で履歴書やカバーレター作成、面接対策など就職活動を支援できます。",
       "source": "Gemini",
       "publishedAt": "2026-06-25T17:00:00.000Z",
-      "contentHash": "ff503fbb4cb0"
+      "contentHash": "ed76d90420b3"
     },
     {
       "id": "4afda13996a4",
       "title": "5 ways Google parents are using Gemini",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-tips-for-parents/",
-      "summary": "十数人のGoogle社員が事例を共有。親たちは生成AI「Gemini」を家事育児のアシスタントとして活用し、旅行や学校スケジュールの計画、子どもの学習支援や遊び作成、進路調査などで日常を効率化している。",
+      "summary": "Geminiは宿題の解説や献立提案、予定管理などを手伝い家事負担を軽減、親が子どもとの時間や大切なことに集中できるよう支援します。",
       "source": "Gemini",
       "publishedAt": "2026-06-25T17:00:00.000Z",
-      "contentHash": "df2c9a49d297"
+      "contentHash": "f5eee1293b34"
     },
     {
       "id": "56c86a142320",
@@ -8964,42 +9000,6 @@
       "source": "OpenAI",
       "publishedAt": "2026-06-21T23:00:00.000Z",
       "contentHash": "ecd34a23bf4c"
-    },
-    {
-      "id": "da658acc6158",
-      "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
-      "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
-      "summary": "ローカルで動くLLMを用いて質問を自動分類する手順を実践的に解説。データ収集・整形、教師データ作成、プロンプト設計、LoRAなどの低コスト微調整、評価とデプロイ、運用上の注意点を示す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-21T22:55:23.000Z",
-      "contentHash": "71c2542f3e21"
-    },
-    {
-      "id": "9a6e96a04179",
-      "title": "Japanese verb conjugation the simple hard way",
-      "url": "https://underreacted.leaflet.pub/3mmevu6woys27",
-      "summary": "申し訳ありませんが、外部リンクの内容を直接取得できません。記事本文をここに貼っていただければ、200文字以内で日本語要約を作成します。コメントやHacker Newsの議論も要約希望なら、その部分も貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-21T22:53:50.000Z",
-      "contentHash": "2ff0e59a78f2"
-    },
-    {
-      "id": "c3aba04138b9",
-      "title": "Rent collections are down in New York",
-      "url": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
-      "summary": "申し訳ありませんが、外部リンクは直接参照できません。記事の全文か主要箇所を貼っていただければ、200文字以内で日本語要約を作成します。本文を貼れない場合は記事の要点を教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-21T21:54:34.000Z",
-      "contentHash": "81af2cdb9dcb"
-    },
-    {
-      "id": "6d621aad9c7c",
-      "title": "Did my old job only exist because of fraud?",
-      "url": "https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/",
-      "summary": "元職が不正によって維持されていたと気づいた体験記。偽の利用者や捏造請求などで延命されており、著者は倫理的葛藤や業界の構造的問題を指摘し、雇用先の検証と自己防衛の重要性を訴える。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-21T21:40:53.000Z",
-      "contentHash": "73a36cbf27fa"
     }
   ]
 }
