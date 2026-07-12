@@ -1,6 +1,51 @@
 {
-  "generatedAt": "2026-07-12T03:48:54.200Z",
+  "generatedAt": "2026-07-12T10:15:10.780Z",
   "items": [
+    {
+      "id": "dbf6a4bc977a",
+      "title": "【Backstage】 New Frontend System導入ガイド （Part2「サイドメニューの設定」） | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/07/12/183500",
+      "summary": "Backstage New Frontend Systemのサイドメニュー設定解説。表示は packages/app/src/modules/nav/Sidebar.tsx で定義。nav.take()でプラグインの指定リンクを取得し、nav.rest({sortBy:'title'})で残りのプラグインメニューを一覧表示する仕組みを説明しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-12T09:35:00.000Z",
+      "contentHash": "93742d9347b8"
+    },
+    {
+      "id": "c196aa71466a",
+      "title": "Step Functions のテストを「配線」と「中身」に分けて考える | ENECHANGE Developer Blog",
+      "url": "https://tech.enechange.co.jp/entry/2026/07/12/132216",
+      "summary": "Step Functionsのテストを「配線（ASL）」と「中身（Lambda/ECS/Batch）」に分離。戦略は①コンポーネントUT、②TestState API＋mockで配線検証、③ステージングでE2E。Step Functions Localは非推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-12T04:22:16.000Z",
+      "contentHash": "be43e0e0b1f8"
+    },
+    {
+      "id": "5cf99283b1ce",
+      "title": "「AIエージェントキャッチアップ #83 - AgentSpace」を開催しました | Generative Agents Tech Blog",
+      "url": "https://blog.generative-agents.co.jp/entry/2026/07/12/122749",
+      "summary": "AIエージェントキャッチアップ#83で、人間とエージェントのチーム向けコラボワークスペース「AgentSpace」を紹介。ローカルで起動し、タスク管理・フィード・チャット・エージェント管理、Claude Code/Codexなどの実行エンジンバインドやCLIを確認。次回はOpenWiki。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-12T03:27:49.000Z",
+      "contentHash": "36b6f469e559"
+    },
+    {
+      "id": "0ed8a3d972c7",
+      "title": "Amazon Braketで学ぶ χ² 検定 : イカサマ量子サイコロを作る | NCDC テックブログのフィード",
+      "url": "https://zenn.dev/ncdc/articles/1b27b480a73e6c",
+      "summary": "Amazon Braketのローカルシミュレータで、3量子ビットを用いて「イカサマサイコロ」を作り、8通りを6面に割り当て（余りは振り直し）して公平版と不正版を1000回振り、χ²検定で偏りを検出する手順を解説。実機は使わず無料で実行可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-12T03:00:18.000Z",
+      "contentHash": "34035021cd48"
+    },
+    {
+      "id": "2def642cd3de",
+      "title": "複数のWebカメラを高解像度・高フレームレートで使うための調整方法",
+      "url": "https://note.com/npaka/n/n2cd3fa147e13",
+      "summary": "複数Webカメラで高解像度・高fpsが出ない原因は、解像度・fps・映像形式（YUYVは帯域大、MJPEGは圧縮で帯域節約だがCPU負荷あり）、USB速度・バス共有、ハブ・ケーブル・給電不足など。対策はMJPEG化、解像度/ fpsを下げる、USB3や別ホストコントローラ／セルフパワーのハブにする、配線やバスを確認・分離する（Ubuntuで確認・調整可能）。",
+      "source": "npaka",
+      "publishedAt": "2026-07-12T02:07:54.000Z",
+      "contentHash": "4734c2a122ab"
+    },
     {
       "id": "46e54b91fb3e",
       "title": "Weightlifting beats running for blood sugar control, researchers find (2025)",
@@ -149,10 +194,10 @@
       "id": "c9ccbf0b9053",
       "title": "複数のUSB-CANアダプターを安定して識別する方法",
       "url": "https://note.com/npaka/n/na4f90f90bf34",
-      "summary": "Linuxで複数のUSB‑CANアダプタを安定識別するには、can0/1を使わず固定名（例 can_left/can_right）を付与。udevadmでID_SERIAL_SHORTやID_PATHを確認し、/etc/systemd/network/*.linkでMatch Propertyに基づきNameを指定。シリアル優先、無ければUSBポート(ID_PATH)で固定。",
+      "summary": "Linuxで複数のUSB-CANアダプタを安定識別する方法。ip/udevadmでID_SERIAL_SHORTやID_PATHを確認し、/etc/systemd/network/*.linkでNameを固定（例can_left/can_right）。シリアル無ければUSBポート固定。USBハブ利用可、CANバス帯域に注意。",
       "source": "npaka",
       "publishedAt": "2026-07-11T13:23:01.000Z",
-      "contentHash": "4d17794f2a40"
+      "contentHash": "64f222495399"
     },
     {
       "id": "f24c55c78e50",
@@ -239,19 +284,19 @@
       "id": "0342adce8d45",
       "title": "新規作成する AWS Organizations 組織に組織離脱を防ぐ SCP が自動付与されるようになりました | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/20260711_DenyLeaveAndCloseAccount",
-      "summary": "Organizationsで新規組織作成時に、組織離脱とアカウント閉鎖を防ぐSCP「DenyLeaveAndCloseAccount」がコンソール作成時のみ自動付与されるようになった。CLIでは自動作成されず、既存組織には影響しない点などが解説されています。",
+      "summary": "2026年7月の更新で、コンソールから「全機能」有効で新規作成したAWS Organizationsに、組織離脱やアカウント閉鎖を防ぐDenyLeaveAndCloseAccountというSCPが自動作成・Rootにアタッチされるようになった。適用にはorganizations:EnablePolicyType/organizations:CreatePolicy/organizations:AttachPolicy権限が必要。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-11T06:16:05.000Z",
-      "contentHash": "996404c64cb2"
+      "contentHash": "351dd9b8cfc8"
     },
     {
       "id": "bb17f72aa509",
       "title": "Tsurugi DB 入門",
       "url": "https://note.com/npaka/n/na6f0f10f96e6",
-      "summary": "Tsurugi DBはメニーコア・大容量メモリ向けの国産オープンソースRDB。Dockerで起動し、Python(tsurugi-dbapi)から接続してテーブル作成・データ登録・検索・更新・削除やトランザクション操作を行う手順を解説。",
+      "summary": "メニーコア・大容量メモリ向け国産オープンソースRDB「Tsurugi DB」の使い方ガイド。Dockerで起動し、Python(tsurugi-dbapi)から接続してテーブル作成、CRUD、トランザクション制御を手順付きで解説。DDL実行後もcommitが必要。",
       "source": "npaka",
       "publishedAt": "2026-07-11T06:05:06.000Z",
-      "contentHash": "6713779387b4"
+      "contentHash": "82e5c64ba893"
     },
     {
       "id": "08bb41db9a42",
@@ -734,10 +779,10 @@
       "id": "d1cc78c2a8b3",
       "title": "ChatGPT Work クイックスタート",
       "url": "https://note.com/npaka/n/ne1f9886fd98d",
-      "summary": "OpenAIは2026年7月9日、新機能「ChatGPT Work」を発表。複数の資料や外部サービスを横断して調査・分析し、文書・表計算・プレゼンなど成果物を作成。新しいデスクトップアプリ（Chat/Work/Codex統合）で利用し、アプリ取得→ログイン→Work選択→資料・条件を入力して開始します。",
+      "summary": "OpenAIが発表したChatGPT Workは、複数の資料や外部情報を収集して文書・表計算・プレゼン等の成果物を段階的に作成・更新できる機能。新しいデスクトップアプリでWorkモードを選び開始します。",
       "source": "npaka",
       "publishedAt": "2026-07-10T00:59:44.000Z",
-      "contentHash": "51241f29ba4f"
+      "contentHash": "2549ffe518ca"
     },
     {
       "id": "f27f5d5b1800",
@@ -833,10 +878,10 @@
       "id": "057c66d46252",
       "title": "GPT-5.6 Sol ・ Terra ・ Luna のリリース",
       "url": "https://note.com/npaka/n/n5cc5fc5ad25f",
-      "summary": "OpenAIがGPT-5.6を発表。Sol/Terra/Lunaの三階層で実務向けAIエージェント化し、max/ultraの強化推論（ultraは並列エージェント）を搭載。コーディング・デザイン・長時間業務やツール連携が効率化され、ChatGPT/Codex/APIで利用可能。",
+      "summary": "OpenAIがGPT-5.6を発表。Sol/Terra/Lunaの3階層と、複数案検討のmax・並列エージェントのultraを備え、コーディング、調査、ツール連携、UI設計など実務向け能力を大幅強化。ChatGPT/Codex/APIで利用可能。",
       "source": "npaka",
       "publishedAt": "2026-07-09T17:25:40.000Z",
-      "contentHash": "24593cd36a43"
+      "contentHash": "eea440232734"
     },
     {
       "id": "ecd4a351ef58",
@@ -8955,51 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-22T10:27:45.000Z",
       "contentHash": "0ba28a8597cf"
-    },
-    {
-      "id": "fe14ef4be092",
-      "title": "Claude Code更新 Design連携・Artifacts公開【6/15〜21】 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/06/22/190000",
-      "summary": "6/15〜6/21にClaude Code v2.1.178〜v2.1.185がリリース。CLIのバグ修正・設定改善のほか、Claude Designとの双方向同期やターミナル成果物をURL共有するArtifacts、MCP接続の公式クイックスタートが追加され、デザインとコードの統合と成果物共有が進んだ。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-22T10:00:00.000Z",
-      "contentHash": "3a6ef2d17f46"
-    },
-    {
-      "id": "3696e67c2c9e",
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "url": "https://openai.com/index/patch-the-planet",
-      "summary": "OpenAIはDaybreakの新プログラム「Patch the Planet」を発表。AIと専門家レビューを組み合わせ、オープンソース保守者が脆弱性を発見・検証・修正するのを支援する。",
-      "source": "OpenAI",
-      "publishedAt": "2026-06-22T10:00:00.000Z",
-      "contentHash": "94b7f5c1137a"
-    },
-    {
-      "id": "b63e5cb33bb0",
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "summary": "OpenAIはDaybreakツール群（Codex SecurityやGPT-5.5-Cyberなど）を発表し、大規模に脆弱性の発見・検証・修正を支援すると発表した。",
-      "source": "OpenAI",
-      "publishedAt": "2026-06-22T10:00:00.000Z",
-      "contentHash": "c9b71accace3"
-    },
-    {
-      "id": "f0ef2c097731",
-      "title": "初のイベント参加！裏方の奮闘から歓迎会まで、チームみんなで対面できた最高の1日レポ | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/first-event-backstage-welcome-report/",
-      "summary": "クラウドネイティブのリモートメンバーが初めて現地のイベントと歓迎会に参加し、移動の工夫や卓球大会の様子、コミュニケーション促進の補助制度の活用方法を紹介する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-22T09:17:00.000Z",
-      "contentHash": "23b3306badb0"
-    },
-    {
-      "id": "d009a28a0f08",
-      "title": "Ruby LSPを Prism で拡張するカスタムアドオンを作った話（翻訳） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_06_22/158527",
-      "summary": "Ruby LSPをPrism（Rubyパーサー）で拡張するカスタムアドオンの作成経緯と実装を、許諾の上で翻訳・解説。RubydexやRBSと連携しRubyの編集体験を向上させる内容。著者はJanko Marohnić。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-22T08:30:30.000Z",
-      "contentHash": "71f6cc9cd57a"
     }
   ]
 }
