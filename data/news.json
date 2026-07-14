@@ -1,6 +1,159 @@
 {
-  "generatedAt": "2026-07-14T03:11:09.992Z",
+  "generatedAt": "2026-07-14T10:23:22.500Z",
   "items": [
+    {
+      "id": "5ff11aca3534",
+      "title": "New York becomes the first state to enact a data center moratorium",
+      "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+      "summary": "ニューヨーク州は州初のデータセンター建設一時停止を実施。ホックル知事が50MW超の新規環境許可を最長1年停止。議会は20MW基準のより厳しい法案を可決し署名待ち。電力高騰や環境影響対策が目的。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-14T09:00:00.000Z",
+      "contentHash": "45df4b280b50"
+    },
+    {
+      "id": "72f4eaab8d7b",
+      "title": "European \"age verification\" \"app\" forcing everyone to use Android or iOS",
+      "url": "https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/discussions/19",
+      "summary": "そのURL先の内容を直接参照できないため、正確な要約には本文の提示が必要です。記事本文か主要コメントを貼り付けるか、要点を教えてください。貼っていただければ200文字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T08:34:57.000Z",
+      "contentHash": "9c741c12a143"
+    },
+    {
+      "id": "f1a2770d4900",
+      "title": "AWSハンズオンがもっと手軽に！AWS Builder Centerの無料サンドボックスを試してみる | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/7e0990bb137a47",
+      "summary": "AWS Builder Centerが一部ワークショップで無料サンドボックスを提供。個人のAWSアカウントやクレジットカード不要で、8時間利用・自動クリーンアップ、週1回申請。初学者や社内・顧客向けハンズオンの準備や課金不安を軽減。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-14T08:00:06.000Z",
+      "contentHash": "accb56e096ef"
+    },
+    {
+      "id": "6796db7ad7d2",
+      "title": "AI ファースト・カンパニーに向けて | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/07/14/170000",
+      "summary": "エブリーCTO今井の連載最終回。9本を貫く背骨は「オントロジー」—会社の現実を名詞・動詞・ルールで定義し、組織・データ・プロダクトで共有してAIファーストの意思決定を支える重要性を説く。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-14T08:00:00.000Z",
+      "contentHash": "650e4b3e1f96"
+    },
+    {
+      "id": "e87629a44d65",
+      "title": "kintoneのフロントエンド刷新に残る「良くない型」の分析と改善運用 | Cybozu Inside Out | サイボウズエンジニアのブログ",
+      "url": "https://blog.cybozu.io/entry/2026/07/14/170000",
+      "summary": "kintoneはGoogle ClosureからReact/TypeScriptへ刷新中。複雑なアプリ機能でany/as/@ts-ignore等の「良くない型」が残り、AIで解析して7つの頻出パターンを抽出、3分類（動的境界での型落ち、動的配列・Object変換、unionの扱い）して改善運用を進めている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-14T08:00:00.000Z",
+      "contentHash": "865b9d701a30"
+    },
+    {
+      "id": "aea71f237efd",
+      "title": "Microsoft Foundry における OpenAI モデル と Claude モデル のデータの扱い - Azure を活用したコーディングエージェント基盤 連載第2回 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/07/14/165738",
+      "summary": "Microsoft FoundryでのOpenAI系とClaude系のデータ処理・管理の違いを解説。OpenAIはAzureリージョン内でMicrosoftが管理、ClaudeはAnthropic経由で地域外処理や別DPAの可能性、標準/グローバル標準による処理・保存差に言及。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-14T07:57:38.000Z",
+      "contentHash": "a5f19fc64f9d"
+    },
+    {
+      "id": "fac3743b2902",
+      "title": "【Nishika 論文サク読み 第16回】LLMデコーダーは公平に聞いているか？鍵はLLMの規模より音声エンコーダの圧縮度 | Nishika Tech Blogのフィード",
+      "url": "https://zenn.dev/team_nishika/articles/bf9d2f883e79aa",
+      "summary": "論文はLLMデコーダ型ASRの公平性を検証。LLMの規模より音声エンコーダの圧縮度と音響劣化がハルシネーションや公平性格差を左右することを示し、絶対WERと相対差の両方報告を推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-14T07:10:57.000Z",
+      "contentHash": "8f8ac2e512f9"
+    },
+    {
+      "id": "4af3cb253c03",
+      "title": " Claude Codeの相談相手としてCodexをつなぐ：MCPで疎通・追質問・議論まで試した | Algomatic Tech Blog",
+      "url": "https://tech.algomatic.jp/entry/2026/07/14/160815",
+      "summary": "Claude CodeからCodexをMCP経由で接続し、単発問い合わせ・同一スレッドでの追質問（codex-reply）・短い議論の3段階を検証。疎通・追質問・簡単な論点すり合わせは可能だが、両者に自由編集を許すのは危険。Claude主導でCodexをレビューや別案提示、用語整理役にする運用が現実的。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-14T07:08:15.000Z",
+      "contentHash": "11364f1414d5"
+    },
+    {
+      "id": "4f9899693a52",
+      "title": "AIサービスのキャラクターができるまで〜20案以上の屍を越えて〜 | OpenWork Tech Blog",
+      "url": "https://techblog.openwork.co.jp/entry/ai-service-character",
+      "summary": "OpenWorkの杉村が、対話型新機能「AI求人検索」のキャラクター制作を解説。ロボットやフクロウ等20案以上の没案を経て、丸みのある親しみやすいフラット＆口なしの造形に決定。サービスは対話で個別求人と懸念点を提示する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-14T07:00:00.000Z",
+      "contentHash": "bab257a08a73"
+    },
+    {
+      "id": "6fb2dce8fc49",
+      "title": "超伝導量子ビットチップを運用するための技術の一例を紹介　～ジョセフソン接合抵抗の経時変化を抑える低温保管技術～ | fltech - 富士通研究所の技術ブログ",
+      "url": "https://blog.fltech.dev/entry/2026/07/14/JJ-aging-ja",
+      "summary": "超伝導量子ビットの心臓部であるAl/AlOx/Alジョセフソン接合は室温で抵抗が経時変化（エージング）し周波数ずれを生む。液体窒素気相（−185℃）での低温保管により6か月で抵抗増加を2%に抑え、従来の室温真空保管の約4分の1に改善。実験日程や輸送の自由度が向上する運用技術を示した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-14T07:00:00.000Z",
+      "contentHash": "5564859c4e43"
+    },
+    {
+      "id": "049340e63271",
+      "title": "Webアプリに地図機能を入れる方法を作ってた（Leaflet） | iimon TECH BLOG",
+      "url": "https://tech.iimon.co.jp/entry/2026/07/14/150416",
+      "summary": "Webアプリに地図を入れるならLeafletがおすすめ。軽量で無料・APIキー不要、数行で地図表示→マーカー→ポップアップを実装できます。OpenStreetMapのタイルは学習用で、本番は自前や有料サービスを推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-14T06:04:16.000Z",
+      "contentHash": "c6522dce3599"
+    },
+    {
+      "id": "646bff2d3a02",
+      "title": "Redashで初めてSQLを書いてみた話 | iimon TECH BLOG",
+      "url": "https://tech.iimon.co.jp/entry/2026/07/14/150126",
+      "summary": "Redash→Athenaで初めてSQLを書いた体験。ユーザーごとの完了注文数を集計する際、WHEREで絞るとLEFT JOINが実質INNER化する問題はON句に条件を移して解決。集計時は非集計列をGROUP BYに入れる必要あり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-14T06:01:26.000Z",
+      "contentHash": "45cfc531b47c"
+    },
+    {
+      "id": "90c6b2e30b40",
+      "title": "How Gemini is speaking the language of Southeast Asia",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-southeast-asia-report-2026/",
+      "summary": "東南アジアでGemini利用者が1年で倍増。多くが母語でモバイル利用し、創作・学習・生産性向上に活用。Gemini Sparkを現地語でAdvanced会員向けに展開予定。",
+      "source": "Gemini",
+      "publishedAt": "2026-07-14T04:30:00.000Z",
+      "contentHash": "b9f4b86985fc"
+    },
+    {
+      "id": "5a052b299e3a",
+      "title": "YouTrackDB is a general-use object-oriented graph database",
+      "url": "https://github.com/JetBrains/youtrackdb",
+      "summary": "外部URLへ直接アクセスできないため、記事本文を貼ってください。全文か主要部分をいただければ、200文字以内で日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T03:39:55.000Z",
+      "contentHash": "9bde0d593f33"
+    },
+    {
+      "id": "296eafb266e1",
+      "title": "Japan develops a method to recover up to 90% of lithium from used EV batteries",
+      "url": "https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries/",
+      "summary": "日本の企業・研究機関が、使用済みEVバッテリーから最大約90%のリチウムを回収できる技術を開発。資源効率やコスト、環境負荷の改善が期待され、電池リサイクルの進展に寄与する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T02:27:20.000Z",
+      "contentHash": "40b29e528a6d"
+    },
+    {
+      "id": "8ca8f08ddd6f",
+      "title": "Fundamentals of Wireless Communication (2005)",
+      "url": "https://web.stanford.edu/~dntse/wireless_book.html",
+      "summary": "StanfordのDavid Tseによる教科書「Fundamentals of Wireless Communication」の公式ページ。無線通信の基礎理論と応用（情報理論、フェージング、MIMO、OFDM、マルチユーザ等）を体系的に解説し、教科書PDFや講義資料、誤植情報を公開している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T02:10:19.000Z",
+      "contentHash": "d2fb50ebb290"
+    },
+    {
+      "id": "0fa052433601",
+      "title": "What will be left for us to work on?",
+      "url": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
+      "summary": "ICML 2026でNarayananは、(1)AIは「通常の技術」として考えるべき（自己改良による断絶がない限り）、(2)単一の突破で職が一斉になくなるわけではない、(3)仕事は大きく変わり適応が必要、と主張。人間とAIの共超知性や現実的なエージェント評価の重要性も述べた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T01:44:40.000Z",
+      "contentHash": "30b0f88de5ee"
+    },
     {
       "id": "d238d240e82b",
       "title": "SRE NEXT 2026 参加レポート (登壇&amp;amp;スポンサー) | エムスリーテックブログ",
@@ -38,6 +191,15 @@
       "contentHash": "b3e25dffd933"
     },
     {
+      "id": "894f8896e67e",
+      "title": "The git history command",
+      "url": "https://lalitm.com/post/git-history/",
+      "summary": "Gitの履歴は各コミットがスナップショットと親ポインタでつながるDAGで、ブランチやタグは参照に過ぎない。rebaseやfilter-branchで履歴を書き換えるとコミットSHAが変わるため公開済み履歴の書き換えは避け、reflogやGCで復旧できる点を解説している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T00:57:11.000Z",
+      "contentHash": "18f4ed01da0b"
+    },
+    {
       "id": "7fd0a4cb5724",
       "title": "採用業務をフルサイクルで支援するAIエージェント基盤 | Finatext Tech Blogのフィード",
       "url": "https://zenn.dev/finatext/articles/ai-recruit-agent",
@@ -45,6 +207,24 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-14T00:00:10.000Z",
       "contentHash": "bd8d6541ffc5"
+    },
+    {
+      "id": "06a30fda2379",
+      "title": "An Englishwoman who sketched India before photography took hold",
+      "url": "https://www.bbc.com/news/articles/cm2drrv6q54o",
+      "summary": "写真以前の1830年代、エミリー・イーデンは総督の兄に随行して北インドを旅し、王侯から庶民、旅人、動物まで精密に素描。1844年刊行作は現在デリーDAGで展覧。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-13T23:12:22.000Z",
+      "contentHash": "cac81ef333e3"
+    },
+    {
+      "id": "935a3aca4bd0",
+      "title": "Claude Code plugin that plays a Mr. Meeseeks voice line whene Claude is waiting",
+      "url": "https://github.com/thephw/claude-meseeks",
+      "summary": "GitHubの「claude-meseeks」はAnthropicのClaude APIで多数の一時的エージェント（Meeseeks）を立ち上げ、並列や分岐で回答を生成・集約するツール。HNではコスト・安全性・他のエージェント手法との比較が議論された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-13T22:03:54.000Z",
+      "contentHash": "0cd6da055455"
     },
     {
       "id": "d1463323e058",
@@ -126,6 +306,24 @@
       "source": "The Verge",
       "publishedAt": "2026-07-13T20:43:15.000Z",
       "contentHash": "533ce059e870"
+    },
+    {
+      "id": "0440afed4976",
+      "title": "Show HN: YouTube Guitar Tab Parser",
+      "url": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
+      "summary": "YouTubeのギターレッスン動画をタブ譜PDFに変換する簡易CLIを作成。動画をダウンロードしてフレームを抽出、Claudeの視覚機能で譜面領域を切り出し、小節番号で重複を除いて縦に結合してPDF化。まだ多様な動画で未検証のため問題は出る可能性あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-13T20:13:14.000Z",
+      "contentHash": "b7a819b2fa4e"
+    },
+    {
+      "id": "8a3c99014d12",
+      "title": "Linux 0.11 rewritten in idiomatic Rust, boots in QEMU",
+      "url": "https://github.com/Poseidon-fan/linux-0.11-rs",
+      "summary": "古いLinux 0.11をRustでほぼ忠実に書き直した公開プロジェクト。動作するブート可能カーネルを目指し、教育や安全性向上を示す実例として注目され、HNで実現性や意義を議論されている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-13T20:11:29.000Z",
+      "contentHash": "cdb2c62fd2d3"
     },
     {
       "id": "d44bf35614bf",
@@ -383,10 +581,10 @@
       "id": "82a162ded866",
       "title": "Codex の Remote SSHで 別のLinux PCのプロジェクトを操作する方法",
       "url": "https://note.com/npaka/n/nb91f50faae3c",
-      "summary": "ChatGPTデスクトップのCodexで別PCのプロジェクトを操作する手順。リモートでSSH有効化・公開鍵登録、~/.ssh/configにホスト追加、接続先にCodex CLIをインストールしてログイン（デバイス認証）、アプリでSSHホストを選びプロジェクトを開く。",
+      "summary": "CodexのRemote SSHでChatGPTデスクトップから別Linux PCのプロジェクトを操作する手順。SSH有効化・鍵登録、~/.ssh/configでホスト追加、接続先にCodex CLIを導入・ログイン後、アプリのSSH設定でリモートプロジェクトを開く。",
       "source": "npaka",
       "publishedAt": "2026-07-13T08:11:08.000Z",
-      "contentHash": "d2948141a141"
+      "contentHash": "3a6b06b22060"
     },
     {
       "id": "a6bd3fb4ac5d",
@@ -482,10 +680,10 @@
       "id": "4e301ea17194",
       "title": "ChatGPT Sites のクイックスタート",
       "url": "https://note.com/npaka/n/n731339e77c27",
-      "summary": "ChatGPT SitesはChatGPT上でWebサイトや軽量Webアプリを作成・プレビュー・修正・デプロイ・公開でき、OpenAIがホスティングを提供する機能。現在は有料プランのパブリックベータで利用はプラン内上限まで。デスクトップの「サイト→作成」から公開・共有設定・動作確認・削除が可能。",
+      "summary": "ChatGPT SitesはChatGPT上でWebサイトや軽量Webアプリを作成・プレビュー・修正・デプロイ・公開でき、OpenAIがホスティングします。現在は有料プランのパブリックベータでプラン内上限まで利用可能。上限到達で新規作成や公開維持に制限が出る場合があり、具体的上限や追加料金は未公開。デスクトップアプリの「サイト→作成」からCodexで作ったゲームを公開できます。",
       "source": "npaka",
       "publishedAt": "2026-07-12T22:31:44.000Z",
-      "contentHash": "2585529bc51f"
+      "contentHash": "f230048f5be9"
     },
     {
       "id": "36b509078d75",
@@ -671,10 +869,10 @@
       "id": "2def642cd3de",
       "title": "複数のWebカメラを高解像度・高フレームレートで使うための調整方法",
       "url": "https://note.com/npaka/n/n2cd3fa147e13",
-      "summary": "複数のWebカメラで高解像度・高fpsが使えない原因は、解像度・fps・映像フォーマット（YUYVは帯域大、MJPEGは圧縮だがCPU負荷あり）やUSB速度、ホストコントローラ、ハブ／ケーブル、CPU性能、給電など。USBの実効帯域や接続経路を確認し、MJPEG化やバス分離で調整する。",
+      "summary": "複数のWebカメラで高解像度・高fpsを安定動作させるための解説。映像量は解像度・fps・フォーマットで決まり、YUYVは帯域大、MJPEGは圧縮で帯域節約だがCPU負荷増。USB規格・バス・ホストコントローラ・ハブ・ケーブル・給電を確認・調整し、Ubuntuでのチェック手順を紹介。",
       "source": "npaka",
       "publishedAt": "2026-07-12T02:07:54.000Z",
-      "contentHash": "2281190d866c"
+      "contentHash": "f33a7f100a65"
     },
     {
       "id": "cbe2d7cc9770",
@@ -1436,10 +1634,10 @@
       "id": "d1cc78c2a8b3",
       "title": "ChatGPT Work のクイックスタート",
       "url": "https://note.com/npaka/n/ne1f9886fd98d",
-      "summary": "ChatGPT WorkはWebやファイル、外部サービスから情報を集め調査・分析して文書・表・プレゼン等を作成するAIエージェント。新しいデスクトップアプリでローカル作業が可能。導入・アップデート・起動手順や初回タスク例を解説。",
+      "summary": "OpenAIは2026年7月9日、新AIエージェント「ChatGPT Work」を発表。Webやファイル、外部サービスから情報を集め、文書・表計算・プレゼン等を段階的に作成。Chat/Codexと並ぶモードで、ローカルファイル利用は新デスクトップアプリを使う。導入手順と初回タスク例を解説。",
       "source": "npaka",
       "publishedAt": "2026-07-10T00:59:44.000Z",
-      "contentHash": "21b065f6bf89"
+      "contentHash": "e169c25eb255"
     },
     {
       "id": "f27f5d5b1800",
@@ -1544,10 +1742,10 @@
       "id": "057c66d46252",
       "title": "GPT-5.6 Sol ・ Terra ・ Luna のリリース",
       "url": "https://note.com/npaka/n/n5cc5fc5ad25f",
-      "summary": "OpenAIがGPT-5.6を発表。Sol/Terra/Lunaの3階層で実務向けAIエージェント化、max/ultraで高度推論、ツール連携によるコーディング・デザイン・長時間作業の強化。ChatGPT/Codex/APIで利用可。",
+      "summary": "2026年7月9日、OpenAIが「GPT-5.6」を発表。Sol/Terra/Lunaの3階層で、maxやultraの強化推論（ultraは複数エージェント並列）を用い実務向けAIエージェントとしてコーディング、調査、ツール連携、UI設計などを少ないトークンで効率的に処理。ChatGPT/Codex/APIで利用可能。",
       "source": "npaka",
       "publishedAt": "2026-07-09T17:25:40.000Z",
-      "contentHash": "6178e8c537d0"
+      "contentHash": "2b8025404797"
     },
     {
       "id": "ecd4a351ef58",
@@ -8802,204 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-06-23T19:45:07.000Z",
       "contentHash": "b8e3b9de3fb0"
-    },
-    {
-      "id": "4725a678ff9c",
-      "title": "Algorithmic Monocultures in Hiring",
-      "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-      "summary": "3.4M人の応募データを基にした大規模研究で、単一ベンダーの採用AIが人種間で不利益を生み、同一候補者が複数企業で一律に排除されることが判明。EEOC基準で差別的影響を確認し、AI依存が不平等を拡大すると警告。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-23T18:56:19.000Z",
-      "contentHash": "2512717c5921"
-    },
-    {
-      "id": "c89ab99c82d8",
-      "title": "Jerry's Map",
-      "url": "http://www.jerrysmap.com/the-map",
-      "summary": "ジェリーは1963年に落書きとして架空都市の地図を描き始め、1983年に中断後、息子ヘンリーの発見で再開。現在は4000枚超の8×10インチパネルで円形を成す“仮想世界”で、固定座標上の各パネルを作家の自作カードデッキの指示に従い混合技法で継続的に改変している。ブログやr/jerrymappingも存在。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-23T18:40:22.000Z",
-      "contentHash": "828ede83ecfa"
-    },
-    {
-      "id": "072c0c397337",
-      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "url": "https://openai.com/index/gpt-5-immunology-mystery",
-      "summary": "GPT-5 Proが3年間未解決だった免疫学の謎を解き、T細胞の挙動に関する新たな知見を提示。これによりがんや自己免疫疾患の研究や治療開発に役立つ可能性がある。",
-      "source": "OpenAI",
-      "publishedAt": "2026-06-23T17:00:00.000Z",
-      "contentHash": "aaa8279df29f"
-    },
-    {
-      "id": "6a2c7b0368e0",
-      "title": "F3",
-      "url": "https://github.com/future-file-format/f3",
-      "summary": "F3は効率性・相互運用性・拡張性（埋め込みWasmデコーダ）を重視した次世代オープンソースデータフォーマット。Parquetのレイアウト欠点を是正する研究プロトタイプで本番非推奨。Debian向けビルド/テスト、ベンチ、実験再現手順（doc/paper_reproduction.md）やMITライセンスあり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-23T16:53:32.000Z",
-      "contentHash": "fbf11ff0a73d"
-    },
-    {
-      "id": "089e74ee66ac",
-      "title": "Here are the best Prime Day deal on the Verge staff’s favorite stuff",
-      "url": "https://www.theverge.com/gadgets/952503/best-prime-day-deals-verge-favorites-2026",
-      "summary": "The VergeがPrime Day 2026でスタッフお気に入りのガジェットや周辺機器の割引を紹介する記事。Apple製品やロボット掃除機、Logitech MX Master 3Sなどのお得情報を掲載。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-23T16:00:00.000Z",
-      "contentHash": "1c5b722b6aa4"
-    },
-    {
-      "id": "87bcd4d02478",
-      "title": "Netflix’s next TV gaming experiment will scare the hell out of you",
-      "url": "https://www.theverge.com/entertainment/953933/unhinged-netflix-horror-tv-game",
-      "summary": "NetflixはTV向けクラウドゲームを拡大中。6月30日配信の『Unhinged』はOxenfree開発のNight School Studio製短編インタラクティブホラーで、残酷で恐ろしく同社のゲーム戦略の方向性を示す可能性がある。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-23T16:00:00.000Z",
-      "contentHash": "45e3257ac425"
-    },
-    {
-      "id": "ae67da9a03a7",
-      "title": "Something&#8217;s off with Midjourney’s pivot to body scanners",
-      "url": "https://www.theverge.com/report/954826/midjourney-medical-ai-ultrasound-body-scanner-lacks-evidence",
-      "summary": "画像生成で知られるMidjourneyが医療画像に転身。水に浸す次世代超音波スキャナーを発表し「MRI並みでスパ感覚」を謳うが、CEOのMRI超え示唆に専門家は根拠不足で懐疑的だ。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-23T15:56:35.000Z",
-      "contentHash": "89b4d14eadd7"
-    },
-    {
-      "id": "6ffe69d84094",
-      "title": "Meta’s smart glasses now have a dedicated charging stand",
-      "url": "https://www.theverge.com/tech/954900/meta-glasses-charging-stand-price-launch",
-      "summary": "Metaがスマートグラス向けの専用充電スタンドを発売。59ドルで約1時間で満充電。金属製チューブの溝に差し込む方式でケースの代替に。Wayfarer/Skylar/Headliner等は対応、Ray‑Ban DisplayやOakley Vanguardは非対応。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-23T15:39:38.000Z",
-      "contentHash": "bf3958677de0"
-    },
-    {
-      "id": "a3e0a25aa0dd",
-      "title": "How much would the Steam Machine cost to build?",
-      "url": "https://www.theverge.com/games/953989/valve-steam-machine-pc-build-alternative",
-      "summary": "Valveの新Steam Machineは6インチの小型PCで、基本$1,049（512GB）、上位$1,349（2TB＋追加フェイスプレート）。PS5より高価だがPC扱いで16GB DDR5とカスタム6コアAMD搭載。記事では同等性能の自作ミニPC費用を試算。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-23T15:30:00.000Z",
-      "contentHash": "6e0e9c7a6c29"
-    },
-    {
-      "id": "af5dcc7138d1",
-      "title": "AI's Affordability Crisis",
-      "url": "https://blog.dshr.org/2026/06/ais-affordability-crisis.html",
-      "summary": "AI企業が「最初は無料」で利用を大幅補助し需要を作り、後で高額回収しようとする手法が問題に。CahnやZitronらが早期に警鐘を鳴らし、月200ドルプランで数千〜1万ドル相当のトークン消費が可能、補助コストは収入の8〜14倍との報告がある。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-23T15:11:17.000Z",
-      "contentHash": "a4deb436a841"
-    },
-    {
-      "id": "654798678f8a",
-      "title": "The Fitbit Air takes a smarter approach to the AI health dumpster fire",
-      "url": "https://www.theverge.com/tech/954768/google-fitbit-air-review-fitness-tracker-wearable-ai-health-coach",
-      "summary": "記事はGoogleの新型スマートリング「Fitbit Air」を評価。Google HealthのAIコーチが睡眠やHRV、暑さを問題視し水分補給や運動見合わせを促すなど、AI対応ヘルストラッカーとして比較的優秀だと伝える。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-23T15:00:00.000Z",
-      "contentHash": "20d527a15bcd"
-    },
-    {
-      "id": "46e8746e8b43",
-      "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
-      "url": "https://tikz.dev/editor/",
-      "summary": "TikZのWYSIWYGエディタを公開。ソースと図を同時表示・相互編集可能で、要素移動は元コード中の座標数値だけを書き換える。多くのTikZ機能を再実装しSVG/pptx/ipe変換や多行ノード・色指定対応を含み、ほぼCodexで構築。コーディングエージェントの有用性を示す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-23T14:24:21.000Z",
-      "contentHash": "55d9c49b2162"
-    },
-    {
-      "id": "2d63069d2e24",
-      "title": "Elevated error rate across multiple models",
-      "url": "https://status.claude.com/incidents/jbhf20wjmzrf",
-      "summary": "「複数モデルでのエラー率上昇」の通知をメール／SMSで受け取れます。インシデントの更新はメールで、Claudeがインシデントを作成・解消した際はSMSで通知されます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-23T14:19:47.000Z",
-      "contentHash": "4c482a487538"
-    },
-    {
-      "id": "596d03755159",
-      "title": "What we call \"age verification\" is actually mass surveillance",
-      "url": "https://pluralistic.net/2026/06/23/destroy-the-village/",
-      "summary": "子どもを守る名目の「年齢認証」は、実際には大規模な監視制度で極めて危険だ。オンライン被害の研究は複雑で証拠が薄いのに、最小年齢策は全利用者の細かな行動追跡と記録を招く。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-23T14:04:43.000Z",
-      "contentHash": "149d1522a94e"
-    },
-    {
-      "id": "5da62f2b8762",
-      "title": "Mistral OCR 4",
-      "url": "https://mistral.ai/news/ocr-4/",
-      "summary": "MistralがOCR 4を発表。バウンディングボックス、ブロック分類、インライン信頼度付きのテキスト抽出を提供し、170言語対応・単一コンテナでセルフホスト可能。ベンチで高評価（OlmOCRBench最高、独立評価で優位）で、RAGや企業検索向けにSearch Toolkitと統合。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-23T14:03:19.000Z",
-      "contentHash": "171cd7f456a7"
-    },
-    {
-      "id": "20f94753e3ad",
-      "title": "Hoto’s 25-bit electric screwdriver is 40 percent off during Prime Day",
-      "url": "https://www.theverge.com/gadgets/953038/hoto-electric-screwdriver-kit-pro-amazon-deal-sale",
-      "summary": "Hotoの3.6V電動ドライバー（25ビット）はPrime Dayで約40%オフの$28.49。充電式でスチールビット・延長バー・トルク調整付き、携帯性に優れAmazonやWalmartで販売。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-23T14:00:00.000Z",
-      "contentHash": "671f9662b648"
-    },
-    {
-      "id": "eda7c57ad7e4",
-      "title": "MSG Made Dossier on Activists Who Opposed Facial Recognition",
-      "url": "https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/",
-      "summary": "マディソン・スクエア・ガーデン（MSG）が、顔認識技術を批判した活動家のツイートや発言を社内で閲覧可能な名簿にまとめていたことが、ハッキングで流出した45GBのデータで判明。EFFのアダム・シュワルツらも含まれ、生体監視の中止を求める声が上がった。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-23T13:36:10.000Z",
-      "contentHash": "540e39174d04"
-    },
-    {
-      "id": "f91f24889e00",
-      "title": "The Oura Ring 4 is as low as $226 for Prime Day",
-      "url": "https://www.theverge.com/gadgets/953517/oura-ring-4-prime-day-smart-ring-deal-sale",
-      "summary": "Oura Ring 4がPrime Dayで最安$226に値下げ（定価$349）。最新のRing 5よりやや厚めだが、センサーやソフトはほぼ同等でサイズ展開も広く、お買い得。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-23T13:30:00.000Z",
-      "contentHash": "3592dd546681"
-    },
-    {
-      "id": "34fce8c42192",
-      "title": "Sony’s AI Camera Assistant is exactly as bad as it looks",
-      "url": "https://www.theverge.com/tech/954676/sony-xperia-1-viii-ai-camera-assistant",
-      "summary": "ソニーのAIカメラアシスタントは期待外れだ。Xperia 1 VIIIで試した筆者は、公開サンプル同様に画質が悪く、GoogleのCamera Coachより劣り、AI加工風の不自然な写真になると批判している。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-23T13:25:42.000Z",
-      "contentHash": "e27b326dda25"
-    },
-    {
-      "id": "e32920c22956",
-      "title": "Snowflake PostgresのACIDとdata mirroringを検証してみる【連載3日目・詳細編】 | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/0023-snowflake-postgres-day23-verification",
-      "summary": "Fusicの岡山氏がSnowflake上のPostgreSQLを検証。テーマは①ACID互換性②データミラー遅延③未COMMITの可視性④pg_incrementalの「パイプラインレス」、分離レベルやIceberg更新も。環境はPG18.4・pg_lake等で、初期でROLLBACKによる原子性はコミュニティ版と同等と確認。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-23T13:06:28.000Z",
-      "contentHash": "4a90417ab446"
-    },
-    {
-      "id": "aec47bf76556",
-      "title": "Helping build shared standards for advanced AI",
-      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-      "summary": "OpenAIはAppia財団を通じ、先進的AIの共通基準策定を支援し、評価フレームワークや安全対策、国際的な協力を推進している。",
-      "source": "OpenAI",
-      "publishedAt": "2026-06-23T13:00:00.000Z",
-      "contentHash": "daa7b54818c2"
-    },
-    {
-      "id": "11b86268bb2d",
-      "title": "Unlimited OCR: One-Shot Long-Horizon Parsing",
-      "url": "https://github.com/baidu/Unlimited-OCR",
-      "summary": "Unlimited-OCRを公開（arXiv・ModelScope）。ワンショットで長尺文書を解析するOCRモデル。HuggingFace＋NVIDIA GPUで推論可能。必要環境・依存パッケージ、単一画像・複数ページ／PDF処理の使用例を提供。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-23T11:35:05.000Z",
-      "contentHash": "fb02f0e44ab9"
     }
   ]
 }
