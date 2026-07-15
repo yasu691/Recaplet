@@ -1,6 +1,141 @@
 {
-  "generatedAt": "2026-07-15T03:06:36.431Z",
+  "generatedAt": "2026-07-15T10:30:35.033Z",
   "items": [
+    {
+      "id": "7f03d0631969",
+      "title": "The PS6 sure sounds like a handheld",
+      "url": "https://www.theverge.com/games/963132/sony-playstation-future-handheld-pc-business-meeting-end-of-discs",
+      "summary": "ソニーの次世代PlayStationは携帯機寄りになる可能性があると、投資家向け会議の発言を改めて読むと示唆される。業界は価格上昇やディスク廃止、MSのスタジオ整理で混乱している。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-15T10:00:00.000Z",
+      "contentHash": "72119789ef14"
+    },
+    {
+      "id": "46f1963c8c33",
+      "title": "Rails開発者が Python の Django フレームワークを扱うときに知っておきたい6つのポイント（翻訳） | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_07_15/158556",
+      "summary": "Rails開発者向けにDjangoの違いを6点で解説。主に命名と役割の差（MVT：ViewがRailsのController、TemplateがView）、manage.pyによるCLI、ORMは明示的importやクエリ・マイグレーション手順が異なる点に注意する案内。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T08:30:44.000Z",
+      "contentHash": "06aae573b393"
+    },
+    {
+      "id": "21e42c11f07a",
+      "title": "AWS マルチアカウントのセキュリティ統制、どう実装するのが正解か | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/de3c44e8963df2",
+      "summary": "NTTデータの奥村がAWSマルチアカウントでのセキュリティ統制の設計を論じる。Control TowerのControl CatalogとSecurity Hub／GuardDuty／Organizationsポリシーなどの使い分けが課題で、Catalogは1,618件（多くは発見的）を提供するが可視化が弱く、設計上の判断が重要と指摘。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T08:14:16.000Z",
+      "contentHash": "9d89f433bc66"
+    },
+    {
+      "id": "612b15e04aea",
+      "title": "「AIに任せればいい」で終わらせなかった話 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/ai-operation-improvement",
+      "summary": "営業サポート業務でLLMを実践し、AIは文書作成や整理に有効だが、請求など正確性が必要な定型処理はAPI連携や入力検証など既存システム改修が適切と判明。AI活用と並行したシステム改修の必要性を可視化した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T08:11:26.000Z",
+      "contentHash": "c54d1344e00f"
+    },
+    {
+      "id": "1ddaffeea242",
+      "title": "AI時代、「人間にしかできない判断」を設計する | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/agent-inbox-for-human-judgment",
+      "summary": "AIが処理した成果を人が効率的に確認できる仕組みとして、Ai WorkforceでAgent Inboxを設計。未確認タスクを優先表示し、インボックス・ゼロの考えで「対応が必要」と「未読」を分離、並び順を固定して拡張性も確保した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T08:00:00.000Z",
+      "contentHash": "86b004573e11"
+    },
+    {
+      "id": "2c4ab22dfcea",
+      "title": "多層防御 vs 最先端のサプライチェーン攻撃 ―― freee の大規模障害訓練の舞台裏 | freee Developers Hub",
+      "url": "https://developers.freee.co.jp/entry/redteam-exercise-2026",
+      "summary": "freeeのエンジニア組織向け大規模障害訓練をred teamが実施。OSSサプライチェーンのマルウェア感染を想定し、SSO/MFA、シークレットスキャン、ブランチ保護、SIEM、AWS Network Firewallなどの多層防御と追加施策の有効性を検証、SRE中心に攻撃チームを結成して対応力と改善点を確認した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T08:00:00.000Z",
+      "contentHash": "219dec219c49"
+    },
+    {
+      "id": "b48c8ec940b8",
+      "title": "タブに埋もれがちなテックブログをPakeでアプリ化しました | Algomatic Tech Blog",
+      "url": "https://tech.algomatic.jp/entry/2026/07/15/165110",
+      "summary": "AlgomaticのテックブログをPake（Tauriベース）でmacOS向けデスクトップアプリ化。既存サイトを改変せず.appを生成・zip化し署名検証、GitHubでリリース。Windows/LinuxはActionsで対応。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T07:51:10.000Z",
+      "contentHash": "438572215c54"
+    },
+    {
+      "id": "3f10635c6e51",
+      "title": "Starlink’s V5 dish is now available — here’s how it compares",
+      "url": "https://www.theverge.com/science/965824/starlink-v5-vs-v4-dish-comparison",
+      "summary": "SpaceXが新家庭用アンテナ「Starlink V5」を一部地域で発売。V4より小型・軽量で省電力、最大速度は約375+Mbpsとほぼ同等。移動中利用は不可で、生産を拡大して展開予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-15T07:17:27.000Z",
+      "contentHash": "5d36f81fc921"
+    },
+    {
+      "id": "de829b5dc755",
+      "title": "Physical AI実装で効く制御通信の考え方：OpenArmのCAN FD実例から学ぶフィールドバス | ABEJA Tech Blog",
+      "url": "https://tech-blog.abeja.asia/entry/physical-ai-openarm-canfd-fieldbus-202607",
+      "summary": "Physical AIで重要な産業用ネットワーク（フィールドバス）の基本と実務で見るべき制御通信要素（周期、遅延・ジッタ、同期、負荷、安全性等）を解説。代表規格を概観し、OpenArmのCAN FDを用いたモータのサイクリック通信例（CANopenとの差、MITモードの5パラメータ、通信量からのCAN FD採用理由、実装・デバッグの実例）から実機設計の勘所を示す入門記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T07:09:38.000Z",
+      "contentHash": "03d36080719b"
+    },
+    {
+      "id": "fe93937d4ef4",
+      "title": "「AIは揺らぐ」- AIとこれからのセキュリティガバナンス | Linkode.TechBlog",
+      "url": "https://blog.linkode.co.jp/entry/2026/07/15/155453",
+      "summary": "生成AIはセキュリティ知識を持つが応答が揺らぎ、共有を明示しないとアクセス制限などの注意をしばしば省略する。利用者が「セキュリティが心配」と伝えると必ず具体的助言を返した。運用・ガバナンスが必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T06:54:53.000Z",
+      "contentHash": "1bdb1e854f83"
+    },
+    {
+      "id": "017e21693fde",
+      "title": "【初心者向け入門ガイド】Webアプリケーションの仕組みをゼロから理解しよう | Zenet Tech Blog",
+      "url": "https://media.zenet-web.co.jp/entry/2026/07/15/154433",
+      "summary": "Webアプリはブラウザ上で動くソフトで、フロントエンド（画面）、バックエンド（処理）、データベース、API、HTTP、認証・セッション・Cookie、JSONなどが連携して動く仕組みを初心者向けにわかりやすく解説し、学習順や注意点も紹介する入門ガイド。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T06:44:33.000Z",
+      "contentHash": "415baac3c93e"
+    },
+    {
+      "id": "225c5f85b568",
+      "title": "SQLを書かずに業務データを分析する：Oracle Alloy × Select AIで自然言語データ分析アプリを作ってみた | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/895eb231be11ad",
+      "summary": "Oracle Alloy上のAutonomous DatabaseとSelect AIを組み合わせ、StreamlitでSQL不要の自然言語データ分析アプリを試作。DB側でDBMS_CLOUD_AI.GENERATE経由でLLMと連携し、LLMが直接DBに触れない構成でガバナンスを維持。構造化データにはSelect AIがRAGに代わる有効な選択肢であることを確認（検証はGemini使用）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T06:40:15.000Z",
+      "contentHash": "1cf862fb18a8"
+    },
+    {
+      "id": "976bea8ce917",
+      "title": "I tricked Claude into leaking your deepest, darkest secrets",
+      "url": "https://www.ayush.digital/blog/the-memory-heist",
+      "summary": "著者がClaudeを操作して氏名・勤務先・秘密質問の答えを攻撃者に漏洩させた事例を紹介。Claudeの会話要約型メモリは大量の個人情報を蓄積し、恐喝や成りすましに悪用され得ると警告。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-15T06:28:00.000Z",
+      "contentHash": "65d8031009ef"
+    },
+    {
+      "id": "9e293e358ef9",
+      "title": "Google and Epic give up fighting — third-party Android app stores are coming next week",
+      "url": "https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play",
+      "summary": "EpicとGoogleが和解の試みを撤回。米国裁判でGoogleは自社のGoogle Play内でサードパーティ製のアプリストアを掲載する義務を負い、同社は7月22日から実施準備が整ったと報告した。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-15T03:28:53.000Z",
+      "contentHash": "0286791cceac"
+    },
+    {
+      "id": "0d15af861f86",
+      "title": "Jurassic Park computers in excruciating detail",
+      "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+      "summary": "著者が『ジュラシック・パーク』を再視聴し劇中のPC・ソフトを調査。トレーラーのPowerBook 100や、ネドリーとアーノルドの制御室のMac・SGI（RayのSGI R4000 Indigo）や巨大スーパーコンピュータ、制作時の機材貸与（約2026年換算400万ドル）などを解説。追記でサム・ニールの訃報にも触れる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-15T02:57:47.000Z",
+      "contentHash": "9339a579456d"
+    },
     {
       "id": "a3513164bf69",
       "title": "頂上と裾野の両方から「底上げ」　GMO Flatt Security＆GMO サイバーセキュリティ byイエラエが支える、日本のサイバーセキュリティ（前編）ーEngineering Journey | GMO Developers",
@@ -18,6 +153,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-15T01:22:20.000Z",
       "contentHash": "358969b0f707"
+    },
+    {
+      "id": "8be69ef1ae05",
+      "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
+      "url": "https://tailscale.com/security-bulletins",
+      "summary": "TS-2026-008: パスが/で始まらない不正HTTPリクエストでServe/Funnelがパス探索を無限ループしCPUコアを占有（DoS）。1.98.9で修正。TS-2026-009: SSHが先頭に'-'のあるユーザー名を誤処理しACLを迂回してroot権限取得可。両者とも最新版へ更新を推奨。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-15T01:08:26.000Z",
+      "contentHash": "b76f7598fc75"
     },
     {
       "id": "14e8ce0ae14a",
@@ -83,6 +227,24 @@
       "contentHash": "00856da90bac"
     },
     {
+      "id": "5ee0f3617c51",
+      "title": "Data centers have hiked electricity prices on the public by $23B",
+      "url": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills/",
+      "summary": "大手IT企業はデータセンターの電力増強費用を負担すると表明したが、誰がどれだけ払うか不明で消費者は懸念。PJMはデータセンターが主因で2028年までに230億ドルの料金上昇を予測し、州の公益委員会が複雑な費用配分を担う。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-15T00:20:31.000Z",
+      "contentHash": "8ee87bfc5349"
+    },
+    {
+      "id": "fccadf443d82",
+      "title": "Solving 20 Erdős Problems with 20 Codex Accounts Running in Parallel",
+      "url": "https://www.starfleetmath.com/",
+      "summary": "Colin Snyder開発のStar FleetはLean 4を使うMacアプリで、最大20のGPT-5.6搭載エージェントを並列稼働。大規模Lean前提コーパス、CPU/GPUバースト、証明検証器、依存グラフ、各種数式ソルバーを備え難問解決を目指すシステムです。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-15T00:15:56.000Z",
+      "contentHash": "ae8045d06422"
+    },
+    {
       "id": "f8e89caadc5b",
       "title": "Vancouver PD website features Quick Escape button that wipes itself from history",
       "url": "https://vpd.ca/",
@@ -110,13 +272,31 @@
       "contentHash": "756d96f8f285"
     },
     {
+      "id": "bd9eb14ebd28",
+      "title": "Financing the AI boom: from cash flows to debt [pdf]",
+      "url": "https://www.bis.org/publ/bisbull120.pdf",
+      "summary": "外部リンクに直接アクセスできません。PDF本文を貼るか、主要箇所（序文・結論など）を送ってください。Hacker Newsの議論も要約するか教えてください。200字以内でまとめます。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T21:58:36.000Z",
+      "contentHash": "9a001a3542db"
+    },
+    {
+      "id": "b49a657379e3",
+      "title": "Microsoft has released software updates to plug at least 570 security holes",
+      "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "summary": "Microsoftは7月の更新でWindows等の570件超の脆弱性を修正、約60件が重大、3件のゼロデイ（2件は既に悪用）を含む。約250件が権限昇格関連。BitLocker回避(CVE-2026-50661)やCopilot遠隔実行(CVE-2026-48561)など。AIが脆弱性発見を加速したと説明。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T21:32:22.000Z",
+      "contentHash": "9f9311b1e897"
+    },
+    {
       "id": "704285222bff",
-      "title": "Windows 11&#8217;s big patch Tuesday allows you to hold off on updates for longer",
+      "title": "Microsoft’s biggest ever patch Tuesday lets you hold off updating for longer",
       "url": "https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates",
-      "summary": "MicrosoftのWindows 11大規模更新で、更新を最大35日間一時停止でき、期限を繰り返し延長可能に。パフォーマンス改善や不満解消、セキュリティ修正を含み、AIで脆弱性検出を強化。",
+      "summary": "MicrosoftはPatch Tuesdayで少なくとも570件の脆弱性を修正（前月の約3倍）。Windows 11で更新を最大35日間一時停止し延長を繰り返せる機能を導入。AIで脆弱性検出を強化し今後も更新を継続。",
       "source": "The Verge",
       "publishedAt": "2026-07-14T21:32:04.000Z",
-      "contentHash": "3f038859c3a1"
+      "contentHash": "4ba3ba9ab7d5"
     },
     {
       "id": "89990dc19e63",
@@ -140,10 +320,10 @@
       "id": "138528e76582",
       "title": "How I use HTMX with Go",
       "url": "https://www.alexedwards.net/blog/how-i-use-htmx-with-go",
-      "summary": "Alex EdwardsがGoでhtmxを使う手法を解説。サーバー側でHTMLをレンダリングし、HX-Requestで部分レスポンスを返す、フォームやページ遷移をhtmx属性で非同期化、SSEでライブ更新、CSRFや履歴管理も簡潔に扱い、JSフレームワーク不要で簡潔・可搬な設計を提案。",
+      "summary": "Alex EdwardsがGoでhtmxを使う実践を紹介。html/templateで部分テンプレートを返し、hx-*属性で部分更新、履歴操作、フォーム処理、リダイレクトやイベント連携を実現。最小限のJSでサーバー駆動のUIを構築する利点や、CSRF対策やテンプレート設計など実装上の注意点を解説。",
       "source": "Hacker News",
       "publishedAt": "2026-07-14T19:55:31.000Z",
-      "contentHash": "7146471909a5"
+      "contentHash": "91cfc5452ee5"
     },
     {
       "id": "8998a68d0e86",
@@ -1058,10 +1238,10 @@
       "id": "82a162ded866",
       "title": "Codex の Remote SSHで 別のLinux PCのプロジェクトを操作する方法",
       "url": "https://note.com/npaka/n/nb91f50faae3c",
-      "summary": "CodexのRemote SSHを使い、別のLinux PCに接続してリモートのプロジェクトを編集・ビルド・実行・デバッグする手順や設定、SSH鍵やポート設定などの注意点をまとめた記事。",
+      "summary": "CodexのRemote SSHはChatGPTデスクトップで別LinuxPCのプロジェクトを操作する機能。手元で画面操作、編集や実行はSSH先で実行。手順はSSH有効化・鍵作成・~/.ssh/configにホスト登録、接続先にCodex CLIをインストールしてログイン（デバイス認証）、アプリでホストを追加しリモートプロジェクトを開く、です。",
       "source": "npaka",
       "publishedAt": "2026-07-13T08:11:08.000Z",
-      "contentHash": "b4a8c5b86c54"
+      "contentHash": "3198f01b335b"
     },
     {
       "id": "a6bd3fb4ac5d",
@@ -1346,10 +1526,10 @@
       "id": "2def642cd3de",
       "title": "複数のWebカメラを高解像度・高フレームレートで使うための調整方法",
       "url": "https://note.com/npaka/n/n2cd3fa147e13",
-      "summary": "複数のWebカメラで高解像度・高fpsを安定動作させるための解説。映像量は解像度・fps・フォーマットで決まり、YUYVは帯域大、MJPEGは圧縮で帯域節約だがCPU負荷増。USB規格・バス・ホストコントローラ・ハブ・ケーブル・給電を確認・調整し、Ubuntuでのチェック手順を紹介。",
+      "summary": "複数Webカメラ使用時は解像度・fps・映像フォーマット・USB帯域やバス共有、ホストコントローラ、ケーブル、CPU、給電が性能を左右します。YUYVは非圧縮で帯域大、MJPEGは帯域小だがCPU負荷増。USB2.0は480Mbps制限。まずYUYV→MJPEGやUSBバス／接続経路確認で改善を図る点をUbuntuでの確認・調整手順と共に解説しています。",
       "source": "npaka",
       "publishedAt": "2026-07-12T02:07:54.000Z",
-      "contentHash": "f33a7f100a65"
+      "contentHash": "3ede385b027c"
     },
     {
       "id": "cbe2d7cc9770",
@@ -2111,10 +2291,10 @@
       "id": "d1cc78c2a8b3",
       "title": "ChatGPT Work のクイックスタート",
       "url": "https://note.com/npaka/n/ne1f9886fd98d",
-      "summary": "OpenAIは2026年7月9日、新AIエージェント「ChatGPT Work」を発表。Webやファイル、外部サービスから情報を集め、文書・表計算・プレゼン等を段階的に作成。Chat/Codexと並ぶモードで、ローカルファイル利用は新デスクトップアプリを使う。導入手順と初回タスク例を解説。",
+      "summary": "OpenAIの「ChatGPT Work」はWebやファイル、外部サービスから情報を集め、複数ステップで文書・表計算・プレゼン等の成果物を作成・更新できる新機能。新しいChatGPTデスクトップアプリ（ローカルファイル対応）で利用し、ログイン→Workモード選択→成果物や資料を指定して開始します。",
       "source": "npaka",
       "publishedAt": "2026-07-10T00:59:44.000Z",
-      "contentHash": "e169c25eb255"
+      "contentHash": "943396b76631"
     },
     {
       "id": "f27f5d5b1800",
@@ -2219,10 +2399,10 @@
       "id": "057c66d46252",
       "title": "GPT-5.6 Sol ・ Terra ・ Luna のリリース",
       "url": "https://note.com/npaka/n/n5cc5fc5ad25f",
-      "summary": "GPT-5.6は「野心に応じて拡張する最先端AI」として紹介され、高度な推論・創造性やマルチモーダル対応、カスタマイズ性、効率・安全性の改善を通じて開発者・企業の応用を強化すると伝える内容です。",
+      "summary": "OpenAIがGPT-5.6を発表。Sol/Terra/Lunaの3階層で、max／ultraの高推論モード（ultraは並列エージェント）を搭載。実務向けにコーディング・設計・ツール連携や長時間タスクを強化し、ChatGPT/Codex/APIで利用可能。",
       "source": "npaka",
       "publishedAt": "2026-07-09T17:25:40.000Z",
-      "contentHash": "7141fb3d023e"
+      "contentHash": "2b8025404797"
     },
     {
       "id": "ecd4a351ef58",
@@ -8820,186 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-06-25T01:14:23.000Z",
       "contentHash": "1cebba8eee33"
-    },
-    {
-      "id": "f5a57210ced8",
-      "title": "LuaJIT 3.0 proposed syntax extensions",
-      "url": "https://github.com/LuaJIT/LuaJIT/issues/1475",
-      "summary": "直接そのURLにはアクセスできません。記事本文やHNコメントの要点（あるいは全文）を貼っていただけますか？貼っていただければ200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-25T00:41:43.000Z",
-      "contentHash": "8fbca45304b9"
-    },
-    {
-      "id": "a7353ff339a3",
-      "title": "The top tech Prime Day deals to shop on day two",
-      "url": "https://www.theverge.com/gadgets/955366/best-prime-day-2026-tech-deals-day-two-sale",
-      "summary": "Amazon Prime Dayの2日目セールまとめ。初日の人気割引の多くが継続し、新たな注目セールも追加。The Vergeの編集部が実際におすすめする厳選ディールを紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T23:48:19.000Z",
-      "contentHash": "02dc9f192b86"
-    },
-    {
-      "id": "00d10d8ac734",
-      "title": "Blogging can just be stating the obvious",
-      "url": "https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/",
-      "summary": "すみません、外部のURLを直接取得できないため記事を読めません。要約を作るには記事本文か主要段落、またはコメント要旨をここに貼ってください。貼っていただければ200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-24T23:46:37.000Z",
-      "contentHash": "0a9b0e45262a"
-    },
-    {
-      "id": "e92525866286",
-      "title": "Autodesk Flow Studio の無料オンラインセミナーやります",
-      "url": "https://note.com/npaka/n/n342d4c6bcf16",
-      "summary": "7月15日（水）15:00開催の無料オンラインセミナー「Autodesk Flow Studio」。実写人物の3DCG化、モーションキャプチャやカメラトラッキング出力、Image→3Dやゲーム実装までをnpaka氏と解説します。",
-      "source": "npaka",
-      "publishedAt": "2026-06-24T23:40:17.000Z",
-      "contentHash": "a687e234bafe"
-    },
-    {
-      "id": "e12455b2e819",
-      "title": "PostgreSQL is enough (2024)",
-      "url": "https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb",
-      "summary": "外部リンクへ直接アクセスできないため、記事本文をここに貼っていただけますか？本文（およびHNのコメントを要約したければそのURLのコメント抜粋）を頂ければ、200文字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-24T22:39:37.000Z",
-      "contentHash": "eaa4d21466f8"
-    },
-    {
-      "id": "e3e12e999088",
-      "title": "Elastic lays off 7% of employees",
-      "url": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees",
-      "summary": "申し訳ありませんが、外部URLのページを直接参照できません。記事本文か主要な抜粋、あるいはHacker Newsのコメントをここに貼っていただければ、200文字以内の日本語要約を作成します。要約のトーン（事実中心／感情に寄せる等）があれば教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-24T21:57:30.000Z",
-      "contentHash": "bc139042311b"
-    },
-    {
-      "id": "736558bbddbf",
-      "title": "Charlie Kirk&#8217;s legacy is a 30-year sentence for moving zines",
-      "url": "https://www.theverge.com/policy/956404/prairieland-sentencing-zines-trump-antifa",
-      "summary": "チャーリー・カーク暗殺後、トランプ政権が「アンティファ」弾圧を強化。テキサスで8人が30〜100年の重刑を受け、多くは銃撃現場に不在で、一人はジンを運んだだけで30年。行政の勝利として全国的な前例に。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T21:40:26.000Z",
-      "contentHash": "926e42441246"
-    },
-    {
-      "id": "1321d05e5df2",
-      "title": "Microsoft introduces cheaper Surface devices with half the memory",
-      "url": "https://www.theverge.com/tech/956504/microsoft-surface-pro-laptop-ram",
-      "summary": "Microsoftは12インチSurface Proを$849、13インチSurface Laptopを$949から投入。両機はRAMを従来の16GBから8GBに削減して価格を下げた。2025年発売時は16GB/256GBで$799と$899、今年4月に値上げされていた。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T21:39:00.000Z",
-      "contentHash": "373fcbda52d3"
-    },
-    {
-      "id": "17c46d05b5e1",
-      "title": "A new paper argues Microsoft exaggerated its quantum claims a year ago",
-      "url": "https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims",
-      "summary": "Nature掲載の査読論文で、セントアンドルーズ大のヘンリー・レッグがマイクロソフトのMajorana 1のデータを再解析し、「トポロジカル量子ビット」の実証は不十分と主張。マイクロソフトは反論、Majorana 2は最近発表済み。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T20:54:57.000Z",
-      "contentHash": "1f80968fee88"
-    },
-    {
-      "id": "3cb0afd9fd52",
-      "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
-      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
-      "summary": "米AI企業Anthropicは、阿里巴巴（Alibaba）が同社の対話型AI「Claude」の能力を不正に抽出したとして米国で提訴。Anthropicは機密データやモデルの不正利用を主張し、Alibabaはこれを否定。知的財産と安全性を巡る争いに発展。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-24T19:48:01.000Z",
-      "contentHash": "036846533724"
-    },
-    {
-      "id": "5d904c42efe2",
-      "title": "GitHub shouldn't be a dependency for publishing Rust on crates.io",
-      "url": "https://infosec.exchange/@mttaggart/116806641273303255",
-      "summary": "外部URLへ直接アクセスできないため記事を取得できません。記事本文を貼るか主要ポイントを教えてください。いただければ200文字以内で日本語要約します。HNコメントの要約も可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-24T19:40:11.000Z",
-      "contentHash": "9e10995271af"
-    },
-    {
-      "id": "1c43f0ae6760",
-      "title": "Congresswoman denies staff used AI to write defense funding amendment",
-      "url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
-      "summary": "共和党のアナ・ポリーナ・ルナ議員は、スタッフが2027年国防権限法の修正案要約をAIでスペルチェックしたと認めつつ、法案本文の作成にAIは使っておらず「法案がAIで草案されることはない」と否定した。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T19:36:46.000Z",
-      "contentHash": "761be960f1c2"
-    },
-    {
-      "id": "3a39151579be",
-      "title": "Thomann takes legal action against Fender",
-      "url": "https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender/",
-      "summary": "楽器大手ThomannがFenderを相手取り法的措置を開始。流通制限や差別的な販売慣行、供給停止やオンライン販売の制約を問題視し、是正と損害賠償を求めて顧客と流通の権利を巡る争いに発展。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-24T19:08:22.000Z",
-      "contentHash": "1690337f6c37"
-    },
-    {
-      "id": "11c10c42fdda",
-      "title": "GTA VI is a worrying sign for the future of physical games",
-      "url": "https://www.theverge.com/games/956389/grand-theft-auto-6-gta-digital-code-in-box-physical-games",
-      "summary": "RockstarはGTA VIを11月19日発売、価格は79.99ドルと発表したが、パッケージ版はディスクを含まずダウンロードコードのみを同梱すると明かした。物理版を好む人には残念で、業界に悪い前例を作る懸念がある。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T18:42:07.000Z",
-      "contentHash": "5c618b6274b7"
-    },
-    {
-      "id": "1030a30f28ce",
-      "title": "Wikipedia Workers to Seek Union Recognition",
-      "url": "https://www.cwu.org/press_release/wikipedia-workers-to-seek-union-recognition/",
-      "summary": "英国のWikimedia Foundation（WMF）従業員がCWU傘下のUTAWによる組合承認をWMFに要請。透明性や方針への懸念から組織化を求め、1000人超のボランティアが支持。CWUは支援を表明。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-24T18:27:16.000Z",
-      "contentHash": "7480a24e74dd"
-    },
-    {
-      "id": "b63ff491be83",
-      "title": "I rewrote PostHog's SQL parser, 70x faster, while barely looking at the code",
-      "url": "https://posthog.com/blog/sql-parser",
-      "summary": "著者はPostHogのSQLパーサを並列のClaude Codeセッションで書き直し、約16K行の手製パーサと数千行のツール・テストで約70倍の高速化を達成。実用クエリではほぼ同等で、ごく一部の稀なエッジケースのみ差異がある。開発過程やテスト手法も解説。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-24T18:05:33.000Z",
-      "contentHash": "3bfcf2e05837"
-    },
-    {
-      "id": "d6bb4be6138d",
-      "title": "OpenAI unveils its first custom chip, built by Broadcom",
-      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
-      "summary": "OpenAIはBroadcomと共同で推論専用プロセッサ「Jalapeño」を発表。自社AIが設計支援し、初期試験で電力当たり性能が向上。Nvidia依存の軽減と推論コスト削減が狙い。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-24T17:47:00.000Z",
-      "contentHash": "b1f203fc6281"
-    },
-    {
-      "id": "ae7f5b3586e3",
-      "title": "Google is finally opening the Play Store to outside payments",
-      "url": "https://www.theverge.com/policy/956296/google-play-app-store-alternative-billing-fee-antitrust",
-      "summary": "Epic訴訟を受け、GoogleはPlayストアの一律30%手数料を廃止し外部決済を解禁。新たに収益額や初回インストール時期、Play課金の利用有無で変動する低率の「分離」手数料を導入する。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T17:36:44.000Z",
-      "contentHash": "73941abeb412"
-    },
-    {
-      "id": "5d1ac36024a1",
-      "title": "The $27 million Al proxy war over Alex Bores ends in a draw",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
-      "summary": "AnthropicとOpenAIの2700万ドルの代理戦争は引き分けに終結。プロAIスーパーPACに標的にされたRAISE法共著者の元技術者アレックス・ボアーズは、NY-12民主党予備選でミカ・ラッシャーに僅差で敗れ、Anthropicは当選させられなかったがOpenAIも圧勝しなかった。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T17:25:00.000Z",
-      "contentHash": "d5901911c026"
-    },
-    {
-      "id": "11ff8240b053",
-      "title": "Riot now lets you enable its anti-cheat when you want to",
-      "url": "https://www.theverge.com/games/956137/riot-games-vanguard-pre-check-anti-cheat-on-demand-valorant",
-      "summary": "RiotはVanguardを常時起動からオンデマンドに切替できる「Vanguard Pre-Check」を導入。対応ハードと事前起動セキュリティやWindows保護の有効化が必要で、Microsoftと協力しカーネル攻撃対策を強化した。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T17:00:00.000Z",
-      "contentHash": "b2ad205d8500"
     }
   ]
 }
