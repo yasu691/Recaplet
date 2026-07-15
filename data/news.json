@@ -1,6 +1,213 @@
 {
-  "generatedAt": "2026-07-14T17:42:34.198Z",
+  "generatedAt": "2026-07-15T03:06:36.431Z",
   "items": [
+    {
+      "id": "a3513164bf69",
+      "title": "頂上と裾野の両方から「底上げ」　GMO Flatt Security＆GMO サイバーセキュリティ byイエラエが支える、日本のサイバーセキュリティ（前編）ーEngineering Journey | GMO Developers",
+      "url": "https://developers.gmo.jp/technology/84242/",
+      "summary": "サイバー攻撃の高度化を受け、GMOグループの二社が日本のセキュリティ強化に取り組む。GMO Flattは開発者向けAIエージェント「Takumi」で開発端末を防御し、GMOサイバーセキュリティはASMとWeb脆弱性診断「ネットde診断」で中小企業のリスク可視化と底上げを目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T01:30:00.000Z",
+      "contentHash": "b917d0a6a76a"
+    },
+    {
+      "id": "e82975fcea44",
+      "title": "WSL2 + Claude Code が重い？犯人はAIじゃなかった ── VmmemWSLのメモリ肥大を95%→77%まで下げた話 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/slowly_vscode_claude",
+      "summary": "VS Code＋WSL2でClaude Codeを使うとPCが重くなったが、原因はAIではなくVS Code ServerとWSL2のメモリ解放不良。Claudeは軽量で、.wslconfigのautoMemoryReclaim設定と手動キャッシュ解放でVmmemWSLを約4.7GB→2.5GB、全体使用率95%→77%に改善。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T01:22:20.000Z",
+      "contentHash": "358969b0f707"
+    },
+    {
+      "id": "14e8ce0ae14a",
+      "title": "「if client1 {} else {}」を書かないために - 個社カスタマイズに耐えうるマルチテナントBtoBの設計と運用 | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/158ea33ec5cd0b",
+      "summary": "BtoBマルチテナントを単一コードベースで運用。個社カスタマイズはパラメータ化・Hooksで標準機能に落とし込み、Feature Flagで安全にデリバリー。コード分岐を避け、設定追加で導入可能にし保守負荷と事故リスクを低減。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T01:01:12.000Z",
+      "contentHash": "0408509d145b"
+    },
+    {
+      "id": "492686bda296",
+      "title": "S3 の時系列データを低コストで可視化する | サイボウズ 生産性向上チーム 💪のフィード",
+      "url": "https://zenn.dev/cybozu_ept/articles/self-hosted-grafana-on-aws",
+      "summary": "サイボウズ生産性向上チームは、S3に蓄積したVPC Flow LogsやDNS、EC2、Workflow JobsをまずDuckDBで検証し、その後Athena＋Iceberg＋Grafanaで低コストに可視化。セルフホストGrafanaによりNAT Gateway通信量やセルフホストランナーの待ち時間を監視し運用改善に活用している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T01:00:09.000Z",
+      "contentHash": "0900576c1b04"
+    },
+    {
+      "id": "41670a70c233",
+      "title": "インフラの枠を超えて。データと仕組みで、Digitization部の未来をつくる | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/07/15/100000",
+      "summary": "SIerや金融でインフラ・セキュリティを担ってきた中村勇介は2025年にSansanのDigitization部へ。AWS/GCP基盤とデータ基盤を整備し、データを起点に工程の可視化や業務改善、リアルタイム分析を推進。エンジニアが領域を越えて課題解決する社風に魅力を感じ転職。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T01:00:00.000Z",
+      "contentHash": "521f4e3e0630"
+    },
+    {
+      "id": "e38e1f6bd2a9",
+      "title": "AIエージェント×OAuth 2.0：Device Flowで社内データの安全な認可を実装した話 | エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/2026/07/15/100000",
+      "summary": "社内レポートは従来ブラウザSSOのセッションCookie前提でAIエージェントやCLIから参照できなかったため、OAuth2 Device Authorization Grantを認可システム側で実装。認証は既存SSOに任せ、まずWebで発行するPATで基盤を検証してからDevice Flowを導入した、という導入経緯と方針の報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T01:00:00.000Z",
+      "contentHash": "8e2fc2a316fe"
+    },
+    {
+      "id": "81a4aea7a255",
+      "title": "外部Webhook連携で実現するAWSクロスアカウントJITアクセス管理（申請・許可・却下） | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/aws-cross-account-jit-access-control",
+      "summary": "外部Webhook→API Gateway→Lambdaでssm:StartAccessRequestを起票し、Slack等で通知・ボタン操作によりssm:SendAutomationSignalで承認／却下することで、AWSクロスアカウントのJITノードアクセス申請フローをコンソール外から実現する手順（Lambda/IAM/API Gateway/クロスアカウントロール設定やテスト、Slack連携例）を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T01:00:00.000Z",
+      "contentHash": "2baf64fbaea6"
+    },
+    {
+      "id": "48adea1772dc",
+      "title": "認可の呼び出しコードはほぼそのまま、評価だけ手元に寄せる Cedar 評価 PHP 拡張を作った | 弁護士ドットコム株式会社 Creators’ blog",
+      "url": "https://creators.bengo4.com/entry/2026/07/15/094823",
+      "summary": "Amazon Verified Permissions（Cedar）の評価をプロセス内で行うPHP拡張を公開。AVPと同一APIを実装し、本番はAVP、ローカル/CI/オンプレは拡張で切替えられ、課金・ロックイン・テストの問題を解消する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T00:48:23.000Z",
+      "contentHash": "4bb6242ec19f"
+    },
+    {
+      "id": "3e09a57aefff",
+      "title": "JSAI2026 参加レポート | RAKSUL TechBlog",
+      "url": "https://techblog.raksul.com/entry/2026/07/15/14945776032046699803",
+      "summary": "JSAI2026参加レポート。データ戦略部は生成AI・LLM、RAG、AIエージェント、倫理や運用に関する最新研究を確認し実務適用を検討。会場は活気があり、大規模行動空間のオフ方策評価などの発表が印象的だった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T00:38:18.000Z",
+      "contentHash": "00856da90bac"
+    },
+    {
+      "id": "f8e89caadc5b",
+      "title": "Vancouver PD website features Quick Escape button that wipes itself from history",
+      "url": "https://vpd.ca/",
+      "summary": "バンクーバー警察（VPD）は誠実・思いやり等を掲げ、2026年FIFA大会の主担当。表彰式や無料アプリ「VPD Connect」を提供し、詐欺注意やヘルメット警告などの最新情報、緊急時は911、非緊急の通報案内を掲載。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-15T00:15:53.000Z",
+      "contentHash": "5b7b7abd84ed"
+    },
+    {
+      "id": "6a8c90e4cbb0",
+      "title": "【Microsoft×生成AI連載】Copilot Studioの会話型テストセットを使ってみた | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/07/15/091046",
+      "summary": "Copilot Studioの評価タブに会話型テストセットが追加。複数ターンで文脈理解や応答の一貫性を検証でき、ファイルアップロード・AI生成（簡易/完全）・チャットログ・手動で作成可能。利用にはライセンスとエージェントが必要で、実行結果は「最近の結果」で確認できる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-15T00:10:46.000Z",
+      "contentHash": "c7558c1ad783"
+    },
+    {
+      "id": "ea2daf8aa7f2",
+      "title": "Nothing’s good-looking Watch 3 Pro smartwatch is just $69",
+      "url": "https://www.theverge.com/gadgets/965565/cmf-nothing-watch-3-pro-smartwatch-ios-android-deal-sale",
+      "summary": "CMF by Nothing Watch 3 Proは1.43インチOLEDのプラットフォーム非依存スマートウォッチ。iOS/Android対応、最大13日駆動、デュアルバンドGPS・IP68・心拍計搭載。Amazonで約69ドル（通常79–99ドル）、フィットビットAirより約20ドル安い。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-14T22:24:26.000Z",
+      "contentHash": "756d96f8f285"
+    },
+    {
+      "id": "704285222bff",
+      "title": "Windows 11&#8217;s big patch Tuesday allows you to hold off on updates for longer",
+      "url": "https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates",
+      "summary": "MicrosoftのWindows 11大規模更新で、更新を最大35日間一時停止でき、期限を繰り返し延長可能に。パフォーマンス改善や不満解消、セキュリティ修正を含み、AIで脆弱性検出を強化。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-14T21:32:04.000Z",
+      "contentHash": "3f038859c3a1"
+    },
+    {
+      "id": "89990dc19e63",
+      "title": "OpenAI may announce a ChatGPT smart speaker this year",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
+      "summary": "Bloomberg報道によれば、OpenAIは2027年に画面なしの初のハードとして携帯型スマートスピーカーを計画。カメラやセンサー、可動機構で環境を把握し、充電式で家電操作・メディア再生・メッセージ応答をGPT‑Live音声で行う。Appleの訴訟について同社は根拠を認めていない。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-14T21:26:32.000Z",
+      "contentHash": "691a95cd2ed0"
+    },
+    {
+      "id": "4d24c0e9bc6e",
+      "title": "Dependabot version updates introduce default package cooldown",
+      "url": "https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown/",
+      "summary": "Dependabotはバージョン更新のPRをデフォルトでリリース公開後3日経ってから作成するクールダウンを導入し、サプライチェーン攻撃のリスクを低減します。セキュリティ更新は即時で、.github/dependabot.ymlで期間変更や無効化可能。GitHub.com全エコシステムとGHES 3.23で適用。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T21:15:51.000Z",
+      "contentHash": "e03cf2dab0af"
+    },
+    {
+      "id": "138528e76582",
+      "title": "How I use HTMX with Go",
+      "url": "https://www.alexedwards.net/blog/how-i-use-htmx-with-go",
+      "summary": "Alex EdwardsがGoでhtmxを使う手法を解説。サーバー側でHTMLをレンダリングし、HX-Requestで部分レスポンスを返す、フォームやページ遷移をhtmx属性で非同期化、SSEでライブ更新、CSRFや履歴管理も簡潔に扱い、JSフレームワーク不要で簡潔・可搬な設計を提案。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T19:55:31.000Z",
+      "contentHash": "7146471909a5"
+    },
+    {
+      "id": "8998a68d0e86",
+      "title": "StubHub, CEO hit with ‘deceptive practices’ class action over mass scalping",
+      "url": "https://www.cbc.ca/news/world/stubhub-ceo-class-action-scalping-9.7268987",
+      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。記事本文を貼り付けていただければ、200文字以内で日本語要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T19:48:36.000Z",
+      "contentHash": "5ced114064d7"
+    },
+    {
+      "id": "07637df8cbed",
+      "title": "SpaceXAI&#8217;s Grok programming tool was uploading its users&#8217; entire codebase to cloud storage",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+      "summary": "SpaceXAIのコーディングツールGrok Buildが、開かない指示のファイルや削除済みのシークレットを含む利用者のリポジトリ全体をGoogle Cloudにアップロードしていたと研究者が報告。機能は無効化され、イーロン・マスクは既存データを削除すると表明した。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-14T19:25:00.000Z",
+      "contentHash": "bb3208fca64b"
+    },
+    {
+      "id": "27ec0538f792",
+      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "summary": "CursorのWindows版に深刻な脆弱性。リポジトリルートに置かれた悪意ある git.exe をプロジェクトを開くだけで無警告に実行し任意コードが実行される。2025/12/15に発見・通報済みだが多数版を経ても未修正。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T17:58:35.000Z",
+      "contentHash": "aa88ea6e7649"
+    },
+    {
+      "id": "a0bc0f630680",
+      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "summary": "Bonsai 27B（Qwen3.6基盤）を発表。3値版5.9GB（1.71ビット）で高品質ノートPC対応、1ビット版3.9GB（1.125ビット）はiPhoneで動作。視覚対応、262Kトークン文脈、推論・ツール呼び出し・エージェント機能を備え、Apache 2.0で公開。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T17:50:48.000Z",
+      "contentHash": "3f7c40e37fcf"
+    },
+    {
+      "id": "77cb29a2582a",
+      "title": "Philips Hue&#8217;s budget-friendly Essential starter kit has hit a new low price",
+      "url": "https://www.theverge.com/gadgets/965476/philips-hue-essential-starter-kit-hue-bridge-deal-sale",
+      "summary": "Philips HueのEssentialスターターキット（E26カラー電球×4＋Hue Bridge）が米Amazonで$79.99に値下げ。2球キットと同価格で実質2球分無料、過去最安値。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-14T17:36:05.000Z",
+      "contentHash": "6db1d11f97e2"
+    },
+    {
+      "id": "d5ae7d42cb21",
+      "title": "Plex problems prevented users from streaming movies and shows",
+      "url": "https://www.theverge.com/tech/965518/plex-tv-down-outage-issues",
+      "summary": "Plexで複数サービスに障害が発生し、ローカル配信の再生やコンテンツ照合、plex.tv API、無料映画・番組、ライブ番組表などに影響。ユーザーが読み込み遅延を報告し、数時間後に復旧して「正常稼働」になった。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-14T17:23:25.000Z",
+      "contentHash": "664174c099ec"
+    },
+    {
+      "id": "dd8bf1e31ad5",
+      "title": "Nintendo’s Switch 2 bundle that includes a game is $50 off",
+      "url": "https://www.theverge.com/gadgets/965490/nintendo-switch-2-choose-your-game-bundle-deal-sale",
+      "summary": "任天堂のSwitch 2「Choose Your Game」バンドルがAmazonで通常499.99ドル→449.99ドルに割引。Mario Kart WorldやDonkey Kong Bananza、Pokémon PokopiaなどのDL版が実質無料になるセールで、購入推奨。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-14T17:20:34.000Z",
+      "contentHash": "602b3fbe9bd3"
+    },
     {
       "id": "299bc3d1cdce",
       "title": "Meta accused of using biased AI targeting for mass layoffs",
@@ -9,6 +216,24 @@
       "source": "The Verge",
       "publishedAt": "2026-07-14T17:18:11.000Z",
       "contentHash": "7c01c86f3492"
+    },
+    {
+      "id": "1fe3ab610cc5",
+      "title": "The Tower Keeps Rising",
+      "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+      "summary": "筆者はブリューゲルのバベルの塔を例に、ソフト開発では個人の生産性よりも「共通言語」による協調が重要だと述べる。AIは個人を強化するが、大規模開発は概念・境界・不変条件・責任などの共有理解が欠けると停滞する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T16:57:54.000Z",
+      "contentHash": "b8fd6c28940d"
+    },
+    {
+      "id": "b306d8a4108a",
+      "title": "S&P Global has lowered Oracle’s creditworthiness from BBB to BBB-",
+      "url": "https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html",
+      "summary": "S&Pがオラクルの長期格付けを一段階引き下げてBBB-（ジャンクまであと1段階）に。積極的な自社株買いと大型買収で負債とレバレッジが上昇した点を懸念し、見通しは安定。投資適格は維持。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T16:56:48.000Z",
+      "contentHash": "e0e5a6a8fa50"
     },
     {
       "id": "b29f7a6650e7",
@@ -38,6 +263,15 @@
       "contentHash": "5ba7f96fc7bd"
     },
     {
+      "id": "15ab653984df",
+      "title": "Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK",
+      "url": "https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/",
+      "summary": "申し訳ありませんが、外部ページを直接参照できません。記事本文を貼り付けるか主要なポイントを教えていただけますか？いただければ200字以内の日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T16:36:06.000Z",
+      "contentHash": "ff6b1a97b718"
+    },
+    {
       "id": "6bcb42b4bb5e",
       "title": "The Google Images homepage will recommend photos even before you search",
       "url": "https://www.theverge.com/tech/965138/google-images-homepage-ai-overviews-search-nano-banana",
@@ -54,6 +288,15 @@
       "source": "The Verge",
       "publishedAt": "2026-07-14T15:47:36.000Z",
       "contentHash": "08109ef9e746"
+    },
+    {
+      "id": "c47f8c3eb2db",
+      "title": "Show HN: Opening lines of famous literary works",
+      "url": "https://www.verbaprima.com/",
+      "summary": "数年温めたアイデアで、有名作品の冒頭文を集め、ブラウザで毎日一文表示するサービスを作成。シンプルな背景にテキストを置き、現在約60句を収録。更新で別の一文が見られる。HNで話題（得票145、コメント86）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-14T15:24:49.000Z",
+      "contentHash": "fd74b14b5427"
     },
     {
       "id": "285508c1fc37",
@@ -815,10 +1058,10 @@
       "id": "82a162ded866",
       "title": "Codex の Remote SSHで 別のLinux PCのプロジェクトを操作する方法",
       "url": "https://note.com/npaka/n/nb91f50faae3c",
-      "summary": "CodexのRemote SSHでChatGPTデスクトップから別Linux PCのプロジェクトを操作する手順。SSH有効化・鍵登録、~/.ssh/configでホスト追加、接続先にCodex CLIを導入・ログイン後、アプリのSSH設定でリモートプロジェクトを開く。",
+      "summary": "CodexのRemote SSHを使い、別のLinux PCに接続してリモートのプロジェクトを編集・ビルド・実行・デバッグする手順や設定、SSH鍵やポート設定などの注意点をまとめた記事。",
       "source": "npaka",
       "publishedAt": "2026-07-13T08:11:08.000Z",
-      "contentHash": "3a6b06b22060"
+      "contentHash": "b4a8c5b86c54"
     },
     {
       "id": "a6bd3fb4ac5d",
@@ -1976,10 +2219,10 @@
       "id": "057c66d46252",
       "title": "GPT-5.6 Sol ・ Terra ・ Luna のリリース",
       "url": "https://note.com/npaka/n/n5cc5fc5ad25f",
-      "summary": "2026年7月9日、OpenAIが「GPT-5.6」を発表。Sol/Terra/Lunaの3階層で、maxやultraの強化推論（ultraは複数エージェント並列）を用い実務向けAIエージェントとしてコーディング、調査、ツール連携、UI設計などを少ないトークンで効率的に処理。ChatGPT/Codex/APIで利用可能。",
+      "summary": "GPT-5.6は「野心に応じて拡張する最先端AI」として紹介され、高度な推論・創造性やマルチモーダル対応、カスタマイズ性、効率・安全性の改善を通じて開発者・企業の応用を強化すると伝える内容です。",
       "source": "npaka",
       "publishedAt": "2026-07-09T17:25:40.000Z",
-      "contentHash": "2b8025404797"
+      "contentHash": "7141fb3d023e"
     },
     {
       "id": "ecd4a351ef58",
@@ -8757,249 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-06-24T17:00:00.000Z",
       "contentHash": "b2ad205d8500"
-    },
-    {
-      "id": "478173bef858",
-      "title": "UK staff at the foundation that runs Wikipedia seeks union recognition",
-      "url": "https://www.theverge.com/news/956237/wikipedia-wikimedia-foundation-staff-unionization-volunteer-editor-strike",
-      "summary": "英国のウィキメディア財団スタッフが労働組合の承認を経営に申請。透明性や信頼、組織の方向性への懸念から数カ月にわたりWiki Workers Unitedで組織化し、英拠点が初の申請。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T16:51:10.000Z",
-      "contentHash": "b03016c6e5f4"
-    },
-    {
-      "id": "a4a7a34251b0",
-      "title": "Figma now has AI motion graphics and shader tools",
-      "url": "https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
-      "summary": "Figmaは年次会議で、フルスタック開発向けに再設計したキャンバスや、キャンバス上で直接コード編集できる「コードレイヤー」、自然文で生成するAIモーショングラフィックやシェーダーなどのAI機能を発表。チームやツール、素材を統合し作業の自動化を目指す。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T16:15:00.000Z",
-      "contentHash": "faac8a359384"
-    },
-    {
-      "id": "f14b1b333048",
-      "title": "The solar-powered Birdbuddy Pro is on sale for $168, the lowest price yet",
-      "url": "https://www.theverge.com/gadgets/955351/birdbuddy-pro-solar-prime-day-deal-sale",
-      "summary": "太陽光パネル搭載のスマート巣箱「Birdbuddy Pro」がPrime Dayで通常約240ドルから168ドルの最安値。5MPカメラで写真・動画やスローモーション撮影、種や常連の識別が可能。基本機能はサブスク不要。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T16:08:50.000Z",
-      "contentHash": "3e8be6cf9c02"
-    },
-    {
-      "id": "7b7b828f2999",
-      "title": "The best Prime Day deals on LG, Samsung, and more 4K TVs",
-      "url": "https://www.theverge.com/gadgets/952282/best-4k-tv-deals-amazon-prime-day-sale",
-      "summary": "Prime Dayはテレビの買い時。2026年モデルも出たが割引は主に昨年モデル。年ごとの画質差は小さく、最新にこだわらずLGやSamsungなどの4K旧モデルを狙うのが賢明。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T16:00:00.000Z",
-      "contentHash": "a27f87b5d12d"
-    },
-    {
-      "id": "7572938d99f0",
-      "title": "Introducing computer use in Gemini 3.5 Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
-      "summary": "Google DeepMindは、Gemini 3.5 Flashに「Computer use」を組み込み、エージェントが複数プラットフォームで操作できるようにして、エージェント型コンピュータ利用タスクで最高の性能を実現したと発表しました。",
-      "source": "Gemini",
-      "publishedAt": "2026-06-24T16:00:00.000Z",
-      "contentHash": "52bc07f646c9"
-    },
-    {
-      "id": "be93b01da005",
-      "title": "Hybrid Tablesを動かしてSnowflake Postgresと比べてみる【連載4日目・Hybrid Tables編】 | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/0024-snowflake-hybrid-tables-day24",
-      "summary": "Fusicの岡山によるSnowflakeアドベントカレンダー24日目。前回はSnowflake Postgresのトランザクション挙動とdata mirroringを検証。今回はもう一方のHybrid Tablesの動作を検証する記事。事前調査の時間不足を課題に挙げ、継続執筆を呼びかけている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T12:53:50.000Z",
-      "contentHash": "5ccbfa7bbf89"
-    },
-    {
-      "id": "9faae9821f96",
-      "title": "取引条件に「セキュリティ格付け」が入る時代｜経産省 SCS評価制度（★3・★4）を情シスが制度開始前に準備する実務 2026 | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/scs-security-rating-2026/",
-      "summary": "経産省・内閣官房が公表したSCS評価制度（2026/3/27）を一次情報で解説。★3と★4の違い、評価スキーム、NIST CSF対応を示し、制度開始前に情シスが行うべき棚卸と実務的チェックリストを整理。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T12:07:00.000Z",
-      "contentHash": "83cf75ca9a14"
-    },
-    {
-      "id": "55b8ee6ed094",
-      "title": "BitVMの1-of-n 仮定をフル活用した Bitcoin上のTransfer of Ownership Protocol (TOOP) | HashPort技術ブログ",
-      "url": "https://tech.hashport.io/5416/",
-      "summary": "論文「TOOP: A transfer of ownership protocol over Bitcoin」の要約。BitVMの1-of-n仮定を軸に、設計の肝とプロトコル全体の流れを解説し、Bitcoin上での所有権移転方式を示す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T11:00:16.000Z",
-      "contentHash": "43bad35013f1"
-    },
-    {
-      "id": "350a4d9fbce1",
-      "title": "GTA VI finally gets a price tag",
-      "url": "https://www.theverge.com/games/952204/grand-theft-auto-vi-price",
-      "summary": "GTA VIの価格は通常版が$79.99、Ultimateが$99.99。現地時間の今夜0時からPS5/Xboxで予約開始。物理版もDLコード同梱で11月12日出荷、発売は11月19日。11月20日までの予約・購入で「Vintage Vice City Pack」付与、デジタル予約はGTA Plus1か月無料。 Ultimate版は追加デジタル特典あり。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T10:29:04.000Z",
-      "contentHash": "4b1f166ef0c7"
-    },
-    {
-      "id": "88bac34e187a",
-      "title": "【ナフサ不足】はなぜ身近な製品に影響するのか | 分析屋",
-      "url": "https://note.com/bunsekiya_tech/n/n6c4d20c9db97",
-      "summary": "本文が途中で切れているようです。全文を貼っていただければ200字以内で要約します。  \n（仮要約）データ利活用I部の田代さんが、最近ニュースで目にした「ナフサ不足」という言葉を取り上げ、続きでその原因や影響、対応などについて解説しようとしている導入部分です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T10:11:14.000Z",
-      "contentHash": "cfd00322e924"
-    },
-    {
-      "id": "387641f6eb70",
-      "title": "Bob Iger’s Disney wanted Apple, Twitter, and 007",
-      "url": "https://www.theverge.com/streaming/955646/disney-bob-iger-twitter-james-bond-apple-merger",
-      "summary": "退任インタビューでボブ・アイガーは、ディズニーがツイッター買収を直前に断念し、Appleに断られ、ジェームズ・ボンド獲得にも失敗したと明かした。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-24T10:08:52.000Z",
-      "contentHash": "2cf039a37e1c"
-    },
-    {
-      "id": "e299ad3e7b78",
-      "title": "「AIエージェントキャッチアップ #82 - Open Knowledge Format」を開催しました | Generative Agents Tech Blog",
-      "url": "https://blog.generative-agents.co.jp/entry/2026/06/24/185045",
-      "summary": "ジェネラティブエージェンツの大嶋が主催した「AIエージェントキャッチアップ #82 - Open Knowledge Format」で、Googleが公開したMarkdown形式の知識表現「Open Knowledge Format（OKF）」を紹介。アーカイブ動画、GitHub、紹介ブログを共有。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T09:50:45.000Z",
-      "contentHash": "a632200695af"
-    },
-    {
-      "id": "67820313321d",
-      "title": "Bedrock Mantleってなに？ | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/06/24/181437",
-      "summary": "DS4課の池上がAmazon Bedrockの新エンドポイント「Mantle」を解説。概要、特徴、OpenAI SDK互換性、利用可能なAPI（Chat Completions、Responses、Anthropic Messages）や対応モデル（2026年3月時点）を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T09:14:37.000Z",
-      "contentHash": "f7ebf0d67de8"
-    },
-    {
-      "id": "b1d0c76b5c4d",
-      "title": "Claude Code / Codex Hooks と nvim --server で作る terminal-native IDE | Algomatic Tech Blog",
-      "url": "https://tech.algomatic.jp/entry/advent-calendar/2026-06/agent-neovim-follow",
-      "summary": "Claude CodeやCodexの編集をhooks・socket・helperでNeovimにリアルタイム反映する仕組みを構築。ON/OFF切替やNeovim→クラウドの逆同期も紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T09:00:00.000Z",
-      "contentHash": "5c7bb7f97a87"
-    },
-    {
-      "id": "281e544f3962",
-      "title": "ShowNet「水冷」を新卒が視る！ | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/06/24/175843",
-      "summary": "2026年度新卒の組織能力開発部・柴田がInterop Tokyo 2026参加レポートを作成。展示の「水冷技術」に注目し、個人的な感想や学びを共有。内容は所属組織の公式見解ではない（執筆時点2026年6月）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T08:58:43.000Z",
-      "contentHash": "fa138bf1ba10"
-    },
-    {
-      "id": "ebc96034fb08",
-      "title": "We're making Bunny DNS free: because a faster internet won't build itself",
-      "url": "https://bunny.net/blog/were-making-bunny-dns-free/",
-      "summary": "bunny.netは119拠点のネットワークで150万超のサイトを高速化。中核のBunny DNSはレイテンシやヘルスチェック、JavaScriptで動的ルーティングし約30万ドメイン・月約2,000億問を処理。より速いインターネット実現のためBunny DNSを無料化すると発表。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-24T08:50:41.000Z",
-      "contentHash": "aea75c872e5f"
-    },
-    {
-      "id": "348e2506e8e0",
-      "title": "【Nishika 論文サク読み 第14回】効率的な言語モデル HRM-Text | Nishika Tech Blogのフィード",
-      "url": "https://zenn.dev/team_nishika/articles/b0d344e8c9b72c",
-      "summary": "NishikaでAIエンジニアインターンの西尾です。職場は快適。論文「HRM-Text」を紹介し、LLM事前学習に必要な膨大なデータと計算資源を大幅に削減して参入障壁を下げる手法を提案している点を報告します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T08:49:59.000Z",
-      "contentHash": "a1fc7f600ef1"
-    },
-    {
-      "id": "3cade37fcd2e",
-      "title": "Claude on Amazon Bedrockの利用コストに蓋をするCloudFormationテンプレートを作ってみた | TechHarmony",
-      "url": "https://blog.usize-tech.com/bedrock-claude-cost-guard-cfn/",
-      "summary": "SCSKの渡辺が、Claude on Amazon Bedrockの利用コスト上限を設定するCloudFormationテンプレートを作成。テンプレート1つでコストの制限・管理が簡単に導入できる仕組みと手順を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T08:34:30.000Z",
-      "contentHash": "20c20f74836b"
-    },
-    {
-      "id": "7648cf68d08f",
-      "title": "Rails: 英語の不規則な複数形をActiveSupport::Inflectorで適切に扱う（翻訳） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_06_24/157588",
-      "summary": "ActiveSupport::Inflectorで不規則な複数形をinflect.irregularに登録すれば、pluralize/singularizeが正しく動き、モデル名・テーブル名・ルーティング・関連名・フィクスチャ等が期待通りに扱われます。Railsは多くを既知だが全てはないため必要に応じて config/initializers/inflections.rb に追加します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T08:30:53.000Z",
-      "contentHash": "71c75d95d650"
-    },
-    {
-      "id": "df8543bbcffb",
-      "title": "Microsoft Foundry を学ぶ | エムティーアイ エンジニアリングブログ",
-      "url": "https://tech.mti.co.jp/entry/ac2026summer/0624",
-      "summary": "Microsoft Build 2026参加レポ。Microsoft Foundryに注目：名称変更・ポータル刷新、世界で数千モデル（国内は約60）、モデルルーターやホステッドAgentが強み。Foundryを基盤にIQや評価・最適化と組合せ、速さ・コスト・品質を重視したエージェント開発を提案。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T08:30:00.000Z",
-      "contentHash": "5bdda107dace"
-    },
-    {
-      "id": "1987871ae7d9",
-      "title": "10年もののモノリスから「認証」を切り出す 〜メドピア共通基盤プロジェクトの裏側〜 | メドピア開発者ブログ",
-      "url": "https://tech.medpeer.co.jp/entry/2026/06/24/170000",
-      "summary": "10年超のモノリスから認証を切り出す「共通基盤プロジェクト」（2025年4月開始）。ClinPeerの未確認医師利用要件で既存SSOが限界となり、共通DBやOpenID Connectで認証・ユーザー管理を再設計。医師向けサービスは接続済みでプロジェクトは継続中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T08:00:00.000Z",
-      "contentHash": "8b8478fac459"
-    },
-    {
-      "id": "b3b5c9b872be",
-      "title": "いま一番好きなエディタ、Zed | エムスリーテックブログ",
-      "url": "https://www.m3tech.blog/entry/2026/06/24/165633",
-      "summary": "Zedを推す記事。軽快な動作と、タブ切替（端末もタブ化）、AIエージェントパネル、マルチカーソル、アウトライン、ミニマップ、ジャーナル、タスクランナーなど開発で便利な機能を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T07:56:33.000Z",
-      "contentHash": "1ce5bfc41e94"
-    },
-    {
-      "id": "855db08b75f6",
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "summary": "OpenAIとBroadcomが、LLM（大規模言語モデル）推論向けの独自AIチップ「Jalapeño」を発表。推論性能、電力効率、スケーラビリティを向上させ、AIシステムの処理を最適化することを目指す。",
-      "source": "OpenAI",
-      "publishedAt": "2026-06-24T06:00:00.000Z",
-      "contentHash": "68954a1debf6"
-    },
-    {
-      "id": "6fd818b1c856",
-      "title": "Raspberry Pi Pico W as USB Wi-Fi Adapter",
-      "url": "https://gitlab.com/baiyibai/pico-usb-wifi",
-      "summary": "「pico-usb-wifi」プロジェクトの概要。コミット数10、ブランチ1、タグ2、リリース2。READMEとCHANGELOGがあり、ライセンスはMIT。作成日2026年6月21日。現在読み込み中。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-24T03:17:47.000Z",
-      "contentHash": "344b20f0f0d6"
-    },
-    {
-      "id": "6dc9d4a746c2",
-      "title": "相次ぐGitHub Actions 侵害から学ぶ、初期アクセス手法と開発者が知っておきたい対策 | GMO Flatt Security Blog",
-      "url": "https://blog.flatt.tech/entry/2026-github-actions-security-part1",
-      "summary": "GitHub Actionsの侵害がもたらす影響と具体的事例を解説。脆弱トリガーによるインジェクション（Ultralytics, nx）、タグ汚染によるサプライチェーン攻撃(tj-actions, trivy)、AIエージェントの過剰権限、信頼できないPRのcheckoutでのRCEなどの初期アクセス手口を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T02:51:24.000Z",
-      "contentHash": "ad97c713c146"
-    },
-    {
-      "id": "652718eaa0cb",
-      "title": "\"Fix\" MacBook Neo Cursor Lag: Record 1 Pixel of the Screen Every 10 Seconds",
-      "url": "https://gist.github.com/retroplasma/ec21767d0a8380c7ea9c2fbee1c7d6bf",
-      "summary": "MacBook Neo（macOS Tahoe 26.5.1）で画面端やTerminalでカーソルが遅延。原因はHW→SWカーソル切替（CGCursorIsDrawnInFramebuffer）が関係していそうで、ロック解除後約17秒でHWに戻り遅延は消える。対処は色フィルタやカーソルサイズ変更のほか、画面録画でSWカーソルを強制するのが有効。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-24T02:38:47.000Z",
-      "contentHash": "a77c54b241c3"
-    },
-    {
-      "id": "103db07f092b",
-      "title": "プリフライトリクエストをバックエンドに通さずALBのみで処理する | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/06/24/112747",
-      "summary": "CORSのプリフライトリクエストがサーバでエラーになることがあるため、ALBだけでプリフライトに応答しエラーを回避する方法を検証します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-24T02:27:47.000Z",
-      "contentHash": "66df7a28a181"
     }
   ]
 }
