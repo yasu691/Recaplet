@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2026-07-18T17:18:37.709Z",
+  "generatedAt": "2026-07-19T03:35:41.672Z",
   "items": [
+    {
+      "id": "8f3534fe0bce",
+      "title": "iceoryx の概要",
+      "url": "https://note.com/npaka/n/n7560f7f223b2",
+      "summary": "iceoryxは共有メモリでゼロコピー通信するIPCミドルウェア。高解像度画像やLiDAR等の大容量センサデータを同一PC内の複数プロセスへ効率配信し、CPU負荷・メモリ帯域・遅延を低減。C++版とRust中心のiceoryx2がある。",
+      "source": "npaka",
+      "publishedAt": "2026-07-19T02:49:33.000Z",
+      "contentHash": "7cdebbc2ccb5"
+    },
+    {
+      "id": "71d61e0fd00c",
+      "title": "Transcribe.cpp",
+      "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
+      "summary": "transcribe.cppはggmlベースの音声文字起こしライブラリで、最新モデルをサポートし参照実装と数値/WER検証済み。GPU対応でMac/Windows/Linuxに組込める軽量設計。Handyの作者が開発するv0.1.0で粗はあるため不具合報告を歓迎。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-19T00:38:26.000Z",
+      "contentHash": "99cf5d85e691"
+    },
+    {
+      "id": "6e1027054e04",
+      "title": "Azure API ManagementのAI GatewayでMicrosoft Foundryを呼び、IP Filterで制御する | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/28e466d961518b",
+      "summary": "Azure API ManagementのAI GatewayでMicrosoft Foundryを呼び、IPフィルタで制御する手順を解説。前提はAPIM BasicとFoundry導入。APIMにMicrosoft FoundryのAPIを追加して設定・テストし、Python（AzureOpenAI）で呼び出すコード例を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-18T23:39:30.000Z",
+      "contentHash": "1046049edb4a"
+    },
+    {
+      "id": "c44b78e034ac",
+      "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+      "summary": "ニューヨーク市長ゾーラン・マムダニは、不動産広告でAI生成・編集した画像の無断使用を問題視し、使用時の開示義務化や入居者支援強化などを盛り込んだ「Rental Ripoff Report」を発表した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-18T22:13:39.000Z",
+      "contentHash": "2c9c0dc77b64"
+    },
+    {
+      "id": "864e6e0039d4",
+      "title": "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+      "summary": "作家デイヴ・エガーズがサム・アルトマンの招待でOpenAI社員約200人の前で講演し、ChatGPTが教育者の仕事を深刻に難化させ「世代を沈黙させている」と痛烈に批判した。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-18T20:54:42.000Z",
+      "contentHash": "f36cbfba81b0"
+    },
+    {
+      "id": "2ae5fe60c870",
+      "title": "Fabel 5やGPT5.6のようなAIの賢さより、権利無視のKimi K3という中国AIの脅威 | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/kimi-k3-guardrail-asymmetry/",
+      "summary": "北京のMoonshot AIが公開したオープンウェイトのKimi K3（2.8兆パラメータ）は、エージェント群で短時間にmacOS27を再現するなど高性能だが、著作権無視やセーフガード欠如が深刻で、Fable5やGPT‑5.6より権利軽視の脅威が懸念される。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-18T19:14:00.000Z",
+      "contentHash": "cff42a1d3222"
+    },
+    {
+      "id": "9c53649a6f0a",
+      "title": "Google might not kneecap the Pixel 11a with an old processor",
+      "url": "https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak",
+      "summary": "リークによるとPixel 11aはフラグシップ級のTensor G6を搭載。G6はG5相当のPowerVR GPUでG4より性能向上し、ExynosからMediaTek M90モデムへ移行して電池消耗や通信切断の改善が期待される。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-18T18:25:08.000Z",
+      "contentHash": "181509bfa437"
+    },
+    {
+      "id": "d3a5a7dd7b65",
+      "title": "The Kimi K3 Moment",
+      "url": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
+      "summary": "Kimi K3はClaudeと同等の出力・トークン効率を持ちながらAPI・月額が大幅に安価。Claudeは低価格帯で主要モデルを停止するなど制約があり、米国の規制が国内モデルを縛る一方でGLM 5.2等の高性能オープンモデルが台頭している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-18T17:32:40.000Z",
+      "contentHash": "7bec2193dc2d"
+    },
+    {
+      "id": "fa54f0fbafd1",
+      "title": "Goodbye, and Thanks for All the Bikesheds",
+      "url": "https://queue.acm.org/detail.cfm?id=3818307",
+      "summary": "外部URLに直接アクセスできないため、記事本文を貼り付けるか主要箇所を教えてください。貼っていただければ200文字以内で日本語要約します。HNの議論も要約希望ならその旨お知らせください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-18T17:27:24.000Z",
+      "contentHash": "9f6f5f6e45ef"
+    },
     {
       "id": "06904338046c",
       "title": "Google is open-sourcing its 3D emoji",
@@ -9,6 +90,51 @@
       "source": "The Verge",
       "publishedAt": "2026-07-18T16:40:55.000Z",
       "contentHash": "a958a7f98aeb"
+    },
+    {
+      "id": "bbff2f3c36b5",
+      "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
+      "url": "https://ykdojo.github.io/claude-controls-mac/",
+      "summary": "予備のMacを常時稼働のClaude Code専用環境に設定する手順。スマホアプリやSSHで操作でき、--dangerously-skip-permissions等のリスクをメイン機から隔離。コンテナは便利だがネット経路やMac専用アプリ（Unity等）制御に制約があり、物理Macを推奨。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-18T16:12:08.000Z",
+      "contentHash": "6ba2b87f8a96"
+    },
+    {
+      "id": "3bbef4aea646",
+      "title": "Gleam Is Now on Tangled",
+      "url": "https://tangled.org/gleam.run/gleam",
+      "summary": "ごめんなさい、外部URLに直接アクセスできません。記事本文か要点を貼っていただければ、200字以内で要約します。貼れない場合は「Gleam（BEAM用の静的型言語）」に関する一般的な要約を作成することも可能です。どちらがよいですか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-18T15:44:04.000Z",
+      "contentHash": "6c35765f80b2"
+    },
+    {
+      "id": "187dd8dd7d8c",
+      "title": "If You Build It, They Will Come",
+      "url": "https://www.benlandautaylor.com/p/if-you-build-it-they-will-come",
+      "summary": "コミュニティに入る最速の方法は、その場の中心的な活動のイベントを自分で企画すること。参加者は多いが主催は少なく、手間を惜しまない人がリーダーになり貢献が目立つという指摘。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-18T15:37:01.000Z",
+      "contentHash": "79aacb55526d"
+    },
+    {
+      "id": "597d862ddb28",
+      "title": "Elixir-lang.org has a new design",
+      "url": "https://elixir-lang.org/",
+      "summary": "Maintenance Elixirは、データとドメインに焦点を当てた明確で目的あるコード作成を支援します。イミュータビリティ、メモリ安全性、漸進的型付けにより、障害から回復しやすく保守しやすいシステムを構築できます。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-18T15:32:04.000Z",
+      "contentHash": "e98759b30ba4"
+    },
+    {
+      "id": "db389a4182a7",
+      "title": "British runner Josh Kerr breaks world record for mile which stood for 27 years",
+      "url": "https://news.sky.com/story/british-runner-josh-kerr-breaks-world-record-for-mile-which-had-stood-for-27-years-13564688",
+      "summary": "英国の中距離ランナー、ジョシュ・カーが27年間破られなかったマイル世界記録を更新した。従来記録はヒシャム・エル・ゲルージが保持しており、カーの快挙は英国陸上界に大きな驚きと祝賀をもたらした。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-18T15:08:32.000Z",
+      "contentHash": "5b21803b8289"
     },
     {
       "id": "9bb1e750a506",
@@ -50,19 +176,19 @@
       "id": "8ee06bcb4be6",
       "title": "2026年 フィジカルAIの現在地 -  ロボットAIはどこまで進んだか",
       "url": "https://note.com/npaka/n/ne4cb1c2e3cfa",
-      "summary": "2026年、フィジカルAIが注目され、カメラ画像と言語から行動を生成するVLAなどロボット基盤モデルが進化。専用モデルから汎用化へ移行し、計画・評価・修正を含む高次推論と統合。LeRobot v0.6で多様なVLA・World Model・評価・学習機能が揃い、実用的な選択肢が広がった。",
+      "summary": "2026年のフィジカルAIは、画像と言語から行動を生成するVLAやロボット基盤モデルへ移行。計画・監視・修正する高次推論や世界モデルが統合され、LeRobot v0.6で多様なVLAやWorld Modelが実装され実用化が進んでいる。",
       "source": "npaka",
       "publishedAt": "2026-07-18T13:41:51.000Z",
-      "contentHash": "b0e82c4fdd9b"
+      "contentHash": "16ec8d9b8984"
     },
     {
       "id": "0ddeab6de3ba",
       "title": "WordPressの深刻度「緊急」脆弱性 wp2shell の概要と対応指針 | GMO Flatt Security Blog",
       "url": "https://blog.flatt.tech/entry/wp2shell_wordpress",
-      "summary": "2026年7月17日、Searchlight CyberのAdam Kues報告の未認証リモートRCE脆弱性CVE-2026-63030/60137を修正したWordPress 6.8.6・6.9.5・7.0.2が公開。GMO Flattの検証で標準設定でも管理者認証不要でRCE可能と判定、早急な更新推奨。",
+      "summary": "2026/7/17、認証不要でリモート任意コード実行につながる脆弱性CVE-2026-63030とCVE-2026-60137（組合せで「wp2shell」）が判明。影響は6.9.0–6.9.4/7.0.0–7.0.1等。修正版7.0.2/6.9.5/6.8.6へ更新。暫定対策は/batch/v1エンドポイント遮断やWAF導入。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-18T12:56:27.000Z",
-      "contentHash": "cd91b290baac"
+      "contentHash": "ab9f6685596f"
     },
     {
       "id": "c2dd0da66162",
@@ -128,6 +254,15 @@
       "contentHash": "b4583cd86896"
     },
     {
+      "id": "844626039c70",
+      "title": "π0.5 の学習済みモデルを LIBERO で動かす",
+      "url": "https://note.com/npaka/n/n1eb56d6be1c7",
+      "summary": "π0.5のLIBERO向け学習済みモデル(pi05_libero)をローカルでopenpi/DockerCompose環境で実行。libero_spatialの10タスクを評価し10/10成功。実行約2分24秒、GPU約12.2GB、チェックポイント約12GB。robosuite+MuJoCo(EGL)利用。",
+      "source": "npaka",
+      "publishedAt": "2026-07-18T04:18:55.000Z",
+      "contentHash": "13c1cafd4204"
+    },
+    {
       "id": "780611b41e71",
       "title": "Show HN: IKEA Complexity Index",
       "url": "https://ikea.greg.technology/",
@@ -149,28 +284,28 @@
       "id": "677f63eeb71d",
       "title": "CloudFront の VPC Origins を利用している環境で 5xx エラーが発生した障害について考えてみた | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/cloudfront-vpcorigin",
-      "summary": "テクニカルサポート課の設楽が、2026年7月16日に発生したCloudFrontのVPC Origins障害（5xx増加）について、VPC Originsの仕組み解説、原因と影響、今後の設計上の備えを整理して報告しています。",
+      "summary": "2026年7月16日、CloudFrontのVPC Origins利用環境で5xxエラーが増加する障害が発生。VPC OriginsはCloudFrontがENI経由でプライベートALB等へ内部接続する仕組みで公開不要。約3時間で原因特定・緩和・復旧し、類似障害への設計上の備えを提案。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-18T02:30:00.000Z",
-      "contentHash": "09be59aa2f33"
+      "contentHash": "adc521bcacf4"
     },
     {
       "id": "e1b684b7bc39",
       "title": "「AIエージェントキャッチアップ #84 - OpenWiki」を開催しました | Generative Agents Tech Blog",
       "url": "https://blog.generative-agents.co.jp/entry/2026/07/18/100318",
-      "summary": "ジェネラティブエージェンツの大嶋が「AIエージェントキャッチアップ #84 - OpenWiki」を開催。LangChainが公開したエージェント用Wiki生成・管理のCLI「OpenWiki」を解説。connpass、YouTube、GitHubで資料公開。",
+      "summary": "AIエージェント勉強会でLangChainのCLIエージェント「OpenWiki」を紹介。リポジトリ解析でWikiを自動生成・更新しGitHub Actionsと連携。v0.1でPersonal/Code Brain、v0.2でOKF対応、各種コネクタやチャット機能も搭載。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-18T01:03:18.000Z",
-      "contentHash": "cccb130483c9"
+      "contentHash": "95f40d28ddeb"
     },
     {
       "id": "2420029ad0b6",
       "title": "AWS Support からの調査目的のアクセスでデータへのアクセス許可を定義できるようになりました | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/20260718_AWSSupportAuthorization",
-      "summary": "AWS Support authorizationは、KMS署名のsupport permitでサポートによるデータを含むリソースへのアクセスを制御・CloudTrailで監査可能にする機能です。Proactive/Reactive両方の認可フロー、画面構成、APIリファレンスを解説します。",
+      "summary": "AWS Support authorization（supportauthz）が導入。support permitでサポートの調査アクセス範囲と条件を定義し、顧客管理KMSで署名・CloudTrailに全記録。事前承認とリクエスト承認に対応。CLI v2.35.13で実装。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-18T00:42:19.000Z",
-      "contentHash": "009965581a8b"
+      "contentHash": "e0be92326c5a"
     },
     {
       "id": "acef08713a85",
@@ -356,10 +491,10 @@
       "id": "d1df77094ab7",
       "title": "Claude Codeと取り組んだ大規模レガシー移行の記録 | Luup Developers Blogのフィード",
       "url": "https://zenn.dev/luup_developers/articles/server-jang-20260716",
-      "summary": "LuupのバックエンドエンジニアJangが、外部から観測できる差分を一切出さずに38,000行追加・13,000行削除の大規模レガシー移行をClaude Codeと1か月で行った記録。成功例とAIに翻弄されかけた失敗談を含む。",
+      "summary": "Luupが支払い特典ドメインをDDD Modulesへ移行。Claude Codeと1か月・59セッションで約+38,000/-13,000行・232ファイルを7PRに分け実施。原則は「mainと動作差ゼロ」。AIレビューで1件のユーザー影響バグを発見する一方、AIは余計な変更を混ぜがちで原則の明文化が重要だった。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-17T11:43:49.000Z",
-      "contentHash": "ed6769ac74f7"
+      "contentHash": "8481462ae748"
     },
     {
       "id": "4ef77d5a0775",
@@ -392,19 +527,19 @@
       "id": "ad24b52791cf",
       "title": "データを移行せずに、Gemini Enterprise から AWS のデータを聞けるようにする（後編：ノーコードでの Custom Agent 構築と、ADK による認証付きクロスクラウド連携） | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/2026/07/17/192809",
-      "summary": "クロスインダストリー第1本部の松田が、前編のAWS構成に続き、後編でGoogle Cloud側設定からGemini Agent Platform StudioによるノーコードCustom Agent作成と自然言語問い合わせを解説。認証未対応のため一部はコード実装した。",
+      "summary": "Gemini Enterpriseでデータ移行せずAWSを参照する手順を解説。GC側設定→StudioでノーコードCustom Agent（認証なし）を検証し、StudioのSigV4未対応を受けてADKでコード化。GCのサービスアカウントをimpersonateしてOIDC→AWS STSで一時認証を取得し、httpxでSigV4署名を付与して認証付きクロスクラウド連携を実現。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-17T10:28:09.000Z",
-      "contentHash": "0e9c6da9b606"
+      "contentHash": "f19ff34413d4"
     },
     {
       "id": "5f9e111c705f",
       "title": "データを移行せずに、Gemini Enterprise から AWS のデータを聞けるようにする（前編：構成の選定と AWS 側の構築） | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/2026/07/17/190945",
-      "summary": "松田（クロスインダストリー第1本部）が、Gemini EnterpriseをUIにしてAWS上のデータをコピーせずにGoogle側からAI活用できるかを顧客と検討し、最小工数での実現アーキテクチャをGeminiのAIエージェントで検証したレポート。",
+      "summary": "Gemini EnterpriseのCustom AgentからS3をデータ移行せず参照する仕組みを検証。複数案からLambda上にFastMCP+MangumでMCPサーバを自前実装する構成を採用し、S3 Tables準備、ネットワーク設計、IAMやAthenaコスト管理などAWS側の構築手順と選定理由を解説する前編。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-17T10:09:45.000Z",
-      "contentHash": "9eb1dc669123"
+      "contentHash": "e5345a4efffa"
     },
     {
       "id": "c5c524823095",
@@ -1184,10 +1319,10 @@
       "id": "ccad07d52710",
       "title": "LeRobotの学習データを Hugging Face Jobs で学習",
       "url": "https://note.com/npaka/n/n1ede44ed5de0",
-      "summary": "Hugging Face JobsでLeRobotデータを学習した手順を紹介。HFアカウント・CLI設定と課金、SO101-Nexusのjohnsutor/MuJoCoPickLiftデータを用いて学習・評価を実施。JobsはGPU起動・ログ取得・モデル保存を自動化。",
+      "summary": "LeRobotの学習をHugging Face Jobsで行う手順を解説。HFアカウント・CLI設定とクレジット確認、JobsはGPU起動やログ取得・モデル保存を自動化。SO101‑Nexusのjohnsutor/MuJoCoPickLiftデータで学習・評価を実施。",
       "source": "npaka",
       "publishedAt": "2026-07-16T05:43:52.000Z",
-      "contentHash": "7098b9f6433f"
+      "contentHash": "1a5d68a63a9b"
     },
     {
       "id": "7cabad485dd4",
@@ -8865,141 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-29T02:46:56.000Z",
       "contentHash": "f220939f6fbf"
-    },
-    {
-      "id": "2673e545f7cd",
-      "title": "秒間数万リクエストを処理する大規模HDFSにObserver NameNodeを導入した話 | LINEヤフー Tech Blog (LY Corporation Tech Blog",
-      "url": "https://techblog.lycorp.co.jp/ja/20260629b",
-      "summary": "LINEヤフーで大規模データ処理基盤を担当する浅沼と楊が、社内で秒間数万リクエストを処理するHDFSの設計・運用上の課題とそれへの対応を紹介する記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-29T02:00:00.000Z",
-      "contentHash": "1ed8e3696a4f"
-    },
-    {
-      "id": "35318ece004d",
-      "title": "「ちゃんとやって」と思ったら AI チャンス！ 人間同士のゼロサムゲームから抜け出そう！ | 弥生開発者ブログ",
-      "url": "https://tech-blog.yayoi-kk.co.jp/entry/2026/06/29/110000",
-      "summary": "鈴木さんがプロジェクト管理でメンバーの不備（チケット本文の未記入や期限漏れ等）に苛立ち、指摘するか自分で直すか悩む中、PM業務にAIを活用してそのモヤモヤを解消した体験を紹介する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-29T02:00:00.000Z",
-      "contentHash": "c709faebad2e"
-    },
-    {
-      "id": "75c1a31c31b4",
-      "title": "【AWS Summit Japan 2026】イベント参加レポート | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/aws_summit_japan_2026_takaya-katou",
-      "summary": "マネージドサービス部の加藤がAWS Summit Japan 2026で聴講した2セッションを報告。生成AI×MCPでの次世代SREと、ランサムウェア想定の迅速復旧・バックアップの要点と感想をまとめる。内容は筆者見解。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-29T01:50:34.000Z",
-      "contentHash": "c721d86ffa41"
-    },
-    {
-      "id": "63030a6268d5",
-      "title": "その RAG、社内規程に「忠実」に答えていますか？ ― 回答を遅くする後追い検証に頼らず、構造で正す | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-      "url": "https://recruit.group.gmo/engineer/jisedai/blog/evidence-first-rag-grounding/",
-      "summary": "社内ドキュメントを用いるRAGが社内規程に忠実かを問い、遅い後追い検証に頼らず応答を構造化して誤答を減らし、正確性と安全性を担保する手法を提案する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-29T01:48:12.000Z",
-      "contentHash": "fada5516f44c"
-    },
-    {
-      "id": "69ee7bea325c",
-      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
-      "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
-      "summary": "HackerRankのオープンソースATSを試した著者は、同一履歴書で実行ごとにスコアが66〜99と大きく変動することを発見。PDF→複数回のLLM抽出＋GitHub参照で採点され、技術スキルは安定する一方、プロジェクト評価が不安定で採用が「運任せ」になり得ると警鐘を鳴らす。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-29T01:44:40.000Z",
-      "contentHash": "f7d8aa7e2958"
-    },
-    {
-      "id": "62e7737d0e03",
-      "title": "「PMFしてますよね」と言われて喜べなかった── ダイニーがオールインワンを選び続ける理由 | ダイニーなプロダクト",
-      "url": "https://note.com/koji_takemoto/n/nd5f8dd74f47c",
-      "summary": "SaaS界で「ダイニーはPMF達成」と言われ嬉しかった。提供する「All in One Restaurant Cloud.」は広がり解約率も低いが、次第にその評価を素直に喜べなくなっている。その理由をこれから語ろうとしている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-29T01:44:13.000Z",
-      "contentHash": "6b5666bcadc5"
-    },
-    {
-      "id": "4c6dbd552e48",
-      "title": "どのショップでもいつでも購入できるカート機能を目指してRateLimiterを導入した話 | BASEプロダクトチームブログ",
-      "url": "https://devblog.thebase.in/entry/2026/06/29/103526",
-      "summary": "バックエンドエンジニア小笠原が、Checkout Reliabilityでクレジットカード決済にレートリミッタを導入し、特定ショップへの集中を抑えて他店舗の決済可用性を維持し、安定した購入体験を守る設計を解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-29T01:35:26.000Z",
-      "contentHash": "9340491ce448"
-    },
-    {
-      "id": "ee65bf9837a6",
-      "title": "AI boom risks global financial crash, warn central bankers",
-      "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/",
-      "summary": "BISは、AI向けデータセンターなどへの借入主導の過剰投資や不透明な取引が、投資の逆流で世界的な金融危機を引き起こす恐れがあると中央銀行家が警告した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-29T01:25:04.000Z",
-      "contentHash": "5954cc41cbf4"
-    },
-    {
-      "id": "0dcc5e0999c5",
-      "title": "We need tech news sources which exclude AI",
-      "url": "https://news.ycombinator.com/item?id=48713041",
-      "summary": "HNがAI一色になり、キックバックや偽評価、高価格、過剰持ち上げなどの問題が増加。既存メディアにフィルタや代替が必要。AIは悪そのものではなく道具で、自己合成データ学習は避けるべきだが基礎技術は有用で新参者や筆者の作業も変えている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-28T23:49:50.000Z",
-      "contentHash": "35632864f297"
-    },
-    {
-      "id": "86a9c9d4ce7c",
-      "title": "Knowledge Distillation of Black-Box Large Language Models (2024)",
-      "url": "https://arxiv.org/abs/2401.07013",
-      "summary": "本論文は、内部が不明な大規模言語モデル（黒箱）から小型モデルへ知識蒸留する手法Proxy-KDを提案。プロキシモデルを介して効率的に知識を伝達し、実験で従来の白箱蒸留を上回る性能を示した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-28T22:32:04.000Z",
-      "contentHash": "82ee5999c86a"
-    },
-    {
-      "id": "946d307c2038",
-      "title": "China’s Z.ai claims it can match Mythos on cybersecurity",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
-      "summary": "中国のZhipu AI（Z.ai）がGLM-5.2を公開。研究者は脆弱性発見などサイバー領域でAnthropicのMythosに匹敵すると指摘する一方、汎用性能はAnthropicやOpenAIに及ばない。米国は悪用を懸念し対中制限を強化、OpenAIのGPT-5.6も懸念材料。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-28T21:42:51.000Z",
-      "contentHash": "81b26187d373"
-    },
-    {
-      "id": "13b1053481f6",
-      "title": "Suno launches Spark incubator program to feed independent artists to its AI machine",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
-      "summary": "AI企業Sunoが無所属アーティスト向け育成プログラム「Spark」を開始。助成金・メンタリング・販促支援を提供する一方、楽曲のリミックス許諾や派生物作成など広範な権利付与、陪審・集団訴訟放棄、限定的な独占条項が物議を醸している。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-28T20:27:36.000Z",
-      "contentHash": "0ca3a8ada434"
-    },
-    {
-      "id": "906d71574f2d",
-      "title": "TOP500 at ISC’26: We have a New Number 1 Supercomputer",
-      "url": "https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number",
-      "summary": "ISC2026のTOP500で中国・深圳のCPU専用スーパーコンピュータ「LineShine」が新たに1位に。9年ぶりの中国提出で、Armv9準拠のLX2（304コア、1.55GHz、FP64 60.3TFLOPS、オンパッケージ高帯域メモリ32GB＋DDR5 256GB）を2基搭載するノードを大規模ブレード構成で組んでいる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-28T19:38:00.000Z",
-      "contentHash": "5f2d924d7fd7"
-    },
-    {
-      "id": "1b13fe6ad15a",
-      "title": "Ford rehires 'gray beard' engineers after AI falls short",
-      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
-      "summary": "フォードはAIや自動検査の品質が不十分だったため、元社員やサプライヤー出身のベテラン技術者350人を再雇用。故障箇所を工場投入前に発見して若手やAIの再学習に当たらせた結果、保証・リコール費用が大幅減り、JDパワー初期品質で首位になった。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-28T19:35:57.000Z",
-      "contentHash": "f6f95aee85e1"
-    },
-    {
-      "id": "c551de36a6a7",
-      "title": "The US Used to Demand the Best Tech. Now We Ban It",
-      "url": "https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it",
-      "summary": "フォードCEOジム・ファーリーが上海から持ち込んだXiaomi SU7を「手放したくない」と発言。人気レビュアーMarques BrownleeもSU7 MaxをAWD・大容量電池・800V急速充電・エアサス・約500マイル航続など高評価し、その完成度に驚嘆した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-28T19:07:49.000Z",
-      "contentHash": "2cb6070e961f"
     }
   ]
 }
