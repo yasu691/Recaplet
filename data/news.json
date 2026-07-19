@@ -1,14 +1,23 @@
 {
-  "generatedAt": "2026-07-19T03:35:41.672Z",
+  "generatedAt": "2026-07-19T10:11:25.750Z",
   "items": [
     {
       "id": "8f3534fe0bce",
       "title": "iceoryx の概要",
       "url": "https://note.com/npaka/n/n7560f7f223b2",
-      "summary": "iceoryxは共有メモリでゼロコピー通信するIPCミドルウェア。高解像度画像やLiDAR等の大容量センサデータを同一PC内の複数プロセスへ効率配信し、CPU負荷・メモリ帯域・遅延を低減。C++版とRust中心のiceoryx2がある。",
+      "summary": "iceoryxは共有メモリを使ったゼロコピーのIPCミドルウェアで、高解像度画像やLiDAR等の大容量センサデータを複数プロセスへ効率的に配信し、CPU負荷・メモリ帯域・遅延を低減。C++版と再設計のRust中心版（iceoryx2）があり、ROS2連携で有用。",
       "source": "npaka",
       "publishedAt": "2026-07-19T02:49:33.000Z",
-      "contentHash": "7cdebbc2ccb5"
+      "contentHash": "331f04392a60"
+    },
+    {
+      "id": "0ad5fdc83ea2",
+      "title": "Better and Cheaper Than IPTV",
+      "url": "https://github.com/stupside/castor",
+      "summary": "CastorはChromecast/AirPlay無しでPCからTVへ高画質で動画を直接キャストするCLI。ヘッドレスChromeで実ストリームを抽出しffmpegで変換、IMDB/TMDB IDやURLで即キャスト、自動字幕焼き込み可。Chrome/Chromium・ffmpeg・ffprobeが必要でネイティブかLinux Docker、Homebrewやソースからのビルド対応。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-19T00:59:55.000Z",
+      "contentHash": "b7e89fe3faee"
     },
     {
       "id": "71d61e0fd00c",
@@ -29,13 +38,31 @@
       "contentHash": "1046049edb4a"
     },
     {
+      "id": "e4b958abbc08",
+      "title": "Codex Resets",
+      "url": "https://codex-resets.com/",
+      "summary": "OpenAIがCodexとChatGPT Workの利用制限を@thsottiauxがXで断続的にリセット。累計35回、平均間隔8.9日（最長67.7日）。利用者増（500k→9M）に合わせた「banked reset」導入や5時間レート制限撤廃などの対応が続く。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-18T23:24:26.000Z",
+      "contentHash": "77d89d167220"
+    },
+    {
       "id": "c44b78e034ac",
-      "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+      "title": "NYC may require landlords and realtors to disclose the use of AI in listings",
       "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
       "summary": "ニューヨーク市長ゾーラン・マムダニは、不動産広告でAI生成・編集した画像の無断使用を問題視し、使用時の開示義務化や入居者支援強化などを盛り込んだ「Rental Ripoff Report」を発表した。",
       "source": "Hacker News",
       "publishedAt": "2026-07-18T22:13:39.000Z",
       "contentHash": "2c9c0dc77b64"
+    },
+    {
+      "id": "95d774cf512d",
+      "title": "Classic Amiga titles, free to download",
+      "url": "https://amigafreeware.downer.tech/",
+      "summary": "Amiga Freeware Archiveは、ゲーム・アプリ・デモ・グラフィック・音楽など何千ものクラシックAmigaソフトを無料で公開するアーカイブ。17 BitやFred Fish、Scopeなど14のPDライブラリ・グループ（計約10,142MiB）を収録。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-18T21:55:27.000Z",
+      "contentHash": "86bd6f4a6857"
     },
     {
       "id": "864e6e0039d4",
@@ -77,10 +104,10 @@
       "id": "fa54f0fbafd1",
       "title": "Goodbye, and Thanks for All the Bikesheds",
       "url": "https://queue.acm.org/detail.cfm?id=3818307",
-      "summary": "外部URLに直接アクセスできないため、記事本文を貼り付けるか主要箇所を教えてください。貼っていただければ200文字以内で日本語要約します。HNの議論も要約希望ならその旨お知らせください。",
+      "summary": "外部ページに直接アクセスできないため、記事本文を貼るか主要部分をコピペしてください。HNコメントも要約希望ならその旨を教えてください。受け取り次第、200字以内で日本語要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-07-18T17:27:24.000Z",
-      "contentHash": "9f6f5f6e45ef"
+      "contentHash": "b19bbf7642da"
     },
     {
       "id": "06904338046c",
@@ -8973,33 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-06-29T03:00:00.000Z",
       "contentHash": "539cf074bb2f"
-    },
-    {
-      "id": "a39916340f6b",
-      "title": "AutoHotInterception で Ctrl と CapsLock を入れ替える | インゲージ開発者ブログ",
-      "url": "https://blog.ingage.jp/entry/2026/06/29/115921",
-      "summary": "筆者はAの左にCtrlを割り当てたく、ノートPCの制約でAutoHotInterceptionを使うことにした。導入・設定がやや複雑なため手順を記録しており、AutoHotKey v2（v1と文法が異なる）を使う方法を解説している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-29T02:59:21.000Z",
-      "contentHash": "efce1a729e84"
-    },
-    {
-      "id": "fbb370bdf2b6",
-      "title": "AWS Summit Japan 2026 参加レポート | loglass_product_teamのブログ",
-      "url": "https://prd-blog.loglass.co.jp/entry/aws-summit-japan-2026",
-      "summary": "ログラスSREの中井が、2025年6月25・26日に幕張メッセで開催されたAWS Summit Japan 2025の参加レポートを公開。最終日に登壇し、会場延べ3.6万人、オンライン含め6.9万人超の過去最大規模だった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-29T02:48:34.000Z",
-      "contentHash": "75919e7b847f"
-    },
-    {
-      "id": "749de1b08ec3",
-      "title": "dbt のメタデータを OKF でエージェントに渡すと、Agentic Analytics の精度は上がるのか | 弁護士ドットコム株式会社 Creators’ blog",
-      "url": "https://creators.bengo4.com/entry/2026/06/29/114656",
-      "summary": "データ本部の冨田が、AIに分析を任せる時代に重要な「コンテキストレイヤー」と新提出のOKFを紹介。dbtで整備したメタデータをOKFに変換し、ビジネスユーザー向けにClaude Desktopから活用する試みを解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-29T02:46:56.000Z",
-      "contentHash": "f220939f6fbf"
     }
   ]
 }
