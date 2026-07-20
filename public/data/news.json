@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2026-07-19T17:17:00.756Z",
+  "generatedAt": "2026-07-20T03:50:00.251Z",
   "items": [
+    {
+      "id": "a844087c31b4",
+      "title": "Gemini Enterprise Agent PlatformのCustom Training試してみた | Fusic 技術ブログのフィード",
+      "url": "https://zenn.dev/fusic/articles/ae40058329f595",
+      "summary": "FusicのレオナがGemini Enterprise Agent PlatformのCustom Trainingでscikit-learn（ロジスティック回帰）を用いて学習を検証。管理VMで実行しログはCloud Loggingへ自動収集されるが、モデル等のArtifactはAIP_MODEL_DIR経由でGCSへ明示保存が必要。BigQueryのcensus_adult_incomeで二値分類を行い、Terraformで環境構築して同条件で再現性を比較した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-20T03:06:52.000Z",
+      "contentHash": "e996f17c4d24"
+    },
+    {
+      "id": "366d9c19c85a",
+      "title": "Pull Requestでレビューするブログ運用 〜はてなブログ × GitHub〜 | KENTEM TechBlog",
+      "url": "https://tech.kentem.jp/entry/2026/07/20/090000",
+      "summary": "KENTEM編集部はチャットレビューの可視性不足解消のためHatenaBlog Workflows Boilerplateを導入し、GitHubのプルリクで執筆・レビュー運用へ移行。Actionsで下書き自動作成、PR上のMarkdownが下書きに同期、承認後に編集部がはてなで公開を行う形で二重管理を避けつつ試験運用中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-20T00:00:00.000Z",
+      "contentHash": "6d3da1d47c0a"
+    },
+    {
+      "id": "79617cb7a929",
+      "title": "Amazon Inspector v2の脆弱性スキャンパイプラインを構築してみた | Techfirm Cloud Architect Blog",
+      "url": "https://techblog.techfirm.co.jp/entry/amazon-inspector-scan-pipeline",
+      "summary": "Amazon Inspector v2をCodePipelineと連携し、CodeCommitのプッシュで起動→ファイルフィルタ→Inspectorでソースコードをスキャン→Lambdaで結果処理・SBOM解析→SNSで通知するCI/CD脆弱性スキャンパイプラインをTerraformで構築した事例。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-20T00:00:00.000Z",
+      "contentHash": "45131b35e657"
+    },
+    {
+      "id": "8c341ca217c5",
+      "title": "AI advice made people less accurate but more confident – sudy",
+      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "summary": "仏伊の研究で、AI助言により「分からない」と答える率が44%→3%、正答率は27%→9%に低下し、自信は30%→76%に上昇。金銭誘因でも改善は限定的で、AIの存在が無自覚な過信を招く。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-19T21:18:10.000Z",
+      "contentHash": "60ecfb9187ab"
+    },
+    {
+      "id": "9de240d54847",
+      "title": "This unpronounceable series of glyphs is an incredible side project from Kieran Hebden (aka Four Tet)",
+      "url": "https://www.theverge.com/entertainment/967696/four-tet-wingdings-album-review",
+      "summary": "Four TetことKieran Hebdenが、記号だけで表記されプラットフォームごとに表示が変わる、発音も検索もできない作品名のサイドプロジェクトを発表。記事は便宜上それを「Wingdings」と呼び、アーティスト名もFour Tetで表記すると述べている。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-19T21:02:45.000Z",
+      "contentHash": "716142f3eea9"
+    },
+    {
+      "id": "0918f9ea714c",
+      "title": "LeRobot の Reward Model 入門",
+      "url": "https://note.com/npaka/n/n942d5eddcd5f",
+      "summary": "LeRobot v0.6はSARM／Robometer／TOPRewardを統一的に扱うReward Model機能とHIL-SERLを統合。観測や軌道からタスク進捗・成功確率・データ品質を推定し、RA-BCや強化学習報酬生成、自動ラベリング・データ選別・ポリシー評価を可能にする。SARMは工程認識で段階ごとの進捗を推定。",
+      "source": "npaka",
+      "publishedAt": "2026-07-19T20:28:20.000Z",
+      "contentHash": "de33f4892da7"
+    },
+    {
+      "id": "0f079c061802",
+      "title": "Kodak EC35 is a dirt-cheap point-and-shoot film camera",
+      "url": "https://www.theverge.com/gadgets/967687/kodak-ec35-point-and-shoot-film-camera",
+      "summary": "フィルム写真ブームで、Reto ProjectがKodak EC35を34.99ドルで発売。25mmアクリルレンズ（f/10）、1/100秒、手動巻き戻し、内蔵自動フラッシュで使い捨て風の簡素設計。二重露出やゾーンフォーカスは非搭載。スライド式レンズカバーとカラーバリエーションが特徴。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-19T19:26:06.000Z",
+      "contentHash": "0fdf5506d361"
+    },
+    {
+      "id": "c8c3ec20e269",
+      "title": "I hate that I don’t hate this song made with Suno",
+      "url": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
+      "summary": "1010BenjaがSunoで制作した「Semiramis’ Dream」は、AI音楽が単なる“スロップ”ではなく、適切に使えば魅力的な作品になり得ることを示した。作者はAI使用を謝らない。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-19T17:35:54.000Z",
+      "contentHash": "c6547dd7950f"
+    },
+    {
+      "id": "5cdf3ddd8b14",
+      "title": "The Last MPEG-4 Visual Patent Has Expired",
+      "url": "https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired",
+      "summary": "2026年7月19日、MPEG-4 Part 2の最後の特許（ブラジルのBRPI0109962B1）が期限切れとなり、VIA Licensing Allianceが確認。米欧の特許は既に失効しており、MPEG-4 Visualの特許は全て消滅した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-19T16:45:17.000Z",
+      "contentHash": "1b0caeaa71eb"
+    },
     {
       "id": "479e9fd8f9fc",
       "title": "The FBI reportedly won’t investigate ICE anymore",
@@ -9,6 +90,24 @@
       "source": "The Verge",
       "publishedAt": "2026-07-19T16:42:10.000Z",
       "contentHash": "7038a55e7d21"
+    },
+    {
+      "id": "931332f71a8b",
+      "title": "Texas Police Spent $4.5M on Four Chevy Tahoes",
+      "url": "https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes",
+      "summary": "イスラエル企業Cognyteの監視装置FalcoNetは携帯と基地局の接続を傍受し、ヘリや車両に搭載して位置追跡可能。フロリダで使用され、2026年にテキサス州警が約448万ドルで緊急調達し、費用と曖昧な正当化が問題視されている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-19T16:38:36.000Z",
+      "contentHash": "d02fde559c3b"
+    },
+    {
+      "id": "88d1139971f7",
+      "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
+      "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
+      "summary": "申し訳ありませんが外部リンクへ直接アクセスできません。記事やツイート本文・主要コメントを貼り付けるか、要点（主題・結論・論点）を教えてください。200字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-19T16:02:25.000Z",
+      "contentHash": "41ed18523df4"
     },
     {
       "id": "5b2742acff78",
@@ -29,6 +128,15 @@
       "contentHash": "1bc56a19e51d"
     },
     {
+      "id": "7a5ada317dd6",
+      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+      "url": "https://news.ycombinator.com/item?id=48968606",
+      "summary": "家族で買った放置の8レーンボウリング場。2008年製の点数管理は高額で交換80〜120千ドル、部品はレーンペア約4千ドル。著者はESP32/ESPNow、RS485、Raspberry Pi、Redisで1レーンペア約$200〜$400の自作代替を作った。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-19T14:41:16.000Z",
+      "contentHash": "cc88dc0bcf6a"
+    },
+    {
       "id": "671a08a59da9",
       "title": "US Marshals arrest the Tate brothers in Miami",
       "url": "https://www.theverge.com/policy/967651/us-marshals-arrest-the-tate-brothers-in-miami",
@@ -47,6 +155,15 @@
       "contentHash": "19c196229a70"
     },
     {
+      "id": "71812e02b7e8",
+      "title": "I burned all my tokens researching how to save tokens",
+      "url": "https://quesma.com/blog/custom-deep-research-pipeline/",
+      "summary": "QuesmaでAIエージェントの経済性を研究する筆者は、深層研究パイプラインがClaude Max 5xのトークンを30分で使い切り失敗。トークノミクスを学び、既存購読（Claude・Codex・Antigravity）を共有メモリで連携してコストと信頼性を改善した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-19T12:01:53.000Z",
+      "contentHash": "ce47cefc95fa"
+    },
+    {
       "id": "c6996bcf5e6c",
       "title": "The future of physical games is not looking great",
       "url": "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games",
@@ -59,10 +176,19 @@
       "id": "8e7ff08d008c",
       "title": "Minecraft: Java Edition now uses SDL3",
       "url": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4",
-      "summary": "Minecraft 2.6.3 スナップショット4が公開されました。複数のバグ修正やクラッシュ対処、挙動調整など安定性・互換性の改善が中心で、詳細は公式の変更ログで確認できます。",
+      "summary": "「Minecraft 26.3 スナップショット4」は主に不具合修正と安定性改善の配信です。クラッシュやパフォーマンス問題、モブやブロック挙動、コマンド周りなど多数のバグを修正し、ワールド生成やデータパック互換性などの技術的改善も含まれます。既知の問題とフィードバック手段も案内されています。",
       "source": "Hacker News",
       "publishedAt": "2026-07-19T11:48:18.000Z",
-      "contentHash": "508ca5302cfb"
+      "contentHash": "04a1f170dc89"
+    },
+    {
+      "id": "3dbe095878bc",
+      "title": "I joined the IndieWeb, here's what I learned",
+      "url": "https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/",
+      "summary": "著者はIndieWebに参加して自分のドメインで投稿・管理を始め、microformatsやMicropub、Webmention等を導入。得た教訓は、コンテンツ所有と相互運用性の利点、初期コストと運用負担、まず小さく始めて自動化・既製ツールやコミュニティを活用すること。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-19T11:14:38.000Z",
+      "contentHash": "9d3736914f89"
     },
     {
       "id": "d93739296208",
@@ -131,10 +257,10 @@
       "id": "ed16844642a3",
       "title": "USBケーブルの種類と見分け方",
       "url": "https://note.com/npaka/n/n7787a934f0a8",
-      "summary": "USBケーブルは見た目が似ていても性能が異なる。確認すべきは①コネクタ形状（A/B/Mini/Micro/Type‑C）②データ転送速度（最大80Gbps、名称混在）③供給電力（最大240W、最も低い要素で決まる）④映像・Thunderbolt対応。用途に応じて仕様表示を必ず確認すること。",
+      "summary": "USBケーブルは外見で判断できず、コネクタ形状、データ転送速度、給電(W)、映像/Thunderbolt対応の4点を確認する必要があります。速度は480Mbps〜80Gbpsまであり、給電は充電器・ケーブル・機器の最小性能で制限。充電専用ケーブルはデータ非対応。用途に応じ具体的なGbpsやW表記で選んでください。",
       "source": "npaka",
       "publishedAt": "2026-07-19T05:39:36.000Z",
-      "contentHash": "a1711555b4d7"
+      "contentHash": "423ed379488f"
     },
     {
       "id": "8f3534fe0bce",
@@ -356,10 +482,10 @@
       "id": "8ee06bcb4be6",
       "title": "2026年 フィジカルAIの現在地 -  ロボットAIはどこまで進んだか",
       "url": "https://note.com/npaka/n/ne4cb1c2e3cfa",
-      "summary": "2026年、物理世界で行動する「フィジカルAI」が進展。画像と言語から行動を生成するVLAや高レベルの計画・推論を行うロボット基盤モデルが台頭し、LeRobot v0.6.0はVLAやWorld Model、報酬学習やシミュ評価等を統合して開発を加速している。",
+      "summary": "2026年、物理世界で行動するフィジカルAIが注目。画像と言語から動作を作るVLAや高次推論を持つ基盤モデルで専用モデルから汎用化が進む。LeRobot v0.6でVLAやワールドモデル、評価・学習基盤が統合され開発・比較が容易に。",
       "source": "npaka",
       "publishedAt": "2026-07-18T13:41:51.000Z",
-      "contentHash": "dda8023e0b12"
+      "contentHash": "ca74c15a0bc7"
     },
     {
       "id": "0ddeab6de3ba",
@@ -8874,132 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-06-29T16:00:00.000Z",
       "contentHash": "4bc0c7d070bb"
-    },
-    {
-      "id": "2d31332e3d52",
-      "title": "Gemini can now take notes in Google Meet for Google AI Pro and Ultra subscribers.",
-      "url": "https://blog.google/products-and-platforms/products/workspace/take-notes-for-me/",
-      "summary": "Google AI Pro/Ultra加入者と対象のWorkspace事業者は、Google Meet（ウェブ・モバイル・一部言語）で「Take notes for me」を利用可能。会話をリアルタイムで文字起こし・要約・アクション化し、Googleドキュメントに自動保存、終了後に要約メールを送信。通話中の鉛筆アイコンで開始、設定から常時有効化。参加者へ通知。",
-      "source": "Gemini",
-      "publishedAt": "2026-06-29T16:00:00.000Z",
-      "contentHash": "97aa5c72412c"
-    },
-    {
-      "id": "f65c32a66cc6",
-      "title": "「AIにデータ渡して大丈夫？」を約款から解決　プロジェクトマネージャーが語る「主要AI約款比較」の設計思想と開発秘話 | GMO Developers",
-      "url": "https://developers.gmo.jp/technology/83879/",
-      "summary": "AI時代を生きる全ての人向けのプロダクトを紹介するインタビュー。平田氏の経歴と現在の活動、主要AI約款比較というサービスの内容と対象（保守的な組織など）を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-29T16:00:00.000Z",
-      "contentHash": "29e31e0837aa"
-    },
-    {
-      "id": "55168aa3f85b",
-      "title": "Dbrand cancels Companion Cube because it didn’t actually ask Valve for permission",
-      "url": "https://www.theverge.com/games/959056/dbrand-steam-machine-companion-cube-valve-take-down-canceled",
-      "summary": "DbrandはValveの許可なしで制作したPortalテーマのSteam Machineアクセサリ「Companion Cube」の販売を中止し、予約者へ返金すると発表。6月22日予約開始で好評だったがValveの要請で商品と宣伝動画を削除した。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-29T15:59:45.000Z",
-      "contentHash": "da26b862a139"
-    },
-    {
-      "id": "fe2c3851345f",
-      "title": "US Supreme Court rules geofence warrants require constitutional protections",
-      "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision",
-      "summary": "米最高裁がジオフェンス令状の乱用を制限。場所・時間で広く端末情報を求める一括請求は第四修正に反するとし、より具体的な疑いと絞り込みを要求。市民団体は支持、捜査当局は反発。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-29T15:54:24.000Z",
-      "contentHash": "3ac32bfd5756"
-    },
-    {
-      "id": "424d44ce7af4",
-      "title": "A native graphical shell for SSH",
-      "url": "https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html",
-      "summary": "著者はSSH越しにリモートGUIをネイティブ表示する「グラフィカルシェル」を提案・実装した。Waylandを軸にX11転送より低遅延でGPU利用やクリップボード共有が可能なプロトタイプを紹介し、導入手順と制約（権限・互換性・セキュリティ）を論じる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-29T15:42:17.000Z",
-      "contentHash": "0132d64685b9"
-    },
-    {
-      "id": "ee5271d2457f",
-      "title": "These camera-free smart glasses made me feel like Tony Stark",
-      "url": "https://www.theverge.com/tech/957933/xgimi-memomind-one-ai-smart-glasses-kickstarter-hands-on",
-      "summary": "Xgimiのカメラ非搭載スマートグラスMemoMind OneはCES2026で披露。軽量で眼前に情報を表示し目立たないが、AI機能は限定的でプライバシー懸念も残る。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-29T15:16:24.000Z",
-      "contentHash": "b670741ae309"
-    },
-    {
-      "id": "b9d770e2c92d",
-      "title": "Supreme Court allows firing of FTC commissioners, ends agency independence",
-      "url": "https://www.theverge.com/policy/958974/supreme-court-slaughter-trump-decision-ftc-agency-independence",
-      "summary": "最高裁は2026年のTrump v. Slaughterで6対3の判断を示し、FTC委員を大統領が解任できると認めた。1935年のHumphrey's Executor判例を覆し、独立機関の保護を否定、執行権を拡大した。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-29T15:10:45.000Z",
-      "contentHash": "cfd98d7efad4"
-    },
-    {
-      "id": "f1d5a402ae4e",
-      "title": "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter",
-      "url": "https://humphri.es/blog/WATaBoy/",
-      "summary": "申し訳ありませんが外部リンクに直接アクセスできません。記事本文または主要部分を貼り付けていただければ、200字以内で日本語要約します。HNコメントの要約も必要ならお知らせください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-29T15:02:00.000Z",
-      "contentHash": "4e6a19d798c1"
-    },
-    {
-      "id": "2baf9b046cf5",
-      "title": "FG2026に2件採択! ”人物行動意図推定”と ”人体モーションキャプチャ向けマルチカメラ自己校正”に関する最新技術を紹介 | fltech - 富士通研究所の技術ブログ",
-      "url": "https://blog.fltech.dev/entry/20260630-fg2026",
-      "summary": "Physical AI研究所のWorld Intelligence CPJの長村とPhysical OS CPJのFanが、FG2026に採択された2件の研究成果を紹介する記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-29T15:00:00.000Z",
-      "contentHash": "88f8cacb8bed"
-    },
-    {
-      "id": "2f8648a5dcfc",
-      "title": "Working With AI: A concrete example",
-      "url": "https://htmx.org/essays/working-with-ai/",
-      "summary": "htmxの「Working with AI」は、AIを万能化せず補助ツールとして使い、人間の監督・検証を残す設計を提案する。出力検証、失敗回復、スコープ制限、既存のHTML/サーバ構造活用、プライバシーと制御を重視する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-29T14:53:41.000Z",
-      "contentHash": "e9c2cf717ff2"
-    },
-    {
-      "id": "480a54d54d02",
-      "title": "Let him cook: How Weber Blackstone CEO Roger Dahle went from upstart to the biggest name in grilling",
-      "url": "https://www.theverge.com/podcast/958790/weber-blackstone-ceo-roger-dahle-grilling-griddles-merger-outdoor-cooking",
-      "summary": "Decoderの恒例回で、ブラックストーン創業者ロジャー・デールが登場。2008年創業のグリドルがパンデミックでTikTokで火を噴き、現在はウェーバー買収後に両社を統合している。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-29T14:00:00.000Z",
-      "contentHash": "fde12ec6da9e"
-    },
-    {
-      "id": "29baee505c81",
-      "title": "Rocket Lab is buying Iridium&#8217;s satellite network for $8 billion to take on SpaceX",
-      "url": "https://www.theverge.com/science/958891/rocket-lab-iridium-acquisition-satellite-communications",
-      "summary": "Rocket Labが80億ドルで衛星通信企業Iridiumを買収へ。打上げ・衛星製造力とIridiumの66基のLEO衛星（約250万加入者、Lバンド）を統合し、SpaceXへの対抗を強化する狙い。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-29T13:51:24.000Z",
-      "contentHash": "1a51d55a0560"
-    },
-    {
-      "id": "e49381968e4f",
-      "title": "Apache IcebergをSnowflakeの機能を通して理解したい【気をつけるべきこと・実測編】 | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/0029-snowflake-iceberg-tradeoffs-day29",
-      "summary": "Fusicの岡山によるSnowflakeアドベントカレンダー29日目。前回はSnowflake上でApache Icebergの利点（タイムトラベル、スキーマ進化、パーティション進化）を検証し、パーティション戦略を変えた2つの比較結果を報告した。毎日投稿の励みはいいね・フォロー。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-06-29T13:00:08.000Z",
-      "contentHash": "1831d6645569"
-    },
-    {
-      "id": "4c35b04f5fa7",
-      "title": "Navigationで使用する自己位置の取得方法まとめ",
-      "url": "https://note.com/npaka/n/n0680e171e8fe",
-      "summary": "Navigationでは地図上の位置(X,Y)と向きが必要で、ROS2ではTF(map, odom, base_link)で扱う。自己位置取得はSLAM/AMCL/オドメトリ/IMU/GPS/Visual/外部追跡など多様で、odom->base_linkは短期移動推定、map->odomは地図での補正を担い、Nav2にはTF/Odometry形式で渡す必要がある。",
-      "source": "npaka",
-      "publishedAt": "2026-06-29T12:58:37.000Z",
-      "contentHash": "8a6ebae312cc"
     }
   ]
 }
