@@ -1,6 +1,33 @@
 {
-  "generatedAt": "2026-07-20T03:50:00.251Z",
+  "generatedAt": "2026-07-20T11:11:29.739Z",
   "items": [
+    {
+      "id": "28429de772d3",
+      "title": "China delivers a one-two punch to America’s AI dominance ",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+      "summary": "中国のMoonshotとAlibabaが短期間で最先端モデルを発表。MoonshotのKimi K3は自社テストで米主要モデルに匹敵しGPT-5.6とClaude Fable 5に次ぐ成績、AlibabaはQwen3.8を公開。低コストで米国のAI優位を脅かし、国安・経済・地政学に影響する可能性。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-20T10:16:33.000Z",
+      "contentHash": "d52fa6dcc55d"
+    },
+    {
+      "id": "ac2f325da433",
+      "title": "社会学の「橋渡し」の理論から考えるプロダクト開発 | SMARTCAMP Engineer Blogのフィード",
+      "url": "https://zenn.dev/smartcamp/articles/4f30317a9e4c12",
+      "summary": "社会学の「弱い紐帯」「構造的空隙」をプロダクト開発に当てはめ、異なるコミュニティやワークフローを橋渡しすることが価値を生むと提案。GitHubやUber、Airbnb、AI連携が好例で「何と何を繋ぐか」を重視する視点。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-20T07:07:49.000Z",
+      "contentHash": "7b0eab502d72"
+    },
+    {
+      "id": "2ac3b7665f9e",
+      "title": "生成AIから良い回答を得るコツ～簡単な質問でテストする～ | サイゼントの技術ブログ",
+      "url": "https://cyzennt.co.jp/blog/2026/07/20/%e7%94%9f%e6%88%90ai%e3%81%8b%e3%82%89%e8%89%af%e3%81%84%e5%9b%9e%e7%ad%94%e3%82%92%e5%be%97%e3%82%8b%e3%82%b3%e3%83%84%ef%bd%9e%e7%b0%a1%e5%8d%98%e3%81%aa%e8%b3%aa%e5%95%8f%e3%81%a7%e3%83%86%e3%82%b9/",
+      "summary": "生成AIで複雑な作業を行うと出力の検証が難しく、確認を怠ると指示ミスや誤りの原因になる。そこで、複雑な作業を安全かつ確実に進めるための検証・確認手法を紹介する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-20T03:27:34.000Z",
+      "contentHash": "41cdbcd8b2a8"
+    },
     {
       "id": "a844087c31b4",
       "title": "Gemini Enterprise Agent PlatformのCustom Training試してみた | Fusic 技術ブログのフィード",
@@ -14,10 +41,10 @@
       "id": "366d9c19c85a",
       "title": "Pull Requestでレビューするブログ運用 〜はてなブログ × GitHub〜 | KENTEM TechBlog",
       "url": "https://tech.kentem.jp/entry/2026/07/20/090000",
-      "summary": "KENTEM編集部はチャットレビューの可視性不足解消のためHatenaBlog Workflows Boilerplateを導入し、GitHubのプルリクで執筆・レビュー運用へ移行。Actionsで下書き自動作成、PR上のMarkdownが下書きに同期、承認後に編集部がはてなで公開を行う形で二重管理を避けつつ試験運用中。",
+      "summary": "KENTEM TechBlog編集部が、複数人執筆の運用改善のためHatenaBlog Workflows Boilerplateを導入。レビューが伝わらない・指摘しづらい等の課題を踏まえ、下書き作成から入稿までを改善する新入稿フローと導入のポイントを紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-20T00:00:00.000Z",
-      "contentHash": "6d3da1d47c0a"
+      "contentHash": "7129ff9762df"
     },
     {
       "id": "79617cb7a929",
@@ -27,6 +54,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-20T00:00:00.000Z",
       "contentHash": "45131b35e657"
+    },
+    {
+      "id": "bbb4858c07e1",
+      "title": "Azure API Management-validate-jwtとEntra IDでAI Gatewayに認証をかける方法 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/90e601b7a321f6",
+      "summary": "Azure API ManagementのAI Gatewayで、Microsoft Entra IDのvalidate-jwtを使いAPIを保護し、認証済みリクエストのみ通す手順を解説。前提はAPIM BasicとMicrosoft Foundry導入済み、既存実装があること。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-19T23:55:16.000Z",
+      "contentHash": "0c639ad2f232"
     },
     {
       "id": "8c341ca217c5",
@@ -50,10 +86,10 @@
       "id": "0918f9ea714c",
       "title": "LeRobot の Reward Model 入門",
       "url": "https://note.com/npaka/n/n942d5eddcd5f",
-      "summary": "LeRobot v0.6はSARM／Robometer／TOPRewardを統一的に扱うReward Model機能とHIL-SERLを統合。観測や軌道からタスク進捗・成功確率・データ品質を推定し、RA-BCや強化学習報酬生成、自動ラベリング・データ選別・ポリシー評価を可能にする。SARMは工程認識で段階ごとの進捗を推定。",
+      "summary": "LeRobot v0.6で報酬モデルの共通インターフェースを実装。SARM等を統一利用でき、観測や軌道から進捗・成功確率を推定し、BC補完、RL報酬生成、データ評価や自動ラベリングを可能にする。",
       "source": "npaka",
       "publishedAt": "2026-07-19T20:28:20.000Z",
-      "contentHash": "de33f4892da7"
+      "contentHash": "3cb1796b6a9b"
     },
     {
       "id": "0f079c061802",
@@ -68,10 +104,10 @@
       "id": "c8c3ec20e269",
       "title": "I hate that I don’t hate this song made with Suno",
       "url": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
-      "summary": "1010BenjaがSunoで制作した「Semiramis’ Dream」は、AI音楽が単なる“スロップ”ではなく、適切に使えば魅力的な作品になり得ることを示した。作者はAI使用を謝らない。",
+      "summary": "1010BenjaがAIツールSunoで制作した「Semiramis’ Dream」は、筆者が嫌いになれないほど魅力的で、適切に使えばAIは単なる雑な生成器以上の音楽表現を生むと示した。1010Benjaは使用を謝罪しない。",
       "source": "The Verge",
       "publishedAt": "2026-07-19T17:35:54.000Z",
-      "contentHash": "c6547dd7950f"
+      "contentHash": "f3852ad2e041"
     },
     {
       "id": "5cdf3ddd8b14",
@@ -86,10 +122,10 @@
       "id": "479e9fd8f9fc",
       "title": "The FBI reportedly won’t investigate ICE anymore",
       "url": "https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults",
-      "summary": "NYタイムズはFBIがICE関連の対立事件を捜査しない指示が出たと報道。ICE自身による捜査で説明責任が低下すると懸念。DHSと司法省は否定。最近の致死事件が背景。",
+      "summary": "NYTはFBIが今後ICE関係の衝突を捜査しない方針になったと報道。DHSと司法省は否定したが、最近のICE職員による射殺を背景に自己調査で責任追及が困難になる懸念がある。",
       "source": "The Verge",
       "publishedAt": "2026-07-19T16:42:10.000Z",
-      "contentHash": "7038a55e7d21"
+      "contentHash": "0ab9bce1ba3b"
     },
     {
       "id": "931332f71a8b",
@@ -119,6 +155,15 @@
       "contentHash": "033afeab7bbf"
     },
     {
+      "id": "8c0a50d5cf13",
+      "title": "TypeScriptの型演算子の優先順位はどこで決まっているのか？ | SMARTCAMP Engineer Blogのフィード",
+      "url": "https://zenn.dev/smartcamp/articles/10ddf0d04ee402",
+      "summary": "TypeScriptの型演算子は型を組み合わせ・変換する機能。ユニオン（|）、インターセクション（&）、keyof、typeof、readonly、T[K]などのインデックスアクセスや配列型で型を操作できる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-19T15:07:13.000Z",
+      "contentHash": "99983fc7d0ea"
+    },
+    {
       "id": "32766720e8f6",
       "title": "Birdfy&#8217;s solar-powered smart feeder is down to one of its best prices",
       "url": "https://www.theverge.com/gadgets/967336/birdfy-feeder-ai-powered-smart-bird-feeder-with-camera-deal-sale",
@@ -140,10 +185,10 @@
       "id": "671a08a59da9",
       "title": "US Marshals arrest the Tate brothers in Miami",
       "url": "https://www.theverge.com/policy/967651/us-marshals-arrest-the-tate-brothers-in-miami",
-      "summary": "米マイアミで米連邦保安官が影響力のあるアンドリュー・トレイトとトリスタン・トレイト兄弟を逮捕。英当局は強姦、性的人身売買、児童画像や極端ポルノなど多数の新たな罪で引渡しを求めており、既存の2025年の21件やルーマニア・米国での捜査も続いている。",
+      "summary": "マノスフィア影響力者のアンドリューとトリスタン・テート兄弟が米マーシャルによりマイアミで逮捕。英国は強姦・性的人身売買、児童性的画像や過激ポルノなど多数の新罪で送還を請求。2025年の起訴やルーマニア・米国での捜査も継続中。",
       "source": "The Verge",
       "publishedAt": "2026-07-19T14:20:48.000Z",
-      "contentHash": "f68171c94d55"
+      "contentHash": "26b36da99e73"
     },
     {
       "id": "c9d681bdc802",
@@ -221,10 +266,10 @@
       "id": "7607084db185",
       "title": "検索画面のUI設計で、バックエンドエンジニアが早めに口出しすべき3つのこと | NCDC テックブログのフィード",
       "url": "https://zenn.dev/ncdc/articles/6c8eabde83cf0a",
-      "summary": "検索UIでバックエンドが早期に関与すべき3点：検索方式（完全/前方/後方/部分一致で性能・実装コストが異なる）、ページネーションと総件数表示（オフセット/カーソル）、並び替え項目数（インデックス負荷）。部分一致はpg_trgmや全文検索導入を検討。",
+      "summary": "検索画面で「とりあえず曖昧検索」「並び替えは全部入れる」などの暫定決定が後のバックエンド検索性能問題を招くことがある。NCDCではデザイナー主導でUIが決まりがちで、記事は開発レビュー段階でエンジニアが確認すべき点を解説する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-19T09:49:11.000Z",
-      "contentHash": "b1c40d310225"
+      "contentHash": "d11d7d42cf8d"
     },
     {
       "id": "cdece907f939",
@@ -257,19 +302,19 @@
       "id": "ed16844642a3",
       "title": "USBケーブルの種類と見分け方",
       "url": "https://note.com/npaka/n/n7787a934f0a8",
-      "summary": "USBケーブルは外見で判断できず、コネクタ形状、データ転送速度、給電(W)、映像/Thunderbolt対応の4点を確認する必要があります。速度は480Mbps〜80Gbpsまであり、給電は充電器・ケーブル・機器の最小性能で制限。充電専用ケーブルはデータ非対応。用途に応じ具体的なGbpsやW表記で選んでください。",
+      "summary": "USBケーブルは見た目でも性能が異なる。確認すべきはコネクタ形状、データ転送速度、給電容量、映像/Thunderbolt対応。Type‑Cは特に機能差が大きく速度表記や給電能力は機器・充電器・ケーブルの最小値で決まる。充電専用はデータ非対応。",
       "source": "npaka",
       "publishedAt": "2026-07-19T05:39:36.000Z",
-      "contentHash": "423ed379488f"
+      "contentHash": "2b7f3bd394d0"
     },
     {
       "id": "8f3534fe0bce",
       "title": "iceoryx の概要",
       "url": "https://note.com/npaka/n/n7560f7f223b2",
-      "summary": "iceoryxは共有メモリを使うオープンソースのIPCミドルウェア。ゼロコピーで高容量のカメラ画像やLiDAR点群を同一PCの複数プロセスに効率配信し、CPU負荷・メモリ帯域・遅延を削減。C++版とRust中心のiceoryx2があり、ROS2連携で有用。",
+      "summary": "iceoryxは共有メモリを使ったゼロコピーのプロセス間通信ミドルウェアです。高解像度画像やLiDAR等の大容量センサーデータを同一PC内の複数プロセスへ効率配信し、CPU負荷・メモリ帯域・遅延を低減します。C++版とRust中心のiceoryx2があり、ROS2連携で有用です。",
       "source": "npaka",
       "publishedAt": "2026-07-19T02:49:33.000Z",
-      "contentHash": "0a917b256e36"
+      "contentHash": "459d1c6d2434"
     },
     {
       "id": "8cbeae092a8f",
@@ -284,10 +329,10 @@
       "id": "49b630ef6a0b",
       "title": "TypeScriptの型を収集してからコンテキストとしてLLMに与えてみる | SMARTCAMP Engineer Blogのフィード",
       "url": "https://zenn.dev/smartcamp/articles/b28949bea1e8d2",
-      "summary": "LLMがTypeScript型を推測して誤修正する問題に対し、LSPは重くgrepは不正確。提案はTypeScript Context Extractorで、ユーザー入力からシンボル抽出→プロジェクト内確認→関連型を深さ2まで収集し、LLMにコンテキスト注入する軽量手法。",
+      "summary": "TypeScriptプロジェクトでLLMにコード修正を頼むと、型情報を推測して誤った変更を提案する問題がある。例：createUserの引数をname/emailと推測したが実際は{repo, data}。既存の型解析手法で対応できるが課題が残る。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-19T01:04:33.000Z",
-      "contentHash": "272487c1f1c8"
+      "contentHash": "cf45945caae8"
     },
     {
       "id": "0ad5fdc83ea2",
@@ -311,10 +356,10 @@
       "id": "6e1027054e04",
       "title": "Azure API ManagementのAI GatewayでMicrosoft Foundryを呼び、IP Filterで制御する | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/28e466d961518b",
-      "summary": "Azure API ManagementのAI GatewayでMicrosoft Foundryを呼び、IPフィルタで制御する手順を解説。前提はAPIM BasicとFoundry導入。APIMにMicrosoft FoundryのAPIを追加して設定・テストし、Python（AzureOpenAI）で呼び出すコード例を示す。",
+      "summary": "Azure API ManagementでAI Gatewayを実際に構築しながら学ぶ記録。Docsだけでは分からなかったため、Microsoft Foundryを呼び出し、IPフィルターで制御する構成を試す。前提はAPIM BasicとFoundryがデプロイ済み。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-18T23:39:30.000Z",
-      "contentHash": "1046049edb4a"
+      "contentHash": "cd5645f17d9a"
     },
     {
       "id": "e4b958abbc08",
@@ -482,10 +527,10 @@
       "id": "8ee06bcb4be6",
       "title": "2026年 フィジカルAIの現在地 -  ロボットAIはどこまで進んだか",
       "url": "https://note.com/npaka/n/ne4cb1c2e3cfa",
-      "summary": "2026年、物理世界で行動するフィジカルAIが注目。画像と言語から動作を作るVLAや高次推論を持つ基盤モデルで専用モデルから汎用化が進む。LeRobot v0.6でVLAやワールドモデル、評価・学習基盤が統合され開発・比較が容易に。",
+      "summary": "2026年、フィジカルAIではロボットAIが急速に進展。VLAやロボット基盤モデルで特化型から汎用化へ移行し、計画・推論と行動生成を統合する「考えて動く」ロボットが登場。LeRobotはVLAやWorld Model、評価・学習基盤を統合する開発環境へ成長。",
       "source": "npaka",
       "publishedAt": "2026-07-18T13:41:51.000Z",
-      "contentHash": "ca74c15a0bc7"
+      "contentHash": "b39edb148bf0"
     },
     {
       "id": "0ddeab6de3ba",
@@ -3452,10 +3497,10 @@
       "id": "4e301ea17194",
       "title": "ChatGPT Sites のクイックスタート",
       "url": "https://note.com/npaka/n/n731339e77c27",
-      "summary": "ChatGPT SitesはChatGPT上でWebサイトや軽量Webアプリを作成・プレビュー・修正・デプロイ・公開でき、OpenAIがホスティング。有料プランのベータ提供で利用上限があり、上限到達で新規作成や公開維持が制限される。デスクトップアプリからプロジェクトを選びSitesスキルで公開、ログインして動作確認や共有設定・削除が可能。",
+      "summary": "ChatGPT SitesはChatGPT上でサーバ不要にWebサイトや軽量Webアプリを作成・プレビュー・修正・デプロイ・公開できる機能。現在は有料プラン対象のパブリックβで、プランごとの利用上限を超えると新規作成や公開維持に制限がかかる。デスクトップのSites機能で簡単にWebゲームを公開・管理できる。",
       "source": "npaka",
       "publishedAt": "2026-07-12T22:31:44.000Z",
-      "contentHash": "6e415d814ee3"
+      "contentHash": "071ab694da60"
     },
     {
       "id": "36b509078d75",
@@ -8955,51 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-06-29T17:16:17.000Z",
       "contentHash": "793de618f091"
-    },
-    {
-      "id": "36a2cd0721c4",
-      "title": "Qwen 3.6 27B is the sweet spot for local development",
-      "url": "https://quesma.com/blog/qwen-36-is-awesome/",
-      "summary": "Qwen 3.6 27Bはローカル開発の「ちょうど良い」モデル。密モデルで35Bより遅いが性能は高く、創作や実用タスクで期待以上に動作する。動作中は発熱するが価値あり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-29T17:05:16.000Z",
-      "contentHash": "13e5f97639a4"
-    },
-    {
-      "id": "5e513cb3cfeb",
-      "title": "The Radiation Exposure Lie",
-      "url": "https://worksinprogress.co/issue/how-to-lie-about-radiation/",
-      "summary": "チェルノブイリは最悪の原発事故。設計欠陥と安全装置停止で試験中に爆発・火災が発生。600人中134人が高線量被ばく、初期に28人死亡。汚染牛乳で子供の甲状腺に放射性ヨウ素が蓄積し6000件の甲状腺がん（15人死亡、将来約200人の可能性）。急性被ばくで死者を出した唯一の商用原発事故。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-29T16:27:27.000Z",
-      "contentHash": "1acddbb4248c"
-    },
-    {
-      "id": "4e7e8684ff2b",
-      "title": "European ISPs Want Rightsholders Held Accountable for Overblocking Damage",
-      "url": "https://torrentfreak.com/european-isps-want-rightsholders-held-accountable-for-overblocking-damage/",
-      "summary": "欧州のISPは、著作権者が求めた遮断命令で合法的なコンテンツまで過剰に遮断された場合、著作権者に損害賠償責任を負わせるべきだと主張。証拠基準の厳格化、透明性向上や差止め命令の限定を求めている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-06-29T16:07:15.000Z",
-      "contentHash": "324b45e27417"
-    },
-    {
-      "id": "58f27d374d30",
-      "title": "WhatsApp is launching usernames: here’s how to reserve yours",
-      "url": "https://www.theverge.com/tech/958832/whatsapp-usernames-rollout-reservation-availability",
-      "summary": "WhatsAppは電話番号を明かさずに連絡できる「ユーザー名」を導入。今週から希望のユーザー名を予約でき、年内に順次提供開始。ユーザー名は一覧閲覧不可で相手の正確な名前が必要。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-29T16:00:00.000Z",
-      "contentHash": "138fabd0fb76"
-    },
-    {
-      "id": "e54c66070c2f",
-      "title": "Lawmakers want to ban AI companies from selling your health data",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
-      "summary": "議員らは、AI企業がチャットボットなどで収集した米国民の健康・位置情報をデータ仲介業者に販売することを禁じる改正データプライバシー法案を提案している。",
-      "source": "The Verge",
-      "publishedAt": "2026-06-29T16:00:00.000Z",
-      "contentHash": "4bc0c7d070bb"
     }
   ]
 }
