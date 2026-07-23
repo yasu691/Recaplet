@@ -1,6 +1,213 @@
 {
-  "generatedAt": "2026-07-22T17:34:43.924Z",
+  "generatedAt": "2026-07-23T03:22:40.157Z",
   "items": [
+    {
+      "id": "0fcd1183f25e",
+      "title": "クラウドネイティブの顧客質問対応（ask運用）と仕組みについて | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/cloud-native-ask-operations/",
+      "summary": "クラウドネイティブのAskは、顧客がSlackで気軽に質問できる窓口。全社で必ず回答する方針のもと、受付→振り分け→回答→ナレッジ化の4ステップで運用。Devが自動起票やAIスタンプで見落としを防ぎ、個人依存を排して迅速対応する仕組みを整備している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-23T02:44:00.000Z",
+      "contentHash": "509525eea950"
+    },
+    {
+      "id": "f142f894575e",
+      "title": "第40回人工知能学会全国大会 (JSAI2026) 参加レポート | Visional Engineering Blog",
+      "url": "https://engineering.visional.inc/blog/790/jsai2026-report/",
+      "summary": "ビズリーチの佐藤光によるJSAI2026参加報告。スポンサー出展で日本語検索モデルSPLADEやLLMによるレジュメ添削、社内マッチングを紹介。特許やHR関係者の関心が高く、基調講演では技術と社会の共進化やAIの責任所在の重要性が示され、ロボティクスへの注目も高かった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-23T02:30:00.000Z",
+      "contentHash": "2995e3a7055f"
+    },
+    {
+      "id": "9dafae35de83",
+      "title": "【詳細解説】AWS Lambdaのセルフマネージド型コードストレージを使ってみた | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/lambda-self-managed-code-storage",
+      "summary": "ES課の濱岡です。Lambdaの関数やレイヤーはデプロイパッケージがLambda管理ストレージにコピーされコードストレージ上限を消費します。今回、S3を直接参照するセルフマネージド型コードストレージが発表され、コピー不要で上限問題を緩和します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-23T02:30:00.000Z",
+      "contentHash": "b664a6e9f119"
+    },
+    {
+      "id": "fb8ee9dea7c7",
+      "title": "スプリントゴールを当たり前にする | Cybozu Inside Out | サイボウズエンジニアのブログ",
+      "url": "https://blog.cybozu.io/entry/2026/07/23/113000",
+      "summary": "CYBOZUのスクラムマスター大石が、iOS kintoneモバイルアプリ開発チームで実践するスプリントゴールの設定と運用方法、意識しているポイントを紹介する記事です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-23T02:30:00.000Z",
+      "contentHash": "046d6be60b88"
+    },
+    {
+      "id": "c567aef96a36",
+      "title": "スクラムフェス金沢2026にシルバースポンサーとして参加しました 〜オフラインの「場」の価値を再認識した2日間〜 | DMM Developers Blog",
+      "url": "https://developersblog.dmm.com/entry/2026/07/23/110000",
+      "summary": "DMM.com技術広報はスクラムフェス金沢2026にシルバースポンサーとして参加。ブースでの交流やKeynote・OSTなど印象的なセッションを通じ、オフラインの場が生む学びと価値を振り返りました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-23T02:00:00.000Z",
+      "contentHash": "6f2679b8d9d1"
+    },
+    {
+      "id": "4d9779e79b5d",
+      "title": "AI Readyな開発環境の整え方 | LINEヤフー Tech Blog (LY Corporation Tech Blog",
+      "url": "https://techblog.lycorp.co.jp/ja/20260723a",
+      "summary": "記事の本文が途中で切れています。全文を貼っていただければ200文字以内で要約します。URLでも可。部分的な要約でよければ、続きなしの現状のテキストから短くまとめますか？",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-23T02:00:00.000Z",
+      "contentHash": "e80ee8e6e6bd"
+    },
+    {
+      "id": "d97871047ed3",
+      "title": "BQエージェントに\"ちゃんと動くSQL\"を書かせるために試したこと | OpenWork Tech Blog",
+      "url": "https://techblog.openwork.co.jp/entry/bigquery-conversational-analytics",
+      "summary": "BigQueryのConversational Analytics（BQエージェント）でSQL生成の精度を上げるため、プロンプト設計の改善、スキーマや例示データの提示（few-shot）、テンプレート化、検証・テスト実行による反復改善を行った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-23T02:00:00.000Z",
+      "contentHash": "ad327f3f272f"
+    },
+    {
+      "id": "ba702859adb5",
+      "title": "OpenTelemetryで作るAI基盤のGPUオブザーバビリティ | さくらのナレッジ",
+      "url": "https://knowledge.sakura.ad.jp/51163/",
+      "summary": "オープンソースカンファレンス2026仙台での発表をさくナレ編集部が記事化。さくらインターネットの芦野氏（@tar_xzvff、サービス統括本部・サービス開発部）による紹介記事です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-23T02:00:00.000Z",
+      "contentHash": "2d67ad5b8a4f"
+    },
+    {
+      "id": "ba2d9692ed46",
+      "title": "ハーネスの使いこなし方を学ぶ、Claude Code スキル・ハーネス勉強会を開催しました | COLOPL Tech Blog",
+      "url": "https://blog.colopl.dev/entry/2026/07/23/110000",
+      "summary": "技術基盤本部の永野が6月30日に社内でClaude Code勉強会をMC。コロプラは定期的にAI勉強会を開き、CopilotからClaude Code利用者が増加。基本操作を超え仕組みやハーネス活用への関心が高まり開催した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-23T02:00:00.000Z",
+      "contentHash": "01df29fea13d"
+    },
+    {
+      "id": "5fe4613e9899",
+      "title": "【IEEE TCI 掲載】RGB-MIS フュージョンによるモバイル向け広色域（Wide Color Gamut・WCG）撮影システムの開発 | Morpho Tech Blog",
+      "url": "https://techblog.morphoinc.com/entry/2026/07/23/110000",
+      "summary": "研究者・長山とMorpho Koreaの李が共著でIEEE Transactions on Computational Imagingに論文を発表。記事は前半でプロジェクト経緯、後半で技術手法を解説し、スマホ写真の色が現実と異なる主因をsRGBなどの色域規格に求めている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-23T02:00:00.000Z",
+      "contentHash": "95e5e37f29ff"
+    },
+    {
+      "id": "42e2fd765cf2",
+      "title": "Codeberg Bans Cryptocurrency Projects",
+      "url": "https://codeberg.org/Codeberg/org/pulls/1254",
+      "summary": "申し訳ありませんが、外部URLへ直接アクセスできません。記事本文か要点（HNコメント含む）を貼っていただければ、200字以内で日本語要約します。要約のトーン（中立/賛否/箇条書き）も指定できます。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-23T01:06:56.000Z",
+      "contentHash": "d1f2be0d868a"
+    },
+    {
+      "id": "81a2ae49ff2c",
+      "title": "ローカルネットワークでDockerサーバーを常時稼働させる方法",
+      "url": "https://note.com/npaka/n/n22cc3f0986ea",
+      "summary": "ローカルネットワークでDockerを常時稼働させる方法。Composeでコンテナを管理し、restart: unless-stoppedやsystemdでDocker自動起動を有効化。IP固定・ボリュームでデータ永続化・ログ制限を行い、BIOS/UEFIの電源復旧設定で停電後も自動復旧させる。",
+      "source": "npaka",
+      "publishedAt": "2026-07-23T00:38:26.000Z",
+      "contentHash": "f7e2815124d6"
+    },
+    {
+      "id": "3ef16eb2142e",
+      "title": "Lego’s Donkey Kong arcade machine lets Mario jump endless barrels — Miyamoto is reportedly happy",
+      "url": "https://www.theverge.com/gadgets/969668/lego-donkey-kong-arcade-machine",
+      "summary": "レゴが約200ドルの「ドンキーコング」アーケード機セットを発売。カール・メリヤム設計で、ジョイスティックやジャンプボタン、レバーで無限に落ちる樽など可動ギミックを搭載。完全再現ではないが、宮本茂氏も好意的とのこと。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-23T00:30:00.000Z",
+      "contentHash": "7f469b023031"
+    },
+    {
+      "id": "9581e976ba1f",
+      "title": "Meta won’t have to face the next planned social media addiction trial",
+      "url": "https://www.theverge.com/policy/969644/meta-social-media-addiction-trial-dropped",
+      "summary": "15歳の原告R.K.C.は、TikTok・Snap・YouTubeと和解したうえで、長期の過酷な審理を懸念し、メタを相手取る「若年層を中毒化して害を与えた」とするベルウェザー訴訟を取り下げ、メタは裁判を免れた。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-22T22:03:53.000Z",
+      "contentHash": "b2f8d828bd25"
+    },
+    {
+      "id": "adff176fe238",
+      "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
+      "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
+      "summary": "LinkedInのリクルーターから高額提示でPython職の案内が来た。YC系企業名で採用課題がGoogle Driveで送られ、FastAPI/SQLAlchemyのコード一式。著者は不審を抱き依頼内容や依存パッケージ等を詳しく検査した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-22T20:33:44.000Z",
+      "contentHash": "2af6ea6745e1"
+    },
+    {
+      "id": "4e23eb42d0d6",
+      "title": "Tesla’s revenues are bouncing back, but profits are still weak",
+      "url": "https://www.theverge.com/transportation/969311/tesla-q2-2026-earnings-revenue-profit-sales",
+      "summary": "テスラは売上が回復しつつあるが利益は弱く、AIインフラやロボティクスへの投資拡大でフリーキャッシュフローはマイナス。数年の低迷後、出荷は改善したが課題が残る。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-22T20:17:46.000Z",
+      "contentHash": "98fa78002d84"
+    },
+    {
+      "id": "2dca3e93e2d4",
+      "title": "John C. Dvorak has died",
+      "url": "https://twitter.com/na_announce/status/2079952538040672302",
+      "summary": "申し訳ありませんが、外部リンクを直接開けません。記事本文をここに貼っていただくか、要点を教えてください。いただければ200字以内で日本語に要約します（複数リンクの統合可）。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-22T19:22:19.000Z",
+      "contentHash": "42e69ff0519b"
+    },
+    {
+      "id": "a0fbc83d6a5e",
+      "title": "Price-hiked iPads are a little cheaper right now",
+      "url": "https://www.theverge.com/gadgets/969003/apple-ipad-air-pro-airtag-deal-sale",
+      "summary": "13インチiPad Pro（M5、512GB）が通常$1,699→Amazonで$1,549.99（$150引き）、Best Buyでは$100引き。M5搭載・OLED・最大60W充電・Apple Pencil/ Magic Keyboard対応。AirTag4個パックや整備済PS5 Slimも割引中。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-22T19:14:31.000Z",
+      "contentHash": "13b5e7a21fdc"
+    },
+    {
+      "id": "f90babb447b1",
+      "title": "iOS code could reportedly let Apple cut off apps when users miss iPhone payments",
+      "url": "https://www.theverge.com/tech/969596/apple-restricted-mode-ios-27",
+      "summary": "9to5Macは、iOS 27ベータのコードが支払滞納時に分割・リース中のiPhoneを「Restricted Mode」にし、電話や設定以外の大半のアプリを制限、継続監視する「App Managed Features」と、消去・転売・部品流用を防ぐ「Partner Finance Lock」を含むと報じた。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-22T19:13:21.000Z",
+      "contentHash": "6508a345bba4"
+    },
+    {
+      "id": "edb9884c0bcf",
+      "title": "Everyone Should Know SIMD",
+      "url": "https://mitchellh.com/writing/everyone-should-know-simd",
+      "summary": "SIMDは難しい誤解があるが、定数ブロードキャスト→ベクトル単位ループ→SIMD演算→結果還元→スカラ尾部の共通形を覚えれば理解しやすく日常的に有用。Zig例で説明し、コンパイラ任せできない場合もあり基礎を知るべきと主張。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-22T17:48:18.000Z",
+      "contentHash": "d601355d77c3"
+    },
+    {
+      "id": "3c187b67b93c",
+      "title": "Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample",
+      "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+      "summary": "ChatGPTはAIで、利用には利用規約とプライバシーポリシーへの同意が必要です。チャットはレビューされAI改善に使われることがあり、一部スクリプトが入力や表示時間の記録を行います。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-22T17:30:40.000Z",
+      "contentHash": "9c5c68334d32"
+    },
+    {
+      "id": "520cf72deab7",
+      "title": "GigaToken: ~1000x faster Language model tokenization",
+      "url": "https://github.com/marcelroed/gigatoken/",
+      "summary": "GigatokenはHuggingFace/tiktoken互換の超高速トークナイザー（最大約1000倍、GB/s処理）。pipで導入可。互換モードと、Rust実装でファイル直読するさらに高速な独自APIを提供。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-22T17:20:38.000Z",
+      "contentHash": "e791d58c935f"
+    },
+    {
+      "id": "2f44a69f2a49",
+      "title": "Are AI Labs Pelicanmaxxing?",
+      "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
+      "summary": "Simon Willisonの「自転車に乗るペリカン」ベンチマークでAI各社が性能調整しているかを検証。8×6の48プロンプトを7大モデルで各3生成（計1008SVG）し、LLM判定＋Claude Fable 5で分析。結果とコード公開。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-22T17:17:54.000Z",
+      "contentHash": "a3824bd45a0e"
+    },
     {
       "id": "60e835fea4b0",
       "title": "Apple is reportedly testing a MacBook Neo with more RAM",
@@ -23,10 +230,10 @@
       "id": "b6c036e2206b",
       "title": "Here’s how to ask Gemini Live for help with anything you see.",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-live-camera-how-to/",
-      "summary": "GeminiアプリのLive機能は、カメラで見ているものを示すだけで修理手順や整理のコツ、アプリ操作の支援、買い物やインテリア相談など、実世界を起点にリアルタイムでAIに助けを求められます。",
+      "summary": "記事は、複雑なマニュアルや点滅するエラーコード、珍しい物体など、目にしたものを言葉で説明する難しさを指摘し、専門的な説明や支援の必要性を問いかける導入部です。",
       "source": "Gemini",
       "publishedAt": "2026-07-22T16:00:00.000Z",
-      "contentHash": "29641c6407af"
+      "contentHash": "5fb2a9bd56b3"
     },
     {
       "id": "d1947d984030",
@@ -54,6 +261,24 @@
       "source": "The Verge",
       "publishedAt": "2026-07-22T15:42:22.000Z",
       "contentHash": "9a504a494ac4"
+    },
+    {
+      "id": "615e4b1c10d2",
+      "title": "Can a MUD evaluate LLMs? A $99 proof of concept",
+      "url": "https://cruciblebench.ai/",
+      "summary": "CrucibleBenchは永続的なMUD内で言語モデルを50ターン行動させ、NPCが記憶・信頼を蓄積し隠れた社会的目標で行動を評価する研究ベンチ。Phase1（概念実証）は13モデル650ランを公開しPhase2を開発中。GPT-5.4が14ターンで指輪返還と推薦を得た事例を含む。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-22T15:39:01.000Z",
+      "contentHash": "8d9372fd62ff"
+    },
+    {
+      "id": "4b363fbff104",
+      "title": "Making",
+      "url": "https://beej.us/blog/data/ai-making/",
+      "summary": "自分で作ることに大きな充足感を得るが、他人やAIに作らせると満足感が薄く悲しくなる。記事は「AI開発の分裂」を論じつつ、ここでの「AI」を生成系LLMと定義し、筆者の悩みとSF小説の抜粋を載せる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-22T15:33:48.000Z",
+      "contentHash": "3684026746fb"
     },
     {
       "id": "f06e6fb7a7b1",
@@ -149,10 +374,19 @@
       "id": "a9dfe60b87c5",
       "title": "3 Google updates from Galaxy Unpacked 2026",
       "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "summary": "GoogleはGalaxy Unpackedで、Gemini Intelligenceを搭載した新しいGalaxy Z Fold8/Flip8や折りたたみ端末、時計、スマートグラスを発表し、ユーザーの生産性向上と時間短縮を目指すと述べた。",
+      "summary": "Samsungは、まもなく登場する折りたたみ端末、スマートウォッチ、スマートグラスで、ユーザーの生産性を高め時間を取り戻す方法を紹介しました。",
       "source": "Gemini",
       "publishedAt": "2026-07-22T13:00:00.000Z",
-      "contentHash": "53a7bab742e7"
+      "contentHash": "e2b7234afcff"
+    },
+    {
+      "id": "932591afba7f",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "summary": "報道機関はAIを活用して取材力の強化、読者拡大、業務改善を図っており、OpenAIのツールが世界中の記者や出版社を支援している。",
+      "source": "OpenAI",
+      "publishedAt": "2026-07-22T13:00:00.000Z",
+      "contentHash": "f074b782c7e2"
     },
     {
       "id": "e7787a8af185",
@@ -500,10 +734,19 @@
       "id": "4298cb0c1835",
       "title": "State MachineとBehavior Treeの違いとロボットでの使い分け",
       "url": "https://note.com/npaka/n/ne4084eba5917",
-      "summary": "ロボットのタスク制御でState MachineとBehavior Treeの違いを解説。State Machineは現在状態を明確に管理し起動やモード制御、順序処理に向くが遷移が増えると複雑化する。Behavior Treeは条件や行動をノードで組み合せ再利用性・柔軟性に優れ複雑なタスク実行に適する。用途に応じて使い分ける。",
+      "summary": "ロボットのタスク実行で用いるState MachineとBehavior Treeの違い。State Machineは「現在の状態」を明確に管理し順序制御に向くが例外で遷移が膨張しやすい。Behavior Treeは条件・行動をノードで組み、再利用性と反応性に優れ複雑な振る舞いに適する。",
       "source": "npaka",
       "publishedAt": "2026-07-22T00:35:20.000Z",
-      "contentHash": "83829803dad3"
+      "contentHash": "8175f6d1eff3"
+    },
+    {
+      "id": "389ebd02d283",
+      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+      "url": "https://openai.com/index/ntt-data",
+      "summary": "NTTデータグループはChatGPT EnterpriseとCodexを導入し、約9,000人の従業員の業務自動化を推進。障害分析を30分に短縮し、セキュアなAI導入を拡大しています。",
+      "source": "OpenAI",
+      "publishedAt": "2026-07-22T00:00:00.000Z",
+      "contentHash": "e9f3bc9d0f84"
     },
     {
       "id": "3c66d7ded7a6",
@@ -572,10 +815,10 @@
       "id": "20883c2d7e6f",
       "title": "13 Google tips for a fun, productive summer off from college",
       "url": "https://blog.google/products-and-platforms/products/education/summer-productivity-tips-google-ai-tools/",
-      "summary": "GoogleのAIツールで夏休みを有意義に過ごすための13の活用法を紹介。やること整理や生産性向上、次学期準備やセキュリティ強化に役立つ。",
+      "summary": "大学生がGoogleのAI（GeminiやAIモード）を活用して、大学院・インターン応募や秋学期の準備・学習計画作成などを効率化する方法を紹介。",
       "source": "Gemini",
       "publishedAt": "2026-07-21T20:00:00.000Z",
-      "contentHash": "a9e11aa7544f"
+      "contentHash": "67815f2f3afa"
     },
     {
       "id": "c8cfea0372b0",
@@ -743,10 +986,10 @@
       "id": "09b59cb95c87",
       "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-      "summary": "GoogleがGemini新モデルを発表：Gemini 3.6 Flash、3.5 Flash‑Lite、3.5 Flash Cyber。トークン効率向上、低レイテンシ、信頼性改善により、大規模なAIエージェント運用向けに最適化。",
+      "summary": "Geminiの新モデルとして、Gemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberを導入します。",
       "source": "Gemini",
       "publishedAt": "2026-07-21T15:00:00.000Z",
-      "contentHash": "b758ce5422ce"
+      "contentHash": "9050584e2168"
     },
     {
       "id": "3671fbd92622",
@@ -1220,10 +1463,10 @@
       "id": "85a5cc9c947a",
       "title": "5 ways to build a side hustle with Gemini",
       "url": "https://blog.google/products-and-platforms/products/gemini/launch-business-with-gemini/",
-      "summary": "Geminiを使えば、副業の立ち上げと成長を支援できる。事業計画や市場調査、ブランディングを効率化し、物流や顧客対応などの業務を自動化して収益化を目指せる。",
+      "summary": "副業を始める際に、AIツール「Gemini」を使って事業アイデアの設計、マーケット調査、物流や業務の自動化を支援する、という内容です。",
       "source": "Gemini",
       "publishedAt": "2026-07-20T19:00:00.000Z",
-      "contentHash": "58d35177a11c"
+      "contentHash": "688cb4b26706"
     },
     {
       "id": "5569dd99533f",
@@ -1364,10 +1607,10 @@
       "id": "80d11aa8a812",
       "title": "Kimi K3 の概要",
       "url": "https://note.com/npaka/n/nf3ea60b9fedb",
-      "summary": "Moonshot AIが2026/7/16発表のKimi K3：2.8Tパラメータ(MoE、896 experts中16活性)、最大100万トークン、テキスト・画像・動画のネイティブマルチモーダル。長時間コーディングや大規模ナレッジワーク、Vision-in-the-Loop対応。重みは7/27公開予定。",
+      "summary": "2026年7月16日発表のKimi K3は、2.8兆パラメータのMoEモデルで最大100万トークン、テキスト/画像/動画のネイティブマルチモーダル対応。長時間コーディングや画面確認を伴う開発、複数エージェントによるナレッジワーク向け。重みは7月27日公開予定。",
       "source": "npaka",
       "publishedAt": "2026-07-20T12:18:08.000Z",
-      "contentHash": "487836fe0420"
+      "contentHash": "4bc9fe154cd7"
     },
     {
       "id": "b766a40fbcac",
@@ -1382,10 +1625,10 @@
       "id": "002d1e2cf961",
       "title": "LeRobot で学習できるデータセットの条件 - モデルとロボット構成による違い",
       "url": "https://note.com/npaka/n/ne4d033a1b8b1",
-      "summary": "LeRobotDataset形式でもモデルやロボット構成で学習条件が異なる。共通はobservation.state・images・action・task・timestamp等。モデルごとに画像種、状態・行動の次元・並び、関節/手先空間、絶対/差分指令、時系列長、言語有無、正規化などの追加要件があり、代表例はACT（複数ステップのAction Chunk予測）、Diffusion Policy、SmolVLA、π0.5。",
+      "summary": "LeRobotのデータはLeRobotDataset形式でもモデルとロボット構成で要件が異なる。共通はobservation.images/state、action、task、timestamp/episode/frame。各モデルは画像種別、行動次元・表現（関節/手先、絶対/差分）、時系列長、言語指示や正規化など追加条件がある（例：ACTは複数ステップのAction Chunkを出力）。",
       "source": "npaka",
       "publishedAt": "2026-07-20T11:49:17.000Z",
-      "contentHash": "284414446b14"
+      "contentHash": "b207e91e7006"
     },
     {
       "id": "a8107f2edfa8",
@@ -4325,10 +4568,10 @@
       "id": "90c6b2e30b40",
       "title": "How Gemini is speaking the language of Southeast Asia",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-southeast-asia-report-2026/",
-      "summary": "Googleのチャットボット「Gemini」アプリの東南アジアでのアクティブ利用者が昨年比で2倍以上に増加。地域の言語対応や日常での活用事例を紹介する記事です。",
+      "summary": "Googleの生成AI「Gemini」は、現地言語への対応力とモバイル利用が中心の東南アジアの特性を背景に、同地域で急速に普及している。",
       "source": "Gemini",
       "publishedAt": "2026-07-14T04:30:00.000Z",
-      "contentHash": "e0b6804da3bb"
+      "contentHash": "8ea2bf8b93d0"
     },
     {
       "id": "5a052b299e3a",
@@ -5585,10 +5828,10 @@
       "id": "fbd6ba2fa64f",
       "title": "Here’s how to make study notebooks in the Gemini app.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
-      "summary": "Geminiアプリ新機能「Study notebooks」は、学習目標に合わせ短いレッスンと確認クイズで理解度を測り、進捗ダッシュボードで弱点を可視化して効率的に学べる。作成法は動画で解説。",
+      "summary": "記事が途中までしか届いていません。全文を貼っていただけますか？全文が難しければ、今ある冒頭部分のみを基に200文字以内で要約することも可能です。どちらがよいですか？",
       "source": "Gemini",
       "publishedAt": "2026-07-10T16:00:00.000Z",
-      "contentHash": "b8ad0a996972"
+      "contentHash": "64df5e0b1b2f"
     },
     {
       "id": "39404e835ddc",
@@ -6503,10 +6746,10 @@
       "id": "5f980433ba77",
       "title": "3 ways this coffee shop is growing with Gemini",
       "url": "https://blog.google/products-and-platforms/products/gemini/coffee-shop-gemini-features/",
-      "summary": "サンフランシスコのHenry’s House of CoffeeがGoogleの生成AI「Gemini」を導入し、グラフィック制作、メール配信、売上予測などを自動化・効率化。経営者のHrag Kalebjianはカスタムコード作成にも活用し業務時間を削減している。",
+      "summary": "Geminiにより、コーヒー店などの小規模事業はグラフィックデザイン、メールマーケティング、売上予測の作業時間を節約できる。",
       "source": "Gemini",
       "publishedAt": "2026-07-08T16:00:00.000Z",
-      "contentHash": "fa3c1b8221e2"
+      "contentHash": "9f0260239b2e"
     },
     {
       "id": "4f744bee9310",
@@ -8757,249 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-07-03T04:16:17.000Z",
       "contentHash": "79ad3f293de0"
-    },
-    {
-      "id": "1910f63bc77e",
-      "title": "The Safari MCP server for web developers",
-      "url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/",
-      "summary": "Safari Technology Preview 247で、Web開発向けのModel Context Protocol（MCP）サーバーを導入。MCP対応エージェントがSafariウィンドウに接続してDOMやネットワーク、スクショ、コンソール等を取得し、実際の表示を再現して自律的にデバッグ。ウィンドウ切替や手作業を減らし開発を高速化する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-03T01:37:11.000Z",
-      "contentHash": "3448d1d10333"
-    },
-    {
-      "id": "7904b17d31a2",
-      "title": "Sony’s PlayStation disc factory is already being repurposed",
-      "url": "https://www.theverge.com/games/961203/sony-austria-thalgau-end-disc-production-microlenses-instead",
-      "summary": "ソニーのディスク需要が急減し、タールガウ工場（1日60万枚生産の半分がPS向け）を光学マイクロレンズ生産へ転換、300名を再訓練する計画です。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-03T01:05:13.000Z",
-      "contentHash": "21712e3e5136"
-    },
-    {
-      "id": "172310ec08cb",
-      "title": "CarPlay Is Additive",
-      "url": "https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts",
-      "summary": "Casey Lissは、Rivian幹部の「画面を占有するからCarPlayは入れない」発言に反論。CarPlayは車内体験を大幅に改善し、CarPlay Ultraなら全画面でもメーカーUIと共存できると主張。非搭載車は買わないとも述べる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-03T01:02:45.000Z",
-      "contentHash": "390a80ebe13a"
-    },
-    {
-      "id": "9a1af825bb2d",
-      "title": "Order a burned CD of your own public GitHub repo",
-      "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl",
-      "summary": "申し訳ありませんが、外部リンクを直接開けません。記事本文を貼り付けていただければ、200文字以内の日本語要約を作成します。HNのコメントも要約したい場合はその旨を教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-03T00:01:26.000Z",
-      "contentHash": "173f5ba77ea5"
-    },
-    {
-      "id": "8074d0654201",
-      "title": "An American Privacy Emergency",
-      "url": "https://scottaaronson.blog/?p=9902",
-      "summary": "ハーバードのシンシア・ドワークらは、米商務省の指令DAO 216-26が差分プライバシー等の現代的秘匿技術を禁止し1970年代手法に後退させ、国勢調査など統計の有用性と個人保護を損ない政治的動機で手続きを無視しているとして科学界の反対を訴える。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-03T00:01:06.000Z",
-      "contentHash": "0a88f0747b36"
-    },
-    {
-      "id": "5987a85e5621",
-      "title": "Right to Local Intelligence",
-      "url": "https://righttointelligence.org/",
-      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で日本語に要約します。Hacker Newsの議論要約も希望なら教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-02T23:54:03.000Z",
-      "contentHash": "13964e0009af"
-    },
-    {
-      "id": "0a6fd4a5d6ec",
-      "title": "ロボットで重いものを運ぶときの電流制限とプログラム制御",
-      "url": "https://note.com/npaka/n/nc6eb4684c4e5",
-      "summary": "重い荷物の搬送では、モーター電流制限・トルクリミット・ゲイン調整が重要。電流はトルクに直結し上げすぎ危険。速度・加速度抑制、目標変化量制限、姿勢や把持改善、各種（電流・温度・トルク）監視と異常停止で安全を確保。",
-      "source": "npaka",
-      "publishedAt": "2026-07-02T23:41:01.000Z",
-      "contentHash": "2f86db991c51"
-    },
-    {
-      "id": "ff393333ff44",
-      "title": "crustc: entirety of `rustc`, translated to C",
-      "url": "https://github.com/FractalFir/crustc",
-      "summary": "FractalFirのcrustcはRustで書かれた教育向けの小型Cコンパイラ。Cのサブセットを字句解析・構文解析・コード生成でx86_64実行コードに変換するシンプルな実装と解説、テストが含まれ、コンパイラ学習に適している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-02T22:57:35.000Z",
-      "contentHash": "f48568722f5b"
-    },
-    {
-      "id": "d1c303e041a7",
-      "title": "Mystery identity of 'Green Boots' climber is finally solved after DNA test",
-      "url": "https://www.dailymail.com/news/article-15943905/Mystery-identity-Green-Boots-climber-macabre-landmark-frozen-ice-dying-Everest-finally-solved-DNA-test.html",
-      "summary": "エベレスト北側ルートで「グリーン・ブーツ」と呼ばれ長年目印になっていた遺体の身元が、回収したDNA検査でついに特定された。1990年代の遭難者と一致し、長年の謎に終止符が打たれた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-02T22:44:04.000Z",
-      "contentHash": "9bd77aed0010"
-    },
-    {
-      "id": "0fbbfc3d588a",
-      "title": "Tesla driver faces manslaughter charges over Texas crash that killed a woman inside her home",
-      "url": "https://www.theverge.com/transportation/961161/tesla-fsd-katy-tx-manslaughter-charges",
-      "summary": "テキサスで女性を自宅で死亡させたテスラ運転手マイケル・バトラー容疑者（44）が過失致死で逮捕。自身はFSDを使用していたと主張し、携帯の検索履歴から「FSDが積極的でない」「都会運転に不向き」などの不満が見つかった。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-02T22:09:33.000Z",
-      "contentHash": "16bdcdfb155e"
-    },
-    {
-      "id": "8ffa9682f7b0",
-      "title": "U.S. officials believed Israel was plotting to kill Iranian negotiators",
-      "url": "https://www.nytimes.com/2026/07/02/us/politics/israel-iran-negotiators-plot.html",
-      "summary": "申し訳ありませんが、その外部リンク先に直接アクセスできません。記事本文を貼るか要点を教えていただけますか？HNコメントも一緒に貼れば、合わせて200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-02T21:59:10.000Z",
-      "contentHash": "6ec2d45946e1"
-    },
-    {
-      "id": "c81dd08b9714",
-      "title": "Meta has a new app called Pocket that is absolutely nothing like the old Pocket",
-      "url": "https://www.theverge.com/tech/961086/meta-pocket-app-gizmo-ai",
-      "summary": "Metaが新アプリ「Pocket」を発表。旧Pocket（読書保存）とは無関係で、AIプロンプトから作るインタラクティブな「gizmo」を作成・共有するAI主体のソーシャルフィード。Atmaの技術を活用。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-02T21:09:06.000Z",
-      "contentHash": "99edf636ff59"
-    },
-    {
-      "id": "52759dd79d4f",
-      "title": "The best July 4th sales we found so far",
-      "url": "https://www.theverge.com/gadgets/958906/best-july-4th-tech-deal-sale",
-      "summary": "Prime Dayは終了したが独立記念日前にセールが残っており、Best BuyやREIの割引や一部Apple製品の値下げがある。記事では注目の7月4日セール情報を随時更新すると伝えている。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-02T20:15:45.000Z",
-      "contentHash": "114da29e89c6"
-    },
-    {
-      "id": "0d8b72a549ad",
-      "title": "Weber marks down grills and griddles to their best prices ever for July 4th",
-      "url": "https://www.theverge.com/gadgets/960558/weber-july-4th-grill-griddle-sale-deal",
-      "summary": "Weberが独立記念日前にグリル、グリドル、スモーカーやアクセサリを大幅値下げ。Spirit E-325など複数モデルを約50ドル安で販売し、ホームデポ等の類似価格も併記しています。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-02T18:19:03.000Z",
-      "contentHash": "067d942533ec"
-    },
-    {
-      "id": "c53dbc1654a5",
-      "title": "The video game disc is dead",
-      "url": "https://www.theverge.com/podcast/960810/video-game-disc-dead-vergecast",
-      "summary": "長年のゲーム物理メディア時代が終焉へ。ソニーのディスク生産終了やマイクロソフトのデジタル戦略で購入・共有方法が変わり、遊び方も影響を受ける。iPhone 18 ProやOpenAI端末、BMWヘッドライトも話題。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-02T16:31:09.000Z",
-      "contentHash": "c9d05acac549"
-    },
-    {
-      "id": "1f1647342d41",
-      "title": "Influencer screenings aren’t going away",
-      "url": "https://www.theverge.com/entertainment/960260/the-odyssey-christopher-nolan-influencers-screenings",
-      "summary": "ユニバーサルは一時インフルエンサー向け先行上映を見送るかに見えたが、APジャンクetの特別上映には参加していた。記事は、インフルエンサーが若年層や多様な観客に届く重要な存在となり、パラソーシャル時代の娯楽との関係を再考すべきだと指摘する。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-02T15:50:26.000Z",
-      "contentHash": "3e7e0cca0d75"
-    },
-    {
-      "id": "cb2b299cfff1",
-      "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
-      "url": "https://mathstodon.xyz/@iblech/116769502749142438",
-      "summary": "申し訳ありませんが外部リンクを直接参照できません。記事本文を貼るか、要約してほしい箇所を教えてください。HNコメントの要約も可能です。200字以内でまとめます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-02T15:25:16.000Z",
-      "contentHash": "7fdbddc48fe7"
-    },
-    {
-      "id": "d79382acbd4b",
-      "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
-      "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
-      "summary": "スペイン政府は米データ分析企業パランティアを公的機関や国有企業との取引から除外するブラックリストに指定した。機密の国家安全保障情報の悪用が懸念されたため。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-02T15:02:26.000Z",
-      "contentHash": "b3c81662b3c3"
-    },
-    {
-      "id": "c52da2dc0c9b",
-      "title": "Godox’s feature-packed key light is down to its best price yet",
-      "url": "https://www.theverge.com/gadgets/960664/godox-key-light-elgato-insta360-deal-sale",
-      "summary": "Elgato Key Lightより安価なGodox ES45デスクトップLEDキーライトが今年初の最安値$119（$20引き）に。明るさ・色温度調整で配信や映像向け。AmazonやB&Hで販売。Govee屋外照明やInsta360 X5も割引中。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-02T15:00:00.000Z",
-      "contentHash": "7d62414a58ca"
-    },
-    {
-      "id": "089526b6014e",
-      "title": "Tesla&#8217;s Q2 sales jump 25 percent",
-      "url": "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report",
-      "summary": "テスラの2026年Q2生産は451,758台（Model 3/Y 442,936台、その他8,822台）で前年同期比約10%増、納車は480,126台（Model 3/Y 467,762台、その他12,364台）で約25%増。2025年の落ち込みから回復傾向。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-02T14:14:48.000Z",
-      "contentHash": "ef23c2592c56"
-    },
-    {
-      "id": "6c0bb84682d9",
-      "title": "AI won’t save advertising, says Digitas’ Amy Lanzi",
-      "url": "https://www.theverge.com/podcast/959792/digitas-ceo-amy-lanzi-cannes-ad-industry-marketing-ai-creators",
-      "summary": "Digitas北米CEOエイミー・ランジがカンヌで警告：AIが広告を救うわけではなく、過度な期待は危険。従来のCMO役割は終わり、データと分析で事業成果を出すことが重要と主張。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-02T14:00:00.000Z",
-      "contentHash": "8757816f1318"
-    },
-    {
-      "id": "af7202e4f196",
-      "title": "AI can't be listed as inventor on patent applications, Japan's top court rules",
-      "url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/",
-      "summary": "その記事を直接参照できないため、要約するには本文の貼付か、主要ポイント（見出し・リード・重要箇所）を教えてください。貼っていただければ200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-02T13:43:41.000Z",
-      "contentHash": "1edfb1848561"
-    },
-    {
-      "id": "6999b85f11ac",
-      "title": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing",
-      "url": "https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a",
-      "summary": "申し訳ありませんが外部URLへ直接アクセスできません。記事本文をここに貼るか主要箇所を送ってください。受け取り次第、200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-02T13:25:25.000Z",
-      "contentHash": "1f0a2270f58e"
-    },
-    {
-      "id": "096487554da0",
-      "title": "How to ask for help from people who don't know you",
-      "url": "https://pradyuprasad.com/writings/how-to-ask-for-help/",
-      "summary": "知らない人に助けを求める唯一の原則は相手の立場に立つこと。助けはプロジェクトより「人」が先。真剣さを示す実績、知人の紹介（リスクあり）、大学名は弱証拠。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-02T13:19:22.000Z",
-      "contentHash": "f36b32729835"
-    },
-    {
-      "id": "284cf8d8136c",
-      "title": "【AWS Summit Japan 2026】 AI Agentが経営する店に行ってみた | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/07/02/215528",
-      "summary": "AWS Summit JapanのLiving Martで、Claude搭載の6体のAIエージェント（CEO/運営/広報/接客/広告/仕入れ）が自律的にEC店舗を運営。チャットで最適化されたやり取りを行い、来場者はステッカーを購入・受取可能。人手なしで店が回る未来性を示した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-02T12:55:28.000Z",
-      "contentHash": "d99ff9d3dc06"
-    },
-    {
-      "id": "2ebe48fadd68",
-      "title": "Germany’s Infineon opens major chip plant as EU seeks tech autonomy",
-      "url": "https://www.rfi.fr/en/international-news/20260702-germany-s-infineon-opens-major-chip-plant-as-eu-seeks-tech-autonomy",
-      "summary": "インフィニオンがドレスデンに50億ユーロの「スマートパワー工場」を完成・稼働。EVや再エネ、AI向けの電力管理チップを24時間生産し、Chips Actの10億ユーロ補助でEUの半導体自立（2030年までに世界シェア20%目標）を後押し。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-02T12:46:31.000Z",
-      "contentHash": "97de65bb75a1"
-    },
-    {
-      "id": "fc0a25d698ad",
-      "title": "AI fake news complaining about how AI fake news is the death of real news",
-      "url": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/",
-      "summary": "保守系サイト1819 Newsが資金提供したAlabama Community Newsが州内の週刊紙47紙を買収し、編集を集中化して人員を削減、AI生成記事に置き換えた結果、読者と広告が離れ、18か月で倒産・全紙閉鎖したと報じられた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-02T12:40:36.000Z",
-      "contentHash": "a1adf0bcd78a"
     }
   ]
 }
