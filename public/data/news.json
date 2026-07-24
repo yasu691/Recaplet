@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-07-24T03:24:31.336Z",
+  "generatedAt": "2026-07-24T10:34:49.260Z",
   "items": [
+    {
+      "id": "3e40680ad119",
+      "title": "Microsoft pressures LG into killing unwanted McAfee ads",
+      "url": "https://www.theverge.com/tech/970489/lg-mcafee-ads-windows-microsoft-crackdown",
+      "summary": "MicrosoftがLGに圧力をかけ、LGはWindows 11でモニター接続時に自動インストールされMcAfeeの大きなポップアップ通知を無効化することに同意した。問題はLGのドライバーとMonitor Appが利用者の許可なく導入され広告が表示された点で、Microsoftは今後も対策を続けるとしている。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-24T09:20:09.000Z",
+      "contentHash": "0d6c7b7a6719"
+    },
+    {
+      "id": "87cd9d69f523",
+      "title": "Railsの鋭い部品シリーズ: コールバックは不変条件ではない（翻訳） | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_07_24/158898",
+      "summary": "Brandon Weaverの英語記事翻訳。Railsのコールバックは不変条件を保証しないと指摘し、Commandパターンや明示的な操作、DB制約やトランザクションで整合性を担保すべきと論じる。前回はadd_indexの限界を扱った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T08:30:01.000Z",
+      "contentHash": "1ba068dfa68e"
+    },
+    {
+      "id": "a1d5cd7d77d6",
+      "title": "iOSサブスクのオファー4種をどう使い分けるか | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/07/24/173000",
+      "summary": "iOSサブスクのオファーは4種（Introductory、Promotional、Offer Codes、Win‑back）。対象は新規/既存/離脱で異なり、支払いモードは無料トライアル・継続割引・前払割引。プロモは購読履歴必須でサーバ署名が必要。お試しはサブスクリプショングループ単位で一度のみ。オファーコードは配布先指定や自動更新設定が可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T08:30:00.000Z",
+      "contentHash": "06bf14709ac2"
+    },
+    {
+      "id": "0eb6d202c2ab",
+      "title": "【データベース設計】 いまさら聞けない正規化と非正規化 ― 第3正規形を\"覚える\"のをやめて\"目的\"で理解する | エイトハンドレッド TECH BLOG",
+      "url": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/07/24/172710",
+      "summary": "正規化は更新・挿入・削除の異常によるデータ矛盾を防ぐためにテーブルを分割する手法で、第1〜第3正規形はその目安。非正規化は集計速度向上のための冗長化で、業務系は正規化、分析基盤は非正規化を使い分けるべき、という結論。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T08:27:10.000Z",
+      "contentHash": "267bfe9b8e03"
+    },
+    {
+      "id": "19fa5ad97844",
+      "title": "【データモデリング】 いまさら聞けないスタースキーマ ― なぜ分析基盤では正規化をあえて崩すのか | エイトハンドレッド TECH BLOG",
+      "url": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/07/24/172618",
+      "summary": "スタースキーマは分析向けに正規化を崩し集計を高速化するDWH設計。中心に数値のファクト、周囲に切り口のディメンション。Power BI等に最適化。過度な正規化やファクト内の文字列は失敗例。目的に応じた使い分けが重要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T08:26:18.000Z",
+      "contentHash": "9cd0cd691b1c"
+    },
+    {
+      "id": "c21d98ea28da",
+      "title": "Vercel AI SDK（@ai-sdk/vue）と Reka UI で作るAIチャットボットのフロントエンド | アスエネテックブログのフィード",
+      "url": "https://zenn.dev/asuene/articles/a144d100d2d49f",
+      "summary": "Nuxt3/Vue3のアスエネSCにVercel AI SDK(@ai-sdk/vue)とReka UIでAIチャットを実装。バックエンドはLangGraph＋Bedrock、NestJSのBFFがSSEを中継。目的はストリーミング応答・CSエスカレーション・常駐ウィジェットで、既存の自前ロジック肥大化をSDKで解消する検証を行った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T08:00:05.000Z",
+      "contentHash": "169c30720833"
+    },
+    {
+      "id": "5601de2dc918",
+      "title": "【Zenn力執筆】＃３　シャットダウンではなく遮断措置？　踏切の遮断機の目的とは | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/f7accf2c43a1d9",
+      "summary": "ニチレイのサイバー攻撃報告で「遮断措置」という表現に着目した記事。7/13に不正アクセスで倉庫・出荷業務が影響、個人情報流出は未確認。7/15に攻撃確認し遮断を実施。著者は「遮断」と「停止（シャットダウン）」の語が示す意味と影響範囲を問い直す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T07:25:04.000Z",
+      "contentHash": "137cf99d9583"
+    },
+    {
+      "id": "a66c42d6a098",
+      "title": "AI DevEx Conference 2026 にシルバースポンサーとして参加しました！ | Hacobuテックブログのフィード",
+      "url": "https://zenn.dev/hacobu/articles/4a47476923b221",
+      "summary": "Hacobuは2026年7月22・23日のAI DevEx Conference 2026にシルバースポンサー参加。職種横断で多数が来場し、ブースで「AI時代の染み出し図鑑」を実施。AIで生まれた余白を現場訪問など人間らしい業務に充てる意見が共感を集め、CTO戸井田の登壇も好評。今後も技術イベント参加を継続予定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T07:15:10.000Z",
+      "contentHash": "977b51787629"
+    },
+    {
+      "id": "9b4d1ab0b94f",
+      "title": "AI Engineer World's Fair 2026参加レポート: Context/Harness/Loop Engineering | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/b69dd40f105b82",
+      "summary": "AIWF2026参加レポート。Context Engineeringは既に常識化。MCPは文脈の入口でしかなく、LinkedInはPlaybook/Skillsで分散知識や運用手順を配布し、search/get_schema/executeで詳細な業務手順とコンテキストを返す仕組みを作った、という話。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T07:00:06.000Z",
+      "contentHash": "6647d071fe73"
+    },
+    {
+      "id": "3da9f0da4721",
+      "title": "Agent型開発ツールたちをカオスマップにまとめてみた！AIネイティブなエディタやターミナルの選択肢が豊富な時代だけど逆に選ぶの大変そう！ | DRESS CODE TECH BLOGのフィード",
+      "url": "https://zenn.dev/dress_code/articles/b02867df40151c",
+      "summary": "著者が触った主要なADE（エージェント型開発環境）ツールを、UI軸（チャット/IDE/ターミナル）と作業区切り軸（スレッド/ワークツリー/プロジェクト/セッション）で整理したカオスマップ。ClaudeやCodex等の特徴を解説し、「どれが一番か」ではなく作業スタイルに合うツール選びを支援する内容。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T07:00:03.000Z",
+      "contentHash": "7945c22f08b9"
+    },
+    {
+      "id": "fa6ec8e6c919",
+      "title": "変化への柔軟性と変わらない本質〜2026年エンジニア新人研修の裏側〜 | Cybozu Inside Out | サイボウズエンジニアのブログ",
+      "url": "https://blog.cybozu.io/entry/2026/07/24/160000",
+      "summary": "CYBOZU SUMMER BLOG FES '26で開発本部オンボーディング担当の久宗が、2026年のエンジニア新人研修の裏側を報告。AIの急進展や新卒の多様化で既存カリキュラムが不足する中、試行錯誤を重ね「変化への柔軟性」と「研修の不変の本質」を両立する学びを共有する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T07:00:00.000Z",
+      "contentHash": "8a7b53029518"
+    },
+    {
+      "id": "1c251cf2a1e7",
+      "title": "Flux 3",
+      "url": "https://bfl.ai/blog/flux-3",
+      "summary": "FLUX 3は画像・動画・音声を同時に学習するマルチモーダル基盤モデル。Self-Flowで生成と理解を一体化し、視覚・運動・音の相互関係から現実世界の知覚・予測・行動を目指す。Early Access提供中。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-24T06:17:08.000Z",
+      "contentHash": "dce7e17b56f0"
+    },
+    {
+      "id": "82ef25f8667d",
+      "title": "Grabette の概要",
+      "url": "https://note.com/npaka/n/n6fbcf68676d2",
+      "summary": "GrabetteはPollen Roboticsの手持ち型データ収集機で、広角魚眼・RGB‑D・IMU・グリッパー情報を記録しSLAMで6DoF軌道を推定、LeRobot形式でHugging Faceに共有可能。UMIを参照した設計でハード/ソフト公開、Gripetteと連携してロボット学習用データ収集を簡便化する。",
+      "source": "npaka",
+      "publishedAt": "2026-07-24T05:19:47.000Z",
+      "contentHash": "6e146e2cf984"
+    },
     {
       "id": "ed3b162df9ab",
       "title": "Kiroの要件分析がすこぶる面白いので、Claude Codeで真似してみた！ | chot Inc. tech blogのフィード",
@@ -113,19 +230,19 @@
       "id": "29bf7ed16e1c",
       "title": "Tell HN: Namecheap gave my account to an unverified third party",
       "url": "https://news.ycombinator.com/item?id=49028037",
-      "summary": "NameCheapが電話一本で第三者の要請を認め、私のアカウントのパスワードと登録メールを無検証で変更。事実上容易に乗っ取り可能と判明し、重要ドメインを移転。非営利や弁護士系レジストラの利用が望まれる。",
+      "summary": "学生クラブの新代表が電話で頼んだだけで、NameCheapが本人確認なしにパスワードと登録メールを変更しアカウントを奪取。筆者は重要ドメインを移転し、非営利レジストラなど制度改善を求める。",
       "source": "Hacker News",
       "publishedAt": "2026-07-23T21:05:29.000Z",
-      "contentHash": "2f75cfc702b0"
+      "contentHash": "80f9ff5dbdcd"
     },
     {
       "id": "f0528887eb6b",
       "title": "Couple pay >$800k for a gene-editing therapy for their daughter. She died.",
       "url": "https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public",
-      "summary": "Scienceの独占報道によれば、ある中国の遺伝子編集臨床試験で少女が死亡したにもかかわらずその事実は公表されず、報告義務や倫理審査の不備、透明性欠如が問題視されている。独立調査と規制強化が求められている。",
+      "summary": "Scienceの独自取材で、中国の遺伝子編集臨床試験に参加した少女が死亡していたが公表されていなかったことが判明。内部文書や関係者証言で報告漏れが示され、安全性・透明性と規制監督の問題が指摘されている。",
       "source": "Hacker News",
       "publishedAt": "2026-07-23T20:52:19.000Z",
-      "contentHash": "590932e326ad"
+      "contentHash": "f02daa3fe5b2"
     },
     {
       "id": "01f1c8d67b76",
@@ -155,6 +272,15 @@
       "contentHash": "2dd8618fc8b5"
     },
     {
+      "id": "15bbd3f3024c",
+      "title": "Introducing selfie for sign-in: a new way to access your Google Account",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/selfie-video-sign-in/",
+      "summary": "Googleはロックアウト時の復旧手段として、ガイドに従った短いセルフィー動画で本人確認できる新機能を導入。動画は暗号化され私用・削除可能で、偽装対策も搭載。設定はg.co/signin-selfie。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-23T19:00:34.000Z",
+      "contentHash": "d6a7a83afbbe"
+    },
+    {
       "id": "046009295c64",
       "title": "Claude’s voice mode is now available for Opus and Sonnet",
       "url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
@@ -182,6 +308,24 @@
       "contentHash": "c510ac68ecc4"
     },
     {
+      "id": "4f5663d286ca",
+      "title": "Why Sony can't bring back its classic Walkman models",
+      "url": "https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman",
+      "summary": "記事はウォークマン復刻が難しい理由を説明。ストリーミング普及で市場が消え、カセット機構や部品・製造ノウハウが失われ、規制やコスト、ブランド運用の問題からノスタルジーだけでは採算が取れず復活は現実的でないと結論づける。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-23T18:08:29.000Z",
+      "contentHash": "54a8047e541c"
+    },
+    {
+      "id": "7fa0485230f1",
+      "title": "AI bet goes awry: Oracle fires 21,000 employees",
+      "url": "https://www.msn.com/en-us/money/economy/ai-bet-goes-awry-oracle-fires-21-000-employees/ar-AA28vWuD",
+      "summary": "MSN記事は、オラクルがAIへの大型投資が裏目に出たとして約2万1000人を解雇したと伝え、経営判断や従業員影響、業界の反応を報じています。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-23T18:07:33.000Z",
+      "contentHash": "43c378243a07"
+    },
+    {
       "id": "a17555d3b644",
       "title": "Corsair’s PC case with a panoramic glass design is $70 off",
       "url": "https://www.theverge.com/gadgets/960331/corsair-frame-4500x-deal-pc-case-sale",
@@ -198,6 +342,15 @@
       "source": "The Verge",
       "publishedAt": "2026-07-23T17:09:31.000Z",
       "contentHash": "1384026101e8"
+    },
+    {
+      "id": "daa338753d6d",
+      "title": "Show HN: Claude-thermos keeps your Claude session warm for you",
+      "url": "https://github.com/izeigerman/claude-thermos",
+      "summary": "claude-thermosはClaude Codeの5分TTLで消えるプロンプトキャッシュを自動でウォームし、サブエージェント待ちで発生する高額な再エンコード（約20%のコスト増）を防ぐツール。uvx経由で起動し、Python3.11+とclaude CLIが必要。無効化用環境変数と間隔等の調整オプションあり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-23T17:06:22.000Z",
+      "contentHash": "d1266d6c8f7a"
     },
     {
       "id": "63bd0e2c8b3a",
@@ -689,10 +842,10 @@
       "id": "81a2ae49ff2c",
       "title": "ローカルネットワークでDockerサーバーを常時稼働させる方法",
       "url": "https://note.com/npaka/n/n22cc3f0986ea",
-      "summary": "自宅・社内でDockerを常時稼働させる手順。LinuxにDocker EngineとComposeを導入し、restart: unless-stoppedでコンテナ自動再起動、sudo systemctl enable --now dockerでEngine自動起動、BIOS/UEFIの電源復旧設定で停電後自動起動。さらにIP固定、データ永続化、ログ容量制限などを行う。",
+      "summary": "ローカルネットワークでDockerを常時稼働させる方法。LinuxにDocker EngineとComposeを導入し、composeでrestart: unless-stoppedを設定、systemdでDocker自動起動を有効化、BIOS/UEFIで電源復旧時の自動起動を設定。IP固定やデータ永続化も重要。",
       "source": "npaka",
       "publishedAt": "2026-07-23T00:38:26.000Z",
-      "contentHash": "60c70973ca92"
+      "contentHash": "9ce03ccce789"
     },
     {
       "id": "3ef16eb2142e",
@@ -2579,10 +2732,10 @@
       "id": "ed16844642a3",
       "title": "USBケーブルの種類と見分け方",
       "url": "https://note.com/npaka/n/n7787a934f0a8",
-      "summary": "USBケーブルは外見が似ていても、コネクタ形状（A/B/Mini/Micro/C）、データ転送速度、充電可能電力、映像/Thunderbolt対応が異なる。規格名は混在するため具体的な速度や60W/240Wなど電力表示を確認し、充電専用ケーブルは通信できない点に注意。",
+      "summary": "USBケーブルは外見が似ていても性能が異なる。確認すべきはコネクタ形状（A/B/Mini/Micro/Type‑C）、データ速度（480Mbps～80Gbps等）、給電能力（最大240W、最弱要素で制限）、映像/Thunderbolt対応。充電専用はデータ不可。用途に応じて速度や電力表示を確認して選ぶ。",
       "source": "npaka",
       "publishedAt": "2026-07-19T05:39:36.000Z",
-      "contentHash": "43d892db58e5"
+      "contentHash": "6dcd3b9b00dd"
     },
     {
       "id": "8f3534fe0bce",
@@ -8847,159 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-07-05T18:30:00.000Z",
       "contentHash": "de2fe208ea24"
-    },
-    {
-      "id": "2478e3dd3647",
-      "title": "Where to preorder Grand Theft Auto VI",
-      "url": "https://www.theverge.com/gadgets/960838/grand-theft-auto-gta-6-vi-preorder-editions-buy",
-      "summary": "RockstarのGTA VIは2026年11月19日にPS5・Xbox Series X/Sで発売。発売はDL中心で、パッケージはディスクではなくコード。11月12日からプリロード。Standard($79.99)とUltimate($99.99)があり両版とも同じ予約特典、店舗別の独占特典はなし。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-05T16:00:00.000Z",
-      "contentHash": "f1c0da50d4fe"
-    },
-    {
-      "id": "0b5b2f16872a",
-      "title": "Amazon SageMaker HyperPodで学習から推論までやってみた | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/522e5d7553fde7",
-      "summary": "Fusicの検証ではSageMaker HyperPodを最小構成で試し、A10G搭載のml.g5.2xlargeを1台使ってQwen2.5-1.5B-InstructをQLoRA（4bit量子化LoRA）で微調整しSageMakerエンドポイントに展開。クォータ確認、EKSクラスタ作成やhelmで依存コンポーネント導入など手順を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-05T14:28:28.000Z",
-      "contentHash": "53ff61726f30"
-    },
-    {
-      "id": "de9adfa52a18",
-      "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
-      "summary": "GoogleのCMが建国の父たちがGeminiやDocsで独立宣言を作る様子を描くが、七面鳥の紋章などの安易で寒い演出に著者が強く反発し、不快感を示している。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-05T14:23:11.000Z",
-      "contentHash": "0fff256ae256"
-    },
-    {
-      "id": "3f58f99d7aa7",
-      "title": "Organic Maps",
-      "url": "https://organicmaps.app/",
-      "summary": "Organic MapsはOpenStreetMapを利用したプライバシー重視の無料オフライン地図アプリ。登山・自転車・車のターンバイターン音声案内、等高線・高低差、地下鉄図、高速検索、KML/GPX対応。広告・追跡なしのオープンソースで600万インストール。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-05T14:14:30.000Z",
-      "contentHash": "f35ecd3c094f"
-    },
-    {
-      "id": "bf64d2e7bb2c",
-      "title": "The Sourdough Sidekick automates the boring bit of baking",
-      "url": "https://www.theverge.com/tech/959604/sourdough-sidekick-review-king-arthur-starter",
-      "summary": "「サワードウ・サイドキック」はキングアーサー共同開発のスターター自動給餌器。指定スケジュールで発酵種を整え、焼く直前に準備済みにするが、単機能で価格や置き場を正当化するには週1回以上（理想はそれ以上）焼く人向け。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-05T14:00:00.000Z",
-      "contentHash": "1eddc49ae965"
-    },
-    {
-      "id": "1b0c5e30f866",
-      "title": "How Keurig saved — and ruined — your coffee",
-      "url": "https://www.theverge.com/podcast/961470/keurig-coffee-k-up-version-history",
-      "summary": "ポッドキャスト「Version History」は、Keurigの一杯抽出が職場のまずいコーヒーを改善した一方、K-Cupの大量普及が家庭浸透、味やバリスタ文化の劣化、環境負荷を招いた経緯を解説する。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-05T13:51:56.000Z",
-      "contentHash": "deeb1b95bd6a"
-    },
-    {
-      "id": "3d5fb021ced7",
-      "title": "Phosh 0.56.0",
-      "url": "https://phosh.mobi/releases/rel-0.56.0/",
-      "summary": "Phosh 0.56.0公開。トップバーにロードメータープラグイン追加、GNOME Software未使用時のアプリ非表示対応、起動遅延改善、Bluetoothやロック画面の改良、クラッシュ修正、多言語更新。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-05T13:28:11.000Z",
-      "contentHash": "cec256e9bc8e"
-    },
-    {
-      "id": "bd9c675fef2d",
-      "title": "「Fable 5規制の真実！今知るべきAnthropicの戦略と開発者の現実解」～【claude】人気記事TOP5（2026/07/05） | CareNet Engineersのフィード",
-      "url": "https://zenn.dev/carenet/articles/zenn-weekly-claude-articles-2026-07",
-      "summary": "Zennで人気のClaude関連記事を要約。AnthropicのFable 5規制と開発者対策、Claude Design活用、Fable 5のトークン節約運用、Agent SOP整備、COTENのAI開発事例、OpenTelemetry更新、Sonnet 5性能検証を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-05T13:09:24.000Z",
-      "contentHash": "cf4b9050417f"
-    },
-    {
-      "id": "90fca42f63aa",
-      "title": "Vizio accidentally made the best dumb TV on the market",
-      "url": "https://www.theverge.com/tech/960916/vizio-mini-led-quantum-tv-review",
-      "summary": "Vizioの65インチMini LED Quantumは量子ドット搭載で約$398と最安級。Walmart買収後の追跡が懸念されるが、Vizio OSを使わずに運用すれば「最高の非スマートTV」になった、という記事。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-05T13:00:00.000Z",
-      "contentHash": "f862cb8a59be"
-    },
-    {
-      "id": "7ebd7ecb8128",
-      "title": "Xbox is a disaster",
-      "url": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
-      "summary": "マイクロソフトのゲーム部門は長年の誤った判断で混乱しており、Xboxは危機的状況。大規模な構造改革や方針転換が差し迫っていると報じられている。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-05T12:00:00.000Z",
-      "contentHash": "df0eed0510d9"
-    },
-    {
-      "id": "26cbdfe4419b",
-      "title": "Cannabis users face substantially higher risk of heart attack (2025)",
-      "url": "https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk",
-      "summary": "大麻利用者は心筋梗塞（心臓発作）のリスクが大幅に高いと報告。大麻使用の増加に伴い、心臓に有害な影響を示す証拠が増えている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-05T11:59:27.000Z",
-      "contentHash": "54e432384f58"
-    },
-    {
-      "id": "2f85eea631aa",
-      "title": "Introduction to Compilers and Language Design",
-      "url": "https://dthain.github.io/books/compiler/",
-      "summary": "Douglas Thain著『Introduction to Compilers and Language Design』（第2版、2020）はコンパイラ入門教科書。C類似言語からx86/ARMへの簡易コンパイラ構築を扱い、PDFを個人・学術目的で無料公開。商用配布不可。関連コードはGitHub、誤記は著者へ報告。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-05T11:54:16.000Z",
-      "contentHash": "405f22fa8602"
-    },
-    {
-      "id": "471c9bdf85a0",
-      "title": "EU Council forces Chat Control via fast-track",
-      "url": "https://www.heise.de/en/news/Chat-Control-1-0-EU-Council-forces-messenger-scans-via-fast-track-11353659.html",
-      "summary": "EU理事会は夏前、2021年の任意チャット監視規則（Chat Control 1.0）を急速手続きで再活性化し、暗号化通信の疑いなしスキャン（Chat Control 2.0）で停滞する欧州議会に圧力をかけた。理事会は子ども保護と法的空白回避を理由とする。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-05T11:44:04.000Z",
-      "contentHash": "59812b0a86e4"
-    },
-    {
-      "id": "7e8201d1a4d1",
-      "title": "Europe's new climate in seven charts",
-      "url": "https://www.bbc.com/news/articles/c8e2j0j87reo",
-      "summary": "欧州と英国は5月・6月に記録的熱波が相次ぎ、気温は平年を大きく上回り（例:ノーフォークで37.7°C）従来記録を大幅更新。UNや気象学者は化石燃料由来の人為的気候変動が高温をより頻繁で強烈にしており、屋外労働者らが特に脆弱だと警告。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-05T09:56:10.000Z",
-      "contentHash": "41a5b3bcd439"
-    },
-    {
-      "id": "685b3e87a0b9",
-      "title": "Claude Design System Prompt",
-      "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
-      "summary": "AnthropicのClaude Designを逆解析したシステムプロンプト。MITで公開、LLMを意見あるアクセシビリティ重視のデザイン協働者に変え、AIトロープを排し、内容・美学・階層・アクセシビリティ・相互作用・システム思考などの方針と14の手続き的スキルを提供。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-05T08:43:37.000Z",
-      "contentHash": "c9760683f36f"
-    },
-    {
-      "id": "aac43df74935",
-      "title": "Programmers need to start meditating",
-      "url": "https://jacob.gold/posts/programmers-need-to-start-meditating-now/",
-      "summary": "長年プログラミングはフローでDMN（思考の反芻）を鎮める瞑想的な仕事だったが、今は複数エージェントの頻繁なコンテキスト切替でフローが減少。生産性は上がっても心が安定しないため、瞑想やCalmやWaking Up等で別の心を落ち着ける習慣を持つべきだ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-05T07:39:35.000Z",
-      "contentHash": "9928e2a98c23"
-    },
-    {
-      "id": "8a43cf471b44",
-      "title": "Box3D のクイックスタート",
-      "url": "https://note.com/npaka/n/n3fc7350604d2",
-      "summary": "Box3DはBox2D作者Erin Cattoによるオープンソースの3D物理エンジン。C API/C17対応、連続衝突判定、マルチスレッド等を備え描画は別系で行う。リポジトリをクローンしてCMakeでビルドし、付属サンプルで基本操作（カメラ回転、ズーム、停止・リセット等）を確認する手順を解説。",
-      "source": "npaka",
-      "publishedAt": "2026-07-05T06:27:31.000Z",
-      "contentHash": "c9015acb2a00"
     }
   ]
 }
