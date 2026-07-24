@@ -1,6 +1,186 @@
 {
-  "generatedAt": "2026-07-23T17:29:46.401Z",
+  "generatedAt": "2026-07-24T03:24:31.336Z",
   "items": [
+    {
+      "id": "ed3b162df9ab",
+      "title": "Kiroの要件分析がすこぶる面白いので、Claude Codeで真似してみた！ | chot Inc. tech blogのフィード",
+      "url": "https://zenn.dev/chot/articles/4f6625a669ed7c",
+      "summary": "Kiroの要件分析をClaude Codeで再現。LLMの解釈力と決定論的計算を組合せた3段階パイプライン（EARSで精練→論理式化→検証）で要件の曖昧さ・矛盾を事前検出する手法を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T02:54:31.000Z",
+      "contentHash": "0ac1bc2a77bf"
+    },
+    {
+      "id": "4e51e44aa2b8",
+      "title": "QAをやめて、QAをはじめる──欠陥検出0件が続いた組織で、品質保証の重心を3回動かした話 | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/quit-qa-start-qa",
+      "summary": "入社10か月でQAの重心を3度移した記録。まず本番観測とインシデント運用を整備し、次に確認型・探索的テストで検出網を強化したが、2026年春にテストで欠陥検出0件が続く一方で本番の課題は残り、リスクが環境差分や設定・運用・外部連携などテスト外へ移ったと気づいた、という話。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T02:53:14.000Z",
+      "contentHash": "8ba97e5e4b5f"
+    },
+    {
+      "id": "e922ac52bd46",
+      "title": "ロールアサインという取り組みがめちゃいい | レバテック開発部のフィード",
+      "url": "https://zenn.dev/levtech/articles/role-assignment",
+      "summary": "レバテック開発部のロールアサインは、提供サービスと役割を定義してメンバー配属することで責任や不足を可視化する取り組み。KADOKAWA由来でスプレッドシート管理し、目的共有や数値化で資源配分や新規活動を後押しする。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T02:45:05.000Z",
+      "contentHash": "645e458b25fa"
+    },
+    {
+      "id": "651a0a5210bc",
+      "title": "Slackチャンネル1つとリポジトリ1つからOSS脆弱性対応の「仕組み・チーム化」を始めた話 | Cluster Tech Blog",
+      "url": "https://tech-blog.cluster.mu/entry/2026/07/24",
+      "summary": "OSS依存の脆弱性対応を個人任せから組織化へ移行。脆弱性情報用Slackチャンネルと判断記録用GitHubを用意し、3人の当番制デイリーチェックを回す。情報収集・影響判定はAIで補助し、最終判断は人が行い段階的に自動化する設計。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T02:30:00.000Z",
+      "contentHash": "545d4518873a"
+    },
+    {
+      "id": "f6c7e889ecd2",
+      "title": "React移行を機にグラフ描画ロジックを整理した話 | Cybozu Inside Out | サイボウズエンジニアのブログ",
+      "url": "https://blog.cybozu.io/entry/2026/07/24/113000",
+      "summary": "kintoneのReact移行でグラフ描画を整理。集計APIのレスポンスからHighcharts Optionsへ変換する際に混在していた「役割解決」と描画変換を分離し、中間のChartDataを導入。責務が明確化されテスト性や描画ライブラリ切替が容易に。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T02:30:00.000Z",
+      "contentHash": "41ec357a34f3"
+    },
+    {
+      "id": "5c1f64527fb1",
+      "title": "AI-DLCとは？非エンジニアのPMが「AI駆動開発ライフサイクル」をかみ砕いてみた | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/what-is-ai-dlc/",
+      "summary": "AI-DLCはAWS提唱の開発方法論で、AIを主体に作業させ人間が要所で判断・監督する手法。従来の補助型や自律型の欠点を補い、会議を共同作業化して「合意の速さ」を重視。2025年にワークフローが公開され、非エンジニアの上流工程にも影響を与える。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T02:26:00.000Z",
+      "contentHash": "305a70f2abbb"
+    },
+    {
+      "id": "8be08b11e258",
+      "title": "LANSCOPE エンドポイントマネージャー オンプレミス版のログ変化検知に対する効率化 | MOTEX TECH BLOG",
+      "url": "https://tech.motex.co.jp/entry/2026/07/24/111324",
+      "summary": "2026-07-24: LANSCOPE エンドポイントマネージャー（オンプレミス版）におけるログ変化検知を自動化し、監視効率を向上させてコスト削減を図る手法と設定例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T02:13:24.000Z",
+      "contentHash": "fa27b43d42a0"
+    },
+    {
+      "id": "ff2a03158a3b",
+      "title": "自動テストの基盤構築と保守・拡張へのAI活用 | DMM Developers Blog",
+      "url": "https://developersblog.dmm.com/entry/2026/07/24/110000",
+      "summary": "DMMのQAがWeb/アプリ/テレビ向けにWebdriverIO/Selenium/Appium/BrowserStack/GitHub Actions/Allure等で自動テスト基盤を構築。設計→実装→CI→可視化の運用と、AIでのテスト生成・保守による効率化事例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T02:00:00.000Z",
+      "contentHash": "365668e88f5b"
+    },
+    {
+      "id": "5a6d796da06c",
+      "title": "Metabase MCPの「たぶん」を減らすために、dbtの資産を活かしてセマンティックタイプを整備した | kickflow Tech Blog",
+      "url": "https://tech.kickflow.co.jp/entry/2026/07/24/105712",
+      "summary": "kickflowのCREチームは、dbt資産を活用してMetabaseのカラムにセマンティックタイプとメタデータを整備しました。これによりドキュメント不足でMCPが「想定」していた回答を減らし、AI/MCPによる分析精度と対話的な安全利用を向上させました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T01:57:12.000Z",
+      "contentHash": "e809527f4ee7"
+    },
+    {
+      "id": "4a0cee291f5b",
+      "title": "estie PM Meetup #7「エンジニア・事業開発・セールスから広がるプロダクトマネジメント」を開催しました | estie inside blog",
+      "url": "https://www.estie.jp/blog/entry/2026/07/24/105317",
+      "summary": "2026年7月14日、estie PM Meetup #7を開催。テーマは「エンジニア・事業開発・セールスから広がるPM」。営業からPMへ転向した岡田の実体験、山本のDev⇔Ops連携による迅速な顧客価値検証など職種横断の知見共有と交流が行われた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-24T01:53:17.000Z",
+      "contentHash": "247d723a32d5"
+    },
+    {
+      "id": "4bccb0dc11a1",
+      "title": "98.css",
+      "url": "https://jdan.github.io/98.css/#status-bar",
+      "summary": "98.cssはWindows 98風のUIを再現するCSSライブラリ。セマンティックHTMLとアクセシビリティ重視、JavaScript不要でスタイル上書き可。unpkg/npm/GitHubから導入でき、React等と併用可能。ボタン等のコンポーネントを提供。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-23T22:30:29.000Z",
+      "contentHash": "9ded1a5462c2"
+    },
+    {
+      "id": "a6e6ed7cc55b",
+      "title": "Alexa Plus is getting an AI update to handle more complicated instructions",
+      "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "summary": "AmazonはAlexa Plusのプレビューを公開し、BoschやiRobotなど多数の家電と連携して指示を自動で適切な機器へ振り分ける機能を追加。例として洗濯機の「冷水指定」から最適なコースを選ぶなどで、統合は新しいAI開発ツールキットで容易になる。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-23T21:15:06.000Z",
+      "contentHash": "e0042041099a"
+    },
+    {
+      "id": "29bf7ed16e1c",
+      "title": "Tell HN: Namecheap gave my account to an unverified third party",
+      "url": "https://news.ycombinator.com/item?id=49028037",
+      "summary": "NameCheapが電話一本で第三者の要請を認め、私のアカウントのパスワードと登録メールを無検証で変更。事実上容易に乗っ取り可能と判明し、重要ドメインを移転。非営利や弁護士系レジストラの利用が望まれる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-23T21:05:29.000Z",
+      "contentHash": "2f75cfc702b0"
+    },
+    {
+      "id": "f0528887eb6b",
+      "title": "Couple pay >$800k for a gene-editing therapy for their daughter. She died.",
+      "url": "https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public",
+      "summary": "Scienceの独占報道によれば、ある中国の遺伝子編集臨床試験で少女が死亡したにもかかわらずその事実は公表されず、報告義務や倫理審査の不備、透明性欠如が問題視されている。独立調査と規制強化が求められている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-23T20:52:19.000Z",
+      "contentHash": "590932e326ad"
+    },
+    {
+      "id": "01f1c8d67b76",
+      "title": "The Echo Show 21 is a great smart home hub that’s $80 off",
+      "url": "https://www.theverge.com/gadgets/970254/amazon-echo-show-21-deal-sale",
+      "summary": "Amazonの21インチスマートディスプレイEcho Show 21が通常$399.99から$319.99に$80値下げ。Best BuyとHome Depotで最安値に一致。1080pでMatter/Threadのローカルコントローラ機能を備え、スマートホームの中枢やレシピ確認、テレビ視聴に最適。スタンドも割引中（別売）。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-23T20:36:40.000Z",
+      "contentHash": "01513e7bb5f7"
+    },
+    {
+      "id": "0ccf3abe5992",
+      "title": "FCC Chairman Brendan Carr’s war on the First Amendment",
+      "url": "https://www.theverge.com/policy/970284/brendan-carr-fcc-chairman-first-amendment",
+      "summary": "FCC委員長ブレンダン・カーが、放送やインターネットを監督する権限を使い、大統領批判や風刺を行う放送局や司会者を圧迫。ジミー・キンメルの一時降板や全国所有規制撤廃の推進などで、言論の自由と地域メディアの多様性を脅かしている。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-23T19:46:11.000Z",
+      "contentHash": "d510d841db38"
+    },
+    {
+      "id": "a0189ee4caf8",
+      "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
+      "url": "https://news.ycombinator.com/item?id=49026810",
+      "summary": "複数モデルを問題ごとに選び計算配分と出力の組合せを最適化するEchoを開発。最良モデルを上回りFable並みの性能を1/3の推論コストで達成。誤配分やコード/エージェント評価を検証中で、GUIとOpenAI互換APIを公開。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-23T19:26:01.000Z",
+      "contentHash": "2dd8618fc8b5"
+    },
+    {
+      "id": "046009295c64",
+      "title": "Claude’s voice mode is now available for Opus and Sonnet",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
+      "summary": "Anthropicは音声モードを高速だが浅いHaikuから、より高度な問題解決向けのOpus・Sonnetへ拡大し、GmailやSlack、Canvaなどで複雑な応答や操作を音声で実行可能にした。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-23T19:00:00.000Z",
+      "contentHash": "2175a8a7c2df"
+    },
+    {
+      "id": "fe050caed1c1",
+      "title": "Building on ATProto",
+      "url": "https://lukekanies.com/writing/building-on-atproto/",
+      "summary": "著者はベルリンの会議でATProto（Bluesky）が注目される一方、期待外れの点も多いと感じた。相互運用可能な公開基準でレビュー系アプリ群（Yelp等の代替）を作りたいが、現行設計は課題があり提案設計へ具体的な批評を行う、という内容。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-23T18:23:50.000Z",
+      "contentHash": "0b095e979b8f"
+    },
+    {
+      "id": "fcbc88468170",
+      "title": "Patreon is laying off 20 percent of workers",
+      "url": "https://www.theverge.com/tech/970211/patreon-layoffs-ai",
+      "summary": "Patreonは約20%（約93人）の人員削減を実施。CEOジャック・コンテは「AIが人を置き換えるわけではない」としつつ、AIが業界や業務を根本的に変えたため社内でAIを全面導入し、クリエイター支援を強化すると説明した。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-23T18:20:30.000Z",
+      "contentHash": "c510ac68ecc4"
+    },
     {
       "id": "a17555d3b644",
       "title": "Corsair’s PC case with a panoramic glass design is $70 off",
@@ -38,13 +218,31 @@
       "contentHash": "5911681ca88b"
     },
     {
+      "id": "28a4a92e485c",
+      "title": "What happened to TheNumbers.com",
+      "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
+      "summary": "映画データの権威サイトTheNumbers.comが2026年3月5日に突如消失し一週間以上ダウン。復旧後は歴史データや機能が大幅に削減。創業者ブルース・ナッシュへの取材で、サイト依存の脆弱性が露呈した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-23T16:53:33.000Z",
+      "contentHash": "f22a5aa491f5"
+    },
+    {
+      "id": "288155c4fa17",
+      "title": "The arguments against open source AI are bad",
+      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+      "summary": "Kimi K3公開で開源AIへの危険視が再燃。メディアや企業は管理と限定利用を主張し、OpenAI幹部は「AI共産主義」を懸念。著者は反論し、オープンソースが商用の基盤で協業が常、抑制は困難と指摘する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-23T16:49:57.000Z",
+      "contentHash": "ad7091dcd9b5"
+    },
+    {
       "id": "3e0767c697e8",
       "title": "Amazon puts Luna cloud-streamed games like Fallout 4 inside Prime Video",
       "url": "https://www.theverge.com/streaming/970099/amazon-prime-video-luna-gaming",
-      "summary": "AmazonがPrime Videoに「Games」タブを追加し、クラウドゲーミングLunaを統合。US/UKでPrimeからFallout 4やHogwarts Legacyなどをすぐプレイ可能に。対応機器や地域、追加タイトルは今後発表。",
+      "summary": "AmazonがPrime VideoにGamesタブを追加し、クラウドゲームLunaを統合。米英のFire TVでFallout 4やHogwarts LegacyなどをPrime内で直接プレイ可能に。今後対応端末・国・タイトルを拡大予定で、既存の視聴者向けのカジュアル戦略。",
       "source": "The Verge",
       "publishedAt": "2026-07-23T16:39:32.000Z",
-      "contentHash": "def32da64fc4"
+      "contentHash": "20f4e5ac1a71"
     },
     {
       "id": "8e0eb21460be",
@@ -56,13 +254,31 @@
       "contentHash": "4e5b2a6e99b9"
     },
     {
+      "id": "9e0f126b01bb",
+      "title": "Why Software Factories Fail (or: harness engineering is not enough)",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
+      "summary": "AIによる「ソフトウェア工場」化やループ工学頼みを批判。StrongDMやOpenAIらの自動化はPRレビュー低下、障害やバグ増、コード劣化を招き、単なるハーネス設計では不十分と警告。VCブームへの慎重論も。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-23T15:18:48.000Z",
+      "contentHash": "62f76f10b5c2"
+    },
+    {
       "id": "5b3b2271e75b",
       "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
       "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
-      "summary": "外部リンクに直接アクセスできないため、そのURLの本文を取得できません。記事全文か本文の主要部分、もしくは記事のタイトルと要点を貼っていただければ、200文字以内の日本語要約を作成します。HNコメントの要約も必要なら教えてください。",
+      "summary": "そのURLは直接参照できません。記事本文を貼るか、正しい公開URLを教えてください。内容を受け取れば200文字以内で日本語要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-07-23T15:18:40.000Z",
-      "contentHash": "493fedc69ee5"
+      "contentHash": "7ae361f17694"
+    },
+    {
+      "id": "a2a7e4d4b5b6",
+      "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "summary": "Palmier ProはApple Silicon・macOS 26向けにSwiftで開発されたオープンソースのMac用動画編集アプリ。タイムライン内でSeedance等の生成AIを活用でき、Claude/Codex/CursorとローカルMCPサーバ(http://127.0.0.1:19789/mcp)で連携可能。編集機能とMCPは無料・OSSで、生成AI処理のみクローズドソース。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-23T15:11:37.000Z",
+      "contentHash": "636e534ed70a"
     },
     {
       "id": "ce86cf5255d7",
@@ -473,10 +689,10 @@
       "id": "81a2ae49ff2c",
       "title": "ローカルネットワークでDockerサーバーを常時稼働させる方法",
       "url": "https://note.com/npaka/n/n22cc3f0986ea",
-      "summary": "LinuxにDocker EngineとComposeを導入し、composeでrestart: unless-stoppedを設定、systemdでDockerを自動起動、BIOSで停電復旧時の自動電源投入を有効化。IP固定・データ永続化・ログ管理など運用面も重要。",
+      "summary": "自宅・社内でDockerを常時稼働させる手順。LinuxにDocker EngineとComposeを導入し、restart: unless-stoppedでコンテナ自動再起動、sudo systemctl enable --now dockerでEngine自動起動、BIOS/UEFIの電源復旧設定で停電後自動起動。さらにIP固定、データ永続化、ログ容量制限などを行う。",
       "source": "npaka",
       "publishedAt": "2026-07-23T00:38:26.000Z",
-      "contentHash": "5df9ed348da0"
+      "contentHash": "60c70973ca92"
     },
     {
       "id": "3ef16eb2142e",
@@ -635,10 +851,10 @@
       "id": "b6c036e2206b",
       "title": "Here’s how to ask Gemini Live for help with anything you see.",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-live-camera-how-to/",
-      "summary": "複雑な説明書や点滅するエラーコード、見慣れない物体など、目にしたものを言葉でうまく説明できないことがあり、そうした場面で的確に説明してくれる助けが必要だと問題提起する導入文。",
+      "summary": "Geminiアプリの「Live」機能は、カメラで見せるだけでリアルタイムに支援を受けられます。修理手順、エラー対応、アプリ操作、整理整頓、買い物やインテリア提案など幅広い用途に対応。",
       "source": "Gemini",
       "publishedAt": "2026-07-22T16:00:00.000Z",
-      "contentHash": "5fb2a9bd56b3"
+      "contentHash": "29641c6407af"
     },
     {
       "id": "d1947d984030",
@@ -1139,10 +1355,10 @@
       "id": "4298cb0c1835",
       "title": "State MachineとBehavior Treeの違いとロボットでの使い分け",
       "url": "https://note.com/npaka/n/ne4084eba5917",
-      "summary": "State Machineは状態と遷移で単純明快だが規模で煩雑化しやすい。Behavior Treeはモジュール化・階層化で再利用や並列処理に強く、複雑で反応的なロボットに向く。用途に応じSMは単純処理、BTは拡張性の高い処理、併用も有効とまとめています。",
+      "summary": "ロボットのタスク管理で、State Machineは状態と遷移で現在状態を明確に管理し、起動・モード管理や順序固定の処理に向くが例外が増えると複雑化しやすい。Behavior Treeは条件と行動を小ノードでツリー化し、モジュール化や柔軟な振る舞い設計に適している。",
       "source": "npaka",
       "publishedAt": "2026-07-22T00:35:20.000Z",
-      "contentHash": "5141b198ba39"
+      "contentHash": "3a8175a731e5"
     },
     {
       "id": "389ebd02d283",
@@ -2012,10 +2228,10 @@
       "id": "80d11aa8a812",
       "title": "Kimi K3 の概要",
       "url": "https://note.com/npaka/n/nf3ea60b9fedb",
-      "summary": "Moonshot AIのKimi K3（2026/7発表）は、2.8兆パラメータのMoE（896 experts、16活性）、最大100万トークン、テキスト・画像・動画のネイティブマルチモーダル対応。長時間コーディング、画面確認を伴う開発、大規模ナレッジワークや複数エージェント運用を重視し、モデル重みは7月27日公開予定。",
+      "summary": "Moonshot AIのKimi K3（発表2026/7/16）は、2.8TパラメータのMoE（896 experts、16活性化）、最大100万トークンのネイティブマルチモーダル対応。長時間コーディングや画面確認を伴う開発、複数サブエージェント運用を想定し、KDAやAttention Residualsで効率化。API・アプリで提供、重みは7/27公開予定。",
       "source": "npaka",
       "publishedAt": "2026-07-20T12:18:08.000Z",
-      "contentHash": "af341886d35c"
+      "contentHash": "66b9324bbbf5"
     },
     {
       "id": "b766a40fbcac",
@@ -2147,10 +2363,10 @@
       "id": "0918f9ea714c",
       "title": "LeRobot の Reward Model 入門",
       "url": "https://note.com/npaka/n/n942d5eddcd5f",
-      "summary": "LeRobot v0.6で報酬モデルの共通インターフェースを実装。SARM等を統一利用でき、観測や軌道から進捗・成功確率を推定し、BC補完、RL報酬生成、データ評価や自動ラベリングを可能にする。",
+      "summary": "LeRobot v0.6はSARM/Robometer/TOPRewardを統一的に利用可能にし、観測からタスクの進捗・成功・報酬・データ品質を自動評価するReward Modelを導入。RA‑BCや強化学習報酬生成、自動ラベリングなどに活用できる。",
       "source": "npaka",
       "publishedAt": "2026-07-19T20:28:20.000Z",
-      "contentHash": "3cb1796b6a9b"
+      "contentHash": "b0a0fdd38fec"
     },
     {
       "id": "0f079c061802",
@@ -2588,10 +2804,10 @@
       "id": "8ee06bcb4be6",
       "title": "2026年 フィジカルAIの現在地 -  ロボットAIはどこまで進んだか",
       "url": "https://note.com/npaka/n/ne4cb1c2e3cfa",
-      "summary": "2026年のフィジカルAIは、視覚・言語・行動を統合するVLAなどロボット基盤モデルへ移行し、専用モデルから汎用化へ。高レベル推論で「考えて動く」ロボットが進化し、LeRobot v0.6.0がVLAやWorld Modelを統合する実装・評価基盤を提供。",
+      "summary": "2026年のフィジカルAIでは、ロボットAIが専用モデルからVLAや基盤モデルへ移行し、高レベル推論と行動生成の統合が進展。Gemini系は計画・検証ループを担い、LeRobot v0.6が多様なVLAやWorld Modelを統合して用途や資源に応じたモデル選択を可能にした。",
       "source": "npaka",
       "publishedAt": "2026-07-18T13:41:51.000Z",
-      "contentHash": "745dfd5129af"
+      "contentHash": "397451f97053"
     },
     {
       "id": "0ddeab6de3ba",
@@ -2678,10 +2894,10 @@
       "id": "844626039c70",
       "title": "π0.5 の学習済みモデルを LIBERO で動かす",
       "url": "https://note.com/npaka/n/n1eb56d6be1c7",
-      "summary": "π0.5のLIBERO向け学習済みモデル(pi05_libero)をローカルで実行。libero_spatialの10タスクを各1回評価し10/10成功。評価時間約2分24秒、GPU約12.2GB、チェックポイント約12GB。環境はopenpi/Docker Compose、robosuite+MuJoCo(EGL)。",
+      "summary": "Physical Intelligenceのπ0.5をLIBERO向けにファインチューニングしたpi05_liberoをローカルで（openpi+Docker Compose）実行。libero_spatialの10タスクを各1回評価して10/10成功。実行約2分24秒、GPUメモリ約12.2GB、チェックポイント約12GB。シミュレータはrobosuite＋MuJoCo（EGL）。",
       "source": "npaka",
       "publishedAt": "2026-07-18T04:18:55.000Z",
-      "contentHash": "0e88d8ac757f"
+      "contentHash": "e8e46b955339"
     },
     {
       "id": "780611b41e71",
@@ -3740,10 +3956,10 @@
       "id": "ccad07d52710",
       "title": "LeRobotの学習データを Hugging Face Jobs で学習",
       "url": "https://note.com/npaka/n/n1ede44ed5de0",
-      "summary": "LeRobotの学習データをHugging Face Jobsで学習させる試行をまとめた記事。設定や手順、得られた結果と気づき、今後の課題が述べられています。",
+      "summary": "Hugging Face JobsでLeRobotデータを学習する手順をまとめた。HFアカウント・CLI・課金設定後、ジョブでGPU起動・学習・ログ取得・モデル保存を自動化し、SO101-Nexusのjohnsutor/MuJoCoPickLift（action・各種画像・環境状態）で学習・評価する流れを解説。",
       "source": "npaka",
       "publishedAt": "2026-07-16T05:43:52.000Z",
-      "contentHash": "74637b33b3b9"
+      "contentHash": "1a5d68a63a9b"
     },
     {
       "id": "7cabad485dd4",
@@ -4973,10 +5189,10 @@
       "id": "90c6b2e30b40",
       "title": "How Gemini is speaking the language of Southeast Asia",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-southeast-asia-report-2026/",
-      "summary": "Geminiは現地言語に対応できることと、モバイル優先の東南アジア人口という市場特性を背景に、同地域で急速に普及している。",
+      "summary": "Geminiアプリの東南アジアでのアクティブ利用者は昨年から2倍以上に増加。記事は同地域でのチャットボットの具体的な日常利用例や活用動向を紹介している（執筆：Sapna Chadha、Samuele Saini）。",
       "source": "Gemini",
       "publishedAt": "2026-07-14T04:30:00.000Z",
-      "contentHash": "8ea2bf8b93d0"
+      "contentHash": "e0b6804da3bb"
     },
     {
       "id": "5a052b299e3a",
@@ -6233,10 +6449,10 @@
       "id": "fbd6ba2fa64f",
       "title": "Here’s how to make study notebooks in the Gemini app.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
-      "summary": "テスト勉強の始め方に迷う人向けに、Geminiアプリの新機能「Study notebooks」を紹介。学習内容の整理や効率化を支援し、計画作成や要点整理、復習・進捗管理などで学習をサポートします。",
+      "summary": "Geminiアプリの「Study notebooks」は、学習目標に合わせた個別学習スペースです。短いレッスンと確認クイズで理解度を測り、進捗ダッシュボードで弱点を把握して効率的に学べます。動画で作り方を解説。",
       "source": "Gemini",
       "publishedAt": "2026-07-10T16:00:00.000Z",
-      "contentHash": "64df5e0b1b2f"
+      "contentHash": "b8ad0a996972"
     },
     {
       "id": "39404e835ddc",
@@ -8784,222 +9000,6 @@
       "source": "npaka",
       "publishedAt": "2026-07-05T06:27:31.000Z",
       "contentHash": "c9015acb2a00"
-    },
-    {
-      "id": "1d9084b3266f",
-      "title": "インフラをTypeScriptで管理する - はじめてのAWS CDK | SMARTCAMP Engineer Blogのフィード",
-      "url": "https://zenn.dev/smartcamp/articles/c5ef03f249c3d4",
-      "summary": "AWS CDKをTypeScriptで試した体験記。プロジェクト初期化後にVPC、EC2、RDSをコードで定義し、cdk synth/ deployで差分確認・デプロイ。慣れた言語で型や補完が効き、IaC初心者に扱いやすいと感じた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-05T06:05:50.000Z",
-      "contentHash": "53270701d96a"
-    },
-    {
-      "id": "ddf1957dd979",
-      "title": "Shadcn/UI now defaults to Base UI instead of Radix",
-      "url": "https://ui.shadcn.com/docs/changelog",
-      "summary": "shadcn/uiは2026年7月から新規プロジェクトのデフォルトをRadixからBase UIに変更。Base UIは安定かつ普及しており、全コンポーネントを対応済み。Radixは廃止せず引き続きサポート、移行は不要。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-05T04:46:08.000Z",
-      "contentHash": "3447dbdc8e0c"
-    },
-    {
-      "id": "336f27662aae",
-      "title": "【New Relic】無駄なログでO11yコスト圧迫してませんか？ ～ログパターンを活用したO11yコスト削減事例 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/ewrelic-log-patterns-cost-reduction",
-      "summary": "AWS Summit 2026でのNew Relic事例。全ログ送信はコスト増・アラート疲れ・分析低下を招く。Log Patternsで自動分類→必要性判定→Pipeline Control（NRQLでドロップ）により不要ログを除外し数TB/月削減を実現。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-05T02:40:53.000Z",
-      "contentHash": "d03354bece81"
-    },
-    {
-      "id": "f7e1ff522126",
-      "title": "If you're a button, you have one job",
-      "url": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
-      "summary": "iPhoneは回転ボタンの連打をバッファして順次処理するが、Nothing Phone/Androidは触覚と音で応答してアニメ中の追加タップを無視する。多数の写真を扱う場面など「状況的障害」が起き得るため、予測可能な挙動が重要だ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-05T02:01:03.000Z",
-      "contentHash": "524598d9d32e"
-    },
-    {
-      "id": "f12ed2c34659",
-      "title": "AWS Summit Japan 2026初参加レポート | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/07/05/104923",
-      "summary": "初参加のAWS Summit Japan 2026レポ。長蛇の列で入場遅れ、認定SWAGで金扇子獲得。生成AIやガバナンス中心の講演で、サイバーエージェントの「把握→AIフレンドリー化→AIマスター化」や監視重視が印象的。EXPOでNitro/Graviton/Trainium等を見学。次回は早朝行動・セッション絞り・写真多め・足腰対策を教訓に。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-05T01:49:23.000Z",
-      "contentHash": "095eaded3e6b"
-    },
-    {
-      "id": "19b43a01c698",
-      "title": "Fabric入門：Fabric Capacityとは何か | Alternative Architecture DOJO",
-      "url": "https://aadojo.alterbooth.com/entry/2026/07/05/090000",
-      "summary": "Microsoft Fabricのライセンスと「Fabric Capacity」解説。Free/Trial（試用60日）とCapacityの違い＝利用者向けライセンスと環境リソースの分離、購入・課金方式や容量選定、OneLake料金に触れる内容。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-05T00:00:00.000Z",
-      "contentHash": "8a6d601653c8"
-    },
-    {
-      "id": "c466a39890a0",
-      "title": "豆蔵デベロッパーサイト 2026年4-6月のサマリー | 豆蔵デベロッパーサイト",
-      "url": "https://developer.mamezou-tech.com/blogs/2026/07/05/2026-1q-retrospective/",
-      "summary": "豆蔵デベロッパーサイトの2026年4–6月まとめ。3ヶ月で13本（計889本）。MCP入門6本に加え、クラウド認定、家庭内ネットワーク制御、スクラム×AI、GitHub運用自動化、GitHub Actions並列実行検証など実践的記事を掲載。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-05T00:00:00.000Z",
-      "contentHash": "48cda42c3746"
-    },
-    {
-      "id": "15c2f2b56cd3",
-      "title": "Scientists reverse brain aging, with a nasal spray",
-      "url": "https://stories.tamu.edu/news/2026/04/14/scientists-reverse-brain-aging-with-a-nasal-spray/",
-      "summary": "テキサスA&Mの研究チームが鼻噴霧剤を開発。2回投与で脳の慢性炎症（neuroinflammaging）を数週間で軽減し、ミトコンドリア機能と記憶を回復、効果は数か月持続。論文はJournal of Extracellular Vesiclesに掲載。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-04T23:41:10.000Z",
-      "contentHash": "6b756fba4ec3"
-    },
-    {
-      "id": "898d8fa74856",
-      "title": "Jellyfish can heal wounds in minutes. Scientists want their secrets",
-      "url": "https://www.mbl.edu/news/jellyfish-can-heal-wounds-minutes-scientists-want-their-secrets",
-      "summary": "研究者らはクラテイア（Clytia hemisphaerica）の小型メデューサが数分で傷を閉じる高速な創傷修復を示すことを観察。ポリプとメデューサからなる生活環を利用し、その仕組み解明と医療応用を目指している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-04T22:36:28.000Z",
-      "contentHash": "8bef1a8387d9"
-    },
-    {
-      "id": "3509861ced21",
-      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
-      "url": "https://github.com/openai/codex/issues/30364",
-      "summary": "申し訳ありませんが、外部URLへ直接アクセスできません。記事／コメントの本文か主要抜粋を貼り付けていただけますか？いただければ200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-04T21:51:09.000Z",
-      "contentHash": "27f8f7a8cc80"
-    },
-    {
-      "id": "227d120c90d8",
-      "title": "Better Models: Worse Tools",
-      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
-      "summary": "最近のAnthropic製Claude（Opus 4.8やSonnet 5）が、Piの編集ツール呼び出しでnested edits[]に架空のキーを付けて送信し、スキーマ検証で拒否される問題が発生。新モデルほど顕著で、ツール呼び出しは特別トークンによるin‑bandシグナリングでサーバ側が検証する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-04T20:16:22.000Z",
-      "contentHash": "d837b9619fb6"
-    },
-    {
-      "id": "76478c455614",
-      "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
-      "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
-      "summary": "Command & Conquer Generals: Zero HourをApple Silicon Mac・iPhone・iPadでネイティブ動作させる移植。ARM64でDirectX8→DXVK→Vulkan→MoltenVK→Metal変換、タッチ操作対応。EAのGPLソース基にfbraz3/GeneralsX派生。ゲーム資産は同梱せず自前（Steam）が必要。ビルド手順と必須ツール（Xcode/Homebrew/vcpkg/Vulkan SDK等）を解説。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-04T19:41:10.000Z",
-      "contentHash": "0f38515ee3f6"
-    },
-    {
-      "id": "22d63b7d81f5",
-      "title": "Wicklow hotel cancels 'secretive' Peter Thiel group conference",
-      "url": "https://www.irishtimes.com/ireland/2026/07/03/wicklow-hotel-cancels-secretive-peter-thiel-conference/",
-      "summary": "コー・ウィックローの五つ星パワースコートホテルが、ピーター・ティール共設の招待制グループDialogによる8月予定の「秘密」会議の予約を取り消した。NATO幹部やトランプ関係者出席予定で、第三次大戦や戦場技術など議題が物議を醸し、施設側は中止に安堵を示した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-04T19:08:44.000Z",
-      "contentHash": "668e9f79f2fa"
-    },
-    {
-      "id": "687197262748",
-      "title": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
-      "url": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
-      "summary": "NASAは、太陽嵐で軌道が低下し大気再突入の危機にある2004年打ち上げの観測衛星「Swift」を救うため、Katalystの3腕宇宙船Linkを緊急投入。高度224マイルを約150マイル引き上げるミッションで、費用約3000万ドル、準備期間は9か月。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-04T19:06:27.000Z",
-      "contentHash": "1bac619c5ed2"
-    },
-    {
-      "id": "836a9dec315c",
-      "title": "As downtown Seattle offices empty, city facing years of 'zombie' towers",
-      "url": "https://www.seattletimes.com/business/local-business/as-downtown-seattle-offices-empty-city-facing-years-of-zombie-towers/",
-      "summary": "すみません、外部サイトに直接アクセスできません。記事本文を貼っていただくか、主要部分をコピペしていただけますか？Hacker Newsの議論（コメント）も要約できます。貼っていただければ200文字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-04T18:42:24.000Z",
-      "contentHash": "ba4873ec1822"
-    },
-    {
-      "id": "e038cd49010f",
-      "title": "Verizon is about to break our Gizmo watches",
-      "url": "https://www.jefftk.com/p/verizon-is-about-to-break-our-watches",
-      "summary": "ベライゾンが子ども用Gizmoウォッチの管理アプリをGizmohubからVerizon Familyへ移行するが、新アプリはウォッチのみの回線に未対応で、7月6日に旧アプリが停止されれば通話・位置確認・連絡先追加ができなくなる。移行で「不適格」エラーが出ており、サポートも解決できていない。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-04T17:52:36.000Z",
-      "contentHash": "62786470e871"
-    },
-    {
-      "id": "9480aa2c77d3",
-      "title": "White House deletes thousands of webpages about energy conservation as heatwave slams US",
-      "url": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
-      "summary": "米エネルギー省が猛暑の最中に約6000件の省エネ関連ページを削除。削除はNY市長マムダニの「冷房を78°Fに設定」の呼びかけに対する共和党の反発と時期が一致すると報道。DOEは通常75–78°Fを推奨。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-04T16:19:06.000Z",
-      "contentHash": "ff90ff25e9bb"
-    },
-    {
-      "id": "5a765fbd5fef",
-      "title": "Matic’s robot vacuum is getting a $250 price hike in September",
-      "url": "https://www.theverge.com/gadgets/960753/matic-robot-vacuum-mop-price-increase-cost-buy",
-      "summary": "ロボット掃除機Maticが9月9日から1245ドル→1495ドルに250ドル値上げ。メモリなど部品コストが10倍になったのが理由。購入者には1年分の交換バッグ（約96ドル相当）を無償提供し、返品期間を60日→6か月に延長。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-04T16:00:00.000Z",
-      "contentHash": "89e8c4bc9037"
-    },
-    {
-      "id": "2f820465aa99",
-      "title": "Flatbush Zombies’ Erick the Architect misses his BlackBerry keyboard",
-      "url": "https://www.theverge.com/entertainment/960958/flatbush-zombies-erick-the-architect-interview",
-      "summary": "Flatbush ZombiesのErick the ArchitectがWWDCにサプライズ登場。BlackBerryの物理キーボードを懐かしみつつ、ブルックリン拠点のプロデューサーとして新たな音作りに意欲を見せる。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-04T15:00:00.000Z",
-      "contentHash": "8a7895f6eb98"
-    },
-    {
-      "id": "891291cd1100",
-      "title": "Potential session/cache leakage between workspace instances or consumer accounts",
-      "url": "https://github.com/anthropics/claude-code/issues/74066",
-      "summary": "Enterprise ZDRワークスペースでセッション／キャッシュ漏洩の疑い。認証済みにも関わらずエージェントが別の（Minecraft）会話を参照し、.claudeや作業ディレクトリ混在によるコンテキスト汚染を報告。環境情報とログあり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-04T14:03:40.000Z",
-      "contentHash": "31fd15225fa6"
-    },
-    {
-      "id": "140038b3d100",
-      "title": "Hey number pad lovers, this is a keyboard we can finally agree on",
-      "url": "https://www.theverge.com/tech/960837/epomaker-rt98-mechanical-keyboard-modular-numpad-review",
-      "summary": "エポメイカーRT98はレトロな外観とCRT風の小型画面を持つメカニカルキーボード。VIA対応で打鍵感が良く、テンキーが左右どちらにも着脱可能なモジュール式で手頃な価格の実用機。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-04T14:00:00.000Z",
-      "contentHash": "dc9e9698b550"
-    },
-    {
-      "id": "1abdd8b32a4e",
-      "title": "The square-ish phone that I wanted to love",
-      "url": "https://www.theverge.com/tech/960509/ikko-mindone-pro-hands-on",
-      "summary": "Ikko MindOne Proはほぼ正方形の小型ディスプレイとフリップ式カメラを備えた魅力的な端末。セルフィー向けの工夫があるが、コンセプトは良くても実用面で期待に届かず評価は厳しい。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-04T13:00:00.000Z",
-      "contentHash": "fdef2d4c9567"
-    },
-    {
-      "id": "1646026cc2f3",
-      "title": "Explanation of everything you can see in htop/top on Linux",
-      "url": "https://peteris.rocks/blog/htop/",
-      "summary": "htopの表示項目を詳細解説。uptimeやload averageの誤解（コア数基準で解釈）、プロセス一覧とPID/ツリー/ユーザ、状態(R/S/D/Z/T/t)、CPU時間、nice/優先度、メモリ(VIRT/RES/SHR/MEM%)、主要プロセス例、ファイル記述子や色表示などを説明。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-04T12:00:57.000Z",
-      "contentHash": "0048eed06d99"
-    },
-    {
-      "id": "cee0fddb91ea",
-      "title": "The fanfiction community is at war with AI — and itself",
-      "url": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
-      "summary": "ファンフィクション界が生成AIの使用を巡り分裂。読者らがAI作成を検出する手法を開発するも、その精度や信頼性は疑問視されている。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-04T12:00:00.000Z",
-      "contentHash": "2489a049ee80"
     }
   ]
 }
