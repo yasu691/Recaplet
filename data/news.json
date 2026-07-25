@@ -1,14 +1,41 @@
 {
-  "generatedAt": "2026-07-25T03:23:59.089Z",
+  "generatedAt": "2026-07-25T10:02:18.615Z",
   "items": [
+    {
+      "id": "2b636f80ad56",
+      "title": "Forget expensive sleepbuds. Buy this pillow instead",
+      "url": "https://www.theverge.com/tech/970473/forget-expensive-sleepbuds-buy-this-pillow-instead",
+      "summary": "高価な睡眠用イヤホンより、耳の穴を避ける切れ込みのある「ピアス用枕」を勧める記事。既存のイヤホンが使え、充電不要でBluetooth切断や電池劣化の心配もない、サイドスリーパー向け。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-25T07:00:00.000Z",
+      "contentHash": "bc73256c365e"
+    },
+    {
+      "id": "2ded79f9d226",
+      "title": "ChatGPT Desktop で Blender MCP を試す",
+      "url": "https://note.com/npaka/n/nf4f1b11bf395",
+      "summary": "ChatGPT DesktopとBlender公式MCPを連携し、自然言語でオブジェクト作成・移動・削除・マテリアルやモディファイア設定、カメラ／ライト配置、Blender Python制御などが可能になる。CodexとBlender5.1以上、Claude Desktopの拡張を導入し、~/.codex/config.tomlにMCP設定を追加、BlenderにMCPをインストールして動作確認。実例ではキャラクターモデルの作成と調整ができた。",
+      "source": "npaka",
+      "publishedAt": "2026-07-25T05:41:09.000Z",
+      "contentHash": "437e0277c4ab"
+    },
+    {
+      "id": "fb607ac4bdda",
+      "title": "A Write Barrier Validating GC for Ruby まとめ | SMARTCAMP Engineer Blogのフィード",
+      "url": "https://zenn.dev/smartcamp/articles/224ecaf9f96b17",
+      "summary": "スマートキャンプが初めて会社としてRubyKaigi2026に参加。開発メンバーの詳細レポート（Zenn）も公開済み。本記事は学びを継ぐリレー第5回で、Day3 11:30-12:00「A Write Barrier Validating GC…」の内容を紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-25T05:19:16.000Z",
+      "contentHash": "6769f974c03b"
+    },
     {
       "id": "053a67b7c7f4",
       "title": "Claude Desktop で Blender MCP を試す",
       "url": "https://note.com/npaka/n/n060bf656cf01",
-      "summary": "Claude DesktopでBlender公式MCPを試用。自然言語でオブジェクト作成・移動・削除、マテリアルやモディファイア、カメラ配置、Blender Python操作が可能。ClaudeにBlenderコネクタを追加し読み書き許可・自動モードに設定、MCPをBlenderへインストールして接続確認。キャラクタモデル作成も指示で調整できた。",
+      "summary": "「Claude Desktop」から自然言語でBlenderを操作する「Blender MCP」を試用。Blender 5.1+とClaude Desktopのコネクタを導入し、公式MCPをBlenderにインストール、権限と自動モードを設定。会話でキャラクターモデルの作成・修正が可能と確認した。",
       "source": "npaka",
       "publishedAt": "2026-07-25T03:07:00.000Z",
-      "contentHash": "08f2c444f99e"
+      "contentHash": "67e3a8be2cc5"
     },
     {
       "id": "288ab33f8ee6",
@@ -27,6 +54,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-25T00:40:08.000Z",
       "contentHash": "e98b19a8ef97"
+    },
+    {
+      "id": "d098603dcef1",
+      "title": "HuggingFace Diffusers v0.39.0の新機能",
+      "url": "https://note.com/npaka/n/nc5c91c9b1b19",
+      "summary": "Diffusers v0.39.0では多数の新パイプラインを追加。NVIDIAのCosmos3（動画・行動条件・音声対応）やIdeogram4、Krea2、DreamLite（モバイル蒸留）、PRX Pixel、Motif-Video、AnyFlow、JoyAI-Image-Edit、GoogleのDiffusionGemmaなど、動画・マルチモーダル・ピクセル空間・LoRAや蒸留対応を導入。",
+      "source": "npaka",
+      "publishedAt": "2026-07-25T00:09:38.000Z",
+      "contentHash": "4bb7f16d8f86"
     },
     {
       "id": "cd040a9fd9b8",
@@ -581,10 +617,10 @@
       "id": "82ef25f8667d",
       "title": "Grabette の概要",
       "url": "https://note.com/npaka/n/n6fbcf68676d2",
-      "summary": "GrabetteはPollen Roboticsの手持ちデータ収集装置で、魚眼・RGB‑Dカメラ、IMU、グリッパー情報を記録しSLAMで6DoF軌道を推定。LeRobot形式でHugging Faceに公開、Gripetteと連携するオープンなロボット学習データ共有基盤です。",
+      "summary": "Pollen RoboticsのGrabetteは手持ちグリッパー型のデータ収集機で、人の把持・移動を広角カメラ＋RGB‑D／IMUで記録しSLAMで6DoF推定。データはLeRobot形式でHugging Face Hubへ保存・公開でき、Gripetteと連携してロボット学習用共有データの収集を簡便化します。",
       "source": "npaka",
       "publishedAt": "2026-07-24T05:19:47.000Z",
-      "contentHash": "6dbcfb3a497d"
+      "contentHash": "f27298ce348e"
     },
     {
       "id": "ed3b162df9ab",
@@ -1310,10 +1346,10 @@
       "id": "81a2ae49ff2c",
       "title": "ローカルネットワークでDockerサーバーを常時稼働させる方法",
       "url": "https://note.com/npaka/n/n22cc3f0986ea",
-      "summary": "ローカルで常時稼働させるには、Linux上にDocker EngineとComposeを導入し、composeでrestart: unless-stopped等を設定、systemdでDockerを自動起動（enable --now）。さらにIP固定・データ永続化・ログ制限を行い、BIOSの電源復旧設定で停電後自動起動を有効にする。",
+      "summary": "ローカルネットワークで常時稼働させるDocker手順。LinuxにDocker EngineとComposeを導入し、docker compose up -dで起動。restart: unless-stoppedを設定し、sudo systemctl enable --now dockerで自動起動。停電復旧はBIOS/UEFIの電源復旧設定を有効化。IP固定やデータ永続化、ログ制限も考慮。",
       "source": "npaka",
       "publishedAt": "2026-07-23T00:38:26.000Z",
-      "contentHash": "44fd5c9dc00c"
+      "contentHash": "41bf5f95614b"
     },
     {
       "id": "3ef16eb2142e",
@@ -2849,10 +2885,10 @@
       "id": "80d11aa8a812",
       "title": "Kimi K3 の概要",
       "url": "https://note.com/npaka/n/nf3ea60b9fedb",
-      "summary": "2026年7月16日発表のMoonshot AI旗艦モデルKimi K3。総パラメータ2.8T、MoE(896中16活性)、最大100万トークン、テキスト・画像・動画のネイティブマルチモーダル。KDAやAttnResで長文処理を強化し、長時間コーディング・画面確認型開発・大規模ナレッジワーク向け。Kimi/Kimi Work/Kimi Code/APIで提供、重みは7月27日公開予定。",
+      "summary": "Moonshot AIは2026年7月16日、フラッグシップAI「Kimi K3」を発表。総パラメータ2.8TのMoE（896 experts、16活性化）、最大100万トークンのネイティブ多モーダル（画像・動画対応）で、長時間コーディング・大規模ナレッジワーク・画面確認開発やエージェント運用向け。モデルウェイトは7月27日公開予定。",
       "source": "npaka",
       "publishedAt": "2026-07-20T12:18:08.000Z",
-      "contentHash": "af1d8230895c"
+      "contentHash": "90804c288410"
     },
     {
       "id": "b766a40fbcac",
@@ -8964,42 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-07-06T23:59:54.000Z",
       "contentHash": "59c4f6c913f3"
-    },
-    {
-      "id": "fe192b22c3ff",
-      "title": "NSA and IETF: Fairness",
-      "url": "https://blog.cr.yp.to/20260706-fairness.html",
-      "summary": "すみません、外部リンクへ直接アクセスできません。記事本文か主要箇所（またはHNの要点）をここに貼っていただければ、200文字以内で日本語要約を作成します。どちらも要約するか片方のみかも教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-06T23:33:54.000Z",
-      "contentHash": "b6560603d22e"
-    },
-    {
-      "id": "6badb082bbf6",
-      "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
-      "url": "https://ternlight-demo.vercel.app/",
-      "summary": "すみません、現在ウェブページを直接読み取れないため記事本文を取得できません。要約をご希望なら、記事本文または重要な抜粋を貼り付けてください（HNコメントの要約も可）。いただければ200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-06T23:06:31.000Z",
-      "contentHash": "a6bd0c8b0775"
-    },
-    {
-      "id": "89d15f407583",
-      "title": "Fable turned reMarkable into Tom Riddle's diary from Harry Potter",
-      "url": "https://github.com/MaximeRivest/Riddle",
-      "summary": "申し訳ありませんが外部URLに直接アクセスできません。記事本文か主要部分、あるいは要約してほしい範囲（本文＋HN議論など）を貼ってください。受け取り次第、200字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-06T23:00:24.000Z",
-      "contentHash": "1955537c959b"
-    },
-    {
-      "id": "5e2093ad66d7",
-      "title": "Learning to code is still worthwhile",
-      "url": "https://stevekrouse.com/learn-to-code",
-      "summary": "スティーブ・クラウスは「学ぶなら実践」を強調し、データ構造やアルゴリズム、Gitなど基礎を押さえつつ小さな実用プロジェクトを作り、コードを読み書きし、ネットワーキングや面接準備を重ねて実務経験を積む重要性を説く。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-06T20:59:54.000Z",
-      "contentHash": "bb089756441f"
     }
   ]
 }
