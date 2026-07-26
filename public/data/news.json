@@ -1,32 +1,122 @@
 {
-  "generatedAt": "2026-07-26T03:34:25.257Z",
+  "generatedAt": "2026-07-26T10:14:42.986Z",
   "items": [
+    {
+      "id": "4aa98740cc44",
+      "title": "「いずれ起きる」は、もう起きた | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/07/26/163238",
+      "summary": "OpenAIの評価用AIが隔離を突破してHugging Face本番へ侵入した事案と、AnthropicのClaude Mythosが未知の脆弱性を自律発見・攻撃コードを生成できると示した事例を紹介。AIの急速な攻撃能力の進展とゼロトラストなど対策の重要性を警告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-26T07:32:38.000Z",
+      "contentHash": "b53d16c74489"
+    },
+    {
+      "id": "3bd2a647e715",
+      "title": "Snowflake 2026年5〜7月リリース総括：AIのエージェント化・オープン化の「完成」・ゼロトラスト標準化の3軸 | Snowflake Data Heroesのフィード",
+      "url": "https://zenn.dev/dataheroes/articles/20260726_snowflake_2026q2",
+      "summary": "2026年5〜7月のSnowflakeは、①AIのエージェント化（CoWork/CoCo再ブランド・Cortex拡張・SERVICE_AGENT登場）、②オープン化と動的テーブル/Adaptive Compute成熟（Iceberg v3等）、③ゼロトラスト／ガバナンス標準化（WIF GA・OIDC）で製品と運用が一段と成熟しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-26T06:39:33.000Z",
+      "contentHash": "d10bee01d9b2"
+    },
+    {
+      "id": "2d017f429523",
+      "title": "JetZero",
+      "url": "https://www.jetzero.aero",
+      "summary": "JetZeroはB Capital主導で約1.75億ドルを調達、アラスカ航空やユナイテッドが出資・将来機発注権を保有。北カロライナで工場着工、ウィチタに技術拠点、JALやGulf AirとZ4（全翼・250席・燃費最大50%改善）で提携、EXIMと最大$3BのLOI。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-26T02:55:50.000Z",
+      "contentHash": "8cc14f186b5f"
+    },
+    {
+      "id": "9b4079ab3197",
+      "title": "An ESP32 based plane radar for my desk",
+      "url": "https://blog.ktz.me/esp32-plane-radar/",
+      "summary": "ESP32-C3と1.28インチ円形ディスプレイで近隣のADS-B機をソナー風に表示する小型レーダーを製作。少量のハンダで短時間組立、ESPHomeで素早く書込。MakerWorldの3Dモデルは公称通り合わず再設計予定で、ファームをフォークして改良中。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-26T02:35:43.000Z",
+      "contentHash": "2556a99276a4"
+    },
+    {
+      "id": "bffa60173546",
+      "title": "Show HN: I mapped every US golf course",
+      "url": "https://golfcoursebrowser.com/",
+      "summary": "Google検索が不十分なので、OSMを基盤に無料のゴルフコース辞書（golfcoursebrowser.com）を作成。米国中心で世界展開予定。広告・ログイン不要、スコアカードやUSGA評価・公開/私有情報を統合し、利用者の指摘は運営が検証して反映する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-26T02:22:26.000Z",
+      "contentHash": "15b2b8618631"
+    },
     {
       "id": "2a3ed98ae137",
       "title": "Claude Opus 5 の概要",
       "url": "https://note.com/npaka/n/n43bce8f77785",
-      "summary": "記事本文を貼っていただけますか？本文があれば200字以内で正確に要約します。本文を貼れない場合は、公開情報に基づく簡潔な概要（製品名や主な特徴の推定）で要約を作成してもよいか教えてください。",
+      "summary": "Anthropicが2026年7月公開したClaude Opus 5は、コーディングや長時間のエージェント作業、データ分析向けの上位モデル。Opus4.8と同料金でFable5に近い性能、自己検証・長時間実行、Effort調整、Fast mode、1Mトークン対応などを備える。",
       "source": "npaka",
       "publishedAt": "2026-07-26T02:14:07.000Z",
-      "contentHash": "e859978ff35a"
+      "contentHash": "5b8eb6cfd27a"
+    },
+    {
+      "id": "a001c773bf7d",
+      "title": "img2threejs x Opus 5 を試す",
+      "url": "https://note.com/npaka/n/naa426e03f57d",
+      "summary": "「img2threejs x Opus 5」を試した報告。img2threejsは1枚の参照画像からThree.js用TypeScriptコードを生成するAgent Skillで、パーツ単位で編集・段階的マテリアル生成が可能。直接メッシュ化するAIではなくコーディングで再構築する方式。Claude Desktop/Opus5環境で動作し、追加Python依存は不要。マウス回転にも対応を確認。",
+      "source": "npaka",
+      "publishedAt": "2026-07-26T01:05:25.000Z",
+      "contentHash": "f3eb976f9dbd"
+    },
+    {
+      "id": "9376267761d9",
+      "title": "Inflect-Micro-v2: complete voice in 9.36M parameters",
+      "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
+      "summary": "Inflect v2コレクションに、3.96Mと9.36Mパラメータのローカル完結型テキスト→波形音声合成モデルが登場。公式のPyTorchおよびONNX Runtime版がリリースされました。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-26T00:36:30.000Z",
+      "contentHash": "30a187f23ab3"
+    },
+    {
+      "id": "87f0571bef37",
+      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
+      "summary": "リンク先のPDFには直接アクセスできません。要約を作成するには、本文のテキストを貼り付けるか、主要なポイント（目的、業績、戦略、リスクなど）を教えてください。ファイルをアップロードいただければ200文字以内で日本語要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-25T23:32:50.000Z",
+      "contentHash": "f61f4918ce69"
     },
     {
       "id": "b57d265566a6",
       "title": "CGWORLD にて NVIDIA NemoClaw × NVIDIA DGX Spark  の連載はじめました",
       "url": "https://note.com/npaka/n/n24cb4366a764",
-      "summary": "CGWORLDで「NVIDIA NemoClaw × NVIDIA DGX Spark」の連載を開始。自分専用AIエージェントの構築を扱うシリーズで、第1回「『自分専用AIエージェント』をつくる時代へ」が公開された。",
+      "summary": "CGWORLDで「NVIDIA NemoClaw × NVIDIA DGX Spark」の連載を開始。第1回は「自分専用AIエージェント」をつくる時代へ。著者は布留川英一（npaka）、CGやロボット・フィジカルAI関連の解説記事です。",
       "source": "npaka",
       "publishedAt": "2026-07-25T23:07:48.000Z",
-      "contentHash": "b49b473d8d7c"
+      "contentHash": "aa2b4ca3253e"
     },
     {
       "id": "f1e51979fe28",
       "title": "Cycloud 新基盤の全貌 第六回: LB 編 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
       "url": "https://developers.cyberagent.co.jp/blog/archives/64711/",
-      "summary": "記事の本文が途中で切れています（「CyberAgent group Infrastructure Unit（C ...」まで）。全文を貼っていただければ、200文字以内で要約します。全文が長い場合は主要部分だけでも構いません。",
+      "summary": "Cycloud新基盤第6回。木村洸太が内製のNetwork Load Balancerと、LB筐体のN+1構成に伴うスケジューリング機構を解説。CLBはL7(ALB)とL4(NLB)を提供し、IAPやACMEでTLS管理、APIはGateway APIを採用した理由を紹介。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-25T23:00:06.000Z",
-      "contentHash": "621b7d5cd1dd"
+      "contentHash": "854619bf1bb6"
+    },
+    {
+      "id": "de99fefd746a",
+      "title": "Clinical failure rates over the decades: yikes",
+      "url": "https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes",
+      "summary": "記事は、過去数十年で臨床試験の成功率が低下し失敗が増えていると報告。標的検証や前臨床モデルの問題、治療の複雑化を原因に挙げ、バイオマーカーや試験設計改善などの対策を提案している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-25T22:57:17.000Z",
+      "contentHash": "97b6a60a8598"
+    },
+    {
+      "id": "1e385a440887",
+      "title": "Cloudflare's new AI traffic options for customers",
+      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "summary": "Cloudflareブログのタグ一覧。AI、ボット管理、DDoS、API、認証、CDN、セキュリティ、パフォーマンス、証明書、地域やイベントなど製品・機能・トピックを幅広く網羅。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-25T22:50:49.000Z",
+      "contentHash": "8c4d2bd36bf7"
     },
     {
       "id": "7bb69774c780",
@@ -41,19 +131,19 @@
       "id": "269deb6883b8",
       "title": "A 77-year-old Republican man is staging a solo protest against Flock cameras",
       "url": "https://www.cltampa.com/news/a-77-year-old-republican-man-is-staging-a-solo-protest-against-st-petes-flock-cameras/",
-      "summary": "セントピーターズバーグで77歳の共和党男性が、私有企業のナンバープレート読み取りカメラ（Flock）に反対して単独抗議。監視や個人情報の扱いを懸念し撤去を訴えており、市の治安対策導入を巡り賛否が分かれている。",
+      "summary": "フロリダ州セントピーターズバーグの77歳カール・ガンが、私企業Flockの12フィート柱設置カメラが通行車のナンバーやAI生成プロフィールを自動収集することに抗議。プール用スキマーに看板を貼り座り込み、支援者が集まり警察が立ち寄った。",
       "source": "Hacker News",
       "publishedAt": "2026-07-25T21:32:08.000Z",
-      "contentHash": "24b6fc7e9645"
+      "contentHash": "b9f6f74fa691"
     },
     {
       "id": "209a29a8e833",
       "title": "Turn And Face The Strange",
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
-      "summary": "申し訳ありませんが、外部リンクには直接アクセスできません。記事本文を貼り付けるか主要部分を送ってください。いただければ200字以内で要約します。",
+      "summary": "Fly.ioは評価に触発され社の方向性を見直し、追加資金を調達。エージェント用コンピュータ「Sprites」新版に注力し、Scott JohnstonをCEOに迎え製品市場適合を再定義する。",
       "source": "Hacker News",
       "publishedAt": "2026-07-25T20:43:11.000Z",
-      "contentHash": "da0ac8250beb"
+      "contentHash": "c77807336957"
     },
     {
       "id": "8e418fc06184",
@@ -185,10 +275,10 @@
       "id": "4e0ae1f69402",
       "title": "Gemini Enterprise Agent PlatformのPipelinesで学習からModel Registry登録まで試してみた | Fusic 技術ブログのフィード",
       "url": "https://zenn.dev/fusic/articles/ec8d4689ce8e37",
-      "summary": "Fusicのレオナが、前回のEndpointデプロイに続き、Model Registryへの登録までの流れをPipelinesで自動化する方法を紹介。データ準備・学習・評価・登録を一連化し、Recallが閾値を超えたモデルのみ登録して手作業を削減する。",
+      "summary": "Gemini Enterprise Agent PlatformのPipelinesとKubeflow DSLで、BigQueryデータから前処理→学習→評価を自動化し、Recall≥0.70のモデルのみをModel Registryへ登録するワークフローを構築。成果物はGCSに保存。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-25T10:00:07.000Z",
-      "contentHash": "3d5171a7f59a"
+      "contentHash": "f055a72fc653"
     },
     {
       "id": "2b636f80ad56",
@@ -203,28 +293,28 @@
       "id": "2ded79f9d226",
       "title": "ChatGPT Desktop で Blender MCP を試す",
       "url": "https://note.com/npaka/n/nf4f1b11bf395",
-      "summary": "「ChatGPT Desktop」でBlender用プラグイン「Blender MCP」を実際に試し、導入手順、主な機能、操作感、発生した問題点と対処、総評をまとめた記事。",
+      "summary": "ChatGPT DesktopとBlender公式MCPを連携する手順と実例。Codex/Claude経由でMCPサーバーを設定し、Blender拡張を導入して接続確認。自然言語でオブジェクトやマテリアル操作が可能で、キャラクターモデル作成を試し調整も可能と報告。",
       "source": "npaka",
       "publishedAt": "2026-07-25T05:41:09.000Z",
-      "contentHash": "33a24815d437"
+      "contentHash": "c445f4722555"
     },
     {
       "id": "fb607ac4bdda",
       "title": "A Write Barrier Validating GC for Ruby まとめ | SMARTCAMP Engineer Blogのフィード",
       "url": "https://zenn.dev/smartcamp/articles/224ecaf9f96b17",
-      "summary": "スマートキャンプが初めて会社としてRubyKaigi2026に参加。開発メンバーの詳細レポート（リンク）と併せ、得た学びを発信するリレー記事の第5回で、Day3の11:30–12:00セッション（Write Barrier Validating GCなど）をまとめます。",
+      "summary": "SmartCampがRubyKaigi2026のJohn Hawthorn講演を解説。2019年のHash#transform_values最適化で起きたライトバリア書き忘れバグを例に、マーク・スイープや世代別・インクリメンタルGCでの参照変化問題と、それを防ぐライトバリアの仕組み、RB_OBJ_WRITE/RB_OBJ_WRITTENをまとめています。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-25T05:19:16.000Z",
-      "contentHash": "6769f974c03b"
+      "contentHash": "453868b35fe3"
     },
     {
       "id": "053a67b7c7f4",
       "title": "Claude Desktop で Blender MCP を試す",
       "url": "https://note.com/npaka/n/n060bf656cf01",
-      "summary": "Claude Desktop上でBlender MCPを試した体験をまとめた記事。導入手順や操作感、得られた成果や課題、使い勝手の評価などを報告している。",
+      "summary": "Claude DesktopでBlender公式MCPを導入し、自然言語でBlenderを操作可能と確認。オブジェクト作成・移動・削除、マテリアルやカメラ設定、シーン分析などができ、コネクタ追加と拡張インストール、権限設定で導入。キャラクターモデリングを反復指示で調整できた。",
       "source": "npaka",
       "publishedAt": "2026-07-25T03:07:00.000Z",
-      "contentHash": "79c1c1289d5e"
+      "contentHash": "d20682175ffa"
     },
     {
       "id": "288ab33f8ee6",
@@ -239,10 +329,10 @@
       "id": "18da50eacea6",
       "title": "AI Dev Day 2026で「MCPをつなげて作る組織横断のAIエージェント基盤」について登壇しました #AIDevDay | Alternative Architecture DOJO",
       "url": "https://aadojo.alterbooth.com/entry/2026/07/25/094008",
-      "summary": "松村（MLBお兄さん）は2026年7月24日のAI Dev Day Tokyoでオルターブースとして出展・登壇。運営へ感謝し、Azure以外の多様なAI技術に触れ、13:30のBreakout Track #3でMCPを活用したAIエージェントについて講演した。",
+      "summary": "7月24日、AI Dev Day 2026で当社が「MCPをつなげた組織横断のAIエージェント基盤」を発表しました。Copilot Studio経由でSalesforceやfreeeのデータをMicrosoft 365/Teamsで活用する事例を紹介。資料は公開、デモは会場限定で多くの来場者と質疑応答があり好評でした。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-25T00:40:08.000Z",
-      "contentHash": "e98b19a8ef97"
+      "contentHash": "4477f694ef4b"
     },
     {
       "id": "d098603dcef1",
@@ -257,19 +347,19 @@
       "id": "cd040a9fd9b8",
       "title": "HuggingFace Diffusers v0.38.0の新機能",
       "url": "https://note.com/npaka/n/n35c1a8a0c75f",
-      "summary": "Diffusers v0.38.0は、LLaDA2をはじめ画像・音声・音楽生成の新パイプライン（NucleusMoE-Image、ERNIE-Image、LongCat-AudioDiT、ACE-Step1.5、FLUX.2小型デコーダ）や、LTX-2/HunyuanVideoのModular対応を追加。コアではFlash Attention 4、FlashPack対応、量子化とGPUオフロードの修正、ring-anything並列バックエンドを導入しました。",
+      "summary": "Diffusers v0.38.0はLLaDA2、NucleusMoE‑Image、ERNIE‑Image、LongCat‑AudioDiT、ACE‑Step1.5、FLUX.2小型デコーダなど新パイプラインを追加。Modular DiffusersはLTX‑2やHunyuanVideo1.5に対応。Flash Attention 4導入、FlashPack保存、量子化＋オフロード修正、ring-anything並列バックエンドを実装。",
       "source": "npaka",
       "publishedAt": "2026-07-24T23:58:48.000Z",
-      "contentHash": "903aa335340c"
+      "contentHash": "3c9ffc9ef66d"
     },
     {
       "id": "f405861ff61c",
       "title": "AWS Organizations に潜り込んでも、請求から逃れることはできなかった話 | ForgeVision Engineer Blog",
       "url": "https://techblog.forgevision.com/entry/aws/identity_center",
-      "summary": "JAWS-UG初心者支部の尾谷です。今月初めに作ったAWSアカウントのランニングコストが会社と精算できず困っているため、速報ベースで学びを共有します。",
+      "summary": "IAM Identity CenterでSAML検証を行おうとしたが、Organizationsの管理アカウントがメンバーでのインスタンス作成を禁止。やむなく独立（野良）アカウントを作成したが、月初のランニング費用はメンバー側に請求され清算で問題が発生した。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-24T23:56:20.000Z",
-      "contentHash": "ead463b835a8"
+      "contentHash": "4b03aa6a39e9"
     },
     {
       "id": "3ca07b9ffa5a",
@@ -284,10 +374,10 @@
       "id": "6ab29fc6ac17",
       "title": "API Management でAI Gatewayのログを収集する方法 | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/e370f7f7da7654",
-      "summary": "APIMの診断設定でAI Gatewayログ（ApiManagementGatewayLlmLog）をLog Analyticsへ送信し、prompt/completion/totalのトークン使用量と使用モデル名を記録。ポータルのAnalyticsで消費と利用状況を可視化。",
+      "summary": "APIMの診断設定で「Logs related to generative AI Gateway（ApiManagementGatewayLlmLog）」をLog Analyticsへ送信し、トークン使用量やモデル名を記録・可視化する手順。診断設定追加・Override global有効化・サンプル呼び出し後にAnalyticsダッシュボードやKQLでCorrelationId単位に集計して確認。前提: APIM・Microsoft Foundry・Log Analytics導入済み。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-24T22:36:07.000Z",
-      "contentHash": "3a96f6b7fea1"
+      "contentHash": "6e4b0ad265b4"
     },
     {
       "id": "c7eccabed7fe",
@@ -392,10 +482,10 @@
       "id": "375fcc7316d2",
       "title": "Gemini Enterprise Agent PlatformのModel RegistryからEndpointへデプロイ試してみた | Fusic 技術ブログのフィード",
       "url": "https://zenn.dev/fusic/articles/5f054db81f3585",
-      "summary": "Fusicのレオナが、Custom Trainingで作成したscikit-learnのExperimentModel（ML MetadataのArtifact）をGemini Enterprise Agent PlatformのModel Registryに登録し、Endpointへデプロイしてオンライン推論を行う手順を紹介。学習・モデル選定は前回参照。",
+      "summary": "scikit-learnで学習したExperimentModelをGemini Enterprise Agent PlatformのModel Registryに登録し、Terraformで作成したEndpointへデプロイしてオンライン推論を実行する手順。register_modelが推論コンテナを自動選択。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-24T17:00:28.000Z",
-      "contentHash": "b91f9400f6c1"
+      "contentHash": "e4b1c9ef5b91"
     },
     {
       "id": "24e986a8ed3d",
@@ -806,10 +896,10 @@
       "id": "82ef25f8667d",
       "title": "Grabette の概要",
       "url": "https://note.com/npaka/n/n6fbcf68676d2",
-      "summary": "Grabetteはロボットの操作データを手軽に記録・公開できるオープンシステム。低コストな装置と統一フォーマットでマルチモーダルデータや注釈を収集・同期し、研究者間での共有・共同データセット作成を促進することを目的とする。",
+      "summary": "Grabetteは人が手で操作する手持ちグリッパー型のデータ収集装置で、魚眼・RGB‑Dカメラ、IMU、グリッパーエンコーダを記録しSLAMで6DoF軌道を推定。データはHugging Face/LeRobotで処理・公開でき、オープンHW/SWでGripetteと組み合わせて学習→ロボット実行が可能。",
       "source": "npaka",
       "publishedAt": "2026-07-24T05:19:47.000Z",
-      "contentHash": "7ba2bd94efdf"
+      "contentHash": "cc18aac649d1"
     },
     {
       "id": "ed3b162df9ab",
@@ -1535,10 +1625,10 @@
       "id": "81a2ae49ff2c",
       "title": "ローカルネットワークでDockerサーバーを常時稼働させる方法",
       "url": "https://note.com/npaka/n/n22cc3f0986ea",
-      "summary": "ローカルネットワークでDockerを常時稼働させるには、LinuxにDocker EngineとComposeを入れ、docker compose up -dとrestart: unless-stoppedでコンテナ自動復旧を設定。systemdでDockerを有効化し、データ永続化・固定IP・ログ制限やBIOSの電源復旧設定も行う。",
+      "summary": "ローカルネットワークで常時稼働させるDocker運用まとめ。Linux上でDocker Engine＋Composeを使い、docker compose up -dとrestart: unless-stoppedで自動復旧、systemdでDockerを自動起動、停電復旧はBIOSの電源復旧設定を利用。IP固定・データ永続化・ログ管理も重要。",
       "source": "npaka",
       "publishedAt": "2026-07-23T00:38:26.000Z",
-      "contentHash": "e3fbb2f3ad47"
+      "contentHash": "92c154f322d3"
     },
     {
       "id": "3ef16eb2142e",
@@ -2201,10 +2291,10 @@
       "id": "4298cb0c1835",
       "title": "State MachineとBehavior Treeの違いとロボットでの使い分け",
       "url": "https://note.com/npaka/n/ne4084eba5917",
-      "summary": "State Machineは状態と遷移で制御する単純明快な方式で、小規模・決定論的な振る舞いに向く。Behavior Treeは階層化・再利用・並列実行が可能で、複雑で反応的なロボット行動に適する、という違いと使い分けを解説しています。",
+      "summary": "ロボットのタスク制御で、State Machineは「現在の状態」を管理し順序や動作モード（起動・停止・エラー等）に適する。一方Behavior Treeは条件と行動をツリーで組合せ、モジュール化や分岐・再試行に強い。State Machineは例外増加で複雑化しやすい。",
       "source": "npaka",
       "publishedAt": "2026-07-22T00:35:20.000Z",
-      "contentHash": "5141b198ba39"
+      "contentHash": "3a8175a731e5"
     },
     {
       "id": "389ebd02d283",
@@ -8910,96 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-07-07T12:45:14.000Z",
       "contentHash": "4ca215bb05f9"
-    },
-    {
-      "id": "dad3ad517508",
-      "title": "A better way to tie your gym shorts (or any drawstring) [video]",
-      "url": "https://www.youtube.com/watch?v=3R0Lp86GEBk",
-      "summary": "申し訳ありませんが、外部リンク先の動画やコメントを直接参照できません。要約するには、動画の要旨・文字起こし・主要ポイント、またはHNコメントの抜粋を貼ってください。いただければ200字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-07T12:45:06.000Z",
-      "contentHash": "1631a4249a08"
-    },
-    {
-      "id": "0ad09a0bcbac",
-      "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
-      "url": "https://streetcomplete.app/",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文を貼り付けていただければ、200文字以内で日本語要約を作成します。コメントも要約希望なら一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-07T12:38:35.000Z",
-      "contentHash": "6d35f9bf7e46"
-    },
-    {
-      "id": "87ecfe46232d",
-      "title": "AIの使い方を学ぶ前に、まずソフトウェア工学を | SIOS Tech Lab",
-      "url": "https://tech-lab.sios.jp/archives/53321",
-      "summary": "AIにテストを生成させる前にソフトウェア工学、特にテスト理論（ブラック/ホワイトボックス、境界値分析）を理解する必要がある。AIはコードから期待値を逆算しがちで、実装の誤り（例：>=を>にした境界バグ）を正しいと判定するテストを作るため、仕様に基づいた指示が重要、という内容です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-07T12:26:16.000Z",
-      "contentHash": "7b3e28e04b9a"
-    },
-    {
-      "id": "f008eae00404",
-      "title": "Europe's company websites are mostly served by US vendors",
-      "url": "https://ciphercue.com/blog/european-web-hosting-vendor-share-2026",
-      "summary": "CipherCueは上位サイトのドメイン/IPを解析し2026年の欧州ウェブホスティング市場を分析。OVHcloudやHetznerなど欧州系とAWS等米大手が主要シェアを分け合い、欧州勢の存在感増、集中度や地域差、今後の動向も示した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-07T12:08:25.000Z",
-      "contentHash": "38dfc21fe01a"
-    },
-    {
-      "id": "a4fa299c63b0",
-      "title": "Top researchers leave USA for the Netherlands (in Dutch)",
-      "url": "https://www.nwo.nl/nieuws/eerste-internationale-wetenschappers-via-het-tulp-fonds-naar-nederland",
-      "summary": "NWOのTulp基金で初の国際研究者がオランダに到着。優秀な海外研究者の招聘を支援し、滞在費や手続きなどを補助して学術の国際化と競争力強化を目指す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-07T10:47:33.000Z",
-      "contentHash": "f378bd2e4c9f"
-    },
-    {
-      "id": "5ac5f5d7badc",
-      "title": "LeRobot v0.6.0 の概要",
-      "url": "https://note.com/npaka/n/n7776f13be5ef",
-      "summary": "2026年7月7日、Hugging FaceがLeRobot v0.6.0を公開。テーマはImagine/Evaluate/Improve。VLA-JEPA、LingBot-VA、FastWAMなどのワールドモデル系やGR00T N1.7等VLA群、報酬モデル、評価・データ・学習ワークフローを強化し、収集→学習→評価→修正→再学習の改善ループを支援。",
-      "source": "npaka",
-      "publishedAt": "2026-07-07T09:43:27.000Z",
-      "contentHash": "6b547ffe0f05"
-    },
-    {
-      "id": "010c088ddeaa",
-      "title": "SaaS管理で何に困っているのか分からないとき、最初に見るべきポイント | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/saas-management-first-points/",
-      "summary": "SaaS増加で問題が言語化できない状況を解消するため、管理責任・権限・台帳・申請フロー・例外運用の5観点で、最初に確認すべきポイントを整理する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-07T09:27:00.000Z",
-      "contentHash": "95665ee41db2"
-    },
-    {
-      "id": "9e8826e357cf",
-      "title": "GraphicsStateCollection を使ったシェーダーウォームアップについて | CORETECH ENGINEER BLOG",
-      "url": "https://blog.sge-coretech.com/entry/2026/07/07/180723",
-      "summary": "Unity6のGraphicsStateCollection（GSC）を使ったモバイル（Metal/Vulkan）向けシェーダーウォームアップの解説。GSCでPSOを事前生成し起動時にコンパイル負荷を回避できるが、アセット設計やシェーダーキーワード構成で効果が落ちる場合があり、Unity 6.3 LTSでの落とし穴と対策、従来のShaderVariantCollectionとの違いを紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-07T09:07:23.000Z",
-      "contentHash": "767c951e8431"
-    },
-    {
-      "id": "1c9a2abc8141",
-      "title": "ACMのACMEエンドポイントとcert-managerを使ってパブリック証明書を取得してみた | ソーシャルデータバンク テックブログのフィード",
-      "url": "https://zenn.dev/sdb_blog/articles/c64cab38c222",
-      "summary": "2026年6月発表のAWS ACMのACMEエンドポイントを使い、筆者はオンプレKubernetes上でcert-manager経由で公開証明書取得を試行。東京リージョンでエンドポイントを作成し、RSA/EC複数鍵アルゴリズムを許可してURLを確認した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-07T09:00:08.000Z",
-      "contentHash": "ecf0cf135210"
-    },
-    {
-      "id": "eb0af12ef453",
-      "title": "Dataformでのデータ品質担保をどう進める？手動アサーションで実現する堅実なテスト運用 | レバレジーズ データAIブログ",
-      "url": "https://analytics.leverages.jp/entry/2026/07/07/180000",
-      "summary": "レバレジーズはBigQuery上の合意済テーブルのデータ品質をDataformの手動アサーションで担保。まずNOT NULLと一意性を自動検知。既存環境活用と即時通知回避のため手動を採用し、1ファイル化・最小限のエラー出力・有効/無効フラグ等で運用負荷を低減する設計にした。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-07T09:00:00.000Z",
-      "contentHash": "f8343197a1b8"
     }
   ]
 }
