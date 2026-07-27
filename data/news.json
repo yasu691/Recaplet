@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2026-07-27T03:45:03.446Z",
+  "generatedAt": "2026-07-27T11:33:28.603Z",
   "items": [
+    {
+      "id": "1aa7d2e15535",
+      "title": "【クラウド】 いまさら聞けないIaaS・PaaS・SaaS ― クラウドの\"どこまで任せるか\"を階層で理解する | エイトハンドレッド TECH BLOG",
+      "url": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/07/27/185912",
+      "summary": "IaaS・PaaS・SaaSはサーバー・OS・ミドルウェア・アプリのどこまで事業者が担うかの階層です。任せるほど運用は楽になる一方でカスタマイズ性は下がり、運用負荷とコストのトレードオフを踏まえて選ぶ必要があります。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-27T09:59:12.000Z",
+      "contentHash": "2840eb2f61f6"
+    },
+    {
+      "id": "64f6ad83d14f",
+      "title": "【クラウド】 いまさら聞けないマネージドサービス ―「運用が楽になる」の中身を分解する | エイトハンドレッド TECH BLOG",
+      "url": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/07/27/185825",
+      "summary": "「マネージド＝運用不要」は誤解。事業者はバックアップ・パッチ・冗長化などを担うが、設計やチューニング、コスト管理は利用者側に残る。運用がゼロになるわけではなく「中身が変わる」と理解し、任せた先の監視項目を明確にすることが重要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-27T09:58:25.000Z",
+      "contentHash": "f27afaba3e0e"
+    },
+    {
+      "id": "5da60c168747",
+      "title": "KAMEをオープンモデルで動かしてMT-Benchでベンチマーク評価した | Fixstars Tech Blog /proc/cpuinfoのフィード",
+      "url": "https://zenn.dev/fixstars/articles/kame-benchmark",
+      "summary": "シドニー大院の飯田大晟がFixstarsでの15日間インターンでまとめた記事。Sakana AIの音声対話モデルKAMEは低遅延なSTSと高精度LLMをハイブリッド化し、カスケード並の性能とLLM差し替え可能性を謳う。STT更新ごとに0.4秒間隔で高頻度にLLM呼び出しを行う。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-27T09:56:48.000Z",
+      "contentHash": "e130c0bfb7d2"
+    },
+    {
+      "id": "b46327093bbd",
+      "title": "Weekly AWS アップデート情報 - 2026年7月27日 | ソフトバンク テックブログ（公式）のフィード",
+      "url": "https://zenn.dev/softbank/articles/d33ad5218ae8e6",
+      "summary": "7/20–26のWeekly AWSの主な更新: Amazon SESが「Essentials」「Pro」「Enterprise」の3階層料金プランを導入。機能をまとめて購入でき、アラカルトより割引で提供。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-27T09:25:42.000Z",
+      "contentHash": "cfb44f7fcbfb"
+    },
+    {
+      "id": "ec35aa56a310",
+      "title": "Claude Code/Claude DesktopでBedrock Guardrailsを利用する方法と制約 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/bedrock-guardrails-for-claude-code",
+      "summary": "Claude CodeやClaude DesktopはAmazon Bedrockで推論可能で、Bedrock Guardrailsを使い入出力に安全策を適用できます。本記事はその適用方法と前提設定を解説します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-27T09:21:34.000Z",
+      "contentHash": "15cc92699cde"
+    },
+    {
+      "id": "7e930446d0d4",
+      "title": "CI を GitHub Actions、CD を AWS CodePipeline とする構成 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/ci-github-actions-cd-aws-codepipeline",
+      "summary": "前回のAWS CDK Expressモード（開発はON、本番はOFF）紹介の続篇。CIをGitHub Actions、CDをAWS CodePipelineで構築する手順を示し、GitHub OIDC接続の懸念やシーケンス図で流れを解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-27T09:03:41.000Z",
+      "contentHash": "a6995f97fc21"
+    },
+    {
+      "id": "53106f557eff",
+      "title": "BlenderやMayaはCADと何が違う？ DCCとCADの用途を比較",
+      "url": "https://note.com/npaka/n/n68f6d301a199",
+      "summary": "BlenderやMayaのようなDCCは映像・ゲーム向けに見た目や動きを重視し、ポリゴンやスカルプトで有機的な形状やアニメーション・レンダリングを作る。一方CADは寸法や公差を厳密に扱う設計向けで、パラメトリックやNURBSのソリッドを用い製造・解析に使う。用途で使い分ける。",
+      "source": "npaka",
+      "publishedAt": "2026-07-27T08:52:40.000Z",
+      "contentHash": "4709680966bc"
+    },
+    {
+      "id": "c54cd4604ac2",
+      "title": "Fn::ImportValueを剥がして、CDKデプロイを並列化する | DRESS CODE TECH BLOGのフィード",
+      "url": "https://zenn.dev/dress_code/articles/d08a9c00af39ca",
+      "summary": "Dress Code Advent Calendar 2026/07の27日目。Dress Codeのプロダクトエンジニア・ぽこひでが、数十スタックに成長したCDKリポジトリでの課題を報告。cdk deploy --allは直列実行で25〜35分かかり、--concurrencyは依存グラフの範囲しか並列化できず、Fn::ImportValueによる直列依存が各所にあるため並列化が進まない問題を説明している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-27T08:32:20.000Z",
+      "contentHash": "0edc50c793ec"
+    },
+    {
+      "id": "a7030c96e385",
+      "title": "【K8s】Kong × Keycloakの認証沼。235コミット溶かしたStaging構築（後編：Secret注入とArgoCDの壁） | Scalar Solution Engineer Blogのフィード",
+      "url": "https://zenn.dev/scalar_sol_blog/articles/0662900aa51365",
+      "summary": "前編のclient_authやdiscovery問題に続き、Keycloakのclient_secretをKongに渡す方法を3回試行錯誤した末、最終的にKongVaultで解決した経緯を説明します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-27T08:30:05.000Z",
+      "contentHash": "00f9e2e90d70"
+    },
+    {
+      "id": "fa81295ff6f2",
+      "title": "Rails: その「イングレス」は不変条件のオーナーではない（翻訳） | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_07_27/158766",
+      "summary": "Szymon Fiedler著「Ingress is not the owner of the invariant」(2026-06-16)を許諾翻訳。デザインパターンは英語表記、ingressは「イングレス」と訳記。Brandon Weaverの議論も紹介し、TechRachoに掲載。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-27T08:30:03.000Z",
+      "contentHash": "d71b090d6eba"
+    },
+    {
+      "id": "db9d0913513d",
+      "title": "How AI is expanding what people do at work",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "summary": "OpenAIの新研究は、ChatGPTなどのAIにより従業員が役割を越えて業務を担うようになり、職務の境界が再編されていることを示した。",
+      "source": "OpenAI",
+      "publishedAt": "2026-07-27T03:30:00.000Z",
+      "contentHash": "b71cf3d7a8ef"
+    },
     {
       "id": "7a2c62ef44e8",
       "title": "【新卒のお悩み相談】上司や先輩に「教えたい」と思われる人のコミュニケーション | SHIFT Group 技術ブログ",
@@ -95,10 +194,10 @@
       "id": "806d72a1a5fd",
       "title": "Codex Micro の使い方",
       "url": "https://note.com/npaka/n/n077409095a5a",
-      "summary": "Work LouderのCodex MicroはChatGPTのCodex操作に特化した小型コントローラー。6つのAgentキーでスレッド管理、Commandキーやダイヤルで操作割当・RGBで状態表示。Bluetooth/有線接続、専用Inputで最大6レイヤーとAppSense自動切替に対応。電源・スリープやペアリング方法も解説。",
+      "summary": "Work Louderの小型コントローラー「Codex Micro」の基本的な使い方。6つのAgentキーやCommandキー・ダイヤル・ジョイスティックでCodexスレッド切替や操作を割当可能。電源/スリープ、Agentキー色で状態表示、長押しでコマンド設定。Bluetooth3チャンネルと有線接続、専用Inputで最大6レイヤーやAppSenseによるアプリ自動切替に対応。",
       "source": "npaka",
       "publishedAt": "2026-07-27T00:42:45.000Z",
-      "contentHash": "652e52f56a0c"
+      "contentHash": "ac29558aa83c"
     },
     {
       "id": "16797b055e4e",
@@ -122,10 +221,10 @@
       "id": "7dab87d351f7",
       "title": "Champagne and Bullets belongs on the Mount Rushmore of bad movies",
       "url": "https://www.theverge.com/column/971103/champagne-and-bullets-bad-movies-review",
-      "summary": "映画『Champagne and Bullets』（別題GetEven／Road to Revenge）は、ジョン・デ・ハートが脚本・監督・主演を兼ねたほぼワンマン制作の異色作。自己陶酔的で奇妙な歌唱シーンもあり、The RoomやTroll 2、Neil Breen風の“駄作の傑作”と評されるカルト映画。",
+      "summary": "『Champagne and Bullets』（別題GetEven/ Road to Revenge）は、ジョン・デ・ハートが脚本・監督・主演を務めるカルト的“駄作の名作”。セガール×ニール・ブリーン的な異様さで、The RoomやTroll 2級の「良い意味でヤバい」映画と評される。",
       "source": "The Verge",
       "publishedAt": "2026-07-26T21:24:07.000Z",
-      "contentHash": "423faef0edab"
+      "contentHash": "ae893d46be14"
     },
     {
       "id": "e1fc916d10d9",
@@ -140,10 +239,10 @@
       "id": "07c59d001abc",
       "title": "The US is charging an American citizen for wiping his phone at the border",
       "url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
-      "summary": "米国市民サム・タニックは2025年1月、アトランタ空港で捜査官に端末を押収されるのを防ぐため「強制解除パスワード」を使い携帯を消去したとして起訴された。政府は物品押収妨害の稀な法令を適用。弁護側は捜索はStop Cop City関連の探りが目的で、当時は児童搾取画像疑惑で尋問されたと反論している。",
+      "summary": "米国でサム・タニック被告が、2025年1月にアトランタ空港で端末押収時にGrapheneOSの「デュレス（強制）パスワード」を告げ端末を消去したとして、押収を妨げる器物損壊容疑で起訴された。弁護側は児童搾取捜査は口実で、Stop Cop City関係の捜索だと主張している。",
       "source": "The Verge",
       "publishedAt": "2026-07-26T18:45:50.000Z",
-      "contentHash": "d92cf932eb3d"
+      "contentHash": "e41db8bcec36"
     },
     {
       "id": "c305774920bf",
@@ -221,10 +320,10 @@
       "id": "367d2c3a543f",
       "title": "Carrie is just trying to make a friend in the new trailer",
       "url": "https://www.theverge.com/entertainment/971069/carrie-amazon-mike-flanagan-trailer-comic-con",
-      "summary": "マイク・フラナガン監督の新作『キャリー』トレーラーがComic-Conで公開。10月7日Amazon Prime配信。現代版として避難訓練やSNSいじめなどを高校生の実体験を元に描く。",
+      "summary": "マイク・フラナガン監督のスティーブン・キング原作『キャリー』新トレーラーが公開。10月7日Amazon Prime配信。友達を作ろうとするキャリーを描き、現代の避難訓練やSNSいじめなど高校生の実体験を脚本に反映している。",
       "source": "The Verge",
       "publishedAt": "2026-07-26T15:33:27.000Z",
-      "contentHash": "06bc4fc9087c"
+      "contentHash": "42857659c16e"
     },
     {
       "id": "4932ad35ad3b",
@@ -266,10 +365,10 @@
       "id": "4970161b70da",
       "title": "Marvel announces Ryan Gosling as Ghost Rider, a new Black Panther, and more",
       "url": "https://www.theverge.com/entertainment/971071/marvel-ryan-gosling-ghost-rider-black-panther-comic-con",
-      "summary": "コミコンでマーベル発表。ライアン・ゴズリングがショーン・レヴィ監督の単独作でゴーストライダー役（2028年公開）。『ブラックパンサーIII』は2028年12月15日公開で、デヴィッド・ジョンソンがティ・チャラの息子で新ブラックパンサーに。『アベンジャーズ：ドゥームズデイ』新予告とデッドプール（ライアン・レイノルズ）登場も披露。",
+      "summary": "マーベルがコミコンで発表。ライアン・ゴズリングが2028年公開予定のショーン・レヴィ監督作でゴーストライダーに、ブラックパンサー3は2028年12月15日公開でデイヴィッド・ジョンソンが新ブラックパンサーに。『アベンジャーズ：ドゥームズデイ』予告も公開され、ライアン・レイノルズがデッドプール参加を要望した。",
       "source": "The Verge",
       "publishedAt": "2026-07-26T14:51:33.000Z",
-      "contentHash": "e52fcb86ef31"
+      "contentHash": "69ee9d230855"
     },
     {
       "id": "1d40912d8c22",
@@ -338,10 +437,10 @@
       "id": "002f0d39ba83",
       "title": "Blenderで何が作れる？ ゲーム・アニメなど5つの活用例",
       "url": "https://note.com/npaka/n/nf35c969ab62e",
-      "summary": "Blenderはモデリング、質感設定、リギング、アニメーション、レンダリング、合成まで行える総合3DCGソフト。ゲーム/VR用アセット制作・編集、映像のプレビズと3Dアニメ、商品・建築ビジュアル、3Dプリント用モデル、実写合成やイラスト制作など多用途に対応する。",
+      "summary": "Blenderはモデリング、質感設定、アニメーション、レンダリング、合成を一貫して行える総合3DCGソフト。ゲーム/VR用アセット作成・編集、映像やアニメのプレビズ・3Dアニメ、広告・商品や建築のビジュアル化、3Dプリント用モデル作成、実写合成・イラスト制作など多用途に使える。",
       "source": "npaka",
       "publishedAt": "2026-07-26T11:56:49.000Z",
-      "contentHash": "5049e12d31e0"
+      "contentHash": "20a99123ed44"
     },
     {
       "id": "24a1a3cbb2bc",
@@ -419,19 +518,19 @@
       "id": "2a3ed98ae137",
       "title": "Claude Opus 5 の概要",
       "url": "https://note.com/npaka/n/n43bce8f77785",
-      "summary": "Claude Opus 5はコーディングや長時間エージェント、データ分析向けの上位モデル。自己検証・複数ファイル対応、5段階のEffortや高速モードを備え、Fable 5に近い性能を半額のAPI料金で提供。コンテキストは100万トークン。",
+      "summary": "Anthropicが公開したClaude Opus 5は、コーディングや長時間のエージェント作業、データ分析に強い上位モデル。自己検証・反復修正が得意で、5段階のEffort調整、約2.5倍のFast mode、100万トークンの文脈窗口を備え、高性能を低コストで提供します。",
       "source": "npaka",
       "publishedAt": "2026-07-26T02:14:07.000Z",
-      "contentHash": "a52fa4d4d348"
+      "contentHash": "53d11f8f0ff4"
     },
     {
       "id": "a001c773bf7d",
       "title": "img2threejs x Opus 5 を試す",
       "url": "https://note.com/npaka/n/naa426e03f57d",
-      "summary": "img2threejsは1枚の参照画像からThree.js用のTypeScriptコードを生成するオープンソースAgent Skill。パーツ編集やマテリアル生成、レンダリング比較が可能で、Claude Desktop＋Opus 5で動作。ハードサーフェス物体に強い。",
+      "summary": "img2threejs x Opus5を試用しました。img2threejsは単一画像からThree.js用のTypeScriptコードを生成するAgent Skillで、パーツ分割やマテリアル生成、回転軸などのランタイム情報を出力します。Claude Desktop＋Opus5環境でスキルをクローンして実行し、マウス操作対応のモデルを作成しました。",
       "source": "npaka",
       "publishedAt": "2026-07-26T01:05:25.000Z",
-      "contentHash": "6ded521b9f60"
+      "contentHash": "52c292f1ed3d"
     },
     {
       "id": "9376267761d9",
@@ -563,10 +662,10 @@
       "id": "850233a1af33",
       "title": "Google basically confirms the Pixel 11 is getting a price hike",
       "url": "https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike",
-      "summary": "Googleのデバイス担当副社長が、RAM供給不足でPixel 11はPixel 10より値上げされる可能性を示唆。多社がメモリ高騰で価格調整しており、噂ではベースモデルは$899で256GB。",
+      "summary": "Googleのデバイス担当副社長が次期Pixelの値上げを事実上認めた。AIデータセンター需要によるRAM不足でメモリ価格が上昇し、価格調整が不可避に。Pixel 11はベースが256GBで約$899と報じられる。",
       "source": "The Verge",
       "publishedAt": "2026-07-25T18:13:36.000Z",
-      "contentHash": "0b088f5fde0a"
+      "contentHash": "f9f872c06140"
     },
     {
       "id": "90d1e8720204",
@@ -662,10 +761,10 @@
       "id": "2ded79f9d226",
       "title": "ChatGPT Desktop で Blender MCP を試す",
       "url": "https://note.com/npaka/n/nf4f1b11bf395",
-      "summary": "ChatGPT DesktopとBlender MCPを連携し、自然言語でBlenderを操作（オブジェクト作成・移動・マテリアル設定等）する手順を解説。公式MCPを使用し、ChatGPT Desktop/Blender/Claude導入、config.toml設定、Blender拡張導入で接続。指示は反復で調整可能。",
+      "summary": "ChatGPT DesktopとBlender公式MCPを連携し、自然言語でBlenderを操作する手順を紹介。ChatGPT Desktop/Codex・Claude・Blenderを導入しconfig.tomlでMCPを設定、Blenderに拡張を追加して接続・動作確認。",
       "source": "npaka",
       "publishedAt": "2026-07-25T05:41:09.000Z",
-      "contentHash": "df36689d916e"
+      "contentHash": "d1adb1593db8"
     },
     {
       "id": "fb607ac4bdda",
@@ -680,10 +779,10 @@
       "id": "053a67b7c7f4",
       "title": "Claude Desktop で Blender MCP を試す",
       "url": "https://note.com/npaka/n/n060bf656cf01",
-      "summary": "Claude DesktopでBlender公式MCPを試用。自然言語でオブジェクト作成・移動・削除、マテリアルやカメラ設定、シーン解析やBlender Pythonの実行が可能。ClaudeとBlender(5.1+)をコネクタで接続し、BlenderにMCP拡張を導入して動作確認。指示でキャラクターモデルを作成し、追加指示で調整できた。",
+      "summary": "「Claude Desktop」とBlenderを連携し、自然言語でBlender操作ができる「Blender MCP」を試用。公式MCPサーバーをBlenderに導入し、Claude側でコネクタ追加・権限設定して接続。モデル作成指示→追加指示で調整でき、3Dキャラ作成に成功した報告です。",
       "source": "npaka",
       "publishedAt": "2026-07-25T03:07:00.000Z",
-      "contentHash": "1fc15642a5e0"
+      "contentHash": "6eb40bfd64f0"
     },
     {
       "id": "288ab33f8ee6",
@@ -2156,10 +2255,10 @@
       "id": "b6c036e2206b",
       "title": "Here’s how to ask Gemini Live for help with anything you see.",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-live-camera-how-to/",
-      "summary": "Geminiアプリの「Live」機能は、カメラで見せるだけでリアルタイムに支援を受けられます。修理手順、エラー対応、アプリ操作、整理整頓、買い物やインテリア提案など幅広い用途に対応。",
+      "summary": "記事が途中で切れています。全文を貼るか続きを提供してください。現状の断片だけでは正確な要約ができません。全文があれば200字以内で要約します。",
       "source": "Gemini",
       "publishedAt": "2026-07-22T16:00:00.000Z",
-      "contentHash": "29641c6407af"
+      "contentHash": "5fb2a9bd56b3"
     },
     {
       "id": "d1947d984030",
@@ -2300,10 +2399,10 @@
       "id": "a9dfe60b87c5",
       "title": "3 Google updates from Galaxy Unpacked 2026",
       "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "summary": "Galaxy Unpackedで、Samsungの新折りたたみ機（Galaxy Z Fold8/Flip8）やウォッチ、グラスにGemini AIを組み込み、生産性向上と時間の節約を図る新機能が発表されました。",
+      "summary": "サムスンは、まもなく登場する折りたたみ端末、スマートウォッチ、スマートグラスで、ユーザーが生産性を高め、時間を取り戻す方法を紹介しました。",
       "source": "Gemini",
       "publishedAt": "2026-07-22T13:00:00.000Z",
-      "contentHash": "53a7bab742e7"
+      "contentHash": "e2b7234afcff"
     },
     {
       "id": "932591afba7f",
@@ -2741,10 +2840,10 @@
       "id": "20883c2d7e6f",
       "title": "13 Google tips for a fun, productive summer off from college",
       "url": "https://blog.google/products-and-platforms/products/education/summer-productivity-tips-google-ai-tools/",
-      "summary": "この記事は、大学の夏休みを楽しく生産的に過ごすための13のGoogleのヒントを紹介しています。GoogleのAIツールを使ってやることを整理・管理し、夏の予定や次学期の準備を効率化する方法を提案します。",
+      "summary": "大学生がGoogleのAIツール（GeminiやAI Mode）を活用して、大学院受験やインターン、秋学期の授業準備を効率化する方法を紹介。",
       "source": "Gemini",
       "publishedAt": "2026-07-21T20:00:00.000Z",
-      "contentHash": "a9e11aa7544f"
+      "contentHash": "67815f2f3afa"
     },
     {
       "id": "c8cfea0372b0",
@@ -2912,10 +3011,10 @@
       "id": "09b59cb95c87",
       "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-      "summary": "Gemini 3.6 Flash、3.5 Flash‑Lite、3.5 Flash Cyberを発表。トークン効率向上、低遅延、信頼性改善で大規模なAIエージェントのスケール運用を可能にする、高速かつ効率的なモデル群。",
+      "summary": "Geminiの新モデル導入を発表。ラインナップにはGemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberが含まれます。",
       "source": "Gemini",
       "publishedAt": "2026-07-21T15:00:00.000Z",
-      "contentHash": "b758ce5422ce"
+      "contentHash": "9050584e2168"
     },
     {
       "id": "3671fbd92622",
@@ -3389,10 +3488,10 @@
       "id": "85a5cc9c947a",
       "title": "5 ways to build a side hustle with Gemini",
       "url": "https://blog.google/products-and-platforms/products/gemini/launch-business-with-gemini/",
-      "summary": "Geminiを使った副業の始め方5選を紹介。ビジネス計画、マーケット調査、ブランディングを効率化し、物流や顧客管理などの業務を自動化して収益化を支援する内容です。",
+      "summary": "副業を始めるならGeminiを活用して、ビジネスモデル設計から市場調査、物流などの業務自動化まで行い、効率的に立ち上げられる。",
       "source": "Gemini",
       "publishedAt": "2026-07-20T19:00:00.000Z",
-      "contentHash": "58d35177a11c"
+      "contentHash": "688cb4b26706"
     },
     {
       "id": "5569dd99533f",
@@ -6494,10 +6593,10 @@
       "id": "90c6b2e30b40",
       "title": "How Gemini is speaking the language of Southeast Asia",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-southeast-asia-report-2026/",
-      "summary": "Geminiアプリの東南アジアでのアクティブ利用者は昨年から2倍以上に増加。記事は同地域でのチャットボットの具体的な日常利用例や活用動向を紹介している（執筆：Sapna Chadha、Samuele Saini）。",
+      "summary": "Geminiは現地語対応力とモバイル優先の人口特性を活かし、東南アジアで急速に普及している。",
       "source": "Gemini",
       "publishedAt": "2026-07-14T04:30:00.000Z",
-      "contentHash": "e0b6804da3bb"
+      "contentHash": "8ea2bf8b93d0"
     },
     {
       "id": "5a052b299e3a",
@@ -7754,10 +7853,10 @@
       "id": "fbd6ba2fa64f",
       "title": "Here’s how to make study notebooks in the Gemini app.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
-      "summary": "Geminiアプリの「Study notebooks」は、学習目標に合わせた個別学習スペースです。短いレッスンと確認クイズで理解度を測り、進捗ダッシュボードで弱点を把握して効率的に学べます。動画で作り方を解説。",
+      "summary": "テスト勉強の出発点に迷う人向けに、Geminiアプリの新機能「Study notebooks」が学習の整理と効率化を支援する、という紹介記事です。",
       "source": "Gemini",
       "publishedAt": "2026-07-10T16:00:00.000Z",
-      "contentHash": "b8ad0a996972"
+      "contentHash": "64df5e0b1b2f"
     },
     {
       "id": "39404e835ddc",
@@ -8672,10 +8771,10 @@
       "id": "5f980433ba77",
       "title": "3 ways this coffee shop is growing with Gemini",
       "url": "https://blog.google/products-and-platforms/products/gemini/coffee-shop-gemini-features/",
-      "summary": "サンフランシスコのコーヒー店Henry’s House of Coffeeは、オーナーHrag KalebjianがGeminiを活用し、グラフィック制作、メールマーケティング、売上予測などを自動化・効率化して業務時間を節約している。",
+      "summary": "コーヒー店などの小規模事業は、Geminiを使ってグラフィックデザイン、メールマーケティング、売上予測の作業時間を削減できる。",
       "source": "Gemini",
       "publishedAt": "2026-07-08T16:00:00.000Z",
-      "contentHash": "fa3c1b8221e2"
+      "contentHash": "9f0260239b2e"
     },
     {
       "id": "4f744bee9310",
@@ -8901,105 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-08T09:00:07.000Z",
       "contentHash": "9cbe6d94b092"
-    },
-    {
-      "id": "205cd214b1d5",
-      "title": "PBI作成のポイントを学ぶ | Inside of LOVOT",
-      "url": "https://tech.groove-x.com/entry/20260708/1783501103",
-      "summary": "PBI作成は「誰のために何をするか（ユーザーストーリー）」「達成状態を示す受け入れ条件（アサーション）」「バーティカルスライスで1スプリントに収める」を明確にし、参加型ワークショップで実践・改善した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-08T08:58:23.000Z",
-      "contentHash": "a91afa537dd6"
-    },
-    {
-      "id": "c5ac8a23c73c",
-      "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
-      "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
-      "summary": "Akamaiの「Peace for All」Tシャツ（ユニクロ販売）の裏に、難読化されたbashスクリプト（base64のHere文字列をevalでデコードする自己評価型のイースターエッグ）が印刷されており、筆者が解読・購入、OCR転写の難しさや別デザインの文字切れも指摘した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-08T08:46:06.000Z",
-      "contentHash": "6f0863bebb19"
-    },
-    {
-      "id": "8d8030bbc6ef",
-      "title": "JavaScript エラー発生時に対応方法をバナーで自動表示する（翻訳） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_07_08/158658",
-      "summary": "未処理のJavaScriptエラーをwindow.onerrorやunhandledrejectionで捕捉し、ページ上部にユーザー向けのエラーバナーを自動表示するErrorFeedbackクラスを紹介。UX改善とサポート削減に有効。コードはGitHub公開。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-08T08:30:43.000Z",
-      "contentHash": "9c8ee5aa991a"
-    },
-    {
-      "id": "3b5173945cbf",
-      "title": "SAP BDCナレッジ集：SAP BDC × Snowflake ゼロコピー連携を検証してみた | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/9f94d9e7a69102",
-      "summary": "SAP BDCと既存Snowflakeのゼロコピー連携（SAP BDC Connect for Snowflake）を検証。BDC→Snowflake参照は成功、Snowflake→BDCのShare-backはカタログ公開まで成功したが、DatasphereでのData Product導入に失敗。双方向の本番利用には注意が必要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-08T08:15:20.000Z",
-      "contentHash": "23b184db5084"
-    },
-    {
-      "id": "7f31c83314d6",
-      "title": "Samsung will launch its new wide foldable on July 22nd",
-      "url": "https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july",
-      "summary": "Samsungは7月22日ロンドンでGalaxy Unpackedを開催。タグラインは「A new shape unfolds」。短く幅広い新フォルムの大型フォルダブルが噂され、Flip/Foldの新版（FoldはZ Fold 8 Ultraの可能性）や新Galaxy Watchも発表見込み。開始は7月22日9時ET。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-08T08:13:52.000Z",
-      "contentHash": "913163a60725"
-    },
-    {
-      "id": "f2208a07afbb",
-      "title": "「楽楽精算」AIエージェント実装で立ちはだかった3つの壁と突破の裏側 | RAKUS Developers Blog | ラクス エンジニアブログ",
-      "url": "https://tech-blog.rakus.co.jp/entry/20260703/aiagent",
-      "summary": "ラクスのAIエージェント開発課は、経費精算「楽楽精算」へ自動伝票作成AIを実装。コスト・精度・応答速度の三壁を、例示による学習、ルール連携のハイブリッド、イベント駆動等で突破し、共通LLM基盤や監視基盤を構築して他製品へ展開した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-08T08:09:12.000Z",
-      "contentHash": "e85501b486ad"
-    },
-    {
-      "id": "4ab083551ab1",
-      "title": "ProxySQL版Orchestrator v4.30の新機能 ProxySQLネイティブ連携を検証 | スマートスタイル TECH BLOG",
-      "url": "https://blog.s-style.co.jp/2026/07/16375/",
-      "summary": "ProxySQLがOrchestratorを引き継ぎ、v4.30でProxySQLネイティブ連携（フェイルオーバー時のHostgroup自動更新）、Kubernetes向け/healthエンドポイント、PostgreSQLストリーミング対応を追加。Kubernetes上でPercona Operator経由にて検証済みで、カスタムスクリプト不要化や運用負荷削減が期待される。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-08T08:00:32.000Z",
-      "contentHash": "c9d8955f2dc7"
-    },
-    {
-      "id": "d7082318a656",
-      "title": "[UE5]3分で花びらが散っているエフェクトを作る | historia Inc – 株式会社ヒストリア",
-      "url": "https://historia.co.jp/archives/64685/",
-      "summary": "UE5向けのチュートリアル3本を紹介。ポストプロセスで放射状ブラー素材を作る方法（2026/07/01）、Widget不要で設定画面を作るShowObjectDialogの使い方（2026/06/24）、初心者向けの色収差基本設定で画面を「エモく」する手法（2026/06/17）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-08T06:00:52.000Z",
-      "contentHash": "1c24b0e3e324"
-    },
-    {
-      "id": "dd07d509ef60",
-      "title": "React 画面を「コンポーネント情報つきの単一 HTML」に書き出す | DRESS CODE TECH BLOGのフィード",
-      "url": "https://zenn.dev/dress_code/articles/21459a654d28ac",
-      "summary": "Reactプロトタイプの画面を、サーバ不要で動く単一HTMLとして書き出し、各要素に「どのコンポーネント由来か」を埋め込む実装記録。Dexieのスナップショットで状態を固定し、AI可読かつ低コストでデザインの検討履歴を残せる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-08T05:40:05.000Z",
-      "contentHash": "1ddefac9e7a8"
-    },
-    {
-      "id": "cf7d6d2d79cf",
-      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
-      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
-      "summary": "AnthropicのClaude Tagで「エージェントID」が可能になり、IAMはエージェントの識別・認証、権限委譲と最小権限適用、監査・トレーサビリティ強化、ポリシーや運用の見直しが必要になると論じる記事。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-08T05:25:35.000Z",
-      "contentHash": "fa3833e2177a"
-    },
-    {
-      "id": "5bb0400663c7",
-      "title": "AWS Cost and Usage Report（CUR）でKiroのユーザー別クレジット消費量を可視化する | MOTEX TECH BLOG",
-      "url": "https://tech.motex.co.jp/entry/2026/07/08/135145",
-      "summary": "AWS Cost and Usage Report（CUR）を利用し、クラウド運用ツールKiroのユーザー別クレジット消費量を取得・集計して可視化する手順と注意点を解説する記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-08T04:51:45.000Z",
-      "contentHash": "b5e57cfe6c3f"
     }
   ]
 }
