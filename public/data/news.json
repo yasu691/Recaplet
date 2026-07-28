@@ -1,59 +1,284 @@
 {
-  "generatedAt": "2026-07-27T17:54:38.535Z",
+  "generatedAt": "2026-07-28T02:54:17.617Z",
   "items": [
+    {
+      "id": "5f42ecaa0fac",
+      "title": "【BOND WORKS】Next.js14から15への移行対応 | リゾームのテックブログ",
+      "url": "https://tech.rhizome-e.com/entry/2026/07/28/102324",
+      "summary": "株式会社リゾームの土井（BOND WORKS）がNext.js 14→15移行を報告。手順は調査、ローカルでのアップグレード、公式codemod実行、残るエラーの手動修正、未反映箇所対応、移行手順書作成と実作業の振り返り。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-28T01:23:24.000Z",
+      "contentHash": "1d01a479202a"
+    },
+    {
+      "id": "a7f0d3101cb2",
+      "title": "AI前提でE2Eテストを設計し直した話 | アスエネテックブログのフィード",
+      "url": "https://zenn.dev/asuene/articles/e2e-test-ai-driven-management",
+      "summary": "アスエネの田代が、AIコーディングエージェント前提でE2Eテストを設計した経験を紹介。開発は高速化したが品質保証が追いつかず、AIにテスト作成・更新を任せる前提でのテストケース管理と人間・AIのレビュー分担について解説する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-28T01:00:11.000Z",
+      "contentHash": "87cbb8b10ae4"
+    },
+    {
+      "id": "718ab018f4c9",
+      "title": "Terragrunt × GitHub Actions で開発環境をワンクリック追加・自動削除する仕組み | Sumzap Engineering Blog",
+      "url": "https://tech.sumzap.co.jp/entry/dynamic-development-environment-provisioning",
+      "summary": "サムザップがGoogle Cloud上で動的に開発環境を追加・削除する仕組みを紹介。suffixで環境識別・資源分離、共有/使い捨てのコスト設計、OAuthコールバックのプロキシ化、セキュリティ配慮、TTLベースの自動クリーン(リーパー)と延命、日次巡回とSlack通知、恒常環境保護などを説明。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-28T01:00:00.000Z",
+      "contentHash": "195b55db035f"
+    },
+    {
+      "id": "cf5b05e5342b",
+      "title": "チームがうまく回らないのは自分のせいかもしれない｜トヨタの「自工程完結」「後工程はお客様」で考えてみる | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/jikotei-kanketsu-office-work/",
+      "summary": "自分の担当は終えたはずなのに相手から質問が来る状態を、トヨタの「自工程完結」は「不良を後工程に流す」と表現する。要は後工程に不良を回さず、前工程の不備をフィードバックして直してもらうことであり、前工程・自工程・後工程の視点を日常業務に当てはめることを提案する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-28T00:51:00.000Z",
+      "contentHash": "c472fd5ad835"
+    },
+    {
+      "id": "0a1415deea8a",
+      "title": "Weekly Google Cloud アップデート情報 - 2026年7月28日 | ソフトバンク テックブログ（公式）のフィード",
+      "url": "https://zenn.dev/softbank/articles/be7482ce0c22a8",
+      "summary": "2026年7月17日〜23日のGoogle Cloud週報。注目はGemini EnterpriseでGemini 3.6 Flashがグローバルリージョンで利用可能になったこと。詳しくはGoogle Cloudリリースノート参照。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-28T00:47:00.000Z",
+      "contentHash": "ce0609d2b39b"
+    },
+    {
+      "id": "7e0a9b0a36f4",
+      "title": "AI自動化が進まない本当の理由 ― AIではなく業務定義が足りない | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/nab20b0038cd0",
+      "summary": "株式会社SHIFTの能力開発部で検定や教育制度を開発している林稔明です。社員が現場で活躍できるよう、業務や作業を分解し行動を分析して能力・スキル向上に取り組んでいます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-28T00:41:00.000Z",
+      "contentHash": "1fe95467bb9f"
+    },
+    {
+      "id": "5016b24387ba",
+      "title": "Lambda コンソールから Claude Code にスキルを渡す「コーディングエージェント向けプロンプト」を試してみた | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/lambda-coding-agent-setup",
+      "summary": "2026年7月、AWS Lambdaコンソールに「コーディングエージェント向けセットアップコマンド」が追加。コマンドをコピーしてClaude Codeに貼るだけで、Lambda開発用のスキルやMCPサーバー設定が自動で作成され、手動設定やドキュメント確認が不要になる、と紹介する記事です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-28T00:39:01.000Z",
+      "contentHash": "c4f2a4db2d9c"
+    },
+    {
+      "id": "e99532abb8d4",
+      "title": "[社内勉強会資料公開] Claude Code 入門 #3 — CLAUDE.mdとメモリで自分仕様にする | 株式会社サイバーセキュリティクラウド　テックブログのフィード",
+      "url": "https://zenn.dev/cscloud_blog/articles/csc-claude-code-study-session-03",
+      "summary": "CSCのCloudFastenerでTAMを務める平木による、TAM向けClaude Code学習会第3回資料。第2回ではスラッシュコマンドやPermission Modeを使い、「コンテキスト」で会話を制御する方法を学んだ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-28T00:30:08.000Z",
+      "contentHash": "a771cfa1045b"
+    },
+    {
+      "id": "628be62353ae",
+      "title": "QA視点で考える、AI駆動開発のレビュー効率化 | techtekt（テックテクト） | パーソルキャリアのエンジニアブログ",
+      "url": "https://techtekt.persol-career.co.jp/entry/tech/260728_01",
+      "summary": "AI生成コードの品質管理手順と、品質向上に役立つ自動レビューやLinterの具体的手法（テスト、自動解析、スタイル統一、フィードバック運用）を紹介する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-28T00:22:57.000Z",
+      "contentHash": "63b65dd1066b"
+    },
+    {
+      "id": "fa65cd8c62e4",
+      "title": "【Tanium】Bandwidth Throttlesとは？Tanium環境で通信負荷を抑える仕組みを解説 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/07/28/090606",
+      "summary": "Taniumの帯域制御は、数千〜数万台規模の大量通信でネットワークを圧迫するリスクを防ぐため、通信種別ごとに割当帯域を細かく管理する機能で、仕組みと設計上の要点を解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-28T00:06:06.000Z",
+      "contentHash": "1d269bbc7065"
+    },
+    {
+      "id": "b11c0da685fd",
+      "title": "Netflix employee fired for sharing personal details in retreat trust exercise",
+      "url": "https://www.inc.com/amaya-nichole/netflix-company-retreat-sparked-lawsuit-experts-say-real-damage-may-be-just-beginning/91380349",
+      "summary": "ネットフリックスの社内リトリートでの不適切行為を巡り社員が訴訟を提起。専門家は、法的責任に加えブランド毀損や人材流出、社内文化の悪化、取締役会への追及など長期的な被害が広がる可能性を警告している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-27T23:21:37.000Z",
+      "contentHash": "4309fec8aae7"
+    },
+    {
+      "id": "6a454934fcba",
+      "title": "Benchmarking Opus 5 on SlopCodeBench",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
+      "summary": "UW–MadisonのSlopCodeBenchでOpus 5を評価。段階的に要件が開示される長期課題で、Opus5は部分セットで24%合格（Opus4.6は17%）。全モデルで冗長化・複雑化・コードスメルが増え、現行モデルは実務的な逐次開発に頼れない示唆。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-27T22:37:52.000Z",
+      "contentHash": "52dc0f1104b4"
+    },
+    {
+      "id": "c4d3cd8a8895",
+      "title": "X Money is launching in the US starting today",
+      "url": "https://www.theverge.com/tech/971649/x-money-launch-elon-musk",
+      "summary": "イーロン・マスクの決済サービス「X Money」が米国で本日開始。X Premium／Premium Plus会員向けで、デジタルウォレットやP2P送金、ユーザー名入りメタルVisa、Apple Wallet対応、X内無料送金、最大年利6%（Premiumは所定入金で上昇、Plusのみ対象等）。β招待制からの拡大。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-27T22:10:18.000Z",
+      "contentHash": "87e5d8770cca"
+    },
+    {
+      "id": "262c6f404ce0",
+      "title": "A missing underscore sent innocent man to prison for 18 months",
+      "url": "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/",
+      "summary": "2018年の捜査でKikの名前「fus__ro_dah」と誤って「fus_ro_dah」を照会され、カナダのブランダン・クレイム氏が2020年逮捕、2023年有罪、18か月服役。上告準備で誤りが判明し、控訴院が無罪を認定。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-27T22:10:15.000Z",
+      "contentHash": "563c3ba0935e"
+    },
+    {
+      "id": "688b06fb84f5",
+      "title": "Our position on open-weights models",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "summary": "Anthropic CEOのダリオ・アモデイは、同社はオープンウェイトモデルの禁止を主張しておらず、危険性のないオープンモデルは公共財だと明言。最大の懸念は権威主義国がより強力なAIを軍事・弾圧に悪用することで、保護主義的な禁止はそれを防げないと指摘した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-27T22:03:49.000Z",
+      "contentHash": "251f19c67623"
+    },
+    {
+      "id": "331541823962",
+      "title": "Razer’s analog Huntsman V3 Pro is over 20 percent off",
+      "url": "https://www.theverge.com/gadgets/971557/razer-huntsman-v3-pro-tkl-optical-analog-gaming-keyboard-deal-sale",
+      "summary": "Razer Huntsman V3 Pro TKLはダブルショットPBTキー採用のコンパクト有線キーボード。調整可能な光学スイッチで0.1〜4mmの作動点設定や高速リセットが可能。Snap Tapで入力優先化（CS2など一部で禁止）。Amazonで通常$159.99が$124.99。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-27T21:29:22.000Z",
+      "contentHash": "7772262d506d"
+    },
+    {
+      "id": "982ba5238e6b",
+      "title": "Unity CLI の使い方",
+      "url": "https://note.com/npaka/n/n00f0b44457a2",
+      "summary": "UnityはターミナルからEditorのインストール・モジュール追加・プロジェクト起動・アカウント認証・CLI更新ができる公式コマンドライン工具「Unity CLI」（experimental）を発表。CIやスクリプト、Unity Pipeline連携で実行中Editor操作も可能。導入手順と主要コマンド例を解説。",
+      "source": "npaka",
+      "publishedAt": "2026-07-27T20:56:28.000Z",
+      "contentHash": "7bff50dcc9e2"
+    },
+    {
+      "id": "94ec6bca6372",
+      "title": "Forth",
+      "url": "https://xkcd.com/3277/",
+      "summary": "この作品はクリエイティブ・コモンズ 表示-非営利 2.5 ライセンスで提供されています。漫画は複製・共有は自由ですが、販売など営利利用は禁止されています。詳細あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-27T20:15:50.000Z",
+      "contentHash": "d80261ad0847"
+    },
+    {
+      "id": "6f2bbff44af6",
+      "title": "Xbox’s huge outage even blocked games on disc",
+      "url": "https://www.theverge.com/games/971545/xbox-outage-disc-physical-games",
+      "summary": "日曜夜から始まったXboxの障害で、ログインやアプリ起動、ストア検索だけでなくディスク版を含むゲームの起動にも支障が出た。公式は午後11時ごろに障害を報告し、SNSでデジタル版やGame Passの起動エラーが確認された。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-27T19:53:50.000Z",
+      "contentHash": "34755e523783"
+    },
+    {
+      "id": "6a3debe546aa",
+      "title": "Nanoleaf&#8217;s colorful pegboard and shelf kit is half off",
+      "url": "https://www.theverge.com/gadgets/971535/nanoleaf-blocks-combo-xl-deal-sale",
+      "summary": "NanoleafのBlocks Combo XLは9枚の色変化LEDパネルと薄型棚・ペグボードのセット。通常$249.99が現在$99.99。棚は小物収納可(6.6/3.3lb)。パネルは配置・拡張可能でPaint ToolやAIで色生成、音楽・画面同期、Wi‑Fi/音声操作、物理コントローラー付き。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-27T19:24:55.000Z",
+      "contentHash": "d0e4dc4737f3"
+    },
+    {
+      "id": "650ade3611f8",
+      "title": "Self-contained highly-portable Python distributions",
+      "url": "https://gregoryszorc.com/docs/python-build-standalone/main/",
+      "summary": "本プロジェクトは自己完結で移植性の高いPython配布を生成します。多くの標準拡張や依存を同梱／静的リンクして実行時依存を最小化し、CPU命令や共有ライブラリを制限して幅広い環境で動作。成果物とメタデータで再構成可能で、PyOxidizer／PyOxyと連携して単一実行ファイル化も可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-27T18:43:31.000Z",
+      "contentHash": "c38500e86db9"
+    },
+    {
+      "id": "0c79a1c5a09b",
+      "title": "The Artist Who Colored Ghibli",
+      "url": "https://animationobsessive.substack.com/p/the-artist-who-colored-ghibli",
+      "summary": "申し訳ありませんが外部URLへ直接アクセスできません。記事本文を貼るか、要点（誰について・どの範囲を要約したいか）を教えてください。貼っていただければ200字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-27T18:32:09.000Z",
+      "contentHash": "da03faf5f850"
+    },
+    {
+      "id": "f37839a72ca1",
+      "title": "Judge Rejects Google's Attempt to DMCA Its Way Out of Being Scraped",
+      "url": "https://www.techdirt.com/2026/07/27/judge-rejects-googles-attempt-to-dmca-its-way-out-of-being-scraped/",
+      "summary": "匿名コメント：DMCAの迂回禁止は著作権保護外の作品には適用されないため、SearchGuardが著作権のないGoogle検索結果を遮断する場合、Googleの17 U.S.C. §1201請求は棄却されるべきという指摘。LLM出力など非著作物のスクレイピングに同理が及ぶか疑問を呈す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-27T18:15:35.000Z",
+      "contentHash": "d0831154dd00"
+    },
+    {
+      "id": "25cb3753ac01",
+      "title": "Canceling \"Hey\"",
+      "url": "https://chadnauseam.com/random/cancelling-my-hey",
+      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で日本語要約します。あるいは主要な箇所（見出し・要点）を教えていただければ、それを基に要約します。どちらがよろしいですか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-27T17:37:02.000Z",
+      "contentHash": "a58af117a1b1"
+    },
+    {
+      "id": "341a7200330d",
+      "title": "MAI-Cyber-1-Flash inside MDASH",
+      "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
+      "summary": "MAI-Cyber-1-FlashをMDASHに統合。複雑コードの脆弱性検出でCyberGym96%（+12pt）を達成し、90%のタスクを効率処理、難問の10%はGPT-5.4で対応。主要モデルと同等性能でコストを50%削減。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-27T16:52:22.000Z",
+      "contentHash": "6aec83c28b36"
+    },
     {
       "id": "511cf38ddcf3",
       "title": "Why China is giving away its best AI models",
       "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
-      "summary": "中国のMoonshotらが高性能LLM「Kimi K3」などの重みを無償公開し、米国ユーザーを狙ってOpenAIやGoogleらのクローズドモデル支配に挑戦。重み公開でローカル運用・改変・製品化が容易になり、シリコンバレーに危機感を与えている。",
+      "summary": "中国のMoonshotが開発したLLM「Kimi K3」が低コストで米国の上位モデルを上回る性能を示し、重みを無償公開して米ユーザーを標的にする計画が、米のクローズドモデル優位を揺るがす懸念を生んでいる。",
       "source": "The Verge",
       "publishedAt": "2026-07-27T16:51:50.000Z",
-      "contentHash": "0a4f822bfa15"
+      "contentHash": "bf497fd7371d"
     },
     {
       "id": "06808ddc1988",
       "title": "YouTube Premium will include Peacock starting next year",
       "url": "https://www.theverge.com/streaming/971452/youtube-premium-peacock-streaming-deal",
-      "summary": "YouTubeは2027年からPremiumでPeacockの広告あり番組・映画・ライブスポーツをアプリ内配信する多年度契約を締結。月額Premiumは15.99ドルで個別加入より割安。Peacockの成長を後押し。",
+      "summary": "YouTube Premium会員が2027年からNBCユニバーサルとの複数年契約でPeacockの広告付き番組・映画・ライブをYouTubeアプリで視聴可能に。標準$15.99/月にPeacockを同梱し、個別契約より割安。",
       "source": "The Verge",
       "publishedAt": "2026-07-27T16:18:52.000Z",
-      "contentHash": "eb5dde3b8234"
+      "contentHash": "c0090d8a5669"
     },
     {
       "id": "3c733b33c481",
       "title": "Amazon&#8217;s trying to launch a global satellite cellphone network in 2028",
       "url": "https://www.theverge.com/tech/971437/amazon-leo-direct-to-device-satellite-network",
-      "summary": "AmazonはFCCに5,105基のLEO衛星を2028年から展開する申請を提出。Globalstarの周波数を使い、音声・メッセージ・データ・緊急サービスの直接端末通信を携帯事業者やAppleと協力して提供する計画です。",
+      "summary": "AmazonがFCCにLEO衛星群（5,105基）申請を提出。2028年から端末直結で音声・メッセージ・データ・緊急サービスを携帯事業者と協業して提供する計画で、Globalstar買収とApple向け契約の引継ぎも公表。",
       "source": "The Verge",
       "publishedAt": "2026-07-27T15:40:38.000Z",
-      "contentHash": "30df6a20c868"
+      "contentHash": "865dbea82651"
     },
     {
       "id": "1729d3eeadbb",
-      "title": "This is my new favorite laptop, but thanks to RAMageddon it already went up in price by $800",
+      "title": "This is my new favorite laptop, but thanks to RAMageddon the price already went up by $800",
       "url": "https://www.theverge.com/tech/971160/framework-laptop-13-pro-intel-review",
-      "summary": "Framework Laptop 13 ProはDIY性や修理性を維持しつつ、明るいタッチ液晶や優れたハプティックトラックパッド、堅牢な筐体で欠点を改善した傑作だが、RAM価格急騰で約800ドル値上がりした。",
+      "summary": "Frameworkの13 Pro黒モデルは高価だが魅力的。DIY性と交換可能パーツは維持しつつ、明るいタッチ画面、非Appleでは最高クラスのハプティックトラックパッド、堅牢な作りと高性能Intelで従来機の欠点を多く改善している。",
       "source": "The Verge",
       "publishedAt": "2026-07-27T15:00:00.000Z",
-      "contentHash": "55d1cea9e3ca"
+      "contentHash": "550533025139"
     },
     {
       "id": "3b2720e9f744",
       "title": "Tariffs didn’t bring manufacturing jobs back to the US",
       "url": "https://www.theverge.com/podcast/971306/tariffs-liberation-day-ai-trade-shipping-jobs-canada",
-      "summary": "Altana CEOエヴァン・スミスが、関税は米国への製造回帰を招かなかったと指摘。混沌化するグローバル貿易の「新常態」と、エージェントAIがサプライチェーン管理と開発手法を変えたと語る対談。",
+      "summary": "Altana CEOのエヴァン・スミスと貿易混乱を議論。エージェント型AIでソフト開発と分析が進化し、米関税やイラン戦争で変わる規則をデータで可視化。製造業回帰は期待通りでない。",
       "source": "The Verge",
       "publishedAt": "2026-07-27T15:00:00.000Z",
-      "contentHash": "467d1e545786"
+      "contentHash": "fdd2646346ac"
     },
     {
       "id": "77985b13a17c",
       "title": "Samsung’s 27-inch QD-OLED gaming monitor is priced right at $299.99",
       "url": "https://www.theverge.com/gadgets/971332/samsung-qdoled-gaming-monitor-find-my-tracker-ps5-logitech-deal-sale",
-      "summary": "記事はQD-OLEDゲーミングモニターの値下がりを報じ、サムスンの27型1440p「G50SF」がAmazonで50ドル引きの299.99ドルになったと紹介。PS5ソフトやFind Myトラッカー等のセール情報も掲載。",
+      "summary": "QD-OLEDゲーミングモニターの価格が低下し、サムスンの27インチG50SFがAmazonで$299に。薄型で0.03ms応答、VRR対応、DisplayPortで最大180Hz（HDMIは144Hz）、ヘッドホン端子付き。$300以下は希少。",
       "source": "The Verge",
       "publishedAt": "2026-07-27T14:56:38.000Z",
-      "contentHash": "31f0b7fa8ecf"
+      "contentHash": "28fe50a7a2a1"
     },
     {
       "id": "8bab1d4c712b",
@@ -149,10 +374,10 @@
       "id": "53106f557eff",
       "title": "BlenderやMayaはCADと何が違う？ DCCとCADの用途を比較",
       "url": "https://note.com/npaka/n/n68f6d301a199",
-      "summary": "DCC（Blender/Maya）は見た目・動き重視のポリゴン／スカルプト中心で映像・ゲーム向けの制作ツール。CAD（Fusion/SOLIDWORKS）は寸法や拘束を厳密に扱う設計・製造向けのパラメトリック／ソリッドモデリングツール。用途・精度・データ構造が異なる。",
+      "summary": "BlenderやMayaのDCCは見た目・動き重視でポリゴンやスカルプトを使い映像・ゲーム向け制作に強く、CADは寸法・公差を厳密に管理するパラメトリック設計で製造・解析・図面作成向け。用途・データ構造・アニメーション機能が主な違い。",
       "source": "npaka",
       "publishedAt": "2026-07-27T08:52:40.000Z",
-      "contentHash": "a743cd2c7dfa"
+      "contentHash": "fbd90df8f715"
     },
     {
       "id": "c54cd4604ac2",
@@ -284,10 +509,10 @@
       "id": "806d72a1a5fd",
       "title": "Codex Micro の使い方",
       "url": "https://note.com/npaka/n/n077409095a5a",
-      "summary": "Codex MicroはWork LouderのChatGPT Codex向け小型コントローラー。6つのAgentキーでスレッド管理、コマンドキーやダイヤルで操作割当、Bluetooth対応、Inputソフトで最大6レイヤーやAppSense自動切替、LEDで状態表示が可能。",
+      "summary": "Codex MicroはWork LouderのChatGPT向け小型コントローラー。6つのAgentキーでスレッド切替と状態表示、Commandキーやダイヤルで操作割当が可能。Bluetooth/有線接続に対応し、専用Inputで最大6レイヤーやAppSenseによる自動切替など細かなカスタマイズができる。電源操作やペアリング方法も解説。",
       "source": "npaka",
       "publishedAt": "2026-07-27T00:42:45.000Z",
-      "contentHash": "1aa0320f4bde"
+      "contentHash": "0f15df63a04b"
     },
     {
       "id": "16797b055e4e",
@@ -527,10 +752,10 @@
       "id": "002f0d39ba83",
       "title": "Blenderで何が作れる？ ゲーム・アニメなど5つの活用例",
       "url": "https://note.com/npaka/n/nf35c969ab62e",
-      "summary": "Blenderはモデリング、質感設定、アニメーション、レンダリング、合成を一貫して行える総合3DCGソフト。ゲーム/VR用アセット作成・編集、映像やアニメのプレビズ・3Dアニメ、広告・商品や建築のビジュアル化、3Dプリント用モデル作成、実写合成・イラスト制作など多用途に使える。",
+      "summary": "Blenderはモデリング、質感設定、アニメーション、レンダリング、合成までこなす総合3DCGソフト。用途は①ゲーム/VRアセット②映像・アニメのプレビズと3Dアニメ③広告・商品・建築ビジュアル④3Dプリント用モデル⑤実写合成・イラスト制作で、編集から書き出しまで一貫して行えるのが強み。",
       "source": "npaka",
       "publishedAt": "2026-07-26T11:56:49.000Z",
-      "contentHash": "20a99123ed44"
+      "contentHash": "d350ba2f2b23"
     },
     {
       "id": "24a1a3cbb2bc",
@@ -608,19 +833,19 @@
       "id": "2a3ed98ae137",
       "title": "Claude Opus 5 の概要",
       "url": "https://note.com/npaka/n/n43bce8f77785",
-      "summary": "Anthropicが公開したClaude Opus 5は、コーディングや長時間のエージェント作業、データ分析に強い上位モデル。自己検証・反復修正が得意で、5段階のEffort調整、約2.5倍のFast mode、100万トークンの文脈窗口を備え、高性能を低コストで提供します。",
+      "summary": "『Claude Opus 5』の概要をまとめた記事です。Introducing Claude Opus 5の紹介文と、詳細を読むための「続きを読む」リンクが含まれています。",
       "source": "npaka",
       "publishedAt": "2026-07-26T02:14:07.000Z",
-      "contentHash": "53d11f8f0ff4"
+      "contentHash": "e859978ff35a"
     },
     {
       "id": "a001c773bf7d",
       "title": "img2threejs x Opus 5 を試す",
       "url": "https://note.com/npaka/n/naa426e03f57d",
-      "summary": "img2threejs x Opus5を試用しました。img2threejsは単一画像からThree.js用のTypeScriptコードを生成するAgent Skillで、パーツ分割やマテリアル生成、回転軸などのランタイム情報を出力します。Claude Desktop＋Opus5環境でスキルをクローンして実行し、マウス操作対応のモデルを作成しました。",
+      "summary": "img2threejs x Opus 5 を試した記録。img2threejsは1枚の参照画像からThree.js用TypeScriptコードを生成するAgent Skillで、パーツ単位で編集可能・マテリアルや比較表示に対応。Claude Desktop＋Opus5＋Python環境でSkillをクローンして実行し、画像からThree.jsモデルを作りマウス回転を追加して出力を確認した。",
       "source": "npaka",
       "publishedAt": "2026-07-26T01:05:25.000Z",
-      "contentHash": "52c292f1ed3d"
+      "contentHash": "a9b2f17e65ca"
     },
     {
       "id": "9376267761d9",
@@ -851,10 +1076,10 @@
       "id": "2ded79f9d226",
       "title": "ChatGPT Desktop で Blender MCP を試す",
       "url": "https://note.com/npaka/n/nf4f1b11bf395",
-      "summary": "ChatGPT DesktopとBlender公式MCPを連携し、自然言語でBlenderを操作する手順を紹介。ChatGPT Desktop/Codex・Claude・Blenderを導入しconfig.tomlでMCPを設定、Blenderに拡張を追加して接続・動作確認。",
+      "summary": "「ChatGPT Desktop」でBlender用ツール「Blender MCP」を実際に試したレポート。導入手順や操作感、利点・課題、動作結果と作者の感想を簡潔にまとめている。",
       "source": "npaka",
       "publishedAt": "2026-07-25T05:41:09.000Z",
-      "contentHash": "d1adb1593db8"
+      "contentHash": "33a24815d437"
     },
     {
       "id": "fb607ac4bdda",
@@ -869,10 +1094,10 @@
       "id": "053a67b7c7f4",
       "title": "Claude Desktop で Blender MCP を試す",
       "url": "https://note.com/npaka/n/n060bf656cf01",
-      "summary": "「Claude Desktop」とBlenderを連携し、自然言語でBlender操作ができる「Blender MCP」を試用。公式MCPサーバーをBlenderに導入し、Claude側でコネクタ追加・権限設定して接続。モデル作成指示→追加指示で調整でき、3Dキャラ作成に成功した報告です。",
+      "summary": "Claude Desktop上でBlenderのMCPプラグインを試用し、導入手順、操作感、処理速度や互換性の挙動、発生した問題と対策、総評を簡潔にまとめたレポートです。",
       "source": "npaka",
       "publishedAt": "2026-07-25T03:07:00.000Z",
-      "contentHash": "6eb40bfd64f0"
+      "contentHash": "79c1c1289d5e"
     },
     {
       "id": "288ab33f8ee6",
@@ -2345,10 +2570,10 @@
       "id": "b6c036e2206b",
       "title": "Here’s how to ask Gemini Live for help with anything you see.",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-live-camera-how-to/",
-      "summary": "Geminiアプリの「Live」でカメラを起動し、見えている物を見せるだけで修理手順や整理、画面共有による操作支援、買い物やインテリアの相談などリアルタイムで助言を得られます。",
+      "summary": "記事の全文かリンクを貼ってください。全文が長ければ要点部分を教えていただければ、それを基に200字以内で日本語要約します。要約のトーン（簡潔／詳報／専門向け）も指定できます。",
       "source": "Gemini",
       "publishedAt": "2026-07-22T16:00:00.000Z",
-      "contentHash": "29641c6407af"
+      "contentHash": "5fb2a9bd56b3"
     },
     {
       "id": "d1947d984030",
@@ -2489,10 +2714,10 @@
       "id": "a9dfe60b87c5",
       "title": "3 Google updates from Galaxy Unpacked 2026",
       "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "summary": "GoogleはGalaxy Unpackedで、Samsungの新型折りたたみ端末（Galaxy Z Fold8/Flip8）や時計・グラス向けにGemini IntelligenceなどのAI機能を搭載し、生産性向上や時間短縮を支援すると発表しました。",
+      "summary": "間もなく登場するサムスンの新しい折りたたみ端末、スマートウォッチ、スマートグラスで、ユーザーが生産性を高め時間を節約する方法を紹介しました。",
       "source": "Gemini",
       "publishedAt": "2026-07-22T13:00:00.000Z",
-      "contentHash": "53a7bab742e7"
+      "contentHash": "e2b7234afcff"
     },
     {
       "id": "932591afba7f",
@@ -2930,10 +3155,10 @@
       "id": "20883c2d7e6f",
       "title": "13 Google tips for a fun, productive summer off from college",
       "url": "https://blog.google/products-and-platforms/products/education/summer-productivity-tips-google-ai-tools/",
-      "summary": "Googleが紹介する大学の夏休み向け13のヒント。GoogleのAIツールで夏のやることを整理し、生産性を高め、次学期の準備やアカウント・データの安全管理を支援する方法を解説。",
+      "summary": "大学生がGoogleのAIツール（GeminiやAI Mode）を活用して、大学院受験やインターン対策、秋学期の履修・学習計画や課題作成を効率化する方法を紹介。",
       "source": "Gemini",
       "publishedAt": "2026-07-21T20:00:00.000Z",
-      "contentHash": "a9e11aa7544f"
+      "contentHash": "67815f2f3afa"
     },
     {
       "id": "c8cfea0372b0",
@@ -3101,10 +3326,10 @@
       "id": "09b59cb95c87",
       "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-      "summary": "GoogleがGemini新モデル「Gemini 3.6 Flash」「3.5 Flash‑Lite」「3.5 Flash Cyber」を発表。トークン効率向上、低遅延、高信頼性で大規模AIエージェントの実運用に最適化。",
+      "summary": "新しいGeminiモデルが発表されました。ラインアップはGemini 3.6 Flash、Gemini 3.5 Flash‑Lite、Gemini 3.5 Flash Cyberの3機種です。",
       "source": "Gemini",
       "publishedAt": "2026-07-21T15:00:00.000Z",
-      "contentHash": "b758ce5422ce"
+      "contentHash": "9050584e2168"
     },
     {
       "id": "3671fbd92622",
@@ -3578,10 +3803,10 @@
       "id": "85a5cc9c947a",
       "title": "5 ways to build a side hustle with Gemini",
       "url": "https://blog.google/products-and-platforms/products/gemini/launch-business-with-gemini/",
-      "summary": "記事はGeminiを使った副業の立ち上げ方を5つ紹介。事業計画や市場調査、ブランディング、物流・顧客管理などを自動化し、情熱プロジェクトの収益化を支援する。",
+      "summary": "副業の立ち上げにGoogleのAI「Gemini」を活用し、事業アイデアの設計、顧客や市場調査、在庫・配送などの物流自動化を行って効率的に運営できると紹介。",
       "source": "Gemini",
       "publishedAt": "2026-07-20T19:00:00.000Z",
-      "contentHash": "58d35177a11c"
+      "contentHash": "688cb4b26706"
     },
     {
       "id": "5569dd99533f",
@@ -6683,10 +6908,10 @@
       "id": "90c6b2e30b40",
       "title": "How Gemini is speaking the language of Southeast Asia",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-southeast-asia-report-2026/",
-      "summary": "Geminiアプリの東南アジアにおけるアクティブ利用者がこの1年で2倍以上に増加。記事は同地域でのチャットボットの導入状況と日常での利用例を紹介しています。",
+      "summary": "Geminiが東南アジアで普及拡大中。現地語に強いこととモバイル優先の人口構成が普及を後押ししている。",
       "source": "Gemini",
       "publishedAt": "2026-07-14T04:30:00.000Z",
-      "contentHash": "e0b6804da3bb"
+      "contentHash": "8ea2bf8b93d0"
     },
     {
       "id": "5a052b299e3a",
@@ -7943,10 +8168,10 @@
       "id": "fbd6ba2fa64f",
       "title": "Here’s how to make study notebooks in the Gemini app.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
-      "summary": "Geminiアプリの「スタディノート」は、学習目標に合わせた短いレッスン、理解度チェックの練習問題、進捗ダッシュボードで弱点を把握し効率的に学べる機能。作り方は動画で解説。",
+      "summary": "試験勉強の始め方に悩む人向けに、Geminiアプリの新機能「Study notebooks」が学習内容を整理し、効率的に学べるよう支援する。",
       "source": "Gemini",
       "publishedAt": "2026-07-10T16:00:00.000Z",
-      "contentHash": "b8ad0a996972"
+      "contentHash": "64df5e0b1b2f"
     },
     {
       "id": "39404e835ddc",
@@ -8775,231 +9000,6 @@
       "source": "npaka",
       "publishedAt": "2026-07-08T23:48:25.000Z",
       "contentHash": "627dec5a6386"
-    },
-    {
-      "id": "0956ebd23de8",
-      "title": "Meta is reportedly working on smart glasses that would be recording all the time",
-      "url": "https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai",
-      "summary": "Metaが常時録音し数秒ごとに写真を撮る「スーパーセンシング」試作メガネを開発中。撮った音声や画像をAIに問えるが、生データは保存せず抽出したメタデータのみ送信する方式を想定し、プライバシー懸念が残る。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-08T22:37:25.000Z",
-      "contentHash": "a66ceb35a5f8"
-    },
-    {
-      "id": "04a5e4492064",
-      "title": "Get a $30 credit when you reserve Samsung’s upcoming Galaxy phones",
-      "url": "https://www.theverge.com/gadgets/962999/samsung-unpacked-z-fold-flip-wide-reserve-credit-preorder",
-      "summary": "サムスンは7月22日のGalaxy Unpackedで改良版Flip/Foldに加え、より幅広い新型折りたたみを発表予定。事前に関心登録すると、発表後の予約購入時に使える30ドルのストアクレジットが受け取れるが、予約時のみ利用可能。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-08T20:00:00.000Z",
-      "contentHash": "1859c5893293"
-    },
-    {
-      "id": "69b0ae6eeab5",
-      "title": "Microsoft&#8217;s Xbox reset is pivoting Obsidian to make Fallout instead of Avowed",
-      "url": "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs",
-      "summary": "MicrosoftのXbox“リセット”でObsidianが方針転換。複数プロジェクトを中止し『Avowed』続編を取りやめ、新作Falloutを開発。『New Vegas』監督のジョシュ・ソーヤーが指揮、レイオフも実施。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-08T18:50:27.000Z",
-      "contentHash": "32688f469d60"
-    },
-    {
-      "id": "9f67f83fa82e",
-      "title": "America’s cheapest new EV is smaller than a ping-pong table and tops out at 19mph",
-      "url": "https://www.theverge.com/transportation/962753/fiat-topolino-ev-us-price-specs-micromobiilty",
-      "summary": "フィアットの新型EV「トポリーノ」は米国で最安の$13,995。サイズは卓球台より小さく、最高時速約19mph（約30km/h）、航続46マイルで、実質的にマイクロモビリティだ。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-08T17:57:53.000Z",
-      "contentHash": "6c47e59f9cd2"
-    },
-    {
-      "id": "49a24f704ed3",
-      "title": "GPT-Live の概要",
-      "url": "https://note.com/npaka/n/n0207cdf3c2bc",
-      "summary": "GPT-Liveは同時に聞き話せるフルデュプレックス音声モデルで、相づちや言い直しに対応し自然な会話を実現。リアルタイム翻訳や複雑処理のテキストモデル委譲にも対応。段階的にVoice機能へ展開（有料はGPT‑Live‑1、無料はmini）。重要情報は要確認。",
-      "source": "npaka",
-      "publishedAt": "2026-07-08T17:47:39.000Z",
-      "contentHash": "1784b4f3ae14"
-    },
-    {
-      "id": "7a227d92620a",
-      "title": "Cockroaches will learn to fear my SwitchBot Bot Rechargeable",
-      "url": "https://www.theverge.com/gadgets/962163/switchbot-bot-rechargeable-hands-on-review",
-      "summary": "著者はゴキブリ対策でSwitchBot Bot Rechargeable（$33.99）を導入。粘着でスイッチ近くに取り付ける小型ロボットアームが物理的にボタンを押し、照明やコーヒーメーカーなどの家電を遠隔・自動操作できると紹介しています。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-08T17:30:00.000Z",
-      "contentHash": "478cbdff867e"
-    },
-    {
-      "id": "2cfbd42bde63",
-      "title": "If Microsoft sold off Xbox, who would even buy it?",
-      "url": "https://www.theverge.com/games/962837/microsoft-xbox-spin-off-sell-divest-layoffs-asha-sharma",
-      "summary": "MicrosoftがXboxで合計3,200人（1,600人即時、1,600人来年度）削減と4スタジオ閉鎖を発表。CEOは事業を「健全でない」とし大型タイトル重視へ。AI優先で売却の可能性もあるが買い手は限られる。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-08T17:10:05.000Z",
-      "contentHash": "0944b6a0dce3"
-    },
-    {
-      "id": "ce4f7eef06a4",
-      "title": "Twelve South’s AirFly Pro is a great travel companion, and it&#8217;s on sale for $40",
-      "url": "https://www.theverge.com/gadgets/962910/twelve-south-airfly-pro-summer-travel-gadgets-deal-sale",
-      "summary": "Twelve SouthのAirFly ProがAmazonで39.99ドル（15ドル引き）でセール中。機内エンタメでワイヤレスイヤホンを使え、送受信両対応などSEより便利な機能を備えたモデルで、今年の最安値。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-08T17:09:28.000Z",
-      "contentHash": "fc642843184e"
-    },
-    {
-      "id": "1787c2acbf8b",
-      "title": "ChatGPT’s upgraded voice mode is better at shutting up",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
-      "summary": "OpenAIが音声対応新モデルGPT-Live-1を発表。話しながら聞けて割り込まず一時停止に待機、複雑な問はGPT-5.5等に自動移譲し、天気や株・試合は生成画像で補助、精度向上。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-08T17:00:00.000Z",
-      "contentHash": "7c36a48ef71f"
-    },
-    {
-      "id": "5f980433ba77",
-      "title": "3 ways this coffee shop is growing with Gemini",
-      "url": "https://blog.google/products-and-platforms/products/gemini/coffee-shop-gemini-features/",
-      "summary": "サンフランシスコのHenry’s House of CoffeeでHrag Kalebjianは、Googleの生成AI「Gemini」を使い、グラフィック制作、メール配信、売上予測やカスタムコード作成を自動化して業務時間を削減している。",
-      "source": "Gemini",
-      "publishedAt": "2026-07-08T16:00:00.000Z",
-      "contentHash": "fa3c1b8221e2"
-    },
-    {
-      "id": "4f744bee9310",
-      "title": "Chatto is now Open Source",
-      "url": "https://www.hmans.dev/blog/chatto-is-open-source",
-      "summary": "Chattoがオープンソース化され自己ホスト可能に。Homebrewで即導入、単一実行ファイルでフロント提供の軽快なUI。個人データはユーザー鍵で暗号化・削除時破棄。サーバーはコミュニティ単位で非連合・追跡なし。複数サーバー接続可。音声・映像通話（画面共有）もE2EE対応。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-08T15:19:50.000Z",
-      "contentHash": "06442d4fed65"
-    },
-    {
-      "id": "14048d96a061",
-      "title": "This jumping $800 robot camera dog filled me with joy",
-      "url": "https://www.theverge.com/gadgets/962538/mondo-robotics-beni-robot-dog-preview",
-      "summary": "元DJIスタッフらの深圳Mondo Roboticsが開発した二足ロボ犬カメラ「Beni」。自動追尾・撮影やジャンプ、転倒後の復帰が可能で楽しいが改良点あり。Kickstarter約$600、店頭約$800。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-08T15:00:00.000Z",
-      "contentHash": "a7d4d05f452d"
-    },
-    {
-      "id": "5321e7c6721f",
-      "title": "The whole Pixel line could get more expensive this year",
-      "url": "https://www.theverge.com/tech/962781/google-pixel-11-lineup-price-increase",
-      "summary": "噂：Googleの新Pixelが値上げへ。Pixel Watch 5は41mmがWi‑Fi版399ドル、LTE版499ドル（前世代比＋50ドル）、45mmは429/529ドル（＋30ドル）。Pixel 11は128GB版を廃止し、256GBで€999からと報じられる。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-08T14:43:13.000Z",
-      "contentHash": "06523503d1ae"
-    },
-    {
-      "id": "f3a32b098767",
-      "title": "Gaming laptops are too expensive right now, but this one’s a good value",
-      "url": "https://www.theverge.com/gadgets/962754/msi-gaming-laptop-ethernet-switch-pc-steam-game-deal-sale",
-      "summary": "ゲーミングノートはRAMやストレージ高騰で割高だが、MSIのKatana 15（2025）が注目の買い得品。15.6型1440p、Core i7‑14650HX、RTX 5060、16GB DDR5、1TB SSDがAmazonで約1,134ドル。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-08T14:43:00.000Z",
-      "contentHash": "a686a8a4841e"
-    },
-    {
-      "id": "a7e50a8d9059",
-      "title": "ロボットのrawデータをLeRobot形式に変換する手順",
-      "url": "https://note.com/npaka/n/n76801a83a5ca",
-      "summary": "ロボットの収集直後の未加工データ（rosbag＋カメラMP4＋metadata）を正本として保存し、そこから学習用のLeRobot形式を作成する手順。rosbagは低次元データや同期確認に有用で、容量対策として映像はMP4に分離しframe_timestamps.jsonでフレームと時刻を対応付ける。",
-      "source": "npaka",
-      "publishedAt": "2026-07-08T14:23:35.000Z",
-      "contentHash": "aa5e7bb51367"
-    },
-    {
-      "id": "9588f0d947e9",
-      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
-      "url": "https://mistral.ai/news/robostral-navigate/",
-      "summary": "Robostral Navigateは単眼RGBカメラのみで動作する8B航行モデル。シミュレーション学習でR2R-CE unseenで76.6%を達成し、複数センサー機を上回る。強化学習とポイントベースナビで多種ロボ・未学習障害に適応し実環境で高効率に自律移動を実現。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-08T14:09:17.000Z",
-      "contentHash": "acfe163c5e42"
-    },
-    {
-      "id": "db95a59a2ddc",
-      "title": "FDA rejects petition to set PFAS limits in food",
-      "url": "https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food",
-      "summary": "米食品医薬品局(FDA)が食品中PFASの許容量設定を求める訴えを却下。EPAや研究は食品を主要な曝露源と指摘し、汚染食品の1食分が多杯の汚染水相当の濃度になる例も。環境団体は失望し提訴予定。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-08T13:35:59.000Z",
-      "contentHash": "df4d084b4dc0"
-    },
-    {
-      "id": "e00d55023af7",
-      "title": "Our approach to government and national security partnerships",
-      "url": "https://openai.com/index/government-national-security-partnerships",
-      "summary": "OpenAIは政府・国家安全保障との協力に関し、責任あるAI運用、民主的説明責任、公衆の安全確保を柱とした方針で関係を構築すると説明している。",
-      "source": "OpenAI",
-      "publishedAt": "2026-07-08T13:30:00.000Z",
-      "contentHash": "72139f9ada65"
-    },
-    {
-      "id": "50dc2b5268ed",
-      "title": "OpenBSD has a use-after-free allowing local privilege escalation to root",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
-      "summary": "OpenBSD（～7.9）のsys/kern/sysv_sem.cにuse-after-freeの脆弱性（CVE-2026-57589）があり、ローカルでroot権限昇格が可能。NVDは情報補完中。MITREのCVSS3.1は7.4。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-08T13:24:52.000Z",
-      "contentHash": "178a2781dd37"
-    },
-    {
-      "id": "c3b103b19d2b",
-      "title": "Cloudflare Meerkat - Globally distributed consensus",
-      "url": "https://blog.cloudflare.com/meerkat-introduction/",
-      "summary": "Cloudflareは330以上の拠点で強整合性と高可用性を両立するため、Raftのリーダー/タイムアウト依存を回避し、全レプリカが書き込み可能なEPFLのQuePaxaを採用した分散合意サービスMeerkatを開発した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-08T13:18:03.000Z",
-      "contentHash": "e6b4a2d8f409"
-    },
-    {
-      "id": "35c7ca4d52a2",
-      "title": "Fi&#8217;s Starlink-enabled pet tracker found my dog when LTE couldn&#8217;t",
-      "url": "https://www.theverge.com/tech/962224/fi-ultra-dog-tracker-starlink-t-satellite-specs-price-release-date",
-      "summary": "Fi Ultraは米国初のStarlink対応ペットトラッカー。GPS/LTEに加えT-Mobileの衛星経由でSpaceXの低軌道衛星を使いセル圏外でも追跡可能。既存首輪装着可。端末$199（+起動$20）、年額$189。電池持ちが短いのが懸念。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-08T13:00:00.000Z",
-      "contentHash": "ded197ff667b"
-    },
-    {
-      "id": "e9167e656930",
-      "title": "Separating signal from noise in coding evaluations",
-      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "summary": "OpenAIの新分析は、人気のコーディングベンチマーク「SWE‑Bench Pro」に問題点を指摘し、AIモデル評価の信頼性や正確性に疑問を投げかけている。",
-      "source": "OpenAI",
-      "publishedAt": "2026-07-08T13:00:00.000Z",
-      "contentHash": "6eea4ab10f93"
-    },
-    {
-      "id": "aab05cee823c",
-      "title": "It seems that the age of reading might be a short anomaly in human history",
-      "url": "https://www.theatlantic.com/magazine/2026/08/reading-crisis-postliterate-age/687618/",
-      "summary": "ローズ・ホロウィッチは、普遍的識字が当然視された楽観が誤りで、読書の時代は人類史の短い例外かもしれないと論じる。アレクサンドリア図書館の興隆と滅亡を引き、知の蓄積と喪失、現代の読書衰退の到来を示唆する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-08T12:08:37.000Z",
-      "contentHash": "1e84d5a730e9"
-    },
-    {
-      "id": "b3d81fb68c4d",
-      "title": "【セッションレポート】「実践!Amazon RDS と Amazon Aurora のコスト最適化とパフォーマンス向上」 | Fenrir Engineers",
-      "url": "https://engineers.fenrir-inc.com/entry/2026/07/08/210511",
-      "summary": "AWS Summitのセッションは、RDS/Auroraで性能向上とコスト最適化は両立可能と説明。CloudWatch Database Insightsで問題SQLや負荷を可視化し、SQL最適化とGraviton世代移行でコンピュート費用を約46%削減した事例を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-08T12:05:11.000Z",
-      "contentHash": "b8f486384ba8"
-    },
-    {
-      "id": "f587fa8dca53",
-      "title": "The Steam Machine fits my TV, my desk, and my life",
-      "url": "https://www.theverge.com/games/962561/valve-steam-machine-tv-desk-life",
-      "summary": "筆者はValveの新しいSteam Machineを数週間使用。レビューは6点だが、Steamライブラリやクラウドセーブ、Steamコントローラ、モッズ対応、画質の良さなどを評価し、1,049ドルでも購入したいと述べる。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-08T12:00:00.000Z",
-      "contentHash": "a4af2f397a5c"
     }
   ]
 }
