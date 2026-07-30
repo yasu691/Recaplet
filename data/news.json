@@ -1,6 +1,177 @@
 {
-  "generatedAt": "2026-07-29T17:29:59.825Z",
+  "generatedAt": "2026-07-30T02:53:28.016Z",
   "items": [
+    {
+      "id": "a0af380eeb0d",
+      "title": "Planner・Generator・Evaluatorの3つのエージェントで2048ゲームを作ってみた | エムティーアイ エンジニアリングブログ",
+      "url": "https://tech.mti.co.jp/entry/2026/07/30/103000",
+      "summary": "Microsoft Build 2026のデモを再現し、Planner・Generator・Evaluatorの3エージェントで「build me 2048」一行から2048を自動生成。Evaluatorがブラウザで動作検証しPASS/FAIL判定。Anthropic（Claude）とPlaywrightで実装し、Foundry経由でAzureと連携、環境準備やコード手順を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-30T01:30:00.000Z",
+      "contentHash": "2b889b42862e"
+    },
+    {
+      "id": "ccf55c1e7060",
+      "title": "OJT 2025-09：Photogrammetry Toolkit VRデモツールの開発 | Morpho Tech Blog",
+      "url": "https://techblog.morphoinc.com/entry/2026/07/30/103000",
+      "summary": "2025年9月入社の3名が2か月のOJTで、PGToolkitのフォトグラメトリデータをリアルタイム表示するVRデモを開発。3D Gaussian Splatting採用で画質と低遅延を両立し、Snugbox/SH削減やSpeedy-splat枝刈り、RANSAC床検出で描画軽量化と快適な移動UIを実現。管理サーバ(Streamlit/Flask/SQLite)とGodotビューア構成で性能改善と今後の課題を報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-30T01:30:00.000Z",
+      "contentHash": "675e4f9bf296"
+    },
+    {
+      "id": "e3953e50aa7c",
+      "title": "Amazon Bedrock AgentCore がテレメトリデータの単一ロググループ統合に対応したので試してみた | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/agentcore-telemetry-single-log-group",
+      "summary": "Amazon Bedrock AgentCoreは2026年7月の更新で、各エージェントの全テレメトリを単一のCloudWatchロググループに集約。デバッグが簡単になり、エージェント単位でのIAM制御やカスタマーマネージドキー暗号化が可能に。既存エージェントは環境変数で有効化。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-30T01:09:51.000Z",
+      "contentHash": "4181eacf00c8"
+    },
+    {
+      "id": "c25764c2d33a",
+      "title": "なぜWebサイトでは「画像最適化」が重要なのか？ シリコンバレーからImgixが届ける、攻めのUX戦略 | Qiita Zine",
+      "url": "https://qiita.com/official-columns/interview/202607-imgix/",
+      "summary": "画像最適化はUXと表示速度を両立する重要課題だが後回しにされがち。ImgixはURLベースで1枚の原画をリアルタイム変換し、160超のパラメータやAIで制作・運用を効率化すると金本太一が語る。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-30T01:00:38.000Z",
+      "contentHash": "2a350b101c78"
+    },
+    {
+      "id": "1143b3508c11",
+      "title": "「博士号への挑戦を、Sansanが本気で後押しする」 社会人博士支援制度をリニューアルした理由 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/07/30/100000",
+      "summary": "Sansanは2026年7月に社会人博士支援制度を刷新。週4日業務・週1日研究を維持しつつ報酬を据え置き経済負担を軽減。審査で学位取得見込みや業務での事業貢献を確認し、研究成果の事業実装を加速する狙い。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-30T01:00:00.000Z",
+      "contentHash": "d735914f0086"
+    },
+    {
+      "id": "29e6af20600d",
+      "title": "Claude Codeのセッション管理、自作という選択肢もあり——hooksを理解しながら作ってみた | エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/claude-code-hooks-diy",
+      "summary": "Claude Codeの多数セッションで“セッション迷子”になり、hooksとtty×AppleScriptを使って各セッション状態を収集・ブラウザ上のカンバンで可視化するローカルツールを自作。hooksの制約やフォーカス制御の工夫、社内展開の様子も紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-30T01:00:00.000Z",
+      "contentHash": "c76ecfc910a8"
+    },
+    {
+      "id": "6a5e09a612ce",
+      "title": "Nutanixクラスタのノード拡張 Part5：拡張後の確認 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/07/30/093515",
+      "summary": "Nutanixクラスタの拡張後確認方法。Dell XC想定。Prismのハードウェア概要でノード数、Home→ストレージで容量増加を確認し、任意のCVMで'cluster status'を実行して追加ノードが全てupであることを確認する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-30T00:35:15.000Z",
+      "contentHash": "1d615610a87d"
+    },
+    {
+      "id": "340a8ec7b54c",
+      "title": "プロダクト開発の牽引者が語る――パーソルキャリアの強みと課題、そして「AIネイティブ組織」がもたらす未来 | techtekt（テックテクト） | パーソルキャリアのエンジニアブログ",
+      "url": "https://techtekt.persol-career.co.jp/entry/member/260730_01",
+      "summary": "白石久也（2025年入社）は豊富なプロダクト経験を活かし、doda等の改革を推進。強みは豊富な顧客接点と資産、課題は歴史が生んだ事業・システムの複雑性。顧客志向の迅速開発と人×AIの「AIネイティブ組織」で転職支援を進化させる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-30T00:30:54.000Z",
+      "contentHash": "1a51c4e261a6"
+    },
+    {
+      "id": "4050a49303e9",
+      "title": "Railsセキュリティ修正8.1.3.1、8.0.5.1、7.2.3.2がリリースされました | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_07_30/159239",
+      "summary": "Rails 7.2.3.2/8.0.5.1/8.1.3.1が公開。Active Storageとlibvips（ruby‑vips含む）利用時の重大RCE(CVE‑2026‑66066)を修正。Debian/Ubuntuや標準Dockerが影響。Vips.block_untrusted(true)やVIPS_BLOCK_UNTRUSTED=trueで対処。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-30T00:15:04.000Z",
+      "contentHash": "bdb0d6329347"
+    },
+    {
+      "id": "34c588be7f45",
+      "title": "Keeper管理者アカウント運用復旧不能リスクにどう備え、特権IDをどう設計するか | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/keeper-admin-account-management/",
+      "summary": "KeeperはZero-Knowledge設計でベンダーが復号鍵を持たないため、管理者のマスターパスワード喪失は復旧不可。対策として管理者を最低2名にし、職務ベースのロール設計・退職時ハンドリングやAccount Transfer Policyを事前設定、SSO不能時のBreak Glass管理者も用意することを推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-30T00:12:00.000Z",
+      "contentHash": "60d57b7f2ed3"
+    },
+    {
+      "id": "95d6f9873322",
+      "title": "Microsoft confirms Copilot ‘super app’ coming this year",
+      "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
+      "summary": "マイクロソフトは今年、Copilotのチャット、コーディング（GitHub Copilot）、自律エージェント機能を統合する「スーパーアプリ」を投入するとCEOサティア・ナデラが発表。個人・法人向け両対応。OpenAIも類似のChatGPT Workを発表。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-29T22:17:38.000Z",
+      "contentHash": "38a9ffa60f84"
+    },
+    {
+      "id": "4efbbdb7c9d7",
+      "title": "Mark Zuckerberg is planning a big push into personal AI agents",
+      "url": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
+      "summary": "メタのザッカーバーグは個人向けAIエージェントを大々的に推進予定。24/7で健康・人間関係・財務など個人の目標を支援し、一般消費者が使いやすい“箱から出して動く”製品にする方針。詳細は近日発表。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-29T21:48:07.000Z",
+      "contentHash": "4d3a046a269e"
+    },
+    {
+      "id": "1f19ae70158e",
+      "title": "Qualcomm is raising phone chip prices starting September 1st",
+      "url": "https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings",
+      "summary": "クアルコムは9月1日から全プロセッサの値上げを発表。二桁％の上昇とも報じられ、同発表はメモリ価格高騰などで携帯事業の売上が前年比20％減と報告された中で行われた。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-29T21:41:56.000Z",
+      "contentHash": "44e13b48486a"
+    },
+    {
+      "id": "1d01fdd20f83",
+      "title": "xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law",
+      "url": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit",
+      "summary": "xAIが5月成立の「ヌディフィケーション」規制法を巡りミネソタ州司法長官を提訴。罰則でGrokの画像編集機能が制限され言論の自由（第1修正）を侵すと主張。1月には未成年含む大量の性的ディープフェイクを配信して問題化。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-29T21:06:52.000Z",
+      "contentHash": "0af973336fa0"
+    },
+    {
+      "id": "ea6866eaa792",
+      "title": "Cyberpunk 2077 packs a lot of fun into its discounted $20 price",
+      "url": "https://www.theverge.com/gadgets/972777/cyberpunk-2077-deal-sale",
+      "summary": "CD Projekt Redが不具合修正やDLC「Phantom Liberty」を加えて大幅に改善した『Cyberpunk 2077』が各プラットフォームで値下げ中。通常$59.99が約$18、DLC同梱版も約$33と、約20ドルで遊ぶ価値あり。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-29T21:02:50.000Z",
+      "contentHash": "a5583f1e21d5"
+    },
+    {
+      "id": "445cd901052b",
+      "title": "Xbox revenue drops 10 percent as Microsoft&#8217;s cloud and AI business surges",
+      "url": "https://www.theverge.com/tech/972738/xbox-revenue-microsoft-earnings-q4-2026",
+      "summary": "Microsoftのクラウド収入が590億ドルに急増する一方、Xboxのコンテンツ・サービス収入は10%減、ハード売上は13%減。責任者アシャ・シャルマはレイオフやCompulsion・Double Fine含む4スタジオの分社化を含む「リセット」を実行し、Game Pass値下げや広告付きクラウド試験、新作の独占化を進めている。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-29T20:26:48.000Z",
+      "contentHash": "3e3a6ecbb4dd"
+    },
+    {
+      "id": "179e6ecaf5e0",
+      "title": "What’s the catch with the Apple Upgrade program?",
+      "url": "https://www.theverge.com/tech/972583/apple-upgrade-program-deal",
+      "summary": "AppleのUpgradeプログラムは、iPhone・iPad・Mac・Watchを低月額で1〜3年リースでき、総支払額が端末価格を超えない（場合により割安）とする。だが得かは使い方次第で、期限内の継続的な支払いなど注意点がある。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-29T18:40:06.000Z",
+      "contentHash": "59361bdcaab7"
+    },
+    {
+      "id": "c0b0bd6bcc7e",
+      "title": "OpenAI president says it&#8217;s &#8216;building a family of devices&#8217; for its AI chatbots",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview",
+      "summary": "OpenAI社長グレッグ・ブロックマンは、AIと対話するための「デバイス群」を開発中と発表。スマートスピーカーやウェアラブルの噂は未確認で発売日未定だが「間もなく」と述べ、対話中心の操作時代を予想。Appleの訴訟や他社機密への関心は否定した。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-29T18:15:02.000Z",
+      "contentHash": "a48f8fb463f0"
+    },
+    {
+      "id": "9bd11ec670af",
+      "title": "The US government just banned Roombas",
+      "url": "https://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums",
+      "summary": "米政府が「高度ロボット機器」の輸入を禁止。ヒューマノイドだけでなくロボット掃除機（Roomba等）も対象。既存承認品は販売可だが、新規外国製ロボットは輸入制約や米国内生産の要求が強まる。",
+      "source": "The Verge",
+      "publishedAt": "2026-07-29T18:13:09.000Z",
+      "contentHash": "e5c90b187ec7"
+    },
     {
       "id": "126ea65cf379",
       "title": "Full school day cellphone bans are more popular than ever",
@@ -54,6 +225,15 @@
       "source": "Gemini",
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "contentHash": "8c1b551b4ad0"
+    },
+    {
+      "id": "265c6a0134ab",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "summary": "GPT-5.6がARC-AGI-3で成績と効率を改善した要点：2つのAPI設定を調整して推論情報を保持し、出力のコンパクションを可能にすることでスコアと処理効率を向上させた。",
+      "source": "OpenAI",
+      "publishedAt": "2026-07-29T15:00:00.000Z",
+      "contentHash": "170c4494a713"
     },
     {
       "id": "599eb5afec52",
@@ -470,13 +650,22 @@
       "contentHash": "3e39c3807dd6"
     },
     {
+      "id": "eb71f165025c",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "summary": "GPT-5.6はモデル設計、推論処理、エージェント型ワークフローでの効率を改善し、コストあたりより有用な知能を提供することを目指しています。",
+      "source": "OpenAI",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "contentHash": "91e2b06c6d8d"
+    },
+    {
       "id": "f3aa1e96a5f4",
       "title": "tmux の使い方",
       "url": "https://note.com/npaka/n/n7669174f159f",
-      "summary": "tmuxは端末のマルチプレクサで、SSH切断後も処理を継続・再接続でセッション復帰可能。インストール、起動、デタッチ/アタッチ、セッション管理、ウィンドウ・ペイン分割、コピーモードや名前変更など基本操作を解説。",
+      "summary": "tmuxはターミナル多重化ツールで、SSH切断後も処理継続や再接続が可能。インストール・起動後はCtrl+Bをプレフィックスに各操作を実行。セッションの作成・一覧・終了、デタッチ/アタッチ、ウィンドウやペインの作成・分割・移動、コピーモードによるログ参照やセッション/ウィンドウ名の変更など基本操作を備える。",
       "source": "npaka",
       "publishedAt": "2026-07-28T23:50:32.000Z",
-      "contentHash": "a18dfe0adb85"
+      "contentHash": "5e0aedfa7d95"
     },
     {
       "id": "5b40522251cb",
@@ -1328,10 +1517,10 @@
       "id": "53106f557eff",
       "title": "BlenderやMayaはCADと何が違う？ DCCとCADの用途を比較",
       "url": "https://note.com/npaka/n/n68f6d301a199",
-      "summary": "BlenderやMayaなどのDCCは映像・ゲーム向けで見た目や動きを重視し、ポリゴンやスカルプト、豊富なレンダ・アニメ機能を持つ。一方FusionやSOLIDWORKS等のCADは寸法や拘束で正確に設計し製造・解析向け。用途で使い分ける。",
+      "summary": "DCC（Blender/Maya）は映像・ゲーム向けで見た目や動きを重視し、ポリゴンやスカルプトで制作・アニメ・レンダ機能が豊富。CAD（Fusion/SOLIDWORKS等）は寸法や公差を厳密に扱う設計向けで、パラメトリックな数値管理とソリッド表現により製造・解析に使われる。",
       "source": "npaka",
       "publishedAt": "2026-07-27T08:52:40.000Z",
-      "contentHash": "c9ff3855f290"
+      "contentHash": "d10a6e4b569d"
     },
     {
       "id": "c54cd4604ac2",
@@ -1463,10 +1652,10 @@
       "id": "806d72a1a5fd",
       "title": "Codex Micro の使い方",
       "url": "https://note.com/npaka/n/n077409095a5a",
-      "summary": "Codex MicroはWork LouderのChatGPT Codex向け小型コントローラー。6個のAgentキーでスレッドを切替・状態をRGB表示、Commandキーやダイヤルで操作割当。電源・Bluetooth（3ch）・有線対応。Inputで最大6レイヤーやAppSense自動切替可能。",
+      "summary": "Codex MicroはWork Louder製のChatGPT/Codex向け小型コントローラー。Agentキーでスレッド切替・進行状況表示、Commandキーやダイヤルで操作割当が可能。Bluetooth/有線接続、専用Inputソフトで最大6レイヤーのカスタマイズやAppSense自動切替に対応。電源・ペアリング手順も解説。",
       "source": "npaka",
       "publishedAt": "2026-07-27T00:42:45.000Z",
-      "contentHash": "3e449b4d80ff"
+      "contentHash": "31cd56eb7d2f"
     },
     {
       "id": "16797b055e4e",
@@ -1706,10 +1895,10 @@
       "id": "002f0d39ba83",
       "title": "Blenderで何が作れる？ ゲーム・アニメなど5つの活用例",
       "url": "https://note.com/npaka/n/nf35c969ab62e",
-      "summary": "Blenderはモデリングから質感、アニメーション、レンダリング、合成まで行える総合3DCGソフト。用途は①ゲーム/VRアセット②映像・アニメのプレビズ・3Dアニメ③広告・商品・建築ビジュアル④3Dプリント用モデル⑤実写合成・イラスト制作など多岐に渡る。",
+      "summary": "Blenderはモデリング、質感設定、リギング、アニメーション、レンダリング、合成までできる総合3DCGソフト。ゲーム/VRアセット、映像・アニメのプレビズと3Dアニメ、広告・建築ビジュアル、3Dプリント、実写合成・イラストなど多用途に対応し、編集から書き出しまで一貫して行える点が強み。",
       "source": "npaka",
       "publishedAt": "2026-07-26T11:56:49.000Z",
-      "contentHash": "f9c82fef96e4"
+      "contentHash": "dd61979ca716"
     },
     {
       "id": "24a1a3cbb2bc",
@@ -1796,10 +1985,10 @@
       "id": "a001c773bf7d",
       "title": "img2threejs x Opus 5 を試す",
       "url": "https://note.com/npaka/n/naa426e03f57d",
-      "summary": "img2threejs x Opus 5を試用。img2threejsは1枚の参照画像からThree.jsのTypeScriptコードを生成するAgent Skillで、パーツ編集やマテリアル生成、回転軸等のランタイム情報を出力。Claude Desktop＋Opus5＋Python3.10で動作。ハードサーフェス向きで人物は隠れ形状に限界あり。操作は/ img2threejsで指示し、マウス回転等を追加可能。",
+      "summary": "img2threejs x Opus5を試用。img2threejsは単一の参照画像からThree.jsのTypeScriptコードを生成するAgent Skillで、パーツ分割・マテリアル生成・ランタイム情報出力が可能。Claude/Opus5環境でクローンして実行し、プロポーションや色を保った3Dモデル（マウス回転対応など）を生成。硬い表面の物体に特に向く。",
       "source": "npaka",
       "publishedAt": "2026-07-26T01:05:25.000Z",
-      "contentHash": "6065b9ff88de"
+      "contentHash": "d36c98a9b074"
     },
     {
       "id": "9376267761d9",
@@ -8811,195 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-07-11T14:18:33.000Z",
       "contentHash": "33f241f3ea9c"
-    },
-    {
-      "id": "c9ccbf0b9053",
-      "title": "複数のUSB-CANアダプターを安定して識別する方法",
-      "url": "https://note.com/npaka/n/na4f90f90bf34",
-      "summary": "LinuxでUSB-CANアダプタは再起動や抜き差しでcan0/1が変わるため、udevadmでID_SERIAL_SHORTやID_PATHを確認し、/etc/systemd/network/*.linkでNameを指定（例 can_left/can_right）して固定する。USBハブ使用可、USB帯域は十分だがCANバス帯域に注意。",
-      "source": "npaka",
-      "publishedAt": "2026-07-11T13:23:01.000Z",
-      "contentHash": "24a7edeb43b8"
-    },
-    {
-      "id": "f24c55c78e50",
-      "title": "ICE are heavily armed killers. They’re also huge losers",
-      "url": "https://www.theverge.com/policy/964302/ice-donald-trump-killings",
-      "summary": "記事は、トランプ政権下のDHS/ICEが2.2億ドルを宣伝に投入して武装化・美化を図る一方、実態は恥ずべき暴力的な摘発で、35年在米の父親の射殺やネット批判者への家宅訪問など残酷な人権侵害が起きていると批判する。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-11T13:00:00.000Z",
-      "contentHash": "41cf69bfa695"
-    },
-    {
-      "id": "a8e5d668d8f7",
-      "title": "「【衝撃】BigQueryへのデータ連携、S3経由はもう古い？」～【googlecloud】今週の人気記事TOP5（2026/07/12） | CareNet Engineersのフィード",
-      "url": "https://zenn.dev/carenet/articles/zenn-weekly-googlecloud-articles-2026-07",
-      "summary": "ZennのGoogle Cloud人気記事を自動取得・AI要約して自動更新する週刊まとめ。今週は「BigQueryへS3経由はもう古いか？」や、AWS/GCP/AzureのシークレットをGit感覚で管理するCLI/GUIツール「suve」など上位5本を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-11T12:56:19.000Z",
-      "contentHash": "c0d4646a5a75"
-    },
-    {
-      "id": "4c37bb260029",
-      "title": "複数のWebカメラを安定して識別する方法",
-      "url": "https://note.com/npaka/n/n29485c568012",
-      "summary": "複数のWebカメラはOSが割り当てる/dev/video番号が再起動やUSB変更で変わることがある。1台で複数デバイスが作られる場合も。対策は番号指定を避け、/dev/v4l/by-id（シリアル有り）や/by-path（接続経路）で固定指定すること。",
-      "source": "npaka",
-      "publishedAt": "2026-07-11T12:41:23.000Z",
-      "contentHash": "131d28601fda"
-    },
-    {
-      "id": "376590ecd06c",
-      "title": "A tasty RPG that will make you very hungry",
-      "url": "https://www.theverge.com/entertainment/964061/dosa-divas-review-ps5-steam-switch",
-      "summary": "『Dosa Divas』は従来のターン制RPGを約10時間に凝縮し、大胆な演出で壮大なテーマと個人的ドラマを融合した手軽で魅力的な作品。ただしプレイ中に強烈に食欲をそそられる。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-11T12:00:00.000Z",
-      "contentHash": "28ac4625b544"
-    },
-    {
-      "id": "6ee0f595b338",
-      "title": "The perfect kit for all your tiny repairs",
-      "url": "https://www.theverge.com/tech/964169/ifixit-repairs-kit-nothing-3a-installer",
-      "summary": "デイヴィッド・ピアースの週刊コラム「Installer No.135」。小修理キットやNothingの新イヤホン、成人向けプレイドー、バーン・マンのドキュメンタリーほか、冷水浴や映画・ドラマ・ガジェットなど注目アイテムを紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-11T12:00:00.000Z",
-      "contentHash": "3ff46939b858"
-    },
-    {
-      "id": "2dc9ef3dda30",
-      "title": "Amazon Bedrock AgentCore PolicyをLOG_ONLYからENFORCEへ段階移行してみた | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/808aa7198d176f",
-      "summary": "Fusicのレオナが、Amazon Bedrock AgentCoreのポリシーをLOG_ONLYからENFORCEへ段階移行する検証を実施。社内備品注文を題材にGateway、Lambda、Policy Engine、Cedar PolicyをTerraformで構築し、金額での許可・拒否をENFORCEで確認した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-11T11:54:23.000Z",
-      "contentHash": "423b32cb8e25"
-    },
-    {
-      "id": "051782cf9c50",
-      "title": "Your code is fast – if you're lucky",
-      "url": "https://tiki.li/blog/lucky_code.html",
-      "summary": "その記事を要約できますが、現在ウェブページを直接取得できません。記事本文をここに貼っていただくか、要点（焦点、結論、重要な事例など）を教えてください。HNの議論も要約希望なら一緒に貼ってください。200文字以内でまとめます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-11T10:50:10.000Z",
-      "contentHash": "206ae67e4a0a"
-    },
-    {
-      "id": "42b5f7effa83",
-      "title": "Amazon Bedrock AgentCore Runtimeへ失敗境界を実装して検証してみた | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/e9dcf43552a445",
-      "summary": "FusicのレオナがAmazon Bedrock AgentCore Runtimeに障害調査Agentをデプロイし、証拠や現在状況が不足する際に復旧案を返さない境界を検証。停止は(1)実行中止(Invocation停止)と(2)実行前拒否(スキーマ違反・重複・回数超過)に分類し、低信頼時はproposal=nullで復旧案生成を抑止するなどを確認した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-11T07:31:36.000Z",
-      "contentHash": "a5ae830368e5"
-    },
-    {
-      "id": "ef635b6afb70",
-      "title": "Are you filthy enough for a $700 portable shower? ",
-      "url": "https://www.theverge.com/reviews/963814/joolca-hottap-portable-shower-review",
-      "summary": "オーストラリアJoolcaの高級携帯シャワーHottap Goは12L内蔵タンクで外部容器や長いホース不要。温度になるまで水を循環して冷水ショックを防ぎ節水。キャンプやバンライフでの快適な温シャワーとして高価格を正当化する製品だ。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-11T07:00:00.000Z",
-      "contentHash": "7608ad0b90bf"
-    },
-    {
-      "id": "0342adce8d45",
-      "title": "新規作成する AWS Organizations 組織に組織離脱を防ぐ SCP が自動付与されるようになりました | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/20260711_DenyLeaveAndCloseAccount",
-      "summary": "Organizationsで新規組織作成時に、組織離脱とアカウント閉鎖を防ぐSCP「DenyLeaveAndCloseAccount」が自動付与されるようになりました。コンソール作成時のみでCLIでは自動作成されず、既存組織には適用されません。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-11T06:16:05.000Z",
-      "contentHash": "996404c64cb2"
-    },
-    {
-      "id": "bb17f72aa509",
-      "title": "Tsurugi DB 入門",
-      "url": "https://note.com/npaka/n/na6f0f10f96e6",
-      "summary": "多コア・大容量メモリ向け国産オープンソースRDB「Tsurugi DB」の導入・利用手順を解説。Dockerで起動し、Python(tsurugi-dbapi)から接続してテーブル作成、登録・検索・更新・削除、トランザクションを扱う方法（DDLは最後にcommitが必要）を紹介。",
-      "source": "npaka",
-      "publishedAt": "2026-07-11T06:05:06.000Z",
-      "contentHash": "3e2ea881c52c"
-    },
-    {
-      "id": "08bb41db9a42",
-      "title": "The vintage beauty of Soviet control rooms (2018)",
-      "url": "https://designyoutrust.com/2018/01/vintage-beauty-soviet-control-rooms/",
-      "summary": "楽しみのために、ソ連時代のヴィンテージ制御室を厳選紹介。大型ボタンやアナログ計器が並ぶ、コンピュータ普及前の美しい風景。チェルノブイリ4号機制御室（撮影：Cary Markerink）。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-11T05:19:41.000Z",
-      "contentHash": "36b961a48739"
-    },
-    {
-      "id": "25f74853b9a4",
-      "title": "DoraのデータフローYAMLを可視化する方法",
-      "url": "https://note.com/npaka/n/nb81c322a6f49",
-      "summary": "DoraのデータフローYAML可視化方法。Doraはノードと接続をYAMLで定義し、複雑化するため図で把握する必要がある。Mermaid（テキスト→フローチャート、README向け）とGraphviz（自動レイアウト・詳細調整向け）でYAMLを変換しSVGなどに出力する手順を解説。",
-      "source": "npaka",
-      "publishedAt": "2026-07-11T02:43:35.000Z",
-      "contentHash": "3b98ba0d969c"
-    },
-    {
-      "id": "656413159da6",
-      "title": "Microsoft Agent Framework - ハーネスエージェントを作ってみる | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/4bf7d7b6cf1ce4",
-      "summary": "Microsoft Agent Frameworkのpython-1.11.0で追加されたcreate_harness_agentを使い、TODO管理や計画/実行モード、Web検索を備えたエージェントを簡単に作る手順とサンプルコード（.env設定、Foundry前提、実行承認フロー付き）を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-11T02:19:50.000Z",
-      "contentHash": "698ab5be2daa"
-    },
-    {
-      "id": "06f11f2e891d",
-      "title": "No, Flock isn&#8217;t threatening people for debating surveillance",
-      "url": "https://www.theverge.com/tech/964425/flock-safety-cease-and-desist-letter",
-      "summary": "監視技術企業Flockが差し止め通告を送ったとする手紙写真がSNSで拡散。主催側は玄関に貼られたと主張したが、Flockは送付を否定した。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-11T00:10:38.000Z",
-      "contentHash": "fdb4b9d4f760"
-    },
-    {
-      "id": "6d85e2e3be1c",
-      "title": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
-      "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-      "summary": "Metaは、公開Instagramアカウントをタグ付けするだけで投稿を元にAI画像を生成できる機能を批判受けて終了。当初は設定でオプトアウト可能だったが、撤回された。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-10T23:49:50.000Z",
-      "contentHash": "dbafa1b498ea"
-    },
-    {
-      "id": "3b4a78dd1922",
-      "title": "The FCC is cracking down on DJI tech that dodged the foreign drone ban",
-      "url": "https://www.theverge.com/policy/964342/fcc-crack-down-dji-front-companies-xtra-skyrover-sgs-lab",
-      "summary": "米連邦通信委員会（FCC）が、中国DJIの米国回避策を使う“フロント企業”8社に各2.5万ドルの罰金を科し、7月20日までに回答を求めた。また中国の試験所１件の認証取り消しを予定している。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-10T22:35:18.000Z",
-      "contentHash": "7f837e621c3c"
-    },
-    {
-      "id": "77d7ff9dffda",
-      "title": "Einstein's relativity rules chemical bonds in heavy elements, new research shows",
-      "url": "https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity",
-      "summary": "ブラウン大の研究で、光電子分光により炭素と重元素ビスマスの結合に相対論効果が現れ、三重結合のσ・πという教科書的区別が崩れる直接証拠を示した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-10T22:30:44.000Z",
-      "contentHash": "23f8321cccad"
-    },
-    {
-      "id": "7231fadcded6",
-      "title": "Apple sues OpenAI for allegedly stealing hardware secrets",
-      "url": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
-      "summary": "アップルがOpenAIを提訴。元アップル社員らがハードウェアの営業秘密を不正に持ち出した「パターン」を発見したと主張し、IO Productsや幹部タン・タン、チャン・リウらを名指し。知財保護を強調。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-10T21:36:51.000Z",
-      "contentHash": "aaaf85fbe8f1"
-    },
-    {
-      "id": "d3401a623770",
-      "title": "Apple sues OpenAI, accusing it of stealing company secrets",
-      "url": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html",
-      "summary": "申し訳ありませんが、外部サイトを直接閲覧できないためその記事にアクセスできません。記事本文を貼っていただくか、主要な箇所を教えていただければ、200字以内で要約します。HNコメントも同様に対応可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-10T21:20:29.000Z",
-      "contentHash": "046c2bdf1694"
     }
   ]
 }
