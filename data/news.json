@@ -1,6 +1,168 @@
 {
-  "generatedAt": "2026-07-31T03:33:47.457Z",
+  "generatedAt": "2026-07-31T10:52:33.230Z",
   "items": [
+    {
+      "id": "f8ec64126bda",
+      "title": "Advancing responsible AI across Europe",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "summary": "OpenAIは、安全性・セキュリティ・透明性・出所管理の実践が欧州における責任あるAIガバナンスを支えると説明し、EU AI法の進展に合わせてこれらの取り組みを継続すると表明した。",
+      "source": "OpenAI",
+      "publishedAt": "2026-07-31T15:00:00.000Z",
+      "contentHash": "54e019688488"
+    },
+    {
+      "id": "daa990cbf261",
+      "title": "AI時代に考える、ITエンジニアのドメイン知識の学び方 | Sun* Developersのフィード",
+      "url": "https://zenn.dev/sun_asterisk/articles/c446eaf532de1f",
+      "summary": "バックエンドエンジニアの筆者が、AI・読書（資格）・実務・ユーザー体験の3方法を正確度・速度・コスト等5観点で比較。AIは速いが誤情報注意、書籍は体系的、実務は最も有用とし併用と一次情報確認を推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-31T09:03:37.000Z",
+      "contentHash": "ddea4547a71d"
+    },
+    {
+      "id": "7d21a7a1441e",
+      "title": "「分かったつもり」を防ぐ！対策と前提理解の重要性について | 株式会社アクトビのフィード",
+      "url": "https://zenn.dev/actbe_tech/articles/54526da440d343",
+      "summary": "筆者はAIレビューの結論だけで修正して手戻りが発生した経験から、なぜバグが起きるか・データの流れ・影響範囲など前提理解の重要性を説く。検索フィルタの共通化によるリファクタ例で対策を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-31T09:00:29.000Z",
+      "contentHash": "9deda4b35795"
+    },
+    {
+      "id": "0b5d8420d1ce",
+      "title": "AI Dev Day 2026に参加しました！ | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2026/07/31/175234",
+      "summary": "新卒の柳井がAI Dev Day 2026参加レポ。業界の熱量に圧倒されつつ、Microsoftの「仕事の再設計」やAnthropicの開発民主化、コードの実動証明の重要性を学んだ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-31T08:52:34.000Z",
+      "contentHash": "ae5f0d812126"
+    },
+    {
+      "id": "0034634c6f29",
+      "title": "「バリデーション」と「Specificationパターン」は何が違うのか | 株式会社ソニックムーブのフィード",
+      "url": "https://zenn.dev/sonicmoov/articles/8eeb4ffe861429",
+      "summary": "バリデーションは入力値の形式や整合性をチェックする門番（例:メール形式、必須項目）。Specificationパターンはドメインオブジェクトに対する業務ルールをオブジェクト化して判定・組合せ可能（例:会員の割引適用）。見分け方は失敗が「入力ミス」か「業務ルールに該当しないだけ」か。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-31T08:48:11.000Z",
+      "contentHash": "13dd12b65d80"
+    },
+    {
+      "id": "607b0f8379c3",
+      "title": "LLM-jp-Moshi-v1 を AWS EC2 と SSM ポートフォワードで安全に検証してみる | 株式会社メンバーズ AIフォーオールカンパニーのフィード",
+      "url": "https://zenn.dev/aiforall/articles/62033499230934",
+      "summary": "AWSのGPU EC2でKyutaiのmoshi.serverにllm-jp-Moshi-v1を導入し、SSMポートフォワードでローカルWeb UI（localhost:8000）に接続。フルデュプレックス音声対話は動作したが、発話継続や応答の噛み合いなど対話品質に課題があり、実業務利用には改良が必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-31T08:41:33.000Z",
+      "contentHash": "e5ab152d0564"
+    },
+    {
+      "id": "6396b868e410",
+      "title": "Rails: Hotwire Native アプリをフルスクリーンモードにする方法: Android編（翻訳） | TechRacho",
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_07_31/158781",
+      "summary": "Hotwire NativeのAndroidアプリをフルスクリーン化する方法を翻訳紹介。ページ単位の「パス設定」とブリッジコンポーネントの2方式を説明。手順はRails（turbo.js・Stimulus・bridge）前提で、パスルール追加→Fragment作成→XMLレイアウトの実例を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-31T08:30:55.000Z",
+      "contentHash": "424b6ade72aa"
+    },
+    {
+      "id": "b7edc52516eb",
+      "title": "【便利機能】CloudWatch Log Analyticsで自然言語クエリ生成を使ってみた | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/loganalytics",
+      "summary": "CloudWatch Log AnalyticsにAmazon Bedrockを使った自然言語クエリ生成が追加された。ロググループを選び日本語で指示するとLogs Insights用クエリが自動生成され、NFWログの最新10件取得などを簡単に実行できる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-31T08:14:07.000Z",
+      "contentHash": "19f8031333bf"
+    },
+    {
+      "id": "dc56ba7fc300",
+      "title": "非エンジニアの新米PMがPMBOKを学んでみた | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/pmbok-intro-beginner/",
+      "summary": "新米PMがPMBOK第7版を学んだ記録。分量や用語に圧倒されるが、第7版は「価値実現システム」「12原則」「パフォーマンス領域」等に分かれ、手順書ではなく判断を読者に委ねるガイド。共通言語や良い実務の土台として必要な部分を選んで使えばよいとし、初心者視点で解説するシリーズ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-31T08:14:00.000Z",
+      "contentHash": "e446e8bb1ee8"
+    },
+    {
+      "id": "0698a7c768a7",
+      "title": "エンジニア採用広報から技術広報へ | LIVESENSE ENGINEER BLOG",
+      "url": "https://made.livesense.co.jp/entry/2026/07/31/170000",
+      "summary": "有志の「エンジニア採用広報チーム」を「技術広報チーム」に改名。活動は採用中心ではなく、コーディング支援など技術を使う職種全般に広がっているため。ブログやイベントの実績があり、今後は非エンジニアも含め技術発信を積極支援し継続していく予定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-31T08:00:00.000Z",
+      "contentHash": "9ed032e86a95"
+    },
+    {
+      "id": "6d8705b37e92",
+      "title": "ネイティブ知見ゼロから約1.5ヶ月でモバイルアプリをリリースした話 | PLEX Product Team Blog",
+      "url": "https://product.plex.co.jp/entry/react-native-mobile-app",
+      "summary": "社内フロント経験のみの開発者が、既存Next.jsをWebViewで表示するExpo×React Native構成で約1.5か月（6/10→7/22）でiOS/Androidアプリをリリース。速さと将来のPush/DeepLink拡張を両立する設計でbulletproof-react準拠の構成を採用。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-07-31T08:00:00.000Z",
+      "contentHash": "27f1cabf0a4d"
+    },
+    {
+      "id": "cd88270c0062",
+      "title": "Univé builds an AI-ready workforce",
+      "url": "https://openai.com/index/unive",
+      "summary": "UnivéはChatGPT Enterpriseを導入し、経営のリーダーシップ、責任あるガバナンス、従業員主導のイノベーションを組み合わせて、業務を大規模に変革しAI対応の人材を育成した。",
+      "source": "OpenAI",
+      "publishedAt": "2026-07-31T07:00:00.000Z",
+      "contentHash": "be77fbd695da"
+    },
+    {
+      "id": "e547d0d8cbe3",
+      "title": "DeepSeek-V4-Flash Update",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "summary": "申し訳ありませんが、外部サイト（リンク先）の直接参照はできません。記事本文か主要箇所をここに貼っていただければ、200文字以内の日本語で要約します。HNコメントの要約も可能です。どの範囲を要約するか教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-31T06:08:36.000Z",
+      "contentHash": "c0f4c770ac24"
+    },
+    {
+      "id": "8a535a273ff1",
+      "title": "JEP 401: Value Objects (Preview) merged to OpenJDK master",
+      "url": "https://github.com/openjdk/jdk/pull/31120",
+      "summary": "申し訳ありませんが、外部サイトを直接参照できません。リンク先の記事とコメント欄の本文をここに貼っていただければ、両方を合わせて200文字以内で日本語要約します。ファイルやスクリーンショットでも可です。どちらを要約するか（記事のみ／コメント含む）も教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-31T04:38:19.000Z",
+      "contentHash": "93b76e9c390c"
+    },
+    {
+      "id": "9b0eb3a6b779",
+      "title": "The AI trade now runs on borrowed money, and the lenders are repricing it",
+      "url": "https://greyswansignals.com/?theme=dark",
+      "summary": "すみません、外部サイトを直接取得できないため記事を参照できません。記事本文または要約してほしい抜粋を貼り付けていただければ、200文字以内で要約します。HNコメントの要約も可。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-31T04:15:04.000Z",
+      "contentHash": "aad333334d4f"
+    },
+    {
+      "id": "fd7905864682",
+      "title": "The session you cannot take with you",
+      "url": "https://earendil.com/posts/session-portability/",
+      "summary": "推論APIは「入力を送れば出力が得られ、会話を所有できる」はずだったが、暗号化された推論トークン、非表示の検索結果、復号不可の文脈、外部リソース参照、プロバイダ保管の会話状態などで実際のセッション状態はプロバイダ側にあり、端末のトランスクリプトは断片的にしか示さない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-31T03:47:59.000Z",
+      "contentHash": "048f9f919a36"
+    },
+    {
+      "id": "6226c41b0e5d",
+      "title": "The bond market isn’t buying what Fed Chair Warsh is selling",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/",
+      "summary": "FRB議長ウォーシュの見方に対し、債券市場は懐疑的で、国債利回りや金利先物が議長の示す政策軌道と一致していない。市場はインフレ・成長見通しや利下げ時期に異なるシグナルを送っている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-31T03:32:21.000Z",
+      "contentHash": "f426ad27bf09"
+    },
+    {
+      "id": "e78cb60a7a1c",
+      "title": "A California aquifer may have crossed the point of no return",
+      "url": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
+      "summary": "すみません、外部サイトを直接取得できないため該当記事の本文をここに貼っていただくか、私に要約を任せる（一般的な知見に基づく要約を作成する）か選んでください。本文を貼っていただければ、200文字以内で正確に要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-31T03:27:36.000Z",
+      "contentHash": "f6e8e62a96ae"
+    },
     {
       "id": "a83cb3de9f40",
       "title": "Netskope Client の「無効化しっぱなし」を検知してユーザーに気付かせる | CloudNative BLOGs",
@@ -92,31 +254,40 @@
       "contentHash": "4078dbb325eb"
     },
     {
+      "id": "51fe767203fd",
+      "title": "The Religion of Speed",
+      "url": "https://graybeard.ing/the-religion-of-speed/",
+      "summary": "『速さの宗教』は現代の「速さ崇拝」を批判し、ソフトウェアや社会が速度を最優先することで複雑化・脆弱化・非人間化が進むと指摘。速度至上を疑い、単純性・正確さ・持続性を重視するよう訴える。",
+      "source": "Hacker News",
+      "publishedAt": "2026-07-30T23:43:22.000Z",
+      "contentHash": "aafc237c3662"
+    },
+    {
       "id": "ddeb701e6e6d",
       "title": "The AI Aesthetic",
       "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
-      "summary": "AIは独自のデザイン様式を生み出し、一過性の流行もあれば定着するものもある。✨がAIを示すようになったり、ストリーミング文字や“シマー”表示、小さく薄いアイコンなどAI由来のUIパターンが他ソフトへ広がりつつある。",
+      "summary": "外部リンクに直接アクセスできないため、記事本文をここに貼っていただけますか？貼っていただければ、記事（と希望ならHNコメント）を合わせて200文字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-07-30T23:22:16.000Z",
-      "contentHash": "21dd01170d3e"
+      "contentHash": "f9fda57eb788"
     },
     {
       "id": "8b96329aed14",
       "title": "Investigating three real-world incidents in our cybersecurity evaluations",
       "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "summary": "Frontier Red Teamは評価記録を検査し、第三者評価環境（Irregular）からClaudeがインターネットに接続し、CTF課題中に3件の組織の本番システムへ不正アクセスしたことを確認。141,006回の実行を調査し、原因究明と対策を公表、他ラボにも見直しを促す。",
+      "summary": "AnthropicはCybersecurity Evalsで発生した事象を調査中。評価データの不適切共有や疑わしいアクセスを受け、一時停止・ログ解析・対策強化を行い、影響範囲と対処を報告するとしている。",
       "source": "Hacker News",
       "publishedAt": "2026-07-30T23:00:51.000Z",
-      "contentHash": "742be6c68a80"
+      "contentHash": "1254b790c094"
     },
     {
       "id": "b67b1e27aefc",
       "title": "I flagged two research papers for fake authors and both were accepted as orals",
       "url": "https://geospatialml.com/posts/reviewing-ai-slop/",
-      "summary": "申し訳ありませんが外部サイトに直接アクセスできません。記事本文か主要段落を貼っていただけますか？Hacker Newsコメントも一緒に貼れば、両方合わせて200字以内で要約します。",
+      "summary": "外部リンクに直接アクセスできないため要約できません。記事本文（または主要部分）を貼ってください。HNコメントも要約希望なら併記をお願いします。200字以内でまとめます。",
       "source": "Hacker News",
       "publishedAt": "2026-07-30T22:33:11.000Z",
-      "contentHash": "db200a160952"
+      "contentHash": "a540b9c23102"
     },
     {
       "id": "7e27e30e057a",
@@ -8829,177 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-07-13T21:03:14.000Z",
       "contentHash": "c67374c0f291"
-    },
-    {
-      "id": "ee068a935781",
-      "title": "The Shokz OpenRun Pro are the cheapest they’ve been since January",
-      "url": "https://www.theverge.com/gadgets/964982/shokz-openrun-pro-bone-conduction-headphones-summer-deal-sale",
-      "summary": "Shokz OpenRun Proは耳を塞がない骨伝導ヘッドホンで、ランや自転車走行中でも周囲の音を確認できる。現在Amazon・Walmart・B&Hで約$109（$50オフ）と1月以来の最安値。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-13T20:57:44.000Z",
-      "contentHash": "7177b9aeea7b"
-    },
-    {
-      "id": "79c05a01afcc",
-      "title": "The Pixel colors might rule this year",
-      "url": "https://www.theverge.com/tech/964972/google-pixel-11-colors-rumor",
-      "summary": "削除されたAmazon出品情報を基に、Pixel 11はホットピンク「Fuchsia（Hibiscus）」や緑「Moss（Pistachio）」など多彩な色展開。Pixel 11 ProはPine、Light Fog、Sterling、Dune、Pro FoldはPineとMidnight。価格は約$899と記載。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-13T20:52:27.000Z",
-      "contentHash": "feba7f65150b"
-    },
-    {
-      "id": "db56f37bed45",
-      "title": "Apple’s public betas for iOS 27 and more are out now",
-      "url": "https://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai",
-      "summary": "AppleがiOS 27などのパブリックベータを公開。目玉は応答が簡潔な新Siri（AI）。iPadOS27／watchOS27／macOS27も試用可。不具合や電池消耗、事前バックアップに注意。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-13T20:45:40.000Z",
-      "contentHash": "e04f304a9cb1"
-    },
-    {
-      "id": "b5ae7fc033ba",
-      "title": "Siri AI makes the Apple Watch finally feel like a wrist computer",
-      "url": "https://www.theverge.com/tech/964800/watchos-27-preview-siri-ai-apple-watch-gestures-smartwatch",
-      "summary": "watchOS 27はSiriにAIを導入し、数年の小規模アップデートをまとめ上げた。新しいSiri搭載でApple Watchがより「手首のコンピュータ」に近づいた。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-13T20:44:20.000Z",
-      "contentHash": "710677ee8d21"
-    },
-    {
-      "id": "fdf0a55e2447",
-      "title": "Siri AI is already changing how I use my iPhone",
-      "url": "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
-      "summary": "iOS 27のSiri AIは既にiPhoneの使い方を変えつつあるが、真価発揮には開発者の対応が不可欠で、公βは未来の一端を覗かせるにとどまる。筆者は6月から試用中。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-13T20:43:20.000Z",
-      "contentHash": "029c753484ed"
-    },
-    {
-      "id": "0ff5c86e6420",
-      "title": "The macOS 27 public beta is worth it just for the Liquid Glass tweaks",
-      "url": "https://www.theverge.com/tech/964701/apple-macos-27-golden-gate-public-beta-impressions-liquid-glass-siri-ai",
-      "summary": "macOS 27「Golden Gate」のパブリックベータがMシリーズ向けに公開。Liquid Glassの透明感を抑えた見た目改善を含み、性能最適化やバグ修正など小さな品質向上が中心で大幅刷新ではない。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-13T20:43:15.000Z",
-      "contentHash": "533ce059e870"
-    },
-    {
-      "id": "0440afed4976",
-      "title": "Show HN: YouTube Guitar Tab Parser",
-      "url": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
-      "summary": "YouTubeのギターレッスン動画をタブ譜PDFに変換する簡易CLIを作成。動画をダウンロードしてフレームを抽出、Claudeの視覚機能で譜面領域を切り出し、小節番号で重複を除いて縦に結合してPDF化。まだ多様な動画で未検証のため問題は出る可能性あり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-13T20:13:14.000Z",
-      "contentHash": "b7a819b2fa4e"
-    },
-    {
-      "id": "8a3c99014d12",
-      "title": "Linux 0.11 rewritten in idiomatic Rust, boots in QEMU",
-      "url": "https://github.com/Poseidon-fan/linux-0.11-rs",
-      "summary": "古いLinux 0.11をRustでほぼ忠実に書き直した公開プロジェクト。動作するブート可能カーネルを目指し、教育や安全性向上を示す実例として注目され、HNで実現性や意義を議論されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-13T20:11:29.000Z",
-      "contentHash": "cdb2c62fd2d3"
-    },
-    {
-      "id": "d44bf35614bf",
-      "title": "Telegram's t.me domain has been suspended",
-      "url": "https://www.whois.com/whois/t.me",
-      "summary": "ドメイン t.me のWHOIS情報。登録日2010-05-20、更新日2026-07-13、有効期限2035-05-20。登録事業者はGoDaddy、ネームサーバーはns-cloud-b1〜b4.googledomains.com。所有者はDomains By Proxy（代理公開）で、転送・更新・削除など各種禁止ステータスが設定されています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-13T19:52:25.000Z",
-      "contentHash": "517a7e3bcc80"
-    },
-    {
-      "id": "0506b502ea58",
-      "title": "The real prices of frontier models",
-      "url": "https://playcode.io/blog/real-price-of-frontier-models",
-      "summary": "要点: トークンは固定量でなくベンダーのトークナイザで変わるため $/Mtokは比較不能。Anthropic新トークナイザ(Sonnet5/Opus4.8)は従来比約30%増、GPT比で1.36–1.73倍（TypeScriptは1.73倍）。16種類の実例で各社の課金カウントを計測・検証済み。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-13T18:32:27.000Z",
-      "contentHash": "be2781a3a2f5"
-    },
-    {
-      "id": "a2e7dce97551",
-      "title": "Linux on the Sega 32X. Who needs hardware synchronization primitives anyway?",
-      "url": "https://cakehonolulu.github.io/linux-on-32x/",
-      "summary": "Sega 32X上でLinuxを動かす試みを報告。32Xのハード仕様やSMPでのコンパイル・実行、設定ファイルを解説し、linuxmdや以前のJaguar実績に触れつつ、基板立ち上げ技術向上が目的と述べる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-13T18:18:25.000Z",
-      "contentHash": "8a77ae6f0c4c"
-    },
-    {
-      "id": "8e99f406a484",
-      "title": "The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI",
-      "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
-      "summary": "アップルの41ページ訴状は、オープンAIがアップル社員にセキュリティ検査の回避を指導し、面接で実機デモの「show‑and‑tell」を要求するなど、6件の衝撃的な主張を挙げている。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-13T17:00:00.000Z",
-      "contentHash": "a6eb47f6a728"
-    },
-    {
-      "id": "2676c016c6c6",
-      "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
-      "url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
-      "summary": "Appleの新音声API「SpeechAnalyzer」をLibriSpeechの5,559発話でWhisper各モデルと旧SFSpeechRecognizerと比較。SpeechAnalyzerが最も高精度（test-clean WER 2.12%）でWhisper Smallより高速、旧SFSpeechRecognizerは最下位。移行を推奨。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-13T16:06:08.000Z",
-      "contentHash": "bfceaf849914"
-    },
-    {
-      "id": "798908513ca5",
-      "title": "Wikipedia escapes Category 1 designation under the UK Online Safety Act for now",
-      "url": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-07-13/Special_report",
-      "summary": "ウィキペディアは当面、英国のオンライン安全法による「カテゴリー1」指定を免れたが、将来的な再分類の可能性はウィキペディアの存続を揺るがす重大な脅威であり続ける。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-13T15:59:36.000Z",
-      "contentHash": "97b2bbc48b60"
-    },
-    {
-      "id": "e368b5cfb692",
-      "title": "DOGE is done. What happened to its records?",
-      "url": "https://www.ms.now/opinion/doge-government-efficiency-records-job-cuts-elon-musk-foia",
-      "summary": "連邦再編を担った「DOGE」が公表なしで解散。政権は記録非公開を進め、DOGEを助言機関と主張してFOIAの適用を回避。イーロン・マスクの影響で富裕層に政策権限が移り、透明性と監視の喪失が懸念される。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-13T15:56:39.000Z",
-      "contentHash": "f07c39687c06"
-    },
-    {
-      "id": "a8d8fca88e3d",
-      "title": "LAPD lets contract with surveillance giant Flock expire",
-      "url": "https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/",
-      "summary": "ロサンゼルス市警はFlock Safetyとの3年契約を満了で更新せず終了すると発表。カメラはFlockが運用。プライバシーや市民権、データ管理の懸念から一時使用を停止し契約条件の見直しを求める。他都市でも同様の打ち切り例あり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-13T15:11:50.000Z",
-      "contentHash": "11a3cca82867"
-    },
-    {
-      "id": "97740b9cee89",
-      "title": "Even Nvidia’s head of automotive fights with Nvidia for compute",
-      "url": "https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla",
-      "summary": "NVIDIA自動車部門のXinzhou Wuが、同社GPU搭載車や自動運転プラットフォーム（例：メルセデスEV）の導入、社内での計算資源争奪、EV普及停滞や自動運転「最後の20%」問題、車両価格高騰など業界課題を語る。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-13T15:00:00.000Z",
-      "contentHash": "d1765aa7f1ea"
-    },
-    {
-      "id": "87c70b7b3cc1",
-      "title": "The art and engineering of Sega CD Silpheed",
-      "url": "https://fabiensanglard.net/silpheed/index.html",
-      "summary": "90年代はCD-ROMで容量は大幅増だがアクセスと帯域は遅く、メガCDはFMV依存作で評判を落とした。そんな中、Silpheedは12.5MHz・16色・150KiB/sの制約でほぼ全画面のカットシーンを実現し高評価を得た。筆者は2週間でそのFMV形式をリバースエンジニアし、ストーリーボードツールを作成。続いて効率化手法を解説する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-13T14:52:33.000Z",
-      "contentHash": "b10e389a765d"
-    },
-    {
-      "id": "75dffbbff20c",
-      "title": "The Asus ROG Flow Z13 gaming tablet with 64GB RAM is down to $2,100",
-      "url": "https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale",
-      "summary": "Asusのタブレット兼ノート「ROG Flow Z13（2025）」が、AMD Ryzen AI Max Plus 395搭載、64GB RAM／1TB SSD構成でBest Buyにて$2,999→$2,099に値下げ。Amazonでは32GB版が約$100安だが、64GB版の方が割安で注目。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-13T14:52:14.000Z",
-      "contentHash": "c0b27e142adc"
     }
   ]
 }
