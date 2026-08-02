@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-08-02T03:35:46.440Z",
+  "generatedAt": "2026-08-02T10:12:23.428Z",
   "items": [
+    {
+      "id": "c68fef2c0873",
+      "title": "ツールを選びに行って、受け入れる側の設計を問われた ― Google Cloud Next Tokyo 2026 参加レポート | truestarテックブログのフィード",
+      "url": "https://zenn.dev/truestar/articles/42b3edab13e8ca",
+      "summary": "Google Cloud Next Tokyo 2026に参加。Microsoft 365からの移行を検討したが、AIだけでは移行を正当化できず、業務へのAI組込みや共同編集・ファイル置き場、オンプレミス廃止といった運用課題が本質で、移行コストが最大の障壁と判明した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-02T05:04:34.000Z",
+      "contentHash": "8a580a166174"
+    },
+    {
+      "id": "7175244a378f",
+      "title": "Coding Agent Insightsが来たので、Claude CodeのOtel送信先をAWSに移行しました。 | NCDC テックブログのフィード",
+      "url": "https://zenn.dev/ncdc/articles/3da1b836ea1d93",
+      "summary": "結論：2026/08/01時点のCoding Agent Insightsはデータ収集の動作確認向け。AWSへ集約するなら最初からカスタムダッシュボード前提で設計を推奨。Anthropic ClaudeのTeamでManaged Settings（JSON配布）を利用中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-02T01:00:05.000Z",
+      "contentHash": "740fb103af53"
+    },
     {
       "id": "c091b3a14301",
       "title": "Anime User Interfaces",
@@ -194,10 +212,10 @@
       "id": "5564bed7e062",
       "title": "SASEとマイクロセグメンテーションで実現する完全なゼロトラスト | TechHarmony",
       "url": "https://blog.usize-tech.com/sase-zero-trust/",
-      "summary": "夏休みクラウド自由研究2026（8/1）記事：多くの企業がゼロトラストを目指すが、単一製品で完成するものはなく、段階的な対策と複合的な導入が必要だ。",
+      "summary": "ゼロトラストは単一製品で完結せず組織的な再編が必要。ガートナーは完全実装にマイクロセグメンテーション（内部防御で横方向移動を防ぐ）とSASE（外部アクセス制御）の統合を推奨。リモート化やクラウド普及、ランサムウェア増加が導入を促す。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-01T11:19:13.000Z",
-      "contentHash": "5e6df3a19b36"
+      "contentHash": "f7dba38e507d"
     },
     {
       "id": "4ff4910852fe",
@@ -275,19 +293,19 @@
       "id": "996d9f787eb2",
       "title": "LIKE検索とベクトル検索、同じ意図で検索したら結果がここまで違った話 | コラボスタイル Developersのフィード",
       "url": "https://zenn.dev/collabostyle/articles/6d180e80514451",
-      "summary": "データベースの技術書を探すという検索意図で、LIKE検索と3次元ベクトル検索を比較。速度ではなく結果の「精度」に着目し、TiDB v8.5.0上の17レコードで同一クエリがユーザーの欲しいものをどちら返すかを検証した。",
+      "summary": "「データベースに関する技術書を探す」意図でLIKE検索とベクトル検索を比較。TiDB上で3次元ベクトル・17件のテストデータを使い、語義の異なる「データベース」表記をノイズ混入。LIKEは部分一致で誤検知し、ベクトル検索は意味的に適切な結果を返すことを検証した。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-01T02:35:56.000Z",
-      "contentHash": "e693ced4e6d7"
+      "contentHash": "a02df376695e"
     },
     {
       "id": "0f122a2e13d0",
       "title": "TiDB v8.1.0でVector Search（ベクトル検索）を試してみた | コラボスタイル Developersのフィード",
       "url": "https://zenn.dev/collabostyle/articles/febbb07133b2e0",
-      "summary": "MySQL互換の分散SQLデータベースTiDB（v8.1.0/Docker）で、ローカル環境でベクトル検索とHNSWインデックスを検証。専用ベクトルDBを使わずRDB内のVECTOR型やVEC_COSINE_DISTANCEの挙動を確認する手順と実行計画ログをまとめた。ツールはDBeaverとMySQLクライアント。",
+      "summary": "TiDB v8.1.0（ローカルDocker）でVECTOR型とHNSWインデックスを検証。3次元ベクトルをテーブルに登録し、VEC_COSINE_DISTANCE/VEC_L2_DISTANCEで類似検索を実行。期待通り距離順に結果が得られ、専用ベクトルDB不要で動作確認できた。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-01T02:20:27.000Z",
-      "contentHash": "9073c889380d"
+      "contentHash": "9307faec264f"
     },
     {
       "id": "778aa6aeb7ab",
@@ -311,10 +329,10 @@
       "id": "cc4516f26234",
       "title": "ローカルタスク管理アプリを設計してみた | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/76f20490b76952",
-      "summary": "従来は頭やメモで管理していたが、業務増加で整理が必要に。本人はタスク管理が苦手でメモが簡素化しがち。そこで音声入力＋文章整形＋保存ができるClaudeを導入した。",
+      "summary": "案件増加に伴い、音声入力(Claude Code /voice)でテキスト化→tasks.mdに保存するローカルタスク管理アプリを設計。Windows朝9時の通知、ホットキー起動やWSL連携を実装し、実行コマンドを許可リスト化してClaudeの安全性を確保。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-31T23:36:46.000Z",
-      "contentHash": "3d54bcc20688"
+      "contentHash": "ed28a46d3e9a"
     },
     {
       "id": "2caf78f9afdb",
@@ -599,10 +617,10 @@
       "id": "4434ccf9d8ca",
       "title": "GitHubにスタック型プルリクエストが登場。gh stackでPRを分割して積み上げよう | Ubie テックブログのフィード",
       "url": "https://zenn.dev/ubie_dev/articles/gh-stack-introduction",
-      "summary": "GitHubが「スタック型プルリクエスト」を正式導入。大きな変更を順序付きの小さなPR群に分割可能に。CLI拡張gh-stack（gh extension install github/gh-stack）で操作でき、gh stack syncでrebaseとpushを一度に実行。AIエージェント向けのgh-stackスキルで自然言語操作も可能。",
+      "summary": "GitHubが公式に「スタック型プルリクエスト」を導入。大きな変更を順序付きの小PRに分割でき、gh extensionのgh-stackで作成・gh stack syncによるrebase・pushを一括化。ベース設定や説明、後続反映の手間を解消し、AIエージェント操作にも対応。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-31T13:33:10.000Z",
-      "contentHash": "3bed9fa1eeeb"
+      "contentHash": "ebfde520f2b8"
     },
     {
       "id": "8bccb478449d",
@@ -2831,10 +2849,10 @@
       "id": "982ba5238e6b",
       "title": "Unity CLI の使い方",
       "url": "https://note.com/npaka/n/n00f0b44457a2",
-      "summary": "Unity CLIはターミナルでEditorのインストール・モジュール追加・プロジェクト起動・アカウント認証・CLI更新などを行える単体バイナリ。Hub不要でCI/自動化向け。インストール手順と主要コマンドを解説。Unity Pipelineと共に実行中Editorを操作可能。experimental。",
+      "summary": "Unityは2026年7月、ターミナルでEditorのインストール・モジュール追加・プロジェクト起動・認証・更新を行える公式CLIを公開。単体バイナリでCI向け、Unity Pipelineで起動中Editorの操作も可能。導入手順と主要コマンドを解説。experimental。",
       "source": "npaka",
       "publishedAt": "2026-07-27T20:56:28.000Z",
-      "contentHash": "df2884597ba8"
+      "contentHash": "16579912a9a9"
     },
     {
       "id": "94ec6bca6372",
@@ -3776,10 +3794,10 @@
       "id": "053a67b7c7f4",
       "title": "Claude Desktop で Blender MCP を試す",
       "url": "https://note.com/npaka/n/n060bf656cf01",
-      "summary": "Claude DesktopでBlender MCPを試用。自然言語でBlenderを操作（オブジェクト作成・移動・マテリアル・カメラ等）が可能。公式MCPサーバーを使用し、Blender5.1以上とClaude Desktopを導入、コネクタ追加・読み書き許可・モード自動に設定、BlenderへMCP拡張を導入して接続確認。実際にキャラクターモデル作成を指示し、追加指示で調整できた。",
+      "summary": "Claude DesktopでBlender MCP（公式／コミュニティ版あり）を導入。コネクタ設定やBlender公式MCPの拡張導入手順を解説し、自然言語でオブジェクト作成・配置・マテリアル設定などBlender操作が可能と確認した。",
       "source": "npaka",
       "publishedAt": "2026-07-25T03:07:00.000Z",
-      "contentHash": "4bd21575759f"
+      "contentHash": "a987d0738068"
     },
     {
       "id": "288ab33f8ee6",
@@ -8982,24 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-15T01:30:00.000Z",
       "contentHash": "b917d0a6a76a"
-    },
-    {
-      "id": "e82975fcea44",
-      "title": "WSL2 + Claude Code が重い？犯人はAIじゃなかった ── VmmemWSLのメモリ肥大を95%→77%まで下げた話 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/slowly_vscode_claude",
-      "summary": "VS Code＋WSL2でClaude Codeを使うとPCが重くなったが、原因はAIではなくVS Code ServerとWSL2のメモリ解放不良。Claudeは軽量で、.wslconfigのautoMemoryReclaim設定と手動キャッシュ解放でVmmemWSLを約4.7GB→2.5GB、全体使用率95%→77%に改善。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-15T01:22:20.000Z",
-      "contentHash": "358969b0f707"
-    },
-    {
-      "id": "8be69ef1ae05",
-      "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
-      "url": "https://tailscale.com/security-bulletins",
-      "summary": "TS-2026-008: パスが/で始まらない不正HTTPリクエストでServe/Funnelがパス探索を無限ループしCPUコアを占有（DoS）。1.98.9で修正。TS-2026-009: SSHが先頭に'-'のあるユーザー名を誤処理しACLを迂回してroot権限取得可。両者とも最新版へ更新を推奨。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-15T01:08:26.000Z",
-      "contentHash": "b76f7598fc75"
     }
   ]
 }
