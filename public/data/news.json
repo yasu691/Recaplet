@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2026-08-03T03:33:09.911Z",
+  "generatedAt": "2026-08-03T11:44:08.701Z",
   "items": [
+    {
+      "id": "04ffbb891da4",
+      "title": "こんなのってあり？TiDB＋TiFlashをMySQLの分析クエリオフローダーとして使ってみる | スマートスタイル TECH BLOG",
+      "url": "https://blog.s-style.co.jp/2026/08/16608/",
+      "summary": "既存MySQLを変更せず横にTiDB（TiKV＋列指向TiFlash）を置き、DMでbinlog増分を流して分析クエリをTiDB側で処理する構成を検証。TiUPで最小構成（v8.5.7）を推奨し、2台MySQLのFan-inや将来のノード分離によるスケールを想定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-03T09:00:36.000Z",
+      "contentHash": "a0e8eceb0a0d"
+    },
+    {
+      "id": "73bc523a5b7b",
+      "title": "Amazon Bedrockで生成AI評価を実践――Operational MetricsからAgentic Metricsまで | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/b6a57efe881fb9",
+      "summary": "AWS Samplesのsample-gen-ai-evaluations-workshopを実行し、生成AI評価を「運用（コスト・遅延・トークン）」「品質」「失敗分析」「エージェント挙動」に分解して検証。複数モデルでFoundational Evaluationsを実施し、評価観点と手法を確認した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-03T09:00:05.000Z",
+      "contentHash": "0f7bef7831ed"
+    },
+    {
+      "id": "d8ba129c4dec",
+      "title": "ノンエンジニア1,500人がAIで価値を生み出すための、DX推進チーム3年間の試行錯誤 | Link and Motivation Developers' Blog",
+      "url": "https://link-and-motivation.hatenablog.com/entry/2026/08/03/173824",
+      "summary": "リンクアンドモチベーションの河野氏は、全社でのAI導入で「配布しても使われない」「使われても事業成果に結びつかない」「セキュリティ懸念が増す」という課題に直面。2023年は未使用、2025年は利用増も成果未結びつき部署が残ったと述べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-03T08:38:24.000Z",
+      "contentHash": "5d34cab514df"
+    },
+    {
+      "id": "7f545eef5018",
+      "title": "AI Slop 疲れを減らす「仕上げ度」ラベル運用の提案 | TechRacho",
+      "url": "https://techracho.bpsinc.jp/morimorihoge/2026_08_03/158997",
+      "summary": "AI生成で見た目は整うが中身が怪しい「AI Slop」による疲れを指摘。作者の確認度がバラつく問題を受け、文書に「仕上げ度」を1行で明示（人間レビュー済み等）し、信頼度を示して認知負荷を減らす提案。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-03T08:30:51.000Z",
+      "contentHash": "23120fd85f3c"
+    },
+    {
+      "id": "15f09f706a56",
+      "title": "【AI駆動プロダクト開発 第1回】開発会社の商談・案件管理業務をスプレッドシートからWebアプリへ | Scalar Solution Engineer Blogのフィード",
+      "url": "https://zenn.dev/scalar_sol_blog/articles/nexus-product-new-development-01",
+      "summary": "Googleスプレッドシートで管理していた商談・案件・人員アサインを、AI（Nexus Architect）と人の判断で設計・検証し、WebアプリRADARとして実装。Spring Boot/PostgreSQLとNext.jsで構成し、設計履歴やMVPをdocsで追跡。AI提案と実運用のフィードバックループを重視。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-03T08:30:05.000Z",
+      "contentHash": "0b342ae03d40"
+    },
+    {
+      "id": "46defca70a2e",
+      "title": "CDPだけで顧客理解は不十分？Google Cloudと生活者データで実現する”Why 分析”最前線(Google Cloud Next Tokyo 26セッションレポート) | G-gen Tech Blog",
+      "url": "https://blog.g-gen.co.jp/entry/next-tokyo-26-beyond-cdp-why-analysis-google-cloud",
+      "summary": "G-genの奥田が報告。Google Cloud Next 26 Tokyoのセッションでは、CDPだけでは顧客理解が不十分で、量より種類の異なるデータや消費者データを使った「Why分析」が必要と説き、勘や経験を補う5W1Hの読み解き力が強調されました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-03T08:30:00.000Z",
+      "contentHash": "82cc703849cd"
+    },
+    {
+      "id": "b1d0403a2d6f",
+      "title": "More German than many Germans",
+      "url": "https://mertbulan.com/more-german-than-many-germans/",
+      "summary": "2017年、トルコ出身の筆者は就職のためErasmus奨学金でハンブルクへインターン。初めての海外体験で抱いていたドイツ人の固定観念は、親切なルームメイトやその恋人との交流で覆された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-03T06:00:14.000Z",
+      "contentHash": "caeba763a5e3"
+    },
+    {
+      "id": "7bccf2487afc",
+      "title": "Apple engineer says he was fired after refusing to send cust. device IDs to AT&T",
+      "url": "https://runtimewire.com/article/exclusive-apple-engineer-says-he-was-fired-after-refusing-to-send-customer-devic",
+      "summary": "16年勤務のApple技術者が、顧客同意なしにIMEIを非暗号化メールでAT&Tに送る慣行を問題視して拒否したため解雇されたと訴訟。Appleは不正を否定し正当解雇と主張。裁判は2027年11月。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-03T03:00:52.000Z",
+      "contentHash": "5745652b81e1"
+    },
+    {
+      "id": "f952f7469153",
+      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+      "summary": "AI生成の虚偽記者が送った取材メールで発覚した匿名ニュースサイト「Acutus」は、実在の記者・編集者が不明のまま短期間で94本の記事を公開。AI生成と判定され、AI業界批判者を攻撃する内容が多く、Targeted Victoryとの関係を示すリンクも見つかった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-03T02:30:30.000Z",
+      "contentHash": "d1bfde3096b2"
+    },
     {
       "id": "06b3afd6ba1d",
       "title": "「グラフエンジニアリング」とは何か？ | サーバーワークスエンジニアブログ",
@@ -36,6 +117,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-03T02:17:27.000Z",
       "contentHash": "922fd4bd58e7"
+    },
+    {
+      "id": "29578a85932d",
+      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "summary": "Qwen.aiが新モデル「Qwen-3.8」を発表。マルチモーダル対応で推論・コード・長文理解などの性能が向上し、APIやホスティングで利用可能。各種ベンチで高評価を得た一方、公開範囲や安全性について議論が沸騰した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-03T02:16:09.000Z",
+      "contentHash": "6e15319b726d"
     },
     {
       "id": "db6ccbddcd1d",
@@ -92,13 +182,49 @@
       "contentHash": "ce8bdaf086ab"
     },
     {
+      "id": "f89c9b669d2d",
+      "title": "Show HN: Isopolis – Isometric pixel map of SF",
+      "url": "https://sf.isopolis.city/",
+      "summary": "申し訳ありませんが外部リンクに直接アクセスできません。記事本文をここに貼っていただければ、指定の200文字以内で日本語要約します。Hacker Newsのコメントも要約希望ならそれも貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-03T00:46:38.000Z",
+      "contentHash": "96ae05e9779d"
+    },
+    {
+      "id": "9df14468c93a",
+      "title": "Show HN: ssh ssh.place",
+      "url": "https://ssh.place",
+      "summary": "外部リンク先を直接参照できないため、記事本文を貼り付けるか要点を教えてください。いただければ、指定の200文字以内で日本語要約を作成します。Hacker Newsのコメント要約も希望ならその旨を書いてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-03T00:23:21.000Z",
+      "contentHash": "34108b4d6b34"
+    },
+    {
+      "id": "8b89f65f057f",
+      "title": "Why Book Corners won't sync contributions back to OpenStreetMap",
+      "url": "https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/",
+      "summary": "Book Cornersはユーザー提出の公開本棚をOSMへ返送する機能を検討したが、同意や管理者確認を想定しても外部データ扱いやスクリプト編集に関するOSMの運用・コミュニティ要件が厳しく、実装を断念した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-03T00:12:16.000Z",
+      "contentHash": "fa492c1a2403"
+    },
+    {
+      "id": "b2425a5889f3",
+      "title": "Show HN: Shitty – fast terminal. Memory-unsafe and faster than yours",
+      "url": "https://github.com/pg83/shitty",
+      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文か主要部分をここに貼るか、要約してほしい対象（GitHubリポジトリかHNコメント）を教えてください。確認後、200字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-02T23:05:41.000Z",
+      "contentHash": "6ae271a5ce56"
+    },
+    {
       "id": "82db3c9b40ee",
       "title": "AI poster wins Ohio State Fair contest",
       "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
-      "summary": "オハイオ州フェアのポスターコンテストは、2024年はAI使用を申告すれば許可していたが、技術の変化を受け2027年大会からAI使用を禁止する方針を検討中。絵画など他部門も既にAI不可で、来場者の意見を反映しつつ州内アーティストを称える方針を継続する。",
+      "summary": "オハイオ州フェアのポスターコンテスト案内。応募方法、参加資格、サイズ・素材・提出期限、審査基準や賞（賞金含む）、入賞作の展示・フェア広報での使用などの規定と申込先が掲載されている。",
       "source": "Hacker News",
       "publishedAt": "2026-08-02T22:43:47.000Z",
-      "contentHash": "7bcfda6a46ba"
+      "contentHash": "04cad8398701"
     },
     {
       "id": "e76b5053619e",
@@ -113,10 +239,10 @@
       "id": "31e3a531e176",
       "title": "Rachika Nayar’s Heaven Come Crashing is an instrumental epic of desperate longing",
       "url": "https://www.theverge.com/entertainment/974271/rachika-nayars-heaven-come-crashing-music-review",
-      "summary": "Rachika Nayarの新作『Heaven Come Crashing』はギター重視のアンビエント作品で、ほとんど打楽器がない中、タイトル曲で突如ドラムが炸裂してすぐ静寂に戻る対比が印象的。M83の別世界のような切迫したロマンを帯びている。",
+      "summary": "Rachika Nayarの新作『Heaven Come Crashing』は、切実な longing を帯びたインスト盤。大半は打楽器控えめだが、タイトル曲で2分半に爆発的なドラムが現れ、ギター主体のアンビエントがM83の別宇宙版のように展開する。",
       "source": "The Verge",
       "publishedAt": "2026-08-02T21:53:15.000Z",
-      "contentHash": "79d1d7078910"
+      "contentHash": "8919aa5f2727"
     },
     {
       "id": "5e670d2ecc4a",
@@ -140,10 +266,10 @@
       "id": "93247f3782b4",
       "title": "Fender’s CEO seems to think your bandmates are just analog AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
-      "summary": "フェンダーCEOのエドワード「バド」コールが、バンド仲間やカバー曲の習得を「アナログなAI」に例える発言をし、ストラト形状の著作権主張や制止状騒動と相まって、ギタリスト界隈から強い反発と不買の動きが広がっている。",
+      "summary": "フェンダーCEOのエドワード「バド」コールが、バンド仲間やカバー曲の習得を「アナログAI」に例した発言が波紋。ストラト形状の権利主張での差し止め騒動と相まって、ギタリストや人気YouTuberの反発や購入ボイコットが広がっている。",
       "source": "The Verge",
       "publishedAt": "2026-08-02T19:36:08.000Z",
-      "contentHash": "279b58dcbcc5"
+      "contentHash": "7a3478fcdce0"
     },
     {
       "id": "6fb9e6914950",
@@ -248,10 +374,10 @@
       "id": "4ae03ca3cd2c",
       "title": "Gemini Robotics ER 2 の概要",
       "url": "https://note.com/npaka/n/n7910aa0ceb7f",
-      "summary": "Google DeepMindのGemini Robotics ER 2は、身体性推論VLMで、画像から物体検出・正規化座標出力、軌道候補生成、多段作業計画、動画で進捗判定、VLA/API呼び出しやマルチロボ調整を行い、具体的なモーター制御は下位モデルへ委譲する。Gemini Robotics 2は具体動作生成担当。",
+      "summary": "Gemini Robotics ER 2は2026年7月30日発表のGoogle DeepMindの身体性推論モデル。画像から物体検出・座標出力、軌道候補生成、多段タスク計画、動画で進捗判定、VLA/API呼び出しや複数ロボットの連携を行い高レベル判断を担い、細かい運動制御は下位モデルへ委任する。",
       "source": "npaka",
       "publishedAt": "2026-08-02T10:21:03.000Z",
-      "contentHash": "0214c472024a"
+      "contentHash": "a203c5f8b757"
     },
     {
       "id": "c68fef2c0873",
@@ -1346,10 +1472,10 @@
       "id": "5a01c69735c0",
       "title": "Gemini Spark now integrates with Chrome",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
-      "summary": "最新のGemini Sparkアップデート概要：Chrome上で直接ウェブを閲覧できる機能が追加され、検索・参照能力や最新情報取得が強化されました。",
+      "summary": "Gemini SparkがChromeでのウェブ閲覧機能を追加し、利用可能な国とユーザーを拡大しました。新機能によりウェブブラウジングを活用できるようになります。",
       "source": "Gemini",
       "publishedAt": "2026-07-30T20:00:00.000Z",
-      "contentHash": "8129f6d11b81"
+      "contentHash": "1f9da5d23b51"
     },
     {
       "id": "3c5c702b7955",
@@ -3101,10 +3227,10 @@
       "id": "982ba5238e6b",
       "title": "Unity CLI の使い方",
       "url": "https://note.com/npaka/n/n00f0b44457a2",
-      "summary": "Unityは2026年7月、ターミナルでEditorのインストール・モジュール追加・プロジェクト起動・認証・更新を行える公式CLIを公開。単体バイナリでCI向け、Unity Pipelineで起動中Editorの操作も可能。導入手順と主要コマンドを解説。experimental。",
+      "summary": "「Unity CLI」は2026年7月発表の公式コマンドラインツールで、Hub不要にEditorのインストール・モジュール追加・プロジェクト起動・認証・更新やCI自動化が可能。experimentalで導入・主要コマンド例を解説。",
       "source": "npaka",
       "publishedAt": "2026-07-27T20:56:28.000Z",
-      "contentHash": "16579912a9a9"
+      "contentHash": "2f5fed891026"
     },
     {
       "id": "94ec6bca6372",
@@ -3461,10 +3587,10 @@
       "id": "806d72a1a5fd",
       "title": "Codex Micro の使い方",
       "url": "https://note.com/npaka/n/n077409095a5a",
-      "summary": "「Codex Micro」の使い方を解説した記事。製品の概要や導入から設定までの手順（Codex Micro、Codex Micro Setup）をまとめており、設定方法やポイントを順に確認できる内容です。",
+      "summary": "Codex MicroはWork LouderのChatGPT Codex専用小型コントローラー。6つのAgentキーでスレッド切替とRGBによる状態表示ができ、Commandキーやダイヤル・ジョイスティックに操作を割当可能。電源・Bluetooth操作や、Inputソフトで最大6レイヤーの詳細カスタムとAppSense自動切替に対応。",
       "source": "npaka",
       "publishedAt": "2026-07-27T00:42:45.000Z",
-      "contentHash": "3c8f7801816d"
+      "contentHash": "4cf5136a431e"
     },
     {
       "id": "16797b055e4e",
@@ -3704,10 +3830,10 @@
       "id": "002f0d39ba83",
       "title": "Blenderで何が作れる？ ゲーム・アニメなど5つの活用例",
       "url": "https://note.com/npaka/n/nf35c969ab62e",
-      "summary": "Blenderはモデリングから質感設定、アニメーション、レンダリング、合成まで可能な総合3DCGソフト。ゲーム・VRアセット、映像・アニメのプレビズと3Dアニメ、広告や建築ビジュアル、3Dプリント、実写合成やイラスト制作など多用途に対応します。",
+      "summary": "Blenderはモデリング、質感設定、アニメーション、レンダリングまで行える総合3DCGソフト。ゲーム/VRアセット作成・編集、映像のプレビズと3Dアニメ、広告・建築ビジュアル、3Dプリント用モデル、実写合成やイラスト制作など、多用途に活用できる。",
       "source": "npaka",
       "publishedAt": "2026-07-26T11:56:49.000Z",
-      "contentHash": "43423ed0a127"
+      "contentHash": "dd0965f7f1d9"
     },
     {
       "id": "24a1a3cbb2bc",
@@ -3785,10 +3911,10 @@
       "id": "2a3ed98ae137",
       "title": "Claude Opus 5 の概要",
       "url": "https://note.com/npaka/n/n43bce8f77785",
-      "summary": "記事は「Claude Opus 5」の導入記事で、製品の概要や主な特徴、利点、想定される活用例を簡潔にまとめて紹介している。詳細は本文を参照。",
+      "summary": "Anthropicが2026/7/24公開のClaude Opus 5は、コーディング・調査・長時間エージェント向け上位モデル。自己検証や長時間作業が強化され、Effortで思考量調整、Fast mode搭載。Fable 5に近い性能を半額のAPI料金で提供し、コンテキストは100万トークン対応。",
       "source": "npaka",
       "publishedAt": "2026-07-26T02:14:07.000Z",
-      "contentHash": "e859978ff35a"
+      "contentHash": "cb70c26ec600"
     },
     {
       "id": "a001c773bf7d",
@@ -4028,10 +4154,10 @@
       "id": "2ded79f9d226",
       "title": "ChatGPT Desktop で Blender MCP を試す",
       "url": "https://note.com/npaka/n/nf4f1b11bf395",
-      "summary": "ChatGPT Desktop上でBlender用「MCP」を試用し、導入手順、主な機能、操作感、利点と課題を整理してまとめた記事。導入時の注意点や実用性評価、改善点の提案も含む。",
+      "summary": "ChatGPT DesktopでBlender MCPを試用。自然言語でオブジェクト作成・移動・マテリアル設定などBlender操作が可能。公式MCPを使い、ChatGPT Desktop・Blender・Claude Desktopを設定（config.toml編集、Blenderへ拡張をDrag&Drop）して接続し、3Dキャラの生成・調整を実行できた。",
       "source": "npaka",
       "publishedAt": "2026-07-25T05:41:09.000Z",
-      "contentHash": "33a24815d437"
+      "contentHash": "7e20330dedc8"
     },
     {
       "id": "fb607ac4bdda",
@@ -8874,132 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-07-15T19:42:53.000Z",
       "contentHash": "8a58ae19a2a8"
-    },
-    {
-      "id": "9023146de9de",
-      "title": "Enshittification",
-      "url": "https://www.theverge.com/policy/966111/cyclospora-explosive-diarrhea-parasite-fda-cdc-taco-bell",
-      "summary": "激しい下痢を引き起こす寄生虫「シクロスポラ」の今年の拡大は、連邦予算の削減で公衆衛生の監視や対策が弱まり、今後の感染対策のあり方に不安をもたらしている、という指摘の論考です。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-15T18:40:00.000Z",
-      "contentHash": "260436292592"
-    },
-    {
-      "id": "cbcc3b79a7eb",
-      "title": "Something&#8217;s glowing on the Pixel 11&#8217;s camera bar",
-      "url": "https://www.theverge.com/tech/966120/google-pixel-11-camera-bar-teaser",
-      "summary": "GoogleのPixel 11ティザー動画で、カメラバー脇に発光・色変化する「球体」が確認された。Android 17の「Pixel Glow」やGemini AI関連の可能性が指摘されており、新機種は8月12日発表、価格上昇の噂あり。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-15T18:24:22.000Z",
-      "contentHash": "0ea6660c1d10"
-    },
-    {
-      "id": "f8ac04336daa",
-      "title": "Inkling – Open-Weights 975B Parameter LLM",
-      "url": "https://thinkingmachines.ai/inkling/",
-      "summary": "Inkling Openはテキスト・画像・音声対応の汎用で効率的なオープンモデル。微調整可能でTinkerで試用可。仕様は総975B、アクティブ41BのMoE、コンテキスト最大1Mトークン（Tinkerは64K/256K）。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-15T18:14:23.000Z",
-      "contentHash": "78c4220ea9e5"
-    },
-    {
-      "id": "8c3acf43834d",
-      "title": "Inkling: Our Open-Weights Model",
-      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
-      "summary": "Tinkerは新モデル「Inkling」を公開。Mixture‑of‑Experts（975B総/41Bアクティブ）、最大1Mトークン文脈、テキスト・画像・音声・動画で45兆トークン学習。軽量版Inkling‑Small（12Bアクティブ）もあり、Tinkerで微調整やPlaygroundが利用可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-15T18:12:45.000Z",
-      "contentHash": "6a6374ac46d2"
-    },
-    {
-      "id": "060616c8bf83",
-      "title": "Lucid’s bankruptcy rumor is a bad sign for the EV future",
-      "url": "https://www.theverge.com/transportation/965924/lucids-bankruptcy-rumor-is-a-bad-sign-for-the-ev-future",
-      "summary": "ルーシッドの破産報道で株価が急落、同社は「完全に虚偽」と否定し来年までの資金は確保と説明。ただし不安は波及しリヴィアンやポールスターの株価も下落、EV専業の脆弱性が浮上。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-15T17:17:56.000Z",
-      "contentHash": "7570215c28d3"
-    },
-    {
-      "id": "feb4ed9bf5a6",
-      "title": "Netflix tries to recapture Stranger Things magic with nostalgic re-release",
-      "url": "https://www.theverge.com/entertainment/965980/stranger-things-vhs-edition-netflix",
-      "summary": "Netflixが『ストレンジャー・シングス』10周年でシーズン1をVHS風フィルター付きの「VHS Special Edition」として再配信。80年代風の画質が説得力あり、再視聴に最適。ドキュメンタリーやアニメ展開も続く。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-15T16:37:08.000Z",
-      "contentHash": "e040ae58772e"
-    },
-    {
-      "id": "43bf7905f122",
-      "title": "Collection of Digital Clock Designs",
-      "url": "https://clocks.dev",
-      "summary": "そのURLには直接アクセスできません。記事本文をここに貼っていただければ、200字以内で要約します。HNコメントも含めてまとめたい場合はその旨を教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-15T16:33:15.000Z",
-      "contentHash": "a9f454534387"
-    },
-    {
-      "id": "9b4dd2ef85cb",
-      "title": "Starlink unlimited aviation plan to rise from $10k/month to $20k",
-      "url": "https://www.corporatejetinvestor.com/news/starlink-price-rise-reckless-says-correnti/",
-      "summary": "申し訳ありませんが外部リンクへ直接アクセスできません。記事本文か主要抜粋を貼っていただければ、200文字以内で要約します。HNコメントも同時に要約可能です。どちらを要約しますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-15T16:22:43.000Z",
-      "contentHash": "cf4738964610"
-    },
-    {
-      "id": "836f3dfa69d4",
-      "title": "Open-source memory for coding agents, synced over SSH",
-      "url": "https://github.com/vshulcz/deja-vu/",
-      "summary": "申し訳ありませんが、外部URLに直接アクセスできないため記事を取得できません。記事本文や主要箇所、あるいはREADMEやHNコメントを貼り付けていただければ、200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-15T16:15:03.000Z",
-      "contentHash": "ef50e31b9c98"
-    },
-    {
-      "id": "9e1efe23208a",
-      "title": "Samsung shows off ‘brand new shape’ for Z Fold 8 in Spider-Man teaser",
-      "url": "https://www.theverge.com/tech/965997/samsung-spider-man-galaxy-z-fold-8-teaser",
-      "summary": "Samsungが「スパイダーマン: Brand New Day」予告で、幅広い“パスポート”風の新形状Galaxy Z Fold 8をチラ見せ。Z Flip 8やWatch Ultra 2、Z Fold 8 Ultraも登場。新機種は7月22日発表予定。Appleも折りたたみiPhoneを準備中と噂。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-15T16:05:34.000Z",
-      "contentHash": "637499ef5fbf"
-    },
-    {
-      "id": "c20f8533b5fe",
-      "title": "OpenAI finally launches hardware… for Codex",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
-      "summary": "OpenAIがコーディング向けハードを初公開。Codex用の限定コラボ「Codex Micro」はWork Louder製の13スイッチとジョイスティック、ダイヤル、タッチセンサーを備え、エージェントの監視・操作用。ジョニー・アイヴ関係のスマートスピーカーとは別案件。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-15T16:00:00.000Z",
-      "contentHash": "32e20fedba35"
-    },
-    {
-      "id": "b6616619782f",
-      "title": "Daylight saving time is a step closer to becoming permanent in the US",
-      "url": "https://www.theverge.com/policy/965952/daylight-saving-time-permanent-us-house",
-      "summary": "米下院はデイライトセービングを恒久化する「Sunshine Protection Act」を308対117で可決前進。常時時計を1時間進める案で、トランプは節約を主張するが労力損失論には異論あり。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-15T15:29:37.000Z",
-      "contentHash": "7228c89ac23b"
-    },
-    {
-      "id": "d014e04b6789",
-      "title": "JBL&#8217;s Flip 7 speaker is small, versatile, and 40 percent off",
-      "url": "https://www.theverge.com/gadgets/965640/jbl-flip-7-nothing-cmf-buds-pro-2-deal-sale",
-      "summary": "JBLの小型BluetoothスピーカーFlip 7がWootで7/17まで90日保証付き$89.95（$70引き・40%オフ）の最安値。水筒サイズでクリアな音＆屋外対応。ほかに$40のノイズキャンセリングイヤホンやロボット式ボタン押し器、Philips Hue屋外ライトストリップもセール中。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-15T15:16:53.000Z",
-      "contentHash": "57797d43d29d"
-    },
-    {
-      "id": "dbf3ff1f8760",
-      "title": "8BitDo’s FlipPad is the most pocketable way to turn your phone into a Game Boy",
-      "url": "https://www.theverge.com/tech/964658/8bitdo-flippad-controller-gamepad-smartphone-price-hands-on-availability",
-      "summary": "8BitDoの「FlipPad」はCES2026で発表された、スマホの充電端子に接続する超小型有線ゲームパッド。価格は約30ドルで、GameSirのPocket Tacoより薄く軽く安価にスマホをGame Boy風携帯機に変える。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-15T15:00:00.000Z",
-      "contentHash": "973e9f14496e"
     }
   ]
 }
