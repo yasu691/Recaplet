@@ -1,6 +1,294 @@
 {
-  "generatedAt": "2026-08-04T10:56:55.238Z",
+  "generatedAt": "2026-08-05T02:59:06.490Z",
   "items": [
+    {
+      "id": "667e7de39195",
+      "title": "Velero実践：クラスターリソースのバックアップ | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/53540",
+      "summary": "前回はVeleroのインストールとMinIOを保存先にした初期設定を解説。今回の記事では、構築済み環境を前提にクラスターリソースのバックアップ手順と実践的な運用方法を紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-05T01:26:48.000Z",
+      "contentHash": "1d806b10c0d5"
+    },
+    {
+      "id": "daceb9c9f47b",
+      "title": "エピックオーナー制で、チームのプロジェクト推進力を底上げする | Linc'well, inc.のフィード",
+      "url": "https://zenn.dev/lincwell_inc/articles/d51e0eed2ff28c",
+      "summary": "チームで大型機能開発のため「エピックオーナー」役を導入。テックリードへの負荷集中を緩和し、要件定義・設計・リリース計画など技術的意思決定を主導することで開発を円滑化。導入効果と運用上の注意点を報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-05T01:09:22.000Z",
+      "contentHash": "1836260ed41c"
+    },
+    {
+      "id": "0aaa38957e9b",
+      "title": "【OCI】Oracle AI Autonomous Database 2025 Professional合格記 | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/08/05/100142",
+      "summary": "エーピーコミュニケーションズの松尾が、Oracle AI Autonomous Database 2025 Professional合格の学習法を紹介。資格概要、試験範囲、教材、学習サイクル、工夫点、試験のポイントや感想をまとめています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-05T01:01:42.000Z",
+      "contentHash": "c41512d6c492"
+    },
+    {
+      "id": "3eb8f5bb4e2d",
+      "title": "タイムボクシングのすすめ | TOKIUMプロダクトチーム テックブログのフィード",
+      "url": "https://zenn.dev/tokium_dev/articles/timeboxing-design-and-practice",
+      "summary": "TOKIUMのエンジニアで今年3月から開発チームリーダーの私。チームは会計ソフト向けの顧客別フォーマットを担当し、外部からの相談や確認が多い。就任後はレビューや会議が増え、コーディング時間が減り自分の仕事が進まない。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-05T01:00:05.000Z",
+      "contentHash": "0de454cae85a"
+    },
+    {
+      "id": "d21fd1e88ab4",
+      "title": "コックからPdMへ ─ 建設業界の「お金の流れ」に向き合う半年 | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/08/05/100000",
+      "summary": "2026年1月にプロダクト本部でANDPAD請求管理のPdMに就任した持田が、入社半年を振り返る入社エントリ。コックからの異色のキャリア経緯（高校時代から厨房で修業）やアンドパッドを選んだ理由、半年働いて感じたことを、PdM転職や建設業界プロダクト開発に興味ある人向けに共有します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-05T01:00:00.000Z",
+      "contentHash": "7e948cafa6ec"
+    },
+    {
+      "id": "b8fc64a8ed59",
+      "title": "Claude Enterpriseのアカウント管理と利用上限管理を自動化している話 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/08/05/100000",
+      "summary": "情シスブログリレー第3回。技術本部コーポレートシステムの小松が、従業員体験（EX）を簡素化するため全社1000名超にClaude Enterpriseを導入した事例を紹介。配布対象・機能権限・利用上限など全社展開の運用課題に直面した点を述べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-05T01:00:00.000Z",
+      "contentHash": "e00c54e9208a"
+    },
+    {
+      "id": "81d46d9f84d7",
+      "title": "KubeCon + CloudNativeCon Japan 2026に参加しました | Money Forward Developers Blog",
+      "url": "https://moneyforward-dev.jp/entry/2026/08/05/100000",
+      "summary": "7月29–30日にパシフィコ横浜で開催されたKubeCon + CloudNativeCon Japan 2026に参加しました。Kubernetes中心のクラウドネイティブ開発者やコミュニティが集うベンダーニュートラルなカンファレンスで、日本開催は2回目。会場の様子やセッションの感想を紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-05T01:00:00.000Z",
+      "contentHash": "050660584895"
+    },
+    {
+      "id": "b12aae4b4568",
+      "title": "GuardDuty Malware Protection for S3のスキャン時間を計測してみた | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/08/05/095515",
+      "summary": "Amazon GuardDutyのMalware Protection for S3はS3のファイルを自動でマルウェアスキャンし、EventBridgeと連携して結果を受け取る。公式に所要時間が記載されていないため、1KB〜10GBのファイルで実測した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-05T00:55:15.000Z",
+      "contentHash": "9956856a5931"
+    },
+    {
+      "id": "721787207349",
+      "title": "エッジAI×YOLOで混雑検知！LLMと連携して接客提案まで試してみた | [公開中] AQ Tech Blog",
+      "url": "https://techblog.asia-quest.jp/202608/streamlit-yolo-person-counting-edge",
+      "summary": "店舗・オフィス・イベント会場・公共施設など、人が集まる場での混雑可視化は業種を問わず必要とされている。人員配置や案内、快適な空間づくりに活用でき、まずは「今何人いるか」をリアルタイムで把握することが第一歩だ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-05T00:41:05.000Z",
+      "contentHash": "1affd0bdb31d"
+    },
+    {
+      "id": "1a67e7628250",
+      "title": "【Microsoft×生成AI連載】【やってみた】PowerPointの「Edit with Copilot」デフォルトスキル3つを使ってみた | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/08/05/093458",
+      "summary": "PowerPointの「Edit with Copilot」3機能（プレゼンのレビュー、スライドの視覚化、質疑応答準備）を実際に試し、操作手順、所要時間、注意点を紹介しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-05T00:34:58.000Z",
+      "contentHash": "23ffe8882a4c"
+    },
+    {
+      "id": "002205d8a5fd",
+      "title": "Don’t screw this up, Marvel",
+      "url": "https://www.theverge.com/entertainment/975297/spider-man-brand-new-day-marvel-sony-xmen-doomsday",
+      "summary": "『スパイダーマン：Brand New Day』は1週間で10億ドルを突破し過去最大の初週末を記録したが、記事はMCUが依然不安定であり、マーベルはここで失敗できないと警鐘を鳴らしている。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-04T23:20:56.000Z",
+      "contentHash": "eb64d9c955bf"
+    },
+    {
+      "id": "e762e41d1a2b",
+      "title": "libexpat now funded by the City of Munich for up to 6 months",
+      "url": "https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/",
+      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文を貼り付けていただければ、200文字以内で日本語要約を作成します。もしくは重要な段落を送ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-04T23:18:12.000Z",
+      "contentHash": "b184f49804fd"
+    },
+    {
+      "id": "ffbe90d5ea59",
+      "title": "Pi's Minimalism Is Its Advantage",
+      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
+      "summary": "申し訳ありませんが外部URLへ直接アクセスできません。記事本文（または主要部分）を貼り付けてください。いただければ200字以内で日本語要約します。Hacker Newsのコメント要約も可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-04T22:22:12.000Z",
+      "contentHash": "52021e6fca45"
+    },
+    {
+      "id": "a684e6566224",
+      "title": "Now you can securely link multiple phones to one Signal account",
+      "url": "https://www.theverge.com/tech/975407/signal-linked-devices-sync",
+      "summary": "Signalが複数のスマホ（Android/iPhone）を同一番号で安全にリンク可能に。新端末へ過去メッセージのE2E転送を選べ、各端末で送受信可能。Android8.20/iOS8.22で配信。大型端末向けUI改善も。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-04T22:02:46.000Z",
+      "contentHash": "8fd5f25008b8"
+    },
+    {
+      "id": "4c140296e301",
+      "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
+      "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
+      "summary": "申し訳ありませんが外部リンクを直接参照できません。記事本文を貼り付けるか要点を教えていただければ、200文字以内で日本語に要約します。HNの議論要約も可能です。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-04T22:01:41.000Z",
+      "contentHash": "a4fd77c2bcf4"
+    },
+    {
+      "id": "24b3d969465a",
+      "title": "Thanks FedEx, This Is Why We Keep Getting Phished (2024)",
+      "url": "https://www.troyhunt.com/thanks-fedex-this-is-why-we-keep-getting-phished/",
+      "summary": "Troy HuntがFedExのメール事例を挙げ、第三者配信やオープンリダイレクト、SPF/DKIM/DMARC未整備でブランド偽装が容易になりフィッシングが横行すると指摘。企業にはDMARCの強化やリンク設計見直し、利用者には送信元やURL確認を促している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-04T21:09:39.000Z",
+      "contentHash": "869606dbf22c"
+    },
+    {
+      "id": "9be0fafa6f21",
+      "title": "AMD&#8217;s data center business is booming while gaming takes a backseat",
+      "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+      "summary": "AI需要でAMDのデータセンター売上は前年同期比107%増の$6.7Bに達し、CEOは2027年も倍増を見込む。一方、ゲーム事業は部品不足と価格上昇で売上が31%減の$779Mに落ち込んだ。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-04T20:57:49.000Z",
+      "contentHash": "6cef547148d2"
+    },
+    {
+      "id": "d2237ff1ca6b",
+      "title": "I am retiring from fulltime writing (& pseudonymity) to launch Guardian Angel",
+      "url": "https://twitter.com/gwern/status/2084739205071343837",
+      "summary": "すみません、外部リンクに直接アクセスできません。記事本文か要点を貼っていただければ、200文字以内で日本語要約します。HNコメントの要約も可。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-04T20:48:17.000Z",
+      "contentHash": "454ecc3e083b"
+    },
+    {
+      "id": "30d8d6544d2f",
+      "title": "SpaceX made more revenue as an AI company than a space company",
+      "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
+      "summary": "SpaceXのAI収入は前年の3倍超で26億ドルに増加し、主に他社への計算資源提供が要因。AI部門は今四半期15億ドルの赤字（前年よりやや改善）。AnthropicやGoogleと提携し、資本支出は$18.37B。全体では依然赤字。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-04T20:47:55.000Z",
+      "contentHash": "14d4b2307754"
+    },
+    {
+      "id": "7321d4167287",
+      "title": "EA is now a private company",
+      "url": "https://www.theverge.com/games/974736/ea-private-company-deal-closed",
+      "summary": "EAが550億ドルで非公開化。サウジPIF主導の投資団（PIFが93.4％保有）に買収され、200億ドルの債務を伴う過去最大のLBO。BattlefieldやEA Sports FC、Madden、The Simsなど大作重視に傾く見込み。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-04T20:18:14.000Z",
+      "contentHash": "c7ee749c500e"
+    },
+    {
+      "id": "bffb46e427c9",
+      "title": "Oxide Computer raises $445M (SEC Form D)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
+      "summary": "外部リンクに直接アクセスできないため、該当記事本文（または主要部分）を貼ってください。200字以内で日本語要約します。なお、SEC提出書類だけを要約するか、HNのコメントも含めるかも教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-04T20:13:40.000Z",
+      "contentHash": "4099f35ddf36"
+    },
+    {
+      "id": "61558b1a479c",
+      "title": "Telegram CEO says an extortionist planted CSAM in a chat to get it pulled from the App Store",
+      "url": "https://www.theverge.com/tech/975300/telegram-app-store-takedown-extortion-pavel-durov",
+      "summary": "TelegramのCEOパベル・デュロフは、恐喝者が公開チャットにCSAMを仕込みApp StoreからTelegramを一時削除させたと主張。Appleが事前連絡なしに削除したのはUGCアプリ全体のリスクを招くと警告し、報告の操作で正当なコミュニティが狙われていると述べた。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-04T19:11:05.000Z",
+      "contentHash": "d7774ec836e7"
+    },
+    {
+      "id": "c99ec862b4e7",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "summary": "OpenAIは最近の第三者によるサイバーセキュリティ評価の事案を説明し、AIモデルのテストと評価を強化するための新たな安全策を公表した。",
+      "source": "OpenAI",
+      "publishedAt": "2026-08-04T19:00:00.000Z",
+      "contentHash": "cbad791bc0d0"
+    },
+    {
+      "id": "e0c34ef06dec",
+      "title": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
+      "url": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
+      "summary": "申し訳ありませんが、外部リンクを直接開けません。記事本文を貼っていただければ、200字以内で日本語要約します。主要段落や抜粋だけでも構いません。見出しだけでの推測要約をご希望ならその旨お伝えください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-04T18:51:38.000Z",
+      "contentHash": "b529e3584ccf"
+    },
+    {
+      "id": "b714c9981f8f",
+      "title": "Waymo in Dallas",
+      "url": "https://waymo.com/blog/shorts/dallas-open-to-all/",
+      "summary": "Waymoがダラスで完全自動運転サービスを一般公開。事前の試験と安全対策を経て、誰でもアプリで予約できるようにし、地域の移動利便性向上を目指す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-04T18:29:41.000Z",
+      "contentHash": "b1f3cdf819a5"
+    },
+    {
+      "id": "8907fe309d74",
+      "title": "Web Security is Too Hard",
+      "url": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
+      "summary": "申し訳ありませんが外部サイトに直接アクセスできないため記事を取得できません。記事本文をコピーして貼るか、要点を教えてください。いただければ200字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-04T18:29:32.000Z",
+      "contentHash": "c6fccb5a3895"
+    },
+    {
+      "id": "490ffaa31967",
+      "title": "Why some people mow a lawn better than others",
+      "url": "https://pudding.cool/2026/06/mow/",
+      "summary": "外部のURLに直接アクセスできないため、記事本文を貼り付けるか主要段落を送ってください。いただければ200字以内で要約します。HNのコメントも要約希望なら教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-04T18:06:12.000Z",
+      "contentHash": "44c7cca9f385"
+    },
+    {
+      "id": "8a853907275a",
+      "title": "How an OpenAI influencer trip backfired ",
+      "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
+      "summary": "OpenAIが初のブランドトリップ「Summer Club」をNY近郊の自然リトリート（Wildflower Farmsと推定）で開催。招待インフルエンサーはキャビンや限定グッズ、イニシャル入りパジャマの写真をSNSに投稿した。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-04T17:46:41.000Z",
+      "contentHash": "48f823b8ac44"
+    },
+    {
+      "id": "5b3cf240072c",
+      "title": "Lenovo&#8217;s Legion Go S with SteamOS is down to its lowest price ever",
+      "url": "https://www.theverge.com/gadgets/975113/lenovo-legion-go-s-steamos-deal-sale",
+      "summary": "Steam Deck OLEDが値上げされる中、LenovoのSteamOS搭載ハンドヘルド「Legion Go S（Z2 Go）」がクーポンコードEXTRASAVEAFFで通常$1,137→約$636と過去最安に。2024年のレビューでも高評価。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-04T17:35:04.000Z",
+      "contentHash": "0cdeacd5cc12"
+    },
+    {
+      "id": "4bfbf86462cb",
+      "title": "‘Not healthy’ LLM use is more common than you think",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
+      "summary": "人気ユーチューバーのハンク・グリーンがAI利用を「不健全」として制作を一時休止。脚本ではなく資料検索に使ったと説明。著作権や誤情報の問題に加え、明確な精神病に至らない中間の強迫的・依存的なAI利用が見過ごされていると指摘。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-04T17:33:46.000Z",
+      "contentHash": "0afce1f9f68d"
+    },
+    {
+      "id": "b08ff94f4212",
+      "title": "BMW’s in-car Spider-Man ad is villain behavior",
+      "url": "https://www.theverge.com/transportation/975172/bmw-spider-man-movie-infotainment-ad",
+      "summary": "BMWがダッシュボード（コントロールディスプレイ）にスパイダーマン新作のバナー広告を表示していると確認。7月27日〜8月10日、関連装備の車で70か国以上に配信され、映画宣伝のブランド提携の一環で、オーナーからは批判が出ている。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-04T17:17:14.000Z",
+      "contentHash": "d2d5f545fc66"
+    },
+    {
+      "id": "58ba351a2139",
+      "title": "The latest AI news we announced in July 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+      "summary": "Googleは7月に、スケール対応の新Geminiモデルやロボット向けGemini Robotics ER2、Gemini Sparkの自動化、動画・音楽制作ツール、アプリ連携・Android移行、山火事検知衛星など実用的AI機能を発表しました。",
+      "source": "Gemini",
+      "publishedAt": "2026-08-04T13:00:00.000Z",
+      "contentHash": "7c6bcc5503e3"
+    },
     {
       "id": "b088409319e1",
       "title": "Can Reddit fend off a new wave of AI SEO spam?",
@@ -95,10 +383,10 @@
       "id": "455e66877c48",
       "title": "Software Design 2026年9月号 - いま注目のローカルLLM特集",
       "url": "https://note.com/npaka/n/n09447d05bbfc",
-      "summary": "『Software Design』2026年9月号はローカルLLM特集。Kimi K3やDeepSeek-V4-Flash-0731など高性能モデルで個人PCや社内サーバでの実用化が進む現状を、著者が第1章でモデル・ハードや実行環境の変化とともに解説。8月18日発売。",
+      "summary": "『Software Design』2026年9月号はローカルLLM特集。Kimi K3やDeepSeek‑V4‑Flash‑0731といった高性能ローカルLLMの登場で、個人PCや社内サーバでも実用的なLLMが動くようになった点を紹介しています。",
       "source": "npaka",
       "publishedAt": "2026-08-04T04:47:08.000Z",
-      "contentHash": "c2c2a5f8b901"
+      "contentHash": "884d1971c03b"
     },
     {
       "id": "4fc91eecb314",
@@ -198,6 +486,15 @@
       "source": "The Verge",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "contentHash": "996c53e9530e"
+    },
+    {
+      "id": "129511f54188",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "summary": "ChatGPT WorkとCodex向けの教育プラグインを発表。K–12や大学の教員・学生が学習、指導、研究、制作を行う際の支援機能を提供します。",
+      "source": "OpenAI",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "contentHash": "2e6313bcc60e"
     },
     {
       "id": "4a9b73e77846",
@@ -342,6 +639,15 @@
       "source": "The Verge",
       "publishedAt": "2026-08-03T15:00:00.000Z",
       "contentHash": "e5851598c558"
+    },
+    {
+      "id": "6193ed5523d0",
+      "title": "Inside our 353,000-person vibe coding course",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "summary": "GoogleとKaggleの「AI Agents: Intensive Vibe Coding」コースは、専門家による講義、技術ホワイトペーパーやノートブック、キャップストーンプロジェクトを提供し、35万3千人超の開発者が参加。Anant NawalgariaとBrenda Flynnが主導した。",
+      "source": "Gemini",
+      "publishedAt": "2026-08-03T15:00:00.000Z",
+      "contentHash": "8a9d1c8a8e47"
     },
     {
       "id": "0da41905fd13",
@@ -4136,10 +4442,10 @@
       "id": "806d72a1a5fd",
       "title": "Codex Micro の使い方",
       "url": "https://note.com/npaka/n/n077409095a5a",
-      "summary": "Work Louderの小型コントローラー「Codex Micro」の基本設定と使い方。AgentキーでCodexスレッドの切替・状態表示、Commandキーやダイヤルで操作割当、Bluetoothペアリング手順、Inputソフトで最大6レイヤーやAppSenseによる自動切替などカスタマイズ可能。",
+      "summary": "「Codex Micro」の使い方をまとめた記事で、製品概要と導入・セットアップ手順を中心に解説し、操作のポイントや詳細は本文の続きで紹介している。",
       "source": "npaka",
       "publishedAt": "2026-07-27T00:42:45.000Z",
-      "contentHash": "79cb66c3aa41"
+      "contentHash": "3c8f7801816d"
     },
     {
       "id": "16797b055e4e",
@@ -4460,10 +4766,10 @@
       "id": "2a3ed98ae137",
       "title": "Claude Opus 5 の概要",
       "url": "https://note.com/npaka/n/n43bce8f77785",
-      "summary": "Anthropicは2026年7月に「Claude Opus 5」を公開。大規模なコード修正や長時間エージェント作業、自己検証を強化し、Fable 5に近い性能をほぼ半額で提供。Effortで思考量調整、Fast modeや100万トークンの文脈窓を搭載。",
+      "summary": "記事本文を貼っていただけますか？全文があれば200文字以内で要約します。本文がない場合は、公開情報にもとづく「Claude Opus 5」の簡潔な要約（特徴・性能・用途・安全性など）を作成しますが、よろしいですか？",
       "source": "npaka",
       "publishedAt": "2026-07-26T02:14:07.000Z",
-      "contentHash": "f26f81682bde"
+      "contentHash": "e859978ff35a"
     },
     {
       "id": "a001c773bf7d",
@@ -8694,312 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-07-17T05:51:10.000Z",
       "contentHash": "47b1a090db1d"
-    },
-    {
-      "id": "ebb9acccbaac",
-      "title": "Pebble Mega Update – July 2026",
-      "url": "https://repebble.com/blog/pebble-mega-update-july-2026",
-      "summary": "Pebbleは3月から量産で2.3万台超を製造し先行予約の80%以上を発送。PT2未着分は黒・赤が7/31、灰・青が7/28出荷予定。間もなく在庫販売再開。サポートやアクセサリはrePebbleへ。ソフトはバッテリー最適化等を実施。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-17T03:53:38.000Z",
-      "contentHash": "8046eb568d45"
-    },
-    {
-      "id": "de45465840d0",
-      "title": "How Has Roman Concrete Lasted for Millennia? 1,900-Year-Old Latrine Offers Clues",
-      "url": "https://www.smithsonianmag.com/smart-news/how-has-roman-concrete-lasted-for-millennia-a-1900-year-old-latrine-offers-new-clues-about-the-materials-impressive-durability-180989115/",
-      "summary": "ローマのコンクリートはポッツォラ反応に加え、炭酸化がひびを塞いで耐久性を高めている可能性がある。ハドリアヌス別荘の1900年前の便所を調べ、現代の持続的で強靭な建材改良に活かせると示唆。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-17T03:48:26.000Z",
-      "contentHash": "4b9474b3201c"
-    },
-    {
-      "id": "e7a3d6ee01da",
-      "title": "新卒エンジニアが、サイボウズの新卒研修を経て | Cybozu Inside Out | サイボウズエンジニアのブログ",
-      "url": "https://blog.cybozu.io/entry/2026/07/17/113000",
-      "summary": "CYBOZU SUMMER BLOG FES '26記事。2026年新卒のiOSエンジニア・ちゃんくろが、入社約1.5か月で受けた新卒向け「開運研修（開発運用）」の実践的な内容と学び、少人数で講師と近かった点を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-17T02:30:00.000Z",
-      "contentHash": "6c760681b6a8"
-    },
-    {
-      "id": "603d140395f6",
-      "title": "OTセキュリティにおける資産管理の考え方 | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/630888755d1a6d",
-      "summary": "OTセキュリティの資産管理は可視化だけでなく対象範囲と維持方法が重要。台帳の実態乖離や部門分断、更新ルール欠如等の課題を踏まえ、影響度・第三者接続・露出度で優先順位を付け段階的に整備し、NCSCの「確定的記録」や更新プロセスの原則を適用することが有効。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-17T02:00:05.000Z",
-      "contentHash": "62872213b752"
-    },
-    {
-      "id": "fae4a5497a87",
-      "title": "検索から探索へ：データプラットフォーム設計の実践 (2) ― 分断されたデータを繋ぐ | CADDi Tech Blog",
-      "url": "https://caddi.tech/elasticon-2026-caddi-2",
-      "summary": "製造業のデータ分断を解決するCADDi Drawerの横断検索を紹介。Elasticsearchの複数インデックス構造と動的クエリ制御で、類似検索（kNN）とフィルタリングを組合せ、10兆通り級の結合をサブセカンドで実現するアーキテクチャを解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-17T02:00:00.000Z",
-      "contentHash": "d9646a36b4d2"
-    },
-    {
-      "id": "355f2086311d",
-      "title": "閉域のオンプレADをGitHub Actionsで操作する ── self-hosted runnerによるアカウント作成の自動化 | ZOZO TECH BLOG",
-      "url": "https://techblog.zozo.com/entry/new-employee-account-automation",
-      "summary": "コーポレートエンジニア高塩氏が、入社者のマスタをkintoneで管理し、ADを起点にMicrosoft 365やGoogle Workspace、Box等のアカウントを手作業で作成してきたが、工数増大や属人化、CSV受け渡しといった課題があった。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-17T02:00:00.000Z",
-      "contentHash": "e5dc33a6bf38"
-    },
-    {
-      "id": "09e864aa603f",
-      "title": "スクラムフェス金沢2026の参加報告とその後の変化 | freee Developers Hub",
-      "url": "https://developers.freee.co.jp/entry/scrum-fest-kanazawa-2026",
-      "summary": "エンジニアのmiyachiが石川県金沢で開催されたスクラムフェス金沢に参加した報告。開催当日の出来事だけでなく、セッションで得た学びがその後の日常にどう根付いたかまで記している。freeeから3人で参加。スクラムフェスはアジャイル実践者の交流祭。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-17T02:00:00.000Z",
-      "contentHash": "93ba479cc780"
-    },
-    {
-      "id": "8209ec470202",
-      "title": "手を動かして学ぶOWASP DevSecOps Guideline - 第2回：シークレットスキャニング編 | [公開中] AQ Tech Blog",
-      "url": "https://techblog.asia-quest.jp/202607/owasp-devsecops-guideline-2-secret-scanning",
-      "summary": "本記事は「手を動かして学ぶOWASP DevSecOps Guideline」シリーズの続編で、第1回（CI/CD基盤構築編）の後半にあたり、実践的な手順や補足説明を中心に解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-17T01:13:59.000Z",
-      "contentHash": "59a333a088d3"
-    },
-    {
-      "id": "895afadd04a9",
-      "title": "SRE NEXT 2026で \"xREとの連携による「SREの一日」と組織的協業の実際\"というタイトルで発表しました！ | ANDPAD Tech Blog",
-      "url": "https://tech.andpad.co.jp/entry/2026/07/17/100000",
-      "summary": "サービスプラットフォーム部SREの谷合が、2026年7月10〜11日開催のSRE NEXT 2026に登壇。テーマ「Inclusive SRE」を体現する多様な参加者や開発・デザインとの協同発表に感銘を受け、社内おすすめセッションを別記事で紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-17T01:00:00.000Z",
-      "contentHash": "21fb4ea66ec2"
-    },
-    {
-      "id": "48086a60fe0d",
-      "title": "AIが速くなるほど、人が集まる価値は上がる——開発合宿という最速リリース戦略 | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/07/17/100000",
-      "summary": "Contract One Engineering Unit部長の大島です。16名で湯河原温泉に2泊3日の開発合宿を実施（半年ごとで今回3回目）。AIがコードや設計支援する時代でも、合宿は開発スピードを最も高める手段の一つだと考えています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-17T01:00:00.000Z",
-      "contentHash": "d5421c3b9180"
-    },
-    {
-      "id": "52d25e72f1a7",
-      "title": "【ソリューション事業本部】新卒社員研修のふりかえり | アドグローブブログ | 渋谷のIT会社",
-      "url": "https://blog.adglobe.co.jp/entry/2026/07/17/100000",
-      "summary": "株式会社アドグローブの新卒研修紹介記事。東京本社・支社で毎年多くの新入社員を迎え、研修は「全体研修（入社後約3～5日）」と「職種別研修」に分かれる。今回はソリューション事業本部のエンジニア職研修に焦点を当て、2026年度時点の内容や感想を紹介している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-17T01:00:00.000Z",
-      "contentHash": "09737e80959a"
-    },
-    {
-      "id": "cd98358f3695",
-      "title": "SageMaker JumpStart で OpenAI の PII 検出モデル「privacy-filter」をデプロイしてみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/sagemaker-jumpstart-privacy-filter",
-      "summary": "エデュケーショナルサービス課の森純子さんが、社内データに個人情報が混入する懸念に対して、OpenAIのPII検出・マスキングモデル「privacy-filter」が2026年7月13日からAmazon SageMaker JumpStartで利用可能になったと紹介しました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-17T01:00:00.000Z",
-      "contentHash": "498c3ab7e479"
-    },
-    {
-      "id": "4cfba9bf3df0",
-      "title": "The human-in-the-loop is tired",
-      "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired",
-      "summary": "LLMは便利だが開発者を不安定にする――Pydantic開発者の体験から、創作の手応えと混乱が共存し、無視すれば燃え尽きる。置き換え論ではなく現場の実感と対策の提案。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-17T00:21:09.000Z",
-      "contentHash": "ba4125778045"
-    },
-    {
-      "id": "171c4c011c48",
-      "title": "My car’s OTA update broke Android Auto",
-      "url": "https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives/",
-      "summary": "新車のMINIが自動更新でAndroid Auto/CarPlayを完全に壊した。フォーラムでも同様。実使用で検証されず、二週間スプリント文化やずさんなQA・無能なマネジメントを批判し、メーカーへ修正を要求する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-16T22:29:44.000Z",
-      "contentHash": "a415280e343b"
-    },
-    {
-      "id": "9cb3f7803dd7",
-      "title": "The Little Book of Reinforcement Learning",
-      "url": "https://github.com/alxndrTL/little-book-rl/",
-      "summary": "強化学習入門書「The Little Book of Reinforcement Learning」のGitHub。基礎から応用（MC〜PPO）のPyTorch実装（algos/）と、動的計画法の詳細・証明（supplementary/）を収録。V1（2026年6月）、CC BY‑SA 4.0。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-16T22:27:22.000Z",
-      "contentHash": "e7ff3fe376a7"
-    },
-    {
-      "id": "86194fd02b6b",
-      "title": "Fortnite is getting a bunch of AI-powered ‘personas’",
-      "url": "https://www.theverge.com/games/966815/epic-games-fortnite-ai-powered-personas",
-      "summary": "Epic Gamesは7月30日からフォートナイトでクリエイターがAI音声のNPCを公開できるようにする。Agent JonesyやPeelyなど36の一貫した「ペルソナ」を提供し、声は俳優の演技を基にしている。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-16T21:30:35.000Z",
-      "contentHash": "3fdec325a875"
-    },
-    {
-      "id": "61ad2162d520",
-      "title": "Samsung’s 55-inch Frame art TV is $200 cheaper than usual",
-      "url": "https://www.theverge.com/gadgets/966613/samsung-the-frame-art-tv-deal-sale",
-      "summary": "SamsungのFrame（55インチ、2025年モデル）がAmazonで約$698に値下げ（通常より約$200安）。4K QLED、144Hz可変リフレッシュ、HDR10+対応。非使用時は額縁風マット画面でアートを表示し絵画のように見える。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-16T20:47:30.000Z",
-      "contentHash": "3084ca6796a5"
-    },
-    {
-      "id": "e80c0332171c",
-      "title": "Mathematics of Data Science",
-      "url": "https://arxiv.org/abs/2607.11938",
-      "summary": "本書はデータサイエンスの数学的基礎を体系的に解説する教科書。高次元現象、SVD/PCA、回帰と正則化、グラフ・クラスタリング、次元削減、最適化、分類、深層学習の数理、集中現象、行列濃度不等式、圧縮センシング、低秩回復などを扱う。著：Bandeira、Singer、Strohmer。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-16T20:38:48.000Z",
-      "contentHash": "868ba932a601"
-    },
-    {
-      "id": "27ca79ebdfb9",
-      "title": "Netflix says around 300 titles used generative AI",
-      "url": "https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings",
-      "summary": "Netflixは第2四半期報告で約300作品が生成AIを使用したと発表。多くはポストプロで、品質向上や低コスト化を目的に活用。例として『The American Experiment』は17分のAI強化映像が含まれ、『Glory』『Brasil 70』などで群衆や戦闘、世界描写に用いられた。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-16T20:29:27.000Z",
-      "contentHash": "dbc74189abf8"
-    },
-    {
-      "id": "bffb9d1128b6",
-      "title": "Helium escaping from atmosphere of nearby rocky exoplanet in a habitable zone",
-      "url": "https://www.science.org/doi/10.1126/science.aea9708",
-      "summary": "リンク先の本文に直接アクセスできないため、要約するには本文または要旨（英文でも可）を貼っていただく必要があります。本文か要旨、または主要な段落をここに貼っていただけますか？HNの議論のみでよければそれを要約します。200文字以内で作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-16T20:24:02.000Z",
-      "contentHash": "c7c4d9b3a953"
-    },
-    {
-      "id": "e92da1656dac",
-      "title": "LM Studio Bionic: the AI agent for open models",
-      "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
-      "summary": "LM Studioはオープンモデル向けAIエージェント「Bionic」を発表。ローカル／クラウド両対応でコーディングや文書作業、オフライン音声入力（Voxtral採用）を支援。モデル選択でコスト制御、ゼロデータ保持・学習利用なし。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-16T20:18:15.000Z",
-      "contentHash": "db5fe0691b70"
-    },
-    {
-      "id": "61798edb52ca",
-      "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
-      "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-      "summary": "TryAIがClaude Fable 5とGPT-5.6 Solに同じ曲・予算・ウェブ検索・ローカルffmpegを与え、自律的に映像を調査・生成・編集して音楽ビデオを制作。全ツール呼び出しをログ化し比較検証した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-16T20:03:23.000Z",
-      "contentHash": "e59f71d815e4"
-    },
-    {
-      "id": "029bb396a759",
-      "title": "Why are people buying so many CDs?",
-      "url": "https://www.theverge.com/entertainment/966726/cd-sales-vinyl-physical-media-luminate",
-      "summary": "米調査で、2026年前半の米国CD売上は1630万枚（前年比16%増）。BTS『ARIRANG』などK-POPや価格の手頃さ、コレクション志向が要因。K-POP除外でも6.7%増。若年層の半数はCDプレーヤーを持たず、CDは“収集品”化している。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-16T19:55:29.000Z",
-      "contentHash": "ffa8af64dcd5"
-    },
-    {
-      "id": "c3a77c5bf49d",
-      "title": "Kalshi says it caught Trump&#8217;s teleprompter operator insider trading",
-      "url": "https://www.theverge.com/news/966676/trump-teleprompter-operator-kalshi-bets-mention-markets-investigation",
-      "summary": "ABC報道によれば、トランプ大統領の長年のテレプロンプター操作担当ガブリエル・ペレス氏が、十数件の演説での発言を予想するKalshiの市場に内部情報を使って賭け、約10万ドルを得たとして連邦当局が捜査している。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-16T18:43:14.000Z",
-      "contentHash": "21b9c1f7e050"
-    },
-    {
-      "id": "751f7197efde",
-      "title": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
-      "summary": "ニューヨーク州知事ホクルは、AIで州の全規則・政策を数か月で解析し、猟犬持ち出しの25ドル手数料や妊婦の深夜勤務許可など古い規制を洗い出して廃止を進めると述べた（AIデータセンター新設は一時停止中）。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-16T17:58:37.000Z",
-      "contentHash": "f045331ffac3"
-    },
-    {
-      "id": "4bd8a3943796",
-      "title": "Ecovacs&#8217; self-cleaning Deebot X11 has hit a new low price",
-      "url": "https://www.theverge.com/gadgets/966651/ecovacs-deebot-x11-robot-vacuum-deal-sale",
-      "summary": "Ecovacsのロボ掃除機Deebot X11がAmazonや公式で新価格$699（$400引き）。モップ自動洗浄・乾燥、段差越え、19,500Pa吸引、LiDARと3Dカメラで高精度マッピング。以前の上位モデルでお買い得。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-16T17:57:15.000Z",
-      "contentHash": "09a662c865ef"
-    },
-    {
-      "id": "9722fd2e960c",
-      "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks",
-      "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
-      "summary": "ドイツのAIコンソーシアムが30Bパラメータのオープンモデル「soofi‑s」を公開。英語・ドイツ語のベンチで既存のオープンモデルを上回る性能を示し、重みとコードを研究・実用向けに提供。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-16T17:44:46.000Z",
-      "contentHash": "f2fea879b599"
-    },
-    {
-      "id": "dbe568fbdb4a",
-      "title": "42% of adults rely on their parents for financial support",
-      "url": "https://www.cnbc.com/2026/07/16/42percent-of-adults-rely-on-their-parents-for-financial-supportthere-are-no-bad-guys-here-says-financial-therapist.html",
-      "summary": "米調査で成人の42%が親世代から経済的支援を受けていることが判明。世代別ではZ世代72%、ミレニアルは半数超、X世代は約3分の1。携帯代から住宅資金まで幅広く、ファイナンシャルセラピストは責めるべきではないと指摘。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-16T17:11:58.000Z",
-      "contentHash": "d38a51490aef"
-    },
-    {
-      "id": "0ff82072604f",
-      "title": "Google is better than Apple at playing the AI regulations game",
-      "url": "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai",
-      "summary": "EUがGoogleにAndroidで競合AIに同等アクセスを提供するよう命じた。Googleは適合の猶予を得た一方、AppleはSiriを公開前に規制対応する必要があり、Googleが規制対応で優位に立ったと報じられる。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-16T16:55:54.000Z",
-      "contentHash": "cf4884728dcb"
-    },
-    {
-      "id": "f93aaa9ebbc2",
-      "title": "Roblox will let people use AI to make games on their phone",
-      "url": "https://www.theverge.com/games/966589/roblox-build-ai-phone-moblie-games",
-      "summary": "Robloxはモバイルアプリ内でテキストから簡単なゲームを作れるAI機能「Build」を発表。AI世界モデルや3D資産生成、開発者向けAIチャットなど既存のAIツールと併せ、創作の敷居を下げる狙い。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-16T16:45:29.000Z",
-      "contentHash": "a8b558b77006"
-    },
-    {
-      "id": "5e7124128d36",
-      "title": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
-      "url": "https://blog.lyc8503.net/en/post/llm-classifier/",
-      "summary": "2026年初頭の時点で、主流LLM生成テキストは顕著な統計的パターンを持ち、従来の機械学習で人文と高精度に区別可能。多くの「AI盗作検出」はこれを利用している可能性があり、実演サイトも公開。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-16T16:41:37.000Z",
-      "contentHash": "230b4d32f60a"
-    },
-    {
-      "id": "1154d5af7687",
-      "title": "Photos of items from families in different countries with different incomes",
-      "url": "https://www.gapminder.org/dollar-street",
-      "summary": "Dollar StreetはGapminderの無料プロジェクトで、67か国の469家族を紹介し、写真46,070枚・動画8,586本を収録。まだ未登録の地域が多く、自宅を追加するための記録手順や資源が提供されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-16T16:24:33.000Z",
-      "contentHash": "e04104ef368a"
-    },
-    {
-      "id": "14acc7b6b8ee",
-      "title": "Decoy Font",
-      "url": "https://www.mixfont.com/experiments/decoy-font",
-      "summary": "Decoy Fontは各文字に「デコイ」を重ね、近くでは偽文字、離れて見ると本来の文字が見える空間周波数のトリックでAIの文字認識を混乱させるTTF。DejaVu Sans Mono由来で商用可、無料ダウンロード可。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-16T16:18:21.000Z",
-      "contentHash": "aad44590e80b"
-    },
-    {
-      "id": "af76aea73422",
-      "title": "NotebookLM is now Gemini Notebook",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
-      "summary": "GoogleはNotebookLMをGemini Notebookに改名。製品は継続し、セキュアなクラウド上でノート内のコード実行や高度なデータ解析が可能に。Pro向け順次提供し、GeminiアプリやGoogle検索と同期して利便性を拡大。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-16T16:08:13.000Z",
-      "contentHash": "5c2ea19a09c5"
     }
   ]
 }
