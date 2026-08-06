@@ -1,6 +1,195 @@
 {
-  "generatedAt": "2026-08-05T17:52:49.719Z",
+  "generatedAt": "2026-08-06T02:58:29.547Z",
   "items": [
+    {
+      "id": "713109fedb2e",
+      "title": "Claude Codeのようなエージェントをゼロから作る | Sun* Developersのフィード",
+      "url": "https://zenn.dev/sun_asterisk/articles/f5514175aa0a0a",
+      "summary": "GitHubの人気リポジトリ「shareAI-lab/learn-claude-code」全20章を読み、エージェントハーネスをゼロから作る各章の追加機能と解決課題を章順に解説。注目章は詳述、他は要点のみ。短時間なら第1～2章と第5章を推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T01:17:33.000Z",
+      "contentHash": "6b51412abfcd"
+    },
+    {
+      "id": "49174a8015eb",
+      "title": "【前編】受賞作品はこうして生まれた—GMO DESIGN AWARD 2025受賞者が語る、アイデアと制作の裏側 | GMO Developers",
+      "url": "https://developers.gmo.jp/cultures/interview/85538/",
+      "summary": "GMO DESIGN AWARD 2026は、GMOインターネットグループ主催の、18〜29歳の若手クリエイターを対象としたデザインコンテストです。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T01:00:58.000Z",
+      "contentHash": "cedfdc8c46b1"
+    },
+    {
+      "id": "95315a5ce19f",
+      "title": "AI導入で変わったのは実装速度ではなく、開発プロセスだった | mediba テックブログのフィード",
+      "url": "https://zenn.dev/mediba/articles/babe1e148658a3",
+      "summary": "チームで大型システム刷新にAIエージェントを導入し約2か月運用。コード生成は期待以上に速かったが、安定運用のためのルール整備や品質保証のレビュー・修正に予想以上の工数がかかり、最も変わったのは実装速度ではなかった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T01:00:05.000Z",
+      "contentHash": "db6ae5e7d30d"
+    },
+    {
+      "id": "1669e77c41c6",
+      "title": "CloudFront VPC Origins障害とトレードオフに向き合うためのアンドパッドの答え | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/08/06/100000",
+      "summary": "サービスプラットフォーム部SREの谷合です。趣味はメガネやキャンプギア収集、毎日のビール。最近Amazon CloudFrontのVPC Originsで障害が発生し、CloudFront本体は動作する一方でVPC Origins機能だけが停止しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T01:00:00.000Z",
+      "contentHash": "cca009b5c9dc"
+    },
+    {
+      "id": "afd91d38a1c5",
+      "title": "レガシーな管理画面のリアーキテクトPJをリブートし、ゴールに導くまでの意思決定 | Classi開発者ブログ",
+      "url": "https://tech.classi.jp/entry/2026/08/06/100000",
+      "summary": "エンジニア id:kiryuanzu が、数年停滞していた社内管理画面の立て直しプロジェクトをリブートしゴールまで導いた手法を紹介。Claude Code を多用したレガシー置換の事例だが、機能の多さや歴史的設計で簡単にはいかなかった点も解説している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T01:00:00.000Z",
+      "contentHash": "404a1ac18000"
+    },
+    {
+      "id": "05abb50f1202",
+      "title": "2026 年夏、スマートバンクではエンジニアを積極採用しています。 | inSmartBank",
+      "url": "https://blog.smartbank.co.jp/entry/2026-recruiting-engineer",
+      "summary": "スマートバンクはAIで開発が高速化し非エンジニアの参画も進む中、依然としてエンジニアを積極採用している。ワンバンクはカード決済を軸に家族の家計管理を提供し、複数のビジネスモデルで構成されるサービスだ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T01:00:00.000Z",
+      "contentHash": "5d0967ca77e2"
+    },
+    {
+      "id": "8d79c6c85cb2",
+      "title": "AIテストプロセスの信頼度を測り、改善を回す【前編】── 品質メトリクスの設計と運用 | エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/2026/08/06/100000",
+      "summary": "QAチームはAIエージェントにテスト分析から実行まで一部委任し、短時間での情報収集やテスト案作成、DB/API検証など効率化を実感。ただし現状は人による理解・レビューが必須で、どこまで信頼して任せるかが課題。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T01:00:00.000Z",
+      "contentHash": "4da6c112ee71"
+    },
+    {
+      "id": "e8b4fec0674a",
+      "title": "AWS Organizations のアカウント最大割り当て数を AWS Service Quotas で確認できるようになりました | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/enable-confirm-service-quotas-of-aws-organizations",
+      "summary": "AWS Organizationsのアカウント上限が、従来のサポート連絡不要でService Quotasから確認・上限緩和申請できるようになり、CLIでの確認手順も紹介されています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T00:54:19.000Z",
+      "contentHash": "622908c24992"
+    },
+    {
+      "id": "211ba37b13f0",
+      "title": "【アンサー】ゼロトラストはキツくない。「ゼロトラストの完成」を目指す運用がキツい | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/answer-ai-era-zero-trust/",
+      "summary": "社員の「AI時代のゼロトラストがキツい」への社長回答。ゼロトラストの原則は有効で、問題は「完成」を目指し人の速度で検証ループを回す運用。デセプションと復旧の順序や、経営として何を捨てるかに言及。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T00:32:00.000Z",
+      "contentHash": "8890d4cb482e"
+    },
+    {
+      "id": "297d548829a1",
+      "title": "AI時代のゼロトラストがキツい件について | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/ai-era-zero-trust-hard/",
+      "summary": "2026年、AIが自律的に攻撃側へ回る状況でゼロトラスト前提を再考。OpenAI・Hugging Faceの事例を踏まえ、サイバーデセプション導入や復旧重視（レジリエンス）の現実性と情シス・CISO向けの予算再配分を整理。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T00:28:00.000Z",
+      "contentHash": "2fd65e8ceba1"
+    },
+    {
+      "id": "dd083223721c",
+      "title": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+      "summary": "イーロン・マスクのxAIが運営するAI百科「Grokipedia」が、Lawfareの調査で4月24日以降更新されていないと報告された。2025年10月に約88万件で開始し現在600万件超だが、編集提案は可能でも反映されず「No live edits available」と表示される。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-06T00:25:10.000Z",
+      "contentHash": "dca3aa0ac8ab"
+    },
+    {
+      "id": "86c8941f3aec",
+      "title": "X product chief Nikita Bier is leaving after one year",
+      "url": "https://www.theverge.com/tech/975955/x-twitter-nikita-bier-leaving",
+      "summary": "X（旧Twitter）のプロダクト責任者ニキータ・ビアーが13カ月で退任し、アドバイザー兼「ポスター」役に降格。就任中にタイムラインやAndroidアプリ、チャット等を再構築。後任はベンジ・テイラーら。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-05T22:19:55.000Z",
+      "contentHash": "cb4109c54c2b"
+    },
+    {
+      "id": "f3df8f308322",
+      "title": "The title cards in Blade Runner are amazing",
+      "url": "https://randsinrepose.com/archives/blade-runner-title-cards/",
+      "summary": "『ブレードランナー』の印象的なタイトルカードを解析・再現する記事。書体・配色・レイアウトなどのデザイン要素と、それらが世界観や雰囲気の構築に果たす役割を解説し、再現例を示す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-05T21:29:23.000Z",
+      "contentHash": "898e3c9719c4"
+    },
+    {
+      "id": "2c19ce14b791",
+      "title": "Prime Agent: A self-improving RLM agent",
+      "url": "https://www.primeintellect.ai/blog/prime-agent",
+      "summary": "申し訳ありませんが、外部URLを直接参照できません。記事本文か主要部分（またはHNコメント）をここに貼り付けていただければ、200字以内の日本語要約を作成します。どうしますか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-05T21:11:57.000Z",
+      "contentHash": "0b4b11f5c343"
+    },
+    {
+      "id": "637a17d6b23c",
+      "title": "I'm switching my phone from Android to Linux",
+      "url": "https://runarcn.no/android-to-linux/",
+      "summary": "著者がAndroid端末をLinuxへ移行した体験を詳述。動機（自由度・プライバシー向上）、導入手順、ハード/ドライバやアプリ互換性などの課題と回避策、参考リソースを紹介。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-05T19:50:13.000Z",
+      "contentHash": "2a008adaea88"
+    },
+    {
+      "id": "3a3c9fe1849c",
+      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
+      "summary": "Wiredは、Metaの広告にAI生成とみられる児童性的虐待を想起させる画像が掲載されていたと報道。広告審査やAI検出の不備が露呈し、同社は削除と調査を表明、対策強化が課題。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-05T19:47:26.000Z",
+      "contentHash": "e08f28ec5c17"
+    },
+    {
+      "id": "55ffa7cfdbfb",
+      "title": "Muse Code and Muse Spark 1.2",
+      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "summary": "外部ページへ直接アクセスできないため、記事本文をここに貼っていただけますか？貼っていただければ200文字以内で要約します。必要なら私の知識に基づく簡易要約（正確性に限りあり）もできます。どちらがよいですか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-05T19:15:52.000Z",
+      "contentHash": "daaa91817aa7"
+    },
+    {
+      "id": "050c74b3cdc0",
+      "title": "Zed DeltaDB",
+      "url": "https://zed.dev/deltadb",
+      "summary": "外部サイトに直接アクセスできないため、記事本文を貼り付けていただけますか？200文字以内で日本語要約を作成します。Hacker Newsのコメントも要約希望なら同様に貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-05T18:52:54.000Z",
+      "contentHash": "e21f537c0f11"
+    },
+    {
+      "id": "9527c3055c05",
+      "title": "Born Against, or why hobby programming communities are against LLM usage",
+      "url": "https://blog.fogus.me/llm/born-against.html",
+      "summary": "外部サイトへ直接アクセスできないため、記事本文をここに貼っていただけますか？貼っていただければ200文字以内で要約します。コメント欄要約も必要ならその旨お知らせください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-05T18:37:49.000Z",
+      "contentHash": "1df7f47302dc"
+    },
+    {
+      "id": "a55b16f64642",
+      "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+      "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+      "summary": "NeonのCastformは、最先端（Frontier）モデルと同等のタスク性能を維持しつつ、量子化・蒸留・カーネルやコンパイラ最適化などで推論コストと消費電力を大幅に削減し、より低価格で効率的な展開を実現したと報告している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-05T18:18:56.000Z",
+      "contentHash": "0b2dac0d9ba9"
+    },
+    {
+      "id": "d0a91e254c73",
+      "title": "Two of Ring&#8217;s latest video doorbells are a lot cheaper than usual",
+      "url": "https://www.theverge.com/gadgets/975723/ring-wired-doorbell-pro-battery-doorbell-plus-deal-sale",
+      "summary": "Ringの有線Wired Doorbell ProがAmazon・Best Buyで199ドル（50ドル引）、バッテリー式Battery Doorbell Plusが約120ドル（60ドル引）で特価。全身撮影の映像、双方向通話、動体通知に対応。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-05T17:53:43.000Z",
+      "contentHash": "bc650032c3c0"
+    },
     {
       "id": "262275f9ef7c",
       "title": "Uber CEO brushes off reports of a Waymo break-up",
@@ -9,6 +198,15 @@
       "source": "The Verge",
       "publishedAt": "2026-08-05T17:34:48.000Z",
       "contentHash": "170d3e8241b9"
+    },
+    {
+      "id": "f085f96b2da9",
+      "title": "Atlassian Rovo Exfiltrates Data, Bypassing Controls",
+      "url": "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
+      "summary": "申し訳ありませんが、外部リンク先の内容を直接参照できません。記事本文（または主要段落）を貼り付けていただければ、200文字以内の日本語要約を作成します。Hacker Newsのコメント要約が欲しければ、それも合わせてお渡しください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-05T17:23:25.000Z",
+      "contentHash": "3e3dcf7961b3"
     },
     {
       "id": "7aac6040e0de",
@@ -23,19 +221,28 @@
       "id": "6831149afa29",
       "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
       "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
-      "summary": "AI音楽生成のTrebloが同社生成曲を判定する公開分類器を発表。誤判定率は0.1%未満で他ツールは検出対象外。分類器はFenix Flexinの楽曲「Rubberz」を「高確率でTreblo作」と判定し波紋を呼ぶ。",
+      "summary": "Fenix Flexinの楽曲「Rubberz」がAI生成疑惑。Trebloが公開したオープンソースの検出器は「Rubberz」を高確率でTreblo生成と判定（誤判定率は1万分の1未満）。Medasinの指摘が裏付けられ、FenixにとってPR問題に。",
       "source": "The Verge",
       "publishedAt": "2026-08-05T16:57:25.000Z",
-      "contentHash": "7f25056b19cb"
+      "contentHash": "279ccde2d24c"
+    },
+    {
+      "id": "b51fc9227de0",
+      "title": "Celld: Self-hosted, distributed Durable Objects",
+      "url": "https://github.com/denoland/celld",
+      "summary": "denolandの「celld」は、Deno向けの小型実験的ランタイム／デプロイツール。単純・軽量なサンドボックスでプロセス管理や隔離を目指し、Docker等既存コンテナとの違いや有用性がHNで議論された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-05T16:50:06.000Z",
+      "contentHash": "f008bae8074b"
     },
     {
       "id": "acb096445fcf",
       "title": "Google just announced a major shakeup of its top AI leadership",
       "url": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
-      "summary": "GoogleがAI体制を刷新。DeepMindのDemis HassabisはGoogle DeepMind会長兼Alphabetチーフサイエンティストに就き、Isomorphic Labsは引き続き率いる。元CTOのKoray KavukcuogluがDeepMindのSVP兼GoogleのチーフAIアーキテクトに昇格しPichaiに直属。HassabisはAIを健康分野に活かす方針を示した。",
+      "summary": "GoogleがAI体制を刷新。Demis HassabisがDeepMind会長兼Alphabet最高科学者に就任しIsomorphic Labsは継続。元DeepMind CTOのKoray KavukcuogluがDeepMind SVPでGoogleのチーフAIアーキテクトを兼務。HassabisはAIを医療・創薬に活用する方針。",
       "source": "The Verge",
       "publishedAt": "2026-08-05T16:47:23.000Z",
-      "contentHash": "8e7596d767b5"
+      "contentHash": "ec46c8e92881"
     },
     {
       "id": "88e15d0b7e68",
@@ -689,10 +896,10 @@
       "id": "58ba351a2139",
       "title": "The latest AI news we announced in July 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
-      "summary": "Googleは7月に、スケール対応の新Geminiモデルやロボット向けGemini Robotics ER2、Gemini Sparkの自動化、動画・音楽制作ツール、アプリ連携・Android移行、山火事検知衛星など実用的AI機能を発表しました。",
+      "summary": "記事本文がここにないため要約できません。本文を貼るか、リンクを教えてください（200文字以内で日本語要約します）。特に注目してほしい点があれば教えてください。",
       "source": "Gemini",
       "publishedAt": "2026-08-04T13:00:00.000Z",
-      "contentHash": "7c6bcc5503e3"
+      "contentHash": "49c25782fe63"
     },
     {
       "id": "b088409319e1",
@@ -788,10 +995,10 @@
       "id": "455e66877c48",
       "title": "Software Design 2026年9月号 - いま注目のローカルLLM特集",
       "url": "https://note.com/npaka/n/n09447d05bbfc",
-      "summary": "『Software Design 2026年9月号』はローカルLLM特集。Kimi K3やDeepSeek-V4-Flash-0731などの高性能モデルで個人PCや社内サーバでの運用が現実に。筆者は「第1章 ローカルLLMの現在地」を執筆し、モデル・ハード・実行環境の変化を解説。8月18日発売。",
+      "summary": "『Software Design』2026年9月号はローカルLLM特集。Kimi K3やDeepSeek‑V4‑Flash‑0731等の高性能モデルで個人PCや社内サーバでも実用化が進む現状を、第1章執筆者がモデル・ハード・実行環境の変化とともに解説しています。",
       "source": "npaka",
       "publishedAt": "2026-08-04T04:47:08.000Z",
-      "contentHash": "99dab7f0e5f1"
+      "contentHash": "17956d652e28"
     },
     {
       "id": "4fc91eecb314",
@@ -1049,10 +1256,10 @@
       "id": "6193ed5523d0",
       "title": "Inside our 353,000-person vibe coding course",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "summary": "GoogleとKaggleの「AI Agents: Intensive Vibe Coding」コースは、専門家による講義、技術ホワイトペーパーやノートブック、キャップストーンプロジェクトを提供し、35万3千人超の開発者が参加。Anant NawalgariaとBrenda Flynnが主導した。",
+      "summary": "KaggleとGoogleが共同で無料の「AI Agents Intensive」コースを提供し、学習者が集まって次世代のAIエージェントの構築と実運用（デプロイ）を学んだ。",
       "source": "Gemini",
       "publishedAt": "2026-08-03T15:00:00.000Z",
-      "contentHash": "8a9d1c8a8e47"
+      "contentHash": "f704ea841332"
     },
     {
       "id": "0da41905fd13",
@@ -2021,10 +2228,10 @@
       "id": "5566bf3bec36",
       "title": "Simplify your morning with this vibe-coded schedule app.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/glanceboard-gemini-flash-nano-banana/",
-      "summary": "Googleの技術者RaphがGemini 3.6とBananaモデルで開発したGlanceboardは、家族のGoogleカレンダーと天気を照合して子どもの服装を反映したイラストをeインク表示。ローカルで動作し画面やクラウド不要、コードはGitHubで公開。",
+      "summary": "朝の眩しい画面やストレスになる通知に疲れたGoogleのクリエイティブテクノロジスト、Raphが、穏やかで見やすい情報表示を目指したカスタムアプリ「Glanceboard」を作った。",
       "source": "Gemini",
       "publishedAt": "2026-07-31T19:00:00.000Z",
-      "contentHash": "9d7c1d7b5969"
+      "contentHash": "b83ae58e20d4"
     },
     {
       "id": "04234651d216",
@@ -2147,10 +2354,10 @@
       "id": "04e5894ab585",
       "title": "Find out what’s new in the Gemini app in July's Gemini Drop.",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/",
-      "summary": "7月のGemini Drop：macOSで音声操作（入力・編集・要約・画像生成）、Gemini Sparkが世界展開、推論向上＆高速のGemini 3.6 Flashと3.5 Flash‑Lite、アバターで自分を画像に追加、Dropbox/Zillow/Viator連携、個人向け画像生成が米国で利用可能。詳細はDrops Hub。",
+      "summary": "Gemini Dropsは、Geminiアプリを最大限に活用するための最新情報や使い方を毎月届ける定期アップデートです。",
       "source": "Gemini",
       "publishedAt": "2026-07-31T16:00:00.000Z",
-      "contentHash": "5ecdf19d9229"
+      "contentHash": "bb57ccd4e140"
     },
     {
       "id": "c0a79a3abf3a",
@@ -2732,10 +2939,10 @@
       "id": "5a01c69735c0",
       "title": "Gemini Spark now integrates with Chrome",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
-      "summary": "Gemini SparkがChromeでのウェブ閲覧機能を追加し、利用可能な国とユーザーを拡大しました。新機能によりウェブブラウジングを活用できるようになります。",
+      "summary": "最新のGemini Spark更新は、Chromeでのウェブ閲覧機能を含む機能強化の概要です。ブラウザ統合によりオンライン情報の取得や操作が可能になり、応答性と利便性が向上します。",
       "source": "Gemini",
       "publishedAt": "2026-07-30T20:00:00.000Z",
-      "contentHash": "1f9da5d23b51"
+      "contentHash": "8129f6d11b81"
     },
     {
       "id": "3c5c702b7955",
@@ -2912,10 +3119,10 @@
       "id": "0bb5162dd11b",
       "title": "Introducing Gemini Robotics ER 2",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
-      "summary": "Google DeepMindはGemini Robotics ER 2を発表。映像理解による実時間空間推論、多段階タスク計画、マルチロボット協調でロボットの物理世界での支援能力を大幅に向上させるモデルです。",
+      "summary": "Gemini Robotics ER 2はロボット用途で映像理解、ツールの連携制御、複数ロボットの協調を飛躍的に向上させる革新的なプラットフォームです。",
       "source": "Gemini",
       "publishedAt": "2026-07-30T15:00:00.000Z",
-      "contentHash": "eef5c76a3f96"
+      "contentHash": "9a5910d9b31e"
     },
     {
       "id": "0046069b9cc1",
@@ -3416,10 +3623,10 @@
       "id": "18e8d4ab775b",
       "title": "Gemini for macOS adds new natural language capabilities",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/",
-      "summary": "GeminiのmacOSアプリが音声による自然言語機能を追加。Fn長押しで任意のウィンドウに話すだけで、無駄な言葉を除去した自動文字起こしや編集、要約をその場で挿入できる。",
+      "summary": "macOS向けGeminiアプリが、自然な話し方で音声入力するだけで高精度の文字起こし、編集、要約を音声だけで行えるようになったことを紹介する記事。",
       "source": "Gemini",
       "publishedAt": "2026-07-29T15:00:00.000Z",
-      "contentHash": "8c1b551b4ad0"
+      "contentHash": "1587fab6a564"
     },
     {
       "id": "265c6a0134ab",
@@ -3857,10 +4064,10 @@
       "id": "f3aa1e96a5f4",
       "title": "tmux の使い方",
       "url": "https://note.com/npaka/n/n7669174f159f",
-      "summary": "tmuxはターミナルを多重化し、SSH切断後も処理を継続・再接続できるツールです。インストール・起動、Ctrl+B Dでデタッチ、tmux aでアタッチ。セッション管理(new/ls/kill)、ウィンドウ作成(C)、左右(%)／上下(\")分割、ペイン移動(Ctrl+B＋矢印)、コピーモード(Ctrl+B [)、名称変更(Ctrl+B $ / ,)。",
+      "summary": "tmuxは端末マルチプレクサで、SSH切断後も処理を継続・再接続可能。インストール方法、セッションの作成/一覧/終了、デタッチ(Ctrl+B D)/アタッチ、ウィンドウ作成や左右・上下のペイン分割(Ctrl+B系)、ペイン移動、コピーモードやセッション・ウィンドウ名変更などの基本操作を解説しています。",
       "source": "npaka",
       "publishedAt": "2026-07-28T23:50:32.000Z",
-      "contentHash": "9854b6458720"
+      "contentHash": "435e65581111"
     },
     {
       "id": "5b40522251cb",
@@ -4010,10 +4217,10 @@
       "id": "7691342c0d33",
       "title": "How Gemini Flash agents are helping a Michigan dairy farmer",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/using-gemini-to-manage-farm/",
-      "summary": "ミシガンの酪農家ポール・ウィンデミュラーはGemini 3.6 FlashのAIエージェントで分断データを統合・解析し、生産効率や日次ブリーフを自動化して作業を数時間削減。中小農場の業務効率化に有効。",
+      "summary": "ミシガンの酪農家ポール・ウィンデミュラーが、Gemini 3.6 Flashで作ったAIエージェントを導入し、業務の自動化や効率化で働き方を変えている事例を紹介しています。",
       "source": "Gemini",
       "publishedAt": "2026-07-28T16:15:00.000Z",
-      "contentHash": "5958950cd116"
+      "contentHash": "f4bd793e353b"
     },
     {
       "id": "4cdfa332f672",
@@ -4847,10 +5054,10 @@
       "id": "806d72a1a5fd",
       "title": "Codex Micro の使い方",
       "url": "https://note.com/npaka/n/n077409095a5a",
-      "summary": "「Codex Micro」の使い方をまとめた記事で、製品概要と導入・セットアップ手順を中心に解説し、操作のポイントや詳細は本文の続きで紹介している。",
+      "summary": "Codex MicroはChatGPTのCodex操作向け小型コントローラー。6つのAgentキーでスレッド切替・RGBで状態表示、Commandキーやダイヤル/ジョイスティックで操作割当可能。Bluetooth/有線接続と電源/スリープ機能があり、Inputソフトで最大6レイヤーやAppSenseによる自動切替など詳細にカスタマイズできます。",
       "source": "npaka",
       "publishedAt": "2026-07-27T00:42:45.000Z",
-      "contentHash": "3c8f7801816d"
+      "contentHash": "251ae3105fd2"
     },
     {
       "id": "16797b055e4e",
@@ -6908,10 +7115,10 @@
       "id": "b6c036e2206b",
       "title": "Here’s how to ask Gemini Live for help with anything you see.",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-live-camera-how-to/",
-      "summary": "Geminiアプリの「Live」は、カメラで目の前を見せるだけで、修理手順や整理法、画面操作支援、買い物やインテリアの相談など、実世界を起点にリアルタイムで助言が受けられる機能です。",
+      "summary": "提示された記事は途中で切れています。全文を送ってください。現状の文のみを要約すると、複雑なマニュアルや点滅するエラーコード、独特な物体など、見ているものを言葉で説明するのが難しい場面では説明（助け）が必要だと述べています。",
       "source": "Gemini",
       "publishedAt": "2026-07-22T16:00:00.000Z",
-      "contentHash": "29641c6407af"
+      "contentHash": "5fb2a9bd56b3"
     },
     {
       "id": "d1947d984030",
@@ -7052,10 +7259,10 @@
       "id": "a9dfe60b87c5",
       "title": "3 Google updates from Galaxy Unpacked 2026",
       "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "summary": "GoogleはGalaxy Unpackedで、Gemini Intelligenceを搭載したGalaxy Z Fold8/Flip8や新型フォルダブル端末、ウォッチ、スマートグラスとの連携で生産性向上と時間節約を支援すると発表しました。",
+      "summary": "サムスンは、近日発売の新型折りたたみ端末、ウォッチ、グラスを通じて、ユーザーが生産性を高め時間を取り戻せる方法を紹介しました。",
       "source": "Gemini",
       "publishedAt": "2026-07-22T13:00:00.000Z",
-      "contentHash": "53a7bab742e7"
+      "contentHash": "e2b7234afcff"
     },
     {
       "id": "932591afba7f",
@@ -8793,213 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-07-18T15:44:04.000Z",
       "contentHash": "6c35765f80b2"
-    },
-    {
-      "id": "187dd8dd7d8c",
-      "title": "If You Build It, They Will Come",
-      "url": "https://www.benlandautaylor.com/p/if-you-build-it-they-will-come",
-      "summary": "コミュニティに入る最速の方法は、その場の中心的な活動のイベントを自分で企画すること。参加者は多いが主催は少なく、手間を惜しまない人がリーダーになり貢献が目立つという指摘。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T15:37:01.000Z",
-      "contentHash": "79aacb55526d"
-    },
-    {
-      "id": "597d862ddb28",
-      "title": "Elixir-lang.org has a new design",
-      "url": "https://elixir-lang.org/",
-      "summary": "Maintenance Elixirは、データとドメインに焦点を当てた明確で目的あるコード作成を支援します。イミュータビリティ、メモリ安全性、漸進的型付けにより、障害から回復しやすく保守しやすいシステムを構築できます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T15:32:04.000Z",
-      "contentHash": "e98759b30ba4"
-    },
-    {
-      "id": "db389a4182a7",
-      "title": "British runner Josh Kerr breaks world record for mile which stood for 27 years",
-      "url": "https://news.sky.com/story/british-runner-josh-kerr-breaks-world-record-for-mile-which-had-stood-for-27-years-13564688",
-      "summary": "英国の中距離ランナー、ジョシュ・カーが27年間破られなかったマイル世界記録を更新した。従来記録はヒシャム・エル・ゲルージが保持しており、カーの快挙は英国陸上界に大きな驚きと祝賀をもたらした。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T15:08:32.000Z",
-      "contentHash": "5b21803b8289"
-    },
-    {
-      "id": "9bb1e750a506",
-      "title": "GoPro&#8217;s discounted Max 2 bundle includes $100 worth of accessories",
-      "url": "https://www.theverge.com/gadgets/967311/gopro-max2-360-degree-action-cam-accessory-bundle-deal-sale",
-      "summary": "GoProの360度カメラ「Max 2」アクセサリーバンドルがAmazonで369ドルに割引。100ドル相当の付属品を含み、360度8K/30fpsや180度4K/60fps撮影対応。Bluetoothでイヤホンをマイク代わりに使用可。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-18T15:00:00.000Z",
-      "contentHash": "ee8b08fdbe76"
-    },
-    {
-      "id": "3a279ec38498",
-      "title": "The Guardian’s Carter Sherman fondly remembers being terrified by Ocarina of Time",
-      "url": "https://www.theverge.com/report/967583/guardian-carter-sherman-podcast-interview",
-      "summary": "ガーディアンの記者カーター・シャーマンは、幼少期に『ゼルダ 時のオカリナ』で恐怖を感じた思い出を語り、フレンチプレスのコーヒーを愛し、コンサートチケットに惜しまず金を使う。著書に『The Second Coming』があり、性をテーマに取材している。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-18T14:30:00.000Z",
-      "contentHash": "e56d37ea3d7e"
-    },
-    {
-      "id": "c8f644df980c",
-      "title": "EU ban on destruction of unsold clothes and shoes enters into application",
-      "url": "https://environment.ec.europa.eu/news/ban-destruction-unsold-clothes-and-shoes-enters-application-2026-07-17_en",
-      "summary": "EUは7月19日から大企業の未売却衣料・靴等の廃棄を禁止（中規模は2030年から）するESPRを導入。販売・寄付・修理等で再利用を優先し、例外は安全性や模倣品などに限定。証拠提出と年次報告、5年の記録保管が義務で、小規模事業者は対象外。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T14:04:42.000Z",
-      "contentHash": "b5f02c5582d5"
-    },
-    {
-      "id": "e1543a91d8ed",
-      "title": "Surprise! Facial recognition smart locks are actually good",
-      "url": "https://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review",
-      "summary": "顔認証スマートロックは意外と実用的だ。著者が4機種を試し、UWBのハンズフリーの方が便利だが、玄関でのSF的な体験を求めるなら顔認証は検討に値すると結論。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-18T14:00:00.000Z",
-      "contentHash": "bf3d5fa99603"
-    },
-    {
-      "id": "8ee06bcb4be6",
-      "title": "2026年 フィジカルAIの現在地 -  ロボットAIはどこまで進んだか",
-      "url": "https://note.com/npaka/n/ne4cb1c2e3cfa",
-      "summary": "2026年のフィジカルAIでは、ロボットAIが専用モデルからVLAや基盤モデルへ移行し、高レベル推論と行動生成の統合が進展。Gemini系は計画・検証ループを担い、LeRobot v0.6が多様なVLAやWorld Modelを統合して用途や資源に応じたモデル選択を可能にした。",
-      "source": "npaka",
-      "publishedAt": "2026-07-18T13:41:51.000Z",
-      "contentHash": "397451f97053"
-    },
-    {
-      "id": "0ddeab6de3ba",
-      "title": "WordPressの深刻度「緊急」脆弱性 wp2shell の概要と対応指針 | GMO Flatt Security Blog",
-      "url": "https://blog.flatt.tech/entry/wp2shell_wordpress",
-      "summary": "2026/7/17、認証不要でリモート任意コード実行につながる脆弱性CVE-2026-63030とCVE-2026-60137（組合せで「wp2shell」）が判明。影響は6.9.0–6.9.4/7.0.0–7.0.1等。修正版7.0.2/6.9.5/6.8.6へ更新。暫定対策は/batch/v1エンドポイント遮断やWAF導入。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-18T12:56:27.000Z",
-      "contentHash": "ab9f6685596f"
-    },
-    {
-      "id": "c2dd0da66162",
-      "title": "Sony’s flagship RGB LED TV is incredible",
-      "url": "https://www.theverge.com/tech/966788/sony-bravia-9-ii-tv-review",
-      "summary": "ソニーの最上位RGB LEDテレビ「Bravia 9 II」は圧倒的な画質でHDRの輝きや色再現が鮮烈だが、筆者はそれでもOLEDを選ぶと述べる。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-18T12:30:00.000Z",
-      "contentHash": "fe7c08c5678e"
-    },
-    {
-      "id": "9f3781709784",
-      "title": "Kiro for iOS のベータ版を使って、移動中にアプリを作ってみた | ForgeVision Engineer Blog",
-      "url": "https://techblog.forgevision.com/entry/kiro/for_ios",
-      "summary": "Kiro for iOS（TestFlight）を使い、移動中の「birthday week」デイリーチャレンジでCIDR計算・可視化ブラウザアプリをGitHubに作成。KiroはクラウドのエージェントをiPhoneで操作でき、プロンプトで短時間に機能追加（ダークモード・多言語）できた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-18T12:29:20.000Z",
-      "contentHash": "d6a36a1714e2"
-    },
-    {
-      "id": "793dc51d2697",
-      "title": "More games should be on rails (literally)",
-      "url": "https://www.theverge.com/games/961152/denshattack-review",
-      "summary": "Denshattack!はUndercodersの列車ゲームだが、実際は超高速で回転やグラインドなどのトリックを決めるローラーコースター的なレール型アクション。脚本化された演出とTony Hawk風のトリックで、鮮やかな日本を駆け抜ける。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-18T12:00:00.000Z",
-      "contentHash": "4fc026614b16"
-    },
-    {
-      "id": "45c797ceaee3",
-      "title": "The apps, gadgets, and tools every reader needs",
-      "url": "https://www.theverge.com/tech/967544/best-apps-gadgets-reading-installer",
-      "summary": "The Vergeのニュースレター「Installer」第136号。編集者デイビッド・ピアースが、Nolan話題、新しいAIガジェット、ノートアプリの大型アップデートなど今週の注目テックと近況を紹介。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-18T12:00:00.000Z",
-      "contentHash": "261025ef72fd"
-    },
-    {
-      "id": "ce44e1889cb1",
-      "title": "Why do AI company logos look like buttholes? (2025)",
-      "url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
-      "summary": "AI企業のロゴに共通する円形・グラデ・中心の開口・放射状の要素が肛門を連想させると指摘。FastCompanyも類似傾向を報じ、著者は皮肉を交えて解説。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T11:06:50.000Z",
-      "contentHash": "ab914e560b09"
-    },
-    {
-      "id": "30b464672fa1",
-      "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
-      "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
-      "summary": "未発表のNP困難な光ファイバー網設計問題をClaude Fable 5とGPT-5.6 Solで比較。Fable 5が最良かつ安定した解を出した。/goalモードは万能の「頑張れ」スイッチではなく探索経路を変えるだけで効果は場面依存。コード・結果はCLIArenaに公開。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T11:00:29.000Z",
-      "contentHash": "713b7d578925"
-    },
-    {
-      "id": "f94a24159d41",
-      "title": "LG monitors silently install software through Windows Update without consent",
-      "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
-      "summary": "LGの一部モニタがWindows Updateを通じてユーザーの同意なくLG製ユーティリティを自動インストールする問題。常駐や設定変更、削除が分かりにくく、セキュリティやプライバシーの懸念が指摘されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T10:21:19.000Z",
-      "contentHash": "b129968525a9"
-    },
-    {
-      "id": "331a96cbbab5",
-      "title": "Fine, electric mountain bikes don’t suck",
-      "url": "https://www.theverge.com/tech/966964/emtb-riders-are-not-cheaters",
-      "summary": "著者トーマス・リッカーは電動マウンテンバイクに否定的だったが、Avinoxの小型強力モーターM2S搭載のAmflow PX Carbon Proを試乗して印象が一変。技術の未熟さを補い「チート」ではなく純粋に楽しいと評価し、高価モデルは不要だが新たな競争相手の登場を示す。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-18T07:00:00.000Z",
-      "contentHash": "b4583cd86896"
-    },
-    {
-      "id": "844626039c70",
-      "title": "π0.5 の学習済みモデルを LIBERO で動かす",
-      "url": "https://note.com/npaka/n/n1eb56d6be1c7",
-      "summary": "Physical Intelligenceのπ0.5をLIBERO向けにファインチューニングしたpi05_liberoをローカルで（openpi+Docker Compose）実行。libero_spatialの10タスクを各1回評価して10/10成功。実行約2分24秒、GPUメモリ約12.2GB、チェックポイント約12GB。シミュレータはrobosuite＋MuJoCo（EGL）。",
-      "source": "npaka",
-      "publishedAt": "2026-07-18T04:18:55.000Z",
-      "contentHash": "e8e46b955339"
-    },
-    {
-      "id": "780611b41e71",
-      "title": "Show HN: IKEA Complexity Index",
-      "url": "https://ikea.greg.technology/",
-      "summary": "外部リンクを直接開けないため記事本文を取得できません。記事本文を貼るか主要段落を送ってください。受け取り次第、200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T03:51:42.000Z",
-      "contentHash": "abc6536722cb"
-    },
-    {
-      "id": "0392ac25abc7",
-      "title": "Regressive JPEGs",
-      "url": "https://maurycyz.com/projects/bad_jpeg/",
-      "summary": "プログレッシブJPEGは低周波成分を先に保存し、複数のスキャンで段階的に表示される。例では最初のスキャンがYCbCr各チャンネルのDCを含み、以降の8スキャンで解像度と色精度を補完して最終品質にする。Yは輝度、Cb/Crは色差。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T03:14:20.000Z",
-      "contentHash": "43202455c73c"
-    },
-    {
-      "id": "677f63eeb71d",
-      "title": "CloudFront の VPC Origins を利用している環境で 5xx エラーが発生した障害について考えてみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/cloudfront-vpcorigin",
-      "summary": "2026年7月16日、CloudFrontのVPC Origins利用環境で5xxエラーが増加する障害が発生。VPC OriginsはCloudFrontがENI経由でプライベートALB等へ内部接続する仕組みで公開不要。約3時間で原因特定・緩和・復旧し、類似障害への設計上の備えを提案。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-18T02:30:00.000Z",
-      "contentHash": "adc521bcacf4"
-    },
-    {
-      "id": "e1b684b7bc39",
-      "title": "「AIエージェントキャッチアップ #84 - OpenWiki」を開催しました | Generative Agents Tech Blog",
-      "url": "https://blog.generative-agents.co.jp/entry/2026/07/18/100318",
-      "summary": "AIエージェント勉強会でLangChainのCLIエージェント「OpenWiki」を紹介。リポジトリ解析でWikiを自動生成・更新しGitHub Actionsと連携。v0.1でPersonal/Code Brain、v0.2でOKF対応、各種コネクタやチャット機能も搭載。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-18T01:03:18.000Z",
-      "contentHash": "95f40d28ddeb"
-    },
-    {
-      "id": "2420029ad0b6",
-      "title": "AWS Support からの調査目的のアクセスでデータへのアクセス許可を定義できるようになりました | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/20260718_AWSSupportAuthorization",
-      "summary": "AWS Support authorization（supportauthz）が導入。support permitでサポートの調査アクセス範囲と条件を定義し、顧客管理KMSで署名・CloudTrailに全記録。事前承認とリクエスト承認に対応。CLI v2.35.13で実装。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-18T00:42:19.000Z",
-      "contentHash": "e0be92326c5a"
     }
   ]
 }
