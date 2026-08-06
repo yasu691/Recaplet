@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-08-06T02:58:29.547Z",
+  "generatedAt": "2026-08-06T10:55:40.041Z",
   "items": [
+    {
+      "id": "f1d122158348",
+      "title": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’",
+      "url": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+      "summary": "OpenAIは、Appleが元社員による機密窃盗と主張する訴訟を「根拠がない」として連邦裁判所に却下を求めた。OpenAIは行為の窃盗性や一般的な開発情報を営業秘密扱いする点を否定し、Appleの秘密保持努力も不十分と反論している。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-06T09:33:11.000Z",
+      "contentHash": "21364ea02df4"
+    },
+    {
+      "id": "5822df1e585c",
+      "title": "Web エンジニアなら知っておきたいPWA | Fenrir Engineers",
+      "url": "https://engineers.fenrir-inc.com/entry/2026/08/06/174712",
+      "summary": "インフラ担当がPWAを解説。PWAはWeb App Manifest、Service Worker、HTTPSで構成され、ホーム画面追加・オフライン動作・プッシュ通知を実現。Service Workerはクライアント側でリクエストとキャッシュ（Cache First／Network First等）を制御し、CDNやHTTPキャッシュ設計と関係が深い。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T08:47:12.000Z",
+      "contentHash": "40304a07fab6"
+    },
+    {
+      "id": "64ec996a7201",
+      "title": "肌かゆい歴ン十年のプログラマが頑張って対策してみた | TechRacho",
+      "url": "https://techracho.bpsinc.jp/kawawa/2026_08_06/159110",
+      "summary": "長年アトピーに悩むプログラマがスキンケア対策を紹介。まず肌タイプ診断を勧め、自身はアトピー＋脂漏性肌で油分含有の乳液が悪化すると説明。低刺激で高保湿、脂漏性でも使える製品選びが肝心とまとめる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T08:30:09.000Z",
+      "contentHash": "9490a821780b"
+    },
+    {
+      "id": "21c16a7b67d3",
+      "title": "Hono RPCでmodule別AppTypeからclientを作るとconsumer型検査は短くなるのか検証 | chot Inc. tech blogのフィード",
+      "url": "https://zenn.dev/chot/articles/1d44bb3d5f1504",
+      "summary": "Hono RPCで1000エンドポイントのAppTypeを1個のrootに渡す構成と、50件ずつmodule別に分ける構成を比較。tscで型検査時間と指標を計測した結果、module単位に分割したclientはconsumer側の型検査コストが低く、IDEでの重さや型推論問題の改善につながることを示した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T08:02:44.000Z",
+      "contentHash": "523ffb13e69b"
+    },
+    {
+      "id": "a64d587a5a84",
+      "title": "EM採用を始めて1年、新しいEMが組織で活躍するまでに取り組んだこと | Cybozu Inside Out | サイボウズエンジニアのブログ",
+      "url": "https://blog.cybozu.io/entry/2026/08/06/170000",
+      "summary": "kintoneで2025年からEM採用を開始。採用だけでなく「誰をどこで活かすか」が重要と判明し、EMの強みとチームニーズを照合して配属。入社後は製品・組織の文脈理解を重視し、まず1on1で信頼構築と課題把握を行った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T08:00:00.000Z",
+      "contentHash": "a5aa18edb609"
+    },
+    {
+      "id": "318ade0610d3",
+      "title": "【検証】AWS Lambdaのセットアッププロンプトで出力はどう変わる? | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/aws-lambda-setup-prompt-output",
+      "summary": "AWS Lambdaコンソールのエージェント向けセットアッププロンプトをClaude Codeで検証。コピーをそのまま貼ると拒否され内容を確認。aws-coreや3種のSkills、MCP導入後にLambda durable functionsで出力差を比較し、step()の挙動や注意点を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T07:55:51.000Z",
+      "contentHash": "5c847463c42e"
+    },
+    {
+      "id": "cbb7b31c58cd",
+      "title": "GopherCon 2026 Session Report 8/5 | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/908a8326c0a861",
+      "summary": "GopherCon 2026（シアトル）参加レポ。開幕で避難騒ぎがあった後、Austin Clementsは「Towards Go 1.∞」でジェネリックメソッドやjson/v2、SIMD、AI対応ツールと開かれたガバナンスを提示。Naoki Kurodaはジェネリクス緩和（型エイリアス等）、Cassie CoyleはGo×AI/IoTで養蜂管理を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T07:52:48.000Z",
+      "contentHash": "788ab5c57a4e"
+    },
+    {
+      "id": "8ec3cc6cc2a2",
+      "title": "入社3ヶ月で感じた「やりたい」がかたちになるヤプリの文化 | Yappli Tech Blog",
+      "url": "https://tech.yappli.io/entry/yaro-culture-in-yappli",
+      "summary": "2026年6月入社のエンジニアが3ヶ月で実感したヤプリの文化。 「やりたい」を孤立させない即応力、Slackやクラブでの支援、メンター・1on1・Unfog Timeでの心理的安全性、経営層の関与や全社横断のYOP研修など、人が育つ仕組みが整っている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T07:47:31.000Z",
+      "contentHash": "17147dbe34d1"
+    },
+    {
+      "id": "cb8025a19882",
+      "title": "【社員紹介】N.Y.  ／ 株式会社フリークアウト_Red Division | FreakOut Backyard",
+      "url": "https://backyard.fout.co.jp/2026/08/stories/fo_ny/",
+      "summary": "2024年新卒でフリークアウト入社。自社プロダクト「Red」を用いたディスプレイ広告の営業として、顧客の課題解決と事業目標達成に向けた提案を行う。入社の決め手は社員の本気のフィードバックで、失敗から学び次へ活かす「最高の失敗」を重視している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T07:00:51.000Z",
+      "contentHash": "aa5f342be45c"
+    },
+    {
+      "id": "e0cbd86ef625",
+      "title": "AI Dev Day 2026で登壇しました / セッションのGitHub Copilot最新情報をピックアップ | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2026/08/06/153751",
+      "summary": "GitHub dockyard代表の大平かづみがAI Dev Day 2026で「GitHub dockyard Radio & VS Code Monthly Update」を登壇。GitHub Changelog（2026年7月前半）からAI関連の更新をピックアップし、特にCopilotの利用課金やGitHub AI creditsのCost centerによる予算管理拡張などを紹介。コミュニティはDiscordや月2回のYouTube配信で情報共有している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T06:37:51.000Z",
+      "contentHash": "48c1bbe1bef8"
+    },
+    {
+      "id": "f6a4dae1df0c",
+      "title": "Air Sticker 2.0 リリース ── デカール生成を Job System + Burst で並列化した話 | CORETECH ENGINEER BLOG",
+      "url": "https://blog.sge-coretech.com/entry/2026/08/06/144416",
+      "summary": "サイバーエージェントの Unity 向けデカールライブラリ Air Sticker 2.0 を公開。デカールのメッシュ生成（スキニング→ブロードフェーズ→クリップ→構築）を SoA化して Unity Job System＋Burst で並列化・SIMD化し、高速化。URP/ビルトインやスキン対応は維持しつつ生成コストを大幅削減。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-06T05:44:16.000Z",
+      "contentHash": "e3bfcf1c5e54"
+    },
+    {
+      "id": "05d704add9d9",
+      "title": "Crime Pays but Botany Doesn't",
+      "url": "https://www.crimepaysbutbotanydoesnt.com/reading-list",
+      "summary": "植物学を独学するなら怖がらずネットで調べ質問すること。基礎概念（専門語やラテン名）を押さえれば楽になる。リンネの国際命名法は有用で、属名は大文字、種名は小文字で表記。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-06T04:46:35.000Z",
+      "contentHash": "02d09dd3badf"
+    },
+    {
+      "id": "566235ea8e87",
+      "title": "Nashville uses eminent domain to block data center near zoo",
+      "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
+      "summary": "ナッシュビル市議会は、計画中のデータセンター建設を阻止するため、問題の用地を公用収用（eminent domain）する手続きを承認した。住民の懸念を受けた措置で、開発側との法的対立が予想される。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-06T02:15:14.000Z",
+      "contentHash": "f83e10b10457"
+    },
     {
       "id": "713109fedb2e",
       "title": "Claude Codeのようなエージェントをゼロから作る | Sun* Developersのフィード",
@@ -113,55 +230,73 @@
       "id": "f3df8f308322",
       "title": "The title cards in Blade Runner are amazing",
       "url": "https://randsinrepose.com/archives/blade-runner-title-cards/",
-      "summary": "『ブレードランナー』の印象的なタイトルカードを解析・再現する記事。書体・配色・レイアウトなどのデザイン要素と、それらが世界観や雰囲気の構築に果たす役割を解説し、再現例を示す。",
+      "summary": "記事は『Blade Runner』のタイトルカードとGoudy Oldstyleを賞賛しつつ、タイポグラフィの逆説を論じる。文字は読みやすさが本来の目的だが必ず感情も伝え、用途に応じた「感情の量」が重要だと主張する。筆者はSF Monoをはじめ固定幅フォントを検証し、コード用に6種を選んだ。",
       "source": "Hacker News",
       "publishedAt": "2026-08-05T21:29:23.000Z",
-      "contentHash": "898e3c9719c4"
+      "contentHash": "eb1c83b38830"
+    },
+    {
+      "id": "6301d1d85bd3",
+      "title": "NVIDIA’s Vera Whitepaper Has a Thread Loose",
+      "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
+      "summary": "NVIDIAのVera白書は、88コアのモノリシックOlympus（10幅Arm v9.2、値予測やグラフプリフェッチ、各コア2MB L2、共有164MB、LPDDR5X×8で1.2TB/s）といったハードは有望だが、SMTの曲解や誤解を招く図表、根拠薄い性能主張といった誇張的なマーケティングで評価を損ねていると批判している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-05T21:24:45.000Z",
+      "contentHash": "f21142c97ac8"
+    },
+    {
+      "id": "56c36fd7e344",
+      "title": "I'll be stepping back from leading product for X",
+      "url": "https://twitter.com/nikitabier/status/2085105586966827343/",
+      "summary": "リンク先の内容に直接アクセスできないため、要約するには本文の貼り付けか主要ポイントの提供をお願いします。テキストを貼っていただければ、200文字以内で日本語に要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-05T21:15:40.000Z",
+      "contentHash": "8d6c9f1606eb"
     },
     {
       "id": "2c19ce14b791",
       "title": "Prime Agent: A self-improving RLM agent",
       "url": "https://www.primeintellect.ai/blog/prime-agent",
-      "summary": "申し訳ありませんが、外部URLを直接参照できません。記事本文か主要部分（またはHNコメント）をここに貼り付けていただければ、200字以内の日本語要約を作成します。どうしますか？",
+      "summary": "Prime AgentはRLMとContinual Harnessを用いた自己改善型ハーネス。REPLで文脈やサブエージェントを関数呼び出しのように扱い履歴・ツールへアクセス、プロンプトやスキル等をCRUDして長期セッションやエージェント間連携を実現する。",
       "source": "Hacker News",
       "publishedAt": "2026-08-05T21:11:57.000Z",
-      "contentHash": "0b4b11f5c343"
+      "contentHash": "13bc0a3b5f2a"
     },
     {
       "id": "637a17d6b23c",
       "title": "I'm switching my phone from Android to Linux",
       "url": "https://runarcn.no/android-to-linux/",
-      "summary": "著者がAndroid端末をLinuxへ移行した体験を詳述。動機（自由度・プライバシー向上）、導入手順、ハード/ドライバやアプリ互換性などの課題と回避策、参考リソースを紹介。",
+      "summary": "AOSPの追跡や制限に不満を持ち、筆者はAndroidから携帯向けLinuxへ移行。Fairphone 4でSailfishOSを選び、ジェスチャー操作やsshなどの自由度を評価する一方、古いpython/glibcやwaydroid・GPSの不具合、粗いコミュニティ製アプリといった課題を指摘している。",
       "source": "Hacker News",
       "publishedAt": "2026-08-05T19:50:13.000Z",
-      "contentHash": "2a008adaea88"
+      "contentHash": "c25b46631aac"
     },
     {
       "id": "3a3c9fe1849c",
       "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
       "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
-      "summary": "Wiredは、Metaの広告にAI生成とみられる児童性的虐待を想起させる画像が掲載されていたと報道。広告審査やAI検出の不備が露呈し、同社は削除と調査を表明、対策強化が課題。",
+      "summary": "Metaが広告でAI生成の児童性的虐待画像を配信していたとWired報道。自動検出や審査をすり抜け承認・課金され、監視体制や規制の不備が問題視された。",
       "source": "Hacker News",
       "publishedAt": "2026-08-05T19:47:26.000Z",
-      "contentHash": "e08f28ec5c17"
+      "contentHash": "943189f624dd"
     },
     {
       "id": "55ffa7cfdbfb",
       "title": "Muse Code and Muse Spark 1.2",
       "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
-      "summary": "外部ページへ直接アクセスできないため、記事本文をここに貼っていただけますか？貼っていただければ200文字以内で要約します。必要なら私の知識に基づく簡易要約（正確性に限りあり）もできます。どちらがよいですか？",
+      "summary": "Meta AIがコード生成特化のMuse Codeと改良版マルチモーダルMuse Spark 1.2を発表。生成性能や長文コンテキスト対応を改善し、評価結果やモデル・デモを公開して開発者利用を促進。",
       "source": "Hacker News",
       "publishedAt": "2026-08-05T19:15:52.000Z",
-      "contentHash": "daaa91817aa7"
+      "contentHash": "f14f406afd2e"
     },
     {
       "id": "050c74b3cdc0",
       "title": "Zed DeltaDB",
       "url": "https://zed.dev/deltadb",
-      "summary": "外部サイトに直接アクセスできないため、記事本文を貼り付けていただけますか？200文字以内で日本語要約を作成します。Hacker Newsのコメントも要約希望なら同様に貼ってください。",
+      "summary": "DeltaDBはコミット間の操作まで記録し、各変更をエージェント会話に紐付けるバージョン管理。任意の時点でブランチ作成可（作業ツリー仮想化）、作業中に共有や注釈が可能。",
       "source": "Hacker News",
       "publishedAt": "2026-08-05T18:52:54.000Z",
-      "contentHash": "e21f537c0f11"
+      "contentHash": "b88bcb337375"
     },
     {
       "id": "9527c3055c05",
@@ -896,10 +1031,10 @@
       "id": "58ba351a2139",
       "title": "The latest AI news we announced in July 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
-      "summary": "記事本文がここにないため要約できません。本文を貼るか、リンクを教えてください（200文字以内で日本語要約します）。特に注目してほしい点があれば教えてください。",
+      "summary": "Googleは7月に、高速化した複数のGeminiモデルやGemini Robotics ER 2、動画・音楽の創作ツール、Gemini Sparkによる自動化、Search連携、Android移行、山火事検知衛星などを発表し、日常業務や実問題の解決を目指す更新を行いました。",
       "source": "Gemini",
       "publishedAt": "2026-08-04T13:00:00.000Z",
-      "contentHash": "49c25782fe63"
+      "contentHash": "7c6bcc5503e3"
     },
     {
       "id": "b088409319e1",
@@ -995,10 +1130,10 @@
       "id": "455e66877c48",
       "title": "Software Design 2026年9月号 - いま注目のローカルLLM特集",
       "url": "https://note.com/npaka/n/n09447d05bbfc",
-      "summary": "『Software Design』2026年9月号はローカルLLM特集。Kimi K3やDeepSeek‑V4‑Flash‑0731等の高性能モデルで個人PCや社内サーバでも実用化が進む現状を、第1章執筆者がモデル・ハード・実行環境の変化とともに解説しています。",
+      "summary": "『Software Design』2026年9月号はローカルLLM特集。Kimi K3やDeepSeek‑V4‑Flash‑0731などの高性能モデルで個人PCや社内サーバでの実用化が進み、著者は第1章でモデル・ハード・実行環境の変化を解説している。",
       "source": "npaka",
       "publishedAt": "2026-08-04T04:47:08.000Z",
-      "contentHash": "17956d652e28"
+      "contentHash": "369bdecbe32a"
     },
     {
       "id": "4fc91eecb314",
@@ -1256,10 +1391,10 @@
       "id": "6193ed5523d0",
       "title": "Inside our 353,000-person vibe coding course",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "summary": "KaggleとGoogleが共同で無料の「AI Agents Intensive」コースを提供し、学習者が集まって次世代のAIエージェントの構築と実運用（デプロイ）を学んだ。",
+      "summary": "GoogleとKaggleの「AI Agents: Intensive Vibe Coding」コースに353,000人超の開発者が参加。専門家講義、技術論文やノートブック、キャップストーンプロジェクトを提供。",
       "source": "Gemini",
       "publishedAt": "2026-08-03T15:00:00.000Z",
-      "contentHash": "f704ea841332"
+      "contentHash": "8a9d1c8a8e47"
     },
     {
       "id": "0da41905fd13",
@@ -2228,10 +2363,10 @@
       "id": "5566bf3bec36",
       "title": "Simplify your morning with this vibe-coded schedule app.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/glanceboard-gemini-flash-nano-banana/",
-      "summary": "朝の眩しい画面やストレスになる通知に疲れたGoogleのクリエイティブテクノロジスト、Raphが、穏やかで見やすい情報表示を目指したカスタムアプリ「Glanceboard」を作った。",
+      "summary": "Googleの技術者RaphがGemini 3.6 FlashとNano Bananaで作ったGlanceboardは、家族のGoogleカレンダーと天気を読み取り、子どもの服装イラストと予定・持ち物をe-inkで静かに表示するローカルサーバー運用のアプリ。コードはGitHubで公開。",
       "source": "Gemini",
       "publishedAt": "2026-07-31T19:00:00.000Z",
-      "contentHash": "b83ae58e20d4"
+      "contentHash": "9d7c1d7b5969"
     },
     {
       "id": "04234651d216",
@@ -2354,10 +2489,10 @@
       "id": "04e5894ab585",
       "title": "Find out what’s new in the Gemini app in July's Gemini Drop.",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/",
-      "summary": "Gemini Dropsは、Geminiアプリを最大限に活用するための最新情報や使い方を毎月届ける定期アップデートです。",
+      "summary": "Geminiの7月Drop：macOSで音声操作（任意ウィンドウで作成・編集・要約）、Gemini Sparkが世界展開で24時間利用可能、Gemini 3.6 Flash/3.5 Flash‑Lite（高速・推論向上）、アバターで自分を画像化、Dropbox/Zillow/Viator連携、米国で個人向け画像生成提供。",
       "source": "Gemini",
       "publishedAt": "2026-07-31T16:00:00.000Z",
-      "contentHash": "bb57ccd4e140"
+      "contentHash": "5ecdf19d9229"
     },
     {
       "id": "c0a79a3abf3a",
@@ -2939,10 +3074,10 @@
       "id": "5a01c69735c0",
       "title": "Gemini Spark now integrates with Chrome",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
-      "summary": "最新のGemini Spark更新は、Chromeでのウェブ閲覧機能を含む機能強化の概要です。ブラウザ統合によりオンライン情報の取得や操作が可能になり、応答性と利便性が向上します。",
+      "summary": "GoogleのGemini Sparkが世界のより多くのユーザーに提供開始され、Chromeでのウェブ閲覧機能を追加してブラウザ連携を強化しました。",
       "source": "Gemini",
       "publishedAt": "2026-07-30T20:00:00.000Z",
-      "contentHash": "8129f6d11b81"
+      "contentHash": "1f9da5d23b51"
     },
     {
       "id": "3c5c702b7955",
@@ -3119,10 +3254,10 @@
       "id": "0bb5162dd11b",
       "title": "Introducing Gemini Robotics ER 2",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
-      "summary": "Gemini Robotics ER 2はロボット用途で映像理解、ツールの連携制御、複数ロボットの協調を飛躍的に向上させる革新的なプラットフォームです。",
+      "summary": "Google DeepMindのGemini Robotics ER 2は、動画理解に基づく実時間の空間推論、マルチステップ計画、タスク編成や複数ロボット協調を可能にし、物理世界でのロボットの有用性を高める高レベル制御モデルです。",
       "source": "Gemini",
       "publishedAt": "2026-07-30T15:00:00.000Z",
-      "contentHash": "9a5910d9b31e"
+      "contentHash": "eef5c76a3f96"
     },
     {
       "id": "0046069b9cc1",
@@ -3623,10 +3758,10 @@
       "id": "18e8d4ab775b",
       "title": "Gemini for macOS adds new natural language capabilities",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/",
-      "summary": "macOS向けGeminiアプリが、自然な話し方で音声入力するだけで高精度の文字起こし、編集、要約を音声だけで行えるようになったことを紹介する記事。",
+      "summary": "GoogleのmacOS向けGeminiアプリが音声入力機能を追加。Fnキー長押しで任意のウィンドウに話すと、不要語や訂正を自動で処理した高精度な文字起こしや編集・要約をカーソル位置に直接挿入できる。",
       "source": "Gemini",
       "publishedAt": "2026-07-29T15:00:00.000Z",
-      "contentHash": "1587fab6a564"
+      "contentHash": "8c1b551b4ad0"
     },
     {
       "id": "265c6a0134ab",
@@ -4217,10 +4352,10 @@
       "id": "7691342c0d33",
       "title": "How Gemini Flash agents are helping a Michigan dairy farmer",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/using-gemini-to-manage-farm/",
-      "summary": "ミシガンの酪農家ポール・ウィンデミュラーが、Gemini 3.6 Flashで作ったAIエージェントを導入し、業務の自動化や効率化で働き方を変えている事例を紹介しています。",
+      "summary": "ミシガンの酪農家ポール・ウィンデミューラーはGemini 3.6 FlashのAIエージェントで乳質や給餌ログ等を統合・解析し、生物学的効率を算出、日々の報告を自動化して手作業を大幅に削減している。",
       "source": "Gemini",
       "publishedAt": "2026-07-28T16:15:00.000Z",
-      "contentHash": "f4bd793e353b"
+      "contentHash": "5958950cd116"
     },
     {
       "id": "4cdfa332f672",
@@ -5378,10 +5513,10 @@
       "id": "2a3ed98ae137",
       "title": "Claude Opus 5 の概要",
       "url": "https://note.com/npaka/n/n43bce8f77785",
-      "summary": "記事本文を貼っていただけますか？全文があれば200文字以内で要約します。本文がない場合は、公開情報にもとづく「Claude Opus 5」の簡潔な要約（特徴・性能・用途・安全性など）を作成しますが、よろしいですか？",
+      "summary": "Anthropicは2026年7月24日、上位モデル「Claude Opus 5」を公開。大規模コード修正や長時間エージェント作業、自己検証に強く、Effortで思考量調整、Fast mode搭載。1Mトークン文脈で高性能をFable 5の半額程度の料金で提供。",
       "source": "npaka",
       "publishedAt": "2026-07-26T02:14:07.000Z",
-      "contentHash": "e859978ff35a"
+      "contentHash": "91b68d3d2689"
     },
     {
       "id": "a001c773bf7d",
@@ -7115,10 +7250,10 @@
       "id": "b6c036e2206b",
       "title": "Here’s how to ask Gemini Live for help with anything you see.",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-live-camera-how-to/",
-      "summary": "提示された記事は途中で切れています。全文を送ってください。現状の文のみを要約すると、複雑なマニュアルや点滅するエラーコード、独特な物体など、見ているものを言葉で説明するのが難しい場面では説明（助け）が必要だと述べています。",
+      "summary": "Geminiアプリの「Live」を使えば、アイコンをタップしてカメラで見ているものを撮影し、修理手順や片付け、アプリ操作、買い物アドバイスなどをリアルタイムで助言してもらえます。",
       "source": "Gemini",
       "publishedAt": "2026-07-22T16:00:00.000Z",
-      "contentHash": "5fb2a9bd56b3"
+      "contentHash": "29641c6407af"
     },
     {
       "id": "d1947d984030",
@@ -7259,10 +7394,10 @@
       "id": "a9dfe60b87c5",
       "title": "3 Google updates from Galaxy Unpacked 2026",
       "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "summary": "サムスンは、近日発売の新型折りたたみ端末、ウォッチ、グラスを通じて、ユーザーが生産性を高め時間を取り戻せる方法を紹介しました。",
+      "summary": "GoogleはGalaxy Unpackedで、折りたたみスマホ（Galaxy Z Fold8/Flip8）や新しいウォッチ、グラスに対し、Gemini Intelligenceなどを活用した生産性向上と時間節約のための連携機能を発表しました。",
       "source": "Gemini",
       "publishedAt": "2026-07-22T13:00:00.000Z",
-      "contentHash": "e2b7234afcff"
+      "contentHash": "53a7bab742e7"
     },
     {
       "id": "932591afba7f",
@@ -8865,141 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-07-19T01:29:19.000Z",
       "contentHash": "944f1daf86d5"
-    },
-    {
-      "id": "49b630ef6a0b",
-      "title": "TypeScriptの型を収集してからコンテキストとしてLLMに与えてみる | SMARTCAMP Engineer Blogのフィード",
-      "url": "https://zenn.dev/smartcamp/articles/b28949bea1e8d2",
-      "summary": "TypeScriptプロジェクトでLLMにコード修正を頼むと、型情報を推測して誤った変更を提案する問題がある。例：createUserの引数をname/emailと推測したが実際は{repo, data}。既存の型解析手法で対応できるが課題が残る。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-19T01:04:33.000Z",
-      "contentHash": "cf45945caae8"
-    },
-    {
-      "id": "0ad5fdc83ea2",
-      "title": "Better and Cheaper Than IPTV",
-      "url": "https://github.com/stupside/castor",
-      "summary": "Castorは端末から実際の動画ストリームを抽出・トランスコードしてスマートTVへフル画質でキャストするツール。ヘッドレスChromeで通信を監視し再生を開始、IMDB/TMDB参照や自動字幕焼き込み対応。Chrome/ffmpeg/ffprobeが必須で、ネイティブバイナリ・Docker・Homebrew提供。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-19T00:59:55.000Z",
-      "contentHash": "e934c00d7b81"
-    },
-    {
-      "id": "71d61e0fd00c",
-      "title": "Transcribe.cpp",
-      "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "summary": "transcribe.cppはggmlベースの音声文字起こしライブラリで、最新モデルをサポートし参照実装と数値/WER検証済み。GPU対応でMac/Windows/Linuxに組込める軽量設計。Handyの作者が開発するv0.1.0で粗はあるため不具合報告を歓迎。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-19T00:38:26.000Z",
-      "contentHash": "99cf5d85e691"
-    },
-    {
-      "id": "6e1027054e04",
-      "title": "Azure API ManagementのAI GatewayでMicrosoft Foundryを呼び、IP Filterで制御する | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/28e466d961518b",
-      "summary": "Azure API ManagementでAI Gatewayを実際に構築しながら学ぶ記録。Docsだけでは分からなかったため、Microsoft Foundryを呼び出し、IPフィルターで制御する構成を試す。前提はAPIM BasicとFoundryがデプロイ済み。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-18T23:39:30.000Z",
-      "contentHash": "cd5645f17d9a"
-    },
-    {
-      "id": "e4b958abbc08",
-      "title": "Codex Resets",
-      "url": "https://codex-resets.com/",
-      "summary": "CodexとChatGPT Workの使用制限は@thsottiauxのツイートでリセットされる。500k→7M→8M→9Mなど節目で有料ユーザーにバンクドリセットを配布、Web/モバイル対応や5時間レート制限撤廃。平均待機8.9日、最長67.7日。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T23:24:26.000Z",
-      "contentHash": "3fec6a85cdb2"
-    },
-    {
-      "id": "c44b78e034ac",
-      "title": "NYC may require landlords and realtors to disclose the use of AI in listings",
-      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
-      "summary": "ニューヨーク市長ゾーラン・マムダニは、不動産広告でAI生成・編集した画像の無断使用を問題視し、使用時の開示義務化や入居者支援強化などを盛り込んだ「Rental Ripoff Report」を発表した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T22:13:39.000Z",
-      "contentHash": "2c9c0dc77b64"
-    },
-    {
-      "id": "95d774cf512d",
-      "title": "Classic Amiga titles, free to download",
-      "url": "https://amigafreeware.downer.tech/",
-      "summary": "Amiga Freeware Archiveは、ゲーム・アプリ・デモ・グラフィック・音楽など何千ものクラシックAmigaソフトを無料で公開するアーカイブ。17 BitやFred Fish、Scopeなど14のPDライブラリ・グループ（計約10,142MiB）を収録。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T21:55:27.000Z",
-      "contentHash": "86bd6f4a6857"
-    },
-    {
-      "id": "864e6e0039d4",
-      "title": "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
-      "summary": "作家デイヴ・エガーズがサム・アルトマンの招待でOpenAI社員約200人の前で講演し、ChatGPTが教育者の仕事を深刻に難化させ「世代を沈黙させている」と痛烈に批判した。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-18T20:54:42.000Z",
-      "contentHash": "f36cbfba81b0"
-    },
-    {
-      "id": "2ae5fe60c870",
-      "title": "Fabel 5やGPT5.6のようなAIの賢さより、権利無視のKimi K3という中国AIの脅威 | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/kimi-k3-guardrail-asymmetry/",
-      "summary": "北京のMoonshot AIが公開したオープンウェイトのKimi K3（2.8兆パラメータ）は、エージェント群で短時間にmacOS27を再現するなど高性能だが、著作権無視やセーフガード欠如が深刻で、Fable5やGPT‑5.6より権利軽視の脅威が懸念される。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-18T19:14:00.000Z",
-      "contentHash": "cff42a1d3222"
-    },
-    {
-      "id": "9c53649a6f0a",
-      "title": "Google might not kneecap the Pixel 11a with an old processor",
-      "url": "https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak",
-      "summary": "リークによるとPixel 11aはフラグシップ級のTensor G6を搭載。G6はG5相当のPowerVR GPUでG4より性能向上し、ExynosからMediaTek M90モデムへ移行して電池消耗や通信切断の改善が期待される。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-18T18:25:08.000Z",
-      "contentHash": "181509bfa437"
-    },
-    {
-      "id": "d3a5a7dd7b65",
-      "title": "The Kimi K3 Moment",
-      "url": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
-      "summary": "Kimi K3はClaudeと同等の出力・トークン効率を持ちながらAPI・月額が大幅に安価。Claudeは低価格帯で主要モデルを停止するなど制約があり、米国の規制が国内モデルを縛る一方でGLM 5.2等の高性能オープンモデルが台頭している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T17:32:40.000Z",
-      "contentHash": "7bec2193dc2d"
-    },
-    {
-      "id": "fa54f0fbafd1",
-      "title": "Goodbye, and Thanks for All the Bikesheds",
-      "url": "https://queue.acm.org/detail.cfm?id=3818307",
-      "summary": "外部ページに直接アクセスできないため、記事本文を貼るか主要部分をコピペしてください。HNコメントも要約希望ならその旨を教えてください。受け取り次第、200字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T17:27:24.000Z",
-      "contentHash": "b19bbf7642da"
-    },
-    {
-      "id": "06904338046c",
-      "title": "Google is open-sourcing its 3D emoji",
-      "url": "https://www.theverge.com/design/967606/google-open-source-3d-emoji",
-      "summary": "Googleが3D絵文字「Noto Emoji 3D」をオープンソース化。ワールド絵文字デーに制作過程を公開し、生の .OBJ ファイルを配布してVRやアプリ、ミームなどでの利用を促す。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-18T16:40:55.000Z",
-      "contentHash": "a958a7f98aeb"
-    },
-    {
-      "id": "bbff2f3c36b5",
-      "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
-      "url": "https://ykdojo.github.io/claude-controls-mac/",
-      "summary": "予備のMacを常時稼働のClaude Code専用環境に設定する手順。スマホアプリやSSHで操作でき、--dangerously-skip-permissions等のリスクをメイン機から隔離。コンテナは便利だがネット経路やMac専用アプリ（Unity等）制御に制約があり、物理Macを推奨。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T16:12:08.000Z",
-      "contentHash": "6ba2b87f8a96"
-    },
-    {
-      "id": "3bbef4aea646",
-      "title": "Gleam Is Now on Tangled",
-      "url": "https://tangled.org/gleam.run/gleam",
-      "summary": "ごめんなさい、外部URLに直接アクセスできません。記事本文か要点を貼っていただければ、200字以内で要約します。貼れない場合は「Gleam（BEAM用の静的型言語）」に関する一般的な要約を作成することも可能です。どちらがよいですか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-18T15:44:04.000Z",
-      "contentHash": "6c35765f80b2"
     }
   ]
 }
