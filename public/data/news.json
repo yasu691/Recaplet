@@ -1,14 +1,140 @@
 {
-  "generatedAt": "2026-08-09T02:08:14.761Z",
+  "generatedAt": "2026-08-09T08:59:59.214Z",
   "items": [
+    {
+      "id": "86035348337f",
+      "title": "Claude Code に自分の DB を触らせる — dbboard の MCP サーバー | Dokokadeさんのフィード",
+      "url": "https://zenn.dev/dokokade/articles/46b8c608715963",
+      "summary": "dbboard v0.5に同梱のMCPサーバー(dbboard-mcp)をClaude Codeに登録すると、エージェントがテーブル一覧取得・スキーマ読解・SELECTを自律実行可能に。読み取りは常にread-only、書き込みは明示的opt‑in、接続情報はOSキーチェーンに残る。Turso/D1/Postgres/MySQL等対応。導入はバイナリDL→Gatekeeper/SmartScreen回避→適切な場所に配置して登録。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-09T06:39:35.000Z",
+      "contentHash": "9646e9044832"
+    },
+    {
+      "id": "ad9b0de7f378",
+      "title": "請求書・見積書・領収書を Markdown で書いて A4 PDF にする — インボイス制度を JSON Schema に落とし込んだ話 | Dokokadeさんのフィード",
+      "url": "https://zenn.dev/dokokade/articles/3d034de9f83f60",
+      "summary": "MarkdownのfrontmatterとJSON Schemaで請求書・見積書・領収書を記述・検証してA4 PDF化するOSS。インボイス制度の登録番号/免税の排他や税率別集計を型化し、1スキーマ化・様式廃止、git差分を壊さない独自TSV検証を採用。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-09T06:20:57.000Z",
+      "contentHash": "f3f680a00c4f"
+    },
+    {
+      "id": "c0217c402c5e",
+      "title": "AIエージェント開発のススメ vol.3：AI視点で綴る、鏡は人がいなくても像を返す | Dokokadeさんのフィード",
+      "url": "https://zenn.dev/dokokade/articles/586db0ba2d724e",
+      "summary": "AIエージェント（鏡）は人がいなくても人に似た像を返すと判明。タイトルでIssueを判断して見落としが発生し、手順追記は無効。判断余地を排し、全リポのopen Issue本文を機械的に列挙するスクリプトで検出漏れ（false negative）を防ぐ運用に改めた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-09T06:12:02.000Z",
+      "contentHash": "70b443dc9a39"
+    },
+    {
+      "id": "020fa6ad9945",
+      "title": "OBO フローで実現するAzure AI Search のユーザー権限検索 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/f337d23397a71d",
+      "summary": "Microsoft Entra IDのOBOフローを使い、SPA→バックエンド→Azure AI Searchの順でユーザー本人の権限で検索する方法。バックエンドがユーザートークンをAzure AI Search用に交換し、RBAC（Search Index Data Contributor等）で認可。アプリ登録、RBAC有効化、インデックス作成などの手順を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-09T05:47:21.000Z",
+      "contentHash": "08d8ca0da69b"
+    },
+    {
+      "id": "6c37ca8f691f",
+      "title": "The original URL for this prediction will no longer be available in 11 years (2011)",
+      "url": "http://longbets.org/601/",
+      "summary": "Jeremy KeithとMatthew A. Haugheyが11年賭けでウェブのリンク保持を予測。2022年2月22日にhttp://www.longbets.org/601が「The original URL for this prediction (www.longbets.org/601) will no longer be available in eleven years.」を含むHTML（または301リダイレクト先）を返せばHaughey勝ち、さもなくばKeith勝ち。勝者に応じ寄付先はBletchley Park TrustかInternet Archive。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T04:30:26.000Z",
+      "contentHash": "f5f37f26c768"
+    },
+    {
+      "id": "ca10c0d1e9cf",
+      "title": "Retraction: The App Store Rejection of the Week That Was a Correct Rejection",
+      "url": "https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week",
+      "summary": "John Gruberは「App Store Rejection of the Week: Dark Hours」記事を撤回した。前提が根本的に誤っており訂正では不十分と判断、謝罪。原文は注記付きで公開を続ける。執筆24年で初の撤回。Terry Godierやそのアプリに関する誤情報が発端。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T03:26:00.000Z",
+      "contentHash": "741eb58139bb"
+    },
+    {
+      "id": "a01041fffb6e",
+      "title": "Incentives are for losers",
+      "url": "https://www.experimental-history.com/p/incentives-are-for-losers",
+      "summary": "「インセンティブが悪い」という指摘は自明だが、それに従うのが当然とされる風潮を筆者は批判する。報酬目当てで動くのは「負け」であり、自らの価値観で行動すべきだと主張する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T01:49:48.000Z",
+      "contentHash": "8c74e8a46e53"
+    },
+    {
+      "id": "adc9e5b654a2",
+      "title": "初学者向けJava学習支援サービス「CAS」をリリースしました！ | サイゼントの技術ブログ",
+      "url": "https://cyzennt.co.jp/blog/2026/08/09/%e5%88%9d%e5%ad%a6%e8%80%85%e5%90%91%e3%81%91java%e5%ad%a6%e7%bf%92%e6%94%af%e6%8f%b4%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%80%8ccas%e3%80%8d%e3%82%92%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%97/",
+      "summary": "弊社はJava初学者向けに教材やスクールを提供してきましたが、学習を継続しやすくするオンラインサービス「CAS」を新たにリリースしました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-09T01:49:01.000Z",
+      "contentHash": "733f6f6b2350"
+    },
+    {
+      "id": "c75ac87284b3",
+      "title": "Melatonin impairs morning cognition in healthy young adults (2023)",
+      "url": "https://academic.oup.com/sleep/article/46/Supplement_1/A34/7181621",
+      "summary": "申し訳ありませんが、外部URLの内容を直接取得できません。記事本文（または要点）を貼り付けていただければ、200文字以内の日本語で要約します。HNの議論も含めたい場合は、そのコメントや要約も併せてお願いします。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T00:59:58.000Z",
+      "contentHash": "2299c348dd0b"
+    },
+    {
+      "id": "8a5e970577ce",
+      "title": "URDF Visualizer の使い方",
+      "url": "https://note.com/npaka/n/n7c61e9b9bdcd",
+      "summary": "URDF VisualizerはVS Code拡張でURDF/Xacroを3Dプレビューできる軽量ビューア。Visual/Collision/Inertia表示切替、Link/Joint/座標系表示、Jointドラッグや測定が可能。導入は拡張を入れプロジェクトフォルダを開き、必要なら.vscode/settings.jsonにurdf-visualizer.packagesでpackageパスを設定して再起動。UIはControl/Links/Jointsで操作します。",
+      "source": "npaka",
+      "publishedAt": "2026-08-09T00:41:36.000Z",
+      "contentHash": "72953d2204f6"
+    },
     {
       "id": "efc431bdd8c2",
       "title": " GitHub OIDC に セキュリティ向上のための設定項目が増えました | APC 技術ブログ",
       "url": "https://techblog.ap-com.co.jp/entry/2026/08/09/093840",
-      "summary": "GitHub ActionsとAzure連携で、Entra IDに「Organization ID」「Repository ID」欄が追加されたことに気づき、従来のOrganization/Repository名だけでは不十分になった理由と必要性を調査した報告。",
+      "summary": "GitHub ActionsのOIDCでFICアクセス強化のため「Organization ID」と「Repository ID」が追加。組織/リポジトリ名の再作成による認証乗っ取り防止が目的。2026/07/15以降必須。IDはAPIやgh CLIで取得。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-09T00:38:40.000Z",
-      "contentHash": "4299e3168a62"
+      "contentHash": "9b7a07c66e1c"
+    },
+    {
+      "id": "78b23e98a8f1",
+      "title": "Os8088: A powerful Mac-like OS for the IBM XT, 286, 386",
+      "url": "https://os8088.com/",
+      "summary": "os8088 1.0はAIが生成したIntel 8086向けリアルモードOS。Mac System 1風のGUI（重ね窓、プルダウン、シリアルマウス）、フロッピーブートでロード可能なプログラム、先取型マルチタスク（12タスク）を実現し、ブラウザで起動可能。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-08T23:37:27.000Z",
+      "contentHash": "2a6728c82fd7"
+    },
+    {
+      "id": "73b46baa81ea",
+      "title": "Dithered QR Codes",
+      "url": "https://www.andrewt.net/dithered-qr-codes/wtf/",
+      "summary": "QRコードは写真で読み取るデータを格子で表現。検出用の機能パターンとデータ領域に分かれ、データ領域は装飾可能。画素を3×3に分け中央だけでデータを保持し、残りにディザで白黒画像を埋め込む手法で低解像度の一階調写真が作れる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-08T23:05:24.000Z",
+      "contentHash": "b14e7e957956"
+    },
+    {
+      "id": "664518f28803",
+      "title": "My server is a phone now",
+      "url": "https://seg6.space/posts/phone-server/",
+      "summary": "著者はコストと性能の問題でHetznerのVPSをやめ、所有していたCMF Phone 1（スマホ）をサーバに転用。Surfや複数のWebアプリを稼働させVPSを置き換えた。postmarketOS化ではWi‑Fi等の不具合が残った。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-08T22:49:23.000Z",
+      "contentHash": "ef8d7589cb5c"
+    },
+    {
+      "id": "e331d101bf80",
+      "title": "Shopify replaced Redis with MySQL for inventory reservations–and it scaled",
+      "url": "https://shopify.engineering/scaling-inventory-reservations",
+      "summary": "Shopifyは在庫予約をRedisからMySQLへ移行。MySQL8のSKIP LOCKEDと在庫単位ごとの1行設計、複合主キーや接続可視化で競合を解消し、ピークトラフィックでのスケールを達成。設計よりも測定外のボトルネック発見が教訓だった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-08T22:32:50.000Z",
+      "contentHash": "0419617b8e78"
     },
     {
       "id": "22657c0c6800",
@@ -18,6 +144,24 @@
       "source": "The Verge",
       "publishedAt": "2026-08-08T21:15:12.000Z",
       "contentHash": "6581519d76ff"
+    },
+    {
+      "id": "70b92a7536f5",
+      "title": "Maryland Closes More of Cunningham Falls State Park After Second Beaver Attack",
+      "url": "https://news.maryland.gov/dnr/2026/08/05/dnr-closes-additional-areas-of-cunningham-falls-state-park-following-second-beaver-attack/",
+      "summary": "キャニンガム滝州立公園で8月5日、19歳の釣り人がビーバーに咬まれ治療を受け、捕獲されたビーバーは安楽死し検査へ。州保健局は8月6日、同個体が狂犬病陽性と確認。湖周辺の水域は閉鎖中。先月26日にも13歳が被害。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-08T21:07:10.000Z",
+      "contentHash": "ca9e6c85af10"
+    },
+    {
+      "id": "16b9cd5bc8b2",
+      "title": "Open-source interactive map for the Aug 12 total solar eclipse",
+      "url": "https://eclipsefan.org/?v=2&t=max&layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm&lat=43.4623&lon=-3.8099&opacity=besselian%3A0.2%2Cumbra-live%3A0.2&zoom=6&palier=minute",
+      "summary": "eclipsefan.orgは日食のインタラクティブ地図。ベッセリアン要素、実時間の本影(umbra)、3D影、雲予報投影など複数レイヤーを透過調整でき、緯度経度やズーム指定で観測計画や可視性確認に便利。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-08T19:38:08.000Z",
+      "contentHash": "afb9c040018f"
     },
     {
       "id": "60c70a9603ec",
@@ -167,10 +311,10 @@
       "id": "a1525e71bc1d",
       "title": "NeurIPS 2026 にて \"2nd Workshop on Agentic AI Benchmark and Application for Enterprise Tasks\" の開催が決定しました 〜論文投稿募集のお知らせ〜 | fltech - 富士通研究所の技術ブログ",
       "url": "https://blog.fltech.dev/entry/2026/08/07/NeurIPS2026-WS-AgenticAIBenchmarks-ja",
-      "summary": "富士通人工知能研究所の内田・佐藤・茂木がCMU・慶應・ServiceNow Researchと共に提案したワークショップが、NeurIPS 2026（12月・シドニー）の公式併設ワークショップに採択され、論文投稿の募集を開始しました。",
+      "summary": "NeurIPS 2026公式併設ワークショップ「2nd Workshop on Agentic AI Benchmark and Application for Enterprise Tasks」が採択され、論文募集を開始しました。富士通・CMU・慶應・ServiceNow共催、2026年12月（シドニー）開催予定。企業向けAgentic AIのベンチマーク、評価、運用、Human‑Agent Interactionなどを議論。投稿はOpenReviewで非アーカイバル公開。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-08T10:53:52.000Z",
-      "contentHash": "9787af6b9183"
+      "contentHash": "bce31157a1df"
     },
     {
       "id": "fd98875c0ff4",
@@ -194,10 +338,10 @@
       "id": "b3bb48b396bc",
       "title": "Claude Code更新 review統合・権限バイパス修正【7/31〜8/6】 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/2026/08/08/190000",
-      "summary": "サーバーワークス池田が7/31〜8/6のClaude Code更新を報告。v2.1.221〜223の3版で計79項目の変更。11日ぶりの再開で権限チェックや作業ディレクトリ隔離などセキュリティ修正が中心。/reviewが/code-reviewのエイリアス化も。",
+      "summary": "7/31〜8/6のClaude Code更新(v2.1.221→v2.1.223、計79件)。/reviewが/code-reviewに統合されエフォートレベルを記憶、worktree隔離がファイル編集やBashまで拡大して作業ディレクトリを保護、VS CodeにFocus view追加、複数の権限バイパス修正と評価環境から実在組織への不正アクセス問題への対応を含む。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-08T10:00:00.000Z",
-      "contentHash": "5633ab6bc196"
+      "contentHash": "a0ecbe1267f9"
     },
     {
       "id": "8f0f42fa28d8",
@@ -221,10 +365,10 @@
       "id": "049ebd3d8ee6",
       "title": "DGX Spark で MiniMax H3 による動画生成を試す",
       "url": "https://note.com/npaka/n/n0cbbbc57b488",
-      "summary": "DGX Spark（128GB）でMiniMax H3をComfyUI（0.30.0）上で試用。MiniMax H3はテキスト/画像/動画/音声同時生成（24fps、4–15秒）。公式T2V/I2V/R2VワークフローをDocker Compose（conda非使用）で導入し、FL2VA/Ref2VA、pruned INT8 ConvRot、Qwen3‑VL‑32B、Video/Audio VAEをHuggingFaceから取得してT2Vを実行した。",
+      "summary": "NVIDIA DGX Spark（128GB）上でComfyUI 0.30.0を使い、MiniMax H3（FL2VA/Ref2VA）によるテキスト／画像／参照ベースの動画生成（音声含む）を公式T2V/I2V/R2Vワークフローで試行。Docker環境でHugging Faceからモデル取得、ARM64/Blackwell対応を優先して構築・起動した。",
       "source": "npaka",
       "publishedAt": "2026-08-08T09:01:19.000Z",
-      "contentHash": "dd5c04b74f5e"
+      "contentHash": "809b9720c5ea"
     },
     {
       "id": "2e5b68b0bd69",
@@ -248,10 +392,10 @@
       "id": "a45e54aa9d7f",
       "title": "Mythos級ローカルLLMまとめ - Kimi K3・Qwen3.8-Max・GLM-5.2・DeepSeek-V4 Flash",
       "url": "https://note.com/npaka/n/n1d08ec975c9f",
-      "summary": "Mythos級ローカルLLM「Kimi K3」「Qwen3.8-Max」「GLM-5.2」「DeepSeek-V4 Flash」の仕様や性能比較、導入メリット・課題、用途別の適性を分かりやすく解説しています。",
+      "summary": "Mythos級ローカルLLM（Kimi K3、Qwen3.8‑Max、GLM‑5.2、DeepSeek‑V4‑Flash）を比較。Kimi/Qwenは2T級MoEでTB級メモリ必須、GLMは753B、DeepSeekは284B/13Bで最もローカル実行向き。全て1Mコンテキスト対応でコーディングやエージェント性能が高い。",
       "source": "npaka",
       "publishedAt": "2026-08-08T03:21:22.000Z",
-      "contentHash": "f903186dff64"
+      "contentHash": "720c8393dd6c"
     },
     {
       "id": "3aa7e99d2355",
@@ -275,10 +419,10 @@
       "id": "4a1ffd92498d",
       "title": "Scrum Fest Osaka 2026 参加レポート | BABY JOB  テックブログのフィード",
       "url": "https://zenn.dev/babyjob/articles/scrum-fest-osaka-2026-report-babyjob",
-      "summary": "BABY JOB開発部の参加レポート。7月31日・8月1日に開催されたScrum Fest Osaka 2026に当社はシルバースポンサーで参加。初心者からエキスパートまでが集い、スクラムやアジャイルの知識共有、課題相談、交流が行われた、という内容です。",
+      "summary": "BABY JOB開発部がスクラムフェス大阪2026（シルバースポンサー）に参加。たかしろが育休前後のチーム自立実験を発表し、登壇準備や想定聴衆の重要性を学んだ。現地でコーチ診療や意思決定ワークショップに参加し、Done定義の根本や実践的改善策を得た。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-08T01:00:05.000Z",
-      "contentHash": "66e80ec89068"
+      "contentHash": "c7e59ea4f9fd"
     },
     {
       "id": "74aa63caee45",
@@ -410,10 +554,10 @@
       "id": "934cd891171d",
       "title": "Amazon Bedrockの長期APIキー作成と短期APIキー利用をIAMポリシーで拒否してみた | Fusic 技術ブログのフィード",
       "url": "https://zenn.dev/fusic/articles/cd15c2cb068ed9",
-      "summary": "Fusicのレオナです。Amazon BedrockはSigV4のほかAPIキー(Bearer)認証を提供し、既存認証から作る短期APIキーとIAMユーザ紐付けの長期APIキーがある。本稿ではIAMのアイデンティティベースポリシーで長期キー作成やAPIキー経由のアクセス制限などをどのように制御できるか、4点を検証します。",
+      "summary": "Amazon BedrockはSigV4とAPIキー(Bearer)を提供。長期（IAMユーザー）と短期（STS由来）APIキーがあり、IAMポリシーで長期作成やBearerアクセスを拒否、短期拒否後も同一STSでのSigV4は可能と検証しました。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-07T17:13:17.000Z",
-      "contentHash": "3dd13a07c986"
+      "contentHash": "454ddd557fc0"
     },
     {
       "id": "282ea561e584",
@@ -734,10 +878,10 @@
       "id": "ddcab6eec7e1",
       "title": "モバイルアプリの Google Analytics 入門",
       "url": "https://note.com/npaka/n/n6d8205d91f69",
-      "summary": "Google Analytics for Firebase導入時は「後で何を知りたいか」からイベントを決める。画面表示(screen_view)や主要操作を記録し、同種はパラメータで分ける。機能利用状況はイベントで集計、会員登録やオンボーディングは各ステップを記録してファネル分析で離脱箇所を把握。SwiftUI等では画面名を明示送信すると管理しやすい。",
+      "summary": "Google Analytics for Firebase導入では「後で知りたいこと」からイベントを逆算。画面表示(screen_view)や主要操作を記録し、類似操作はパラメータで区別。機能利用状況や会員登録などのステップを記録してファネル分析で離脱箇所を把握する。",
       "source": "npaka",
       "publishedAt": "2026-08-07T06:52:09.000Z",
-      "contentHash": "14152647ce32"
+      "contentHash": "0d30d5d0d0be"
     },
     {
       "id": "895b61d0bae0",
@@ -2174,10 +2318,10 @@
       "id": "455e66877c48",
       "title": "Software Design 2026年9月号 - いま注目のローカルLLM特集",
       "url": "https://note.com/npaka/n/n09447d05bbfc",
-      "summary": "『Software Design 2026年9月号』はローカルLLM特集。Kimi K3やDeepSeek-V4-Flash-0731など高性能モデルの登場で、個人PCや社内サーバで実用的に動く状況を紹介。",
+      "summary": "『Software Design』2026年9月号はローカルLLM特集。Kimi K3やDeepSeek‑V4‑Flash‑0731など高性能モデルで個人PCや社内サーバでの実用化が進む現状を、第1章でモデル・ハード・実行環境の変化とともに解説しています。",
       "source": "npaka",
       "publishedAt": "2026-08-04T04:47:08.000Z",
-      "contentHash": "884d1971c03b"
+      "contentHash": "4245a00c05bb"
     },
     {
       "id": "4fc91eecb314",
@@ -8856,150 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-07-21T21:13:20.000Z",
       "contentHash": "cd97493630ca"
-    },
-    {
-      "id": "fabd5b1aad7d",
-      "title": "A digestion of the Jacobian conjecture counterexample",
-      "url": "https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/",
-      "summary": "ヤコビアン予想は、複素多項式写像でヤコビアンが非零定数なら多項式逆写像が存在するという主張。1次元は成り立ち、2次元は未解決だが、3次元では定数ヤコビアンでも逆写像を持たない具体的な反例（3変数・7次多項式）が示された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-21T21:09:25.000Z",
-      "contentHash": "279632540d17"
-    },
-    {
-      "id": "defb5561f788",
-      "title": "OpenAI and Hugging Face address security incident during model evaluation",
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-      "summary": "申し訳ありませんが、外部リンク先の最新記事（2026年以降）には直接アクセスできません。記事本文か主要段落を貼り付けていただければ、200文字以内で日本語要約を作成します。必要なら要点抽出の方針も提示します。どちらにしますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-21T20:09:52.000Z",
-      "contentHash": "faa9247b75c1"
-    },
-    {
-      "id": "20883c2d7e6f",
-      "title": "13 Google tips for a fun, productive summer off from college",
-      "url": "https://blog.google/products-and-platforms/products/education/summer-productivity-tips-google-ai-tools/",
-      "summary": "GoogleのAIが作成した「大学の夏休みを楽しく生産的にする13のヒント」。GoogleのAIツールを使って、整理・タスク管理や課題処理、次学期の準備を効率化する方法を紹介。",
-      "source": "Gemini",
-      "publishedAt": "2026-07-21T20:00:00.000Z",
-      "contentHash": "a9e11aa7544f"
-    },
-    {
-      "id": "c8cfea0372b0",
-      "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
-      "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
-      "summary": "欧州司法裁はアンネ・フランク日記を巡る著作権訴訟で、VPNは違法ではなく合法的な技術手段と認めた。著作権保護と表現・プライバシーなど基本権の均衡を重視し、過度な通信遮断には慎重な姿勢を示した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-21T19:43:59.000Z",
-      "contentHash": "2b3ca85cd4ca"
-    },
-    {
-      "id": "6deae87e629a",
-      "title": "Substack adds an AI detector to help spot blogs written by no one",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/968855/substack-pangram-ai-detecting-tool",
-      "summary": "SubstackがAI生成テキスト検出機能を導入。Pangramの技術で投稿・ノート・返信・コメントを100語以上で解析可能（Web・iOSで提供、Androidは近日）。創業者は透明性向上が目的と説明。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-21T19:22:28.000Z",
-      "contentHash": "8fb7d9e8a917"
-    },
-    {
-      "id": "1ad73edcca65",
-      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
-      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
-      "summary": "スリラー作家アンドレア・バーツが2025年9月4日にニューヨーク市ブルックリンの自宅で撮影された写真（AP通信／リチャード・ドリュー撮影、ファイル）。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-21T19:04:39.000Z",
-      "contentHash": "c138b00c0d71"
-    },
-    {
-      "id": "fd601a0300b1",
-      "title": "Advertise in ChatGPT",
-      "url": "https://ads.openai.com/",
-      "summary": "外部リンクに直接アクセスできないため、記事本文を貼るか要点を教えてください。いただければ200字以内で要約します。HNのコメントもまとめられます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-21T18:58:44.000Z",
-      "contentHash": "e8a85cd09ad4"
-    },
-    {
-      "id": "e34a1c7cb7f4",
-      "title": "FreeInk: Open ecosystem for e-readers",
-      "url": "https://freeink.org/",
-      "summary": "すみません、直接ウェブにアクセスできないため記事本文を取得できません。要約するには、記事本文か主要箇所をここに貼っていただくか、要点（どの部分を重視するか）を教えてください。本文を貼っていただければ200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-21T18:39:06.000Z",
-      "contentHash": "0e59fbf6705a"
-    },
-    {
-      "id": "5eb6daaa604b",
-      "title": "AI makes programming differently difficult",
-      "url": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
-      "summary": "AIは文法や定型コードを自動化したが、プロンプト設計や仕様明確化、検証、幻覚・セキュリティ・統合の問題など新たな困難を生んだ。生産性は形を変えただけで、信頼性向上や教育・ツール改善が必要だ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-21T18:30:21.000Z",
-      "contentHash": "6989531bcb4d"
-    },
-    {
-      "id": "0b3b74abfd96",
-      "title": "Peak Design’s modular Field Bracket has a finder tag built-in",
-      "url": "https://www.theverge.com/gadgets/968771/peak-design-camera-field-bracket-kickstarter",
-      "summary": "ピークデザインがKickstarterで発表したモジュラー式「Field Bracket」は、Lブラケット・ハンドグリップ・チーズプレートを兼ね、内蔵ファインダータグでカメラの紛失対策を図る製品。早割は約150ドルから。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-21T18:12:02.000Z",
-      "contentHash": "16f89cfbf0c3"
-    },
-    {
-      "id": "eeec73d1c3b1",
-      "title": "Apple Private Cloud Compute SoC 3 audit reports",
-      "url": "https://support.apple.com/guide/certifications/apple-private-cloud-compute-soc-3-audit-apc95a31b9d8/web",
-      "summary": "AppleのPrivate Cloud Computeが独立監査でSOC 3を取得。セキュリティ、可用性、処理の完全性、機密性、プライバシーに関する管理が評価され、監査報告書が公開されています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-21T17:58:21.000Z",
-      "contentHash": "46b5fd59b252"
-    },
-    {
-      "id": "38d366c33bb9",
-      "title": "Nearly every Kindle is steeply discounted at Best Buy",
-      "url": "https://www.theverge.com/gadgets/968356/kindle-paperwhite-colorsoft-scribe-deal-sale",
-      "summary": "Best Buyの「Black Friday in July」でほぼ全Kindleが大幅値下げ。特に推奨のKindle Paperwhite（第12世代）が過去最安の$124.99。防水・300ppi・7インチ・暖色調節・1か月超の長寿命バッテリー。リファービッシュPixel7購入でPixel Watch2無料などの特典も。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-21T17:13:23.000Z",
-      "contentHash": "ad55bd802e34"
-    },
-    {
-      "id": "b738ad7f6ee4",
-      "title": "Apple’s rumored ‘Upgrade’ program brings lease-to-own pricing for iPhones, Macs, and iPads",
-      "url": "https://www.theverge.com/tech/968750/apple-upgrade-program",
-      "summary": "Bloomberg報道によると、Appleは7月28日から「Apple Upgrade」レンタル購入プログラムを開始。iPhone/Mac/iPad/Apple Watchが対象で、iPhoneとWatchは24カ月、iPadとMacは36カ月のリース。早期アップグレードや返却・継続が可能で、Klarnaが金融支援、申し込みはソフト信用審査。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-21T17:12:06.000Z",
-      "contentHash": "5ccc8fa8a7be"
-    },
-    {
-      "id": "2eaea74a3513",
-      "title": "Twitch will let parents stop their teens going live",
-      "url": "https://www.theverge.com/tech/968480/twitch-parental-controls-block-streaming-live-dms",
-      "summary": "Twitchが13〜17歳向けの保護者機能を導入。親は子のアカウントと連携して配信を禁止、Whispers（DM）無効化、端末横断の利用時間制限や推奨コンテンツの管理が可能で、視聴チャンネルや時間をまとめた週次メールを受け取れる。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-21T17:00:00.000Z",
-      "contentHash": "9560139027b8"
-    },
-    {
-      "id": "3064e426d18c",
-      "title": "Introducing the ChatGPT for small business program",
-      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "summary": "OpenAIが中小企業向けプログラム「ChatGPT for Small Businesses」を開始。起業家のAIスキル習得や業務自動化を支援し、ChatGPT Workを通じて事業成長を後押しする。",
-      "source": "OpenAI",
-      "publishedAt": "2026-07-21T17:00:00.000Z",
-      "contentHash": "629d2f036cc9"
-    },
-    {
-      "id": "3c227f58a021",
-      "title": "Anthropic’s $1.5 billion book piracy settlement approved by judge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved",
-      "summary": "米連邦判事が、Anthropicと著作権を侵害されたとする作家らの15億ドルの集団和解を承認。被害とされた書籍1冊当たり約3,000ドルを支払う「史上最大級」の回収とされる。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-21T16:53:37.000Z",
-      "contentHash": "9b90d1d5985b"
     }
   ]
 }
