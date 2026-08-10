@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-08-10T02:18:46.453Z",
+  "generatedAt": "2026-08-10T09:34:36.706Z",
   "items": [
+    {
+      "id": "f91825d8426a",
+      "title": "「ないなら作ればいい」— Claude Code 主体で Obsidian プラグインを開発してコミュニティ公開するまで | PLAY DEVELOPERS BLOG",
+      "url": "https://developers.play.jp/entry/2026/08/10/160833",
+      "summary": "Notionから移行できないKanbanを自作。Claude Codeで設計・開発し社内ツールをOSS化、コミュニティプラグイン「Property Kanban」として公開。AIと連携しメモやドラフトを直接扱えるようにした。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T07:08:33.000Z",
+      "contentHash": "6df396274964"
+    },
+    {
+      "id": "0c359c937662",
+      "title": "GitHub Advanced Security × CodeQL × 引き算的考え | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/08/10/150419",
+      "summary": "APコミュニケーションズ福井です。GHASの静的解析CodeQLで、検知範囲を広げるためにdefaultやsecurity-extendedから「security-and-quality（全部盛り）」への切替を考える人は多いが、実際にどんな影響が出るか自分で確かめずに勧めるべきでないと感じた、という導入部分です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T06:04:19.000Z",
+      "contentHash": "8ab7d24040c5"
+    },
+    {
+      "id": "180e19758ad5",
+      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+      "url": "https://www.docker.com/products/docker-sandboxes/",
+      "summary": "Dockerのサンドボックスは、Claude CodeやGemini CLI等のAIエージェントを隔離された使い捨てmicroVMで安全に実行。パッケージやDocker起動、設定変更を許可しつつホスト保護。ファイル・ネットワーク・資格情報の制御や組織向けのDocker AI Governanceで方針適用。 macOS/Windows用インストーラあり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-10T06:02:38.000Z",
+      "contentHash": "6a5547220774"
+    },
+    {
+      "id": "c6b272f683da",
+      "title": "若手の感性×Z世代のリアル！UUUMマーケティングのストプラチームが仕掛けるマーケティングの再現性 | FreakOut Backyard",
+      "url": "https://backyard.fout.co.jp/2026/08/interview/%e8%8b%a5%e6%89%8b%e3%81%ae%e6%84%9f%e6%80%a7xz%e4%b8%96%e4%bb%a3%e3%81%ae%e3%83%aa%e3%82%a2%e3%83%ab%ef%bc%81uuum%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%86%e3%82%a3%e3%83%b3%e3%82%b0%e3%81%ae%e3%82%b9/",
+      "summary": "UUUMマーケティングの現場を伝えるコラム。今回はロッテ「ホカロン」プロジェクトを取り上げ、戦略チーム「ストプラ」が若手の感性とZ世代のリアルを活かし再現性あるマーケティングを仕掛ける舞台裏を紹介する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T06:00:55.000Z",
+      "contentHash": "7e2d9af31a0d"
+    },
+    {
+      "id": "17e7a5653d72",
+      "title": "週6万件のエラー増加に埋もれて、一番重要なアラートを見逃したことで本当に守るべきものを学んだ話 | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/2026/08/10/150017",
+      "summary": "アソビュー入社1年の河野です。1月からレジャー予約サービスの可用性担当を引き継ぎましたが、SLOの理解は曖昧でDatadogも未経験。前職は新機能開発中心のSIerで、安定運用は不慣れなまま任されました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T06:00:17.000Z",
+      "contentHash": "e2df81d2a52b"
+    },
+    {
+      "id": "6f0ac9f9f964",
+      "title": "【Zscaler】Zero Trust Branchとは？拠点ネットワークをゼロトラスト化する仕組み | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/zscaler-zero-trust-branch-overview",
+      "summary": "Zscaler Zero Trust Branchは拠点ネットワークをクラウド中心で再設計し、トラフィックをZIA/ZPAへ転送してセキュリティを適用。WAN回線制御や端末単位のセグメンテーションで制御を強化し、Network of Oneによりユーザー／デバイス毎のゼロトラストを実現します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T05:38:52.000Z",
+      "contentHash": "ca5cb9f9bcd0"
+    },
+    {
+      "id": "3c1e05262ec3",
+      "title": "Google Cloud Next Tokyo 2026に登壇しました！ | SOMPO Digital Labのフィード",
+      "url": "https://zenn.dev/sompojapan_dx/articles/f88ed67e2f258f",
+      "summary": "Sompo Digital LabがGoogle Cloud Next Tokyoで複数登壇。Day1基調講演に損害保険ジャパンのCDOが登壇し、内製チームや自作アプリの画面が巨大スクリーンに映り、大きな感動を得た。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T05:15:47.000Z",
+      "contentHash": "a3069c8e14df"
+    },
+    {
+      "id": "44377878e744",
+      "title": "CLI 上の Claude Code で Computer Use を再現する（追加課金ゼロ、441 行のエージェント） | TOKIUMプロダクトチーム テックブログのフィード",
+      "url": "https://zenn.dev/tokium_dev/articles/gui-agent-zero-extra-cost",
+      "summary": "API従量課金を避けてComputer Use（画面操作）を試すため、Windows 11のネイティブGUIを自律操作するエージェントを自作。特徴は「脳」をAPI呼び出しコードでなく現在のClaude Code対話セッションに置くこと。ヘルパーCLI2本（計441行）で実装、追加課金ゼロで実機（メモ帳入力）確認済み。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T04:59:12.000Z",
+      "contentHash": "663f676187cd"
+    },
+    {
+      "id": "aff471a45b57",
+      "title": "Weekly AWS アップデート情報 - 2026年8月10日 | ソフトバンク テックブログ（公式）のフィード",
+      "url": "https://zenn.dev/softbank/articles/93183c97bceaf3",
+      "summary": "Weekly AWS（8/3–8/9）の主な更新: AWS Security Hub Extended に10番目のセキュリティカテゴリ「サプライチェーンセキュリティ」が追加され、ChainguardとSocketがパートナーとして参加しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T04:19:26.000Z",
+      "contentHash": "12b5db530d7b"
+    },
+    {
+      "id": "4364c37bdc67",
+      "title": "NRIネットコムBlog　7月アクセス数ランキング!! | NRIネットコムBlog",
+      "url": "https://tech.nri-net.com/entry/access_ranking_2026_07",
+      "summary": "池部です。2026年7月1日～31日のブログアクセスTOP10を発表。1位は「カバレッジの種類（C0/C1/C2/MCC）」、2位「Swagger入門」、3位「Googleタグゲートウェイ（sGTM）導入」、4位は「0やnullの概念」など、技術系記事が上位を占めました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T03:53:37.000Z",
+      "contentHash": "1030f8a5469c"
+    },
+    {
+      "id": "bf86c80d4ed8",
+      "title": "Auto mode is now the default in Claude Code",
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "summary": "Claude Codeの自動モードが8月14日からPro/Max/Teamプランで既定に。長時間自律処理や危険コマンド検出が向上。既に別の既定を設定している場合は一度切替確認が出て、ピン留め既定は不変。分類器の追加トークン分は現時点で課金免除。Enterpriseやクラウド版は段階導入中。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-10T03:50:00.000Z",
+      "contentHash": "24ce7d2f06e2"
+    },
+    {
+      "id": "cc0739ab1e5b",
+      "title": "IT Women Summit —— テクノロジーの力で、組織と未来を動かす女性たちレポート | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/08/10/123922",
+      "summary": "SmartHRのアクセシビリティ部マネージャー坂巻が、2026年5月26日のオンライン「IT Women Summit」にオンライン支援スポンサーとして協賛し、「専門性を『組織の力』へ組み替える—エキスパートの仕事」で登壇。視聴者へ感謝とイベント紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T03:39:22.000Z",
+      "contentHash": "5a1c52758db9"
+    },
+    {
+      "id": "7def8c8346eb",
+      "title": "What Happened to HackerOne?",
+      "url": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/",
+      "summary": "著者は自身の経験から、HackerOneがライブハッキング中心の黄金期から収益優先とAI導入で劣化し、報告権や研究者への配慮が損なわれ信頼が失われたと批判する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-10T02:23:17.000Z",
+      "contentHash": "6fdd837fb5f9"
+    },
     {
       "id": "85f9b59c8e27",
       "title": "【AIコーディング】バイブコーディングとは何か――そして何に気をつけるべきか | エイトハンドレッド TECH BLOG",
@@ -59,10 +176,10 @@
       "id": "adbb62252b6d",
       "title": "3D座標系入門 - XYZ軸と右手系/左手系",
       "url": "https://note.com/npaka/n/n9d3bb1216705",
-      "summary": "3D座標系は「正面」「上」「手系（右手/左手）」と原点で決まる。手系で左右や回転の向きが反転するため、環境ごとの軸割り当て（例：Three.js/Unity/Unreal/Blenderなど）に注意して変換する必要がある。",
+      "summary": "3D座標系はX・Y・Zの向きと右手系／左手系で決まり、原点・正面・上・手系の4要素で座標系が確定します。環境ごとに正面や上下が異なり（例：Unityは左手系で+Z前+Y上、Three.jsは右手系で+Z前+Y上、Blenderは右手系で−Y前+Z上）、変換を誤ると反転や向きずれが発生します。",
       "source": "npaka",
       "publishedAt": "2026-08-10T00:23:49.000Z",
-      "contentHash": "3a549a28589e"
+      "contentHash": "d3c013a77380"
     },
     {
       "id": "b3e3fe8f4c0f",
@@ -101,6 +218,24 @@
       "contentHash": "0d1d2ef6dfdc"
     },
     {
+      "id": "368b6fc9f536",
+      "title": "Georgia police officers fired after Flock camera misuse",
+      "url": "https://www.wtoc.com/2026/08/07/savannah-police-department-fires-6-employees-over-flock-safety-system-misuse/",
+      "summary": "ジョージア州サバンナ警察は、Flockのナンバープレート読取システムを不正利用したとして警官4名と民間職員2名を解雇。事前点検で捜査目的外の検索が判明し、GBIが独立して刑事捜査を実施中。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T21:20:24.000Z",
+      "contentHash": "b07c6729821d"
+    },
+    {
+      "id": "53b8683a0a47",
+      "title": "New Zealand lost its music media, and what we're building to replace it",
+      "url": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
+      "summary": "2026年6月、老舗店Flying Out閉店、Neck of the Woodsも負債で閉店宣言したが約3,000人が15万ドル寄付して再開。ほか多数の会場や誌面が消え、音楽記者は激減。芸術報道は約13%でスポーツの25%を下回る。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T20:42:29.000Z",
+      "contentHash": "80b20fdc8e3b"
+    },
+    {
       "id": "59fe9d99564b",
       "title": "No Dogs in Space is a music history podcast for true obsessives",
       "url": "https://www.theverge.com/entertainment/977190/no-dogs-in-space-music-history-podcast",
@@ -108,6 +243,42 @@
       "source": "The Verge",
       "publishedAt": "2026-08-09T20:28:31.000Z",
       "contentHash": "054330d19e1b"
+    },
+    {
+      "id": "f73e3507d7b7",
+      "title": "The Hacker's Renaissance (2025)",
+      "url": "https://phrack.org/issues/72/19#article",
+      "summary": "そのURL先に直接アクセスできないため、本文を貼っていただけますか？本文をいただければ200字以内で要約します。必要なら特に注目してほしい点（技術的詳細、結論など）も教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T20:18:44.000Z",
+      "contentHash": "d28c3e8b739b"
+    },
+    {
+      "id": "c55e7e1c552f",
+      "title": "The main way I've seen people turn ideologically crazy (2025)",
+      "url": "https://blog.andymasley.com/p/the-main-way-ive-seen-people-turn",
+      "summary": "反対意見が稚拙・偏見に見えることを理由に、自分の過激な考えを正当化して強化してしまう――その「正当化して更新する」行為が急進化の主因だと警告している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T20:15:52.000Z",
+      "contentHash": "385eb35f5fdc"
+    },
+    {
+      "id": "a86b3af71366",
+      "title": "Poland now 6th-largest EU economy, ahead of Switzerland and Belgium",
+      "url": "https://www.euronews.com/business/2026/08/09/poland-now-sixth-largest-eu-economy-ahead-of-switzerland-and-belgium",
+      "summary": "記事は2026年版のヨーロッパ注目スキーリゾートTOP10を紹介。ゼルマットやレ・ザルクを含む各地の滑走域、雪質、リフト網、アクセス、家族向け設備、アフタースキーや環境対策を比較・評価しています。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T20:13:38.000Z",
+      "contentHash": "720261027ad3"
+    },
+    {
+      "id": "02086f861e79",
+      "title": "The tragedy of the commons, AI edition",
+      "url": "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
+      "summary": "記事はAI開発を「共有地の悲劇」に例え、企業・国家の競争が危険な能力を無秩序に拡大し社会的コストを招くと警告する。計算量課税や監視、国際協調など制度的対応を提案する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T19:43:52.000Z",
+      "contentHash": "c69496e6b80b"
     },
     {
       "id": "bceb7281e531",
@@ -374,10 +545,10 @@
       "id": "8a5e970577ce",
       "title": "URDF Visualizer の使い方",
       "url": "https://note.com/npaka/n/n7c61e9b9bdcd",
-      "summary": "VS Code拡張「URDF Visualizer」の使い方。URDF/XacroをVS Code上で3Dプレビューし、Visual/Collision/Inertia表示切替、座標や距離計測、Link/Joint表示・操作が可能。導入とpackageパス設定手順、Control/Links/Jointsパネルの基本操作を解説。",
+      "summary": "URDF VisualizerはVS Code拡張でURDF/Xacroを3D表示し、Visual/Collision/Inertia切替・リンク／ジョイント／座標表示・ジョイント操作・計測・packageパス解決などが可能。導入は拡張を入れプロジェクトを開き、.vscode/settings.jsonでpackageを設定。編集しながら軽量に形状や動作を確認できる。",
       "source": "npaka",
       "publishedAt": "2026-08-09T00:41:36.000Z",
-      "contentHash": "ae3181eb83b5"
+      "contentHash": "81c4c893665a"
     },
     {
       "id": "efc431bdd8c2",
@@ -680,10 +851,10 @@
       "id": "a45e54aa9d7f",
       "title": "Mythos級ローカルLLMまとめ - Kimi K3・Qwen3.8-Max・GLM-5.2・DeepSeek-V4 Flash",
       "url": "https://note.com/npaka/n/n1d08ec975c9f",
-      "summary": "Mythos級ローカルLLM4種を比較。Kimi K3（2.8T/104B）とQwen3.8‑Max（2.4T/95B）はTB級メモリが必要、GLM‑5.2（753B/40B）も大きめ。DeepSeek‑V4‑Flash（284B/13B）は最もローカル向きで量子化後約162GB。全モデル1Mコンテキストでコーディング・エージェントに強み。",
+      "summary": "Mythos級ローカルLLM「Kimi K3」「Qwen3.8-Max」「GLM-5.2」「DeepSeek-V4 Flash」を比較・解説。各モデルの性能や特徴、推奨用途、動作要件を整理し、利用シーン別の選び方や利点を紹介しています。",
       "source": "npaka",
       "publishedAt": "2026-08-08T03:21:22.000Z",
-      "contentHash": "8f0874428205"
+      "contentHash": "f903186dff64"
     },
     {
       "id": "3aa7e99d2355",
@@ -1166,10 +1337,10 @@
       "id": "ddcab6eec7e1",
       "title": "モバイルアプリの Google Analytics 入門",
       "url": "https://note.com/npaka/n/n6d8205d91f69",
-      "summary": "Google Analytics for Firebase導入は「何を知りたいか」からイベントを設計。画面表示(screen_view)や主要操作を中心に記録し、同種操作はパラメータで区別。機能利用やステップごとのファネルで離脱箇所を把握する。",
+      "summary": "Google Analytics for Firebase導入の基本。記録は「何を知りたいか」から逆算して決め、画面表示(screen_view)や主要操作をイベント化。類似操作はパラメータで区別し、機能利用状況や登録・購入などのファネルを計測して離脱箇所を分析。SwiftUI等では画面名を明示送信すると管理しやすい。",
       "source": "npaka",
       "publishedAt": "2026-08-07T06:52:09.000Z",
-      "contentHash": "690bc4192d57"
+      "contentHash": "fac89c0b575b"
     },
     {
       "id": "895b61d0bae0",
@@ -8829,177 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-07-22T13:08:19.000Z",
       "contentHash": "8b4574a662c5"
-    },
-    {
-      "id": "a58db8370d71",
-      "title": "Samsung’s newest foldable finally feels Ultra",
-      "url": "https://www.theverge.com/gadgets/968200/samsung-galaxy-z-fold-8-ultra-announced-hands-on-photos",
-      "summary": "サムスンの新型「Z Fold 8 Ultra」は、Flex Titaniumディスプレイで折り目がほぼ消えた。チタン薄膜をチタンプレートに結合し従来ポリマー比20倍の剛性を実現、記者の実機確認でも折り目はほとんど感じられない。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "contentHash": "c3383b88974b"
-    },
-    {
-      "id": "c20ce42c3808",
-      "title": "Samsung’s wider Z Fold 8 feels just right",
-      "url": "https://www.theverge.com/tech/968663/samsung-galaxy-z-fold-8-wide-hands-on",
-      "summary": "サムスンの新Z Fold 8は従来より幅広く短めで、パスポート並みの高さが手に馴染む。FlipとFoldの中間的な形状で直感的だが、約1,900ドルと高価で望遠カメラ非搭載。ラインナップはやや混乱し、真の後継はZ Fold 8 Ultra。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "contentHash": "0b6af310844f"
-    },
-    {
-      "id": "cc25adb12ce0",
-      "title": "Samsung’s Galaxy Watch 9 and Ultra 2 bet big on battery",
-      "url": "https://www.theverge.com/tech/968728/samsung-galaxy-watch-9-ultra-2-hands-on-wearables-smartwatches",
-      "summary": "サムスンがGalaxy Watch 9とGalaxy Watch Ultra 2を発表。新チップと大容量バッテリー（Ultra 2は800mAhで約35%増、実測約70時間）、予防的な健康機能を強化。Ultra 2は50ドル値上げの699.99ドル。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "contentHash": "6497d5daa314"
-    },
-    {
-      "id": "082c4173c70b",
-      "title": "Building AI infrastructure with the Effingham County community",
-      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "summary": "OpenAIがジョージア州エフィンガム郡で「Project Camellia」を発表。責任あるエネルギー利用、地域投資、雇用創出、そしてCodexへのアクセス提供などを約束した。",
-      "source": "OpenAI",
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "contentHash": "cad903a9f233"
-    },
-    {
-      "id": "a9dfe60b87c5",
-      "title": "3 Google updates from Galaxy Unpacked 2026",
-      "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "summary": "GoogleはGalaxy Unpackedで、折りたたみスマホ（Galaxy Z Fold8/Flip8）や新しいウォッチ、グラスに対し、Gemini Intelligenceなどを活用した生産性向上と時間節約のための連携機能を発表しました。",
-      "source": "Gemini",
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "contentHash": "53a7bab742e7"
-    },
-    {
-      "id": "932591afba7f",
-      "title": "How news organizations are using AI to advance their vital missions",
-      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
-      "summary": "報道機関はAIを活用して取材力の強化、読者拡大、業務改善を図っており、OpenAIのツールが世界中の記者や出版社を支援している。",
-      "source": "OpenAI",
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "contentHash": "f074b782c7e2"
-    },
-    {
-      "id": "e7787a8af185",
-      "title": "Businesses with ugly AI menu redesigns",
-      "url": "https://blog.fiddery.com/businesses-with-ugly-ai-menu-redesigns/",
-      "summary": "フィリピン系レストランのAI生成メニュー画像が不気味で失望したが、注文したspamsilogは母の味で美味しく、地元店を応援したい気持ちとAI使用への嫌悪が交錯した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-22T12:49:45.000Z",
-      "contentHash": "3322b1fdd214"
-    },
-    {
-      "id": "ce16444a7e16",
-      "title": "The startup's Postgres survival guide",
-      "url": "https://hatchet.run/blog/postgres-survival-guide",
-      "summary": "Postgres運用の実戦ガイド。2年の運用経験を元に、スキーマ設計、インデックス、読み書き最適化、結合、ORDER BY整合、マイグレーション、接続管理、クエリプラン／seq scan、autovacuumや膨張対策、FOR UPDATE SKIP LOCKEDやパーティショニングなど上級トピック、ORMの限界とsqlc等ツール提案をまとめる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-22T12:36:08.000Z",
-      "contentHash": "30d9d8f8e6e5"
-    },
-    {
-      "id": "9fda597f5de7",
-      "title": "So Reddit has decided that plain HTML is unsafe",
-      "url": "https://www.cole-k.com/2026/07/21/reddit/",
-      "summary": "RedditがプレーンHTMLを「危険」として公開表示を制限し、ログイン必須化に踏み切ったことに筆者は憤慨。LLM時代に人間生成投稿を検索で重宝してきた旧フロントエンド愛用者として失望している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-22T12:32:48.000Z",
-      "contentHash": "f09c0157da72"
-    },
-    {
-      "id": "577ddf6b90e6",
-      "title": "Advancing the next era of national science",
-      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
-      "summary": "OpenAIは米エネルギー省や国立研究所と連携し、最先端AIを活用して科学的発見を加速し、米国の科学研究の発展に貢献することを表明した。",
-      "source": "OpenAI",
-      "publishedAt": "2026-07-22T12:00:00.000Z",
-      "contentHash": "2fd3ab02cafc"
-    },
-    {
-      "id": "f87f7fc47175",
-      "title": "10 REM\"_(C2SLFF4",
-      "url": "https://beej.us/blog/data/mystery-comment/",
-      "summary": "1980年のExidy Sorcerer用BASICゲーム『The Wizard's Castle』の原典ソースに残る謎の文字列「_(C2SLFF4...」を解析。POKE/PEEKやRNDの負シード、USR呼び出し、アドレス-2049(0xF7FF)周辺がPRNG初期化に関係すると考察し、ASCIIで機械語が埋め込まれている可能性も示唆。調査協力者への謝辞あり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-22T11:58:09.000Z",
-      "contentHash": "3ec0a7911c01"
-    },
-    {
-      "id": "92d04c1fd00c",
-      "title": "OverpAId – Fire your CEO. Hire the future",
-      "url": "https://overpaid.lol",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文をここに貼っていただければ、200字以内で要約します。HNコメントの要約も希望なら、どちらを優先するか教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-22T10:49:04.000Z",
-      "contentHash": "3a3b5fa0581e"
-    },
-    {
-      "id": "415865919dea",
-      "title": "CodexのカスタムPetに学ぶエージェント設計5つのポイント | アンドドット テックブログのフィード",
-      "url": "https://zenn.dev/and_dot/articles/codex-custom-pet-kitsu",
-      "summary": "ChatGPTデスクトップのCodexで、参考画像と一度の指示だけからカスタムPet「Kitsu」を生成。裏では検証と再生成を繰り返し2時間28分34秒で完成。生成過程の実録と923行のhatch-petから導く「長時間稼働するエージェント設計の5要点」を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T10:21:20.000Z",
-      "contentHash": "af0b52afc100"
-    },
-    {
-      "id": "7fd75b5ef026",
-      "title": "Utility companies are promising to spare us from AI’s energy bill",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump",
-      "summary": "米の大手電力会社やデータセンター約200社が、トランプ大統領の「利用者保護」誓約に署名しAIで電気料金が上がらないと約束。NextEraやDuke等含むが、実効性や執行手段が乏しいと批判されている。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-22T10:12:13.000Z",
-      "contentHash": "8b141f47ad64"
-    },
-    {
-      "id": "ec1ec1e55d0d",
-      "title": "Amazon GuardDuty Investigation (Preview) を実際に調査で使ってみたその使用感 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/amazon-guardduty-investigation-review",
-      "summary": "セキュリティサービス部の佐竹が、プレビュー中のAmazon GuardDuty Investigationを実際に攻撃で検証し画面キャプチャ付きで紹介。結論は「やりたいことはわかる」ものの課題も確認。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T09:30:07.000Z",
-      "contentHash": "48344854645d"
-    },
-    {
-      "id": "aa3b667a52fe",
-      "title": "「〇〇の内訳が見たい」の指示文で、データ取得からグラフ描画までの流れを試してみた | DRESS CODE TECH BLOGのフィード",
-      "url": "https://zenn.dev/dress_code/articles/cb9bab6844d1ce",
-      "summary": "自然言語指示で集計からChart.js描画までを技術検証。AIにSQLは書かせず、AWS BedrockのTool useで集計ツールを選定。集計はバックエンド実行、AIはグラフ種別と簡単なインサイトを返し、個人情報やスキーマはAIに渡さない設計。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T09:20:46.000Z",
-      "contentHash": "6519fe8802aa"
-    },
-    {
-      "id": "41b0700999d1",
-      "title": "DESIGN.md はデザインを任せる道具でなく、AIに判断を渡すためのもの | Algomatic Tech Blog",
-      "url": "https://tech.algomatic.jp/entry/2026/07/22/180632",
-      "summary": "AlgomaticのエンジニアGoです。getdesign.mdが「State of DESIGN.md 2026」を公開。6.4万超のオンボーディング回答をもとに、AI時代のWeb制作における見た目整備、利用ツール、デザイン文脈の不足点をまとめた公式レポートです。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T09:06:32.000Z",
-      "contentHash": "1da1f03b17dd"
-    },
-    {
-      "id": "bcfd262a9a35",
-      "title": "SlackbotからHosted Tableau MCPに繋がるようになったので早速一通りのツールを(全部)試してみた | truestarテックブログのフィード",
-      "url": "https://zenn.dev/truestar/articles/2f127a0df88292",
-      "summary": "SlackbotからHosted Tableau MCPへの接続が段階的ロールアウトで利用可能になったため、著者がTableau Cloud（SSO前提）で接続設定を行い、ワークブック閲覧、画像/CSV取得、データクエリ、Pulse（メトリクス）、セッション管理など主要機能を一通り検証した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T09:02:23.000Z",
-      "contentHash": "86663fd0e7d3"
-    },
-    {
-      "id": "4d93983bd1f7",
-      "title": "MySQLのバージョン表記が「26.7」に。新しいリリース体系とEarly Access版の機能を整理する | スマートスタイル TECH BLOG",
-      "url": "https://blog.s-style.co.jp/2026/07/16467/",
-      "summary": "MySQLは2025年から従来のリリース周期を見直し、迅速なフィードバックを得られる「Innovation Release」と長期安定提供の「LTS」の二本立てで、安定運用と新機能導入の両立を図ります。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T09:00:54.000Z",
-      "contentHash": "6e5a267c3007"
     }
   ]
 }
