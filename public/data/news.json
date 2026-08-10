@@ -1,6 +1,168 @@
 {
-  "generatedAt": "2026-08-09T16:48:20.014Z",
+  "generatedAt": "2026-08-10T02:18:46.453Z",
   "items": [
+    {
+      "id": "85f9b59c8e27",
+      "title": "【AIコーディング】バイブコーディングとは何か――そして何に気をつけるべきか | エイトハンドレッド TECH BLOG",
+      "url": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/08/10/102330",
+      "summary": "バイブコーディングは自然言語でAIにコード生成させる手法で、非エンジニアの試作を高速化する一方、セキュリティ・保守性・依存関係・テスト欠如のリスクがある。本番化にはレビュー・テスト設計・適用範囲制限・変更履歴管理が必須。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T01:23:30.000Z",
+      "contentHash": "44b0b463b47d"
+    },
+    {
+      "id": "3b5baccb0a4f",
+      "title": "fablify: Claude Fable 5の「仕事の進め方」をAgent Skillとして持ち運ぶ | GVATECHブログのフィード",
+      "url": "https://zenn.dev/gvatech_blog/articles/3ea6067d0d23fd",
+      "summary": "fablifyはClaude Fable 5の「仕事の進め方」を模したエージェントスキル。結論先出し、検証／推測の区別、実行確認、最小変更、並列検証などの行動規律を外部化して小型モデルでも再現し、VS Code等で使える。導入は npx skills add gvakosaka/fablify。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T01:16:12.000Z",
+      "contentHash": "ca36ce030cf3"
+    },
+    {
+      "id": "4edbcdf684ea",
+      "title": "Fabric入門：なぜ分析用データベースは正規化しないのか | Alternative Architecture DOJO",
+      "url": "https://aadojo.alterbooth.com/entry/2026/08/10/100000",
+      "summary": "DP-600の問題を契機に、著者は分析用データベースがなぜ正規化されないかを解説。DWHは分析・集計を重視し、結合を減らしてクエリを簡素化するために非正規化（スタースキーマやFact/Dimension）を採用する。一方、OLTPは整合性や更新の容易さのため正規化が重要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T01:00:00.000Z",
+      "contentHash": "073d33bc025a"
+    },
+    {
+      "id": "ac6d9838b4ff",
+      "title": "Claude Codeをスマホでリモート、その場でペインが増える | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/53942",
+      "summary": "Claude Codeをスマホから/remote-controlでPCセッションに接続して音声入力や撮影で外出先から即指示でき便利だが、作業をセッションごとに分けられず接続切れや変化把握の困難といった新たなペインが生じる。対策は手元PC側の設定でセッションを維持すること。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T00:53:11.000Z",
+      "contentHash": "edb18f91a2b6"
+    },
+    {
+      "id": "4ff3a8d98729",
+      "title": "DevContainer に tmux を入れて、設定ごと配る | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/53919",
+      "summary": "DevContainerにtmuxを導入。Dockerfileでtmuxをインストール（Debian系はapt、Alpineはapk）。~/.tmux.confはコンテナ再作成で消えるため .devcontainer/.tmux.conf に置き、postCreateCommandで配布。セッション分割やプロセス継続が利点。設定全文と解説あり。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T00:32:15.000Z",
+      "contentHash": "2c3ffd687952"
+    },
+    {
+      "id": "73e7cd2503b9",
+      "title": "KQL は書けないまま、Application Insights の仮説検証を AI に任せた | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/53937",
+      "summary": "Claude Code経由でAzure CLIにApplication Insightsのクエリを実行させ、KQLが書けなくても自然言語の仮説をそのまま検証できる仕組みを構築。AIには生ログでなく集計表のみ渡し、認証・対象・読み取り専用など制約を設ける。仮説立案は人間が担当。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T00:31:15.000Z",
+      "contentHash": "52a8de5a8bdb"
+    },
+    {
+      "id": "adbb62252b6d",
+      "title": "3D座標系入門 - XYZ軸と右手系/左手系",
+      "url": "https://note.com/npaka/n/n9d3bb1216705",
+      "summary": "3D座標系は「正面」「上」「手系（右手/左手）」と原点で決まる。手系で左右や回転の向きが反転するため、環境ごとの軸割り当て（例：Three.js/Unity/Unreal/Blenderなど）に注意して変換する必要がある。",
+      "source": "npaka",
+      "publishedAt": "2026-08-10T00:23:49.000Z",
+      "contentHash": "3a549a28589e"
+    },
+    {
+      "id": "b3e3fe8f4c0f",
+      "title": "【アスキーアートで検証】AIモデルごとの推論レベルによるアウトプットの違い | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/8eaffecd014d57",
+      "summary": "筆者はアスキーアートでモデル差を検証。カブトムシはClaude Fable 5のみ成功、Opus5やGPT-5.6は失敗。代わりに東京タワーを同条件で出力させ、推論レベルごとに出来の差を比較し、モデル能力の違いを可視化した（AGI指標は半分冗談）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T00:00:08.000Z",
+      "contentHash": "275b9e470780"
+    },
+    {
+      "id": "2e1008b875b5",
+      "title": "S3バケットをBigQueryからクエリするための2つの機能（BigQuery cross-cloud connectionsとBigQuery Omniの違い） | G-gen Tech Blog",
+      "url": "https://blog.g-gen.co.jp/entry/bigquery-cross-cloud-connections-and-bigquery-omni",
+      "summary": "BigQuery cross-cloud connectionsはBigQuery側で処理し全リージョン対応だが生データをGCPへ転送するため通信費・速度に課題があり（2026年8月時点でPreview）。BigQuery OmniはAWS/Azure内に専用ワーカーを置き結果のみ返すため高速で外向き通信費が抑えられるが対応リージョンや機能制限、専用コンピュート料金がある。用途と要件で使い分ける。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "contentHash": "9ee77bdb2cf4"
+    },
+    {
+      "id": "b38e21926565",
+      "title": "空白しか書けない言語!? 難解プログラミング言語で「Hello, KENTEM!」書いてみた | KENTEM TechBlog",
+      "url": "https://tech.kentem.jp/entry/2026/08/10/090000",
+      "summary": "実用性ゼロの難解プログラミング言語(esolang)で「Hello, KENTEM!」を書き、実際に動作確認した記事。Whitespace（空白・タブ・改行だけの“見えない”スタック言語）を中心に、Brainfuck、Piet、Pikalang、Malbolgeも紹介・解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "contentHash": "d002a9d19da7"
+    },
+    {
+      "id": "7529a28639cb",
+      "title": "【AWS】メール × Bedrock で自分専用の\"推し活ライブ自動収集エージェント\"を作ってみた | NRIネットコムBlog",
+      "url": "https://tech.nri-net.com/entry/automated_event_aggregator_fan_activities",
+      "summary": "メールのチケット購入履歴から推しアーティストを自動推測し、共演情報をウェブ検索で補完して重要な公演をiCloudカレンダーへ登録、LINEで通知するAWSシステムを構築。Bedrock（Claude）やLambda、Step Functions等を利用し、iCloud採用や「直近12ヶ月で1回参戦」を好み判定基準とした設計と実装上の課題を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "contentHash": "0d1d2ef6dfdc"
+    },
+    {
+      "id": "59fe9d99564b",
+      "title": "No Dogs in Space is a music history podcast for true obsessives",
+      "url": "https://www.theverge.com/entertainment/977190/no-dogs-in-space-music-history-podcast",
+      "summary": "『No Dogs in Space』は音楽史を深掘りするコア向けポッドキャスト。Terrence O'Brienが紹介するが、新作は2024年7月以降なく、Canを扱った第4回で短縮シーズンが締めくくられた。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-09T20:28:31.000Z",
+      "contentHash": "054330d19e1b"
+    },
+    {
+      "id": "bceb7281e531",
+      "title": "How I use LLMs to learn complex topics",
+      "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+      "summary": "LLMで学ぶ手順を紹介。基礎知識を生成・検証させ、低ポリのローラーコースター風シミュレーションとUXを追加してGitHub Pagesで公開する流れ。誤情報がなく記憶に残る学習になり、チップ製造を体験できる「ChipTycoon」を作成した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T19:16:49.000Z",
+      "contentHash": "7b0ab9f4c7d4"
+    },
+    {
+      "id": "f2c80295a15c",
+      "title": "Saying No",
+      "url": "https://rozumem.xyz/posts/19",
+      "summary": "『The Coaching Habit』での「欲しいものを求め、ノーでも交渉する」考えに共感。著者は「ノーを聞く」は得意だが「ノーを言う」は苦手。例として、早朝に借りるカフェでヨガ中に冷房を入れられ、賃貸時間内の温度管理を主張して多数と交渉した経験を述べる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T18:51:06.000Z",
+      "contentHash": "4bdd7fc3187d"
+    },
+    {
+      "id": "bea42141b513",
+      "title": "OpenChamber: An Agentic Development Environment",
+      "url": "https://openchamber.dev/",
+      "summary": "OpenChamberはエージェント駆動の開発環境。セッション目標でバックグラウンド実行、最大5モデルの並列・融合実行、変更差分の段階表示や要素プレビュー、GitHub連携でチェックやPR統合、スケジュール実行、デスクトップ／ブラウザ／モバイル／エディタ間の同期を提供。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T17:27:16.000Z",
+      "contentHash": "897b6b3e8e94"
+    },
+    {
+      "id": "76c3a3f4cc29",
+      "title": "Ask HN: What are you working on? (August 2026)",
+      "url": "https://news.ycombinator.com/item?id=49233423",
+      "summary": "lichessのDBを使い、レーティング別（400〜3000）の局面ごとの指し手分布と勝敗率を算出・表示するウェブツール「Rated Analysis」を作成。別件で、エージェント駆動の木工設計ツール「Sawdust」はパラメトリック手順、YAML操作、BOMや3D/AR出力、ビルドガイド連携など多機能を備える。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T17:23:22.000Z",
+      "contentHash": "5639d8a838cb"
+    },
+    {
+      "id": "ca306868f009",
+      "title": "Zuckerberg&#8217;s yacht was closer, but someone else saved a stranded boat",
+      "url": "https://www.theverge.com/tech/977161/mark-zuckerberg-yacht-wilderness-legacy-stranded-boat",
+      "summary": "アラスカで燃料切れのスキフを救助したのはクルーズ船Wilderness Legacy。追跡データではザッカーバーグのヨット「Launchpad」が近くにいたが応答せず、乗客が非難した。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-09T17:20:30.000Z",
+      "contentHash": "d8a40c77d1d2"
+    },
+    {
+      "id": "8b644cdb4402",
+      "title": "FCC moves to ban Lidar-equipped foreign drones from US",
+      "url": "https://www.tomshardware.com/tech-industry/drones/fcc-moves-to-ban-lidar-equipped-foreign-drones-from-us-classifies-the-technology-as-military-grade-in-a-proposal-that-could-also-hit-thermal-models-and-the-swarms-used-drone-light-shows",
+      "summary": "米FCCが外国製ドローンのLiDAR搭載を禁止する提案を検討。LiDARを軍事級と分類し、熱映像カメラやライトショー用スワームにも影響が及ぶ可能性があり、安全保障上の懸念が理由。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T16:24:59.000Z",
+      "contentHash": "17019e50d7a0"
+    },
     {
       "id": "7e4104cd51ce",
       "title": "49ers coach says his Tesla was on Autopilot when he crashed",
@@ -9,6 +171,51 @@
       "source": "The Verge",
       "publishedAt": "2026-08-09T15:56:49.000Z",
       "contentHash": "f95a715aee08"
+    },
+    {
+      "id": "c4e54fe21f4f",
+      "title": "Analyzing data from Silicon Valley ventures and founders prosecuted for fraud",
+      "url": "https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981",
+      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文をここに貼るか、重要な段落を送っていただければ、200文字以内で日本語要約します。HNコメント要約でも可、その場合も教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T15:26:45.000Z",
+      "contentHash": "a28d1ef75af7"
+    },
+    {
+      "id": "147b31002816",
+      "title": "Taxi drivers rarely die of Alzheimer's",
+      "url": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650",
+      "summary": "2024年の約900万件の死亡記録分析で、タクシーや救急運転手はアルツハイマーで亡くなる率が最も低かった。著者は地図や多層的な空間推論を使う仕事が脳を守る可能性を指摘する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T15:21:46.000Z",
+      "contentHash": "38e7391c9bd7"
+    },
+    {
+      "id": "7a85f51126c3",
+      "title": "Silicon Valley misreads science fiction and undermines democracy",
+      "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+      "summary": "ジル・リポアは著書『人工国家の興亡』で、テック企業が民主国家の機能を代替し、アルゴリズムや企業による「人工国家」への回帰を警告する。反技術ではなく民間の国家機能化を批判し、マスクの矛盾やApple広告、Twitterやデータセンター問題も論じる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T15:18:25.000Z",
+      "contentHash": "f59f67dbb93c"
+    },
+    {
+      "id": "b0098774b8d8",
+      "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
+      "url": "https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html",
+      "summary": "報告によれば、Windows 11の標準「天気」アプリが1GB超のRAMを消費することがあり、同条件のmacOS純正アプリは約5分の1しか使わない。Microsoftは性能改善に取り組んでいる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T15:11:20.000Z",
+      "contentHash": "b5be92275662"
+    },
+    {
+      "id": "23e0494f1c6b",
+      "title": "Tom Stanton's supersonic trebuchet breaks sound barrier with gravity alone",
+      "url": "https://www.techeblog.com/tom-stanton-supersonic-trebuchet/",
+      "summary": "トム・スタントンは英国の野外で、40kgの落下錘を3:1滑車で駆動する工夫を施した重力式トレビュシェットを実演。炭素繊維アームを2300rpm超で回し4gの弾丸を時速776マイル（音速を9mph超）で飛ばし、純粋に重力だけで音速を突破した初の投石機を達成した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-09T15:08:51.000Z",
+      "contentHash": "e2e4890cf43c"
     },
     {
       "id": "0d16b5c04c4e",
@@ -446,10 +653,10 @@
       "id": "049ebd3d8ee6",
       "title": "DGX Spark で MiniMax H3 による動画生成を試す",
       "url": "https://note.com/npaka/n/n0cbbbc57b488",
-      "summary": "NVIDIA DGX Spark（128GB）上でComfyUI 0.30.0を使い、MiniMax H3（FL2VA/Ref2VA）によるテキスト／画像／参照ベースの動画生成（音声含む）を公式T2V/I2V/R2Vワークフローで試行。Docker環境でHugging Faceからモデル取得、ARM64/Blackwell対応を優先して構築・起動した。",
+      "summary": "128GBのNVIDIA DGX Spark上でComfyUI（0.30.0）を使い、MiniMax H3（FL2VA/Ref2VA、T2V/I2V/R2V対応、pruned INT8 ConvRot、Qwen3‑VL、Video/Audio VAE）で4〜15秒の動画とステレオ音声を公式ワークフローで生成・検証。Docker/Docker Composeで導入、ARM64/Blackwell優先、conda非使用。",
       "source": "npaka",
       "publishedAt": "2026-08-08T09:01:19.000Z",
-      "contentHash": "809b9720c5ea"
+      "contentHash": "f72a5719e65a"
     },
     {
       "id": "2e5b68b0bd69",
@@ -473,10 +680,10 @@
       "id": "a45e54aa9d7f",
       "title": "Mythos級ローカルLLMまとめ - Kimi K3・Qwen3.8-Max・GLM-5.2・DeepSeek-V4 Flash",
       "url": "https://note.com/npaka/n/n1d08ec975c9f",
-      "summary": "Mythos級ローカルLLMまとめ：Kimi K3（2.8T/104B active、MXFP4、1T〜2T級RAM必要）、Qwen3.8‑Max（2.4T/95B、近日オープンウェイト）、GLM‑5.2（753B/40B、MIT）、DeepSeek‑V4‑Flash（284B/13B、最もローカル向き、lossless Q8約162GB）。いずれも1Mコンテキストでコーディング・エージェント性能が高い。",
+      "summary": "Mythos級ローカルLLM4種を比較。Kimi K3（2.8T/104B）とQwen3.8‑Max（2.4T/95B）はTB級メモリが必要、GLM‑5.2（753B/40B）も大きめ。DeepSeek‑V4‑Flash（284B/13B）は最もローカル向きで量子化後約162GB。全モデル1Mコンテキストでコーディング・エージェントに強み。",
       "source": "npaka",
       "publishedAt": "2026-08-08T03:21:22.000Z",
-      "contentHash": "79aec7547b15"
+      "contentHash": "8f0874428205"
     },
     {
       "id": "3aa7e99d2355",
@@ -959,10 +1166,10 @@
       "id": "ddcab6eec7e1",
       "title": "モバイルアプリの Google Analytics 入門",
       "url": "https://note.com/npaka/n/n6d8205d91f69",
-      "summary": "Google Analytics for Firebase を前提に、あとで知りたいことから逆算してログを設計する重要性を解説。画面表示(screen_view)や主要操作を記録し、類似操作はパラメータで区別。機能利用状況やオンボーディング／会員登録などの各ステップを記録してファネル分析を行う。",
+      "summary": "Google Analytics for Firebase導入は「何を知りたいか」からイベントを設計。画面表示(screen_view)や主要操作を中心に記録し、同種操作はパラメータで区別。機能利用やステップごとのファネルで離脱箇所を把握する。",
       "source": "npaka",
       "publishedAt": "2026-08-07T06:52:09.000Z",
-      "contentHash": "7e7ef6893f87"
+      "contentHash": "690bc4192d57"
     },
     {
       "id": "895b61d0bae0",
@@ -2759,10 +2966,10 @@
       "id": "ffdca5cefa6b",
       "title": "動画配信の用語まとめ",
       "url": "https://note.com/npaka/n/n9c0bd6917d4d",
-      "summary": "動画配信用語を役割別に整理。配信方式（HLS/MPEG‑DASH/WebRTC）、送信方式（RTMP等）、メディアサーバやエンコーダ、コーデック、コンテナ、プレイヤー等を解説。VOD・ライブ・リアルタイムの違いやHLSの特徴（CDN向け・多数同時視聴に適するが遅延あり）を説明。",
+      "summary": "動画配信用語を役割別に整理。配信方式（HLS/MPEG‑DASH/WebRTC）、送信プロトコル（RTMP等）、メディアサーバ、エンコーダ／コーデック／コンテナ、プレイヤー、CDN／ストレージ、DRMの違いと全体構成を解説。VOD・ライブ・リアルタイムの用途差や、HLSはHTTP/CDN向けでアダプティブだが遅延がある点も説明。",
       "source": "npaka",
       "publishedAt": "2026-08-03T12:13:00.000Z",
-      "contentHash": "dd702d5206d9"
+      "contentHash": "98a89052df81"
     },
     {
       "id": "bd7cfec7102c",
@@ -8793,213 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-22T09:00:54.000Z",
       "contentHash": "6e5a267c3007"
-    },
-    {
-      "id": "2688c641a56c",
-      "title": "仕様駆動開発（Spec-Driven Development）は実際の開発フローでどう使う？一連の流れで整理してみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/spec-driven-development-workflow",
-      "summary": "ES課の濱岡です。仕様駆動開発を学び、GitHub Spec KitとClaude Codeで小機能を実装しました。記事では要件定義→設計書作成→設計書レビュー→実装→実装レビュー→テスト→設計書最終化の各工程で仕様駆動をどう組み込むかを整理しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T09:00:00.000Z",
-      "contentHash": "87b7642503ee"
-    },
-    {
-      "id": "3b2ca47347a7",
-      "title": "Rails: ドラッグアンドドロップ方式の画像プレビューをカスタム要素で再利用可能にする（翻訳） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_07_22/158698",
-      "summary": "Railsでカスタム要素を用いて、ドラッグ＆ドロップ式の画像プレビューを再利用可能にする手法を翻訳紹介。ViewComponentやTailwind CSSでのUI例やMDN参照を含む記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T08:30:34.000Z",
-      "contentHash": "7136bd2dcd19"
-    },
-    {
-      "id": "f48842d7db9a",
-      "title": "Google Workspaceのセキュリティはプランで決まる｜要件別のエディション選び | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/google-workspace-security-by-edition/",
-      "summary": "Google Workspace各エディションのセキュリティ機能を比較・整理し、要件に応じた最適プランの選定方法や見直し手順をIT管理者向けに解説する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T08:21:00.000Z",
-      "contentHash": "a4a9c0e5d7e3"
-    },
-    {
-      "id": "408763d86ef3",
-      "title": "Codeberg bans vibe coded projects",
-      "url": "https://codeberg.org/Codeberg/org/pulls/1253#issuecomment-19820434",
-      "summary": "外部リンクに直接アクセスできないため、元記事やコメントの本文を貼っていただけますか？貼っていただければ、200字以内で日本語要約を作成します。両方（CodebergとHN）の要約や、片方だけも可能です。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-22T08:17:26.000Z",
-      "contentHash": "e517ebc3ad2a"
-    },
-    {
-      "id": "36a89873825b",
-      "title": "Exchange Onlineにおけるキャッシュモード無効化手順 | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/07/22/164645",
-      "summary": "Microsoft 365のOutlookは既定でローカルキャッシュ（ClassicはExchangeキャッシュモード、新しいOutlookはオフラインアクセス）を利用し、オフラインや性能向上が可能です。一方で、セキュリティや共有メールボックスの同期不整合、常に最新データ参照が必要な場合はキャッシュの利用を制限したいケースがあります。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T07:46:45.000Z",
-      "contentHash": "ffd58075b219"
-    },
-    {
-      "id": "c5e914a74f18",
-      "title": "「後で読む」が溜まり続けた私が、RSS 購読を AI に委ねるまで | サイボウズ 生産性向上チーム 💪のフィード",
-      "url": "https://zenn.dev/cybozu_ept/articles/ai-newspaper-using-rss",
-      "summary": "CYBOZU SUMMER BLOG FES '26の記事。著者は大学時代からRSSを使い現在500超を購読しているが、情報量が多すぎて毎朝未読を全部読むのは不可能だと述べる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T07:46:21.000Z",
-      "contentHash": "db26e1d4ab68"
-    },
-    {
-      "id": "2ff7d3161ff7",
-      "title": "PHP Conference Japan 2026 にBASEのエンジニアが登壇＆ゴールドスポンサーとして協賛しました！ | BASEプロダクトチームブログ",
-      "url": "https://devblog.thebase.in/entry/2026/07/22/162459",
-      "summary": "2026年7月20日、BASEはPHP Conference Japan 2026に登壇・ゴールドスポンサーとして参加。初参加メンバーの感想や会場・ブースの様子を紹介し、Yell BankとPAY IDのロゴ刷新に合わせた「BASEロゴ検定」クイズを実施しました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T07:24:59.000Z",
-      "contentHash": "5666218d0296"
-    },
-    {
-      "id": "2947b27fa1c8",
-      "title": "AI Engineer World's Fair 2026参加レポート: エージェントの失敗をどう観測し、評価し、改善へつなげるか | Finatext Tech Blogのフィード",
-      "url": "https://zenn.dev/finatext/articles/d75fe540a1b5ff",
-      "summary": "ナウキャストのよーた（AI Full-Cycle Engineer）が、AIエージェント開発やデータ基盤を担当し、サンフランシスコ開催の技術カンファレンス「AI Engineer World's Fair 2026」に参加。実務に直結するテーマとしてEvalsやAgent Improvementを特に重視した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T07:00:07.000Z",
-      "contentHash": "3be620efc373"
-    },
-    {
-      "id": "62cecbdcc9c2",
-      "title": "Agentforce Vibes 2.0とClaude Agent SDKの関係 | フレクトのクラウドblog",
-      "url": "https://cloud.flect.co.jp/entry/2026/07/22/160000",
-      "summary": "エンジニア和田です。Salesforceのコーディングエージェント「Agentforce Vibes」を紹介。2026年4月のTDXで強化版「Agentforce Vibes 2.0」が発表され一般提供開始。従来は独自LLMを使用していました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T07:00:00.000Z",
-      "contentHash": "c58aef1e4168"
-    },
-    {
-      "id": "cb28252e6de1",
-      "title": "【Qiita独自調査】生成AIは「使えて当たり前」の時代へ。Qiitaデータが示す、今エンジニアに求められるスキルとは？ | Qiita Zine",
-      "url": "https://qiita.com/official-columns/topics/202607-qiita-investigation/",
-      "summary": "Qiitaは2026年3〜5月に「新人プログラマ応援」投稿キャンペーンを開催し、1,097記事・登録者700超を集めた。独自調査では生成AIが「使えて当たり前」の時代とされ、現代エンジニアに求められるスキルを示している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T06:02:54.000Z",
-      "contentHash": "1c5aa1ca301d"
-    },
-    {
-      "id": "14944b1c481f",
-      "title": "[UE5]UIデザイナー向け！マテリアルとアニメーションで表現を拡張しよう | historia Inc – 株式会社ヒストリア",
-      "url": "https://historia.co.jp/archives/65503/",
-      "summary": "Unreal Engine 5.8を用いて、UIマテリアルの表現を広げるノードの組み合わせや、WBPのアニメーションタイムラインでマテリアルパラメータを制御する方法を解説するUIデザイナー向けガイド。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T06:00:38.000Z",
-      "contentHash": "1f9edd9efd93"
-    },
-    {
-      "id": "839f7a51d7b5",
-      "title": "Introducing OpenAI Presence",
-      "url": "https://openai.com/index/introducing-openai-presence",
-      "summary": "OpenAI Presenceは、企業向けの実績あるAIエージェントプラットフォームで、顧客対応や社内ワークフローに信頼性の高い音声・チャットエージェントを導入・運用できるサービスです。",
-      "source": "OpenAI",
-      "publishedAt": "2026-07-22T05:30:00.000Z",
-      "contentHash": "a882fc39774d"
-    },
-    {
-      "id": "43d0c8fd0187",
-      "title": "Claude の利用状況を OpenTelemetry Collector で BigQuery に流し込んで可視化できるようにした | VISASQ Dev Blog",
-      "url": "https://tech.visasq.com/claude-otel-bigquery",
-      "summary": "この記事はClaudeが執筆し筆者が修正。インフラ担当・高畑が、Claude Code/Chat/Coworkの利用状況をOpenTelemetry Collector経由でBigQueryに送って社内で可視化する仕組みを紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T02:43:55.000Z",
-      "contentHash": "22599bb01862"
-    },
-    {
-      "id": "3d1bf4f6ec8e",
-      "title": "Repro における AWS アカウント分離の取り組み Part5 | Repro Tech Blog",
-      "url": "https://tech.repro.io/entry/2026/07/22/113230",
-      "summary": "Development Division/Platform Team/Sys-Infra UnitによるAWSアカウント分離シリーズPart5。KafkaとCassandraの分離を完了し、dev_staging環境の分離が終了、現在staging環境の分離に着手した報告。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T02:32:30.000Z",
-      "contentHash": "53a472361de6"
-    },
-    {
-      "id": "8079455599c0",
-      "title": "Late.sh – a command-line Clubhouse for computer people",
-      "url": "https://late.sh/",
-      "summary": "late.sh はコマンドライン向けのコミュニティ。sshで参加し、任意の `late` CLI（install.sh/PowerShellまたはソースからビルド）でラジオ再生、音声ルーム、音声可視化、YouTube音楽、クリップボード画像貼付、画面共有（予定）やアーケード、共同ASCIIアートボード、チャット等を利用可能。鍵がなければ ssh-keygen を推奨。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-22T02:32:30.000Z",
-      "contentHash": "42922ef5dcf0"
-    },
-    {
-      "id": "ac006be007ac",
-      "title": "サーバーワークスエンジニアブログ 2026年上半期まとめ | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/blog-summary-2026-first-half",
-      "summary": "サーバーワークスエンジニアブログの2026年上半期まとめ。1/1〜6/30で計448本（平均約2.5本/日）を公開。最も多かったのは生成AI・AIエージェント関連で約半数（226本）を占めた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T02:30:00.000Z",
-      "contentHash": "0a1b449bc26b"
-    },
-    {
-      "id": "1330fed671db",
-      "title": "エニグモのセキュリティ最前線：DevSecOpsと攻めのガバナンスで全社を守る仕組みづくり | エニグモ開発者ブログ",
-      "url": "https://tech.enigmo.co.jp/entry/2026/07/22/112914",
-      "summary": "エニグモのセキュリティチームが、会員1,200万人超のCtoC EC「BUYMA」を守る取り組みや組織体制、今後注力する技術的課題、業務の魅力を紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T02:29:14.000Z",
-      "contentHash": "1ea9956c4f76"
-    },
-    {
-      "id": "3ae6b2459f6c",
-      "title": "Qiitaニュース | 「15歳とChatGPT」より、4万6812件が退会させられたシステムについて考えたい | Qiita Zine",
-      "url": "https://qiita.com/official-columns/news/2026-07-22/",
-      "summary": "2026/07/22配信のQiitaニュースバックナンバー。先週の「いいね」上位20投稿や、記事「15歳とChatGPT」で紹介された、4万6812件が退会させられたシステムについての考察が掲載されています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T02:15:31.000Z",
-      "contentHash": "1ec76ccfbd2f"
-    },
-    {
-      "id": "29b6838bf67a",
-      "title": "2026年8月の技術系イベント予定 | LINEヤフー Tech Blog (LY Corporation Tech Blog",
-      "url": "https://techblog.lycorp.co.jp/ja/20260722a",
-      "summary": "LINEヤフーは技術系イベントや勉強会を主催・協賛しています。最新情報は各リンクで確認してください。申込前や満席の場合があるため、開催情報と参加申込状況は随時確認が必要です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T02:00:00.000Z",
-      "contentHash": "2e653a21e766"
-    },
-    {
-      "id": "46d8cbd46ae7",
-      "title": "Canvas に流れるコメントを E2E でどう検証するか | ドワンゴ教育サービス開発者ブログ",
-      "url": "https://blog.nnn.dev/entry/2026/07/22/110000",
-      "summary": "リアルタイム配信基盤移行で、canvas上のコメントをスクショ→OCRで読む際、背景動画や日本語OCRの弱さ、固定待機の限界、配信の「暖機」で誤読に遭遇。AIにパラメータ探索・評価ループを任せ安定化し現設定に収束。テストで保証できる範囲とできない範囲を整理した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T02:00:00.000Z",
-      "contentHash": "d934569f8193"
-    },
-    {
-      "id": "0e2be8ab86fd",
-      "title": "Lambda Web Adapter + EchoのGoサーバーにDatadog APMを導入する | Weathernews Tech Blogのフィード",
-      "url": "https://zenn.dev/weathernews/articles/861478e3d15540",
-      "summary": "Datadog APMをGoに導入し、手動Tracerとコンパイル時自動注入のOrchestrionを比較。導入でカスタムスパンによるボトルネック特定やエラー監視が可能に。Orchestrion単体はスパンが記録されず、tracer.Start()をWithLambdaMode(false)で呼ぶと記録された。Datadog側はLambdaモード設定が影響すると説明した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T01:59:43.000Z",
-      "contentHash": "267c46f44a7c"
-    },
-    {
-      "id": "8a8c118b9d6a",
-      "title": "SRE NEXT 2026 にSILVERスポンサーとしてブース出展＆参加してきました！ | stmn tech blog",
-      "url": "https://tech.stmn.co.jp/entry/2026/07/22/105424",
-      "summary": "株式会社スタメンのもりしたが、7月10〜11日にTOC有明で開催されたSRE NEXT 2026に参加。昨年のLOGOスポンサーから今年はSILVERスポンサーとしてブース出展し、展示企画や印象的なセッションをレポートしています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-22T01:54:24.000Z",
-      "contentHash": "d79ac103c26d"
-    },
-    {
-      "id": "127a687d7f2f",
-      "title": "LG to ban residential proxies from smart TV apps",
-      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-      "summary": "セキュリティ企業Spurの調査で、LGのwebOSアプリの42%以上、SamsungのTizenでも25%以上に第三者のトラフィックを中継する住宅用プロキシSDKが含まれると判明。LGは該当機能の削除を開発者に要求し、未対応アプリは停止すると発表した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-22T01:52:31.000Z",
-      "contentHash": "41b49e7dd056"
     }
   ]
 }
