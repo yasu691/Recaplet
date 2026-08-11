@@ -1,23 +1,230 @@
 {
-  "generatedAt": "2026-08-11T09:13:33.171Z",
+  "generatedAt": "2026-08-11T17:11:07.530Z",
   "items": [
+    {
+      "id": "225368bd642d",
+      "title": "Google’s upcoming Pixel phones are for the fans, even if its launch event isn’t",
+      "url": "https://www.theverge.com/tech/977844/made-by-google-pixel-11-launch-power-users-notification-led",
+      "summary": "Googleの次期Pixelはコアファン向けの機能を強化しているが、発表イベントはセレブ起用で大衆向けに演出。Pixel 11 Proの背面通知ライトなどパワーユーザー志向が目立つ。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-11T17:00:00.000Z",
+      "contentHash": "6056c4df9259"
+    },
+    {
+      "id": "41eada8299c0",
+      "title": "Made by Google 2026: all the Pixel news and announcements",
+      "url": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
+      "summary": "Googleは8月12日のMade by Googleで、Pixel 11（多色展開・Proは背面ライトの可能性）、次世代Pixel Fold、Pixel Watch 5（4仕上げ）、新Pixel Tagなどを発表予定。予約は同日10時ET締切。司会はトレバー・ノア。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-11T17:00:00.000Z",
+      "contentHash": "bb34c1ffd9fb"
+    },
+    {
+      "id": "3e7e64d6cb49",
+      "title": "Apple could help you prove your iPhone photos aren’t deepfakes",
+      "url": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata",
+      "summary": "AppleはiOS 27 beta 5で、撮影時に出所を示すプロベナンスメタデータを埋め込み写真の真正性を証明する「Apple Reference Image」を開発中。初期はオフで、カメラの新「Reference」モードで撮影した写真のみ適用。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-11T16:19:15.000Z",
+      "contentHash": "c06db47387e8"
+    },
+    {
+      "id": "ac6a2b69d405",
+      "title": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
+      "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "summary": "LumeのmacOS仮想化で、ゲストプロセス単位でMetalの機能応答を上書きする互換レイヤを実装。llama.cppが新しいMetalカーネルを使え、M1 UltraでTinyLlama1.1Bはプロンプト処理11.08×、トークン生成16.36×に。Gemma4 12Bも7.20×／14.54×。ソース・ビルドスクリプト・ベンチログを許諾付きで公開。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-11T14:50:33.000Z",
+      "contentHash": "cee4e8988a1f"
+    },
+    {
+      "id": "e6f2455190eb",
+      "title": "‘Zoomsday’ hack uncovered using fewer than 20 AI prompts",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
+      "summary": "Zoomが注釈機能の重大な脆弱性を修正。A Securityの研究者は公的AIモデルへ20未満のプロンプトで欠陥を発見。攻撃者は会議中に端末を無通知で乗っ取り、データ窃取やカメラ・マイク起動、マルウェア感染が可能だった。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-11T14:45:44.000Z",
+      "contentHash": "cdd21bb5ed05"
+    },
+    {
+      "id": "643e0d1b98ca",
+      "title": "Why your Amazon order confirmation emails have become so unhelpful",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+      "summary": "今夏（7月ごろ）からAmazonの注文確認メールが個別商品の名称やサムネイルを外し、カテゴリー名とイラストのみで表示されるようになり、詳細を見るにはサイトに戻る必要があるとして顧客の不満が出ている。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-11T13:27:20.000Z",
+      "contentHash": "f396c9367498"
+    },
+    {
+      "id": "5639e45f22b6",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "url": "https://stolen-thoughts.com/",
+      "summary": "研究者らは、モデルがクライアントへ返す暗号化された推論ブロックが別環境で再生可能で、弱いジャイルブロークンモデルへ注入すると強力モデルの生の思考を抽出できると示した。GitHub等の6708軌跡から31万超を復号し、APIキーやパスワード等704件の機密（うち64件は可視対話外のみ）を回収。OpenAI・Anthropic・Googleで確認。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-11T13:22:00.000Z",
+      "contentHash": "2155f587e3f8"
+    },
+    {
+      "id": "bb311608111e",
+      "title": "GuliKit&#8217;s new Switch controller features next-generation anti-drift thumbsticks",
+      "url": "https://www.theverge.com/tech/976972/gulikit-es-max-anti-drift-tmr-switch-2-wireless-controller-price-availability",
+      "summary": "GuliKitが新ワイヤレスコントローラー「ES Max」を発表。改良型TMR（トンネリング磁気抵抗）スティックでスティックドリフトを抑え、応答性と精度を向上。価格は49.99ドルでSwitch 2 Proより安価。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-11T13:00:00.000Z",
+      "contentHash": "385fce9d4618"
+    },
+    {
+      "id": "2e6fc818a145",
+      "title": "Bumble now lets men make the first move",
+      "url": "https://www.theverge.com/tech/977804/bumble-dating-app-men-message-first-update",
+      "summary": "Bumbleが従来の「女性が先に送る」ルールを撤廃。異性マッチでも誰でも最初にメッセージ送信可能にし、返信期限を24時間から72時間に延長。女性優先は柔軟性のためと説明。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-11T13:00:00.000Z",
+      "contentHash": "1f59fbd98bbf"
+    },
+    {
+      "id": "57d2e76b3d61",
+      "title": "Spotify says it won&#8217;t recommend music from &#8216;AI Personas&#8217;",
+      "url": "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
+      "summary": "Spotifyは9月中旬から実在しないアーティストに「AI Persona」バッジを付け、AIと判定された楽曲はレコメンドから除外する。自己申告に加え人手とAIで顔や名前を判定し、疑いがあれば「Likely AI Persona」も付与する。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-11T13:00:00.000Z",
+      "contentHash": "377c95399daa"
+    },
+    {
+      "id": "1bc670f34b9d",
+      "title": "England set to be one of the first countries to eliminate hepatitis C",
+      "url": "https://www.bbc.com/news/articles/c75gk620r22o",
+      "summary": "英はC型肝炎根絶に前進中。既に既知患者の80%治療目標を達成し、死亡は過去10年で36%減。経口抗ウイルス薬で95%以上が8–12週で治癒。診断拡大で有病者約5.0万人、診断率84.6%と目標90%に迫る。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-11T12:41:59.000Z",
+      "contentHash": "a43f0187c054"
+    },
+    {
+      "id": "c703baeb9f55",
+      "title": "Claude will apply invisible watermarks to AI text and images",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
+      "summary": "AnthropicはEUのAI法に対応し、Claudeが生成する文章や画像に人間には見えない機械判読可能な透かしと、可能な場合はデジタル署名付きの出所メタデータを付与すると表明した。施行は即時ではなく既存製品には猶予期間がある。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-11T12:22:20.000Z",
+      "contentHash": "131becfa18ec"
+    },
+    {
+      "id": "2d22a2aa7db1",
+      "title": "Joby flexes military muscle with $500 million defense acquisition",
+      "url": "https://www.theverge.com/transportation/977533/joby-resonant-sciences-acquisition-evtol",
+      "summary": "eVTOL企業Joby Aviationはデイトンの防衛企業Resonant Sciencesを5億ドルで買収へ。4.5億ドルを現金、5千万ドルを株式で賄い、2027年初に完了予定。Resonantは防衛部門として存続し、商業部門は空飛ぶタクシー事業を継続する。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-11T12:00:00.000Z",
+      "contentHash": "62ed5b49e834"
+    },
+    {
+      "id": "0583ac007f27",
+      "title": "Fabric Automation Tool — Microsoft Fabric環境を構築するAI支援自動化ソリューション | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/a9b4f4729d088e",
+      "summary": "Microsoft Fabricは6つのワークロードを単一SaaSで統合したが、自動化開始が遅く、アーキテクチャ・権限・命名規則・ワークスペース・セマンティックモデル・接続などがTerraform/ARM実行前に手作業で決められてしまう点が課題だ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-11T10:03:39.000Z",
+      "contentHash": "02b71e540366"
+    },
+    {
+      "id": "f89dbb090b22",
+      "title": "Nvidia's Risky Business",
+      "url": "https://stratechery.com/2026/nvidias-risky-business/",
+      "summary": "1870年、南北戦争の資金調達で名声を得たジェイ・クックがノーザン・パシフィック鉄道の債券販売を引き受け、政府保証のない債を12%手数料と株で個人向けに大量販売。1500人の販売員と1300紙の新聞を使い小口投資家を動員した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-11T10:02:00.000Z",
+      "contentHash": "5da995e5b3b4"
+    },
+    {
+      "id": "b19ec562c455",
+      "title": "Testing ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "summary": "OpenAIは無料提供を維持するためにChatGPTで広告の試験導入を開始。広告は明確に表示され、回答には影響しないとし、厳格なプライバシー保護とユーザーの管理機能を備える。",
+      "source": "OpenAI",
+      "publishedAt": "2026-08-11T10:00:00.000Z",
+      "contentHash": "9bc6b7adc1b8"
+    },
+    {
+      "id": "0b5e363856dc",
+      "title": "CAM 入門",
+      "url": "https://note.com/npaka/n/ncc6b3127635d",
+      "summary": "CAMの基本と加工の流れを解説。CADの3Dモデルから材料・工具・切削条件を設定し、ツールパスを生成、シミュレーションで干渉や削り具合を確認、ポスト処理でNCプログラムを出力。切削やレーザー等多様な加工に対応。",
+      "source": "npaka",
+      "publishedAt": "2026-08-11T09:59:45.000Z",
+      "contentHash": "beacd8c81aa8"
+    },
+    {
+      "id": "46b89fb8957c",
+      "title": "More than 10 firms pay up to $100k a month for access to Truth Social posts",
+      "url": "https://www.bbc.com/news/articles/ce3q5nxpgk1o",
+      "summary": "トランプのTruth Social投稿を先行配信する有料API「Truth API」が8月開始。高頻度取引中心に10社超が月6万～10万ドルで契約。トランプ・メディアは4–6月に2.38億ドル赤字を計上しつつ、新収益源として期待されるが倫理・法的問題も指摘されている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-11T09:57:14.000Z",
+      "contentHash": "82dd0ff86b2e"
+    },
+    {
+      "id": "013a129d50b2",
+      "title": "Claude Codeに問題設定から伴走してもらう仕組みを作った話 | レバレジーズ データAIブログ",
+      "url": "https://analytics.leverages.jp/entry/2026/08/11/180000",
+      "summary": "レバレジーズの櫻井が、Claude Codeを単なる実行者から伴走者に変える運用を設計。~/.claude/CLAUDE.mdで自律範囲を定義し、hooksで状態共有、settings.jsonで権限制御。依頼を判断単位に分け、重要な意味変更時のみ確認して進める仕組みを導入した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-11T09:00:00.000Z",
+      "contentHash": "486b51ca5e84"
+    },
+    {
+      "id": "84056c24c9a4",
+      "title": "CAE 入門",
+      "url": "https://note.com/npaka/n/naa05f619e80f",
+      "summary": "CADは製品形状の設計技術、CAEはそのモデルで力・熱・流体・振動などの挙動を解析し設計比較や試作削減に役立つ。解析は構造・熱・流体・振動や連成解析があり、前処理でモデル・材料・境界条件・メッシュを設定し、ソルバーで計算、コンター図などで結果を確認する。",
+      "source": "npaka",
+      "publishedAt": "2026-08-11T08:52:26.000Z",
+      "contentHash": "82db5ed08e70"
+    },
+    {
+      "id": "e8567714623f",
+      "title": "France to ban unsolicited telemarketing calls",
+      "url": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
+      "summary": "フランスは8月11日から、事前の明確な同意がない勧誘電話を原則禁止する。既存顧客など一部例外を除き企業は事前同意を取得する必要があり、消費者団体は歓迎、業界は懸念を示している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-11T08:15:46.000Z",
+      "contentHash": "efbf4437e8ea"
+    },
+    {
+      "id": "749675490a81",
+      "title": "AIエージェント統制は「IDの層」と「コンテンツの層」に分かれた｜BoxとOktaの発表を読み解く | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/ai-agent-governance-id-content/",
+      "summary": "BoxとOktaの発表を手がかりに、AIエージェント統制を「ID層」と「コンテンツ層」に分けて整理。台帳化や認証情報管理、データの重心・所有権見極めなど、実務の着手点を解説する記事。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-11T07:36:00.000Z",
+      "contentHash": "a9a1cea1ae8f"
+    },
     {
       "id": "cce966f1c13d",
       "title": "FreeCAD 入門",
       "url": "https://note.com/npaka/n/n6be8090c5920",
-      "summary": "FreeCAD入門。パラメトリックモデリングや主要ワークベンチ（Part Design等）、セットアップ・画面構成・マウス操作を解説。Part Designで80×50×5mmの穴あきプレートを作る手順（新規→Body→スケッチ→Pad→円→Pocket）を紹介。",
+      "summary": "FreeCADはWindows/macOS/Linux対応の無料オープンソース3DパラメトリックCAD。ワークベンチで機能を切替え、寸法や拘束で設計する。公式から導入、画面構成やマウス操作を解説し、Part Designで80×50×5mmにφ10mm穴のプレートを作る手順（新規→Body→スケッチ→Pad→スケッチ→Pocket）を紹介。",
       "source": "npaka",
       "publishedAt": "2026-08-11T07:18:46.000Z",
-      "contentHash": "4c5e497f74c9"
+      "contentHash": "cfa52fee3b6d"
+    },
+    {
+      "id": "6145a48723fd",
+      "title": "Recycle – Floppydisks",
+      "url": "https://www.floppydisk.com/recycle",
+      "summary": "未開封の新品フロッピーディスク（100枚以上）を買い取り。外装開封品は新品扱い不可。写真を送って見積りは電話(800)397-7890。3.5\"は数量問わず回収、200枚超で送料一部補助。送付先はLaguna BeachのFloppydisk Recycle Program。返金申請書を同封。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-11T02:01:01.000Z",
+      "contentHash": "189f0947bc2d"
     },
     {
       "id": "402cb90b3316",
       "title": "プロダクトエンジニアがプロダクト基盤の改善に関わる意味 | hacomono TECH BLOG",
       "url": "https://techblog.hacomono.jp/entry/2026/8/11/110000",
-      "summary": "hacomoの会計決済チームが独自のClean ArchitectureからRails標準構成へ移行（Rails way化）し、AIを活用した大規模リプレースを実施。狙いは開発・AI適用のコスト低減、AIに任せる範囲拡大と人の判断基準明確化、既存テストの重要性。",
+      "summary": "hacomono会計決済グループのプロダクトエンジニア江口が、スタートアップ特有のRails技術負債に取り組んだ経験を報告。Ruby/Railsのアップデート、モジュラーモノリス導入、改善施策とその功罪を紹介します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-11T02:00:00.000Z",
-      "contentHash": "ff1c05ffce0c"
+      "contentHash": "744eef949943"
     },
     {
       "id": "f0fa1fe670d0",
@@ -41,10 +248,10 @@
       "id": "2c3a236eede1",
       "title": "Chicken Scheme 6.0",
       "url": "https://code.call-cc.org/releases/6.0.0/NEWS",
-      "summary": "CHICKEN (call-cc) 6.0.0のリリースノート。新機能や性能改善、多数のバグ修正と破壊的変更、パッケージ管理やビルド設定の更新、移行手順や既知の問題点を詳述。",
+      "summary": "申し訳ありませんが、外部URLを直接参照できません。記事本文を貼り付けるか主要部分を送っていただければ、200文字以内で日本語要約します。HNのコメント要約も同様に対応可能です。",
       "source": "Hacker News",
       "publishedAt": "2026-08-11T00:24:15.000Z",
-      "contentHash": "35f3570455ad"
+      "contentHash": "0f8428ea51a4"
     },
     {
       "id": "8b56f91e6ea5",
@@ -95,10 +302,10 @@
       "id": "b52906a29d2d",
       "title": "第2回 標準機能とカスタマイズ投資の配分原則 | Briswell Tech Blog",
       "url": "https://tech.briswell.com/entry/2026/08/11/070000",
-      "summary": "基幹システム刷新では現行踏襲を避け、まず標準機能を確認して優先する。カスタマイズは法令要件か競争優位に直結する場合のみ許容。標準に寄せると不要な作り込みが減り、提供元の継続的更新を受けられる。パッケージの業界適合性も確認せよ。",
+      "summary": "基幹業務システム刷新では現行業務の丸写しを避け、標準機能とカスタマイズ投資を適切に配分することが重要。現行踏襲は一見堅実だが将来の複雑化を招く落とし穴だ。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-10T22:00:00.000Z",
-      "contentHash": "750515578c46"
+      "contentHash": "4b6ecfd203ce"
     },
     {
       "id": "042fb889688a",
@@ -293,10 +500,10 @@
       "id": "d044ad3537fc",
       "title": "ドメインモデル図がすぐ古くなるので、Storybookっぽくコードと関連付けて見れるようにしてみた | DRESS CODE TECH BLOGのフィード",
       "url": "https://zenn.dev/dress_code/articles/34f18afe1464e8",
-      "summary": "SUDOモデリングの図が実装と乖離しやすく、オブジェクト図作成やAI連携が面倒だという課題を挙げ、TypeScriptの型を元にStorybook風にドメインモデル（型）とオブジェクト図（具体例）をコードで定義・Web表示する手法を提案した。",
+      "summary": "SUDOモデリングを個人で5年ほど愛用する一方、ドメインモデル図とオブジェクト図の運用に悩んだ。そこでTypeScriptの型でStorybook風の定義を作り、Web UIで図を参照できるようにした試みを紹介する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-10T14:59:48.000Z",
-      "contentHash": "b7dbe74da785"
+      "contentHash": "f8b0985ea241"
     },
     {
       "id": "d42b381db278",
@@ -356,10 +563,10 @@
       "id": "6f9e92e223f9",
       "title": "「【警告】その実装、乗っ取られる？Laravel開発者が今すぐ見直すべきセキュリティの落とし穴」～【laravel】人気記事（08/09） | CareNet Engineersのフィード",
       "url": "https://zenn.dev/carenet/articles/zenn-weekly-laravel-articles-2026-08",
-      "summary": "Zennの人気Laravel記事を自動収集・要約。楽観ロックの実装注意点、Filamentの権限放置、Googleログインのメール照合による乗っ取り脆弱性などのセキュリティ問題に加え、XDebug導入やPackagist公開、Package By Feature設計も解説。",
+      "summary": "Laravel開発者向け警告記事。楽観ロックの仕組みと実装ポイント、よくある失敗例をコード例で解説し、並行更新によるデータ破損を防ぐ手法と見直すべきセキュリティ課題を提示。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-10T12:45:04.000Z",
-      "contentHash": "ffc0eccf4554"
+      "contentHash": "ee1aadcb812a"
     },
     {
       "id": "15e40711e2cd",
@@ -464,19 +671,19 @@
       "id": "7a42648228ab",
       "title": "【AIエージェント】さらにその先――「ハーネスエンジニアリング」という考え方 | エイトハンドレッド TECH BLOG",
       "url": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/08/10/185025",
-      "summary": "ハーネスエンジニアリングは、AIエージェントが安全に継続成果を出すための外部枠組み設計。迷わない・逸脱しない・失敗時に止める・人へつなぐの四要素を整え、プロンプト→コンテキスト→ハーネスの順で成熟させることがPoCを本番化する鍵。",
+      "summary": "PoCが成功しても本番化しない原因はモデルやプロンプトではなく「動かす枠組み」。ハーネスエンジニアリングは、コンテキスト工学の上位でAIを安全に運用する環境設計。迷わず・逸脱せず・失敗で止まり・人につなげる、の４点を先に設計することがPoCを実運用に移す条件。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-10T09:50:25.000Z",
-      "contentHash": "27f68dbfa79c"
+      "contentHash": "48988aff94ca"
     },
     {
       "id": "05194c2e7788",
       "title": "GitHub から GitLab へ：Cloud Build 第 2 世代で CI/CD を移行した実践 | クラウドエース株式会社さんのフィード",
       "url": "https://zenn.dev/cloud_ace_jp/articles/f76fd155defab7",
-      "summary": "Cloud Build第1世代(GitHub)から第2世代(GitLab)へTerraformでCI/CDを移行した実践記。github{}からrepository_event_config{}への書き換え、トリガー再作成時の注意点（Secret Manager/リージョン/リポジトリID/OAuth）や検証手順を解説。",
+      "summary": "クラウドエース第三開発部の賀渝華が、会社の方針でGitHubからGitLabへ移行する中、担当するGCPのCI/CD移行を担当。単純移行と考えたがCloud Buildの世代差やトリガー再作成、既存のMerge Request対応などで想定外の手間が発生した。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-10T09:49:50.000Z",
-      "contentHash": "9c8ad6e0da34"
+      "contentHash": "cb79583b5927"
     },
     {
       "id": "2564f9cf1f44",
@@ -725,10 +932,10 @@
       "id": "adbb62252b6d",
       "title": "3D座標系入門 - XYZ軸と右手系/左手系",
       "url": "https://note.com/npaka/n/n9d3bb1216705",
-      "summary": "3D座標系は「正面」「上」「右手/左手系」と原点で決まる。手系で左右や回転方向が逆になり、変換を誤ると向きや反転が起きる。主要環境例：Three.js(右,+Z前,+Y上)、Unity(左,+Z前,+Y上)、Unreal(+X前,+Z上)、Blender(右,−Y前,+Z上)",
+      "summary": "3D座標系の基礎：正面・上・手系（右手/左手）と原点の4つで座標系が決まる。回転の正負も手系で変わる。環境ごとに軸向きが異なり（例：Unityは左手系+Z前、Three.jsは右手系+Z前、Blenderは右手系−Y前）。",
       "source": "npaka",
       "publishedAt": "2026-08-10T00:23:49.000Z",
-      "contentHash": "d4023d883530"
+      "contentHash": "d8e35a9cd903"
     },
     {
       "id": "b3e3fe8f4c0f",
@@ -1400,10 +1607,10 @@
       "id": "049ebd3d8ee6",
       "title": "DGX Spark で MiniMax H3 による動画生成を試す",
       "url": "https://note.com/npaka/n/n0cbbbc57b488",
-      "summary": "NVIDIA DGX Spark（128GB）で、オープンウェイト動画生成モデルMiniMax H3をComfyUI（0.30.0）で検証。T2V/I2V用FL2VA、R2V用Ref2VAを用い、公式ワークフロー（T2V/I2V/R2V）をDockerでセットアップして動画（音声含む）生成を試行。",
+      "summary": "NVIDIA DGX Spark（128GB）でMiniMax H3をComfyUI上で検証。T2V/I2V/R2V公式ワークフローを順に試し、FL2VA/Ref2VAやQwen3‑VL、Video/Audio VAE等をDockerで導入し、動画と音声生成を確認しました。",
       "source": "npaka",
       "publishedAt": "2026-08-08T09:01:19.000Z",
-      "contentHash": "cfde75f5df43"
+      "contentHash": "26817f43687a"
     },
     {
       "id": "2e5b68b0bd69",
@@ -1427,10 +1634,10 @@
       "id": "a45e54aa9d7f",
       "title": "Mythos級ローカルLLMまとめ - Kimi K3・Qwen3.8-Max・GLM-5.2・DeepSeek-V4 Flash",
       "url": "https://note.com/npaka/n/n1d08ec975c9f",
-      "summary": "2026年夏、Kimi K3・Qwen3.8‑Max・GLM‑5.2・DeepSeek‑V4‑FlashのMythos級ローカルLLMが登場。Kimi/Qwenは2T級MoEで1–2TB級メモリ必須、GLM‑5.2は753Bで中間、DeepSeek‑V4‑Flash(284B/13B)は量子化で約162GBと最もローカル向き。いずれもコーディング／エージェント性能が高い。",
+      "summary": "Mythos級ローカルLLM四種を比較。Kimi K3(2.8T)・Qwen3.8‑Max(2.4T)は巨大MoEで個人PC向けには重い。GLM‑5.2(753B)は中庸。DeepSeek‑V4‑Flash(284B/13B)が最もローカル向きで量子化後約162GB。全モデル1Mコンテキストでコーディングやエージェント性能が高い。",
       "source": "npaka",
       "publishedAt": "2026-08-08T03:21:22.000Z",
-      "contentHash": "b4d3f2315ccf"
+      "contentHash": "5193b1659389"
     },
     {
       "id": "3aa7e99d2355",
@@ -3353,10 +3560,10 @@
       "id": "455e66877c48",
       "title": "Software Design 2026年9月号 - いま注目のローカルLLM特集",
       "url": "https://note.com/npaka/n/n09447d05bbfc",
-      "summary": "『ソフトウェアデザイン』2026年9月号はローカルLLM特集。Kimi K3やDeepSeek‑V4など高性能モデルで個人PCや社内サーバでの実用化が進んでおり、著者が第1章でモデル・ハード・実行環境の変化を解説。",
+      "summary": "『Software Design』2026年9月号はローカルLLM特集。Kimi K3やDeepSeek-V4など高性能モデルの登場で個人PCや社内サーバで実用化が進む状況を紹介。筆者は第1章でモデル・ハード・実行環境の変化を解説し、関心ある人に推奨している。",
       "source": "npaka",
       "publishedAt": "2026-08-04T04:47:08.000Z",
-      "contentHash": "c58e31fe01cb"
+      "contentHash": "3a349f6718e9"
     },
     {
       "id": "4fc91eecb314",
@@ -8793,213 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-07-23T18:07:33.000Z",
       "contentHash": "43c378243a07"
-    },
-    {
-      "id": "a17555d3b644",
-      "title": "Corsair’s PC case with a panoramic glass design is $70 off",
-      "url": "https://www.theverge.com/gadgets/960331/corsair-frame-4500x-deal-pc-case-sale",
-      "summary": "CorsairのPCケース「Frame 4500X RS」が通常$190→$119.99（約$70引き）でAmazon・Best Buy・Corsairで販売中。EATX対応、最大GPU長460mm、前面と左側を包むパノラマガラス、右側に反転ローター搭載のARGB対応3ファン付き。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-23T17:20:00.000Z",
-      "contentHash": "88c5f847e142"
-    },
-    {
-      "id": "63434a844b3f",
-      "title": "Tesla’s robotaxi promises are clashing with reality",
-      "url": "https://www.theverge.com/transportation/970003/tesla-robotaxi-mileage-waymo-cities-earnings-musk",
-      "summary": "テスラのロボタクシー計画は期待と現実が乖離。走行距離は伸び悩み、運用車両は減少、安全性も不透明だ。決算説明でマスク氏は成長を急ぐ一方、期待を抑える発言をした。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-23T17:09:31.000Z",
-      "contentHash": "1384026101e8"
-    },
-    {
-      "id": "daa338753d6d",
-      "title": "Show HN: Claude-thermos keeps your Claude session warm for you",
-      "url": "https://github.com/izeigerman/claude-thermos",
-      "summary": "claude-thermosはClaude Codeの5分TTLで消えるプロンプトキャッシュを自動でウォームし、サブエージェント待ちで発生する高額な再エンコード（約20%のコスト増）を防ぐツール。uvx経由で起動し、Python3.11+とclaude CLIが必要。無効化用環境変数と間隔等の調整オプションあり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-23T17:06:22.000Z",
-      "contentHash": "d1266d6c8f7a"
-    },
-    {
-      "id": "63bd0e2c8b3a",
-      "title": "Geekbench 7 will push your computer or phone even harder for better benchmarking",
-      "url": "https://www.theverge.com/gadgets/970012/primate-labs-geekbench-7-benchmark-test-software-update",
-      "summary": "Primate LabsがGeekbench 7を発表。動画・音声のエンコード/デコードテストや再設計されたマルチコア、大容量データセットで負荷を強化。外観は6とほぼ同じ。Pro版は通常99ドル（8/6まで79ドル）でオフライン測定とWindows/macOS/Linux対応。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-23T17:00:00.000Z",
-      "contentHash": "0420944de1a4"
-    },
-    {
-      "id": "fdd00e498f26",
-      "title": "OpenAI is making big claims as it rolls out ChatGPT Health to everyone",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
-      "summary": "OpenAIが米国でChatGPT Healthを全面展開。医療記録連携を可能にし、同社はAIが臨床医を上回る推論力と主張するが幹部は慎重。誤助言で牧師が訴訟。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-23T17:00:00.000Z",
-      "contentHash": "5911681ca88b"
-    },
-    {
-      "id": "28a4a92e485c",
-      "title": "What happened to TheNumbers.com",
-      "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
-      "summary": "映画データの権威サイトTheNumbers.comが2026年3月5日に突如消失し一週間以上ダウン。復旧後は歴史データや機能が大幅に削減。創業者ブルース・ナッシュへの取材で、サイト依存の脆弱性が露呈した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-23T16:53:33.000Z",
-      "contentHash": "f22a5aa491f5"
-    },
-    {
-      "id": "288155c4fa17",
-      "title": "The arguments against open source AI are bad",
-      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
-      "summary": "Kimi K3公開で開源AIへの危険視が再燃。メディアや企業は管理と限定利用を主張し、OpenAI幹部は「AI共産主義」を懸念。著者は反論し、オープンソースが商用の基盤で協業が常、抑制は困難と指摘する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-23T16:49:57.000Z",
-      "contentHash": "ad7091dcd9b5"
-    },
-    {
-      "id": "3e0767c697e8",
-      "title": "Amazon puts Luna cloud-streamed games like Fallout 4 inside Prime Video",
-      "url": "https://www.theverge.com/streaming/970099/amazon-prime-video-luna-gaming",
-      "summary": "AmazonがPrime VideoにGamesタブを追加し、クラウドゲームLunaを統合。米英のFire TVでFallout 4やHogwarts LegacyなどをPrime内で直接プレイ可能に。今後対応端末・国・タイトルを拡大予定で、既存の視聴者向けのカジュアル戦略。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-23T16:39:32.000Z",
-      "contentHash": "20f4e5ac1a71"
-    },
-    {
-      "id": "8e0eb21460be",
-      "title": "Microsoft is testing free, ad-supported cloud gaming for Xbox Insiders",
-      "url": "https://www.theverge.com/games/969969/xbox-testing-ad-supported-streaming",
-      "summary": "MicrosoftはXbox Insiders向けに、所有ゲームを対象に1時間まで広告付きで無料クラウド配信をテスト開始。広告は開始前のみで、有料会員は広告不要。期間限定の試験導入。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-23T16:00:00.000Z",
-      "contentHash": "4e5b2a6e99b9"
-    },
-    {
-      "id": "9e0f126b01bb",
-      "title": "Why Software Factories Fail (or: harness engineering is not enough)",
-      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
-      "summary": "AIによる「ソフトウェア工場」化やループ工学頼みを批判。StrongDMやOpenAIらの自動化はPRレビュー低下、障害やバグ増、コード劣化を招き、単なるハーネス設計では不十分と警告。VCブームへの慎重論も。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-23T15:18:48.000Z",
-      "contentHash": "62f76f10b5c2"
-    },
-    {
-      "id": "5b3b2271e75b",
-      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
-      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
-      "summary": "そのURLは直接参照できません。記事本文を貼るか、正しい公開URLを教えてください。内容を受け取れば200文字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-23T15:18:40.000Z",
-      "contentHash": "7ae361f17694"
-    },
-    {
-      "id": "a2a7e4d4b5b6",
-      "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
-      "url": "https://github.com/palmier-io/palmier-pro",
-      "summary": "Palmier ProはApple Silicon・macOS 26向けにSwiftで開発されたオープンソースのMac用動画編集アプリ。タイムライン内でSeedance等の生成AIを活用でき、Claude/Codex/CursorとローカルMCPサーバ(http://127.0.0.1:19789/mcp)で連携可能。編集機能とMCPは無料・OSSで、生成AI処理のみクローズドソース。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-23T15:11:37.000Z",
-      "contentHash": "636e534ed70a"
-    },
-    {
-      "id": "ce86cf5255d7",
-      "title": "The new Halo remake is a reminder of what Xbox used to be",
-      "url": "https://www.theverge.com/entertainment/969563/halo-campaign-evolved-review-xbox-ps5-pc",
-      "summary": "『Halo: Campaign Evolved』のリメイクは出来が素晴らしく、かつてのXboxを思い起こさせる一方で、発売時期が非常に微妙だと評されている。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-23T15:00:00.000Z",
-      "contentHash": "4e929c124f0e"
-    },
-    {
-      "id": "611583c54475",
-      "title": "Amazon’s best 4K streaming sticks are up to 40 percent off",
-      "url": "https://www.theverge.com/gadgets/969615/amazon-fire-tv-stick-4k-plus-4k-max-anker-zolo-deal-sale",
-      "summary": "AmazonのFire TV Stick 4K Maxと4K Plusが最安値に。4K Maxが約35ドル（$25引）、4K Plusが約25ドル。新UIで作品発見が容易に。内蔵USB‑Cの携帯充電器や自動洗浄ロボ掃除機もセール中。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-23T15:00:00.000Z",
-      "contentHash": "5cf2bd12a202"
-    },
-    {
-      "id": "529f64350b43",
-      "title": "Writing by hand is good for your brain",
-      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
-      "summary": "ニール・スティーヴンソンは、手書きが記憶・思考・創造性を深めると論じ、万年筆や紙など道具と実践法を勧める。HNでは利便性や個人差を巡る賛否が活発に議論された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-23T14:24:43.000Z",
-      "contentHash": "1b90afa82c5c"
-    },
-    {
-      "id": "31ded2973822",
-      "title": "Software rendering in 500 lines of bare C++",
-      "url": "https://haqr.eu/tinyrenderer/",
-      "summary": "OpenGL/Vulkanなどの仕組みを理解するため、外部ライブラリ無しで約500行の生のC++でソフトウェアレンダラを作る講義資料。TGA読み書きだけを用い、ピクセル操作から線分・三角形描画、3Dメッシュ＋テクスチャのレンダリングまで手作業で学ぶ。ソースは公開。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-23T14:17:40.000Z",
-      "contentHash": "2554efd8b462"
-    },
-    {
-      "id": "169c612890cf",
-      "title": "Lawmakers prepare bill requiring AI ‘kill switch’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
-      "summary": "議員が「AIキルスイッチ法」を準備。Lieu氏とMoran氏が提出へ。DHSが商務長官・情報長官と協議し、死者10人以上・損害1億ドル超・停止隠蔽などの「制御喪失」時にAIの停止・抑止を命令可能に。OpenAIの誤操作事案を受けた動き。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-23T14:13:35.000Z",
-      "contentHash": "baebb051ed88"
-    },
-    {
-      "id": "8f793b17215c",
-      "title": "I Regret Migrating to Codeberg",
-      "url": "https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/",
-      "summary": "GitHubの劣化と恣意的なアカウント停止を避けてCodebergに移ったが、Codebergの新規約がどのプロジェクトを歓迎するかを選別する点に失望。自由ソフトのホストが選別権を持つことを懸念している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-23T14:06:47.000Z",
-      "contentHash": "a0f2791656f0"
-    },
-    {
-      "id": "8b56e24e02c8",
-      "title": "Astronomers may have found the first exomoon",
-      "url": "https://www.eso.org/public/news/eso2610/",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文か主要な抜粋を貼り付けていただければ、200字以内で日本語に要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-23T14:02:24.000Z",
-      "contentHash": "720900e7c57c"
-    },
-    {
-      "id": "5816557505f1",
-      "title": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
-      "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "summary": "AppleがOpenAIを営業秘密侵害で提訴。元Apple社員が面接で機密ファイルをダウンロードしたと主張し、OpenAIは否認。専門家は深刻と指摘、争いはポストスマホ時代の覇権を巡る意味合いもある。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-23T14:00:00.000Z",
-      "contentHash": "d3b2ac89a20e"
-    },
-    {
-      "id": "7af7d8e913c3",
-      "title": "Private healthcare makes industries less innovative. It's time for change",
-      "url": "https://werd.io/private-healthcare-makes-industries-less-innovative-its-time-for-change/",
-      "summary": "米国では約4人に1人が保険のために望まない職に留まり、慢性疾患者は41％に上る。雇用による医療保険は賃金や労働条件を抑え、起業や革新を妨げる。著者はNHSの保障が起業を後押ししたとし、民間保険の反対や補助金打ち切りを批判している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-23T13:49:28.000Z",
-      "contentHash": "c15d8a584275"
-    },
-    {
-      "id": "bce0c57c3391",
-      "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
-      "url": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/",
-      "summary": "アルファベットの現金消耗が拡大し、AIへの大型投資で大手テック各社の支出が増加、投資家の懸念が強まっている。データセンター・人材・専用チップ等への投資がキャッシュ流出を加速し、収益性や資本効率に圧力がかかっている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-23T13:10:02.000Z",
-      "contentHash": "57f8935fe36b"
-    },
-    {
-      "id": "c2b72901f9de",
-      "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
-      "url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
-      "summary": "日経によると、Alphabet・Microsoft・Amazon・Meta・Oracleの米大手5社が帳簿外に約1.65兆ドルの債務を抱えている。公式の1.35兆ドルを上回り、Metaは約4200億ドル。SPVなどで債務を隠し、エンロン類似のリスクやAIバブル懸念が強まる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-23T13:09:10.000Z",
-      "contentHash": "151b3bc214f7"
     }
   ]
 }
