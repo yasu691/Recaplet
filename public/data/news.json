@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2026-08-12T02:30:53.219Z",
+  "generatedAt": "2026-08-12T09:23:40.200Z",
   "items": [
+    {
+      "id": "2aa821fff939",
+      "title": "CCP ログから切り分ける Amazon Connect の音声障害 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/amazon-connect-ccp-log-audio-troubleshooting",
+      "summary": "Amazon ConnectのCCPソフトフォンで「音声が届かない」「途切れる」などの障害が発生しやすく、ヘッドセット・OS・ブラウザ・ネットワーク・電話網など複数区間が原因となり特定が難しい。CCPログのWebRTCメトリクスを確認すると、問題の発生区間を特定しやすくなる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-12T07:09:22.000Z",
+      "contentHash": "16505d6ea7c9"
+    },
+    {
+      "id": "a5052e60119f",
+      "title": "EC2 のステータスチェックにアプリ層が増えた「application status checks」を試す | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/ec2-application_status_checks",
+      "summary": "AWSのネットワーク到達性チェックの解説と実践手順。機能・仕組み、AWS管理/カスタマー管理の使い分け、設定項目とステータス、コンソールでの確認場所、実際の作成・関連付け・セキュリティ設定手順、SDK/CLI未対応の注意点などをまとめる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-12T07:02:49.000Z",
+      "contentHash": "4532f5c676a7"
+    },
+    {
+      "id": "34c7f6e6799f",
+      "title": "STORES は iOSDC Japan 2026 に協賛します！ | STORES Product Blog",
+      "url": "https://product.st.inc/entry/2026/08/12/154933",
+      "summary": "STORESの@huinです。iOSDC Japan 2026を今年もスポンサーとして支援します（2020年から通算6回目）。諸般の事情でブースは出しませんが、カンファレンスを盛り上げる気持ちは変わらず、モバイルエンジニアが全力参加します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-12T06:49:33.000Z",
+      "contentHash": "6c709d87df4e"
+    },
+    {
+      "id": "90edb02891b4",
+      "title": "LakebaseはUnity Catalogのデータをアプリに届ける選択肢になるか | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/08/12/153721",
+      "summary": "デリッシュキッチン開発部の蜜澤です。DatabricksのUnity Catalog上のデータを、レコメンド表示や外部ダッシュボードなどの要望増加に伴い、プロダクトAPIから参照できるDBに複製して配信する必要があるという課題について述べています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-12T06:37:21.000Z",
+      "contentHash": "a18995ec1186"
+    },
+    {
+      "id": "18ede428b0e8",
+      "title": "ループとグラフは別物じゃない — 「検証の積み木」でエージェント設計を整理してみた | RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20260812/ai",
+      "summary": "「検証の積み木モデル」を提案。第1層は検証なしのLLM単発推論、第2層はReActで自己検証、第3層は合否を外部化するループ設計、第4層は目的適合やループ間配線を行うグラフ設計。抽象度上昇の理由や人間の関与も論じる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-12T06:05:00.000Z",
+      "contentHash": "b02edeacc428"
+    },
+    {
+      "id": "d0b41d4c5788",
+      "title": "【初心者向け】結局「オブザーバビリティ」って監視と何が違うの？ざっくり解説 | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/08/12/150313",
+      "summary": "本記事は生成AIを一部活用した解説で、クラウド事業部の本間が「オブザーバビリティ」と監視の違いをゼロからわかりやすく解説する内容です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-12T06:03:13.000Z",
+      "contentHash": "fc50404aebd1"
+    },
+    {
+      "id": "496302cf5066",
+      "title": "【2026年版】OWASP LLM Top 10 v3.0から読み解く、AIセキュリティにおける「引き算」の重要性 | APC 技術ブログ",
+      "url": "https://techblog.ap-com.co.jp/entry/2026/08/12/150255",
+      "summary": "APコミュニケーションズACSの福井が、生成AIや自律型エージェント導入でセキュリティ観が転換していると指摘。OWASPがLLM向けリスク新版「OWASP Top 10 for LLM Applications v3.0（2026）」を公開し、不要機能や攻撃面を削減する新評価フレームワークも発表した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-12T06:02:55.000Z",
+      "contentHash": "82b430c7ab35"
+    },
+    {
+      "id": "ab4279e61f54",
+      "title": "Agent Browserを使って動作確認しよう | noteエンジニアチーム 公式マガジン",
+      "url": "https://engineerteam.note.jp/n/n25f4fb782c81",
+      "summary": "note社の隔週社内LT大会「Multi-week Tech Meetup（MTM）」を元にした連載記事。今回はフロントエンドエンジニアのirieさんによるLTの内容を紹介します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-12T06:02:16.000Z",
+      "contentHash": "1ceb5ea2e941"
+    },
+    {
+      "id": "f9e7651f0602",
+      "title": "[UE5]セーブデータの保存先を変更する | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/65920/",
+      "summary": "Unreal Engine 5.8で、エンジン本体を改造せずにセーブデータの保存先を変更する方法を解説する記事。Save Game to Slotの保存先を変更する手順や設定について説明している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-12T06:00:40.000Z",
+      "contentHash": "766d150275b7"
+    },
+    {
+      "id": "ec4e03ac4f7f",
+      "title": "YANS2026にプラチナスポンサーとして参加します！ | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/08/12/150000",
+      "summary": "Sansan株式会社（研究開発部 大田尾匠）は、2026年8月17〜18日に仙台で開かれる第21回言語処理若手シンポジウム（YANS2026）にプラチナスポンサーとして参加。研究員5名が現地参加し、企業ブース出展と研究ポスター2件を発表予定です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-12T06:00:00.000Z",
+      "contentHash": "b0e0ef5bbd6e"
+    },
     {
       "id": "cf65314328f8",
       "title": "Codex で FreeCAD MCP を試す",
@@ -482,10 +572,10 @@
       "id": "cce966f1c13d",
       "title": "FreeCAD 入門",
       "url": "https://note.com/npaka/n/n6be8090c5920",
-      "summary": "FreeCADのセットアップと基本操作を解説。パラメトリックモデリングやワークベンチの説明、画面構成・マウス操作を紹介し、Part Designで80×50×5mmのプレートにφ10の穴を開ける手順を実演。",
+      "summary": "FreeCADのセットアップ方法から基本操作、簡単な部品作成までを手順付きで解説。バージョン1.1.3向けの入門ガイド。",
       "source": "npaka",
       "publishedAt": "2026-08-11T07:18:46.000Z",
-      "contentHash": "0776bd718c50"
+      "contentHash": "c0f94691d6b2"
     },
     {
       "id": "6145a48723fd",
@@ -8910,96 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-07-24T09:31:48.000Z",
       "contentHash": "d35f3ec39db2"
-    },
-    {
-      "id": "28790ea6aeed",
-      "title": "Railsアプリでまずやるパフォーマンス改善 | wwwave's Techblogのフィード",
-      "url": "https://zenn.dev/wwwave/articles/c9cd471dfedbd3",
-      "summary": "運用中のRailsアプリで遅延を調査し、DatadogのMCP経由でClaudeにAPMを解析させて改善。主な原因はN+1や相関サブクエリで、条件付きアソシエーション定義やプリロード（Preloader）、Array確定やany?への置換などで解消した事例を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-24T09:27:59.000Z",
-      "contentHash": "73929ef86d2d"
-    },
-    {
-      "id": "90387bb6e90e",
-      "title": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
-      "url": "https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891",
-      "summary": "BuzはBunのドロップイン置換を目指すオープンソースのランタイム/ツールで、最新のZigで再実装され、インクリメンタルビルドを1秒未満に高速化。互換性維持と開発体験改善が狙い。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T09:26:40.000Z",
-      "contentHash": "6343e6289726"
-    },
-    {
-      "id": "3e40680ad119",
-      "title": "Microsoft pressures LG into killing unwanted McAfee ads",
-      "url": "https://www.theverge.com/tech/970489/lg-mcafee-ads-windows-microsoft-crackdown",
-      "summary": "MicrosoftがLGに圧力をかけ、LGはWindows 11でモニター接続時に自動インストールされMcAfeeの大きなポップアップ通知を無効化することに同意した。問題はLGのドライバーとMonitor Appが利用者の許可なく導入され広告が表示された点で、Microsoftは今後も対策を続けるとしている。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T09:20:09.000Z",
-      "contentHash": "0d6c7b7a6719"
-    },
-    {
-      "id": "d82399d1916a",
-      "title": "AWS Summit Japan 2026から見る、AI-DLCの現在地 | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/9fe18de49122b2",
-      "summary": "AWS Summit Japan 2026で示されたAI-DLCは、要件定義〜設計〜実装〜運用をAI前提で再設計する開発手法。AIが作業を高速化し、人は意図・判断・承認を担うHuman-in-the-loop型で、上流工程やCI/CD、運用での活用が進む。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-24T09:19:52.000Z",
-      "contentHash": "63da0fbf4667"
-    },
-    {
-      "id": "fb3764d7d7c9",
-      "title": "相手ではなく“前提”を見ると、会話は責め合いにならない | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/na0bf614807b4",
-      "summary": "会話で「あなたは勘違い」等と相手を主語にすると防衛が生まれる。代わりに前提や認識のズレを仮説として提示し確認することで、責め合わずに認識合わせができる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-24T09:13:34.000Z",
-      "contentHash": "9119672e38fc"
-    },
-    {
-      "id": "55172415e7ac",
-      "title": "Claude Code Desktop × Playwright MCPでシナリオテストはもっとシンプルになるのか？（実験編） | ENECHANGE Developer Blog",
-      "url": "https://tech.enechange.co.jp/entry/2026/07/24/180844",
-      "summary": "Claude DesktopとPlaywright MCPで、HTMLセレクタなしのスプレッドシートだけでシナリオテストを実行。12件中1〜9は期待通り、10〜12はツール使用上限などで未実施。実行とレポートは可能だが利用制限やテストデータ補正など運用課題が残った。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-24T09:08:44.000Z",
-      "contentHash": "b5d3b05a7b5d"
-    },
-    {
-      "id": "87cd9d69f523",
-      "title": "Railsの鋭い部品シリーズ: コールバックは不変条件ではない（翻訳） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_07_24/158898",
-      "summary": "Brandon Weaverの英語記事翻訳。Railsのコールバックは不変条件を保証しないと指摘し、Commandパターンや明示的な操作、DB制約やトランザクションで整合性を担保すべきと論じる。前回はadd_indexの限界を扱った。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-24T08:30:01.000Z",
-      "contentHash": "1ba068dfa68e"
-    },
-    {
-      "id": "a1d5cd7d77d6",
-      "title": "iOSサブスクのオファー4種をどう使い分けるか | every Tech Blog",
-      "url": "https://tech.every.tv/entry/2026/07/24/173000",
-      "summary": "iOSサブスクのオファーは4種（Introductory、Promotional、Offer Codes、Win‑back）。対象は新規/既存/離脱で異なり、支払いモードは無料トライアル・継続割引・前払割引。プロモは購読履歴必須でサーバ署名が必要。お試しはサブスクリプショングループ単位で一度のみ。オファーコードは配布先指定や自動更新設定が可能。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-24T08:30:00.000Z",
-      "contentHash": "06bf14709ac2"
-    },
-    {
-      "id": "0eb6d202c2ab",
-      "title": "【データベース設計】 いまさら聞けない正規化と非正規化 ― 第3正規形を\"覚える\"のをやめて\"目的\"で理解する | エイトハンドレッド TECH BLOG",
-      "url": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/07/24/172710",
-      "summary": "正規化は更新・挿入・削除の異常によるデータ矛盾を防ぐためにテーブルを分割する手法で、第1〜第3正規形はその目安。非正規化は集計速度向上のための冗長化で、業務系は正規化、分析基盤は非正規化を使い分けるべき、という結論。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-24T08:27:10.000Z",
-      "contentHash": "267bfe9b8e03"
-    },
-    {
-      "id": "19fa5ad97844",
-      "title": "【データモデリング】 いまさら聞けないスタースキーマ ― なぜ分析基盤では正規化をあえて崩すのか | エイトハンドレッド TECH BLOG",
-      "url": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/07/24/172618",
-      "summary": "スタースキーマは分析向けに正規化を崩し集計を高速化するDWH設計。中心に数値のファクト、周囲に切り口のディメンション。Power BI等に最適化。過度な正規化やファクト内の文字列は失敗例。目的に応じた使い分けが重要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-24T08:26:18.000Z",
-      "contentHash": "9cd0cd691b1c"
     }
   ]
 }
