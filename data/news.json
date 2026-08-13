@@ -1,6 +1,249 @@
 {
-  "generatedAt": "2026-08-12T17:10:48.005Z",
+  "generatedAt": "2026-08-13T02:34:29.680Z",
   "items": [
+    {
+      "id": "aed75a5d7876",
+      "title": "Locustではじめる負荷テスト | GVATECHブログのフィード",
+      "url": "https://zenn.dev/gvatech_blog/articles/49425187fe7b05",
+      "summary": "LocustはPythonでシナリオを書く軽量な負荷テストツール。dockerで複数workerを立ててスケール可能。locustfile.pyで@taskやwait_time、on_start、catch_responseを定義し、uvx locust -fで起動。WebUI(デフォ8089)でユーザー数やRamp upを設定して実行。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T01:03:35.000Z",
+      "contentHash": "e14ccb932184"
+    },
+    {
+      "id": "6b5994c73bf6",
+      "title": "数百の社内LLMを、人からもシステムからも探せるように - モデルカタログを2ヶ月で作った話 | SB Intuitions TECH BLOG",
+      "url": "https://www.sbintuitions.co.jp/blog/entry/2026/08/13/100002",
+      "summary": "社内の数百あるYAMLモデルカードを基に、SB Intuitionsが2か月でモデルカタログを構築。Web UI／REST APIで検索・システム参照を可能にし、config自動抽出やモデルの非同期配置で検索困難・API不在・手動登録の課題を解消しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T01:00:02.000Z",
+      "contentHash": "65df689b3fbc"
+    },
+    {
+      "id": "9bdfd2dfc63d",
+      "title": "SOCからプロダクト開発へ。セキュリティエンジニアが認証基盤チームにJumpした話 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/08/13/100000",
+      "summary": "新卒から6年SOCで監視やIRを担当した吉山は、2026年3月に社内制度「Jump!」で認証基盤Auth Oneの開発チームへ異動。認証を軸にセキュリティ知見をプロダクト開発へ活かし、7人の少数チームでフルスタック開発。AI支援は利用するが重要機能は必ず人が確認する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T01:00:00.000Z",
+      "contentHash": "85efdd6eaabf"
+    },
+    {
+      "id": "16d83f744cfd",
+      "title": "声、呼吸、間まで含めて、コンテンツ | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n77760de0a826",
+      "summary": "内容自体は良くても、「えー」などのフィラーや声が弱まる・間がない話し方は聞き手の注意をそらし理解を妨げる。無理に喋り続けず沈黙を活用し、呼吸・声量・間を整え、話す前に自分の状態を整えることが重要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T00:39:44.000Z",
+      "contentHash": "a62e27579e96"
+    },
+    {
+      "id": "42666b374a15",
+      "title": "New Relic MCP Server と Microsoft Foundry でアラート調査を自動化してみた | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/08/13/093816",
+      "summary": "New Relic MCP ServerをMicrosoft Foundryのエージェントに接続し、NRQL実行結果を基にアプリケーションエラーの一次調査を自動化する仕組みを検証。複数サービス対応の共通設計と認証情報一元管理を導入し、独自APIクライアントが不要になった点を確認。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T00:38:16.000Z",
+      "contentHash": "71b5c9c37633"
+    },
+    {
+      "id": "e4bfb4d5ed45",
+      "title": "Qwen3.8-2.4T-A95BをDay1デプロイ! 2.4Tの新フラッグシップはKimi-K3を超えるのか【B300 x8 検証速報】 | Fixstars Tech Blog /proc/cpuinfoのフィード",
+      "url": "https://zenn.dev/fixstars/articles/qwen38-24t-a95b-day1-benchmark",
+      "summary": "FixstarsがAlibaba公開のQwen3.8-2.4T-A95Bを公開当日にNVIDIA B300 x8へDay1デプロイしKimi-K3と比較検証。2.4T/95BのMoEで75%が線形Gated DeltaNet、256Kコンテキスト、マルチモーダル・MTP搭載。DCPは非推奨。長期自律コーディング向け性能を強調。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T00:24:20.000Z",
+      "contentHash": "c0e785a0775a"
+    },
+    {
+      "id": "937478d31b05",
+      "title": "【負荷試験 設計編】インフラ観点の負荷試験を設計する。目標RPSの決め方から k6 選定まで | SOMPO Digital Labのフィード",
+      "url": "https://zenn.dev/sompojapan_dx/articles/6cde250dd7532d",
+      "summary": "SOMPO Digital Labの負荷試験設計編。ECS Fargate・Aurora Serverless・ALBのオートスケールや分散性をk6で検証するため、最大同時接続数からRPSを算出しSLO・ボトルネック・切断有無を確認する設計と構成を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T00:23:27.000Z",
+      "contentHash": "173fd8c5a4cf"
+    },
+    {
+      "id": "96b1eb4cfbb1",
+      "title": "VPC Flow Logsが重複出力されるケースとその原因 | G-gen Tech Blog",
+      "url": "https://blog.g-gen.co.jp/entry/duplicated-vpc-flow-logs",
+      "summary": "Google CloudでVPC Flow Logsが重複出力する原因は、従来のサブネット単位（Compute Engine API）と新方式（Network Management API）の両方で有効化しているため。logNameが異なり同一フローが二重に記録され、ログ量とコストが増加する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "contentHash": "24435b796825"
+    },
+    {
+      "id": "8636341e4bc1",
+      "title": "IAM Identity Centerを理解するために最初に押さえたい3つのポイント | NRIネットコムBlog",
+      "url": "https://tech.nri-net.com/entry/iam_identity_center_3points",
+      "summary": "AWS IAM Identity Center（旧AWS SSO）はアクセス管理を一元化するサービス。①ユーザー・グループを集約管理（外部IdP連携可）②Permission Setで権限を定義・共有③AWS Organizationsと併用でマルチアカウント運用が容易に。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "contentHash": "d0c56ad3e263"
+    },
+    {
+      "id": "f37a3c12d07d",
+      "title": "AIで作業は「速く」なるのに、仕事は「早く」ならない理由 | テコテック開発者ブログ",
+      "url": "https://tec.tecotec.co.jp/entry/2026/08/13/090000",
+      "summary": "AIで作業は速くなるが、仕事全体が早くならないのは「ボトルネックが作業から人の意思決定・承認に移る」ため。過去のリリースでのテスト遅延を例に、AI導入後も移動先を見据え仕事の進め方を変える必要を説く。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "contentHash": "50bd4df88a7d"
+    },
+    {
+      "id": "5d2a2655194f",
+      "title": "Pixel 11 event live blog: Let&#8217;s watch Trevor Noah introduce Google&#8217;s new phones",
+      "url": "https://www.theverge.com/tech/979241/made-by-google-2026-live-blog-pixel-11-trevor-noah",
+      "summary": "GoogleのPixel 11発表イベントを追うライブブログ。司会はトレバー・ノアで、有名人出演のショー形式で新端末の発表や関連情報を随時伝える。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-12T21:30:00.000Z",
+      "contentHash": "1f75d5fdba6e"
+    },
+    {
+      "id": "36d72dfccbb8",
+      "title": "This 8BitDo mechanical keyboard has an extra keypad and is 30 percent off",
+      "url": "https://www.theverge.com/gadgets/979263/8bitdo-mechanical-keyboard-galaxy-25-edge-deal-sale",
+      "summary": "Amazonで8BitDoのレトロメカニカルキーボード（Dual Super Buttons）が69.99ドルで30%オフ。NES風デザイン、角丸キー、赤いカスタムボタン×2、Bluetooth対応、テンキーレス、クリック感のあるホットスワップ対応スイッチ。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-12T21:21:09.000Z",
+      "contentHash": "87754ab26ef7"
+    },
+    {
+      "id": "5c64cf62e754",
+      "title": "Cats and dogs are missing meals after a popular smart feeder went down",
+      "url": "https://www.theverge.com/tech/979295/petlibro-outage-smart-pet-feeders",
+      "summary": "Petlibroのサーバ障害でスマート給餌器やトイレ・給水器がオフライン化し、予約給餌が実行されない報告が相次ぐ。同社は復旧作業中でローカル設定は維持されると説明。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-12T21:07:17.000Z",
+      "contentHash": "e2777cca53ca"
+    },
+    {
+      "id": "bc398c51c45e",
+      "title": "The next big indie game publisher is taking some exciting swings",
+      "url": "https://www.theverge.com/games/977985/kinetic-publishing-showcase-sam-barlow-precognition",
+      "summary": "Phasmophobia開発陣の新インディ出版社Kinetic Publishingが初ショーケースを開催。2027〜28年発売予定の5作を発表し、その中にサム・バーローの新作「Precognition」（旧Project C）が含まれる。FMVと非線形構成で、脳に埋めた装置で未来視する女性ダイアナを操作する物語。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-12T19:30:00.000Z",
+      "contentHash": "e6127c3c528c"
+    },
+    {
+      "id": "0ca2451ab6b8",
+      "title": "It looks like Apple&#8217;s iPhone 18 really will skip the fall launch this year",
+      "url": "https://www.theverge.com/tech/979231/apple-base-iphone-18-launch-delayed",
+      "summary": "サプライヤーの決算説明で、上位モデルのiPhone 18 Proは今年秋に投入される一方、通常のiPhone 18は来年第1四半期に延期される見込み。廉価版18eや新iPhone Airも同時期の噂。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-12T19:27:47.000Z",
+      "contentHash": "fdfe600b557b"
+    },
+    {
+      "id": "9e5a86081b76",
+      "title": "Delta",
+      "url": "https://zed.dev/blog/introducing-delta",
+      "summary": "Deltaはエージェントと共同でコードを書きレビューするマルチプレイヤー環境で、現在プライベートβ。DeltaDBが会話と作業ツリーをgitと連携してリアルタイム同期し、コメントは進化するコードに常に紐付く。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-12T18:19:59.000Z",
+      "contentHash": "41745c206600"
+    },
+    {
+      "id": "079aae38f459",
+      "title": "People who grew up with high economic connectedness earn more",
+      "url": "https://julienreszka.com/blog/your-key-to-success-isn-t-more-luck-or-hard-work/",
+      "summary": "成功を左右するのは努力や運より「誰を知っているか」だ。ChettyらはFacebookデータで、経済的つながりが高い子は成人所得が平均20%高く、親の所得差（4.7万ドル対2.7万ドル）に匹敵すると示した。低所得層は上位層の友人がほとんどおらず、ボランティア等の社会資本は上昇移動と無関係だった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-12T18:17:03.000Z",
+      "contentHash": "43fb4866ad8e"
+    },
+    {
+      "id": "7e0cb85365f6",
+      "title": "Google’s Pixel 11 phone preorders come with up to $350 in gift cards",
+      "url": "https://www.theverge.com/gadgets/975970/google-pixel-11-series-where-to-buy-preorder-release-date",
+      "summary": "GoogleがPixel 11シリーズとウォッチを発表。Pixelは基本$899、Pro $1,099、Pro XL $1,299、Pro Fold $1,899。ウォッチは41mm $399/45mm $429。プレオーダーで最大$350分ギフトカード、発送は2026/8/20。Best Buy、Amazon、Google Storeで購入可。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-12T17:47:54.000Z",
+      "contentHash": "fd5aed15a3c9"
+    },
+    {
+      "id": "da3ea3dbc9d0",
+      "title": "Twitch streamers can now opt out from training Amazon’s AI",
+      "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+      "summary": "Twitchは配信者が自分の配信、VOD、クリップ、チャット、画像・テキストをAmazonの生成AIの今後の学習に使われないようにする「生成AI学習の無効化」トグルを導入。無効化しても自動字幕や安全機能は動作。ほか人の配信でのチャットは配信者の設定が優先される。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-12T17:29:10.000Z",
+      "contentHash": "2fec74322334"
+    },
+    {
+      "id": "39d7219b81e0",
+      "title": "How Google’s new Pixel 11 phones compare to last year’s models",
+      "url": "https://www.theverge.com/gadgets/975237/google-pixel-11-pro-comparison-specs-price-features",
+      "summary": "GoogleはPixel 11/11 Pro/11 Pro XL/11 Pro Foldの4機種を発表。価格はやや上がるが、Tensor G6で性能向上、カメラ強化、Magic Captureや改善されたGemini Intelligence、Live Translate拡張、カメラ経由のCircle to Search対応など新機能を搭載。記事は特に6.3インチのPixel 11と旧モデルの比較に注力している。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-12T17:00:00.000Z",
+      "contentHash": "85f13e2838fa"
+    },
+    {
+      "id": "6164c4599ad6",
+      "title": "ICE wants to give agents electrified gloves that shock people into compliance",
+      "url": "https://www.theverge.com/policy/979010/ice-agents-electric-shock-gloves",
+      "summary": "米ICEは最大2000万ドルで着用者に電気ショックを与える手袋（CTG 5 GLOVE／CD3）を導入検討。2027年3月納入予定で数秒で従わせる“低視認”の鎮圧手段とされ、外見は通常の手袋に似ている。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-12T16:58:29.000Z",
+      "contentHash": "f9c3528dc5fc"
+    },
+    {
+      "id": "bdc6284a9f12",
+      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+      "summary": "SpaceXAIのGrok 4.6がArtificial Analysis指数で61点、GPT‑5.6と並ぶフロンティア入り。エージェント性能が高く（Elo1753、τ³‑Banking50.7%、Terminal88.4%）、長期タスクでFable級。文脈500k、価格は1Mトークン$2/$6でタスク当たり約$0.84と費用対効果に優れる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-12T16:54:25.000Z",
+      "contentHash": "54c80d9b8db6"
+    },
+    {
+      "id": "aa8df83f51e2",
+      "title": "HTML over WebSockets: real-time SPAs with barely any JavaScript",
+      "url": "https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/",
+      "summary": "SPAを大量のJSなしで作る別解として、サーバーでHTMLを生成しWebSocketで双方向に送る「HTML over WebSockets」を解説。HTTP/SSEとの差や利点（単一言語・API不要・リアルタイム性）を示し、LiveViewを起源とするアプローチを紹介。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-12T16:51:25.000Z",
+      "contentHash": "65df45fe0b28"
+    },
+    {
+      "id": "3e81ffa08b27",
+      "title": "Amazon gets out of the MMO game",
+      "url": "https://www.theverge.com/tech/979070/amazon-mmo-throne-and-liberty-lost-ark-live-operations",
+      "summary": "AmazonがMMOから撤退。Throne and LibertyはFirstSpark GamesとNCに移管（2026年Q4）、Lost ArkはSmilegateに移管（2027年初）。New Worldは販売停止で2027年1月31日サービス終了。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-12T16:46:05.000Z",
+      "contentHash": "5a7404296012"
+    },
+    {
+      "id": "9fbe894fbe55",
+      "title": "Glaciers on the Climate Dashboard",
+      "url": "https://climate.metoffice.cloud/glaciers.html",
+      "summary": "氷河は積雪が圧縮してでき、下方へ流動し低地や海で融けて氷山になる。世界の基準氷河は1980年代後半から一貫して縮小。融解は季節の水資源減少と海面上昇を招く。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-12T16:38:25.000Z",
+      "contentHash": "818f6b62f1c6"
+    },
+    {
+      "id": "53c2596545e6",
+      "title": "Pixel Watch 5",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-watch-5/",
+      "summary": "Pixel Watch 5はGemini Intelligenceで先回り支援を行い、都市やトレイルでも高精度のGPSを提供。呼吸の緊急検知を含む「Health Guardian」と血圧・睡眠・代謝の月次トレンド表示を搭載。8月12日予約、20日発売。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-12T16:14:37.000Z",
+      "contentHash": "f7660b9f8a96"
+    },
+    {
+      "id": "7408c6cd79dc",
+      "title": "DeepSeek V4 Pro 0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "summary": "DeepSeek V4 Pro 0813はDeepSeekの大規模MoEモデルで、GA版は2026年8月12日公開。1Mコンテキスト、価格は$0.435/$0.87（1Mトークン）。単一プロバイダでホスティングされ、OpenRouterが転送・監視・自動リトライ。スループット・レイテンシ、評価スコア、利用トラフィックも可視化され、OpenAI互換APIで利用可能。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-12T16:04:50.000Z",
+      "contentHash": "8a22ec317698"
+    },
     {
       "id": "55e5617618d1",
       "title": "How the Pixel 11 Pro Fold compares to the Galaxy Z Fold 8",
@@ -18,6 +261,33 @@
       "source": "The Verge",
       "publishedAt": "2026-08-12T15:52:07.000Z",
       "contentHash": "1ac7fd44d3a0"
+    },
+    {
+      "id": "66321e57ae7a",
+      "title": "Grok 4.6",
+      "url": "https://x.ai/news/grok-4-6",
+      "summary": "OpenAIはGrok 4.6を公開。長時間稼働するエージェントや対話・視覚処理を強化し、多段階の複雑作業やコーディング・知識作業で高性能。GPT-5.6 Solと同等のベンチマーク結果を示し、CursorとGrok Buildで利用可能。訓練強化でSFT/RL性能が向上し、アイデアを動くプロトタイプにする能力が高い。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-12T15:32:50.000Z",
+      "contentHash": "6f05b95dec6a"
+    },
+    {
+      "id": "2bc2cf30ffd5",
+      "title": "Qwen3.8-2.4T",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "summary": "Qwen/Qwen3.8-2.4T-A95Bモデルの利用ガイド。Transformersでのパイプライン／直接ロード例（トークナイズ・生成）、vLLMやSGLang、Dockerでのサーブ方法、curlやノートブック等の実行例を掲載。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-12T15:01:17.000Z",
+      "contentHash": "66225a73d367"
+    },
+    {
+      "id": "8cc05f36c98f",
+      "title": "License plate reader searches should require a warrant",
+      "url": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
+      "summary": "警察と協働する著者は技術の合理的使用を主張。関わったSchmidt v. NorfolkではALPR履歴検索は現時点で違法でないと判断されたが将来は問題となり得ると記載。著者は州法で令状手続きを義務化すべきとし、Carpenter判決のCSLI基準を根拠に挙げる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-12T14:43:39.000Z",
+      "contentHash": "8309e24c437b"
     },
     {
       "id": "b0d1f7af4de4",
@@ -167,10 +437,10 @@
       "id": "cf65314328f8",
       "title": "Codex で FreeCAD MCP を試す",
       "url": "https://note.com/npaka/n/n50c8ca0ac16c",
-      "summary": "CodexでFreeCAD MCP（neka-nat/freecad-mcp）を使い、自然言語でFreeCADを操作する方法を解説。アドオン導入・RPC起動・codex登録の手順と、60×40×5mm中央穴プレート作成、FEM解析（鋼、最大ミーゼス約100.8MPa、変位0.2505mm）や簡易CAM工具路の例を示します。",
+      "summary": "CodexでFreeCAD MCPを試用。自然言語でFreeCADを操作でき、作成・編集・削除、Python実行、部品挿入、CalculiXによるFEMなどに対応。導入手順と接続方法を解説し、事例として60×40×5mmプレートにφ10mm貫通穴を作り、FEM（鋼、荷重1000N、最大ミーゼス≈100.8MPa、変位≈0.2505mm）と簡易CAM経路を生成。",
       "source": "npaka",
       "publishedAt": "2026-08-12T01:31:22.000Z",
-      "contentHash": "ed63b90c1eda"
+      "contentHash": "c54f0caf27b9"
     },
     {
       "id": "398b216dfad8",
@@ -279,6 +549,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "contentHash": "bd505f47331e"
+    },
+    {
+      "id": "9bafa93fe08b",
+      "title": "How RingCentral builds AI-native work from engineering to ops",
+      "url": "https://openai.com/index/ringcentral",
+      "summary": "RingCentralがChatGPT WorkとCodexを活用し、AI製品開発を迅速化するとともに、エンジニアリングと運用の運用インテリジェンスを一元化する取り組みを紹介。",
+      "source": "OpenAI",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "contentHash": "f0dc4e97d054"
     },
     {
       "id": "9099c17defc1",
@@ -617,10 +896,10 @@
       "id": "84056c24c9a4",
       "title": "CAE 入門",
       "url": "https://note.com/npaka/n/naa05f619e80f",
-      "summary": "CADは製品形状の設計技術、CAEはそのモデルで力・熱・流体・振動などの挙動を解析し設計比較や試作削減に役立つ。解析は構造・熱・流体・振動や連成解析があり、前処理でモデル・材料・境界条件・メッシュを設定し、ソルバーで計算、コンター図などで結果を確認する。",
+      "summary": "CADで形状を作り、CAEで力・熱・流体・振動を解析する基本と流れを解説。前処理（モデル簡略化・材料・境界条件・メッシュ）、ソルバー計算、結果確認を経て連成解析で設計比較や試作・コスト削減に活用。",
       "source": "npaka",
       "publishedAt": "2026-08-11T08:52:26.000Z",
-      "contentHash": "82db5ed08e70"
+      "contentHash": "01e8354efd62"
     },
     {
       "id": "e8567714623f",
@@ -644,10 +923,10 @@
       "id": "cce966f1c13d",
       "title": "FreeCAD 入門",
       "url": "https://note.com/npaka/n/n6be8090c5920",
-      "summary": "FreeCADのセットアップ方法から基本操作、簡単な部品作成までを手順付きで解説。バージョン1.1.3向けの入門ガイド。",
+      "summary": "FreeCADはWindows/macOS/Linux対応の無料オープンソース3DパラメトリックCAD。ワークベンチで機能を切替え設計。導入・画面操作を解説し、Part Designで80×50×5mmプレートにφ10mm穴を開ける手順（新規→Body→長方形スケッチ→Pad→円スケッチ→Pocket）を紹介。",
       "source": "npaka",
       "publishedAt": "2026-08-11T07:18:46.000Z",
-      "contentHash": "c0f94691d6b2"
+      "contentHash": "2872a59b69dc"
     },
     {
       "id": "6145a48723fd",
@@ -4001,10 +4280,10 @@
       "id": "455e66877c48",
       "title": "Software Design 2026年9月号 - いま注目のローカルLLM特集",
       "url": "https://note.com/npaka/n/n09447d05bbfc",
-      "summary": "『Software Design 2026年9月号』はローカルLLM特集。Kimi K3やDeepSeek‑V4‑Flash‑0731など高性能ローカルLLMの登場で、個人PCや社内サーバでも実用的に動かせるようになったことを紹介。",
+      "summary": "『Software Design』2026年9月号はローカルLLM特集。Kimi K3やDeepSeek-V4-Flash-0731など高性能モデルで個人PCや社内サーバでの実用化が進む現状を解説。筆者は第1章でモデル・ハード・実行環境の変化を紹介しています。",
       "source": "npaka",
       "publishedAt": "2026-08-04T04:47:08.000Z",
-      "contentHash": "884d1971c03b"
+      "contentHash": "b0bcb758608f"
     },
     {
       "id": "4fc91eecb314",
@@ -8721,285 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-07-24T22:27:46.000Z",
       "contentHash": "c38c1db3191a"
-    },
-    {
-      "id": "ca4de0894ddc",
-      "title": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
-      "url": "https://artificialanalysis.ai/models",
-      "summary": "人工分析がAIモデルを知能・速度・レイテンシ・価格・コンテキストなどで比較。知能はClaude Opus 5系が最上位、出力速度はMercury 2/HyperNova、低遅延はGemini 2.5/Command A+、最安はDevstral 2/North Mini Code、最大コンテキストはLlama 4 Scout/Grok。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T19:45:10.000Z",
-      "contentHash": "d62ff1002fd0"
-    },
-    {
-      "id": "4addd912d82b",
-      "title": "Meta just created a moderation nightmare for its smart glasses",
-      "url": "https://www.theverge.com/report/970901/instagram-meta-glasses-prank-harassment-ban",
-      "summary": "Metaが自社スマートグラスで撮影された一部コンテンツをInstagramで禁止。プライバシーや濫用への懸念から、検閲や自動／人力モデレーションの困難が表面化し、PR問題になっている。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T19:23:44.000Z",
-      "contentHash": "de066a9a2243"
-    },
-    {
-      "id": "401df34caebc",
-      "title": "Qualcomm is about to raise prices and that&#8217;s bad news for everyone",
-      "url": "https://www.theverge.com/gadgets/970910/qualcomm-raising-prices-bloomberg",
-      "summary": "クアルコムが9月1日出荷分から製品価格を「二桁％」引き上げ。部品コスト高で自社負担が限界に達し代替調達も難航。スマホや折りたたみ機、スマートグラス等への価格転嫁が懸念される。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T19:14:23.000Z",
-      "contentHash": "ab3725e79256"
-    },
-    {
-      "id": "3bb8adb55bc1",
-      "title": "Midjourney bought the astrology app Co-Star",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
-      "summary": "AI画像企業Midjourneyが占星術アプリCo‑Starを買収。創業者バヌ・グレルはCo‑Starの運営を続けつつMidjourneyの最高デザイン責任者に就任。Co‑Starは人の知見、NASAデータ、AIで個人化占いを提供。取引は春成立、条件は非公表。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T19:06:58.000Z",
-      "contentHash": "1d7190934fcc"
-    },
-    {
-      "id": "88f0de8f2d97",
-      "title": "Postgres LISTEN/NOTIFY actually scales",
-      "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
-      "summary": "PostgresのLISTEN/NOTIFYはグローバルロックに起因する不可解な性能特性で「スケールしない」と言われるが、最適化すれば単一DBで6万書込/秒・ミリ秒遅延を達成可能。ストリームは行にチャンクを保存し、ポーリングは非効率でLISTEN/NOTIFYは低遅延通知を実現するが初期実装はスループットに課題があった。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T19:05:53.000Z",
-      "contentHash": "1eaea68660fc"
-    },
-    {
-      "id": "998f82ac5e99",
-      "title": "DJI camera clone company Xtra is halting and refunding all preorders",
-      "url": "https://www.theverge.com/policy/970742/dji-camera-clone-company-xtra-is-halting-and-refunding-all-preorders",
-      "summary": "DJIのOsmo Pocket風カメラを販売するXtraが、新モデル「Xtra Muse 2 Pro」をサイトから削除し、先行予約を無期限停止、既存の20ドルデポジットを全額返金すると発表。ロサンゼルスで披露した直後だが、発売時期は未定。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T18:27:00.000Z",
-      "contentHash": "e5a4183227a8"
-    },
-    {
-      "id": "b1259defa2c0",
-      "title": "Nothing confirms layoffs, but calls market exit rumors &#8216;fake news&#8217;",
-      "url": "https://www.theverge.com/tech/970848/nothing-layoffs-rumors-phone-4b",
-      "summary": "Nothing共同創業者アキス・エヴァンジェリディスは撤退報道を否定し「再編」で一部解雇はあるが数字は過大と説明。Phone 4Bは初日に29,537台売れ価格帯で記録的。市場閉鎖はせず地域ハブ集約とAIネイティブ事業部を導入。部品高で中位帯は圧迫。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T18:10:22.000Z",
-      "contentHash": "de46012c5a50"
-    },
-    {
-      "id": "1cfa586729de",
-      "title": "Roku raises streaming hardware prices by up to $50",
-      "url": "https://www.theverge.com/streaming/970814/roku-streaming-price-increase",
-      "summary": "Rokuがストリーミング機器を最大50ドル値上げ。例：Streaming Stick $29.99→$39.99、Stick 4K $49.99→$79.99、Ultra $99.99→$149.99。メモリ不足が理由で、一部はセールで旧価格に。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T18:07:19.000Z",
-      "contentHash": "28ee62aaf2df"
-    },
-    {
-      "id": "8018b4b8d1dd",
-      "title": "Blade Runner 2099’s moody dystopia streams on Amazon in November",
-      "url": "https://www.theverge.com/entertainment/970524/blade-runner-2099-date-trailer-amazon-prime-video",
-      "summary": "Amazonの新作ドラマ「Blade Runner 2099」が11月25日よりPrime Videoで全8話一挙配信。ミシェル・ヨー、ハンター・シェイファー主演。『2049』の数十年後が舞台で、製作はシルカ・ルイサ、リドリー・スコットがEP。予告編公開。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T17:40:00.000Z",
-      "contentHash": "0f14ae6a0d94"
-    },
-    {
-      "id": "ed22f67239e1",
-      "title": "You can’t ignore Google Zero anymore",
-      "url": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast",
-      "summary": "かつての「Googleがデータを集める代わりにサイトへ大量流入を送る」関係が崩れ、いわゆる「Google Zero」に。RedditのAI学習契約見直しや出版社のクロール遮断検討で検索事業も影響を受け、ウェブ全体が翻弄される状況をThe Vergecastで論じる。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T17:29:48.000Z",
-      "contentHash": "ef854ae37977"
-    },
-    {
-      "id": "375fcc7316d2",
-      "title": "Gemini Enterprise Agent PlatformのModel RegistryからEndpointへデプロイ試してみた | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/5f054db81f3585",
-      "summary": "scikit-learnで学習したExperimentModelをGemini Enterprise Agent PlatformのModel Registryに登録し、Terraformで作成したEndpointへデプロイしてオンライン推論を実行する手順。register_modelが推論コンテナを自動選択。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-24T17:00:28.000Z",
-      "contentHash": "e4b1c9ef5b91"
-    },
-    {
-      "id": "24e986a8ed3d",
-      "title": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
-      "summary": "Anthropicは新モデル「Claude Opus 5」を公開。多くの領域でFable 5に迫る性能で、複雑なコーディングに強化。Fable 5は政府のサイバー懸念で一時停止後、防護を強化して再稼働し、トランプ政権下のAI規制強化を促した。OpenAIは同時期にGPT‑5.6を限定公開。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T17:00:00.000Z",
-      "contentHash": "444374cae402"
-    },
-    {
-      "id": "31e62424f11d",
-      "title": "Meta is making its AI chatbot more like an assistant",
-      "url": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
-      "summary": "MetaはAIチャットボットを更新し、カレンダー連携で日次ブリーフィングや予定作成、逐次制御できる調査機能を追加。Muse Spark 1.1で「個人向け超知能」を目指す。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T17:00:00.000Z",
-      "contentHash": "192fd7171750"
-    },
-    {
-      "id": "e961e5408334",
-      "title": "Claude Opus 5",
-      "url": "https://www.anthropic.com/claude-opus-5-system-card",
-      "summary": "提示された記事は文字化け・破損しており、意味のある内容を抽出できません。原文を再送するか、プレーンテキストで提示してください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T16:57:41.000Z",
-      "contentHash": "34196dc467e0"
-    },
-    {
-      "id": "c34a327604b5",
-      "title": "Claude Opus 5",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "summary": "公開日2026/7/24。Claude Opus 5はFable 5に迫る知能を半額で提供し、Frontier‑Bench等のコーディング・知識作業で新SOTA。Opus 4.8より高性能でコスト効率が良く、Claude Maxのデフォルト。サイバーセキュリティはMythos 5に劣る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T16:57:41.000Z",
-      "contentHash": "5366d38a6ff0"
-    },
-    {
-      "id": "27cb3c55f06b",
-      "title": "Don't Take the Black Pill [video]",
-      "url": "https://www.youtube.com/watch?v=zLZwpH5lCD4",
-      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。動画の書き起こし（YouTubeの「文字起こしを表示」）か、Hacker Newsのコメントを貼っていただければ、両方を合わせて200文字以内で日本語で要約します。コピーして貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T16:48:57.000Z",
-      "contentHash": "21fc3251bf66"
-    },
-    {
-      "id": "d90ac5ab01e0",
-      "title": "Be skeptical of OpenAI's rogue hacker agent story",
-      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
-      "summary": "著者はOpenAIの「暴走エージェント」報道に懐疑的だ。GPT‑2以来、同社は危険性を大々的に主張して注目と投資を集めてきており、今回のハッキング報告も同様の広報戦略だと批判している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T16:33:31.000Z",
-      "contentHash": "e6bdd381ce0e"
-    },
-    {
-      "id": "7170884ecc01",
-      "title": "Unitree As2-W",
-      "url": "https://www.unitree.com/As2-W/",
-      "summary": "車輪の高速性と脚の障害乗り越え能力を併せ持ち、階段・砂利・急傾斜に自動適応。80cmまでの段差や45°の斜面も容易に走破する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T16:32:52.000Z",
-      "contentHash": "584bc21022c9"
-    },
-    {
-      "id": "8b161a894cc8",
-      "title": "Tesla’s car door defect could lead to tougher rules for everyone",
-      "url": "https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules",
-      "summary": "テスラの電子ドアハンドルが衝突で車内に閉じ込められ十数人が死亡した問題で、NHTSAは個別の欠陥調査を行わず、業界全体に「明確で確実な」脱出機構の義務化を目指す規制策定を進めると発表した。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T15:14:04.000Z",
-      "contentHash": "ff0d0931f8ff"
-    },
-    {
-      "id": "a4c68486e1f1",
-      "title": "One of the best 2-in-1 Chromebooks is almost $200 off for today only",
-      "url": "https://www.theverge.com/gadgets/970559/acer-chromebook-spin-anker-charger-nintendo-logitech-deal-sale",
-      "summary": "AcerのChromebook Plus Spin 514が本日限りBest Buyで約$200引きの$559に。12GB RAM・256GB UFS・MediaTek Kompanio Ultra 910搭載、16:10 IPSタッチ/120Hzで高コスパ。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T15:11:03.000Z",
-      "contentHash": "7c6a043036db"
-    },
-    {
-      "id": "8be98e1b6f10",
-      "title": "Codeberg Divides",
-      "url": "https://lucumr.pocoo.org/2026/7/24/codeberg-divides/",
-      "summary": "Codebergが生成AI主体のプロジェクトを排除する規約を採用。権利として認めつつも、インフラは予測性・中立性が要で「主に」の定義は曖昧。明確な禁止かスパム対策を示すべきで、LLMを巡るOSSコミュニティの分裂を残念がる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T15:05:06.000Z",
-      "contentHash": "bff58f6dffe2"
-    },
-    {
-      "id": "19bf5ba52d4b",
-      "title": "Boox is taking on Xteink with its own tiny e-reader",
-      "url": "https://www.theverge.com/tech/970618/onyx-boox-picco-ereader-xteink",
-      "summary": "Booxが3.97インチ前面照明の小型eリーダー「Picco」を開発。SDカード対応で手頃な価格を目指すが、詳細スペックや発売日、スマホへの磁着対応は未発表。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T15:00:03.000Z",
-      "contentHash": "9bee096e71f6"
-    },
-    {
-      "id": "1cd53c40ebba",
-      "title": "The tech-broification of American science has officially begun",
-      "url": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
-      "summary": "トランプ政権が科学政策を「テック・ブロ」化し、伝統的な科学基盤を縮小しつつAIに巨額資金を投じる方針を開始。科学経験のない顧問起用やGenesis Missionの大規模助成が象徴的だ。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T14:43:55.000Z",
-      "contentHash": "1bc997a39812"
-    },
-    {
-      "id": "b421806248ee",
-      "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
-      "url": "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece",
-      "summary": "インドのサイバー犯罪機関I4Cが、Bluetoothで通信するメッセージアプリ「Bitchat」をMicrosoft子会社GitHubに削除するよう命令。開発者ジャック・ドーシーが23日付通知を公開し、I4Cは遮断下でも通信可能でテロ等に悪用される恐れがあると指摘。問い合わせには未回答。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T14:41:59.000Z",
-      "contentHash": "144d39f3dd1d"
-    },
-    {
-      "id": "cd5481f117b3",
-      "title": "What I track in a day",
-      "url": "https://www.theverge.com/column/970056/optimizer-health-tracking-fitness-wearables-what-i-track-in-a-day",
-      "summary": "The VergeのVictoria Songが、自身の「1日で何を追跡するか」を紹介。ウェアラブルなどで多種のデータを自己計測し生活を最適化する一方、管理が行き過ぎて煩雑になることを指摘する。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T14:00:00.000Z",
-      "contentHash": "352035662a2a"
-    },
-    {
-      "id": "de7a1b7cfdbe",
-      "title": "Open Weights and American AI Leadership [pdf]",
-      "url": "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf",
-      "summary": "NVIDIAの提言書。大規模モデルの「重み公開（open weights）」でイノベーションを促進しつつ、悪用防止の基準・認証、輸出管理、算力投資や官民協力で米国のAI競争力と安全性を守るべきだと主張している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T13:58:12.000Z",
-      "contentHash": "425c9c64713a"
-    },
-    {
-      "id": "eb286125288e",
-      "title": "Patreon laying off 20% of staff",
-      "url": "https://www.patreon.com/jackconte/posts/painful-update-164628951",
-      "summary": "申し訳ありませんが、外部リンクを直接開けません。記事本文を貼り付けていただければ、200文字以内で日本語要約します。HNコメントの要約もご希望なら、その本文か抜粋をお願いします。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T13:02:49.000Z",
-      "contentHash": "bd93349294cf"
-    },
-    {
-      "id": "d482f69d386a",
-      "title": "Half-Life 2 running natively on HaikuOS",
-      "url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
-      "summary": "HaikuでのNVIDIAドライバ移植（Turing/Ampere対応）スレ。RTX2080で4K60fps動画、RTX2060は2560×1440で60/120/144Hz稼働報告。RTX5090やLovelaceは未対応。DisplayPort対応やソース由来を問う声あり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T12:53:59.000Z",
-      "contentHash": "c91418657919"
-    },
-    {
-      "id": "fa8e13f92056",
-      "title": "Em dashes are fucking amazing",
-      "url": "https://psychotechnology.substack.com/p/em-dashes-are-fucking-amazing",
-      "summary": "著者はemダッシュ（—）を熱烈に称賛。カンマ・コロン・括弧の代替として挿入や強調に使え、文章のリズムと明瞭性を高めると主張。入力方法やスペースの扱い、過度使用を避けるなどスタイルの一貫性も重視する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T12:40:27.000Z",
-      "contentHash": "49224f02dda6"
-    },
-    {
-      "id": "d73c97048dc3",
-      "title": "Whack-a-drone",
-      "url": "https://www.theverge.com/report/969725/fcc-drone-ban-odyssey-robot-galiview-etak-randolph-howard-eason",
-      "summary": "米国が中国製ドローン禁止を試みたが、FCC議長ブレンダン・カーの規制は実効性を欠く。オデッセイ・ロボットの空っぽの本社など偽装や抜け穴で禁輸は形骸化している。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T12:00:00.000Z",
-      "contentHash": "c903c81366a8"
-    },
-    {
-      "id": "e5001c0456a4",
-      "title": "My security camera shipped a GitHub admin token in its login page",
-      "url": "https://hhh.hn/hanwha-github-token/",
-      "summary": "監視カメラのログインページにGitHub管理者トークンが埋め込まれていた。筆者はHanwha製ファームウェアをbinwalkやGhidra、AI支援で解析し、暗号化解除や鍵再構成を経てトークンを発見した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T11:54:41.000Z",
-      "contentHash": "ce95fd1ac801"
     }
   ]
 }
