@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2026-08-13T02:34:29.680Z",
+  "generatedAt": "2026-08-13T09:31:09.110Z",
   "items": [
+    {
+      "id": "71e38f7686ae",
+      "title": "【Excel VBAで、もっと効率化！】バックアップツール編② 保存先を自動で準備！Backupフォルダを自動作成するミニツール | 分析屋",
+      "url": "https://note.com/bunsekiya_tech/n/ne3ba7082a7d9",
+      "summary": "Excel VBAのバックアップツール改良。対象ファイルと同フォルダに既存のBackupフォルダを使い、なければFSO（Microsoft Scripting Runtime）で新規作成し、日時付きバックアップを保存する手順を説明。未保存ブックは処理を止める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T07:03:36.000Z",
+      "contentHash": "671a8876155d"
+    },
+    {
+      "id": "cb55b3cc3617",
+      "title": "AI生成HTMLドキュメントの共有の仕組みを作ってみる | NEXTSCAPE blog",
+      "url": "https://blog.nextscape.net/archives/2026/08/13/153158",
+      "summary": "AI生成HTML資料の共有基盤を試作。GitHub ActionsでHTMLをCloudflare Pagesへデプロイし、Cloudflare AccessのメールPIN等で社内外に柔軟に公開可能。無料で実現できるが運用とセキュリティは要検討。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T06:31:58.000Z",
+      "contentHash": "a7663f927522"
+    },
+    {
+      "id": "c8c9649cc1cc",
+      "title": "Entra IDの動的デバイスルールを使ってWindows 11を分類する方法 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/08/13/142952",
+      "summary": "Entra IDの動的デバイスグループでOS属性などを使いWindows 11端末を自動分類する手順を解説。前提はEntra ID P1とデバイス登録。例： (device.deviceOSType -eq \"Windows\") and (device.deviceOSVersion -startsWith \"10.0.2\")。作成後はルール検証で一致/不一致を確認。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T05:29:52.000Z",
+      "contentHash": "9562b183bd6e"
+    },
+    {
+      "id": "eec9eabd3317",
+      "title": "AI時代の新しいセキュリティのカタチをつくる。 30年の経験者がSansanを選んだ理由 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/08/13/140000",
+      "summary": "約30年にわたり情報セキュリティに携わり、CSIRT立ち上げなどで実績を持つ鴨志田昭輝氏が2026年にSansan入社。AIでの効率化と内製化を見据え、AI前提の新しいセキュリティ体制構築を目指すため選んだ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T05:00:00.000Z",
+      "contentHash": "81dbc4544955"
+    },
+    {
+      "id": "5f84e5b58e0b",
+      "title": "【後編】VSCodeのRemote-SSHでEC2に接続してみよう | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/as-ojt-ssh2",
+      "summary": "前編で素のSSHログインを整えた上で、後編はVSCodeのRemote‑SSH拡張を使いEC2に接続する手順を解説。拡張の導入、~/.ssh/configで接続情報を登録し、VSCodeから接続・確認する方法を示します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T04:21:18.000Z",
+      "contentHash": "b94df8c826d0"
+    },
+    {
+      "id": "1283b4a37255",
+      "title": "【前編】VSCodeのRemote-SSHでEC2に接続してみよう | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/as-ojt-ssh",
+      "summary": "VSCodeのRemote-SSHでEC2接続するための前編。まず素のSSHでEC2に接続できる状態を作る手順と、なぜその設定が必要か（ローカルとEC2で何が起きるか）を初心者向けに解説する。後編で拡張機能利用を扱う。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T04:16:24.000Z",
+      "contentHash": "d7b83426b2f8"
+    },
+    {
+      "id": "4835e0f3a326",
+      "title": "AIは編集しやすいPowerPointスライドを作れるか？ | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/53989",
+      "summary": "AIが直接作るPPTXは編集できても図形がバラバラで修正困難。スライドの流れをMarkdownで作ればPowerPoint出力は4通り。Slidev実例と2つの問いで、AIが編集しやすいスライドを作れるか解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T03:01:38.000Z",
+      "contentHash": "5d304edc4c82"
+    },
+    {
+      "id": "9e9daa9954ef",
+      "title": "その施策は効果があったのか。エンジニア・PdMのための効果検証とt検定 | mediba テックブログのフィード",
+      "url": "https://zenn.dev/mediba/articles/d9100eed919d5b",
+      "summary": "medibaの野口氏が、施策効果は施行前からの計測が必須と指摘。ログを取らなかった失敗を踏まえ、平均の差が偶然か否かを判定するt検定とp値の使い方を実例で解説しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T03:01:05.000Z",
+      "contentHash": "c7df9b3d589b"
+    },
+    {
+      "id": "65edd039e509",
+      "title": "Building HTTP/3 Services in Go | GVATECHブログのフィード",
+      "url": "https://zenn.dev/gvatech_blog/articles/e0573c32ac59e7",
+      "summary": "HTTP/3はTCPを捨てQUIC(UDP)で暗号化・多重化・高速接続を実現し、1RTT/0RTT、ヘッドオブライン解消、接続マイグレーションが利点。Go標準は未対応だがquic‑goのhttp3が実用。デバッグやUDP遮断が課題で、記事はサーバ/クライアント構築と実務的注意点を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-13T03:00:08.000Z",
+      "contentHash": "9f2af1df0261"
+    },
     {
       "id": "aed75a5d7876",
       "title": "Locustではじめる負荷テスト | GVATECHブログのフィード",
@@ -92,6 +173,24 @@
       "contentHash": "50bd4df88a7d"
     },
     {
+      "id": "790ec71a347d",
+      "title": "Principia Mathematica is modern and insightful",
+      "url": "https://okmij.org/ftp/Computation/Impressions/PrincipiaMathematica.html",
+      "summary": "プリンキピア・マテマティカは、1+1=2を千ページで示すほど精密に基本概念から数学全体を構築する試み。序文・第1章が要点。束縛変数（apparent）・自由変数（real）やλ計算の先駆性、スキーマと全称の区別に言及。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-12T23:26:21.000Z",
+      "contentHash": "7f3e179f02cc"
+    },
+    {
+      "id": "52262281dc4d",
+      "title": "Thanks to social media, canned sardines are a scarcity on the supermarket shelf",
+      "url": "https://corneroffifth.studio/why-cant-you-find-canned-sardines-right-now/",
+      "summary": "ソーシャルメディアで缶サーディンの短期単品ダイエットが拡散し、医師やファッション界でも注目された結果、需要が急増。加えて海洋環境悪化で漁獲量が減少し、全国的に缶詰が品薄に。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-12T21:45:29.000Z",
+      "contentHash": "f9dd7fadd9f0"
+    },
+    {
       "id": "5d2a2655194f",
       "title": "Pixel 11 event live blog: Let&#8217;s watch Trevor Noah introduce Google&#8217;s new phones",
       "url": "https://www.theverge.com/tech/979241/made-by-google-2026-live-blog-pixel-11-trevor-noah",
@@ -117,6 +216,15 @@
       "source": "The Verge",
       "publishedAt": "2026-08-12T21:07:17.000Z",
       "contentHash": "e2777cca53ca"
+    },
+    {
+      "id": "d9992e254803",
+      "title": "Breaking the WAL",
+      "url": "https://antithesis.com/blog/2026/wal-reset-bug/",
+      "summary": "2026年8月12日付の記事「Breaking the WAL」はCarl Sverre（シニアソフトウェアエンジニア）による投稿。本文は表示されず、ページにはスクリプトや購読フォーム、サイト構造のコードが含まれている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-12T20:00:16.000Z",
+      "contentHash": "8032575dfa68"
     },
     {
       "id": "bc398c51c45e",
@@ -225,6 +333,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-08-12T16:38:25.000Z",
       "contentHash": "818f6b62f1c6"
+    },
+    {
+      "id": "94676d99b2de",
+      "title": "Lovable raises $400M Series C",
+      "url": "https://lovable.dev/blog/series-c",
+      "summary": "LovableはMenloら主導のシリーズCで4億ドルを調達、評価額133億ドル。ノーコードのソフト作成プラットフォームで、6000万プロジェクト・月9億訪問・Fortune500の約2/3に導入。決済、AI検索、主要SaaS連携、自動セキュリティ検査やAIUC‑1認証など機能強化。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-12T16:20:34.000Z",
+      "contentHash": "3b7a440db6ab"
     },
     {
       "id": "53c2596545e6",
@@ -437,10 +554,10 @@
       "id": "cf65314328f8",
       "title": "Codex で FreeCAD MCP を試す",
       "url": "https://note.com/npaka/n/n50c8ca0ac16c",
-      "summary": "CodexでFreeCAD MCPを試用。自然言語でFreeCADを操作でき、作成・編集・削除、Python実行、部品挿入、CalculiXによるFEMなどに対応。導入手順と接続方法を解説し、事例として60×40×5mmプレートにφ10mm貫通穴を作り、FEM（鋼、荷重1000N、最大ミーゼス≈100.8MPa、変位≈0.2505mm）と簡易CAM経路を生成。",
+      "summary": "CodexとFreeCAD用MCPアドオンを組み合わせ、自然言語でFreeCADを操作する手順を解説。セットアップ（アドオン導入、Codex登録）と実例として60×40×5mmプレートにφ10貫通穴を作成、FEM解析（最大応力約100.8MPa、最大変位約0.2505mm）や簡易CAM経路生成まで紹介。",
       "source": "npaka",
       "publishedAt": "2026-08-12T01:31:22.000Z",
-      "contentHash": "c54f0caf27b9"
+      "contentHash": "18f3bcbbbdbb"
     },
     {
       "id": "398b216dfad8",
@@ -923,10 +1040,10 @@
       "id": "cce966f1c13d",
       "title": "FreeCAD 入門",
       "url": "https://note.com/npaka/n/n6be8090c5920",
-      "summary": "FreeCADはWindows/macOS/Linux対応の無料オープンソース3DパラメトリックCAD。ワークベンチで機能を切替え設計。導入・画面操作を解説し、Part Designで80×50×5mmプレートにφ10mm穴を開ける手順（新規→Body→長方形スケッチ→Pad→円スケッチ→Pocket）を紹介。",
+      "summary": "FreeCADの導入と基本操作を解説。パラメトリックモデリングやワークベンチ（Part Design等）、画面構成・マウス操作を説明し、Part Designで穴あきプレートを作る手順（新規→Body→長方形Sketch→Pad→円Sketch→Pocket）を実例で紹介。",
       "source": "npaka",
       "publishedAt": "2026-08-11T07:18:46.000Z",
-      "contentHash": "2872a59b69dc"
+      "contentHash": "82a8c4941272"
     },
     {
       "id": "6145a48723fd",
@@ -2048,10 +2165,10 @@
       "id": "8a5e970577ce",
       "title": "URDF Visualizer の使い方",
       "url": "https://note.com/npaka/n/n7c61e9b9bdcd",
-      "summary": "VS Code拡張URDF Visualizerの使い方。URDF/Xacroの3Dプレビュー、Visual/Collision/Inertia切替、Link/Joint確認やドラッグ操作が可能。拡張を入れプロジェクトフォルダを開き、package://パスを.vscode/settings.jsonで設定して再起動。Control/Links/Jointsで操作。",
+      "summary": "URDF VisualizerはVS Code拡張でURDF/Xacroを3Dプレビューする軽量ビューア。Visual/Collision/Inertiaや座標系表示、Link/Joint一覧、Jointのドラッグ操作や計測が可能。導入後はプロジェクトフォルダを開き、.vscode/settings.jsonでpackageパスを設定して再起動する。",
       "source": "npaka",
       "publishedAt": "2026-08-09T00:41:36.000Z",
-      "contentHash": "176f114d74c1"
+      "contentHash": "32882e9da9b0"
     },
     {
       "id": "efc431bdd8c2",
@@ -2327,10 +2444,10 @@
       "id": "049ebd3d8ee6",
       "title": "DGX Spark で MiniMax H3 による動画生成を試す",
       "url": "https://note.com/npaka/n/n0cbbbc57b488",
-      "summary": "NVIDIA DGX Spark（128GB）でMiniMax H3をComfyUI上で検証。T2V/I2V/R2V公式ワークフローを順に試し、FL2VA/Ref2VAやQwen3‑VL、Video/Audio VAE等をDockerで導入し、動画と音声生成を確認しました。",
+      "summary": "128GBのDGX SparkでComfyUIを使い、MiniMax H3（テキスト/画像/動画/音声対応、24fps・4〜15秒）をT2V/I2V/R2V公式ワークフローで検証。FL2VA/Ref2VA、Video/Audio VAE、Qwen3-VLなどをDocker（ARM64/Blackwell優先、conda非使用）で導入し、localhost:8188で動作確認した。",
       "source": "npaka",
       "publishedAt": "2026-08-08T09:01:19.000Z",
-      "contentHash": "26817f43687a"
+      "contentHash": "2d8beb1874d1"
     },
     {
       "id": "2e5b68b0bd69",
@@ -2354,10 +2471,10 @@
       "id": "a45e54aa9d7f",
       "title": "Mythos級ローカルLLMまとめ - Kimi K3・Qwen3.8-Max・GLM-5.2・DeepSeek-V4 Flash",
       "url": "https://note.com/npaka/n/n1d08ec975c9f",
-      "summary": "Mythos級ローカルLLM「Kimi K3」「Qwen3.8-Max」「GLM-5.2」「DeepSeek-V4 Flash」の各モデルについて、特徴・性能・想定用途やローカル運用の利点・注意点を比較・解説したまとめ記事です。",
+      "summary": "Mythos級ローカルLLMの比較。Kimi K3(2.8T/104B)・Qwen3.8‑Max(2.4T/95B)はTB級メモリが必要な巨大MoE。GLM‑5.2(753B/40B)は量子化で小型化可。DeepSeek‑V4‑Flash(284B/13B)が最もローカル向き。いずれも1Mコンテキストでコーディング・エージェント特化、ライセンスや量子化方式に差あり。",
       "source": "npaka",
       "publishedAt": "2026-08-08T03:21:22.000Z",
-      "contentHash": "f903186dff64"
+      "contentHash": "c5194fc35051"
     },
     {
       "id": "3aa7e99d2355",
@@ -8883,123 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-07-25T12:00:00.000Z",
       "contentHash": "eb7e11d64a0f"
-    },
-    {
-      "id": "4e0ae1f69402",
-      "title": "Gemini Enterprise Agent PlatformのPipelinesで学習からModel Registry登録まで試してみた | Fusic 技術ブログのフィード",
-      "url": "https://zenn.dev/fusic/articles/ec8d4689ce8e37",
-      "summary": "Gemini Enterprise Agent PlatformのPipelinesとKubeflow DSLで、BigQueryデータから前処理→学習→評価を自動化し、Recall≥0.70のモデルのみをModel Registryへ登録するワークフローを構築。成果物はGCSに保存。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-25T10:00:07.000Z",
-      "contentHash": "f055a72fc653"
-    },
-    {
-      "id": "2b636f80ad56",
-      "title": "Forget expensive sleepbuds. Buy this pillow instead",
-      "url": "https://www.theverge.com/tech/970473/forget-expensive-sleepbuds-buy-this-pillow-instead",
-      "summary": "高価な睡眠用イヤホンより、耳の穴を避ける切れ込みのある「ピアス用枕」を勧める記事。既存のイヤホンが使え、充電不要でBluetooth切断や電池劣化の心配もない、サイドスリーパー向け。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-25T07:00:00.000Z",
-      "contentHash": "bc73256c365e"
-    },
-    {
-      "id": "2ded79f9d226",
-      "title": "ChatGPT Desktop で Blender MCP を試す",
-      "url": "https://note.com/npaka/n/nf4f1b11bf395",
-      "summary": "ChatGPT DesktopでBlender MCPを試用。自然言語でオブジェクト作成・移動・マテリアル設定などBlender操作が可能。公式MCPを使い、ChatGPT Desktop・Blender・Claude Desktopを設定（config.toml編集、Blenderへ拡張をDrag&Drop）して接続し、3Dキャラの生成・調整を実行できた。",
-      "source": "npaka",
-      "publishedAt": "2026-07-25T05:41:09.000Z",
-      "contentHash": "7e20330dedc8"
-    },
-    {
-      "id": "fb607ac4bdda",
-      "title": "A Write Barrier Validating GC for Ruby まとめ | SMARTCAMP Engineer Blogのフィード",
-      "url": "https://zenn.dev/smartcamp/articles/224ecaf9f96b17",
-      "summary": "SmartCampがRubyKaigi2026のJohn Hawthorn講演を解説。2019年のHash#transform_values最適化で起きたライトバリア書き忘れバグを例に、マーク・スイープや世代別・インクリメンタルGCでの参照変化問題と、それを防ぐライトバリアの仕組み、RB_OBJ_WRITE/RB_OBJ_WRITTENをまとめています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-25T05:19:16.000Z",
-      "contentHash": "453868b35fe3"
-    },
-    {
-      "id": "053a67b7c7f4",
-      "title": "Claude Desktop で Blender MCP を試す",
-      "url": "https://note.com/npaka/n/n060bf656cf01",
-      "summary": "Claude DesktopでBlender MCP（公式／コミュニティ版あり）を導入。コネクタ設定やBlender公式MCPの拡張導入手順を解説し、自然言語でオブジェクト作成・配置・マテリアル設定などBlender操作が可能と確認した。",
-      "source": "npaka",
-      "publishedAt": "2026-07-25T03:07:00.000Z",
-      "contentHash": "a987d0738068"
-    },
-    {
-      "id": "288ab33f8ee6",
-      "title": "Cycloud 新基盤の全貌 第五回: ComputeController 編 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-      "url": "https://developers.cyberagent.co.jp/blog/archives/64873/",
-      "summary": "記事が途中で切れています。全文を貼るかURLを教えてください（または要約してほしい箇所を指定）。200字以内で要約します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-25T01:00:27.000Z",
-      "contentHash": "78d4960bdd50"
-    },
-    {
-      "id": "18da50eacea6",
-      "title": "AI Dev Day 2026で「MCPをつなげて作る組織横断のAIエージェント基盤」について登壇しました #AIDevDay | Alternative Architecture DOJO",
-      "url": "https://aadojo.alterbooth.com/entry/2026/07/25/094008",
-      "summary": "7月24日、AI Dev Day 2026で当社が「MCPをつなげた組織横断のAIエージェント基盤」を発表しました。Copilot Studio経由でSalesforceやfreeeのデータをMicrosoft 365/Teamsで活用する事例を紹介。資料は公開、デモは会場限定で多くの来場者と質疑応答があり好評でした。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-25T00:40:08.000Z",
-      "contentHash": "4477f694ef4b"
-    },
-    {
-      "id": "d098603dcef1",
-      "title": "HuggingFace Diffusers v0.39.0の新機能",
-      "url": "https://note.com/npaka/n/nc5c91c9b1b19",
-      "summary": "HuggingFace Diffusers v0.39.0は多数の新パイプラインを追加。Cosmos‑3（物理推論・動画・音声対応）、Ideogram4、Krea2、DreamLite（編集・モバイル）、PRX Pixel、Motif‑Video、AnyFlow、JoyAI‑Image‑Edit、DiffusionGemmaなど、テキスト・画像・動画・音声のマルチモーダル対応やLoRA/DreamBooth等の機能強化を含みます。",
-      "source": "npaka",
-      "publishedAt": "2026-07-25T00:09:38.000Z",
-      "contentHash": "1b6852cc886a"
-    },
-    {
-      "id": "cd040a9fd9b8",
-      "title": "HuggingFace Diffusers v0.38.0の新機能",
-      "url": "https://note.com/npaka/n/n35c1a8a0c75f",
-      "summary": "Diffusers v0.38.0はLLaDA2や各種画像・音声・音楽モデルなど複数の新パイプラインとFLUX.2小型デコーダーを追加。Modular DiffusersがLTX‑2/HunyuanVideo1.5対応。Flash Attention 4、FlashPack、Group Offloadingやring-anything等で高速化・省メモリ化。",
-      "source": "npaka",
-      "publishedAt": "2026-07-24T23:58:48.000Z",
-      "contentHash": "a46469d2454f"
-    },
-    {
-      "id": "f405861ff61c",
-      "title": "AWS Organizations に潜り込んでも、請求から逃れることはできなかった話 | ForgeVision Engineer Blog",
-      "url": "https://techblog.forgevision.com/entry/aws/identity_center",
-      "summary": "IAM Identity CenterでSAML検証を行おうとしたが、Organizationsの管理アカウントがメンバーでのインスタンス作成を禁止。やむなく独立（野良）アカウントを作成したが、月初のランニング費用はメンバー側に請求され清算で問題が発生した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-24T23:56:20.000Z",
-      "contentHash": "4b03aa6a39e9"
-    },
-    {
-      "id": "3ca07b9ffa5a",
-      "title": "SpaceX Starship Flight 13 livestream [video]",
-      "url": "https://www.spacex.com/launches/starship-flight-13",
-      "summary": "SpaceXのStarship Flight 13紹介ページ。打ち上げ目的・日程、ロケット構成（Super Heavy＋Starship）、ミッション目標（軌道投入や分離・着陸試験など）、安全情報とライブ配信案内を掲載。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-24T22:44:38.000Z",
-      "contentHash": "8825634aea9a"
-    },
-    {
-      "id": "6ab29fc6ac17",
-      "title": "API Management でAI Gatewayのログを収集する方法 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/e370f7f7da7654",
-      "summary": "APIMの診断設定で「Logs related to generative AI Gateway（ApiManagementGatewayLlmLog）」をLog Analyticsへ送信し、トークン使用量やモデル名を記録・可視化する手順。診断設定追加・Override global有効化・サンプル呼び出し後にAnalyticsダッシュボードやKQLでCorrelationId単位に集計して確認。前提: APIM・Microsoft Foundry・Log Analytics導入済み。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-24T22:36:07.000Z",
-      "contentHash": "6e4b0ad265b4"
-    },
-    {
-      "id": "c7eccabed7fe",
-      "title": "After backlash, Meta pauses plan to ‘rate limit’ its smart glasses",
-      "url": "https://www.theverge.com/tech/970970/after-backlash-meta-pauses-plan-to-rate-limit-its-smart-glasses",
-      "summary": "Metaは、ローカル処理で動くスマートグラスの会話強調機能に月約20ドルを課す計画を批判で一時停止。会話強調は早期テスター向けに無償提供を継続し、一部機能の有料化は検討継続。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-24T22:27:46.000Z",
-      "contentHash": "c38c1db3191a"
     }
   ]
 }
