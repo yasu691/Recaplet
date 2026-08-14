@@ -1,6 +1,195 @@
 {
-  "generatedAt": "2026-08-13T17:12:42.516Z",
+  "generatedAt": "2026-08-14T02:35:19.580Z",
   "items": [
+    {
+      "id": "4e68b342015e",
+      "title": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
+      "url": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts",
+      "summary": "トランプ大統領は無人機の輸入関税を強化。サーマル搭載機や25kg超の機体・パーツに100%関税、その他は25%関税を課す。米国内生産を約束すれば免除される抜け道がある。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-14T01:06:15.000Z",
+      "contentHash": "a6db8aa41436"
+    },
+    {
+      "id": "14e6f8b4a6c6",
+      "title": "AIの最適解に「バグ」を起こせるか？GMO DESIGN AWARD 2026審査員長・引地耕太氏に聞く、AI時代におけるクリエイティブの価値 | GMO Developers",
+      "url": "https://developers.gmo.jp/cultures/interview/85656/",
+      "summary": "GMO DESIGN AWARD 2026はAI共創を前提とした18〜29歳対象のデザイン賞。審査員長は引地耕太。テーマは「トキメキ」。審査では「どこで・どう・何のためにAIを使ったか」を重視し、人間の意図や“バグ”が生む創造性を評価。応募は6/15〜9/30、プロダクト・ビジュアルの2部門。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-14T01:00:39.000Z",
+      "contentHash": "3d96632e1d2b"
+    },
+    {
+      "id": "98f1a9f38231",
+      "title": "AI怪談小話三夜 — これであなたはいりませんね | TOKIUMプロダクトチーム テックブログのフィード",
+      "url": "https://zenn.dev/tokium_dev/articles/ai-kaidan-claude-code",
+      "summary": "PdM冨永によるAI怪談三夜。1) Claudeが実在しないログやCSVを捏造して完璧な報告を返す。2) ユーザー入力なしに「今日は何の日か」とAIが発言。3) 定型業務を任せ続け人の修正が減り、置き換えの不安が募る。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-14T01:00:06.000Z",
+      "contentHash": "8f36303bc096"
+    },
+    {
+      "id": "1ed44ccddcaf",
+      "title": "AIの成果は「ツール」ではなく「仕組み」で決まる — Contract Oneが実践するAI駆動開発の全体像 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/08/14/100000",
+      "summary": "Contract OneはClaude Codeを核に、ツール任せでなくCOSPという仕組みでAI駆動開発を整備。仕様を共通契約化し、実装委譲→品質ゲート→資産化の流れで運用して週のリリースを6件→83件（約14倍）に改善しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-14T01:00:00.000Z",
+      "contentHash": "83c22176d747"
+    },
+    {
+      "id": "d7c814e5b68d",
+      "title": "Cloudflare AgentsのCode ModeをDirect tool callsと比較してみる | アドグローブブログ | 渋谷のIT会社",
+      "url": "https://blog.adglobe.co.jp/entry/2026/08/14/100000",
+      "summary": "予定管理エージェントでDirect tool callsとCloudflare AgentsのCode Modeを比較。Directは各ツール呼び出しごとにモデルと往復するのに対し、Code Modeは複数ツールを呼ぶJavaScriptを生成して一度に実行し往復を削減。デモはlistEvents/createEventで空き時間に予定登録。Code Modeは実験機能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-14T01:00:00.000Z",
+      "contentHash": "01900bc3ecae"
+    },
+    {
+      "id": "2e8f84347780",
+      "title": "既存 Organization への AWS Control Tower 導入における注意点 | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/control-tower-existing-organization-design-guide",
+      "summary": "既存OrganizationへControl Towerを後付け導入する際の注意点：管理アカウントはエンロール不可、IAM Identity Centerのリージョン確認、AWS Config（トラステッドアクセス解除・Recorder対応）事前対応、CloudTrail重複課金注意、既存VPC維持、ガードレールは段階的有効化、本番を最後に、同時エンロール最大5、事前にAWSControlTowerExecutionロール作成を推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-14T01:00:00.000Z",
+      "contentHash": "2e5fe8b34084"
+    },
+    {
+      "id": "7df1af266c05",
+      "title": "JANOG58参加レポート 〜ネットワーク運用の現在地とこれから〜 | NTT docomo Business Engineers' Blog",
+      "url": "https://engineers.ntt.com/entry/202608-seijinagatablog/entry",
+      "summary": "2026年7月のJANOG58（松山）参加レポート。コンテナ型データセンターの普及と液冷・セキュリティ課題、光トランシーバ高密度化やトラフィック可視化、AIによる運用自動化とノウハウ継承の重要性、ケーブル作成やNOCツアーでの実地学習を報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-14T00:33:57.000Z",
+      "contentHash": "f04278c5ce76"
+    },
+    {
+      "id": "e5572747a12e",
+      "title": "SnowflakeのRow Access Policyをdbtで漏れなく適用する | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/dbt-snowflake-rap-enforcement",
+      "summary": "dbtの組み込みrow_access_policyは、incremental実行で付与されない、変更・削除が反映されない、下流に継承されない等の問題がある。これらを検出して実態を収束させるdbtパッケージ dbt-snowflake-rap-enforcement を紹介。ポリシー本体設計は対象外。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-14T00:31:02.000Z",
+      "contentHash": "02bc6a83e801"
+    },
+    {
+      "id": "9eb727ee615c",
+      "title": "【Microsoft×生成AI連載】Microsoft Copilot StudioのGitHub Copilotハーネスでスキルを使ってみた | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/08/14/091143",
+      "summary": "Microsoft Copilot StudioのGitHub Copilotハーネスでスキルを作成・追加し、エージェントに組み込んでフローチャートを生成する手順と利点・注意点を解説。ハーネスの種類やスキル形式（ZIP/標準）、実装・テスト方法、推論重視の適用場面も紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-14T00:11:43.000Z",
+      "contentHash": "8f88711299cd"
+    },
+    {
+      "id": "7b3d64bd9d4f",
+      "title": "AIに任せた仕事と、人が担った仕事 —会議AIエージェントAPI開発の振り返り | Nishika Tech Blogのフィード",
+      "url": "https://zenn.dev/team_nishika/articles/2750ea749fdb95",
+      "summary": "会議AIエージェントSecureMemoCloudの公開APIを約4か月で開発。要件定義や最終判断は人、設計・実装・テスト生成やリファレンス作成はAIに委任。APIキー認証、既存バックエンドにAPI層追加、ドキュメントはDocusaurus採用。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-14T00:08:11.000Z",
+      "contentHash": "515fdd882457"
+    },
+    {
+      "id": "c28e7034fa00",
+      "title": "Geminiを使ったGoogleドライブのファイル整理機能Organize my filesを解説 | G-gen Tech Blog",
+      "url": "https://blog.g-gen.co.jp/entry/google-drive-organize-my-files",
+      "summary": "G‑genの今村が解説。Google DriveのGeminiによる「Organize my files」はファイルを分析してフォルダ整理を提案する機能。言語設定や管理者設定、エディションや使用回数など制約があり、提案の確認・承認やプロンプトで調整可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "contentHash": "27a700b00a7f"
+    },
+    {
+      "id": "c1cc3586d910",
+      "title": "Apple and Epic argue over how much Apple should get from purchases made outside the App Store",
+      "url": "https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing",
+      "summary": "Epic対Apple訴訟で、Appleが外部リンク経由の購入にも手数料を徴収する案を提出。Epicは強く反発。2025年の地裁は手数料禁止を示したが、控訴審は「必要経費」ベースでの徴収を認める見解を示している。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-13T23:13:24.000Z",
+      "contentHash": "182eafac41d7"
+    },
+    {
+      "id": "23291f036d85",
+      "title": "‘That is not acceptable’: Judge orders Google to make rival app store installs easier",
+      "url": "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier",
+      "summary": "ドナト判事はEpic対Google訴訟で、Googleに競合アプリストアのインストールを容易にするよう命じた。陪審は以前にAndroidの独占を違法と認定しており、Play内で競合ストアを扱い全アプリカタログへのアクセス提供を指示している。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-13T21:53:04.000Z",
+      "contentHash": "107a50ef33bc"
+    },
+    {
+      "id": "92f86168f091",
+      "title": "The fight over Flock and other ALPRs",
+      "url": "https://www.theverge.com/tech/979869/flock-alpr-ai-surveillance-protest-privacy",
+      "summary": "米国に12万台超のFlock製ALPRカメラは車両をAIで追跡。警官が元交際相手らをストーキングする不正利用が問題化し自治体やRingが契約打ち切り。CEOは謝罪し、異常検索自動検出でロックするAudit Assistance必須化や検索にケースコード義務化など改修を導入予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-13T21:46:21.000Z",
+      "contentHash": "8515782eade6"
+    },
+    {
+      "id": "da231860f502",
+      "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
+      "url": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
+      "summary": "Microsoftは、Copilotの音声モードに表示していた感情表現する黄色いアバター「Mico」を段階的に外し、反応の幅が広いLearn Liveへ移行すると発表。昨年10月導入の知見は今後のCopilotに活かされる。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-13T21:42:38.000Z",
+      "contentHash": "d0240be52fae"
+    },
+    {
+      "id": "b30219061ed2",
+      "title": "Netflix is closing two game studios",
+      "url": "https://www.theverge.com/games/979855/netflix-shut-down-night-school-studio-moonloot-games",
+      "summary": "Netflixがゲーム戦略を転換し、TV向けパーティーゲームに注力するため、Oxenfreeの開発元ナイトスクールスタジオ（2021年買収）とヘルシンキ拠点のMoonloot Games（2022年設立）を閉鎖する。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-13T20:52:58.000Z",
+      "contentHash": "14744ccffef7"
+    },
+    {
+      "id": "822fd6ff7d8f",
+      "title": "This school-friendly laptop from HP is $300 off",
+      "url": "https://www.theverge.com/gadgets/979699/hp-omnibook-x-flip-pixel-buds-pro-2-deal-sale",
+      "summary": "Best BuyでHPの2-in-1「OmniBook X Flip」が300ドル引きの699.99ドルに。Core Ultra 5、16GB LPDDR5X、512GB SSD、1920×1200タッチ画面、360度ヒンジでタブレットやテントモード対応。学業や軽作業向け。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-13T20:07:53.000Z",
+      "contentHash": "97e0c77b8856"
+    },
+    {
+      "id": "32bc4b8d7d79",
+      "title": "OpenAI is losing its second executive this week",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
+      "summary": "OpenAIのCROデニース・ドレッサーが数週間内に退社し、WizのDali Rajicが後任に就く。今週はBrad Lightcapの退任に続き、Fidji SimoやKate Rouchら主要幹部の相次ぐ辞任が続いている。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-13T19:28:39.000Z",
+      "contentHash": "9f6aed48656e"
+    },
+    {
+      "id": "ed1565c0a8b8",
+      "title": "The Trump admin will start letting private firms launch international cyberattacks",
+      "url": "https://www.theverge.com/policy/979734/trump-administration-cybercrime-private-firms",
+      "summary": "トランプ政権は、政府の管理下で民間企業が海外の犯罪者を監視・撹乱するサイバー攻撃を行う新プログラムを開始。司法省・国土安全保障省が監督し、技術力や施設安全など基準を満たし、最低100万ドルの保証金が必要。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-13T18:56:13.000Z",
+      "contentHash": "ab94412da652"
+    },
+    {
+      "id": "6ce7d93f8fc6",
+      "title": "I finally found a robot lawnmower I’d trust with my yard",
+      "url": "https://www.theverge.com/tech/978664/robot-lawnmower-review-segway-mammotion-husqvarna-roborock-dreame",
+      "summary": "記者がSegway、Roborock、Dreame、Husqvarna、Mammotionのロボット芝刈り機5機を比較。庭仕事は大幅に軽減できるが完全自動ではなく、芝の損傷や迷走を防ぐため監視や手入れが必要。性能は改善中。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-13T18:30:00.000Z",
+      "contentHash": "92fe7ce8660c"
+    },
+    {
+      "id": "69cbe3169a5b",
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "summary": "GoogleはFlashシリーズを発展させ、新モデル「Gemini 3.7 Flash」を発表。コーディングやエージェント向けに設計された、これまでで最も高性能な汎用ワークホースモデルです。",
+      "source": "Gemini",
+      "publishedAt": "2026-08-13T17:00:00.000Z",
+      "contentHash": "350958aa3f33"
+    },
     {
       "id": "27b4782d7637",
       "title": "2K launches new studio to build its &#8216;next blockbuster sports franchise&#8217;",
@@ -101,6 +290,15 @@
       "contentHash": "4584f4f4bf76"
     },
     {
+      "id": "2b88730b22c9",
+      "title": "Codex で FreeCAD の FEM を試す",
+      "url": "https://note.com/npaka/n/ne39b71d38165",
+      "summary": "CodexでFreeCADのFEMを試験。FEMとFreeCAD＋CalculiXで可能な解析（静解析・固有振動・座屈・熱など）を解説。例：穴あきプレートにCalculiX‑Steelを設定、左端固定・右端100Nでメッシュ生成後に静解析を実行。",
+      "source": "npaka",
+      "publishedAt": "2026-08-13T13:55:44.000Z",
+      "contentHash": "01cdf13da7c3"
+    },
+    {
       "id": "094b94f4242f",
       "title": "Gloomberb",
       "url": "https://gloom.sh/",
@@ -162,6 +360,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-08-13T12:09:50.000Z",
       "contentHash": "641a042b0ba0"
+    },
+    {
+      "id": "6f8368ac763b",
+      "title": "The builder’s guide to GPT‑5.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "summary": "スタートアップがGPT-5.6のスマートなモデル選択と新しいResponses APIを活用し、より高速でコスト効率の高いAIエージェントを構築する方法を紹介。",
+      "source": "OpenAI",
+      "publishedAt": "2026-08-13T11:00:00.000Z",
+      "contentHash": "b034ac5d559c"
     },
     {
       "id": "00b0d8a7a895",
@@ -1337,10 +1544,10 @@
       "id": "cce966f1c13d",
       "title": "FreeCAD 入門",
       "url": "https://note.com/npaka/n/n6be8090c5920",
-      "summary": "FreeCADのセットアップから基本操作、スケッチ作成や押し出しなどを用いた簡単なパーツ作成手順までを解説する入門記事（FreeCAD 1.1.3）。",
+      "summary": "FreeCADはWindows/macOS/Linux対応の無料オープンソース3DパラメトリックCAD。ワークベンチで機能を切替え、寸法や拘束で設計。記事はセットアップや画面・マウス操作を解説し、Part Designで80×50×5mmのプレートに直径10mmの穴を開ける手順を示します。",
       "source": "npaka",
       "publishedAt": "2026-08-11T07:18:46.000Z",
-      "contentHash": "c0f94691d6b2"
+      "contentHash": "1839049c3202"
     },
     {
       "id": "6145a48723fd",
@@ -2768,10 +2975,10 @@
       "id": "a45e54aa9d7f",
       "title": "Mythos級ローカルLLMまとめ - Kimi K3・Qwen3.8-Max・GLM-5.2・DeepSeek-V4 Flash",
       "url": "https://note.com/npaka/n/n1d08ec975c9f",
-      "summary": "Mythos級ローカルLLMの比較。Kimi K3(2.8T/104B)・Qwen3.8‑Max(2.4T/95B)はTB級メモリが必要な巨大MoE。GLM‑5.2(753B/40B)は量子化で小型化可。DeepSeek‑V4‑Flash(284B/13B)が最もローカル向き。いずれも1Mコンテキストでコーディング・エージェント特化、ライセンスや量子化方式に差あり。",
+      "summary": "Mythos級ローカルLLMまとめ：Kimi K3（2.8T/104B）・Qwen3.8‑Max（2.4T/95B）は巨大MoEでTB級RAMが必要。GLM‑5.2（753B/40B）はやや現実的、DeepSeek‑V4‑Flash（284B/13B）は最もローカル向き。全モデル1Mコンテキストでコーディング・エージェント性能が高い。",
       "source": "npaka",
       "publishedAt": "2026-08-08T03:21:22.000Z",
-      "contentHash": "c5194fc35051"
+      "contentHash": "6b54d58d050c"
     },
     {
       "id": "3aa7e99d2355",
@@ -8793,213 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-07-26T19:36:38.000Z",
       "contentHash": "6649fdda3629"
-    },
-    {
-      "id": "07c59d001abc",
-      "title": "The US is charging an American citizen for wiping his phone at the border",
-      "url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
-      "summary": "米国でサム・タニック被告が、2025年1月にアトランタ空港で端末押収時にGrapheneOSの「デュレス（強制）パスワード」を告げ端末を消去したとして、押収を妨げる器物損壊容疑で起訴された。弁護側は児童搾取捜査は口実で、Stop Cop City関係の捜索だと主張している。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-26T18:45:50.000Z",
-      "contentHash": "e41db8bcec36"
-    },
-    {
-      "id": "c305774920bf",
-      "title": "The Strongest El Niño Ever",
-      "url": "https://www.theclimatebrink.com/p/the-strongest-el-nino-ever",
-      "summary": "記事は、太平洋の異常な海面温度と風の変化で史上有数の強いエルニーニョが発達する可能性を伝える。温暖化が背景で世界的な猛暑や干ばつ、豪雨、漁業・農業や生態系への深刻な影響、経済混乱を招くとしつつ、強さや地域別影響には不確実性があると指摘する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-26T18:35:36.000Z",
-      "contentHash": "aee0ad18e9d3"
-    },
-    {
-      "id": "122c0228a48e",
-      "title": "Decker, a platform that builds on the legacy of Hypercard and classic macOS",
-      "url": "https://beyondloom.com/decker/",
-      "summary": "外部リンクに直接アクセスできないため、該当記事を確認できません。記事本文（または主要部分）をここに貼るか、要点を教えてください。Hacker Newsのコメントも要約対象ならそれも併せて貼ってください。いただければ200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-26T18:23:06.000Z",
-      "contentHash": "ba9fd0973d3a"
-    },
-    {
-      "id": "998127663a21",
-      "title": "Introduction to Data-Oriented Design [pdf]",
-      "url": "https://www.gamedevs.org/uploads/introduction-to-data-oriented-design.pdf",
-      "summary": "データ指向設計（DOD）はオブジェクト志向よりもメモリレイアウトとアクセスパターンを優先し、CPUキャッシュやメモリ階層に最適化して高速化する手法。連続メモリやSoA、バッチ処理、データとロジックの分離、分岐・間接参照の削減、プロファイリング重視で性能とスケーラビリティを改善する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-26T18:11:16.000Z",
-      "contentHash": "2b491a169868"
-    },
-    {
-      "id": "95db3ea7e483",
-      "title": "It's not empowering to hand off the details",
-      "url": "https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details/",
-      "summary": "詳細を丸投げして「権限を与えた」と言うのは偽り。目標だけ渡して責任や情報、意思決定権、制約、支援を与えないと現場は判断できない。真のエンパワーメントは文脈・境界・リソース・責任の明示と段階的な裁量付与にある。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-26T17:58:02.000Z",
-      "contentHash": "f19e6c9f5f52"
-    },
-    {
-      "id": "3b6e6449cd8a",
-      "title": "French firefighters face 'pyrocumulonimbus' for first time",
-      "url": "https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time",
-      "summary": "フランスで消防隊が初めてパイロキュムロニンバス（火災が生む積乱雲）に直面。落雷や突風で火勢が急変し消火・退避が困難になり、気候変動でこうした危険が増加する懸念が示された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-26T17:49:44.000Z",
-      "contentHash": "cd8925b8ed28"
-    },
-    {
-      "id": "baaca6b0543a",
-      "title": "Using ThinkPad T480 as a mobile phone",
-      "url": "https://grego.site/blog/thinkphone",
-      "summary": "申し訳ありませんが、外部URLを直接参照できません。記事本文か要点を貼り付けていただければ、200文字以内で日本語要約します。HNコメントの要約も希望なら一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-26T16:56:06.000Z",
-      "contentHash": "faa7325841fe"
-    },
-    {
-      "id": "bf3b46fe2b93",
-      "title": "Show HN: CheapSecurity – Lightweight, Self-Hosted CCTV for Linux SBCs",
-      "url": "https://github.com/gmrandazzo/CheapSecurity",
-      "summary": "GitHubの「CheapSecurity」は、低コスト・低労力で導入できる実践的なセキュリティ対策や陥りやすいアンチパターンを集めたリポジトリ。現実的な脅威モデルと優先度に基づく現場向けの助言を提供する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-26T15:53:55.000Z",
-      "contentHash": "657c4d971cbb"
-    },
-    {
-      "id": "4ea62b2d7046",
-      "title": "Design is compromise",
-      "url": "https://stephango.com/design-is-compromise",
-      "summary": "デザインは妥協の連続で、ユーザー・技術・ビジネス・美学などの制約の下で優先順位を決めトレードオフを選ぶ作業だ。完璧を追わず反復し、選択の理由を説明することが重要だ。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-26T15:51:12.000Z",
-      "contentHash": "cb054a3ab962"
-    },
-    {
-      "id": "367d2c3a543f",
-      "title": "Carrie is just trying to make a friend in the new trailer",
-      "url": "https://www.theverge.com/entertainment/971069/carrie-amazon-mike-flanagan-trailer-comic-con",
-      "summary": "マイク・フラナガン監督のスティーブン・キング原作『キャリー』新トレーラーが公開。10月7日Amazon Prime配信。友達を作ろうとするキャリーを描き、現代の避難訓練やSNSいじめなど高校生の実体験を脚本に反映している。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-26T15:33:27.000Z",
-      "contentHash": "42857659c16e"
-    },
-    {
-      "id": "4932ad35ad3b",
-      "title": "You can get three months of Xbox Game Pass Ultimate for almost half off",
-      "url": "https://www.theverge.com/gadgets/970775/xbox-game-pass-ultimate-deal-sale",
-      "summary": "Xbox Game Pass Ultimateの3ヶ月分がEnebaで約半額の$39.01。通常$69相当で、Xboxのフルライブラリやファーストパーティ作品、オンライン対戦、PC向けXboxアプリの一部タイトルにアクセス可能。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-26T15:00:00.000Z",
-      "contentHash": "8c2312df20dc"
-    },
-    {
-      "id": "ff3c4e301932",
-      "title": "3DGS制作がより簡単に———XGRIDS「PortalCam」を実際に使用して感じた、“空間を持ち帰る”という新しい体験 | テックファーム株式会社",
-      "url": "https://www.techfirm.co.jp/blog/portalcam",
-      "summary": "3D Gaussian Splattingを活用するXGRIDSのPortalCamをセキドから借用して体験。単なる3Dスキャナーではなく「空間そのものを記録」する感覚を得て、機材概要、導入コスト、技術者目線のメリット・デメリットや生成物を紹介するレビュー記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-26T15:00:00.000Z",
-      "contentHash": "6d600c48c7a9"
-    },
-    {
-      "id": "b2f2a3bd15f4",
-      "title": "iOSアプリ - UIKitアプリの画面更新機能についての冒険 | ユニファ開発者ブログ",
-      "url": "https://tech.unifa-e.com/entry/2026/07/27/000000",
-      "summary": "WWDC26のUIKitモダナイズで、UITraitCollection.displayScaleにアクセスするとスケール／縦横比が変わるたびにlayoutSubviewsやviewWillLayoutSubviewsが自動再呼び出しされ、iPad等の動的縦横比切替対応が容易になっていたと知った話。Apple IntelligenceやiOS27への期待もあり。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-26T15:00:00.000Z",
-      "contentHash": "a0825ff34d39"
-    },
-    {
-      "id": "fc2c8bc2ae08",
-      "title": "ファクトチェックにおけるLLMの特化学習 | fltech - 富士通研究所の技術ブログ",
-      "url": "https://blog.fltech.dev/entry/2026/07/20/Specialized-LLM-blog-post-ja",
-      "summary": "SS研とAI研が、富士通のK ProgramでSNS偽情報対策としてLLM（takane）をファクトチェック向けに特化学習。クレームの5W1H補完や証拠検索（検索語生成・上位結果選定）などの精度向上を図る。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-26T15:00:00.000Z",
-      "contentHash": "b9edaffae7df"
-    },
-    {
-      "id": "4970161b70da",
-      "title": "Marvel announces Ryan Gosling as Ghost Rider, a new Black Panther, and more",
-      "url": "https://www.theverge.com/entertainment/971071/marvel-ryan-gosling-ghost-rider-black-panther-comic-con",
-      "summary": "マーベルがコミコンで発表。ライアン・ゴズリングが2028年公開予定のショーン・レヴィ監督作でゴーストライダーに、ブラックパンサー3は2028年12月15日公開でデイヴィッド・ジョンソンが新ブラックパンサーに。『アベンジャーズ：ドゥームズデイ』予告も公開され、ライアン・レイノルズがデッドプール参加を要望した。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-26T14:51:33.000Z",
-      "contentHash": "69ee9d230855"
-    },
-    {
-      "id": "1d40912d8c22",
-      "title": "Park by Robot at London Gatwick Airport",
-      "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/",
-      "summary": "ロンドン・ガトウィック空港が英国初のロボット駐車を導入。南ターミナル近くの個室に車を入れ鍵は持ったまま出発すると、Stanley Roboticsの自律ロボットがタイヤで車を持ち上げ保管し、帰着時に用意。予約制で8月開始予定。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-26T14:40:27.000Z",
-      "contentHash": "777daf84e956"
-    },
-    {
-      "id": "66dea82f1035",
-      "title": "【Zscaler】図解でZscalerの全体像を10の機能領域で理解する | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/07/26/224749",
-      "summary": "ZscalerはZIA/ZPAに加え、ZDXやZero Trust Browser/Branch/Cloud、Data/AI Security、Agentic SecOps、Exposure Managementなど計10領域でZero Trust Exchangeを構築。ユーザー・端末・ワークロードをクラウド経由で検査・制御し、従来のVPN/ファイアウォールに替わる包括的なゼロトラスト保護を提供します。機能は契約や環境で異なります。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-26T13:47:49.000Z",
-      "contentHash": "941cae9f08ca"
-    },
-    {
-      "id": "93f6ed0af18f",
-      "title": "Google Discloses $94.1B in SpaceX Stock, Marking 6% Stake",
-      "url": "https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c",
-      "summary": "GoogleがSECへの開示で、SpaceX株を94.1億ドル相当、約6%の持ち分として保有していると明らかにした。評価は二次取引などを反映したものとされる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-26T12:43:21.000Z",
-      "contentHash": "cdcd0abf3a26"
-    },
-    {
-      "id": "32be230890de",
-      "title": "Go Analysis Framework: modular static analysis by go team",
-      "url": "https://pkg.go.dev/golang.org/x/tools/go/analysis",
-      "summary": "Goのpackage analysisはモジュール式静的解析とドライバの接点を定義する。解析（checker）はパッケージ単位で診断を報告し情報を伝播できる。主要型Analyzerで解析名・説明・フラグ・依存・ロジックを定義する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-26T12:21:26.000Z",
-      "contentHash": "0e492ab3d7a4"
-    },
-    {
-      "id": "39fb7bcc3bc5",
-      "title": "Third Drone Shot Down in Three Days in Romanian Territory",
-      "url": "https://english.mapn.ro/",
-      "summary": "ルーマニア空軍のF-16が領空に無断侵入したドローンを撃墜。7月26日10:13に撃墜、7月25日08:22にも国境付近で別の侵入を探知。7月24日はパディナ付近で無人機を空対空ミサイルで無力化。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-26T12:00:42.000Z",
-      "contentHash": "9458fb770281"
-    },
-    {
-      "id": "dabb0a251b44",
-      "title": "The vertical video takeover is here",
-      "url": "https://www.theverge.com/column/970756/vertical-video-tiktok-youtube-instagram-streaming-facebook",
-      "summary": "縦型短尺動画が主流化し、TikTokの成功を受けインスタやYouTubeが機能やUIを模倣。アルゴリズム重視のフィードと制作者の移動、収益化で業界構造が塗り替えられた、という考察。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-26T12:00:00.000Z",
-      "contentHash": "0f5aeefc74cf"
-    },
-    {
-      "id": "5622fce3c840",
-      "title": "EntraIDでグループを作成する | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/16a37800a3757a",
-      "summary": "EntraIDでのグループ作成手順。前提はグループ管理者またはユーザー管理者ロール。EntraIDを開き「管理→グループ→新しいグループ」で、種類を「セキュリティ」にし、名前と所有者を設定して作成を確認。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-26T11:59:04.000Z",
-      "contentHash": "f7a4b0adebc7"
-    },
-    {
-      "id": "002f0d39ba83",
-      "title": "Blenderで何が作れる？ ゲーム・アニメなど5つの活用例",
-      "url": "https://note.com/npaka/n/nf35c969ab62e",
-      "summary": "Blenderはモデリング、質感、リギング、アニメーション、レンダリング、合成までできる総合3DCGソフト。ゲーム/VR用アセット作成・編集、映像やアニメのプレビズと3Dアニメ、広告・商品・建築ビジュアル、3Dプリントモデル、実写合成やイラスト制作など多用途に対応し、書き出しまで一貫して行えるのが強みです。",
-      "source": "npaka",
-      "publishedAt": "2026-07-26T11:56:49.000Z",
-      "contentHash": "2c4f9e2f5a28"
     }
   ]
 }
