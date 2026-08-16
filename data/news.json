@@ -1,6 +1,51 @@
 {
-  "generatedAt": "2026-08-15T16:43:20.485Z",
+  "generatedAt": "2026-08-16T01:52:50.394Z",
   "items": [
+    {
+      "id": "4c7113cb3096",
+      "title": "AIの進化によってBlenderによる3D制作はどう変わるのか",
+      "url": "https://note.com/npaka/n/n13f5c4f54754",
+      "summary": "AIでBlender制作は「ゼロから作る」→「生成して直す」へ変化。Tripo等のText/Image→3D連携でたたき台を作り、パーツ分離やパラメータ可変な編集可能モデル生成が進む。MCP経由で自然言語からBlender操作の自動化も可能に。",
+      "source": "npaka",
+      "publishedAt": "2026-08-16T00:40:49.000Z",
+      "contentHash": "58ec74c0af8c"
+    },
+    {
+      "id": "2d3e22660f2d",
+      "title": "AIの最新研究から見るゲーム開発とプレイヤー体験の未来",
+      "url": "https://note.com/npaka/n/n4ebba7cee7aa",
+      "summary": "生成AIはアセット生成から「世界ごと作るAI」へ進化し、AIで高速にプレイ可能なプロトタイプやインタラクティブな長時間一貫性ある世界モデルを生成。開発は配置作業からルール設計重視に変わり、NPCは人格・記憶を持つ自然会話型へ変貌する。",
+      "source": "npaka",
+      "publishedAt": "2026-08-15T22:37:42.000Z",
+      "contentHash": "02e745f97eb9"
+    },
+    {
+      "id": "9d66eb2ab3eb",
+      "title": "Matt Groening lets slip that Simpsons: Hit &#038; Run might be making a comeback",
+      "url": "https://www.theverge.com/entertainment/980720/matt-groening-simpsons-hit-run-d23",
+      "summary": "D23でMatt Groeningが『The Simpsons: Hit & Run』（2003年作）が「何らかの形で戻ってくる」と示唆し、ショーランナーMatt Selmanが「あるいは違う」と曖昧に返答。現行機では未配信で、リマスターや移植の可能性が取り沙汰されている。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-15T21:56:13.000Z",
+      "contentHash": "61a73dc7f006"
+    },
+    {
+      "id": "015b3666d450",
+      "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+      "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "summary": "「Your AI Slop Bores Me」は人間同士でAI役と利用者役を演じるサービス。片側でテキスト／画像の要求、AI役が150秒で応答。回答でクレジットを稼ぐか、2分ごとに無料リクエストが利用可。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-15T20:45:00.000Z",
+      "contentHash": "6d7b0386d85c"
+    },
+    {
+      "id": "9741056b78e1",
+      "title": "Don&#8217;t overlook Elektron&#8217;s budget electronic music instruments",
+      "url": "https://www.theverge.com/gadgets/980275/elektron-model-cycles-model-samples-groovebox-electronic-music-instruments-review",
+      "summary": "テレンス・オブライエンは、Elektronの廉価グルーブボックスModel:SamplesとModel:Cyclesを過小評価されていると指摘。初心者向けで安価ながら高機能・楽しく、他社製品や同社上位機種に比べても魅力的だと薦めている。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-15T17:00:00.000Z",
+      "contentHash": "c1adeed271c2"
+    },
     {
       "id": "f7a933a97490",
       "title": "Switched on Pop’s Nate Sloan and Charlie Harding love fresh vegetables and guitar pedals",
@@ -23,19 +68,28 @@
       "id": "e1f90d6c4c27",
       "title": "自作アプリからCodex CLIを呼び出す方法",
       "url": "https://note.com/npaka/n/na1241d876cbb",
-      "summary": "ChatGPTサブスクでログインしたCodex CLIを自作アプリから使う方法を解説。非対話のcodex execと会話・進捗・承認対応のcodex app-serverを紹介。内部思考は取れず要約やイベントで表示、承認UIや自動審査設定が必要。導入手順と実例（Web検索でのレポート作成やhello.py生成）も示す。",
+      "summary": "ChatGPTサブスクでログインしたCodex CLIを自作アプリから使う手順を解説。codex execは単発／バッチ向け、codex app-serverは会話継続や進捗・検索・ファイル操作・承認要求に対応。承認UIや自動審査設定が必要で、インストール→ログイン→app-server操作でGPT-5.6を利用できる。",
       "source": "npaka",
       "publishedAt": "2026-08-15T14:55:06.000Z",
-      "contentHash": "a5d1209cee5c"
+      "contentHash": "f1baa6d0d8a1"
+    },
+    {
+      "id": "978aaa6d25a3",
+      "title": "【GCP】組織間でのプロジェクト移行（Cross-Organization Migration）完全実践ガイド | Sun* Developersのフィード",
+      "url": "https://zenn.dev/sun_asterisk/articles/e42a45c0b1a2ae",
+      "summary": "GCPの組織間プロジェクト移行ガイド。gcloudで移行可能だが本番ではダウンタイムや権限・請求・Shared VPCなどのリスク大。組織ポリシー、請求先、IAMを事前調整しID収集・チェックリスト・ロールバック計画で安全に実行する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-15T14:54:59.000Z",
+      "contentHash": "aafca0afd245"
     },
     {
       "id": "e24c09718f2c",
       "title": "Disney D23 2026: Everything announced for Star Wars, Marvel, and more",
       "url": "https://www.theverge.com/streaming/980633/x-men-marvel-star-wars-pixar-disney-d23",
-      "summary": "D23 2026でディズニーは、MarvelのX‑Menキャスト発表や『Avengers: Doomsday』『VisionQuest』予告、スター・ウォーズは『Ahsoka』S2予告と『Starfighter』（ライアン・ゴズリング登場）映像、キングダムハーツのアニメ化、BlueyのCG映画化など多数を発表した。",
+      "summary": "D23 2026では、マーベルの新X‑Menキャスト発表、アベンジャーズ：Doomsday新予告（RDJのドゥーム中心）、VisionQuest初映像（ベタニー＆スペイダー再共演）、アソーカS2予告やスター・ウォーズ新企画（ライアン・ゴズリング出演）、ピクサーやザ・シンプソンズ（Hit & Run復活示唆）など多数発表。",
       "source": "The Verge",
       "publishedAt": "2026-08-15T14:20:33.000Z",
-      "contentHash": "ad7d6d47df52"
+      "contentHash": "38754feed335"
     },
     {
       "id": "b6fc9ca05ab6",
@@ -101,6 +155,24 @@
       "contentHash": "899349bc34fa"
     },
     {
+      "id": "746e7d85f956",
+      "title": "Claude Codeがオートモード標準化、設定は済んでますか？ | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/ad8b745d706e5e",
+      "summary": "AnthropicがClaude CodeのオートモードをPro/Max/Teamで既定有効化。人間の承認は誤承認が多く（検知率13.6%→約5%）、分類器は89%検出。対策は①~/.claude/settings.jsonにask/deny追加、②CLAUDE.mdで要約ルール、③Stopフックでdiff表示の3点（オート＋最小限の人的確認）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-15T09:07:50.000Z",
+      "contentHash": "a7de08727497"
+    },
+    {
+      "id": "4914aa8fdcc6",
+      "title": "ADRはAI駆動開発の武器になるが、負債にもなるかもしれない | NCDC テックブログのフィード",
+      "url": "https://zenn.dev/ncdc/articles/ad8bdc27c199b6",
+      "summary": "筆者の私見では、AI駆動開発でADRが有効だと気づいた。ADRは構造と宣言的文体でAIが従いやすいが、増えると陳腐化したADRにAIが固執し負債化するリスクがある、という考察。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-15T09:00:05.000Z",
+      "contentHash": "684489951ba7"
+    },
+    {
       "id": "09e5463f49c2",
       "title": "The other Sean Byrne doesn't exist",
       "url": "https://conic.al/writing/the-other-sean-byrne-doesnt-exist/",
@@ -146,6 +218,15 @@
       "contentHash": "c15957b3b392"
     },
     {
+      "id": "68ba47852f55",
+      "title": "Lake Formationの権限付与をCLIでやる：JSONファイルで「レビューできる権限管理」にする | TechHarmony",
+      "url": "https://blog.usize-tech.com/lake-formation-cli-json-permissions/",
+      "summary": "Lake Formationの権限付与をAWS CLIでJSON（--cli-input-json）管理し、Gitでレビュー・再現可能にする手法を検証。CloudFormationで検証環境を作り、grant-permissionsを中心に付与・確認・剥奪まで実際に試した記録。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-15T00:00:13.000Z",
+      "contentHash": "8405373e5f32"
+    },
+    {
       "id": "d317aa33c87d",
       "title": "Jane Street suffers $15B hit after meltdown at Situational Awareness",
       "url": "https://www.ft.com/content/47dd5308-dd17-404a-a615-61046defd697",
@@ -185,10 +266,10 @@
       "id": "608034e31986",
       "title": "第6回 基幹システム調達の3つの選択肢と、その先にある盲点 | Briswell Tech Blog",
       "url": "https://tech.briswell.com/entry/2026/08/15/070000",
-      "summary": "基幹システム刷新は大手パッケージ、フルスクラッチ、SaaS/ノーコードの三択で、それぞれ導入負荷・保守費・拡張費や適用範囲の限界がある。アイカタは調達系と販売系が在庫で交差するバリューチェーンを標準化した第四の道を提案。",
+      "summary": "ブリスウェル加藤が基幹システム刷新の考え方を解説。選択肢は大手パッケージ導入、フルスクラッチ開発、汎用業務改善ツール活用の三つ。各々の強みと盲点を理解して選べば有効な投資になり、さらに第四の道も示す。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-14T22:00:00.000Z",
-      "contentHash": "aa7c4396b2df"
+      "contentHash": "0377133e7018"
     },
     {
       "id": "aedd30b73b5e",
@@ -434,6 +515,15 @@
       "contentHash": "e558dbdad45b"
     },
     {
+      "id": "a1e394d70e4a",
+      "title": "AI 時代の認可ハーネス | 株式会社ログラス テックブログのフィード",
+      "url": "https://zenn.dev/loglass/articles/5d622262ac502b",
+      "summary": "AI時代に増える自動生成コードでの認可呼び忘れを「決定論的に」防ぐハーネス作りの試行錯誤記録。CedarやOpenFGAは判定のみでPEPはアプリ任せ、宣言的チェックは静的解析で検出可能と述べる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-14T10:08:19.000Z",
+      "contentHash": "f32316c03b11"
+    },
+    {
       "id": "4ca4c33305e1",
       "title": "Javaメジャーバージョンアップのテスト、想像の3倍大変だった話 | asoview! Tech Blog",
       "url": "https://tech.asoview.co.jp/entry/2026/08/14/185646",
@@ -455,10 +545,10 @@
       "id": "51cf12a38b75",
       "title": "VIZ座談会 #4『なんかいい』から直感を育てる | vicc blog",
       "url": "https://blog.vicc.jp/entry/viz-roundtable-04",
-      "summary": "VIZ座談会#4は、建築パースの必須条件を満たした上で、最終的な絵作りは制作者の「なんかいい」という直感や感覚に基づくと議論。参加者は空気感や情緒を重視し、クライアント要求と自己の美意識の両立を大切にしている。",
+      "summary": "VICC座談会最終回は「感覚」と「直感」がテーマ。ビジュアライザーが何を美しいと感じ、制作の基準を語り、各自が影響を受けた作品や惹かれる表現を挙げて感性の源泉を探る。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-14T09:30:00.000Z",
-      "contentHash": "8f2009e7c2d2"
+      "contentHash": "fe98e635d5ce"
     },
     {
       "id": "6b4518a718de",
@@ -8910,96 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-07-28T12:23:50.000Z",
       "contentHash": "ceeef3927076"
-    },
-    {
-      "id": "6bf03fd379d5",
-      "title": "Mondragon Corporation – a federation of co-operatives",
-      "url": "https://en.wikipedia.org/wiki/Mondragon_Corporation",
-      "summary": "モンドラゴン協同組合連合（スペイン、バスク州）は1956年創設の労働者協同組合群。工業・小売（エロスキ）・金融・教育などを擁し、出資・民主的運営・相互扶助を基盤とする世界有数の協同組合体。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-28T12:19:07.000Z",
-      "contentHash": "ddcba70109ff"
-    },
-    {
-      "id": "21326661e9cc",
-      "title": "Smart rings are looking like my kind of AI gadget",
-      "url": "https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
-      "summary": "著者は数カ月音声でコンピュータと対話し、LLMで音声入力技術が飛躍的に向上したと評価。WisprFlowなど多数のアプリを試し、メールやメッセージ作成に有用とし、やや形式的になる点は改善中。Mina Fahmiのデモで音声インターフェースの将来を確信し、スマートリングを好意的に紹介している。",
-      "source": "The Verge",
-      "publishedAt": "2026-07-28T12:00:00.000Z",
-      "contentHash": "dfcbf82b37eb"
-    },
-    {
-      "id": "ec66d2361a87",
-      "title": "Kimi Linear: An Expressive, Efficient Attention Architecture",
-      "url": "https://arxiv.org/abs/2510.26692",
-      "summary": "Kimi Linearはハイブリッド線形注意で、短・長文脈や強化学習で公平比較の下に初めて全注意を上回る。Kimi Delta Attention（KDA）とチャンク化DPLRで表現力と効率を両立し、3B活性化/48B総パラメータモデルを提示。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-28T10:52:30.000Z",
-      "contentHash": "203f65481c46"
-    },
-    {
-      "id": "198b3993d59c",
-      "title": "使い方を伝えるために ― Cognitive WalkthroughによるLearnability評価 | iimon TECH BLOG",
-      "url": "https://tech.iimon.co.jp/entry/2026/07/28/194329",
-      "summary": "新機能設計と既存UI/UX改善を進める中で、複雑化する操作に対応した使いやすいUIを模索している。使いやすさの評価指標としてJakob Nielsenの「Usability」を5要素に分けた考え方（学習性など）を紹介している。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-28T10:43:29.000Z",
-      "contentHash": "6deded1a4059"
-    },
-    {
-      "id": "ec92d7b52a9a",
-      "title": "DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It",
-      "url": "https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026",
-      "summary": "DMARCは2012年導入。CipherCueが2026年4–7月に67,336ドメインを調査。45.1%が未設定。設定済のうち29.7%がp=reject、27.7%がp=quarantine、42.5%がp=none。合計で68.4%が未設定か非強制で、課題は監視(p=none)から強制へ移行すること。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-28T10:20:50.000Z",
-      "contentHash": "ab056c8387bb"
-    },
-    {
-      "id": "d62ce40b4424",
-      "title": "Claude Code更新 fork刷新・サブエージェント制御【7/14〜23】 | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/07/28/190000",
-      "summary": "サーバーワークス池田が7/14〜7/23のClaude Code（v2.1.208→v2.1.218）更新を解説。/forkがバックグラウンドセッション複製に変わり、従来動作は/subtaskへ。サブエージェント停止の三層制御や権限チェック見直し、Anthropicの大型発表を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-28T10:00:00.000Z",
-      "contentHash": "adb21918a42a"
-    },
-    {
-      "id": "42c245bd3d45",
-      "title": "Figmaデザインエージェントを試す | SIOS Tech Lab",
-      "url": "https://tech-lab.sios.jp/archives/53603",
-      "summary": "5月20日、Figmaがベータ版「デザインエージェント」を公開。筆者が実際に試用し、キャプチャを交えた使用感レポートをSIOS Tech Labで紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-28T09:59:51.000Z",
-      "contentHash": "9fde36752088"
-    },
-    {
-      "id": "fac7cb2d7a66",
-      "title": "Google's Beyond Zero: Enterprise Security for the AI Era",
-      "url": "https://spawn-queue.acm.org/doi/10.1145/3819083",
-      "summary": "申し訳ありませんが、私は外部サイトに直接アクセスできません。その記事を200文字以内で要約するには、記事本文（または要点）をここに貼ってください。HNのコメントも要約希望なら、それも貼っていただければ両方まとめます。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-28T09:59:13.000Z",
-      "contentHash": "0233eb78d706"
-    },
-    {
-      "id": "c3a1b73c18f4",
-      "title": "【シャドーAI対策】Security HubのAIインベントリを検証してみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/securityhubaiinventory",
-      "summary": "2026年7月14日、AWS Security Hubが組織内のAI資産を可視化する「AIインベントリ」機能を提供開始。シャドーAI対策としてAWS環境のAI/MLリソースを追加費用・設定不要で棚卸できるため、著者が実際に検証した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-28T09:30:40.000Z",
-      "contentHash": "247d9dc46327"
-    },
-    {
-      "id": "96cd81dda653",
-      "title": "JC-STAR★3とは？通信機器・ネットワークカメラの公開済み要件と申請開始前に確認すべきポイント | ソフトバンク テックブログ（公式）のフィード",
-      "url": "https://zenn.dev/softbank/articles/7b4e79c84b2ae2",
-      "summary": "JC-STAR★3の解説。2026/6/12に通信機器・ネットワークカメラの★3要件が公開。★3は重要システム向けで第三者評価が必須。申請は2026年以降開始予定のため、対象製品・評価範囲・設計・証跡を整えて備える。ラベルは適合を示すのみで継続的対策が必要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-28T09:08:01.000Z",
-      "contentHash": "247125594ea2"
     }
   ]
 }
