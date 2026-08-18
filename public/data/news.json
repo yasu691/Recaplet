@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-08-18T01:41:05.632Z",
+  "generatedAt": "2026-08-18T08:55:28.769Z",
   "items": [
+    {
+      "id": "aa3bf283339c",
+      "title": "AWS DevOps AgentとBedrock AgentCoreの違いと使い分け｜料金・構築難度・セキュリティで比較 | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/n6d15f30ff8d1",
+      "summary": "AWS DevOps AgentとAmazon Bedrock AgentCoreを料金・構築難度・セキュリティで比較。結論は競合ではなく「買う（DevOps Agent：ノーコードの出来合いで導入が速い）」か「作る（AgentCore：Runtime等の部品で自作し自由度高）」の選択。DevOpsはAgentCore上に構築。SRE向け検証と月額概算、データ流出リスク説明材料を提示。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-18T07:09:43.000Z",
+      "contentHash": "f8c1621efd6d"
+    },
+    {
+      "id": "5373e0781c89",
+      "title": "【EBSスナップショット】フルスナップショットサイズについて考える | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/ebs-full-snapshot-size-cost-calculation",
+      "summary": "フルスナップショットサイズはボリューム全体ではなく、復元に必要な実際に書き込まれたブロック合計です。EBSは増分・ブロック単位で課金され、概算月額はフルサイズ(GiB)×$0.05。正確な請求は請求書で確認してください。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-18T06:05:39.000Z",
+      "contentHash": "fa33c03d44cd"
+    },
+    {
+      "id": "cfea20cd62a9",
+      "title": "【Copilot Studio】エージェントの所有者を別ユーザーへ移行する方法と関連コンポーネントの確認ポイント | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/08/18/150204",
+      "summary": "Copilot Studioのエージェント所有者はMicrosoft 365管理センターで別ユーザーへ変更可能。ただしコネクタ接続、プロンプト、エージェントフロー、SharePointナレッジは自動で引き継がれないため、各接続設定や所有者変更、アクセス権付与を別途行う必要があり、Environment Maker／System Administrator／AI管理者等の権限が必要です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-18T06:02:04.000Z",
+      "contentHash": "80497cb91d4e"
+    },
+    {
+      "id": "499e91de3cf4",
+      "title": "LLMの切り替えを『勘』で決めないための5つの技術 | noteエンジニアチーム 公式マガジン",
+      "url": "https://note.com/mussso/n/nd694391b7b0a",
+      "summary": "noteがgpt-oss-120bへ移行する際の5技術：1) マルチクラウド一元化バッチ推論API 2) 半自動で正解データ構築 3) LLM-as-a-Judge 4) プロンプト最適化 5) 評価手順の標準化。Jupyter/Claude Codeで検証と本番を一致させ、モデル切替を設定変更にした。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-18T05:49:44.000Z",
+      "contentHash": "98b6bc8e4e1b"
+    },
+    {
+      "id": "3c8c9d97ace3",
+      "title": "設定1つでDatabricksの課金を半分にした話 | GENDAのフィード",
+      "url": "https://zenn.dev/genda_jp/articles/databricks-autostop-1min-api",
+      "summary": "BIのデータソースをSnowflake→Databricksに移行したら月額が約4倍に。原因はDatabricksのauto‑stop（GUIだと最短5分）で待機時間の課金が増えたため。APIでauto‑stopを1分に短縮し、課金を半減した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-18T05:31:42.000Z",
+      "contentHash": "095a6925eec1"
+    },
+    {
+      "id": "d72bc127f24d",
+      "title": "バーレーンに到着しました！  | SHIFT Group 技術ブログ",
+      "url": "https://note.shiftinc.jp/n/nd31aa789bfb3",
+      "summary": "鈴木氏がバーレーン到着。長旅の末、猛暑の中で平穏な街並みと日本アニメの浸透を実感。電子政府で到着1週間でIDや銀行口座等を整備。SHIFT Arabiaは日本のマンガ・アニメ・ゲーム等を中東へ展開し、AIで市場分析しつつ日本企業との連携を呼びかける。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-18T05:13:57.000Z",
+      "contentHash": "a9183495a65d"
+    },
+    {
+      "id": "265a998a1d5e",
+      "title": "もうdivでドロップダウンを自作しなくていい ― Chrome最新CSSのアクセシビリティ3選 | Gemcook Tech Blogのフィード",
+      "url": "https://zenn.dev/gemcook/articles/css-accessibility-tips4",
+      "summary": "Chromeの新CSSでアクセシビリティが向上。appearance: base-selectでネイティブ<select>を保ってスタイル化、::scroll-marker/::scroll-button()でJS不要のキーボード対応カルーセル、フォーカス可能なスクロールでキーボード操作を実現。導入前に対応状況を確認推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-18T04:17:59.000Z",
+      "contentHash": "f04af298b7c5"
+    },
+    {
+      "id": "860b09a65d4f",
+      "title": "AWS の新ポリシー言語 Dogwood を試す | エクサウィザーズ Tech Blogのフィード",
+      "url": "https://zenn.dev/exwzd/articles/20260813-dogwood-agent-policy",
+      "summary": "AWSのDogwoodはCedar互換で履歴参照のtemporal条件を追加したポリシー言語です。AIエージェントの連続するツール呼び出しを履歴ベースで制御し、承認要件や回数制限、機密情報送信禁止などのガードレールを宣言的に記述でき、Amazon Bedrock AgentCoreでも利用されます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-18T04:07:05.000Z",
+      "contentHash": "f3dcdfb9882f"
+    },
     {
       "id": "8e40c23e1948",
       "title": "Reddit’s AI is turning posts into podcasts and short videos",
@@ -38,6 +110,24 @@
       "contentHash": "bd1f6beba466"
     },
     {
+      "id": "2b385af36e48",
+      "title": "Fairphone 6 and PostmarketOS working main camera",
+      "url": "https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera",
+      "summary": "postmarketOSでFairphone 6のメインカメラが動作するようになった。開発者がドライバやユーザースペースを調整して映像取得を実現し、今後の機能改善や他ハード対応の前進を示す成果。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-17T22:01:17.000Z",
+      "contentHash": "b79d4486c9da"
+    },
+    {
+      "id": "f8a2ad7a615b",
+      "title": "GPT-5.6 Sol Pricing Cut by 50%",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "summary": "GPT-5.6 SolはOpenAIの旗艦モデルで、複雑な推論やコーディング、コマンドライン／マルチステップ処理、長期問題解決に強い。1Mコンテキスト、公開は2026/7/9（知識は2026/2）。料金は約$2.50/$15（1M）、OpenRouterが複数プロバイダをルーティングし、33 tok/sの高スループット、遅延3.38s、可用性ほぼ100%を提供。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-17T21:03:18.000Z",
+      "contentHash": "5b8d5d83c800"
+    },
+    {
       "id": "ba189ead1bfd",
       "title": "ABC&#8217;s livestreamed news show is powered by trending topics",
       "url": "https://www.theverge.com/streaming/981209/abc-news-searched-livestreamed-show",
@@ -50,10 +140,10 @@
       "id": "7d49aacaa67b",
       "title": "AI;DR (AI; Didn't Read)",
       "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "summary": "著者は未編集のAI生成文に不快感を覚え、「AI;DR（AI; didn’t read）」を提案。校閲・編集されていないAI出力は読まない方針で、顧客対応など例外を除き人間の手入れを重視せよと主張。",
+      "summary": "著者は無編集のAI生成文に嫌悪感を覚え、「AI;DR（AI; didn’t read）」を提案。AI活用は容認するが、校正や編集がされていない長文は読まず、人間の手入れがある文章を重視すると述べる（カスタマー対応等は例外）。",
       "source": "Hacker News",
       "publishedAt": "2026-08-17T19:47:15.000Z",
-      "contentHash": "a4ab56efc0a0"
+      "contentHash": "13decd90eb1f"
     },
     {
       "id": "9f987d2f143e",
@@ -65,13 +155,22 @@
       "contentHash": "fbcfcf34aa60"
     },
     {
+      "id": "701489a00e32",
+      "title": "India has paved the way for charging merchants a fee on UPI transactions",
+      "url": "https://www.bbc.com/news/articles/c8xnwqe00v1o",
+      "summary": "インドのUPIは世界最大級の即時決済網に成長。政府は大口商取引に0.3〜0.5%の加盟店手数料（MDR）導入を検討中。個人間決済は無料維持だが、手数料で普及が揺らぐ懸念。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-17T19:25:11.000Z",
+      "contentHash": "546527ac9403"
+    },
+    {
       "id": "34fc82f82586",
       "title": "AirTag reveals Amazon is trashing rare books to train AI",
       "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
-      "summary": "404 Mediaが仕込んだAirtagを追跡したところ、希少本の大量注文がラスベガスのAmazonのAI訓練施設に搬入され、背表紙を切ってページをスキャンするチームが確認された。扉には本を食べるTレックスのロゴ。Amazonは詳しい言及を避けた。",
+      "summary": "404 Mediaが仕掛けたAirtagで追跡した古書が、ラスベガスのAmazonのAIトレーニング施設に届き、背表紙ごと破ってページをスキャンされていることが確認された。倉庫のロゴは本を食べるT. rex。Amazonは詳細を否定せず曖昧な回答にとどめた。",
       "source": "Hacker News",
       "publishedAt": "2026-08-17T19:06:11.000Z",
-      "contentHash": "1baa36c6cdcf"
+      "contentHash": "f60402418c98"
     },
     {
       "id": "65b01089f9ef",
@@ -896,10 +995,10 @@
       "id": "2a02c8b3810b",
       "title": "AIの進化によって漫画制作はどう変わるのか",
       "url": "https://note.com/npaka/n/n6c22f295e89f",
-      "summary": "画像生成AIの進化で、同一キャラや画風を保った連続コマ制作が可能に。DiffSenseiやDreamingComicsで一貫性が向上し、キャラを作品データ化。MangaFlow等でネーム・コマ割り・文字入れを支援し、人間と対話しつつ背景・着色・高解像化などを部分自動化して制作効率を高める。",
+      "summary": "画像生成AIの進化で漫画制作は1枚絵から連続コマへ拡張。新モデルや研究でキャラ・画風の一貫性が向上し、ネーム・コマ割・文字入れや背景生成、着色、修正、高解像化など工程の部分自動化と人間との対話的共同制作が進む。",
       "source": "npaka",
       "publishedAt": "2026-08-16T04:44:35.000Z",
-      "contentHash": "4b26c1f56bf8"
+      "contentHash": "e06a61d95c7a"
     },
     {
       "id": "599fecb82f4f",
@@ -950,10 +1049,10 @@
       "id": "4c7113cb3096",
       "title": "AIの進化によってBlenderによる3D制作はどう変わるのか",
       "url": "https://note.com/npaka/n/n13f5c4f54754",
-      "summary": "AIでBlender制作は「ゼロから作る」から「AI生成を取り込み修正する」へ変化。Tripo等のText/Image→3D連携や、パーツ化・パラメータ可変な編集可能モデル（Geometry Nodes連携）が進み、MCP経由で自然言語からBlender操作を自動化できるようになる。",
+      "summary": "AIでBlender制作は「ゼロから作る」から「AI生成を取り込み修正して仕上げる」へ変化。Tripo等のText/Image→3DやDCC連携、パーツ単位で編集できるパラメトリック生成（Geometry Nodes連携）が進み、MCP経由で自然言語からBlender操作を自動化する動きもある。",
       "source": "npaka",
       "publishedAt": "2026-08-16T00:40:49.000Z",
-      "contentHash": "264884010ce7"
+      "contentHash": "849a542043b6"
     },
     {
       "id": "c74e95cfaa42",
@@ -977,10 +1076,10 @@
       "id": "2d3e22660f2d",
       "title": "AIの最新研究から見るゲーム開発とプレイヤー体験の未来",
       "url": "https://note.com/npaka/n/n4ebba7cee7aa",
-      "summary": "生成AIがアセット生成から「ゲーム丸ごと」構築へ進化し、企画段階で高速にプレイ可能なプロトタイプを生成。世界モデルで長時間・動的な生成オープンワールドが可能になり、デザイナーは配置作業からルール設計へ移行。NPCは記憶・人格を持つ会話主体に変化。",
+      "summary": "生成AIが素材作成から世界やルールをまとめて構築し、プロトタイプ制作が高速化。世界モデルでAIが動的に長時間整合性を保ちつつ環境生成可能に。デザインは配置からルール設計へ、NPCは人格や記憶を持ち自由会話と行動変化を実現。",
       "source": "npaka",
       "publishedAt": "2026-08-15T22:37:42.000Z",
-      "contentHash": "4d0ed7bf58c6"
+      "contentHash": "a7137c56522b"
     },
     {
       "id": "6c33fc4bc9e8",
@@ -2867,10 +2966,10 @@
       "id": "cf65314328f8",
       "title": "Codex で FreeCAD MCP を試す",
       "url": "https://note.com/npaka/n/n50c8ca0ac16c",
-      "summary": "Codexでneka-nat/freecad-mcpを試用。MCP経由で自然言語からFreeCADを操作（ドキュメント作成、3D編集、Python実行、部品挿入、CalculiXによるFEMなど）。導入手順と接続確認、幅60×奥行40×厚5mmの中央穴付きプレート作成、FEM静解析（鋼、最大ミーゼス≈100.8MPa、変位≈0.2505mm）、簡易CAM経路生成までを実演。",
+      "summary": "CodexでFreeCAD MCPを試用。MCP経由で自然言語からFreeCADを操作（ドキュメント/3D編集、Python実行、部品挿入、CalculiXでFEM、CAM）。導入手順と例（60×40×5mm中央穴プレート作成、FEM解析結果、簡易CAM経路）を紹介。",
       "source": "npaka",
       "publishedAt": "2026-08-12T01:31:22.000Z",
-      "contentHash": "d9cc3aaba77d"
+      "contentHash": "3e1c4e4b3bd2"
     },
     {
       "id": "398b216dfad8",
@@ -8901,105 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-07-30T10:00:00.000Z",
       "contentHash": "1b65dd40feac"
-    },
-    {
-      "id": "dca7adc62d79",
-      "title": "Advancing the price-performance frontier with GPT-5.6",
-      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "summary": "OpenAIがLunaとTerra向けにGPT‑5.6の価格を引き下げ、より効率的なモデルにより企業が低コストで大規模なAIワークフローを導入・運用しやすくなる、という内容。",
-      "source": "OpenAI",
-      "publishedAt": "2026-07-30T10:00:00.000Z",
-      "contentHash": "2bd68e25fe42"
-    },
-    {
-      "id": "1814073c2913",
-      "title": "【前編】WSFC × DataKeeper で SANレス・クラスターを構築してみた！ | TechHarmony",
-      "url": "https://blog.usize-tech.com/wsfc-datakeeper-san/",
-      "summary": "SCSKの野口が、前回はWSFCとDataKeeperの仕組みや前提要件を紹介し、今回はWSFCとDataKeeperを組み合わせたSANレス（共有ストレージ不要）構成について解説している記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-30T09:49:23.000Z",
-      "contentHash": "c41aee1dd890"
-    },
-    {
-      "id": "48a4e9da4038",
-      "title": "スマートバンクのセキュリティを支える「セキュリティ委員会」の紹介と今後の展望 | inSmartBank",
-      "url": "https://blog.smartbank.co.jp/entry/2026/07/30/184009",
-      "summary": "スマートバンクのプロダクトエンジニアが、セキュリティ委員会の立ち上げ経緯と目的、最近の活動を説明。情報収集やロードマップ整備を進め、サプライチェーン対策、製品脆弱性対応、権限管理見直しを行い今後に備える。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-30T09:40:09.000Z",
-      "contentHash": "43bc6c4c4325"
-    },
-    {
-      "id": "778d5b4432e9",
-      "title": "【ServiceNow】環境のクローン時の除外テーブルとデータ保存 | TechHarmony",
-      "url": "https://blog.usize-tech.com/servicenow-clone-table-data/",
-      "summary": "ServiceNowのクローン時にソースがターゲットを上書きするのを避ける方法と注意点を、本番→開発クローンでの実例を交えて説明する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-30T09:35:27.000Z",
-      "contentHash": "0e0d37267a87"
-    },
-    {
-      "id": "ea57d3ea28a0",
-      "title": "【ServiceNow】db_image と sys_attachment の違いと使い分け | TechHarmony",
-      "url": "https://blog.usize-tech.com/servicenow-db-image-sys-attachment/",
-      "summary": "ServiceNowでは画像保存にdb_imageとsys_attachmentの二つがあり、両者は画像を保持する点は同じだが格納方式や用途が異なる。db_imageはUI用の小画像向き、sys_attachmentは一般添付や大容量、バージョン管理・APIアクセス向け。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-30T09:28:42.000Z",
-      "contentHash": "88a4d86939f1"
-    },
-    {
-      "id": "f5cf23be903e",
-      "title": "AIは何を「速く」したのか｜AI DevEx Conference 2026での学び | エムスリーテックブログ",
-      "url": "https://www.m3tech.blog/entry/2026/07/30/173031",
-      "summary": "Unit7リサーチプロダクトチームの佐藤（@riku929hr）が2026年7月22・23日にファインディ主催のAI DevEx Conference 2026に現地参加。事前にDave Farley著『Modern Software Engineering』を読み、初日の基調講演がFarleyで役立った。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-30T08:30:31.000Z",
-      "contentHash": "619340fd7a76"
-    },
-    {
-      "id": "da48f59d2d04",
-      "title": "未使用のUPSIDERバーチャルカードが不正利用されたそのロジック | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/unused-virtual-card-enumeration-fraud/",
-      "summary": "未使用の法人バーチャルカードが不正利用された事例を基に、番号盗用の実態、BINとLuhnで探索空間が縮む仕組み、分散推測攻撃の手口をVisa・FCA一次情報で整理し、未使用カードのロックや利用先制限など実務対策を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-30T08:25:00.000Z",
-      "contentHash": "be9f05b5cacb"
-    },
-    {
-      "id": "174a0ebdfba4",
-      "title": "MIRU2026（第29回 画像の認識・理解シンポジウム）にシルバースポンサーとして協賛いたします | LayerX エンジニアブログ",
-      "url": "https://tech.layerx.co.jp/entry/2026/07/30/171421",
-      "summary": "バクラク事業部AI・機械学習部の川畑です。LayerXはMIRU2026（第29回画像の認識・理解シンポジウム）にシルバースポンサーとして協賛し、数名で現地参加予定です。交流の促進と令和8年熊本地震被災者へのお見舞いを述べています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-30T08:14:21.000Z",
-      "contentHash": "0d54effbf0ac"
-    },
-    {
-      "id": "1a37b955b478",
-      "title": "Parquetのファイルサイズを小さくする | Wantedly Engineer Blog",
-      "url": "https://www.wantedly.com/companies/wantedly/post_articles/1074034",
-      "summary": "本文が途中までしか見えません。全文または記事のURLを貼ってください。全文を確認次第、200文字以内で要約します（口調の指定があれば教えてください）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-30T08:00:12.000Z",
-      "contentHash": "eb3c9c7ddf8e"
-    },
-    {
-      "id": "a243d742aaeb",
-      "title": "入社から一年でプロダクト開発を通じて深めた3つの視点 | Wantedly Engineer Blog",
-      "url": "https://www.wantedly.com/companies/wantedly/post_articles/1082546",
-      "summary": "本文が途中で切れているようです。全文を貼っていただくか、記事のリンクを送ってください。受け取ったら指定の「200文字以内」で日本語要約を作成します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-30T08:00:11.000Z",
-      "contentHash": "b59689848d1f"
-    },
-    {
-      "id": "921b4e67b870",
-      "title": "AssetBundle に代わる新システム！ Unity 6.6 の Content Directories を紐解く | CORETECH ENGINEER BLOG",
-      "url": "https://blog.sge-coretech.com/entry/2026/07/30/164955",
-      "summary": "Unity 6.6でAssetBundleに代わる新しいアセットビルド・ロードシステム「Content Directories」が導入されました。手動でのパッキング調整が不要になり、ロード性能も改善、AssetBundle利用者の移行を促します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-30T07:49:55.000Z",
-      "contentHash": "e980423fcc28"
     }
   ]
 }
