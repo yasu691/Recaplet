@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2026-08-19T01:49:44.992Z",
+  "generatedAt": "2026-08-19T08:56:28.278Z",
   "items": [
+    {
+      "id": "fe0879cb0f46",
+      "title": "[UE5] AI にもプレイヤーと同じ PlayerState を持たせてみよう！ | historia Inc – 株式会社ヒストリア",
+      "url": "https://historia.co.jp/archives/66103/",
+      "summary": "UE5関連記事3本の一覧：セーブデータ保存先の変更（2026/08/12）、Water Wave Assetで波を作る（2026/08/05）、プレイヤーに追従する集団の作成（2026/07/17）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-19T06:00:45.000Z",
+      "contentHash": "3e82c47cf43e"
+    },
+    {
+      "id": "140e9ec56842",
+      "title": "現場のPMに聞く、クラウドネイティブに安心して任せられる理由 | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/ask-pm-cloud-native-trust/",
+      "summary": "クラウドネイティブのPMは全ステークホルダーの成功を担保し、営業・エンジニアと連携して全体を管理。受注前から関与し目的・スコープ・リスクを明確化、やらないことを定める範囲管理と心理的安全性を重視する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-19T05:44:00.000Z",
+      "contentHash": "77c83ea5ff05"
+    },
+    {
+      "id": "473c377f0bbb",
+      "title": "「AIエージェントキャッチアップ #88 - Cloudflare OS」を開催しました | Generative Agents Tech Blog",
+      "url": "https://blog.generative-agents.co.jp/entry/2026/08/19/142016",
+      "summary": "「AIエージェントキャッチアップ #88」でCloudflare OSを紹介。社内向けのAI生産性基盤をOSSで公開、各社がカスタマイズ可能。チャットで作れる共有ガジェット（掲示板・スプレッドシート等）やDurable Objects利用を確認し、ローカル起動も成功。次回はBeads。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-19T05:20:16.000Z",
+      "contentHash": "1e87800752a3"
+    },
+    {
+      "id": "31b708853529",
+      "title": "コーディングエージェント主体に実装の進め方を変え始めている話 | LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/coding-agent-driven-development",
+      "summary": "実装を人中心からエージェント主体へ移行。herdrでplanner/worker/reviewerの役割を持つ複数エージェントを一端末で管理し、タブ命名やワークスペースで運用。判断基準をスキル化し、将来的にエージェントが命令実行や仲介を担う狙い。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-19T04:35:51.000Z",
+      "contentHash": "0c115a56bfcf"
+    },
+    {
+      "id": "5b49748490f2",
+      "title": "ペアプロ未経験が2ヶ月間ペアプロしてみての感想 | Uzabase for Engineers",
+      "url": "https://tech.uzabase.com/entry/2026/08/19/131216",
+      "summary": "XPのペアプロを2ヶ月体験。分からないことは即質問する文化で学習は早いが咀嚼時間が減る。成果より理解重視、思考を常時言語化する負荷あり。タイピング習得が有効で、向き不向きがあるため従来のやり方を手放す覚悟が必要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-19T04:12:16.000Z",
+      "contentHash": "c44439466039"
+    },
+    {
+      "id": "73bea6ace831",
+      "title": "PyO3でPythonのボトルネックを高速化した話 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/08/19/130000",
+      "summary": "Bill OneのAI自動照合で大量レコード処理が遅く、プロファイリングで突合せ処理がボトルネックと判明。PyO3で該当処理をRustに置換しFFIで高速化した手法と実装、プロファイリング手順を解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "contentHash": "fd8e20399dec"
+    },
+    {
+      "id": "4d6efb142be3",
+      "title": "FSx for Windows のスループットを下げるための調査 | DELTAテックブログのフィード",
+      "url": "https://zenn.dev/team_delta/articles/4957844157d832",
+      "summary": "Amazon FSx for Windowsのスループットを下げてコスト削減を検討。スループット低下は割当メモリも減り、重複排除やシャドウコピーに影響する可能性あり。CloudWatchのMemoryUtilizationが90%でもキャッシュを含むため誤判断の落とし穴があり、別指標で確認すべきという調査メモ（実際の変更は未実施）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-19T03:49:05.000Z",
+      "contentHash": "64edbc47c9c1"
+    },
+    {
+      "id": "cf7b64eda570",
+      "title": "Deepfakeの脅威と活用法 | ENGINEER TECH BLOG",
+      "url": "https://note.com/matsuyu_85/n/n6fd8113c90cd",
+      "summary": "DeepfakeはAIで本物そっくりの映像・音声を作る技術。詐欺や偽動画被害が報告され、フェイススワップや音声クローン等がある。映画・教育・医療で有益だが、ツール普及とSNS拡散、品質向上で脅威化し検出が難しい。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-19T03:09:00.000Z",
+      "contentHash": "a49fd57dc3c6"
+    },
+    {
+      "id": "4944b58ed58f",
+      "title": "Gaia-X Digital Clearing Houseは何ができるのか、どこが新しくなったのか | NTT DATA TECHのフィード",
+      "url": "https://zenn.dev/nttdata_tech/articles/fc43fedbed0004",
+      "summary": "Gaia‑X Digital Clearing House（GXDCH）は、参加者がルールを守っているかをVerifiable Presentationで自動検証し、合格時にGaia‑X Credentialを発行して信頼を構築する仕組み。Loire（準拠性確認）から疎結合のDanubeへアーキテクチャが進化した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-19T03:00:05.000Z",
+      "contentHash": "bbffa8b331d6"
+    },
+    {
+      "id": "e389cd3d8df3",
+      "title": "Strands Agents と Bedrock Guardrails を連携してAIエージェントにガードレールを適用する | Taste of Tech Topics",
+      "url": "https://acro-engineer.hatenablog.com/entry/2026/08/19/120000",
+      "summary": "Strands AgentsとAmazon Bedrock Guardrailsを連携し、生成AIの入出力にガードレールを適用。拒否トピックのブロック、PIIのマスク、RAGの根拠不足時の出力抑止などを検証・紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-19T03:00:00.000Z",
+      "contentHash": "d94d29d98c41"
+    },
     {
       "id": "4c3b8c9be5e7",
       "title": "先月は来ていた請求書が、今月は来ていない。経理が「無いこと」に気づく4つの習慣 | CloudNative BLOGs",
@@ -72,6 +162,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-19T00:02:14.000Z",
       "contentHash": "f6383200e94f"
+    },
+    {
+      "id": "8393c843a171",
+      "title": "ChatGPT Ads expands across Europe",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "summary": "ChatGPT Adsが31の欧州市場に拡大。広告主がユーザーの情報探索・比較・意思決定の各段階でリーチする方法や活用手法が紹介される。",
+      "source": "OpenAI",
+      "publishedAt": "2026-08-18T22:00:00.000Z",
+      "contentHash": "020aec9a2487"
     },
     {
       "id": "ae7c5d533f85",
@@ -1409,10 +1508,10 @@
       "id": "4c7113cb3096",
       "title": "AIの進化によってBlenderによる3D制作はどう変わるのか",
       "url": "https://note.com/npaka/n/n13f5c4f54754",
-      "summary": "生成AIによりBlender制作は「ゼロから作る」から「テキスト/画像で生成→Blenderで修正」へと変化。Tripo等のText-/Image-to-3Dや編集可能なパーツ分割モデル、Geometry Nodes連携が進み、MCP経由で自然言語からBlender操作を自動化する流れが進む。",
+      "summary": "AIの進化でBlender制作は「ゼロから作る」→「AI生成を修正して仕上げる」へ転換。Tripo等のText/Image→3D連携や、パーツ分割・パラメータ編集可能な生成、Geometry Nodesによるプロシージャル化が進み、MCP経由で自然言語からBlender操作を自動化する流れも進展している。",
       "source": "npaka",
       "publishedAt": "2026-08-16T00:40:49.000Z",
-      "contentHash": "c05e7d925825"
+      "contentHash": "4cf9381bbdb7"
     },
     {
       "id": "c74e95cfaa42",
@@ -8901,105 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-07-31T04:38:19.000Z",
       "contentHash": "b50bd74d4c73"
-    },
-    {
-      "id": "9b0eb3a6b779",
-      "title": "The AI trade now runs on borrowed money, and the lenders are repricing it",
-      "url": "https://greyswansignals.com/?theme=dark",
-      "summary": "外部サイトに直接アクセスできないため、記事本文（または主要な段落）を貼り付けるか要点を教えてください。いただければ200字以内で日本語要約します。HNのコメント要約も対応します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-31T04:15:04.000Z",
-      "contentHash": "a3db6bc546a0"
-    },
-    {
-      "id": "fd7905864682",
-      "title": "The session you cannot take with you",
-      "url": "https://earendil.com/posts/session-portability/",
-      "summary": "推論APIは「入力を送れば出力が得られ、会話を所有できる」はずだったが、暗号化された推論トークン、非表示の検索結果、復号不可の文脈、外部リソース参照、プロバイダ保管の会話状態などで実際のセッション状態はプロバイダ側にあり、端末のトランスクリプトは断片的にしか示さない。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-31T03:47:59.000Z",
-      "contentHash": "048f9f919a36"
-    },
-    {
-      "id": "6226c41b0e5d",
-      "title": "The bond market isn’t buying what Fed Chair Warsh is selling",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/",
-      "summary": "FRB議長ウォーシュの見方に対し、債券市場は懐疑的で、国債利回りや金利先物が議長の示す政策軌道と一致していない。市場はインフレ・成長見通しや利下げ時期に異なるシグナルを送っている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-31T03:32:21.000Z",
-      "contentHash": "f426ad27bf09"
-    },
-    {
-      "id": "e78cb60a7a1c",
-      "title": "A California aquifer may have crossed the point of no return",
-      "url": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
-      "summary": "すみません、外部サイトを直接取得できないため該当記事の本文をここに貼っていただくか、私に要約を任せる（一般的な知見に基づく要約を作成する）か選んでください。本文を貼っていただければ、200文字以内で正確に要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-07-31T03:27:36.000Z",
-      "contentHash": "f6e8e62a96ae"
-    },
-    {
-      "id": "a83cb3de9f40",
-      "title": "Netskope Client の「無効化しっぱなし」を検知してユーザーに気付かせる | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/3ad3617f2dbe8037/",
-      "summary": "macOSでNetskope Clientを一時無効化したままの「戻し忘れ」を防ぐ手法を解説。同梱のnsdiagで状態を定期取得し、osascriptで無効ならデスクトップ通知するシェルスクリプトとplistを使い、MDM配布にも対応。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-31T02:38:00.000Z",
-      "contentHash": "dffe3829bc48"
-    },
-    {
-      "id": "8fa500f0d49f",
-      "title": "Mackerel利用規約およびプライバシーポリシーの改定について（Mackerel for KCPSご利用のユーザー様） | Mackerel ブログ #mackerelio",
-      "url": "https://mackerel.io/ja/blog/entry/announcement/20260731-kcps",
-      "summary": "2026年10月1日付でMackerel（Mackerel for KCPS）の利用規約およびプライバシーポリシーを改定します。主な変更は「個人情報」の定義追記と、ユーザーデータに第三者の個人情報が含まれる場合の同意取得義務の追加、及び項番号の整理です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-31T02:35:55.000Z",
-      "contentHash": "33edb9c663f9"
-    },
-    {
-      "id": "1cfbe8bd1480",
-      "title": "Mackerel利用規約およびプライバシーポリシーの改定について | Mackerel ブログ #mackerelio",
-      "url": "https://mackerel.io/ja/blog/entry/announcement/20260731",
-      "summary": "Mackerelは2026年10月1日付で利用規約とプライバシーポリシーを改定します。主な変更は第4条で「個人情報」の定義に追記（「以下同じ。」）と、ユーザーデータに第三者の個人情報が含まれる場合の同意取得義務の追加です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-31T02:34:04.000Z",
-      "contentHash": "1c69759f7af9"
-    },
-    {
-      "id": "e65c6774985c",
-      "title": "正規表現は不要！　Netskope DLPでマイナンバー検知 | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/netskope-dlp-mynumber/",
-      "summary": "Netskope DLPは事前定義識別子「Personal TINs (JP; all)」「Corporate TINs (JP; all)」でマイナンバー（個人12桁・法人13桁）を検出可能。正規表現不要。RULE EXPRESSIONの演算子（デフォルトAND）や各構成要素（Entity等）の設定に注意。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-31T02:34:00.000Z",
-      "contentHash": "d38086a88736"
-    },
-    {
-      "id": "c8723470b45a",
-      "title": "AIが書いた大量PRを高速レビュー — 輪郭を先に見るCLI rinkaku を作った | エムスリーテックブログ",
-      "url": "https://www.m3tech.blog/entry/rinkaku-pr-review",
-      "summary": "MMAチームの山本です。AIエージェント生成のPRが増え、差分行数（例:+1,342 -286）に圧倒されてレビューが追いつかない。読む速度は変わらないのに生成だけ速くなっているという問題提起。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-31T02:30:00.000Z",
-      "contentHash": "0fef5e0f836c"
-    },
-    {
-      "id": "8f415ce28e06",
-      "title": "WAFレートベースルールの閾値、どう決める？ ALBログ分析から導く実践ガイド | MOTEX TECH BLOG",
-      "url": "https://tech.motex.co.jp/entry/2026/07/31/111850",
-      "summary": "ALBログをAthenaで分析し、実データから通常トラフィックを把握して、AWS WAFのレートベースルール閾値を最適化する手順を実践的に解説する記事。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-31T02:18:50.000Z",
-      "contentHash": "2bb08dca144b"
-    },
-    {
-      "id": "080fe6a0b224",
-      "title": "【Microsoft×生成AI連載】Plan My Dayエージェントを使ってみた | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/07/31/111836",
-      "summary": "Microsoft 365 Copilotの「Plan My Day」エージェントは、Outlook予定表・メール、Teams、SharePoint/OneDriveの情報を横断分析し、一日の行動計画を自動整理。会議や依頼が多く情報整理に時間がかかる人やCopilotの業務活用に適しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-07-31T02:18:36.000Z",
-      "contentHash": "408fe0e011eb"
     }
   ]
 }
