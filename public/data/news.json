@@ -1,14 +1,257 @@
 {
-  "generatedAt": "2026-08-20T16:57:34.641Z",
+  "generatedAt": "2026-08-21T01:53:57.705Z",
   "items": [
+    {
+      "id": "573f2ec4e9a7",
+      "title": "表キャプチャ機能の開発の裏側 | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/08/21/100000",
+      "summary": "JECA賞受賞の図面検査向け表キャプチャ機能を開発。電気図面の盤表をExcelへ転記する負担を軽減するため、モデル精度改善と編集可能なUIを両立し、多様なフォーマットに対応して短期間で実装した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T01:00:00.000Z",
+      "contentHash": "db9f71baf30a"
+    },
+    {
+      "id": "af89412b2608",
+      "title": "ヒトはフィジカルAIに進化する？ | aptpod Tech Blog",
+      "url": "https://tech.aptpod.co.jp/entry/2026/08/21/100000",
+      "summary": "記事は、ロボットの代わりにAI（サーバー）を頭脳、iPhoneを目と耳、ヒトを身体にして新宿周辺の11ポイントを巡る“フィジカルAI”実験を紹介する。intdashとREST API、iPhoneショートカット、PythonでAIが経路と目標画像を送り、撮影写真を照合して次のチェックポイントへ進める仕組みを解説している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T01:00:00.000Z",
+      "contentHash": "6981ceac9720"
+    },
+    {
+      "id": "172c79a77fd5",
+      "title": "誰でもできるけど、誰もやらない「仕事」をした7年間について語らせてくれ | Money Forward Developers Blog",
+      "url": "https://moneyforward-dev.jp/entry/2026/08/21/100000",
+      "summary": "2020年にマネーフォワード入社、約7年。目立たないが誰もやらない「誰でもできる仕事」を拾い、技術広報や社内カンファレンス立ち上げ、公開発信で信頼を積んだ泥臭い準備の記録。挑戦前の行動の重要性を伝える退職エントリ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T01:00:00.000Z",
+      "contentHash": "9e052be6b8e2"
+    },
+    {
+      "id": "6564956e65a2",
+      "title": "全職種にAIを届けようとしたら、全職種がGitHubを使う会社になってきた | MEDLEY Developer Portal",
+      "url": "https://developer.medley.jp/entry/2026/08/21",
+      "summary": "メドレーの振り返り：AI基盤室は「AI for All」を掲げ、GitHubを中核に全社向けのAIハーネスを構築。業務知識（skill）の流通化、効果測定・可視化を進め、法務等の非エンジニアもAIエージェントを活用できる体制を整えた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T01:00:00.000Z",
+      "contentHash": "c07641a4bab4"
+    },
+    {
+      "id": "c5e17cf32be1",
+      "title": "仕様が固まらない案件だからこそ、概要設計書をAIに書かせた | RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20260821/ai",
+      "summary": "楽楽販売の前田氏は、仕様が固まらない案件のボトルネックが上流工程と判断し、概要設計書を最初からAI（Claude Design）に作成・書き直させた。スライド形式の設計書作成と修正が効率化し作業2〜4倍の手応え。デザイン混在や定量評価は課題だが、顧客対応に回せる時間が増えた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T01:00:00.000Z",
+      "contentHash": "fd23c8ed3da2"
+    },
+    {
+      "id": "8cf23bff97e8",
+      "title": "GitでCRLFを含むファイルを管理したい！ | Uzabase for Engineers",
+      "url": "https://tech.uzabase.com/entry/2026/08/21/092448",
+      "summary": "GitがCRLFをLFに変換してしまいテスト用のCRLFファイルが扱えない問題。個人設定ではなくリポジトリ全体で統一するため、.gitattributesに\npath/to/crlf_include.csv text eol=crlf\nと記述するとCRLFを保持でき、チームでの警告や事故を防げる、という内容です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T00:24:48.000Z",
+      "contentHash": "05ecb5c74c23"
+    },
+    {
+      "id": "27db29e76605",
+      "title": "【Microsoft×生成AI連載】Copilot StudioのNew experienceでテストセットを使ってみた | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/08/21/090603",
+      "summary": "Copilot Studioの新UIで使えるテストセット機能を紹介。CSVテンプレートにconversationNumber、question、responseを記入してアップロードし、Evaluate→Runで複数（多ターン可）のテストを一括実行。利用はライセンスと新UIで作成済みが前提。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T00:06:03.000Z",
+      "contentHash": "5eceb75c5524"
+    },
+    {
+      "id": "405ad0b17f4d",
+      "title": "昔、DBAをやっていてやらかしたお話 〜全件DELETEとDDLの暗黙コミット〜 | KENTEM TechBlog",
+      "url": "https://tech.kentem.jp/entry/2026/08/21/090000",
+      "summary": "新人DBA時代、DELETEのテキスト選択ミスで全件削除し、その後のDDL実行で暗黙コミットされロールバック不可に。先輩のPITRで復旧後、スクリプト化、コピー表作成、COUNT確認、明示的トランザクションなど再発防止策を導入し、報告の重要性と教訓を得た。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "contentHash": "88a6da40a47d"
+    },
+    {
+      "id": "30d5eed06223",
+      "title": "AIとの壁打ちで考えを見える化する資料作成術 | techtekt（テックテクト） | パーソルキャリアのエンジニアブログ",
+      "url": "https://techtekt.persol-career.co.jp/entry/tech/260821_01",
+      "summary": "企画資料作成で迷う前段の「考えの整理」に生成AIを壁打ち相手として活用する手法を紹介。①AIと対話で課題・目的・期待効果を言語化②AIに概念図を生成③図をスライド化。前提情報の整理が重要。Copilot等で再現可。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "contentHash": "95ea72462fb6"
+    },
+    {
+      "id": "dab7595986cc",
+      "title": "スクラムマスターのAI活用を考える - 実践編：AI起点のデイリースクラム | 豆蔵デベロッパーサイト",
+      "url": "https://developer.mamezou-tech.com/blogs/2026/08/21/ai-driven-scrum/",
+      "summary": "石田氏の実践例：GASでJiraのチケットとサブタスクの日次履歴をGoogleドキュメントに蓄積し、Geminiでスプリントゴールへの影響を検査・評価。AIの分析を起点にデイリースクラムを進め、単なる進捗報告を検査・適応の場に変える。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "contentHash": "1a2988e68c27"
+    },
+    {
+      "id": "663603c5811d",
+      "title": "GEN-1.5 の概要",
+      "url": "https://note.com/npaka/n/n309d7c94b59f",
+      "summary": "GEN-1.5は映像・センサー等を入力し100Hzで軌道生成、30秒の映像文脈を扱う身体性基盤モデル。3–12秒のデモをコンテキストに入れる「Physical Prompting」で追加学習なしにOne‑Shot実行（新タスク平均成功率59%）。少量学習で66.5%→5分+10stepで83%に向上。複数Prompt合成やシミュ→実機の一般化も示す。",
+      "source": "npaka",
+      "publishedAt": "2026-08-20T23:49:58.000Z",
+      "contentHash": "55c870ce62eb"
+    },
+    {
+      "id": "bdb698ec663c",
+      "title": "Google Discover is getting an AI chatbot-tuned feed",
+      "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+      "summary": "GoogleがDiscoverフィードをAIチャットでカスタマイズできる機能を導入。三点メニューからチャット形式で見たい内容を指定すると、AIが優先表示を記憶・反映し、フィードを更新する。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-20T21:50:22.000Z",
+      "contentHash": "1ee3cb0fb1e9"
+    },
+    {
+      "id": "4202cfe04521",
+      "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
+      "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
+      "summary": "アーロン・スウォーツがJSTORの約70GBDLで過剰起訴され自殺に追い込まれたのに対し、メタは約80TBの書籍でAI学習してもほぼ無罰という社会の不正義に著者が憤る。記事末にリスや猫の写真あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-20T20:07:26.000Z",
+      "contentHash": "c9fc7ca4bf6b"
+    },
+    {
+      "id": "7c5b609baa8a",
+      "title": "Riot is ending development on its League of Legends fighting game",
+      "url": "https://www.theverge.com/games/982986/riot-games-league-of-legends-fighting-game-2xko-end-development",
+      "summary": "Riotはリーグの格闘ゲーム「2XKO」のアクティブ開発を2026年末で終了すると発表。サーバーは継続稼働、全キャラ解放と課金返金を実施。2025年β→翌年コンソール展開したが定着せず人員削減があった。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-20T19:59:09.000Z",
+      "contentHash": "9ef459525ef2"
+    },
+    {
+      "id": "e70bc5b86969",
+      "title": "The Genesis GV90 blows the bloody doors off what’s possible in EV design",
+      "url": "https://www.theverge.com/transportation/982910/genesis-gv90-ev-suv-coach-door-heated-floor",
+      "summary": "現代の高級ブランドGenesisが米国向け初のフルサイズ三列EV「GV90」を発表。前後ドアが外開きでBピラーを隠す「Neolun Arch Gate」や前席が180度回転するなど、斬新なデザインと機能が特徴。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-20T19:52:57.000Z",
+      "contentHash": "13debb0930ef"
+    },
+    {
+      "id": "1da38fd39989",
+      "title": "Stop eating Lady Gaga's Oreos",
+      "url": "https://www.experimental-history.com/p/stop-eating-lady-gagas-oreos",
+      "summary": "1992年、Pearl JamはMTVで急ブレイクしても映像や取材を拒み、ヒット曲を外すなど商業化に抗った。だがアルバムは爆発的に売れ、90年代は「売れる＝売り渡す」とみなす風潮が強かった、という回顧。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-20T19:46:06.000Z",
+      "contentHash": "fae0ae503440"
+    },
+    {
+      "id": "02ed539fac86",
+      "title": "The August 17 outage, and the work ahead",
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "summary": "Vlad FedorovはGitHubのCTO。開発者生産性重視でエンジニアリングを率いる。UserClouds共同創業、Metaで12年・2,000人超を統括、Microsoft勤務、Caltechで学位、CodePath理事。ベイエリア在住で家族とアウトドアを楽しむ。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-20T19:22:24.000Z",
+      "contentHash": "90a49b27d6b2"
+    },
+    {
+      "id": "48bb2bd11735",
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "summary": "2026年、AI自動コーディングに疲れた著者が、意図が記録されず冗長な命令が非効率と指摘。疑似コードで宣言的かつ永続的なプロンプトを使う実験エディタ「Huzzah」を提案し、可視性と効率向上を目指す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-20T19:05:36.000Z",
+      "contentHash": "720c5e8748b7"
+    },
+    {
+      "id": "1277da21f4a7",
+      "title": "Watching TikTok and Instagram deactivates the cognitive control network: Study",
+      "url": "https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions/",
+      "summary": "記事は、TikTokなどの短尺動画が注意力やワーキングメモリ、実行機能に関わる脳領域の活動を低下させるとする研究を紹介し、視聴習慣が認知に悪影響を及ぼす可能性を指摘する。ただし研究規模や因果関係は限定的とされる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-20T18:54:32.000Z",
+      "contentHash": "2a87c04b6142"
+    },
+    {
+      "id": "b971cc0b07db",
+      "title": "Mark Zuckerberg bought an Irish castle",
+      "url": "https://www.theverge.com/tech/982955/meta-mark-zuckerberg-strancally-castle-ireland",
+      "summary": "Meta社CEOマーク・ザッカーバーグが、アイルランドのストランカリー城と440エーカーの敷地を数週間前に購入。約16,000平方フィートで価格は約2,000万〜3,000万ユーロと推定され、家族は米国在住のまま訪問する予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-20T18:50:14.000Z",
+      "contentHash": "12b6e7e77625"
+    },
+    {
+      "id": "d592fa591827",
+      "title": "Consumer Rights Wiki",
+      "url": "https://consumerrights.wiki/w/Main_Page",
+      "summary": "Consumer Rights Wikiのメインページ用ヘッダー断片。表示・履歴・印刷・固定リンク・ページ情報・フィードバックなどのナビゲーションや、heroセクションを含む見出し用のCSSスタイル定義が記載されている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-20T18:19:51.000Z",
+      "contentHash": "e19cafde7292"
+    },
+    {
+      "id": "c2ebcd3e6575",
+      "title": "I should have loved biology (2020)",
+      "url": "https://jsomers.net/i-should-have-loved-biology/",
+      "summary": "著者は高校の生物が無味だったと回想し、Lewis Thomasの「受精卵から脳を生む単一細胞の驚異」に感銘を受ける。胚の化学勾配が遺伝子発現を変え分化を導く仕組みと、Hofstadterの細胞を自己改変するプログラムに例えた見方を紹介する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-20T17:50:02.000Z",
+      "contentHash": "224c52fcc64a"
+    },
+    {
+      "id": "d6c36ead996f",
+      "title": "Australia says Roblox hasn&#8217;t fixed its child predator problem",
+      "url": "https://www.theverge.com/games/982885/roblox-australia-safety-regulator-child-safety",
+      "summary": "オーストラリアの規制機関eSafetyの検査で、Robloxが16歳未満への成人からの接触防止を十分に実施しておらず、親の同意なしに成人が接続申請できるなど子どもが危険にさらされる問題が判明。Robloxは追加の安全対策を約束した。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-20T17:42:34.000Z",
+      "contentHash": "84192efe4234"
+    },
+    {
+      "id": "530365b58f66",
+      "title": "FCC officially decides gigabit speeds are too good for you",
+      "url": "https://www.theverge.com/policy/982863/fcc-kills-gigabit-goal",
+      "summary": "FCCの委員長ブレンダン・カーがバイデン政権のギガビット級目標を撤回。民間が一部で超高速を提供する中、政府が野心を下げる判断を著者が批判。過去の低基準も問題視。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-20T17:38:30.000Z",
+      "contentHash": "9c6e334c8bac"
+    },
+    {
+      "id": "2bc21926f4ed",
+      "title": "Framework says it&#8217;s addressing a BIOS update that bricked some of its older laptops",
+      "url": "https://www.theverge.com/gadgets/982800/framework-laptop-13-amd-7040-bios-320-bricking-warranty",
+      "summary": "Frameworkの2023年版Laptop 13（Ryzen 7040）向けBIOS 3.20（7月公開）が、一部で更新中に起動不能にする不具合を起こしている。Windows/Linux両環境で報告され、同社は影響の7040系マザーボードを保証内外問わず交換すると発表した。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-20T17:16:02.000Z",
+      "contentHash": "f98fefec6bd1"
+    },
+    {
+      "id": "dacb60d23f6e",
+      "title": "How to compromise your system with a job interview",
+      "url": "https://www.codedge.de/posts/how-to-compromise-your-system-with-a-job-interview",
+      "summary": "求人の厳しい状況を逆手に、LinkedIn経由の高報酬・リモート求人のコーディング課題がマルウェア攻撃の入口になった事例を紹介。課題内の第二段階ローダーでシステムが侵害される手口と、添付ファイルの検証や隔離実行などの注意点を解説。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-20T15:50:57.000Z",
+      "contentHash": "8ad9772645b1"
+    },
+    {
+      "id": "01237097ff1b",
+      "title": "Linux 7.2",
+      "url": "https://www.igalia.com/2026/08/19/Linux-72-Released.html",
+      "summary": "Linux 7.2がリリース。CPU/GPUスケジューリング強化（キャッシュ対応、MGLRU、sched_extサブスケジューラ等）、多サイズTHP、Raspberry PiのGPU電源管理改善。DRM公平は回帰でオプトイン。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-20T15:46:18.000Z",
+      "contentHash": "98b1cac1eb64"
+    },
     {
       "id": "08dde364f7c2",
       "title": "It’s Greg Brockman’s OpenAI now",
       "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
-      "summary": "サム・アルトマンが名目上のCEOだが、日々の実務は副指揮のグレッグ・ブロックマンが主導している。OpenAIはマスクとの裁判やAppleの営業秘密訴訟などで波乱の一年を迎えた。",
+      "summary": "サム・アルトマンが名目上のCEOだが、日常業務は副司令格のグレッグ・ブロックマンが実質的に仕切っている。近年はイーロン・マスクとの裁判やアップルの機密訴訟など騒動が続いている。",
       "source": "The Verge",
       "publishedAt": "2026-08-20T15:45:55.000Z",
-      "contentHash": "0676e2c1a575"
+      "contentHash": "f75084f2fbf6"
     },
     {
       "id": "db4b5da45668",
@@ -18,6 +261,15 @@
       "source": "The Verge",
       "publishedAt": "2026-08-20T15:30:34.000Z",
       "contentHash": "f7858b6cba38"
+    },
+    {
+      "id": "09523f683853",
+      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+      "url": "https://github.com/zachahn/vomit",
+      "summary": "VomitはClaudeの出力トークンをローカルLLM経由で英語に変換する完全ローカルツール（テレメトリ・外部依存無し）。ローカルLLMはClaudeのトークンのみ参照するため幻覚や遅さがありMac中心。goで導入し vomit init/scrub/tail 等で操作。Llama.app/Ollama等対応。GPLv3。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-20T15:26:02.000Z",
+      "contentHash": "ed6f63c2559b"
     },
     {
       "id": "a95e16e55f58",
@@ -245,6 +497,15 @@
       "contentHash": "068959571492"
     },
     {
+      "id": "fc1a9abd82b3",
+      "title": "Introducing AI Futures",
+      "url": "https://openai.com/index/introducing-ai-futures",
+      "summary": "OpenAIが新ブログ「AI Futures」を公開。変革的なAIが権力や統治、経済、個人の自由をどのように再構築・影響するかを探る内容です。",
+      "source": "OpenAI",
+      "publishedAt": "2026-08-20T07:00:00.000Z",
+      "contentHash": "16241a492d0a"
+    },
+    {
       "id": "8a6a2d3554a2",
       "title": "AIツールを導入したのに開発が速くならない理由―AI駆動開発ライフサイクルによる上流工程の変革：AIと人間の役割分担とは？― | ナレコムAWSレシピ | AIに強い情報サイト",
       "url": "https://recipe.kc-cloud.jp/archives/19416/",
@@ -257,10 +518,10 @@
       "id": "4146e40daf17",
       "title": "mlx-dspark で Qwen3.8-27B を試す",
       "url": "https://note.com/npaka/n/n0028d145fb69",
-      "summary": "Apple Silicon向けMLXの投機的デコードライブラリ「mlx-dspark」でQwen3.8-27Bを検証。M4 Pro 48GBで8bit版は平均2.45倍（最大3.18倍）高速化。手順はPython仮想環境→pip install mlx-dspark→unslothの8bitモデル実行（8bitは64GB推奨、初回DLに時間）。piエージェントと連携し、mlx-dspark serveでOpenAI互換APIを起動可能。",
+      "summary": "Apple Silicon向けMLX用ライブラリ「mlx-dspark」でQwen3.8-27Bを検証。Speculative DecodingによりM4 Pro 48GBで8bit版が平均2.45倍、最大3.18倍高速化。導入はPython仮想環境→pip install mlx-dspark→モデル実行（8bitは64GB推奨）。piエージェントと連携し、mlx-dspark serveでOpenAI互換APIを起動。",
       "source": "npaka",
       "publishedAt": "2026-08-20T06:55:05.000Z",
-      "contentHash": "1929471685f6"
+      "contentHash": "e26c9c852cb8"
     },
     {
       "id": "4f227bbfc741",
@@ -327,7 +588,7 @@
     },
     {
       "id": "ad89fb510e3c",
-      "title": "How ChatGPT Work helps Stampli move ideas to market",
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
       "url": "https://openai.com/index/stampli",
       "summary": "締切が固定され、デザインリソースが他に割かれている中、StampliはCodexとChatGPT Workを活用して数週間かかるローンチ制作を数日に短縮した。",
       "source": "OpenAI",
@@ -2264,10 +2525,10 @@
       "id": "4c7113cb3096",
       "title": "AIの進化によってBlenderによる3D制作はどう変わるのか",
       "url": "https://note.com/npaka/n/n13f5c4f54754",
-      "summary": "AIでBlender制作は「ゼロから作る」から「AI生成を修正して仕上げる」へ変化。Tripo等のText-/Image-to-3Dや編集可能なパーツ生成、Geometry Nodes連携が進み、MCP経由の自然言語操作で自動化も進展。",
+      "summary": "AIの進化でBlenderは「ゼロから作る」からAI生成を取り込み修正する制作へ転換。Tripo等のテキスト/画像→3Dや編集可能なパーツ生成、ジオメトリノード連携、自然言語で操作するMCPによる自動化が進む。",
       "source": "npaka",
       "publishedAt": "2026-08-16T00:40:49.000Z",
-      "contentHash": "a49e379180b3"
+      "contentHash": "3eee63b0ae27"
     },
     {
       "id": "c74e95cfaa42",
@@ -8739,267 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-08-02T22:16:34.000Z",
       "contentHash": "4532da97dca1"
-    },
-    {
-      "id": "31e3a531e176",
-      "title": "Rachika Nayar’s Heaven Come Crashing is an instrumental epic of desperate longing",
-      "url": "https://www.theverge.com/entertainment/974271/rachika-nayars-heaven-come-crashing-music-review",
-      "summary": "Rachika Nayarの新作『Heaven Come Crashing』は、切実な longing を帯びたインスト盤。大半は打楽器控えめだが、タイトル曲で2分半に爆発的なドラムが現れ、ギター主体のアンビエントがM83の別宇宙版のように展開する。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-02T21:53:15.000Z",
-      "contentHash": "8919aa5f2727"
-    },
-    {
-      "id": "5e670d2ecc4a",
-      "title": "EU Age Verification Project Mandates Hardware-Bound Attestation",
-      "url": "https://linuxiac.com/eu-age-verification-project-mandates-hardware-bound-attestation/",
-      "summary": "EUのオープンソース年齢確認プロジェクトが、Android TEE/StrongBoxやApple Secure Enclaveなどのハードウェア結び付けアテステーションを必須化。カスタムROMやLinux、独自ビルドアプリの利用制限や特定機器・OS・認証提供者依存を招くと批判され、代替案募集とセキュリティレビュー公開を予定。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-02T20:44:24.000Z",
-      "contentHash": "d359b045bccc"
-    },
-    {
-      "id": "6bb183499112",
-      "title": "My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
-      "url": "https://frogs.vaguespac.es/",
-      "summary": "注釈は主に構造ラベルだが、顎を「大きく突き出した下顎」とし、上唇が顎の裏に引っ込み下歯が上唇を覆うなど解釈的記述を含む。添付SVGは頭部ドーム、目の膨らみ、いぼ、鼻孔などを描写している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-02T19:42:08.000Z",
-      "contentHash": "83d439d8c606"
-    },
-    {
-      "id": "93247f3782b4",
-      "title": "Fender’s CEO seems to think your bandmates are just analog AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
-      "summary": "フェンダーCEOのエドワード「バド」コールが、バンド仲間やカバー曲の習得を「アナログAI」に例した発言が波紋。ストラト形状の権利主張での差し止め騒動と相まって、ギタリストや人気YouTuberの反発や購入ボイコットが広がっている。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-02T19:36:08.000Z",
-      "contentHash": "7a3478fcdce0"
-    },
-    {
-      "id": "6fb9e6914950",
-      "title": "'Crush this lady': how eBay harassment campaign led to $56M payout",
-      "url": "https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2",
-      "summary": "申し訳ありませんが、外部URLを直接開けないため記事の内容を取得できません。記事本文を貼り付けていただければ、200文字以内で日本語要約します。コメントも要約希望なら一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-02T19:19:24.000Z",
-      "contentHash": "3dddfcd25299"
-    },
-    {
-      "id": "daea1f6a187d",
-      "title": "SwiftUI After 7 Years",
-      "url": "https://ykvm.com/2026/07/swiftui-a-story-of-mediocrity/",
-      "summary": "記事はSwiftUIを「凡庸」と評し、期待された革命性は乏しいと指摘。APIの不整合やバグ、パフォーマンスやデバッグの難点、OSごとの断片化で実務導入に慎重さが必要だとまとめる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-02T18:59:05.000Z",
-      "contentHash": "96876fdfaa6e"
-    },
-    {
-      "id": "39a0b2d3f293",
-      "title": "Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark",
-      "url": "https://github.com/graham33/nixos-dgx-spark",
-      "summary": "NVIDIA DGX Spark向けにNix/NixOS環境を提供するリポジトリ。DGX OS上でのNix導入手順（インストーラとflakes有効化）、nix-gl-hostによるGPU対応、USBイメージとNixOSモジュールを提供。導入前にファーム更新とSecure Boot無効化が必要。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-02T17:05:54.000Z",
-      "contentHash": "f7f12ab17f1f"
-    },
-    {
-      "id": "e2e6b589dfbe",
-      "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
-      "url": "https://github.com/wie-project/kakehashi",
-      "summary": "KakehashiはJIT不要のユーザ空間翻訳レイヤーで、macOS ARM64（Mach-O）バイナリをLinux aarch64上で動作させる。libSystemマッピングやBSD syscall翻訳を行い、clang/7‑Zip/curl等が動作。Docker/Colima/UTMで検証済み、cargoで導入可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-02T16:26:40.000Z",
-      "contentHash": "6a07719b47fa"
-    },
-    {
-      "id": "1e48df9d53d2",
-      "title": "Show HN: Sprocket – The Best AI Agent for Hardware and Software Development",
-      "url": "https://sprocket-demo.spikonado.com",
-      "summary": "16歳の開発者が作ったオープンソースAIエージェント「Sprocket」。ハード・ソフト両面で他を上回り、ウェブから文脈を取得して自律的に商品を購入可能。回路図やBOM、組立手順も生成し、性能・UIはCodex等に匹敵。ベンチマーク公開予定。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-02T16:26:19.000Z",
-      "contentHash": "247eafe538cd"
-    },
-    {
-      "id": "0651b9953801",
-      "title": "Xbox prices are increasing by up to €200 or £170",
-      "url": "https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros",
-      "summary": "マイクロソフトが欧州・英国でXbox価格を最大€200/£170引き上げ。Series X（1TB）は£499.99→£669.99/€599.99→€799.99、Series S（512GB）は£299.99→£429.99等。2025年5月以来3回目で、AI需要によるRAM・記憶価格高騰が背景。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-02T16:14:20.000Z",
-      "contentHash": "9368174bf953"
-    },
-    {
-      "id": "4f7f0a562ddd",
-      "title": "How the words we teach English language learners changed",
-      "url": "https://pudding.cool/2026/07/essential-words/",
-      "summary": "1953年の約2300語から2023年は約2800語に更新され、約600語が削除、約1100語が追加。電信が外れコンピュータやwebsite、blog、mom/dadが入り、リンゴやフォーク、石鹸、粉など実物・手仕事語が外れるなど語彙の時代変化を反映している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-02T15:41:08.000Z",
-      "contentHash": "6f0c10c29aed"
-    },
-    {
-      "id": "b3cd45cbd1fc",
-      "title": "Skylight&#8217;s smart calendars are up to $90 off during its back-to-school sale",
-      "url": "https://www.theverge.com/gadgets/973789/skylight-calendar-2-max-back-to-school-deal-sale",
-      "summary": "Skylightの共有スマートカレンダーが8月2〜9日のバックトゥスクールセールで最大90ドルオフ。10インチが119.99ドル（50ドル引）、15インチが259.99ドル（20ドル引）、27インチMaxが479.99ドル（90ドル引）。家族の予定管理向け。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-02T15:00:00.000Z",
-      "contentHash": "604fd0dee8e8"
-    },
-    {
-      "id": "fe476118b7ae",
-      "title": "HP’s HyperX Omen 15 isn’t quite the budget-friendly gaming laptop its predecessor was",
-      "url": "https://www.theverge.com/tech/974155/hp-hyperx-omen-15-gaming-laptop-rtx-5050-review",
-      "summary": "HPのHyperX Omen 15は廉価モデルVictus 15の後継で、RTX 5050搭載により2026年のゲームを低設定で1080p可。16:10の明るい高リフレッシュ液晶と1080pウェブカメラを備えるが、RAM問題で約$1,200からと価格は上昇。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-02T14:00:00.000Z",
-      "contentHash": "08d90b1385ad"
-    },
-    {
-      "id": "b70a57a46cba",
-      "title": "Is paying artists enough to convince them to embrace AI?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
-      "summary": "イラストレーターらは無断で作品を学習に使う生成AIを盗用と批判し法廷闘争に発展。新興企業Pippaは収益分配でアーティストの参加を促すが、支払いで懸念が解消されるかは不透明だ。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-02T13:00:00.000Z",
-      "contentHash": "a515217e81bf"
-    },
-    {
-      "id": "2a89857de338",
-      "title": "Foldables are sort of boring now — and that’s great news for Apple",
-      "url": "https://www.theverge.com/column/972937/foldable-phones-boring-apple",
-      "summary": "折りたたみディスプレイはもはや目新しくはないが、性能や耐久性が成熟してiPhoneに採用できる水準になったため、「退屈」になることはAppleにとって追い風だ、という論旨。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-02T12:00:00.000Z",
-      "contentHash": "3dd6c3378260"
-    },
-    {
-      "id": "4ae03ca3cd2c",
-      "title": "Gemini Robotics ER 2 の概要",
-      "url": "https://note.com/npaka/n/n7910aa0ceb7f",
-      "summary": "Google DeepMindが発表した「Gemini Robotics ER 2」は、画像・動画から物体検出や座標出力、軌道候補生成、複数ステップの作業計画や進捗判定、VLAやロボットAPIの呼び出し・オーケストレーションを行う高レベルな身体性推論（VLM）モデル。低レイヤのモーター制御は別のVLA/APIに委任し、Gemini Robotics 2は具体的な動作生成を担う点が異なる。",
-      "source": "npaka",
-      "publishedAt": "2026-08-02T10:21:03.000Z",
-      "contentHash": "c9fb95f6d198"
-    },
-    {
-      "id": "c68fef2c0873",
-      "title": "ツールを選びに行って、受け入れる側の設計を問われた ― Google Cloud Next Tokyo 2026 参加レポート | truestarテックブログのフィード",
-      "url": "https://zenn.dev/truestar/articles/42b3edab13e8ca",
-      "summary": "Google Cloud Next Tokyo 2026に参加。Microsoft 365からの移行を検討したが、AIだけでは移行を正当化できず、業務へのAI組込みや共同編集・ファイル置き場、オンプレミス廃止といった運用課題が本質で、移行コストが最大の障壁と判明した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-02T05:04:34.000Z",
-      "contentHash": "8a580a166174"
-    },
-    {
-      "id": "7175244a378f",
-      "title": "Coding Agent Insightsが来たので、Claude CodeのOtel送信先をAWSに移行しました。 | NCDC テックブログのフィード",
-      "url": "https://zenn.dev/ncdc/articles/3da1b836ea1d93",
-      "summary": "結論：2026/08/01時点のCoding Agent Insightsはデータ収集の動作確認向け。AWSへ集約するなら最初からカスタムダッシュボード前提で設計を推奨。Anthropic ClaudeのTeamでManaged Settings（JSON配布）を利用中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-02T01:00:05.000Z",
-      "contentHash": "740fb103af53"
-    },
-    {
-      "id": "c091b3a14301",
-      "title": "Anime User Interfaces",
-      "url": "https://animeuserinterface.tumblr.com",
-      "summary": "アニメに登場するHUDや操作画面のスクリーンショットを収集・公開するTumblr。未来的で派手、情報過多な演出が多く、実用性より映像表現としての魅力やUIデザインの参考になる資料を提供している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-01T22:47:24.000Z",
-      "contentHash": "592fcc5a1aee"
-    },
-    {
-      "id": "0d78e02a307d",
-      "title": "AI financial advice is surprisingly good, especially if you ask right questions",
-      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
-      "summary": "研究は、LLMによる金融助言が適切かつ構造化したプロンプトで貯蓄増加・分散投資・年齢に応じたリスク低下を促し、30歳以上で貯蓄効果が大きいとする一方、失業などのショック対応やリバランスは弱く、助言はプロンプトや性別・金融リテラシーで変わると指摘する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-01T22:25:12.000Z",
-      "contentHash": "3129e7486ad0"
-    },
-    {
-      "id": "49652da67384",
-      "title": "Pixel 11 specs and price leak with no surprises",
-      "url": "https://www.theverge.com/tech/974238/pixel-11-specs-and-price-leak",
-      "summary": "Android HeadlinesのリークでPixel 11シリーズの仕様と価格が流出。無印は$100値上げで899ドル（256GB）、全機種がTensor G6/Titan M3搭載。Pro/Pro XLはRAMが12GBに削減でそれぞれ1,099ドル・1,299ドル。無印は望遠を廃しデュアル背面、ディスプレイは概ね据え置き。Pro FoldもRAM削減の影響あり。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-01T21:31:24.000Z",
-      "contentHash": "f7dd92e6ef04"
-    },
-    {
-      "id": "78d1ddb7f457",
-      "title": "Seedance 2.5",
-      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-      "summary": "Seedance 2.5を発表。30秒を一度に生成（多段延長で長尺化可）し、画質・音声・動作やシーン連続性を改善。画像30枚・動画10本・音声10本まで参照可能で多様な参照を反映。タイムスタンプ単位の精密編集も強化。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-01T20:45:12.000Z",
-      "contentHash": "438aaa9fc26b"
-    },
-    {
-      "id": "308b4e638e9e",
-      "title": "Diátaxis",
-      "url": "https://diataxis.fr/",
-      "summary": "Diátaxisは利用者のニーズに基づく技術文書の体系的手法。チュートリアル、ハウツー、参照、説明の4類型で内容・様式・構成を整理し、実装制約を課さず軽量で保守しやすい。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-01T20:33:27.000Z",
-      "contentHash": "2177243aa455"
-    },
-    {
-      "id": "992ce6228fac",
-      "title": "The Silicon Valley Founder Meat Grinder",
-      "url": "https://zaksa.zip/blog/silicon-valley-founder-meat-grinder/",
-      "summary": "ジムは野心とカリスマで人脈から成功し一時的に高給を得るが、浪費と気の緩みで解雇され、億万長者の夢からは程遠いままシリコンバレーへ希望を託す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-01T20:20:58.000Z",
-      "contentHash": "913c7a117a96"
-    },
-    {
-      "id": "9554c74df401",
-      "title": "Angela Nissel faces down grief with a laugh",
-      "url": "https://www.theverge.com/report/974226/angela-nissel-interview-good-grief-pass-the-bread-mom-is-dead",
-      "summary": "アンジェラ・ニッセルが新著『Good Grief, Pass the Bread, Mom Is Dead』で、母の死などの悲嘆をユーモアで受け止め、笑いを通して困難な時期を描く。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-01T20:15:00.000Z",
-      "contentHash": "83f33b2b8a83"
-    },
-    {
-      "id": "41b14a1b6fcf",
-      "title": "Google has abandoned Google News?",
-      "url": "https://elgan.com/google-news-is-just-forrest-gumps-shrimp-boat-now",
-      "summary": "著者はGoogleニュースが質よりアルゴリズム最適化された大量の類似・再利用コンテンツ（AI生成やSEO向け記事）を寄せ集める「フォレスト・ガンプのエビ船」化したと批判。多様な報道が失われ、ジャーナリズムと利用者が損なわれていると警鐘を鳴らす。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-01T19:39:43.000Z",
-      "contentHash": "737599e7b20a"
-    },
-    {
-      "id": "74a7b47d9178",
-      "title": "Postmortem for Kernel Soundness Bug #14576",
-      "url": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
-      "summary": "Leanカーネルの整合性バグ(#14576)がAI補助のCollatz「反例」で露見。入れ子帰納型のファントム引数が消え型検査を回避しFalseが導けた。7/28報告→1時間で修正(#14577)・パッチ公開。フロントでは防がれ、メタ理論の穴ではなく実装ミス。外部チェッカーnanodaは別のバグで見逃しており両方修正済み。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-01T18:32:20.000Z",
-      "contentHash": "1b8724a4bdd7"
-    },
-    {
-      "id": "16657117b75d",
-      "title": "Is this Billboard Hot 100 hit AI slop?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
-      "summary": "Shoreline Mafia出身のFenix Flexinのソロ曲「Rubberz」がビルボードHot100で58位に。楽曲やカバーがAI生成の疑いが濃く、真偽は確定していないと報じられた。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-01T18:20:00.000Z",
-      "contentHash": "186ce61fcd89"
-    },
-    {
-      "id": "38813d91760a",
-      "title": "How Google helped destroy adoption of RSS feeds (2023)",
-      "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds",
-      "summary": "記事は、Googleが公開RSSを足がかりに製品を拡張しつつ、ChromeのRSSボタン削除やFeedBurner買収で広告・追跡を導入するなどして、RSSの利用拡大を阻害したと批判する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-01T18:07:07.000Z",
-      "contentHash": "4648cfa36808"
     }
   ]
 }
