@@ -1,6 +1,141 @@
 {
-  "generatedAt": "2026-08-21T01:53:57.705Z",
+  "generatedAt": "2026-08-21T09:02:02.388Z",
   "items": [
+    {
+      "id": "3cc86c1a325c",
+      "title": "Ornith-1.5 の概要",
+      "url": "https://note.com/npaka/n/n654b6af6387b",
+      "summary": "Ornith-1.5はオープンソースLLMで、モデル自身が課題生成→Scaffold作成→解答生成→強化学習を繰り返す自己改善ループを備える。397B/35B-A3B/9Bの3種を提供し、特にコーディング系エージェント性能やローカル／モバイル利用が優れる。",
+      "source": "npaka",
+      "publishedAt": "2026-08-21T08:14:13.000Z",
+      "contentHash": "2acbc34abb37"
+    },
+    {
+      "id": "769bd7e0e91d",
+      "title": "「エージェントが対応し、人間が評価する」——SmartHR CREが開発する「DESK AIエージェント」 | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/08/21/155452",
+      "summary": "SmartHRのCREが開発するDESK AIエージェントは、過去対応記録やヘルプを参照してSlackで製品の技術問合せに回答。人間は対応の評価・改善に回り、対応主体を段階的にAIへ移すことを目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T06:54:52.000Z",
+      "contentHash": "c1ba4767940d"
+    },
+    {
+      "id": "cd597ee309c3",
+      "title": "AIエージェントの精度改善を支える設計原則〜Architecture・Context・Toolsの最適化ポイント〜【AWS Summit 2026 – セッションレポート】 | ナレコムAWSレシピ | AIに強い情報サイト",
+      "url": "https://recipe.kc-cloud.jp/archives/19437/",
+      "summary": "AIエージェントの挙動不安定はArchitecture/Context/Toolsの設計で改善可能。用途に応じた構成選定、必要最小限のコンテキスト管理、LLMに最適化したツール設計で精度と安定性を高める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T06:50:52.000Z",
+      "contentHash": "f153d4293cb0"
+    },
+    {
+      "id": "e35926e7192f",
+      "title": "【Zenn力執筆】＃8　インターネット界の「どこでもドア」と言えば・・・？ | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/dc8769e287003d",
+      "summary": "どこでもドアに例えつつ、VPNは離れた場所を同じネットワークのように扱う技術だと説明。仮想ネットワークは「目的地」、VPNはその目的地へ安全に接続する仕組みと整理している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T06:30:05.000Z",
+      "contentHash": "c500c4a9b30c"
+    },
+    {
+      "id": "df5d231b7289",
+      "title": "同じ会社なのに、こんなに違う。Sansan、Eight、Bill Oneのモバイル開発【前半：技術選定・開発プロセス】 | Sansan Tech Blog",
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/08/21/150000",
+      "summary": "Sansan、Eight、Bill Oneのモバイル開発はプロダクトのフェーズや要件で技術と体制が異なる。EightはiOS(Swift)とAndroid(Kotlin)の完全ネイティブでiOSを全面刷新。Bill Oneは複雑な業務ロジックを両OSで共通化し高速開発するためFlutter採用。SansanはネイティブとKMPを組み合わせ、チームの経験やリリース戦略で技術選定している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T06:00:00.000Z",
+      "contentHash": "29c90c3db372"
+    },
+    {
+      "id": "2070d6229890",
+      "title": "Japan tried to build an operating system for the world, the US intervened",
+      "url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
+      "summary": "1980年代、坂村健らのTRONプロジェクトは世界共通のOSでユビキタス化を目指したが、米政府が自国ソフト保護のため貿易圧力で介入。日本は国策化を断念し、TRONは主に組込み用途で生き残った。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-21T05:31:34.000Z",
+      "contentHash": "25f2e5bb0fb6"
+    },
+    {
+      "id": "f6f4057a219d",
+      "title": "【後編】「AI時代に、データサイエンティストは不要になる？」—— これからのデータサイエンティストに求められるマインドセットとスキルとは？ | Platinum Data Blog by BrainPad ブレインパッド",
+      "url": "https://blog.brainpad.co.jp/entry/2026/08/21/140946",
+      "summary": "AIは誤るし責任を取れない前提で、データサイエンティストに必要なのは「セルフアップデート」「イシューデザイン」「オーナーシップ」。好奇心で自己更新し、自分の仮説を持ちAIとの役割分担を設計して意思を起点に活用することが重要、という主張。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T05:09:46.000Z",
+      "contentHash": "e0ddfeaf03c4"
+    },
+    {
+      "id": "ebbd31c6601f",
+      "title": "AWS Certified Machine Learning Engineer - Associate に合格しました！ | MOTEX TECH BLOG",
+      "url": "https://tech.motex.co.jp/entry/2026/08/21/140919",
+      "summary": "2026-08-21に「AWS Certified Machine Learning Engineer - Associate」合格を報告する記事。合格の知らせと受験や学習の振り返り、関連する備考が述べられている。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T05:09:19.000Z",
+      "contentHash": "be5e913b23a1"
+    },
+    {
+      "id": "cdf6f1b65cf8",
+      "title": "【地味に便利】ClaudeCodeの業務時間に合わせて最適化する小技！ | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/54206",
+      "summary": "Claudeの5時間セッション制を利用し、朝7時に「おはよ」を送って枠を開けることで午前・午後・夜の3枠を業務時間に合わせ、トークン効率や生活リズム改善を図る。自動化可だが起床同期のため手動を選ぶ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T04:52:44.000Z",
+      "contentHash": "253af5dc6d74"
+    },
+    {
+      "id": "dcb66c4fecb9",
+      "title": "Next.js 16.3のPartial Prefetchingをプロダクトで検証してみる | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/08/21/131147",
+      "summary": "Next.js 16.3のPartial Prefetchingは、URL固有データをクリック後に取得し、共通のApp Shellだけを先読みする方式です。OISHYのレシピ詳細にprefetch='partial'を導入し、従来版と部分先読み（スケルトン表示の有無）で通信量と遷移挙動を比較検証しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T04:11:47.000Z",
+      "contentHash": "dc9da1f57d96"
+    },
+    {
+      "id": "c606bd078bf5",
+      "title": "【インタビュー】ニフティの「人」の魅力や技術を発信し、「一緒に働きたい」と思ってくれるエンジニアを増やしたい【ニフティ 採用ブランディングワーキンググループ後編】 | NIFTY engineering",
+      "url": "https://engineering.nifty.co.jp/interview/38073",
+      "summary": "ニフティでは所属部署での業務に加え、社員が自主的に興味分野で参加する任意の社内活動があり、会社公認で予算が付くものもあって社内業務に貢献している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T04:06:28.000Z",
+      "contentHash": "a288bcfd91f8"
+    },
+    {
+      "id": "6ad4ecb7e861",
+      "title": "gRPC / Connect / HTTP/2 を完全に理解したい | 株式会社ログラス テックブログのフィード",
+      "url": "https://zenn.dev/loglass/articles/grpc-connect-http2-for-rest-devs",
+      "summary": "ログラスの小林がgRPC／Connect／HTTP/2を歴史と技術的背景から解説。proto駆動開発やbufでのコード生成、gRPCはHTTP/2を利用しブラウザはConnectでHTTP/1.1を使う場合があること、HTTP/1.1のHoLブロッキング・冗長ヘッダー・双方向非対応問題と、それをHTTP/2の多重化やヘッダ圧縮で解決する点を説明しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T04:02:16.000Z",
+      "contentHash": "18f1dfb56db5"
+    },
+    {
+      "id": "2204ba57be32",
+      "title": "Codex on AWS bedrock bug causing 10x charges",
+      "url": "https://github.com/openai/codex/issues/37674",
+      "summary": "NativeのCodex CLIがAmazon BedrockのGPT-5.6 Solで明示的なプロンプトキャッシュ制御に対応しておらず、大量のcache-writeトークン発生でコスト増。例：3,656件で171.94Mトークン、約1,182ドル相当。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-21T03:17:43.000Z",
+      "contentHash": "c5bd98176a0e"
+    },
+    {
+      "id": "8e75bf392f17",
+      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+      "url": "https://annas-archive.gl/blog/physical-destruction.html",
+      "summary": "申し訳ありませんが外部URLに直接アクセスできません。記事本文を貼っていただければ200文字以内で要約します。Hacker Newsのコメント要約も可能です。どちらを要約しますか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-21T02:37:47.000Z",
+      "contentHash": "b241d27a8bc7"
+    },
+    {
+      "id": "c8bb035501d2",
+      "title": "Genki’s new customizable controller has a big screen and adjustable buttons",
+      "url": "https://www.theverge.com/tech/981536/genki-manta-wireless-customizable-controller-tmr-screen",
+      "summary": "Genkiが新コントローラー「Manta」をKickstarterで発表。2.9インチ液晶を備え、スティックとボタンが画面上部に配置された独特でやや大型の設計。画面から細かく設定できる高いカスタマイズ性が特徴。先行価格189ドル、想定小売279ドル。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-21T02:00:00.000Z",
+      "contentHash": "e82aed241f6f"
+    },
     {
       "id": "573f2ec4e9a7",
       "title": "表キャプチャ機能の開発の裏側 | ANDPAD Tech Blog",
@@ -45,6 +180,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-21T01:00:00.000Z",
       "contentHash": "fd23c8ed3da2"
+    },
+    {
+      "id": "7889a92643fc",
+      "title": "It is a sign of the times that Amazon gets to call this fair use",
+      "url": "http://observationalepidemiology.blogspot.com/2026/08/it-is-sign-of-times-that-amazon-gets-to.html",
+      "summary": "申し訳ありませんが、直接ウェブにアクセスできないためそのURLの本文を取得できません。記事全文か主要段落をここに貼っていただければ、200文字以内で日本語に要約します。Hacker Newsの議論も要約希望ならコメントを貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-21T00:34:32.000Z",
+      "contentHash": "beaf2b1c8aec"
     },
     {
       "id": "8cf23bff97e8",
@@ -92,13 +236,22 @@
       "contentHash": "1a2988e68c27"
     },
     {
+      "id": "f84cbbf9d5e4",
+      "title": "Ox Alpha",
+      "url": "https://openrouter.ai/stealth/ox-alpha",
+      "summary": "Ox Alphaは匿名の第三者が開発・運用するステルス推論モデル。プロンプトや出力は提供者に保存され学習に使われない。長期のソフト開発や複雑推論、視覚混在ワークフロー向けで、OpenRouterは転送のみ行う。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-20T23:56:35.000Z",
+      "contentHash": "a5ed65aefd5d"
+    },
+    {
       "id": "663603c5811d",
       "title": "GEN-1.5 の概要",
       "url": "https://note.com/npaka/n/n309d7c94b59f",
-      "summary": "GEN-1.5は映像・センサー等を入力し100Hzで軌道生成、30秒の映像文脈を扱う身体性基盤モデル。3–12秒のデモをコンテキストに入れる「Physical Prompting」で追加学習なしにOne‑Shot実行（新タスク平均成功率59%）。少量学習で66.5%→5分+10stepで83%に向上。複数Prompt合成やシミュ→実機の一般化も示す。",
+      "summary": "GeneralistのEmbodied Foundation Model「GEN-1.5」は映像・センサー等を入力に100Hzで行動を生成し、数秒のデモ（Physical Prompt）で追加学習なしにOne‑Shot学習を実現。10タスクで平均成功率59%（少量微調整で最大83%）、プロンプト合成やシミュレーション→実機のZero‑Shot適応も可能。",
       "source": "npaka",
       "publishedAt": "2026-08-20T23:49:58.000Z",
-      "contentHash": "55c870ce62eb"
+      "contentHash": "c85ddcfd34ac"
     },
     {
       "id": "bdb698ec663c",
@@ -140,14 +293,14 @@
       "id": "1da38fd39989",
       "title": "Stop eating Lady Gaga's Oreos",
       "url": "https://www.experimental-history.com/p/stop-eating-lady-gagas-oreos",
-      "summary": "1992年、Pearl JamはMTVで急ブレイクしても映像や取材を拒み、ヒット曲を外すなど商業化に抗った。だがアルバムは爆発的に売れ、90年代は「売れる＝売り渡す」とみなす風潮が強かった、という回顧。",
+      "summary": "1992年、パール・ジャムは「Jeremy」の大ヒット後も音楽ビデオや取材を拒否し、商業成功と芸術的誠実さは相反するとされた90年代の反商業主義を象徴したが、それでもアルバムは大ヒットした。",
       "source": "Hacker News",
       "publishedAt": "2026-08-20T19:46:06.000Z",
-      "contentHash": "fae0ae503440"
+      "contentHash": "1c00cd7e696a"
     },
     {
       "id": "02ed539fac86",
-      "title": "The August 17 outage, and the work ahead",
+      "title": "The August 17 outage",
       "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
       "summary": "Vlad FedorovはGitHubのCTO。開発者生産性重視でエンジニアリングを率いる。UserClouds共同創業、Metaで12年・2,000人超を統括、Microsoft勤務、Caltechで学位、CodePath理事。ベイエリア在住で家族とアウトドアを楽しむ。",
       "source": "Hacker News",
@@ -518,10 +671,10 @@
       "id": "4146e40daf17",
       "title": "mlx-dspark で Qwen3.8-27B を試す",
       "url": "https://note.com/npaka/n/n0028d145fb69",
-      "summary": "Apple Silicon向けMLX用ライブラリ「mlx-dspark」でQwen3.8-27Bを検証。Speculative DecodingによりM4 Pro 48GBで8bit版が平均2.45倍、最大3.18倍高速化。導入はPython仮想環境→pip install mlx-dspark→モデル実行（8bitは64GB推奨）。piエージェントと連携し、mlx-dspark serveでOpenAI互換APIを起動。",
+      "summary": "mlx-dsparkでQwen3.8-27Bを検証。Apple Silicon向けMLXの投機的デコードを使い、M4 Pro 48GBで8bit版が平均2.45倍（最大3.18倍）高速化。導入手順、8bit版推奨環境、piとの連携方法を解説。",
       "source": "npaka",
       "publishedAt": "2026-08-20T06:55:05.000Z",
-      "contentHash": "e26c9c852cb8"
+      "contentHash": "0f0ff66a604c"
     },
     {
       "id": "4f227bbfc741",
@@ -8847,159 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-03T02:30:00.000Z",
       "contentHash": "c91ec840fb5c"
-    },
-    {
-      "id": "391492bcaaf7",
-      "title": "エネルギー効率からみるQA外部コネクトの発信応援活動 | Cybozu Inside Out | サイボウズエンジニアのブログ",
-      "url": "https://blog.cybozu.io/entry/2026/08/03/113000",
-      "summary": "CYBOZU SUMMER BLOG FES '26。QA外部コネクトチーム（2025年8月発足）が、協賛以外の試行錯誤を振り返り、発信とその支援は双方にエネルギーが必要で、外部発信は発信者のモチベーションに左右されると論じる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-03T02:30:00.000Z",
-      "contentHash": "055fadb1b819"
-    },
-    {
-      "id": "0ee099736fd1",
-      "title": "横断フロントエンドユニットの取り組み — 技術的負債の解消から AI 活用まで | SmartHR Tech Blog",
-      "url": "https://tech.smarthr.jp/entry/2026/08/03/112823",
-      "summary": "SmartHRのプロダクトエンジニアnegiandleekとsakataが、横断フロントエンドユニットの結成背景、これまでの取り組みと今後の展望を紹介。老朽化した大規模な基幹フロントで、未更新のモジュールなどの課題解決を進めている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-03T02:28:23.000Z",
-      "contentHash": "25ce18db2f75"
-    },
-    {
-      "id": "78576f182357",
-      "title": "CloudWatch メトリクスフィルターで ECS Fargate タスク単位のメモリ使用率アラートを作る | クロスマート Tech Blog",
-      "url": "https://xmart-techblog.hatenablog.com/entry/2026/08/03/111727",
-      "summary": "クロスマート開発部SREの渡辺が、ECS Fargateの「タスク単位」メモリ監視を標準のContainer Insightsでは実現できなかったため、CloudWatch Logsのメトリクスフィルターを使って対応した設計と実装を紹介。対象はStep Functionsから起動するstandaloneバッチタスク。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-03T02:17:27.000Z",
-      "contentHash": "922fd4bd58e7"
-    },
-    {
-      "id": "29578a85932d",
-      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
-      "url": "https://qwen.ai/blog?id=qwen3.8",
-      "summary": "Qwen.aiが新モデル「Qwen-3.8」を発表。マルチモーダル対応で推論・コード・長文理解などの性能が向上し、APIやホスティングで利用可能。各種ベンチで高評価を得た一方、公開範囲や安全性について議論が沸騰した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-03T02:16:09.000Z",
-      "contentHash": "6e15319b726d"
-    },
-    {
-      "id": "db6ccbddcd1d",
-      "title": "Japan AWS Jr. Championsでの活動を終えて | TechTimes By JOPSのフィード",
-      "url": "https://zenn.dev/jops/articles/49a4ca23084ecd",
-      "summary": "日本オープンシステムズの坂高です。2025年度Japan AWS Jr. Championsとして活動し、任期は2026年5月末に終了。2026年6月のAWS Summitで新年度メンバーが発表され、これまでの活動を振り返ります。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-03T02:00:05.000Z",
-      "contentHash": "b258fd240a00"
-    },
-    {
-      "id": "6fd5c71fc959",
-      "title": "Claude Codeで速く作れた。次は「開発するほど楽になる」に挑戦している | Nexta Tech Blogのフィード",
-      "url": "https://zenn.dev/nexta_/articles/4f511d43f67be8",
-      "summary": "実装やテストは完了していたが、要件定義や画面仕様に旧条件や「未リリース」が残り文書と実態が不整合に。記事は要件変更から設計・実装・検証・ドキュメント反映までAIで繋ぎ一貫管理する必要性を説明する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-03T02:00:05.000Z",
-      "contentHash": "db3abc7c0042"
-    },
-    {
-      "id": "b9535386e5cd",
-      "title": "見守りパンダ降臨 ── Takumi Guardを全社展開 | ZOZO TECH BLOG",
-      "url": "https://techblog.zozo.com/entry/takumiguard-mdm-release",
-      "summary": "情報セキュリティ部の兵藤が、開発環境におけるサプライチェーン対策としてTakumi Guardを全社展開した事例を紹介。SOC業務でZOZOの安全を守る取り組みや、詳細は関連記事を参照。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-03T02:00:00.000Z",
-      "contentHash": "e0fa81319bfc"
-    },
-    {
-      "id": "fdd535ed1aa8",
-      "title": "PHP Conference Japan 2026 に協賛・登壇しました！ #phpcon | PR TIMES 開発者ブログ",
-      "url": "https://developers.prtimes.com/2026/08/03/php-conference-japan-2026-report/",
-      "summary": "記事本文が途中で切れているようです。全文（または続きの部分）を貼っていただければ、200文字以内で要約します。リンクでも可です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-03T01:30:00.000Z",
-      "contentHash": "8db83ccb5898"
-    },
-    {
-      "id": "d7de8192df41",
-      "title": "Claude Code の `/insights` を試してみた - ここまでの使い方を可視化・言語化してみよう | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/08/03/101000",
-      "summary": "Claude Codeのinsightsコマンドで、私の直近の利用実態（使用頻度や傾向、主要な操作内容など）を集計・可視化して要約してもらいました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-03T01:10:00.000Z",
-      "contentHash": "7bfa20487ebb"
-    },
-    {
-      "id": "80fff712edd4",
-      "title": "【Expert cross #3・後編】組織と業界を動かすエキスパートへ GMOサイバーセキュリティ byイエラエ・三村聡志が描く、「安全なロボット」を実現する世界 | GMO Developers",
-      "url": "https://developers.gmo.jp/technology/85227/",
-      "summary": "現場で見えた本当の課題や、エキスパートとしての自身の変化、三村さんが組織にもたらす影響や広報・発信面での役割についての対談。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-03T01:01:00.000Z",
-      "contentHash": "ce8bdaf086ab"
-    },
-    {
-      "id": "f89c9b669d2d",
-      "title": "Show HN: Isopolis – Isometric pixel map of SF",
-      "url": "https://sf.isopolis.city/",
-      "summary": "申し訳ありませんが外部リンクに直接アクセスできません。記事本文をここに貼っていただければ、指定の200文字以内で日本語要約します。Hacker Newsのコメントも要約希望ならそれも貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-03T00:46:38.000Z",
-      "contentHash": "96ae05e9779d"
-    },
-    {
-      "id": "9df14468c93a",
-      "title": "Show HN: ssh ssh.place",
-      "url": "https://ssh.place",
-      "summary": "外部リンク先を直接参照できないため、記事本文を貼り付けるか要点を教えてください。いただければ、指定の200文字以内で日本語要約を作成します。Hacker Newsのコメント要約も希望ならその旨を書いてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-03T00:23:21.000Z",
-      "contentHash": "34108b4d6b34"
-    },
-    {
-      "id": "8b89f65f057f",
-      "title": "Why Book Corners won't sync contributions back to OpenStreetMap",
-      "url": "https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/",
-      "summary": "Book Cornersはユーザー提出の公開本棚をOSMへ返送する機能を検討したが、同意や管理者確認を想定しても外部データ扱いやスクリプト編集に関するOSMの運用・コミュニティ要件が厳しく、実装を断念した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-03T00:12:16.000Z",
-      "contentHash": "fa492c1a2403"
-    },
-    {
-      "id": "97e92714d577",
-      "title": "Circles powers telco personalization with OpenAI technology",
-      "url": "https://openai.com/index/circles",
-      "summary": "CirclesはOpenAI APIとCodexを用いてAIネイティブな通信体験を提供し、1ユーザー当たり収益(ARPU)を22%向上、解約率を9%低下、開発効率も改善した。",
-      "source": "OpenAI",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "contentHash": "393c3ea1f9a1"
-    },
-    {
-      "id": "b2425a5889f3",
-      "title": "Show HN: Shitty – fast terminal. Memory-unsafe and faster than yours",
-      "url": "https://github.com/pg83/shitty",
-      "summary": "申し訳ありませんが、外部URLに直接アクセスできません。記事本文か主要部分をここに貼るか、要約してほしい対象（GitHubリポジトリかHNコメント）を教えてください。確認後、200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-02T23:05:41.000Z",
-      "contentHash": "6ae271a5ce56"
-    },
-    {
-      "id": "82db3c9b40ee",
-      "title": "AI poster wins Ohio State Fair contest",
-      "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
-      "summary": "オハイオ州フェアのポスターコンテスト案内。応募方法、参加資格、サイズ・素材・提出期限、審査基準や賞（賞金含む）、入賞作の展示・フェア広報での使用などの規定と申込先が掲載されている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-02T22:43:47.000Z",
-      "contentHash": "04cad8398701"
-    },
-    {
-      "id": "e76b5053619e",
-      "title": "Californians' data deletion requests, DROP, become enforceable Aug. 1",
-      "url": "https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/",
-      "summary": "カリフォルニア州の個人情報削除・オプトアウト用プラットフォーム「DROP」が8月1日から強制適用。登録データブローカーは削除要請に対応する義務があり、未登録の12業者に罰金。1月以降約35万人が登録。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-02T22:16:34.000Z",
-      "contentHash": "4532da97dca1"
     }
   ]
 }
