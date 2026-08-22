@@ -1,6 +1,96 @@
 {
-  "generatedAt": "2026-08-22T01:46:23.605Z",
+  "generatedAt": "2026-08-22T08:53:29.151Z",
   "items": [
+    {
+      "id": "e0d8c8c7bd37",
+      "title": "Qwen3.8-27B におすすめのハーネス",
+      "url": "https://note.com/npaka/n/nf7108e6bd18e",
+      "summary": "Qwen3.8-27B向けのコーディングエージェントハーネスを紹介。軽量なPi、機能豊富なOpenCode、公式ベンチ向けのClaude Code、Qwen Code、DeepSeek、Codex CLIを用途別に推奨します。",
+      "source": "npaka",
+      "publishedAt": "2026-08-22T08:16:23.000Z",
+      "contentHash": "3ca4d65a27a0"
+    },
+    {
+      "id": "80fbcd39a278",
+      "title": "Argentを使ってClaude Codeからモバイルアプリを動かしてみる（Flutter） | ENECHANGE Developer Blog",
+      "url": "https://tech.enechange.co.jp/entry/2026/08/22/155631",
+      "summary": "Software Mansion製のArgentは、Claude CodeなどからiOS/Androidのシミュレータや実機を操作・デバッグ・プロファイリング・記録再生できるオールインワンツール。Flutter+iOSシミュレータで検証し、CLIから直接実行できる点が便利だった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-22T06:56:31.000Z",
+      "contentHash": "a9633826a439"
+    },
+    {
+      "id": "9e4db46846c1",
+      "title": "毎朝 CloudWatch を見回るエージェントを作ってみたら、翌朝さっそく仕事をしてくれた話 | NCDC テックブログのフィード",
+      "url": "https://zenn.dev/ncdc/articles/4a54d0d95446ac",
+      "summary": "Strands AgentsとAgentCore（Amazon Bedrock）で、毎朝CloudWatchを巡回しアラーム・ログ・メトリクスを自律調査して0〜100点で採点、結果をSlackへ通知する読み取り専用AIエージェントをClaude Codeで短時間構築。dev環境で翌朝、自動スキャン攻撃を検知したが実害はなし。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-22T06:00:07.000Z",
+      "contentHash": "d114941c738c"
+    },
+    {
+      "id": "27b7e490bced",
+      "title": "There's no reason for software to be slow anymore",
+      "url": "https://danluu.com/perf-opt/",
+      "summary": "LLMで性能最適化の敷居が大幅に下がり、かつて専門家しかできなかった高速化が誰でも可能に。特定ワークロード向けの動的最適化やJIT実装、デモシーン的な特化手法の復活が現実味を帯びる、という論旨。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-22T01:06:17.000Z",
+      "contentHash": "c2f0ada84f60"
+    },
+    {
+      "id": "68b93c6692f2",
+      "title": "Initial focus for our partnership with Motorola is a regular non-folding device",
+      "url": "https://grapheneos.social/@GrapheneOS/117136278553665985",
+      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。記事本文（または要点）をここに貼っていただければ、200文字以内で日本語要約を作成します。HNコメントも要約希望なら合わせて貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-22T01:02:09.000Z",
+      "contentHash": "ddf015654378"
+    },
+    {
+      "id": "4e32f0c4fcbe",
+      "title": "KiroにMCPサーバーを追加して外部ツールと連携させる | コラボスタイル Developersのフィード",
+      "url": "https://zenn.dev/collabostyle/articles/4a2fc81bad997e",
+      "summary": "KiroにMCPサーバーを追加して外部ツール連携する方法を解説。MCPは外部ツールをJSON-RPCで呼ぶ標準プロトコル。設定は .kiro/settings/mcp.json または ~/.kiro/settings/mcp.json に書き、command/args/envでサーバー定義。fetchやaws-docs例、uvx導入法、環境変数でAPIキー指定でき、再起動不要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-22T01:01:18.000Z",
+      "contentHash": "f519065bd2e1"
+    },
+    {
+      "id": "00ff6540323d",
+      "title": "KiroのHook機能でファイル保存するたびに記事の校閲を自動で走らせる | コラボスタイル Developersのフィード",
+      "url": "https://zenn.dev/collabostyle/articles/a1cb144ec49b6c",
+      "summary": "KiroのHook機能で、article*.md保存時に自動でAI校閲を実行するフックを作成。AI臭さ・難解表現・技術的誤りを各最大3件まで指摘し、問題なければ「特に指摘なし」と返し、保存時にチャットへ結果を表示する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-22T00:42:34.000Z",
+      "contentHash": "981ae72e66df"
+    },
+    {
+      "id": "e19e436a99f8",
+      "title": "KiroのSkill機能で技術記事のファクトチェックを半自動化した話 | コラボスタイル Developersのフィード",
+      "url": "https://zenn.dev/collabostyle/articles/6e58874facf316",
+      "summary": "KiroのSkill機能で、Markdownに指示を書くとAIが動き記事の校閲を半自動化。AI臭検出・難解表現の平易化・Web検索による技術的ファクトチェックを行い、出典URL付きで指摘。TiDBのVECTOR型対応版誤記をリリースノートで訂正した例を紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-22T00:19:31.000Z",
+      "contentHash": "0e6b88734c9b"
+    },
+    {
+      "id": "fa41c117b93d",
+      "title": "AppService Plan - Basicへのダウングレードができない場合に確認する点 | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/e3285be2bd341c",
+      "summary": "App Service PlanをP0v3からBasicへ下げられない原因は、各サイトの診断設定で「Site Content Change Audit Logs」や「Report Antivirus Audit Logs」が有効になっているため（これらはPremium以上のみ）。対処は各サイトの監視→診断設定で該当カテゴリのチェックを外して保存し、再度プラン変更を実行すること。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-21T23:09:45.000Z",
+      "contentHash": "d58054db0911"
+    },
+    {
+      "id": "37043a392a53",
+      "title": "Three important steps in my maturation process",
+      "url": "https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/",
+      "summary": "父の死で世代交代を実感し若い職場で成熟を振り返る。重要な気づきは自分の利害や思考バイアスを理解し盲信しないこと。個人の行動は時代や状況に左右され影響は予測困難。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-21T22:29:00.000Z",
+      "contentHash": "0719669147d6"
+    },
     {
       "id": "eaac9111649b",
       "title": "HoverAir’s transforming modular drone has already been halted in the US",
@@ -29,6 +119,15 @@
       "contentHash": "5ce6fb39a4cc"
     },
     {
+      "id": "10778dfe314d",
+      "title": "Rust Glancer: Rust LSP using 100x less RAM",
+      "url": "https://rust-glancer.github.io/blog/hello-world/",
+      "summary": "Rust Glancerは低メモリ（目標<100MB）で即時インデックス再利用が可能なRust用LSPの代替実装。M1 8GB等の古い機でも動き、型推論やtrait解決を備え主要機能（定義移動・ホバー・補完等）に対応。未完成の機能や既知のバグがあり、VS Code拡張で試用可能。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-21T19:51:54.000Z",
+      "contentHash": "9da665637966"
+    },
+    {
       "id": "bdb361cc1d60",
       "title": "Apple is laying off staffers working on the Vision Pro and Siri",
       "url": "https://www.theverge.com/tech/983451/apple-layoffs-vision-pro-siri",
@@ -38,6 +137,15 @@
       "contentHash": "4a3d72e118f3"
     },
     {
+      "id": "46b6a8516986",
+      "title": "Scientists release biggest 2D map of the universe",
+      "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
+      "summary": "リンクだけでは本文を取得できないため要約できません。どちらのページ（Legacy Survey Sky Viewer の紹介ページ／Hacker News の議論）を要約希望か教えていただくか、記事本文を貼ってください。200文字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-21T18:36:34.000Z",
+      "contentHash": "a2505bb9cb34"
+    },
+    {
       "id": "d9936e54a112",
       "title": "$100 Best Buy gift cards will be $60 at stores Saturday",
       "url": "https://www.theverge.com/gadgets/982513/best-buy-gift-card-in-store-deal",
@@ -45,6 +153,15 @@
       "source": "The Verge",
       "publishedAt": "2026-08-21T18:00:00.000Z",
       "contentHash": "7fcc20c749a1"
+    },
+    {
+      "id": "da6c293a82c3",
+      "title": "OTel isn’t going well",
+      "url": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
+      "summary": "著者はOpenTelemetryがベンダーSDKに比べ未成熟で「実験的」かつ手法が乱立、言語ごとの成熟差（Go/.NETは良好、他は遅れ）や自動→手動計測の大きな断絶を指摘し、実態把握のためスプレッドシートを作成した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-21T17:45:41.000Z",
+      "contentHash": "f8956ed84ce6"
     },
     {
       "id": "cf334f68b185",
@@ -72,6 +189,33 @@
       "source": "The Verge",
       "publishedAt": "2026-08-21T16:27:05.000Z",
       "contentHash": "26e592c5888d"
+    },
+    {
+      "id": "acd943a5b965",
+      "title": "Kobo can run apps now",
+      "url": "https://bandarlabs.github.io/Cobalt/",
+      "summary": "CobaltはKobo向けのオープンソースアプリ基盤。署名付きApp StoreとRust SDKを備え、USBで一度導入後は端末上で署名済み静的ARMアプリをWi‑Fiでインストール/更新/削除。各アプリは非特権プロセスで分離、再起動で元に戻る。arXiv閲覧やOPDS、音声化、Morse送信などの実装例あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-21T16:25:25.000Z",
+      "contentHash": "e33ebf64d06e"
+    },
+    {
+      "id": "d6a57e38035e",
+      "title": "Omacom Foundation launches with $8M",
+      "url": "https://omarchy.org/news/2026/08/omacom-foundation-launches-with-8-million/",
+      "summary": "DHHはOmacom Foundationを設立し、Tobi Lütkeら8名の創設パトロンから各100万ドル、計800万ドルを集めた。財団は商標・インフラ整備やOSS開発支援で可塑的コンピュータの普及と人とコンピュータの関係変革を目指す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-21T16:03:47.000Z",
+      "contentHash": "b96619d5e1c6"
+    },
+    {
+      "id": "1a25238702d4",
+      "title": "I Just Want to Search",
+      "url": "https://www.0xsid.com/blog/just-want-to-search",
+      "summary": "かつてはキーワードや引用符で精密に検索できたが、現在は関連性や推薦重視に変わり精度が低下。ウェブだけでなく市場、YouTube、Gmailでも引用符や日付フィタが無視され、ユーザーの検索制御が失われている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-21T16:00:54.000Z",
+      "contentHash": "72fac47872ae"
     },
     {
       "id": "fe45f51de9f6",
@@ -203,10 +347,10 @@
       "id": "ab9f739ead03",
       "title": "弊社を装ったSlackへの偽招待メールにご注意ください | プラチナゲームズ公式ブログ",
       "url": "https://www.platinumgames.co.jp/official-blog/article/19270",
-      "summary": "弊社名を騙る第三者がSlack招待を装った不審なメールが確認されています。弊社とは無関係の偽メールですので、リンクや添付を開かず削除し、疑わしい場合は公式へお問い合わせください。",
+      "summary": "プラチナゲームズは、自社を装ったSlack招待の偽メールが確認されたと注意喚起。弊社無関係でフィッシングの恐れあり。心当たりのない招待は開かず、リンクや「Join Now」をクリックせず削除してください。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-21T10:27:23.000Z",
-      "contentHash": "46092fb43c6a"
+      "contentHash": "b2f806a71628"
     },
     {
       "id": "b3b7f51fd1dc",
@@ -239,10 +383,10 @@
       "id": "895745bdc684",
       "title": "【FastAPI × PostgreSQL】AlembicでDBマイグレーションを実施する | ヘッドウォータースのフィード",
       "url": "https://zenn.dev/headwaters/articles/d51d2831255f2f",
-      "summary": "AlembicはSQLAlchemy公式のマイグレーション管理ツールで、モデル変更をマイグレーションファイルとして管理しDBスキーマ履歴をコードで管理します。本記事はPostgreSQLのDB作成からAlembicでのマイグレーション実行と反映確認までを、teams/users（FKあり）などの構成例で解説します。",
+      "summary": "Alembicを使ったFastAPI＋PostgreSQLのDBマイグレーション手順を解説。Alembicの概要、プロジェクト構成と前提、PostgreSQLでのユーザ/DB作成、requirements追記とMac/Winでのインストール、dotenv＋SQLAlchemyによるDB接続設定、マイグレーション実行と反映確認までを説明。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-21T09:33:11.000Z",
-      "contentHash": "371ba9a70e8e"
+      "contentHash": "ef4d541a2ff5"
     },
     {
       "id": "3fb530b038d3",
@@ -311,10 +455,10 @@
       "id": "3cc86c1a325c",
       "title": "Ornith-1.5 の概要",
       "url": "https://note.com/npaka/n/n654b6af6387b",
-      "summary": "Ornith-1.5はオープンソースLLMで、自己生成した学習タスク→Scaffold→解答→強化学習のループで自己改善（Self-Improvement）を実現。397B/35B-A3B/9Bの3種があり、特にコーディング・エージェント性能が高く、35Bはローカル向け、9Bはモバイル対応。",
+      "summary": "Ornith-1.5はSelf-Scaffoldingを拡張し、モデルが学習タスク生成→Scaffold作成→解答生成→強化学習を繰り返す自己改善ループを導入。397B/35B-A3B/9Bの3種があり、特にコーディング・エージェント系で高性能。35Bはローカル向け、9Bはモバイル対応。",
       "source": "npaka",
       "publishedAt": "2026-08-21T08:14:13.000Z",
-      "contentHash": "b2511680a41f"
+      "contentHash": "c1cbacfdde10"
     },
     {
       "id": "08752fb84025",
@@ -590,10 +734,10 @@
       "id": "663603c5811d",
       "title": "GEN-1.5 の概要",
       "url": "https://note.com/npaka/n/n309d7c94b59f",
-      "summary": "GeneralistのEmbodied Foundation Model「GEN-1.5」は映像・センサ・状態を入力し100Hzの行動を生成、30秒文脈対応。3–12秒のデモを「Physical Prompt」として与えれば追加学習なしでOne‑Shot実行（平均成功率59%）。少量学習で最大約83%に向上し、プロンプト結合やシミュ→実機のゼロショット転移も可能。",
+      "summary": "GEN-1.5は映像・センサー等を入力に100Hzの行動軌道を生成する身体性基盤モデル。数秒のデモを「Physical Prompt」として与えれば追加学習なしでOne‑Shot実行（平均59%成功）、少量適応で精度向上、プロンプト合成やシミュ→実機のゼロショット転移も可能。",
       "source": "npaka",
       "publishedAt": "2026-08-20T23:49:58.000Z",
-      "contentHash": "fd0fe627ff9d"
+      "contentHash": "00b0b3ca9a2b"
     },
     {
       "id": "bdb698ec663c",
@@ -1011,12 +1155,12 @@
     },
     {
       "id": "4146e40daf17",
-      "title": "mlx-dspark で Qwen3.8-27B を試す",
+      "title": "Mac で Qwen3.8-27B を試す",
       "url": "https://note.com/npaka/n/n0028d145fb69",
-      "summary": "mlx-dsparkでQwen3.8-27Bを検証。Speculative DecodingによりM4 Pro 48GBで8bit時に平均2.45倍、最大3.18倍の高速化。手順はPython仮想環境→pip install mlx-dspark→8bitモデル実行（8bitは64GB推奨）。mlx-dspark serveでOpenAI互換APIを立て、piエージェントと連携可能。",
+      "summary": "MacでQwen3.8-27BをApple Silicon向けMLX用ライブラリmlx-dsparkで検証。M4 Pro(48GB)で8bit版が平均2.45倍、最大3.18倍高速化。Python仮想環境作成→pip install mlx-dspark→モデル実行（8bitは64GB推奨）。ローカルでOpenAI/Anthropic互換API(127.0.0.1:8080)として起動可能。軽量エージェントハーネスpiの活用例も記載。",
       "source": "npaka",
       "publishedAt": "2026-08-20T06:55:05.000Z",
-      "contentHash": "a8b8b164b12b"
+      "contentHash": "e87ab9c281a0"
     },
     {
       "id": "4f227bbfc741",
@@ -3020,10 +3164,10 @@
       "id": "4c7113cb3096",
       "title": "AIの進化によってBlenderによる3D制作はどう変わるのか",
       "url": "https://note.com/npaka/n/n13f5c4f54754",
-      "summary": "最新のAI研究とツールを踏まえ、AIがBlenderの操作法やワークフロー、制作者の役割にどのような影響を与え変化させるかを整理・解説する記事です。",
+      "summary": "AI導入でBlender制作は「ゼロから作る」から「AI生成を読み込み修正する」へ移行。Tripo等のText/Image→3Dやパーツ分割・パラメータ編集可能なモデル、Geometry Nodes連携、そして自然言語でBlenderを操作するMCPサーバーによる自動化が進展している。",
       "source": "npaka",
       "publishedAt": "2026-08-16T00:40:49.000Z",
-      "contentHash": "7fd633964221"
+      "contentHash": "9b9091d798fa"
     },
     {
       "id": "c74e95cfaa42",
@@ -3047,10 +3191,10 @@
       "id": "2d3e22660f2d",
       "title": "AIの最新研究から見るゲーム開発とプレイヤー体験の未来",
       "url": "https://note.com/npaka/n/n4ebba7cee7aa",
-      "summary": "生成AIが素材作成から世界やルールをまとめて構築し、プロトタイプ制作が高速化。世界モデルでAIが動的に長時間整合性を保ちつつ環境生成可能に。デザインは配置からルール設計へ、NPCは人格や記憶を持ち自由会話と行動変化を実現。",
+      "summary": "生成AIは素材作成からゲーム全体を生成する方向へ進化。プロトタイプが高速化し、世界モデルで長時間整合した生成オープンワールドが現実に。デザイナーは配置からルール設計へ、NPCは記憶・人格を持つ自然会話へ。",
       "source": "npaka",
       "publishedAt": "2026-08-15T22:37:42.000Z",
-      "contentHash": "a7137c56522b"
+      "contentHash": "7be599469bd9"
     },
     {
       "id": "6c33fc4bc9e8",
@@ -8856,150 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-04T01:00:00.000Z",
       "contentHash": "2deadd511d41"
-    },
-    {
-      "id": "cd576684a98d",
-      "title": "[社内勉強会資料公開] Claude Code 入門 #4 — permissions・hooks・devcontainerで安全に使う | 株式会社サイバーセキュリティクラウド　テックブログのフィード",
-      "url": "https://zenn.dev/cscloud_blog/articles/csc-claude-code-study-session-04",
-      "summary": "Claude Codeの安全運用を「抑止(CLAUDE.md)・制限(permissions・hooks)・隔離(devcontainer)」の3段階で解説。まず最小権限で読み取り系のみ許可し、信頼に応じて範囲を拡大。顧客データや未確認リポジトリは使い捨てdevcontainerで隔離する運用を推奨。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-04T00:30:05.000Z",
-      "contentHash": "902c7e6e2307"
-    },
-    {
-      "id": "a97afad48799",
-      "title": "ChatGPT Sitesは『作る』だけでなく『公開』まで終わらせてくれる | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/6b5643581e0bf3",
-      "summary": "ChatGPT Sitesは、プロンプトでWebサイトやアプリを生成し、会話で修正→そのままプレビュー・デプロイして公開URLを発行するサービス。バージョン管理、認証、データ保存、独自ドメインなどに対応し、アイデアから即利用可能にするのが利点。パブリックベータで一部制約あり。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-04T00:21:31.000Z",
-      "contentHash": "759c9239fdd6"
-    },
-    {
-      "id": "9d2c2122fceb",
-      "title": "The studio behind Pokémon struggles to find its voice in Beast of Reincarnation",
-      "url": "https://www.theverge.com/entertainment/974505/beast-of-reincarnation-review-ps5-xbox",
-      "summary": "ポケモンで知られるGame Freakの実験的アクション作『Beast of Reincarnation』。舞台は未来と魔法が混在する2000年後のポストアポカリプス日本。アクションは派手だが新鮮味に欠け、既視感が強い。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "contentHash": "996c53e9530e"
-    },
-    {
-      "id": "129511f54188",
-      "title": "New ways to learn and teach with ChatGPT Work and Codex",
-      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "summary": "ChatGPT WorkとCodex向けの教育プラグインを発表。K–12や大学の教員・学生が学習、指導、研究、制作を行う際の支援機能を提供します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "contentHash": "2e6313bcc60e"
-    },
-    {
-      "id": "4a9b73e77846",
-      "title": "Apple is getting this wrong",
-      "url": "https://openai.com/index/apple-is-getting-this-wrong",
-      "summary": "OpenAIはAppleの根拠のない訴訟を否定し、従業員に関する誤った主張を訂正。出来事を示すメッセージを公開して経緯を説明した。",
-      "source": "OpenAI",
-      "publishedAt": "2026-08-03T22:00:00.000Z",
-      "contentHash": "209b8968c523"
-    },
-    {
-      "id": "20a9a8348050",
-      "title": "Your Fitbit data can now connect directly to Apple Health",
-      "url": "https://www.theverge.com/gadgets/974778/google-health-fitbit-data-apple-health-syncing",
-      "summary": "Google Healthが5.05に更新され、Fitbitのワークアウト、歩数、バイタルなどを「Partner apps」経由でApple Healthに直接同期可能に。従来は逆方向のみでサードパーティが必要だった。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-03T21:24:23.000Z",
-      "contentHash": "b59e603596f7"
-    },
-    {
-      "id": "87da4fd2d88c",
-      "title": "LLMs reward expertise",
-      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
-      "summary": "LLMは誰でもそれなりの成果を出せるが、本当に有用な出力には領域の専門知識が不可欠。TaoのChatGPT対話は、短く要点だけ示し専門家モードに誘導、違和感を穏やかに指摘し自ら推測する手法で、理解なしには再現できないことを示す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-03T21:13:53.000Z",
-      "contentHash": "c25755aff2bd"
-    },
-    {
-      "id": "9bc0b190127f",
-      "title": "Samsung’s discounted smart monitor is $349.99, its lowest price yet",
-      "url": "https://www.theverge.com/gadgets/974583/samsungs-m80f-smart-monitor-deal-sale",
-      "summary": "サムスンの32インチ4KスマートモニターM80FがAmazonとB&Hで$349.99に値下げ。ストリーミングやクラウドゲーミング対応、ピクチャー・イン・ピクチャーや着脱式ウェブカメラ搭載で、テレビ兼用にも便利。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-03T21:13:38.000Z",
-      "contentHash": "e07789662ca2"
-    },
-    {
-      "id": "797928adfa91",
-      "title": "AI's debt binge can't last, hidden borrowing reaches $1.65T",
-      "url": "https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance/",
-      "summary": "AI投資で米ハイパースケーラーと関連企業の社債発行が今年既に2250億ドルに達し、年末は約4000億ドルペース。隠れ債務も膨らみ、投資家は利回り上昇や過剰レバレッジに警戒。財政赤字で国債も民間頼み。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-03T20:02:21.000Z",
-      "contentHash": "b3d96f36aaa7"
-    },
-    {
-      "id": "c76e6ce00f7f",
-      "title": "The Dunning-Kruger effect may just be a data artefact (2020)",
-      "url": "https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real",
-      "summary": "著者はダニング＝クルーガー効果を再検証し、元研究に統計的解釈の問題があると指摘。効果は「愚か者の自己無知」ではなく、不得手な領域で誰もが自己評価を過大にしがちで、自己謙虚を促すものだと述べる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-03T19:39:34.000Z",
-      "contentHash": "467dc3081a60"
-    },
-    {
-      "id": "43ffd8cfe889",
-      "title": "Europe’s AI labeling and transparency rules are now in effect",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
-      "summary": "EUのAI法の透明性規則が8月2日発効。企業はチャットボットやAIで生成・改変されたコンテンツを明示する義務があり、提供者と導入者で要件が異なる。EU公式のラベルも用意され、違反は罰金対象となる可能性がある。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-03T17:38:45.000Z",
-      "contentHash": "f19cc8d2386c"
-    },
-    {
-      "id": "f9ddc16e5521",
-      "title": "The first-gen Kindle Scribe is a big e-reader and digital notebook that’s $150 refurbished",
-      "url": "https://www.theverge.com/gadgets/974536/kindle-scribe-2022-refurbished-woot-deal-sale",
-      "summary": "初代Kindle Scribe（10.2インチ、Premium Pen付）がWootでリファビッシュ16GBをプロモコードKINDLE25適用で8/8まで149.99ドル。教科書閲覧や手書きに便利。90日保証。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-03T17:17:54.000Z",
-      "contentHash": "11b99e638d4d"
-    },
-    {
-      "id": "820105ee0077",
-      "title": "Smaller, faster, safer: running Kimi and GLM at scale",
-      "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
-      "summary": "Cloudflareブログのタグ一覧記事。AI、セキュリティ、CDN、API、DDoS、Workers、認証、ネットワークなどクラウド・インフラや製品に関する多岐の技術カテゴリを列挙しています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-03T17:08:46.000Z",
-      "contentHash": "9aeae930edf4"
-    },
-    {
-      "id": "d9432c0689e6",
-      "title": "Celebrating 45 Years of Kermit with the First New C-Kermit Release in 15 Years",
-      "url": "https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase",
-      "summary": "Kermit誕生45周年を機に、15年ぶりに新しいC-Kermitが公開。1981年コロンビア大で開発された互換性重視の転送プロトコルで、C実装はTCP対応・強力なスクリプト・高速化を備え、ISSやBoeing、組み込み機器など幅広く現役。古いCコードベースの保守も課題に。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-03T17:02:10.000Z",
-      "contentHash": "d6af11800334"
-    },
-    {
-      "id": "338ff336d112",
-      "title": "Microsoft is bringing Xbox 360 games to PC",
-      "url": "https://www.theverge.com/games/974544/microsoft-xbox-360-games-pc-disc-digital-program",
-      "summary": "MicrosoftがXbox 360タイトルをPCへ展開予定と流出文書で判明。360ゲームは次世代Project Helix、\"Xbox PC\"、携帯機で動作。開発者は対応を選べ、価格やGame Pass提供を管理。2027〜2028年に段階的導入予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-03T16:31:35.000Z",
-      "contentHash": "ec39a7c658df"
-    },
-    {
-      "id": "9337088aa5bc",
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "url": "https://openai.com/index/ten-advances-in-mathematics/",
-      "summary": "すみません、外部リンクに直接アクセスできません。本文を貼り付けていただくか、要点を教えてください。HNコメントも要約希望なら同様に貼ってください。全文があれば200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-03T16:27:12.000Z",
-      "contentHash": "77423a86a30b"
     }
   ]
 }
