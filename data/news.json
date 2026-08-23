@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-08-22T16:35:18.179Z",
+  "generatedAt": "2026-08-23T01:58:34.976Z",
   "items": [
+    {
+      "id": "2182a7bd1769",
+      "title": "Qwen3.8-27B におすすめの推論環境",
+      "url": "https://note.com/npaka/n/nef6d45dfe376",
+      "summary": "Qwen3.8-27B（270億）は量子化でApple SiliconやNVIDIAでローカル実行可能。推論はOllama（手軽）、llama.cpp（汎用）、MLX（Apple向け高速）等を推奨。4bit/8bit/FP16/BF16でメモリと品質が変わり、DSpark/DFlash2等の投機的デコードで生成を高速化できる。",
+      "source": "npaka",
+      "publishedAt": "2026-08-23T01:37:34.000Z",
+      "contentHash": "a6bcc518454b"
+    },
+    {
+      "id": "a4137edac3af",
+      "title": "社内で利用されているMCPサーバーを可視化・統制する | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/visualize-control-mcp-servers/",
+      "summary": "MCPサーバーで誰が何に接続しているか見えない問題に対し、棚卸しではなく常時可視化で統制する手法を解説。実務指針としてPCはNetskope、IaaSはWizで監査することを推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-23T00:59:00.000Z",
+      "contentHash": "dcf1867cf6b4"
+    },
+    {
+      "id": "d6298eb18c19",
+      "title": "Sigma Publicは何をどこまで出来るのか〜Sigma製品版との機能比較・24項目で整理〜 | truestarテックブログのフィード",
+      "url": "https://zenn.dev/truestar/articles/63eef7a1355fd1",
+      "summary": "2026年5月に公開されたSigma Publicは、有償版Sigmaの無償版で、基本機能を体験しコンテンツを共有・公開できるプラットフォーム。Tableau Publicに似ており、記事では製品版との機能差を比較している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-22T23:04:25.000Z",
+      "contentHash": "554c384334f5"
+    },
+    {
+      "id": "1ed10f47b192",
+      "title": "hdiutil is deprecated in macOS 27 Golden Gate",
+      "url": "https://lapcatsoftware.com/articles/2026/8/7.html",
+      "summary": "macOSのhdiutilは廃止予定でdiskutilへ移行。多くのオプションは対応するが -puppetstrings や create -srcfolder 等が欠落。diskutilは認証プロンプトを出さずroot所有ファイルで失敗する一方、速度は大幅に速く（約40–45秒 vs 110–115秒）出力dmgも小さかった。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-22T19:04:41.000Z",
+      "contentHash": "6e552e22bb4b"
+    },
+    {
+      "id": "53de3fca8295",
+      "title": "Why your local LLM feels dumber than it is",
+      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "summary": "ローカルのLLMが期待ほど賢く感じられないのは、参照実装と各自のハード/ソフト環境（GPU世代・命令セット・量子化など）の違いで推論挙動や精度が変わるため。著者はベンチ実験でその影響を示す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-22T18:14:16.000Z",
+      "contentHash": "1a04d161b7b9"
+    },
+    {
+      "id": "068c7e8ae3f0",
+      "title": "Scrap (2006)",
+      "url": "https://twitter.com/moxie/status/2091218652133732491",
+      "summary": "外部リンクに直接アクセスできません。記事本文か重要な抜粋を貼っていただけますか？それを基に200字以内で日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-22T18:08:56.000Z",
+      "contentHash": "694c0ac13de6"
+    },
+    {
+      "id": "54c67d08d3f0",
+      "title": "Doodle generative compositions in your browser with Musical Spirograph",
+      "url": "https://www.theverge.com/entertainment/983322/musical-spirograph-generative-composition",
+      "summary": "Musical Spirographはスピログラフ風の幾何学模様で自動作曲するブラウザツール。点が渦を描いて同心円を通過すると音が鳴り、6種のローターや最大3本のアーム、各種パラメータやスケールを細かく調整できる。癒し効果が高く遊び甲斐あり。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-22T17:00:00.000Z",
+      "contentHash": "e6c5bdef2c53"
+    },
+    {
+      "id": "33e354a2033b",
+      "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+      "url": "https://twitter.com/argofowl/status/2091150597374537729",
+      "summary": "申し訳ありませんが外部URLに直接アクセスできません。ツイート本文かHNのコメントを貼っていただければ、200字以内で日本語要約します。どちらを要約しますか？",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-22T16:58:49.000Z",
+      "contentHash": "07d8d2cc0955"
+    },
     {
       "id": "282f77d42769",
       "title": "W. Kamau Bell has the most practical ‘most indispensable tool’",
@@ -11,22 +83,49 @@
       "contentHash": "48d5702f1444"
     },
     {
+      "id": "f83cb012d1e0",
+      "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
+      "url": "https://quantumi.sh/public/labs.html",
+      "summary": "記事はElevenLabsをきっかけに「数字＋labs」という社名のAI系スタートアップを0〜99まで調べ、一覧化。命名の流行や70番台の偏り、由来の謎、ドメイン買いの皮算用などの疑問を提示している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-22T14:54:07.000Z",
+      "contentHash": "b96b7c1b9b97"
+    },
+    {
+      "id": "12970b185601",
+      "title": "A Friendly Introduction to Racket",
+      "url": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
+      "summary": "Racket入門。Lispはコードがデータで括弧が構造、プログラムがプログラムを書くことを可能にする。1958年McCarthy発祥でGC・第一級関数・REPL・式としての条件などを生み、Scheme(1975)→PLT Scheme(1995)→Racket(2010)。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-22T14:08:19.000Z",
+      "contentHash": "64e970224a7e"
+    },
+    {
       "id": "c000c6a2f063",
       "title": "Amazon just hiked the prices for Echo, Fire TV, and Kindle products by up to 60 percent",
       "url": "https://www.theverge.com/tech/983598/amazon-price-increase-echo-kindle-fire-tv",
-      "summary": "AmazonがFortuneに「メモリ・ストレージ部品の大幅コスト増」を理由に、Echo、Kindle、Fire TV、Eeroなどの価格を最大60%引き上げ。特に廉価モデルが影響を受け、Echo Dotは$49.99→$79.99など大幅値上げ。",
+      "summary": "AmazonがEcho、Fire TV、Kindle、Eeroの価格を最大60%引き上げ。メモリやストレージ部品のコスト上昇を理由に、最安モデルが特に影響を受け、Echo Dotは49.99ドル→79.99ドルに。",
       "source": "The Verge",
       "publishedAt": "2026-08-22T13:41:01.000Z",
-      "contentHash": "0f230250f41c"
+      "contentHash": "56ed822f41c0"
+    },
+    {
+      "id": "8a4d5416ea3b",
+      "title": "New MCP Roadmap",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "summary": "Model Context Protocol (MCP) の更新ロードマップを公開。次期仕様以降の方向性を示し、エージェント型メッセージ、HTTPトランスポート統一、エージェントIDと企業向けセキュリティ、基盤プリミティブ改善、SDK開発体験向上の5重点領域に注力する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-22T13:31:34.000Z",
+      "contentHash": "389470bc2c31"
     },
     {
       "id": "1557a1ae750e",
       "title": "A Kantian Critique of \"Sorry\" by Justin Bieber",
       "url": "https://decodingvibes.com/blog/a-kantian-critique-of-sorry-by-justin-bieber/",
-      "summary": "記事はカント倫理学の視点からジャスティン・ビーバーの「Sorry」を検討。謝罪の誠実さ、義務と感情の区別、他者を目的として扱うかを論じ、自己保身的なパフォーマンス性を批判する。",
+      "summary": "カントの視点でBieberの「Sorry」を検討。歌詞や公開謝罪は評判回復や自己利益を狙い、義務からの真の謝罪や他者を目的として尊重する態度を欠き、定言命法の普遍化にも反すると論じる。",
       "source": "Hacker News",
       "publishedAt": "2026-08-22T13:24:06.000Z",
-      "contentHash": "b401942d79a2"
+      "contentHash": "627cf9699354"
     },
     {
       "id": "cca6661bb904",
@@ -41,10 +140,10 @@
       "id": "b7b0d526f8f1",
       "title": "Hook, hold, harvest and hide: Meta's alleged strategy laid out in first week",
       "url": "https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy",
-      "summary": "カリフォルニア州など29州がメタを提訴。弁護士は同社の「hook, hold, harvest, hide」モデルで子どもを依存させ、13歳未満のデータを親の同意なく収集し害を及ぼしたと主張し、オークランドで裁判が始まった。",
+      "summary": "申し訳ありませんが、外部サイトを直接参照できないため記事を取得できません。記事本文か主要な抜粋・ポイントを貼り付けてください。いただければ200字以内で日本語要約します。HNのコメント要約も可能です。",
       "source": "Hacker News",
       "publishedAt": "2026-08-22T12:07:06.000Z",
-      "contentHash": "600e7dcfaeae"
+      "contentHash": "5a4749394ce5"
     },
     {
       "id": "d37b4cd83ef6",
@@ -59,10 +158,10 @@
       "id": "cd4688a98698",
       "title": "【チームによるAI駆動開発の勘所：第5回】サービスをまたぐ整合性 - 「どちらも使えない」が正解のとき | Scalar Solution Engineer Blogのフィード",
       "url": "https://zenn.dev/scalar_sol_blog/articles/6c77116c8528e8",
-      "summary": "サービス間整合性で技術起点に判断するとSagaや強整合基盤に安易に寄せてしまうが誤り。AIは中間状態を無視し補償や冪等を誤る傾向があり、分散トランザクション基盤で例外を有限型に閉じ、業務起点で検討すべき。場合によっては「どちらも使えない」が正解になる。",
+      "summary": "サービス間整合性の判断順序が誤っている。『外部SaaSがあるからScalarDBは使えない→Sagaを採用』という常套手順は誤りで、判断順で結論が変わる。記事は二通りの検討で正解がSagaでもClusterでもなく「どちらも使えない」ケースを示す。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-22T11:58:27.000Z",
-      "contentHash": "6673c0ed6f93"
+      "contentHash": "56f075700d8b"
     },
     {
       "id": "f837b8be0293",
@@ -77,10 +176,19 @@
       "id": "0f5f65c0d38e",
       "title": "Claude Code更新 セッション間メッセージ・auto mode既定化【8/7〜20】 | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/2026/08/22/190000",
-      "summary": "8/7〜8/20のClaude Code更新まとめ（v2.1.224→v2.1.237、13版、変更276件）。別セッション間でテキストを送るクロスセッション機能、8/14からのauto mode既定化、使用上限リセット時の自動再開、self-hosted runner導入など運用が変わる大規模改定。クロスセッションはテキストのみでmacOS/Linux対応。",
+      "summary": "サーバーワークスの池田による8/7〜8/20のClaude Codeまとめ。v2.1.224→v2.1.237の13版（v2.1.230除く）、公式Changelog276項目。クロスセッションメッセージ、auto modeのデフォルト化、使用上限リセット時の自動再開など運用に影響する大変更を解説。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-22T10:00:00.000Z",
-      "contentHash": "18ed361dd633"
+      "contentHash": "6b50e8e50701"
+    },
+    {
+      "id": "e1a317553b63",
+      "title": "Z80 – The 1970s Microprocessor Still Alive (2021)",
+      "url": "https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi",
+      "summary": "すみませんが、外部URLに直接アクセスできません。記事本文を貼り付けるか、主要ポイントを教えていただければ、200文字以内で日本語要約を作成します。HNのコメントもまとめたい場合は、それらも貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-22T09:49:57.000Z",
+      "contentHash": "cb811a4df9e1"
     },
     {
       "id": "c248308cd463",
@@ -95,19 +203,19 @@
       "id": "e0d8c8c7bd37",
       "title": "Qwen3.8-27B におすすめのハーネス",
       "url": "https://note.com/npaka/n/nf7108e6bd18e",
-      "summary": "Qwen3.8-27Bはローカルで動く高性能LLMで、コーディングエージェントハーネスと組み合わせてコード編集・実行・検索を自律化可能。推奨ハーネスはPi（軽量）、OpenCode（多機能）、Claude Code（公式ベンチ環境）、Qwen Code（公式・多機能）、DeepSeek、Codex CLI。用途や軽量性で選択。",
+      "summary": "Qwen3.8-27B向けのコーディングエージェントハーネスを紹介。軽量なPi、機能豊富なOpenCode、公式ベンチ向けのClaude Code、Qwen公式のQwen Code、DeepSeek、Codex CLIなどを用途別に推奨。",
       "source": "npaka",
       "publishedAt": "2026-08-22T08:16:23.000Z",
-      "contentHash": "1d84cebe5647"
+      "contentHash": "8f25daff02dd"
     },
     {
       "id": "80fbcd39a278",
       "title": "Argentを使ってClaude Codeからモバイルアプリを動かしてみる（Flutter） | ENECHANGE Developer Blog",
       "url": "https://tech.enechange.co.jp/entry/2026/08/22/155631",
-      "summary": "Software Mansion製のArgentは、Claude CodeなどからiOS/Androidのシミュレータや実機を操作・デバッグ・プロファイリング・記録再生できるオールインワンツール。Flutter+iOSシミュレータで検証し、CLIから直接実行できる点が便利だった。",
+      "summary": "ENECHANGEのエンジニアリングマネージャー兼モバイルアプリエンジニア片田が、React Nativeに関わるSoftware Mansionの新ツール「Argent」を試用し非常に便利だったと紹介。情報は同僚の柿さんより。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-22T06:56:31.000Z",
-      "contentHash": "a9633826a439"
+      "contentHash": "e7ab1cd4e319"
     },
     {
       "id": "ef48a9723fd1",
@@ -122,19 +230,19 @@
       "id": "9e4db46846c1",
       "title": "毎朝 CloudWatch を見回るエージェントを作ってみたら、翌朝さっそく仕事をしてくれた話 | NCDC テックブログのフィード",
       "url": "https://zenn.dev/ncdc/articles/4a54d0d95446ac",
-      "summary": "Strands AgentsとAgentCore（Amazon Bedrock）で、毎朝CloudWatchを巡回しアラーム・ログ・メトリクスを自律調査して0〜100点で採点、結果をSlackへ通知する読み取り専用AIエージェントをClaude Codeで短時間構築。dev環境で翌朝、自動スキャン攻撃を検知したが実害はなし。",
+      "summary": "AWSのAgentCoreとStrands Agentsを使い、仕事で要件や制約で複雑になりがちなAIエージェントを、汎用的でシンプルな構成にして実際に作ってみた記録です。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-22T06:00:07.000Z",
-      "contentHash": "d114941c738c"
+      "contentHash": "465422e5a79f"
     },
     {
       "id": "461fa611be3c",
       "title": "Kiro用のMCPサーバーをPythonで自作してZenn記事執筆を効率化する | コラボスタイル Developersのフィード",
       "url": "https://zenn.dev/collabostyle/articles/5394654da810cb",
-      "summary": "FastMCPでPython製のMCPサーバーを自作し、Zenn記事執筆を支援するツールを実装。最小構成例と、読了時間推定（日本語400字/分、コードは半分扱い）、見出し抽出、フロントマター生成の3機能を紹介。",
+      "summary": "前回は公開MCPサーバーの設定を扱いました。今回は自作のMCPサーバー「Zenn記事執筆支援ツール」を作成。機能は読了時間推定、見出し構造抽出、フロントマター候補生成。FastMCP（Python）で簡単構築。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-22T01:20:16.000Z",
-      "contentHash": "1bfee52a8c0b"
+      "contentHash": "c15b56e85b8a"
     },
     {
       "id": "27b7e490bced",
@@ -158,28 +266,28 @@
       "id": "4e32f0c4fcbe",
       "title": "KiroにMCPサーバーを追加して外部ツールと連携させる | コラボスタイル Developersのフィード",
       "url": "https://zenn.dev/collabostyle/articles/4a2fc81bad997e",
-      "summary": "KiroにMCPサーバーを追加して外部ツール連携する方法を解説。MCPは外部ツールをJSON-RPCで呼ぶ標準プロトコル。設定は .kiro/settings/mcp.json または ~/.kiro/settings/mcp.json に書き、command/args/envでサーバー定義。fetchやaws-docs例、uvx導入法、環境変数でAPIキー指定でき、再起動不要。",
+      "summary": "前回はKiroのSkillで技術記事のファクトチェック、Hookで保存時の自動校閲を実装。今回はMCP（Model Context Protocol）を使い、MCPサーバー経由で外部ツールやデータをJSON-RPCで呼び出しKiroの機能を拡張する方法を解説します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-22T01:01:18.000Z",
-      "contentHash": "f519065bd2e1"
+      "contentHash": "f1a109486d62"
     },
     {
       "id": "00ff6540323d",
       "title": "KiroのHook機能でファイル保存するたびに記事の校閲を自動で走らせる | コラボスタイル Developersのフィード",
       "url": "https://zenn.dev/collabostyle/articles/a1cb144ec49b6c",
-      "summary": "KiroのHook機能で、article*.md保存時に自動でAI校閲を実行するフックを作成。AI臭さ・難解表現・技術的誤りを各最大3件まで指摘し、問題なければ「特に指摘なし」と返し、保存時にチャットへ結果を表示する。",
+      "summary": "前回はKiroのSkillで技術記事のファクトチェック付き校閲を作ったが、毎回 /zenn-proofread を手動実行するのが面倒。そこでIDEの保存などをトリガーに自動実行するKiroのHook（.kiro/hooks/にJSONを置く）を使い、保存時に自動でチェックを走らせる方法を紹介する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-22T00:42:34.000Z",
-      "contentHash": "981ae72e66df"
+      "contentHash": "fe6a4e8569fb"
     },
     {
       "id": "e19e436a99f8",
       "title": "KiroのSkill機能で技術記事のファクトチェックを半自動化した話 | コラボスタイル Developersのフィード",
       "url": "https://zenn.dev/collabostyle/articles/6e58874facf316",
-      "summary": "KiroのSkill機能で、Markdownに指示を書くとAIが動き記事の校閲を半自動化。AI臭検出・難解表現の平易化・Web検索による技術的ファクトチェックを行い、出典URL付きで指摘。TiDBのVECTOR型対応版誤記をリリースノートで訂正した例を紹介。",
+      "summary": "技術記事執筆で仕様確認を怠りがちなので、KiroのSkill（Markdown指示）を使い、記事を受けて技術的主張をWeb検索で裏取りする校閲ツールを作成。Skillはkiro/skillsに置き、フロントマターでメタ情報、本文で指示を書く。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-22T00:19:31.000Z",
-      "contentHash": "0e6b88734c9b"
+      "contentHash": "2b3f33bbb324"
     },
     {
       "id": "fa41c117b93d",
@@ -563,10 +671,10 @@
       "id": "3cc86c1a325c",
       "title": "Ornith-1.5 の概要",
       "url": "https://note.com/npaka/n/n654b6af6387b",
-      "summary": "Ornith-1.5はオープンソースLLMで、自己スキャフォルディングを発展させ「タスク生成→Scaffold→Solution→強化学習」の自己改善ループで学習課題も自動生成します。397B/35B-A3B/9Bの3モデルを提供し、特にコーディング・エージェント系で高性能。35Bはローカル向け、9Bはモバイル向けに最適化されています。",
+      "summary": "Ornith-1.5は自己足場化を拡張し、モデル自身が学習タスクを生成→Scaffold作成→Solution Rollout→強化学習のループで自己改善するオープンソースLLM。397B/35B/9B（モバイル版）を用意し、コーディング系エージェント評価で高性能、ローカル利用も可能。",
       "source": "npaka",
       "publishedAt": "2026-08-21T08:14:13.000Z",
-      "contentHash": "0c129de7b8c1"
+      "contentHash": "aa188776658f"
     },
     {
       "id": "08752fb84025",
@@ -617,10 +725,10 @@
       "id": "e92e36002372",
       "title": "【書評】 Claude Cowork スゴイ活用術",
       "url": "https://note.com/npaka/n/n1754cbfc3fd8",
-      "summary": "『Claude Cowork スゴイ活用術』は、生成AI「Claude」のエージェント機能Coworkで作業一連を任せる方法を解説。基本設定から資料作成・データ分析・ファイル整理・自動化、組織導入まで実例で示し、「手順ではなくゴールを伝える」指示法を重視する入門書。",
+      "summary": "本書はAnthropicの生成AI「Claude」のエージェント機能Coworkを使い、ファイル操作や自動化で一連業務を任せる方法を実務例と共に体系的に解説。指示は手順でなくゴールを伝えることを重視する入門書。",
       "source": "npaka",
       "publishedAt": "2026-08-21T06:41:58.000Z",
-      "contentHash": "6e9d5918cf5d"
+      "contentHash": "c959c7cd6161"
     },
     {
       "id": "e35926e7192f",
@@ -842,10 +950,10 @@
       "id": "663603c5811d",
       "title": "GEN-1.5 の概要",
       "url": "https://note.com/npaka/n/n309d7c94b59f",
-      "summary": "GEN-1.5は映像・センサー・言語などを入力に100Hzで行動を生成する身体性基盤モデル。数秒のデモをコンテキストに使う「Physical Prompting」で追加学習なしにOne‑Shot学習（平均成功率59%）が可能で、少量の微調整で66.5〜83%に改善。複数デモの組合せやシミュレーションから実機へのゼロショット転移も示す。",
+      "summary": "GEN-1.5はGeneralistの身体性基盤モデル。数秒のデモをコンテキスト化するPhysical Promptingで追加学習不要のOne‑Shot実行（平均59%成功）、少量学習で83%に。プロンプト結合やSim→Realゼロショットも可能。",
       "source": "npaka",
       "publishedAt": "2026-08-20T23:49:58.000Z",
-      "contentHash": "7b023f3bebe9"
+      "contentHash": "dfce6e58227e"
     },
     {
       "id": "bdb698ec663c",
@@ -1265,10 +1373,10 @@
       "id": "4146e40daf17",
       "title": "Mac で Qwen3.8-27B を試す",
       "url": "https://note.com/npaka/n/n0028d145fb69",
-      "summary": "Apple Siliconでmlx-dsparkを使いQwen3.8-27B(8bit)を検証。M4 Proで平均2.45倍/最大3.18倍高速化。Python環境でpip install→推論やAPIサーバ(127.0.0.1:8080)起動、8bitは64GB以上推奨。piで軽量エージェント利用可能。",
+      "summary": "MacでQwen3.8-27BをMLX用ライブラリmlx-dsparkで検証。M4 Pro 48GBで8bit版が平均2.45倍／最大3.18倍高速化。Python環境→pipで導入→推論実行（8bitは64GB推奨）。mlx-dsparkでOpenAI/Anthropic互換のローカルAPIを立て、軽量エージェントpiの利用例も紹介。",
       "source": "npaka",
       "publishedAt": "2026-08-20T06:55:05.000Z",
-      "contentHash": "4fb30cde0aeb"
+      "contentHash": "9f5e28c74802"
     },
     {
       "id": "4f227bbfc741",
@@ -3218,10 +3326,10 @@
       "id": "2a02c8b3810b",
       "title": "AIの進化によって漫画制作はどう変わるのか",
       "url": "https://note.com/npaka/n/n6c22f295e89f",
-      "summary": "画像生成AIやマルチモーダルLLMにより、コマ間でのキャラ・画風の一貫性保持やネーム、コマ割り、文字入れなど制作工程の部分自動化が進む。作品データ化や人間と対話するAIによる共同制作が主流に。",
+      "summary": "画像生成AIの進化で漫画は「連続コマ」の一貫性や高解像度化が進展。参照キャラ管理やDiffSensei／DreamingComicsで画風・人物整合性が改善。MangaFlow等でネーム・コマ割り・文字入れをAIと対話的に共作し、作画工程の部分自動化も進む。",
       "source": "npaka",
       "publishedAt": "2026-08-16T04:44:35.000Z",
-      "contentHash": "c380a1a1c72a"
+      "contentHash": "b978d4bdc3bc"
     },
     {
       "id": "599fecb82f4f",
@@ -3299,10 +3407,10 @@
       "id": "2d3e22660f2d",
       "title": "AIの最新研究から見るゲーム開発とプレイヤー体験の未来",
       "url": "https://note.com/npaka/n/n4ebba7cee7aa",
-      "summary": "生成AIは素材作成からゲーム全体を生成する方向へ進化。プロトタイプが高速化し、世界モデルで長時間整合した生成オープンワールドが現実に。デザイナーは配置からルール設計へ、NPCは記憶・人格を持つ自然会話へ。",
+      "summary": "生成AIは素材生成から「世界を作る」段階へ進み、即時プロトタイプ化が可能に。世界モデルはインタラクティブな生成オープンワールドと長時間整合性を実現。デザイナーは配置からルール設計へ、NPCは人格・記憶・目的を持つ対話主体に変わる。",
       "source": "npaka",
       "publishedAt": "2026-08-15T22:37:42.000Z",
-      "contentHash": "7be599469bd9"
+      "contentHash": "fca11f59d942"
     },
     {
       "id": "6c33fc4bc9e8",
@@ -8892,114 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-08-04T18:06:12.000Z",
       "contentHash": "44c7cca9f385"
-    },
-    {
-      "id": "8a853907275a",
-      "title": "How an OpenAI influencer trip backfired ",
-      "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
-      "summary": "OpenAIが初のブランドトリップ「Summer Club」をNY近郊の自然リトリート（Wildflower Farmsと推定）で開催。招待インフルエンサーはキャビンや限定グッズ、イニシャル入りパジャマの写真をSNSに投稿した。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-04T17:46:41.000Z",
-      "contentHash": "48f823b8ac44"
-    },
-    {
-      "id": "5b3cf240072c",
-      "title": "Lenovo&#8217;s Legion Go S with SteamOS is down to its lowest price ever",
-      "url": "https://www.theverge.com/gadgets/975113/lenovo-legion-go-s-steamos-deal-sale",
-      "summary": "Steam Deck OLEDが値上げされる中、LenovoのSteamOS搭載ハンドヘルド「Legion Go S（Z2 Go）」がクーポンコードEXTRASAVEAFFで通常$1,137→約$636と過去最安に。2024年のレビューでも高評価。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-04T17:35:04.000Z",
-      "contentHash": "0cdeacd5cc12"
-    },
-    {
-      "id": "4bfbf86462cb",
-      "title": "‘Not healthy’ LLM use is more common than you think",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
-      "summary": "人気ユーチューバーのハンク・グリーンがAI利用を「不健全」として制作を一時休止。脚本ではなく資料検索に使ったと説明。著作権や誤情報の問題に加え、明確な精神病に至らない中間の強迫的・依存的なAI利用が見過ごされていると指摘。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-04T17:33:46.000Z",
-      "contentHash": "0afce1f9f68d"
-    },
-    {
-      "id": "b08ff94f4212",
-      "title": "BMW’s in-car Spider-Man ad is villain behavior",
-      "url": "https://www.theverge.com/transportation/975172/bmw-spider-man-movie-infotainment-ad",
-      "summary": "BMWがダッシュボード（コントロールディスプレイ）にスパイダーマン新作のバナー広告を表示していると確認。7月27日〜8月10日、関連装備の車で70か国以上に配信され、映画宣伝のブランド提携の一環で、オーナーからは批判が出ている。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-04T17:17:14.000Z",
-      "contentHash": "d2d5f545fc66"
-    },
-    {
-      "id": "58ba351a2139",
-      "title": "The latest AI news we announced in July 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
-      "summary": "Googleは7月にAI強化を発表。高速化したGeminiシリーズやロボット向けGemini Robotics ER2、Gemini Sparkでの自動化、動画・音楽制作ツール、火災検知衛星や技能支援などを導入。",
-      "source": "Gemini",
-      "publishedAt": "2026-08-04T13:00:00.000Z",
-      "contentHash": "7c6bcc5503e3"
-    },
-    {
-      "id": "b088409319e1",
-      "title": "Can Reddit fend off a new wave of AI SEO spam?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
-      "summary": "AI時代でRedditの言及がSEO上重要になり、企業が偽アカやステルスマーケで口コミ操作を図る事例が増加。サブレディットのモデレーターが不正投稿を監視・摘発している。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-04T10:00:00.000Z",
-      "contentHash": "7e87407856b0"
-    },
-    {
-      "id": "85eb0a983737",
-      "title": "Raycast: Mac / Windows で使える素直で多機能なランチャー | TechRacho",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_08_04/157107",
-      "summary": "Raycastはアプリランチャーで、ホットキー設定、スニペット、クリップボード履歴、簡易電卓など多機能。SpotlightやAlfredを代替でき、Mac/Windows対応でUIも使いやすく無料版で十分使える。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-04T08:30:36.000Z",
-      "contentHash": "98481bd8c0eb"
-    },
-    {
-      "id": "ba097ce003d7",
-      "title": "Amazon EKS の aws-auth ConfigMap からアクセスエントリへの安全な移行手順 | Social PLUS Tech Blogのフィード",
-      "url": "https://zenn.dev/socialplus/articles/019362d8c7a42b",
-      "summary": "Amazon EKSのaws-auth ConfigMapは非推奨。誤操作でクラスターにアクセス不能になる恐れがあるため、アクセスエントリへ段階的移行（1:併用→2:ConfigMap無効化→3:Terraform削除）を推奨。system:mastersは直接指定不可で、AmazonEKSClusterAdminPolicy等のAccess Policyで代替する方針と課題を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-04T08:08:47.000Z",
-      "contentHash": "31fefd42ccdd"
-    },
-    {
-      "id": "f9b48892d6d0",
-      "title": "AIを活用してHTTPヘッダー付与用のChrome拡張機能を自作した話 | mediba テックブログのフィード",
-      "url": "https://zenn.dev/mediba/articles/844e0402262f58",
-      "summary": "社内用の最小限HTTPヘッダー付与Chrome拡張をAIと対話しながら短時間で自作。動作しない問題はdeclarativeNetRequestのurlFilterとresourceTypes設定を修正して解決。AIはコード生成が得意だが、原因切り分けは人間の役割という教訓。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-04T07:30:05.000Z",
-      "contentHash": "8aedf74e9d8d"
-    },
-    {
-      "id": "5e602988d54a",
-      "title": "低レイテンシな広告配信を支えるキャッシュ戦略の刷新 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-      "url": "https://developers.cyberagent.co.jp/blog/archives/65145/",
-      "summary": "本文が途中で切れているため、現状では正確な要約ができません。全文を貼っていただければ、200文字以内で日本語要約を作成します。よろしくお願いします。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-04T07:25:39.000Z",
-      "contentHash": "7a361ae63162"
-    },
-    {
-      "id": "e75e08d44e2b",
-      "title": "【VSCode】MCPサーバの停止方法 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/310ba66b319328",
-      "summary": "VS CodeでMCP（Model Context Protocol）サーバを停止する手順。Ctrl+Shift+Pで「mcp」を検索→「サーバーの一覧表示」から対象サーバを選択→「サーバーの停止」を選べば停止します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-04T07:06:37.000Z",
-      "contentHash": "ac2aabcd4a0f"
-    },
-    {
-      "id": "e39080d87fbd",
-      "title": "人と人の「認識のずれ」をAIが埋めるチケット管理 ── Notion Custom Agents + External Agents の実践 | LayerX エンジニアブログ",
-      "url": "https://tech.layerx.co.jp/entry/2026/08/04/160016",
-      "summary": "NotionのCustom/External Agentsでチケット管理を再構築。起票時にAgentが自動で起票者へヒアリングし実装観点まで深掘りすることで、起票〜マージ間を自動化。要望の取りこぼしや心理的ハードルを下げ、細かなコンテキストも取得。Notion AIやWorkersと連携し社内の多様な起票者に対応。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-04T07:00:16.000Z",
-      "contentHash": "22bfa72e169a"
     }
   ]
 }
