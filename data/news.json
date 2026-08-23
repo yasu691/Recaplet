@@ -1,6 +1,33 @@
 {
-  "generatedAt": "2026-08-23T01:58:34.976Z",
+  "generatedAt": "2026-08-23T08:51:54.202Z",
   "items": [
+    {
+      "id": "987adfad341e",
+      "title": "ほぼ週間Go言語 2026/08/23: Go 1.27関連記事まとめ | 株式会社BALEEN STUDIOのフィード",
+      "url": "https://zenn.dev/baleenstudio/articles/4bf0ea11dff5e8",
+      "summary": "Go 1.27が2026年8月20日リリース。ジェネリックメソッド等の言語仕様変更、encoding/json/v2やuuidなど標準追加、ランタイムやツール改善を含む広範な更新を、提案やRCから正式版解説までテーマ別にまとめています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-23T06:11:14.000Z",
+      "contentHash": "8eb9272d7531"
+    },
+    {
+      "id": "7dc96f572507",
+      "title": "To become a better writer, read as much as you can",
+      "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
+      "summary": "外部リンクにはアクセスできないため、本文を貼ってください。記事本文（または主要抜粋）をいただければ、200文字以内の日本語要約を作成します。HNコメントの要約も希望なら同様に貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-23T03:32:25.000Z",
+      "contentHash": "0287077c8cb0"
+    },
+    {
+      "id": "b74e23451825",
+      "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
+      "url": "https://martypc.net/",
+      "summary": "申し訳ありませんが外部URLを直接参照できません。記事本文をここに貼っていただければ、200字以内で日本語要約を作成します。HNの議論を要約希望ならその旨も教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-23T03:13:16.000Z",
+      "contentHash": "93f341ec9d74"
+    },
     {
       "id": "2182a7bd1769",
       "title": "Qwen3.8-27B におすすめの推論環境",
@@ -9,6 +36,15 @@
       "source": "npaka",
       "publishedAt": "2026-08-23T01:37:34.000Z",
       "contentHash": "a6bcc518454b"
+    },
+    {
+      "id": "0a7c4bab0507",
+      "title": "Azure Content Understanding の Agentic モード（プレビュー）を試してみた | ヘッドウォータースのフィード",
+      "url": "https://zenn.dev/headwaters/articles/ddb7c836324146",
+      "summary": "Azure Content Understanding（Foundry Tools）がCU 2.0の公開プレビュー（API 2026-06-01-preview）を公開。新機能Agenticモードは、単一パスで抽出できない文書を反復的な推論で構造化抽出する機能です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-23T01:16:44.000Z",
+      "contentHash": "c3d186925de5"
     },
     {
       "id": "a4137edac3af",
@@ -29,31 +65,58 @@
       "contentHash": "554c384334f5"
     },
     {
+      "id": "31e565cecfe1",
+      "title": "NetBSD and my life (2005)",
+      "url": "https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html",
+      "summary": "外部URLに直接アクセスできません。記事本文（または要点）を貼っていただければ、200文字以内で日本語要約します。HNのコメントも要約可。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-22T19:07:46.000Z",
+      "contentHash": "e303ceb3efd6"
+    },
+    {
       "id": "1ed10f47b192",
       "title": "hdiutil is deprecated in macOS 27 Golden Gate",
       "url": "https://lapcatsoftware.com/articles/2026/8/7.html",
-      "summary": "macOSのhdiutilは廃止予定でdiskutilへ移行。多くのオプションは対応するが -puppetstrings や create -srcfolder 等が欠落。diskutilは認証プロンプトを出さずroot所有ファイルで失敗する一方、速度は大幅に速く（約40–45秒 vs 110–115秒）出力dmgも小さかった。",
+      "summary": "リンク先に直接アクセスできないため、記事本文をここに貼っていただけますか？または要点（重要な段落や引用）を教えていただければ、それを基に200文字以内で日本語要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-08-22T19:04:41.000Z",
-      "contentHash": "6e552e22bb4b"
+      "contentHash": "1b2a3f2eda5e"
     },
     {
       "id": "53de3fca8295",
       "title": "Why your local LLM feels dumber than it is",
       "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-      "summary": "ローカルのLLMが期待ほど賢く感じられないのは、参照実装と各自のハード/ソフト環境（GPU世代・命令セット・量子化など）の違いで推論挙動や精度が変わるため。著者はベンチ実験でその影響を示す。",
+      "summary": "ローカルLLMが「賢くない」ように感じる原因は、使うモデルが小さい・量子化で精度劣化・誤ったプロンプトやシステム指示・会話履歴の切断・推論設定（温度/トークン）やトークナイザー、RAGの不備など。適切なモデル選択・プロンプト改善・非劣化量子化やGPU推論で改善できる、という内容です。",
       "source": "Hacker News",
       "publishedAt": "2026-08-22T18:14:16.000Z",
-      "contentHash": "1a04d161b7b9"
+      "contentHash": "3983f8ababcb"
+    },
+    {
+      "id": "8e5d8548a302",
+      "title": "Thinking in Python",
+      "url": "https://thinkinginpython.com/",
+      "summary": "すみません、外部URLへ直接アクセスできません。記事本文か主要抜粋（／HNコメント）をここに貼っていただければ、200文字以内で日本語要約します。どちらを要約するかも教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-22T18:10:49.000Z",
+      "contentHash": "3cfc458c24d0"
     },
     {
       "id": "068c7e8ae3f0",
       "title": "Scrap (2006)",
       "url": "https://twitter.com/moxie/status/2091218652133732491",
-      "summary": "外部リンクに直接アクセスできません。記事本文か重要な抜粋を貼っていただけますか？それを基に200字以内で日本語要約を作成します。",
+      "summary": "申し訳ありませんが、そのリンク先の内容に直接アクセスできないため要約できません。記事本文を貼るか主要ポイントを教えていただければ、200字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-08-22T18:08:56.000Z",
-      "contentHash": "694c0ac13de6"
+      "contentHash": "f0a21cd1ac0c"
+    },
+    {
+      "id": "f6dce409a499",
+      "title": "Belgian car salesman becomes prince after DNA test proves royal parentage",
+      "url": "https://www.cnn.com/2026/08/22/europe/prince-belgium-secret-son-scli-intl",
+      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。記事本文をここに貼っていただければ、200文字以内で要約します。要点だけでも構いません。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-22T17:09:27.000Z",
+      "contentHash": "35e15735120b"
     },
     {
       "id": "54c67d08d3f0",
@@ -68,10 +131,10 @@
       "id": "33e354a2033b",
       "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
       "url": "https://twitter.com/argofowl/status/2091150597374537729",
-      "summary": "申し訳ありませんが外部URLに直接アクセスできません。ツイート本文かHNのコメントを貼っていただければ、200字以内で日本語要約します。どちらを要約しますか？",
+      "summary": "申し訳ありませんが、外部リンクに直接アクセスできません。該当ツイートやHNコメントの本文、または主要ポイントをここに貼っていただけますか？いただければ200字以内で日本語に要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-08-22T16:58:49.000Z",
-      "contentHash": "07d8d2cc0955"
+      "contentHash": "3187f00381ab"
     },
     {
       "id": "282f77d42769",
@@ -86,10 +149,10 @@
       "id": "f83cb012d1e0",
       "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
       "url": "https://quantumi.sh/public/labs.html",
-      "summary": "記事はElevenLabsをきっかけに「数字＋labs」という社名のAI系スタートアップを0〜99まで調べ、一覧化。命名の流行や70番台の偏り、由来の謎、ドメイン買いの皮算用などの疑問を提示している。",
+      "summary": "申し訳ありませんが、外部サイトへ直接アクセスできないためそのURLの本文を取得できません。記事本文をここに貼るか要点を教えていただければ、200文字以内で日本語要約を作成します。",
       "source": "Hacker News",
       "publishedAt": "2026-08-22T14:54:07.000Z",
-      "contentHash": "b96b7c1b9b97"
+      "contentHash": "8e11c781be8d"
     },
     {
       "id": "12970b185601",
@@ -671,10 +734,10 @@
       "id": "3cc86c1a325c",
       "title": "Ornith-1.5 の概要",
       "url": "https://note.com/npaka/n/n654b6af6387b",
-      "summary": "Ornith-1.5は自己足場化を拡張し、モデル自身が学習タスクを生成→Scaffold作成→Solution Rollout→強化学習のループで自己改善するオープンソースLLM。397B/35B/9B（モバイル版）を用意し、コーディング系エージェント評価で高性能、ローカル利用も可能。",
+      "summary": "本文が提示されていないため要約できません。記事本文を貼るかリンクを教えてください。200文字以内で要約します。スタイル（簡潔／丁寧など）も指定可。",
       "source": "npaka",
       "publishedAt": "2026-08-21T08:14:13.000Z",
-      "contentHash": "aa188776658f"
+      "contentHash": "58465018a50b"
     },
     {
       "id": "08752fb84025",
@@ -725,10 +788,10 @@
       "id": "e92e36002372",
       "title": "【書評】 Claude Cowork スゴイ活用術",
       "url": "https://note.com/npaka/n/n1754cbfc3fd8",
-      "summary": "本書はAnthropicの生成AI「Claude」のエージェント機能Coworkを使い、ファイル操作や自動化で一連業務を任せる方法を実務例と共に体系的に解説。指示は手順でなくゴールを伝えることを重視する入門書。",
+      "summary": "生成AIを質問応答以上に活用するためのツール「Claude Cowork」を解説する書籍『Claude Cowork スゴイ活用術』（AI部著）。基本から実践、自動化、組織導入まで体系的にまとめた一冊。",
       "source": "npaka",
       "publishedAt": "2026-08-21T06:41:58.000Z",
-      "contentHash": "c959c7cd6161"
+      "contentHash": "4843d87c92ab"
     },
     {
       "id": "e35926e7192f",
@@ -950,10 +1013,10 @@
       "id": "663603c5811d",
       "title": "GEN-1.5 の概要",
       "url": "https://note.com/npaka/n/n309d7c94b59f",
-      "summary": "GEN-1.5はGeneralistの身体性基盤モデル。数秒のデモをコンテキスト化するPhysical Promptingで追加学習不要のOne‑Shot実行（平均59%成功）、少量学習で83%に。プロンプト結合やSim→Realゼロショットも可能。",
+      "summary": "GEN-1.5は視覚・操作・言語を統合する具現化型基盤モデルで、単一のデモ（ワンショット）で新しい操作タスクを遂行できるよう設計され、ロボットや対話型エージェントの汎用性と学習効率向上を目指します。",
       "source": "npaka",
       "publishedAt": "2026-08-20T23:49:58.000Z",
-      "contentHash": "dfce6e58227e"
+      "contentHash": "1765b45fd0ae"
     },
     {
       "id": "bdb698ec663c",
@@ -3326,10 +3389,10 @@
       "id": "2a02c8b3810b",
       "title": "AIの進化によって漫画制作はどう変わるのか",
       "url": "https://note.com/npaka/n/n6c22f295e89f",
-      "summary": "画像生成AIの進化で漫画は「連続コマ」の一貫性や高解像度化が進展。参照キャラ管理やDiffSensei／DreamingComicsで画風・人物整合性が改善。MangaFlow等でネーム・コマ割り・文字入れをAIと対話的に共作し、作画工程の部分自動化も進む。",
+      "summary": "最新のAI研究やツールを基に、AI導入が漫画制作の企画・作画・編集・配信にどのような影響を与え、制作工程をどう変えるかを整理・解説する記事。",
       "source": "npaka",
       "publishedAt": "2026-08-16T04:44:35.000Z",
-      "contentHash": "b978d4bdc3bc"
+      "contentHash": "44fc189e7c2f"
     },
     {
       "id": "599fecb82f4f",
@@ -3380,10 +3443,10 @@
       "id": "4c7113cb3096",
       "title": "AIの進化によってBlenderによる3D制作はどう変わるのか",
       "url": "https://note.com/npaka/n/n13f5c4f54754",
-      "summary": "AI導入でBlender制作は「ゼロから作る」から「AI生成を読み込み修正する」へ移行。Tripo等のText/Image→3Dやパーツ分割・パラメータ編集可能なモデル、Geometry Nodes連携、そして自然言語でBlenderを操作するMCPサーバーによる自動化が進展している。",
+      "summary": "最新のAI研究とツールを基に、AIがBlenderの使い方やワークフロー、制作者やユーザーの役割をどのように変えるかを整理・解説します。",
       "source": "npaka",
       "publishedAt": "2026-08-16T00:40:49.000Z",
-      "contentHash": "9b9091d798fa"
+      "contentHash": "7fd633964221"
     },
     {
       "id": "c74e95cfaa42",
@@ -8937,69 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-08-04T20:18:14.000Z",
       "contentHash": "c7ee749c500e"
-    },
-    {
-      "id": "bffb46e427c9",
-      "title": "Oxide Computer raises $445M (SEC Form D)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
-      "summary": "SECはこの提出書類の内容を確認しておらず、正確性・完全性は保証しない。提出書類は発行者情報、所在地、関係者、業種・規模、免除・除外、募集期間・金額、最低投資、手数料、資金使途などの項目を記入し、署名・提出前に確認することを求めるものである。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-04T20:13:40.000Z",
-      "contentHash": "71ffb2470ea8"
-    },
-    {
-      "id": "61558b1a479c",
-      "title": "Telegram CEO says an extortionist planted CSAM in a chat to get it pulled from the App Store",
-      "url": "https://www.theverge.com/tech/975300/telegram-app-store-takedown-extortion-pavel-durov",
-      "summary": "TelegramのCEOパベル・デュロフは、恐喝者が公開チャットにCSAMを仕込みApp StoreからTelegramを一時削除させたと主張。Appleが事前連絡なしに削除したのはUGCアプリ全体のリスクを招くと警告し、報告の操作で正当なコミュニティが狙われていると述べた。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-04T19:11:05.000Z",
-      "contentHash": "d7774ec836e7"
-    },
-    {
-      "id": "c99ec862b4e7",
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "summary": "OpenAIは最近の第三者によるサイバーセキュリティ評価の事案を説明し、AIモデルのテストと評価を強化するための新たな安全策を公表した。",
-      "source": "OpenAI",
-      "publishedAt": "2026-08-04T19:00:00.000Z",
-      "contentHash": "cbad791bc0d0"
-    },
-    {
-      "id": "e0c34ef06dec",
-      "title": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
-      "url": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
-      "summary": "申し訳ありませんが、外部リンクを直接開けません。記事本文を貼っていただければ、200字以内で日本語要約します。主要段落や抜粋だけでも構いません。見出しだけでの推測要約をご希望ならその旨お伝えください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-04T18:51:38.000Z",
-      "contentHash": "b529e3584ccf"
-    },
-    {
-      "id": "b714c9981f8f",
-      "title": "Waymo in Dallas",
-      "url": "https://waymo.com/blog/shorts/dallas-open-to-all/",
-      "summary": "Waymoがダラスで完全自動運転サービスを一般公開。事前の試験と安全対策を経て、誰でもアプリで予約できるようにし、地域の移動利便性向上を目指す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-04T18:29:41.000Z",
-      "contentHash": "b1f3cdf819a5"
-    },
-    {
-      "id": "8907fe309d74",
-      "title": "Web Security is Too Hard",
-      "url": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
-      "summary": "申し訳ありませんが外部サイトに直接アクセスできないため記事を取得できません。記事本文をコピーして貼るか、要点を教えてください。いただければ200字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-04T18:29:32.000Z",
-      "contentHash": "c6fccb5a3895"
-    },
-    {
-      "id": "490ffaa31967",
-      "title": "Why some people mow a lawn better than others",
-      "url": "https://pudding.cool/2026/06/mow/",
-      "summary": "外部のURLに直接アクセスできないため、記事本文を貼り付けるか主要段落を送ってください。いただければ200字以内で要約します。HNのコメントも要約希望なら教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-04T18:06:12.000Z",
-      "contentHash": "44c7cca9f385"
     }
   ]
 }
