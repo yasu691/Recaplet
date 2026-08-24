@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2026-08-23T16:45:24.770Z",
+  "generatedAt": "2026-08-24T01:57:52.315Z",
   "items": [
+    {
+      "id": "53ef2daf1f37",
+      "title": "【10期目】クラウドネイティブってどんな会社？代表のシンジさんに全部聞いてみた！ | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/cloudnative-10th-ceo-interview/",
+      "summary": "クラウドネイティブは10期目、六本木に本社を置くフルリモート中心（従業員43名）で企業のIT・情シス支援とセキュリティが主事業。代表シンジは1984年生まれで音楽から独学でPCに没頭し、フリーターを経てドスパラ法人部門でサーバ構築を学んだ経歴。採用強化中。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-24T01:14:00.000Z",
+      "contentHash": "b1c172c28419"
+    },
+    {
+      "id": "79680bb393e7",
+      "title": "01. \"モノリスから始めよ”は良いアドバイスだった。しかしAIが状況を変えつつある | Scalar Solution Engineer Blogのフィード",
+      "url": "https://zenn.dev/scalar_sol_blog/articles/575d103391eb7a",
+      "summary": "「モノリスから始めよ」は有効だったが、AIの台頭で状況が変化。AI生成コードは小さなコンテキストと明確な境界、独立リリースが望ましく、セキュリティ面でも重要。利点はマイクロサービスだけでなくモジュラーモノリスでも得られ、判断基準は組織規模でなくソフトウェアの規模・複雑さである。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-24T01:02:25.000Z",
+      "contentHash": "d39c31ae5d3f"
+    },
+    {
+      "id": "7e88e6aedc10",
+      "title": "PR TIMESの認証認可を再設計するときに考えたこと | PR TIMES 開発者ブログ",
+      "url": "https://developers.prtimes.com/2026/08/24/authentication-authorization-redesign/",
+      "summary": "PR TIMESは各サービスが個別にsessionを管理して認証が一致せず不具合が発生。再設計では三点を重視：中央ゲートウェイに依存せず各アプリでJWT検証、既存機能の改修最小化で段階的にJWT導入、Next.js等異環境でも共通認証を扱える構成とした。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-24T01:00:00.000Z",
+      "contentHash": "b5d306164d0b"
+    },
+    {
+      "id": "229b049e4bfb",
+      "title": "Associate Google Workspace Administrator 【合格体験記】 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/08/24/094303",
+      "summary": "実務での必要からAssociate Google Workspace Administratorを約2週間学習し合格。公式模擬試験とUdemyの問題集で演習し正答率90％超。反省点は設定の目的や実務影響まで深く理解する重要性。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-24T00:43:03.000Z",
+      "contentHash": "cd300c68b3a5"
+    },
+    {
+      "id": "096bca21f38f",
+      "title": "Ai4カンファレンスに参加してきました | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/d35d42cf87ecc9",
+      "summary": "Finatext岡本がAi4 2026（ラスベガス）参加。基調講演は豪華で盛況。多くはAIエージェントの信頼性と検証が主題。生成コードは増えるが事故は減らず、シミュレーションや検証ツールが必須。企業は承認や会議を経済的観点で再設計し、独自コンテキストが競争力とされた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-24T00:00:10.000Z",
+      "contentHash": "89a0099caabd"
+    },
+    {
+      "id": "24021ae59f39",
+      "title": "Google Workspaceのテストドメインエイリアスを解説 | G-gen Tech Blog",
+      "url": "https://blog.g-gen.co.jp/entry/test-domain-alias-explained",
+      "summary": "Google Workspaceのテストドメインエイリアス（例: example.com.test-google-a.com）は、プライマリ登録時に自動生成される無料機能で、MXを変更せずに段階的移行や二重配信の検証に利用可能。プライマリドメインのユーザーのみ有効で、内部解決や受信ゲートウェイ設定の対策にも使える。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "contentHash": "9bafbb039949"
+    },
+    {
+      "id": "a649811ba896",
+      "title": "プログラミング自由研究：BNF | KENTEM TechBlog",
+      "url": "https://tech.kentem.jp/entry/2026/08/24/090000",
+      "summary": "開発統括部K.F.がBNFを解説。試験問題の変数名判定を例に、BNFが構文解析で構文木を作り、exprとtermを分けることで演算子の優先順位や結合方向（特に減算・除算での違い）を文法で表現できることを示した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "contentHash": "fa703589acb9"
+    },
+    {
+      "id": "3d1567acc70b",
+      "title": "Terraformのjsonencode内容をEventBridge Schedulerのターゲットインプットに適用する時、文字がエスケープされてしまう仕様の回避方法。 | Techfirm Cloud Architect Blog",
+      "url": "https://techblog.techfirm.co.jp/entry/terraform-jsonencode-char-escaped-in-eventbridge",
+      "summary": "Terraformのjsonencodeが<,>,&やU+2028/U+2029を\\u003c等にエスケープするため、EventBridge Schedulerのプレースホルダー（例:<aws.scheduler.execution-id>）が置換されません。回避策はjsonencode後にreplaceで\"\\u003c\"や\"\\u003e\"を元の文字に戻してから渡すこと。類似の文字列置換箇所でも有効です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "contentHash": "523258384a95"
+    },
+    {
+      "id": "4c0fff721e32",
+      "title": "GitHub Stacked PRs で実現する「小さな PR」とレビューを溜めない開発スタイル | 豆蔵デベロッパーサイト",
+      "url": "https://developer.mamezou-tech.com/blogs/2026/08/24/github-stacked-prs/",
+      "summary": "GitHubのStacked PRsがパブリックプレビュー化。未マージブランチを起点にした連続PRの管理やリベースなどの煩雑な作業を削減し、小さなPRでレビューを楽にする。gh-stackプラグインで利用可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "contentHash": "ed4e5a0cb42e"
+    },
     {
       "id": "5513ecd64357",
       "title": "We’re All Going to the World’s Fair is an intimate coming-of-age horror film",
@@ -9,6 +90,15 @@
       "source": "The Verge",
       "publishedAt": "2026-08-23T15:00:00.000Z",
       "contentHash": "3e4d8942c40f"
+    },
+    {
+      "id": "e13ab8a098c2",
+      "title": "Grand Theft Auto VI exists in its own universe",
+      "url": "https://www.theverge.com/column/983410/grand-theft-auto-vi-exists-in-its-own-universe",
+      "summary": "ロックスターの新作『グランド・セフト・オート VI』が間もなく登場。独自の世界観を持つ大作で、発売前の期待や最新情報、背景をAndrew Websterが解説する記事。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-23T12:00:00.000Z",
+      "contentHash": "96be8bf50c51"
     },
     {
       "id": "b05329666d96",
@@ -20,6 +110,15 @@
       "contentHash": "40e02f7a4416"
     },
     {
+      "id": "b299b220dceb",
+      "title": "Wi-Fi 8 is the first wireless upgrade in years that isn't chasing speed",
+      "url": "https://www.xda-developers.com/wi-fi-8-first-wireless-upgrade-years-isnt-chasing-speed-home-networks-need-it/",
+      "summary": "Wi‑Fi 8は最高速度競争を追わず、遅延低減や接続安定化、マルチリンク／複数AP協調で混雑対策と低消費電力を図り、家庭内ネットワークの実効性を高める規格。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-23T06:41:51.000Z",
+      "contentHash": "819d8c34c94d"
+    },
+    {
       "id": "987adfad341e",
       "title": "ほぼ週間Go言語 2026/08/23: Go 1.27関連記事まとめ | 株式会社BALEEN STUDIOのフィード",
       "url": "https://zenn.dev/baleenstudio/articles/4bf0ea11dff5e8",
@@ -29,22 +128,49 @@
       "contentHash": "8eb9272d7531"
     },
     {
+      "id": "8643c9395c2b",
+      "title": "JIT Compiling Code in 5μs",
+      "url": "https://malisper.me/jit-compiling-code-in-5-us/",
+      "summary": "提示テキストは記事本文ではなく「JIT Compiling Code in 5μs」投稿用のCSS定義です。コードブロックやベンチ表の表示・フォント・スクロール・レスポンシブ等のスタイル指定のみで、JITの説明や内容自体は含まれていません。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-23T06:04:51.000Z",
+      "contentHash": "7a3c6b9180af"
+    },
+    {
+      "id": "9c52a646fc3b",
+      "title": "FreeToken の概要",
+      "url": "https://note.com/npaka/n/n6064bfdb71ed",
+      "summary": "FreeTokenはNVIDIA GPUでVRAMに収まらない大型MoEモデルをGPU/CPUで協調実行し高速にローカル推論するエンジン。対応モデル例やRTX3080(16GB)でQwen3.6-35Bを動かした導入・CUDA13 JIT等の手順を紹介している。",
+      "source": "npaka",
+      "publishedAt": "2026-08-23T05:56:51.000Z",
+      "contentHash": "17dde3c8b363"
+    },
+    {
+      "id": "a5b9842fb2f9",
+      "title": "The End of an Athlon",
+      "url": "http://www.os2museum.com/wp/the-end-of-an-athlon/",
+      "summary": "あるAthlon XPでヒートシンク除去時にシリコン片が剥がれた事例を報告。微小亀裂が進行して欠損したが直前まで動作。2000年前後のflip‑chip PGAは冷却優先で脆弱になり、両社は採用をやめた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-23T05:51:01.000Z",
+      "contentHash": "639240b6d721"
+    },
+    {
       "id": "7dc96f572507",
       "title": "To become a better writer, read as much as you can",
       "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
-      "summary": "外部リンクにはアクセスできないため、本文を貼ってください。記事本文（または主要抜粋）をいただければ、200文字以内の日本語要約を作成します。HNコメントの要約も希望なら同様に貼ってください。",
+      "summary": "著者は執筆に夢中で「書き方の正解はない」と言うが、唯一の黄金律は「幅広く、できるだけ多く良書を読むこと」。近年、読まない志望作家が増えているのを憂慮している。",
       "source": "Hacker News",
       "publishedAt": "2026-08-23T03:32:25.000Z",
-      "contentHash": "0287077c8cb0"
+      "contentHash": "46eed8fd78b8"
     },
     {
       "id": "b74e23451825",
       "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
       "url": "https://martypc.net/",
-      "summary": "申し訳ありませんが外部URLを直接参照できません。記事本文をここに貼っていただければ、200字以内で日本語要約を作成します。HNの議論を要約希望ならその旨も教えてください。",
+      "summary": "システム選択画面の案内。各種システムを読み込み、ビデオカード（MDA／Hercules／CGA／EGA／VGA）やメモリ、SidecarやAdLibカードを設定可能。矢印キーやスワイプ／タップで回転操作。",
       "source": "Hacker News",
       "publishedAt": "2026-08-23T03:13:16.000Z",
-      "contentHash": "93f341ec9d74"
+      "contentHash": "3eb6287aacd6"
     },
     {
       "id": "2182a7bd1769",
@@ -83,22 +209,31 @@
       "contentHash": "554c384334f5"
     },
     {
+      "id": "11e9d27303ee",
+      "title": "NanoGPT Speedrun Frontier",
+      "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+      "summary": "申し訳ありませんが外部サイトに直接アクセスできません。記事本文を貼り付けていただければ、200文字以内で要約します。貼れない場合は要点（主題や重要箇所）を教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-22T22:14:27.000Z",
+      "contentHash": "9a612c9983e6"
+    },
+    {
       "id": "31e565cecfe1",
       "title": "NetBSD and my life (2005)",
       "url": "https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html",
-      "summary": "外部URLに直接アクセスできません。記事本文（または要点）を貼っていただければ、200文字以内で日本語要約します。HNのコメントも要約可。",
+      "summary": "外部のURLには直接アクセスできないため、記事本文をここに貼っていただけますか？貼っていただければ200文字以内で日本語要約を作成します。もし要点だけ教えていただければ、それを基に要約も可能です。",
       "source": "Hacker News",
       "publishedAt": "2026-08-22T19:07:46.000Z",
-      "contentHash": "e303ceb3efd6"
+      "contentHash": "2e1797fafc73"
     },
     {
       "id": "1ed10f47b192",
       "title": "hdiutil is deprecated in macOS 27 Golden Gate",
       "url": "https://lapcatsoftware.com/articles/2026/8/7.html",
-      "summary": "リンク先に直接アクセスできないため、記事本文をここに貼っていただけますか？または要点（重要な段落や引用）を教えていただければ、それを基に200文字以内で日本語要約します。",
+      "summary": "macOSのhdiutilはdiskutilへ移行中だが、オプション名変更や-puppetstrings・create -srcfolder等の欠落あり。ホームバックアップ比較ではhdiutilが認証を促し110–115秒、diskutilは認証せず失敗を招く場合があるが削除で動き40–45秒と高速、生成dmgも小さく内容はほぼ同等だった。",
       "source": "Hacker News",
       "publishedAt": "2026-08-22T19:04:41.000Z",
-      "contentHash": "1b2a3f2eda5e"
+      "contentHash": "6e552e22bb4b"
     },
     {
       "id": "53de3fca8295",
@@ -1031,10 +1166,10 @@
       "id": "663603c5811d",
       "title": "GEN-1.5 の概要",
       "url": "https://note.com/npaka/n/n309d7c94b59f",
-      "summary": "GEN-1.5は視覚・操作・言語を統合する具現化型基盤モデルで、単一のデモ（ワンショット）で新しい操作タスクを遂行できるよう設計され、ロボットや対話型エージェントの汎用性と学習効率向上を目指します。",
+      "summary": "GEN-1.5はGeneralistの身体性基盤モデルで、映像・センサー等を入力に100Hzで行動を生成。3〜12秒のデモを「Physical Prompt」として与えるだけでOne‑Shot学習（平均成功率59%）が可能。少量の微調整で最大83%に改善。プロンプトの組合せやシミュレーション→実機のゼロショット転移も示された。",
       "source": "npaka",
       "publishedAt": "2026-08-20T23:49:58.000Z",
-      "contentHash": "1765b45fd0ae"
+      "contentHash": "0d96253a3f78"
     },
     {
       "id": "bdb698ec663c",
@@ -8865,141 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-05T01:00:00.000Z",
       "contentHash": "050660584895"
-    },
-    {
-      "id": "b12aae4b4568",
-      "title": "GuardDuty Malware Protection for S3のスキャン時間を計測してみた | サーバーワークスエンジニアブログ",
-      "url": "https://blog.serverworks.co.jp/2026/08/05/095515",
-      "summary": "Amazon GuardDutyのMalware Protection for S3はS3のファイルを自動でマルウェアスキャンし、EventBridgeと連携して結果を受け取る。公式に所要時間が記載されていないため、1KB〜10GBのファイルで実測した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-05T00:55:15.000Z",
-      "contentHash": "9956856a5931"
-    },
-    {
-      "id": "721787207349",
-      "title": "エッジAI×YOLOで混雑検知！LLMと連携して接客提案まで試してみた | [公開中] AQ Tech Blog",
-      "url": "https://techblog.asia-quest.jp/202608/streamlit-yolo-person-counting-edge",
-      "summary": "店舗・オフィス・イベント会場・公共施設など、人が集まる場での混雑可視化は業種を問わず必要とされている。人員配置や案内、快適な空間づくりに活用でき、まずは「今何人いるか」をリアルタイムで把握することが第一歩だ。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-05T00:41:05.000Z",
-      "contentHash": "1affd0bdb31d"
-    },
-    {
-      "id": "1a67e7628250",
-      "title": "【Microsoft×生成AI連載】【やってみた】PowerPointの「Edit with Copilot」デフォルトスキル3つを使ってみた | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/08/05/093458",
-      "summary": "PowerPointの「Edit with Copilot」3機能（プレゼンのレビュー、スライドの視覚化、質疑応答準備）を実際に試し、操作手順、所要時間、注意点を紹介しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-05T00:34:58.000Z",
-      "contentHash": "23ffe8882a4c"
-    },
-    {
-      "id": "ecbfdd470b71",
-      "title": "Eight Myths on Software Engineering and GenAI",
-      "url": "https://queue.acm.org/detail.cfm?id=3807963",
-      "summary": "申し訳ありませんが外部リンクを直接参照できません。記事本文を貼るか主要箇所を送ってください。いただければ200文字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-04T23:50:52.000Z",
-      "contentHash": "80a14bf77226"
-    },
-    {
-      "id": "a10f7abdb029",
-      "title": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay",
-      "url": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/",
-      "summary": "WebKitのDNSプリフェッチ、WebAuthn関連オリジンリクエスト、WebTransportの3機能がiOS/macOSのプロキシ設定を回避し、実端末のIPやDNSを漏洩。iCloud Private Relayも影響を受け、Psylo 1.3.1で修正された。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-04T23:31:46.000Z",
-      "contentHash": "d468a5985f0c"
-    },
-    {
-      "id": "002205d8a5fd",
-      "title": "Don’t screw this up, Marvel",
-      "url": "https://www.theverge.com/entertainment/975297/spider-man-brand-new-day-marvel-sony-xmen-doomsday",
-      "summary": "『スパイダーマン：Brand New Day』は1週間で10億ドルを突破し過去最大の初週末を記録したが、記事はMCUが依然不安定であり、マーベルはここで失敗できないと警鐘を鳴らしている。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-04T23:20:56.000Z",
-      "contentHash": "eb64d9c955bf"
-    },
-    {
-      "id": "e762e41d1a2b",
-      "title": "libexpat now funded by the City of Munich for up to 6 months",
-      "url": "https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/",
-      "summary": "XMLパーサ libexpat の保守がミュンヘン市の支援で2026/8/1から最長6か月雇用され行われる。優先は未修正5件の脆弱性対応、XML1.0r5対応、堅牢性・保守性向上。脆弱性報告歓迎。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-04T23:18:12.000Z",
-      "contentHash": "16f774290119"
-    },
-    {
-      "id": "a1ccfa8b7d5d",
-      "title": "We finally learned to center a div, then browsers added sidebars",
-      "url": "https://seg6.space/posts/center-div/",
-      "summary": "CSSのplace-itemsで中央配置していたが、サイドバーでwebviewが狭まりサイトはウィンドウ中央でなくwebview内で中央になった。outerWidth−innerWidthの差を半分だけずらして補正したが、DevToolsで誤差が出たため、pointerのscreenXとclientXからwebviewの位置を算出して解決した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-04T22:24:00.000Z",
-      "contentHash": "425bc62ac76d"
-    },
-    {
-      "id": "ffbe90d5ea59",
-      "title": "Pi's Minimalism Is Its Advantage",
-      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
-      "summary": "Piは意図的な最小主義のコード用ハーネスで、4つのツール・1,000トークン未満のプロンプトに留めることで、余計な複雑さを避け低コストかつ高性能を実現。DatabricksやShopifyの事例では、Opus 4.8との組合せで高い合格率と低コストを示した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-04T22:22:12.000Z",
-      "contentHash": "67c7fb292009"
-    },
-    {
-      "id": "6cefa3264df2",
-      "title": "DuckDB – Data power tools for your laptop, now in Clojure (2023)",
-      "url": "https://techascent.com/blog/just-ducking-around.html",
-      "summary": "tech.ml.dataset(TMD)は列志向のメモリ処理で機能的データ解析を実現するが、100GB級の大規模データでは扱いにくい。JDBC/Postgresは行→列変換が非効率。DuckDBをCバインディングで統合し、近年のバッチAPIや高速追加機能で外部記憶上の大容量処理が現実的になった。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-04T22:09:43.000Z",
-      "contentHash": "6452f9ebf576"
-    },
-    {
-      "id": "a684e6566224",
-      "title": "Now you can securely link multiple phones to one Signal account",
-      "url": "https://www.theverge.com/tech/975407/signal-linked-devices-sync",
-      "summary": "Signalが複数のスマホ（Android/iPhone）を同一番号で安全にリンク可能に。新端末へ過去メッセージのE2E転送を選べ、各端末で送受信可能。Android8.20/iOS8.22で配信。大型端末向けUI改善も。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-04T22:02:46.000Z",
-      "contentHash": "8fd5f25008b8"
-    },
-    {
-      "id": "4c140296e301",
-      "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
-      "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
-      "summary": "INTERPOLは、アフリカのサイバー犯罪の55%がAIを利用し、オンライン詐欺が主要脅威と報告。被害額は1.92億→4.84億ドルに急増、72%の国で詐欺拠点を確認。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-04T22:01:41.000Z",
-      "contentHash": "99d55c512bda"
-    },
-    {
-      "id": "24b3d969465a",
-      "title": "Thanks FedEx, This Is Why We Keep Getting Phished (2024)",
-      "url": "https://www.troyhunt.com/thanks-fedex-this-is-why-we-keep-getting-phished/",
-      "summary": "本文が表示されていません。要約する記事の本文を貼るかURLを教えてください（こちらはウェブを直接参照できないため、本文を貼っていただけると確実です）。200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-04T21:09:39.000Z",
-      "contentHash": "11696306d948"
-    },
-    {
-      "id": "9be0fafa6f21",
-      "title": "AMD&#8217;s data center business is booming while gaming takes a backseat",
-      "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
-      "summary": "AI需要でAMDのデータセンター売上は前年同期比107%増の$6.7Bに達し、CEOは2027年も倍増を見込む。一方、ゲーム事業は部品不足と価格上昇で売上が31%減の$779Mに落ち込んだ。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-04T20:57:49.000Z",
-      "contentHash": "6cef547148d2"
-    },
-    {
-      "id": "d2237ff1ca6b",
-      "title": "I am retiring from fulltime writing (& pseudonymity) to launch Guardian Angel",
-      "url": "https://twitter.com/gwern/status/2084739205071343837",
-      "summary": "すみません、そのURL先を直接開けないため内容を取得できません。記事本文か要点を貼っていただければ、200文字以内の日本語要約を作成します。テキストが長ければ抜粋でも構いません。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-04T20:48:17.000Z",
-      "contentHash": "2e44a16b54a8"
     }
   ]
 }
