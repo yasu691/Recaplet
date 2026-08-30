@@ -1,14 +1,194 @@
 {
-  "generatedAt": "2026-08-30T04:56:38.776Z",
+  "generatedAt": "2026-08-30T13:44:21.663Z",
   "items": [
+    {
+      "id": "40d6abdeb4e0",
+      "title": "Macで kimodo.cpp の Text-to-Motion を試す",
+      "url": "https://note.com/npaka/n/na89d0fbc4bbb",
+      "summary": "Macでkimodo.cppのText-to-Motionを試用。C++/GGML版Kimodoは軽量だが機能限定で、モデルは十数GB。ビルド時にVulkan参照やGo版の修正が必要。M3で60フレーム・50ステップは約48秒。出力はSMPL‑XのモーションでBlender MCP経由で適用可能。",
+      "source": "npaka",
+      "publishedAt": "2026-08-30T13:24:11.000Z",
+      "contentHash": "2ff1aef54542"
+    },
+    {
+      "id": "a91447b83105",
+      "title": "Chess.com launched a poker site and is planning even more classic games",
+      "url": "https://www.theverge.com/games/986302/chess-poker-expansion-gambit",
+      "summary": "Chess.comが学習用無料ポーカーサイト「Gambit」をβ公開。AI支援で少人数チームが開発し、配信イベントやクリエイター連携を開始。実際の賭金は扱わず、他ゲーム展開も計画中。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-30T13:00:00.000Z",
+      "contentHash": "005b213afdcb"
+    },
+    {
+      "id": "d9a617119e6a",
+      "title": "China’s robots race ahead",
+      "url": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+      "summary": "北京で開かれた第2回世界ヒューマノイドロボット大会で中国勢が記録を更新して競技をリードする一方、ロボットの故障も相次ぎ、米中のロボット・AI競争の先行を示した。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-30T12:00:00.000Z",
+      "contentHash": "095caa7cff8f"
+    },
+    {
+      "id": "f5645d22ee89",
+      "title": "Two new small, powerful Macs",
+      "url": "https://www.theverge.com/tech/986280/mac-mini-studio-star-wars-zero-company-wyze-camera",
+      "summary": "The VergeのInstaller No.142。GTA VIや折りたたみiPhoneの噂、Summoning Saltのテトリス映像やWeird Alの演奏を振り返りつつ、新型小型Mac、スマホ充電できるNokia、プライバシー機能付きWyzeカメラ、スター・ウォーズ新作など最新ガジェットを紹介。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-30T12:00:00.000Z",
+      "contentHash": "5121197276fd"
+    },
+    {
+      "id": "508266ce174b",
+      "title": "Brits would quite like their private messages to stay private",
+      "url": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
+      "summary": "英国での調査は、多くの人が私信の秘匿を望み、政府の暗号解読やバックドア要求に反対していると報告。専門家は暗号弱体化が安全や事業に害を及ぼすと警告し、別の対策を求めている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-30T09:26:08.000Z",
+      "contentHash": "da5bda6718d0"
+    },
+    {
+      "id": "6d2ece70c0a3",
+      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
+      "url": "https://arxiv.org/abs/1804.07389",
+      "summary": "外部のURLへ直接アクセスできません。記事本文かアブストラクトを貼っていただければ、200字以内で日本語に要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-30T08:23:26.000Z",
+      "contentHash": "876c6eac05b0"
+    },
+    {
+      "id": "263fbc3e23a7",
+      "title": "AIと人が同じブラウザを使える「ego lite」とは？実際に使って分かった便利さと注意点 | Algomatic Tech Blog",
+      "url": "https://tech.algomatic.jp/entry/2026/08/30/165255",
+      "summary": "AlgomaticのソフトウェアエンジニアGo（@53able）。AIエージェントにWeb操作を任せる際、ブラウザ自動化を「速さ」だけで選ぶのは誤り。CLI待ち時間、複雑タスクの完了時間と成功率、ログイン状態の再利用、人への引き継ぎ、認証情報の分離を個別に評価せよ。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-30T07:52:55.000Z",
+      "contentHash": "146b8fab4c9c"
+    },
+    {
+      "id": "c1fa698ff9ab",
+      "title": "Claudeに100個のツールを渡すとどうなる？4つの渡し方で費用・精度・速度比較 | Money Forward Developersのフィード",
+      "url": "https://zenn.dev/moneyforward/articles/74d02008ab9ec8",
+      "summary": "Claudeに100件のツール定義を渡す4方式を比較。全件投入は精度維持だが費用最大。カテゴリ絞り込みは精度100%で費用58%減。Tool Searchは費用最小（75.9%減）だが精度80%・遅延増。プロンプトキャッシュは読み込みで費用88.1%減・速度改善。推奨：まずプロンプトキャッシュ、次にカテゴリ絞り込み、規模極大ならTool Search。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-30T05:55:17.000Z",
+      "contentHash": "a7f83ef0e13a"
+    },
+    {
+      "id": "5e2393b3ea03",
+      "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
+      "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
+      "summary": "カリフォルニア州議会が全会一致で、GPL・MIT・BSD・Apacheなどのライセンスで配布されるLinuxやオープンソースソフトを年齢確認義務の対象から除外する法案を可決。オープンソース流通や開発への影響回避が狙い。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-30T03:15:36.000Z",
+      "contentHash": "f4cb5f930025"
+    },
+    {
+      "id": "c9df9eb3262e",
+      "title": "OLTP脳でBigQueryに入門してみた（PostgreSQL・DynamoDB経験者向け） | NCDC テックブログのフィード",
+      "url": "https://zenn.dev/ncdc/articles/236e500a645ff3",
+      "summary": "PostgreSQL・DynamoDB経験者向けのBigQuery入門。BigQueryはサーバーレスな列指向データウェアハウスで、列単位保存と並列分散処理によりペタバイト級の高速集計が可能。用途はOLAP中心でコストに注意。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-30T02:47:16.000Z",
+      "contentHash": "100c6593230b"
+    },
+    {
+      "id": "1db694308fde",
+      "title": "冬がいちばん賑わう街。データで読む岩手県八幡平市の「季節のリレー」 | Rei Frontier Tech Blog",
+      "url": "https://tech-blog.rei-frontier.jp/entry/hachimantai-seasonal-flow",
+      "summary": "岩手県は夏が観光ピークだが、県北西部の八幡平市は1～2月が年間ピーク。SilentLog Analyticsと観光統計、人口移動データの分析で、冬のスキー、初夏の絶景、秋の紅葉と主役が季節ごとに入れ替わる「季節のリレー」構造が明らかになった。住民や観光・移住関係者向けの知見。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-30T02:20:07.000Z",
+      "contentHash": "c43c7314fb8f"
+    },
+    {
+      "id": "0898f9bf1f51",
+      "title": "会社のはてなブログ運用をHatenaBlog WorkflowsとAIで効率化する | BASEプロダクトチームブログ",
+      "url": "https://devblog.thebase.in/entry/2026/08/30/110000",
+      "summary": "BASEテックブログ編集委員の松原による夏のブログリレー6日目。はてなブログで10年以上運用する公式発信の意義を再確認し、編集体制や執筆ルールをAI時代に合わせて大幅にアップデートしたと報告しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-30T02:00:00.000Z",
+      "contentHash": "b0cb7d6fc4eb"
+    },
+    {
+      "id": "c22348ede2f3",
+      "title": "FreeCORE TrueNAS Core – Continued",
+      "url": "https://freecore.org/",
+      "summary": "外部URLに直接アクセスできないため、記事本文を貼り付けていただけますか？いただければ200文字以内で要約します。もし要点だけ知りたい場合は、特に注目してほしい箇所を教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-30T01:31:32.000Z",
+      "contentHash": "c9a45a1e5d67"
+    },
+    {
+      "id": "b1035eee3180",
+      "title": "IAM Identity Center × Amazon Bedrockで ChatGPTと Codex を使う | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/08/30/102412",
+      "summary": "Identity Center（SSO）で一時認証を使い、Bedrock経由でClaude等を安全に利用する手順。AWSコンソールで権限とモデル準備→モデル有効化→SSOログインでプロファイル設定→ChatGPT/Codex CLI導入→GPT設定編集→利用開始。Claude向け権限例も補足。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-30T01:24:12.000Z",
+      "contentHash": "34e9d08e6d67"
+    },
+    {
+      "id": "9a940a8b5eb1",
+      "title": "新規Sigmaユーザー向けに伝えたい『Sigmaと他BIツールとの違い』について | truestarテックブログのフィード",
+      "url": "https://zenn.dev/truestar/articles/249c3ff098bfe5",
+      "summary": "Sigma未経験者向けに、BI未経験者と他BI経験者の双方を想定して、Sigmaが他のBIツールとどう違うか、意外なベストプラクティスを解説・参考リンク付きで紹介する記事を見つけ、その違いを読み解いた内容です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-30T00:33:00.000Z",
+      "contentHash": "2084d6ab374a"
+    },
+    {
+      "id": "05502ae5938a",
+      "title": "Bug Blindness",
+      "url": "https://danluu.com/bug-blind/",
+      "summary": "Dan Luuの「Bug blind」は、開発者が自分のバグを見落とす現象を論じる。原因は前提や精神モデル、テストや環境の不備、組織的要因など。外部レビュー、多様な視点、ファズや不変条件チェック、本番に近い検証・計測で発見性を高めることを提案する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-30T00:21:40.000Z",
+      "contentHash": "79910ecc9c9d"
+    },
+    {
+      "id": "b74188c782fb",
+      "title": "The Rise and Fall of Agent Civilizations",
+      "url": "https://www.dwarkesh.com/p/openai-huggingface",
+      "summary": "申し訳ありませんが外部サイトを直接閲覧できません。記事本文（または要約したい抜粋）を貼っていただければ、200文字以内で日本語要約します。HNコメントも含めるか教えてください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-29T23:43:24.000Z",
+      "contentHash": "310c39ae6a08"
+    },
+    {
+      "id": "a923dcdec37e",
+      "title": "Highest-ever ocean temperature measured as powerful El Niño forms",
+      "url": "https://www.latimes.com/environment/story/2026-08-26/highest-ever-ocean-temperature-measured-as-powerful-el-nino-forms",
+      "summary": "強力なエルニーニョの形成により海洋の温度が史上最高を記録。研究者は気候変動が影響を強め、海洋熱波や生態系被害、極端気象や漁業影響を警告している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-29T23:26:44.000Z",
+      "contentHash": "ecaf5ff873cd"
+    },
+    {
+      "id": "f74cafbb38d4",
+      "title": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
+      "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
+      "summary": "テキサス州が自動車保険に手数料を追加し、MVCPA（自動車犯罪防止機関）を通じてFlock製ナンバープレート読み取りカメラ導入のための助成金を拡充。支持者は犯罪抑止を主張、批判は監視拡大と保険料上昇を懸念している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-29T23:17:17.000Z",
+      "contentHash": "f4b695bd69f6"
+    },
+    {
+      "id": "be7d00ca3796",
+      "title": "I co-founded Burning Man. The festival has lost its soul",
+      "url": "https://sfstandard.com/2026/08/29/burning-man-lost-its-soul-founder/",
+      "summary": "申し訳ありませんが外部サイトに直接アクセスできません。要約する本文を貼っていただけますか？コメント欄も要約希望なら教えてください。200文字以内でまとめます。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-29T23:12:25.000Z",
+      "contentHash": "440fdfc1997f"
+    },
     {
       "id": "1668a9343b57",
       "title": "Defrag98: Windows 98 Disk Defragmenter Simulator Online",
       "url": "https://defrag98.com",
-      "summary": "Windows 98のディスクデフラグを再現した無料のブラウザシミュレータ。C〜Fの仮想ドライブ（512MB〜2GB）、硬盤音を選べ、色分けされたクラスタがリアルタイムで整列する様子を再現。オフラインで動作し実際のファイルは一切操作しないノスタルジー用。",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文（または要点）をここに貼っていただけますか？貼っていただければ、200文字以内で日本語要約します。コメントも要約希望なら一緒に貼ってください。",
       "source": "Hacker News",
       "publishedAt": "2026-08-29T22:51:17.000Z",
-      "contentHash": "9bae619138ae"
+      "contentHash": "d5bfe25c8965"
     },
     {
       "id": "94db180b35f0",
@@ -30,12 +210,12 @@
     },
     {
       "id": "f593ff968abe",
-      "title": "Sony Music and Warner Chappell are suing Anthropic",
+      "title": "Sony Music Publishing and Warner Chappell are suing Anthropic",
       "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-      "summary": "ソニー・ミュージックとワーナー・チャペルがAnthropicを数万件の著作権侵害で提訴。1作品最大15万ドル、著作権表示削除ごとに2.5万ドル請求で総額は数十億ドルに達する可能性。Anthropicは既に出版社や複数の音楽出版社と訴訟・和解（15億ドル）を抱える。",
+      "summary": "ソニー・ミュージック・パブリッシングとワーナー・チャペルが米北カリフォルニア地裁にアンソロピックを提訴。数万件の著作権侵害を主張し、作品ごと最大15万ドル、識別情報削除ごと2.5万ドルを請求、総額は数十億ドル規模の可能性。アンソロピックは既に他の音楽出版社とも訴訟や15億ドルの和解を抱える。",
       "source": "The Verge",
       "publishedAt": "2026-08-29T18:19:53.000Z",
-      "contentHash": "79f565d7bae3"
+      "contentHash": "7eeed7d2e6e1"
     },
     {
       "id": "ddf8ba8f44ba",
@@ -54,6 +234,33 @@
       "source": "The Verge",
       "publishedAt": "2026-08-29T15:00:00.000Z",
       "contentHash": "da06391ef7d8"
+    },
+    {
+      "id": "ed395143cb97",
+      "title": "LLMに全部読ませない。スクリプト同梱スキルでトークンを減らす設計 | Algomatic Tech Blog",
+      "url": "https://tech.algomatic.jp/entry/2026/08/29/225704",
+      "summary": "AlgomaticのGoが、大量CSVや長いログをそのままLLMに送るとトークン量や費用が増える問題を指摘。手元で前処理して件数・代表例・元データの位置や原文取得方法だけを渡し、効率化する手法を提案しています。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-08-29T13:57:04.000Z",
+      "contentHash": "0b957e5efc92"
+    },
+    {
+      "id": "6c9a58e09d29",
+      "title": "The Galaxy Z Flip 8 is at its best when there’s friction",
+      "url": "https://www.theverge.com/tech/986033/samsung-galaxy-z-flip-8-review",
+      "summary": "Galaxy Z Flip 8はハードはほぼ前作継承だが、閉じた状態での利用を再設計。外部（カバー）画面が通常のAndroidに近づき、アプリのフル版にアクセスできるようになった一方、制約は残る。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-29T13:00:00.000Z",
+      "contentHash": "43decf5b30d6"
+    },
+    {
+      "id": "4ed9a280c24d",
+      "title": "Musicians-turned-detectives are hunting for AI grifters",
+      "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+      "summary": "生成AIがEDMを中心に音楽界に浸透し、人間の作風を模した楽曲が増加。使用を隠す制作者もいて、ミュージシャン自身が検証・暴露する「呼び出し」文化が生まれている。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-29T12:00:00.000Z",
+      "contentHash": "bc1839da2be7"
     },
     {
       "id": "03419e766b85",
@@ -182,6 +389,15 @@
       "contentHash": "7a0dd629d709"
     },
     {
+      "id": "fea3ed1aca08",
+      "title": "Project SuperDex の概要",
+      "url": "https://note.com/npaka/n/n684c227ec7e4",
+      "summary": "Project SuperDexは、接触を重視した巧緻操作研究の統合プラットフォーム。高密度接触対応のSuperDex Physics、ロボットSDK、GUIのStudio、Gym互換のLabを提供し、テレ操作や学習データ公開も予定。",
+      "source": "npaka",
+      "publishedAt": "2026-08-28T12:37:17.000Z",
+      "contentHash": "5305c86c3d59"
+    },
+    {
       "id": "4d738173ec9d",
       "title": "Apple TV’s sci-fi thriller Dark Matter gets even trippier in season 2",
       "url": "https://www.theverge.com/entertainment/983263/dark-matter-season-2-review-apple-tv",
@@ -281,6 +497,15 @@
       "contentHash": "0488de2f4483"
     },
     {
+      "id": "b42ac281ecaf",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "summary": "当社は、SpaceXによるCursorの買収を受け、CursorへのOpenAIモデル提供契約を段階的に終了することを決定しました。",
+      "source": "OpenAI",
+      "publishedAt": "2026-08-28T06:00:00.000Z",
+      "contentHash": "a1d1a396127d"
+    },
+    {
       "id": "06a4d38d1bd6",
       "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
       "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
@@ -288,6 +513,15 @@
       "source": "The Verge",
       "publishedAt": "2026-08-28T03:14:06.000Z",
       "contentHash": "e153275eaf9e"
+    },
+    {
+      "id": "cb1db0d5c74b",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "summary": "OpenAIとタイのMHESI（教育・保健省）が8週間のアクセラレータを立ち上げ、10のヘルス・ウェルネス・教育系スタートアップがAIプロトタイプを信頼できる製品へと成長させる支援を行う。",
+      "source": "OpenAI",
+      "publishedAt": "2026-08-28T02:00:00.000Z",
+      "contentHash": "56307478c67c"
     },
     {
       "id": "74136ff10317",
@@ -311,10 +545,10 @@
       "id": "2f780c374451",
       "title": "MHS (Model Hardware Standard) の概要",
       "url": "https://note.com/npaka/n/ncd1fb2c1105e",
-      "summary": "AnthropicのMHSは、ロボットアームや顕微鏡等の物理機器をAIが共通の方法で発見・操作できる仕様です。MHS Driverが各社APIを抽象化し、自然語で能力や安全制約を記述。MCPと併用可能でモデル非依存。",
+      "summary": "MHSはAnthropicの物理機器操作向け共通仕様（Research Preview 2026）。MHS Driverで各社APIを抽象化し、発見・read/write・自然言語タグで能力や安全制約を記述。MCPと補完し、ロボット腕や顕微鏡等をモデル非依存で扱える。",
       "source": "npaka",
       "publishedAt": "2026-08-27T22:25:46.000Z",
-      "contentHash": "86f4a02c5e0a"
+      "contentHash": "7e308e822ca8"
     },
     {
       "id": "c2f6f531a81d",
@@ -347,10 +581,10 @@
       "id": "7d8f7d49cd6d",
       "title": "Gemini Omni 1.1 Flash lets you build with more control",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
-      "summary": "Google DeepMindのGemini Omni 1.1「Flash」は、シーン延長、冒頭・末尾フレーム補間、鮮明な4Kアップスケール、プロトタイピング高速化などを実現し、スタジオ品質の映像制作を可能にするアップデートです。",
+      "summary": "Gemini Omni 1.1「Flash」は、開発者向けに新しいクリエイティブ制御群と生成型ビデオ機能を提供し、映像制作や表現の幅を拡げます。",
       "source": "Gemini",
       "publishedAt": "2026-08-27T16:00:00.000Z",
-      "contentHash": "fb27a994b2be"
+      "contentHash": "4df66ea2af45"
     },
     {
       "id": "3504ab23c738",
@@ -482,10 +716,10 @@
       "id": "5a4331822b22",
       "title": "ローカルLLM向けの NVIDIA GPU の選び方",
       "url": "https://note.com/npaka/n/nec1c1fb7000b",
-      "summary": "ローカルLLM向けGPUはCUDAエコシステム、VRAM容量、メモリ帯域、Prefill/Decode性能、世代・価格で選ぶ。VRAMはモデル＋KV等で余裕が必要で、帯域はDecode速度に直結。Blackwell系（例：RTX5090）が高性能候補。",
+      "summary": "ローカルLLMにはCUDAエコシステムを持つNVIDIA GPUが有利。選定ポイントはVRAM容量、メモリ帯域、Prefill/Decode性能、世代、価格。VRAMはモデル＋KVで余裕が必要（例：27Bは4/8/16bitで約14/27/54GB）。",
       "source": "npaka",
       "publishedAt": "2026-08-26T22:56:21.000Z",
-      "contentHash": "752863d97551"
+      "contentHash": "c037e4f39660"
     },
     {
       "id": "42d80e9bc1cd",
@@ -554,10 +788,10 @@
       "id": "b43a1d3ce3c9",
       "title": "7 ways to kick-start back to school using Gemini in Workspace",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-workspace-back-to-school/",
-      "summary": "Google WorkspaceのGeminiを活用する7つの方法を紹介。学期の準備を効率化し、ノートをプレゼンや学習ガイドに変換、予定管理や共同作業など学校生活をサポートします。",
+      "summary": "Google WorkspaceのGeminiを活用して、ノート整理、締切管理、プロジェクト準備などを行い、今学期の準備を効率的に進めましょう。",
       "source": "Gemini",
       "publishedAt": "2026-08-26T20:30:00.000Z",
-      "contentHash": "c5327db67e86"
+      "contentHash": "ef9dde3f7392"
     },
     {
       "id": "d7b8767fb3e6",
@@ -617,19 +851,19 @@
       "id": "584c12716aad",
       "title": "Turn your voice into action with new productivity features in Gemini Live",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/",
-      "summary": "Gemini Liveが会話を超えて音声で作業を委任できる生産性機能を追加。Personal Intelligence、Daily Brief、Spark、ハンズフリーの受信箱管理で一日を音声で整理・遂行可能に。",
+      "summary": "Gemini Liveに大規模な生産性向上アップデートを展開中。音声でTo‑Doを委任でき、作業を中断せずにタスク管理できるようになります。",
       "source": "Gemini",
       "publishedAt": "2026-08-26T17:00:00.000Z",
-      "contentHash": "1a9c6beb32f6"
+      "contentHash": "4174aae31fe1"
     },
     {
       "id": "95b7ebc1937a",
       "title": "Intelligent transcription with Gemini 3.5 Transcribe",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
-      "summary": "GoogleのGemini Audioチームが、高精度でインテリジェントなリアルタイム文字起こしを実現する新音声→テキストモデル「Gemini 3.5 Transcribe」を発表しました。",
+      "summary": "Gemini 3.5 Transcribeにより、音声の自動文字起こしがより高度で賢くなり、精度や利便性が向上しました。",
       "source": "Gemini",
       "publishedAt": "2026-08-26T17:00:00.000Z",
-      "contentHash": "4fd5e38e2b0a"
+      "contentHash": "631dd671a52f"
     },
     {
       "id": "796c4b949b68",
@@ -725,10 +959,10 @@
       "id": "699b0ab143db",
       "title": "DGX Spark / RTX Spark / DGX Station の比較",
       "url": "https://note.com/npaka/n/nc8bef1e0a3ed",
-      "summary": "「DGX Spark」「RTX Spark」「DGX Station」の各機種について、特徴・性能・用途を比較し、価格や導入のポイント、メリット・デメリット、用途別の選び方や導入事例までをまとめて解説しています。",
+      "summary": "NVIDIAの3製品比較。DGX Spark：Linux小型AIスーパーコンピュータ（128GB統合メモリ、LLM推論/微調整向け）。RTX Spark：Windows対応のAI＋RTXグラフィックスPC（クリエイティブ・ゲーム向け）。DGX Station：最大748GB搭載の大型ワークステーション。いずれもGrace/Blackwell系を採用し、サイズ・OS・性能・価格・想定用途が異なる。",
       "source": "npaka",
       "publishedAt": "2026-08-26T05:38:04.000Z",
-      "contentHash": "1dc6d1459425"
+      "contentHash": "0c820e236a04"
     },
     {
       "id": "e7fae31b7d2d",
@@ -1013,10 +1247,10 @@
       "id": "1ba284820fae",
       "title": "Here’s how to use intelligent dictation in Gemini for macOS.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/enable-intelligent-dictation-macos/",
-      "summary": "Gemini for macOSに搭載されたインテリジェントな音声入力機能の紹介。デスクトップの任意ウィンドウで自然な話し声を即座に整形テキスト化し、「えー」「あー」を除去、途中修正も反映してカーソル位置に挿入。動画で設定と使い方を解説。",
+      "summary": "macOS版GeminiアプリでGoogleの新しいインテリジェント音声入力を有効にすると、デスクトップ上の任意のウィンドウに対して自然な話し言葉で音声入力ができるようになります。",
       "source": "Gemini",
       "publishedAt": "2026-08-25T16:00:00.000Z",
-      "contentHash": "962b81fcd3df"
+      "contentHash": "a4ae59de1aa6"
     },
     {
       "id": "2bdab5be337a",
@@ -1967,10 +2201,10 @@
       "id": "9c52a646fc3b",
       "title": "FreeToken の概要",
       "url": "https://note.com/npaka/n/n6064bfdb71ed",
-      "summary": "FreeTokenはNVIDIA GPU上でVRAMに収まらない大型MoEモデルをExpertをGPUにキャッシュしつつCPUと協調して高速にローカル推論するエンジン。RTX30/40/50向け。Qwen3.6-35B-A3B（約23.5GB）をRTX3080 Laptop 16GBで動作確認。CUDA13のnvccによるJITが必要で、インストールとサーバ起動手順を詳述。",
+      "summary": "「FreeToken」はNVIDIA GPUでVRAMに収まらない大型MoEモデルをGPUとCPUで協調してキャッシュ・実行し高速にローカル推論するエンジン。Qwen3.6-35B（約23.5GB）をRTX3080/16GBで動作確認し、CUDA13のnvccによるJITやインストール・起動手順を解説しています。",
       "source": "npaka",
       "publishedAt": "2026-08-23T05:56:51.000Z",
-      "contentHash": "468aef9dd32b"
+      "contentHash": "68b7b338a691"
     },
     {
       "id": "a5b9842fb2f9",
@@ -2255,10 +2489,10 @@
       "id": "e0d8c8c7bd37",
       "title": "Qwen3.8-27B におすすめのハーネス",
       "url": "https://note.com/npaka/n/nf7108e6bd18e",
-      "summary": "Qwen3.8-27B向けのコーディングエージェントハーネスを紹介。軽量なPi、機能豊富なOpenCode、公式ベンチのClaude Code、Qwen公式のQwen CodeのほかDeepSeekやCodex CLIも候補。用途に応じて選択を推奨。",
+      "summary": "Qwen3.8-27Bはローカルで動く高性能LLM。ハーネス併用で自律的なコード編集・実行・検索が可能。推奨は軽量なPi、機能豊富なOpenCode、公式ベンチのClaude Code、Qwen公式のQwen Code。DeepSeekやCodex CLIも候補。",
       "source": "npaka",
       "publishedAt": "2026-08-22T08:16:23.000Z",
-      "contentHash": "5fc1fad7285e"
+      "contentHash": "4ed63c9b7f87"
     },
     {
       "id": "80fbcd39a278",
@@ -2489,10 +2723,10 @@
       "id": "fe45f51de9f6",
       "title": "What does “full-stack” AI actually mean?",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/",
-      "summary": "Google DeepMindのPaige Baileyが解説する「フルスタックAI」は、インフラ・セキュリティ・研究・モデル＆ツール・製品の5層が連携して高速で安全かつ有用なAIを実現するという概念。動画で詳述。",
+      "summary": "Google DeepMindのエンジニアがフルスタック開発を五つの層に分解し、各層の役割と相互作用が性能や信頼性、日常のユーザー体験にどう影響するかを分かりやすく解説しています。",
       "source": "Gemini",
       "publishedAt": "2026-08-21T16:00:00.000Z",
-      "contentHash": "7d4dbbf287f9"
+      "contentHash": "c1ac68806098"
     },
     {
       "id": "16fefcfb13b7",
@@ -3587,10 +3821,10 @@
       "id": "0c146b69c0dd",
       "title": "Start the semester with one year of Gemini, on us",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/",
-      "summary": "Googleは対象の大学生向けに、学期開始を支援するため1年間のGemini（Google AI）プランを無料提供し、新しい学習支援ツールや機能を導入・拡充します。",
+      "summary": "世界中の大学生は、GoogleのAIプランを12か月間無料で利用できる権利を申請・取得できる。利用条件や対象校の確認が必要な場合がある。",
       "source": "Gemini",
       "publishedAt": "2026-08-19T19:00:00.000Z",
-      "contentHash": "6f1f7791e7bb"
+      "contentHash": "c55aff7ad78a"
     },
     {
       "id": "453a844d3aae",
@@ -3686,10 +3920,10 @@
       "id": "a7f60de41ca8",
       "title": "Waymo is bringing Gemini into its custom Ojai vehicles.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-waymo/",
-      "summary": "Waymoが専用車両OjaiにGoogleのAI「Gemini」を導入。Waymo Driverは運転を継続し、Geminiは独立して起動時のみ作動。音声で空調操作、近隣検索、通過中の史跡案内などハンズフリーで利用可能。",
+      "summary": "Waymoが独自製作の自動運転車「Ojai」にAI「Gemini」を搭載し、より役立ち、個別化された乗車体験を提供する。",
       "source": "Gemini",
       "publishedAt": "2026-08-19T17:30:00.000Z",
-      "contentHash": "370883b305cb"
+      "contentHash": "0b24e5291bb5"
     },
     {
       "id": "e24875277dd9",
@@ -4145,10 +4379,10 @@
       "id": "8a27388b3fc5",
       "title": "Try 4 new interactive BTS experiences inside the Gemini app",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/four-new-interactive-bts-experiences/",
-      "summary": "GoogleのGeminiアプリがBTSと提携し、日常韓国語フレーズ学習や楽曲レコメンドなど4種類のインタラクティブ体験を、期間限定で一部言語向けに提供します。",
+      "summary": "GoogleのAIアプリGeminiがK-POPグループBTSと協業し、アプリ内にメンバー連動の対話型機能シリーズを導入する。",
       "source": "Gemini",
       "publishedAt": "2026-08-18T17:30:00.000Z",
-      "contentHash": "b30fb4d1b00f"
+      "contentHash": "8ac84d684e81"
     },
     {
       "id": "37c3e8b3f96d",
@@ -4181,10 +4415,10 @@
       "id": "b7f6163aebb9",
       "title": "Keep your SAT prep on track with practice tests in Gemini.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-take-practice-sat/",
-      "summary": "Geminiアプリで、プリンストン・レビュー提供の厳選問題による無料のフルレングスSAT模試をオンデマンドで受験可能。終了後は即時フィードバックと解説が得られます。",
+      "summary": "GoogleのGeminiアプリが無料でフルレングスのSAT模試を提供。アプリでの受験手順や学習への活用方法、効果的な練習法を解説する記事です。",
       "source": "Gemini",
       "publishedAt": "2026-08-18T16:00:00.000Z",
-      "contentHash": "cef60830a566"
+      "contentHash": "25f9d42e741e"
     },
     {
       "id": "704d724e9ab2",
@@ -8766,240 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-08-09T15:26:45.000Z",
       "contentHash": "a28d1ef75af7"
-    },
-    {
-      "id": "147b31002816",
-      "title": "Taxi drivers rarely die of Alzheimer's",
-      "url": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650",
-      "summary": "2024年の約900万件の死亡記録分析で、タクシーや救急運転手はアルツハイマーで亡くなる率が最も低かった。著者は地図や多層的な空間推論を使う仕事が脳を守る可能性を指摘する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-09T15:21:46.000Z",
-      "contentHash": "38e7391c9bd7"
-    },
-    {
-      "id": "7a85f51126c3",
-      "title": "Silicon Valley misreads science fiction and undermines democracy",
-      "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
-      "summary": "ジル・リポアは著書『人工国家の興亡』で、テック企業が民主国家の機能を代替し、アルゴリズムや企業による「人工国家」への回帰を警告する。反技術ではなく民間の国家機能化を批判し、マスクの矛盾やApple広告、Twitterやデータセンター問題も論じる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-09T15:18:25.000Z",
-      "contentHash": "f59f67dbb93c"
-    },
-    {
-      "id": "b0098774b8d8",
-      "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
-      "url": "https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html",
-      "summary": "報告によれば、Windows 11の標準「天気」アプリが1GB超のRAMを消費することがあり、同条件のmacOS純正アプリは約5分の1しか使わない。Microsoftは性能改善に取り組んでいる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-09T15:11:20.000Z",
-      "contentHash": "b5be92275662"
-    },
-    {
-      "id": "23e0494f1c6b",
-      "title": "Tom Stanton's supersonic trebuchet breaks sound barrier with gravity alone",
-      "url": "https://www.techeblog.com/tom-stanton-supersonic-trebuchet/",
-      "summary": "トム・スタントンは英国の野外で、40kgの落下錘を3:1滑車で駆動する工夫を施した重力式トレビュシェットを実演。炭素繊維アームを2300rpm超で回し4gの弾丸を時速776マイル（音速を9mph超）で飛ばし、純粋に重力だけで音速を突破した初の投石機を達成した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-09T15:08:51.000Z",
-      "contentHash": "e2e4890cf43c"
-    },
-    {
-      "id": "0d16b5c04c4e",
-      "title": "Mea Culpa – Dark Hours",
-      "url": "https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html",
-      "summary": "先週公開した「Dark Hours」が別の開発者のオープンソース「DarkHours.app」と機能やバグが酷似していると判明。ドメインを相手にリダイレクトし公開を取り下げ、功績を認め謝罪。AI依存の開発を反省し今後は同様の方法でWebやiOSアプリを作らないと表明。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-09T13:20:43.000Z",
-      "contentHash": "770d7d581cac"
-    },
-    {
-      "id": "e3d631b14a8e",
-      "title": "Dropbox is a PC builder’s best friend",
-      "url": "https://www.theverge.com/tech/976092/pc-building-dropbox-backup",
-      "summary": "2018年の大規模プロジェクトでローカルデータ消失を恐れた筆者はDropboxを導入。クラウドバックアップで復旧や共同作業、大容量（～50GB）ファイル共有が楽になり、以来満足して更新を続けている。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-09T13:00:00.000Z",
-      "contentHash": "0c5c67f72676"
-    },
-    {
-      "id": "5ddd2738c431",
-      "title": "AI detectors are creating a new era of distrust",
-      "url": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
-      "summary": "AI文章検出ツールは誤検出や不透明な仕組み、偏りが問題視される一方で、教育機関や出版社は採用を進めており、不信感や監視・誤認のリスクを生んでいる。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-09T12:00:00.000Z",
-      "contentHash": "46fed18c33a2"
-    },
-    {
-      "id": "3f6ff1447bfa",
-      "title": "Everything You Do Is Being Recorded",
-      "url": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/",
-      "summary": "かつてスパイや犯罪者だけの心配だった盗聴が一般化しつつあり、AI搭載の録音ウェアラブル普及で日常の会話も録られる危険が。AppleもAIピン開発の噂がある。企業が録音防止機器（例：DeveillanceのSpectre I）を開発し、監視と対策のいたちごっこが進む。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-09T11:30:48.000Z",
-      "contentHash": "444a9c672078"
-    },
-    {
-      "id": "4e99f724653d",
-      "title": "「Cloud RunのGPUは実用的か？知っておくべき起動速度とコストの罠」～【googlecloud】人気記事（2026/08/09） | CareNet Engineersのフィード",
-      "url": "https://zenn.dev/carenet/articles/zenn-weekly-googlecloud-articles-2026-08",
-      "summary": "ZennからGoogle Cloud関連記事を自動取得し、AIで要約・自動更新する仕組みの紹介記事。例として「Cloud RunのGPUの実用性と起動速度・コストの注意点」や、Colossusなどを含むBigQueryの高速化アーキテクチャ解説を掲載。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-09T09:38:07.000Z",
-      "contentHash": "9d9b3edadfbb"
-    },
-    {
-      "id": "cf6dcd54db25",
-      "title": "There Are Magic Hexagons of Every Order",
-      "url": "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
-      "summary": "19をめぐる話題から「魔法六角形」を紹介。三方向の直線の和が等しい六角形格子で、連続数を使う正規なものは総セル数19（n=3）のもの以外存在しないと示され、AI支援の発見過程にも触れる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-09T07:19:58.000Z",
-      "contentHash": "224804b3f64a"
-    },
-    {
-      "id": "86035348337f",
-      "title": "Claude Code に自分の DB を触らせる — dbboard の MCP サーバー | Dokokadeさんのフィード",
-      "url": "https://zenn.dev/dokokade/articles/46b8c608715963",
-      "summary": "スキーマを貼ってClaude Codeに構造を尋ねる人向け。Rust+Tauri製DBクライアントdbboardはv0.5からMCPサーバ同梱。Claude Codeに登録するとエージェントがテーブル一覧取得・スキーマ読解・SELECT実行できる。導入から実動までの手順（例はv0.5.1）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-09T06:39:35.000Z",
-      "contentHash": "b420cfaf37a7"
-    },
-    {
-      "id": "ad9b0de7f378",
-      "title": "請求書・見積書・領収書を Markdown で書いて A4 PDF にする — インボイス制度を JSON Schema に落とし込んだ話 | Dokokadeさんのフィード",
-      "url": "https://zenn.dev/dokokade/articles/3d034de9f83f60",
-      "summary": "Excelで請求書を作るとファイルが分かれ差分管理が困難。Markdownならdiffは取れるが適格請求書要件の機械判定が必要。そこでfrontmatter＋JSON Schemaで検証し、合格したものだけA4 PDF化するOSSを作っている。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-09T06:20:57.000Z",
-      "contentHash": "4f6365bf106d"
-    },
-    {
-      "id": "c0217c402c5e",
-      "title": "AIエージェント開発のススメ vol.3：AI視点で綴る、鏡は人がいなくても像を返す | Dokokadeさんのフィード",
-      "url": "https://zenn.dev/dokokade/articles/586db0ba2d724e",
-      "summary": "AIエージェント「ソウ」が再登場。田中氏の複数案件をオーケストレーションしつつ、前回の「私は鏡です」に欠落があったと告白。鏡は誰もいなくても像を返し、AIの「不在の像」が有人時と似る発見とその見落としを綴る予告。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-09T06:12:02.000Z",
-      "contentHash": "534ae167fc33"
-    },
-    {
-      "id": "020fa6ad9945",
-      "title": "OBO フローで実現するAzure AI Search のユーザー権限検索 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/f337d23397a71d",
-      "summary": "Azure AI Searchをユーザー本人の権限で検索する方法。アプリ共通キーではなくMicrosoft Entra IDのOBOフローを用い、SPAがユーザー認証してバックエンドにトークンを渡し、バックエンドがOBOでトークンを交換してユーザー権限で検索を行う構成です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-09T05:47:21.000Z",
-      "contentHash": "17b10292485b"
-    },
-    {
-      "id": "ba8c052a66bf",
-      "title": "Microsoft Word for Windows 1.1a, Native X64 Port",
-      "url": "https://github.com/jmarshall23/msword",
-      "summary": "Microsoft Word for Windows 1.1a（Opus）をネイティブx64化した完全動作プロジェクト。16bitやWin16境界を置換してオリジナルの動作を64bit実行ファイルで再現（エミュレータ／再実装ではない）。Visual Studio 2022、Windows SDK、CMake等でソースをクローンしてビルド・テスト可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-09T05:23:41.000Z",
-      "contentHash": "2cdb70be5a22"
-    },
-    {
-      "id": "6c37ca8f691f",
-      "title": "The original URL for this prediction will no longer be available in 11 years (2011)",
-      "url": "http://longbets.org/601/",
-      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文を貼っていただければ、200字以内で日本語要約を作成します。URLだけでは取得できません。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-09T04:30:26.000Z",
-      "contentHash": "921ef10df899"
-    },
-    {
-      "id": "ccc988504938",
-      "title": "Illinois just told every operating system to start reporting your kid's age",
-      "url": "https://itsfoss.com/news/illinois-age-verification-bill/",
-      "summary": "イリノイ州がHB5511（子どものオンライン安全法）を可決。端末・OS・アプリ提供者にアカウント作成時の年齢確認UIと4段階区分を義務化し、APIで年齢信号を提供。未成年判定で投稿制限やプロフィール非表示、成人からのメッセージ遮断、位置情報マスク、夜間通知停止などの保護設定が自動適用。2028年実装期限、違反は最大5万ドル罰金。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-09T04:03:59.000Z",
-      "contentHash": "d6407776243f"
-    },
-    {
-      "id": "ca10c0d1e9cf",
-      "title": "Retraction: The App Store Rejection of the Week That Was a Correct Rejection",
-      "url": "https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week",
-      "summary": "John Gruberは「App Store Rejection of the Week: Dark Hours」記事を撤回した。前提が根本的に誤っており訂正では不十分と判断、謝罪。原文は注記付きで公開を続ける。執筆24年で初の撤回。Terry Godierやそのアプリに関する誤情報が発端。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-09T03:26:00.000Z",
-      "contentHash": "741eb58139bb"
-    },
-    {
-      "id": "a01041fffb6e",
-      "title": "Incentives are for losers",
-      "url": "https://www.experimental-history.com/p/incentives-are-for-losers",
-      "summary": "著者は「インセンティブが悪い」という診断には同意しつつも、それに従うことを当然視する風潮を批判する。報酬目当てで動くのは「敗者」の発想であり、正しい行いを優先すべきだと主張し、野球のヘルメット話で皮肉る。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-09T01:49:48.000Z",
-      "contentHash": "799361bdeb7a"
-    },
-    {
-      "id": "adc9e5b654a2",
-      "title": "初学者向けJava学習支援サービス「CAS」をリリースしました！ | サイゼントの技術ブログ",
-      "url": "https://cyzennt.co.jp/blog/2026/08/09/%e5%88%9d%e5%ad%a6%e8%80%85%e5%90%91%e3%81%91java%e5%ad%a6%e7%bf%92%e6%94%af%e6%8f%b4%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%80%8ccas%e3%80%8d%e3%82%92%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%97/",
-      "summary": "弊社はJava初学者向けに教材やスクールを提供してきましたが、学習を継続しやすくするオンラインサービス「CAS」を新たにリリースしました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-09T01:49:01.000Z",
-      "contentHash": "733f6f6b2350"
-    },
-    {
-      "id": "c75ac87284b3",
-      "title": "Melatonin impairs morning cognition in healthy young adults (2023)",
-      "url": "https://academic.oup.com/sleep/article/46/Supplement_1/A34/7181621",
-      "summary": "外部のウェブページには直接アクセスできません。記事本文または要点を貼っていただければ、200文字以内で日本語要約します。Hacker Newsの議論要約でもよければそちらも可能です。どちらになさいますか？",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-09T00:59:58.000Z",
-      "contentHash": "76f36442b818"
-    },
-    {
-      "id": "8a5e970577ce",
-      "title": "URDF Visualizer の使い方",
-      "url": "https://note.com/npaka/n/n7c61e9b9bdcd",
-      "summary": "URDF VisualizerはVS Code拡張でURDF/Xacroを3Dプレビューする軽量ビューア。Visual/Collision/Inertiaや座標系表示、Link/Joint一覧、Jointのドラッグ操作や計測が可能。導入後はプロジェクトフォルダを開き、.vscode/settings.jsonでpackageパスを設定して再起動する。",
-      "source": "npaka",
-      "publishedAt": "2026-08-09T00:41:36.000Z",
-      "contentHash": "32882e9da9b0"
-    },
-    {
-      "id": "efc431bdd8c2",
-      "title": " GitHub OIDC に セキュリティ向上のための設定項目が増えました | APC 技術ブログ",
-      "url": "https://techblog.ap-com.co.jp/entry/2026/08/09/093840",
-      "summary": "エーピーコミュニケーションズの亀崎が、GitHub ActionsとAzure連携設定でEntra IDに「Organization ID」「Repository ID」という新しい入力項目が増えているのを見つけ、従来の名前項目との違いや導入理由を調べた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-09T00:38:40.000Z",
-      "contentHash": "4299e3168a62"
-    },
-    {
-      "id": "78b23e98a8f1",
-      "title": "Os8088: A powerful Mac-like OS for the IBM XT, 286, 386",
-      "url": "https://os8088.com/",
-      "summary": "os8088はIntel 8086向けに実機リアルモードアセンブリで書かれたIBM PC/XT用グラフィカルOS。Mac System 1風の重ねウィンドウ、プルダウン、シリアルマウス、ロード可能なプログラムとプリエンプティブマルチタスク（12タスク、18.2Hz）をフロッピーブートで実現。VGA/CGA/Hercules対応でブラウザ上でも起動可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-08T23:37:27.000Z",
-      "contentHash": "b4202e8fcac4"
-    },
-    {
-      "id": "73b46baa81ea",
-      "title": "Dithered QR Codes",
-      "url": "https://www.andrewt.net/dithered-qr-codes/wtf/",
-      "summary": "QRコードは写真で読み取るデータを格子で表現。検出用の機能パターンとデータ領域に分かれ、データ領域は装飾可能。画素を3×3に分け中央だけでデータを保持し、残りにディザで白黒画像を埋め込む手法で低解像度の一階調写真が作れる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-08T23:05:24.000Z",
-      "contentHash": "b14e7e957956"
-    },
-    {
-      "id": "664518f28803",
-      "title": "My server is a phone now",
-      "url": "https://seg6.space/posts/phone-server/",
-      "summary": "著者はコストと性能の問題でHetznerのVPSをやめ、所有していたCMF Phone 1（スマホ）をサーバに転用。Surfや複数のWebアプリを稼働させVPSを置き換えた。postmarketOS化ではWi‑Fi等の不具合が残った。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-08T22:49:23.000Z",
-      "contentHash": "ef8d7589cb5c"
     }
   ]
 }
