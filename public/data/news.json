@@ -1,6 +1,60 @@
 {
-  "generatedAt": "2026-08-31T16:12:47.821Z",
+  "generatedAt": "2026-08-31T21:39:36.924Z",
   "items": [
+    {
+      "id": "0d0e09d293d0",
+      "title": "Alienware’s budget-friendly QD-OLED is discounted for the first time",
+      "url": "https://www.theverge.com/gadgets/986901/alienware-qdoled-2726dm-deal-sale",
+      "summary": "Alienwareの27型QD-OLEDゲーミングモニタAW2726DMがDellで通常349.99ドルから319.99ドルに値下げ。深い黒と鮮やかな色再現のQD-OLED、240Hz駆動とAMD FreeSync Premium Plus対応で、手頃な高性能機。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-31T19:31:59.000Z",
+      "contentHash": "4dbaf8f5a387"
+    },
+    {
+      "id": "e9031d8b605d",
+      "title": "Car owners want tech they can ignore",
+      "url": "https://www.theverge.com/news/986721/car-tech-survey-jd-power-smart-ignition",
+      "summary": "自動車メーカーは大画面などの技術を増やすが、消費者は目立たない機能を好む。JDパワーが2026年型の新車6万8084人を90日後に調査し、スマート始動やAI制御HVACが高評価だった。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-31T17:11:17.000Z",
+      "contentHash": "8e6c9ddf459c"
+    },
+    {
+      "id": "7c07861ffff2",
+      "title": "Phil Schiller is leaving his biggest jobs at Apple",
+      "url": "https://www.theverge.com/tech/986869/apple-phil-schiller-stepping-down",
+      "summary": "フィル・シラーがApp Storeとイベントの責任者を退任し、Apple Fellowとして未定の業務に携わる。1987年入社、1997年にマーケティング責任者、2008年のApp Store立ち上げに関与。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-31T16:54:07.000Z",
+      "contentHash": "60ca3c4120dd"
+    },
+    {
+      "id": "45aef92bd4de",
+      "title": "Markiplier is now GoPro’s biggest shareholder",
+      "url": "https://www.theverge.com/tech/986847/markiplier-gopro-investor",
+      "summary": "YouTuberのMarkiplier（Mark Fischbach）がGoProの株式を8.5％保有し最大株主に。映画制作の民主化を掲げ投資し、新カメラMission 1 ILSを称賛、今後作品で使用すると述べたが動画では保有を明記していない。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-31T16:38:10.000Z",
+      "contentHash": "73cc3aa05d11"
+    },
+    {
+      "id": "e8bde4788682",
+      "title": "Read Tim Cook&#8217;s final message to Apple staff as CEO",
+      "url": "https://www.theverge.com/tech/986832/read-tim-cooks-final-message-as-ceo-to-apple-staff",
+      "summary": "ティム・クックが本日CEOを退任し、後任はジョン・ターンナスに。2011年就任以来iPhoneの遺産を継ぎ、Appleを世界的企業に育てた。最終日に社員へ感謝と愛情を伝える辞を送った。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-31T16:30:45.000Z",
+      "contentHash": "ade27ec6b95d"
+    },
+    {
+      "id": "35875a421ff9",
+      "title": "Debian won&#8217;t ban AI code from its Linux distribution",
+      "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
+      "summary": "Debianは開発・保守・ドキュメントへの寄稿でAIツールの使用を容認する新方針を可決。責任ある利用で生産性向上を期待し、生成AIは既存の貢献基準に従うとし、一部寄稿者は反発している。",
+      "source": "The Verge",
+      "publishedAt": "2026-08-31T15:34:58.000Z",
+      "contentHash": "62d1554051e4"
+    },
     {
       "id": "65212327158b",
       "title": "New York governor to 3D-printed gun leader: &#8216;tell Cody I will get ahead of him&#8217;",
@@ -8946,60 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-10T00:53:11.000Z",
       "contentHash": "edb18f91a2b6"
-    },
-    {
-      "id": "4ff3a8d98729",
-      "title": "DevContainer に tmux を入れて、設定ごと配る | SIOS Tech Lab",
-      "url": "https://tech-lab.sios.jp/archives/53919",
-      "summary": "DevContainerにtmuxを導入。Dockerfileでtmuxをインストール（Debian系はapt、Alpineはapk）。~/.tmux.confはコンテナ再作成で消えるため .devcontainer/.tmux.conf に置き、postCreateCommandで配布。セッション分割やプロセス継続が利点。設定全文と解説あり。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-10T00:32:15.000Z",
-      "contentHash": "2c3ffd687952"
-    },
-    {
-      "id": "73e7cd2503b9",
-      "title": "KQL は書けないまま、Application Insights の仮説検証を AI に任せた | SIOS Tech Lab",
-      "url": "https://tech-lab.sios.jp/archives/53937",
-      "summary": "Claude Code経由でAzure CLIにApplication Insightsのクエリを実行させ、KQLが書けなくても自然言語の仮説をそのまま検証できる仕組みを構築。AIには生ログでなく集計表のみ渡し、認証・対象・読み取り専用など制約を設ける。仮説立案は人間が担当。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-10T00:31:15.000Z",
-      "contentHash": "52a8de5a8bdb"
-    },
-    {
-      "id": "adbb62252b6d",
-      "title": "3D座標系入門 - XYZ軸と右手系/左手系",
-      "url": "https://note.com/npaka/n/n9d3bb1216705",
-      "summary": "3D座標系は「正面」「上」「手系（右手/左手）」と原点で決まる。指定を誤ると向きや反転が生じ、回転の正負は手系で変わる。例: Three.js(右,+Z前+Y上)、Unity(左,+Z前+Y上)、Unreal(左,+X前+Z上)、Blender(右,−Y前+Z上)。",
-      "source": "npaka",
-      "publishedAt": "2026-08-10T00:23:49.000Z",
-      "contentHash": "73eaf998d36f"
-    },
-    {
-      "id": "b3e3fe8f4c0f",
-      "title": "【アスキーアートで検証】AIモデルごとの推論レベルによるアウトプットの違い | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/8eaffecd014d57",
-      "summary": "筆者はアスキーアートでモデル差を検証。カブトムシはClaude Fable 5のみ成功、Opus5やGPT-5.6は失敗。代わりに東京タワーを同条件で出力させ、推論レベルごとに出来の差を比較し、モデル能力の違いを可視化した（AGI指標は半分冗談）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-10T00:00:08.000Z",
-      "contentHash": "275b9e470780"
-    },
-    {
-      "id": "2e1008b875b5",
-      "title": "S3バケットをBigQueryからクエリするための2つの機能（BigQuery cross-cloud connectionsとBigQuery Omniの違い） | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/bigquery-cross-cloud-connections-and-bigquery-omni",
-      "summary": "BigQuery cross-cloud connectionsはBigQuery側で処理し全リージョン対応だが生データをGCPへ転送するため通信費・速度に課題があり（2026年8月時点でPreview）。BigQuery OmniはAWS/Azure内に専用ワーカーを置き結果のみ返すため高速で外向き通信費が抑えられるが対応リージョンや機能制限、専用コンピュート料金がある。用途と要件で使い分ける。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "contentHash": "9ee77bdb2cf4"
-    },
-    {
-      "id": "b38e21926565",
-      "title": "空白しか書けない言語!? 難解プログラミング言語で「Hello, KENTEM!」書いてみた | KENTEM TechBlog",
-      "url": "https://tech.kentem.jp/entry/2026/08/10/090000",
-      "summary": "実用性ゼロの難解プログラミング言語(esolang)で「Hello, KENTEM!」を書き、実際に動作確認した記事。Whitespace（空白・タブ・改行だけの“見えない”スタック言語）を中心に、Brainfuck、Piet、Pikalang、Malbolgeも紹介・解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "contentHash": "d002a9d19da7"
     }
   ]
 }
