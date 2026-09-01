@@ -1,6 +1,51 @@
 {
-  "generatedAt": "2026-08-31T21:39:36.924Z",
+  "generatedAt": "2026-09-01T04:40:50.126Z",
   "items": [
+    {
+      "id": "d47e540f0a67",
+      "title": "AI開発でいつ、どこまでコードを理解するか | Spectee Developers Blogのフィード",
+      "url": "https://zenn.dev/spectee/articles/ai-coding-expertise-learning-loop",
+      "summary": "AI駆動開発では全コードを即深く理解する必要はなく、影響度・可逆性・即答性で優先順位を付け高リスク箇所を先に理解する。認知負債を意図的に抱え、テストや運用で補う判断基準を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-01T03:48:56.000Z",
+      "contentHash": "bf9293816b4b"
+    },
+    {
+      "id": "89814c77bea5",
+      "title": "dbt で認定済みタグを管理し、Databricks 上のデータの信頼性を示す | IVRyテックブログのフィード",
+      "url": "https://zenn.dev/ivry/articles/ivry-dbx-certification-status-with-dbt-20260901",
+      "summary": "Databricksの認定済みタグをdbtで管理し、Genie Oneが優先利用する信頼あるデータを明示する方法を紹介。必要権限（system.certification_statusのASSIGNと対象へのAPPLY TAG）、dbt-databricksでの設定例やGitHubレビューによる運用メリットを解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-01T03:00:05.000Z",
+      "contentHash": "7065f404d7c1"
+    },
+    {
+      "id": "6964aae22d23",
+      "title": "Claude Codeのskill、捨てる前に置き場を変えてみませんか | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/54416",
+      "summary": "Claude Codeのskillがリポジトリrootに溜まり常駐する問題を、各作業ディレクトリ配下に移すだけで解決できます。Agent Skillsの動的ロードで必要なときだけ読み込み、不要な常駐やメンテ腐敗を防げます。置き場は誰が使うかで決めるのが基本です。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-01T03:00:00.000Z",
+      "contentHash": "8e22a9d2da6b"
+    },
+    {
+      "id": "200ff5819e99",
+      "title": "依存パッケージの最新率をGitLabのcoverageグラフで出してみる | wwwave's Techblogのフィード",
+      "url": "https://zenn.dev/wwwave/articles/57e6a8f0075006",
+      "summary": "npmの直接依存を package-lock と npm registry の dist-tags.latestで照合し、最新化済み比率を算出して \"package-coverage: XX.XX%\" を1行出力。GitLab CIで dependencies/devDependencies別に定期実行し、カバレッジグラフで可視化。sh/curl/jqのみで実装。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-01T02:51:17.000Z",
+      "contentHash": "9235041fd73a"
+    },
+    {
+      "id": "e8910025a49b",
+      "title": "Evidence of Fraud in an Influential Study About Procrastination",
+      "url": "https://datacolada.org/138",
+      "summary": "Arielyらの2002年論文（外部期限で成績向上）が再現できず、著者らが2006年に受領した元データを再分析。複製研究者と協議し、編集者の要請でArielyへ解析を共有。再現失敗と不正の疑いを報告。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-31T23:45:56.000Z",
+      "contentHash": "d52a6fa5b556"
+    },
     {
       "id": "0d0e09d293d0",
       "title": "Alienware’s budget-friendly QD-OLED is discounted for the first time",
@@ -9,6 +54,15 @@
       "source": "The Verge",
       "publishedAt": "2026-08-31T19:31:59.000Z",
       "contentHash": "4dbaf8f5a387"
+    },
+    {
+      "id": "c63d155c4f44",
+      "title": "A walkable ASCII cyberpunk city in one HTML file [video]",
+      "url": "https://www.youtube.com/watch?v=3YtygAx_C6A",
+      "summary": "「ASCII City」のアップデートで、交通挙動や街の細部、建物の内装、地形の高低差や超高層化が実演公開され、Hacker Newsで注目と議論を集めている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-31T18:21:33.000Z",
+      "contentHash": "0b997e7c2edb"
     },
     {
       "id": "e9031d8b605d",
@@ -29,6 +83,15 @@
       "contentHash": "60ca3c4120dd"
     },
     {
+      "id": "001d0ddadc40",
+      "title": "I turned my security cameras into an automatic bird identification system",
+      "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+      "summary": "Jason Tucker（2026/8/21）の記事。ImmiBridgeでiCloudから自前のImmichサーバへ51,000枚の写真・動画を週末で移行した事例を紹介し、設定手順や同期の実際の流れと運用感を解説しています。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-31T16:47:11.000Z",
+      "contentHash": "502ca9d72806"
+    },
+    {
       "id": "45aef92bd4de",
       "title": "Markiplier is now GoPro’s biggest shareholder",
       "url": "https://www.theverge.com/tech/986847/markiplier-gopro-investor",
@@ -47,6 +110,15 @@
       "contentHash": "ade27ec6b95d"
     },
     {
+      "id": "30cbe227f51e",
+      "title": "RavynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
+      "url": "https://ravynos.com/",
+      "summary": "ravynOSはDarwin/FreeBSD/AppleのOSSを基にしたプレアルファの開発者向けオープンソースOS。macOS風UIと互換性、ハード非依存、Cocoa対応やドラッグ＆ドロップ導入を目指し、Discord/GitHubで開発参加を募る。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-31T16:19:36.000Z",
+      "contentHash": "c42f1fd14482"
+    },
+    {
       "id": "35875a421ff9",
       "title": "Debian won&#8217;t ban AI code from its Linux distribution",
       "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
@@ -54,6 +126,15 @@
       "source": "The Verge",
       "publishedAt": "2026-08-31T15:34:58.000Z",
       "contentHash": "62d1554051e4"
+    },
+    {
+      "id": "63994c0b6655",
+      "title": "Playa Phone",
+      "url": "https://playaphone.com/",
+      "summary": "Burning Manの会場、3:30とCeiba角のFlying Spaghetti Monster前に改造公衆電話ブースが設置。誰でも世界へ5分無料通話可能。+1(775)557-4848に掛ければ通りすがりの参加者と繋がることも。着信は友人或いはランダムな参加者。Playa Phoneを連絡先に登録すると着信しやすい。",
+      "source": "Hacker News",
+      "publishedAt": "2026-08-31T14:52:26.000Z",
+      "contentHash": "8ba6e006d0ee"
     },
     {
       "id": "65212327158b",
@@ -90,6 +171,15 @@
       "source": "The Verge",
       "publishedAt": "2026-08-31T13:00:00.000Z",
       "contentHash": "e00efd18ea34"
+    },
+    {
+      "id": "0b5a688ac445",
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "url": "https://openai.com/index/polimill",
+      "summary": "PolimillはOpenAIのGPTモデルとCodexを活用し、自治体が行政知識を検索・活用できるよう支援するとともに、開発を加速させる。",
+      "source": "OpenAI",
+      "publishedAt": "2026-08-31T07:00:00.000Z",
+      "contentHash": "d4da3fb595c5"
     },
     {
       "id": "f6cc473b3707",
@@ -8910,96 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-10T04:59:12.000Z",
       "contentHash": "663f676187cd"
-    },
-    {
-      "id": "aff471a45b57",
-      "title": "Weekly AWS アップデート情報 - 2026年8月10日 | ソフトバンク テックブログ（公式）のフィード",
-      "url": "https://zenn.dev/softbank/articles/93183c97bceaf3",
-      "summary": "Weekly AWS（8/3–8/9）の主な更新: AWS Security Hub Extended に10番目のセキュリティカテゴリ「サプライチェーンセキュリティ」が追加され、ChainguardとSocketがパートナーとして参加しました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-10T04:19:26.000Z",
-      "contentHash": "12b5db530d7b"
-    },
-    {
-      "id": "4364c37bdc67",
-      "title": "NRIネットコムBlog　7月アクセス数ランキング!! | NRIネットコムBlog",
-      "url": "https://tech.nri-net.com/entry/access_ranking_2026_07",
-      "summary": "池部です。2026年7月1日～31日のブログアクセスTOP10を発表。1位は「カバレッジの種類（C0/C1/C2/MCC）」、2位「Swagger入門」、3位「Googleタグゲートウェイ（sGTM）導入」、4位は「0やnullの概念」など、技術系記事が上位を占めました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-10T03:53:37.000Z",
-      "contentHash": "1030f8a5469c"
-    },
-    {
-      "id": "bf86c80d4ed8",
-      "title": "Auto mode is now the default in Claude Code",
-      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
-      "summary": "Claude Codeの自動モードが8月14日からPro/Max/Teamプランで既定に。長時間自律処理や危険コマンド検出が向上。既に別の既定を設定している場合は一度切替確認が出て、ピン留め既定は不変。分類器の追加トークン分は現時点で課金免除。Enterpriseやクラウド版は段階導入中。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-10T03:50:00.000Z",
-      "contentHash": "24ce7d2f06e2"
-    },
-    {
-      "id": "cc0739ab1e5b",
-      "title": "IT Women Summit —— テクノロジーの力で、組織と未来を動かす女性たちレポート | SmartHR Tech Blog",
-      "url": "https://tech.smarthr.jp/entry/2026/08/10/123922",
-      "summary": "SmartHRのアクセシビリティ部マネージャー坂巻が、2026年5月26日のオンライン「IT Women Summit」にオンライン支援スポンサーとして協賛し、「専門性を『組織の力』へ組み替える—エキスパートの仕事」で登壇。視聴者へ感謝とイベント紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-10T03:39:22.000Z",
-      "contentHash": "5a1c52758db9"
-    },
-    {
-      "id": "3e838b549b15",
-      "title": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice",
-      "url": "https://www.whodunnitai.com/",
-      "summary": "ブラックウッド邸の事件記録。家長が毒殺され、容疑者は五人。証拠映像やデモを使い、容疑者のアリバイを問いただして矛盾を突き、一つの真実を追う捜査記録。Chase Myers著。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-10T03:18:40.000Z",
-      "contentHash": "cdc2fc10eaa9"
-    },
-    {
-      "id": "7def8c8346eb",
-      "title": "What Happened to HackerOne?",
-      "url": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/",
-      "summary": "著者は自身の経験から、HackerOneがライブハッキング中心の黄金期から収益優先とAI導入で劣化し、報告権や研究者への配慮が損なわれ信頼が失われたと批判する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-10T02:23:17.000Z",
-      "contentHash": "6fdd837fb5f9"
-    },
-    {
-      "id": "85f9b59c8e27",
-      "title": "【AIコーディング】バイブコーディングとは何か――そして何に気をつけるべきか | エイトハンドレッド TECH BLOG",
-      "url": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/08/10/102330",
-      "summary": "バイブコーディングは自然言語でAIにコード生成させる手法で、非エンジニアの試作を高速化する一方、セキュリティ・保守性・依存関係・テスト欠如のリスクがある。本番化にはレビュー・テスト設計・適用範囲制限・変更履歴管理が必須。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-10T01:23:30.000Z",
-      "contentHash": "44b0b463b47d"
-    },
-    {
-      "id": "3b5baccb0a4f",
-      "title": "fablify: Claude Fable 5の「仕事の進め方」をAgent Skillとして持ち運ぶ | GVATECHブログのフィード",
-      "url": "https://zenn.dev/gvatech_blog/articles/3ea6067d0d23fd",
-      "summary": "fablifyはClaude Fable 5の「仕事の進め方」を模したエージェントスキル。結論先出し、検証／推測の区別、実行確認、最小変更、並列検証などの行動規律を外部化して小型モデルでも再現し、VS Code等で使える。導入は npx skills add gvakosaka/fablify。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-10T01:16:12.000Z",
-      "contentHash": "ca36ce030cf3"
-    },
-    {
-      "id": "4edbcdf684ea",
-      "title": "Fabric入門：なぜ分析用データベースは正規化しないのか | Alternative Architecture DOJO",
-      "url": "https://aadojo.alterbooth.com/entry/2026/08/10/100000",
-      "summary": "DP-600の問題を契機に、著者は分析用データベースがなぜ正規化されないかを解説。DWHは分析・集計を重視し、結合を減らしてクエリを簡素化するために非正規化（スタースキーマやFact/Dimension）を採用する。一方、OLTPは整合性や更新の容易さのため正規化が重要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-10T01:00:00.000Z",
-      "contentHash": "073d33bc025a"
-    },
-    {
-      "id": "ac6d9838b4ff",
-      "title": "Claude Codeをスマホでリモート、その場でペインが増える | SIOS Tech Lab",
-      "url": "https://tech-lab.sios.jp/archives/53942",
-      "summary": "Claude Codeをスマホから/remote-controlでPCセッションに接続して音声入力や撮影で外出先から即指示でき便利だが、作業をセッションごとに分けられず接続切れや変化把握の困難といった新たなペインが生じる。対策は手元PC側の設定でセッションを維持すること。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-10T00:53:11.000Z",
-      "contentHash": "edb18f91a2b6"
     }
   ]
 }
