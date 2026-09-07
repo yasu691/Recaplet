@@ -1,14 +1,122 @@
 {
-  "generatedAt": "2026-09-06T18:14:59.307Z",
+  "generatedAt": "2026-09-07T03:54:27.015Z",
   "items": [
+    {
+      "id": "d5c736f2ff62",
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "summary": "シアトル・タイムズとNewsdayがOpenAIとMicrosoftを著作権侵害で提訴。無断で記事をAIの学習に使い報道文を出力すると主張しており、NYTらの訴訟や約400の地方紙の訴えに続く。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-06T23:36:04.000Z",
+      "contentHash": "180fe3f00659"
+    },
+    {
+      "id": "2cfe7e0a9cc6",
+      "title": "Making a Python interpreter in 1024 bytes",
+      "url": "https://austinhenley.com/blog/python1024.html",
+      "summary": "手書きCで512/1024バイトのPython風インタプリタ作成挑戦。全機能は無理なのでdefやコロン、インデントなど見た目を優先。再帰下降パーサで式を逐次実行し、状態はグローバルと固定長配列(999)で保持。ASTやバイトコードは使わず、エラー処理も省略。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-06T23:14:08.000Z",
+      "contentHash": "1eec8fc0e4cd"
+    },
+    {
+      "id": "0f88b0f3ab82",
+      "title": "An Amazon cargo plane crashed at Miami International Airport",
+      "url": "https://www.theverge.com/tech/990918/amazon-cargo-plane-crashed-miami",
+      "summary": "2026年9月6日、アマゾンのロゴを掲げた21 Air便（ボーイング767-300、サンフアン発）がマイアミ国際空港の着陸で滑走路を逸脱し車両に衝突、複数の負傷者が出た。FAAはオーバーランを確認し、空港は一時運航停止となった。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-06T20:56:38.000Z",
+      "contentHash": "9bfa72158404"
+    },
+    {
+      "id": "16cfe9c67e9a",
+      "title": "It took a year to ship WebAssembly in Anubis",
+      "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
+      "summary": "このスクリプトはmain.mjsの読み込み失敗を検出し、ジッター付き指数バックオフで再注入して「Loading...」で止まる事態を防ぐ。モバイルでのコンソール不可への対策で、MITライセンス下にあり無効化を警告する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-06T20:32:38.000Z",
+      "contentHash": "6a925200456c"
+    },
+    {
+      "id": "571ff77c20a5",
+      "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
+      "url": "https://grapheneos.social/@GrapheneOS/117225539756835649",
+      "summary": "外部サイトに直接アクセスできないため、元記事や主要部分をここに貼っていただけますか？（Hacker Newsの議論も要約する場合はそちらの内容もお願いします。）貼っていただければ200文字以内で要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-06T20:24:00.000Z",
+      "contentHash": "9db5b80b5a1c"
+    },
+    {
+      "id": "b10c0821d688",
+      "title": "The car industry A/B tested selling a car with and without CarPlay",
+      "url": "https://a.wholelottanothing.org/the-car-industry-a-b-tested-selling-the-same-car-with-and-without-carplay-and-the-results-are-not-shocking/",
+      "summary": "GMはCarPlay/Android Autoを廃しAndroid Automotiveへ移行、顧客が反発。2025年型Chevy EVはスマホ連携が制限され、HondaのPrologue（実質Chevy車）が偶然のA/Bテストとなり、CarPlayの有無でユーザー反応が明確に分かれた。筆者は安全面からCarPlay支持。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-06T19:53:23.000Z",
+      "contentHash": "98f9757170c1"
+    },
+    {
+      "id": "0e5a7a74ebb7",
+      "title": "Europe has its first commercial orbital rocket",
+      "url": "https://www.theverge.com/science/990906/isar-aerospace-europe-orbital-rocket-launch",
+      "summary": "独Isar Aerospaceがノルウェーの宇宙港から二段ロケット「Spectrum」を打ち上げ、欧州初の完全商用ロケットによる低軌道投入に成功。前回は打ち上げ30秒で失敗していた。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-06T19:04:22.000Z",
+      "contentHash": "2221d064493f"
+    },
+    {
+      "id": "d3be7802bd74",
+      "title": "Following legal advice, the Nitter project will continue",
+      "url": "https://github.com/zedeus/nitter",
+      "summary": "Nitterはオープンソースのプライバシー重視Twitter代替フロントエンド。JavaScript不要で追跡回避、公開ツイートをスクレイピングして表示、RSS生成やミニマルUI、自己ホスト対応。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-06T17:51:23.000Z",
+      "contentHash": "3d6e9e453584"
+    },
+    {
+      "id": "742806d6d415",
+      "title": "Nitter and XCancel resume service after legal advice",
+      "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
+      "summary": "Nitter（Twitterのプライバシー重視フロントエンド）リポジトリとインスタンスに対する法的圧力や削除対応、ミラーや代替案、XのAPI制限やスクレイピング問題、表現の自由・フェアユースを巡る議論をまとめたHNスレッド。関連の削除通知やミラーリンクも共有されている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-06T17:49:47.000Z",
+      "contentHash": "1dfed17e3b40"
+    },
+    {
+      "id": "0d615389cf0d",
+      "title": "Boox’s tiny Picco e-reader should land in November",
+      "url": "https://www.theverge.com/tech/990895/boox-picco-tiny-e-reader-november-ifa",
+      "summary": "Booxの新eリーダーPiccoはXteink X4系に近い端末で、IFAで判明した仕様は3.97インチのタッチ対応電子ペーパー、スマホ装着用磁石なし、物理ページめくりボタン（短押し・長押しで機能割当可能）、内蔵ストレージは無くmicroSD依存。価格は未発表。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-06T16:28:58.000Z",
+      "contentHash": "6a94ac7d153f"
+    },
+    {
+      "id": "1f0643794f0c",
+      "title": "An Alien Mind",
+      "url": "https://openai.com/index/an-alien-mind/",
+      "summary": "申し訳ありませんが、外部サイトを直接開けません。記事本文を貼り付けるか主要部分を送ってください。確認次第、200文字以内で日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-06T16:27:05.000Z",
+      "contentHash": "152a9d11705f"
+    },
+    {
+      "id": "8f6fb59c7a25",
+      "title": "NetBSD 9.5 released and EOL for NetBSD-9",
+      "url": "https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and",
+      "summary": "NetBSD 9.5がリリースされました。セキュリティ修正や各種バグ修正、ドライバ・アーキテクチャの改善、パッケージ更新などを含み、既存ユーザーはアップグレードが推奨されています。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-06T15:44:24.000Z",
+      "contentHash": "2fc5241fbe8a"
+    },
     {
       "id": "f8e9d93c60f5",
       "title": "How I feel about AI",
       "url": "https://beza1e1.tuxen.de/ai_feelings.html",
-      "summary": "著者はLLMの驚異的効果に驚く一方、超知能による滅亡の恐れを抱く。AI企業のクローラーが開かれたウェブや芸術家を圧迫し、資本と環境問題に怒るが、技術革新と創作の恩恵も享受。技術的利得はあるが社会面は厳しいと結ぶ。",
+      "summary": "申し訳ありませんが外部リンクを直接開けません。記事本文をここに貼るか主要ポイントを教えていただけますか？いただければ200字以内で要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-09-06T15:00:19.000Z",
-      "contentHash": "f120086154b0"
+      "contentHash": "e14d2a9bda6e"
     },
     {
       "id": "a871c7441d09",
@@ -32,28 +140,28 @@
       "id": "3ebfdfa2baad",
       "title": "The Fairphone 6 Plus is the midrange phone we desperately needed",
       "url": "https://www.theverge.com/tech/990436/fairphone-6-plus-review",
-      "summary": "Fairphone 6 Plusは、倫理的調達と高い修理性を維持しつつ性能やカメラを改善したミッドレンジ機。米国で正式発売され、使い勝手が普通の中堅Androidに近づいた。",
+      "summary": "Fairphone 6 Plusは、倫理的な素材調達と高い修理性を維持しながら、これまでの処理性能やカメラの妥協を改善。ミッドレンジの平均的なAndroid端末として自然な使い心地になり、米国でも販売された。",
       "source": "The Verge",
       "publishedAt": "2026-09-06T13:00:00.000Z",
-      "contentHash": "a1b42135884f"
+      "contentHash": "49ae0c0853b9"
     },
     {
       "id": "de0bcf43d9fb",
       "title": "Competitive Pokémon is on phones now, but you still need a Switch to become a champion",
       "url": "https://www.theverge.com/games/990691/competitive-pokemon-champions-mobile-tournament-accessibility",
-      "summary": "『Pokémon Champions』はSwitch版が4月、スマホ版が6月に登場し内容はほぼ同じでクロスプラットフォームだが、世界大会など上位大会ではスマホ版が使用禁止で、チャンピオンになるにはSwitchが必要とされる。理由は明確でない。",
+      "summary": "対戦ポケモンはスマホで始められるが、世界大会レベルではなぜかSwitchが必要。『Pokémon Champions』は4月にSwitch、6月にモバイル版が配信され、内容はほぼ同じでクロスプレイ対応。端末や操作の好みで選べるが筆者は常時携帯のためスマホを多用している。",
       "source": "The Verge",
       "publishedAt": "2026-09-06T13:00:00.000Z",
-      "contentHash": "72df8b83ee2a"
+      "contentHash": "b1ee642f9200"
     },
     {
       "id": "d805416fd871",
       "title": "DIY plug-in solar gains momentum in the US",
       "url": "https://www.theverge.com/column/990183/diy-plug-in-solar-us",
-      "summary": "ヨーロッパで普及したコンセント差込式のDIY太陽光キット（バルコニーソーラー）が米国で注目。EcoFlow等の屋外対応キットは簡単接続で著者は800Wを壁コンに差し電気代をほぼゼロにしたが、安全性に懸念あり。",
+      "summary": "EcoFlowの高級防水プラグイン太陽光キット（バッテリー内蔵）を紹介。The Stepback（Thomas Ricker）は自宅の壁コンに800Wソーラーを直結して安全に稼働、電気代がほぼゼロになった体験を報告する記事。",
       "source": "The Verge",
       "publishedAt": "2026-09-06T12:00:00.000Z",
-      "contentHash": "7d42735feacb"
+      "contentHash": "4d6371f5c1f4"
     },
     {
       "id": "d0e645f9ae1a",
@@ -92,13 +200,31 @@
       "contentHash": "88bf6f071b79"
     },
     {
+      "id": "e0f75446731d",
+      "title": "An Alien Mind",
+      "url": "https://openai.com/index/an-alien-mind",
+      "summary": "Jakub Pachockiは、能力が高まるAIの整合性（アラインメント）維持の困難さを論じ、より強力な安全対策と国際的な連携の強化を訴えている。",
+      "source": "OpenAI",
+      "publishedAt": "2026-09-06T09:00:00.000Z",
+      "contentHash": "792ad46774cb"
+    },
+    {
+      "id": "3784d7aba971",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "summary": "OpenAI内部でコーディングエージェントが研究を変革。初期データはエージェントの利用状況、実験の高速化、タスクの複雑化、研究の加速化を示している。",
+      "source": "OpenAI",
+      "publishedAt": "2026-09-06T08:00:00.000Z",
+      "contentHash": "718457804a7e"
+    },
+    {
       "id": "6ee8fdc1a9fb",
       "title": "GPT-6 Astra x Blender で3Dアニメーション作成を試す",
       "url": "https://note.com/npaka/n/nab05d90f95b7",
-      "summary": "GPT‑6 Astra×Blender×VRoidで3Dアニメ制作を試した記録。VRoidでキャラ作成、Blender CLI/MCPで教室背景再現、絵コンテ→Blenderで3Dアニメ生成、最終的にOmni 1.1 Flashで日本アニメ風2D化。セリフは「きみを待ってた」。",
+      "summary": "GPT-6 Astra×Blenderの実験記。VRoidでキャラを再現、Blenderで教室背景を作成し絵コンテに従い3Dアニメを生成。最後にOmni 1.1 Flashで日本アニメ風の2D化・演出を試した記録（布留川英一、2026/9/6）。",
       "source": "npaka",
       "publishedAt": "2026-09-06T05:55:56.000Z",
-      "contentHash": "1cd47030408f"
+      "contentHash": "45f54b7ab2d7"
     },
     {
       "id": "243b55c6b14c",
@@ -113,28 +239,28 @@
       "id": "377c2a0b6e7f",
       "title": "GPT-6 Astraで飛躍的に向上したゲーム制作能力 - Unreal Engine / Unity / Godot / Three.js",
       "url": "https://note.com/npaka/n/n8fb683be4d52",
-      "summary": "GPT-6 Astraはコード生成を超え、Blender→Unreal/Unity/Godot/Three.jsで3Dシーンを生成・実行・プレイ・検証・修正まで自動化。空間推論やUI表現が向上し、Playbot連携で人手を約50%削減、マンハッタン再現や大型FPSなど実例も登場。",
+      "summary": "GPT-6 AstraはBlender→Unreal/Unity/Godot/Three.jsでの3Dモデリングからシーン構築、実行・プレイ・検証・修正まで自動化。空間推論やUI表現が向上し開発工数を大幅削減（Playcoで約50%減）。Manhattan再現など事例多数。",
       "source": "npaka",
       "publishedAt": "2026-09-05T23:52:27.000Z",
-      "contentHash": "c34de7f30dce"
+      "contentHash": "d95eb02df03c"
     },
     {
       "id": "3e3af6a8e31f",
       "title": "GPT-6 Astra で飛躍的に向上したBlender 制作能力",
       "url": "https://note.com/npaka/n/n9635d06c377f",
-      "summary": "GPT-6 AstraはBlender制作能力が飛躍的に向上。写真から編集可能な3D空間再構築や数千オブジェクト生成、Blender直接操作でモデリング→レンダー→修正→ゲーム/CAD展開まで実行。視覚判断力やBenchCAD等の指標も大幅改善。",
+      "summary": "記事は、GPT-6 Astraの導入でBlenderの制作能力が飛躍的に向上した点を解説しています。改善された機能や具体的な活用例をまとめ、続きを案内しています。",
       "source": "npaka",
       "publishedAt": "2026-09-05T22:20:00.000Z",
-      "contentHash": "e04db6b1d46b"
+      "contentHash": "61541ab9e4fb"
     },
     {
       "id": "1fdfa6bf0e2f",
       "title": "Explore the globe in field recordings",
       "url": "https://www.theverge.com/tech/990873/earth-garden-globe-field-recordings",
-      "summary": "Earth Gardenは、Radio Gardenに触発された世界のフィールド録音サイト。Freesoundから集めた海辺の波音、タンザニアのコオロギ、マンハッタンの雨音などを地図上で再生でき、作業用や集中、能動的リスニングに適しています。",
+      "summary": "Earth Gardenは世界各地のフィールド録音を地球儀で探索できるサービス。Radio Gardenに着想を得ており、遠い島の波音やタンザニアの虫の声、雨音など環境音を聴ける。",
       "source": "The Verge",
       "publishedAt": "2026-09-05T21:31:34.000Z",
-      "contentHash": "207bb217fa23"
+      "contentHash": "df01c9259d15"
     },
     {
       "id": "b628a940a3de",
@@ -149,10 +275,10 @@
       "id": "87a2888927b7",
       "title": "iPhone Handoff will seamlessly share one number between two phones",
       "url": "https://www.theverge.com/tech/990868/iphone-handoff-ios-27",
-      "summary": "iOS 27の「iPhone Handoff」で2台のiPhoneが同一番号を共有可能に。Xcode 27のデモでメイン機とコンパニオン機のペアリングを確認。折りたたみiPhone Ultra発売に合わせ、キャリア対応（T‑Mobile等）が必要。",
+      "summary": "iOS 27の「iPhone Handoff」は同一番号で2台のiPhoneをペアリングし、メインと「コンパニオン」間で切り替え可能にする機能。Xcode 27のDevice Hubデモで設定が確認され、折りたたみiPhone Ultra登場に合わせた追加と見られる。",
       "source": "The Verge",
       "publishedAt": "2026-09-05T20:53:58.000Z",
-      "contentHash": "88169b36bca2"
+      "contentHash": "999b8b911177"
     },
     {
       "id": "630bf109ed96",
@@ -176,10 +302,10 @@
       "id": "3c8035086568",
       "title": "CD sales are booming as physical media continues its resurgence",
       "url": "https://www.theverge.com/entertainment/990794/cd-sales-are-booming-as-physical-media-continues-its-resurgence",
-      "summary": "RIAAは2026年上半期のCD売上が1750万枚（前年同期1200万枚、+45.7%）、売上額171.1百万ドルになったと報告。Luminateも増加を確認し、K-POP特別盤や若年層のコレクター需要が主因。ストリーミング離れではない。",
+      "summary": "RIAAによると2026年上半期のCD販売が急増し、1,750万枚（前年同期1,200万枚）で45.7%増、売上は1.711億ドル（58.6%増）。2024→2025年は22%減だったが、調査会社Luminateも同時期に1,630万枚と報告した。",
       "source": "The Verge",
       "publishedAt": "2026-09-05T16:49:33.000Z",
-      "contentHash": "0d8ca81d4411"
+      "contentHash": "b0246d0abcfe"
     },
     {
       "id": "83d3effa4304",
@@ -383,10 +509,10 @@
       "id": "d0b16425fcb6",
       "title": "Create your best tracks yet with Lyria 3.5 in Gemini.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/",
-      "summary": "Lyria 3.5は高音質な音楽生成モデルで、GeminiアプリとAPIで利用可能。表現豊かなボーカルや厚い編曲、ジャンルや歌唱/インスト選択、テンプレート、短長トラック対応で簡単に曲作成でき、Web・モバイル、Google Flow Music、AI Studio、Vidsで提供。",
+      "summary": "Lyria 3.5は最上位の音楽生成モデルで、GeminiアプリとAPIで利用可能。より表現豊かなボーカルと豊かな楽曲アレンジを提供します。",
       "source": "Gemini",
       "publishedAt": "2026-09-04T16:00:00.000Z",
-      "contentHash": "ea770136519c"
+      "contentHash": "25a006db28eb"
     },
     {
       "id": "d806d6279583",
@@ -464,10 +590,10 @@
       "id": "3b7bff55efbe",
       "title": "GPT-6 Astra の概要",
       "url": "https://note.com/npaka/n/n299d213c6716",
-      "summary": "OpenAIのGPT-6 Astraは、ブラウザやソフトを操作して複雑な作業を完遂するEnd-to-End志向の新フラッグシップ。ARC-AGI-3で高得点（Standard62.7%、Provider Adapter99.9%※コンテキスト管理含む）を示し、記号的内部モデルや専用ツールを自ら構築。Async Tool CallingやMid-turn Steeringで長時間処理や途中指示に対応し、コーディングやサイバーセキュリティ面でも注目される。",
+      "summary": "GPT‑6 Astraは、ブラウザやソフトを操作して複雑なマルチステップ作業を完遂する能力を強化したモデル。ARC‑AGI‑3で高得点（Standard62.7%、Provider Adapter99.9%※Context管理含む）、内部のSymbolic World Modelや専用ツール生成、Async Tool CallingやMid‑turn Steering等の長時間エージェント機能を備える。",
       "source": "npaka",
       "publishedAt": "2026-09-03T22:56:20.000Z",
-      "contentHash": "aed428568ec9"
+      "contentHash": "23ffc77dbe82"
     },
     {
       "id": "ced75a4e886d",
@@ -680,10 +806,10 @@
       "id": "0ffcb925d560",
       "title": "AIでBlenderを操作する方法 - CLIとMCPの使い分け",
       "url": "https://note.com/npaka/n/n7f7531e7b9ed",
-      "summary": "AIからBlenderを操作する方法はCLIとMCPの二通り。CLIは生成したBlender Pythonをコマンドで自動実行し、形式変換や大量処理、再現性のあるバッチ作業向け。MCPは起動中のBlenderと接続して現在の状態を確認しつつ対話的に編集・調整する用途に適する。Codex/Claude Codeは両方に利用可能。",
+      "summary": "AIでBlenderを操作する方法はCLIとMCPの二択。CLIはBlender用Pythonを生成してコマンド実行し、形式変換や大量処理、再現性のあるバッチ作業向け。MCPは起動中のBlenderに接続して状態を確認しつつ対話的に編集・微調整する用途に適する。",
       "source": "npaka",
       "publishedAt": "2026-09-02T23:10:24.000Z",
-      "contentHash": "01337437c074"
+      "contentHash": "81c0326d3bd8"
     },
     {
       "id": "a54a8dca955e",
@@ -698,10 +824,10 @@
       "id": "bbde707b169a",
       "title": "Gemini 3.8 Flash ・ Gemini 3.8 Flash Cyber の概要",
       "url": "https://note.com/npaka/n/n994424ed9ef5",
-      "summary": "Googleは2026年9月2日、「Gemini 3.8 Flash」とサイバー特化の「Gemini 3.8 Flash Cyber」を発表。3.8 Flashは長時間コーディングやAIエージェント、多段推論、マルチモーダル対応を強化した高性能汎用モデル。Flash Cyberは脆弱性検出・修正などサイバーセキュリティ向けに特化している。",
+      "summary": "Gemini 3.8 Flashと3.8 Flash Cyberの紹介。両者は軽量で高速化した新シリーズで、Flashは低遅延・省リソース運用に最適化、Flash Cyberはセキュリティや信頼性を強化したセキュア用途向けに設計されています。",
       "source": "npaka",
       "publishedAt": "2026-09-02T22:37:09.000Z",
-      "contentHash": "1b5ac74fec43"
+      "contentHash": "ef89d4836225"
     },
     {
       "id": "6e9b0d79af0f",
@@ -878,10 +1004,10 @@
       "id": "1e5b8618d900",
       "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "summary": "GoogleはGemini 3.8を発表。3.8 Flashと3.8 Flash Cyberの2種類で、推論とコーディング能力を強化し、3.7と同等の高速性・低コストを維持。エージェント系ワークフローとサイバーセキュリティに注力。",
+      "summary": "Gemini 3.8 Flash と 3.8 Flash Cyber は、エージェント的ワークフローとサイバーセキュリティ向けに、次世代の高度なインテリジェンス（AI機能）を提供します。",
       "source": "Gemini",
       "publishedAt": "2026-09-02T15:00:00.000Z",
-      "contentHash": "7c252d872dbb"
+      "contentHash": "d1bd9fdc2255"
     },
     {
       "id": "94851e28049d",
@@ -1022,10 +1148,10 @@
       "id": "d9da8cb9cf35",
       "title": "「広島行こ」から始まった PyCon JP 2026 参加レポート — セッションから3日目のスプリントまで | Nealle Developer's Blog",
       "url": "https://nealle-dev.hatenablog.com/entry/2026/09/02/160138",
-      "summary": "ニーリーのSET宮内が初参加したPyCon JP 2026（広島）レポ。Silver協賛の会場で初心者向け日本語セッションを中心に聴講し、自作ブラウザ、AI時代のLinter見直し、初心者向けPython講座などから学び、スプリントまで参加。初出張や新幹線手配の体験記も含む。",
+      "summary": "ニーリーのSET宮内が、自動E2Eテストやテスト環境整備、DjangoでのテストデータAPI開発などの業務を紹介し、PyCon JP 2026参加レポートが「広島行こ」のマネージャーDMから始まる経緯を述べる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-09-02T07:01:38.000Z",
-      "contentHash": "f56b5b834c84"
+      "contentHash": "35f0256e22ea"
     },
     {
       "id": "9ac5ab881dd0",
@@ -1040,10 +1166,10 @@
       "id": "315b7421e28c",
       "title": "AI時代に、検索はどう変わる？  Sansanが今、向き合う理由 | Sansan Tech Blog",
       "url": "https://buildersbox.corp-sansan.com/entry/2026/09/02/160000",
-      "summary": "SansanはLLM登場で検索の重要性が高まると判断。名刺・請求書・契約書などのビジネスデータをAIが適切に探索し、回答や判断に活用できるよう、Contract Oneで検索基盤と評価体系の強化に注力している。",
+      "summary": "Sansanは名刺・請求書・契約書などのビジネスデータを扱い、検索が不可欠。LLMによりAIが情報を見つけ回答生成や判断に活用する役割へ変化。Contract Oneの南氏と橋本氏が検索改善の理由や技術的課題、目指す方向を語る。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-09-02T07:00:00.000Z",
-      "contentHash": "d623981aa2c0"
+      "contentHash": "747c1c0d70dc"
     },
     {
       "id": "516b9b2c7816",
@@ -1058,19 +1184,19 @@
       "id": "9466637d99b9",
       "title": "複数のインデックスとIN句の要素数がMariaDBの最適化処理に与える影響 | PKSHAテックブログ のフィード",
       "url": "https://zenn.dev/pksha/articles/a7c7d6806b9b7c",
-      "summary": "インデックス追加でSQL性能が悪化した原因は、実行計画作成（特にRange Optimizer）の処理時間増加。MariaDB 10.11.18で10万行テーブルを使い、複数インデックスとIN句要素数が最適化処理に与える影響を検証した。",
+      "summary": "PKSHAの加藤です。テーブルに複数インデックスを追加したところ特定SQLが遅くなり、原因はデータ取得ではなく実行計画を作るオプティマイザの最適化処理に時間がかかっていることが判明。EXPLAINも遅く、なぜインデックス追加で処理時間が増えるかをMariaDB 10.11.18を対象に解説します。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-09-02T06:30:18.000Z",
-      "contentHash": "3169a5c9f77a"
+      "contentHash": "64c8500a51ab"
     },
     {
       "id": "a30a802c3a54",
       "title": "Microsoft Foundryの新UIを触ってみた | 株式会社インフォメーション・ディベロプメントのフィード",
       "url": "https://zenn.dev/idnet/articles/d3b8b4c9787fa3",
-      "summary": "Microsoft Foundryの新UIがデフォルト化。著者はAzure/AWS向けのFAQエージェントをMCP経由で作成（GCPは見送り）。モデルは当初MAI-Thinking-1がエージェント非対応で、gpt-5.6-terraに変更して正常動作。MCPツール設定やプロンプト手順を解説。",
+      "summary": "AIスマートソリューション部の松尾が、Microsoft Foundryの新UIを検証。実務で使えるよう、MCP経由で公式ドキュメントを参照して回答する各クラウド（Azure、AWS）向けFAQエージェントを作成する計画です。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-09-02T06:05:55.000Z",
-      "contentHash": "88d20784d484"
+      "contentHash": "bf702b8aac70"
     },
     {
       "id": "253f88882d56",
@@ -1085,28 +1211,28 @@
       "id": "672aa52b8651",
       "title": "VLMを用いた名刺のテンプレートクラスタリング【R&amp;amp;Dインターン】 | Sansan Tech Blog",
       "url": "https://buildersbox.corp-sansan.com/entry/2026/09/02/143000",
-      "summary": "東京科学大の中屋氏がSansanのR&Dインターンで、VLM（Claude Sonnet 4.6）を用いた名刺テンプレートのクラスタリングを開発。RF-DETRでロゴ検出精度を向上させ、OCR行に役割を割り当てる「抽象化名刺」を作成。text軸・icon軸の統合とUIで精度改善と実運用性の両立を図った。",
+      "summary": "東京科学大学修士1年の中屋嘉弥は、数理最適化と深層学習を研究。7月にSansan R&Dで1か月インターンを行い、名刺画像をテンプレート単位でクラスタリングして業務効率化技術を開発した経験を報告する。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-09-02T05:30:00.000Z",
-      "contentHash": "22eb242954b7"
+      "contentHash": "497f2f1f59e9"
     },
     {
       "id": "80742a7b7c43",
       "title": "BigQueryで実現するPIIセキュア管理：列レベル制御・動的マスキング・DLPの活用 | e-Agency Tech Blogのフィード",
       "url": "https://zenn.dev/e_agency/articles/17772e5a9eeaa5",
-      "summary": "BigQueryでPIIを保護する具体手法を解説。列レベルのポリシータグ、動的マスキング、Sensitive Data Protection（旧Cloud DLP）を組合せ、機密列を隠蔽しつつ安全に分析可能にする設定手順と検証を示す。",
+      "summary": "データ民主化とPII保護の対立。従来のテーブル単位制限に代わり、BigQueryとGoogle Cloudの列／行レベル制御やビュー、DLPなどを組み合わせれば、データを共有しつつ機密情報だけを隠蔽・制限できる。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-09-02T05:22:20.000Z",
-      "contentHash": "1f8f0526c63c"
+      "contentHash": "7ad29915a7fa"
     },
     {
       "id": "86303bcae423",
       "title": "CloudWatch アラームの warm-up period で起動直後の誤発報を止めてみた | サーバーワークスエンジニアブログ",
       "url": "https://blog.serverworks.co.jp/cloudwatch-alarm-warmup-period",
-      "summary": "2026年9月1日付でCloudWatchアラームにwarm-up periodが追加。作成・更新直後の評価を遅らせ、指定時間はINSUFFICIENT_DATAで通知を抑止し起動直後の誤発報を防止。CLI手順や実機検証、注意点を解説。",
+      "summary": "エデュケーショナルサービス課の森純子です。新規EC2などでメトリクス不足により誤発報する問題を防ぐため、2026年9月1日からCloudWatchアラームにウォームアップ期間を設定できるようになりました。",
       "source": "企業テックブログRSS",
       "publishedAt": "2026-09-02T05:00:00.000Z",
-      "contentHash": "61ebd3286faf"
+      "contentHash": "3aee6d73769b"
     },
     {
       "id": "3dee97ee0e13",
@@ -1148,10 +1274,10 @@
       "id": "b2b6a2a02e18",
       "title": "GLM-5.3-Flash × Blender - 自律制作の仕組みを事例から探る",
       "url": "https://note.com/npaka/n/n8597589cff79",
-      "summary": "GLM-5.3-FlashがBlenderで夜景の高層レストラン（1,400–2,000m²・120–150席）を12時間超自律生成。LLMがBlender Pythonを作成→レンダー→別AI（Fresh‑Context Critic）が評価→修正を繰返し、100点満点ルーブリック（総合90点以上等）と16カメラ検証で完成。制作の詳細なProduction Briefも公開。",
+      "summary": "記事は、言語モデル「GLM-5.3-Flash」を用いたBlenderの自律制作事例を通じ、その動作原理や制作過程、実用性と課題を検証する内容です。",
       "source": "npaka",
       "publishedAt": "2026-09-01T22:17:37.000Z",
-      "contentHash": "b2179740789b"
+      "contentHash": "e141cdc567c9"
     },
     {
       "id": "84e4d2c86a8f",
@@ -1202,10 +1328,10 @@
       "id": "c97fc0583795",
       "title": "The latest AI news we announced in August 2026",
       "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-      "summary": "Googleは2026年8月に実用性重視のAI更新を発表：軽量で低コストのGemini 3.7 Flash、音声起こしのGemini 3.5 Transcribe、新Pixel 11シリーズ、Gemini Liveや学生向け無償プラン、高度な映像生成機能など。",
+      "summary": "記事本文かリンクを貼ってください。内容を確認して200文字以内で日本語要約します。箇条書き／一文などの形式や、注目点（技術、製品、影響など）があれば教えてください。",
       "source": "Gemini",
       "publishedAt": "2026-09-01T20:45:00.000Z",
-      "contentHash": "8e1349ee8e0e"
+      "contentHash": "cc825b07a7eb"
     },
     {
       "id": "17bfc284e643",
@@ -1256,10 +1382,10 @@
       "id": "5a222bc71ad3",
       "title": "Introducing agentic video understanding with Gemini",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
-      "summary": "Google DeepMindがGeminiにエージェント型ビデオ理解機能を導入。ビデオ解析でトークン消費を最大88%削減、コストを最大66%削減し、品質を最大7%向上。",
+      "summary": "最新のGeminiモデルにエージェント型の動画理解機能を導入し、精度を高めつつコストとトークン使用量の削減を図る、という発表です。",
       "source": "Gemini",
       "publishedAt": "2026-09-01T17:00:00.000Z",
-      "contentHash": "3b71ce7274f6"
+      "contentHash": "a0019430b99a"
     },
     {
       "id": "b0cbef382238",
@@ -2390,10 +2516,10 @@
       "id": "7d8f7d49cd6d",
       "title": "Gemini Omni 1.1 Flash lets you build with more control",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
-      "summary": "Google DeepMindのGemini Omni 1.1 Flashが登場。スタジオ品質の映像制作を強化し、シーン延長、先頭／末尾フレーム補間、鮮明な4Kアップスケーリング、プロトタイピングの高速化など、より細かな制御機能を提供する。",
+      "summary": "Gemini Omni 1.1 Flashは、開発者向けに新しいクリエイティブ制御群と生成ビデオ機能を追加し、映像制作や表現の自動化・高度化を支援します。",
       "source": "Gemini",
       "publishedAt": "2026-08-27T16:00:00.000Z",
-      "contentHash": "fb27a994b2be"
+      "contentHash": "4df66ea2af45"
     },
     {
       "id": "3504ab23c738",
@@ -2597,10 +2723,10 @@
       "id": "b43a1d3ce3c9",
       "title": "7 ways to kick-start back to school using Gemini in Workspace",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-workspace-back-to-school/",
-      "summary": "Google WorkspaceのGeminiを活用して学期の準備を効率化する7つの方法を紹介。ノートを整理してプレゼンや学習ガイドに自動変換するなど、学習管理や作業の省力化が可能。",
+      "summary": "Google WorkspaceのGeminiを活用して、ノート整理、締切管理、プロジェクト準備などを効率化し、今学期を有利にスタートしましょう。",
       "source": "Gemini",
       "publishedAt": "2026-08-26T20:30:00.000Z",
-      "contentHash": "c5327db67e86"
+      "contentHash": "ef9dde3f7392"
     },
     {
       "id": "d7b8767fb3e6",
@@ -2660,10 +2786,10 @@
       "id": "584c12716aad",
       "title": "Turn your voice into action with new productivity features in Gemini Live",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/",
-      "summary": "Gemini Liveは会話を超えて作業を代行する新機能を導入。Personal Intelligence、Daily Brief、Spark、ハンズフリー受信箱管理などで音声を使い日々の複雑なタスクを委任・自動化できる。",
+      "summary": "Gemini Liveに大幅な生産性向上アップデートを展開し、音声でタスクを途切れずに指示・委任できるようにします。",
       "source": "Gemini",
       "publishedAt": "2026-08-26T17:00:00.000Z",
-      "contentHash": "1a9c6beb32f6"
+      "contentHash": "4174aae31fe1"
     },
     {
       "id": "95b7ebc1937a",
@@ -8874,132 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-13T04:16:24.000Z",
       "contentHash": "d7b83426b2f8"
-    },
-    {
-      "id": "4835e0f3a326",
-      "title": "AIは編集しやすいPowerPointスライドを作れるか？ | SIOS Tech Lab",
-      "url": "https://tech-lab.sios.jp/archives/53989",
-      "summary": "AIが直接作るPPTXは編集できても図形がバラバラで修正困難。スライドの流れをMarkdownで作ればPowerPoint出力は4通り。Slidev実例と2つの問いで、AIが編集しやすいスライドを作れるか解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T03:01:38.000Z",
-      "contentHash": "5d304edc4c82"
-    },
-    {
-      "id": "9e9daa9954ef",
-      "title": "その施策は効果があったのか。エンジニア・PdMのための効果検証とt検定 | mediba テックブログのフィード",
-      "url": "https://zenn.dev/mediba/articles/d9100eed919d5b",
-      "summary": "medibaの野口氏が、施策効果は施行前からの計測が必須と指摘。ログを取らなかった失敗を踏まえ、平均の差が偶然か否かを判定するt検定とp値の使い方を実例で解説しています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T03:01:05.000Z",
-      "contentHash": "c7df9b3d589b"
-    },
-    {
-      "id": "65edd039e509",
-      "title": "Building HTTP/3 Services in Go | GVATECHブログのフィード",
-      "url": "https://zenn.dev/gvatech_blog/articles/e0573c32ac59e7",
-      "summary": "HTTP/3はTCPを捨てQUIC(UDP)で暗号化・多重化・高速接続を実現し、1RTT/0RTT、ヘッドオブライン解消、接続マイグレーションが利点。Go標準は未対応だがquic‑goのhttp3が実用。デバッグやUDP遮断が課題で、記事はサーバ/クライアント構築と実務的注意点を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T03:00:08.000Z",
-      "contentHash": "9f2af1df0261"
-    },
-    {
-      "id": "aed75a5d7876",
-      "title": "Locustではじめる負荷テスト | GVATECHブログのフィード",
-      "url": "https://zenn.dev/gvatech_blog/articles/49425187fe7b05",
-      "summary": "LocustはPythonでシナリオを書く軽量な負荷テストツール。dockerで複数workerを立ててスケール可能。locustfile.pyで@taskやwait_time、on_start、catch_responseを定義し、uvx locust -fで起動。WebUI(デフォ8089)でユーザー数やRamp upを設定して実行。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T01:03:35.000Z",
-      "contentHash": "e14ccb932184"
-    },
-    {
-      "id": "6b5994c73bf6",
-      "title": "数百の社内LLMを、人からもシステムからも探せるように - モデルカタログを2ヶ月で作った話 | SB Intuitions TECH BLOG",
-      "url": "https://www.sbintuitions.co.jp/blog/entry/2026/08/13/100002",
-      "summary": "社内の数百あるYAMLモデルカードを基に、SB Intuitionsが2か月でモデルカタログを構築。Web UI／REST APIで検索・システム参照を可能にし、config自動抽出やモデルの非同期配置で検索困難・API不在・手動登録の課題を解消しました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T01:00:02.000Z",
-      "contentHash": "65df689b3fbc"
-    },
-    {
-      "id": "9bdfd2dfc63d",
-      "title": "SOCからプロダクト開発へ。セキュリティエンジニアが認証基盤チームにJumpした話 | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/08/13/100000",
-      "summary": "新卒から6年SOCで監視やIRを担当した吉山は、2026年3月に社内制度「Jump!」で認証基盤Auth Oneの開発チームへ異動。認証を軸にセキュリティ知見をプロダクト開発へ活かし、7人の少数チームでフルスタック開発。AI支援は利用するが重要機能は必ず人が確認する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T01:00:00.000Z",
-      "contentHash": "85efdd6eaabf"
-    },
-    {
-      "id": "16d83f744cfd",
-      "title": "声、呼吸、間まで含めて、コンテンツ | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n77760de0a826",
-      "summary": "内容自体は良くても、「えー」などのフィラーや声が弱まる・間がない話し方は聞き手の注意をそらし理解を妨げる。無理に喋り続けず沈黙を活用し、呼吸・声量・間を整え、話す前に自分の状態を整えることが重要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T00:39:44.000Z",
-      "contentHash": "a62e27579e96"
-    },
-    {
-      "id": "42666b374a15",
-      "title": "New Relic MCP Server と Microsoft Foundry でアラート調査を自動化してみた | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/08/13/093816",
-      "summary": "New Relic MCP ServerをMicrosoft Foundryのエージェントに接続し、NRQL実行結果を基にアプリケーションエラーの一次調査を自動化する仕組みを検証。複数サービス対応の共通設計と認証情報一元管理を導入し、独自APIクライアントが不要になった点を確認。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T00:38:16.000Z",
-      "contentHash": "71b5c9c37633"
-    },
-    {
-      "id": "e4bfb4d5ed45",
-      "title": "Qwen3.8-2.4T-A95BをDay1デプロイ! 2.4Tの新フラッグシップはKimi-K3を超えるのか【B300 x8 検証速報】 | Fixstars Tech Blog /proc/cpuinfoのフィード",
-      "url": "https://zenn.dev/fixstars/articles/qwen38-24t-a95b-day1-benchmark",
-      "summary": "FixstarsがAlibaba公開のQwen3.8-2.4T-A95Bを公開当日にNVIDIA B300 x8へDay1デプロイしKimi-K3と比較検証。2.4T/95BのMoEで75%が線形Gated DeltaNet、256Kコンテキスト、マルチモーダル・MTP搭載。DCPは非推奨。長期自律コーディング向け性能を強調。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T00:24:20.000Z",
-      "contentHash": "c0e785a0775a"
-    },
-    {
-      "id": "937478d31b05",
-      "title": "【負荷試験 設計編】インフラ観点の負荷試験を設計する。目標RPSの決め方から k6 選定まで | SOMPO Digital Labのフィード",
-      "url": "https://zenn.dev/sompojapan_dx/articles/6cde250dd7532d",
-      "summary": "SOMPO Digital Labの負荷試験設計編。ECS Fargate・Aurora Serverless・ALBのオートスケールや分散性をk6で検証するため、最大同時接続数からRPSを算出しSLO・ボトルネック・切断有無を確認する設計と構成を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T00:23:27.000Z",
-      "contentHash": "173fd8c5a4cf"
-    },
-    {
-      "id": "96b1eb4cfbb1",
-      "title": "VPC Flow Logsが重複出力されるケースとその原因 | G-gen Tech Blog",
-      "url": "https://blog.g-gen.co.jp/entry/duplicated-vpc-flow-logs",
-      "summary": "Google CloudでVPC Flow Logsが重複出力する原因は、従来のサブネット単位（Compute Engine API）と新方式（Network Management API）の両方で有効化しているため。logNameが異なり同一フローが二重に記録され、ログ量とコストが増加する。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "contentHash": "24435b796825"
-    },
-    {
-      "id": "8636341e4bc1",
-      "title": "IAM Identity Centerを理解するために最初に押さえたい3つのポイント | NRIネットコムBlog",
-      "url": "https://tech.nri-net.com/entry/iam_identity_center_3points",
-      "summary": "AWS IAM Identity Center（旧AWS SSO）はアクセス管理を一元化するサービス。①ユーザー・グループを集約管理（外部IdP連携可）②Permission Setで権限を定義・共有③AWS Organizationsと併用でマルチアカウント運用が容易に。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "contentHash": "d0c56ad3e263"
-    },
-    {
-      "id": "f37a3c12d07d",
-      "title": "AIで作業は「速く」なるのに、仕事は「早く」ならない理由 | テコテック開発者ブログ",
-      "url": "https://tec.tecotec.co.jp/entry/2026/08/13/090000",
-      "summary": "AIで作業は速くなるが、仕事全体が早くならないのは「ボトルネックが作業から人の意思決定・承認に移る」ため。過去のリリースでのテスト遅延を例に、AI導入後も移動先を見据え仕事の進め方を変える必要を説く。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "contentHash": "50bd4df88a7d"
-    },
-    {
-      "id": "82aded1a3561",
-      "title": "Happy 45th Birthday to the IBM PC and Model F/XT",
-      "url": "https://sharktastica.co.uk/articles/pc-fxt-45",
-      "summary": "リンク先に直接アクセスできないため、記事本文（または要約すべき部分）を貼ってください。貼っていただければ200文字以内で日本語要約します。コメントもまとめる場合はその旨を教えてください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-12T23:50:33.000Z",
-      "contentHash": "be5e82c1b45f"
     }
   ]
 }
