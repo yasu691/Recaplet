@@ -1,6 +1,195 @@
 {
-  "generatedAt": "2026-09-07T19:52:24.880Z",
+  "generatedAt": "2026-09-08T03:59:52.901Z",
   "items": [
+    {
+      "id": "34b02c32c898",
+      "title": "S3 Vectors で見落としがちなクォータとコストのかかり方 | Taste of Tech Topics",
+      "url": "https://acro-engineer.hatenablog.com/entry/2026/09/08/120000",
+      "summary": "S3 Vectorsは低コストでRAG向けだが、ベクトル数・次元数・メタデータ総量（1ベクトル最大40KB）、キー数（最大50）、フィルタ可能2KBなどのクォータと、Bedrock連携時の1KB/35キー制限、ストレージ・PUT・クエリ費用に注意。導入前のメタデータ設計が重要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-08T03:00:00.000Z",
+      "contentHash": "96dd229ddc0a"
+    },
+    {
+      "id": "94b159ecdd78",
+      "title": "PyCon JP 2026 in Hiroshima Participation Report | RevComm Tech Blog",
+      "url": "https://tech.revcomm.co.jp/report-pyconjp-2026-en",
+      "summary": "RevCommは2026年8月21–22日のPyCon JP（広島）にGoldスポンサーとして参加。バックエンドのRei SuyamaがASGIミドルウェアの講演を行い好評を得、会場でMiiTelの展示ブースも運営しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-08T03:00:00.000Z",
+      "contentHash": "7681bb33cb1d"
+    },
+    {
+      "id": "9144b6d94ad1",
+      "title": "名古屋Ruby会議05に永和システムマネジメントからyucao24hoursとkoicがLT登壇します | ESM アジャイル事業部 開発者ブログ",
+      "url": "https://blog.agile.esm.co.jp/entry/nagoyark05",
+      "summary": "2026年9月19日、名古屋大須演芸場で開かれる名古屋Ruby会議05に永和システムマネジメントのyucao24hoursとkoicがLT登壇。yucaoは『アプレンティスシップ・パターン』と13年の歩み、koicは『The Rails Doctrine』10年の振り返りを発表。LTは14:00〜14:30。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-08T03:00:00.000Z",
+      "contentHash": "45d4ea91d653"
+    },
+    {
+      "id": "4498e6aab065",
+      "title": "KNOWLEDGE WORK Dev Talk #19「AIに仕事を奪われるのではなく、奪わせるキャリアを」tapih | Knowledge Work Developers Blog",
+      "url": "https://note.com/knowledgework/n/n7b6e196abc05",
+      "summary": "ナレッジワークの対談シリーズ「KNOWLEDGE WORK Dev Talk」第19回。SVP木村秀夫がPlatform Engineering担当の村岡浩史（tapih）に、キャリアや価値観、現在のプロジェクトとエンジニアのイネーブルメントについて聞く。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-08T02:53:35.000Z",
+      "contentHash": "e0bd8f9fe714"
+    },
+    {
+      "id": "ed2ba923a6d7",
+      "title": "Amazon Connectのノイズ制御機能とは？オーディオエンハンスメントで通話品質を向上 | Blogical",
+      "url": "https://blog.logical.co.jp/entry/2026/09/08/115231",
+      "summary": "Amazon Connectのオーディオエンハンスメントは通話の雑音を抑えて音声を明瞭化する機能。『エージェント音声分離（有線ヘッドセット限定）』と『バックグラウンドノイズ抑制（各種ヘッドセット対応）』の2モードがあり、デフォルトは無効で設定は次回通話から反映されます。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-08T02:52:31.000Z",
+      "contentHash": "e9980c7237b4"
+    },
+    {
+      "id": "24283a15760d",
+      "title": "週次メトリクスレポートの「判断」をスキルにした話 | hacomono TECH BLOG",
+      "url": "https://techblog.hacomono.jp/entry/2026/09/08/110000",
+      "summary": "AWSの週次メトリクス報告を自動化し、収集や閾値判定はコード化、最終判断と説明は人が行う運用に変更。全体の5xx率だけでなく業務単位の継続的失敗等を判定ルールに入れ、見落としを発見して原因追跡につなげた。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-08T02:30:00.000Z",
+      "contentHash": "cb91405b1db1"
+    },
+    {
+      "id": "5da07d7934e4",
+      "title": "「AIが脆弱性見つける時代」のWindows更新運用をトリアージから作り直す | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/windows-patch-tuesday-surge-operations-2026/",
+      "summary": "MicrosoftのAI（MDASH）で脆弱性検出が増え、8月は421件に。件数急増で全件手動トリアージは非現実的なため、悪用済みを即時対応、残りを更新リングで自動段階配信する「2レーン運用」とSLAベースの報告を提案。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-08T02:18:00.000Z",
+      "contentHash": "e9e55c8392a7"
+    },
+    {
+      "id": "8d7dc77c7e0c",
+      "title": "First Xiaomi, then the world: why Arm might give phone gaming a huge graphics boost",
+      "url": "https://www.theverge.com/games/990676/arm-neural-rendering-mali-g2-ultra-xiaomi-xring-o3",
+      "summary": "アームがDLSS相当のAIグラフィックス加速をGPUに組み込み、Xiaomi 18 FoldのXring O3（Mali G2-Ultra NX）で初搭載。5年の開発で高解像度・高画質を省電力で実現し、中国先行だが来年以降世界展開へ。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-08T02:00:00.000Z",
+      "contentHash": "b1a72b0775f6"
+    },
+    {
+      "id": "043a4ff50f93",
+      "title": "Girls Meet STEM 2026夏「ZOZOTOWN・WEARを支える技術と働き方を知ろう！」を開催しました！ | ZOZO TECH BLOG",
+      "url": "https://techblog.zozo.com/entry/20260821-girls-meet-stem",
+      "summary": "2026年8月21日、ZOZOで中高生女子向けイベント「ZOZOTOWN・WEARを支える技術と働き方を知ろう！」を開催。21名が参加し、ファッション診断、ZOZOGLASSによる肌色計測、触感可変布の体験、オフィスツアー、女性エンジニアのパネルトークを通じSTEM分野への理解と関心を深めました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-08T02:00:00.000Z",
+      "contentHash": "83c8d6c2626f"
+    },
+    {
+      "id": "bfccf30b0381",
+      "title": "書いたコードが、薬局の機器を動かしている。Webから越境して、システムと物理世界の両方を設計する仕事 | KAKEHASHI Tech Blog",
+      "url": "https://kakehashi-dev.hatenablog.com/entry/2026/09/08/110000",
+      "summary": "カケハシのローカルアプリ基盤チームは、レセコンや薬歴、分包機など薬局内機器とクラウドをつなぎ、NSIPSファイルを確実に処理して業務停止を防ぐ基盤を運営。医療機器連携経験の松永とフロント出身の鳥海が開発をリードし、薬剤師が患者対応に集中できる現場を目指す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-08T02:00:00.000Z",
+      "contentHash": "dc11a4bf69c0"
+    },
+    {
+      "id": "35280f249708",
+      "title": "Jellyfin 12.0",
+      "url": "https://jellyfin.org/posts/jellyfin-release-12.0/",
+      "summary": "Jellyfin 12.0公開。DBスキーマが変わり初回起動で書き換えが行われるため、必ず停止してデータ・設定を完全手動バックアップ。10.10.7または10.11.xから更新必須。ユーザ名は大/小文字を区別しなくなり重複注意。アップ後は完全ライブラリスキャンが必須（自動でグループ化されたバージョンはスキャンまで消失表示）。書籍・コミック対応強化と性能改善あり。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-08T01:56:35.000Z",
+      "contentHash": "d78e570eb5e9"
+    },
+    {
+      "id": "fac5a01055fd",
+      "title": "I've factored the RSA keys of a Certificate Authority from the 90s",
+      "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
+      "summary": "RSAの安全性は大きな半素数の因数分解の難しさに依存するが、862ビット鍵の分解例や1024ビット廃止が示すように小鍵は脆弱。筆者は古いブラウザのアーカイブとLLMを使って、1999年のNetscapeに同梱された512ビットのSSL/S/MIMEルート証明書を見つけた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-08T01:16:59.000Z",
+      "contentHash": "215f20d1ca8b"
+    },
+    {
+      "id": "a10aa370c7a5",
+      "title": "TALA Is Open-Source",
+      "url": "https://d2lang.com/blog/tala-is-open-source/",
+      "summary": "TALA（TerrastructのAutoLayout Algorithm）がD2と同じMPL‑2.0でオープンソース化。ソフトウェア設計図向けの直交レイアウトで対称性やクラスタ等を考慮。座標固定や固定と自動のハイブリッド対応でAI連携に有利だが、デフォルト3種の乱数シードなどランダム性のトレードオフがある。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-07T23:37:42.000Z",
+      "contentHash": "fdccde85cf6b"
+    },
+    {
+      "id": "54b0421de25b",
+      "title": "GPT-6 Astra で Blender Geometry Nodes を試す",
+      "url": "https://note.com/npaka/n/n99672f845acb",
+      "summary": "本文が提示されていないため推測になります。記事は「GPT-6 Astra」を用いてBlenderのGeometry Nodesを試し、設定手順や自動化の可能性、得られた成果・問題点、制作例と今後の応用を検証した内容と考えられます。本文を貼っていただければ正確に要約します。",
+      "source": "npaka",
+      "publishedAt": "2026-09-07T22:26:10.000Z",
+      "contentHash": "db0cb7f4e802"
+    },
+    {
+      "id": "11147936aa91",
+      "title": "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
+      "url": "https://www.theverge.com/transportation/991081/audi-a2-etron-ev-specs-price",
+      "summary": "アウディの新型コンパクトEV「A2 E-tron」は、英国価格£32,200（約4.5万ドル）からと手頃で、低空力係数と複数のバッテリー／駆動選択で最大航続401マイルを達成。後輪駆動の欧州市場向けで、現時点で北米導入は未定。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-07T20:03:41.000Z",
+      "contentHash": "1c0373943e01"
+    },
+    {
+      "id": "8493d613fc03",
+      "title": "Watch Los Angeles get built, one building at a time (1880–2026)",
+      "url": "https://lax-skyline.parcelscope.net/",
+      "summary": "現存する各建物を建築年ごとに1つの箱で示している。途中で取り壊された建物は含まず、過去の姿ではなく「現存する郡」を表している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-07T18:52:06.000Z",
+      "contentHash": "7d9164d54d0b"
+    },
+    {
+      "id": "4add32dcf6df",
+      "title": "No constitutional right to clean water, federal court finds",
+      "url": "https://www.usatoday.com/story/news/nation/2026/09/07/court-constitution-right-clean-water/91649488007/",
+      "summary": "米連邦控訴裁は9月4日、ミシシッピ州ジャクソンの鉛汚染水を巡る住民の訴訟を却下し、清潔な飲料水は憲法上の権利ではないと判断した。原告は第14修正の身体的完全性侵害や公衆衛生時の真実な情報提供を求めたが、多数意見は深く根付いた権利に当たらないと述べた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-07T17:52:58.000Z",
+      "contentHash": "ba4a396aa96b"
+    },
+    {
+      "id": "c5e8aacd4d41",
+      "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
+      "url": "https://news.ycombinator.com/item?id=49600233",
+      "summary": "市場は競争激化で安価な新モデルが頻出するため乗り換え可能性を持つべき。無料特典は長続きせず仲介に払う理由も薄い。企業は将来使用制限で収益化を図るだろう。支払う顧客はプロ寄りと中小が中心で一般層は課金しない。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-07T16:40:32.000Z",
+      "contentHash": "78f2b570b1a9"
+    },
+    {
+      "id": "2be377a0f12f",
+      "title": "Six years later, Sony revisits its legendary XM4 headphones",
+      "url": "https://www.theverge.com/tech/990687/sony-announces-xm4c-headphones",
+      "summary": "ソニーが2020年の名機WH-1000XM4を小改良した新版WH-1000XM4Cとして再投入。外観はほぼ同じで白やラベンダー色を追加。高評価だった音質とANCを受け継ぎ、2025年に廃番となった旧型が復活した。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-07T16:00:00.000Z",
+      "contentHash": "afef48c28a30"
+    },
+    {
+      "id": "fcaefa90288e",
+      "title": "EcoFlow makes the miniature power station even smaller",
+      "url": "https://www.theverge.com/science/991033/ecoflow-makes-the-miniature-power-station-even-smaller",
+      "summary": "EcoFlowの小型ポータブル電源River Gen4。River 260は256Wh、520は512Whで、長寿命かつ安全なLFP電池を採用。260はUSB×4とAC300W、520はAC×2で500W出力。日帰りや週末に最適。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-07T14:59:41.000Z",
+      "contentHash": "07f7210e1ea8"
+    },
+    {
+      "id": "19f64442bc49",
+      "title": "The real reason your phone is getting more expensive",
+      "url": "https://www.theverge.com/tech/988225/ram-shortage-supply-chain-micron-apple-iphone",
+      "summary": "スマホが高くなる本当の理由はRAM価格の急騰。世界的なメモリ不足でコスト上昇が避けられず、Appleなどの端末価格が上がる可能性が高く、解消には数年かかる見通し。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-07T12:00:00.000Z",
+      "contentHash": "121b54e34ef0"
+    },
     {
       "id": "0e2b0393e192",
       "title": "Bentley’s Torcal EV tries to balance authenticity with fake V8 sounds",
@@ -248,10 +437,10 @@
       "id": "6ee8fdc1a9fb",
       "title": "GPT-6 Astra x Blender で3Dアニメーション作成を試す",
       "url": "https://note.com/npaka/n/nab05d90f95b7",
-      "summary": "GPT-6 Astra×Blenderの実験記。VRoidでキャラを再現、Blenderで教室背景を作成し絵コンテに従い3Dアニメを生成。最後にOmni 1.1 Flashで日本アニメ風の2D化・演出を試した記録（布留川英一、2026/9/6）。",
+      "summary": "GPT-6 AstraとBlenderで3Dアニメーション制作を試し、その手順と結果をまとめました。推論は中レベルでの一発出し（ワンショット）。詳しい続きは記事参照。",
       "source": "npaka",
       "publishedAt": "2026-09-06T05:55:56.000Z",
-      "contentHash": "45f54b7ab2d7"
+      "contentHash": "53b12a76202c"
     },
     {
       "id": "243b55c6b14c",
@@ -8811,195 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-08-13T13:28:45.000Z",
       "contentHash": "74a74ed7bc9e"
-    },
-    {
-      "id": "32df0fdfb554",
-      "title": "Nine PBS could lose 70 years of archives after cloud vendor goes defunct",
-      "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
-      "summary": "米公共テレビ局Nine PBSは、契約先クラウド業者の倒産で70年分の映像資料にアクセス不能となり、保管先のIron Mountainデータセンターに対して保存と権利確保を求めて提訴した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-13T13:14:12.000Z",
-      "contentHash": "9f96c8f75d84"
-    },
-    {
-      "id": "653e4c6d9da0",
-      "title": "Choosing an AI model: one prompt, 11 models, different results",
-      "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
-      "summary": "OpenRouterと提携し、NetlifyがAI Gateway経由でOpenRouter上の任意モデルを利用可能に。Agent Runners（Netlify内コーディングエージェント）にはKimi K3、GLM 5.2、DeepSeek V4など最新モデルとOpenCodeエージェントを追加。各モデル比較のレポートを公開。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-13T13:05:29.000Z",
-      "contentHash": "01dbfd6b6564"
-    },
-    {
-      "id": "cf91a2161fad",
-      "title": "DeepSeek Harness developer preview",
-      "url": "https://deepseek.com/harness/en/",
-      "summary": "DeepSeek Harnessが開発者プレビュー公開（ソースコード含む）。モデル、ツール、スキル、セッション、サンドボックス、ストレージ、UI等を全てプラグイン化しCordisカーネルで管理。設定で差替え・拡張可能。全操作は追記型セッションログで記録され、再開・分岐・検索・再生が可能。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-13T12:58:02.000Z",
-      "contentHash": "db9a311633fa"
-    },
-    {
-      "id": "597880c9efc1",
-      "title": "Deutsche Bank becomes first foreign yuan clearing bank in Europe",
-      "url": "https://tradersunion.com/news/central-banks/show/2973571-deutsche-bank-becomes/",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できません。記事本文を貼るか主要ポイントを送ってください。いただければ200字以内で日本語に要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-13T12:09:50.000Z",
-      "contentHash": "641a042b0ba0"
-    },
-    {
-      "id": "6f8368ac763b",
-      "title": "The builder’s guide to GPT‑5.6",
-      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "summary": "スタートアップがGPT-5.6のスマートなモデル選択と新しいResponses APIを活用し、より高速でコスト効率の高いAIエージェントを構築する方法を紹介。",
-      "source": "OpenAI",
-      "publishedAt": "2026-08-13T11:00:00.000Z",
-      "contentHash": "b034ac5d559c"
-    },
-    {
-      "id": "00b0d8a7a895",
-      "title": "夏の読書感想文：『LLMの原理、RAG・エージェント開発から読み解く コンテキストエンジニアリング』 | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/052576a821395d",
-      "summary": "久々にZennへ記事を投稿。時間ができたのでエージェント開発とコンテキストエンジニアリングを体系的に学び、章ごとに得た知見や気づきを備忘録としてまとめていくという報告です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T10:16:09.000Z",
-      "contentHash": "806b27b4f331"
-    },
-    {
-      "id": "c0986f6628d1",
-      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-      "url": "https://openai.com/index/previewing-ultrafast",
-      "summary": "OpenAIは新APIサービス「Preview Ultrafast」を発表。Cerebras搭載でGPT-5.6 Solを最大14倍高速化し、最大毎秒750トークンの出力を実現します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-08-13T10:00:00.000Z",
-      "contentHash": "6ab3262733fb"
-    },
-    {
-      "id": "8a54b910c0a9",
-      "title": "VIZ座談会 #3 AI時代に、ビジュアライザーは何をつくるのか | vicc blog",
-      "url": "https://blog.vicc.jp/entry/viz-roundtable-03",
-      "summary": "AIによる画像生成が普及し建築ビジュアルは変化しているが、良し悪しを判断する経験や「見る力」、意図を説明し対話し伴走する能力は人に残る役割だという議論。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T09:30:00.000Z",
-      "contentHash": "301f952ab336"
-    },
-    {
-      "id": "6eaab463a55d",
-      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-      "summary": "OpenAIはダリ・ラジッチ氏を最高収益責任者（CRO）に任命。グローバルの収益組織を率い、企業がAIの価値を最大限に引き出せるよう支援する。",
-      "source": "OpenAI",
-      "publishedAt": "2026-08-13T09:00:00.000Z",
-      "contentHash": "11e58f6d931f"
-    },
-    {
-      "id": "b159bce56854",
-      "title": "【C#×Blazor×AzureOpenAI】VSCodeからC#のWebアプリを作成してみた | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/c5a52e0f35ac1d",
-      "summary": "Azureを扱うクラウドエンジニアが、Python中心の経験でC#未経験ながら記事をきっかけにC#/ASP.NET Core/BlazorとAzure OpenAIで簡単なWebアプリを作り、検証と得た知見をまとめた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T08:38:00.000Z",
-      "contentHash": "ff6eb792a930"
-    },
-    {
-      "id": "335224085220",
-      "title": "週刊Cloudflare - 2026/08/09週 | Gemcook Tech Blogのフィード",
-      "url": "https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_0802-0808",
-      "summary": "Cloudflareの週間アップデート（2026/08/02–08）。前週のサービス変更を網羅的に紹介。主な内容はWrangler 4.119.0のマイナー更新で、wrangler ai-search createに--parse-typeフラグ追加など（website dataの変更あり）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T08:35:06.000Z",
-      "contentHash": "3e7e5ae92390"
-    },
-    {
-      "id": "ba32c0ef1b4c",
-      "title": "Rails: Rack層の例外ログをrails_semantic_loggerで記録する | TechRacho",
-      "url": "https://techracho.bpsinc.jp/konaga/2026_08_13/159412",
-      "summary": "logrageで構造化ログを採用していたが、ActionController::RoutingError等のRack層の例外が出力されなかったため、Rack層の例外も記録できるrails_semantic_loggerを導入した経緯を紹介する話。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T08:30:57.000Z",
-      "contentHash": "1472ee042d86"
-    },
-    {
-      "id": "6fcf0f9cae8b",
-      "title": "CodeRabbit の 2026 年アップデート内容を追ってみる | every Tech Blog",
-      "url": "https://tech.every.tv/entry/2026/08/13/173017",
-      "summary": "リテールハブ小売アプリ開発チームの池です。昨年からPRレビューにCodeRabbitを利用。本稿では2026年のアップデートを整理し注目機能を紹介します（情報は2026/8/12時点、仕様は変わる可能性あり）。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T08:30:17.000Z",
-      "contentHash": "c2cf8fbcbe95"
-    },
-    {
-      "id": "a9f72dea7316",
-      "title": "AWS AI Leagueを自身のAWS環境で試す ─ Community EditionでGame Playとエージェント改善 | NTT DATA TECHのフィード",
-      "url": "https://zenn.dev/nttdata_tech/articles/3e517cc5f344c6",
-      "summary": "これまでAWS AI League Community Editionの全体像とデプロイ方法を紹介し、実際に自身のAWSへデプロイしてログインを確認しました。今回はその続きとして、Community EditionでのGame Playの実行を試します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T08:30:05.000Z",
-      "contentHash": "259651477e40"
-    },
-    {
-      "id": "0fb0c09d4936",
-      "title": "Amazon Bedrock AgentCore に関するアップデート | ナレコムAWSレシピ | AIに強い情報サイト",
-      "url": "https://recipe.kc-cloud.jp/archives/19397/",
-      "summary": "AWS Bedrock LLM Day Japanでの「NYC Summit 2026におけるAmazon Bedrock AgentCoreのアップデート」セッション参加レポート。発表の概要、新機能やデモ、開発・運用への示唆をまとめています。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T08:21:36.000Z",
-      "contentHash": "2f3233b445fc"
-    },
-    {
-      "id": "6091e88a824f",
-      "title": "Amazon Bedrock 最新アップデート_AgentCore、Managed Knowledge Base、AWS Context | ナレコムAWSレシピ | AIに強い情報サイト",
-      "url": "https://recipe.kc-cloud.jp/archives/19393/",
-      "summary": "AWS Bedrock LLM Day JapanのKeynoteで発表された、Amazon BedrockとAIエージェント関連サービスの最新アップデート（新モデル導入、エージェント連携強化、運用・セキュリティ改善、開発ツール拡充等）を報告します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T08:17:42.000Z",
-      "contentHash": "dae182b4f378"
-    },
-    {
-      "id": "71598fbf163c",
-      "title": "新卒研修でAWS Jamを開催しました | エクサウィザーズ Tech Blogのフィード",
-      "url": "https://zenn.dev/exwzd/articles/20260722_aws_jam",
-      "summary": "先端技術開発グループWANDの佐藤碧が、2026年度新卒研修でAWS Jamを実施した目的、効果、開催の工夫を報告。実践的なシナリオ学習で技術習得とチーム力向上を確認し、開催ノウハウや品川会の中間発表資料（SpeakerDeck）も紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T08:16:16.000Z",
-      "contentHash": "6fd55ad6669e"
-    },
-    {
-      "id": "71e38f7686ae",
-      "title": "【Excel VBAで、もっと効率化！】バックアップツール編② 保存先を自動で準備！Backupフォルダを自動作成するミニツール | 分析屋",
-      "url": "https://note.com/bunsekiya_tech/n/ne3ba7082a7d9",
-      "summary": "Excel VBAのバックアップツール改良。対象ファイルと同フォルダに既存のBackupフォルダを使い、なければFSO（Microsoft Scripting Runtime）で新規作成し、日時付きバックアップを保存する手順を説明。未保存ブックは処理を止める。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T07:03:36.000Z",
-      "contentHash": "671a8876155d"
-    },
-    {
-      "id": "cb55b3cc3617",
-      "title": "AI生成HTMLドキュメントの共有の仕組みを作ってみる | NEXTSCAPE blog",
-      "url": "https://blog.nextscape.net/archives/2026/08/13/153158",
-      "summary": "AI生成HTML資料の共有基盤を試作。GitHub ActionsでHTMLをCloudflare Pagesへデプロイし、Cloudflare AccessのメールPIN等で社内外に柔軟に公開可能。無料で実現できるが運用とセキュリティは要検討。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T06:31:58.000Z",
-      "contentHash": "a7663f927522"
-    },
-    {
-      "id": "c8c9649cc1cc",
-      "title": "Entra IDの動的デバイスルールを使ってWindows 11を分類する方法 | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/08/13/142952",
-      "summary": "Entra IDの動的デバイスグループでOS属性などを使いWindows 11端末を自動分類する手順を解説。前提はEntra ID P1とデバイス登録。例： (device.deviceOSType -eq \"Windows\") and (device.deviceOSVersion -startsWith \"10.0.2\")。作成後はルール検証で一致/不一致を確認。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T05:29:52.000Z",
-      "contentHash": "9562b183bd6e"
-    },
-    {
-      "id": "eec9eabd3317",
-      "title": "AI時代の新しいセキュリティのカタチをつくる。 30年の経験者がSansanを選んだ理由 | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/08/13/140000",
-      "summary": "約30年にわたり情報セキュリティに携わり、CSIRT立ち上げなどで実績を持つ鴨志田昭輝氏が2026年にSansan入社。AIでの効率化と内製化を見据え、AI前提の新しいセキュリティ体制構築を目指すため選んだ。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-13T05:00:00.000Z",
-      "contentHash": "81dbc4544955"
     }
   ]
 }
