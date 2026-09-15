@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2026-09-14T20:17:00.305Z",
+  "generatedAt": "2026-09-15T04:24:46.580Z",
   "items": [
+    {
+      "id": "fb5e2b343bdf",
+      "title": "既存NuxtプロジェクトにVite+を導入して、開発ワークフローを統一する | ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/09/15/120000",
+      "summary": "既存のNuxtプロジェクトにVite+を導入し、vp CLIでローカルとCIの開発コマンドを統一。Oxlint/OxfmtはVite+で置換、NuxtやESLint等は委譲、認証等は維持する方針で移行し、必要なsetup-vp機能をOSSへ追加しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-15T03:00:00.000Z",
+      "contentHash": "61b9cf079a7f"
+    },
+    {
+      "id": "a1638c9a1b6e",
+      "title": "Material for MkDocsで作るリッチなドキュメントサイト | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/09/15/114023",
+      "summary": "Material for MkDocsはMarkdownからマテリアルデザインのドキュメントサイトを生成するツール。pipで導入してmkdocs new/serveで起動し、mkdocs.ymlでtheme: material、language: ja、content.code.copyやsearch.highlight等を設定して見た目や検索・コードコピー機能を強化できる。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-15T02:40:23.000Z",
+      "contentHash": "6db699d3adf8"
+    },
+    {
+      "id": "9a622a2647f1",
+      "title": "AI-DLC の OSS に会話言語対応をコントリビュート - AWS 発 AI 駆動開発フレームワークの成果物を、利用者が話した言語で生成させる | MOTEX TECH BLOG",
+      "url": "https://tech.motex.co.jp/entry/2026/09/15/111721",
+      "summary": "2026-09-15、AWSのAI駆動開発フレームワーク成果物「Kiro AI-DLC」OSSに会話言語対応をコントリビュート。利用者が話す言語で生成物を出力できるようにした。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-15T02:17:21.000Z",
+      "contentHash": "db59cc3c7efc"
+    },
+    {
+      "id": "76349b3685b5",
+      "title": "決済成功画面だけでは判断できない — クレジットカード決済のテスト | hacomono TECH BLOG",
+      "url": "https://techblog.hacomono.jp/entry/2026/9/15/110000",
+      "summary": "クレジットカード決済は入力画面や「完了」表示だけで判断できない。本人認証・承認・売上確定・結果反映など多段処理があり、QAは画面表示だけでなく代行側取引や金額、履歴、拒否時の案内や副作用、判定不明時・多重操作での重複防止まで確認する。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-15T02:00:00.000Z",
+      "contentHash": "ab57a5d0336f"
+    },
+    {
+      "id": "d7d4f6eed217",
+      "title": "Valve is still figuring out ‘how and when’ to do Steam Deck 2",
+      "url": "https://www.theverge.com/games/995256/valve-steam-deck-2-how-and-when",
+      "summary": "Valveは2026年の新ハードを発表したが、Steam Deck 2の投入時期は未定。Pierre-Loup Griffaisは「いつ・どうやって出すかを模索中」で、適切なチップと性能・価格・バッテリー効率の両立が条件だと述べた。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-15T00:13:47.000Z",
+      "contentHash": "9554ab1e1664"
+    },
+    {
+      "id": "752a4ec6492b",
+      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "summary": "主要AI企業が「開発の抑制」を打ち出したが、安全確保のためか独占・談合のためか疑問視されている。提案は歓迎されるが、実効性ある規制や執行力が不可欠だと指摘される。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-14T22:59:41.000Z",
+      "contentHash": "923ae49efd23"
+    },
+    {
+      "id": "b33734e74769",
+      "title": "Apple Home’s new security camera features cost as much as $60 a month",
+      "url": "https://www.theverge.com/tech/994949/apple-intelligence-apple-home-icloud-plus-cost-subscription",
+      "summary": "iOS 27/tvOS 27でHomeにApple Intelligenceが導入され、HomeKit Secure VideoにAI生成の動画要約（テキスト説明）、動画検索、複数カメラ映像の結合などが追加される。ただし利用は月額$10〜$60の有料プラン。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-14T22:28:52.000Z",
+      "contentHash": "1f656af9cfcd"
+    },
+    {
+      "id": "7591806ea80f",
+      "title": "Charts built for Chat",
+      "url": "https://dbtcharts.com/blog/charts-built-for-chat/",
+      "summary": "dbt Labsがダッシュボードの宣言的言語「dbt Charts」をオープンソース化。チャットで生成されるAIレポートの多言語・多ファイル化による監査・統制の課題を解消し、コードの自由度とBIツールの制約の中間解を提供する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-14T21:22:54.000Z",
+      "contentHash": "2a2873bf9073"
+    },
+    {
+      "id": "ab0b67bb40bd",
+      "title": "What execs and politicians are saying about slowing down AI development",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
+      "summary": "アモデイが長文「We Must Pace the Frontier」でAI開発の減速を提唱。第三者評価者、民主国のフロンティア企業間協調、各国間の国際協調の三案を示し、サム・アルトマンやトランプらの賛否を含む反応をまとめた記事。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-14T21:21:42.000Z",
+      "contentHash": "c39dba43f1df"
+    },
+    {
+      "id": "200b831b96da",
+      "title": "Trump throws out power plant climate pollution rules",
+      "url": "https://www.theverge.com/news/995051/epa-power-plant-climate-pollution-rollback-ai-data-centers",
+      "summary": "米EPAが火力発電所の温室効果ガス規制を撤廃する案を発表。AIやEV、製造業の電力需要増を控え、化石燃料推進の規制緩和は排出増や健康・経済負担を招くと批判が出ている。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-14T20:45:00.000Z",
+      "contentHash": "3df231e845d3"
+    },
+    {
+      "id": "f6599299efeb",
+      "title": "Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world",
+      "url": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
+      "summary": "NVIDIAのジェンセン・フアンCEOがAll‑Inサミットのステージでトランプ大統領の電話をスピーカーで公開。トランプはAI不安を「作り話」とし「ロボットは支配しない」と発言。アントロピックCEOの開発抑制論も話題に。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-14T20:03:37.000Z",
+      "contentHash": "c16f4f9abf83"
+    },
     {
       "id": "a1612c0262f4",
       "title": "Valve&#8217;s virtual reality plans hit actual reality",
@@ -32,19 +131,19 @@
       "id": "fbe43a4b833d",
       "title": "TIFF 2026: The latest movie reviews from Toronto",
       "url": "https://www.theverge.com/entertainment/994834/tiff-2026-movie-reviews",
-      "summary": "トロント国際映画祭2026の短評。注目作に『Your Mother Your Mother Your Mother』『The Only Living Pickpocket in New York』、ライカの『Wildwood』など。アレックス・ギブニーの約4時間のイーロン・マスク映画は徹底的だが新味に乏しく長尺が難点。",
+      "summary": "TIFF2026の短評まとめ。多様な出品作から『Your Mother Your Mother Your Mother』『The Only Living Pickpocket in New York』『Wildwood』や4時間超のアレックス・ギブニー監督によるイーロン・マスク記録映画を紹介。丁寧だが新事実は少なく長尺が難点。",
       "source": "The Verge",
       "publishedAt": "2026-09-14T17:30:00.000Z",
-      "contentHash": "72b4722698c1"
+      "contentHash": "1d739f84774e"
     },
     {
       "id": "6521ac276349",
       "title": "Steam Frame starts at $1059",
       "url": "https://store.steampowered.com/hardware/steamframe",
-      "summary": "Steamストアのページ用スクリプト。セッションID・言語・サーバ時刻などを設定し、ミニプロフィールホバーやストア項目のナビパラメータを追加。動的ストア初期化とUSD通貨フォーマッタ、最小価格刻みを設定するコード断片。",
+      "summary": "申し訳ありませんが、外部URLの内容を直接参照できません。記事本文か主要抜粋、HNのコメントを貼っていただければ、200字以内で日本語要約します。",
       "source": "Hacker News",
       "publishedAt": "2026-09-14T17:27:55.000Z",
-      "contentHash": "19198783d376"
+      "contentHash": "5f305a136e8a"
     },
     {
       "id": "b54bfac470e1",
@@ -117,6 +216,24 @@
       "source": "The Verge",
       "publishedAt": "2026-09-14T17:00:00.000Z",
       "contentHash": "50c9dd5c0c79"
+    },
+    {
+      "id": "4eebd9c1495f",
+      "title": "Cops Search Flock Cameras for Reasons of 'LMAO,' 'IDK,' and 'Asdfg'",
+      "url": "https://www.404media.co/cops-search-thousands-of-flock-cameras-for-reasons-of-lmao-idk-hehe-and-asdfg/",
+      "summary": "全米の警官がFlockの監視検索で1万9000超のカメラを横断し車番を検索。理由欄に「LMAO」「LOL」「asdfg」等の冗談や罵倒が多数。EFFの分析は運用の無頓着と乱用、プライバシー問題を指摘。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-14T16:23:41.000Z",
+      "contentHash": "afca0fe9fe1d"
+    },
+    {
+      "id": "e2d31cd92fde",
+      "title": "How my e-reader lost its stripes",
+      "url": "https://www.serpentine.com/posts/2026/x3-stripes/",
+      "summary": "書籍好きの著者が小型e-inkリーダー(Xteink X3)にCrossPointを導入。便利だがカスタムフォントの描画が粗く、グレースケールで濃灰が黒化・淡灰が白寄りに表示され、画面の残像（ゴースト）などの不具合に直面した。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-14T16:23:16.000Z",
+      "contentHash": "b173765a331a"
     },
     {
       "id": "8d389dca6e7b",
@@ -806,10 +923,10 @@
       "id": "fcbdbdad0836",
       "title": "The Gemini app is now available for Windows",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
-      "summary": "GeminiのWindows版デスクトップアプリを公開します。日常的に使うツールやアプリと連携して動作する、新しいデスクトップ向けアプリです。",
+      "summary": "GoogleのGeminiアプリがWindowsで提供開始。Alt+Spaceでデスクトップから即AI支援を呼び出せ、文書作成・タスク管理・画像・動画生成やGoogleアプリ連携が可能で軽快に動作します。",
       "source": "Gemini",
       "publishedAt": "2026-09-10T16:00:00.000Z",
-      "contentHash": "11cf9dc243c5"
+      "contentHash": "5b61c72e2cc4"
     },
     {
       "id": "325b5817277a",
@@ -1247,10 +1364,10 @@
       "id": "c9b388b08480",
       "title": "4 ways Gemini makes administrative chores quick and easy",
       "url": "https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy/",
-      "summary": "人々は複雑な政府関連手続き（税申告、罰金処理、社会サービスの申請など）を支援してもらうために、AIのGeminiに頼っている。",
+      "summary": "Geminiが政府システムの案内役となり、運転免許更新や税申告など複雑な行政手続きを、迅速かつ簡単にこなすための4つの方法を紹介。",
       "source": "Gemini",
       "publishedAt": "2026-09-09T16:00:00.000Z",
-      "contentHash": "a533905d2c60"
+      "contentHash": "90374e2e72ef"
     },
     {
       "id": "49ee7e2ea0ee",
@@ -2345,10 +2462,10 @@
       "id": "d0b16425fcb6",
       "title": "Create your best tracks yet with Lyria 3.5 in Gemini.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/",
-      "summary": "最上位の音楽生成モデル「Lyria 3.5」がGeminiアプリとGemini APIで利用可能に。歌声がより表現豊かになり、楽曲のアレンジや音響が一層豊かになった。",
+      "summary": "Lyria 3.5がGeminiアプリとAPIで公開。表現豊かなボーカルと厚みのある編曲を実現し、ジャンルやボーカル／インスト選択、テンプレ利用、短長トラック指定が可能。Web・モバイル、Google Flow Music、AI Studio、Vidsで利用可。",
       "source": "Gemini",
       "publishedAt": "2026-09-04T16:00:00.000Z",
-      "contentHash": "25a006db28eb"
+      "contentHash": "ea770136519c"
     },
     {
       "id": "d806d6279583",
@@ -2804,10 +2921,10 @@
       "id": "5eb2aa71a90a",
       "title": "Proactive cyber defense for governments and enterprises",
       "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "summary": "フェアウィンド・プログラムは、政府機関と信頼できるパートナー向けに当社のサイバー防御ツールを利用できる限定アクセスのプログラムです。",
+      "summary": "Google（発表元）が政府や信頼できるパートナー向けに最先端のサイバー防衛能力を限定提供する「Fairwind Program」を開始。政府・企業のプロアクティブな防御を支援するためのAI主導の限定アクセスプログラム。",
       "source": "Gemini",
       "publishedAt": "2026-09-02T15:40:00.000Z",
-      "contentHash": "5e6d76668626"
+      "contentHash": "d7fa0ce49715"
     },
     {
       "id": "8cdddc611630",
@@ -2831,10 +2948,10 @@
       "id": "1e5b8618d900",
       "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "summary": "Gemini 3.8 Flash と 3.8 Flash Cyber は、エージェント型ワークフロー（自律的な業務遂行）とサイバーセキュリティ向けに、次世代のインテリジェンスと分析能力を提供します。",
+      "summary": "GoogleはGemini 3.8 Flashと3.8 Flash Cyberを発表。6週間で3度目のFlashで、3.8は推論・コーディング性能を強化し、エージェント型ワークフローとサイバーセキュリティ向けに最適化。3.7と同等の速度・低コストを維持。",
       "source": "Gemini",
       "publishedAt": "2026-09-02T15:00:00.000Z",
-      "contentHash": "d1bd9fdc2255"
+      "contentHash": "7c252d872dbb"
     },
     {
       "id": "94851e28049d",
@@ -3155,10 +3272,10 @@
       "id": "c97fc0583795",
       "title": "The latest AI news we announced in August 2026",
       "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-      "summary": "記事本文が提示されていません。要約するには本文を貼るか要点を教えてください（私はウェブを直接閲覧できないため、URLだけでは全文を取得できません）。200文字以内で要約します。",
+      "summary": "2026年8月の主な発表：低コストのGemini 3.7 Flash、文字起こし対応のGemini 3.5 Transcribe、Pixel 11シリーズ、Gemini Liveの生産性機能、学生向け無償プランや映像生成強化。",
       "source": "Gemini",
       "publishedAt": "2026-09-01T20:45:00.000Z",
-      "contentHash": "cc825b07a7eb"
+      "contentHash": "8e1349ee8e0e"
     },
     {
       "id": "17bfc284e643",
@@ -4343,10 +4460,10 @@
       "id": "7d8f7d49cd6d",
       "title": "Gemini Omni 1.1 Flash lets you build with more control",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
-      "summary": "Gemini Omni 1.1 Flashは、開発者向けに新しいクリエイティブ制御群と生成型ビデオ機能を導入し、映像制作や編集の自動化・高度化を支援します。",
+      "summary": "Google DeepMindのGemini Omni 1.1 Flashは、スタジオ品質の映像制作を実現。シーン延長、先頭・末尾フレーム補間、鮮明な4Kアップスケーリング、プロトタイピング高速化など、より細かな制御を提供する。",
       "source": "Gemini",
       "publishedAt": "2026-08-27T16:00:00.000Z",
-      "contentHash": "4df66ea2af45"
+      "contentHash": "fb27a994b2be"
     },
     {
       "id": "3504ab23c738",
@@ -8883,123 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-08-17T09:00:00.000Z",
       "contentHash": "ff443d50efa1"
-    },
-    {
-      "id": "59df2abce038",
-      "title": "ローカル LLM の量子化を、仕組みから配布ファイルの選び方まで初心者向けに整理する | ソフトバンク株式会社_satto開発チームのフィード",
-      "url": "https://zenn.dev/satto_workspace/articles/f1c9eac067cd97",
-      "summary": "satto workspaceの田村です。ChatGPTやClaudeは遠くのサーバーで動くが、公開モデルは手元のPCでも動かせる。ただし巨大なため、そのままでは載らないので「量子化」で小さくして配布・実行する、という説明です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-17T08:59:27.000Z",
-      "contentHash": "8128b60678b6"
-    },
-    {
-      "id": "4001c007c7b5",
-      "title": "Get closer to the game with Gemini and Pixel",
-      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "summary": "GeminiとPixelはアーセナル、FCバルセロナ、FCバイエルン、リヴァプール、パリ・サンジェルマンと長期提携。AIパーソナルインテリジェンスとスマホ技術でファンを試合により近づけることを目指す。",
-      "source": "Gemini",
-      "publishedAt": "2026-08-17T08:00:00.000Z",
-      "contentHash": "4ed681ce74fa"
-    },
-    {
-      "id": "7e0069c02eb6",
-      "title": "【SHIFTの技術ブログ】人気記事週間ランキングTOP10 2026/8/10-8/16 | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/nfea93f832562",
-      "summary": "SHIFT技術ブログの週間PVランキング（8/10-8/16）。1位はAnki導入ガイド、2位は応用情報合格体験、3位は会話術。Linux移行、Maestro、LightGBM、Azure/AWS・生成AI資格など、学習・資格・効率化・コミュニケーション関連記事が上位でした。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-17T07:12:21.000Z",
-      "contentHash": "50c0aa81e9b7"
-    },
-    {
-      "id": "623469996145",
-      "title": "今週の新着ブログ6本_インサイドセールスで差がつく理由と攻略法 ほか(2026.8.7~8.13) | SHIFT Group 技術ブログ",
-      "url": "https://note.shiftinc.jp/n/n26c02e55236b",
-      "summary": "SHIFTの週刊技術ブログ6本まとめ：インサイドセールスの話法と3段階攻略、Agentforce合格ロードマップ、子どもの居場所支援、SalesforceのNULL扱い差、伝わる話し方、Anki入門。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-17T07:10:36.000Z",
-      "contentHash": "5f1fdd050952"
-    },
-    {
-      "id": "deb483e5ab6a",
-      "title": "I’m hooked on Peak Design’s new City bags",
-      "url": "https://www.theverge.com/tech/980137/peak-design-city-line-review",
-      "summary": "Peak DesignのCityラインは、縫い付けられた「BagLev」フックでバッグを椅子や机の端に掛けて床の汚れを避けられる点が特徴。クロスボディやバックパックで使える実用的な工夫として高評価。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-17T07:00:00.000Z",
-      "contentHash": "b7331ce02327"
-    },
-    {
-      "id": "e7ede9b76399",
-      "title": "Slackに飛んでくる本番エラー通知、8割が「空メッセージ」だった話 | ユニファ開発者ブログ",
-      "url": "https://tech.unifa-e.com/entry/2026/08/17/155756",
-      "summary": "本番のSlackエラー通知の80%が本文空の「空メッセージ」だった。原因はmessageフィールドが空で例外情報がexceptionに入るログ整形の不備。例外からmessageを生成し、想定内例外を通知対象外にして空メッセージ率を80.2%→4.8%→0%に改善した。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-17T06:57:56.000Z",
-      "contentHash": "d9e48a99476f"
-    },
-    {
-      "id": "180132413a1c",
-      "title": "Vercel eveではじめるAIエージェント｜バイブコーディングでも実践的なエージェント構築を体験できた話 | chot Inc. tech blogのフィード",
-      "url": "https://zenn.dev/chot/articles/7a2b89bfa138e0",
-      "summary": "VercelのeveとClaude CodeでCMS向けAIアシスタント（Q&A・フィードバック整理・GitHub Issues起票）を構築。node_modules内docsやNext.jsへの簡単組込、検証・トレース・サンドボックス等の運用機能が充実し、初心者でも実用的なエージェント開発が可能と結論。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-17T06:54:51.000Z",
-      "contentHash": "eace01d165bc"
-    },
-    {
-      "id": "36b205f1032b",
-      "title": "企画から実装まで自走するって楽しい 〜1ヶ月間のDS室のインターンで学んだこと〜 | Yappli Tech Blog",
-      "url": "https://tech.yappli.io/entry/spica-internship-report-2026-8",
-      "summary": "データサイエンス室で1ヶ月インターンした松戸です。アプリ研修後、社内向けText-to-SQLツール「Spica」を改良し、UI/UX改善やKPI可視化のカルテ画面実装、チャットへのドリルダウン導線やプロンプト調整、フロント／バック実装まで自走で経験し、自由度と職場の良さを実感しました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-17T06:22:08.000Z",
-      "contentHash": "45dc02b52f4a"
-    },
-    {
-      "id": "a45f1da85ec7",
-      "title": "全社員がデータ分析できる環境へ、AIエージェント活用とデータ基盤 | Wantedly Engineer Blog",
-      "url": "https://www.wantedly.com/companies/wantedly/post_articles/1085677",
-      "summary": "記事の全文が見えません。全文またはURLを貼っていただければ、200字以内で要約します。今の冒頭だけでよければその範囲の要約を作成しますが、どちらにしますか？",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-17T06:00:10.000Z",
-      "contentHash": "532f24fd105b"
-    },
-    {
-      "id": "e938746afe1d",
-      "title": "Best Engineer Awards 2026 by Ciscoにエンドユーザーとして初めて選出されました | Sansan Tech Blog",
-      "url": "https://buildersbox.corp-sansan.com/entry/2026/08/17/150000",
-      "summary": "コーポレートシステム部の正木さんが、社内エンドユーザーとして初めてCiscoのBest Engineer Awards 2026に選出。Merakiの内製化・TerraformによるIaC運用や迅速なPoC→本番化、TechBlogでの知見発信が評価され、表彰と登壇を行った。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-17T06:00:00.000Z",
-      "contentHash": "0b117ffdf6b1"
-    },
-    {
-      "id": "b7050cd98c5a",
-      "title": "AIの判定は\"毎回同じ\"にできるのか — 問い合わせをAIエージェントに任せた保守開発チームの話 | RAKUS Developers Blog | ラクス エンジニアブログ",
-      "url": "https://tech-blog.rakus.co.jp/entry/20260817/ai-agent",
-      "summary": "保守開発チームは問い合わせの切り分けと一次調査をAIに委任。判定のブレを防ぐため裁量を排し、順序固定の判定手順・トリガー語句表・5段階確信度ルーブリック（70以上で自動ラベル）と回帰テストで運用し、開発時間確保を図る。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-17T06:00:00.000Z",
-      "contentHash": "769d080c4573"
-    },
-    {
-      "id": "136734759ce2",
-      "title": "Weekly AWS アップデート情報 - 2026年8月17日 | ソフトバンク テックブログ（公式）のフィード",
-      "url": "https://zenn.dev/softbank/articles/8561f15a115ab7",
-      "summary": "8/10–8/16のWeekly AWS更新：S3が同一アカウント/組織のAccess Deniedに拒否ポリシーのARNを表示。Amazon Quickは共有の承認ポリシーとCloudTrail監査を追加。OpenSearch Serverlessはコレクション上限を1,500→10,000に増加。AWS GlueからSageMaker Unified Studioへワンクリックで遷移可能。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-17T05:59:18.000Z",
-      "contentHash": "c0e6b121484a"
-    },
-    {
-      "id": "3cdb6298afa8",
-      "title": "Intuneでデバイスの所有権を「個人」から「企業」に変更する | JBS Tech Blog",
-      "url": "https://blog.jbs.co.jp/entry/2026/08/17/144401",
-      "summary": "Intuneで個人登録されたWindows端末を、初期化や再登録せずにMicrosoft Graph PowerShellを使って企業所有デバイスへ切り替える方法を解説します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-17T05:44:01.000Z",
-      "contentHash": "06e3ec7d8609"
     }
   ]
 }
