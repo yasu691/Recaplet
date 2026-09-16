@@ -1,6 +1,60 @@
 {
-  "generatedAt": "2026-09-16T04:16:38.437Z",
+  "generatedAt": "2026-09-16T13:27:20.675Z",
   "items": [
+    {
+      "id": "f1145eca1cbd",
+      "title": "A brief history of AI executives calling for regulation",
+      "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+      "summary": "AI企業幹部による規制要請の経緯を振り返る記事。業界は現在パニック状態だが、長年「法的ガードレール」を求めてきた一方で、実効ある規制はほとんど進んでいないと指摘する。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "contentHash": "18abc708ffc7"
+    },
+    {
+      "id": "97989477dc42",
+      "title": "Nintendo opens up Fire Emblem with the gigantic Fortune’s Weave",
+      "url": "https://www.theverge.com/games/995539/fire-emblem-fortunes-weave-switch-2-review",
+      "summary": "任天堂は『Fortune’s Weave』でファイアーエムブレムにオープンエンド哲学を導入。4つの主人公ルートと最終章で複数の物語を体験でき、自由な進行と編成でSwitch 2の中でも特に没入できる作品になった。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "contentHash": "7d82306b6e12"
+    },
+    {
+      "id": "511d9669e389",
+      "title": "The iPhone 18 Pro’s big camera update is all about the small gains",
+      "url": "https://www.theverge.com/tech/995945/iphone-18-pro-max-review-camera-aperture",
+      "summary": "iPhone 18 Pro/Pro Maxの「大きな」カメラ刷新は、実際には小さな画質向上にとどまり、f値を知らなくても違いは分かりにくい。発表では折りたたみiPhoneが注目をさらい、18 Proは二番手だった。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "contentHash": "1896cdf9fdee"
+    },
+    {
+      "id": "64b7cddd98d6",
+      "title": "Learning Programming in an Age of LLMs",
+      "url": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
+      "summary": "Mark Seemannが読者の手紙に答える記事。正式なCS背景なしでLLMを使い大規模なTypeScript/JSシステムを作ったが、本番化で不具合や理解不足が露呈し、モデル依存に不安を抱く。Seemannは確信のない見解を述べる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-16T09:12:34.000Z",
+      "contentHash": "a3d03b06a2b4"
+    },
+    {
+      "id": "c8d219e56e06",
+      "title": "Meta is reportedly ready to launch less pervy smart glasses",
+      "url": "https://www.theverge.com/tech/996138/meta-luna-ray-ban-smart-glasses-camera-free-connect",
+      "summary": "メタはカメラを搭載しないスマートグラス「Luna」をMeta Connectで来週発表する可能性がある。代わりに6基のマイクとスピーカーでMeta AI／新・Muse AIと会話可能。腕部が細くなり、10月出荷目標でClubmasterとBurbankの2型を計画。録画機能を巡るPR問題への対応が狙い。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-16T08:54:46.000Z",
+      "contentHash": "51fc1a5caf38"
+    },
+    {
+      "id": "52f641a12b22",
+      "title": "Apple Reference Image: A New Approach for Verified Photography",
+      "url": "https://security.apple.com/blog/apple-reference-image/",
+      "summary": "AIで写真の改変や生成が容易になり、写実性だけでは真実性を示せなくなった。センサーから処理ソフトまでの信頼連鎖が必要だがC2PAは改ざんや本人特定のリスクがある。AppleはiPhoneのハード／ソフトの高い安全性と、データ非閲覧で検証可能なPrivate Cloud Computeを用い解決を目指す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-16T02:07:31.000Z",
+      "contentHash": "bd03e72e94ab"
+    },
     {
       "id": "9eb0d4718491",
       "title": "The Boox Palma 3 gets stylus support and a sleek redesign",
@@ -20,6 +74,24 @@
       "contentHash": "135c4bbd40d0"
     },
     {
+      "id": "30fb04a6f530",
+      "title": "AI and data centers are incredibly unpopular in every poll",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+      "summary": "NYタイムズとシエナ大の世論調査（9月、1503人）で、61％がAI用データセンターの建設に反対、強く支持は14％。トランプ支持者は賛成49％対反対45％で拮抗、ハリス支持者や非投票者はそれぞれ74％・67％が反対。主要政党に有利差はほとんどない。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-15T23:34:25.000Z",
+      "contentHash": "5f6cd13727ad"
+    },
+    {
+      "id": "75699d0e57ea",
+      "title": "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA",
+      "url": "https://nand2mario.github.io/posts/2026/zsst-voodoo/",
+      "summary": "Voodoo Graphics（SST-1）をSystemVerilogで再実装したzSSTを開発し、z486 CPUと組み合わせてXilinx KV260上で動くDOS PC「z486 XL」を実現。Tomb Raiderが3dfxレンダラで動作し、テクスチャフィルタやミップマップ、深度・アルファテストなど主要機能を100MHzで再現。Glideソース等を参照している。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-15T22:50:55.000Z",
+      "contentHash": "c5c7d0cce1c2"
+    },
+    {
       "id": "345d68c0ec0d",
       "title": "GPT-6 Astra は動画を理解できる？ 画像の連続入力で動画解析を試す",
       "url": "https://note.com/npaka/n/nb5dd87406d07",
@@ -32,10 +104,10 @@
       "id": "171b3d65d5ad",
       "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
       "url": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
-      "summary": "申し訳ありませんが、外部サイトを直接参照できません。該当ページの本文や主要部分を貼り付けていただければ、それをもとに200文字以内で日本語要約します。HNのコメント要約が欲しければそちらを貼ってください。",
+      "summary": "onboardapiはセンサーとソフトの連携用ライブラリ／ミドルウェア。ddkit上のOMG DDS準拠データ中心pub/subで低遅延・高信頼なデータ交換を提供し、XTypes/XCDR2で後方互換を保証。C++コアにJava・C#/.NET・Pythonラッパーで多言語対応。",
       "source": "Hacker News",
       "publishedAt": "2026-09-15T21:07:47.000Z",
-      "contentHash": "eb80c5c279ee"
+      "contentHash": "490c0f2969a0"
     },
     {
       "id": "b416af198b57",
@@ -45,6 +117,24 @@
       "source": "Hacker News",
       "publishedAt": "2026-09-15T20:57:18.000Z",
       "contentHash": "fc9ded1f4ea5"
+    },
+    {
+      "id": "746e67bf33bb",
+      "title": "Microsoft announces Windows and Surface event for October 7th",
+      "url": "https://www.theverge.com/news/994714/microsoft-windows-surface-event-october-7-san-francisco",
+      "summary": "Microsoftは10月7日サンフランシスコでWindowsとSurfaceのイベントを開催。Satya NadellaやNvidiaのJensen Huangらが参加し、ローカルAIとPCの未来を議論。RTX Spark搭載PCやSurface Laptop Ultra、Windowsの品質改善に注目。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-15T20:36:59.000Z",
+      "contentHash": "183dc8287835"
+    },
+    {
+      "id": "2b545b301599",
+      "title": "What if social media isn’t hurting kids?",
+      "url": "https://www.theverge.com/policy/995704/peter-gray-restoring-childhood-jonathan-haidt",
+      "summary": "ローラン・ファイナーの記事。ヘイトの著書がSNS・スマホを若年の精神不調の主因とし政策に影響を与えた一方、新刊は原因を学校制度の変化に求め、学界からは批判も出ている。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-15T20:13:30.000Z",
+      "contentHash": "b52a1807838c"
     },
     {
       "id": "735ab7f0d180",
@@ -8910,96 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-08-17T22:20:40.000Z",
       "contentHash": "40cf67644f99"
-    },
-    {
-      "id": "b961931d546f",
-      "title": "Quake Shareware, a CD-ROM just a little too full",
-      "url": "https://fabiensanglard.net/quake_shareware_cd/index.html",
-      "summary": "1990年代半ば、CD-ROMの大容量でマルチメディアが普及。id SoftwareはQuake（実使用22MiB）CDに暗号化した自社全タイトルを収め電話注文で販売する仕組みを導入したが、1996年発売後39日でハッカー集団GNOMONがQCRACK.EXE入りQuakecrk.zipで解除した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-17T22:06:14.000Z",
-      "contentHash": "bd1f6beba466"
-    },
-    {
-      "id": "2b385af36e48",
-      "title": "Fairphone 6 and PostmarketOS working main camera",
-      "url": "https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera",
-      "summary": "postmarketOSでFairphone 6のメインカメラが動作するようになった。開発者がドライバやユーザースペースを調整して映像取得を実現し、今後の機能改善や他ハード対応の前進を示す成果。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-17T22:01:17.000Z",
-      "contentHash": "b79d4486c9da"
-    },
-    {
-      "id": "f8a2ad7a615b",
-      "title": "GPT-5.6 Sol Pricing Cut by 50%",
-      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
-      "summary": "GPT-5.6 SolはOpenAIの旗艦モデルで、複雑な推論やコーディング、コマンドライン／マルチステップ処理、長期問題解決に強い。1Mコンテキスト、公開は2026/7/9（知識は2026/2）。料金は約$2.50/$15（1M）、OpenRouterが複数プロバイダをルーティングし、33 tok/sの高スループット、遅延3.38s、可用性ほぼ100%を提供。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-17T21:03:18.000Z",
-      "contentHash": "5b8d5d83c800"
-    },
-    {
-      "id": "ba189ead1bfd",
-      "title": "ABC&#8217;s livestreamed news show is powered by trending topics",
-      "url": "https://www.theverge.com/streaming/981209/abc-news-searched-livestreamed-show",
-      "summary": "ABCニュースは検索やSNSのリアルタイムデータで話題を集める配信番組「Searched」を開始。4月からABC News Liveで配信中で、過去回はYouTubeで視聴可。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-17T20:59:23.000Z",
-      "contentHash": "f129543dfcfd"
-    },
-    {
-      "id": "7d49aacaa67b",
-      "title": "AI;DR (AI; Didn't Read)",
-      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "summary": "著者は無編集のAI生成文に嫌悪感を覚え、「AI;DR（AI; didn’t read）」を提案。AI活用は容認するが、校正や編集がされていない長文は読まず、人間の手入れがある文章を重視すると述べる（カスタマー対応等は例外）。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-17T19:47:15.000Z",
-      "contentHash": "13decd90eb1f"
-    },
-    {
-      "id": "9f987d2f143e",
-      "title": "This compact Glorious mechanical keyboard is just $35",
-      "url": "https://www.theverge.com/gadgets/981134/glorious-gmmk-3-mechanical-keyboard-deal-sale",
-      "summary": "Gloriousの65%キーボードGMMK 3がWootでクーポンWOOTGAMING利用で$34.99（通常$139.99）。ホットスワップ対応・有線・Windows/mac用ダブルショットPBTキーキャップ付で、カスタムキーボード入門に最適。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-17T19:27:49.000Z",
-      "contentHash": "fbcfcf34aa60"
-    },
-    {
-      "id": "701489a00e32",
-      "title": "India has paved the way for charging merchants a fee on UPI transactions",
-      "url": "https://www.bbc.com/news/articles/c8xnwqe00v1o",
-      "summary": "インドのUPIは世界最大級の即時決済網に成長。政府は大口商取引に0.3〜0.5%の加盟店手数料（MDR）導入を検討中。個人間決済は無料維持だが、手数料で普及が揺らぐ懸念。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-17T19:25:11.000Z",
-      "contentHash": "546527ac9403"
-    },
-    {
-      "id": "34fc82f82586",
-      "title": "AirTag reveals Amazon is trashing rare books to train AI",
-      "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
-      "summary": "404 Mediaが仕掛けたAirtagで追跡した古書が、ラスベガスのAmazonのAIトレーニング施設に届き、背表紙ごと破ってページをスキャンされていることが確認された。倉庫のロゴは本を食べるT. rex。Amazonは詳細を否定せず曖昧な回答にとどめた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-17T19:06:11.000Z",
-      "contentHash": "f60402418c98"
-    },
-    {
-      "id": "65b01089f9ef",
-      "title": "Wordle meets Clippy in this new word game",
-      "url": "https://www.theverge.com/entertainment/981014/dartwords-clippy-word-game",
-      "summary": "Blaseball開発のThe Game Bandが、新しい日替わり単語パズル「Dartwords」をWebで公開。クリエイティブディレクターのサム・ローゼンタールが、家族での車内ゲームなどアナログな語遊びから着想を得て作った。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-17T19:03:41.000Z",
-      "contentHash": "449655b1933d"
-    },
-    {
-      "id": "3ba11dd59e16",
-      "title": "Los Puesteros, solitary men who look after ranches and livestock in Patagonia",
-      "url": "https://www.newyorker.com/culture/photo-booth/the-lonely-men-at-the-end-of-the-world",
-      "summary": "チリ・パタゴニア最南端で、地主に雇われ低賃金で牧畜を守る孤独な男性「プエステロ」たち。厳しい自然で数ヶ月も孤立し、後継者不足で高齢化が進む。写真家ピエ・アーツが記録した。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-17T18:34:09.000Z",
-      "contentHash": "84fd2cca494e"
     }
   ]
 }
