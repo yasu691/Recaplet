@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-09-16T19:33:57.386Z",
+  "generatedAt": "2026-09-17T04:28:25.234Z",
   "items": [
+    {
+      "id": "6b979e633537",
+      "title": "EthSystems が担う役割：機関投資家向けプライバシーの応用技術レイヤー | Fracton Ventures",
+      "url": "https://contents.fracton.ventures/p/ethsystems",
+      "summary": "2026年7月、Ethereum FoundationのIPTFから独立した営利企業EthSystemsが設立。公開Ethereum上で「市場には秘匿、規制には透明」な機関向けプライバシー基盤をOSS＋有償支援で提供し、日本市場との協働を呼び掛ける。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-17T02:24:51.000Z",
+      "contentHash": "7a274cc075c6"
+    },
+    {
+      "id": "ffb5089ef9db",
+      "title": "GPT-6 AstraがVLAなしでRoboDojo評価の最高スコアを記録",
+      "url": "https://note.com/npaka/n/nc0f8f97b0278",
+      "summary": "GPT-6 Astraは学習済みVLAを使わないL3構成でRoboDojoの42タスク（計2,100回）を評価し、Score28.97・成功率22.48%で既存モデルを上回った。ただし実機試験は危険動作で中止された。",
+      "source": "npaka",
+      "publishedAt": "2026-09-16T23:54:42.000Z",
+      "contentHash": "387a2358e4ac"
+    },
     {
       "id": "e6d7d097962d",
       "title": "Resident Evil is a comedy first and a thrilling nightmare second",
@@ -9,6 +27,15 @@
       "source": "The Verge",
       "publishedAt": "2026-09-16T18:45:35.000Z",
       "contentHash": "15895d327128"
+    },
+    {
+      "id": "6b6a541ec712",
+      "title": "Vectorized and performance-portable Quicksort (2022)",
+      "url": "https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html",
+      "summary": "GoogleはSIMD抽象ライブラリHighwayを活用し、ブロック化パーティションや分岐削減などで高速化したベクトル化かつ性能ポータブルなQuicksort実装を公開。複数アーキでのベンチやコードを提示。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-16T18:31:35.000Z",
+      "contentHash": "be517dd13a6d"
     },
     {
       "id": "052728e9e2e7",
@@ -45,6 +72,15 @@
       "source": "The Verge",
       "publishedAt": "2026-09-16T17:00:00.000Z",
       "contentHash": "10d612daca96"
+    },
+    {
+      "id": "f3899afd4d6a",
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "summary": "OpenAIはモデルのミスアライメントを追跡・調査・開示するための枠組みを提示し、予期せぬまたは懸念される挙動についての6件の報告を併せて公表した。",
+      "source": "OpenAI",
+      "publishedAt": "2026-09-16T17:00:00.000Z",
+      "contentHash": "22bd57692b02"
     },
     {
       "id": "7f73f40ae99d",
@@ -158,10 +194,10 @@
       "id": "2d665986d82f",
       "title": "高速な判断に特化したAI - TypeSafe「Jev」 と System One Model",
       "url": "https://note.com/npaka/n/n6f8dd30a5fa4",
-      "summary": "TypeSafe AIは2026年9月に、文章生成ではなく「状態→型付き確率的判断」を高速に返すSystem Oneモデル「Jev」を発表。応答70〜500msでプログラム直結の判断を提供し、DOOMのリアルタイムデモなど高速リアルタイム用途やLLMとの棲み分けを目指す。",
+      "summary": "TypeSafe AIは判断特化型モデル「Jev」を発表。文章生成でなく、非構造化状態から型付きの確率的判断を70〜500msで返すSystem One Model。LLMより高速・安価でリアルタイム応用（DOOMデモ等）に適する。",
       "source": "npaka",
       "publishedAt": "2026-09-16T12:28:56.000Z",
-      "contentHash": "0fbc982de069"
+      "contentHash": "a230537da562"
     },
     {
       "id": "552a76560141",
@@ -392,10 +428,10 @@
       "id": "345d68c0ec0d",
       "title": "GPT-6 Astra は動画を理解できる？ 画像の連続入力で動画解析を試す",
       "url": "https://note.com/npaka/n/nb5dd87406d07",
-      "summary": "GPT-6 Astraは動画を直接扱えないが、時刻付きフレーム列を与えると映像の出来事を推論可能。Roboflowはテニスを5FPSで解析し、サーブ・打球・ポイントなどをJSONで構造化出力。FPSは用途で調整、100枚処理で約2～3分・約1ドル、精度は高設定で向上。",
+      "summary": "GPT-6 Astraは動画を直接扱えないが、時系列フレーム画像を与えることで映像内の出来事を推測可能。Roboflowはテニス・調理・物流で検証し、フレーム間隔を調整、JSONでイベント（例：サーブ・打球・ポイント）を抽出。100枚処理で約2〜3分・約1ドル、推論レベルを上げると精度向上。",
       "source": "npaka",
       "publishedAt": "2026-09-15T22:39:29.000Z",
-      "contentHash": "ecee04d8d4bb"
+      "contentHash": "1ea1bde65ae7"
     },
     {
       "id": "171b3d65d5ad",
@@ -509,19 +545,19 @@
       "id": "850203855328",
       "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
-      "summary": "Gemini 3.8 LiveとGemini 3.8 Live Extended Thinkingは、自然な会話を目指して開発された、現時点で最も高度なライブ対話モデルです。",
+      "summary": "Gemini 3.8 Live と 3.8 Live Extended Thinking を発表。知能と並列推論が大幅に向上し、音声での対話や複雑なタスク実行がより直感的に行える最新のライブ対話モデルです。",
       "source": "Gemini",
       "publishedAt": "2026-09-15T17:00:00.000Z",
-      "contentHash": "181b8488c775"
+      "contentHash": "b47d327dddff"
     },
     {
       "id": "3333bd464447",
       "title": "4 ways to tackle household chores with Gemini",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/household-chores-tips/",
-      "summary": "ジェミニが献立作りや家電の修理など、家庭内の家事をどのように手伝えるかを紹介します。",
+      "summary": "記事は、生成AI「Gemini」を使った家事支援を紹介。献立作成や買い物リスト、DIY修理や家電トラブルの対処など、日常の家事を効率化する4つの活用法を解説しています。",
       "source": "Gemini",
       "publishedAt": "2026-09-15T16:00:00.000Z",
-      "contentHash": "ee0afc57fa6b"
+      "contentHash": "c6af97e947f6"
     },
     {
       "id": "0ae8067b4309",
@@ -734,10 +770,10 @@
       "id": "edf6f65a5205",
       "title": "【書評】LLMアプリケーション評価駆動開発 継続的に改善し運用していくための実践知",
       "url": "https://note.com/npaka/n/n2655c374416b",
-      "summary": "『LLMアプリケーション評価駆動開発』は、LLM搭載アプリの出力を評価し、継続的に改善・運用する実践書。評価設計、RAGやAIエージェントの評価、評価データ作成、LLM-as-a-Judge、LLMOps、LangSmithのハンズオンまで体系的に学べ、開発・運用担当者に適している。",
+      "summary": "『LLMアプリケーション評価駆動開発』は、LLM出力の評価設計や評価データ作成、RAG・AIエージェント評価、LLM‑as‑a‑Judge、LLMOps、LangSmithハンズオンを通じて、リリース前後に継続的に品質改善する実践書。",
       "source": "npaka",
       "publishedAt": "2026-09-14T23:45:22.000Z",
-      "contentHash": "a5114902a9ab"
+      "contentHash": "e741e252cdce"
     },
     {
       "id": "752a4ec6492b",
@@ -977,10 +1013,10 @@
       "id": "ac6fab4ebd9f",
       "title": "DevFest is back",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "summary": "DevFest 2026が復活。世界800以上のイベントに参加して、エージェントAI時代の開発・セキュリティ・スケーリングについて学び、現地やオンラインでつながる方法を紹介します。",
+      "summary": "DevFest 2026は10月1日〜12月31日、約100万人が参加するGoogle Developer Groups主催のコミュニティイベント。テーマは「Build, Secure, Scale」。GeminiやGoogle AI Studio、Cloud、Firebase、Android、Flutter等を使ったハンズオン、ワークショップ、agent‑athonで実践的に学べる。",
       "source": "Gemini",
       "publishedAt": "2026-09-14T16:00:00.000Z",
-      "contentHash": "90990b0de474"
+      "contentHash": "8cec3fca58be"
     },
     {
       "id": "c6804af3afcb",
@@ -1634,10 +1670,10 @@
       "id": "fcbdbdad0836",
       "title": "The Gemini app is now available for Windows",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
-      "summary": "Windows向けの新しいデスクトップアプリ「Gemini」を公開します。日常的に使うアプリやお気に入りのツールと連携して使える設計です。",
+      "summary": "GoogleのGeminiアプリがWindows向けに登場。Alt＋Spaceでデスクトップから即AI支援を呼び出し、文書作成・タスク管理・画像・動画生成やGoogleアプリ連携が可能。軽快に動作。生成AIは実験的。",
       "source": "Gemini",
       "publishedAt": "2026-09-10T16:00:00.000Z",
-      "contentHash": "11cf9dc243c5"
+      "contentHash": "5b61c72e2cc4"
     },
     {
       "id": "325b5817277a",
@@ -2075,10 +2111,10 @@
       "id": "c9b388b08480",
       "title": "4 ways Gemini makes administrative chores quick and easy",
       "url": "https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy/",
-      "summary": "人々はGemini（ジェミニ）を活用して、税申告や罰金処理、社会福祉サービスの利用などの複雑な行政手続きを、助言や書類作成などで支援してもらっている。",
+      "summary": "Geminiは、複雑な政府システムの案内や書類作成を支援し、運転免許更新や税申告などの行政手続きを自動化・簡素化して時間を節約する4つの方法を紹介します。",
       "source": "Gemini",
       "publishedAt": "2026-09-09T16:00:00.000Z",
-      "contentHash": "a533905d2c60"
+      "contentHash": "90374e2e72ef"
     },
     {
       "id": "49ee7e2ea0ee",
@@ -3173,10 +3209,10 @@
       "id": "d0b16425fcb6",
       "title": "Create your best tracks yet with Lyria 3.5 in Gemini.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/",
-      "summary": "Lyria 3.5がGeminiアプリとGemini APIで利用可能に。これまでで最も音質の良い音楽生成モデルで、より表現豊かなボーカルや豊かな楽曲アレンジを実現します。",
+      "summary": "Lyria 3.5は表現力豊かなボーカルと厚みのある編曲を備えた高音質音楽生成モデル。ジャンルや歌/インスト選択、短〜長尺対応、新テンプレで制作を支援。Geminiアプリ/APIやFlow Music、AI Studio、Google Vidsで全球提供。",
       "source": "Gemini",
       "publishedAt": "2026-09-04T16:00:00.000Z",
-      "contentHash": "25a006db28eb"
+      "contentHash": "ea770136519c"
     },
     {
       "id": "d806d6279583",
@@ -3659,10 +3695,10 @@
       "id": "1e5b8618d900",
       "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "summary": "Gemini 3.8 Flashと3.8 Flash Cyberは、エージェント型ワークフローとサイバーセキュリティ向けに高度な次世代知能を提供する新たなモデル群です。",
+      "summary": "Gemini 3.8を発表。3.7 Flashの流れを受け、推論とコーディング性能を強化した最上位モデルで、3.7と同等の高速・低コストを維持。エージェント向けのGemini 3.8 Flashとセキュリティ特化の3.8 Flash Cyberの2種を提供。",
       "source": "Gemini",
       "publishedAt": "2026-09-02T15:00:00.000Z",
-      "contentHash": "d1bd9fdc2255"
+      "contentHash": "7c252d872dbb"
     },
     {
       "id": "94851e28049d",
@@ -3740,10 +3776,10 @@
       "id": "60536199b249",
       "title": "MrBeast partners with Gemini to turn impossibly big ideas into reality",
       "url": "https://blog.google/company-news/inside-google/company-announcements/mrbeast-gemini-google-health/",
-      "summary": "Googleは人気YouTuberのMrBeastことJimmy Donaldsonと、AIプラットフォームGeminiと医療部門Google Healthを横断する複数年の提携を開始した。",
+      "summary": "MrBeastがGoogleと提携し、生成AI「Gemini」やGoogleのヘルス技術を活用して、突飛な発想のアイデア出しや大規模・過酷ロケの企画・実行を支援する取り組みを開始した。",
       "source": "Gemini",
       "publishedAt": "2026-09-02T13:00:00.000Z",
-      "contentHash": "df86d1f94bee"
+      "contentHash": "e24552f6dff8"
     },
     {
       "id": "ea0a1172a1f3",
@@ -8964,42 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-08-18T17:47:04.000Z",
       "contentHash": "6344dae216b5"
-    },
-    {
-      "id": "8a27388b3fc5",
-      "title": "Try 4 new interactive BTS experiences inside the Gemini app",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/four-new-interactive-bts-experiences/",
-      "summary": "Googleの生成AI「Gemini」がBTSと提携し、Geminiアプリ内で期間限定の4つのインタラクティブ体験を提供。日常韓国語フレーズ学習や音楽レコメンドなど、限定言語で利用可能。",
-      "source": "Gemini",
-      "publishedAt": "2026-08-18T17:30:00.000Z",
-      "contentHash": "b30fb4d1b00f"
-    },
-    {
-      "id": "37c3e8b3f96d",
-      "title": "PlayStation&#8217;s wireless gaming speakers launch in November",
-      "url": "https://www.theverge.com/tech/981562/sony-playstation-pulse-elevate-wireless-gaming-speakers-launch-date-preorder",
-      "summary": "ソニーのワイヤレスゲーミングスピーカー「Pulse Elevate」が11月12日発売、価格219.99ドル。PS5/PlayStation Portal/PC/Mac対応、スタジオ風プラナーマグネットドライバー、マイク、低遅延のPlayStation Link、充電ドック付き。9月1日予約開始、黒白2色展開。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-18T17:18:57.000Z",
-      "contentHash": "131e0817d4f2"
-    },
-    {
-      "id": "f28c2a2d14ec",
-      "title": "Apple squashes EU beef with new App Store rules",
-      "url": "https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission",
-      "summary": "AppleはEU向けApp Store規約を10月1日施行。開発者を単一規約に統一し、App内課金26％、代替支払20％、外部リンク購入15％、外配信取引に5％。支払方法は12か月維持義務。小規模/ミニ・動画パートナーは手数料減免。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-18T16:48:26.000Z",
-      "contentHash": "6c9372c6fc0f"
-    },
-    {
-      "id": "eb95cd9d7fe4",
-      "title": "Tesla is finally launching the Cybercab — let’s hope it’s ready",
-      "url": "https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready",
-      "summary": "テスラの金色無人二人乗りロボタクシー「サイバーキャブ」が今月オースティンで発表予定。ただしステアリング・ペダル無しで、ソフトや公道適合に懸念あり。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-18T16:26:29.000Z",
-      "contentHash": "4a7746a8a8de"
     }
   ]
 }
