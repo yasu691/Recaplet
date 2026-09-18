@@ -1,14 +1,86 @@
 {
-  "generatedAt": "2026-09-17T19:43:06.554Z",
+  "generatedAt": "2026-09-18T04:11:25.141Z",
   "items": [
+    {
+      "id": "62be32263776",
+      "title": "AI で自分専用の教科書を作って、「学び」と「実務の判断」を両立しよう | サーバーワークスエンジニアブログ",
+      "url": "https://blog.serverworks.co.jp/2026/09/18/120100",
+      "summary": "AIで自分専用の教科書を作り、学びと実務判断を両立する方法を提案する記事。著者はWhy重視のエンジニアで、判断材料の収集・整理をZendesk事例で解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-18T03:01:00.000Z",
+      "contentHash": "61be9eda90eb"
+    },
+    {
+      "id": "bdf473813633",
+      "title": "シングルセルRNA-seq高次解析：データ統合とマーカー遺伝子探索【BI入門⑬】 | バイオインフォマティクス実践ラボ｜アメリエフ技術ブログ",
+      "url": "https://staffblog.amelieff.jp/entry/2026/09/18/120000",
+      "summary": "Seuratを用いた解析で、クラスターのマーカー遺伝子から細胞種を推定し、アンカー法で複数サンプルのバッチ差を補正するデータ統合を解説。統合後の妥当性確認やSeurat v5での他手法対応、次回は擬似系譜やRNA Velocityを扱う予定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-18T03:00:00.000Z",
+      "contentHash": "923f1c5237f5"
+    },
+    {
+      "id": "aafc8e00f869",
+      "title": "AIアシスタントにレッドチーミングを導入して学んだこと | SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/09/18/113623",
+      "summary": "SmartHRのAIアシスタントは自由入力がプロンプトインジェクション等のリスクになるため、OWASP Top10を基に攻撃ケースをAIで生成・人が精査し、CIで毎朝自動実行するレッドチーミング体制を構築して継続的に検証している。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-18T02:36:23.000Z",
+      "contentHash": "66375c372f5a"
+    },
+    {
+      "id": "d2755258b75d",
+      "title": "Microsoft 365 Copilotのプロンプト例と使い方のコツ | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/09/18/112916",
+      "summary": "Microsoft 365 Copilotは自然言語で文書作成・分析・メール対応を支援。効果的なのは目的・出力形式・対象・制約を明記し、#で構造化するなど明確なプロンプト設計。具体例も紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-18T02:29:16.000Z",
+      "contentHash": "4140738ecebe"
+    },
+    {
+      "id": "bd935a3bf4ee",
+      "title": "Waymo says Singapore will be its next international robotaxi city",
+      "url": "https://www.theverge.com/transportation/997091/waymo-singapore-robotaxi-launch-2027",
+      "summary": "アルファベット傘下のWaymoは、2028年にシンガポールで商用ロボタクシーを開始する計画。車両は数カ月内に到着し、2027年に人間の安全運転者同乗で地図作成と自動運転試験を行い、運行はLTAの承認が必要。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-18T02:00:00.000Z",
+      "contentHash": "eacb6cb89c36"
+    },
+    {
+      "id": "3c7cc1062ec9",
+      "title": "I hate you Microsoft",
+      "url": "https://henriquenunez.eu/posts/you_did_it_again_ms/",
+      "summary": "大学の契約でMicrosoftにログインしたらMacで編集不可と表示され、Windowsへの誘導や契約上の金儲け、不具合・広告・盗聴的挙動を批判。Copilot問題や専有フォーマット廃止の訴え、サイトはGitHub Pagesで運用中だが改善する、と結ぶ。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-17T21:41:48.000Z",
+      "contentHash": "6fb1ef6ecf7d"
+    },
+    {
+      "id": "2529c4416d72",
+      "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "url": "https://bend-lang.com/",
+      "summary": "BendはC並みの高速ネイティブ言語で、CUDA並列対応・Python風構文。Lean類似の証明型チェックを秒単位で行い、LAWS.bendで不変条件を定理化してAIによる破壊を数学的に防止。自動並列化でGPU/多数コアにスケール、主にLinux/macOS向けの若いプロジェクト。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-17T20:36:13.000Z",
+      "contentHash": "daacd1880ece"
+    },
     {
       "id": "8092c8022d58",
       "title": "The AI Superintelligence Slowdown",
       "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
-      "summary": "夏の暴走AI事例と研究者の警告を受け、Anthropic、OpenAI、Google、Microsoftら大手が最先端AI開発の「減速」を公言。ただし動機や実行、規制や米中競争の影響は不透明。",
+      "summary": "夏に自律AIの暴走や致命的リスク警告が相次ぎ、Anthropic・OpenAI・Google・Microsoftなど主要米AI企業が最先端開発の「減速」を表明。動機や実行性、規制の介入は不透明で議論が続く。",
       "source": "The Verge",
       "publishedAt": "2026-09-17T19:28:24.000Z",
-      "contentHash": "8691c839a2c8"
+      "contentHash": "221309314ede"
+    },
+    {
+      "id": "0a3be15b32c0",
+      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+      "summary": "AnthropicのClaude Codeが「Projects」を刷新して再導入。共有メモリ・目標・ファイルで複数のクラウドAIエージェントを並行稼働させ、コーディネータが指示。各スレッドはリポジトリの別ブランチで動き、競合はマージで解決。サブエージェントやワークフローで作業分割可能。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-17T18:58:05.000Z",
+      "contentHash": "7c7eb2f6d633"
     },
     {
       "id": "7b76d1e0d2e7",
@@ -20,6 +92,15 @@
       "contentHash": "98decbb8366f"
     },
     {
+      "id": "08dd30dd2c8c",
+      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "url": "https://arxiv.org/abs/2609.18842",
+      "summary": "本稿はMoEに着想を得た「無限パラメータLLM」を提案。ハイパーネットがリアルタイムの入力から低ランクで重みを生成し、ベイズ的潜在コードをオンライン更新して対話中に学習・適応。記憶フットプリントは固定。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-17T16:55:14.000Z",
+      "contentHash": "3a8922d9c8ff"
+    },
+    {
       "id": "70e117d494aa",
       "title": "Hister: A private search engine for the pages you visit and the files you keep",
       "url": "https://github.com/asciimoo/hister",
@@ -27,6 +108,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-09-17T16:25:37.000Z",
       "contentHash": "13b6a212fd30"
+    },
+    {
+      "id": "fd80f85fe5cf",
+      "title": "Xbox’s clever disc-to-digital feature was 15 years in the making",
+      "url": "https://www.theverge.com/tech/996826/microsoft-xbox-disc-to-digital-history-notepad",
+      "summary": "Xboxのディスク→デジタル機能は15年越しの成果。2011年のXbox One開発でディスク識別と真のデジタル所有権（譲渡・回収・店舗交換など）を検討しており、ソニーのディスク撤廃への対応とゲーム保存の一環となっている。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-17T16:00:00.000Z",
+      "contentHash": "af1081e07f3e"
     },
     {
       "id": "754330a2ccb8",
@@ -47,6 +137,15 @@
       "contentHash": "9201977df5b7"
     },
     {
+      "id": "b482a8b1d282",
+      "title": "Your robotaxi might be a narc",
+      "url": "https://www.theverge.com/transportation/996863/robotaxi-waymo-police-privacy-surveillance",
+      "summary": "Waymoのロボタクシーが乗車中に銃を検知し、利用規約違反として車を停止、警察に通報された結果、10代の男女2人が逮捕された。自動運転車の監視とプライバシーの限界が示された。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-17T15:00:00.000Z",
+      "contentHash": "7084d5af7adc"
+    },
+    {
       "id": "203dc7de13cd",
       "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
       "url": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
@@ -54,6 +153,24 @@
       "source": "The Verge",
       "publishedAt": "2026-09-17T14:00:00.000Z",
       "contentHash": "1e5168c6b496"
+    },
+    {
+      "id": "361d4ca3f860",
+      "title": "AI is feared globally as the destroyer of jobs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996775/ai-is-feared-globally-as-the-destroyer-of-jobs",
+      "summary": "Pewの世界調査（37カ国・4.2万人）で、34カ国で過半数が今後20年でAIが雇用を減らすと回答。豪76％、韓国76％、米71％など富裕国で懸念が強く、格差や生活影響も問題視。調査は最近の過激警告前に実施。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-17T14:00:00.000Z",
+      "contentHash": "563f1ea00167"
+    },
+    {
+      "id": "0706f0f10e6d",
+      "title": "Lunacy Audio Nova is a place to build and sell your own AI-powered music plug-ins",
+      "url": "https://www.theverge.com/tech/996860/lunacy-audio-nova-ai-music-plugin-vst",
+      "summary": "LunacyがAI搭載音楽プラグインの開発・販売プラットフォーム「Nova」を発表。DAW内プラグイン兼ストアで、初期はLunacyや提携開発者による10種の音源を提供し、後に誰でもプラグインを作れる「Nova Builder」を公開予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-17T14:00:00.000Z",
+      "contentHash": "e491930d0987"
     },
     {
       "id": "d9fbb5d07fdb",
@@ -8883,123 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-08-19T14:00:00.000Z",
       "contentHash": "688b2e00c603"
-    },
-    {
-      "id": "2a1133069172",
-      "title": "Content understanding - ドキュメントのOCRをしてみる | ヘッドウォータースのフィード",
-      "url": "https://zenn.dev/headwaters/articles/3b412e1ac69cb0",
-      "summary": "Azure Content Understandingの紹介と検証手順。OCR・スキーマ定義・スキーマ提案の3ステップと、それぞれに必要なFoundryリソースやモデルデプロイの説明、prebuilt-read/layout/digitalParseなどのOCRアナライザーや設定例、環境構築・サンプルPDFでの実行方法を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-19T13:06:18.000Z",
-      "contentHash": "2403b4da67ec"
-    },
-    {
-      "id": "34822783ae7e",
-      "title": "Amazon seemingly leaked Jason Statham’s entire Mutiny movie",
-      "url": "https://www.theverge.com/entertainment/981943/amazon-prime-video-mutiny-movie-leak",
-      "summary": "ジェイソン・ステイサム主演の新作『Mutiny』は公開が8月21日予定だが、米Amazon Prime Videoで約1時間、本編（計1時間35分）が誤って配信されていた。現在は視聴不可で意図的な公開とは見られていない。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-19T12:32:00.000Z",
-      "contentHash": "7aeaae80603c"
-    },
-    {
-      "id": "9d8a9b8bf88a",
-      "title": "Nvidia’s new financial strategy does not compute",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
-      "summary": "Nvidiaがジェンセン・フアンのもとで「コンピュートを資産クラスに」と位置づける新金融戦略を提案。GPU担保融資の代替を掲げるが、実務的妥当性には疑問が残ると報じられる。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-19T12:00:00.000Z",
-      "contentHash": "e30f1c0d7fc0"
-    },
-    {
-      "id": "d171725ad528",
-      "title": "The women’s soccer league trying to fix fantasy sports",
-      "url": "https://www.theverge.com/entertainment/981880/womens-super-league-wsl-fantasy-league-app",
-      "summary": "女子スーパーリーグ(WSL)の初公式ファンタジーアプリは、継続率改善を目指して設計を一新。選手写真を前面に出し、シーズンを6分割・二重リーグ化するなど新規ファンが参加しやすい仕組みを導入する。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-19T12:00:00.000Z",
-      "contentHash": "d0cc2d275ba9"
-    },
-    {
-      "id": "248639198be6",
-      "title": "スマートバンクはiOSDC Japan 2026にて3名登壇、1本のパンフレット寄稿を行います！ | inSmartBank",
-      "url": "https://blog.smartbank.co.jp/entry/iosdc-2026-announcement",
-      "summary": "スマートバンクはiOSDC Japan 2026で3本のトーク登壇と1本のパンフレット寄稿を行います。Kaneko、nakamuuu、rockname、uetyoが、ワンバンクのApple Pay/PassKit連携やオンデバイスLLMによる画像中の機微情報防止など実践的事例を紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-19T10:11:39.000Z",
-      "contentHash": "4cf072187c84"
-    },
-    {
-      "id": "e84ea17f58d3",
-      "title": "Professional Cloud Architect 認定試験範囲の解説 2026 | クラウドエース株式会社さんのフィード",
-      "url": "https://zenn.dev/cloud_ace_jp/articles/cert-cloud-architect-gcp-2026",
-      "summary": "Google Cloud認定トレーナーの廣瀬がProfessional Cloud Architect（PCA）試験範囲を解説。AI関連設問増加に触れ、対象はIT実務者。Gemini生成画像を使用し、リソース階層や権限管理など基礎中心で、ケーススタディ解説は含まれない。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-19T09:57:09.000Z",
-      "contentHash": "29a10619358b"
-    },
-    {
-      "id": "114a5cdc8b73",
-      "title": "Railsのファイルキャッシュ起因で遅延が起きた話 | リゾームのテックブログ",
-      "url": "https://tech.rhizome-e.com/entry/2026/08/19/182149",
-      "summary": "RailsのFileStoreでキャッシュが約78万件に蓄積され、施設切替時に正規表現でActiveSupport::Cache::FileStore#delete_matchedを毎回実行していたためレスポンス遅延が発生。Rakeで全削除したところ処理時間は約1.33s→約3ms（約443倍改善）。手動削除で暫定対応し、再発防止策を検討中。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-19T09:21:49.000Z",
-      "contentHash": "146fd6ca9842"
-    },
-    {
-      "id": "a70150d0fb21",
-      "title": "台湾のiOSカンファレンス\"iPlayground 2026\"で登壇してみた | Yappli Tech Blog",
-      "url": "https://tech.yappli.io/entry/iplayground_2026",
-      "summary": "ヤプリのfreddiが2026年7月25–26日台北で開かれたAppleプラットフォーム会議「iPlayground 2026」で登壇。Swiftのランタイムとコンパイラから動作原理やOS依存性、最適化と設計への示唆を解説。国際色豊かで盛況な現地の様子も報告。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-19T09:00:00.000Z",
-      "contentHash": "a096418919a6"
-    },
-    {
-      "id": "fb7194ac836b",
-      "title": " Black Hat／DEF CONで体験した、AIセキュリティの現在地 | freee Developers Hub",
-      "url": "https://developers.freee.co.jp/entry/blackhat-defcon-2026",
-      "summary": "セキュリティチームのhikaeが8/3～8/10のBlack Hat/DEF CON参加レポート。RAISE Actの規制内容と限界、3段階評価、コロラド州版からの政策設計、AI規制の行方、Business Hall所感を解説。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-19T09:00:00.000Z",
-      "contentHash": "1b1b517d62bc"
-    },
-    {
-      "id": "2a77b09c2055",
-      "title": "面倒くさがりになろう。― AI時代のプログラマ三大美徳 | エムティーアイ エンジニアリングブログ",
-      "url": "https://tech.mti.co.jp/entry/2026/08/19/180000",
-      "summary": "AI時代のエンジニアは「面倒くさがり」が武器になると主張。『プログラマの三大美徳』を軸に、怠惰＝将来の労力削減のための自動化やスキル化、定期実行の方法、クラウド予算管理などの事例を紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-19T09:00:00.000Z",
-      "contentHash": "022ed8b3dcfc"
-    },
-    {
-      "id": "1b511a6e6458",
-      "title": "CDI？CAI？Informaticaの2大機能をデモでまるっと理解！ | フレクトのクラウドblog",
-      "url": "https://cloud.flect.co.jp/entry/2026/08/19/173141",
-      "summary": "フレクトのエンジニア虫明です。社内でInformatica強化中で、Cloud Data and Application Integration R36 Professional試験の取得を推奨・合格者が増加。初学者向けに基礎とデモを交えた勉強会を開催しました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-19T08:31:41.000Z",
-      "contentHash": "bf33716b1555"
-    },
-    {
-      "id": "b3f46f674b42",
-      "title": "BPS開発チームの紹介～Web開発第2チーム～（2026年度） | TechRacho",
-      "url": "https://techracho.bpsinc.jp/kazumasa-ogawa/2026_08_19/159505",
-      "summary": "2026年度版に改訂したWeb開発第2チームの紹介。近年100人月〜数百人月規模の大案件が増え、バグ抑制だけでなく保守性・要件精度・UIなど「品質」の重要性が高まり、業務でのAI活用も進んでいる。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-19T08:30:15.000Z",
-      "contentHash": "8564d4155014"
-    },
-    {
-      "id": "2f00013902a2",
-      "title": "Replit expands access to software creation with GPT-5.6 Luna",
-      "url": "https://openai.com/index/replit",
-      "summary": "ReplitがGPT-5.6 Luna搭載の「Free Mode」を発表。トークンコストを気にせず、誰でもアイデアを実際に動くソフトウェアに変えられるようにする。",
-      "source": "OpenAI",
-      "publishedAt": "2026-08-19T07:00:00.000Z",
-      "contentHash": "cf5b4748b0b1"
     }
   ]
 }
