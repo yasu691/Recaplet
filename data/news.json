@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-09-18T12:57:16.791Z",
+  "generatedAt": "2026-09-18T19:14:49.668Z",
   "items": [
+    {
+      "id": "84833bafcaac",
+      "title": "Disney’s first CTO is Character.AI’s former CEO",
+      "url": "https://www.theverge.com/entertainment/997555/karandeep-anand-disney-character-ai",
+      "summary": "ディズニーは初のCTOに元Character.AI CEOのカランディープ・アナンドを任命。ジョシュ・ダマロCEO直下でインフラ、プロダクト、エンジニアリング、データ/AIを統括。昨年は両社で差し止め通知が交わされていた。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-18T18:27:04.000Z",
+      "contentHash": "b814db44156b"
+    },
+    {
+      "id": "e23fae26ca17",
+      "title": "US Military had close call after using AI for hallucinated intelligence report",
+      "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+      "summary": "米軍が中国船の「核部品輸送」を示すAI支援の報告を基に艦船止めや搭乗を準備したが、使用したチャットボットが誤認し虚報と判明。誤報で戦争寸前となったことで軍事でのAI利用の危険性が浮き彫りに。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-18T17:28:01.000Z",
+      "contentHash": "2ffc64703ab0"
+    },
+    {
+      "id": "2857cdaa497d",
+      "title": "Gavin Newsom is pushing for an AI kill switch",
+      "url": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
+      "summary": "ニューサム知事は連邦が動かない中、州主導でAI規制を進めるため行政命令を発出。2か月で専門家会議を招集し、最先端モデルの「キルスイッチ」や独立監査・常駐検証、透明性報告や「制御喪失」事案の報告義務化を検討させる。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-18T17:04:51.000Z",
+      "contentHash": "588d281243a7"
+    },
+    {
+      "id": "9ffe2647d4ed",
+      "title": "US Treasuries Have Become Unappetizing for Foreign Central Banks and Governments",
+      "url": "https://wolfstreet.com/2026/09/17/treasuries-have-become-badly-unappetizing-for-foreign-central-banks-governments/",
+      "summary": "外国の中央銀行・政府が米国債を敬遠し、保有額は減少して7月は時価3.77兆ドル（2012年水準）。発行額は2012年比で約3倍だが公的保有比率は34%→12.8%に激減し、米国は公的資金ではなく米ヘッジファンド等が集まる不透明な海外金融センター頼みになっている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-18T15:50:29.000Z",
+      "contentHash": "816172dd9341"
+    },
+    {
+      "id": "88391dbee63d",
+      "title": "Security researchers used Claude to help them hack into OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
+      "summary": "独立の3人の研究者がAnthropicのClaude（Opus 4.8/5）を利用し、72時間以内にDiscourseのHEIF画像処理の脆弱性を突いてOpenAI社員アカウントへ侵入。GitHub「Monorepo」へのアクセスを示すPRを送ったが内部コードは閲覧せず。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-18T15:30:16.000Z",
+      "contentHash": "26243e38b1c4"
+    },
+    {
+      "id": "327d7fcbfc1c",
+      "title": "AI is an elite crime spree",
+      "url": "https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree",
+      "summary": "記事は、AIが富裕層や権力者による詐欺や情報操作などの「エリートの犯罪」を大規模かつ検出困難に拡大すると指摘する。規制や司法が追いつかず、透明性・責任追及や新たなガバナンスが急務だと論じている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-18T15:15:33.000Z",
+      "contentHash": "e6ab096f6db7"
+    },
+    {
+      "id": "72009b85c809",
+      "title": "This cartridge-playing Game Boy clone is smaller and cheaper than Analogue’s Pocket",
+      "url": "https://www.theverge.com/tech/997379/funnyplaying-fpbg-mini-game-boy-color-handheld-fpga-cartridge",
+      "summary": "FunnyPlayingが小型携帯機FPGB Miniを発表。GB/GBCカートリッジとROM対応でカートリッジ幅ほどの超小型。GBA等は非対応。USB-Cで対戦/交換可能。Pocketより安価で初回割引は即完売。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-18T14:41:18.000Z",
+      "contentHash": "e72d86b8c5b5"
+    },
+    {
+      "id": "3f0326cc8cdc",
+      "title": "AIエージェントのセキュリティは何から手を付けるか｜英NCSC中間ガイダンスの読み方 | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/ai-agent-security-ncsc-interim-guidance/",
+      "summary": "英NCSCの中間ガイダンス（2026）は、エージェントAIは「自律度に応じて統制を強化」を基本とし、脅威モデリング、プロンプト設計、人的関与、4段階サンドボックス、専用ID・最小権限、ログ監視、帰属、キルスイッチ等を提示。モデル内安全だけでなく技術・運用統制と段階的導入を推奨。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-18T11:58:00.000Z",
+      "contentHash": "f5045856778b"
+    },
     {
       "id": "084a8ea6d1f7",
       "title": "Flash floods can strike without warning — this new technology could change that",
@@ -9,6 +81,33 @@
       "source": "The Verge",
       "publishedAt": "2026-09-18T11:00:00.000Z",
       "contentHash": "09c7555061be"
+    },
+    {
+      "id": "219a77577c96",
+      "title": "【Stan】階層ベイズモデリングを用いた生存時間分析で意思決定をした時の話 | レバレジーズ データAIブログ",
+      "url": "https://analytics.leverages.jp/entry/2026/09/18/181500",
+      "summary": "阪上がStanで行った階層ベイズ生存時間分析の紹介。数百件の限られたデータで、都道府県別ランダム切片とキャンペーン群を共変量とする月次ロジスティックハザードモデルで、キャンペーンが顧客継続期間に与える影響を不確実性ごと評価し意思決定に活用。事前分布の妥当性確認も重視。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-18T09:15:00.000Z",
+      "contentHash": "0b92048344ea"
+    },
+    {
+      "id": "5b45435eeaec",
+      "title": "【エンジニア職】Finatextグループサマーインターン開催レポ -2026年- | Finatext Tech Blogのフィード",
+      "url": "https://zenn.dev/finatext/articles/64cf162dc18565",
+      "summary": "Finatextグループの2026年サマーインターンでは、ソフト・データサイエンティスト両プログラムを実施。ソフトは「株式注文受付システム」をAWS上で構築する課題で、9名が3チームに分かれAIを活用して設計・実装・発表を行い、各チームが異なるAWS構成（例：ECS＋Aurora）で注文フローを実現した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-18T09:00:08.000Z",
+      "contentHash": "399d0d24e168"
+    },
+    {
+      "id": "a3824811b08f",
+      "title": "決済の例で理解するDIP（依存性逆転の原則） | 株式会社アクトビのフィード",
+      "url": "https://zenn.dev/actbe_tech/articles/b29aef7ab2888f",
+      "summary": "DIPは高レベルが具体実装でなく抽象に依存する原則。注文処理例ではOrderServiceがPaymentInterfaceに依存し、StripeやPayPal等がその抽象に合わせることで依存が逆転する。重要なのは抽象を誰が定義するか。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-18T09:00:08.000Z",
+      "contentHash": "2a85b7ab8dae"
     },
     {
       "id": "62be32263776",
@@ -356,10 +455,10 @@
       "id": "ffb5089ef9db",
       "title": "GPT-6 AstraがVLAなしでRoboDojo評価の最高スコアを記録",
       "url": "https://note.com/npaka/n/nc0f8f97b0278",
-      "summary": "GPT-6 Astraは学習済みVLAを使わないL3構成でRoboDojoの42タスク（計2,100回）を評価し、Score28.97・成功率22.48%で既存モデルを上回った。ただし実機試験は危険動作で中止された。",
+      "summary": "GPT-6 Astraが学習済VLAを使わずRoboDojo（42タスク・2,100回）でScore28.97、成功率22.48%を記録し既存モデルを上回った。L3の固定ハーネス経由で移動先を出力する構成だが、実機では危険動作で機材損傷し評価が中止された。",
       "source": "npaka",
       "publishedAt": "2026-09-16T23:54:42.000Z",
-      "contentHash": "387a2358e4ac"
+      "contentHash": "6326bed531a5"
     },
     {
       "id": "e6d7d097962d",
@@ -1067,10 +1166,10 @@
       "id": "691ec38c8191",
       "title": "「ハエの脳」でDOOMをプレイ？ 生物の脳を再現する研究の現在",
       "url": "https://note.com/npaka/n/na0a47b3f1502",
-      "summary": "ショウジョウバエの大規模コネクトームMaleCNSを基に、視覚入力を神経モデルへ与え神経活動を操作信号に変換してDOOMを動かす実験（DOOMFLY）。活動はシミュレーションでドーパミン刺激による学習を試みるが、認識精度や実時間性に限界があり、LLMとは仕組みが異なる。",
+      "summary": "ショウジョウバエの詳細コネクトーム「MaleCNS」（約16万6700ニューロン・1.25億シナプス）を基に、構造は実測、神経活動は数理モデルで再現。DOOMFLYなどで画面を視覚入力に変換し神経活動を操作にマッピング、移動や射撃は可能だが実時間遅延や識別限界があり人間の攻略はできない。",
       "source": "npaka",
       "publishedAt": "2026-09-15T02:33:10.000Z",
-      "contentHash": "1432acafa3fc"
+      "contentHash": "11189e13ecde"
     },
     {
       "id": "9a622a2647f1",
@@ -8901,105 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-08-19T17:10:09.000Z",
       "contentHash": "96074e19237b"
-    },
-    {
-      "id": "52f167a1954f",
-      "title": "GTA VI keeps leaking ahead of its gameplay premiere",
-      "url": "https://www.theverge.com/games/982338/grand-theft-auto-vi-gta-leaks-videos",
-      "summary": "GTA VIとみられるプレイ映像のクリップが流出し、一部が著作権申立てで削除された。主人公ジェイソンのバスケや暴力描写、6つ星の追跡復活などが映っている。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-19T17:03:11.000Z",
-      "contentHash": "43e03929d924"
-    },
-    {
-      "id": "f05312c96fe3",
-      "title": "Meta AI is getting a Mac app",
-      "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
-      "summary": "MetaがMac向けAIアプリを発表。画面共有で表示内容を解析して提案・コンテンツ生成ができ、他アプリでのディクテーションにも対応。生産性重視で他社デスクトップAIと競合。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-19T17:00:00.000Z",
-      "contentHash": "ddb0a4475218"
-    },
-    {
-      "id": "ae0c625900c0",
-      "title": "Extensible Software in the age of LLMs",
-      "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
-      "summary": "多くのウェブソフトは多数向けで長尾の個別ニーズを満たさない。LLM支援で「Software for One／Small Software」が作りやすくなり、展開・共有を簡素化するクラウドやPiのようなLLMネイティブが重要になる。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-19T16:26:05.000Z",
-      "contentHash": "10e847b869ca"
-    },
-    {
-      "id": "25126c6c8bf9",
-      "title": "How Kubernetes Probes Work",
-      "url": "https://ngrok.com/blog/probes",
-      "summary": "Kubernetesのプローブ（liveness・readiness・startup）の仕組み、設定と組合せ、誤設定の落とし穴、導入やロールアウト速度への影響を解説。ブラウザ上の対話デモ（webernetes）で挙動を再現・検証し、CrashLoopBackOffなどの問題と対策、実際に見つけたバグ例も示す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-19T16:25:37.000Z",
-      "contentHash": "c643d40dc3f1"
-    },
-    {
-      "id": "9183067acc80",
-      "title": "We reviewed the new Pixel lineup, ask us anything",
-      "url": "https://www.theverge.com/tech/981537/pixel-11-pro-fold-watch-5-ama",
-      "summary": "Pixel 11シリーズとPixel Watch 5のレビュー（4本）が公開され、エンバーゴが解除されました。ハードは好評。執筆陣（Cameron Faulkner等）が本日午後3時ETに購読者向けAMAを実施し、Camera LooksやCreator Suiteなど新機能中心の質問を受け付けます。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-19T16:15:00.000Z",
-      "contentHash": "6ad3a50ce2a6"
-    },
-    {
-      "id": "48dfa4b65d57",
-      "title": "The Pixel 11 Pro is a great phone, no thanks to its flashiest new features",
-      "url": "https://www.theverge.com/tech/981713/google-pixel-11-pro-review",
-      "summary": "Pixel 11 Proは派手な新機能より、実用的で確実に動くソフト面の改善こそが魅力。Googleは「端末利用を減らす」を掲げ、予約代行や動画からの最良フレーム抽出、音声入力高速化を強調する一方、ハードは昨年モデルと似ており一部では後退している。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-19T16:00:00.000Z",
-      "contentHash": "81849d29153d"
-    },
-    {
-      "id": "54e54f8bde77",
-      "title": "Google’s Pixel 11 Pro Fold feels like the end of an era",
-      "url": "https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review",
-      "summary": "Pixel 11 Pro FoldはIP68防水と信頼できるトリプルカメラを備えた優れた折りたたみ機だが、四角い画面と目立つ折り目などデザインが他社の薄型・小型化の流れに遅れ、時代遅れに感じられる。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-19T16:00:00.000Z",
-      "contentHash": "416cd7fd4f9c"
-    },
-    {
-      "id": "fdc15d7eabe5",
-      "title": "Google’s Pixel Watch 5 is promising — but it isn’t finished",
-      "url": "https://www.theverge.com/tech/981957/google-pixel-watch-5-review-wearables-smartwatch",
-      "summary": "GoogleのPixel Watch 5は有望だが未完成。レビュー第一弾で多くの新機能はまだ提供されておらず、今後のアップデート待ち。一方でGPS性能は優秀と評価された（Victoria Song、2026/8/19）。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-19T16:00:00.000Z",
-      "contentHash": "6dbf058a16f0"
-    },
-    {
-      "id": "f87e365e1cad",
-      "title": "The Pixel 11 isn’t the best Pixel of 2026, but it’s the smartest buy",
-      "url": "https://www.theverge.com/tech/982190/google-pixel-11-review",
-      "summary": "Pixel 11は最高でも最安でもないが賢い選択。12GB/256GBでPro相当の性能を899ドルで提供し、10Aより高速・大容量・Qi2・望遠を備え、新機能を最安で体験できる。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-19T16:00:00.000Z",
-      "contentHash": "8a3b6625abc4"
-    },
-    {
-      "id": "cbf902f5cc3c",
-      "title": "AIに聞く、先輩に聞く——生成AI時代の「質問の仕方」を考え直す | INAP Visionのフィード",
-      "url": "https://zenn.dev/inapvision/articles/asking-ai-and-humans",
-      "summary": "生成AIで質問先に迷う中、まずは自分で調べる（AI含む）、AIに聞く、先輩に聞くの三択を提示。先輩は言語化されない経験知を持つため、チーム固有や失敗コスト大は先輩へ。実務は「調べる→仮説→先輩に確認」。AIは仮説作りの相棒。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-19T15:00:05.000Z",
-      "contentHash": "62041f4d58b1"
-    },
-    {
-      "id": "14b8c6326a5f",
-      "title": "Amazon Fire TV devices are getting a free Alexa Plus upgrade",
-      "url": "https://www.theverge.com/tech/982166/amazon-alexa-plus-fire-tv-free",
-      "summary": "米国のFire TV機器でAlexa Plusが無料提供開始。以前はPrimeや有料サブスク限定だったが、Fire TV StickやCube、Emberなど対応TVで会話型AIが利用でき、映画推薦・場面ジャンプ・画面の質問応答や照明・鍵・カメラなどスマート家電の操作が可能。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-19T15:00:00.000Z",
-      "contentHash": "2641b3fd63e2"
     }
   ]
 }
