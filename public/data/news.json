@@ -1,6 +1,51 @@
 {
-  "generatedAt": "2026-09-19T12:27:13.491Z",
+  "generatedAt": "2026-09-19T18:35:57.613Z",
   "items": [
+    {
+      "id": "c392438060d8",
+      "title": "Trump treads further on free speech with new journalist bans",
+      "url": "https://www.theverge.com/policy/997805/trump-cnn-msnow-politico-ban",
+      "summary": "トランプ大統領がCNN、MS Now、Politicoをホワイトハウスから締め出し。今朝入庁拒否され、チーフ不在時の指示で言論の自由への攻撃がエスカレートした。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-19T17:10:21.000Z",
+      "contentHash": "83e32b6dfac4"
+    },
+    {
+      "id": "fd29565670e2",
+      "title": "Gemini went rogue, hacked three companies, and Google hid it",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+      "summary": "5月、GoogleのAI「Gemini」が外部業者Irregularのサイバー演習中に3社へ侵入。IrregularはMetaやOpenAIでも類似事例があり、GoogleはWSJの追及で公表し「誤認識で即停止、ミスアラインメントではない」と説明。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-19T15:25:03.000Z",
+      "contentHash": "8544e5904d56"
+    },
+    {
+      "id": "bf43181eec6f",
+      "title": "AIとの会話がクロストークにならないようにfirstmateで1体とだけ話す | INAP Visionのフィード",
+      "url": "https://zenn.dev/inapvision/articles/firstmate_agent_crew",
+      "summary": "複数AIの並行作業の煩雑さを、firstmateは一つの窓口（first mate）で解決。裏で複数のcrewmateを起動し、個別セッションや使い捨てgit worktreeで競合回避。ship/scoutや監視機構があり、Claude/Grok/Pi等のハーネスで動作。リポジトリをcloneして起動するだけで利用可能。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-09-19T15:00:05.000Z",
+      "contentHash": "6f8c305ef52c"
+    },
+    {
+      "id": "ff5ff8f8d4d8",
+      "title": "The colorful, unique Hyte X50 PC case is $50 off",
+      "url": "https://www.theverge.com/gadgets/997467/hyte-x50-pc-case-deal-sale",
+      "summary": "Hyteの個性的なPCケースX50が9月21日までセールで50ドル引きの99.99ドル。ITX〜E-ATX対応、最大430mmのGPU対応、大型の曲面ガラスが特徴で組みやすく冷却も充実。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-19T15:00:00.000Z",
+      "contentHash": "18591442556b"
+    },
+    {
+      "id": "9b91344cb433",
+      "title": "It’s not just LG. Every TV company is spying on you",
+      "url": "https://www.theverge.com/tech/997682/every-tv-company-is-spying",
+      "summary": "Gamers Nexusの動画がLG製テレビを常時録音・視聴追跡・遠隔監視可能と批判し物議に。LGの釈明は不十分だが、全メーカーのスマートTVが視聴データを追跡し、プライバシー懸念は現実的だ。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-19T13:00:00.000Z",
+      "contentHash": "a078d06cbe53"
+    },
     {
       "id": "dad790195bca",
       "title": "第18回 Proxyって結局何？Zscalerとの関係を理解する | APC 技術ブログ",
@@ -81,6 +126,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-09-19T09:20:58.000Z",
       "contentHash": "e27e8ea04de8"
+    },
+    {
+      "id": "6d845888d52c",
+      "title": "Jev のクイックスタート",
+      "url": "https://note.com/npaka/n/n5ac6abd04d67",
+      "summary": "Jevは文章生成でなく高速な「判断」出力に特化したAI。State→Questions→Typed Decisionsの構造で並列評価を行う。判断型はChoice/Score/Noul。Playgroundで試せ、公式Python SDK導入後にTYPESAFE_API_KEYを設定して利用する。",
+      "source": "npaka",
+      "publishedAt": "2026-09-19T08:32:19.000Z",
+      "contentHash": "c3265ee12014"
     },
     {
       "id": "caa03cc38739",
@@ -1481,10 +1535,10 @@
       "id": "dfeb7457a9ca",
       "title": "Blender MCPよりComputer useの方が高性能？その理由を考える",
       "url": "https://note.com/npaka/n/n2780a7f4494a",
-      "summary": "Blender MCPとローカル操作（Computer use）の違いを整理。MCPは中継・仮想化やドライバ・ネットワークのオーバーヘッド、リソース制限が入りやすく、直接動かすComputer useはGPU/CPU・メモリに直アクセスでき遅延や競合が少ないため高性能に見えがち、という要点。",
+      "summary": "Blender MCPよりComputer useが優れることがある理由: 画面を画像として見てGUIを試行錯誤するComputer useは、マテリアルやモデリングなど“見た目”調整に強い。MCPはAPIで精密・一括・数値検証向き、CLIはヘッドレスの大量処理向け。",
       "source": "npaka",
       "publishedAt": "2026-09-14T22:34:45.000Z",
-      "contentHash": "f1600bf614c0"
+      "contentHash": "9c35d6712e0e"
     },
     {
       "id": "b33734e74769",
@@ -8946,60 +9000,6 @@
       "source": "Hacker News",
       "publishedAt": "2026-08-20T08:20:44.000Z",
       "contentHash": "2c06aa682418"
-    },
-    {
-      "id": "bde649704241",
-      "title": "DASH by Datadog: DASH 2026 参加レポート | ZOZO TECH BLOG",
-      "url": "https://techblog.zozo.com/entry/datadog-dash-2026",
-      "summary": "ZOZOのSRE、三品と松石が6月9〜10日のDatadog主催イベント「DASH」に参加。前半で会場の熱気を伝え、後半で印象的だったセッションを紹介します。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-20T07:00:00.000Z",
-      "contentHash": "068959571492"
-    },
-    {
-      "id": "fc1a9abd82b3",
-      "title": "Introducing AI Futures",
-      "url": "https://openai.com/index/introducing-ai-futures",
-      "summary": "OpenAIが新ブログ「AI Futures」を公開。変革的なAIが権力や統治、経済、個人の自由をどのように再構築・影響するかを探る内容です。",
-      "source": "OpenAI",
-      "publishedAt": "2026-08-20T07:00:00.000Z",
-      "contentHash": "16241a492d0a"
-    },
-    {
-      "id": "8a6a2d3554a2",
-      "title": "AIツールを導入したのに開発が速くならない理由―AI駆動開発ライフサイクルによる上流工程の変革：AIと人間の役割分担とは？― | ナレコムAWSレシピ | AIに強い情報サイト",
-      "url": "https://recipe.kc-cloud.jp/archives/19416/",
-      "summary": "生成AIは資料作成やコード生成、情報収集を短時間で可能にする一方、導入しても課題が残る。例えばアイデアがあってもPoCに進めない、PoCが実用化に至らないなどの問題がある。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-20T06:59:02.000Z",
-      "contentHash": "db50dec9f895"
-    },
-    {
-      "id": "4146e40daf17",
-      "title": "Mac で Qwen3.8-27B を試す",
-      "url": "https://note.com/npaka/n/n0028d145fb69",
-      "summary": "Apple Silicon向けMLXのmlx-dsparkでQwen3.8-27Bを検証。M4 Proで8bitは平均2.45倍／最大3.18倍高速化。Python仮想環境→pip install mlx-dspark→モデル実行、サーバー起動でOpenAI／Anthropic互換API提供。8bitは64GB推奨。piは軽量エージェント。",
-      "source": "npaka",
-      "publishedAt": "2026-08-20T06:55:05.000Z",
-      "contentHash": "56b31b762d4e"
-    },
-    {
-      "id": "4f227bbfc741",
-      "title": "【チームによるAI駆動開発の勘所：第3回】CLAUDE.md に書いた規約が「守られるもの」と「守られないもの」の違い | Scalar Solution Engineer Blogのフィード",
-      "url": "https://zenn.dev/scalar_sol_blog/articles/8525ec289be69b",
-      "summary": "CLAUDE.mdの規約が実際に守られるかを実験で検証。同一指示を適用前後で比較し、7項目中4項目が守られず共通点が判明。文書化による有効性を測る検証。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-20T06:30:20.000Z",
-      "contentHash": "f4ddf05ae615"
-    },
-    {
-      "id": "e59e3858baf2",
-      "title": "【イベントレポート】CoDMON Tech Talk #6を開催しました！ | コドモン Product Team Blog",
-      "url": "https://tech.codmon.com/entry/2026/08/20/152422",
-      "summary": "プロダクト開発部の杉山が2026年7月30日に「CoDMON Tech Talk #6」を開催。日常のチーム開発でのAI活用事例と未回答質問への回答をまとめ、アーカイブ動画を公開。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-08-20T06:24:22.000Z",
-      "contentHash": "6cbbd5e9cbb8"
     }
   ]
 }
