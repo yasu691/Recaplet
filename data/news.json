@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-09-29T05:15:46.784Z",
+  "generatedAt": "2026-09-29T14:49:23.819Z",
   "items": [
+    {
+      "id": "c8242103c980",
+      "title": "Leaked images reveal new colors for Amazon’s next entry-level Kindle",
+      "url": "https://www.theverge.com/tech/1001905/amazon-leak-basic-entry-level-kindle-colors-design-power-button",
+      "summary": "流出画像で、次期エントリーモデルKindleがライトブルー、グリーン、モーブなど新色と小改良デザインで登場することが判明。2024年の明るいバックライトやダークモードに続く大きめの更新と見られる。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-29T14:10:50.000Z",
+      "contentHash": "ad2a426136fa"
+    },
+    {
+      "id": "80434392e981",
+      "title": "Meta&#8217;s Muse AI sent a YouTuber’s address to a stranger",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
+      "summary": "Metaの個人AI「Muse」がYouTuber Matt RobbのFacebook Marketplace取引を代行中に自宅住所を第三者に開示し、低い価格で合意して買い手が来てしまった。Metaの安全性主張との矛盾が問題に。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-29T14:08:21.000Z",
+      "contentHash": "f79cbcd9a50d"
+    },
+    {
+      "id": "0936b4d179d3",
+      "title": "SteelSeries’ new mice are super light, with ultra-wideband and swappable batteries",
+      "url": "https://www.theverge.com/games/1000245/steelseries-rival-sensei-pro-uwb-swappable-batteries-specs-price",
+      "summary": "SteelSeriesが新ゲーミングマウスRival Pro（エルゴノミック）とSensei Pro（左右対称）およびmini版を10月13日発売、各179.99ドル。黒は53g（白は+1g）で超軽量。円形着脱式バッテリーと予備を充電できる無線ベースを搭載。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-29T14:00:00.000Z",
+      "contentHash": "40db7dd2e38a"
+    },
+    {
+      "id": "8ff7ce2a0755",
+      "title": "Fairphone’s next repairable wireless earbuds will launch on October 14th",
+      "url": "https://www.theverge.com/tech/1001859/fairphone-fairbuds-2-wireless-earbuds-repairable-modular-price-release",
+      "summary": "Fairphoneは10月14日に修理可能なワイヤレスイヤホン「Fairbuds 2」を発表。7つの交換式モジュールで修理性を継承し、Sonyの高音質・可変LDACに対応。旧機はSBC/AACのみ。",
+      "source": "The Verge",
+      "publishedAt": "2026-09-29T13:11:18.000Z",
+      "contentHash": "6bf088a9d90c"
+    },
     {
       "id": "0cb646596308",
       "title": "PR TIMES は PHPカンファレンス愛媛2026に協賛・登壇します！#phpcon_ehime | PR TIMES 開発者ブログ",
@@ -54,6 +90,15 @@
       "source": "OpenAI",
       "publishedAt": "2026-09-28T19:00:00.000Z",
       "contentHash": "dc6f9c179d0b"
+    },
+    {
+      "id": "2fc54b690d7b",
+      "title": "Towards safety cases for frontier AI training",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "summary": "フロンティアAIの訓練に関する初期の安全性ガイドラインは、技術的防護策、運用上の手順、そしてミスアラインメント事案の調査を含む内容になっている。",
+      "source": "OpenAI",
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "contentHash": "f4e8f2cb9187"
     },
     {
       "id": "b86603e367f7",
@@ -455,10 +500,10 @@
       "id": "50a81087aa4e",
       "title": "AIデバッグはなぜ収束しないのか - P2がいつまでも消えない理由",
       "url": "https://note.com/npaka/n/n557fb948c3cf",
-      "summary": "AIデバッグが収束しないのは、既存の問題を小分けに発見する、修正で別の不具合が生じる、評価の着眼点でP2判定が変わるため。対策はレビューと修正の分離、P2をテスト化、終了条件の設定。",
+      "summary": "AIレビューでP2が消えないのは、既存の問題を小出しに発見する、修正で別の不具合が生じる、着眼点で評価が揺れるため。収束させるにはレビューと修正を分離し、P2をテスト化して終了条件を決める。",
       "source": "npaka",
       "publishedAt": "2026-09-27T05:44:18.000Z",
-      "contentHash": "363d21ac670e"
+      "contentHash": "c01aa3bc4893"
     },
     {
       "id": "57e212c1cc83",
@@ -491,10 +536,10 @@
       "id": "ab2972a6a0f7",
       "title": "ローカルLLMのためのメモリ基礎知識",
       "url": "https://note.com/npaka/n/n0ee92a316be3",
-      "summary": "ローカルLLMの基礎：CPU/GPUは計算、RAM/VRAMはデータ置き場。GPU推論は高速だがVRAM容量が重要。ユニファイドメモリはCPUとGPUで共有するが全容量をLLMが使える訳ではない。推論時は重み・KVキャッシュ・一時領域が必要で、モデルサイズだけで必要量は決まらない。",
+      "summary": "ローカルLLMのメモリ要点：CPU/GPUは計算装置、RAM/VRAMは一時記憶。GPUは行列計算で高速だがVRAM容量が性能を左右。ユニファイドメモリは共有可能だが全量利用は不可。推論で使うのはモデル重み・KVキャッシュ・一時領域。",
       "source": "npaka",
       "publishedAt": "2026-09-27T01:41:29.000Z",
-      "contentHash": "f0894be23998"
+      "contentHash": "98c25a937f88"
     },
     {
       "id": "37a7816c451e",
@@ -8955,51 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-08-26T21:36:06.000Z",
       "contentHash": "7325c2bc8fb7"
-    },
-    {
-      "id": "4f903af43595",
-      "title": "Stripe acquires Clerky",
-      "url": "https://www.clerky.com/blog/clerky-is-joining-stripe",
-      "summary": "ClerkyがStripeに合流しました。10年以上にわたりスタートアップと弁護士の定型法務を安全かつ迅速に支援し、シリコンバレーのシード/プレシードの23%を占め、総調達額は1,400億ドル超。今後も同チームでサービスを継続します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-26T21:09:32.000Z",
-      "contentHash": "8432b5533c77"
-    },
-    {
-      "id": "bff69a9b6a67",
-      "title": "Mold: A Massively Parallel Linker",
-      "url": "https://arxiv.org/abs/2608.23228",
-      "summary": "moldは全パイプラインを大規模並列化したUnix/Linux向けリンカ。記号解決とアーカイブ処理を切り離しスケーラビリティを実現。大規模C++デバッグバイナリを数秒〜1秒未満でリンクし、lld比2.4–16.1倍、GNU ld比最大112倍高速。高速化は各パスの並列化の累積効果。ASPLOS2027採録。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-26T20:37:02.000Z",
-      "contentHash": "c453eeeda804"
-    },
-    {
-      "id": "63c615661b45",
-      "title": "IBM Unveils Next Generation Dual-Architecture Processor for IBM Z and LinuxONE",
-      "url": "https://newsroom.ibm.com/2026-08-24-ibm-unveils-next-generation-dual-architecture-processor-for-ibm-z-and-linuxone",
-      "summary": "IBMがArm協業によるデュアルアーキテクチャCPUを発表。IBM Z／LinuxONEでArmネイティブと従来環境を同時実行可能にし、2nm・11コア（5.7GHz超）、AI推論アクセラレータ、オンチップDPU、大容量キャッシュ、強化セキュリティで企業向け選択肢を拡大。",
-      "source": "Hacker News",
-      "publishedAt": "2026-08-26T20:32:29.000Z",
-      "contentHash": "c05be2ef6b57"
-    },
-    {
-      "id": "b43a1d3ce3c9",
-      "title": "7 ways to kick-start back to school using Gemini in Workspace",
-      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-workspace-back-to-school/",
-      "summary": "Google WorkspaceのGeminiで新学期を効率化する7つの方法を紹介。整理整頓やノートをプレゼンや学習ガイドに変換するなど、学期準備を支援する機能解説（生成AIによる記事）。",
-      "source": "Gemini",
-      "publishedAt": "2026-08-26T20:30:00.000Z",
-      "contentHash": "c5327db67e86"
-    },
-    {
-      "id": "d7b8767fb3e6",
-      "title": "All the ways Instagram and Facebook are changing for teens",
-      "url": "https://www.theverge.com/tech/985329/instagram-facebook-meta-settlement-changes",
-      "summary": "Metaは米国の検事総長らとの児童安全和解で、InstagramとFacebookに大幅な保護策を導入。全米のティーンを対象に利用を2時間に制限し、時間帯制限などを義務付ける。51州・準州が合意。",
-      "source": "The Verge",
-      "publishedAt": "2026-08-26T20:00:00.000Z",
-      "contentHash": "f51bc7ce3873"
     }
   ]
 }
