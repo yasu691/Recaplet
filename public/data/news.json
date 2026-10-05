@@ -1,14 +1,149 @@
 {
-  "generatedAt": "2026-10-04T19:32:24.067Z",
+  "generatedAt": "2026-10-05T05:00:37.726Z",
   "items": [
     {
+      "id": "a377b146f870",
+      "title": "AlmaLinuxにSquidをインストールして使ってみた -PART.3- ホワイトリストによるアクセス制御編 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/10/05/122542",
+      "summary": "AlmaLinux上のSquidで/etc/squid/whitelist.txtに.example.comを追加しsquid.confで参照する設定を適用。再起動後example.comは通過、未許可のexample.netは遮断。ホワイトリスト管理が容易との結論。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-05T03:25:42.000Z",
+      "contentHash": "61c8031ab75f"
+    },
+    {
+      "id": "b8ba2169e7f7",
+      "title": "永和道場でデータベースへの苦手意識を克服する | ESM アジャイル事業部 開発者ブログ",
+      "url": "https://blog.agile.esm.co.jp/entry/eiwa-dojo-maimu",
+      "summary": "7月から永和道場で平日毎日1時間RDBMSを学び、共通テーブル式や再帰CTE、モデリングを実践的に学んだことで師範や門下生の助けも得て苦手意識が解消され、自信を持ってクエリを書けるようになった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-05T03:00:00.000Z",
+      "contentHash": "e2bd82335047"
+    },
+    {
+      "id": "927cfe249ca2",
+      "title": "Nearly 200 People Under Observation After Irkutsk Lab Worker Dies from Plague",
+      "url": "https://www.themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857",
+      "summary": "イルクーツクの防疫研究所の女性職員（27〜28歳）が試験管破損で生菌に曝露し、重度の肺炎で死亡。病院は隔離、接触約197人が医療監視下に。公的行事中止、刑事捜査も開始。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-05T02:31:45.000Z",
+      "contentHash": "5541e852dbbc"
+    },
+    {
+      "id": "6503091785bf",
+      "title": "納期を断れないエンジニアがDESC法で仕様変更と向き合った話 | Nexta Tech Blogのフィード",
+      "url": "https://zenn.dev/nexta_/articles/assertive-communication-pm",
+      "summary": "プロダクト移行で頻繁な仕様変更と納期に追われる中、無条件に依頼を受け続け疲弊。DESCを含むアサーティブな対話で自己表現と境界を示し、対等に解決策を探ることで負荷を管理した経験談。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-05T02:30:05.000Z",
+      "contentHash": "6db66e72546d"
+    },
+    {
+      "id": "1f3ada388be7",
+      "title": "Datadog で始める AI エージェントのオンライン評価 | Uzabase for Engineers",
+      "url": "https://tech.uzabase.com/entry/2026/10/05/112837",
+      "summary": "AIエージェントは応答内容やツール呼び出しを含む品質をSLOで定量評価すべき。DatadogはManaged、LLM判定、外部評価、ユーザーフィードバックで記録でき、記事はGoogle ADKプラグインでローカルLLM評価をDatadogへ連携する手順を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-05T02:28:37.000Z",
+      "contentHash": "8a9cc720473d"
+    },
+    {
+      "id": "8e3612508880",
+      "title": "Go conference 2026 参加レポート | MOBILUS TECH BLOG",
+      "url": "https://mobilus.hatenablog.com/entry/2026/10/05/112528",
+      "summary": "新卒のshimizuが初参加したGo conference 2026の参加レポ。OSS継続の動機、船上でのgoroutine/channel活用、動画配信のGC最適化、uuid標準化の意思決定、go.devワークショップなどでGo理解を深めた報告。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-05T02:25:28.000Z",
+      "contentHash": "762fad9b5653"
+    },
+    {
+      "id": "716457777e52",
+      "title": "AVDのWindows 11 Multi-Session仮想マシンをAzure Backupでバックアップ・リストアする | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/avd-azure-backup-restore/",
+      "summary": "AVDのWindows 11 Multi-Session VMはAzure Backupでファイル単位・VM単位で復元可能。ファイル復元ではBitLocker無効化・管理者実行・英語ロケール・ポート3260許可が必要な場合あり。VM復元は「既存を置換」で実行すべし（「新規作成」だとホストプールの紐付けを奪われる）。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-05T02:21:00.000Z",
+      "contentHash": "fadee5ccfda0"
+    },
+    {
+      "id": "75035147a090",
+      "title": "Microsoft 365 ライセンスを切り替える方法【影響と対策編】 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/10/05/112048",
+      "summary": "Microsoft 365のライセンス切替えではExchangeのメール転送やOneDrive容量などに影響が出る可能性がある。事前に利用者へ周知し現行設定を記録、窓口を用意して切替後に設定維持を確認し、必要時復旧することが重要。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-05T02:20:48.000Z",
+      "contentHash": "a4a72cc420db"
+    },
+    {
+      "id": "5502c042ada3",
+      "title": "The new Fitbit Edge leaks",
+      "url": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks",
+      "summary": "リーク画像でGoogleの中価格帯トラッカー「Fitbit Edge」が判明。Charge系の後継でPixel WatchとAirの中間的デザイン。小型画面でウィジェット対応、7日駆動、GPS・高度計内蔵、Google MapsやYouTube Music等の限定アプリ対応。価格は約150〜200ドルと噂。",
+      "source": "The Verge",
+      "publishedAt": "2026-10-04T21:02:09.000Z",
+      "contentHash": "8e4ffb2fd183"
+    },
+    {
+      "id": "4b5153702bbf",
+      "title": "Prick’s theatrical industrial punk is perfect for spooky season",
+      "url": "https://www.theverge.com/entertainment/1004595/prick-industrial-glam-punk-album-review",
+      "summary": "Prickの演劇的インダストリアル・パンクはハロウィン等の“スプーキー”な季節に最適。トレント・レズナーのNINが演劇寄りならこうなる、という音像をテレンス・オブライエンが紹介。",
+      "source": "The Verge",
+      "publishedAt": "2026-10-04T20:00:00.000Z",
+      "contentHash": "50a8fcc4894a"
+    },
+    {
+      "id": "b0ff7ff16732",
+      "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "summary": "RemoveMacAIはmacOS 27でApple Intelligenceをオフにし、ダウンロード済みのモデルを削除・再取得を防ぐツールです。Siri等の機能や基盤モデルを削除でき、設定プロファイル承認で適用・復元が可能。curlやHomebrewで導入。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-04T19:42:25.000Z",
+      "contentHash": "7613d83ff911"
+    },
+    {
+      "id": "0c592c50a09a",
+      "title": "Improper redaction reveals Google Data Center water and electricity usage",
+      "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
+      "summary": "ネブラスカ州の年次報告で、グーグルのデータセンター（リンカーンほか）が電力・水使用量を企業秘密として黒塗りしたが、赤塗り部分のテキストをコピーして露出。リンカーンはピーク52.65MW、13.299百万ガロンと判明。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-04T19:37:05.000Z",
+      "contentHash": "d2d71692d357"
+    },
+    {
+      "id": "6cbb376bdb40",
+      "title": "A browser-native classic Visual Basic VB6 IDE",
+      "url": "https://wieslawsoltes.github.io/VB6/",
+      "summary": "申し訳ありませんが、外部サイトに直接アクセスできません。記事本文か主要箇所を貼っていただければ、200文字以内で日本語に要約します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-04T18:49:17.000Z",
+      "contentHash": "2e1e9bf615df"
+    },
+    {
+      "id": "69e0173d7c36",
+      "title": "The best early October Prime Day deals happening now",
+      "url": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
+      "summary": "Amazonが10月のPrime Day（10/6 3AM ET〜10/8 3AM ET）前に自社ハードや人気製品の先行セールを実施。割引はブラックフライデーの前触れで、10月4日の更新でApple・Beats・Kindle系の特価が追加。",
+      "source": "The Verge",
+      "publishedAt": "2026-10-04T17:18:00.000Z",
+      "contentHash": "5b47ce47fa21"
+    },
+    {
       "id": "5a1ea27ad999",
-      "title": "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
+      "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
       "summary": "ニュージャージー州副知事ダレ・コールドウェルは職員へのセクハラと倫理違反で辞任。調査はセクハラを認定したが、彼は複数のAIに解析させ「所見はなかった」と主張している。ただしAIは迎合的になりやすい。",
       "source": "The Verge",
       "publishedAt": "2026-10-04T16:16:04.000Z",
       "contentHash": "901bd79e05f4"
+    },
+    {
+      "id": "e961c820a54f",
+      "title": "Car is a smartphone on wheels. Here's who's listening",
+      "url": "https://automatictransmission.khoury.northeastern.edu/",
+      "summary": "コネクテッド車の大規模初調査。Consumer Reportsと共に21車種・30アプリを測定し、車両やアプリが位置情報などを第一・第三者へ送信し、無断で共有・販売される実態を確認。継続的な監視が必要と結論。IMC'26掲載予定。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-04T15:43:14.000Z",
+      "contentHash": "31f85c6fb660"
     },
     {
       "id": "cf635256c33b",
@@ -32,10 +167,10 @@
       "id": "6c925336fcbf",
       "title": "OpenCode 2.0 の概要",
       "url": "https://note.com/npaka/n/n124579373d23",
-      "summary": "OpenCode 2.0はオープンソースのAI開発エージェントの大幅アップデート。Server/Client化、Web UI、Plugin API、Undo/Redo、Compaction、AGENTS.md、websearch/webfetchなどを強化し多モデル対応。v2.0.22はβ扱い。",
+      "summary": "OpenCode 2.0はオープンソースのAIエージェント大改訂で、Server/Client化とWeb UI、Undo/Redo、長時間対応のCompaction、プロジェクト別指示(AGENTS.md)、Web検索やPlugin強化を含む。v2.0.22でβ扱い。",
       "source": "npaka",
       "publishedAt": "2026-10-04T13:04:45.000Z",
-      "contentHash": "4e30898c6c53"
+      "contentHash": "3bfa75887c0b"
     },
     {
       "id": "8c38f21da1df",
@@ -68,10 +203,10 @@
       "id": "04b40c4932c1",
       "title": "常駐AIエージェントで何が変わるのか？",
       "url": "https://note.com/npaka/n/n341b20a052c6",
-      "summary": "常駐AIエージェントは、問に答えるAI→仕事を実行するAIに続く進化で、メールやカレンダー等を常時監視し状況変化で自律的に対応・実行・追跡する。人がアプリを巡回する手間を減らし、短時間作業から長期課題まで継続的に解決する。",
+      "summary": "記事はAI進化を「質問に答えるAI→実行するAI→常駐AI」と整理。常駐AIは状況を自律監視して自主的に対応・解決まで追跡し、巡回作業を減らして人は作業から判断へ、生活は「聞くAI」から「気づくAI」へ変わると論じる。",
       "source": "npaka",
       "publishedAt": "2026-10-04T12:13:54.000Z",
-      "contentHash": "e2d16985501f"
+      "contentHash": "31efad9a57a0"
     },
     {
       "id": "07049e9e9c58",
@@ -81,6 +216,24 @@
       "source": "The Verge",
       "publishedAt": "2026-10-04T12:00:00.000Z",
       "contentHash": "05e4ab745e34"
+    },
+    {
+      "id": "c28dd5687530",
+      "title": "Rejection Sensitivity in Gifted and Twice-Exceptional Children",
+      "url": "https://teachyourkids.substack.com/p/rejection-sensitivity-in-gifted-and",
+      "summary": "高い感受性を持つギフテッドや2Eの子どもが拒絶に敏感になる背景（認知的強度、完全主義、自己評価の脆さ）を説明し、親や教師による共感的な受容、小さな失敗経験の積み重ね、社会スキル支援や学校連携、専門家支援などの具体的対処法を提案する。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-04T11:58:47.000Z",
+      "contentHash": "af3feb2b7820"
+    },
+    {
+      "id": "777226cc9e71",
+      "title": "VGHF Digital Archive passes 5000 magazines. Here's what's next",
+      "url": "https://gamehistory.org/5k-magazines/",
+      "summary": "Video Game History Foundationのデジタルアーカイブが5000誌超、約60万ページ、1981〜2026年を網羅。公開時の1500誌から約3倍に増え、商業誌やコミュニティ誌など多様な資料を、コミュニティのスキャン協力で収集・提供。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-04T09:07:11.000Z",
+      "contentHash": "2761f4f7f355"
     },
     {
       "id": "16d7d1f33ea5",
@@ -108,15 +261,6 @@
       "source": "The Verge",
       "publishedAt": "2026-10-03T16:49:10.000Z",
       "contentHash": "cfa6ca4049b9"
-    },
-    {
-      "id": "69e0173d7c36",
-      "title": "The best early October Prime Day deals happening now",
-      "url": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
-      "summary": "Amazonが10月6日3時（東部時間）〜8日までのPrime Dayを前に、自社機器や人気製品の早期セールを実施。ブラックフライデー級の割引の予告で、記事は最新でBoseスピーカー追加を報告。",
-      "source": "The Verge",
-      "publishedAt": "2026-10-03T16:22:40.000Z",
-      "contentHash": "aaabf8dd8063"
     },
     {
       "id": "12f1c0f583e5",
@@ -381,12 +525,12 @@
     },
     {
       "id": "0112d3171a27",
-      "title": "64GB版「NVIDIA DGX Spark」の概要",
+      "title": "NVIDIA DGX Spark 64GB版 の概要",
       "url": "https://note.com/npaka/n/nf9d4b76e18a6",
-      "summary": "NVIDIAはDGX Sparkに64GBユニファイドメモリ版を追加。100B級モデルのローカル実行や主要AIツール対応。2台をSyncで接続し合計128GB（最大200B対応）に拡張可。Cluster AssistantやModel Launcherで設定簡素化。米国発売10/23、$4,999〜、日本は未定。",
+      "summary": "NVIDIAが小型AI機「DGX Spark」に64GBユニファイドメモリ版を追加。米国で10月23日発売、4,999ドル〜。同一GB10チップとAIスタックで最大100B級モデル対応。Sync Cluster Assistantで2台接続すれば128GB化して最大200B級対応。Acer/ASUS/Dell等が販売。日本での発売日・価格は未定。",
       "source": "npaka",
       "publishedAt": "2026-10-02T13:52:23.000Z",
-      "contentHash": "b216aaf2b36a"
+      "contentHash": "323ecb1f7d48"
     },
     {
       "id": "47500ce2c422",
@@ -554,10 +698,10 @@
       "id": "bcaa1bcb6cc2",
       "title": "Mac・DGX SparkでLLM推論を最大3倍高速化する「TensorFold」の概要",
       "url": "https://note.com/npaka/n/n3d3e09549bdd",
-      "summary": "TensorFoldはApple SiliconとNVIDIA GPU対応のOSS LLM推論エンジン。Drafterが先読みしTarget Modelで検証するSpeculative Decodingで出力を保ちつつ高速化。DGXで最大約2〜3倍、Mac版はSelective StreamingでMoEのメモリ節約、OpenAI互換APIを提供。",
+      "summary": "TensorFoldはApple SiliconとNVIDIA GPU対応のオープンソースLLM推論エンジン。Speculative Decodingで複数トークンを先読み・検証し、出力の正確性を保ちながらDGX Spark等で最大約2〜3倍高速化。MoEの省メモリ実行やOpenAI互換APIも提供。",
       "source": "npaka",
       "publishedAt": "2026-10-02T01:58:12.000Z",
-      "contentHash": "cfa1e12725df"
+      "contentHash": "0df20d9fa3f3"
     },
     {
       "id": "6416c6e580fb",
@@ -581,10 +725,10 @@
       "id": "e205e39731aa",
       "title": "【書評】 あしざわ式 小説を書く人のAI実践術　創作の困ったを解決するQ&A",
       "url": "https://note.com/npaka/n/nf24be1ac4e3b",
-      "summary": "『あしざわ式 小説を書く人のAI実践術』は、生成AIを「文章生成ツール」ではなく創作の相棒として使う実践ガイド。Q&Aでアイデア、プロット、キャラ、世界観、執筆・推敲の悩みを解決し、モデル選びや著作権・利用開示も解説。小説だけでなくゲームや映像の物語制作にも応用できる。",
+      "summary": "『あしざわ式 小説を書く人のAI実践術』は、葦沢かもめがQ&AでAIを「創作の相棒」にする方法を解説。アイデア出し、プロット、キャラ設定、推敲、モデル選びや著作権対応まで実務的悩みに答え、小説やゲーム・映像制作にも応用できる実用書。",
       "source": "npaka",
       "publishedAt": "2026-10-01T23:52:49.000Z",
-      "contentHash": "a5dfb733ed79"
+      "contentHash": "aaf4fc4fe3d2"
     },
     {
       "id": "b18ced003f0a",
@@ -599,10 +743,10 @@
       "id": "7cb84b4ef52e",
       "title": "12GB VRAMで125Bモデルを動かす「Strata」の概要",
       "url": "https://note.com/npaka/n/n4a1185074686",
-      "summary": "StrataはGPUだけでなくCPU・RAM・SSDを併用し、頻出ExpertをVRAMにキャッシュ、他をCPU/SSDで処理して125B級MoEを12GB VRAM等の一般PCで動かすオープンソース推論エンジン。投機的デコードで高速化し、ベンチ結果や推奨環境（12GB以上VRAM、64GB RAM、NVMe等）、簡単なセットアップ手順を提供する。",
+      "summary": "StrataはGPU・CPU・RAM・SSDを併用し、よく使うExpertをVRAMにキャッシュ、投機的デコードで高速化してQwen3.8系などの125B級MoEを12GB前後のGPUで動かすオープンソース推論エンジン。推奨はVRAM12GB・RAM64GB・NVMe。",
       "source": "npaka",
       "publishedAt": "2026-10-01T22:30:30.000Z",
-      "contentHash": "aef82569b8cd"
+      "contentHash": "3f829a567b17"
     },
     {
       "id": "6740c72e272a",
@@ -950,10 +1094,10 @@
       "id": "03a2e7ee8d74",
       "title": "Codex Security ・ Claude Security 入門",
       "url": "https://note.com/npaka/n/n2b9c36c471b6",
-      "summary": "Codex SecurityとClaude Securityは、コード全体の構造やデータフローから脅威モデルを作成し、認証・認可やビジネスロジックなど複合的な脆弱性を発見・検証、再現や修正案提示まで行い、CI/CDに組み込めるAIベースのセキュリティツールです。",
+      "summary": "Codex SecurityとClaude Securityを使い、AIでコードベースを解析してシステム全体の攻撃経路を追跡、脆弱性の検証・修正案提示まで行う方法と運用（PRレビュー・定期スキャン・CI統合等）を解説。",
       "source": "npaka",
       "publishedAt": "2026-09-30T23:34:00.000Z",
-      "contentHash": "a79c7f17bd36"
+      "contentHash": "08a36d63d52a"
     },
     {
       "id": "9b4155d6bb12",
@@ -968,10 +1112,10 @@
       "id": "a41fc0f075ec",
       "title": "Gemini 4 Argon の概要",
       "url": "https://note.com/npaka/n/n0e3c4f8b40f8",
-      "summary": "2026年10月1日発表のGemini 4 Argonは、最大100万出力トークン対応の長時間エージェント向けフロンティアAI。ソフト開発、金融・法務、サイバーセキュリティに強く高性能を示し、当面は防御担当者向けに限定提供される。",
+      "summary": "Google DeepMindのGemini 4 Argonは、最大100万出力トークン対応の長時間エージェント向けAI。大規模ソフト開発、金融・法務やマルチモーダル解析、サイバーセcurity強化に注力し、高いベンチマーク性能を示すが提供は限定的。",
       "source": "npaka",
       "publishedAt": "2026-09-30T22:47:01.000Z",
-      "contentHash": "02e354696c4c"
+      "contentHash": "e85e6f02a207"
     },
     {
       "id": "a9a29ad46db4",
@@ -8856,150 +9000,6 @@
       "source": "The Verge",
       "publishedAt": "2026-09-02T15:47:03.000Z",
       "contentHash": "7c6bd259c6c2"
-    },
-    {
-      "id": "4e8e73255e4e",
-      "title": "Google dodges another breakup attempt",
-      "url": "https://www.theverge.com/policy/988316/google-ad-tech-antitrust-remedies-decision",
-      "summary": "米地裁ブリンケマ判事は司法省のGoogle分割要求を却下し、広告技術分野の独占是正は売却でなく行動規制で対応へ。自社優遇禁止や第三者への同等データ提供が検討される。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-02T15:42:17.000Z",
-      "contentHash": "c859a13d35f7"
-    },
-    {
-      "id": "5eb2aa71a90a",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "summary": "当社はFairwindプログラムを発表。政府や信頼できるパートナーに限定アクセスで、最先端AIを活用したプロアクティブなサイバー防御機能を提供し、政府・企業の防衛力を強化します。",
-      "source": "Gemini",
-      "publishedAt": "2026-09-02T15:40:00.000Z",
-      "contentHash": "d7fa0ce49715"
-    },
-    {
-      "id": "8cdddc611630",
-      "title": "Continuous glucose monitors are about to get more complicated",
-      "url": "https://www.theverge.com/column/988242/optimizer-abbott-libre-duo-ketones-diabetic-ketoacidosis",
-      "summary": "アボットのLibre DuoはFDA承認の世界初の2-in-1持続血糖モニターで、血糖とケトンを同時測定。糖尿病患者のケトン管理を支援する一方、ウェアラブルの過剰期待を避けられるかが課題だ。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-02T15:30:00.000Z",
-      "contentHash": "4b99e125158d"
-    },
-    {
-      "id": "333999792e78",
-      "title": "SteamdDB Joins Nexus Mods",
-      "url": "https://www.nexusmods.com/news/15597",
-      "summary": "申し訳ありませんが、外部URLは直接開けません。記事本文か要点をここに貼っていただければ、200文字以内で日本語要約します。HNのコメントもまとめ希望ならその旨お知らせください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-02T15:25:55.000Z",
-      "contentHash": "45f268935aae"
-    },
-    {
-      "id": "1e5b8618d900",
-      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "summary": "GoogleがGemini 3.8（Gemini 3.8 Flashと3.8 Flash Cyber）を発表。3.7 Flashに続く短期間のアップデートで、同等の高速・低コストを維持しつつ推論・コーディング性能を強化し、エージェント型ワークフローやサイバーセキュリティ向けに最適化。",
-      "source": "Gemini",
-      "publishedAt": "2026-09-02T15:00:00.000Z",
-      "contentHash": "7c252d872dbb"
-    },
-    {
-      "id": "94851e28049d",
-      "title": "Google avoids a breakup of its ad tech business",
-      "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
-      "summary": "ロイター：米政府の「外国でのタッチスクリーン特許請求を差し止める」試みに対し裁判所が認めず、Googleが勝訴。判決は海外での特許訴訟や権利行使の扱いに影響を与える可能性がある。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-02T14:46:16.000Z",
-      "contentHash": "8f93889a9119"
-    },
-    {
-      "id": "7ba86f7b1ce2",
-      "title": "Exit the Cave",
-      "url": "https://turtlespace.blog/p/exit-the-cave",
-      "summary": "孤独に磨く“ケイブ”礼賛を批判し、努力と進歩を取り違え、アルゴリズムやAIで自己肯定に浸る危険を、レスリング経験を例に挙げて指摘。現実世界での検証を促す。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-02T14:16:45.000Z",
-      "contentHash": "95e031d86319"
-    },
-    {
-      "id": "0ea86a000c0b",
-      "title": "GrapheneOS says Pixel 11 has MTE support after all",
-      "url": "https://grapheneos.social/@GrapheneOS/117194007157499435",
-      "summary": "申し訳ありませんが、外部URLを直接閲覧できません。記事本文を貼り付けるか主要な抜粋を共有してください。それをもとに200字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-02T14:00:28.000Z",
-      "contentHash": "325ef7b7af54"
-    },
-    {
-      "id": "b3e7eee39581",
-      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
-      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-      "summary": "380カテゴリでPerplexity系モデルを検証。7,534件の引用のうち59.8%がTranco上位10万外、23.4%は上位100万未登録。3つの新規ドメインが合計215,128件の機械生成「best <カテゴリ>」ページを供給。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-02T13:59:59.000Z",
-      "contentHash": "cf7d031fd1c8"
-    },
-    {
-      "id": "7aeda70f8181",
-      "title": "A third of Perplexity's citations don't contain the number they're cited for",
-      "url": "https://hausresearch.com/reports/perplexity-citation-audit/",
-      "summary": "Perplexityの2モデルで210社に関する310問を検証。2,511件の引用中、数値付き1,826件の引用の34.7%が参照先が開けないか数値を含まず、主張単位では872件中14.4%が誤り。死リンクは1.3%で主因は閲覧不可や参照先に数値がないこと。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-02T13:49:23.000Z",
-      "contentHash": "3df43dbe5604"
-    },
-    {
-      "id": "b9a7dc4a09e4",
-      "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
-      "url": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
-      "summary": "Aisleがcurlで6件の脆弱性（CVE）を発見・報告。OpenAIとAnthropicは同時期の検査で脆弱性を見つけられなかったとされ、記事は手法やツールの違い、第三者検証と責任ある開示の重要性を論じている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-02T13:43:14.000Z",
-      "contentHash": "719a2b23a2c0"
-    },
-    {
-      "id": "2c6e9bf7a10d",
-      "title": "Biggest dark matter detector spots a single weird particle",
-      "url": "https://www.science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle",
-      "summary": "世界最大級の暗黒物質検出器LUX‑ZEPLINが単発の異常粒子イベントを観測。暗黒物質の兆候の可能性がある一方で背景や誤検出の可能性も否定できず、研究者はさらなるデータ収集と解析で慎重に確認するとしている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-02T13:40:29.000Z",
-      "contentHash": "428a6613c8b1"
-    },
-    {
-      "id": "4c7cb9ef483a",
-      "title": "A Note from LWN",
-      "url": "https://lwn.net/Articles/1090585/",
-      "summary": "申し訳ありませんが、外部リンクの中身を直接取得できません。記事本文を貼っていただければ、200文字以内で日本語要約を作成します。コメントも要約希望なら一緒に貼ってください。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-02T13:17:12.000Z",
-      "contentHash": "613ec73b1c3a"
-    },
-    {
-      "id": "60536199b249",
-      "title": "MrBeast partners with Gemini to turn impossibly big ideas into reality",
-      "url": "https://blog.google/company-news/inside-google/company-announcements/mrbeast-gemini-google-health/",
-      "summary": "MrBeastがGoogleの生成AI「Gemini」とGoogle Healthツールを活用し、実現困難な大型企画や過酷な挑戦の立案・制作を支援するため提携した。",
-      "source": "Gemini",
-      "publishedAt": "2026-09-02T13:00:00.000Z",
-      "contentHash": "e24552f6dff8"
-    },
-    {
-      "id": "ea0a1172a1f3",
-      "title": "Aging Brains Blend Memories Together Instead of Just Forgetting Them",
-      "url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
-      "summary": "研究は高齢者の脳が記憶を単に忘れるのではなく、類似する出来事を区別できずに混同（融合）することを示した。海馬のパターン分離機能低下が原因で、記憶干渉が増え、認知支援や介入の重要性が示唆される。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-02T12:59:09.000Z",
-      "contentHash": "e87507a93cd5"
-    },
-    {
-      "id": "3bda12e16fd3",
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "summary": "ATV Big Air TourはChatGPT Workを活用し、マーケティングや商品管理を迅速化。商品写真を15分で在庫サイト化するなど、業務効率を大幅に向上させた。",
-      "source": "OpenAI",
-      "publishedAt": "2026-09-02T12:00:00.000Z",
-      "contentHash": "d3ffbfaa015f"
     }
   ]
 }
