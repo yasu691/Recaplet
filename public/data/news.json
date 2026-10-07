@@ -1,6 +1,240 @@
 {
-  "generatedAt": "2026-10-06T20:56:13.897Z",
+  "generatedAt": "2026-10-07T05:16:51.953Z",
   "items": [
+    {
+      "id": "6f047dbaa00c",
+      "title": "業務と両立しながら継続するGoogle Cloud勉強会の作り方 | INTAGE TECHのフィード",
+      "url": "https://zenn.dev/intage_tech/articles/art025-google-study",
+      "summary": "インテージが2ヶ月間、週1回（1時間）でGoogle Cloud Associate Cloud Engineer合格を目指す勉強会を実施。参加者が試験形式の問題を事前作成して出題するクイズ形式で問題を資産化。運営は持ち回り、Power Automateで自動リマインドするなど負荷分散と反復学習の仕組みで継続性を確保。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-07T04:33:51.000Z",
+      "contentHash": "c6efb95a979b"
+    },
+    {
+      "id": "f3f89f7549e3",
+      "title": "QAにおける敵対的レビューのすゝめ | TOKIUMプロダクトチーム テックブログのフィード",
+      "url": "https://zenn.dev/tokium_dev/articles/adversarial-review-premise-and-stop-rule",
+      "summary": "E2E網羅測定器をAIで作り、別AIに敵対的レビューを頼んだところ、初期は誤判定を発見したがその後は現実影響のない指摘が続き運用不能に。前提と検知器、指摘の分類を明文化し、「実データ誤判定のみをブロッカーにする」停止基準で対処した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-07T04:33:38.000Z",
+      "contentHash": "c980d7a3393a"
+    },
+    {
+      "id": "3f608859ce2b",
+      "title": "「AIエージェントキャッチアップ #92 - Cua」を開催しました | Generative Agents Tech Blog",
+      "url": "https://blog.generative-agents.co.jp/entry/2026/10/07/132351",
+      "summary": "「AIエージェントキャッチアップ #92」で、AI向けコンピューター操作OSS「Cua」を紹介。Cua DriverやCLIでLinux GUIをブラウザ経由で操作し、Codexに電卓で「6×7」を実行させる検証を行い、ツール群やウィンドウ取得→get_window_state→element_tokenでクリックする仕組みを解説しました。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-07T04:23:51.000Z",
+      "contentHash": "fa618fd59d6e"
+    },
+    {
+      "id": "6d63c1ee1722",
+      "title": "React × OIDC のトークン保管方式：localStorage / Cookie / in-memory / Backend-For-Frontend の比較と選定基準 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/10/07/132209",
+      "summary": "ReactでOIDCのトークン保管をlocalStorage／可読Cookie／in-memory／HttpOnly Cookie＋BFFの4方式でXSS耐性と運用コストを比較。漏洩影響はリフレッシュ>アクセストークン>ID。最も安全はHttpOnly＋BFF（実装負荷大）、localStorage/可読CookieはXSSに弱く、in-memoryは中間でsilent renewが必要。要件に応じて選定。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-07T04:22:09.000Z",
+      "contentHash": "7884d3922351"
+    },
+    {
+      "id": "8a19e1c7ef6e",
+      "title": "Rails / OSS パッチ会 2026年10月 (オンライン開催) のお知らせ | ESM アジャイル事業部 開発者ブログ",
+      "url": "https://blog.agile.esm.co.jp/entry/rails-oss-patch-meetup-20261008",
+      "summary": "2026年10月8日(木)17:00–19:00、DiscordでRails/OSSパッチ会を開催。Railsなどのupstreamへパッチを送る会で、Ruby/Railsコミッタのa_matsudaが相談に応じます。初心者・傍聴歓迎。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-07T03:50:00.000Z",
+      "contentHash": "531001e994b4"
+    },
+    {
+      "id": "7343ae15ee43",
+      "title": "AWS Events APIが出たので、re:Inventのセッション選びをClaude Codeに手伝ってもらった | Fenrir Engineers",
+      "url": "https://engineers.fenrir-inc.com/entry/2026/10/07/123000",
+      "summary": "AWS Events API公開を受け、著者はPythonでカタログを取得しClaude Codeと連携してre:Inventのセッション候補選定・お気に入り登録・スケジュール調整・差分追跡を実装。MCPでなくRESTを選んだ理由も解説。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-07T03:30:00.000Z",
+      "contentHash": "b1891b6d4713"
+    },
+    {
+      "id": "8cd8d724c086",
+      "title": "Clef: Cloudflareの画像対応Jev互換オープンモデルを使ってみた | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
+      "url": "https://recruit.group.gmo/engineer/jisedai/blog/clef-cloudflare-jev-openmodel/",
+      "summary": "Cloudflareは2026/10/1にJev互換の判断モデルClef（27B）とClef‑flash（9B）を公開。Apache‑2.0でHugging Face配布、ローカル実行可。Jevより高速で精度も高く（8/10）、画像入力・確率付き出力やファインチューニングを提供。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-07T03:19:35.000Z",
+      "contentHash": "b11fc5ce81a5"
+    },
+    {
+      "id": "2bcd3da7b404",
+      "title": "プレスリリースから開発を始める ― プレスリリース駆動開発をチームに広げるまで | Adwaysエンジニアブログ",
+      "url": "https://blog.engineer.adways.net/entry/2026/10/07/120000",
+      "summary": "コードを書く前にリリース告知文を先に作る「プレスリリース駆動開発」を導入。ゴールのズレ防止とエンジニアへのWhy共有のため、ディスカバリーに組み込み、ワークショップやAIで普及。読み合い重視で完璧を求めない運用が有効だった。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-07T03:00:00.000Z",
+      "contentHash": "da0b9e11eff6"
+    },
+    {
+      "id": "4ea658efbdc2",
+      "title": "KMPでアプリケーションのビジネスロジックを統一し、OSの越境を可能にした話 | LIFULL Creators Blog ",
+      "url": "https://www.lifull.blog/entry/2026/10/07/120000",
+      "summary": "LIFULL HOME'SはビジネスロジックをKotlin Multiplatformで共通化し、Android/iOSの仕様差や二重実装を解消。作業量やテスト効率が改善し施策展開も高速化。今後はアプリ全体やUIの共通化を進める。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-07T03:00:00.000Z",
+      "contentHash": "f1474db8da06"
+    },
+    {
+      "id": "c07f56f3a3f2",
+      "title": "Microsoft Digital Defense Report 2026を読む｜ID管理の重要性と、事業影響で見るセキュリティ対策 | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/microsoft-digital-defense-report-2026/",
+      "summary": "Microsoftの2026年レポートは、AIで攻撃が高速化・大規模化する一方、侵入は依然フィッシングやID悪用が主だと指摘。防御の要はID管理（MFA、最小権限、人・非人ID管理、トークン失効）、端末・クラウド・メールのログ連携、継続的な露出把握と事業影響での対策評価。AI導入は基礎対策の上で検討すべきと結論づける。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-07T02:43:00.000Z",
+      "contentHash": "df5e849678f8"
+    },
+    {
+      "id": "2c3b80948946",
+      "title": "Couple was swatted 55 times in 2 years over a post about Norm Macdonald",
+      "url": "https://www.cbc.ca/radio/asithappens/milwaukee-swatting-couple-9.7370118",
+      "summary": "外部サイトに直接アクセスできないため、記事本文を貼るか主要ポイントを教えてください。いただければ200字以内で日本語要約を作成します。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-07T01:42:24.000Z",
+      "contentHash": "57b6daf0e4aa"
+    },
+    {
+      "id": "5dcd9b62ab42",
+      "title": "Tailscale 入門 - PC・サーバーを簡単に安全につなぐ",
+      "url": "https://note.com/npaka/n/na025be62cd02",
+      "summary": "TailscaleはWireGuardで端末間をエンドツーエンド暗号化し、同一アカウントでtailnetを構築するサービス。100.x.x.xのTailscale IPやMagicDNSで端末名アクセスが可能。外出先からのSSHやクラウドVM管理に便利で、個人向けは無料。導入はインストール→ログインで簡単。",
+      "source": "npaka",
+      "publishedAt": "2026-10-07T01:20:20.000Z",
+      "contentHash": "0d5fa5ec9302"
+    },
+    {
+      "id": "393266ea5adf",
+      "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "summary": "PS5向け実行ファイルをLinux/Windowsへ自動移植するツール。リリンカでネイティブ形式化しPRXシステムライブラリを実装、エミュレーション不要。Dreaming SarahがGTX1050Tiで60fps、SPIR‑V生成、SDL入力対応。著作権物は同梱せず、GPLv2。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-06T23:28:08.000Z",
+      "contentHash": "b166403f4d6e"
+    },
+    {
+      "id": "0e401bad0dd4",
+      "title": "OpenAI drops another batch of mathematical breakthroughs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+      "summary": "OpenAIが未公開の最先端モデルで得た数学的成果をまとめた722本の原稿（372の関連群）を公開し、数百の未解決問題を解決と主張。数学界に衝撃を与え、研究倫理や学術対応への懸念が生じ、AGMAIが責任ある発表を支援している。",
+      "source": "The Verge",
+      "publishedAt": "2026-10-06T23:26:38.000Z",
+      "contentHash": "bed5446d7ad5"
+    },
+    {
+      "id": "6cf898438821",
+      "title": "State of Devs 2026",
+      "url": "https://2026.stateofdevs.com/en-US/",
+      "summary": "2026年のDevographics調査（5,463回答）で、開発者の約半数が雇用不安や低賃金を経験、25%が解雇歴、約1割が直近9か月で解雇。今後5年で26%超が職種変更を予想。初のメンタル調査では約2/3が意欲低下やシニシズムを感じ、約半数が集中困難・先延ばし・疲労・効果低下を報告。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-06T23:26:30.000Z",
+      "contentHash": "59c435385e97"
+    },
+    {
+      "id": "270d2009beef",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "summary": "OpenAIが数学関連の研究preprints（コード・データ含む）を集めたGitHubリポジトリ。大規模言語モデルの数学的推論、ベンチマーク、改善手法を扱い、Hacker Newsで議論が盛り上がっている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-06T22:17:21.000Z",
+      "contentHash": "b6ba1df98107"
+    },
+    {
+      "id": "dce7044c1456",
+      "title": "Xbox has secured exclusive GTA 6 streaming rights",
+      "url": "https://www.theverge.com/report/1005859/microsoft-xbox-gta-6-streaming-rights",
+      "summary": "XboxがGTA VIの独占ストリーミング権を獲得。Asha Sharma氏が示唆し、発売時はXbox Cloud Gamingのみで配信可能に。PC版は未発表のため、PC向けクラウド提供で訴求する狙い。期間は不明。",
+      "source": "The Verge",
+      "publishedAt": "2026-10-06T22:12:27.000Z",
+      "contentHash": "b76b9d18eaa0"
+    },
+    {
+      "id": "fb2d7b524dfb",
+      "title": "The best robot vacuum and mop deals during October Prime Day",
+      "url": "https://www.theverge.com/gadgets/1006059/robot-vacuum-mop-roborock-qrevo-prime-day-deal-sale",
+      "summary": "Amazonの10月セール（Prime Big Deal Days）で、RoborockやQrevo、Dreameなどのロボ掃除機兼モップが割引中。Amazon以外にBest Buyやメーカーのセールもあり、Dreame X60 Ultraなど人気モデルがお買い得。100件以上のセールまとめも紹介。",
+      "source": "The Verge",
+      "publishedAt": "2026-10-06T22:00:00.000Z",
+      "contentHash": "e43fb126ad83"
+    },
+    {
+      "id": "1e6d0aa6065c",
+      "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "url": "https://penguin-mail.com/",
+      "summary": "Ctrl+Jでメールアシスタントに質問すると、送信済みで返信待ちのメールやプロモーションの中身などを、アプリのツールで各受信箱を読み取り表示してくれます。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-06T21:59:43.000Z",
+      "contentHash": "cdfbf678c7b8"
+    },
+    {
+      "id": "90f14c0a051c",
+      "title": "OpenAI Decisions API の概要",
+      "url": "https://note.com/npaka/n/n4713e739fe48",
+      "summary": "OpenAIのDecisions APIは生成ではなく判定に特化した高速API（現gpt-6-luna）。predicate/choice/scoreの3種類でテキスト・画像を評価し、分類・ルーティング・重大度判定などに利用。Responsesより約10倍高速。",
+      "source": "npaka",
+      "publishedAt": "2026-10-06T21:47:13.000Z",
+      "contentHash": "5f56b5616c93"
+    },
+    {
+      "id": "68edc9012817",
+      "title": "Apple and LG team up on new smart home gear, starting with a lock, doorbell, and thermostat",
+      "url": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc",
+      "summary": "Bloomberg報道：AppleがLGと提携し、ビデオドアベル、サーモスタット、室内・屋外カメラ、デッドボルト等のLGブランドスマート家電を共同開発。10月13日のハブに統合され、ThreadやMatter対応でAppleのスマートホーム再編の一環。",
+      "source": "The Verge",
+      "publishedAt": "2026-10-06T21:39:53.000Z",
+      "contentHash": "77c624734fce"
+    },
+    {
+      "id": "ef7b53c9d6bb",
+      "title": "Sebastian Maniscalco’s SiriusXM channel is hurting up-and-coming talent, comics say",
+      "url": "https://www.theverge.com/entertainment/1006221/sebastian-maniscalco-siriusxm-channel-controversy",
+      "summary": "セバスチャン・マニスカルコのSiriusXMチャンネルが長年の「Raw Comedy」を置き換え、若手を紹介しないと仲間のコメディアンから批判。パットン・オズワルトやマーガレット・チョーらが若手登用を求めている。",
+      "source": "The Verge",
+      "publishedAt": "2026-10-06T21:10:13.000Z",
+      "contentHash": "f7551dedc01c"
+    },
+    {
+      "id": "f6e419d4eb70",
+      "title": "Decisions API is in public beta",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "summary": "Decisions APIはテキスト/画像をResponsesより約10倍高速に評価し、真偽確率(predicate)、固定選択(choice)、評価スコア(score)を返す。現在gpt-6-lunaで公開ベータ。POST /v1/decisionsで model・input・questions を送る。choiceはカテゴリ、scoreは順序付き評価の確率重み平均を出す。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-06T20:57:25.000Z",
+      "contentHash": "d5727308a011"
+    },
+    {
+      "id": "382f3fc0b927",
+      "title": "Tesla&#8217;s Model 3 and Model Y can be a backup battery for your house",
+      "url": "https://www.theverge.com/transportation/1006193/tesla-model-3-model-y-powershare-home-backup",
+      "summary": "テスラがPowershare Home BackupをModel 3/Model Yにも拡大。一部車種で双方向給電を使い、Powerwall 3併用で停電時に最大2日超のバックアップを提供（Cybertruckは3日超）。Powerwall2/Plusは対応予定。",
+      "source": "The Verge",
+      "publishedAt": "2026-10-06T20:37:54.000Z",
+      "contentHash": "87121e9827cf"
+    },
+    {
+      "id": "eef1695918d8",
+      "title": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
+      "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+      "summary": "Paramountが$111BでWarnerを買収し、Skydance主導の巨大メディア企業が誕生。映画・配信資産の統合で再編や人員削減、独禁法懸念、株価や債務への影響が波紋を呼んでいる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-06T20:33:47.000Z",
+      "contentHash": "32f1a0c5eb85"
+    },
+    {
+      "id": "6268a996e9d6",
+      "title": "Google’s power-hungry data centers crave nuclear energy",
+      "url": "https://www.theverge.com/science/1006082/google-nuclear-energy-power-purchase-agreement-constellation",
+      "summary": "Googleはデータセンター向け電力確保のため、米原発大手Constellationと20年契約を締結。既存6原発の効率改修費を保証し、約43億ドルの投資で5年以内に計約890MWの増力を見込む。",
+      "source": "The Verge",
+      "publishedAt": "2026-10-06T20:32:10.000Z",
+      "contentHash": "de42507c9293"
+    },
     {
       "id": "c42d7dbbbff6",
       "title": "Amazon’s last-gen Kindle Paperwhite is 30 percent off",
@@ -47,6 +281,15 @@
       "contentHash": "9f9cd481bd51"
     },
     {
+      "id": "5dea57cccc58",
+      "title": "Toronto-Based VPN Provider Plans to Quit Canada over Lawful-Access Bill",
+      "url": "https://citizenlab.ca/toronto-based-vpn-provider-plans-to-quit-canada-over-lawful-access-bill/",
+      "summary": "市民研究所発のVPN企業Psiphonは、警察やCSISに監視機能を秘密裏に組み込む法案C‑22が成立すれば利用者保護が損なわれるとして、月間2000万ユーザーを抱えつつカナダ撤退を表明。創設者ロン・デイバートも強く懸念。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-06T18:52:18.000Z",
+      "contentHash": "6ea64c2a5457"
+    },
+    {
       "id": "be3bee1ed2a4",
       "title": "The best deals under $25 during October Prime Day",
       "url": "https://www.theverge.com/gadgets/1005547/the-best-deals-under-25-during-october-prime-day",
@@ -54,6 +297,15 @@
       "source": "The Verge",
       "publishedAt": "2026-10-06T18:15:00.000Z",
       "contentHash": "9319221081f4"
+    },
+    {
+      "id": "eee53d0231e7",
+      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "summary": "記事はAnthropicのClaudeの「Code」機能を紹介し、対話でコード実行・テスト・デバッグやファイル操作が自然言語でできる点を実例とともに解説。開発効率向上の可能性や安全性・制約も論じている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-06T18:00:34.000Z",
+      "contentHash": "f26cc68215a3"
     },
     {
       "id": "415ae206d2bb",
@@ -83,6 +335,15 @@
       "contentHash": "85db19a70930"
     },
     {
+      "id": "ec4b5e659133",
+      "title": "Adobe Creative Suite Cleanroom Port to Rust",
+      "url": "https://github.com/storytold/photocraft",
+      "summary": "Storytoldが公開したPhotocraftは、テキストや画像を元に高度な画像生成・編集を行うオープンソースのフレームワーク。モジュール式で拡張でき、コードやデモ、導入例が公開されておりHNで議論されている。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-06T17:20:00.000Z",
+      "contentHash": "aaf0590c148b"
+    },
+    {
       "id": "fc39ef78c85d",
       "title": "Former German spy chief arrested for attempted treason",
       "url": "https://www.reuters.com/business/finance/former-german-spy-chief-detained-suspicion-espionage-treason-bild-reports-2026-10-06/",
@@ -99,6 +360,15 @@
       "source": "Hacker News",
       "publishedAt": "2026-10-06T16:23:25.000Z",
       "contentHash": "2d34c7c190ee"
+    },
+    {
+      "id": "2896758265ce",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "summary": "AtlassianとOpenAIが提携を拡大し、最先端AIモデルを企業のナレッジと結びつけて、チームの計画・開発・納品を支援する。",
+      "source": "OpenAI",
+      "publishedAt": "2026-10-06T16:00:00.000Z",
+      "contentHash": "8c091123bdd7"
     },
     {
       "id": "9505fab1d443",
@@ -236,6 +506,24 @@
       "contentHash": "cb262e073e9c"
     },
     {
+      "id": "ebb413cc5359",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading",
+      "summary": "Jump TradingはOpenAIを導入し、長時間稼働するAIワークフローで複数のデータソースを統合、専門家によるレビューを組み合わせてクオンツ研究を拡大している。",
+      "source": "OpenAI",
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "contentHash": "b7de8fc9f5ae"
+    },
+    {
+      "id": "00427e47df5e",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "summary": "OpenAIは社内の最先端モデルが導いた数学の未解決問題に関する新成果を発表し、Leanでの形式化証明や研究詳細をGitHubで公開した。",
+      "source": "OpenAI",
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "contentHash": "0045c1c78b9c"
+    },
+    {
       "id": "3dd31b1d1030",
       "title": "Polars 2.0",
       "url": "https://pola.rs/posts/release-polars-2/",
@@ -279,6 +567,15 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-10-06T10:00:00.000Z",
       "contentHash": "5c0bc0cedbc6"
+    },
+    {
+      "id": "f57eff9c23a4",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "summary": "OpenAIとIroncladが複雑な契約ワークフローでAIエージェントを訓練・評価し、専門的な業務でのコンピュータ活用を進める取り組みを紹介しています。",
+      "source": "OpenAI",
+      "publishedAt": "2026-10-06T10:00:00.000Z",
+      "contentHash": "421fe0926ad6"
     },
     {
       "id": "6dc5efef1b5b",
@@ -8703,303 +9000,6 @@
       "source": "企業テックブログRSS",
       "publishedAt": "2026-09-08T08:20:59.000Z",
       "contentHash": "b3110f24a5da"
-    },
-    {
-      "id": "741157b134ce",
-      "title": "「あとは実装するだけ」の「あと」には何が残っているのか | Algomatic Tech Blog",
-      "url": "https://tech.algomatic.jp/entry/2026/09/08/170403",
-      "summary": "事業変革本部のエンジニア・ぴやてぃが、アーキテクトを目指して実装・設計・レビューを担当。チームと議論しつつ進める開発の様子を、『真夏のアドカレ事業部編』18日目として、事業部の開発紹介とAI駆動開発の実践報告をする記事です。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-09-08T08:04:03.000Z",
-      "contentHash": "99c4054c09c2"
-    },
-    {
-      "id": "02f9066984ae",
-      "title": "1,500人のカメラマンに社内NotionのQAエージェントを提供した話 | ラブグラフのエンジニアブログのフィード",
-      "url": "https://zenn.dev/lovegraph/articles/ce6cb80756e3ca",
-      "summary": "ラブグラフのmorii（内科医）が、1500人超のカメラマン向けに肥大化したNotionを構造化し、月約1600件を5秒で応答・80%以上を回答する高速高精度QAエージェントを構築。Notionと毎日同期し画像内要素も検索可能にした事例紹介。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-09-08T08:00:19.000Z",
-      "contentHash": "004763be7d7c"
-    },
-    {
-      "id": "34b02c32c898",
-      "title": "S3 Vectors で見落としがちなクォータとコストのかかり方 | Taste of Tech Topics",
-      "url": "https://acro-engineer.hatenablog.com/entry/2026/09/08/120000",
-      "summary": "S3 Vectorsは低コストでRAG向けだが、ベクトル数・次元数・メタデータ総量（1ベクトル最大40KB）、キー数（最大50）、フィルタ可能2KBなどのクォータと、Bedrock連携時の1KB/35キー制限、ストレージ・PUT・クエリ費用に注意。導入前のメタデータ設計が重要。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-09-08T03:00:00.000Z",
-      "contentHash": "96dd229ddc0a"
-    },
-    {
-      "id": "94b159ecdd78",
-      "title": "PyCon JP 2026 in Hiroshima Participation Report | RevComm Tech Blog",
-      "url": "https://tech.revcomm.co.jp/report-pyconjp-2026-en",
-      "summary": "RevCommは2026年8月21–22日のPyCon JP（広島）にGoldスポンサーとして参加。バックエンドのRei SuyamaがASGIミドルウェアの講演を行い好評を得、会場でMiiTelの展示ブースも運営しました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-09-08T03:00:00.000Z",
-      "contentHash": "7681bb33cb1d"
-    },
-    {
-      "id": "9144b6d94ad1",
-      "title": "名古屋Ruby会議05に永和システムマネジメントからyucao24hoursとkoicがLT登壇します | ESM アジャイル事業部 開発者ブログ",
-      "url": "https://blog.agile.esm.co.jp/entry/nagoyark05",
-      "summary": "2026年9月19日、名古屋大須演芸場で開かれる名古屋Ruby会議05に永和システムマネジメントのyucao24hoursとkoicがLT登壇。yucaoは『アプレンティスシップ・パターン』と13年の歩み、koicは『The Rails Doctrine』10年の振り返りを発表。LTは14:00〜14:30。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-09-08T03:00:00.000Z",
-      "contentHash": "45d4ea91d653"
-    },
-    {
-      "id": "4498e6aab065",
-      "title": "KNOWLEDGE WORK Dev Talk #19「AIに仕事を奪われるのではなく、奪わせるキャリアを」tapih | Knowledge Work Developers Blog",
-      "url": "https://note.com/knowledgework/n/n7b6e196abc05",
-      "summary": "ナレッジワークの対談シリーズ「KNOWLEDGE WORK Dev Talk」第19回。SVP木村秀夫がPlatform Engineering担当の村岡浩史（tapih）に、キャリアや価値観、現在のプロジェクトとエンジニアのイネーブルメントについて聞く。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-09-08T02:53:35.000Z",
-      "contentHash": "e0bd8f9fe714"
-    },
-    {
-      "id": "ed2ba923a6d7",
-      "title": "Amazon Connectのノイズ制御機能とは？オーディオエンハンスメントで通話品質を向上 | Blogical",
-      "url": "https://blog.logical.co.jp/entry/2026/09/08/115231",
-      "summary": "Amazon Connectのオーディオエンハンスメントは通話の雑音を抑えて音声を明瞭化する機能。『エージェント音声分離（有線ヘッドセット限定）』と『バックグラウンドノイズ抑制（各種ヘッドセット対応）』の2モードがあり、デフォルトは無効で設定は次回通話から反映されます。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-09-08T02:52:31.000Z",
-      "contentHash": "e9980c7237b4"
-    },
-    {
-      "id": "24283a15760d",
-      "title": "週次メトリクスレポートの「判断」をスキルにした話 | hacomono TECH BLOG",
-      "url": "https://techblog.hacomono.jp/entry/2026/09/08/110000",
-      "summary": "AWSの週次メトリクス報告を自動化し、収集や閾値判定はコード化、最終判断と説明は人が行う運用に変更。全体の5xx率だけでなく業務単位の継続的失敗等を判定ルールに入れ、見落としを発見して原因追跡につなげた。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-09-08T02:30:00.000Z",
-      "contentHash": "cb91405b1db1"
-    },
-    {
-      "id": "5da07d7934e4",
-      "title": "「AIが脆弱性見つける時代」のWindows更新運用をトリアージから作り直す | CloudNative BLOGs",
-      "url": "https://blog.cloudnative.co.jp/articles/windows-patch-tuesday-surge-operations-2026/",
-      "summary": "MicrosoftのAI（MDASH）で脆弱性検出が増え、8月は421件に。件数急増で全件手動トリアージは非現実的なため、悪用済みを即時対応、残りを更新リングで自動段階配信する「2レーン運用」とSLAベースの報告を提案。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-09-08T02:18:00.000Z",
-      "contentHash": "e9e55c8392a7"
-    },
-    {
-      "id": "8d7dc77c7e0c",
-      "title": "First Xiaomi, then the world: why Arm might give phone gaming a huge graphics boost",
-      "url": "https://www.theverge.com/games/990676/arm-neural-rendering-mali-g2-ultra-xiaomi-xring-o3",
-      "summary": "アームがDLSS相当のAIグラフィックス加速をGPUに組み込み、Xiaomi 18 FoldのXring O3（Mali G2-Ultra NX）で初搭載。5年の開発で高解像度・高画質を省電力で実現し、中国先行だが来年以降世界展開へ。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-08T02:00:00.000Z",
-      "contentHash": "b1a72b0775f6"
-    },
-    {
-      "id": "043a4ff50f93",
-      "title": "Girls Meet STEM 2026夏「ZOZOTOWN・WEARを支える技術と働き方を知ろう！」を開催しました！ | ZOZO TECH BLOG",
-      "url": "https://techblog.zozo.com/entry/20260821-girls-meet-stem",
-      "summary": "2026年8月21日、ZOZOで中高生女子向けイベント「ZOZOTOWN・WEARを支える技術と働き方を知ろう！」を開催。21名が参加し、ファッション診断、ZOZOGLASSによる肌色計測、触感可変布の体験、オフィスツアー、女性エンジニアのパネルトークを通じSTEM分野への理解と関心を深めました。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-09-08T02:00:00.000Z",
-      "contentHash": "83c8d6c2626f"
-    },
-    {
-      "id": "bfccf30b0381",
-      "title": "書いたコードが、薬局の機器を動かしている。Webから越境して、システムと物理世界の両方を設計する仕事 | KAKEHASHI Tech Blog",
-      "url": "https://kakehashi-dev.hatenablog.com/entry/2026/09/08/110000",
-      "summary": "カケハシのローカルアプリ基盤チームは、レセコンや薬歴、分包機など薬局内機器とクラウドをつなぎ、NSIPSファイルを確実に処理して業務停止を防ぐ基盤を運営。医療機器連携経験の松永とフロント出身の鳥海が開発をリードし、薬剤師が患者対応に集中できる現場を目指す。",
-      "source": "企業テックブログRSS",
-      "publishedAt": "2026-09-08T02:00:00.000Z",
-      "contentHash": "dc11a4bf69c0"
-    },
-    {
-      "id": "35280f249708",
-      "title": "Jellyfin 12.0",
-      "url": "https://jellyfin.org/posts/jellyfin-release-12.0/",
-      "summary": "Jellyfin 12.0公開。DBスキーマが変わり初回起動で書き換えが行われるため、必ず停止してデータ・設定を完全手動バックアップ。10.10.7または10.11.xから更新必須。ユーザ名は大/小文字を区別しなくなり重複注意。アップ後は完全ライブラリスキャンが必須（自動でグループ化されたバージョンはスキャンまで消失表示）。書籍・コミック対応強化と性能改善あり。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-08T01:56:35.000Z",
-      "contentHash": "d78e570eb5e9"
-    },
-    {
-      "id": "fac5a01055fd",
-      "title": "I've factored the RSA keys of a Certificate Authority from the 90s",
-      "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
-      "summary": "RSAの安全性は大きな半素数の因数分解の難しさに依存するが、862ビット鍵の分解例や1024ビット廃止が示すように小鍵は脆弱。筆者は古いブラウザのアーカイブとLLMを使って、1999年のNetscapeに同梱された512ビットのSSL/S/MIMEルート証明書を見つけた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-08T01:16:59.000Z",
-      "contentHash": "215f20d1ca8b"
-    },
-    {
-      "id": "4a36ea7ba6bb",
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-      "summary": "OpenAIは学生・教育者・ジャーナリスト・報道機関向けに、ツール提供、研修、パートナーシップ強化などでジャーナリズム支援を拡大します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "contentHash": "4cf626c65778"
-    },
-    {
-      "id": "a1b72811dd25",
-      "title": "1Password increases engineering productivity 21% with Codex",
-      "url": "https://openai.com/index/1password",
-      "summary": "1PasswordのエンジニアはCodexを活用して新機能や社内ツールを素早く開発し、厳格なセキュリティ方針を維持しつつ本番対応レベルにまで仕上げています。",
-      "source": "OpenAI",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "contentHash": "d5a25fad145a"
-    },
-    {
-      "id": "a10aa370c7a5",
-      "title": "TALA Is Open-Source",
-      "url": "https://d2lang.com/blog/tala-is-open-source/",
-      "summary": "TALA（TerrastructのAutoLayout Algorithm）がD2と同じMPL‑2.0でオープンソース化。ソフトウェア設計図向けの直交レイアウトで対称性やクラスタ等を考慮。座標固定や固定と自動のハイブリッド対応でAI連携に有利だが、デフォルト3種の乱数シードなどランダム性のトレードオフがある。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-07T23:37:42.000Z",
-      "contentHash": "fdccde85cf6b"
-    },
-    {
-      "id": "54b0421de25b",
-      "title": "GPT-6 Astra で Blender Geometry Nodes を試す",
-      "url": "https://note.com/npaka/n/n99672f845acb",
-      "summary": "GPT-6 AstraにBlenderのGeometry Nodesを使わせる手順と基本を解説。Points・Instances・Fieldsやパラメータ化によるプロシージャル生成の利点を示し、森（木をInstanceで配置、密度や大きさをModifierで調整）や道路＋街灯などのプロンプト例と確認手順を紹介。",
-      "source": "npaka",
-      "publishedAt": "2026-09-07T22:26:10.000Z",
-      "contentHash": "faa842298cde"
-    },
-    {
-      "id": "11147936aa91",
-      "title": "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
-      "url": "https://www.theverge.com/transportation/991081/audi-a2-etron-ev-specs-price",
-      "summary": "アウディの新型コンパクトEV「A2 E-tron」は、英国価格£32,200（約4.5万ドル）からと手頃で、低空力係数と複数のバッテリー／駆動選択で最大航続401マイルを達成。後輪駆動の欧州市場向けで、現時点で北米導入は未定。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-07T20:03:41.000Z",
-      "contentHash": "1c0373943e01"
-    },
-    {
-      "id": "8493d613fc03",
-      "title": "Watch Los Angeles get built, one building at a time (1880–2026)",
-      "url": "https://lax-skyline.parcelscope.net/",
-      "summary": "現存する各建物を建築年ごとに1つの箱で示している。途中で取り壊された建物は含まず、過去の姿ではなく「現存する郡」を表している。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-07T18:52:06.000Z",
-      "contentHash": "7d9164d54d0b"
-    },
-    {
-      "id": "4add32dcf6df",
-      "title": "No constitutional right to clean water, federal court finds",
-      "url": "https://www.usatoday.com/story/news/nation/2026/09/07/court-constitution-right-clean-water/91649488007/",
-      "summary": "米連邦控訴裁は9月4日、ミシシッピ州ジャクソンの鉛汚染水を巡る住民の訴訟を却下し、清潔な飲料水は憲法上の権利ではないと判断した。原告は第14修正の身体的完全性侵害や公衆衛生時の真実な情報提供を求めたが、多数意見は深く根付いた権利に当たらないと述べた。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-07T17:52:58.000Z",
-      "contentHash": "ba4a396aa96b"
-    },
-    {
-      "id": "c5e8aacd4d41",
-      "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
-      "url": "https://news.ycombinator.com/item?id=49600233",
-      "summary": "市場は競争激化で安価な新モデルが頻出するため乗り換え可能性を持つべき。無料特典は長続きせず仲介に払う理由も薄い。企業は将来使用制限で収益化を図るだろう。支払う顧客はプロ寄りと中小が中心で一般層は課金しない。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-07T16:40:32.000Z",
-      "contentHash": "78f2b570b1a9"
-    },
-    {
-      "id": "2be377a0f12f",
-      "title": "Six years later, Sony revisits its legendary XM4 headphones",
-      "url": "https://www.theverge.com/tech/990687/sony-announces-xm4c-headphones",
-      "summary": "ソニーが2020年の名機WH-1000XM4を小改良した新版WH-1000XM4Cとして再投入。外観はほぼ同じで白やラベンダー色を追加。高評価だった音質とANCを受け継ぎ、2025年に廃番となった旧型が復活した。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-07T16:00:00.000Z",
-      "contentHash": "afef48c28a30"
-    },
-    {
-      "id": "fcaefa90288e",
-      "title": "EcoFlow makes the miniature power station even smaller",
-      "url": "https://www.theverge.com/science/991033/ecoflow-makes-the-miniature-power-station-even-smaller",
-      "summary": "EcoFlowの小型ポータブル電源River Gen4。River 260は256Wh、520は512Whで、長寿命かつ安全なLFP電池を採用。260はUSB×4とAC300W、520はAC×2で500W出力。日帰りや週末に最適。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-07T14:59:41.000Z",
-      "contentHash": "07f7210e1ea8"
-    },
-    {
-      "id": "19f64442bc49",
-      "title": "The real reason your phone is getting more expensive",
-      "url": "https://www.theverge.com/tech/988225/ram-shortage-supply-chain-micron-apple-iphone",
-      "summary": "スマホが高くなる本当の理由はRAM価格の急騰。世界的なメモリ不足でコスト上昇が避けられず、Appleなどの端末価格が上がる可能性が高く、解消には数年かかる見通し。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-07T12:00:00.000Z",
-      "contentHash": "121b54e34ef0"
-    },
-    {
-      "id": "0e2b0393e192",
-      "title": "Bentley’s Torcal EV tries to balance authenticity with fake V8 sounds",
-      "url": "https://www.theverge.com/transportation/990319/bentley-torcal-ev-power-ride-sound-v8",
-      "summary": "ベントレーの新型EV「Torcal」（2027年）は、ポルシェ・カイエンとプラットフォーム共有の高級電動SUV。広い室内としなやかな乗り味、職人技を重視しつつ、偽V8サウンドで「本物らしさ」を演出しようとしている。開発車は厚いカモフラージュで試乗済み。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-07T11:00:00.000Z",
-      "contentHash": "045bc1c0c3d3"
-    },
-    {
-      "id": "47ae05fd7626",
-      "title": "Huawei copies Samsung’s privacy display in its latest trifold",
-      "url": "https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display",
-      "summary": "Huaweiが中国で第3の三つ折り機Mate XT2を発表。10.2インチを内側に折るサムスン風トリフォールド設計と、Galaxy S26 Ultra類似のプライバシー強化ディスプレイを採用。初代は外側露出のアコーディオン式だった。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-07T10:09:42.000Z",
-      "contentHash": "c157c6e71caa"
-    },
-    {
-      "id": "073b13b14ae0",
-      "title": "Supporting independent journalism in Ukraine",
-      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "summary": "OpenAI、AIRPPU、WAN-IFRAがウクライナの報道機関向けに、イノベーション、復元力、独立したジャーナリズムを強化するためのAI支援プログラムを開始した。",
-      "source": "OpenAI",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "contentHash": "1eb5799e1e86"
-    },
-    {
-      "id": "d5c736f2ff62",
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "summary": "シアトル・タイムズとNewsdayがOpenAIとMicrosoftを著作権侵害で提訴。自社記事を無断で学習に使い、記事の一部を再現すると主張し、学習に使われたAIモデルの破棄も求めている。類似訴訟が相次ぐ。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-06T23:36:04.000Z",
-      "contentHash": "6e3dcd9a4ff0"
-    },
-    {
-      "id": "2cfe7e0a9cc6",
-      "title": "Making a Python interpreter in 1024 bytes",
-      "url": "https://austinhenley.com/blog/python1024.html",
-      "summary": "手書きCで512/1024バイトのPython風インタプリタ作成挑戦。全機能は無理なのでdefやコロン、インデントなど見た目を優先。再帰下降パーサで式を逐次実行し、状態はグローバルと固定長配列(999)で保持。ASTやバイトコードは使わず、エラー処理も省略。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-06T23:14:08.000Z",
-      "contentHash": "1eec8fc0e4cd"
-    },
-    {
-      "id": "0f88b0f3ab82",
-      "title": "An Amazon cargo plane crashed at Miami International Airport",
-      "url": "https://www.theverge.com/tech/990918/amazon-cargo-plane-crashed-miami",
-      "summary": "2026年9月6日、米マイアミ国際空港でサンフアン発の21 Air運航ボーイング767貨物機（アマゾン機）が着陸時に滑走路を逸脱して車両に衝突、数人負傷・機体発火。空港は閉鎖され消防60以上が出動。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-06T20:56:38.000Z",
-      "contentHash": "819febf17b1f"
-    },
-    {
-      "id": "16cfe9c67e9a",
-      "title": "It took a year to ship WebAssembly in Anubis",
-      "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
-      "summary": "このスクリプトはmain.mjsの読み込み失敗を検出し、ジッター付き指数バックオフで再注入して「Loading...」で止まる事態を防ぐ。モバイルでのコンソール不可への対策で、MITライセンス下にあり無効化を警告する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-06T20:32:38.000Z",
-      "contentHash": "6a925200456c"
-    },
-    {
-      "id": "571ff77c20a5",
-      "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
-      "url": "https://grapheneos.social/@GrapheneOS/117225539756835649",
-      "summary": "外部サイトに直接アクセスできないため、元記事や主要部分をここに貼っていただけますか？（Hacker Newsの議論も要約する場合はそちらの内容もお願いします。）貼っていただければ200文字以内で要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-06T20:24:00.000Z",
-      "contentHash": "9db5b80b5a1c"
     }
   ]
 }
