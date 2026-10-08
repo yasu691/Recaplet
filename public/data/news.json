@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2026-10-07T21:12:30.094Z",
+  "generatedAt": "2026-10-08T05:28:59.293Z",
   "items": [
+    {
+      "id": "0e67122b1672",
+      "title": "Evolveumのドキュメントから学ぶ、ID管理・アクセス管理とIGAの要点 | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/evolveum-iam-iga-principles/",
+      "summary": "EvolveumのmidPoint資料を参照し、ID管理・IAMとIGAの役割を解説。技術と業務を結び、属性同期やロール・ライフサイクル、ポリシーで実態検証・是正し、小さく始めて反復改善する実務重視の方針を示す。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-08T04:26:00.000Z",
+      "contentHash": "71f5996f1c53"
+    },
+    {
+      "id": "e0235fc3d683",
+      "title": "指摘は当たっているのに、修正案が使えない — LLM のチェックで「見つける」と「直す」を切り分けるまで | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/2026/10/08/131938",
+      "summary": "個人ナレッジのタイトル自動生成で誤りが多く、正規表現→検査エージェント→修正の三段チェックを導入した。だが指摘は的確でも修正案が悪化する問題が発生し、「見つける」と「直す」を役割分離して自動チェックを見直した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-08T04:19:38.000Z",
+      "contentHash": "43032ae4a178"
+    },
+    {
+      "id": "06716065a0b0",
+      "title": "小ささを追求した暗号が、意外と先に脆くなる | ENGINEER TECH BLOG",
+      "url": "https://note.com/mmmk4146/n/n1878f4791ac0",
+      "summary": "楕円曲線暗号（P-256）はRSA-3072より鍵や署名が小さく古典的には同等の強度だが、量子コンピュータのショア算法は鍵長に多項式で影響するため、論文の見積もりでは小さいP-256の方が先に破られる可能性がある。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-08T04:06:24.000Z",
+      "contentHash": "bc08b0eac16b"
+    },
+    {
+      "id": "e3d44de8e4c5",
+      "title": "登壇内容とともに振り返る、データ基盤チームを「データ戦略部」にした半年とこの先 | asoview! Tech Blog",
+      "url": "https://tech.asoview.co.jp/entry/2026/10/08/130434",
+      "summary": "アソビューのデータ基盤チームが「データ戦略部」に改称。4月はBIが使われない原因を基盤側に置き改善策を考え、7月は問いを持つ経営・事業側を主役にAI時代の組織・基盤を整備する方針を示し、半年で三つの主要決定を行った。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-08T04:04:34.000Z",
+      "contentHash": "5720321bc404"
+    },
+    {
+      "id": "6b2ccd28fa30",
+      "title": "Google Workspace テンプレート登録方法 | JBS Tech Blog",
+      "url": "https://blog.jbs.co.jp/entry/2026/10/08/130336",
+      "summary": "Google Workspaceのテンプレート機能は、ドキュメント／スプレッドシート／スライド等のフォーマットを組織で統一して業務効率化を図る手段です。本稿はテンプレートの準備・テンプレートギャラリーへの登録手順、カテゴリ管理、管理者権限（誰が追加できるか）や管理コンソールでの標準テーマ・テンプレート設定方法を解説します。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-08T04:03:36.000Z",
+      "contentHash": "f3c52cd04e2d"
+    },
+    {
+      "id": "a0ba2f71e777",
+      "title": "tensorlake ソフトウェアサプライチェーン攻撃の概要と対策指針 | GMO Flatt Security Blog",
+      "url": "https://blog.flatt.tech/entry/tensorlake_compromise",
+      "summary": "2026/10/08、npmのtensorlake@0.5.144にpreinstall経由でInfostealerが注入。AWS/GitHub/Kubernetes/Vault等の資格情報を窃取し、gh-token-monitorがトークン無効化でファイルを削除。対策：データバックアップ、gh-token-monitor停止、ブラウザ/AWS/GitHubトークン等のローテーションと鍵・シークレット再発行。安全版は0.5.143。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-08T03:45:15.000Z",
+      "contentHash": "33ed5cde11fd"
+    },
+    {
+      "id": "1c6a2f20fe20",
+      "title": "PHPerKaigi mini #5 開催レポート | スパイダープラス Tech Blog",
+      "url": "https://techblog.spiderplus.co.jp/entry/2026/10/08/123000",
+      "summary": "スパイダープラスは9月17日にPHPerKaigi mini #5の会場を提供。顔なじみ中心の和やかな会合で5本のLTが誤差約30秒で進行。懇親会で交流が深まり、参加者の手際よい片付けやオフィスへの好評に主催者が感謝した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-08T03:30:00.000Z",
+      "contentHash": "8147f30e85e2"
+    },
+    {
+      "id": "43bedfa4a9e7",
+      "title": "Claude Code のハーネス、別リポジトリからコピペしてない？ | every Tech Blog",
+      "url": "https://tech.every.tv/entry/2026/10/08/121837",
+      "summary": "Claude Codeのハーネスを各リポジトリでコピペしていたため設定が分岐・肥大化。エブリーは3リポジトリ分を一元管理して合計5,254行を削除。技術スタック差はpluginや読み込むファイルで吸収し、DRYで運用した。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-08T03:18:37.000Z",
+      "contentHash": "fd4a799ab867"
+    },
+    {
+      "id": "37ec33c661dd",
+      "title": "【イベントレポート後編】第4回 GMO大会議🍁秋｜「GMOフィジカルAI Awards 2026」受賞者発表と社会実装への挑戦 | GMO Developers",
+      "url": "https://developers.gmo.jp/events/86683/",
+      "summary": "GMO大会議後編では、四足歩行ロボットによる警備実証実験を中心に報告。千葉工業大とALSOKがUnitree機体を改修し安全性・運用性を検証。GMOフィジカルAI賞やNVIDIA基盤講演、学習データやサイバー防御議論も紹介。",
+      "source": "企業テックブログRSS",
+      "publishedAt": "2026-10-08T03:02:00.000Z",
+      "contentHash": "68f508363395"
+    },
+    {
+      "id": "07f028a05d60",
+      "title": "BMW’s iX4 SUV is a 428-mile defensive weapon against China’s EV takeover",
+      "url": "https://www.theverge.com/transportation/1006837/bmw-ix4-ev-range-price-specs-tesla-china",
+      "summary": "BMWの新型クーペ風SUV「iX4」は、iX3をスポーティに仕立てたNeue Klasse第3弾。Gen6バッテリーで約428マイルの長航続を実現し、2027年3月に50 xDrive、後に高性能M60を投入して中国勢への対抗を図る。",
+      "source": "The Verge",
+      "publishedAt": "2026-10-07T22:01:00.000Z",
+      "contentHash": "591a73d8d387"
+    },
+    {
+      "id": "3d4fe48f52fe",
+      "title": "Teenage Engineering’s CEO says it’ll stop making synths",
+      "url": "https://www.theverge.com/gadgets/1007489/teengage-engineering-stop-making-synths",
+      "summary": "Teenage EngineeringのCEOが再編に伴いシンセ製造を全面中止する計画を表明。象徴的なOP-1も製造停止の対象。TEは楽器以外にIKEAやNothingとのデザイン協業でも知られる。",
+      "source": "The Verge",
+      "publishedAt": "2026-10-07T21:19:54.000Z",
+      "contentHash": "8e0f331d62ba"
+    },
+    {
+      "id": "39d2fed3d434",
+      "title": "Margaret Hamilton has died",
+      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "summary": "マーガレット・ハミルトンはMITで20年以上、アポロ計画の月着陸用オンボードソフトを率いて人類を月へ導くコンピュータを開発・実装し、400人超を指揮、後に表彰された。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-07T21:16:18.000Z",
+      "contentHash": "add67710e59c"
+    },
     {
       "id": "cb9c440eefec",
       "title": "Android&#8217;s physical navigation buttons are back on Googlebooks, but not the way you think",
@@ -18,6 +126,15 @@
       "source": "The Verge",
       "publishedAt": "2026-10-07T20:30:00.000Z",
       "contentHash": "d558ae524c5a"
+    },
+    {
+      "id": "f6b7d718d0af",
+      "title": "'Jonathan' is the oldest land animal on Earth",
+      "url": "https://www.404media.co/oldest-living-land-animal-jonathan-the-tortoise/",
+      "summary": "世界最長寿の陸生動物ジョナサン（約194歳、アルダブラゾウガメ）の全ゲノムが初解読され、DNA修復やインスリン調節、ミトコンドリア機能、低エントロピーのメチル化など老化経路で独自の遺伝子変異が確認された。頬のスワブで採取し他個体と比較、研究はScience Advancesに掲載。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-07T20:01:37.000Z",
+      "contentHash": "f0e47dee3499"
     },
     {
       "id": "f73e45b448c5",
@@ -38,6 +155,24 @@
       "contentHash": "ffa08d700384"
     },
     {
+      "id": "26335cdd7f96",
+      "title": "The first Nvidia RTX Spark laptops cost up to $7,000",
+      "url": "https://www.theverge.com/gadgets/1007040/nvidias-powerful-rtx-spark-laptops-can-cost-up-to-7000",
+      "summary": "Nvidiaの新GPU「RTX Spark」搭載ノートがSurface Laptop UltraやDell、Lenovo、MSI、HP、Asusから登場。最安2,599ドル（18コア/24GB統合メモリ/512GB）でMacBook Proと競合し、128GB統合メモリなど高額構成は最大約7,000ドルに。",
+      "source": "The Verge",
+      "publishedAt": "2026-10-07T19:05:52.000Z",
+      "contentHash": "478ae440960e"
+    },
+    {
+      "id": "f912fde3e281",
+      "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+      "summary": "MetaとMicrosoftはコストと開発資源管理のため、従業員によるAnthropicのClaude利用を大幅に縮小し自社ツール（GitHub Copilot等）へ移行中。顧客向け提供は継続され、Microsoftは従業員のAI支出上限を大幅に引き下げた。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-07T18:49:40.000Z",
+      "contentHash": "13da4a5081dc"
+    },
+    {
       "id": "3e85ff476d29",
       "title": "It appears .agent and .agi are about to be the hot new domains",
       "url": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
@@ -47,13 +182,31 @@
       "contentHash": "d95e82db8c71"
     },
     {
+      "id": "9e9c9bd1f0b8",
+      "title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "url": "https://debasishg.github.io/blog/push-ifs-up-fors-down/",
+      "summary": "「ifsを上へ、forsを下へ」は分岐を呼び出し側で集約し、反復処理を下流で一括化する設計原則。可読性と性能が向上し、DBクエリ最適化や関数型のfilter/map則で理論的に説明できる。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-07T18:43:18.000Z",
+      "contentHash": "f3549ee1b05d"
+    },
+    {
       "id": "f213b8d3eadf",
       "title": "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event",
       "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
-      "summary": "MicrosoftはSurfaceイベントで、Nvidia RTX Spark搭載のArm版「Surface Laptop Ultra」を発表。8コア/24GB/512GBモデルは$2,599で10月16日発売。磁気USB-C充電を採用。開発者向け「Surface RTX Spark Dev Box」は$5,999で11月発送予定。WindowsはCopilotがローカルファイルを操作する「Hybrid Intelligence」や検索バーのクイックアクションを導入。",
+      "summary": "MicrosoftはサンフランシスコでSurface発表会を開催。Nvidia RTX Spark（Arm）搭載のSurface Laptop Ultraを発表。8コア/24GB/512GBが$2,599で10/16発売、磁気USB-C充電。開発者向けMini PC「Surface RTX Spark Dev Box」は$5,999で11月出荷。WindowsはCopilotが端末内ファイルで操作する「Hybrid Intelligence」と検索バーのクイック操作を追加。",
       "source": "The Verge",
       "publishedAt": "2026-10-07T18:42:22.000Z",
-      "contentHash": "7bd6ca0c15f8"
+      "contentHash": "8e8e514d1a83"
+    },
+    {
+      "id": "cdb1d51fae04",
+      "title": "Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "summary": "Claude Haiku 5.5は最も安く速く高性能な小型モデルで、要約・データ照会・分類など大量・低コスト作業向け。Haiku 4.5より稼働費約75%安。Opus/Sonnetと連携してコーディング支援やライブ対応に適し、Sonnetのキャッシュ料金半減やMax/Team向け月次APIクレジット導入も発表。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-07T18:01:32.000Z",
+      "contentHash": "d85f5c1a66c2"
     },
     {
       "id": "3c6644f5f311",
@@ -63,6 +216,42 @@
       "source": "The Verge",
       "publishedAt": "2026-10-07T18:01:20.000Z",
       "contentHash": "cb4b62363c70"
+    },
+    {
+      "id": "d66b18709c4b",
+      "title": "GPT‑6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "summary": "申し訳ありませんが、こちらからはウェブを直接閲覧できません。記事本文か重要箇所を貼り付けていただければ、200文字以内で日本語に要約します。HNコメントを要約希望ならそちらも貼ってください。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-07T18:00:58.000Z",
+      "contentHash": "10841af2291a"
+    },
+    {
+      "id": "286c73249272",
+      "title": "Docker Agent",
+      "url": "https://github.com/docker/docker-agent",
+      "summary": "Docker Agentは宣言的YAMLで複数エージェントを定義し、ツールやRAGを活用して協調動作するDocker CLIプラグイン。OpenAI等複数プロバイダ対応、OCIで共有可能。Docker DesktopやHomebrewで導入、APIキーかローカルモデルで利用。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-07T17:48:38.000Z",
+      "contentHash": "ce5a57f20a77"
+    },
+    {
+      "id": "3e1fccb6ce25",
+      "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "url": "https://bigwords.page/",
+      "summary": "Bigwords.pageはURLだけでフルスクリーンの大きな文字表示、タイマー、メッセージを作成・共有できるサービス。アカウントやアプリ不要で表示はURLに全て設定。色・フォント・スライド・タイマー等はURLパラメータで指定可能。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-07T15:44:21.000Z",
+      "contentHash": "c5a67c7f72e8"
+    },
+    {
+      "id": "d9ae5a9e8069",
+      "title": "Navier–Stokes Lost in Translation",
+      "url": "https://arxiv.org/abs/2610.08144",
+      "summary": "AIによる自然言語→Lean自動定式化は、数学文の曖昧さを意味的に解消する問題がSCI無限で計算的に解けないため、元の自然言語証明の正しさを保証しない。OpenAIのNavier–Stokes例などを提示。",
+      "source": "Hacker News",
+      "publishedAt": "2026-10-07T15:24:38.000Z",
+      "contentHash": "33940a3cc8ea"
     },
     {
       "id": "cab0843384ec",
@@ -221,10 +410,10 @@
       "id": "4e2511bc5fc6",
       "title": "ローカルLLMのAgentic Search入門",
       "url": "https://note.com/npaka/n/na68740e59165",
-      "summary": "Agentic SearchはLLMが必要に応じてgrepやreadなどの検索ツールを呼び出し、ファイルを直接たどって情報を探す手法。Vector Searchの埋め込み検索と対比され、Tool/Skill/MCPで構成され外部サービスと連携可能。",
+      "summary": "Agentic SearchはLLMエージェントがgrepやreadなどの検索Toolを呼び出してファイルを直接たどり情報を探すRAG手法。事前にEmbeddingで索引化するVector Searchと異なる。構成要素はTool・Skill・MCP。",
       "source": "npaka",
       "publishedAt": "2026-10-07T09:41:43.000Z",
-      "contentHash": "b6c8bd90484b"
+      "contentHash": "f06a6bafad55"
     },
     {
       "id": "4fe110486d95",
@@ -297,6 +486,15 @@
       "source": "OpenAI",
       "publishedAt": "2026-10-07T07:00:00.000Z",
       "contentHash": "dee80c49e93f"
+    },
+    {
+      "id": "a8295aad6b11",
+      "title": "マタギドライヴ時代のゲーム開発",
+      "url": "https://note.com/npaka/n/n372d88eab2de",
+      "summary": "生成AIで個人や小チームが高速に試作できるようになり、落合の「マタギドライヴ」にならい周縁を探索して未知の「面白さ」を発見・即試作・公開する開発へ。移動コスト低下で短期開発や小規模化、個人にファンがつくなど多様な成功が生まれる。",
+      "source": "npaka",
+      "publishedAt": "2026-10-07T05:47:22.000Z",
+      "contentHash": "873d002834ad"
     },
     {
       "id": "95ac17328033",
@@ -8802,204 +9000,6 @@
       "source": "OpenAI",
       "publishedAt": "2026-09-10T07:00:00.000Z",
       "contentHash": "aec25ffd9e3c"
-    },
-    {
-      "id": "6707a98468ad",
-      "title": "I think I hate the internet",
-      "url": "https://strategictree.bearblog.dev/i-think-i-hate-the-internet/",
-      "summary": "著者は現代のインターネットに失望し、広告やアルゴリズム主導の収益化が注意やコンテンツの質を損ない、分断やノイズを生んだと批判する。個人ブログやRSS、自己ホスティングなど小さく自律的な代替と距離を置くことを提案する。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-10T06:12:23.000Z",
-      "contentHash": "ff80583eb09c"
-    },
-    {
-      "id": "7ba51a4b17fc",
-      "title": "DeepSeek v4.1 Flash",
-      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-      "summary": "すみません、外部リンクへ直接アクセスできません。該当ページの本文か主要部分をここに貼っていただけますか？または、どちらのリンク（Hugging Face のモデル説明／HN の議論）を要約するか教えてください。200文字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-10T06:11:05.000Z",
-      "contentHash": "fef4b5ea972d"
-    },
-    {
-      "id": "b809c38b3971",
-      "title": "OpenAI might have stolen another major proof",
-      "url": "https://twitter.com/ValerioCapraro/status/2097791836269977996",
-      "summary": "外部リンクへ直接アクセスできないため、記事本文か主要箇所を貼ってください。いただければ200字以内で日本語要約を作成します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-10T04:19:48.000Z",
-      "contentHash": "5d217a690f85"
-    },
-    {
-      "id": "08a5f3c876b9",
-      "title": "All grown-ups were once children, but only few of them remember it",
-      "url": "https://mathstodon.xyz/@tao/117244102901892965",
-      "summary": "外部のURLへ直接アクセスできません。記事本文を貼るか主要な抜粋を教えてください。いただければ200文字以内で日本語要約します。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-10T04:04:38.000Z",
-      "contentHash": "61b0e9f659fc"
-    },
-    {
-      "id": "5801d504628c",
-      "title": "Show HN: What if the speed of light was 5 km/h?",
-      "url": "https://rivendell.dmitrybrant.com/relativity/",
-      "summary": "光速を人間の速度に縮小して、日常物で相対論的効果を直感できる可視化の試作第一版が公開され、Hacker Newsで議論されています。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-10T01:58:00.000Z",
-      "contentHash": "ac4415eea137"
-    },
-    {
-      "id": "b32e9b847135",
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "summary": "Agents API は Codex ハーネスを基盤とするマネージドサービスで、オーケストレーション、長時間セッション、ツール利用を支援し、クラウドエージェントの構築と起動を容易にします。",
-      "source": "OpenAI",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "contentHash": "2b9c9d3e5c26"
-    },
-    {
-      "id": "b8a75fb67d81",
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "summary": "GPT‑Live‑1はAPIで自然な全二重の音声会話を実現し、指示遵守性の強化、カスタム音声やテレフォニー（電話）対応を備えています。",
-      "source": "OpenAI",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "contentHash": "a0a2dd8db3b9"
-    },
-    {
-      "id": "491ca37c6658",
-      "title": "Muse, the band, lost its social media handles to Muse, Meta's new AI agent",
-      "url": "https://www.engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent/",
-      "summary": "Metaの新AI「Muse」導入に伴い、同名の英ロックバンドMuseが長年使ってきたソーシャルメディアのハンドルがMetaに取得・使用され、ファンやバンド側の混乱と反発が生じ、権利やブランド混同への懸念が高まっている。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-09T23:57:29.000Z",
-      "contentHash": "13cdc6967a88"
-    },
-    {
-      "id": "1bb7ebdf1c27",
-      "title": "Automattic's board forces CEO Matt Mullenweg into leave of absence",
-      "url": "https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence/",
-      "summary": "WordPress.com親会社Automatticの創業者兼CEOマット・マレンウェッグが取締役会の決定で本人の反対を押し切られ有給休職に。CFOマーク・デイビスが暫定CEOに就任。独立弁護士審査の時間要求は却下。WordPress.orgには影響なしと発表。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-09T23:49:29.000Z",
-      "contentHash": "67fd9c159621"
-    },
-    {
-      "id": "a94dbc711af3",
-      "title": "GPT-6 Astra が 3Dパズルゲーム『Portal』を自律クリア",
-      "url": "https://note.com/npaka/n/na3367605cf11",
-      "summary": "「GPT-6 Astra」が3Dパズルゲーム「Portal」を自律的に操作し、約24時間かけてクリアした事例をまとめた記事です。",
-      "source": "npaka",
-      "publishedAt": "2026-09-09T23:37:47.000Z",
-      "contentHash": "0be7893713dc"
-    },
-    {
-      "id": "a77658ea9247",
-      "title": "There aren’t AirPods with cameras yet and I hope it stays that way",
-      "url": "https://www.theverge.com/tech/993064/no-airpods-with-cameras-apple-event",
-      "summary": "Appleの9月イベントで折りたたみiPhone「iPhone Duo」やiPhone 18 Pro/Pro Max、AirPods 5にANC搭載、Watch Series 12/Ultra 4にSiri Recapが発表。噂のカメラ内蔵AirPods Proは2027年まで延期と報じられ、筆者は導入を歓迎しないと述べる。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-09T23:00:04.000Z",
-      "contentHash": "550edbb3b3f3"
-    },
-    {
-      "id": "2f5e5871d2f1",
-      "title": "The black iPhone Pro returns",
-      "url": "https://www.theverge.com/tech/993048/iphone-18-pro-black-color",
-      "summary": "AppleがiPhone Proに黒（ダークグレー）モデルを復活。iPhone 17 Proでは初めて黒がなく、昨年はオレンジや銀・濃青など派手色中心だったが、筆者は黒を好む。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-09T22:37:51.000Z",
-      "contentHash": "145a397b962d"
-    },
-    {
-      "id": "e9bb0a282969",
-      "title": "The incomplete history of Duo devices",
-      "url": "https://www.theverge.com/tech/992755/apple-iphone-duo-history-of-devices",
-      "summary": "Appleが折りたたみ画面の新機種「iPhone Duo」を発表。しかしサムスンやグーグルが先行しており、「Duo」も過去製品と名称が被る。折り目を目立たせないナノテクスチャを採用するが評価は時間とマーケ次第。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-09T22:23:35.000Z",
-      "contentHash": "621d85baae35"
-    },
-    {
-      "id": "686e2c588a50",
-      "title": "Blizzard Workers Win Historic Union Contract",
-      "url": "https://www.latimes.com/entertainment-arts/business/story/2026-09-09/blizzard-video-game-workers-ratify-union-contract",
-      "summary": "ロサンゼルス・タイムズによれば、ブリザードの従業員が労働組合の契約を批准。賃金や労働条件、解雇や残業の保護などを盛り込み、ゲーム業界での組織化の重要な前例となった。",
-      "source": "Hacker News",
-      "publishedAt": "2026-09-09T22:22:53.000Z",
-      "contentHash": "07967b4a15f7"
-    },
-    {
-      "id": "bd5466faf7db",
-      "title": "Automattic CEO Matt Mullenweg placed on leave",
-      "url": "https://www.theverge.com/tech/993022/wordpress-automattic-ceo-matt-mullenweg-leave-of-absence",
-      "summary": "WordPress.comの親会社Automattic CEOマット・マレンウェグが有給休職に。マレンウェグはCFOマーク・デイヴィスが取締役（アン・ダンウッディ、トニ・シュナイダー、スー・デッカー）と共謀して休職にしたと主張し、自身は反対票を投じた。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-09T22:15:52.000Z",
-      "contentHash": "1e8229ca03bc"
-    },
-    {
-      "id": "3cacf83ca6fd",
-      "title": "Hands on with the new Apple Watch Series 12 and Apple Watch Ultra 4",
-      "url": "https://www.theverge.com/tech/992568/apple-watch-hands-on-series-12-ultra-4",
-      "summary": "AppleはApple Watch Series 12とUltra 4を発表。SiriのAI機能やセラミックケース復活が特徴で、予約は本日、発売は9月18日。Series 12はアルミ$399、チタン$699、セラミック$899。使用で最大24時間、屋外運動で最大10時間、15分で最大12時間分を充電。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-09T18:53:48.000Z",
-      "contentHash": "48b8d992c689"
-    },
-    {
-      "id": "31b3849b62cc",
-      "title": "Here’s how the new iPhone 18 Pro stacks up to the last-gen models",
-      "url": "https://www.theverge.com/tech/988501/iphone-18-pro-max-spec-comparison-features",
-      "summary": "iPhone 18 Proシリーズは9月18日発売（予約9月12日）。6.3型の18 Proが1199ドル、6.9型の18 Pro Maxが1299ドルでいずれも前世代より100ドル高。大幅なカメラ強化が特徴。折りたたみiPhone Duoは10月に1999ドルで登場予定。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-09T18:53:43.000Z",
-      "contentHash": "02ab1b3cb1a3"
-    },
-    {
-      "id": "a040dce6fede",
-      "title": "Hands-on with the foldable iPhone Duo",
-      "url": "https://www.theverge.com/tech/991236/iphone-foldable-hands-on-first-impressions",
-      "summary": "Apple初の折りたたみiPhoneを実機体験。内側はマットで映り込み少なく、折り畳みは滑らかでIP68対応、折り目ほぼ目立たない。開閉時に画面が徐々にフォーカスする演出があり、外画面は5.4インチの小型サイズ。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-09T18:38:40.000Z",
-      "contentHash": "af522373503d"
-    },
-    {
-      "id": "08e91e603800",
-      "title": "Apple is raising iPhone prices by $100 on all of its old models",
-      "url": "https://www.theverge.com/tech/992551/apple-iphone-17-17e-air-price-increase",
-      "summary": "Appleが先の発表で、販売中の旧世代iPhoneを全機種一律100ドル値上げ。iPhone16は699→799ドル、iPhone17E(256GB)599→699、iPhone17(256GB)799→899、iPhone Air999→1,099ドル。廉価版iPhone18は発表されず、手頃な選択肢が値上がり。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-09T18:30:24.000Z",
-      "contentHash": "3b6f6d6408ce"
-    },
-    {
-      "id": "99f054a34cd6",
-      "title": "Apple skips the base iPhone 18 at its fall launch event",
-      "url": "https://www.theverge.com/news/991130/apple-skips-iphone-18-fall-2026-release",
-      "summary": "Appleは秋の発表で入門機iPhone 18を見送り、iPhone 18 Pro/Pro Maxと折りたたみiPhone Duoを発表しました。iPhone 18は来春へ先送りと報じられ、メモリやチップ不足で高価格モデルに注力。既存のiPhone 17／16は各100ドル値上げされました。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-09T18:19:36.000Z",
-      "contentHash": "1539731b7c43"
-    },
-    {
-      "id": "7eb54e1b9fa4",
-      "title": "Apple brought ceramic back for the Series 12",
-      "url": "https://www.theverge.com/tech/989427/ceramic-apple-watch-series-12-edition",
-      "summary": "AppleがApple Watch Series 12でセラミックケースを復活。2019年Series 5以来で、パールホワイトとナイトブルーを用意。耐傷性が高く価格は$899〜$949、基本モデル($399)より高価。「Edition」表記は復活せず。",
-      "source": "The Verge",
-      "publishedAt": "2026-09-09T18:19:02.000Z",
-      "contentHash": "d60bce574e6a"
-    },
-    {
-      "id": "3eb3e9557eb7",
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "summary": "ポール・クリスチアーノがOpenAI財団の理事会および安全・セキュリティ委員会に参加し、AIの整合性、事故防止、安全性、基準に関する経験と知見を提供します。",
-      "source": "OpenAI",
-      "publishedAt": "2026-09-09T17:00:00.000Z",
-      "contentHash": "ee9024d18999"
     }
   ]
 }
